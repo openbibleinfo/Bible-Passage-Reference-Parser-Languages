@@ -1,0 +1,504 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+  fourth: &fourth
+    - "4"
+  and:
+    - และ
+  chapter:
+    - บทที่
+ordinals:
+  - before:
+      - "ที่ "
+books:
+  - osis: Gen
+    texts:
+      - ปฐมกาล
+      - Gen
+      - ปฐก
+  - osis: Exod
+    texts:
+      - Exod
+      - อพยพ
+      - อพย
+  - osis: Bel
+    texts:
+      - Bel
+  - osis: Lev
+    texts:
+      - เลวีนิติ
+      - Lev
+      - ลนต
+  - osis: Num
+    texts:
+      - กันดารวิถี
+      - Num
+      - กดว
+  - osis: Sir
+    texts:
+      - บุตรสิรา
+      - Sir
+  - osis: Wis
+    texts:
+      - ปรีชาญาณ
+      - Wis
+  - osis: Lam
+    texts:
+      - บทเพลงคร่ำครวญ
+      - เพลงคร่ำครวญ
+      - Lam
+      - พคค
+  - osis: EpJer
+    texts:
+      - EpJer
+  - osis: Rev
+    texts:
+      - วิวรณ์
+      - Rev
+      - วว
+  - osis: PrMan
+    texts:
+      - PrMan
+  - osis: Deut
+    texts:
+      - เฉลย​ธรรม​บัญญัติ
+      - เฉลยธรรมบัญญัติ
+      - Deut
+      - ฉธบ
+  - osis: Josh
+    texts:
+      - โยชูวา
+      - Josh
+      - ยชว
+  - osis: Judg
+    texts:
+      - ผู้วินิจฉัย
+      - Judg
+      - วนฉ
+  - osis: Ruth
+    texts:
+      - นางรูธ
+      - Ruth
+      - นรธ
+  - osis: 1Esd
+    texts:
+      - 1Esd
+  - osis: 2Esd
+    texts:
+      - 2Esd
+  - osis: Isa
+    texts:
+      - อิสยาห์
+      - Isa
+      - อสย
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - ซามูเอล
+      - ซมอ
+  - osis: 2Sam
+    texts:
+      - 2 ซามูเอล
+      - 2 ซมอ
+      - 2Sam
+  - osis: 1Sam
+    texts:
+      - 1 ซามูเอล
+      - 1 ซมอ
+      - 1Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - พงศ์กษัตริย์
+      - พกษ
+  - osis: 2Kgs
+    texts:
+      - 2 พงศ์กษัตริย์
+      - 2 พกษ
+      - 2Kgs
+  - osis: 1Kgs
+    texts:
+      - 1 พงศ์กษัตริย์
+      - 1 พกษ
+      - 1Kgs
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - พงศาวดาร
+      - พศด
+  - osis: 2Chr
+    texts:
+      - 2 พงศาวดาร
+      - 2 พศด
+      - 2Chr
+  - osis: 1Chr
+    texts:
+      - 1 พงศาวดาร
+      - 1 พศด
+      - 1Chr
+  - osis: Ezra
+    texts:
+      - เอสรา
+      - Ezra
+      - อสร
+  - osis: Neh
+    texts:
+      - เนหะมีย์
+      - Neh
+      - นหม
+  - osis: GkEsth
+    texts:
+      - GkEsth
+  - osis: Esth
+    texts:
+      - เอสเธอร์
+      - Esth
+      - อสธ
+  - osis: Job
+    texts:
+      - Job
+      - โยบ
+  - osis: Ps
+    texts:
+      - เพลงสดุดี
+      - สดุดี
+      - สดด
+      - Ps
+  - osis: PrAzar
+    texts:
+      - PrAzar
+  - osis: Prov
+    texts:
+      - สุภาษิต
+      - Prov
+      - สภษ
+  - osis: Eccl
+    texts:
+      - ปัญญาจารย์
+      - Eccl
+      - ปญจ
+  - osis: SgThree
+    texts:
+      - SgThree
+  - osis: Song
+    texts:
+      - เพลงซาโลมอน
+      - เพลงโซโลมอน
+      - Song
+      - พซม
+  - osis: Jer
+    texts:
+      - เยเรมียาห์
+      - เยเรมีย์
+      - Jer
+      - ยรม
+  - osis: Ezek
+    texts:
+      - เอเสเคียล
+      - Ezek
+      - อสค
+  - osis: Dan
+    texts:
+      - ดาเนียล
+      - Dan
+      - ดนล
+  - osis: Hos
+    texts:
+      - โฮเชยาห์
+      - โฮเชยา
+      - Hos
+      - ฮชย
+  - osis: Joel
+    texts:
+      - โยเอล
+      - Joel
+      - ยอล
+  - osis: Amos
+    texts:
+      - อาโมส
+      - Amos
+      - อมส
+  - osis: Obad
+    texts:
+      - โอบาดีย์
+      - โอบาดีห์
+      - Obad
+      - อบด
+  - osis: Jonah
+    texts:
+      - โยนาห์
+      - Jonah
+      - ยนา
+  - osis: Mic
+    texts:
+      - มีคาห์
+      - Mic
+      - มคา
+  - osis: Nah
+    texts:
+      - นาฮูม
+      - Nah
+      - นฮม
+  - osis: Hab
+    texts:
+      - ฮาบากุก
+      - Hab
+      - ฮบก
+  - osis: Zeph
+    texts:
+      - เศฟันยาห์
+      - Zeph
+      - ศฟย
+  - osis: Hag
+    texts:
+      - ฮักกัย
+      - Hag
+      - ฮกก
+  - osis: Zech
+    texts:
+      - เศคาริยาห์
+      - Zech
+      - ศคย
+  - osis: Mal
+    texts:
+      - มาลาคี
+      - Mal
+      - มลค
+  - osis: Matt
+    texts:
+      - พระวรสารนักบุญแม็ทธิว
+      - มัทธิว
+      - Matt
+      - มธ
+  - osis: Mark
+    texts:
+      - พระวรสารนักบุญมาร์ค
+      - มาระโก
+      - Mark
+      - มก
+  - osis: Luke
+    texts:
+      - พระวรสารนักบุญลูค
+      - Luke
+      - ลูกา
+      - ลก
+  - osis: 1John
+    texts:
+      - 1 ยอห์น
+      - 1John
+      - 1 ยน
+  - osis: 2John
+    texts:
+      - 2 ยอห์น
+      - 2John
+      - 2 ยน
+  - osis: 3John
+    texts:
+      - 3 ยอห์น
+      - 3John
+      - 3 ยน
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - ยอห์น
+  - osis: John
+    texts:
+      - พระวรสารนักบุญจอห์น
+      - John
+      - ยน
+      - ยฮ
+  - osis: Acts
+    texts:
+      - กิจการ​ของ​อัครทูต
+      - กิจการของอัครทูต
+      - กิจการ
+      - Acts
+      - กจ
+  - osis: Rom
+    texts:
+      - Rom
+      - โรม
+      - รม
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - โครินธ์
+  - osis: 2Cor
+    texts:
+      - 2 โครินธ์
+      - 2 คธ
+      - 2 คร
+      - 2Cor
+  - osis: 1Cor
+    texts:
+      - 1 โครินธ์
+      - 1 คธ
+      - 1 คร
+      - 1Cor
+  - osis: Gal
+    texts:
+      - กาลาเทีย
+      - Gal
+      - กท
+  - osis: Eph
+    texts:
+      - เอเฟซัส
+      - Eph
+      - อฟ
+  - osis: Phil
+    texts:
+      - ฟีลิปปี
+      - Phil
+      - ฟป
+  - osis: Col
+    texts:
+      - โคโลสี
+      - Col
+      - คส
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - เธซะโลนิกา
+      - เธสะโลนิกา
+  - osis: 2Thess
+    texts:
+      - 2 เธสะโลนิกา
+      - 2ธสะโลนิกา
+      - 2Thess
+      - 2 ธส
+  - osis: 1Thess
+    texts:
+      - 1 เธสะโลนิกา
+      - 1Thess
+      - 1 ธส
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - ทิโมธี
+  - osis: 2Tim
+    texts:
+      - 2 ทิโมธี
+      - 2 ทธ
+      - 2Tim
+  - osis: 1Tim
+    texts:
+      - 1 ทิโมธี
+      - 1 ทธ
+      - 1Tim
+  - osis: Titus
+    texts:
+      - Titus
+      - ทิตัส
+      - ทต
+  - osis: Phlm
+    texts:
+      - ฟีเลโมน
+      - Phlm
+      - ฟม
+  - osis: Heb
+    texts:
+      - ฮีบรู
+      - Heb
+      - ฮบ
+  - osis: Jas
+    texts:
+      - ยากอบ
+      - Jas
+      - ยก
+      - ยบ
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - เปโตร
+  - osis: 2Pet
+    texts:
+      - 2 เปโตร
+      - 2 ปต
+      - 2Pet
+  - osis: 1Pet
+    texts:
+      - 1 เปโตร
+      - 1 ปต
+      - 1Pet
+  - osis: Jude
+    texts:
+      - Jude
+      - ยูดา
+      - ยด
+  - osis: Tob
+    texts:
+      - โทบิต
+      - Tob
+  - osis: Jdt
+    texts:
+      - ยูดิธ
+      - Jdt
+  - osis: Bar
+    texts:
+      - พระธรรมบารุค
+      - บารุค
+      - Bar
+  - osis: Sus
+    texts:
+      - Sus
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+      - osis: 3Macc
+        before: *third
+      - osis: 4Macc
+        before: *fourth
+    texts:
+      - มัคคาบี
+  - osis: 2Macc
+    texts:
+      - 2 มัคคาบี
+      - 2Macc
+  - osis: 3Macc
+    texts:
+      - 3 มัคคาบี
+      - 3Macc
+  - osis: 4Macc
+    texts:
+      - 4 มัคคาบี
+      - 4Macc
+  - osis: 1Macc
+    texts:
+      - 1 มัคคาบี
+      - 1Macc
+translations:
+  - NCV
+  - ERV

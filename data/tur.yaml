@@ -1,0 +1,1325 @@
+variables:
+  first: &first
+    - "1"
+    - I
+    - Bir
+    - Birinci
+    - İlk
+    - ilk
+    - ılk
+  second: &second
+    - "2"
+    - II
+    - İki
+    - iki
+    - ıki
+    - İkinci
+    - ikinci
+    - ıkinci
+  third: &third
+    - "3"
+    - III
+    - Üç
+    - Üçüncü
+  fourth: &fourth
+    - "4"
+    - IV
+    - Dört
+    - Dördüncü
+  gospel: &gospel
+    - a Göre İncil
+    - a Göre incil
+    - a Göre ıncil
+    - ya Göre İncil
+    - ya Göre incil
+    - ya Göre ıncil
+    - "'a Göre İncil"
+    - "'a Göre incil"
+    - "'a Göre ıncil"
+    - "'ya Göre İncil"
+    - "'ya Göre incil"
+    - "'ya Göre ıncil"
+    - İn İncili
+    - İn incili
+    - İn ıncili
+    - in İncili
+    - in incili
+    - in ıncili
+    - ın İncili
+    - ın incili
+    - ın ıncili
+    - un İncili
+    - un incili
+    - un ıncili
+    - nİn İncili
+    - nİn incili
+    - nİn ıncili
+    - nin İncili
+    - nin incili
+    - nin ıncili
+    - nın İncili
+    - nın incili
+    - nın ıncili
+    - nun İncili
+    - nun incili
+    - nun ıncili
+    - "'İn İncili"
+    - "'İn incili"
+    - "'İn ıncili"
+    - "'in İncili"
+    - "'in incili"
+    - "'in ıncili"
+    - "'ın İncili"
+    - "'ın incili"
+    - "'ın ıncili"
+    - "'un İncili"
+    - "'un incili"
+    - "'un ıncili"
+    - "'nİn İncili"
+    - "'nİn incili"
+    - "'nİn ıncili"
+    - "'nin İncili"
+    - "'nin incili"
+    - "'nin ıncili"
+    - "'nın İncili"
+    - "'nın incili"
+    - "'nın ıncili"
+    - "'nun İncili"
+    - "'nun incili"
+    - "'nun ıncili"
+    - İncili
+    - incili
+    - ıncili
+  ab:
+    - b
+    - c
+    - d
+    - e
+  and:
+    - ve
+  chapter:
+    - baplar
+    - bap
+    - bp.
+    - bp
+  ff:
+    - vs
+    - vd
+  title:
+    - başlİk
+    - başlik
+    - başlık
+  to:
+    - ile
+  verse:
+    - text: a.
+      normalize: none
+    - ayeti
+    - ayet
+books:
+  - osis: Gen
+    texts:
+      - Yaratİlİş
+      - Yaratİliş
+      - Yaratİlış
+      - Yaratilİş
+      - Yaratiliş
+      - Yaratilış
+      - Yaratılİş
+      - Yaratıliş
+      - Yaratılış
+      - Tesnİye
+      - Tesniye
+      - Tesnıye
+      - Tekvİn
+      - Tekvin
+      - Tekvın
+      - Gen
+      - Yar
+  - osis: Exod
+    texts:
+      - Mİsİr'dan Çİkİş
+      - Mİsİr'dan Çİkiş
+      - Mİsİr'dan Çİkış
+      - Mİsİr'dan Çikİş
+      - Mİsİr'dan Çikiş
+      - Mİsİr'dan Çikış
+      - Mİsİr'dan Çıkİş
+      - Mİsİr'dan Çıkiş
+      - Mİsİr'dan Çıkış
+      - Mİsir'dan Çİkİş
+      - Mİsir'dan Çİkiş
+      - Mİsir'dan Çİkış
+      - Mİsir'dan Çikİş
+      - Mİsir'dan Çikiş
+      - Mİsir'dan Çikış
+      - Mİsir'dan Çıkİş
+      - Mİsir'dan Çıkiş
+      - Mİsir'dan Çıkış
+      - Mİsır'dan Çİkİş
+      - Mİsır'dan Çİkiş
+      - Mİsır'dan Çİkış
+      - Mİsır'dan Çikİş
+      - Mİsır'dan Çikiş
+      - Mİsır'dan Çikış
+      - Mİsır'dan Çıkİş
+      - Mİsır'dan Çıkiş
+      - Mİsır'dan Çıkış
+      - Misİr'dan Çİkİş
+      - Misİr'dan Çİkiş
+      - Misİr'dan Çİkış
+      - Misİr'dan Çikİş
+      - Misİr'dan Çikiş
+      - Misİr'dan Çikış
+      - Misİr'dan Çıkİş
+      - Misİr'dan Çıkiş
+      - Misİr'dan Çıkış
+      - Misir'dan Çİkİş
+      - Misir'dan Çİkiş
+      - Misir'dan Çİkış
+      - Misir'dan Çikİş
+      - Misir'dan Çikiş
+      - Misir'dan Çikış
+      - Misir'dan Çıkİş
+      - Misir'dan Çıkiş
+      - Misir'dan Çıkış
+      - Misır'dan Çİkİş
+      - Misır'dan Çİkiş
+      - Misır'dan Çİkış
+      - Misır'dan Çikİş
+      - Misır'dan Çikiş
+      - Misır'dan Çikış
+      - Misır'dan Çıkİş
+      - Misır'dan Çıkiş
+      - Misır'dan Çıkış
+      - Mısİr'dan Çİkİş
+      - Mısİr'dan Çİkiş
+      - Mısİr'dan Çİkış
+      - Mısİr'dan Çikİş
+      - Mısİr'dan Çikiş
+      - Mısİr'dan Çikış
+      - Mısİr'dan Çıkİş
+      - Mısİr'dan Çıkiş
+      - Mısİr'dan Çıkış
+      - Mısir'dan Çİkİş
+      - Mısir'dan Çİkiş
+      - Mısir'dan Çİkış
+      - Mısir'dan Çikİş
+      - Mısir'dan Çikiş
+      - Mısir'dan Çikış
+      - Mısir'dan Çıkİş
+      - Mısir'dan Çıkiş
+      - Mısir'dan Çıkış
+      - Mısır'dan Çİkİş
+      - Mısır'dan Çİkiş
+      - Mısır'dan Çİkış
+      - Mısır'dan Çikİş
+      - Mısır'dan Çikiş
+      - Mısır'dan Çikış
+      - Mısır'dan Çıkİş
+      - Mısır'dan Çıkiş
+      - Mısır'dan Çıkış
+      - Mİsİrdan Çİkİş
+      - Mİsİrdan Çİkiş
+      - Mİsİrdan Çİkış
+      - Mİsİrdan Çikİş
+      - Mİsİrdan Çikiş
+      - Mİsİrdan Çikış
+      - Mİsİrdan Çıkİş
+      - Mİsİrdan Çıkiş
+      - Mİsİrdan Çıkış
+      - Mİsirdan Çİkİş
+      - Mİsirdan Çİkiş
+      - Mİsirdan Çİkış
+      - Mİsirdan Çikİş
+      - Mİsirdan Çikiş
+      - Mİsirdan Çikış
+      - Mİsirdan Çıkİş
+      - Mİsirdan Çıkiş
+      - Mİsirdan Çıkış
+      - Mİsırdan Çİkİş
+      - Mİsırdan Çİkiş
+      - Mİsırdan Çİkış
+      - Mİsırdan Çikİş
+      - Mİsırdan Çikiş
+      - Mİsırdan Çikış
+      - Mİsırdan Çıkİş
+      - Mİsırdan Çıkiş
+      - Mİsırdan Çıkış
+      - Misİrdan Çİkİş
+      - Misİrdan Çİkiş
+      - Misİrdan Çİkış
+      - Misİrdan Çikİş
+      - Misİrdan Çikiş
+      - Misİrdan Çikış
+      - Misİrdan Çıkİş
+      - Misİrdan Çıkiş
+      - Misİrdan Çıkış
+      - Misirdan Çİkİş
+      - Misirdan Çİkiş
+      - Misirdan Çİkış
+      - Misirdan Çikİş
+      - Misirdan Çikiş
+      - Misirdan Çikış
+      - Misirdan Çıkİş
+      - Misirdan Çıkiş
+      - Misirdan Çıkış
+      - Misırdan Çİkİş
+      - Misırdan Çİkiş
+      - Misırdan Çİkış
+      - Misırdan Çikİş
+      - Misırdan Çikiş
+      - Misırdan Çikış
+      - Misırdan Çıkİş
+      - Misırdan Çıkiş
+      - Misırdan Çıkış
+      - Mısİrdan Çİkİş
+      - Mısİrdan Çİkiş
+      - Mısİrdan Çİkış
+      - Mısİrdan Çikİş
+      - Mısİrdan Çikiş
+      - Mısİrdan Çikış
+      - Mısİrdan Çıkİş
+      - Mısİrdan Çıkiş
+      - Mısİrdan Çıkış
+      - Mısirdan Çİkİş
+      - Mısirdan Çİkiş
+      - Mısirdan Çİkış
+      - Mısirdan Çikİş
+      - Mısirdan Çikiş
+      - Mısirdan Çikış
+      - Mısirdan Çıkİş
+      - Mısirdan Çıkiş
+      - Mısirdan Çıkış
+      - Mısırdan Çİkİş
+      - Mısırdan Çİkiş
+      - Mısırdan Çİkış
+      - Mısırdan Çikİş
+      - Mısırdan Çikiş
+      - Mısırdan Çikış
+      - Mısırdan Çıkİş
+      - Mısırdan Çıkiş
+      - Mısırdan Çıkış
+      - Çİkİş
+      - Çİkiş
+      - Çİkış
+      - Çikİş
+      - Çikiş
+      - Çikış
+      - Çıkİş
+      - Çıkiş
+      - Çıkış
+      - Exod
+      - Çİk
+      - Çik
+      - Çık
+  - osis: Bel
+    texts:
+      - Bel ve Ejderha
+      - Bel
+  - osis: Lev
+    texts:
+      - Levİlİler
+      - Levİliler
+      - Levİlıler
+      - Levilİler
+      - Levililer
+      - Levilıler
+      - Levılİler
+      - Levıliler
+      - Levılıler
+      - Lev
+  - osis: Num
+    texts:
+      - Çölde Sayİm
+      - Çölde Sayim
+      - Çölde Sayım
+      - Sayİlar
+      - Sayilar
+      - Sayılar
+      - Num
+      - Say
+  - osis: Sir
+    texts:
+      - Sİrak
+      - Sirak
+      - Sırak
+      - Sir
+  - osis: Wis
+    texts:
+      - Bİlgelik
+      - Bilgelik
+      - Bılgelik
+      - Wis
+  - osis: Lam
+    texts:
+      - Ağİtlar
+      - Ağitlar
+      - Ağıtlar
+      - Ağİ
+      - Aği
+      - Ağı
+      - Lam
+  - osis: EpJer
+    texts:
+      - Yeremya'nİn Mektubu
+      - Yeremya'nin Mektubu
+      - Yeremya'nın Mektubu
+      - Yeremya’nın Mektubu
+      - Yeremyanİn Mektubu
+      - Yeremyanin Mektubu
+      - Yeremyanın Mektubu
+      - EpJer
+  - osis: Rev
+    texts:
+      - Vahİy
+      - Vahiy
+      - Vahıy
+      - Rev
+      - Vah
+      - Va
+  - osis: PrMan
+    texts:
+      - Manaşşe'nİn Duasİ
+      - Manaşşe'nİn Duasi
+      - Manaşşe'nİn Duası
+      - Manaşşe'nin Duasİ
+      - Manaşşe'nin Duasi
+      - Manaşşe'nin Duası
+      - Manaşşe'nın Duasİ
+      - Manaşşe'nın Duasi
+      - Manaşşe'nın Duası
+      - Manaşşe’nin Duası
+      - Manaşşenİn Duasİ
+      - Manaşşenİn Duasi
+      - Manaşşenİn Duası
+      - Manaşşenin Duasİ
+      - Manaşşenin Duasi
+      - Manaşşenin Duası
+      - Manaşşenın Duasİ
+      - Manaşşenın Duasi
+      - Manaşşenın Duası
+      - PrMan
+  - osis: Deut
+    texts:
+      - Yasa'nİn Tekrarİ
+      - Yasa'nİn Tekrari
+      - Yasa'nİn Tekrarı
+      - Yasa'nin Tekrarİ
+      - Yasa'nin Tekrari
+      - Yasa'nin Tekrarı
+      - Yasa'nın Tekrarİ
+      - Yasa'nın Tekrari
+      - Yasa'nın Tekrarı
+      - Yasanİn Tekrarİ
+      - Yasanİn Tekrari
+      - Yasanİn Tekrarı
+      - Yasanin Tekrarİ
+      - Yasanin Tekrari
+      - Yasanin Tekrarı
+      - Yasanın Tekrarİ
+      - Yasanın Tekrari
+      - Yasanın Tekrarı
+      - Deut
+      - Yas
+  - osis: Josh
+    texts:
+      - Josh
+      - Yeşu
+      - Yşu
+  - osis: Judg
+    texts:
+      - Hakİmler
+      - Hakimler
+      - Hakımler
+      - Judg
+      - Hak
+  - osis: Ruth
+    texts:
+      - Ruth
+      - Rut
+  - osis:
+      - osis: 1Esd
+        before: *first
+      - osis: 2Esd
+        before: *second
+    texts:
+      - Esdras
+  - osis: 1Esd
+    texts:
+      - 1. Esdras
+      - 1 Esdras
+      - 1Esd
+  - osis: 2Esd
+    texts:
+      - 2. Esdras
+      - 2 Esdras
+      - 2Esd
+  - osis: Isa
+    texts:
+      - Yeşaya
+      - Isa
+      - Yşa
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+  - osis: 2Sam
+    texts:
+      - 2. Samuel
+      - 2 Samuel
+      - 2. Sa
+      - 2 Sa
+      - 2Sam
+      - 2Sa
+  - osis: 1Sam
+    texts:
+      - 1. Samuel
+      - 1 Samuel
+      - 1. Sa
+      - 1 Sa
+      - 1Sam
+      - 1Sa
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Krallar
+  - osis: 2Kgs
+    texts:
+      - 2. Krallar
+      - 2 Krallar
+      - 2. Kr
+      - 2 Kr
+      - 2Kgs
+      - 2Kr
+  - osis: 1Kgs
+    texts:
+      - 1. Krallar
+      - 1 Krallar
+      - 1. Kr
+      - 1 Kr
+      - 1Kgs
+      - 1Kr
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Tarİhler
+      - Tarihler
+      - Tarıhler
+  - osis: 2Chr
+    texts:
+      - 2. Tarihler
+      - 2 Tarihler
+      - 2. Ta
+      - 2 Ta
+      - 2Chr
+      - 2Ta
+  - osis: 1Chr
+    texts:
+      - 1. Tarihler
+      - 1 Tarihler
+      - 1. Ta
+      - 1 Ta
+      - 1Chr
+      - 1Ta
+  - osis: Ezra
+    texts:
+      - Ezra
+      - Ezr
+  - osis: Neh
+    texts:
+      - Nehemya
+      - Neh
+  - osis: GkEsth
+    texts:
+      - Yunanca Ester
+      - Grekçe Ester
+      - GkEsth
+  - osis: Esth
+    texts:
+      - Ester
+      - Esth
+      - Est
+  - osis: Job
+    texts:
+      - Eyüp
+      - Eyü
+      - Job
+  - osis: Ps
+    texts:
+      - Mezmurlar
+      - Mezmur
+      - Mez
+      - Ps
+  - osis: PrAzar
+    texts:
+      - Azarya'nİn Duasİ
+      - Azarya'nİn Duasi
+      - Azarya'nİn Duası
+      - Azarya'nin Duasİ
+      - Azarya'nin Duasi
+      - Azarya'nin Duası
+      - Azarya'nın Duasİ
+      - Azarya'nın Duasi
+      - Azarya'nın Duası
+      - Azarya’nın Duası
+      - Azaryanİn Duasİ
+      - Azaryanİn Duasi
+      - Azaryanİn Duası
+      - Azaryanin Duasİ
+      - Azaryanin Duasi
+      - Azaryanin Duası
+      - Azaryanın Duasİ
+      - Azaryanın Duasi
+      - Azaryanın Duası
+      - PrAzar
+  - osis: Prov
+    texts:
+      - Süleyman'İn Özdeyİşlerİ
+      - Süleyman'İn Özdeyİşleri
+      - Süleyman'İn Özdeyİşlerı
+      - Süleyman'İn Özdeyişlerİ
+      - Süleyman'İn Özdeyişleri
+      - Süleyman'İn Özdeyişlerı
+      - Süleyman'İn Özdeyışlerİ
+      - Süleyman'İn Özdeyışleri
+      - Süleyman'İn Özdeyışlerı
+      - Süleyman'in Özdeyİşlerİ
+      - Süleyman'in Özdeyİşleri
+      - Süleyman'in Özdeyİşlerı
+      - Süleyman'in Özdeyişlerİ
+      - Süleyman'in Özdeyişleri
+      - Süleyman'in Özdeyişlerı
+      - Süleyman'in Özdeyışlerİ
+      - Süleyman'in Özdeyışleri
+      - Süleyman'in Özdeyışlerı
+      - Süleyman'ın Özdeyİşlerİ
+      - Süleyman'ın Özdeyİşleri
+      - Süleyman'ın Özdeyİşlerı
+      - Süleyman'ın Özdeyişlerİ
+      - Süleyman'ın Özdeyişleri
+      - Süleyman'ın Özdeyişlerı
+      - Süleyman'ın Özdeyışlerİ
+      - Süleyman'ın Özdeyışleri
+      - Süleyman'ın Özdeyışlerı
+      - Süleymanİn Özdeyİşlerİ
+      - Süleymanİn Özdeyİşleri
+      - Süleymanİn Özdeyİşlerı
+      - Süleymanİn Özdeyişlerİ
+      - Süleymanİn Özdeyişleri
+      - Süleymanİn Özdeyişlerı
+      - Süleymanİn Özdeyışlerİ
+      - Süleymanİn Özdeyışleri
+      - Süleymanİn Özdeyışlerı
+      - Süleymanin Özdeyİşlerİ
+      - Süleymanin Özdeyİşleri
+      - Süleymanin Özdeyİşlerı
+      - Süleymanin Özdeyişlerİ
+      - Süleymanin Özdeyişleri
+      - Süleymanin Özdeyişlerı
+      - Süleymanin Özdeyışlerİ
+      - Süleymanin Özdeyışleri
+      - Süleymanin Özdeyışlerı
+      - Süleymanın Özdeyİşlerİ
+      - Süleymanın Özdeyİşleri
+      - Süleymanın Özdeyİşlerı
+      - Süleymanın Özdeyişlerİ
+      - Süleymanın Özdeyişleri
+      - Süleymanın Özdeyişlerı
+      - Süleymanın Özdeyışlerİ
+      - Süleymanın Özdeyışleri
+      - Süleymanın Özdeyışlerı
+      - Süleyman'İn Mesellerİ
+      - Süleyman'İn Meselleri
+      - Süleyman'İn Mesellerı
+      - Süleyman'in Mesellerİ
+      - Süleyman'in Meselleri
+      - Süleyman'in Mesellerı
+      - Süleyman'ın Mesellerİ
+      - Süleyman'ın Meselleri
+      - Süleyman'ın Mesellerı
+      - Süleymanİn Mesellerİ
+      - Süleymanİn Meselleri
+      - Süleymanİn Mesellerı
+      - Süleymanin Mesellerİ
+      - Süleymanin Meselleri
+      - Süleymanin Mesellerı
+      - Süleymanın Mesellerİ
+      - Süleymanın Meselleri
+      - Süleymanın Mesellerı
+      - Meseller
+      - Prov
+      - Özd
+  - osis: Eccl
+    texts:
+      - Eccl
+      - Vaİz
+      - Vaiz
+      - Vaız
+      - Vaİ
+      - Vai
+      - Vaı
+  - osis: SgThree
+    texts:
+      - Üç Genç Adamİn Ezgİsİ
+      - Üç Genç Adamİn Ezgİsi
+      - Üç Genç Adamİn Ezgİsı
+      - Üç Genç Adamİn Ezgisİ
+      - Üç Genç Adamİn Ezgisi
+      - Üç Genç Adamİn Ezgisı
+      - Üç Genç Adamİn Ezgısİ
+      - Üç Genç Adamİn Ezgısi
+      - Üç Genç Adamİn Ezgısı
+      - Üç Genç Adamin Ezgİsİ
+      - Üç Genç Adamin Ezgİsi
+      - Üç Genç Adamin Ezgİsı
+      - Üç Genç Adamin Ezgisİ
+      - Üç Genç Adamin Ezgisi
+      - Üç Genç Adamin Ezgisı
+      - Üç Genç Adamin Ezgısİ
+      - Üç Genç Adamin Ezgısi
+      - Üç Genç Adamin Ezgısı
+      - Üç Genç Adamın Ezgİsİ
+      - Üç Genç Adamın Ezgİsi
+      - Üç Genç Adamın Ezgİsı
+      - Üç Genç Adamın Ezgisİ
+      - Üç Genç Adamın Ezgisi
+      - Üç Genç Adamın Ezgisı
+      - Üç Genç Adamın Ezgısİ
+      - Üç Genç Adamın Ezgısi
+      - Üç Genç Adamın Ezgısı
+      - SgThree
+  - osis: Song
+    texts:
+      - Ezgİler Ezgİsİ
+      - Ezgİler Ezgİsi
+      - Ezgİler Ezgİsı
+      - Ezgİler Ezgisİ
+      - Ezgİler Ezgisi
+      - Ezgİler Ezgisı
+      - Ezgİler Ezgısİ
+      - Ezgİler Ezgısi
+      - Ezgİler Ezgısı
+      - Ezgiler Ezgİsİ
+      - Ezgiler Ezgİsi
+      - Ezgiler Ezgİsı
+      - Ezgiler Ezgisİ
+      - Ezgiler Ezgisi
+      - Ezgiler Ezgisı
+      - Ezgiler Ezgısİ
+      - Ezgiler Ezgısi
+      - Ezgiler Ezgısı
+      - Ezgıler Ezgİsİ
+      - Ezgıler Ezgİsi
+      - Ezgıler Ezgİsı
+      - Ezgıler Ezgisİ
+      - Ezgıler Ezgisi
+      - Ezgıler Ezgisı
+      - Ezgıler Ezgısİ
+      - Ezgıler Ezgısi
+      - Ezgıler Ezgısı
+      - Song
+      - Ezg
+  - osis: Jer
+    texts:
+      - Yeremya
+      - Jer
+      - Yer
+  - osis: Ezek
+    texts:
+      - Hezekİel
+      - Hezekiel
+      - Hezekıel
+      - Ezek
+      - Hez
+  - osis: Dan
+    texts:
+      - Danİel
+      - Daniel
+      - Danıel
+      - Dan
+  - osis: Hos
+    texts:
+      - Hosea
+      - Hos
+      - Hoş
+  - osis: Joel
+    texts:
+      - Joel
+      - Yoel
+      - Yoe
+  - osis: Amos
+    texts:
+      - Amos
+      - Amo
+  - osis: Obad
+    texts:
+      - Ovadya
+      - Obad
+      - Ova
+  - osis: Jonah
+    texts:
+      - Jonah
+      - Yunus
+      - Yun
+  - osis: Mic
+    texts:
+      - Mİka
+      - Mika
+      - Mıka
+      - Mİk
+      - Mik
+      - Mık
+      - Mic
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakkuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sefanya
+      - Zeph
+      - Sef
+  - osis: Hag
+    texts:
+      - Hagay
+      - Hag
+  - osis: Zech
+    texts:
+      - Zekerİya
+      - Zekeriya
+      - Zekerıya
+      - Zech
+      - Zek
+  - osis: Mal
+    texts:
+      - Malakİ
+      - Malaki
+      - Malakı
+      - Mal
+  - osis:
+      - osis: Matt
+      - osis: Matt
+        after: *gospel
+        join: ""
+    texts:
+      - Matta
+  - osis: Matt
+    texts:
+      - Matt
+      - Mat
+  - osis:
+      - osis: Mark
+      - osis: Mark
+        after: *gospel
+        join: ""
+    texts:
+      - Markos
+  - osis: Mark
+    texts:
+      - Mark
+      - Mar
+  - osis:
+      - osis: Luke
+      - osis: Luke
+        after: *gospel
+        join: ""
+    texts:
+      - Luka
+  - osis: Luke
+    texts:
+      - Luke
+      - Luk
+  - osis: 1John
+    texts:
+      - 1. Yuhanna
+      - 1 Yuhanna
+      - 1. Yu
+      - 1John
+      - 1 Yu
+      - 1Yu
+  - osis: 2John
+    texts:
+      - 2. Yuhanna
+      - 2 Yuhanna
+      - 2. Yu
+      - 2John
+      - 2 Yu
+      - 2Yu
+  - osis: 3John
+    texts:
+      - 3. Yuhanna
+      - 3 Yuhanna
+      - 3. Yu
+      - 3John
+      - 3 Yu
+      - 3Yu
+  - osis:
+      - osis: John
+      - osis: John
+        after: *gospel
+        join: ""
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yuhanna
+  - osis: John
+    texts:
+      - John
+      - Yuh
+      - Yu
+  - osis: Acts
+    texts:
+      - Elçİlerİn İşlerİ
+      - Elçİlerİn İşleri
+      - Elçİlerİn İşlerı
+      - Elçİlerİn işlerİ
+      - Elçİlerİn işleri
+      - Elçİlerİn işlerı
+      - Elçİlerİn ışlerİ
+      - Elçİlerİn ışleri
+      - Elçİlerİn ışlerı
+      - Elçİlerin İşlerİ
+      - Elçİlerin İşleri
+      - Elçİlerin İşlerı
+      - Elçİlerin işlerİ
+      - Elçİlerin işleri
+      - Elçİlerin işlerı
+      - Elçİlerin ışlerİ
+      - Elçİlerin ışleri
+      - Elçİlerin ışlerı
+      - Elçİlerın İşlerİ
+      - Elçİlerın İşleri
+      - Elçİlerın İşlerı
+      - Elçİlerın işlerİ
+      - Elçİlerın işleri
+      - Elçİlerın işlerı
+      - Elçİlerın ışlerİ
+      - Elçİlerın ışleri
+      - Elçİlerın ışlerı
+      - Elçilerİn İşlerİ
+      - Elçilerİn İşleri
+      - Elçilerİn İşlerı
+      - Elçilerİn işlerİ
+      - Elçilerİn işleri
+      - Elçilerİn işlerı
+      - Elçilerİn ışlerİ
+      - Elçilerİn ışleri
+      - Elçilerİn ışlerı
+      - Elçilerin İşlerİ
+      - Elçilerin İşleri
+      - Elçilerin İşlerı
+      - Elçilerin işlerİ
+      - Elçilerin işleri
+      - Elçilerin işlerı
+      - Elçilerin ışlerİ
+      - Elçilerin ışleri
+      - Elçilerin ışlerı
+      - Elçilerın İşlerİ
+      - Elçilerın İşleri
+      - Elçilerın İşlerı
+      - Elçilerın işlerİ
+      - Elçilerın işleri
+      - Elçilerın işlerı
+      - Elçilerın ışlerİ
+      - Elçilerın ışleri
+      - Elçilerın ışlerı
+      - Elçılerİn İşlerİ
+      - Elçılerİn İşleri
+      - Elçılerİn İşlerı
+      - Elçılerİn işlerİ
+      - Elçılerİn işleri
+      - Elçılerİn işlerı
+      - Elçılerİn ışlerİ
+      - Elçılerİn ışleri
+      - Elçılerİn ışlerı
+      - Elçılerin İşlerİ
+      - Elçılerin İşleri
+      - Elçılerin İşlerı
+      - Elçılerin işlerİ
+      - Elçılerin işleri
+      - Elçılerin işlerı
+      - Elçılerin ışlerİ
+      - Elçılerin ışleri
+      - Elçılerin ışlerı
+      - Elçılerın İşlerİ
+      - Elçılerın İşleri
+      - Elçılerın İşlerı
+      - Elçılerın işlerİ
+      - Elçılerın işleri
+      - Elçılerın işlerı
+      - Elçılerın ışlerİ
+      - Elçılerın ışleri
+      - Elçılerın ışlerı
+      - Acts
+      - Elç
+  - osis: Rom
+    texts:
+      - Romalİlar
+      - Romalilar
+      - Romalılar
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korİntoslular
+      - Korintoslular
+      - Korıntoslular
+      - Korİntlİler
+      - Korİntliler
+      - Korİntlıler
+      - Korintlİler
+      - Korintliler
+      - Korintlıler
+      - Korıntlİler
+      - Korıntliler
+      - Korıntlıler
+  - osis: 2Cor
+    texts:
+      - 2. Korintliler
+      - 2 Korintliler
+      - 2. Ko
+      - 2 Ko
+      - 2Cor
+      - 2Ko
+  - osis: 1Cor
+    texts:
+      - 1. Korintliler
+      - 1 Korintliler
+      - 1. Ko
+      - 1 Ko
+      - 1Cor
+      - 1Ko
+  - osis: Gal
+    texts:
+      - Galatyalİlar
+      - Galatyalilar
+      - Galatyalılar
+      - Gal
+  - osis: Eph
+    texts:
+      - Efeslİler
+      - Efesliler
+      - Efeslıler
+      - Efe
+      - Eph
+      - Ef
+  - osis: Phil
+    texts:
+      - Fİlİpİlİler
+      - Fİlİpİliler
+      - Fİlİpİlıler
+      - Fİlİpilİler
+      - Fİlİpililer
+      - Fİlİpilıler
+      - Fİlİpılİler
+      - Fİlİpıliler
+      - Fİlİpılıler
+      - Fİlipİlİler
+      - Fİlipİliler
+      - Fİlipİlıler
+      - Fİlipilİler
+      - Fİlipililer
+      - Fİlipilıler
+      - Fİlipılİler
+      - Fİlipıliler
+      - Fİlipılıler
+      - Fİlıpİlİler
+      - Fİlıpİliler
+      - Fİlıpİlıler
+      - Fİlıpilİler
+      - Fİlıpililer
+      - Fİlıpilıler
+      - Fİlıpılİler
+      - Fİlıpıliler
+      - Fİlıpılıler
+      - Filİpİlİler
+      - Filİpİliler
+      - Filİpİlıler
+      - Filİpilİler
+      - Filİpililer
+      - Filİpilıler
+      - Filİpılİler
+      - Filİpıliler
+      - Filİpılıler
+      - Filipİlİler
+      - Filipİliler
+      - Filipİlıler
+      - Filipilİler
+      - Filipililer
+      - Filipilıler
+      - Filipılİler
+      - Filipıliler
+      - Filipılıler
+      - Filıpİlİler
+      - Filıpİliler
+      - Filıpİlıler
+      - Filıpilİler
+      - Filıpililer
+      - Filıpilıler
+      - Filıpılİler
+      - Filıpıliler
+      - Filıpılıler
+      - Fılİpİlİler
+      - Fılİpİliler
+      - Fılİpİlıler
+      - Fılİpilİler
+      - Fılİpililer
+      - Fılİpilıler
+      - Fılİpılİler
+      - Fılİpıliler
+      - Fılİpılıler
+      - Fılipİlİler
+      - Fılipİliler
+      - Fılipİlıler
+      - Fılipilİler
+      - Fılipililer
+      - Fılipilıler
+      - Fılipılİler
+      - Fılipıliler
+      - Fılipılıler
+      - Fılıpİlİler
+      - Fılıpİliler
+      - Fılıpİlıler
+      - Fılıpilİler
+      - Fılıpililer
+      - Fılıpilıler
+      - Fılıpılİler
+      - Fılıpıliler
+      - Fılıpılıler
+      - Phil
+      - Flp
+  - osis: Col
+    texts:
+      - Koloselİler
+      - Koloseliler
+      - Koloselıler
+      - Col
+      - Kol
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Selanİklİler
+      - Selanİkliler
+      - Selanİklıler
+      - Selaniklİler
+      - Selanikliler
+      - Selaniklıler
+      - Selanıklİler
+      - Selanıkliler
+      - Selanıklıler
+  - osis: 2Thess
+    texts:
+      - 2. Selanikliler
+      - 2 Selanikliler
+      - 2Thess
+      - 2. Se
+      - 2 Se
+      - 2Se
+  - osis: 1Thess
+    texts:
+      - 1. Selanikliler
+      - 1 Selanikliler
+      - 1Thess
+      - 1. Se
+      - 1 Se
+      - 1Se
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tİmoteos
+      - Timoteos
+      - Tımoteos
+  - osis: 2Tim
+    texts:
+      - 2. Timoteos
+      - 2 Timoteos
+      - 2. Tİ
+      - 2. Ti
+      - 2. Tı
+      - 2 Tİ
+      - 2 Ti
+      - 2 Tı
+      - 2Tim
+      - 2Ti
+  - osis: 1Tim
+    texts:
+      - 1. Timoteos
+      - 1 Timoteos
+      - 1. Tİ
+      - 1. Ti
+      - 1. Tı
+      - 1 Tİ
+      - 1 Ti
+      - 1 Tı
+      - 1Tim
+      - 1Ti
+  - osis: Titus
+    texts:
+      - Tİtus
+      - Titus
+      - Tıtus
+      - Tİt
+      - Tit
+      - Tıt
+  - osis: Phlm
+    texts:
+      - Fİlİmon
+      - Fİlimon
+      - Fİlımon
+      - Filİmon
+      - Filimon
+      - Filımon
+      - Fılİmon
+      - Fılimon
+      - Fılımon
+      - Phlm
+      - Flm
+  - osis: Heb
+    texts:
+      - İbranİler
+      - İbraniler
+      - İbranıler
+      - ibranİler
+      - ibraniler
+      - ibranıler
+      - ıbranİler
+      - ıbraniler
+      - ıbranıler
+      - Heb
+      - İbr
+      - ibr
+      - ıbr
+  - osis: Jas
+    texts:
+      - Yakup
+      - Jas
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petrus
+  - osis: 2Pet
+    texts:
+      - 2. Petrus
+      - 2 Petrus
+      - 2. Pe
+      - 2 Pe
+      - 2Pet
+      - 2Pe
+  - osis: 1Pet
+    texts:
+      - 1. Petrus
+      - 1 Petrus
+      - 1. Pe
+      - 1 Pe
+      - 1Pet
+      - 1Pe
+  - osis: Jude
+    texts:
+      - Yahuda
+      - Jude
+      - Yah
+  - osis: Tob
+    texts:
+      - Tobİt
+      - Tobit
+      - Tobıt
+      - Tob
+  - osis: Jdt
+    texts:
+      - Yudİt
+      - Yudit
+      - Yudıt
+      - Jdt
+  - osis: Bar
+    texts:
+      - Baruk
+      - Bar
+  - osis: Sus
+    texts:
+      - Suzanna
+      - Sus
+      - Suz
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+      - osis: 3Macc
+        before: *third
+      - osis: 4Macc
+        before: *fourth
+    texts:
+      - Makabeler
+  - osis: 2Macc
+    texts:
+      - 2. Makabeler
+      - 2 Makabeler
+      - 2Macc
+  - osis: 3Macc
+    texts:
+      - 3. Makabeler
+      - 3 Makabeler
+      - 3Macc
+  - osis: 4Macc
+    texts:
+      - 4. Makabeler
+      - 4 Makabeler
+      - 4Macc
+  - osis: 1Macc
+    texts:
+      - 1. Makabeler
+      - 1 Makabeler
+      - 1Macc
+translations:
+  - YC
+  - text: YC1998
+    osis: YC
+    system: default
+  - text: YC2001
+    osis: YC
+    system: default
+  - text: YC2008
+    osis: YC
+    system: default
+  - text: YC2009
+    osis: YC
+    system: default
+  - KM
+  - TC
+  - text: COS
+    osis: TC
+    system: default
+  - CAN
+  - TSV
+  - HADI

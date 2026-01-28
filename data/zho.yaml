@@ -1,0 +1,628 @@
+options:
+  before_every_book:
+    regexp: 《?
+  after_every_book:
+    regexp: 》?
+  before_book_allowed_characters:
+    regexp: "[^\\x1f]"
+variables:
+  first:
+    - 第一
+  second:
+    - 第二
+  third:
+    - 第三
+  fourth:
+    - 第四
+  and:
+    - ；
+    - ，
+    - 參
+    - 、
+  title:
+    - 篇
+  to:
+    - ～
+    - "~"
+ordinals:
+  - before:
+      - 第
+  - between:
+      regexp: \s*
+    texts:
+      - 诗篇
+books:
+  - osis: Gen
+    texts:
+      - Gen
+      - 创世记
+      - 創世紀
+      - 創世記
+      - 创
+      - 創
+  - osis: Exod
+    texts:
+      - Exod
+      - 出埃及記
+      - 出埃及记
+      - 出埃及
+      - 出谷紀
+      - 出
+  - osis: Bel
+    texts:
+      - Bel
+  - osis: Lev
+    texts:
+      - Lev
+      - 利未記
+      - 利未记
+      - 利末记
+      - 肋未紀
+      - 利
+  - osis: Num
+    texts:
+      - Num
+      - 戶籍紀
+      - 民数记
+      - 民數記
+      - 民
+  - osis: Sir
+    texts:
+      - Sir
+      - 德訓篇
+  - osis: Wis
+    texts:
+      - Wis
+      - 智慧篇
+  - osis: Rev
+    texts:
+      - 若望默示錄
+      - Rev
+      - 启示录
+      - 啓示錄
+      - 啟示錄
+      - 默示錄
+      - 启
+      - 啟
+  - osis: PrMan
+    texts:
+      - PrMan
+  - osis: Deut
+    texts:
+      - Deut
+      - 申命紀
+      - 申命記
+      - 申命记
+      - 申
+  - osis: Judg
+    texts:
+      - Judg
+      - 士师记
+      - 士師記
+      - 民長紀
+      - 士
+  - osis: Ruth
+    texts:
+      - Ruth
+      - 盧德傳
+      - 路得記
+      - 路得记
+      - 得
+  - osis: 1Esd
+    texts:
+      - 1Esd
+  - osis: 2Esd
+    texts:
+      - 2Esd
+  - osis: Isa
+    texts:
+      - 以賽亚书
+      - 以賽亞書
+      - 以赛亚书
+      - 依撒意亞
+      - Isa
+      - 賽
+      - 赛
+  - osis: 2Sam
+    texts:
+      - 撒慕爾紀下
+      - 撒母耳記下
+      - 撒母耳记下
+      - 2Sam
+      - 撒下
+  - osis: 1Sam
+    texts:
+      - 撒慕爾紀上
+      - 撒母耳記上
+      - 撒母耳记上
+      - 1Sam
+      - 撒上
+  - osis: 2Kgs
+    texts:
+      - 2Kgs
+      - 列王紀下
+      - 列王纪下
+      - 列王记下
+      - 王下
+  - osis: 1Kgs
+    texts:
+      - 1Kgs
+      - 列王紀上
+      - 列王纪上
+      - 列王记上
+      - 王上
+  - osis: 2Chr
+    texts:
+      - 2Chr
+      - 历代志下
+      - 歷代志下
+      - 編年紀下
+      - 代下
+      - 歷下
+  - osis: 1Chr
+    texts:
+      - 1Chr
+      - 历代志上
+      - 歷代志上
+      - 編年紀上
+      - 代上
+      - 歷上
+  - osis: Ezra
+    texts:
+      - 厄斯德拉上
+      - Ezra
+      - 以斯拉記
+      - 以斯拉记
+      - 拉
+  - osis: Neh
+    texts:
+      - 厄斯德拉下
+      - 尼希米記
+      - 尼希米记
+      - Neh
+      - 尼
+  - osis: Amos
+    texts:
+      - Amos
+      - 阿摩司书
+      - 阿摩司書
+      - 亞毛斯
+      - 摩
+  - osis: Job
+    texts:
+      - Job
+      - 約伯傳
+      - 約伯記
+      - 约伯记
+      - 伯
+  - osis: Ps
+    texts:
+      - 聖詠集
+      - Ps
+      - 詩篇
+      - 诗篇
+      - 詩
+      - 诗
+  - osis: PrAzar
+    texts:
+      - PrAzar
+  - osis: Prov
+    texts:
+      - Prov
+      - 箴言
+      - 箴
+  - osis: SgThree
+    texts:
+      - SgThree
+  - osis: Lam
+    texts:
+      - 耶利米哀歌
+      - 連同哀歌
+      - Lam
+      - 哀
+  - osis: Song
+    texts:
+      - Song
+      - 雅歌
+      - 歌
+  - osis: EpJer
+    texts:
+      - EpJer
+  - osis: Jer
+    texts:
+      - 耶利米书
+      - 耶利米書
+      - 耶肋米亞
+      - Jer
+      - 耶
+  - osis: Ezek
+    texts:
+      - Ezek
+      - 以西結书
+      - 以西結書
+      - 以西结书
+      - 厄則克耳
+      - 結
+      - 结
+  - osis: Dan
+    texts:
+      - 但以理书
+      - 但以理書
+      - Dan
+      - 達尼爾
+      - 但
+  - osis: Hos
+    texts:
+      - 何西阿书
+      - 何西阿書
+      - Hos
+      - 歐瑟亞
+      - 何
+  - osis: Joel
+    texts:
+      - Joel
+      - 岳厄爾
+      - 約珥書
+      - 约珥书
+      - 约饵书
+      - 珥
+  - osis: Obad
+    texts:
+      - 俄巴底亚书
+      - 俄巴底亞書
+      - Obad
+      - 亞北底亞
+      - 俄
+  - osis: Jonah
+    texts:
+      - Jonah
+      - 約拿書
+      - 约拿书
+      - 約納
+      - 拿
+  - osis: Mic
+    texts:
+      - Mic
+      - 弥迦书
+      - 彌迦書
+      - 米該亞
+      - 弥
+      - 彌
+  - osis: Nah
+    texts:
+      - Nah
+      - 那鴻书
+      - 那鴻書
+      - 那鸿书
+      - 納鴻
+      - 鴻
+      - 鸿
+  - osis: Hab
+    texts:
+      - 哈巴谷书
+      - 哈巴谷書
+      - Hab
+      - 哈巴谷
+      - 哈
+  - osis: Zeph
+    texts:
+      - Zeph
+      - 索福尼亞
+      - 西番雅书
+      - 西番雅書
+      - 番
+  - osis: Hag
+    texts:
+      - Hag
+      - 哈該书
+      - 哈該書
+      - 哈该书
+      - 哈蓋
+      - 該
+      - 该
+  - osis: Mal
+    texts:
+      - 玛拉基书
+      - 瑪拉基亞
+      - 瑪拉基書
+      - Mal
+      - 玛拉基
+      - 玛
+      - 瑪
+  - osis: Gal
+    texts:
+      - 加拉太书
+      - 加拉太書
+      - 戛拉提亞
+      - 迦拉達書
+      - Gal
+      - 加
+  - osis: Zech
+    texts:
+      - 撒加利亞書
+      - 撒迦利亚书
+      - 撒迦利亞書
+      - Zech
+      - 匝加利亞
+      - 撒迦利亞
+      - 亚
+      - 亞
+  - osis: Matt
+    texts:
+      - Matt
+      - 瑪竇福音
+      - 馬太福音
+      - 马太福音
+      - 瑪特斐
+      - 太
+  - osis: Mark
+    texts:
+      - 馬爾谷福音
+      - Mark
+      - 馬可福音
+      - 马可福音
+      - 瑪爾克
+      - 可
+  - osis: Luke
+    texts:
+      - Luke
+      - 路加福音
+      - 魯喀
+      - 路
+  - osis: 1John
+    texts:
+      - 1John
+      - 伊望第一
+      - 約翰一書
+      - 約翰壹書
+      - 约翰一书
+      - 约翰壹书
+      - 若望一書
+      - 約壹
+      - 约壹
+  - osis: 2John
+    texts:
+      - 2John
+      - 伊望第二
+      - 約翰二書
+      - 約翰貳書
+      - 约翰二书
+      - 约翰贰书
+      - 若望二書
+      - 約貳
+      - 約贰
+      - 约贰
+  - osis: 3John
+    texts:
+      - 3John
+      - 伊望第三
+      - 約翰三書
+      - 約翰參書
+      - 约翰三书
+      - 约翰叁书
+      - 若望三書
+      - 約三
+      - 約叁
+      - 约三
+      - 约叁
+  - osis: John
+    texts:
+      - John
+      - 約翰福音
+      - 约翰福音
+      - 若望福音
+      - 伊望
+      - 約
+      - 约
+  - osis: Rom
+    texts:
+      - 羅爾瑪書
+      - Rom
+      - 罗马书
+      - 羅馬書
+      - 罗
+      - 羅
+  - osis: 2Cor
+    texts:
+      - 哥林多后书
+      - 哥林多後書
+      - 格林多後書
+      - 歌林多後書
+      - 适凌爾福後
+      - 2Cor
+      - 林后
+      - 林後
+  - osis: 1Cor
+    texts:
+      - 哥林多前书
+      - 哥林多前書
+      - 格林多前書
+      - 歌林多前書
+      - 适凌爾福前
+      - 1Cor
+      - 林前
+  - osis: Eph
+    texts:
+      - 以弗所书
+      - 以弗所書
+      - 厄弗所書
+      - Eph
+      - 耶斐斯
+      - 弗
+  - osis: Phil
+    texts:
+      - Phil
+      - 斐理伯書
+      - 腓立比书
+      - 腓立比書
+      - 肥利批
+      - 腓
+  - osis: Col
+    texts:
+      - 哥羅森書
+      - 歌罗西书
+      - 歌羅西書
+      - Col
+      - 适羅斯
+      - 西
+  - osis: GkEsth
+    texts:
+      - GkEsth
+  - osis: Esth
+    texts:
+      - 艾斯德爾傳
+      - Esth
+      - 以斯帖記
+      - 以斯帖记
+      - 斯
+  - osis: Acts
+    texts:
+      - 宗徒大事錄
+      - Acts
+      - 使徒行传
+      - 使徒行傳
+      - 宗徒行實
+      - 徒
+  - osis: Tob
+    texts:
+      - 多俾亞傳
+      - Tob
+  - osis: Jdt
+    texts:
+      - 友弟德傳
+      - Jdt
+  - osis: Eccl
+    texts:
+      - Eccl
+      - 传道书
+      - 傳道書
+      - 訓道篇
+      - 传
+      - 傳
+  - osis: 2Thess
+    texts:
+      - 帖撒罗尼迦后书
+      - 帖撒羅尼迦後書
+      - 2Thess
+      - 得撒洛尼後書
+      - 莎倫後
+      - 帖后
+      - 帖後
+  - osis: 1Thess
+    texts:
+      - 帖撒罗尼迦前书
+      - 帖撒羅尼迦前書
+      - 1Thess
+      - 得撒洛尼前書
+      - 莎倫前
+      - 帖前
+  - osis: 2Tim
+    texts:
+      - 弟茂德後書
+      - 提摩太后书
+      - 提摩太後書
+      - 2Tim
+      - 提摩斐後
+      - 提后
+      - 提後
+  - osis: 1Tim
+    texts:
+      - 弟茂德前書
+      - 提摩太前书
+      - 提摩太前書
+      - 1Tim
+      - 提摩斐前
+      - 提前
+  - osis: Titus
+    texts:
+      - Titus
+      - 弟鐸書
+      - 提多书
+      - 提多書
+      - 提特書
+      - 多
+  - osis: Phlm
+    texts:
+      - Phlm
+      - 腓利門書
+      - 腓利门书
+      - 費肋孟書
+      - 肥利孟
+      - 門
+      - 门
+  - osis: Heb
+    texts:
+      - 希伯來书
+      - 希伯來書
+      - 希伯来书
+      - 耶烏雷爾
+      - Heb
+      - 來
+      - 来
+  - osis: Jas
+    texts:
+      - 雅各伯書
+      - Jas
+      - 亞适烏
+      - 雅各书
+      - 雅各書
+      - 雅
+  - osis: 2Pet
+    texts:
+      - 伯多祿後書
+      - 2Pet
+      - 彼得后书
+      - 彼得後書
+      - 撇特爾後
+      - 彼后
+      - 彼後
+  - osis: 1Pet
+    texts:
+      - 伯多祿前書
+      - 1Pet
+      - 彼得前书
+      - 彼得前書
+      - 撇特爾前
+      - 彼前
+  - osis: Jude
+    texts:
+      - Jude
+      - 伊屋達
+      - 犹大书
+      - 猶大書
+      - 猶達書
+      - 犹
+      - 猶
+  - osis: Bar
+    texts:
+      - Bar
+      - 巴路克
+  - osis: Sus
+    texts:
+      - Sus
+  - osis: 2Macc
+    texts:
+      - 2Macc
+      - 瑪加伯下
+  - osis: 3Macc
+    texts:
+      - 3Macc
+  - osis: 4Macc
+    texts:
+      - 4Macc
+  - osis: 1Macc
+    texts:
+      - 1Macc
+      - 瑪加伯上
+  - osis: Josh
+    texts:
+      - Josh
+      - 約書亞記
+      - 约书亚记
+      - 若蘇厄書
+      - 书
+      - 書
+translations:
+  - CUV
+  - CNV
+  - CUVMP

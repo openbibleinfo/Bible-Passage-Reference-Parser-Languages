@@ -1,0 +1,590 @@
+- osis: Gen
+  texts:
+    - Bilowgii
+    - Bil
+    - Gen
+- osis: Exod
+  texts:
+    - Baxniintii
+    - Exod
+    - Bax
+- osis: Bel
+  texts:
+    - Bel
+- osis: Lev
+  texts:
+    - Laawiyiintii
+    - Laaw
+    - Lev
+- osis: Num
+  texts:
+    - Tirintii
+    - Num
+    - Tir
+- osis: Sir
+  texts:
+    - Sir
+- osis: Wis
+  texts:
+    - Wis
+- osis: Lam
+  texts:
+    - Baroorashadii Yeremyaah
+    - Baroorashadii
+    - Baroor
+    - Lam
+- osis: EpJer
+  texts:
+    - EpJer
+- osis: Rev
+  texts:
+    - Muujintii
+    - Muuj
+    - Rev
+- osis: PrMan
+  texts:
+    - PrMan
+- osis: Deut
+  texts:
+    - Sharciga Kunoqoshadiisa
+    - Sharci
+    - Deut
+- osis: Josh
+  texts:
+    - Yashuuca
+    - Josh
+    - Yash
+- osis: Judg
+  texts:
+    - Xaakinnada
+    - Judg
+    - Xaak
+- osis: Ruth
+  texts:
+    - Ruth
+    - Ruud
+- osis: 1Esd
+  texts:
+    - 1Esd
+- osis: 2Esd
+  texts:
+    - 2Esd
+- osis: Isa
+  texts:
+    - Ishacyaah
+    - Isa
+    - Ish
+- osis: 1Sam
+  texts:
+    - 1 Samuu'eel
+    - 1 Sam
+    - 1. Samuu'eel
+    - 1. Sam
+    - I Samuu'eel
+    - I Sam
+    - I. Samuu'eel
+    - I. Sam
+- osis: 2Sam
+  texts:
+    - 2 Samuu'eel
+    - 2 Sam
+    - 2. Samuu'eel
+    - 2. Sam
+    - II Samuu'eel
+    - II Sam
+    - II. Samuu'eel
+    - II. Sam
+- osis: 2Sam
+  texts:
+    - Samuu'eel Labaad
+    - 2 Samuu'eel
+    - 2 Sam
+    - 2Sam
+- osis: 1Sam
+  texts:
+    - Samuu'eel Kowaad
+    - 1 Samuu'eel
+    - 1 Sam
+    - 1Sam
+- osis: 1Kgs
+  texts:
+    - 1 Boqorradii
+    - 1 Boq
+    - 1. Boqorradii
+    - 1. Boq
+    - I Boqorradii
+    - I Boq
+    - I. Boqorradii
+    - I. Boq
+- osis: 2Kgs
+  texts:
+    - 2 Boqorradii
+    - 2 Boq
+    - 2. Boqorradii
+    - 2. Boq
+    - II Boqorradii
+    - II Boq
+    - II. Boqorradii
+    - II. Boq
+- osis: 2Kgs
+  texts:
+    - Boqorradii Labaad
+    - 2 Boqorradii
+    - 2 Boq
+    - 2Kgs
+- osis: 1Kgs
+  texts:
+    - Boqorradii Kowaad
+    - 1 Boqorradii
+    - 1 Boq
+    - 1Kgs
+- osis: 1Chr
+  texts:
+    - 1 Taariikhdii
+    - 1 Taar
+    - 1. Taariikhdii
+    - 1. Taar
+    - I Taariikhdii
+    - I Taar
+    - I. Taariikhdii
+    - I. Taar
+- osis: 2Chr
+  texts:
+    - 2 Taariikhdii
+    - 2 Taar
+    - 2. Taariikhdii
+    - 2. Taar
+    - II Taariikhdii
+    - II Taar
+    - II. Taariikhdii
+    - II. Taar
+- osis: 2Chr
+  texts:
+    - Taariikhdii Labaad
+    - 2 Taariikhdii
+    - 2 Taar
+    - 2Chr
+- osis: 1Chr
+  texts:
+    - Taariikhdii Kowaad
+    - 1 Taariikhdii
+    - 1 Taar
+    - 1Chr
+- osis: Ezra
+  texts:
+    - Cesraa
+    - Cesr
+    - Ezra
+    - Ces
+- osis: Neh
+  texts:
+    - Nexemyaah
+    - Neh
+    - Nex
+- osis: GkEsth
+  texts:
+    - GkEsth
+- osis: Esth
+  texts:
+    - Esteer
+    - Esth
+    - Est
+- osis: Job
+  texts:
+    - Ayuub
+    - Ayu
+    - Job
+- osis: Ps
+  texts:
+    - Sabuurradii
+    - Sabuur
+    - Sab
+    - Ps
+- osis: PrAzar
+  texts:
+    - PrAzar
+- osis: Prov
+  texts:
+    - Maahmaahyadii
+    - Maah
+    - Prov
+- osis: Eccl
+  texts:
+    - Wacdiyahii
+    - Wacdiyaha
+    - Eccl
+    - Wac
+- osis: SgThree
+  texts:
+    - SgThree
+- osis: Song
+  texts:
+    - Gabaygii Sulaymaan
+    - Gabaygii
+    - Song
+    - Gab
+- osis: Jer
+  texts:
+    - Yeremyaah
+    - Jer
+    - Yer
+- osis: Ezek
+  texts:
+    - Yexesqeel
+    - Ezek
+    - Yex
+- osis: Dan
+  texts:
+    - Daanyeel
+    - Daan
+    - Dan
+- osis: Hos
+  texts:
+    - Hoosheeca
+    - Hoosh
+    - Hos
+- osis: Joel
+  texts:
+    - Yoo'eel
+    - Joel
+    - Yool
+- osis: Amos
+  texts:
+    - Caamoos
+    - Amos
+    - Caam
+- osis: Obad
+  texts:
+    - Cobadyaah
+    - Cobad
+    - Obad
+    - Cob
+- osis: Jonah
+  texts:
+    - Yoonis
+    - Jonah
+    - Yoon
+- osis: Mic
+  texts:
+    - Miikaah
+    - Miik
+    - Mic
+- osis: Nah
+  texts:
+    - Naxuum
+    - Nah
+    - Nax
+- osis: Hab
+  texts:
+    - Xabaquuq
+    - Hab
+    - Xab
+- osis: Zeph
+  texts:
+    - Sefanyaah
+    - Zeph
+    - Sef
+- osis: Hag
+  texts:
+    - Xaggay
+    - Xagg
+    - Hag
+    - Xag
+- osis: Zech
+  texts:
+    - Sekaryaah
+    - Zech
+    - Sek
+- osis: Mal
+  texts:
+    - Malaakii
+    - Mal
+- osis: Matt
+  texts:
+    - Matayos
+    - Matt
+    - Mat
+- osis: Mark
+  texts:
+    - Markos
+    - Mark
+    - Mar
+- osis: Luke
+  texts:
+    - Luukos
+    - Luke
+    - Luuk
+- osis: 1John
+  texts:
+    - Yooxanaa Kowaad
+    - 1 Yooxanaa
+    - 1 Yoox
+    - 1John
+- osis: 2John
+  texts:
+    - Yooxanaa Labaad
+    - 2 Yooxanaa
+    - 2 Yoox
+    - 2John
+- osis: 3John
+  texts:
+    - Yooxanaa Saddexaad
+    - 3 Yooxanaa
+    - 3 Yoox
+    - 3John
+- osis: 1John
+  texts:
+    - 1 Yooxanaa
+    - 1 Yoox
+    - 1. Yooxanaa
+    - 1. Yoox
+    - I Yooxanaa
+    - I Yoox
+    - I. Yooxanaa
+    - I. Yoox
+- osis: 2John
+  texts:
+    - 2 Yooxanaa
+    - 2 Yoox
+    - 2. Yooxanaa
+    - 2. Yoox
+    - II Yooxanaa
+    - II Yoox
+    - II. Yooxanaa
+    - II. Yoox
+- osis: 3John
+  texts:
+    - 3 Yooxanaa
+    - 3 Yoox
+    - 3. Yooxanaa
+    - 3. Yoox
+    - III Yooxanaa
+    - III Yoox
+    - III. Yooxanaa
+    - III. Yoox
+- osis: John
+  texts:
+    - Yooxanaa
+    - Yoox
+- osis: John
+  texts:
+    - John
+- osis: Acts
+  texts:
+    - Falimaha Rasuullada
+    - Acts
+    - Fal
+- osis: Rom
+  texts:
+    - Rooma
+    - Room
+    - Rom
+- osis: 1Cor
+  texts:
+    - 1 Korintos
+    - 1 Kor
+    - 1. Korintos
+    - 1. Kor
+    - I Korintos
+    - I Kor
+    - I. Korintos
+    - I. Kor
+- osis: 2Cor
+  texts:
+    - 2 Korintos
+    - 2 Kor
+    - 2. Korintos
+    - 2. Kor
+    - II Korintos
+    - II Kor
+    - II. Korintos
+    - II. Kor
+- osis: 2Cor
+  texts:
+    - Korintos Labaad
+    - 2 Korintos
+    - 2 Kor
+    - 2Cor
+- osis: 1Cor
+  texts:
+    - Korintos Kowaad
+    - 1 Korintos
+    - 1 Kor
+    - 1Cor
+- osis: Gal
+  texts:
+    - Galatiya
+    - Gal
+- osis: Eph
+  texts:
+    - Efesos
+    - Eph
+    - Ef
+- osis: Phil
+  texts:
+    - Filiboy
+    - Phil
+    - Fil
+- osis: Col
+  texts:
+    - Kolosay
+    - Col
+    - Kol
+- osis: 1Thess
+  texts:
+    - 1 Tesaloniika
+    - 1 Tes
+    - 1. Tesaloniika
+    - 1. Tes
+    - I Tesaloniika
+    - I Tes
+    - I. Tesaloniika
+    - I. Tes
+- osis: 2Thess
+  texts:
+    - 2 Tesaloniika
+    - 2 Tes
+    - 2. Tesaloniika
+    - 2. Tes
+    - II Tesaloniika
+    - II Tes
+    - II. Tesaloniika
+    - II. Tes
+- osis: 2Thess
+  texts:
+    - Tesoloniika Labaad
+    - 2 Tesaloniika
+    - 2Thess
+    - 2 Tes
+- osis: 1Thess
+  texts:
+    - Tesoloniika Kowaad
+    - 1 Tesaloniika
+    - 1Thess
+    - 1 Tes
+- osis: 1Tim
+  texts:
+    - 1 Timoteyos
+    - 1 Tim
+    - 1. Timoteyos
+    - 1. Tim
+    - I Timoteyos
+    - I Tim
+    - I. Timoteyos
+    - I. Tim
+- osis: 2Tim
+  texts:
+    - 2 Timoteyos
+    - 2 Tim
+    - 2. Timoteyos
+    - 2. Tim
+    - II Timoteyos
+    - II Tim
+    - II. Timoteyos
+    - II. Tim
+- osis: 2Tim
+  texts:
+    - Timoteyos Labaad
+    - 2 Timoteyos
+    - 2 Tim
+    - 2Tim
+- osis: 1Tim
+  texts:
+    - Timoteyos Kowaad
+    - 1 Timoteyos
+    - 1 Tim
+    - 1Tim
+- osis: Titus
+  texts:
+    - Tiitos
+    - Titus
+    - Tiit
+- osis: Phlm
+  texts:
+    - Filemon
+    - Filem
+    - Flmn
+    - Phlm
+    - Flm
+- osis: Heb
+  texts:
+    - Cibraaniyada
+    - Cib
+    - Heb
+- osis: Jas
+  texts:
+    - Yacquub
+    - Yacq
+    - Jas
+    - Yac
+- osis: 1Pet
+  texts:
+    - 1 Butros
+    - 1 But
+    - 1. Butros
+    - 1. But
+    - I Butros
+    - I But
+    - I. Butros
+    - I. But
+- osis: 2Pet
+  texts:
+    - 2 Butros
+    - 2 But
+    - 2. Butros
+    - 2. But
+    - II Butros
+    - II But
+    - II. Butros
+    - II. But
+- osis: 2Pet
+  texts:
+    - Butros Labaad
+    - 2 Butros
+    - 2 But
+    - 2Pet
+- osis: 1Pet
+  texts:
+    - Butros Kowaad
+    - 1 Butros
+    - 1 But
+    - 1Pet
+- osis: Jude
+  texts:
+    - Yuudas
+    - Jude
+    - Yuud
+- osis: Tob
+  texts:
+    - Tob
+- osis: Jdt
+  texts:
+    - Jdt
+- osis: Bar
+  texts:
+    - Bar
+- osis: Sus
+  texts:
+    - Sus
+- osis: 2Macc
+  texts:
+    - 2Macc
+- osis: 3Macc
+  texts:
+    - 3Macc
+- osis: 4Macc
+  texts:
+    - 4Macc
+- osis: 1Macc
+  texts:
+    - 1Macc
+- osis:
+    - Phil
+    - Phlm
+  texts:
+    - Fi
+- osis:
+    - Jonah
+    - Joel
+  texts:
+    - Yoo

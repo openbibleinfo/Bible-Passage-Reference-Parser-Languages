@@ -1,0 +1,666 @@
+- osis: Gen
+  texts:
+    - Knjiga Postanka
+    - Postanak
+    - Post
+    - Gen
+- osis: Exod
+  texts:
+    - Knjiga Izlaska
+    - Egzodus
+    - Izlazak
+    - Exod
+    - Izl
+- osis: Bel
+  texts:
+    - Bel
+- osis: Lev
+  texts:
+    - Levitski zakonik
+    - Lev
+- osis: Num
+  texts:
+    - Knjiga Brojeva
+    - Brojevi
+    - Num
+    - Br
+- osis: Sir
+  texts:
+    - Knjiga Sirahova
+    - Sir
+- osis: Wis
+  texts:
+    - Knjiga Mudrosti
+    - Mudr
+    - Wis
+- osis: Lam
+  texts:
+    - Jeremijine tužaljke
+    - Lamentacije
+    - Tužaljke
+    - Lam
+    - Tuž
+- osis: EpJer
+  texts:
+    - Pismo Jeremije proroka
+    - Jeremijino pismo
+    - EpJer
+- osis: Rev
+  texts:
+    - Otkrivenje Ivanovo
+    - Apokalipsa
+    - Otkrivenje
+    - Otk
+    - Rev
+- osis: PrMan
+  texts:
+    - PrMan
+- osis: Deut
+  texts:
+    - Ponovljeni zakon
+    - Deut
+    - Pnz
+- osis: Josh
+  texts:
+    - Jošua
+    - Josh
+    - Jš
+- osis: Judg
+  texts:
+    - Knjiga o Sucima
+    - Judg
+    - Suci
+- osis: Ruth
+  texts:
+    - Knjiga o Ruti
+    - Ruta
+    - Ruth
+    - Rut
+- osis: 1Esd
+  texts:
+    - 1Esd
+- osis: 2Esd
+  texts:
+    - 2Esd
+- osis: Isa
+  texts:
+    - Izaija
+    - Isa
+    - Iz
+- osis: 2Sam
+  texts:
+    - Druga Samuelova knjiga
+    - Druga knjiga o Samuelu
+    - 2 Sam
+    - 2Sam
+- osis: 1Sam
+  texts:
+    - Prva Samuelova knjiga
+    - Prva knjiga o Samuelu
+    - 1 Sam
+    - 1Sam
+- osis: 1Sam
+  texts:
+    - Prva Samuelova
+    - Prva. Samuelova
+    - 1 Samuelova
+    - 1. Samuelova
+    - I Samuelova
+    - I. Samuelova
+- osis: 2Sam
+  texts:
+    - Druga Samuelova
+    - Druga. Samuelova
+    - 2 Samuelova
+    - 2. Samuelova
+    - II Samuelova
+    - II. Samuelova
+- osis: 1Kgs
+  texts:
+    - Prva Kraljevima
+    - Prva. Kraljevima
+    - 1 Kraljevima
+    - 1. Kraljevima
+    - I Kraljevima
+    - I. Kraljevima
+- osis: 2Kgs
+  texts:
+    - Druga Kraljevima
+    - Druga. Kraljevima
+    - 2 Kraljevima
+    - 2. Kraljevima
+    - II Kraljevima
+    - II. Kraljevima
+- osis: 2Kgs
+  texts:
+    - Druga knjiga o Kraljevima
+    - 2 Kr
+    - 2Kgs
+- osis: 1Kgs
+  texts:
+    - Prva knjiga o Kraljevima
+    - 1 Kr
+    - 1Kgs
+- osis: 1Chr
+  texts:
+    - Prva Ljetopisa
+    - Prva. Ljetopisa
+    - 1 Ljetopisa
+    - 1. Ljetopisa
+    - I Ljetopisa
+    - I. Ljetopisa
+- osis: 2Chr
+  texts:
+    - Druga Ljetopisa
+    - Druga. Ljetopisa
+    - 2 Ljetopisa
+    - 2. Ljetopisa
+    - II Ljetopisa
+    - II. Ljetopisa
+- osis: 2Chr
+  texts:
+    - Druga knjiga Ljetopisa
+    - 2 Ljet
+    - 2Chr
+- osis: 1Chr
+  texts:
+    - Prva knjiga Ljetopisa
+    - 1 Ljet
+    - 1Chr
+- osis: Ezra
+  texts:
+    - Knjiga Ezrina
+    - Ezra
+    - Ezr
+- osis: Neh
+  texts:
+    - Knjiga Nehemijina
+    - Nehemija
+    - Neh
+- osis: GkEsth
+  texts:
+    - GkEsth
+- osis: Esth
+  texts:
+    - Estera
+    - Esth
+    - Est
+- osis: Job
+  texts:
+    - Knjiga o Jobu
+    - Job
+- osis: Ps
+  texts:
+    - Psalam
+    - Psalme
+    - Psalmi
+    - Ps
+- osis: PrAzar
+  texts:
+    - PrAzar
+- osis: Prov
+  texts:
+    - Mudre izreke
+    - Poslovice
+    - Prov
+    - Izr
+- osis: Eccl
+  texts:
+    - Propovjednik
+    - Kohelet
+    - Eccl
+    - Prop
+- osis: SgThree
+  texts:
+    - SgThree
+- osis: Song
+  texts:
+    - Pjesma nad pjesmama
+    - Song
+    - Pj
+- osis: Jer
+  texts:
+    - Jeremija
+    - Jer
+    - Jr
+- osis: Ezek
+  texts:
+    - Ezekiel
+    - Ezek
+    - Ez
+- osis: Dan
+  texts:
+    - Daniel
+    - Dan
+    - Dn
+- osis: Hos
+  texts:
+    - Hošea
+    - Hos
+    - Hoš
+- osis: Joel
+  texts:
+    - Joel
+    - Jl
+- osis: Amos
+  texts:
+    - Amos
+    - Am
+- osis: Obad
+  texts:
+    - Obadija
+    - Obad
+    - Ob
+- osis: Jonah
+  texts:
+    - Jonah
+    - Jona
+    - Jon
+- osis: Mic
+  texts:
+    - Mihej
+    - Mic
+    - Mih
+- osis: Nah
+  texts:
+    - Nahum
+    - Nah
+- osis: Hab
+  texts:
+    - Habakuk
+    - Hab
+- osis: Zeph
+  texts:
+    - Sefanija
+    - Sofonije
+    - Zeph
+    - Sef
+- osis: Hag
+  texts:
+    - Hagaj
+    - Hagej
+    - Agej
+    - Hag
+- osis: Zech
+  texts:
+    - Zaharija
+    - Zech
+    - Zah
+- osis: Mal
+  texts:
+    - Malahija
+    - Mal
+- osis: Matt
+  texts:
+    - Jevanđelje po Mateju
+    - Evanðelje po Mateju
+    - Evanđelje po Mateju
+    - Matej
+    - Matt
+    - Mt
+- osis: Mark
+  texts:
+    - Jevanđelje po Marku
+    - Evanðelje po Marku
+    - Evanđelje po Marku
+    - Marko
+    - Mark
+    - Mk
+- osis: Luke
+  texts:
+    - Jevanđelje po Luki
+    - Evanðelje po Luki
+    - Evanđelje po Luki
+    - Luka
+    - Luke
+    - Lk
+- osis: 1John
+  texts:
+    - Prva Ivanova Poslanica
+    - Prva Ivanova
+    - Prva. Ivanova Poslanica
+    - Prva. Ivanova
+    - 1 Ivanova Poslanica
+    - 1 Ivanova
+    - 1. Ivanova Poslanica
+    - 1. Ivanova
+    - I Ivanova Poslanica
+    - I Ivanova
+    - I. Ivanova Poslanica
+    - I. Ivanova
+- osis: 2John
+  texts:
+    - Druga Ivanova Poslanica
+    - Druga Ivanova
+    - Druga. Ivanova Poslanica
+    - Druga. Ivanova
+    - 2 Ivanova Poslanica
+    - 2 Ivanova
+    - 2. Ivanova Poslanica
+    - 2. Ivanova
+    - II Ivanova Poslanica
+    - II Ivanova
+    - II. Ivanova Poslanica
+    - II. Ivanova
+- osis: 3John
+  texts:
+    - Treæa Ivanova Poslanica
+    - Treæa Ivanova
+    - Treæa. Ivanova Poslanica
+    - Treæa. Ivanova
+    - Treća Ivanova Poslanica
+    - Treća Ivanova
+    - Treća. Ivanova Poslanica
+    - Treća. Ivanova
+    - 3 Ivanova Poslanica
+    - 3 Ivanova
+    - 3. Ivanova Poslanica
+    - 3. Ivanova
+    - III Ivanova Poslanica
+    - III Ivanova
+    - III. Ivanova Poslanica
+    - III. Ivanova
+- osis: 1John
+  texts:
+    - Prva Ivanova poslanica
+    - 1 Ivanova
+    - 1John
+    - 1 Iv
+- osis: 2John
+  texts:
+    - Druga Ivanova poslanica
+    - 2 Ivanova
+    - 2John
+    - 2 Iv
+- osis: 3John
+  texts:
+    - Treæa Ivanova poslanica
+    - Treća Ivanova poslanica
+    - 3 Ivanova
+    - 3John
+    - 3 Iv
+- osis: John
+  texts:
+    - Jevanđelje po Ivanu
+    - Evanðelje po Ivanu
+    - Evanđelje po Ivanu
+    - Ivan
+    - John
+    - Iv
+- osis: Acts
+  texts:
+    - Djela apostolska
+    - Acts
+    - Dj
+- osis: Rom
+  texts:
+    - Pavlova poslanica Rimljanima
+    - Poslanica Rimljanima
+    - Rimljanima
+    - Rim
+    - Rom
+- osis: 1Cor
+  texts:
+    - Prva Korinćanima Poslanica
+    - Prva Korinćanima
+    - Prva. Korinćanima Poslanica
+    - Prva. Korinćanima
+    - 1 Korinćanima Poslanica
+    - 1 Korinćanima
+    - 1. Korinćanima Poslanica
+    - 1. Korinćanima
+    - I Korinćanima Poslanica
+    - I Korinćanima
+    - I. Korinćanima Poslanica
+    - I. Korinćanima
+- osis: 2Cor
+  texts:
+    - Druga Korinćanima Poslanica
+    - Druga Korinćanima
+    - Druga. Korinćanima Poslanica
+    - Druga. Korinćanima
+    - 2 Korinćanima Poslanica
+    - 2 Korinćanima
+    - 2. Korinćanima Poslanica
+    - 2. Korinćanima
+    - II Korinćanima Poslanica
+    - II Korinćanima
+    - II. Korinćanima Poslanica
+    - II. Korinćanima
+- osis: 2Cor
+  texts:
+    - Pavlova druga poslanica Korinćanima
+    - Druga poslanica Korinæanima
+    - Druga poslanica Korinćanima
+    - 2 Korinćanima
+    - 2 Kor
+    - 2Cor
+- osis: 1Cor
+  texts:
+    - Pavlova prva poslanica Korinćanima
+    - Prva poslanica Korinæanima
+    - Prva poslanica Korinćanima
+    - 1 Korinćanima
+    - 1 Kor
+    - 1Cor
+- osis: Gal
+  texts:
+    - Pavlova poslanica Galaćanima
+    - Poslanica Galaæanima
+    - Poslanica Galaćanima
+    - Galaćanima
+    - Gal
+- osis: Eph
+  texts:
+    - Pavlova poslanica Efežanima
+    - Poslanica Efežanima
+    - Efežanima
+    - Eph
+    - Ef
+- osis: Phil
+  texts:
+    - Pavlova poslanica Filipljanima
+    - Poslanica Filipljanima
+    - Filipljanima
+    - Phil
+    - Fil
+- osis: Col
+  texts:
+    - Pavlova poslanica Kološanima
+    - Poslanica Kološanima
+    - Kološanima
+    - Col
+    - Kol
+- osis: 1Thess
+  texts:
+    - Prva Solunjanima Poslanica
+    - Prva Solunjanima
+    - Prva. Solunjanima Poslanica
+    - Prva. Solunjanima
+    - 1 Solunjanima Poslanica
+    - 1 Solunjanima
+    - 1. Solunjanima Poslanica
+    - 1. Solunjanima
+    - I Solunjanima Poslanica
+    - I Solunjanima
+    - I. Solunjanima Poslanica
+    - I. Solunjanima
+- osis: 2Thess
+  texts:
+    - Druga Solunjanima Poslanica
+    - Druga Solunjanima
+    - Druga. Solunjanima Poslanica
+    - Druga. Solunjanima
+    - 2 Solunjanima Poslanica
+    - 2 Solunjanima
+    - 2. Solunjanima Poslanica
+    - 2. Solunjanima
+    - II Solunjanima Poslanica
+    - II Solunjanima
+    - II. Solunjanima Poslanica
+    - II. Solunjanima
+- osis: 2Thess
+  texts:
+    - Pavlova druga poslanica Solunjanima
+    - Druga poslanica Solunjanima
+    - 2 Solunjanima
+    - 2Thess
+    - 2 Sol
+- osis: 1Thess
+  texts:
+    - Pavlova prva poslanica Solunjanima
+    - Prva poslanica Solunjanima
+    - 1 Solunjanima
+    - 1Thess
+    - 1 Sol
+- osis: 1Tim
+  texts:
+    - Prva Timoteju Poslanica
+    - Prva Timoteju
+    - Prva. Timoteju Poslanica
+    - Prva. Timoteju
+    - 1 Timoteju Poslanica
+    - 1 Timoteju
+    - 1. Timoteju Poslanica
+    - 1. Timoteju
+    - I Timoteju Poslanica
+    - I Timoteju
+    - I. Timoteju Poslanica
+    - I. Timoteju
+- osis: 2Tim
+  texts:
+    - Druga Timoteju Poslanica
+    - Druga Timoteju
+    - Druga. Timoteju Poslanica
+    - Druga. Timoteju
+    - 2 Timoteju Poslanica
+    - 2 Timoteju
+    - 2. Timoteju Poslanica
+    - 2. Timoteju
+    - II Timoteju Poslanica
+    - II Timoteju
+    - II. Timoteju Poslanica
+    - II. Timoteju
+- osis: 2Tim
+  texts:
+    - Pavlova druga poslanica Timoteju
+    - Druga poslanica Timoteju
+    - 2 Timoteju
+    - 2 Tim
+    - 2Tim
+- osis: 1Tim
+  texts:
+    - Pavlova prva poslanica Timoteju
+    - Prva poslanica Timoteju
+    - 1 Timoteju
+    - 1 Tim
+    - 1Tim
+- osis: Titus
+  texts:
+    - Pavlova poslanica Titu
+    - Poslanica Titu
+    - Titus
+    - Titu
+    - Tit
+- osis: Phlm
+  texts:
+    - Pavlova poslanica Filemonu
+    - Poslanica Filemonu
+    - Filemonu
+    - Phlm
+    - Flm
+- osis: Heb
+  texts:
+    - Pavlova poslanica Hebrejima
+    - Poslanica Hebrejima
+    - Hebrejima
+    - Heb
+- osis: Jas
+  texts:
+    - Jakovljeva poslanica
+    - Jakovljeva
+    - Jak
+    - Jas
+- osis: 1Pet
+  texts:
+    - Prva Petrova Poslanica
+    - Prva Petrova
+    - Prva. Petrova Poslanica
+    - Prva. Petrova
+    - 1 Petrova Poslanica
+    - 1 Petrova
+    - 1. Petrova Poslanica
+    - 1. Petrova
+    - I Petrova Poslanica
+    - I Petrova
+    - I. Petrova Poslanica
+    - I. Petrova
+- osis: 2Pet
+  texts:
+    - Druga Petrova Poslanica
+    - Druga Petrova
+    - Druga. Petrova Poslanica
+    - Druga. Petrova
+    - 2 Petrova Poslanica
+    - 2 Petrova
+    - 2. Petrova Poslanica
+    - 2. Petrova
+    - II Petrova Poslanica
+    - II Petrova
+    - II. Petrova Poslanica
+    - II. Petrova
+- osis: 2Pet
+  texts:
+    - Druga Petrova poslanica
+    - 2 Petrova
+    - 2 Pt
+    - 2Pet
+- osis: 1Pet
+  texts:
+    - Prva Petrova poslanica
+    - 1 Petrova
+    - 1 Pt
+    - 1Pet
+- osis: Jude
+  texts:
+    - Poslanica Jude apostola
+    - Judina poslanica
+    - Judina
+    - Jude
+    - Jd
+- osis: Tob
+  texts:
+    - Tobija
+    - Tob
+- osis: Jdt
+  texts:
+    - Judita
+    - Jdt
+- osis: Bar
+  texts:
+    - Baruh
+    - Bar
+- osis: Sus
+  texts:
+    - Suzana
+    - Sus
+    - Suz
+- osis: 2Macc
+  texts:
+    - Druga knjiga o Makabejcima
+    - 2 Mak
+    - 2Macc
+- osis: 3Macc
+  texts:
+    - Treća knjiga o Makabejcima
+    - 3 Mak
+    - 3Macc
+- osis: 4Macc
+  texts:
+    - 4 Mak
+    - 4Macc
+- osis: 1Macc
+  texts:
+    - Prva knjiga o Makabejcima
+    - 1 Mak
+    - 1Macc

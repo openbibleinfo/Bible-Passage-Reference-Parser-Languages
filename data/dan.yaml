@@ -1,0 +1,654 @@
+variables:
+  first: &first
+    - Første
+    - "1"
+  second: &second
+    - Anden
+    - "2"
+  third: &third
+    - Tredje
+    - "3"
+  fourth: &fourth
+    - Fjerde
+    - "4"
+  fifth: &fifth
+    - Femte
+    - "5"
+  and:
+    - og
+    - jf
+  chapter:
+    - kapitlerne
+    - kapitel
+    - kap.
+    - kap
+  verse:
+    - vers
+    - v.
+    - v
+books:
+  - osis:
+      - osis: Gen
+        before: *first
+      - osis: Exod
+        before: *second
+      - osis: Lev
+        before: *third
+      - osis: Num
+        before: *fourth
+      - osis: Deut
+        before: *fifth
+    texts:
+      - Mosebog
+      - Mos
+  - osis: Gen
+    texts:
+      - 1 Mosebog
+      - Genesis
+      - 1 Mos
+      - Gen
+  - osis: Exod
+    texts:
+      - 2 Mosebog
+      - Exodus
+      - 2 Mos
+      - Exod
+  - osis: Bel
+    texts:
+      - Bel og Dragen
+      - Bel
+  - osis: Lev
+    texts:
+      - Leviticus
+      - 3 Mosebog
+      - 3 Mos
+      - Lev
+  - osis: Num
+    texts:
+      - 4 Mosebog
+      - Numeri
+      - 4 Mos
+      - Num
+  - osis: Sir
+    texts:
+      - Siraks Bog
+      - Sirak
+      - Sir
+  - osis: Wis
+    texts:
+      - Visdommens Bog
+      - Visdommen
+      - Wis
+  - osis: Lam
+    texts:
+      - Klagesangene
+      - Klages
+      - Klag
+      - Lam
+  - osis: EpJer
+    texts:
+      - Jeremias' Brev
+      - Jeremias’ Brev
+      - EpJer
+  - osis: Rev
+    texts:
+      - Johannes' Åbenbaring
+      - Johannesapokalypsen
+      - Johs. Åbenbaring
+      - Åbenbaringsbogen
+      - Johs Åbenbaring
+      - Aabenbaringen
+      - Åbenbaringen
+      - Apokalypsen
+      - Rev
+      - Åb
+  - osis: PrMan
+    texts:
+      - Manasses Bøn
+      - PrMan
+  - osis: Deut
+    texts:
+      - Deuteronomium
+      - 5 Mosebog
+      - 5 Mos
+      - Deut
+  - osis: Josh
+    texts:
+      - Josvabogen
+      - Josvas Bog
+      - Josvabog
+      - Josua
+      - Josh
+      - Jos
+  - osis: Judg
+    texts:
+      - Dommerbogen
+      - Dommer
+      - Judg
+      - Dom
+  - osis: Ruth
+    texts:
+      - Ruths Bog
+      - Ruth
+      - Rut
+  - osis:
+      - osis: 1Esd
+        before: *first
+      - osis: 1Esd
+        before: *third
+      - osis: 2Esd
+        before: *fourth
+      - osis: 2Esd
+        before: *second
+    texts:
+      - Esdrasbog
+  - osis: 1Esd
+    texts:
+      - 1 Esdrasbog
+      - 1Esd
+  - osis: 2Esd
+    texts:
+      - 2 Esdrasbog
+      - 2Esd
+  - osis: Isa
+    texts:
+      - Esajas' Bog
+      - Esajas
+      - Jesaia
+      - Isa
+      - Es
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+      - osis: 1Kgs
+        before: *third
+      - osis: 2Kgs
+        before: *fourth
+    texts:
+      - Kongerigernes Bog
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuelsbog
+      - Samuel
+      - Sam
+  - osis: 2Sam
+    texts:
+      - 2 Samuel
+      - 2 Sam
+      - 2Sam
+  - osis: 1Sam
+    texts:
+      - 1 Samuel
+      - 1 Sam
+      - 1Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Kongebog
+      - Kong
+  - osis: 2Kgs
+    texts:
+      - 2 Kongebog
+      - 2 Kong
+      - 2Kgs
+  - osis: 1Kgs
+    texts:
+      - 1 Kongebog
+      - 1 Kong
+      - 1Kgs
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Krønikebog
+      - Kron
+      - Krøn
+  - osis: 2Chr
+    texts:
+      - 2 Krønikebog
+      - 2 Krøn
+      - 2Chr
+  - osis: 1Chr
+    texts:
+      - 1 Krønikebog
+      - 1 Krøn
+      - 1Chr
+  - osis: Ezra
+    texts:
+      - Ezras Bog
+      - Ezra
+  - osis: Neh
+    texts:
+      - Nehemias’ Bog
+      - Nehemias
+      - Neh
+  - osis: GkEsth
+    texts:
+      - GkEsth
+  - osis: Esth
+    texts:
+      - Esters Bog
+      - Ester
+      - Esth
+      - Est
+  - osis: Job
+    texts:
+      - Jobs Bog
+      - Hiob
+      - Job
+  - osis: Ps
+    texts:
+      - Salmernes Bog
+      - Salmerne
+      - Salme
+      - Ps
+      - Sl
+  - osis: PrAzar
+    texts:
+      - Azarjas bøn
+      - Azarjas Bøn
+      - PrAzar
+  - osis: Prov
+    texts:
+      - Ordsprogenes Bog
+      - Ordsprogene
+      - Ordsp
+      - Prov
+  - osis: Eccl
+    texts:
+      - Prædikerens Bog
+      - Prædikeren
+      - Eccl
+      - Prad
+      - Præd
+  - osis: SgThree
+    texts:
+      - De tre mænds lovsang
+      - De Tre Mænds Lovsang
+      - SgThree
+  - osis: Song
+    texts:
+      - Salomons Højsang
+      - Højsangen
+      - Hojs
+      - Højs
+      - Song
+  - osis: Jer
+    texts:
+      - Jeremias' Bog
+      - Jeremias
+      - Jer
+  - osis: Ezek
+    texts:
+      - Ezekiels’ Bog
+      - Ezekiels Bog
+      - Hezechiel
+      - Ezekiel
+      - Ezek
+      - Ez
+  - osis: Dan
+    texts:
+      - Daniels Bog
+      - Daniel
+      - Dan
+  - osis: Hos
+    texts:
+      - Hoseas’ Bog
+      - Hoseas
+      - Hos
+  - osis: Joel
+    texts:
+      - Joels Bog
+      - Joel
+  - osis: Amos
+    texts:
+      - Amos' Bog
+      - Amos
+      - Am
+  - osis: Obad
+    texts:
+      - Obadias' Bog
+      - Obadias
+      - Obad
+  - osis: Jonah
+    texts:
+      - Jonas' Bog
+      - Jonah
+      - Jonas
+      - Jon
+  - osis: Mic
+    texts:
+      - Mikas Bog
+      - Mikas
+      - Mika
+      - Mic
+  - osis: Nah
+    texts:
+      - Nahums Bog
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakkuks Bog
+      - Habakkuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sefanias' Bog
+      - Zefanias’ Bog
+      - Zefanias
+      - Zeph
+      - Sef
+      - Zef
+  - osis: Hag
+    texts:
+      - Haggajs Bog
+      - Haggaj
+      - Hagg
+      - Hag
+  - osis: Zech
+    texts:
+      - Zakarias' Bog
+      - Zakarias
+      - Zech
+      - Zak
+  - osis: Mal
+    texts:
+      - Malakias’ Bog
+      - Malakias
+      - Mal
+  - osis: Matt
+    texts:
+      - Matthæusevangeliet
+      - Mattæusevangeliet
+      - Matthæus
+      - Matt
+  - osis: Mark
+    texts:
+      - Markusevangeliet
+      - Markus
+      - Mark
+  - osis: Luke
+    texts:
+      - Lukasevangeliet
+      - Lukas
+      - Luke
+      - Luk
+      - Lk
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Johannes' Brev
+      - Johannesbrev
+  - osis: 1John
+    texts:
+      - Johannes' Første Brev
+      - 1 Johannes
+      - 1John
+      - 1 Joh
+  - osis: 2John
+    texts:
+      - Johannes' Andet Brev
+      - Andet Johannesbrev
+      - 2 Johannes
+      - 2John
+      - 2 Joh
+  - osis: 3John
+    texts:
+      - Johannes' Tredje Brev
+      - 3 Johannes
+      - 3John
+      - 3 Joh
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Johannes
+      - Joh
+  - osis: John
+    texts:
+      - Johannesevangeliet
+      - John
+  - osis: Acts
+    texts:
+      - Apostlenes Gerninger
+      - Gerninger
+      - Acts
+      - Ap.G
+      - ApG
+      - Apg
+  - osis: Rom
+    texts:
+      - Paulus' Brev til Romerne
+      - Romerbrevet
+      - Romerne
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintherbrev
+      - Korinterbrev
+      - Korinterne
+      - Kor
+  - osis: 2Cor
+    texts:
+      - Paulus' Andet Brev til Korintherne
+      - Andet Korintherbrev
+      - 2 Korinterne
+      - 2 Kor
+      - 2Cor
+  - osis: 1Cor
+    texts:
+      - Paulus' Første Brev til Korintherne
+      - 1 Korinterne
+      - 1 Kor
+      - 1Cor
+  - osis: Gal
+    texts:
+      - Paulus' Brev til Galaterne
+      - Brevet til Galaterne
+      - Galaterbrevet
+      - Galaterne
+      - Gal
+  - osis: Eph
+    texts:
+      - Paulus' Brev til Efeserne
+      - Efeserbrevet
+      - Efeserne
+      - Eph
+      - Ef
+  - osis: Phil
+    texts:
+      - Paulus' Brev til Filipperne
+      - Filipperbrevet
+      - Filipperne
+      - Phil
+      - Fil
+  - osis: Col
+    texts:
+      - Paulus' Brev til Kolossenserne
+      - Kolossenserbrevet
+      - Kolossensern
+      - Col
+      - Kol
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thessalonikerbrev
+      - Tessalonikerne
+      - Thess
+  - osis: 2Thess
+    texts:
+      - Paulus' Andet Brev til Thessalonikerne
+      - Andet Thessalonikerbrev
+      - 2 Thessalonikerbrev
+      - 2 Thess
+      - 2Thess
+  - osis: 1Thess
+    texts:
+      - Paulus' Første Brev til Thessalonikerne
+      - 1 Thessalonikerbrev
+      - 1 Thess
+      - 1Thess
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotheusbrev
+      - Timoteusbrev
+      - Timoteus
+      - Tim
+  - osis: 2Tim
+    texts:
+      - Paulus' Andet Brev til Timotheus
+      - Andet Timotheusbrev
+      - 2 Timoteus
+      - 2 Tim
+      - 2Tim
+  - osis: 1Tim
+    texts:
+      - Paulus' Første Brev til Timotheus
+      - 1 Timoteus
+      - 1 Tim
+      - 1Tim
+  - osis: Titus
+    texts:
+      - Paulus' Brev til Titus
+      - Titusbrevet
+      - Titus
+      - Tit
+  - osis: Phlm
+    texts:
+      - Paulus' Brev til Filemon
+      - Filemonbrevet
+      - Filemon
+      - Filem
+      - Phlm
+      - Flm
+  - osis: Heb
+    texts:
+      - Brevet til Hebræerne
+      - Hebræerbrevet
+      - Hebræerne
+      - Hebr
+      - Heb
+  - osis: Jas
+    texts:
+      - Jakobsbrevet
+      - Jakobs Brev
+      - Jakob
+      - Jak
+      - Jas
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petersbrev
+      - Peter
+      - Pet
+  - osis: 2Pet
+    texts:
+      - Peters Andet Brev
+      - Andet Petersbrev
+      - 2 Peter
+      - 2 Pet
+      - 2Pet
+  - osis: 1Pet
+    texts:
+      - Peters Første Brev
+      - 1 Peter
+      - 1 Pet
+      - 1Pet
+  - osis: Jude
+    texts:
+      - Judas' Brev
+      - Judasbrevet
+      - Judas
+      - Jude
+      - Jud
+  - osis: Tob
+    texts:
+      - Tobits Bog
+      - Tobit
+      - Tob
+  - osis: Jdt
+    texts:
+      - Judits Bog
+      - Judit
+      - Jdt
+  - osis: Bar
+    texts:
+      - Baruks Bog
+      - Baruk
+      - Bar
+  - osis: Sus
+    texts:
+      - Susanna
+      - Sus
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+      - osis: 3Macc
+        before: *third
+      - osis: 4Macc
+        before: *fourth
+    texts:
+      - Makkabæerbog
+      - Makk
+  - osis: 2Macc
+    texts:
+      - 2 Makkabæerbog
+      - 2 Makk
+      - 2Macc
+  - osis: 3Macc
+    texts:
+      - 3 Makkabæerbog
+      - 3 Makk
+      - 3Macc
+  - osis: 4Macc
+    texts:
+      - 4 Makkabæerbog
+      - 4 Makk
+      - 4Macc
+  - osis: 1Macc
+    texts:
+      - 1 Makkabæerbog
+      - 1 Makk
+      - 1Macc
+translations:
+  - BPH
+  - DO33
+  - DO92

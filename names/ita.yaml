@@ -1,0 +1,867 @@
+- osis: Gen
+  texts:
+    - Genesi
+    - Gen
+    - Ge
+- osis: Exod
+  texts:
+    - Esodo
+    - Exod
+    - Es
+- osis: Bel
+  texts:
+    - Bel e il Drago
+    - Bel
+- osis: Lev
+  texts:
+    - Levitico
+    - Lev
+    - Le
+    - Lv
+- osis: Num
+  texts:
+    - Numeri
+    - Num
+    - Nm
+    - Nu
+- osis: Sir
+  texts:
+    - Sapienza di Siracide
+    - Sapienza di Sirach
+    - Ecclesiastico
+    - Siracide
+    - Siràcide
+    - Sir
+- osis: Wis
+  texts:
+    - Sapienza di Salomone
+    - Sapienza
+    - Sap
+    - Wis
+- osis: Lam
+  texts:
+    - Lamentazioni
+    - Lam
+    - La
+- osis: EpJer
+  texts:
+    - Lettera di Geremia
+    - Let-ger
+    - EpJer
+- osis: Rev
+  texts:
+    - Apocalisse di Giovanni
+    - Rivelazione
+    - Apocalisse
+    - Rev
+    - Riv
+    - Ap
+- osis: PrMan
+  texts:
+    - Orazione di Manasse Re di Giuda
+    - Preghiera di Manasse
+    - Orazione di Manasse
+    - PrMan
+- osis: Deut
+  texts:
+    - Deuteronomio
+    - Deut
+    - De
+    - Dt
+- osis: Josh
+  texts:
+    - Giosuè
+    - Giosué
+    - Josh
+    - Gs
+- osis: Judg
+  texts:
+    - Giudici
+    - Judg
+    - Gdc
+- osis: Ruth
+  texts:
+    - Ruth
+    - Rut
+    - Rt
+    - Ru
+- osis: 1Esd
+  texts:
+    - Primo Ésdras
+    - Primo. Ésdras
+    - Prima Ésdras
+    - Prima. Ésdras
+    - 1° Ésdras
+    - 1°. Ésdras
+    - 1 Ésdras
+    - 1. Ésdras
+    - I Ésdras
+    - I. Ésdras
+- osis: 2Esd
+  texts:
+    - Secondo Ésdras
+    - Secondo. Ésdras
+    - Seconda Ésdras
+    - Seconda. Ésdras
+    - 2° Ésdras
+    - 2°. Ésdras
+    - 2 Ésdras
+    - 2. Ésdras
+    - II Ésdras
+    - II. Ésdras
+- osis: 1Esd
+  texts:
+    - Esdra greco
+    - 1 Esdra
+    - 1 Esd
+    - 1Esd
+- osis: 2Esd
+  texts:
+    - 2 Esdra
+    - 2 Esd
+    - 2Esd
+- osis: 1Esd
+  texts:
+    - Primo Esdra
+    - Primo. Esdra
+    - Prima Esdra
+    - Prima. Esdra
+    - 1° Esdra
+    - 1°. Esdra
+    - 1 Esdra
+    - 1. Esdra
+    - I Esdra
+    - I. Esdra
+- osis: 1Esd
+  texts:
+    - Terzo Esdra
+    - Terzo. Esdra
+    - Terza Esdra
+    - Terza. Esdra
+    - 3° Esdra
+    - 3°. Esdra
+    - 3 Esdra
+    - 3. Esdra
+    - III Esdra
+    - III. Esdra
+- osis: 2Esd
+  texts:
+    - Quarto Esdra
+    - Quarto. Esdra
+    - Quarta Esdra
+    - Quarta. Esdra
+    - 4° Esdra
+    - 4°. Esdra
+    - 4 Esdra
+    - 4. Esdra
+    - IV Esdra
+    - IV. Esdra
+- osis: 2Esd
+  texts:
+    - Secondo Esdra
+    - Secondo. Esdra
+    - Seconda Esdra
+    - Seconda. Esdra
+    - 2° Esdra
+    - 2°. Esdra
+    - 2 Esdra
+    - 2. Esdra
+    - II Esdra
+    - II. Esdra
+- osis: Ezra
+  texts:
+    - Esdra
+- osis: Isa
+  texts:
+    - Isaia
+    - Isa
+    - Is
+- osis: 1Sam
+  texts:
+    - Primo Samuele
+    - Primo. Samuele
+    - Prima Samuele
+    - Prima. Samuele
+    - 1° Samuele
+    - 1°. Samuele
+    - 1 Samuele
+    - 1. Samuele
+    - I Samuele
+    - I. Samuele
+- osis: 2Sam
+  texts:
+    - Secondo Samuele
+    - Secondo. Samuele
+    - Seconda Samuele
+    - Seconda. Samuele
+    - 2° Samuele
+    - 2°. Samuele
+    - 2 Samuele
+    - 2. Samuele
+    - II Samuele
+    - II. Samuele
+- osis: 2Sam
+  texts:
+    - 2 Samuele
+    - 2 Sam
+    - 2Sam
+    - 2 S
+- osis: 1Sam
+  texts:
+    - 1 Samuele
+    - 1 Sam
+    - 1Sam
+    - 1 S
+- osis: 1Kgs
+  texts:
+    - Primo Re
+    - Primo. Re
+    - Prima Re
+    - Prima. Re
+    - 1° Re
+    - 1°. Re
+    - 1 Re
+    - 1. Re
+    - I Re
+    - I. Re
+- osis: 2Kgs
+  texts:
+    - Secondo Re
+    - Secondo. Re
+    - Seconda Re
+    - Seconda. Re
+    - 2° Re
+    - 2°. Re
+    - 2 Re
+    - 2. Re
+    - II Re
+    - II. Re
+- osis: 2Kgs
+  texts:
+    - 2Kgs
+    - 2 Re
+    - 2 R
+- osis: 1Kgs
+  texts:
+    - 1Kgs
+    - 1 Re
+    - 1 R
+- osis: 1Chr
+  texts:
+    - Primo Cronache
+    - Primo. Cronache
+    - Prima Cronache
+    - Prima. Cronache
+    - 1° Cronache
+    - 1°. Cronache
+    - 1 Cronache
+    - 1. Cronache
+    - I Cronache
+    - I. Cronache
+- osis: 2Chr
+  texts:
+    - Secondo Cronache
+    - Secondo. Cronache
+    - Seconda Cronache
+    - Seconda. Cronache
+    - 2° Cronache
+    - 2°. Cronache
+    - 2 Cronache
+    - 2. Cronache
+    - II Cronache
+    - II. Cronache
+- osis: 2Chr
+  texts:
+    - 2 Cronache
+    - 2 Cr
+    - 2Chr
+- osis: 1Chr
+  texts:
+    - 1 Cronache
+    - 1 Cr
+    - 1Chr
+- osis: Ezra
+  texts:
+    - Ezra
+    - Esd
+    - Ed
+- osis: Neh
+  texts:
+    - Neemia
+    - Neh
+    - Ne
+- osis: GkEsth
+  texts:
+    - Ester (versione greca)
+    - Ester (greco)
+    - Ester greco
+    - GkEsth
+- osis: Esth
+  texts:
+    - Ester
+    - Esth
+    - Est
+    - Et
+- osis: Job
+  texts:
+    - Giobbe
+    - Job
+    - Gb
+- osis: Ps
+  texts:
+    - Salmi
+    - Salmo
+    - Sal
+    - Ps
+    - Sl
+- osis: PrAzar
+  texts:
+    - Preghiera di Azaria
+    - PrAzar
+- osis: Prov
+  texts:
+    - Proverbi
+    - Prov
+    - Pr
+- osis: Eccl
+  texts:
+    - Ecclesiaste
+    - Qohèlet
+    - Qoelet
+    - Qoèlet
+    - Eccl
+    - Ecc
+    - Ec
+    - Qo
+- osis: SgThree
+  texts:
+    - Cantico dei tre giovani nella fornace
+    - Cantico dei tre fanciulli
+    - SgThree
+- osis: Song
+  texts:
+    - Cantico dei Cantici
+    - Cantico di Salomone
+    - Cantico dei cantici
+    - Cantico
+    - Song
+    - Ca
+    - Ct
+- osis: Jer
+  texts:
+    - Jeremiah
+    - Geremia
+    - Ger
+    - Jer
+    - Gr
+- osis: Ezek
+  texts:
+    - Ezechiele
+    - Ezek
+    - Ez
+- osis: Dan
+  texts:
+    - Daniele
+    - Dan
+    - Da
+    - Dn
+- osis: Hos
+  texts:
+    - Osea
+    - Hos
+    - Os
+- osis: Joel
+  texts:
+    - Gioele
+    - Gioe
+    - Joel
+    - Gl
+- osis: Amos
+  texts:
+    - Amos
+    - Am
+- osis: Obad
+  texts:
+    - Ovadia
+    - Abdia
+    - Obad
+    - Abd
+    - Ad
+- osis: Jonah
+  texts:
+    - Giona
+    - Jonah
+    - Gio
+    - Gn
+- osis: Mic
+  texts:
+    - Michea
+    - Mic
+    - Mi
+- osis: Nah
+  texts:
+    - Nahum
+    - Naum
+    - Nah
+    - Na
+- osis: Hab
+  texts:
+    - Abacuc
+    - Hab
+    - Ab
+    - Ac
+- osis: Zeph
+  texts:
+    - Sofonia
+    - Zeph
+    - Sof
+    - So
+- osis: Hag
+  texts:
+    - Aggeo
+    - Hag
+    - Ag
+- osis: Zech
+  texts:
+    - Zaccaria
+    - Zech
+    - Zac
+    - Za
+    - Zc
+- osis: Mal
+  texts:
+    - Malachia
+    - Mal
+    - Ml
+- osis: Matt
+  texts:
+    - Vangelo di San Matteo
+    - Vangelo di San. Matteo
+    - Vangelo di Matteo
+    - Vangelo di. Matteo
+- osis: Matt
+  texts:
+    - Matteo
+- osis: Matt
+  texts:
+    - Matt
+    - Mt
+- osis: Mark
+  texts:
+    - Vangelo di San Marco
+    - Vangelo di San. Marco
+    - Vangelo di Marco
+    - Vangelo di. Marco
+- osis: Mark
+  texts:
+    - Marco
+- osis: Mark
+  texts:
+    - Mark
+    - Mc
+    - Mr
+- osis: Luke
+  texts:
+    - Vangelo di San Luca
+    - Vangelo di San. Luca
+    - Vangelo di Luca
+    - Vangelo di. Luca
+- osis: Luke
+  texts:
+    - Luca
+- osis: Luke
+  texts:
+    - Luke
+    - Lc
+    - Lu
+- osis: 1John
+  texts:
+    - Prima lettera di Giovanni
+    - 1 Giovanni
+    - 1John
+    - 1 Gv
+- osis: 2John
+  texts:
+    - Seconda lettera di Giovanni
+    - 2 Giovanni
+    - 2John
+    - 2 Gv
+- osis: 3John
+  texts:
+    - Terza lettera di Giovanni
+    - 3 Giovanni
+    - 3John
+    - 3 Gv
+- osis: John
+  texts:
+    - Vangelo di San Giovanni
+    - Vangelo di San. Giovanni
+    - Vangelo di Giovanni
+    - Vangelo di. Giovanni
+- osis: 1John
+  texts:
+    - Primo Giovanni
+    - Primo. Giovanni
+    - Prima Giovanni
+    - Prima. Giovanni
+    - 1° Giovanni
+    - 1°. Giovanni
+    - 1 Giovanni
+    - 1. Giovanni
+    - I Giovanni
+    - I. Giovanni
+- osis: 2John
+  texts:
+    - Secondo Giovanni
+    - Secondo. Giovanni
+    - Seconda Giovanni
+    - Seconda. Giovanni
+    - 2° Giovanni
+    - 2°. Giovanni
+    - 2 Giovanni
+    - 2. Giovanni
+    - II Giovanni
+    - II. Giovanni
+- osis: 3John
+  texts:
+    - Terzo Giovanni
+    - Terzo. Giovanni
+    - Terza Giovanni
+    - Terza. Giovanni
+    - 3° Giovanni
+    - 3°. Giovanni
+    - 3 Giovanni
+    - 3. Giovanni
+    - III Giovanni
+    - III. Giovanni
+- osis: John
+  texts:
+    - Giovanni
+- osis: John
+  texts:
+    - John
+    - Gv
+- osis: Acts
+  texts:
+    - Atti degli Apostoli
+    - Acts
+    - Atti
+    - At
+- osis: Rom
+  texts:
+    - Lettera ai Romani
+    - Romani
+    - Rom
+    - Rm
+    - Ro
+- osis: 1Cor
+  texts:
+    - Primo Corinzi
+    - Primo. Corinzi
+    - Prima Corinzi
+    - Prima. Corinzi
+    - 1° Corinzi
+    - 1°. Corinzi
+    - 1 Corinzi
+    - 1. Corinzi
+    - I Corinzi
+    - I. Corinzi
+- osis: 2Cor
+  texts:
+    - Secondo Corinzi
+    - Secondo. Corinzi
+    - Seconda Corinzi
+    - Seconda. Corinzi
+    - 2° Corinzi
+    - 2°. Corinzi
+    - 2 Corinzi
+    - 2. Corinzi
+    - II Corinzi
+    - II. Corinzi
+- osis: 2Cor
+  texts:
+    - Seconda lettera ai Corinzi
+    - 2 Corinzi
+    - 2 Cor
+    - 2 Co
+    - 2Cor
+- osis: 1Cor
+  texts:
+    - Prima lettera ai Corinzi
+    - 1 Corinzi
+    - 1 Cor
+    - 1 Co
+    - 1Cor
+- osis: Gal
+  texts:
+    - Lettera ai Galati
+    - Galati
+    - Gàlati
+    - Gal
+    - Ga
+- osis: Eph
+  texts:
+    - Lettera agli Efesini
+    - Efesini
+    - Eph
+    - Ef
+- osis: Phil
+  texts:
+    - Lettera ai Filippesi
+    - Filippesi
+    - Phil
+    - Fil
+    - Fl
+- osis: Col
+  texts:
+    - Lettera ai Colossesi
+    - Colossesi
+    - Col
+    - Cl
+- osis: 1Thess
+  texts:
+    - Primo Tessalonicesi
+    - Primo. Tessalonicesi
+    - Prima Tessalonicesi
+    - Prima. Tessalonicesi
+    - 1° Tessalonicesi
+    - 1°. Tessalonicesi
+    - 1 Tessalonicesi
+    - 1. Tessalonicesi
+    - I Tessalonicesi
+    - I. Tessalonicesi
+- osis: 2Thess
+  texts:
+    - Secondo Tessalonicesi
+    - Secondo. Tessalonicesi
+    - Seconda Tessalonicesi
+    - Seconda. Tessalonicesi
+    - 2° Tessalonicesi
+    - 2°. Tessalonicesi
+    - 2 Tessalonicesi
+    - 2. Tessalonicesi
+    - II Tessalonicesi
+    - II. Tessalonicesi
+- osis: 2Thess
+  texts:
+    - Seconda lettera ai Tessalonicesi
+    - 2 Tessalonicesi
+    - 2Thess
+    - 2 Te
+    - 2 Ts
+- osis: 1Thess
+  texts:
+    - Prima lettera ai Tessalonicesi
+    - 1 Tessalonicesi
+    - 1Thess
+    - 1 Te
+    - 1 Ts
+- osis: 1Tim
+  texts:
+    - Primo Timoteo
+    - Primo. Timoteo
+    - Prima Timoteo
+    - Prima. Timoteo
+    - 1° Timoteo
+    - 1°. Timoteo
+    - 1 Timoteo
+    - 1. Timoteo
+    - I Timoteo
+    - I. Timoteo
+- osis: 2Tim
+  texts:
+    - Secondo Timoteo
+    - Secondo. Timoteo
+    - Seconda Timoteo
+    - Seconda. Timoteo
+    - 2° Timoteo
+    - 2°. Timoteo
+    - 2 Timoteo
+    - 2. Timoteo
+    - II Timoteo
+    - II. Timoteo
+- osis: 2Tim
+  texts:
+    - Seconda lettera a Timoteo
+    - 2 Timoteo
+    - 2 Tim
+    - 2 Ti
+    - 2 Tm
+    - 2Tim
+- osis: 1Tim
+  texts:
+    - Prima lettera a Timoteo
+    - 1 Timoteo
+    - 1 Tim
+    - 1 Ti
+    - 1 Tm
+    - 1Tim
+- osis: Titus
+  texts:
+    - Lettera a Tito
+    - Titus
+    - Tito
+    - Tt
+- osis: Phlm
+  texts:
+    - Lettera a Filemone
+    - Filemone
+    - Filèmone
+    - Phlm
+    - Fi
+    - Fm
+- osis: Heb
+  texts:
+    - Lettera agli Ebrei
+    - Ebrei
+    - Heb
+    - Eb
+- osis: Jas
+  texts:
+    - Lettera di Giacomo
+    - Giacomo
+    - Jas
+    - Gc
+    - Gm
+- osis: 1Pet
+  texts:
+    - Primo Pietro
+    - Primo. Pietro
+    - Prima Pietro
+    - Prima. Pietro
+    - 1° Pietro
+    - 1°. Pietro
+    - 1 Pietro
+    - 1. Pietro
+    - I Pietro
+    - I. Pietro
+- osis: 2Pet
+  texts:
+    - Secondo Pietro
+    - Secondo. Pietro
+    - Seconda Pietro
+    - Seconda. Pietro
+    - 2° Pietro
+    - 2°. Pietro
+    - 2 Pietro
+    - 2. Pietro
+    - II Pietro
+    - II. Pietro
+- osis: 2Pet
+  texts:
+    - Seconda lettera di Pietro
+    - 2 Pietro
+    - 2 Pt
+    - 2Pet
+    - 2 P
+- osis: 1Pet
+  texts:
+    - Prima lettera di Pietro
+    - 1 Pietro
+    - 1 Pt
+    - 1Pet
+    - 1 P
+- osis: Jude
+  texts:
+    - Lettera di Giuda
+    - Giuda
+    - Jude
+    - Gd
+- osis: Tob
+  texts:
+    - Tobiolo
+    - Tobia
+    - Tobi
+    - Tob
+    - Tb
+- osis: Jdt
+  texts:
+    - Giuditta
+    - Gdt
+    - Jdt
+- osis: Bar
+  texts:
+    - Baruch
+    - Baruc
+    - Bar
+- osis: Sus
+  texts:
+    - Storia di Susanna
+    - Susanna
+    - Sus
+- osis: 1Macc
+  texts:
+    - Primo Maccabei
+    - Primo. Maccabei
+    - Prima Maccabei
+    - Prima. Maccabei
+    - 1° Maccabei
+    - 1°. Maccabei
+    - 1 Maccabei
+    - 1. Maccabei
+    - I Maccabei
+    - I. Maccabei
+- osis: 2Macc
+  texts:
+    - Secondo Maccabei
+    - Secondo. Maccabei
+    - Seconda Maccabei
+    - Seconda. Maccabei
+    - 2° Maccabei
+    - 2°. Maccabei
+    - 2 Maccabei
+    - 2. Maccabei
+    - II Maccabei
+    - II. Maccabei
+- osis: 3Macc
+  texts:
+    - Terzo Maccabei
+    - Terzo. Maccabei
+    - Terza Maccabei
+    - Terza. Maccabei
+    - 3° Maccabei
+    - 3°. Maccabei
+    - 3 Maccabei
+    - 3. Maccabei
+    - III Maccabei
+    - III. Maccabei
+- osis: 4Macc
+  texts:
+    - Quarto Maccabei
+    - Quarto. Maccabei
+    - Quarta Maccabei
+    - Quarta. Maccabei
+    - 4° Maccabei
+    - 4°. Maccabei
+    - 4 Maccabei
+    - 4. Maccabei
+    - IV Maccabei
+    - IV. Maccabei
+- osis: 2Macc
+  texts:
+    - Secondo libro dei Maccabei
+    - 2 Maccabei
+    - 2 Mac
+    - 2Macc
+- osis: 3Macc
+  texts:
+    - Terzo libro dei Maccabei
+    - 3 Maccabei
+    - 3 Mac
+    - 3Macc
+- osis: 4Macc
+  texts:
+    - Quarto libro dei Maccabei
+    - 4 Maccabei
+    - 4 Mac
+    - 4Macc
+- osis: 1Macc
+  texts:
+    - Primo libro dei Maccabei
+    - 1 Maccabei
+    - 1 Mac
+    - 1Macc
+- osis: AddEsth
+  texts:
+    - Aggiunte a Ester
+    - AddEsth

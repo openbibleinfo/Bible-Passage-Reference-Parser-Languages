@@ -1,0 +1,883 @@
+variables:
+  first: &first
+    - Unang
+    - Una
+    - "1"
+    - I
+  second: &second
+    - Ikalawang
+    - "2"
+    - II
+  third: &third
+    - Ikatlong
+    - "3"
+    - III
+  fourth: &fourth
+    - Ikaapat
+    - "4"
+    - IV
+  and:
+    - at
+  chapter:
+    - pangkat
+    - pang
+    - kapitulo
+    - kap
+  ff:
+    - k
+  title:
+    - titik
+    - pamagat
+  verse:
+    - talatang
+    - tal.
+    - tal
+books:
+  - osis: Gen
+    texts:
+      - Genesis
+      - Henesis
+      - Gen
+  - osis: Exod
+    texts:
+      - Exodus
+      - Exodo
+      - Exod
+      - Exo
+      - Ex
+  - osis: Bel
+    texts:
+      - Si Bel at ang Dragon
+      - Bel at ang Dragon
+      - Bel
+  - osis: Lev
+    texts:
+      - Lebitikus
+      - Leviticus
+      - Lebitico
+      - Levitico
+      - Leb
+      - Lev
+  - osis: Num
+    texts:
+      - Mga Bilang
+      - Bamidbar
+      - Bemidbar
+      - Bilang
+      - Bil
+      - Blg
+      - Num
+  - osis: Sir
+    texts:
+      - Ang Karunungan ni Jesus, Anak ni Sirac
+      - Ang Karunungan ni Jesus Anak ni Sirac
+      - Karunungan ng Anak ni Sirac
+      - Ecclesiasticus
+      - Ekklesiastikus
+      - Ekklesyastikus
+      - Ecclesiastico
+      - Ekklesiastiko
+      - Ekklesyastiko
+      - Eklesiastikus
+      - Eklesyastikus
+      - Eclesiastico
+      - Eklesiastiko
+      - Eklesyastiko
+      - Sirácidas
+      - Sirácides
+      - Sirákidas
+      - Sirákides
+      - Sirácida
+      - Sirácide
+      - Sirákida
+      - Sirákide
+      - Sirách
+      - Sirákh
+      - Sirac
+      - Sirác
+      - Sirák
+      - Sir
+  - osis: Lam
+    texts:
+      - Aklat ng Pananaghoy
+      - Aklat ng Pagtaghoy
+      - Mga Lamentasyon
+      - Mga Panaghoy
+      - Panaghoy
+      - Panag
+      - Lam
+  - osis: EpJer
+    texts:
+      - Ang Liham ni Jeremias
+      - Liham ni Jeremias
+      - Li ni Jer
+      - Lih Jer
+      - EpJer
+  - osis: Rev
+    texts:
+      - Apocalipsis ni Juan
+      - Apokalipsis ni Juan
+      - Pahayag kay Juan
+      - Apocalipsis
+      - Apokalipsis
+      - Rebelasyon
+      - Pahayag
+      - Apoc
+      - Apok
+      - Pah
+      - Rev
+  - osis: PrMan
+    texts:
+      - Ang Panalangin ni Manases
+      - Panalangin ni Manases
+      - Dalangin ni Manases
+      - Dasal ni Manases
+      - PrMan
+  - osis: Deut
+    texts:
+      - Deyuteronomyo
+      - Diyuteronomyo
+      - Deuteronomiya
+      - Deuteronomiyo
+      - Dyuteronomyo
+      - Deuteronomya
+      - Deuteronomia
+      - Deuteronomio
+      - Deuteronoma
+      - Deuteronomi
+      - Deut
+      - Dt
+  - osis: Josh
+    texts:
+      - Joshua
+      - Josué
+      - Josue
+      - Josh
+      - Jos
+  - osis: Judg
+    texts:
+      - Mga Hukom
+      - Hukom
+      - Judg
+      - Huk
+  - osis: Ruth
+    texts:
+      - Ruth
+      - Rut
+  - osis: 1Esd
+    texts:
+      - 1 Esdras
+      - 1 Esd
+      - 1Esd
+  - osis: 2Esd
+    texts:
+      - 2 Esdras
+      - 2 Esd
+      - 2Esd
+  - osis:
+      - osis: Ezra
+      - osis: 1Esd
+        before: *first
+      - osis: 2Esd
+        before: *second
+    texts:
+      - Esdras
+      - Ezra
+  - osis: Isa
+    texts:
+      - Isaíah
+      - Isaías
+      - Isaias
+      - Isaía
+      - Isa
+      - Is
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+  - osis: 2Sam
+    texts:
+      - 2 Samuel
+      - 2 Sam
+      - 2Sam
+  - osis: 1Sam
+    texts:
+      - 1 Samuel
+      - 1 Sam
+      - 1Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Hari
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 1Kgs
+        before: *third
+      - osis: 2Kgs
+        before: *fourth
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Mga Hari
+  - osis: 2Kgs
+    texts:
+      - 2 Mga Hari
+      - 2 Ha
+      - 2Kgs
+  - osis: 1Kgs
+    texts:
+      - 1 Mga Hari
+      - 1 Ha
+      - 1Kgs
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Paralipomeno
+      - Mga Cronica
+      - Mga Kronika
+      - Chronicle
+      - Kronikel
+      - Cronica
+      - Kronika
+  - osis: 2Chr
+    texts:
+      - 2 Paralipomeno
+      - 2 Cron
+      - 2 Cro
+      - 2Chr
+  - osis: 1Chr
+    texts:
+      - 1 Paralipomeno
+      - 1 Cron
+      - 1 Cro
+      - 1Chr
+  - osis: Neh
+    texts:
+      - Nehemíah
+      - Nehemías
+      - Nehemias
+      - Neh
+  - osis: GkEsth
+    texts:
+      - Ester (Griyego)
+      - Ester (Gryego)
+      - Ester (Griego)
+      - Ester Griyego
+      - Ester (Grego)
+      - Ester Gryego
+      - Ester Griego
+      - Ester Grego
+      - GkEsth
+      - Estg
+  - osis: Esth
+    texts:
+      - Esther
+      - Ester
+      - Esth
+      - Est
+  - osis: Job
+    texts:
+      - Job
+  - osis: SgThree
+    texts:
+      - Awit ng Tatlong Banal na Kabataan
+      - Awit ng Tatlong Kabataang Banal
+      - Awit ng Tatlong Kabataan
+      - Awit ng Tatlong Binata
+      - Awit ng 3 Kabataan
+      - Tatlong Kabataan
+      - Aw ng 3 Kab
+      - SgThree
+  - osis: Song
+    texts:
+      - Ang Awit ng mga Awit
+      - Ang Awit ni Salomón
+      - Ang Awit ni Solomón
+      - Awit ng mga Awit
+      - Awit ni Salomón
+      - Awit ni Solomón
+      - Kantikulo
+      - A. ng A.
+      - A ng A.
+      - A. ng A
+      - Aw ni S
+      - Kantiko
+      - A ng A
+      - Song
+  - osis: Ps
+    texts:
+      - Mga Salmo
+      - Mga Awit
+      - Salmo
+      - Awit
+      - Ps
+  - osis: Wis
+    texts:
+      - Ang Karunungan ni Salomón
+      - Ang Karunungan ni Solomón
+      - Karunungan ni Salomón
+      - Karunungan ni Solomón
+      - Karunungan
+      - Salomón
+      - Solomón
+      - Kar
+      - Wis
+  - osis: PrAzar
+    texts:
+      - Ang Panalangin ni Azarias
+      - Panalangin ni Azarias
+      - PrAzar
+  - osis: Prov
+    texts:
+      - Mga Kawikaan
+      - Kawikaan
+      - Prov
+      - Kaw
+  - osis: Eccl
+    texts:
+      - Ang Mangangaral
+      - Ecclesiastes
+      - Eclesiastés
+      - Eclesyastés
+      - Eklesiastés
+      - Eklesyastés
+      - Eclisiastes
+      - Eclisyastes
+      - Eklisiastes
+      - Eklisyastes
+      - Mangangaral
+      - Kohelet
+      - Manga
+      - Eccl
+      - Ec
+  - osis: Jer
+    texts:
+      - Aklat ni Jeremiah
+      - Aklat ni Jeremias
+      - Sulat ni Jeremias
+      - Heremias
+      - Heremyas
+      - Herimias
+      - Herimyas
+      - Hiremias
+      - Hiremyas
+      - Hirimias
+      - Hirimyas
+      - Jeremiah
+      - Jeremias
+      - Jer
+  - osis: Ezek
+    texts:
+      - Ezequiel
+      - Esekiel
+      - Esekyel
+      - Ezekiel
+      - Ezekyel
+      - Ezek
+      - Eze
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan
+  - osis: Hos
+    texts:
+      - Hoseias
+      - Hoseas
+      - Hoseia
+      - Oseiah
+      - Oseias
+      - Hosea
+      - Oseah
+      - Oseas
+      - Oseia
+      - Osea
+      - Hos
+      - Os
+  - osis: Joel
+    texts:
+      - Joel
+      - Yole
+  - osis: Amos
+    texts:
+      - Amos
+      - Amós
+  - osis: Obad
+    texts:
+      - Obadiah
+      - Obadias
+      - Abdías
+      - Obad
+      - Oba
+  - osis: Jonah
+    texts:
+      - Jonah
+      - Jonáh
+      - Jonás
+      - Jonas
+      - Joná
+      - Jon
+  - osis: Mic
+    texts:
+      - Mikeyas
+      - Mikieas
+      - Miqueas
+      - Mikeas
+      - Micah
+      - Mikah
+      - Micas
+      - Mikas
+      - Mica
+      - Mika
+      - Mic
+      - Mik
+  - osis: Nah
+    texts:
+      - Nahúm
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakkuk
+      - Habacuc
+      - Habakuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Zephaniah
+      - Zephanias
+      - Sefanias
+      - Sepanias
+      - Sofonías
+      - Zefanias
+      - Zepanias
+      - Sofonias
+      - Sefania
+      - Sepania
+      - Zeph
+      - Zef
+  - osis: Hag
+    texts:
+      - Haggai
+      - Haggeo
+      - Aggeo
+      - Hagai
+      - Hageo
+      - Agai
+      - Ageo
+      - Hag
+  - osis: Zech
+    texts:
+      - Zechariah
+      - Sacarías
+      - Zacarías
+      - Zacarias
+      - Zech
+      - Zac
+  - osis: Mal
+    texts:
+      - Malaquías
+      - Malakias
+      - Malachi
+      - Mal
+  - osis: Matt
+    texts:
+      - Mabuting Balita ayon kay San Mateo
+      - Mabuting Balita ayon kay Mateo
+      - Ebanghelyo ayon kay Mateo
+      - Ebanghelyo ni San Mateo
+      - Ebanghelyo ni Mateo
+      - Mateo
+      - Matt
+      - Mat
+      - Mt
+  - osis: Mark
+    texts:
+      - Mabuting Balita ayon kay San Marcos
+      - Mabuting Balita ayon kay San Markos
+      - Mabuting Balita ayon kay Marcos
+      - Mabuting Balita ayon kay Markos
+      - Ebanghelyo ayon kay Marcos
+      - Ebanghelyo ni San Marcos
+      - Ebanghelyo ni San Markos
+      - Ebanghelyo ni Marcos
+      - Ebanghelyo ni Markos
+      - Marcos
+      - Markos
+      - Mark
+      - Mar
+      - Mc
+  - osis: Luke
+    texts:
+      - Mabuting Balita ayon kay San Lucas
+      - Mabuting Balita ayon kay San Lukas
+      - Mabuting Balita ayon kay Lucas
+      - Mabuting Balita ayon kay Lukas
+      - Ebanghelyo ayon kay San Lucas
+      - Ebanghelyo ayon kay San Lukas
+      - Ebanghelyo ayon kay Lucas
+      - Ebanghelyo ayon kay Lukas
+      - Ebanghelyo ni San Lucas
+      - Ebanghelyo ni San Lukas
+      - Lucas
+      - Lukas
+      - Luke
+      - Luc
+      - Lu
+  - osis: 1John
+    texts:
+      - 1 Juan
+      - 1John
+      - 1 Jn
+  - osis: 2John
+    texts:
+      - 2 Juan
+      - 2John
+      - 2 Jn
+  - osis: 3John
+    texts:
+      - 3 Juan
+      - 3John
+      - 3 Jn
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Juan
+  - osis: John
+    texts:
+      - Mabuting Balita ayon kay San Juan
+      - Mabuting Balita ayon kay Juan
+      - Ebanghelyo ayon kay San Juan
+      - Ebanghelyo ayon kay Juan
+      - Ebanghelyo ni San Juan
+      - John
+      - Jn
+  - osis: Acts
+    texts:
+      - Mabuting Balita ayon sa Espiritu Santo
+      - Mabuting Balita ng Espiritu Santo
+      - Ebanghelyo ng Espiritu Santo
+      - Mga Gawa ng mga Apostoles
+      - Mga Gawa ng mga Apostol
+      - Mga Gawa ng mga Alagad
+      - Gawa ng mga Apostol
+      - Gawa ng Apostoles
+      - Mga Gawain
+      - Mga Gawa
+      - Acts
+      - Gawa
+      - Gw
+  - osis: Rom
+    texts:
+      - Sulat sa mga Romano
+      - Mga Taga- Roma
+      - Mga Taga Roma
+      - Mga Taga-Roma
+      - Taga- Roma
+      - Taga Roma
+      - Roma
+      - Rom
+      - Ro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Mga Taga- Corinto
+      - Mga Taga Corinto
+      - Corintio
+      - Korintio
+      - Corinto
+      - Korinto
+  - osis: 2Cor
+    texts:
+      - Ika- 2 Sulat sa mga Corintio
+      - SECOND Sulat sa mga Corintio
+      - Ika 2 Sulat sa mga Corintio
+      - Ika- 2 Sulat sa mga Corinto
+      - SECOND Sulat sa mga Corinto
+      - Ika 2 Sulat sa mga Corinto
+      - 2 Corinto
+      - 2 Cor
+      - 2Cor
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Sulat sa mga Corintio
+      - Sulat sa mga Corinto
+  - osis: 1Cor
+    texts:
+      - Ika- 1 Sulat sa mga Corintio
+      - Ika 1 Sulat sa mga Corintio
+      - Ika- 1 Sulat sa mga Corinto
+      - Ika 1 Sulat sa mga Corinto
+      - 1 Corinto
+      - 1 Cor
+      - 1Cor
+  - osis: Gal
+    texts:
+      - Sulat sa mga taga Galacia
+      - Sulat sa mga Galacia
+      - Mga Taga- Galacia
+      - Mga Taga- Galasya
+      - Mga Taga Galacia
+      - Mga Taga Galasya
+      - Mga Taga-Galacia
+      - Taga- Galacia
+      - Taga Galacia
+      - Galasyano
+      - Galacia
+      - Gal
+      - Ga
+  - osis: Eph
+    texts:
+      - Sulat sa mga Efesio
+      - Sulat sa mga Epesio
+      - Sulat sa mga Efeso
+      - Sulat sa mga Epeso
+      - Mga Taga- Efesio
+      - Mga Taga- Epesio
+      - Mga Taga Efesio
+      - Mga Taga Epesio
+      - Mga Taga- Efeso
+      - Mga Taga- Epeso
+      - Mga Taga Efeso
+      - Mga Taga Epeso
+      - Mga Taga-Efeso
+      - Taga- Efesio
+      - Taga- Epesio
+      - Taga Efesio
+      - Taga Epesio
+      - Taga- Efeso
+      - Taga- Epeso
+      - Mga Efesio
+      - Mga Epesio
+      - Taga Efeso
+      - Taga Epeso
+      - Mga Efeso
+      - Mga Epeso
+      - Efesio
+      - Epesio
+      - Efeso
+      - Epeso
+      - Eph
+      - Ef
+  - osis: Phil
+    texts:
+      - Sulat sa mga Pilipyano
+      - Sulat sa mga Filipense
+      - Sulat sa mga Pilipense
+      - Mga Taga- Filipos
+      - Mga Taga- Pilipos
+      - Mga Taga Filipos
+      - Mga Taga Pilipos
+      - Mga Taga-Filipos
+      - Mga Pilipyano
+      - Mga Filipense
+      - Mga Pilipense
+      - Taga- Filipos
+      - Taga- Pilipos
+      - Taga Filipos
+      - Taga Pilipos
+      - Filipos
+      - Pilipos
+      - Phil
+      - Fil
+  - osis: Col
+    texts:
+      - Sulat sa mga Colonsense
+      - Sulat sa mga Kolonsense
+      - Sulat sa mga Colosense
+      - Sulat sa mga Kolosense
+      - Mga Taga- Colosas
+      - Mga Taga- Kolosas
+      - Mga Taga Colosas
+      - Mga Taga Kolosas
+      - Mga Taga-Colosas
+      - Mga Colonsense
+      - Mga Kolonsense
+      - Mga Colosense
+      - Mga Kolosense
+      - Taga- Colosas
+      - Taga Colosas
+      - Colosas
+      - Kolosas
+      - Col
+      - Co
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Mga Taga- Tesalonica
+      - Mga Taga- Tesalonika
+      - Mga Taga Tesalonica
+      - Mga Taga Tesalonika
+      - Mga Tesalonicense
+      - Mga Tesalonisense
+      - Tesalonicense
+      - Tesalonisense
+      - Tesalonica
+      - Tesalonika
+  - osis: 2Thess
+    texts:
+      - 2 Tesalonica
+      - 2 Thes
+      - 2Thess
+      - 2 Tes
+  - osis: 1Thess
+    texts:
+      - 1 Tesalonica
+      - 1 Thes
+      - 1Thess
+      - 1 Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Kay Timoteo
+      - Timoteo
+  - osis: 2Tim
+    texts:
+      - 2 Timoteo
+      - 2 Tim
+      - 2Tim
+  - osis: 1Tim
+    texts:
+      - 1 Timoteo
+      - 1 Tim
+      - 1Tim
+  - osis: Titus
+    texts:
+      - Kay Tito
+      - Titus
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Kay Filemon
+      - Filemon
+      - Filem
+      - Phlm
+      - Flm
+  - osis: Heb
+    texts:
+      - Mga Hebreo
+      - Mga Ebreo
+      - Hebreo
+      - Heb
+  - osis: Jas
+    texts:
+      - Santiago
+      - Jacobo
+      - Sant
+      - Jas
+      - San
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pedro
+  - osis: 2Pet
+    texts:
+      - 2 Pedro
+      - 2 Ped
+      - 2Pet
+  - osis: 1Pet
+    texts:
+      - 1 Pedro
+      - 1 Ped
+      - 1Pet
+  - osis: Jude
+    texts:
+      - Hudas
+      - Judas
+      - Jude
+      - Jud
+      - Ju
+  - osis: Tob
+    texts:
+      - Tobías
+      - Tobit
+      - Tob
+      - Tb
+  - osis: Jdt
+    texts:
+      - Judith
+      - Judit
+      - Jdt
+  - osis: Bar
+    texts:
+      - Baruch
+      - Barukh
+      - Baruc
+      - Baruk
+      - Bar
+  - osis: Sus
+    texts:
+      - Si Susana
+      - Susana
+      - Sus
+      - Su
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+      - osis: 3Macc
+        before: *third
+      - osis: 4Macc
+        before: *fourth
+    texts:
+      - Mga Macabeo
+      - Macabeos
+      - Macabeo
+  - osis: 2Macc
+    texts:
+      - 2 Mga Macabeo
+      - 2 Mcb
+      - 2Macc
+  - osis: 3Macc
+    texts:
+      - 3 Mga Macabeo
+      - 3 Mcb
+      - 3Macc
+  - osis: 4Macc
+    texts:
+      - 4 Mga Macabeo
+      - 4 Mcb
+      - 4Macc
+  - osis: 1Macc
+    texts:
+      - 1 Mga Macabeo
+      - 1 Mcb
+      - 1Macc
+  - osis:
+      - Ezek
+      - Ezra
+    texts:
+      - Ez
+translations:
+  - ASND

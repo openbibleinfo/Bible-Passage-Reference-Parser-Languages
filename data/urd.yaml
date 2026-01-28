@@ -1,0 +1,738 @@
+options:
+  normalize: none
+variables:
+  first: &first
+    - اوّل
+    - ۱
+    - "1"
+  second: &second
+    - دوم
+    - ۲
+    - "2"
+  third: &third
+    - تیسرا
+    - ۳
+    - "3"
+  fourth:
+    - "4"
+  and:
+    - ،
+    - ؛
+    - ۔
+  chapter:
+    - باب
+    - ابواب
+  to:
+    - تا
+  verse:
+    - آیت
+    - آیات
+books:
+  - osis: Gen
+    texts:
+      - pīdāyiš
+      - پَیدایش
+      - پيدائش
+      - پیدائش
+      - پیدایش
+      - Gen
+  - osis: Exod
+    texts:
+      - خُرُوج
+      - ḫurūj
+      - Exod
+      - خروج
+  - osis: Bel
+    texts:
+      - Bel
+  - osis: Lev
+    texts:
+      - iḥbār
+      - احبار
+      - Lev
+  - osis: Num
+    texts:
+      - gintī
+      - گِنتی
+      - گنتی
+      - Num
+  - osis: Sir
+    texts:
+      - Sir
+  - osis: Wis
+    texts:
+      - Wis
+  - osis: Lam
+    texts:
+      - نَوحہ
+      - nūḥâ
+      - نوحہ
+      - Lam
+  - osis: EpJer
+    texts:
+      - EpJer
+  - osis: Rev
+    texts:
+      - yūḥannā ʿārif kā mukāšafâ
+      - یُو حنّا عارِف کا مُکاشفہ
+      - یو حنا عارف کا مکاشفہ
+      - یُوحنا عارف کا مکاشفہ
+      - مُکاشفہ
+      - مکاشفہ
+      - Rev
+  - osis: PrMan
+    texts:
+      - PrMan
+  - osis: Deut
+    texts:
+      - istis̱nā
+      - اِستِثنا
+      - استثناء
+      - استثنا
+      - Deut
+  - osis: Josh
+    texts:
+      - yašūʿ
+      - یشُوع
+      - Josh
+      - یشوع
+  - osis: Judg
+    texts:
+      - qużāh
+      - قُضاۃ
+      - Judg
+      - قضاة
+      - قضاہ
+      - قضاۃ
+  - osis: Ruth
+    texts:
+      - Ruth
+      - رُوت
+      - rūt
+      - روت
+  - osis: 1Esd
+    texts:
+      - 1Esd
+  - osis: 2Esd
+    texts:
+      - 2Esd
+  - osis: Isa
+    texts:
+      - yasaʿyāh
+      - یسعیاہ
+      - یعسیاہ
+      - Isa
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - سموئیل
+  - osis:
+      - osis: 1Sam
+        before: *first
+        join: ""
+      - osis: 2Sam
+        before: *second
+        join: ""
+    texts:
+      - -سموئیل
+      - ۔سموایل
+  - osis: 2Sam
+    texts:
+      - 2 samūʾīl
+      - ۲۔سموایل
+      - 2Sam
+  - osis:
+      - osis: 1Sam
+        before: *first
+    texts:
+      - سموئيل
+  - osis: 1Sam
+    texts:
+      - 1 samūʾīl
+      - ۱۔سموایل
+      - 1Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - سلاطین
+  - osis:
+      - osis: 1Kgs
+        before: *first
+        join: ""
+      - osis: 2Kgs
+        before: *second
+        join: ""
+    texts:
+      - -سلاطِین
+      - ۔سلاطین
+  - osis: 2Kgs
+    texts:
+      - 2 salāṭīn
+      - ۲۔سلاطین
+      - 2Kgs
+  - osis: 1Kgs
+    texts:
+      - 1 salāṭīn
+      - ۱۔سلاطین
+      - 1Kgs
+  - osis:
+      - osis: 1Chr
+        before: *first
+        join: ""
+      - osis: 2Chr
+        before: *second
+        join: ""
+    texts:
+      - ۔تواریخ
+  - osis:
+      - osis: 2Chr
+        before: *second
+    texts:
+      - تو اریخ
+  - osis:
+      - osis: 2Chr
+        before: *second
+        join: ""
+    texts:
+      - "- توارِیخ"
+  - osis: 2Chr
+    texts:
+      - 2 tavārīḫ
+      - ۲۔تواریخ
+      - 2Chr
+  - osis:
+      - osis: 1Chr
+        before: *first
+    texts:
+      - تواریخ
+  - osis:
+      - osis: 1Chr
+        before: *first
+        join: ""
+    texts:
+      - -توارِیخ
+  - osis: 1Chr
+    texts:
+      - 1 tavārīḫ
+      - ۱۔تواریخ
+      - 1Chr
+  - osis: Ezra
+    texts:
+      - ʿizrā
+      - عز را
+      - Ezra
+      - عزرا
+  - osis: Neh
+    texts:
+      - niḥimyāh
+      - نحمیاہ
+      - Neh
+  - osis: GkEsth
+    texts:
+      - GkEsth
+  - osis: Esth
+    texts:
+      - āstar
+      - ایستر
+      - Esth
+      - آستر
+  - osis: Job
+    texts:
+      - ایُّوب
+      - ayyūb
+      - ایّوب
+      - ایوب
+      - Job
+  - osis: Ps
+    texts:
+      - zabūr
+      - زبُور
+      - زبور
+      - زبُو
+      - Ps
+  - osis: PrAzar
+    texts:
+      - PrAzar
+  - osis: Prov
+    texts:
+      - ams̱āl
+      - اَمثال
+      - امثال
+      - Prov
+  - osis: Eccl
+    texts:
+      - واعِظ
+      - Eccl
+      - vāʿẓ
+      - واعظ
+  - osis: SgThree
+    texts:
+      - SgThree
+  - osis: Song
+    texts:
+      - ġazalu l-ġazalāt
+      - غزلُ الغزلات
+      - غزل الغزلات
+      - Song
+  - osis: Jer
+    texts:
+      - yirmayāh
+      - یرمِیاہ
+      - یرمیاہ
+      - Jer
+  - osis: Ezek
+    texts:
+      - حِزقی ایل
+      - ḥiziqīʾīl
+      - حزقی ایل
+      - حزقیایل
+      - Ezek
+  - osis: Dan
+    texts:
+      - دانی ایل
+      - dānīʾīl
+      - دانیایل
+      - دانیال
+      - Dan
+  - osis: Hos
+    texts:
+      - ہو سیعاہ
+      - ہوسیعَِ
+      - hūsīʿ
+      - ہوسیع
+      - Hos
+  - osis: Joel
+    texts:
+      - یُوایل
+      - yōʾīl
+      - یوایل
+      - Joel
+  - osis: Amos
+    texts:
+      - عامُوس
+      - ʿāmōs
+      - عاموس
+      - Amos
+  - osis: Obad
+    texts:
+      - ʿabadiyāh
+      - عبدیاہ
+      - Obad
+  - osis: Jonah
+    texts:
+      - یُوناہ
+      - Jonah
+      - yūnas
+      - یونس
+  - osis: Mic
+    texts:
+      - مِیکاہ
+      - mīkāh
+      - میکاہ
+      - Mic
+  - osis: Nah
+    texts:
+      - نا حُوم
+      - ناحُوم
+      - nāḥūm
+      - ناحوم
+      - Nah
+  - osis: Hab
+    texts:
+      - ḥabaqqūq
+      - حبقُّوق
+      - حبقّوق
+      - حبقوق
+      - Hab
+  - osis: Zeph
+    texts:
+      - ṣafaniyāh
+      - صفنیاہ
+      - Zeph
+  - osis: Hag
+    texts:
+      - ḥajjai
+      - حجَّی
+      - حجيّ
+      - Hag
+      - حجی
+  - osis: Zech
+    texts:
+      - zakariyāh
+      - زکریاہ
+      - زکریا
+      - Zech
+  - osis: Mal
+    texts:
+      - malākī
+      - ملاکی
+      - Mal
+  - osis: Matt
+    texts:
+      - mattī kī injīl
+      - متّی کی انجیل
+      - متی کی انجیل
+      - Matt
+      - متّی
+      - متی
+  - osis: Mark
+    texts:
+      - marqus kī injīl
+      - مرقُس کی انجیل
+      - مرقس کی انجیل
+      - Mark
+      - مرقس
+  - osis: Luke
+    texts:
+      - لُوقا کی انجیل
+      - lūqā kī injīl
+      - لوقا کی انجیل
+      - لُوقا
+      - Luke
+      - لوقا
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - یوحنّا
+  - osis:
+      - osis: 1John
+        before: *first
+        join: ""
+      - osis: 2John
+        before: *second
+        join: ""
+      - osis: 3John
+        before: *third
+        join: ""
+    texts:
+      - -یُوحنّا
+      - ۔یوحنا
+  - osis: 2John
+    texts:
+      - yūḥannā kā dūsrā ʿām ḫaṭ
+      - یُوحنّا کا دوسرا عام خط
+      - یوحنا کا دوسرا عام خط
+      - یوحنّا کا دوسرا خط
+      - ۲ یوحنّا
+      - 2John
+  - osis: 3John
+    texts:
+      - yūḥannā kā tīsrā ʿām ḫaṭ
+      - یُوحنّا کا تیسرا عام خط
+      - یوحنا کا تیسرا عام خط
+      - یوحنّا کا تیسرا خط
+      - ۳ یوحنّا
+      - 3John
+  - osis: 1John
+    texts:
+      - yūḥannā kā pahlā ʿām ḫaṭ
+      - یُوحنّا کا پہلا عام خط
+      - یوحنّا کا پہلا عام خط
+      - یوحنا کا پہلا عام خط
+      - ۱ یوحنّا
+      - 1John
+  - osis: John
+    texts:
+      - yūḥannā kī injīl
+      - یُوحنّا کی انجیل
+      - یوحنا کی انجیل
+      - یوحنا
+      - John
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - یُوحنّا
+  - osis: Acts
+    texts:
+      - rasūlōṅ ke aʿmāl
+      - رسُولوں کے اعمال
+      - رسولوں کے اعمال
+      - یوحنا کے اعمال
+      - اَعمال
+      - رسولوں
+      - اعمال
+      - Acts
+  - osis: Rom
+    texts:
+      - رومیوں کے نام پولس رسول کا خط
+      - rōmiyōṅ ke nām kā ḫaṭ
+      - رومیوں کے نام کا خط
+      - رُومِیوں
+      - رومیوں
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - کرنتھِیُوں
+      - کُرنتھِیوں
+  - osis:
+      - osis: 1Cor
+        before: *first
+        join: ""
+      - osis: 2Cor
+        before: *second
+        join: ""
+    texts:
+      - -کُرِنتھِیوں
+      - ۔کرنتھیوں
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - کرنتھیوں
+  - osis: 2Cor
+    texts:
+      - کرنتھِیُوں کے نام پولس رسول کا دوسرا خط
+      - kurintʰiyōṅ ke nām kā dūsrā ḫaṭ
+      - کُرِنتھِیوں کے نام کا دوسرا خط
+      - کرنتھیوں کے نام کا دوسرا خط
+      - ۲ کرنتھیوں
+      - 2Cor
+  - osis: 1Cor
+    texts:
+      - کرنتھِیُوں کے نام پولس رسول کا پہلا خط
+      - kurintʰiyōṅ ke nām kā pahlā ḫaṭ
+      - کُرِنتھِیوں کے نام کا پہلا خط
+      - کرنتھیوں کے نام کا پہلا خط
+      - ۱ کرنتھِیُوں
+      - 1Cor
+  - osis: Gal
+    texts:
+      - گلتیوں کے نام پولُس رسول کا خط
+      - galatiyōṅ ke nām kā ḫaṭ
+      - گلتِیوں کے نام کا خط
+      - گلتیوں کے نام کا خط
+      - گلتِیوں
+      - گلتیوں
+      - Gal
+  - osis: Eph
+    texts:
+      - افسیوں کے نام پو لس رسول کا خط
+      - ifisiyōṅ ke nām kā ḫaṭ
+      - اِفِسِیوں کے نام کا خط
+      - افسیوں کے نام کا خط
+      - اِفسِیوں
+      - اِفسیوں
+      - افسیوں
+      - Eph
+  - osis: Phil
+    texts:
+      - فِلِپّیُوں کے نام پو لس رسُول کا خط
+      - filippiyōṅ ke nām kā ḫaṭ
+      - فِلِپِّیوں کے نام کا خط
+      - فلپیوں کے نام کا خط
+      - فِلِپّیُوں
+      - فِلپّیوں
+      - فلپیوں
+      - Phil
+  - osis: Col
+    texts:
+      - کُلِسّیوں کے نام پولُس رسُول کا خط
+      - kulussiyōṅ ke nām kā ḫaṭ
+      - کُلُسِّیوں کے نام کا خط
+      - کلسیوں کے نام کا خط
+      - کُلِسّیوں
+      - کُلسِیوں
+      - کُلسّیوں
+      - کلسیوں
+      - Col
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - تھِسلُنیکیوں
+      - تھسّلنیکیوں
+  - osis:
+      - osis: 1Thess
+        before: *first
+        join: ""
+      - osis: 2Thess
+        before: *second
+        join: ""
+    texts:
+      - -تھِسّلُنیکیوں
+      - ۔تھسلنیکیوں
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - تھسلنیکوں
+  - osis: 2Thess
+    texts:
+      - تھسلنیکوں کے نام پو لس رسول کادوسرا خط
+      - tʰissalunīkiyōṅ ke nām kā dūsrā ḫaṭ
+      - تھِسّلُنیکیوں کے نام کا دوسرا خط
+      - تھسلنیکیوں کے نام کا دوسرا خط
+      - ۲ تھسلنیکوں
+      - 2Thess
+  - osis: 1Thess
+    texts:
+      - تھسّلنیکیوں کے نام پولس رسول کا پہلا خط
+      - tʰissalunīkiyōṅ ke nām kā pahlā ḫaṭ
+      - تھِسّلُنیکیوں کے نام کا پہلا خط
+      - تھسلنیکیوں کے نام کا پہلا خط
+      - ۱ تھسّلنیکیوں
+      - 1Thess
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - تِیمُتھِیُس
+      - تیمِتھُیس
+  - osis:
+      - osis: 1Tim
+        before: *first
+        join: ""
+      - osis: 2Tim
+        before: *second
+        join: ""
+    texts:
+      - -تِیمُتھِیُس
+      - ۔تیمتھیس
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - تیِمُتھِیُس
+  - osis: 2Tim
+    texts:
+      - تیِمُتھِیُس کے نام پولس رسول کا دوسرا خط
+      - tīmutʰiyus ke nām kā dūsrā ḫaṭ
+      - تِیمُتھِیُس کے نام کا دوسرا خط
+      - تیمتھیس کے نام کا دوسرا خط
+      - ۲ تیِمُتھِیُس
+      - 2Tim
+  - osis: 1Tim
+    texts:
+      - تِیمُتھِیُس کے نام پولُس رسول کا پہلا خط
+      - tīmutʰiyus ke nām kā pahlā ḫaṭ
+      - تِیمُتھِیُس کے نام کا پہلا خط
+      - تیمتھیس کے نام کا پہلا خط
+      - ۱ تِیمُتھِیُس
+      - 1Tim
+  - osis: Titus
+    texts:
+      - طِطُس کے نام پولس رسُول کا خط
+      - ṭiṭus ke nām kā ḫaṭ
+      - طِطُس کے نام کا خط
+      - ططس کے نام کا خط
+      - Titus
+      - طِطُس
+      - ططس
+  - osis: Phlm
+    texts:
+      - فلیمون کے نام پولس رسُول کا خط
+      - filēmōn ke nām kā ḫaṭ
+      - فِلیمون کے نام کا خط
+      - فلیمون کے نام کا خط
+      - فِلیمون
+      - فلیمون
+      - Phlm
+  - osis: Heb
+    texts:
+      - عبرانیوں کے نام پولس رسول کا خط
+      - ʿibrāniyōṅ ke nām kā ḫaṭ
+      - عِبرانیوں کے نام کا خط
+      - عبرانیوں کے نام کا خط
+      - عِبرانیوں
+      - عبرانیوں
+      - Heb
+  - osis: Jas
+    texts:
+      - yaʿqūb kā ʿām ḫaṭ
+      - یعقوب کا عا م خط
+      - یعقُوب کا عام خط
+      - یعقوب کا عام خط
+      - یعقُوب
+      - يعقوب
+      - یعقوب
+      - Jas
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - پطر س
+      - پطرس
+  - osis:
+      - osis: 1Pet
+        before: *first
+        join: ""
+      - osis: 2Pet
+        before: *second
+        join: ""
+    texts:
+      - -پطرس
+      - ۔پطرس
+  - osis: 2Pet
+    texts:
+      - paṭras kā dūsrā ʿām ḫaṭ
+      - پطرس کا دوسرا عام خط
+      - ۲ پطرس
+      - 2Pet
+  - osis: 1Pet
+    texts:
+      - paṭras kā pahlā ʿām ḫaṭ
+      - پطر س کاپہلا عا م خط
+      - پطرس کا پہلا عام خط
+      - ۱ پطر س
+      - 1Pet
+  - osis: Jude
+    texts:
+      - yahūdāh kā ʿām ḫaṭ
+      - یہُوداہ کا عام خط
+      - یہوداہ کا عام خط
+      - یہُوداہ
+      - یہوداہ
+      - Jude
+  - osis: Tob
+    texts:
+      - Tob
+  - osis: Jdt
+    texts:
+      - Jdt
+  - osis: Bar
+    texts:
+      - Bar
+  - osis: Sus
+    texts:
+      - Sus
+  - osis: 2Macc
+    texts:
+      - 2Macc
+  - osis: 3Macc
+    texts:
+      - 3Macc
+  - osis: 4Macc
+    texts:
+      - 4Macc
+  - osis: 1Macc
+    texts:
+      - 1Macc
+translations:
+  - ERV

@@ -1,0 +1,1018 @@
+variables:
+  first: &first
+    - 1.º
+    - 1º
+    - 1.o
+    - 1o
+    - "1"
+    - I
+    - Primer
+    - Primero
+  second: &second
+    - 2.º
+    - 2º
+    - 2.o
+    - 2o
+    - "2"
+    - II
+    - Segundo
+  third: &third
+    - 3.º
+    - 3º
+    - 3.o
+    - 3o
+    - "3"
+    - III
+    - Tercer
+    - Tercero
+  fourth: &fourth
+    - 4.º
+    - 4º
+    - 4.o
+    - 4o
+    - "4"
+    - IV
+    - Cuarto
+  and:
+    - text: y
+      regexp_after: (?! sig)
+    - compara el
+    - compara los
+  chapter:
+    - capítulos
+    - capítulo
+    - caps.
+    - caps
+    - cap.
+    - cap
+  ff:
+    - y siguientes
+    - y sig
+  title:
+    - subtítulo
+    - título
+    - text: tít
+      normalize: none
+  to:
+    - text: á
+      normalize: none
+  verse:
+    - versículos
+    - versículo
+    - vers.
+    - vers
+    - ver.
+    - ver
+    - vss.
+    - vss
+    - vs.
+    - vs
+    - vv.
+    - vv
+    - v.
+    - v
+ordinals:
+  - after:
+      - .º
+      - .o
+      - .ª
+      - .a
+  - between:
+      regexp: \s*
+    texts:
+      - Salmo
+books:
+  - osis: Gen
+    texts:
+      - Génesis
+      - Gen
+      - Gén
+      - Gn
+      - Gé
+  - osis: Exod
+    texts:
+      - Éxodo
+      - Exod
+      - Éxod
+      - Éxd
+      - Éxo
+      - Éx
+  - osis: Bel
+    texts:
+      - Bel y el Serpiente
+      - Bel y el Dragón
+      - Bel
+  - osis: Lev
+    texts:
+      - Levítico
+      - Lev
+      - Lv
+  - osis: Num
+    texts:
+      - Números
+      - Num
+      - Núm
+      - Nm
+      - Nú
+  - osis: Sir
+    texts:
+      - Eclesiástico
+      - Sirácides
+      - Sirácida
+      - Ecclus
+      - Sirác
+      - Sir
+      - Si
+  - osis: Wis
+    texts:
+      - Sabiduría
+      - Sab
+      - Wis
+      - Sb
+  - osis: Lam
+    texts:
+      - Lamentaciones
+      - Lamintaciones
+      - Lamentacione
+      - Lamintacione
+      - Lam
+      - La
+      - Lm
+  - osis: EpJer
+    texts:
+      - La Carta de Jeremías
+      - Carta de Jeremías
+      - Carta Jeremías
+      - Carta Jer
+      - EpJer
+  - osis: Rev
+    texts:
+      - El Apocalipsis
+      - Apocalipsis
+      - Apoc
+      - Rev
+      - Ap
+  - osis: PrMan
+    texts:
+      - La Oración de Manasés
+      - Oración de Manasés
+      - Or. Man
+      - Or Man
+      - PrMan
+  - osis: Deut
+    texts:
+      - Deuteronomio
+      - Deutoronomio
+      - Dueteronomio
+      - Deutronomio
+      - Deuteronmio
+      - Deutoronmio
+      - Deutronmio
+      - Deut
+      - Deu
+      - Dt
+  - osis: Josh
+    texts:
+      - Josué
+      - Josh
+      - Jos
+  - osis: Judg
+    texts:
+      - Jueces
+      - Judg
+      - Juec
+      - Jue
+      - Jc
+  - osis: Ruth
+    texts:
+      - Ruth
+      - Rut
+      - Rt
+      - Ru
+  - osis: 1Esd
+    texts:
+      - 1 Esdras
+      - 1 Esdr
+      - 1 Esd
+      - 1Esd
+  - osis: 2Esd
+    texts:
+      - 2 Esdras
+      - 2 Esdr
+      - 2 Esd
+      - 2Esd
+  - osis:
+      - osis: Ezra
+      - osis: 1Esd
+        before: *first
+      - osis: 2Esd
+        before: *second
+    texts:
+      - Esdras
+  - osis: Isa
+    texts:
+      - Isaías
+      - Isa
+      - Is
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+  - osis: 2Sam
+    texts:
+      - 2 Samuel
+      - 2 Sam
+      - 2 Sa
+      - 2 Sm
+      - 2Sam
+      - 2 S
+  - osis: 1Sam
+    texts:
+      - 1 Samuel
+      - 1 Sam
+      - 1 Sa
+      - 1 Sm
+      - 1Sam
+      - 1 S
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Reyes
+  - osis: 2Kgs
+    texts:
+      - 2 Reyes
+      - 2 Ryes
+      - 2 Rees
+      - 2 Reys
+      - 2 Reye
+      - 2 Res
+      - 2 Rys
+      - 2 Rye
+      - 2 Ree
+      - 2 Rey
+      - 2 Rs
+      - 2 Re
+      - 2 Ry
+      - 2Kgs
+      - 2 R
+  - osis: 1Kgs
+    texts:
+      - 1 Reyes
+      - 1 Ryes
+      - 1 Rees
+      - 1 Reys
+      - 1 Reye
+      - 1 Res
+      - 1 Rys
+      - 1 Rye
+      - 1 Ree
+      - 1 Rey
+      - 1 Rs
+      - 1 Re
+      - 1 Ry
+      - 1Kgs
+      - 1 R
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Crónicas
+  - osis: 2Chr
+    texts:
+      - 2 Crónicas
+      - 2 Crón
+      - 2 Cró
+      - 2 Cr
+      - 2Chr
+  - osis: 1Chr
+    texts:
+      - 1 Crónicas
+      - 1 Crón
+      - 1 Cró
+      - 1 Cr
+      - 1Chr
+  - osis: Ezra
+    texts:
+      - Esdr
+      - Ezra
+      - Esd
+  - osis: Neh
+    texts:
+      - Nehemías
+      - Neh
+      - Ne
+  - osis: GkEsth
+    texts:
+      - Ester (Griego)
+      - Ester (griego)
+      - Ester Griego
+      - Ester griego
+      - Est Gr
+      - GkEsth
+  - osis: Esth
+    texts:
+      - Ester
+      - Esth
+      - Est
+      - Es
+  - osis: Job
+    texts:
+      - Job
+      - Jb
+  - osis: Ps
+    texts:
+      - Salmos
+      - Salmo
+      - Salm
+      - Sal
+      - Slm
+      - Ps
+      - Sl
+  - osis: PrAzar
+    texts:
+      - Cántico de Azarías
+      - Oración de Azarías
+      - Azarías
+      - Or Azar
+      - PrAzar
+      - Or Az
+  - osis: Prov
+    texts:
+      - Probverbios
+      - Porverbios
+      - Preverbios
+      - Proverbios
+      - Proberbios
+      - Poverbios
+      - Prverbios
+      - Preverbio
+      - Proverbio
+      - Provebios
+      - Prverbio
+      - Prvbos
+      - Prvbs
+      - Prvbo
+      - Prov
+      - Prvb
+      - Prv
+      - Pro
+      - Pr
+      - Pv
+  - osis: Eccl
+    texts:
+      - Ecclesiasticés
+      - Eclesiasticés
+      - Ecclesiastiés
+      - Ecclessaastés
+      - Ecclessaistés
+      - Ecclessiastés
+      - Ecclessiistés
+      - Eclesiastiés
+      - Eclessaastés
+      - Eclessaistés
+      - Eclessiastés
+      - Eclessiistés
+      - Ecclesaastés
+      - Ecclesaistés
+      - Ecclesiastés
+      - Ecclesiistés
+      - Ecclessaatés
+      - Ecclessaasté
+      - Ecclessaités
+      - Ecclessaisté
+      - Ecclessiatés
+      - Ecclessiasté
+      - Ecclessiités
+      - Ecclessiisté
+      - Eclesaastés
+      - Eclesaistés
+      - Eclesiastés
+      - Eclesiistés
+      - Eclessaatés
+      - Eclessaasté
+      - Eclessaités
+      - Eclessaisté
+      - Eclessiatés
+      - Eclessiasté
+      - Eclessiités
+      - Eclessiisté
+      - Ecclesaatés
+      - Ecclesaasté
+      - Ecclesaités
+      - Ecclesaisté
+      - Ecclesiatés
+      - Ecclesiasté
+      - Ecclesiités
+      - Ecclesiisté
+      - Ecclessaaté
+      - Ecclessaité
+      - Ecclessiaté
+      - Ecclessiité
+      - Eclesaatés
+      - Eclesaasté
+      - Eclesaités
+      - Eclesaisté
+      - Eclesiatés
+      - Eclesiasté
+      - Eclesiités
+      - Eclesiisté
+      - Eclessaaté
+      - Eclessaité
+      - Eclessiaté
+      - Eclessiité
+      - Ecclesaaté
+      - Ecclesaité
+      - Ecclesiaté
+      - Ecclesiité
+      - Eclesaaté
+      - Eclesaité
+      - Eclesiaté
+      - Eclesiité
+      - Eccles
+      - Ecles
+      - Eccl
+      - Ecc
+      - Ecl
+      - Ec
+      - Qo
+  - osis: SgThree
+    texts:
+      - El Canto de los Tres Jóvenes Hebreos
+      - El Himno de los Tres Jóvenes Hebreos
+      - El Canto de los Tres Jóvenes Judíos
+      - El Himno de los Tres Jóvenes Judíos
+      - Canto de los Tres Jóvenes Hebreos
+      - El Canto de los 3 Jóvenes Hebreos
+      - El Himno de los 3 Jóvenes Hebreos
+      - Canto de los Tres Jóvenes Judíos
+      - El Canto de los 3 Jóvenes Judíos
+      - El Himno de los 3 Jóvenes Judíos
+      - Himno de los Tres Jóvenes Judíos
+      - Canto de los 3 Jóvenes Hebreos
+      - Himno de los 3 Jóvenes Hebreos
+      - Canto de los 3 Jóvenes Judíos
+      - Himno de los 3 Jóvenes Judíos
+      - Canto de los Tres Jóvenes
+      - Himno de los Tres Jóvenes
+      - Canto de los 3 Jóvenes
+      - Himno de los 3 Jóvenes
+      - Tres Jóvenes
+      - 3 Jóvenes
+      - Ct 3 Jó
+      - SgThree
+  - osis: Song
+    texts:
+      - El Cantar de los Cantares
+      - Cantare de los Cantares
+      - Cantar de los Cantares
+      - Cantares
+      - Cant
+      - Song
+      - Can
+      - Cnt
+      - Ct
+  - osis: Jer
+    texts:
+      - Jeremías
+      - Jeremía
+      - Jere
+      - Jer
+      - Jr
+  - osis: Ezek
+    texts:
+      - Ezeequiel
+      - Ezeiquiel
+      - Eziequiel
+      - Eziiquiel
+      - Ezequiel
+      - Ezeequel
+      - Ezeiquel
+      - Eziquiel
+      - Eziequel
+      - Eziiquel
+      - Ezequial
+      - Ezequel
+      - Eziquel
+      - Ezequ
+      - Ezek
+      - Ezeq
+      - Eze
+      - Ezq
+      - Ez
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan
+      - Da
+      - Dl
+      - Dn
+  - osis: Hos
+    texts:
+      - Oseas
+      - Hos
+      - Os
+  - osis: Joel
+    texts:
+      - Joel
+      - Joe
+      - Jl
+  - osis: Amos
+    texts:
+      - Amos
+      - Amós
+      - Ams
+      - Amó
+      - Am
+  - osis: Obad
+    texts:
+      - Abdías
+      - Obad
+      - Abd
+      - Ab
+  - osis: Jonah
+    texts:
+      - Jonah
+      - Jonás
+      - Jns
+      - Jon
+  - osis: Mic
+    texts:
+      - Miqueas
+      - Mic
+      - Miq
+      - Mi
+      - Mq
+  - osis: Nah
+    texts:
+      - Nahúm
+      - Nahú
+      - Nah
+      - Na
+      - Nh
+  - osis: Hab
+    texts:
+      - Habbacac
+      - Habbacuc
+      - Habacac
+      - Habacuc
+      - Habc
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sofonías
+      - Zeph
+      - Sof
+      - So
+      - Sf
+  - osis: Hag
+    texts:
+      - Haggeo
+      - Hageo
+      - Ageo
+      - Hag
+      - Ag
+      - Hg
+  - osis: Zech
+    texts:
+      - Zacarías
+      - Zacar
+      - Zech
+      - Zac
+      - Za
+  - osis: Mal
+    texts:
+      - Malaquías
+      - Malaqu
+      - Mala
+      - Mal
+      - Ml
+  - osis: Matt
+    texts:
+      - El Evangelio de Mateo
+      - Evangelio de Mateo
+      - San Mateo
+      - Mateo
+      - Matt
+      - Mat
+      - Mt
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+      - osis: 3Macc
+        before: *third
+      - osis: 4Macc
+        before: *fourth
+    texts:
+      - Maccabbeeos
+      - Macabbeeos
+      - Maccabeeos
+      - Maccabbeos
+      - Maccabbeeo
+      - Macabeeos
+      - Macabbeos
+      - Macabbeeo
+      - Maccabeos
+      - Maccabeeo
+      - Maccabbeo
+      - Macabeos
+      - Macabeeo
+      - Macabbeo
+      - Maccabeo
+      - Macabeo
+  - osis: 2Macc
+    texts:
+      - 2 Macabeos
+      - 2 Macc
+      - 2 Mac
+      - 2Macc
+      - 2 Mc
+      - 2 M
+  - osis: 3Macc
+    texts:
+      - 3 Macabeos
+      - 3 Macc
+      - 3 Mac
+      - 3Macc
+      - 3 Mc
+      - 3 M
+  - osis: 4Macc
+    texts:
+      - 4 Macabeos
+      - 4 Macc
+      - 4 Mac
+      - 4Macc
+      - 4 Mc
+      - 4 M
+  - osis: 1Macc
+    texts:
+      - 1 Macabeos
+      - 1 Macc
+      - 1 Mac
+      - 1Macc
+      - 1 Mc
+      - 1 M
+  - osis: Mark
+    texts:
+      - El Evangelio de Marcos
+      - Evangelio de Marcos
+      - San Marcos
+      - Marcos
+      - Mrcos
+      - Marc
+      - Mark
+      - Mar
+      - Mrc
+      - Mc
+      - Mr
+  - osis: Luke
+    texts:
+      - El Evangelio de Lucas
+      - Evangelio de Lucas
+      - San Lucas
+      - Lucas
+      - Luke
+      - Luc
+      - Lc
+      - Lu
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - San Jaan
+      - San Jaun
+      - San Juun
+  - osis: 1John
+    texts:
+      - 1 Juan
+      - 1John
+      - 1 Jn
+  - osis: 2John
+    texts:
+      - 2 Juan
+      - 2John
+      - 2 Jn
+  - osis: 3John
+    texts:
+      - 3 Juan
+      - 3John
+      - 3 Jn
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - San Juan
+      - Jaan
+      - Jaun
+      - Juan
+      - Juun
+  - osis: John
+    texts:
+      - El Evangelio de Jaan
+      - El Evangelio de Jaun
+      - El Evangelio de Juan
+      - El Evangelio de Juun
+      - John
+      - Jn
+  - osis: Acts
+    texts:
+      - Los Hechos de los Apóstoles
+      - Hechos de los Apóstoles
+      - Los Hechos
+      - Hechos
+      - Acts
+      - Hech
+      - Hch
+      - Hec
+      - Hc
+  - osis: Rom
+    texts:
+      - Romanos
+      - Romano
+      - Rmns
+      - Roms
+      - Rms
+      - Rmn
+      - Rom
+      - Ros
+      - Rm
+      - Ro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corintios
+  - osis: 2Cor
+    texts:
+      - 2 Corintios
+      - 2 Corinti
+      - 2 Corini
+      - 2 Corint
+      - 2 Corin
+      - 2 Cor
+      - 2 Co
+      - 2Cor
+  - osis: 1Cor
+    texts:
+      - 1 Corintios
+      - 1 Corinti
+      - 1 Corini
+      - 1 Corint
+      - 1 Corin
+      - 1 Cor
+      - 1 Co
+      - 1Cor
+  - osis: Gal
+    texts:
+      - Gálatas
+      - Gálat
+      - Gal
+      - Gál
+      - Gá
+  - osis: Eph
+    texts:
+      - Efesios
+      - Efes
+      - Eph
+      - Ef
+  - osis: Phil
+    texts:
+      - Filipenses
+      - Filip
+      - Fili
+      - Phil
+      - Fil
+      - Flp
+  - osis: Col
+    texts:
+      - Colosenses
+      - Colos
+      - Col
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonicenses
+      - Tesalonisenses
+      - Tesalonicense
+      - Tesalonisense
+  - osis: 2Thess
+    texts:
+      - 2 Tesalonicenses
+      - 2 Thess
+      - 2Thess
+      - 2 Tes
+      - 2 Ts
+  - osis: 1Thess
+    texts:
+      - 1 Tesalonicenses
+      - 1 Thess
+      - 1Thess
+      - 1 Tes
+      - 1 Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+  - osis: 2Tim
+    texts:
+      - 2 Timoteo
+      - 2 Tim
+      - 2 Ti
+      - 2 Tm
+      - 2Tim
+  - osis: 1Tim
+    texts:
+      - 1 Timoteo
+      - 1 Tim
+      - 1 Ti
+      - 1 Tm
+      - 1Tim
+  - osis: Titus
+    texts:
+      - Titus
+      - Tito
+      - Tit
+      - Ti
+      - Tt
+  - osis: Phlm
+    texts:
+      - Filemón
+      - Filem
+      - Flmn
+      - Phlm
+      - Flm
+      - Fmn
+  - osis: Heb
+    texts:
+      - Hebeees
+      - Hebeeos
+      - Hebeers
+      - Hebeoes
+      - Hebeoos
+      - Hebeors
+      - Heberes
+      - Heberos
+      - Heberrs
+      - Heboees
+      - Heboeos
+      - Heboers
+      - Hebooes
+      - Hebooos
+      - Heboors
+      - Hebores
+      - Heboros
+      - Heborrs
+      - Hebrees
+      - Hebreos
+      - Hebrers
+      - Hebroes
+      - Hebroos
+      - Hebrors
+      - Hebrres
+      - Hebrros
+      - Hebrrrs
+      - Hebees
+      - Hebeos
+      - Hebers
+      - Heboes
+      - Heboos
+      - Hebors
+      - Hebres
+      - Hebros
+      - Hebrrs
+      - Hebreo
+      - Hebes
+      - Hebos
+      - Hebrs
+      - Hebr
+      - Heb
+      - He
+  - osis: Jas
+    texts:
+      - Santiago
+      - Sant
+      - Jas
+      - Stg
+      - St
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - San Pedro
+      - Pedro
+  - osis: 2Pet
+    texts:
+      - 2 Pedro
+      - 2 Ped
+      - 2 Pd
+      - 2 Pe
+      - 2Pet
+      - 2 P
+  - osis: 1Pet
+    texts:
+      - 1 Pedro
+      - 1 Ped
+      - 1 Pd
+      - 1 Pe
+      - 1Pet
+      - 1 P
+  - osis: Jude
+    texts:
+      - San Judas
+      - Judas
+      - Jdas
+      - Jude
+      - Jud
+      - Jd
+  - osis: Tob
+    texts:
+      - Tobit
+      - Tobt
+      - Tobi
+      - Tob
+      - Tb
+  - osis: Jdt
+    texts:
+      - Judit
+      - Jdit
+      - Judt
+      - Jdt
+  - osis: Bar
+    texts:
+      - Baruc
+      - Bar
+      - Ba
+  - osis: Sus
+    texts:
+      - Susana
+      - Sus
+  - osis:
+      - Hab
+      - Hag
+    texts:
+      - Ha
+  - osis:
+      - Heb
+      - Hab
+    texts:
+      - Hb
+  - osis:
+      - Jonah
+      - Job
+      - Josh
+      - Joel
+    texts:
+      - Jo
+  - osis:
+      - Jude
+      - Judg
+    texts:
+      - Ju
+  - osis:
+      - Matt
+      - Mark
+      - Mal
+    texts:
+      - Ma
+  - osis:
+      - Phil
+      - Phlm
+    texts:
+      - Fil
+translations:
+  - DHH
+  - LBLA
+  - NBLH
+  - NTV
+  - NVI
+  - RVR1960
+  - RVR
+  - TLA

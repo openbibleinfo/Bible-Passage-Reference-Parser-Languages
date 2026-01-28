@@ -1,0 +1,650 @@
+variables:
+  first: &first
+    - Kwanza
+    - I
+    - "1"
+  second: &second
+    - Pili
+    - II
+    - "2"
+  third: &third
+    - Tatu
+    - III
+    - "3"
+  fourth: &fourth
+    - Nne
+    - IV
+    - "4"
+  and:
+    - taz.
+    - taz
+    - na
+  chapter:
+    - sura
+  to:
+    - hadi
+  verse:
+    - mistari
+books:
+  - osis: Gen
+    texts:
+      - Kitabu cha Kwanza cha Musa
+      - Mwanzo
+      - Gen
+      - Mwa
+  - osis: Exod
+    texts:
+      - Kitabu cha Pili cha Musa
+      - Kutoka
+      - Exod
+      - Kut
+  - osis: Bel
+    texts:
+      - Danieli na Makuhani wa Beli
+      - Bel
+  - osis: Lev
+    texts:
+      - Kitabu cha Tatu cha Musa
+      - Mambo ya Walawi
+      - Walawi
+      - Law
+      - Lev
+      - Wal
+  - osis: Num
+    texts:
+      - Kitabu cha Nne cha Musa
+      - Hesabu
+      - Hes
+      - Num
+  - osis: Sir
+    texts:
+      - Yoshua bin Sira
+      - Sira
+      - Sir
+      - YbS
+  - osis: Wis
+    texts:
+      - Hekima ya Solomoni
+      - Hekima
+      - Hek
+      - Wis
+  - osis: Lam
+    texts:
+      - Maombolezo ya Yeremia
+      - Maombolezo
+      - Lam
+      - Mao
+      - Omb
+  - osis: EpJer
+    texts:
+      - Barua ya Yeremia
+      - EpJer
+  - osis: Rev
+    texts:
+      - Ufunua wa Yohana
+      - Ufunuo wa Yohana
+      - Ufunuo wa Yohane
+      - Ufunuo
+      - Rev
+      - Ufu
+      - Uf
+  - osis: PrMan
+    texts:
+      - PrMan
+  - osis: Deut
+    texts:
+      - Kitabu cha Tano cha Musa
+      - Kumbukumbu la Sheria
+      - Kumbukumbu la Torati
+      - Kumbukumbu
+      - Deut
+      - Kumb
+      - Kum
+  - osis: Josh
+    texts:
+      - Yoshua
+      - Josh
+      - Yos
+  - osis: Judg
+    texts:
+      - Waamuzi
+      - Judg
+      - Waam
+      - Amu
+  - osis: Ruth
+    texts:
+      - Kitabu cha Ruthi
+      - Kitabu cha Ruthu
+      - Ruthi
+      - Ruthu
+      - Ruth
+      - Rut
+  - osis: 1Esd
+    texts:
+      - Kitabu cha Kwanza cha Ezra
+      - 1 Ezra
+      - 1Esd
+  - osis: 2Esd
+    texts:
+      - Kitabu cha Pili cha Ezra
+      - 2 Ezra
+      - 2Esd
+  - osis:
+      - osis: Ezra
+      - osis: 1Esd
+        before: *first
+      - osis: 2Esd
+        before: *second
+    texts:
+      - Ezra
+  - osis: Isa
+    texts:
+      - Isaya
+      - Isa
+      - Is
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samueli
+      - Samweli
+      - Sam
+  - osis: 2Sam
+    texts:
+      - Kitabu cha Pili cha Samueli
+      - Samueli II
+      - 2 Samueli
+      - 2 Sam
+      - 2Sam
+  - osis: 1Sam
+    texts:
+      - Kitabu cha Kwanza cha Samueli
+      - Samueli I
+      - 1 Samueli
+      - 1 Sam
+      - 1Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Wafalme
+      - Fal
+  - osis: 2Kgs
+    texts:
+      - Kitabu cha Pili cha Wafalme
+      - Wafalme II
+      - 2 Wafalme
+      - 2 Fal
+      - 2Kgs
+  - osis: 1Kgs
+    texts:
+      - Kitabu cha Kwanza cha Wafalme
+      - Wafalme I
+      - 1 Wafalme
+      - 1 Fal
+      - 1Kgs
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Mambo ya Nyakati
+      - Nya
+  - osis: 2Chr
+    texts:
+      - Mambo ya Nyakati II
+      - 2 Mambo ya Nyakati
+      - 2 Nya
+      - 2Chr
+  - osis: 1Chr
+    texts:
+      - Mambo ya Nyakati I
+      - 1 Mambo ya Nyakati
+      - 1 Nya
+      - 1Chr
+  - osis: Ezra
+    texts:
+      - Ezr
+  - osis: Neh
+    texts:
+      - Nehemia
+      - Neh
+  - osis: GkEsth
+    texts:
+      - GkEsth
+  - osis: Esth
+    texts:
+      - Esther
+      - Ester
+      - Esta
+      - Esth
+      - Est
+  - osis: Job
+    texts:
+      - Kitabu cha Ayubu
+      - Kitabu cha Yobu
+      - Ayubu
+      - Yobu
+      - Ayu
+      - Job
+      - Yob
+  - osis: Ps
+    texts:
+      - Zaburi
+      - Zab
+      - Ps
+  - osis: PrAzar
+    texts:
+      - PrAzar
+  - osis: Prov
+    texts:
+      - Methali
+      - Mithali
+      - Meth
+      - Mith
+      - Prov
+      - Mit
+  - osis: Eccl
+    texts:
+      - Mhubiri
+      - Eccl
+      - Mhu
+  - osis: SgThree
+    texts:
+      - Wimbo wa Vijana Watatu
+      - SgThree
+  - osis: Song
+    texts:
+      - Wimbo Ulio Bora
+      - Wimbo Bora
+      - Song
+      - Wim
+  - osis: Jer
+    texts:
+      - Yeremia
+      - Jer
+      - Yer
+  - osis: Ezek
+    texts:
+      - Ezekieli
+      - Ezek
+      - Eze
+  - osis: Dan
+    texts:
+      - Danieli
+      - Dan
+  - osis: Hos
+    texts:
+      - Hosea
+      - Hos
+  - osis: Joel
+    texts:
+      - Yoeli
+      - Joel
+      - Yoe
+  - osis: Amos
+    texts:
+      - Amosi
+      - Amos
+      - Amo
+  - osis: Obad
+    texts:
+      - Obadia
+      - Obad
+      - Oba
+      - Ob
+  - osis: Jonah
+    texts:
+      - Jonah
+      - Yona
+      - Yon
+  - osis: Mic
+    texts:
+      - Mika
+      - Mic
+      - Mik
+  - osis: Nah
+    texts:
+      - Nahumu
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuki
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sefania
+      - Zeph
+      - Sef
+  - osis: Hag
+    texts:
+      - Hagai
+      - Hag
+  - osis: Zech
+    texts:
+      - Zekaria
+      - Zech
+      - Zek
+  - osis: Mal
+    texts:
+      - Malaki
+      - Mal
+  - osis: Matt
+    texts:
+      - Injili ya Mathayo
+      - Mathayo
+      - Matayo
+      - Math
+      - Matt
+      - Mat
+      - Mt
+  - osis: Mark
+    texts:
+      - Injili ya Marko
+      - Marko
+      - Mark
+      - Mk
+  - osis: Luke
+    texts:
+      - Injili ya Luka
+      - Luka
+      - Luke
+      - Lk
+  - osis: 1John
+    texts:
+      - Waraka wa Kwanza wa Yohane
+      - Barua ya Kwanza ya Yohane
+      - Yohane I
+      - 1 Yohana
+      - 1John
+      - 1 Yoh
+  - osis: 2John
+    texts:
+      - Waraka wa Pili wa Yohane
+      - Barua ya Pili ya Yohane
+      - Yohane II
+      - 2 Yohana
+      - 2John
+      - 2 Yoh
+  - osis: 3John
+    texts:
+      - Waraka wa Tatu wa Yohane
+      - Barua ya Tatu ya Yohane
+      - Yohane III
+      - 3 Yohana
+      - 3John
+      - 3 Yoh
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohana
+      - Yohane
+      - Yoh
+  - osis: John
+    texts:
+      - Injili ya Yohana
+      - Injili ya Yohane
+      - John
+  - osis: Acts
+    texts:
+      - Matendo ya Mitume
+      - Matendo
+      - Acts
+      - Mdo
+  - osis: Rom
+    texts:
+      - Waraka kwa Waroma
+      - Waraka kwa Warumi
+      - Barua kwa Waroma
+      - Waroma
+      - Warumi
+      - Rom
+      - Rum
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Wakorintho
+      - Wakorinto
+      - Kor
+  - osis: 2Cor
+    texts:
+      - Waraka wa Pili kwa Wakorintho
+      - Barua ya Pili kwa Wakorintho
+      - Waraka wa Pili kwa Wakorinto
+      - Wakorintho II
+      - 2 Wakorintho
+      - 2 Kor
+      - 2Cor
+  - osis: 1Cor
+    texts:
+      - Waraka wa Kwanza kwa Wakorintho
+      - Barua ya Kwanza kwa Wakorintho
+      - Waraka wa Kwanza kwa Wakorinto
+      - Wakorintho I
+      - 1 Wakorintho
+      - 1 Kor
+      - 1Cor
+  - osis: Gal
+    texts:
+      - Barua kwa Wagalatia
+      - Wagalatia
+      - Gal
+  - osis: Eph
+    texts:
+      - Waraka kwa Waefeso
+      - Barua kwa Waefeso
+      - Waefeso
+      - Efe
+      - Eph
+      - Ef
+  - osis: Phil
+    texts:
+      - Waraka kwa Wafilipi
+      - Barua kwa Wafilipi
+      - Wafilipi
+      - Phil
+      - Fil
+      - Flp
+  - osis: Col
+    texts:
+      - Waraka kwa Wakolosai
+      - Barua kwa Wakolosai
+      - Wakolosai
+      - Col
+      - Kol
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Wathesalonike
+      - Thes
+      - The
+      - Th
+  - osis: 2Thess
+    texts:
+      - Waraka wa Pili kwa Wathesalonike
+      - Waraka wa Pili kwa Wathesaloniki
+      - Barua ya Pili kwa Wathesalonike
+      - Wathesalonike II
+      - 2 Wathesalonike
+      - 2Thess
+      - 2 Thes
+  - osis: 1Thess
+    texts:
+      - Waraka wa Kwanza kwa Wathesalonike
+      - Waraka wa Kwanza kwa Wathesaloniki
+      - Barua ya Kwanza kwa Wathesalonike
+      - Wathesalonike I
+      - 1 Wathesalonike
+      - 1Thess
+      - 1 Thes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotheo
+      - Tim
+  - osis: 2Tim
+    texts:
+      - Waraka wa Pili kwa Timotheo
+      - Barua ya Pili kwa Timotheo
+      - Timotheo II
+      - 2 Timotheo
+      - 2 Tim
+      - 2Tim
+  - osis: 1Tim
+    texts:
+      - Waraka wa Kwanza kwa Timotheo
+      - Barua ya Kwanza kwa Timotheo
+      - Timotheo I
+      - 1 Timotheo
+      - 1 Tim
+      - 1Tim
+  - osis: Titus
+    texts:
+      - Waraka kwa Tito
+      - Barua kwa Tito
+      - Titus
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Waraka kwa Filemoni
+      - Barua kwa Filemoni
+      - Filemoni
+      - Film
+      - Phlm
+      - Flm
+  - osis: Heb
+    texts:
+      - Waraka kwa Waebrania
+      - Barua kwa Waebrania
+      - Waebrania
+      - Ebr
+      - Heb
+      - Eb
+  - osis: Jas
+    texts:
+      - Waraka wa Yakobo
+      - Barua ya Yakobo
+      - Yakobo
+      - Jas
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petro
+      - Pet
+  - osis: 2Pet
+    texts:
+      - Waraka wa Pili wa Petro
+      - Barua ya Pili ya Petro
+      - Petro II
+      - 2 Petro
+      - 2 Pet
+      - 2Pet
+  - osis: 1Pet
+    texts:
+      - Waraka wa Kwanza wa Petro
+      - Barua ya Kwanza ya Petro
+      - Petro I
+      - 1 Petro
+      - 1 Pet
+      - 1Pet
+  - osis: Jude
+    texts:
+      - Barua ya Yuda
+      - Jude
+      - Yuda
+      - Yud
+  - osis: Tob
+    texts:
+      - Tobiti
+      - Tob
+  - osis: Jdt
+    texts:
+      - Yudithi
+      - Yudith
+      - Yuditi
+      - Yudit
+      - Yudt
+      - Jdt
+  - osis: Bar
+    texts:
+      - Baruku
+      - Baruk
+      - Bar
+  - osis: Sus
+    texts:
+      - Susana
+      - Sus
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+      - osis: 3Macc
+        before: *third
+      - osis: 4Macc
+        before: *fourth
+    texts:
+      - Wamakabayo
+      - Mak
+  - osis: 2Macc
+    texts:
+      - Kitabu cha Wamakabayo II
+      - Wamakabayo II
+      - 2 Wamakabayo
+      - 2Macc
+      - 2 Mak
+  - osis: 3Macc
+    texts:
+      - Kitabu cha Wamakabayo III
+      - Wamakabayo III
+      - 3 Wamakabayo
+      - 3Macc
+      - 3 Mak
+  - osis: 4Macc
+    texts:
+      - Kitabu cha Wamakabayo IV
+      - Wamakabayo IV
+      - 4 Wamakabayo
+      - 4Macc
+      - 4 Mak
+  - osis: 1Macc
+    texts:
+      - Kitabu cha Wamakabayo I
+      - Wamakabayo I
+      - 1 Wamakabayo
+      - 1Macc
+      - 1 Mak
+  - osis:
+      - John
+      - Jonah
+    texts:
+      - Yn
+translations:
+  - SUV
+  - HN

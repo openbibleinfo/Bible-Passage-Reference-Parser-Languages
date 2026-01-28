@@ -1,0 +1,1168 @@
+variables:
+  first: &first
+    - Pierwsza
+    - Pierwsze
+    - Pierwszy
+    - "1"
+    - I
+  second: &second
+    - Druga
+    - Drugi
+    - "2"
+    - II
+  third: &third
+    - Trzecia
+    - Trzeci
+    - "3"
+    - III
+  fourth: &fourth
+    - Czwarta
+    - "4"
+    - IV
+  fifth: &fifth
+    - Piąta
+    - "5"
+    - V
+  book: &book
+    - Księga
+    - Księgi
+    - Ks.
+    - Ks
+  and:
+    - oraz
+    - por
+    - i
+  chapter:
+    - rozdziały
+    - rozdziałów
+    - rozdział
+    - rozdz
+    - rr.
+    - rr
+    - r.
+    - r
+  ff:
+    - nn
+  next:
+    - text: n
+      regexp_after: (?!n)
+  title:
+    - tytuł
+  to:
+    - do
+  verse:
+    - wersetów
+    - wersety
+    - werset
+    - wers.
+    - wers
+    - w.
+    - w
+  firstbook: &firstbook
+    - Pierwsza Księga
+    - Pierwsza Księgi
+    - Pierwsza Ks.
+    - Pierwsza Ks
+    - Pierwsze Księga
+    - Pierwsze Księgi
+    - Pierwsze Ks.
+    - Pierwsze Ks
+    - Pierwszy Księga
+    - Pierwszy Księgi
+    - Pierwszy Ks.
+    - Pierwszy Ks
+    - 1 Księga
+    - 1. Księga
+    - 1 Księgi
+    - 1. Księgi
+    - 1 Ks.
+    - 1 Ks
+    - 1. Ks.
+    - 1. Ks
+    - I Księga
+    - I. Księga
+    - I Księgi
+    - I. Księgi
+    - I Ks.
+    - I Ks
+    - I. Ks.
+    - I. Ks
+  secondbook: &secondbook
+    - Druga Księga
+    - Druga Księgi
+    - Druga Ks.
+    - Druga Ks
+    - Drugi Księga
+    - Drugi Księgi
+    - Drugi Ks.
+    - Drugi Ks
+    - 2 Księga
+    - 2. Księga
+    - 2 Księgi
+    - 2. Księgi
+    - 2 Ks.
+    - 2 Ks
+    - 2. Ks.
+    - 2. Ks
+    - II Księga
+    - II. Księga
+    - II Księgi
+    - II. Księgi
+    - II Ks.
+    - II Ks
+    - II. Ks.
+    - II. Ks
+  thirdbook: &thirdbook
+    - Trzecia Księga
+    - Trzecia Księgi
+    - Trzecia Ks.
+    - Trzecia Ks
+    - Trzeci Księga
+    - Trzeci Księgi
+    - Trzeci Ks.
+    - Trzeci Ks
+    - 3 Księga
+    - 3. Księga
+    - 3 Księgi
+    - 3. Księgi
+    - 3 Ks.
+    - 3 Ks
+    - 3. Ks.
+    - 3. Ks
+    - III Księga
+    - III. Księga
+    - III Księgi
+    - III. Księgi
+    - III Ks.
+    - III Ks
+    - III. Ks.
+    - III. Ks
+  fourthbook: &fourthbook
+    - Czwarta Księga
+    - Czwarta Księgi
+    - Czwarta Ks.
+    - Czwarta Ks
+    - 4 Księga
+    - 4. Księga
+    - 4 Księgi
+    - 4. Księgi
+    - 4 Ks.
+    - 4 Ks
+    - 4. Ks.
+    - 4. Ks
+    - IV Księga
+    - IV. Księga
+    - IV Księgi
+    - IV. Księgi
+    - IV Ks.
+    - IV Ks
+    - IV. Ks.
+    - IV. Ks
+  fifthbook: &fifthbook
+    - Piąta Księga
+    - Piąta Księgi
+    - Piąta Ks.
+    - Piąta Ks
+    - 5 Księga
+    - 5. Księga
+    - 5 Księgi
+    - 5. Księgi
+    - 5 Ks.
+    - 5 Ks
+    - 5. Ks.
+    - 5. Ks
+    - V Księga
+    - V. Księga
+    - V Księgi
+    - V. Księgi
+    - V Ks.
+    - V Ks
+    - V. Ks.
+    - V. Ks
+books:
+  - osis:
+      - osis: Gen
+        before: *book
+    texts:
+      - Rodzaju
+  - osis:
+      - osis: Gen
+        before: *firstbook
+      - osis: Gen
+        before: *first
+      - osis: Exod
+        before: *secondbook
+      - osis: Exod
+        before: *second
+      - osis: Lev
+        before: *thirdbook
+      - osis: Lev
+        before: *third
+      - osis: Num
+        before: *fourthbook
+      - osis: Num
+        before: *fourth
+      - osis: Deut
+        before: *fifthbook
+      - osis: Deut
+        before: *fifth
+    texts:
+      - Mojżeszowa
+  - osis:
+      - osis: Gen
+        before: *firstbook
+    texts:
+      - Moyżeszowe
+  - osis:
+      - osis: Gen
+        before: *first
+      - osis: Exod
+        before: *second
+      - osis: Lev
+        before: *third
+      - osis: Num
+        before: *fourth
+      - osis: Deut
+        before: *fifth
+    texts:
+      - Mojż
+  - osis: Gen
+    texts:
+      - Księga Rodzaju
+      - Genezis
+      - 1 Moj
+      - I Moj
+      - Rodz
+      - 1 M
+      - Gen
+      - Rdz
+  - osis:
+      - osis: Exod
+        before: *book
+    texts:
+      - Wyjścia
+  - osis: Exod
+    texts:
+      - Księga Wyjścia
+      - Exodus
+      - II Moj
+      - 2 Moj
+      - Exod
+      - 2 M
+      - Wyj
+      - Ex
+      - Wj
+  - osis: Bel
+    texts:
+      - Opowiadaniem o Belu i wężu
+      - Bela i węża
+      - Bel
+  - osis:
+      - osis: Lev
+        before: *book
+    texts:
+      - Kapłańska
+  - osis: Lev
+    texts:
+      - Księga Kapłańska
+      - III Moj
+      - 3 Moj
+      - Kapl
+      - Kapł
+      - 3 M
+      - Kpl
+      - Kpł
+      - Lev
+  - osis:
+      - osis: Num
+      - osis: Num
+        before: *book
+    texts:
+      - Liczb
+  - osis: Num
+    texts:
+      - Księga Liczb
+      - IV Moj
+      - 4 Moj
+      - 4 M
+      - Num
+      - Lb
+  - osis: Sir
+    texts:
+      - Mądrość Syracha
+      - Eklezjastyka
+      - Eklezjastyk
+      - Syracha
+      - Ekli
+      - Sir
+      - Syr
+  - osis:
+      - osis: Wis
+        before: *book
+    texts:
+      - Mądrości
+  - osis: Wis
+    texts:
+      - Mądrość Salomona
+      - Księga Mądrości
+      - Mądr
+      - Mdr
+      - Wis
+  - osis:
+      - osis: Lam
+        before: *book
+    texts:
+      - Lamentacji
+  - osis: Lam
+    texts:
+      - Lamentacje Jeremiasza
+      - Treny Jeremiasza
+      - Lamentacje
+      - Treny
+      - Lam
+      - La
+      - Lm
+      - Tr
+  - osis: EpJer
+    texts:
+      - List Jeremiasza
+      - EpJer
+  - osis: PrMan
+    texts:
+      - Modlitwa Manassesa
+      - PrMan
+  - osis:
+      - osis: Deut
+        before: *book
+    texts:
+      - Powtórzonego Prawa
+      - Powt Prawa
+  - osis: Deut
+    texts:
+      - Księga Powtórzonego Prawa
+      - 5 Moj
+      - V Moj
+      - Deut
+      - 5 M
+      - Pwt
+  - osis:
+      - osis: Josh
+      - osis: Josh
+        before: *book
+    texts:
+      - Jozuego
+  - osis: Josh
+    texts:
+      - Josh
+      - Joz
+  - osis:
+      - osis: Judg
+      - osis: Judg
+        before: *book
+    texts:
+      - Sędziów
+  - osis: Judg
+    texts:
+      - Judg
+      - Sędz
+      - Sdz
+  - osis:
+      - osis: Ruth
+      - osis: Ruth
+        before: *book
+    texts:
+      - Rut
+  - osis:
+      - osis: Ruth
+        before: *book
+    texts:
+      - Ruthy
+  - osis: Ruth
+    texts:
+      - Ruth
+      - Rt
+      - Ru
+  - osis: 1Esd
+    texts:
+      - 1 Księga Ezdrasza
+      - 1Esd
+  - osis: 2Esd
+    texts:
+      - 2 Księga Ezdrasza
+      - 2Esd
+  - osis:
+      - osis: 1Esd
+        before: *firstbook
+      - osis: 1Esd
+        before: *first
+      - osis: 2Esd
+        before: *secondbook
+      - osis: 2Esd
+        before: *second
+      - osis: Ezra
+        before: *book
+      - osis: Ezra
+    texts:
+      - Ezdrasza
+  - osis:
+      - osis: Isa
+      - osis: Isa
+        before: *book
+    texts:
+      - Izajasza
+  - osis: Isa
+    texts:
+      - Isa
+      - Iz
+  - osis:
+      - osis: 1Sam
+        before: *firstbook
+      - osis: 2Sam
+        before: *secondbook
+    texts:
+      - Samuela
+  - osis:
+      - osis: 1Sam
+        before: *firstbook
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *secondbook
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuelowa
+  - osis: 2Sam
+    texts:
+      - 2 Samuelowa
+      - 2 Sam
+      - 2 Sa
+      - 2 Sm
+      - 2Sam
+  - osis: 1Sam
+    texts:
+      - 1 Samuelowa
+      - 1 Sam
+      - 1 Sa
+      - 1 Sm
+      - 1Sam
+  - osis:
+      - osis: 1Kgs
+        before: *firstbook
+      - osis: 1Kgs
+        before: *first
+      - osis: 1Kgs
+        before: *thirdbook
+      - osis: 2Kgs
+        before: *fourthbook
+      - osis: 2Kgs
+        before: *secondbook
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Królewska
+  - osis:
+      - osis: 1Kgs
+        before: *firstbook
+      - osis: 2Kgs
+        before: *secondbook
+    texts:
+      - Królów
+  - osis: 2Kgs
+    texts:
+      - 2 Królewska
+      - 2 Król
+      - 2 Krl
+      - 2Kgs
+  - osis: 1Kgs
+    texts:
+      - 1 Królewska
+      - 1 Król
+      - 1 Krl
+      - 1Kgs
+  - osis:
+      - osis: 1Chr
+        before: *firstbook
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *secondbook
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Kronik
+  - osis: 2Chr
+    texts:
+      - 2 Kronik
+      - 2 Kron
+      - 2 Krn
+      - 2Chr
+  - osis: 1Chr
+    texts:
+      - 1 Kronik
+      - 1 Kron
+      - 1 Krn
+      - 1Chr
+  - osis: Ezra
+    texts:
+      - Ezdr
+      - Ezra
+      - Ezd
+      - Ezr
+  - osis:
+      - osis: Neh
+      - osis: Neh
+        before: *book
+    texts:
+      - Nehemiasza
+  - osis: Neh
+    texts:
+      - Neh
+      - Ne
+  - osis: GkEsth
+    texts:
+      - GkEsth
+  - osis:
+      - osis: Esth
+      - osis: Esth
+        before: *book
+    texts:
+      - Estery
+  - osis: Esth
+    texts:
+      - Esth
+      - Est
+  - osis:
+      - osis: Job
+      - osis: Job
+        before: *book
+    texts:
+      - Hioba
+      - Joba
+  - osis:
+      - osis: Job
+        before: *book
+    texts:
+      - Ijoba
+  - osis: Job
+    texts:
+      - Hiob
+      - Job
+      - Hi
+  - osis:
+      - osis: Ps
+        before: *book
+    texts:
+      - Psalmów
+  - osis: Ps
+    texts:
+      - Psalmy
+      - Psalm
+      - Ps
+  - osis: PrAzar
+    texts:
+      - Modlitwą Azariasza
+      - Pieśń Azariasza
+      - PrAzar
+  - osis:
+      - osis: Prov
+        before: *book
+    texts:
+      - Przypowieści Salomona
+      - Przysłów
+  - osis: Prov
+    texts:
+      - Przypowieści Salomonowych
+      - Księga Przysłów
+      - Przyp
+      - Prov
+      - Przy
+      - Prz
+      - Pr
+  - osis:
+      - osis: Eccl
+        before: *book
+    texts:
+      - Kaznodziei Salomona
+      - Eklezjastesa
+      - Koheleta
+  - osis: Eccl
+    texts:
+      - Kaznodziei Salomonowego
+      - Księga Koheleta
+      - Kohelet
+      - Eccl
+      - Kazn
+      - Ekl
+      - Koh
+  - osis: SgThree
+    texts:
+      - Pieśnią trzech młodzieńców
+      - Pieśń trzech młodzieńców
+      - SgThree
+  - osis: Song
+    texts:
+      - Pieśń nad Pieśniami
+      - Pieśń Salomona
+      - Song
+      - PNP
+      - Pnp
+  - osis:
+      - osis: Jer
+      - osis: Jer
+        before: *book
+    texts:
+      - Jeremiasza
+  - osis: Jer
+    texts:
+      - Jer
+      - Jr
+  - osis:
+      - osis: Ezek
+      - osis: Ezek
+        before: *book
+    texts:
+      - Ezechiela
+  - osis: Ezek
+    texts:
+      - Ezek
+      - Eze
+      - Ez
+  - osis:
+      - osis: Dan
+      - osis: Dan
+        before: *book
+    texts:
+      - Daniela
+  - osis: Dan
+    texts:
+      - Dan
+      - Da
+      - Dn
+  - osis:
+      - osis: Hos
+      - osis: Hos
+        before: *book
+    texts:
+      - Ozeasza
+  - osis: Hos
+    texts:
+      - Hos
+      - Oz
+  - osis:
+      - osis: Joel
+      - osis: Joel
+        before: *book
+    texts:
+      - Joela
+  - osis: Joel
+    texts:
+      - Proroctwo Ioelowe
+      - Joel
+      - Jl
+  - osis:
+      - osis: Amos
+      - osis: Amos
+        before: *book
+    texts:
+      - Amosa
+  - osis: Amos
+    texts:
+      - Amos
+      - Am
+  - osis:
+      - osis: Obad
+      - osis: Obad
+        before: *book
+    texts:
+      - Abdiasza
+  - osis: Obad
+    texts:
+      - Proroctwo Abdyaszowe
+      - Obad
+      - Ab
+  - osis:
+      - osis: Jonah
+      - osis: Jonah
+        before: *book
+    texts:
+      - Jonasza
+  - osis: Jonah
+    texts:
+      - Proroctwo Ionaszowe
+      - Jonah
+      - Jon
+  - osis:
+      - osis: Mic
+      - osis: Mic
+        before: *book
+    texts:
+      - Micheasza
+  - osis: Mic
+    texts:
+      - Mich
+      - Mic
+      - Mi
+  - osis:
+      - osis: Nah
+      - osis: Nah
+        before: *book
+    texts:
+      - Nahuma
+  - osis: Nah
+    texts:
+      - Proroctwo Nahumowe
+      - Nach
+      - Nah
+      - Na
+  - osis:
+      - osis: Hab
+      - osis: Hab
+        before: *book
+    texts:
+      - Habakuka
+  - osis: Hab
+    texts:
+      - Proroctwo Abakukowe
+      - Abakuka
+      - Hab
+      - Ha
+  - osis:
+      - osis: Zeph
+      - osis: Zeph
+        before: *book
+    texts:
+      - Sofoniasza
+  - osis: Zeph
+    texts:
+      - Proroctwo Sofoniaszowe
+      - Zeph
+      - Sof
+      - So
+  - osis:
+      - osis: Hag
+      - osis: Hag
+        before: *book
+    texts:
+      - Aggeusza
+  - osis: Hag
+    texts:
+      - Proroctwo Aggieuszowe
+      - Hag
+      - Ag
+  - osis:
+      - osis: Zech
+      - osis: Zech
+        before: *book
+    texts:
+      - Zachariasza
+  - osis: Zech
+    texts:
+      - Zach
+      - Zech
+      - Za
+  - osis:
+      - osis: Mal
+      - osis: Mal
+        before: *book
+    texts:
+      - Malachiasza
+  - osis: Mal
+    texts:
+      - Proroctwo Malachyaszowe
+      - Mal
+      - Ml
+  - osis: Matt
+    texts:
+      - Ewangelia według św. Mateusza
+      - Ewangelia według św Mateusza
+      - Ewangelia wg św. Mateusza
+      - Ewangelia wg św Mateusza
+      - Ewangelia Mateusza
+      - Ew. Mateusza
+      - Ew Mateusza
+      - Mateusza
+      - Mateusz
+      - Ew Mat
+      - Matt
+      - Mat
+      - Mt
+  - osis: Mark
+    texts:
+      - Ewangelia według św. Marka
+      - Ewangelia według św Marka
+      - Ewangelia wg św. Marka
+      - Ewangelia wg św Marka
+      - Ewangelia Marka
+      - Ew. Marka
+      - Ew Marka
+      - Ew Mar
+      - Marek
+      - Marka
+      - Mark
+      - Mar
+      - Mk
+  - osis: Luke
+    texts:
+      - Ewangelia według św. Łukasza
+      - Ewangelia według św Łukasza
+      - Ewangelia wg św. Łukasza
+      - Ewangelia wg św Łukasza
+      - Ewangelia Łukasza
+      - Ew. Łukasza
+      - Ew Łukasza
+      - Łukasza
+      - Ew Łuk
+      - Łukasz
+      - Luke
+      - Luk
+      - Łuk
+      - Lk
+      - Łk
+  - osis: Acts
+    texts:
+      - Dziejach Apostolskich
+      - Dzieje Apostolskie
+      - Dzieje Apost.
+      - Dzieje Apost
+      - Dzieje
+      - Dz Ap
+      - Acts
+      - Dz
+  - osis:
+      - osis: Rev
+        before: *book
+    texts:
+      - Apokalipsy
+      - Objawienia
+  - osis: Rev
+    texts:
+      - Apokalipsa Świętego Jana
+      - Apokalipsa św. Jana
+      - Objawienie św. Jana
+      - Apokalipsa św Jana
+      - Objawienie św Jana
+      - Objawienie Jana
+      - Apokalipsa
+      - Objawienie
+      - Obj
+      - Rev
+      - Ap
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - List św. Jana
+      - List św Jana
+      - List Jana
+  - osis: 1John
+    texts:
+      - 1 Jana
+      - 1 Jan
+      - 1John
+      - 1 Jn
+      - 1 J
+  - osis: 2John
+    texts:
+      - 2 Jana
+      - 2 Jan
+      - 2John
+      - 2 Jn
+      - 2 J
+  - osis: 3John
+    texts:
+      - 3 Jana
+      - 3 Jan
+      - 3John
+      - 3 Jn
+      - 3 J
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jana
+  - osis: John
+    texts:
+      - Ewangelia według św. Jana
+      - Ewangelia według św Jana
+      - Ewangelia wg św. Jana
+      - Ewangelia wg św Jana
+      - Ewangelia Jana
+      - Ew. Jana
+      - Ew Jana
+      - Ew Jan
+      - John
+      - Jan
+      - Jn
+      - J
+  - osis: Rom
+    texts:
+      - List św. Pawła do Rzymian
+      - List św Pawła do Rzymian
+      - List do Rzymian
+      - Rzymian
+      - Rzym
+      - Rom
+      - Rz
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - List św. Pawła do Koryntian
+      - List św Pawła do Koryntian
+      - list do Koryntian
+      - Koryntian
+      - Koryntów
+  - osis: 2Cor
+    texts:
+      - 2 Koryntów
+      - 2 Kor
+      - 2Cor
+  - osis: 1Cor
+    texts:
+      - 1 Koryntów
+      - 1 Kor
+      - 1Cor
+  - osis: Gal
+    texts:
+      - List św. Pawła do Galacjan
+      - List św Pawła do Galacjan
+      - List do Galacjan
+      - List do Galatów
+      - Galacjan
+      - Galatów
+      - Gal
+      - Ga
+  - osis: Eph
+    texts:
+      - List Świętego Pawła Apostoła do Efezów
+      - List św. Pawła do Efezjan
+      - List św Pawła do Efezjan
+      - List do Efezjan
+      - Efezjan
+      - Efezów
+      - Efez
+      - Eph
+      - Ef
+  - osis: Phil
+    texts:
+      - List św. Pawła do Filipian
+      - List św Pawła do Filipian
+      - List do Filipian
+      - Filipensów
+      - Filipian
+      - Filip
+      - Phil
+      - Fil
+      - Flp
+      - Fl
+  - osis: Col
+    texts:
+      - List św. Pawła do Kolosan
+      - List św Pawła do Kolosan
+      - List do Kolosan
+      - Kolosensów
+      - Kolosan
+      - Col
+      - Kol
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - List św. Pawła do Tesaloniczan
+      - List św Pawła do Tesaloniczan
+      - List do Tesaloniczan
+      - Tesalonicensów
+      - Tesaloniczan
+  - osis: 2Thess
+    texts:
+      - 2 Tesalonicensów
+      - 2Thess
+      - 2 Tes
+  - osis: 1Thess
+    texts:
+      - 1 Tesalonicensów
+      - 1Thess
+      - 1 Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - List św. Pawła do Tymoteusza
+      - List św Pawła do Tymoteusza
+      - List do Tymoteusza
+      - Tymoteusza
+  - osis: 2Tim
+    texts:
+      - 2 Tymoteusza
+      - 2 Tym
+      - 2 Tm
+      - 2Tim
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Tym
+  - osis: 1Tim
+    texts:
+      - 1 Tymoteusza
+      - 1 Tm
+      - 1Tim
+  - osis: Titus
+    texts:
+      - List św. Pawła do Tytusa
+      - List św Pawła do Tytusa
+      - List do Tytusa
+      - Tytusa
+      - Titus
+      - Tyt
+      - Tt
+  - osis: Phlm
+    texts:
+      - List św. Pawła do Filemona
+      - List św Pawła do Filemona
+      - List do Filemona
+      - Filemona
+      - Filem
+      - Phlm
+      - Flm
+  - osis: Heb
+    texts:
+      - List do Hebrajczyków
+      - List do Żydów
+      - Hebrajczyków
+      - Żydów
+      - Hebr
+      - Hbr
+      - Heb
+      - Żyd
+  - osis: Jas
+    texts:
+      - List powszechny Świętego Iakuba Apostoła
+      - List św. Jakuba
+      - List św Jakuba
+      - List Jakuba
+      - Jakuba
+      - Jak
+      - Jas
+      - Jk
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - List św. Piotra
+      - List św Piotra
+      - List Piotra
+      - Piotra
+      - Piotr
+  - osis: 2Pet
+    texts:
+      - 2 Piotra
+      - 2Pet
+      - 2 P
+  - osis: 1Pet
+    texts:
+      - 1 Piotra
+      - 1Pet
+      - 1 P
+  - osis: Jude
+    texts:
+      - List powszechny Świętego Iudasa Apostoła
+      - List św. Judy
+      - List św Judy
+      - List Judy
+      - Jude
+      - Judy
+      - Jud
+      - Jd
+  - osis:
+      - osis: Tob
+        before: *book
+    texts:
+      - Tobiasza
+      - Tobita
+  - osis: Tob
+    texts:
+      - Księga Tobiasza
+      - Tob
+      - Tb
+  - osis:
+      - osis: Jdt
+      - osis: Jdt
+        before: *book
+    texts:
+      - Judyty
+  - osis: Jdt
+    texts:
+      - Księga Judyty
+      - Jdt
+  - osis:
+      - osis: Bar
+      - osis: Bar
+        before: *book
+    texts:
+      - Barucha
+  - osis: Bar
+    texts:
+      - Księga Barucha
+      - Bar
+      - Ba
+  - osis: Sus
+    texts:
+      - Opowiadaniem o Zuzannie
+      - Zuzanna
+      - Sus
+  - osis:
+      - osis: 1Macc
+        before: *firstbook
+      - osis: 2Macc
+        before: *secondbook
+      - osis: 3Macc
+        before: *thirdbook
+      - osis: 4Macc
+        before: *fourthbook
+    texts:
+      - Machabejska
+  - osis: 2Macc
+    texts:
+      - 2 Księga Machabejska
+      - 2 Mach
+      - 2 Mch
+      - 2Macc
+  - osis: 3Macc
+    texts:
+      - 3 Księga Machabejska
+      - 3 Mach
+      - 3 Mch
+      - 3Macc
+  - osis: 4Macc
+    texts:
+      - 4 Księga Machabejska
+      - 4 Mach
+      - 4 Mch
+      - 4Macc
+  - osis: 1Macc
+    texts:
+      - 1 Księga Machabejska
+      - 1 Mach
+      - 1 Mch
+      - 1Macc
+translations:
+  - NP

@@ -1,0 +1,954 @@
+- osis: Gen
+  texts:
+    - Első Mózes
+    - Első. Mózes
+    - 1 Mózes
+    - 1. Mózes
+    - I Mózes
+    - I. Mózes
+- osis: Exod
+  texts:
+    - Második Mózes
+    - Második. Mózes
+    - 2 Mózes
+    - 2. Mózes
+    - II Mózes
+    - II. Mózes
+- osis: Lev
+  texts:
+    - Harmadik Mózes
+    - Harmadik. Mózes
+    - 3 Mózes
+    - 3. Mózes
+    - III Mózes
+    - III. Mózes
+- osis: Num
+  texts:
+    - 4 Mózes
+    - 4. Mózes
+    - IV Mózes
+    - IV. Mózes
+- osis: Gen
+  texts:
+    - Teremtés
+    - Mózes I
+    - 1 Móz
+    - 1 Mz
+    - Gen
+    - Ter
+- osis: Exod
+  texts:
+    - Kivonulás
+    - Mózes II
+    - 2 Móz
+    - 2 Mz
+    - Exod
+    - Kiv
+- osis: Bel
+  texts:
+    - Baál és a sárkány
+    - Bél és a sárkány
+    - Bel
+    - Bél
+- osis: Lev
+  texts:
+    - Mózes III
+    - Leviták
+    - 3 Móz
+    - 3 Mz
+    - Lev
+- osis: Num
+  texts:
+    - Mózes IV
+    - Számok
+    - 4 Móz
+    - 4 Mz
+    - Szám
+    - Num
+- osis: Wis
+  texts:
+    - Salamon bölcsessége
+    - Bölcsesség
+    - Bölcs
+    - Wis
+- osis: Lam
+  texts:
+    - Jeremiás siralmai
+    - Jeremiás sir
+    - Siralmak
+    - Siralm
+    - Siral
+    - Lam
+- osis: Sir
+  texts:
+    - Sirák bölcsessége
+    - Ecclesiasticus
+    - Sirák fia
+    - Sir
+- osis: EpJer
+  texts:
+    - Jeremiás levele
+    - EpJer
+- osis: Rev
+  texts:
+    - János jelenései
+    - Apokalipszis
+    - Jelenések
+    - Jel
+    - Rev
+- osis: PrMan
+  texts:
+    - Manassé imádsága
+    - Manassze imája
+    - PrMan
+- osis: Deut
+  texts:
+    - Második törvénykönyv
+    - Mózes ötödik könyve
+    - 5 Mózes
+    - Mózes V
+    - 5 Móz
+    - MTörv
+    - 5 Mz
+    - Deut
+- osis: Josh
+  texts:
+    - Józsué
+    - Josh
+    - Józs
+- osis: Judg
+  texts:
+    - Bírák
+    - Judg
+    - Bír
+- osis: Ruth
+  texts:
+    - Ruth
+    - Rut
+- osis: 1Esd
+  texts:
+    - Első Ezdrás
+    - Első. Ezdrás
+    - 1 Ezdrás
+    - 1. Ezdrás
+    - I Ezdrás
+    - I. Ezdrás
+- osis: 2Esd
+  texts:
+    - Második Ezdrás
+    - Második. Ezdrás
+    - 2 Ezdrás
+    - 2. Ezdrás
+    - II Ezdrás
+    - II. Ezdrás
+- osis: 1Esd
+  texts:
+    - Ezdrás I
+    - 1 Ezdrás
+    - 1 Ezd
+    - 1Esd
+- osis: 2Esd
+  texts:
+    - Ezdrás II
+    - 2 Ezdrás
+    - 2 Ezd
+    - 2Esd
+- osis: 1Esd
+  texts:
+    - Első Ezd
+    - Első. Ezd
+    - 1 Ezd
+    - 1. Ezd
+    - I Ezd
+    - I. Ezd
+- osis: 2Esd
+  texts:
+    - Második Ezd
+    - Második. Ezd
+    - 2 Ezd
+    - 2. Ezd
+    - II Ezd
+    - II. Ezd
+- osis: Ezra
+  texts:
+    - Ezd
+- osis: Isa
+  texts:
+    - Ézsaiás
+    - Izajás
+    - Ésaiás
+    - Isa
+    - Ézs
+    - Iz
+- osis: 1Sam
+  texts:
+    - Első Sámuel
+    - Első Sám
+    - Első. Sámuel
+    - Első. Sám
+    - 1 Sámuel
+    - 1 Sám
+    - 1. Sámuel
+    - 1. Sám
+    - I Sámuel
+    - I Sám
+    - I. Sámuel
+    - I. Sám
+- osis: 2Sam
+  texts:
+    - Második Sámuel
+    - Második Sám
+    - Második. Sámuel
+    - Második. Sám
+    - 2 Sámuel
+    - 2 Sám
+    - 2. Sámuel
+    - 2. Sám
+    - II Sámuel
+    - II Sám
+    - II. Sámuel
+    - II. Sám
+- osis: 2Sam
+  texts:
+    - Sámuel II
+    - 2 Sámuel
+    - 2 Sám
+    - 2Sam
+- osis: 1Sam
+  texts:
+    - Sámuel I
+    - 1 Sámuel
+    - 1 Sám
+    - 1Sam
+- osis: 1Kgs
+  texts:
+    - Első Királyok
+    - Első Kir
+    - Első. Királyok
+    - Első. Kir
+    - 1 Királyok
+    - 1 Kir
+    - 1. Királyok
+    - 1. Kir
+    - I Királyok
+    - I Kir
+    - I. Királyok
+    - I. Kir
+- osis: 2Kgs
+  texts:
+    - Második Királyok
+    - Második Kir
+    - Második. Királyok
+    - Második. Kir
+    - 2 Királyok
+    - 2 Kir
+    - 2. Királyok
+    - 2. Kir
+    - II Királyok
+    - II Kir
+    - II. Királyok
+    - II. Kir
+- osis: 2Kgs
+  texts:
+    - Királyok II
+    - 2 Királyok
+    - 2 Kir
+    - 2Kgs
+- osis: 1Kgs
+  texts:
+    - Királyok I
+    - 1 Királyok
+    - 1 Kir
+    - 1Kgs
+- osis: 1Chr
+  texts:
+    - Első Krónika
+    - Első Krón
+    - Első. Krónika
+    - Első. Krón
+    - 1 Krónika
+    - 1 Krón
+    - 1. Krónika
+    - 1. Krón
+    - I Krónika
+    - I Krón
+    - I. Krónika
+    - I. Krón
+- osis: 2Chr
+  texts:
+    - Második Krónika
+    - Második Krón
+    - Második. Krónika
+    - Második. Krón
+    - 2 Krónika
+    - 2 Krón
+    - 2. Krónika
+    - 2. Krón
+    - II Krónika
+    - II Krón
+    - II. Krónika
+    - II. Krón
+- osis: 2Chr
+  texts:
+    - Krónikák II
+    - 2 Krónika
+    - 2 Krón
+    - 2Chr
+- osis: 1Chr
+  texts:
+    - Krónikák I
+    - 1 Krónika
+    - 1 Krón
+    - 1Chr
+- osis: Ezra
+  texts:
+    - Ezsdrás
+    - Ezra
+    - Ezsd
+- osis: Neh
+  texts:
+    - Nehemiás
+    - Neh
+- osis: GkEsth
+  texts:
+    - Eszter könyvének kiegészítése
+    - GkEsth
+- osis: Esth
+  texts:
+    - Eszter
+    - Esth
+    - Eszt
+- osis: Job
+  texts:
+    - Job
+    - Jób
+- osis: Ps
+  texts:
+    - Zsoltárok
+    - Zsolt
+    - Ps
+- osis: PrAzar
+  texts:
+    - Azáriás imádsága
+    - Azáriás imája
+    - PrAzar
+- osis: Prov
+  texts:
+    - Példabeszédek
+    - Prov
+    - Péld
+- osis: Eccl
+  texts:
+    - Prédikátor
+    - Eccl
+    - Préd
+- osis: SgThree
+  texts:
+    - Három fiatalember éneke
+    - SgThree
+- osis: Song
+  texts:
+    - Salamon éneke
+    - Énekek éneke
+    - Song
+    - Én
+- osis: Jer
+  texts:
+    - Jeremiás
+    - Jer
+- osis: Ezek
+  texts:
+    - Ezékiel
+    - Ezek
+    - Ez
+- osis: Dan
+  texts:
+    - Dániel
+    - Dan
+    - Dán
+- osis: Hos
+  texts:
+    - Hóseás
+    - Ozeás
+    - Hos
+    - Hós
+    - Oz
+- osis: Joel
+  texts:
+    - Joel
+    - Jóel
+    - Jóél
+    - Jo
+- osis: Amos
+  texts:
+    - Ámosz
+    - Amos
+    - Ámos
+    - Ámós
+    - Ám
+- osis: Obad
+  texts:
+    - Abdiás
+    - Obad
+    - Abd
+- osis: Jonah
+  texts:
+    - Jonah
+    - Jónás
+    - Jón
+- osis: Mic
+  texts:
+    - Mikeás
+    - Mic
+    - Mik
+- osis: Nah
+  texts:
+    - Náhum
+    - Nah
+    - Náh
+- osis: Hab
+  texts:
+    - Habakkuk
+    - Habakuk
+    - Hab
+- osis: Zeph
+  texts:
+    - Szefaniás
+    - Szofoniás
+    - Sofoniás
+    - Zofóniás
+    - Szof
+    - Zeph
+- osis: Hag
+  texts:
+    - Haggeus
+    - Aggeus
+    - Haggai
+    - Hag
+    - Ag
+- osis: Zech
+  texts:
+    - Zakariás
+    - Zech
+    - Zak
+- osis: Mal
+  texts:
+    - Malakiás
+    - Mal
+- osis: Matt
+  texts:
+    - Matt
+    - Máté
+    - Mt
+- osis: Mark
+  texts:
+    - Mark
+    - Márk
+    - Mk
+- osis: Luke
+  texts:
+    - Lukács
+    - Luke
+    - Lk
+- osis: 1John
+  texts:
+    - János I
+    - 1 János
+    - 1John
+    - 1 Jn
+- osis: 2John
+  texts:
+    - János II
+    - 2 János
+    - 2John
+    - 2 Jn
+- osis: 3John
+  texts:
+    - János III
+    - 3 János
+    - 3John
+    - 3 Jn
+- osis: 1John
+  texts:
+    - Első János
+    - Első Jn
+    - Első. János
+    - Első. Jn
+    - 1 János
+    - 1 Jn
+    - 1. János
+    - 1. Jn
+    - I János
+    - I Jn
+    - I. János
+    - I. Jn
+- osis: 2John
+  texts:
+    - Második János
+    - Második Jn
+    - Második. János
+    - Második. Jn
+    - 2 János
+    - 2 Jn
+    - 2. János
+    - 2. Jn
+    - II János
+    - II Jn
+    - II. János
+    - II. Jn
+- osis: 3John
+  texts:
+    - Harmadik János
+    - Harmadik Jn
+    - Harmadik. János
+    - Harmadik. Jn
+    - 3 János
+    - 3 Jn
+    - 3. János
+    - 3. Jn
+    - III János
+    - III Jn
+    - III. János
+    - III. Jn
+- osis: John
+  texts:
+    - János
+    - Jn
+- osis: John
+  texts:
+    - John
+- osis: Acts
+  texts:
+    - Az apostolok cselekedetei
+    - Apostolok cselekedetei
+    - Cselekedetek
+    - Apostolok
+    - Az ApCsel
+    - Ap. Csel
+    - Ap Csel
+    - ApCsel
+    - Acts
+- osis: Rom
+  texts:
+    - Rómaiakhoz
+    - Róma
+    - Rom
+    - Róm
+- osis: 1Cor
+  texts:
+    - Első Korinthusiakhoz
+    - Első Korinthus
+    - Első Korintusi
+    - Első Kor
+    - Első. Korinthusiakhoz
+    - Első. Korinthus
+    - Első. Korintusi
+    - Első. Kor
+    - 1 Korinthusiakhoz
+    - 1 Korinthus
+    - 1 Korintusi
+    - 1 Kor
+    - 1. Korinthusiakhoz
+    - 1. Korinthus
+    - 1. Korintusi
+    - 1. Kor
+    - I Korinthusiakhoz
+    - I Korinthus
+    - I Korintusi
+    - I Kor
+    - I. Korinthusiakhoz
+    - I. Korinthus
+    - I. Korintusi
+    - I. Kor
+- osis: 2Cor
+  texts:
+    - Második Korinthusiakhoz
+    - Második Korinthus
+    - Második Korintusi
+    - Második Kor
+    - Második. Korinthusiakhoz
+    - Második. Korinthus
+    - Második. Korintusi
+    - Második. Kor
+    - 2 Korinthusiakhoz
+    - 2 Korinthus
+    - 2 Korintusi
+    - 2 Kor
+    - 2. Korinthusiakhoz
+    - 2. Korinthus
+    - 2. Korintusi
+    - 2. Kor
+    - II Korinthusiakhoz
+    - II Korinthus
+    - II Korintusi
+    - II Kor
+    - II. Korinthusiakhoz
+    - II. Korinthus
+    - II. Korintusi
+    - II. Kor
+- osis: 2Cor
+  texts:
+    - 2 Korinthusiakhoz
+    - 2 Kor
+    - 2Cor
+- osis: 1Cor
+  texts:
+    - 1 Korinthusiakhoz
+    - 1 Kor
+    - 1Cor
+- osis: Gal
+  texts:
+    - Galatákhoz
+    - Galata
+    - Gal
+- osis: Eph
+  texts:
+    - Epheszosziakhoz
+    - Efezusiakhoz
+    - Efézusiakhoz
+    - Efezus
+    - Eph
+    - Ef
+- osis: Phil
+  texts:
+    - Philippibeliekhez
+    - Filippiekhez
+    - Flippiekhez
+    - Filippi
+    - Phil
+    - Fil
+- osis: Col
+  texts:
+    - Kolosszébeliekhez
+    - Kolosszeieknek
+    - Kolosséiakhoz
+    - Kolossé
+    - Col
+    - Kol
+- osis: 1Thess
+  texts:
+    - Első Thesszalonikaiakhoz
+    - Első Tesszalonikaiakhoz
+    - Első Thesszalonika
+    - Első Tesszalonika
+    - Első Thessz
+    - Első Tessz
+    - Első. Thesszalonikaiakhoz
+    - Első. Tesszalonikaiakhoz
+    - Első. Thesszalonika
+    - Első. Tesszalonika
+    - Első. Thessz
+    - Első. Tessz
+    - 1 Thesszalonikaiakhoz
+    - 1 Tesszalonikaiakhoz
+    - 1 Thesszalonika
+    - 1 Tesszalonika
+    - 1 Thessz
+    - 1 Tessz
+    - 1. Thesszalonikaiakhoz
+    - 1. Tesszalonikaiakhoz
+    - 1. Thesszalonika
+    - 1. Tesszalonika
+    - 1. Thessz
+    - 1. Tessz
+    - I Thesszalonikaiakhoz
+    - I Tesszalonikaiakhoz
+    - I Thesszalonika
+    - I Tesszalonika
+    - I Thessz
+    - I Tessz
+    - I. Thesszalonikaiakhoz
+    - I. Tesszalonikaiakhoz
+    - I. Thesszalonika
+    - I. Tesszalonika
+    - I. Thessz
+    - I. Tessz
+- osis: 2Thess
+  texts:
+    - Második Thesszalonikaiakhoz
+    - Második Tesszalonikaiakhoz
+    - Második Thesszalonika
+    - Második Tesszalonika
+    - Második Thessz
+    - Második Tessz
+    - Második. Thesszalonikaiakhoz
+    - Második. Tesszalonikaiakhoz
+    - Második. Thesszalonika
+    - Második. Tesszalonika
+    - Második. Thessz
+    - Második. Tessz
+    - 2 Thesszalonikaiakhoz
+    - 2 Tesszalonikaiakhoz
+    - 2 Thesszalonika
+    - 2 Tesszalonika
+    - 2 Thessz
+    - 2 Tessz
+    - 2. Thesszalonikaiakhoz
+    - 2. Tesszalonikaiakhoz
+    - 2. Thesszalonika
+    - 2. Tesszalonika
+    - 2. Thessz
+    - 2. Tessz
+    - II Thesszalonikaiakhoz
+    - II Tesszalonikaiakhoz
+    - II Thesszalonika
+    - II Tesszalonika
+    - II Thessz
+    - II Tessz
+    - II. Thesszalonikaiakhoz
+    - II. Tesszalonikaiakhoz
+    - II. Thesszalonika
+    - II. Tesszalonika
+    - II. Thessz
+    - II. Tessz
+- osis: 2Thess
+  texts:
+    - 2 Thesszalonika
+    - 2 Tessz
+    - 2Thess
+- osis: 1Thess
+  texts:
+    - 1 Thesszalonika
+    - 1 Tessz
+    - 1Thess
+- osis: 1Tim
+  texts:
+    - Első Timóteushoz
+    - Első Timóteusnak
+    - Első Timótheosz
+    - Első Timóteus
+    - Első Tim
+    - Első. Timóteushoz
+    - Első. Timóteusnak
+    - Első. Timótheosz
+    - Első. Timóteus
+    - Első. Tim
+    - 1 Timóteushoz
+    - 1 Timóteusnak
+    - 1 Timótheosz
+    - 1 Timóteus
+    - 1 Tim
+    - 1. Timóteushoz
+    - 1. Timóteusnak
+    - 1. Timótheosz
+    - 1. Timóteus
+    - 1. Tim
+    - I Timóteushoz
+    - I Timóteusnak
+    - I Timótheosz
+    - I Timóteus
+    - I Tim
+    - I. Timóteushoz
+    - I. Timóteusnak
+    - I. Timótheosz
+    - I. Timóteus
+    - I. Tim
+- osis: 2Tim
+  texts:
+    - Második Timóteushoz
+    - Második Timóteusnak
+    - Második Timótheosz
+    - Második Timóteus
+    - Második Tim
+    - Második. Timóteushoz
+    - Második. Timóteusnak
+    - Második. Timótheosz
+    - Második. Timóteus
+    - Második. Tim
+    - 2 Timóteushoz
+    - 2 Timóteusnak
+    - 2 Timótheosz
+    - 2 Timóteus
+    - 2 Tim
+    - 2. Timóteushoz
+    - 2. Timóteusnak
+    - 2. Timótheosz
+    - 2. Timóteus
+    - 2. Tim
+    - II Timóteushoz
+    - II Timóteusnak
+    - II Timótheosz
+    - II Timóteus
+    - II Tim
+    - II. Timóteushoz
+    - II. Timóteusnak
+    - II. Timótheosz
+    - II. Timóteus
+    - II. Tim
+- osis: 2Tim
+  texts:
+    - 2 Timótheosz
+    - 2 Tim
+    - 2Tim
+- osis: 1Tim
+  texts:
+    - 1 Timótheosz
+    - 1 Tim
+    - 1Tim
+- osis: Titus
+  texts:
+    - Tituszhoz
+    - Titushoz
+    - Titusz
+    - Titus
+    - Tit
+- osis: Phlm
+  texts:
+    - Philemonhoz
+    - Filemonhoz
+    - Filemon
+    - Filem
+    - Phlm
+- osis: Heb
+  texts:
+    - Zsidókhoz írt levél
+    - Héber levél
+    - Zsidókhoz
+    - Zsidók
+    - Zsid
+    - Heb
+- osis: Jas
+  texts:
+    - Jakab
+    - Jak
+    - Jas
+- osis: 1Pet
+  texts:
+    - Első Péter
+    - Első Pét
+    - Első. Péter
+    - Első. Pét
+    - 1 Péter
+    - 1 Pét
+    - 1. Péter
+    - 1. Pét
+    - I Péter
+    - I Pét
+    - I. Péter
+    - I. Pét
+- osis: 2Pet
+  texts:
+    - Második Péter
+    - Második Pét
+    - Második. Péter
+    - Második. Pét
+    - 2 Péter
+    - 2 Pét
+    - 2. Péter
+    - 2. Pét
+    - II Péter
+    - II Pét
+    - II. Péter
+    - II. Pét
+- osis: 2Pet
+  texts:
+    - 2 Péter
+    - 2 Pét
+    - 2Pet
+- osis: 1Pet
+  texts:
+    - 1 Péter
+    - 1 Pét
+    - 1Pet
+- osis: Jude
+  texts:
+    - Júdás
+    - Jude
+    - Júd
+- osis: Tob
+  texts:
+    - Tóbiás
+    - Tob
+    - Tób
+- osis: Jdt
+  texts:
+    - Judit
+    - Jdt
+- osis: Bar
+  texts:
+    - Báruk
+    - Bar
+    - Bár
+- osis: Sus
+  texts:
+    - Zsuzsanna és a vének
+    - Zsuzsanna
+    - Zsuzs
+    - Zsuz
+    - Sus
+- osis: 1Macc
+  texts:
+    - Első Makkabeusok
+    - Első Mak
+    - Első. Makkabeusok
+    - Első. Mak
+    - 1 Makkabeusok
+    - 1 Mak
+    - 1. Makkabeusok
+    - 1. Mak
+    - I Makkabeusok
+    - I Mak
+    - I. Makkabeusok
+    - I. Mak
+- osis: 2Macc
+  texts:
+    - Második Makkabeusok
+    - Második Mak
+    - Második. Makkabeusok
+    - Második. Mak
+    - 2 Makkabeusok
+    - 2 Mak
+    - 2. Makkabeusok
+    - 2. Mak
+    - II Makkabeusok
+    - II Mak
+    - II. Makkabeusok
+    - II. Mak
+- osis: 3Macc
+  texts:
+    - Harmadik Makkabeusok
+    - Harmadik Mak
+    - Harmadik. Makkabeusok
+    - Harmadik. Mak
+    - 3 Makkabeusok
+    - 3 Mak
+    - 3. Makkabeusok
+    - 3. Mak
+    - III Makkabeusok
+    - III Mak
+    - III. Makkabeusok
+    - III. Mak
+- osis: 4Macc
+  texts:
+    - 4 Makkabeusok
+    - 4 Mak
+    - 4. Makkabeusok
+    - 4. Mak
+    - IV Makkabeusok
+    - IV Mak
+    - IV. Makkabeusok
+    - IV. Mak
+- osis: 2Macc
+  texts:
+    - Makkabeusok II
+    - 2 Makkabeusok
+    - 2Macc
+    - 2 Mak
+- osis: 3Macc
+  texts:
+    - Makkabeusok III
+    - 3 Makkabeusok
+    - 3Macc
+    - 3 Mak
+- osis: 4Macc
+  texts:
+    - Makkabeusok IV
+    - 4 Makkabeusok
+    - 4Macc
+    - 4 Mak
+- osis: 1Macc
+  texts:
+    - Makkabeusok I
+    - 1 Makkabeusok
+    - 1Macc
+    - 1 Mak

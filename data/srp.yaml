@@ -1,0 +1,688 @@
+variables:
+  first: &first
+    - Прва
+    - "1"
+    - I
+  second: &second
+    - Друга
+    - "2"
+    - II
+  third: &third
+    - Трећом
+    - Трећа
+    - "3"
+    - III
+  fourth: &fourth
+    - Четврта
+    - "4"
+    - IV
+  fifth: &fifth
+    - Пета
+    - "5"
+    - V
+  ab:
+    - a
+    - а
+    - б
+  and:
+    - и
+  chapter:
+    - поглавља
+    - глава
+  verse:
+    - стихови
+    - стих
+books:
+  - osis:
+      - osis: Gen
+        before: *first
+      - osis: Exod
+        before: *second
+      - osis: Lev
+        before: *third
+      - osis: Num
+        before: *fourth
+      - osis: Deut
+        before: *fifth
+    texts:
+      - Мојсијева
+      - Мојс
+      - Мој
+  - osis: Gen
+    texts:
+      - Постање
+      - Пост
+      - Gen
+  - osis: Exod
+    texts:
+      - Егзодус
+      - Излазак
+      - Exod
+      - Изл
+  - osis: Bel
+    texts:
+      - Bel
+  - osis: Lev
+    texts:
+      - Левитска
+      - Lev
+      - Лев
+  - osis: Num
+    texts:
+      - Бројеви
+      - Num
+      - Бр
+  - osis: Sir
+    texts:
+      - Премудрости Исуса сина Сирахова
+      - Еклезијастикус
+      - Сирина
+      - Sir
+      - ИсС
+      - Сир
+  - osis: Wis
+    texts:
+      - Премудорсти Соломонове
+      - Мудрости Соломонове
+      - Мудрости
+      - Прем Сол
+      - Wis
+  - osis: Lam
+    texts:
+      - Плач Јеремијин
+      - Плач
+      - Lam
+  - osis: EpJer
+    texts:
+      - Посланица Јеремијина
+      - Писма Јеремије
+      - EpJer
+  - osis: Rev
+    texts:
+      - Откривење Јованово
+      - Откровење Јованово
+      - Откривење
+      - Rev
+      - Отк
+  - osis: PrMan
+    texts:
+      - Молитва Манасијина
+      - PrMan
+  - osis: Deut
+    texts:
+      - Поновљени закони
+      - Deut
+      - Понз
+  - osis: Josh
+    texts:
+      - Књига Исуса Навина
+      - Исус Навин
+      - Ис Нав
+      - Josh
+      - ИНав
+  - osis: Judg
+    texts:
+      - Књига о судијама
+      - Судија
+      - Судије
+      - Judg
+      - Суд
+  - osis: Ruth
+    texts:
+      - Књига о Рути
+      - Ruth
+      - Рута
+      - Рут
+  - osis:
+      - osis: 1Esd
+        before: *first
+      - osis: 2Esd
+        before: *second
+    texts:
+      - Ездрина
+  - osis: 1Esd
+    texts:
+      - 1 Јездрина
+      - 1 Јез
+      - 1Esd
+  - osis: 2Esd
+    texts:
+      - 2 Јездрина
+      - 2 Јез
+      - 2Esd
+  - osis:
+      - osis: Ezra
+      - osis: 1Esd
+        before: *first
+      - osis: 2Esd
+        before: *second
+    texts:
+      - Јездрина
+  - osis: Isa
+    texts:
+      - Књига пророка Исаије
+      - Исаија
+      - Isa
+      - Иса
+      - Ис
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Књига Самуилова
+      - Самуилова
+      - Сам
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+      - osis: 1Kgs
+        before: *third
+      - osis: 2Kgs
+        before: *fourth
+    texts:
+      - краљевима
+  - osis: 2Sam
+    texts:
+      - 2 Самуилова
+      - 2 Сам
+      - 2Sam
+  - osis: 1Sam
+    texts:
+      - 1 Самуилова
+      - 1 Сам
+      - 1Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Књига о царевима
+      - о царевима
+      - краљева
+      - Царева
+      - Цар
+  - osis:
+      - osis: 1Kgs
+        before: *third
+      - osis: 2Kgs
+        before: *fourth
+    texts:
+      - краљевства
+  - osis: 2Kgs
+    texts:
+      - 2 Царева
+      - 2 Цар
+      - 2Kgs
+  - osis: 1Kgs
+    texts:
+      - 1 Царева
+      - 1 Цар
+      - 1Kgs
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Књига дневника
+      - Паралипоменону
+      - дневника
+      - хроника
+      - Днв
+      - Дн
+  - osis: 2Chr
+    texts:
+      - 2 Дневника
+      - 2 хрон
+      - 2Chr
+      - 2 Дн
+  - osis: 1Chr
+    texts:
+      - 1 Дневника
+      - 1 хрон
+      - 1Chr
+      - 1 Дн
+  - osis: Ezra
+    texts:
+      - Јездра
+      - Езрина
+      - Ezra
+      - Језд
+      - Езр
+  - osis: Neh
+    texts:
+      - Књига Немијина
+      - Немија
+      - Neh
+      - Нем
+  - osis: GkEsth
+    texts:
+      - GkEsth
+  - osis: Esth
+    texts:
+      - Књига о Јестири
+      - Јестира
+      - Естер
+      - Esth
+      - Јест
+      - Јес
+  - osis: Job
+    texts:
+      - Књига о Јову
+      - Job
+      - Јов
+  - osis: Ps
+    texts:
+      - Псалми Давидови
+      - Псалам
+      - Псалми
+      - Ps
+      - Пс
+  - osis: PrAzar
+    texts:
+      - PrAzar
+  - osis: Prov
+    texts:
+      - Приче Соломонове
+      - Приче Соломунове
+      - Изреке
+      - Prov
+      - При
+      - Пр
+  - osis: Eccl
+    texts:
+      - Књига проповедникова
+      - Проповедник
+      - Eccl
+      - Проп
+      - Про
+  - osis: SgThree
+    texts:
+      - SgThree
+  - osis: Song
+    texts:
+      - Песма над песмама
+      - Песма Соломонова
+      - Song
+      - Пес
+      - Пнп
+  - osis: Jer
+    texts:
+      - Књига пророка Јеремије
+      - Јеремија
+      - Jer
+      - Јер
+  - osis: Ezek
+    texts:
+      - Књига пророка Језекиља
+      - Језекиљ
+      - Ezek
+      - Јез
+  - osis: Dan
+    texts:
+      - Књига пророка Данила
+      - Данило
+      - Dan
+      - Дан
+  - osis: Hos
+    texts:
+      - Књига пророка Осије
+      - Осија
+      - Хошеа
+      - Hos
+      - Ос
+  - osis: Joel
+    texts:
+      - Књига пророка Јоила
+      - Joel
+      - Јоил
+      - Јоиљ
+      - Јл
+  - osis: Amos
+    texts:
+      - Књига пророка Амоса
+      - Amos
+      - Амос
+      - Ам
+  - osis: Obad
+    texts:
+      - Књига пророка Авдије
+      - Авдија
+      - Авдије
+      - Obad
+      - Авд
+  - osis: Jonah
+    texts:
+      - Књига пророка Јоне
+      - Jonah
+      - Јона
+      - Јон
+  - osis: Mic
+    texts:
+      - Књига пророка Михеја
+      - Михеј
+      - Mic
+      - Мих
+  - osis: Nah
+    texts:
+      - Књига пророка Наума
+      - Наум
+      - Nah
+      - Нм
+  - osis: Hab
+    texts:
+      - Књига пророка Авакума
+      - Авакум
+      - Hab
+      - Ав
+  - osis: Zeph
+    texts:
+      - Књига пророка Софоније
+      - Софонија
+      - Софоније
+      - Zeph
+      - Соф
+  - osis: Hag
+    texts:
+      - Књига пророка Агеја
+      - Агеј
+      - Hag
+      - Аг
+  - osis: Zech
+    texts:
+      - Књига пророка Захарије
+      - Захарија
+      - Zech
+      - Зах
+  - osis: Mal
+    texts:
+      - Књига пророка Малахије
+      - Малахија
+      - Mal
+      - Мал
+  - osis: Matt
+    texts:
+      - Јеванђеље по Матеју
+      - Еванђеље по Матеју
+      - Матеја
+      - Матеј
+      - Matt
+      - Мт
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+      - osis: 3Macc
+        before: *third
+      - osis: 4Macc
+        before: *fourth
+    texts:
+      - Макабејаца
+      - Макавејска
+      - Макавеја
+  - osis: 2Macc
+    texts:
+      - 2 Макавеја
+      - 2Macc
+      - 2 Мк
+  - osis: 3Macc
+    texts:
+      - 3 Макавеја
+      - 3Macc
+      - 3 Мк
+  - osis: 4Macc
+    texts:
+      - 4 Макавеја
+      - 4Macc
+      - 4 Мк
+  - osis: 1Macc
+    texts:
+      - 1 Макавеја
+      - 1Macc
+      - 1 Мк
+  - osis: Mark
+    texts:
+      - Јеванђеље по Марку
+      - Еванђеље по Марку
+      - Маркo
+      - Марко
+      - Mark
+      - Мк
+  - osis: Luke
+    texts:
+      - Јеванђеље по Луки
+      - Еванђеље по Луки
+      - Luke
+      - Лукa
+      - Лука
+      - Лк
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - посланица Јованова
+      - Јованова
+  - osis: 1John
+    texts:
+      - 1 Јованова
+      - 1John
+      - 1 Јн
+  - osis: 2John
+    texts:
+      - 2 Јованова
+      - 2John
+      - 2 Јн
+  - osis: 3John
+    texts:
+      - 3 Јованова
+      - 3John
+      - 3 Јн
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Јн
+  - osis: John
+    texts:
+      - Јеванђеље по Јовану
+      - Еванђеље по Јовану
+      - Јован
+      - John
+      - Јвн
+  - osis: Acts
+    texts:
+      - Дела Апостолска
+      - Acts
+      - Дела
+      - Дап
+  - osis: Rom
+    texts:
+      - Посланица Римљанима
+      - Римљанима
+      - Rom
+      - Рим
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - посланица Коринћанима
+      - Коринћанима
+      - Кор
+  - osis: 2Cor
+    texts:
+      - 2 Коринћанима
+      - 2 Кор
+      - 2Cor
+  - osis: 1Cor
+    texts:
+      - 1 Коринћанима
+      - 1 Кор
+      - 1Cor
+  - osis: Gal
+    texts:
+      - Посланица Галаћанима
+      - Посланица Галатима
+      - Галаћанима
+      - Галатима
+      - Gal
+      - Гал
+  - osis: Eph
+    texts:
+      - Посланица Ефесцима
+      - Ефесцима
+      - Eph
+      - Еф
+  - osis: Phil
+    texts:
+      - Посланица Филипљанима
+      - Филипљанима
+      - Phil
+      - Флп
+  - osis: Col
+    texts:
+      - Посланица Колошанима
+      - Колошанима
+      - Col
+      - Кол
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - посланица Солуњанима
+      - Солуњанима
+      - Сол
+  - osis: 2Thess
+    texts:
+      - 2 Солуњанима
+      - 2Thess
+      - 2 Сол
+  - osis: 1Thess
+    texts:
+      - 1 Солуњанима
+      - 1Thess
+      - 1 Сол
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - посланица Тимотеју
+      - Тимотеју
+      - Тим
+  - osis: 2Tim
+    texts:
+      - 2 Тимотеју
+      - 2 Тим
+      - 2Tim
+  - osis: 1Tim
+    texts:
+      - 1 Тимотеју
+      - 1 Тим
+      - 1Tim
+  - osis: Titus
+    texts:
+      - Посланица Титу
+      - Titus
+      - Титу
+      - Тит
+  - osis: Phlm
+    texts:
+      - Посланица Филимону
+      - Филимону
+      - Phlm
+      - Фил
+      - Флм
+  - osis: Heb
+    texts:
+      - Посланица Јеврејима
+      - Јеврејима
+      - Heb
+      - Јев
+  - osis: Jas
+    texts:
+      - Посланица Јаковљева
+      - Јаковљева
+      - Јаковова
+      - Јаков
+      - Jas
+      - Јак
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - посланица Петрова
+      - Петрова
+      - Петр
+      - Пет
+  - osis: 2Pet
+    texts:
+      - 2 Петрова
+      - 2 Пет
+      - 2Pet
+  - osis: 1Pet
+    texts:
+      - 1 Петрова
+      - 1 Пет
+      - 1Pet
+  - osis: Jude
+    texts:
+      - Посланица Јудина
+      - Јаковљевог
+      - Јудина
+      - Jude
+      - Јуде
+      - Јуд
+      - Јд
+  - osis: Tob
+    texts:
+      - Књига Товијина
+      - Тобија
+      - Товит
+      - Tob
+      - Тов
+  - osis: Jdt
+    texts:
+      - Књига о Јудити
+      - Јудита
+      - Jdt
+  - osis: Bar
+    texts:
+      - Барух
+      - Варух
+      - Bar
+      - Вар
+  - osis: Sus
+    texts:
+      - Sus
+  - osis: AddDan
+    texts:
+      - Додаци Данилу
+      - AddDan
+  - osis: AddEsth
+    texts:
+      - Додаци Јестири
+      - AddEsth
+translations:
+  - ERV

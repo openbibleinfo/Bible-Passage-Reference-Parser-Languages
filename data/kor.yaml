@@ -1,0 +1,629 @@
+variables:
+  first:
+    - "1"
+  second:
+    - "2"
+  third:
+    - "3"
+  fourth:
+    - "4"
+  and:
+    - and
+  chapter:
+    - 장
+  to:
+    - ～
+    - "~"
+  verse:
+    - 절
+ordinals:
+  - after:
+      - 번째
+books:
+  - osis: Gen
+    texts:
+      - Gen
+      - 창세기
+      - 창세
+      - 창
+  - osis: Exod
+    texts:
+      - Exod
+      - 출애굽기
+      - 탈출기
+      - 탈출
+      - 출
+  - osis: Bel
+    texts:
+      - 벨과 뱀
+      - 벨과 용
+      - Bel
+  - osis: Num
+    texts:
+      - Num
+      - 민수기
+      - 민수
+      - 민
+  - osis: Sir
+    texts:
+      - 벤시라크의 지혜
+      - 벤시리크의 지혜
+      - 벤시라의 지혜
+      - 벤시라크 지혜
+      - 벤시라 지혜
+      - Sir
+      - 집회서
+      - 집회
+  - osis: Wis
+    texts:
+      - Wis
+      - 지혜서
+      - 지혜
+  - osis: Lam
+    texts:
+      - 예레미야 애가
+      - 예레미아애가
+      - 예레미야애가
+      - Lam
+      - 애가
+      - 애
+  - osis: EpJer
+    texts:
+      - 예레미야의 편지
+      - EpJer
+  - osis: Rev
+    texts:
+      - 요한 계시록
+      - 요한 묵시록
+      - 요한계시록
+      - 요한묵시록
+      - Rev
+      - 묵시
+      - 계
+  - osis: PrMan
+    texts:
+      - 므나쎄의 기도
+      - PrMan
+  - osis: Deut
+    texts:
+      - Deut
+      - 신명기
+      - 신명
+      - 신
+  - osis: Josh
+    texts:
+      - 여호수아기
+      - Josh
+      - 여호수아
+      - 여호
+      - 수
+  - osis: Judg
+    texts:
+      - Judg
+      - 사사기
+      - 판관기
+      - 판관
+      - 삿
+  - osis: Ruth
+    texts:
+      - Ruth
+      - 룻기
+      - 룻
+  - osis: 1Esd
+    texts:
+      - 에스드라 1서
+      - 1Esd
+  - osis: 2Esd
+    texts:
+      - 에스드라 2서
+      - 2Esd
+  - osis: Isa
+    texts:
+      - 이사야서
+      - Isa
+      - 이사야
+      - 이사
+      - 사
+  - osis: 2Sam
+    texts:
+      - 사무엘기 하권
+      - 사무엘 하
+      - 사무엘기하
+      - 2Sam
+      - 사무엘하
+      - 2사무
+      - 삼하
+  - osis: 1Sam
+    texts:
+      - 사무엘기 상권
+      - 사무엘 상
+      - 사무엘기상
+      - 1Sam
+      - 사무엘상
+      - 1사무
+      - 삼상
+  - osis: 2Kgs
+    texts:
+      - 열왕기 하권
+      - 열왕기 하
+      - 2Kgs
+      - 열왕기하
+      - 2열왕
+      - 왕하
+  - osis: 1Kgs
+    texts:
+      - 열왕기 상권
+      - 열왕기 상
+      - 1Kgs
+      - 열왕기상
+      - 1열왕
+      - 왕상
+  - osis: 2Chr
+    texts:
+      - 역대기 하권
+      - 역대기 하
+      - 2Chr
+      - 역대지하
+      - 2역대
+      - 역대하
+      - 대하
+  - osis: 1Chr
+    texts:
+      - 역대기 상권
+      - 역대기 상
+      - 1Chr
+      - 역대지상
+      - 1역대
+      - 역대상
+      - 대상
+  - osis: GkEsth
+    texts:
+      - 에스겔 추가본
+      - 에스텔 추가본
+      - GkEsth
+  - osis: Esth
+    texts:
+      - 에스테르기
+      - Esth
+      - 에스더기
+      - 에스더서
+      - 에스더
+      - 에스텔
+      - 에스
+      - 에
+  - osis: Neh
+    texts:
+      - 느헤미야기
+      - 느헤미야서
+      - 느헤미아
+      - 느헤미야
+      - Neh
+      - 느헤
+      - 느
+  - osis: Job
+    texts:
+      - Job
+      - 욥기
+      - 욥
+  - osis: Ps
+    texts:
+      - Ps
+      - 시편
+      - 시
+  - osis: PrAzar
+    texts:
+      - PrAzar
+  - osis: Prov
+    texts:
+      - Prov
+      - 잠언
+      - 잠
+  - osis: Acts
+    texts:
+      - Acts
+      - 사도행전
+      - 사도
+      - 행
+  - osis: Eccl
+    texts:
+      - Eccl
+      - 전도서
+      - 코헬렛
+      - 코헬
+      - 전
+  - osis: SgThree
+    texts:
+      - SgThree
+  - osis: Jer
+    texts:
+      - 예레미야서
+      - 예레미아
+      - 예레미야
+      - Jer
+      - 예레
+      - 렘
+  - osis: Phlm
+    texts:
+      - 필레몬에게 보낸 서간
+      - Phlm
+      - 빌레몬서
+      - 필레몬서
+      - 필레
+      - 본
+  - osis: Lev
+    texts:
+      - Lev
+      - 레위기
+      - 레위
+      - 레
+  - osis: Ezek
+    texts:
+      - 에제키엘서
+      - Ezek
+      - 에스겔서
+      - 에제키엘
+      - 에스겔
+      - 에제
+      - 겔
+  - osis: Dan
+    texts:
+      - 다니엘서
+      - Dan
+      - 다니엘
+      - 다니
+      - 단
+  - osis: Hos
+    texts:
+      - 호세아서
+      - Hos
+      - 호세아
+      - 호세
+      - 호
+  - osis: Joel
+    texts:
+      - Joel
+      - 요엘서
+      - 요엘
+      - 욜
+  - osis: Amos
+    texts:
+      - Amos
+      - 아모스서
+      - 아모스
+      - 아모
+      - 암
+  - osis: Ezra
+    texts:
+      - Ezra
+      - 에스라기
+      - 에즈라기
+      - 에스라
+      - 에즈라
+      - 에즈
+      - 스
+  - osis: Obad
+    texts:
+      - 오바드야서
+      - Obad
+      - 오바댜서
+      - 오바디야
+      - 오바댜
+      - 오바
+      - 옵
+  - osis: Jonah
+    texts:
+      - Jonah
+      - 요나서
+      - 요나
+      - 욘
+  - osis: Mic
+    texts:
+      - Mic
+      - 미가서
+      - 미카서
+      - 미가
+      - 미카
+      - 미
+  - osis: Sus
+    texts:
+      - Sus
+      - 수산나
+  - osis: Nah
+    texts:
+      - Nah
+      - 나훔서
+      - 나훔
+      - 나
+  - osis: Hab
+    texts:
+      - 하바쿡서
+      - 하박국서
+      - Hab
+      - 하바꾹
+      - 하박국
+      - 하바
+      - 합
+  - osis: Zeph
+    texts:
+      - 스바니야서
+      - Zeph
+      - 스바냐서
+      - 스바니야
+      - 스바냐
+      - 스바
+      - 습
+  - osis: Hag
+    texts:
+      - 하까이서
+      - Hag
+      - 학개서
+      - 하까
+      - 하깨
+      - 학개
+      - 학
+  - osis: Zech
+    texts:
+      - 즈카르야서
+      - Zech
+      - 스가랴서
+      - 즈가리야
+      - 스가랴
+      - 즈카
+      - 슥
+  - osis: Mal
+    texts:
+      - 말라기서
+      - 말라키서
+      - Mal
+      - 말라기
+      - 말라
+      - 말
+  - osis: Gal
+    texts:
+      - 갈라티아 신자들에게 보낸 서간
+      - 갈라디아서
+      - Gal
+      - 갈라
+      - 갈
+  - osis: Song
+    texts:
+      - 솔로몬의 노래
+      - Song
+      - 아가
+      - 아
+  - osis: Matt
+    texts:
+      - 마태오 복음서
+      - 마태오 복음
+      - 마태복음서
+      - Matt
+      - 마태복음
+      - 마태
+      - 마
+  - osis: Mark
+    texts:
+      - 마르코 복음서
+      - 마르코 복음
+      - 마가복음서
+      - Mark
+      - 마가복음
+      - 마가
+      - 마르
+      - 막
+  - osis: Luke
+    texts:
+      - 루카 복음서
+      - 누가복음서
+      - 루카 복음
+      - Luke
+      - 누가복음
+      - 누가
+      - 루카
+      - 눅
+  - osis: 1John
+    texts:
+      - 요한의 첫째 서간
+      - 1John
+      - 요한1서
+      - 요한일서
+      - 1요한
+      - 요일
+  - osis: 2John
+    texts:
+      - 요한의 둘째 서간
+      - 2John
+      - 요한2서
+      - 요한이서
+      - 2요한
+      - 요이
+  - osis: 3John
+    texts:
+      - 요한의 셋째 서간
+      - 3John
+      - 요한3서
+      - 요한삼서
+      - 3요한
+      - 요삼
+  - osis: John
+    texts:
+      - 요한 복음서
+      - 요한 복음
+      - 요한복음서
+      - John
+      - 요한복음
+      - 요한
+      - 요
+  - osis: Rom
+    texts:
+      - 로마 신자들에게 보낸 서간
+      - Rom
+      - 로마서
+      - 로마
+      - 롬
+  - osis: 2Cor
+    texts:
+      - 코린토 신자들에게 보낸 둘째 서간
+      - 고린도2서
+      - 고린도후서
+      - 코린토2서
+      - 2Cor
+      - 2코린
+      - 고후
+  - osis: 1Cor
+    texts:
+      - 코린토 신자들에게 보낸 첫째 서간
+      - 고린도1서
+      - 고린도전서
+      - 코린토1서
+      - 1Cor
+      - 1코린
+      - 고전
+  - osis: Eph
+    texts:
+      - 에페소 신자들에게 보낸 서간
+      - 에베소서
+      - 에페소서
+      - Eph
+      - 에페
+      - 엡
+  - osis: Phil
+    texts:
+      - 필리피 신자들에게 보낸 서간
+      - Phil
+      - 빌립보서
+      - 필리피서
+      - 필리
+      - 빌
+  - osis: Col
+    texts:
+      - 콜로새 신자들에게 보낸 서간
+      - 골로새서
+      - 콜로새서
+      - Col
+      - 콜로
+      - 골
+  - osis: 2Thess
+    texts:
+      - 테살로니카 신자들에게 보낸 둘째 서간
+      - 데살로니가2서
+      - 데살로니가후서
+      - 테살로니카2서
+      - 2Thess
+      - 2테살
+      - 살후
+  - osis: 1Thess
+    texts:
+      - 테살로니카 신자들에게 보낸 첫째 서간
+      - 데살로니가1서
+      - 데살로니가전서
+      - 테살로니카1서
+      - 1Thess
+      - 1테살
+      - 살전
+  - osis: 2Tim
+    texts:
+      - 티모테오에게 보낸 둘째 서간
+      - 티모테오2서
+      - 디모데2서
+      - 디모데후서
+      - 2Tim
+      - 2티모
+      - 딤후
+  - osis: 1Tim
+    texts:
+      - 티모테오에게 보낸 첫째 서간
+      - 티모테오1서
+      - 디모데1서
+      - 디모데전서
+      - 1Tim
+      - 1티모
+      - 딤전
+  - osis: Titus
+    texts:
+      - 티토에게 보낸 서간
+      - Titus
+      - 디도서
+      - 티토서
+      - 티토
+      - 딛
+  - osis: Heb
+    texts:
+      - 히브리인들에게 보낸 서간
+      - 히브리서
+      - Heb
+      - 히브
+      - 히
+  - osis: Jas
+    texts:
+      - 야고보 서간
+      - 야고보서
+      - Jas
+      - 야고
+      - 약
+  - osis: 2Pet
+    texts:
+      - 베드로의 둘째 서간
+      - 베드로2서
+      - 베드로후서
+      - 2Pet
+      - 2베드
+      - 벧후
+  - osis: 1Pet
+    texts:
+      - 베드로의 첫째 서간
+      - 베드로1서
+      - 베드로전서
+      - 1Pet
+      - 1베드
+      - 벧전
+  - osis: Jude
+    texts:
+      - 유다 서간
+      - Jude
+      - 유다서
+      - 유다
+      - 유
+  - osis: Tob
+    texts:
+      - Tob
+      - 토비트
+      - 토빗기
+      - 토빗
+  - osis: Jdt
+    texts:
+      - Jdt
+      - 유딧기
+      - 유딧
+  - osis: Bar
+    texts:
+      - Bar
+      - 바룩서
+      - 바룩
+  - osis: 2Macc
+    texts:
+      - 마카베오기 하권
+      - 2Macc
+      - 마카베오하
+      - 2마카
+  - osis: 3Macc
+    texts:
+      - 마카베오 3서
+      - 3Macc
+      - 3마카
+  - osis: 4Macc
+    texts:
+      - 마카베오 4서
+      - 4Macc
+      - 4마카
+  - osis: 1Macc
+    texts:
+      - 마카베오기 상권
+      - 1Macc
+      - 마카베오상
+      - 1마카
+  - osis: AddDan
+    texts:
+      - 다니엘 추가본
+      - AddDan
+translations:
+  - KLB

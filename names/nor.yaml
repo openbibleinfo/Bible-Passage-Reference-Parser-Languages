@@ -1,0 +1,890 @@
+- osis: Gen
+  texts:
+    - Første Mosebok
+    - Første Mos
+    - Første. Mosebok
+    - Første. Mos
+    - 1 Mosebok
+    - 1 Mos
+    - 1. Mosebok
+    - 1. Mos
+- osis: Exod
+  texts:
+    - Andre Mosebok
+    - Andre Mos
+    - Andre. Mosebok
+    - Andre. Mos
+    - 2 Mosebok
+    - 2 Mos
+    - 2. Mosebok
+    - 2. Mos
+- osis: Lev
+  texts:
+    - Tredje Mosebok
+    - Tredje Mos
+    - Tredje. Mosebok
+    - Tredje. Mos
+    - 3 Mosebok
+    - 3 Mos
+    - 3. Mosebok
+    - 3. Mos
+- osis: Num
+  texts:
+    - Fjerde Mosebok
+    - Fjerde Mos
+    - Fjerde. Mosebok
+    - Fjerde. Mos
+    - 4 Mosebok
+    - 4 Mos
+    - 4. Mosebok
+    - 4. Mos
+- osis: Deut
+  texts:
+    - Femte Mosebok
+    - Femte Mos
+    - Femte. Mosebok
+    - Femte. Mos
+    - 5 Mosebok
+    - 5 Mos
+    - 5. Mosebok
+    - 5. Mos
+- osis: Gen
+  texts:
+    - 1 Mosebok
+    - Genesis
+    - 1 Mos
+    - Gen
+- osis: Exod
+  texts:
+    - Annen Mosebok
+    - 2 Mosebok
+    - 2 Mos
+    - Exod
+- osis: Bel
+  texts:
+    - Bel og dragen i Babylon
+    - Bel og draken
+    - Bel
+- osis: Lev
+  texts:
+    - Leviticus
+    - 3 Mosebok
+    - 3 Mos
+    - Lev
+- osis: Num
+  texts:
+    - 4 Mosebok
+    - 4 Mos
+    - Num
+- osis: Sir
+  texts:
+    - Jesu Siraks sønns visdom
+    - Siraks bok
+    - Sirak
+    - Sir
+- osis: Wis
+  texts:
+    - Salomos Visdom
+    - Visdommens bok
+    - Visd
+    - Wis
+- osis: Lam
+  texts:
+    - Klagesangene
+    - Klag
+    - Lam
+- osis: EpJer
+  texts:
+    - Jeremias brev
+    - EpJer
+    - Jerbr
+- osis: Rev
+  texts:
+    - Johannes' åpenbaring
+    - Johannes’ åpenbaring
+    - Åpenbaringsboken
+    - Åpenbaringen
+    - Apenbaring
+    - Åpenbaring
+    - Rev
+    - Åp
+- osis: PrMan
+  texts:
+    - Manasses bønn
+    - PrMan
+    - Man
+- osis: Deut
+  texts:
+    - 5 Mosebok
+    - 5 Mos
+    - Deut
+- osis: Josh
+  texts:
+    - Josvas bok
+    - Josvas
+    - Josva
+    - Josh
+    - Jos
+- osis: Judg
+  texts:
+    - Dommernes bok
+    - Dommernes
+    - Dommerne
+    - Judg
+    - Dom
+- osis: Ruth
+  texts:
+    - Ruts bok
+    - Ruth
+    - Ruts
+    - Rut
+- osis: 1Esd
+  texts:
+    - Første Esdras
+    - Første. Esdras
+    - 1 Esdras
+    - 1. Esdras
+- osis: 2Esd
+  texts:
+    - Andre Esdras
+    - Andre. Esdras
+    - 2 Esdras
+    - 2. Esdras
+- osis: 1Esd
+  texts:
+    - Tredje Esra
+    - 3 Esra
+    - 1Esd
+- osis: 2Esd
+  texts:
+    - Fjerde Esra
+    - 4 Esra
+    - 2Esd
+- osis: 1Esd
+  texts:
+    - Første Esra
+    - Første. Esra
+    - 1 Esra
+    - 1. Esra
+- osis: 1Esd
+  texts:
+    - Tredje Esra
+    - Tredje. Esra
+    - 3 Esra
+    - 3. Esra
+- osis: 2Esd
+  texts:
+    - Fjerde Esra
+    - Fjerde. Esra
+    - 4 Esra
+    - 4. Esra
+- osis: 2Esd
+  texts:
+    - Andre Esra
+    - Andre. Esra
+    - 2 Esra
+    - 2. Esra
+- osis: Ezra
+  texts:
+    - Esra
+- osis: Isa
+  texts:
+    - Esaias' bok
+    - Jesajaboken
+    - Jesajas bok
+    - Jesajaboka
+    - Esaias
+    - Jesaja
+    - Isa
+    - Jes
+- osis: 1Sam
+  texts:
+    - Første Samuelsbok
+    - Første Samuel
+    - Første Sam
+    - Første. Samuelsbok
+    - Første. Samuel
+    - Første. Sam
+    - 1 Samuelsbok
+    - 1 Samuel
+    - 1 Sam
+    - 1. Samuelsbok
+    - 1. Samuel
+    - 1. Sam
+- osis: 2Sam
+  texts:
+    - Andre Samuelsbok
+    - Andre Samuel
+    - Andre Sam
+    - Andre. Samuelsbok
+    - Andre. Samuel
+    - Andre. Sam
+    - 2 Samuelsbok
+    - 2 Samuel
+    - 2 Sam
+    - 2. Samuelsbok
+    - 2. Samuel
+    - 2. Sam
+- osis: 2Sam
+  texts:
+    - 2 Samuel
+    - 2 Sam
+    - 2Sam
+- osis: 1Sam
+  texts:
+    - Første Samuels
+    - Første. Samuels
+    - 1 Samuels
+    - 1. Samuels
+- osis: 1Sam
+  texts:
+    - 1 Samuel
+    - 1 Sam
+    - 1Sam
+- osis: 1Kgs
+  texts:
+    - Første Kongebok
+    - Første Kong
+    - Første. Kongebok
+    - Første. Kong
+    - 1 Kongebok
+    - 1 Kong
+    - 1. Kongebok
+    - 1. Kong
+- osis: 2Kgs
+  texts:
+    - Andre Kongebok
+    - Andre Kong
+    - Andre. Kongebok
+    - Andre. Kong
+    - 2 Kongebok
+    - 2 Kong
+    - 2. Kongebok
+    - 2. Kong
+- osis: 2Kgs
+  texts:
+    - 2 Kongebok
+    - 2 Kong
+    - 2Kgs
+- osis: 1Kgs
+  texts:
+    - 1 Kongebok
+    - 1 Kong
+    - 1Kgs
+- osis: 1Chr
+  texts:
+    - Første Krønikebok
+    - Første Krøn
+    - Første Krø
+    - Første. Krønikebok
+    - Første. Krøn
+    - Første. Krø
+    - 1 Krønikebok
+    - 1 Krøn
+    - 1 Krø
+    - 1. Krønikebok
+    - 1. Krøn
+    - 1. Krø
+- osis: 2Chr
+  texts:
+    - Andre Krønikebok
+    - Andre Krøn
+    - Andre Krø
+    - Andre. Krønikebok
+    - Andre. Krøn
+    - Andre. Krø
+    - 2 Krønikebok
+    - 2 Krøn
+    - 2 Krø
+    - 2. Krønikebok
+    - 2. Krøn
+    - 2. Krø
+- osis: 2Chr
+  texts:
+    - 2 Krønikebok
+    - 2 Krøn
+    - 2 Krø
+    - 2Chr
+- osis: 1Chr
+  texts:
+    - 1 Krønikebok
+    - 1 Krøn
+    - 1 Krø
+    - 1Chr
+- osis: Ezra
+  texts:
+    - Esras bok
+    - Esras
+    - Ezra
+- osis: Neh
+  texts:
+    - Nehemjas bok
+    - Nehemias
+    - Nehemja
+    - Neh
+- osis: GkEsth
+  texts:
+    - Den greske Ester-boken
+    - Den greske Ester-boka
+    - GkEsth
+    - GrEst
+- osis: Esth
+  texts:
+    - Esters bok
+    - Esters
+    - Ester
+    - Esth
+    - Est
+- osis: Job
+  texts:
+    - Jobs bok
+    - Jobs
+    - Job
+- osis: Ps
+  texts:
+    - Salmenes bok
+    - Salmenes
+    - Salmene
+    - Salme
+    - Sal
+    - Ps
+- osis: PrAzar
+  texts:
+    - Asarjas bønn
+    - PrAzar
+- osis: Prov
+  texts:
+    - Salomos Ordsprog
+    - Salomos Ordspråk
+    - Ordspråkene
+    - Ordsp
+    - Prov
+- osis: Eccl
+  texts:
+    - Forkynnerens bok
+    - Predikantens bok
+    - Forkynneren
+    - Predikerens
+    - Predikeren
+    - Eccl
+    - Fork
+- osis: SgThree
+  texts:
+    - De tre mennenes sang føyer
+    - De tre menns sang
+    - SgThree
+- osis: Song
+  texts:
+    - Salomos Høisang
+    - Salomos høysang
+    - Høysangen
+    - Høys
+    - Song
+- osis: Jer
+  texts:
+    - Jeremias bok
+    - Jeremias
+    - Jeremia
+    - Jer
+- osis: Ezek
+  texts:
+    - Esekiels bok
+    - Esekiel
+    - Esek
+    - Ezek
+- osis: Dan
+  texts:
+    - Daniels bok
+    - Daniel
+    - Dan
+- osis: Hos
+  texts:
+    - Hoseas bok
+    - Hoseas
+    - Hosea
+    - Hos
+- osis: Joel
+  texts:
+    - Joels bok
+    - Joel
+- osis: Amos
+  texts:
+    - Amos' bok
+    - Amos
+    - Am
+- osis: Obad
+  texts:
+    - Obadjas bok
+    - Obadias
+    - Obadja
+    - Obad
+    - Ob
+- osis: Jonah
+  texts:
+    - Jonas bok
+    - Jonah
+    - Jonas
+    - Jona
+- osis: Mic
+  texts:
+    - Mikas bok
+    - Mika
+    - Mic
+    - Mi
+- osis: Nah
+  texts:
+    - Nahums bok
+    - Nahum
+    - Nah
+- osis: Hab
+  texts:
+    - Habakkuks bok
+    - Habakkuk
+    - Habakuk
+    - Hab
+- osis: Zeph
+  texts:
+    - Sefanjas bok
+    - Sefanias
+    - Sefanja
+    - Zeph
+    - Sef
+- osis: Hag
+  texts:
+    - Haggais bok
+    - Haggai
+    - Hag
+- osis: Zech
+  texts:
+    - Sakarjaboken
+    - Sakarjas bok
+    - Sakarias
+    - Sakarja
+    - Zech
+    - Sak
+- osis: Mal
+  texts:
+    - Malakis bok
+    - Malakias
+    - Malaki
+    - Mal
+- osis: Matt
+  texts:
+    - Evangeliet etter Matteus
+    - Matteusevangeliet
+    - Matteus
+    - Matt
+- osis: Mark
+  texts:
+    - Evangeliet etter Markus
+    - Markusevangeliet
+    - Markus
+    - Mark
+- osis: Luke
+  texts:
+    - Evangeliet etter Lukas
+    - Lukasevangeliet
+    - Lukas
+    - Luke
+    - Luk
+- osis: 1John
+  texts:
+    - Johannes’ første brev
+    - 1 Johannes
+    - 1John
+    - 1 Joh
+- osis: 2John
+  texts:
+    - Johannes’ andre brev
+    - 2 Johannes
+    - 2John
+    - 2 Joh
+- osis: 3John
+  texts:
+    - Johannes’ tredje brev
+    - 3 Johannes
+    - 3John
+    - 3 Joh
+- osis: 1John
+  texts:
+    - Første Johannes
+    - Første Joh
+    - Første. Johannes
+    - Første. Joh
+    - 1 Johannes
+    - 1 Joh
+    - 1. Johannes
+    - 1. Joh
+- osis: 2John
+  texts:
+    - Andre Johannes
+    - Andre Joh
+    - Andre. Johannes
+    - Andre. Joh
+    - 2 Johannes
+    - 2 Joh
+    - 2. Johannes
+    - 2. Joh
+- osis: 3John
+  texts:
+    - Tredje Johannes
+    - Tredje Joh
+    - Tredje. Johannes
+    - Tredje. Joh
+    - 3 Johannes
+    - 3 Joh
+    - 3. Johannes
+    - 3. Joh
+- osis: John
+  texts:
+    - Johannes
+    - Joh
+- osis: John
+  texts:
+    - Evangeliet etter Johannes
+    - Johannesevangeliet
+    - John
+- osis: Acts
+  texts:
+    - Apostlenes gjerninger
+    - Apostlenes-gjerninge
+    - Apostelgjerningene
+    - Acta
+    - Acts
+    - Apg
+    - Ac
+- osis: Rom
+  texts:
+    - Paulus’ brev til romerne
+    - Romerbrevet
+    - Romerne
+    - Rom
+- osis: 1Cor
+  texts:
+    - Første korinterbrev
+    - Første Korintierne
+    - Første Korinter
+    - Første Kor
+    - Første. korinterbrev
+    - Første. Korintierne
+    - Første. Korinter
+    - Første. Kor
+    - 1 korinterbrev
+    - 1 Korintierne
+    - 1 Korinter
+    - 1 Kor
+    - 1. korinterbrev
+    - 1. Korintierne
+    - 1. Korinter
+    - 1. Kor
+- osis: 2Cor
+  texts:
+    - Andre korinterbrev
+    - Andre Korintierne
+    - Andre Korinter
+    - Andre Kor
+    - Andre. korinterbrev
+    - Andre. Korintierne
+    - Andre. Korinter
+    - Andre. Kor
+    - 2 korinterbrev
+    - 2 Korintierne
+    - 2 Korinter
+    - 2 Kor
+    - 2. korinterbrev
+    - 2. Korintierne
+    - 2. Korinter
+    - 2. Kor
+- osis: 2Cor
+  texts:
+    - Paulus’ andre brev til korinterne
+    - 2 Korinter
+    - 2 Kor
+    - 2Cor
+- osis: 1Cor
+  texts:
+    - Paulus’ første brev til korinterne
+    - 1 Korinter
+    - 1 Kor
+    - 1Cor
+- osis: Gal
+  texts:
+    - Paulus’ brev til galaterne
+    - Galaterbrevet
+    - Galaterne
+    - Gal
+- osis: Eph
+  texts:
+    - Paulus’ brev til efeserne
+    - Efeserbrevet
+    - Efeserne
+    - Eph
+    - Ef
+- osis: Phil
+  texts:
+    - Paulus’ brev til filipperne
+    - Filipperbrevet
+    - Filippenserne
+    - Filipperne
+    - Phil
+    - Fil
+- osis: Col
+  texts:
+    - Paulus’ brev til kolosserne
+    - Kolosserbrevet
+    - Kolossenserne
+    - Kolosserne
+    - Col
+    - Kol
+- osis: 1Thess
+  texts:
+    - Første tessalonikerbrev
+    - Første Tessalonikerne
+    - Første Tessaloniker
+    - Første Tess
+    - Første. tessalonikerbrev
+    - Første. Tessalonikerne
+    - Første. Tessaloniker
+    - Første. Tess
+    - 1 tessalonikerbrev
+    - 1 Tessalonikerne
+    - 1 Tessaloniker
+    - 1 Tess
+    - 1. tessalonikerbrev
+    - 1. Tessalonikerne
+    - 1. Tessaloniker
+    - 1. Tess
+- osis: 2Thess
+  texts:
+    - Andre tessalonikerbrev
+    - Andre Tessalonikerne
+    - Andre Tessaloniker
+    - Andre Tess
+    - Andre. tessalonikerbrev
+    - Andre. Tessalonikerne
+    - Andre. Tessaloniker
+    - Andre. Tess
+    - 2 tessalonikerbrev
+    - 2 Tessalonikerne
+    - 2 Tessaloniker
+    - 2 Tess
+    - 2. tessalonikerbrev
+    - 2. Tessalonikerne
+    - 2. Tessaloniker
+    - 2. Tess
+- osis: 2Thess
+  texts:
+    - Paulus’ andre brev til tessalonikerne
+    - 2 Tessaloniker
+    - 2Thess
+    - 2 Tess
+- osis: 1Thess
+  texts:
+    - Paulus’ første brev til tessalonikerne
+    - 1 Tessaloniker
+    - 1Thess
+    - 1 Tess
+- osis: 1Tim
+  texts:
+    - Første Timoteusbrev
+    - Første Timoteus
+    - Første Tim
+    - Første. Timoteusbrev
+    - Første. Timoteus
+    - Første. Tim
+    - 1 Timoteusbrev
+    - 1 Timoteus
+    - 1 Tim
+    - 1. Timoteusbrev
+    - 1. Timoteus
+    - 1. Tim
+- osis: 2Tim
+  texts:
+    - Andre Timoteusbrev
+    - Andre Timoteus
+    - Andre Tim
+    - Andre. Timoteusbrev
+    - Andre. Timoteus
+    - Andre. Tim
+    - 2 Timoteusbrev
+    - 2 Timoteus
+    - 2 Tim
+    - 2. Timoteusbrev
+    - 2. Timoteus
+    - 2. Tim
+- osis: 2Tim
+  texts:
+    - Paulus’ andre brev til Timoteus
+    - 2 Timoteus
+    - 2 Tim
+    - 2Tim
+- osis: 1Tim
+  texts:
+    - Paulus’ første brev til Timoteus
+    - 1 Timoteus
+    - 1 Tim
+    - 1Tim
+- osis: Titus
+  texts:
+    - Paulus’ brev til Titus
+    - Brevet til Titus
+    - Titus
+    - Tit
+- osis: Phlm
+  texts:
+    - Paulus’ brev til Filemon
+    - Brevet til Filemon
+    - Filemonbrevet
+    - Filemon
+    - Filem
+    - Phlm
+- osis: Heb
+  texts:
+    - Brevet til hebreerne
+    - Hebreerbrevet
+    - Hebreerne
+    - Hebr
+    - Heb
+- osis: Jas
+  texts:
+    - Jakobs brev
+    - Jakobs
+    - Jakob
+    - Jak
+    - Jas
+- osis: 1Pet
+  texts:
+    - Første Petersbrev
+    - Første Peters
+    - Første Peter
+    - Første Pet
+    - Første. Petersbrev
+    - Første. Peters
+    - Første. Peter
+    - Første. Pet
+    - 1 Petersbrev
+    - 1 Peters
+    - 1 Peter
+    - 1 Pet
+    - 1. Petersbrev
+    - 1. Peters
+    - 1. Peter
+    - 1. Pet
+- osis: 2Pet
+  texts:
+    - Andre Petersbrev
+    - Andre Peters
+    - Andre Peter
+    - Andre Pet
+    - Andre. Petersbrev
+    - Andre. Peters
+    - Andre. Peter
+    - Andre. Pet
+    - 2 Petersbrev
+    - 2 Peters
+    - 2 Peter
+    - 2 Pet
+    - 2. Petersbrev
+    - 2. Peters
+    - 2. Peter
+    - 2. Pet
+- osis: 2Pet
+  texts:
+    - Peters andre brev
+    - 2 Peter
+    - 2 Pet
+    - 2Pet
+- osis: 1Pet
+  texts:
+    - Peters første brev
+    - 1 Peter
+    - 1 Pet
+    - 1Pet
+- osis: Jude
+  texts:
+    - Judasbrevet
+    - Judas’ brev
+    - Judas
+    - Jude
+    - Jud
+- osis: Tob
+  texts:
+    - Tobias' bok
+    - Tobits bok
+    - Tobit
+    - Tob
+- osis: Jdt
+  texts:
+    - Judits bok
+    - Judit
+    - Jdt
+- osis: Bar
+  texts:
+    - Baruks bok
+    - Baruk
+    - Bar
+- osis: Sus
+  texts:
+    - Fortellingen om Susanna
+    - Susanna
+    - Sus
+- osis: 1Macc
+  texts:
+    - Første Makkabeerbok
+    - Første Makk
+    - Første. Makkabeerbok
+    - Første. Makk
+    - 1 Makkabeerbok
+    - 1 Makk
+    - 1. Makkabeerbok
+    - 1. Makk
+- osis: 2Macc
+  texts:
+    - Andre Makkabeerbok
+    - Andre Makk
+    - Andre. Makkabeerbok
+    - Andre. Makk
+    - 2 Makkabeerbok
+    - 2 Makk
+    - 2. Makkabeerbok
+    - 2. Makk
+- osis: 3Macc
+  texts:
+    - Tredje Makkabeerbok
+    - Tredje Makk
+    - Tredje. Makkabeerbok
+    - Tredje. Makk
+    - 3 Makkabeerbok
+    - 3 Makk
+    - 3. Makkabeerbok
+    - 3. Makk
+- osis: 4Macc
+  texts:
+    - Fjerde Makkabeerbok
+    - Fjerde Makk
+    - Fjerde. Makkabeerbok
+    - Fjerde. Makk
+    - 4 Makkabeerbok
+    - 4 Makk
+    - 4. Makkabeerbok
+    - 4. Makk
+- osis: 2Macc
+  texts:
+    - Andre Makkabeerbok
+    - 2 Makk
+    - 2Macc
+- osis: 3Macc
+  texts:
+    - Tredje Makkabeerbok
+    - 3 Makk
+    - 3Macc
+- osis: 4Macc
+  texts:
+    - Fjerde Makkabeerbok
+    - 4 Makk
+    - 4Macc
+- osis: 1Macc
+  texts:
+    - Første Makkabeerbok
+    - 1 Makk
+    - 1Macc

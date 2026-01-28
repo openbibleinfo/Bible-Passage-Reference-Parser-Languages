@@ -1,0 +1,539 @@
+- osis: Gen
+  texts:
+    - Purwaning Dumadi
+    - Gen
+- osis: Exod
+  texts:
+    - Pangentasan
+    - Exod
+- osis: Bel
+  texts:
+    - Bel
+- osis: Lev
+  texts:
+    - Kaimaman
+    - Lev
+- osis: Num
+  texts:
+    - Wilangan
+    - Num
+- osis: Sir
+  texts:
+    - Kitab Yesus bin Sirakh
+    - Sirakh
+    - Sir
+- osis: Wis
+  texts:
+    - Kawicaksanan Salomo
+    - Kawicaksanan
+    - Wis
+- osis: Lam
+  texts:
+    - Kidung Pangadhuh
+    - Kidung Pasambat
+    - Lam
+- osis: EpJer
+  texts:
+    - EpJer
+- osis: Rev
+  texts:
+    - Kitab Wahyu
+    - Pamedaran
+    - Wahyu
+    - Rev
+- osis: PrMan
+  texts:
+    - PrMan
+- osis: Deut
+  texts:
+    - Pangandharing Toret
+    - Andharaning Toret
+    - Andharaning Torèt
+    - Deut
+- osis: Josh
+  texts:
+    - Yosua
+    - Yusak
+    - Josh
+- osis: Judg
+  texts:
+    - Para Hakim
+    - Judg
+- osis: Ruth
+  texts:
+    - Ruth
+    - Rut
+- osis: 1Esd
+  texts:
+    - 1Esd
+- osis: 2Esd
+  texts:
+    - 2Esd
+- osis: Isa
+  texts:
+    - Yesaya
+    - Yésaya
+    - Isa
+- osis: 1Sam
+  texts:
+    - I Samuel
+    - I. Samuel
+    - 1 Samuel
+    - 1. Samuel
+- osis: 2Sam
+  texts:
+    - II Samuel
+    - II. Samuel
+    - 2 Samuel
+    - 2. Samuel
+- osis: 2Sam
+  texts:
+    - II Samuel
+    - 2Sam
+- osis: 1Sam
+  texts:
+    - I Samuel
+    - 1Sam
+- osis: 1Kgs
+  texts:
+    - I Para Raja
+    - I. Para Raja
+    - 1 Para Raja
+    - 1. Para Raja
+- osis: 2Kgs
+  texts:
+    - II Para Raja
+    - II. Para Raja
+    - 2 Para Raja
+    - 2. Para Raja
+- osis: 2Kgs
+  texts:
+    - II Para Raja
+    - 2Kgs
+- osis: 1Kgs
+  texts:
+    - I Para Raja
+    - 1Kgs
+- osis: 1Chr
+  texts:
+    - I Babad
+    - I. Babad
+    - 1 Babad
+    - 1. Babad
+- osis: 2Chr
+  texts:
+    - II Babad
+    - II. Babad
+    - 2 Babad
+    - 2. Babad
+- osis: 2Chr
+  texts:
+    - II Babad
+    - 2Chr
+- osis: 1Chr
+  texts:
+    - I Babad
+    - 1Chr
+- osis: Ezra
+  texts:
+    - Ezra
+- osis: Neh
+  texts:
+    - Nehemia
+    - Nehemya
+    - Neh
+- osis: GkEsth
+  texts:
+    - GkEsth
+- osis: Esth
+  texts:
+    - Ester
+    - Esth
+- osis: Job
+  texts:
+    - Ayub
+    - Job
+- osis: Ps
+  texts:
+    - Masmur
+    - Jabur
+    - Zabur
+    - Ps
+- osis: PrAzar
+  texts:
+    - PrAzar
+- osis: Prov
+  texts:
+    - Wulang Bebasan
+    - Prov
+- osis: Eccl
+  texts:
+    - Juru Kotbah
+    - Kohelet
+    - Eccl
+- osis: SgThree
+  texts:
+    - SgThree
+- osis: Song
+  texts:
+    - Musthikaning Kidung
+    - Kidung Agung
+    - Song
+- osis: Jer
+  texts:
+    - Yeremia
+    - Yérémia
+    - Jer
+- osis: Ezek
+  texts:
+    - Yeheskiel
+    - Yehezkiel
+    - Yéhèzkièl
+    - Ezek
+- osis: Dan
+  texts:
+    - Dhaniel
+    - Daniel
+    - Danièl
+    - Dan
+- osis: Hos
+  texts:
+    - Hosea
+    - Hos
+- osis: Joel
+  texts:
+    - Joel
+    - Yoel
+- osis: Amos
+  texts:
+    - Amos
+- osis: Obad
+  texts:
+    - Obaja
+    - Obad
+- osis: Jonah
+  texts:
+    - Jonah
+    - Yunus
+- osis: Mic
+  texts:
+    - Mikha
+    - Mic
+- osis: Nah
+  texts:
+    - Nahum
+    - Nah
+- osis: Hab
+  texts:
+    - Habakuk
+    - Hab
+- osis: Zeph
+  texts:
+    - Zefanya
+    - Zeph
+- osis: Hag
+  texts:
+    - Hagai
+    - Hag
+- osis: Zech
+  texts:
+    - Zakharia
+    - Zech
+- osis: Mal
+  texts:
+    - Maleakhi
+    - Mal
+- osis: Matt
+  texts:
+    - Injil Matius
+    - Matius
+    - Matéus
+    - Matt
+- osis: Mark
+  texts:
+    - Injil Markus
+    - Markus
+    - Mark
+- osis: Luke
+  texts:
+    - Injil Lukas
+    - Lukas
+    - Luke
+- osis: 1John
+  texts:
+    - I Yohanes
+    - 1John
+- osis: 2John
+  texts:
+    - II Yohanes
+    - 2John
+- osis: 3John
+  texts:
+    - III Yohanes
+    - 3John
+- osis: 1John
+  texts:
+    - I Yohanes
+    - I Yokanan
+    - I. Yohanes
+    - I. Yokanan
+    - 1 Yohanes
+    - 1 Yokanan
+    - 1. Yohanes
+    - 1. Yokanan
+- osis: 2John
+  texts:
+    - II Yohanes
+    - II Yokanan
+    - II. Yohanes
+    - II. Yokanan
+    - 2 Yohanes
+    - 2 Yokanan
+    - 2. Yohanes
+    - 2. Yokanan
+- osis: 3John
+  texts:
+    - III Yohanes
+    - III Yokanan
+    - III. Yohanes
+    - III. Yokanan
+    - 3 Yohanes
+    - 3 Yokanan
+    - 3. Yohanes
+    - 3. Yokanan
+- osis: John
+  texts:
+    - Yohanes
+    - Yokanan
+- osis: John
+  texts:
+    - Injil Yohanes
+    - John
+- osis: Acts
+  texts:
+    - Lelakone Para Rasul
+    - Para Rasul
+    - Acts
+- osis: Rom
+  texts:
+    - Layang Paulus Roma
+    - Roma
+    - Rom
+    - Rum
+- osis: 1Cor
+  texts:
+    - I Korintus
+    - I Korinta
+    - I. Korintus
+    - I. Korinta
+    - 1 Korintus
+    - 1 Korinta
+    - 1. Korintus
+    - 1. Korinta
+- osis: 2Cor
+  texts:
+    - II Korintus
+    - II Korinta
+    - II. Korintus
+    - II. Korinta
+    - 2 Korintus
+    - 2 Korinta
+    - 2. Korintus
+    - 2. Korinta
+- osis: 2Cor
+  texts:
+    - II Korintus
+    - 2Cor
+- osis: 1Cor
+  texts:
+    - I Korintus
+    - 1Cor
+- osis: Gal
+  texts:
+    - Layang Paulus Galatia
+    - Galasia
+    - Galatia
+    - Galati
+    - Gal
+- osis: Eph
+  texts:
+    - Layang Paulus Efesus
+    - Efesus
+    - Efése
+    - Eph
+- osis: Phil
+  texts:
+    - Layang Paulus Filipi
+    - Filipi
+    - Phil
+- osis: Col
+  texts:
+    - Layang Paulus Kolosé
+    - Kolosé
+    - Kolose
+    - Col
+- osis: 1Thess
+  texts:
+    - I Tesalonika
+    - I Tèsalonika
+    - I. Tesalonika
+    - I. Tèsalonika
+    - 1 Tesalonika
+    - 1 Tèsalonika
+    - 1. Tesalonika
+    - 1. Tèsalonika
+- osis: 2Thess
+  texts:
+    - II Tesalonika
+    - II Tèsalonika
+    - II. Tesalonika
+    - II. Tèsalonika
+    - 2 Tesalonika
+    - 2 Tèsalonika
+    - 2. Tesalonika
+    - 2. Tèsalonika
+- osis: 2Thess
+  texts:
+    - II Tesalonika
+    - 2Thess
+- osis: 1Thess
+  texts:
+    - I Tesalonika
+    - 1Thess
+- osis: 1Tim
+  texts:
+    - I Timoteus
+    - I Timotius
+    - I. Timoteus
+    - I. Timotius
+    - 1 Timoteus
+    - 1 Timotius
+    - 1. Timoteus
+    - 1. Timotius
+- osis: 2Tim
+  texts:
+    - II Timoteus
+    - II Timotius
+    - II. Timoteus
+    - II. Timotius
+    - 2 Timoteus
+    - 2 Timotius
+    - 2. Timoteus
+    - 2. Timotius
+- osis: 2Tim
+  texts:
+    - II Timotius
+    - 2Tim
+- osis: 1Tim
+  texts:
+    - I Timotius
+    - 1Tim
+- osis: Titus
+  texts:
+    - Titus
+- osis: Phlm
+  texts:
+    - Filemon
+    - Phlm
+- osis: Heb
+  texts:
+    - Layang Ibrani
+    - Ibrani
+    - Heb
+- osis: Jas
+  texts:
+    - Layang Yakobus
+    - Yakobus
+    - Jas
+- osis: 1Pet
+  texts:
+    - I Petrus
+    - I Pétrus
+    - I. Petrus
+    - I. Pétrus
+    - 1 Petrus
+    - 1 Pétrus
+    - 1. Petrus
+    - 1. Pétrus
+- osis: 2Pet
+  texts:
+    - II Petrus
+    - II Pétrus
+    - II. Petrus
+    - II. Pétrus
+    - 2 Petrus
+    - 2 Pétrus
+    - 2. Petrus
+    - 2. Pétrus
+- osis: 2Pet
+  texts:
+    - II Petrus
+    - 2Pet
+- osis: 1Pet
+  texts:
+    - I Petrus
+    - 1Pet
+- osis: Jude
+  texts:
+    - Layang Yudas
+    - Yudas
+    - Jude
+- osis: Tob
+  texts:
+    - Tobias
+    - Tobit
+    - Tob
+- osis: Jdt
+  texts:
+    - Kitab Yudit
+    - Judith
+    - Yudit
+    - Jdt
+- osis: Bar
+  texts:
+    - Kitab Barukh
+    - Barukh
+    - Bar
+- osis: Sus
+  texts:
+    - Sus
+- osis: 1Macc
+  texts:
+    - I Makabe
+    - I. Makabe
+    - 1 Makabe
+    - 1. Makabe
+- osis: 2Macc
+  texts:
+    - II Makabe
+    - II. Makabe
+    - 2 Makabe
+    - 2. Makabe
+- osis: 3Macc
+  texts:
+    - III Makabe
+    - III. Makabe
+    - 3 Makabe
+    - 3. Makabe
+- osis: 4Macc
+  texts:
+    - IV Makabe
+    - IV. Makabe
+    - 4 Makabe
+    - 4. Makabe
+- osis: 2Macc
+  texts:
+    - II Makabe
+    - 2Macc
+- osis: 3Macc
+  texts:
+    - III Makabe
+    - 3Macc
+- osis: 4Macc
+  texts:
+    - IV Makabe
+    - 4Macc
+- osis: 1Macc
+  texts:
+    - I Makabe
+    - 1Macc

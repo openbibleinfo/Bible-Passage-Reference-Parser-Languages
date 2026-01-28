@@ -1,0 +1,67 @@
+variables:
+  first:
+    - "1"
+  second:
+    - "2"
+  third:
+    - "3"
+  fourth:
+    - "4"
+  ab:
+    - text: a
+      regexp_after: '(?!\w)'
+    - text: b
+      regexp_after: '(?!\w)'
+    - text: c
+      regexp_after: '(?!\w)'
+    - text: d
+      regexp_after: '(?!\w)'
+    - text: e
+      regexp_after: '(?!\w)'
+  and:
+    - "&"
+  chapter:
+    - chapter
+  ff:
+    - ff
+  title:
+    - title
+  to:
+    - "-"
+    - "–"
+    - "—"
+  verse:
+    - verse
+  match_end_split_control:
+    - regexp: '\x1e(?:[\s*]*[)\]\uff09])?'
+  match_end_split_final:
+    - regexp: '[\d\x1f]'
+options:
+  normalize: combining_characters
+  trailing_dots_in_variables: optional
+  expand_characters:
+    # Allow curly apostrophe variants wherever a straight apostrophe appears.
+    - character: "'"
+      expand:
+        - "'"
+        - "’"
+    # Expand Greek prime (ʹ, \u02b9) to similar characters.
+    - character: ʹ
+      expand:
+        - "'"
+        - "’"
+        - "΄"
+        - "ʹ"
+  replace_characters_with:
+    regexp: '\s'
+    replacement: "\\s*"
+  before_every_book:
+    regexp: ""
+  after_every_book:
+    regexp: ""
+  before_book_allowed_characters:
+    regexp: '[^\p{L}]'
+  after_book_allowed_characters:
+    regexp: '[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’''\*=~\-–—]'
+  join_before: " "
+  join_after: " "

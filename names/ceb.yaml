@@ -1,0 +1,619 @@
+- osis: Gen
+  texts:
+    - Genesis
+    - Henesis
+    - Gen
+    - Hen
+- osis: Exod
+  texts:
+    - Eksodo
+    - Exodus
+    - Exodo
+    - Ekso
+    - Exod
+    - Exo
+- osis: Bel
+  texts:
+    - Si Bel ug ang Dragon
+    - Bel
+- osis: Lev
+  texts:
+    - Leviticus
+    - Lebitiko
+    - Levitico
+    - Leb
+    - Lev
+- osis: Num
+  texts:
+    - Mga Numeros
+    - Mga Numero
+    - Numeros
+    - Numero
+    - Num
+- osis: Sir
+  texts:
+    - Sirac
+    - Sir
+- osis: Wis
+  texts:
+    - Kaalam ni Solomon
+    - Klm Sol
+    - Wis
+- osis: Lam
+  texts:
+    - Mga Pagbangotan
+    - Pagbangotan
+    - Lam
+    - Pag
+- osis: EpJer
+  texts:
+    - Sulat ni Jeremias
+    - Sul Jer
+    - EpJer
+- osis: Rev
+  texts:
+    - Gipadayag
+    - Gipa
+    - Rev
+- osis: PrMan
+  texts:
+    - PrMan
+- osis: Deut
+  texts:
+    - Deuteronomio
+    - Dyuteronomyo
+    - Deut
+    - Deu
+- osis: Josh
+  texts:
+    - Josue
+    - Josué
+    - Josh
+    - Jos
+- osis: Judg
+  texts:
+    - Mga Maghuhukom
+    - Maghuhukom
+    - Judg
+    - Mag
+- osis: Ruth
+  texts:
+    - Ruth
+    - Rut
+- osis: 1Esd
+  texts:
+    - 1Esd
+- osis: 2Esd
+  texts:
+    - 2Esd
+- osis: Isa
+  texts:
+    - Isaias
+    - Isaías
+    - Isa
+    - Is
+- osis: 1Sam
+  texts:
+    - 1 Samuel
+    - 1. Samuel
+- osis: 2Sam
+  texts:
+    - 2 Samuel
+    - 2. Samuel
+- osis: 2Sam
+  texts:
+    - 2 Samuel
+    - 2 Sam
+    - 2Sam
+- osis: 1Sam
+  texts:
+    - 1 Samuel
+    - 1 Sam
+    - 1Sam
+- osis: 1Kgs
+  texts:
+    - 1 Mga Hari
+    - 1 Hari
+    - 1. Mga Hari
+    - 1. Hari
+- osis: 2Kgs
+  texts:
+    - 2 Mga Hari
+    - 2 Hari
+    - 2. Mga Hari
+    - 2. Hari
+- osis: 2Kgs
+  texts:
+    - 2 Hari
+    - 2Kgs
+- osis: 1Kgs
+  texts:
+    - 1 Hari
+    - 1Kgs
+- osis: 1Chr
+  texts:
+    - 1 Mga Cronica
+    - 1 Mga Cronika
+    - 1 Mga Kronica
+    - 1 Mga Kronika
+    - 1 Cronicas
+    - 1 Cronica
+    - 1 Cronika
+    - 1 Kronica
+    - 1 Kronika
+    - 1. Mga Cronica
+    - 1. Mga Cronika
+    - 1. Mga Kronica
+    - 1. Mga Kronika
+    - 1. Cronicas
+    - 1. Cronica
+    - 1. Cronika
+    - 1. Kronica
+    - 1. Kronika
+- osis: 2Chr
+  texts:
+    - 2 Mga Cronica
+    - 2 Mga Cronika
+    - 2 Mga Kronica
+    - 2 Mga Kronika
+    - 2 Cronicas
+    - 2 Cronica
+    - 2 Cronika
+    - 2 Kronica
+    - 2 Kronika
+    - 2. Mga Cronica
+    - 2. Mga Cronika
+    - 2. Mga Kronica
+    - 2. Mga Kronika
+    - 2. Cronicas
+    - 2. Cronica
+    - 2. Cronika
+    - 2. Kronica
+    - 2. Kronika
+- osis: 2Chr
+  texts:
+    - 2 Kronika
+    - 2 Cron
+    - 2 Cro
+    - 2Chr
+- osis: 1Chr
+  texts:
+    - 1 Kronika
+    - 1 Cron
+    - 1 Cro
+    - 1Chr
+- osis: Ezra
+  texts:
+    - Esdras
+    - Ezra
+    - Esd
+    - Ezr
+- osis: Neh
+  texts:
+    - Nehemias
+    - Nehemías
+    - Neh
+- osis: GkEsth
+  texts:
+    - Ester (Grego)
+    - Est Gr
+    - GkEsth
+- osis: Esth
+  texts:
+    - Ester
+    - Esth
+    - Est
+- osis: Job
+  texts:
+    - Job
+- osis: Ps
+  texts:
+    - Mga Salmo
+    - Salmo
+    - Sal
+    - Ps
+- osis: PrAzar
+  texts:
+    - PrAzar
+- osis: Prov
+  texts:
+    - Mga Panultihon
+    - Panultihon
+    - Prov
+    - Pan
+- osis: Eccl
+  texts:
+    - Ecclesiastes
+    - Eklesyastes
+    - Magwawali
+    - Kaalam
+    - Eccl
+    - Ecc
+- osis: SgThree
+  texts:
+    - Awit sa Tulo ka Batan-ong Lalaki
+    - Awit sa 3
+    - SgThree
+- osis: Song
+  texts:
+    - Awit sa mga Awit
+    - Awit ni Solomon
+    - Awit
+    - Song
+- osis: Jer
+  texts:
+    - Jeremias
+    - Jeremías
+    - Jer
+- osis: Ezek
+  texts:
+    - Ezequiel
+    - Ezekiel
+    - Ezek
+    - Ezeq
+- osis: Dan
+  texts:
+    - Daniel
+    - Dan
+- osis: Hos
+  texts:
+    - Hosea
+    - Oseas
+    - Hos
+    - Os
+- osis: Joel
+  texts:
+    - Joel
+- osis: Amos
+  texts:
+    - Amos
+    - Amós
+- osis: Obad
+  texts:
+    - Abdias
+    - Abdías
+    - Obadia
+    - Obad
+    - Abd
+- osis: Jonah
+  texts:
+    - Jonah
+    - Jonas
+    - Jonás
+    - Jon
+- osis: Mic
+  texts:
+    - Miqueas
+    - Mika
+    - Mic
+    - Mik
+    - Miq
+- osis: Nah
+  texts:
+    - Nahum
+    - Nah
+- osis: Hab
+  texts:
+    - Habacuc
+    - Habakuk
+    - Hab
+- osis: Zeph
+  texts:
+    - Sofonias
+    - Sofonías
+    - Zefania
+    - Zeph
+    - Sof
+- osis: Hag
+  texts:
+    - Hageo
+    - Ageo
+    - Hag
+    - Ag
+- osis: Zech
+  texts:
+    - Zacarias
+    - Zacarías
+    - Zech
+    - Zac
+- osis: Mal
+  texts:
+    - Malaquías
+    - Malakias
+    - Mal
+- osis: Matt
+  texts:
+    - Sulat ni San Mateo
+    - Mateo
+    - Matt
+    - Mat
+    - Mt
+- osis: Mark
+  texts:
+    - Sulat ni San Marcos
+    - Marcos
+    - Mark
+    - Mar
+    - Mc
+    - Mk
+- osis: Luke
+  texts:
+    - Sulat ni San Lucas
+    - Lucas
+    - Luke
+    - Luc
+    - Lu
+- osis: 1John
+  texts:
+    - 1 Juan
+    - 1John
+    - 1 Jn
+- osis: 2John
+  texts:
+    - 2 Juan
+    - 2John
+    - 2 Jn
+- osis: 3John
+  texts:
+    - 3 Juan
+    - 3John
+    - 3 Jn
+- osis: 1John
+  texts:
+    - 1 Juan
+    - 1. Juan
+- osis: 2John
+  texts:
+    - 2 Juan
+    - 2. Juan
+- osis: 3John
+  texts:
+    - 3 Juan
+    - 3. Juan
+- osis: John
+  texts:
+    - Juan
+- osis: John
+  texts:
+    - Sulat ni San Juan
+    - John
+    - Jn
+- osis: Acts
+  texts:
+    - Buhat sa mga Apostoles
+    - Ang Mga Binuhatan
+    - Binuhatan
+    - Mga Buhat
+    - Acts
+    - Bin
+    - Buh
+- osis: Rom
+  texts:
+    - Mga Taga-Roma
+    - Roma
+    - Rom
+- osis: 1Cor
+  texts:
+    - 1 Mga Taga-Corinto
+    - 1 Taga-Corinto
+    - 1 Corinto
+    - 1. Mga Taga-Corinto
+    - 1. Taga-Corinto
+    - 1. Corinto
+- osis: 2Cor
+  texts:
+    - 2 Mga Taga-Corinto
+    - 2 Taga-Corinto
+    - 2 Corinto
+    - 2. Mga Taga-Corinto
+    - 2. Taga-Corinto
+    - 2. Corinto
+- osis: 2Cor
+  texts:
+    - 2 Corinto
+    - 2 Cor
+    - 2 Co
+    - 2Cor
+- osis: 1Cor
+  texts:
+    - 1 Corinto
+    - 1 Cor
+    - 1 Co
+    - 1Cor
+- osis: Gal
+  texts:
+    - Mga Taga-Galacia
+    - Taga-Galacia
+    - Galacia
+    - Gal
+- osis: Eph
+  texts:
+    - Mga Taga-Efeso
+    - Mga Taga-Éfeso
+    - Taga-Éfeso
+    - Éfeso
+    - Eph
+    - Ef
+- osis: Phil
+  texts:
+    - Mga Taga-Filipos
+    - Taga-Filipos
+    - Filipos
+    - Phil
+    - Fil
+- osis: Col
+  texts:
+    - Mga Taga-Colosas
+    - Taga-Colosas
+    - Colosas
+    - Col
+- osis: 1Thess
+  texts:
+    - 1 Mga Taga-Tesalonica
+    - 1 Mga Taga-Tesalonika
+    - 1 Mga Taga-Tesalónica
+    - 1 Mga Taga-Tesalónika
+    - 1 Taga-Tesalónica
+    - 1 Taga-Tesalónika
+    - 1 Tesalónica
+    - 1 Tesalónika
+    - 1. Mga Taga-Tesalonica
+    - 1. Mga Taga-Tesalonika
+    - 1. Mga Taga-Tesalónica
+    - 1. Mga Taga-Tesalónika
+    - 1. Taga-Tesalónica
+    - 1. Taga-Tesalónika
+    - 1. Tesalónica
+    - 1. Tesalónika
+- osis: 2Thess
+  texts:
+    - 2 Mga Taga-Tesalonica
+    - 2 Mga Taga-Tesalonika
+    - 2 Mga Taga-Tesalónica
+    - 2 Mga Taga-Tesalónika
+    - 2 Taga-Tesalónica
+    - 2 Taga-Tesalónika
+    - 2 Tesalónica
+    - 2 Tesalónika
+    - 2. Mga Taga-Tesalonica
+    - 2. Mga Taga-Tesalonika
+    - 2. Mga Taga-Tesalónica
+    - 2. Mga Taga-Tesalónika
+    - 2. Taga-Tesalónica
+    - 2. Taga-Tesalónika
+    - 2. Tesalónica
+    - 2. Tesalónika
+- osis: 2Thess
+  texts:
+    - 2 Tesalónica
+    - 2Thess
+    - 2 Tes
+- osis: 1Thess
+  texts:
+    - 1 Tesalónica
+    - 1Thess
+    - 1 Tes
+- osis: 1Tim
+  texts:
+    - 1 Kang Timoteo
+    - 1 Timoteo
+    - 1. Kang Timoteo
+    - 1. Timoteo
+- osis: 2Tim
+  texts:
+    - 2 Kang Timoteo
+    - 2 Timoteo
+    - 2. Kang Timoteo
+    - 2. Timoteo
+- osis: 2Tim
+  texts:
+    - 2 Timoteo
+    - 2 Tim
+    - 2Tim
+- osis: 1Tim
+  texts:
+    - 1 Timoteo
+    - 1 Tim
+    - 1Tim
+- osis: Titus
+  texts:
+    - Kang Tito
+    - Titus
+    - Tito
+    - Tit
+- osis: Phlm
+  texts:
+    - Kang Filemón
+    - Filemon
+    - Filemón
+    - Filem
+    - Phlm
+- osis: Heb
+  texts:
+    - Mga Hebrohanon
+    - Hebreohanon
+    - Mga Hebreo
+    - Mga Ebreo
+    - Heb
+- osis: Jas
+  texts:
+    - Santiago
+    - Jacobo
+    - Jas
+    - San
+- osis: 1Pet
+  texts:
+    - 1 Pedro
+    - 1. Pedro
+- osis: 2Pet
+  texts:
+    - 2 Pedro
+    - 2. Pedro
+- osis: 2Pet
+  texts:
+    - 2 Pedro
+    - 2 Ped
+    - 2Pet
+- osis: 1Pet
+  texts:
+    - 1 Pedro
+    - 1 Ped
+    - 1Pet
+- osis: Jude
+  texts:
+    - Judas
+    - Jude
+    - Jud
+- osis: Tob
+  texts:
+    - Tobit
+    - Tob
+- osis: Jdt
+  texts:
+    - Judit
+    - Jdt
+- osis: Bar
+  texts:
+    - Baruc
+    - Bar
+- osis: Sus
+  texts:
+    - Susana
+    - Sus
+    - Su
+- osis: 1Macc
+  texts:
+    - 1 Macabeo
+    - 1. Macabeo
+- osis: 2Macc
+  texts:
+    - 2 Macabeo
+    - 2. Macabeo
+- osis: 3Macc
+  texts:
+    - 3 Macabeo
+    - 3. Macabeo
+- osis: 4Macc
+  texts:
+    - 4 Macabeo
+    - 4. Macabeo
+- osis: 2Macc
+  texts:
+    - 2 Macabeo
+    - 2 Mac
+    - 2Macc
+- osis: 3Macc
+  texts:
+    - 3 Macabeo
+    - 3 Mac
+    - 3Macc
+- osis: 4Macc
+  texts:
+    - 4 Macabeo
+    - 4 Mac
+    - 4Macc
+- osis: 1Macc
+  texts:
+    - 1 Macabeo
+    - 1 Mac
+    - 1Macc

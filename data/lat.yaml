@@ -1,0 +1,686 @@
+variables:
+  first: &first
+    - I
+    - "1"
+  second: &second
+    - II
+    - "2"
+  third: &third
+    - III
+    - "3"
+  fourth: &fourth
+    - IV
+    - "4"
+  and:
+    - et
+  chapter:
+    - caput
+    - cap.
+    - cap
+  ff:
+    - et sequentes
+    - et seq.
+    - et seq
+  title:
+    - titulus
+  to:
+    - ad
+  verse:
+    - versus
+    - vers.
+    - vers
+    - ver.
+    - ver
+    - v.
+    - v
+books:
+  - osis: Gen
+    texts:
+      - Liber Genesis
+      - Genesis
+      - Gen
+  - osis: Exod
+    texts:
+      - Liber Exodus
+      - Exodus
+      - Exod
+      - Ex
+  - osis: Bel
+    texts:
+      - Histoia Beli et draconis
+      - Bel et draconis
+      - Bel
+  - osis: Lev
+    texts:
+      - Liber Leviticus
+      - Leviticus
+      - Lev
+  - osis: Num
+    texts:
+      - Liber Numeri
+      - Numeri
+      - Num
+  - osis: Sir
+    texts:
+      - Oratio Iesu filii Sirach
+      - Liber Ecclesiasticus
+      - Ecclesiasticus
+      - Ecclus
+      - Sirach
+      - Sir
+  - osis: Wis
+    texts:
+      - Sapientia Salomonis
+      - Liber Sapientiae
+      - Sapientia
+      - Sapient
+      - Sap
+      - Wis
+  - osis: Lam
+    texts:
+      - Lamentationes
+      - Lam
+  - osis: EpJer
+    texts:
+      - Oratio Ieremiae
+      - Or. Ier
+      - Or Ier
+      - EpJer
+  - osis: Rev
+    texts:
+      - Apocalypsis Ioannis Apostoli
+      - Apocalypsis Ioannis
+      - Apocalypsis
+      - Apoc
+      - Rev
+      - Ap
+  - osis: PrMan
+    texts:
+      - Oratio regis Manassae
+      - Oratio Manassae
+      - Or. Man
+      - Or Man
+      - PrMan
+  - osis: Deut
+    texts:
+      - Liber Deuteronomii
+      - Deuteronomium
+      - Deut
+  - osis: Josh
+    texts:
+      - Liber Iosue
+      - Iosue
+      - Josh
+      - Ios
+  - osis: Judg
+    texts:
+      - Liber Iudicum
+      - Iudicum
+      - Judg
+      - Iud
+  - osis: Ruth
+    texts:
+      - Liber Ruth
+      - Ruth
+      - Rut
+      - Ru
+  - osis: 1Esd
+    texts:
+      - Liber Esdrae I
+      - Liber I Esdrae
+      - I Esdrae
+      - I Esd
+      - 1Esd
+  - osis: 2Esd
+    texts:
+      - Liber Esdrae II
+      - Liber II Esdrae
+      - II Esdrae
+      - II Esd
+      - 2Esd
+  - osis:
+      - osis: Ezra
+      - osis: 1Esd
+        before: *first
+      - osis: 2Esd
+        before: *second
+    texts:
+      - Esdrae
+      - Esdra
+      - Esd
+  - osis: Isa
+    texts:
+      - Liber Isaiae
+      - Isaias
+      - Isa
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+      - osis: 1Kgs
+        before: *third
+      - osis: 2Kgs
+        before: *fourth
+    texts:
+      - Regnorum
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuelis
+      - Sam
+  - osis: 2Sam
+    texts:
+      - Liber II Samuelis
+      - Samuelis II
+      - II Samuelis
+      - II Sam
+      - 2Sam
+  - osis: 1Sam
+    texts:
+      - Liber I Samuelis
+      - Samuelis I
+      - I Samuelis
+      - I Sam
+      - 1Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Regum
+      - Reg
+  - osis: 2Kgs
+    texts:
+      - Liber II Regum
+      - Regum II
+      - II Regum
+      - II Reg
+      - 2Kgs
+  - osis: 1Kgs
+    texts:
+      - Liber I Regum
+      - Regum I
+      - I Regum
+      - I Reg
+      - 1Kgs
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Paralipomenon
+      - Par
+  - osis: 2Chr
+    texts:
+      - Liber II Paralipomenon
+      - Paralipomenon II
+      - II Paralipomenon
+      - II Par
+      - 2Chr
+  - osis: 1Chr
+    texts:
+      - Liber I Paralipomenon
+      - Paralipomenon I
+      - I Paralipomenon
+      - I Par
+      - 1Chr
+  - osis: Ezra
+    texts:
+      - Liber Esdrae
+      - Esdr
+      - Ezra
+  - osis: Neh
+    texts:
+      - Liber Nehemiae
+      - Nehemiae
+      - Neh
+  - osis: GkEsth
+    texts:
+      - Esther graeca
+      - Graeca Esther
+      - GkEsth
+  - osis: Esth
+    texts:
+      - Liber Esther
+      - Esther
+      - Esth
+      - Est
+  - osis: Job
+    texts:
+      - Liber Iob
+      - Iob
+      - Job
+  - osis: Ps
+    texts:
+      - Liber Psalmorum
+      - Psalmus
+      - Psalmi
+      - Psa
+      - Ps
+  - osis: PrAzar
+    texts:
+      - Oratio Azariae
+      - Or. Azar
+      - Or Azar
+      - PrAzar
+  - osis: Prov
+    texts:
+      - Liber Proverbiorum
+      - Proverbia
+      - Prov
+      - Pro
+  - osis: Eccl
+    texts:
+      - Liber Ecclesiastes
+      - Ecclesiastes
+      - Liber Qoelet
+      - Eccl
+      - Ec
+      - Qo
+  - osis: SgThree
+    texts:
+      - Hymnus trium puerorum
+      - SgThree
+  - osis: Song
+    texts:
+      - Canticum Canticorum
+      - Cant. Cantic
+      - Cant Cantic
+      - Song
+      - Can
+  - osis: Jer
+    texts:
+      - Liber Ieremiae
+      - Ieremias
+      - Ier
+      - Jer
+  - osis: Ezek
+    texts:
+      - Prophetia Ezechielis
+      - Ezechiel
+      - Ezek
+      - Eze
+  - osis: Dan
+    texts:
+      - Prophetia Danielis
+      - Daniel
+      - Dan
+  - osis: Hos
+    texts:
+      - Prophetia Osee
+      - Osee
+      - Hos
+      - Os
+  - osis: Joel
+    texts:
+      - Prophetia Ioel
+      - Ioel
+      - Joel
+  - osis: Amos
+    texts:
+      - Prophetia Amos
+      - Amos
+  - osis: Obad
+    texts:
+      - Prophetia Abdiae
+      - Abdias
+      - Obad
+      - Abd
+  - osis: Jonah
+    texts:
+      - Prophetia Ionae
+      - Ionas
+      - Jonah
+      - Iona
+  - osis: Mic
+    texts:
+      - Prophetia Michaeae
+      - Michaeas
+      - Mic
+  - osis: Nah
+    texts:
+      - Prophetia Nahum
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Prophetia Habacuc
+      - Habacuc
+      - Hab
+  - osis: Zeph
+    texts:
+      - Prophetia Sophoniae
+      - Sophonias
+      - Soph
+      - Zeph
+  - osis: Hag
+    texts:
+      - Prophetia Aggaei
+      - Aggaeus
+      - Hag
+      - Ag
+  - osis: Zech
+    texts:
+      - Prophetia Zachariae
+      - Zacharias
+      - Zech
+      - Zac
+  - osis: Mal
+    texts:
+      - Prophetia Malachiae
+      - Malachias
+      - Mal
+  - osis: Matt
+    texts:
+      - Evangelium secundum Matthaeum
+      - Matthaeus
+      - Matt
+  - osis: Mark
+    texts:
+      - Evangelium secundum Marcum
+      - Marcus
+      - Marc
+      - Mark
+      - Mc
+  - osis: Luke
+    texts:
+      - Evangelium secundum Lucam
+      - Lucas
+      - Luke
+      - Luc
+      - Lc
+      - Lu
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Ioannis
+  - osis: 1John
+    texts:
+      - Epistula I Ioannis
+      - Epistula Ioannis I
+      - Ioannis I
+      - I Ioannis
+      - 1John
+      - I In
+  - osis: 2John
+    texts:
+      - Epistula II Ioannis
+      - Epistula Ioannis II
+      - Ioannis II
+      - II Ioannis
+      - 2John
+      - II In
+  - osis: 3John
+    texts:
+      - Epistula III Ioannis
+      - Epistula Ioannis III
+      - Ioannis III
+      - III Ioannis
+      - III In
+      - 3John
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - In
+  - osis: John
+    texts:
+      - Evangelium secundum Ioannem
+      - Ioannes
+      - Ioan
+      - John
+  - osis: Acts
+    texts:
+      - Actus Apostolorum
+      - Actus
+      - Acts
+  - osis: Rom
+    texts:
+      - Epistula ad Romanos
+      - ad Romanos
+      - Romanos
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corinthios
+      - Cor
+  - osis: 2Cor
+    texts:
+      - Epistula II ad Corinthios
+      - Epistula ad Corinthios II
+      - ad Corinthios II
+      - Corinthios II
+      - II Corinthios
+      - 2Cor
+  - osis: 1Cor
+    texts:
+      - Epistula I ad Corinthios
+      - Epistula ad Corinthios I
+      - ad Corinthios I
+      - Corinthios I
+      - I Corinthios
+      - 1Cor
+  - osis: Gal
+    texts:
+      - Epistula ad Galatas
+      - ad Galatas
+      - Galatas
+      - Gal
+  - osis: Eph
+    texts:
+      - Epistula ad Ephesios
+      - ad Ephesios
+      - Ephesios
+      - Eph
+  - osis: Phil
+    texts:
+      - Epistula ad Philippenses
+      - ad Philippenses
+      - Philippenses
+      - Phil
+  - osis: Col
+    texts:
+      - Epistula ad Colossenses
+      - ad Colossenses
+      - Colossenses
+      - Col
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thessalonicenses
+      - Thess
+      - Th
+  - osis: 2Thess
+    texts:
+      - Epistula II ad Thessalonicenses
+      - Epistula ad Thessalonicenses II
+      - ad Thessalonicenses II
+      - Thessalonicenses II
+      - II Thessalonicenses
+      - 2Thess
+  - osis: 1Thess
+    texts:
+      - Epistula I ad Thessalonicenses
+      - Epistula ad Thessalonicenses I
+      - ad Thessalonicenses I
+      - Thessalonicenses I
+      - I Thessalonicenses
+      - 1Thess
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotheum
+      - Tim
+      - Ti
+      - Tm
+  - osis: 2Tim
+    texts:
+      - Epistula II ad Timotheum
+      - Epistula ad Timotheum II
+      - ad Timotheum II
+      - Timotheum II
+      - II Timotheum
+      - 2Tim
+  - osis: 1Tim
+    texts:
+      - Epistula I ad Timotheum
+      - Epistula ad Timotheum I
+      - ad Timotheum I
+      - Timotheum I
+      - I Timotheum
+      - 1Tim
+  - osis: Titus
+    texts:
+      - Epistula ad Titum
+      - ad Titum
+      - Titum
+      - Titus
+      - Tit
+  - osis: Phlm
+    texts:
+      - Epistulam ad Philemonem
+      - Epistula ad Philemonem
+      - ad Philemonem
+      - Philemonem
+      - Phlm
+      - Phmn
+  - osis: Heb
+    texts:
+      - Epistula ad Hebraeos
+      - ad Hebraeos
+      - Hebraeos
+      - Hebr
+      - Heb
+  - osis: Jas
+    texts:
+      - Epistula Iacobi
+      - Iacobi
+      - Jas
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petri
+      - Pet
+  - osis: 2Pet
+    texts:
+      - Epistula II Petri
+      - Epistula Petri II
+      - Petri II
+      - II Petri
+      - II Pet
+      - 2Pet
+  - osis: 1Pet
+    texts:
+      - Epistula I Petri
+      - Epistula Petri I
+      - Petri I
+      - I Petri
+      - I Pet
+      - 1Pet
+  - osis: Jude
+    texts:
+      - Epistula Iudae
+      - Iudae
+      - Jude
+  - osis: Tob
+    texts:
+      - Liber Thobis
+      - Liber Tobiae
+      - Tobiae
+      - Tobias
+      - Tho
+      - Tob
+  - osis: Jdt
+    texts:
+      - Liber Iudith
+      - Iudith
+      - Idt
+      - Jdt
+  - osis: Bar
+    texts:
+      - Liber Baruch
+      - Baruch
+      - Bar
+  - osis: Sus
+    texts:
+      - Historia Susannae
+      - Susannae
+      - Susanna
+      - Sus
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+      - osis: 3Macc
+        before: *third
+      - osis: 4Macc
+        before: *fourth
+    texts:
+      - Machabaeorum
+      - Macabaeorum
+      - Mac
+  - osis: 2Macc
+    texts:
+      - Liber II Maccabaeorum
+      - Liber Maccabaeorum II
+      - Machabaeorum II
+      - II Macabaeorum
+      - II Mac
+      - 2Macc
+  - osis: 3Macc
+    texts:
+      - Liber III Maccabaeorum
+      - Liber Maccabaeorum III
+      - Machabaeorum III
+      - III Macabaeorum
+      - III Mac
+      - 3Macc
+  - osis: 4Macc
+    texts:
+      - Liber IV Maccabaeorum
+      - Liber Maccabaeorum IV
+      - Machabaeorum IV
+      - IV Macabaeorum
+      - IV Mac
+      - 4Macc
+  - osis: 1Macc
+    texts:
+      - Liber I Maccabaeorum
+      - Liber Maccabaeorum I
+      - Machabaeorum I
+      - I Macabaeorum
+      - 1Macc
+      - I Mac
+translations:
+  - VULG
+  - VG

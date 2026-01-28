@@ -1,0 +1,674 @@
+variables:
+  first: &first
+    - Eerste
+    - 1e
+    - I
+    - "1"
+  second: &second
+    - Tweede
+    - 2e
+    - II
+    - "2"
+  third: &third
+    - Derde
+    - 3e
+    - III
+    - "3"
+  fourth: &fourth
+    - Vierde
+    - IV
+    - "4"
+  fifth: &fifth
+    - Vijfde
+    - V
+    - "5"
+  and:
+    - text: en
+      regexp_after: (?! volgende verzen)
+    - vgl
+    - zie ook
+  chapter:
+    - hoofdstukken
+    - hoofdstuk
+  ff:
+    - en volgende verzen
+  title:
+    - opschrift
+  verse:
+    - verzen
+    - vers
+    - vs.
+    - vs
+    - text: v.
+      regexp_after: (?!\p{L})
+ordinals:
+  - after:
+      - e
+  - between:
+      regexp: \s*
+    texts:
+      - Psalm
+books:
+  - osis:
+      - osis: Gen
+        before: *first
+      - osis: Exod
+        before: *second
+      - osis: Lev
+        before: *third
+      - osis: Num
+        before: *fourth
+      - osis: Deut
+        before: *fifth
+    texts:
+      - Mozes
+  - osis: Gen
+    texts:
+      - Beresjiet
+      - Genesis
+      - Gen
+      - Gn
+  - osis: Exod
+    texts:
+      - Exodus
+      - Sjemot
+      - Exod
+      - Ex
+  - osis: Bel
+    texts:
+      - Bel en de draak
+      - Bel
+  - osis: Lev
+    texts:
+      - Leviticus
+      - Vajikra
+      - Wajikra
+      - Lev
+      - Lv
+  - osis: Num
+    texts:
+      - Bamidbar
+      - Bemidbar
+      - Numberi
+      - Numeri
+      - Num
+      - Nu
+  - osis: Sir
+    texts:
+      - Wijsheid van Jozua Ben Sirach
+      - Wijsheid van Jezus Sirach
+      - Wijsheid van Ben Sirach
+      - Ecclesiasticus
+      - Jezus Sirach
+      - Sirach
+      - Sir
+  - osis: Wis
+    texts:
+      - De wijsheid van Salomo
+      - Het boek der wijsheid
+      - Wijsheid van Salomo
+      - Wijsheid
+      - Wis
+  - osis: Lam
+    texts:
+      - Klaagliederen
+      - Klaagl
+      - Lam
+      - Kl
+  - osis: EpJer
+    texts:
+      - Brief van Jeremia
+      - EpJer
+  - osis: Rev
+    texts:
+      - Openbaring van Johannes
+      - Openbaringen
+      - Openbaring
+      - Apocalyps
+      - Openb
+      - Apc
+      - Apk
+      - Rev
+      - Op
+  - osis: PrMan
+    texts:
+      - Manasse
+      - PrMan
+      - Man
+  - osis: Deut
+    texts:
+      - Deuteronomium
+      - Dewariem
+      - Deut
+      - Dt
+  - osis: Josh
+    texts:
+      - Jozua
+      - Josh
+      - Joz
+  - osis: Judg
+    texts:
+      - Richteren
+      - Rechters
+      - Richtere
+      - Recht
+      - Richt
+      - Judg
+      - Re
+      - Ri
+  - osis: Ruth
+    texts:
+      - Ruth
+      - Rt
+  - osis:
+      - osis: 1Esd
+        before: *first
+      - osis: 1Esd
+        before: *third
+      - osis: 2Esd
+        before: *fourth
+      - osis: 2Esd
+        before: *second
+    texts:
+      - Esdras
+  - osis: 1Esd
+    texts:
+      - 1 Esdras
+      - 1Esd
+  - osis: 2Esd
+    texts:
+      - 2 Esdras
+      - 2Esd
+  - osis:
+      - osis: Ezra
+      - osis: 1Esd
+        before: *first
+      - osis: 1Esd
+        before: *third
+      - osis: 2Esd
+        before: *fourth
+      - osis: 2Esd
+        before: *second
+    texts:
+      - Ezra
+  - osis: Isa
+    texts:
+      - Jesaja
+      - Isa
+      - Jes
+      - Js
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuël
+      - Sam
+  - osis: 2Sam
+    texts:
+      - Samuel II
+      - 2 Samuel
+      - 2 Sam
+      - 2Sam
+      - 2 S
+  - osis: 1Sam
+    texts:
+      - Samuel I
+      - 1 Samuel
+      - 1 Sam
+      - 1Sam
+      - 1 S
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Koningen
+      - Kon
+      - Ko
+  - osis: 2Kgs
+    texts:
+      - 2 Koningen
+      - 2 Kon
+      - 2Kgs
+      - 2 Ko
+  - osis: 1Kgs
+    texts:
+      - 1 Koningen
+      - 1 Kon
+      - 1Kgs
+      - 1 Ko
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Kronieken
+      - Kron
+  - osis: 2Chr
+    texts:
+      - 2 Kronieken
+      - 2 Kron
+      - 2 Kr
+      - 2Chr
+  - osis: 1Chr
+    texts:
+      - 1 Kronieken
+      - 1 Kron
+      - 1 Kr
+      - 1Chr
+  - osis: Ezra
+    texts:
+      - Ezr
+  - osis: Neh
+    texts:
+      - Nehemia
+      - Neh
+  - osis: GkEsth
+    texts:
+      - Ester (Grieks)
+      - Ester (Gr.)
+      - Ester (Gr)
+      - Est gr
+      - GkEsth
+  - osis: Esth
+    texts:
+      - Esther
+      - Ester
+      - Esth
+      - Est
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Psalmen
+      - Psalm
+      - Ps
+  - osis: PrAzar
+    texts:
+      - Gebed van Azarja
+      - PrAzar
+  - osis: Prov
+    texts:
+      - Spreuken
+      - Prov
+      - Spr
+  - osis: Eccl
+    texts:
+      - Prediker
+      - Koheleth
+      - Qoheleth
+      - Kohelet
+      - Qohelet
+      - Eccl
+      - Pred
+      - Pr
+  - osis: SgThree
+    texts:
+      - Gezang der drie mannen in het vuur
+      - Lied van de drie jongemannen
+      - SgThree
+  - osis: Song
+    texts:
+      - Canticum canticorum
+      - Hooglied
+      - Hoogl
+      - Song
+      - Hl
+  - osis: Jer
+    texts:
+      - Jeremia
+      - Jer
+      - Jr
+  - osis: Ezek
+    texts:
+      - Ezechiël
+      - Ezech
+      - Ezek
+  - osis: Dan
+    texts:
+      - Daniël
+      - Dan
+      - Da
+  - osis: Hos
+    texts:
+      - Hosea
+      - Hos
+  - osis: Joel
+    texts:
+      - Joel
+      - Joël
+      - Jl
+  - osis: Amos
+    texts:
+      - Amos
+      - Am
+  - osis: Obad
+    texts:
+      - Obadja
+      - Obad
+      - Ob
+  - osis: Jonah
+    texts:
+      - Jonah
+      - Jona
+      - Jon
+  - osis: Mic
+    texts:
+      - Micha
+      - Mica
+      - Mic
+      - Mi
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sefanja
+      - Zefanja
+      - Zeph
+      - Sef
+      - Zef
+  - osis: Hag
+    texts:
+      - Haggaï
+      - Haggai
+      - Hagg
+      - Hag
+  - osis: Zech
+    texts:
+      - Zacharia
+      - Zach
+      - Zech
+  - osis: Mal
+    texts:
+      - Maleachi
+      - Mal
+  - osis: Matt
+    texts:
+      - Evangelie volgens Matteüs
+      - Mattheüs
+      - Matthéüs
+      - Matteüs
+      - Matth
+      - Matt
+      - Mat
+      - Mt
+  - osis: Mark
+    texts:
+      - Evangelie volgens Marcus
+      - Evangelie volgens Markus
+      - Marcus
+      - Markus
+      - Marc
+      - Mark
+      - Mc
+      - Mk
+      - Mr
+  - osis: Luke
+    texts:
+      - Evangelie volgens Lucas
+      - Evangelie volgens Lukas
+      - Lucas
+      - Lukas
+      - Luke
+      - Luc
+      - Luk
+      - Lc
+      - Lk
+  - osis: 1John
+    texts:
+      - 1 Johannes
+      - 1John
+      - 1 Joh
+  - osis: 2John
+    texts:
+      - 2 Johannes
+      - 2John
+      - 2 Joh
+  - osis: 3John
+    texts:
+      - 3 Johannes
+      - 3John
+      - 3 Joh
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Johannes
+      - Joh
+  - osis: John
+    texts:
+      - Evangelie volgens Johannes
+      - John
+  - osis: Acts
+    texts:
+      - Handelingen van de apostelen
+      - Handelingen der apostelen
+      - Handelingen
+      - Acts
+      - Hand
+      - Hnd
+  - osis: Rom
+    texts:
+      - Romeinenbrief
+      - Romeinen
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corinthiërs
+      - Korinthiërs
+      - Corintiërs
+      - Corinthiër
+      - Korintiërs
+      - Korinthiër
+      - Corintiër
+      - Korintiër
+      - Corinthe
+      - Korinthe
+      - Kor
+  - osis: 2Cor
+    texts:
+      - 2 Korinthiërs
+      - 2 Kor
+      - 2Cor
+  - osis: 1Cor
+    texts:
+      - 1 Korinthiërs
+      - 1 Kor
+      - 1Cor
+  - osis: Gal
+    texts:
+      - Galatenbrief
+      - Galaten
+      - Gal
+  - osis: Eph
+    texts:
+      - Efeziërs
+      - Efez
+      - Eph
+      - Ef
+  - osis: Phil
+    texts:
+      - Filippenzen
+      - Filip
+      - Phil
+      - Fil
+  - osis: Col
+    texts:
+      - Colossenzen
+      - Kolossenzen
+      - Col
+      - Kol
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thessalonicenzen
+      - Tessalonicenzen
+      - Thess
+      - Tess
+      - Tes
+  - osis: 2Thess
+    texts:
+      - 2 Tessalonicenzen
+      - 2 Thes
+      - 2Thess
+      - 2 Tes
+  - osis: 1Thess
+    texts:
+      - 1 Tessalonicenzen
+      - 1 Thes
+      - 1Thess
+      - 1 Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotheüs
+      - Timoteüs
+      - Tim
+  - osis: 2Tim
+    texts:
+      - 2 Timoteüs
+      - 2 Tim
+      - 2Tim
+  - osis: 1Tim
+    texts:
+      - 1 Timoteüs
+      - 1 Tim
+      - 1Tim
+  - osis: Titus
+    texts:
+      - Titus
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filémon
+      - Filemon
+      - Filem
+      - Film
+      - Phlm
+  - osis: Heb
+    texts:
+      - Hebreeën
+      - Hebr
+      - Heb
+  - osis: Jas
+    texts:
+      - Jacobus
+      - Jakobus
+      - Jak
+      - Jas
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petrus
+      - Petr
+      - Pet
+  - osis: 2Pet
+    texts:
+      - 2 Petrus
+      - 2 Petr
+      - 2 Pe
+      - 2Pet
+  - osis: 1Pet
+    texts:
+      - 1 Petrus
+      - 1 Petr
+      - 1 Pe
+      - 1Pet
+  - osis: Jude
+    texts:
+      - Judas
+      - Jude
+      - Jud
+  - osis: Tob
+    texts:
+      - Tobías
+      - Tobit
+      - Tobía
+      - Tob
+  - osis: Jdt
+    texts:
+      - Judith
+      - Judit
+      - Jdt
+  - osis: Bar
+    texts:
+      - Baruch
+      - Bar
+  - osis: Sus
+    texts:
+      - Susanna
+      - Sus
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+      - osis: 3Macc
+        before: *third
+      - osis: 4Macc
+        before: *fourth
+    texts:
+      - Makkabeeën
+      - Mak
+  - osis: 2Macc
+    texts:
+      - 2 Makkabeeën
+      - 2Macc
+      - 2 Mak
+  - osis: 3Macc
+    texts:
+      - 3 Makkabeeën
+      - 3Macc
+      - 3 Mak
+  - osis: 4Macc
+    texts:
+      - 4 Makkabeeën
+      - 4Macc
+      - 4 Mak
+  - osis: 1Macc
+    texts:
+      - 1 Makkabeeën
+      - 1Macc
+      - 1 Mak
+  - osis:
+      - Ezek
+      - Ezra
+    texts:
+      - Ez
+translations:
+  - GNB96
+  - NBG51
+  - NBV
+  - SV
+  - SV77
+  - WV95
+  - NB

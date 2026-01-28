@@ -1,0 +1,716 @@
+variables:
+  first: &first
+    - 1я
+    - 1-я
+    - 1е
+    - 1-е
+    - "1"
+  second: &second
+    - 2я
+    - 2-я
+    - 2е
+    - 2-е
+    - "2"
+  third: &third
+    - 3я
+    - 3-я
+    - 3е
+    - 3-е
+    - "3"
+  fourth: &fourth
+    - 4я
+    - 4-я
+    - 4е
+    - 4-е
+    - "4"
+  ab:
+    - а
+    - б
+  and:
+    - и
+  chapter:
+    - главы
+    - глав
+    - гл.
+    - гл
+  ff:
+    - и далее
+  title:
+    - надписаниях
+  to:
+    - —
+  verse:
+    - стихи
+    - стих
+books:
+  - osis: Gen
+    texts:
+      - Книга Бытия
+      - Начало
+      - Бытие
+      - Gen
+      - Быт
+      - Нач
+  - osis: Exod
+    texts:
+      - Книга Исход
+      - Исход
+      - Exod
+      - Исх
+  - osis: Bel
+    texts:
+      - Виле и драконе
+      - Бел и Дракон
+      - Беле
+      - Bel
+      - Бел
+  - osis: Lev
+    texts:
+      - Книга Левит
+      - Левит
+      - Lev
+      - Лев
+  - osis: Num
+    texts:
+      - Книга Чисел
+      - Числа
+      - Num
+      - Чис
+  - osis: Sir
+    texts:
+      - Премудрости Иисуса, сына Сирахова
+      - Премудрость Сираха
+      - Ekkleziastik
+      - Сирахова
+      - Sir
+      - Сир
+  - osis: Wis
+    texts:
+      - Премудрости Соломона
+      - Прем
+      - Wis
+  - osis: Lam
+    texts:
+      - Плач Иеремии
+      - Плач
+      - Lam
+  - osis: EpJer
+    texts:
+      - Послание Иеремии
+      - EpJer
+  - osis: Rev
+    texts:
+      - Откровение
+      - Откр
+      - Rev
+      - Отк
+  - osis: PrMan
+    texts:
+      - Молитва Манассии
+      - PrMan
+  - osis: Deut
+    texts:
+      - Второзаконие
+      - Deut
+      - Втор
+  - osis: Josh
+    texts:
+      - Книга Иисуса Навина
+      - Иисуса Навина
+      - Иисус Навин
+      - Иешуа
+      - Навин
+      - Josh
+      - Иеш
+      - Нав
+  - osis: Judg
+    texts:
+      - Книга Судей Израилевых
+      - Книга Судей
+      - Судей
+      - Судьи
+      - Judg
+      - Суд
+  - osis: Ruth
+    texts:
+      - Книга Руфи
+      - Ruth
+      - Руфь
+      - Рут
+      - Руф
+  - osis: 1Esd
+    texts:
+      - 2 Ездры
+      - 2 Езд
+      - 1Esd
+  - osis: 2Esd
+    texts:
+      - 3 Ездры
+      - 3 Езд
+      - 2Esd
+  - osis:
+      - osis: Ezra
+      - osis: 1Esd
+        before: *second
+      - osis: 2Esd
+        before: *third
+    texts:
+      - Ездры
+  - osis: Isa
+    texts:
+      - Книга пророка Исаии
+      - Исаии
+      - Исаия
+      - Исаи
+      - Isa
+      - Ис
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+      - osis: 1Kgs
+        before: *third
+      - osis: 2Kgs
+        before: *fourth
+    texts:
+      - Книга Царств
+      - Царств
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Самуила
+  - osis: 2Sam
+    texts:
+      - 2 Самуила
+      - 2 Цар
+      - 2Sam
+  - osis: 1Sam
+    texts:
+      - 1 Самуила
+      - 1 Цар
+      - 1Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Царей
+  - osis: 2Kgs
+    texts:
+      - 2 Царей
+      - 4 Цар
+      - 2Kgs
+  - osis: 1Kgs
+    texts:
+      - 1 Царей
+      - 3 Цар
+      - 1Kgs
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Книга Паралипоменон
+      - Паралипоменон
+      - Летопись
+      - Хроник
+  - osis: 2Chr
+    texts:
+      - 2 Хроник
+      - 2 Лет
+      - 2 Пар
+      - 2Chr
+  - osis: 1Chr
+    texts:
+      - 1 Хроник
+      - 1 Лет
+      - 1 Пар
+      - 1Chr
+  - osis: Ezra
+    texts:
+      - Первая Ездры
+      - Книга Ездры
+      - 1 Езд
+      - Ездра
+      - Узайр
+      - Ezra
+      - Езд
+  - osis: Neh
+    texts:
+      - Книга Неемии
+      - Неемии
+      - Неемия
+      - Неем
+      - Neh
+  - osis:
+      - osis: GkEsth
+      - osis: AddEsth
+    texts:
+      - Дополнения к Есфири
+  - osis: GkEsth
+    texts:
+      - GkEsth
+  - osis: Esth
+    texts:
+      - Книга Есфири
+      - Есфирь
+      - Esth
+      - Есф
+  - osis: Job
+    texts:
+      - Книга Иова
+      - Иова
+      - Job
+      - Аюб
+      - Иов
+  - osis: Ps
+    texts:
+      - Псалтирь
+      - Псалмы
+      - Псалом
+      - Забур
+      - Псал
+      - Заб
+      - Ps
+      - Пс
+  - osis: PrAzar
+    texts:
+      - Молитва Азария
+      - PrAzar
+  - osis: Prov
+    texts:
+      - Книга притчей Соломоновых
+      - Мудрые изречения
+      - Притчи
+      - Prov
+      - Мудр
+      - Прит
+      - Пр
+  - osis: Eccl
+    texts:
+      - Книга Екклесиаста
+      - Размышления
+      - Екклесиаст
+      - Eccl
+      - Разм
+      - Екк
+  - osis: SgThree
+    texts:
+      - Благодарственная песнь отроков
+      - Молитва святых трех отроков
+      - Песнь трёх отроков
+      - SgThree
+  - osis: Song
+    texts:
+      - Песнь песней Соломона
+      - Песнь Сулаймона
+      - Песнь Сулеймана
+      - Песни Песней
+      - Песнь
+      - Song
+      - Песн
+  - osis: Jer
+    texts:
+      - Книга пророка Иеремии
+      - Иеремии
+      - Иеремия
+      - Jer
+      - Иер
+  - osis: Ezek
+    texts:
+      - Книга пророка Иезекииля
+      - Иезекииль
+      - Иезекииля
+      - Езекиил
+      - Ezek
+      - Езек
+      - Иез
+  - osis: Dan
+    texts:
+      - Книга пророка Даниила
+      - Даниила
+      - Даниил
+      - Даниял
+      - Дониёл
+      - Dan
+      - Дан
+      - Дон
+  - osis: Hos
+    texts:
+      - Книга пророка Осии
+      - Осии
+      - Осия
+      - Hos
+      - Ос
+  - osis: Joel
+    texts:
+      - Книга пророка Иоиля
+      - Иоиль
+      - Иоиля
+      - Joel
+      - Иоил
+  - osis: Amos
+    texts:
+      - Книга пророка Амоса
+      - Амоса
+      - Amos
+      - Амос
+      - Ам
+  - osis: Obad
+    texts:
+      - Книга пророка Авдия
+      - Авдий
+      - Авдия
+      - Obad
+      - Авд
+  - osis: Jonah
+    texts:
+      - Книга пророка Ионы
+      - Jonah
+      - Иона
+      - Ионы
+      - Юнус
+  - osis: Mic
+    texts:
+      - Книга пророка Михея
+      - Михей
+      - Михея
+      - Mic
+      - Мих
+  - osis: Nah
+    texts:
+      - Книга пророка Наума
+      - Наума
+      - Наум
+      - Nah
+  - osis: Hab
+    texts:
+      - Книга пророка Аввакума
+      - Аввакума
+      - Аввакум
+      - Hab
+      - Авв
+  - osis: Zeph
+    texts:
+      - Книга пророка Софонии
+      - Софонии
+      - Софония
+      - Zeph
+      - Соф
+  - osis: Hag
+    texts:
+      - Книга пророка Аггея
+      - Аггей
+      - Аггея
+      - Hag
+      - Агг
+  - osis: Zech
+    texts:
+      - Книга пророка Захарии
+      - Закария
+      - Захарии
+      - Захария
+      - Zech
+      - Зак
+      - Зах
+  - osis: Mal
+    texts:
+      - Книга пророка Малахии
+      - Малахии
+      - Малахия
+      - Mal
+      - Мал
+  - osis: Matt
+    texts:
+      - Евангелие от Матфея
+      - От Матфея
+      - Матфея
+      - Матай
+      - Матто
+      - Matt
+      - Мат
+      - Мт
+      - Мф
+  - osis: Mark
+    texts:
+      - Евангелие от Марка
+      - От Марка
+      - Марка
+      - Mark
+      - Марк
+      - Мк
+      - Мр
+  - osis: Luke
+    texts:
+      - Евангелие от Луки
+      - От Луки
+      - Luke
+      - Лука
+      - Луки
+      - Луко
+      - Лк
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - послание Иоанна
+      - Иохана
+  - osis: 1John
+    texts:
+      - 1 Иоанна
+      - 1John
+      - 1 Ин
+  - osis: 2John
+    texts:
+      - 2 Иоанна
+      - 2John
+      - 2 Ин
+  - osis: 3John
+    texts:
+      - 3 Иоанна
+      - 3John
+      - 3 Ин
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Иоанна
+  - osis: John
+    texts:
+      - Евангелие от Иоанна
+      - От Иоанна
+      - Иохан
+      - John
+      - Ин
+  - osis: Acts
+    texts:
+      - Деяния
+      - Acts
+      - Деян
+  - osis: Rom
+    texts:
+      - Послание к Римлянам
+      - К Римлянам
+      - Римлянам
+      - Rom
+      - Рим
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - к Коринфянам
+      - Коринфянам
+  - osis: 2Cor
+    texts:
+      - 2 Коринфянам
+      - 2 Кор
+      - 2Cor
+  - osis: 1Cor
+    texts:
+      - 1 Коринфянам
+      - 1 Кор
+      - 1Cor
+  - osis: Gal
+    texts:
+      - Послание к Галатам
+      - К Галатам
+      - Галатам
+      - Gal
+      - Гал
+  - osis: Eph
+    texts:
+      - Послание к Ефесянам
+      - К Ефесянам
+      - Ефесянам
+      - Эфесянам
+      - Eph
+      - Еф
+      - Эф
+  - osis: Phil
+    texts:
+      - Послание к Филиппийцам
+      - К Филиппийцам
+      - Филиппийцам
+      - Phil
+      - Фил
+      - Флп
+  - osis: Col
+    texts:
+      - Послание к Колоссянам
+      - К Колоссянам
+      - Колоссянам
+      - Col
+      - Кол
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - к Фессалоникийцам
+      - Фессалоникийцам
+  - osis: 2Thess
+    texts:
+      - 2 Фессалоникийцам
+      - 2Thess
+      - 2 Фес
+  - osis: 1Thess
+    texts:
+      - 1 Фессалоникийцам
+      - 1Thess
+      - 1 Фес
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - к Тимофею
+      - Тиметею
+      - Тимофею
+  - osis: 2Tim
+    texts:
+      - 2 Тимофею
+      - 2 Тим
+      - 2Tim
+  - osis: 1Tim
+    texts:
+      - 1 Тимофею
+      - 1 Тим
+      - 1Tim
+  - osis: Titus
+    texts:
+      - Послание к Титу
+      - К Титу
+      - Titus
+      - Титу
+      - Тит
+  - osis: Phlm
+    texts:
+      - Послание к Филимону
+      - К Филимону
+      - Филимону
+      - Phlm
+      - Флм
+  - osis: Heb
+    texts:
+      - Послание к Евреям
+      - К Евреям
+      - Евреям
+      - Heb
+      - Евр
+  - osis: Jas
+    texts:
+      - Послание Иакова
+      - Иакова
+      - Якуб
+      - Jas
+      - Иак
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - послание Петра
+      - Петруса
+      - Петира
+      - Петра
+  - osis: 2Pet
+    texts:
+      - 2 Петра
+      - 2 Пет
+      - 2Pet
+  - osis: 1Pet
+    texts:
+      - 1 Петра
+      - 1 Пет
+      - 1Pet
+  - osis: Jude
+    texts:
+      - Послание Иуды
+      - Jude
+      - Иуда
+      - Иуды
+      - Иуд
+  - osis: Tob
+    texts:
+      - Товита
+      - Tob
+      - Тов
+  - osis: Jdt
+    texts:
+      - Юдифь
+      - Jdt
+      - Юди
+  - osis: Bar
+    texts:
+      - Книга пророка Вару́ха
+      - Книга Варуха
+      - Бару́ха
+      - Варуха
+      - Bar
+      - Вар
+  - osis: Sus
+    texts:
+      - Сказанию о Сусанне и Данииле
+      - Сусанна и старцы
+      - Сусанна
+      - Sus
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+      - osis: 3Macc
+        before: *third
+      - osis: 4Macc
+        before: *fourth
+    texts:
+      - Маккавеев
+  - osis: 2Macc
+    texts:
+      - Вторая книга Маккавейская
+      - 2 Маккавеев
+      - 2 Макк
+      - 2Macc
+  - osis: 3Macc
+    texts:
+      - Третья книга Маккавейская
+      - 3 Маккавеев
+      - 3 Макк
+      - 3Macc
+  - osis: 4Macc
+    texts:
+      - 4 Маккавеев
+      - 4 Макк
+      - 4Macc
+  - osis: 1Macc
+    texts:
+      - Первая книга Маккавейская
+      - 1 Маккавеев
+      - 1 Макк
+      - 1Macc
+  - osis: AddEsth
+    texts:
+      - AddEsth
+translations:
+  - RUSV
+  - SZ

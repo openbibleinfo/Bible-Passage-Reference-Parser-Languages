@@ -1,0 +1,473 @@
+variables:
+  first: &first
+    - 1 i
+    - 1 e
+    - "1"
+  second: &second
+    - 2 i
+    - 2 e
+    - "2"
+  third: &third
+    - 3 i
+    - 3 e
+    - "3"
+  fourth: &fourth
+    - 4 i
+    - 4 e
+    - "4"
+  and:
+    - and
+books:
+  - osis: Gen
+    texts:
+      - Zanafilla
+      - Gen
+      - Zan
+  - osis: Exod
+    texts:
+      - Eksodi
+      - Dalja
+      - Exod
+      - Dal
+      - Eks
+  - osis: Bel
+    texts:
+      - Bel
+  - osis: Lev
+    texts:
+      - Levitikët
+      - Levitiku
+      - Lev
+  - osis: Num
+    texts:
+      - Numrat
+      - Num
+  - osis: Sir
+    texts:
+      - Sir
+  - osis: Wis
+    texts:
+      - Wis
+  - osis: Lam
+    texts:
+      - Vajtimet
+      - Lam
+      - Vaj
+  - osis: EpJer
+    texts:
+      - EpJer
+  - osis: Rev
+    texts:
+      - Zbulesa
+      - Rev
+      - Zbu
+      - Zb
+  - osis: PrMan
+    texts:
+      - PrMan
+  - osis: Deut
+    texts:
+      - Ligji i Përtërirë
+      - Ligji i përtërirë
+      - Deut
+      - LiP
+  - osis: Josh
+    texts:
+      - Jozueu
+      - Josh
+      - Joz
+  - osis: Judg
+    texts:
+      - Gjyqtarët
+      - Judg
+      - Gjy
+  - osis: Ruth
+    texts:
+      - Ruthi
+      - Ruth
+  - osis: 1Esd
+    texts:
+      - 1Esd
+  - osis: 2Esd
+    texts:
+      - 2Esd
+  - osis: Isa
+    texts:
+      - Jesaja
+      - Isaia
+      - Isa
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuelit
+  - osis: 2Sam
+    texts:
+      - 2 i Samuelit
+      - 2 Sam
+      - 2Sam
+  - osis: 1Sam
+    texts:
+      - 1 i Samuelit
+      - 1 Sam
+      - 1Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 1Kgs
+        before: *third
+      - osis: 2Kgs
+        before: *fourth
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Mbretërve
+  - osis: 2Kgs
+    texts:
+      - 2 i Mbretërve
+      - 2 Mb
+      - 2Kgs
+  - osis: 1Kgs
+    texts:
+      - 1 i Mbretërve
+      - 1 Mb
+      - 1Kgs
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Kronikave
+      - Kronika
+  - osis: 2Chr
+    texts:
+      - 2 i Kronikave
+      - 2 Kr
+      - 2Chr
+  - osis: 1Chr
+    texts:
+      - 1 i Kronikave
+      - 1 Kr
+      - 1Chr
+  - osis: Ezra
+    texts:
+      - Esdra
+      - Ezra
+      - Esd
+  - osis: Neh
+    texts:
+      - Nehemia
+      - Neh
+  - osis: GkEsth
+    texts:
+      - GkEsth
+  - osis: Esth
+    texts:
+      - Ester
+      - Esth
+      - Est
+  - osis: Job
+    texts:
+      - Hiobi
+      - Jobi
+      - Job
+  - osis: Ps
+    texts:
+      - Libri i Psalmeve
+      - Psalmet
+      - Psalmi
+      - Ps
+  - osis: PrAzar
+    texts:
+      - PrAzar
+  - osis: Prov
+    texts:
+      - Fjalët e urta
+      - Prov
+  - osis: Eccl
+    texts:
+      - Predikuesi
+      - Eccl
+      - Pred
+  - osis: SgThree
+    texts:
+      - SgThree
+  - osis: Song
+    texts:
+      - Kantiku i Kantikëve
+      - Kant
+      - Song
+  - osis: Jer
+    texts:
+      - Jeremia
+      - Jer
+  - osis: Ezek
+    texts:
+      - Ezekieli
+      - Ezek
+      - Eze
+  - osis: Dan
+    texts:
+      - Danieli
+      - Dan
+  - osis: Hos
+    texts:
+      - Osea
+      - Hos
+      - Os
+  - osis: Joel
+    texts:
+      - Joeli
+      - Joel
+      - Jl
+  - osis: Amos
+    texts:
+      - Amosi
+      - Amos
+      - Am
+  - osis: Obad
+    texts:
+      - Abdia
+      - Obad
+      - Abd
+  - osis: Jonah
+    texts:
+      - Jonah
+      - Jona
+      - Jon
+  - osis: Mic
+    texts:
+      - Mikea
+      - Mic
+      - Mik
+  - osis: Nah
+    texts:
+      - Nahumi
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuku
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sofonia
+      - Zeph
+      - Sof
+  - osis: Hag
+    texts:
+      - Hagai
+      - Hag
+  - osis: Zech
+    texts:
+      - Zakaria
+      - Zech
+      - Zak
+  - osis: Mal
+    texts:
+      - Malakia
+      - Mal
+  - osis: Matt
+    texts:
+      - Ungjilli i Mateut
+      - Mateu
+      - Matt
+      - Mt
+  - osis: Mark
+    texts:
+      - Ungjilli i Markut
+      - Marku
+      - Mark
+  - osis: Luke
+    texts:
+      - Ungjilli i Lukës
+      - Lluka
+      - Luka
+      - Luke
+      - Llu
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Gjonit
+  - osis: 1John
+    texts:
+      - 1 e Gjonit
+      - 1John
+      - 1 Gj
+  - osis: 2John
+    texts:
+      - 2 e Gjonit
+      - 2John
+      - 2 Gj
+  - osis: 3John
+    texts:
+      - 3 e Gjonit
+      - 3John
+      - 3 Gj
+  - osis: John
+    texts:
+      - Ungjilli i Gjonit
+      - Gjoni
+      - John
+      - Gjo
+  - osis: Acts
+    texts:
+      - Veprat e Apostujve
+      - Veprat e apostujve
+      - Veprat
+      - Acts
+      - Vep
+  - osis: Rom
+    texts:
+      - Romakëve
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintasve
+      - Koritasve
+  - osis: 2Cor
+    texts:
+      - 2 e Korintasve
+      - 2 Kor
+      - 2Cor
+  - osis: 1Cor
+    texts:
+      - 1 e Korintasve
+      - 1 Kor
+      - 1Cor
+  - osis: Gal
+    texts:
+      - Galatasve
+      - Gal
+  - osis: Eph
+    texts:
+      - Efesianëve
+      - Eph
+      - Ef
+  - osis: Phil
+    texts:
+      - Filipianëve
+      - Phil
+      - Fil
+  - osis: Col
+    texts:
+      - Kolosianëve
+      - Col
+      - Kol
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thesalonikasve
+      - Selanikasve
+  - osis: 2Thess
+    texts:
+      - 2 e Thesalonikasve
+      - 2Thess
+      - 2 Th
+  - osis: 1Thess
+    texts:
+      - 1 e Thesalonikasve
+      - 1Thess
+      - 1 Th
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteut
+  - osis: 2Tim
+    texts:
+      - 2 e Timoteut
+      - 2 Tim
+      - 2Tim
+  - osis: 1Tim
+    texts:
+      - 1 e Timoteut
+      - 1 Tim
+      - 1Tim
+  - osis: Titus
+    texts:
+      - Titit
+      - Titus
+      - Titi
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemonit
+      - Filem
+      - Phlm
+  - osis: Heb
+    texts:
+      - Hebrenjve
+      - Heb
+  - osis: Jas
+    texts:
+      - Jakobit
+      - Jakobi
+      - Jak
+      - Jas
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pjetrit
+  - osis: 2Pet
+    texts:
+      - 2 e Pjetrit
+      - 2 Pje
+      - 2 Pj
+      - 2Pet
+  - osis: 1Pet
+    texts:
+      - 1 e Pjetrit
+      - 1 Pje
+      - 1 Pj
+      - 1Pet
+  - osis: Jude
+    texts:
+      - Juda
+      - Jude
+      - Jud
+  - osis: Tob
+    texts:
+      - Tob
+  - osis: Jdt
+    texts:
+      - Jdt
+  - osis: Bar
+    texts:
+      - Bar
+  - osis: Sus
+    texts:
+      - Sus
+  - osis: 2Macc
+    texts:
+      - 2Macc
+  - osis: 3Macc
+    texts:
+      - 3Macc
+  - osis: 4Macc
+    texts:
+      - 4Macc
+  - osis: 1Macc
+    texts:
+      - 1Macc
+translations:
+  - ALB

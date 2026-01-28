@@ -1,0 +1,2563 @@
+- osis: Gen
+  texts:
+    - Génesis
+    - Gen
+    - Gén
+    - Gn
+    - Gé
+- osis: Exod
+  texts:
+    - Éxodo
+    - Exod
+    - Éxod
+    - Éxd
+    - Éxo
+    - Éx
+- osis: Bel
+  texts:
+    - Bel y el Serpiente
+    - Bel y el Dragón
+    - Bel
+- osis: Lev
+  texts:
+    - Levítico
+    - Lev
+    - Lv
+- osis: Num
+  texts:
+    - Números
+    - Num
+    - Núm
+    - Nm
+    - Nú
+- osis: Sir
+  texts:
+    - Eclesiástico
+    - Sirácides
+    - Sirácida
+    - Ecclus
+    - Sirác
+    - Sir
+    - Si
+- osis: Wis
+  texts:
+    - Sabiduría
+    - Sab
+    - Wis
+    - Sb
+- osis: Lam
+  texts:
+    - Lamentaciones
+    - Lamintaciones
+    - Lamentacione
+    - Lamintacione
+    - Lam
+    - La
+    - Lm
+- osis: EpJer
+  texts:
+    - La Carta de Jeremías
+    - Carta de Jeremías
+    - Carta Jeremías
+    - Carta Jer
+    - EpJer
+- osis: Rev
+  texts:
+    - El Apocalipsis
+    - Apocalipsis
+    - Apoc
+    - Rev
+    - Ap
+- osis: PrMan
+  texts:
+    - La Oración de Manasés
+    - Oración de Manasés
+    - Or. Man
+    - Or Man
+    - PrMan
+- osis: Deut
+  texts:
+    - Deuteronomio
+    - Deutoronomio
+    - Dueteronomio
+    - Deutronomio
+    - Deuteronmio
+    - Deutoronmio
+    - Deutronmio
+    - Deut
+    - Deu
+    - Dt
+- osis: Josh
+  texts:
+    - Josué
+    - Josh
+    - Jos
+- osis: Judg
+  texts:
+    - Jueces
+    - Judg
+    - Juec
+    - Jue
+    - Jc
+- osis: Ruth
+  texts:
+    - Ruth
+    - Rut
+    - Rt
+    - Ru
+- osis: 1Esd
+  texts:
+    - 1 Esdras
+    - 1 Esdr
+    - 1 Esd
+    - 1Esd
+- osis: 2Esd
+  texts:
+    - 2 Esdras
+    - 2 Esdr
+    - 2 Esd
+    - 2Esd
+- osis: 1Esd
+  texts:
+    - 1.º Esdras
+    - 1.º. Esdras
+    - 1º Esdras
+    - 1º. Esdras
+    - 1.o Esdras
+    - 1.o. Esdras
+    - 1o Esdras
+    - 1o. Esdras
+    - 1 Esdras
+    - 1. Esdras
+    - I Esdras
+    - I. Esdras
+    - Primer Esdras
+    - Primer. Esdras
+    - Primero Esdras
+    - Primero. Esdras
+- osis: 2Esd
+  texts:
+    - 2.º Esdras
+    - 2.º. Esdras
+    - 2º Esdras
+    - 2º. Esdras
+    - 2.o Esdras
+    - 2.o. Esdras
+    - 2o Esdras
+    - 2o. Esdras
+    - 2 Esdras
+    - 2. Esdras
+    - II Esdras
+    - II. Esdras
+    - Segundo Esdras
+    - Segundo. Esdras
+- osis: Ezra
+  texts:
+    - Esdras
+- osis: Isa
+  texts:
+    - Isaías
+    - Isa
+    - Is
+- osis: 1Sam
+  texts:
+    - 1.º Samuel
+    - 1.º. Samuel
+    - 1º Samuel
+    - 1º. Samuel
+    - 1.o Samuel
+    - 1.o. Samuel
+    - 1o Samuel
+    - 1o. Samuel
+    - 1 Samuel
+    - 1. Samuel
+    - I Samuel
+    - I. Samuel
+    - Primer Samuel
+    - Primer. Samuel
+    - Primero Samuel
+    - Primero. Samuel
+- osis: 2Sam
+  texts:
+    - 2.º Samuel
+    - 2.º. Samuel
+    - 2º Samuel
+    - 2º. Samuel
+    - 2.o Samuel
+    - 2.o. Samuel
+    - 2o Samuel
+    - 2o. Samuel
+    - 2 Samuel
+    - 2. Samuel
+    - II Samuel
+    - II. Samuel
+    - Segundo Samuel
+    - Segundo. Samuel
+- osis: 2Sam
+  texts:
+    - 2 Samuel
+    - 2 Sam
+    - 2 Sa
+    - 2 Sm
+    - 2Sam
+    - 2 S
+- osis: 1Sam
+  texts:
+    - 1 Samuel
+    - 1 Sam
+    - 1 Sa
+    - 1 Sm
+    - 1Sam
+    - 1 S
+- osis: 1Kgs
+  texts:
+    - 1.º Reyes
+    - 1.º. Reyes
+    - 1º Reyes
+    - 1º. Reyes
+    - 1.o Reyes
+    - 1.o. Reyes
+    - 1o Reyes
+    - 1o. Reyes
+    - 1 Reyes
+    - 1. Reyes
+    - I Reyes
+    - I. Reyes
+    - Primer Reyes
+    - Primer. Reyes
+    - Primero Reyes
+    - Primero. Reyes
+- osis: 2Kgs
+  texts:
+    - 2.º Reyes
+    - 2.º. Reyes
+    - 2º Reyes
+    - 2º. Reyes
+    - 2.o Reyes
+    - 2.o. Reyes
+    - 2o Reyes
+    - 2o. Reyes
+    - 2 Reyes
+    - 2. Reyes
+    - II Reyes
+    - II. Reyes
+    - Segundo Reyes
+    - Segundo. Reyes
+- osis: 2Kgs
+  texts:
+    - 2 Reyes
+    - 2 Ryes
+    - 2 Rees
+    - 2 Reys
+    - 2 Reye
+    - 2 Res
+    - 2 Rys
+    - 2 Rye
+    - 2 Ree
+    - 2 Rey
+    - 2 Rs
+    - 2 Re
+    - 2 Ry
+    - 2Kgs
+    - 2 R
+- osis: 1Kgs
+  texts:
+    - 1 Reyes
+    - 1 Ryes
+    - 1 Rees
+    - 1 Reys
+    - 1 Reye
+    - 1 Res
+    - 1 Rys
+    - 1 Rye
+    - 1 Ree
+    - 1 Rey
+    - 1 Rs
+    - 1 Re
+    - 1 Ry
+    - 1Kgs
+    - 1 R
+- osis: 1Chr
+  texts:
+    - 1.º Crónicas
+    - 1.º. Crónicas
+    - 1º Crónicas
+    - 1º. Crónicas
+    - 1.o Crónicas
+    - 1.o. Crónicas
+    - 1o Crónicas
+    - 1o. Crónicas
+    - 1 Crónicas
+    - 1. Crónicas
+    - I Crónicas
+    - I. Crónicas
+    - Primer Crónicas
+    - Primer. Crónicas
+    - Primero Crónicas
+    - Primero. Crónicas
+- osis: 2Chr
+  texts:
+    - 2.º Crónicas
+    - 2.º. Crónicas
+    - 2º Crónicas
+    - 2º. Crónicas
+    - 2.o Crónicas
+    - 2.o. Crónicas
+    - 2o Crónicas
+    - 2o. Crónicas
+    - 2 Crónicas
+    - 2. Crónicas
+    - II Crónicas
+    - II. Crónicas
+    - Segundo Crónicas
+    - Segundo. Crónicas
+- osis: 2Chr
+  texts:
+    - 2 Crónicas
+    - 2 Crón
+    - 2 Cró
+    - 2 Cr
+    - 2Chr
+- osis: 1Chr
+  texts:
+    - 1 Crónicas
+    - 1 Crón
+    - 1 Cró
+    - 1 Cr
+    - 1Chr
+- osis: Ezra
+  texts:
+    - Esdr
+    - Ezra
+    - Esd
+- osis: Neh
+  texts:
+    - Nehemías
+    - Neh
+    - Ne
+- osis: GkEsth
+  texts:
+    - Ester (Griego)
+    - Ester (griego)
+    - Ester Griego
+    - Ester griego
+    - Est Gr
+    - GkEsth
+- osis: Esth
+  texts:
+    - Ester
+    - Esth
+    - Est
+    - Es
+- osis: Job
+  texts:
+    - Job
+    - Jb
+- osis: Ps
+  texts:
+    - Salmos
+    - Salmo
+    - Salm
+    - Sal
+    - Slm
+    - Ps
+    - Sl
+- osis: PrAzar
+  texts:
+    - Cántico de Azarías
+    - Oración de Azarías
+    - Azarías
+    - Or Azar
+    - PrAzar
+    - Or Az
+- osis: Prov
+  texts:
+    - Probverbios
+    - Porverbios
+    - Preverbios
+    - Proverbios
+    - Proberbios
+    - Poverbios
+    - Prverbios
+    - Preverbio
+    - Proverbio
+    - Provebios
+    - Prverbio
+    - Prvbos
+    - Prvbs
+    - Prvbo
+    - Prov
+    - Prvb
+    - Prv
+    - Pro
+    - Pr
+    - Pv
+- osis: Eccl
+  texts:
+    - Ecclesiasticés
+    - Eclesiasticés
+    - Ecclesiastiés
+    - Ecclessaastés
+    - Ecclessaistés
+    - Ecclessiastés
+    - Ecclessiistés
+    - Eclesiastiés
+    - Eclessaastés
+    - Eclessaistés
+    - Eclessiastés
+    - Eclessiistés
+    - Ecclesaastés
+    - Ecclesaistés
+    - Ecclesiastés
+    - Ecclesiistés
+    - Ecclessaatés
+    - Ecclessaasté
+    - Ecclessaités
+    - Ecclessaisté
+    - Ecclessiatés
+    - Ecclessiasté
+    - Ecclessiités
+    - Ecclessiisté
+    - Eclesaastés
+    - Eclesaistés
+    - Eclesiastés
+    - Eclesiistés
+    - Eclessaatés
+    - Eclessaasté
+    - Eclessaités
+    - Eclessaisté
+    - Eclessiatés
+    - Eclessiasté
+    - Eclessiités
+    - Eclessiisté
+    - Ecclesaatés
+    - Ecclesaasté
+    - Ecclesaités
+    - Ecclesaisté
+    - Ecclesiatés
+    - Ecclesiasté
+    - Ecclesiités
+    - Ecclesiisté
+    - Ecclessaaté
+    - Ecclessaité
+    - Ecclessiaté
+    - Ecclessiité
+    - Eclesaatés
+    - Eclesaasté
+    - Eclesaités
+    - Eclesaisté
+    - Eclesiatés
+    - Eclesiasté
+    - Eclesiités
+    - Eclesiisté
+    - Eclessaaté
+    - Eclessaité
+    - Eclessiaté
+    - Eclessiité
+    - Ecclesaaté
+    - Ecclesaité
+    - Ecclesiaté
+    - Ecclesiité
+    - Eclesaaté
+    - Eclesaité
+    - Eclesiaté
+    - Eclesiité
+    - Eccles
+    - Ecles
+    - Eccl
+    - Ecc
+    - Ecl
+    - Ec
+    - Qo
+- osis: SgThree
+  texts:
+    - El Canto de los Tres Jóvenes Hebreos
+    - El Himno de los Tres Jóvenes Hebreos
+    - El Canto de los Tres Jóvenes Judíos
+    - El Himno de los Tres Jóvenes Judíos
+    - Canto de los Tres Jóvenes Hebreos
+    - El Canto de los 3 Jóvenes Hebreos
+    - El Himno de los 3 Jóvenes Hebreos
+    - Canto de los Tres Jóvenes Judíos
+    - El Canto de los 3 Jóvenes Judíos
+    - El Himno de los 3 Jóvenes Judíos
+    - Himno de los Tres Jóvenes Judíos
+    - Canto de los 3 Jóvenes Hebreos
+    - Himno de los 3 Jóvenes Hebreos
+    - Canto de los 3 Jóvenes Judíos
+    - Himno de los 3 Jóvenes Judíos
+    - Canto de los Tres Jóvenes
+    - Himno de los Tres Jóvenes
+    - Canto de los 3 Jóvenes
+    - Himno de los 3 Jóvenes
+    - Tres Jóvenes
+    - 3 Jóvenes
+    - Ct 3 Jó
+    - SgThree
+- osis: Song
+  texts:
+    - El Cantar de los Cantares
+    - Cantare de los Cantares
+    - Cantar de los Cantares
+    - Cantares
+    - Cant
+    - Song
+    - Can
+    - Cnt
+    - Ct
+- osis: Jer
+  texts:
+    - Jeremías
+    - Jeremía
+    - Jere
+    - Jer
+    - Jr
+- osis: Ezek
+  texts:
+    - Ezeequiel
+    - Ezeiquiel
+    - Eziequiel
+    - Eziiquiel
+    - Ezequiel
+    - Ezeequel
+    - Ezeiquel
+    - Eziquiel
+    - Eziequel
+    - Eziiquel
+    - Ezequial
+    - Ezequel
+    - Eziquel
+    - Ezequ
+    - Ezek
+    - Ezeq
+    - Eze
+    - Ezq
+    - Ez
+- osis: Dan
+  texts:
+    - Daniel
+    - Dan
+    - Da
+    - Dl
+    - Dn
+- osis: Hos
+  texts:
+    - Oseas
+    - Hos
+    - Os
+- osis: Joel
+  texts:
+    - Joel
+    - Joe
+    - Jl
+- osis: Amos
+  texts:
+    - Amos
+    - Amós
+    - Ams
+    - Amó
+    - Am
+- osis: Obad
+  texts:
+    - Abdías
+    - Obad
+    - Abd
+    - Ab
+- osis: Jonah
+  texts:
+    - Jonah
+    - Jonás
+    - Jns
+    - Jon
+- osis: Mic
+  texts:
+    - Miqueas
+    - Mic
+    - Miq
+    - Mi
+    - Mq
+- osis: Nah
+  texts:
+    - Nahúm
+    - Nahú
+    - Nah
+    - Na
+    - Nh
+- osis: Hab
+  texts:
+    - Habbacac
+    - Habbacuc
+    - Habacac
+    - Habacuc
+    - Habc
+    - Hab
+- osis: Zeph
+  texts:
+    - Sofonías
+    - Zeph
+    - Sof
+    - So
+    - Sf
+- osis: Hag
+  texts:
+    - Haggeo
+    - Hageo
+    - Ageo
+    - Hag
+    - Ag
+    - Hg
+- osis: Zech
+  texts:
+    - Zacarías
+    - Zacar
+    - Zech
+    - Zac
+    - Za
+- osis: Mal
+  texts:
+    - Malaquías
+    - Malaqu
+    - Mala
+    - Mal
+    - Ml
+- osis: Matt
+  texts:
+    - El Evangelio de Mateo
+    - Evangelio de Mateo
+    - San Mateo
+    - Mateo
+    - Matt
+    - Mat
+    - Mt
+- osis: 1Macc
+  texts:
+    - 1.º Maccabbeeos
+    - 1.º Macabbeeos
+    - 1.º Maccabeeos
+    - 1.º Maccabbeos
+    - 1.º Maccabbeeo
+    - 1.º Macabeeos
+    - 1.º Macabbeos
+    - 1.º Macabbeeo
+    - 1.º Maccabeos
+    - 1.º Maccabeeo
+    - 1.º Maccabbeo
+    - 1.º Macabeos
+    - 1.º Macabeeo
+    - 1.º Macabbeo
+    - 1.º Maccabeo
+    - 1.º Macabeo
+    - 1.º. Maccabbeeos
+    - 1.º. Macabbeeos
+    - 1.º. Maccabeeos
+    - 1.º. Maccabbeos
+    - 1.º. Maccabbeeo
+    - 1.º. Macabeeos
+    - 1.º. Macabbeos
+    - 1.º. Macabbeeo
+    - 1.º. Maccabeos
+    - 1.º. Maccabeeo
+    - 1.º. Maccabbeo
+    - 1.º. Macabeos
+    - 1.º. Macabeeo
+    - 1.º. Macabbeo
+    - 1.º. Maccabeo
+    - 1.º. Macabeo
+    - 1º Maccabbeeos
+    - 1º Macabbeeos
+    - 1º Maccabeeos
+    - 1º Maccabbeos
+    - 1º Maccabbeeo
+    - 1º Macabeeos
+    - 1º Macabbeos
+    - 1º Macabbeeo
+    - 1º Maccabeos
+    - 1º Maccabeeo
+    - 1º Maccabbeo
+    - 1º Macabeos
+    - 1º Macabeeo
+    - 1º Macabbeo
+    - 1º Maccabeo
+    - 1º Macabeo
+    - 1º. Maccabbeeos
+    - 1º. Macabbeeos
+    - 1º. Maccabeeos
+    - 1º. Maccabbeos
+    - 1º. Maccabbeeo
+    - 1º. Macabeeos
+    - 1º. Macabbeos
+    - 1º. Macabbeeo
+    - 1º. Maccabeos
+    - 1º. Maccabeeo
+    - 1º. Maccabbeo
+    - 1º. Macabeos
+    - 1º. Macabeeo
+    - 1º. Macabbeo
+    - 1º. Maccabeo
+    - 1º. Macabeo
+    - 1.o Maccabbeeos
+    - 1.o Macabbeeos
+    - 1.o Maccabeeos
+    - 1.o Maccabbeos
+    - 1.o Maccabbeeo
+    - 1.o Macabeeos
+    - 1.o Macabbeos
+    - 1.o Macabbeeo
+    - 1.o Maccabeos
+    - 1.o Maccabeeo
+    - 1.o Maccabbeo
+    - 1.o Macabeos
+    - 1.o Macabeeo
+    - 1.o Macabbeo
+    - 1.o Maccabeo
+    - 1.o Macabeo
+    - 1.o. Maccabbeeos
+    - 1.o. Macabbeeos
+    - 1.o. Maccabeeos
+    - 1.o. Maccabbeos
+    - 1.o. Maccabbeeo
+    - 1.o. Macabeeos
+    - 1.o. Macabbeos
+    - 1.o. Macabbeeo
+    - 1.o. Maccabeos
+    - 1.o. Maccabeeo
+    - 1.o. Maccabbeo
+    - 1.o. Macabeos
+    - 1.o. Macabeeo
+    - 1.o. Macabbeo
+    - 1.o. Maccabeo
+    - 1.o. Macabeo
+    - 1o Maccabbeeos
+    - 1o Macabbeeos
+    - 1o Maccabeeos
+    - 1o Maccabbeos
+    - 1o Maccabbeeo
+    - 1o Macabeeos
+    - 1o Macabbeos
+    - 1o Macabbeeo
+    - 1o Maccabeos
+    - 1o Maccabeeo
+    - 1o Maccabbeo
+    - 1o Macabeos
+    - 1o Macabeeo
+    - 1o Macabbeo
+    - 1o Maccabeo
+    - 1o Macabeo
+    - 1o. Maccabbeeos
+    - 1o. Macabbeeos
+    - 1o. Maccabeeos
+    - 1o. Maccabbeos
+    - 1o. Maccabbeeo
+    - 1o. Macabeeos
+    - 1o. Macabbeos
+    - 1o. Macabbeeo
+    - 1o. Maccabeos
+    - 1o. Maccabeeo
+    - 1o. Maccabbeo
+    - 1o. Macabeos
+    - 1o. Macabeeo
+    - 1o. Macabbeo
+    - 1o. Maccabeo
+    - 1o. Macabeo
+    - 1 Maccabbeeos
+    - 1 Macabbeeos
+    - 1 Maccabeeos
+    - 1 Maccabbeos
+    - 1 Maccabbeeo
+    - 1 Macabeeos
+    - 1 Macabbeos
+    - 1 Macabbeeo
+    - 1 Maccabeos
+    - 1 Maccabeeo
+    - 1 Maccabbeo
+    - 1 Macabeos
+    - 1 Macabeeo
+    - 1 Macabbeo
+    - 1 Maccabeo
+    - 1 Macabeo
+    - 1. Maccabbeeos
+    - 1. Macabbeeos
+    - 1. Maccabeeos
+    - 1. Maccabbeos
+    - 1. Maccabbeeo
+    - 1. Macabeeos
+    - 1. Macabbeos
+    - 1. Macabbeeo
+    - 1. Maccabeos
+    - 1. Maccabeeo
+    - 1. Maccabbeo
+    - 1. Macabeos
+    - 1. Macabeeo
+    - 1. Macabbeo
+    - 1. Maccabeo
+    - 1. Macabeo
+    - I Maccabbeeos
+    - I Macabbeeos
+    - I Maccabeeos
+    - I Maccabbeos
+    - I Maccabbeeo
+    - I Macabeeos
+    - I Macabbeos
+    - I Macabbeeo
+    - I Maccabeos
+    - I Maccabeeo
+    - I Maccabbeo
+    - I Macabeos
+    - I Macabeeo
+    - I Macabbeo
+    - I Maccabeo
+    - I Macabeo
+    - I. Maccabbeeos
+    - I. Macabbeeos
+    - I. Maccabeeos
+    - I. Maccabbeos
+    - I. Maccabbeeo
+    - I. Macabeeos
+    - I. Macabbeos
+    - I. Macabbeeo
+    - I. Maccabeos
+    - I. Maccabeeo
+    - I. Maccabbeo
+    - I. Macabeos
+    - I. Macabeeo
+    - I. Macabbeo
+    - I. Maccabeo
+    - I. Macabeo
+    - Primer Maccabbeeos
+    - Primer Macabbeeos
+    - Primer Maccabeeos
+    - Primer Maccabbeos
+    - Primer Maccabbeeo
+    - Primer Macabeeos
+    - Primer Macabbeos
+    - Primer Macabbeeo
+    - Primer Maccabeos
+    - Primer Maccabeeo
+    - Primer Maccabbeo
+    - Primer Macabeos
+    - Primer Macabeeo
+    - Primer Macabbeo
+    - Primer Maccabeo
+    - Primer Macabeo
+    - Primer. Maccabbeeos
+    - Primer. Macabbeeos
+    - Primer. Maccabeeos
+    - Primer. Maccabbeos
+    - Primer. Maccabbeeo
+    - Primer. Macabeeos
+    - Primer. Macabbeos
+    - Primer. Macabbeeo
+    - Primer. Maccabeos
+    - Primer. Maccabeeo
+    - Primer. Maccabbeo
+    - Primer. Macabeos
+    - Primer. Macabeeo
+    - Primer. Macabbeo
+    - Primer. Maccabeo
+    - Primer. Macabeo
+    - Primero Maccabbeeos
+    - Primero Macabbeeos
+    - Primero Maccabeeos
+    - Primero Maccabbeos
+    - Primero Maccabbeeo
+    - Primero Macabeeos
+    - Primero Macabbeos
+    - Primero Macabbeeo
+    - Primero Maccabeos
+    - Primero Maccabeeo
+    - Primero Maccabbeo
+    - Primero Macabeos
+    - Primero Macabeeo
+    - Primero Macabbeo
+    - Primero Maccabeo
+    - Primero Macabeo
+    - Primero. Maccabbeeos
+    - Primero. Macabbeeos
+    - Primero. Maccabeeos
+    - Primero. Maccabbeos
+    - Primero. Maccabbeeo
+    - Primero. Macabeeos
+    - Primero. Macabbeos
+    - Primero. Macabbeeo
+    - Primero. Maccabeos
+    - Primero. Maccabeeo
+    - Primero. Maccabbeo
+    - Primero. Macabeos
+    - Primero. Macabeeo
+    - Primero. Macabbeo
+    - Primero. Maccabeo
+    - Primero. Macabeo
+- osis: 2Macc
+  texts:
+    - 2.º Maccabbeeos
+    - 2.º Macabbeeos
+    - 2.º Maccabeeos
+    - 2.º Maccabbeos
+    - 2.º Maccabbeeo
+    - 2.º Macabeeos
+    - 2.º Macabbeos
+    - 2.º Macabbeeo
+    - 2.º Maccabeos
+    - 2.º Maccabeeo
+    - 2.º Maccabbeo
+    - 2.º Macabeos
+    - 2.º Macabeeo
+    - 2.º Macabbeo
+    - 2.º Maccabeo
+    - 2.º Macabeo
+    - 2.º. Maccabbeeos
+    - 2.º. Macabbeeos
+    - 2.º. Maccabeeos
+    - 2.º. Maccabbeos
+    - 2.º. Maccabbeeo
+    - 2.º. Macabeeos
+    - 2.º. Macabbeos
+    - 2.º. Macabbeeo
+    - 2.º. Maccabeos
+    - 2.º. Maccabeeo
+    - 2.º. Maccabbeo
+    - 2.º. Macabeos
+    - 2.º. Macabeeo
+    - 2.º. Macabbeo
+    - 2.º. Maccabeo
+    - 2.º. Macabeo
+    - 2º Maccabbeeos
+    - 2º Macabbeeos
+    - 2º Maccabeeos
+    - 2º Maccabbeos
+    - 2º Maccabbeeo
+    - 2º Macabeeos
+    - 2º Macabbeos
+    - 2º Macabbeeo
+    - 2º Maccabeos
+    - 2º Maccabeeo
+    - 2º Maccabbeo
+    - 2º Macabeos
+    - 2º Macabeeo
+    - 2º Macabbeo
+    - 2º Maccabeo
+    - 2º Macabeo
+    - 2º. Maccabbeeos
+    - 2º. Macabbeeos
+    - 2º. Maccabeeos
+    - 2º. Maccabbeos
+    - 2º. Maccabbeeo
+    - 2º. Macabeeos
+    - 2º. Macabbeos
+    - 2º. Macabbeeo
+    - 2º. Maccabeos
+    - 2º. Maccabeeo
+    - 2º. Maccabbeo
+    - 2º. Macabeos
+    - 2º. Macabeeo
+    - 2º. Macabbeo
+    - 2º. Maccabeo
+    - 2º. Macabeo
+    - 2.o Maccabbeeos
+    - 2.o Macabbeeos
+    - 2.o Maccabeeos
+    - 2.o Maccabbeos
+    - 2.o Maccabbeeo
+    - 2.o Macabeeos
+    - 2.o Macabbeos
+    - 2.o Macabbeeo
+    - 2.o Maccabeos
+    - 2.o Maccabeeo
+    - 2.o Maccabbeo
+    - 2.o Macabeos
+    - 2.o Macabeeo
+    - 2.o Macabbeo
+    - 2.o Maccabeo
+    - 2.o Macabeo
+    - 2.o. Maccabbeeos
+    - 2.o. Macabbeeos
+    - 2.o. Maccabeeos
+    - 2.o. Maccabbeos
+    - 2.o. Maccabbeeo
+    - 2.o. Macabeeos
+    - 2.o. Macabbeos
+    - 2.o. Macabbeeo
+    - 2.o. Maccabeos
+    - 2.o. Maccabeeo
+    - 2.o. Maccabbeo
+    - 2.o. Macabeos
+    - 2.o. Macabeeo
+    - 2.o. Macabbeo
+    - 2.o. Maccabeo
+    - 2.o. Macabeo
+    - 2o Maccabbeeos
+    - 2o Macabbeeos
+    - 2o Maccabeeos
+    - 2o Maccabbeos
+    - 2o Maccabbeeo
+    - 2o Macabeeos
+    - 2o Macabbeos
+    - 2o Macabbeeo
+    - 2o Maccabeos
+    - 2o Maccabeeo
+    - 2o Maccabbeo
+    - 2o Macabeos
+    - 2o Macabeeo
+    - 2o Macabbeo
+    - 2o Maccabeo
+    - 2o Macabeo
+    - 2o. Maccabbeeos
+    - 2o. Macabbeeos
+    - 2o. Maccabeeos
+    - 2o. Maccabbeos
+    - 2o. Maccabbeeo
+    - 2o. Macabeeos
+    - 2o. Macabbeos
+    - 2o. Macabbeeo
+    - 2o. Maccabeos
+    - 2o. Maccabeeo
+    - 2o. Maccabbeo
+    - 2o. Macabeos
+    - 2o. Macabeeo
+    - 2o. Macabbeo
+    - 2o. Maccabeo
+    - 2o. Macabeo
+    - 2 Maccabbeeos
+    - 2 Macabbeeos
+    - 2 Maccabeeos
+    - 2 Maccabbeos
+    - 2 Maccabbeeo
+    - 2 Macabeeos
+    - 2 Macabbeos
+    - 2 Macabbeeo
+    - 2 Maccabeos
+    - 2 Maccabeeo
+    - 2 Maccabbeo
+    - 2 Macabeos
+    - 2 Macabeeo
+    - 2 Macabbeo
+    - 2 Maccabeo
+    - 2 Macabeo
+    - 2. Maccabbeeos
+    - 2. Macabbeeos
+    - 2. Maccabeeos
+    - 2. Maccabbeos
+    - 2. Maccabbeeo
+    - 2. Macabeeos
+    - 2. Macabbeos
+    - 2. Macabbeeo
+    - 2. Maccabeos
+    - 2. Maccabeeo
+    - 2. Maccabbeo
+    - 2. Macabeos
+    - 2. Macabeeo
+    - 2. Macabbeo
+    - 2. Maccabeo
+    - 2. Macabeo
+    - II Maccabbeeos
+    - II Macabbeeos
+    - II Maccabeeos
+    - II Maccabbeos
+    - II Maccabbeeo
+    - II Macabeeos
+    - II Macabbeos
+    - II Macabbeeo
+    - II Maccabeos
+    - II Maccabeeo
+    - II Maccabbeo
+    - II Macabeos
+    - II Macabeeo
+    - II Macabbeo
+    - II Maccabeo
+    - II Macabeo
+    - II. Maccabbeeos
+    - II. Macabbeeos
+    - II. Maccabeeos
+    - II. Maccabbeos
+    - II. Maccabbeeo
+    - II. Macabeeos
+    - II. Macabbeos
+    - II. Macabbeeo
+    - II. Maccabeos
+    - II. Maccabeeo
+    - II. Maccabbeo
+    - II. Macabeos
+    - II. Macabeeo
+    - II. Macabbeo
+    - II. Maccabeo
+    - II. Macabeo
+    - Segundo Maccabbeeos
+    - Segundo Macabbeeos
+    - Segundo Maccabeeos
+    - Segundo Maccabbeos
+    - Segundo Maccabbeeo
+    - Segundo Macabeeos
+    - Segundo Macabbeos
+    - Segundo Macabbeeo
+    - Segundo Maccabeos
+    - Segundo Maccabeeo
+    - Segundo Maccabbeo
+    - Segundo Macabeos
+    - Segundo Macabeeo
+    - Segundo Macabbeo
+    - Segundo Maccabeo
+    - Segundo Macabeo
+    - Segundo. Maccabbeeos
+    - Segundo. Macabbeeos
+    - Segundo. Maccabeeos
+    - Segundo. Maccabbeos
+    - Segundo. Maccabbeeo
+    - Segundo. Macabeeos
+    - Segundo. Macabbeos
+    - Segundo. Macabbeeo
+    - Segundo. Maccabeos
+    - Segundo. Maccabeeo
+    - Segundo. Maccabbeo
+    - Segundo. Macabeos
+    - Segundo. Macabeeo
+    - Segundo. Macabbeo
+    - Segundo. Maccabeo
+    - Segundo. Macabeo
+- osis: 3Macc
+  texts:
+    - 3.º Maccabbeeos
+    - 3.º Macabbeeos
+    - 3.º Maccabeeos
+    - 3.º Maccabbeos
+    - 3.º Maccabbeeo
+    - 3.º Macabeeos
+    - 3.º Macabbeos
+    - 3.º Macabbeeo
+    - 3.º Maccabeos
+    - 3.º Maccabeeo
+    - 3.º Maccabbeo
+    - 3.º Macabeos
+    - 3.º Macabeeo
+    - 3.º Macabbeo
+    - 3.º Maccabeo
+    - 3.º Macabeo
+    - 3.º. Maccabbeeos
+    - 3.º. Macabbeeos
+    - 3.º. Maccabeeos
+    - 3.º. Maccabbeos
+    - 3.º. Maccabbeeo
+    - 3.º. Macabeeos
+    - 3.º. Macabbeos
+    - 3.º. Macabbeeo
+    - 3.º. Maccabeos
+    - 3.º. Maccabeeo
+    - 3.º. Maccabbeo
+    - 3.º. Macabeos
+    - 3.º. Macabeeo
+    - 3.º. Macabbeo
+    - 3.º. Maccabeo
+    - 3.º. Macabeo
+    - 3º Maccabbeeos
+    - 3º Macabbeeos
+    - 3º Maccabeeos
+    - 3º Maccabbeos
+    - 3º Maccabbeeo
+    - 3º Macabeeos
+    - 3º Macabbeos
+    - 3º Macabbeeo
+    - 3º Maccabeos
+    - 3º Maccabeeo
+    - 3º Maccabbeo
+    - 3º Macabeos
+    - 3º Macabeeo
+    - 3º Macabbeo
+    - 3º Maccabeo
+    - 3º Macabeo
+    - 3º. Maccabbeeos
+    - 3º. Macabbeeos
+    - 3º. Maccabeeos
+    - 3º. Maccabbeos
+    - 3º. Maccabbeeo
+    - 3º. Macabeeos
+    - 3º. Macabbeos
+    - 3º. Macabbeeo
+    - 3º. Maccabeos
+    - 3º. Maccabeeo
+    - 3º. Maccabbeo
+    - 3º. Macabeos
+    - 3º. Macabeeo
+    - 3º. Macabbeo
+    - 3º. Maccabeo
+    - 3º. Macabeo
+    - 3.o Maccabbeeos
+    - 3.o Macabbeeos
+    - 3.o Maccabeeos
+    - 3.o Maccabbeos
+    - 3.o Maccabbeeo
+    - 3.o Macabeeos
+    - 3.o Macabbeos
+    - 3.o Macabbeeo
+    - 3.o Maccabeos
+    - 3.o Maccabeeo
+    - 3.o Maccabbeo
+    - 3.o Macabeos
+    - 3.o Macabeeo
+    - 3.o Macabbeo
+    - 3.o Maccabeo
+    - 3.o Macabeo
+    - 3.o. Maccabbeeos
+    - 3.o. Macabbeeos
+    - 3.o. Maccabeeos
+    - 3.o. Maccabbeos
+    - 3.o. Maccabbeeo
+    - 3.o. Macabeeos
+    - 3.o. Macabbeos
+    - 3.o. Macabbeeo
+    - 3.o. Maccabeos
+    - 3.o. Maccabeeo
+    - 3.o. Maccabbeo
+    - 3.o. Macabeos
+    - 3.o. Macabeeo
+    - 3.o. Macabbeo
+    - 3.o. Maccabeo
+    - 3.o. Macabeo
+    - 3o Maccabbeeos
+    - 3o Macabbeeos
+    - 3o Maccabeeos
+    - 3o Maccabbeos
+    - 3o Maccabbeeo
+    - 3o Macabeeos
+    - 3o Macabbeos
+    - 3o Macabbeeo
+    - 3o Maccabeos
+    - 3o Maccabeeo
+    - 3o Maccabbeo
+    - 3o Macabeos
+    - 3o Macabeeo
+    - 3o Macabbeo
+    - 3o Maccabeo
+    - 3o Macabeo
+    - 3o. Maccabbeeos
+    - 3o. Macabbeeos
+    - 3o. Maccabeeos
+    - 3o. Maccabbeos
+    - 3o. Maccabbeeo
+    - 3o. Macabeeos
+    - 3o. Macabbeos
+    - 3o. Macabbeeo
+    - 3o. Maccabeos
+    - 3o. Maccabeeo
+    - 3o. Maccabbeo
+    - 3o. Macabeos
+    - 3o. Macabeeo
+    - 3o. Macabbeo
+    - 3o. Maccabeo
+    - 3o. Macabeo
+    - 3 Maccabbeeos
+    - 3 Macabbeeos
+    - 3 Maccabeeos
+    - 3 Maccabbeos
+    - 3 Maccabbeeo
+    - 3 Macabeeos
+    - 3 Macabbeos
+    - 3 Macabbeeo
+    - 3 Maccabeos
+    - 3 Maccabeeo
+    - 3 Maccabbeo
+    - 3 Macabeos
+    - 3 Macabeeo
+    - 3 Macabbeo
+    - 3 Maccabeo
+    - 3 Macabeo
+    - 3. Maccabbeeos
+    - 3. Macabbeeos
+    - 3. Maccabeeos
+    - 3. Maccabbeos
+    - 3. Maccabbeeo
+    - 3. Macabeeos
+    - 3. Macabbeos
+    - 3. Macabbeeo
+    - 3. Maccabeos
+    - 3. Maccabeeo
+    - 3. Maccabbeo
+    - 3. Macabeos
+    - 3. Macabeeo
+    - 3. Macabbeo
+    - 3. Maccabeo
+    - 3. Macabeo
+    - III Maccabbeeos
+    - III Macabbeeos
+    - III Maccabeeos
+    - III Maccabbeos
+    - III Maccabbeeo
+    - III Macabeeos
+    - III Macabbeos
+    - III Macabbeeo
+    - III Maccabeos
+    - III Maccabeeo
+    - III Maccabbeo
+    - III Macabeos
+    - III Macabeeo
+    - III Macabbeo
+    - III Maccabeo
+    - III Macabeo
+    - III. Maccabbeeos
+    - III. Macabbeeos
+    - III. Maccabeeos
+    - III. Maccabbeos
+    - III. Maccabbeeo
+    - III. Macabeeos
+    - III. Macabbeos
+    - III. Macabbeeo
+    - III. Maccabeos
+    - III. Maccabeeo
+    - III. Maccabbeo
+    - III. Macabeos
+    - III. Macabeeo
+    - III. Macabbeo
+    - III. Maccabeo
+    - III. Macabeo
+    - Tercer Maccabbeeos
+    - Tercer Macabbeeos
+    - Tercer Maccabeeos
+    - Tercer Maccabbeos
+    - Tercer Maccabbeeo
+    - Tercer Macabeeos
+    - Tercer Macabbeos
+    - Tercer Macabbeeo
+    - Tercer Maccabeos
+    - Tercer Maccabeeo
+    - Tercer Maccabbeo
+    - Tercer Macabeos
+    - Tercer Macabeeo
+    - Tercer Macabbeo
+    - Tercer Maccabeo
+    - Tercer Macabeo
+    - Tercer. Maccabbeeos
+    - Tercer. Macabbeeos
+    - Tercer. Maccabeeos
+    - Tercer. Maccabbeos
+    - Tercer. Maccabbeeo
+    - Tercer. Macabeeos
+    - Tercer. Macabbeos
+    - Tercer. Macabbeeo
+    - Tercer. Maccabeos
+    - Tercer. Maccabeeo
+    - Tercer. Maccabbeo
+    - Tercer. Macabeos
+    - Tercer. Macabeeo
+    - Tercer. Macabbeo
+    - Tercer. Maccabeo
+    - Tercer. Macabeo
+    - Tercero Maccabbeeos
+    - Tercero Macabbeeos
+    - Tercero Maccabeeos
+    - Tercero Maccabbeos
+    - Tercero Maccabbeeo
+    - Tercero Macabeeos
+    - Tercero Macabbeos
+    - Tercero Macabbeeo
+    - Tercero Maccabeos
+    - Tercero Maccabeeo
+    - Tercero Maccabbeo
+    - Tercero Macabeos
+    - Tercero Macabeeo
+    - Tercero Macabbeo
+    - Tercero Maccabeo
+    - Tercero Macabeo
+    - Tercero. Maccabbeeos
+    - Tercero. Macabbeeos
+    - Tercero. Maccabeeos
+    - Tercero. Maccabbeos
+    - Tercero. Maccabbeeo
+    - Tercero. Macabeeos
+    - Tercero. Macabbeos
+    - Tercero. Macabbeeo
+    - Tercero. Maccabeos
+    - Tercero. Maccabeeo
+    - Tercero. Maccabbeo
+    - Tercero. Macabeos
+    - Tercero. Macabeeo
+    - Tercero. Macabbeo
+    - Tercero. Maccabeo
+    - Tercero. Macabeo
+- osis: 4Macc
+  texts:
+    - 4.º Maccabbeeos
+    - 4.º Macabbeeos
+    - 4.º Maccabeeos
+    - 4.º Maccabbeos
+    - 4.º Maccabbeeo
+    - 4.º Macabeeos
+    - 4.º Macabbeos
+    - 4.º Macabbeeo
+    - 4.º Maccabeos
+    - 4.º Maccabeeo
+    - 4.º Maccabbeo
+    - 4.º Macabeos
+    - 4.º Macabeeo
+    - 4.º Macabbeo
+    - 4.º Maccabeo
+    - 4.º Macabeo
+    - 4.º. Maccabbeeos
+    - 4.º. Macabbeeos
+    - 4.º. Maccabeeos
+    - 4.º. Maccabbeos
+    - 4.º. Maccabbeeo
+    - 4.º. Macabeeos
+    - 4.º. Macabbeos
+    - 4.º. Macabbeeo
+    - 4.º. Maccabeos
+    - 4.º. Maccabeeo
+    - 4.º. Maccabbeo
+    - 4.º. Macabeos
+    - 4.º. Macabeeo
+    - 4.º. Macabbeo
+    - 4.º. Maccabeo
+    - 4.º. Macabeo
+    - 4º Maccabbeeos
+    - 4º Macabbeeos
+    - 4º Maccabeeos
+    - 4º Maccabbeos
+    - 4º Maccabbeeo
+    - 4º Macabeeos
+    - 4º Macabbeos
+    - 4º Macabbeeo
+    - 4º Maccabeos
+    - 4º Maccabeeo
+    - 4º Maccabbeo
+    - 4º Macabeos
+    - 4º Macabeeo
+    - 4º Macabbeo
+    - 4º Maccabeo
+    - 4º Macabeo
+    - 4º. Maccabbeeos
+    - 4º. Macabbeeos
+    - 4º. Maccabeeos
+    - 4º. Maccabbeos
+    - 4º. Maccabbeeo
+    - 4º. Macabeeos
+    - 4º. Macabbeos
+    - 4º. Macabbeeo
+    - 4º. Maccabeos
+    - 4º. Maccabeeo
+    - 4º. Maccabbeo
+    - 4º. Macabeos
+    - 4º. Macabeeo
+    - 4º. Macabbeo
+    - 4º. Maccabeo
+    - 4º. Macabeo
+    - 4.o Maccabbeeos
+    - 4.o Macabbeeos
+    - 4.o Maccabeeos
+    - 4.o Maccabbeos
+    - 4.o Maccabbeeo
+    - 4.o Macabeeos
+    - 4.o Macabbeos
+    - 4.o Macabbeeo
+    - 4.o Maccabeos
+    - 4.o Maccabeeo
+    - 4.o Maccabbeo
+    - 4.o Macabeos
+    - 4.o Macabeeo
+    - 4.o Macabbeo
+    - 4.o Maccabeo
+    - 4.o Macabeo
+    - 4.o. Maccabbeeos
+    - 4.o. Macabbeeos
+    - 4.o. Maccabeeos
+    - 4.o. Maccabbeos
+    - 4.o. Maccabbeeo
+    - 4.o. Macabeeos
+    - 4.o. Macabbeos
+    - 4.o. Macabbeeo
+    - 4.o. Maccabeos
+    - 4.o. Maccabeeo
+    - 4.o. Maccabbeo
+    - 4.o. Macabeos
+    - 4.o. Macabeeo
+    - 4.o. Macabbeo
+    - 4.o. Maccabeo
+    - 4.o. Macabeo
+    - 4o Maccabbeeos
+    - 4o Macabbeeos
+    - 4o Maccabeeos
+    - 4o Maccabbeos
+    - 4o Maccabbeeo
+    - 4o Macabeeos
+    - 4o Macabbeos
+    - 4o Macabbeeo
+    - 4o Maccabeos
+    - 4o Maccabeeo
+    - 4o Maccabbeo
+    - 4o Macabeos
+    - 4o Macabeeo
+    - 4o Macabbeo
+    - 4o Maccabeo
+    - 4o Macabeo
+    - 4o. Maccabbeeos
+    - 4o. Macabbeeos
+    - 4o. Maccabeeos
+    - 4o. Maccabbeos
+    - 4o. Maccabbeeo
+    - 4o. Macabeeos
+    - 4o. Macabbeos
+    - 4o. Macabbeeo
+    - 4o. Maccabeos
+    - 4o. Maccabeeo
+    - 4o. Maccabbeo
+    - 4o. Macabeos
+    - 4o. Macabeeo
+    - 4o. Macabbeo
+    - 4o. Maccabeo
+    - 4o. Macabeo
+    - 4 Maccabbeeos
+    - 4 Macabbeeos
+    - 4 Maccabeeos
+    - 4 Maccabbeos
+    - 4 Maccabbeeo
+    - 4 Macabeeos
+    - 4 Macabbeos
+    - 4 Macabbeeo
+    - 4 Maccabeos
+    - 4 Maccabeeo
+    - 4 Maccabbeo
+    - 4 Macabeos
+    - 4 Macabeeo
+    - 4 Macabbeo
+    - 4 Maccabeo
+    - 4 Macabeo
+    - 4. Maccabbeeos
+    - 4. Macabbeeos
+    - 4. Maccabeeos
+    - 4. Maccabbeos
+    - 4. Maccabbeeo
+    - 4. Macabeeos
+    - 4. Macabbeos
+    - 4. Macabbeeo
+    - 4. Maccabeos
+    - 4. Maccabeeo
+    - 4. Maccabbeo
+    - 4. Macabeos
+    - 4. Macabeeo
+    - 4. Macabbeo
+    - 4. Maccabeo
+    - 4. Macabeo
+    - IV Maccabbeeos
+    - IV Macabbeeos
+    - IV Maccabeeos
+    - IV Maccabbeos
+    - IV Maccabbeeo
+    - IV Macabeeos
+    - IV Macabbeos
+    - IV Macabbeeo
+    - IV Maccabeos
+    - IV Maccabeeo
+    - IV Maccabbeo
+    - IV Macabeos
+    - IV Macabeeo
+    - IV Macabbeo
+    - IV Maccabeo
+    - IV Macabeo
+    - IV. Maccabbeeos
+    - IV. Macabbeeos
+    - IV. Maccabeeos
+    - IV. Maccabbeos
+    - IV. Maccabbeeo
+    - IV. Macabeeos
+    - IV. Macabbeos
+    - IV. Macabbeeo
+    - IV. Maccabeos
+    - IV. Maccabeeo
+    - IV. Maccabbeo
+    - IV. Macabeos
+    - IV. Macabeeo
+    - IV. Macabbeo
+    - IV. Maccabeo
+    - IV. Macabeo
+    - Cuarto Maccabbeeos
+    - Cuarto Macabbeeos
+    - Cuarto Maccabeeos
+    - Cuarto Maccabbeos
+    - Cuarto Maccabbeeo
+    - Cuarto Macabeeos
+    - Cuarto Macabbeos
+    - Cuarto Macabbeeo
+    - Cuarto Maccabeos
+    - Cuarto Maccabeeo
+    - Cuarto Maccabbeo
+    - Cuarto Macabeos
+    - Cuarto Macabeeo
+    - Cuarto Macabbeo
+    - Cuarto Maccabeo
+    - Cuarto Macabeo
+    - Cuarto. Maccabbeeos
+    - Cuarto. Macabbeeos
+    - Cuarto. Maccabeeos
+    - Cuarto. Maccabbeos
+    - Cuarto. Maccabbeeo
+    - Cuarto. Macabeeos
+    - Cuarto. Macabbeos
+    - Cuarto. Macabbeeo
+    - Cuarto. Maccabeos
+    - Cuarto. Maccabeeo
+    - Cuarto. Maccabbeo
+    - Cuarto. Macabeos
+    - Cuarto. Macabeeo
+    - Cuarto. Macabbeo
+    - Cuarto. Maccabeo
+    - Cuarto. Macabeo
+- osis: 2Macc
+  texts:
+    - 2 Macabeos
+    - 2 Macc
+    - 2 Mac
+    - 2Macc
+    - 2 Mc
+    - 2 M
+- osis: 3Macc
+  texts:
+    - 3 Macabeos
+    - 3 Macc
+    - 3 Mac
+    - 3Macc
+    - 3 Mc
+    - 3 M
+- osis: 4Macc
+  texts:
+    - 4 Macabeos
+    - 4 Macc
+    - 4 Mac
+    - 4Macc
+    - 4 Mc
+    - 4 M
+- osis: 1Macc
+  texts:
+    - 1 Macabeos
+    - 1 Macc
+    - 1 Mac
+    - 1Macc
+    - 1 Mc
+    - 1 M
+- osis: Mark
+  texts:
+    - El Evangelio de Marcos
+    - Evangelio de Marcos
+    - San Marcos
+    - Marcos
+    - Mrcos
+    - Marc
+    - Mark
+    - Mar
+    - Mrc
+    - Mc
+    - Mr
+- osis: Luke
+  texts:
+    - El Evangelio de Lucas
+    - Evangelio de Lucas
+    - San Lucas
+    - Lucas
+    - Luke
+    - Luc
+    - Lc
+    - Lu
+- osis: 1John
+  texts:
+    - 1.º San Jaan
+    - 1.º San Jaun
+    - 1.º San Juun
+    - 1.º. San Jaan
+    - 1.º. San Jaun
+    - 1.º. San Juun
+    - 1º San Jaan
+    - 1º San Jaun
+    - 1º San Juun
+    - 1º. San Jaan
+    - 1º. San Jaun
+    - 1º. San Juun
+    - 1.o San Jaan
+    - 1.o San Jaun
+    - 1.o San Juun
+    - 1.o. San Jaan
+    - 1.o. San Jaun
+    - 1.o. San Juun
+    - 1o San Jaan
+    - 1o San Jaun
+    - 1o San Juun
+    - 1o. San Jaan
+    - 1o. San Jaun
+    - 1o. San Juun
+    - 1 San Jaan
+    - 1 San Jaun
+    - 1 San Juun
+    - 1. San Jaan
+    - 1. San Jaun
+    - 1. San Juun
+    - I San Jaan
+    - I San Jaun
+    - I San Juun
+    - I. San Jaan
+    - I. San Jaun
+    - I. San Juun
+    - Primer San Jaan
+    - Primer San Jaun
+    - Primer San Juun
+    - Primer. San Jaan
+    - Primer. San Jaun
+    - Primer. San Juun
+    - Primero San Jaan
+    - Primero San Jaun
+    - Primero San Juun
+    - Primero. San Jaan
+    - Primero. San Jaun
+    - Primero. San Juun
+- osis: 2John
+  texts:
+    - 2.º San Jaan
+    - 2.º San Jaun
+    - 2.º San Juun
+    - 2.º. San Jaan
+    - 2.º. San Jaun
+    - 2.º. San Juun
+    - 2º San Jaan
+    - 2º San Jaun
+    - 2º San Juun
+    - 2º. San Jaan
+    - 2º. San Jaun
+    - 2º. San Juun
+    - 2.o San Jaan
+    - 2.o San Jaun
+    - 2.o San Juun
+    - 2.o. San Jaan
+    - 2.o. San Jaun
+    - 2.o. San Juun
+    - 2o San Jaan
+    - 2o San Jaun
+    - 2o San Juun
+    - 2o. San Jaan
+    - 2o. San Jaun
+    - 2o. San Juun
+    - 2 San Jaan
+    - 2 San Jaun
+    - 2 San Juun
+    - 2. San Jaan
+    - 2. San Jaun
+    - 2. San Juun
+    - II San Jaan
+    - II San Jaun
+    - II San Juun
+    - II. San Jaan
+    - II. San Jaun
+    - II. San Juun
+    - Segundo San Jaan
+    - Segundo San Jaun
+    - Segundo San Juun
+    - Segundo. San Jaan
+    - Segundo. San Jaun
+    - Segundo. San Juun
+- osis: 3John
+  texts:
+    - 3.º San Jaan
+    - 3.º San Jaun
+    - 3.º San Juun
+    - 3.º. San Jaan
+    - 3.º. San Jaun
+    - 3.º. San Juun
+    - 3º San Jaan
+    - 3º San Jaun
+    - 3º San Juun
+    - 3º. San Jaan
+    - 3º. San Jaun
+    - 3º. San Juun
+    - 3.o San Jaan
+    - 3.o San Jaun
+    - 3.o San Juun
+    - 3.o. San Jaan
+    - 3.o. San Jaun
+    - 3.o. San Juun
+    - 3o San Jaan
+    - 3o San Jaun
+    - 3o San Juun
+    - 3o. San Jaan
+    - 3o. San Jaun
+    - 3o. San Juun
+    - 3 San Jaan
+    - 3 San Jaun
+    - 3 San Juun
+    - 3. San Jaan
+    - 3. San Jaun
+    - 3. San Juun
+    - III San Jaan
+    - III San Jaun
+    - III San Juun
+    - III. San Jaan
+    - III. San Jaun
+    - III. San Juun
+    - Tercer San Jaan
+    - Tercer San Jaun
+    - Tercer San Juun
+    - Tercer. San Jaan
+    - Tercer. San Jaun
+    - Tercer. San Juun
+    - Tercero San Jaan
+    - Tercero San Jaun
+    - Tercero San Juun
+    - Tercero. San Jaan
+    - Tercero. San Jaun
+    - Tercero. San Juun
+- osis: 1John
+  texts:
+    - 1 Juan
+    - 1John
+    - 1 Jn
+- osis: 2John
+  texts:
+    - 2 Juan
+    - 2John
+    - 2 Jn
+- osis: 3John
+  texts:
+    - 3 Juan
+    - 3John
+    - 3 Jn
+- osis: 1John
+  texts:
+    - 1.º San Juan
+    - 1.º Jaan
+    - 1.º Jaun
+    - 1.º Juan
+    - 1.º Juun
+    - 1.º. San Juan
+    - 1.º. Jaan
+    - 1.º. Jaun
+    - 1.º. Juan
+    - 1.º. Juun
+    - 1º San Juan
+    - 1º Jaan
+    - 1º Jaun
+    - 1º Juan
+    - 1º Juun
+    - 1º. San Juan
+    - 1º. Jaan
+    - 1º. Jaun
+    - 1º. Juan
+    - 1º. Juun
+    - 1.o San Juan
+    - 1.o Jaan
+    - 1.o Jaun
+    - 1.o Juan
+    - 1.o Juun
+    - 1.o. San Juan
+    - 1.o. Jaan
+    - 1.o. Jaun
+    - 1.o. Juan
+    - 1.o. Juun
+    - 1o San Juan
+    - 1o Jaan
+    - 1o Jaun
+    - 1o Juan
+    - 1o Juun
+    - 1o. San Juan
+    - 1o. Jaan
+    - 1o. Jaun
+    - 1o. Juan
+    - 1o. Juun
+    - 1 San Juan
+    - 1 Jaan
+    - 1 Jaun
+    - 1 Juan
+    - 1 Juun
+    - 1. San Juan
+    - 1. Jaan
+    - 1. Jaun
+    - 1. Juan
+    - 1. Juun
+    - I San Juan
+    - I Jaan
+    - I Jaun
+    - I Juan
+    - I Juun
+    - I. San Juan
+    - I. Jaan
+    - I. Jaun
+    - I. Juan
+    - I. Juun
+    - Primer San Juan
+    - Primer Jaan
+    - Primer Jaun
+    - Primer Juan
+    - Primer Juun
+    - Primer. San Juan
+    - Primer. Jaan
+    - Primer. Jaun
+    - Primer. Juan
+    - Primer. Juun
+    - Primero San Juan
+    - Primero Jaan
+    - Primero Jaun
+    - Primero Juan
+    - Primero Juun
+    - Primero. San Juan
+    - Primero. Jaan
+    - Primero. Jaun
+    - Primero. Juan
+    - Primero. Juun
+- osis: 2John
+  texts:
+    - 2.º San Juan
+    - 2.º Jaan
+    - 2.º Jaun
+    - 2.º Juan
+    - 2.º Juun
+    - 2.º. San Juan
+    - 2.º. Jaan
+    - 2.º. Jaun
+    - 2.º. Juan
+    - 2.º. Juun
+    - 2º San Juan
+    - 2º Jaan
+    - 2º Jaun
+    - 2º Juan
+    - 2º Juun
+    - 2º. San Juan
+    - 2º. Jaan
+    - 2º. Jaun
+    - 2º. Juan
+    - 2º. Juun
+    - 2.o San Juan
+    - 2.o Jaan
+    - 2.o Jaun
+    - 2.o Juan
+    - 2.o Juun
+    - 2.o. San Juan
+    - 2.o. Jaan
+    - 2.o. Jaun
+    - 2.o. Juan
+    - 2.o. Juun
+    - 2o San Juan
+    - 2o Jaan
+    - 2o Jaun
+    - 2o Juan
+    - 2o Juun
+    - 2o. San Juan
+    - 2o. Jaan
+    - 2o. Jaun
+    - 2o. Juan
+    - 2o. Juun
+    - 2 San Juan
+    - 2 Jaan
+    - 2 Jaun
+    - 2 Juan
+    - 2 Juun
+    - 2. San Juan
+    - 2. Jaan
+    - 2. Jaun
+    - 2. Juan
+    - 2. Juun
+    - II San Juan
+    - II Jaan
+    - II Jaun
+    - II Juan
+    - II Juun
+    - II. San Juan
+    - II. Jaan
+    - II. Jaun
+    - II. Juan
+    - II. Juun
+    - Segundo San Juan
+    - Segundo Jaan
+    - Segundo Jaun
+    - Segundo Juan
+    - Segundo Juun
+    - Segundo. San Juan
+    - Segundo. Jaan
+    - Segundo. Jaun
+    - Segundo. Juan
+    - Segundo. Juun
+- osis: 3John
+  texts:
+    - 3.º San Juan
+    - 3.º Jaan
+    - 3.º Jaun
+    - 3.º Juan
+    - 3.º Juun
+    - 3.º. San Juan
+    - 3.º. Jaan
+    - 3.º. Jaun
+    - 3.º. Juan
+    - 3.º. Juun
+    - 3º San Juan
+    - 3º Jaan
+    - 3º Jaun
+    - 3º Juan
+    - 3º Juun
+    - 3º. San Juan
+    - 3º. Jaan
+    - 3º. Jaun
+    - 3º. Juan
+    - 3º. Juun
+    - 3.o San Juan
+    - 3.o Jaan
+    - 3.o Jaun
+    - 3.o Juan
+    - 3.o Juun
+    - 3.o. San Juan
+    - 3.o. Jaan
+    - 3.o. Jaun
+    - 3.o. Juan
+    - 3.o. Juun
+    - 3o San Juan
+    - 3o Jaan
+    - 3o Jaun
+    - 3o Juan
+    - 3o Juun
+    - 3o. San Juan
+    - 3o. Jaan
+    - 3o. Jaun
+    - 3o. Juan
+    - 3o. Juun
+    - 3 San Juan
+    - 3 Jaan
+    - 3 Jaun
+    - 3 Juan
+    - 3 Juun
+    - 3. San Juan
+    - 3. Jaan
+    - 3. Jaun
+    - 3. Juan
+    - 3. Juun
+    - III San Juan
+    - III Jaan
+    - III Jaun
+    - III Juan
+    - III Juun
+    - III. San Juan
+    - III. Jaan
+    - III. Jaun
+    - III. Juan
+    - III. Juun
+    - Tercer San Juan
+    - Tercer Jaan
+    - Tercer Jaun
+    - Tercer Juan
+    - Tercer Juun
+    - Tercer. San Juan
+    - Tercer. Jaan
+    - Tercer. Jaun
+    - Tercer. Juan
+    - Tercer. Juun
+    - Tercero San Juan
+    - Tercero Jaan
+    - Tercero Jaun
+    - Tercero Juan
+    - Tercero Juun
+    - Tercero. San Juan
+    - Tercero. Jaan
+    - Tercero. Jaun
+    - Tercero. Juan
+    - Tercero. Juun
+- osis: John
+  texts:
+    - San Juan
+    - Jaan
+    - Jaun
+    - Juan
+    - Juun
+- osis: John
+  texts:
+    - El Evangelio de Jaan
+    - El Evangelio de Jaun
+    - El Evangelio de Juan
+    - El Evangelio de Juun
+    - John
+    - Jn
+- osis: Acts
+  texts:
+    - Los Hechos de los Apóstoles
+    - Hechos de los Apóstoles
+    - Los Hechos
+    - Hechos
+    - Acts
+    - Hech
+    - Hch
+    - Hec
+    - Hc
+- osis: Rom
+  texts:
+    - Romanos
+    - Romano
+    - Rmns
+    - Roms
+    - Rms
+    - Rmn
+    - Rom
+    - Ros
+    - Rm
+    - Ro
+- osis: 1Cor
+  texts:
+    - 1.º Corintios
+    - 1.º. Corintios
+    - 1º Corintios
+    - 1º. Corintios
+    - 1.o Corintios
+    - 1.o. Corintios
+    - 1o Corintios
+    - 1o. Corintios
+    - 1 Corintios
+    - 1. Corintios
+    - I Corintios
+    - I. Corintios
+    - Primer Corintios
+    - Primer. Corintios
+    - Primero Corintios
+    - Primero. Corintios
+- osis: 2Cor
+  texts:
+    - 2.º Corintios
+    - 2.º. Corintios
+    - 2º Corintios
+    - 2º. Corintios
+    - 2.o Corintios
+    - 2.o. Corintios
+    - 2o Corintios
+    - 2o. Corintios
+    - 2 Corintios
+    - 2. Corintios
+    - II Corintios
+    - II. Corintios
+    - Segundo Corintios
+    - Segundo. Corintios
+- osis: 2Cor
+  texts:
+    - 2 Corintios
+    - 2 Corinti
+    - 2 Corini
+    - 2 Corint
+    - 2 Corin
+    - 2 Cor
+    - 2 Co
+    - 2Cor
+- osis: 1Cor
+  texts:
+    - 1 Corintios
+    - 1 Corinti
+    - 1 Corini
+    - 1 Corint
+    - 1 Corin
+    - 1 Cor
+    - 1 Co
+    - 1Cor
+- osis: Gal
+  texts:
+    - Gálatas
+    - Gálat
+    - Gal
+    - Gál
+    - Gá
+- osis: Eph
+  texts:
+    - Efesios
+    - Efes
+    - Eph
+    - Ef
+- osis: Phil
+  texts:
+    - Filipenses
+    - Filip
+    - Fili
+    - Phil
+    - Fil
+    - Flp
+- osis: Col
+  texts:
+    - Colosenses
+    - Colos
+    - Col
+- osis: 1Thess
+  texts:
+    - 1.º Tesalonicenses
+    - 1.º Tesalonisenses
+    - 1.º Tesalonicense
+    - 1.º Tesalonisense
+    - 1.º. Tesalonicenses
+    - 1.º. Tesalonisenses
+    - 1.º. Tesalonicense
+    - 1.º. Tesalonisense
+    - 1º Tesalonicenses
+    - 1º Tesalonisenses
+    - 1º Tesalonicense
+    - 1º Tesalonisense
+    - 1º. Tesalonicenses
+    - 1º. Tesalonisenses
+    - 1º. Tesalonicense
+    - 1º. Tesalonisense
+    - 1.o Tesalonicenses
+    - 1.o Tesalonisenses
+    - 1.o Tesalonicense
+    - 1.o Tesalonisense
+    - 1.o. Tesalonicenses
+    - 1.o. Tesalonisenses
+    - 1.o. Tesalonicense
+    - 1.o. Tesalonisense
+    - 1o Tesalonicenses
+    - 1o Tesalonisenses
+    - 1o Tesalonicense
+    - 1o Tesalonisense
+    - 1o. Tesalonicenses
+    - 1o. Tesalonisenses
+    - 1o. Tesalonicense
+    - 1o. Tesalonisense
+    - 1 Tesalonicenses
+    - 1 Tesalonisenses
+    - 1 Tesalonicense
+    - 1 Tesalonisense
+    - 1. Tesalonicenses
+    - 1. Tesalonisenses
+    - 1. Tesalonicense
+    - 1. Tesalonisense
+    - I Tesalonicenses
+    - I Tesalonisenses
+    - I Tesalonicense
+    - I Tesalonisense
+    - I. Tesalonicenses
+    - I. Tesalonisenses
+    - I. Tesalonicense
+    - I. Tesalonisense
+    - Primer Tesalonicenses
+    - Primer Tesalonisenses
+    - Primer Tesalonicense
+    - Primer Tesalonisense
+    - Primer. Tesalonicenses
+    - Primer. Tesalonisenses
+    - Primer. Tesalonicense
+    - Primer. Tesalonisense
+    - Primero Tesalonicenses
+    - Primero Tesalonisenses
+    - Primero Tesalonicense
+    - Primero Tesalonisense
+    - Primero. Tesalonicenses
+    - Primero. Tesalonisenses
+    - Primero. Tesalonicense
+    - Primero. Tesalonisense
+- osis: 2Thess
+  texts:
+    - 2.º Tesalonicenses
+    - 2.º Tesalonisenses
+    - 2.º Tesalonicense
+    - 2.º Tesalonisense
+    - 2.º. Tesalonicenses
+    - 2.º. Tesalonisenses
+    - 2.º. Tesalonicense
+    - 2.º. Tesalonisense
+    - 2º Tesalonicenses
+    - 2º Tesalonisenses
+    - 2º Tesalonicense
+    - 2º Tesalonisense
+    - 2º. Tesalonicenses
+    - 2º. Tesalonisenses
+    - 2º. Tesalonicense
+    - 2º. Tesalonisense
+    - 2.o Tesalonicenses
+    - 2.o Tesalonisenses
+    - 2.o Tesalonicense
+    - 2.o Tesalonisense
+    - 2.o. Tesalonicenses
+    - 2.o. Tesalonisenses
+    - 2.o. Tesalonicense
+    - 2.o. Tesalonisense
+    - 2o Tesalonicenses
+    - 2o Tesalonisenses
+    - 2o Tesalonicense
+    - 2o Tesalonisense
+    - 2o. Tesalonicenses
+    - 2o. Tesalonisenses
+    - 2o. Tesalonicense
+    - 2o. Tesalonisense
+    - 2 Tesalonicenses
+    - 2 Tesalonisenses
+    - 2 Tesalonicense
+    - 2 Tesalonisense
+    - 2. Tesalonicenses
+    - 2. Tesalonisenses
+    - 2. Tesalonicense
+    - 2. Tesalonisense
+    - II Tesalonicenses
+    - II Tesalonisenses
+    - II Tesalonicense
+    - II Tesalonisense
+    - II. Tesalonicenses
+    - II. Tesalonisenses
+    - II. Tesalonicense
+    - II. Tesalonisense
+    - Segundo Tesalonicenses
+    - Segundo Tesalonisenses
+    - Segundo Tesalonicense
+    - Segundo Tesalonisense
+    - Segundo. Tesalonicenses
+    - Segundo. Tesalonisenses
+    - Segundo. Tesalonicense
+    - Segundo. Tesalonisense
+- osis: 2Thess
+  texts:
+    - 2 Tesalonicenses
+    - 2 Thess
+    - 2Thess
+    - 2 Tes
+    - 2 Ts
+- osis: 1Thess
+  texts:
+    - 1 Tesalonicenses
+    - 1 Thess
+    - 1Thess
+    - 1 Tes
+    - 1 Ts
+- osis: 1Tim
+  texts:
+    - 1.º Timoteo
+    - 1.º. Timoteo
+    - 1º Timoteo
+    - 1º. Timoteo
+    - 1.o Timoteo
+    - 1.o. Timoteo
+    - 1o Timoteo
+    - 1o. Timoteo
+    - 1 Timoteo
+    - 1. Timoteo
+    - I Timoteo
+    - I. Timoteo
+    - Primer Timoteo
+    - Primer. Timoteo
+    - Primero Timoteo
+    - Primero. Timoteo
+- osis: 2Tim
+  texts:
+    - 2.º Timoteo
+    - 2.º. Timoteo
+    - 2º Timoteo
+    - 2º. Timoteo
+    - 2.o Timoteo
+    - 2.o. Timoteo
+    - 2o Timoteo
+    - 2o. Timoteo
+    - 2 Timoteo
+    - 2. Timoteo
+    - II Timoteo
+    - II. Timoteo
+    - Segundo Timoteo
+    - Segundo. Timoteo
+- osis: 2Tim
+  texts:
+    - 2 Timoteo
+    - 2 Tim
+    - 2 Ti
+    - 2 Tm
+    - 2Tim
+- osis: 1Tim
+  texts:
+    - 1 Timoteo
+    - 1 Tim
+    - 1 Ti
+    - 1 Tm
+    - 1Tim
+- osis: Titus
+  texts:
+    - Titus
+    - Tito
+    - Tit
+    - Ti
+    - Tt
+- osis: Phlm
+  texts:
+    - Filemón
+    - Filem
+    - Flmn
+    - Phlm
+    - Flm
+    - Fmn
+- osis: Heb
+  texts:
+    - Hebeees
+    - Hebeeos
+    - Hebeers
+    - Hebeoes
+    - Hebeoos
+    - Hebeors
+    - Heberes
+    - Heberos
+    - Heberrs
+    - Heboees
+    - Heboeos
+    - Heboers
+    - Hebooes
+    - Hebooos
+    - Heboors
+    - Hebores
+    - Heboros
+    - Heborrs
+    - Hebrees
+    - Hebreos
+    - Hebrers
+    - Hebroes
+    - Hebroos
+    - Hebrors
+    - Hebrres
+    - Hebrros
+    - Hebrrrs
+    - Hebees
+    - Hebeos
+    - Hebers
+    - Heboes
+    - Heboos
+    - Hebors
+    - Hebres
+    - Hebros
+    - Hebrrs
+    - Hebreo
+    - Hebes
+    - Hebos
+    - Hebrs
+    - Hebr
+    - Heb
+    - He
+- osis: Jas
+  texts:
+    - Santiago
+    - Sant
+    - Jas
+    - Stg
+    - St
+- osis: 1Pet
+  texts:
+    - 1.º San Pedro
+    - 1.º Pedro
+    - 1.º. San Pedro
+    - 1.º. Pedro
+    - 1º San Pedro
+    - 1º Pedro
+    - 1º. San Pedro
+    - 1º. Pedro
+    - 1.o San Pedro
+    - 1.o Pedro
+    - 1.o. San Pedro
+    - 1.o. Pedro
+    - 1o San Pedro
+    - 1o Pedro
+    - 1o. San Pedro
+    - 1o. Pedro
+    - 1 San Pedro
+    - 1 Pedro
+    - 1. San Pedro
+    - 1. Pedro
+    - I San Pedro
+    - I Pedro
+    - I. San Pedro
+    - I. Pedro
+    - Primer San Pedro
+    - Primer Pedro
+    - Primer. San Pedro
+    - Primer. Pedro
+    - Primero San Pedro
+    - Primero Pedro
+    - Primero. San Pedro
+    - Primero. Pedro
+- osis: 2Pet
+  texts:
+    - 2.º San Pedro
+    - 2.º Pedro
+    - 2.º. San Pedro
+    - 2.º. Pedro
+    - 2º San Pedro
+    - 2º Pedro
+    - 2º. San Pedro
+    - 2º. Pedro
+    - 2.o San Pedro
+    - 2.o Pedro
+    - 2.o. San Pedro
+    - 2.o. Pedro
+    - 2o San Pedro
+    - 2o Pedro
+    - 2o. San Pedro
+    - 2o. Pedro
+    - 2 San Pedro
+    - 2 Pedro
+    - 2. San Pedro
+    - 2. Pedro
+    - II San Pedro
+    - II Pedro
+    - II. San Pedro
+    - II. Pedro
+    - Segundo San Pedro
+    - Segundo Pedro
+    - Segundo. San Pedro
+    - Segundo. Pedro
+- osis: 2Pet
+  texts:
+    - 2 Pedro
+    - 2 Ped
+    - 2 Pd
+    - 2 Pe
+    - 2Pet
+    - 2 P
+- osis: 1Pet
+  texts:
+    - 1 Pedro
+    - 1 Ped
+    - 1 Pd
+    - 1 Pe
+    - 1Pet
+    - 1 P
+- osis: Jude
+  texts:
+    - San Judas
+    - Judas
+    - Jdas
+    - Jude
+    - Jud
+    - Jd
+- osis: Tob
+  texts:
+    - Tobit
+    - Tobt
+    - Tobi
+    - Tob
+    - Tb
+- osis: Jdt
+  texts:
+    - Judit
+    - Jdit
+    - Judt
+    - Jdt
+- osis: Bar
+  texts:
+    - Baruc
+    - Bar
+    - Ba
+- osis: Sus
+  texts:
+    - Susana
+    - Sus
+- osis:
+    - Hab
+    - Hag
+  texts:
+    - Ha
+- osis:
+    - Heb
+    - Hab
+  texts:
+    - Hb
+- osis:
+    - Jonah
+    - Job
+    - Josh
+    - Joel
+  texts:
+    - Jo
+- osis:
+    - Jude
+    - Judg
+  texts:
+    - Ju
+- osis:
+    - Matt
+    - Mark
+    - Mal
+  texts:
+    - Ma
+- osis:
+    - Phil
+    - Phlm
+  texts:
+    - Fil

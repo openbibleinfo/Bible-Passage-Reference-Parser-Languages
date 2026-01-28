@@ -1,0 +1,561 @@
+variables:
+  first: &first
+    - "1"
+    - I
+  second: &second
+    - "2"
+    - II
+  third: &third
+    - "3"
+    - III
+  fourth: &fourth
+    - "4"
+    - IV
+  fifth: &fifth
+    - "5"
+    - V
+  and:
+    - og
+  chapter:
+    - kafli
+    - kafla
+    - kapítuli
+  verse:
+    - vers
+books:
+  - osis:
+      - osis: Gen
+        before: *first
+      - osis: Exod
+        before: *second
+      - osis: Lev
+        before: *third
+      - osis: Num
+        before: *fourth
+      - osis: Deut
+        before: *fifth
+    texts:
+      - Mósebók
+      - Mós
+  - osis: Gen
+    texts:
+      - Fyrsta bók Móse
+      - Fyrsta Mósebók
+      - Genesis
+      - 1Mós
+      - Gen
+  - osis: Exod
+    texts:
+      - Önnur bók Móse
+      - Önnur Mósebók
+      - Exodus
+      - Exod
+      - 2Mós
+  - osis: Bel
+    texts:
+      - Bel og drekinn
+      - Bel
+  - osis: Lev
+    texts:
+      - Þriðja bók Móse
+      - Þriðja Mósebók
+      - Leviticus
+      - 3Mós
+      - Lev
+  - osis: Num
+    texts:
+      - Fjórða bók Móse
+      - Fjórða Mósebók
+      - Numeri
+      - 4Mós
+      - Num
+  - osis: Sir
+    texts:
+      - Síraksbók
+      - Sir
+      - Sír
+  - osis: Wis
+    texts:
+      - Speki Salómons
+      - SSal
+      - Wis
+  - osis: Lam
+    texts:
+      - Harmljóðin
+      - Hlj
+      - Lam
+  - osis: EpJer
+    texts:
+      - Bréf Jeremía
+      - EpJer
+      - BJer
+  - osis: Rev
+    texts:
+      - Opinberunarbók Jóhannesar
+      - Opinberun Jóhannesar
+      - Opinberunarbókin
+      - Opb
+      - Rev
+  - osis: PrMan
+    texts:
+      - Bæn Manasse
+      - PrMan
+      - BMn
+  - osis: Deut
+    texts:
+      - Fimmta bók Móse
+      - Fimmta Mósebók
+      - Deuteronomium
+      - Deut
+      - 5Mós
+  - osis: Josh
+    texts:
+      - Jósuabók
+      - Jósúabók
+      - Josh
+      - Jós
+  - osis: Judg
+    texts:
+      - Dómarabókin
+      - Dómarabók
+      - Judg
+      - Dóm
+  - osis: Ruth
+    texts:
+      - Rutarbók
+      - Ruth
+      - Rut
+  - osis: 1Esd
+    texts:
+      - 1Esd
+  - osis: 2Esd
+    texts:
+      - 2Esd
+  - osis: Isa
+    texts:
+      - Jesaja
+      - Isa
+      - Jes
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Sam
+  - osis: 2Sam
+    texts:
+      - Síðari Samúelsbók
+      - 2 Sam
+      - 2Sam
+  - osis: 1Sam
+    texts:
+      - Fyrri Samúelsbók
+      - 1 Sam
+      - 1Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Kon
+  - osis: 2Kgs
+    texts:
+      - Síðari bók konunganna
+      - Síðari Konungabók
+      - Síðari konungabók
+      - 2 Kon
+      - 2Kgs
+  - osis: 1Kgs
+    texts:
+      - Fyrri bók konunganna
+      - Fyrri Konungabók
+      - Fyrri konungabók
+      - 1 Kon
+      - 1Kgs
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Kro
+  - osis: 2Chr
+    texts:
+      - Síðari Kroníkubók
+      - Síðari kroníkubók
+      - 2 Kro
+      - 2Chr
+  - osis: 1Chr
+    texts:
+      - Fyrri Kroníkubók
+      - Fyrri kroníkubók
+      - 1 Kro
+      - 1Chr
+  - osis: Ezra
+    texts:
+      - Esrabók
+      - Ezra
+      - Esr
+  - osis: Neh
+    texts:
+      - Nehemíabók
+      - Neh
+  - osis: GkEsth
+    texts:
+      - Esterarbók hin gríska
+      - GkEsth
+  - osis: Esth
+    texts:
+      - Esterarbók
+      - Esth
+      - Est
+  - osis: Job
+    texts:
+      - Jobsbók
+      - Job
+  - osis: Ps
+    texts:
+      - Sálmarnir
+      - Slm
+      - Ps
+  - osis: PrAzar
+    texts:
+      - Bæn Asarja
+      - PrAzar
+  - osis: Prov
+    texts:
+      - Orðskviðirnir
+      - Prov
+      - Okv
+  - osis: Eccl
+    texts:
+      - Prédikarinn
+      - Eccl
+      - Préd
+  - osis: SgThree
+    texts:
+      - Lofsöngur ungmennanna þriggja
+      - SgThree
+  - osis: Song
+    texts:
+      - Ljóðaljóðin
+      - Song
+      - Ljl
+  - osis: Jer
+    texts:
+      - Jeremía
+      - Jer
+  - osis: Ezek
+    texts:
+      - Esekíel
+      - Ezek
+      - Esk
+  - osis: Dan
+    texts:
+      - Daníel
+      - Dan
+  - osis: Hos
+    texts:
+      - Hósea
+      - Hos
+      - Hós
+  - osis: Joel
+    texts:
+      - Joel
+      - Jóel
+      - Jl
+  - osis: Amos
+    texts:
+      - Amos
+      - Am
+  - osis: Obad
+    texts:
+      - Óbadía
+      - Obad
+      - Ób
+  - osis: Jonah
+    texts:
+      - Jonah
+      - Jónas
+      - Jón
+  - osis: Mic
+    texts:
+      - Míka
+      - Mic
+      - Mík
+  - osis: Nah
+    texts:
+      - Nahúm
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakkuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sefanía
+      - Zeph
+      - Sef
+  - osis: Hag
+    texts:
+      - Haggaí
+      - Hag
+  - osis: Zech
+    texts:
+      - Sakaría
+      - Zech
+      - Sak
+  - osis: Mal
+    texts:
+      - Malakí
+      - Mal
+  - osis: Matt
+    texts:
+      - Matteusarguðspjall
+      - Matt
+  - osis: Mark
+    texts:
+      - Markúsarguðspjall
+      - Mark
+      - Mrk
+  - osis: Luke
+    texts:
+      - Lúkasarguðspjall
+      - Luke
+      - Lúk
+  - osis: 1John
+    texts:
+      - Fyrsta bréf Jóhannesar hið almenna
+      - Fyrsta bréf Jóhannesar
+      - Fyrsta Jóhannesarbréf
+      - 1John
+      - 1 Jóh
+  - osis: 2John
+    texts:
+      - Annað bréf Jóhannesar
+      - Annað Jóhannesarbréf
+      - 2John
+      - 2 Jóh
+  - osis: 3John
+    texts:
+      - Þriðja bréf Jóhannesar
+      - Þriðja Jóhannesarbréf
+      - 3John
+      - 3 Jóh
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jóh
+  - osis: John
+    texts:
+      - Jóhannesarguðspjall
+      - John
+  - osis: Acts
+    texts:
+      - Postulasagan
+      - Acts
+      - Post
+  - osis: Rom
+    texts:
+      - Bréf Páls til Rómverja
+      - Rómverjabréfið
+      - Rom
+      - Róm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kor
+  - osis: 2Cor
+    texts:
+      - Síðara bréf Páls til Korintumanna
+      - Síðara bréf Páls til Kori
+      - Síðara Korintubréf
+      - Síðara Kórintubréf
+      - 2 Kor
+      - 2Cor
+  - osis: 1Cor
+    texts:
+      - Fyrra bréf Páls til Korintumanna
+      - Fyrra bréf Páls til Korin
+      - Fyrra Korintubréf
+      - 1 Kor
+      - 1Cor
+  - osis: Gal
+    texts:
+      - Bréf Páls til Galatamanna
+      - Galatabréfið
+      - Gal
+  - osis: Eph
+    texts:
+      - Bréf Páls til Efesusmanna
+      - Efesusbréfið
+      - Eph
+      - Ef
+  - osis: Phil
+    texts:
+      - Bréf Páls til Filippímanna
+      - Bréf Páls til Filippímann
+      - Filippíbréfið
+      - Phil
+      - Fil
+  - osis: Col
+    texts:
+      - Bréf Páls til Kólossumanna
+      - Bréf Páls til Kólossumann
+      - Kólossubréfið
+      - Kólussubréfið
+      - Col
+      - Kól
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Þess
+  - osis: 2Thess
+    texts:
+      - Síðara bréf Páls til Þessaloníkumanna
+      - Síðara bréf Páls til Þess
+      - Síðara Þessaloníkubréf
+      - 2Thess
+      - 2 Þess
+  - osis: 1Thess
+    texts:
+      - Fyrra bréf Páls til Þessaloníkumanna
+      - Fyrra bréf Páls til Þessa
+      - Fyrra Þessaloníkubréf
+      - 1Thess
+      - 1 Þess
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tím
+  - osis: 2Tim
+    texts:
+      - Síðara bréf Páls til Tímóteusar
+      - Síðara bréf Páls til Tímó
+      - Síðara Tímóteusarbréf
+      - 2 Tím
+      - 2Tim
+  - osis: 1Tim
+    texts:
+      - Fyrra bréf Páls til Tímóteusar
+      - Fyrra bréf Páls til Tímót
+      - Fyrra Tímóteusarbréf
+      - 1 Tím
+      - 1Tim
+  - osis: Titus
+    texts:
+      - Bréf Páls til Títusar
+      - Títusarbréfið
+      - Títusarbréf
+      - Titus
+      - Tít
+  - osis: Phlm
+    texts:
+      - Bréf Páls til Fílemons
+      - Fílemonsbréfið
+      - Fílm
+      - Phlm
+  - osis: Heb
+    texts:
+      - Bréfið til Hebrea
+      - Hebreabréfið
+      - Heb
+  - osis: Jas
+    texts:
+      - Hið almenna bréf Jakobs
+      - Jakobsbréfið
+      - Jak
+      - Jas
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pét
+  - osis: 2Pet
+    texts:
+      - Síðara almenna bréf Péturs
+      - Síðara Pétursbréf
+      - 2 Pét
+      - 2Pet
+  - osis: 1Pet
+    texts:
+      - Fyrra almenna bréf Péturs
+      - Fyrra Pétursbréf
+      - 1 Pét
+      - 1Pet
+  - osis: Jude
+    texts:
+      - Hið almenna bréf Júdasar
+      - Júdasarbréfið
+      - Júdasarbréf
+      - Jude
+      - Júd
+  - osis: Tob
+    texts:
+      - Tóbítsbók
+      - Tob
+  - osis: Jdt
+    texts:
+      - Júdítarbók
+      - Júdt
+      - Jdt
+  - osis: Bar
+    texts:
+      - Barúksbók
+      - Bar
+  - osis: Sus
+    texts:
+      - Súsanna
+      - Sus
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+      - osis: 3Macc
+        before: *third
+      - osis: 4Macc
+        before: *fourth
+    texts:
+      - Makk
+  - osis: 2Macc
+    texts:
+      - Önnur Makkabeabók
+      - 2 Makk
+      - 2Macc
+  - osis: 3Macc
+    texts:
+      - Þriðja Makkabeabók
+      - 3 Makk
+      - 3Macc
+  - osis: 4Macc
+    texts:
+      - Fjórða Makkabeabók
+      - 4 Makk
+      - 4Macc
+  - osis: 1Macc
+    texts:
+      - Fyrsta Makkabeabók
+      - 1 Makk
+      - 1Macc
+translations:
+  - B20

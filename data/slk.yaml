@@ -1,0 +1,741 @@
+variables:
+  first: &first
+    - Prvá kniha
+    - Prvý list
+    - Prvá
+    - Prvý
+    - 1 k
+    - I
+    - "1"
+  second: &second
+    - Druhá kniha
+    - Druhý list
+    - Druhá
+    - Druhý
+    - 2 k
+    - II
+    - "2"
+  third: &third
+    - Tretia kniha
+    - Tretia
+    - Tretí
+    - 3 k
+    - III
+    - "3"
+  fourth: &fourth
+    - Štvrtá kniha
+    - Štvrtá
+    - 4 k
+    - IV
+    - "4"
+  fifth: &fifth
+    - Piata kniha
+    - Piata
+    - 5 k
+    - V
+    - "5"
+  book: &book
+    - Kniha
+    - K.
+    - K
+  ab:
+    - b
+    - c
+    - d
+    - e
+  and:
+    - porov
+    - pozri
+    - alebo
+    - text: a
+      regexp_after: (?!\p{L})
+  chapter:
+    - kapitoly
+    - kapitole
+    - kapitolu
+    - kapitol
+    - hlavy
+    - kap.
+    - kap
+  to:
+    - až
+    - "-"
+  verse:
+    - veršov
+books:
+  - osis:
+      - osis: Gen
+        before: *book
+    texts:
+      - stvorenia
+      - pôvodu
+  - osis:
+      - osis: Gen
+        before: *first
+      - osis: Exod
+        before: *second
+      - osis: Lev
+        before: *third
+      - osis: Num
+        before: *fourth
+      - osis: Deut
+        before: *fifth
+    texts:
+      - Mojžišova
+  - osis: Gen
+    texts:
+      - Genezis
+      - 1 M
+      - Gen
+      - Gn
+  - osis: Exod
+    texts:
+      - Exodus
+      - Exod
+      - 2 M
+      - Ex
+  - osis: Bel
+    texts:
+      - Bél a drak
+      - Bel
+      - Bél
+  - osis: Lev
+    texts:
+      - Levitikus
+      - 3 M
+      - Lev
+      - Lv
+  - osis: Num
+    texts:
+      - Numeri
+      - 4 M
+      - Num
+      - Nm
+  - osis:
+      - osis: Sir
+      - osis: Sir
+        before: *book
+    texts:
+      - Sirachovcova
+  - osis:
+      - osis: Sir
+        before: *book
+    texts:
+      - Sirachovho syna
+      - Ekleziastikus
+      - Sirachovca
+  - osis: Sir
+    texts:
+      - Sirachovec
+      - Sir
+  - osis: Wis
+    texts:
+      - Múdrosti
+      - Múdrosť
+      - Múd
+      - Wis
+  - osis:
+      - osis: Lam
+        before: *book
+    texts:
+      - nárekov
+  - osis: Lam
+    texts:
+      - Jeremiášov Plač
+      - Plač Jeremiášov
+      - Žalospevy
+      - Náreky
+      - Žalosp
+      - Plač
+      - Lam
+      - Nár
+  - osis: EpJer
+    texts:
+      - Jeremiášov list
+      - EpJer
+  - osis: Rev
+    texts:
+      - Zjavenie Apoštola Jána
+      - Zjavenie svätého Jána
+      - Zjavenie Jána
+      - Apokalypsa
+      - Zjavenie
+      - Zjav
+      - Rev
+      - Zjv
+      - Zj
+  - osis: PrMan
+    texts:
+      - Manasesova modlitba
+      - PrMan
+  - osis: Deut
+    texts:
+      - Deuteronómium
+      - Deut
+      - 5 M
+      - Dt
+  - osis: Josh
+    texts:
+      - Jošuova
+      - Józuova
+      - Iosua
+      - Jozua
+      - Jozue
+      - Jošua
+      - Józua
+      - Josh
+      - Joz
+  - osis: Judg
+    texts:
+      - K. sudcov
+      - K sudcov
+      - Sudcovia
+      - Sudcov
+      - Judg
+      - Sdc
+      - Sud
+  - osis: Ruth
+    texts:
+      - Ruth
+      - Rút
+  - osis:
+      - osis: 1Esd
+        before: *first
+      - osis: 2Esd
+        before: *second
+    texts:
+      - Ezdrášova
+  - osis: 1Esd
+    texts:
+      - 1 Ezdráš
+      - 1Esd
+  - osis: 2Esd
+    texts:
+      - 2 Ezdráš
+      - 2Esd
+  - osis:
+      - osis: Ezra
+      - osis: 1Esd
+        before: *first
+      - osis: 2Esd
+        before: *second
+    texts:
+      - Ezdráš
+  - osis: Isa
+    texts:
+      - Izaiáš
+      - Izajáš
+      - Isa
+      - Iz
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuelova
+  - osis: 2Sam
+    texts:
+      - 2 Samuelova
+      - 2 Sam
+      - 2Sam
+      - 2 S
+  - osis: 1Sam
+    texts:
+      - 1 Samuelova
+      - 1 Sam
+      - 1Sam
+      - 1 S
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 1Kgs
+        before: *third
+      - osis: 2Kgs
+        before: *fourth
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Kráľov
+  - osis: 2Kgs
+    texts:
+      - 2 Kráľov
+      - 2 Krľ
+      - 2 Kr
+      - 2Kgs
+  - osis: 1Kgs
+    texts:
+      - 1 Kráľov
+      - 1 Krľ
+      - 1 Kr
+      - 1Kgs
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Paralipomenon
+      - Kronická
+      - Kroník
+  - osis: 2Chr
+    texts:
+      - 2 Kroník
+      - 2 Kron
+      - 2 Krn
+      - 2Chr
+  - osis: 1Chr
+    texts:
+      - 1 Kroník
+      - 1 Kron
+      - 1 Krn
+      - 1Chr
+  - osis: Ezra
+    texts:
+      - Ezra
+      - Ezd
+  - osis: Neh
+    texts:
+      - Nehemiáš
+      - Neh
+  - osis: GkEsth
+    texts:
+      - Grécke časti knihy Ester
+      - Ester (gr.)
+      - Ester (gr)
+      - GkEsth
+  - osis: Esth
+    texts:
+      - Ester
+      - Esth
+      - Est
+  - osis:
+      - osis: Job
+        before: *book
+    texts:
+      - Jóbova
+  - osis: Job
+    texts:
+      - Job
+      - Jób
+  - osis:
+      - osis: Ps
+        before: *book
+    texts:
+      - žalmov
+  - osis: Ps
+    texts:
+      - Žaltár
+      - Žalmy
+      - Žalm
+      - Ps
+      - Ž
+  - osis: PrAzar
+    texts:
+      - Azarjášova modlitba
+      - PrAzar
+  - osis:
+      - osis: Prov
+        before: *book
+    texts:
+      - prísloví
+  - osis: Prov
+    texts:
+      - Príslovia
+      - Prov
+      - Prís
+      - Pr
+  - osis:
+      - osis: Eccl
+        before: *book
+    texts:
+      - kazateľova
+  - osis: Eccl
+    texts:
+      - Kohelet — Kazateľ
+      - Ekleziastes
+      - Kazateľ
+      - Kohelet
+      - Eccl
+      - Kaz
+      - Koh
+  - osis: SgThree
+    texts:
+      - Traja mládenci v rozpálenej peci
+      - Pieseň mládencov v ohnivej peci
+      - SgThree
+  - osis: Song
+    texts:
+      - Veľpieseň Šalamúnova
+      - Pieseň Šalamúnova
+      - Pieseň piesní
+      - Veľpieseň
+      - Pieseň
+      - Pies
+      - Song
+      - Veľp
+      - Vľp
+      - text: PŠ
+        normalize: none
+  - osis: Jer
+    texts:
+      - Jeremiáš
+      - Jer
+  - osis: Ezek
+    texts:
+      - Ezechiel
+      - Ezek
+      - Ez
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan
+  - osis: Hos
+    texts:
+      - Hozeáš
+      - Ozeáš
+      - Hos
+      - Oz
+  - osis: Joel
+    texts:
+      - Joel
+  - osis: Amos
+    texts:
+      - Amos
+      - Ámos
+      - Am
+      - Ám
+  - osis: Obad
+    texts:
+      - Obadiáš
+      - Obediáš
+      - Abdiáš
+      - Obad
+      - Abd
+  - osis: Jonah
+    texts:
+      - Jonah
+      - Jonáš
+      - Jon
+  - osis: Mic
+    texts:
+      - Micheáš
+      - Mich
+      - Mic
+  - osis: Nah
+    texts:
+      - Nahum
+      - Náhum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuk
+      - Abakuk
+      - Hab
+      - Ab
+  - osis: Zeph
+    texts:
+      - Sofoniáš
+      - Zeph
+      - Sof
+  - osis: Hag
+    texts:
+      - Haggeus
+      - Aggeus
+      - Ageus
+      - Hag
+      - Ag
+  - osis: Zech
+    texts:
+      - Zachariáš
+      - Zach
+      - Zech
+  - osis: Mal
+    texts:
+      - Malachiáš
+      - Mal
+  - osis: Matt
+    texts:
+      - Evanjelium Podľa Matúša
+      - Matúša
+      - Matúš
+      - Matt
+      - Mt
+  - osis: Mark
+    texts:
+      - Evanjelium Podľa Marka
+      - Marek
+      - Marka
+      - Mark
+      - Mk
+  - osis: Luke
+    texts:
+      - Evanjelium Podľa Lukáša
+      - Lukáša
+      - Lukáš
+      - Luke
+      - Lk
+  - osis: 1John
+    texts:
+      - Prvý Jánov list
+      - 1 Jánov
+      - 1John
+      - 1 Jn
+      - 1 J
+  - osis: 2John
+    texts:
+      - Druhý Jánov list
+      - 2 Jánov
+      - 2John
+      - 2 Jn
+      - 2 J
+  - osis: 3John
+    texts:
+      - Tretí Jánov list
+      - 3 Jánov
+      - 3John
+      - 3 Jn
+      - 3 J
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jánov
+  - osis: John
+    texts:
+      - Evanjelium Podľa Jána
+      - John
+      - Jána
+      - Ján
+      - Jn
+  - osis: Acts
+    texts:
+      - Skutky apoštolov
+      - Skutky
+      - Acts
+      - Sk
+  - osis: Rom
+    texts:
+      - List Rimanom
+      - Rimanom
+      - Rímskym
+      - Rim
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintským
+      - Korinťanom
+  - osis: 2Cor
+    texts:
+      - 2 Korinťanom
+      - 2 Kor
+      - 2Cor
+  - osis: 1Cor
+    texts:
+      - 1 Korinťanom
+      - 1 Kor
+      - 1Cor
+  - osis: Gal
+    texts:
+      - List Galaťanom
+      - Galatským
+      - Galaťanom
+      - Gal
+      - Ga
+  - osis: Eph
+    texts:
+      - List Efezanom
+      - Efezanom
+      - Efezským
+      - Eph
+      - Ef
+  - osis: Phil
+    texts:
+      - List Filipanom
+      - Filipanom
+      - Filipským
+      - Phil
+      - Flp
+  - osis: Col
+    texts:
+      - List Kolosanom
+      - Kolosenským
+      - Kolosanom
+      - Col
+      - Kol
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaloničanom
+      - Tesalonickým
+      - Solúnčanom
+      - Solúnskym
+  - osis: 2Thess
+    texts:
+      - 2. Solúnčanom
+      - 2 Solúnčanom
+      - 2Thess
+      - 2 Sol
+      - 2 Tes
+  - osis: 1Thess
+    texts:
+      - 1. Solúnčanom
+      - 1 Solúnčanom
+      - 1Thess
+      - 1 Sol
+      - 1 Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotejovi
+      - Timoteovi
+  - osis: 2Tim
+    texts:
+      - 2. Timotejovi
+      - 2 Timotejovi
+      - 2 Tim
+      - 2Tim
+  - osis: 1Tim
+    texts:
+      - 1. Timotejovi
+      - 1 Timotejovi
+      - 1 Tim
+      - 1Tim
+  - osis: Titus
+    texts:
+      - List Títovi
+      - Títovi
+      - Titus
+      - Tít
+  - osis: Phlm
+    texts:
+      - List Filemónovi
+      - Filemonovi
+      - Filem
+      - Phlm
+      - Flm
+  - osis: Heb
+    texts:
+      - List Hebrejom
+      - Hebrejom
+      - Židom
+      - Hebr
+      - Heb
+      - Žid
+  - osis: Jas
+    texts:
+      - Jakubov List
+      - Jakubov
+      - Jak
+      - Jas
+      - Jk
+  - osis: 1Pet
+    texts:
+      - Prvý Petrov list
+      - 1 Petrov
+      - 1 Pt
+      - 1Pet
+  - osis: 2Pet
+    texts:
+      - Druhý Petrov list
+      - 2 Petrov
+      - 2 Pt
+      - 2Pet
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petrov
+  - osis: Jude
+    texts:
+      - Júdov List
+      - Júdov
+      - Jude
+      - Júd
+  - osis: Tob
+    texts:
+      - Tobiáš
+      - Tob
+  - osis:
+      - osis: Jdt
+        before: *book
+    texts:
+      - Juditina
+  - osis: Jdt
+    texts:
+      - Judita
+      - Judit
+      - Jdt
+  - osis: Bar
+    texts:
+      - Proroctvo Baruchovo
+      - Baruch
+      - Bar
+  - osis: Sus
+    texts:
+      - Zuzana
+      - Zuzane
+      - Sus
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+      - osis: 3Macc
+        before: *third
+      - osis: 4Macc
+        before: *fourth
+    texts:
+      - Machabejcov
+  - osis:
+      - osis: 2Macc
+        before: *second
+    texts:
+      - Makabejcov
+  - osis: 2Macc
+    texts:
+      - 2. Machabejcov
+      - 2 Machabejcov
+      - 2 Mach
+      - 2 Mak
+      - 2Macc
+  - osis: 3Macc
+    texts:
+      - 3. Machabejcov
+      - 3 Machabejcov
+      - 3 Mach
+      - 3 Mak
+      - 3Macc
+  - osis: 4Macc
+    texts:
+      - 4. Machabejcov
+      - 4 Machabejcov
+      - 4 Mach
+      - 4 Mak
+      - 4Macc
+  - osis: 1Macc
+    texts:
+      - Prvá Makabejcov
+      - 1. Machabejcov
+      - 1 Machabejcov
+      - 1 Mach
+      - 1 Mak
+      - 1Macc
+translations:
+  - SEB

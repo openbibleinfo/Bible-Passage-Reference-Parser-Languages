@@ -1,0 +1,691 @@
+variables:
+  first: &first
+    - Primo
+    - Prima
+    - 1°
+    - "1"
+    - I
+  second: &second
+    - Secondo
+    - Seconda
+    - 2°
+    - "2"
+    - II
+  third: &third
+    - Terzo
+    - Terza
+    - 3°
+    - "3"
+    - III
+  fourth: &fourth
+    - Quarto
+    - Quarta
+    - 4°
+    - "4"
+    - IV
+  gospel: &gospel
+    - Vangelo di San
+    - Vangelo di
+  ab:
+    - a
+    - b
+    - c
+    - d
+  and:
+    - vedi anche
+    - vedi
+    - cfr
+    - e
+  chapter:
+    - capitoli
+    - capitolo
+    - capp.
+    - capp
+    - cap.
+    - cap
+    - cc.
+    - cc
+  ff:
+    - ss
+    - ", ecc"
+    - ecc
+  title:
+    - titolo
+  to:
+    - al
+  verse:
+    - versetto
+    - versetti
+    - versi
+    - vv.
+    - vv
+    - text: v
+      regexp_after: (?!\p{L})
+ordinals:
+  - after:
+      - º
+  - between:
+      regexp: \s*
+    texts:
+      - Salmo
+books:
+  - osis: Gen
+    texts:
+      - Genesi
+      - Gen
+      - Ge
+  - osis: Exod
+    texts:
+      - Esodo
+      - Exod
+      - Es
+  - osis: Bel
+    texts:
+      - Bel e il Drago
+      - Bel
+  - osis: Lev
+    texts:
+      - Levitico
+      - Lev
+      - Le
+      - Lv
+  - osis: Num
+    texts:
+      - Numeri
+      - Num
+      - Nm
+      - Nu
+  - osis: Sir
+    texts:
+      - Sapienza di Siracide
+      - Sapienza di Sirach
+      - Ecclesiastico
+      - Siracide
+      - Siràcide
+      - Sir
+  - osis: Wis
+    texts:
+      - Sapienza di Salomone
+      - Sapienza
+      - Sap
+      - Wis
+  - osis: Lam
+    texts:
+      - Lamentazioni
+      - Lam
+      - La
+  - osis: EpJer
+    texts:
+      - Lettera di Geremia
+      - Let-ger
+      - EpJer
+  - osis: Rev
+    texts:
+      - Apocalisse di Giovanni
+      - Rivelazione
+      - Apocalisse
+      - Rev
+      - Riv
+      - Ap
+  - osis: PrMan
+    texts:
+      - Orazione di Manasse Re di Giuda
+      - Preghiera di Manasse
+      - Orazione di Manasse
+      - PrMan
+  - osis: Deut
+    texts:
+      - Deuteronomio
+      - Deut
+      - De
+      - Dt
+  - osis: Josh
+    texts:
+      - Giosuè
+      - Giosué
+      - Josh
+      - Gs
+  - osis: Judg
+    texts:
+      - Giudici
+      - Judg
+      - Gdc
+  - osis: Ruth
+    texts:
+      - Ruth
+      - Rut
+      - Rt
+      - Ru
+  - osis:
+      - osis: 1Esd
+        before: *first
+      - osis: 2Esd
+        before: *second
+    texts:
+      - Ésdras
+  - osis: 1Esd
+    texts:
+      - Esdra greco
+      - 1 Esdra
+      - 1 Esd
+      - 1Esd
+  - osis: 2Esd
+    texts:
+      - 2 Esdra
+      - 2 Esd
+      - 2Esd
+  - osis:
+      - osis: Ezra
+      - osis: 1Esd
+        before: *first
+      - osis: 1Esd
+        before: *third
+      - osis: 2Esd
+        before: *fourth
+      - osis: 2Esd
+        before: *second
+    texts:
+      - Esdra
+  - osis: Isa
+    texts:
+      - Isaia
+      - Isa
+      - Is
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuele
+  - osis: 2Sam
+    texts:
+      - 2 Samuele
+      - 2 Sam
+      - 2Sam
+      - 2 S
+  - osis: 1Sam
+    texts:
+      - 1 Samuele
+      - 1 Sam
+      - 1Sam
+      - 1 S
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Re
+  - osis: 2Kgs
+    texts:
+      - 2Kgs
+      - 2 Re
+      - 2 R
+  - osis: 1Kgs
+    texts:
+      - 1Kgs
+      - 1 Re
+      - 1 R
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Cronache
+  - osis: 2Chr
+    texts:
+      - 2 Cronache
+      - 2 Cr
+      - 2Chr
+  - osis: 1Chr
+    texts:
+      - 1 Cronache
+      - 1 Cr
+      - 1Chr
+  - osis: Ezra
+    texts:
+      - Ezra
+      - Esd
+      - Ed
+  - osis: Neh
+    texts:
+      - Neemia
+      - Neh
+      - Ne
+  - osis: GkEsth
+    texts:
+      - Ester (versione greca)
+      - Ester (greco)
+      - Ester greco
+      - GkEsth
+  - osis: Esth
+    texts:
+      - Ester
+      - Esth
+      - Est
+      - Et
+  - osis: Job
+    texts:
+      - Giobbe
+      - Job
+      - Gb
+  - osis: Ps
+    texts:
+      - Salmi
+      - Salmo
+      - Sal
+      - Ps
+      - Sl
+  - osis: PrAzar
+    texts:
+      - Preghiera di Azaria
+      - PrAzar
+  - osis: Prov
+    texts:
+      - Proverbi
+      - Prov
+      - Pr
+  - osis: Eccl
+    texts:
+      - Ecclesiaste
+      - Qohèlet
+      - Qoelet
+      - Qoèlet
+      - Eccl
+      - Ecc
+      - Ec
+      - Qo
+  - osis: SgThree
+    texts:
+      - Cantico dei tre giovani nella fornace
+      - Cantico dei tre fanciulli
+      - SgThree
+  - osis: Song
+    texts:
+      - Cantico dei Cantici
+      - Cantico di Salomone
+      - Cantico dei cantici
+      - Cantico
+      - Song
+      - Ca
+      - Ct
+  - osis: Jer
+    texts:
+      - Jeremiah
+      - Geremia
+      - Ger
+      - Jer
+      - Gr
+  - osis: Ezek
+    texts:
+      - Ezechiele
+      - Ezek
+      - Ez
+  - osis: Dan
+    texts:
+      - Daniele
+      - Dan
+      - Da
+      - Dn
+  - osis: Hos
+    texts:
+      - Osea
+      - Hos
+      - Os
+  - osis: Joel
+    texts:
+      - Gioele
+      - Gioe
+      - Joel
+      - Gl
+  - osis: Amos
+    texts:
+      - Amos
+      - Am
+  - osis: Obad
+    texts:
+      - Ovadia
+      - Abdia
+      - Obad
+      - Abd
+      - Ad
+  - osis: Jonah
+    texts:
+      - Giona
+      - Jonah
+      - Gio
+      - Gn
+  - osis: Mic
+    texts:
+      - Michea
+      - Mic
+      - Mi
+  - osis: Nah
+    texts:
+      - Nahum
+      - Naum
+      - Nah
+      - Na
+  - osis: Hab
+    texts:
+      - Abacuc
+      - Hab
+      - Ab
+      - Ac
+  - osis: Zeph
+    texts:
+      - Sofonia
+      - Zeph
+      - Sof
+      - So
+  - osis: Hag
+    texts:
+      - Aggeo
+      - Hag
+      - Ag
+  - osis: Zech
+    texts:
+      - Zaccaria
+      - Zech
+      - Zac
+      - Za
+      - Zc
+  - osis: Mal
+    texts:
+      - Malachia
+      - Mal
+      - Ml
+  - osis:
+      - osis: Matt
+      - osis: Matt
+        before: *gospel
+    texts:
+      - Matteo
+  - osis: Matt
+    texts:
+      - Matt
+      - Mt
+  - osis:
+      - osis: Mark
+      - osis: Mark
+        before: *gospel
+    texts:
+      - Marco
+  - osis: Mark
+    texts:
+      - Mark
+      - Mc
+      - Mr
+  - osis:
+      - osis: Luke
+      - osis: Luke
+        before: *gospel
+    texts:
+      - Luca
+  - osis: Luke
+    texts:
+      - Luke
+      - Lc
+      - Lu
+  - osis: 1John
+    texts:
+      - Prima lettera di Giovanni
+      - 1 Giovanni
+      - 1John
+      - 1 Gv
+  - osis: 2John
+    texts:
+      - Seconda lettera di Giovanni
+      - 2 Giovanni
+      - 2John
+      - 2 Gv
+  - osis: 3John
+    texts:
+      - Terza lettera di Giovanni
+      - 3 Giovanni
+      - 3John
+      - 3 Gv
+  - osis:
+      - osis: John
+      - osis: John
+        before: *gospel
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Giovanni
+  - osis: John
+    texts:
+      - John
+      - Gv
+  - osis: Acts
+    texts:
+      - Atti degli Apostoli
+      - Acts
+      - Atti
+      - At
+  - osis: Rom
+    texts:
+      - Lettera ai Romani
+      - Romani
+      - Rom
+      - Rm
+      - Ro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corinzi
+  - osis: 2Cor
+    texts:
+      - Seconda lettera ai Corinzi
+      - 2 Corinzi
+      - 2 Cor
+      - 2 Co
+      - 2Cor
+  - osis: 1Cor
+    texts:
+      - Prima lettera ai Corinzi
+      - 1 Corinzi
+      - 1 Cor
+      - 1 Co
+      - 1Cor
+  - osis: Gal
+    texts:
+      - Lettera ai Galati
+      - Galati
+      - Gàlati
+      - Gal
+      - Ga
+  - osis: Eph
+    texts:
+      - Lettera agli Efesini
+      - Efesini
+      - Eph
+      - Ef
+  - osis: Phil
+    texts:
+      - Lettera ai Filippesi
+      - Filippesi
+      - Phil
+      - Fil
+      - Fl
+  - osis: Col
+    texts:
+      - Lettera ai Colossesi
+      - Colossesi
+      - Col
+      - Cl
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tessalonicesi
+  - osis: 2Thess
+    texts:
+      - Seconda lettera ai Tessalonicesi
+      - 2 Tessalonicesi
+      - 2Thess
+      - 2 Te
+      - 2 Ts
+  - osis: 1Thess
+    texts:
+      - Prima lettera ai Tessalonicesi
+      - 1 Tessalonicesi
+      - 1Thess
+      - 1 Te
+      - 1 Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+  - osis: 2Tim
+    texts:
+      - Seconda lettera a Timoteo
+      - 2 Timoteo
+      - 2 Tim
+      - 2 Ti
+      - 2 Tm
+      - 2Tim
+  - osis: 1Tim
+    texts:
+      - Prima lettera a Timoteo
+      - 1 Timoteo
+      - 1 Tim
+      - 1 Ti
+      - 1 Tm
+      - 1Tim
+  - osis: Titus
+    texts:
+      - Lettera a Tito
+      - Titus
+      - Tito
+      - Tt
+  - osis: Phlm
+    texts:
+      - Lettera a Filemone
+      - Filemone
+      - Filèmone
+      - Phlm
+      - Fi
+      - Fm
+  - osis: Heb
+    texts:
+      - Lettera agli Ebrei
+      - Ebrei
+      - Heb
+      - Eb
+  - osis: Jas
+    texts:
+      - Lettera di Giacomo
+      - Giacomo
+      - Jas
+      - Gc
+      - Gm
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pietro
+  - osis: 2Pet
+    texts:
+      - Seconda lettera di Pietro
+      - 2 Pietro
+      - 2 Pt
+      - 2Pet
+      - 2 P
+  - osis: 1Pet
+    texts:
+      - Prima lettera di Pietro
+      - 1 Pietro
+      - 1 Pt
+      - 1Pet
+      - 1 P
+  - osis: Jude
+    texts:
+      - Lettera di Giuda
+      - Giuda
+      - Jude
+      - Gd
+  - osis: Tob
+    texts:
+      - Tobiolo
+      - Tobia
+      - Tobi
+      - Tob
+      - Tb
+  - osis: Jdt
+    texts:
+      - Giuditta
+      - Gdt
+      - Jdt
+  - osis: Bar
+    texts:
+      - Baruch
+      - Baruc
+      - Bar
+  - osis: Sus
+    texts:
+      - Storia di Susanna
+      - Susanna
+      - Sus
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+      - osis: 3Macc
+        before: *third
+      - osis: 4Macc
+        before: *fourth
+    texts:
+      - Maccabei
+  - osis: 2Macc
+    texts:
+      - Secondo libro dei Maccabei
+      - 2 Maccabei
+      - 2 Mac
+      - 2Macc
+  - osis: 3Macc
+    texts:
+      - Terzo libro dei Maccabei
+      - 3 Maccabei
+      - 3 Mac
+      - 3Macc
+  - osis: 4Macc
+    texts:
+      - Quarto libro dei Maccabei
+      - 4 Maccabei
+      - 4 Mac
+      - 4Macc
+  - osis: 1Macc
+    texts:
+      - Primo libro dei Maccabei
+      - 1 Maccabei
+      - 1 Mac
+      - 1Macc
+  - osis: AddEsth
+    texts:
+      - Aggiunte a Ester
+      - AddEsth
+translations:
+  - CEI
+  - NR2006
+  - NR1994
+  - LND
+  - NR
+  - ND

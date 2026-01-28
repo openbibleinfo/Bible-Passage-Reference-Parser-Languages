@@ -1,0 +1,489 @@
+- osis: Gen
+  texts:
+    - उत्पत्ति
+    - utpatti
+    - उत्पति
+    - Gen
+- osis: Exod
+  texts:
+    - nirgam
+    - निर्गम
+    - Exod
+- osis: Bel
+  texts:
+    - Bel
+- osis: Lev
+  texts:
+    - lewīy
+    - लेवीय
+    - Lev
+- osis: Num
+  texts:
+    - gaṇanā
+    - गणना
+    - Num
+- osis: Sir
+  texts:
+    - Sir
+- osis: Wis
+  texts:
+    - Wis
+- osis: Lam
+  texts:
+    - wilāpgīt
+    - विलापगीत
+    - Lam
+- osis: EpJer
+  texts:
+    - EpJer
+- osis: Rev
+  texts:
+    - yohānālā ǳʰālele prakaṭīkaraṇ
+    - योहानाला झालेले प्रकटीकरण
+    - prakaṭīkaraṇ
+    - प्रकटीकरण
+    - Rev
+- osis: PrMan
+  texts:
+    - PrMan
+- osis: Deut
+  texts:
+    - anuwād
+    - अनुवाद
+    - Deut
+- osis: Josh
+  texts:
+    - yahoŝawā
+    - यहोशवा
+    - Josh
+- osis: Judg
+  texts:
+    - शास्ते
+    - ŝāste
+    - Judg
+- osis: Ruth
+  texts:
+    - Ruth
+    - rūtʰ
+    - रूथ
+- osis: 1Esd
+  texts:
+    - 1Esd
+- osis: 2Esd
+  texts:
+    - 2Esd
+- osis: Isa
+  texts:
+    - yaŝayā
+    - यशया
+    - यशाय
+    - Isa
+- osis: 2Sam
+  texts:
+    - दुसरे शमुवेल
+    - 2 ŝamuwel
+    - 2 शमुवेल
+    - 2Sam
+- osis: 1Sam
+  texts:
+    - पहिले शमुवेल
+    - 1 ŝamuwel
+    - 1 शमुवेल
+    - 1Sam
+- osis: 2Kgs
+  texts:
+    - दुसरे राजे
+    - 2 rāǳe
+    - 2 राजे
+    - 2Kgs
+- osis: 1Kgs
+  texts:
+    - पहिले राजे
+    - 1 rāǳe
+    - 1 राजे
+    - 1Kgs
+- osis: 2Chr
+  texts:
+    - दुसरे इतिहास
+    - 2 itihās
+    - 2 इतिहास
+    - 2Chr
+- osis: 1Chr
+  texts:
+    - पहिले इतिहास
+    - 1 itihās
+    - 1 इतिहास
+    - 1Chr
+- osis: Ezra
+  texts:
+    - edzrā
+    - एज्रा
+    - Ezra
+    - eǳrā
+- osis: Neh
+  texts:
+    - nahemyā
+    - नहेम्या
+    - Neh
+- osis: GkEsth
+  texts:
+    - GkEsth
+- osis: Esth
+  texts:
+    - एस्तेर
+    - ester
+    - Esth
+- osis: Job
+  texts:
+    - īyob
+    - इयोब
+    - ईयोब
+    - Job
+- osis: Ps
+  texts:
+    - स्त्रोत्रसंहिता
+    - stotrasaṃhitā
+    - स्तोत्रसंहिता
+    - स्तोत्र
+    - Ps
+- osis: PrAzar
+  texts:
+    - PrAzar
+- osis: Prov
+  texts:
+    - नीतिसूत्रें
+    - नीतिसूत्रे
+    - nītisūtre
+    - Prov
+- osis: Eccl
+  texts:
+    - upadeŝak
+    - उपदेशक
+    - Eccl
+- osis: SgThree
+  texts:
+    - SgThree
+- osis: Song
+  texts:
+    - gītratna
+    - गीतरत्न
+    - Song
+- osis: Jer
+  texts:
+    - yirmayā
+    - यिर्मया
+    - Jer
+- osis: Ezek
+  texts:
+    - yahedzkel
+    - yaheǳkel
+    - यहेज्केल
+    - Ezek
+- osis: Dan
+  texts:
+    - दानीएल्र
+    - dānīel
+    - दानीएल
+    - Dan
+- osis: Hos
+  texts:
+    - hoŝey
+    - होशेय
+    - Hos
+- osis: Joel
+  texts:
+    - Joel
+    - yoel
+    - योएल
+- osis: Amos
+  texts:
+    - Amos
+    - āmos
+    - अमोस
+    - आमोस
+- osis: Obad
+  texts:
+    - obadʰā
+    - ओबद्या
+    - Obad
+    - ओबधा
+- osis: Jonah
+  texts:
+    - Jonah
+    - yonā
+    - योना
+- osis: Mic
+  texts:
+    - mīkʰā
+    - मीखा
+    - Mic
+- osis: Nah
+  texts:
+    - nahūm
+    - नहूम
+    - Nah
+- osis: Hab
+  texts:
+    - habakkūk
+    - हबक्कूक
+    - हबक्कू
+    - Hab
+- osis: Zeph
+  texts:
+    - sapʰanyā
+    - सफन्या
+    - Zeph
+- osis: Hag
+  texts:
+    - hāggay
+    - हाग्गय
+    - Hag
+- osis: Zech
+  texts:
+    - jakʰaryā
+    - जखर्या
+    - जखऱ्या
+    - Zech
+- osis: Mal
+  texts:
+    - malākʰī
+    - मलाखी
+    - Mal
+- osis: Matt
+  texts:
+    - mattayāne lihilele ŝubʰavartamān
+    - मत्तयाने लिहिलेले शुभवर्तमान
+    - mattayāne
+    - मत्तयाने
+    - मत्तय
+    - Matt
+- osis: Mark
+  texts:
+    - mārkāne lihilele ŝubʰavartamān
+    - मार्काने लिहिलेले शुभवर्तमान
+    - मार्काने
+    - mārkāne
+    - मार्क
+    - Mark
+- osis: Luke
+  texts:
+    - lūkāne lihilele ŝubʰavartamān
+    - लूकाने लिहिलेले शुभवर्तमान
+    - lūkāne
+    - लूकाने
+    - Luke
+    - लूका
+    - लूक
+- osis: 1John
+  texts:
+    - yohānāceṃ pahile patra
+    - योहानाचें पहिले पत्र
+    - 1 yohānāceṃ
+    - 1 योहानाच
+    - 1 योहान
+    - 1John
+- osis: 2John
+  texts:
+    - yohānāceṃ dusre patra
+    - योहानाचें दुसरे पत्र
+    - 2 yohānāceṃ
+    - 2 योहानाच
+    - 2 योहान
+    - 2John
+- osis: 3John
+  texts:
+    - yohānāceṃ tisre patra
+    - योहानाचें तिसरे पत्र
+    - 3 yohānāceṃ
+    - 3 योहानाच
+    - 3 योहान
+    - 3John
+- osis: John
+  texts:
+    - yohānāne lihilele ŝubʰavartamān
+    - योहानाने लिहिलेले शुभवर्तमान
+    - yohānāne
+    - योहानाने
+    - योहान
+    - John
+- osis: Acts
+  texts:
+    - प्रेषितांचीं कृत्यें
+    - prešitāṃcīṃ kr̥tyeṃ
+    - प्रेषितांची कृत्यें
+    - प्रेषितांचीं कृत्ये
+    - Acts
+- osis: Rom
+  texts:
+    - पौलाचे रोमकरांस पत्र
+    - romkarāṃs patra
+    - रोमकरांस पत्र
+    - romkarāṃs
+    - रोमकंरास
+    - रोमकरांस
+    - Rom
+- osis: 2Cor
+  texts:
+    - पौलाचे करिंथकरांस दूसरे पत्र
+    - kariṃtʰkarāṃs dusre patra
+    - करिंथकरांस दुसरे पत्र
+    - 2 kariṃtʰkarāṃs
+    - 2 करिंथकरांस
+    - 2Cor
+- osis: 1Cor
+  texts:
+    - पौलाचे करिंथकरांस पहिले पत्र
+    - kariṃtʰkarāṃs pahile patra
+    - करिंथकरांस पहिले पत्र
+    - 1 kariṃtʰkarāṃs
+    - 1 करिंथकरांस
+    - 1Cor
+- osis: Gal
+  texts:
+    - पौलाचे गलतीकरांस पत्र
+    - galatīkarāṃs patra
+    - गलतीकरांस पत्र
+    - galatīkarāṃs
+    - गलतीकरांस
+    - Gal
+- osis: Eph
+  texts:
+    - पौलाचे इफिसकरांस पत्र
+    - ipʰiskarāṃs patra
+    - इफिसकरांस पत्र
+    - ipʰiskarāṃs
+    - इफिसकरांस
+    - Eph
+- osis: Phil
+  texts:
+    - पौलाचे फिलिप्पैकरांस पत्र
+    - pʰilippaikarāṃs patra
+    - फिलिप्पैकरांस पत्र
+    - pʰilippaikarāṃs
+    - फिलिप्पैकरांस
+    - Phil
+- osis: Col
+  texts:
+    - पौलाचे कलस्सैकरांस पत्र
+    - kalassaikarāṃs patra
+    - कलस्सैकरांस पत्र
+    - kalassaikarāṃs
+    - कलस्सैकरांस
+    - कलसैकरांस
+    - Col
+- osis: 2Thess
+  texts:
+    - पौलाचे थेस्सलनीकाकरांस दुसरे पत्र
+    - tʰessalanīkākarāṃs dusre patra
+    - थेस्सलनीकाकरांस दुसरे पत्र
+    - 2 tʰessalanīkākarāṃs
+    - 2 थेस्सलनीकाकरांस
+    - 2Thess
+- osis: 1Thess
+  texts:
+    - पौलाचे थेस्सलनीकाकरांस पहिले पत्र
+    - tʰessalanīkākarāṃs pahile patra
+    - थेस्सलनीकाकरांस पहिले पत्र
+    - 1 tʰessalanīkākarāṃs
+    - 1 थेस्सलनीकाकरांस
+    - 1Thess
+- osis: 2Tim
+  texts:
+    - पौलाचे तीमथ्थाला दुसरे पत्र
+    - tīmatʰtʰālā dusre patra
+    - तीमथ्थाला दुसरे पत्र
+    - 2 tīmatʰtʰālā
+    - 2 तीमथ्थाला
+    - 2Tim
+- osis: 1Tim
+  texts:
+    - पौलाचे तीमथ्याला पहिले पत्र
+    - tīmatʰtʰālā pahile patra
+    - तीमथ्थाला पहिले पत्र
+    - 1 tīmatʰtʰālā
+    - 1 तीमथ्थाला
+    - 1 तीमथ्याला
+    - 1Tim
+- osis: Titus
+  texts:
+    - पौलाचे तीताला पत्र
+    - tītālā patra
+    - तीताला पत्र
+    - tītālā
+    - तीताला
+    - Titus
+- osis: Phlm
+  texts:
+    - पौलाचे फिलेमोनाला पत्र
+    - pʰilemonālā patra
+    - फिलेमोनाला पत्र
+    - pʰilemonālā
+    - फिलेमोनाला
+    - फिलेमोना
+    - Phlm
+- osis: Heb
+  texts:
+    - ibrī lokāṃs patra
+    - इब्री लोकांस पत्र
+    - इब्री लोकांस
+    - ibrī lokāṃs
+    - इब्री
+    - Heb
+- osis: Jas
+  texts:
+    - yākobāceṃ patra
+    - याकोबाचें पत्र
+    - yākobāceṃ
+    - याकोबाचें
+    - याकोब
+    - Jas
+- osis: 2Pet
+  texts:
+    - petrāceṃ dusre patra
+    - पेत्राचें दुसरे पत्र
+    - पौलाचें दुसरे पत्र
+    - 2 पेत्राचें
+    - 2 petrāceṃ
+    - 2 पेत्र
+    - 2Pet
+- osis: 1Pet
+  texts:
+    - petrāceṃ pahile patra
+    - पेत्राचें पहिले पत्र
+    - पेत्राचे पहिले पत्र
+    - 1 पेत्राचें
+    - 1 petrāceṃ
+    - 1 पेत्र
+    - 1Pet
+- osis: Jude
+  texts:
+    - yahūdāceṃ patra
+    - यहूदाचें पत्र
+    - yahūdāceṃ
+    - यहूदाचें
+    - यहूदा
+    - Jude
+- osis: Tob
+  texts:
+    - Tob
+- osis: Jdt
+  texts:
+    - Jdt
+- osis: Bar
+  texts:
+    - Bar
+- osis: Sus
+  texts:
+    - Sus
+- osis: 2Macc
+  texts:
+    - 2Macc
+- osis: 3Macc
+  texts:
+    - 3Macc
+- osis: 4Macc
+  texts:
+    - 4Macc
+- osis: 1Macc
+  texts:
+    - 1Macc

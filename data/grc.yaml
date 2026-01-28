@@ -1,0 +1,665 @@
+variables:
+  first: &first
+    - Αʹ
+  second: &second
+    - Βʹ
+  third: &third
+    - Γʹ
+  fourth: &fourth
+    - Δʹ
+  ab: []
+  and:
+    - και
+  chapter:
+    - κεφάλαια
+    - κεφάλαιον
+    - κεφάλαιο
+    - κεφ.
+    - κεφ
+  ff:
+    - και μετά
+  title:
+    - ο τίτλος
+    - ο τίτλοσ
+    - τίτλος
+    - τίτλοσ
+  verse:
+    - στίχος
+    - στίχοι
+    - στίχοσ
+books:
+  - osis: Gen
+    texts:
+      - Γένεσις
+      - Γένεση
+      - Gen
+      - Γέν
+      - Γε
+  - osis: Exod
+    texts:
+      - Έξοδος
+      - Exod
+      - Εξ
+      - Ἔξ
+  - osis: Bel
+    texts:
+      - Βηλ και Δράκων
+      - Bel
+      - Βηλ
+      - Βὴλ
+  - osis: Lev
+    texts:
+      - Λευϊτικόν
+      - Λευϊτικό
+      - Λευϊτ
+      - Lev
+      - Λευ
+      - Λε
+  - osis: Num
+    texts:
+      - Αριθμοί
+      - Αριθ
+      - Num
+      - Ἀρ
+  - osis: Sir
+    texts:
+      - Σοφία Σειράχ
+      - Σοφία Σιραχ
+      - Σειράχ
+      - Sir
+  - osis: Wis
+    texts:
+      - Σοφία Σαλωμώντος
+      - Σοφία Σολομώντος
+      - Σοφία Σολ
+      - Σοφία
+      - Wis
+      - Σοφ
+  - osis: Lam
+    texts:
+      - Θρήνοι Ιερεμίου
+      - Θρήνοι
+      - Lam
+      - Θρ
+  - osis: EpJer
+    texts:
+      - Επιστολή Ιερεμίου
+      - Επιστολὴ ᾿Ιερ
+      - EpJer
+  - osis: Rev
+    texts:
+      - Αποκάλυψις Ιωάννου
+      - Αποκαλύψεις
+      - Αποκάλυψη
+      - Αποκ
+      - Rev
+      - ᾿Απ
+      - Απ
+  - osis: PrMan
+    texts:
+      - Προσευχή Μανασσή
+      - Πρ Μαν
+      - PrMan
+  - osis: Deut
+    texts:
+      - Δευτερονόμιον
+      - Δευτερονόμιο
+      - Δευτερ
+      - Deut
+      - Δευτ
+      - Δε
+  - osis: Josh
+    texts:
+      - Ιησούς του Ναυή
+      - Ιησ Ναυή
+      - Ιησ Ναυ
+      - Josh
+      - Ἰη
+  - osis: Judg
+    texts:
+      - Κριτές
+      - Κριταί
+      - Judg
+      - Κριτ
+      - Κρ
+  - osis: Ruth
+    texts:
+      - Ruth
+      - Ρουθ
+      - ῾Ρθ
+  - osis:
+      - osis: 1Esd
+        before: *first
+      - osis: 2Esd
+        before: *second
+    texts:
+      - Έσδρ
+      - Έσδ
+  - osis: 1Esd
+    texts:
+      - Έσδρας Αʹ
+      - Αʹ Έσδ
+      - 1Esd
+  - osis: 2Esd
+    texts:
+      - Έσδρας Βʹ
+      - Βʹ Έσδ
+      - 2Esd
+  - osis:
+      - osis: Ezra
+      - osis: 1Esd
+        before: *first
+      - osis: 2Esd
+        before: *second
+    texts:
+      - Έσδρας
+  - osis: Isa
+    texts:
+      - ΗΣΑΪ́ΑΣ
+      - ΗΣΑΊΑΣ
+      - Ησαΐας
+      - Isa
+      - Ησ
+      - Ἠσ
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Σαμουήλ
+      - Σαμ
+  - osis: 2Sam
+    texts:
+      - δυτικός Σαμουήλ Βʹ
+      - Βασιλειών Βʹ
+      - 2Sam
+  - osis: 1Sam
+    texts:
+      - δυτικός Σαμουήλ Αʹ
+      - Βασιλειών Αʹ
+      - 1Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Βασιλέων
+      - Βασ
+      - Βα
+  - osis: 2Kgs
+    texts:
+      - δυτικός Βασιλέων Βʹ
+      - Βασιλειών Δʹ
+      - Βʹ Βα
+      - 2Kgs
+  - osis: 1Kgs
+    texts:
+      - δυτικός Βασιλέων Αʹ
+      - Βασιλειών Γʹ
+      - Αʹ Βα
+      - 1Kgs
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Χρονικών
+      - Χρον
+      - Παρ
+      - Πα
+      - Χρ
+  - osis: 2Chr
+    texts:
+      - δυτικός Χρονικών Βʹ
+      - Παραλειπομένων Βʹ
+      - Χρονικών Βʹ
+      - Βʹ Πα
+      - 2Chr
+  - osis: 1Chr
+    texts:
+      - δυτικός Χρονικών Αʹ
+      - Παραλειπομένων Αʹ
+      - Χρονικών Αʹ
+      - Αʹ Πα
+      - 1Chr
+  - osis: Ezra
+    texts:
+      - Ezra
+      - Ἔσ
+  - osis: Neh
+    texts:
+      - Νεεμίας
+      - Neh
+      - Νε
+  - osis: GkEsth
+    texts:
+      - Εσθήρ στα ελληνικά
+      - GkEsth
+  - osis: Esth
+    texts:
+      - Εσθήρ
+      - Esth
+      - Εσθ
+  - osis: Job
+    texts:
+      - Job
+      - Ιώβ
+      - Ἰβ
+  - osis: Ps
+    texts:
+      - Ψαλμοί του Δαυίδ
+      - Ψαλμοί
+      - Ψαλμός
+      - Ps
+      - Ψα
+  - osis: PrAzar
+    texts:
+      - Προσευχή Αζαρίου
+      - Πρ Αζαρ
+      - PrAzar
+  - osis: Prov
+    texts:
+      - Παροιμίαι
+      - Παροιμίες
+      - Prov
+      - Πρμ
+  - osis: Eccl
+    texts:
+      - Εκκλησιαστής
+      - Eccl
+      - Ἐκ
+  - osis: SgThree
+    texts:
+      - Ύμνος των Τριών Παίδων
+      - SgThree
+  - osis: Mic
+    texts:
+      - ΜΙΧΑΪ́ΑΣ
+      - ΜΙΧΑΊΑΣ
+      - Μιχαΐας
+      - Μιχαίας
+      - Mic
+      - Μχ
+  - osis: Song
+    texts:
+      - Άσμα Ασμάτων
+      - Song
+      - Ἆσ
+  - osis: Jer
+    texts:
+      - Ιερεμίας
+      - Jer
+      - Ἰε
+  - osis: Ezek
+    texts:
+      - Ιεζεκιήλ
+      - Ιεζεκ
+      - Ezek
+      - Ιεζκ
+      - Ιεζ
+      - ᾿Ιζ
+  - osis: Dan
+    texts:
+      - Δανιήλ
+      - Δανιηλ
+      - Dan
+      - Δαν
+      - Δα
+      - Δν
+  - osis: Hos
+    texts:
+      - Ωσηέ
+      - Hos
+      - Ὠσ
+  - osis: Joel
+    texts:
+      - Joel
+      - Ιωήλ
+      - Ἰλ
+  - osis: Amos
+    texts:
+      - Amos
+      - Αμώς
+      - Ἀμ
+  - osis: Obad
+    texts:
+      - Αβδιού
+      - Οβδίας
+      - Obad
+      - Ἀβδ
+  - osis: Jonah
+    texts:
+      - Jonah
+      - Ιωνάς
+      - Ἰν
+  - osis: Nah
+    texts:
+      - Ναούμ
+      - Nah
+      - Να
+  - osis: Hab
+    texts:
+      - Αββακούμ
+      - Αμβακούμ
+      - Hab
+      - Ἀβ
+  - osis: Zeph
+    texts:
+      - Σοφονίας
+      - Zeph
+      - Σφν
+  - osis: Hag
+    texts:
+      - Αγγαίος
+      - Hag
+      - Ἀγ
+  - osis: Zech
+    texts:
+      - Ζαχαρίας
+      - Zech
+      - Ζαχ
+      - Ζα
+      - Ζχ
+  - osis: Mal
+    texts:
+      - Μαλαχίας
+      - Mal
+      - Μαλ
+      - Μα
+  - osis: Matt
+    texts:
+      - Ευαγγελιον Κατα Μαθθαιον
+      - Κατά Ματθαίον
+      - Κατά Μαθθαίον
+      - Ματθαίος
+      - Μαθθαίος
+      - Matt
+      - Ματθ
+      - Μθ
+  - osis: Mark
+    texts:
+      - Κατά Μάρκον
+      - Μάρκος
+      - Mark
+      - Μάρκ
+      - Μρ
+  - osis: Luke
+    texts:
+      - Κατά Λουκάν
+      - Λουκάς
+      - Luke
+      - Λουκ
+      - Λκ
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Ιωάννη
+      - ᾿Ιω
+      - Ιω
+  - osis: 1John
+    texts:
+      - Ιωαννου Επιστολη Α
+      - Ιωάννου Αʹ
+      - Ιωαννου Α
+      - Αʹ Ιωάννη
+      - Αʹ ᾿Ιω
+      - 1John
+  - osis: 2John
+    texts:
+      - Ιωαννου Επιστολη Β
+      - Ιωάννου Βʹ
+      - Ιωαννου Β
+      - Βʹ Ιωάννη
+      - Βʹ ᾿Ιω
+      - 2John
+  - osis: 3John
+    texts:
+      - Ιωαννου Επιστολη Γ
+      - Ιωάννου Γʹ
+      - Ιωαννου Γ
+      - Γʹ Ιωάννη
+      - Γʹ ᾿Ιω
+      - 3John
+  - osis: John
+    texts:
+      - Κατά Ιωάννην
+      - Ιωάννης
+      - John
+      - Ιωάν
+      - Ἰω
+  - osis: Acts
+    texts:
+      - Πράξεις των Αποστόλων
+      - Πραξεις Αποστολων
+      - Πράξεις
+      - Acts
+      - Πράξ
+      - Πρξ
+  - osis: Rom
+    texts:
+      - Προς Ρωμαίους
+      - Ρωμαίους
+      - Rom
+      - Ρωμ
+      - ῾Ρω
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Κορινθίους
+      - Κορ
+      - Κο
+  - osis: 2Cor
+    texts:
+      - Προς Κορινθίους Βʹ
+      - Προς Κορινθιους Β
+      - Βʹ Κορινθίους
+      - Βʹ Κο
+      - 2Cor
+  - osis: 1Cor
+    texts:
+      - Προς Κορινθίους Αʹ
+      - Προς Κορινθιους Α
+      - Αʹ Κορινθίους
+      - Αʹ Κο
+      - 1Cor
+  - osis: Gal
+    texts:
+      - Προς Γαλάτας
+      - Γαλάτες
+      - Gal
+      - Γαλ
+      - Γα
+  - osis: Eph
+    texts:
+      - Προς Εφεσίους
+      - Εφεσίους
+      - Eph
+      - ᾿Εφ
+      - Εφ
+  - osis: Phil
+    texts:
+      - Προς Φιλιππησίους
+      - Φιλιππησίους
+      - Phil
+      - Φι
+  - osis: Col
+    texts:
+      - Προς Κολασσαεις
+      - Προς Κολοσσαείς
+      - Κολοσσαείς
+      - Col
+      - Κολ
+      - Κλ
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Θεσσαλονικείς
+      - Θεσ
+      - Θε
+  - osis: 2Thess
+    texts:
+      - Προς Θεσσαλονικείς Βʹ
+      - Προς Θεσσαλονικεις Β
+      - Βʹ Θεσσαλονικείς
+      - 2Thess
+      - Βʹ Θε
+  - osis: 1Thess
+    texts:
+      - Προς Θεσσαλονικείς Αʹ
+      - Προς Θεσσαλονικεις Α
+      - Αʹ Θεσσαλονικείς
+      - 1Thess
+      - Αʹ Θε
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Τιμόθεο
+      - Τιμ
+      - Τι
+  - osis: 2Tim
+    texts:
+      - Προς Τιμόθεον Βʹ
+      - Προς Τιμοθεον Β
+      - Βʹ Τιμόθεο
+      - Βʹ Τι
+      - 2Tim
+  - osis: 1Tim
+    texts:
+      - Προς Τιμόθεον Αʹ
+      - Προς Τιμοθεον Α
+      - Αʹ Τιμόθεο
+      - Αʹ Τι
+      - 1Tim
+  - osis: Titus
+    texts:
+      - Προς Τίτον
+      - Titus
+      - Τίτο
+      - Τίτ
+      - Ττ
+  - osis: Phlm
+    texts:
+      - Προς Φιλήμονα
+      - Φιλήμονα
+      - Phlm
+      - Φλμ
+  - osis: Heb
+    texts:
+      - Προς Εβραίους
+      - Εβραίους
+      - Heb
+      - Εβρ
+      - Ἑβ
+  - osis: Jas
+    texts:
+      - Ιακωβου Επιστολη
+      - Ιακώβου
+      - Jas
+      - ᾿Ια
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Πέτρου
+      - Πέτρ
+      - Πέτ
+      - Πέ
+      - Πε
+  - osis: 2Pet
+    texts:
+      - Πετρου Επιστολη Β
+      - Πέτρου Βʹ
+      - Βʹ Πέτρου
+      - Πετρου Β
+      - Βʹ Πε
+      - 2Pet
+  - osis: 1Pet
+    texts:
+      - Πετρου Επιστολη Α
+      - Πέτρου Αʹ
+      - Αʹ Πέτρου
+      - Πετρου Α
+      - Αʹ Πε
+      - 1Pet
+  - osis: Jude
+    texts:
+      - Ιουδα Επιστολη
+      - Ιούδα
+      - Jude
+      - ᾿Ιδ
+  - osis: Tob
+    texts:
+      - Τωβίτ
+      - Tob
+      - Τωβ
+  - osis: Jdt
+    texts:
+      - Ιουδίθ
+      - Jdt
+      - Ιδθ
+  - osis: Bar
+    texts:
+      - Βαρούχ
+      - Bar
+      - Βαρ
+      - Βρ
+  - osis: Sus
+    texts:
+      - Σουσάννα
+      - Σωσάννα
+      - Σουσ
+      - Sus
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+      - osis: 3Macc
+        before: *third
+      - osis: 4Macc
+        before: *fourth
+    texts:
+      - Μακκαβαίων
+      - Μακκ
+  - osis: 2Macc
+    texts:
+      - Μακκαβαίων Βʹ
+      - Βʹ Μακκ
+      - 2Macc
+  - osis: 3Macc
+    texts:
+      - Μακκαβαίων Γʹ
+      - Γʹ Μακκ
+      - 3Macc
+  - osis: 4Macc
+    texts:
+      - Μακκαβαίων Δʹ
+      - Δʹ Μακκ
+      - 4Macc
+  - osis: 1Macc
+    texts:
+      - Μακκαβαίων Αʹ
+      - Αʹ Μακκ
+      - 1Macc
+translations:
+  - SEPTUAGINT
+  - SEPT

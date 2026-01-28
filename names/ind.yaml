@@ -1,0 +1,641 @@
+- osis: Gen
+  texts:
+    - Kejadian
+    - Kejd
+    - Gen
+    - Kej
+- osis: Exod
+  texts:
+    - Keluaran
+    - Exod
+    - Kelr
+    - Kel
+- osis: Bel
+  texts:
+    - Dewa Bel dan Naga Babel
+    - Bel dan Naga
+    - Dewa Bel
+    - Bel
+- osis: Lev
+  texts:
+    - Imamat Orang Lewi
+    - Imamat
+    - Imt
+    - Lev
+    - Im
+- osis: Num
+  texts:
+    - Bilangan
+    - Bil
+    - Num
+- osis: Sir
+  texts:
+    - Eklesiastikus
+    - Sirakh
+    - Sir
+- osis: Wis
+  texts:
+    - Kebijaksanaan Salomo
+    - Hikmat Salomo
+    - Kebijaksanaan
+    - Kebij Salomo
+    - Keb
+    - Wis
+- osis: Lam
+  texts:
+    - Nudub Yermia
+    - Ratapan
+    - Ratap
+    - Lam
+    - Rat
+- osis: EpJer
+  texts:
+    - Surat Yeremia
+    - Sur Yer
+    - SurYer
+    - EpJer
+- osis: Rev
+  texts:
+    - Wahyu
+    - Wahy
+    - Rev
+    - Wah
+    - Why
+- osis: PrMan
+  texts:
+    - Doa Manasye
+    - Doa Man
+    - Manasye
+    - DoaMan
+    - PrMan
+- osis: Deut
+  texts:
+    - Ulangan
+    - Deut
+    - Ul
+- osis: Josh
+  texts:
+    - Yosua
+    - Yusak
+    - Josh
+    - Yos
+- osis: Judg
+  texts:
+    - Hakim-hakim
+    - Hak.-hak.
+    - Hak-hak.
+    - Hak.-hak
+    - Hak-hak
+    - Judg
+    - Hak
+    - Hkm
+- osis: Ruth
+  texts:
+    - Ruth
+    - Rut
+    - Rt
+- osis: 1Esd
+  texts:
+    - 1 Esdras
+    - 1. Esdras
+- osis: 1Esd
+  texts:
+    - Esdras Yunani
+    - Ezra Yunani
+    - 3 Esdras
+    - 1 Esdras
+    - 1 Esd
+    - I Esd
+    - 1Esd
+- osis: 2Esd
+  texts:
+    - Esdras Latin
+    - Ezra Latin
+    - 2 Esdras
+    - 4 Esdras
+    - II Esd
+    - 2 Esd
+    - 2Esd
+- osis: Isa
+  texts:
+    - Yesaya
+    - Isa
+    - Yes
+    - Ys
+- osis: 1Sam
+  texts:
+    - 1 Samuel
+    - 1. Samuel
+- osis: 2Sam
+  texts:
+    - 2 Samuel
+    - 2. Samuel
+- osis: 2Sam
+  texts:
+    - Semuel Yang Kedua
+    - 2 Samuel
+    - II Sam
+    - 2 Sam
+    - 2Sam
+    - 2Sa
+- osis: 1Sam
+  texts:
+    - Semuel Yang Pertama
+    - 1 Samuel
+    - 1 Sam
+    - I Sam
+    - 1Sam
+    - 1Sa
+- osis: 1Kgs
+  texts:
+    - 1 Raja-raja
+    - 1. Raja-raja
+- osis: 2Kgs
+  texts:
+    - 2 Raja-raja
+    - 2. Raja-raja
+- osis: 2Kgs
+  texts:
+    - Raja-raja Yang Kedua
+    - 2 Raja-raja
+    - II Raj
+    - 2 Raj
+    - 2Kgs
+    - 2Raj
+    - 2Rj
+- osis: 1Kgs
+  texts:
+    - Raja-raja Yang Pertama
+    - 1 Raja-raja
+    - 1 Raj
+    - I Raj
+    - 1Kgs
+    - 1Raj
+    - 1Rj
+- osis: 1Chr
+  texts:
+    - 1 Tawarikh
+    - 1. Tawarikh
+- osis: 2Chr
+  texts:
+    - 2 Tawarikh
+    - 2. Tawarikh
+- osis: 2Chr
+  texts:
+    - Tawarikh Yang Kedua
+    - 2 Tawarikh
+    - 2 Tawh
+    - II Taw
+    - 2 Taw
+    - 2Chr
+    - 2Taw
+- osis: 1Chr
+  texts:
+    - Tawarikh Yang Pertama
+    - 1 Tawarikh
+    - 1 Tawh
+    - 1 Taw
+    - I Taw
+    - 1Chr
+    - 1Taw
+- osis: Neh
+  texts:
+    - Nehemia
+    - Nehemya
+    - 2 Ezra
+    - Nehm
+    - Neh
+- osis: Ezra
+  texts:
+    - 1 Ezra
+    - Ezra
+    - Ezr
+- osis: GkEsth
+  texts:
+    - Ester Yunani
+    - Est. Yunani
+    - Est Yunani
+    - Ester Grik
+    - Est Yun
+    - EstYun
+    - GkEsth
+- osis: Esth
+  texts:
+    - Ester
+    - Esth
+    - Est
+- osis: Job
+  texts:
+    - Ayub
+    - Ayb
+    - Job
+    - Ay
+- osis: Ps
+  texts:
+    - Mazmur
+    - Mzm
+    - Ps
+- osis: PrAzar
+  texts:
+    - Doa Azarya
+    - Doa Azar
+    - Azarya
+    - Doa Az
+    - PrAzar
+    - DoaAz
+- osis: Prov
+  texts:
+    - Surat Amsal Sulaiman
+    - Amsal
+    - Prov
+    - Ams
+- osis: Eccl
+  texts:
+    - Pengkhotbah
+    - Alkhatib
+    - Pengkh
+    - Pkhth
+    - Eccl
+    - Pkhb
+    - Pkh
+- osis: SgThree
+  texts:
+    - Lagu Pujian Ketiga Pemuda
+    - Lagu 3 Pemuda
+    - Lagu Pemuda
+    - Tiga Pemuda
+    - 3 Pemuda
+    - SgThree
+    - LagPuj
+- osis: Song
+  texts:
+    - Syirul-asyar Sulaiman
+    - Kidung Agung
+    - Kid Ag
+    - Kidung
+    - KidA
+    - Song
+    - Kid
+- osis: Jer
+  texts:
+    - Yeremia
+    - Yermia
+    - Jer
+    - Yer
+    - Yr
+- osis: Ezek
+  texts:
+    - Yehezkiel
+    - Ezek
+    - Yeh
+    - Yez
+- osis: Dan
+  texts:
+    - Daniel
+    - Dan
+    - Dn
+- osis: Hos
+  texts:
+    - Hosea
+    - Hos
+    - Ho
+- osis: Joel
+  texts:
+    - Joel
+    - Yoel
+    - Yoël
+    - Yl
+- osis: Amos
+  texts:
+    - Amos
+    - Amo
+    - Am
+- osis: Obad
+  texts:
+    - Obaja
+    - Obad
+    - Ob
+- osis: Jonah
+  texts:
+    - Jonah
+    - Yunus
+    - Yun
+    - Yn
+- osis: Mic
+  texts:
+    - Mikha
+    - Mic
+    - Mik
+    - Mkh
+    - Mi
+- osis: Nah
+  texts:
+    - Nahum
+    - Nah
+    - Nh
+- osis: Hab
+  texts:
+    - Habakuk
+    - Hab
+    - Hbk
+- osis: Zeph
+  texts:
+    - Zefanya
+    - Zeph
+    - Zef
+- osis: Hag
+  texts:
+    - Hagai
+    - Hajai
+    - Hag
+    - Hg
+- osis: Zech
+  texts:
+    - Zakharia
+    - Zakaria
+    - Zech
+    - Zak
+    - Za
+- osis: Mal
+  texts:
+    - Maleakhi
+    - Maleaki
+    - Mal
+    - Ml
+- osis: Matt
+  texts:
+    - Matius
+    - Matt
+    - Mat
+    - Mt
+- osis: Mark
+  texts:
+    - Markus
+    - Mark
+    - Mar
+    - Mrk
+    - Mk
+    - Mr
+- osis: Luke
+  texts:
+    - Lukas
+    - Luke
+    - Luk
+    - Lk
+- osis: 1John
+  texts:
+    - 1 Yohanes
+    - 1 Yahya
+    - 1 Yhn
+    - 1 Yoh
+    - 1John
+    - I Yoh
+    - 1Yoh
+- osis: 2John
+  texts:
+    - 2 Yohanes
+    - 2 Yahya
+    - II Yoh
+    - 2 Yhn
+    - 2 Yoh
+    - 2John
+    - 2Yoh
+- osis: 3John
+  texts:
+    - 3 Yohanes
+    - 3 Yahya
+    - III Yoh
+    - 3 Yhn
+    - 3 Yoh
+    - 3John
+    - 3Yoh
+- osis: 1John
+  texts:
+    - 1 Yohanes
+    - 1. Yohanes
+- osis: 2John
+  texts:
+    - 2 Yohanes
+    - 2. Yohanes
+- osis: 3John
+  texts:
+    - 3 Yohanes
+    - 3. Yohanes
+- osis: John
+  texts:
+    - Yohanes
+- osis: John
+  texts:
+    - Yahya
+    - John
+    - Yohs
+    - Yoh
+- osis: Acts
+  texts:
+    - Kisah Rasul-rasul
+    - Kisah Para Rasul
+    - Kis Para Rasul
+    - Kisah
+    - Acts
+    - KisR
+    - Kis
+- osis: Rom
+  texts:
+    - Roma
+    - Rom
+    - Rum
+    - Rm
+- osis: 1Cor
+  texts:
+    - 1 Korintus
+    - 1. Korintus
+- osis: 2Cor
+  texts:
+    - 2 Korintus
+    - 2. Korintus
+- osis: 2Cor
+  texts:
+    - 2 Korintus
+    - II Kor
+    - 2 Kor
+    - 2 Ko
+    - 2Cor
+    - 2Kor
+- osis: 1Cor
+  texts:
+    - 1 Korintus
+    - 1 Kor
+    - I Kor
+    - 1 Ko
+    - 1Cor
+    - 1Kor
+- osis: Gal
+  texts:
+    - Galatia
+    - Gal
+- osis: Eph
+  texts:
+    - Efesus
+    - Epesus
+    - Efs
+    - Eph
+    - Ef
+- osis: Phil
+  texts:
+    - Filipi
+    - Pilipi
+    - Fili
+    - Phil
+    - Fil
+    - Flp
+- osis: Col
+  texts:
+    - Kolose
+    - Kolos
+    - Col
+    - Kol
+- osis: 1Thess
+  texts:
+    - 1 Tesalonika
+    - 1. Tesalonika
+- osis: 2Thess
+  texts:
+    - 2 Tesalonika
+    - 2. Tesalonika
+- osis: 2Thess
+  texts:
+    - 2 Tesalonika
+    - 2 Tesl
+    - 2Thess
+    - II Tes
+    - 2 Tes
+- osis: 1Thess
+  texts:
+    - 1 Tesalonika
+    - 1 Tesl
+    - 1Thess
+    - 1 Tes
+    - I Tes
+- osis: 1Tim
+  texts:
+    - 1 Timotius
+    - 1. Timotius
+- osis: 2Tim
+  texts:
+    - 2 Timotius
+    - 2. Timotius
+- osis: 2Tim
+  texts:
+    - 2 Timotius
+    - II Tim
+    - 2 Tim
+    - 2 Tm
+    - 2Tim
+- osis: 1Tim
+  texts:
+    - 1 Timotius
+    - 1 Tim
+    - I Tim
+    - 1 Tm
+    - 1Tim
+- osis: Titus
+  texts:
+    - Titus
+    - Tit
+    - Ti
+- osis: Phlm
+  texts:
+    - Filemon
+    - Pilemon
+    - Filem
+    - Flmn
+    - Phlm
+    - Flm
+- osis: Heb
+  texts:
+    - Ibrani
+    - Ibrn
+    - Heb
+    - Ibr
+- osis: Jas
+  texts:
+    - Yakobus
+    - Yakub
+    - Jas
+    - Yak
+    - Yk
+- osis: 1Pet
+  texts:
+    - 1 Petrus
+    - 1. Petrus
+- osis: 2Pet
+  texts:
+    - 2 Petrus
+    - 2. Petrus
+- osis: 2Pet
+  texts:
+    - 2 Petrus
+    - II Pet
+    - 2 Pet
+    - 2 Ptr
+    - 2Pet
+- osis: 1Pet
+  texts:
+    - 1 Petrus
+    - 1 Pet
+    - 1 Ptr
+    - I Pet
+    - 1Pet
+- osis: Jude
+  texts:
+    - Yehuda
+    - Yudas
+    - Jude
+    - Yds
+    - Yud
+- osis: Tob
+  texts:
+    - Tobit
+    - Tob
+- osis: Jdt
+  texts:
+    - Yudit
+    - Jdt
+    - Ydt
+- osis: Bar
+  texts:
+    - Barukh
+    - Bar
+    - Br
+- osis: Sus
+  texts:
+    - Susana
+    - Sus
+- osis: 2Macc
+  texts:
+    - 2 Makabe
+    - II Mak
+    - 2 Mak
+    - 2Macc
+- osis: 3Macc
+  texts:
+    - 3 Makabe
+    - III Mak
+    - 3 Mak
+    - 3Macc
+- osis: 4Macc
+  texts:
+    - 4 Makabe
+    - IV Mak
+    - 4 Mak
+    - 4Macc
+- osis: 1Macc
+  texts:
+    - 1 Makabe
+    - 1. Makabe
+- osis: 1Macc
+  texts:
+    - 1 Makabe
+    - 1 Mak
+    - 1Macc
+    - I Mak

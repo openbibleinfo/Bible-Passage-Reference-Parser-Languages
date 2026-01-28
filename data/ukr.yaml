@@ -1,0 +1,931 @@
+variables:
+  first: &first
+    - Перша
+    - Перше
+    - 1-ше
+    - 1-а
+    - 1-е
+    - "1"
+    - I
+  second: &second
+    - Друга
+    - Друге
+    - 2-ге
+    - 2-а
+    - 2-е
+    - "2"
+    - II
+  third: &third
+    - Третя
+    - Третє
+    - 3-тє
+    - 3-а
+    - 3-е
+    - "3"
+    - III
+  fourth: &fourth
+    - Четверта
+    - "4"
+    - IV
+  ab:
+    - a
+    - а
+    - б
+  and:
+    - і
+  chapter:
+    - глави
+    - глава
+    - гл
+    - розділ
+    - розд
+  verse:
+    - вірші
+    - вірш
+books:
+  - osis:
+      - osis: Gen
+        before: *first
+      - osis: Exod
+        before: *second
+      - osis: Lev
+        before: *third
+      - osis: Num
+        before: *fourth
+    texts:
+      - книга Мойсеева
+  - osis: Gen
+    texts:
+      - Buttja
+      - Буття
+      - 1 М
+      - Gen
+      - Буг
+      - Бут
+  - osis: Exod
+    texts:
+      - Vyȟid
+      - Вихід
+      - Exod
+      - 2 М
+      - Вих
+  - osis: Bel
+    texts:
+      - Бел і дракон
+      - Bel
+      - Бел
+  - osis: Lev
+    texts:
+      - Levyt
+      - Левит
+      - 3 М
+      - Lev
+  - osis: Num
+    texts:
+      - Čysla
+      - Числа
+      - 4 М
+      - Num
+      - Чис
+  - osis: Sir
+    texts:
+      - Премудрість Ісуса, сина Сирахова
+      - Книга Сираха
+      - Бен Сираха
+      - Еклесіаст
+      - Сираха
+      - Sir
+      - Сир
+  - osis: Wis
+    texts:
+      - Книга Премудрості Соломона
+      - Премудрість Соломона
+      - Книга Мудрости
+      - Мудрости
+      - Прем
+      - Wis
+      - Муд
+  - osis: Lam
+    texts:
+      - Plač Jeremiï
+      - Плач Єремії
+      - Плач
+      - Lam
+  - osis: EpJer
+    texts:
+      - Послання Єремії
+      - Лист Єремії
+      - EpJer
+  - osis: Rev
+    texts:
+      - Об'явлення св. Івана Богослова
+      - Об'явлення св. Йоана Богослова
+      - Об'явлення св Івана Богослова
+      - Об'явлення св Йоана Богослова
+      - Ob'javlennja Ivana Bohoslova
+      - Об'явлення Івана Богослова
+      - Одкровення Івана Богослова
+      - Відкриття Івана
+      - Апока́ліпсис
+      - Апокáліпсис
+      - Апокалíпсис
+      - Апокаліпсис
+      - Об'явлення
+      - Одкриттє
+      - Rev
+      - Об
+  - osis: PrMan
+    texts:
+      - PrMan
+  - osis: Deut
+    texts:
+      - П'ята книга Мойсеева
+      - Povtorennja Zakonu
+      - Повторення Закону
+      - Второзаконня
+      - Повт. Закону
+      - Повт Закону
+      - Deut
+      - Втор
+      - Повт
+      - 5 М
+  - osis: Josh
+    texts:
+      - Книга Ісуса Навина
+      - Ісуса Навина
+      - Книга Єгошуї
+      - Isus Navyn
+      - Ісус Навин
+      - Єгошуї
+      - І. Нав
+      - І Нав
+      - Josh
+      - Нав
+      - Єг
+  - osis: Judg
+    texts:
+      - Knyha Suddiv
+      - Книга Суддів
+      - Суддів
+      - Judg
+      - Суд
+  - osis: Ruth
+    texts:
+      - Книга Рут
+      - Ruth
+      - Rut
+      - Рут
+  - osis: 1Esd
+    texts:
+      - 1 Ездри
+      - 1 Езд
+      - 1Esd
+  - osis:
+      - osis: 2Esd
+        before: *second
+    texts:
+      - книга Ездри
+  - osis: 2Esd
+    texts:
+      - 2 Ездри
+      - 2 Езд
+      - 2Esd
+  - osis:
+      - osis: Ezra
+      - osis: 1Esd
+        before: *first
+      - osis: 2Esd
+        before: *second
+    texts:
+      - Ездра
+      - Ездри
+  - osis: Isa
+    texts:
+      - Книга пророка Ісаї
+      - Книга Ісайї
+      - Isaja
+      - Ісая
+      - Ісаї
+      - Isa
+      - Іс
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - книга Самуїлова
+      - Книга Самуїла
+      - Самуїлова
+      - Samuïl
+      - Самуїл
+  - osis: 2Sam
+    texts:
+      - 2 Самуїлова
+      - 2 Сам
+      - 2Sam
+  - osis: 1Sam
+    texts:
+      - 1 Самуїлова
+      - 1 Сам
+      - 1Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - книга царів
+      - Cariv
+      - царів
+  - osis:
+      - osis: 1Kgs
+        before: *third
+      - osis: 2Kgs
+        before: *fourth
+    texts:
+      - Царів
+  - osis: 2Kgs
+    texts:
+      - 2 царів
+      - 2 Цар
+      - 2Kgs
+  - osis: 1Kgs
+    texts:
+      - 1 царів
+      - 1 Цар
+      - 1Kgs
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - книга хроніки
+      - книга хронік
+      - Літопису
+      - Ȟroniky
+      - Хроніка
+      - хроніки
+      - Хронік
+  - osis: 2Chr
+    texts:
+      - 2 хроніки
+      - 2 Хр
+      - 2Chr
+  - osis: 1Chr
+    texts:
+      - 1 хроніки
+      - 1 Хр
+      - 1Chr
+  - osis: Ezra
+    texts:
+      - Книга Ездри
+      - Книга Езри
+      - Ezdra
+      - Єздри
+      - Ezra
+      - Езри
+      - Єзд
+      - Езд
+  - osis: Neh
+    texts:
+      - Книга Неемії
+      - Neemija
+      - Неемія
+      - Неемії
+      - Неємії
+      - Неем
+      - Неєм
+      - Neh
+  - osis: GkEsth
+    texts:
+      - GkEsth
+  - osis: Esth
+    texts:
+      - Книга Естер
+      - Книга Есфір
+      - Ester
+      - Естер
+      - Есфір
+      - Esth
+      - Ест
+  - osis: Job
+    texts:
+      - Книга Іова
+      - Книга Йова
+      - Іова
+      - Йова
+      - Job
+      - Jov
+      - Йов
+  - osis: Ps
+    texts:
+      - Книга Псалмів
+      - Псалти́р
+      - Псалмів
+      - Psalmy
+      - Псалми
+      - Ps
+      - Пс
+  - osis: PrAzar
+    texts:
+      - Молитва Азарії
+      - PrAzar
+  - osis: Prov
+    texts:
+      - Книга Приповістей Соломонових
+      - Книга Приказок Соломонових
+      - Приповістей соломонових
+      - Притчі Соломона
+      - Приповістей
+      - Prypovisti
+      - Приповідок
+      - Приповісті
+      - Приказки
+      - Приказок
+      - Притчі
+      - Притч
+      - Prov
+      - Пр
+  - osis: Eccl
+    texts:
+      - Книга Екклезіястова
+      - Книга Еклезіястова
+      - Екклезіястова
+      - Еклезіястова
+      - Проповідника
+      - Ekklezijast
+      - Екклезіяста
+      - Екклезіаст
+      - Екклезіяст
+      - Коге́лет
+      - Eccl
+      - Еккл
+      - Екл
+  - osis: SgThree
+    texts:
+      - Пісня трьох отроків
+      - SgThree
+  - osis: Song
+    texts:
+      - Книга Пісні Пісень Соломона
+      - Пісня над піснями Соломона
+      - Pisnja nad pisnjamy
+      - Пісня над піснями
+      - Пісня Пісней
+      - Пісні Пісень
+      - П. П.
+      - Song
+      - П. П
+      - Пісн
+      - П П.
+      - П П
+  - osis: Jer
+    texts:
+      - Книга пророка Єремії
+      - Jeremija
+      - Єремія
+      - Єремії
+      - Jer
+      - Єр
+  - osis: Ezek
+    texts:
+      - Книга Пророка Езекиїла
+      - Книга пророка Єзекіїля
+      - Jezekiïl'
+      - Єзекіїла
+      - Єзекіїль
+      - Єзекіїля
+      - Езекиїла
+      - Ezek
+      - Єз
+  - osis: Dan
+    texts:
+      - Книга пророка Даниїла
+      - Даниїла
+      - Danyïl
+      - Даниїл
+      - Dan
+      - Дан
+  - osis: Hos
+    texts:
+      - Книга пророка Осії
+      - Osija
+      - Осія
+      - Осії
+      - Hos
+      - Ос
+  - osis: Joel
+    texts:
+      - Книга пророка Йоіла
+      - Книга Йоіла
+      - Йоіла
+      - Йоїла
+      - Joel
+      - Joïl
+      - Йоіл
+      - Йоїл
+      - Йоїн
+  - osis: Amos
+    texts:
+      - Книга пророка Амоса
+      - Амоса
+      - Amos
+      - Амос
+      - Ам
+  - osis: Obad
+    texts:
+      - Книга пророка Авдія
+      - Книга пророка Овдія
+      - Ovdij
+      - Авдія
+      - Овдій
+      - Овдія
+      - Obad
+      - Овд
+      - Ов
+  - osis: Jonah
+    texts:
+      - Книга пророка Йони
+      - Jonah
+      - Jona
+      - Йона
+      - Йони
+  - osis: Mic
+    texts:
+      - Книга пророка Михея
+      - Книга пророка Міхея
+      - Myȟej
+      - Михей
+      - Михея
+      - Міхея
+      - Mic
+      - Мих
+      - Міх
+  - osis: Nah
+    texts:
+      - Книга пророка Наума
+      - Наума
+      - Naum
+      - Наум
+      - Nah
+  - osis: Hab
+    texts:
+      - Книга пророка Авакума
+      - Аваккума
+      - Авакума
+      - Avakum
+      - Авакум
+      - Hab
+      - Ав
+  - osis: Zeph
+    texts:
+      - Книга пророка Софонії
+      - Sofonija
+      - Софонія
+      - Софонії
+      - Zeph
+      - Соф
+  - osis: Hag
+    texts:
+      - Книга пророка Огія
+      - Книга Огія
+      - Аггея
+      - Ohij
+      - Огій
+      - Огія
+      - Оґія
+      - Hag
+      - Ог
+  - osis: Zech
+    texts:
+      - Книга пророка Захарія
+      - Книга Захарії
+      - Zaȟarij
+      - Захарій
+      - Захарія
+      - Захарії
+      - Zech
+      - Зах
+  - osis: Mal
+    texts:
+      - Книга пророка Малахії
+      - Книга Малахії
+      - Malaȟija
+      - Малахія
+      - Малахії
+      - Mal
+      - Мал
+  - osis: Matt
+    texts:
+      - Євангелія від св. Матвія
+      - Євангеліє від св. Матвія
+      - Jevanhelije vid Matvija
+      - Євангелія від св Матвія
+      - Євангеліє від св Матвія
+      - Євангелія від Матвія
+      - Євангеліє від Матвія
+      - Євангеліє від Матея
+      - Від Матвія
+      - Матвія
+      - Матей
+      - Matt
+      - Мат
+      - Мт
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+      - osis: 3Macc
+        before: *third
+      - osis: 4Macc
+        before: *fourth
+    texts:
+      - книга Макавеїв
+      - Макавеїв
+  - osis: 2Macc
+    texts:
+      - Друга книга Макавеїв
+      - 2 Мак
+      - 2Macc
+      - 2 Мк
+  - osis: 3Macc
+    texts:
+      - Третя книга Макавеїв
+      - 3 Мак
+      - 3Macc
+      - 3 Мк
+  - osis: 4Macc
+    texts:
+      - Четверта книга Макавеїв
+      - 4 Мак
+      - 4Macc
+      - 4 Мк
+  - osis: 1Macc
+    texts:
+      - Перша книга Макавеїв
+      - 1 Мак
+      - 1Macc
+      - 1 Мк
+  - osis: Mark
+    texts:
+      - Євангелія від св. Марка
+      - Євангеліє від св. Марка
+      - Євангелія від св Марка
+      - Євангеліє від св Марка
+      - Jevanhelije vid Marka
+      - Євангелія від Марка
+      - Євангеліє від Марка
+      - Від Марка
+      - Марка
+      - Марко
+      - Mark
+      - Мк
+      - Мр
+  - osis: Luke
+    texts:
+      - Євангелія від св. Луки
+      - Євангеліє від св. Луки
+      - Євангелія від св Луки
+      - Євангеліє від св Луки
+      - Jevanhelije vid Luky
+      - Євангеліє від Лу ки
+      - Євангелія від Луки
+      - Євангеліє від Луки
+      - Від Луки
+      - Luke
+      - Лука
+      - Луки
+      - Лк
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - соборне послання св. апостола Іоанна
+      - соборне послання св апостола Іоанна
+      - послання апостола Івана
+      - Послання Івана
+      - Послання Іоана
+      - Йоаново
+      - Іоанна
+  - osis: 1John
+    texts:
+      - Perše poslannja apostola Ivana
+      - 1 Івана
+      - 1John
+      - 1 Ів
+  - osis: 2John
+    texts:
+      - Druhe poslannja apostola Ivana
+      - Послання до Тита
+      - 2 Івана
+      - 2John
+      - 2 Ів
+  - osis: 3John
+    texts:
+      - Tretje poslannja apostola Ivana
+      - 3 Івана
+      - 3John
+      - 3 Ів
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Івана
+      - Іоана
+  - osis: John
+    texts:
+      - Євангелія від св. Івана
+      - Євангеліє від св. Йоана
+      - Євангелія від св Івана
+      - Євангеліє від св Йоана
+      - Jevanhelije vid Ivana
+      - Євангелія від Івана
+      - Євангеліє від Івана
+      - Від Івана
+      - Від Іоана
+      - Йоана
+      - John
+      - Йоан
+      - Ів
+      - Ін
+  - osis: Acts
+    texts:
+      - Dijannja svjatyȟ apostoliv
+      - Діяння Святих Апостолів
+      - Дії святих апостолів
+      - Дії Апостолів
+      - Діяння
+      - Acts
+      - Діян
+      - Дії
+  - osis: Rom
+    texts:
+      - Послання св. апостола Павла до римлян
+      - Послання св апостола Павла до римлян
+      - Poslannja apostola Pavla do rymljan
+      - Послання апостола Павла до римлян
+      - Послання до римлян
+      - До римлян
+      - Римляни
+      - Римлян
+      - Rom
+      - Рим
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - послання апостола Павла до коринфян
+      - Послання до Коринтян
+      - до коринтян
+      - Коринтяни
+      - Коринфян
+      - коринтян
+  - osis: 2Cor
+    texts:
+      - Druhe poslannja apostola Pavla do korynfjan
+      - 2 до коринтян
+      - 2 Кор
+      - 2Cor
+  - osis: 1Cor
+    texts:
+      - Perše poslannja apostola Pavla do korynfjan
+      - 1 до коринтян
+      - 1 Кор
+      - 1Cor
+  - osis: Gal
+    texts:
+      - Послання св. апостола Павла до галатів
+      - Послання св апостола Павла до галатів
+      - Poslannja apostola Pavla do halativ
+      - Послання апостола Павла до галатів
+      - По слання до Галатів
+      - Послання до галатів
+      - До галатів
+      - Галатяни
+      - Галатів
+      - Gal
+      - Гал
+  - osis: Eph
+    texts:
+      - Послання св. апостола Павла до ефесян
+      - Послання св апостола Павла до ефесян
+      - Poslannja apostola Pavla do efesjan
+      - Послання апостола Павла до ефесян
+      - По слан ня до Єфесян
+      - Послання до ефесян
+      - До ефесян
+      - Ефесяни
+      - Ефесян
+      - Eph
+      - Єф
+      - Еф
+  - osis: Phil
+    texts:
+      - Послання св. апостола Павла до филип'ян
+      - Послання св апостола Павла до филип'ян
+      - Poslannja apostola Pavla do fylyp'jan
+      - Послання апостола Павла до филип'ян
+      - Послання до Філіп'ян
+      - Послання до филип'ян
+      - До филип'ян
+      - Филип'яни
+      - Филип'ян
+      - Филипяни
+      - Phil
+      - Фил
+      - Флп
+  - osis: Col
+    texts:
+      - Послання св. апостола Павла до колосян
+      - Послання св апостола Павла до колосян
+      - Poslannja apostola Pavla do kolosjan
+      - Послання апостола Павла до колосян
+      - Послання до Колосян
+      - До колоссян
+      - Колоссян
+      - Колосяни
+      - Колосян
+      - Col
+      - Кол
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - послання св. апостола Павла до солунян
+      - послання св апостола Павла до солунян
+      - послання апостола Павла до солунян
+      - послання до фессалонікійців
+      - послання до салонікійців
+      - послання до солунян
+      - фессалонікійців
+      - до солунян
+      - Солуньці
+      - Солунян
+  - osis: 2Thess
+    texts:
+      - Druhe poslannja apostola Pavla do solunjan
+      - 2 до солунян
+      - 2Thess
+      - 2 Сол
+  - osis: 1Thess
+    texts:
+      - Perše poslannja apostola Pavla do solunjan
+      - 1 до солунян
+      - 1Thess
+      - 1 Сол
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - послання св. апостола Павла до Тимофія
+      - послання св апостола Павла до Тимофія
+      - послання апостола Павла до Тимофія
+      - послання до Тимотея
+      - послання до Тимофія
+      - послання Тимофію
+      - Тимотей
+      - Тимофію
+      - Тимофія
+  - osis: 2Tim
+    texts:
+      - Druhe poslannja apostola Pavla do Tymofija
+      - 2 Тимофію
+      - 2 Тим
+      - 2Tim
+  - osis: 1Tim
+    texts:
+      - Perše poslannja apostola Pavla do Tymofija
+      - 1 Тимофію
+      - 1 Тим
+      - 1Tim
+  - osis: Titus
+    texts:
+      - Послання св. апостола Павла до Тита
+      - Послання св апостола Павла до Тита
+      - Poslannja apostola Pavla do Tyta
+      - Послання апостола Павла до Тита
+      - Послан ня до Тита
+      - До Тита
+      - Titus
+      - Тита
+      - Тит
+  - osis: Phlm
+    texts:
+      - Послання св. апостола Павла до Филимона
+      - Послання св апостола Павла до Филимона
+      - Poslannja apostola Pavla do Fylymona
+      - Послання апостола Павла до Филимона
+      - Послання до Филипійців
+      - Послання до Филимона
+      - До Филимона
+      - Филимона
+      - Филимон
+      - Филим
+      - Phlm
+      - Флм
+  - osis: Heb
+    texts:
+      - Poslannja do jevreïv
+      - Послан ня до Євреїв
+      - Послання до євреїв
+      - До євреїв
+      - Євреїв
+      - Євреї
+      - Heb
+      - Євр
+  - osis: Jas
+    texts:
+      - Соборне послання св. апостола Якова
+      - Соборне послання св апостола Якова
+      - Poslannja apostola Jakova
+      - Послання апостола Якова
+      - Соборне послання Якова
+      - Послання Якова
+      - Якова
+      - Яков
+      - Jas
+      - Як
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - соборне послання св. апостола Петра
+      - соборне послання св апостола Петра
+      - соборне послання апостола Петра
+      - послання апостола Петра
+      - соборне послання Петра
+      - послання Петра
+      - Петрово
+      - Петра
+  - osis: 2Pet
+    texts:
+      - Druhe poslannja apostola Petra
+      - 2 Петра
+      - 2 Петр
+      - 2 Пет
+      - 2Pet
+  - osis: 1Pet
+    texts:
+      - Perše poslannja apostola Petra
+      - 1 Петра
+      - 1 Петр
+      - 1 Пет
+      - 1Pet
+  - osis: Jude
+    texts:
+      - Соборне послання св. апостола Юди
+      - Соборне послання св апостола Юди
+      - Poslannja apostola Judy
+      - Послання апостола Юди
+      - Соборне послання Юди
+      - Послання Іуди
+      - Послання Юди
+      - Jude
+      - Іуд
+      - Юда
+      - Юди
+      - Юд
+  - osis: Tob
+    texts:
+      - Книга Товита
+      - Товита
+      - Товит
+      - Tob
+      - Тов
+  - osis: Jdt
+    texts:
+      - Книга Юдити
+      - Юдити
+      - Jdt
+  - osis: Bar
+    texts:
+      - Варуха
+      - Bar
+      - Вар
+  - osis: Sus
+    texts:
+      - Сусанна
+      - Sus
+      - Сус
+translations:
+  - ERV
