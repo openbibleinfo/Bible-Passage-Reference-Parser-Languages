@@ -15,8 +15,8 @@ const __dirname = dirname(__filename);
 
 // Path to data directory relative to this script (src/build_lang.ts -> ../data)
 const langDir = resolve(__dirname, "../data");
-const translationsDir = resolve(__dirname, "../translations");
-const namesDir = resolve(__dirname, "../names");
+const translationsDir = resolve(__dirname, "../translation_systems");
+const namesDir = resolve(__dirname, "../book_names/all");
 const langOutputDir = resolve(__dirname, "../lang");
 
 const langs = await getLanguageArgs(langDir);
