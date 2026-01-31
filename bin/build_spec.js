@@ -8,9 +8,9 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const repoRoot = path.resolve(__dirname, "..");
-const namesDir = path.join(repoRoot, "names");
+const namesDir = path.join(repoRoot, "book_names", "all");
 const testDir = path.join(repoRoot, "test");
-const translationsPath = path.join(repoRoot, "translations", "default.yaml");
+const translationsPath = path.join(repoRoot, "translation_systems", "default.yaml");
 const dataDir = path.join(repoRoot, "data");
 
 function addExpectation(lines, sample, expected) {

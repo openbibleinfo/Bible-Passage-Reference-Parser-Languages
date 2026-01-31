@@ -1,0 +1,239 @@
+default:
+  Gen:
+    long: 创世记
+    short: 创
+  Exod:
+    long: 出埃及
+    short: 出
+  Lev:
+    long: 利未记
+    short: 利
+  Num:
+    long: 民数记
+    short: 民
+  Deut:
+    long: 申命记
+    short: 申
+  Josh:
+    long: 约书亚记
+    short: 书
+  Judg:
+    long: 士师记
+    short: 士
+  Ruth:
+    long: 路得记
+    short: 得
+  1Sam:
+    long: 撒母耳记上
+    short: 撒上
+  2Sam:
+    long: 撒母耳记下
+    short: 撒下
+  1Kgs:
+    long: 列王记上
+    short: 王上
+  2Kgs:
+    long: 列王记下
+    short: 王下
+  1Chr:
+    long: 历代志上
+    short: 代上
+  2Chr:
+    long: 历代志下
+    short: 代下
+  Ezra:
+    long: 以斯拉记
+    short: 拉
+  Neh:
+    long: 尼希米记
+    short: 尼
+  Esth:
+    long: 以斯帖记
+    short: 斯
+  Job:
+    long: 约伯记
+    short: 伯
+  Ps:
+    long: 诗篇
+    long_single: 诗篇
+    short: 诗
+  Prov:
+    long: 箴言
+    short: 箴
+  Eccl:
+    long: 传道书
+    short: 传
+  Song:
+    long: 雅歌
+    short: 歌
+  Isa:
+    long: 以赛亚书
+    short: 赛
+  Jer:
+    long: 耶利米书
+    short: 耶
+  Lam:
+    long: 耶利米哀歌
+    short: 哀
+  Ezek:
+    long: 以西结书
+    short: 结
+  Dan:
+    long: 但以理书
+    short: 但
+  Hos:
+    long: 何西阿书
+    short: 何
+  Joel:
+    long: 约珥书
+    short: 珥
+  Amos:
+    long: 阿摩司书
+    short: 摩
+  Obad:
+    long: 俄巴底亚书
+    short: 俄
+  Jonah:
+    long: 约拿书
+    short: 拿
+  Mic:
+    long: 弥迦书
+    short: 弥
+  Nah:
+    long: 那鸿书
+    short: 鸿
+  Hab:
+    long: 哈巴谷书
+    short: 哈
+  Zeph:
+    long: 西番雅书
+    short: 番
+  Hag:
+    long: 哈该书
+    short: 该
+  Zech:
+    long: 撒迦利亚书
+    short: 亚
+  Mal:
+    long: 玛拉基书
+    short: 玛
+  Matt:
+    long: 瑪特斐
+    short: 太
+  Mark:
+    long: 瑪爾克
+    short: 可
+  Luke:
+    long: 路加福音
+    short: 路
+  John:
+    long: 伊望
+    short: 约
+  Acts:
+    long: 宗徒行實
+    short: 徒
+  Rom:
+    long: 罗马书
+    short: 罗
+  1Cor:
+    long: 适凌爾福前
+    short: 林前
+  2Cor:
+    long: 适凌爾福後
+    short: 林后
+  Gal:
+    long: 戛拉提亞
+    short: 加
+  Eph:
+    long: 耶斐斯
+    short: 弗
+  Phil:
+    long: 肥利批
+    short: 腓
+  Col:
+    long: 适羅斯
+    short: 西
+  1Thess:
+    long: 莎倫前
+    short: 帖前
+  2Thess:
+    long: 莎倫後
+    short: 帖后
+  1Tim:
+    long: 提摩斐前
+    short: 提前
+  2Tim:
+    long: 提摩斐後
+    short: 提后
+  Titus:
+    long: 提特書
+    short: 多
+  Phlm:
+    long: 肥利孟
+    short: 门
+  Heb:
+    long: 希伯来书
+    short: 来
+  Jas:
+    long: 亞适烏
+    short: 雅
+  1Pet:
+    long: 撇特爾前
+    short: 彼前
+  2Pet:
+    long: 撇特爾後
+    short: 彼后
+  1John:
+    long: 伊望第一
+    short: 约壹
+  2John:
+    long: 伊望第二
+    short: 约贰
+  3John:
+    long: 伊望第三
+    short: 约三
+  Jude:
+    long: 伊屋達
+    short: 犹
+  Rev:
+    long: 默示錄
+    short: 启
+  Tob:
+    long: 多俾亞傳
+  Jdt:
+    long: 友弟德傳
+  GkEsth:
+    long: GkEsth
+  Wis:
+    long: 智慧篇
+    short: Wis
+  Sir:
+    long: 德訓篇
+    short: Sir
+  Bar:
+    long: 巴路克
+    short: Bar
+  PrAzar:
+    long: PrAzar
+  Sus:
+    long: Sus
+  Bel:
+    long: Bel
+  SgThree:
+    long: SgThree
+  EpJer:
+    long: EpJer
+  1Macc:
+    long: 瑪加伯上
+  2Macc:
+    long: 瑪加伯下
+  3Macc:
+    long: 3Macc
+  4Macc:
+    long: 4Macc
+  1Esd:
+    long: 1Esd
+  2Esd:
+    long: 2Esd
+  PrMan:
+    long: PrMan

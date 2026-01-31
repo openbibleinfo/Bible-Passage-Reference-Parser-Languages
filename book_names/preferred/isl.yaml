@@ -1,0 +1,246 @@
+default:
+  Gen:
+    long: Fyrsta Mósebók
+    short: 1Mós
+  Exod:
+    long: Önnur Mósebók
+    short: 2Mós
+  Lev:
+    long: Þriðja Mósebók
+    short: 3Mós
+  Num:
+    long: Fjórða Mósebók
+    short: 4Mós
+  Deut:
+    long: Fimmta Mósebók
+    short: 5Mós
+  Josh:
+    long: Jósúabók
+    short: Jós
+  Judg:
+    long: Dómarabókin
+    short: Dóm
+  Ruth:
+    long: Rutarbók
+    short: Rut
+  1Sam:
+    long: Fyrri Samúelsbók
+    short: 1 Sam
+  2Sam:
+    long: Síðari Samúelsbók
+    short: 2 Sam
+  1Kgs:
+    long: Fyrri konungabók
+    short: 1 Kon
+  2Kgs:
+    long: Síðari konungabók
+    short: 2 Kon
+  1Chr:
+    long: Fyrri kroníkubók
+    short: 1 Kro
+  2Chr:
+    long: Síðari kroníkubók
+    short: 2 Kro
+  Ezra:
+    long: Esrabók
+    short: Esr
+  Neh:
+    long: Nehemíabók
+    short: Neh
+  Esth:
+    long: Esterarbók
+    short: Est
+  Job:
+    long: Jobsbók
+    short: Job
+  Ps:
+    long: Sálmarnir
+    short: Slm
+  Prov:
+    long: Orðskviðirnir
+    short: Okv
+  Eccl:
+    long: Prédikarinn
+    short: Préd
+  Song:
+    long: Ljóðaljóðin
+    short: Ljl
+  Isa:
+    long: Jesaja
+    short: Jes
+  Jer:
+    long: Jeremía
+    short: Jer
+  Lam:
+    long: Harmljóðin
+    short: Hlj
+  Ezek:
+    long: Esekíel
+    short: Esk
+  Dan:
+    long: Daníel
+    short: Dan
+  Hos:
+    long: Hósea
+    short: Hós
+  Joel:
+    long: Jóel
+    short: Jl
+  Amos:
+    long: Amos
+    short: Am
+  Obad:
+    long: Óbadía
+    short: Ób
+  Jonah:
+    long: Jónas
+    short: Jón
+  Mic:
+    long: Míka
+    short: Mík
+  Nah:
+    long: Nahúm
+    short: Nah
+  Hab:
+    long: Habakkuk
+    short: Hab
+  Zeph:
+    long: Sefanía
+    short: Sef
+  Hag:
+    long: Haggaí
+    short: Hag
+  Zech:
+    long: Sakaría
+    short: Sak
+  Mal:
+    long: Malakí
+    short: Mal
+  Matt:
+    long: Matteusarguðspjall
+    short: Matt
+  Mark:
+    long: Markúsarguðspjall
+    short: Mrk
+  Luke:
+    long: Lúkasarguðspjall
+    short: Lúk
+  John:
+    long: Jóhannesarguðspjall
+    short: Jóh
+  Acts:
+    long: Postulasagan
+    short: Post
+  Rom:
+    long: Rómverjabréfið
+    short: Róm
+  1Cor:
+    long: Fyrra Korintubréf
+    short: 1 Kor
+  2Cor:
+    long: Síðara Korintubréf
+    short: 2 Kor
+  Gal:
+    long: Galatabréfið
+    short: Gal
+  Eph:
+    long: Efesusbréfið
+    short: Ef
+  Phil:
+    long: Filippíbréfið
+    short: Fil
+  Col:
+    long: Kólussubréfið
+    short: Kól
+  1Thess:
+    long: Fyrra Þessaloníkubréf
+    short: 1 Þess
+  2Thess:
+    long: Síðara Þessaloníkubréf
+    short: 2 Þess
+  1Tim:
+    long: Fyrra Tímóteusarbréf
+    short: 1 Tím
+  2Tim:
+    long: Síðara Tímóteusarbréf
+    short: 2 Tím
+  Titus:
+    long: Títusarbréf
+    short: Tít
+  Phlm:
+    long: Fílemonsbréfið
+    short: Fílm
+  Heb:
+    long: Hebreabréfið
+    short: Heb
+  Jas:
+    long: Jakobsbréfið
+    short: Jak
+  1Pet:
+    long: Fyrra Pétursbréf
+    short: 1 Pét
+  2Pet:
+    long: Síðara Pétursbréf
+    short: 2 Pét
+  1John:
+    long: Fyrsta Jóhannesarbréf
+    short: 1 Jóh
+  2John:
+    long: Annað Jóhannesarbréf
+    short: 2 Jóh
+  3John:
+    long: Þriðja Jóhannesarbréf
+    short: 3 Jóh
+  Jude:
+    long: Júdasarbréfið
+    short: Júd
+  Rev:
+    long: Opinberunarbókin
+    short: Opb
+  Tob:
+    long: Tóbítsbók
+    short: Tob
+  Jdt:
+    long: Júdítarbók
+    short: Júdt
+  GkEsth:
+    long: Esterarbók hin gríska
+  Wis:
+    long: Speki Salómons
+    short: SSal
+  Sir:
+    long: Síraksbók
+    short: Sír
+  Bar:
+    long: Barúksbók
+    short: Bar
+  PrAzar:
+    long: Bæn Asarja
+  Sus:
+    long: Súsanna
+  Bel:
+    long: Bel og drekinn
+  SgThree:
+    long: Lofsöngur ungmennanna þriggja
+  EpJer:
+    long: Bréf Jeremía
+    short: BJer
+  1Macc:
+    long: Fyrsta Makkabeabók
+    short: 1 Makk
+  2Macc:
+    long: Önnur Makkabeabók
+    short: 2 Makk
+  3Macc:
+    long: Þriðja Makkabeabók
+    short: 3 Makk
+  4Macc:
+    long: Fjórða Makkabeabók
+    short: 4 Makk
+  1Esd:
+    long: 1Esd
+  2Esd:
+    long: 2Esd
+  PrMan:
+    long: Bæn Manasse
+    short: BMn

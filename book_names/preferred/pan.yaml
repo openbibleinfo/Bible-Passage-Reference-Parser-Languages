@@ -1,0 +1,171 @@
+default:
+  Gen:
+    long: ਉਤਪਤ
+  Exod:
+    long: ਕੂਚ
+  Lev:
+    long: ਲੇਵੀਆਂ ਦੀ ਪੋਥੀ
+    short: ਲੇਵੀਆਂ
+  Num:
+    long: ਗਿਣਤੀ
+  Deut:
+    long: ਬਿਵਸਥਾ ਸਾਰ
+    short: ਬਿਵਸਥਾ
+  Josh:
+    long: ਯਹੋਸ਼ੁਆ
+  Judg:
+    long: ਨਿਆਂਈਆਂ ਦੀ ਪੋਥੀ
+  Ruth:
+    long: ਰੂਥ
+  1Sam:
+    long: 1 ਸਮੂਏਲ
+  2Sam:
+    long: 2 ਸਮੂਏਲ
+  1Kgs:
+    long: 1 ਰਾਜਿਆਂ
+  2Kgs:
+    long: 2 ਰਾਜਿਆਂ
+  1Chr:
+    long: 1 ਇਤਹਾਸ
+  2Chr:
+    long: 2 ਇਤਹਾਸ
+  Ezra:
+    long: ਅਜ਼ਰਾ
+  Neh:
+    long: ਨਹਮਯਾਹ
+  Esth:
+    long: ਅਸਤਰ
+  Job:
+    long: ਅੱਯੂਬ
+  Ps:
+    long: ਜ਼ਬੂਰ
+  Prov:
+    long: ਕਹਾਉਤਾਂ
+  Eccl:
+    long: ਉਪਦੇਸ਼ਕ
+  Song:
+    long: ਸਲੇਮਾਨ ਦਾ ਗੀਤ
+  Isa:
+    long: ਯਸਾਯਾਹ
+  Jer:
+    long: ਯਿਰਮਿਯਾਹ
+  Lam:
+    long: ਵਿਰਲਾਪ
+  Ezek:
+    long: ਹਿਜ਼ਕੀਏਲ
+  Dan:
+    long: ਦਾਨੀਏਲ
+  Hos:
+    long: ਹੋਸ਼ੇਆ
+  Joel:
+    long: ਯੋਏਲ
+  Amos:
+    long: ਆਮੋਸ
+  Obad:
+    long: ਓਬਦਯਾਹ
+  Jonah:
+    long: ਯੂਨਾਹ
+  Mic:
+    long: ਮੀਕਾਹ
+  Nah:
+    long: ਨਹੂਮ
+  Hab:
+    long: ਹਬਕੱੂਕ
+  Zeph:
+    long: ਸਫ਼ਨਯਾਹ
+  Hag:
+    long: ਹੱਜਈ
+  Zech:
+    long: ਜ਼ਕਰਯਾਹ
+  Mal:
+    long: ਮਲਾਕੀ
+  Matt:
+    long: ਮੱਤੀ
+  Mark:
+    long: ਮਰਕੁਸ
+  Luke:
+    long: ਲੂਕਾ
+  John:
+    long: ਯੂਹੰਨਾ
+  Acts:
+    long: ਰਸੂਲਾਂ ਦੇ ਕਰਤੱਬ
+  Rom:
+    long: ਰੋਮੀਆਂ ਨੂੰ
+  1Cor:
+    long: 1 ਕੁਰਿੰਥੀਆਂ ਨੂੰ
+  2Cor:
+    long: 2 ਕੁਰਿੰਥੀਆਂ ਨੂੰ
+  Gal:
+    long: ਗਲਾਤੀਆਂ ਨੂੰ
+  Eph:
+    long: ਅਫ਼ਸੀਆਂ ਨੂੰ
+  Phil:
+    long: ਫ਼ਿਲਿੱਪੀਆਂ ਨੂੰ
+  Col:
+    long: ਕੁਲੁੱਸੀਆਂ ਨੂੰ
+  1Thess:
+    long: 1 ਥੱਸਲੁਨੀਕੀਆਂ ਨੂੰ
+  2Thess:
+    long: 2 ਥੱਸਲੁਨੀਕੀਆਂ ਨੂੰ
+  1Tim:
+    long: 1 ਤਿਮੋਥਿਉਸ ਨੂੰ
+  2Tim:
+    long: 2 ਤਿਮੋਥਿਉਸ ਨੂੰ
+  Titus:
+    long: ਤੀਤੁਸ ਨੂੰ
+  Phlm:
+    long: ਫ਼ਿਲੇਮੋਨ ਨੂੰ
+  Heb:
+    long: ਇਬਰਾਨੀਆਂ ਨੂੰ
+  Jas:
+    long: ਯਾਕੂਬ
+  1Pet:
+    long: 1 ਪਤਰਸ
+  2Pet:
+    long: 2 ਪਤਰਸ
+  1John:
+    long: 1 ਯੂਹੰਨਾ
+  2John:
+    long: 2 ਯੂਹੰਨਾ
+  3John:
+    long: 3 ਯੂਹੰਨਾ
+  Jude:
+    long: ਯਹੂਦਾਹ
+  Rev:
+    long: ਪਰਕਾਸ਼ ਦੀ ਪੋਥੀ
+  Tob:
+    long: Tob
+  Jdt:
+    long: Jdt
+  GkEsth:
+    long: GkEsth
+  Wis:
+    long: Wis
+  Sir:
+    long: Sir
+  Bar:
+    long: Bar
+  PrAzar:
+    long: PrAzar
+  Sus:
+    long: Sus
+  Bel:
+    long: Bel
+  SgThree:
+    long: SgThree
+  EpJer:
+    long: EpJer
+  1Macc:
+    long: 1Macc
+  2Macc:
+    long: 2Macc
+  3Macc:
+    long: 3Macc
+  4Macc:
+    long: 4Macc
+  1Esd:
+    long: 1Esd
+  2Esd:
+    long: 2Esd
+  PrMan:
+    long: PrMan

@@ -1,0 +1,314 @@
+default:
+  Gen:
+    long: Genesi
+    short: Gen
+    shorter: Ge
+  Exod:
+    long: Esodo
+    short: Es
+    shorter: Es
+  Lev:
+    long: Levitico
+    short: Lv
+    shorter: Le
+  Num:
+    long: Numeri
+    short: Nm
+    shorter: Nu
+  Deut:
+    long: Deuteronomio
+    short: Dt
+    shorter: De
+  Josh:
+    long: Giosuè
+    short: Gs
+    shorter: Gs
+  Judg:
+    long: Giudici
+    short: Gdc
+    shorter: Gdc
+  Ruth:
+    long: Rut
+    short: Rt
+    shorter: Ru
+  1Sam:
+    long: 1 Samuele
+    short: 1 Sam
+    shorter: 1 S
+  2Sam:
+    long: 2 Samuele
+    short: 2 Sam
+    shorter: 2 S
+  1Kgs:
+    long: 1 Re
+    short: 1 Re
+    shorter: 1 R
+  2Kgs:
+    long: 2 Re
+    short: 2 Re
+    shorter: 2 R
+  1Chr:
+    long: 1 Cronache
+    short: 1 Cr
+    shorter: 1 Cr
+  2Chr:
+    long: 2 Cronache
+    short: 2 Cr
+    shorter: 2 Cr
+  Ezra:
+    long: Esdra
+    short: Esd
+    shorter: Ed
+  Neh:
+    long: Neemia
+    short: Ne
+    shorter: Ne
+  Esth:
+    long: Ester
+    short: Est
+    shorter: Et
+  Job:
+    long: Giobbe
+    short: Gb
+    shorter: Gb
+  Ps:
+    long: Salmi
+    long_single: Salmo
+    short: Sal
+    shorter: Sl
+  Prov:
+    long: Proverbi
+    short: Pr
+    shorter: Pr
+  Eccl:
+    long: Qoelet
+    short: Qo
+    shorter: Ec
+  Song:
+    long: Cantico dei cantici
+    short: Ct
+    shorter: Ca
+  Isa:
+    long: Isaia
+    short: Is
+    shorter: Is
+  Jer:
+    long: Geremia
+    short: Ger
+    shorter: Gr
+  Lam:
+    long: Lamentazioni
+    short: Lam
+    shorter: La
+  Ezek:
+    long: Ezechiele
+    short: Ez
+    shorter: Ez
+  Dan:
+    long: Daniele
+    short: Dn
+    shorter: Da
+  Hos:
+    long: Osea
+    short: Os
+    shorter: Os
+  Joel:
+    long: Gioele
+    short: Gl
+    shorter: Gl
+  Amos:
+    long: Amos
+    short: Am
+    shorter: Am
+  Obad:
+    long: Abdia
+    short: Abd
+    shorter: Ad
+  Jonah:
+    long: Giona
+    short: Gn
+    shorter: Gn
+  Mic:
+    long: Michea
+    short: Mi
+    shorter: Mi
+  Nah:
+    long: Naum
+    short: Na
+    shorter: Na
+  Hab:
+    long: Abacuc
+    short: Ab
+    shorter: Ac
+  Zeph:
+    long: Sofonia
+    short: Sof
+    shorter: So
+  Hag:
+    long: Aggeo
+    short: Ag
+    shorter: Ag
+  Zech:
+    long: Zaccaria
+    short: Zc
+    shorter: Za
+  Mal:
+    long: Malachia
+    short: Ml
+    shorter: Ml
+  Matt:
+    long: Matteo
+    short: Mt
+    shorter: Mt
+  Mark:
+    long: Marco
+    short: Mc
+    shorter: Mr
+  Luke:
+    long: Luca
+    short: Lc
+    shorter: Lu
+  John:
+    long: Giovanni
+    short: Gv
+    shorter: Gv
+  Acts:
+    long: Atti
+    short: At
+    shorter: At
+  Rom:
+    long: Romani
+    short: Rm
+    shorter: Ro
+  1Cor:
+    long: 1 Corinzi
+    short: 1 Cor
+    shorter: 1 Co
+  2Cor:
+    long: 2 Corinzi
+    short: 2 Cor
+    shorter: 2 Co
+  Gal:
+    long: Gàlati
+    short: Gal
+    shorter: Ga
+  Eph:
+    long: Efesini
+    short: Ef
+    shorter: Ef
+  Phil:
+    long: Filippesi
+    short: Fil
+    shorter: Fl
+  Col:
+    long: Colossesi
+    short: Col
+    shorter: Cl
+  1Thess:
+    long: 1 Tessalonicesi
+    short: 1 Ts
+    shorter: 1 Ts
+  2Thess:
+    long: 2 Tessalonicesi
+    short: 2 Ts
+    shorter: 2 Ts
+  1Tim:
+    long: 1 Timoteo
+    short: 1 Tm
+    shorter: 1 Ti
+  2Tim:
+    long: 2 Timoteo
+    short: 2 Tm
+    shorter: 2 Ti
+  Titus:
+    long: Tito
+    short: Tt
+    shorter: Tt
+  Phlm:
+    long: Filèmone
+    short: Fm
+    shorter: Fi
+  Heb:
+    long: Ebrei
+    short: Eb
+    shorter: Eb
+  Jas:
+    long: Giacomo
+    short: Gc
+    shorter: Gc
+  1Pet:
+    long: 1 Pietro
+    short: 1 Pt
+    shorter: 1 P
+  2Pet:
+    long: 2 Pietro
+    short: 2 Pt
+    shorter: 2 P
+  1John:
+    long: 1 Giovanni
+    short: 1 Gv
+    shorter: 1 Gv
+  2John:
+    long: 2 Giovanni
+    short: 2 Gv
+    shorter: 2 Gv
+  3John:
+    long: 3 Giovanni
+    short: 3 Gv
+    shorter: 3 Gv
+  Jude:
+    long: Giuda
+    short: Gd
+    shorter: Gd
+  Rev:
+    long: Apocalisse
+    short: Ap
+    shorter: Ap
+  Tob:
+    long: Tobia
+    short: Tb
+  Jdt:
+    long: Giuditta
+    short: Gdt
+  GkEsth:
+    long: Ester greco
+  Wis:
+    long: Sapienza
+    short: Sap
+  Sir:
+    long: Siràcide
+    short: Sir
+  Bar:
+    long: Baruc
+    short: Bar
+  PrAzar:
+    long: Preghiera di Azaria
+  Sus:
+    long: Storia di Susanna
+  Bel:
+    long: Bel e il Drago
+    short: Bel
+  SgThree:
+    long: Cantico dei tre giovani nella fornace
+  EpJer:
+    long: Lettera di Geremia
+  1Macc:
+    long: 1 Maccabei
+    short: 1 Mac
+  2Macc:
+    long: 2 Maccabei
+    short: 2 Mac
+  3Macc:
+    long: 3 Maccabei
+    short: 3 Mac
+  4Macc:
+    long: 4 Maccabei
+    short: 4 Mac
+  1Esd:
+    long: 1 Esdra
+    short: 1 Esd
+  2Esd:
+    long: 2 Esdra
+    short: 2 Esd
+  PrMan:
+    long: Preghiera di Manasse

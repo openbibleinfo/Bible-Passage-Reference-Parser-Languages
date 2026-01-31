@@ -1,0 +1,238 @@
+default:
+  Gen:
+    long: Geneza
+    short: Gen
+  Exod:
+    long: Exodul
+    short: Ex
+  Lev:
+    long: Leviticul
+    short: Lev
+  Num:
+    long: Numeri
+    short: Num
+  Deut:
+    long: Deuteronom
+    short: Deut
+  Josh:
+    long: Iosua
+    short: Ios
+  Judg:
+    long: Judecători
+    short: Jud
+  Ruth:
+    long: Rut
+    short: Rut
+  1Sam:
+    long: 1 Samuel
+    short: 1 Sam
+  2Sam:
+    long: 2 Samuel
+    short: 2 Sam
+  1Kgs:
+    long: 1 Regi
+    short: 1 Imp
+  2Kgs:
+    long: 2 Regi
+    short: 2 Imp
+  1Chr:
+    long: 1 Cronici
+    short: 1 Cron
+  2Chr:
+    long: 2 Cronici
+    short: 2 Cron
+  Ezra:
+    long: Ezra
+    short: Ezra
+  Neh:
+    long: Neemia
+    short: Neem
+  Esth:
+    long: Estera
+    short: Est
+  Job:
+    long: Iov
+    short: Iov
+  Ps:
+    long: Psalmii
+    long_single: Psalmul
+    short: Ps
+  Prov:
+    long: Proverbe
+    short: Prov
+  Eccl:
+    long: Ecclesiastul
+    short: Ecl
+  Song:
+    long: Cântarea Cântărilor
+    short: Cant
+  Isa:
+    long: Isaia
+    short: Isa
+  Jer:
+    long: Ieremia
+    short: Ier
+  Lam:
+    long: Plângeri
+    short: Pl
+  Ezek:
+    long: Ezechiel
+    short: Ezec
+  Dan:
+    long: Daniel
+    short: Dan
+  Hos:
+    long: Osea
+    short: Osea
+  Joel:
+    long: Ioel
+    short: Ioel
+  Amos:
+    long: Amos
+    short: Amos
+  Obad:
+    long: Obadia
+    short: Obad
+  Jonah:
+    long: Iona
+    short: Iona
+  Mic:
+    long: Mica
+    short: Mic
+  Nah:
+    long: Naum
+    short: Naum
+  Hab:
+    long: Habacuc
+    short: Hab
+  Zeph:
+    long: Țefania
+    short: Tef
+  Hag:
+    long: Hagai
+    short: Hag
+  Zech:
+    long: Zaharia
+    short: Zah
+  Mal:
+    long: Maleahi
+    short: Mal
+  Matt:
+    long: Matei
+    short: Mat
+  Mark:
+    long: Marcu
+    short: Mark
+  Luke:
+    long: Luca
+    short: Luc
+  John:
+    long: Ioan
+    short: Ioan
+  Acts:
+    long: Faptele Apostolilor
+    short: Fapt
+  Rom:
+    long: Romani
+    short: Rom
+  1Cor:
+    long: 1 Corinteni
+    short: 1 Cor
+  2Cor:
+    long: 2 Corinteni
+    short: 2 Cor
+  Gal:
+    long: Galateni
+    short: Gal
+  Eph:
+    long: Efeseni
+    short: Efes
+  Phil:
+    long: Filipeni
+    short: Filip
+  Col:
+    long: Coloseni
+    short: Col
+  1Thess:
+    long: 1 Tesaloniceni
+    short: 1 Tes
+  2Thess:
+    long: 2 Tesaloniceni
+    short: 2 Tes
+  1Tim:
+    long: 1 Timotei
+    short: 1 Tim
+  2Tim:
+    long: 2 Timotei
+    short: 2 Tim
+  Titus:
+    long: Titus
+    short: Tit
+  Phlm:
+    long: Filimon
+    short: Filim
+  Heb:
+    long: Evrei
+    short: Evr
+  Jas:
+    long: Iacov
+    short: Iac
+  1Pet:
+    long: 1 Petru
+    short: 1 Pet
+  2Pet:
+    long: 2 Petru
+    short: 2 Pet
+  1John:
+    long: 1 Ioan
+    short: 1 Ioan
+  2John:
+    long: 2 Ioan
+    short: 2 Ioan
+  3John:
+    long: 3 Ioan
+    short: 3 Ioan
+  Jude:
+    long: Iuda
+    short: Iuda
+  Rev:
+    long: Apocalipsa
+    short: Apoc
+  Tob:
+    long: Tobit
+  Jdt:
+    long: Iudita
+  GkEsth:
+    long: GkEsth
+  Wis:
+    long: Înțelepciunea lui Solomon
+  Sir:
+    long: Ecleziastic
+  Bar:
+    long: Baruh
+  PrAzar:
+    long: Rugăciunea lui Azaria
+  Sus:
+    long: Susana
+  Bel:
+    long: Bel și dragonul
+  SgThree:
+    long: Cântarea celor trei evrei
+  EpJer:
+    long: Epistola lui Ieremia
+  1Macc:
+    long: 1 Macabei
+  2Macc:
+    long: 2 Macabei
+  3Macc:
+    long: 3 Macabei
+  4Macc:
+    long: 4 Macabei
+  1Esd:
+    long: 1 Ezdra
+  2Esd:
+    long: 2 Ezdra
+  PrMan:
+    long: Rugăciunea lui Manase
+  AddEsth:
+    long: Adăugirile la Cartea Esterei

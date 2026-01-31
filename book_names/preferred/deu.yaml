@@ -1,0 +1,262 @@
+default:
+  Gen:
+    long: 1. Mose
+    short: 1 Mos
+    shorter: Gen
+  Exod:
+    long: 2. Mose
+    short: 2 Mos
+    shorter: Ex
+  Lev:
+    long: 3. Mose
+    short: 3 Mos
+    shorter: Lev
+  Num:
+    long: 4. Mose
+    short: 4 Mos
+    shorter: Num
+  Deut:
+    long: 5. Mose
+    short: 5 Mos
+    shorter: Dtn
+  Josh:
+    long: Josua
+    short: Jos
+  Judg:
+    long: Richter
+    short: Ri
+  Ruth:
+    long: Rut
+    short: Rut
+  1Sam:
+    long: 1. Samuel
+    short: 1 Sam
+  2Sam:
+    long: 2. Samuel
+    short: 2 Sam
+  1Kgs:
+    long: 1. Könige
+    short: 1 Kön
+  2Kgs:
+    long: 2. Könige
+    short: 2 Kön
+  1Chr:
+    long: 1. Chronik
+    short: 1 Chr
+  2Chr:
+    long: 2. Chronik
+    short: 2 Chr
+  Ezra:
+    long: Esra
+    short: Esra
+  Neh:
+    long: Nehemia
+    short: Neh
+  Esth:
+    long: Ester
+    short: Est
+  Job:
+    long: Ijob
+    short: Ijob
+    shorter: Hi
+  Ps:
+    long: Psalmen
+    long_single: Psalm
+    short: Ps
+  Prov:
+    long: Sprüche
+    short: Spr
+  Eccl:
+    long: Prediger
+    short: Pred
+    shorter: Koh
+  Song:
+    long: Hoheslied
+    short: Hld
+  Isa:
+    long: Jesaja
+    short: Jes
+  Jer:
+    long: Jeremia
+    short: Jer
+  Lam:
+    long: Klagelieder
+    short: Klgl
+  Ezek:
+    long: Ezechiel
+    short: Ez
+  Dan:
+    long: Daniel
+    short: Dan
+  Hos:
+    long: Hosea
+    short: Hos
+  Joel:
+    long: Joel
+    short: Joel
+  Amos:
+    long: Amos
+    short: Am
+  Obad:
+    long: Obadja
+    short: Obd
+  Jonah:
+    long: Jona
+    short: Jona
+  Mic:
+    long: Micha
+    short: Mi
+  Nah:
+    long: Nahum
+    short: Nah
+  Hab:
+    long: Habakuk
+    short: Hab
+  Zeph:
+    long: Zefanja
+    short: Zef
+  Hag:
+    long: Haggai
+    short: Hag
+  Zech:
+    long: Sacharja
+    short: Sach
+  Mal:
+    long: Maleachi
+    short: Mal
+  Matt:
+    long: Matthäus
+    short: Mt
+  Mark:
+    long: Markus
+    short: Mk
+  Luke:
+    long: Lukas
+    short: Lk
+  John:
+    long: Johannes
+    short: Joh
+  Acts:
+    long: Apostelgeschichte
+    short: Apg
+  Rom:
+    long: Römer
+    short: Röm
+  1Cor:
+    long: 1. Korinther
+    short: 1 Kor
+  2Cor:
+    long: 2. Korinther
+    short: 2 Kor
+  Gal:
+    long: Galater
+    short: Gal
+  Eph:
+    long: Epheser
+    short: Eph
+  Phil:
+    long: Philipper
+    short: Phil
+  Col:
+    long: Kolosser
+    short: Kol
+  1Thess:
+    long: 1. Thessalonicher
+    short: 1 Thess
+  2Thess:
+    long: 2. Thessalonicher
+    short: 2 Thess
+  1Tim:
+    long: 1. Timotheus
+    short: 1 Tim
+  2Tim:
+    long: 2. Timotheus
+    short: 2 Tim
+  Titus:
+    long: Titus
+    short: Tit
+  Phlm:
+    long: Philemon
+    short: Phlm
+    shorter: Phm
+  Heb:
+    long: Hebräer
+    short: Hebr
+  Jas:
+    long: Jakobusbrief
+    short: Jak
+  1Pet:
+    long: 1. Petrus
+    short: 1 Petr
+  2Pet:
+    long: 2. Petrus
+    short: 2 Petr
+  1John:
+    long: 1. Johannes
+    short: 1 Joh
+  2John:
+    long: 2. Johannes
+    short: 2 Joh
+  3John:
+    long: 3. Johannes
+    short: 3 Joh
+  Jude:
+    long: Judas
+    short: Jud
+  Rev:
+    long: Offenbarung
+    short: Offb
+  Tob:
+    long: Tobit
+    short: Tob
+  Jdt:
+    long: Judit
+    short: Jdt
+  GkEsth:
+    long: Ester (Griechisch)
+    short: Gr Est
+  Wis:
+    long: Weisheit
+    short: Weish
+  Sir:
+    long: Jesus Sirach
+    short: Sir
+  Bar:
+    long: Baruch
+    short: Bar
+  PrAzar:
+    long: Gebet des Asarja
+    short: Geb As
+  Sus:
+    long: Susanna
+    short: Sus
+  Bel:
+    long: Bel und Vom Drachen
+    short: Bel
+  SgThree:
+    long: Gesang der Drei
+    short: L3J
+  EpJer:
+    long: Brief des Jeremia
+    short: Br Jer
+  1Macc:
+    long: 1. Makkabäer
+    short: 1 Makk
+  2Macc:
+    long: 2. Makkabäer
+    short: 2 Makk
+  3Macc:
+    long: 3. Makkabäer
+    short: 3 Makk
+  4Macc:
+    long: 4. Makkabäer
+    short: 4 Makk
+  1Esd:
+    long: 1. Esra
+    short: 1 Es
+  2Esd:
+    long: 2. Esra
+    short: 2 Es
+  PrMan:
+    long: Gebet des Manasse
+    short: Geb Man

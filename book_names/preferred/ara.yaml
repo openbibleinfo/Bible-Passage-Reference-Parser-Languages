@@ -1,0 +1,242 @@
+default:
+  Gen:
+    long: التكوين
+    short: تك
+  Exod:
+    long: سفر الخروج
+    short: خر
+  Lev:
+    long: اللاويين
+    short: أح
+  Num:
+    long: العدد
+    short: عد
+  Deut:
+    long: التثنية
+    short: تث
+  Josh:
+    long: يشوع
+    short: يش
+  Judg:
+    long: القضاة
+    short: قض
+  Ruth:
+    long: راعوث
+    short: را
+  1Sam:
+    long: صموئيل الأول
+    short: 1 صم
+  2Sam:
+    long: صموئيل الثاني
+    short: 2 صم
+  1Kgs:
+    long: الملوك الأول
+    short: 1 مل
+  2Kgs:
+    long: سفر الملوك الثاني
+    short: 2 مل
+  1Chr:
+    long: أخبار الأيام الأول
+    short: 1 أخ
+  2Chr:
+    long: أخبار الأيام الثاني
+    short: 2 أخ
+  Ezra:
+    long: عزرا
+    short: عـز
+  Neh:
+    long: نحميا
+    short: نح
+  Esth:
+    long: أستير
+    short: أس
+  Job:
+    long: أيوب
+    short: أي
+  Ps:
+    long: سفر المزامير
+    short: مز
+  Prov:
+    long: سفر الأمثال
+    short: مثل
+  Eccl:
+    long: الجامعة
+    short: جا
+  Song:
+    long: سفر نشيد الأنشاد
+    short: نش
+  Isa:
+    long: إشعيا
+    short: اش
+  Jer:
+    long: إرميا
+    short: ار
+  Lam:
+    long: مراثي إرميا
+    short: مرا
+  Ezek:
+    long: حزقيال
+    short: حز
+  Dan:
+    long: دانيال
+    short: دا
+  Hos:
+    long: هوشع
+    short: هو
+  Joel:
+    long: يوئيل
+    short: يوء
+  Amos:
+    long: عاموس
+    short: عا
+  Obad:
+    long: عوبديا
+    short: عو
+  Jonah:
+    long: يونان
+    short: يون
+  Mic:
+    long: ميخا
+    short: مي
+  Nah:
+    long: ناحوم
+    short: نحو
+  Hab:
+    long: حبقوق
+    short: حب
+  Zeph:
+    long: صفنيا
+    short: صف
+  Hag:
+    long: حجي
+    short: حج
+  Zech:
+    long: زكريا
+    short: زك
+  Mal:
+    long: ملاخي
+    short: ملا
+  Matt:
+    long: متى
+    short: مت
+  Mark:
+    long: مرقس
+    short: مر
+  Luke:
+    long: لوقا
+    short: لو
+  John:
+    long: يوحنا
+    short: يو
+  Acts:
+    long: أعمال الرسل
+    short: اع
+  Rom:
+    long: رسالة روما
+    short: روم
+  1Cor:
+    long: كورنثوس الأولى
+    short: 1 قور
+  2Cor:
+    long: كورنثوس الثانية
+    short: 2 قور
+  Gal:
+    long: رسالة غلاطية
+    short: غل
+  Eph:
+    long: رسالة أفسس
+    short: أف
+  Phil:
+    long: رسالة فيلبي
+    short: فل
+  Col:
+    long: رسالة كولوسي
+    short: قول
+  1Thess:
+    long: رسالة تسالونيكي الأولى
+    short: 1 تس
+  2Thess:
+    long: رسالة تسالونيكي الثانية
+    short: 2 تس
+  1Tim:
+    long: تيموثاوس الأولى
+    short: 1 طيم
+  2Tim:
+    long: تيموثاوس الثانية
+    short: 2 طيم
+  Titus:
+    long: طيطس
+    short: طي
+  Phlm:
+    long: فليمون
+    short: ف
+  Heb:
+    long: العبرانيين
+    short: عب
+  Jas:
+    long: يعقوب
+    short: يع
+  1Pet:
+    long: بطرس الأولى
+    short: 1 بط
+  2Pet:
+    long: بطرس الثانية
+    short: 2 بط
+  1John:
+    long: يوحنا الأولى
+    short: 1 يو
+  2John:
+    long: يوحنا الثانية
+    short: 2 يو
+  3John:
+    long: يوحنا الثالثة
+    short: 3 يو
+  Jude:
+    long: يهوذا
+    short: يهو
+  Rev:
+    long: رؤيا يوحنا
+    short: رؤ
+  Tob:
+    long: طوبيا
+    short: طو
+  Jdt:
+    long: يهوديت
+    short: يـه
+  GkEsth:
+    long: GkEsth
+  Wis:
+    long: حكمة سليمان
+    short: حك
+  Sir:
+    long: سيراخ
+    short: سي
+  Bar:
+    long: باروك
+    short: با
+  PrAzar:
+    long: صلاة عزريا
+  Sus:
+    long: سوزانا
+  Bel:
+    long: بل والتنين
+  SgThree:
+    long: أنشودة الأطفال الثلاثة
+  EpJer:
+    long: رسالة إرميا
+  1Macc:
+    long: المكابين الأول
+    short: 1 مك
+  2Macc:
+    long: المكابين الثاني
+    short: 2 مك
+  3Macc:
+    long: المكابين الثالث
+  4Macc:
+    long: المكابين الرابع
+  1Esd:
+    long: إسدراس الأول
+  2Esd:
+    long: إسدراس الثاني
+  PrMan:
+    long: صلاة منسى

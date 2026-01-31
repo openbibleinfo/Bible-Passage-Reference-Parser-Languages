@@ -1,0 +1,245 @@
+default:
+  Gen:
+    long: Буття
+    short: Буття
+  Exod:
+    long: Вихід
+    short: Вихід
+  Lev:
+    long: Левит
+    short: Левит
+  Num:
+    long: Числа
+    short: Числа
+  Deut:
+    long: Повторення Закону
+    short: Повторення Закону
+  Josh:
+    long: Ісус Навин
+  Judg:
+    long: Книга Суддів
+    short: Суд
+  Ruth:
+    long: Рут
+    short: Рут
+  1Sam:
+    long: 1 Самуїлова
+    short: 1 Сам
+  2Sam:
+    long: 2 Самуїлова
+    short: 2 Сам
+  1Kgs:
+    long: 1 царів
+    short: 1 Цар
+  2Kgs:
+    long: 2 царів
+    short: 2 Цар
+  1Chr:
+    long: 1 хроніки
+    short: 1 Хр
+  2Chr:
+    long: 2 хроніки
+    short: 2 Хр
+  Ezra:
+    long: Ездра
+    short: Езд
+  Neh:
+    long: Неемія
+    short: Неєм
+  Esth:
+    long: Естер
+    short: Ест
+  Job:
+    long: Йов
+    short: Йов
+  Ps:
+    long: Псалми
+    short: Пс
+  Prov:
+    long: Приповісті
+    short: Пр
+  Eccl:
+    long: Екклезіяст
+    short: Екл
+  Song:
+    long: Пісня над піснями
+    short: П. П.
+  Isa:
+    long: Ісая
+    short: Іс
+  Jer:
+    long: Єремія
+    short: Єр
+  Lam:
+    long: Плач Єремії
+  Ezek:
+    long: Єзекіїль
+    short: Єз
+  Dan:
+    long: Даниїл
+    short: Дан
+  Hos:
+    long: Осія
+    short: Ос
+  Joel:
+    long: Йоїл
+    short: Йоїн
+  Amos:
+    long: Амос
+    short: Ам
+  Obad:
+    long: Овдій
+    short: Ов
+  Jonah:
+    long: Йона
+    short: Йона
+  Mic:
+    long: Михей
+    short: Мих
+  Nah:
+    long: Наум
+    short: Наум
+  Hab:
+    long: Авакум
+    short: Ав
+  Zeph:
+    long: Софонія
+    short: Соф
+  Hag:
+    long: Огій
+    short: Аггея
+  Zech:
+    long: Захарія
+    short: Зах
+  Mal:
+    long: Малахії
+    short: Мал
+  Matt:
+    long: Від Матвія
+    short: Мт
+  Mark:
+    long: Від Марка
+    short: Мр
+  Luke:
+    long: Від Луки
+    short: Лк
+  John:
+    long: Від Івана
+    short: Ів
+  Acts:
+    long: Дії
+    short: Дії
+  Rom:
+    long: До римлян
+    short: Рим
+  1Cor:
+    long: 1 до коринтян
+    short: 1 Кор
+  2Cor:
+    long: 2 до коринтян
+    short: 2 Кор
+  Gal:
+    long: До галатів
+    short: Гал
+  Eph:
+    long: До ефесян
+    short: Еф
+  Phil:
+    long: До филип'ян
+    short: Фил
+  Col:
+    long: До колоссян
+    short: Кол
+  1Thess:
+    long: 1 до солунян
+    short: 1 Сол
+  2Thess:
+    long: 2 до солунян
+    short: 2 Сол
+  1Tim:
+    long: 1 Тимофію
+    short: 1 Тим
+  2Tim:
+    long: 2 Тимофію
+    short: 2 Тим
+  Titus:
+    long: До Тита
+    short: Тит
+  Phlm:
+    long: До Филимона
+    short: Филим
+  Heb:
+    long: До євреїв
+    short: Євр
+  Jas:
+    long: Якова
+    short: Як
+  1Pet:
+    long: 1 Петра
+    short: 1 Петр
+  2Pet:
+    long: 2 Петра
+    short: 2 Петр
+  1John:
+    long: 1 Івана
+    short: 1 Ів
+  2John:
+    long: 2 Івана
+    short: 2 Ів
+  3John:
+    long: 3 Івана
+    short: 3 Ів
+  Jude:
+    long: Юда
+    short: Юд
+  Rev:
+    long: Об'явлення
+    short: Об
+  Tob:
+    long: Товита
+    short: Тов
+  Jdt:
+    long: Юдити
+  GkEsth:
+    long: GkEsth
+  Wis:
+    long: Премудрість Соломона
+    short: Муд
+  Sir:
+    long: Премудрість Ісуса, сина Сирахова
+    short: Сир
+  Bar:
+    long: Варуха
+    short: Вар
+  PrAzar:
+    long: Молитва Азарії
+  Sus:
+    long: Сусанна
+    short: Сус
+  Bel:
+    long: Бел і дракон
+    short: Бел
+  SgThree:
+    long: Пісня трьох отроків
+  EpJer:
+    long: Послання Єремії
+  1Macc:
+    long: Перша книга Макавеїв
+    short: 1 Мак
+  2Macc:
+    long: Друга книга Макавеїв
+    short: 2 Мак
+  3Macc:
+    long: Третя книга Макавеїв
+    short: 3 Мак
+  4Macc:
+    long: Четверта книга Макавеїв
+    short: 4 Мак
+  1Esd:
+    long: 1 Ездри
+    short: 1 Езд
+  2Esd:
+    long: 2 Ездри
+    short: 2 Езд
+  PrMan:
+    long: PrMan

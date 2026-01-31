@@ -1,0 +1,284 @@
+default:
+  Gen:
+    long: Genesis
+    short: Gen
+    shorter: Gn
+  Exod:
+    long: Exodus
+    short: Ex
+  Lev:
+    long: Leviticus
+    short: Lv
+  Num:
+    long: Numeri
+    short: Num
+    shorter: Nu
+  Deut:
+    long: Deuteronomium
+    short: Dt
+  Josh:
+    long: Jozue
+    short: Joz
+    shorter: Jz
+  Judg:
+    long: Soudců
+    short: Sdc
+    shorter: Sd
+  Ruth:
+    long: Rút
+    short: Rút
+    shorter: Rt
+  1Sam:
+    long: 1 Samuel
+    short: 1 Sam
+    shorter: 1 S
+  2Sam:
+    long: 2 Samuel
+    short: 2 Sam
+    shorter: 2 S
+  1Kgs:
+    long: 1 Královská
+    short: 1 Král
+    shorter: 1 Kr
+  2Kgs:
+    long: 2 Královská
+    short: 2 Král
+    shorter: 2 Kr
+  1Chr:
+    long: 1 Letopisů
+    short: 1 Pa
+  2Chr:
+    long: 2 Letopisů
+    short: 2 Pa
+  Ezra:
+    long: Ezdráš
+    short: Ezd
+  Neh:
+    long: Nehemiáš
+    short: Neh
+  Esth:
+    long: Ester
+    short: Est
+  Job:
+    long: Job
+    short: Jb
+  Ps:
+    long: Žalmy
+    long_single: Žalm
+    short: Žalm
+    shorter: Ž
+  Prov:
+    long: Přísloví
+    short: Přís
+  Eccl:
+    long: Kazatel
+    short: Kaz
+  Song:
+    long: Píseň písní
+    short: Píseň
+    shorter: Pís
+  Isa:
+    long: Izaiáš
+    short: Iz
+  Jer:
+    long: Jeremiáš
+    short: Jer
+    shorter: Jr
+  Lam:
+    long: Pláč
+    short: Pláč
+    shorter: Pl
+  Ezek:
+    long: Ezechiel
+    short: Ez
+  Dan:
+    long: Daniel
+    short: Da
+  Hos:
+    long: Ozeáš
+    short: Oz
+  Joel:
+    long: Joel
+    short: Jo
+  Amos:
+    long: Amos
+    short: Am
+  Obad:
+    long: Abdiáš
+    short: Abd
+  Jonah:
+    long: Jonáš
+    short: Jon
+  Mic:
+    long: Micheáš
+    short: Mich
+    shorter: Mi
+  Nah:
+    long: Nahum
+    short: Na
+  Hab:
+    long: Abakuk
+    short: Abk
+  Zeph:
+    long: Sofoniáš
+    short: Sf
+  Hag:
+    long: Ageus
+    short: Ag
+  Zech:
+    long: Zachariáš
+    short: Za
+  Mal:
+    long: Malachiáš
+    short: Mal
+  Matt:
+    long: Matouš
+    short: Mat
+    shorter: Mt
+  Mark:
+    long: Marek
+    short: Mk
+    shorter: Mk
+  Luke:
+    long: Lukáš
+    short: Lk
+    shorter: L
+  John:
+    long: Jan
+    short: Jan
+    shorter: J
+  Acts:
+    long: Skutky
+    short: Sk
+  Rom:
+    long: Římanům
+    short: Řím
+    shorter: Ř
+  1Cor:
+    long: 1 Korintským
+    short: 1 Kor
+    shorter: 1 K
+  2Cor:
+    long: 2 Korintským
+    short: 2 Kor
+    shorter: 2 K
+  Gal:
+    long: Galatským
+    short: Gal
+    shorter: Ga
+  Eph:
+    long: Efeským
+    short: Ef
+  Phil:
+    long: Filipským
+    short: Fp
+  Col:
+    long: Koloským
+    short: Kol
+    shorter: Ko
+  1Thess:
+    long: 1 Tesalonickým
+    short: 1 Te
+  2Thess:
+    long: 2 Tesalonickým
+    short: 2 Te
+  1Tim:
+    long: 1 Timoteus
+    short: 1 Tim
+    shorter: 1 Tm
+  2Tim:
+    long: 2 Timoteus
+    short: 2 Tim
+    shorter: 2 Tm
+  Titus:
+    long: Titus
+    short: Tit
+    shorter: Tt
+  Phlm:
+    long: Filemon
+    short: Flm
+    shorter: Fm
+  Heb:
+    long: Židům
+    short: Žd
+  Jas:
+    long: Jakub
+    short: Jak
+    shorter: Jk
+  1Pet:
+    long: 1 Petr
+    short: 1 Pt
+    shorter: 1 P
+  2Pet:
+    long: 2 Petr
+    short: 2 Pt
+    shorter: 2 P
+  1John:
+    long: 1 Jan
+    short: 1 Jan
+    shorter: 1 J
+  2John:
+    long: 2 Jan
+    short: 2 Jan
+    shorter: 2 J
+  3John:
+    long: 3 Jan
+    short: 3 Jan
+    shorter: 3 J
+  Jude:
+    long: Juda
+    short: Ju
+    shorter: Jd
+  Rev:
+    long: Zjevení
+    short: Zj
+  Tob:
+    long: Tóbijáš
+    short: Tob
+  Jdt:
+    long: Júdit
+    short: Jdt
+  GkEsth:
+    long: Ester (řecké dodatky)
+    short: Ester (řecké části)
+  Wis:
+    long: Moudrost
+    short: Mdr
+  Sir:
+    long: Sírachovec
+    short: Sír
+  Bar:
+    long: Báruch
+    short: Bar
+  PrAzar:
+    long: Azarjášova modlitba
+  Sus:
+    long: Zuzana
+    short: Zuz
+  Bel:
+    long: Bél a drak
+    short: Bél
+  SgThree:
+    long: Píseň mládenců v hořící peci
+  EpJer:
+    long: List Jeremjášův
+  1Macc:
+    long: 1 Makabejská
+    short: 1 Mak
+  2Macc:
+    long: 2 Makabejská
+    short: 2 Mak
+  3Macc:
+    long: 3 Makabejská
+    short: 3 Mak
+  4Macc:
+    long: 4 Makabejská
+    short: 4 Mak
+  1Esd:
+    long: 1 Ezdráš
+  2Esd:
+    long: 2 Ezdráš
+  PrMan:
+    long: Modlitbu Manasse
+  AddEsth:
+    long: Přídavky k Ester

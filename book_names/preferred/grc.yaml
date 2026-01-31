@@ -1,0 +1,250 @@
+default:
+  Gen:
+    long: Γένεσις
+    short: Γε
+  Exod:
+    long: Έξοδος
+    short: Ἔξ
+  Lev:
+    long: Λευϊτικόν
+    short: Λε
+  Num:
+    long: Αριθμοί
+    short: Ἀρ
+  Deut:
+    long: Δευτερονόμιον
+    short: Δε
+  Josh:
+    long: Ιησούς του Ναυή
+    short: Ἰη
+  Judg:
+    long: Κριταί
+    short: Κρ
+  Ruth:
+    long: Ρουθ
+    short: ῾Ρθ
+  1Sam:
+    long: Βασιλειών Αʹ
+  2Sam:
+    long: Βασιλειών Βʹ
+  1Kgs:
+    long: Βασιλειών Γʹ
+    short: Αʹ Βα
+  2Kgs:
+    long: Βασιλειών Δʹ
+    short: Βʹ Βα
+  1Chr:
+    long: Παραλειπομένων Αʹ
+    short: Αʹ Πα
+  2Chr:
+    long: Παραλειπομένων Βʹ
+    short: Βʹ Πα
+  Ezra:
+    long: Έσδρας
+    short: Ἔσ
+  Neh:
+    long: Νεεμίας
+    short: Νε
+  Esth:
+    long: Εσθήρ
+    short: Εσθ
+  Job:
+    long: Ιώβ
+    short: Ἰβ
+  Ps:
+    long: Ψαλμοί του Δαυίδ
+    long_single: Ψαλμός
+    short: Ψα
+  Prov:
+    long: Παροιμίαι
+    short: Πρμ
+  Eccl:
+    long: Εκκλησιαστής
+    short: Ἐκ
+  Song:
+    long: Άσμα Ασμάτων
+    short: Ἆσ
+  Isa:
+    long: Ησαΐας
+    short: Ἠσ
+  Jer:
+    long: Ιερεμίας
+    short: Ἰε
+  Lam:
+    long: Θρήνοι Ιερεμίου
+    short: Θρ
+  Ezek:
+    long: Ιεζεκιήλ
+    short: ᾿Ιζ
+  Dan:
+    long: Δανιηλ
+    short: Δα
+  Hos:
+    long: Ωσηέ
+    short: Ὠσ
+  Joel:
+    long: Ιωήλ
+    short: Ἰλ
+  Amos:
+    long: Αμώς
+    short: Ἀμ
+  Obad:
+    long: Οβδίας
+    short: Ἀβδ
+  Jonah:
+    long: Ιωνάς
+    short: Ἰν
+  Mic:
+    long: Μιχαίας
+    short: Μχ
+  Nah:
+    long: Ναούμ
+    short: Να
+  Hab:
+    long: Αμβακούμ
+    short: Ἀβ
+  Zeph:
+    long: Σοφονίας
+    short: Σφν
+  Hag:
+    long: Αγγαίος
+    short: Ἀγ
+  Zech:
+    long: Ζαχαρίας
+    short: Ζα
+  Mal:
+    long: Μαλαχίας
+    short: Μα
+  Matt:
+    long: Ματθαίος
+    short: Μθ
+  Mark:
+    long: Μάρκος
+    short: Μρ
+  Luke:
+    long: Λουκάς
+    short: Λκ
+  John:
+    long: Ιωάννης
+    short: Ἰω
+  Acts:
+    long: Πράξεις
+    short: Πρξ
+  Rom:
+    long: Ρωμαίους
+    short: ῾Ρω
+  1Cor:
+    long: Αʹ Κορινθίους
+    short: Αʹ Κο
+  2Cor:
+    long: Βʹ Κορινθίους
+    short: Βʹ Κο
+  Gal:
+    long: Γαλάτες
+    short: Γα
+  Eph:
+    long: Εφεσίους
+    short: ᾿Εφ
+  Phil:
+    long: Φιλιππησίους
+    short: Φι
+  Col:
+    long: Κολοσσαείς
+    short: Κλ
+  1Thess:
+    long: Αʹ Θεσσαλονικείς
+    short: Αʹ Θε
+  2Thess:
+    long: Βʹ Θεσσαλονικείς
+    short: Βʹ Θε
+  1Tim:
+    long: Αʹ Τιμόθεο
+    short: Αʹ Τι
+  2Tim:
+    long: Βʹ Τιμόθεο
+    short: Βʹ Τι
+  Titus:
+    long: Τίτο
+    short: Ττ
+  Phlm:
+    long: Φιλήμονα
+    short: Φλμ
+  Heb:
+    long: Εβραίους
+    short: Ἑβ
+  Jas:
+    long: Ιακώβου
+    short: ᾿Ια
+  1Pet:
+    long: Αʹ Πέτρου
+    short: Αʹ Πε
+  2Pet:
+    long: Βʹ Πέτρου
+    short: Βʹ Πε
+  1John:
+    long: Αʹ Ιωάννη
+    short: Αʹ ᾿Ιω
+  2John:
+    long: Βʹ Ιωάννη
+    short: Βʹ ᾿Ιω
+  3John:
+    long: Γʹ Ιωάννη
+    short: Γʹ ᾿Ιω
+  Jude:
+    long: Ιούδα
+    short: ᾿Ιδ
+  Rev:
+    long: Αποκαλύψεις
+    short: ᾿Απ
+  Tob:
+    long: Τωβίτ
+    short: Τωβ
+  Jdt:
+    long: Ιουδίθ
+    short: Ιδθ
+  GkEsth:
+    long: Εσθήρ στα ελληνικά
+  Wis:
+    long: Σοφία Σαλωμώντος
+    short: Σοφία Σολ
+  Sir:
+    long: Σοφία Σειράχ
+    short: Σοφία Σιραχ
+  Bar:
+    long: Βαρούχ
+    short: Βρ
+  PrAzar:
+    long: Προσευχή Αζαρίου
+    short: Πρ Αζαρ
+  Sus:
+    long: Σουσάννα
+    short: Σουσ
+  Bel:
+    long: Βηλ και Δράκων
+    short: Βηλ
+  SgThree:
+    long: Ύμνος των Τριών Παίδων
+  EpJer:
+    long: Επιστολή Ιερεμίου
+    short: Επιστολὴ ᾿Ιερ
+  1Macc:
+    long: Μακκαβαίων Αʹ
+    short: Αʹ Μακκ
+  2Macc:
+    long: Μακκαβαίων Βʹ
+    short: Βʹ Μακκ
+  3Macc:
+    long: Μακκαβαίων Γʹ
+    short: Γʹ Μακκ
+  4Macc:
+    long: Μακκαβαίων Δʹ
+    short: Δʹ Μακκ
+  1Esd:
+    long: Έσδρας Αʹ
+    short: Αʹ Έσδ
+  2Esd:
+    long: Έσδρας Βʹ
+    short: Βʹ Έσδ
+  PrMan:
+    long: Προσευχή Μανασσή
+    short: Πρ Μαν

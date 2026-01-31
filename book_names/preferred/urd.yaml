@@ -1,0 +1,169 @@
+default:
+  Gen:
+    long: پیدائش
+  Exod:
+    long: خروج
+  Lev:
+    long: احبار
+  Num:
+    long: گنتی
+  Deut:
+    long: استثناء
+  Josh:
+    long: یشوع
+  Judg:
+    long: قضاة
+  Ruth:
+    long: روت
+  1Sam:
+    long: ۱۔سموایل
+  2Sam:
+    long: ۲۔سموایل
+  1Kgs:
+    long: ۱۔سلاطین
+  2Kgs:
+    long: ۲۔سلاطین
+  1Chr:
+    long: ۱۔تواریخ
+  2Chr:
+    long: ۲۔تواریخ
+  Ezra:
+    long: عز را
+  Neh:
+    long: نحمیاہ
+  Esth:
+    long: ایستر
+  Job:
+    long: ایّوب
+  Ps:
+    long: زبُور
+  Prov:
+    long: امثال
+  Eccl:
+    long: واعظ
+  Song:
+    long: غزل الغزلات
+  Isa:
+    long: یسعیاہ
+  Jer:
+    long: یرمیاہ
+  Lam:
+    long: نوحہ
+  Ezek:
+    long: حزقی ایل
+  Dan:
+    long: دانیال
+  Hos:
+    long: ہوسیع
+  Joel:
+    long: یوایل
+  Amos:
+    long: عاموس
+  Obad:
+    long: عبدیاہ
+  Jonah:
+    long: یونس
+  Mic:
+    long: میکاہ
+  Nah:
+    long: نا حُوم
+  Hab:
+    long: حبقّوق
+  Zeph:
+    long: صفنیاہ
+  Hag:
+    long: حجيّ
+  Zech:
+    long: زکریاہ
+  Mal:
+    long: ملاکی
+  Matt:
+    long: متّی
+  Mark:
+    long: مرقس
+  Luke:
+    long: لوقا
+  John:
+    long: یوحنا
+  Acts:
+    long: رسولوں
+  Rom:
+    long: رومیوں
+  1Cor:
+    long: ۱ کرنتھِیُوں
+  2Cor:
+    long: ۲ کرنتھیوں
+  Gal:
+    long: گلتیوں
+  Eph:
+    long: افسیوں
+  Phil:
+    long: فِلِپّیُوں
+  Col:
+    long: کُلِسّیوں
+  1Thess:
+    long: ۱ تھسّلنیکیوں
+  2Thess:
+    long: ۲ تھسلنیکوں
+  1Tim:
+    long: ۱ تِیمُتھِیُس
+  2Tim:
+    long: ۲ تیِمُتھِیُس
+  Titus:
+    long: طِطُس
+  Phlm:
+    long: فلیمون
+  Heb:
+    long: عبرانیوں
+  Jas:
+    long: يعقوب
+  1Pet:
+    long: ۱ پطر س
+  2Pet:
+    long: ۲ پطرس
+  1John:
+    long: ۱ یوحنّا
+  2John:
+    long: ۲ یوحنّا
+  3John:
+    long: ۳ یوحنّا
+  Jude:
+    long: یہوداہ
+  Rev:
+    long: مکاشفہ
+  Tob:
+    long: Tob
+  Jdt:
+    long: Jdt
+  GkEsth:
+    long: GkEsth
+  Wis:
+    long: Wis
+  Sir:
+    long: Sir
+  Bar:
+    long: Bar
+  PrAzar:
+    long: PrAzar
+  Sus:
+    long: Sus
+  Bel:
+    long: Bel
+  SgThree:
+    long: SgThree
+  EpJer:
+    long: EpJer
+  1Macc:
+    long: 1Macc
+  2Macc:
+    long: 2Macc
+  3Macc:
+    long: 3Macc
+  4Macc:
+    long: 4Macc
+  1Esd:
+    long: 1Esd
+  2Esd:
+    long: 2Esd
+  PrMan:
+    long: PrMan

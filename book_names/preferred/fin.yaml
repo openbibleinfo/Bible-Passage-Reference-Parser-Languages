@@ -1,0 +1,253 @@
+default:
+  Gen:
+    long: 1 Mooseksen
+    short: 1 Moos
+  Exod:
+    long: 2 Mooseksen
+    short: 2 Moos
+  Lev:
+    long: 3 Mooseksen
+    short: 3 Moos
+  Num:
+    long: 4 Mooseksen
+    short: 4 Moos
+  Deut:
+    long: 5 Mooseksen
+    short: 5 Moos
+  Josh:
+    long: Joosuan
+    short: Joos
+  Judg:
+    long: Tuomarien
+    short: Tuom
+  Ruth:
+    long: Ruutin
+    short: Ruut
+  1Sam:
+    long: 1 Samuelin
+    short: 1 Sam
+  2Sam:
+    long: 2 Samuelin
+    short: 2 Sam
+  1Kgs:
+    long: 1 Kuninkaiden
+    short: 1 Kun
+  2Kgs:
+    long: 2 Kuninkaiden
+    short: 2 Kun
+  1Chr:
+    long: 1 Aikakirja
+    short: 1 Aikak
+  2Chr:
+    long: 2 Aikakirja
+    short: 2 Aikak
+  Ezra:
+    long: Esran
+    short: Esr
+  Neh:
+    long: Nehemian
+    short: Neh
+  Esth:
+    long: Esterin
+    short: Est
+  Job:
+    long: Jobin
+    short: Job
+  Ps:
+    long: Psalmien
+    long_single: Psalmi
+    short: Ps
+  Prov:
+    long: Sananlaskujen
+    short: Snl
+  Eccl:
+    long: Saarnaajan
+    short: Saar
+  Song:
+    long: Laulujen laulu
+    short: Laul. l
+  Isa:
+    long: Jesajan
+    short: Jes
+  Jer:
+    long: Jeremian
+    short: Jer
+  Lam:
+    long: Valitusvirret
+    short: Valit
+  Ezek:
+    long: Hesekielin
+    short: Hes
+  Dan:
+    long: Danielin
+    short: Dan
+  Hos:
+    long: Hoosean
+    short: Hoos
+  Joel:
+    long: Joelin
+    short: Joel
+  Amos:
+    long: Aamoksen
+    short: Aam
+  Obad:
+    long: Obadjan
+    short: Obadj
+  Jonah:
+    long: Joonan
+    short: Joon
+  Mic:
+    long: Miikan
+    short: Miik
+  Nah:
+    long: Nahumin
+    short: Nah
+  Hab:
+    long: Habakukin
+    short: Hab
+  Zeph:
+    long: Sefanjan
+    short: Sef
+  Hag:
+    long: Haggain
+    short: Hagg
+  Zech:
+    long: Sakarjan
+    short: Sak
+  Mal:
+    long: Malakian
+    short: Mal
+  Matt:
+    long: Matteuksen
+    short: Matt
+  Mark:
+    long: Markuksen
+    short: Mark
+  Luke:
+    long: Luukkaan
+    short: Luuk
+  John:
+    long: Johanneksen
+    short: Joh
+  Acts:
+    long: Teot
+    short: Ap.t
+  Rom:
+    long: Roomalaisille
+    short: Room
+  1Cor:
+    long: 1 Korinttilaisille
+    short: 1 Kor
+  2Cor:
+    long: 2 Korinttilaisille
+    short: 2 Kor
+  Gal:
+    long: Galatalaisille
+    short: Gal
+  Eph:
+    long: Efesolaisille
+    short: Ef
+  Phil:
+    long: Filippiläisille
+    short: Fil
+  Col:
+    long: Kolossalaisille
+    short: Kol
+  1Thess:
+    long: 1 Tessalonikalaisille
+    short: 1 Tess
+  2Thess:
+    long: 2 Tessalonikalaisille
+    short: 2 Tess
+  1Tim:
+    long: 1 Timoteukselle
+    short: 1 Tim
+  2Tim:
+    long: 2 Timoteukselle
+    short: 2 Tim
+  Titus:
+    long: Titukselle
+    short: Tit
+  Phlm:
+    long: Filemonille
+    short: Filem
+  Heb:
+    long: Heprealaisille
+    short: Hepr
+  Jas:
+    long: Jaakobin
+    short: Jaak
+  1Pet:
+    long: 1 Pietarin
+    short: 1 Piet
+  2Pet:
+    long: 2 Pietarin
+    short: 2 Piet
+  1John:
+    long: 1 Johanneksen
+    short: 1 Joh
+  2John:
+    long: 2 Johanneksen
+    short: 2 Joh
+  3John:
+    long: 3 Johanneksen
+    short: 3 Joh
+  Jude:
+    long: Juudaksen
+    short: Juud
+  Rev:
+    long: Ilmestys
+    short: Ilm
+  Tob:
+    long: Tobitin
+    short: Tob
+  Jdt:
+    long: Juditin
+    short: Jud
+  GkEsth:
+    long: Kreikkalainen Esterin
+    short: Kr. Est
+  Wis:
+    long: Salomon viisaus
+    short: Viis
+  Sir:
+    long: Sirakin
+    short: Sir
+  Bar:
+    long: Barukin
+    short: Bar
+  PrAzar:
+    long: Asarjan rukous
+    short: Asar ru
+  Sus:
+    long: Susanna
+    short: Sus
+  Bel:
+    long: Bel ja lohikäärme
+    short: Bel
+  SgThree:
+    long: Kolmen miehen kiitosvirsi tulessa
+    short: Kolmen miehen
+  EpJer:
+    long: Jeremian kirje
+  1Macc:
+    long: 1 makkabilaiskirja
+    short: 1 makk
+  2Macc:
+    long: 2 makkabilaiskirja
+    short: 2 makk
+  3Macc:
+    long: 3 makkabilaiskirja
+    short: 3 makk
+  4Macc:
+    long: 4 makkabilaiskirja
+    short: 4 makk
+  1Esd:
+    long: 1 Esra
+    short: 1 Es
+  2Esd:
+    long: 2 Esra
+    short: 2 Es
+  PrMan:
+    long: Manassen rukouksen
+    short: Man ru

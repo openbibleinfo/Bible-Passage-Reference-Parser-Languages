@@ -1,0 +1,254 @@
+default:
+  Gen:
+    long: 1 Mosebok
+    short: 1 Mos
+  Exod:
+    long: 2 Mosebok
+    short: 2 Mos
+  Lev:
+    long: 3 Mosebok
+    short: 3 Mos
+  Num:
+    long: 4 Mosebok
+    short: 4 Mos
+  Deut:
+    long: 5 Mosebok
+    short: 5 Mos
+  Josh:
+    long: Josva
+    short: Jos
+  Judg:
+    long: Dommerne
+    short: Dom
+  Ruth:
+    long: Rut
+    short: Rut
+  1Sam:
+    long: 1 Samuel
+    short: 1 Sam
+  2Sam:
+    long: 2 Samuel
+    short: 2 Sam
+  1Kgs:
+    long: 1 Kongebok
+    short: 1 Kong
+  2Kgs:
+    long: 2 Kongebok
+    short: 2 Kong
+  1Chr:
+    long: 1 Krønikebok
+    short: 1 Krøn
+    shorter: 1 Krø
+  2Chr:
+    long: 2 Krønikebok
+    short: 2 Krøn
+    shorter: 2 Krø
+  Ezra:
+    long: Esra
+    short: Esra
+  Neh:
+    long: Nehemja
+    short: Neh
+  Esth:
+    long: Ester
+    short: Est
+  Job:
+    long: Job
+    short: Job
+  Ps:
+    long: Salmene
+    long_single: Salme
+    short: Sal
+  Prov:
+    long: Salomos Ordspråk
+    short: Ordsp
+  Eccl:
+    long: Forkynneren
+    short: Fork
+  Song:
+    long: Høysangen
+    short: Høys
+  Isa:
+    long: Jesaja
+    short: Jes
+  Jer:
+    long: Jeremia
+    short: Jer
+  Lam:
+    long: Klagesangene
+    short: Klag
+  Ezek:
+    long: Esekiel
+    short: Esek
+  Dan:
+    long: Daniel
+    short: Dan
+  Hos:
+    long: Hosea
+    short: Hos
+  Joel:
+    long: Joel
+    short: Joel
+  Amos:
+    long: Amos
+    short: Am
+  Obad:
+    long: Obadja
+    short: Ob
+  Jonah:
+    long: Jona
+    short: Jona
+  Mic:
+    long: Mika
+    short: Mi
+  Nah:
+    long: Nahum
+    short: Nah
+  Hab:
+    long: Habakkuk
+    short: Hab
+  Zeph:
+    long: Sefanja
+    short: Sef
+  Hag:
+    long: Haggai
+    short: Hag
+  Zech:
+    long: Sakarja
+    short: Sak
+  Mal:
+    long: Malaki
+    short: Mal
+  Matt:
+    long: Matteus
+    short: Matt
+  Mark:
+    long: Markus
+    short: Mark
+  Luke:
+    long: Lukas
+    short: Luk
+  John:
+    long: Johannes
+    short: Joh
+  Acts:
+    long: Apostlenes gjerninger
+    short: Apg
+  Rom:
+    long: Romerne
+    short: Rom
+  1Cor:
+    long: 1 Korinter
+    short: 1 Kor
+  2Cor:
+    long: 2 Korinter
+    short: 2 Kor
+  Gal:
+    long: Galaterne
+    short: Gal
+  Eph:
+    long: Efeserne
+    short: Ef
+  Phil:
+    long: Filipperne
+    short: Fil
+  Col:
+    long: Kolosserne
+    short: Kol
+  1Thess:
+    long: 1 Tessaloniker
+    short: 1 Tess
+  2Thess:
+    long: 2 Tessaloniker
+    short: 2 Tess
+  1Tim:
+    long: 1 Timoteus
+    short: 1 Tim
+  2Tim:
+    long: 2 Timoteus
+    short: 2 Tim
+  Titus:
+    long: Titus
+    short: Tit
+  Phlm:
+    long: Filemon
+    short: Filem
+  Heb:
+    long: Hebreerne
+    short: Hebr
+  Jas:
+    long: Jakob
+    short: Jak
+  1Pet:
+    long: 1 Peter
+    short: 1 Pet
+  2Pet:
+    long: 2 Peter
+    short: 2 Pet
+  1John:
+    long: 1 Johannes
+    short: 1 Joh
+  2John:
+    long: 2 Johannes
+    short: 2 Joh
+  3John:
+    long: 3 Johannes
+    short: 3 Joh
+  Jude:
+    long: Judas
+    short: Jud
+  Rev:
+    long: Åpenbaringen
+    short: Åp
+  Tob:
+    long: Tobit
+    short: Tob
+  Jdt:
+    long: Judit
+    short: Judit
+  GkEsth:
+    long: Den greske Ester-boken
+    short: GrEst
+  Wis:
+    long: Visdommens bok
+    short: Visd
+  Sir:
+    long: Sirak
+    short: Sir
+  Bar:
+    long: Baruk
+    short: Bar
+  PrAzar:
+    long: Asarjas bønn
+  Sus:
+    long: Susanna
+    short: Sus
+  Bel:
+    long: Bel og dragen i Babylon
+    short: Bel
+  SgThree:
+    long: De tre mennenes sang føyer
+  EpJer:
+    long: Jeremias brev
+    short: Jerbr
+  1Macc:
+    long: Første Makkabeerbok
+    short: 1 Makk
+  2Macc:
+    long: Andre Makkabeerbok
+    short: 2 Makk
+  3Macc:
+    long: Tredje Makkabeerbok
+    short: 3 Makk
+  4Macc:
+    long: Fjerde Makkabeerbok
+    short: 4 Makk
+  1Esd:
+    long: Tredje Esra
+    short: 3 Esra
+  2Esd:
+    long: Fjerde Esra
+    short: 4 Esra
+  PrMan:
+    long: Manasses bønn
+    short: Man

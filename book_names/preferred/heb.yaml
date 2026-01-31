@@ -1,0 +1,169 @@
+default:
+  Gen:
+    long: בראשית
+  Exod:
+    long: שמות
+  Lev:
+    long: ויקרא
+  Num:
+    long: במדבר
+  Deut:
+    long: דברים
+  Josh:
+    long: יהושע
+  Judg:
+    long: שופטים
+  Ruth:
+    long: רות
+  1Sam:
+    long: שמואל א'
+  2Sam:
+    long: שמואל ב'
+  1Kgs:
+    long: מלכים א'
+  2Kgs:
+    long: מלכים ב'
+  1Chr:
+    long: דברי הימים א'
+  2Chr:
+    long: דברי הימים ב'
+  Ezra:
+    long: עזרא
+  Neh:
+    long: נחמיה
+  Esth:
+    long: אסתר
+  Job:
+    long: איוב
+  Ps:
+    long: תהילים
+  Prov:
+    long: משלי
+  Eccl:
+    long: קהלת
+  Song:
+    long: שיר השירים
+  Isa:
+    long: ישעיהו
+  Jer:
+    long: ירמיהו
+  Lam:
+    long: איכה
+  Ezek:
+    long: יחזקאל
+  Dan:
+    long: דניאל
+  Hos:
+    long: הושע
+  Joel:
+    long: יואל
+  Amos:
+    long: עמוס
+  Obad:
+    long: עובדיה
+  Jonah:
+    long: יונה
+  Mic:
+    long: מיכה
+  Nah:
+    long: נחום
+  Hab:
+    long: חבקוק
+  Zeph:
+    long: צפניה
+  Hag:
+    long: חגי
+  Zech:
+    long: זכריה
+  Mal:
+    long: מלאכי
+  Matt:
+    long: הבשורה על-פי מתי
+  Mark:
+    long: הבשורה על-פי מרקוס
+  Luke:
+    long: הבשורה על-פי לוקס
+  John:
+    long: הבשורה על-פי יוחנן
+  Acts:
+    long: מעשי השליחים
+  Rom:
+    long: אל הרומאים
+  1Cor:
+    long: הראשונה אל הקורינתים
+  2Cor:
+    long: השנייה אל הקורינתים
+  Gal:
+    long: אל הגלטים
+  Eph:
+    long: אל האפסים
+  Phil:
+    long: אל הפיליפים
+  Col:
+    long: אל הקולוסים
+  1Thess:
+    long: הראשונה אל התסלוניקים
+  2Thess:
+    long: השנייה אל התסלוניקים
+  1Tim:
+    long: הראשונה אל טימותיוס
+  2Tim:
+    long: השנייה אל טימותיוס
+  Titus:
+    long: אל טיטוס
+  Phlm:
+    long: אל פילימון
+  Heb:
+    long: אל העברים
+  Jas:
+    long: איגרת יעקב
+  1Pet:
+    long: איגרת פטרוס הראשונה
+  2Pet:
+    long: איגרת פטרוס השנייה
+  1John:
+    long: איגרת יוחנן הראשונה
+  2John:
+    long: איגרת יוחנן השנייה
+  3John:
+    long: איגרת יוחנן השלישית
+  Jude:
+    long: איגרת יהודה
+  Rev:
+    long: חזון יוחנן
+  Tob:
+    long: טוביה
+  Jdt:
+    long: יהודית
+  GkEsth:
+    long: תוספות למגילת אסתר
+  Wis:
+    long: חכמת שלמה
+  Sir:
+    long: משלי בן-סירא
+  Bar:
+    long: ברוך
+  PrAzar:
+    long: תפילת עזריה
+  Sus:
+    long: שושנה
+  Bel:
+    long: בל והדרקון
+  SgThree:
+    long: שירת שלושת הנערים בכבשן
+  EpJer:
+    long: איגרת ירמיהו
+  1Macc:
+    long: חשמונאים א'
+  2Macc:
+    long: חשמונאים ב'
+  3Macc:
+    long: חשמונאים ג'
+  4Macc:
+    long: חשמונאים ד'
+  1Esd:
+    long: חזון עזרא
+  2Esd:
+    long: עזרא החיצוני
+  PrMan:
+    long: תפילת מנשה

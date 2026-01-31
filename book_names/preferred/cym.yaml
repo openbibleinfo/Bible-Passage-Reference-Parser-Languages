@@ -1,0 +1,240 @@
+default:
+  Gen:
+    long: Genesis
+    short: Gen
+  Exod:
+    long: Exodus
+    short: Ex
+  Lev:
+    long: Lefiticus
+    short: Lef
+  Num:
+    long: Numeri
+    short: Num
+  Deut:
+    long: Deuteronomium
+    short: Deut
+  Josh:
+    long: Josua
+    short: Jos
+  Judg:
+    long: Barnwyr
+    short: Barn
+  Ruth:
+    long: Ruth
+    short: Ruth
+  1Sam:
+    long: 1 Samuel
+    short: 1 Sam
+  2Sam:
+    long: 2 Samuel
+    short: 2 Sam
+  1Kgs:
+    long: 1 Brenhinoedd
+    short: 1 Bren
+  2Kgs:
+    long: 2 Brenhinoedd
+    short: 2 Bren
+  1Chr:
+    long: 1 Cronicl
+    short: 1 Cron
+  2Chr:
+    long: 2 Cronicl
+    short: 2 Cron
+  Ezra:
+    long: Esra
+    short: Esra
+  Neh:
+    long: Nehemeia
+    short: Neh
+  Esth:
+    long: Esther
+    short: Est
+  Job:
+    long: Job
+    short: Job
+  Ps:
+    long: Salmau
+    long_single: Salm
+    short: Salm
+  Prov:
+    long: Diarhebion
+    short: Diar
+  Eccl:
+    long: Pregethwr
+    short: Preg
+  Song:
+    long: Caniad Solomon
+    short: Can
+  Isa:
+    long: Eseia
+    short: Esa
+  Jer:
+    long: Jeremeia
+    short: Jer
+  Lam:
+    long: Galarnad
+    short: Galar
+  Ezek:
+    long: Eseciel
+    short: Esec
+  Dan:
+    long: Daniel
+    short: Dan
+  Hos:
+    long: Hosea
+    short: Hos
+  Joel:
+    long: Joel
+    short: Joel
+  Amos:
+    long: Amos
+    short: Am
+  Obad:
+    long: Obadeia
+    short: Ob
+  Jonah:
+    long: Jona
+    short: Jon
+  Mic:
+    long: Micha
+    short: Mic
+  Nah:
+    long: Nahum
+    short: Nah
+  Hab:
+    long: Habacuc
+    short: Hab
+  Zeph:
+    long: Seffaneia
+    short: Seff
+  Hag:
+    long: Haggai
+    short: Hag
+  Zech:
+    long: Sechareia
+    short: Sech
+  Mal:
+    long: Malachi
+    short: Mal
+  Matt:
+    long: Mathew
+    short: Mathew
+    shorter: Mth
+  Mark:
+    long: Marc
+    short: Marc
+    shorter: Mc
+  Luke:
+    long: Luc
+    short: Luc
+  John:
+    long: Ioan
+    short: Ioan
+    shorter: In
+  Acts:
+    long: Actau
+    short: Act
+  Rom:
+    long: Rhufeiniaid
+    short: Rhuf
+  1Cor:
+    long: 1 Corinthiaid
+    short: 1 Cor
+  2Cor:
+    long: 2 Corinthiaid
+    short: 2 Cor
+  Gal:
+    long: Galatiaid
+    short: Gal
+  Eph:
+    long: Effesiaid
+    short: Eff
+  Phil:
+    long: Philipiaid
+    short: Phil
+  Col:
+    long: Colosiaid
+    short: Col
+  1Thess:
+    long: 1 Thesaloniaid
+    short: 1 Thes
+  2Thess:
+    long: 2 Thesaloniaid
+    short: 2 Thes
+  1Tim:
+    long: 1 Timotheus
+    short: 1 Tim
+  2Tim:
+    long: 2 Timotheus
+    short: 2 Tim
+  Titus:
+    long: Titus
+    short: Titus
+  Phlm:
+    long: Philemon
+    short: Philem
+  Heb:
+    long: Hebreaid
+    short: Heb
+  Jas:
+    long: Iago
+    short: Iag
+  1Pet:
+    long: 1 Pedr
+    short: 1 Ped
+  2Pet:
+    long: 2 Pedr
+    short: 2 Ped
+  1John:
+    long: 1 Ioan
+    short: 1 Ioan
+    shorter: 1 In
+  2John:
+    long: 2 Ioan
+    short: 2 Ioan
+    shorter: 2 In
+  3John:
+    long: 3 Ioan
+    short: 3 Ioan
+    shorter: 3 In
+  Jude:
+    long: Jwdas
+    short: Jwd
+  Rev:
+    long: Datguddiad
+    short: Dat
+  Tob:
+    long: Tobit
+  Jdt:
+    long: Judith
+  Wis:
+    long: Doethineb Solomon
+  Sir:
+    long: Ecclesiasticus
+  Bar:
+    long: Baruch
+  PrAzar:
+    long: Gweddi Asarias
+  Sus:
+    long: Swsanna
+  Bel:
+    long: Bel a'r Ddraig
+  SgThree:
+    long: Cân y Tri Llanc
+  EpJer:
+    long: Llythyr Jeremeia
+  1Macc:
+    long: 1 Macabeaid
+  2Macc:
+    long: 2 Macabeaid
+  3Macc:
+    long: 3 Macabeaid
+  4Macc:
+    long: 4 Macabeaid
+  1Esd:
+    long: 1 Esdras
+  2Esd:
+    long: 2 Esdras
+  PrMan:
+    long: Gweddi Manasse

@@ -1,0 +1,217 @@
+default:
+  Gen:
+    long: Jenèz
+    short: Jen
+  Exod:
+    long: Egzòd
+    short: Egz
+  Lev:
+    long: Levitik
+    short: Lev
+  Num:
+    long: Resansman
+    short: Res
+  Deut:
+    long: Deteronòm
+    short: Det
+  Josh:
+    long: Jozye
+    short: Joz
+  Judg:
+    long: Jij
+  Ruth:
+    long: Rit
+  1Sam:
+    long: 1 Samyèl
+    short: 1 Sam
+  2Sam:
+    long: 2 Samyèl
+    short: 2 Sam
+  1Kgs:
+    long: 1 Wa
+  2Kgs:
+    long: 2 Wa
+  1Chr:
+    long: 1 Istwa
+    short: 1 Ist
+  2Chr:
+    long: 2 Istwa
+    short: 2 Ist
+  Ezra:
+    long: Esdras
+    short: Esd
+  Neh:
+    long: Neemi
+    short: Ne
+  Esth:
+    long: Estè
+    short: Est
+  Job:
+    long: Jòb
+  Ps:
+    long: Sòm
+  Prov:
+    long: Pwovèb
+    short: Pw
+  Eccl:
+    long: Eklezyas
+    short: Ekl
+  Song:
+    long: Chante Salomon
+    short: Chante
+  Isa:
+    long: Ezayi
+    short: Ez
+  Jer:
+    long: Jeremi
+    short: Jer
+  Lam:
+    long: Plenn
+    short: Pl
+  Ezek:
+    long: Ezekyèl
+    short: Eze
+  Dan:
+    long: Danyèl
+    short: Dan
+  Hos:
+    long: Oze
+  Joel:
+    long: Jowèl
+  Amos:
+    long: Amòs
+  Obad:
+    long: Abdias
+    short: Abd
+  Jonah:
+    long: Jonas
+  Mic:
+    long: Miche
+  Nah:
+    long: Nawoun
+    short: Naw
+  Hab:
+    long: Abakouk
+    short: Abak
+  Zeph:
+    long: Sofoni
+    short: Sof
+  Hag:
+    long: Aje
+  Zech:
+    long: Zakari
+    short: Zak
+  Mal:
+    long: Malachi
+    short: Mal
+  Matt:
+    long: Matye
+    short: Mat
+  Mark:
+    long: Mak
+    short: Mk
+  Luke:
+    long: Lik
+    short: Lk
+  John:
+    long: Jan
+    short: Jn
+  Acts:
+    long: Travay
+    short: Tr
+  Rom:
+    long: Ròm
+  1Cor:
+    long: 1 Korint
+    short: 1 Kor
+  2Cor:
+    long: 2 Korint
+    short: 2 Kor
+  Gal:
+    long: Galasi
+    short: Gal
+  Eph:
+    long: Efèz
+    short: Ef
+  Phil:
+    long: Filip
+    short: Fil
+  Col:
+    long: Kolòs
+    short: Kol
+  1Thess:
+    long: 1 Tesalonik
+    short: 1 Tes
+  2Thess:
+    long: 2 Tesalonik
+    short: 2 Tes
+  1Tim:
+    long: 1 Timote
+    short: 1 Tim
+  2Tim:
+    long: 2 Timote
+    short: 2 Tim
+  Titus:
+    long: Tit
+  Phlm:
+    long: Filemon
+    short: Filem
+  Heb:
+    long: Ebre
+    short: Eb
+  Jas:
+    long: Jak
+  1Pet:
+    long: 1 Piè
+  2Pet:
+    long: 2 Piè
+  1John:
+    long: 1 Jan
+    short: 1 Jn
+  2John:
+    long: 2 Jan
+    short: 2 Jn
+  3John:
+    long: 3 Jan
+    short: 3 Jn
+  Jude:
+    long: Jid
+  Rev:
+    long: Revelasyon
+    short: Rev
+  Tob:
+    long: Tob
+  Jdt:
+    long: Jdt
+  GkEsth:
+    long: GkEsth
+  Wis:
+    long: Wis
+  Sir:
+    long: Sir
+  Bar:
+    long: Bar
+  PrAzar:
+    long: PrAzar
+  Sus:
+    long: Sus
+  Bel:
+    long: Bel
+  SgThree:
+    long: SgThree
+  EpJer:
+    long: EpJer
+  1Macc:
+    long: 1Macc
+  2Macc:
+    long: 2Macc
+  3Macc:
+    long: 3Macc
+  4Macc:
+    long: 4Macc
+  1Esd:
+    long: 1Esd
+  2Esd:
+    long: 2Esd
+  PrMan:
+    long: PrMan

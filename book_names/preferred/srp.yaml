@@ -1,0 +1,250 @@
+default:
+  Gen:
+    long: Постање
+    short: Пост
+  Exod:
+    long: Излазак
+    short: Изл
+  Lev:
+    long: Левитска
+    short: Лев
+  Num:
+    long: Бројеви
+    short: Бр
+  Deut:
+    long: Поновљени закони
+    short: Понз
+  Josh:
+    long: Исус Навин
+    short: ИНав
+  Judg:
+    long: Судија
+    short: Суд
+  Ruth:
+    long: Рута
+    short: Рут
+  1Sam:
+    long: 1 Самуилова
+    short: 1 Сам
+  2Sam:
+    long: 2 Самуилова
+    short: 2 Сам
+  1Kgs:
+    long: 1 Царева
+    short: 1 Цар
+  2Kgs:
+    long: 2 Царева
+    short: 2 Цар
+  1Chr:
+    long: 1 Дневника
+    short: 1 Дн
+  2Chr:
+    long: 2 Дневника
+    short: 2 Дн
+  Ezra:
+    long: Езрина
+    short: Езр
+  Neh:
+    long: Немија
+    short: Нем
+  Esth:
+    long: Јестира
+    short: Јест
+  Job:
+    long: Јов
+    short: Јов
+  Ps:
+    long: Псалми
+    long_single: Псалам
+    short: Пс
+  Prov:
+    long: Приче Соломонове
+    short: Пр
+  Eccl:
+    long: Проповедник
+    short: Проп
+  Song:
+    long: Песма над песмама
+    short: Пнп
+  Isa:
+    long: Исаија
+    short: Ис
+  Jer:
+    long: Јеремија
+    short: Јер
+  Lam:
+    long: Плач Јеремијин
+    short: Плач
+  Ezek:
+    long: Језекиљ
+    short: Јез
+  Dan:
+    long: Данило
+    short: Дан
+  Hos:
+    long: Осија
+    short: Ос
+  Joel:
+    long: Јоиљ
+    short: Јоиљ
+  Amos:
+    long: Амос
+    short: Ам
+  Obad:
+    long: Авдија
+    short: Авд
+  Jonah:
+    long: Јона
+    short: Јона
+  Mic:
+    long: Михеј
+    short: Мих
+  Nah:
+    long: Наум
+    short: Наум
+  Hab:
+    long: Авакум
+    short: Ав
+  Zeph:
+    long: Софонија
+    short: Соф
+  Hag:
+    long: Агеј
+    short: Аг
+  Zech:
+    long: Захарија
+    short: Зах
+  Mal:
+    long: Малахија
+    short: Мал
+  Matt:
+    long: Матеј
+    short: Мт
+  Mark:
+    long: Марко
+    short: Мк
+  Luke:
+    long: Лука
+    short: Лк
+  John:
+    long: Јован
+    short: Јн
+  Acts:
+    long: Дела Апостолска
+    short: Дап
+  Rom:
+    long: Римљанима
+    short: Рим
+  1Cor:
+    long: 1 Коринћанима
+    short: 1 Кор
+  2Cor:
+    long: 2 Коринћанима
+    short: 2 Кор
+  Gal:
+    long: Галатима
+    short: Гал
+  Eph:
+    long: Ефесцима
+    short: Еф
+  Phil:
+    long: Филипљанима
+    short: Флп
+  Col:
+    long: Колошанима
+    short: Кол
+  1Thess:
+    long: 1 Солуњанима
+    short: 1 Сол
+  2Thess:
+    long: 2 Солуњанима
+    short: 2 Сол
+  1Tim:
+    long: 1 Тимотеју
+    short: 1 Тим
+  2Tim:
+    long: 2 Тимотеју
+    short: 2 Тим
+  Titus:
+    long: Титу
+    short: Тит
+  Phlm:
+    long: Филимону
+    short: Фил
+  Heb:
+    long: Јеврејима
+    short: Јев
+  Jas:
+    long: Јаковљева
+    short: Јак
+  1Pet:
+    long: 1 Петрова
+    short: 1 Пет
+  2Pet:
+    long: 2 Петрова
+    short: 2 Пет
+  1John:
+    long: 1 Јованова
+    short: 1 Јн
+  2John:
+    long: 2 Јованова
+    short: 2 Јн
+  3John:
+    long: 3 Јованова
+    short: 3 Јн
+  Jude:
+    long: Јудина
+    short: Јд
+  Rev:
+    long: Откривење
+    short: Отк
+  Tob:
+    long: Товит
+    short: Тов
+  Jdt:
+    long: Јудита
+  GkEsth:
+    long: GkEsth
+  Wis:
+    long: Премудорсти Соломонове
+    short: Прем Сол
+  Sir:
+    long: ИсС
+    short: Сир
+  Bar:
+    long: Варух
+    short: Вар
+  PrAzar:
+    long: PrAzar
+  Sus:
+    long: Sus
+  Bel:
+    long: Bel
+  SgThree:
+    long: SgThree
+  EpJer:
+    long: Писма Јеремије
+  1Macc:
+    long: 1 Макавеја
+    short: 1 Мк
+  2Macc:
+    long: 2 Макавеја
+    short: 2 Мк
+  3Macc:
+    long: 3 Макавеја
+    short: 3 Мк
+  4Macc:
+    long: 4 Макавеја
+    short: 4 Мк
+  1Esd:
+    long: 1 Јездрина
+    short: 1 Јез
+  2Esd:
+    long: 2 Јездрина
+    short: 2 Јез
+  PrMan:
+    long: Молитва Манасијина
+  AddDan:
+    long: Додаци Данилу
+  AddEsth:
+    long: Додаци Јестири

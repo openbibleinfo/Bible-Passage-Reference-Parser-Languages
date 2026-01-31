@@ -1,0 +1,235 @@
+default:
+  Gen:
+    long: Sáng thế ký
+    short: Sáng
+  Exod:
+    long: Xuất Ê-díp-tô ký
+    short: Xuất
+  Lev:
+    long: Lê-vi ký
+    short: Lê-vi
+  Num:
+    long: Dân số ký
+    short: Dân
+  Deut:
+    long: Phục truyền luật lệ ký
+    short: Phục
+  Josh:
+    long: Giô-suê
+    short: Giôs
+  Judg:
+    long: Các quan xét
+    short: Quan
+  Ruth:
+    long: Ru-tơ
+    short: Ru
+  1Sam:
+    long: I Sa-mu-ên
+    short: I Sam
+  2Sam:
+    long: II Sa-mu-ên
+    short: II Sam
+  1Kgs:
+    long: I Các Vua
+    short: I Vua
+  2Kgs:
+    long: II Các Vua
+    short: II Vua
+  1Chr:
+    long: I Sử ký
+    short: I Sử
+  2Chr:
+    long: II Sử ký
+    short: II Sử
+  Ezra:
+    long: Ê-xơ-ra
+    short: E-xơ-ra
+  Neh:
+    long: Nê-hê-mi
+    short: Nê
+  Esth:
+    long: Ê-xơ-tê
+    short: Ê-xơ-tê
+  Job:
+    long: Gióp
+    short: Gióp
+  Ps:
+    long: Thi Thiên
+    short: Thi
+  Prov:
+    long: Châm ngôn
+    short: Châm
+  Eccl:
+    long: Truyền đạo
+    short: Giáo
+  Song:
+    long: Nhã ca
+    short: Tình
+  Isa:
+    long: Ê-sai
+    short: Ê-sai
+  Jer:
+    long: Giê-rê-mi
+    short: Giê
+  Lam:
+    long: Ca thương
+    short: Ai
+  Ezek:
+    long: Ê-xê-chi-ên
+    short: Ê-xê
+  Dan:
+    long: Đa-ni-ên
+    short: Đa
+  Hos:
+    long: Ô-sê
+    short: Ô-sê
+  Joel:
+    long: Giô-ên
+    short: Giô-ên
+  Amos:
+    long: A-mốt
+    short: Am
+  Obad:
+    long: Áp-đia
+    short: Áp
+  Jonah:
+    long: Giô-na
+    short: Giô-na
+  Mic:
+    long: Mi-chê
+    short: Mi
+  Nah:
+    long: Na-hum
+    short: Na
+  Hab:
+    long: Ha-ba-cúc
+    short: Ha
+  Zeph:
+    long: Sô-phô-ni
+    short: Xô
+  Hag:
+    long: A-ghê
+    short: A-gai
+  Zech:
+    long: Xa-cha-ri
+    short: Xa
+  Mal:
+    long: Ma-la-chi
+    short: Mal
+  Matt:
+    long: Ma-thi-ơ
+    short: Ma
+  Mark:
+    long: Mác
+    short: Mác
+  Luke:
+    long: Lu-ca
+    short: Lu
+  John:
+    long: Giăng
+    short: Gi
+  Acts:
+    long: Công vụ các Sứ đồ
+    short: Sứ đồ
+  Rom:
+    long: Rô-ma
+    short: La-mã
+  1Cor:
+    long: I Cô-rinh-tô
+    short: I Cô
+  2Cor:
+    long: II Cô-rinh-tô
+    short: II Cô
+  Gal:
+    long: Ga-la-ti
+    short: Gal
+  Eph:
+    long: Ê-phê-sô
+    short: Êph
+  Phil:
+    long: Phi-líp
+    short: Phil
+  Col:
+    long: Cô-lô-se
+    short: Côl
+  1Thess:
+    long: I Tê-sa-lô-ni-ca
+    short: I Tê
+  2Thess:
+    long: II Tê-sa-lô-ni-ca
+    short: II Tê
+  1Tim:
+    long: I Ti-mô-thê
+    short: I Tim
+  2Tim:
+    long: II Ti-mô-thê
+    short: II Tim
+  Titus:
+    long: Tít
+    short: Tít
+  Phlm:
+    long: Phi-lê-môn
+    short: Phi-lê
+  Heb:
+    long: Hê-bơ-rơ
+    short: Hê
+  Jas:
+    long: Gia-cơ
+    short: Gia-cơ
+  1Pet:
+    long: I Phi-e-rơ
+    short: I Phia
+  2Pet:
+    long: II Phi-e-rơ
+    short: II Phia
+  1John:
+    long: I Giăng
+    short: I Gi
+  2John:
+    long: II Giăng
+    short: II Gi
+  3John:
+    long: III Giăng
+    short: III Gi
+  Jude:
+    long: Giu-đe
+    short: Giu-đe
+  Rev:
+    long: Khải Huyền
+    short: Khải
+  Tob:
+    long: Tob
+  Jdt:
+    long: Jdt
+  GkEsth:
+    long: GkEsth
+  Wis:
+    long: Khôn Ngoan
+  Sir:
+    long: Huấn Ca
+  Bar:
+    long: Bar
+  PrAzar:
+    long: PrAzar
+  Sus:
+    long: Sus
+  Bel:
+    long: Bel
+  SgThree:
+    long: SgThree
+  EpJer:
+    long: EpJer
+  1Macc:
+    long: 1Macc
+  2Macc:
+    long: 2Macc
+  3Macc:
+    long: 3Macc
+  4Macc:
+    long: 4Macc
+  1Esd:
+    long: 1Esd
+  2Esd:
+    long: 2Esd
+  PrMan:
+    long: PrMan

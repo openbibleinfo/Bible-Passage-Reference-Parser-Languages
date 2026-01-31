@@ -1,0 +1,177 @@
+default:
+  Gen:
+    long: Zanafilla
+  Exod:
+    long: Eksodi
+  Lev:
+    long: Levitiku
+    short: Lev
+  Num:
+    long: Numrat
+    short: Num
+  Deut:
+    long: Ligji i përtërirë
+    short: LiP
+  Josh:
+    long: Jozueu
+  Judg:
+    long: Gjyqtarët
+  Ruth:
+    long: Ruthi
+  1Sam:
+    long: 1 i Samuelit
+  2Sam:
+    long: 2 i Samuelit
+  1Kgs:
+    long: 1 i Mbretërve
+  2Kgs:
+    long: 2 i Mbretërve
+  1Chr:
+    long: 1 i Kronikave
+  2Chr:
+    long: 2 i Kronikave
+  Ezra:
+    long: Esdra
+  Neh:
+    long: Nehemia
+  Esth:
+    long: Ester
+  Job:
+    long: Jobi
+  Ps:
+    long: Psalmet
+  Prov:
+    long: Fjalët e urta
+  Eccl:
+    long: Predikuesi
+  Song:
+    long: Kantiku i Kantikëve
+  Isa:
+    long: Isaia
+  Jer:
+    long: Jeremia
+  Lam:
+    long: Vajtimet
+  Ezek:
+    long: Ezekieli
+  Dan:
+    long: Danieli
+  Hos:
+    long: Osea
+  Joel:
+    long: Joeli
+  Amos:
+    long: Amosi
+  Obad:
+    long: Abdia
+  Jonah:
+    long: Jona
+  Mic:
+    long: Mikea
+  Nah:
+    long: Nahumi
+  Hab:
+    long: Habakuku
+  Zeph:
+    long: Sofonia
+  Hag:
+    long: Hagai
+  Zech:
+    long: Zakaria
+  Mal:
+    long: Malakia
+  Matt:
+    long: Mateu
+    short: Mt
+  Mark:
+    long: Marku
+  Luke:
+    long: Lluka
+    short: Llu
+  John:
+    long: Gjoni
+    short: Gjo
+  Acts:
+    long: Veprat e apostujve
+    short: Vep
+  Rom:
+    long: Romakëve
+  1Cor:
+    long: 1 e Korintasve
+  2Cor:
+    long: 2 e Korintasve
+  Gal:
+    long: Galatasve
+  Eph:
+    long: Efesianëve
+  Phil:
+    long: Filipianëve
+  Col:
+    long: Kolosianëve
+  1Thess:
+    long: 1 e Thesalonikasve
+  2Thess:
+    long: 2 e Thesalonikasve
+  1Tim:
+    long: 1 e Timoteut
+  2Tim:
+    long: 2 e Timoteut
+  Titus:
+    long: Titit
+  Phlm:
+    long: Filemonit
+  Heb:
+    long: Hebrenjve
+  Jas:
+    long: Jakobi
+  1Pet:
+    long: 1 e Pjetrit
+  2Pet:
+    long: 2 e Pjetrit
+  1John:
+    long: 1 e Gjonit
+  2John:
+    long: 2 e Gjonit
+  3John:
+    long: 3 e Gjonit
+  Jude:
+    long: Juda
+  Rev:
+    long: Zbulesa
+    short: Zbu
+  Tob:
+    long: Tob
+  Jdt:
+    long: Jdt
+  GkEsth:
+    long: GkEsth
+  Wis:
+    long: Wis
+  Sir:
+    long: Sir
+  Bar:
+    long: Bar
+  PrAzar:
+    long: PrAzar
+  Sus:
+    long: Sus
+  Bel:
+    long: Bel
+  SgThree:
+    long: SgThree
+  EpJer:
+    long: EpJer
+  1Macc:
+    long: 1Macc
+  2Macc:
+    long: 2Macc
+  3Macc:
+    long: 3Macc
+  4Macc:
+    long: 4Macc
+  1Esd:
+    long: 1Esd
+  2Esd:
+    long: 2Esd
+  PrMan:
+    long: PrMan

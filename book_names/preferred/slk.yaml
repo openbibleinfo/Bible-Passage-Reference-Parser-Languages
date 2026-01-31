@@ -1,0 +1,248 @@
+default:
+  Gen:
+    long: Genezis
+    short: Gen
+    shorter: Gn
+  Exod:
+    long: Exodus
+    short: Ex
+  Lev:
+    long: Levitikus
+    short: Lv
+  Num:
+    long: Numeri
+    short: Nm
+  Deut:
+    long: Deuteronómium
+    short: Dt
+  Josh:
+    long: Jozue
+    short: Joz
+  Judg:
+    long: Sudcovia
+    short: Sdc
+  Ruth:
+    long: Rút
+    short: Rút
+  1Sam:
+    long: 1 Samuelova
+    short: 1 Sam
+  2Sam:
+    long: 2 Samuelova
+    short: 2 Sam
+  1Kgs:
+    long: 1 Kráľov
+    short: 1 Kr
+  2Kgs:
+    long: 2 Kráľov
+    short: 2 Kr
+  1Chr:
+    long: 1 Kroník
+    short: 1 Krn
+  2Chr:
+    long: 2 Kroník
+    short: 2 Krn
+  Ezra:
+    long: Ezdráš
+    short: Ezd
+  Neh:
+    long: Nehemiáš
+    short: Neh
+  Esth:
+    long: Ester
+    short: Est
+  Job:
+    long: Jób
+    short: Jób
+  Ps:
+    long: Žalmy
+    long_single: Žalm
+    short: Ž
+  Prov:
+    long: Príslovia
+    short: Prís
+  Eccl:
+    long: Kazateľ
+    short: Kaz
+  Song:
+    long: Pieseň piesní
+    short: Pies
+  Isa:
+    long: Izaiáš
+    short: Iz
+  Jer:
+    long: Jeremiáš
+    short: Jer
+  Lam:
+    long: Náreky
+    short: Nár
+  Ezek:
+    long: Ezechiel
+    short: Ez
+  Dan:
+    long: Daniel
+    short: Dan
+  Hos:
+    long: Ozeáš
+    short: Oz
+  Joel:
+    long: Joel
+    short: Joel
+  Amos:
+    long: Amos
+    short: Am
+  Obad:
+    long: Abdiáš
+    short: Abd
+  Jonah:
+    long: Jonáš
+    short: Jon
+  Mic:
+    long: Micheáš
+    short: Mich
+  Nah:
+    long: Nahum
+    short: Nah
+  Hab:
+    long: Habakuk
+    short: Hab
+  Zeph:
+    long: Sofoniáš
+    short: Sof
+  Hag:
+    long: Aggeus
+    short: Ag
+  Zech:
+    long: Zachariáš
+    short: Zach
+  Mal:
+    long: Malachiáš
+    short: Mal
+  Matt:
+    long: Matúš
+    short: Mt
+  Mark:
+    long: Marek
+    short: Mk
+  Luke:
+    long: Lukáš
+    short: Lk
+  John:
+    long: Ján
+    short: Jn
+  Acts:
+    long: Skutky
+    short: Sk
+  Rom:
+    long: Rimanom
+    short: Rim
+  1Cor:
+    long: 1 Korinťanom
+    short: 1 Kor
+  2Cor:
+    long: 2 Korinťanom
+    short: 2 Kor
+  Gal:
+    long: Galaťanom
+    short: Gal
+    shorter: Ga
+  Eph:
+    long: Efezanom
+    short: Ef
+  Phil:
+    long: Filipanom
+    short: Flp
+  Col:
+    long: Kolosanom
+    short: Kol
+  1Thess:
+    long: 1. Solúnčanom
+    short: 1 Sol
+  2Thess:
+    long: 2. Solúnčanom
+    short: 2 Sol
+  1Tim:
+    long: 1. Timotejovi
+    short: 1 Tim
+  2Tim:
+    long: 2. Timotejovi
+    short: 2 Tim
+  Titus:
+    long: Títovi
+    short: Tít
+  Phlm:
+    long: Filemonovi
+    short: Flm
+  Heb:
+    long: Hebrejom
+    short: Hebr
+  Jas:
+    long: Jakubov
+    short: Jak
+  1Pet:
+    long: 1 Petrov
+    short: 1 Pt
+  2Pet:
+    long: 2 Petrov
+    short: 2 Pt
+  1John:
+    long: 1 Jánov
+    short: 1 Jn
+  2John:
+    long: 2 Jánov
+    short: 2 Jn
+  3John:
+    long: 3 Jánov
+    short: 3 Jn
+  Jude:
+    long: Júdov
+    short: Júd
+  Rev:
+    long: Zjavenie
+    short: Zjv
+  Tob:
+    long: Tobiáš
+    short: Tob
+  Jdt:
+    long: Judita
+    short: Jdt
+  GkEsth:
+    long: Grécke časti knihy Ester
+  Wis:
+    long: Múdrosť
+    short: Múd
+  Sir:
+    long: Sirachovec
+    short: Sir
+  Bar:
+    long: Baruch
+    short: Bar
+  PrAzar:
+    long: Azarjášova modlitba
+  Sus:
+    long: Zuzane
+  Bel:
+    long: Bél a drak
+    short: Bél
+  SgThree:
+    long: Pieseň mládencov v ohnivej peci
+  EpJer:
+    long: Jeremiášov list
+  1Macc:
+    long: 1. Machabejcov
+    short: 1 Mach
+  2Macc:
+    long: 2. Machabejcov
+    short: 2 Mach
+  3Macc:
+    long: 3. Machabejcov
+    short: 3 Mach
+  4Macc:
+    long: 4. Machabejcov
+    short: 4 Mach
+  1Esd:
+    long: 1 Ezdráš
+  2Esd:
+    long: 2 Ezdráš
+  PrMan:
+    long: Manasesova modlitba

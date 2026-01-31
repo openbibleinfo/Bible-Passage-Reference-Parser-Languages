@@ -1,0 +1,236 @@
+default:
+  Gen:
+    long: Bilowgii
+    short: Bil
+  Exod:
+    long: Baxniintii
+    short: Bax
+  Lev:
+    long: Laawiyiintii
+    short: Laaw
+  Num:
+    long: Tirintii
+    short: Tir
+  Deut:
+    long: Sharciga Kunoqoshadiisa
+    short: Sharci
+  Josh:
+    long: Yashuuca
+    short: Yash
+  Judg:
+    long: Xaakinnada
+    short: Xaak
+  Ruth:
+    long: Ruud
+  1Sam:
+    long: 1 Samuu'eel
+    short: 1 Sam
+  2Sam:
+    long: 2 Samuu'eel
+    short: 2 Sam
+  1Kgs:
+    long: 1 Boqorradii
+    short: 1 Boq
+  2Kgs:
+    long: 2 Boqorradii
+    short: 2 Boq
+  1Chr:
+    long: 1 Taariikhdii
+    short: 1 Taar
+  2Chr:
+    long: 2 Taariikhdii
+    short: 2 Taar
+  Ezra:
+    long: Cesraa
+    short: Ces
+  Neh:
+    long: Nexemyaah
+    short: Nex
+  Esth:
+    long: Esteer
+    short: Est
+  Job:
+    long: Ayuub
+    short: Ayu
+  Ps:
+    long: Sabuurradii
+    long_single: Sabuur
+    short: Sab
+  Prov:
+    long: Maahmaahyadii
+    short: Maah
+  Eccl:
+    long: Wacdiyahii
+    short: Wac
+  Song:
+    long: Gabaygii Sulaymaan
+    short: Gab
+  Isa:
+    long: Ishacyaah
+    short: Ish
+  Jer:
+    long: Yeremyaah
+    short: Yer
+  Lam:
+    long: Baroorashadii Yeremyaah
+    short: Baroor
+  Ezek:
+    long: Yexesqeel
+    short: Yex
+  Dan:
+    long: Daanyeel
+    short: Daan
+  Hos:
+    long: Hoosheeca
+    short: Hoosh
+  Joel:
+    long: Yoo'eel
+    short: Yool
+  Amos:
+    long: Caamoos
+    short: Caam
+  Obad:
+    long: Cobadyaah
+    short: Cobad
+    shorter: Cob
+  Jonah:
+    long: Yoonis
+    short: Yoon
+  Mic:
+    long: Miikaah
+    short: Miik
+  Nah:
+    long: Naxuum
+    short: Nax
+  Hab:
+    long: Xabaquuq
+    short: Xab
+  Zeph:
+    long: Sefanyaah
+    short: Sef
+  Hag:
+    long: Xaggay
+    short: Xag
+  Zech:
+    long: Sekaryaah
+    short: Sek
+  Mal:
+    long: Malaakii
+    short: Mal
+  Matt:
+    long: Matayos
+    short: Mat
+  Mark:
+    long: Markos
+    short: Mar
+  Luke:
+    long: Luukos
+    short: Luuk
+  John:
+    long: Yooxanaa
+    short: Yoox
+  Acts:
+    long: Falimaha Rasuullada
+    short: Fal
+  Rom:
+    long: Rooma
+    short: Room
+  1Cor:
+    long: 1 Korintos
+    short: 1 Kor
+  2Cor:
+    long: 2 Korintos
+    short: 2 Kor
+  Gal:
+    long: Galatiya
+    short: Gal
+  Eph:
+    long: Efesos
+    short: Ef
+  Phil:
+    long: Filiboy
+    short: Fil
+  Col:
+    long: Kolosay
+    short: Kol
+  1Thess:
+    long: 1 Tesaloniika
+    short: 1 Tes
+  2Thess:
+    long: 2 Tesaloniika
+    short: 2 Tes
+  1Tim:
+    long: 1 Timoteyos
+    short: 1 Tim
+  2Tim:
+    long: 2 Timoteyos
+    short: 2 Tim
+  Titus:
+    long: Tiitos
+    short: Tiit
+  Phlm:
+    long: Filemon
+    short: Flm
+  Heb:
+    long: Cibraaniyada
+    short: Cib
+  Jas:
+    long: Yacquub
+    short: Yac
+  1Pet:
+    long: 1 Butros
+    short: 1 But
+  2Pet:
+    long: 2 Butros
+    short: 2 But
+  1John:
+    long: 1 Yooxanaa
+    short: 1 Yoox
+  2John:
+    long: 2 Yooxanaa
+    short: 2 Yoox
+  3John:
+    long: 3 Yooxanaa
+    short: 3 Yoox
+  Jude:
+    long: Yuudas
+    short: Yuud
+  Rev:
+    long: Muujintii
+    short: Muuj
+  Tob:
+    long: Tob
+  Jdt:
+    long: Jdt
+  GkEsth:
+    long: GkEsth
+  Wis:
+    long: Wis
+  Sir:
+    long: Sir
+  Bar:
+    long: Bar
+  PrAzar:
+    long: PrAzar
+  Sus:
+    long: Sus
+  Bel:
+    long: Bel
+  SgThree:
+    long: SgThree
+  EpJer:
+    long: EpJer
+  1Macc:
+    long: 1Macc
+  2Macc:
+    long: 2Macc
+  3Macc:
+    long: 3Macc
+  4Macc:
+    long: 4Macc
+  1Esd:
+    long: 1Esd
+  2Esd:
+    long: 2Esd
+  PrMan:
+    long: PrMan

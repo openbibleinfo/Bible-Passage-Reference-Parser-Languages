@@ -1,0 +1,175 @@
+default:
+  Gen:
+    long: ଆଦିପୁସ୍ତକ
+    short: ଆଦି
+  Exod:
+    long: ଯାତ୍ରାପୁସ୍ତକ
+    short: ଯାତ୍ରା
+  Lev:
+    long: ଲେବୀୟ ପୁସ୍ତକ
+  Num:
+    long: ଗଣନା ପୁସ୍ତକ
+  Deut:
+    long: ଦ୍ୱିତୀୟ ବିବରଣ
+    short: ବିବରଣି
+  Josh:
+    long: ଯିହୋଶୂୟଙ୍କର ପୁସ୍ତକ
+  Judg:
+    long: ବିଗ୍ଭରକର୍ତ୍ତାମାନଙ୍କ ବିବରଣ
+  Ruth:
+    long: ଋତର ବିବରଣ ପୁସ୍ତକ
+  1Sam:
+    long: ଶାମୁୟେଲଙ୍କ ପ୍ରଥମ ପୁସ୍ତକ
+  2Sam:
+    long: ଶାମୁୟେଲଙ୍କ ଦ୍ୱିତୀୟ ପୁସ୍ତକ
+  1Kgs:
+    long: ରାଜାବଳୀର ପ୍ରଥମ ପୁସ୍ତକ
+  2Kgs:
+    long: ରାଜାବଳୀର ଦ୍ୱିତୀୟ ପୁସ୍ତକ
+  1Chr:
+    long: ବଂଶାବଳୀର ପ୍ରଥମ ପୁସ୍ତକ
+  2Chr:
+    long: ବଂଶାବଳୀର ଦ୍ୱିତୀୟ ପୁସ୍ତକ
+  Ezra:
+    long: ଏଜ୍ରା
+  Neh:
+    long: ନିହିମିୟାଙ୍କର ପୁସ୍ତକ
+  Esth:
+    long: ଏଷ୍ଟର ବିବରଣ
+  Job:
+    long: ଆୟୁବ ପୁସ୍ତକ
+  Ps:
+    long: ଗୀତସଂହିତା
+  Prov:
+    long: ହିତୋପଦେଶ
+  Eccl:
+    long: ଉପଦେଶକ
+  Song:
+    long: ପରମଗୀତ
+  Isa:
+    long: ଯିଶାଇୟ ଭବିଷ୍ୟଦ୍ବକ୍ତାଙ୍କର ପୁସ୍ତକ
+  Jer:
+    long: ଯିରିମିୟ ଭବିଷ୍ୟଦ୍ବକ୍ତାଙ୍କ ପୁସ୍ତକ
+  Lam:
+    long: ଯିରିମିୟଙ୍କ ବିଳାପ
+  Ezek:
+    long: ଯିହିଜିକଲ ଭବିଷ୍ୟଦ୍ବକ୍ତାଙ୍କ ପୁସ୍ତକ
+  Dan:
+    long: ଦାନିୟେଲଙ୍କ ପୁସ୍ତକ
+  Hos:
+    long: ହୋଶେୟ ଭବିଷ୍ୟଦ୍ବକ୍ତାଙ୍କ ପୁସ୍ତକ
+  Joel:
+    long: ଯୋୟେଲ ଭବିଷ୍ୟଦ୍ବକ୍ତାଙ୍କ ପୁସ୍ତକ
+  Amos:
+    long: ଆମୋଷ ଭବିଷ୍ୟଦ୍ବକ୍ତାଙ୍କ ପୁସ୍ତକ
+  Obad:
+    long: ଓବଦିଅ ଭବିଷ୍ୟଦ୍ବକ୍ତାଙ୍କ ପୁସ୍ତକ
+  Jonah:
+    long: ଯୂନସ ଭବିଷ୍ୟଦ୍ବକ୍ତାଙ୍କ ପୁସ୍ତକ
+  Mic:
+    long: ମୀଖା ଭବିଷ୍ୟଦ୍ବକ୍ତାଙ୍କ ପୁସ୍ତକ
+    short: ମିଖା
+  Nah:
+    long: ନାହୂମ ଭବିଷ୍ୟଦ୍ବକ୍ତାଙ୍କ ପୁସ୍ତକ
+  Hab:
+    long: ହବକ୍କୂକ ଭବିଷ୍ୟଦ୍ବକ୍ତାଙ୍କ ପୁସ୍ତକ
+    short: ହବକୂକ୍
+  Zeph:
+    long: ସିଫନିୟ ଭବିଷ୍ୟଦ୍ବକ୍ତାଙ୍କ ପୁସ୍ତକ
+  Hag:
+    long: ହାଗୟ ଭବିଷ୍ୟଦ୍ବକ୍ତାଙ୍କ ପୁସ୍ତକ
+  Zech:
+    long: ଯିଖରିୟ ଭବିଷ୍ୟଦ୍ବକ୍ତାଙ୍କ ପୁସ୍ତକ
+  Mal:
+    long: ମଲାଖି ଭବିଷ୍ୟଦ୍ବକ୍ତାଙ୍କ ପୁସ୍ତକ
+  Matt:
+    long: ମାଥିଉ ଲିଖିତ ସୁସମାଗ୍ଭର
+  Mark:
+    long: ମାର୍କ ଲିଖିତ ସୁସମାଗ୍ଭର
+  Luke:
+    long: ଲୂକ ଲିଖିତ ସୁସମାଗ୍ଭର
+  John:
+    long: ଯୋହନ ଲିଖିତ ସୁସମାଗ୍ଭର
+  Acts:
+    long: ପ୍ରେରିତମାନଙ୍କ କାର୍ଯ୍ୟର ବିବରଣ
+    short: ପ୍ରେରିତ
+  Rom:
+    long: ରୋମୀୟଙ୍କ ପ୍ରତି ପତ୍ର
+  1Cor:
+    long: କରିନ୍ଥୀୟଙ୍କ ପ୍ରତି ପ୍ରଥମ ପତ୍ର
+  2Cor:
+    long: କରିନ୍ଥୀୟଙ୍କ ପ୍ରତି ଦ୍ୱିତୀୟ ପତ୍ର
+  Gal:
+    long: ଗାଲାତୀୟଙ୍କ ପ୍ରତି ପତ୍ର
+  Eph:
+    long: ଏଫିସୀୟଙ୍କ ପ୍ରତି ପତ୍ର
+  Phil:
+    long: ଫିଲିପ୍ପୀୟଙ୍କ ପ୍ରତି ପତ୍ର
+  Col:
+    long: କଲସୀୟଙ୍କ ପ୍ରତି ପତ୍ର
+  1Thess:
+    long: ଥେସଲନୀକୀୟଙ୍କ ପ୍ରତି ପ୍ରଥମ ପତ୍ର
+  2Thess:
+    long: ଥେସଲନୀକୀୟଙ୍କ ପ୍ରତି ଦ୍ୱିତୀୟ ପତ୍ର
+  1Tim:
+    long: ତୀମଥିଙ୍କ ପ୍ରତି ପ୍ରଥମ ପତ୍ର
+  2Tim:
+    long: ତୀମଥିଙ୍କ ପ୍ରତି ଦ୍ୱିତୀୟ ପତ୍ର
+  Titus:
+    long: ତୀତସଙ୍କ ପ୍ରତି ପତ୍ର
+  Phlm:
+    long: ଫିଲୀମୋନଙ୍କ ପ୍ରତି ପତ୍ର
+  Heb:
+    long: ଏବ୍ରୀ
+  Jas:
+    long: ଯାକୁବଙ୍କ ପତ୍ର
+  1Pet:
+    long: ପିତରଙ୍କ ପ୍ରଥମ ପତ୍ର
+  2Pet:
+    long: ପିତରଙ୍କ ଦ୍ୱିତୀୟ ପତ୍ର
+  1John:
+    long: ଯୋହନଙ୍କ ପ୍ରଥମ ପତ୍ର
+  2John:
+    long: ଯୋହନଙ୍କ ଦ୍ୱିତୀୟ ପତ୍ର
+  3John:
+    long: ଯୋହନଙ୍କ ତୃତୀୟ ପତ୍ର
+  Jude:
+    long: ଯିହୂଦାଙ୍କ ପତ୍ର
+  Rev:
+    long: ଯୋହନଙ୍କ ପ୍ରତି ପ୍ରକାଶିତ ବାକ୍ୟ
+  Tob:
+    long: Tob
+  Jdt:
+    long: Jdt
+  GkEsth:
+    long: GkEsth
+  Wis:
+    long: Wis
+  Sir:
+    long: Sir
+  Bar:
+    long: Bar
+  PrAzar:
+    long: PrAzar
+  Sus:
+    long: Sus
+  Bel:
+    long: Bel
+  SgThree:
+    long: SgThree
+  EpJer:
+    long: EpJer
+  1Macc:
+    long: 1Macc
+  2Macc:
+    long: 2Macc
+  3Macc:
+    long: 3Macc
+  4Macc:
+    long: 4Macc
+  1Esd:
+    long: 1Esd
+  2Esd:
+    long: 2Esd
+  PrMan:
+    long: PrMan

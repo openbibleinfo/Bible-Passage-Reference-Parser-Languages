@@ -1,0 +1,393 @@
+default:
+  Gen:
+    long: پیدایش
+    long_single: پی
+    short: پیدا
+    shorter: پید
+  Exod:
+    long: خروج
+    long_single: خر
+    short: خروج
+    shorter: خرو
+  Lev:
+    long: لاویان
+    long_single: لا
+    short: لاوی
+    shorter: لاو
+  Num:
+    long: اعداد
+    short: اعدا
+    shorter: اعد
+  Deut:
+    long: تثنیه
+    long_single: تث
+    short: تثنی
+    shorter: تثن
+  Josh:
+    long: یوشع
+    long_single: یش
+    short: یوشع
+    shorter: یوش
+  Judg:
+    long: داوران
+    short: داور
+    shorter: داو
+  Ruth:
+    long: روت
+    long_single: روت
+    short: روت
+    shorter: روت
+  1Sam:
+    long: ۱ سموئیل
+    long_single: ۱سم
+    short: ۱سموی
+    shorter: ۱سمو
+  2Sam:
+    long: ۲ سموئیل
+    long_single: ۲سم
+    short: ۲سموی
+    shorter: ۲سمو
+  1Kgs:
+    long: ۱ پادشاهان
+    long_single: ۱پا
+    short: ۱پادش
+    shorter: ۱پاد
+  2Kgs:
+    long: ۲ پادشاهان
+    long_single: ۲پا
+    short: ۲پادش
+    shorter: ۲پاد
+  1Chr:
+    long: ۱ تواریخ
+    long_single: ۱تو
+    short: ۱توار
+    shorter: ۱توا
+  2Chr:
+    long: ۲ تواریخ
+    long_single: ۲تو
+    short: ۲توار
+    shorter: ۲توا
+  Ezra:
+    long: عِزرا
+    long_single: عز
+    short: عزرا
+    shorter: عزر
+  Neh:
+    long: نِحِمیا
+    short: نحمی
+    shorter: نحم
+  Esth:
+    long: اِستر
+    long_single: اس
+    short: استر
+    shorter: است
+  Job:
+    long: ایوب
+    short: ایوب
+    shorter: ایو
+  Ps:
+    long: مزمور
+    long_single: مز
+    short: مزمو
+    shorter: مزم
+  Prov:
+    long: امثال
+    long_single: ام
+    short: امثا
+    shorter: امت
+  Eccl:
+    long: جامعه
+    long_single: جا
+    short: جامع
+    shorter: جام
+  Song:
+    long: غزل غزلها
+    long_single: غز
+    short: غزله
+    shorter: غزل
+  Isa:
+    long: اِشعیا
+    short: اشعی
+    shorter: اشع
+  Jer:
+    long: اِرمیا
+    long_single: ار
+    short: ارمی
+    shorter: ارم
+  Lam:
+    long: مراثی اِرمیا
+    short: مراث
+    shorter: مرا
+  Ezek:
+    long: حِزقیال
+    long_single: حز
+    short: حزقی
+    shorter: حزق
+  Dan:
+    long: دانیال
+    long_single: دا
+    short: دانیا
+    shorter: دان
+  Hos:
+    long: هوشع
+    long_single: هو
+    short: هوشا
+    shorter: هوش
+  Joel:
+    long: یوئیل
+    short: یوئی
+    shorter: یوئ
+  Amos:
+    long: عاموس
+    long_single: عا
+    short: عامو
+    shorter: عام
+  Obad:
+    long: عوبَدیا
+    long_single: عو
+    short: عوبد
+    shorter: عوب
+  Jonah:
+    long: یونس
+    long_single: ین
+    short: یونس
+    shorter: یون
+  Mic:
+    long: میکاه
+    long_single: می
+    short: میکا
+    shorter: میک
+  Nah:
+    long: ناحوم
+    long_single: نا
+    short: ناحو
+    shorter: ناح
+  Hab:
+    long: حَبَقوق
+    long_single: حب
+    short: حبقا
+    shorter: حبق
+  Zeph:
+    long: صَفَنیا
+    long_single: صف
+    short: صفنی
+    shorter: صفن
+  Hag:
+    long: حَجَّی
+    long_single: حج
+    short: حجـی
+    shorter: حجـ
+  Zech:
+    long: زکریا
+    long_single: زک
+    short: زکری
+    shorter: زکر
+  Mal:
+    long: مَلاکی
+    long_single: مل
+    short: ملاک
+    shorter: ملا
+  Matt:
+    long: مَتّی
+    short: متی
+    shorter: مت
+  Mark:
+    long: مَرقُس
+    long_single: مر
+    short: مرقس
+    shorter: مرق
+  Luke:
+    long: لوقا
+    long_single: لو
+    short: لوقا
+    shorter: لوق
+  John:
+    long: یوحنا
+    long_single: یو
+    short: یوحن
+    shorter: یوح
+  Acts:
+    long: اعمال
+    long_single: اع
+    short: اعما
+    shorter: اعم
+  Rom:
+    long: رومیان
+    long_single: رو
+    short: رومیا
+    shorter: رومی
+  1Cor:
+    long: ۱ قرنتیان
+    long_single: ۱قر
+    short: ۱قرن
+    shorter: ۱قر
+  2Cor:
+    long: ۲ قرنتیان
+    long_single: ۲قر
+    short: ۲قرن
+    shorter: ۲قر
+  Gal:
+    long: غلاطیان
+    long_single: غل
+    short: غلاط
+    shorter: غلا
+  Eph:
+    long: اَفِسسیان
+    long_single: اف
+    short: افسـ
+    shorter: افس
+  Phil:
+    long: فیلیپیان
+    long_single: فی
+    short: فیلی
+    shorter: فیل
+  Col:
+    long: کولُسیان
+    long_single: کو
+    short: کولس
+    shorter: کول
+  1Thess:
+    long: ۱ تسالونیکیان
+    long_single: ۱تس
+    short: ۱تسال
+    shorter: ۱تسا
+  2Thess:
+    long: ۲ تسالونیکیان
+    long_single: ۲تس
+    short: ۲تسال
+    shorter: ۲تسا
+  1Tim:
+    long: ۱ تیموتائوس
+    long_single: ۱تی
+    short: ۱تیمو
+    shorter: ۱تیم
+  2Tim:
+    long: ۲ تیموتائوس
+    long_single: ۲تی
+    short: ۲تیمو
+    shorter: ۲تیم
+  Titus:
+    long: تیتوس
+    long_single: تی
+    short: تیتو
+    shorter: تیت
+  Phlm:
+    long: فلیمون
+    short: فلیمو
+    shorter: فلیم
+  Heb:
+    long: عبرانیان
+    long_single: عب
+    short: عبران
+    shorter: عبرا
+  Jas:
+    long: یعقوب
+    long_single: یع
+    short: یعقو
+    shorter: یعق
+  1Pet:
+    long: ۱ پطرس
+    long_single: ۱پط
+    short: ۱پطرس
+    shorter: ۱پطر
+  2Pet:
+    long: ۲ پطرس
+    long_single: ۲پط
+    short: ۲پطرس
+    shorter: ۲پطر
+  1John:
+    long: ۱ یوحنا
+    long_single: ۱یو
+    short: ۱یوحن
+    shorter: ۱یوح
+  2John:
+    long: ۲ یوحنا
+    long_single: ۲یو
+    short: ۲یوحن
+    shorter: ۲یوح
+  3John:
+    long: ۳ یوحنا
+    long_single: ۳یو
+    short: ۳یوحن
+    shorter: ۳یوح
+  Jude:
+    long: یهودا
+    short: یهود
+    shorter: یهو
+  Rev:
+    long: مکاشفه
+    long_single: مک
+    short: مکاش
+    shorter: مکا
+  Tob:
+    long: Tobit
+    short: Tob
+    shorter: Tob
+  Jdt:
+    long: Judith
+    short: Jdt
+    shorter: Jdt
+  GkEsth:
+    long: Greek Esther
+    short: Gk Esth
+    shorter: Gk Est
+  Wis:
+    long: Wisdom
+    short: Wis
+    shorter: Wis
+  Sir:
+    long: Sirach
+    short: Sir
+    shorter: Sir
+  Bar:
+    long: Baruch
+    short: Bar
+    shorter: Bar
+  PrAzar:
+    long: Prayer of Azariah
+    short: Pr Azar
+    shorter: Pr Azar
+  Sus:
+    long: Susannah
+    short: Sus
+    shorter: Sus
+  Bel:
+    long: Bel and the Dragon
+    short: Bel
+    shorter: Bel
+  SgThree:
+    long: Song of the Three Young Men
+    short: SgThree
+    shorter: SgThree
+  EpJer:
+    long: Epistle of Jeremiah
+    short: Ep Jer
+    shorter: Ep Jer
+  1Macc:
+    long: 1 Maccabees
+    short: 1 Macc
+    shorter: 1 Mc
+  2Macc:
+    long: 2 Maccabees
+    short: 2 Macc
+    shorter: 2 Mc
+  3Macc:
+    long: 3 Maccabees
+    short: 3 Macc
+    shorter: 3 Mc
+  4Macc:
+    long: 4 Maccabees
+    short: 4 Macc
+    shorter: 4 Mc
+  1Esd:
+    long: 1 Esdras
+    short: 1 Esd
+    shorter: 1 Esd
+  2Esd:
+    long: 2 Esdras
+    short: 2 Esd
+    shorter: 2 Esd
+  PrMan:
+    long: Prayer of Manasseh
+    short: Pr Man
+    shorter: Pr Man

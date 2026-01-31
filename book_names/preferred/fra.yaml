@@ -1,0 +1,255 @@
+default:
+  Gen:
+    long: Genèse
+    short: Gn
+  Exod:
+    long: Exode
+    short: Ex
+  Lev:
+    long: Lévitique
+    short: Lv
+  Num:
+    long: Nombres
+    short: Nb
+  Deut:
+    long: Deutéronome
+    short: Dt
+  Josh:
+    long: Josué
+    short: Jos
+  Judg:
+    long: Juges
+    short: Jg
+  Ruth:
+    long: Ruth
+    short: Rt
+  1Sam:
+    long: 1 Samuel
+    short: 1 S
+  2Sam:
+    long: 2 Samuel
+    short: 2 S
+  1Kgs:
+    long: 1 Rois
+    short: 1 R
+  2Kgs:
+    long: 2 Rois
+    short: 2 R
+  1Chr:
+    long: 1 Chroniques
+    short: 1 Ch
+  2Chr:
+    long: 2 Chroniques
+    short: 2 Ch
+  Ezra:
+    long: Esdras
+    short: Esd
+  Neh:
+    long: Néhémie
+    short: Ne
+  Esth:
+    long: Esther
+    short: Est
+  Job:
+    long: Job
+    short: Jb
+  Ps:
+    long: Psaumes
+    long_single: Psaume
+    short: Ps
+  Prov:
+    long: Proverbes
+    short: Pr
+  Eccl:
+    long: Ecclésiaste
+    short: Ec
+  Song:
+    long: Cantique des Cantiques
+    short: Ct
+  Isa:
+    long: Ésaïe
+    short: Is
+  Jer:
+    long: Jérémie
+    short: Jr
+  Lam:
+    long: Lamentations
+    short: La
+  Ezek:
+    long: Ézéchiel
+    short: Ez
+  Dan:
+    long: Daniel
+    short: Da
+  Hos:
+    long: Osée
+    short: Os
+  Joel:
+    long: Joël
+    short: Jl
+  Amos:
+    long: Amos
+    short: Am
+  Obad:
+    long: Abdias
+    short: Ab
+  Jonah:
+    long: Jonas
+    short: Jon
+  Mic:
+    long: Michée
+    short: Mi
+  Nah:
+    long: Nahum
+    short: Na
+  Hab:
+    long: Habacuc
+    short: Ha
+  Zeph:
+    long: Sophonie
+    short: So
+  Hag:
+    long: Aggée
+    short: Ag
+  Zech:
+    long: Zacharie
+    short: Za
+  Mal:
+    long: Malachie
+    short: Ml
+  Matt:
+    long: Matthieu
+    short: Mt
+  Mark:
+    long: Marc
+    short: Mc
+  Luke:
+    long: Luc
+    short: Luc
+    shorter: Lc
+  John:
+    long: Jean
+    short: Jn
+  Acts:
+    long: Actes
+    short: Ac
+  Rom:
+    long: Romains
+    short: Ro
+  1Cor:
+    long: 1 Corinthiens
+    short: 1 Co
+  2Cor:
+    long: 2 Corinthiens
+    short: 2 Co
+  Gal:
+    long: Galates
+    short: Ga
+  Eph:
+    long: Éphésiens
+    short: Ep
+  Phil:
+    long: Philippiens
+    short: Ph
+  Col:
+    long: Colossiens
+    short: Col
+  1Thess:
+    long: 1 Thessaloniciens
+    short: 1 Th
+  2Thess:
+    long: 2 Thessaloniciens
+    short: 2 Th
+  1Tim:
+    long: 1 Timothée
+    short: 1 Ti
+  2Tim:
+    long: 2 Timothée
+    short: 2 Ti
+  Titus:
+    long: Tite
+    short: Tit
+  Phlm:
+    long: Philémon
+    short: Phm
+  Heb:
+    long: Hébreux
+    short: Hé
+  Jas:
+    long: Jacques
+    short: Ja
+  1Pet:
+    long: 1 Pierre
+    short: 1 Pi
+  2Pet:
+    long: 2 Pierre
+    short: 2 Pi
+  1John:
+    long: 1 Jean
+    short: 1 Jn
+  2John:
+    long: 2 Jean
+    short: 2 Jn
+  3John:
+    long: 3 Jean
+    short: 3 Jn
+  Jude:
+    long: Jude
+    short: Jud
+  Rev:
+    long: Apocalypse
+    short: Ap
+  Tob:
+    long: Tobie
+    short: Tb
+  Jdt:
+    long: Judith
+    short: Jdt
+  GkEsth:
+    long: Esther Grec
+    short: Esth Gr
+  Wis:
+    long: Sagesse
+    short: Sg
+  Sir:
+    long: Siracide
+    short: Sir
+  Bar:
+    long: Baruch
+    short: Bar
+  PrAzar:
+    long: Prière d’Azarias
+    short: Pr Azar
+  Sus:
+    long: Suzanne
+    short: Suz
+  Bel:
+    long: Bel et le Dragon
+    short: Bel
+  SgThree:
+    long: Cantique des Trois Enfants
+    short: Ct 3 E
+  EpJer:
+    long: Épître de Jérémie
+    short: Ep Jér
+  1Macc:
+    long: 1 Maccabées
+    short: 1 M
+  2Macc:
+    long: 2 Maccabées
+    short: 2 M
+  3Macc:
+    long: 3 Maccabées
+    short: 3 M
+  4Macc:
+    long: 4 Maccabées
+    short: 4 M
+  1Esd:
+    long: 1 Esdras
+    short: 1 Es
+  2Esd:
+    long: 2 Esdras
+    short: 2 Es
+  PrMan:
+    long: Prière de Manassé
+    short: Pr Man

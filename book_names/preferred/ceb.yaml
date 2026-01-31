@@ -1,0 +1,233 @@
+default:
+  Gen:
+    long: Genesis
+    short: Gen
+  Exod:
+    long: Exodo
+    short: Exo
+  Lev:
+    long: Lebitiko
+    short: Leb
+  Num:
+    long: Numeros
+    short: Num
+  Deut:
+    long: Dyuteronomyo
+  Josh:
+    long: Josué
+    short: Jos
+  Judg:
+    long: Maghuhukom
+    short: Mag
+  Ruth:
+    long: Rut
+  1Sam:
+    long: 1 Samuel
+    short: 1 Sam
+  2Sam:
+    long: 2 Samuel
+    short: 2 Sam
+  1Kgs:
+    long: 1 Hari
+  2Kgs:
+    long: 2 Hari
+  1Chr:
+    long: 1 Kronika
+  2Chr:
+    long: 2 Kronika
+  Ezra:
+    long: Esdras
+    short: Esd
+  Neh:
+    long: Nehemías
+    short: Neh
+  Esth:
+    long: Ester
+    short: Est
+  Job:
+    long: Job
+  Ps:
+    long: Salmo
+    short: Sal
+  Prov:
+    long: Panultihon
+    short: Pan
+  Eccl:
+    long: Kaalam
+  Song:
+    long: Awit sa mga Awit
+    short: Awit
+  Isa:
+    long: Isaías
+    short: Is
+  Jer:
+    long: Jeremías
+    short: Jer
+  Lam:
+    long: Pagbangotan
+    short: Pag
+  Ezek:
+    long: Ezequiel
+    short: Ezeq
+  Dan:
+    long: Daniel
+    short: Dan
+  Hos:
+    long: Oseas
+    short: Os
+  Joel:
+    long: Joel
+  Amos:
+    long: Amós
+  Obad:
+    long: Abdías
+    short: Abd
+  Jonah:
+    long: Jonás
+    short: Jon
+  Mic:
+    long: Miqueas
+    short: Miq
+  Nah:
+    long: Nahum
+    short: Nah
+  Hab:
+    long: Habacuc
+    short: Hab
+  Zeph:
+    long: Sofonías
+    short: Sof
+  Hag:
+    long: Ageo
+    short: Ag
+  Zech:
+    long: Zacarías
+    short: Zac
+  Mal:
+    long: Malaquías
+    short: Mal
+  Matt:
+    long: Mateo
+    short: Mat
+  Mark:
+    long: Marcos
+    short: Mar
+  Luke:
+    long: Lucas
+    short: Luc
+  John:
+    long: Juan
+  Acts:
+    long: Binuhatan
+  Rom:
+    long: Roma
+    short: Rom
+  1Cor:
+    long: 1 Corinto
+    short: 1 Cor
+  2Cor:
+    long: 2 Corinto
+    short: 2 Cor
+  Gal:
+    long: Galacia
+    short: Gal
+  Eph:
+    long: Éfeso
+    short: Ef
+  Phil:
+    long: Filipos
+    short: Fil
+  Col:
+    long: Colosas
+    short: Col
+  1Thess:
+    long: 1 Tesalónica
+    short: 1 Tes
+  2Thess:
+    long: 2 Tesalónica
+    short: 2 Tes
+  1Tim:
+    long: 1 Timoteo
+    short: 1 Tim
+  2Tim:
+    long: 2 Timoteo
+    short: 2 Tim
+  Titus:
+    long: Tito
+    short: Tit
+  Phlm:
+    long: Filemón
+    short: Filem
+  Heb:
+    long: Hebreohanon
+    short: Heb
+  Jas:
+    long: Jacobo
+  1Pet:
+    long: 1 Pedro
+    short: 1 Ped
+  2Pet:
+    long: 2 Pedro
+    short: 2 Ped
+  1John:
+    long: 1 Juan
+  2John:
+    long: 2 Juan
+  3John:
+    long: 3 Juan
+  Jude:
+    long: Judas
+    short: Jud
+  Rev:
+    long: Gipadayag
+    short: Gipa
+  Tob:
+    long: Tobit
+    short: Tob
+  Jdt:
+    long: Judit
+    short: Jdt
+  GkEsth:
+    long: Ester (Grego)
+    short: Est Gr
+  Wis:
+    long: Kaalam ni Solomon
+    short: Klm Sol
+  Sir:
+    long: Sirac
+    short: Sir
+  Bar:
+    long: Baruc
+    short: Bar
+  PrAzar:
+    long: PrAzar
+  Sus:
+    long: Susana
+    short: Su
+  Bel:
+    long: Si Bel ug ang Dragon
+    short: Bel
+  SgThree:
+    long: Awit sa Tulo ka Batan-ong Lalaki
+    short: Awit sa 3
+  EpJer:
+    long: Sulat ni Jeremias
+    short: Sul Jer
+  1Macc:
+    long: 1 Macabeo
+    short: 1 Mac
+  2Macc:
+    long: 2 Macabeo
+    short: 2 Mac
+  3Macc:
+    long: 3 Macabeo
+    short: 3 Mac
+  4Macc:
+    long: 4 Macabeo
+    short: 4 Mac
+  1Esd:
+    long: 1Esd
+  2Esd:
+    long: 2Esd
+  PrMan:
+    long: PrMan

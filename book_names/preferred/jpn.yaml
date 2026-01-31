@@ -1,0 +1,237 @@
+default:
+  Gen:
+    long: 創世記
+    short: 創
+  Exod:
+    long: 出エジプト記
+    short: 出
+  Lev:
+    long: レビ記
+    short: レビ
+  Num:
+    long: 民数記
+    short: 民
+  Deut:
+    long: 申命記
+    short: 申
+  Josh:
+    long: ヨシュア記
+    short: ヨシュア
+  Judg:
+    long: 士師記
+    short: 士
+  Ruth:
+    long: ルツ記
+  1Sam:
+    long: サムエル記上
+    short: サムエル上
+  2Sam:
+    long: サムエル記下
+    short: サムエル下
+  1Kgs:
+    long: 列王記上
+    short: 列上
+  2Kgs:
+    long: 列王記下
+    short: 列下
+  1Chr:
+    long: 歴代誌上
+    short: 歴上
+  2Chr:
+    long: 歴代誌下
+    short: 歴下
+  Ezra:
+    long: エズラ記
+    short: エズラ
+  Neh:
+    long: ネヘミヤ記
+    short: ネヘミヤ
+  Esth:
+    long: エステル記
+    short: エステル
+  Job:
+    long: ヨブ記
+    short: ヨブ
+  Ps:
+    long: 詩篇
+    short: 詩
+  Prov:
+    long: 箴言
+    short: 格
+  Eccl:
+    long: コヘレトの言葉
+    short: コヘレト
+  Song:
+    long: 雅歌
+    short: 雅
+  Isa:
+    long: イザヤ書
+    short: イザヤ
+  Jer:
+    long: エレミヤ書
+    short: エレミヤ
+  Lam:
+    long: 哀歌
+    short: 哀
+  Ezek:
+    long: エゼキエル書
+    short: エゼキエル
+  Dan:
+    long: ダニエル書
+    short: ダニエル
+  Hos:
+    long: ホセア書
+    short: ホセア
+  Joel:
+    long: ヨエル書
+    short: ヨエル
+  Amos:
+    long: アモス書
+    short: アモス
+  Obad:
+    long: オバデヤ書
+    short: オバデヤ
+  Jonah:
+    long: ヨナ書
+    short: ヨナ
+  Mic:
+    long: ミカ書
+    short: ミカ
+  Nah:
+    long: ナホム書
+    short: ナホム
+  Hab:
+    long: ハバクク書
+    short: ハバクク
+  Zeph:
+    long: ゼファニヤ書
+    short: ゼファニア
+  Hag:
+    long: ハガイ書
+    short: ハガイ
+  Zech:
+    long: ゼカリヤ書
+    short: ゼカリヤ
+  Mal:
+    long: マラキ書
+    short: マラキ
+  Matt:
+    long: マタイによる福音書
+    short: マタイ伝
+  Mark:
+    long: マルコによる福音書
+    short: マルコ伝
+  Luke:
+    long: ルカによる福音書
+    short: ルカ伝
+  John:
+    long: ヨハネによる福音書
+  Acts:
+    long: 使徒行伝
+    short: 使徒行録
+  Rom:
+    long: ローマの信徒への手紙
+    short: ローマ
+  1Cor:
+    long: コリントの信徒への手紙一
+    short: コリント前書
+  2Cor:
+    long: コリントの信徒への手紙二
+    short: コリント後書
+  Gal:
+    long: ガラテヤの信徒への手紙
+    short: ガラテヤ
+  Eph:
+    long: エフェソの信徒への手紙
+    short: エフェソ
+  Phil:
+    long: フィリピの信徒への手紙
+    short: フィリピ
+  Col:
+    long: コロサイの信徒への手紙
+    short: コロサイ
+  1Thess:
+    long: テサロニケの信徒への手紙一
+    short: テサロニケ前書
+  2Thess:
+    long: テサロニケの信徒への手紙二
+    short: テサロニケ後書
+  1Tim:
+    long: テモテへの手紙一
+    short: 一テモテ
+  2Tim:
+    long: テモテへの手紙二
+    short: 二テモテ
+  Titus:
+    long: テトスへの手紙
+    short: テトス
+  Phlm:
+    long: フィレモンへの手紙
+    short: フィレモン
+  Heb:
+    long: ヘブライ人への手紙
+    short: ヘブライ
+  Jas:
+    long: ヤコブの手紙
+    short: ヤコブ
+  1Pet:
+    long: ペトロの手紙一
+  2Pet:
+    long: ペトロの手紙二
+  1John:
+    long: ヨハネの手紙一
+  2John:
+    long: ヨハネの手紙二
+  3John:
+    long: ヨハネの手紙三
+  Jude:
+    long: ユダの手紙
+    short: ユダ
+  Rev:
+    long: ヨハネの黙示録
+    short: 黙示録
+  Tob:
+    long: トビト記
+    short: トビト
+  Jdt:
+    long: ユディト記
+    short: ユディト
+  GkEsth:
+    long: エステル記補遺
+  Wis:
+    long: 知恵の書
+    short: 知恵
+  Sir:
+    long: シラ書
+    short: シラ
+  Bar:
+    long: バルク書
+    short: バルク
+  PrAzar:
+    long: アザルヤの祈り
+  Sus:
+    long: スザンナ
+  Bel:
+    long: ベルと竜
+  SgThree:
+    long: 三人の若者の賛歌
+    short: 三童兒の歌
+  EpJer:
+    long: エレミヤの手紙
+    short: エレミヤ・手
+  1Macc:
+    long: マカバイ記1
+    short: マカバイ上
+  2Macc:
+    long: マカバイ記2
+    short: マカバイ下
+  3Macc:
+    long: マカバイ記3
+  4Macc:
+    long: マカバイ記4
+  1Esd:
+    long: エズドラ第一巻
+  2Esd:
+    long: エズドラ第二巻
+  PrMan:
+    long: マナセの祈り

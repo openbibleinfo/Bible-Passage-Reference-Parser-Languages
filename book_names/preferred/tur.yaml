@@ -1,0 +1,236 @@
+default:
+  Gen:
+    long: Yaratılış
+    short: Yar
+  Exod:
+    long: Mısır'dan Çıkış
+    short: Çık
+  Lev:
+    long: Levılıler
+    short: Lev
+  Num:
+    long: Çölde Sayım
+    short: Say
+  Deut:
+    long: Yasa'nın Tekrarı
+    short: Yas
+  Josh:
+    long: Yeşu
+    short: Yşu
+  Judg:
+    long: Hakimler
+    short: Hak
+  Ruth:
+    long: Rut
+    short: Rut
+  1Sam:
+    long: 1. Samuel
+    short: 1Sa
+  2Sam:
+    long: 2. Samuel
+    short: 2Sa
+  1Kgs:
+    long: 1. Krallar
+    short: 1Kr
+  2Kgs:
+    long: 2. Krallar
+    short: 2Kr
+  1Chr:
+    long: 1. Tarihler
+    short: 1Ta
+  2Chr:
+    long: 2. Tarihler
+    short: 2Ta
+  Ezra:
+    long: Ezra
+    short: Ezr
+  Neh:
+    long: Nehemya
+    short: Neh
+  Esth:
+    long: Ester
+    short: Est
+  Job:
+    long: Eyüp
+    short: Eyü
+  Ps:
+    long: Mezmurlar
+    short: Mez
+  Prov:
+    long: Süleyman'ın Özdeyişleri
+    short: Özd
+  Eccl:
+    long: Vaiz
+    short: Vai
+  Song:
+    long: Ezgiler Ezgisi
+    short: Ezg
+  Isa:
+    long: Yeşaya
+    short: Yşa
+  Jer:
+    long: Yeremya
+    short: Yer
+  Lam:
+    long: Ağitlar
+    short: Ağı
+  Ezek:
+    long: Hezekiel
+    short: Hez
+  Dan:
+    long: Daniel
+    short: Dan
+  Hos:
+    long: Hosea
+    short: Hoş
+  Joel:
+    long: Yoel
+    short: Yoe
+  Amos:
+    long: Amos
+    short: Amo
+  Obad:
+    long: Ovadya
+    short: Ova
+  Jonah:
+    long: Yunus
+    short: Yun
+  Mic:
+    long: Mika
+    short: Mik
+  Nah:
+    long: Nahum
+    short: Nah
+  Hab:
+    long: Habakkuk
+    short: Hab
+  Zeph:
+    long: Sefanya
+    short: Sef
+  Hag:
+    long: Hagay
+    short: Hag
+  Zech:
+    long: Zekeriya
+    short: Zek
+  Mal:
+    long: Malaki
+    short: Mal
+  Matt:
+    long: Matta
+    short: Mat
+  Mark:
+    long: Markos
+    short: Mar
+  Luke:
+    long: Luka
+    short: Luk
+  John:
+    long: Yuhanna
+    short: Yu
+  Acts:
+    long: Elçilerin İşleri
+    short: Elç
+  Rom:
+    long: Romalılar
+    short: Rom
+  1Cor:
+    long: 1. Korintliler
+    short: 1Ko
+  2Cor:
+    long: 2. Korintliler
+    short: 2Ko
+  Gal:
+    long: Galatyalılar
+    short: Gal
+  Eph:
+    long: Efesliler
+    short: Ef
+  Phil:
+    long: Filipililer
+    short: Flp
+  Col:
+    long: Koloseliler
+    short: Kol
+  1Thess:
+    long: 1. Selanikliler
+    short: 1Se
+  2Thess:
+    long: 2. Selanikliler
+    short: 2Se
+  1Tim:
+    long: 1. Timoteos
+    short: 1Ti
+  2Tim:
+    long: 2. Timoteos
+    short: 2Ti
+  Titus:
+    long: Titus
+    short: Tit
+  Phlm:
+    long: Filimon
+    short: Flm
+  Heb:
+    long: İbraniler
+    short: İbr
+  Jas:
+    long: Yakup
+    short: Yak
+  1Pet:
+    long: 1. Petrus
+    short: 1Pe
+  2Pet:
+    long: 2. Petrus
+    short: 2Pe
+  1John:
+    long: 1. Yuhanna
+    short: 1Yu
+  2John:
+    long: 2. Yuhanna
+    short: 2Yu
+  3John:
+    long: 3. Yuhanna
+    short: 3Yu
+  Jude:
+    long: Yahuda
+    short: Yah
+  Rev:
+    long: Vahiy
+    short: Va
+  Tob:
+    long: Tobit
+  Jdt:
+    long: Yudit
+  GkEsth:
+    long: GkEsth
+  Wis:
+    long: Bilgelik
+  Sir:
+    long: Sirak
+  Bar:
+    long: Baruk
+  PrAzar:
+    long: Azarya’nın Duası
+  Sus:
+    long: Suzanna
+    short: Suz
+  Bel:
+    long: Bel ve Ejderha
+  SgThree:
+    long: Üç Genç Adamın Ezgisi
+  EpJer:
+    long: Yeremya’nın Mektubu
+  1Macc:
+    long: 1. Makabeler
+  2Macc:
+    long: 2. Makabeler
+  3Macc:
+    long: 3. Makabeler
+  4Macc:
+    long: 4. Makabeler
+  1Esd:
+    long: 1. Esdras
+  2Esd:
+    long: 2. Esdras
+  PrMan:
+    long: Manaşşe’nin Duası

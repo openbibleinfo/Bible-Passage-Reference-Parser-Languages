@@ -1,0 +1,249 @@
+default:
+  Gen:
+    long: Teremtés
+    short: Ter
+  Exod:
+    long: Kivonulás
+    short: Kiv
+  Lev:
+    long: Leviták
+    short: Lev
+  Num:
+    long: Számok
+    short: Szám
+  Deut:
+    long: Második törvénykönyv
+    short: MTörv
+  Josh:
+    long: Józsué
+    short: Józs
+  Judg:
+    long: Bírák
+    short: Bír
+  Ruth:
+    long: Rut
+    short: Rut
+  1Sam:
+    long: 1 Sámuel
+    short: 1 Sám
+  2Sam:
+    long: 2 Sámuel
+    short: 2 Sám
+  1Kgs:
+    long: 1 Királyok
+    short: 1 Kir
+  2Kgs:
+    long: 2 Királyok
+    short: 2 Kir
+  1Chr:
+    long: 1 Krónika
+    short: 1 Krón
+  2Chr:
+    long: 2 Krónika
+    short: 2 Krón
+  Ezra:
+    long: Ezsdrás
+    short: Ezd
+  Neh:
+    long: Nehemiás
+    short: Neh
+  Esth:
+    long: Eszter
+    short: Eszt
+  Job:
+    long: Jób
+    short: Jób
+  Ps:
+    long: Zsoltárok
+    long_single: Zsolt
+    short: Zsolt
+  Prov:
+    long: Példabeszédek
+    short: Péld
+  Eccl:
+    long: Prédikátor
+    short: Préd
+  Song:
+    long: Salamon éneke
+    short: Én
+  Isa:
+    long: Izajás
+    short: Iz
+  Jer:
+    long: Jeremiás
+    short: Jer
+  Lam:
+    long: Jeremiás siralmai
+    short: Siral
+  Ezek:
+    long: Ezékiel
+    short: Ez
+  Dan:
+    long: Dániel
+    short: Dán
+  Hos:
+    long: Ozeás
+    short: Oz
+  Joel:
+    long: Jóel
+    short: Jo
+  Amos:
+    long: Ámós
+    short: Ám
+  Obad:
+    long: Abdiás
+    short: Abd
+  Jonah:
+    long: Jónás
+    short: Jón
+  Mic:
+    long: Mikeás
+    short: Mik
+  Nah:
+    long: Náhum
+    short: Náh
+  Hab:
+    long: Habakuk
+    short: Hab
+  Zeph:
+    long: Szofoniás
+    short: Szof
+  Hag:
+    long: Aggeus
+    short: Ag
+  Zech:
+    long: Zakariás
+    short: Zak
+  Mal:
+    long: Malakiás
+    short: Mal
+  Matt:
+    long: Máté
+    short: Mt
+  Mark:
+    long: Márk
+    short: Mk
+  Luke:
+    long: Lukács
+    short: Lk
+  John:
+    long: János
+    short: Jn
+  Acts:
+    long: Cselekedetek
+    short: ApCsel
+  Rom:
+    long: Rómaiakhoz
+    short: Róm
+  1Cor:
+    long: 1 Korinthusiakhoz
+    short: 1 Kor
+  2Cor:
+    long: 2 Korinthusiakhoz
+    short: 2 Kor
+  Gal:
+    long: Galatákhoz
+    short: Gal
+  Eph:
+    long: Efezusiakhoz
+    short: Ef
+  Phil:
+    long: Flippiekhez
+    short: Fil
+  Col:
+    long: Kolosszébeliekhez
+    short: Kol
+  1Thess:
+    long: 1 Thesszalonika
+    short: 1 Tessz
+  2Thess:
+    long: 2 Thesszalonika
+    short: 2 Tessz
+  1Tim:
+    long: 1 Timótheosz
+    short: 1 Tim
+  2Tim:
+    long: 2 Timótheosz
+    short: 2 Tim
+  Titus:
+    long: Tituszhoz
+    short: Tit
+  Phlm:
+    long: Filemonhoz
+    short: Filem
+  Heb:
+    long: Zsidókhoz
+    short: Zsid
+  Jas:
+    long: Jakab
+    short: Jak
+  1Pet:
+    long: 1 Péter
+    short: 1 Pét
+  2Pet:
+    long: 2 Péter
+    short: 2 Pét
+  1John:
+    long: 1 János
+    short: 1 Jn
+  2John:
+    long: 2 János
+    short: 2 Jn
+  3John:
+    long: 3 János
+    short: 3 Jn
+  Jude:
+    long: Júdás
+    short: Júdás
+  Rev:
+    long: Jelenések
+    short: Jel
+  Tob:
+    long: Tóbiás
+    short: Tób
+  Jdt:
+    long: Judit
+    short: Jdt
+  GkEsth:
+    long: Eszter könyvének kiegészítése
+  Wis:
+    long: Salamon bölcsessége
+    short: Bölcs
+  Sir:
+    long: Sirák fia
+    short: Sir
+  Bar:
+    long: Báruk
+    short: Bár
+  PrAzar:
+    long: Azáriás imája
+  Sus:
+    long: Zsuzsanna
+    short: Zsuz
+  Bel:
+    long: Bél és a sárkány
+    short: Bél
+  SgThree:
+    long: Három fiatalember éneke
+  EpJer:
+    long: Jeremiás levele
+  1Macc:
+    long: 1 Makkabeusok
+    short: 1 Mak
+  2Macc:
+    long: 2 Makkabeusok
+    short: 2 Mak
+  3Macc:
+    long: 3 Makkabeusok
+    short: 3 Mak
+  4Macc:
+    long: 4 Makkabeusok
+    short: 4 Mak
+  1Esd:
+    long: 1 Ezdrás
+    short: 1 Ezd
+  2Esd:
+    long: 2 Ezdrás
+    short: 2 Ezd
+  PrMan:
+    long: Manassze imája

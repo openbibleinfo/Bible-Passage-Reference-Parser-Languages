@@ -1,0 +1,235 @@
+default:
+  Gen:
+    long: 창세기
+    short: 창
+  Exod:
+    long: 출애굽기
+    short: 탈출
+  Lev:
+    long: 레위기
+    short: 레
+  Num:
+    long: 민수기
+    short: 민
+  Deut:
+    long: 신명기
+    short: 신
+  Josh:
+    long: 여호수아
+    short: 수
+  Judg:
+    long: 사사기
+    short: 삿
+  Ruth:
+    long: 룻기
+    short: 룻
+  1Sam:
+    long: 사무엘 상
+    short: 삼상
+  2Sam:
+    long: 사무엘 하
+    short: 삼하
+  1Kgs:
+    long: 열왕기 상
+    short: 왕상
+  2Kgs:
+    long: 열왕기 하
+    short: 왕하
+  1Chr:
+    long: 역대상
+    short: 대상
+  2Chr:
+    long: 역대하
+    short: 대하
+  Ezra:
+    long: 에스라
+    short: 스
+  Neh:
+    long: 느헤미야
+    short: 느
+  Esth:
+    long: 에스더
+    short: 에
+  Job:
+    long: 욥기
+    short: 욥
+  Ps:
+    long: 시편
+    short: 시
+  Prov:
+    long: 잠언
+    short: 잠
+  Eccl:
+    long: 전도서
+    short: 전
+  Song:
+    long: 아가
+    short: 아
+  Isa:
+    long: 이사야
+    short: 사
+  Jer:
+    long: 예레미야
+    short: 렘
+  Lam:
+    long: 예레미야애가
+    short: 애
+  Ezek:
+    long: 에스겔
+    short: 겔
+  Dan:
+    long: 다니엘
+    short: 단
+  Hos:
+    long: 호세아
+    short: 호
+  Joel:
+    long: 요엘
+    short: 욜
+  Amos:
+    long: 아모스
+    short: 암
+  Obad:
+    long: 오바댜
+    short: 옵
+  Jonah:
+    long: 요나
+    short: 욘
+  Mic:
+    long: 미가
+    short: 미
+  Nah:
+    long: 나훔
+    short: 나
+  Hab:
+    long: 하박국
+    short: 합
+  Zeph:
+    long: 스바냐
+    short: 습
+  Hag:
+    long: 학개
+    short: 학
+  Zech:
+    long: 스가랴
+    short: 슥
+  Mal:
+    long: 말라기
+    short: 말
+  Matt:
+    long: 마태
+    short: 마
+  Mark:
+    long: 마가
+    short: 막
+  Luke:
+    long: 누가
+    short: 눅
+  John:
+    long: 요한 복음
+    short: 요
+  Acts:
+    long: 사도행전
+    short: 행
+  Rom:
+    long: 로마서
+    short: 롬
+  1Cor:
+    long: 고린도1서
+    short: 고전
+  2Cor:
+    long: 고린도2서
+    short: 고후
+  Gal:
+    long: 갈라디아서
+    short: 갈
+  Eph:
+    long: 에베소서
+    short: 엡
+  Phil:
+    long: 빌립보서
+    short: 빌
+  Col:
+    long: 골로새서
+    short: 골
+  1Thess:
+    long: 데살로니가1서
+    short: 살전
+  2Thess:
+    long: 데살로니가2서
+    short: 살후
+  1Tim:
+    long: 디모데1서
+    short: 딤전
+  2Tim:
+    long: 디모데2서
+    short: 딤후
+  Titus:
+    long: 디도서
+    short: 딛
+  Phlm:
+    long: 빌레몬서
+    short: 본
+  Heb:
+    long: 히브리서
+    short: 히
+  Jas:
+    long: 야고보서
+    short: 약
+  1Pet:
+    long: 베드로1서
+    short: 벧전
+  2Pet:
+    long: 베드로2서
+    short: 벧후
+  1John:
+    long: 요한1서
+    short: 요일
+  2John:
+    long: 요한2서
+    short: 요이
+  3John:
+    long: 요한3서
+    short: 요삼
+  Jude:
+    long: 유다서
+    short: 유
+  Rev:
+    long: 요한계시록
+    short: 계
+  Tob:
+    long: 토비트
+  Jdt:
+    long: 유딧
+  GkEsth:
+    long: 에스겔 추가본
+  Wis:
+    long: 지혜서
+  Sir:
+    long: 집회서
+  Bar:
+    long: 바룩
+  PrAzar:
+    long: PrAzar
+  Sus:
+    long: 수산나
+  Bel:
+    long: 벨과 용
+  SgThree:
+    long: SgThree
+  EpJer:
+    long: 예레미야의 편지
+  1Macc:
+    long: 마카베오상
+  2Macc:
+    long: 마카베오하
+  3Macc:
+    long: 마카베오 3서
+  4Macc:
+    long: 마카베오 4서
+  1Esd:
+    long: 에스드라 1서
+  2Esd:
+    long: 에스드라 2서
+  PrMan:
+    long: 므나쎄의 기도

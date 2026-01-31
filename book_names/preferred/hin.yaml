@@ -1,0 +1,205 @@
+default:
+  Gen:
+    long: उत्पत्ति
+  Exod:
+    long: निर्गमन
+  Lev:
+    long: लैव्यव्यवस्था
+    short: लैव्य
+  Num:
+    long: गिनती
+  Deut:
+    long: व्यवस्था विवरण
+    short: व्यवस्था
+  Josh:
+    long: यहोशू
+  Judg:
+    long: न्यायियों
+  Ruth:
+    long: रूत
+  1Sam:
+    long: 1 शमूएल
+    short: 1 शमू
+  2Sam:
+    long: 2 शमूएल
+    short: 2 शमू
+  1Kgs:
+    long: 1 राजा
+  2Kgs:
+    long: 2 राजा
+  1Chr:
+    long: 1 इतिहास
+    short: 1 इति
+  2Chr:
+    long: 2 इतिहास
+    short: 2 इति
+  Ezra:
+    long: एज्रा
+  Neh:
+    long: नहेमायाह
+    short: नहेमा
+  Esth:
+    long: एस्तेर
+  Job:
+    long: अय्यूब
+  Ps:
+    long: भजन संहिता
+    short: भजन
+  Prov:
+    long: नीतिवचन
+    short: नीति
+  Eccl:
+    long: सभोपदेशक
+    short: सभो
+  Song:
+    long: श्रेष्ठगीत
+    short: श्रेष्ठ
+  Isa:
+    long: यशायाह
+    short: यशा
+  Jer:
+    long: यिर्मयाह
+    short: यिर्म
+  Lam:
+    long: विलापगीत
+    short: विलाप
+  Ezek:
+    long: यहेजकेल
+    short: यहेज
+  Dan:
+    long: दानिय्येल
+    short: दानि
+  Hos:
+    long: होशे
+  Joel:
+    long: योएल
+  Amos:
+    long: आमोस
+  Obad:
+    long: ओबद्याह
+    short: ओब
+  Jonah:
+    long: योना
+  Mic:
+    long: मीका
+  Nah:
+    long: नहूम
+  Hab:
+    long: हबक्कूक
+    short: हबक
+  Zeph:
+    long: सपन्याह
+    short: सपन
+  Hag:
+    long: हाग्गै
+  Zech:
+    long: जकर्याह
+  Mal:
+    long: मलाकी
+  Matt:
+    long: मत्ती
+  Mark:
+    long: मरकुस
+  Luke:
+    long: लूका
+  John:
+    long: यूहन्ना
+  Acts:
+    long: प्रेरितों के काम
+    short: प्र.क
+  Rom:
+    long: रोमियों
+    short: रोमी
+  1Cor:
+    long: 1 कुरिन्थियों
+    short: 1 कुरिन्थ
+  2Cor:
+    long: 2 कुरिन्थियों
+    short: 2 कुरिन्थ
+  Gal:
+    long: गलातियों
+    short: गलाति
+  Eph:
+    long: इफिसियों
+    short: इफिसि
+  Phil:
+    long: फिलिप्पियों
+    short: फिलिप्पि
+  Col:
+    long: कुलुस्सियों
+    short: कुलुस्सि
+  1Thess:
+    long: 1 थिस्सलुनीकियों
+    short: 1 थिस्स
+  2Thess:
+    long: 2 थिस्सलुनीकियों
+    short: 2 थिस्स
+  1Tim:
+    long: 1 तीमुथियुस
+    short: 1 तीम
+  2Tim:
+    long: 2 तीमुथियुस
+    short: 2 तीम
+  Titus:
+    long: तीतुस
+  Phlm:
+    long: फिलेमोन
+    short: फले
+  Heb:
+    long: इब्रानियों
+    short: इब्रानि
+  Jas:
+    long: याकूब
+  1Pet:
+    long: 1 पतरस
+    short: 1 पतर
+  2Pet:
+    long: 2 पतरस
+    short: 2 पतर
+  1John:
+    long: 1 यूहन्ना
+  2John:
+    long: 2 यूहन्ना
+  3John:
+    long: 3 यूहन्ना
+  Jude:
+    long: यहूदा
+  Rev:
+    long: प्रकाशित वाक्य
+    short: प्र. व
+  Tob:
+    long: Tob
+  Jdt:
+    long: Jdt
+  GkEsth:
+    long: GkEsth
+  Wis:
+    long: Wis
+  Sir:
+    long: Sir
+  Bar:
+    long: Bar
+  PrAzar:
+    long: PrAzar
+  Sus:
+    long: Sus
+  Bel:
+    long: Bel
+  SgThree:
+    long: SgThree
+  EpJer:
+    long: EpJer
+  1Macc:
+    long: 1Macc
+  2Macc:
+    long: 2Macc
+  3Macc:
+    long: 3Macc
+  4Macc:
+    long: 4Macc
+  1Esd:
+    long: 1Esd
+  2Esd:
+    long: 2Esd
+  PrMan:
+    long: PrMan

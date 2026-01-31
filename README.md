@@ -7,12 +7,12 @@ This repository contains the YAML to Javascript build pipeline for [Bible Passag
 ## Structure
 - `data/_defaults.yaml`: shared defaults for variables/options.
 - `data/*.yaml`: per-language data (ISO 639-3 codes like `eng`, `zho`).
-- `translations/*.yaml`: versification systems and translation aliases.
+- `translation_systems/*.yaml`: versification systems and translation aliases.
 - `src/`: TypeScript source for building language output.
 - `bin/compile.sh`: bundles `src/build_lang.ts` to `bin/build_lang.js`.
-- `bin/build_spec.js`: builds localized-book Jasmine specs from `names/`.
+- `bin/build_spec.js`: builds localized-book Jasmine specs from `book_names/all/`.
 - `lang/`: generated output files (optional; regenerate as needed).
-- `names/`: generated book-name lists used to build tests.
+- `book_names/all/`: generated book-name lists used to build tests.
 - `test/`: generated localized-book specs.
 
 ## Quick start
@@ -118,9 +118,41 @@ ordinals:
     texts: ["Psalm"]
 ```
 
-## names/ output
-`node bin/build_lang.js <lang>` writes `names/<lang>.yaml`, which is a normalized list of book texts used by `bin/build_spec.js`.
+## book_names/all output
+`node bin/build_lang.js <lang>` writes `book_names/all/<lang>.yaml`, which is a normalized list of book texts used by `bin/build_spec.js`.
 Names output collapses whitespace to single spaces and normalizes to NFC (combining-character variants are unified), but does not add extra variants.
+
+## book_names/preferred
+`book_names/preferred/<lang>.yaml` documents preferred book names for display and UI. Each file has:
+- `default`: preferred names by OSIS code.
+- `translations` (optional): translation-specific overrides (currently only in `eng.yaml`).
+
+Example (`book_names/preferred/eng.yaml`):
+```yaml
+default:
+  Gen:
+    long: Genesis
+    short: Gen
+    shorter: Ge
+  Ps:
+    long: Psalms
+    long_single: Psalm
+    short: Ps
+    shorter: Ps
+translations:
+  niv:
+    Ps:
+      short_plural: Pss
+    1Sam:
+      shorter: 1Sa
+```
+
+Keys used in preferred names can include:
+- `long`: full name
+- `long_single`: singular form (e.g., Psalm vs Psalms)
+- `short`: common short form
+- `shorter`: shortest form
+- `short_plural`: translation-specific plural short form
 
 ### tests
 Optional per-language Jasmine tests can be added to `data/<lang>.yaml`:

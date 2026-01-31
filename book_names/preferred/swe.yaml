@@ -1,0 +1,250 @@
+default:
+  Gen:
+    long: 1 Mosebok
+    short: 1 Mos
+  Exod:
+    long: 2 Mosebok
+    short: 2 Mos
+  Lev:
+    long: 3 Mosebok
+    short: 3 Mos
+  Num:
+    long: 4 Mosebok
+    short: 4 Mos
+  Deut:
+    long: 5 Mosebok
+    short: 5 Mos
+  Josh:
+    long: Josua
+    short: Jos
+  Judg:
+    long: Domarboken
+    short: Dom
+  Ruth:
+    long: Rut
+    short: Rut
+  1Sam:
+    long: 1 Samuelsboken
+    short: 1 Sam
+  2Sam:
+    long: 2 Samuelsboken
+    short: 2 Sam
+  1Kgs:
+    long: 1 Kungaboken
+    short: 1 Kung
+  2Kgs:
+    long: 2 Kungaboken
+    short: 2 Kung
+  1Chr:
+    long: 1 Krönikeboken
+    short: 1 Krön
+  2Chr:
+    long: 2 Krönikeboken
+    short: 2 Krön
+  Ezra:
+    long: Esra
+    short: Esr
+  Neh:
+    long: Nehemja
+    short: Neh
+  Esth:
+    long: Ester
+    short: Est
+  Job:
+    long: Job
+    short: Job
+  Ps:
+    long: Psaltaren
+    long_single: Psaltaren
+    short: Ps
+  Prov:
+    long: Ordspråksboken
+    short: Ords
+  Eccl:
+    long: Predikaren
+    short: Pred
+  Song:
+    long: Höga Visan
+    short: Höga V
+    shorter: Höga
+  Isa:
+    long: Jesaja
+    short: Jes
+  Jer:
+    long: Jeremia
+    short: Jer
+  Lam:
+    long: Klagovisorna
+    short: Klag
+  Ezek:
+    long: Hesekiel
+    short: Hes
+  Dan:
+    long: Daniel
+    short: Dan
+  Hos:
+    long: Hosea
+    short: Hos
+  Joel:
+    long: Joel
+    short: Joel
+  Amos:
+    long: Amos
+    short: Am
+  Obad:
+    long: Obadja
+    short: Ob
+  Jonah:
+    long: Jona
+    short: Jon
+  Mic:
+    long: Mika
+    short: Mik
+  Nah:
+    long: Nahum
+    short: Nah
+  Hab:
+    long: Habackuk
+    short: Hab
+  Zeph:
+    long: Sefanja
+    short: Sef
+  Hag:
+    long: Haggaj
+    short: Hagg
+  Zech:
+    long: Sakarja
+    short: Sak
+  Mal:
+    long: Malaki
+    short: Mal
+  Matt:
+    long: Matteusevangeliet
+    short: Matt
+  Mark:
+    long: Markusevangeliet
+    short: Mark
+  Luke:
+    long: Lukasevangeliet
+    short: Luk
+  John:
+    long: Johannesevangeliet
+    short: Joh
+  Acts:
+    long: Apostlagärningarna
+    short: Apg
+  Rom:
+    long: Romarbrevet
+    short: Rom
+  1Cor:
+    long: 1 Korinthierbrevet
+    short: 1 Kor
+  2Cor:
+    long: 2 Korinthierbrevet
+    short: 2 Kor
+  Gal:
+    long: Galaterbrevet
+    short: Gal
+  Eph:
+    long: Efesierbrevet
+    short: Ef
+  Phil:
+    long: Filipperbrevet
+    short: Fil
+  Col:
+    long: Kolosserbrevet
+    short: Kol
+  1Thess:
+    long: 1 Thessalonikerbrevet
+    short: 1 Thess
+  2Thess:
+    long: 2 Thessalonikerbrevet
+    short: 2 Thess
+  1Tim:
+    long: 1 Timotheosbrevet
+    short: 1 Tim
+  2Tim:
+    long: 2 Timotheosbrevet
+    short: 2 Tim
+  Titus:
+    long: Titusbrevet
+    short: Tit
+  Phlm:
+    long: Filemonbrevet
+    short: Filem
+  Heb:
+    long: Hebreerbrevet
+    short: Heb
+  Jas:
+    long: Jakobsbrevet
+    short: Jak
+  1Pet:
+    long: 1 Petrusbrevet
+    short: 1 Pet
+  2Pet:
+    long: 2 Petrusbrevet
+    short: 2 Pet
+  1John:
+    long: 1 Johannesbrevet
+    short: 1 Joh
+  2John:
+    long: 2 Johannesbrevet
+    short: 2 Joh
+  3John:
+    long: 3 Johannesbrevet
+    short: 3 Joh
+  Jude:
+    long: Judasbrevet
+    short: Jud
+  Rev:
+    long: Uppenbarelseboken
+    short: Upp
+  Tob:
+    long: Tobit
+    short: Tob
+  Jdt:
+    long: Judit
+    short: Judit
+  GkEsth:
+    long: Ester enligt den grekiska texten
+    short: Est gr
+  Wis:
+    long: Visheten
+    short: Vish
+  Sir:
+    long: Ben Sira
+    short: Syr
+  Bar:
+    long: Baruk
+    short: Bar
+  PrAzar:
+    long: Asarjas bön
+  Sus:
+    long: Susanna
+    short: Sus
+  Bel:
+    long: Bel och Ormguden
+  SgThree:
+    long: De tre männens lovsång
+  EpJer:
+    long: Jeremias brev
+    short: Jer br
+  1Macc:
+    long: 1 Mackabeerboken
+    short: 1 Mack
+  2Macc:
+    long: 2 Mackabeerboken
+    short: 2 Mack
+  3Macc:
+    long: 3 Mackabéerboken
+    short: 3 Mack
+  4Macc:
+    long: 4 Mackabéerboken
+    short: 4 Mack
+  1Esd:
+    long: 3 Esra
+  2Esd:
+    long: 4 Esra
+  PrMan:
+    long: Manasses bön
+    short: Man

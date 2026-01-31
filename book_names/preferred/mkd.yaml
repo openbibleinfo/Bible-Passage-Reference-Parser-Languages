@@ -1,0 +1,169 @@
+default:
+  Gen:
+    long: Битие
+  Exod:
+    long: Излез
+  Lev:
+    long: Левит
+  Num:
+    long: Броеви
+  Deut:
+    long: Второзаконие
+  Josh:
+    long: Исус Навин
+  Judg:
+    long: Судии
+  Ruth:
+    long: Рута
+  1Sam:
+    long: 1 Самуил
+  2Sam:
+    long: 2 Самуил
+  1Kgs:
+    long: 1 Цареви
+  2Kgs:
+    long: 2 Цареви
+  1Chr:
+    long: 1 Летописи
+  2Chr:
+    long: 2 Летописи
+  Ezra:
+    long: Езра
+  Neh:
+    long: Неемија
+  Esth:
+    long: Естира
+  Job:
+    long: Јов
+  Ps:
+    long: Псалми
+  Prov:
+    long: Пословици
+  Eccl:
+    long: Проповедник
+  Song:
+    long: Песна над песните
+  Isa:
+    long: Исаија
+  Jer:
+    long: Еремија
+  Lam:
+    long: Плач Еремиин
+  Ezek:
+    long: Езекиел
+  Dan:
+    long: Даниел
+  Hos:
+    long: Осија
+  Joel:
+    long: Јоил
+  Amos:
+    long: Амос
+  Obad:
+    long: Авдиј
+  Jonah:
+    long: Јона
+  Mic:
+    long: Михеј
+  Nah:
+    long: Наум
+  Hab:
+    long: Хабакук
+  Zeph:
+    long: Софонија
+  Hag:
+    long: Агеј
+  Zech:
+    long: Захарија
+  Mal:
+    long: Малахија
+  Matt:
+    long: Матеј
+  Mark:
+    long: Марко
+  Luke:
+    long: Лука
+  John:
+    long: Јован
+  Acts:
+    long: Дела
+  Rom:
+    long: Римјани
+  1Cor:
+    long: 1 Коринтјани
+  2Cor:
+    long: 2 Коринтјани
+  Gal:
+    long: Галатјани
+  Eph:
+    long: Ефесјани
+  Phil:
+    long: Филипјани
+  Col:
+    long: Колосјани
+  1Thess:
+    long: 1 Солунјани
+  2Thess:
+    long: 2 Солунјани
+  1Tim:
+    long: 1 Тимотеј
+  2Tim:
+    long: 2 Тимотеј
+  Titus:
+    long: Тит
+  Phlm:
+    long: Филимон
+  Heb:
+    long: Евреи
+  Jas:
+    long: Јаков
+  1Pet:
+    long: 1 Петар
+  2Pet:
+    long: 2 Петар
+  1John:
+    long: 1 Јован
+  2John:
+    long: 2 Јован
+  3John:
+    long: 3 Јован
+  Jude:
+    long: Јуда
+  Rev:
+    long: Откровение
+  Tob:
+    long: Tob
+  Jdt:
+    long: Jdt
+  GkEsth:
+    long: GkEsth
+  Wis:
+    long: Книга Мудрост Соломонова
+  Sir:
+    long: Sir
+  Bar:
+    long: Bar
+  PrAzar:
+    long: PrAzar
+  Sus:
+    long: Sus
+  Bel:
+    long: Bel
+  SgThree:
+    long: SgThree
+  EpJer:
+    long: EpJer
+  1Macc:
+    long: 1Macc
+  2Macc:
+    long: 2Macc
+  3Macc:
+    long: 3Macc
+  4Macc:
+    long: 4Macc
+  1Esd:
+    long: 1Esd
+  2Esd:
+    long: 2Esd
+  PrMan:
+    long: PrMan

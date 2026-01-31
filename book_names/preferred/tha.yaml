@@ -1,0 +1,235 @@
+default:
+  Gen:
+    long: ปฐมกาล
+    short: ปฐก
+  Exod:
+    long: อพยพ
+    short: อพย
+  Lev:
+    long: เลวีนิติ
+    short: ลนต
+  Num:
+    long: กันดารวิถี
+    short: กดว
+  Deut:
+    long: เฉลยธรรมบัญญัติ
+    short: ฉธบ
+  Josh:
+    long: โยชูวา
+    short: ยชว
+  Judg:
+    long: ผู้วินิจฉัย
+    short: วนฉ
+  Ruth:
+    long: นางรูธ
+    short: นรธ
+  1Sam:
+    long: 1 ซามูเอล
+    short: 1 ซมอ
+  2Sam:
+    long: 2 ซามูเอล
+    short: 2 ซมอ
+  1Kgs:
+    long: 1 พงศ์กษัตริย์
+    short: 1 พกษ
+  2Kgs:
+    long: 2 พงศ์กษัตริย์
+    short: 2 พกษ
+  1Chr:
+    long: 1 พงศาวดาร
+    short: 1 พศด
+  2Chr:
+    long: 2 พงศาวดาร
+    short: 2 พศด
+  Ezra:
+    long: เอสรา
+    short: อสร
+  Neh:
+    long: เนหะมีย์
+    short: นหม
+  Esth:
+    long: เอสเธอร์
+    short: อสธ
+  Job:
+    long: โยบ
+    short: โยบ
+  Ps:
+    long: เพลงสดุดี
+    short: สดด
+  Prov:
+    long: สุภาษิต
+    short: สภษ
+  Eccl:
+    long: ปัญญาจารย์
+    short: ปญจ
+  Song:
+    long: เพลงซาโลมอน
+    short: พซม
+  Isa:
+    long: อิสยาห์
+    short: อสย
+  Jer:
+    long: เยเรมีย์
+    short: ยรม
+  Lam:
+    long: เพลงคร่ำครวญ
+    short: พคค
+  Ezek:
+    long: เอเสเคียล
+    short: อสค
+  Dan:
+    long: ดาเนียล
+    short: ดนล
+  Hos:
+    long: โฮเชยา
+    short: ฮชย
+  Joel:
+    long: โยเอล
+    short: ยอล
+  Amos:
+    long: อาโมส
+    short: อมส
+  Obad:
+    long: โอบาดีย์
+    short: อบด
+  Jonah:
+    long: โยนาห์
+    short: ยนา
+  Mic:
+    long: มีคาห์
+    short: มคา
+  Nah:
+    long: นาฮูม
+    short: นฮม
+  Hab:
+    long: ฮาบากุก
+    short: ฮบก
+  Zeph:
+    long: เศฟันยาห์
+    short: ศฟย
+  Hag:
+    long: ฮักกัย
+    short: ฮกก
+  Zech:
+    long: เศคาริยาห์
+    short: ศคย
+  Mal:
+    long: มาลาคี
+    short: มลค
+  Matt:
+    long: มัทธิว
+    short: มธ
+  Mark:
+    long: มาระโก
+    short: มก
+  Luke:
+    long: ลูกา
+    short: ลก
+  John:
+    long: ยอห์น
+    short: ยน
+  Acts:
+    long: กิจการ
+    short: กจ
+  Rom:
+    long: โรม
+    short: รม
+  1Cor:
+    long: 1 โครินธ์
+    short: 1 คร
+  2Cor:
+    long: 2 โครินธ์
+    short: 2 คร
+  Gal:
+    long: กาลาเทีย
+    short: กท
+  Eph:
+    long: เอเฟซัส
+    short: อฟ
+  Phil:
+    long: ฟีลิปปี
+    short: ฟป
+  Col:
+    long: โคโลสี
+    short: คส
+  1Thess:
+    long: 1 เธสะโลนิกา
+    short: 1 ธส
+  2Thess:
+    long: 2 เธสะโลนิกา
+    short: 2 ธส
+  1Tim:
+    long: 1 ทิโมธี
+    short: 1 ทธ
+  2Tim:
+    long: 2 ทิโมธี
+    short: 2 ทธ
+  Titus:
+    long: ทิตัส
+    short: ทต
+  Phlm:
+    long: ฟีเลโมน
+    short: ฟม
+  Heb:
+    long: ฮีบรู
+    short: ฮบ
+  Jas:
+    long: ยากอบ
+    short: ยบ
+  1Pet:
+    long: 1 เปโตร
+    short: 1 ปต
+  2Pet:
+    long: 2 เปโตร
+    short: 2 ปต
+  1John:
+    long: 1 ยอห์น
+    short: 1 ยน
+  2John:
+    long: 2 ยอห์น
+    short: 2 ยน
+  3John:
+    long: 3 ยอห์น
+    short: 3 ยน
+  Jude:
+    long: ยูดา
+    short: ยด
+  Rev:
+    long: วิวรณ์
+    short: วว
+  Tob:
+    long: โทบิต
+  Jdt:
+    long: ยูดิธ
+  GkEsth:
+    long: GkEsth
+  Wis:
+    long: ปรีชาญาณ
+  Sir:
+    long: บุตรสิรา
+  Bar:
+    long: บารุค
+  PrAzar:
+    long: PrAzar
+  Sus:
+    long: Sus
+  Bel:
+    long: Bel
+  SgThree:
+    long: SgThree
+  EpJer:
+    long: EpJer
+  1Macc:
+    long: 1 มัคคาบี
+  2Macc:
+    long: 2 มัคคาบี
+  3Macc:
+    long: 3 มัคคาบี
+  4Macc:
+    long: 4 มัคคาบี
+  1Esd:
+    long: 1Esd
+  2Esd:
+    long: 2Esd
+  PrMan:
+    long: PrMan

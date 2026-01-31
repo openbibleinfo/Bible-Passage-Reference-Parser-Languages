@@ -1,0 +1,253 @@
+default:
+  Gen:
+    long: Kejadian
+    short: Kej
+  Exod:
+    long: Keluaran
+    short: Kel
+  Lev:
+    long: Imamat
+    short: Im
+  Num:
+    long: Bilangan
+    short: Bil
+  Deut:
+    long: Ulangan
+    short: Ul
+  Josh:
+    long: Yosua
+    short: Yos
+  Judg:
+    long: Hakim-hakim
+    short: Hak
+  Ruth:
+    long: Rut
+    short: Rut
+  1Sam:
+    long: 1 Samuel
+    short: 1 Sam
+  2Sam:
+    long: 2 Samuel
+    short: 2 Sam
+  1Kgs:
+    long: 1 Raja-raja
+    short: 1 Raj
+  2Kgs:
+    long: 2 Raja-raja
+    short: 2 Raj
+  1Chr:
+    long: 1 Tawarikh
+    short: 1 Tawh
+  2Chr:
+    long: 2 Tawarikh
+    short: 2 Tawh
+  Ezra:
+    long: Ezra
+    short: Ezr
+  Neh:
+    long: Nehemia
+    short: Neh
+  Esth:
+    long: Ester
+    short: Est
+  Job:
+    long: Ayub
+    short: Ayb
+  Ps:
+    long: Mazmur
+    short: Mzm
+  Prov:
+    long: Amsal
+    short: Ams
+  Eccl:
+    long: Pengkhotbah
+    short: Pkh
+  Song:
+    long: Kidung Agung
+    short: Kid
+  Isa:
+    long: Yesaya
+    short: Yes
+  Jer:
+    long: Yeremia
+    short: Yer
+  Lam:
+    long: Ratapan
+    short: Rat
+  Ezek:
+    long: Yehezkiel
+    short: Yeh
+  Dan:
+    long: Daniel
+    short: Dan
+  Hos:
+    long: Hosea
+    short: Hos
+  Joel:
+    long: Yoël
+    short: Yl
+  Amos:
+    long: Amos
+    short: Am
+  Obad:
+    long: Obaja
+    short: Ob
+  Jonah:
+    long: Yunus
+    short: Yun
+  Mic:
+    long: Mikha
+    short: Mi
+  Nah:
+    long: Nahum
+    short: Nah
+  Hab:
+    long: Habakuk
+    short: Hab
+  Zeph:
+    long: Zefanya
+    short: Zef
+  Hag:
+    long: Hagai
+    short: Hag
+  Zech:
+    long: Zakharia
+    short: Za
+  Mal:
+    long: Maleakhi
+    short: Mal
+  Matt:
+    long: Matius
+    short: Mat
+  Mark:
+    long: Markus
+    short: Mrk
+  Luke:
+    long: Lukas
+    short: Luk
+  John:
+    long: Yohanes
+    short: Yoh
+  Acts:
+    long: Kisah Para Rasul
+    short: Kis
+  Rom:
+    long: Roma
+    short: Rm
+  1Cor:
+    long: 1 Korintus
+    short: 1 Kor
+  2Cor:
+    long: 2 Korintus
+    short: 2 Kor
+  Gal:
+    long: Galatia
+    short: Gal
+  Eph:
+    long: Efesus
+    short: Ef
+  Phil:
+    long: Filipi
+    short: Flp
+  Col:
+    long: Kolose
+    short: Kol
+  1Thess:
+    long: 1 Tesalonika
+    short: 1 Tes
+  2Thess:
+    long: 2 Tesalonika
+    short: 2 Tes
+  1Tim:
+    long: 1 Timotius
+    short: 1 Tim
+  2Tim:
+    long: 2 Timotius
+    short: 2 Tim
+  Titus:
+    long: Titus
+    short: Tit
+  Phlm:
+    long: Filemon
+    short: Flm
+  Heb:
+    long: Ibrani
+    short: Ibr
+  Jas:
+    long: Yakobus
+    short: Yak
+  1Pet:
+    long: 1 Petrus
+    short: 1 Ptr
+  2Pet:
+    long: 2 Petrus
+    short: 2 Ptr
+  1John:
+    long: 1 Yohanes
+    short: 1 Yoh
+  2John:
+    long: 2 Yohanes
+    short: 2 Yoh
+  3John:
+    long: 3 Yohanes
+    short: 3 Yoh
+  Jude:
+    long: Yudas
+    short: Yud
+  Rev:
+    long: Wahyu
+    short: Why
+  Tob:
+    long: Tobit
+    short: Tob
+  Jdt:
+    long: Yudit
+    short: Ydt
+  GkEsth:
+    long: Ester Yunani
+    short: Est Yun
+  Wis:
+    long: Kebijaksanaan
+    short: Keb
+  Sir:
+    long: Sirakh
+    short: Sir
+  Bar:
+    long: Barukh
+    short: Bar
+  PrAzar:
+    long: Doa Azarya
+    short: Doa Az
+  Sus:
+    long: Susana
+    short: Sus
+  Bel:
+    long: Dewa Bel dan Naga Babel
+    short: Bel
+  SgThree:
+    long: Lagu Pujian Ketiga Pemuda
+    short: Lagu Pemuda
+  EpJer:
+    long: Surat Yeremia
+    short: Sur Yer
+  1Macc:
+    long: 1 Makabe
+    short: 1 Mak
+  2Macc:
+    long: 2 Makabe
+    short: 2 Mak
+  3Macc:
+    long: 3 Makabe
+    short: 3 Mak
+  4Macc:
+    long: 4 Makabe
+    short: 4 Mak
+  1Esd:
+    long: 1 Esdras
+    short: 1 Esd
+  2Esd:
+    long: 2 Esdras
+    short: 2 Esd
+  PrMan:
+    long: Doa Manasye
+    short: Doa Man

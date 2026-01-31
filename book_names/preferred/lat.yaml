@@ -1,0 +1,250 @@
+default:
+  Gen:
+    long: Genesis
+    short: Gen
+  Exod:
+    long: Exodus
+    short: Ex
+  Lev:
+    long: Leviticus
+    short: Lev
+  Num:
+    long: Numeri
+    short: Num
+  Deut:
+    long: Deuteronomium
+    short: Deut
+  Josh:
+    long: Iosue
+    short: Ios
+  Judg:
+    long: Iudicum
+    short: Iud
+  Ruth:
+    long: Ruth
+    short: Rut
+  1Sam:
+    long: I Samuelis
+    short: I Sam
+  2Sam:
+    long: II Samuelis
+    short: II Sam
+  1Kgs:
+    long: I Regum
+    short: I Reg
+  2Kgs:
+    long: II Regum
+    short: II Reg
+  1Chr:
+    long: I Paralipomenon
+    short: I Par
+  2Chr:
+    long: II Paralipomenon
+    short: II Par
+  Ezra:
+    long: Esdrae
+    short: Esd
+  Neh:
+    long: Nehemiae
+    short: Neh
+  Esth:
+    long: Esther
+    short: Est
+  Job:
+    long: Iob
+    short: Iob
+  Ps:
+    long: Psalmi
+    long_single: Psalmus
+    short: Ps
+  Prov:
+    long: Proverbia
+    short: Pro
+  Eccl:
+    long: Ecclesiastes
+    short: Ec
+  Song:
+    long: Canticum Canticorum
+    short: Can
+  Isa:
+    long: Isaias
+    short: Isa
+  Jer:
+    long: Ieremias
+    short: Ier
+  Lam:
+    long: Lamentationes
+    short: Lam
+  Ezek:
+    long: Ezechiel
+    short: Eze
+  Dan:
+    long: Daniel
+    short: Dan
+  Hos:
+    long: Osee
+    short: Os
+  Joel:
+    long: Ioel
+    short: Ioel
+  Amos:
+    long: Amos
+    short: Amos
+  Obad:
+    long: Abdias
+    short: Abd
+  Jonah:
+    long: Ionas
+    short: Iona
+  Mic:
+    long: Michaeas
+    short: Mic
+  Nah:
+    long: Nahum
+    short: Nah
+  Hab:
+    long: Habacuc
+    short: Hab
+  Zeph:
+    long: Sophonias
+    short: Soph
+  Hag:
+    long: Aggaeus
+    short: Ag
+  Zech:
+    long: Zacharias
+    short: Zac
+  Mal:
+    long: Malachias
+    short: Mal
+  Matt:
+    long: Matthaeus
+    short: Matt
+  Mark:
+    long: Marcus
+    short: Marc
+  Luke:
+    long: Lucas
+    short: Luc
+  John:
+    long: Ioannes
+    short: Ioan
+  Acts:
+    long: Actus Apostolorum
+    short: Actus
+  Rom:
+    long: Romanos
+    short: Rom
+  1Cor:
+    long: I Corinthios
+    short: I Corinthios
+  2Cor:
+    long: II Corinthios
+    short: II Corinthios
+  Gal:
+    long: Galatas
+    short: Gal
+  Eph:
+    long: Ephesios
+    short: Eph
+  Phil:
+    long: Philippenses
+    short: Phil
+  Col:
+    long: Colossenses
+    short: Col
+  1Thess:
+    long: I Thessalonicenses
+    short: I Thessalonicenses
+  2Thess:
+    long: II Thessalonicenses
+    short: II Thessalonicenses
+  1Tim:
+    long: I Timotheum
+    short: I Timotheum
+  2Tim:
+    long: II Timotheum
+    short: II Timotheum
+  Titus:
+    long: Titum
+    short: Tit
+  Phlm:
+    long: Philemonem
+    short: Phmn
+  Heb:
+    long: Hebraeos
+    short: Heb
+  Jas:
+    long: Iacobi
+  1Pet:
+    long: I Petri
+    short: I Pet
+  2Pet:
+    long: II Petri
+    short: II Pet
+  1John:
+    long: I Ioannis
+    short: I In
+  2John:
+    long: II Ioannis
+    short: II In
+  3John:
+    long: III Ioannis
+    short: III In
+  Jude:
+    long: Iudae
+  Rev:
+    long: Apocalypsis
+    short: Ap
+  Tob:
+    long: Tobiae
+    short: Tob
+  Jdt:
+    long: Iudith
+    short: Idt
+  GkEsth:
+    long: Esther graeca
+  Wis:
+    long: Sapientia
+    short: Sap
+  Sir:
+    long: Ecclesiasticus
+    short: Sir
+  Bar:
+    long: Baruch
+    short: Bar
+  PrAzar:
+    long: Oratio Azariae
+    short: Or Azar
+  Sus:
+    long: Susannae
+    short: Sus
+  Bel:
+    long: Bel et draconis
+    short: Bel
+  SgThree:
+    long: Hymnus trium puerorum
+  EpJer:
+    long: Oratio Ieremiae
+    short: Or Ier
+  1Macc:
+    long: I Macabaeorum
+    short: I Mac
+  2Macc:
+    long: II Macabaeorum
+    short: II Mac
+  3Macc:
+    long: III Macabaeorum
+    short: III Mac
+  4Macc:
+    long: IV Macabaeorum
+    short: IV Mac
+  1Esd:
+    long: I Esdrae
+    short: I Esd
+  2Esd:
+    long: II Esdrae
+    short: II Esd
+  PrMan:
+    long: Oratio Manassae
+    short: Or Man

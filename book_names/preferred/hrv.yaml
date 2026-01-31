@@ -1,0 +1,245 @@
+default:
+  Gen:
+    long: Postanak
+    short: Postanak
+  Exod:
+    long: Izlazak
+    short: Izl
+  Lev:
+    long: Levitski zakonik
+    short: Lev
+  Num:
+    long: Brojevi
+    short: Brojevi
+  Deut:
+    long: Ponovljeni zakon
+    short: Pnz
+  Josh:
+    long: Jošua
+    short: Jš
+  Judg:
+    long: Knjiga o Sucima
+    short: Suci
+  Ruth:
+    long: Ruta
+    short: Rut
+  1Sam:
+    long: Prva knjiga o Samuelu
+    short: 1 Sam
+  2Sam:
+    long: Druga knjiga o Samuelu
+    short: 2 Sam
+  1Kgs:
+    long: Prva knjiga o Kraljevima
+    short: 1 Kr
+  2Kgs:
+    long: Druga knjiga o Kraljevima
+    short: 2 Kr
+  1Chr:
+    long: Prva knjiga Ljetopisa
+    short: 1 Ljet
+  2Chr:
+    long: Druga knjiga Ljetopisa
+    short: 2 Ljet
+  Ezra:
+    long: Ezra
+    short: Ezr
+  Neh:
+    long: Nehemija
+    short: Neh
+  Esth:
+    long: Estera
+    short: Est
+  Job:
+    long: Job
+    short: Job
+  Ps:
+    long: Psalmi
+    long_single: Psalam
+    short: Ps
+  Prov:
+    long: Mudre izreke
+    short: Izr
+  Eccl:
+    long: Propovjednik
+    short: Prop
+  Song:
+    long: Pjesma nad pjesmama
+    short: Pj
+  Isa:
+    long: Izaija
+    short: Iz
+  Jer:
+    long: Jeremija
+    short: Jr
+  Lam:
+    long: Tužaljke
+    short: Tuž
+  Ezek:
+    long: Ezekiel
+    short: Ez
+  Dan:
+    long: Daniel
+    short: Dn
+  Hos:
+    long: Hošea
+    short: Hoš
+  Joel:
+    long: Joel
+    short: Jl
+  Amos:
+    long: Amos
+    short: Am
+  Obad:
+    long: Obadija
+    short: Ob
+  Jonah:
+    long: Jona
+    short: Jon
+  Mic:
+    long: Mihej
+    short: Mih
+  Nah:
+    long: Nahum
+    short: Nah
+  Hab:
+    long: Habakuk
+    short: Hab
+  Zeph:
+    long: Sefanija
+    short: Sef
+  Hag:
+    long: Hagaj
+    short: Hag
+  Zech:
+    long: Zaharija
+    short: Zah
+  Mal:
+    long: Malahija
+    short: Mal
+  Matt:
+    long: Matej
+    short: Mt
+  Mark:
+    long: Marko
+    short: Mk
+  Luke:
+    long: Luka
+    short: Lk
+  John:
+    long: Ivan
+    short: Iv
+  Acts:
+    long: Djela apostolska
+    short: Dj
+  Rom:
+    long: Rimljanima
+    short: Rim
+  1Cor:
+    long: 1 Korinćanima
+    short: 1 Kor
+  2Cor:
+    long: 2 Korinćanima
+    short: 2 Kor
+  Gal:
+    long: Galaćanima
+    short: Gal
+  Eph:
+    long: Efežanima
+    short: Ef
+  Phil:
+    long: Filipljanima
+    short: Fil
+  Col:
+    long: Kološanima
+    short: Kol
+  1Thess:
+    long: 1 Solunjanima
+    short: 1 Sol
+  2Thess:
+    long: 2 Solunjanima
+    short: 2 Sol
+  1Tim:
+    long: 1 Timoteju
+    short: 1 Tim
+  2Tim:
+    long: 2 Timoteju
+    short: 2 Tim
+  Titus:
+    long: Titu
+    short: Tit
+  Phlm:
+    long: Filemonu
+    short: Flm
+  Heb:
+    long: Hebrejima
+    short: Heb
+  Jas:
+    long: Jakovljeva
+    short: Jak
+  1Pet:
+    long: 1 Petrova
+    short: 1 Pt
+  2Pet:
+    long: 2 Petrova
+    short: 2 Pt
+  1John:
+    long: 1 Ivanova
+    short: 1 Iv
+  2John:
+    long: 2 Ivanova
+    short: 2 Iv
+  3John:
+    long: 3 Ivanova
+    short: 3 Iv
+  Jude:
+    long: Judina
+    short: Jd
+  Rev:
+    long: Otkrivenje
+    short: Otk
+  Tob:
+    long: Tobija
+    short: Tob
+  Jdt:
+    long: Judita
+    short: Jdt
+  GkEsth:
+    long: GkEsth
+  Wis:
+    long: Knjiga Mudrosti
+    short: Mudr
+  Sir:
+    long: Knjiga Sirahova
+    short: Sir
+  Bar:
+    long: Baruh
+    short: Bar
+  PrAzar:
+    long: PrAzar
+  Sus:
+    long: Suzana
+    short: Suz
+  Bel:
+    long: Bel
+  SgThree:
+    long: SgThree
+  EpJer:
+    long: Pismo Jeremije proroka
+  1Macc:
+    long: Prva knjiga o Makabejcima
+    short: 1 Mak
+  2Macc:
+    long: Druga knjiga o Makabejcima
+    short: 2 Mak
+  3Macc:
+    long: Treća knjiga o Makabejcima
+    short: 3 Mak
+  4Macc:
+    long: 4 Mak
+  1Esd:
+    long: 1Esd
+  2Esd:
+    long: 2Esd
+  PrMan:
+    long: PrMan

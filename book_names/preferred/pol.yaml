@@ -1,0 +1,245 @@
+default:
+  Gen:
+    long: Księga Rodzaju
+    short: Rdz
+  Exod:
+    long: Księga Wyjścia
+    short: Wj
+  Lev:
+    long: Księga Kapłańska
+    short: Kpł
+  Num:
+    long: Księga Liczb
+    short: Lb
+  Deut:
+    long: Księga Powtórzonego Prawa
+    short: Pwt
+  Josh:
+    long: Jozuego
+    short: Joz
+  Judg:
+    long: Sędziów
+    short: Sdz
+  Ruth:
+    long: Rut
+    short: Rt
+  1Sam:
+    long: 1 Samuelowa
+    short: 1 Sm
+  2Sam:
+    long: 2 Samuelowa
+    short: 2 Sm
+  1Kgs:
+    long: 1 Królewska
+    short: 1 Krl
+  2Kgs:
+    long: 2 Królewska
+    short: 2 Krl
+  1Chr:
+    long: 1 Kronik
+    short: 1 Krn
+  2Chr:
+    long: 2 Kronik
+    short: 2 Krn
+  Ezra:
+    long: Ezdrasza
+    short: Ezd
+  Neh:
+    long: Nehemiasza
+    short: Ne
+  Esth:
+    long: Estery
+    short: Est
+  Job:
+    long: Joba
+    short: Hi
+  Ps:
+    long: Psalmy
+    long_single: Psalm
+    short: Ps
+  Prov:
+    long: Księga Przysłów
+    short: Prz
+  Eccl:
+    long: Księga Koheleta
+    short: Koh
+  Song:
+    long: Pieśń nad Pieśniami
+    short: Pnp
+  Isa:
+    long: Izajasza
+    short: Iz
+  Jer:
+    long: Jeremiasza
+    short: Jr
+  Lam:
+    long: Treny
+    short: Lm
+  Ezek:
+    long: Ezechiela
+    short: Ez
+  Dan:
+    long: Daniela
+    short: Dn
+  Hos:
+    long: Ozeasza
+    short: Oz
+  Joel:
+    long: Joela
+    short: Jl
+  Amos:
+    long: Amosa
+    short: Am
+  Obad:
+    long: Abdiasza
+    short: Ab
+  Jonah:
+    long: Jonasza
+    short: Jon
+  Mic:
+    long: Micheasza
+    short: Mi
+  Nah:
+    long: Nahuma
+    short: Na
+  Hab:
+    long: Abakuka
+    short: Ha
+  Zeph:
+    long: Sofoniasza
+    short: So
+  Hag:
+    long: Aggeusza
+    short: Ag
+  Zech:
+    long: Zachariasza
+    short: Za
+  Mal:
+    long: Malachiasza
+    short: Ml
+  Matt:
+    long: Ewangelia Mateusza
+    short: Mt
+  Mark:
+    long: Ewangelia Marka
+    short: Mk
+  Luke:
+    long: Ewangelia Łukasza
+    short: Łk
+  John:
+    long: Ewangelia Jana
+    short: J
+  Acts:
+    long: Dzieje Apostolskie
+    short: Dz
+  Rom:
+    long: Rzymian
+    short: Rz
+  1Cor:
+    long: 1 Koryntów
+    short: 1 Kor
+  2Cor:
+    long: 2 Koryntów
+    short: 2 Kor
+  Gal:
+    long: Galatów
+    short: Ga
+  Eph:
+    long: Efezów
+    short: Ef
+  Phil:
+    long: Filipensów
+    short: Flp
+  Col:
+    long: Kolosensów
+    short: Kol
+  1Thess:
+    long: 1 Tesalonicensów
+    short: 1 Tes
+  2Thess:
+    long: 2 Tesalonicensów
+    short: 2 Tes
+  1Tim:
+    long: 1 Tymoteusza
+    short: 1 Tm
+  2Tim:
+    long: 2 Tymoteusza
+    short: 2 Tm
+  Titus:
+    long: Tytusa
+    short: Tt
+  Phlm:
+    long: Filemona
+    short: Flm
+  Heb:
+    long: Żydów
+    short: Hbr
+  Jas:
+    long: Jakuba
+    short: Jk
+  1Pet:
+    long: 1 Piotra
+    short: 1 P
+  2Pet:
+    long: 2 Piotra
+    short: 2 P
+  1John:
+    long: 1 Jana
+    short: 1 J
+  2John:
+    long: 2 Jana
+    short: 2 J
+  3John:
+    long: 3 Jana
+    short: 3 J
+  Jude:
+    long: Judy
+    short: Jud
+  Rev:
+    long: Apokalipsa św. Jana
+    short: Ap
+  Tob:
+    long: Księga Tobiasza
+    short: Tb
+  Jdt:
+    long: Księga Judyty
+    short: Jdt
+  GkEsth:
+    long: GkEsth
+  Wis:
+    long: Księga Mądrości
+    short: Mdr
+  Sir:
+    long: Mądrość Syracha
+    short: Syr
+  Bar:
+    long: Księga Barucha
+    short: Ba
+  PrAzar:
+    long: Modlitwą Azariasza
+  Sus:
+    long: Opowiadaniem o Zuzannie
+  Bel:
+    long: Opowiadaniem o Belu i wężu
+  SgThree:
+    long: Pieśnią trzech młodzieńców
+  EpJer:
+    long: List Jeremiasza
+  1Macc:
+    long: 1 Księga Machabejska
+    short: 1 Mch
+  2Macc:
+    long: 2 Księga Machabejska
+    short: 2 Mch
+  3Macc:
+    long: 3 Księga Machabejska
+    short: 3 Mch
+  4Macc:
+    long: 4 Księga Machabejska
+    short: 4 Mch
+  1Esd:
+    long: 1 Księga Ezdrasza
+  2Esd:
+    long: 2 Księga Ezdrasza
+  PrMan:
+    long: Modlitwa Manassesa
