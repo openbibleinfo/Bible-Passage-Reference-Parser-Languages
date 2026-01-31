@@ -3,12 +3,17 @@
     - בראשית
     - בריאה
     - Gen
+    - Bereshit
+    - Bereishith
+    - Bereshis
 - osis: Exod
   texts:
     - יציאת מצרים
     - יציאה
     - Exod
     - שמות
+    - Shemot
+    - Shemoth
 - osis: Bel
   texts:
     - בל והדרקון
@@ -19,12 +24,15 @@
     - ספר הלוויים
     - ויקרא
     - Lev
+    - Vayikra
+    - Vayiqra
 - osis: Num
   texts:
     - במדבר
     - מניין
     - ספירה
     - Num
+    - Bamidbar
 - osis: Sir
   texts:
     - משלי בן סירא
@@ -40,6 +48,9 @@
     - קינות
     - איכה
     - Lam
+    - Eichah
+    - Eikhah
+    - Ekhah
 - osis: EpJer
   texts:
     - איגרת ירמיהו
@@ -50,6 +61,7 @@
     - ההתגלות
     - התגלות
     - Rev
+    - Hisgalus
 - osis: PrMan
   texts:
     - תפילת מנשה
@@ -59,18 +71,23 @@
     - משנה תורה
     - דברים
     - Deut
+    - Devarim
 - osis: Josh
   texts:
     - יהושע
     - Josh
+    - Yehoshua
 - osis: Judg
   texts:
     - שופטים
     - Judg
+    - Shoftim
+    - Shofetim
 - osis: Ruth
   texts:
     - Ruth
     - רות
+    - Rut
 - osis: 1Esd
   texts:
     - חזון עזרא
@@ -85,36 +102,52 @@
     - ישעיה
     - ישעה
     - Isa
+    - Yeshayahu
+    - Yeshayah
 - osis: 2Sam
   texts:
     - שמואל ב'
     - שמואל ב
     - 2Sam
+    - Shmuel II
+    - Shmuel Bais
 - osis: 1Sam
   texts:
     - שמואל א'
     - שמואל א
     - 1Sam
+    - Shmuel I
+    - Shmuel Alef
 - osis: 2Kgs
   texts:
     - מלכים ב'
     - מלכים ב
     - 2Kgs
+    - Melachim II
+    - Melakhim II
+    - Melachim Bais
 - osis: 1Kgs
   texts:
     - מלכים א'
     - מלכים א
     - 1Kgs
+    - Melachim I
+    - Melakhim I
+    - Melachim Alef
 - osis: 2Chr
   texts:
     - דברי הימים ב'
     - דברי הימים ב
     - 2Chr
+    - Divrei Hayamim II
+    - Divrey Hayamim Bais
 - osis: 1Chr
   texts:
     - דברי הימים א'
     - דברי הימים א
     - 1Chr
+    - Divrei Hayamim I
+    - Divrey Hayamim Alef
 - osis: Ezra
   texts:
     - Ezra
@@ -123,6 +156,8 @@
   texts:
     - נחמיה
     - Neh
+    - Nechemiah
+    - Nechemyah
 - osis: GkEsth
   texts:
     - תוספות למגילת אסתר
@@ -132,15 +167,18 @@
     - אסתר, כולל פרקים גנוזים
     - Esth
     - אסתר
+    - Esther
 - osis: Job
   texts:
     - איוב
     - Job
+    - Iyov
 - osis: Ps
   texts:
     - מזמורים
     - תהילים
     - Ps
+    - Tehillim
 - osis: PrAzar
   texts:
     - תפילת עזריה בתוך הכבשן
@@ -152,12 +190,16 @@
     - משלים
     - Prov
     - משלי
+    - Mishlei
+    - Mishle
 - osis: Eccl
   texts:
     - המקהיל
     - המרצה
     - Eccl
     - קהלת
+    - Kohelet
+    - Qoheleth
 - osis: SgThree
   texts:
     - שירת שלושת הנערים בכבשן
@@ -167,27 +209,37 @@
     - שיר השירים
     - שירי שלמה
     - Song
+    - Shir Hashirim
+    - Shir Ha-Shirim
 - osis: Jer
   texts:
     - ירמיהו
     - ירמיה
     - Jer
+    - Yirmiyahu
+    - Yirmyah
+    - Yirmeyah
 - osis: Ezek
   texts:
     - יחזקאל
     - Ezek
+    - Yechezqel
+    - Yechezkel
 - osis: Dan
   texts:
     - דניאל
     - Dan
+    - Daniel
 - osis: Hos
   texts:
     - הושע
     - Hos
+    - Hoshea
 - osis: Joel
   texts:
     - Joel
     - יואל
+    - Yoel
 - osis: Amos
   texts:
     - Amos
@@ -197,38 +249,54 @@
     - עובדיה
     - עבדיה
     - Obad
+    - Ovadiah
+    - Ovadyah
 - osis: Jonah
   texts:
     - Jonah
     - יונה
+    - Yonah
 - osis: Mic
   texts:
     - מיכה
     - Mic
+    - Michah
+    - Mikhah
+    - Michoh
 - osis: Nah
   texts:
     - נחום
     - Nah
+    - Nachum
 - osis: Hab
   texts:
     - חבקוק
     - Hab
+    - Chavakuk
+    - Chavaqquq
+    - Chabakuk
 - osis: Zeph
   texts:
     - צפניה
     - Zeph
+    - Tzefaniah
+    - Tzefanyah
 - osis: Hag
   texts:
     - Hag
     - חגי
+    - Chaggai
 - osis: Zech
   texts:
     - זכריה
     - Zech
+    - Zechariah
+    - Zecharyah
 - osis: Mal
   texts:
     - מלאכי
     - Mal
+    - Malachi
 - osis: Matt
   texts:
     - הבשורה הקדושה על-פי מתי
@@ -237,12 +305,14 @@
     - הבשורה לפי מתי
     - Matt
     - מתי
+    - Mattityahu
 - osis: Mark
   texts:
     - הבשורה על פי מרקוס
     - הבשורה על-פי מרקוס
     - מרקוס
     - Mark
+    - Markos
 - osis: Luke
   texts:
     - הבשורה על-פי לוקאס
@@ -250,6 +320,7 @@
     - הבשורה על-פי לוקס
     - Luke
     - לוקס
+    - Lukas
 - osis: 1John
   texts:
     - אגרתו הראשונה של יוחנן השליח
@@ -257,12 +328,14 @@
     - איגרת יוחנן הראשונה
     - הראשונה יוחנן
     - 1John
+    - Yochanan I
 - osis: 2John
   texts:
     - אגרתו השנייה של יוחנן השליח
     - איגרת יוחנן השנייה
     - השנייה יוחנן
     - 2John
+    - Yochanan II
 - osis: 3John
   texts:
     - אגרתו השלישית של יוחנן השליח
@@ -270,16 +343,19 @@
     - איגרת יוחנן השלישית
     - השלישית יוחנן
     - 3John
+    - Yochanan III
 - osis: John
   texts:
     - הבשורה על פי יוחנן
     - הבשורה על-פי יוחנן
     - יוחנן
     - John
+    - Yochanan
 - osis: Acts
   texts:
     - מעשי השליחים
     - Acts
+    - Gevurot
 - osis: Rom
   texts:
     - אגרת פולוס השליח אל-הרומיים
@@ -288,6 +364,7 @@
     - אל הרומיים
     - אל הרומים
     - Rom
+    - Kehillah in Rome
 - osis: 2Cor
   texts:
     - אגרת פולוס השנייה אל-הקורנתים
@@ -296,6 +373,7 @@
     - השנייה אל הקורינתים
     - השנייה אל הקורנתים
     - 2Cor
+    - Kehillah in Corinth II
 - osis: 1Cor
   texts:
     - אגרת פולוס הראשונה אל-הקורנתים
@@ -304,12 +382,14 @@
     - הראשונה אל הקורינתים
     - הראשונה אל הקורנתים
     - 1Cor
+    - Kehillah in Corinth I
 - osis: Gal
   texts:
     - אגרת פולוס השליח אל-הגלטים
     - האיגרת אל הגלטים
     - אל הגלטים
     - Gal
+    - Kehillah in Galatia
 - osis: Eph
   texts:
     - אגרת פולוס השליח אל האפסיים
@@ -318,6 +398,7 @@
     - השליח אל האפסיים
     - אל האפסים
     - Eph
+    - Kehillah in Ephesus
 - osis: Phil
   texts:
     - אגרת פולוס השליח אל-הפיליפיים
@@ -326,6 +407,7 @@
     - אל הפיליפיים
     - אל הפיליפים
     - Phil
+    - Kehillah in Philippi
 - osis: Col
   texts:
     - אגרת פולוס השליח אל-הקולוסים
@@ -333,6 +415,7 @@
     - האיגרת אל הקולוסים
     - אל הקולוסים
     - Col
+    - Kehillah in Colossae
 - osis: 2Thess
   texts:
     - אגרת פולוס השנייה אל-התסלוניקים
@@ -341,6 +424,7 @@
     - השנייה אל התסלוניקים
     - השנייה אל-התסלוניקים
     - 2Thess
+    - Kehillah in Thessalonika II
 - osis: 1Thess
   texts:
     - אגרת פולוס הראשונה אל-התסלוניקים
@@ -348,6 +432,7 @@
     - אגרת פולוס הראשונה אל-התסלו
     - הראשונה אל התסלוניקים
     - 1Thess
+    - Kehillah in Thessalonika I
 - osis: 2Tim
   texts:
     - אגרת פולוס השנייה אל-טימותיוס
@@ -356,6 +441,7 @@
     - השנייה אל טימותיאוס
     - השנייה אל טימותיוס
     - 2Tim
+    - Timotiyos II
 - osis: 1Tim
   texts:
     - אגרת פולוס הראשונה אל-טימותיוס
@@ -364,18 +450,21 @@
     - הראשונה אל טימותיאוס
     - הראשונה אל טימותיוס
     - 1Tim
+    - Timotiyos I
 - osis: Titus
   texts:
     - אגרת פולוס אל-טיטוס
     - האיגרת אל טיטוס
     - אל טיטוס
     - Titus
+    - Titos
 - osis: Phlm
   texts:
     - אגרת פולוס אל-פילימון
     - האיגרת אל פילימון
     - אל פילימון
     - Phlm
+    - Philemon
 - osis: Heb
   texts:
     - האיגרת אל העברים
@@ -383,18 +472,21 @@
     - האגרת אל-העברים
     - אל העברים
     - Heb
+    - Yehudim in Moshiach
 - osis: Jas
   texts:
     - איגרת יעקב
     - אגרת יעקב
     - יעקב
     - Jas
+    - Yaakov
 - osis: 2Pet
   texts:
     - אגרתו השנייה של פטרוס השליח
     - איגרת פטרוס השנייה
     - השנייה פטרוס
     - 2Pet
+    - Kefa II
 - osis: 1Pet
   texts:
     - אגרתו הראשונה של פטרוס השליח
@@ -402,12 +494,14 @@
     - איגרת פטרוס הראשונה
     - הראשונה פטרוס
     - 1Pet
+    - Kefa I
 - osis: Jude
   texts:
     - איגרת יהודה
     - אגרת יהודה
     - יהודה
     - Jude
+    - Yehuda
 - osis: Tob
   texts:
     - טוביה

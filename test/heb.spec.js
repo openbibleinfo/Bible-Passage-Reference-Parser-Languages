@@ -12,6 +12,9 @@ describe("Localized book Gen (heb)", () => {
 		expect(p.parse("בראשית 1:1").osis()).toEqual("Gen.1.1");
 		expect(p.parse("בריאה 1:1").osis()).toEqual("Gen.1.1");
 		expect(p.parse("Gen 1:1").osis()).toEqual("Gen.1.1");
+		expect(p.parse("Bereshit 1:1").osis()).toEqual("Gen.1.1");
+		expect(p.parse("Bereishith 1:1").osis()).toEqual("Gen.1.1");
+		expect(p.parse("Bereshis 1:1").osis()).toEqual("Gen.1.1");
 	});
 });
 describe("Localized book Exod (heb)", () => {
@@ -25,6 +28,8 @@ describe("Localized book Exod (heb)", () => {
 		expect(p.parse("יציאה 1:1").osis()).toEqual("Exod.1.1");
 		expect(p.parse("Exod 1:1").osis()).toEqual("Exod.1.1");
 		expect(p.parse("שמות 1:1").osis()).toEqual("Exod.1.1");
+		expect(p.parse("Shemot 1:1").osis()).toEqual("Exod.1.1");
+		expect(p.parse("Shemoth 1:1").osis()).toEqual("Exod.1.1");
 	});
 });
 describe("Localized book Bel (heb)", () => {
@@ -49,6 +54,8 @@ describe("Localized book Lev (heb)", () => {
 		expect(p.parse("ספר הלוויים 1:1").osis()).toEqual("Lev.1.1");
 		expect(p.parse("ויקרא 1:1").osis()).toEqual("Lev.1.1");
 		expect(p.parse("Lev 1:1").osis()).toEqual("Lev.1.1");
+		expect(p.parse("Vayikra 1:1").osis()).toEqual("Lev.1.1");
+		expect(p.parse("Vayiqra 1:1").osis()).toEqual("Lev.1.1");
 	});
 });
 describe("Localized book Num (heb)", () => {
@@ -62,6 +69,7 @@ describe("Localized book Num (heb)", () => {
 		expect(p.parse("מניין 1:1").osis()).toEqual("Num.1.1");
 		expect(p.parse("ספירה 1:1").osis()).toEqual("Num.1.1");
 		expect(p.parse("Num 1:1").osis()).toEqual("Num.1.1");
+		expect(p.parse("Bamidbar 1:1").osis()).toEqual("Num.1.1");
 	});
 });
 describe("Localized book Sir (heb)", () => {
@@ -98,6 +106,9 @@ describe("Localized book Lam (heb)", () => {
 		expect(p.parse("קינות 1:1").osis()).toEqual("Lam.1.1");
 		expect(p.parse("איכה 1:1").osis()).toEqual("Lam.1.1");
 		expect(p.parse("Lam 1:1").osis()).toEqual("Lam.1.1");
+		expect(p.parse("Eichah 1:1").osis()).toEqual("Lam.1.1");
+		expect(p.parse("Eikhah 1:1").osis()).toEqual("Lam.1.1");
+		expect(p.parse("Ekhah 1:1").osis()).toEqual("Lam.1.1");
 	});
 });
 describe("Localized book EpJer (heb)", () => {
@@ -122,6 +133,7 @@ describe("Localized book Rev (heb)", () => {
 		expect(p.parse("ההתגלות 1:1").osis()).toEqual("Rev.1.1");
 		expect(p.parse("התגלות 1:1").osis()).toEqual("Rev.1.1");
 		expect(p.parse("Rev 1:1").osis()).toEqual("Rev.1.1");
+		expect(p.parse("Hisgalus 1:1").osis()).toEqual("Rev.1.1");
 	});
 });
 describe("Localized book PrMan (heb)", () => {
@@ -145,6 +157,7 @@ describe("Localized book Deut (heb)", () => {
 		expect(p.parse("משנה תורה 1:1").osis()).toEqual("Deut.1.1");
 		expect(p.parse("דברים 1:1").osis()).toEqual("Deut.1.1");
 		expect(p.parse("Deut 1:1").osis()).toEqual("Deut.1.1");
+		expect(p.parse("Devarim 1:1").osis()).toEqual("Deut.1.1");
 	});
 });
 describe("Localized book Josh (heb)", () => {
@@ -156,6 +169,7 @@ describe("Localized book Josh (heb)", () => {
 	it("should handle book: Josh (heb)", () => {
 		expect(p.parse("יהושע 1:1").osis()).toEqual("Josh.1.1");
 		expect(p.parse("Josh 1:1").osis()).toEqual("Josh.1.1");
+		expect(p.parse("Yehoshua 1:1").osis()).toEqual("Josh.1.1");
 	});
 });
 describe("Localized book Judg (heb)", () => {
@@ -167,6 +181,8 @@ describe("Localized book Judg (heb)", () => {
 	it("should handle book: Judg (heb)", () => {
 		expect(p.parse("שופטים 1:1").osis()).toEqual("Judg.1.1");
 		expect(p.parse("Judg 1:1").osis()).toEqual("Judg.1.1");
+		expect(p.parse("Shoftim 1:1").osis()).toEqual("Judg.1.1");
+		expect(p.parse("Shofetim 1:1").osis()).toEqual("Judg.1.1");
 	});
 });
 describe("Localized book Ruth (heb)", () => {
@@ -178,6 +194,7 @@ describe("Localized book Ruth (heb)", () => {
 	it("should handle book: Ruth (heb)", () => {
 		expect(p.parse("Ruth 1:1").osis()).toEqual("Ruth.1.1");
 		expect(p.parse("רות 1:1").osis()).toEqual("Ruth.1.1");
+		expect(p.parse("Rut 1:1").osis()).toEqual("Ruth.1.1");
 	});
 });
 describe("Localized book 1Esd (heb)", () => {
@@ -213,6 +230,8 @@ describe("Localized book Isa (heb)", () => {
 		expect(p.parse("ישעיה 1:1").osis()).toEqual("Isa.1.1");
 		expect(p.parse("ישעה 1:1").osis()).toEqual("Isa.1.1");
 		expect(p.parse("Isa 1:1").osis()).toEqual("Isa.1.1");
+		expect(p.parse("Yeshayahu 1:1").osis()).toEqual("Isa.1.1");
+		expect(p.parse("Yeshayah 1:1").osis()).toEqual("Isa.1.1");
 	});
 });
 describe("Localized book 2Sam (heb)", () => {
@@ -225,6 +244,8 @@ describe("Localized book 2Sam (heb)", () => {
 		expect(p.parse("שמואל ב' 1:1").osis()).toEqual("2Sam.1.1");
 		expect(p.parse("שמואל ב 1:1").osis()).toEqual("2Sam.1.1");
 		expect(p.parse("2Sam 1:1").osis()).toEqual("2Sam.1.1");
+		expect(p.parse("Shmuel II 1:1").osis()).toEqual("2Sam.1.1");
+		expect(p.parse("Shmuel Bais 1:1").osis()).toEqual("2Sam.1.1");
 	});
 });
 describe("Localized book 1Sam (heb)", () => {
@@ -237,6 +258,8 @@ describe("Localized book 1Sam (heb)", () => {
 		expect(p.parse("שמואל א' 1:1").osis()).toEqual("1Sam.1.1");
 		expect(p.parse("שמואל א 1:1").osis()).toEqual("1Sam.1.1");
 		expect(p.parse("1Sam 1:1").osis()).toEqual("1Sam.1.1");
+		expect(p.parse("Shmuel I 1:1").osis()).toEqual("1Sam.1.1");
+		expect(p.parse("Shmuel Alef 1:1").osis()).toEqual("1Sam.1.1");
 	});
 });
 describe("Localized book 2Kgs (heb)", () => {
@@ -249,6 +272,9 @@ describe("Localized book 2Kgs (heb)", () => {
 		expect(p.parse("מלכים ב' 1:1").osis()).toEqual("2Kgs.1.1");
 		expect(p.parse("מלכים ב 1:1").osis()).toEqual("2Kgs.1.1");
 		expect(p.parse("2Kgs 1:1").osis()).toEqual("2Kgs.1.1");
+		expect(p.parse("Melachim II 1:1").osis()).toEqual("2Kgs.1.1");
+		expect(p.parse("Melakhim II 1:1").osis()).toEqual("2Kgs.1.1");
+		expect(p.parse("Melachim Bais 1:1").osis()).toEqual("2Kgs.1.1");
 	});
 });
 describe("Localized book 1Kgs (heb)", () => {
@@ -261,6 +287,9 @@ describe("Localized book 1Kgs (heb)", () => {
 		expect(p.parse("מלכים א' 1:1").osis()).toEqual("1Kgs.1.1");
 		expect(p.parse("מלכים א 1:1").osis()).toEqual("1Kgs.1.1");
 		expect(p.parse("1Kgs 1:1").osis()).toEqual("1Kgs.1.1");
+		expect(p.parse("Melachim I 1:1").osis()).toEqual("1Kgs.1.1");
+		expect(p.parse("Melakhim I 1:1").osis()).toEqual("1Kgs.1.1");
+		expect(p.parse("Melachim Alef 1:1").osis()).toEqual("1Kgs.1.1");
 	});
 });
 describe("Localized book 2Chr (heb)", () => {
@@ -273,6 +302,8 @@ describe("Localized book 2Chr (heb)", () => {
 		expect(p.parse("דברי הימים ב' 1:1").osis()).toEqual("2Chr.1.1");
 		expect(p.parse("דברי הימים ב 1:1").osis()).toEqual("2Chr.1.1");
 		expect(p.parse("2Chr 1:1").osis()).toEqual("2Chr.1.1");
+		expect(p.parse("Divrei Hayamim II 1:1").osis()).toEqual("2Chr.1.1");
+		expect(p.parse("Divrey Hayamim Bais 1:1").osis()).toEqual("2Chr.1.1");
 	});
 });
 describe("Localized book 1Chr (heb)", () => {
@@ -285,6 +316,8 @@ describe("Localized book 1Chr (heb)", () => {
 		expect(p.parse("דברי הימים א' 1:1").osis()).toEqual("1Chr.1.1");
 		expect(p.parse("דברי הימים א 1:1").osis()).toEqual("1Chr.1.1");
 		expect(p.parse("1Chr 1:1").osis()).toEqual("1Chr.1.1");
+		expect(p.parse("Divrei Hayamim I 1:1").osis()).toEqual("1Chr.1.1");
+		expect(p.parse("Divrey Hayamim Alef 1:1").osis()).toEqual("1Chr.1.1");
 	});
 });
 describe("Localized book Ezra (heb)", () => {
@@ -307,6 +340,8 @@ describe("Localized book Neh (heb)", () => {
 	it("should handle book: Neh (heb)", () => {
 		expect(p.parse("נחמיה 1:1").osis()).toEqual("Neh.1.1");
 		expect(p.parse("Neh 1:1").osis()).toEqual("Neh.1.1");
+		expect(p.parse("Nechemiah 1:1").osis()).toEqual("Neh.1.1");
+		expect(p.parse("Nechemyah 1:1").osis()).toEqual("Neh.1.1");
 	});
 });
 describe("Localized book GkEsth (heb)", () => {
@@ -330,6 +365,7 @@ describe("Localized book Esth (heb)", () => {
 		expect(p.parse("אסתר, כולל פרקים גנוזים 1:1").osis()).toEqual("Esth.1.1");
 		expect(p.parse("Esth 1:1").osis()).toEqual("Esth.1.1");
 		expect(p.parse("אסתר 1:1").osis()).toEqual("Esth.1.1");
+		expect(p.parse("Esther 1:1").osis()).toEqual("Esth.1.1");
 	});
 });
 describe("Localized book Job (heb)", () => {
@@ -341,6 +377,7 @@ describe("Localized book Job (heb)", () => {
 	it("should handle book: Job (heb)", () => {
 		expect(p.parse("איוב 1:1").osis()).toEqual("Job.1.1");
 		expect(p.parse("Job 1:1").osis()).toEqual("Job.1.1");
+		expect(p.parse("Iyov 1:1").osis()).toEqual("Job.1.1");
 	});
 });
 describe("Localized book Ps (heb)", () => {
@@ -353,6 +390,7 @@ describe("Localized book Ps (heb)", () => {
 		expect(p.parse("מזמורים 1:1").osis()).toEqual("Ps.1.1");
 		expect(p.parse("תהילים 1:1").osis()).toEqual("Ps.1.1");
 		expect(p.parse("Ps 1:1").osis()).toEqual("Ps.1.1");
+		expect(p.parse("Tehillim 1:1").osis()).toEqual("Ps.1.1");
 	});
 });
 describe("Localized book PrAzar (heb)", () => {
@@ -378,6 +416,8 @@ describe("Localized book Prov (heb)", () => {
 		expect(p.parse("משלים 1:1").osis()).toEqual("Prov.1.1");
 		expect(p.parse("Prov 1:1").osis()).toEqual("Prov.1.1");
 		expect(p.parse("משלי 1:1").osis()).toEqual("Prov.1.1");
+		expect(p.parse("Mishlei 1:1").osis()).toEqual("Prov.1.1");
+		expect(p.parse("Mishle 1:1").osis()).toEqual("Prov.1.1");
 	});
 });
 describe("Localized book Eccl (heb)", () => {
@@ -391,6 +431,8 @@ describe("Localized book Eccl (heb)", () => {
 		expect(p.parse("המרצה 1:1").osis()).toEqual("Eccl.1.1");
 		expect(p.parse("Eccl 1:1").osis()).toEqual("Eccl.1.1");
 		expect(p.parse("קהלת 1:1").osis()).toEqual("Eccl.1.1");
+		expect(p.parse("Kohelet 1:1").osis()).toEqual("Eccl.1.1");
+		expect(p.parse("Qoheleth 1:1").osis()).toEqual("Eccl.1.1");
 	});
 });
 describe("Localized book SgThree (heb)", () => {
@@ -414,6 +456,8 @@ describe("Localized book Song (heb)", () => {
 		expect(p.parse("שיר השירים 1:1").osis()).toEqual("Song.1.1");
 		expect(p.parse("שירי שלמה 1:1").osis()).toEqual("Song.1.1");
 		expect(p.parse("Song 1:1").osis()).toEqual("Song.1.1");
+		expect(p.parse("Shir Hashirim 1:1").osis()).toEqual("Song.1.1");
+		expect(p.parse("Shir Ha-Shirim 1:1").osis()).toEqual("Song.1.1");
 	});
 });
 describe("Localized book Jer (heb)", () => {
@@ -426,6 +470,9 @@ describe("Localized book Jer (heb)", () => {
 		expect(p.parse("ירמיהו 1:1").osis()).toEqual("Jer.1.1");
 		expect(p.parse("ירמיה 1:1").osis()).toEqual("Jer.1.1");
 		expect(p.parse("Jer 1:1").osis()).toEqual("Jer.1.1");
+		expect(p.parse("Yirmiyahu 1:1").osis()).toEqual("Jer.1.1");
+		expect(p.parse("Yirmyah 1:1").osis()).toEqual("Jer.1.1");
+		expect(p.parse("Yirmeyah 1:1").osis()).toEqual("Jer.1.1");
 	});
 });
 describe("Localized book Ezek (heb)", () => {
@@ -437,6 +484,8 @@ describe("Localized book Ezek (heb)", () => {
 	it("should handle book: Ezek (heb)", () => {
 		expect(p.parse("יחזקאל 1:1").osis()).toEqual("Ezek.1.1");
 		expect(p.parse("Ezek 1:1").osis()).toEqual("Ezek.1.1");
+		expect(p.parse("Yechezqel 1:1").osis()).toEqual("Ezek.1.1");
+		expect(p.parse("Yechezkel 1:1").osis()).toEqual("Ezek.1.1");
 	});
 });
 describe("Localized book Dan (heb)", () => {
@@ -448,6 +497,7 @@ describe("Localized book Dan (heb)", () => {
 	it("should handle book: Dan (heb)", () => {
 		expect(p.parse("דניאל 1:1").osis()).toEqual("Dan.1.1");
 		expect(p.parse("Dan 1:1").osis()).toEqual("Dan.1.1");
+		expect(p.parse("Daniel 1:1").osis()).toEqual("Dan.1.1");
 	});
 });
 describe("Localized book Hos (heb)", () => {
@@ -459,6 +509,7 @@ describe("Localized book Hos (heb)", () => {
 	it("should handle book: Hos (heb)", () => {
 		expect(p.parse("הושע 1:1").osis()).toEqual("Hos.1.1");
 		expect(p.parse("Hos 1:1").osis()).toEqual("Hos.1.1");
+		expect(p.parse("Hoshea 1:1").osis()).toEqual("Hos.1.1");
 	});
 });
 describe("Localized book Joel (heb)", () => {
@@ -470,6 +521,7 @@ describe("Localized book Joel (heb)", () => {
 	it("should handle book: Joel (heb)", () => {
 		expect(p.parse("Joel 1:1").osis()).toEqual("Joel.1.1");
 		expect(p.parse("יואל 1:1").osis()).toEqual("Joel.1.1");
+		expect(p.parse("Yoel 1:1").osis()).toEqual("Joel.1.1");
 	});
 });
 describe("Localized book Amos (heb)", () => {
@@ -493,6 +545,8 @@ describe("Localized book Obad (heb)", () => {
 		expect(p.parse("עובדיה 1:1").osis()).toEqual("Obad.1.1");
 		expect(p.parse("עבדיה 1:1").osis()).toEqual("Obad.1.1");
 		expect(p.parse("Obad 1:1").osis()).toEqual("Obad.1.1");
+		expect(p.parse("Ovadiah 1:1").osis()).toEqual("Obad.1.1");
+		expect(p.parse("Ovadyah 1:1").osis()).toEqual("Obad.1.1");
 	});
 });
 describe("Localized book Jonah (heb)", () => {
@@ -504,6 +558,7 @@ describe("Localized book Jonah (heb)", () => {
 	it("should handle book: Jonah (heb)", () => {
 		expect(p.parse("Jonah 1:1").osis()).toEqual("Jonah.1.1");
 		expect(p.parse("יונה 1:1").osis()).toEqual("Jonah.1.1");
+		expect(p.parse("Yonah 1:1").osis()).toEqual("Jonah.1.1");
 	});
 });
 describe("Localized book Mic (heb)", () => {
@@ -515,6 +570,9 @@ describe("Localized book Mic (heb)", () => {
 	it("should handle book: Mic (heb)", () => {
 		expect(p.parse("מיכה 1:1").osis()).toEqual("Mic.1.1");
 		expect(p.parse("Mic 1:1").osis()).toEqual("Mic.1.1");
+		expect(p.parse("Michah 1:1").osis()).toEqual("Mic.1.1");
+		expect(p.parse("Mikhah 1:1").osis()).toEqual("Mic.1.1");
+		expect(p.parse("Michoh 1:1").osis()).toEqual("Mic.1.1");
 	});
 });
 describe("Localized book Nah (heb)", () => {
@@ -526,6 +584,7 @@ describe("Localized book Nah (heb)", () => {
 	it("should handle book: Nah (heb)", () => {
 		expect(p.parse("נחום 1:1").osis()).toEqual("Nah.1.1");
 		expect(p.parse("Nah 1:1").osis()).toEqual("Nah.1.1");
+		expect(p.parse("Nachum 1:1").osis()).toEqual("Nah.1.1");
 	});
 });
 describe("Localized book Hab (heb)", () => {
@@ -537,6 +596,9 @@ describe("Localized book Hab (heb)", () => {
 	it("should handle book: Hab (heb)", () => {
 		expect(p.parse("חבקוק 1:1").osis()).toEqual("Hab.1.1");
 		expect(p.parse("Hab 1:1").osis()).toEqual("Hab.1.1");
+		expect(p.parse("Chavakuk 1:1").osis()).toEqual("Hab.1.1");
+		expect(p.parse("Chavaqquq 1:1").osis()).toEqual("Hab.1.1");
+		expect(p.parse("Chabakuk 1:1").osis()).toEqual("Hab.1.1");
 	});
 });
 describe("Localized book Zeph (heb)", () => {
@@ -548,6 +610,8 @@ describe("Localized book Zeph (heb)", () => {
 	it("should handle book: Zeph (heb)", () => {
 		expect(p.parse("צפניה 1:1").osis()).toEqual("Zeph.1.1");
 		expect(p.parse("Zeph 1:1").osis()).toEqual("Zeph.1.1");
+		expect(p.parse("Tzefaniah 1:1").osis()).toEqual("Zeph.1.1");
+		expect(p.parse("Tzefanyah 1:1").osis()).toEqual("Zeph.1.1");
 	});
 });
 describe("Localized book Hag (heb)", () => {
@@ -559,6 +623,7 @@ describe("Localized book Hag (heb)", () => {
 	it("should handle book: Hag (heb)", () => {
 		expect(p.parse("Hag 1:1").osis()).toEqual("Hag.1.1");
 		expect(p.parse("חגי 1:1").osis()).toEqual("Hag.1.1");
+		expect(p.parse("Chaggai 1:1").osis()).toEqual("Hag.1.1");
 	});
 });
 describe("Localized book Zech (heb)", () => {
@@ -570,6 +635,8 @@ describe("Localized book Zech (heb)", () => {
 	it("should handle book: Zech (heb)", () => {
 		expect(p.parse("זכריה 1:1").osis()).toEqual("Zech.1.1");
 		expect(p.parse("Zech 1:1").osis()).toEqual("Zech.1.1");
+		expect(p.parse("Zechariah 1:1").osis()).toEqual("Zech.1.1");
+		expect(p.parse("Zecharyah 1:1").osis()).toEqual("Zech.1.1");
 	});
 });
 describe("Localized book Mal (heb)", () => {
@@ -581,6 +648,7 @@ describe("Localized book Mal (heb)", () => {
 	it("should handle book: Mal (heb)", () => {
 		expect(p.parse("מלאכי 1:1").osis()).toEqual("Mal.1.1");
 		expect(p.parse("Mal 1:1").osis()).toEqual("Mal.1.1");
+		expect(p.parse("Malachi 1:1").osis()).toEqual("Mal.1.1");
 	});
 });
 describe("Localized book Matt (heb)", () => {
@@ -596,6 +664,7 @@ describe("Localized book Matt (heb)", () => {
 		expect(p.parse("הבשורה לפי מתי 1:1").osis()).toEqual("Matt.1.1");
 		expect(p.parse("Matt 1:1").osis()).toEqual("Matt.1.1");
 		expect(p.parse("מתי 1:1").osis()).toEqual("Matt.1.1");
+		expect(p.parse("Mattityahu 1:1").osis()).toEqual("Matt.1.1");
 	});
 });
 describe("Localized book Mark (heb)", () => {
@@ -609,6 +678,7 @@ describe("Localized book Mark (heb)", () => {
 		expect(p.parse("הבשורה על-פי מרקוס 1:1").osis()).toEqual("Mark.1.1");
 		expect(p.parse("מרקוס 1:1").osis()).toEqual("Mark.1.1");
 		expect(p.parse("Mark 1:1").osis()).toEqual("Mark.1.1");
+		expect(p.parse("Markos 1:1").osis()).toEqual("Mark.1.1");
 	});
 });
 describe("Localized book Luke (heb)", () => {
@@ -623,6 +693,7 @@ describe("Localized book Luke (heb)", () => {
 		expect(p.parse("הבשורה על-פי לוקס 1:1").osis()).toEqual("Luke.1.1");
 		expect(p.parse("Luke 1:1").osis()).toEqual("Luke.1.1");
 		expect(p.parse("לוקס 1:1").osis()).toEqual("Luke.1.1");
+		expect(p.parse("Lukas 1:1").osis()).toEqual("Luke.1.1");
 	});
 });
 describe("Localized book 1John (heb)", () => {
@@ -637,6 +708,7 @@ describe("Localized book 1John (heb)", () => {
 		expect(p.parse("איגרת יוחנן הראשונה 1:1").osis()).toEqual("1John.1.1");
 		expect(p.parse("הראשונה יוחנן 1:1").osis()).toEqual("1John.1.1");
 		expect(p.parse("1John 1:1").osis()).toEqual("1John.1.1");
+		expect(p.parse("Yochanan I 1:1").osis()).toEqual("1John.1.1");
 	});
 });
 describe("Localized book 2John (heb)", () => {
@@ -650,6 +722,7 @@ describe("Localized book 2John (heb)", () => {
 		expect(p.parse("איגרת יוחנן השנייה 1:1").osis()).toEqual("2John.1.1");
 		expect(p.parse("השנייה יוחנן 1:1").osis()).toEqual("2John.1.1");
 		expect(p.parse("2John 1:1").osis()).toEqual("2John.1.1");
+		expect(p.parse("Yochanan II 1:1").osis()).toEqual("2John.1.1");
 	});
 });
 describe("Localized book 3John (heb)", () => {
@@ -664,6 +737,7 @@ describe("Localized book 3John (heb)", () => {
 		expect(p.parse("איגרת יוחנן השלישית 1:1").osis()).toEqual("3John.1.1");
 		expect(p.parse("השלישית יוחנן 1:1").osis()).toEqual("3John.1.1");
 		expect(p.parse("3John 1:1").osis()).toEqual("3John.1.1");
+		expect(p.parse("Yochanan III 1:1").osis()).toEqual("3John.1.1");
 	});
 });
 describe("Localized book John (heb)", () => {
@@ -677,6 +751,7 @@ describe("Localized book John (heb)", () => {
 		expect(p.parse("הבשורה על-פי יוחנן 1:1").osis()).toEqual("John.1.1");
 		expect(p.parse("יוחנן 1:1").osis()).toEqual("John.1.1");
 		expect(p.parse("John 1:1").osis()).toEqual("John.1.1");
+		expect(p.parse("Yochanan 1:1").osis()).toEqual("John.1.1");
 	});
 });
 describe("Localized book Acts (heb)", () => {
@@ -688,6 +763,7 @@ describe("Localized book Acts (heb)", () => {
 	it("should handle book: Acts (heb)", () => {
 		expect(p.parse("מעשי השליחים 1:1").osis()).toEqual("Acts.1.1");
 		expect(p.parse("Acts 1:1").osis()).toEqual("Acts.1.1");
+		expect(p.parse("Gevurot 1:1").osis()).toEqual("Acts.1.1");
 	});
 });
 describe("Localized book Rom (heb)", () => {
@@ -703,6 +779,7 @@ describe("Localized book Rom (heb)", () => {
 		expect(p.parse("אל הרומיים 1:1").osis()).toEqual("Rom.1.1");
 		expect(p.parse("אל הרומים 1:1").osis()).toEqual("Rom.1.1");
 		expect(p.parse("Rom 1:1").osis()).toEqual("Rom.1.1");
+		expect(p.parse("Kehillah in Rome 1:1").osis()).toEqual("Rom.1.1");
 	});
 });
 describe("Localized book 2Cor (heb)", () => {
@@ -718,6 +795,7 @@ describe("Localized book 2Cor (heb)", () => {
 		expect(p.parse("השנייה אל הקורינתים 1:1").osis()).toEqual("2Cor.1.1");
 		expect(p.parse("השנייה אל הקורנתים 1:1").osis()).toEqual("2Cor.1.1");
 		expect(p.parse("2Cor 1:1").osis()).toEqual("2Cor.1.1");
+		expect(p.parse("Kehillah in Corinth II 1:1").osis()).toEqual("2Cor.1.1");
 	});
 });
 describe("Localized book 1Cor (heb)", () => {
@@ -733,6 +811,7 @@ describe("Localized book 1Cor (heb)", () => {
 		expect(p.parse("הראשונה אל הקורינתים 1:1").osis()).toEqual("1Cor.1.1");
 		expect(p.parse("הראשונה אל הקורנתים 1:1").osis()).toEqual("1Cor.1.1");
 		expect(p.parse("1Cor 1:1").osis()).toEqual("1Cor.1.1");
+		expect(p.parse("Kehillah in Corinth I 1:1").osis()).toEqual("1Cor.1.1");
 	});
 });
 describe("Localized book Gal (heb)", () => {
@@ -746,6 +825,7 @@ describe("Localized book Gal (heb)", () => {
 		expect(p.parse("האיגרת אל הגלטים 1:1").osis()).toEqual("Gal.1.1");
 		expect(p.parse("אל הגלטים 1:1").osis()).toEqual("Gal.1.1");
 		expect(p.parse("Gal 1:1").osis()).toEqual("Gal.1.1");
+		expect(p.parse("Kehillah in Galatia 1:1").osis()).toEqual("Gal.1.1");
 	});
 });
 describe("Localized book Eph (heb)", () => {
@@ -761,6 +841,7 @@ describe("Localized book Eph (heb)", () => {
 		expect(p.parse("השליח אל האפסיים 1:1").osis()).toEqual("Eph.1.1");
 		expect(p.parse("אל האפסים 1:1").osis()).toEqual("Eph.1.1");
 		expect(p.parse("Eph 1:1").osis()).toEqual("Eph.1.1");
+		expect(p.parse("Kehillah in Ephesus 1:1").osis()).toEqual("Eph.1.1");
 	});
 });
 describe("Localized book Phil (heb)", () => {
@@ -776,6 +857,7 @@ describe("Localized book Phil (heb)", () => {
 		expect(p.parse("אל הפיליפיים 1:1").osis()).toEqual("Phil.1.1");
 		expect(p.parse("אל הפיליפים 1:1").osis()).toEqual("Phil.1.1");
 		expect(p.parse("Phil 1:1").osis()).toEqual("Phil.1.1");
+		expect(p.parse("Kehillah in Philippi 1:1").osis()).toEqual("Phil.1.1");
 	});
 });
 describe("Localized book Col (heb)", () => {
@@ -790,6 +872,7 @@ describe("Localized book Col (heb)", () => {
 		expect(p.parse("האיגרת אל הקולוסים 1:1").osis()).toEqual("Col.1.1");
 		expect(p.parse("אל הקולוסים 1:1").osis()).toEqual("Col.1.1");
 		expect(p.parse("Col 1:1").osis()).toEqual("Col.1.1");
+		expect(p.parse("Kehillah in Colossae 1:1").osis()).toEqual("Col.1.1");
 	});
 });
 describe("Localized book 2Thess (heb)", () => {
@@ -805,6 +888,7 @@ describe("Localized book 2Thess (heb)", () => {
 		expect(p.parse("השנייה אל התסלוניקים 1:1").osis()).toEqual("2Thess.1.1");
 		expect(p.parse("השנייה אל-התסלוניקים 1:1").osis()).toEqual("2Thess.1.1");
 		expect(p.parse("2Thess 1:1").osis()).toEqual("2Thess.1.1");
+		expect(p.parse("Kehillah in Thessalonika II 1:1").osis()).toEqual("2Thess.1.1");
 	});
 });
 describe("Localized book 1Thess (heb)", () => {
@@ -819,6 +903,7 @@ describe("Localized book 1Thess (heb)", () => {
 		expect(p.parse("אגרת פולוס הראשונה אל-התסלו 1:1").osis()).toEqual("1Thess.1.1");
 		expect(p.parse("הראשונה אל התסלוניקים 1:1").osis()).toEqual("1Thess.1.1");
 		expect(p.parse("1Thess 1:1").osis()).toEqual("1Thess.1.1");
+		expect(p.parse("Kehillah in Thessalonika I 1:1").osis()).toEqual("1Thess.1.1");
 	});
 });
 describe("Localized book 2Tim (heb)", () => {
@@ -834,6 +919,7 @@ describe("Localized book 2Tim (heb)", () => {
 		expect(p.parse("השנייה אל טימותיאוס 1:1").osis()).toEqual("2Tim.1.1");
 		expect(p.parse("השנייה אל טימותיוס 1:1").osis()).toEqual("2Tim.1.1");
 		expect(p.parse("2Tim 1:1").osis()).toEqual("2Tim.1.1");
+		expect(p.parse("Timotiyos II 1:1").osis()).toEqual("2Tim.1.1");
 	});
 });
 describe("Localized book 1Tim (heb)", () => {
@@ -849,6 +935,7 @@ describe("Localized book 1Tim (heb)", () => {
 		expect(p.parse("הראשונה אל טימותיאוס 1:1").osis()).toEqual("1Tim.1.1");
 		expect(p.parse("הראשונה אל טימותיוס 1:1").osis()).toEqual("1Tim.1.1");
 		expect(p.parse("1Tim 1:1").osis()).toEqual("1Tim.1.1");
+		expect(p.parse("Timotiyos I 1:1").osis()).toEqual("1Tim.1.1");
 	});
 });
 describe("Localized book Titus (heb)", () => {
@@ -862,6 +949,7 @@ describe("Localized book Titus (heb)", () => {
 		expect(p.parse("האיגרת אל טיטוס 1:1").osis()).toEqual("Titus.1.1");
 		expect(p.parse("אל טיטוס 1:1").osis()).toEqual("Titus.1.1");
 		expect(p.parse("Titus 1:1").osis()).toEqual("Titus.1.1");
+		expect(p.parse("Titos 1:1").osis()).toEqual("Titus.1.1");
 	});
 });
 describe("Localized book Phlm (heb)", () => {
@@ -875,6 +963,7 @@ describe("Localized book Phlm (heb)", () => {
 		expect(p.parse("האיגרת אל פילימון 1:1").osis()).toEqual("Phlm.1.1");
 		expect(p.parse("אל פילימון 1:1").osis()).toEqual("Phlm.1.1");
 		expect(p.parse("Phlm 1:1").osis()).toEqual("Phlm.1.1");
+		expect(p.parse("Philemon 1:1").osis()).toEqual("Phlm.1.1");
 	});
 });
 describe("Localized book Heb (heb)", () => {
@@ -889,6 +978,7 @@ describe("Localized book Heb (heb)", () => {
 		expect(p.parse("האגרת אל-העברים 1:1").osis()).toEqual("Heb.1.1");
 		expect(p.parse("אל העברים 1:1").osis()).toEqual("Heb.1.1");
 		expect(p.parse("Heb 1:1").osis()).toEqual("Heb.1.1");
+		expect(p.parse("Yehudim in Moshiach 1:1").osis()).toEqual("Heb.1.1");
 	});
 });
 describe("Localized book Jas (heb)", () => {
@@ -902,6 +992,7 @@ describe("Localized book Jas (heb)", () => {
 		expect(p.parse("אגרת יעקב 1:1").osis()).toEqual("Jas.1.1");
 		expect(p.parse("יעקב 1:1").osis()).toEqual("Jas.1.1");
 		expect(p.parse("Jas 1:1").osis()).toEqual("Jas.1.1");
+		expect(p.parse("Yaakov 1:1").osis()).toEqual("Jas.1.1");
 	});
 });
 describe("Localized book 2Pet (heb)", () => {
@@ -915,6 +1006,7 @@ describe("Localized book 2Pet (heb)", () => {
 		expect(p.parse("איגרת פטרוס השנייה 1:1").osis()).toEqual("2Pet.1.1");
 		expect(p.parse("השנייה פטרוס 1:1").osis()).toEqual("2Pet.1.1");
 		expect(p.parse("2Pet 1:1").osis()).toEqual("2Pet.1.1");
+		expect(p.parse("Kefa II 1:1").osis()).toEqual("2Pet.1.1");
 	});
 });
 describe("Localized book 1Pet (heb)", () => {
@@ -929,6 +1021,7 @@ describe("Localized book 1Pet (heb)", () => {
 		expect(p.parse("איגרת פטרוס הראשונה 1:1").osis()).toEqual("1Pet.1.1");
 		expect(p.parse("הראשונה פטרוס 1:1").osis()).toEqual("1Pet.1.1");
 		expect(p.parse("1Pet 1:1").osis()).toEqual("1Pet.1.1");
+		expect(p.parse("Kefa I 1:1").osis()).toEqual("1Pet.1.1");
 	});
 });
 describe("Localized book Jude (heb)", () => {
@@ -942,6 +1035,7 @@ describe("Localized book Jude (heb)", () => {
 		expect(p.parse("אגרת יהודה 1:1").osis()).toEqual("Jude.1.1");
 		expect(p.parse("יהודה 1:1").osis()).toEqual("Jude.1.1");
 		expect(p.parse("Jude 1:1").osis()).toEqual("Jude.1.1");
+		expect(p.parse("Yehuda 1:1").osis()).toEqual("Jude.1.1");
 	});
 });
 describe("Localized book Tob (heb)", () => {
