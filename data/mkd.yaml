@@ -14,9 +14,17 @@ variables:
     - Трето
     - "3"
     - III
-  fourth:
+  fourth: &fourth
+    - Четврта
     - "4"
     - IV
+  fifth: &fifth
+    - Петта
+    - "5"
+    - V
+  gospel: &gospel
+    - Евангелието според
+    - Евангелие според
   ab:
     - а
     - б
@@ -31,8 +39,15 @@ books:
         before: *first
       - osis: Exod
         before: *second
+      - osis: Lev
+        before: *third
+      - osis: Num
+        before: *fourth
+      - osis: Deut
+        before: *fifth
     texts:
       - книга Мојсеева
+      - Мојсеева
   - osis: Gen
     texts:
       - Настанување
@@ -47,14 +62,12 @@ books:
       - Bel
   - osis: Lev
     texts:
-      - Трета книга Мојсеева
       - Левитска книга
       - Левитска
       - Левит
       - Lev
   - osis: Num
     texts:
-      - Четврта книга Мојсеева
       - Броеви
       - Num
   - osis: Sir
@@ -82,7 +95,6 @@ books:
       - PrMan
   - osis: Deut
     texts:
-      - Петта книга Мојсеева
       - Повторени закони
       - Второзаконие
       - Deut
@@ -101,6 +113,7 @@ books:
   - osis: Ruth
     texts:
       - Ruth
+      - Рута
       - Рут
   - osis: 1Esd
     texts:
@@ -120,6 +133,8 @@ books:
         before: *second
     texts:
       - книга Самоилова
+      - Самоилова
+      - Самуилова
       - Самуил
   - osis: 2Sam
     texts:
@@ -136,6 +151,9 @@ books:
         before: *second
     texts:
       - книга за царевите
+      - книга царевите
+      - книга цареви
+      - Царевите
       - Цареви
   - osis: 2Kgs
     texts:
@@ -163,6 +181,7 @@ books:
       - 1Chr
   - osis: Ezra
     texts:
+      - Ездра
       - Ezra
       - Езра
   - osis: Neh
@@ -191,6 +210,7 @@ books:
       - PrAzar
   - osis: Prov
     texts:
+      - Мудри изреки
       - Пословици
       - Изреки
       - Prov
@@ -206,7 +226,7 @@ books:
       - Песната над песните
       - Песната на Соломон
       - Песна над песните
-      - Црковни химни
+      - Песна на Соломон
       - Song
   - osis: Jer
     texts:
@@ -276,24 +296,33 @@ books:
     texts:
       - Малахија
       - Mal
+  - osis:
+      - osis: Matt
+      - osis: Matt
+        before: *gospel
+    texts:
+      - Матеј
   - osis: Matt
     texts:
-      - Евангелието според Матеј
-      - Евангелие според Матеј
-      - Матеј
       - Matt
+  - osis:
+      - osis: Mark
+      - osis: Mark
+        before: *gospel
+    texts:
+      - Марко
   - osis: Mark
     texts:
-      - Евангелието според Марко
-      - Евангелие според Марко
-      - Марко
       - Mark
+  - osis:
+      - osis: Luke
+      - osis: Luke
+        before: *gospel
+    texts:
+      - Лука
   - osis: Luke
     texts:
-      - Евангелието според Лука
-      - Евангелие според Лука
       - Luke
-      - Лука
   - osis:
       - osis: 1John
         before: *first
@@ -319,6 +348,8 @@ books:
       - 3John
   - osis:
       - osis: John
+      - osis: John
+        before: *gospel
       - osis: 1John
         before: *first
       - osis: 2John
@@ -329,13 +360,12 @@ books:
       - Јован
   - osis: John
     texts:
-      - Евангелието според Јован
-      - Евангелие според Јован
       - John
   - osis: Acts
     texts:
       - Дела на светите апостоли
       - Дела на апостолите
+      - Дела апостолски
       - Дела Ап
       - Acts
       - Дела
@@ -352,8 +382,10 @@ books:
         before: *second
     texts:
       - писмо од апостол Павле до христијаните во Коринт
+      - Коринтјаните
       - Коринќаните
       - Коринтјани
+      - Коринќани
   - osis: 2Cor
     texts:
       - 2 Коринтјани
@@ -365,12 +397,14 @@ books:
   - osis: Gal
     texts:
       - Писмо од апостол Павле до христијаните во Галатија
+      - Галатјаните
       - Галатјани
       - Галатите
       - Gal
   - osis: Eph
     texts:
       - Писмо од апостол Павле до христијаните во Ефес
+      - Ефесјаните
       - Ефешаните
       - Ефесјани
       - Eph
@@ -383,6 +417,7 @@ books:
   - osis: Col
     texts:
       - Писмо од апостол Павле до христијаните во Колос
+      - Колосјаните
       - Колошаните
       - Колосјани
       - Col
@@ -393,6 +428,7 @@ books:
         before: *second
     texts:
       - писмо од апостол Павле до христијаните во Солун
+      - Солунјаните
       - Солунците
       - Солунјани
   - osis: 2Thess
@@ -410,6 +446,7 @@ books:
         before: *second
     texts:
       - писмо од апостол Павле до Тимотеј
+      - Тимотеева
       - Тимотеј
   - osis: 2Tim
     texts:

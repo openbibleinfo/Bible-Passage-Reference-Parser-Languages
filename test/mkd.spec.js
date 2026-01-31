@@ -10,13 +10,21 @@ describe("Localized book Gen (mkd)", () => {
 	});
 	it("should handle book: Gen (mkd)", () => {
 		expect(p.parse("Прва книга Мојсеева 1:1").osis()).toEqual("Gen.1.1");
+		expect(p.parse("Прва Мојсеева 1:1").osis()).toEqual("Gen.1.1");
 		expect(p.parse("Прва. книга Мојсеева 1:1").osis()).toEqual("Gen.1.1");
+		expect(p.parse("Прва. Мојсеева 1:1").osis()).toEqual("Gen.1.1");
 		expect(p.parse("Прво книга Мојсеева 1:1").osis()).toEqual("Gen.1.1");
+		expect(p.parse("Прво Мојсеева 1:1").osis()).toEqual("Gen.1.1");
 		expect(p.parse("Прво. книга Мојсеева 1:1").osis()).toEqual("Gen.1.1");
+		expect(p.parse("Прво. Мојсеева 1:1").osis()).toEqual("Gen.1.1");
 		expect(p.parse("1 книга Мојсеева 1:1").osis()).toEqual("Gen.1.1");
+		expect(p.parse("1 Мојсеева 1:1").osis()).toEqual("Gen.1.1");
 		expect(p.parse("1. книга Мојсеева 1:1").osis()).toEqual("Gen.1.1");
+		expect(p.parse("1. Мојсеева 1:1").osis()).toEqual("Gen.1.1");
 		expect(p.parse("I книга Мојсеева 1:1").osis()).toEqual("Gen.1.1");
+		expect(p.parse("I Мојсеева 1:1").osis()).toEqual("Gen.1.1");
 		expect(p.parse("I. книга Мојсеева 1:1").osis()).toEqual("Gen.1.1");
+		expect(p.parse("I. Мојсеева 1:1").osis()).toEqual("Gen.1.1");
 	});
 });
 describe("Localized book Exod (mkd)", () => {
@@ -27,13 +35,88 @@ describe("Localized book Exod (mkd)", () => {
 	});
 	it("should handle book: Exod (mkd)", () => {
 		expect(p.parse("Втора книга Мојсеева 1:1").osis()).toEqual("Exod.1.1");
+		expect(p.parse("Втора Мојсеева 1:1").osis()).toEqual("Exod.1.1");
 		expect(p.parse("Втора. книга Мојсеева 1:1").osis()).toEqual("Exod.1.1");
+		expect(p.parse("Втора. Мојсеева 1:1").osis()).toEqual("Exod.1.1");
 		expect(p.parse("Второ книга Мојсеева 1:1").osis()).toEqual("Exod.1.1");
+		expect(p.parse("Второ Мојсеева 1:1").osis()).toEqual("Exod.1.1");
 		expect(p.parse("Второ. книга Мојсеева 1:1").osis()).toEqual("Exod.1.1");
+		expect(p.parse("Второ. Мојсеева 1:1").osis()).toEqual("Exod.1.1");
 		expect(p.parse("2 книга Мојсеева 1:1").osis()).toEqual("Exod.1.1");
+		expect(p.parse("2 Мојсеева 1:1").osis()).toEqual("Exod.1.1");
 		expect(p.parse("2. книга Мојсеева 1:1").osis()).toEqual("Exod.1.1");
+		expect(p.parse("2. Мојсеева 1:1").osis()).toEqual("Exod.1.1");
 		expect(p.parse("II книга Мојсеева 1:1").osis()).toEqual("Exod.1.1");
+		expect(p.parse("II Мојсеева 1:1").osis()).toEqual("Exod.1.1");
 		expect(p.parse("II. книга Мојсеева 1:1").osis()).toEqual("Exod.1.1");
+		expect(p.parse("II. Мојсеева 1:1").osis()).toEqual("Exod.1.1");
+	});
+});
+describe("Localized book Lev (mkd)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: Lev (mkd)", () => {
+		expect(p.parse("Трета книга Мојсеева 1:1").osis()).toEqual("Lev.1.1");
+		expect(p.parse("Трета Мојсеева 1:1").osis()).toEqual("Lev.1.1");
+		expect(p.parse("Трета. книга Мојсеева 1:1").osis()).toEqual("Lev.1.1");
+		expect(p.parse("Трета. Мојсеева 1:1").osis()).toEqual("Lev.1.1");
+		expect(p.parse("Трето книга Мојсеева 1:1").osis()).toEqual("Lev.1.1");
+		expect(p.parse("Трето Мојсеева 1:1").osis()).toEqual("Lev.1.1");
+		expect(p.parse("Трето. книга Мојсеева 1:1").osis()).toEqual("Lev.1.1");
+		expect(p.parse("Трето. Мојсеева 1:1").osis()).toEqual("Lev.1.1");
+		expect(p.parse("3 книга Мојсеева 1:1").osis()).toEqual("Lev.1.1");
+		expect(p.parse("3 Мојсеева 1:1").osis()).toEqual("Lev.1.1");
+		expect(p.parse("3. книга Мојсеева 1:1").osis()).toEqual("Lev.1.1");
+		expect(p.parse("3. Мојсеева 1:1").osis()).toEqual("Lev.1.1");
+		expect(p.parse("III книга Мојсеева 1:1").osis()).toEqual("Lev.1.1");
+		expect(p.parse("III Мојсеева 1:1").osis()).toEqual("Lev.1.1");
+		expect(p.parse("III. книга Мојсеева 1:1").osis()).toEqual("Lev.1.1");
+		expect(p.parse("III. Мојсеева 1:1").osis()).toEqual("Lev.1.1");
+	});
+});
+describe("Localized book Num (mkd)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: Num (mkd)", () => {
+		expect(p.parse("Четврта книга Мојсеева 1:1").osis()).toEqual("Num.1.1");
+		expect(p.parse("Четврта Мојсеева 1:1").osis()).toEqual("Num.1.1");
+		expect(p.parse("Четврта. книга Мојсеева 1:1").osis()).toEqual("Num.1.1");
+		expect(p.parse("Четврта. Мојсеева 1:1").osis()).toEqual("Num.1.1");
+		expect(p.parse("4 книга Мојсеева 1:1").osis()).toEqual("Num.1.1");
+		expect(p.parse("4 Мојсеева 1:1").osis()).toEqual("Num.1.1");
+		expect(p.parse("4. книга Мојсеева 1:1").osis()).toEqual("Num.1.1");
+		expect(p.parse("4. Мојсеева 1:1").osis()).toEqual("Num.1.1");
+		expect(p.parse("IV книга Мојсеева 1:1").osis()).toEqual("Num.1.1");
+		expect(p.parse("IV Мојсеева 1:1").osis()).toEqual("Num.1.1");
+		expect(p.parse("IV. книга Мојсеева 1:1").osis()).toEqual("Num.1.1");
+		expect(p.parse("IV. Мојсеева 1:1").osis()).toEqual("Num.1.1");
+	});
+});
+describe("Localized book Deut (mkd)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: Deut (mkd)", () => {
+		expect(p.parse("Петта книга Мојсеева 1:1").osis()).toEqual("Deut.1.1");
+		expect(p.parse("Петта Мојсеева 1:1").osis()).toEqual("Deut.1.1");
+		expect(p.parse("Петта. книга Мојсеева 1:1").osis()).toEqual("Deut.1.1");
+		expect(p.parse("Петта. Мојсеева 1:1").osis()).toEqual("Deut.1.1");
+		expect(p.parse("5 книга Мојсеева 1:1").osis()).toEqual("Deut.1.1");
+		expect(p.parse("5 Мојсеева 1:1").osis()).toEqual("Deut.1.1");
+		expect(p.parse("5. книга Мојсеева 1:1").osis()).toEqual("Deut.1.1");
+		expect(p.parse("5. Мојсеева 1:1").osis()).toEqual("Deut.1.1");
+		expect(p.parse("V книга Мојсеева 1:1").osis()).toEqual("Deut.1.1");
+		expect(p.parse("V Мојсеева 1:1").osis()).toEqual("Deut.1.1");
+		expect(p.parse("V. книга Мојсеева 1:1").osis()).toEqual("Deut.1.1");
+		expect(p.parse("V. Мојсеева 1:1").osis()).toEqual("Deut.1.1");
 	});
 });
 describe("Localized book Gen (mkd)", () => {
@@ -76,7 +159,6 @@ describe("Localized book Lev (mkd)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: Lev (mkd)", () => {
-		expect(p.parse("Трета книга Мојсеева 1:1").osis()).toEqual("Lev.1.1");
 		expect(p.parse("Левитска книга 1:1").osis()).toEqual("Lev.1.1");
 		expect(p.parse("Левитска 1:1").osis()).toEqual("Lev.1.1");
 		expect(p.parse("Левит 1:1").osis()).toEqual("Lev.1.1");
@@ -90,7 +172,6 @@ describe("Localized book Num (mkd)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: Num (mkd)", () => {
-		expect(p.parse("Четврта книга Мојсеева 1:1").osis()).toEqual("Num.1.1");
 		expect(p.parse("Броеви 1:1").osis()).toEqual("Num.1.1");
 		expect(p.parse("Num 1:1").osis()).toEqual("Num.1.1");
 	});
@@ -167,7 +248,6 @@ describe("Localized book Deut (mkd)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: Deut (mkd)", () => {
-		expect(p.parse("Петта книга Мојсеева 1:1").osis()).toEqual("Deut.1.1");
 		expect(p.parse("Повторени закони 1:1").osis()).toEqual("Deut.1.1");
 		expect(p.parse("Второзаконие 1:1").osis()).toEqual("Deut.1.1");
 		expect(p.parse("Deut 1:1").osis()).toEqual("Deut.1.1");
@@ -207,6 +287,7 @@ describe("Localized book Ruth (mkd)", () => {
 	});
 	it("should handle book: Ruth (mkd)", () => {
 		expect(p.parse("Ruth 1:1").osis()).toEqual("Ruth.1.1");
+		expect(p.parse("Рута 1:1").osis()).toEqual("Ruth.1.1");
 		expect(p.parse("Рут 1:1").osis()).toEqual("Ruth.1.1");
 	});
 });
@@ -250,20 +331,36 @@ describe("Localized book 1Sam (mkd)", () => {
 	});
 	it("should handle book: 1Sam (mkd)", () => {
 		expect(p.parse("Прва книга Самоилова 1:1").osis()).toEqual("1Sam.1.1");
+		expect(p.parse("Прва Самоилова 1:1").osis()).toEqual("1Sam.1.1");
+		expect(p.parse("Прва Самуилова 1:1").osis()).toEqual("1Sam.1.1");
 		expect(p.parse("Прва Самуил 1:1").osis()).toEqual("1Sam.1.1");
 		expect(p.parse("Прва. книга Самоилова 1:1").osis()).toEqual("1Sam.1.1");
+		expect(p.parse("Прва. Самоилова 1:1").osis()).toEqual("1Sam.1.1");
+		expect(p.parse("Прва. Самуилова 1:1").osis()).toEqual("1Sam.1.1");
 		expect(p.parse("Прва. Самуил 1:1").osis()).toEqual("1Sam.1.1");
 		expect(p.parse("Прво книга Самоилова 1:1").osis()).toEqual("1Sam.1.1");
+		expect(p.parse("Прво Самоилова 1:1").osis()).toEqual("1Sam.1.1");
+		expect(p.parse("Прво Самуилова 1:1").osis()).toEqual("1Sam.1.1");
 		expect(p.parse("Прво Самуил 1:1").osis()).toEqual("1Sam.1.1");
 		expect(p.parse("Прво. книга Самоилова 1:1").osis()).toEqual("1Sam.1.1");
+		expect(p.parse("Прво. Самоилова 1:1").osis()).toEqual("1Sam.1.1");
+		expect(p.parse("Прво. Самуилова 1:1").osis()).toEqual("1Sam.1.1");
 		expect(p.parse("Прво. Самуил 1:1").osis()).toEqual("1Sam.1.1");
 		expect(p.parse("1 книга Самоилова 1:1").osis()).toEqual("1Sam.1.1");
+		expect(p.parse("1 Самоилова 1:1").osis()).toEqual("1Sam.1.1");
+		expect(p.parse("1 Самуилова 1:1").osis()).toEqual("1Sam.1.1");
 		expect(p.parse("1 Самуил 1:1").osis()).toEqual("1Sam.1.1");
 		expect(p.parse("1. книга Самоилова 1:1").osis()).toEqual("1Sam.1.1");
+		expect(p.parse("1. Самоилова 1:1").osis()).toEqual("1Sam.1.1");
+		expect(p.parse("1. Самуилова 1:1").osis()).toEqual("1Sam.1.1");
 		expect(p.parse("1. Самуил 1:1").osis()).toEqual("1Sam.1.1");
 		expect(p.parse("I книга Самоилова 1:1").osis()).toEqual("1Sam.1.1");
+		expect(p.parse("I Самоилова 1:1").osis()).toEqual("1Sam.1.1");
+		expect(p.parse("I Самуилова 1:1").osis()).toEqual("1Sam.1.1");
 		expect(p.parse("I Самуил 1:1").osis()).toEqual("1Sam.1.1");
 		expect(p.parse("I. книга Самоилова 1:1").osis()).toEqual("1Sam.1.1");
+		expect(p.parse("I. Самоилова 1:1").osis()).toEqual("1Sam.1.1");
+		expect(p.parse("I. Самуилова 1:1").osis()).toEqual("1Sam.1.1");
 		expect(p.parse("I. Самуил 1:1").osis()).toEqual("1Sam.1.1");
 	});
 });
@@ -275,20 +372,36 @@ describe("Localized book 2Sam (mkd)", () => {
 	});
 	it("should handle book: 2Sam (mkd)", () => {
 		expect(p.parse("Втора книга Самоилова 1:1").osis()).toEqual("2Sam.1.1");
+		expect(p.parse("Втора Самоилова 1:1").osis()).toEqual("2Sam.1.1");
+		expect(p.parse("Втора Самуилова 1:1").osis()).toEqual("2Sam.1.1");
 		expect(p.parse("Втора Самуил 1:1").osis()).toEqual("2Sam.1.1");
 		expect(p.parse("Втора. книга Самоилова 1:1").osis()).toEqual("2Sam.1.1");
+		expect(p.parse("Втора. Самоилова 1:1").osis()).toEqual("2Sam.1.1");
+		expect(p.parse("Втора. Самуилова 1:1").osis()).toEqual("2Sam.1.1");
 		expect(p.parse("Втора. Самуил 1:1").osis()).toEqual("2Sam.1.1");
 		expect(p.parse("Второ книга Самоилова 1:1").osis()).toEqual("2Sam.1.1");
+		expect(p.parse("Второ Самоилова 1:1").osis()).toEqual("2Sam.1.1");
+		expect(p.parse("Второ Самуилова 1:1").osis()).toEqual("2Sam.1.1");
 		expect(p.parse("Второ Самуил 1:1").osis()).toEqual("2Sam.1.1");
 		expect(p.parse("Второ. книга Самоилова 1:1").osis()).toEqual("2Sam.1.1");
+		expect(p.parse("Второ. Самоилова 1:1").osis()).toEqual("2Sam.1.1");
+		expect(p.parse("Второ. Самуилова 1:1").osis()).toEqual("2Sam.1.1");
 		expect(p.parse("Второ. Самуил 1:1").osis()).toEqual("2Sam.1.1");
 		expect(p.parse("2 книга Самоилова 1:1").osis()).toEqual("2Sam.1.1");
+		expect(p.parse("2 Самоилова 1:1").osis()).toEqual("2Sam.1.1");
+		expect(p.parse("2 Самуилова 1:1").osis()).toEqual("2Sam.1.1");
 		expect(p.parse("2 Самуил 1:1").osis()).toEqual("2Sam.1.1");
 		expect(p.parse("2. книга Самоилова 1:1").osis()).toEqual("2Sam.1.1");
+		expect(p.parse("2. Самоилова 1:1").osis()).toEqual("2Sam.1.1");
+		expect(p.parse("2. Самуилова 1:1").osis()).toEqual("2Sam.1.1");
 		expect(p.parse("2. Самуил 1:1").osis()).toEqual("2Sam.1.1");
 		expect(p.parse("II книга Самоилова 1:1").osis()).toEqual("2Sam.1.1");
+		expect(p.parse("II Самоилова 1:1").osis()).toEqual("2Sam.1.1");
+		expect(p.parse("II Самуилова 1:1").osis()).toEqual("2Sam.1.1");
 		expect(p.parse("II Самуил 1:1").osis()).toEqual("2Sam.1.1");
 		expect(p.parse("II. книга Самоилова 1:1").osis()).toEqual("2Sam.1.1");
+		expect(p.parse("II. Самоилова 1:1").osis()).toEqual("2Sam.1.1");
+		expect(p.parse("II. Самуилова 1:1").osis()).toEqual("2Sam.1.1");
 		expect(p.parse("II. Самуил 1:1").osis()).toEqual("2Sam.1.1");
 	});
 });
@@ -322,20 +435,44 @@ describe("Localized book 1Kgs (mkd)", () => {
 	});
 	it("should handle book: 1Kgs (mkd)", () => {
 		expect(p.parse("Прва книга за царевите 1:1").osis()).toEqual("1Kgs.1.1");
+		expect(p.parse("Прва книга царевите 1:1").osis()).toEqual("1Kgs.1.1");
+		expect(p.parse("Прва книга цареви 1:1").osis()).toEqual("1Kgs.1.1");
+		expect(p.parse("Прва Царевите 1:1").osis()).toEqual("1Kgs.1.1");
 		expect(p.parse("Прва Цареви 1:1").osis()).toEqual("1Kgs.1.1");
 		expect(p.parse("Прва. книга за царевите 1:1").osis()).toEqual("1Kgs.1.1");
+		expect(p.parse("Прва. книга царевите 1:1").osis()).toEqual("1Kgs.1.1");
+		expect(p.parse("Прва. книга цареви 1:1").osis()).toEqual("1Kgs.1.1");
+		expect(p.parse("Прва. Царевите 1:1").osis()).toEqual("1Kgs.1.1");
 		expect(p.parse("Прва. Цареви 1:1").osis()).toEqual("1Kgs.1.1");
 		expect(p.parse("Прво книга за царевите 1:1").osis()).toEqual("1Kgs.1.1");
+		expect(p.parse("Прво книга царевите 1:1").osis()).toEqual("1Kgs.1.1");
+		expect(p.parse("Прво книга цареви 1:1").osis()).toEqual("1Kgs.1.1");
+		expect(p.parse("Прво Царевите 1:1").osis()).toEqual("1Kgs.1.1");
 		expect(p.parse("Прво Цареви 1:1").osis()).toEqual("1Kgs.1.1");
 		expect(p.parse("Прво. книга за царевите 1:1").osis()).toEqual("1Kgs.1.1");
+		expect(p.parse("Прво. книга царевите 1:1").osis()).toEqual("1Kgs.1.1");
+		expect(p.parse("Прво. книга цареви 1:1").osis()).toEqual("1Kgs.1.1");
+		expect(p.parse("Прво. Царевите 1:1").osis()).toEqual("1Kgs.1.1");
 		expect(p.parse("Прво. Цареви 1:1").osis()).toEqual("1Kgs.1.1");
 		expect(p.parse("1 книга за царевите 1:1").osis()).toEqual("1Kgs.1.1");
+		expect(p.parse("1 книга царевите 1:1").osis()).toEqual("1Kgs.1.1");
+		expect(p.parse("1 книга цареви 1:1").osis()).toEqual("1Kgs.1.1");
+		expect(p.parse("1 Царевите 1:1").osis()).toEqual("1Kgs.1.1");
 		expect(p.parse("1 Цареви 1:1").osis()).toEqual("1Kgs.1.1");
 		expect(p.parse("1. книга за царевите 1:1").osis()).toEqual("1Kgs.1.1");
+		expect(p.parse("1. книга царевите 1:1").osis()).toEqual("1Kgs.1.1");
+		expect(p.parse("1. книга цареви 1:1").osis()).toEqual("1Kgs.1.1");
+		expect(p.parse("1. Царевите 1:1").osis()).toEqual("1Kgs.1.1");
 		expect(p.parse("1. Цареви 1:1").osis()).toEqual("1Kgs.1.1");
 		expect(p.parse("I книга за царевите 1:1").osis()).toEqual("1Kgs.1.1");
+		expect(p.parse("I книга царевите 1:1").osis()).toEqual("1Kgs.1.1");
+		expect(p.parse("I книга цареви 1:1").osis()).toEqual("1Kgs.1.1");
+		expect(p.parse("I Царевите 1:1").osis()).toEqual("1Kgs.1.1");
 		expect(p.parse("I Цареви 1:1").osis()).toEqual("1Kgs.1.1");
 		expect(p.parse("I. книга за царевите 1:1").osis()).toEqual("1Kgs.1.1");
+		expect(p.parse("I. книга царевите 1:1").osis()).toEqual("1Kgs.1.1");
+		expect(p.parse("I. книга цареви 1:1").osis()).toEqual("1Kgs.1.1");
+		expect(p.parse("I. Царевите 1:1").osis()).toEqual("1Kgs.1.1");
 		expect(p.parse("I. Цареви 1:1").osis()).toEqual("1Kgs.1.1");
 	});
 });
@@ -347,20 +484,44 @@ describe("Localized book 2Kgs (mkd)", () => {
 	});
 	it("should handle book: 2Kgs (mkd)", () => {
 		expect(p.parse("Втора книга за царевите 1:1").osis()).toEqual("2Kgs.1.1");
+		expect(p.parse("Втора книга царевите 1:1").osis()).toEqual("2Kgs.1.1");
+		expect(p.parse("Втора книга цареви 1:1").osis()).toEqual("2Kgs.1.1");
+		expect(p.parse("Втора Царевите 1:1").osis()).toEqual("2Kgs.1.1");
 		expect(p.parse("Втора Цареви 1:1").osis()).toEqual("2Kgs.1.1");
 		expect(p.parse("Втора. книга за царевите 1:1").osis()).toEqual("2Kgs.1.1");
+		expect(p.parse("Втора. книга царевите 1:1").osis()).toEqual("2Kgs.1.1");
+		expect(p.parse("Втора. книга цареви 1:1").osis()).toEqual("2Kgs.1.1");
+		expect(p.parse("Втора. Царевите 1:1").osis()).toEqual("2Kgs.1.1");
 		expect(p.parse("Втора. Цареви 1:1").osis()).toEqual("2Kgs.1.1");
 		expect(p.parse("Второ книга за царевите 1:1").osis()).toEqual("2Kgs.1.1");
+		expect(p.parse("Второ книга царевите 1:1").osis()).toEqual("2Kgs.1.1");
+		expect(p.parse("Второ книга цареви 1:1").osis()).toEqual("2Kgs.1.1");
+		expect(p.parse("Второ Царевите 1:1").osis()).toEqual("2Kgs.1.1");
 		expect(p.parse("Второ Цареви 1:1").osis()).toEqual("2Kgs.1.1");
 		expect(p.parse("Второ. книга за царевите 1:1").osis()).toEqual("2Kgs.1.1");
+		expect(p.parse("Второ. книга царевите 1:1").osis()).toEqual("2Kgs.1.1");
+		expect(p.parse("Второ. книга цареви 1:1").osis()).toEqual("2Kgs.1.1");
+		expect(p.parse("Второ. Царевите 1:1").osis()).toEqual("2Kgs.1.1");
 		expect(p.parse("Второ. Цареви 1:1").osis()).toEqual("2Kgs.1.1");
 		expect(p.parse("2 книга за царевите 1:1").osis()).toEqual("2Kgs.1.1");
+		expect(p.parse("2 книга царевите 1:1").osis()).toEqual("2Kgs.1.1");
+		expect(p.parse("2 книга цареви 1:1").osis()).toEqual("2Kgs.1.1");
+		expect(p.parse("2 Царевите 1:1").osis()).toEqual("2Kgs.1.1");
 		expect(p.parse("2 Цареви 1:1").osis()).toEqual("2Kgs.1.1");
 		expect(p.parse("2. книга за царевите 1:1").osis()).toEqual("2Kgs.1.1");
+		expect(p.parse("2. книга царевите 1:1").osis()).toEqual("2Kgs.1.1");
+		expect(p.parse("2. книга цареви 1:1").osis()).toEqual("2Kgs.1.1");
+		expect(p.parse("2. Царевите 1:1").osis()).toEqual("2Kgs.1.1");
 		expect(p.parse("2. Цареви 1:1").osis()).toEqual("2Kgs.1.1");
 		expect(p.parse("II книга за царевите 1:1").osis()).toEqual("2Kgs.1.1");
+		expect(p.parse("II книга царевите 1:1").osis()).toEqual("2Kgs.1.1");
+		expect(p.parse("II книга цареви 1:1").osis()).toEqual("2Kgs.1.1");
+		expect(p.parse("II Царевите 1:1").osis()).toEqual("2Kgs.1.1");
 		expect(p.parse("II Цареви 1:1").osis()).toEqual("2Kgs.1.1");
 		expect(p.parse("II. книга за царевите 1:1").osis()).toEqual("2Kgs.1.1");
+		expect(p.parse("II. книга царевите 1:1").osis()).toEqual("2Kgs.1.1");
+		expect(p.parse("II. книга цареви 1:1").osis()).toEqual("2Kgs.1.1");
+		expect(p.parse("II. Царевите 1:1").osis()).toEqual("2Kgs.1.1");
 		expect(p.parse("II. Цареви 1:1").osis()).toEqual("2Kgs.1.1");
 	});
 });
@@ -465,6 +626,7 @@ describe("Localized book Ezra (mkd)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: Ezra (mkd)", () => {
+		expect(p.parse("Ездра 1:1").osis()).toEqual("Ezra.1.1");
 		expect(p.parse("Ezra 1:1").osis()).toEqual("Ezra.1.1");
 		expect(p.parse("Езра 1:1").osis()).toEqual("Ezra.1.1");
 	});
@@ -542,6 +704,7 @@ describe("Localized book Prov (mkd)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: Prov (mkd)", () => {
+		expect(p.parse("Мудри изреки 1:1").osis()).toEqual("Prov.1.1");
 		expect(p.parse("Пословици 1:1").osis()).toEqual("Prov.1.1");
 		expect(p.parse("Изреки 1:1").osis()).toEqual("Prov.1.1");
 		expect(p.parse("Prov 1:1").osis()).toEqual("Prov.1.1");
@@ -578,7 +741,7 @@ describe("Localized book Song (mkd)", () => {
 		expect(p.parse("Песната над песните 1:1").osis()).toEqual("Song.1.1");
 		expect(p.parse("Песната на Соломон 1:1").osis()).toEqual("Song.1.1");
 		expect(p.parse("Песна над песните 1:1").osis()).toEqual("Song.1.1");
-		expect(p.parse("Црковни химни 1:1").osis()).toEqual("Song.1.1");
+		expect(p.parse("Песна на Соломон 1:1").osis()).toEqual("Song.1.1");
 		expect(p.parse("Song 1:1").osis()).toEqual("Song.1.1");
 	});
 });
@@ -763,8 +926,28 @@ describe("Localized book Matt (mkd)", () => {
 	});
 	it("should handle book: Matt (mkd)", () => {
 		expect(p.parse("Евангелието според Матеј 1:1").osis()).toEqual("Matt.1.1");
+		expect(p.parse("Евангелието според. Матеј 1:1").osis()).toEqual("Matt.1.1");
 		expect(p.parse("Евангелие според Матеј 1:1").osis()).toEqual("Matt.1.1");
+		expect(p.parse("Евангелие според. Матеј 1:1").osis()).toEqual("Matt.1.1");
+	});
+});
+describe("Localized book Matt (mkd)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: Matt (mkd)", () => {
 		expect(p.parse("Матеј 1:1").osis()).toEqual("Matt.1.1");
+	});
+});
+describe("Localized book Matt (mkd)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: Matt (mkd)", () => {
 		expect(p.parse("Matt 1:1").osis()).toEqual("Matt.1.1");
 	});
 });
@@ -776,8 +959,28 @@ describe("Localized book Mark (mkd)", () => {
 	});
 	it("should handle book: Mark (mkd)", () => {
 		expect(p.parse("Евангелието според Марко 1:1").osis()).toEqual("Mark.1.1");
+		expect(p.parse("Евангелието според. Марко 1:1").osis()).toEqual("Mark.1.1");
 		expect(p.parse("Евангелие според Марко 1:1").osis()).toEqual("Mark.1.1");
+		expect(p.parse("Евангелие според. Марко 1:1").osis()).toEqual("Mark.1.1");
+	});
+});
+describe("Localized book Mark (mkd)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: Mark (mkd)", () => {
 		expect(p.parse("Марко 1:1").osis()).toEqual("Mark.1.1");
+	});
+});
+describe("Localized book Mark (mkd)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: Mark (mkd)", () => {
 		expect(p.parse("Mark 1:1").osis()).toEqual("Mark.1.1");
 	});
 });
@@ -789,9 +992,29 @@ describe("Localized book Luke (mkd)", () => {
 	});
 	it("should handle book: Luke (mkd)", () => {
 		expect(p.parse("Евангелието според Лука 1:1").osis()).toEqual("Luke.1.1");
+		expect(p.parse("Евангелието според. Лука 1:1").osis()).toEqual("Luke.1.1");
 		expect(p.parse("Евангелие според Лука 1:1").osis()).toEqual("Luke.1.1");
-		expect(p.parse("Luke 1:1").osis()).toEqual("Luke.1.1");
+		expect(p.parse("Евангелие според. Лука 1:1").osis()).toEqual("Luke.1.1");
+	});
+});
+describe("Localized book Luke (mkd)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: Luke (mkd)", () => {
 		expect(p.parse("Лука 1:1").osis()).toEqual("Luke.1.1");
+	});
+});
+describe("Localized book Luke (mkd)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: Luke (mkd)", () => {
+		expect(p.parse("Luke 1:1").osis()).toEqual("Luke.1.1");
 	});
 });
 describe("Localized book 1John (mkd)", () => {
@@ -926,6 +1149,19 @@ describe("Localized book 3John (mkd)", () => {
 		expect(p.parse("3John 1:1").osis()).toEqual("3John.1.1");
 	});
 });
+describe("Localized book John (mkd)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: John (mkd)", () => {
+		expect(p.parse("Евангелието според Јован 1:1").osis()).toEqual("John.1.1");
+		expect(p.parse("Евангелието според. Јован 1:1").osis()).toEqual("John.1.1");
+		expect(p.parse("Евангелие според Јован 1:1").osis()).toEqual("John.1.1");
+		expect(p.parse("Евангелие според. Јован 1:1").osis()).toEqual("John.1.1");
+	});
+});
 describe("Localized book 1John (mkd)", () => {
 	let p = {}
 	beforeEach(() => {
@@ -994,8 +1230,6 @@ describe("Localized book John (mkd)", () => {
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
 	it("should handle book: John (mkd)", () => {
-		expect(p.parse("Евангелието според Јован 1:1").osis()).toEqual("John.1.1");
-		expect(p.parse("Евангелие според Јован 1:1").osis()).toEqual("John.1.1");
 		expect(p.parse("John 1:1").osis()).toEqual("John.1.1");
 	});
 });
@@ -1008,6 +1242,7 @@ describe("Localized book Acts (mkd)", () => {
 	it("should handle book: Acts (mkd)", () => {
 		expect(p.parse("Дела на светите апостоли 1:1").osis()).toEqual("Acts.1.1");
 		expect(p.parse("Дела на апостолите 1:1").osis()).toEqual("Acts.1.1");
+		expect(p.parse("Дела апостолски 1:1").osis()).toEqual("Acts.1.1");
 		expect(p.parse("Дела Ап 1:1").osis()).toEqual("Acts.1.1");
 		expect(p.parse("Acts 1:1").osis()).toEqual("Acts.1.1");
 		expect(p.parse("Дела 1:1").osis()).toEqual("Acts.1.1");
@@ -1034,29 +1269,45 @@ describe("Localized book 1Cor (mkd)", () => {
 	});
 	it("should handle book: 1Cor (mkd)", () => {
 		expect(p.parse("Прва писмо од апостол Павле до христијаните во Коринт 1:1").osis()).toEqual("1Cor.1.1");
+		expect(p.parse("Прва Коринтјаните 1:1").osis()).toEqual("1Cor.1.1");
 		expect(p.parse("Прва Коринќаните 1:1").osis()).toEqual("1Cor.1.1");
 		expect(p.parse("Прва Коринтјани 1:1").osis()).toEqual("1Cor.1.1");
+		expect(p.parse("Прва Коринќани 1:1").osis()).toEqual("1Cor.1.1");
 		expect(p.parse("Прва. писмо од апостол Павле до христијаните во Коринт 1:1").osis()).toEqual("1Cor.1.1");
+		expect(p.parse("Прва. Коринтјаните 1:1").osis()).toEqual("1Cor.1.1");
 		expect(p.parse("Прва. Коринќаните 1:1").osis()).toEqual("1Cor.1.1");
 		expect(p.parse("Прва. Коринтјани 1:1").osis()).toEqual("1Cor.1.1");
+		expect(p.parse("Прва. Коринќани 1:1").osis()).toEqual("1Cor.1.1");
 		expect(p.parse("Прво писмо од апостол Павле до христијаните во Коринт 1:1").osis()).toEqual("1Cor.1.1");
+		expect(p.parse("Прво Коринтјаните 1:1").osis()).toEqual("1Cor.1.1");
 		expect(p.parse("Прво Коринќаните 1:1").osis()).toEqual("1Cor.1.1");
 		expect(p.parse("Прво Коринтјани 1:1").osis()).toEqual("1Cor.1.1");
+		expect(p.parse("Прво Коринќани 1:1").osis()).toEqual("1Cor.1.1");
 		expect(p.parse("Прво. писмо од апостол Павле до христијаните во Коринт 1:1").osis()).toEqual("1Cor.1.1");
+		expect(p.parse("Прво. Коринтјаните 1:1").osis()).toEqual("1Cor.1.1");
 		expect(p.parse("Прво. Коринќаните 1:1").osis()).toEqual("1Cor.1.1");
 		expect(p.parse("Прво. Коринтјани 1:1").osis()).toEqual("1Cor.1.1");
+		expect(p.parse("Прво. Коринќани 1:1").osis()).toEqual("1Cor.1.1");
 		expect(p.parse("1 писмо од апостол Павле до христијаните во Коринт 1:1").osis()).toEqual("1Cor.1.1");
+		expect(p.parse("1 Коринтјаните 1:1").osis()).toEqual("1Cor.1.1");
 		expect(p.parse("1 Коринќаните 1:1").osis()).toEqual("1Cor.1.1");
 		expect(p.parse("1 Коринтјани 1:1").osis()).toEqual("1Cor.1.1");
+		expect(p.parse("1 Коринќани 1:1").osis()).toEqual("1Cor.1.1");
 		expect(p.parse("1. писмо од апостол Павле до христијаните во Коринт 1:1").osis()).toEqual("1Cor.1.1");
+		expect(p.parse("1. Коринтјаните 1:1").osis()).toEqual("1Cor.1.1");
 		expect(p.parse("1. Коринќаните 1:1").osis()).toEqual("1Cor.1.1");
 		expect(p.parse("1. Коринтјани 1:1").osis()).toEqual("1Cor.1.1");
+		expect(p.parse("1. Коринќани 1:1").osis()).toEqual("1Cor.1.1");
 		expect(p.parse("I писмо од апостол Павле до христијаните во Коринт 1:1").osis()).toEqual("1Cor.1.1");
+		expect(p.parse("I Коринтјаните 1:1").osis()).toEqual("1Cor.1.1");
 		expect(p.parse("I Коринќаните 1:1").osis()).toEqual("1Cor.1.1");
 		expect(p.parse("I Коринтјани 1:1").osis()).toEqual("1Cor.1.1");
+		expect(p.parse("I Коринќани 1:1").osis()).toEqual("1Cor.1.1");
 		expect(p.parse("I. писмо од апостол Павле до христијаните во Коринт 1:1").osis()).toEqual("1Cor.1.1");
+		expect(p.parse("I. Коринтјаните 1:1").osis()).toEqual("1Cor.1.1");
 		expect(p.parse("I. Коринќаните 1:1").osis()).toEqual("1Cor.1.1");
 		expect(p.parse("I. Коринтјани 1:1").osis()).toEqual("1Cor.1.1");
+		expect(p.parse("I. Коринќани 1:1").osis()).toEqual("1Cor.1.1");
 	});
 });
 describe("Localized book 2Cor (mkd)", () => {
@@ -1067,29 +1318,45 @@ describe("Localized book 2Cor (mkd)", () => {
 	});
 	it("should handle book: 2Cor (mkd)", () => {
 		expect(p.parse("Втора писмо од апостол Павле до христијаните во Коринт 1:1").osis()).toEqual("2Cor.1.1");
+		expect(p.parse("Втора Коринтјаните 1:1").osis()).toEqual("2Cor.1.1");
 		expect(p.parse("Втора Коринќаните 1:1").osis()).toEqual("2Cor.1.1");
 		expect(p.parse("Втора Коринтјани 1:1").osis()).toEqual("2Cor.1.1");
+		expect(p.parse("Втора Коринќани 1:1").osis()).toEqual("2Cor.1.1");
 		expect(p.parse("Втора. писмо од апостол Павле до христијаните во Коринт 1:1").osis()).toEqual("2Cor.1.1");
+		expect(p.parse("Втора. Коринтјаните 1:1").osis()).toEqual("2Cor.1.1");
 		expect(p.parse("Втора. Коринќаните 1:1").osis()).toEqual("2Cor.1.1");
 		expect(p.parse("Втора. Коринтјани 1:1").osis()).toEqual("2Cor.1.1");
+		expect(p.parse("Втора. Коринќани 1:1").osis()).toEqual("2Cor.1.1");
 		expect(p.parse("Второ писмо од апостол Павле до христијаните во Коринт 1:1").osis()).toEqual("2Cor.1.1");
+		expect(p.parse("Второ Коринтјаните 1:1").osis()).toEqual("2Cor.1.1");
 		expect(p.parse("Второ Коринќаните 1:1").osis()).toEqual("2Cor.1.1");
 		expect(p.parse("Второ Коринтјани 1:1").osis()).toEqual("2Cor.1.1");
+		expect(p.parse("Второ Коринќани 1:1").osis()).toEqual("2Cor.1.1");
 		expect(p.parse("Второ. писмо од апостол Павле до христијаните во Коринт 1:1").osis()).toEqual("2Cor.1.1");
+		expect(p.parse("Второ. Коринтјаните 1:1").osis()).toEqual("2Cor.1.1");
 		expect(p.parse("Второ. Коринќаните 1:1").osis()).toEqual("2Cor.1.1");
 		expect(p.parse("Второ. Коринтјани 1:1").osis()).toEqual("2Cor.1.1");
+		expect(p.parse("Второ. Коринќани 1:1").osis()).toEqual("2Cor.1.1");
 		expect(p.parse("2 писмо од апостол Павле до христијаните во Коринт 1:1").osis()).toEqual("2Cor.1.1");
+		expect(p.parse("2 Коринтјаните 1:1").osis()).toEqual("2Cor.1.1");
 		expect(p.parse("2 Коринќаните 1:1").osis()).toEqual("2Cor.1.1");
 		expect(p.parse("2 Коринтјани 1:1").osis()).toEqual("2Cor.1.1");
+		expect(p.parse("2 Коринќани 1:1").osis()).toEqual("2Cor.1.1");
 		expect(p.parse("2. писмо од апостол Павле до христијаните во Коринт 1:1").osis()).toEqual("2Cor.1.1");
+		expect(p.parse("2. Коринтјаните 1:1").osis()).toEqual("2Cor.1.1");
 		expect(p.parse("2. Коринќаните 1:1").osis()).toEqual("2Cor.1.1");
 		expect(p.parse("2. Коринтјани 1:1").osis()).toEqual("2Cor.1.1");
+		expect(p.parse("2. Коринќани 1:1").osis()).toEqual("2Cor.1.1");
 		expect(p.parse("II писмо од апостол Павле до христијаните во Коринт 1:1").osis()).toEqual("2Cor.1.1");
+		expect(p.parse("II Коринтјаните 1:1").osis()).toEqual("2Cor.1.1");
 		expect(p.parse("II Коринќаните 1:1").osis()).toEqual("2Cor.1.1");
 		expect(p.parse("II Коринтјани 1:1").osis()).toEqual("2Cor.1.1");
+		expect(p.parse("II Коринќани 1:1").osis()).toEqual("2Cor.1.1");
 		expect(p.parse("II. писмо од апостол Павле до христијаните во Коринт 1:1").osis()).toEqual("2Cor.1.1");
+		expect(p.parse("II. Коринтјаните 1:1").osis()).toEqual("2Cor.1.1");
 		expect(p.parse("II. Коринќаните 1:1").osis()).toEqual("2Cor.1.1");
 		expect(p.parse("II. Коринтјани 1:1").osis()).toEqual("2Cor.1.1");
+		expect(p.parse("II. Коринќани 1:1").osis()).toEqual("2Cor.1.1");
 	});
 });
 describe("Localized book 2Cor (mkd)", () => {
@@ -1122,6 +1389,7 @@ describe("Localized book Gal (mkd)", () => {
 	});
 	it("should handle book: Gal (mkd)", () => {
 		expect(p.parse("Писмо од апостол Павле до христијаните во Галатија 1:1").osis()).toEqual("Gal.1.1");
+		expect(p.parse("Галатјаните 1:1").osis()).toEqual("Gal.1.1");
 		expect(p.parse("Галатјани 1:1").osis()).toEqual("Gal.1.1");
 		expect(p.parse("Галатите 1:1").osis()).toEqual("Gal.1.1");
 		expect(p.parse("Gal 1:1").osis()).toEqual("Gal.1.1");
@@ -1135,6 +1403,7 @@ describe("Localized book Eph (mkd)", () => {
 	});
 	it("should handle book: Eph (mkd)", () => {
 		expect(p.parse("Писмо од апостол Павле до христијаните во Ефес 1:1").osis()).toEqual("Eph.1.1");
+		expect(p.parse("Ефесјаните 1:1").osis()).toEqual("Eph.1.1");
 		expect(p.parse("Ефешаните 1:1").osis()).toEqual("Eph.1.1");
 		expect(p.parse("Ефесјани 1:1").osis()).toEqual("Eph.1.1");
 		expect(p.parse("Eph 1:1").osis()).toEqual("Eph.1.1");
@@ -1161,6 +1430,7 @@ describe("Localized book Col (mkd)", () => {
 	});
 	it("should handle book: Col (mkd)", () => {
 		expect(p.parse("Писмо од апостол Павле до христијаните во Колос 1:1").osis()).toEqual("Col.1.1");
+		expect(p.parse("Колосјаните 1:1").osis()).toEqual("Col.1.1");
 		expect(p.parse("Колошаните 1:1").osis()).toEqual("Col.1.1");
 		expect(p.parse("Колосјани 1:1").osis()).toEqual("Col.1.1");
 		expect(p.parse("Col 1:1").osis()).toEqual("Col.1.1");
@@ -1174,27 +1444,35 @@ describe("Localized book 1Thess (mkd)", () => {
 	});
 	it("should handle book: 1Thess (mkd)", () => {
 		expect(p.parse("Прва писмо од апостол Павле до христијаните во Солун 1:1").osis()).toEqual("1Thess.1.1");
+		expect(p.parse("Прва Солунјаните 1:1").osis()).toEqual("1Thess.1.1");
 		expect(p.parse("Прва Солунците 1:1").osis()).toEqual("1Thess.1.1");
 		expect(p.parse("Прва Солунјани 1:1").osis()).toEqual("1Thess.1.1");
 		expect(p.parse("Прва. писмо од апостол Павле до христијаните во Солун 1:1").osis()).toEqual("1Thess.1.1");
+		expect(p.parse("Прва. Солунјаните 1:1").osis()).toEqual("1Thess.1.1");
 		expect(p.parse("Прва. Солунците 1:1").osis()).toEqual("1Thess.1.1");
 		expect(p.parse("Прва. Солунјани 1:1").osis()).toEqual("1Thess.1.1");
 		expect(p.parse("Прво писмо од апостол Павле до христијаните во Солун 1:1").osis()).toEqual("1Thess.1.1");
+		expect(p.parse("Прво Солунјаните 1:1").osis()).toEqual("1Thess.1.1");
 		expect(p.parse("Прво Солунците 1:1").osis()).toEqual("1Thess.1.1");
 		expect(p.parse("Прво Солунјани 1:1").osis()).toEqual("1Thess.1.1");
 		expect(p.parse("Прво. писмо од апостол Павле до христијаните во Солун 1:1").osis()).toEqual("1Thess.1.1");
+		expect(p.parse("Прво. Солунјаните 1:1").osis()).toEqual("1Thess.1.1");
 		expect(p.parse("Прво. Солунците 1:1").osis()).toEqual("1Thess.1.1");
 		expect(p.parse("Прво. Солунјани 1:1").osis()).toEqual("1Thess.1.1");
 		expect(p.parse("1 писмо од апостол Павле до христијаните во Солун 1:1").osis()).toEqual("1Thess.1.1");
+		expect(p.parse("1 Солунјаните 1:1").osis()).toEqual("1Thess.1.1");
 		expect(p.parse("1 Солунците 1:1").osis()).toEqual("1Thess.1.1");
 		expect(p.parse("1 Солунјани 1:1").osis()).toEqual("1Thess.1.1");
 		expect(p.parse("1. писмо од апостол Павле до христијаните во Солун 1:1").osis()).toEqual("1Thess.1.1");
+		expect(p.parse("1. Солунјаните 1:1").osis()).toEqual("1Thess.1.1");
 		expect(p.parse("1. Солунците 1:1").osis()).toEqual("1Thess.1.1");
 		expect(p.parse("1. Солунјани 1:1").osis()).toEqual("1Thess.1.1");
 		expect(p.parse("I писмо од апостол Павле до христијаните во Солун 1:1").osis()).toEqual("1Thess.1.1");
+		expect(p.parse("I Солунјаните 1:1").osis()).toEqual("1Thess.1.1");
 		expect(p.parse("I Солунците 1:1").osis()).toEqual("1Thess.1.1");
 		expect(p.parse("I Солунјани 1:1").osis()).toEqual("1Thess.1.1");
 		expect(p.parse("I. писмо од апостол Павле до христијаните во Солун 1:1").osis()).toEqual("1Thess.1.1");
+		expect(p.parse("I. Солунјаните 1:1").osis()).toEqual("1Thess.1.1");
 		expect(p.parse("I. Солунците 1:1").osis()).toEqual("1Thess.1.1");
 		expect(p.parse("I. Солунјани 1:1").osis()).toEqual("1Thess.1.1");
 	});
@@ -1207,27 +1485,35 @@ describe("Localized book 2Thess (mkd)", () => {
 	});
 	it("should handle book: 2Thess (mkd)", () => {
 		expect(p.parse("Втора писмо од апостол Павле до христијаните во Солун 1:1").osis()).toEqual("2Thess.1.1");
+		expect(p.parse("Втора Солунјаните 1:1").osis()).toEqual("2Thess.1.1");
 		expect(p.parse("Втора Солунците 1:1").osis()).toEqual("2Thess.1.1");
 		expect(p.parse("Втора Солунјани 1:1").osis()).toEqual("2Thess.1.1");
 		expect(p.parse("Втора. писмо од апостол Павле до христијаните во Солун 1:1").osis()).toEqual("2Thess.1.1");
+		expect(p.parse("Втора. Солунјаните 1:1").osis()).toEqual("2Thess.1.1");
 		expect(p.parse("Втора. Солунците 1:1").osis()).toEqual("2Thess.1.1");
 		expect(p.parse("Втора. Солунјани 1:1").osis()).toEqual("2Thess.1.1");
 		expect(p.parse("Второ писмо од апостол Павле до христијаните во Солун 1:1").osis()).toEqual("2Thess.1.1");
+		expect(p.parse("Второ Солунјаните 1:1").osis()).toEqual("2Thess.1.1");
 		expect(p.parse("Второ Солунците 1:1").osis()).toEqual("2Thess.1.1");
 		expect(p.parse("Второ Солунјани 1:1").osis()).toEqual("2Thess.1.1");
 		expect(p.parse("Второ. писмо од апостол Павле до христијаните во Солун 1:1").osis()).toEqual("2Thess.1.1");
+		expect(p.parse("Второ. Солунјаните 1:1").osis()).toEqual("2Thess.1.1");
 		expect(p.parse("Второ. Солунците 1:1").osis()).toEqual("2Thess.1.1");
 		expect(p.parse("Второ. Солунјани 1:1").osis()).toEqual("2Thess.1.1");
 		expect(p.parse("2 писмо од апостол Павле до христијаните во Солун 1:1").osis()).toEqual("2Thess.1.1");
+		expect(p.parse("2 Солунјаните 1:1").osis()).toEqual("2Thess.1.1");
 		expect(p.parse("2 Солунците 1:1").osis()).toEqual("2Thess.1.1");
 		expect(p.parse("2 Солунјани 1:1").osis()).toEqual("2Thess.1.1");
 		expect(p.parse("2. писмо од апостол Павле до христијаните во Солун 1:1").osis()).toEqual("2Thess.1.1");
+		expect(p.parse("2. Солунјаните 1:1").osis()).toEqual("2Thess.1.1");
 		expect(p.parse("2. Солунците 1:1").osis()).toEqual("2Thess.1.1");
 		expect(p.parse("2. Солунјани 1:1").osis()).toEqual("2Thess.1.1");
 		expect(p.parse("II писмо од апостол Павле до христијаните во Солун 1:1").osis()).toEqual("2Thess.1.1");
+		expect(p.parse("II Солунјаните 1:1").osis()).toEqual("2Thess.1.1");
 		expect(p.parse("II Солунците 1:1").osis()).toEqual("2Thess.1.1");
 		expect(p.parse("II Солунјани 1:1").osis()).toEqual("2Thess.1.1");
 		expect(p.parse("II. писмо од апостол Павле до христијаните во Солун 1:1").osis()).toEqual("2Thess.1.1");
+		expect(p.parse("II. Солунјаните 1:1").osis()).toEqual("2Thess.1.1");
 		expect(p.parse("II. Солунците 1:1").osis()).toEqual("2Thess.1.1");
 		expect(p.parse("II. Солунјани 1:1").osis()).toEqual("2Thess.1.1");
 	});
@@ -1262,20 +1548,28 @@ describe("Localized book 1Tim (mkd)", () => {
 	});
 	it("should handle book: 1Tim (mkd)", () => {
 		expect(p.parse("Прва писмо од апостол Павле до Тимотеј 1:1").osis()).toEqual("1Tim.1.1");
+		expect(p.parse("Прва Тимотеева 1:1").osis()).toEqual("1Tim.1.1");
 		expect(p.parse("Прва Тимотеј 1:1").osis()).toEqual("1Tim.1.1");
 		expect(p.parse("Прва. писмо од апостол Павле до Тимотеј 1:1").osis()).toEqual("1Tim.1.1");
+		expect(p.parse("Прва. Тимотеева 1:1").osis()).toEqual("1Tim.1.1");
 		expect(p.parse("Прва. Тимотеј 1:1").osis()).toEqual("1Tim.1.1");
 		expect(p.parse("Прво писмо од апостол Павле до Тимотеј 1:1").osis()).toEqual("1Tim.1.1");
+		expect(p.parse("Прво Тимотеева 1:1").osis()).toEqual("1Tim.1.1");
 		expect(p.parse("Прво Тимотеј 1:1").osis()).toEqual("1Tim.1.1");
 		expect(p.parse("Прво. писмо од апостол Павле до Тимотеј 1:1").osis()).toEqual("1Tim.1.1");
+		expect(p.parse("Прво. Тимотеева 1:1").osis()).toEqual("1Tim.1.1");
 		expect(p.parse("Прво. Тимотеј 1:1").osis()).toEqual("1Tim.1.1");
 		expect(p.parse("1 писмо од апостол Павле до Тимотеј 1:1").osis()).toEqual("1Tim.1.1");
+		expect(p.parse("1 Тимотеева 1:1").osis()).toEqual("1Tim.1.1");
 		expect(p.parse("1 Тимотеј 1:1").osis()).toEqual("1Tim.1.1");
 		expect(p.parse("1. писмо од апостол Павле до Тимотеј 1:1").osis()).toEqual("1Tim.1.1");
+		expect(p.parse("1. Тимотеева 1:1").osis()).toEqual("1Tim.1.1");
 		expect(p.parse("1. Тимотеј 1:1").osis()).toEqual("1Tim.1.1");
 		expect(p.parse("I писмо од апостол Павле до Тимотеј 1:1").osis()).toEqual("1Tim.1.1");
+		expect(p.parse("I Тимотеева 1:1").osis()).toEqual("1Tim.1.1");
 		expect(p.parse("I Тимотеј 1:1").osis()).toEqual("1Tim.1.1");
 		expect(p.parse("I. писмо од апостол Павле до Тимотеј 1:1").osis()).toEqual("1Tim.1.1");
+		expect(p.parse("I. Тимотеева 1:1").osis()).toEqual("1Tim.1.1");
 		expect(p.parse("I. Тимотеј 1:1").osis()).toEqual("1Tim.1.1");
 	});
 });
@@ -1287,20 +1581,28 @@ describe("Localized book 2Tim (mkd)", () => {
 	});
 	it("should handle book: 2Tim (mkd)", () => {
 		expect(p.parse("Втора писмо од апостол Павле до Тимотеј 1:1").osis()).toEqual("2Tim.1.1");
+		expect(p.parse("Втора Тимотеева 1:1").osis()).toEqual("2Tim.1.1");
 		expect(p.parse("Втора Тимотеј 1:1").osis()).toEqual("2Tim.1.1");
 		expect(p.parse("Втора. писмо од апостол Павле до Тимотеј 1:1").osis()).toEqual("2Tim.1.1");
+		expect(p.parse("Втора. Тимотеева 1:1").osis()).toEqual("2Tim.1.1");
 		expect(p.parse("Втора. Тимотеј 1:1").osis()).toEqual("2Tim.1.1");
 		expect(p.parse("Второ писмо од апостол Павле до Тимотеј 1:1").osis()).toEqual("2Tim.1.1");
+		expect(p.parse("Второ Тимотеева 1:1").osis()).toEqual("2Tim.1.1");
 		expect(p.parse("Второ Тимотеј 1:1").osis()).toEqual("2Tim.1.1");
 		expect(p.parse("Второ. писмо од апостол Павле до Тимотеј 1:1").osis()).toEqual("2Tim.1.1");
+		expect(p.parse("Второ. Тимотеева 1:1").osis()).toEqual("2Tim.1.1");
 		expect(p.parse("Второ. Тимотеј 1:1").osis()).toEqual("2Tim.1.1");
 		expect(p.parse("2 писмо од апостол Павле до Тимотеј 1:1").osis()).toEqual("2Tim.1.1");
+		expect(p.parse("2 Тимотеева 1:1").osis()).toEqual("2Tim.1.1");
 		expect(p.parse("2 Тимотеј 1:1").osis()).toEqual("2Tim.1.1");
 		expect(p.parse("2. писмо од апостол Павле до Тимотеј 1:1").osis()).toEqual("2Tim.1.1");
+		expect(p.parse("2. Тимотеева 1:1").osis()).toEqual("2Tim.1.1");
 		expect(p.parse("2. Тимотеј 1:1").osis()).toEqual("2Tim.1.1");
 		expect(p.parse("II писмо од апостол Павле до Тимотеј 1:1").osis()).toEqual("2Tim.1.1");
+		expect(p.parse("II Тимотеева 1:1").osis()).toEqual("2Tim.1.1");
 		expect(p.parse("II Тимотеј 1:1").osis()).toEqual("2Tim.1.1");
 		expect(p.parse("II. писмо од апостол Павле до Тимотеј 1:1").osis()).toEqual("2Tim.1.1");
+		expect(p.parse("II. Тимотеева 1:1").osis()).toEqual("2Tim.1.1");
 		expect(p.parse("II. Тимотеј 1:1").osis()).toEqual("2Tim.1.1");
 	});
 });
