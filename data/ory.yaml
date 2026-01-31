@@ -1,0 +1,404 @@
+variables:
+  first: &first
+    - "1"
+    - ପ୍ର.
+    - ପ୍ରଥମ
+    - ୧
+  second: &second
+    - "2"
+    - ଦ୍ଵି.
+    - ଦ୍ଵିତୀୟ
+    - ଦ୍ୱି.
+    - ଦ୍ୱିତୀୟ
+    - ୨
+books:
+  - osis: Gen
+    texts:
+      - ମୋଶାଙ୍କ ଲିଖିତ ପ୍ରଥମ ପୁସ୍ତକ
+      - ଆଦି ପୁସ୍ତକ
+      - ଆଦି.
+  - osis: Exod
+    texts:
+      - ମୋଶାଙ୍କ ଲିଖିତ ଦ୍ୱିତୀୟ ପୁସ୍ତକ
+      - ଯାତ୍ରା ପୁସ୍ତକ
+      - ଯାତ୍ରା.
+  - osis: Lev
+    texts:
+      - ମୋଶାଙ୍କ ଲିଖିତ ତୃତୀୟ ପୁସ୍ତକ
+      - ଲେବୀୟ ପୁସ୍ତକ
+      - ଲେବୀ.
+  - osis: Num
+    texts:
+      - ମୋଶାଙ୍କ ଲିଖିତ ଚତୁର୍ଥ ପୁସ୍ତକ
+      - ଗଣନା ପୁସ୍ତକ
+      - ଗଣ.
+  - osis: Lam
+    texts:
+      - ଯିରିମୀୟଙ୍କ ବିଳାପ
+      - ବିଳା.
+      - ବିଳାପ
+  - osis: Rev
+    texts:
+      - ପ୍ରକାଶିତ ବାକ୍ୟ
+      - ପ୍ରକାଶିତ
+      - ପ୍ରକା.
+  - osis: Deut
+    texts:
+      - ମୋଶାଙ୍କ ଲିଖିତ ପଞ୍ଚମ ପୁସ୍ତକ
+      - ଦ୍ଵିତୀୟ ବିବରଣ
+      - ଦ୍ୱିତୀୟ ବିବରଣ
+      - ଦ୍ଵି. ବି.
+      - ଦ୍ବି.ବି.
+  - osis: Josh
+    texts:
+      - ଯିହୋଶୂୟ
+      - ଯିହୋ.
+  - osis: Judg
+    texts:
+      - ବିଚାରକର୍ତ୍ତା
+      - ବିଚାର.
+      - ବିଚା.
+  - osis: Ruth
+    texts:
+      - ରତର ବିବରଣ
+      - ରୂତ.
+      - ଋତ.
+      - ରତ.
+      - ରୂତ
+      - ଋତ
+  - osis: Isa
+    texts:
+      - ଯିଶାଇୟ
+      - ଯିଶା.
+      - ଯିଶା
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - ଶାମୁୟେଲ
+      - ଶା.
+  - osis: 1Sam
+    texts:
+      - ପ୍ର.ଶା.
+  - osis: 2Sam
+    texts:
+      - ଦ୍ବି.ଶା.
+      - ଦ୍ଵି.ଶା.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - ରାଜାବଳୀ
+      - ରା.
+  - osis: 1Kgs
+    texts:
+      - ପ୍ର.ରା.
+  - osis: 2Kgs
+    texts:
+      - ଦ୍ବି.ରା.
+      - ଦ୍ଵି.ରା.
+  - osis: 1Chr
+    texts:
+      - ପ୍ର.ବଂ.
+  - osis: 2Chr
+    texts:
+      - ଦ୍ବିତୀୟ ବଂଶାବଳୀ
+      - ଦ୍ବି.ବଂ.
+      - ଦ୍ଵି.ବଂ.
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - ବଂଶାବଳୀ
+      - ବଂ.
+  - osis: Ezra
+    texts:
+      - ଏଜ୍ରା.
+      - ଏଜ୍ରା
+  - osis: Neh
+    texts:
+      - ନିହିମିୟା
+      - ନିହିମୀୟା
+      - ନିହି.
+  - osis: Esth
+    texts:
+      - ଏଷ୍ଟ.
+      - ଏଷ୍ଟର
+  - osis: Job
+    texts:
+      - ଆୟୁବ.
+      - ଆୟୁ.
+      - ଆୟୁବ
+  - osis: Ps
+    texts:
+      - ଗୀତସଂହିତା
+      - ଗୀତ.
+  - osis: Prov
+    texts:
+      - ହିତୋପଦେଶ
+      - ହିତୋ.
+  - osis: Eccl
+    texts:
+      - ଉପଦେଶକ
+      - ଉପ.
+  - osis: Song
+    texts:
+      - ପରମ ଗୀତ
+      - ପ. ଗୀ.
+      - ପ.ଗୀ.
+  - osis: Jer
+    texts:
+      - ଯିରିମିୟ
+      - ଯିରିମୀୟ
+      - ଯିରି.
+  - osis: Ezek
+    texts:
+      - ଯିହିଜିକଲ ଭବିଷ୍ୟଦବକ୍ତାଙ୍କ ପୁସ୍ତକ
+      - ଯିହିଜିକଲ
+      - ଯିହି.
+  - osis: Dan
+    texts:
+      - ଦାନିୟେଲ
+      - ଦାନି.
+  - osis: Hos
+    texts:
+      - ହୋଶେ.
+      - ହୋଶେୟ
+  - osis: Joel
+    texts:
+      - ଯୋୟେ.
+      - ଯୋୟେଲ
+  - osis: Amos
+    texts:
+      - ଆମୋ.
+      - ଆମୋଷ
+  - osis: Obad
+    texts:
+      - ଓବଦିଅ
+      - ଓବଦୀୟ
+      - ଓବ.
+  - osis: Jonah
+    texts:
+      - ଯୂନ.
+      - ଯୂନସ
+  - osis: Mic
+    texts:
+      - ମୀଖା.
+      - ମୀଖା
+  - osis: Nah
+    texts:
+      - ନାହୂ.
+      - ନାହୂମ
+  - osis: Hab
+    texts:
+      - ହବ‌କ୍‌କୂକ
+      - ହବକ୍‍କୂକ
+      - ହବକ୍କୂକ
+      - ହବ.
+  - osis: Zeph
+    texts:
+      - ସିଫନିୟ
+      - ସିଫନୀୟ
+      - ସିଫ.
+  - osis: Hag
+    texts:
+      - ହାଗ.
+      - ହାଗୟ
+  - osis: Zech
+    texts:
+      - ଯିଖରିୟ
+      - ଯିଖରୀୟ
+      - ଯିଖ.
+  - osis: Mal
+    texts:
+      - ମଲାଖି.
+      - ମଲାଖୀ.
+      - ମଲାଖି
+      - ମଲାଖୀ
+  - osis: Matt
+    texts:
+      - ମାଥିଉଲିଖିତ ସୁସମାଚାର
+      - ମାଥି.
+      - ମାଥିଉ
+      - ମାଥି
+  - osis: Mark
+    texts:
+      - ମାର୍କଲିଖିତ ସୁସମାଚାର
+      - ମାର୍କ.
+      - ମାର୍କ
+  - osis: Luke
+    texts:
+      - ଲୂକ.
+      - ଲୂକ
+  - osis: 1John
+    texts:
+      - ଯୋହନଙ୍କ ପ୍ରଥମ ପତ୍ର
+  - osis: 2John
+    texts:
+      - ଯୋହନଙ୍କ ଦ୍ୱିତୀୟ ପତ୍ର
+  - osis: 3John
+    texts:
+      - ଯୋହନଙ୍କ ତୃତୀୟ ପତ୍ର
+      - ତୃ. ଯୋହ.
+      - ତୃ. ଯୋହ
+      - 3 ଯୋହନ
+      - ୩ ଯୋହନ
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - ଯୋହ.
+      - ଯୋହନ
+  - osis: John
+    texts:
+      - ଯୋହ.
+      - ଯୋହନ
+      - ଯୋହ
+  - osis: Acts
+    texts:
+      - ପ୍ରେରି.
+      - ପ୍ରେରିତ
+      - ପ୍ରେରି
+  - osis: Rom
+    texts:
+      - ରୋମୀ.
+      - ରୋମୀୟ
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - କରିନ୍ଥୀୟ
+      - କରିନ୍ଥୀ
+      - କରି.
+  - osis: 2Cor
+    texts:
+      - କରିନ୍ଥୀୟମାନଙ୍କ ନିକଟକୁ ପାଉଲଙ୍କ ଦ୍ୱିତୀୟ ପତ୍ର
+      - କରିନ୍ଥୀୟଙ୍କ ପ୍ରତି ଦ୍ୱିତୀୟ ପତ୍ର
+      - ଦ୍ଵି.କରି.
+      - ଦ୍ୱି.କରି.
+  - osis: 1Cor
+    texts:
+      - କରିନ୍ଥୀୟମାନଙ୍କ ନିକଟକୁ ପାଉଲଙ୍କ
+      - କରିନ୍ଥୀୟ
+      - ପ୍ର.କରି.
+  - osis: Col
+    texts:
+      - କଲସୀୟ
+      - କଲ.
+  - osis: Gal
+    texts:
+      - ଗାଲାତୀୟ
+      - ଗାଲାତୀ
+      - ଗାଲା.
+  - osis: Eph
+    texts:
+      - ଏଫିସୀୟ
+      - ଏଫିସୀ
+      - ଏଫି.
+  - osis: Phil
+    texts:
+      - ଫିଲି‌ପ୍‌ପୀୟ
+      - ଫିଲିପ୍‌ପୀ.
+      - ଫିଲିପ୍‍ପୀ.
+      - ଫିଲିପ୍‌ପୀୟ
+      - ଫିଲିପ୍‍ପୀୟ
+      - ଫିଲିପ୍ପୀୟ
+      - ଫିଲିପୀୟ
+      - ଫିଲି.
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - ଥେସଲନୀକୀୟ 1
+      - ଥେସଲନୀକୀୟ
+      - ଥେସଲନୀକୀ
+      - ଥେସ.
+  - osis: 1Thess
+    texts:
+      - ଥେସଲନିକୀୟମାନଙ୍କ ନିକଟକୁ ପାଉଲଙ୍କ ପ୍ରଥମ ପତ୍ର
+      - ପ୍ର.ଥେସ.
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - ଥେସଲନୀକୀୟ
+      - ଥେସଲନୀକୀ
+      - ଥେସ.
+  - osis: 2Thess
+    texts:
+      - ଥେସଲନିକୀୟମାନଙ୍କ ନିକଟକୁ ପାଉଲଙ୍କ ଦ୍ୱିତୀୟ ପତ୍ର
+      - ଦ୍ଵି.ଥେସ.
+      - ଦ୍ୱି.ଥେସ.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - ତୀମଥି
+      - ତୀମ.
+  - osis: 1Tim
+    texts:
+      - ତୀମଥିଙ୍କ ନିକଟକୁ ପାଉଲଙ୍କ ପ୍ରଥମ ପତ୍ର
+      - ପ୍ର.ତୀମ.
+  - osis: 2Tim
+    texts:
+      - ତୀମଥିଙ୍କ ନିକଟକୁ ପାଉଲଙ୍କ ଦ୍ୱିତୀୟ ପତ୍ର
+      - ଦ୍ଵି.ତୀମ.
+      - ଦ୍ୱି.ତୀମ.
+  - osis: Titus
+    texts:
+      - ତୀତସଙ୍କ ନିକଟକୁ ପାଉଲଙ୍କ ପତ୍ର
+      - ତୀତ.
+      - ତୀତସ
+  - osis: Phlm
+    texts:
+      - ଫିଲୀମୋନ
+      - ଫିଲୀମନ
+      - ଫିଲୀ.
+  - osis: Heb
+    texts:
+      - ହିବ୍ରୁମାନଙ୍କୁ ଲିଖିତ ପତ୍ର
+      - ଏବ୍ରୀ.
+      - ଏବ୍ରୀ
+  - osis: Jas
+    texts:
+      - ଯାକୁବଙ୍କ ପତ୍ର
+      - ଯାକୁ.
+      - ଯାକୁବ
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - ପିତ.
+      - ପିତର
+  - osis: 1Pet
+    texts:
+      - ପିତରଙ୍କ ପ୍ରଥମ ପତ୍ର
+  - osis: 2Pet
+    texts:
+      - ପିତରଙ୍କ ଦ୍ୱିତୀୟ ପତ୍ର
+  - osis: Jude
+    texts:
+      - ଯିହୁଦାଙ୍କ ପତ୍ର
+      - ଯିହୁଦା
+      - ଯିହୂଦା
+      - ଯିହୂ.
+translations:
+  - IRVORY
+  - ORYIRV
+  - OERV
+  - ODCLBSI
+  - ODIAOV-BSI

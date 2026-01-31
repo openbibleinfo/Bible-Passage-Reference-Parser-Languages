@@ -1,0 +1,143 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Liya ɗi Yesu
+      - Liy
+  - osis: Matt
+    texts:
+      - Matiyu
+      - Mat
+  - osis: Mark
+    texts:
+      - Markus
+      - Mk
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Yoh
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - Yohona
+  - osis: 2John
+    texts:
+      - 2Yoh
+  - osis: 3John
+    texts:
+      - 3 Yohana
+      - 3Yoh
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - Yohana
+  - osis: John
+    texts:
+      - Yohana
+      - Yoh
+  - osis: Acts
+    texts:
+      - Wale ɓipare
+      - Ɓip
+  - osis: Rom
+    texts:
+      - Romawa
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintiyawa
+  - osis: 1Cor
+    texts:
+      - 1Kor
+  - osis: 2Cor
+    texts:
+      - 2Kor
+  - osis: Col
+    texts:
+      - Kolosiyawa
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatiyawa
+      - Gal
+  - osis: Eph
+    texts:
+      - Afisawa
+      - Afis
+  - osis: Phil
+    texts:
+      - Filibiyawa
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tasalonikawa
+  - osis: 1Thess
+    texts:
+      - 1Tass
+  - osis: 2Thess
+    texts:
+      - 2Tass
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Titus
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filimon
+      - Filn
+  - osis: Heb
+    texts:
+      - Ibiraniyawa
+      - Ibiran
+  - osis: Jas
+    texts:
+      - Yakuɓu
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Bitrus
+  - osis: 1Pet
+    texts:
+      - 1Ɓit
+  - osis: 2Pet
+    texts:
+      - 2Bit
+  - osis: Jude
+    texts:
+      - Yahuda
+      - Yah
+translations:
+  - BCNNT

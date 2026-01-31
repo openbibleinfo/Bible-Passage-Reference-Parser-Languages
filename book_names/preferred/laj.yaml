@@ -1,0 +1,205 @@
+default:
+  1Chr:
+    long: 1 Tekwaro
+    short: 1 Tek.
+  1Cor:
+    long: 1 Korinti
+    short: 1 Kor.
+  1John:
+    long: 1 Lakana
+    short: 1 Lak.
+  1Kgs:
+    long: 1 Obakki
+    short: 1 Obak.
+  1Pet:
+    long: 1 Petero
+    short: 1 Pet.
+  1Sam:
+    long: 1 Camwiri
+    short: 1 Cam.
+  1Thess:
+    long: 1 Jo Tecalonika
+    short: 1 Tec.
+  1Tim:
+    long: 1 Temoteo
+    short: 1 Tem.
+  2Chr:
+    long: 2 Tekwaro
+    short: 2 Tek.
+  2Cor:
+    long: 2 Korinti
+    short: 2 Kor.
+  2John:
+    long: 2 Lakana
+    short: 2 Lak.
+  2Kgs:
+    long: 2 Obakki
+    short: 2 Obak.
+  2Pet:
+    long: 2 Petero
+    short: 2 Pet.
+  2Sam:
+    long: 2 Camwiri
+    short: 2 Cam.
+  2Thess:
+    long: 2 Jo Tecalonika
+    short: 2 Tec.
+  2Tim:
+    long: 2 Temoteo
+    short: 2 Tem.
+  3John:
+    long: 3 Lakana
+    short: 3 Lak.
+  Acts:
+    long: Tic
+    short: Tic
+  Amos:
+    long: Amoc
+    short: Amoc
+  Col:
+    long: Jo Kolocai
+    short: Kol.
+  Dan:
+    long: Danieri
+    short: Dan.
+  Deut:
+    long: Lodo Cik
+    short: Lodo
+  Eccl:
+    long: Arabkop
+    short: Arab.
+  Eph:
+    long: Epeco
+    short: Ep.
+  Esth:
+    long: Ecita
+    short: Ecita
+  Exod:
+    long: Yaa
+    short: Yaa
+  Ezek:
+    long: Ejekeri
+    short: Ejek.
+  Ezra:
+    long: Ejira
+    short: Eji.
+  Gal:
+    long: Jo Galatia
+    short: Gal.
+  Gen:
+    long: Agege
+    short: Age.
+  Hab:
+    long: Abakuk
+    short: Abak.
+  Hag:
+    long: Aggai
+    short: Agg.
+  Heb:
+    long: Jo Eburania
+    short: Eb.
+  Hos:
+    long: Kocea
+    short: Koc.
+  Isa:
+    long: Icaya
+    short: Ica.
+  Jas:
+    long: Yakobo
+    short: Yak.
+  Jer:
+    long: Jeremia
+    short: Jer.
+  Job:
+    long: Yubu
+    short: Yubu
+  Joel:
+    long: Joel
+    short: Joel
+  John:
+    long: Lakana
+    short: Lak.
+  Jonah:
+    long: Yona
+    short: Yon.
+  Josh:
+    long: Yocwa
+    short: Yoc.
+  Jude:
+    long: Juda
+    short: Jud.
+  Judg:
+    long: Oŋolkop
+    short: Oŋol.
+  Lam:
+    long: Wer Koko
+    short: Koko
+  Lev:
+    long: Olevi
+    short: Olev.
+  Luke:
+    long: Luka
+    short: Luk.
+  Mal:
+    long: Malaki
+    short: Mal.
+  Mark:
+    long: Marako
+    short: Mar.
+  Matt:
+    long: Matayo
+    short: Mat.
+  Mic:
+    long: Mika
+    short: Mik.
+  Nah:
+    long: Nakum
+    short: Nak.
+  Neh:
+    long: Nekemia
+    short: Nek.
+  Num:
+    long: Wel
+    short: Wel
+  Obad:
+    long: Obadia
+    short: Obad.
+  Phil:
+    long: Jo Pilipi
+    short: Pil.
+  Phlm:
+    long: Pilemon
+    short: Pile
+  Prov:
+    long: Carokop
+    short: Caro.
+  Ps:
+    long: Jabuli
+    short: Jab.
+  Rev:
+    long: Nyut a Lakana
+    short: Nyut
+  Rom:
+    long: Jo Roma
+    short: Rom.
+  Ruth:
+    long: Luci
+    short: Luci
+  Song:
+    long: Wer a Culeman
+    short: Wer
+  Titus:
+    long: Tito
+    short: Tit.
+  Zech:
+    long: Jekeria
+    short: Jek.
+  Zeph:
+    long: Jepania
+    short: Jep.
+translations:
+  lango:
+    Acts:
+      long: Tic Okwena
+    Eph:
+      long: Jo Epeco

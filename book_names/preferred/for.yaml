@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 Korinti
+    short: 1Ko
+  1John:
+    long: 1 Yoni
+    short: 1Yo
+  1Pet:
+    long: 1 Pita
+    short: 1Pi
+  1Thess:
+    long: 1 Tesaronaika
+    short: 1Te
+  1Tim:
+    long: 1 Timoti
+    short: 1Ti
+  2Cor:
+    long: 2 Korinti
+    short: 2Ko
+  2John:
+    long: 2 Yoni
+    short: 2Yo
+  2Pet:
+    long: 2 Pita
+    short: 2Pi
+  2Thess:
+    long: 2 Tesaronaika
+    short: 2Te
+  2Tim:
+    long: 2 Timoti
+    short: 2Ti
+  3John:
+    long: 3 Yoni
+    short: 3Yo
+  Acts:
+    long: Aposoro
+    short: Ap
+  Col:
+    long: Korosi
+    short: Kor
+  Eph:
+    long: Epesasi
+    short: Ep
+  Gal:
+    long: Karesiya
+    short: Kar
+  Heb:
+    long: Iburu
+    short: Ib
+  Jas:
+    long: Yemisi
+    short: Yem
+  John:
+    long: Yoni
+    short: Yo
+  Jude:
+    long: Yuta
+    short: Yut
+  Luke:
+    long: Aruku
+    short: Aruk
+  Mark:
+    long: Maka
+    short: Mk
+  Matt:
+    long: Matiyu
+    short: Mt
+  Phil:
+    long: Piripai
+    short: Pir
+  Phlm:
+    long: Pirimoni
+    short: Prm
+  Rev:
+    long: Areberesoni
+    short: Areb
+  Rom:
+    long: aRoma
+    short: aRom
+  Titus:
+    long: Taitasi
+    short: Tai

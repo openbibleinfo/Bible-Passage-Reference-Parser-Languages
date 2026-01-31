@@ -1,0 +1,177 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Иоанние Аллагьас загьир гьарурал ишал
+  - osis: Ruth
+    texts:
+      - Рут
+  - osis: 1Kgs
+    texts:
+      - 3 Пачаби
+      - 3 Пач.
+  - osis: 2Kgs
+    texts:
+      - 4 Пачаби
+      - 4 Пач.
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Пачаби
+      - Пач.
+  - osis: Esth
+    texts:
+      - Эстер
+  - osis: Prov
+    texts:
+      - Гӏакъилал рагӀаби
+  - osis: Dan
+    texts:
+      - Даниял
+      - Дан.
+  - osis: Jonah
+    texts:
+      - Юнус
+  - osis: Matt
+    texts:
+      - Матфейица бицараб Рохалил хабар
+      - Матфей
+      - Мат.
+  - osis: Mark
+    texts:
+      - Маркица бицараб Рохалил хабар
+      - Мар.
+      - Марк
+  - osis: Luke
+    texts:
+      - Лукаца бицараб Рохалил хабар
+      - Лук.
+      - Лука
+  - osis: 1John
+    texts:
+      - Иоаннил тӀоцебесеб кагъат
+  - osis: 2John
+    texts:
+      - Иоаннил кӀиабилеб кагъат
+  - osis: 3John
+    texts:
+      - Иоаннил лъабабилеб кагъат
+      - 3 Ин.
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Ин.
+  - osis: John
+    texts:
+      - Иоанница бицараб Рохалил хабар
+      - Иоанн
+      - Ин.
+  - osis: Acts
+    texts:
+      - Чапарзабазул ишал
+      - Чап.
+  - osis: Rom
+    texts:
+      - Румазухъе кагъат
+      - Рум.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Кор.
+  - osis: 1Cor
+    texts:
+      - Коринфиязухъе тӀоцебесеб кагъат
+  - osis: 2Cor
+    texts:
+      - Коринфиязухъе кӀиабилеб кагъат
+  - osis: Col
+    texts:
+      - Колоссиязухъе кагъат
+      - Кол.
+  - osis: Gal
+    texts:
+      - Галатиязухъе кагъат
+      - Гал.
+  - osis: Eph
+    texts:
+      - Эфесиязухъе кагъат
+      - Эф.
+  - osis: Phil
+    texts:
+      - Филиппиязухъе кагъат
+      - Филип.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Фес.
+  - osis: 1Thess
+    texts:
+      - Фессалоникиязухъе тӀоцебесеб кагъат
+  - osis: 2Thess
+    texts:
+      - Фессалоникиязухъе кӀиабилеб кагъат
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Тим.
+  - osis: 1Tim
+    texts:
+      - Тимофейихъе тӀоцебесеб кагъат
+  - osis: 2Tim
+    texts:
+      - Тимофейихъе кӀиабилеб кагъат
+  - osis: Titus
+    texts:
+      - Титихъе кагъат
+      - Тит.
+  - osis: Phlm
+    texts:
+      - Филемонихъе кагъат
+      - Филим.
+  - osis: Heb
+    texts:
+      - ЖугьутӀазухъе кагъат
+      - Жугь.
+  - osis: Jas
+    texts:
+      - Якъубил кагъат
+      - Якъ.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Пёт.
+  - osis: 1Pet
+    texts:
+      - Пётрил тӀоцебесеб кагъат
+  - osis: 2Pet
+    texts:
+      - Пётрил кӀиабилеб кагъат
+  - osis: Jude
+    texts:
+      - Ягьудал кагъат
+      - Ягь.
+translations:
+  - AVABBL
+  - AVRNT

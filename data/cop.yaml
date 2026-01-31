@@ -1,0 +1,101 @@
+variables:
+  first: &first
+    - Ⲡⲣⲟⲥ
+  second: &second
+    - Ⲡⲣⲟⲥ
+books:
+  - osis: Rev
+    texts:
+      - Ϯⲁ̀ⲡⲟⲕⲁⲗⲩⲙⲯⲓⲥ
+  - osis: Matt
+    texts:
+      - Ⲙⲁⲧⲑⲉⲟⲛ
+  - osis: Mark
+    texts:
+      - Ⲙⲁⲣⲕⲟⲛ
+  - osis: Luke
+    texts:
+      - Ⲗⲟⲩⲕⲁⲛ
+  - osis: 1John
+    texts:
+      - Ⲓⲱⲁⲛⲛⲏⲥ ⲁ̅
+  - osis: 2John
+    texts:
+      - Ⲓⲱⲁⲛⲛⲏⲥ ⲃ̅
+  - osis: 3John
+    texts:
+      - Ⲓⲱⲁⲛⲛⲏⲥ ⲅ̅
+  - osis: John
+    texts:
+      - Ⲓⲱⲁⲛⲛⲏⲛ
+  - osis: Acts
+    texts:
+      - Ⲛⲓⲡ̀ⲣⲁⲝⲓⲥ
+  - osis: Rom
+    texts:
+      - Ⲡⲣⲟⲥ Ⲣⲱⲙⲉⲟⲥ
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Ⲕⲟⲣⲓⲛⲑⲓⲟⲥ ⲁ̅
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Ⲕⲟⲣⲓⲛⲑⲓⲟⲥ ⲃ̅
+  - osis: Col
+    texts:
+      - Ⲡⲣⲟⲥ Ⲕⲟⲕⲁⲥⲥⲓⲁⲥ
+  - osis: Gal
+    texts:
+      - Ⲡⲣⲟⲥ Ⲅⲁⲕⲁⲧⲏⲥ
+  - osis: Eph
+    texts:
+      - Ⲡⲣⲟⲥ Ⲉ̇ⲫⲉⲥⲓⲟⲩⲥ
+  - osis: Phil
+    texts:
+      - Ⲡⲣⲟⲥ Ⲫⲓⲕⲓⲡⲡⲟⲓⲥ
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Ⲑⲉⲥⲥⲁⲕⲟⲛⲓⲏⲏ ⲁ̅
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Ⲑⲉⲥⲥⲁⲕⲟⲛⲓⲏⲏ ⲃ̅
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Ⲧⲓⲙⲟⲑⲉⲟⲥ ⲁ̅
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Ⲧⲓⲙⲟⲑⲉⲟⲥ ⲃ̅
+  - osis: Titus
+    texts:
+      - Ⲡⲣⲟⲥ Ⲧⲓⲧⲟⲥ
+  - osis: Phlm
+    texts:
+      - Ⲡⲣⲟⲥ Ⲫⲓⲗⲏⲙⲱⲛ
+  - osis: Heb
+    texts:
+      - Ⲡⲣⲟⲥ Ϩⲉⲃⲣⲉⲟⲥ
+  - osis: Jas
+    texts:
+      - Ⲓⲁⲕⲱⲃⲟⲥ
+  - osis: 1Pet
+    texts:
+      - Ⲡⲉⲧⲣⲟⲥ ⲁ̅
+  - osis: 2Pet
+    texts:
+      - Ⲡⲉⲧⲣⲟⲥ ⲃ̅
+  - osis: Jude
+    texts:
+      - Ⲓⲟⲩⲇⲁⲥ
+translations:
+  - CNTV

@@ -1,0 +1,337 @@
+variables:
+  first: &first
+    - "1"
+    - Nabe
+  second: &second
+    - "2"
+    - Ucab
+books:
+  - osis: Gen
+    texts:
+      - Chapletajic
+      - Gn
+  - osis: Exod
+    texts:
+      - Elem
+      - Ex
+  - osis: Lev
+    texts:
+      - Aj Levitib
+      - Lv
+  - osis: Num
+    texts:
+      - Ajilanic
+      - Nm
+  - osis: Lam
+    texts:
+      - Juyuwem
+      - Lm
+  - osis: Rev
+    texts:
+      - Ri K'alajisanic
+      - Apocalipsis
+      - Ap
+  - osis: Deut
+    texts:
+      - U Camulixic ri Pixab
+      - Dt
+  - osis: Josh
+    texts:
+      - Ri Josue
+      - Jos
+  - osis: Judg
+    texts:
+      - K'atal tak Tzij
+      - Jue
+  - osis: Ruth
+    texts:
+      - Ri Rut
+      - Rt
+  - osis: Isa
+    texts:
+      - Ri Isaiy
+      - Is
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - S
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Ajawinelab
+      - R
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Tzijobelil
+      - Cr
+  - osis: Ezra
+    texts:
+      - Ri Esdras
+      - Esd
+  - osis: Neh
+    texts:
+      - Ri Nehemiy
+      - Neh
+  - osis: Esth
+    texts:
+      - Ri Ester
+      - Est
+  - osis: Job
+    texts:
+      - Ri Job
+      - Job
+  - osis: Ps
+    texts:
+      - Salmib
+      - Sal
+  - osis: Prov
+    texts:
+      - E C'ambal tak Tzij
+      - Pr
+  - osis: Eccl
+    texts:
+      - Ri Tzijonel
+      - Ec
+  - osis: Song
+    texts:
+      - Bixonic Tak
+      - Cnt
+  - osis: Jer
+    texts:
+      - Ri Jeremiy
+      - Jr
+  - osis: Ezek
+    texts:
+      - Ri Ezequiel
+      - Ez
+  - osis: Dan
+    texts:
+      - Ri Daniel
+      - Dn
+  - osis: Hos
+    texts:
+      - Ri Osey
+      - Os
+  - osis: Joel
+    texts:
+      - Ri Joel
+      - Jl
+  - osis: Amos
+    texts:
+      - Ri Amos
+      - Am
+  - osis: Obad
+    texts:
+      - Ri Abdiy
+      - Abd
+  - osis: Jonah
+    texts:
+      - Ri Jonas
+      - Jon
+  - osis: Mic
+    texts:
+      - Ri Miquey
+      - Mi
+  - osis: Nah
+    texts:
+      - Ri Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Ri Habacuc
+      - Hab
+  - osis: Zeph
+    texts:
+      - Ri Soponiy
+      - Sof
+  - osis: Hag
+    texts:
+      - Ri Hajey
+      - Hag
+  - osis: Zech
+    texts:
+      - Ri Zacariy
+      - Zac
+  - osis: Mal
+    texts:
+      - Ri Malaquiy
+      - Mal
+  - osis: Matt
+    texts:
+      - San Mateo
+      - Ri Matey
+      - Mateo
+      - Mt
+  - osis: Mark
+    texts:
+      - San Marcos
+      - Ri Marcux
+      - Marcos
+      - Mr
+  - osis: Luke
+    texts:
+      - San Lucas
+      - Ri Lucax
+      - Lucas
+      - Lc
+  - osis: 1John
+    texts:
+      - 1Jn
+  - osis: 2John
+    texts:
+      - 2Jn
+  - osis: 3John
+    texts:
+      - Urox Xuan
+      - 3 Juan
+      - 3 Jn
+      - 3Jn
+  - osis: John
+    texts:
+      - San Juan
+      - Ri Xuan
+      - Juan
+      - Jn
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Juan
+      - Xuan
+      - Jn
+  - osis: Acts
+    texts:
+      - Hechos
+      - Banoj
+      - Hch
+  - osis: Rom
+    texts:
+      - Aj Romab
+      - Romanos
+      - Rom
+      - Ro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - aj Corintib
+      - Corintios
+      - Co
+  - osis: 1Cor
+    texts:
+      - 1Co
+  - osis: 2Cor
+    texts:
+      - 2Co
+  - osis: Col
+    texts:
+      - Aj Colosayib
+      - Colosenses
+      - Col
+  - osis: Gal
+    texts:
+      - Aj Galasib
+      - Gálatas
+      - Ga
+      - Gá
+  - osis: Eph
+    texts:
+      - Aj Epesib
+      - Efesios
+      - Ef
+  - osis: Phil
+    texts:
+      - Aj Pilipsib
+      - Filipenses
+      - Fil
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - aj Tesaloniquib
+      - Tesalonicenses
+      - Ts
+  - osis: 1Thess
+    texts:
+      - 1Ts
+  - osis: 2Thess
+    texts:
+      - 2Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+      - Timotey
+      - Ti
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Ri Tit
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Ri Pilemon
+      - Filemón
+      - Flm
+  - osis: Heb
+    texts:
+      - Aj Hebreyib
+      - Hebreos
+      - Heb
+      - He
+  - osis: Jas
+    texts:
+      - Ri Santiag
+      - Santiago
+      - Stg
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pedro
+      - Lu'
+      - Pe
+  - osis: 1Pet
+    texts:
+      - 1P
+  - osis: 2Pet
+    texts:
+      - 2P
+  - osis: Jude
+    texts:
+      - Ri Juds
+      - Judas
+      - Jud
+translations:
+  - QUC
+  - QUICH1
+  - QUTTOT22

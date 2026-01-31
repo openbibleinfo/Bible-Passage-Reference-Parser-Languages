@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 Kɔlɛ̂ŋtɛ
+    short: 1Kɔ
+  1John:
+    long: 1 Jɑ̂ŋ
+    short: 1Jŋ
+  1Pet:
+    long: 1 Pyɛ̂
+    short: 1Py
+  1Thess:
+    long: 1 Tɛsɑlɔník
+    short: 1Ts
+  1Tim:
+    long: 1 Timɔtɛ́ɛ
+    short: 1Tm
+  2Cor:
+    long: 2 Kɔlɛ̂ŋtɛ
+    short: 2Kɔ
+  2John:
+    long: 2 Jɑ̂ŋ
+    short: 2Jŋ
+  2Pet:
+    long: 2 Pyɛ̂
+    short: 2Py
+  2Thess:
+    long: 2 Tɛsɑlɔník
+    short: 2Ts
+  2Tim:
+    long: 2 Timɔtɛ́ɛ
+    short: 2Tm
+  3John:
+    long: 3 Jɑ̂ŋ
+    short: 3Jŋ
+  Acts:
+    long: ŊwɑꞋnɛ-Gɑŋntúu Yɛ́su Kɛlístɔ
+    short: Gɑŋ
+  Col:
+    long: Kɔlɔsíyɛ̂ŋ
+    short: Kɔl
+  Eph:
+    long: Ɛ́fɛ̂zɛ
+    short: Ɛ́fɛ̂
+  Gal:
+    long: Ŋɡɑlɑ̂t
+    short: Ŋɡɑ
+  Heb:
+    long: Ɛ́bɛlʉʉ
+    short: Ɛ́bɛ
+  Jas:
+    long: Jɑ̂k
+    short: Jɑ̂k
+  John:
+    long: Jɑ̂ŋ
+    short: Jɑ̂ŋ
+  Jude:
+    long: Jẅidɛ
+    short: Jẅd
+  Luke:
+    long: Lúkɑ́shi
+    short: Luk
+  Mark:
+    long: Mɑ́lɛ́kúshi
+    short: Mɑ́l
+  Matt:
+    long: Mɑtʉ̈ɔ
+    short: Mɑt
+  Phil:
+    long: Filipɛ
+    short: Fil
+  Phlm:
+    long: Filɛmɔ̂ŋ
+    short: Flm
+  Rev:
+    long: Mɛnu ɛ́ ńdɑ́Ꞌ ńcẅɛt
+    short: Mdc
+  Rom:
+    long: Pʉɔ-Lɔ́mɑ
+    short: Lɔ́m
+  Titus:
+    long: Tîtɛ
+    short: Tît

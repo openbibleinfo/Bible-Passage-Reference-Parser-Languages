@@ -1,0 +1,87 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Matt
+    texts:
+      - Matiyu
+      - Mat
+  - osis: Mark
+    texts:
+      - Maka
+  - osis: Luke
+    texts:
+      - Luka
+  - osis: 1John
+    texts:
+      - 1Yon
+  - osis: 2John
+    texts:
+      - 2Yon
+  - osis: 3John
+    texts:
+      - 3 Yonee
+      - 3Yon
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yonee
+  - osis: John
+    texts:
+      - Yonee
+      - Yon
+  - osis: Acts
+    texts:
+      - Diye Di Odoo
+      - Diye
+  - osis: Rom
+    texts:
+      - Loum
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonika
+  - osis: 1Thess
+    texts:
+      - 1Tes
+  - osis: 2Thess
+    texts:
+      - 2Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Taites
+      - Tait
+  - osis: Phlm
+    texts:
+      - Palimon
+      - Pal
+  - osis: Jas
+    texts:
+      - Yemes
+      - Yem
+  - osis: Jude
+    texts:
+      - Yuda
+translations:
+  - KKC

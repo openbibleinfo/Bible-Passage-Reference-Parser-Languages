@@ -1,0 +1,293 @@
+default:
+  1Chr:
+    long: Nabe Tzijobelil
+    short: 1 Cr
+  1Cor:
+    long: 1 Corintios
+    short: 1 Co
+  1John:
+    long: 1 Juan
+    short: 1 Jn
+  1Kgs:
+    long: Nabe Ajawinelab
+    short: 1 R
+  1Pet:
+    long: 1 Pedro
+    short: 1 Pe
+  1Sam:
+    long: Nabe Samuel
+    short: 1 S
+  1Thess:
+    long: 1 Tesalonicenses
+    short: 1 Ts
+  1Tim:
+    long: 1 Timoteo
+    short: 1 Ti
+  2Chr:
+    long: Ucab Tzijobelil
+    short: 2 Cr
+  2Cor:
+    long: 2 Corintios
+    short: 2 Co
+  2John:
+    long: 2 Juan
+    short: 2 Jn
+  2Kgs:
+    long: Ucab Ajawinelab
+    short: 2 R
+  2Pet:
+    long: 2 Pedro
+    short: 2 Pe
+  2Sam:
+    long: Ucab Samuel
+    short: 2 S
+  2Thess:
+    long: 2 Tesalonicenses
+    short: 2 Ts
+  2Tim:
+    long: 2 Timoteo
+    short: 2 Ti
+  3John:
+    long: 3 Juan
+    short: 3 Jn
+  Acts:
+    long: Hechos
+    short: Hch
+  Amos:
+    long: Ri Amos
+    short: Am
+  Col:
+    long: Colosenses
+    short: Col
+  Dan:
+    long: Ri Daniel
+    short: Dn
+  Deut:
+    long: U Camulixic ri Pixab
+    short: Dt
+  Eccl:
+    long: Ri Tzijonel
+    short: Ec
+  Eph:
+    long: Efesios
+    short: Ef
+  Esth:
+    long: Ri Ester
+    short: Est
+  Exod:
+    long: Elem
+    short: Ex
+  Ezek:
+    long: Ri Ezequiel
+    short: Ez
+  Ezra:
+    long: Ri Esdras
+    short: Esd
+  Gal:
+    long: Gálatas
+    short: Gá
+  Gen:
+    long: Chapletajic
+    short: Gn
+  Hab:
+    long: Ri Habacuc
+    short: Hab
+  Hag:
+    long: Ri Hajey
+    short: Hag
+  Heb:
+    long: Hebreos
+    short: Heb
+  Hos:
+    long: Ri Osey
+    short: Os
+  Isa:
+    long: Ri Isaiy
+    short: Is
+  Jas:
+    long: Santiago
+    short: Stg
+  Jer:
+    long: Ri Jeremiy
+    short: Jr
+  Job:
+    long: Ri Job
+    short: Job
+  Joel:
+    long: Ri Joel
+    short: Jl
+  John:
+    long: San Juan
+    short: Jn
+  Jonah:
+    long: Ri Jonas
+    short: Jon
+  Josh:
+    long: Ri Josue
+    short: Jos
+  Jude:
+    long: Judas
+    short: Jud
+  Judg:
+    long: K'atal tak Tzij
+    short: Jue
+  Lam:
+    long: Juyuwem
+    short: Lm
+  Lev:
+    long: Aj Levitib
+    short: Lv
+  Luke:
+    long: San Lucas
+    short: Lc
+  Mal:
+    long: Ri Malaquiy
+    short: Mal
+  Mark:
+    long: San Marcos
+    short: Mr
+  Matt:
+    long: San Mateo
+    short: Mt
+  Mic:
+    long: Ri Miquey
+    short: Mi
+  Nah:
+    long: Ri Nahum
+    short: Nah
+  Neh:
+    long: Ri Nehemiy
+    short: Neh
+  Num:
+    long: Ajilanic
+    short: Nm
+  Obad:
+    long: Ri Abdiy
+    short: Abd
+  Phil:
+    long: Filipenses
+    short: Fil
+  Phlm:
+    long: Filemón
+    short: Flm
+  Prov:
+    long: E C'ambal tak Tzij
+    short: Pr
+  Ps:
+    long: Salmib
+    short: Sal
+  Rev:
+    long: Apocalipsis
+    short: Ap
+  Rom:
+    long: Romanos
+    short: Ro
+  Ruth:
+    long: Ri Rut
+    short: Rt
+  Song:
+    long: Bixonic Tak
+    short: Cnt
+  Titus:
+    long: Tito
+    short: Tit
+  Zech:
+    long: Ri Zacariy
+    short: Zac
+  Zeph:
+    long: Ri Soponiy
+    short: Sof
+translations:
+  quttot22:
+    1Cor:
+      short: 1Co
+    1John:
+      short: 1Jn
+    1Pet:
+      short: 1P
+    1Thess:
+      short: 1Ts
+    1Tim:
+      short: 1Ti
+    2Cor:
+      short: 2Co
+    2John:
+      short: 2Jn
+    2Pet:
+      short: 2P
+    2Thess:
+      short: 2Ts
+    2Tim:
+      short: 2Ti
+    3John:
+      short: 3Jn
+    John:
+      long: Juan
+    Luke:
+      long: Lucas
+    Mark:
+      long: Marcos
+    Matt:
+      long: Mateo
+  quich1:
+    1Cor:
+      long: Nabe aj Corintib
+    1John:
+      long: Nabe Xuan
+    1Pet:
+      long: Nabe Lu'
+    1Thess:
+      long: Nabe aj Tesaloniquib
+    1Tim:
+      long: Nabe Timotey
+    2Cor:
+      long: Ucab aj Corintib
+    2John:
+      long: Ucab Xuan
+    2Pet:
+      long: Ucab Lu'
+    2Thess:
+      long: Ucab aj Tesaloniquib
+    2Tim:
+      long: Ucab Timotey
+    3John:
+      long: Urox Xuan
+    Acts:
+      long: Banoj
+    Col:
+      long: Aj Colosayib
+    Eph:
+      long: Aj Epesib
+    Gal:
+      long: Aj Galasib
+      short: Ga
+    Heb:
+      long: Aj Hebreyib
+      short: He
+    Jas:
+      long: Ri Santiag
+    John:
+      long: Ri Xuan
+    Jude:
+      long: Ri Juds
+    Luke:
+      long: Ri Lucax
+    Mark:
+      long: Ri Marcux
+    Matt:
+      long: Ri Matey
+    Phil:
+      long: Aj Pilipsib
+    Phlm:
+      long: Ri Pilemon
+    Rev:
+      long: Ri K'alajisanic
+    Rom:
+      long: Aj Romab
+    Titus:
+      long: Ri Tit
+  quc:
+    Phil:
+      short: Flp
+    Rom:
+      short: Rom

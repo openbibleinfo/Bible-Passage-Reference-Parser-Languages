@@ -1,0 +1,96 @@
+variables:
+  first: &first
+    - ୧
+  second: &second
+    - ୨
+  third: &third
+    - ୩
+books:
+  - osis: Rev
+    texts:
+      - ପ୍ରକାସିତ୍‌
+  - osis: Matt
+    texts:
+      - ମାତିଉ
+  - osis: Mark
+    texts:
+      - ମାର୍‌କ
+  - osis: Luke
+    texts:
+      - ଲୁକ୍‌
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - ଜହନ୍‌
+  - osis: Acts
+    texts:
+      - ପ୍ରେରିତ୍‌
+  - osis: Rom
+    texts:
+      - ରମିୟ
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - କରିନ୍‌ତିୟ
+  - osis: Col
+    texts:
+      - କଲସିୟ
+  - osis: Gal
+    texts:
+      - ଗାଲାତିୟ
+  - osis: Eph
+    texts:
+      - ଏପିସିୟ
+  - osis: Phil
+    texts:
+      - ପିଲିପିୟ
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - ତେସଲନିକିୟ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - ତିମତି
+  - osis: Titus
+    texts:
+      - ତିତସ୍‌
+  - osis: Phlm
+    texts:
+      - ପିଲିମନ୍‌
+  - osis: Heb
+    texts:
+      - ଏବ୍‌ରି
+  - osis: Jas
+    texts:
+      - ଜାକୁବ୍‌
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - ପିତର୍‌
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - ପିତର
+  - osis: Jude
+    texts:
+      - ଜିଉଦା
+translations:
+  - NTDAA20

@@ -1,0 +1,117 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Yihokora
+      - Yih
+  - osis: Ps
+    texts:
+      - Rukwaro Romiposalemi
+      - Pisal
+  - osis: Matt
+    texts:
+      - Mateghusi
+      - Mat
+  - osis: Mark
+    texts:
+      - Markusi
+      - Mark
+  - osis: Luke
+    texts:
+      - Lukasi
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Johannesi
+      - Joh
+  - osis: Acts
+    texts:
+      - Yitenda ya Wapostoli
+      - Yitenda
+  - osis: Rom
+    texts:
+      - Hakaroma
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Hakorinte
+      - Kor
+  - osis: Col
+    texts:
+      - Hakakolose
+      - Kol
+  - osis: Gal
+    texts:
+      - Hakagalasiye
+      - Gal
+  - osis: Eph
+    texts:
+      - Hakaefesusi
+      - Ef
+  - osis: Phil
+    texts:
+      - Hakafilipi
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Hakatesalonika
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteghusi
+      - Tim
+  - osis: Titus
+    texts:
+      - Titusi
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemoni
+      - Filem
+  - osis: Heb
+    texts:
+      - Haheburayi
+      - Heb
+  - osis: Jas
+    texts:
+      - Jakobusi
+      - Jak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petrusi
+      - Pet
+  - osis: Jude
+    texts:
+      - Judasi
+      - Jud
+translations:
+  - MHW1986

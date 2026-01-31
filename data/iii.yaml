@@ -1,0 +1,101 @@
+variables:
+  first: &first
+    - Ţǁ
+  second: &second
+    - Ţǁ
+books:
+  - osis: Rev
+    texts:
+      - ţ̦̔Ħ ŧŉ ųǒ
+  - osis: Matt
+    texts:
+      - ŭŋ Ť̟Ħ Ť̕ Ŵ̦
+  - osis: Mark
+    texts:
+      - Ŭŋ ŧĦǑ Ť̕ Ŵ̦
+  - osis: Luke
+    texts:
+      - Ŭǒ Ū̐ Ť̕ Ŵ̦
+  - osis: 1John
+    texts:
+      - Źǒ Ũǎ Ťŕŋ ųǒ
+  - osis: 2John
+    texts:
+      - Źǒ Ũǎ Ṳ̊ ųǒ
+  - osis: 3John
+    texts:
+      - Źǒ Ũǎ ųǁ ųǒ
+  - osis: John
+    texts:
+      - Źǒ Ũǎ Ť̕ Ŵ̦
+  - osis: Acts
+    texts:
+      - Ŵǐ Ŭ̗ Ů̕ ŧŵ Ūƹ
+  - osis: Rom
+    texts:
+      - Ţǁ Ŭů Ůŧǒ Ŭů ŭǃ Ŷǁ Ŵħǁ Ť̕ Ťŕĺ ųǒ
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Ŭůůŧǒ ŧ̥ Ŭũ Ůť̥ Ŷǁ Ŵħǁ Ť̕ Ťŕĺ Ṳ̙̄ ųǒ
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Ŭů Ůūǒ ŧ̥ Ŭũ Ůť̥ Ŷǁ Ŵħǁ Ť̕ Ťŕĺ Ț̌ ųǒ
+  - osis: Col
+    texts:
+      - Ţǁ Ŭů Ůūǒ ŧ̥ Ŭů Ÿ̤ Ŷǁ Ŵħǁ Ť̕ Ťŕĺ ųǒ
+  - osis: Gal
+    texts:
+      - Ţǁ Ŭůůūǒ Ū̐ Ŭ̗ Ťħǌ Ŷǁ Ŵħǁ Ť̕ Ťŕĺ ųǒ
+  - osis: Eph
+    texts:
+      - Ţǁ Ŭů Ůūǒ šǐ Ŧŵ ųǑŶǁ Ŵħǁ Ť̕ Ťŕĺ ųǒ
+  - osis: Phil
+    texts:
+      - Ţǁ Ŭů Ůūǒ Ŧǆ Ŭǐ Ţǐ Ŷǁ Ŵħǁ Ť̕ Ťŕĺ ųǒ
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Ŭů Ůūǒ Ťŕũŏ ųŋ Ŭů Ůũ Ū̐ Ŷǁ Ŵħǁ Ť̕ Ťŕĺ Ṳ̙̄ ųǒ
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Ŭů Ůūƪ Ťŕũŏ ųŋ Ŭũ Ůũ Ū̐ Ŷǁ Ŵħǁ Ť̕ Ťŕĺ Ț̌ ųǒ
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Ŭůůūǒ Ťŕũ ŭǑ Ťħǌ Ť̕ Ťŕĺ Ṳ̙̄ ųǒ
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Ŭůůūǒ Ťŕũ ŭǑ Ťħǌ Ť̕ Ťŕĺ Ț̌ ųǒ
+  - osis: Titus
+    texts:
+      - Ţǁ Ŭů ŮūǑ Ťŕũ Ť̥Ť̕ Ťŕĺ ųǒ
+  - osis: Phlm
+    texts:
+      - Ţǁ Ŭů ŮūǑ Ŧō Ŭǐ ŭŎ Ť̕ Ťŕĺ ųǒ
+  - osis: Heb
+    texts:
+      - Ÿ̤ Ţǀ Ŭœ ųǒ
+  - osis: Jas
+    texts:
+      - Źŋ ūǑ ųǒ
+  - osis: 1Pet
+    texts:
+      - Ţǐ Ťň Ṳ̙̄ ųǒ
+  - osis: 2Pet
+    texts:
+      - Ţǐ Ťǀ Ț̌ ųǒ
+  - osis: Jude
+    texts:
+      - Źř Ťǃ ųǒ
+translations:
+  - CMBYI

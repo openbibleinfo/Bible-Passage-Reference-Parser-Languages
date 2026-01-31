@@ -1,0 +1,552 @@
+- osis: Gen
+  texts:
+    - Kenese,
+    - Kenese
+    - Kene
+    - Ken
+- osis: Exod
+  texts:
+    - Esoto
+    - Eso
+- osis: Lev
+  texts:
+    - Levitiko
+    - Levi
+    - Lev
+- osis: Num
+  texts:
+    - Numera
+    - Nume
+    - Num
+- osis: Sir
+  texts:
+    - Sirako
+    - Sira
+- osis: Wis
+  texts:
+    - Poto
+- osis: Lam
+  texts:
+    - Auega,
+    - Paruka
+    - Paru
+    - Aue
+- osis: Rev
+  texts:
+    - O le Fa‘aaliga
+    - Fa‘aaliga
+    - Faaaliga,
+    - Fa‘aa
+    - Faal
+- osis: Deut
+  texts:
+    - Teuteronome,
+    - Teuteronome
+    - Teu
+- osis: Josh
+  texts:
+    - Iosua,
+    - Iosua
+    - Iosu
+    - Ios
+- osis: Judg
+  texts:
+    - Fa‘amasino
+    - Faamasino,
+    - Fa‘ama
+    - Faam
+- osis: Ruth
+  texts:
+    - Ruta,
+    - Ruta
+    - Rut
+- osis: Isa
+  texts:
+    - Isaia,
+    - Isaia
+    - Isai
+    - Isa
+- osis: 1Sam
+  texts:
+    - 1 Samuelu,
+    - 1 Samuelu
+    - 1 Samu
+    - 1. Samuelu,
+    - 1. Samuelu
+    - 1. Samu
+    - I. Samuelu,
+    - I. Samuelu
+    - I. Samu
+- osis: 2Sam
+  texts:
+    - 2 Samuelu,
+    - 2 Samuelu
+    - 2 Samu
+    - 2. Samuelu,
+    - 2. Samuelu
+    - 2. Samu
+    - II Samuelu,
+    - II Samuelu
+    - II Samu
+    - II. Samuelu,
+    - II. Samuelu
+    - II. Samu
+- osis: 1Sam
+  texts:
+    - 1Sam
+- osis: 2Sam
+  texts:
+    - 2Sam
+- osis: 1Kgs
+  texts:
+    - I Tupu,
+    - 1Tup
+- osis: 2Kgs
+  texts:
+    - 2Tup
+- osis: 1Chr
+  texts:
+    - 1 Nofoa‘iga a Tupu
+    - 1 Nofoaiga A Tupu,
+    - 1 No
+    - 1. Nofoa‘iga a Tupu
+    - 1. Nofoaiga A Tupu,
+    - 1. No
+    - I. Nofoa‘iga a Tupu
+    - I. Nofoaiga A Tupu,
+    - I. No
+- osis: 2Chr
+  texts:
+    - 2 Nofoa‘iga a Tupu
+    - 2 Nofoaiga A Tupu,
+    - 2 No
+    - 2. Nofoa‘iga a Tupu
+    - 2. Nofoaiga A Tupu,
+    - 2. No
+    - II Nofoa‘iga a Tupu
+    - II Nofoaiga A Tupu,
+    - II No
+    - II. Nofoa‘iga a Tupu
+    - II. Nofoaiga A Tupu,
+    - II. No
+- osis: 1Kgs
+  texts:
+    - 1 Tupu
+    - 1 Tu
+    - 1. Tupu
+    - 1. Tu
+    - I. Tupu
+    - I. Tu
+- osis: 2Kgs
+  texts:
+    - 2 Tupu,
+    - 2 Tupu
+    - 2 Tu
+    - 2. Tupu,
+    - 2. Tupu
+    - 2. Tu
+    - II Tupu,
+    - II Tupu
+    - II Tu
+    - II. Tupu,
+    - II. Tupu
+    - II. Tu
+- osis: 1Chr
+  texts:
+    - 1N.tup
+- osis: 2Chr
+  texts:
+    - 2N.tup
+- osis: Ezra
+  texts:
+    - Esera,
+    - Esera
+    - Ese
+- osis: Neh
+  texts:
+    - Neemia,
+    - Neemia
+    - Nee
+- osis: Esth
+  texts:
+    - Eseta,
+    - Est
+- osis: Job
+  texts:
+    - Iopu,
+    - Iopu
+    - Iop
+- osis: Ps
+  texts:
+    - Salamo,
+    - Salāmo
+    - Sala
+    - Sal
+- osis: Prov
+  texts:
+    - Fa‘ata‘oto
+    - Faataoto,
+    - Fa‘ata
+    - Faat
+- osis: Eccl
+  texts:
+    - Failauga,
+    - Failauga
+    - Fai
+- osis: Song
+  texts:
+    - Le Pese A Solomona,
+    - P.sol
+    - Pese
+- osis: Jer
+  texts:
+    - Ieremia,
+    - Ieremia
+    - Iere
+    - Ier
+- osis: Ezek
+  texts:
+    - Esekielu,
+    - Esekielu
+    - Eseki
+    - Esek
+- osis: Dan
+  texts:
+    - Tanielu,
+    - Tan
+- osis: Hos
+  texts:
+    - Hosea,
+    - Hosea
+    - Hose
+    - Hos
+- osis: Joel
+  texts:
+    - Ioelu,
+    - Ioelu
+    - Ioe
+- osis: Amos
+  texts:
+    - Amosa,
+    - Amosa
+    - Amo
+- osis: Obad
+  texts:
+    - Opetaia.
+    - Opetaia
+    - Ope
+- osis: Jonah
+  texts:
+    - Iona,
+    - Iona
+    - Ion
+- osis: Mic
+  texts:
+    - Mika,
+    - Mika
+    - MiK
+- osis: Nah
+  texts:
+    - Nauma,
+    - Nauma
+    - Nau
+- osis: Hab
+  texts:
+    - Sapakuka,
+    - Sapakuka
+    - Sapa
+    - Sap
+- osis: Zeph
+  texts:
+    - Sefanaia,
+    - Sefanaia
+    - Sefa
+    - Sef
+- osis: Hag
+  texts:
+    - Hakai,
+    - Hakai
+    - Hak
+- osis: Zech
+  texts:
+    - Sakaria,
+    - Sakaria
+    - Saka
+    - Sak
+- osis: Mal
+  texts:
+    - Malaki,
+    - Malaki
+    - Mala
+    - Mal
+- osis: Matt
+  texts:
+    - Mataio,
+    - Mataio
+    - Mata
+    - Mat
+- osis: Mark
+  texts:
+    - Mareko,
+    - Mareko
+    - Mare
+    - Mar
+- osis: Luke
+  texts:
+    - Luka,
+    - Luka
+    - Luk
+- osis: 1John
+  texts:
+    - 1Ioa
+- osis: 2John
+  texts:
+    - 2Ioa
+- osis: 3John
+  texts:
+    - III. Ioane.
+    - 3 Ioane
+    - 3Ioa
+- osis: 1John
+  texts:
+    - 1 Ioane,
+    - 1 Ioane
+    - 1. Ioane,
+    - 1. Ioane
+    - I. Ioane,
+    - I. Ioane
+- osis: 2John
+  texts:
+    - 2 Ioane.
+    - 2 Ioane
+    - 2. Ioane.
+    - 2. Ioane
+    - II Ioane.
+    - II Ioane
+    - II. Ioane.
+    - II. Ioane
+- osis: John
+  texts:
+    - Ioane,
+    - Ioane
+    - Ioa
+- osis: Acts
+  texts:
+    - Galuega,
+    - Galuega
+    - Galu
+    - Gal
+- osis: Rom
+  texts:
+    - Roma,
+    - Roma
+    - Rom
+- osis: 1Cor
+  texts:
+    - 1 Korinito,
+    - 1 Korinito
+    - 1 Kori
+    - 1. Korinito,
+    - 1. Korinito
+    - 1. Kori
+    - I. Korinito,
+    - I. Korinito
+    - I. Kori
+- osis: 2Cor
+  texts:
+    - 2 Korinito,
+    - 2 Korinito
+    - 2 Kori
+    - 2. Korinito,
+    - 2. Korinito
+    - 2. Kori
+    - II Korinito,
+    - II Korinito
+    - II Kori
+    - II. Korinito,
+    - II. Korinito
+    - II. Kori
+- osis: 1Cor
+  texts:
+    - 1Kor
+- osis: 2Cor
+  texts:
+    - 2Kor
+- osis: Col
+  texts:
+    - Kolose,
+    - Kolose
+    - Kolo
+    - Kol
+- osis: Gal
+  texts:
+    - Kalatia,
+    - Kalatia
+    - Kala
+    - Kal
+- osis: Eph
+  texts:
+    - Efeso,
+    - Efeso
+    - Efe
+- osis: Phil
+  texts:
+    - Filipi,
+    - Filipi
+    - Fili
+- osis: 1Thess
+  texts:
+    - 1 Tesalonia,
+    - 1 Tesalonia
+    - 1 Tesa
+    - 1. Tesalonia,
+    - 1. Tesalonia
+    - 1. Tesa
+    - I. Tesalonia,
+    - I. Tesalonia
+    - I. Tesa
+- osis: 2Thess
+  texts:
+    - 2 Tesalonia,
+    - 2 Tesalonia
+    - 2 Tesa
+    - 2. Tesalonia,
+    - 2. Tesalonia
+    - 2. Tesa
+    - II Tesalonia,
+    - II Tesalonia
+    - II Tesa
+    - II. Tesalonia,
+    - II. Tesalonia
+    - II. Tesa
+- osis: 1Thess
+  texts:
+    - 1Tes
+- osis: 2Thess
+  texts:
+    - 2Tes
+- osis: 1Tim
+  texts:
+    - 1 Timoteo,
+    - 1 Timoteo
+    - 1 Timo
+    - 1. Timoteo,
+    - 1. Timoteo
+    - 1. Timo
+    - I. Timoteo,
+    - I. Timoteo
+    - I. Timo
+- osis: 2Tim
+  texts:
+    - 2 Timoteo,
+    - 2 Timoteo
+    - 2 Timo
+    - 2. Timoteo,
+    - 2. Timoteo
+    - 2. Timo
+    - II Timoteo,
+    - II Timoteo
+    - II Timo
+    - II. Timoteo,
+    - II. Timoteo
+    - II. Timo
+- osis: 1Tim
+  texts:
+    - 1Tim
+- osis: 2Tim
+  texts:
+    - 2Tim
+- osis: Titus
+  texts:
+    - Tito,
+    - Tito
+    - Tit
+- osis: Phlm
+  texts:
+    - Filemoni,
+    - Filemoni
+    - File
+- osis: Heb
+  texts:
+    - Eperu,
+    - Eperu
+    - Epe
+- osis: Jas
+  texts:
+    - Iakopo,
+    - Iakopo
+    - Iako
+    - Iak
+- osis: 1Pet
+  texts:
+    - 1 Peteru,
+    - 1 Peteru
+    - 1 Pete
+    - 1. Peteru,
+    - 1. Peteru
+    - 1. Pete
+    - I. Peteru,
+    - I. Peteru
+    - I. Pete
+- osis: 2Pet
+  texts:
+    - 2 Peteru,
+    - 2 Peteru
+    - 2 Pete
+    - 2. Peteru,
+    - 2. Peteru
+    - 2. Pete
+    - II Peteru,
+    - II Peteru
+    - II Pete
+    - II. Peteru,
+    - II. Peteru
+    - II. Pete
+- osis: 1Pet
+  texts:
+    - 1Pet
+- osis: 2Pet
+  texts:
+    - 2Pet
+- osis: Jude
+  texts:
+    - Iuta.
+    - Iuta
+    - Iut
+- osis: Tob
+  texts:
+    - Topita
+    - Topi
+- osis: Jdt
+  texts:
+    - Iutita
+    - Iuti
+- osis: Bar
+  texts:
+    - Baruch
+- osis: 1Macc
+  texts:
+    - 1 Makapaio
+    - 1 Maka
+    - 1. Makapaio
+    - 1. Maka
+    - I. Makapaio
+    - I. Maka
+- osis: 2Macc
+  texts:
+    - 2 Makapaio
+    - 2 Maka
+    - 2. Makapaio
+    - 2. Maka
+    - II Makapaio
+    - II Maka
+    - II. Makapaio
+    - II. Maka
+- osis: DanGr
+  texts:
+    - Daniel Greek
+    - Tani
+- osis: EsthGr
+  texts:
+    - Esther Greek
+    - Ese

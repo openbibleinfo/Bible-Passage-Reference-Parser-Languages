@@ -1,0 +1,402 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Fe Fɔlɔ Fɔlɛ
+      - قْلّ
+      - Fɔl
+      - قْل
+  - osis: Exod
+    texts:
+      - Yɛtɛ sɔtɔɛ
+      - يّتّ سْتْي
+      - Yɛt
+      - يّت
+  - osis: Lev
+    texts:
+      - Lewi Sɛrɛxɛdubɛ
+      - لٍوِ سّرّشّدُبّ
+      - Lew
+      - لٍو
+  - osis: Num
+    texts:
+      - Kɔnti tife
+      - كْنتِ تِقٍ
+      - Kɔn
+      - كْن
+  - osis: Lam
+    texts:
+      - عَننَبِ يٍرٍ مِ قِرِن ندٍ
+      - Lamentations
+      - 2Ye
+      - ٢يٍ
+  - osis: Rev
+    texts:
+      - Revelation
+      - وَشَيِ
+      - وَش
+  - osis: Deut
+    texts:
+      - Masenyi Dɔnxɔɛ
+      - مَسٍنيِ دْنشْي
+      - Dɔn
+      - دْن
+  - osis: Josh
+    texts:
+      - Yosuwe
+      - يٌسُوٍ
+      - Yos
+      - يٌس
+  - osis: Judg
+    texts:
+      - كِيتِسَيٍ
+      - Kiitisae
+      - Kit
+      - كِت
+  - osis: Ruth
+    texts:
+      - Ruti
+      - رُتِ
+      - Rut
+      - رُت
+  - osis: Isa
+    texts:
+      - عَننَبِ عٍسَيِ
+      - Annabi Esayi
+      - عٍسَ
+      - Esa
+  - osis: 1Sam
+    texts:
+      - Samuweli I
+      - سَمُوٍلِ ١
+      - Sam I
+      - سَم١
+  - osis: 2Sam
+    texts:
+      - Samuweli II
+      - سَمُوٍلِ ٢
+      - Sam II
+      - سَم٢
+  - osis: 1Kgs
+    texts:
+      - عِسِرَيِلَ مَنفّيٍ ١
+      - Isirayila Mangɛe I
+      - Man I
+      - مَن١
+  - osis: 2Kgs
+    texts:
+      - عِسِرَيِلَ مَنفّيٍ ٢
+      - Isirayila Mangɛe II
+      - Man II
+      - مَن٢
+  - osis: 1Chr
+    texts:
+      - يُدَيَ مَنفّيٍ ١
+      - Yudaya Mangɛe I
+      - Ym I
+      - يم١
+  - osis: 2Chr
+    texts:
+      - Yudaya Mangɛe II
+      - يُدَيَ مَنفّيٍ ٢
+      - Ym II
+      - يم٢
+  - osis: Ezra
+    texts:
+      - عَننَبِ عٍسِدِرَ سِ
+      - Annabi Esidirasi
+      - عٍسِ
+      - Esi
+  - osis: Neh
+    texts:
+      - عَننَبِ نٍهٍمِ
+      - Annabi Nehemi
+      - Neh
+      - نٍه
+  - osis: Esth
+    texts:
+      - عٍسِتَ شَ تَرُشُي
+      - Esita xa Taruxui
+      - عٍست
+      - Est
+  - osis: Job
+    texts:
+      - عَيُبَ شَ تَرُشُِ
+      - عَيُ
+      - Job
+      - Yub
+  - osis: Ps
+    texts:
+      - Yabura Dawuda
+      - يَبُرَ
+      - Yab
+      - يَب
+  - osis: Prov
+    texts:
+      - Proverbs
+      - تَالِيٍ
+      - Taa
+      - تَا
+  - osis: Eccl
+    texts:
+      - Ecclesiastes
+      - كَوَندِلَ
+      - Kaw
+      - كَو
+  - osis: Song
+    texts:
+      - Song of Songs
+      - سُوكِ
+      - Suu
+      - سُو
+  - osis: Jer
+    texts:
+      - عَننَبِ يٍرٍ مِ
+      - Annabi Yeremi
+      - Yer
+      - يٍر
+  - osis: Ezek
+    texts:
+      - عَننَبِ عٍسٍكِيٍلِ
+      - Ezekiel
+      - عٍسٍ
+      - Ese
+  - osis: Dan
+    texts:
+      - عَننَبِ دَنِيّلِ
+      - Daniel (Hebrew)
+      - Dan
+      - دَن
+  - osis: Hos
+    texts:
+      - عَننَبِ هٌسٍ
+      - Hosea
+      - Hos
+      - هٌس
+  - osis: Joel
+    texts:
+      - عَننَبِ يٌوٍلِ
+      - Joel
+      - Yow
+      - يٌو
+  - osis: Amos
+    texts:
+      - عَننَبِ عَمٌسِ
+      - Amos
+      - عَمٌ
+      - Amo
+  - osis: Obad
+    texts:
+      - عَننَبِ عَبَدِيَسِ
+      - Obadiah
+      - عَبَ
+      - Aba
+  - osis: Jonah
+    texts:
+      - عَننَبِ يُنُسَ تٌء١ عَلَ شَ مَسٍنيِ عَننَبِ يُنُسَ بّ تٌء٢ يُنُسَ تٌء٣
+        يُن
+      - Yunusa
+      - Yun
+      - يُن
+  - osis: Mic
+    texts:
+      - عَننَبِ مِكَ
+      - Micah
+      - MiK
+      - مِك
+  - osis: Nah
+    texts:
+      - عَننَبِ نَشُمُ
+      - Nahum
+      - Nax
+      - نَش
+  - osis: Hab
+    texts:
+      - عَننَبِ هَبَكُكُ
+      - Habakkuk
+      - Hab
+      - هَب
+  - osis: Zeph
+    texts:
+      - عَننَبِ سٌقٌنِ
+      - Zephaniah
+      - Sof
+      - سٌق
+  - osis: Hag
+    texts:
+      - عَننَبِ هَفٍ
+      - Haggai
+      - Hag
+      - هَف
+  - osis: Zech
+    texts:
+      - عَننَبِ سَكَرِ
+      - Zechariah
+      - Sak
+      - سَك
+  - osis: Mal
+    texts:
+      - عَننَبِ مَلَكِ
+      - Malachi
+      - Mal
+      - مَل
+  - osis: Matt
+    texts:
+      - Lingjili Matthew
+      - Matthew
+      - Matiyu
+      - مَتِي
+      - مَت
+  - osis: Mark
+    texts:
+      - Maraki
+      - مَرَكِ
+      - مَر
+  - osis: Luke
+    texts:
+      - Luki
+      - لُكِ
+  - osis: 1John
+    texts:
+      - يَيَ عِ
+      - يَ عِ
+  - osis: 2John
+    texts:
+      - يَيَ عِِ
+      - يَ عِِ
+  - osis: 3John
+    texts:
+      - يَيَ عِِِ
+      - يَ عِِِ
+      - 3 John
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - John
+  - osis: John
+    texts:
+      - Yaya
+      - يَيَ
+      - يَي
+  - osis: Acts
+    texts:
+      - Taruxui
+      - تَرُشُي
+      - تَر
+  - osis: Rom
+    texts:
+      - Romans
+      - رْ مَ
+      - رْ م
+  - osis: 1Cor
+    texts:
+      - كٌرِنتِ عِ
+      - Korinti I
+      - كٌ ١
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corinthians
+  - osis: 2Cor
+    texts:
+      - كٌرِنتِ عِِ
+      - كٌ عِِ
+  - osis: Col
+    texts:
+      - Colossians
+      - كْلْسِ
+  - osis: Gal
+    texts:
+      - Galatians
+      - فَلَتِ
+      - فَل
+  - osis: Eph
+    texts:
+      - Ephesians
+      - عٍقّسّ
+  - osis: Phil
+    texts:
+      - Philippians
+      - قِلِثِ
+      - قِل
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thessalonians
+  - osis: 1Thess
+    texts:
+      - تّسَلٌنِكِ عِ
+      - تّ عِ
+  - osis: 2Thess
+    texts:
+      - تّسَلٌنِكِ عِِ
+      - تّ عِِ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothy
+  - osis: 1Tim
+    texts:
+      - تِمٌتٍ عِ
+      - تِ عِ
+  - osis: 2Tim
+    texts:
+      - تِمٌتٍ عِِ
+      - تِ عِِ
+  - osis: Titus
+    texts:
+      - Titus
+      - تِتٌ
+      - تِت
+  - osis: Phlm
+    texts:
+      - Philemon
+      - قِلٍمٌن
+      - قِم
+  - osis: Heb
+    texts:
+      - Hebrews
+      - عٍبُرُ
+      - عٍبُ
+  - osis: Jas
+    texts:
+      - James
+      - يَكِ
+      - يَك
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peter
+  - osis: 1Pet
+    texts:
+      - ثِيّرِ عِ
+      - ثِ عِ
+  - osis: 2Pet
+    texts:
+      - ثِيّرِ عِِ
+      - ثِ عِِ
+  - osis: Jude
+    texts:
+      - Jude
+      - يُدٍ
+      - يُد
+translations:
+  - SUS1816
+  - SUSU

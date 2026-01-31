@@ -1,0 +1,96 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Shiyanso
+  - osis: Rev
+    texts:
+      - Wugubutulo
+  - osis: Matt
+    texts:
+      - Mataayo
+  - osis: Mark
+    texts:
+      - Maluko
+  - osis: Luke
+    texts:
+      - Luuka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohana
+  - osis: Acts
+    texts:
+      - Nsengo sa Vanandeje
+  - osis: Rom
+    texts:
+      - Valuumi
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Vakolinto
+  - osis: Col
+    texts:
+      - Vakolosaayi
+  - osis: Gal
+    texts:
+      - Vagalatiya
+  - osis: Eph
+    texts:
+      - VaEfeso
+  - osis: Phil
+    texts:
+      - Vafilipi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Vatesalonike
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filimoni
+  - osis: Heb
+    texts:
+      - Vahebulaniya
+  - osis: Jas
+    texts:
+      - Yaakobo
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petulo
+  - osis: Jude
+    texts:
+      - Yuuda
+translations:
+  - SBP

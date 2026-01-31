@@ -1,0 +1,92 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Faa Wuloai Kɛnɛ Ma
+  - osis: Matt
+    texts:
+      - Mafiyu
+  - osis: Mark
+    texts:
+      - Maki
+  - osis: Luke
+    texts:
+      - Luki
+  - osis: 1John
+    texts:
+      - 1Jɔ̃
+  - osis: 2John
+    texts:
+      - 2Jɔ̃
+  - osis: 3John
+    texts:
+      - 3Jɔ̃
+  - osis: John
+    texts:
+      - Jɔ̃
+  - osis: Acts
+    texts:
+      - Te Ɣɛɛ Vaitiɛ
+  - osis: Rom
+    texts:
+      - Loomɛitiɛ
+  - osis: 1Cor
+    texts:
+      - 1Kɔlĩitiɛ
+  - osis: 2Cor
+    texts:
+      - Kɔlĩitiɛ
+  - osis: Col
+    texts:
+      - Kolasaitiɛ
+  - osis: Gal
+    texts:
+      - Galeesiaitiɛ
+  - osis: Eph
+    texts:
+      - Ɛfɛsɔitiɛ
+  - osis: Phil
+    texts:
+      - Felepaitiɛ
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tɛsɛlonaikaitiɛ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Temete
+  - osis: Titus
+    texts:
+      - Taitɔ
+  - osis: Phlm
+    texts:
+      - Failimɔ
+  - osis: Heb
+    texts:
+      - Hiiƃuluitiɛ
+  - osis: Jas
+    texts:
+      - Jĩi
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pite
+  - osis: Jude
+    texts:
+      - Juu
+translations:
+  - LNT1971

@@ -1,0 +1,348 @@
+- osis: Gen
+  texts:
+    - Génesis
+    - Gen
+- osis: Exod
+  texts:
+    - Éksodo
+    - Eks
+- osis: Lev
+  texts:
+    - Levítiko
+    - Lev
+- osis: Num
+  texts:
+    - Numbernan
+    - Num
+- osis: Sir
+  texts:
+    - Sirag
+    - Sir
+- osis: Wis
+  texts:
+    - Sabiduria
+    - Sab
+- osis: Lam
+  texts:
+    - Lamentashonnan
+    - Lam
+- osis: Rev
+  texts:
+    - Revelashon
+    - Rev
+- osis: Deut
+  texts:
+    - Deuteronomio
+    - Deu
+- osis: Josh
+  texts:
+    - Yozue
+    - Yoz
+- osis: Judg
+  texts:
+    - Huesnan
+    - Hue
+- osis: Ruth
+  texts:
+    - Ruth
+- osis: Isa
+  texts:
+    - Isaías
+    - Isa
+- osis: 1Sam
+  texts:
+    - 1 Samuel
+    - 1. Samuel
+- osis: 2Sam
+  texts:
+    - 2 Samuel
+    - 2. Samuel
+- osis: 1Sam
+  texts:
+    - 1Sam
+- osis: 2Sam
+  texts:
+    - 2Sam
+- osis: 1Kgs
+  texts:
+    - 1 Reinan
+    - 1. Reinan
+- osis: 2Kgs
+  texts:
+    - 2 Reinan
+    - 2. Reinan
+- osis: 1Kgs
+  texts:
+    - 1Rei
+- osis: 2Kgs
+  texts:
+    - 2Rei
+- osis: 1Chr
+  texts:
+    - 1 Krónikanan
+    - 1. Krónikanan
+- osis: 2Chr
+  texts:
+    - 2 Krónikanan
+    - 2. Krónikanan
+- osis: 1Chr
+  texts:
+    - 1Kron
+- osis: 2Chr
+  texts:
+    - 2Kron
+- osis: Ezra
+  texts:
+    - Esdras
+    - Esd
+- osis: Neh
+  texts:
+    - Nehemías
+    - Neh
+- osis: Job
+  texts:
+    - Job
+- osis: Ps
+  texts:
+    - Salmo
+    - Sal
+- osis: Prov
+  texts:
+    - Proverbionan
+    - Prov
+- osis: Eccl
+  texts:
+    - Predikador
+    - Pred
+- osis: Song
+  texts:
+    - E kanto di tur kanto
+    - Kant
+- osis: Jer
+  texts:
+    - Yeremías
+    - Yer
+- osis: Ezek
+  texts:
+    - Ezekiel
+    - Eze
+- osis: Hos
+  texts:
+    - Hoséas
+    - Hos
+- osis: Joel
+  texts:
+    - Yoel
+- osis: Amos
+  texts:
+    - Amos
+- osis: Obad
+  texts:
+    - Abdías
+    - Abd
+- osis: Jonah
+  texts:
+    - Yonas
+    - Yon
+- osis: Mic
+  texts:
+    - Mikéas
+    - MiK
+- osis: Nah
+  texts:
+    - Nahum
+    - Nah
+- osis: Hab
+  texts:
+    - Habakuk
+    - Hab
+- osis: Zeph
+  texts:
+    - Sofonías
+    - Sof
+- osis: Hag
+  texts:
+    - Hagai
+    - Hag
+- osis: Zech
+  texts:
+    - Zakarías
+    - Zak
+- osis: Mal
+  texts:
+    - Malakías
+    - Mal
+- osis: Matt
+  texts:
+    - Mateo
+    - Mat
+- osis: Mark
+  texts:
+    - Marko
+    - Mar
+- osis: Luke
+  texts:
+    - Lukas
+    - Luk
+- osis: 1John
+  texts:
+    - 1Huan
+- osis: 2John
+  texts:
+    - 2Huan
+- osis: 3John
+  texts:
+    - 3 Huan
+    - 3Huan
+- osis: 1John
+  texts:
+    - 1 Huan
+    - 1. Huan
+- osis: 2John
+  texts:
+    - 2 Huan
+    - 2. Huan
+- osis: John
+  texts:
+    - Huan
+- osis: Acts
+  texts:
+    - Echonan
+    - Echo
+- osis: Rom
+  texts:
+    - Romanonan
+    - Rom
+- osis: 1Cor
+  texts:
+    - 1 Korintionan
+    - 1. Korintionan
+- osis: 2Cor
+  texts:
+    - 2 Korintionan
+    - 2. Korintionan
+- osis: 1Cor
+  texts:
+    - 1Kor
+- osis: 2Cor
+  texts:
+    - 2Kor
+- osis: Col
+  texts:
+    - Kolosensenan
+    - Kol
+- osis: Gal
+  texts:
+    - Galatanan
+    - Gal
+- osis: Eph
+  texts:
+    - Efesionan
+    - Efe
+- osis: Phil
+  texts:
+    - Filipensenan
+    - Fil
+- osis: 1Thess
+  texts:
+    - 1 Tesalonisensenan
+    - 1. Tesalonisensenan
+- osis: 2Thess
+  texts:
+    - 2 Tesalonisensenan
+    - 2. Tesalonisensenan
+- osis: 1Thess
+  texts:
+    - 1Tes
+- osis: 2Thess
+  texts:
+    - 2Tes
+- osis: 1Tim
+  texts:
+    - 1 Timoteo
+    - 1. Timoteo
+- osis: 2Tim
+  texts:
+    - 2 Timoteo
+    - 2. Timoteo
+- osis: 1Tim
+  texts:
+    - 1Tim
+- osis: 2Tim
+  texts:
+    - 2Tim
+- osis: Titus
+  texts:
+    - Tito
+- osis: Phlm
+  texts:
+    - Filemon
+    - Flm
+- osis: Heb
+  texts:
+    - Hebreonan
+    - Heb
+- osis: Jas
+  texts:
+    - Hakobo
+    - Hak
+- osis: 1Pet
+  texts:
+    - 1 Pedro
+    - 1. Pedro
+- osis: 2Pet
+  texts:
+    - 2 Pedro
+    - 2. Pedro
+- osis: 1Pet
+  texts:
+    - 1Ped
+- osis: 2Pet
+  texts:
+    - 2Ped
+- osis: Jude
+  texts:
+    - Hudas
+    - Hud
+- osis: Tob
+  texts:
+    - Tobit
+    - Tob
+- osis: Jdt
+  texts:
+    - Judit
+    - Jud
+- osis: Bar
+  texts:
+    - Barug
+    - Bar
+- osis: 1Macc
+  texts:
+    - 1 Makabeonan
+    - 1. Makabeonan
+- osis: 2Macc
+  texts:
+    - 2 Makabeonan
+    - 2. Makabeonan
+- osis: 1Macc
+  texts:
+    - 1Mak
+- osis: 2Macc
+  texts:
+    - 2Mak
+- osis: DanGr
+  texts:
+    - Daniel (deuterokanóniko)
+    - D
+- osis: Dan
+  texts:
+    - Daniel
+    - Dan
+- osis: EsthGr
+  texts:
+    - Ester (deuterokanóniko)
+    - EstG
+- osis: Esth
+  texts:
+    - Ester
+    - Est

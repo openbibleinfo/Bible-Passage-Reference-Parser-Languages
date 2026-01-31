@@ -1,0 +1,125 @@
+variables:
+  first: &first
+    - "1"
+    - I.
+  second: &second
+    - "2"
+    - II.
+books:
+  - osis: Rev
+    texts:
+      - Johannini tinkari ngankani
+      - Tink
+  - osis: Matt
+    texts:
+      - Matthæungundru
+      - Mat
+  - osis: Mark
+    texts:
+      - Markungundru
+      - Mark
+  - osis: Luke
+    texts:
+      - Lucangundru
+      - Luc
+  - osis: 3John
+    texts:
+      - III. Johannini
+      - 3 Joh
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Johannini
+      - Joh
+  - osis: John
+    texts:
+      - Johanningundru
+      - Joh
+  - osis: Acts
+    texts:
+      - Kaukaubani jaura Apostel worangundru
+      - Kauk
+  - osis: Rom
+    texts:
+      - Romalani
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinthalani
+      - Kor
+  - osis: Col
+    texts:
+      - Kolossalani
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatalani
+      - Gal
+  - osis: Eph
+    texts:
+      - Ephesalani
+      - Eph
+  - osis: Phil
+    texts:
+      - Philippalani
+      - Philip
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thess
+  - osis: 2Thess
+    texts:
+      - II Thessalonichalani
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Thessalonichalani
+      - Thess
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotheungu
+      - Tim
+  - osis: Titus
+    texts:
+      - Titungu
+      - Titu
+  - osis: Phlm
+    texts:
+      - Philemoningu
+      - Philem
+  - osis: Heb
+    texts:
+      - Hebräalani
+      - Heb
+  - osis: Jas
+    texts:
+      - Jakobuni
+      - Jakob
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petrungundru
+      - Pet
+  - osis: Jude
+    texts:
+      - Judasani
+      - Juda
+translations:
+  - DIERI
+  - DIYARI

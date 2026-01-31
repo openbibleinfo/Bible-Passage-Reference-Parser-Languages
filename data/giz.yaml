@@ -1,0 +1,335 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Zli Virzi
+      - Zli
+  - osis: Exod
+    texts:
+      - Bi Ngi Israyeley
+      - Bi
+  - osis: Bel
+    texts:
+      - Bel
+  - osis: Lev
+    texts:
+      - Levihey
+      - Levi
+  - osis: Num
+    texts:
+      - Slufa Vu
+      - Sluf
+  - osis: Sir
+    texts:
+      - Sir
+  - osis: Wis
+    texts:
+      - Sin Ji
+  - osis: Lam
+    texts:
+      - Tuwuy
+      - Tuw
+  - osis: EpJer
+    texts:
+      - De Zer
+      - Ɗe Zer
+  - osis: Rev
+    texts:
+      - Ɓimunjuyo
+      - Ɓim
+  - osis: Deut
+    texts:
+      - Slu cuw
+  - osis: Josh
+    texts:
+      - Zozuwe
+      - Zozu
+  - osis: Judg
+    texts:
+      - Migi Kiitahay
+      - Kiit
+  - osis: Ruth
+    texts:
+      - Ruth
+  - osis: Isa
+    texts:
+      - Ezayi
+      - Eza
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Sam
+  - osis: 1Sam
+    texts:
+      - Samuyel Mudumbuŋ Naŋ
+  - osis: 2Sam
+    texts:
+      - Samuyel Mucuw Naŋ
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Buy
+  - osis: 1Kgs
+    texts:
+      - Buyoy Mudumbuŋ Naŋ
+  - osis: 2Kgs
+    texts:
+      - Buyoy Mucuw Naŋ
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Ɓi Hi
+  - osis: 1Chr
+    texts:
+      - Ɓi Ngi Hin Gar Mudumbuŋ Naŋ
+  - osis: 2Chr
+    texts:
+      - Ɓi Ngi Hiney Mucuw Naŋ
+  - osis: Ezra
+    texts:
+      - Esdras
+      - Esd
+  - osis: Neh
+    texts:
+      - Nehemi
+      - Neh
+  - osis: Esth
+    texts:
+      - Ester
+      - Es
+  - osis: Job
+    texts:
+      - Jop
+  - osis: Ps
+    texts:
+      - Dimisey
+      - Dim
+  - osis: Prov
+    texts:
+      - Mikucuwuloy
+      - Miku
+  - osis: Eccl
+    texts:
+      - Tila Mi
+      - Til
+  - osis: Song
+    texts:
+      - Dimis Mimezle
+      - Mim
+  - osis: Jer
+    texts:
+      - Zeremi
+      - Zer
+  - osis: Ezek
+    texts:
+      - Ezekiyel
+      - Eze
+  - osis: Hos
+    texts:
+      - Oze
+  - osis: Joel
+    texts:
+      - Zowel
+      - Zow
+  - osis: Amos
+    texts:
+      - Amos
+  - osis: Obad
+    texts:
+      - Abdiyas
+      - Abd
+  - osis: Jonah
+    texts:
+      - Zonas
+      - Zon
+  - osis: Mic
+    texts:
+      - Mise
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sofoni
+      - Sof
+  - osis: Hag
+    texts:
+      - Aze
+  - osis: Zech
+    texts:
+      - Zakari
+      - Zak
+  - osis: Mal
+    texts:
+      - Malasi
+      - Mal
+  - osis: Matt
+    texts:
+      - Matiye
+      - Mat
+  - osis: Mark
+    texts:
+      - Mark
+  - osis: Luke
+    texts:
+      - Luk
+  - osis: 1John
+    texts:
+      - Zaŋ Mudumbuŋ Naŋ
+  - osis: 2John
+    texts:
+      - Zaŋ Mucuw Naŋ
+  - osis: 3John
+    texts:
+      - Zaŋ Mimakir Naŋ
+      - 3 Zaŋ
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Zaŋ
+  - osis: Acts
+    texts:
+      - Slra
+  - osis: Rom
+    texts:
+      - Romahay
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kor
+  - osis: 1Cor
+    texts:
+      - Korentihey Mudumbuŋ
+  - osis: 2Cor
+    texts:
+      - Korentihey Mucuw Naŋ
+  - osis: Col
+    texts:
+      - Kolosoy
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatay
+      - Gal
+  - osis: Eph
+    texts:
+      - Efesey
+      - Efe
+  - osis: Phil
+    texts:
+      - Filipihey
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tes
+  - osis: 1Thess
+    texts:
+      - Tesalonikey Mudumbuŋ Naŋ
+  - osis: 2Thess
+    texts:
+      - Tesalonikey Mucuw Naŋ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Ti
+  - osis: 1Tim
+    texts:
+      - Timote Mudumbuŋ Naŋ
+  - osis: 2Tim
+    texts:
+      - Timote Mucuw Naŋ
+  - osis: Titus
+    texts:
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemoŋ
+      - File
+  - osis: Heb
+    texts:
+      - Heberey
+      - Heb
+  - osis: Jas
+    texts:
+      - Zak
+      - Zk
+  - osis: 1Pet
+    texts:
+      - Piyer Mudumbuŋ Naŋ
+  - osis: 2Pet
+    texts:
+      - Piyer Mucuw Naŋ
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piyer
+  - osis: Jude
+    texts:
+      - Zude
+  - osis: Tob
+    texts:
+      - Tob
+  - osis: Jdt
+    texts:
+      - Jud
+  - osis: Bar
+    texts:
+      - Bar
+  - osis: Sus
+    texts:
+      - Suz
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+    texts:
+      - Mak
+  - osis: DanGr
+    texts:
+      - Dan G
+  - osis: Dan
+    texts:
+      - Daniyel
+      - Dan
+  - osis: EsthGr
+    texts:
+      - Est G
+translations:
+  - BEGDC

@@ -1,0 +1,266 @@
+books:
+  - osis: Gen
+    texts:
+      - Mawookionyi
+      - Maw
+  - osis: Exod
+    texts:
+      - Iwuka
+      - Iwu
+  - osis: Lev
+    texts:
+      - Walewi
+      - Wal
+  - osis: Num
+    texts:
+      - Maitala
+      - Mta
+  - osis: Lam
+    texts:
+      - Shilio
+      - Shil
+  - osis: Rev
+    texts:
+      - Otambahaluo Lo Yohane
+      - Otam
+  - osis: Deut
+    texts:
+      - Ngumbuo Ya Mawawaso
+      - Uwa
+  - osis: Josh
+    texts:
+      - Yoshua
+      - Yos
+  - osis: Judg
+    texts:
+      - Wachili
+      - Wach
+  - osis: Ruth
+    texts:
+      - Ruti
+      - Rut
+  - osis: Isa
+    texts:
+      - Yesaya
+      - Yes
+  - osis: 1Sam
+    texts:
+      - 1Samweli
+      - 1Sam
+  - osis: 2Sam
+    texts:
+      - 2Samweli
+      - 2Sam
+  - osis: 1Kgs
+    texts:
+      - 1Wamangi
+      - 1Wam
+  - osis: 2Kgs
+    texts:
+      - 2Wamangi
+      - 2Wam
+  - osis: 1Chr
+    texts:
+      - 1Mbonyi Tsa Maheri
+      - 1Mbo
+  - osis: 2Chr
+    texts:
+      - 2Mbonyi Tsa Maheri
+      - 2Mbo
+  - osis: Ezra
+    texts:
+      - Ezra
+  - osis: Neh
+    texts:
+      - Nehemia
+      - Neh
+  - osis: Esth
+    texts:
+      - Esta
+      - Est
+  - osis: Job
+    texts:
+      - Yobu
+      - Yob
+  - osis: Ps
+    texts:
+      - Shiimbo Sha Dawidi
+      - Shiim
+  - osis: Prov
+    texts:
+      - Mfanano
+      - Mfa
+  - osis: Eccl
+    texts:
+      - Koheleti
+      - Koh
+  - osis: Song
+    texts:
+      - Shiimbo Sha Solomoni
+      - Shii
+  - osis: Jer
+    texts:
+      - Yeremia
+      - Yer
+  - osis: Ezek
+    texts:
+      - Ezekieli
+      - Eze
+  - osis: Dan
+    texts:
+      - Danieli
+      - Dan
+  - osis: Hos
+    texts:
+      - Hosea
+      - Hos
+  - osis: Joel
+    texts:
+      - Yoeli
+      - Yoe
+  - osis: Amos
+    texts:
+      - Amosi
+      - Amo
+  - osis: Obad
+    texts:
+      - Obadia
+      - Oba
+  - osis: Jonah
+    texts:
+      - Yona
+      - Yon
+  - osis: Mic
+    texts:
+      - Mika
+      - MiK
+  - osis: Nah
+    texts:
+      - Nahumu
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuki
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sefania
+      - Sef
+  - osis: Hag
+    texts:
+      - Hagai
+      - Hag
+  - osis: Zech
+    texts:
+      - Zekaria
+      - Zek
+  - osis: Mal
+    texts:
+      - Malaki
+      - Mal
+  - osis: Matt
+    texts:
+      - Matayo
+      - Mat
+  - osis: Mark
+    texts:
+      - Mariko
+      - Mar
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Yohane
+      - 1Yoh
+  - osis: 2John
+    texts:
+      - 2Yohane
+      - 2Yoh
+  - osis: 3John
+    texts:
+      - 3Yohane
+      - 3Yoh
+  - osis: John
+    texts:
+      - Yohane
+      - Yoh
+  - osis: Acts
+    texts:
+      - Mawuto Ha Wasu
+      - Mawu
+  - osis: Rom
+    texts:
+      - waRoma
+      - War
+  - osis: 1Cor
+    texts:
+      - 1 Wakorinto
+      - 1Kor
+  - osis: 2Cor
+    texts:
+      - 2 Wakorinto
+      - 2Kor
+  - osis: Col
+    texts:
+      - Wakolose
+      - Wak
+  - osis: Gal
+    texts:
+      - Wagalatia
+      - Gal
+  - osis: Eph
+    texts:
+      - Waefeso
+      - Efe
+  - osis: Phil
+    texts:
+      - waFilipi
+      - Waf
+  - osis: 1Thess
+    texts:
+      - 1Watesalonyikye
+      - 1Wat
+  - osis: 2Thess
+    texts:
+      - 2Watesalonyikye
+      - 2Wat
+  - osis: 1Tim
+    texts:
+      - 1Timoteo
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Timoteo
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemonyi
+      - File
+  - osis: Heb
+    texts:
+      - Waebrania
+      - Ebr
+  - osis: Jas
+    texts:
+      - Yakobo
+      - Yak
+  - osis: 1Pet
+    texts:
+      - 1Petro
+      - 1Pet
+  - osis: 2Pet
+    texts:
+      - 2Petro
+      - 2Pet
+  - osis: Jude
+    texts:
+      - Yuda
+      - Yud
+translations:
+  - KIM2

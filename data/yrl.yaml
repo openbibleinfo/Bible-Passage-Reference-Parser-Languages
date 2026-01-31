@@ -1,0 +1,141 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Apukalipisi
+      - Ap
+  - osis: Matt
+    texts:
+      - Mateu
+      - Mt
+  - osis: Mark
+    texts:
+      - Marku
+      - Mk
+  - osis: Luke
+    texts:
+      - Luka
+      - Lk
+  - osis: 1John
+    texts:
+      - 1Ju
+  - osis: 2John
+    texts:
+      - 2Ju
+  - osis: 3John
+    texts:
+      - 3 Juão
+      - 3Ju
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Juão
+  - osis: John
+    texts:
+      - Juão
+      - Ju
+  - osis: Acts
+    texts:
+      - Atu
+      - At
+  - osis: Rom
+    texts:
+      - Rumawaraita
+      - Rm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kurintuwaraita
+  - osis: 1Cor
+    texts:
+      - 1Ku
+  - osis: 2Cor
+    texts:
+      - 2Ku
+  - osis: Col
+    texts:
+      - Kulusuwaraita
+      - Kl
+  - osis: Gal
+    texts:
+      - Galasiwaraita
+      - Gl
+  - osis: Eph
+    texts:
+      - Efezuwaraita
+      - Ef
+  - osis: Phil
+    texts:
+      - Filipuwaraita
+      - Fp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalunikawaraita
+  - osis: 1Thess
+    texts:
+      - 1Ts
+  - osis: 2Thess
+    texts:
+      - 2Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timuteu
+  - osis: 1Tim
+    texts:
+      - 1Tm
+  - osis: 2Tim
+    texts:
+      - 2Tm
+  - osis: Titus
+    texts:
+      - Titu
+      - Tt
+  - osis: Phlm
+    texts:
+      - Filemum
+      - Fm
+  - osis: Heb
+    texts:
+      - Ebrewita
+      - Eb
+  - osis: Jas
+    texts:
+      - Tiagu
+      - Tg
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pedru
+  - osis: 1Pet
+    texts:
+      - 1Pe
+  - osis: 2Pet
+    texts:
+      - 2Pe
+  - osis: Jude
+    texts:
+      - Juda
+      - Jd
+translations:
+  - BBP

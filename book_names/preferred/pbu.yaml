@@ -1,0 +1,254 @@
+default:
+  1Chr:
+    long: اول تواريخ
+    short: ۱تارخ
+  1Cor:
+    long: اول کورنتيان
+    short: ۱کورن
+  1John:
+    long: اول يوحنا
+    short: ۱يوحنا
+  1Kgs:
+    long: اول بادشاهان
+    short: ۱بادش
+  1Pet:
+    long: اول پطروس
+    short: ۱پطرس
+  1Sam:
+    long: اول سموئيل
+    short: ۱سمو
+  1Thess:
+    long: اول تِسالونيکيان
+    short: ۱تسالو
+  1Tim:
+    long: اول تيموتيوس
+    short: ۱تيمو
+  2Chr:
+    long: دوېم تاريخ
+    short: ۲تارخ
+  2Cor:
+    long: دوهم قرنتیان
+    short: ۲کورن
+  2John:
+    long: دوهم یوحنا
+    short: ۲يوحنا
+  2Kgs:
+    long: دوېم بادشاهان
+    short: ۲بادش
+  2Pet:
+    long: دوهم پطروس
+    short: ۲پطرس
+  2Sam:
+    long: دوېم سموئيل
+    short: ۲سمو
+  2Thess:
+    long: دوهم تسالونیکیان
+    short: ۲تسالو
+  2Tim:
+    long: دوهم تیموتاوس
+    short: ۲تيمو
+  3John:
+    long: درېم يوحنا
+    short: ۳يوحنا
+  Acts:
+    long: اعمال
+    short: اعمال
+  Amos:
+    long: عاموس
+    short: عامو
+  Col:
+    long: کولسیان
+    short: کولوس
+  Dan:
+    long: دانيال
+    short: دانيا
+  Deut:
+    long: ګردان
+    short: ګردان
+  Eccl:
+    long: معلِم
+    short: معلم
+  Eph:
+    long: افسیسیان
+    short: افس
+  Esth:
+    long: اِستَر
+    short: استر
+  Exod:
+    long: هِجرت
+    short: هِجر
+  Ezek:
+    long: حزقى‌ايل
+    short: حزق
+  Ezra:
+    long: عزرا
+    short: عزرا
+  Gal:
+    long: غلاتیان
+    short: ګلت
+  Gen:
+    long: پېدايښت
+    short: پېدا
+  Hab:
+    long: حبقُوق
+    short: حبقوق
+  Hag:
+    long: حجى
+    short: حجى
+  Heb:
+    long: عبرانيان
+    short: عبران
+  Hos:
+    long: هوسيع
+    short: هوس
+  Isa:
+    long: يشعياه
+    short: يشعا
+  Jas:
+    long: يعقوب
+    short: يعقوب
+  Jer:
+    long: يرمياه
+    short: يرميا
+  Job:
+    long: ايُوب
+    short: ايُوب
+  Joel:
+    long: يوايل
+    short: يوايل
+  John:
+    long: يوحنا
+    short: يوحنا
+  Jonah:
+    long: يُونس
+    short: يُونس
+  Josh:
+    long: يشوَع
+    short: يشو
+  Jude:
+    long: يهوداه
+    short: يهود
+  Judg:
+    long: قاضيانو
+    short: قاضي
+  Lam:
+    long: مرثيى
+    short: مرثيى
+  Lev:
+    long: ليويانو
+    short: ليوا
+  Luke:
+    long: لوقا
+    short: لوقا
+  Mal:
+    long: ملاکى
+    short: ملاک
+  Mark:
+    long: مرقوس
+    short: مرقوس
+  Matt:
+    long: متى
+    short: متى
+  Mic:
+    long: ميکاه
+    short: ميک
+  Nah:
+    long: ناحوم
+    short: ناحوم
+  Neh:
+    long: نحمياه
+    short: نحم
+  Num:
+    long: شمېر
+    short: شمېر
+  Obad:
+    long: عبدياه
+    short: عبد
+  Phil:
+    long: فيليپيانو
+    short: فيلپ
+  Phlm:
+    long: فيليمون
+    short: فيليم
+  Prov:
+    long: متلونه
+    short: متل
+  Ps:
+    long: زبور
+    short: زبور
+  Rev:
+    long: رويا
+    short: رويا
+  Rom:
+    long: روميان
+    short: روم
+  Ruth:
+    long: روت
+    short: روت
+  Song:
+    long: غزلې
+    short: غزل
+  Titus:
+    long: تيطوس
+    short: تيطوس
+  Zech:
+    long: زکرياه
+    short: زکريا
+  Zeph:
+    long: صفنياه
+    short: صفن
+translations:
+  apb:
+    1Cor:
+      long: لومړی قرنتیان
+    1John:
+      long: لومړی یوحنا
+    1Pet:
+      long: لومړی پطروس
+    1Thess:
+      long: لومړی تسالونیکیان
+    1Tim:
+      long: لومړی تیموتاوس
+    3John:
+      long: درېم یوحنا
+    Acts:
+      long: د رسولانو عملونه
+    Eccl:
+      long: څېړونکی
+    Heb:
+      long: عبرانیان
+    Jas:
+      long: یعقوب
+    John:
+      long: یوحنا
+    Jude:
+      long: یهودا
+    Matt:
+      long: متي
+    Phil:
+      long: فیلیپیان
+    Phlm:
+      long: فیلیمون
+    Rev:
+      long: مکاشفه
+    Rom:
+      long: رومیان
+    Titus:
+      long: تیتوس
+  pypb:
+    2Cor:
+      long: دوېم کورنتيان
+    2John:
+      long: دوېم يوحنا
+    2Pet:
+      long: دوېم پطروس
+    2Thess:
+      long: دوېم تِسالونيکيان
+    2Tim:
+      long: دوېم تيموتيوس
+    Col:
+      long: کولوسيان
+    Eph:
+      long: اِفِسيانو
+    Gal:
+      long: ګلتيان

@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Omafimbo
+    short: 1 Omaf.
+  1Cor:
+    long: 1 Ovakorinto
+    short: 1 Kor.
+  1John:
+    long: 1 Johannes
+    short: 1 Joh.
+  1Kgs:
+    long: 1 Eehamba
+    short: 1 Eeh.
+  1Pet:
+    long: 1 Petrus
+    short: 1 Pet.
+  1Sam:
+    long: 1 Samuel
+    short: 1 Sam.
+  1Thess:
+    long: 1 Ovatessaloniki
+    short: 1 Tes.
+  1Tim:
+    long: 1 Timoteus
+    short: 1 Tim.
+  2Chr:
+    long: 2 Omafimbo
+    short: 2 Omaf.
+  2Cor:
+    long: 2 Ovakorinto
+    short: 2 Kor.
+  2John:
+    long: 2 Johannes
+    short: 2 Joh.
+  2Kgs:
+    long: 2 Eehamba
+    short: 2 Eeh.
+  2Pet:
+    long: 2 Petrus
+    short: 2 Pet.
+  2Sam:
+    long: 2 Samuel
+    short: 2 Sam.
+  2Thess:
+    long: 2 Ovatessaloniki
+    short: 2 Tes.
+  2Tim:
+    long: 2 Timoteus
+    short: 2 Tim.
+  3John:
+    long: 3 Johannes
+    short: 3 Joh.
+  Acts:
+    long: Oilonga Yovayapostoli
+    short: Oil.
+  Amos:
+    long: Amos
+    short: Amos
+  Col:
+    long: Ovakolossi
+    short: Kol.
+  Dan:
+    long: Daniel
+    short: Dan.
+  Deut:
+    long: Deuteronomion
+    short: Deut.
+  Eccl:
+    long: Omuudifi
+    short: Omuud.
+  Eph:
+    long: Ovaefeso
+    short: Ef.
+  Esth:
+    long: Ester
+    short: Ester
+  Exod:
+    long: Exodus
+    short: Exo.
+  Ezek:
+    long: Hesekiel
+    short: Hes.
+  Ezra:
+    long: Esra
+    short: Esra
+  Gal:
+    long: Ovagalati
+    short: Gal.
+  Gen:
+    long: Genesis
+    short: Gen.
+  Hab:
+    long: Habakuk
+    short: Hab.
+  Hag:
+    long: Haggai
+    short: Hag.
+  Heb:
+    long: Ovaheberi
+    short: Heb.
+  Hos:
+    long: Hosea
+    short: Hos.
+  Isa:
+    long: Jesaja
+    short: Jes.
+  Jas:
+    long: Jakob
+    short: Jak.
+  Jer:
+    long: Jeremia
+    short: Jer.
+  Job:
+    long: Job
+    short: Job
+  Joel:
+    long: Joel
+    short: Joel
+  John:
+    long: Johannes
+    short: Joh.
+  Jonah:
+    long: Jona
+    short: Jona
+  Josh:
+    long: Josua
+    short: Jos.
+  Jude:
+    long: Judas
+    short: Jud.
+  Judg:
+    long: Ovatokolipangeli
+    short: Ovatok.
+  Lam:
+    long: Omaimbilokemo
+    short: Eimbilok.
+  Lev:
+    long: Levitikus
+    short: Lev.
+  Luke:
+    long: Lukas
+    short: Luk.
+  Mal:
+    long: Malakia
+    short: Mal.
+  Mark:
+    long: Markus
+    short: Mark.
+  Matt:
+    long: Mateus
+    short: Mat.
+  Mic:
+    long: Mika
+    short: Mika
+  Nah:
+    long: Nahum
+    short: Nahum
+  Neh:
+    long: Nehemia
+    short: Neh.
+  Num:
+    long: Numeri
+    short: Num.
+  Obad:
+    long: Obadja
+    short: Oba.
+  Phil:
+    long: Ovafilippi
+    short: Filip.
+  Phlm:
+    long: Filemon
+    short: Filem.
+  Prov:
+    long: Omayeletumbulo
+    short: Omayel.
+  Ps:
+    long: Omapsalome
+    short: Eps.
+  Rev:
+    long: Ehololo
+    short: Ehol.
+  Rom:
+    long: Ovaroma
+    short: Rom.
+  Ruth:
+    long: Rut
+    short: Rut
+  Song:
+    long: Eimbiloelela
+    short: Eimbiloel.
+  Titus:
+    long: Titus
+    short: Tit.
+  Zech:
+    long: Sakaria
+    short: Sak.
+  Zeph:
+    long: Sefania
+    short: Sef.

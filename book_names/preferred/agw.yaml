@@ -1,0 +1,241 @@
+default:
+  1Chr:
+    long: 1 Sihonga
+    short: 1 Sihonga
+  1Cor:
+    long: 1 Korinto
+    short: 1 Korinto
+  1Esd:
+    long: 1 Esetarase
+    short: 1 Esetarase
+  1John:
+    long: 1 Joane
+    short: 1 Joane
+  1Kgs:
+    long: 1 Maheraha
+    short: 1 Maheraha
+  1Macc:
+    long: 1 Makabeo
+    short: 1 Makabeo
+  1Pet:
+    long: 1 Petero
+    short: 1 Petero
+  1Sam:
+    long: 1 Samuele
+    short: 1 Samuele
+  1Thess:
+    long: 1 Tesalonika
+    short: 1 Tesalonika
+  1Tim:
+    long: 1 Timoti
+    short: 1 Timoti
+  2Chr:
+    long: 2 Sihonga
+    short: 2 Sihonga
+  2Cor:
+    long: 2 Korinto
+    short: 2 Korinto
+  2Esd:
+    long: 2 Esetarase
+    short: 2 Esetarase
+  2John:
+    long: 2 Joane
+    short: 2 Joane
+  2Kgs:
+    long: 2 Maneraha
+    short: 2 Maneraha
+  2Macc:
+    long: 2 Makabeo
+    short: 2 Makabeo
+  2Pet:
+    long: 2 Petero
+    short: 2 Petero
+  2Sam:
+    long: 2 Samuele
+    short: 2 Samuele
+  2Thess:
+    long: 2 Tesalonika
+    short: 2 Tesalonika
+  2Tim:
+    long: 2 Timoti
+    short: 2 Timoti
+  3John:
+    long: 3 Joane
+    short: 3 Joane
+  Acts:
+    long: Tagaraha Iata Na Aposotolo
+    short: Tagaraha Iata Na Aposotolo
+  Amos:
+    long: Amose
+    short: Amose
+  Bar:
+    long: Baruku
+    short: Baruku
+  Bel:
+    long: Belo
+    short: Belo
+  Col:
+    long: Kolose
+    short: Kolose
+  Dan:
+    long: Taniele
+    short: Taniele
+  Deut:
+    long: Ramata
+    short: Ramata
+  Eccl:
+    long: Buka Ni Takoha
+    short: Buka Ni Takoha
+  Eph:
+    long: Epeso
+    short: Epeso
+  Esth:
+    long: Eseta (Hebereo)
+    short: Eseta (Hebereo)
+  EsthGr:
+    long: Eseta (Greece)
+    short: Eseta(greece)
+  Exod:
+    long: Tahinga
+    short: Tahinga
+  Ezek:
+    long: Esekiele
+    short: Esekiele
+  Ezra:
+    long: Esera
+    short: Esera
+  Gal:
+    long: Galasia
+    short: Galasia
+  Gen:
+    long: Hagonegahani
+    short: Hagonegahani
+  Hab:
+    long: Habakuku
+    short: Habakuku
+  Hag:
+    long: Hagai
+    short: Hagai
+  Heb:
+    long: Hebereo
+    short: Hebereo
+  Hos:
+    long: Hosea
+    short: Hosea
+  Isa:
+    long: Isaia
+    short: Isaia
+  Jas:
+    long: Jakobo
+    short: Jakobo
+  Jdt:
+    long: Jutiti
+    short: Jutiti
+  Jer:
+    long: Jeremia
+    short: Jeremia
+  Job:
+    long: Jobe
+    short: Jobe
+  Joel:
+    long: Joele
+    short: Joele
+  John:
+    long: Joane
+    short: Joane
+  Jonah:
+    long: Jona
+    short: Jona
+  Josh:
+    long: Josua
+    short: Josua
+  Jude:
+    long: Juta
+    short: Juta
+  Judg:
+    long: Mane Ni Hagaotonga
+    short: Mane Ni Hagaotonga
+  Lam:
+    long: Angiha Maramara
+    short: Angiha Maramara
+  Lev:
+    long: Hagarahenga
+    short: Hagarahenga
+  Luke:
+    long: Luka
+    short: Luka
+  Mal:
+    long: Malaki
+    short: Malaki
+  Mark:
+    long: Mareko
+    short: Mareko
+  Matt:
+    long: Mateo
+    short: Mateo
+  Mic:
+    long: Mika
+    short: Mika
+  Nah:
+    long: Nahumi
+    short: Nahumi
+  Neh:
+    long: Nehemia
+    short: Nehemia
+  Num:
+    long: Tomaha Ninuni
+    short: Tomaha Ninuni
+  Obad:
+    long: Obatia
+    short: Obatia
+  Phil:
+    long: Pilipi
+    short: Pilipi
+  Phlm:
+    long: Pilemone
+    short: Pilemone
+  PrAzar:
+    long: TANIELE 2
+    short: TANIELE 2
+  PrMan:
+    long: Nunginungiha Iana O Manase
+    short: Nunginungiha Iana O Manase
+  Prov:
+    long: Na Maramarêrava
+    short: Na Maramarêrava
+  Ps:
+    long: Ki
+    short: Ki
+  Rev:
+    long: Ranganiha
+    short: Ranganiha
+  Rom:
+    long: Roma
+    short: Roma
+  Ruth:
+    long: Ruti
+    short: Ruti
+  Sir:
+    long: Sirake
+    short: Sirake
+  Song:
+    long: Romani Na Kiha
+    short: Romani Na Kiha
+  Sus:
+    long: Susana
+    short: Susana
+  Titus:
+    long: Tito
+    short: Tito
+  Tob:
+    long: Tobiti
+    short: Tobiti
+  Wis:
+    long: Aitangisiha
+    short: Aitangisiha
+  Zech:
+    long: Sakaria
+    short: Sakaria
+  Zeph:
+    long: Sepania
+    short: Sepania

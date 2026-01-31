@@ -1,0 +1,111 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Gbasamɔ
+      - Gba
+  - osis: Matt
+    texts:
+      - Matthieu
+      - Mt
+  - osis: Mark
+    texts:
+      - Marc
+      - Mc
+  - osis: Luke
+    texts:
+      - Luc
+      - Lc
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jean
+      - Jn
+  - osis: Acts
+    texts:
+      - Deamɔ
+  - osis: Rom
+    texts:
+      - Rome
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korente
+      - Kɔr
+  - osis: Col
+    texts:
+      - Kolose
+      - Kol
+  - osis: Gal
+    texts:
+      - Galasi
+      - Gal
+  - osis: Eph
+    texts:
+      - Efeze
+      - Efe
+  - osis: Phil
+    texts:
+      - Filipe
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonike
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothée
+      - Ti
+  - osis: Titus
+    texts:
+      - Tite
+      - Tit
+  - osis: Phlm
+    texts:
+      - Philémon
+      - Philm
+  - osis: Heb
+    texts:
+      - Hebro
+      - Heb
+  - osis: Jas
+    texts:
+      - Jacques
+      - Jac
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pierre
+      - Pi
+  - osis: Jude
+    texts:
+      - Jude
+      - Jud
+translations:
+  - NTGBY

@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Kronika
+    short: 1Kro
+  1Cor:
+    long: 1 Korinti
+    short: 1Kor
+  1John:
+    long: 1 Johanes
+    short: 1Joh
+  1Kgs:
+    long: 1 Raja-Raja
+    short: 1Raj
+  1Pet:
+    long: 1 Petrus
+    short: 1Pet
+  1Sam:
+    long: 1 Samuel
+    short: 1Sam
+  1Thess:
+    long: 1 Tesalonika
+    short: 1Tes
+  1Tim:
+    long: 1 Timotius
+    short: 1Tim
+  2Chr:
+    long: 2 Kronika
+    short: 2Kro
+  2Cor:
+    long: 2 Korinti
+    short: 2Kor
+  2John:
+    long: 2 Johanes
+    short: 2Joh
+  2Kgs:
+    long: 2 Raja-Raja
+    short: 2Raj
+  2Pet:
+    long: 2 Petrus
+    short: 2Pet
+  2Sam:
+    long: 2 Samuel
+    short: 2Sam
+  2Thess:
+    long: 2 Tesalonika
+    short: 2Tes
+  2Tim:
+    long: 2 Timotius
+    short: 2Tim
+  3John:
+    long: 3 Johanes
+    short: 3Joh
+  Acts:
+    long: Perbahanen Rasul-rasul
+    short: Perb
+  Amos:
+    long: Amos
+    short: Amos
+  Col:
+    long: Kolose
+    short: Kol
+  Dan:
+    long: Daniel
+    short: Dan
+  Deut:
+    long: Ulangen
+    short: Ul
+  Eccl:
+    long: Pengerana
+    short: Peng
+  Eph:
+    long: Epesus
+    short: Ep
+  Esth:
+    long: Ester
+    short: Est
+  Exod:
+    long: Keluaren
+    short: Kel
+  Ezek:
+    long: Esekiel
+    short: Esek
+  Ezra:
+    long: Esra
+    short: Esa
+  Gal:
+    long: Galati
+    short: Gal
+  Gen:
+    long: Kejadin
+    short: Kej
+  Hab:
+    long: Habakuk
+    short: Haba
+  Hag:
+    long: Hagai
+    short: Hag
+  Heb:
+    long: Heber
+    short: Heb
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Jesaya
+    short: Jes
+  Jas:
+    long: Jakup
+    short: Jak
+  Jer:
+    long: Jeremia
+    short: Jer
+  Job:
+    long: Jop
+    short: Jop
+  Joel:
+    long: Joel
+    short: Joel
+  John:
+    long: Johanes
+    short: Joh
+  Jonah:
+    long: Juna
+    short: Jun
+  Josh:
+    long: Josua
+    short: Jos
+  Jude:
+    long: Judas
+    short: Jud
+  Judg:
+    long: Hakim-Hakim
+    short: Hak
+  Lam:
+    long: Perngandungen
+    short: Perng
+  Lev:
+    long: Imamat
+    short: Im
+  Luke:
+    long: Lukas
+    short: Luk
+  Mal:
+    long: Maleaki
+    short: Mal
+  Mark:
+    long: Markus
+    short: Mrk
+  Matt:
+    long: Matius
+    short: Mat
+  Mic:
+    long: Miha
+    short: Mi
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nehemia
+    short: Neh
+  Num:
+    long: Bilangen
+    short: Bil
+  Obad:
+    long: Obaja
+    short: Oba
+  Phil:
+    long: Pilipi
+    short: Pil
+  Phlm:
+    long: Pilemon
+    short: Plm
+  Prov:
+    long: Kuan-kuanen
+    short: Kua
+  Ps:
+    long: Masmur
+    short: Msm
+  Rev:
+    long: Ketangkasen
+    short: Ket
+  Rom:
+    long: Roma
+    short: Rom
+  Ruth:
+    long: Rut
+    short: Rut
+  Song:
+    long: Ende-enden Salomo
+    short: Ende
+  Titus:
+    long: Titus
+    short: Tit
+  Zech:
+    long: Sakaria
+    short: Sak
+  Zeph:
+    long: Sepanya
+    short: Sep

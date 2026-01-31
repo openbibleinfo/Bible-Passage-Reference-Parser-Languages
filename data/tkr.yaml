@@ -1,0 +1,98 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Ts'ett.
+      - Ts'etta
+  - osis: Exod
+    texts:
+      - Qığeepç'iy
+      - Qığ.
+  - osis: Num
+    texts:
+      - Raq'ambı
+      - Raq'.
+  - osis: Deut
+    texts:
+      - Q'aanun q'öb'es
+      - Q'.q'.
+  - osis: Ruth
+    texts:
+      - Rt.
+      - Rut
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Sam.
+  - osis: 1Sam
+    texts:
+      - 1-Samuelin
+  - osis: 2Sam
+    texts:
+      - 2-Samuelin
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Paçç.
+  - osis: 1Kgs
+    texts:
+      - 1-Paççahaaşin
+  - osis: 2Kgs
+    texts:
+      - 2-Paççahaaşin
+  - osis: Ps
+    texts:
+      - Zabur
+      - Zab.
+  - osis: Prov
+    texts:
+      - Sıleymanın uvhiybı
+      - Sıl.
+  - osis: Eccl
+    texts:
+      - Mə'əllim
+      - Mə'əll.
+  - osis: Dan
+    texts:
+      - Daniyal
+      - Dan.
+  - osis: Jonah
+    texts:
+      - Yunus
+      - Yun.
+  - osis: Mal
+    texts:
+      - Malakiya
+      - Mal.
+  - osis: Matt
+    texts:
+      - Matta
+      - Mat.
+  - osis: Luke
+    texts:
+      - Luk.
+      - Luka
+  - osis: John
+    texts:
+      - Yəhye
+      - Yəh.
+  - osis: Heb
+    texts:
+      - Cühüt'yaaşis
+      - Cüh.
+  - osis: Jas
+    texts:
+      - Yaaq'ub
+      - Yaaq'.
+translations:
+  - TKR

@@ -1,0 +1,362 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Kutachika
+      - Genese
+      - Kutach
+      - Gen.
+  - osis: Exod
+    texts:
+      - Kwidika
+      - Exoda
+      - Ex.
+      - Kwi
+  - osis: Lev
+    texts:
+      - Livitike
+      - Alevi
+      - Liv.
+      - Lev
+  - osis: Num
+    texts:
+      - Kuchinda
+      - Numere
+      - Kuch
+      - Num.
+  - osis: Lam
+    texts:
+      - Malilo
+      - Mukeŋa
+      - Mali.
+  - osis: Rev
+    texts:
+      - Chimwekeshu
+      - Sinulo
+      - Chim
+      - Sin.
+  - osis: Deut
+    texts:
+      - Deuteronoma
+      - Kuhituluka
+      - Deut.
+      - Kuhit
+  - osis: Josh
+    texts:
+      - Yoshuwa
+      - Joshua
+      - Josh.
+      - Yosh
+  - osis: Judg
+    texts:
+      - Ansompeshi
+      - Baatuli
+      - Ansomp
+      - Baat.
+  - osis: Ruth
+    texts:
+      - Luti
+      - Ruti
+  - osis: Isa
+    texts:
+      - Isaya
+      - Is.
+      - Isa
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuele
+      - Samweli
+      - Sam.
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Anyanta
+      - Malena
+      - Anya
+      - Mal.
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Kushindulula
+      - Makolonika
+      - Makol.
+      - Kush
+  - osis: Ezra
+    texts:
+      - Ezera
+      - Ezira
+      - Ezi.
+  - osis: Neh
+    texts:
+      - Nehemiya
+      - Nehemia
+      - Neh.
+      - Neh
+  - osis: Esth
+    texts:
+      - Estere
+      - Esita
+      - Est.
+  - osis: Job
+    texts:
+      - Jobo
+      - Yoba
+  - osis: Ps
+    texts:
+      - Lisamu
+      - Masamu
+      - Samu
+      - Mas
+  - osis: Prov
+    texts:
+      - Liproverbia
+      - Liprov.
+      - Yishimu
+      - Yish
+  - osis: Eccl
+    texts:
+      - Mukwakutaŋisha
+      - Muekelesia
+      - Muek.
+      - Mukwa
+  - osis: Song
+    texts:
+      - Pina ya Lipina
+      - Kamina
+      - Pina.
+      - Kam
+  - osis: Jer
+    texts:
+      - Yeremiya
+      - Jeremia
+      - Jer.
+      - Yer
+  - osis: Ezek
+    texts:
+      - Ezekiele
+      - Ezekeli
+      - Ezek.
+      - Ezek
+  - osis: Dan
+    texts:
+      - Daniele
+      - Danyeli
+      - Dan.
+      - Dan
+  - osis: Hos
+    texts:
+      - Hoseya
+      - Hosea
+      - Hos.
+      - Hos
+  - osis: Joel
+    texts:
+      - Yoweli
+      - Joele
+      - Joe.
+  - osis: Amos
+    texts:
+      - Amosa
+      - Amosi
+      - Am.
+  - osis: Obad
+    texts:
+      - Obadiya
+      - Obadia
+      - Obad.
+      - Obad
+  - osis: Jonah
+    texts:
+      - Jonasi
+      - Jon.
+      - Yona
+  - osis: Mic
+    texts:
+      - Mika
+      - Mi.
+  - osis: Nah
+    texts:
+      - Nahumi
+      - Nehumi
+      - Nah.
+  - osis: Hab
+    texts:
+      - Habakuki
+      - Hab.
+      - Hab
+  - osis: Zeph
+    texts:
+      - Zefwaniya
+      - Zefania
+      - Zef.
+      - Zef
+  - osis: Hag
+    texts:
+      - Hagayi
+      - Hagai
+      - Hag.
+      - Hag
+  - osis: Zech
+    texts:
+      - Zekariya
+      - Zakaria
+      - Zak.
+      - Zek
+  - osis: Mal
+    texts:
+      - Malaki
+      - Mal.
+      - Mal
+  - osis: Matt
+    texts:
+      - Matewu
+      - Mateu
+      - Mat.
+      - Mat
+  - osis: Mark
+    texts:
+      - Mareka
+      - Mare.
+      - Maku
+      - Mak
+  - osis: Luke
+    texts:
+      - Luka
+      - Lu.
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yowanu
+      - Joani
+      - Joa.
+      - Yow
+  - osis: Acts
+    texts:
+      - Likezo
+      - Yililu
+      - Lik.
+      - Yil
+  - osis: Rom
+    texts:
+      - Maroma
+      - aRoma
+      - Maro.
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Makorinte
+      - Akorinda
+      - Makor.
+      - Kor
+  - osis: Col
+    texts:
+      - Makolose
+      - aKolose
+      - Makolo.
+      - Kol
+  - osis: Gal
+    texts:
+      - Magalata
+      - Aŋalija
+      - Magal.
+      - Ŋal
+  - osis: Eph
+    texts:
+      - Efwesesa
+      - Maefese
+      - Maef.
+      - Efw
+  - osis: Phil
+    texts:
+      - Afwilipi
+      - Mafilipi
+      - Mafil.
+      - Fwi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Matesalinika
+      - Atesalonika
+      - Mates.
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotewu
+      - Timotea
+      - Tim.
+      - Tim
+  - osis: Titus
+    texts:
+      - Titusa
+      - Tite
+      - Tit
+  - osis: Phlm
+    texts:
+      - Fwilemoni
+      - Filemoni
+      - Fwile
+      - Fil.
+  - osis: Heb
+    texts:
+      - Maheberu
+      - Aheberu
+      - Maheb.
+      - Heb
+  - osis: Jas
+    texts:
+      - Jakobo
+      - Yakoba
+      - Jak.
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pitrosi
+      - Petulu
+      - Pit.
+      - Pet
+  - osis: Jude
+    texts:
+      - Juda
+      - Yuda
+translations:
+  - LNB04
+  - LUN62

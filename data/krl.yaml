@@ -1,0 +1,128 @@
+variables:
+  first: &first
+    - "1."
+    - Enšimmäini
+  second: &second
+    - "2."
+    - Toini
+books:
+  - osis: Rev
+    texts:
+      - Jiävintä Iivanalla
+      - Jiäv.
+  - osis: Matt
+    texts:
+      - Matvein jevanheli
+      - Matv.
+  - osis: Mark
+    texts:
+      - Markin jevanheli
+      - Mark.
+  - osis: Luke
+    texts:
+      - Lukan jevanheli
+      - Luk.
+  - osis: 1John
+    texts:
+      - Iivanan enšimmäini kirjani
+  - osis: 2John
+    texts:
+      - Iivanan toini kirjani
+  - osis: 3John
+    texts:
+      - Iivanan kolmaš kirjani
+      - 3. Iiv.
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Iiv.
+  - osis: John
+    texts:
+      - Iivanan jevanheli
+      - Iiv.
+  - osis: Acts
+    texts:
+      - Apostolien kirja
+      - Ap.k.
+  - osis: Rom
+    texts:
+      - Kirjani riimalaisilla
+      - Riim.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - kirjani korinfilaisilla
+      - Kor.
+  - osis: Col
+    texts:
+      - Kirjani kolossalaisilla
+      - Kol.
+  - osis: Gal
+    texts:
+      - Kirjani galatalaisilla
+      - Gal.
+  - osis: Eph
+    texts:
+      - Kirjani efessalaisilla
+      - Ef.
+  - osis: Phil
+    texts:
+      - Kirjani hilippiläisillä
+      - Hil.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - kirjani fessalonikkalaisilla
+      - Fess.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - kirjani Timofeilla
+      - Tim.
+  - osis: Titus
+    texts:
+      - Kirjani Tiitalla
+      - Tiit.
+  - osis: Phlm
+    texts:
+      - Kirjani Filimonilla
+      - Fil.
+  - osis: Heb
+    texts:
+      - Kirjani jevreilöillä
+      - Jevr.
+  - osis: Jas
+    texts:
+      - Juakon kirjani
+      - Juak.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petr.
+  - osis: 1Pet
+    texts:
+      - Petrin enšimmäini kirjani
+  - osis: 2Pet
+    texts:
+      - Petrin toini kirjani
+  - osis: Jude
+    texts:
+      - Juutan kirjani
+      - Juut.
+translations:
+  - KAR11

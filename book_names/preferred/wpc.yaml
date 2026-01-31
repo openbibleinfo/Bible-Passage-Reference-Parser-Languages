@@ -1,0 +1,124 @@
+default:
+  1Chr:
+    long: 1 Crónicas
+    short: 1Cr
+  1Cor:
+    long: 1 Corintios
+    short: 1Co
+  1John:
+    long: 1 Juan
+    short: 1Ju
+  1Kgs:
+    long: 1 Reyes
+    short: 1Re
+  1Pet:
+    long: 1 Pedro
+    short: 1Ped
+  1Sam:
+    long: 1 Samuel
+    short: 1Sa
+  1Thess:
+    long: 1 Tesalonicenses
+    short: 1Te
+  1Tim:
+    long: 1 Timoteo
+    short: 1Ti
+  2Cor:
+    long: 2 Corintios
+    short: 2Co
+  2John:
+    long: 2 Juan
+    short: 2Ju
+  2Kgs:
+    long: 2 Reyes
+    short: 2Re
+  2Pet:
+    long: 2 Pedro
+    short: 2Ped
+  2Sam:
+    long: 2 Samuel
+    short: 2Sa
+  2Thess:
+    long: 2 Tesalonicenses
+    short: 2Te
+  2Tim:
+    long: 2 Timoteo
+    short: 2Ti
+  3John:
+    long: 3 Juan
+    short: 3Ju
+  Acts:
+    long: Hechos
+    short: Hec
+  Col:
+    long: Colosenses
+    short: Col
+  Dan:
+    long: Daniel
+    short: Dan
+  Deut:
+    long: Deuteronomio
+    short: Deu
+  Eph:
+    long: Efesios
+    short: Efe
+  Exod:
+    long: Éxodo
+    short: Exo
+  Gal:
+    long: Gálatas
+    short: Gal
+  Gen:
+    long: Génesis
+    short: Gen
+  Heb:
+    long: Hebreos
+    short: Heb
+  Isa:
+    long: Isaías
+    short: Isa
+  Jas:
+    long: Santiago
+    short: San
+  Job:
+    long: Job
+    short: Job
+  John:
+    long: Juan
+    short: Jua
+  Josh:
+    long: Josué
+    short: Jos
+  Jude:
+    long: Judas
+    short: Jud
+  Judg:
+    long: Jueces
+    short: Jue
+  Luke:
+    long: Lucas
+    short: Luc
+  Mark:
+    long: Marcos
+    short: Mar
+  Matt:
+    long: Mateo
+    short: Mat
+  Phil:
+    long: Filipenses
+    short: Fil
+  Phlm:
+    long: Filemón
+    short: Flm
+  Prov:
+    long: Proverbios
+    short: Pro
+  Rev:
+    long: Apocalipsis
+    short: Apo
+  Rom:
+    long: Romanos
+    short: Rom
+  Titus:
+    long: Tito
+    short: Tit

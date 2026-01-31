@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 Korintyone
+    short: 1Ko
+  1John:
+    long: 1 Gwa
+    short: 1Gwa
+  1Pet:
+    long: 1 Petro
+    short: 1P
+  1Thess:
+    long: 1 Tesalonikane
+    short: 1Te
+  1Tim:
+    long: 1 Timotiyo
+    short: 1Ti
+  2Cor:
+    long: 2 Korintyone
+    short: 2Ko
+  2John:
+    long: 2 Gwa
+    short: 2Gwa
+  2Pet:
+    long: 2 Petro
+    short: 2P
+  2Thess:
+    long: 2 Tesalonikane
+    short: 2Te
+  2Tim:
+    long: 2 Timotiyo
+    short: 2Ti
+  3John:
+    long: 3 Gwa
+    short: 3Gwa
+  Acts:
+    long: Yokanatkalune Kamrure
+    short: Yk
+  Col:
+    long: Kolosane
+    short: Kol
+  Eph:
+    long: Gigwisone
+    short: Gig
+  Gal:
+    long: Kalatane
+    short: Kal
+  Heb:
+    long: Gewreyone
+    short: Gew
+  Jas:
+    long: Santiyako
+    short: Sty
+  John:
+    long: Gwa
+    short: Gwa
+  Jude:
+    long: Gota
+    short: Got
+  Luke:
+    long: Lokasu
+    short: Lk
+  Mark:
+    long: Marko
+    short: Mr
+  Matt:
+    long: Matiyo
+    short: Mt
+  Phil:
+    long: Wilipone
+    short: Wlp
+  Phlm:
+    long: Wilimo
+    short: Wlm
+  Rev:
+    long: Gipgujetkaluru
+    short: Gip
+  Rom:
+    long: Romanone
+    short: Rom
+  Titus:
+    long: Tito
+    short: Tit

@@ -1,0 +1,121 @@
+variables:
+  first: &first
+    - "1"
+    - 1ª
+  second: &second
+    - "2"
+    - 2ª
+books:
+  - osis: Rev
+    texts:
+      - Apocalipsis
+      - Ap.
+  - osis: Matt
+    texts:
+      - San Mateo
+      - Mt.
+  - osis: Mark
+    texts:
+      - San Marcos
+      - Mr.
+  - osis: Luke
+    texts:
+      - San Lucas
+      - Lc.
+  - osis: 3John
+    texts:
+      - 3ª Carta de San Juan
+      - 3 Jn.
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - carta de San Juan
+      - Jn.
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - Carta de San Juan
+      - Jn.
+  - osis: John
+    texts:
+      - San Juan
+      - Jn.
+  - osis: Acts
+    texts:
+      - Los Hechos de los Apóstoles
+      - Hch.
+  - osis: Rom
+    texts:
+      - Romanos
+      - Ro.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corintios
+      - Co.
+  - osis: Col
+    texts:
+      - Colosenses
+      - Col.
+  - osis: Gal
+    texts:
+      - Gálatas
+      - Gá.
+  - osis: Eph
+    texts:
+      - Efesios
+      - Ef.
+  - osis: Phil
+    texts:
+      - Filipenses
+      - Fil.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonicenses
+      - Ts.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+      - Ti.
+  - osis: Titus
+    texts:
+      - Tit.
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filemn
+      - Flm.
+  - osis: Heb
+    texts:
+      - Hebreos
+      - Heb.
+  - osis: Jas
+    texts:
+      - Santiago
+      - Stg.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Carta de San Pedro
+      - Pedro
+  - osis: Jude
+    texts:
+      - Judas
+translations:
+  - HUV

@@ -1,0 +1,277 @@
+variables:
+  first: &first
+    - "1"
+    - Fɔs
+  second: &second
+    - "2"
+    - Sɛkɛn
+books:
+  - osis: Gen
+    texts:
+      - Jɛnɛsis
+      - Jɛn
+  - osis: Exod
+    texts:
+      - Ɛksodɔs
+      - Ɛks
+  - osis: Lev
+    texts:
+      - Lɛvitikɔs
+      - Lɛv
+  - osis: Num
+    texts:
+      - Di Nɔmba Dɛm
+      - Nɔm
+  - osis: Lam
+    texts:
+      - Lamɛnteshɔn
+      - Lam
+  - osis: Rev
+    texts:
+      - Rɛvɛleshɔn
+      - Rɛv
+  - osis: Deut
+    texts:
+      - Ditarɔnɔmi
+      - Dit
+  - osis: Josh
+    texts:
+      - Jɔshwa
+      - Jɔs
+  - osis: Judg
+    texts:
+      - Di Jɔj Dɛm
+      - Jɔj
+  - osis: Ruth
+    texts:
+      - Ruth
+      - Rut
+  - osis: Isa
+    texts:
+      - Ayzaya
+      - Ayz
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samiɛl
+      - Sa
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Kiŋ
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Kronikuls
+      - Kro
+  - osis: Ezra
+    texts:
+      - Ɛzra
+      - Ɛzr
+  - osis: Neh
+    texts:
+      - Nɛimaya
+      - Nɛi
+  - osis: Esth
+    texts:
+      - Ɛsta
+      - Ɛst
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Di Sam Dɛm
+      - Sam
+  - osis: Prov
+    texts:
+      - Prɔvabs
+      - Prɔ
+  - osis: Eccl
+    texts:
+      - Ɛkliziastis
+      - Ɛkl
+  - osis: Song
+    texts:
+      - Sɔlɔmɔn In Siŋ Dɛm
+      - Siŋ
+  - osis: Jer
+    texts:
+      - Jɛrimaya
+      - Jɛr
+  - osis: Ezek
+    texts:
+      - Izikɛl
+      - Izi
+  - osis: Dan
+    texts:
+      - Daniɛl
+      - Dan
+  - osis: Hos
+    texts:
+      - Ozie
+      - Ozi
+  - osis: Joel
+    texts:
+      - Joɛl
+  - osis: Amos
+    texts:
+      - Emɔs
+  - osis: Obad
+    texts:
+      - Obadaya
+      - Oba
+  - osis: Jonah
+    texts:
+      - Jona
+  - osis: Mic
+    texts:
+      - Mayka
+      - Mayk
+  - osis: Nah
+    texts:
+      - Neum
+  - osis: Hab
+    texts:
+      - Abakɔk
+      - Abak
+  - osis: Zeph
+    texts:
+      - Zɛfinaya
+      - Zɛf
+  - osis: Hag
+    texts:
+      - Egay
+      - Eg
+  - osis: Zech
+    texts:
+      - Zɛkaraya
+      - Zɛk
+  - osis: Mal
+    texts:
+      - Malakay
+      - Mal
+  - osis: Matt
+    texts:
+      - Matyu
+      - Mat
+  - osis: Mark
+    texts:
+      - Mak
+      - Mk
+  - osis: Luke
+    texts:
+      - Lyuk
+      - Lek
+  - osis: 1John
+    texts:
+      - Jɔn In Fɔs Lɛta
+  - osis: 2John
+    texts:
+      - Jɔn In Sɛkɛn Lɛta
+  - osis: 3John
+    texts:
+      - Jɔn In Tɔd Lɛta
+      - 3 Jn
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jn
+  - osis: John
+    texts:
+      - Jɔn
+      - Jn
+  - osis: Acts
+    texts:
+      - Apɔsul Dɛn Wok
+      - Akt
+  - osis: Rom
+    texts:
+      - Lɛta Fɔ Rom
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kɔrint
+      - Kɔt
+  - osis: Col
+    texts:
+      - Lɛta Fɔ Kɔlɔse
+      - Kɔl
+  - osis: Gal
+    texts:
+      - Lɛta Fɔ Galeshya
+      - Gal
+  - osis: Eph
+    texts:
+      - Lɛta Fɔ Ɛfisɔs
+      - Ɛfi
+  - osis: Phil
+    texts:
+      - Lɛta Fɔ Filipay
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Lɛta Fɔ Tɛsalonayka
+      - Tɛs
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Lɛta To Timoti
+      - Tim
+  - osis: Titus
+    texts:
+      - Taytɔs
+      - Tay
+  - osis: Phlm
+    texts:
+      - Faylimɔn
+      - Fay
+  - osis: Heb
+    texts:
+      - Di Ibru Pipul Dɛn
+      - Ibru
+  - osis: Jas
+    texts:
+      - Jems
+      - Jem
+  - osis: 1Pet
+    texts:
+      - Pita In Fɔs Lɛta
+      - 1Pt
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pt
+  - osis: 2Pet
+    texts:
+      - Pita In Sɛkɛn Lɛta
+  - osis: Jude
+    texts:
+      - Jud In Lɛta
+      - Jud
+translations:
+  - KRIO13

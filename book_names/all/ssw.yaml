@@ -1,0 +1,293 @@
+- osis: Gen
+  texts:
+    - Genesisi
+    - Gen.
+- osis: Exod
+  texts:
+    - Eksodusi
+    - Eks.
+- osis: Lev
+  texts:
+    - Levithikusi
+    - Lev.
+- osis: Num
+  texts:
+    - Numeri
+    - Num.
+- osis: Lam
+  texts:
+    - Sililo
+    - Sil.
+- osis: Rev
+  texts:
+    - Sembulo
+    - Semb.
+- osis: Deut
+  texts:
+    - Dutheronomi
+    - Dut.
+- osis: Josh
+  texts:
+    - Joshuwa
+    - Josh.
+- osis: Judg
+  texts:
+    - Tikhulu
+    - Khu.
+- osis: Ruth
+  texts:
+    - Ruthe
+    - Rut.
+- osis: Isa
+  texts:
+    - Isaya
+    - Isa.
+- osis: 1Sam
+  texts:
+    - 1 Samuweli
+    - 1 Sam.
+    - 1. Samuweli
+    - 1. Sam.
+- osis: 2Sam
+  texts:
+    - 2 Samuweli
+    - 2 Sam.
+    - 2. Samuweli
+    - 2. Sam.
+- osis: 1Kgs
+  texts:
+    - 1 Emakhosi
+    - 1 Khos.
+    - 1. Emakhosi
+    - 1. Khos.
+- osis: 2Kgs
+  texts:
+    - 2 Emakhosi
+    - 2 Khos.
+    - 2. Emakhosi
+    - 2. Khos.
+- osis: 1Chr
+  texts:
+    - 1 Tikhronike
+    - 1 Khr.
+    - 1. Tikhronike
+    - 1. Khr.
+- osis: 2Chr
+  texts:
+    - 2 Tikhronike
+    - 2 Khr.
+    - 2. Tikhronike
+    - 2. Khr.
+- osis: Ezra
+  texts:
+    - Ezra
+- osis: Neh
+  texts:
+    - Nehemiya
+    - Neh.
+- osis: Esth
+  texts:
+    - Esta
+- osis: Job
+  texts:
+    - Jobe
+- osis: Ps
+  texts:
+    - Tihlabelelo
+    - Hla.
+- osis: Prov
+  texts:
+    - Taga
+- osis: Eccl
+  texts:
+    - UmShumayeli
+    - Shu.
+- osis: Song
+  texts:
+    - Ingoma Yetingoma
+    - Ngo.
+- osis: Jer
+  texts:
+    - Jeremiya
+    - Jer.
+- osis: Ezek
+  texts:
+    - Hezekeli
+    - Hez.
+- osis: Dan
+  texts:
+    - Danyela
+    - Dan.
+- osis: Hos
+  texts:
+    - Hoseya
+    - Hos.
+- osis: Joel
+  texts:
+    - Joweli
+    - Jow.
+- osis: Amos
+  texts:
+    - Amose
+    - Amo.
+- osis: Obad
+  texts:
+    - Obadiya
+    - Oba.
+- osis: Jonah
+  texts:
+    - Jona
+- osis: Mic
+  texts:
+    - Mikha
+    - Mik.
+- osis: Nah
+  texts:
+    - Nahume
+    - Nah.
+- osis: Hab
+  texts:
+    - Habakhuki
+    - Hab.
+- osis: Zeph
+  texts:
+    - Zefaniya
+    - Zef.
+- osis: Hag
+  texts:
+    - Hagayi
+    - Hag.
+- osis: Zech
+  texts:
+    - Zakhariya
+    - Zak.
+- osis: Mal
+  texts:
+    - Malakhi
+    - Mal.
+- osis: Matt
+  texts:
+    - Matewu
+    - Mat.
+- osis: Mark
+  texts:
+    - Makho
+    - Mak.
+- osis: Luke
+  texts:
+    - Lukha
+    - Luk.
+- osis: 1John
+  texts:
+    - 1 yaJohane
+    - 1 Joh.
+    - 1. yaJohane
+    - 1. Joh.
+- osis: 2John
+  texts:
+    - 2 yaJohane
+    - 2 Joh.
+    - 2. yaJohane
+    - 2. Joh.
+- osis: 3John
+  texts:
+    - 3 yaJohane
+    - 3 Joh.
+    - 3. yaJohane
+    - 3. Joh.
+- osis: John
+  texts:
+    - Johane
+    - Joh.
+- osis: Acts
+  texts:
+    - Imisebenti yebaPhostoli
+    - Imis.
+- osis: Rom
+  texts:
+    - KubaseRoma
+    - Rom.
+- osis: 1Cor
+  texts:
+    - 1 kubaseKorinthe
+    - 1 Khor.
+    - 1. kubaseKorinthe
+    - 1. Khor.
+- osis: 2Cor
+  texts:
+    - 2 kubaseKorinthe
+    - 2 Khor.
+    - 2. kubaseKorinthe
+    - 2. Khor.
+- osis: Col
+  texts:
+    - KubaseKholose
+    - Khol.
+- osis: Gal
+  texts:
+    - KubaseGalathiya
+    - Gal.
+- osis: Eph
+  texts:
+    - Kubase-Efesu
+    - Ef.
+- osis: Phil
+  texts:
+    - KubaseFiliphi
+    - Fil.
+- osis: 1Thess
+  texts:
+    - 1 kubaseThesalonika
+    - 1 Thes.
+    - 1. kubaseThesalonika
+    - 1. Thes.
+- osis: 2Thess
+  texts:
+    - 2 kubaseThesalonika
+    - 2 Thes.
+    - 2. kubaseThesalonika
+    - 2. Thes.
+- osis: 1Tim
+  texts:
+    - 1 kuThimothi
+    - 1 Thim.
+    - 1. kuThimothi
+    - 1. Thim.
+- osis: 2Tim
+  texts:
+    - 2 kuThimothi
+    - 2 Thim.
+    - 2. kuThimothi
+    - 2. Thim.
+- osis: Titus
+  texts:
+    - kuThithusi
+    - Thit.
+- osis: Phlm
+  texts:
+    - KuFilemoni
+    - Flm.
+- osis: Heb
+  texts:
+    - KumaHebheru
+    - Heb.
+- osis: Jas
+  texts:
+    - YaJakobe
+    - Jak.
+- osis: 1Pet
+  texts:
+    - 1 yaPhetro
+    - 1 Phet.
+    - 1. yaPhetro
+    - 1. Phet.
+- osis: 2Pet
+  texts:
+    - 2 yaPhetro
+    - 2 Phet.
+    - 2. yaPhetro
+    - 2. Phet.
+- osis: Jude
+  texts:
+    - YaJuda
+    - Juda

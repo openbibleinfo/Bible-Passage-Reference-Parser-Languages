@@ -1,0 +1,137 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Iko Zinume
+      - Gen
+  - osis: Exod
+    texts:
+      - Una Kaenamiae
+      - Kae
+  - osis: Num
+    texts:
+      - Nabasi
+      - Nab
+  - osis: Rev
+    texts:
+      - Revaresoni
+      - Rev
+  - osis: Josh
+    texts:
+      - Josua
+      - Jos
+  - osis: Ruth
+    texts:
+      - Ruti
+      - Rut
+  - osis: Neh
+    texts:
+      - Neamaea
+      - Nea
+  - osis: Matt
+    texts:
+      - Matiu
+      - Mat
+  - osis: Mark
+    texts:
+      - Maki
+      - Mak
+  - osis: Luke
+    texts:
+      - Ruki
+      - Ruk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Joni
+      - Jon
+  - osis: Acts
+    texts:
+      - Ekisi
+      - Ek
+  - osis: Rom
+    texts:
+      - Romeni
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Koriniti
+      - Kor
+  - osis: Col
+    texts:
+      - Korosiani
+      - Kor
+  - osis: Gal
+    texts:
+      - Garesiani
+      - Gar
+  - osis: Eph
+    texts:
+      - Ifisiani
+      - If
+  - osis: Phil
+    texts:
+      - Firifiani
+      - Fir
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaroniasi
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+      - Tim
+  - osis: Titus
+    texts:
+      - Taetasi
+      - Tae
+  - osis: Phlm
+    texts:
+      - Firimoni
+      - Frm
+  - osis: Heb
+    texts:
+      - Iburu
+      - Ib
+  - osis: Jas
+    texts:
+      - Jemisi
+      - Jem
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Fita
+      - Fit
+  - osis: Jude
+    texts:
+      - Judi
+      - Jud
+translations:
+  - BBB

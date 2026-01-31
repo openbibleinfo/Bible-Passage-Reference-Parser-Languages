@@ -1,0 +1,103 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Gav.
+  - osis: Rev
+    texts:
+      - Wahayu
+  - osis: Matt
+    texts:
+      - Mat.
+      - Mata
+  - osis: Mark
+    texts:
+      - Markus
+      - Mark.
+  - osis: Luke
+    texts:
+      - Luka
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yuhanna
+  - osis: John
+    texts:
+      - Yuhanna
+      - Yuh.
+  - osis: Acts
+    texts:
+      - Sler. emnde
+      - Slera-aha
+  - osis: Rom
+    texts:
+      - Rauma-aha
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kaurintus-aha
+      - Kaur.
+  - osis: Col
+    texts:
+      - Kaulausiya-aha
+  - osis: Gal
+    texts:
+      - Galatiya-aha
+  - osis: Eph
+    texts:
+      - Aifaisus-aha
+  - osis: Phil
+    texts:
+      - Filipi-aha
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Taisalauniki-aha
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timaute
+  - osis: Titus
+    texts:
+      - Titus
+  - osis: Phlm
+    texts:
+      - Filaimaun
+  - osis: Heb
+    texts:
+      - Ibraniŋkau-aha
+  - osis: Jas
+    texts:
+      - Yakuba
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piyer
+  - osis: Jude
+    texts:
+      - Yahuda
+translations:
+  - MFI

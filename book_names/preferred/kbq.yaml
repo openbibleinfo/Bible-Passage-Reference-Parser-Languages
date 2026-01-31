@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Kroniku-2 Kroniku
+    short: 1 Kro-Zam
+  1Cor:
+    long: 1 Korinti
+    short: 1 Kor
+  1John:
+    long: 1 Joni
+    short: 1 Jon
+  1Kgs:
+    long: 1 Kva vahere
+    short: 1 Ing
+  1Pet:
+    long: 1 Pita
+    short: 1 Pit
+  1Sam:
+    long: 1 Samue
+    short: 1 Sam
+  1Thess:
+    long: 1 Tesalonaika
+    short: 1 Tes
+  1Tim:
+    long: 1 Timoti
+    short: 1 Tim
+  2Chr:
+    long: 2 Kronikol-Zamagi Zamagenke
+    short: 2 Kro-Zam
+  2Cor:
+    long: 2 Korinti
+    short: 2 Kor
+  2John:
+    long: 2 Joni
+    short: 2 Jon
+  2Kgs:
+    long: 2 Kva
+    short: 2 Kin
+  2Pet:
+    long: 2 Pita
+    short: 2 Pit
+  2Sam:
+    long: 2 Samue
+    short: 2 Sam
+  2Thess:
+    long: 2 Tesalonaika
+    short: 2 Tes
+  2Tim:
+    long: 2 Timoti
+    short: 2 Tim
+  3John:
+    long: 3 Joni
+    short: 3 Jon
+  Acts:
+    long: Aposol
+    short: Apo
+  Amos:
+    long: Emosi
+    short: Emo
+  Col:
+    long: Kolosi
+    short: Kol
+  Dan:
+    long: Taneo
+    short: Dan
+  Deut:
+    long: Tiuteronomi Kasege
+    short: Diu-Kas
+  Eccl:
+    long: Ikrisiasatis
+    short: Ikl-Ant
+  Eph:
+    long: Efesasi
+    short: Efe
+  Esth:
+    long: Esta
+    short: Est
+  Exod:
+    long: Zmavarene
+    short: Eks-Atr
+  Ezek:
+    long: Izikeli
+    short: Izik
+  Ezra:
+    long: Ezra
+    short: Esr
+  Gal:
+    long: Galesia
+    short: Gal
+  Gen:
+    long: Jenesis
+    short: Jen-Agf
+  Hab:
+    long: Havakaki
+    short: Hab
+  Hag:
+    long: Hagai
+    short: Hag
+  Heb:
+    long: Hibru
+    short: Hib
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Aizaia
+    short: Ais
+  Jas:
+    long: Jemisi
+    short: Jem
+  Jer:
+    long: Zeremaia
+    short: Jer
+  Job:
+    long: Jovu
+    short: Jop
+  Joel:
+    long: Zoe
+    short: Jol
+  John:
+    long: Joni
+    short: Jon
+  Jonah:
+    long: Jona
+    short: Jona
+  Josh:
+    long: Zosua
+    short: Jos
+  Jude:
+    long: Juti
+    short: Jut
+  Judg:
+    long: Jasi vahere
+    short: Jad-Kva
+  Lam:
+    long: Lementesen-Zavi Krafa
+    short: Lem-Zav
+  Lev:
+    long: 3 Mose
+    short: Lev-Pri
+  Luke:
+    long: Luku
+    short: Luk
+  Mal:
+    long: Marakai
+    short: Mal
+  Mark:
+    long: Maki
+    short: Mak
+  Matt:
+    long: Matiu
+    short: Mat
+  Mic:
+    long: Maika
+    short: Maik
+  Nah:
+    long: Nahumu
+    short: Nah
+  Neh:
+    long: Nehemaia
+    short: Neh
+  Num:
+    long: 4 Mose
+    short: Nam-Ham
+  Obad:
+    long: Obadaia
+    short: Oba
+  Phil:
+    long: Filipai
+    short: Filp
+  Phlm:
+    long: Falimoni
+    short: Fai
+  Prov:
+    long: Mani'zanti mofo nanekee
+    short: Pro
+  Ps:
+    long: Sams-Zgame
+    short: Sam-Zga
+  Rev:
+    long: Hufore hu'nea naneke
+    short: Rev-Huf
+  Rom:
+    long: Roma
+    short: Rom
+  Ruth:
+    long: Rut
+    short: Rut
+  Song:
+    long: Soromoni' mago' ara hunte'nea zgamere
+    short: Sol-Zga
+  Titus:
+    long: Taitus
+    short: Tait
+  Zech:
+    long: Zekraia Sekaraia
+    short: Zek
+  Zeph:
+    long: Zefanaia
+    short: Zef

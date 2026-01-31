@@ -1,0 +1,81 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Feeñiyoh
+      - Fñy
+  - osis: Luke
+    texts:
+      - Lúkkë
+      - Lúk
+  - osis: 1John
+    texts:
+      - 1Sŋ
+  - osis: 2John
+    texts:
+      - 2Sŋ
+  - osis: 3John
+    texts:
+      - 3 Saŋ
+      - 3Sŋ
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Saŋ
+  - osis: Phil
+    texts:
+      - Fílíp
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonik
+  - osis: 1Thess
+    texts:
+      - 1Ts
+  - osis: 2Thess
+    texts:
+      - 2Ts
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoote
+  - osis: 2Tim
+    texts:
+      - 2Tm
+  - osis: Titus
+    texts:
+      - Tít
+  - osis: Phlm
+    texts:
+      - Filemoo
+      - Flm
+  - osis: Jas
+    texts:
+      - Saak
+      - Saa
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - Peer
+  - osis: 1Pet
+    texts:
+      - 1Pr
+  - osis: Jude
+    texts:
+      - Yúɗ
+translations:
+  - NDV

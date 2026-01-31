@@ -1,0 +1,131 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Ehororo
+      - Eho
+  - osis: Matt
+    texts:
+      - Mateus
+  - osis: Mark
+    texts:
+      - Markus
+  - osis: Luke
+    texts:
+      - Lukas
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Jo
+  - osis: 2John
+    texts:
+      - 2Jo
+  - osis: 3John
+    texts:
+      - 3 Johannes
+      - 3Jo
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Johannes
+  - osis: Acts
+    texts:
+      - Iironga
+      - Iir
+  - osis: Rom
+    texts:
+      - Kaaroma
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kaakorinti
+      - Kor
+  - osis: Col
+    texts:
+      - Kaakolossi
+      - Kol
+  - osis: Gal
+    texts:
+      - Kaagalati
+      - Gal
+  - osis: Eph
+    texts:
+      - Kaaefesi
+      - Efe
+  - osis: Phil
+    texts:
+      - Kaafilippi
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Kaatessaloniki
+  - osis: 1Thess
+    texts:
+      - 1Te
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Kaatessaloniki
+      - Tessaloniki
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteus
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Titus
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemon
+      - Fil
+  - osis: Heb
+    texts:
+      - Kaahebrei
+      - Heb
+  - osis: Jas
+    texts:
+      - Jakobus
+      - Jak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petrus
+  - osis: 1Pet
+    texts:
+      - 1Pe
+  - osis: 2Pet
+    texts:
+      - 2Pe
+  - osis: Jude
+    texts:
+      - Judas
+translations:
+  - KWM

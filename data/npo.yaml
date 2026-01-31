@@ -1,0 +1,268 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Atütsar
+      - Atü
+  - osis: Exod
+    texts:
+      - Tseshuküwa
+      - Tse
+  - osis: Lev
+    texts:
+      - Leviri
+      - Lev
+  - osis: Num
+    texts:
+      - Nyitoküchie
+      - Nyi
+  - osis: Lam
+    texts:
+      - Kürümuo
+      - Kmo
+  - osis: Rev
+    texts:
+      - Küthsükütsü
+      - Kkt
+  - osis: Deut
+    texts:
+      - Khonyoküüthele
+      - Kho
+  - osis: Josh
+    texts:
+      - Joshua
+      - Jos
+  - osis: Judg
+    texts:
+      - Lesari
+      - Les
+  - osis: Ruth
+    texts:
+      - Ruth
+      - Rut
+  - osis: Isa
+    texts:
+      - Isaya
+      - Isa
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Kajiri
+      - Kaj
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Küshukürazhüku
+      - Kkz
+  - osis: Ezra
+    texts:
+      - Ezra
+      - Ezr
+  - osis: Neh
+    texts:
+      - Nehemia
+      - Neh
+  - osis: Esth
+    texts:
+      - Esther
+      - Est
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Küreihiri
+      - Krh
+  - osis: Prov
+    texts:
+      - Kümtsazhü
+      - Kzh
+  - osis: Eccl
+    texts:
+      - Küsosiezhü
+      - Ksz
+  - osis: Song
+    texts:
+      - Solomon Küreihizahri
+      - Sol
+  - osis: Jer
+    texts:
+      - Jeremia
+      - Jer
+  - osis: Ezek
+    texts:
+      - Ezekiel
+      - Eze
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan
+  - osis: Hos
+    texts:
+      - Hosea
+      - Hos
+  - osis: Joel
+    texts:
+      - Joel
+      - Joe
+  - osis: Amos
+    texts:
+      - Amos
+      - Amo
+  - osis: Obad
+    texts:
+      - Obadia
+      - Oba
+  - osis: Jonah
+    texts:
+      - Jona
+      - Jon
+  - osis: Mic
+    texts:
+      - Mika
+      - MiK
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Zefania
+      - Zef
+  - osis: Hag
+    texts:
+      - Hagai
+      - Hag
+  - osis: Zech
+    texts:
+      - Zekharia
+      - Zek
+  - osis: Mal
+    texts:
+      - Malakhi
+      - Mal
+  - osis: Matt
+    texts:
+      - Mathi
+      - Mat
+  - osis: Mark
+    texts:
+      - Mark
+      - Mrk
+  - osis: Luke
+    texts:
+      - Luke
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Johan
+      - Jhn
+  - osis: Acts
+    texts:
+      - Küürori
+      - Krr
+  - osis: Rom
+    texts:
+      - Romri
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinthiari
+      - Kor
+  - osis: Col
+    texts:
+      - Kolosiri
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatiari
+      - Gal
+  - osis: Eph
+    texts:
+      - Efesari
+      - Efe
+  - osis: Phil
+    texts:
+      - Filipiri
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thesaloniari
+      - Ths
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothi
+      - Tim
+  - osis: Titus
+    texts:
+      - Tita
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemon
+      - Flm
+  - osis: Heb
+    texts:
+      - Ebriri
+      - Ebr
+  - osis: Jas
+    texts:
+      - Jems
+      - Jem
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pitor
+      - Pit
+  - osis: Jude
+    texts:
+      - Jude
+      - Jud
+translations:
+  - POCHBSI

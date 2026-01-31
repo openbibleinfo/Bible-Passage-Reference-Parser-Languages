@@ -1,0 +1,550 @@
+default:
+  1Chr:
+    long: 1 దినవృత్తాంతములు
+    short: 1 దిన
+  1Cor:
+    long: 1 కొరింథీ పత్రిక
+    short: 1 కొరింథీ
+  1John:
+    long: 1 యోహాను పత్రిక
+    short: 1 యోహాను
+  1Kgs:
+    long: 1 రాజులు
+    short: 1 రాజులు
+  1Pet:
+    long: 1 పేతురు పత్రిక
+    short: 1 పేతురు
+  1Sam:
+    long: 1 సమూయేలు
+    short: 1 సమూ
+  1Thess:
+    long: 1 థెస్సలొనీకయులకు
+    short: 1 థెస్స
+  1Tim:
+    long: 1 తిమోతి పత్రిక
+    short: 1 తిమోతి
+  2Chr:
+    long: 2 దినవృత్తాంతములు
+    short: 2 దిన
+  2Cor:
+    long: 2 కొరింథీ పత్రిక
+    short: 2 కొరింథీ
+  2John:
+    long: 2 యోహాను పత్రిక
+    short: 2 యోహాను
+  2Kgs:
+    long: 2 రాజులు
+    short: 2 రాజులు
+  2Pet:
+    long: 2 పేతురు పత్రిక
+    short: 2 పేతురు
+  2Sam:
+    long: 2 సమూయేలు
+    short: 2 సమూ
+  2Thess:
+    long: 2 థెస్సలొనీకయులకు
+    short: 2 థెస్స
+  2Tim:
+    long: 2 తిమోతి పత్రిక
+    short: 2 తిమోతి
+  3John:
+    long: 3 యోహాను పత్రిక
+    short: 3 యోహాను
+  Acts:
+    long: అపొస్తలుల కార్యములు
+    short: అపొ. కా.
+  Amos:
+    long: ఆమోసు
+    short: ఆమోసు
+  Col:
+    long: కొలొస్సయులకు
+    short: కొలొస్స
+  Dan:
+    long: దానియేలు
+    short: దాని
+  Deut:
+    long: ద్వితీయో
+    short: ద్వితీ
+  Eccl:
+    long: ప్రసంగి
+    short: ప్రసంగి
+  Eph:
+    long: ఎఫెసీ పత్రిక
+    short: ఎఫెసీ
+  Esth:
+    long: ఎస్తేరు
+    short: ఎస్తేరు
+  Exod:
+    long: నిర్గమ
+    short: నిర్గమ
+  Ezek:
+    long: యెహెజ్కేలు
+    short: యెహె
+  Ezra:
+    long: ఎజ్రా
+    short: ఎజ్రా
+  Gal:
+    long: గలతీ పత్రిక
+    short: గలతీ
+  Gen:
+    long: ఆది
+    short: ఆది
+  Hab:
+    long: హబక్కూకు
+    short: హబ
+  Hag:
+    long: హగ్గయి
+    short: హగ్గయి
+  Heb:
+    long: హెబ్రీ పత్రిక
+    short: హెబ్రీ
+  Hos:
+    long: హోషేయ
+    short: హోషేయ
+  Isa:
+    long: యెషయా
+    short: యెషయా
+  Jas:
+    long: యాకోబు పత్రిక
+    short: యాకోబు
+  Jer:
+    long: యిర్మీయా
+    short: యిర్మీయా
+  Job:
+    long: యోబు
+    short: యోబు
+  Joel:
+    long: యోవేలు
+    short: యోవేలు
+  John:
+    long: యోహాను
+    short: యోహాను
+  Jonah:
+    long: యోనా
+    short: యోనా
+  Josh:
+    long: యెహోషువ
+    short: యెహో
+  Jude:
+    long: యూదా పత్రిక
+    short: యూదా
+  Judg:
+    long: న్యాయాధిపతులు
+    short: న్యాయా
+  Lam:
+    long: విలాప
+    short: విలాప
+  Lev:
+    long: లేవీయ
+    short: లేవీ
+  Luke:
+    long: లూకా
+    short: లూకా
+  Mal:
+    long: మలాకీ
+    short: మలాకీ
+  Mark:
+    long: మార్కు
+    short: మార్కు
+  Matt:
+    long: మత్తయి
+    short: మత్తయి
+  Mic:
+    long: మీకా
+    short: మీకా
+  Nah:
+    long: నహూము
+    short: నహూము
+  Neh:
+    long: నెహెమ్యా
+    short: నెహె
+  Num:
+    long: సంఖ్యా
+    short: సంఖ్యా
+  Obad:
+    long: ఓబద్యా
+    short: ఓబద్యా
+  Phil:
+    long: ఫిలిప్పీ పత్రిక
+    short: ఫిలిప్పీ
+  Phlm:
+    long: ఫిలేమోను పత్రిక
+    short: ఫిలే
+  Prov:
+    long: సామెతలు
+    short: సామెత
+  Ps:
+    long: కీర్తనలు
+    short: కీర్తన
+  Rev:
+    long: ప్రకటన
+    short: ప్రక
+  Rom:
+    long: రోమా పత్రిక
+    short: రోమా
+  Ruth:
+    long: రూతు
+    short: రూతు
+  Song:
+    long: పరమ
+    short: పరమ
+  Titus:
+    long: తీతు పత్రిక
+    short: తీతు
+  Zech:
+    long: జెకర్యా
+    short: జెకర్యా
+  Zeph:
+    long: జెఫన్యా
+    short: జెఫన్యా
+translations:
+  irvtel:
+    1Chr:
+      long: 1 దిన
+      short: 1దిన
+    1Cor:
+      long: 1 కొరింతీ పత్రిక
+      short: 1కొరింతీ
+    1John:
+      short: 1యోహా
+    1Kgs:
+      short: 1రాజులు
+    1Pet:
+      short: 1పేతు
+    1Sam:
+      long: 1 సమూ
+      short: 1సమూ
+    1Thess:
+      long: 1 తెస్సలోనిక పత్రిక
+      short: 1తెస్స
+    1Tim:
+      short: 1తిమో
+    2Chr:
+      long: 2 దిన
+      short: 2దిన
+    2Cor:
+      long: 2 కొరింతీ పత్రిక
+      short: 2కొరింతీ
+    2John:
+      short: 2యోహా
+    2Kgs:
+      short: 2రాజులు
+    2Pet:
+      short: 2పేతు
+    2Sam:
+      long: 2 సమూ
+      short: 2సమూ
+    2Thess:
+      long: 2 తెస్సలోనిక పత్రిక
+      short: 2తెస్స
+    2Tim:
+      short: 2తిమో
+    3John:
+      short: 3యోహా
+    Acts:
+      short: అపొ.కా.
+    Amos:
+      short: ఆమో
+    Col:
+      long: కొలస్సీ పత్రిక
+      short: కొలస్సీ
+    Dan:
+      long: దాని
+    Deut:
+      long: ద్వితీ
+    Eccl:
+      short: ప్రస
+    Esth:
+      short: ఎస్తే
+    Exod:
+      short: నిర్గ
+    Ezek:
+      long: యెహె
+    Hab:
+      long: హబ
+    Hag:
+      short: హగ్గ
+    Hos:
+      long: హోషే
+      short: హోషే
+    Isa:
+      short: యెష
+    Jas:
+      short: యాకో
+    Jer:
+      short: యిర్మీ
+    Joel:
+      long: యోవే
+      short: యోవే
+    John:
+      short: యోహా
+    Josh:
+      long: యెహో
+    Judg:
+      long: న్యాయాధి
+    Lev:
+      long: లేవీ
+    Mal:
+      short: మలా
+    Nah:
+      long: నహూ
+      short: నహూ
+    Prov:
+      long: సామెత
+      short: సామె
+    Ps:
+      long: కీర్తన
+      short: కీర్త
+    Rev:
+      long: ప్రకటన గ్రంథం
+    Zech:
+      short: జెక
+    Zeph:
+      short: జెఫ
+  terv:
+    1Chr:
+      short: 1 దినవృ.
+    1Cor:
+      long: కొరింథీయులకు వ్రాసిన మొదటి లేఖ
+      short: 1 కొరింథీ.
+    1John:
+      long: యోహాను వ్రాసిన మొదటి లేఖ
+    1Pet:
+      long: పేతురు వ్రాసిన మొదటి లేఖ
+    1Sam:
+      short: 1 సమూ.
+    1Thess:
+      long: థెస్సలొనీకయులకు వ్రాసిన మొదటి లేఖ
+      short: 1 థెస్సలొనీ.
+    1Tim:
+      long: తిమోతికి వ్రాసిన మొదటి లేఖ
+    2Chr:
+      short: 2 దినవృ.
+    2Cor:
+      long: కొరింథీయులకు వ్రాసిన రెండవ లేఖ
+      short: 2 కొరింథీ.
+    2John:
+      long: యోహాను వ్రాసిన రెండవ లేఖ
+    2Pet:
+      long: పేతురు వ్రాసిన రెండవ లేఖ
+    2Sam:
+      short: 2 సమూ.
+    2Thess:
+      long: థెస్సలొనీకయులకు వ్రాసిన రెండవ లేఖ
+      short: 2 థెస్సలొనీ.
+    2Tim:
+      long: తిమోతికి వ్రాసిన రెండవ లేఖ
+    3John:
+      long: యోహాను వ్రాసిన మూడవ లేఖ
+    Acts:
+      long: అపొస్తలుల
+    Col:
+      long: కొలొస్సయులకు వ్రాసిన లేఖ
+      short: కొలొస్సీ.
+    Dan:
+      short: దాని.
+    Deut:
+      long: ద్వితీయోపదేశకాండము
+      short: ద్వితీ.
+    Eph:
+      long: ఎఫెసీయులకు వ్రాసిన లేఖ
+      short: ఎఫెసీ.
+    Exod:
+      long: నిర్గమకాండము
+      short: నిర్గమ.
+    Ezek:
+      short: యెహెజ్కే.
+    Gal:
+      long: గలతీయులకు వ్రాసిన లేఖ
+      short: గలతీ.
+    Gen:
+      long: ఆదికాండము
+      short: ఆది.
+    Hab:
+      short: హబ.
+    Heb:
+      long: హెబ్రీయులకు వ్రాసిన లేఖ
+      short: హెబ్రీ.
+    Jas:
+      long: యాకోబు వ్రాసిన లేఖ
+    Jer:
+      short: యిర్మీ.
+    Josh:
+      short: యెహోషువ
+    Jude:
+      long: యూదా వ్రాసిన లేఖ
+    Judg:
+      short: న్యాయాధి.
+    Lam:
+      long: విలాప వాక్యములు
+    Lev:
+      long: లేవీయకాండము
+      short: లేవీ.
+    Matt:
+      long: మత్తయిత
+    Neh:
+      short: నెహెమ్యా
+    Num:
+      long: సంఖ్యాకాండము
+      short: సంఖ్యా.
+    Phil:
+      long: ఫిలిప్పీయులకు వ్రాసిన లేఖ
+      short: ఫిలిప్పీ.
+    Phlm:
+      long: ఫిలేమోనుకు వ్రాసిన లేఖ
+      short: ఫిలే.
+    Prov:
+      short: సామె.
+    Ps:
+      long: కీర్తనల గ్రంథము
+      short: కీర్తన.
+    Rev:
+      long: ప్రకటన గ్రంథము
+      short: ప్రకటన
+    Rom:
+      long: రోమీయులకు వ్రాసిన లేఖ
+      short: రోమీ.
+    Song:
+      long: పరమ గీతము
+    Titus:
+      long: తీతుకు వ్రాసిన లేఖ
+      short: తీతు.
+  tcv:
+    1Cor:
+      long: 1 కొరింథీ
+    1John:
+      long: 1 యోహాను
+    1Pet:
+      long: 1 పేతురు
+    1Tim:
+      long: 1 తిమోతికి
+    2Cor:
+      long: 2 కొరింథీ
+    2John:
+      long: 2 యోహాను
+    2Pet:
+      long: 2 పేతురు
+    2Tim:
+      long: 2 తిమోతికి
+    3John:
+      long: 3 యోహాను
+    Eph:
+      long: ఎఫెసీయులకు
+    Gal:
+      long: గలతీయులకు
+    Heb:
+      long: హెబ్రీయులకు
+    Jas:
+      long: యాకోబు
+    Jude:
+      long: యూదా
+    Phil:
+      long: ఫిలిప్పీయులకు
+    Phlm:
+      long: ఫిలేమోనుకు
+      short: ఫిలేమోను
+    Rev:
+      short: ప్రకటన
+    Rom:
+      long: రోమా
+    Titus:
+      long: తీతుకు
+  telubsi:
+    1Cor:
+      long: 1 కొరింథీయులకు
+    1John:
+      long: 1 యోహాను
+    1Pet:
+      long: 1 పేతురు
+    1Tim:
+      long: 1 తిమోతికి
+    2Cor:
+      long: 2 కొరింథీయులకు
+    2John:
+      long: 2 యోహాను
+    2Pet:
+      long: 2 పేతురు
+    2Tim:
+      long: 2 తిమోతికి
+    3John:
+      long: 3 యోహాను
+    Acts:
+      short: అ. కా.
+    Dan:
+      short: దానియేలు
+    Deut:
+      long: ద్వితీయోపదేశకాండము
+    Eph:
+      long: ఎఫెసీయులకు
+    Exod:
+      long: నిర్గమకాండము
+    Ezek:
+      short: యెహెజ్కేలు
+    Gal:
+      long: గలతీయులకు
+    Gen:
+      long: ఆదికాండము
+    Hab:
+      short: హబక్కూకు
+    Heb:
+      long: హెబ్రీయులకు
+    Jas:
+      long: యాకోబు
+    Josh:
+      short: యెహోషువ
+    Jude:
+      long: యూదా
+    Judg:
+      short: న్యాయాధి
+    Lam:
+      long: విలాపవాక్యములు
+    Lev:
+      long: లేవీయకాండము
+      short: లేవీయ
+    Neh:
+      short: నెహెమ్యా
+    Num:
+      long: సంఖ్యాకాండము
+    Phil:
+      long: ఫిలిప్పీయులకు
+    Phlm:
+      long: ఫిలేమోనుకు
+      short: ఫిలేమోను
+    Rev:
+      short: ప్రకటన
+    Rom:
+      long: రోమా
+    Song:
+      long: పరమగీతము
+    Titus:
+      long: తీతుకు
+  otsa:
+    1Thess:
+      long: 1 థెస్సలోనికయులకు
+    2Thess:
+      long: 2 థెస్సలోనికయులకు
+    Col:
+      long: కొలొస్సీ పత్రిక
+    John:
+      long: యోహాను సువార్త
+    Luke:
+      long: లూకా సువార్త
+    Mark:
+      long: మార్కు సువార్త
+    Matt:
+      long: మత్తయి సువార్త
+  tsa:
+    1Thess:
+      long: 1 థెస్సలోనికయులకు
+    2Thess:
+      long: 2 థెస్సలోనికయులకు
+    Col:
+      long: కొలొస్సీ పత్రిక
+    John:
+      long: యోహాను సువార్త
+    Luke:
+      long: లూకా సువార్త
+    Mark:
+      long: మార్కు సువార్త
+    Matt:
+      long: మత్తయి సువార్త

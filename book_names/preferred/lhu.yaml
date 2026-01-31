@@ -1,0 +1,160 @@
+default:
+  1Chr:
+    long: 1 Raˍsaˍvanˍ li‸
+  1Cor:
+    long: 1 Kawˇrenˍhtuˆ li‸
+  1John:
+    long: 1 Yoˇhanˬ li‸
+  1Kgs:
+    long: 1 Jawˇmawˇ li‸
+    short: 1Jm
+  1Pet:
+    long: 1 Peˍtruˆ li‸
+  1Sam:
+    long: 1 Saˍmo-eˍlaˆ li‸
+    short: 1Rsv
+  1Thess:
+    long: 1 Hteˇsaˍlawˇniˆ li‸
+  1Tim:
+    long: 1 Tiˆmoˉseˍ li‸
+  2Chr:
+    long: 2 Raˍsaˍvanˍ li‸
+  2Cor:
+    long: 2 Kawˇrenˍhtuˆ li‸
+  2John:
+    long: 2 Yoˇhanˬ li‸
+  2Kgs:
+    long: 2 Jawˇmawˇ li‸
+    short: 2Jm
+  2Pet:
+    long: 2 Peˍtruˆ li‸
+  2Sam:
+    long: 2 Saˍmo-eˍlaˆ li‸
+    short: 2Rsv
+  2Thess:
+    long: 2 Hteˇsaˍlawˇniˆ li‸
+  2Tim:
+    long: 2 Tiˆmoˉseˍ li‸
+  3John:
+    long: 3 Yoˇhanˬ li‸
+  Acts:
+    long: Tcuh yaˇ li‸
+  Amos:
+    long: Aˍmoˆ li‸
+    short: Amo
+  Col:
+    long: Kawˇlawˇsehˇ li‸
+  Dan:
+    long: Daˍyeˍlaˆ li‸
+    short: Dyl
+  Deut:
+    long: Bon maˍ ve li‸
+    short: Bon
+  Eccl:
+    long: Cuˇ yiˍ piˇ ve li‸
+  Eph:
+    long: Eˇfeˇsu‸ li‸
+  Esth:
+    long: Iˉsaˍtaˆ li‸
+  Exod:
+    long: Tawˆ kʼai ve li‸
+    short: Taw
+  Ezek:
+    long: Yeˍsaˍkeˍlaˆ li‸
+    short: Ysk
+  Ezra:
+    long: Eˇzaˍraˆ li‸
+  Gal:
+    long: Gaˍlaˍtiˆ li‸
+  Gen:
+    long: Awˬ hkuiˉ puiˍ ve li‸
+    short: Ahkp
+  Hab:
+    long: Haˍbaˍkuˆ li‸
+    short: Hbk
+  Hag:
+    long: Haˆgehˇ li‸
+    short: Hag
+  Heb:
+    long: Heˍbrehˇ li‸
+    short: Heb
+  Hos:
+    long: Hawˇseˍ li‸
+    short: Hse
+  Isa:
+    long: Iˉsaˍyaˆ li‸
+    short: Isy
+  Jas:
+    long: Yaˍkoˆ li‸
+    short: Ysu
+  Jer:
+    long: Yeˍraˍmiˆ li‸
+    short: Yrm
+  Job:
+    long: Yawˇbaˆ li‸
+    short: Yba
+  Joel:
+    long: Yawˇlaˆ li‸
+    short: Yla
+  John:
+    long: Yoˇhanˬ li‸
+    short: Yoh
+  Jonah:
+    long: Yoˇnaˆ li‸
+  Josh:
+    long: Yawˇsuˆ li‸
+  Jude:
+    long: Yuˇda‸ li‸
+  Judg:
+    long: Suhˉ jehˬ ve li‸
+  Lam:
+    long: Dawˇ haˍ ve li‸
+  Lev:
+    long: Oˉ kʼoˍ pui ve li‸
+    short: Okʼo
+  Luke:
+    long: Luˉka‸ li‸
+    short: Luk
+  Mal:
+    long: Maˍlaˍhkiˆ li‸
+  Mark:
+    long: Maˍkuˆ li‸
+  Matt:
+    long: Ma‸htehˍ li‸
+  Mic:
+    long: Miˆhkaˍ li‸
+    short: Mlk
+  Nah:
+    long: Naˍhunˍ li‸
+  Neh:
+    long: Neˍhaˍmiˆ li‸
+  Num:
+    long: Heh puiˉ hkʼaw ve li‸
+    short: Heh
+  Obad:
+    long: Awˇbaˍdiˆ li‸
+  Phil:
+    long: Hpiˇliˇpiˆ li‸
+  Phlm:
+    long: Hpiˇleˍmonˍ li‸
+  Prov:
+    long: Tawˇ naˉ ve li‸
+    short: Tna
+  Ps:
+    long: Chiˇ mvuh ve li‸
+    short: Chi
+  Rev:
+    long: Hpeu‸maˍ ve li‸
+  Rom:
+    long: Roˉma‸ li‸
+  Ruth:
+    long: Ruˉhtaˆ li‸
+  Song:
+    long: Sawˉla‸monˍ ve kʼa muiˬ hkawˇ
+  Titus:
+    long: Tiˇtuˆ li‸
+  Zech:
+    long: Zaˍhkaˍriˆ li‸
+    short: Zhk
+  Zeph:
+    long: Zeˍhpaˍniˆ li‸

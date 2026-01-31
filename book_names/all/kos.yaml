@@ -1,0 +1,358 @@
+- osis: Gen
+  texts:
+    - Genesis
+    - Gen
+- osis: Exod
+  texts:
+    - Exodus
+    - Exo
+- osis: Lev
+  texts:
+    - Leviticus
+    - Lev
+- osis: Num
+  texts:
+    - Oekyuk
+    - Oek
+- osis: Lam
+  texts:
+    - Eoksra
+    - Eok
+- osis: Rev
+  texts:
+    - Fwackyuk
+    - Fwack
+- osis: Deut
+  texts:
+    - Deuteronomy
+    - Dut
+- osis: Josh
+  texts:
+    - Joshua
+    - Jos
+- osis: Judg
+  texts:
+    - Mwet Nununku
+    - Mwet Nun
+- osis: Ruth
+  texts:
+    - Ruth
+    - Rut
+- osis: Isa
+  texts:
+    - Isaiah
+    - Isa
+- osis: 1Sam
+  texts:
+    - 1 Samuel
+    - 1 Sam
+    - 1. Samuel
+    - 1. Sam
+    - Sie Samuel
+    - Sie Sam
+    - Sie. Samuel
+    - Sie. Sam
+- osis: 2Sam
+  texts:
+    - 2 Samuel
+    - 2 Sam
+    - 2. Samuel
+    - 2. Sam
+    - Luo Samuel
+    - Luo Sam
+    - Luo. Samuel
+    - Luo. Sam
+- osis: 1Kgs
+  texts:
+    - 1 Tokosra
+    - 1 Tok
+    - 1. Tokosra
+    - 1. Tok
+    - Sie Tokosra
+    - Sie Tok
+    - Sie. Tokosra
+    - Sie. Tok
+- osis: 2Kgs
+  texts:
+    - 2 Tokosra
+    - 2 Tok
+    - 2. Tokosra
+    - 2. Tok
+    - Luo Tokosra
+    - Luo Tok
+    - Luo. Tokosra
+    - Luo. Tok
+- osis: 1Chr
+  texts:
+    - 1 Chronicle
+    - 1 Chr
+    - 1. Chronicle
+    - 1. Chr
+    - Sie Chronicle
+    - Sie Chr
+    - Sie. Chronicle
+    - Sie. Chr
+- osis: 2Chr
+  texts:
+    - 2 Chronicle
+    - 2 Chr
+    - 2. Chronicle
+    - 2. Chr
+    - Luo Chronicle
+    - Luo Chr
+    - Luo. Chronicle
+    - Luo. Chr
+- osis: Ezra
+  texts:
+    - Ezra
+    - Ezr
+- osis: Neh
+  texts:
+    - Nehemiah
+    - Neh
+- osis: Esth
+  texts:
+    - Esther
+    - Est
+- osis: Job
+  texts:
+    - Job
+- osis: Ps
+  texts:
+    - Psalm
+    - Psa
+- osis: Prov
+  texts:
+    - Soakas
+    - Soa
+- osis: Eccl
+  texts:
+    - Ecclesiastes
+    - Ecc
+- osis: Song
+  texts:
+    - On Lal Solomon
+    - Ols
+- osis: Jer
+  texts:
+    - Jeremiah
+    - Jer
+- osis: Ezek
+  texts:
+    - Ezekiel
+    - Ezk
+- osis: Dan
+  texts:
+    - Daniel
+    - Dan
+- osis: Hos
+  texts:
+    - Hosea
+    - Hos
+- osis: Joel
+  texts:
+    - Joel
+    - Jol
+- osis: Amos
+  texts:
+    - Amos
+    - Amo
+- osis: Obad
+  texts:
+    - Obadiah
+    - Oba
+- osis: Jonah
+  texts:
+    - Jonah
+    - Jna
+- osis: Mic
+  texts:
+    - Micah
+    - Mic
+- osis: Nah
+  texts:
+    - Nahum
+    - Nah
+- osis: Hab
+  texts:
+    - Habakkuk
+    - Hab
+- osis: Zeph
+  texts:
+    - Zephaniah
+    - Zep
+- osis: Hag
+  texts:
+    - Haggai
+    - Hag
+- osis: Zech
+  texts:
+    - Zechariah
+    - Zec
+- osis: Mal
+  texts:
+    - Malachi
+    - Mal
+- osis: Matt
+  texts:
+    - Matthew
+    - Mt
+- osis: Mark
+  texts:
+    - Mark
+    - Mk
+- osis: Luke
+  texts:
+    - Luke
+    - Lk
+- osis: 2John
+  texts:
+    - Akluo John
+- osis: 3John
+  texts:
+    - Tolu John
+    - 3 Jn
+- osis: 1John
+  texts:
+    - 1 John
+    - 1 Jn
+    - 1. John
+    - 1. Jn
+    - Sie John
+    - Sie Jn
+    - Sie. John
+    - Sie. Jn
+- osis: John
+  texts:
+    - John
+    - Jn
+- osis: 2John
+  texts:
+    - 2 Jn
+    - 2. Jn
+    - Luo Jn
+    - Luo. Jn
+- osis: Acts
+  texts:
+    - Orekma
+    - Orek
+- osis: Rom
+  texts:
+    - Rome
+    - Rom
+- osis: 1Cor
+  texts:
+    - 1 Corinth
+    - 1 Cor
+    - 1. Corinth
+    - 1. Cor
+    - Sie Corinth
+    - Sie Cor
+    - Sie. Corinth
+    - Sie. Cor
+- osis: 2Cor
+  texts:
+    - 2 Corinth
+    - 2 Cor
+    - 2. Corinth
+    - 2. Cor
+    - Luo Corinth
+    - Luo Cor
+    - Luo. Corinth
+    - Luo. Cor
+- osis: Col
+  texts:
+    - Colossae
+    - Col
+- osis: Gal
+  texts:
+    - Galatia
+    - Gal
+- osis: Eph
+  texts:
+    - Ephesus
+    - Eph
+- osis: Phil
+  texts:
+    - Philippi
+    - Php
+- osis: 1Thess
+  texts:
+    - 1 Thessalonica
+    - 1 Thes
+    - 1. Thessalonica
+    - 1. Thes
+    - Sie Thessalonica
+    - Sie Thes
+    - Sie. Thessalonica
+    - Sie. Thes
+- osis: 2Thess
+  texts:
+    - 2 Thessalonica
+    - 2 Thes
+    - 2. Thessalonica
+    - 2. Thes
+    - Luo Thessalonica
+    - Luo Thes
+    - Luo. Thessalonica
+    - Luo. Thes
+- osis: 1Tim
+  texts:
+    - 1 Timothy
+    - 1 Tim
+    - 1. Timothy
+    - 1. Tim
+    - Sie Timothy
+    - Sie Tim
+    - Sie. Timothy
+    - Sie. Tim
+- osis: 2Tim
+  texts:
+    - 2 Timothy
+    - 2 Tim
+    - 2. Timothy
+    - 2. Tim
+    - Luo Timothy
+    - Luo Tim
+    - Luo. Timothy
+    - Luo. Tim
+- osis: Titus
+  texts:
+    - Titua
+    - Tit
+- osis: Phlm
+  texts:
+    - Philemon
+    - Phm
+- osis: Heb
+  texts:
+    - Hebrew
+    - Heb
+- osis: Jas
+  texts:
+    - James
+    - Jas
+- osis: 1Pet
+  texts:
+    - 1 Peter
+    - 1 Pet
+    - 1. Peter
+    - 1. Pet
+    - Sie Peter
+    - Sie Pet
+    - Sie. Peter
+    - Sie. Pet
+- osis: 2Pet
+  texts:
+    - 2 Peter
+    - 2 Pet
+    - 2. Peter
+    - 2. Pet
+    - Luo Peter
+    - Luo Pet
+    - Luo. Peter
+    - Luo. Pet
+- osis: Jude
+  texts:
+    - Jude
+    - Jud

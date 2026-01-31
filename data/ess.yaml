@@ -1,0 +1,95 @@
+variables:
+  first: &first
+    - 1е
+  second: &second
+    - 2е
+  third: &third
+    - 3е
+books:
+  - osis: Rev
+    texts:
+      - Откровение
+  - osis: Matt
+    texts:
+      - От Матфея
+  - osis: Mark
+    texts:
+      - От Марка
+  - osis: Luke
+    texts:
+      - От Луки
+  - osis: John
+    texts:
+      - От Иоанна
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Иоанна
+  - osis: Acts
+    texts:
+      - Деяния
+  - osis: Rom
+    texts:
+      - К Римлянам
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Коринфянам
+  - osis: Col
+    texts:
+      - К Колоссянам
+  - osis: Gal
+    texts:
+      - К Галатам
+  - osis: Eph
+    texts:
+      - К Ефесянам
+  - osis: Phil
+    texts:
+      - К Филиппийцам
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Фессалоникийцам
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Тимофею
+  - osis: Titus
+    texts:
+      - К Титу
+  - osis: Phlm
+    texts:
+      - К Филимону
+  - osis: Heb
+    texts:
+      - К Евреям
+  - osis: Jas
+    texts:
+      - От Иакова
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Петра
+  - osis: Jude
+    texts:
+      - От Иуды
+translations:
+  - ESS

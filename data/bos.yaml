@@ -1,0 +1,272 @@
+variables:
+  first: &first
+    - "1"
+    - "1."
+  second: &second
+    - "2"
+    - "2."
+books:
+  - osis: Gen
+    texts:
+      - Postanak
+      - Post
+  - osis: Exod
+    texts:
+      - Izlazak
+      - Izl
+  - osis: Lev
+    texts:
+      - Lev. zakon
+      - Lev
+  - osis: Num
+    texts:
+      - Brojevi
+      - Br
+  - osis: Lam
+    texts:
+      - Tužaljke
+      - Tuž
+  - osis: Rev
+    texts:
+      - Otkrovenje
+      - Otk
+  - osis: Deut
+    texts:
+      - Pon. zakon
+      - Pnz
+  - osis: Josh
+    texts:
+      - Jošua
+      - Jš
+  - osis: Judg
+    texts:
+      - Suci
+  - osis: Ruth
+    texts:
+      - Ruta
+      - Rut
+  - osis: Isa
+    texts:
+      - Izaija
+      - Iz
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuelova
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Kraljeva
+      - Kr
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Ljetopis
+      - Ljet
+  - osis: Ezra
+    texts:
+      - Ezra
+      - Ezr
+  - osis: Neh
+    texts:
+      - Nehemija
+      - Neh
+  - osis: Esth
+    texts:
+      - Estera
+      - Est
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Psalmi
+      - Ps
+  - osis: Prov
+    texts:
+      - Izreke
+      - Izr
+  - osis: Eccl
+    texts:
+      - Propovjednik
+      - Prop
+  - osis: Song
+    texts:
+      - Pjesma
+      - Pj
+  - osis: Jer
+    texts:
+      - Jeremija
+      - Jr
+  - osis: Ezek
+    texts:
+      - Ezekiel
+      - Ez
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dn
+  - osis: Hos
+    texts:
+      - Hošea
+      - Hoš
+  - osis: Joel
+    texts:
+      - Joel
+      - Jl
+  - osis: Amos
+    texts:
+      - Amos
+      - Am
+  - osis: Obad
+    texts:
+      - Obadija
+      - Ob
+  - osis: Jonah
+    texts:
+      - Jona
+      - Jon
+  - osis: Mic
+    texts:
+      - Mihej
+      - Mih
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sefanja
+      - Sef
+  - osis: Hag
+    texts:
+      - Hagaj
+      - Hag
+  - osis: Zech
+    texts:
+      - Zaharija
+      - Zah
+  - osis: Mal
+    texts:
+      - Malahija
+      - Mal
+  - osis: Matt
+    texts:
+      - Matej
+      - Mt
+  - osis: Mark
+    texts:
+      - Marko
+      - Mk
+  - osis: Luke
+    texts:
+      - Luka
+      - Lk
+  - osis: 3John
+    texts:
+      - 3. Ivanovo
+      - 3 Iv
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Ivanovo
+      - Iv
+  - osis: John
+    texts:
+      - Ivan
+      - Iv
+  - osis: Acts
+    texts:
+      - Djela
+      - Dj
+  - osis: Rom
+    texts:
+      - Rimljanima
+      - Rim
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinćanima
+      - Kor
+  - osis: Col
+    texts:
+      - Kološanima
+      - Kol
+  - osis: Gal
+    texts:
+      - Galaćanima
+      - Gal
+  - osis: Eph
+    texts:
+      - Efežanima
+      - Ef
+  - osis: Phil
+    texts:
+      - Filipljanima
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Solunjanima
+      - Sol
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteju
+      - Tim
+  - osis: Titus
+    texts:
+      - Titu
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemonu
+      - Flm
+  - osis: Heb
+    texts:
+      - Jevrejima
+      - Heb
+  - osis: Jas
+    texts:
+      - Jakovljevo
+      - Jak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Kefino
+      - Kf
+  - osis: Jude
+    texts:
+      - Judino
+      - Jd
+translations:
+  - BBA

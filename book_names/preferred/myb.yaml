@@ -1,0 +1,320 @@
+default:
+  1Chr:
+    long: 1 Hoi
+    short: 1 Hoi
+  1Cor:
+    long: 1 Kor
+    short: 1 Kor
+  1John:
+    long: 1 Jã
+    short: 1 Jã
+  1Kgs:
+    long: 1 Ngar
+    short: 1 Ngar
+  1Pet:
+    long: 1 Pie
+    short: 1 Pie
+  1Sam:
+    long: 1 Sam
+    short: 1 Sam
+  1Thess:
+    long: 1 Tes
+    short: 1 Tes
+  1Tim:
+    long: 1 Tim
+    short: 1 Tim
+  2Chr:
+    long: 2 Hoi
+    short: 2 Hoi
+  2Cor:
+    long: 2 Kor
+    short: 2 Kor
+  2John:
+    long: 2 Jã
+    short: 2 Jã
+  2Kgs:
+    long: 2 Ngar
+    short: 2 Ngar
+  2Pet:
+    long: 2 Pie
+    short: 2 Pie
+  2Sam:
+    long: 2 Sam
+    short: 2 Sam
+  2Thess:
+    long: 2 Tes
+    short: 2 Tes
+  2Tim:
+    long: 2 Tim
+    short: 2 Tim
+  3John:
+    long: 3 Jã
+    short: 3 Jã
+  Acts:
+    long: Knk
+    short: Knk
+  Amos:
+    long: Amo
+    short: Amo
+  Col:
+    long: Kol
+    short: Kol
+  Dan:
+    long: Dan
+    short: Dan
+  Deut:
+    long: Det
+    short: Det
+  Eccl:
+    long: Nge
+    short: Nge
+  Eph:
+    long: Ep
+    short: Ep
+  Esth:
+    long: Est
+    short: Est
+  Exod:
+    long: Teekïtïga
+    short: Teek
+  Ezek:
+    long: Ejekel
+    short: Ejk
+  Ezra:
+    long: Esd
+    short: Esd
+  Gal:
+    long: Gal
+    short: Gal
+  Gen:
+    long: Yaþ
+    short: Yaþ
+  Hab:
+    long: Hab
+    short: Hab
+  Hag:
+    long: Aje
+    short: Aje
+  Heb:
+    long: Heb
+    short: Heb
+  Hos:
+    long: Oje
+    short: Oje
+  Isa:
+    long: Ejai
+    short: Eja
+  Jas:
+    long: Jak
+    short: Jak
+  Jer:
+    long: Jer
+    short: Jer
+  Job:
+    long: Job
+    short: Job
+  Joel:
+    long: Joe
+    short: Joe
+  John:
+    long: Jã
+    short: Jã
+  Jonah:
+    long: Jon
+    short: Jon
+  Josh:
+    long: Joj
+    short: Joj
+  Jude:
+    long: Jud
+    short: Jud
+  Judg:
+    long: Ngegangtag
+    short: Ngt
+  Lam:
+    long: Pa nõ lo Jeremi
+    short: Pnl
+  Lev:
+    long: Leb
+    short: Leb
+  Luke:
+    long: Luk
+    short: Luk
+  Mal:
+    long: Mal
+    short: Mal
+  Mark:
+    long: Mark
+    short: Mrk
+  Matt:
+    long: Mat
+    short: Mat
+  Mic:
+    long: MiK
+    short: MiK
+  Nah:
+    long: Nah
+    short: Nah
+  Neh:
+    long: Neh
+    short: Neh
+  Num:
+    long: Dakør
+    short: Dak
+  Obad:
+    long: Abd
+    short: Abd
+  Phil:
+    long: Pil
+    short: Pil
+  Phlm:
+    long: Pilemõ
+    short: Pile
+  Prov:
+    long: Terr
+    short: Ter
+  Ps:
+    long: Paag
+    short: Paag
+  Rev:
+    long: Ta nyag kɨmund
+    short: Tnk
+  Rom:
+    long: Rom
+    short: Rom
+  Ruth:
+    long: Rut
+    short: Rut
+  Song:
+    long: Pa lo Salomõ
+    short: Pal
+  Titus:
+    long: Tit
+    short: Tit
+  Zech:
+    long: Jakari
+    short: Jaka
+  Zeph:
+    long: Sop
+    short: Sop
+translations:
+  mll:
+    1Chr:
+      long: 1 Hoita Lo Ngarg
+      short: 1 Hoita
+    1Cor:
+      long: 1 Korentiag
+    1Kgs:
+      long: 1 Ngarg
+    1Pet:
+      long: 1 Pierr
+    1Sam:
+      long: 1 Samuel
+    1Thess:
+      long: 1 Tesalonikag
+    1Tim:
+      long: 1 Timote
+    2Chr:
+      long: Hoita lo Ngarg
+      short: 2 Hoita
+    2Cor:
+      long: 2 Korentiag
+    2Kgs:
+      long: 2 Ngarg
+    2Pet:
+      long: 2 Pierr
+    2Sam:
+      long: 2 Samuel
+    2Thess:
+      long: 2 Tesalonikag
+    2Tim:
+      long: 2 Timote
+    Acts:
+      long: Kɨlag
+    Amos:
+      long: Amos
+    Col:
+      long: Kolosiag
+    Dan:
+      long: Daniel
+    Deut:
+      long: Deteronom
+    Eccl:
+      long: Ngelamberta
+    Eph:
+      long: Epesiag
+      short: Epe
+    Esth:
+      long: Ester
+    Exod:
+      long: Teekɨtɨga
+    Ezra:
+      long: Esdras
+    Gal:
+      long: Galatiag
+    Gen:
+      long: Yaɓooda
+      short: Yaɓ
+    Hab:
+      long: Habakuk
+    Heb:
+      long: Hebreg
+    Jer:
+      long: Jeremi
+    Joel:
+      long: Joel
+    Jonah:
+      long: Jonas
+    Josh:
+      long: Jojue
+    Lev:
+      long: Lebitik
+    Mal:
+      long: Malaki
+    Matt:
+      long: Matie
+    Mic:
+      long: Mika
+    Nah:
+      long: Nahum
+    Neh:
+      long: Nehemi
+    Num:
+      long: Dakɔr deg
+      short: Dkr
+    Obad:
+      long: Abdias
+    Phil:
+      long: Pilipiag
+      short: Pili
+    Prov:
+      long: Terrtag
+    Rom:
+      long: Romag
+    Zeph:
+      long: Soponi
+  mb80:
+    Ezek:
+      long: Ejk
+    Isa:
+      long: Esa
+      short: Esa
+    Judg:
+      long: Ngt
+    Lam:
+      long: Pnl
+    Mark:
+      long: Mrk
+    Phlm:
+      short: Pilemõ
+    Prov:
+      short: Terr
+    Ps:
+      long: Psom
+      short: Psom
+    Rev:
+      long: Tnkt
+    Song:
+      long: Pal
+    Zech:
+      short: Jakari

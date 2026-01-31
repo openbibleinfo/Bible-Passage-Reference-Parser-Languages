@@ -1,0 +1,564 @@
+variables:
+  first: &first
+    - "1"
+    - I
+  second: &second
+    - "2"
+    - II
+books:
+  - osis: Gen
+    texts:
+      - Geineasas
+      - Genesis
+      - Gei
+      - Gen
+  - osis: Exod
+    texts:
+      - Eaxodus
+      - Exodus
+      - Eax
+  - osis: Lev
+    texts:
+      - Lebhiticus
+      - Leḃiticus
+      - Léivític
+      - Leḃ.
+      - Léi
+  - osis: Num
+    texts:
+      - Uibhreacha
+      - Uimhreacha
+      - Uiḃreaċa
+      - Uiḃr.
+      - Uim
+  - osis: Sir
+    texts:
+      - Síorach
+      - Sío
+  - osis: Wis
+    texts:
+      - Eagna
+      - Eag
+  - osis: Lam
+    texts:
+      - Leabhar na n-Olagón
+      - Triabhuin
+      - Triaḃuin
+      - Ola
+  - osis: Rev
+    texts:
+      - Apacailipsis
+      - Taispeántadh
+      - Taisbeanadh
+      - Taisbeanádh
+      - Taisbeunaḋ
+      - Taispeáint
+      - Taisb.
+      - Apac.
+      - Tais
+      - Apa
+  - osis: Deut
+    texts:
+      - Deotranaimí
+      - Deuteronomi
+      - Deut
+      - Deo
+  - osis: Josh
+    texts:
+      - Iosua
+      - Iósua
+      - Iós
+  - osis: Judg
+    texts:
+      - Breitheamhuin
+      - Breiṫeaṁuin
+      - Breithiúna
+      - Breiṫ.
+      - Breit
+      - Bre
+  - osis: Ruth
+    texts:
+      - Rut
+      - Rút
+  - osis: Isa
+    texts:
+      - Isaiah
+      - Íseáia
+      - Íse
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samúéil
+      - Samuel
+      - Sam.
+      - Sam
+  - osis: 1Sam
+    texts:
+      - 1Sa
+  - osis: 2Sam
+    texts:
+      - 2Sa
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Riogh
+      - Ríthe
+      - Rioġ
+  - osis: 1Kgs
+    texts:
+      - 1Rí
+  - osis: 2Kgs
+    texts:
+      - 2Rít
+  - osis:
+      - osis: 1Chr
+        before: *first
+    texts:
+      - Croinicoibh
+      - Croinicoiḃ
+      - Croinic.
+      - Croinicí
+      - Croinic
+  - osis: 1Chr
+    texts:
+      - 1Cr
+  - osis:
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Croiniclibh
+      - Croinicliḃ
+      - Croinic.
+      - Croinicí
+      - Croinic
+  - osis: 2Chr
+    texts:
+      - 2Cr
+  - osis: Ezra
+    texts:
+      - Eazrá
+      - Esra
+      - Eaz
+  - osis: Neh
+    texts:
+      - Nehemia
+      - Nihimiá
+      - Nih
+  - osis: Esth
+    texts:
+      - Ester
+  - osis: Job
+    texts:
+      - Iób
+      - Job
+  - osis: Ps
+    texts:
+      - Na Sailm
+      - Psailm
+      - Psalm
+      - Sailm
+      - Salm
+      - Sal
+      - Ps
+  - osis: Prov
+    texts:
+      - Seanfhocal
+      - Seanraite
+      - Sea
+  - osis: Eccl
+    texts:
+      - Ecclesiastes
+      - Cóheilit
+      - Eccl.
+      - Cóh
+  - osis: Song
+    texts:
+      - Caintic Sholaimh
+      - Laoi na Laoithe
+      - Caintic Ṡolaiṁ
+      - Caintic
+      - Lao
+  - osis: Jer
+    texts:
+      - Ieremiah
+      - Irimia
+      - Iri
+  - osis: Ezek
+    texts:
+      - Eizicéil
+      - Esechiel
+      - Eseċiel
+      - Eiz
+  - osis: Dan
+    texts:
+      - Daniel
+  - osis: Hos
+    texts:
+      - Hóisé
+      - Hosea
+      - Hói
+  - osis: Joel
+    texts:
+      - Ióéil
+      - Ioel
+      - Ióé
+  - osis: Amos
+    texts:
+      - Amos
+      - Amós
+      - Amó
+  - osis: Obad
+    texts:
+      - Obadiah
+      - Obaidiá
+      - Oba
+  - osis: Jonah
+    texts:
+      - Jonah
+      - Ióna
+      - Ión
+  - osis: Mic
+    texts:
+      - Micah
+      - Míocá
+      - Mío
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nahúm
+      - Nah
+  - osis: Hab
+    texts:
+      - Habaccuc
+      - Habacúc
+      - Habac.
+      - Habac
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sephaniah
+      - Seṗaniah
+      - Zafainiá
+      - Seph.
+      - Seṗ.
+      - Zaf
+  - osis: Hag
+    texts:
+      - Haggai
+      - Hag
+  - osis: Zech
+    texts:
+      - Sechariah
+      - Seċariah
+      - Zacairia
+      - Sech.
+      - Seċ.
+      - Zac
+  - osis: Mal
+    texts:
+      - Malachi
+      - Malaicí
+      - Malaċi
+      - Mal
+  - osis: Matt
+    texts:
+      - Maitiú
+      - Mait.
+      - Matha
+      - Ṁaṫa
+      - Mth.
+      - Mat
+      - Mth
+  - osis: Mark
+    texts:
+      - Marcas
+      - Marcus
+      - Marc.
+      - Marc
+      - Mar
+      - Mc.
+  - osis: Luke
+    texts:
+      - Lúcas
+      - Lúcás
+      - Lúc.
+      - Luc
+      - Lúc
+  - osis: 1John
+    texts:
+      - 1Eóin
+      - 1Eo
+  - osis: 2John
+    texts:
+      - 2Eo
+  - osis: 3John
+    texts:
+      - III Eóin
+      - 3 Eoin
+      - 3 Eóin
+      - 3Eóin
+      - 3Eo
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Eoin
+      - Eóin
+  - osis: John
+    texts:
+      - Eoin
+      - Eóin
+      - Eoi
+  - osis: Acts
+    texts:
+      - Gníomhartha
+      - Gníoṁarṫa
+      - Gníomh.
+      - Gníoṁ.
+      - Gníomh
+      - Gní
+  - osis: Rom
+    texts:
+      - Rómhánaigh
+      - Romhánach
+      - Rómhánach
+      - Roṁánaċ
+      - Rómh.
+      - Rom.
+      - Rom
+      - Róm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Chum na gCoirinnteach
+      - Ccorintiánach
+      - Ccorintiánaċ
+      - Coraintigh
+      - Corantaigh
+      - Ccor.
+      - Cor.
+      - Co
+  - osis: 1Cor
+    texts:
+      - 1Ccor
+      - 1Co
+  - osis: 2Cor
+    texts:
+      - 2Ccor
+      - 2Co
+  - osis: Col
+    texts:
+      - Chum na gColossaeach
+      - Ccolossianach
+      - Ccolossianaċ
+      - Colosséigh
+      - Colosaigh
+      - Ccol.
+      - Ccol
+      - Col.
+      - Col
+  - osis: Gal
+    texts:
+      - Chum na nGalátach
+      - Galatiánach
+      - Galatiánaċ
+      - Galataigh
+      - Galátaigh
+      - Galat.
+      - Gal.
+      - Gal
+  - osis: Eph
+    texts:
+      - Chum na nEiféiseach
+      - Hephesiánach
+      - Heṗesiánaċ
+      - Eiféisigh
+      - Eifisigh
+      - Eif.
+      - Heṗ.
+      - Heph
+      - Eif
+  - osis: Phil
+    texts:
+      - Chum na bhFilipíneach
+      - Bhphilippiánach
+      - Ḃfilippiánaċ
+      - Filipéigh
+      - Filipigh
+      - Bhphil
+      - Ḃfil.
+      - Filip
+      - Fil.
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Chum na dTesaloníceach
+      - Ttessalonicanach
+      - Ttessalonicanaċ
+      - Teasalónaigh
+      - Tesalóinigh
+      - Ttess.
+      - Teas.
+  - osis: 1Thess
+    texts:
+      - 1Ttess
+      - 1Te
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Chum na dTesaloníceach
+      - Ttessalonicanach
+      - Ttessalonicanaċ
+      - Teasalónaigh
+      - Tesalóinigh
+      - Ttess.
+      - Teas.
+      - Tes
+  - osis: 2Thess
+    texts:
+      - 2Ttess
+      - 2Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Chum Timóteuis
+      - Timóteuis
+      - Timótéus
+      - Tiomóid
+      - Tiom.
+      - Tim.
+      - Tim
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Tim
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Chum Tituis
+      - Títeas
+      - Tituis
+      - Títus
+      - Tit
+      - Tít
+  - osis: Phlm
+    texts:
+      - Chum Filéamóin
+      - Philémoin
+      - Filéamón
+      - Philémón
+      - Ṗilémoin
+      - Filéam
+      - Ṗilém.
+      - Phil
+      - Fil
+      - Flm
+  - osis: Heb
+    texts:
+      - Chum na nEabhraidheach
+      - Neabhruidheach
+      - Neaḃruiḋeaċ
+      - Eabhraigh
+      - Eabh.
+      - Neaḃ.
+      - Eabh
+      - Eab
+      - Nea
+  - osis: Jas
+    texts:
+      - Sheamuis
+      - Ṡeamuis
+      - Séamas
+      - Séam.
+      - Shea
+      - Séa
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pheadair
+      - Ṗeadair
+      - Peadar
+      - Pead.
+      - Ṗead.
+      - Phe
+      - Pe
+  - osis: 1Pet
+    texts:
+      - 1Pe
+  - osis: 2Pet
+    texts:
+      - 2Pe
+  - osis: Jude
+    texts:
+      - Iudais
+      - Iúdás
+      - Iud
+      - Iúd
+  - osis: Tob
+    texts:
+      - Tóibít
+      - Tói
+  - osis: Jdt
+    texts:
+      - Iúidit
+      - Iúi
+  - osis: Bar
+    texts:
+      - Barúch
+      - Bar
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+    texts:
+      - Macabaech
+  - osis: 1Macc
+    texts:
+      - 1Ma
+  - osis: 2Macc
+    texts:
+      - 2Ma
+  - osis: DanGr
+    texts:
+      - Dainéil (Gr)
+      - Dai (Gr)
+  - osis: EsthGr
+    texts:
+      - Eistir (Gr)
+      - Eis (Gr)
+  - osis: Ps151
+    texts:
+      - Focloir
+translations:
+  - ABN
+  - BEDELL
+  - OC1970
+  - ABN2012
+  - OC1965
+  - ASN1943
+  - POL
+  - PSA1836
+  - ATN1951

@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Kronikuls
+    short: 1 Kro
+  1Cor:
+    long: 1 Kɔrint
+    short: 1 Kɔt
+  1John:
+    long: Jɔn In Fɔs Lɛta
+    short: 1 Jn
+  1Kgs:
+    long: 1 Kiŋ
+    short: 1 Kiŋ
+  1Pet:
+    long: Pita In Fɔs Lɛta
+    short: 1Pt
+  1Sam:
+    long: 1 Samiɛl
+    short: 1 Sa
+  1Thess:
+    long: Fɔs Lɛta Fɔ Tɛsalonayka
+    short: 1 Tɛs
+  1Tim:
+    long: Fɔs Lɛta To Timoti
+    short: 1 Tim
+  2Chr:
+    long: 2 Kronikuls
+    short: 2 Kro
+  2Cor:
+    long: 2 Kɔrint
+    short: 2 Kɔt
+  2John:
+    long: Jɔn In Sɛkɛn Lɛta
+    short: 2 Jn
+  2Kgs:
+    long: 2 Kiŋ
+    short: 2 Kiŋ
+  2Pet:
+    long: Pita In Sɛkɛn Lɛta
+    short: 2 Pt
+  2Sam:
+    long: 2 Samiɛl
+    short: 2 Sa
+  2Thess:
+    long: Sɛkɛn Lɛta Fɔ Tɛsalonayka
+    short: 2 Tɛs
+  2Tim:
+    long: Sɛkɛn Lɛta To Timoti
+    short: 2 Tim
+  3John:
+    long: Jɔn In Tɔd Lɛta
+    short: 3 Jn
+  Acts:
+    long: Apɔsul Dɛn Wok
+    short: Akt
+  Amos:
+    long: Emɔs
+    short: Emɔs
+  Col:
+    long: Lɛta Fɔ Kɔlɔse
+    short: Kɔl
+  Dan:
+    long: Daniɛl
+    short: Dan
+  Deut:
+    long: Ditarɔnɔmi
+    short: Dit
+  Eccl:
+    long: Ɛkliziastis
+    short: Ɛkl
+  Eph:
+    long: Lɛta Fɔ Ɛfisɔs
+    short: Ɛfi
+  Esth:
+    long: Ɛsta
+    short: Ɛst
+  Exod:
+    long: Ɛksodɔs
+    short: Ɛks
+  Ezek:
+    long: Izikɛl
+    short: Izi
+  Ezra:
+    long: Ɛzra
+    short: Ɛzr
+  Gal:
+    long: Lɛta Fɔ Galeshya
+    short: Gal
+  Gen:
+    long: Jɛnɛsis
+    short: Jɛn
+  Hab:
+    long: Abakɔk
+    short: Abak
+  Hag:
+    long: Egay
+    short: Eg
+  Heb:
+    long: Di Ibru Pipul Dɛn
+    short: Ibru
+  Hos:
+    long: Ozie
+    short: Ozi
+  Isa:
+    long: Ayzaya
+    short: Ayz
+  Jas:
+    long: Jems
+    short: Jem
+  Jer:
+    long: Jɛrimaya
+    short: Jɛr
+  Job:
+    long: Job
+    short: Job
+  Joel:
+    long: Joɛl
+    short: Joɛl
+  John:
+    long: Jɔn
+    short: Jn
+  Jonah:
+    long: Jona
+    short: Jona
+  Josh:
+    long: Jɔshwa
+    short: Jɔs
+  Jude:
+    long: Jud In Lɛta
+    short: Jud
+  Judg:
+    long: Di Jɔj Dɛm
+    short: Jɔj
+  Lam:
+    long: Lamɛnteshɔn
+    short: Lam
+  Lev:
+    long: Lɛvitikɔs
+    short: Lɛv
+  Luke:
+    long: Lyuk
+    short: Lek
+  Mal:
+    long: Malakay
+    short: Mal
+  Mark:
+    long: Mak
+    short: Mk
+  Matt:
+    long: Matyu
+    short: Mat
+  Mic:
+    long: Mayka
+    short: Mayk
+  Nah:
+    long: Neum
+    short: Neum
+  Neh:
+    long: Nɛimaya
+    short: Nɛi
+  Num:
+    long: Di Nɔmba Dɛm
+    short: Nɔm
+  Obad:
+    long: Obadaya
+    short: Oba
+  Phil:
+    long: Lɛta Fɔ Filipay
+    short: Fil
+  Phlm:
+    long: Faylimɔn
+    short: Fay
+  Prov:
+    long: Prɔvabs
+    short: Prɔ
+  Ps:
+    long: Di Sam Dɛm
+    short: Sam
+  Rev:
+    long: Rɛvɛleshɔn
+    short: Rɛv
+  Rom:
+    long: Lɛta Fɔ Rom
+    short: Rom
+  Ruth:
+    long: Ruth
+    short: Rut
+  Song:
+    long: Sɔlɔmɔn In Siŋ Dɛm
+    short: Siŋ
+  Titus:
+    long: Taytɔs
+    short: Tay
+  Zech:
+    long: Zɛkaraya
+    short: Zɛk
+  Zeph:
+    long: Zɛfinaya
+    short: Zɛf

@@ -1,0 +1,343 @@
+default:
+  1Chr:
+    long: 1 Kronig
+    short: 1 Kro
+  1Cor:
+    long: 1 Korente Wo
+    short: 1 Kor
+  1John:
+    long: 1 Jañ
+    short: 1 Ja
+  1Kgs:
+    long: 1 Wañre Wo
+    short: 1 Wañ.
+  1Pet:
+    long: 1 Piyer
+    short: 1 Pi
+  1Sam:
+    long: 1 Samyel
+    short: 1 Sam
+  1Thess:
+    long: 1 Tesalonig Wo
+    short: 1 Te
+  1Tim:
+    long: 1 Timote
+    short: 1 Ti
+  2Chr:
+    long: 2 Kronig
+    short: 2 Kro
+  2Cor:
+    long: 2 Korente Wo
+    short: 2 Kor
+  2John:
+    long: 2 Jañ
+    short: 2 Ja
+  2Kgs:
+    long: 2 Wañre Wo
+    short: 2 Wañ.
+  2Pet:
+    long: 2 Piyer
+    short: 2 Pi
+  2Sam:
+    long: 2 Samyel
+    short: 2 Sam
+  2Thess:
+    long: 2 Tesalonig Wo
+    short: 2 Te
+  2Tim:
+    long: 2 Timote
+    short: 2 Ti
+  3John:
+    long: 3 Jañ
+    short: 3 Ja
+  Acts:
+    long: Joñre
+    short: Joñ
+  Amos:
+    long: Amos
+    short: Am
+  Col:
+    long: Kolos Wo
+    short: Ko
+  Dan:
+    long: Danyel
+    short: Da
+  Deut:
+    long: Dogge Jag Liñgi
+    short: Dog
+  Eccl:
+    long: Eklesiyaste
+    short: Ek
+  Eph:
+    long: Efes Wo
+    short: Ef
+  Esth:
+    long: Ester
+    short: Est
+  Exod:
+    long: Laage Go
+    short: La
+  Ezek:
+    long: Esekiyel
+    short: Es
+  Ezra:
+    long: Esdras
+    short: Esd
+  Gal:
+    long: Galad Wo
+    short: Ga
+  Gen:
+    long: Ti§i§gi Were
+    short: Ti.
+  Hab:
+    long: Habakug
+    short: Ha
+  Hag:
+    long: Aje
+    short: Aj
+  Heb:
+    long: Hebre Wo
+    short: He
+  Hos:
+    long: Ose
+    short: Os
+  Isa:
+    long: Esay
+    short: Esa
+  Jas:
+    long: Jag
+    short: Jag
+  Jer:
+    long: Jermi
+    short: Jer
+  Job:
+    long: Job
+    short: Job
+  Joel:
+    long: Jowel
+    short: Jow
+  John:
+    long: Jañ
+    short: Jañ
+  Jonah:
+    long: Jonas
+    short: Jo
+  Josh:
+    long: Josuwe
+    short: Jos
+  Jude:
+    long: Jud
+    short: Jud
+  Judg:
+    long: Jar Car Kiida Wo
+    short: Ja
+  Lam:
+    long: Lawge Mani Jeremi Wo
+    short: Law
+  Lev:
+    long: Joñre Jar Lefid Wo
+    short: Jo.
+  Luke:
+    long: Lug
+    short: Lug
+  Mal:
+    long: Malasi
+    short: Ma.
+  Mark:
+    long: Mark
+    short: Mark
+  Matt:
+    long: Matiye
+    short: Mat
+  Mic:
+    long: Mise
+    short: Mi
+  Nah:
+    long: Nahum
+    short: Na
+  Neh:
+    long: Nehemi
+    short: Ne
+  Num:
+    long: Keege Jar Israyel Wo
+    short: Kee
+  Obad:
+    long: Abdiyas
+    short: Ab
+  Phil:
+    long: Filip Wo
+    short: Fil.
+  Phlm:
+    long: Filemoñ
+    short: Fi
+  Prov:
+    long: Jag Joçoç Wo
+    short: Jag.
+  Ps:
+    long: Siñ Wora
+    short: Siñ
+  Rev:
+    long: Naage Nene
+    short: Naa
+  Rom:
+    long: Rom Wo
+    short: Ro
+  Ruth:
+    long: Rud
+    short: Ru
+  Song:
+    long: Siñ ma de dañ siñn wo
+    short: Sds
+  Titus:
+    long: Tid
+    short: Ti
+  Zech:
+    long: Sakari
+    short: Sa
+  Zeph:
+    long: Sofoni
+    short: So
+translations:
+  tupb:
+    1Chr:
+      short: 1 Kro.
+    1Cor:
+      short: 1 Kor.
+    1Pet:
+      short: 1 Pi.
+    1Sam:
+      short: 1 Sam.
+    2Chr:
+      short: 2 Kro.
+    2Cor:
+      short: 2 Kor.
+    2Pet:
+      short: 2 Pi.
+    2Sam:
+      short: 2 Sam.
+    Deut:
+      short: Dog.
+    Esth:
+      short: Est.
+    Ezra:
+      short: Esd.
+    Isa:
+      long: Esayi
+      short: Esa.
+    Jer:
+      short: Jer.
+    Joel:
+      short: Jowel
+    Josh:
+      short: Jos.
+    Lam:
+      short: Law.
+    Matt:
+      short: Mat.
+    Num:
+      short: Kee.
+    Rev:
+      short: Naage
+    Song:
+      short: Si
+  tup:
+    1John:
+      long: 1 Jaŋ
+      short: 1 Jaŋ
+    1Kgs:
+      long: 1 Waŋre Wo
+      short: 1 Waŋ
+    1Thess:
+      short: 1 Tes
+    1Tim:
+      short: 1 Tim
+    2John:
+      long: 2 Jaŋ
+      short: 2 Jaŋ
+    2Kgs:
+      long: 2 Waŋre Wo
+      short: 2 Waŋ
+    2Thess:
+      short: 2 Tes
+    2Tim:
+      short: 2 Tim
+    3John:
+      long: 3 Jaŋ
+      short: 3 Jaŋ
+    Acts:
+      long: Joŋre
+      short: Joŋ
+    Amos:
+      short: Amo
+    Col:
+      short: Kol
+    Dan:
+      short: Dan
+    Deut:
+      long: Dogge Jag Liŋgi
+    Eccl:
+      short: Ekl
+    Eph:
+      short: Efe
+    Exod:
+      short: Laa
+    Ezek:
+      short: Ese
+    Gal:
+      short: Gal
+    Gen:
+      long: Tĩĩgi Were
+      short: Tĩĩ
+    Hab:
+      short: Hab
+    Hag:
+      short: Aje
+    Heb:
+      short: Heb
+    Hos:
+      short: Ose
+    John:
+      long: Jaŋ
+      short: Jaŋ
+    Jonah:
+      short: Jon
+    Judg:
+      short: Kii
+    Lam:
+      long: Lawge Mani Jermin Wo
+    Lev:
+      long: Joŋre Jar Lefid Wo
+      short: Lef
+    Mal:
+      short: Mal
+    Mic:
+      short: Mis
+    Nah:
+      short: Nah
+    Neh:
+      short: Neh
+    Obad:
+      short: Abd
+    Phil:
+      short: Flp
+    Phlm:
+      long: Filemoŋ
+      short: Flm
+    Prov:
+      long: Jag Jõõ Wo
+      short: Jõõ
+    Ps:
+      long: Siŋ Wora
+      short: Siŋ
+    Rom:
+      short: Rom
+    Ruth:
+      short: Rud
+    Song:
+      long: Siŋ Ma De Daŋ Siŋn Wo
+    Titus:
+      short: Tid
+    Zech:
+      short: Sak
+    Zeph:
+      short: Sof

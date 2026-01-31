@@ -1,0 +1,609 @@
+default:
+  1Chr:
+    long: 1 Croinicí
+    short: 1 Croinic
+  1Cor:
+    long: 1 Corantaigh
+    short: 1Co
+  1John:
+    long: 1 Eoin
+    short: 1 Eoin
+  1Kgs:
+    long: 1 Ríthe
+    short: 1 Riogh
+  1Macc:
+    long: 1 Macabaech
+    short: 1Ma
+  1Pet:
+    long: 1 Peadar
+    short: 1Pe
+  1Sam:
+    long: 1 Samúéil
+    short: 1 Sam
+  1Thess:
+    long: 1 Teasalónaigh
+    short: 1Te
+  1Tim:
+    long: 1 Tiomóid
+    short: 1Ti
+  2Chr:
+    long: 2 Croinicí
+    short: 2 Croinic
+  2Cor:
+    long: 2 Corantaigh
+    short: 2Co
+  2John:
+    long: 2 Eoin
+    short: 2 Eoin
+  2Kgs:
+    long: 2 Ríthe
+    short: 2 Riogh
+  2Macc:
+    long: 2 Macabaech
+    short: 2Ma
+  2Pet:
+    long: 2 Peadar
+    short: 2Pe
+  2Sam:
+    long: 2 Samúéil
+    short: 2 Sam
+  2Thess:
+    long: 2 Teasalónaigh
+    short: 2Te
+  2Tim:
+    long: 2 Tiomóid
+    short: 2Ti
+  3John:
+    long: 3 Eoin
+    short: 3 Eoin
+  Acts:
+    long: Gníomhartha
+    short: Gní
+  Amos:
+    long: Amos
+    short: Amos
+  Bar:
+    long: Barúch
+    short: Bar
+  Col:
+    long: Colosaigh
+    short: Col
+  Dan:
+    long: Daniel
+    short: Daniel
+  DanGr:
+    long: Dainéil (Gr)
+    short: Dai (Gr)
+  Deut:
+    long: Deotranaimí
+    short: Deo
+  Eccl:
+    long: Cóheilit
+    short: Cóh
+  Eph:
+    long: Eifisigh
+    short: Eif
+  Esth:
+    long: Ester
+    short: Ester
+  EsthGr:
+    long: Eistir (Gr)
+    short: Eis (Gr)
+  Exod:
+    long: Eaxodus
+    short: Eax
+  Ezek:
+    long: Eizicéil
+    short: Eiz
+  Ezra:
+    long: Eazrá
+    short: Eaz
+  Gal:
+    long: Galataigh
+    short: Gal
+  Gen:
+    long: Geineasas
+    short: Gei
+  Hab:
+    long: Habaccuc
+    short: Hab
+  Hag:
+    long: Hag
+    short: Hag
+  Heb:
+    long: Eabhraigh
+    short: Eab
+  Hos:
+    long: Hosea
+    short: Hosea
+  Isa:
+    long: Isaiah
+    short: Isaiah
+  Jas:
+    long: Séamas
+    short: Séa
+  Jdt:
+    long: Iúidit
+    short: Iúi
+  Jer:
+    long: Ieremiah
+    short: Ieremiah
+  Job:
+    long: Iób
+    short: Iób
+  Joel:
+    long: Ioel
+    short: Ioel
+  John:
+    long: Eoin
+    short: Eoin
+  Jonah:
+    long: Ióna
+    short: Ión
+  Josh:
+    long: Iosua
+    short: Iosua
+  Jude:
+    long: Iúd
+    short: Iúd
+  Judg:
+    long: Breitheamhuin
+    short: Bre
+  Lam:
+    long: Leabhar na n-Olagón
+    short: Ola
+  Lev:
+    long: Lebhiticus
+    short: Lebhiticus
+  Luke:
+    long: Lúcás
+    short: Lúc
+  Mal:
+    long: Malachi
+    short: Mal
+  Mark:
+    long: Marcus
+    short: Mar
+  Matt:
+    long: Matha
+    short: Mait.
+  Mic:
+    long: Micah
+    short: Micah
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nehemia
+    short: Nehemia
+  Num:
+    long: Uibhreacha
+    short: Uibhreacha
+  Obad:
+    long: Obadiah
+    short: Oba
+  Phil:
+    long: Filipigh
+    short: Fil
+  Phlm:
+    long: Filéamón
+    short: Fil
+  Prov:
+    long: Seanfhocal
+    short: Sea
+  Ps:
+    long: Salm
+    short: Ps
+  Ps151:
+    long: Focloir
+  Rev:
+    long: Apacailipsis (Taispeántadh)
+    short: Tais
+  Rom:
+    long: Rómhánaigh
+    short: Róm
+  Ruth:
+    long: Rut
+    short: Rut
+  Sir:
+    long: Síorach
+    short: Sío
+  Song:
+    long: Caintic Sholaimh
+    short: Caintic
+  Titus:
+    long: Títeas
+    short: Tít
+  Tob:
+    long: Tóibít
+    short: Tói
+  Wis:
+    long: Eagna
+    short: Eag
+  Zech:
+    long: Sechariah
+    short: Sech.
+  Zeph:
+    long: Sephaniah
+    short: Seph.
+translations:
+  abn:
+    1Chr:
+      short: 1Cr
+    1John:
+      short: 1Eo
+    1Kgs:
+      short: 1Rí
+    1Sam:
+      short: 1Sa
+    2Chr:
+      short: 2Cr
+    2John:
+      short: 2Eo
+    2Kgs:
+      short: 2Rít
+    2Sam:
+      short: 2Sa
+    3John:
+      short: 3Eo
+    Amos:
+      long: Amós
+      short: Amó
+    Hab:
+      long: Habacúc
+    Hos:
+      long: Hóisé
+      short: Hói
+    Isa:
+      long: Íseáia
+      short: Íse
+    Jer:
+      long: Irimia
+      short: Iri
+    Joel:
+      long: Ióéil
+      short: Ióé
+    John:
+      short: Eoi
+    Josh:
+      long: Iósua
+      short: Iós
+    Judg:
+      long: Breithiúna
+    Lev:
+      long: Léivític
+      short: Léi
+    Mal:
+      long: Malaicí
+    Mark:
+      long: Marcas
+    Matt:
+      short: Mth
+    Mic:
+      long: Míocá
+      short: Mío
+    Nah:
+      long: Nahúm
+    Neh:
+      long: Nihimiá
+      short: Nih
+    Num:
+      long: Uimhreacha
+      short: Uim
+    Obad:
+      long: Obaidiá
+    Phlm:
+      short: Flm
+    Ps:
+      short: Sal
+    Rev:
+      short: Apa
+    Ruth:
+      long: Rút
+      short: Rút
+    Song:
+      long: Laoi na Laoithe
+      short: Lao
+    Zech:
+      long: Zacairia
+      short: Zac
+    Zeph:
+      long: Zafainiá
+      short: Zaf
+  bedell:
+    1Chr:
+      long: I Croinicoibh
+    1Cor:
+      long: I Ccorintiánach
+      short: 1Ccor
+    1John:
+      long: I Eóin
+      short: 1Eóin
+    1Kgs:
+      long: I Riogh
+    1Pet:
+      long: I Pheadair
+      short: I Phe
+    1Sam:
+      long: I Samuel
+    1Thess:
+      long: I Ttessalonicanach
+      short: 1Ttess
+    1Tim:
+      long: I Timóteuis
+      short: 1 Tim
+    2Chr:
+      long: II Croiniclibh
+    2Cor:
+      long: II Ccorintiánach
+      short: 2Ccor
+    2John:
+      long: II Eóin
+      short: 2 Eóin
+    2Kgs:
+      long: II Riogh
+    2Pet:
+      long: II Pheadair
+      short: II Phe
+    2Sam:
+      long: II Samuel
+    2Thess:
+      long: II Ttessalonicanach
+      short: 2Ttess
+    2Tim:
+      long: II Timóteuis
+      short: 2Tim
+    3John:
+      long: III Eóin
+      short: 3Eóin
+    Acts:
+      short: Gníomh
+    Col:
+      long: Ccolossianach
+      short: Ccol
+    Deut:
+      long: Deuteronomi
+      short: Deut
+    Eccl:
+      long: Ecclesiastes
+      short: Eccl.
+    Eph:
+      long: Hephesiánach
+      short: Heph
+    Exod:
+      long: Exodus
+      short: Exodus
+    Ezek:
+      long: Esechiel
+      short: Esechiel
+    Ezra:
+      long: Esra
+      short: Esra
+    Gal:
+      long: Galatiánach
+    Gen:
+      long: Genesis
+      short: Gen
+    Hab:
+      short: Habac
+    Hag:
+      long: Haggai
+      short: Haggai
+    Heb:
+      long: Neabhruidheach
+      short: Nea
+    Jas:
+      long: Sheamuis
+      short: Shea
+    Job:
+      long: Job
+      short: Job
+    John:
+      long: Eóin
+      short: Eóin
+    Jonah:
+      long: Jonah
+      short: Jonah
+    Jude:
+      long: Iudais
+      short: Iud
+    Judg:
+      short: Breit
+    Lam:
+      long: Triabhuin
+      short: Triabhuin
+    Luke:
+      long: Lúcas
+      short: Luc
+    Mal:
+      short: Malachi
+    Matt:
+      short: Mth
+    Nah:
+      short: Nahum
+    Obad:
+      short: Obadiah
+    Phil:
+      long: Bhphilippiánach
+      short: Bhphil
+    Phlm:
+      long: Philémoin
+      short: Philémoin
+    Prov:
+      long: Seanraite
+      short: Seanraite
+    Ps:
+      long: Psailm
+    Rev:
+      long: Taisbeanadh
+    Rom:
+      long: Romhánach
+      short: Rom
+    Titus:
+      long: Tituis
+      short: Tit
+  atn1951:
+    1Cor:
+      long: 1 Chum na gCoirinnteach
+      short: 1 Co
+    1Pet:
+      short: 1 Pe
+    1Thess:
+      long: 1 Chum na dTesaloníceach
+    1Tim:
+      long: 1 Chum Timóteuis
+    2Cor:
+      long: 2 Chum na gCoirinnteach
+      short: 2 Co
+    2Pet:
+      short: 2 Pe
+    2Thess:
+      long: 2 Chum na dTesaloníceach
+      short: 2 Tes
+    2Tim:
+      long: 2 Chum Timóteuis
+      short: 2 Tim
+    Col:
+      long: Chum na gColossaeach
+    Eph:
+      long: Chum na nEiféiseach
+    Gal:
+      long: Chum na nGalátach
+    Heb:
+      long: Chum na nEabhraidheach
+    Jude:
+      long: Iúdás
+    Mark:
+      short: Marcus
+    Matt:
+      short: Mat
+    Phil:
+      long: Chum na bhFilipíneach
+    Phlm:
+      long: Chum Filéamóin
+    Rev:
+      long: Taisbeanádh
+    Rom:
+      long: Rómhánach
+    Titus:
+      long: Chum Tituis
+  oc1970:
+    1Cor:
+      long: 1 Coraintigh
+    1John:
+      short: 1Eo
+    1Thess:
+      long: 1 Tesalóinigh
+    1Tim:
+      long: 1 Timótéus
+    2Cor:
+      long: 2 Coraintigh
+    2John:
+      short: 2Eo
+    2Thess:
+      long: 2 Tesalóinigh
+    2Tim:
+      long: 2 Timótéus
+    3John:
+      short: 3Eo
+    Col:
+      long: Colosséigh
+    Eph:
+      long: Eiféisigh
+    Gal:
+      long: Galátaigh
+    Heb:
+      short: Eabh
+    Jude:
+      long: Iúdás
+    Mark:
+      long: Marcas
+      short: Marc
+    Matt:
+      short: Mat
+    Phil:
+      long: Filipéigh
+      short: Filip
+    Phlm:
+      long: Philémón
+      short: Phil
+    Rev:
+      long: Taispeáint
+    Titus:
+      long: Títus
+  abn2012:
+    1Cor:
+      short: 1 Cor.
+    1Pet:
+      short: 1 Pead.
+    1Thess:
+      short: 1 Teas.
+    1Tim:
+      short: 1 Tiom.
+    2Cor:
+      short: 2 Cor.
+    2Pet:
+      short: 2 Pead.
+    2Thess:
+      short: 2 Teas.
+    2Tim:
+      short: 2 Tiom.
+    Acts:
+      short: Gníomh.
+    Col:
+      short: Col.
+    Eph:
+      short: Eif.
+    Gal:
+      short: Gal.
+    Heb:
+      short: Eabh.
+    Jas:
+      short: Séam.
+    Luke:
+      short: Lúc.
+    Mark:
+      long: Marcas
+      short: Mc.
+    Matt:
+      short: Mth.
+    Phil:
+      short: Fil.
+    Phlm:
+      short: Filéamón
+    Ps:
+      short: Salm
+    Rev:
+      short: Apac.
+    Rom:
+      short: Rómh.
+  asn1943:
+    Acts:
+      short: Gníomh.
+    Luke:
+      long: Lúcas
+      short: Lúc.
+    Mark:
+      short: Marc.
+    Matt:
+      long: Maitiú
+  pol:
+    Acts:
+      short: Gníomh.
+    John:
+      long: Eóin
+      short: Eóin
+    Luke:
+      short: Lúc.
+    Mark:
+      short: Marc.
+    Matt:
+      long: Maitiú
+  oc1965:
+    Ps:
+      long: Na Sailm
+      short: Sailm
+  psa1836:
+    Ps:
+      long: Psalm
+      short: Psalm

@@ -1,0 +1,117 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - प्रकाशितवाक्य
+      - प्रका
+  - osis: Matt
+    texts:
+      - मत्ती
+  - osis: Mark
+    texts:
+      - मरकुस
+  - osis: Luke
+    texts:
+      - लूका
+      - लूक
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - यूहन्ना
+      - यूह
+  - osis: John
+    texts:
+      - युहन्ना
+      - युह
+  - osis: Acts
+    texts:
+      - प्रेरितो काम
+      - प्रेरित
+  - osis: Rom
+    texts:
+      - रोमि
+      - रोम
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - कुरिन्थि
+      - कुरि
+  - osis: Col
+    texts:
+      - कुलुस्सी
+      - कुलु
+  - osis: Gal
+    texts:
+      - गलाती
+      - गला
+  - osis: Eph
+    texts:
+      - इफिसी
+  - osis: Phil
+    texts:
+      - फिलिप्पी
+      - फिलि
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - थिस्लोनी
+      - थिस्लो
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - तीमुथियुस
+      - तिमु
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - तीमुथियुस
+      - तीमु
+  - osis: Titus
+    texts:
+      - तीतुस
+      - तीतु
+  - osis: Phlm
+    texts:
+      - फिलोमोन
+      - फिलो
+  - osis: Heb
+    texts:
+      - इब्रानि
+      - इब्रा
+  - osis: Jas
+    texts:
+      - याकूब
+      - याकू
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - पतरस
+      - पत
+  - osis: Jude
+    texts:
+      - यहूदा
+      - यहू
+translations:
+  - NOINT

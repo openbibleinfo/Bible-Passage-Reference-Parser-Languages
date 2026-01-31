@@ -1,0 +1,145 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Bɩgabaazɩya
+      - Bɩg
+  - osis: Rev
+    texts:
+      - Kɩwɩlʊʊ
+      - Kɩw
+  - osis: Matt
+    texts:
+      - Maatéwu
+      - Mat
+  - osis: Mark
+    texts:
+      - Maárɩkɩ
+      - Mrk
+  - osis: Luke
+    texts:
+      - Lúka
+      - Lúk
+  - osis: 1John
+    texts:
+      - 1Yʊ
+  - osis: 2John
+    texts:
+      - 2Yʊ
+  - osis: 3John
+    texts:
+      - 3 Yʊháánɩ
+      - 3Yʊ
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yʊháánɩ
+  - osis: John
+    texts:
+      - Yʊháánɩ
+      - Yʊh
+  - osis: Acts
+    texts:
+      - Tɩndɩnáa-dɛ́ɛ Tɩmɛ́
+      - Tɩm
+  - osis: Rom
+    texts:
+      - Róóma ńba
+      - Róm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korɩ́ntɩ ńba
+  - osis: 1Cor
+    texts:
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - 2Ko
+  - osis: Col
+    texts:
+      - Kolɔ́ɔsɩ ńba
+      - Kol
+  - osis: Gal
+    texts:
+      - Galasíi ńba
+      - Gal
+  - osis: Eph
+    texts:
+      - Efɛ́ɛzɩ ńba
+      - Efɛ
+  - osis: Phil
+    texts:
+      - Filíipu ńba
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaloníiki ńba
+  - osis: 1Thess
+    texts:
+      - 1Ts
+  - osis: 2Thess
+    texts:
+      - 2Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotée
+  - osis: 1Tim
+    texts:
+      - 1Tm
+  - osis: 2Tim
+    texts:
+      - 2Tm
+  - osis: Titus
+    texts:
+      - Tíiti
+      - Tít
+  - osis: Phlm
+    texts:
+      - Filemɔ́n
+      - Flm
+  - osis: Heb
+    texts:
+      - Éburu ńba
+      - Ébr
+  - osis: Jas
+    texts:
+      - Yaakúbu
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pétro
+  - osis: 1Pet
+    texts:
+      - 1Pé
+  - osis: 2Pet
+    texts:
+      - 2Pé
+  - osis: Jude
+    texts:
+      - Yúudi
+      - Yúd
+translations:
+  - TEM

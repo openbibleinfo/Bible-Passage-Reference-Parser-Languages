@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 Kurintu
+    short: 1Ku
+  1John:
+    long: 1 Huan
+    short: 1Hu
+  1Pet:
+    long: 1 Pedro
+    short: 1Pe
+  1Thess:
+    long: 1 Tisalunika
+    short: 1Tk
+  1Tim:
+    long: 1 Timoteo
+    short: 1Ti
+  2Cor:
+    long: 2 Kurintu
+    short: 2Ku
+  2John:
+    long: 2 Huan
+    short: 2Hu
+  2Pet:
+    long: 2 Pedro
+    short: 2Pe
+  2Thess:
+    long: 2 Tisalunika
+    short: 2Tk
+  2Tim:
+    long: 2 Timoteo
+    short: 2Ti
+  3John:
+    long: 3 Huan
+    short: 3Hu
+  Acts:
+    long: Hinimuan
+    short: Hin
+  Col:
+    long: Kulusas
+    short: Kul
+  Eph:
+    long: Episu
+    short: Epi
+  Gal:
+    long: Galasia
+    short: Gal
+  Heb:
+    long: Hibriu
+    short: Hib
+  Jas:
+    long: Santiago
+    short: San
+  John:
+    long: Huan
+    short: Hua
+  Jude:
+    long: Hudas
+    short: Hud
+  Luke:
+    long: Lukas
+    short: Luk
+  Mark:
+    long: Markos
+    short: Mar
+  Matt:
+    long: Matiu
+    short: Mat
+  Phil:
+    long: Pilipus
+    short: Pil
+  Phlm:
+    long: Pilimun
+    short: Phm
+  Rev:
+    long: Impapitow
+    short: Imp
+  Rom:
+    long: Ruma
+    short: Rum
+  Titus:
+    long: Titu
+    short: Tit

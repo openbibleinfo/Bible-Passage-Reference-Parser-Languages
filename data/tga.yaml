@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Ufunuo
+  - osis: Matt
+    texts:
+      - Matayo
+  - osis: Mark
+    texts:
+      - Marko
+  - osis: Luke
+    texts:
+      - Luka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Johana
+  - osis: Acts
+    texts:
+      - Madeo
+  - osis: Rom
+    texts:
+      - waRoma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Wakorintho
+  - osis: Col
+    texts:
+      - Wakolosai
+  - osis: Gal
+    texts:
+      - Wagalatia
+  - osis: Eph
+    texts:
+      - Waefeso
+  - osis: Phil
+    texts:
+      - waFilipi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Wathesaloke
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotheo
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filemoni
+  - osis: Heb
+    texts:
+      - Wahebrania
+  - osis: Jas
+    texts:
+      - Jakobo
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petro
+  - osis: Jude
+    texts:
+      - Juda
+translations:
+  - SAGALLANT

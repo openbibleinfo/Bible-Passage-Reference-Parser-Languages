@@ -1,0 +1,108 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - दरसनन के बातँय
+      - दरसनन
+  - osis: Matt
+    texts:
+      - मत्ती
+  - osis: Mark
+    texts:
+      - मरकुस
+      - मर
+  - osis: Luke
+    texts:
+      - लूका
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - यूहन्ना
+      - यूह
+  - osis: Acts
+    texts:
+      - खा.चे.काम
+      - खास चेलन
+  - osis: Rom
+    texts:
+      - रोमियन
+      - रोमि
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - कुरिन्थियन
+      - कुरि
+  - osis: Col
+    texts:
+      - कुलुस्सियन
+      - कुलु
+  - osis: Gal
+    texts:
+      - गलातियन
+      - गला
+  - osis: Eph
+    texts:
+      - इफीसियन
+      - इफी
+  - osis: Phil
+    texts:
+      - फिलिप्पियन
+      - फिलि
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - थिस्सलुनीकियन
+      - थिस्स
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - तीमुथियुस
+      - तीमु
+  - osis: Titus
+    texts:
+      - तीतुस
+  - osis: Phlm
+    texts:
+      - फिलेमोन
+      - फिले
+  - osis: Heb
+    texts:
+      - इब्रानियन
+      - इब्रा
+  - osis: Jas
+    texts:
+      - याकूब
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - पतरस
+      - पत
+  - osis: Jude
+    texts:
+      - यहूदा
+translations:
+  - BFY

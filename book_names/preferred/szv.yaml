@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 Kolìn
+    short: 1Ko
+  1John:
+    long: 1 Dzwan
+    short: 1Dz
+  1Pet:
+    long: 1 Pità
+    short: 1Pi
+  1Thess:
+    long: 1 Tèsàlonikà
+    short: 1Te
+  1Tim:
+    long: 1 Timotì
+    short: 1Ti
+  2Cor:
+    long: 2 Kolìn
+    short: 2Ko
+  2John:
+    long: 2 Dzwan
+    short: 2Dz
+  2Pet:
+    long: 2 Pità
+    short: 2Pi
+  2Thess:
+    long: 2 Tèsàlonikà
+    short: 2Te
+  2Tim:
+    long: 2 Timotì
+    short: 2Ti
+  3John:
+    long: 3 Dzwan
+    short: 3Dz
+  Acts:
+    long: Kə̀fàʼ
+    short: Kə̀f
+  Col:
+    long: Aghě Kolòsî
+    short: Kol
+  Eph:
+    long: Aghě Efesùs
+    short: Efe
+  Gal:
+    long: Aghě Gàlatìyà
+    short: Gal
+  Heb:
+    long: Hiblù
+    short: Hib
+  Jas:
+    long: Dzɛ̂m
+    short: Dzɛ
+  John:
+    long: Dzwan
+    short: Dzn
+  Jude:
+    long: Dzûd
+    short: Dzu
+  Luke:
+    long: Lukâs
+    short: Luk
+  Mark:
+    long: Mâk
+    short: Mak
+  Matt:
+    long: Matìyò
+    short: Mat
+  Phil:
+    long: Aghě Filìpî
+    short: Fil
+  Phlm:
+    long: Filemòn
+    short: Flm
+  Rev:
+    long: Tway dè fyi
+    short: Twa
+  Rom:
+    long: Lûm
+    short: Lûm
+  Titus:
+    long: Taytùs
+    short: Tay

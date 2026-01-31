@@ -1,0 +1,213 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Ko-Dabirɛnu
+  - osis: Exod
+    texts:
+      - Bɔ-Koe-Iyipiti
+  - osis: Lev
+    texts:
+      - Saraka-Masɔlɛnuta Tɔnnu
+  - osis: Num
+    texts:
+      - Yilan-Yilan Koe
+  - osis: Lam
+    texts:
+      - Nimisa Koe
+  - osis: Rev
+    texts:
+      - Lankɛnimayɛ
+  - osis: Deut
+    texts:
+      - Tɔn-Fɔɛ-Fila-Nyɔgɛ
+  - osis: Josh
+    texts:
+      - Yasowa
+  - osis: Judg
+    texts:
+      - Kɛlɛ-Kurugbɛnu
+  - osis: Ruth
+    texts:
+      - Ruti
+  - osis: Isa
+    texts:
+      - Aiseya
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuwɛli
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Mansɛnu
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Ko-Kɔrɔta-Karan
+  - osis: Ezra
+    texts:
+      - Ɛsira
+  - osis: Neh
+    texts:
+      - Nihɛmaya
+  - osis: Esth
+    texts:
+      - Ɛsita
+  - osis: Job
+    texts:
+      - Yobu
+  - osis: Ps
+    texts:
+      - Yaburi
+  - osis: Prov
+    texts:
+      - Hɛnkilimaya-Kumɛnu
+  - osis: Eccl
+    texts:
+      - Makawandili Kumɛnu
+  - osis: Song
+    texts:
+      - Keninteya-Siginu
+  - osis: Jer
+    texts:
+      - Yɛrɛmaya
+  - osis: Ezek
+    texts:
+      - Isikiyɛli
+  - osis: Dan
+    texts:
+      - Daniyɛli
+  - osis: Hos
+    texts:
+      - Hoseya
+  - osis: Joel
+    texts:
+      - Yowɛli
+  - osis: Amos
+    texts:
+      - Emɔsi
+  - osis: Obad
+    texts:
+      - Hɔbadaya
+  - osis: Jonah
+    texts:
+      - Yona
+  - osis: Mic
+    texts:
+      - Maika
+  - osis: Nah
+    texts:
+      - Nehami
+  - osis: Hab
+    texts:
+      - Habakuku
+  - osis: Zeph
+    texts:
+      - Sɛfanaya
+  - osis: Hag
+    texts:
+      - Hegayi
+  - osis: Zech
+    texts:
+      - Sakaraya
+  - osis: Mal
+    texts:
+      - Malakayi
+  - osis: Matt
+    texts:
+      - Matiyu
+  - osis: Mark
+    texts:
+      - Maraka
+  - osis: Luke
+    texts:
+      - Luka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yɔni
+  - osis: Acts
+    texts:
+      - Kɛwɔlɛnu
+  - osis: Rom
+    texts:
+      - Romu
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kɔrɛnti
+  - osis: Col
+    texts:
+      - Kɔlɔsi
+  - osis: Gal
+    texts:
+      - Kalesiya
+  - osis: Eph
+    texts:
+      - Ɛfɛsa
+  - osis: Phil
+    texts:
+      - Filipai
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tɛsalonaika
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: Titus
+    texts:
+      - Taita
+  - osis: Phlm
+    texts:
+      - Failiman
+  - osis: Heb
+    texts:
+      - Hiburunu
+  - osis: Jas
+    texts:
+      - Yemesi
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+  - osis: Jude
+    texts:
+      - Yude
+translations:
+  - KCLB

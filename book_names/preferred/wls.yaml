@@ -1,0 +1,203 @@
+default:
+  1Chr:
+    long: Uluaki Koloniko
+    short: Uluaki Koloniko
+  1Cor:
+    long: Uluaki tohi a Paulo ki te kau Kolinito
+    short: 1 Kolinito
+  1John:
+    long: Uluaki Tohi A Soane
+    short: Uluaki Tohi A Soane
+  1Kgs:
+    long: Uluaki Hau
+    short: Uluaki Hau
+  1Pet:
+    long: Uluaki Tohi A Petelo
+    short: Uluaki Tohi A Petelo
+  1Sam:
+    long: Uluaki Tohi A Samuele
+    short: Uluaki Tohi A Samuele
+  1Thess:
+    long: Uluaki tohi a Paulo ki te kau Tesalonika
+    short: 1 Tesalonika
+  1Tim:
+    long: Uluaki tohi a Paulo kia Timoteo
+    short: 1 Timoteo
+  2Chr:
+    long: Lua Koloniko
+    short: Lua Koloniko
+  2Cor:
+    long: Lua tohi a Paulo ki te kau Kolinito
+    short: 2 Kolinito
+  2John:
+    long: Lua Tohi A Soane
+    short: Lua Tohi A Soane
+  2Kgs:
+    long: Lua Hau
+    short: Lua Hau
+  2Pet:
+    long: Lua Tohi A Petelo
+    short: Lua Tohi A Petelo
+  2Sam:
+    long: Lua Tohi A Samuele
+    short: Lua Tohi A Samuele
+  2Thess:
+    long: Lua tohi a Paulo ki te kau Tesalonika
+    short: 2 Tesalonika
+  2Tim:
+    long: Lua tohi a Paulo kia Timoteo
+    short: 2 Timoteo
+  3John:
+    long: Tolu Tohi A Soane
+    short: Tolu Tohi A Soane
+  Acts:
+    long: Tohi Gaue A Te Kau Apositolo
+    short: Tohi Gaue
+  Amos:
+    long: Amosi
+    short: Amosi
+  Col:
+    long: Tohi a Paulo ki te kau Kolose
+    short: Kolose
+  Dan:
+    long: Taniela
+    short: Taniela
+  Deut:
+    long: Tetelonome
+    short: Tetelonome
+  Eccl:
+    long: Ekelesiasi
+    short: Ekelesiasi
+  Eph:
+    long: Tohi a Paulo ki te kau Efeso
+    short: Efeso
+  Esth:
+    long: Esitele
+    short: Esitele
+  Exod:
+    long: Ekesote
+    short: Ekesote
+  Ezek:
+    long: Esekiele
+    short: Esekiele
+  Ezra:
+    long: Esetalasi
+    short: Esetalasi
+  Gal:
+    long: Tohi a Paulo ki te kau Kalate
+    short: Kalate
+  Gen:
+    long: Senesi
+    short: Senesi
+  Hab:
+    long: Hapakuke
+    short: Hapakuke
+  Hag:
+    long: Akeseo
+    short: Akeseo
+  Heb:
+    long: Tohi ki te kau Hepeleo
+    short: Hepeleo
+  Hos:
+    long: Oseo
+    short: Oseo
+  Isa:
+    long: Esaia
+    short: Esaia
+  Jas:
+    long: Tohi A Sakopo
+    short: Tohi A Sakopo
+  Jer:
+    long: Selemia
+    short: Selemia
+  Job:
+    long: Sopo
+    short: Sopo
+  Joel:
+    long: Soele
+    short: Soele
+  John:
+    long: Evaselio A Soane
+    short: Soane
+  Jonah:
+    long: Sonasi
+    short: Sonasi
+  Josh:
+    long: Sosue
+    short: Sosue
+  Jude:
+    long: Tohi A Suta
+    short: Tohi A Suta
+  Judg:
+    long: Tui Fakamaau
+    short: Tui Fakamaau
+  Lam:
+    long: Tagi laulau a Selemia
+    short: Tagi laulau a Selemia
+  Lev:
+    long: Levitiko
+    short: Levitiko
+  Luke:
+    long: Evaselio A Luka
+    short: Luka
+  Mal:
+    long: Malakia
+    short: Malakia
+  Mark:
+    long: Evaselio A Maleko
+    short: Maleko
+  Matt:
+    long: Evaselio A Mateo
+    short: Mateo
+  Mic:
+    long: Mikea
+    short: Mikea
+  Nah:
+    long: Naume
+    short: Naume
+  Neh:
+    long: Neemia
+    short: Neemia
+  Num:
+    long: Numelo
+    short: Numelo
+  Obad:
+    long: Apetiasi
+    short: Apetiasi
+  Phil:
+    long: Tohi a Paulo ki te kau Filipe
+    short: Filipe
+  Phlm:
+    long: Filemo
+    short: Filemo
+  Prov:
+    long: Taaga Lea
+    short: Taaga Lea
+  Ps:
+    long: Pesalemo
+    short: Pesalemo
+  Rev:
+    long: Apokalipisi
+    short: Apokalipisi
+  Rom:
+    long: Tohi a Paulo ki te kau Loma
+    short: Loma
+  Ruth:
+    long: Lute
+    short: Lute
+  Song:
+    long: Katiko O Te U Katiko
+    short: Katiko O Te U Katiko
+  Titus:
+    long: Tito
+    short: Tito
+  Zech:
+    long: Sakalia
+    short: Sakalia
+  Zeph:
+    long: Sofoni
+    short: Sofoni
+translations:
+  wls1971:
+    Mark:
+      long: Maleko

@@ -1,0 +1,139 @@
+default:
+  1Cor:
+    long: 1 Corinthians
+    short: 1 Corinthians
+  1John:
+    long: 1 John
+    short: 1 John
+  1Pet:
+    long: 1 Peter
+    short: 1 Peter
+  1Thess:
+    long: 1 Thessalonians
+    short: 1 Thessalonians
+  1Tim:
+    long: 1 Timothy
+    short: 1 Timothy
+  2Cor:
+    long: 2 Corinthians
+    short: 2 Corinthians
+  2John:
+    long: 2 John
+    short: 2 John
+  2Pet:
+    long: 2 Peter
+    short: 2 Peter
+  2Thess:
+    long: 2 Thessalonians
+    short: 2 Thessalonians
+  2Tim:
+    long: 2 Timothy
+    short: 2 Timothy
+  3John:
+    long: 3 John
+    short: 3 John
+  Acts:
+    long: Acts
+    short: Act
+  Col:
+    long: Colossians
+    short: Col
+  Eph:
+    long: Ephesians
+    short: Eph
+  Gal:
+    long: Galatians
+    short: Gal
+  Heb:
+    long: Hebrews
+    short: Heb
+  Jas:
+    long: James
+    short: James
+  John:
+    long: John
+    short: Jn
+  Jude:
+    long: Jude
+    short: Jud
+  Luke:
+    long: Luke
+    short: Lk
+  Mark:
+    long: Mark
+    short: Mark
+  Matt:
+    long: Matthew
+    short: Matthew
+  Phil:
+    long: Philippians
+    short: Philippians
+  Phlm:
+    long: Philemon
+    short: Philemon
+  Rev:
+    long: Revelation
+    short: Rev
+  Rom:
+    long: Romans
+    short: Ro
+  Titus:
+    long: Titus
+    short: Tit
+translations:
+  okv:
+    1Cor:
+      short: 1Co
+    1John:
+      short: 1Jn
+    1Pet:
+      short: 1Pe
+    1Thess:
+      short: 1Th
+    1Tim:
+      short: 1Ti
+    2Cor:
+      short: 2Co
+    2John:
+      short: 2Jn
+    2Pet:
+      short: 2Pe
+    2Thess:
+      short: 2Th
+    2Tim:
+      short: 2Ti
+    3John:
+      short: 3Jn
+    Jas:
+      short: Jas
+    Mark:
+      short: Mk
+    Matt:
+      short: Mt
+    Phil:
+      short: Php
+    Phlm:
+      short: Phm
+  okvh:
+    Acts:
+      short: Acts
+    Col:
+      short: Colossians
+    Eph:
+      short: Ephesians
+    Gal:
+      short: Galatians
+    Heb:
+      short: Hebrews
+    John:
+      short: John
+    Jude:
+      short: Jude
+    Luke:
+      short: Luke
+    Rev:
+      short: Revelation
+    Rom:
+      short: Romans
+    Titus:
+      short: Titus

@@ -1,0 +1,332 @@
+default:
+  1Chr:
+    long: 1Mav
+    short: 1 Mav
+  1Cor:
+    long: 1Ako
+    short: 1 Ako
+  1John:
+    long: 1Yoa
+    short: 1 Yoa
+  1Kgs:
+    long: 1Asu
+    short: 1 Asu
+  1Macc:
+    long: 1Mak
+  1Pet:
+    long: 1Vet
+    short: 1 Vet
+  1Sam:
+    long: 1Sam
+    short: 1 Sam
+  1Thess:
+    long: 1Ath
+    short: 1 Ath
+  1Tim:
+    long: 1Tim
+    short: 1 Tim
+  2Chr:
+    long: 2Mav
+    short: 2 Mav
+  2Cor:
+    long: 2Ako
+    short: 2 Ako
+  2John:
+    long: 2Yoa
+    short: 2 Yoa
+  2Kgs:
+    long: 2Asu
+    short: 2 Asu
+  2Macc:
+    long: 2Mak
+  2Pet:
+    long: 2Vet
+    short: 2 Vet
+  2Sam:
+    long: 2Sam
+    short: 2 Sam
+  2Thess:
+    long: 2Ath
+    short: 2 Ath
+  2Tim:
+    long: 2Tim
+    short: 2 Tim
+  3John:
+    long: 3Yoa
+    short: 3 Yoa
+  Acts:
+    long: Meko
+    short: Meko
+  Amos:
+    long: Amo
+    short: Amo
+  Bar:
+    long: Mba
+  Col:
+    long: aKol
+    short: aKo
+  Dan:
+    long: Nda
+    short: Nda
+  Deut:
+    long: Kũt
+    short: Kũt
+  Eccl:
+    long: Mũta
+    short: Mũta
+  Eph:
+    long: Aev
+    short: Aev
+  Esth:
+    long: Esita
+    short: Est
+  EsthGr:
+    long: Est-Kĩk
+  Exod:
+    long: Kuma
+    short: Kuma
+  Ezek:
+    long: Esek
+    short: Esek
+  Ezra:
+    long: Esa
+    short: Esa
+  Gal:
+    long: Aka
+    short: Aka
+  Gen:
+    long: Mwa
+    short: Mwa
+  Hab:
+    long: Ava
+    short: Ava
+  Hag:
+    long: Akai
+    short: Akai
+  Heb:
+    long: Aevl
+    short: Aevl
+  Hos:
+    long: Osea
+    short: Osea
+  Isa:
+    long: Ĩsa
+    short: Isa
+  Jas:
+    long: Yak
+    short: Yak
+  Jdt:
+    long: Yund
+  Jer:
+    long: Yel
+    short: Yel
+  Job:
+    long: Yovu
+    short: Yovu
+  Joel:
+    long: Yoe
+    short: Yoe
+  John:
+    long: Yoa
+    short: Yoa
+  Jonah:
+    long: Yona
+    short: Yona
+  Josh:
+    long: Yos
+    short: Yos
+  Jude:
+    long: Yuta
+    short: Yuta
+  Judg:
+    long: Asi
+    short: Asi
+  Lam:
+    long: Iĩo
+    short: Iĩo
+  Lev:
+    long: Ali
+    short: Ali
+  Luke:
+    long: Lk
+    short: Lk
+  Mal:
+    long: Mal
+    short: Mal
+  Mark:
+    long: Mk
+    short: Mko
+  Matt:
+    long: Mat
+    short: Mt
+  Mic:
+    long: Mika
+    short: Mika
+  Nah:
+    long: Naũ
+    short: Nau
+  Neh:
+    long: Nee
+    short: Nee
+  Num:
+    long: Mot
+    short: Mot
+  Obad:
+    long: Ova
+    short: Ova
+  Phil:
+    long: Avi
+    short: Avi
+  Phlm:
+    long: Vil
+    short: Vil
+  Prov:
+    long: Nth
+    short: Nth
+  Ps:
+    long: Sav
+    short: Sav
+  Rev:
+    long: Ũvu
+    short: Ũvu
+  Rom:
+    long: Alo
+    short: Alo
+  Ruth:
+    long: Lũ
+    short: Lu
+  Sir:
+    long: Sil
+  Song:
+    long: Wa
+    short: Wa
+  Titus:
+    long: Tito
+    short: Tito
+  Tob:
+    long: Tov
+  Wis:
+    long: Ũĩ
+  Zech:
+    long: Nzek
+    short: Nzek
+  Zeph:
+    long: Nzev
+    short: Nzev
+translations:
+  mbivlia:
+    1Chr:
+      long: 1 Mavinda
+    1Cor:
+      long: 1 Akolintho
+    1John:
+      long: 1 Yoana
+    1Kgs:
+      long: 1 Asumbĩ
+    1Pet:
+      long: 1 Vetelo
+    1Sam:
+      long: 1 Samueli
+    1Thess:
+      long: 1 Athesalonika
+    1Tim:
+      long: 1 Timotheo
+    2Chr:
+      long: 2 Mavinda
+    2Cor:
+      long: 2 Akolintho
+    2John:
+      long: 2 Yoana
+    2Kgs:
+      long: 2 Asumbĩ
+    2Pet:
+      long: 2 Vetelo
+    2Sam:
+      long: 2 Samueli
+    2Thess:
+      long: 2 Athesalonika
+    2Tim:
+      long: 2 Timotheo
+    3John:
+      long: 3 Yoana
+    Acts:
+      long: Meko Ma Atũmwa
+    Amos:
+      long: Amosi
+    Col:
+      long: Akolosai
+    Dan:
+      long: Ndanieli
+    Deut:
+      long: Kũtũngĩlĩlwa Kwa Mĩao
+    Eccl:
+      long: Mũtavan’ya
+    Eph:
+      long: Aeveso
+    Ezek:
+      long: Esekieli
+    Ezra:
+      long: Esala
+    Gal:
+      long: Akalatia
+    Gen:
+      long: Mwambĩlĩlyo
+    Hab:
+      long: Avakuki
+    Heb:
+      long: Aevelania
+    Isa:
+      long: Isaia
+    Jas:
+      long: Yakovo
+    Jer:
+      long: Yelemai
+    Joel:
+      long: Yoeli
+    John:
+      long: Yoana
+    Josh:
+      long: Yosua
+    Judg:
+      long: Asili
+    Lev:
+      long: Alivai
+    Luke:
+      long: Luka
+    Mal:
+      long: Malaki
+    Mark:
+      long: Maliko
+    Matt:
+      long: Mathayo
+    Nah:
+      long: Naumu
+    Neh:
+      long: Neemia
+    Num:
+      long: Motalo
+    Obad:
+      long: Ovatia
+    Phil:
+      long: Avilivi
+    Phlm:
+      long: Vilemona
+    Prov:
+      long: Nthimo
+    Ps:
+      long: Savuli
+    Rev:
+      long: Ũvuan’yo
+    Rom:
+      long: Alomi
+    Ruth:
+      long: Luthi
+    Song:
+      long: Wathi
+    Zech:
+      long: Nzekalia
+    Zeph:
+      long: Nzevania
+  kambabb:
+    Esth:
+      long: Est

@@ -1,0 +1,314 @@
+default:
+  1Chr:
+    long: 1 Cronicas
+    short: 1 Cron.
+  1Cor:
+    long: 1 Taga-Corinto
+    short: 1 Cor.
+  1John:
+    long: 1 Juan
+    short: 1 Jn.
+  1Kgs:
+    long: 1 Ar-ari
+    short: 1 Ar.
+  1Pet:
+    long: 1 Pedro
+    short: 1 Ped.
+  1Sam:
+    long: 1 Samuel
+    short: 1 Sam.
+  1Thess:
+    long: 1 Taga-Tesalonica
+    short: 1 Tes.
+  1Tim:
+    long: 1 Timoteo
+    short: 1 Tim.
+  2Chr:
+    long: 2 Cronicas
+    short: 2 Cron.
+  2Cor:
+    long: 2 Taga-Corinto
+    short: 2 Cor.
+  2John:
+    long: 2 Juan
+    short: 2 Jn.
+  2Kgs:
+    long: 2 Ar-ari
+    short: 2 Ar.
+  2Pet:
+    long: 2 Pedro
+    short: 2 Ped.
+  2Sam:
+    long: 2 Samuel
+    short: 2 Sam.
+  2Thess:
+    long: 2 Taga-Tesalonica
+    short: 2 Tes.
+  2Tim:
+    long: 2 Timoteo
+    short: 2 Tim.
+  3John:
+    long: 3 Juan
+    short: 3 Jn.
+  Acts:
+    long: Dagiti Aramid
+    short: Ara.
+  Amos:
+    long: Amos
+    short: Am.
+  Col:
+    long: Taga Colosas
+    short: Col.
+  Dan:
+    long: Daniel
+    short: Dan.
+  Deut:
+    long: Deuteronomio
+    short: Deut.
+  Eccl:
+    long: Eclesiastes
+    short: Ec.
+  Eph:
+    long: Taga Efeso
+    short: Ef.
+  Esth:
+    long: Ester
+    short: Est.
+  Exod:
+    long: Exodo
+    short: Ex.
+  Ezek:
+    long: Ezekiel
+    short: Eze.
+  Ezra:
+    long: Esdras
+    short: Esd.
+  Gal:
+    long: Taga Galacia
+    short: Gal.
+  Gen:
+    long: Genesis
+    short: Gen.
+  Hab:
+    long: Habacuc
+    short: Hab.
+  Hag:
+    long: Haggeo
+    short: Hag.
+  Heb:
+    long: Hebreo
+    short: Heb.
+  Hos:
+    long: Oseas
+    short: Os.
+  Isa:
+    long: Isaias
+    short: Is.
+  Jas:
+    long: Santiago
+    short: San.
+  Jer:
+    long: Jeremias
+    short: Jer.
+  Job:
+    long: Job
+    short: Jb.
+  Joel:
+    long: Joel
+    short: Jl.
+  John:
+    long: Juan
+    short: Jn.
+  Jonah:
+    long: Jonas
+    short: Jon.
+  Josh:
+    long: Josue
+    short: Jos.
+  Jude:
+    long: Judas
+    short: Jd.
+  Judg:
+    long: Oc-ocom
+    short: Oc.
+  Lam:
+    long: Dagiti Un-unnoy
+    short: D. Un.
+  Lev:
+    long: Levitico
+    short: Lev.
+  Luke:
+    long: Lucas
+    short: Luc.
+  Mal:
+    long: Malakias
+    short: Mal.
+  Mark:
+    long: Marcos
+    short: Mar.
+  Matt:
+    long: Mateo
+    short: Mat.
+  Mic:
+    long: Mikias
+    short: Mik.
+  Nah:
+    long: Nahum
+    short: Nah.
+  Neh:
+    long: Nehemias
+    short: Neh.
+  Num:
+    long: Numero
+    short: Num.
+  Obad:
+    long: Abdias
+    short: Ab.
+  Phil:
+    long: Taga Filipos
+    short: Fil.
+  Phlm:
+    long: Filemon
+    short: File.
+  Prov:
+    long: Dagiti Proverbio
+    short: Prov.
+  Ps:
+    long: Dagiti Salmo
+    short: Sal.
+  Rev:
+    long: Apocalipsis
+    short: Apoc.
+  Rom:
+    long: Taga Roma
+    short: Rom.
+  Ruth:
+    long: Ruth
+    short: Rt.
+  Song:
+    long: Kanta ni Solomon
+    short: C. ni Sal.
+  Titus:
+    long: Tito
+    short: Tit.
+  Zech:
+    long: Zacarias
+    short: Zac.
+  Zeph:
+    long: Sofonias
+    short: Sof.
+translations:
+  tb1973:
+    1Chr:
+      long: I Cronicas
+    1Cor:
+      long: I Taga Corinto
+    1John:
+      long: I Juan
+      short: 1 Juan
+    1Kgs:
+      long: I Ar-ari
+    1Pet:
+      long: I Pedro
+    1Sam:
+      long: I Samuel
+    1Thess:
+      long: I Taga Tesalonica
+    1Tim:
+      long: I Timoteo
+    2Chr:
+      long: II Cronicas
+    2Cor:
+      long: II Taga Corinto
+    2John:
+      long: II Juan
+      short: 2 Juan
+    2Kgs:
+      long: II Ar-ari
+    2Pet:
+      long: II Pedro
+    2Sam:
+      long: II Samuel
+    2Thess:
+      long: II Taga Tesalonica
+    2Tim:
+      long: II Timoteo
+    3John:
+      long: III Juan
+      short: 3 Juan
+    Acts:
+      short: D. Ara.
+    Amos:
+      short: Amos
+    Eccl:
+      short: Ecle.
+    Eph:
+      short: Efe.
+    Ezek:
+      long: Ezequiel
+    Isa:
+      short: Isa.
+    Jas:
+      short: Sant.
+    Job:
+      short: Job
+    Joel:
+      short: Joel
+    John:
+      short: Juan
+    Jude:
+      short: Jud.
+    Num:
+      long: Numeros
+    Phil:
+      short: Fili.
+    Ruth:
+      short: Rut.
+    Song:
+      long: Ti Canta Ni Salomon
+  ripv:
+    Col:
+      long: Taga-Colosas
+    Eph:
+      long: Taga-Efeso
+    Ezra:
+      long: Ezra
+      short: Ez.
+    Gal:
+      long: Taga-Galacia
+    Hab:
+      long: Habakuk
+    John:
+      long: San Juan
+    Jude:
+      long: San Judas
+    Judg:
+      long: Uk-ukom
+      short: Uk.
+    Lam:
+      long: Dungdung-aw
+      short: Dung.
+    Luke:
+      long: San Lucas
+    Mal:
+      short: Mlk.
+    Mark:
+      long: San Marcos
+    Matt:
+      long: San Mateo
+    Mic:
+      short: Mk.
+    Obad:
+      long: Obadias
+      short: Obd.
+    Phil:
+      long: Taga-Filipos
+    Phlm:
+      short: Filem.
+    Rev:
+      long: Paltiing
+      short: Pal.
+    Rom:
+      long: Taga-Roma
+    Song:
+      short: Kanta.

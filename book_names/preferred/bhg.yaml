@@ -1,0 +1,31 @@
+default:
+  1John:
+    long: 1 John
+  1Pet:
+    long: 1 Peter
+  2John:
+    long: 2 John
+  3John:
+    long: 3 John
+  Acts:
+    long: Iwata Ari
+    short: Iwata Ari
+  Eph:
+    long: Epesisi
+  Gal:
+    long: Galesia
+  Jas:
+    long: James
+  John:
+    long: John
+  Luke:
+    long: Luke
+    short: Luke
+  Mark:
+    long: Mark
+    short: Mark
+  Matt:
+    long: Matthew
+    short: Matthew
+  Phlm:
+    long: Philemon

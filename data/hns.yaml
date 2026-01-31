@@ -1,0 +1,113 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Aagam ke baat
+      - Aag
+  - osis: Matt
+    texts:
+      - Mateas
+      - Mt
+  - osis: Mark
+    texts:
+      - Markas
+      - Mr
+  - osis: Luke
+    texts:
+      - Loekaas
+      - Lk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Johaanas
+      - Jn
+  - osis: Acts
+    texts:
+      - Pathaawal Waalan
+      - Pa
+  - osis: Rom
+    texts:
+      - Roma
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korente
+      - Ko
+  - osis: Col
+    texts:
+      - Kolosa
+      - Kol
+  - osis: Gal
+    texts:
+      - Gaalaatsia
+      - Ga
+  - osis: Eph
+    texts:
+      - Efese
+      - Ef
+  - osis: Phil
+    texts:
+      - Fielepie
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaalonieka
+      - Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tiemotias
+      - Ti
+  - osis: Titus
+    texts:
+      - Tietas
+      - Tiet
+  - osis: Phlm
+    texts:
+      - Fielemon
+      - Flm
+  - osis: Heb
+    texts:
+      - Hebar log
+      - Heb
+  - osis: Jas
+    texts:
+      - Jaakobas
+      - Ja
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petras
+      - P
+  - osis: Jude
+    texts:
+      - Joedaas
+      - Joed
+translations:
+  - HNS

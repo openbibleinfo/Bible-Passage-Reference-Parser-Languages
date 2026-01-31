@@ -1,0 +1,304 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Hlimi
+      - Hli
+  - osis: Exod
+    texts:
+      - Nyinimi
+      - Nyi
+  - osis: Lev
+    texts:
+      - Sraʔa Farafɛɛ
+      - Sraʔa
+  - osis: Num
+    texts:
+      - Tonrimo
+      - Ton
+  - osis: Lam
+    texts:
+      - Nyugara Ŋuʔu
+      - Nyu
+  - osis: Rev
+    texts:
+      - Tyɛʔɛmɛ
+      - Tyɛ
+  - osis: Deut
+    texts:
+      - Ladomo Furu
+      - Lado
+  - osis: Josh
+    texts:
+      - Josuwe
+      - Jos
+  - osis: Judg
+    texts:
+      - Syɔfɛɛ
+      - Syɔ
+  - osis: Ruth
+    texts:
+      - Hruti
+      - Hru
+  - osis: Isa
+    texts:
+      - Esayi
+      - Esa
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samyɛli
+  - osis: 1Sam
+    texts:
+      - 1Sam
+  - osis: 2Sam
+    texts:
+      - 2Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Masaa
+  - osis: 1Kgs
+    texts:
+      - 1Mas
+  - osis: 2Kgs
+    texts:
+      - 2Mas
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Masaʔa Kaʔá
+  - osis: 1Chr
+    texts:
+      - 1Masa
+  - osis: 2Chr
+    texts:
+      - 2Masa
+  - osis: Ezra
+    texts:
+      - Ɛsidrasi
+      - Ɛsid
+  - osis: Neh
+    texts:
+      - Neʔemi
+      - Neʔe
+  - osis: Esth
+    texts:
+      - Ɛsitɛri
+      - Ɛsit
+  - osis: Job
+    texts:
+      - Jɔbi
+      - Jɔb
+  - osis: Prov
+    texts:
+      - Yomɛʔɛ
+      - Yom
+  - osis: Eccl
+    texts:
+      - Ticlimi
+      - Ticli
+  - osis: Song
+    texts:
+      - Ŋuru Ti Ŋuʔu
+      - Ŋùʔú
+  - osis: Ps
+    texts:
+      - Ŋuru
+  - osis: Jer
+    texts:
+      - Jeremi
+      - Jer
+  - osis: Ezek
+    texts:
+      - Esekyɛli
+      - Esek
+  - osis: Dan
+    texts:
+      - Danyɛli
+      - Dan
+  - osis: Hos
+    texts:
+      - Ose
+  - osis: Joel
+    texts:
+      - Jowɛli
+      - Jow
+  - osis: Amos
+    texts:
+      - Amosi
+      - Amo
+  - osis: Obad
+    texts:
+      - Abidyasi
+      - Abi
+  - osis: Jonah
+    texts:
+      - Jonasi
+      - Jon
+  - osis: Mic
+    texts:
+      - Misye
+      - Mis
+  - osis: Nah
+    texts:
+      - Nahumu
+      - Nah
+  - osis: Hab
+    texts:
+      - Abakuki
+      - Abak
+  - osis: Zeph
+    texts:
+      - Sofoni
+      - Sof
+  - osis: Hag
+    texts:
+      - Agije
+      - Agi
+  - osis: Zech
+    texts:
+      - Sakari
+      - Sak
+  - osis: Mal
+    texts:
+      - Malasyi
+      - Mal
+  - osis: Matt
+    texts:
+      - Matye
+      - Mat
+  - osis: Mark
+    texts:
+      - Marike
+      - Mar
+  - osis: Luke
+    texts:
+      - Luke
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Jan
+  - osis: 2John
+    texts:
+      - 2Jan
+  - osis: 3John
+    texts:
+      - 3 Jan
+      - 3Jan
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jan
+  - osis: Acts
+    texts:
+      - Pitunbee
+      - Pit
+  - osis: Rom
+    texts:
+      - Hrɔmu
+      - Hrɔm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korɛnte
+  - osis: 1Cor
+    texts:
+      - 1Kor
+  - osis: 2Cor
+    texts:
+      - 2Kor
+  - osis: Col
+    texts:
+      - Kɔlɔse
+      - Kɔl
+  - osis: Gal
+    texts:
+      - Galase
+      - Gal
+  - osis: Eph
+    texts:
+      - Efɛse
+      - Efɛ
+  - osis: Phil
+    texts:
+      - Filipe Kàʔà
+      - Fili
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonike
+  - osis: 1Thess
+    texts:
+      - 1Tes
+  - osis: 2Thess
+    texts:
+      - 2Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Tite
+  - osis: Phlm
+    texts:
+      - Filemo
+      - File
+  - osis: Heb
+    texts:
+      - Ebruyee
+      - Ebr
+  - osis: Jas
+    texts:
+      - Jake
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pyɛri
+  - osis: 1Pet
+    texts:
+      - 1Pyɛ
+  - osis: 2Pet
+    texts:
+      - 2Pyɛ
+  - osis: Jude
+    texts:
+      - Jude
+translations:
+  - TB10

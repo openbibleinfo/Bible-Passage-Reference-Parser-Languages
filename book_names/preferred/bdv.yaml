@@ -1,0 +1,172 @@
+default:
+  1Cor:
+    long: 1 କରିନ୍ଥୀୟ
+    short: ୧ କର
+  1John:
+    long: 1 ଯୋହନ୍
+    short: ୧ ଜହ
+  1Pet:
+    long: 1 ପିତର୍
+    short: ୧ ପିତ
+  1Thess:
+    long: 1 ଥେସଲନିକିୟ
+    short: ୧ ତେସ
+  1Tim:
+    long: 1 ତୀମଥି
+    short: ୧ ତିମ
+  2Cor:
+    long: 2 କରିନ୍ଥୀୟ
+    short: ୨ କର
+  2John:
+    long: 2 ଯୋହନ୍
+    short: ୨ ଜହ
+  2Pet:
+    long: 2 ପିତର୍
+    short: ୨ ପିତ
+  2Thess:
+    long: 2 ଥେସଲନିକିୟ
+    short: ୨ ତେସ
+  2Tim:
+    long: 2 ତୀମଥି
+    short: ୨ ତିମ
+  3John:
+    long: 3 ଯୋହନ୍
+    short: ୩ ଜହ
+  Acts:
+    long: ପେରିତ୍‌
+    short: ପେରି
+  Col:
+    long: କଲସି
+    short: କଲ
+  Eph:
+    long: ଏପିସିୟ
+    short: ଏପି
+  Gal:
+    long: ଗାଲାତିୟ
+    short: ଗାଲା
+  Heb:
+    long: ଏବ୍ରି
+    short: ଏବ୍ରି
+  Jas:
+    long: ଜାକୁବ
+    short: ଜାକୁ
+  John:
+    long: ଜହନ୍‌
+    short: ଜହ
+  Jude:
+    long: ଜିଉଦା
+    short: ଜିଉ
+  Luke:
+    long: ଲୁକ
+    short: ଲୁକ
+  Mark:
+    long: ମାର୍କ
+    short: ମାର୍କ
+  Matt:
+    long: ମାତିଉ
+    short: ମାତି
+  Phil:
+    long: ପିଲିପିୟ
+    short: ପିଲିପି
+  Phlm:
+    long: ପିଲିମନ୍
+    short: ପିଲିମ
+  Rev:
+    long: ପ୍ରକାଶିତ୍ ବାକ୍ୟ
+    short: ପ୍ରକା
+  Rom:
+    long: ରମିୟ
+    short: ରମି
+  Titus:
+    long: ତିତସ୍‌
+    short: ତିତ
+translations:
+  bdvnt:
+    1Cor:
+      short: ୧ କରି.
+    1John:
+      short: ୧ ଯୋହ.
+    1Pet:
+      short: ୧ ପିତ.
+    1Thess:
+      short: ୧ ଥେସ୍.
+    1Tim:
+      short: ୧ ତୀମ.
+    2Cor:
+      short: ୨ କ୍‍ରି.
+    2John:
+      short: ୨ ଯୋହ.
+    2Pet:
+      short: ୨ ପିତ.
+    2Thess:
+      short: ୨ ଥେସ୍.
+    2Tim:
+      short: ୨ ତୀମ.
+    3John:
+      short: ୩ ଯୋହ.
+    Acts:
+      long: ପ୍ରେରିତ
+      short: ପ୍ରେରି.
+    Col:
+      long: କଲସୀୟ
+      short: କଲ.
+    Eph:
+      long: ଏଫିସୀୟ
+      short: ଏଫି.
+    Gal:
+      long: ଗାଲାତୀୟ
+      short: ଗାଲା.
+    Heb:
+      long: ଏବ୍ରୀ
+      short: ଏବ୍ରୀ
+    Jas:
+      long: ଯାକୁବ
+      short: ଯାକୁ.
+    John:
+      long: ଯୋହନ୍
+      short: ଯୋହ.
+    Jude:
+      long: ଯିହୁଦି
+      short: ଯିହୁ.
+    Matt:
+      long: ମାଥିଉ
+      short: ମାଥି.
+    Phil:
+      long: ଫିଲିପ୍ପୀୟ
+      short: ଫିଲିପ୍ପ.
+    Phlm:
+      long: ଫିଲିମନ୍
+      short: ଫିଲି.
+    Rev:
+      short: ପ୍ରକା.
+    Rom:
+      long: ରୋମୀୟ
+      short: ରୋମୀ.
+    Titus:
+      long: ତୀତସ୍
+      short: ତୀତ.
+  ntbpl20:
+    1Cor:
+      long: ୧ କରନ୍ତି
+    1John:
+      long: ୧ ଜହନ୍‌
+    1Pet:
+      long: ୧ ପିତର୍‌
+    1Thess:
+      long: ୧ ତେସଲନିକି
+    1Tim:
+      long: ୧ ତିମତି
+    2Cor:
+      long: ୨ କରନ୍ତି
+    2John:
+      long: ୨ ଜହନ୍‌
+    2Pet:
+      long: ୨ ପିତର୍‌
+    2Thess:
+      long: ୨ ତେସଲନିକି
+    2Tim:
+      long: ୨ ତିମତି
+    3John:
+      long: ୩ ଜହନ୍‌
+    Rev:
+      long: ପ୍ରକାସିତ୍‌

@@ -1,0 +1,269 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Genesisi
+      - Gen.
+  - osis: Exod
+    texts:
+      - Eksodha
+      - Eks.
+  - osis: Lev
+    texts:
+      - Levh.
+      - Levhi
+  - osis: Num
+    texts:
+      - Mitengo
+      - Mit.
+  - osis: Lam
+    texts:
+      - Sidilo
+      - Sid.
+  - osis: Rev
+    texts:
+      - Mtuletelo
+      - Mtu.
+  - osis: Deut
+    texts:
+      - Dhewuteronome
+      - Dhewut.
+  - osis: Josh
+    texts:
+      - Joxuwa
+      - Jox.
+  - osis: Judg
+    texts:
+      - Valamuli
+      - Val.
+  - osis: Ruth
+    texts:
+      - Rut.
+      - Rute
+  - osis: Isa
+    texts:
+      - Isaya
+      - Isa.
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuwele
+      - Sam.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Vafumeli
+      - Vafu.
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Makronika
+      - Mak.
+  - osis: Ezra
+    texts:
+      - Ezr.
+      - Ezra
+  - osis: Neh
+    texts:
+      - Nehemiya
+      - Neh.
+  - osis: Esth
+    texts:
+      - Esteri
+      - Est.
+  - osis: Job
+    texts:
+      - Job.
+      - Jobe
+  - osis: Ps
+    texts:
+      - Masalmo
+      - Mas.
+  - osis: Prov
+    texts:
+      - Mavingu
+      - Mav.
+  - osis: Eccl
+    texts:
+      - Ekleziyaste
+      - Ekl.
+  - osis: Song
+    texts:
+      - Ndando ya Tindando
+      - Nda.
+  - osis: Jer
+    texts:
+      - Jeremiya
+      - Jer.
+  - osis: Ezek
+    texts:
+      - Ezekhiyele
+      - Eze.
+  - osis: Dan
+    texts:
+      - Dhaniyeli
+      - Dhan.
+  - osis: Hos
+    texts:
+      - Hoseya
+      - Hos.
+  - osis: Joel
+    texts:
+      - Joyeli
+      - Joy.
+  - osis: Amos
+    texts:
+      - Amosi
+      - Amo.
+  - osis: Obad
+    texts:
+      - Obhadhiya
+      - Obha.
+  - osis: Jonah
+    texts:
+      - Jon.
+      - Jona
+  - osis: Mic
+    texts:
+      - Mik.
+      - Mika
+  - osis: Nah
+    texts:
+      - Nahume
+      - Nah.
+  - osis: Hab
+    texts:
+      - Habhakuki
+      - Hab.
+  - osis: Zeph
+    texts:
+      - Zefaniya
+      - Zef.
+  - osis: Hag
+    texts:
+      - Hagayi
+      - Hag.
+  - osis: Zech
+    texts:
+      - Zakariya
+      - Zak.
+  - osis: Mal
+    texts:
+      - Malakiya
+      - Mal.
+  - osis: Matt
+    texts:
+      - Matewu
+      - Mat.
+  - osis: Mark
+    texts:
+      - Marku
+      - Mar.
+  - osis: Luke
+    texts:
+      - Luk.
+      - Luka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Johani
+      - Joh.
+  - osis: Acts
+    texts:
+      - Mithumo
+      - Mith.
+  - osis: Rom
+    texts:
+      - VaRoma
+      - VaR.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Vakorinto
+      - VaK.
+  - osis: Col
+    texts:
+      - Vakolosa
+      - Vakl.
+  - osis: Gal
+    texts:
+      - Vagalatiya
+      - VaG.
+  - osis: Eph
+    texts:
+      - Vaefesu
+      - Vaef.
+  - osis: Phil
+    texts:
+      - Vafilipiya
+      - VaF.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Vatesalonika
+      - Vat.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+      - Tim.
+  - osis: Titus
+    texts:
+      - Titosi
+      - Tit.
+  - osis: Phlm
+    texts:
+      - Filimoni
+      - Film.
+  - osis: Heb
+    texts:
+      - VaHebheru
+      - Vaheb.
+  - osis: Jas
+    texts:
+      - Jakobe
+      - Jak.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pedro
+      - Ped.
+  - osis: Jude
+    texts:
+      - Judha
+      - Jud.
+translations:
+  - BEC2016

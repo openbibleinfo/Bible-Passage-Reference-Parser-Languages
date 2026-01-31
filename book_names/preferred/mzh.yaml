@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Crón
+    short: 1 Crón
+  1Cor:
+    long: 1 Cor
+    short: 1 Cor
+  1John:
+    long: 1 Juan
+    short: 1 Juan
+  1Kgs:
+    long: 1 Rey
+    short: 1 Rey
+  1Pet:
+    long: 1 Ped
+    short: 1 Ped
+  1Sam:
+    long: 1 Sam
+    short: 1 Sam
+  1Thess:
+    long: 1 Tes
+    short: 1 Tes
+  1Tim:
+    long: 1 Tim
+    short: 1 Tim
+  2Chr:
+    long: 2 Crón
+    short: 2 Crón
+  2Cor:
+    long: 2 Cor
+    short: 2 Cor
+  2John:
+    long: 2 Juan
+    short: 2 Juan
+  2Kgs:
+    long: 2 Rey
+    short: 2 Rey
+  2Pet:
+    long: 2 Ped
+    short: 2 Ped
+  2Sam:
+    long: 2 Sam
+    short: 2 Sam
+  2Thess:
+    long: 2 Tes
+    short: 2 Tes
+  2Tim:
+    long: 2 Tim
+    short: 2 Tim
+  3John:
+    long: 3 Juan
+    short: 3 Juan
+  Acts:
+    long: Ap.Lh
+    short: Ap.Lh
+  Amos:
+    long: Amós
+    short: Amós
+  Col:
+    long: Col
+    short: Col
+  Dan:
+    long: Dan
+    short: Dan
+  Deut:
+    long: Deut
+    short: Deut
+  Eccl:
+    long: Ecles
+    short: Ecles
+  Eph:
+    long: Ef
+    short: Ef
+  Esth:
+    long: Ester
+    short: Ester
+  Exod:
+    long: Éx
+    short: Éx
+  Ezek:
+    long: Ezeq
+    short: Ezeq
+  Ezra:
+    long: Esdras
+    short: Esdras
+  Gal:
+    long: Gál
+    short: Gál
+  Gen:
+    long: Gén
+    short: Gén
+  Hab:
+    long: Hab
+    short: Hab
+  Hag:
+    long: Hag
+    short: Hag
+  Heb:
+    long: Heb
+    short: Heb
+  Hos:
+    long: Oseas
+    short: Oseas
+  Isa:
+    long: Isa
+    short: Isa
+  Jas:
+    long: Sant
+    short: Sant
+  Jer:
+    long: Jer
+    short: Jer
+  Job:
+    long: Job
+    short: Job
+  Joel:
+    long: Joel
+    short: Joel
+  John:
+    long: Juan
+    short: Juan
+  Jonah:
+    long: Jonás
+    short: Jonás
+  Josh:
+    long: Jos
+    short: Jos
+  Jude:
+    long: Judas
+    short: Judas
+  Judg:
+    long: Jue
+    short: Jue
+  Lam:
+    long: Lam
+    short: Lam
+  Lev:
+    long: Lev
+    short: Lev
+  Luke:
+    long: Luc
+    short: Luc
+  Mal:
+    long: Mal
+    short: Mal
+  Mark:
+    long: Mar
+    short: Mar
+  Matt:
+    long: Mat
+    short: Mat
+  Mic:
+    long: Miq
+    short: Miq
+  Nah:
+    long: Nahúm
+    short: Nahúm
+  Neh:
+    long: Neh
+    short: Neh
+  Num:
+    long: Núm
+    short: Núm
+  Obad:
+    long: Abd
+    short: Abd
+  Phil:
+    long: Fil
+    short: Fil
+  Phlm:
+    long: Film
+    short: Film
+  Prov:
+    long: Prov
+    short: Prov
+  Ps:
+    long: Salmo|Sal
+    short: Sal
+  Rev:
+    long: Apoc
+    short: Apoc
+  Rom:
+    long: Rom
+    short: Rom
+  Ruth:
+    long: Rut
+    short: Rut
+  Song:
+    long: Can
+    short: Can
+  Titus:
+    long: Tit
+    short: Tit
+  Zech:
+    long: Zac
+    short: Zac
+  Zeph:
+    long: Sof
+    short: Sof

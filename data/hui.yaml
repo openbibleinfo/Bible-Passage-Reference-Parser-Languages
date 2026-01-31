@@ -1,0 +1,302 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Pigane Binigo
+      - Pig
+  - osis: Exod
+    texts:
+      - Haru Penego
+      - Har
+  - osis: Lev
+    texts:
+      - Loma Binigo
+      - Lbm
+  - osis: Num
+    texts:
+      - Dagalenego
+      - Dag
+  - osis: Sir
+    texts:
+      - Siraga
+      - Sir
+  - osis: Lam
+    texts:
+      - Dugu
+      - Dug
+  - osis: Rev
+    texts:
+      - Mo Walia
+      - Mo
+  - osis: Deut
+    texts:
+      - Mana Loyane
+      - Man
+  - osis: Josh
+    texts:
+      - Yosua
+      - Yos
+  - osis: Judg
+    texts:
+      - Haguane Heneru
+      - Hgn
+  - osis: Ruth
+    texts:
+      - Ludi
+      - Lud
+  - osis: Isa
+    texts:
+      - Aisaia
+      - Ais
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuele
+      - Sml
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Kini
+      - Kin
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Bi Te
+      - Bit
+  - osis: Ezra
+    texts:
+      - Esera
+      - Esr
+  - osis: Neh
+    texts:
+      - Nehemaia
+      - Neh
+  - osis: Esth
+    texts:
+      - Nehemaia
+      - Esd
+  - osis: Job
+    texts:
+      - Yobo
+      - Yob
+  - osis: Ps
+    texts:
+      - Iba Gana
+      - Iba
+  - osis: Prov
+    texts:
+      - Mini Bayale Gigabi
+      - Min
+  - osis: Wis
+    texts:
+      - Gigabi
+      - Smg
+  - osis: Eccl
+    texts:
+      - Agali Mandabi Henegonaga Bi
+      - Aga
+  - osis: Song
+    texts:
+      - Solomono
+      - Sol
+  - osis: Jer
+    texts:
+      - Yaremaia
+      - Yar
+  - osis: Ezek
+    texts:
+      - Esegiele
+      - Ese
+  - osis: Dan
+    texts:
+      - Daniele
+      - Dan
+  - osis: Hos
+    texts:
+      - Hosea
+      - Hos
+  - osis: Joel
+    texts:
+      - Yoele
+      - Yol
+  - osis: Amos
+    texts:
+      - Amoso
+      - Amo
+  - osis: Obad
+    texts:
+      - Obadaia
+      - Oba
+  - osis: Jonah
+    texts:
+      - Yona
+      - Yna
+  - osis: Mic
+    texts:
+      - Maiga
+      - Mai
+  - osis: Nah
+    texts:
+      - Nahumu
+      - Nah
+  - osis: Hab
+    texts:
+      - Habagugu
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sebanaia
+      - Seb
+  - osis: Hag
+    texts:
+      - Hagai
+      - Hag
+  - osis: Zech
+    texts:
+      - Segaraia
+      - Seg
+  - osis: Mal
+    texts:
+      - Malagai
+      - Mal
+  - osis: Matt
+    texts:
+      - Madiu
+      - Md
+  - osis: Mark
+    texts:
+      - Maga
+      - Mg
+  - osis: Luke
+    texts:
+      - Lugu
+      - Lg
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yone
+      - Yo
+  - osis: Acts
+    texts:
+      - Abosolo
+      - Ab
+  - osis: Rom
+    texts:
+      - Lomo
+      - Lm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korindi
+      - Ko
+  - osis: Col
+    texts:
+      - Kolosi
+      - Kl
+  - osis: Gal
+    texts:
+      - Galesia
+      - Ga
+  - osis: Eph
+    texts:
+      - Ebesa
+      - Eb
+  - osis: Phil
+    texts:
+      - Pilibai
+      - Pb
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonaiga
+      - Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timodi
+      - Ti
+  - osis: Titus
+    texts:
+      - Taidasa
+      - Ta
+  - osis: Phlm
+    texts:
+      - Pilimono
+      - Pm
+  - osis: Heb
+    texts:
+      - Hiburu
+      - Hi
+  - osis: Jas
+    texts:
+      - Yamese
+      - Ya
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pida
+      - Pi
+  - osis: Jude
+    texts:
+      - Yudi
+      - Yu
+  - osis: Tob
+    texts:
+      - Tobidi
+      - Tob
+  - osis: Jdt
+    texts:
+      - Yudidi
+      - Yud
+  - osis: Bar
+    texts:
+      - Barugu
+      - Bar
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+    texts:
+      - Magabi
+      - Mgb
+  - osis: EsthGr
+    texts:
+      - Eseda Girigi
+      - EsG
+translations:
+  - HUI
+  - HULIDC

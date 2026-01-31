@@ -1,0 +1,136 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - "'Dhɛbhowunta 'sëëdhɛ"
+      - "'Dhɛb"
+  - osis: Ruth
+    texts:
+      - Wrúfè
+      - Wrú
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Sámìɔ̀
+      - Sámì
+  - osis: Matt
+    texts:
+      - Matiö
+      - Mat
+  - osis: Mark
+    texts:
+      - Maakö
+      - Maak
+  - osis: Luke
+    texts:
+      - Lukö
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Zan
+  - osis: Acts
+    texts:
+      - Këyuö ‑nu
+      - Këyu
+  - osis: Rom
+    texts:
+      - Wlɔmë
+      - Wlɔ
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Kolɛntö
+      - Kolɛ
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kolɛntö
+  - osis: 2Cor
+    texts:
+      - 2Kolɛ
+  - osis: Col
+    texts:
+      - Kolɔsö
+      - Kolɔ
+  - osis: Gal
+    texts:
+      - Galatö
+      - Gal
+  - osis: Eph
+    texts:
+      - Efɛzö
+      - Efɛ
+  - osis: Phil
+    texts:
+      - Filipö
+      - Fili
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Tesalɔnikö
+  - osis: 1Thess
+    texts:
+      - 1Tes
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalɔnikö
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+      - Tim
+  - osis: Titus
+    texts:
+      - Titö
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemɔ
+      - File
+  - osis: Heb
+    texts:
+      - Eblö
+      - Ebl
+  - osis: Jas
+    texts:
+      - Zakö
+      - Zak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piɛɛ
+      - Piɛ
+  - osis: Jude
+    texts:
+      - Zudë
+translations:
+  - DHB
+  - DNJBL

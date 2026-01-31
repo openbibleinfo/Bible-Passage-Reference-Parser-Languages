@@ -1,0 +1,258 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - ஆதியாகமம்
+      - ஆதி
+  - osis: Exod
+    texts:
+      - யாத்ராகமம்
+      - யாத்
+  - osis: Lev
+    texts:
+      - லேவியராகமம்
+      - லேவி
+  - osis: Num
+    texts:
+      - ஸங்க்²யாகமம்
+      - ஸங்க்
+  - osis: Lam
+    texts:
+      - ரொட்னி
+  - osis: Rev
+    texts:
+      - தர்ஸன புஸ்தவ்
+      - தர்ஸன
+  - osis: Deut
+    texts:
+      - உபாகமம்
+      - உபா
+  - osis: Josh
+    texts:
+      - யோசுவா
+      - யோசு
+  - osis: Judg
+    texts:
+      - நியாயாதிபதின்
+      - நியா
+  - osis: Ruth
+    texts:
+      - ரூத்
+  - osis: Isa
+    texts:
+      - ஏசாயா
+      - ஏசா
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - சாமுயேல்
+      - சாமு
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - ரஜான்
+      - ரஜா
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - சரித்ரு
+      - சரி
+  - osis: Ezra
+    texts:
+      - எஸ்ரா
+  - osis: Neh
+    texts:
+      - நெகேமியா
+      - நெகே
+  - osis: Esth
+    texts:
+      - எஸ்தர்
+      - எஸ்
+  - osis: Job
+    texts:
+      - யோபு
+  - osis: Ps
+    texts:
+      - ஸங்கீதுன்
+      - ஸங்
+  - osis: Prov
+    texts:
+      - நீதி வத்தான்
+      - நீதி
+  - osis: Eccl
+    texts:
+      - பிரஸங்கி
+      - பிர
+  - osis: Song
+    texts:
+      - உன்னத கீத்
+      - உன்
+  - osis: Jer
+    texts:
+      - எரேமியா
+      - எரே
+  - osis: Ezek
+    texts:
+      - எசேக்கியேல்
+      - எசே
+  - osis: Dan
+    texts:
+      - தானியேல்
+      - தானி
+  - osis: Hos
+    texts:
+      - ஓசியா
+      - ஓசி
+  - osis: Joel
+    texts:
+      - யோயேல்
+  - osis: Amos
+    texts:
+      - ஆமோஸ்
+      - ஆமோ
+  - osis: Obad
+    texts:
+      - ஒபதியா
+      - ஒப
+  - osis: Jonah
+    texts:
+      - யோனா
+  - osis: Mic
+    texts:
+      - மீகா
+  - osis: Nah
+    texts:
+      - நாகூம்
+      - நாகூ
+  - osis: Hab
+    texts:
+      - ஆபகூக்
+      - ஆப
+  - osis: Zeph
+    texts:
+      - செப்பனியா
+      - செப்
+  - osis: Hag
+    texts:
+      - ஆகாய்
+      - ஆகா
+  - osis: Zech
+    texts:
+      - சகரியா
+      - சக
+  - osis: Mal
+    texts:
+      - மல்கியா
+      - மல்
+  - osis: Matt
+    texts:
+      - மத்தேயு
+      - மத்
+  - osis: Mark
+    texts:
+      - மாற்கு
+  - osis: Luke
+    texts:
+      - லூக்கா
+      - லூக்
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - யோவான்
+      - யோவா
+  - osis: Acts
+    texts:
+      - அப்போஸ்தலர்
+      - அப்
+  - osis: Rom
+    texts:
+      - ரோமர்
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - கொரிந்தியர்
+      - கொரி
+  - osis: Col
+    texts:
+      - கொலோசெயர்
+      - கொலோ
+  - osis: Gal
+    texts:
+      - கலாத்தியர்
+      - கலா
+  - osis: Eph
+    texts:
+      - எபேசியர்
+      - எபே
+  - osis: Phil
+    texts:
+      - பிலிப்பியர்
+      - பிலி
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - தெசலோனிக்கேயர்
+      - தெச
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - தீமோத்தேயு
+      - தீமோ
+  - osis: Titus
+    texts:
+      - தீத்து
+      - தீத்
+  - osis: Phlm
+    texts:
+      - பிலேமோன்
+      - பிலே
+  - osis: Heb
+    texts:
+      - எபிரேயர்
+      - எபி
+  - osis: Jas
+    texts:
+      - யாக்கோபு
+      - யாக்
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - பேதுரு
+  - osis: Jude
+    texts:
+      - யூதா
+translations:
+  - SAUBSI

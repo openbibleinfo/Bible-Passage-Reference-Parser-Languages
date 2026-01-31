@@ -11,8 +11,10 @@ This repository contains the YAML to Javascript build pipeline for [Bible Passag
 - `src/`: TypeScript source for building language output.
 - `bin/compile.sh`: bundles `src/build_lang.ts` to `bin/build_lang.js`.
 - `bin/build_spec.js`: builds localized-book Jasmine specs from `book_names/all/`.
+- `bin/build_all_langs.js`: builds all languages in parallel and runs specs for each language.
 - `lang/`: generated output files (optional; regenerate as needed).
 - `book_names/all/`: generated book-name lists used to build tests.
+- `book_names/preferred/`: preferred display names (default + optional translation overrides).
 - `test/`: generated localized-book specs.
 
 ## Quick start
@@ -28,7 +30,7 @@ node bin/build_spec.js eng    # single language
 ```
 Build all languages:
 ```
-node bin/build_all_langs.js          # parallel build
+node bin/build_all_langs.js          # parallel build + specs + tests
 node bin/build_all_langs.js -j 4     # set worker count
 ```
 
@@ -88,11 +90,16 @@ variables:
 Common options (see `data/_defaults.yaml` for full list):
 - `normalize`: `combining_characters` (default) or `none`
 - `trailing_dots_in_variables`: `optional` or `as_is`
-- `expand_characters`: array of `{ character, expand: [ ... ] }` to allow alternates
+- `expand_characters`: array of `{ character, expand: [ ... ] }` to allow alternates anywhere that character appears in book names or variables. Example:
+  ```yaml
+  expand_characters:
+    - character: "'"
+      expand: ["'", "’"]
+  ```
 - `replace_characters_with`: `{ regexp, replacement }` (default converts spaces to `\s*`)
-- `before_book_allowed_characters`, `after_book_allowed_characters`
-- `before_every_book`, `after_every_book`
-- `join_before`, `join_after`
+- `before_book_allowed_characters`, `after_book_allowed_characters`: regex character classes used to enforce valid boundaries before/after a matched book name.
+- `before_every_book`, `after_every_book`: regex patterns inserted immediately before/after every book match. Use these to add language-specific required prefixes/suffixes around **all** books (rare). These are applied in addition to the before/after allowed character boundaries.
+- `join_before`, `join_after`: default join strings used when expanding `before`/`after` book patterns (for example the default space between an ordinal and the book name). Override to control whether the joiner is a space, empty string, punctuation, etc.
 
 ### books
 
@@ -245,6 +252,6 @@ Mappings used by tooling and for compatibility with the older abbreviations used
 
 ## Changelog
 
-January 31, 2026. Rework folder naming and add preferred book names from source data.
+January 31, 2026. Rework folder naming and include preferred book names from source data. Add an additional 2,100 languages from YouVersion data.
 
 January 29, 2026. First release.

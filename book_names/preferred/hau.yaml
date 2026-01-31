@@ -1,0 +1,324 @@
+default:
+  1Chr:
+    long: 1 Tarihi
+    short: 1Tar
+  1Cor:
+    long: 1 Korintiyawa
+    short: 1Kor
+  1John:
+    long: 1 Yohanna
+    short: 1Yoh
+  1Kgs:
+    long: 1 Sarakuna
+    short: 1Sar
+  1Pet:
+    long: 1 Bitrus
+    short: 1Bit
+  1Sam:
+    long: 1 Samaʼila
+    short: 1Sam
+  1Thess:
+    long: 1 Tessalonikawa
+    short: 1Tes
+  1Tim:
+    long: 1 Timoti
+    short: 1Tim
+  2Chr:
+    long: 2 Tarihi
+    short: 2Tar
+  2Cor:
+    long: 2 Korintiyawa
+    short: 2Kor
+  2John:
+    long: 2 Yohanna
+    short: 2Yoh
+  2Kgs:
+    long: 2 Sarakuna
+    short: 2Sar
+  2Pet:
+    long: 2 Bitrus
+    short: 2Bit
+  2Sam:
+    long: 2 Samaʼila
+    short: 2Sam
+  2Thess:
+    long: 2 Tessalonikawa
+    short: 2Tes
+  2Tim:
+    long: 2 Timoti
+    short: 2Tim
+  3John:
+    long: 3 Yohanna
+    short: 3Yoh
+  Acts:
+    long: A.M
+    short: Ayy M
+  Amos:
+    long: Amos
+    short: Amos
+  Col:
+    long: Kol
+    short: Kol
+  Dan:
+    long: Dan
+    short: Dan
+  Deut:
+    long: M.Sh
+    short: M Sh
+  Eccl:
+    long: M.Had
+    short: M Had
+  Eph:
+    long: Afi
+    short: Afi
+  Esth:
+    long: Esta
+    short: Esta
+  Exod:
+    long: Fit
+    short: Fit
+  Ezek:
+    long: Eze
+    short: Ezk
+  Ezra:
+    long: Ezra
+    short: Ezr
+  Gal:
+    long: Gal
+    short: Gal
+  Gen:
+    long: Far
+    short: Far
+  Hab:
+    long: Hab
+    short: Hab
+  Hag:
+    long: Hag
+    short: Hag
+  Heb:
+    long: Ibr
+    short: Ibr
+  Hos:
+    long: Hosiya
+    short: Hos
+  Isa:
+    long: Ish
+    short: Ish
+  Jas:
+    long: Yak
+    short: Yaƙ
+  Jer:
+    long: Irm
+    short: Irm
+  Job:
+    long: Ayu
+    short: Ayu
+  Joel:
+    long: Yow
+    short: Yow
+  John:
+    long: Yah
+    short: Yoh
+  Jonah:
+    long: Yun
+    short: Yun
+  Josh:
+    long: Josh
+    short: Yosh
+  Jude:
+    long: Yahu
+    short: Yah
+  Judg:
+    long: L.Mah
+    short: Mah
+  Lam:
+    long: Mak
+    short: Mak
+  Lev:
+    long: Firistoci
+    short: Fir
+  Luke:
+    long: Luk
+    short: Luk
+  Mal:
+    long: Mal
+    short: Mal
+  Mark:
+    long: Mar
+    short: Mar
+  Matt:
+    long: Mat
+    short: Mat
+  Mic:
+    long: Mika
+    short: MiK
+  Nah:
+    long: Nah
+    short: Nah
+  Neh:
+    long: Neh
+    short: Neh
+  Num:
+    long: L.Ƙid
+    short: Ƙid
+  Obad:
+    long: Oba
+    short: Oba
+  Phil:
+    long: Fili
+    short: Fil
+  Phlm:
+    long: Fil
+    short: Flm
+  Prov:
+    long: K.Mag
+    short: K Mag
+  Ps:
+    long: Zab
+    short: Zab
+  Rev:
+    long: Ruʼuya ta Yohanna
+    short: R Yoh
+  Rom:
+    long: Rom
+    short: Rom
+  Ruth:
+    long: Rut
+    short: Rut
+  Song:
+    long: W.W
+    short: Ww
+  Titus:
+    long: Tit
+    short: Tit
+  Zech:
+    long: Zak
+    short: Zak
+  Zeph:
+    long: Zaf
+    short: Zef
+translations:
+  hau:
+    1Chr:
+      long: 1Tar
+    1Cor:
+      long: 1Kor
+    1John:
+      long: 1Yah
+    1Kgs:
+      long: 1Sar
+    1Pet:
+      long: 1Bit
+    1Sam:
+      long: 1Sam
+    1Thess:
+      long: 1Tas
+    1Tim:
+      long: 1Tim
+    2Chr:
+      long: 2Tar
+    2Cor:
+      long: 2Kor
+    2John:
+      long: 2Yah
+    2Kgs:
+      long: 2Sar
+    2Pet:
+      long: 2Bit
+    2Sam:
+      long: 2Sam
+    2Thess:
+      long: 2Tas
+    2Tim:
+      long: 2Tim
+    3John:
+      long: 3Yah
+    Hos:
+      long: Yush
+    Lev:
+      long: L.Fir
+    Rev:
+      long: W.Yah
+  hcb:
+    Acts:
+      long: Ayyukan Manzanni
+    Col:
+      long: Kolossiyawa
+    Dan:
+      long: Daniyel
+    Deut:
+      long: Maimaitawar Shariʼa
+    Eccl:
+      long: Mai Hadishi
+    Eph:
+      long: Afisawa
+    Exod:
+      long: Fitowa
+    Ezek:
+      long: Ezekiyel
+    Gal:
+      long: Galatiyawa
+    Gen:
+      long: Farawa
+    Hab:
+      long: Habakkuk
+    Hag:
+      long: Haggai
+    Heb:
+      long: Ibraniyawa
+    Isa:
+      long: Ishaya
+    Jas:
+      long: Yaƙub
+    Jer:
+      long: Irmiya
+    Job:
+      long: Ayuba
+    Joel:
+      long: Yowel
+    John:
+      long: Yohanna
+    Jonah:
+      long: Yunana
+    Josh:
+      long: Yoshuwa
+    Jude:
+      long: Yahuda
+    Judg:
+      long: Mahukunta
+    Lam:
+      long: Makoki
+    Luke:
+      long: Luka
+    Mal:
+      long: Malaki
+    Mark:
+      long: Markus
+    Matt:
+      long: Mattiyu
+    Nah:
+      long: Nahum
+    Neh:
+      long: Nehemiya
+    Num:
+      long: Ƙidaya
+    Obad:
+      long: Obadiya
+    Phil:
+      long: Filibbiyawa
+    Phlm:
+      long: Filemon
+    Prov:
+      long: Karin Magana
+    Ps:
+      long: Zabura
+    Rom:
+      long: Romawa
+    Song:
+      long: Waƙar Waƙoƙi
+    Titus:
+      long: Titus
+    Zech:
+      long: Zakariya
+    Zeph:
+      long: Zefaniya

@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 Corinto
+    short: 1Co
+  1John:
+    long: 1 Juan
+    short: 1Jn
+  1Pet:
+    long: 1 Pedro
+    short: 1P
+  1Thess:
+    long: 1 Tesalónica
+    short: 1Te
+  1Tim:
+    long: 1 Timoteo
+    short: 1Ti
+  2Cor:
+    long: 2 Corinto
+    short: 2Co
+  2John:
+    long: 2 Juan
+    short: 2Jn
+  2Pet:
+    long: 2 Pedro
+    short: 2P
+  2Thess:
+    long: 2 Tesalónica
+    short: 2Te
+  2Tim:
+    long: 2 Timoteo
+    short: 2Ti
+  3John:
+    long: 3 Juan
+    short: 3Jn
+  Acts:
+    long: Aluwataaushikana
+    short: Alu
+  Col:
+    long: Colosas
+    short: Col
+  Eph:
+    long: Éfeso
+    short: Ef
+  Gal:
+    long: Galacia
+    short: Gal
+  Heb:
+    long: Hebreokana
+    short: Heb
+  Jas:
+    long: Santiago
+    short: Stg
+  John:
+    long: Juan
+    short: Jn
+  Jude:
+    long: Judas
+    short: Jud
+  Luke:
+    long: Lucas
+    short: Lc
+  Mark:
+    long: Marcos
+    short: Mr
+  Matt:
+    long: Mateo
+    short: Mt
+  Phil:
+    long: Filipos
+    short: Fil
+  Phlm:
+    long: Filemón
+    short: Flm
+  Rev:
+    long: Alateetkat Mapeena
+    short: Ala
+  Rom:
+    long: Roma
+    short: Rom
+  Titus:
+    long: Tito
+    short: Tit

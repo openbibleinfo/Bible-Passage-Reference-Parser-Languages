@@ -1,0 +1,112 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Wayu
+  - osis: Matt
+    texts:
+      - Matiyut
+      - Mat
+  - osis: Mark
+    texts:
+      - Marakut
+      - Mrk
+  - osis: Luke
+    texts:
+      - Lukat
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yaya
+      - Ya
+  - osis: Acts
+    texts:
+      - Nappiyareegerak
+      - Nap
+  - osis: Rom
+    texts:
+      - Oroma
+      - Oro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korindut
+      - Kor
+  - osis: Col
+    texts:
+      - Kolote
+      - Kol
+  - osis: Gal
+    texts:
+      - Nggalatiya
+      - Ngga
+  - osis: Eph
+    texts:
+      - Epetut
+      - Epet
+  - osis: Phil
+    texts:
+      - Pilipi
+      - Pili
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tetalonika
+      - Tet
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotiyut
+      - Tim
+  - osis: Titus
+    texts:
+      - Titut
+      - Tit
+  - osis: Phlm
+    texts:
+      - Pilemon
+      - Pile
+  - osis: Heb
+    texts:
+      - Iberani
+      - Iber
+  - osis: Jas
+    texts:
+      - Yakobut
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peterut
+      - Pet
+  - osis: Jude
+    texts:
+      - Yurat
+      - Yur
+translations:
+  - WNO

@@ -1,0 +1,112 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - தரிசன.
+      - தரிசன
+  - osis: Matt
+    texts:
+      - மத்தாயி
+  - osis: Mark
+    texts:
+      - மாற்கு.
+      - மாற்கு
+  - osis: Luke
+    texts:
+      - லூக்கா
+      - லூக்.
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - யோவானு.
+      - யோவானு
+  - osis: Acts
+    texts:
+      - அப்போஸ்தலம்மாரு
+      - அப்.
+  - osis: Rom
+    texts:
+      - ரோமாக்காரு
+      - ரோமா.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - கொரிந்தி
+      - கொரி.
+  - osis: Col
+    texts:
+      - கொலோசிக்காரு
+      - கொலோசி.
+  - osis: Gal
+    texts:
+      - கலாத்தி
+      - கலா.
+  - osis: Eph
+    texts:
+      - எபேசியம்மாரு
+      - எபேசி.
+  - osis: Phil
+    texts:
+      - பிலிப்பி
+      - பிலி.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - தெசலோனி
+      - தெச.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - திமோத்தி
+      - திமோ.
+  - osis: Titus
+    texts:
+      - தீத்து.
+      - தீத்து
+  - osis: Phlm
+    texts:
+      - பிலேமோனு
+      - பிலே.
+  - osis: Heb
+    texts:
+      - எபிரெயம்மாரு
+      - எபி.
+  - osis: Jas
+    texts:
+      - யாக்கோபு
+      - யாக்.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - பேதுரு.
+      - பேதுரு
+  - osis: Jude
+    texts:
+      - யூதா.
+      - யூதா
+translations:
+  - CMD

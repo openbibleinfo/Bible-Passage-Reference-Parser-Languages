@@ -1,0 +1,113 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Waxye
+      - Wax.
+  - osis: Matt
+    texts:
+      - Maatiyos
+      - Maat.
+  - osis: Mark
+    texts:
+      - Markos
+      - Mar.
+  - osis: Luke
+    texts:
+      - Luukas
+      - Luuk.
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohannis
+      - Yoh.
+  - osis: Acts
+    texts:
+      - Fartottit hi Abittot
+      - Fart.
+  - osis: Rom
+    texts:
+      - Room.
+      - Rooma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintos
+      - Kor.
+  - osis: Col
+    texts:
+      - Kolossay
+      - Kol.
+  - osis: Gal
+    texts:
+      - Galaatiya
+      - Gal.
+  - osis: Eph
+    texts:
+      - Efesos
+      - Efe.
+  - osis: Phil
+    texts:
+      - Filibbi
+      - Fil.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tessaloniike
+      - Tess.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteyos
+      - Tim.
+  - osis: Titus
+    texts:
+      - Tiitos
+      - Tiit.
+  - osis: Phlm
+    texts:
+      - Filmoon
+      - Flm.
+  - osis: Heb
+    texts:
+      - Cibraan
+      - Cib.
+  - osis: Jas
+    texts:
+      - Yacqoob
+      - Yac.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Bithroos
+      - Bith.
+  - osis: Jude
+    texts:
+      - Yahuuda
+      - Yaah.
+translations:
+  - SNT

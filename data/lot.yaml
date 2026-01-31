@@ -1,0 +1,163 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Etaleyehina
+      - Etal
+      - Eta
+  - osis: Matt
+    texts:
+      - Matteyo
+      - Mat
+      - Mt
+  - osis: Mark
+    texts:
+      - Marko
+      - Mar
+      - Mk
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+      - Lk
+  - osis: 1John
+    texts:
+      - 1Yoa
+  - osis: 2John
+    texts:
+      - 2Yoa
+  - osis: 3John
+    texts:
+      - 3 Yoane
+      - 3 Yn
+      - 3Yoa
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yoane
+      - Yn
+  - osis: John
+    texts:
+      - Yoane
+      - Yoa
+      - Yn
+  - osis: Acts
+    texts:
+      - Ehanita Lefahat
+      - Ehanita
+      - Ehan
+  - osis: Rom
+    texts:
+      - Roma
+      - Rom
+      - Ro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinto
+      - Kor
+  - osis: 1Cor
+    texts:
+      - 1Korinto
+      - 1Kor
+  - osis: 2Cor
+    texts:
+      - 2Korinto
+      - 2Kor
+  - osis: Col
+    texts:
+      - Kolose
+      - Kol
+  - osis: Gal
+    texts:
+      - Galasia
+      - Galatia
+      - Gal
+  - osis: Eph
+    texts:
+      - Efeso
+      - Efisa
+      - Efe
+      - Ef
+  - osis: Phil
+    texts:
+      - Filipi
+      - Filip
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonika
+      - Tes
+  - osis: 1Thess
+    texts:
+      - 1Tes
+  - osis: 2Thess
+    texts:
+      - 2Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteyo
+      - Timoteo
+      - Tim
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filimona
+      - Filimon
+      - Filim
+      - Fel
+  - osis: Heb
+    texts:
+      - Ebrei
+      - Eb
+  - osis: Jas
+    texts:
+      - Yakobo
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petro
+  - osis: 1Pet
+    texts:
+      - 1Pet
+  - osis: 2Pet
+    texts:
+      - 2Pet
+  - osis: Jude
+    texts:
+      - Yuda
+      - Yud
+translations:
+  - LOT1969
+  - EA2003

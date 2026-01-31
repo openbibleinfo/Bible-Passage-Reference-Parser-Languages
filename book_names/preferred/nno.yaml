@@ -1,0 +1,203 @@
+default:
+  1Chr:
+    long: 1. Krønikebok
+    short: 1 Krøn
+  1Cor:
+    long: 1. Korintar
+    short: 1 Kor
+  1John:
+    long: 1. Johannes
+    short: 1 Joh
+  1Kgs:
+    long: 1. Kongebok
+    short: 1 Kong
+  1Pet:
+    long: 1. Peter
+    short: 1 Pet
+  1Sam:
+    long: 1. Samuelsbok
+    short: 1 Sam
+  1Thess:
+    long: 1. Tessalonikar
+    short: 1 Tess
+  1Tim:
+    long: 1. Timoteus
+    short: 1 Tim
+  2Chr:
+    long: 2. Krønikebok
+    short: 2 Krøn
+  2Cor:
+    long: 2. Korintar
+    short: 2 Kor
+  2John:
+    long: 2. Johannes
+    short: 2 Joh
+  2Kgs:
+    long: 2. Kongebok
+    short: 2 Kong
+  2Pet:
+    long: 2. Peter
+    short: 2 Pet
+  2Sam:
+    long: 2. Samuelsbok
+    short: 2 Sam
+  2Thess:
+    long: 2. Tessalonikar
+    short: 2 Tess
+  2Tim:
+    long: 2. Timoteus
+    short: 2 Tim
+  3John:
+    long: 3. Johannes
+    short: 3 Joh
+  Acts:
+    long: Apostelgjerningane
+    short: Apg
+  Amos:
+    long: Amos
+    short: Am
+  Col:
+    long: Kolossarane
+    short: Kol
+  Dan:
+    long: Daniel
+    short: Dan
+  Deut:
+    long: 5. Mosebok
+    short: 5 Mos
+  Eccl:
+    long: Forkynnaren
+    short: Fork
+  Eph:
+    long: Efesarane
+    short: Ef
+  Esth:
+    long: Ester
+    short: Est
+  Exod:
+    long: 2. Mosebok
+    short: 2 Mos
+  Ezek:
+    long: Esekiel
+    short: Esek
+  Ezra:
+    long: Esra
+    short: Esra
+  Gal:
+    long: Galatarane
+    short: Gal
+  Gen:
+    long: 1. Mosebok
+    short: 1 Mos
+  Hab:
+    long: Habakkuk
+    short: Hab
+  Hag:
+    long: Haggai
+    short: Hag
+  Heb:
+    long: Hebrearane
+    short: Hebr
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Jesaja
+    short: Jes
+  Jas:
+    long: Jakob
+    short: Jak
+  Jer:
+    long: Jeremia
+    short: Jer
+  Job:
+    long: Job
+    short: Job
+  Joel:
+    long: Joel
+    short: Joel
+  John:
+    long: Johannes
+    short: Joh
+  Jonah:
+    long: Jona
+    short: Jona
+  Josh:
+    long: Josva
+    short: Jos
+  Jude:
+    long: Judas
+    short: Jud
+  Judg:
+    long: Dommarane
+    short: Dom
+  Lam:
+    long: Klagesongane
+    short: Klag
+  Lev:
+    long: 3. Mosebok
+    short: 3 Mos
+  Luke:
+    long: Lukas
+    short: Luk
+  Mal:
+    long: Malaki
+    short: Mal
+  Mark:
+    long: Markus
+    short: Mark
+  Matt:
+    long: Matteus
+    short: Matt
+  Mic:
+    long: Mika
+    short: Mi
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nehemja
+    short: Neh
+  Num:
+    long: 4. Mosebok
+    short: 4 Mos
+  Obad:
+    long: Obadja
+    short: Ob
+  Phil:
+    long: Filipparane
+    short: Fil
+  Phlm:
+    long: Filemon
+    short: Filem
+  Prov:
+    long: Ordtaka
+    short: Ordt
+  Ps:
+    long: Salmane
+    short: Sal
+  Rev:
+    long: Johannes' openberring
+    short: Op
+  Rom:
+    long: Romarane
+    short: Rom
+  Ruth:
+    long: Rut
+    short: Rut
+  Song:
+    long: Høgsongen
+    short: Høgs
+  Titus:
+    long: Titus
+    short: Tit
+  Zech:
+    long: Sakarja
+    short: Sak
+  Zeph:
+    long: Sefanja
+    short: Sef
+translations:
+  no1938nn:
+    Judg:
+      long: Domarane

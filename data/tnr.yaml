@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Ofëɗ
+  - osis: Matt
+    texts:
+      - Macë
+  - osis: Mark
+    texts:
+      - Mark
+  - osis: Luke
+    texts:
+      - Lük
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Ŝaŋ
+  - osis: Acts
+    texts:
+      - Ɓon
+  - osis: Rom
+    texts:
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korent
+  - osis: Col
+    texts:
+      - Kolos
+  - osis: Gal
+    texts:
+      - Galati
+  - osis: Eph
+    texts:
+      - Éfes
+  - osis: Phil
+    texts:
+      - Filip
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tim
+  - osis: Titus
+    texts:
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filé
+  - osis: Heb
+    texts:
+      - Ébërë
+  - osis: Jas
+    texts:
+      - Ŝak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piy
+  - osis: Jude
+    texts:
+      - Ŝüd
+translations:
+  - TNR

@@ -1,0 +1,116 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - "'Kwla'mʋ'yeecrɩɩnɩɛ"
+      - "'Kwla"
+  - osis: Matt
+    texts:
+      - Matie
+      - Mat
+  - osis: Mark
+    texts:
+      - Makɩ
+      - Mak
+  - osis: Luke
+    texts:
+      - Luku
+      - Luk
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Saan
+      - Sa
+  - osis: John
+    texts:
+      - Saan
+      - San
+  - osis: Acts
+    texts:
+      - Nunu‑tɔplɩ
+      - Nun
+  - osis: Rom
+    texts:
+      - Rɔmʋkʋɛ
+      - Rɔm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kolɛtɩkʋɛ
+      - Ko
+  - osis: Col
+    texts:
+      - Kolɔsɩkʋɛ
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatɩkʋɛ
+      - Gal
+  - osis: Eph
+    texts:
+      - Efɛsɩkʋɛ
+      - Ef
+  - osis: Phil
+    texts:
+      - Filipʋkʋɛ
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonikɩkʋɛ
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+      - Tim
+  - osis: Titus
+    texts:
+      - Titɩ
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemɔ
+      - Flm
+  - osis: Heb
+    texts:
+      - Hebrekʋɛ
+      - Heb
+  - osis: Jas
+    texts:
+      - Sakɩ
+      - Sak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piɛlɩ
+      - Pi
+  - osis: Jude
+    texts:
+      - Judɩ
+      - Jud
+translations:
+  - TED

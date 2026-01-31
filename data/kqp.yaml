@@ -1,0 +1,107 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Pelal wo jô Ja
+      - Pel
+  - osis: Matt
+    texts:
+      - Matiyé
+      - Mt
+  - osis: Mark
+    texts:
+      - Mark
+      - Mk
+  - osis: Luke
+    texts:
+      - Luk
+      - Lk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Ja
+  - osis: Acts
+    texts:
+      - Jé lê bay jé
+  - osis: Rom
+    texts:
+      - Rômê
+      - Rôm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kworêntiɲê
+  - osis: Col
+    texts:
+      - Kwolosiɲê
+      - Kwol
+  - osis: Gal
+    texts:
+      - Galat
+      - Gal
+  - osis: Eph
+    texts:
+      - Epêsiɲê
+      - Epês
+  - osis: Phil
+    texts:
+      - Pilipiɲê
+      - Pil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tésalonisiɲê
+      - Tésa
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoté
+      - Tim
+  - osis: Titus
+    texts:
+      - Tit
+  - osis: Phlm
+    texts:
+      - Pilémô
+      - Plm
+  - osis: Heb
+    texts:
+      - Hébre
+      - Héb
+  - osis: Jas
+    texts:
+      - Jak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piyêr
+      - Piy
+  - osis: Jude
+    texts:
+      - Jud
+translations:
+  - KQPNT

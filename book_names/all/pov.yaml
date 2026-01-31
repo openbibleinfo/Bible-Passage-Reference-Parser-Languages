@@ -1,0 +1,287 @@
+- osis: Gen
+  texts:
+    - Kumsada
+    - Kum
+- osis: Exod
+  texts:
+    - Saida
+    - Sai
+- osis: Lev
+  texts:
+    - Sirmonias
+    - Sir
+- osis: Num
+  texts:
+    - Numerus
+    - Num
+- osis: Lam
+  texts:
+    - Miskiñu di Jeremias
+    - Mis
+- osis: Rev
+  texts:
+    - Apokalipsi
+    - Apok
+- osis: Deut
+  texts:
+    - Ripitison di Lei
+    - Lei
+- osis: Josh
+  texts:
+    - Josué
+    - Jos
+- osis: Judg
+  texts:
+    - Ŝefis
+    - Ŝef
+- osis: Ruth
+  texts:
+    - Ruti
+    - Rut
+- osis: Isa
+  texts:
+    - Isaias
+    - Is
+- osis: 1Sam
+  texts:
+    - 1 Samuel
+    - 1 Sam
+    - 1. Samuel
+    - 1. Sam
+- osis: 2Sam
+  texts:
+    - 2 Samuel
+    - 2 Sam
+    - 2. Samuel
+    - 2. Sam
+- osis: 1Kgs
+  texts:
+    - 1 Reis
+    - 1 Re
+    - 1. Reis
+    - 1. Re
+- osis: 2Kgs
+  texts:
+    - 2 Reis
+    - 2 Re
+    - 2. Reis
+    - 2. Re
+- osis: 1Chr
+  texts:
+    - 1 Kronikas
+    - 1 Kron
+    - 1. Kronikas
+    - 1. Kron
+- osis: 2Chr
+  texts:
+    - 2 Kronikas
+    - 2 Kron
+    - 2. Kronikas
+    - 2. Kron
+- osis: Ezra
+  texts:
+    - Esdras
+    - Esd
+- osis: Neh
+  texts:
+    - Neemias
+    - Ne
+- osis: Esth
+  texts:
+    - Ester
+    - Est
+- osis: Job
+  texts:
+    - Jo
+- osis: Ps
+  texts:
+    - Salmus
+    - Sal
+- osis: Prov
+  texts:
+    - Ditus
+    - Dit
+- osis: Eccl
+  texts:
+    - Eklesiastis
+    - Ekl
+- osis: Song
+  texts:
+    - Kantiga di Salomon
+    - Kan
+- osis: Jer
+  texts:
+    - Jeremias
+    - Jer
+- osis: Ezek
+  texts:
+    - Ezekiel
+    - Ez
+- osis: Dan
+  texts:
+    - Daniel
+    - Dan
+- osis: Hos
+  texts:
+    - Oseias
+    - Os
+- osis: Joel
+  texts:
+    - Joel
+    - Joe
+- osis: Amos
+  texts:
+    - Amos
+    - Am
+- osis: Obad
+  texts:
+    - Obadias
+    - Ob
+- osis: Jonah
+  texts:
+    - Jonas
+    - Jona
+- osis: Mic
+  texts:
+    - Mikeias
+    - MiK
+- osis: Nah
+  texts:
+    - Naun
+- osis: Hab
+  texts:
+    - Abakuk
+    - Ab
+- osis: Zeph
+  texts:
+    - Sofonias
+    - Sof
+- osis: Hag
+  texts:
+    - Aẑeu
+- osis: Zech
+  texts:
+    - Zakarias
+    - Zak
+- osis: Mal
+  texts:
+    - Malakias
+    - Mal
+- osis: Matt
+  texts:
+    - Mateus
+    - Mat
+- osis: Mark
+  texts:
+    - Markus
+    - Mar
+- osis: Luke
+  texts:
+    - Lukas
+    - Luk
+- osis: 1John
+  texts:
+    - 1 Jon
+    - 1. Jon
+- osis: 2John
+  texts:
+    - 2 Jon
+    - 2. Jon
+- osis: 3John
+  texts:
+    - 3 Jon
+    - 3. Jon
+- osis: John
+  texts:
+    - Jon
+- osis: Acts
+  texts:
+    - Atus
+    - At
+- osis: Rom
+  texts:
+    - Romanus
+    - Rom
+- osis: 1Cor
+  texts:
+    - 1 Koríntius
+    - 1 Kor
+    - 1. Koríntius
+    - 1. Kor
+- osis: 2Cor
+  texts:
+    - 2 Koríntius
+    - 2 Kor
+    - 2. Koríntius
+    - 2. Kor
+- osis: Col
+  texts:
+    - Kolosensis
+    - Kol
+- osis: Gal
+  texts:
+    - Gálatas
+    - Gal
+- osis: Eph
+  texts:
+    - Efésius
+    - Ef
+- osis: Phil
+  texts:
+    - Filipensis
+    - Fil
+- osis: 1Thess
+  texts:
+    - 1 Tesalonisensis
+    - 1 Tes
+    - 1. Tesalonisensis
+    - 1. Tes
+- osis: 2Thess
+  texts:
+    - 2 Tesalonisensis
+    - 2 Tes
+    - 2. Tesalonisensis
+    - 2. Tes
+- osis: 1Tim
+  texts:
+    - 1 Timótiu
+    - 1 Tim
+    - 1. Timótiu
+    - 1. Tim
+- osis: 2Tim
+  texts:
+    - 2 Timótiu
+    - 2 Tim
+    - 2. Timótiu
+    - 2. Tim
+- osis: Titus
+  texts:
+    - Titu
+- osis: Phlm
+  texts:
+    - Filemon
+    - Filem
+- osis: Heb
+  texts:
+    - Ebreus
+    - Eb
+- osis: Jas
+  texts:
+    - Tiagu
+    - Tia
+- osis: 1Pet
+  texts:
+    - 1 Pedru
+    - 1 Ped
+    - 1. Pedru
+    - 1. Ped
+- osis: 2Pet
+  texts:
+    - 2 Pedru
+    - 2 Ped
+    - 2. Pedru
+    - 2. Ped
+- osis: Jude
+  texts:
+    - Judas
+    - Jud

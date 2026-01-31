@@ -1,0 +1,263 @@
+default:
+  1Chr:
+    long: 1 Aisiitonokin
+    short: 1 Siit
+  1Cor:
+    long: 1 Ikorinton
+    short: 1 Ikor
+  1John:
+    long: 1 Yoana
+    short: 1 Yoa
+  1Kgs:
+    long: 1 Ikabakan
+    short: 1 Ika
+  1Pet:
+    long: 1 Petero
+    short: 1 Pet
+  1Sam:
+    long: 1 Samuel
+    short: 1 Sam
+  1Thess:
+    long: 1 Isesalonikan
+    short: 1 Itesa
+  1Tim:
+    long: 1 Timoteo
+    short: 1 Tim
+  2Chr:
+    long: 2 Aisiltonokin
+    short: 2 Siit
+  2Cor:
+    long: 2 Ikorinton
+    short: 2 Ikor
+  2John:
+    long: 2 Yoana
+    short: 2 Yoa
+  2Kgs:
+    long: 2 Ikabakan
+    short: 2 Ika
+  2Pet:
+    long: 2 Petero
+    short: 2 Pet
+  2Sam:
+    long: 2 Samuel
+    short: 2 Sam
+  2Thess:
+    long: 2 Isesalonikan
+    short: 2 Itesa
+  2Tim:
+    long: 2 Timoteo
+    short: 2 Tim
+  3John:
+    long: 3 Yoana
+    short: 3 Yoa
+  Acts:
+    long: Asom
+    short: Asom
+  Amos:
+    long: Amos
+    short: Amo
+  Col:
+    long: Ikolosain
+    short: Ikol
+  Dan:
+    long: Daniel
+    short: Dan
+  Deut:
+    long: Ikisila
+    short: Ikis
+  Eccl:
+    long: Ekalimonokinan
+    short: Lim
+  Eph:
+    long: Ipeson
+    short: Ipes
+  Esth:
+    long: Esita
+    short: Est
+  Exod:
+    long: Anyoun
+    short: Any
+  Ezek:
+    long: Esekiel
+    short: Esk
+  Ezra:
+    long: Esera
+    short: Esr
+  Gal:
+    long: Igalatian
+    short: Gal
+  Gen:
+    long: Ageun
+    short: Age
+  Hab:
+    long: Kabakuk
+    short: Kbk
+  Hag:
+    long: Kagai
+    short: Kag
+  Heb:
+    long: Iburanian
+    short: Bur
+  Hos:
+    long: Kosea
+    short: Kos
+  Isa:
+    long: Isaia
+    short: Isa
+  Jas:
+    long: Yakob
+    short: Yak
+  Jer:
+    long: Yeremia
+    short: Yer
+  Job:
+    long: Yob
+    short: Yob
+  Joel:
+    long: Yoel
+    short: Yoe
+  John:
+    long: Yoana
+    short: Yoa
+  Jonah:
+    long: Yon
+    short: Yon
+  Josh:
+    long: Yosua
+    short: Yos
+  Jude:
+    long: Yuda
+    short: Yud
+  Judg:
+    long: Ikatubok
+    short: Tub
+  Lam:
+    long: Akuudian
+    short: Aku
+  Lev:
+    long: Ilebin
+    short: Leb
+  Luke:
+    long: Luka
+    short: Luk
+  Mal:
+    long: Malaki
+    short: Mal
+  Mark:
+    long: Marako
+    short: Mar
+  Matt:
+    long: Matayo
+    short: Mat
+  Mic:
+    long: Mika
+    short: MiK
+  Nah:
+    long: Nakum
+    short: Nak
+  Neh:
+    long: Nekemia
+    short: Nek
+  Num:
+    long: Aimario
+    short: Mar
+  Obad:
+    long: Obadia
+    short: Oba
+  Phil:
+    long: Ipilipin
+    short: Ipil
+  Phlm:
+    long: Filemon
+    short: Fil
+  Prov:
+    long: Awaragasia
+    short: Awa
+  Ps:
+    long: Isabulin
+    short: Isab
+  Rev:
+    long: Apukokinio
+    short: Apu
+  Rom:
+    long: Iromayon
+    short: Rom
+  Ruth:
+    long: Rusi
+    short: Rus
+  Song:
+    long: Ekosio
+    short: Eko
+  Titus:
+    long: Tito
+    short: Tit
+  Zech:
+    long: Sekaria
+    short: Sek
+  Zeph:
+    long: Sepania
+    short: Sep
+translations:
+  aov1961:
+    1Cor:
+      short: 1 Kor
+    1John:
+      long: 1 Yokana
+      short: 1 Yok
+    1Thess:
+      short: 1 Ses
+    2Cor:
+      short: 2 Kor
+    2John:
+      long: 2 Yokana
+      short: 2 Yok
+    2Thess:
+      short: 2 Ses
+    3John:
+      long: 3 Yokana
+      short: 3 Yok
+    Acts:
+      long: Aswamisio
+      short: Asw
+    Col:
+      short: Kol
+    Eph:
+      short: Pes
+    John:
+      long: Yokana
+      short: Yok
+    Mark:
+      short: Mk
+    Phil:
+      short: Pil
+    Phlm:
+      long: Pilemon
+      short: Plm
+    Ps:
+      short: Sab
+  tesop:
+    1Thess:
+      long: 1 Itesalonikan
+    1Tim:
+      long: 1 Timoti
+    2Thess:
+      long: 2 Itesalonikan
+    2Tim:
+      long: 2 Timoti
+    Col:
+      long: Ikolosayon
+    Gal:
+      short: iGal
+    Heb:
+      long: Iburayon
+      short: Ibur
+    Jas:
+      long: Yakobo
+    Mark:
+      long: Mariko
+    Prov:
+      short: Awar
+    Rev:
+      short: Apuk
+    Rom:
+      short: iRom

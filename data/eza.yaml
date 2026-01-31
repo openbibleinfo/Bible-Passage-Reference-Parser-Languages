@@ -1,0 +1,268 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Mbụlembu
+      - Mbụ.
+  - osis: Exod
+    texts:
+      - Awụfu
+      - Awụ.
+  - osis: Lev
+    texts:
+      - Livitikọsu
+      - Liv.
+  - osis: Num
+    texts:
+      - Ọ́gú
+  - osis: Lam
+    texts:
+      - Egvu-Áwhụ
+      - Áwhụ.
+  - osis: Rev
+    texts:
+      - Ọwhulenya
+      - Ọwhu.
+  - osis: Deut
+    texts:
+      - Ditoronomi
+      - Dit.
+  - osis: Josh
+    texts:
+      - Jóshuwa
+      - Jósh.
+  - osis: Judg
+    texts:
+      - Ndu Ikpe
+      - Ikpe.
+  - osis: Ruth
+    texts:
+      - Rut.
+      - Rutu
+  - osis: Isa
+    texts:
+      - Ayizáya
+      - Aza.
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Sámuwẹlu
+      - Sám.
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Iwhe e meru l'oge ndu eze
+      - Iwhe.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Ndu Eze
+      - Eze.
+  - osis: Ezra
+    texts:
+      - Ẹzura
+      - Ẹzu.
+  - osis: Neh
+    texts:
+      - Nehemaya
+      - Neh.
+  - osis: Esth
+    texts:
+      - Ẹsuta
+      - Ẹsu.
+  - osis: Job
+    texts:
+      - Job.
+      - Jobu
+  - osis: Ps
+    texts:
+      - Egvu-Ọma
+      - Egvu.
+  - osis: Prov
+    texts:
+      - Ẹtu
+  - osis: Eccl
+    texts:
+      - O-zhi-iwhe
+      - O-zhi.
+  - osis: Song
+    texts:
+      - Egvu Sólomọnu
+      - Sól.
+  - osis: Jer
+    texts:
+      - Jeremáya
+      - Jer.
+  - osis: Ezek
+    texts:
+      - Izikẹlu
+      - Izk.
+  - osis: Dan
+    texts:
+      - Daníyelu
+      - Dan.
+  - osis: Hos
+    texts:
+      - Hosíya
+      - Hos.
+  - osis: Joel
+    texts:
+      - Jowelu
+      - Jow.
+  - osis: Amos
+    texts:
+      - Émọsu
+      - Émọ.
+  - osis: Obad
+    texts:
+      - Obedaya
+      - Obe.
+  - osis: Jonah
+    texts:
+      - Jona
+  - osis: Mic
+    texts:
+      - Mayịka
+      - May.
+  - osis: Nah
+    texts:
+      - Néhumu
+      - Hụm.
+  - osis: Hab
+    texts:
+      - Habakuku
+      - Hab.
+  - osis: Zeph
+    texts:
+      - Zéfanaya
+      - Zéf.
+  - osis: Hag
+    texts:
+      - Hágayi
+      - Hág.
+  - osis: Zech
+    texts:
+      - Zakaráya
+      - Zak.
+  - osis: Mal
+    texts:
+      - Malakayi
+      - Mal.
+  - osis: Matt
+    texts:
+      - Mátiyu
+      - Mát.
+  - osis: Mark
+    texts:
+      - Mak.
+      - Makụ
+  - osis: Luke
+    texts:
+      - Luk.
+      - Luku
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jọn.
+      - Jọnu
+  - osis: Acts
+    texts:
+      - Ozhi ndu ishi-ozhi
+      - Ndu.
+  - osis: Rom
+    texts:
+      - Rom.
+      - Romu
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kọ́rintu
+      - Kọ́r.
+  - osis: Col
+    texts:
+      - Kọlósi
+      - Kọl.
+  - osis: Gal
+    texts:
+      - Galéshiya
+      - Gal.
+  - osis: Eph
+    texts:
+      - Éfesọsu
+      - Éfe.
+  - osis: Phil
+    texts:
+      - Fílipayi
+      - Fíl.
+  - osis: 1Thess
+    texts:
+      - 1Tesalonáyika
+      - 1Tes.
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonáyika
+      - Tes.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tímoti
+      - Tím.
+  - osis: Titus
+    texts:
+      - Táyitọsu
+      - Tit.
+  - osis: Phlm
+    texts:
+      - Fayilímọnu
+      - Fay.
+  - osis: Heb
+    texts:
+      - Híburu
+      - Híb.
+  - osis: Jas
+    texts:
+      - Jémusu
+      - Jém.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pyit.
+      - Pyita
+  - osis: Jude
+    texts:
+      - Jud.
+      - Judu
+translations:
+  - EZAA

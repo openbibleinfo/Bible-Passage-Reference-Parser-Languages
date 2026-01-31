@@ -1,0 +1,126 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Ughubulo
+      - Ugh
+  - osis: Matt
+    texts:
+      - Matei
+      - Mat
+  - osis: Mark
+    texts:
+      - Maliki
+      - Malk
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Yoh
+  - osis: 2John
+    texts:
+      - 2Yoh
+  - osis: 3John
+    texts:
+      - 3 Yohane
+      - 3Yoh
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yohane
+  - osis: John
+    texts:
+      - Yohane
+      - Yohn
+  - osis: Acts
+    texts:
+      - Ghamatendo
+      - Ghama
+  - osis: Rom
+    texts:
+      - waRoma
+      - War
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Wakolinto
+      - Wak
+  - osis: Col
+    texts:
+      - Wakolosai
+      - Wako
+  - osis: Gal
+    texts:
+      - Wagalatiya
+      - Waga
+  - osis: Eph
+    texts:
+      - Waefeso
+      - Waef
+  - osis: Phil
+    texts:
+      - waFilipi
+      - Waf
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Watesalonike
+      - Wat
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+      - Tim
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemoni
+      - Fil
+  - osis: Heb
+    texts:
+      - Waeburaniya
+      - Waeb
+  - osis: Jas
+    texts:
+      - Yakobu
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petiri
+  - osis: 1Pet
+    texts:
+      - 1Pet
+  - osis: 2Pet
+    texts:
+      - 2Pet
+  - osis: Jude
+    texts:
+      - Yude
+      - Yud
+translations:
+  - LBV

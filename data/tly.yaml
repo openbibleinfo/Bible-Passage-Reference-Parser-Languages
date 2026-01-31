@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - اوّلین
+books:
+  - osis: Rev
+    texts:
+      - یوحنا موکاشیفَه
+  - osis: Matt
+    texts:
+      - مَتّی
+  - osis: Mark
+    texts:
+      - مَرقُس
+  - osis: Luke
+    texts:
+      - انجیل لوقا
+  - osis: 1John
+    texts:
+      - یوحنا اوّلین نامَه
+  - osis: 2John
+    texts:
+      - یوحنا دوّمین نامَه
+  - osis: 3John
+    texts:
+      - یوحنا سوّمین نامَه
+  - osis: John
+    texts:
+      - یوحنا
+  - osis: Acts
+    texts:
+      - رَسولون اَعمال
+  - osis: Rom
+    texts:
+      - رومی کلیسارا نامه
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - نامَه قورَنتیانیرا
+  - osis: 2Cor
+    texts:
+      - دوومین نامه قرنتیانیرا
+  - osis: Col
+    texts:
+      - نامَه کُولُسی کلیسا را
+  - osis: Gal
+    texts:
+      - نامه غلاطیَه کلیسارا
+  - osis: Eph
+    texts:
+      - نامَه اَفسوسی کلیسارا
+  - osis: Phil
+    texts:
+      - نامَه فیلیپی کلیسا را
+  - osis: 2Thess
+    texts:
+      - دوّمین نامَه تَسالونیکی کلیسا را
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - نامَه تَسالونیکی کلیسا را
+  - osis: 2Tim
+    texts:
+      - دِوُّمین نامَه تیموتائوسیرا
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - نامَه تیموتائوسیرا
+  - osis: Titus
+    texts:
+      - نامَه تیتوسیرا
+  - osis: Phlm
+    texts:
+      - نامَه فیلیمونیرا
+  - osis: Heb
+    texts:
+      - نامَه، عِبرانیه نَتاجَه مسیحیونرا
+  - osis: Jas
+    texts:
+      - یعقوبی نامَه
+  - osis: 1Pet
+    texts:
+      - پطروسی اوّلین نامَه
+  - osis: 2Pet
+    texts:
+      - پطروسی دومین نامه
+  - osis: Jude
+    texts:
+      - یهودا نامه
+translations:
+  - CTB

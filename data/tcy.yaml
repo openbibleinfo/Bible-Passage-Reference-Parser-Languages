@@ -1,0 +1,139 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - ಪ್ರಕಟಣೆ
+      - ಪ್ರಕ
+  - osis: Matt
+    texts:
+      - ಮತ್ತಾಯೆ
+      - ಮತ್ತಾ
+  - osis: Mark
+    texts:
+      - ಮಾರ್ಕೆ
+      - ಮಾರ್ಕ
+  - osis: Luke
+    texts:
+      - ಲೂಕೆ
+      - ಲೂಕ
+  - osis: 1John
+    texts:
+      - 1ಯೋಹಾ
+  - osis: 2John
+    texts:
+      - 2ಯೋಹಾ
+  - osis: 3John
+    texts:
+      - 3 ಯೋಹಾನೆ
+      - 3ಯೋಹಾ
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - ಯೋಹಾನೆ
+  - osis: John
+    texts:
+      - ಯೋಹಾನೆ
+      - ಯೋಹಾ
+  - osis: Acts
+    texts:
+      - ಅಪೊ.ಕ್ರಿ
+  - osis: Rom
+    texts:
+      - ರೋಮಾಯೆರೆಗ್
+      - ರೋಮಾ
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - ಕೊರಿಂಥ್ಯೆರೆಗ್
+  - osis: 1Cor
+    texts:
+      - 1ಕೊರಿ
+  - osis: 2Cor
+    texts:
+      - 2ಕೊರಿ
+  - osis: Col
+    texts:
+      - ಕೊಲೊಸ್ಸಿಯೆರೆಗ್
+      - ಕೊಲೊ
+  - osis: Gal
+    texts:
+      - ಗಲಾತ್ಯೆರೆಗ್
+      - ಗಲಾ
+  - osis: Eph
+    texts:
+      - ಎಫೆಸ್ಯೆರೆಗ್
+      - ಎಫೆ
+  - osis: Phil
+    texts:
+      - ಫಿಲಿಪ್ಪಿಯೆರೆಗ್
+      - ಫಿಲಿ
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - ಥೆಸಲೋನಿಕೆರೆಗ್‌
+  - osis: 1Thess
+    texts:
+      - 1ಥೆಸ್ಸ
+  - osis: 2Thess
+    texts:
+      - 2ಥೆಸ್ಸ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - ತಿಮೋಥಿ
+  - osis: 1Tim
+    texts:
+      - 1ತಿಮೋ
+  - osis: 2Tim
+    texts:
+      - 2ತಿಮೋ
+  - osis: Titus
+    texts:
+      - ತೀತ
+  - osis: Phlm
+    texts:
+      - ಫಿಲೆಮೋನುಗು
+      - ಫಿಲೆ
+  - osis: Heb
+    texts:
+      - ಇಬ್ರಿಯೆರೆಗ್
+      - ಇಬ್ರಿ
+  - osis: Jas
+    texts:
+      - ಯಾಕೋಬು
+      - ಯಾಕೋ
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - ಪೇತ್ರೆ
+  - osis: 1Pet
+    texts:
+      - 1ಪೇತ್ರ
+  - osis: 2Pet
+    texts:
+      - 2ಪೇತ್ರ
+  - osis: Jude
+    texts:
+      - ಯೂದೆ
+      - ಯೂದ
+translations:
+  - TULU

@@ -1,0 +1,149 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - प्रकाशित वाक्य
+      - ದರ್ಶಾನ್
+      - प्रका.
+  - osis: Matt
+    texts:
+      - ಮತ್ತಾಯಾ
+      - ಮತ್ತಾಯ್
+      - मत्ती
+  - osis: Mark
+    texts:
+      - ಮಾರ್ಕ್
+      - मरकुस
+  - osis: Luke
+    texts:
+      - लूका
+      - ಲುಕ್
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - यूहन्ना
+      - ಯೊಹಾನ್
+      - यूह.
+  - osis: John
+    texts:
+      - यूहन्ना
+      - ಯೊಹಾನ್
+      - ಯೋಹಾನ್
+  - osis: Acts
+    texts:
+      - प्रेरितों के काम
+      - ಅಪೊಸ್ತಲ್
+      - प्रेरित
+  - osis: Rom
+    texts:
+      - ರೊಮಾಪುರಾತ್‌ಲ್ಯಾನಾ
+      - ರೋಮಾಪುರಾತ್‌ಲ್ಯಾನಾ
+      - रोमियो
+      - रोम.
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - कुरिन्थियों
+      - ಕೋರಿಂಥ್
+      - ಕೊರಿಂಥ
+  - osis: 1Cor
+    texts:
+      - 1कुरि.
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - कुरिन्थियों
+      - ಕೊರಿಂಥ
+      - कुरि.
+  - osis: Col
+    texts:
+      - कुलुस्सियों
+      - ಕೊಲೊಸ್ಸೆ
+      - कुलु.
+  - osis: Gal
+    texts:
+      - ಗಲಾತ್ಯಾತ್‌ಲ್ಯಾನಾ
+      - गलातियों
+      - ಗಲಾಥ್ಯ
+      - गला.
+  - osis: Eph
+    texts:
+      - ಎಫೆಸಾತ್‌ಲ್ಯಾನಾ
+      - इफिसियों
+      - इफि.
+      - ಎಫೆಸ
+  - osis: Phil
+    texts:
+      - फिलिप्पियों
+      - ಪಿಲಿಪ್ಪಿ
+      - फिलि.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - थिस्सलुनीकियों
+      - ತೆಸಲೊನಿಕ್
+      - ಥೆಸಲೊನಿಕ್
+      - थिस्स.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - तीमुथियुस
+      - ತಿಮೊತಿ
+      - ತಿಮೊಥಿ
+      - तीमु.
+  - osis: Titus
+    texts:
+      - तीतुस
+      - ತೀತ್
+      - ती.
+  - osis: Phlm
+    texts:
+      - ಪಿಲೊಮೊನ್
+      - फिलेमोन
+      - फिले.
+  - osis: Heb
+    texts:
+      - इब्रानियों
+      - इब्रा.
+      - ಇಬ್ರಿಯ
+  - osis: Jas
+    texts:
+      - ಯಾಕೊಬ್
+      - याकू.
+      - याकूब
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - ಪೇತ್ರ
+      - पतरस
+      - पत.
+  - osis: Jude
+    texts:
+      - यहूदा
+      - यहू.
+      - ಯುದ್
+translations:
+  - GOKNT
+  - NTGMI23

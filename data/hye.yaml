@@ -1,0 +1,320 @@
+variables:
+  first: &first
+    - Ա
+  second: &second
+    - Բ
+  third: &third
+    - Գ
+books:
+  - osis: Gen
+    texts:
+      - Ծննդոց
+      - Ծնունդ
+      - Ծնն.
+  - osis: Exod
+    texts:
+      - Ելք
+  - osis: Lev
+    texts:
+      - Ղեվտական
+      - Ղևտ.
+  - osis: Num
+    texts:
+      - Թվեր
+      - Թվ.
+  - osis: Sir
+    texts:
+      - Իմաստություն Սիրաքի
+      - Սրք.
+  - osis: Wis
+    texts:
+      - Իմաստություն Սողոմոնի
+      - Իմս.
+  - osis: Lam
+    texts:
+      - Երեմիայի Ողբերը
+      - Ողբ Երեմիայի
+      - Ողբ
+  - osis: Rev
+    texts:
+      - Հայտնություն
+      - Հտն.
+  - osis: Deut
+    texts:
+      - Բ Օրենք
+      - Բ Օր.
+  - osis: Josh
+    texts:
+      - Հեսու
+      - Հես.
+  - osis: Judg
+    texts:
+      - Դատավորներ
+      - Դատ.
+  - osis: Ruth
+    texts:
+      - Հռութ
+      - Հռթ.
+  - osis: Isa
+    texts:
+      - Եսայի
+      - Ես.
+  - osis: 1Kgs
+    texts:
+      - Գ Թագավորների
+      - Գ Թագ.
+  - osis: 2Kgs
+    texts:
+      - Դ Թագավորների
+      - Դ Թագ.
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Թագավորների
+      - Թագ.
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Մնացորդաց
+      - Մն.
+  - osis: Ezra
+    texts:
+      - Բ Եզրաս
+      - Բ Եզր.
+      - Եզրաս
+      - Եզր.
+  - osis:
+      - osis: 1Esd
+        before: *first
+    texts:
+      - Եզրաս
+      - Եզր.
+  - osis: Neh
+    texts:
+      - Նեեմիա
+      - Նեմ.
+  - osis: Esth
+    texts:
+      - Եսթեր
+      - Եսթ.
+  - osis: Job
+    texts:
+      - Հոբ
+  - osis: Ps
+    texts:
+      - Սաղմոսներ
+      - Սաղ.
+  - osis: Prov
+    texts:
+      - Առակներ
+      - Առկ.
+  - osis: Eccl
+    texts:
+      - Ժողովող
+      - Ժող.
+  - osis: Song
+    texts:
+      - Երգ Երգոց
+      - Երգ
+  - osis: Jer
+    texts:
+      - Երեմիա
+      - Երմ.
+  - osis: Ezek
+    texts:
+      - Եզեկիել
+      - Եզկ.
+  - osis: Dan
+    texts:
+      - Դանիել
+      - Դան.
+  - osis: Hos
+    texts:
+      - Ովսեե
+      - Ովս.
+  - osis: Joel
+    texts:
+      - Հովել
+      - Հվլ.
+  - osis: Amos
+    texts:
+      - Ամովս
+      - Ամս.
+  - osis: Obad
+    texts:
+      - Աբդիու
+      - Աբդիա
+      - Աբդ.
+  - osis: Jonah
+    texts:
+      - Հովնան
+      - Հվն.
+  - osis: Mic
+    texts:
+      - Միքիա
+      - Միք.
+  - osis: Nah
+    texts:
+      - Նավում
+      - Նաում
+      - Նվմ.
+      - Նմ.
+  - osis: Hab
+    texts:
+      - Ամբակում
+      - Ամբ.
+  - osis: Zeph
+    texts:
+      - Սոփոնիա
+      - Սոփ.
+  - osis: Hag
+    texts:
+      - Անգեոս
+      - Անգ.
+      - Անգե
+  - osis: Zech
+    texts:
+      - Զաքարիա
+      - Զաք.
+  - osis: Mal
+    texts:
+      - Մաղաքիա
+      - Մղք.
+  - osis: Matt
+    texts:
+      - Մատթեոս
+      - Մտթ.
+  - osis: Mark
+    texts:
+      - Մարկոս
+      - Մրկ.
+  - osis: Luke
+    texts:
+      - Ղուկաս
+      - Ղուկ.
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Հովհաննես
+      - Հովհ.
+  - osis: Acts
+    texts:
+      - Գործք Առաքելոց
+      - Գրծ.
+  - osis: Rom
+    texts:
+      - Հռոմեացիներին
+      - Հռմ.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Կորնթացիներին
+      - Կրնթ.
+  - osis: Col
+    texts:
+      - Կողոսացիներին
+      - Կղս.
+  - osis: Gal
+    texts:
+      - Գաղատացիներին
+      - Գղտ.
+  - osis: Eph
+    texts:
+      - Եփեսացիներին
+      - Եփս.
+  - osis: Phil
+    texts:
+      - Փիլիպպեցիներին
+      - Փլպ.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Թեսաղոնիկեցիներին
+      - Թսղ.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Տիմոթեոսին
+      - Տմթ.
+  - osis: Titus
+    texts:
+      - Տիտոսին
+      - Տիտ.
+  - osis: Phlm
+    texts:
+      - Փիլիմոնին
+      - Փլմ.
+  - osis: Heb
+    texts:
+      - Եբրայեցիներին
+      - Եբր.
+  - osis: Jas
+    texts:
+      - Հակոբոս
+      - Հկբ.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Պետրոս
+      - Պտ.
+  - osis: Jude
+    texts:
+      - Հուդ.
+      - Հուդա
+  - osis: Tob
+    texts:
+      - Տովբիթ
+      - Տոբ.
+  - osis: Jdt
+    texts:
+      - Հուդիթ
+      - Հդթ.
+  - osis: Bar
+    texts:
+      - Բարուք
+      - Բրք.
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+      - osis: 3Macc
+        before: *third
+    texts:
+      - Մակաբայեցիներ
+      - Մկբ.
+  - osis: DanGr
+    texts:
+      - Դանիել
+      - Դան.
+  - osis: EsthGr
+    texts:
+      - Եսթեր
+      - Եսթ.
+translations:
+  - NEB
+  - NRAB

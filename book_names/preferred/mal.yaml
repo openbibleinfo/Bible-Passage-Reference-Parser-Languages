@@ -1,0 +1,666 @@
+default:
+  1Chr:
+    long: 1 ദിനവൃത്താന്തം
+    short: 1 ദിന.
+  1Cor:
+    long: 1 കൊരിന്ത്യർ
+    short: 1 കൊരി.
+  1John:
+    long: 1 യോഹന്നാൻ
+    short: 1 യോഹ.
+  1Kgs:
+    long: 1 രാജാക്കന്മാർ
+    short: 1 രാജാ.
+  1Pet:
+    long: 1 Petera
+    short: 1 പത്രൊ.
+  1Sam:
+    long: 1 Samuela
+    short: 1 ശമു.
+  1Thess:
+    long: 1 Thesalonika
+    short: 1 തെസ്സ.
+  1Tim:
+    long: 1 Timothea
+    short: 1 Tim.
+  2Chr:
+    long: 2 ദിനവൃത്താന്തം
+    short: 2 ദിന.
+  2Cor:
+    long: 2 കൊരിന്ത്യർ
+    short: 2 കൊരി.
+  2John:
+    long: 2 യോഹന്നാൻ
+    short: 2 യോഹ.
+  2Kgs:
+    long: 2 രാജാക്കന്മാർ
+    short: 2 രാജാ.
+  2Pet:
+    long: 2 Petera
+    short: 2 പത്രൊ.
+  2Sam:
+    long: 2 Samuela
+    short: 2 ശമു.
+  2Thess:
+    long: 2 Thesalonika
+    short: 2 തെസ്സ.
+  2Tim:
+    long: 2 Timothea
+    short: 2 Tim.
+  3John:
+    long: 3 യോഹന്നാൻ
+    short: 3 യോഹ.
+  Acts:
+    long: അപ്പൊ. പ്രവൃത്തികൾ
+    short: പ്രവൃത്തികൾ
+  Amos:
+    long: ആമോസ്
+    short: ആമോ.
+  Col:
+    long: കൊലൊസ്സ്യർ
+    short: കൊലൊ.
+  Dan:
+    long: ദാനീയേൽ
+    short: ദാനീ.
+  Deut:
+    long: ആവർത്തനപുസ്തകം
+    short: ആവ.
+  Eccl:
+    long: സഭാപ്രസംഗി
+    short: സഭാ.
+  Eph:
+    long: എഫെസ്യർ
+    short: എഫെ.
+  Esth:
+    long: എസ്ഥേർ
+    short: എസ്ഥേ.
+  Exod:
+    long: പുറപ്പാട്
+    short: പുറ.
+  Ezek:
+    long: യെഹെസ്കേൽ
+    short: യെഹെ.
+  Ezra:
+    long: എസ്രാ
+    short: എസ്രാ
+  Gal:
+    long: ഗലാത്യർ
+    short: ഗലാ.
+  Gen:
+    long: Genesis
+    short: ഉല്പ.
+  Hab:
+    long: Habakuka
+    short: ഹബ.
+  Hag:
+    long: ഹഗ്ഗായി
+    short: ഹഗ്ഗാ.
+  Heb:
+    long: എബ്രായർ
+    short: എബ്രാ.
+  Hos:
+    long: ഹോശേയ
+    short: ഹോശേ.
+  Isa:
+    long: യെശയ്യാവ്
+    short: യെശ.
+  Jas:
+    long: യാക്കോബ്
+    short: യാക്കോ.
+  Jer:
+    long: യിരെമ്യാവ്
+    short: യിരെ.
+  Job:
+    long: ഇയ്യോബ്
+    short: ഇയ്യോ.
+  Joel:
+    long: യോവേൽ
+    short: യോവേ.
+  John:
+    long: യോഹന്നാൻ
+    short: യോഹ.
+  Jonah:
+    long: യോനാ
+    short: യോനാ
+  Josh:
+    long: യോശുവ
+    short: യോശു.
+  Jude:
+    long: യൂദാ
+    short: യൂദാ
+  Judg:
+    long: ന്യായാധിപന്മാർ
+    short: ന്യായാ.
+  Lam:
+    long: വിലാപങ്ങൾ
+    short: വിലാ.
+  Lev:
+    long: Leviticus
+    short: ലേവ്യ.
+  Luke:
+    long: ലൂക്കൊസ്
+    short: ലൂക്കോ.
+  Mal:
+    long: മലാഖി
+    short: മലാ.
+  Mark:
+    long: മർക്കൊസ്
+    short: മർ.
+  Matt:
+    long: മത്തായി
+    short: മത്താ.
+  Mic:
+    long: മീഖാ
+    short: മീഖാ
+  Nah:
+    long: നഹൂം
+    short: നഹൂം
+  Neh:
+    long: നെഹെമ്യാവ്
+    short: നെഹെ.
+  Num:
+    long: സംഖ്യാപുസ്തകം
+    short: സംഖ്യ.
+  Obad:
+    long: ഓബദ്യാവു
+    short: ഓബ.
+  Phil:
+    long: ഫിലിപ്പിയർ
+    short: ഫിലി.
+  Phlm:
+    long: ഫിലേമോൻ
+    short: ഫിലേ.
+  Prov:
+    long: സദൃശവാക്യങ്ങൾ
+    short: സദൃ.
+  Ps:
+    long: സങ്കീർത്തനങ്ങൾ
+    short: സങ്കീ.
+  Rev:
+    long: വെളിപ്പാട്
+    short: വെളി.
+  Rom:
+    long: റോമർ
+    short: റോമ.
+  Ruth:
+    long: രൂത്ത്
+    short: രൂത്ത്
+  Song:
+    long: ഉത്തമഗീതം
+    short: ഉത്ത.
+  Titus:
+    long: Tita
+    short: Tit.
+  Zech:
+    long: സെഖര്യാവ്
+    short: സെഖ.
+  Zeph:
+    long: സെഫന്യാവ്
+    short: സെഫ.
+translations:
+  malclbsi:
+    1Chr:
+      long: 1 Chronicle
+    1Cor:
+      long: 1 Korinth
+    1John:
+      long: 1 Johana
+      short: 1 Jn.
+    1Kgs:
+      long: 1 Lalte
+    1Pet:
+      short: 1 Pet.
+    1Sam:
+      short: 1 ശമൂ.
+    1Thess:
+      short: 1 Thes.
+    2Chr:
+      long: 2 Chronicle
+    2Cor:
+      long: 2 Korinth
+    2John:
+      long: 2 Johana
+      short: 2 Jn.
+    2Kgs:
+      long: 2 Lalte
+    2Pet:
+      short: 2 Pet.
+    2Sam:
+      short: 2 ശമൂ.
+    2Thess:
+      short: 2 Thes.
+    3John:
+      long: 3 Johana
+      short: 3 Jn.
+    Acts:
+      long: Tirhkohte
+      short: അപ്പോ. പ്ര.
+    Amos:
+      long: Amosa
+      short: Amos.
+    Col:
+      long: Kolosa
+      short: Kol.
+    Dan:
+      long: Daniela
+      short: Dan.
+    Deut:
+      long: Deuteronomy
+    Eccl:
+      long: Thuhriltu
+      short: Thuh.
+    Eph:
+      long: Efesi
+      short: Efe.
+    Esth:
+      long: Estheri
+      short: Est.
+    Exod:
+      long: Exodus
+    Ezek:
+      long: Ezekiela
+    Ezra:
+      long: Ezra
+    Gal:
+      long: Galatia
+      short: Gal.
+    Gen:
+      short: Gen.
+    Hab:
+      short: Hab.
+    Hag:
+      long: Hagaia
+      short: Hag.
+    Heb:
+      long: Hebrai
+      short: Heb.
+    Hos:
+      long: Hosea
+      short: Hos.
+    Isa:
+      long: Isaia
+    Jas:
+      long: Jakoba
+      short: Jak.
+    Jer:
+      long: Jeremia
+    Job:
+      long: Joba
+      short: Job.
+    Joel:
+      long: Joela
+      short: Joel.
+    John:
+      long: Johana
+    Jonah:
+      long: Jona
+      short: Jon.
+    Josh:
+      long: Josua
+    Jude:
+      long: Juda
+      short: Jud.
+    Judg:
+      long: Roreltute
+    Lam:
+      long: Ṭah Hla
+      short: Ṭah.
+    Lev:
+      short: ലേവ്യാ.
+    Luke:
+      long: Luka
+    Mal:
+      long: Malakia
+      short: Mal.
+    Mark:
+      long: Marka
+      short: മർക്കോ.
+    Matt:
+      long: Mathaia
+    Mic:
+      long: Mika
+    Nah:
+      long: Nahuma
+      short: Nah.
+    Neh:
+      long: Nehemia
+    Num:
+      long: Numbers
+      short: സംഖ്യാ.
+    Obad:
+      long: Obadia
+      short: Oba.
+    Phil:
+      long: Filipi
+      short: Fil.
+    Phlm:
+      long: Filemona
+      short: File.
+    Prov:
+      long: Thufingte
+      short: Thuf.
+    Ps:
+      long: Sam
+    Rev:
+      long: Thupuan
+      short: Thup.
+    Rom:
+      long: Rom
+      short: Rom.
+    Ruth:
+      long: Ruthi
+      short: Rut.
+    Song:
+      long: Hla Chhuanvâwr
+      short: Hla.
+    Zech:
+      long: Zakaria
+      short: Zak.
+    Zeph:
+      long: Zefania
+      short: Zef.
+  irvmal:
+    1Chr:
+      long: 1 ദിന.
+    1Cor:
+      long: 1 കൊരി.
+    1John:
+      long: 1 യോഹ.
+    1Kgs:
+      long: 1 രാജാ.
+    1Pet:
+      long: 1 പത്രൊ.
+    1Sam:
+      long: 1 ശമു.
+    1Thess:
+      long: 1 തെസ്സ.
+    1Tim:
+      long: 1 തിമൊ.
+      short: 1 തിമൊ.
+    2Chr:
+      long: 2 ദിന.
+    2Cor:
+      long: 2 കൊരി.
+    2John:
+      long: 2 യോഹ.
+    2Kgs:
+      long: 2 രാജാ.
+    2Pet:
+      long: 2 പത്രൊ.
+    2Sam:
+      long: 2 ശമു.
+    2Thess:
+      long: 2 തെസ്സ.
+    2Tim:
+      long: 2 തിമൊ.
+      short: 2 തിമൊ.
+    3John:
+      long: 3 യോഹ.
+    Acts:
+      long: പ്രവൃത്തികൾ
+    Amos:
+      long: ആമോ.
+    Col:
+      long: കൊലൊ.
+    Dan:
+      long: ദാനീ.
+    Deut:
+      long: ആവർ.
+      short: ആവർ.
+    Eccl:
+      long: സഭാ.
+    Eph:
+      long: എഫെ.
+    Esth:
+      long: എസ്ഥേ.
+    Exod:
+      long: പുറ.
+    Ezek:
+      long: യെഹെ.
+    Gal:
+      long: ഗലാ.
+    Gen:
+      long: ഉല്പ.
+    Hab:
+      long: ഹബ.
+    Hag:
+      long: ഹഗ്ഗാ.
+    Heb:
+      long: എബ്രാ.
+    Hos:
+      long: ഹോശേ.
+    Isa:
+      long: യെശ.
+    Jas:
+      long: യാക്കോ.
+    Jer:
+      long: യിരെ.
+    Job:
+      long: ഇയ്യോ.
+    Joel:
+      long: യോവേ.
+    John:
+      long: യോഹ.
+    Josh:
+      short: യോശുവ
+    Judg:
+      long: ന്യായാ.
+    Lam:
+      long: വിലാ.
+    Lev:
+      long: ലേവ്യ.
+    Luke:
+      long: ലൂക്കൊ.
+      short: ലൂക്കൊ.
+    Mal:
+      long: മലാ.
+    Mark:
+      long: മർക്കൊ.
+      short: മർക്കൊ.
+    Matt:
+      long: മത്താ.
+    Neh:
+      long: നെഹെ.
+    Num:
+      long: സംഖ്യ.
+    Obad:
+      long: ഓബ.
+    Phil:
+      long: ഫിലി.
+    Phlm:
+      long: ഫിലേ.
+    Prov:
+      long: സദൃ.
+    Ps:
+      long: സങ്കീ.
+    Rev:
+      long: വെളി.
+    Rom:
+      long: റോമ.
+    Song:
+      long: ഉത്ത.
+    Titus:
+      long: തീത്തൊ.
+      short: തീത്തൊ.
+    Zech:
+      long: സെഖ.
+    Zeph:
+      long: സെഫ.
+  mal10ro:
+    1Chr:
+      long: 1. ദിനവൃത്താന്തം
+    1Cor:
+      long: 1. കൊരിന്ത്യർ
+    1John:
+      long: 1. യോഹന്നാൻ
+    1Kgs:
+      long: 1. രാജാക്കന്മാർ
+    1Pet:
+      long: 1. പത്രൊസ്
+    1Sam:
+      long: 1. ശമൂവേൽ
+    1Thess:
+      long: 1. തെസ്സലൊനീക്യർ
+    1Tim:
+      long: 1. തിമൊഥെയൊസ്
+      short: 1. തിമൊ.
+    2Chr:
+      long: 2. ദിനവൃത്താന്തം
+    2Cor:
+      long: 2. കൊരിന്ത്യർ
+    2John:
+      long: 2. യോഹന്നാൻ
+    2Kgs:
+      long: 2. രാജാക്കന്മാർ
+    2Pet:
+      long: 2. പത്രൊസ്
+    2Sam:
+      long: 2. ശമൂവേൽ
+    2Thess:
+      long: 2. തെസ്സലൊനീക്യർ
+    2Tim:
+      long: 2. തിമൊഥെയൊസ്
+      short: 2. തിമൊ.
+    3John:
+      long: 3. യോഹന്നാൻ
+    Deut:
+      short: ആവർത്തനം
+    Exod:
+      long: പുറപ്പാടു
+    Gen:
+      long: ഉല്പത്തി
+    Hab:
+      long: ഹബക്കൂൿ
+    Isa:
+      long: യെശയ്യാവു
+    Jer:
+      long: യിരെമ്യാവു
+    John:
+      short: യോഹന്നാൻ
+    Josh:
+      short: യോശുവ
+    Lev:
+      long: ലേവ്യപുസ്തകം
+      short: ലേവ്യ
+    Luke:
+      short: ലൂക്കൊ
+    Mark:
+      short: മർക്കൊ
+    Matt:
+      short: മത്താ
+    Neh:
+      long: നെഹെമ്യാവു
+    Num:
+      short: സംഖ്യാ
+    Rev:
+      long: വെളിപ്പാടു
+    Rom:
+      short: റോമർ
+    Titus:
+      long: തീത്തൊസ്
+      short: തീത്തൊ
+    Zech:
+      long: സെഖര്യാവു
+    Zeph:
+      long: സെഫന്യാവു
+  malovbsi:
+    1Pet:
+      long: 1 പത്രൊസ്
+    1Sam:
+      long: 1 ശമൂവേൽ
+    1Thess:
+      long: 1 തെസ്സലൊനീക്യർ
+    1Tim:
+      long: 1 തിമൊഥെയൊസ്
+    2Pet:
+      long: 2 പത്രൊസ്
+    2Sam:
+      long: 2 ശമൂവേൽ
+    2Thess:
+      long: 2 തെസ്സലൊനീക്യർ
+    2Tim:
+      long: 2 തിമൊഥെയൊസ്
+    Gen:
+      long: ഉൽപത്തി
+    Hab:
+      long: ഹബക്കൂക്
+    Lev:
+      long: ലേവ്യാപുസ്തകം
+    Obad:
+      long: ഓബദ്യാവ്
+    Phlm:
+      long: ഫിലേമൊന്
+    Titus:
+      long: തീത്തൊസിന്
+  mcv:
+    1Pet:
+      long: 1 പത്രോസ്
+      short: 1 പത്രോ.
+    1Sam:
+      long: 1 ശമുവേൽ
+    1Thess:
+      long: 1 തെസ്സലോനിക്യർ
+    1Tim:
+      long: 1 തിമോത്തിയോസ്
+      short: 1 തിമോ.
+    2Pet:
+      long: 2 പത്രോസ്
+      short: 2 പത്രോ.
+    2Sam:
+      long: 2 ശമുവേൽ
+    2Thess:
+      long: 2 തെസ്സലോനിക്യർ
+    2Tim:
+      long: 2 തിമോത്തിയോസ്
+      short: 2 തിമോ.
+    Acts:
+      long: അപ്പോ.പ്രവൃത്തികൾ
+      short: അ.പ്ര.
+    Col:
+      long: കൊലോസ്യർ
+      short: കൊലോ.
+    Dan:
+      short: ദാനി.
+    Deut:
+      long: ആവർത്തനം
+    Eph:
+      long: എഫേസ്യർ
+      short: എഫേ.
+    Ezek:
+      short: യെഹ.
+    Ezra:
+      short: എസ്രാ.
+    Gen:
+      long: ഉൽപ്പത്തി
+      short: ഉൽ.
+    Hab:
+      long: ഹബക്കൂക്ക്
+    Hos:
+      short: ഹോശ.
+    Jer:
+      short: യിര.
+    Jonah:
+      short: യോന.
+    Jude:
+      short: യൂദാ.
+    Lev:
+      long: ലേവ്യ
+    Luke:
+      long: ലൂക്കോസ്
+    Mark:
+      long: മർക്കോസ്
+    Mic:
+      short: മീഖ.
+    Nah:
+      short: നഹു.
+    Neh:
+      short: നെഹ.
+    Num:
+      long: സംഖ്യ
+    Obad:
+      short: ഒബ.
+    Ruth:
+      short: രൂത്ത്.
+    Titus:
+      long: തീത്തോസ്
+      short: തീത്തോ.

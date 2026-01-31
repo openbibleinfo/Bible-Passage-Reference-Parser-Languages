@@ -1,0 +1,96 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Thitto
+  - osis: Matt
+    texts:
+      - Maththa
+  - osis: Mark
+    texts:
+      - Markkoc
+  - osis: Luke
+    texts:
+      - Lukka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Iuanna
+  - osis: Acts
+    texts:
+      - Ngre
+  - osis: Rom
+    texts:
+      - Roma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kurunthuc
+  - osis: Col
+    texts:
+      - Kulucci
+  - osis: Gal
+    texts:
+      - Kalaththia
+  - osis: Eph
+    texts:
+      - Apuccuc
+  - osis: Phil
+    texts:
+      - Pilippi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thocculunukkia
+  - osis: 1Thess
+    texts:
+      - Atham iaine ul woThocculunukkia 1
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Thimiththaoc
+  - osis: Titus
+    texts:
+      - Thiththoc
+  - osis: Phlm
+    texts:
+      - Pelemun
+  - osis: Heb
+    texts:
+      - Ipranin
+  - osis: Jas
+    texts:
+      - Iakup
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Poththuruc
+  - osis: Jude
+    texts:
+      - Ioutha
+translations:
+  - LUMUN

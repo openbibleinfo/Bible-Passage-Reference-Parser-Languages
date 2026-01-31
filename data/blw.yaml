@@ -1,0 +1,111 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Hen nepaka-ammu
+      - HaJ.
+  - osis: Matt
+    texts:
+      - Mateo
+      - Mat.
+  - osis: Mark
+    texts:
+      - Marcos
+      - Mar.
+  - osis: Luke
+    texts:
+      - Lucas
+      - Luc.
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Juan
+  - osis: Acts
+    texts:
+      - Hen enkaman anchichay
+      - Apos.
+  - osis: Rom
+    texts:
+      - eRoma
+      - Rom.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - eCorinto
+      - Cor.
+  - osis: Col
+    texts:
+      - eColosas
+      - Col.
+  - osis: Gal
+    texts:
+      - iGalacia
+      - Gal.
+  - osis: Eph
+    texts:
+      - iyEfeso
+      - Efes.
+  - osis: Phil
+    texts:
+      - iFilipos
+      - Fili.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - eTesalonica
+      - Tes.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+      - Tim.
+  - osis: Titus
+    texts:
+      - Tit.
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filemon
+      - Film.
+  - osis: Heb
+    texts:
+      - eHebreo
+      - Heb.
+  - osis: Jas
+    texts:
+      - Jaime
+      - Jai.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pedro
+      - Ped.
+  - osis: Jude
+    texts:
+      - Juda
+translations:
+  - BLWNT

@@ -1,0 +1,138 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Né-je kɨ́ ꞌtḛḛ kɨ̀ dɔ-é
+      - Ntd
+  - osis: Matt
+    texts:
+      - Matiye
+      - Mat
+  - osis: Mark
+    texts:
+      - Markɨ
+      - Mar
+  - osis: Luke
+    texts:
+      - Lukɨ
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Ja̰
+  - osis: 2John
+    texts:
+      - 2Ja̰
+  - osis: 3John
+    texts:
+      - 3 Ja̰
+      - 3Ja̰
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Ja̰
+  - osis: Acts
+    texts:
+      - Kullə-jə lə Njékɔwkullə-je
+      - Knj
+  - osis: Rom
+    texts:
+      - Rɔm-je
+      - Rɔm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kɔrḛntɨ-je
+  - osis: 1Cor
+    texts:
+      - 1Kɔ
+  - osis: 2Cor
+    texts:
+      - 2Kɔ
+  - osis: Col
+    texts:
+      - Kolosɨ-je
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatɨ-je
+      - Gal
+  - osis: Eph
+    texts:
+      - Epɛjɨ-je
+      - Epɛ
+  - osis: Phil
+    texts:
+      - Pilipɨ-je
+      - Plp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonikɨ-je
+  - osis: 1Thess
+    texts:
+      - 1Te
+  - osis: 2Thess
+    texts:
+      - 2Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Titɨ
+      - Tit
+  - osis: Phlm
+    texts:
+      - Pilemɔ̰
+      - Plm
+  - osis: Heb
+    texts:
+      - Əbrə-je
+      - Əbr
+  - osis: Jas
+    texts:
+      - Jakɨ
+      - Jak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piyər
+  - osis: 1Pet
+    texts:
+      - 1Pi
+  - osis: 2Pet
+    texts:
+      - 2Pi
+  - osis: Jude
+    texts:
+      - Judɨ
+      - Jud
+translations:
+  - MNGNT

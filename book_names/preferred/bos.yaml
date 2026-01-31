@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1. Ljetopis
+    short: 1 Ljet
+  1Cor:
+    long: 1. Korinćanima
+    short: 1 Kor
+  1John:
+    long: 1. Ivanovo
+    short: 1 Iv
+  1Kgs:
+    long: 1. Kraljeva
+    short: 1 Kr
+  1Pet:
+    long: 1. Kefino
+    short: 1 Kf
+  1Sam:
+    long: 1. Samuelova
+    short: 1 Sam
+  1Thess:
+    long: 1. Solunjanima
+    short: 1 Sol
+  1Tim:
+    long: 1. Timoteju
+    short: 1 Tim
+  2Chr:
+    long: 2. Ljetopis
+    short: 2 Ljet
+  2Cor:
+    long: 2. Korinćanima
+    short: 2 Kor
+  2John:
+    long: 2. Ivanovo
+    short: 2 Iv
+  2Kgs:
+    long: 2. Kraljeva
+    short: 2 Kr
+  2Pet:
+    long: 2. Kefino
+    short: 2 Kf
+  2Sam:
+    long: 2. Samuelova
+    short: 2 Sam
+  2Thess:
+    long: 2. Solunjanima
+    short: 2 Sol
+  2Tim:
+    long: 2. Timoteju
+    short: 2 Tim
+  3John:
+    long: 3. Ivanovo
+    short: 3 Iv
+  Acts:
+    long: Djela
+    short: Dj
+  Amos:
+    long: Amos
+    short: Am
+  Col:
+    long: Kološanima
+    short: Kol
+  Dan:
+    long: Daniel
+    short: Dn
+  Deut:
+    long: Pon. zakon
+    short: Pnz
+  Eccl:
+    long: Propovjednik
+    short: Prop
+  Eph:
+    long: Efežanima
+    short: Ef
+  Esth:
+    long: Estera
+    short: Est
+  Exod:
+    long: Izlazak
+    short: Izl
+  Ezek:
+    long: Ezekiel
+    short: Ez
+  Ezra:
+    long: Ezra
+    short: Ezr
+  Gal:
+    long: Galaćanima
+    short: Gal
+  Gen:
+    long: Postanak
+    short: Post
+  Hab:
+    long: Habakuk
+    short: Hab
+  Hag:
+    long: Hagaj
+    short: Hag
+  Heb:
+    long: Jevrejima
+    short: Heb
+  Hos:
+    long: Hošea
+    short: Hoš
+  Isa:
+    long: Izaija
+    short: Iz
+  Jas:
+    long: Jakovljevo
+    short: Jak
+  Jer:
+    long: Jeremija
+    short: Jr
+  Job:
+    long: Job
+    short: Job
+  Joel:
+    long: Joel
+    short: Jl
+  John:
+    long: Ivan
+    short: Iv
+  Jonah:
+    long: Jona
+    short: Jon
+  Josh:
+    long: Jošua
+    short: Jš
+  Jude:
+    long: Judino
+    short: Jd
+  Judg:
+    long: Suci
+    short: Suci
+  Lam:
+    long: Tužaljke
+    short: Tuž
+  Lev:
+    long: Lev. zakon
+    short: Lev
+  Luke:
+    long: Luka
+    short: Lk
+  Mal:
+    long: Malahija
+    short: Mal
+  Mark:
+    long: Marko
+    short: Mk
+  Matt:
+    long: Matej
+    short: Mt
+  Mic:
+    long: Mihej
+    short: Mih
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nehemija
+    short: Neh
+  Num:
+    long: Brojevi
+    short: Br
+  Obad:
+    long: Obadija
+    short: Ob
+  Phil:
+    long: Filipljanima
+    short: Fil
+  Phlm:
+    long: Filemonu
+    short: Flm
+  Prov:
+    long: Izreke
+    short: Izr
+  Ps:
+    long: Psalmi
+    short: Ps
+  Rev:
+    long: Otkrovenje
+    short: Otk
+  Rom:
+    long: Rimljanima
+    short: Rim
+  Ruth:
+    long: Ruta
+    short: Rut
+  Song:
+    long: Pjesma
+    short: Pj
+  Titus:
+    long: Titu
+    short: Tit
+  Zech:
+    long: Zaharija
+    short: Zah
+  Zeph:
+    long: Sefanja
+    short: Sef

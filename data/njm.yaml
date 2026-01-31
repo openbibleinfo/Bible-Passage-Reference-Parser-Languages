@@ -1,0 +1,303 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Keriekitho
+      - Kerie
+  - osis: Exod
+    texts:
+      - Toukepra
+      - Tuoke
+  - osis: Lev
+    texts:
+      - Levimiako
+      - Levi
+  - osis: Num
+    texts:
+      - Nuolhoutsüphrü
+      - Nuol
+  - osis: Lam
+    texts:
+      - Thekrü
+      - Thek
+  - osis: Rev
+    texts:
+      - Pesikeshü
+      - Pesi
+  - osis: Deut
+    texts:
+      - Pulakeshüzho
+      - Pula
+  - osis: Josh
+    texts:
+      - Joshua
+      - Jos
+  - osis: Judg
+    texts:
+      - Capiko
+      - Capi
+  - osis: Ruth
+    texts:
+      - Ruth
+  - osis: Isa
+    texts:
+      - Isaya
+      - Isa
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Sam
+  - osis: 1Sam
+    texts:
+      - Samuel Kerieu
+  - osis: 2Sam
+    texts:
+      - Samuel Kenieu
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Kedi
+  - osis: 1Kgs
+    texts:
+      - Kediko Kerieu
+  - osis: 2Kgs
+    texts:
+      - Kediko Kenieu
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Seyie
+  - osis: 1Chr
+    texts:
+      - Seyiedze Kerieu
+  - osis: 2Chr
+    texts:
+      - Seyiedze Kenieu
+  - osis: Ezra
+    texts:
+      - Ezra
+  - osis: Neh
+    texts:
+      - Nehemia
+      - Neh
+  - osis: Esth
+    texts:
+      - Esther
+      - Est
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Chieliko
+      - Chieli
+  - osis: Prov
+    texts:
+      - Mhasidie
+      - Mhasi
+  - osis: Eccl
+    texts:
+      - Pethakeshüu
+      - Petha
+  - osis: Song
+    texts:
+      - Solomon Üzo
+      - Solom
+  - osis: Jer
+    texts:
+      - Jeremia
+      - Jer
+  - osis: Ezek
+    texts:
+      - Ezekiel
+      - Eze
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan
+  - osis: Hos
+    texts:
+      - Hosea
+      - Hos
+  - osis: Joel
+    texts:
+      - Joel
+  - osis: Amos
+    texts:
+      - Amos
+  - osis: Obad
+    texts:
+      - Obadia
+      - Oba
+  - osis: Jonah
+    texts:
+      - Jona
+  - osis: Mic
+    texts:
+      - Mika
+      - MiK
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Zefania
+      - Zef
+  - osis: Hag
+    texts:
+      - Hagai
+      - Hag
+  - osis: Zech
+    texts:
+      - Zekaria
+      - Zek
+  - osis: Mal
+    texts:
+      - Malaki
+      - Mal
+  - osis: Matt
+    texts:
+      - Mathi
+      - Mat
+  - osis: Mark
+    texts:
+      - Mark
+  - osis: Luke
+    texts:
+      - Luk
+  - osis: 1John
+    texts:
+      - Johan Kerieu
+  - osis: 2John
+    texts:
+      - Johan Kenieu
+  - osis: 3John
+    texts:
+      - Johan Seu
+      - 3 Joh
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Joh
+  - osis: John
+    texts:
+      - Johan
+      - Joh
+  - osis: Acts
+    texts:
+      - Mhakechüko
+      - Mhak
+  - osis: Rom
+    texts:
+      - Rommiako
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kor
+  - osis: 1Cor
+    texts:
+      - Korintmiako Kerieu
+  - osis: 2Cor
+    texts:
+      - Korintmiako Kenieu
+  - osis: Col
+    texts:
+      - Kolosiko
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatiako
+      - Gal
+  - osis: Eph
+    texts:
+      - Efesako
+      - Efe
+  - osis: Phil
+    texts:
+      - Filipiko
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thesa
+  - osis: 1Thess
+    texts:
+      - Thesaloniako Kerieu
+  - osis: 2Thess
+    texts:
+      - Thesaloniako Kenieu
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tim
+  - osis: 1Tim
+    texts:
+      - Timothi Kerieu
+  - osis: 2Tim
+    texts:
+      - Timothi Kenieu
+  - osis: Titus
+    texts:
+      - Tita
+  - osis: Phlm
+    texts:
+      - Filemon
+      - File
+  - osis: Heb
+    texts:
+      - Ibriko
+      - Ibri
+  - osis: Jas
+    texts:
+      - Jakob
+      - Jak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pit
+  - osis: 1Pet
+    texts:
+      - Pitor Kerieu
+  - osis: 2Pet
+    texts:
+      - Pitor Kenieu
+  - osis: Jude
+    texts:
+      - Juda
+      - Jud
+translations:
+  - ANBRBSI

@@ -1,0 +1,202 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Etanta-nakari
+      - Gn.
+  - osis: Exod
+    texts:
+      - Éxodo
+      - Éx.
+  - osis: Lev
+    texts:
+      - Leví-iti
+      - Lev.
+  - osis: Num
+    texts:
+      - Ikaateeyini
+      - Núm.
+  - osis: Rev
+    texts:
+      - Roñaahan-teetziri
+      - Ap.
+  - osis: Deut
+    texts:
+      - Apiin aani-taneentsiri
+      - Deu.
+  - osis: Josh
+    texts:
+      - Josué
+      - Jos.
+  - osis: Judg
+    texts:
+      - Jewaripaeni
+      - Jc.
+  - osis: Isa
+    texts:
+      - Isaías
+      - Is.
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - S.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Reyes
+      - R.
+  - osis:
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Crónicas
+      - Cr.
+  - osis: Ezra
+    texts:
+      - Esdras
+      - Esd.
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Mampaantsi
+      - Sam.
+  - osis: Jer
+    texts:
+      - Jeremías
+      - Jr.
+  - osis: Ezek
+    texts:
+      - Ezequiel
+      - Eze.
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dn.
+  - osis: Jonah
+    texts:
+      - Jonás
+      - Jon.
+  - osis: Mic
+    texts:
+      - Miqueas
+      - Mq.
+  - osis: Mal
+    texts:
+      - Malaquías
+      - Mal.
+  - osis: Matt
+    texts:
+      - Mateo
+      - Mt.
+  - osis: Mark
+    texts:
+      - Marcos
+      - Mr.
+  - osis: Luke
+    texts:
+      - Lucas
+      - Lc.
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Juan
+      - Jn.
+  - osis: Acts
+    texts:
+      - Rantayi-takiri
+      - Hch.
+  - osis: Rom
+    texts:
+      - Roma-jatzi
+      - Rom.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corinto-jatsi
+      - Co.
+  - osis: Col
+    texts:
+      - Colosas-jatzi
+      - Col.
+  - osis: Gal
+    texts:
+      - Galacia-jatzi
+      - Gal.
+  - osis: Eph
+    texts:
+      - Efeso-jatzi
+      - Ef.
+  - osis: Phil
+    texts:
+      - Filipos-jatzi
+      - Flp.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalónica-jatzi
+      - Te.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+      - Ti.
+  - osis: Titus
+    texts:
+      - Tit.
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filemón
+      - Flm.
+  - osis: Heb
+    texts:
+      - Heber-paeni
+      - Heb.
+  - osis: Jas
+    texts:
+      - Santiaho
+      - Stg.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pedro
+      - P.
+  - osis: Jude
+    texts:
+      - Judas
+      - Jud.
+translations:
+  - CPYB

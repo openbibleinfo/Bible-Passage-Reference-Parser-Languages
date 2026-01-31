@@ -1,0 +1,141 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Dwakam
+      - Dyo
+  - osis: Matt
+    texts:
+      - Matta
+      - Mat
+  - osis: Mark
+    texts:
+      - Markus
+      - Mar
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Yow
+  - osis: 2John
+    texts:
+      - 2Yow
+  - osis: 3John
+    texts:
+      - 3 Yowana
+      - 3Yow
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yowana
+  - osis: John
+    texts:
+      - Yowana
+      - Yow
+  - osis: Acts
+    texts:
+      - Nangi̱n Fandubi̱m
+      - Nfa
+  - osis: Rom
+    texts:
+      - Romam
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Koronti
+  - osis: 1Cor
+    texts:
+      - 1Kor
+  - osis: 2Cor
+    texts:
+      - 2Kor
+  - osis: Col
+    texts:
+      - Kolosiyam
+      - Kol
+  - osis: Gal
+    texts:
+      - Ka̱la̱tiyam
+      - Ka̱l
+  - osis: Eph
+    texts:
+      - Afisam
+      - Afi
+  - osis: Phil
+    texts:
+      - Filibiyam
+      - Fi̱l
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tassalonika
+  - osis: 1Thess
+    texts:
+      - 1Tas
+  - osis: 2Thess
+    texts:
+      - 2Tas
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Titus
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filimon
+      - Fil
+  - osis: Heb
+    texts:
+      - Yibraniyam
+      - Yib
+  - osis: Jas
+    texts:
+      - Yakubu
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Biti̱re
+  - osis: 1Pet
+    texts:
+      - 1Bit
+  - osis: 2Pet
+    texts:
+      - 2Bit
+  - osis: Jude
+    texts:
+      - Yafuda
+      - Yaf
+translations:
+  - TULA

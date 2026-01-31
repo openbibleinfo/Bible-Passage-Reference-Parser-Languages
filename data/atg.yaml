@@ -1,0 +1,112 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Irọkhasẹ
+      - Irọ
+  - osis: Matt
+    texts:
+      - iMatiu
+      - iMat
+  - osis: Mark
+    texts:
+      - iMaki
+      - iMak
+  - osis: Luke
+    texts:
+      - iLuku
+      - iLuk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - iJọni
+      - iJọn
+  - osis: Acts
+    texts:
+      - Ikanya
+      - Ika
+  - osis: Rom
+    texts:
+      - iRoma
+      - iRom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - iKọritia
+      - iKọri
+  - osis: Col
+    texts:
+      - iKolosha
+      - iKolo
+  - osis: Gal
+    texts:
+      - iGalesha
+      - iGal
+  - osis: Eph
+    texts:
+      - Ẹfisha
+      - Ẹfi
+  - osis: Phil
+    texts:
+      - iFilipia
+      - iFili
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - iTẹsalonia
+      - iTẹsa
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Itimoti
+      - iTimo
+  - osis: Titus
+    texts:
+      - iTatọsi
+      - iTatọ
+  - osis: Phlm
+    texts:
+      - iFilẹmọ
+      - iFilẹ
+  - osis: Heb
+    texts:
+      - Iburu
+  - osis: Jas
+    texts:
+      - iJemhisi
+      - iJem
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Ipita
+      - iPit
+  - osis: Jude
+    texts:
+      - iJudu
+      - iJu
+translations:
+  - ATGNT

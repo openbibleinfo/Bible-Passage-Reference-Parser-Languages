@@ -1,0 +1,265 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Abakwane̩
+  - osis: Exod
+    texts:
+      - Akwodufu
+      - Akwo
+  - osis: Lev
+    texts:
+      - Abo Lifai
+      - Lif
+  - osis: Num
+    texts:
+      - Ekaluka
+      - Eka
+  - osis: Lam
+    texts:
+      - Edinaku
+      - Edi
+  - osis: Rev
+    texts:
+      - O̩la E̩bite
+      - E̩bi
+  - osis: Deut
+    texts:
+      - O̩lo̩da Eduwa Onukeji
+      - O̩lo̩
+  - osis: Josh
+    texts:
+      - Jo̩shua
+      - Jo̩s
+  - osis: Judg
+    texts:
+      - Amakajo̩
+  - osis: Ruth
+    texts:
+      - Rutu
+  - osis: Isa
+    texts:
+      - Aizaya
+      - Aiz
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samiue̩l
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+    texts:
+      - Amonu
+      - Amo
+  - osis:
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Amonu
+      - Am
+  - osis:
+      - osis: 1Chr
+        before: *first
+    texts:
+      - Iko Iko E̩wñ
+      - Iko
+  - osis:
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Iko Iko E̩wn
+      - Iko
+  - osis: Ezra
+    texts:
+      - E̩zra
+  - osis: Neh
+    texts:
+      - Nihe̩maya
+      - Nih
+  - osis: Esth
+    texts:
+      - E̩sta
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Eli Eko̩ DʼO̩jo̩
+      - Eli̩
+  - osis: Prov
+    texts:
+      - Ita, Ita
+      - Ita
+  - osis: Eccl
+    texts:
+      - Ako̩la ñw Ujeju
+      - Ako̩
+  - osis: Song
+    texts:
+      - Eli So̩lo̩mo̩n
+      - So̩l
+  - osis: Jer
+    texts:
+      - Je̩re̩maya
+      - Je̩r
+  - osis: Ezek
+    texts:
+      - Izikie̩l
+      - Izi
+  - osis: Dan
+    texts:
+      - Danie̩l
+      - Dan
+  - osis: Hos
+    texts:
+      - Hosiya
+      - Hos
+  - osis: Joel
+    texts:
+      - Joe̩l
+  - osis: Amos
+    texts:
+      - Emo̩s
+  - osis: Obad
+    texts:
+      - O̩badaya
+      - O̩ba
+  - osis: Jonah
+    texts:
+      - Jona
+  - osis: Mic
+    texts:
+      - Maika
+      - Mai
+  - osis: Nah
+    texts:
+      - Nehum
+  - osis: Hab
+    texts:
+      - Habakuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Ze̩fanaya
+      - Ze̩f
+  - osis: Hag
+    texts:
+      - Hagai
+      - Hag
+  - osis: Zech
+    texts:
+      - Ze̩karaya
+      - Ze̩k
+  - osis: Mal
+    texts:
+      - Malakai
+  - osis: Matt
+    texts:
+      - Matiu
+      - Mat
+  - osis: Mark
+    texts:
+      - Mark
+  - osis: Luke
+    texts:
+      - Luku
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jo̩n
+  - osis: Acts
+    texts:
+      - E̩wñ kʼAme̩nukpuche̩ Che
+      - E̩wñ
+  - osis: Rom
+    texts:
+      - Abo Rom
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Abo Ko̩rint
+      - Ko̩r
+  - osis: Col
+    texts:
+      - Abo Ko̩lo̩se
+      - Ko̩l
+  - osis: Gal
+    texts:
+      - Abo Galatia
+      - Gal
+  - osis: Eph
+    texts:
+      - Abo E̩fe̩sus
+      - E̩f
+  - osis: Phil
+    texts:
+      - Abo Filipai
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Te̩s
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Abo Te̩se̩lonaika
+      - Te̩s
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+      - Tim
+  - osis: Titus
+    texts:
+      - Taito̩s
+      - Tai
+  - osis: Phlm
+    texts:
+      - Filimo̩n
+      - Fili
+  - osis: Heb
+    texts:
+      - Abo Hibru
+      - Hib
+  - osis: Jas
+    texts:
+      - Jeme̩s
+      - Jem
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+  - osis: Jude
+    texts:
+      - Jud
+translations:
+  - IGL70

@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: १ इतिहास
+    short: १ इति
+  1Cor:
+    long: १ कोरिन्‍थी
+    short: १ कोर
+  1John:
+    long: १ यूहन्‍ना
+    short: १ यूह
+  1Kgs:
+    long: १ राजा
+    short: १ राज
+  1Pet:
+    long: १ पत्रुस
+    short: १ पत्र
+  1Sam:
+    long: १ शमूएल
+    short: १ शमू
+  1Thess:
+    long: १ थेसलोनिकी
+    short: १ थेस
+  1Tim:
+    long: १ तिमोथी
+    short: १ तिमो
+  2Chr:
+    long: २ इतिहास
+    short: २ इति
+  2Cor:
+    long: २ कोरिन्‍थी
+    short: २ कोर
+  2John:
+    long: २ यूहन्‍ना
+    short: २ यूह
+  2Kgs:
+    long: २ राजा
+    short: २ राज
+  2Pet:
+    long: २ पत्रुस
+    short: २ पत्र
+  2Sam:
+    long: २ शमूएल
+    short: २ शमू
+  2Thess:
+    long: २ थेसलोनिकी
+    short: २ थेस
+  2Tim:
+    long: २ तिमोथी
+    short: २ तिमो
+  3John:
+    long: ३ यूहन्‍ना
+    short: ३ यूह
+  Acts:
+    long: प्रेरित
+    short: प्रे
+  Amos:
+    long: आमोस
+    short: आमो
+  Col:
+    long: कलस्‍सी
+    short: कल
+  Dan:
+    long: दानिएल
+    short: दान
+  Deut:
+    long: व्‍यवस्‍था
+    short: व्‍य
+  Eccl:
+    long: उपदेशक
+    short: उप
+  Eph:
+    long: एफिसी
+    short: एफि
+  Esth:
+    long: एस्‍तर
+    short: एस
+  Exod:
+    long: प्रस्‍थान
+    short: प्रस
+  Ezek:
+    long: इजकिएल
+    short: इज
+  Ezra:
+    long: एज्रा
+    short: एज्र
+  Gal:
+    long: गलाती
+    short: गला
+  Gen:
+    long: उत्‍पत्ति
+    short: उत
+  Hab:
+    long: हबकूक
+    short: हब
+  Hag:
+    long: हाग्‍गै
+    short: हाग
+  Heb:
+    long: हिब्रू
+    short: हिब
+  Hos:
+    long: होशे
+    short: होशे
+  Isa:
+    long: यशैया
+    short: यशै
+  Jas:
+    long: याकूब
+    short: याक
+  Jer:
+    long: यर्मिया
+    short: यर
+  Job:
+    long: अय्‍यूब
+    short: अयू
+  Joel:
+    long: योएल
+    short: योए
+  John:
+    long: यूहन्‍ना
+    short: यूह
+  Jonah:
+    long: योना
+    short: योना
+  Josh:
+    long: यहोशू
+    short: यहो
+  Jude:
+    long: यहूदा
+    short: यहू
+  Judg:
+    long: न्‍यायकर्ता
+    short: न्‍याय
+  Lam:
+    long: विलाप
+    short: विलाप
+  Lev:
+    long: लेवी
+    short: लेवी
+  Luke:
+    long: लूका
+    short: लूक
+  Mal:
+    long: मलाकी
+    short: मला
+  Mark:
+    long: मर्कूस
+    short: मर्क
+  Matt:
+    long: मत्ती
+    short: मत्ती
+  Mic:
+    long: मीका
+    short: मीका
+  Nah:
+    long: नहूम
+    short: नहू
+  Neh:
+    long: नहेम्‍याह
+    short: नहे
+  Num:
+    long: गन्‍ती
+    short: गन्‍ती
+  Obad:
+    long: ओबदिया
+    short: ओब
+  Phil:
+    long: फिलिप्‍पी
+    short: फिलि
+  Phlm:
+    long: फिलेमोन
+    short: फिले
+  Prov:
+    long: हितोपदेश
+    short: हितो
+  Ps:
+    long: भजन
+    short: भज
+  Rev:
+    long: प्रकाश
+    short: प्रका
+  Rom:
+    long: रोमी
+    short: रोम
+  Ruth:
+    long: रूथ
+    short: रूथ
+  Song:
+    long: श्रेष्‍ठगीत
+    short: श्रेष्‍ठ
+  Titus:
+    long: तीतस
+    short: तीत
+  Zech:
+    long: जकरिया
+    short: जक
+  Zeph:
+    long: सपन्‍याह
+    short: सप

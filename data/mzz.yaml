@@ -1,0 +1,62 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Kabavelamu
+      - Kaba
+  - osis: Exod
+    texts:
+      - Isauyedi
+      - Isa
+  - osis: Num
+    texts:
+      - Wawa
+  - osis: Deut
+    texts:
+      - Loina Kanaveluqa
+      - Loi2
+  - osis: Lev
+    texts:
+      - Loina
+      - Loi
+  - osis: Josh
+    texts:
+      - Iosua
+      - Ios
+  - osis: Judg
+    texts:
+      - Toloina Bwaigidi
+      - Tol
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuela
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Kinivo
+      - Ki
+  - osis: Mark
+    texts:
+      - Malika
+      - Mak
+  - osis: Luke
+    texts:
+      - Luke
+  - osis: Acts
+    texts:
+      - Apositolo Divalabubuna
+      - Aposi
+translations:
+  - MZZ

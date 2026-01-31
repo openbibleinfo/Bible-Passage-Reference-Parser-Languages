@@ -1,0 +1,111 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Apokalipse
+      - Ap
+  - osis: Matt
+    texts:
+      - Mãteo
+      - Mt
+  - osis: Mark
+    texts:
+      - Mã'ak
+      - Mk
+  - osis: Luke
+    texts:
+      - Nok
+      - Nk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yoãm
+      - Yo
+  - osis: Acts
+    texts:
+      - "'At"
+      - At
+  - osis: Rom
+    texts:
+      - Hõmãn
+      - Hm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Konĩn
+      - Ko
+  - osis: Col
+    texts:
+      - Konoxẽn
+      - Kon
+  - osis: Gal
+    texts:
+      - Gat
+  - osis: Eph
+    texts:
+      - "'Epex"
+      - Ep
+  - osis: Phil
+    texts:
+      - Pinipẽn
+      - Pp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Texanõn
+      - Tx
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tĩmõn
+      - Tm
+  - osis: Titus
+    texts:
+      - Tit
+      - Tt
+  - osis: Phlm
+    texts:
+      - Pinẽm
+      - Pm
+  - osis: Heb
+    texts:
+      - "'Emeo"
+      - Em
+  - osis: Jas
+    texts:
+      - Tiak
+      - Tk
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pet
+      - Pe
+  - osis: Jude
+    texts:
+      - Yot
+translations:
+  - MBL

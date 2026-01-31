@@ -1,0 +1,224 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Ndak Wiridnak Wene
+      - Ndak
+  - osis: Exod
+    texts:
+      - Mbiriga Wene
+      - Mbir
+  - osis: Lev
+    texts:
+      - Tepan Ombo-nen Kwarurak Wene
+      - Tep
+  - osis: Num
+    texts:
+      - Wonaridnak Wene
+      - Won
+  - osis: Rev
+    texts:
+      - Nam Para Wene
+  - osis: Deut
+    texts:
+      - Tuguruk Yidnak Wene
+      - Tug
+  - osis: Josh
+    texts:
+      - Yosua
+      - Yos
+  - osis: Judg
+    texts:
+      - Wene Mbenarugwi Nap-nen Kwaridnak Wene
+      - Mben
+  - osis: Ruth
+    texts:
+      - Urut
+  - osis: Isa
+    texts:
+      - Yesaya
+      - Yes
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Semuel
+      - Sem
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Nagawan Nagawan-nen Kwaridnak Wene
+      - Nag
+  - osis: Ezra
+    texts:
+      - Esera
+  - osis: Neh
+    texts:
+      - Nemia
+      - Nem
+  - osis: Esth
+    texts:
+      - Eset
+  - osis: Job
+    texts:
+      - Ayup
+  - osis: Ps
+    texts:
+      - Ndawi Engga
+      - Nda
+  - osis: Prov
+    texts:
+      - Nggomo Wene
+      - Nggom
+  - osis: Eccl
+    texts:
+      - Aid Wene Yoso Nap
+      - Aid
+  - osis: Jer
+    texts:
+      - Yeremia
+      - Yer
+  - osis: Ezek
+    texts:
+      - Yeskiel
+      - Yesk
+  - osis: Dan
+    texts:
+      - Ndaniel
+      - Ndan
+  - osis: Hos
+    texts:
+      - Osea
+  - osis: Joel
+    texts:
+      - Yoel
+  - osis: Amos
+    texts:
+      - Amos
+  - osis: Jonah
+    texts:
+      - Yunus
+  - osis: Mic
+    texts:
+      - Mika
+  - osis: Hab
+    texts:
+      - Abakuk
+      - Abak
+  - osis: Zech
+    texts:
+      - Sakaria
+      - Sak
+  - osis: Mal
+    texts:
+      - Maleaki
+      - Mal
+  - osis: Matt
+    texts:
+      - Matius
+      - Mt
+  - osis: Mark
+    texts:
+      - Marakus
+      - Mk
+  - osis: Luke
+    texts:
+      - Lukas
+      - Lk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yoanes
+      - Yo
+  - osis: Acts
+    texts:
+      - Yidnak Yidnak Wene
+      - YidW
+  - osis: Rom
+    texts:
+      - Oroma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintus
+      - Kor
+  - osis: Col
+    texts:
+      - Kolose
+      - Kol
+  - osis: Gal
+    texts:
+      - Nggalatia
+      - Nggal
+  - osis: Eph
+    texts:
+      - Epesus
+      - Ep
+  - osis: Phil
+    texts:
+      - Pilipi
+      - Pil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonika
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotius
+      - Tim
+  - osis: Titus
+    texts:
+      - Titus
+  - osis: Phlm
+    texts:
+      - Pilemon
+      - Pile
+  - osis: Heb
+    texts:
+      - Iberani
+      - Ibr
+  - osis: Jas
+    texts:
+      - Yakobus
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peterus
+      - Pet
+  - osis: Jude
+    texts:
+      - Yuras
+translations:
+  - INONDX

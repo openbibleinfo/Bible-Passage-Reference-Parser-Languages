@@ -1,0 +1,31 @@
+default:
+  1Cor:
+    long: 1 Co
+    short: 1 Co
+  1John:
+    long: 1 Jn
+    short: 1 Jn
+  1Thess:
+    long: 1 Ts
+    short: 1 Ts
+  2Cor:
+    long: 2 Co
+    short: 2 Co
+  2Thess:
+    long: 2 Ts
+    short: 2 Ts
+  Acts:
+    long: Hch
+    short: Hch
+  Jas:
+    long: Stg
+    short: Stg
+  Mark:
+    long: Mr
+    short: Mr
+  Phil:
+    long: Flp
+    short: Flp
+  Rev:
+    long: Ap
+    short: Ap

@@ -1,0 +1,304 @@
+default:
+  1Chr:
+    long: 1 Mihayo ya Shikū
+    short: 1Mi
+  1Cor:
+    long: 1 Bakolinto
+    short: 1 Bkr.
+  1John:
+    long: 1 Yohana
+    short: 1 Yh.
+  1Kgs:
+    long: 1 Batemi
+    short: 1Ba
+  1Pet:
+    long: 1 Petelo
+    short: 1 Pt.
+  1Sam:
+    long: 1 Sang'weli
+    short: 1Sa
+  1Thess:
+    long: 1 Batesalonike
+    short: 1 Bth.
+  1Tim:
+    long: 1 Timoteo
+    short: 1 Tm.
+  2Chr:
+    long: 2 Mihayo ya Shikū
+    short: 2Mi
+  2Cor:
+    long: 2 Bakolinto
+    short: 2 Bkr.
+  2John:
+    long: 2 Yohana
+    short: 2 Yh.
+  2Kgs:
+    long: 2 Batemi
+    short: 2Ba
+  2Pet:
+    long: 2 Petelo
+    short: 2 Pt.
+  2Sam:
+    long: 2 Sang'weli
+    short: 2Sa
+  2Thess:
+    long: 2 Batesalonike
+    short: 2 Bth.
+  2Tim:
+    long: 2 Timoteo
+    short: 2 Tm.
+  3John:
+    long: 3 Yohana
+    short: 3 Yh.
+  Acts:
+    long: Shitwa Sha Batungʼwa
+    short: Shī
+  Amos:
+    long: Amosi
+    short: Amo
+  Col:
+    long: BaKolose
+    short: Bkl
+  Dan:
+    long: Danyeli
+    short: Dan
+  Deut:
+    long: Kūshokeela
+    short: Kūs
+  Eccl:
+    long: Nomeji
+    short: Nom
+  Eph:
+    long: BaEfeso
+    short: Bfe
+  Esth:
+    long: Esita
+    short: Esi
+  Exod:
+    long: Kūfuma
+    short: Kūf
+  Ezek:
+    long: Ezekia
+    short: Eze
+  Ezra:
+    long: Ezila
+    short: Ezi
+  Gal:
+    long: BaGalatia
+    short: Bag
+  Gen:
+    long: wandījo
+    short: Wan
+  Hab:
+    long: Habakuki
+    short: Hab
+  Hag:
+    long: Hagai
+    short: Hag
+  Heb:
+    long: Bahebulania
+    short: Bah
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Isaya
+    short: Isa
+  Jas:
+    long: Yakobo
+    short: Yak
+  Jer:
+    long: Yelemia
+    short: Yel
+  Job:
+    long: Ayubu
+    short: Ayu
+  Joel:
+    long: Yoeli
+    short: Yoe
+  John:
+    long: Yohana
+    short: Yoh
+  Jonah:
+    long: Yona
+    short: Yon
+  Josh:
+    long: Yoshwa
+    short: Yos
+  Jude:
+    long: Yuda
+    short: Yud
+  Judg:
+    long: Balamuji
+    short: Bal
+  Lam:
+    long: Ng'hūngū
+    short: Ng'h
+  Lev:
+    long: Bagabīji
+    short: Bag
+  Luke:
+    long: Luka
+    short: Luk
+  Mal:
+    long: Malaki
+    short: Mal
+  Mark:
+    long: Maliko
+    short: Mko
+  Matt:
+    long: Matayo
+    short: Mat
+  Mic:
+    long: Mika
+    short: MiK
+  Nah:
+    long: Nahumu
+    short: Nah
+  Neh:
+    long: Nehemia
+    short: Neh
+  Num:
+    long: Kūbala
+    short: Kūb
+  Obad:
+    long: Obadia
+    short: Oba
+  Phil:
+    long: BaFilipi
+    short: Bfi
+  Phlm:
+    long: Filimoni
+    short: Fil
+  Prov:
+    long: Sumo
+    short: Sum
+  Ps:
+    long: Zabuli
+    short: Zab
+  Rev:
+    long: Kūkundūlīlwa
+    short: Kūk
+  Rom:
+    long: Balumi
+    short: Blm
+  Ruth:
+    long: Luuzi
+    short: Luz
+  Song:
+    long: Lyīmbo lya ng'wa Solomoni
+    short: Lyi
+  Titus:
+    long: Tito
+    short: Tit
+  Zech:
+    long: Zakalia
+    short: Zak
+  Zeph:
+    long: Zefania
+    short: Zef
+translations:
+  sukbi15:
+    1Cor:
+      short: 1Bk
+    1John:
+      short: 1Yh
+    1Pet:
+      short: 1Pe
+    1Thess:
+      short: 1Bt
+    1Tim:
+      short: 1Ti
+    2Cor:
+      short: 2Bk
+    2John:
+      short: 2Yh
+    2Pet:
+      short: 2Pe
+    2Thess:
+      short: 2Bt
+    2Tim:
+      short: 2Ti
+    3John:
+      short: 3Yh
+    Acts:
+      long: Shītwa sha Batūng'wa
+    Gal:
+      short: Baga
+  snt00:
+    1Cor:
+      short: 1Bko
+    1John:
+      short: 1Yoh
+    1Pet:
+      short: 1Pet
+    1Thess:
+      short: 1Bte
+    1Tim:
+      short: 1Tim
+    2Cor:
+      short: 2Bko
+    2John:
+      short: 2Yoh
+    2Pet:
+      short: 2Pet
+    2Thess:
+      short: 2Bte
+    2Tim:
+      short: 2Tim
+    3John:
+      short: 3Yoh
+    Acts:
+      long: Shītwa
+    Phlm:
+      short: Flm
+  suk60:
+    1Cor:
+      long: 1 Bakorintho
+    1Pet:
+      long: 1 Petro
+    1Thess:
+      long: 1 Bathesalonika
+    2Cor:
+      long: 2 Bakorintho
+    2Pet:
+      long: 2 Petro
+    2Thess:
+      long: 2 Bathesalonika
+    Acts:
+      short: Shi.
+    Col:
+      short: Bkl.
+    Eph:
+      short: Baef.
+    Gal:
+      short: Bgl.
+    Heb:
+      long: Bahebrania
+      short: Bah.
+    Jas:
+      short: Yk.
+    John:
+      short: Yh.
+    Jude:
+      short: Yd.
+    Luke:
+      short: Lk.
+    Mark:
+      long: Marko
+      short: Mk.
+    Matt:
+      short: Mt.
+    Phil:
+      short: Bfl.
+    Phlm:
+      long: Filemoni
+      short: Fil.
+    Rev:
+      long: Kukundulwa
+      short: Kk.
+    Rom:
+      long: Barumi
+      short: Br.
+    Titus:
+      short: Tt.

@@ -1,0 +1,291 @@
+books:
+  - osis: Gen
+    texts:
+      - Siin Giala
+      - Sgk
+  - osis: Exod
+    texts:
+      - Bɔ bɛ̀rɛbaa nɛ
+      - Bbn
+  - osis: Lev
+    texts:
+      - Lawa a wúlu-bɔlen
+      - Lws
+  - osis: Num
+    texts:
+      - Minin nimi
+      - Mns
+  - osis: Wis
+    texts:
+      - Yiriwoorobaa ǹ sɛ́wɔ
+      - Yws
+  - osis: Sir
+    texts:
+      - Yiriwoorobaa
+      - Srs
+  - osis: Lam
+    texts:
+      - Busii pɛ
+      - Bps
+  - osis: Rev
+    texts:
+      - Sii-nyaan
+      - Sns
+  - osis: Deut
+    texts:
+      - Timəə dí-pɛn
+      - Tdp
+  - osis: Josh
+    texts:
+      - Zozoe
+      - Zoz
+  - osis: Judg
+    texts:
+      - Sii yɔrɔ-bɔlen
+      - Syb
+  - osis: Ruth
+    texts:
+      - Uruti
+      - Uru
+  - osis: Isa
+    texts:
+      - Izayii
+      - Iza
+  - osis: 1Sam
+    texts:
+      - Samayeli1
+      - Sam1
+  - osis: 2Sam
+    texts:
+      - Samayeli2
+      - Sam2
+  - osis: 1Kgs
+    texts:
+      - Kiin1
+  - osis: 2Kgs
+    texts:
+      - Kiin2
+  - osis: 1Chr
+    texts:
+      - Kiin zɛnaa ǹ sii sɛ́wɔ bibinaa
+      - Kzs1
+  - osis: 2Chr
+    texts:
+      - Kiin zɛnaa ǹ sii sɛ́wɔ paabaa ǹ wɔ
+      - Kzs2
+  - osis: Ezra
+    texts:
+      - Ɛsidrasi
+      - Ɛsid
+  - osis: Neh
+    texts:
+      - Nehemii
+      - Neh
+  - osis: Esth
+    texts:
+      - Ɛsit
+  - osis: Job
+    texts:
+      - Zɔbu
+      - Zɔb
+  - osis: Prov
+    texts:
+      - Suusun
+      - Suu
+  - osis: Eccl
+    texts:
+      - Boo-laakalaali
+      - Bls
+  - osis: Song
+    texts:
+      - Loe kɔɔ̃n kɔɔ̃n
+      - Lkk
+  - osis: Ps
+    texts:
+      - Loen
+      - Loe
+  - osis: Jer
+    texts:
+      - Zeremii
+      - Zer
+  - osis: Ezek
+    texts:
+      - Ezekieli
+      - Eze
+  - osis: Dan
+    texts:
+      - Dan
+  - osis: Hos
+    texts:
+      - Ozee
+      - Oz
+  - osis: Joel
+    texts:
+      - Zowɛli
+      - Zow
+  - osis: Amos
+    texts:
+      - Amɔɔsi
+      - Amɔ
+  - osis: Obad
+    texts:
+      - Abdiasi
+      - Abd
+  - osis: Jonah
+    texts:
+      - Zonaasi
+      - Zon
+  - osis: Mic
+    texts:
+      - Misee
+      - Mis
+  - osis: Nah
+    texts:
+      - Nahumu
+      - Nah
+  - osis: Hab
+    texts:
+      - Abakuku
+      - Abak
+  - osis: Zeph
+    texts:
+      - Sofonii
+      - Sof
+  - osis: Hag
+    texts:
+      - Azee
+      - Aze
+  - osis: Zech
+    texts:
+      - Zakarii
+      - Zak
+  - osis: Mal
+    texts:
+      - Malakii
+      - Mal
+  - osis: Matt
+    texts:
+      - Matiə
+      - Mat
+  - osis: Mark
+    texts:
+      - Marki
+      - Mar
+  - osis: Luke
+    texts:
+      - Luku
+      - Luk
+  - osis: 1John
+    texts:
+      - Zaã1
+  - osis: 2John
+    texts:
+      - Zaã2
+  - osis: 3John
+    texts:
+      - Zaã3
+  - osis: John
+    texts:
+      - Zaã
+  - osis: Acts
+    texts:
+      - Nya ǹ dín
+      - Nds
+  - osis: Rom
+    texts:
+      - Rɔmu minin
+      - Rɔm
+  - osis: 1Cor
+    texts:
+      - Korɛnti1
+      - Kor1
+  - osis: 2Cor
+    texts:
+      - Korɛnti2
+      - Kor2
+  - osis: Col
+    texts:
+      - Kolɔɔsi minin
+      - Kol
+  - osis: Gal
+    texts:
+      - Galaasi minin
+      - Gal
+  - osis: Eph
+    texts:
+      - Efɛɛzi minin
+      - Efɛ
+  - osis: Phil
+    texts:
+      - Filipi minin
+      - Fili
+  - osis: 1Thess
+    texts:
+      - Tesaloniki1
+      - Tes1
+  - osis: 2Thess
+    texts:
+      - Tesaloniki2
+      - Tes2
+  - osis: 1Tim
+    texts:
+      - Timote1
+      - Tim1
+  - osis: 2Tim
+    texts:
+      - Timote2
+      - Tim2
+  - osis: Titus
+    texts:
+      - Tiitii
+      - Tiiti
+  - osis: Phlm
+    texts:
+      - Filemɔn
+      - File
+  - osis: Heb
+    texts:
+      - Ebrəə
+      - Ebr
+  - osis: Jas
+    texts:
+      - Zaaki
+  - osis: 1Pet
+    texts:
+      - Piɛrɛ1
+      - Piɛ1
+  - osis: 2Pet
+    texts:
+      - Piɛrɛ2
+      - Piɛ2
+  - osis: Jude
+    texts:
+      - Zude
+      - Zud
+  - osis: Tob
+    texts:
+      - Tobiti
+      - Tbt
+  - osis: Jdt
+    texts:
+      - Zuditi
+      - Zdt
+  - osis: Bar
+    texts:
+      - Baruku
+      - Bar
+  - osis: 1Macc
+    texts:
+      - Makaabee1
+      - Mkb1
+  - osis: 2Macc
+    texts:
+      - Makaabee2
+      - Mkb2
+  - osis: EsthGr
+    texts:
+      - Ɛsitɛɛrɛ Grɛki
+      - EsG
+translations:
+  - SCE2013
+  - SBPE2011

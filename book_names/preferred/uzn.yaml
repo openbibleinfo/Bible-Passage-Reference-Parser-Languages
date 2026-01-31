@@ -1,0 +1,399 @@
+default:
+  1Chr:
+    long: 1 Solnomalar
+    short: 1Sol
+  1Cor:
+    long: 1 Korinfliklar
+    short: 1Kor
+  1John:
+    long: 1 Yuhanno
+    short: 1Yuh
+  1Kgs:
+    long: 3 Shohlar
+    short: 3Sh
+  1Pet:
+    long: 1 Butrus
+    short: 1Btr
+  1Sam:
+    long: 1 Shohlar
+    short: 1Sh
+  1Thess:
+    long: 1 Salonikaliklar
+    short: 1Sal
+  1Tim:
+    long: 1 Timoʻtiy
+    short: 1Tim
+  2Chr:
+    long: 2 Solnomalar
+    short: 2Sol
+  2Cor:
+    long: 2 Korinfliklar
+    short: 2Kor
+  2John:
+    long: 2 Yuhanno
+    short: 2Yuh
+  2Kgs:
+    long: 4 Shohlar
+    short: 4Sh
+  2Pet:
+    long: 2 Butrus
+    short: 2Btr
+  2Sam:
+    long: 2 Shohlar
+    short: 2Sh
+  2Thess:
+    long: 2 Salonikaliklar
+    short: 2Sal
+  2Tim:
+    long: 2 Timoʻtiy
+    short: 2Tim
+  3John:
+    long: 3 Yuhanno
+    short: 3Yuh
+  Acts:
+    long: Havoriylar
+    short: Hav
+  Amos:
+    long: Amos
+    short: Amos
+  Col:
+    long: Kolosaliklar
+    short: Kol
+  Dan:
+    long: Doniyor
+    short: Dnr
+  Deut:
+    long: Qonunlar
+    short: Qnlr
+  Eccl:
+    long: Voiz
+    short: Voiz
+  Eph:
+    long: Efesliklar
+    short: Efs
+  Esth:
+    long: Ester
+    short: Est
+  Exod:
+    long: Chiqish
+    short: Chq
+  Ezek:
+    long: Hizqiyol
+    short: Hiz
+  Ezra:
+    long: Ezra
+    short: Ezra
+  Gal:
+    long: Galatiyaliklar
+    short: Gal
+  Gen:
+    long: Ibtido
+    short: Ibt
+  Hab:
+    long: Xabaqquq
+    short: Xbq
+  Hag:
+    long: Xaggey
+    short: Xag
+  Heb:
+    long: Ibroniylar
+    short: Ibr
+  Hos:
+    long: Xoʻsheya
+    short: Xsha
+  Isa:
+    long: Ishayo
+    short: Isha
+  Jas:
+    long: Yoqub
+    short: Yoqb
+  Jer:
+    long: Yeremiyo
+    short: Yerm
+  Job:
+    long: Ayub
+    short: Ayub
+  Joel:
+    long: Yoʻel
+    short: Yoʻel
+  John:
+    long: Yuhanno
+    short: Yuhn
+  Jonah:
+    long: Yunus
+    short: Yun
+  Josh:
+    long: Yoshua
+    short: Ysha
+  Jude:
+    long: Yahudo
+    short: Yahd
+  Judg:
+    long: Hakamlar
+    short: Hak
+  Lam:
+    long: Marsiya
+    short: Mrs
+  Lev:
+    long: Levilar
+    short: Lev
+  Luke:
+    long: Luqo
+    short: Luqo
+  Mal:
+    long: Malaki
+    short: Mal
+  Mark:
+    long: Mark
+    short: Mark
+  Matt:
+    long: Matto
+    short: Mat
+  Mic:
+    long: Mixo
+    short: Mixo
+  Nah:
+    long: Noxum
+    short: Nox
+  Neh:
+    long: Naximiyo
+    short: Nax
+  Num:
+    long: Sahroda
+    short: Sah
+  Obad:
+    long: Obodiyo
+    short: Obd
+  Phil:
+    long: Filippiliklar
+    short: Flp
+  Phlm:
+    long: Filimoʻn
+    short: Flm
+  Prov:
+    long: Hikmatlar
+    short: Hik
+  Ps:
+    long: Zabur
+    short: Zab
+  Rev:
+    long: Vahiy
+    short: Vah
+  Rom:
+    long: Rimliklar
+    short: Rim
+  Ruth:
+    long: Rut
+    short: Rut
+  Song:
+    long: Qoʻshiq
+    short: Qshq
+  Titus:
+    long: Titus
+    short: Tit
+  Zech:
+    long: Zakariyo
+    short: Zkr
+  Zeph:
+    long: Zafaniyo
+    short: Zfn
+translations:
+  uzbbc:
+    1Chr:
+      long: 1 Солномалар
+      short: 1Сол
+    1Cor:
+      long: 1 Коринфликлар
+      short: 1Кор
+    1John:
+      long: 1 Юҳанно
+      short: 1Юҳ
+    1Kgs:
+      long: 3 Шоҳлар
+      short: 3Шҳ
+    1Pet:
+      long: 1 Бутрус
+      short: 1Бтр
+    1Sam:
+      long: 1 Шоҳлар
+      short: 1Шҳ
+    1Thess:
+      long: 1 Салоникаликлар
+      short: 1Сал
+    1Tim:
+      long: 1 Тимўтий
+      short: 1Тим
+    2Chr:
+      long: 2 Солномалар
+      short: 2Сол
+    2Cor:
+      long: 2 Коринфликлар
+      short: 2Кор
+    2John:
+      long: 2 Юҳанно
+      short: 2Юҳ
+    2Kgs:
+      long: 4 Шоҳлар
+      short: 4Шҳ
+    2Pet:
+      long: 2 Бутрус
+      short: 2Бтр
+    2Sam:
+      long: 2 Шоҳлар
+      short: 2Шҳ
+    2Thess:
+      long: 2 Салоникаликлар
+      short: 2Сал
+    2Tim:
+      long: 2 Тимўтий
+      short: 2Тим
+    3John:
+      long: 3 Юҳанно
+      short: 3Юҳ
+    Acts:
+      long: Ҳаворийлар
+      short: Ҳав
+    Amos:
+      long: Амос
+      short: Амос
+    Col:
+      long: Колосаликлар
+      short: Кол
+    Dan:
+      long: Дониёр
+      short: Днр
+    Deut:
+      long: Қонунлар
+      short: Қнлр
+    Eccl:
+      long: Воиз
+      short: Воиз
+    Eph:
+      long: Эфесликлар
+      short: Эфс
+    Esth:
+      long: Эстер
+      short: Эст
+    Exod:
+      long: Чиқиш
+      short: Чқш
+    Ezek:
+      long: Ҳизқиёл
+      short: Ҳиз
+    Ezra:
+      long: Эзра
+      short: Эзра
+    Gal:
+      long: Галатияликлар
+      short: Гал
+    Gen:
+      long: Ибтидо
+      short: Ибт
+    Hab:
+      long: Хабаққуқ
+      short: Хбқ
+    Hag:
+      long: Хаггей
+      short: Хаг
+    Heb:
+      long: Ибронийлар
+      short: Ибр
+    Hos:
+      long: Хўшея
+      short: Хшя
+    Isa:
+      long: Ишаё
+      short: Иша
+    Jas:
+      long: Ёқуб
+      short: Ёқуб
+    Jer:
+      long: Еремиё
+      short: Ерм
+    Job:
+      long: Аюб
+      short: Аюб
+    Joel:
+      long: Йўэл
+      short: Йўэл
+    John:
+      long: Юҳанно
+      short: Юҳн
+    Jonah:
+      long: Юнус
+      short: Юнс
+    Josh:
+      long: Ёшуа
+      short: Ёшуа
+    Jude:
+      long: Яҳудо
+      short: Яҳд
+    Judg:
+      long: Ҳакамлар
+      short: Ҳак
+    Lam:
+      long: Марсия
+      short: Мрс
+    Lev:
+      long: Левилар
+      short: Лев
+    Luke:
+      long: Луқо
+      short: Луқо
+    Mal:
+      long: Малаки
+      short: Мал
+    Mark:
+      long: Марк
+      short: Марк
+    Matt:
+      long: Матто
+      short: Мат
+    Mic:
+      long: Михо
+      short: Михо
+    Nah:
+      long: Нохум
+      short: Нох
+    Neh:
+      long: Нахимиё
+      short: Нах
+    Num:
+      long: Саҳрода
+      short: Саҳ
+    Obad:
+      long: Ободиё
+      short: Обд
+    Phil:
+      long: Филиппиликлар
+      short: Флп
+    Phlm:
+      long: Филимўн
+      short: Флм
+    Prov:
+      long: Ҳикматлар
+      short: Ҳик
+    Ps:
+      long: Забур
+      short: Заб
+    Rev:
+      long: Ваҳий
+      short: Ваҳ
+    Rom:
+      long: Римликлар
+      short: Рим
+    Ruth:
+      long: Рут
+      short: Рут
+    Song:
+      long: Қўшиқ
+      short: Қшқ
+    Titus:
+      long: Титус
+      short: Тит
+    Zech:
+      long: Закариё
+      short: Зкр
+    Zeph:
+      long: Зафаниё
+      short: Зфн

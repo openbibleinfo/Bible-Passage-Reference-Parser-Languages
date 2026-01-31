@@ -1,0 +1,216 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Gẹnẹsisi
+  - osis: Exod
+    texts:
+      - Eksọdusi
+  - osis: Lev
+    texts:
+      - Levitiku
+  - osis: Num
+    texts:
+      - Osọha lẹ
+  - osis: Lam
+    texts:
+      - Avigbè Jẹlemia Tọn
+  - osis: Rev
+    texts:
+      - Osọhia
+  - osis: Deut
+    texts:
+      - Deutelonomi
+  - osis: Josh
+    texts:
+      - Jọṣua
+  - osis: Judg
+    texts:
+      - Whẹ̀datọ
+  - osis: Ruth
+    texts:
+      - Luti
+  - osis: Isa
+    texts:
+      - Isaia
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuẹli
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Ahọlu Lẹ
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Otànnugbo Lẹ
+  - osis: Ezra
+    texts:
+      - Ẹzla
+  - osis: Neh
+    texts:
+      - Nẹhemia
+  - osis: Esth
+    texts:
+      - Ẹsteli
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Psalm
+  - osis: Prov
+    texts:
+      - Hówhínwhén Lẹ
+  - osis: Eccl
+    texts:
+      - Yewhehódọtọ
+  - osis: Song
+    texts:
+      - Ohàn Sọlọmọni Tọn
+  - osis: Jer
+    texts:
+      - Jẹlemia
+  - osis: Ezek
+    texts:
+      - Ezekieli
+  - osis: Dan
+    texts:
+      - Daniẹli
+  - osis: Hos
+    texts:
+      - Hosea
+  - osis: Joel
+    texts:
+      - Joẹli
+  - osis: Amos
+    texts:
+      - Amọsi
+  - osis: Obad
+    texts:
+      - Obadia
+  - osis: Jonah
+    texts:
+      - Jona
+  - osis: Mic
+    texts:
+      - Mika
+  - osis: Nah
+    texts:
+      - Nahumi
+  - osis: Hab
+    texts:
+      - Habbakuk
+  - osis: Zeph
+    texts:
+      - Zẹfania
+  - osis: Hag
+    texts:
+      - Hagai
+  - osis: Zech
+    texts:
+      - Zekalia
+  - osis: Mal
+    texts:
+      - Malaki
+  - osis: Matt
+    texts:
+      - Matiu
+  - osis: Mark
+    texts:
+      - Malku
+  - osis: Luke
+    texts:
+      - Luku
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Johanu
+  - osis: Acts
+    texts:
+      - Owalọ Apọsteli Lẹ Tọn
+  - osis: Rom
+    texts:
+      - Lomunu Lẹ
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kọlintinu Lẹ
+  - osis: Col
+    texts:
+      - Kọlọsinu
+  - osis: Gal
+    texts:
+      - Galatianu Lẹ
+  - osis: Eph
+    texts:
+      - Efesunu Lẹ
+  - osis: Phil
+    texts:
+      - Filippinu Lẹ
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Tẹsalonikanu Le
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tẹsalonikanu Lẹ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: Titus
+    texts:
+      - Titu
+  - osis: Phlm
+    texts:
+      - Filemoni
+  - osis: Heb
+    texts:
+      - Heblu Lẹ
+  - osis: Jas
+    texts:
+      - Jakobu
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+  - osis: Jude
+    texts:
+      - Juda
+translations:
+  - GB23

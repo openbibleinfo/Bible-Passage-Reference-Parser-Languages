@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Hou Olelesu
+    short: 1 Hou Olelesu
+  1Cor:
+    long: 1 Golidia
+    short: 1 Golidia
+  1John:
+    long: 1 Yone
+    short: 1 Yone
+  1Kgs:
+    long: 1 Hina
+    short: 1 Hina
+  1Pet:
+    long: 1 Bida
+    short: 1 Bida
+  1Sam:
+    long: 1 Sa:miuele
+    short: 1 Sa:miuele
+  1Thess:
+    long: 1 Desalounia
+    short: 1 Desalounia
+  1Tim:
+    long: 1 Dimodi
+    short: 1 Dimodi
+  2Chr:
+    long: 2 Hou Olelesu
+    short: 2 Hou Olelesu
+  2Cor:
+    long: 2 Golidia
+    short: 2 Golidia
+  2John:
+    long: 2Yone
+    short: 2Yone
+  2Kgs:
+    long: 2 Hina
+    short: 2 Hina
+  2Pet:
+    long: 2 Bida
+    short: 2 Bida
+  2Sam:
+    long: 2 Sa:miuele
+    short: 2 Sa:miuele
+  2Thess:
+    long: 2 Desalounia
+    short: 2 Desalounia
+  2Tim:
+    long: 2 Dimodi
+    short: 2 Dimodi
+  3John:
+    long: 3Yone
+    short: 3Yone
+  Acts:
+    long: Asunasi Dunu Ilia Hou
+    short: Asunasi Dunu Ilia Hou
+  Amos:
+    long: A:imose
+    short: A:imose
+  Col:
+    long: Golosia
+    short: Golosia
+  Dan:
+    long: Da:niele
+    short: Da:niele
+  Deut:
+    long: Mousese Ea Malasu
+    short: Mousese Ea Malasu
+  Eccl:
+    long: Da:i Dione Dawa:i Olelesu
+    short: Da:i Dione Dawa:i Olelesu
+  Eph:
+    long: Efesase
+    short: Efesase
+  Esth:
+    long: Eseda
+    short: Eseda
+  Exod:
+    long: Gadili Asi
+    short: Gadili Asi
+  Ezek:
+    long: Isigiele
+    short: Isigiele
+  Ezra:
+    long: Esela
+    short: Esela
+  Gal:
+    long: Gala:isia
+    short: Gala:isia
+  Gen:
+    long: Mui
+    short: Mui
+  Hab:
+    long: Ha:bagage
+    short: Ha:bagage
+  Hag:
+    long: Ha:ga:iai
+    short: Ha:ga:iai
+  Heb:
+    long: Hibulu
+    short: Hibulu
+  Hos:
+    long: Hosia
+    short: Hosia
+  Isa:
+    long: Aisaia
+    short: Aisaia
+  Jas:
+    long: Ya:mese
+    short: Ya:mese
+  Jer:
+    long: Yelemaia
+    short: Yelemaia
+  Job:
+    long: Yoube
+    short: Yoube
+  Joel:
+    long: Youele
+    short: Youele
+  John:
+    long: Yone
+    short: Yone
+  Jonah:
+    long: Youna
+    short: Youna
+  Josh:
+    long: Yosiua
+    short: Yosiua
+  Jude:
+    long: Yude
+    short: Yude
+  Judg:
+    long: Bisisu
+    short: Bisisu
+  Lam:
+    long: Fofagini Disu
+    short: Fofagini Disu
+  Lev:
+    long: Gobele Salasu
+    short: Gobele Salasu
+  Luke:
+    long: Luge
+    short: Luge
+  Mal:
+    long: Malagai
+    short: Malagai
+  Mark:
+    long: Maga
+    short: Maga
+  Matt:
+    long: Ma:diu
+    short: Ma:diu
+  Mic:
+    long: Maiga
+    short: Maiga
+  Nah:
+    long: Na:ihame
+    short: Na:ihame
+  Neh:
+    long: Nihemaia
+    short: Nihemaia
+  Num:
+    long: Idisu
+    short: Idisu
+  Obad:
+    long: Oubadaia
+    short: Oubadaia
+  Phil:
+    long: Filibai
+    short: Filibai
+  Phlm:
+    long: Failimone
+    short: Failimone
+  Prov:
+    long: Malasu
+    short: Malasu
+  Ps:
+    long: Gesami Hea:su
+    short: Gesami Hea:su
+  Rev:
+    long: "Wamolegei Sia: Olelesu"
+    short: Olelesu
+  Rom:
+    long: Louma
+    short: Louma
+  Ruth:
+    long: Ludi
+    short: Ludi
+  Song:
+    long: Soloumane ea Gesami
+    short: Soloumane ea Gesami
+  Titus:
+    long: Daidase
+    short: Daidase
+  Zech:
+    long: Segalaia
+    short: Segalaia
+  Zeph:
+    long: Sefanaia
+    short: Sefanaia

@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 Kurunthuc
+    short: 1 Kurunthuc
+  1John:
+    long: 1 Iuanna
+    short: 1 Iuanna
+  1Pet:
+    long: 1 Poththuruc
+    short: 1 Poththuruc
+  1Thess:
+    long: Atham iaine ul woThocculunukkia 1
+    short: 1 Thocculunukkia
+  1Tim:
+    long: 1 Thimiththaoc
+    short: 1 Thimiththaoc
+  2Cor:
+    long: 2 Kurunthuc
+    short: 2 Kurunthuc
+  2John:
+    long: 2 Iuanna
+    short: 2 Iuanna
+  2Pet:
+    long: 2 Poththuruc
+    short: 2 Poththuruc
+  2Thess:
+    long: 2 Thocculunukkia
+    short: 2 Thocculunukkia
+  2Tim:
+    long: 2 Thimiththaoc
+    short: 2 Thimiththaoc
+  3John:
+    long: 3 Iuanna
+    short: 3 Iuanna
+  Acts:
+    long: Ngre
+    short: Ngre
+  Col:
+    long: Kulucci
+    short: Kulucci
+  Eph:
+    long: Apuccuc
+    short: Apuccuc
+  Gal:
+    long: Kalaththia
+    short: Kalaththia
+  Heb:
+    long: Ipranin
+    short: Ipranin
+  Jas:
+    long: Iakup
+    short: Iakup
+  John:
+    long: Iuanna
+    short: Iuanna
+  Jude:
+    long: Ioutha
+    short: Ioutha
+  Luke:
+    long: Lukka
+    short: Lukka
+  Mark:
+    long: Markkoc
+    short: Markkoc
+  Matt:
+    long: Maththa
+    short: Maththa
+  Phil:
+    long: Pilippi
+    short: Pilippi
+  Phlm:
+    long: Pelemun
+    short: Pelemun
+  Rev:
+    long: Thitto
+    short: Thitto
+  Rom:
+    long: Roma
+    short: Roma
+  Titus:
+    long: Thiththoc
+    short: Thiththoc

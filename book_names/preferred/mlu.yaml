@@ -1,0 +1,99 @@
+default:
+  1Cor:
+    long: I. Korinitha
+    short: 1 Kor
+  1John:
+    long: I. Jone
+    short: 1 Jone
+  1Pet:
+    long: I. Pita
+    short: 1 Pita
+  1Thess:
+    long: I. Thesalonika
+    short: 1 Thess
+  1Tim:
+    long: I. Timothi
+    short: 1 Tim
+  2Cor:
+    long: II. Korinitha
+    short: 2 Kor
+  2John:
+    long: II. Jone
+    short: 2 Jone
+  2Pet:
+    long: II. Pita
+    short: 2 Pita
+  2Thess:
+    long: II. Thesalonika
+    short: 2 Thess
+  2Tim:
+    long: II. Timothi
+    short: 2 Tim
+  3John:
+    long: III. Jone
+    short: 3 Jone
+  Acts:
+    long: Si do Aposela ki kera ilidaki
+    short: Ilid
+  Col:
+    long: Kolose
+    short: Kolose
+  Eph:
+    long: Efesasi
+    short: Efes
+  Gal:
+    long: Galesia
+    short: Gal
+  Gen:
+    long: Genesis
+    short: Gen
+  Heb:
+    long: Hibaru ki
+    short: Hibaru
+  Jas:
+    long: Jemesi
+    short: Jemesi
+  John:
+    long: Jone
+    short: Jone
+  Jonah:
+    long: Diona
+  Jude:
+    long: Jude
+    short: Jude
+  Luke:
+    long: Luk
+    short: Luke
+  Mark:
+    long: Mako
+    short: Mako
+  Matt:
+    long: Mathui
+    short: Mathui
+  Neh:
+    long: Nehemiah
+    short: Neh
+  Phil:
+    long: Filifae
+    short: Filif
+  Phlm:
+    long: Faelimone
+    short: Faelim
+  Ps:
+    long: Fa Ṉu Abu ki
+    short: Fa Ṉu Abu ki
+  Rev:
+    long: Si do na kera fatai nia
+    short: Fatai
+  Rom:
+    long: Roma
+    short: Roma
+  Ruth:
+    long: Ruti
+  Titus:
+    long: Taetasi
+    short: Taet
+translations:
+  mlu1949:
+    Luke:
+      long: Luke

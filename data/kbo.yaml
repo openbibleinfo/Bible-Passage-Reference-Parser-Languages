@@ -1,0 +1,157 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Íꞌdóngárá
+      - Ido
+  - osis: Exod
+    texts:
+      - Wụ̃ngárá
+      - Wng
+  - osis: Rev
+    texts:
+      - Iꞌdangárá
+      - Ida
+  - osis: Ruth
+    texts:
+      - Rụ́tã
+      - Rut
+  - osis: Jonah
+    texts:
+      - Yónã
+      - Yon
+  - osis: Matt
+    texts:
+      - Mãtáyo
+      - Mat
+  - osis: Mark
+    texts:
+      - Mãrákõ
+      - Mrk
+  - osis: Luke
+    texts:
+      - Lúkã
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Ywn
+  - osis: 2John
+    texts:
+      - 2Ywn
+  - osis: 3John
+    texts:
+      - 3 Yũwánĩ
+      - 3Ywn
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yũwánĩ
+  - osis: John
+    texts:
+      - Yũwánĩ
+      - Ywn
+  - osis: Acts
+    texts:
+      - Ẹ̃zị́
+      - Ezi
+  - osis: Rom
+    texts:
+      - Rómã
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kõrínítõ
+  - osis: 1Cor
+    texts:
+      - 1Krt
+  - osis: 2Cor
+    texts:
+      - 2Krt
+  - osis: Col
+    texts:
+      - Kõlõsáyĩ
+      - Kls
+  - osis: Gal
+    texts:
+      - Gãlãtị́yã
+      - Gal
+  - osis: Eph
+    texts:
+      - Ẽfésõ
+      - Efs
+  - osis: Phil
+    texts:
+      - Pị̃lị̃pọ́yị̃
+      - Plp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tẽsãlõníkẽ
+  - osis: 1Thess
+    texts:
+      - 1Tsl
+  - osis: 2Thess
+    texts:
+      - 2Tsl
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tĩmõtéyõ
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Tị́tọ̃
+      - Tit
+  - osis: Phlm
+    texts:
+      - Fĩlĩmónã
+      - Flm
+  - osis: Heb
+    texts:
+      - Ẽbérẽ
+      - Ebr
+  - osis: Jas
+    texts:
+      - Yõkóbũ
+      - Ybk
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pétẽró
+  - osis: 1Pet
+    texts:
+      - 1Pet
+  - osis: 2Pet
+    texts:
+      - 2Pet
+  - osis: Jude
+    texts:
+      - Yụ́dã
+      - Yud
+translations:
+  - KBO

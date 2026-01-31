@@ -1,0 +1,119 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Lungor Lunam
+      - Lungor
+  - osis: Matt
+    texts:
+      - Metiu
+      - Met
+  - osis: Mark
+    texts:
+      - Markkc
+      - Mark
+  - osis: Luke
+    texts:
+      - Lu:kkc
+      - Lu:k
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jo:n
+  - osis: Acts
+    texts:
+      - Ager Kvdvng
+      - Ager
+  - osis: Rom
+    texts:
+      - Romankvdvng
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Korintiang Kvdvng
+      - Kor
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintiangkvdvng
+      - Kor
+  - osis: Col
+    texts:
+      - Kolosiang
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatiang Kvdvng
+      - Gal
+  - osis: Eph
+    texts:
+      - Ipesiang Kvdvng
+      - Ipes
+  - osis: Phil
+    texts:
+      - Pilipiang Kvdvng
+      - Pilip
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tissaloniang
+      - Tissa
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - "Timoti:"
+      - Timo
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+      - Timo
+  - osis: Titus
+    texts:
+      - Titus
+      - Tit
+  - osis: Phlm
+    texts:
+      - Pilemon
+      - Pilem
+  - osis: Heb
+    texts:
+      - Hibriukvdvng
+      - Hib
+  - osis: Jas
+    texts:
+      - Jakob
+      - Jak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pitor
+      - Pit
+  - osis: Jude
+    texts:
+      - Ju:d
+translations:
+  - MISIBSI

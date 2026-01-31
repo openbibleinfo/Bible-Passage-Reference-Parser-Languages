@@ -1,0 +1,141 @@
+default:
+  1Cor:
+    long: 1 Corintios
+    short: 1 Co
+  1John:
+    long: 1 Juan
+    short: 1 Jn
+  1Pet:
+    long: 1 Pedro
+    short: 1 Pe
+  1Thess:
+    long: 1 Tesalonicenses
+    short: 1 Te
+  1Tim:
+    long: 1 Timoteo
+    short: 1 Ti
+  2Cor:
+    long: 2 Corintios
+    short: 2 Co
+  2John:
+    long: 2 Juan
+    short: 2 Jn
+  2Pet:
+    long: 2 Pedro
+    short: 2 Pe
+  2Thess:
+    long: 2 Tesalonicenses
+    short: 2 Te
+  2Tim:
+    long: 2 Timoteo
+    short: 2 Ti
+  3John:
+    long: 3 Juan
+    short: 3 Jn
+  Acts:
+    long: Hechos
+    short: Hch
+  Col:
+    long: Colosenses
+    short: Col
+  Eph:
+    long: Efesios
+    short: Ef
+  Gal:
+    long: Gálatas
+    short: Ga
+  Heb:
+    long: Hebreos
+    short: Heb
+  Jas:
+    long: Santiago
+    short: Stg
+  John:
+    long: San Juan
+    short: Jn
+  Jude:
+    long: Judas
+    short: Jud
+  Luke:
+    long: San Lucas
+    short: Lc
+  Mark:
+    long: San Marcos
+    short: Mr
+  Matt:
+    long: San Mateo
+    short: Mt
+  Phil:
+    long: Filipenses
+    short: Flp
+  Phlm:
+    long: Filemón
+    short: Flm
+  Rev:
+    long: Apocalipsis
+    short: Ap
+  Rom:
+    long: Romanos
+    short: Ro
+  Titus:
+    long: Tito
+    short: Tit
+translations:
+  noaa:
+    1Cor:
+      short: 1 Co.
+    1John:
+      short: 1 Jn.
+    1Pet:
+      short: 1 Pe.
+    1Thess:
+      short: 1 Te.
+    1Tim:
+      short: 1 Ti.
+    2Cor:
+      short: 2 Co.
+    2John:
+      short: 2 Jn.
+    2Pet:
+      short: 2 Pe.
+    2Thess:
+      short: 2 Te.
+    2Tim:
+      short: 2 Ti.
+    3John:
+      short: 3 Jn.
+    Acts:
+      short: Hch.
+    Col:
+      short: Col.
+    Eph:
+      short: Ef.
+    Gal:
+      short: Gá.
+    Heb:
+      short: Heb.
+    Jas:
+      short: Stg.
+    John:
+      short: Jn.
+    Jude:
+      short: Jud.
+    Luke:
+      short: Lc.
+    Mark:
+      short: Mr.
+    Matt:
+      short: Mt.
+    Phil:
+      short: Flp.
+    Phlm:
+      short: Flm.
+    Rev:
+      short: Ap.
+    Rom:
+      short: Ro.
+    Titus:
+      short: Tit.
+  noa:
+    Rev:
+      long: El Apocalipsis

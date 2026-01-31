@@ -1,0 +1,374 @@
+variables:
+  first: &first
+    - "1"
+    - ૧
+  second: &second
+    - "2"
+    - ૨
+books:
+  - osis: Gen
+    texts:
+      - ઉત્પત્તિ
+      - ઉત્પ.
+      - ઉત્પ
+      - ઉત.
+  - osis: Exod
+    texts:
+      - નિર્ગમન
+      - નિર્ગ.
+      - નિ.
+  - osis: Lev
+    texts:
+      - લેવી.
+      - લેવીય
+      - લેવી
+      - લે.
+  - osis: Num
+    texts:
+      - ગણના
+      - ગણ.
+  - osis: Lam
+    texts:
+      - યર્મિયાનો વિલાપ
+      - ય.ર્વિ.
+      - ય.વિ.
+      - વિલા.
+  - osis: Rev
+    texts:
+      - પ્રકટીકરણ
+      - સંદર્શન
+      - પ્રક.
+      - સંદ.
+  - osis: Deut
+    texts:
+      - પુનર્નિયમ
+      - પુન.
+  - osis: Josh
+    texts:
+      - યહોશુઆ
+      - યહો.
+  - osis: Judg
+    texts:
+      - ન્યાયાધીશો
+      - ન્યાયા.
+      - ન્યાય.
+      - ન્યા.
+  - osis: Ruth
+    texts:
+      - રૂથ.
+      - રૂથ
+  - osis: Isa
+    texts:
+      - યશાયા
+      - યશા.
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - શમુએલનું
+      - શમુએલ
+      - શમુ.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - રાજાઓનું
+      - રાજા.
+      - રાજાઓ
+      - રાજા
+      - રા.
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - કાળવૃત્તાંતનું
+      - કાળવૃત્તાંત
+      - કાળ.
+  - osis: Ezra
+    texts:
+      - એઝરા
+      - એઝ.
+  - osis: Neh
+    texts:
+      - નહેમ્યા
+      - નહે.
+  - osis: Esth
+    texts:
+      - એસ્તેર
+      - એસ્ત.
+      - એસ્.
+  - osis: Job
+    texts:
+      - અયૂ.
+      - અયૂબ
+      - યોબ.
+      - યોબ
+  - osis: Ps
+    texts:
+      - ગીતશાસ્‍ત્ર
+      - ગીતશાસ્ત્ર
+      - ગી.શા.
+  - osis: Prov
+    texts:
+      - સુભાષિતસંગ્રહ
+      - નીતિવચનો
+      - નીતિ.
+      - સુભા.
+  - osis: Eccl
+    texts:
+      - સભાશિક્ષક
+      - સભા.
+  - osis: Song
+    texts:
+      - ગીતોનું ગીત
+      - ગી.ગી.
+      - ગીત.
+  - osis: Jer
+    texts:
+      - યર્મિયા
+      - યર્મિ.
+  - osis: Ezek
+    texts:
+      - હઝકિયેલ
+      - હઝ.
+  - osis: Dan
+    texts:
+      - દાનિયેલ
+      - દાનિ.
+      - દા.
+  - osis: Hos
+    texts:
+      - હોશિયા
+      - હોશિ.
+      - હોશ.
+      - હો.
+  - osis: Joel
+    texts:
+      - યોએ.
+      - યોએલ
+  - osis: Amos
+    texts:
+      - આમો.
+      - આમોસ
+      - આમ.
+  - osis: Obad
+    texts:
+      - ઓબાદ્યા
+      - ઓબા.
+      - ઓબ.
+  - osis: Jonah
+    texts:
+      - યૂન.
+      - યૂના
+      - યોના
+  - osis: Mic
+    texts:
+      - મિખાહ
+      - મીખા.
+      - મીખાહ
+      - મિખા
+      - મીખ.
+      - મિ.
+      - મી.
+  - osis: Nah
+    texts:
+      - નાહૂ.
+      - નાહૂમ
+      - નાહ.
+  - osis: Hab
+    texts:
+      - હબાક્કુક
+      - હબાકુક
+      - હબા.
+      - હબ.
+  - osis: Zeph
+    texts:
+      - સફાન્યા
+      - સફા.
+  - osis: Hag
+    texts:
+      - હાગ્ગાય
+      - હાગ.
+  - osis: Zech
+    texts:
+      - ઝખાર્યા
+      - ઝખા.
+      - ઝખ.
+  - osis: Mal
+    texts:
+      - માલાખી
+      - માલા.
+      - માલ.
+  - osis: Matt
+    texts:
+      - માથ્થી
+      - માથ.
+  - osis: Mark
+    texts:
+      - માર્ક.
+      - માર્ક
+  - osis: Luke
+    texts:
+      - લૂક.
+      - લૂ.
+      - લૂક
+  - osis: 1John
+    texts:
+      - યોહાનનો પહેલો પત્ર
+  - osis: 2John
+    texts:
+      - યોહાનનો બીજો પત્ર
+  - osis: 3John
+    texts:
+      - યોહાનનો ત્રીજો પત્ર
+      - ૩ યોહા.
+      - 3 યોહાન
+      - 3 યોહ.
+      - ૩ યોહ.
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - યોહા.
+      - યોહાન
+      - યોહ.
+  - osis: Acts
+    texts:
+      - પ્રેરિતોનાં કૃત્યો
+      - પ્રેષિતોનાં કાર્યો
+      - પ્રે.કા.
+      - પ્રે.કૃ.
+  - osis: Rom
+    texts:
+      - રોમનોને પત્ર
+      - રોમનો
+      - રોમ.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - કરિંથીઓ
+      - કોરીં.
+      - કરિં.
+  - osis: 1Cor
+    texts:
+      - કોરીંથીઓને પહેલો પત્ર
+      - કરિંથીઓને પહેલો પત્ર
+  - osis: 2Cor
+    texts:
+      - કોરીંથીઓને બીજો પત્ર
+      - કરિંથીઓને બીજો પત્ર
+  - osis: Col
+    texts:
+      - કોલોસીઓને પત્ર
+      - કલોસીઓને પત્ર
+      - કલોસ્સીઓ
+      - કલો.
+  - osis: Gal
+    texts:
+      - ગલાતીઓને પત્ર
+      - ગલાતીઓ
+      - ગલા.
+      - ગલ.
+  - osis: Eph
+    texts:
+      - એફેસીઓને પત્ર
+      - એફેસીઓ
+      - એફે.
+  - osis: Phil
+    texts:
+      - ફિલિપીઓને પત્ર
+      - ફિલિપ્પીઓ
+      - ફિલિ.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - થેસ્સલોનિકીઓ
+      - થેસ્.
+      - થેસ.
+  - osis: 1Thess
+    texts:
+      - થેસ્સાલોનિકિઓને પહેલો પત્ર
+      - થેસ્સાલોનિકીઓને પહેલો પત્ર
+  - osis: 2Thess
+    texts:
+      - થેસ્સાલોનિકિઓને બીજો પત્ર
+      - થેસ્સાલોનિકીઓને બીજો પત્ર
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - તિમોથી
+      - તિમો.
+      - તિમ.
+  - osis: 1Tim
+    texts:
+      - તિમોથીને પહેલો પત્ર
+  - osis: 2Tim
+    texts:
+      - તિમોથીને બીજો પત્ર
+  - osis: Titus
+    texts:
+      - તિતસને પત્ર
+      - તિત.
+      - તિતસ
+  - osis: Phlm
+    texts:
+      - ફિલેમોનને પાઉલ પ્રેરિતનો પત્ર
+      - ફિલેમોનને પત્ર
+      - ફિલેમોન
+      - ફિલે.
+  - osis: Heb
+    texts:
+      - હિબ્રૂઓને પત્ર
+      - હિબ્રૂ.
+      - હિબ્રૂઓ
+      - હિબ.
+  - osis: Jas
+    texts:
+      - યાકૂબનો પત્ર
+      - યાકોબનો પત્ર
+      - યાકૂ.
+      - યાકૂબ
+      - યાકો.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - પિત.
+      - પિતર
+  - osis: 1Pet
+    texts:
+      - પિતરનો પહેલો પત્ર
+  - osis: 2Pet
+    texts:
+      - પિતરનો બીજો પત્ર
+  - osis: Jude
+    texts:
+      - યહૂદાનો પત્ર
+      - યહુદા
+      - યહુ.
+      - યહૂ.
+translations:
+  - IRVGUJ
+  - GUJCL-BSI
+  - GUJOVBSI
+  - GERV

@@ -1,0 +1,91 @@
+default:
+  1Cor:
+    long: 1 Korenta
+    short: 1Ko
+  1John:
+    long: 1 Saaŋ
+    short: 1Sŋ
+  1Pet:
+    long: 1 Piyeer
+    short: 1Pi
+  1Thess:
+    long: 1 Tessalonik
+    short: 1Te
+  1Tim:
+    long: 1 Timoote
+    short: 1Ti
+  2Cor:
+    long: 2 Korenta
+    short: 2Ko
+  2John:
+    long: 2 Saaŋ
+    short: 2Sŋ
+  2Pet:
+    long: 2 Piyeer
+    short: 2Pi
+  2Thess:
+    long: 2 Tessalonik
+    short: 2Te
+  2Tim:
+    long: 2 Timoote
+    short: 2Ti
+  3John:
+    long: 3 Saaŋ
+    short: 3Sŋ
+  Acts:
+    long: Tum ci
+    short: Tum
+  Col:
+    long: Ɓi Kolos
+    short: Kol
+  Eph:
+    long: Ɓi Efes
+    short: Efe
+  Exod:
+    long: Pula
+    short: Pul
+  Gal:
+    long: Ɓi Galaat
+    short: Gal
+  Gen:
+    long: Camba
+    short: Cam
+  Heb:
+    long: Heber ci
+    short: Heb
+  Jas:
+    long: Saak
+    short: Sak
+  John:
+    long: Saaŋ
+    short: Saŋ
+  Jonah:
+    long: Yunus
+    short: Yun
+  Jude:
+    long: Yuud
+    short: Yuu
+  Luke:
+    long: Luk
+    short: Luk
+  Mark:
+    long: Maarko
+    short: Mrk
+  Matt:
+    long: Macce
+    short: Mce
+  Phil:
+    long: Ɓi Filippi
+    short: Fip
+  Phlm:
+    long: Filemoon
+    short: Fim
+  Rev:
+    long: Teeɓ ki
+    short: Tee
+  Rom:
+    long: Ɓi Rom
+    short: Rom
+  Titus:
+    long: Tit
+    short: Tit

@@ -1,0 +1,64 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Mark
+    texts:
+      - Mark
+      - Mk
+  - osis: Luke
+    texts:
+      - Luke
+      - Lk
+  - osis: Eph
+    texts:
+      - Ephesians
+      - Eph
+  - osis: Phil
+    texts:
+      - Philippians
+      - Philp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thessalonians
+      - Th
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothy
+      - Ti
+  - osis: Titus
+    texts:
+      - Titus
+      - Tit
+  - osis: Phlm
+    texts:
+      - Philemon
+      - Phm
+  - osis: Jas
+    texts:
+      - James
+      - Jas
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peter
+      - P
+  - osis: Jude
+    texts:
+      - Jude
+      - Jd
+translations:
+  - LKTNT20

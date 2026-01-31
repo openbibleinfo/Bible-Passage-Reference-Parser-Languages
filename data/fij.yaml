@@ -1,0 +1,433 @@
+variables:
+  first: &first
+    - "1"
+    - I.
+  second: &second
+    - "2"
+    - II.
+books:
+  - osis: Gen
+    texts:
+      - Nai Vakatekivu
+      - Vakatekivu
+      - Vteki
+  - osis: Exod
+    texts:
+      - Na Lako Yani
+      - Lako Yani
+      - Lako
+  - osis: Bel
+    texts:
+      - O Bele Kei Na Drakoni Daukata
+      - 3. Tn
+  - osis: Lev
+    texts:
+      - Na Vunau Ni Soro
+      - Vunau ni Soro
+      - Vsoro
+  - osis: Num
+    texts:
+      - Na Tiko Voli Mai Na Lekutu
+      - Tiko Voli mai na Lekutu
+      - Na Tiko Mai Na Lekutu
+      - Tiko mai na Lekutu
+      - Tiko
+  - osis: Sir
+    texts:
+      - Siraki
+      - Sr
+  - osis: Wis
+    texts:
+      - Yalomatua
+      - Ym
+  - osis: Lam
+    texts:
+      - A Lele I Jeremaia
+      - Lele i Jeremaia
+      - Lele
+  - osis: Rev
+    texts:
+      - Nai Vakatakila I Joni
+      - Ai Vakatakila
+      - Vakatakila
+      - Vtaki
+  - osis: Deut
+    texts:
+      - Nai Vakarua
+      - Vakarua
+      - Vrua
+  - osis: Josh
+    texts:
+      - Ai Vola Kei Josua
+      - Josua
+  - osis: Judg
+    texts:
+      - A Kedrai Vola Na Dauveilewai
+      - Na Dauveilewai
+      - Dauveilewai
+      - Dvei
+  - osis: Ruth
+    texts:
+      - Ai Vola Kei Ruci
+      - Ruci
+  - osis: Isa
+    texts:
+      - Ai Vola I Isaia, na Parofita
+      - Aisea
+  - osis:
+      - osis: 1Sam
+        before: *first
+    texts:
+      - Samuela
+  - osis: 1Sam
+    texts:
+      - Ai I Vola I Simueli
+      - 1Samu
+  - osis:
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Ai Ni Vola I Samueli
+      - Samuela
+  - osis: 2Sam
+    texts:
+      - 2Samu
+  - osis:
+      - osis: 1Kgs
+        before: *first
+    texts:
+      - A Kedrai Vola Na Tui
+      - Tui
+  - osis: 1Kgs
+    texts:
+      - 1Tui
+  - osis:
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Ai Kedrai Vola Na Tui
+      - Tui
+  - osis: 2Kgs
+    texts:
+      - 2Tui
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - A Veika Sa Caka E Na Veigauna
+      - Veigauna
+  - osis: 1Chr
+    texts:
+      - 1Vei
+  - osis: 2Chr
+    texts:
+      - 2Vei
+  - osis: Ezra
+    texts:
+      - Ai Vola I Esira
+      - Esera
+  - osis: Neh
+    texts:
+      - Ai Vola I Niemiya
+      - Niemaia
+      - Nie
+  - osis: Job
+    texts:
+      - Ai Vola Kei Jope
+      - Jope
+  - osis: PrAzar
+    texts:
+      - Na Masu I Asaria
+      - 1. Tn
+  - osis: Prov
+    texts:
+      - Ai Vola Vakaibalebale
+      - Na Vosa Vakaibalebale
+      - Vosa Vakaibalebale
+      - Vosavakaibalebale
+      - Vbale
+  - osis: Eccl
+    texts:
+      - A Nonai Vola Na Dauvunau
+      - Na Dauvunau
+      - Dauvunau
+      - Dvu
+  - osis: SgThree
+    texts:
+      - Na Nodratou Sere Na Tolu Na Cauravou
+  - osis: Song
+    texts:
+      - Na Sere I Solomoni
+      - A Meke I Solomoni
+      - Sere i Solomoni
+      - Sere
+  - osis: Ps
+    texts:
+      - Na Same
+      - Meke
+      - Same
+  - osis: Jer
+    texts:
+      - Ai Vola I Jeremaia Na Parofita
+      - Jeremaia
+      - Jere
+  - osis: Ezek
+    texts:
+      - Ai Vola I Isirieli Na Parofita
+      - Isikeli
+      - Isi
+  - osis: Dan
+    texts:
+      - Ai Vola I Tanieli Na Parofita
+      - Taniela
+      - Tani
+  - osis: Hos
+    texts:
+      - Ai Vola I Osea Na Parofita
+      - Osea
+  - osis: Joel
+    texts:
+      - Ai Vola I Joeli Na Parofita
+      - Joeli
+  - osis: Amos
+    texts:
+      - Ai Vola I Amosi Na Parofita
+      - Emosi
+      - Emo
+  - osis: Obad
+    texts:
+      - Ai Vola I Opatiya Na Parofita.
+      - Ai Vola I Opatiya Na Parofita
+      - Opetaia
+      - Ope
+  - osis: Jonah
+    texts:
+      - Ai Vola I Jona Na Parofita
+      - Jona
+  - osis: Mic
+    texts:
+      - Ai Vola I Maika Na Parofita
+      - Maika
+  - osis: Nah
+    texts:
+      - Ai Vola I Neumi Na Parofita.
+      - Ai Vola I Neumi Na Parofita
+      - Neumi
+  - osis: Hab
+    texts:
+      - Ai Vola I Epakuki Na Parofita
+      - Apakuki
+      - Apa
+  - osis: Zeph
+    texts:
+      - Ai Vola I Sifaniya Na Parofita
+      - Sefanaia
+      - Sefa
+  - osis: Hag
+    texts:
+      - Ai Vola I Akei Na Parofita
+      - Akeai
+      - Ake
+  - osis: Zech
+    texts:
+      - Ai Vola I Sikariya Na Parofita
+      - Sakaraia
+      - Saka
+  - osis: Mal
+    texts:
+      - Ai Vola I Malakai Na Parofita
+      - Malakai
+      - Mala
+  - osis: Matt
+    texts:
+      - Maciu
+  - osis: Mark
+    texts:
+      - Marika
+      - Mari
+  - osis: Luke
+    texts:
+      - Luke
+  - osis: 1John
+    texts:
+      - 1Joni
+  - osis: 2John
+    texts:
+      - 2Joni
+  - osis: 3John
+    texts:
+      - III. Ai Vola I Joni
+      - 3 Joni
+      - 3Joni
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - Ai Vola I Joni
+      - Joni
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - Ai Vola I Joni.
+      - Joni
+  - osis: John
+    texts:
+      - Joni
+  - osis: Acts
+    texts:
+      - A Cakacaka
+      - Cakacaka
+      - Caka
+  - osis: Rom
+    texts:
+      - Vei Ira Na Kai Roma
+      - Roma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Vei Ira Na Kai Korinica
+      - Korinica
+  - osis: 1Cor
+    texts:
+      - 1Kori
+  - osis: 2Cor
+    texts:
+      - 2Kori
+  - osis: Col
+    texts:
+      - Vei Ira Na Kai Kolosa
+      - Kolosa
+      - Kolo
+  - osis: Gal
+    texts:
+      - Vei Ira Na Kai Kalatia
+      - Kalatia
+      - Kala
+  - osis: Eph
+    texts:
+      - Vei Ira Na Kai Efeso
+      - Efeso
+      - Efe
+  - osis: Phil
+    texts:
+      - Vei Ira Na Kai Filipai
+      - Filipai
+      - Fpai
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Vei Ira Na Kai Cesalonika
+      - Cesalonaika
+  - osis: 1Thess
+    texts:
+      - 1Cesa
+  - osis: 2Thess
+    texts:
+      - 2Cesa
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoci
+  - osis: 1Tim
+    texts:
+      - 1Timo
+  - osis: 2Tim
+    texts:
+      - 2Timo
+  - osis: Titus
+    texts:
+      - Vei Taito
+      - Taito
+  - osis: Phlm
+    texts:
+      - Vei Filimoni
+      - Filimoni
+      - Fmoni
+  - osis: Heb
+    texts:
+      - Vei Ira Na Iperiu
+      - Iperiu
+      - Ipe
+  - osis: Jas
+    texts:
+      - Ai Vola I Jemesi
+      - Jemesa
+      - Jeme
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - Ai Vola I Petero
+      - Pita
+  - osis: 1Pet
+    texts:
+      - 1Pita
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Ai Vola I Petero.
+      - Pita
+  - osis: 2Pet
+    texts:
+      - 2Pita
+  - osis: Jude
+    texts:
+      - Ai Vola I Juta
+      - Juta
+  - osis: Tob
+    texts:
+      - Tobita
+      - Tb
+  - osis: Jdt
+    texts:
+      - Udite
+      - Ud
+  - osis: Bar
+    texts:
+      - Baruki
+      - Br
+  - osis: Sus
+    texts:
+      - Na Ivola I Susana
+      - 2. Tn
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+    texts:
+      - Makabe
+  - osis: 1Macc
+    texts:
+      - 1M
+  - osis: 2Macc
+    texts:
+      - 2M
+  - osis: EsthGr
+    texts:
+      - Gk Esiteri
+      - Gk Est
+  - osis: Esth
+    texts:
+      - Ai Vola Kei Esiteri
+      - Esiteri
+      - Esi
+translations:
+  - FIJ1864
+  - FRV21
+  - FNV
+  - FOV
+  - FNVDC12

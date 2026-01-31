@@ -1,0 +1,17 @@
+books:
+  - osis: Matt
+    texts:
+      - St. Matthew
+      - Matthew
+      - Mat
+  - osis: Mark
+    texts:
+      - Mark
+  - osis: John
+    texts:
+      - John
+translations:
+  - BLA1979
+  - BLAMRK
+  - BLA1890
+  - BLAMAT

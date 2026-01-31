@@ -1,0 +1,303 @@
+default:
+  1Chr:
+    long: སྔོན་རབས་དང་པོ།
+    short: ༡ སྔོན་རབ་
+  1Cor:
+    long: ཀོ་རིན་ཐུ་པ་དང་པོ།
+    short: ཀོ་རིན་ཐུ་པ། ༡
+  1John:
+    long: ཡོ་ཧ་ནན་དང་པོ།
+    short: ཡོ་ཧ་ནན། ༡
+  1Kgs:
+    long: རྒྱལ་རབས་དང་པོ།
+    short: ༡ རྒྱལ་རབས་
+  1Pet:
+    long: པེ་ཏྲོ་དང་པོ།
+    short: པེ་ཏྲོ། ༡
+  1Sam:
+    long: ཤ་མུ་ཨེལ་དང་པོ།
+    short: ༡ ཤ་མུ་ཨེལ།
+  1Thess:
+    long: ཐེ་ས་ལོ་ནི་ཀེ་པ། ༡
+    short: ཐེ་ས་ལོ་ནི་ཀེ་པ། ༡
+  1Tim:
+    long: ཐི་མོ་ཐེ་དང་པོ།
+    short: ཐི་མོ་ཐེ། ༡
+  2Chr:
+    long: སྔོན་རབས་གཉིས་པ།
+    short: ༢ སྔོན་རབས་
+  2Cor:
+    long: ཀོ་རིན་ཐུ་པ་གཉིས་པ།
+    short: ཀོ་རིན་ཐུ་པ། ༢
+  2John:
+    long: ཡོ་ཧ་ནན་གཉིས་པ།
+    short: ཡོ་ཧ་ནན། ༢
+  2Kgs:
+    long: རྒྱལ་རབས་གཉིས་པ།
+    short: ༢ རྒྱལ་རབས་
+  2Pet:
+    long: པེ་ཏྲོ་གཉིས་པ།
+    short: པེ་ཏྲོ། ༢
+  2Sam:
+    long: ཤ་མུ་ཨེལ་གཉིས་པ།
+    short: ༢ ཤ་མུ་ཨེལ་
+  2Thess:
+    long: ཐེ་ས་ལོ་ནི་ཀེ་པ། ༢
+    short: ཐེ་ས་ལོ་ནི་ཀེ་པ། ༢
+  2Tim:
+    long: ཐི་མོ་ཐེ་གཉིས་པ།
+    short: ཐི་མོ་ཐེ། ༢
+  3John:
+    long: ཡོ་ཧ་ནན་གསུམ་པ།
+    short: ཡོ་ཧ་ནན། ༣
+  Acts:
+    long: མཛད་པ།
+    short: མཛད་པ།
+  Amos:
+    long: ཨ་མའོ་སི།
+    short: ཨ་མོསེ
+  Col:
+    long: ཀོ་ལོ་སཱ་པ།
+    short: ཀོ་ལོ་སཱ་པ།
+  Dan:
+    long: དཱ་ནེ་ཨེལ།
+    short: དྷ་ནི་ཨེལ
+  Deut:
+    long: བཀའ་ཁྲིམས་སྐྱར་བཤད་
+    short: བཀའ་ཁྲིམས་སྐྱར་བཤད་
+  Eccl:
+    long: འཆད་པ་པོ
+    short: འཆད་པ་པོ
+  Eph:
+    long: ཨེ་ཕེ་སི་པ།
+    short: ཨེ་ཕེ་སུ་པ།
+  Esth:
+    long: ཨེས་སི་ཐེར།
+    short: ཨེསེ་ཐར
+  Exod:
+    long: སྡེབ་ཐོན
+    short: སྡེབ་ཐོན་
+  Ezek:
+    long: ཨི་ཛི་ཀི་ཨེལ
+    short: ཨི་ཛི་ཀི་ཨེལ་
+  Ezra:
+    long: ཨེཛ་ར
+    short: ཨེཛ་ར
+  Gal:
+    long: ག་ལད་ཡཱ་པ།
+    short: ག་ལད་ཡཱ་པ།
+  Gen:
+    long: བཀོད་པ
+    short: བཀོད་པ་
+  Hab:
+    long: ཧ་བཱ་ཁུག
+    short: ཧ་བྷ་ཀུག
+  Hag:
+    long: ཧག་གཱ་ཨི།
+    short: ཧག་གྷཨེ
+  Heb:
+    long: ཡ་ཧུ་དཱ་པ།
+    short: ཡ་ཧུ་དཱ་པ།
+  Hos:
+    long: ཧོ་ཟེ
+    short: ཧོ་ཟེ།
+  Isa:
+    long: ཡེ་ཤ་ཡཱ
+    short: ཡེ་ཤ་ཡཱ་
+  Jas:
+    long: ཡ་ཀོབ།
+    short: ཡ་ཀོབ།
+  Jer:
+    long: ཡེ་རེམ་ཡཱ།
+    short: ཡེར་མི་ཡཱ་
+  Job:
+    long: ཡོབ
+    short: ཡོབ
+  Joel:
+    long: ཡོ་ཨེལ
+    short: ཡོ་ཨེལ
+  John:
+    long: ཡོ་ཧ་ནན།
+    short: ཡོ་ཧ་ནན།
+  Jonah:
+    long: ཡོ་ནཱ
+    short: ཡོ་ནཱ
+  Josh:
+    long: ཡོ་ཤུ་ཨ
+    short: ཡོ་ཤུ་ཨ་
+  Jude:
+    long: ཡ་ཧུ་དཱ།
+    short: ཡ་ཧུ་དཱ།
+  Judg:
+    long: ཁྲིམས་དཔོན
+    short: ཁྲིམས་དཔོན་
+  Lam:
+    long: སྐྱོ་གླུ
+    short: སྐྱོ་གླུ
+  Lev:
+    long: ལེ་ཝི
+    short: ལེ་ཝི་
+  Luke:
+    long: ལུ་ཀཱ
+    short: ལུ་ཀཱ
+  Mal:
+    long: མ་ལ་ཀི
+    short: མ་ལ་ཀི
+  Mark:
+    long: མར་ཀུ
+    short: མར་ཀུ
+  Matt:
+    long: མད་ཐཱ།
+    short: མད་ཐཱ།
+  Mic:
+    long: མི་ཀཱ
+    short: མི་ཀཱ
+  Nah:
+    long: ན་ཧུམ
+    short: ན་ཧུམ
+  Neh:
+    long: ནེ་ཧེམ་ཡཱ
+    short: ནེ་ཧེམ་ཡཱ
+  Num:
+    long: གྲངས་ཀ
+    short: གྲངས་ཀ་
+  Obad:
+    long: ཨོ་བ་དི་ཡཱ
+    short: ཨོ་བ་དི་ཡཱ
+  Phil:
+    long: ཕི་ལིབ་པཱི་པ།
+    short: ཕི་ལིབ་པཱི་པ།
+  Phlm:
+    long: ཕི་ལེ་མོན།
+    short: ཕི་ལེ་མོན།
+  Prov:
+    long: ལེགས་བཤད
+    short: ལེགས་བཤད
+  Ps:
+    long: གསུང་མགུར
+    short: གསུང་མགུར་
+  Rev:
+    long: མངོན་པ།
+    short: མངོན་པ།
+  Rom:
+    long: རོ་མཱ་པ།
+    short: རོ་མཱ་པ།
+  Ruth:
+    long: རུ་ཐི།
+    short: རུད
+  Song:
+    long: གསུང་གླུ
+    short: གསུང་གླུ
+  Titus:
+    long: ཐེ་ཏུ།
+    short: ཐེ་ཏུ།
+  Zech:
+    long: ཛ་ཀར་ཡ
+    short: ཛ་ཀར་ཡ
+  Zeph:
+    long: ཛེ་ཕ་ནི་ཡཱ
+    short: ཛེ་ཕ་ནི་ཡཱ
+translations:
+  ctb:
+    1Cor:
+      long: ཀོ་རིན་ཐུ་པ། ༡
+    1John:
+      long: ཡོ་ཧ་ནན། ༡
+    1Pet:
+      long: པེ་ཏྲོ། ༡
+    1Tim:
+      long: ཐི་མོ་ཐེ། ༡
+    2Cor:
+      long: ཀོ་རིན་ཐུ་པ། ༢
+    2John:
+      long: ཡོ་ཧ་ནན། ༢
+    2Pet:
+      long: པེ་ཏྲོ། ༢
+    2Tim:
+      long: ཐི་མོ་ཐེ། ༢
+    3John:
+      long: ཡོ་ཧ་ནན། ༣
+    Eph:
+      long: ཨེ་ཕེ་སུ་པ།
+  ntb:
+    1Sam:
+      long: སཱ་མུ་ཨེལ་དང་པོ།
+    1Thess:
+      long: ཐེ་སཱ་ལོ་ནེ་ཀེ་པ་དང་པོ།
+    2Sam:
+      long: སཱ་མུ་ཨེལ་གཉིས་པ།
+    2Thess:
+      long: ཐེ་སཱ་ལོ་ནེ་ཀེ་པ་གཉིས་པ།
+    Acts:
+      long: མཛད་འཕྲིན།
+    Deut:
+      long: བཀའ་ལུང་།
+    Eccl:
+      long: སྟོན་པ།
+    Exod:
+      long: ཨེ་ཅིབ་ནས་ཐོན་པ།
+    Ezek:
+      long: ཨེ་ཟེ་ཀི་ཨེལ།
+    Ezra:
+      long: ཨེས་སི་རཱ།
+    Gen:
+      long: བཀོད་པ།
+    Heb:
+      long: ཨིབ་རི་པ།
+    Hos:
+      long: ཧོ་ཤེ་ཨ།
+    Isa:
+      long: ཡེ་ཤ་ཡཱ།
+    Job:
+      long: ཨེས་ཡོབ།
+    Joel:
+      long: ཡོ་ཨེལ།
+    Jonah:
+      long: ཡོ་ནཱ།
+    Josh:
+      long: ཡོ་ཤུ་ཨ།
+    Judg:
+      long: ཁྲིམས་དཔོན།
+    Lam:
+      long: སྐྱོ་གླུ།
+    Lev:
+      long: ལེ་ཝིའི་ཚུལ་ཁྲིམས།
+    Luke:
+      long: ལོ་ཀུ
+    Mal:
+      long: མཱལ་ཨ་ཀེ
+    Mark:
+      long: མཱཪ་ཀུ
+    Nah:
+      long: ནཱ་ཧུམ།
+    Neh:
+      long: ནེ་ཧེམ་ཡཱ།
+    Obad:
+      long: ཨོ་བད་ཡཱ།
+    Phil:
+      long: ཕི་ལིབ་པི་པ།
+    Prov:
+      long: ལེགས་བཤད།
+    Ps:
+      long: གསུང་མགུར།
+    Song:
+      long: སྙན་མགུར།
+    Zech:
+      long: ཟཱ་ཀར་ཡཱ།
+    Zeph:
+      long: ཟེ་ཕན་ཡཱ།
+  tot11:
+    Amos:
+      long: ཨ་མོསེ
+    Dan:
+      long: དྷ་ནི་ཨེལ
+    Esth:
+      long: ཨེསེ་ཐར
+    Hab:
+      long: ཧ་བྷ་ཀུག
+    Hag:
+      long: ཧག་གྷཨེ
+    Jer:
+      long: ཡེར་མི་ཡཱ
+    Ruth:
+      long: རུད

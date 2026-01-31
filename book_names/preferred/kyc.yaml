@@ -1,0 +1,196 @@
+default:
+  1Chr:
+    long: 1 Koronekolese
+    short: 1 Koro
+  1Cor:
+    long: 1 Korina
+    short: 1 Kor
+  1John:
+    long: 1 Jone
+    short: 1 Jo
+  1Kgs:
+    long: 1 Kiŋi
+    short: 1 Ki
+  1Pet:
+    long: 1 Pita
+    short: 1 Pita
+  1Sam:
+    long: 1 Samyuele
+    short: 1 Sam
+  1Thess:
+    long: 1 Tesalonaika
+    short: 1 Tes
+  1Tim:
+    long: 1 Timoti
+    short: 1 Tim
+  2Cor:
+    long: 2 Korina
+    short: 2 Kor
+  2John:
+    long: 2 Jone
+    short: 2 Jo
+  2Kgs:
+    long: 2 Kiŋi
+    short: 2 Ki
+  2Pet:
+    long: 2 Pita
+    short: 2 Pita
+  2Sam:
+    long: 2 Samyuele
+    short: 2 Sam
+  2Thess:
+    long: 2 Tesalonaika
+    short: 2 Tes
+  2Tim:
+    long: 2 Timoti
+    short: 2 Tim
+  3John:
+    long: 3 Jone
+    short: 3 Jo
+  Acts:
+    long: Aposelena Yulu
+    short: Apos
+  Amos:
+    long: Emosa
+    short: Em
+  Col:
+    long: Kolosi
+    short: Kol
+  Dan:
+    long: Daniele
+    short: Dan
+  Deut:
+    long: Dutaronome
+    short: Du
+  Eccl:
+    long: Ekelesiyastisi
+    short: Eke
+  Eph:
+    long: Epesasa
+    short: Epes
+  Esth:
+    long: Eseta
+    short: Ese
+  Exod:
+    long: Ekesetase
+    short: Ek
+  Ezek:
+    long: Isikiolo
+    short: Isi
+  Ezra:
+    long: Esera
+    short: Es
+  Gal:
+    long: Galasia
+    short: Gal
+  Gen:
+    long: Jenesese
+    short: Jen
+  Hab:
+    long: Apakuku
+    short: Apa
+  Hag:
+    long: Akai
+    short: Ak
+  Heb:
+    long: Ipuru
+    short: Ipu
+  Hos:
+    long: Osia
+    short: Os
+  Isa:
+    long: Aisaya
+    short: Ai
+  Jas:
+    long: Jemesa
+    short: Jem
+  Jer:
+    long: Jeremaya
+    short: Je
+  Job:
+    long: Jopo
+    short: Jopo
+  Joel:
+    long: Joele
+    short: Joe
+  John:
+    long: Jone
+    short: Jo
+  Jonah:
+    long: Jona
+    short: Jona
+  Josh:
+    long: Josua
+    short: Jos
+  Jude:
+    long: Juti
+    short: Ju
+  Judg:
+    long: Jasi
+    short: Jas
+  Lam:
+    long: Ee Lenge Kenane Dupwa
+    short: Ee
+  Lev:
+    long: Lipitikase
+    short: Li
+  Luke:
+    long: Luku
+    short: Lu
+  Mal:
+    long: Malakae
+    short: Mal
+  Mark:
+    long: Make
+    short: Mak
+  Matt:
+    long: Matyu
+    short: Mat
+  Mic:
+    long: Maeka
+    short: Mae
+  Nah:
+    long: Neyame
+    short: Ne
+  Neh:
+    long: Niyamaya
+    short: Ni
+  Num:
+    long: Nambase
+    short: Nam
+  Obad:
+    long: Opetaya
+    short: Op
+  Phil:
+    long: Pilipai
+    short: Pilip
+  Phlm:
+    long: Pilimone
+    short: Pil
+  Prov:
+    long: Poropepe
+    short: Po
+  Ps:
+    long: Samu
+    short: Sa
+  Rev:
+    long: Orepalaisane
+    short: Orep
+  Rom:
+    long: Orome
+    short: Oro
+  Ruth:
+    long: Uruti
+    short: Uru
+  Song:
+    long: Kenane Solomeneme Piya
+    short: Sol
+  Titus:
+    long: Taitesa
+    short: Tai
+  Zech:
+    long: Sekaraya
+    short: Sek
+  Zeph:
+    long: Sepanaya
+    short: Sep

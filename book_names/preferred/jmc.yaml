@@ -1,0 +1,224 @@
+default:
+  1Chr:
+    long: 1 Mbony Ta Fyeeri
+    short: 1 Fye
+  1Cor:
+    long: 1 Vakorinto
+    short: 1Ko
+  1John:
+    long: 1 Yohane
+    short: 1 Yoh
+  1Kgs:
+    long: 1 Vamangyi
+    short: 1 Vam
+  1Pet:
+    long: 1 Petro
+    short: 1Pe
+  1Sam:
+    long: 1 Samueli
+    short: 1 Sam
+  1Thess:
+    long: 1 Vatesalonike
+    short: 1Tes
+  1Tim:
+    long: 1 Timoteo
+    short: 1Tim
+  2Chr:
+    long: 2 Mbony Ta Fyeeri
+    short: 2 Fye
+  2Cor:
+    long: 2 Vakorinto
+    short: 2Ko
+  2John:
+    long: 2 Yohane
+    short: 2Yoh
+  2Kgs:
+    long: 2 Vamangyi
+    short: 2 Vam
+  2Pet:
+    long: 2 Petro
+    short: 2Pe
+  2Sam:
+    long: 2 Samueli
+    short: 2 Sam
+  2Thess:
+    long: 2 Vatesalonike
+    short: 2Tes
+  2Tim:
+    long: 2 Timoteo
+    short: 2Tim
+  3John:
+    long: 3 Yohane
+    short: 3Yoh
+  Acts:
+    long: Mashora
+    short: Mav
+  Amos:
+    long: Amosi
+    short: Amo
+  Col:
+    long: Vakolosai
+    short: Kol
+  Dan:
+    long: Danieli
+    short: Dan
+  Deut:
+    long: Nkumbuye Wa Uvavaso
+    short: Nku
+  Eccl:
+    long: Mwiilosha
+    short: Mwi
+  Eph:
+    long: VaEfeso
+    short: Efe
+  Esth:
+    long: Esta
+    short: Est
+  Exod:
+    long: Yuuka
+    short: Yuu
+  Ezek:
+    long: Esekieli
+    short: Ese
+  Ezra:
+    long: Esra
+    short: Esr
+  Gal:
+    long: Vagalatia
+    short: Gal
+  Gen:
+    long: Mapookyony
+    short: Map
+  Hab:
+    long: Habakuki
+    short: Hab
+  Hag:
+    long: Hagai
+    short: Hag
+  Heb:
+    long: Vaebrania
+    short: Ebr
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Isaya
+    short: Yes
+  Jas:
+    long: Yakobo
+    short: Yak
+  Jer:
+    long: Yeremia
+    short: Yer
+  Job:
+    long: Yobu
+    short: Yob
+  Joel:
+    long: Yoeli
+    short: Yol
+  John:
+    long: Yohane
+    short: Yoh
+  Jonah:
+    long: Yona
+    short: Yon
+  Josh:
+    long: Yosua
+    short: Yos
+  Jude:
+    long: Yuda
+    short: Yud
+  Judg:
+    long: Valeti
+    short: Vat
+  Lam:
+    long: Fiiyo
+    short: Fyi
+  Lev:
+    long: VaLevi
+    short: Val
+  Luke:
+    long: Luka
+    short: Luk
+  Mal:
+    long: Malaki
+    short: Mal
+  Mark:
+    long: Marko
+    short: Mar
+  Matt:
+    long: Matayo
+    short: Mat
+  Mic:
+    long: Mika
+    short: MiK
+  Nah:
+    long: Nahumu
+    short: Nah
+  Neh:
+    long: Nehemia
+    short: Neh
+  Num:
+    long: Meekyena
+    short: Mee
+  Obad:
+    long: Obadia
+    short: Oba
+  Phil:
+    long: Vafilipi
+    short: Fili
+  Phlm:
+    long: Filemoni
+    short: Fil
+  Prov:
+    long: Fyaaso
+    short: Fya
+  Ps:
+    long: Saburi
+    short: Saburi
+  Rev:
+    long: Usukuyony
+    short: Usu
+  Rom:
+    long: Varome
+    short: Var
+  Ruth:
+    long: Ruti
+    short: Rut
+  Song:
+    long: Kyiimbo Kya Fiimbo
+    short: Kyii
+  Titus:
+    long: Tito
+    short: Tit
+  Zech:
+    long: Sekaria
+    short: Sek
+  Zeph:
+    long: Sefania
+    short: Sef
+translations:
+  masnt00:
+    1Cor:
+      short: 1Vak
+    1John:
+      short: 1Yoh
+    1Pet:
+      short: 1Pet
+    1Thess:
+      short: 1Vat
+    2Cor:
+      short: 2Vak
+    2Pet:
+      short: 2Pet
+    2Thess:
+      short: 2Vat
+    Eph:
+      short: Vae
+    Gal:
+      short: Vag
+    Phil:
+      short: Vaf
+  mas2:
+    Phlm:
+      short: File

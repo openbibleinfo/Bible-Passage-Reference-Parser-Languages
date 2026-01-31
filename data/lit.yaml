@@ -1,0 +1,373 @@
+variables:
+  first: &first
+    - "1"
+    - Pirmasis
+    - Pirmoji
+  second: &second
+    - "2"
+    - Antrasis
+    - Antroji
+books:
+  - osis: Gen
+    texts:
+      - Pradžios knyga
+      - Pradžios
+      - Pr
+  - osis: Exod
+    texts:
+      - Išėjimo knyga
+      - Išėjimo
+      - Iš
+  - osis: Lev
+    texts:
+      - Kunigų knyga
+      - Kunigų
+      - Kun
+  - osis: Num
+    texts:
+      - Skaičių knyga
+      - Skaičių
+      - Sk
+  - osis: Sir
+    texts:
+      - Siracido
+      - Sir
+  - osis: Wis
+    texts:
+      - Išminties
+      - Išm
+  - osis: Lam
+    texts:
+      - Raudų knyga
+      - Raudų
+      - Rd
+  - osis: Rev
+    texts:
+      - Apreiškimas Jonui
+      - Apreiškimas
+      - Apr
+  - osis: Deut
+    texts:
+      - Pakartoto įstatymo knyga
+      - Pakartoto Įstatymo
+      - Įst
+  - osis: Josh
+    texts:
+      - Jozuės knyga
+      - Jozuės
+      - Joz
+  - osis: Judg
+    texts:
+      - Teisėjų knyga
+      - Teisėjų
+      - Ts
+  - osis: Ruth
+    texts:
+      - Rūtos knyga
+      - Rūtos
+      - Rūt
+  - osis: Isa
+    texts:
+      - Izaijo pranašystė
+      - Izaijo
+      - Iz
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuelio knyga
+      - Samuelio
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Karalių knyga
+      - Karalių
+      - Kar
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Kronikų knyga
+      - Metraščių
+      - Met
+  - osis: Ezra
+    texts:
+      - Ezros knyga
+      - Ezros
+      - Ezr
+  - osis: Neh
+    texts:
+      - Nehemijo knyga
+      - Nehemijo
+      - Neh
+  - osis: Job
+    texts:
+      - Jobo knyga
+      - Jobo
+      - Job
+  - osis: Ps
+    texts:
+      - Psalmių knyga
+      - Psalmynas
+      - Ps
+  - osis: Prov
+    texts:
+      - Patarlių knyga
+      - Patarlės
+      - Pat
+  - osis: Eccl
+    texts:
+      - Ekleziasto knyga
+      - Mokytojo
+      - Mok
+  - osis: Song
+    texts:
+      - Giesmių giesmės
+      - Giesmių giesmė
+      - Gg
+  - osis: Jer
+    texts:
+      - Jeremijo pranašystė
+      - Jeremijo
+      - Jer
+  - osis: Ezek
+    texts:
+      - Ezechielio pranašystė
+      - Ezechielio
+      - Ez
+  - osis: Hos
+    texts:
+      - Ozėjo pranašystė
+      - Ozėjo
+      - Oz
+  - osis: Joel
+    texts:
+      - Joelio pranašystė
+      - Joelio
+      - Jl
+  - osis: Amos
+    texts:
+      - Amoso pranašystė
+      - Amoso
+      - Am
+  - osis: Obad
+    texts:
+      - Abdijo pranašystė
+      - Abdijo
+      - Abd
+  - osis: Jonah
+    texts:
+      - Jonos pranašystė
+      - Jonos
+      - Jon
+  - osis: Mic
+    texts:
+      - Michėjo pranašystė
+      - Michėjo
+      - Mch
+  - osis: Nah
+    texts:
+      - Nahumo pranašystė
+      - Nahumo
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuko pranašystė
+      - Habakuko
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sofonijo pranašystė
+      - Sofonijo
+      - Sof
+  - osis: Hag
+    texts:
+      - Agėjo pranašystė
+      - Agėjo
+      - Ag
+  - osis: Zech
+    texts:
+      - Zacharijo pranašystė
+      - Zacharijo
+      - Zch
+  - osis: Mal
+    texts:
+      - Malachijo pranašystė
+      - Malachijo
+      - Mal
+  - osis: Matt
+    texts:
+      - Evangelija pagal Matą
+      - Mato
+      - Mt
+  - osis: Mark
+    texts:
+      - Evangelija pagal Morkų
+      - Morkaus
+      - Mk
+  - osis: Luke
+    texts:
+      - Evangelija pagal Luką
+      - Luko
+      - Lk
+  - osis: 3John
+    texts:
+      - Trečiasis Jono laiškas
+      - 3 Jono
+      - 3 Jn
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jono laiškas
+      - Jono
+      - Jn
+  - osis: John
+    texts:
+      - Evangelija pagal Joną
+      - Jono
+      - Jn
+  - osis: Acts
+    texts:
+      - Apaštalų darbai
+      - Apd
+  - osis: Rom
+    texts:
+      - Laiškas Romiečiams
+      - Romiečiams
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - laiškas Korintiečiams
+      - Korintiečiams
+      - Kor
+  - osis: Col
+    texts:
+      - Laiškas Kolosiečiams
+      - Kolosiečiams
+      - Kol
+  - osis: Gal
+    texts:
+      - Laiškas Galatams
+      - Galatams
+      - Gal
+  - osis: Eph
+    texts:
+      - Laiškas Efeziečiams
+      - Efeziečiams
+      - Ef
+  - osis: Phil
+    texts:
+      - Laiškas Filipiečiams
+      - Filipiečiams
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - laiškas Tesalonikiečiams
+      - Tesalonikiečiams
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - laiškas Timotiejui
+      - Timotiejui
+      - Tim
+  - osis: Titus
+    texts:
+      - Laiškas Titui
+      - Titui
+      - Tit
+  - osis: Phlm
+    texts:
+      - Laiškas Filemonui
+      - Filemonui
+      - Fm
+  - osis: Heb
+    texts:
+      - Laiškas Hebrajams
+      - Hebrajams
+      - Hbr
+  - osis: Jas
+    texts:
+      - Jokūbo laiškas
+      - Jokūbo
+      - Jok
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petro laiškas
+      - Petro
+      - Pt
+  - osis: Jude
+    texts:
+      - Judo laiškas
+      - Judo
+      - Jud
+  - osis: Tob
+    texts:
+      - Tobito
+      - Tob
+  - osis: Jdt
+    texts:
+      - Juditos
+      - Jdt
+  - osis: Bar
+    texts:
+      - Barucho
+      - Bar
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+    texts:
+      - Makabiejų
+      - Mak
+  - osis: DanGr
+    texts:
+      - Danieliaus (graikiškieji)
+      - Dan(g)
+  - osis: Dan
+    texts:
+      - Danieliaus pranašystė
+      - Danieliaus
+      - Dan
+  - osis: EsthGr
+    texts:
+      - Esteros (graikiškoji)
+      - Est(g)
+  - osis: Esth
+    texts:
+      - Esteros knyga
+      - Esteros
+      - Est
+translations:
+  - LBD-KAN
+  - LBD-EKU
+  - LBD
+  - LBD-DC
+  - KBV

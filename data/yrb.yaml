@@ -1,0 +1,96 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Jonibai We Ma Boroyari Sina
+  - osis: Matt
+    texts:
+      - Matiunu
+  - osis: Mark
+    texts:
+      - Makanu
+  - osis: Luke
+    texts:
+      - Rukanu
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Joninu
+  - osis: Acts
+    texts:
+      - Afosoro
+  - osis: Rom
+    texts:
+      - Romani
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinita
+  - osis: Col
+    texts:
+      - Korose
+  - osis: Gal
+    texts:
+      - Gareisia
+  - osis: Eph
+    texts:
+      - Efesa
+  - osis: Phil
+    texts:
+      - Firifai
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Tesoronaika
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaronaika
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotibai
+  - osis: Titus
+    texts:
+      - Taitasibai
+  - osis: Phlm
+    texts:
+      - Fairimonibai
+  - osis: Heb
+    texts:
+      - Iburu
+  - osis: Jas
+    texts:
+      - Jeimisinu
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Fitanu
+  - osis: Jude
+    texts:
+      - Judenu
+translations:
+  - YRB

@@ -1,0 +1,103 @@
+variables:
+  first: &first
+    - ᓂᔥᑕᒻ
+  second: &second
+    - ᓂᔓ
+  third: &third
+    - ᓂᔅᑐ
+books:
+  - osis: Rev
+    texts:
+      - ᑭᔅᑫᓕᑖᑯᑖᑫᐎᓐ
+  - osis: Matt
+    texts:
+      - ᐅᐸᓓᑭᔅ ᒫᑎᐤ
+      - ᒫᑎᐤ
+  - osis: Mark
+    texts:
+      - ᐅᐸᓓᑭᔅ ᒫᕐᒃ
+      - ᒫᕐᒃ
+  - osis: Luke
+    texts:
+      - ᐅᐸᓓᑭᔅ ᓘᒃ
+      - ᓘᒃ
+  - osis: John
+    texts:
+      - ᐅᐸᓓᑭᔅ ᒑᓐ
+      - ᒑᓐ
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - ᒑᓐ
+  - osis: Acts
+    texts:
+      - ᐊᐸᔅᑕᓚᒃ
+  - osis: Rom
+    texts:
+      - ᕈᒪᓇ
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - ᑯᕆᓐᑎᐊᓇ
+      - ᑯᕆᓐᑎᔮᓇ
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - ᑯᕆᓐᑎᐊᓇ
+  - osis: Col
+    texts:
+      - ᑯᓚᔑᔭᓇ
+  - osis: Gal
+    texts:
+      - ᑲᓓᔕᐊᓇ
+  - osis: Eph
+    texts:
+      - ᐃᐱᓯᔭᓇ
+  - osis: Phil
+    texts:
+      - ᐱᓕᐱᔭᓇ
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - ᑌᓴᓗᓂᔭᓇ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - ᑎᒧᑎ
+  - osis: Titus
+    texts:
+      - ᑕᐃᑕᔅ
+  - osis: Phlm
+    texts:
+      - ᐹᐃᓕᒪᓐ
+  - osis: Heb
+    texts:
+      - ᐦᐃᑉᕉᐗ
+  - osis: Jas
+    texts:
+      - ᒉᒻᔅ
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - ᐱᑕᕐ
+  - osis: Jude
+    texts:
+      - ᒎᑦ
+translations:
+  - MCNT91

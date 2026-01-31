@@ -1,0 +1,138 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Pfong Ka̱za
+      - PfoK
+  - osis: Matt
+    texts:
+      - Matta
+      - Mat
+  - osis: Mark
+    texts:
+      - Markut
+      - Mar
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Yoh
+  - osis: 2John
+    texts:
+      - 2Yoh
+  - osis: 3John
+    texts:
+      - 3 Yohana
+      - 3Yoh
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yohana
+  - osis: John
+    texts:
+      - Yohana
+      - Yoh
+  - osis: Acts
+    texts:
+      - Npfong
+  - osis: Rom
+    texts:
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinti
+  - osis: 1Cor
+    texts:
+      - 1Kor
+  - osis: 2Cor
+    texts:
+      - 2Kor
+  - osis: Col
+    texts:
+      - Kolosi
+      - Kol
+  - osis: Gal
+    texts:
+      - Galati
+      - Gal
+  - osis: Eph
+    texts:
+      - Afisa
+      - Afi
+  - osis: Phil
+    texts:
+      - Filibi
+      - Filib
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tasaloni
+  - osis: 1Thess
+    texts:
+      - 1Tas
+  - osis: 2Thess
+    texts:
+      - 2Tas
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Titut
+  - osis: Phlm
+    texts:
+      - Filimon
+      - Filim
+  - osis: Heb
+    texts:
+      - Ibraniyawa
+      - Ibr
+  - osis: Jas
+    texts:
+      - Yakubu
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Bitut
+  - osis: 1Pet
+    texts:
+      - 1Bit
+  - osis: 2Pet
+    texts:
+      - 2Bit
+  - osis: Jude
+    texts:
+      - Yahuda
+      - Yah
+translations:
+  - KAJ

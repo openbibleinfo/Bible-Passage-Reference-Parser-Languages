@@ -1,0 +1,85 @@
+default:
+  1Cor:
+    long: 1 Vëvë Korent
+    short: 1Ko
+  1John:
+    long: 1 San
+    short: 1Sa
+  1Pet:
+    long: 1 Piyer
+    short: 1Pi
+  1Thess:
+    long: 1 Vëvë Tesalonik
+    short: 1Te
+  1Tim:
+    long: 1 Timote
+    short: 1Ti
+  2Cor:
+    long: 2 Vëvë Korent
+    short: 2Ko
+  2John:
+    long: 2 San
+    short: 2Sa
+  2Pet:
+    long: 2 Piyer
+    short: 2Pi
+  2Thess:
+    long: 2 Vëvë Tesalonik
+    short: 2Te
+  2Tim:
+    long: 2 Timote
+    short: 2Ti
+  3John:
+    long: 3 San
+    short: 3Sa
+  Acts:
+    long: Vantiyehn
+    short: Vnt
+  Col:
+    long: Vëvë Kolos
+    short: Kol
+  Eph:
+    long: Vëvë Efes
+    short: Efe
+  Gal:
+    long: Vëvë Galasi
+    short: Gal
+  Gen:
+    long: Wapëgwala
+    short: Pgw
+  Heb:
+    long: Ebëre
+    short: Ebr
+  Jas:
+    long: Sak
+    short: Sak
+  John:
+    long: San
+    short: San
+  Jude:
+    long: Yuɗ
+    short: Yuɗ
+  Luke:
+    long: Lik
+    short: Lik
+  Mark:
+    long: Marëk
+    short: Mrk
+  Matt:
+    long: Matiye
+    short: Mat
+  Phil:
+    long: Vëvë Filip
+    short: Flp
+  Phlm:
+    long: Filemon
+    short: Flm
+  Rev:
+    long: Wapuyala
+    short: Puy
+  Rom:
+    long: Vëvë Rom
+    short: Rom
+  Titus:
+    long: Tit
+    short: Tit

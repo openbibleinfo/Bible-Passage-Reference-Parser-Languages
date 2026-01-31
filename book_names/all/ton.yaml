@@ -1,0 +1,532 @@
+- osis: Gen
+  texts:
+    - Ko Sēnesi
+    - Jenesi
+    - Sēn
+- osis: Exod
+  texts:
+    - Ko ‘Ekisoto
+    - Ekesotosi
+    - ‘Eki
+- osis: Lev
+  texts:
+    - Levitiko
+    - Lev
+- osis: Num
+  texts:
+    - Nomiba
+    - Nōmipa
+    - Nōm
+- osis: Lam
+  texts:
+    - Koe Tagilaulau A Jelemaia
+    - Koni Tangilāulau
+    - Tangi
+- osis: Rev
+  texts:
+    - Ko E Me‘a Fakahā
+    - Fakaha
+    - Fakahā
+    - Fkhā
+- osis: Deut
+  texts:
+    - Ko Teutalōnome
+    - Teutalonome
+    - Teu
+- osis: Josh
+  texts:
+    - Ko Siosiua
+    - Josiua
+    - Sios
+- osis: Judg
+  texts:
+    - Koe Kau Fakamau
+    - Kau Fakamaau
+    - Fkm
+- osis: Ruth
+  texts:
+    - Ko Lute
+    - Lute
+    - Luté
+- osis: Isa
+  texts:
+    - Koe Tohi A Isaia
+    - Ko ‘Aisea
+    - ‘Ais
+- osis: 1Sam
+  texts:
+    - 1 1 Sāmiuela
+    - 1 Samuela
+    - 1 Sām
+    - 1. 1 Sāmiuela
+    - 1. Samuela
+    - 1. Sām
+    - Ko 1 Sāmiuela
+    - Ko Samuela
+    - Ko Sām
+    - Ko. 1 Sāmiuela
+    - Ko. Samuela
+    - Ko. Sām
+- osis: 2Sam
+  texts:
+    - 2 2 Sāmiuela
+    - 2 Samuela
+    - 2 Sām
+    - 2. 2 Sāmiuela
+    - 2. Samuela
+    - 2. Sām
+    - II 2 Sāmiuela
+    - II Samuela
+    - II Sām
+    - II. 2 Sāmiuela
+    - II. Samuela
+    - II. Sām
+    - Ko 2 Sāmiuela
+    - Ko Samuela
+    - Ko Sām
+    - Ko. 2 Sāmiuela
+    - Ko. Samuela
+    - Ko. Sām
+- osis: 1Kgs
+  texts:
+    - 1 Koe Gaahi Tu‘i
+    - 1 1 Tu‘i
+    - 1 Tu‘i
+    - 1. Koe Gaahi Tu‘i
+    - 1. 1 Tu‘i
+    - 1. Tu‘i
+    - Ko Koe Gaahi Tu‘i
+    - Ko 1 Tu‘i
+    - Ko Tu‘i
+    - Ko. Koe Gaahi Tu‘i
+    - Ko. 1 Tu‘i
+    - Ko. Tu‘i
+- osis: 2Kgs
+  texts:
+    - 2 Koe Gaahi Tu‘i
+    - 2 2 Tu‘i
+    - 2 Tu‘i
+    - 2. Koe Gaahi Tu‘i
+    - 2. 2 Tu‘i
+    - 2. Tu‘i
+    - II Koe Gaahi Tu‘i
+    - II 2 Tu‘i
+    - II Tu‘i
+    - II. Koe Gaahi Tu‘i
+    - II. 2 Tu‘i
+    - II. Tu‘i
+    - Ko Koe Gaahi Tu‘i
+    - Ko 2 Tu‘i
+    - Ko Tu‘i
+    - Ko. Koe Gaahi Tu‘i
+    - Ko. 2 Tu‘i
+    - Ko. Tu‘i
+- osis: 1Chr
+  texts:
+    - 1 Koe Tohi Fakamatala Mea Hokohoko
+    - 1 Kal
+    - 1. Koe Tohi Fakamatala Mea Hokohoko
+    - 1. Kal
+    - Ko Koe Tohi Fakamatala Mea Hokohoko
+    - Ko Kal
+    - Ko. Koe Tohi Fakamatala Mea Hokohoko
+    - Ko. Kal
+- osis: 2Chr
+  texts:
+    - 2 Koe Tohi Fakamatala Mea Hokohoko
+    - 2 Kal
+    - 2. Koe Tohi Fakamatala Mea Hokohoko
+    - 2. Kal
+    - II Koe Tohi Fakamatala Mea Hokohoko
+    - II Kal
+    - II. Koe Tohi Fakamatala Mea Hokohoko
+    - II. Kal
+    - Ko Koe Tohi Fakamatala Mea Hokohoko
+    - Ko Kal
+    - Ko. Koe Tohi Fakamatala Mea Hokohoko
+    - Ko. Kal
+- osis: Ezra
+  texts:
+    - Koe Tohi A Esela
+    - Ko ‘Ēsela
+    - ‘Ēsela
+- osis: Neh
+  texts:
+    - Koe Tohi A Nehemaia
+    - Ko Nehemaia
+    - Nehe
+- osis: Esth
+  texts:
+    - Koe Tohi A Eseta
+    - Ko ‘Ēseta
+    - ‘Ēseta
+- osis: Job
+  texts:
+    - Koe Tohi A Jobe
+    - Ko Siope
+    - Siope
+- osis: Ps
+  texts:
+    - Koe Gaahi Same
+    - Ko E Saame
+    - Saame
+- osis: Prov
+  texts:
+    - Koe Gaahi Lea Fakatātā
+    - Palōvepi
+    - Pal
+- osis: Eccl
+  texts:
+    - Koe Tohi Ae Tagata Malaga
+    - Koheleti
+    - Koh
+- osis: Song
+  texts:
+    - Koe Hiva A Solomone
+    - Hiva ‘O E Hiva
+    - Hiva
+- osis: Jer
+  texts:
+    - Koe Tohi A Jelemaia
+    - Ko Selemaia
+    - Sel
+- osis: Ezek
+  texts:
+    - Koe Tohi A Isikieli
+    - Ko ‘Isikeli
+    - ‘Isi
+- osis: Dan
+  texts:
+    - Koe Tohi A Taniela
+    - Ko Tāniela
+    - Tān
+- osis: Hos
+  texts:
+    - Koe Tohi A Hosea
+    - Ko Hosea
+    - Hōs
+- osis: Joel
+  texts:
+    - Koe Tohi A Joeli
+    - Ko Sioeli
+    - Sioelí
+- osis: Amos
+  texts:
+    - Koe Tohi A Amosi
+    - Ko ‘Ēmosi
+    - ‘Ēmosi
+- osis: Obad
+  texts:
+    - Koe Tohi A Obataia
+    - Ko ‘Opataia
+    - ‘Opa
+- osis: Jonah
+  texts:
+    - Koe Tohi A Jona
+    - Ko Siona
+    - Sioná
+- osis: Mic
+  texts:
+    - Koe Tohi A Maika
+    - Ko Maika
+    - Maiká
+- osis: Nah
+  texts:
+    - Koe Tohi A Nehumi
+    - Ko Nēhumi
+    - Nēhu
+- osis: Hab
+  texts:
+    - Koe Tohi A Habakuki
+    - Ko Hapakuki
+    - Hap
+- osis: Zeph
+  texts:
+    - Koe Tohi A Sefanaia
+    - Ko Sefanaia
+    - Sef
+- osis: Hag
+  texts:
+    - Koe Tohi A Hakeai
+    - Ko Hākeai
+    - Hāk
+- osis: Zech
+  texts:
+    - Koe Tohi A Sakalaia
+    - Ko Sākalaia
+    - Sāk
+- osis: Mal
+  texts:
+    - Koe Tohi A Malakai
+    - Ko Malakai
+    - Mal
+- osis: Matt
+  texts:
+    - E Matiu
+    - Mātiu
+    - Mātiú
+    - Māt
+- osis: Mark
+  texts:
+    - Ma‘ake
+    - Ma‘aké
+    - Maake
+- osis: Luke
+  texts:
+    - Luke
+    - Luké
+    - Luk
+- osis: 1John
+  texts:
+    - Sioné 1
+    - A Jone
+- osis: 2John
+  texts:
+    - Sioné 2
+- osis: 3John
+  texts:
+    - 3 Sione
+    - Sioné 3
+    - 3 Jone
+- osis: 1John
+  texts:
+    - 1 Sione
+    - 1. Sione
+    - Ko Sione
+    - Ko. Sione
+- osis: 2John
+  texts:
+    - 2 Sione
+    - 2 Jone
+    - 2. Sione
+    - 2. Jone
+    - II Sione
+    - II Jone
+    - II. Sione
+    - II. Jone
+    - Ko Sione
+    - Ko Jone
+    - Ko. Sione
+    - Ko. Jone
+- osis: John
+  texts:
+    - Sione
+    - Sioné
+    - Jone
+- osis: Acts
+  texts:
+    - ‘Apositoló
+    - Koe Gaue
+    - Ngāue
+    - Ngā
+- osis: Rom
+  texts:
+    - Loma
+    - Lom
+- osis: 1Cor
+  texts:
+    - Kolinitō 1
+- osis: 2Cor
+  texts:
+    - Kolinitō 2
+- osis: 1Cor
+  texts:
+    - 1 Kolinito
+    - 1 Kolinitō
+    - 1 Kol
+    - 1. Kolinito
+    - 1. Kolinitō
+    - 1. Kol
+    - Ko Kolinito
+    - Ko Kolinitō
+    - Ko Kol
+    - Ko. Kolinito
+    - Ko. Kolinitō
+    - Ko. Kol
+- osis: 2Cor
+  texts:
+    - 2 Kolinito
+    - 2 Kolinitō
+    - 2 Kol
+    - 2. Kolinito
+    - 2. Kolinitō
+    - 2. Kol
+    - II Kolinito
+    - II Kolinitō
+    - II Kol
+    - II. Kolinito
+    - II. Kolinitō
+    - II. Kol
+    - Ko Kolinito
+    - Ko Kolinitō
+    - Ko Kol
+    - Ko. Kolinito
+    - Ko. Kolinitō
+    - Ko. Kol
+- osis: Col
+  texts:
+    - Kolose
+    - Kolosé
+    - Kol
+- osis: Gal
+  texts:
+    - Kakai Kaletia
+    - Kalētia
+    - Kalētiá
+    - Kal
+- osis: Eph
+  texts:
+    - Kakai Efeso
+    - ‘Efesō
+    - ʻEfesō
+    - ‘Efe
+- osis: Phil
+  texts:
+    - Filibai
+    - Filipai
+    - Filipaí
+    - Filip
+- osis: 1Thess
+  texts:
+    - 1 Tesalonaika
+    - 1 Tesalonika
+    - 1 Tes
+    - 1. Tesalonaika
+    - 1. Tesalonika
+    - 1. Tes
+    - Ko Tesalonaika
+    - Ko Tesalonika
+    - Ko Tes
+    - Ko. Tesalonaika
+    - Ko. Tesalonika
+    - Ko. Tes
+- osis: 1Thess
+  texts:
+    - Tesalonaiká 1
+    - 1Tesalonaika
+- osis: 2Thess
+  texts:
+    - Tesalonaiká 2
+    - 2Tesalonaiká
+- osis: 2Thess
+  texts:
+    - 2 Tesalonaiká
+    - 2 Tesalonika
+    - 2 Tes
+    - 2. Tesalonaiká
+    - 2. Tesalonika
+    - 2. Tes
+    - II Tesalonaiká
+    - II Tesalonika
+    - II Tes
+    - II. Tesalonaiká
+    - II. Tesalonika
+    - II. Tes
+    - Ko Tesalonaiká
+    - Ko Tesalonika
+    - Ko Tes
+    - Ko. Tesalonaiká
+    - Ko. Tesalonika
+    - Ko. Tes
+- osis: 1Tim
+  texts:
+    - 1 Timote
+    - 1 Tīmote
+    - 1 Tīm
+    - 1. Timote
+    - 1. Tīmote
+    - 1. Tīm
+    - Ko Timote
+    - Ko Tīmote
+    - Ko Tīm
+    - Ko. Timote
+    - Ko. Tīmote
+    - Ko. Tīm
+- osis: 2Tim
+  texts:
+    - 2 Timote
+    - 2 Tīmote
+    - 2 Tīm
+    - 2. Timote
+    - 2. Tīmote
+    - 2. Tīm
+    - II Timote
+    - II Tīmote
+    - II Tīm
+    - II. Timote
+    - II. Tīmote
+    - II. Tīm
+    - Ko Timote
+    - Ko Tīmote
+    - Ko Tīm
+    - Ko. Timote
+    - Ko. Tīmote
+    - Ko. Tīm
+- osis: 1Tim
+  texts:
+    - Tīmoté 1
+    - 1Tīmote
+- osis: 2Tim
+  texts:
+    - Tīmoté 2
+    - 2Tīmote
+- osis: Titus
+  texts:
+    - Taitusi
+    - Taitusí
+    - Tait
+- osis: Phlm
+  texts:
+    - Filimone
+    - Filimoné
+    - Filim
+- osis: Heb
+  texts:
+    - Hebelu
+    - Hepelū
+    - Hep
+- osis: Jas
+  texts:
+    - Jemesi
+    - Sēmisi
+    - Sēmisí
+    - Sēm
+- osis: 1Pet
+  texts:
+    - Pitá 1
+- osis: 2Pet
+  texts:
+    - 2 Pita
+    - 2 Pit
+    - 2. Pita
+    - 2. Pit
+    - II Pita
+    - II Pit
+    - II. Pita
+    - II. Pit
+    - Ko Pita
+    - Ko Pit
+    - Ko. Pita
+    - Ko. Pit
+- osis: 2Pet
+  texts:
+    - A Bita
+    - Pitá 2
+- osis: 1Pet
+  texts:
+    - 1 Bita
+    - 1 Pita
+    - 1 Pit
+    - 1. Bita
+    - 1. Pita
+    - 1. Pit
+    - Ko Bita
+    - Ko Pita
+    - Ko Pit
+    - Ko. Bita
+    - Ko. Pita
+    - Ko. Pit
+- osis: Jude
+  texts:
+    - Siuta
+    - Jute

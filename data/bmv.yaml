@@ -1,0 +1,134 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Gokhini
+      - Gok
+  - osis: Matt
+    texts:
+      - Matiyò
+      - Mat
+  - osis: Mark
+    texts:
+      - Mâk
+  - osis: Luke
+    texts:
+      - Lûk
+  - osis: 1John
+    texts:
+      - 1Jn
+  - osis: 2John
+    texts:
+      - 2Jn
+  - osis: 3John
+    texts:
+      - 3 Jon
+      - 3Jn
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jon
+  - osis: Acts
+    texts:
+      - Fêt
+  - osis: Rom
+    texts:
+      - Lumàns
+      - Lum
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kòlitiyàns
+  - osis: 1Cor
+    texts:
+      - 1Kò
+  - osis: 2Cor
+    texts:
+      - 2Kò
+  - osis: Col
+    texts:
+      - Kòlosiyàns
+      - Kòl
+  - osis: Gal
+    texts:
+      - Gàlesiyà
+      - Gàl
+  - osis: Eph
+    texts:
+      - Efisiyàns
+      - Efi
+  - osis: Phil
+    texts:
+      - Fìlibiyàns
+      - Fìl
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tèsàloniyàns
+  - osis: 1Thess
+    texts:
+      - 1Tè
+  - osis: 2Thess
+    texts:
+      - 2Tè
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotì
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Taytùs
+      - Tay
+  - osis: Phlm
+    texts:
+      - Filemùn
+      - Fim
+  - osis: Heb
+    texts:
+      - Hibùlùs
+      - Hib
+  - osis: Jas
+    texts:
+      - Jêms
+      - Jêm
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Bità
+  - osis: 1Pet
+    texts:
+      - 1Bi
+  - osis: 2Pet
+    texts:
+      - 2Bi
+  - osis: Jude
+    texts:
+      - Jûd
+translations:
+  - BMV

@@ -1,0 +1,128 @@
+default:
+  1Cor:
+    long: 1 Kodin
+    short: 1 Ko
+  1John:
+    long: 1 Yon
+    short: 1 Yn
+  1Pet:
+    long: 1 Bita
+    short: 1 Bi
+  1Thess:
+    long: 1 Tesalonaikka
+    short: 1 Te
+  1Tim:
+    long: 1 Timoti
+    short: 1 Ti
+  2Cor:
+    long: 2 Kodin
+    short: 2 Ko
+  2John:
+    long: 2 Yon
+    short: 2 Yn
+  2Pet:
+    long: 2 Bita
+    short: 2 Bi
+  2Thess:
+    long: 2 Tesalonaikka
+    short: 2 Te
+  2Tim:
+    long: 2 Timoti
+    short: 2 Ti
+  3John:
+    long: 3 Yon
+    short: 3 Jon
+  Acts:
+    long: Sinik Abem
+    short: Sa
+  Col:
+    long: Kalose
+    short: Ka
+  Eph:
+    long: Efesis
+    short: Ef
+  Gal:
+    long: Galesia
+    short: Ga
+  Heb:
+    long: Ibidu
+    short: Ib
+  Jas:
+    long: Yemis
+    short: Ye
+  John:
+    long: Yon
+    short: Yn
+  Jude:
+    long: Yut
+    short: Yu
+  Luke:
+    long: Luk
+    short: Lk
+  Mark:
+    long: Mák
+    short: Mk
+  Matt:
+    long: Matiyu
+    short: Mat
+  Phil:
+    long: Filibai
+    short: Fi
+  Phlm:
+    long: Failiman
+    short: Fai
+  Rev:
+    long: Daw misun
+    short: Daw
+  Rom:
+    long: Udom
+    short: Ud
+  Titus:
+    long: Taitas
+    short: Tai
+translations:
+  fai:
+    1Cor:
+      short: 1 Kod
+    1John:
+      short: 1 Yon
+    1Thess:
+      short: 1 Th
+    2Cor:
+      short: 2 Kod
+    2John:
+      short: 2 Yon
+    2Thess:
+      short: 2 Th
+    Acts:
+      short: Sinik
+    Col:
+      short: Kal
+    Eph:
+      short: Efe
+    Gal:
+      short: Gal
+    Heb:
+      short: Ibi
+    Jas:
+      short: Yem
+    John:
+      short: Yon
+    Jude:
+      short: Yut
+    Luke:
+      short: Luk
+    Mark:
+      short: Mák
+    Phil:
+      short: Fil
+    Rom:
+      short: Udom
+  faint:
+    3John:
+      short: 3 Yn
+    Matt:
+      short: Mt
+    Rev:
+      long: Yesus daw misun teimin sung
+      short: Dm

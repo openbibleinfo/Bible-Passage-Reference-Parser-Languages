@@ -1,0 +1,493 @@
+default:
+  1Chr:
+    long: ପ୍ରଥମ ବଂଶାବଳୀ
+    short: ପ୍ର.ବଂ.
+  1Cor:
+    long: ୧ କରିନ୍ଥୀୟ
+    short: ପ୍ର.କରି.
+  1John:
+    long: ୧ ଯୋହନ
+    short: ପ୍ର. ଯୋହ.
+  1Kgs:
+    long: ପ୍ରଥମ ରାଜାବଳୀ
+    short: ପ୍ର.ରା.
+  1Pet:
+    long: ୧ ପିତର
+    short: ପ୍ର. ପିତ.
+  1Sam:
+    long: ପ୍ରଥମ ଶାମୁୟେଲ
+    short: ପ୍ର.ଶା.
+  1Thess:
+    long: ୧ ଥେସଲନୀକୀୟ
+    short: ପ୍ର.ଥେସ.
+  1Tim:
+    long: ୧ ତୀମଥି
+    short: ପ୍ର.ତୀମ.
+  2Chr:
+    long: ଦ୍ବିତୀୟ ବଂଶାବଳୀ
+    short: ଦ୍ବି.ବଂ.
+  2Cor:
+    long: ୨ କରିନ୍ଥୀୟ
+    short: କରିନ୍ଥୀୟଙ୍କ ପ୍ରତି ଦ୍ୱିତୀୟ ପତ୍ର
+  2John:
+    long: ୨ ଯୋହନ
+    short: ୨ ଯୋହନ
+  2Kgs:
+    long: ଦ୍ୱିତୀୟ ରାଜାବଳୀ
+    short: ଦ୍ବି.ରା.
+  2Pet:
+    long: ୨ ପିତର
+    short: ଦ୍ଵି. ପିତ.
+  2Sam:
+    long: ଦ୍ୱିତୀୟ ଶାମୁୟେଲ
+    short: ଦ୍ବି.ଶା.
+  2Thess:
+    long: ୨ ଥେସଲନୀକୀୟ
+    short: ଦ୍ଵି. ଥେସ.
+  2Tim:
+    long: ୨ ତୀମଥି
+    short: ୨ ତୀମଥି
+  3John:
+    long: ୩ ଯୋହନ
+    short: ୩ ଯୋହନ
+  Acts:
+    long: ପ୍ରେରିତ
+    short: ପ୍ରେରି.
+  Amos:
+    long: ଆମୋଷ
+    short: ଆମୋ.
+  Col:
+    long: କଲସୀୟ
+    short: କଲ.
+  Dan:
+    long: ଦାନିୟେଲ
+    short: ଦାନି.
+  Deut:
+    long: ଦ୍ୱିତୀୟ ବିବରଣ
+    short: ଦ୍ବି.ବି.
+  Eccl:
+    long: ଉପଦେଶକ
+    short: ଉପ.
+  Eph:
+    long: ଏଫିସୀୟ
+    short: ଏଫି.
+  Esth:
+    long: ଏଷ୍ଟର
+    short: ଏଷ୍ଟ.
+  Exod:
+    long: ଯାତ୍ରା ପୁସ୍ତକ
+    short: ଯାତ୍ରା.
+  Ezek:
+    long: ଯିହିଜିକଲ
+    short: ଯିହି.
+  Ezra:
+    long: ଏଜ୍ରା
+    short: ଏଜ୍ରା.
+  Gal:
+    long: ଗାଲାତୀୟ
+    short: ଗାଲା.
+  Gen:
+    long: ଆଦି ପୁସ୍ତକ
+    short: ଆଦି.
+  Hab:
+    long: ହବକ୍‍କୂକ
+    short: ହବ.
+  Hag:
+    long: ହାଗୟ
+    short: ହାଗ.
+  Heb:
+    long: ଏବ୍ରୀ
+    short: ଏବ୍ରୀ
+  Hos:
+    long: ହୋଶେୟ
+    short: ହୋଶେ.
+  Isa:
+    long: ଯିଶାଇୟ
+    short: ଯିଶା.
+  Jas:
+    long: ଯାକୁବ
+    short: ଯାକୁ.
+  Jer:
+    long: ଯିରିମୀୟ
+    short: ଯିରି.
+  Job:
+    long: ଆୟୁବ
+    short: ଆୟୁବ.
+  Joel:
+    long: ଯୋୟେଲ
+    short: ଯୋୟେ.
+  John:
+    long: ଯୋହନ
+    short: ଯୋହ.
+  Jonah:
+    long: ଯୂନସ
+    short: ଯୂନ.
+  Josh:
+    long: ଯିହୋଶୂୟ
+    short: ଯିହୋ.
+  Jude:
+    long: ଯିହୂଦା
+    short: ଯିହୂ.
+  Judg:
+    long: ବିଚାରକର୍ତ୍ତା
+    short: ବିଚାର.
+  Lam:
+    long: ବିଳାପ
+    short: ବିଳା.
+  Lev:
+    long: ଲେବୀୟ ପୁସ୍ତକ
+    short: ଲେବୀ.
+  Luke:
+    long: ଲୂକ
+    short: ଲୂକ
+  Mal:
+    long: ମଲାଖି
+    short: ମଲାଖି.
+  Mark:
+    long: ମାର୍କ
+    short: ମାର୍କ
+  Matt:
+    long: ମାଥିଉ
+    short: ମାଥି.
+  Mic:
+    long: ମୀଖା
+    short: ମୀଖା.
+  Nah:
+    long: ନାହୂମ
+    short: ନାହୂ.
+  Neh:
+    long: ନିହିମୀୟା
+    short: ନିହି.
+  Num:
+    long: ଗଣନା ପୁସ୍ତକ
+    short: ଗଣ.
+  Obad:
+    long: ଓବଦୀୟ
+    short: ଓବ.
+  Phil:
+    long: ଫିଲିପୀୟ
+    short: ଫିଲି.
+  Phlm:
+    long: ଫିଲୀମୋନ
+    short: ଫିଲୀ.
+  Prov:
+    long: ହିତୋପଦେଶ
+    short: ହିତୋ.
+  Ps:
+    long: ଗୀତସଂହିତା
+    short: ଗୀତ.
+  Rev:
+    long: ପ୍ରକାଶିତ ବାକ୍ୟ
+    short: ପ୍ରକା.
+  Rom:
+    long: ରୋମୀୟ
+    short: ରୋମୀ.
+  Ruth:
+    long: ରୂତ
+    short: ଋତ.
+  Song:
+    long: ପରମ ଗୀତ
+    short: ପ.ଗୀ.
+  Titus:
+    long: ତୀତସ
+    short: ତୀତ.
+  Zech:
+    long: ଯିଖରୀୟ
+    short: ଯିଖ.
+  Zeph:
+    long: ସିଫନୀୟ
+    short: ସିଫ.
+translations:
+  oerv:
+    1Chr:
+      long: 1 ବଂଶାବଳୀ
+    1Cor:
+      long: 1 କରିନ୍ଥୀୟ
+    1John:
+      long: 1 ଯୋହନ
+    1Kgs:
+      long: 1 ରାଜାବଳୀ
+    1Pet:
+      long: 1 ପିତର
+    1Sam:
+      long: 1 ଶାମୁୟେଲ
+    1Thess:
+      long: 1 ଥେସଲନୀକୀୟ
+    1Tim:
+      long: 1 ତୀମଥି
+    2Chr:
+      long: 2 ବଂଶାବଳୀ
+      short: ଦ୍ଵି.ବଂ.
+    2Cor:
+      long: 2 କରିନ୍ଥୀୟ
+      short: ଦ୍ଵି.କରି.
+    2John:
+      long: 2 ଯୋହନ
+      short: ଦ୍ଵି. ଯୋହ.
+    2Kgs:
+      long: 2 ରାଜାବଳୀ
+      short: ଦ୍ଵି.ରା.
+    2Pet:
+      long: 2 ପିତର
+    2Sam:
+      long: 2 ଶାମୁୟେଲ
+      short: ଦ୍ଵି.ଶା.
+    2Thess:
+      long: 2 ଥେସଲନୀକୀୟ
+      short: ଦ୍ଵି.ଥେସ.
+    2Tim:
+      long: 2 ତୀମଥି
+      short: ଦ୍ଵି.ତୀମ.
+    3John:
+      long: 3 ଯୋହନ
+      short: ତୃ. ଯୋହ.
+    Ezra:
+      short: ଏଜ୍ରା
+    Hab:
+      long: ହବ‌କ୍‌କୂକ
+    Jer:
+      long: ଯିରିମିୟ
+    Neh:
+      long: ନିହିମିୟା
+    Obad:
+      long: ଓବଦିଅ
+    Phil:
+      long: ଫିଲି‌ପ୍‌ପୀୟ
+    Ruth:
+      long: ଋତ
+    Zech:
+      long: ଯିଖରିୟ
+    Zeph:
+      long: ସିଫନିୟ
+  odiaov-bsi:
+    1Chr:
+      short: ପ୍ର. ବଂ.
+    1Cor:
+      short: ପ୍ର. କରି.
+    1John:
+      long: ୧ ଯୋହନ
+      short: ପ୍ର. ଯୋହ.
+    1Kgs:
+      short: ପ୍ର. ରା.
+    1Sam:
+      short: ପ୍ର. ଶା.
+    1Thess:
+      short: ପ୍ର. ଥେସ.
+    1Tim:
+      short: ପ୍ର. ତୀମ.
+    2Chr:
+      long: ଦ୍ଵିତୀୟ ବଂଶାବଳୀ
+      short: ଦ୍ଵି. ବଂ.
+    2Cor:
+      short: ଦ୍ଵି. କରି.
+    2John:
+      long: ୨ ଯୋହନ
+      short: ଦ୍ଵି. ଯୋହ.
+    2Kgs:
+      long: ଦ୍ଵିତୀୟ ରାଜାବଳୀ
+      short: ଦ୍ଵି. ରା.
+    2Sam:
+      long: ଦ୍ଵିତୀୟ ଶାମୁୟେଲ
+      short: ଦ୍ଵି. ଶା.
+    2Tim:
+      short: ଦ୍ଵି. ତୀମ.
+    3John:
+      long: ୩ ଯୋହନ
+      short: ତୃ. ଯୋହ.
+    Amos:
+      long: ଆମୋଷ
+      short: ଆମୋ.
+    Deut:
+      long: ଦ୍ଵିତୀୟ ବିବରଣ
+      short: ଦ୍ଵି. ବି.
+    Hab:
+      long: ହବକ୍କୂକ
+    Heb:
+      short: ଏବ୍ରୀ.
+    Hos:
+      long: ହୋଶେୟ
+      short: ହୋଶେ.
+    Job:
+      short: ଆୟୁ.
+    Joel:
+      long: ଯୋୟେଲ
+      short: ଯୋୟେ.
+    John:
+      long: ଯୋହନ
+      short: ଯୋହ.
+    Josh:
+      long: ଯିହୋଶୂୟ
+      short: ଯିହୋ.
+    Judg:
+      short: ବିଚା.
+    Luke:
+      short: ଲୂକ.
+    Mal:
+      long: ମଲାଖୀ
+      short: ମଲାଖୀ.
+    Mark:
+      short: ମାର୍କ.
+    Phil:
+      long: ଫିଲିପ୍‍ପୀୟ
+      short: ଫିଲିପ୍‍ପୀ.
+    Phlm:
+      long: ଫିଲୀମୋନ
+    Prov:
+      long: ହିତୋପଦେଶ
+      short: ହିତୋ.
+    Rom:
+      long: ରୋମୀୟ
+      short: ରୋମୀ.
+    Ruth:
+      long: ରତର ବିବରଣ
+      short: ରତ.
+    Song:
+      short: ପ. ଗୀ.
+  oryirv:
+    1Cor:
+      long: କରିନ୍ଥୀୟ
+    1John:
+      short: ୧ ଯୋହନ
+    1Pet:
+      short: ୧ ପିତର
+    1Thess:
+      long: ୧ ଥେସଲନୀକୀୟ 1
+      short: ୧ ଥେସଲନୀକୀୟ 1
+    1Tim:
+      short: ୧ ତୀମଥି
+    2Cor:
+      long: କରିନ୍ଥୀୟଙ୍କ ପ୍ରତି ଦ୍ୱିତୀୟ ପତ୍ର
+    2Pet:
+      short: ୨ ପିତର
+    2Thess:
+      short: ୨ ଥେସଲନୀକୀୟ
+    Acts:
+      short: ପ୍ରେରି
+    Col:
+      short: କଲସୀୟ
+    Deut:
+      long: ମୋଶାଙ୍କ ଲିଖିତ ପଞ୍ଚମ ପୁସ୍ତକ
+    Eph:
+      short: ଏଫିସୀୟ
+    Exod:
+      long: ମୋଶାଙ୍କ ଲିଖିତ ଦ୍ୱିତୀୟ ପୁସ୍ତକ
+    Ezek:
+      long: ଯିହିଜିକଲ ଭବିଷ୍ୟଦବକ୍ତାଙ୍କ ପୁସ୍ତକ
+    Gal:
+      short: ଗାଲାତୀୟ
+    Gen:
+      long: ମୋଶାଙ୍କ ଲିଖିତ ପ୍ରଥମ ପୁସ୍ତକ
+    Isa:
+      short: ଯିଶା
+    Jas:
+      short: ଯାକୁବ
+    John:
+      short: ଯୋହ
+    Jude:
+      short: ଯିହୂଦା
+    Lam:
+      long: ଯିରିମୀୟଙ୍କ ବିଳାପ
+    Lev:
+      long: ମୋଶାଙ୍କ ଲିଖିତ ତୃତୀୟ ପୁସ୍ତକ
+    Matt:
+      short: ମାଥି
+    Num:
+      long: ମୋଶାଙ୍କ ଲିଖିତ ଚତୁର୍ଥ ପୁସ୍ତକ
+    Phil:
+      long: ଫିଲିପ୍ପୀୟ
+      short: ଫିଲିପ୍ପୀୟ
+    Phlm:
+      short: ଫିଲୀମୋନ
+    Rev:
+      long: ପ୍ରକାଶିତ
+      short: ପ୍ରକାଶିତ
+    Rom:
+      short: ରୋମୀୟ
+    Titus:
+      short: ତୀତସ
+  odclbsi:
+    1Cor:
+      long: କରିନ୍ଥୀୟମାନଙ୍କ ନିକଟକୁ ପାଉଲଙ୍କ
+      short: ୧ କରିନ୍ଥୀ
+    1John:
+      long: ଯୋହନଙ୍କ ପ୍ରଥମ ପତ୍ର
+      short: ୧ ଯୋହନ
+    1Pet:
+      long: ପିତରଙ୍କ ପ୍ରଥମ ପତ୍ର
+      short: ୧ ପିତର
+    1Thess:
+      long: ଥେସଲନିକୀୟମାନଙ୍କ ନିକଟକୁ ପାଉଲଙ୍କ ପ୍ରଥମ ପତ୍ର
+      short: ୧ ଥେସଲନୀକୀ
+    1Tim:
+      long: ତୀମଥିଙ୍କ ନିକଟକୁ ପାଉଲଙ୍କ ପ୍ରଥମ ପତ୍ର
+      short: ୧ ତୀମଥି
+    2Cor:
+      long: କରିନ୍ଥୀୟମାନଙ୍କ ନିକଟକୁ ପାଉଲଙ୍କ ଦ୍ୱିତୀୟ ପତ୍ର
+      short: ୨ କରିନ୍ଥୀ
+    2John:
+      long: ଯୋହନଙ୍କ ଦ୍ୱିତୀୟ ପତ୍ର
+    2Pet:
+      long: ପିତରଙ୍କ ଦ୍ୱିତୀୟ ପତ୍ର
+      short: ୨ ପିତର
+    2Thess:
+      long: ଥେସଲନିକୀୟମାନଙ୍କ ନିକଟକୁ ପାଉଲଙ୍କ ଦ୍ୱିତୀୟ ପତ୍ର
+      short: ୨ ଥେସଲନୀକୀ
+    2Tim:
+      long: ତୀମଥିଙ୍କ ନିକଟକୁ ପାଉଲଙ୍କ ଦ୍ୱିତୀୟ ପତ୍ର
+    3John:
+      long: ଯୋହନଙ୍କ ତୃତୀୟ ପତ୍ର
+    Acts:
+      short: ପ୍ରେରିତ
+    Col:
+      short: କଲସୀୟ
+    Eph:
+      short: ଏଫିସୀ
+    Gal:
+      short: ଗାଲାତୀ
+    Heb:
+      long: ହିବ୍ରୁମାନଙ୍କୁ ଲିଖିତ ପତ୍ର
+    Jas:
+      long: ଯାକୁବଙ୍କ ପତ୍ର
+      short: ଯାକୁବ
+    John:
+      short: ଯୋହନ
+    Jude:
+      long: ଯିହୁଦାଙ୍କ ପତ୍ର
+      short: ଯିହୁଦା
+    Mark:
+      long: ମାର୍କଲିଖିତ ସୁସମାଚାର
+    Matt:
+      long: ମାଥିଉଲିଖିତ ସୁସମାଚାର
+      short: ମାଥିଉ
+    Phil:
+      short: ଫିଲିପୀୟ
+    Phlm:
+      long: ଫିଲୀମନ
+      short: ଫିଲୀମୋନ
+    Rev:
+      short: ପ୍ରକାଶିତ
+    Rom:
+      short: ରୋମୀୟ
+    Titus:
+      long: ତୀତସଙ୍କ ନିକଟକୁ ପାଉଲଙ୍କ ପତ୍ର
+      short: ତୀତସ
+  irvory:
+    2Cor:
+      short: ଦ୍ୱି.କରି.
+    2John:
+      short: ଦ୍ୱି. ଯୋହ.
+    2Pet:
+      short: ଦ୍ୱି. ପିତ.
+    2Thess:
+      short: ଦ୍ୱି.ଥେସ.
+    2Tim:
+      short: ଦ୍ୱି.ତୀମ.
+    3John:
+      short: ତୃ. ଯୋହ
+    Phil:
+      long: ଫିଲିପ୍‌ପୀୟ
+      short: ଫିଲିପ୍‌ପୀ.
+    Rev:
+      long: ପ୍ରକାଶିତ
+    Ruth:
+      short: ରୂତ.

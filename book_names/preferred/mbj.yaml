@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 Korĩn
+    short: 1 Coríntios
+  1John:
+    long: 1 Jowãw
+    short: 1 João
+  1Pet:
+    long: 1 Peed
+    short: 1 Pedro
+  1Thess:
+    long: 1 Tesaronika
+    short: 1 Tessalonicenses
+  1Tim:
+    long: 1 Tsimoot
+    short: 1 Timóteo
+  2Cor:
+    long: 2 Korĩn
+    short: 2 Coríntios
+  2John:
+    long: 2 Jowãw
+    short: 2 João
+  2Pet:
+    long: 2 Peed
+    short: 2 Pedro
+  2Thess:
+    long: 2 Tesaronika
+    short: 2 Tessalonicenses
+  2Tim:
+    long: 2 Tsimoot
+    short: Timóteo
+  3John:
+    long: 3 Jowãw
+    short: 3 João
+  Acts:
+    long: Atos
+    short: Atos
+  Col:
+    long: Korosa
+    short: Colossenses
+  Eph:
+    long: Epeso
+    short: Efésios
+  Gal:
+    long: Garata
+    short: Gálatas
+  Heb:
+    long: Eberew
+    short: Hebreus
+  Jas:
+    long: Tsijaag
+    short: Tiago
+  John:
+    long: Jowãw
+    short: João
+  Jude:
+    long: Judas
+    short: Judas
+  Luke:
+    long: Rukas
+    short: Lucas
+  Mark:
+    long: Maah-Ko
+    short: Marcos
+  Matt:
+    long: Matew
+    short: Mateus
+  Phil:
+    long: Pirip
+    short: Filipenses
+  Phlm:
+    long: Piremon
+    short: Filemom
+  Rev:
+    long: Apokarip
+    short: Apocalipse
+  Rom:
+    long: Roma
+    short: Romanos
+  Titus:
+    long: Tiit
+    short: Tito

@@ -1,0 +1,141 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Tu̱u̱ Yu̱wani̱ Nkuwode
+      - Tyn
+  - osis: Matt
+    texts:
+      - Mati̱ya
+      - Mat
+  - osis: Mark
+    texts:
+      - Markus
+      - Mar
+  - osis: Luke
+    texts:
+      - Lukka
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Yu̱w
+  - osis: 2John
+    texts:
+      - 2Yu̱w
+  - osis: 3John
+    texts:
+      - 3 Yu̱wani̱
+      - 3Yu̱w
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yu̱wani̱
+  - osis: John
+    texts:
+      - Yu̱wani̱
+      - Yu̱w
+  - osis: Acts
+    texts:
+      - Naki̱n
+      - Nak
+  - osis: Rom
+    texts:
+      - Nu̱ba Ro̱ma
+      - Nro̱m
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Nu̱ba Korintiya
+  - osis: 1Cor
+    texts:
+      - 1Nkor
+  - osis: 2Cor
+    texts:
+      - 2Nkor
+  - osis: Col
+    texts:
+      - Nu̱ba Kolossiya
+      - Nkol
+  - osis: Gal
+    texts:
+      - Nu̱ba Kalati̱ya
+      - Nkal
+  - osis: Eph
+    texts:
+      - Nu̱ba Afi̱sa
+      - Nafi̱
+  - osis: Phil
+    texts:
+      - Nu̱ba Fi̱li̱bbi̱ya
+      - Nfi̱l
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Nu̱ba Tassalo̱ni̱ka
+  - osis: 1Thess
+    texts:
+      - 1Ntas
+  - osis: 2Thess
+    texts:
+      - 2Ntas
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Titus
+      - Tit
+  - osis: Phlm
+    texts:
+      - Fi̱lmo̱n
+      - Fi̱ln
+  - osis: Heb
+    texts:
+      - Nu̱ba Yi̱braani̱ya
+      - Nyi̱b
+  - osis: Jas
+    texts:
+      - Yakuba
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Biturus
+  - osis: 1Pet
+    texts:
+      - 1Bit
+  - osis: 2Pet
+    texts:
+      - 2Bit
+  - osis: Jude
+    texts:
+      - Yawuda
+      - Yaw
+translations:
+  - KCQ

@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 Korin
+    short: 1 Ko
+  1John:
+    long: 1 Ioanes
+    short: 1 Jn
+  1Pet:
+    long: 1 Petro
+    short: 1 Pe
+  1Thess:
+    long: 1 Tesalonaika
+    short: 1 Te
+  1Tim:
+    long: 1 Timoti
+    short: 1 Ti
+  2Cor:
+    long: 2 Korin
+    short: 2 Ko
+  2John:
+    long: 2 Ioanes
+    short: 2 Jn
+  2Pet:
+    long: 2 Petro
+    short: 2 Pe
+  2Thess:
+    long: 2 Tesalonaika
+    short: 2 Te
+  2Tim:
+    long: 2 Timoti
+    short: 2 Ti
+  3John:
+    long: 3 Ioanes
+    short: 3 Jn
+  Acts:
+    long: Apostolop
+    short: Ap
+  Col:
+    long: Kolosi
+    short: Kl
+  Eph:
+    long: Efeso
+    short: Ef
+  Gal:
+    long: Galesia
+    short: Ga
+  Heb:
+    long: Ebraio
+    short: Eb
+  Jas:
+    long: Iemes
+    short: Ie
+  John:
+    long: Ioanes
+    short: Jn
+  Jude:
+    long: Iudas
+    short: Iu
+  Luke:
+    long: Luka
+    short: Lk
+  Mark:
+    long: Marko
+    short: Mk
+  Matt:
+    long: Mataio
+    short: Mt
+  Phil:
+    long: Filipai
+    short: Fl
+  Phlm:
+    long: Filemon
+    short: Fm
+  Rev:
+    long: Mavaik
+    short: Re
+  Rom:
+    long: Rom
+    short: Ro
+  Titus:
+    long: Taitas
+    short: Ta

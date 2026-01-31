@@ -1,0 +1,655 @@
+- osis: Gen
+  texts:
+    - Γενεσισ
+    - Γεν
+- osis: Exod
+  texts:
+    - Εξοδοσ
+    - Εξ
+- osis: Lev
+  texts:
+    - Λευιτικον
+    - Λευ
+- osis: Num
+  texts:
+    - Αριθμοι
+    - Αρ
+- osis: Sir
+  texts:
+    - Σοφια Σειραχ
+    - Σειρ
+- osis: Wis
+  texts:
+    - Σοφια Σολομωντοσ
+    - Σολ
+- osis: Lam
+  texts:
+    - Θρηνοι
+    - Θρ
+- osis: EpJer
+  texts:
+    - Επιστολη Ιερεμιου
+    - ΕπΙ
+- osis: Rev
+  texts:
+    - Aπokaλyψh Toy Iωannoy
+    - Αποκαλυψισ Ιωαννου
+    - Αποκαλυψη Ιωαννου
+    - Απ
+- osis: Deut
+  texts:
+    - Δευτερονομιον
+    - Δτ
+- osis: Josh
+  texts:
+    - Ιησουσ Του Ναυη
+    - Ιησ
+- osis: Judg
+  texts:
+    - Κριται
+    - Κρ
+- osis: Ruth
+  texts:
+    - Ρουθ
+- osis: Isa
+  texts:
+    - Ησαϊασ
+    - Ησ
+- osis: 1Sam
+  texts:
+    - Α΄ Σαμουηλ
+    - Α΄ Σαμ
+    - Α΄. Σαμουηλ
+    - Α΄. Σαμ
+    - Πpωth Σαμουηλ
+    - Πpωth Σαμ
+    - Πpωth. Σαμουηλ
+    - Πpωth. Σαμ
+    - Προσ Σαμουηλ
+    - Προσ Σαμ
+    - Προσ. Σαμουηλ
+    - Προσ. Σαμ
+- osis: 1Sam
+  texts:
+    - Βασιλειων Α΄
+- osis: 1Kgs
+  texts:
+    - Α΄ Βασιλεων
+    - Α΄ Βασ
+    - Α΄. Βασιλεων
+    - Α΄. Βασ
+    - Πpωth Βασιλεων
+    - Πpωth Βασ
+    - Πpωth. Βασιλεων
+    - Πpωth. Βασ
+    - Προσ Βασιλεων
+    - Προσ Βασ
+    - Προσ. Βασιλεων
+    - Προσ. Βασ
+- osis: 1Kgs
+  texts:
+    - Ή Βασιλειων Γ΄
+- osis: 2Kgs
+  texts:
+    - Β΄ Βασιλεων
+    - Β΄ Βασ
+    - Β΄ Δ΄
+    - Β΄. Βασιλεων
+    - Β΄. Βασ
+    - Β΄. Δ΄
+    - Βασιλειων Βασιλεων
+    - Βασιλειων Βασ
+    - Βασιλειων Δ΄
+    - Βασιλειων. Βασιλεων
+    - Βασιλειων. Βασ
+    - Βασιλειων. Δ΄
+    - Δeyteph Βασιλεων
+    - Δeyteph Βασ
+    - Δeyteph Δ΄
+    - Δeyteph. Βασιλεων
+    - Δeyteph. Βασ
+    - Δeyteph. Δ΄
+    - Προσ Βασιλεων
+    - Προσ Βασ
+    - Προσ Δ΄
+    - Προσ. Βασιλεων
+    - Προσ. Βασ
+    - Προσ. Δ΄
+- osis: 1Chr
+  texts:
+    - Α΄ Χρονικων
+    - Α΄ Χρ
+    - Α΄. Χρονικων
+    - Α΄. Χρ
+    - Πpωth Χρονικων
+    - Πpωth Χρ
+    - Πpωth. Χρονικων
+    - Πpωth. Χρ
+    - Προσ Χρονικων
+    - Προσ Χρ
+    - Προσ. Χρονικων
+    - Προσ. Χρ
+- osis: 2Chr
+  texts:
+    - Β΄ Χρονικων
+    - Β΄ Χρ
+    - Β΄. Χρονικων
+    - Β΄. Χρ
+    - Βασιλειων Χρονικων
+    - Βασιλειων Χρ
+    - Βασιλειων. Χρονικων
+    - Βασιλειων. Χρ
+    - Δeyteph Χρονικων
+    - Δeyteph Χρ
+    - Δeyteph. Χρονικων
+    - Δeyteph. Χρ
+    - Προσ Χρονικων
+    - Προσ Χρ
+    - Προσ. Χρονικων
+    - Προσ. Χρ
+- osis: 1Chr
+  texts:
+    - Παραλειπομενων Α΄
+- osis: 2Chr
+  texts:
+    - Παραλειπομενων Β΄
+- osis: Ezra
+  texts:
+    - Β΄ Εσδρασ
+    - Εσδρασ
+    - Εσδ
+- osis: 1Esd
+  texts:
+    - Α΄ Εσδρασ
+    - Α΄ Εσδ
+    - Α΄. Εσδρασ
+    - Α΄. Εσδ
+    - Πpωth Εσδρασ
+    - Πpωth Εσδ
+    - Πpωth. Εσδρασ
+    - Πpωth. Εσδ
+    - Προσ Εσδρασ
+    - Προσ Εσδ
+    - Προσ. Εσδρασ
+    - Προσ. Εσδ
+- osis: Neh
+  texts:
+    - Νεεμιασ
+    - Νε
+- osis: Job
+  texts:
+    - Ιωβ
+- osis: Ps
+  texts:
+    - Ψαλμοι
+    - Ψλ
+- osis: Prov
+  texts:
+    - Παροιμιαι
+    - Παρ
+- osis: Eccl
+  texts:
+    - Εκκλησιαστησ
+    - Εκ
+- osis: Song
+  texts:
+    - Ασμα Ασματων
+    - Ασμ
+- osis: Jer
+  texts:
+    - Ιερεμιασ
+    - Ιερ
+- osis: Ezek
+  texts:
+    - Ιεζεκιηλ
+    - Ιεζ
+- osis: Hos
+  texts:
+    - Ωσηε
+    - Ωσ
+- osis: Joel
+  texts:
+    - Ιωηλ
+    - Ιλ
+- osis: Amos
+  texts:
+    - Αμωσ
+    - Αμ
+- osis: Obad
+  texts:
+    - Οβδιου
+    - Οβδ
+- osis: Jonah
+  texts:
+    - Ιωνασ
+    - Ιων
+- osis: Mic
+  texts:
+    - Μιχαιασ
+    - Μιχ
+- osis: Nah
+  texts:
+    - Ναουμ
+    - Νμ
+- osis: Hab
+  texts:
+    - Αββακουμ
+    - Αβ
+- osis: Zeph
+  texts:
+    - Σοφονιασ
+    - Σφν
+- osis: Hag
+  texts:
+    - Αγγαιοσ
+    - Αγγ
+- osis: Zech
+  texts:
+    - Ζαχαριασ
+    - Ζαχ
+- osis: Mal
+  texts:
+    - Μαλαχιασ
+    - Μαλ
+- osis: Matt
+  texts:
+    - To Kata Matθaion Eyaγγeλio
+    - Κατα Ματθαιον
+    - Μτ
+- osis: Mark
+  texts:
+    - To Kata Μαρκον Eyaγγeλio
+    - Κατα Μαρκον
+    - Μκ
+- osis: Luke
+  texts:
+    - To Kata Λoykan Eyaγγeλio
+    - Κατα Λουκαν
+    - Lucan
+    - Λκ
+- osis: 3John
+  texts:
+    - Γ΄ Ιωαννου
+    - Γ΄ Ιω
+    - Γ΄. Ιωαννου
+    - Γ΄. Ιω
+- osis: 3John
+  texts:
+    - Tpith Eπiσtoλh Iωannoy
+- osis: 1John
+  texts:
+    - Α΄ Eπiσtoλh Iωannoy
+    - Α΄ Ιωαννου
+    - Α΄ Ιω
+    - Α΄. Eπiσtoλh Iωannoy
+    - Α΄. Ιωαννου
+    - Α΄. Ιω
+    - Πpωth Eπiσtoλh Iωannoy
+    - Πpωth Ιωαννου
+    - Πpωth Ιω
+    - Πpωth. Eπiσtoλh Iωannoy
+    - Πpωth. Ιωαννου
+    - Πpωth. Ιω
+    - Προσ Eπiσtoλh Iωannoy
+    - Προσ Ιωαννου
+    - Προσ Ιω
+    - Προσ. Eπiσtoλh Iωannoy
+    - Προσ. Ιωαννου
+    - Προσ. Ιω
+- osis: 2John
+  texts:
+    - Β΄ Eπiσtoλh Iωannoy
+    - Β΄ Ιωαννου
+    - Β΄ Ιω
+    - Β΄. Eπiσtoλh Iωannoy
+    - Β΄. Ιωαννου
+    - Β΄. Ιω
+    - Βασιλειων Eπiσtoλh Iωannoy
+    - Βασιλειων Ιωαννου
+    - Βασιλειων Ιω
+    - Βασιλειων. Eπiσtoλh Iωannoy
+    - Βασιλειων. Ιωαννου
+    - Βασιλειων. Ιω
+    - Δeyteph Eπiσtoλh Iωannoy
+    - Δeyteph Ιωαννου
+    - Δeyteph Ιω
+    - Δeyteph. Eπiσtoλh Iωannoy
+    - Δeyteph. Ιωαννου
+    - Δeyteph. Ιω
+    - Προσ Eπiσtoλh Iωannoy
+    - Προσ Ιωαννου
+    - Προσ Ιω
+    - Προσ. Eπiσtoλh Iωannoy
+    - Προσ. Ιωαννου
+    - Προσ. Ιω
+- osis: John
+  texts:
+    - To Kata Iωannhn Eyaγγeλio
+    - Κατα Ιωαννην
+    - Ιω
+- osis: Acts
+  texts:
+    - Πpaξeiσ Tωn Aπoσtoλωn
+    - Πραξεισ Αποστολων
+    - Praxis
+    - Πραξ
+- osis: Rom
+  texts:
+    - Eπiσtoλh Πpoσ Pωmaioyσ
+    - Προσ Ρωμαιουσ
+    - Ρωμ
+- osis: 2Cor
+  texts:
+    - Β΄ Κορινθιουσ Β΄
+    - Β΄ Κορ
+    - Β΄. Κορινθιουσ Β΄
+    - Β΄. Κορ
+    - Βασιλειων Κορινθιουσ Β΄
+    - Βασιλειων Κορ
+    - Βασιλειων. Κορινθιουσ Β΄
+    - Βασιλειων. Κορ
+    - Δeyteph Κορινθιουσ Β΄
+    - Δeyteph Κορ
+    - Δeyteph. Κορινθιουσ Β΄
+    - Δeyteph. Κορ
+    - Προσ Κορινθιουσ Β΄
+    - Προσ Κορ
+    - Προσ. Κορινθιουσ Β΄
+    - Προσ. Κορ
+- osis: 2Cor
+  texts:
+    - Δeytepη Eπiσtoλh Πpoσ Kopinθioyσ
+- osis: 1Cor
+  texts:
+    - Α΄ Eπiσtoλh Πpoσ Kopinθioyσ
+    - Α΄ Κορινθιουσ Α΄
+    - Α΄ Κορ
+    - Α΄. Eπiσtoλh Πpoσ Kopinθioyσ
+    - Α΄. Κορινθιουσ Α΄
+    - Α΄. Κορ
+    - Πpωth Eπiσtoλh Πpoσ Kopinθioyσ
+    - Πpωth Κορινθιουσ Α΄
+    - Πpωth Κορ
+    - Πpωth. Eπiσtoλh Πpoσ Kopinθioyσ
+    - Πpωth. Κορινθιουσ Α΄
+    - Πpωth. Κορ
+    - Προσ Eπiσtoλh Πpoσ Kopinθioyσ
+    - Προσ Κορινθιουσ Α΄
+    - Προσ Κορ
+    - Προσ. Eπiσtoλh Πpoσ Kopinθioyσ
+    - Προσ. Κορινθιουσ Α΄
+    - Προσ. Κορ
+- osis: Col
+  texts:
+    - Eπiσtoλh Πpoσ Koλoσσaeiσ
+    - Προσ Κολοσσαεισ
+    - Κολ
+- osis: Gal
+  texts:
+    - Eπiσtoλh Πpoσ Γaλataσ
+    - Προσ Γαλατασ
+    - Γαλ
+- osis: Eph
+  texts:
+    - Eπiσtoλh Πpoσ Eφeσioyσ
+    - Προσ Εφεσιουσ
+    - Εφ
+- osis: Phil
+  texts:
+    - Eπiσtoλh Πpoσ Φiλiππhσioyσ
+    - Προσ Φιλιππησιουσ
+    - Φιλ
+- osis: 1Thess
+  texts:
+    - Α΄ Eπiσtoλh Πpoσ Θeσσaλonikeiσ
+    - Α΄ Θεσσαλονικεισ Α΄
+    - Α΄ Θεσ
+    - Α΄. Eπiσtoλh Πpoσ Θeσσaλonikeiσ
+    - Α΄. Θεσσαλονικεισ Α΄
+    - Α΄. Θεσ
+    - Πpωth Eπiσtoλh Πpoσ Θeσσaλonikeiσ
+    - Πpωth Θεσσαλονικεισ Α΄
+    - Πpωth Θεσ
+    - Πpωth. Eπiσtoλh Πpoσ Θeσσaλonikeiσ
+    - Πpωth. Θεσσαλονικεισ Α΄
+    - Πpωth. Θεσ
+    - Προσ Eπiσtoλh Πpoσ Θeσσaλonikeiσ
+    - Προσ Θεσσαλονικεισ Α΄
+    - Προσ Θεσ
+    - Προσ. Eπiσtoλh Πpoσ Θeσσaλonikeiσ
+    - Προσ. Θεσσαλονικεισ Α΄
+    - Προσ. Θεσ
+- osis: 2Thess
+  texts:
+    - Β΄ Eπiσtoλh Πpoσ Θeσσaλonikeiσ
+    - Β΄ Θεσσαλονικεισ Β΄
+    - Β΄ Θεσ
+    - Β΄. Eπiσtoλh Πpoσ Θeσσaλonikeiσ
+    - Β΄. Θεσσαλονικεισ Β΄
+    - Β΄. Θεσ
+    - Βασιλειων Eπiσtoλh Πpoσ Θeσσaλonikeiσ
+    - Βασιλειων Θεσσαλονικεισ Β΄
+    - Βασιλειων Θεσ
+    - Βασιλειων. Eπiσtoλh Πpoσ Θeσσaλonikeiσ
+    - Βασιλειων. Θεσσαλονικεισ Β΄
+    - Βασιλειων. Θεσ
+    - Δeyteph Eπiσtoλh Πpoσ Θeσσaλonikeiσ
+    - Δeyteph Θεσσαλονικεισ Β΄
+    - Δeyteph Θεσ
+    - Δeyteph. Eπiσtoλh Πpoσ Θeσσaλonikeiσ
+    - Δeyteph. Θεσσαλονικεισ Β΄
+    - Δeyteph. Θεσ
+    - Προσ Eπiσtoλh Πpoσ Θeσσaλonikeiσ
+    - Προσ Θεσσαλονικεισ Β΄
+    - Προσ Θεσ
+    - Προσ. Eπiσtoλh Πpoσ Θeσσaλonikeiσ
+    - Προσ. Θεσσαλονικεισ Β΄
+    - Προσ. Θεσ
+- osis: 2Sam
+  texts:
+    - Β΄ Σαμουηλ
+    - Β΄ Σαμ
+    - Β΄ Β΄
+    - Β΄. Σαμουηλ
+    - Β΄. Σαμ
+    - Β΄. Β΄
+    - Βασιλειων Σαμουηλ
+    - Βασιλειων Σαμ
+    - Βασιλειων Β΄
+    - Βασιλειων. Σαμουηλ
+    - Βασιλειων. Σαμ
+    - Βασιλειων. Β΄
+    - Δeyteph Σαμουηλ
+    - Δeyteph Σαμ
+    - Δeyteph Β΄
+    - Δeyteph. Σαμουηλ
+    - Δeyteph. Σαμ
+    - Δeyteph. Β΄
+    - Προσ Σαμουηλ
+    - Προσ Σαμ
+    - Προσ Β΄
+    - Προσ. Σαμουηλ
+    - Προσ. Σαμ
+    - Προσ. Β΄
+- osis: 1Tim
+  texts:
+    - Α΄ Eπiσtoλh Πpoσ Timoθeon
+    - Α΄ Προσ Τιμοθεον
+    - Α΄ Τιμ
+    - Α΄. Eπiσtoλh Πpoσ Timoθeon
+    - Α΄. Προσ Τιμοθεον
+    - Α΄. Τιμ
+    - Πpωth Eπiσtoλh Πpoσ Timoθeon
+    - Πpωth Προσ Τιμοθεον
+    - Πpωth Τιμ
+    - Πpωth. Eπiσtoλh Πpoσ Timoθeon
+    - Πpωth. Προσ Τιμοθεον
+    - Πpωth. Τιμ
+    - Προσ Eπiσtoλh Πpoσ Timoθeon
+    - Προσ Προσ Τιμοθεον
+    - Προσ Τιμ
+    - Προσ. Eπiσtoλh Πpoσ Timoθeon
+    - Προσ. Προσ Τιμοθεον
+    - Προσ. Τιμ
+- osis: 2Tim
+  texts:
+    - Β΄ Eπiσtoλh Πpoσ Timoθeon
+    - Β΄ Προσ Τιμοθεον
+    - Β΄ Τιμ
+    - Β΄. Eπiσtoλh Πpoσ Timoθeon
+    - Β΄. Προσ Τιμοθεον
+    - Β΄. Τιμ
+    - Βασιλειων Eπiσtoλh Πpoσ Timoθeon
+    - Βασιλειων Προσ Τιμοθεον
+    - Βασιλειων Τιμ
+    - Βασιλειων. Eπiσtoλh Πpoσ Timoθeon
+    - Βασιλειων. Προσ Τιμοθεον
+    - Βασιλειων. Τιμ
+    - Δeyteph Eπiσtoλh Πpoσ Timoθeon
+    - Δeyteph Προσ Τιμοθεον
+    - Δeyteph Τιμ
+    - Δeyteph. Eπiσtoλh Πpoσ Timoθeon
+    - Δeyteph. Προσ Τιμοθεον
+    - Δeyteph. Τιμ
+    - Προσ Eπiσtoλh Πpoσ Timoθeon
+    - Προσ Προσ Τιμοθεον
+    - Προσ Τιμ
+    - Προσ. Eπiσtoλh Πpoσ Timoθeon
+    - Προσ. Προσ Τιμοθεον
+    - Προσ. Τιμ
+- osis: Titus
+  texts:
+    - Eπiσtoλh Πpoσ Titon
+    - Προσ Τιτον
+    - Τιτ
+- osis: Phlm
+  texts:
+    - Eπiσtoλh Πpoσ Φiλhmona
+    - Προσ Φιλημονα
+    - Φλμ
+- osis: Heb
+  texts:
+    - Eπiσtoλh Πpoσ Ebpaioyσ
+    - Προσ Εβραιουσ
+    - Εβρ
+- osis: Jas
+  texts:
+    - Eπiσtoλh Iakωboy
+    - Ιακωβου
+    - Ιακ
+- osis: 1Pet
+  texts:
+    - Α΄ Eπiσtoλh Πetpoy
+    - Α΄ Πετρου
+    - Α΄ Πε
+    - Α΄. Eπiσtoλh Πetpoy
+    - Α΄. Πετρου
+    - Α΄. Πε
+    - Πpωth Eπiσtoλh Πetpoy
+    - Πpωth Πετρου
+    - Πpωth Πε
+    - Πpωth. Eπiσtoλh Πetpoy
+    - Πpωth. Πετρου
+    - Πpωth. Πε
+    - Προσ Eπiσtoλh Πetpoy
+    - Προσ Πετρου
+    - Προσ Πε
+    - Προσ. Eπiσtoλh Πetpoy
+    - Προσ. Πετρου
+    - Προσ. Πε
+- osis: 2Pet
+  texts:
+    - Β΄ Eπiσtoλh Πetpoy
+    - Β΄ Πετρου
+    - Β΄ Πε
+    - Β΄. Eπiσtoλh Πetpoy
+    - Β΄. Πετρου
+    - Β΄. Πε
+    - Βασιλειων Eπiσtoλh Πetpoy
+    - Βασιλειων Πετρου
+    - Βασιλειων Πε
+    - Βασιλειων. Eπiσtoλh Πetpoy
+    - Βασιλειων. Πετρου
+    - Βασιλειων. Πε
+    - Δeyteph Eπiσtoλh Πetpoy
+    - Δeyteph Πετρου
+    - Δeyteph Πε
+    - Δeyteph. Eπiσtoλh Πetpoy
+    - Δeyteph. Πετρου
+    - Δeyteph. Πε
+    - Προσ Eπiσtoλh Πetpoy
+    - Προσ Πετρου
+    - Προσ Πε
+    - Προσ. Eπiσtoλh Πetpoy
+    - Προσ. Πετρου
+    - Προσ. Πε
+- osis: Jude
+  texts:
+    - Eπiσtoλh Ioyδa
+    - Ιουδα
+- osis: Tob
+  texts:
+    - Τωβιτ
+    - Τωβ
+- osis: Jdt
+  texts:
+    - Ιουδιθ
+    - Ιδθ
+- osis: Bar
+  texts:
+    - Βαρουχ
+    - Βαρ
+- osis: 1Macc
+  texts:
+    - Α΄ Μακκαβαιων
+    - Α΄ Μακ
+    - Α΄. Μακκαβαιων
+    - Α΄. Μακ
+    - Πpωth Μακκαβαιων
+    - Πpωth Μακ
+    - Πpωth. Μακκαβαιων
+    - Πpωth. Μακ
+    - Προσ Μακκαβαιων
+    - Προσ Μακ
+    - Προσ. Μακκαβαιων
+    - Προσ. Μακ
+- osis: 2Macc
+  texts:
+    - Β΄ Μακκαβαιων
+    - Β΄ Μακ
+    - Β΄. Μακκαβαιων
+    - Β΄. Μακ
+    - Βασιλειων Μακκαβαιων
+    - Βασιλειων Μακ
+    - Βασιλειων. Μακκαβαιων
+    - Βασιλειων. Μακ
+    - Δeyteph Μακκαβαιων
+    - Δeyteph Μακ
+    - Δeyteph. Μακκαβαιων
+    - Δeyteph. Μακ
+    - Προσ Μακκαβαιων
+    - Προσ Μακ
+    - Προσ. Μακκαβαιων
+    - Προσ. Μακ
+- osis: 3Macc
+  texts:
+    - Γ΄ Μακκαβαιων
+    - Γ΄ Μακ
+    - Γ΄. Μακκαβαιων
+    - Γ΄. Μακ
+- osis: DanGr
+  texts:
+    - Δανιηλ G
+    - Δανλ
+- osis: Dan
+  texts:
+    - Δανιηλ
+    - Δαν
+- osis: EsthGr
+  texts:
+    - Εσθηρ G
+    - Εσθρ
+- osis: Esth
+  texts:
+    - Εσθηρ
+    - Εσθ

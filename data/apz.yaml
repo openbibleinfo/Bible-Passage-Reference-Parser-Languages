@@ -1,0 +1,113 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Toho Wojo Honajo Hungkuno
+      - Twhh
+  - osis: Matt
+    texts:
+      - Matɨyu
+      - Mt
+  - osis: Mark
+    texts:
+      - Mak
+      - Mk
+  - osis: Luke
+    texts:
+      - Luk
+      - Lk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Joun
+      - Jn
+  - osis: Acts
+    texts:
+      - Apousel sohwafe Syoho
+      - Ap
+  - osis: Rom
+    texts:
+      - Loum
+      - Lm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Koulin
+      - Kln
+  - osis: Col
+    texts:
+      - Koulousi
+      - Kls
+  - osis: Gal
+    texts:
+      - Ngkolesiya
+      - Ngk
+  - osis: Eph
+    texts:
+      - Efesos
+      - Ef
+  - osis: Phil
+    texts:
+      - Filipai
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesolounika
+      - Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timouti
+      - Tm
+  - osis: Titus
+    texts:
+      - Taitas
+      - Tai
+  - osis: Phlm
+    texts:
+      - Filemoun
+      - Flm
+  - osis: Heb
+    texts:
+      - Hipɨlu
+      - Hp
+  - osis: Jas
+    texts:
+      - Jemɨs
+      - Jms
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+      - Pt
+  - osis: Jude
+    texts:
+      - Jut
+      - Jt
+translations:
+  - APZNT

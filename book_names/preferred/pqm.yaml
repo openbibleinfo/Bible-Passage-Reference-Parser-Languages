@@ -1,0 +1,22 @@
+default:
+  Exod:
+    long: Exodus
+    short: Exodus
+  John:
+    long: John
+    short: John
+  Luke:
+    long: Luke
+    short: Luke
+  Matt:
+    long: Matthew
+    short: Matt
+translations:
+  pqm2014:
+    John:
+      long: Wikhikən
+      short: Wikhikən
+  pqm1870:
+    John:
+      long: Wĭkheegŭn
+      short: Wĭkheegŭn

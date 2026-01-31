@@ -1,0 +1,147 @@
+books:
+  - osis: Gen
+    texts:
+      - Хьунухь
+      - Хьн.
+  - osis: Exod
+    texts:
+      - ЭхкъечӀун
+      - Эхкъ.
+  - osis: Lev
+    texts:
+      - Леви
+      - Лв.
+  - osis: Num
+    texts:
+      - Кьурумда
+      - Кьрм.
+  - osis: Rev
+    texts:
+      - Керемат
+      - Крм.
+  - osis: Deut
+    texts:
+      - Киххьей къанун
+      - Ккъ.
+  - osis: Ruth
+    texts:
+      - Рт.
+      - Рут
+  - osis: Esth
+    texts:
+      - Эстер
+      - Эс.
+  - osis: Ps
+    texts:
+      - Забур
+      - Зб.
+  - osis: Jonah
+    texts:
+      - Юнус
+      - Юн.
+  - osis: Matt
+    texts:
+      - МатӀай
+      - МатӀ.
+  - osis: Mark
+    texts:
+      - Марк
+      - Мрк.
+  - osis: Luke
+    texts:
+      - ЛукӀа
+      - ЛкӀ.
+  - osis: 1John
+    texts:
+      - 1-Ягь.
+      - 1-Ягья
+  - osis: 2John
+    texts:
+      - 2-Ягь.
+      - 2-Ягья
+  - osis: 3John
+    texts:
+      - 3-Ягь.
+      - 3-Ягья
+  - osis: John
+    texts:
+      - Ягь.
+      - Ягья
+  - osis: Acts
+    texts:
+      - Крар
+      - Кр.
+  - osis: Rom
+    texts:
+      - Римвийриз
+      - Рим.
+  - osis: 1Cor
+    texts:
+      - 1-Каринфвийриз
+      - 1-Кар.
+  - osis: 2Cor
+    texts:
+      - 2-Каринфвийриз
+      - 2-Кар.
+  - osis: Col
+    texts:
+      - Каласвийриз
+      - Кал.
+  - osis: Gal
+    texts:
+      - ГалатӀвийриз
+      - ГлтӀ.
+  - osis: Eph
+    texts:
+      - Эфесвийриз
+      - Эф.
+  - osis: Phil
+    texts:
+      - ФилипӀвийриз
+      - ФпӀ.
+  - osis: 1Thess
+    texts:
+      - 1-Саланиквийриз
+      - 1-Сал.
+  - osis: 2Thess
+    texts:
+      - 2-Саланиквийриз
+      - 2-Сал.
+  - osis: 1Tim
+    texts:
+      - 1-тӏиматӏеяз
+      - 1-тӏим.
+  - osis: 2Tim
+    texts:
+      - 2-тӏиматӏеяз
+      - 2-тӏим.
+  - osis: Titus
+    texts:
+      - Тӏитӏаз
+      - Тӏитӏ.
+  - osis: Phlm
+    texts:
+      - Ифлеманаз
+      - Ифл.
+  - osis: Heb
+    texts:
+      - Чувудриз
+      - Чвд.
+  - osis: Jas
+    texts:
+      - Якьуб
+      - Якь.
+  - osis: 1Pet
+    texts:
+      - 1-Петру
+      - 1-Птр.
+  - osis: 2Pet
+    texts:
+      - 2-Петру
+      - 2-Птр.
+  - osis: Jude
+    texts:
+      - Ягьд.
+      - Ягьуд
+translations:
+  - LEZBBL

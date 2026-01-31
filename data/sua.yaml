@@ -1,0 +1,111 @@
+books:
+  - osis: Rev
+    texts:
+      - O Ngaelmir
+      - Ng
+  - osis: Matt
+    texts:
+      - E Matyu
+      - Mt
+  - osis: Mark
+    texts:
+      - E Mak
+      - Mk
+  - osis: Luke
+    texts:
+      - E Luk
+      - Lk
+  - osis: 1John
+    texts:
+      - 1Yoanes
+      - 1Yn
+  - osis: 2John
+    texts:
+      - 2Yoanes
+      - 2Yn
+  - osis: 3John
+    texts:
+      - 3Yoanes
+      - 3Yn
+  - osis: John
+    texts:
+      - E Yoanes
+      - Yn
+  - osis: Acts
+    texts:
+      - O Aposel Ngaro Reha
+      - O Reha
+  - osis: Rom
+    texts:
+      - lRom
+      - Rom
+  - osis: 1Cor
+    texts:
+      - 1Korin
+      - 1Kor
+  - osis: 2Cor
+    texts:
+      - 2Korin
+      - 2Kor
+  - osis: Col
+    texts:
+      - lKolosi
+      - Kol
+  - osis: Gal
+    texts:
+      - lGalesia
+      - Gal
+  - osis: Eph
+    texts:
+      - lEpeses
+      - Eps
+  - osis: Phil
+    texts:
+      - lPilipai
+      - Pil
+  - osis: 1Thess
+    texts:
+      - 1Tesalonika
+      - 1Tes
+  - osis: 2Thess
+    texts:
+      - 2Tesalonika
+      - 2Tes
+  - osis: 1Tim
+    texts:
+      - 1Timoti
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Timoti
+      - 2Tim
+  - osis: Titus
+    texts:
+      - E Taitus
+      - Tai
+  - osis: Phlm
+    texts:
+      - E Pilimon
+      - Pmn
+  - osis: Heb
+    texts:
+      - lHibru
+      - Hib
+  - osis: Jas
+    texts:
+      - E Yems
+      - Yem
+  - osis: 1Pet
+    texts:
+      - 1Pita
+      - 1Pit
+  - osis: 2Pet
+    texts:
+      - 2Pita
+      - 2Pit
+  - osis: Jude
+    texts:
+      - E Yut
+      - Yut
+translations:
+  - SUA

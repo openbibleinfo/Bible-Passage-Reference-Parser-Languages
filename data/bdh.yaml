@@ -1,0 +1,145 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Dosị́ éyị́ e
+      - De
+  - osis: Rev
+    texts:
+      - ꞌDódoógụ
+      - Do
+  - osis: Matt
+    texts:
+      - Matáyo
+      - Mt
+  - osis: Mark
+    texts:
+      - Márɨko
+      - Mr
+  - osis: Luke
+    texts:
+      - Lúka
+      - Lu
+  - osis: 1John
+    texts:
+      - 1Yi
+  - osis: 2John
+    texts:
+      - 2Yi
+  - osis: 3John
+    texts:
+      - 3 Yiwáni
+      - 3Yi
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yiwáni
+  - osis: John
+    texts:
+      - Yiwáni
+      - Yi
+  - osis: Acts
+    texts:
+      - Moko ꞌbɨ ꞌyịmɨkása e
+      - My
+  - osis: Rom
+    texts:
+      - Róma
+      - Ro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korị́ndo
+  - osis: 1Cor
+    texts:
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - 2Ko
+  - osis: Col
+    texts:
+      - Kolósayi
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatíya
+      - Ga
+  - osis: Eph
+    texts:
+      - Éfeso
+      - Ef
+  - osis: Phil
+    texts:
+      - Phị́lịpo
+      - Ph
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tasalonị́ka
+  - osis: 1Thess
+    texts:
+      - 1Ta
+  - osis: 2Thess
+    texts:
+      - 2Ta
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timatíyo
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Tị́to
+      - Tt
+  - osis: Phlm
+    texts:
+      - Felemúna
+      - Fe
+  - osis: Heb
+    texts:
+      - Ébere
+      - Eb
+  - osis: Jas
+    texts:
+      - Yakóbo
+      - Ya
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pétero
+  - osis: 1Pet
+    texts:
+      - 1Pe
+  - osis: 2Pet
+    texts:
+      - 2Pe
+  - osis: Jude
+    texts:
+      - Yụ́da
+      - Yu
+translations:
+  - BDH

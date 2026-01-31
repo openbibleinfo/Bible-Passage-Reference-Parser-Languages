@@ -1,0 +1,43 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Mark
+    texts:
+      - Mark
+  - osis: Luke
+    texts:
+      - Luke
+  - osis: John
+    texts:
+      - John
+  - osis: Acts
+    texts:
+      - Acts
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thessalonians
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothy
+  - osis: Titus
+    texts:
+      - Titus
+  - osis: Phlm
+    texts:
+      - Philemon
+  - osis: Jas
+    texts:
+      - James
+translations:
+  - AMX

@@ -1,0 +1,113 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Buká Yesu Tìya Sig Yohanna
+      - Buká Yesu Tìya Yoh
+  - osis: Matt
+    texts:
+      - Matiyu
+      - Mat
+  - osis: Mark
+    texts:
+      - Markus
+      - Mar
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohanna
+      - Yoh
+  - osis: Acts
+    texts:
+      - Swàm Yann Aswamká
+      - Swàm Yann
+  - osis: Rom
+    texts:
+      - Romawaká
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintiyawaká
+      - Kor
+  - osis: Col
+    texts:
+      - Kolosiyawaká
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatiyawaká
+      - Gal
+  - osis: Eph
+    texts:
+      - Afisawaká
+      - Afi
+  - osis: Phil
+    texts:
+      - Filibiyawaká
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tasalonikawaká
+      - Tas
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+      - Tim
+  - osis: Titus
+    texts:
+      - Titus
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filimon
+      - Film
+  - osis: Heb
+    texts:
+      - Ibraniyawaká
+      - Ibr
+  - osis: Jas
+    texts:
+      - Yakubu
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Bitrus
+      - Bit
+  - osis: Jude
+    texts:
+      - Yahuda
+      - Yah
+translations:
+  - JIBUNT

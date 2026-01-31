@@ -1,0 +1,130 @@
+default:
+  1Cor:
+    long: 1 कोरिन्थि
+    short: 1 कोर
+  1John:
+    long: 1 युहान्‍ना
+    short: 1 युह
+  1Pet:
+    long: 1पतरुस
+    short: 1 पत
+  1Thess:
+    long: 1 थेस्लोनिकि
+    short: 1 थेस
+  1Tim:
+    long: 1तिमोथि
+    short: 1तिमो
+  2Cor:
+    long: 2 कोरिन्थि
+    short: 2 कोर
+  2John:
+    long: 2 युहान्‍ना
+    short: 2 युह
+  2Pet:
+    long: पतरुस
+    short: 2 पत
+  2Thess:
+    long: 2 थेस्लोनिकि
+    short: 2 थेस
+  2Tim:
+    long: 2 तिमोथि
+    short: 2 तिमो
+  3John:
+    long: 3 युहान्‍ना
+    short: 3 युह
+  Acts:
+    long: साल्न्हाका चात्या
+    short: प्रे
+  Col:
+    long: कलस्सि
+    short: कल
+  Eph:
+    long: एफिसि
+    short: एफि
+  Gal:
+    long: गलाति
+    short: गला
+  Heb:
+    long: हिब्रु
+    short: हिब्रु
+  Jas:
+    long: याकुब
+    short: याक
+  John:
+    long: युहन्‍ना
+    short: युह
+  Jude:
+    long: यहुदा
+    short: यहु
+  Luke:
+    long: लुका
+    short: लुक
+  Mark:
+    long: मर्कुस
+    short: मर्कु
+  Matt:
+    long: मति
+    short: मति
+  Phil:
+    long: फिलिप्पि
+    short: फिलि
+  Phlm:
+    long: फिलेमोन
+    short: फिले
+  Rev:
+    long: प्रकास
+    short: प्रका
+  Rom:
+    long: रोमि
+    short: रोम
+  Titus:
+    long: तितस
+    short: तित
+translations:
+  dhim:
+    1Cor:
+      long: १ कोरिन्‍थि
+      short: १ कोरि
+    1John:
+      long: १ युहन्‍ना
+      short: १ युह
+    1Pet:
+      long: १ पत्‍रुस
+      short: १ पत्
+    1Thess:
+      long: १ थेसोलोनिकि
+      short: १ थेसो
+    1Tim:
+      long: १ तिमोथि
+      short: १ तिमो
+    2John:
+      long: २ युहन्‍ना
+      short: २ युह
+    2Pet:
+      long: २ पत्‍रुस
+      short: २ पत्
+    2Thess:
+      long: २ थेसोलोनिकि
+      short: २ थेसो
+    2Tim:
+      long: २ तिमोथि
+      short: २ तिमो
+    3John:
+      long: ३ युहन्‍ना
+      short: ३ युह
+    Acts:
+      long: साल्‍तेङ दिङगिल्‍का
+      short: साल्
+    Col:
+      long: कलस्‍सि
+    Jas:
+      short: याकु
+    Matt:
+      long: मत्‍ति
+      short: मत्
+    Phil:
+      long: फिलिप्‍पि
+  dhint:
+    John:
+      long: युहान्‍ना
+      short: युहा

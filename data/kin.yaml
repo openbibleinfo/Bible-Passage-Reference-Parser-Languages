@@ -1,0 +1,434 @@
+variables:
+  first: &first
+    - "1"
+    - Icya
+  second: &second
+    - "2"
+    - Icya
+books:
+  - osis: Gen
+    texts:
+      - Intangiriro
+      - Itangiriro
+      - Intang
+      - Itang
+      - Intg
+  - osis: Exod
+    texts:
+      - Ukuvanwa mu Misri
+      - Iyimukamisiri
+      - Iyim
+      - Kuva
+      - Kuv
+  - osis: Bel
+    texts:
+      - IbDan
+      - Beli
+  - osis: Lev
+    texts:
+      - Abalevi
+      - Abalewi
+      - Lewi
+      - Lev
+  - osis: Num
+    texts:
+      - Ibarura
+      - Kubara
+      - Ibar
+      - Kub
+  - osis: Sir
+    texts:
+      - Mwene Siraki
+      - Sir
+  - osis: Wis
+    texts:
+      - Ubuhanga
+      - Ubuh
+      - Buh
+  - osis: Lam
+    texts:
+      - Amaganya ya Yeremiya
+      - Amaganya
+      - Amag
+      - Mag
+  - osis: EpJer
+    texts:
+      - Ibaruwa ya Yeremiya
+      - IbarYer
+  - osis: Rev
+    texts:
+      - Ibyahishuwe
+      - Ibyahisuwe
+      - Ibyah
+      - Hish
+  - osis: Deut
+    texts:
+      - Gutegeka kwa kabiri
+      - Ivugururamategeko
+      - Guteg
+      - Ivug
+  - osis: Josh
+    texts:
+      - Yosuwa
+      - Yozuwe
+      - Yos
+      - Yoz
+  - osis: Judg
+    texts:
+      - Abacamanza
+      - Abac
+  - osis: Ruth
+    texts:
+      - Rusi
+      - Ruta
+      - Ruti
+  - osis: Isa
+    texts:
+      - Yesaya
+      - Ezayi
+      - Izayi
+      - Yes
+      - Iz
+  - osis:
+      - osis: 1Sam
+        before: *first
+    texts:
+      - mbere cya Samweli
+      - Samweli
+      - Sam
+  - osis:
+      - osis: 2Sam
+        before: *second
+    texts:
+      - kabiri cya Samweli
+      - Samweli
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+    texts:
+      - mbere cy'Abami
+      - Abami
+      - Bami
+  - osis:
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - kabiri cy'Abami
+      - Abami
+      - Bami
+  - osis:
+      - osis: 1Chr
+        before: *first
+    texts:
+      - mbere cy'Amateka
+      - Amateka
+      - Matek
+      - Ngoma
+  - osis:
+      - osis: 2Chr
+        before: *second
+    texts:
+      - kabiri cy'Amateka
+      - Amateka
+      - Matek
+      - Ngoma
+  - osis: Ezra
+    texts:
+      - Ezira
+      - Ezr
+  - osis: Neh
+    texts:
+      - Nehemiya
+      - Neh
+  - osis: Job
+    texts:
+      - Yobu
+  - osis: Ps
+    texts:
+      - Zaburi
+      - Zab
+  - osis: Prov
+    texts:
+      - Imigani
+      - Imig
+  - osis: Eccl
+    texts:
+      - Umubwiriza
+      - Umubw
+      - Mubw
+  - osis: Song
+    texts:
+      - Indirimbo ya Salomo
+      - Indirimbo ihebuje
+      - Ind
+  - osis: Jer
+    texts:
+      - Yeremiya
+      - Yer
+  - osis: Ezek
+    texts:
+      - Ezekeiyeli
+      - Ezekiyeli
+      - Ezek
+      - Ezk
+  - osis: Hos
+    texts:
+      - Hoseya
+      - Hozeya
+      - Hos
+      - Hoz
+  - osis: Joel
+    texts:
+      - Yoweli
+      - Yow
+  - osis: Amos
+    texts:
+      - Amosi
+      - Am
+  - osis: Obad
+    texts:
+      - Obadiya
+      - Obad
+      - Obd
+  - osis: Jonah
+    texts:
+      - Yonasi
+      - Yona
+      - Yon
+  - osis: Mic
+    texts:
+      - Mika
+      - MiK
+  - osis: Nah
+    texts:
+      - Nahumu
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuki
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sofoniya
+      - Zefaniya
+      - Sof
+      - Zef
+  - osis: Hag
+    texts:
+      - Hagayi
+      - Hag
+  - osis: Zech
+    texts:
+      - Zakariya
+      - Zekariya
+      - Zak
+      - Zek
+  - osis: Mal
+    texts:
+      - Malakiya
+      - Malaki
+      - Mal
+  - osis: Matt
+    texts:
+      - Matayo
+      - Mat
+      - Mt
+  - osis: Mark
+    texts:
+      - Mariko
+      - Mar
+      - Mk
+  - osis: Luke
+    texts:
+      - Luka
+      - Lk
+  - osis: 1John
+    texts:
+      - Yohani, iya 1
+  - osis: 2John
+    texts:
+      - Yohani, iya 2
+  - osis: 3John
+    texts:
+      - Yohani, iya 3
+      - 3 Yohana
+      - 3 Yohani
+      - 3 Yoh
+      - 3 Yh
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yohana
+      - Yohani
+      - Yoh
+      - Yh
+  - osis: Acts
+    texts:
+      - Ibyakozwe n'Intumwa
+      - Ibyakozwe
+      - Ibyak
+      - Intu
+  - osis: Rom
+    texts:
+      - AbanyaRoma
+      - Abaroma
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Abanyakorinti
+      - Abakorinto
+      - Kor
+  - osis: 1Cor
+    texts:
+      - Abanyakorinti, iya 1
+  - osis: 2Cor
+    texts:
+      - Abanyakorinti, iya 2
+  - osis: Col
+    texts:
+      - Abanyakolosi
+      - Abakolosayi
+      - Kolo
+      - Kol
+  - osis: Gal
+    texts:
+      - Abanyagalati
+      - Abagalatiya
+      - Gal
+  - osis: Eph
+    texts:
+      - Abanyefezi
+      - Abefeso
+      - Ef
+  - osis: Phil
+    texts:
+      - AbanyaFilipi
+      - Abafilipi
+      - Fili
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Abanyatesaloniki
+      - Abatesalonike
+      - Tes
+  - osis: 1Thess
+    texts:
+      - Abanyatesaloniki, iya 1
+  - osis: 2Thess
+    texts:
+      - Abanyatesaloniki, iya 2
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteyo
+      - Tim
+  - osis: 1Tim
+    texts:
+      - Timote, iya 1
+  - osis: 2Tim
+    texts:
+      - Timote, iya 2
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filemoni
+      - Filem
+      - File
+  - osis: Heb
+    texts:
+      - Abeheburayi
+      - Abeheburayo
+      - Abehebureyi
+      - Heb
+  - osis: Jas
+    texts:
+      - Yakobo
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petero
+      - Pet
+  - osis: 1Pet
+    texts:
+      - Petero, iya 1
+  - osis: 2Pet
+    texts:
+      - Petero, iya 2
+  - osis: Jude
+    texts:
+      - Yuda
+  - osis: Tob
+    texts:
+      - Tobiti
+      - Tobi
+  - osis: Jdt
+    texts:
+      - Yudita
+      - Ydt
+  - osis: Bar
+    texts:
+      - Baruki
+      - Bar
+  - osis: Sus
+    texts:
+      - Suzana
+      - lbSus
+  - osis:
+      - osis: 1Macc
+        before: *first
+    texts:
+      - mbere cy'Abamakabe
+      - Abamakabe
+      - Mak
+  - osis:
+      - osis: 2Macc
+        before: *second
+    texts:
+      - kabiri cy'Abamakabe
+      - Abamakabe
+      - Mak
+  - osis: AddDan
+    texts:
+      - Ibyongewe ku gitabo cya Daniyeli
+      - lbYon
+  - osis: Dan
+    texts:
+      - Daniyeli
+      - Dan
+  - osis: EsthGr
+    texts:
+      - Esiteri mu Kigereki
+      - Esitera
+      - EsG
+  - osis: Esth
+    texts:
+      - Esiteri
+      - Esit
+      - Est
+translations:
+  - BIR
+  - BIRD
+  - BYSB
+  - KBNT

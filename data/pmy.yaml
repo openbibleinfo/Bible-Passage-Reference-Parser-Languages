@@ -1,0 +1,61 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Kejadian
+      - Kej
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis: Esth
+    texts:
+      - Ester
+      - Est
+  - osis: Jonah
+    texts:
+      - Yunus
+      - Yun
+  - osis: Luke
+    texts:
+      - Lukas
+      - Luk
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohanes
+  - osis: Acts
+    texts:
+      - Kisah Para Rasul
+      - Kis
+  - osis: Phil
+    texts:
+      - Filipi
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotius
+  - osis: Titus
+    texts:
+      - Titus
+  - osis: Phlm
+    texts:
+      - Filemon
+  - osis: Jas
+    texts:
+      - Yakobus
+translations:
+  - PMY

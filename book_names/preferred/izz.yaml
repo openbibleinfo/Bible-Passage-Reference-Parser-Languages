@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Iphe, ndu eze meru
+    short: 1Iphe
+  1Cor:
+    long: 1 Kọrentu
+    short: 1Kọr
+  1John:
+    long: 1 Jiọnu
+    short: 1Jiọn
+  1Kgs:
+    long: 1 Ndu Eze
+    short: 1Ndu
+  1Pet:
+    long: 1 Pyịta
+    short: 1Pyị
+  1Sam:
+    long: 1 Sámẹlu
+    short: 1Sám
+  1Thess:
+    long: 1 Tesalonayika
+    short: 1Tesa
+  1Tim:
+    long: 1 Timoti
+    short: 1Tim
+  2Chr:
+    long: 2 Iphe, ndu eze meru
+    short: 2Iphe
+  2Cor:
+    long: 2 Kọrentu
+    short: 2Kọr
+  2John:
+    long: 2 Jiọnu
+    short: 2Jiọn
+  2Kgs:
+    long: 2 Ndu Eze
+    short: 2Ndu
+  2Pet:
+    long: 2 Pyịta
+    short: 2Pyị
+  2Sam:
+    long: 2 Sámẹlu
+    short: 2Sám
+  2Thess:
+    long: 2 Tesalonayika
+    short: 2Tesa
+  2Tim:
+    long: 2 Timoti
+    short: 2Tim
+  3John:
+    long: 3 Jiọnu
+    short: 3Jiọn
+  Acts:
+    long: Ndu-ishi-ozi
+    short: Ndu
+  Amos:
+    long: Émọsu
+    short: Émọ
+  Col:
+    long: Kọlosi
+    short: Kọl
+  Dan:
+    long: Danẹlu
+    short: Dan
+  Deut:
+    long: Ditoronomi
+    short: Dit
+  Eccl:
+    long: Oziphe
+    short: Ozi
+  Eph:
+    long: Efesọsu
+    short: Efe
+  Esth:
+    long: Ẹsuta
+    short: Ẹsu
+  Exod:
+    long: Awụfu
+    short: Awụ
+  Ezek:
+    long: Ezekẹlu
+    short: Ezek
+  Ezra:
+    long: Ẹzura
+    short: Ẹzu
+  Gal:
+    long: Galeshiya
+    short: Gal
+  Gen:
+    long: Mbụlembu
+    short: Mbụ
+  Hab:
+    long: Habakuku
+    short: Hab
+  Hag:
+    long: Hagayi
+    short: Hag
+  Heb:
+    long: Hiburu
+    short: Hib
+  Hos:
+    long: Hosiya
+    short: Hos
+  Isa:
+    long: Azáya
+    short: Azá
+  Jas:
+    long: Jiemusu
+    short: Jiem
+  Jer:
+    long: Jieremaya
+    short: Jier
+  Job:
+    long: Jiobu
+    short: Jio
+  Joel:
+    long: Jiowẹlu
+    short: Jiow
+  John:
+    long: Jiọnu
+    short: Jiọn
+  Jonah:
+    long: Jiona
+    short: Jion
+  Josh:
+    long: Jioshuwa
+    short: Jios
+  Jude:
+    long: Jiudu
+    short: Jiud
+  Judg:
+    long: Ikpe
+    short: Ikpe
+  Lam:
+    long: Ebvu Aphụ
+    short: Aphụ
+  Lev:
+    long: Ndu Uke
+    short: Uke
+  Luke:
+    long: Luku
+    short: Luk
+  Mal:
+    long: Malakayi
+    short: Mal
+  Mark:
+    long: Maku
+    short: Mak
+  Matt:
+    long: Matiyu
+    short: Mat
+  Mic:
+    long: Mayịka
+    short: Mayị
+  Nah:
+    long: Nahumu
+    short: Nah
+  Neh:
+    long: Nehemaya
+    short: Neh
+  Num:
+    long: Ọ́gú
+    short: Ọ́gú
+  Obad:
+    long: Obedaya
+    short: Obed
+  Phil:
+    long: Filipayi
+    short: Fili
+  Phlm:
+    long: Fayilimọnu
+    short: Fay
+  Prov:
+    long: Ẹtu
+    short: Ẹtu
+  Ps:
+    long: Ebvu-ọma
+    short: Ebvu
+  Rev:
+    long: Ọphulenya
+    short: Ọphu
+  Rom:
+    long: Romu
+    short: Rom
+  Ruth:
+    long: Rutu
+    short: Rut
+  Song:
+    long: Ebvu Sólomọnu
+    short: EbvuSól
+  Titus:
+    long: Tayitọsu
+    short: Tay
+  Zech:
+    long: Zekaraya
+    short: Zek
+  Zeph:
+    long: Zefanaya
+    short: Zef

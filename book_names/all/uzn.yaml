@@ -1,0 +1,432 @@
+- osis: Gen
+  texts:
+    - Ibtido
+    - Ибтидо
+    - Ibt
+    - Ибт
+- osis: Exod
+  texts:
+    - Chiqish
+    - Чиқиш
+    - Chq
+    - Чқш
+- osis: Lev
+  texts:
+    - Levilar
+    - Левилар
+    - Lev
+    - Лев
+- osis: Num
+  texts:
+    - Sahroda
+    - Саҳрода
+    - Sah
+    - Саҳ
+- osis: Lam
+  texts:
+    - Marsiya
+    - Марсия
+    - Mrs
+    - Мрс
+- osis: Rev
+  texts:
+    - Vahiy
+    - Ваҳий
+    - Vah
+    - Ваҳ
+- osis: Deut
+  texts:
+    - Qonunlar
+    - Қонунлар
+    - Qnlr
+    - Қнлр
+- osis: Josh
+  texts:
+    - Yoshua
+    - Ysha
+    - Ёшуа
+- osis: Judg
+  texts:
+    - Hakamlar
+    - Ҳакамлар
+    - Hak
+    - Ҳак
+- osis: Ruth
+  texts:
+    - Rut
+    - Рут
+- osis: Isa
+  texts:
+    - Ishayo
+    - Isha
+    - Ишаё
+    - Иша
+- osis: 1Sam
+  texts:
+    - 1Sh
+    - 1Шҳ
+- osis: 2Sam
+  texts:
+    - 2Sh
+    - 2Шҳ
+- osis: 1Kgs
+  texts:
+    - 3 Shohlar
+    - 3 Шоҳлар
+    - 3Sh
+    - 3Шҳ
+- osis: 2Kgs
+  texts:
+    - 4 Shohlar
+    - 4 Шоҳлар
+    - 4Sh
+    - 4Шҳ
+- osis: 1Sam
+  texts:
+    - 1 Shohlar
+    - 1 Шоҳлар
+    - 1. Shohlar
+    - 1. Шоҳлар
+- osis: 2Sam
+  texts:
+    - 2 Shohlar
+    - 2 Шоҳлар
+    - 2. Shohlar
+    - 2. Шоҳлар
+- osis: 1Chr
+  texts:
+    - 1 Solnomalar
+    - 1 Солномалар
+    - 1. Solnomalar
+    - 1. Солномалар
+- osis: 2Chr
+  texts:
+    - 2 Solnomalar
+    - 2 Солномалар
+    - 2. Solnomalar
+    - 2. Солномалар
+- osis: 1Chr
+  texts:
+    - 1Sol
+    - 1Сол
+- osis: 2Chr
+  texts:
+    - 2Sol
+    - 2Сол
+- osis: Ezra
+  texts:
+    - Ezra
+    - Эзра
+- osis: Neh
+  texts:
+    - Naximiyo
+    - Нахимиё
+    - Nax
+    - Нах
+- osis: Esth
+  texts:
+    - Ester
+    - Эстер
+    - Est
+    - Эст
+- osis: Job
+  texts:
+    - Ayub
+    - Аюб
+- osis: Ps
+  texts:
+    - Zabur
+    - Забур
+    - Zab
+    - Заб
+- osis: Prov
+  texts:
+    - Hikmatlar
+    - Ҳикматлар
+    - Hik
+    - Ҳик
+- osis: Eccl
+  texts:
+    - Voiz
+    - Воиз
+- osis: Song
+  texts:
+    - Qoʻshiq
+    - Қўшиқ
+    - Qshq
+    - Қшқ
+- osis: Jer
+  texts:
+    - Yeremiyo
+    - Еремиё
+    - Yerm
+    - Ерм
+- osis: Ezek
+  texts:
+    - Hizqiyol
+    - Ҳизқиёл
+    - Hiz
+    - Ҳиз
+- osis: Dan
+  texts:
+    - Doniyor
+    - Дониёр
+    - Dnr
+    - Днр
+- osis: Hos
+  texts:
+    - Xoʻsheya
+    - Хўшея
+    - Xsha
+    - Хшя
+- osis: Joel
+  texts:
+    - Yoʻel
+    - Йўэл
+- osis: Amos
+  texts:
+    - Amos
+    - Амос
+- osis: Obad
+  texts:
+    - Obodiyo
+    - Ободиё
+    - Obd
+    - Обд
+- osis: Jonah
+  texts:
+    - Yunus
+    - Юнус
+    - Yun
+    - Юнс
+- osis: Mic
+  texts:
+    - Mixo
+    - Михо
+- osis: Nah
+  texts:
+    - Noxum
+    - Нохум
+    - Nox
+    - Нох
+- osis: Hab
+  texts:
+    - Xabaqquq
+    - Хабаққуқ
+    - Xbq
+    - Хбқ
+- osis: Zeph
+  texts:
+    - Zafaniyo
+    - Зафаниё
+    - Zfn
+    - Зфн
+- osis: Hag
+  texts:
+    - Xaggey
+    - Хаггей
+    - Xag
+    - Хаг
+- osis: Zech
+  texts:
+    - Zakariyo
+    - Закариё
+    - Zkr
+    - Зкр
+- osis: Mal
+  texts:
+    - Malaki
+    - Малаки
+    - Mal
+    - Мал
+- osis: Matt
+  texts:
+    - Matto
+    - Матто
+    - Mat
+    - Мат
+- osis: Mark
+  texts:
+    - Mark
+    - Марк
+- osis: Luke
+  texts:
+    - Luqo
+    - Луқо
+- osis: 1John
+  texts:
+    - 1Yuh
+    - 1Юҳ
+- osis: 2John
+  texts:
+    - 2Yuh
+    - 2Юҳ
+- osis: 3John
+  texts:
+    - 3 Yuhanno
+    - 3 Юҳанно
+    - 3Yuh
+    - 3Юҳ
+- osis: 1John
+  texts:
+    - 1 Yuhanno
+    - 1 Юҳанно
+    - 1. Yuhanno
+    - 1. Юҳанно
+- osis: 2John
+  texts:
+    - 2 Yuhanno
+    - 2 Юҳанно
+    - 2. Yuhanno
+    - 2. Юҳанно
+- osis: John
+  texts:
+    - Yuhanno
+    - Юҳанно
+    - Yuhn
+    - Юҳн
+- osis: Acts
+  texts:
+    - Havoriylar
+    - Ҳаворийлар
+    - Hav
+    - Ҳав
+- osis: Rom
+  texts:
+    - Rimliklar
+    - Римликлар
+    - Rim
+    - Рим
+- osis: 1Cor
+  texts:
+    - 1 Korinfliklar
+    - 1 Коринфликлар
+    - 1. Korinfliklar
+    - 1. Коринфликлар
+- osis: 2Cor
+  texts:
+    - 2 Korinfliklar
+    - 2 Коринфликлар
+    - 2. Korinfliklar
+    - 2. Коринфликлар
+- osis: 1Cor
+  texts:
+    - 1Kor
+    - 1Кор
+- osis: 2Cor
+  texts:
+    - 2Kor
+    - 2Кор
+- osis: Col
+  texts:
+    - Kolosaliklar
+    - Колосаликлар
+    - Kol
+    - Кол
+- osis: Gal
+  texts:
+    - Galatiyaliklar
+    - Галатияликлар
+    - Gal
+    - Гал
+- osis: Eph
+  texts:
+    - Efesliklar
+    - Эфесликлар
+    - Efs
+    - Эфс
+- osis: Phil
+  texts:
+    - Filippiliklar
+    - Филиппиликлар
+    - Flp
+    - Флп
+- osis: 1Thess
+  texts:
+    - 1 Salonikaliklar
+    - 1 Салоникаликлар
+    - 1. Salonikaliklar
+    - 1. Салоникаликлар
+- osis: 2Thess
+  texts:
+    - 2 Salonikaliklar
+    - 2 Салоникаликлар
+    - 2. Salonikaliklar
+    - 2. Салоникаликлар
+- osis: 1Thess
+  texts:
+    - 1Sal
+    - 1Сал
+- osis: 2Thess
+  texts:
+    - 2Sal
+    - 2Сал
+- osis: 1Tim
+  texts:
+    - 1 Timoʻtiy
+    - 1 Тимўтий
+    - 1. Timoʻtiy
+    - 1. Тимўтий
+- osis: 2Tim
+  texts:
+    - 2 Timoʻtiy
+    - 2 Тимўтий
+    - 2. Timoʻtiy
+    - 2. Тимўтий
+- osis: 1Tim
+  texts:
+    - 1Tim
+    - 1Тим
+- osis: 2Tim
+  texts:
+    - 2Tim
+    - 2Тим
+- osis: Titus
+  texts:
+    - Titus
+    - Титус
+    - Tit
+    - Тит
+- osis: Phlm
+  texts:
+    - Filimoʻn
+    - Филимўн
+    - Flm
+    - Флм
+- osis: Heb
+  texts:
+    - Ibroniylar
+    - Ибронийлар
+    - Ibr
+    - Ибр
+- osis: Jas
+  texts:
+    - Yoqub
+    - Yoqb
+    - Ёқуб
+- osis: 1Pet
+  texts:
+    - 1 Butrus
+    - 1 Бутрус
+    - 1. Butrus
+    - 1. Бутрус
+- osis: 2Pet
+  texts:
+    - 2 Butrus
+    - 2 Бутрус
+    - 2. Butrus
+    - 2. Бутрус
+- osis: 1Pet
+  texts:
+    - 1Btr
+    - 1Бтр
+- osis: 2Pet
+  texts:
+    - 2Btr
+    - 2Бтр
+- osis: Jude
+  texts:
+    - Yahudo
+    - Яҳудо
+    - Yahd
+    - Яҳд

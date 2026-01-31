@@ -1,0 +1,148 @@
+default:
+  1Chr:
+    long: Taarikey 1na
+    short: Ta1
+  1Cor:
+    long: Korent borey bataga 1na
+    short: Ko1
+  1John:
+    long: Yehiya bataga 1na
+    short: Ye1
+  1Kgs:
+    long: Kokoyey 1na
+    short: Ky1
+  1Pet:
+    long: Piyer bataga 1na
+    short: Pi1
+  1Sam:
+    long: Samiyel 1na
+    short: Sm1
+  1Thess:
+    long: Tesalonik borey bataga 1na
+    short: Ts1
+  1Tim:
+    long: Timote bataga 1na
+    short: Tm1
+  2Chr:
+    long: Taarikey 2to
+    short: Ta2
+  2Cor:
+    long: Korent borey bataga 2to
+    short: Ko2
+  2John:
+    long: Yehiya bataga 2to
+    short: Ye2
+  2Kgs:
+    long: Kokoyey 2to
+    short: Ky2
+  2Pet:
+    long: Piyer bataga 2to
+    short: Pi2
+  2Sam:
+    long: Samiyel 2to
+    short: Sm2
+  2Thess:
+    long: Tesalonik borey bataga 2to
+    short: Ts2
+  2Tim:
+    long: Timote bataga 2to
+    short: Tm2
+  3John:
+    long: Yehiya bataga 3to
+    short: Ye3
+  Acts:
+    long: Teegoyey
+    short: Tee
+  Col:
+    long: Kolos borey batagaa
+    short: Kol
+  Deut:
+    long: Alhukumoo
+    short: Alh
+  Eccl:
+    long: Waazukaa
+    short: Waa
+  Eph:
+    long: Efez borey batagaa
+    short: Efe
+  Esth:
+    long: Ester
+    short: Est
+  Exod:
+    long: Fattaroo
+    short: Fat
+  Ezra:
+    long: Ezra
+    short: Ezr
+  Gal:
+    long: Galati borey batagaa
+    short: Gal
+  Gen:
+    long: Šintinoo
+    short: Šin
+  Heb:
+    long: Eberewey batagaa
+    short: Ebe
+  Jas:
+    long: Žak batagaa
+    short: Žak
+  Job:
+    long: Ayuba
+    short: Ayu
+  John:
+    long: Yehiya
+    short: Yeh
+  Jonah:
+    long: Yunusa
+    short: Yun
+  Josh:
+    long: Žozuwe
+    short: Žoz
+  Jude:
+    long: Žud batagaa
+    short: Žud
+  Judg:
+    long: Alkaaley
+    short: Alk
+  Lev:
+    long: Sargarey
+    short: Sar
+  Luke:
+    long: Luka
+    short: Luk
+  Mark:
+    long: Marku
+    short: Mar
+  Matt:
+    long: Matiyu
+    short: Mat
+  Neh:
+    long: Nehemi
+    short: Neh
+  Num:
+    long: Kabuyaney
+    short: Kab
+  Phil:
+    long: Filipi borey batagaa
+    short: Flp
+  Phlm:
+    long: Filemoŋ batagaa
+    short: Flm
+  Prov:
+    long: Yaasawey
+    short: Yaa
+  Ps:
+    long: Zaburey
+    short: Zab
+  Rev:
+    long: Bangandiroo
+    short: Ban
+  Rom:
+    long: Rom borey batagaa
+    short: Rom
+  Ruth:
+    long: Rutti
+    short: Rut
+  Titus:
+    long: Tit batagaa
+    short: Tit

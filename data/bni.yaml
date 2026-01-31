@@ -1,0 +1,197 @@
+variables:
+  first: &first
+    - "1"
+    - Limbe
+    - Ombe
+  second: &second
+    - "2"
+    - Limbe
+    - Ombe
+books:
+  - osis: Gen
+    texts:
+      - Mabandela
+      - Mab
+  - osis: Rev
+    texts:
+      - Ma Bokusoli
+      - Bokusoli
+  - osis: Isa
+    texts:
+      - Yesaya
+  - osis: Ps
+    texts:
+      - Nzembo
+  - osis: Dan
+    texts:
+      - Danyele
+      - Dan
+  - osis: Hos
+    texts:
+      - Osea
+  - osis: Joel
+    texts:
+      - Yeole
+  - osis: Amos
+    texts:
+      - Amosa
+  - osis: Obad
+    texts:
+      - Obadaya
+      - Obad
+  - osis: Jonah
+    texts:
+      - Yona
+  - osis: Mic
+    texts:
+      - Mika
+  - osis: Nah
+    texts:
+      - Nauma
+  - osis: Hab
+    texts:
+      - Abakuka
+      - Abak
+  - osis: Zeph
+    texts:
+      - Sepanya
+      - Sep
+  - osis: Hag
+    texts:
+      - Agai
+  - osis: Zech
+    texts:
+      - Zekalaya
+      - Zek
+  - osis: Mal
+    texts:
+      - Malaki
+      - Mal
+  - osis: Matt
+    texts:
+      - Na Matayo
+      - Matayo
+  - osis: Mark
+    texts:
+      - Na Malako
+      - Malako
+  - osis: Luke
+    texts:
+      - Na Luka
+      - Luka
+  - osis: 3John
+    texts:
+      - Limbe Yoane 3
+      - 3 Yoane
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - Yoane 1
+      - Yoane
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - Yoane 2
+      - Yoane
+  - osis: John
+    texts:
+      - Na Yoane
+      - Yoane
+  - osis: Acts
+    texts:
+      - Ma Ntoma
+      - Ntoma
+  - osis: Rom
+    texts:
+      - Ombe Ba‐Loma
+      - Ba-Loma
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Ba‐Kolinto 1
+      - Ba-Kolinto
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Ba‐Kolinto 2
+      - Ba-Kolinto
+  - osis: Col
+    texts:
+      - Ba‐Kolosai
+      - Kolosai
+  - osis: Gal
+    texts:
+      - Ba‐Galatia
+      - Gal
+  - osis: Eph
+    texts:
+      - Ombe B’Epeso
+      - Epeso
+  - osis: Phil
+    texts:
+      - Ba‐Pilipoi
+      - Pilipoi
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Ba‐Tesalonike 1
+      - Ba-Tesalonike
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Ba‐Tesalonike 2
+      - Ba-Tesalonike
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Tim
+  - osis: 1Tim
+    texts:
+      - Timoteo 1
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo 2
+      - Tim
+  - osis: Titus
+    texts:
+      - Ombe Tito
+      - Tito
+  - osis: Phlm
+    texts:
+      - Ombe Pilemono
+      - Pilem
+  - osis: Heb
+    texts:
+      - Ombe B’Ebele
+      - B’Ebele
+  - osis: Jas
+    texts:
+      - Limbe Yakobo
+      - Yakobo
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - Petelo 1
+      - Pet
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petelo 2
+      - Pet
+  - osis: Jude
+    texts:
+      - Limbe Yuda
+      - Yuda
+translations:
+  - BANGI

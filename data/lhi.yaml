@@ -1,0 +1,141 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Pheq mar liq
+      - Pheq
+  - osis: Matt
+    texts:
+      - Mar thehr liq
+      - Mth
+  - osis: Mark
+    texts:
+      - Mar koq liq
+      - Mk
+  - osis: Luke
+    texts:
+      - Lud kar liq
+      - Lk
+  - osis: 1John
+    texts:
+      - 1Yh
+  - osis: 2John
+    texts:
+      - 2Yh
+  - osis: 3John
+    texts:
+      - 3 Yod hanr liq
+      - 3Yh
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yod hanr liq
+  - osis: John
+    texts:
+      - Yod hanr liq
+      - Yh
+  - osis: Acts
+    texts:
+      - Cuh yad liq
+      - Cy
+  - osis: Rom
+    texts:
+      - Rod maq liq
+      - Rm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kawd renr thuq liq
+  - osis: 1Cor
+    texts:
+      - 1K
+  - osis: 2Cor
+    texts:
+      - 2K
+  - osis: Col
+    texts:
+      - Kaw law sehd liq
+      - Kl
+  - osis: Gal
+    texts:
+      - Gar lar tiq liq
+      - Gl
+  - osis: Eph
+    texts:
+      - Ed fed suq liq
+      - Ef
+  - osis: Phil
+    texts:
+      - Phid lid piq liq
+      - Phi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thed sar lawd niq liq
+  - osis: 1Thess
+    texts:
+      - 1The
+  - osis: 2Thess
+    texts:
+      - 2The
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tiq mod ser liq
+  - osis: 1Tim
+    texts:
+      - 1Ts
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Tid tuq liq
+      - Tit
+  - osis: Phlm
+    texts:
+      - Phid lid monr liq
+      - Phlm
+  - osis: Heb
+    texts:
+      - Her brehd liq
+      - He
+  - osis: Jas
+    texts:
+      - Yar koq liq
+      - Yk
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Per truq liq
+  - osis: 1Pet
+    texts:
+      - 1Pt
+  - osis: 2Pet
+    texts:
+      - 2Pt
+  - osis: Jude
+    texts:
+      - Yud daq liq
+      - Yd
+translations:
+  - LHINT

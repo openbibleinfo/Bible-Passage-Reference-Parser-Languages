@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 Awakorintho
+    short: 1Kori
+  1John:
+    long: 1 Yowaana
+    short: 1Yow
+  1Pet:
+    long: 1 Petro
+    short: 1Pet
+  1Thess:
+    long: 1 Awathesaloniika
+    short: 1Thes
+  1Tim:
+    long: 1 Awatimtheeo
+    short: 1Timo
+  2Cor:
+    long: 2 Awakorintho
+    short: 2Kori
+  2John:
+    long: 2 Yowaana
+    short: 2Yow
+  2Pet:
+    long: 2 Petro
+    short: 2Pet
+  2Thess:
+    long: 2 Awathesoloniika
+    short: 2Thes
+  2Tim:
+    long: 2 Awatimotheeo
+    short: 2Timo
+  3John:
+    long: 3 Yowaana
+    short: 3Yow
+  Acts:
+    long: Awatumwa
+    short: Awat
+  Col:
+    long: Awacolosaai
+    short: Kolo
+  Eph:
+    long: Awaefeeso
+    short: Efee
+  Gal:
+    long: Awagalatia
+    short: Gala
+  Heb:
+    long: Awaibrania
+    short: Awaib
+  Jas:
+    long: Awayakoobo
+    short: Yako
+  John:
+    long: Yowaana
+    short: Yowa
+  Jude:
+    long: Yuuda
+    short: Yuuda
+  Luke:
+    long: Luuka
+    short: Luuk
+  Mark:
+    long: Mariiko
+    short: Mari
+  Matt:
+    long: Mathaayo
+    short: Math
+  Phil:
+    long: Awafilipi
+    short: Filiip
+  Phlm:
+    long: Awafilemooni
+    short: Filem
+  Rev:
+    long: Owusasuko
+    short: Owus
+  Rom:
+    long: Awaruumi
+    short: Awaru
+  Titus:
+    long: Awatiito
+    short: Tiit

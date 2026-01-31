@@ -1,0 +1,97 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Kuyubulula
+  - osis: Matt
+    texts:
+      - Mateyo
+  - osis: Mark
+    texts:
+      - Maliko
+  - osis: Luke
+    texts:
+      - Luka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohane
+  - osis: Acts
+    texts:
+      - Incito
+  - osis: Rom
+    texts:
+      - Baloma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Bakolinto
+  - osis: Col
+    texts:
+      - BaKolose
+  - osis: Gal
+    texts:
+      - Bagalatiya
+  - osis: Eph
+    texts:
+      - Baefenso
+  - osis: Phil
+    texts:
+      - BaFilipi
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Batesalonika
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Batesalonika
+      - Tesalonika
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filimoni
+  - osis: Heb
+    texts:
+      - Bahebeli
+  - osis: Jas
+    texts:
+      - Jemusi
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petulo
+  - osis: Jude
+    texts:
+      - Yuda
+translations:
+  - SBT

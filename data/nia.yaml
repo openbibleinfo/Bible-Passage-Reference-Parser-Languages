@@ -1,0 +1,296 @@
+variables:
+  first: &first
+    - Soera
+  second: &second
+    - Soera
+books:
+  - osis: Gen
+    texts:
+      - Soera Moze I.
+      - Moz. I.
+  - osis: Exod
+    texts:
+      - Soera Moze II.
+      - Moz. II.
+  - osis: Lev
+    texts:
+      - Soera Moze III.
+      - Moz. III.
+  - osis: Num
+    texts:
+      - Soera Moze IV.
+      - Moz. IV.
+  - osis: Lam
+    texts:
+      - Ngenoengenoe Jeremia
+      - Ngj.
+  - osis: Rev
+    texts:
+      - Famaʼeleʼõ
+      - Fam.
+  - osis: Deut
+    texts:
+      - Soera Moze V.
+      - Moz. V.
+  - osis: Josh
+    texts:
+      - Soera Josoea
+      - Jos.
+  - osis: Judg
+    texts:
+      - Soera Zangoehoekoe
+      - Zang.
+  - osis: Ruth
+    texts:
+      - Soera Roeti
+      - Roet.
+  - osis: Isa
+    texts:
+      - Soera Jesaja
+      - Jes.
+  - osis:
+      - osis: 1Sam
+        before: *first
+    texts:
+      - Zamoeëli I.
+  - osis: 1Sam
+    texts:
+      - Sam. I.
+  - osis:
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Zamoeëli II.
+  - osis: 2Sam
+    texts:
+      - Sam. II.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+    texts:
+      - Razo I.
+  - osis: 1Kgs
+    texts:
+      - Raz. I.
+  - osis:
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Razo II.
+  - osis: 2Kgs
+    texts:
+      - Raz. II.
+  - osis:
+      - osis: 1Chr
+        before: *first
+    texts:
+      - Ngaʼõtõ I.
+  - osis: 1Chr
+    texts:
+      - Ngaʼõt. I.
+  - osis:
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Ngaʼõtõ II.
+  - osis: 2Chr
+    texts:
+      - Ngaʼõt. II.
+  - osis: Ezra
+    texts:
+      - Soera Gesera
+      - Eser.
+  - osis: Neh
+    texts:
+      - Soera Nehemia
+      - Nehem.
+  - osis: Esth
+    texts:
+      - Soera Gesitera
+      - Esit.
+  - osis: Job
+    texts:
+      - Soera Jobi
+      - Job.
+  - osis: Prov
+    texts:
+      - Soera Gamaedola
+      - Amd.
+  - osis: Eccl
+    texts:
+      - Soera Zangombacha
+      - Sang.
+  - osis: Song
+    texts:
+      - Sinoenõ Seboea
+      - Sin. S.
+  - osis: Ps
+    texts:
+      - Soera Zinoenõ
+      - Sin.
+  - osis: Jer
+    texts:
+      - Soera Jeremia
+      - Jer.
+  - osis: Ezek
+    texts:
+      - Soera Hezekiëli
+      - Hez.
+  - osis: Dan
+    texts:
+      - Soera Daniëli
+      - Dan.
+  - osis: Hos
+    texts:
+      - Soera Hosea
+      - Hos.
+  - osis: Joel
+    texts:
+      - Soera Joëli
+      - Joël.
+  - osis: Amos
+    texts:
+      - Soera Gamosi
+      - Amos.
+  - osis: Obad
+    texts:
+      - Soera Gobadia
+      - Obad.
+  - osis: Jonah
+    texts:
+      - Soera Jona
+      - Jon.
+  - osis: Mic
+    texts:
+      - Soera Micha
+      - Mich.
+  - osis: Nah
+    texts:
+      - Soera Nachoemi
+      - Nach.
+  - osis: Hab
+    texts:
+      - Soera Habakoeki
+      - Hab.
+  - osis: Zeph
+    texts:
+      - Soera Zefania
+      - Sef.
+  - osis: Hag
+    texts:
+      - Soera Hagaʼi
+      - Hag.
+  - osis: Zech
+    texts:
+      - Soera Zacharia
+      - Sach.
+  - osis: Mal
+    texts:
+      - Soera Maleachi
+      - Mal.
+  - osis: Matt
+    texts:
+      - Mataio
+      - Mat.
+  - osis: Mark
+    texts:
+      - Mareko
+      - Mar.
+  - osis: Luke
+    texts:
+      - Loek.
+      - Loeka
+  - osis: 1John
+    texts:
+      - Johane I.
+      - Joh. I.
+  - osis: 2John
+    texts:
+      - Johane II.
+      - Joh. II.
+  - osis: 3John
+    texts:
+      - Johane III.
+      - Joh. III.
+  - osis: John
+    texts:
+      - Johane
+      - Joh.
+  - osis: Acts
+    texts:
+      - Halõw̃õ Zinenge
+      - Hal.
+  - osis: Rom
+    texts:
+      - Rom.
+      - Roma
+  - osis: 1Cor
+    texts:
+      - Korindro I.
+      - Kor. I.
+  - osis: 2Cor
+    texts:
+      - Korindro II.
+      - Kor. II.
+  - osis: Col
+    texts:
+      - Kolose
+      - Kol.
+  - osis: Gal
+    texts:
+      - Galatia
+      - Gal.
+  - osis: Eph
+    texts:
+      - Efes.
+      - Efeso
+  - osis: Phil
+    texts:
+      - Filifi
+      - Fil.
+  - osis: 1Thess
+    texts:
+      - Tesalonika I.
+      - Tes. I.
+  - osis: 2Thess
+    texts:
+      - Tesalonika II.
+      - Tes. II.
+  - osis: 1Tim
+    texts:
+      - Timoteo I.
+      - Tim. I.
+  - osis: 2Tim
+    texts:
+      - Timoteo II.
+      - Tim. II
+  - osis: Titus
+    texts:
+      - Tit.
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filemo
+      - Flm.
+  - osis: Heb
+    texts:
+      - Heberaio
+      - Heb.
+  - osis: Jas
+    texts:
+      - Jakobo
+      - Jak.
+  - osis: 1Pet
+    texts:
+      - Fetero I.
+      - Fet. I.
+  - osis: 2Pet
+    texts:
+      - Fetero II.
+      - Fet. II.
+  - osis: Jude
+    texts:
+      - Joed.
+      - Joeda
+translations:
+  - NIA

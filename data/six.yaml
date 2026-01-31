@@ -1,0 +1,49 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Luke
+    texts:
+      - Luk
+      - Lu
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yo
+  - osis: Acts
+    texts:
+      - Yt
+  - osis: Col
+    texts:
+      - Kl
+  - osis: Gal
+    texts:
+      - Kal
+      - Ka
+  - osis: Eph
+    texts:
+      - Ep
+  - osis: Phil
+    texts:
+      - Pl
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Ts
+  - osis: Phlm
+    texts:
+      - Pm
+translations:
+  - SOMGAR24

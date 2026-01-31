@@ -1,0 +1,110 @@
+books:
+  - osis: Rev
+    texts:
+      - Esusën Uan ismiaid
+      - E.U.I.
+  - osis: Matt
+    texts:
+      - Mateo
+      - Mat.
+  - osis: Mark
+    texts:
+      - Madcos
+      - Madc.
+  - osis: Luke
+    texts:
+      - Ducas
+      - Duc.
+  - osis: 1John
+    texts:
+      - Uan 1
+      - Uan1.
+  - osis: 2John
+    texts:
+      - Uan 2
+      - Uan2.
+  - osis: 3John
+    texts:
+      - Uan 3
+      - Uan3.
+  - osis: John
+    texts:
+      - Uan
+  - osis: Acts
+    texts:
+      - E.Ch.N.
+      - Hechos
+  - osis: Rom
+    texts:
+      - Dom.
+      - Doma
+  - osis: 1Cor
+    texts:
+      - Codinto 1
+      - Cod.1.
+  - osis: 2Cor
+    texts:
+      - Codinto 2
+      - Cod.2.
+  - osis: Col
+    texts:
+      - Codosas
+      - Codos.
+  - osis: Gal
+    texts:
+      - Cadasia
+      - Cad.
+  - osis: Eph
+    texts:
+      - Epeso
+      - Ep.
+  - osis: Phil
+    texts:
+      - Pidipos
+      - Pid.
+  - osis: 1Thess
+    texts:
+      - Tesadonica 1
+      - Tes.1.
+  - osis: 2Thess
+    texts:
+      - Tesadonica 2
+      - Tes.2.
+  - osis: 1Tim
+    texts:
+      - Timoteo 1
+      - Tim.1.
+  - osis: 2Tim
+    texts:
+      - Timoteo 2
+      - Tim.2.
+  - osis: Titus
+    texts:
+      - Tit.
+      - Tito
+  - osis: Phlm
+    texts:
+      - Pidemon
+      - Pidem.
+  - osis: Heb
+    texts:
+      - Ebedeo
+      - Ebed.
+  - osis: Jas
+    texts:
+      - Santiaco
+      - San.
+  - osis: 1Pet
+    texts:
+      - Petedo 1
+      - Pet.1.
+  - osis: 2Pet
+    texts:
+      - Petedo 2
+      - Pet.2.
+  - osis: Jude
+    texts:
+      - Udas
+      - Ud.
+translations:
+  - MCFNT

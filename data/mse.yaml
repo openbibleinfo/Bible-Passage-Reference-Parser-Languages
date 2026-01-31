@@ -1,0 +1,257 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Ura Tin Ayra
+      - Ura
+  - osis: Exod
+    texts:
+      - Kalkira
+      - Kal.
+  - osis: Lev
+    texts:
+      - Dlaŋ Levira
+      - Lev.
+  - osis: Num
+    texts:
+      - Ndumba
+      - Ndu.
+  - osis: Lam
+    texts:
+      - Yoora
+      - Yoo.
+  - osis: Rev
+    texts:
+      - Wira Ŋgayra
+      - Wira
+  - osis: Deut
+    texts:
+      - Ga Ɗtambara
+      - Gaɗ.
+  - osis: Josh
+    texts:
+      - Josuwe
+      - Jos.
+  - osis: Judg
+    texts:
+      - Suu Kaɓakŋa
+      - Suu
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis: Isa
+    texts:
+      - Ezayi
+      - Eza.
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - Sam.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Mulina
+      - Mul.
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Dlaŋ Mulinara
+      - Dlaŋ
+  - osis: Ezra
+    texts:
+      - Ezdras
+      - Ezd.
+  - osis: Neh
+    texts:
+      - Nehemi
+      - Neh.
+  - osis: Esth
+    texts:
+      - Ester
+      - Est.
+  - osis: Job
+    texts:
+      - Job
+  - osis: Prov
+    texts:
+      - Vun Ŋgolna
+      - Vun
+  - osis: Eccl
+    texts:
+      - Di Bolla
+      - Bol.
+  - osis: Song
+    texts:
+      - Soolla Vi Salomon
+      - SvS
+  - osis: Ps
+    texts:
+      - Soolla
+      - Soo.
+  - osis: Jer
+    texts:
+      - Jeremi
+      - Jer.
+  - osis: Ezek
+    texts:
+      - Ezekiyel
+      - Eze.
+  - osis: Dan
+    texts:
+      - Danyel
+      - Dan.
+  - osis: Hos
+    texts:
+      - Oze
+  - osis: Joel
+    texts:
+      - Joel
+  - osis: Amos
+    texts:
+      - Amos
+  - osis: Obad
+    texts:
+      - Abdiyas
+      - Abd.
+  - osis: Jonah
+    texts:
+      - Jonas
+      - Jon.
+  - osis: Mic
+    texts:
+      - Mise
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah.
+  - osis: Hab
+    texts:
+      - Habakuk
+      - Hab.
+  - osis: Zeph
+    texts:
+      - Sofoni
+      - Sof.
+  - osis: Hag
+    texts:
+      - Age
+  - osis: Zech
+    texts:
+      - Zakari
+      - Zak.
+  - osis: Mal
+    texts:
+      - Malasi
+      - Mal.
+  - osis: Matt
+    texts:
+      - Matiye
+      - Mat.
+  - osis: Mark
+    texts:
+      - Mark
+  - osis: Luke
+    texts:
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jaŋ
+  - osis: Acts
+    texts:
+      - Sunda
+      - Sun.
+  - osis: Rom
+    texts:
+      - Romma
+      - Rom.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintna
+      - Kor.
+  - osis: Col
+    texts:
+      - Kolosna
+      - Kol.
+  - osis: Gal
+    texts:
+      - Galatena
+      - Gal.
+  - osis: Eph
+    texts:
+      - Efesna
+      - Efes.
+  - osis: Phil
+    texts:
+      - Filipina
+      - Fip.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonikŋa
+      - Tes.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+      - Tim.
+  - osis: Titus
+    texts:
+      - Titta
+      - Tit.
+  - osis: Phlm
+    texts:
+      - Filemonda
+      - Fil.
+  - osis: Heb
+    texts:
+      - Hebrena
+      - Heb.
+  - osis: Jas
+    texts:
+      - Jak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piyer
+      - Piy.
+  - osis: Jude
+    texts:
+      - Jud
+translations:
+  - MSE

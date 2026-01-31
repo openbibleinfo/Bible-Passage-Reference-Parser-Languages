@@ -1,0 +1,18 @@
+default:
+  John:
+    long: Ghjuanni
+    short: Ghjv
+  Luke:
+    long: Lucca
+    short: Lc
+  Mark:
+    long: Marcu
+    short: Mc
+  Matt:
+    long: Matteiu
+    short: Mat
+translations:
+  4evcors:
+    Matt:
+      long: Matteu
+      short: Mt

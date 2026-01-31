@@ -1,0 +1,420 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Chiv Keeb
+      - Chivkeeb
+      - Ch.K.
+      - Chk
+  - osis: Exod
+    texts:
+      - Tsiv Dlim
+      - Tswv Dim
+      - Ts.D.
+      - Tsd
+  - osis: Lev
+    texts:
+      - Levi Tej Kevcai
+      - Levis Kevcai
+      - L.Kc.
+      - Lek
+  - osis: Num
+    texts:
+      - Xwm Txheej Taug Kev
+      - Teev Npe
+      - X.Txh.
+      - Tnp
+  - osis: Lam
+    texts:
+      - Nkauj Quaj Ntsuag
+      - Zaaj Nkauj Ntsuag
+      - Nk.Nts.
+      - Nqn
+  - osis: Rev
+    texts:
+      - Qha Tshwm
+      - Tshwmsim
+      - Qtsh.
+      - Tsm
+  - osis: Deut
+    texts:
+      - 2 Kevcai
+      - Kevcai
+      - 2 Kev
+      - Kc.
+  - osis: Josh
+    texts:
+      - Yausuas
+      - Yausua
+      - Yas
+      - Ys.
+  - osis: Judg
+    texts:
+      - Cov Thawjtswj
+      - Cov Thawj
+      - C.Th.
+      - Ctt
+  - osis: Ruth
+    texts:
+      - Luv
+  - osis: Isa
+    texts:
+      - Yaxayas
+      - Yaxaya
+      - Yxy.
+      - Yay
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Xamuyees
+      - Xamuyee
+      - Xam
+  - osis: 1Sam
+    texts:
+      - 1Xmy.
+  - osis: 2Sam
+    texts:
+      - 2Xmy.
+  - osis: 1Kgs
+    texts:
+      - 1Vntx.
+  - osis: 2Kgs
+    texts:
+      - 2Vntx.
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Xwmtxheej Vaajntxwv
+      - Vaaj Keeb Kwm
+      - Xvn
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Vaajntxwv
+      - Vnt
+  - osis: 1Chr
+    texts:
+      - 1Vkk.
+  - osis: 2Chr
+    texts:
+      - 2Vkk.
+  - osis: Ezra
+    texts:
+      - Exalas
+      - Exala
+      - Exl.
+      - Exa
+  - osis: Neh
+    texts:
+      - Nehemis
+      - Nehemi
+      - Nhm.
+      - Neh
+  - osis: Esth
+    texts:
+      - Exethaws
+      - Exathaw
+      - Exth.
+      - Ext
+  - osis: Job
+    texts:
+      - Yauj
+      - Yaj
+  - osis: Ps
+    texts:
+      - Phoo Ntawv Nkauj
+      - Ntawv Nkauj
+      - Nt.Nk.
+      - Pnk
+  - osis: Prov
+    texts:
+      - Paaj Lug
+      - Paajlug
+      - P.L.
+      - Plg
+  - osis: Eccl
+    texts:
+      - Laaj Lim Tswvyim
+      - Tej Lug Qha
+      - L.Tsy.
+      - Tlq
+  - osis: Song
+    texts:
+      - Xalaumoo Zaaj Nkauj
+      - Xalumoos Tej Nkauj
+      - Xlm.
+      - Xtn
+  - osis: Jer
+    texts:
+      - Yelemis
+      - Yelemi
+      - Ylm.
+      - Yel
+  - osis: Ezek
+    texts:
+      - Exekees
+      - Exekhee
+      - Exkh.
+      - Exk
+  - osis: Dan
+    texts:
+      - Daniyees
+      - Taniyee
+      - Tny.
+      - Dan
+  - osis: Hos
+    texts:
+      - Hauxeyas
+      - Hauxeya
+      - Hxy.
+      - Hau
+  - osis: Joel
+    texts:
+      - Yau-Ees
+      - Yau-ee
+      - Y-ee
+      - Yau
+  - osis: Amos
+    texts:
+      - Amaus
+      - Amau
+      - Am.
+      - Ama
+  - osis: Obad
+    texts:
+      - Aunpadiyas
+      - Aunpantiya
+      - Aunpy.
+      - Aun
+  - osis: Jonah
+    texts:
+      - Yaunas
+      - Yauna
+      - Yan
+      - Yn.
+  - osis: Mic
+    texts:
+      - Mikhas
+      - Mikha
+      - Mkh.
+      - MiK
+  - osis: Nah
+    texts:
+      - Nahus
+      - Nahu
+      - Nah
+      - Nh.
+  - osis: Hab
+    texts:
+      - Hanpakus
+      - Hanpaku
+      - Hnpk.
+      - Han
+  - osis: Zeph
+    texts:
+      - Xefaniyas
+      - Xefaniya
+      - Xfny.
+      - Xef
+  - osis: Hag
+    texts:
+      - Hakais
+      - Hakai
+      - Hak
+      - Hk.
+  - osis: Zech
+    texts:
+      - Xakaliyas
+      - Xekhaliya
+      - Xkhy.
+      - Xak
+  - osis: Mal
+    texts:
+      - Malakhi
+      - Malakis
+      - Mlkh.
+      - Mal
+  - osis: Matt
+    texts:
+      - Mathais
+      - Mathai
+      - Mth.
+      - Mat
+  - osis: Mark
+    texts:
+      - Malakaus
+      - Malakau
+      - Mak
+      - Mk.
+  - osis: Luke
+    texts:
+      - Lukas
+      - Luka
+      - Lk.
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Yh.
+  - osis: 2John
+    texts:
+      - 2Yh.
+  - osis: 3John
+    texts:
+      - 3 Yauhaas
+      - 3 Yauhaa
+      - 3 Yhs
+      - 3Yh.
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yauhaas
+      - Yauhaa
+      - Yhs
+  - osis: John
+    texts:
+      - Yauhaas
+      - Yauhaa
+      - Yh.
+      - Yhs
+  - osis: Acts
+    texts:
+      - Tubkhai Teg Num
+      - Teg Num
+      - Tkh.
+      - Ten
+  - osis: Rom
+    texts:
+      - Loos
+      - Loo
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kauleethaus
+      - Khaulee
+      - Klt
+  - osis: 1Cor
+    texts:
+      - 1Khl.
+  - osis: 2Cor
+    texts:
+      - 2Khl.
+  - osis: Col
+    texts:
+      - Kaulauxais
+      - Khaulauxi
+      - Khx.
+      - Klx
+  - osis: Gal
+    texts:
+      - Kalatias
+      - Kalatia
+      - Klt.
+      - Kal
+  - osis: Eph
+    texts:
+      - Efexaus
+      - Efexau
+      - Efx.
+      - Efe
+  - osis: Phil
+    texts:
+      - Filipis
+      - Filipi
+      - Flp.
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thexalaunikes
+      - Thexalaunika
+      - The
+  - osis: 1Thess
+    texts:
+      - 1Thxk.
+  - osis: 2Thess
+    texts:
+      - 2Thxk.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timautes
+      - Timaute
+      - Tim
+  - osis: 1Tim
+    texts:
+      - 1Tmt.
+  - osis: 2Tim
+    texts:
+      - 2Tmt.
+  - osis: Titus
+    texts:
+      - Titau
+      - Titus
+      - Tit.
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemoos
+      - Filemoo
+      - Flm.
+      - Flm
+  - osis: Heb
+    texts:
+      - Henplais
+      - Hnpl.
+      - Hen
+  - osis: Jas
+    texts:
+      - Yakaunpaus
+      - Yakaunpau
+      - Yknp.
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petus
+      - Petu
+      - Pet
+  - osis: 1Pet
+    texts:
+      - 1Pt.
+  - osis: 2Pet
+    texts:
+      - 2Pt.
+  - osis: Jude
+    texts:
+      - Yudas
+      - Yuta
+      - Yt.
+      - Yud
+translations:
+  - HMOBSV
+  - HNJ2000

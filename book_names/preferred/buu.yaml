@@ -1,0 +1,144 @@
+default:
+  1Cor:
+    long: 1 Ɓakolito
+    short: 1Klt
+  1John:
+    long: 1 Yɔanɨ
+    short: 1Yɔa
+  1Pet:
+    long: 1 Pɛtɛlɔ
+    short: 1Ptl
+  1Thess:
+    long: 1 Ɓatesalonika
+    short: 1Tes
+  1Tim:
+    long: 1 Timɔtɛɔ
+    short: 1Tim
+  2Cor:
+    long: 2 Ɓakolito
+    short: 2Klt
+  2John:
+    long: 2 Yɔanɨ
+    short: 2Yɔa
+  2Pet:
+    long: 2 Pɛtɛlɔ
+    short: 2Ptl
+  2Thess:
+    long: 2 Ɓatesalonika
+    short: 2Tes
+  2Tim:
+    long: 2 Timɔtɛɔ
+    short: 2Tim
+  3John:
+    long: 3 Yɔanɨ
+    short: 3Yɔa
+  Acts:
+    long: Kyananaka
+    short: Kya
+  Col:
+    long: Ɓakɔlɔsai
+    short: Kɔl
+  Eph:
+    long: Ɓaɛfɛsɔ
+    short: Ɛfs
+  Gal:
+    long: Ɓagalatia
+    short: Gal
+  Gen:
+    long: Mʉkpanganɨa
+    short: Mʉkp
+  Heb:
+    long: Ɓaebelenia
+    short: Ebl
+  Jas:
+    long: Yakɔbɔ
+    short: Yak
+  John:
+    long: Yɔanɨ
+    short: Yɔa
+  Jude:
+    long: Yuda
+    short: Yud
+  Luke:
+    long: Luka
+    short: Luk
+  Mark:
+    long: Malɨkɔ
+    short: Mak
+  Matt:
+    long: Matayɔ
+    short: Mat
+  Phil:
+    long: Ɓafilipo
+    short: Flp
+  Phlm:
+    long: Filimɔnɔ
+    short: Fil
+  Rev:
+    long: Matakanaka
+    short: Mtk
+  Rom:
+    long: Ɓalɔma
+    short: Ɓlm
+  Titus:
+    long: Tito
+    short: Tit
+translations:
+  budkoya:
+    1Cor:
+      short: 1Ɓak
+    1John:
+      long: 1 Yʉanɨ
+      short: 1Yʉa
+    1Pet:
+      short: 1Pɛt
+    2Cor:
+      short: 2Ɓak
+    2John:
+      long: 2 Yʉanɨ
+      short: 2Yʉa
+    2Pet:
+      short: 2Pɛt
+    3John:
+      long: 3 Yʉanɨ
+      short: 3Yʉa
+    Eph:
+      short: Ɛfɛ
+    John:
+      long: Yʉanɨ
+      short: Yʉa
+    Phil:
+      short: Ɓaf
+    Rev:
+      long: Pananiso
+      short: Pan
+    Rom:
+      short: Ɓma
+  buu:
+    1Thess:
+      long: 1 Ɓatɛsalɔnɨka
+      short: 1Tɛs
+    1Tim:
+      long: 1 Tɨmɔtɛɔ
+      short: 1Tɨm
+    2Thess:
+      long: 2 Ɓatɛsalɔnɨka
+      short: 2Tɛs
+    2Tim:
+      long: 2 Tɨmɔtɛɔ
+      short: 2Tɨm
+    Acts:
+      long: Mɨkyananakɨa
+      short: Kyan
+    Col:
+      long: Ɓakɔlɔsaɨ
+    Gal:
+      long: Ɓagalatɨa
+    Jas:
+      long: Yakɔɓɔ
+      short: Ykb
+    Mark:
+      short: Mlk
+    Phlm:
+      long: Fɨlɛmɔnɔ
+      short: Fɨl

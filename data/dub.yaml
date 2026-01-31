@@ -1,0 +1,126 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - પ્રકટીકરણ
+      - પ્રક.
+  - osis: Matt
+    texts:
+      - માથ્થી
+      - માથ.
+  - osis: Mark
+    texts:
+      - માર્ક.
+      - માર્ક
+  - osis: Luke
+    texts:
+      - લુક.ની સુવાર્તા
+      - લુક.
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - યોહાન પત્રો
+      - યોહ.
+  - osis: John
+    texts:
+      - યોહાન
+      - યોહ.
+  - osis: Acts
+    texts:
+      - પ્રેરિત કેલે કામે
+      - પ્રેરિત
+  - osis: Rom
+    texts:
+      - રોમન પત્રો
+      - રોમ.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - કુરિંથીઓ પત્રો
+      - કુરિ.
+  - osis: Col
+    texts:
+      - કલોસ્સીઓ પત્રો
+      - કલો.
+  - osis: Gal
+    texts:
+      - ગલાતિઓ પત્રો
+      - ગલા.
+  - osis: Eph
+    texts:
+      - એફેસીઓ પત્રો
+      - એફે.
+  - osis: Phil
+    texts:
+      - ફિલિપ્પીઓ પત્રો
+      - ફીલી.
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - થેસ્સલોનિકીઓ પત્રો
+      - થેસ.
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - થેસ્સલોનિકા પત્રો
+      - થેસ.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - તિમોથી પત્રો
+      - તિમ.
+  - osis: Titus
+    texts:
+      - તિતસ પત્રો
+      - તિતુ.
+  - osis: Phlm
+    texts:
+      - ફિલેમોનુલે પત્રો
+      - ફિલેમોનુ પત્રો
+  - osis: Heb
+    texts:
+      - હિબ્રૂઓને પત્રો
+      - હિબ્ર.
+  - osis: Jas
+    texts:
+      - યાકુબુ પત્રો
+      - યાકુ.
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - પિત્તરુ પત્રો
+  - osis: 1Pet
+    texts:
+      - 1પિત.
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - પિત્તર પત્રો
+      - પિત.
+  - osis: Jude
+    texts:
+      - યહુદાનો પત્રો
+      - યહુ.
+translations:
+  - DUBNT

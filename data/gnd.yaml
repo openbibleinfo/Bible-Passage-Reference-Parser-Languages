@@ -1,0 +1,108 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Sunwa Yuhana
+      - Sunwa Yuh
+  - osis: Matt
+    texts:
+      - Mata
+  - osis: Mark
+    texts:
+      - Markus
+  - osis: Luke
+    texts:
+      - Luka
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yuhana
+      - Yuh
+  - osis: John
+    texts:
+      - Yuhana
+  - osis: Acts
+    texts:
+      - Gà Ɓəzla Meslire
+      - ɓəzla M
+  - osis: Rom
+    texts:
+      - Ruma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kurintiya
+      - Kur
+  - osis: Col
+    texts:
+      - Kulusiya
+      - Kulus
+  - osis: Gal
+    texts:
+      - Galatiya
+      - Galat
+  - osis: Eph
+    texts:
+      - Efesiya
+      - Efes
+  - osis: Phil
+    texts:
+      - Filipiya
+      - Filip
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalunike
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timute
+      - Tim
+  - osis: Titus
+    texts:
+      - Titus
+  - osis: Phlm
+    texts:
+      - Filimun
+      - Filim
+  - osis: Heb
+    texts:
+      - Ibəranikwa
+      - Ibər
+  - osis: Jas
+    texts:
+      - Yakuba
+      - Zakup
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piyer
+  - osis: Jude
+    texts:
+      - Yuda
+translations:
+  - GND

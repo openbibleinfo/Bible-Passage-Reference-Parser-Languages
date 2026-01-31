@@ -1,0 +1,1091 @@
+default:
+  1Chr:
+    long: 1 Mambo ya Nyakati
+    short: 1 Nya
+  1Cor:
+    long: 1 Wakorintho
+    short: 1 Kor
+  1John:
+    long: 1 Yohana
+    short: 1 Yoh
+  1Kgs:
+    long: 1 Wafalme
+    short: 1 Fal
+  1Macc:
+    long: 1 Wamakabayo
+    short: 1 Mak
+  1Pet:
+    long: 1 Petro
+    short: 1 Pet
+  1Sam:
+    long: 1 Samweli
+    short: 1 Sam
+  1Thess:
+    long: 1 Wathesalonike
+    short: 1 The
+  1Tim:
+    long: 1 Timotheo
+    short: 1 Tim
+  2Chr:
+    long: 2 Mambo ya Nyakati
+    short: 2 Nya
+  2Cor:
+    long: 2 Wakorintho
+    short: 2 Kor
+  2John:
+    long: 2 Yohana
+    short: 2 Yoh
+  2Kgs:
+    long: 2 Wafalme
+    short: 2 Fal
+  2Macc:
+    long: 2 Wamakabayo
+    short: 2 Mak
+  2Pet:
+    long: 2 Petro
+    short: 2 Pet
+  2Sam:
+    long: 2 Samweli
+    short: 2 Sam
+  2Thess:
+    long: 2 Wathesalonike
+    short: 2 The
+  2Tim:
+    long: 2 Timotheo
+    short: 2 Tim
+  3John:
+    long: 3 Yohana
+    short: 3 Yoh
+  Acts:
+    long: Matendo
+    short: Mdo
+  Amos:
+    long: Amosi
+    short: Amo
+  Bar:
+    long: Baruku
+    short: Bar
+  Bel:
+    long: Danieli na Joka
+    short: Bejo
+  Col:
+    long: Wakolosai
+    short: Kol
+  Dan:
+    long: Danieli
+    short: Dan
+  DanGr:
+    long: Danieli
+  Deut:
+    long: Kumbukumbu
+    short: Kum
+  Eccl:
+    long: Mhubiri
+    short: Mhu
+  EpJer:
+    long: Barua ya Yeremia
+    short: BarYer
+  Eph:
+    long: Waefeso
+    short: Efe
+  Esth:
+    long: Esta
+    short: Es
+  EsthGr:
+    long: Esta
+    short: EsG
+  Exod:
+    long: Kutoka
+    short: Kut
+  Ezek:
+    long: Ezekieli
+    short: Eze
+  Ezra:
+    long: Ezra
+    short: Ezr
+  Gal:
+    long: Wagalatia
+    short: Gal
+  Gen:
+    long: Mwanzo
+    short: Mwa
+  Hab:
+    long: Habakuki
+    short: Hab
+  Hag:
+    long: Hagai
+    short: Hag
+  Heb:
+    long: Waebrania
+    short: Ebr
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Isaya
+    short: Isa
+  Jas:
+    long: Yakobo
+    short: Yak
+  Jdt:
+    long: Yudithi
+    short: Ydt
+  Jer:
+    long: Yeremia
+    short: Yer
+  Job:
+    long: Ayubu
+    short: Ay
+  Joel:
+    long: Yoeli
+    short: Yoe
+  John:
+    long: Yohana
+    short: Yn
+  Jonah:
+    long: Yona
+    short: Yon
+  Josh:
+    long: Yoshua
+    short: Yos
+  Jude:
+    long: Yuda
+    short: Yud
+  Judg:
+    long: Waamuzi
+    short: Amu
+  Lam:
+    long: Maombolezo
+    short: Omb
+  Lev:
+    long: Walawi
+    short: Law
+  Luke:
+    long: Luka
+    short: Lk
+  Mal:
+    long: Malaki
+    short: Mal
+  Mark:
+    long: Marko
+    short: Mk
+  Matt:
+    long: Mathayo
+    short: Mt
+  Mic:
+    long: Mika
+    short: MiK
+  Nah:
+    long: Nahumu
+    short: Nah
+  Neh:
+    long: Nehemia
+    short: Neh
+  Num:
+    long: Hesabu
+    short: Hes
+  Obad:
+    long: Obadia
+    short: Oba
+  Phil:
+    long: waFilipi
+    short: Flp
+  Phlm:
+    long: Filemoni
+    short: Flm
+  PrAzar:
+    long: Sala ya Azaria
+    short: SaAza
+  Prov:
+    long: Mithali
+    short: Mit
+  Ps:
+    long: Zaburi
+    short: Zab
+  Rev:
+    long: Ufunuo
+    short: Ufu
+  Rom:
+    long: Warumi
+    short: Rum
+  Ruth:
+    long: Ruthu
+    short: Rut
+  Sir:
+    long: Sira
+    short: Sira
+  Song:
+    long: Wimbo Ulio Bora
+    short: Wim
+  Sus:
+    long: Susana
+    short: Sus
+  Titus:
+    long: Tito
+    short: Tit
+  Tob:
+    long: Tobiti
+    short: Tob
+  Wis:
+    long: Hekima ya Solomoni
+    short: Hek
+  Zech:
+    long: Zekaria
+    short: Zek
+  Zeph:
+    long: Sefania
+    short: Sef
+translations:
+  srb37:
+    1Chr:
+      long: 1 Mambo
+      short: 1 Mambo
+    1Cor:
+      long: 1 Wakorinto
+      short: 1 Kor.
+    1John:
+      short: 1 Yoh.
+    1Kgs:
+      short: 1 Fal.
+    1Pet:
+      long: 1 Petero
+      short: 1 Petr.
+    1Sam:
+      short: 1 Sam.
+    1Thess:
+      long: 1 Watesalonike
+      short: 1 Tes.
+    1Tim:
+      long: 1 Timoteo
+      short: 1 Tim.
+    2Chr:
+      long: 2 Mambo
+      short: 2 Mambo
+    2Cor:
+      long: 2 Wakorinto
+      short: 2 Kor.
+    2John:
+      short: 2 Yoh.
+    2Kgs:
+      short: 2 Fal.
+    2Pet:
+      long: 2 Petero
+      short: 2 Petr.
+    2Sam:
+      short: 2 Sam.
+    2Thess:
+      long: 2 Watesalonike
+      short: 2 Tes.
+    2Tim:
+      long: 2 Timoteo
+      short: 2 Tim.
+    3John:
+      short: 3 Yoh.
+    Acts:
+      long: Matendo ya Mitume
+      short: Tume.
+    Amos:
+      short: Amo.
+    Col:
+      long: Wakolose
+      short: Kol.
+    Dan:
+      short: Dan.
+    Deut:
+      long: 5 Mose
+      short: 5 Mose
+    Eccl:
+      long: Mpiga mbiu
+      short: Mbiu.
+    Eph:
+      short: Ef.
+    Esth:
+      long: Esteri
+      short: Est.
+    Exod:
+      long: 2 Mose
+      short: 2 Mose
+    Ezek:
+      short: Ez.
+    Ezra:
+      long: Ezera
+      short: Ezr.
+    Gal:
+      short: Gal.
+    Gen:
+      long: 1 Mose
+      short: 1 Mose
+    Hab:
+      short: Hab.
+    Hag:
+      short: Hag.
+    Heb:
+      long: Waebureo
+      short: Ebr.
+    Hos:
+      short: Hos.
+    Isa:
+      long: Yesaya
+      short: Yes.
+    Jas:
+      short: Yak.
+    Jer:
+      short: Yer.
+    Job:
+      long: Iyobu
+      short: Iy.
+    Joel:
+      short: Yoe.
+    John:
+      short: Yoh.
+    Jonah:
+      short: Yona
+    Josh:
+      long: Yosua
+      short: Yos.
+    Jude:
+      short: Yuda
+    Judg:
+      short: Amu.
+    Lam:
+      short: Omb.
+    Lev:
+      long: 3 Mose
+      short: 3 Mose
+    Luke:
+      short: Luk.
+    Mal:
+      short: Mal.
+    Mark:
+      short: Mar.
+    Matt:
+      long: Mateo
+      short: Mat.
+    Mic:
+      short: Mika
+    Nah:
+      short: Nah.
+    Neh:
+      short: Neh.
+    Num:
+      long: 4 Mose
+      short: 4 Mose
+    Obad:
+      short: Oba.
+    Phil:
+      short: Fil.
+    Phlm:
+      short: File.
+    Prov:
+      long: Mifano
+      short: Fano.
+    Ps:
+      long: Mashangilio
+      short: Sh.
+    Rev:
+      short: Ufu.
+    Rom:
+      long: waRoma
+      short: Rom.
+    Ruth:
+      long: Ruti
+      short: Ruti
+    Song:
+      long: Wimbo mkuu
+      short: Imbo.
+    Titus:
+      short: Tit.
+    Zech:
+      long: Zakaria
+      short: Zak.
+    Zeph:
+      short: Sef.
+  bhnd:
+    1Chr:
+      short: 1 Mambo ya Nyakati
+    1John:
+      long: 1 Yohane
+    1Kgs:
+      short: 1 Wafalme
+    1Sam:
+      long: 1 Samueli
+      short: 1 Samueli
+    1Thess:
+      short: 1 Thes
+    2Chr:
+      short: 2 Mambo ya Nyakati
+    2John:
+      long: 2 Yohane
+    2Sam:
+      long: 2 Samueli
+      short: 2 Samueli
+    2Thess:
+      short: 2 Thes
+    3John:
+      long: 3 Yohane
+    Acts:
+      short: Mate
+    Bel:
+      long: Danieli na Makuhani wa Beli
+    Deut:
+      long: Kumbukumbu la Sheria
+      short: Kumb
+    Esth:
+      short: Esta
+    EsthGr:
+      short: Esta
+    Ezra:
+      short: Ezra
+    Gal:
+      short: Wagalatia
+    Jdt:
+      short: Yud
+    Job:
+      long: Yobu
+      short: Yobu
+    John:
+      long: Yohane
+      short: Yoh
+    Jonah:
+      short: Yona
+    Lam:
+      short: Maombolezo
+    Luke:
+      short: Luka
+    Mark:
+      short: Marko
+    Matt:
+      short: Mat
+    Mic:
+      short: Mika
+    Phil:
+      short: Fil
+    Phlm:
+      short: File
+    PrAzar:
+      long: Wimbo wa Vijana
+      short: WimVij
+    Prov:
+      long: Methali
+      short: Meth
+    Rom:
+      long: waRoma
+      short: waRoma
+    Titus:
+      short: Tito
+  scldc10:
+    1Chr:
+      long: 1 Nya
+    1John:
+      long: 1 Yohane
+    1Kgs:
+      long: 1 Fal
+    1Sam:
+      long: 1 Sam
+    1Thess:
+      short: 1 Thes
+    2Chr:
+      long: 2 Nya
+    2John:
+      long: 2 Yohane
+    2Sam:
+      long: 2 Sam
+    2Thess:
+      short: 2 Thes
+    3John:
+      long: 3 Yohane
+    Acts:
+      short: Mate
+    Deut:
+      long: Kumbukumbu la Sheria
+      short: Kumb
+    Ezra:
+      short: Ezra
+    Gal:
+      long: Gal
+    Jdt:
+      short: Yudi
+    Job:
+      long: Yobu
+      short: Yobu
+    John:
+      long: Yohane
+      short: Yoh
+    Jonah:
+      short: Yona
+    Josh:
+      short: Yosh
+    Lam:
+      long: Omb
+    Lev:
+      short: Lawi
+    Luke:
+      short: Luka
+    Mark:
+      short: Marko
+    Matt:
+      short: Mat
+    Mic:
+      short: Mika
+    Phil:
+      short: Fil
+    Phlm:
+      short: File
+    Prov:
+      long: Methali
+      short: Meth
+    Rom:
+      long: Rom
+      short: Rom
+    Titus:
+      short: Tito
+  suv:
+    1Chr:
+      long: 1 Nya
+    1Cor:
+      long: 1 Kor
+    1John:
+      long: 1 Yoh
+    1Kgs:
+      long: 1 Fal
+    1Pet:
+      long: 1 Pet
+    1Sam:
+      long: 1 Sam
+    1Thess:
+      long: 1 The
+    1Tim:
+      long: 1 Tim
+    2Chr:
+      long: 2 Nya
+    2Cor:
+      long: 2 Kor
+    2John:
+      long: 2 Yoh
+    2Kgs:
+      long: 2 Fal
+    2Pet:
+      long: 2 Pet
+    2Sam:
+      long: 2 Sam
+    2Thess:
+      long: 2 The
+    2Tim:
+      long: 2 Tim
+    3John:
+      long: 3 Yoh
+    Acts:
+      long: Mdo
+    Amos:
+      long: Amo
+    Col:
+      long: Kol
+    Dan:
+      long: Dan
+    Deut:
+      long: Kum
+    Eccl:
+      long: Mhu
+    Eph:
+      long: Efe
+    Esth:
+      long: Est
+    Exod:
+      long: Kut
+    Ezek:
+      long: Eze
+    Ezra:
+      long: Ezr
+    Gal:
+      long: Gal
+    Gen:
+      long: Mwa
+    Hab:
+      long: Hab
+    Hag:
+      long: Hag
+    Heb:
+      long: Ebr
+    Hos:
+      long: Hos
+    Isa:
+      long: Isa
+    Jas:
+      long: Yak
+    Jer:
+      long: Yer
+    Job:
+      long: Ayu
+    Joel:
+      long: Yoe
+    John:
+      long: Yn
+    Jonah:
+      long: Yon
+    Josh:
+      long: Yos
+    Jude:
+      long: Yud
+    Judg:
+      long: Amu
+    Lam:
+      long: Omb
+    Lev:
+      long: Law
+    Luke:
+      long: Lk
+    Mal:
+      long: Mal
+    Mark:
+      long: Mk
+    Matt:
+      long: Mt
+    Mic:
+      long: MiK
+    Nah:
+      long: Nah
+    Neh:
+      long: Neh
+    Num:
+      long: Hes
+    Obad:
+      long: Oba
+    Phil:
+      long: Flp
+    Phlm:
+      long: Flm
+    Prov:
+      long: Mit
+    Ps:
+      long: Zab
+    Rev:
+      long: Ufu
+    Rom:
+      long: Rum
+    Ruth:
+      long: Rut
+    Song:
+      long: Wim
+    Titus:
+      long: Tit
+    Zech:
+      long: Zek
+    Zeph:
+      long: Sef
+  onmm24:
+    1Chr:
+      long: 1 Nyakati
+      short: 1Nya
+    1Cor:
+      short: 1Kor
+    1John:
+      short: 1Yn
+    1Kgs:
+      short: 1Fal
+    1Pet:
+      short: 1Pet
+    1Sam:
+      short: 1Sam
+    1Thess:
+      short: 1The
+    1Tim:
+      short: 1Tim
+    2Chr:
+      long: 2 Nyakati
+      short: 2Nya
+    2Cor:
+      short: 2Kor
+    2John:
+      short: 2Yn
+    2Kgs:
+      short: 2Fal
+    2Pet:
+      short: 2Pet
+    2Sam:
+      short: 2Sam
+    2Thess:
+      short: 2The
+    2Tim:
+      short: 2Tim
+    3John:
+      short: 3Yn
+    Lam:
+      short: Mao
+    Ps:
+      short: Za
+    Song:
+      long: Wimbo
+  nen:
+    1Chr:
+      long: 1 Nyakati
+      short: 1Nya
+    1Cor:
+      short: 1Kor
+    1John:
+      short: 1Yn
+    1Kgs:
+      short: 1Fal
+    1Pet:
+      short: 1Pet
+    1Sam:
+      short: 1Sam
+    1Thess:
+      short: 1The
+    1Tim:
+      short: 1Tim
+    2Chr:
+      long: 2 Nyakati
+      short: 2Nya
+    2Cor:
+      short: 2Kor
+    2John:
+      short: 2Yn
+    2Kgs:
+      short: 2Fal
+    2Pet:
+      short: 2Pet
+    2Sam:
+      short: 2Sam
+    2Thess:
+      short: 2The
+    2Tim:
+      short: 2Tim
+    3John:
+      short: 3Yn
+    Lam:
+      short: Mao
+    Ps:
+      short: Za
+    Song:
+      long: Wimbo
+  nmm:
+    1Chr:
+      long: 1 Nyakati
+      short: 1Nya
+    1Cor:
+      short: 1Kor
+    1John:
+      short: 1Yn
+    1Kgs:
+      short: 1Fal
+    1Pet:
+      short: 1Pet
+    1Sam:
+      short: 1Sam
+    1Thess:
+      short: 1The
+    1Tim:
+      short: 1Tim
+    2Chr:
+      long: 2 Nyakati
+      short: 2Nya
+    2Cor:
+      short: 2Kor
+    2John:
+      short: 2Yn
+    2Kgs:
+      short: 2Fal
+    2Pet:
+      short: 2Pet
+    2Sam:
+      short: 2Sam
+    2Thess:
+      short: 2The
+    2Tim:
+      short: 2Tim
+    3John:
+      short: 3Yn
+    Lam:
+      short: Mao
+    Ps:
+      short: Za
+    Song:
+      long: Wimbo
+  nmm24:
+    1Chr:
+      long: 1 Nyakati
+      short: 1Nya
+    1Cor:
+      short: 1Kor
+    1John:
+      short: 1Yn
+    1Kgs:
+      short: 1Fal
+    1Pet:
+      short: 1Pet
+    1Sam:
+      short: 1Sam
+    1Thess:
+      short: 1The
+    1Tim:
+      short: 1Tim
+    2Chr:
+      long: 2 Nyakati
+      short: 2Nya
+    2Cor:
+      short: 2Kor
+    2John:
+      short: 2Yn
+    2Kgs:
+      short: 2Fal
+    2Pet:
+      short: 2Pet
+    2Sam:
+      short: 2Sam
+    2Thess:
+      short: 2The
+    2Tim:
+      short: 2Tim
+    3John:
+      short: 3Yn
+    Lam:
+      short: Mao
+    Ps:
+      short: Za
+    Song:
+      long: Wimbo
+  swzzb1921:
+    1Cor:
+      short: 1 Wakorintho
+    1John:
+      short: 1 Yohana
+    1Pet:
+      short: 1 Petro
+    1Thess:
+      long: 1 Wathessaloniki
+      short: 1 Wathessaloniki
+    1Tim:
+      short: 1 Timotheo
+    2Cor:
+      short: 2 Wakorintho
+    2John:
+      short: 2 Yohana
+    2Pet:
+      short: 2 Petro
+    2Thess:
+      long: 2 Wathessaloniki
+      short: 2 Wathessaloniki
+    2Tim:
+      short: 2 Timotheo
+    3John:
+      short: 3 Yohana
+    Acts:
+      short: Matendo
+    Col:
+      long: Wakolossai
+      short: Wakolossai
+    Eph:
+      short: Waefeso
+    Gal:
+      short: Wagalatia
+    Heb:
+      short: Waebrania
+    Jas:
+      short: Yakobo
+    John:
+      long: Yohana Mt.
+      short: Yohana Mt.
+    Jude:
+      short: Yuda
+    Luke:
+      long: Luka Mt.
+      short: Luka Mt.
+    Mark:
+      long: Marko Mt.
+      short: Marko Mt.
+    Matt:
+      long: Mattayo Mt.
+    Phil:
+      short: waFilipi
+    Phlm:
+      long: Filemon
+      short: Filemon
+    Rev:
+      short: Ufunuo
+    Rom:
+      short: Warumi
+    Titus:
+      short: Tito
+  bhn:
+    1John:
+      long: 1 Yohane
+    1Sam:
+      long: 1 Samueli
+    1Thess:
+      short: 1 Thes
+    2John:
+      long: 2 Yohane
+    2Sam:
+      long: 2 Samueli
+    2Thess:
+      short: 2 Thes
+    3John:
+      long: 3 Yohane
+    Acts:
+      short: Mate
+    Deut:
+      long: Kumbukumbu la Sheria
+      short: Kumb
+    Esth:
+      short: Esta
+    Ezra:
+      short: Ezra
+    Job:
+      long: Yobu
+      short: Yobu
+    John:
+      long: Yohane
+      short: Yoh
+    Jonah:
+      short: Yona
+    Luke:
+      short: Luka
+    Mark:
+      short: Marko
+    Matt:
+      short: Mat
+    Mic:
+      short: Mika
+    Phil:
+      short: Fil
+    Phlm:
+      short: File
+    Prov:
+      long: Methali
+      short: Meth
+    Rom:
+      long: waRoma
+    Titus:
+      short: Tito
+  bhntlk:
+    1John:
+      long: 1 Yohane
+    1Sam:
+      long: 1 Samueli
+    1Thess:
+      short: 1 Thes
+    2John:
+      long: 2 Yohane
+    2Sam:
+      long: 2 Samueli
+    2Thess:
+      short: 2 Thes
+    3John:
+      long: 3 Yohane
+    Acts:
+      short: Mate
+    Deut:
+      long: Kumbukumbu la Sheria
+      short: Kumb
+    Esth:
+      short: Esta
+    EsthGr:
+      long: Esta G
+      short: EstG
+    Ezra:
+      short: Ezra
+    Jdt:
+      short: Yudi
+    Job:
+      long: Yobu
+      short: Yobu
+    John:
+      long: Yohane
+      short: Yoh
+    Jonah:
+      short: Yona
+    Lev:
+      short: Lawi
+    Luke:
+      short: Luka
+    Mark:
+      short: Marko
+    Matt:
+      short: Mat
+    Mic:
+      short: Mika
+    Phil:
+      short: Fil
+    Phlm:
+      short: File
+    Prov:
+      long: Methali
+      short: Meth
+    Ps:
+      short: Zaburi
+    Rom:
+      long: waRoma
+      short: Rom
+    Titus:
+      short: Tito
+  rsuvdc:
+    1John:
+      long: 1Yohana
+    1Pet:
+      long: 1Petro
+    1Sam:
+      long: 1Samweli
+    1Tim:
+      long: 1Timotheo
+    2John:
+      long: 2Yohana
+    2Pet:
+      long: 2Petro
+    2Sam:
+      long: 2Samweli
+    2Tim:
+      long: 2Timotheo
+    3John:
+      long: 3Yohana
+    Deut:
+      long: Kumbukumbu la Torati
+    EsthGr:
+      long: Esta (Gir)
+      short: Est (Gir)
+    Heb:
+      long: Waraka kwa Waebrania
+    Job:
+      short: Ayu
+    Lev:
+      long: Mambo ya Walawi
+    Sir:
+      long: Yoshua Mwana wa Sira
+    Wis:
+      long: Hekima ya
+  sruvdc:
+    Bel:
+      short: DaJok
+    Deut:
+      long: Kumbukumbu la Torati
+    EpJer:
+      long: WaYer
+      short: WaYer
+    Esth:
+      short: Est
+    EsthGr:
+      long: Estk
+      short: Estk
+    Heb:
+      long: Waraka kwa Waebrania
+    Job:
+      short: Ayu
+    Lev:
+      long: Mambo ya Walawi
+    Sir:
+      long: Yoshua Mwana wa Sira
+    Wis:
+      long: Hekima ya Sulemani
+  sruv:
+    Deut:
+      long: Kumbukumbu la Torati
+    Esth:
+      short: Est
+    Heb:
+      long: Waraka kwa Waebrania
+    Job:
+      short: Ayu
+    Lev:
+      long: Mambo ya Walawi
+  tku:
+    John:
+      short: Yh

@@ -1,0 +1,99 @@
+variables:
+  first: &first
+    - 1
+  second: &second
+    - 2
+  third: &third
+    - 3
+books:
+  - osis: Rev
+    texts:
+      - ሳጻ
+  - osis: Matt
+    texts:
+      - ማ̈ቶ̈ሳ
+      - ማ̈ቶ̈
+  - osis: Mark
+    texts:
+      - ማ̈ርቆ̈ሳ
+      - ማ̈ር
+  - osis: Luke
+    texts:
+      - ሉቃ̈ሳ
+      - ሉቃ̈
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - ዋ̈ኒ̇
+  - osis: John
+    texts:
+      - ዋ̈ኒ̇ሳ
+      - ዋ̈ኒ̇
+  - osis: Acts
+    texts:
+      - ሃዋ̈
+  - osis: Rom
+    texts:
+      - ሮሜ
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - ቆሮ
+  - osis: Col
+    texts:
+      - ቆላ̈
+  - osis: Gal
+    texts:
+      - ጋላ̈
+  - osis: Eph
+    texts:
+      - ኤፍ
+  - osis: Phil
+    texts:
+      - ፊል
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - ታሳ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - ጢማ̈
+  - osis: Titus
+    texts:
+      - ቲ̈ታ̇
+  - osis: Phlm
+    texts:
+      - ፊልሞ̈ና
+  - osis: Heb
+    texts:
+      - ኢብ
+  - osis: Jas
+    texts:
+      - ዓይ
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - ጴጥ
+  - osis: Jude
+    texts:
+      - ዪሁ
+translations:
+  - BASNT

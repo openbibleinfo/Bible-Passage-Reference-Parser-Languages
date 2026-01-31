@@ -1,0 +1,184 @@
+default:
+  1Cor:
+    long: 1 Korintus
+    short: 1 Kor
+  1John:
+    long: 1 Yohanis
+    short: 1 Joannes
+  1Pet:
+    long: 1 Petrus
+    short: 1 Petrus
+  1Thess:
+    long: 1 Tesalonika
+    short: 1 Thess
+  1Tim:
+    long: 1 Timotius
+    short: 1 Tim
+  2Cor:
+    long: 2 Korintus
+    short: 2 Kor
+  2John:
+    long: 2 Yohanis
+    short: 2 Joannes
+  2Pet:
+    long: 2 Petrus
+    short: 2 Petrus
+  2Thess:
+    long: 2 Tesalonika
+    short: 2 Thess
+  2Tim:
+    long: 2 Timotius
+    short: 2 Tim
+  3John:
+    long: 3 Yohanis
+    short: 3 Joannes
+  Acts:
+    long: Perbowatan Rasul‐rasul
+    short: Perb
+  Col:
+    long: Kapada awrang Kolossa
+    short: Kol
+  Eph:
+    long: Efesus
+    short: Efes
+  Gal:
+    long: Galatia
+    short: Gal
+  Heb:
+    long: Ibrani
+    short: Ibr
+  Jas:
+    long: Surat Jakobus
+    short: Jakobus
+  John:
+    long: Indjil Joannes
+    short: Joannes
+  Jude:
+    long: Surat Judas
+    short: Judas
+  Luke:
+    long: Indjil Lukas
+    short: Luk
+  Mark:
+    long: Indjil Markus
+    short: Mar
+  Matt:
+    long: Indjil Mattheus
+    short: Mat
+  Phil:
+    long: Filipi
+    short: Filippi
+  Phlm:
+    long: Filemon
+    short: Filémon
+  Rev:
+    long: "Apokalipsis Joannes, ija itu: Kanjataän rahasija (ataw Wahhju Jahhja.)"
+    short: Apokalipsis
+  Rom:
+    long: Kapada awrang Rawma
+    short: Rawma
+  Titus:
+    long: Kapada Titus
+    short: Tit
+translations:
+  absabma:
+    1Cor:
+      short: 1Kor
+    1John:
+      short: 1Yoh
+    1Pet:
+      short: 1Ptr
+    1Thess:
+      short: 1Tes
+    1Tim:
+      short: 1Tim
+    2Cor:
+      short: 2Kor
+    2John:
+      short: 2Yoh
+    2Pet:
+      short: 2Ptr
+    2Thess:
+      short: 2Tes
+    2Tim:
+      short: 2Tim
+    3John:
+      short: 3Yoh
+    Acts:
+      long: Utusang pung Carita
+      short: Upc
+    Col:
+      long: Kolose
+    Eph:
+      short: Efs
+    Jas:
+      long: Yakobis
+      short: Yak
+    John:
+      long: Yohanis
+      short: Yoh
+    Jude:
+      long: Yudas
+      short: Yud
+    Luke:
+      long: Lukas
+    Mark:
+      long: Markus
+    Matt:
+      long: Matius
+    Phil:
+      short: Flp
+    Phlm:
+      short: Flm
+    Rev:
+      long: Yohanis Dapa Tanda
+      short: Ydt
+    Rom:
+      long: Roma
+      short: Rom
+    Titus:
+      long: Titus
+  absnt:
+    1Cor:
+      long: Kapada awrang Korinthus, jang pertama
+    1John:
+      long: Surat Joannes, jang pertama
+    1Pet:
+      long: Surat Petrus, jang pertama
+    1Thess:
+      long: Kapada awrang Thessalonike, jang pertama
+    1Tim:
+      long: Kapada Timotheus, jang pertama
+    2Cor:
+      long: Kapada awrang Korinthus, jang kaduwa
+    2John:
+      long: Surat Joannes, jang kaduwa
+    2Pet:
+      long: Surat Petrus, jang kaduwa
+    2Thess:
+      long: Kapada awrang Thessalonike, jang kaduwa
+    2Tim:
+      long: Kapada Timotheus, jang kaduwa
+    3John:
+      long: Surat Joannes, jang katiga
+    Col:
+      short: Kolossa
+    Eph:
+      long: Kapada awrang Efesus
+    Gal:
+      long: Kapada awrang Galatia
+    Heb:
+      long: Kapada awrang Ibrani
+      short: Ibrani
+    Luke:
+      short: Lukas
+    Mark:
+      short: Markus
+    Matt:
+      short: Matt
+    Phil:
+      long: Kapada awrang Filippi
+    Phlm:
+      long: Kapada Filémon
+    Titus:
+      short: Titus

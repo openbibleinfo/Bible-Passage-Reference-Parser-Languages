@@ -1,0 +1,115 @@
+variables:
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Ugubulo
+      - Ugub
+  - osis: Matt
+    texts:
+      - Matayo
+      - Mata
+  - osis: Mark
+    texts:
+      - Maliko
+      - Mal
+  - osis: Luke
+    texts:
+      - Luka
+  - osis: 1John
+    texts:
+      - 1Yohana
+      - 1Yoha
+  - osis: 2John
+    texts:
+      - 2Yohana
+      - 2Yoha
+  - osis: 3John
+    texts:
+      - 3Yohana
+      - 3Yoha
+  - osis: John
+    texts:
+      - Yohana
+      - Yoha
+  - osis: Acts
+    texts:
+      - Imitendele
+      - Imit
+  - osis: Rom
+    texts:
+      - Walumi
+      - Walo
+  - osis: 1Cor
+    texts:
+      - 1Wakolinso
+      - 1Wako
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Wakolinso
+      - Wako
+  - osis: Col
+    texts:
+      - Wakolosai
+      - Wakol
+  - osis: Gal
+    texts:
+      - Wagalatia
+      - Wagal
+  - osis: Eph
+    texts:
+      - Waefeso
+      - Waef
+  - osis: Phil
+    texts:
+      - waFilipi
+      - Waf
+  - osis: 1Thess
+    texts:
+      - 1Wasesalonike
+      - 1Wase
+  - osis: 2Thess
+    texts:
+      - 2Wasesalonike
+      - 2Wase
+  - osis: 1Tim
+    texts:
+      - 1Timoseo
+      - 1Timo
+  - osis: 2Tim
+    texts:
+      - 2Timoseo
+      - 2Timo
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filemoni
+      - File
+  - osis: Heb
+    texts:
+      - Waibulania
+      - Waib
+  - osis: Jas
+    texts:
+      - Yakobo
+      - Yako
+  - osis: 1Pet
+    texts:
+      - 1 Petulo
+      - 1 Petu
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petulo
+      - Petu
+  - osis: Jude
+    texts:
+      - Yuda
+translations:
+  - NGBV

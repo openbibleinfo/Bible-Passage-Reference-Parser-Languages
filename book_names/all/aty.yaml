@@ -1,0 +1,292 @@
+- osis: Gen
+  texts:
+    - Jenesis
+    - Jen
+- osis: Exod
+  texts:
+    - Eksotus
+    - Eks
+- osis: Lev
+  texts:
+    - Levitikus
+    - Lev
+- osis: Num
+  texts:
+    - Numera
+    - Num
+- osis: Lam
+  texts:
+    - Niji tas taigtai
+    - Tas Taig Jer
+- osis: Rev
+  texts:
+    - Nitai ehvaig
+    - Ehv
+- osis: Deut
+  texts:
+    - Tyuteronome
+    - Tyu
+- osis: Josh
+  texts:
+    - Josua
+    - Jos
+- osis: Judg
+  texts:
+    - Ilpu Atimi Tas Alep
+    - Tas Alep
+- osis: Ruth
+  texts:
+    - Rud
+- osis: Isa
+  texts:
+    - Aiseya
+    - Aes
+- osis: 1Sam
+  texts:
+    - 1 Samuel
+    - 1 Sam
+    - 1. Samuel
+    - 1. Sam
+- osis: 2Sam
+  texts:
+    - 2 Samuel
+    - 2 Sam
+    - 2. Samuel
+    - 2. Sam
+- osis: 1Kgs
+  texts:
+    - 1 Ilpu Atimarid
+    - 1 Ilpu Ati
+    - 1. Ilpu Atimarid
+    - 1. Ilpu Ati
+- osis: 2Kgs
+  texts:
+    - 2 Ilpu Atimarid
+    - 2 Ilpu Ati
+    - 2. Ilpu Atimarid
+    - 2. Ilpu Ati
+- osis: 1Chr
+  texts:
+    - 1 Iji Tas Eled
+    - 1 Tas Eled
+    - 1. Iji Tas Eled
+    - 1. Tas Eled
+- osis: 2Chr
+  texts:
+    - 2 Niji Tas Eled
+    - 2 Tas Eled
+    - 2. Niji Tas Eled
+    - 2. Tas Eled
+- osis: Ezra
+  texts:
+    - Esra
+- osis: Neh
+  texts:
+    - Nihemaia
+    - Nih
+- osis: Esth
+  texts:
+    - Ester
+    - Est
+- osis: Job
+  texts:
+    - Job
+- osis: Ps
+  texts:
+    - Saam
+- osis: Prov
+  texts:
+    - Niji tas Arapakau
+    - Tas Arap
+- osis: Eccl
+  texts:
+    - Natimi Efehtas
+    - Natimi Efe
+- osis: Song
+  texts:
+    - Nohranitai U Solomon
+    - Nohran U Solo
+- osis: Jer
+  texts:
+    - Jeremaia
+    - Jer
+- osis: Ezek
+  texts:
+    - Esikiel
+    - Esi
+- osis: Dan
+  texts:
+    - Taniel
+    - Tan
+- osis: Hos
+  texts:
+    - Hosia
+    - Hos
+- osis: Joel
+  texts:
+    - Joel
+- osis: Amos
+  texts:
+    - Emos
+- osis: Obad
+  texts:
+    - Obataia
+    - Oba
+- osis: Jonah
+  texts:
+    - Jona
+    - Jon
+- osis: Mic
+  texts:
+    - Maika
+    - Mai
+- osis: Nah
+  texts:
+    - Nehum
+    - Neh
+- osis: Hab
+  texts:
+    - Habakuk
+    - Hab
+- osis: Zeph
+  texts:
+    - Sefanaia
+    - Sef
+- osis: Hag
+  texts:
+    - Haceai
+    - Hac
+- osis: Zech
+  texts:
+    - Sekaraia
+    - Sek
+- osis: Mal
+  texts:
+    - Malakai
+    - Mal
+- osis: Matt
+  texts:
+    - Madius
+    - Mad
+- osis: Mark
+  texts:
+    - Markus
+    - Mar
+- osis: Luke
+  texts:
+    - Lukas
+    - Luk
+- osis: 1John
+  texts:
+    - 1 Joanes
+    - 1 Jn
+    - 1. Joanes
+    - 1. Jn
+- osis: 2John
+  texts:
+    - 2 Joanes
+    - 2 Jn
+    - 2. Joanes
+    - 2. Jn
+- osis: 3John
+  texts:
+    - 3 Joanes
+    - 3 Jn
+    - 3. Joanes
+    - 3. Jn
+- osis: John
+  texts:
+    - Joanes
+    - Jn
+- osis: Acts
+  texts:
+    - Niji auritai o ilpu Apostolo
+    - Auri Apos
+- osis: Rom
+  texts:
+    - Nupu Roma
+    - Rom
+- osis: 1Cor
+  texts:
+    - 1 Nupu Korindus
+    - 1 Kor
+    - 1. Nupu Korindus
+    - 1. Kor
+- osis: 2Cor
+  texts:
+    - 2 Nupu Korindus
+    - 2 Kor
+    - 2. Nupu Korindus
+    - 2. Kor
+- osis: Col
+  texts:
+    - Nupu Kolose
+    - Kolo
+- osis: Gal
+  texts:
+    - Nupu Calesya
+    - Cal
+- osis: Eph
+  texts:
+    - Nupu Efesus
+    - Efes
+- osis: Phil
+  texts:
+    - Nupu Filipai
+    - Filip
+- osis: 1Thess
+  texts:
+    - 1 Nupu Desalonaika
+    - 1 Desal
+    - 1. Nupu Desalonaika
+    - 1. Desal
+- osis: 2Thess
+  texts:
+    - 2 Nupu Desalonaika
+    - 2 Desal
+    - 2. Nupu Desalonaika
+    - 2. Desal
+- osis: 1Tim
+  texts:
+    - 1 Timodeus
+    - 1 Tim
+    - 1. Timodeus
+    - 1. Tim
+- osis: 2Tim
+  texts:
+    - 2 Timodeus
+    - 2 Tim
+    - 2. Timodeus
+    - 2. Tim
+- osis: Titus
+  texts:
+    - Taitus
+    - Tai
+- osis: Phlm
+  texts:
+    - Filimon
+    - Fili
+- osis: Heb
+  texts:
+    - Ilpu Hibru
+    - Hib
+- osis: Jas
+  texts:
+    - Jakobus
+    - Jak
+- osis: 1Pet
+  texts:
+    - 1 Pitrus
+    - 1 Pit
+    - 1. Pitrus
+    - 1. Pit
+- osis: 2Pet
+  texts:
+    - 2 Pitrus
+    - 2 Pit
+    - 2. Pitrus
+    - 2. Pit
+- osis: Jude
+  texts:
+    - Juta
+    - Jut

@@ -1,0 +1,249 @@
+variables:
+  first: &first
+    - "1"
+    - ku-1
+  second: &second
+    - "2"
+    - ku-2
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - kuGenesisi
+      - Ugenesisi
+  - osis: Exod
+    texts:
+      - ku-Eksodusi
+      - U-Eksodusi
+  - osis: Lev
+    texts:
+      - kuLevitikusi|nakuLevitikusi
+      - Ulevitikusi
+  - osis: Num
+    texts:
+      - kuNumerina|kuNumeri
+      - Unumeri
+  - osis: Lam
+    texts:
+      - IsiLilo
+  - osis: Rev
+    texts:
+      - IsAmbulo
+  - osis: Deut
+    texts:
+      - kuDuteronomi|nakuDuteronomi
+      - Uduteronomi
+  - osis: Josh
+    texts:
+      - kuJotjhuwa|nezikuJotjhuwa
+      - Ujotjhuwa
+  - osis: Judg
+    texts:
+      - abaKhokheli|nakubaKhokheli
+      - Abakhokheli
+  - osis: Ruth
+    texts:
+      - kuRute
+      - uRute
+  - osis: Isa
+    texts:
+      - U-Isaya
+  - osis:
+      - osis: 1Sam
+        before: *first
+    texts:
+      - Samyela|naku-1 Samyela
+      - Usamyela
+  - osis:
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samyela|naku-2 Samyela
+      - Usamyela
+  - osis:
+      - osis: 1Kgs
+        before: *first
+    texts:
+      - amaKhosi|naku-1 amaKhosi
+      - Amakhosi
+  - osis:
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - amaKhosi|naku-2 amaKhosi
+      - Amakhosi
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - iinKronike
+      - Iinkronike
+  - osis: Ezra
+    texts:
+      - U-Ezra
+  - osis: Neh
+    texts:
+      - Unerhemiya
+  - osis: Esth
+    texts:
+      - ku-Esta
+      - U-Esta
+  - osis: Job
+    texts:
+      - kuJobho|nakuJobho
+      - Ujobho
+  - osis: Ps
+    texts:
+      - iRhubo|iRhubo|aseRhubeni|bekuliRhubo
+      - Amarhubo
+  - osis: Prov
+    texts:
+      - IzAga
+  - osis: Eccl
+    texts:
+      - Umtjhumayeli
+  - osis: Song
+    texts:
+      - Ingoma Yeengoma
+  - osis: Jer
+    texts:
+      - kuJoromiya
+      - Ujoromiya
+  - osis: Ezek
+    texts:
+      - Uhezekiyeli
+  - osis: Dan
+    texts:
+      - Udanyela
+  - osis: Hos
+    texts:
+      - kuHosiya
+      - Uhosiya
+  - osis: Joel
+    texts:
+      - Ujuweli
+  - osis: Amos
+    texts:
+      - U-Amosi
+  - osis: Obad
+    texts:
+      - U-Obadiya
+  - osis: Jonah
+    texts:
+      - uJona
+  - osis: Mic
+    texts:
+      - kuMikha
+      - Umikha
+  - osis: Nah
+    texts:
+      - Unarhume
+  - osis: Hab
+    texts:
+      - Urhabakhukhu
+  - osis: Zeph
+    texts:
+      - uZefaniya
+  - osis: Hag
+    texts:
+      - uHagayi
+  - osis: Zech
+    texts:
+      - kuZakariya
+      - Uzakariya
+  - osis: Mal
+    texts:
+      - uMalaki
+  - osis: Matt
+    texts:
+      - kuMatewu
+      - Umatewu
+  - osis: Mark
+    texts:
+      - Umarkosi
+  - osis: Luke
+    texts:
+      - Ulukasi
+      - kuLuka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Ujwanisi
+  - osis: Acts
+    texts:
+      - Izenzo Zabapostoli
+      - neZenzo
+  - osis: Rom
+    texts:
+      - Kweberoma
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Kwebekorinte
+      - KwebeKorinte
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kwebekorinte
+  - osis: Col
+    texts:
+      - Kwebekolose
+  - osis: Gal
+    texts:
+      - Kwebegalatiya
+  - osis: Eph
+    texts:
+      - Kwebe-efesu
+  - osis: Phil
+    texts:
+      - Kwebefilipi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Kwebethesalonika
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Uthimothi
+  - osis: Titus
+    texts:
+      - Utitosi
+  - osis: Phlm
+    texts:
+      - Ufilimoni
+  - osis: Heb
+    texts:
+      - KumaHebheru
+      - AmaHebheru
+  - osis: Jas
+    texts:
+      - Ujakopo
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Upitrosi
+  - osis: Jude
+    texts:
+      - uJuda
+translations:
+  - SND12

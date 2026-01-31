@@ -1,0 +1,116 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Pirayag
+      - Pir
+  - osis: Matt
+    texts:
+      - San Mateo
+      - Mat
+  - osis: Mark
+    texts:
+      - San Marcos
+      - Mar
+  - osis: Luke
+    texts:
+      - San Lucas
+      - Luc
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - San Juan
+      - Ju
+  - osis: John
+    texts:
+      - San Juan
+      - Jua
+  - osis: Acts
+    texts:
+      - Su Ngak Pimbaal
+      - Pim
+  - osis: Rom
+    texts:
+      - Roma
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corinto
+      - Co
+  - osis: Col
+    texts:
+      - Colosas
+      - Col
+  - osis: Gal
+    texts:
+      - Galacia
+      - Gal
+  - osis: Eph
+    texts:
+      - Efeso
+      - Efe
+  - osis: Phil
+    texts:
+      - Filipos
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonica
+      - Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+      - Ti
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemon
+      - Flm
+  - osis: Heb
+    texts:
+      - Hebreo
+      - Heb
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - San Pedro
+      - Pe
+  - osis: Jude
+    texts:
+      - San Judas
+      - Jud
+  - osis: Jas
+    texts:
+      - San Santiago
+      - San
+translations:
+  - STB

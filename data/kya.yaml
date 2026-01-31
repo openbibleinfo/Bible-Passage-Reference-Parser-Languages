@@ -1,0 +1,100 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Obhusomboorerwa
+  - osis: Matt
+    texts:
+      - Mataayo
+      - Mat
+  - osis: Mark
+    texts:
+      - Maariko
+      - Mrk
+  - osis: Luke
+    texts:
+      - Ruuka
+      - Ruk
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yowana
+  - osis: John
+    texts:
+      - Yowana
+      - Yow
+  - osis: Acts
+    texts:
+      - Ebhikorwa bhya Abhatumwa
+      - Ebhikorwa
+  - osis: Rom
+    texts:
+      - Abharuumi
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Abhakorinto
+  - osis: Col
+    texts:
+      - Abhakorosaayi
+  - osis: Gal
+    texts:
+      - Abhagaraatiya
+  - osis: Eph
+    texts:
+      - Abhaefeso
+  - osis: Phil
+    texts:
+      - Abhafiripi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Abhateesaroonike
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteeyo
+  - osis: Titus
+    texts:
+      - Tiito
+  - osis: Phlm
+    texts:
+      - Firimooni
+  - osis: Heb
+    texts:
+      - Abhaebhuraaniya
+  - osis: Jas
+    texts:
+      - Yakobho
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peetero
+  - osis: Jude
+    texts:
+      - Yuuda
+translations:
+  - KYA

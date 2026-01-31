@@ -1,0 +1,270 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Inṭanna
+      - Gen
+  - osis: Exod
+    texts:
+      - Fesuokna
+      - Ex
+  - osis: Lev
+    texts:
+      - Levi Dân
+      - Lev
+  - osis: Num
+    texts:
+      - Nambar
+      - Nam
+  - osis: Lam
+    texts:
+      - Ṭap Hla
+      - Ṭap
+  - osis: Rev
+    texts:
+      - Thuphuongsuo
+      - Thupuongsuo
+      - Tp
+  - osis: Deut
+    texts:
+      - Dân Pahnina
+      - Dt
+  - osis: Josh
+    texts:
+      - Josua
+      - Jos
+  - osis: Judg
+    texts:
+      - Roreltuhai
+      - Rt
+  - osis: Ruth
+    texts:
+      - Ruth
+  - osis: Isa
+    texts:
+      - Isai
+      - Is
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Lalhai
+      - Lal
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Chanchin Suina
+      - Chr
+  - osis: Ezra
+    texts:
+      - Ezra
+      - Ezr
+  - osis: Neh
+    texts:
+      - Nehemia
+      - Neh
+  - osis: Esth
+    texts:
+      - Esther
+      - Est
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Inpâkna Hla Bu
+      - Inpâkna Hlabu
+      - Sm
+  - osis: Prov
+    texts:
+      - Thuvarhai
+      - Tv
+  - osis: Eccl
+    texts:
+      - Thuhriltu
+      - Ttu
+  - osis: Song
+    texts:
+      - Hlahai Hla
+      - Hh
+  - osis: Jer
+    texts:
+      - Jeremia
+      - Jer
+  - osis: Ezek
+    texts:
+      - Ezekiel
+      - Ezek
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan
+  - osis: Hos
+    texts:
+      - Hosea
+      - Hos
+  - osis: Joel
+    texts:
+      - Joel
+  - osis: Amos
+    texts:
+      - Amos
+      - Am
+  - osis: Obad
+    texts:
+      - Obadia
+      - Ob
+  - osis: Jonah
+    texts:
+      - Jona
+      - Jon
+  - osis: Mic
+    texts:
+      - Mika
+      - MiK
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakkuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Zephania
+      - Zeph
+  - osis: Hag
+    texts:
+      - Haggai
+      - Hag
+  - osis: Zech
+    texts:
+      - Zekaria
+      - Zek
+  - osis: Mal
+    texts:
+      - Malaki
+      - Mal
+  - osis: Matt
+    texts:
+      - Matthai
+      - Mt
+  - osis: Mark
+    texts:
+      - Marka
+      - Mk
+  - osis: Luke
+    texts:
+      - Luka
+      - Lk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Johan
+      - Jn
+  - osis: Acts
+    texts:
+      - Thilthawhai
+      - Tt
+  - osis: Rom
+    texts:
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinth
+      - Kor
+  - osis: Col
+    texts:
+      - Kolossa
+      - Kol
+  - osis: Gal
+    texts:
+      - Galati
+      - Gal
+  - osis: Eph
+    texts:
+      - Ephesi
+      - Eph
+  - osis: Phil
+    texts:
+      - Philippi
+      - Phil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thessalonika
+      - Thes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothe
+      - Tim
+  - osis: Titus
+    texts:
+      - Tita
+      - Tit
+  - osis: Phlm
+    texts:
+      - Philemon
+      - Phlm
+  - osis: Heb
+    texts:
+      - Hebraihai
+      - Heb
+  - osis: Jas
+    texts:
+      - Jakob
+      - Jak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peter
+      - Pet
+  - osis: 2Pet
+    texts:
+      - Peter
+  - osis: Jude
+    texts:
+      - Juda
+translations:
+  - HMARCLBSI
+  - HMOVBSI

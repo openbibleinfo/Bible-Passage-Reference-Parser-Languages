@@ -1,0 +1,119 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Hawakalilame Komokomo
+      - Awokalilame Tanalo
+      - Awo
+      - Haw
+  - osis: Matt
+    texts:
+      - Ma꞉tiyu
+      - Ma꞉t
+  - osis: Mark
+    texts:
+      - Maka
+      - Mak
+  - osis: Luke
+    texts:
+      - Luku
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yone
+      - Yon
+  - osis: Acts
+    texts:
+      - Alibolepino Osiyodilole Tanalo
+      - Oelamepino Ododili Komokomo
+      - Ali
+      - Oel
+  - osis: Rom
+    texts:
+      - Loma
+      - Lom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kolini
+      - Kol
+  - osis: Col
+    texts:
+      - Kolosi
+      - Kol
+  - osis: Gal
+    texts:
+      - Galesiya
+      - Gal
+  - osis: Eph
+    texts:
+      - Epesese
+      - Epe
+  - osis: Phil
+    texts:
+      - Pilipai
+      - Pil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonaika
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+      - Tim
+  - osis: Titus
+    texts:
+      - Taitasi
+      - Tai
+  - osis: Phlm
+    texts:
+      - Pailimoni
+      - Pai
+  - osis: Heb
+    texts:
+      - Yu Epo
+      - Yunapi
+      - Yun
+  - osis: Jas
+    texts:
+      - Ya꞉imesi
+      - Ya꞉i
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+      - Pit
+  - osis: Jude
+    texts:
+      - Yuda
+      - Yud
+translations:
+  - KNVA
+  - KNVF

@@ -1,0 +1,102 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Yel
+  - osis: Matt
+    texts:
+      - Mat
+  - osis: Mark
+    texts:
+      - Mak
+  - osis: Luke
+    texts:
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Gyn
+  - osis: Acts
+    texts:
+      - Tom
+  - osis: Rom
+    texts:
+      - Uro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kor
+  - osis: Col
+    texts:
+      - Kolo
+      - Kol
+  - osis: Gal
+    texts:
+      - Gal
+  - osis: Eph
+    texts:
+      - Efe
+  - osis: Phil
+    texts:
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tɛs
+  - osis: 1Thess
+    texts:
+      - I Tesa
+  - osis: 2Thess
+    texts:
+      - II Tesa
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tim
+  - osis: Titus
+    texts:
+      - Tit
+  - osis: Phlm
+    texts:
+      - Fil
+      - Flm
+  - osis: Heb
+    texts:
+      - Hib
+  - osis: Jas
+    texts:
+      - Gyi
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pit
+  - osis: Jude
+    texts:
+      - Gyud
+      - Gyu
+translations:
+  - DNTTP

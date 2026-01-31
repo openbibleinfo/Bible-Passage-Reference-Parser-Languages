@@ -1,0 +1,391 @@
+- osis: Gen
+  texts:
+    - Iloowali
+    - Ilo.
+- osis: Exod
+  texts:
+    - Pilotimua̒ta
+    - Pilot.
+- osis: Lev
+  texts:
+    - Imaamati
+    - Im.
+- osis: Num
+  texts:
+    - Yia̒apo
+    - Yi.
+- osis: Lam
+  texts:
+    - Hiyongo Mopoilaalo Suusa
+    - Hi. Mo. Su.
+- osis: Rev
+  texts:
+    - Wah.
+    - Wahi
+- osis: Deut
+  texts:
+    - Tinguli
+    - Tin.
+- osis: Josh
+  texts:
+    - Yosua
+    - Yos.
+- osis: Judg
+  texts:
+    - Mongo Hakimu
+    - Mon. Hak.
+- osis: Ruth
+  texts:
+    - Rut
+- osis: Isa
+  texts:
+    - Yesaya
+    - Yes.
+- osis: 1Sam
+  texts:
+    - 1 Semuel
+    - 1 Sem.
+    - 1. Semuel
+    - 1. Sem.
+    - Boh. Semuel
+    - Boh. Sem.
+    - Bohulo Semuel
+    - Bohulo Sem.
+    - Bohulo. Semuel
+    - Bohulo. Sem.
+- osis: 2Sam
+  texts:
+    - 2 Lo Samuel
+    - 2 Sem.
+    - 2. Lo Samuel
+    - 2. Sem.
+    - Ol. Lo Samuel
+    - Ol. Sem.
+    - Oluo Lo Samuel
+    - Oluo Sem.
+    - Oluo. Lo Samuel
+    - Oluo. Sem.
+- osis: 1Kgs
+  texts:
+    - 1 Mongo Olongia
+    - 1 Mo. Ol.
+    - 1. Mongo Olongia
+    - 1. Mo. Ol.
+    - Boh. Mongo Olongia
+    - Boh. Mo. Ol.
+    - Bohulo Mongo Olongia
+    - Bohulo Mo. Ol.
+    - Bohulo. Mongo Olongia
+    - Bohulo. Mo. Ol.
+- osis: 2Kgs
+  texts:
+    - 2 Mongo Olongia
+    - 2 Mo. Ol.
+    - 2. Mongo Olongia
+    - 2. Mo. Ol.
+    - Ol. Mongo Olongia
+    - Ol. Mo. Ol.
+    - Oluo Mongo Olongia
+    - Oluo Mo. Ol.
+    - Oluo. Mongo Olongia
+    - Oluo. Mo. Ol.
+- osis: 1Chr
+  texts:
+    - 1 Tawari
+    - 1 Taw.
+    - 1. Tawari
+    - 1. Taw.
+    - Boh. Tawari
+    - Boh. Taw.
+    - Bohulo Tawari
+    - Bohulo Taw.
+    - Bohulo. Tawari
+    - Bohulo. Taw.
+- osis: 2Chr
+  texts:
+    - 2 Tawari
+    - 2 Taw.
+    - 2. Tawari
+    - 2. Taw.
+    - Ol. Tawari
+    - Ol. Taw.
+    - Oluo Tawari
+    - Oluo Taw.
+    - Oluo. Tawari
+    - Oluo. Taw.
+- osis: Ezra
+  texts:
+    - Esra
+    - Es.
+- osis: Neh
+  texts:
+    - Nehemia
+    - Neh.
+- osis: Esth
+  texts:
+    - Esteri
+    - Est.
+- osis: Job
+  texts:
+    - Ayuba
+    - Ay.
+- osis: Ps
+  texts:
+    - Jaburu
+    - Jab.
+- osis: Prov
+  texts:
+    - Pohumaya
+    - Poh.
+- osis: Eccl
+  texts:
+    - Tamoo-hutubawa
+    - Tamohut.
+- osis: Song
+  texts:
+    - Lahu Molamahu
+    - Lah. Mol.
+- osis: Jer
+  texts:
+    - Yeremia
+    - Yer.
+- osis: Ezek
+  texts:
+    - Yeheskiel
+    - Yeh.
+- osis: Dan
+  texts:
+    - Daniali
+    - Dan.
+- osis: Hos
+  texts:
+    - Hosea
+    - Hos.
+- osis: Joel
+  texts:
+    - Yoel
+    - Yl.
+- osis: Amos
+  texts:
+    - Amos
+    - Am.
+- osis: Obad
+  texts:
+    - Obaja
+    - Ob.
+- osis: Jonah
+  texts:
+    - Yun.
+    - Yunu
+- osis: Mic
+  texts:
+    - Mikha
+    - Mi.
+- osis: Nah
+  texts:
+    - Nahum
+    - Nah.
+- osis: Hab
+  texts:
+    - Habaku
+    - Hab.
+- osis: Zeph
+  texts:
+    - Jepanya
+    - Jep.
+- osis: Hag
+  texts:
+    - Hagai
+    - Hag.
+- osis: Zech
+  texts:
+    - Jakaria
+    - Jak.
+- osis: Mal
+  texts:
+    - Maleakhi
+    - Mal.
+- osis: Matt
+  texts:
+    - Matiusi
+    - Mat.
+- osis: Mark
+  texts:
+    - Markusi
+    - Mark.
+- osis: Luke
+  texts:
+    - Lukasi
+    - Luk.
+- osis: 3John
+  texts:
+    - Ot. Yah.
+    - 3 Yahya
+- osis: 1John
+  texts:
+    - 1 Yahya
+    - 1 Yah.
+    - 1. Yahya
+    - 1. Yah.
+    - Boh. Yahya
+    - Boh. Yah.
+    - Bohulo Yahya
+    - Bohulo Yah.
+    - Bohulo. Yahya
+    - Bohulo. Yah.
+- osis: 2John
+  texts:
+    - 2 Yahya
+    - 2 Yah.
+    - 2. Yahya
+    - 2. Yah.
+    - Ol. Yahya
+    - Ol. Yah.
+    - Oluo Yahya
+    - Oluo Yah.
+    - Oluo. Yahya
+    - Oluo. Yah.
+- osis: John
+  texts:
+    - Yahya
+    - Yah.
+- osis: Acts
+  texts:
+    - Wungguli Lomongo Rasulu
+    - Mong. Ras.
+- osis: Rom
+  texts:
+    - Roma
+    - Rm.
+- osis: 1Cor
+  texts:
+    - 1 Korintus
+    - 1 Kor.
+    - 1. Korintus
+    - 1. Kor.
+    - Boh. Korintus
+    - Boh. Kor.
+    - Bohulo Korintus
+    - Bohulo Kor.
+    - Bohulo. Korintus
+    - Bohulo. Kor.
+- osis: 2Cor
+  texts:
+    - 2 Korintus
+    - 2 Kor.
+    - 2. Korintus
+    - 2. Kor.
+    - Ol. Korintus
+    - Ol. Kor.
+    - Oluo Korintus
+    - Oluo Kor.
+    - Oluo. Korintus
+    - Oluo. Kor.
+- osis: Col
+  texts:
+    - Kolose
+    - Kol.
+- osis: Gal
+  texts:
+    - Galatia
+    - Gal.
+- osis: Eph
+  texts:
+    - Epesus
+    - Ep.
+- osis: Phil
+  texts:
+    - Pilipi
+    - Pilp.
+- osis: 1Thess
+  texts:
+    - 1 Tesalonika
+    - 1 Tes.
+    - 1. Tesalonika
+    - 1. Tes.
+    - Boh. Tesalonika
+    - Boh. Tes.
+    - Bohulo Tesalonika
+    - Bohulo Tes.
+    - Bohulo. Tesalonika
+    - Bohulo. Tes.
+- osis: 2Thess
+  texts:
+    - 2 Tesalonika
+    - 2 Tes.
+    - 2. Tesalonika
+    - 2. Tes.
+    - Ol. Tesalonika
+    - Ol. Tes.
+    - Oluo Tesalonika
+    - Oluo Tes.
+    - Oluo. Tesalonika
+    - Oluo. Tes.
+- osis: 1Tim
+  texts:
+    - 1 Timotius
+    - 1 Tim.
+    - 1. Timotius
+    - 1. Tim.
+    - Boh. Timotius
+    - Boh. Tim.
+    - Bohulo Timotius
+    - Bohulo Tim.
+    - Bohulo. Timotius
+    - Bohulo. Tim.
+- osis: 2Tim
+  texts:
+    - 2 Timotius
+    - 2 Tim.
+    - 2. Timotius
+    - 2. Tim.
+    - Ol. Timotius
+    - Ol. Tim.
+    - Oluo Timotius
+    - Oluo Tim.
+    - Oluo. Timotius
+    - Oluo. Tim.
+- osis: Titus
+  texts:
+    - Titusi
+    - Tit.
+- osis: Phlm
+  texts:
+    - Pilemon
+    - Pil.
+- osis: Heb
+  texts:
+    - Ibrani
+    - Ibr.
+- osis: Jas
+  texts:
+    - Yakobus
+    - Yak.
+- osis: 1Pet
+  texts:
+    - 1 Petrus
+    - 1 Pet.
+    - 1. Petrus
+    - 1. Pet.
+    - Boh. Petrus
+    - Boh. Pet.
+    - Bohulo Petrus
+    - Bohulo Pet.
+    - Bohulo. Petrus
+    - Bohulo. Pet.
+- osis: 2Pet
+  texts:
+    - 2 Petrus
+    - 2 Pet.
+    - 2. Petrus
+    - 2. Pet.
+    - Ol. Petrus
+    - Ol. Pet.
+    - Oluo Petrus
+    - Oluo Pet.
+    - Oluo. Petrus
+    - Oluo. Pet.
+- osis: Jude
+  texts:
+    - Yudas
+    - Yud.

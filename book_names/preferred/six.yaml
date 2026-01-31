@@ -1,0 +1,37 @@
+default:
+  1John:
+    long: 1 Yo
+    short: 1 Yo
+  1Thess:
+    long: 1 Ts
+    short: 1 Ts
+  2John:
+    long: 2 Yo
+    short: 2 Yo
+  2Thess:
+    long: 2 Ts
+    short: 2 Ts
+  3John:
+    long: 3 Yo
+    short: 3 Yo
+  Acts:
+    long: Yt
+    short: Yt
+  Col:
+    long: Kl
+    short: Kl
+  Eph:
+    long: Ep
+    short: Ep
+  Gal:
+    long: Kal
+    short: Ka
+  Luke:
+    long: Luk
+    short: Lu
+  Phil:
+    long: Pl
+    short: Pl
+  Phlm:
+    long: Pm
+    short: Pm

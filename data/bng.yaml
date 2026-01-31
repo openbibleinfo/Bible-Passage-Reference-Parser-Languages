@@ -1,0 +1,108 @@
+variables:
+  first: &first
+    - "1"
+    - I.
+  second: &second
+    - "2"
+    - II.
+books:
+  - osis: Rev
+    texts:
+      - Ilevudwě
+      - Ilev
+  - osis: Matt
+    texts:
+      - Matyiu
+      - Mat
+  - osis: Mark
+    texts:
+      - Mark
+  - osis: Luke
+    texts:
+      - Luk
+  - osis: 3John
+    texts:
+      - III. Jâni
+      - 3 Jân
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jâni
+      - Jân
+  - osis: John
+    texts:
+      - Jân
+  - osis: Acts
+    texts:
+      - Behadi
+  - osis: Rom
+    texts:
+      - Roma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kâriniti
+      - Kâr
+  - osis: Col
+    texts:
+      - Kalâsi
+      - Kal
+  - osis: Gal
+    texts:
+      - Geletiya
+      - Gelet
+  - osis: Eph
+    texts:
+      - Efisu
+  - osis: Phil
+    texts:
+      - Filipai
+      - Filip
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Těsilonaika
+      - Těs
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+      - Tim
+  - osis: Titus
+    texts:
+      - Titu
+  - osis: Phlm
+    texts:
+      - Filimâni
+      - Filim
+  - osis: Heb
+    texts:
+      - Hibru
+  - osis: Jas
+    texts:
+      - Jemisi
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pitě
+      - Pit
+  - osis: Jude
+    texts:
+      - Judi
+translations:
+  - BNG1895

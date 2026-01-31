@@ -1,0 +1,399 @@
+default:
+  1Chr:
+    long: 1 Hră Ruai
+    short: 1Hră
+  1Cor:
+    long: 1 Korinthos
+    short: 1Kor
+  1John:
+    long: 1 Yôhan
+    short: 1Yôh
+  1Kgs:
+    long: 1 Ƀing Pơtao
+    short: 1Pơt
+  1Pet:
+    long: 1 Pêtrôs
+    short: 1Pêt
+  1Sam:
+    long: 1 Samuêl
+    short: 1Sam
+  1Thess:
+    long: 1 Thessalonikê
+    short: 1The
+  1Tim:
+    long: 1 Timothe
+    short: 1Tim
+  2Chr:
+    long: 2 Hră Ruai
+    short: 2Hră
+  2Cor:
+    long: 2 Korinthos
+    short: 2Kor
+  2John:
+    long: 2 Yôhan
+    short: 2Yôh
+  2Kgs:
+    long: 2 Ƀing Pơtao
+    short: 2Pơt
+  2Pet:
+    long: 2 Pêtrôs
+    short: 2Pêt
+  2Sam:
+    long: 2 Samuêl
+    short: 2Sam
+  2Thess:
+    long: 2 Thessalonikê
+    short: 2The
+  2Tim:
+    long: 2 Timothe
+    short: 2Tim
+  3John:
+    long: 3 Yôhan
+    short: 3Yôh
+  Acts:
+    long: Bruă Mơnuă
+    short: Brm
+  Amos:
+    long: Amôs
+    short: Amô
+  Col:
+    long: Kolossai
+    short: Kol
+  Dan:
+    long: Daniêl
+    short: Dan
+  Deut:
+    long: Juăt
+    short: Juă
+  Eccl:
+    long: Khua Pô Pơtô
+    short: Khua
+  Eph:
+    long: Ephesos
+    short: Eph
+  Esth:
+    long: H'Êsther
+    short: Est
+  Exod:
+    long: Biă
+    short: Tơb
+  Ezek:
+    long: Yehezekêl
+    short: Yeh
+  Ezra:
+    long: Ezra
+    short: Ezr
+  Gal:
+    long: Galati
+    short: Gal
+  Gen:
+    long: Čơdơ̆ng Phŭn
+    short: Čơd
+  Hab:
+    long: Habakkuk
+    short: Hab
+  Hag:
+    long: Agê
+    short: Agê
+  Heb:
+    long: Hêbrơ
+    short: Hêb
+  Hos:
+    long: Hôsea
+    short: Hôs
+  Isa:
+    long: Yesayah
+    short: Yes
+  Jas:
+    long: Yakơ
+    short: Yak
+  Jer:
+    long: Yirmeyah
+    short: Yir
+  Job:
+    long: Jôp
+    short: Jôp
+  Joel:
+    long: Yôel
+    short: Yôel
+  John:
+    long: Yôhan
+    short: Yô
+  Jonah:
+    long: Yônah
+    short: Yôn
+  Josh:
+    long: Yôsua
+    short: Yôs
+  Jude:
+    long: Yud
+    short: Yud
+  Judg:
+    long: Khua Phat Kơđi
+    short: Kpk
+  Lam:
+    long: Tơlơi Čok Hia
+    short: Čok
+  Lev:
+    long: Lêwi
+    short: Lêw
+  Luke:
+    long: Luk
+    short: Luk
+  Mal:
+    long: Malakhi
+    short: Mal
+  Mark:
+    long: Markôs
+    short: Mar
+  Matt:
+    long: Mathiơ
+    short: Mat
+  Mic:
+    long: Mika
+    short: MiK
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nehemyah
+    short: Neh
+  Num:
+    long: Tơlơi Yap
+    short: Yap
+  Obad:
+    long: Apđia
+    short: Apđia
+  Phil:
+    long: Philip
+    short: Phi
+  Phlm:
+    long: Philemôn
+    short: Phlm
+  Prov:
+    long: Pơrơtưh
+    short: Bơrt
+  Ps:
+    long: Adoh Bơni Hơơč
+    short: Abh
+  Rev:
+    long: Pơrơđah
+    short: Bơrđ
+  Rom:
+    long: Rôm
+    short: Rôm
+  Ruth:
+    long: H'Rut
+    short: Rut
+  Song:
+    long: Adoh Hiam
+    short: Adh
+  Titus:
+    long: Tit
+    short: Tit
+  Zech:
+    long: Sakari
+    short: Sak
+  Zeph:
+    long: Sôphôni
+    short: Sôph
+translations:
+  jra2016:
+    1Chr:
+      long: I Tơlơi Čih Ruai
+      short: I Čih
+    1Cor:
+      long: I Kôrantô
+      short: I Kôr
+    1John:
+      long: I Yôhan
+      short: I Yô
+    1Kgs:
+      long: I Ƀing Pơtao
+      short: I Pơtao
+    1Pet:
+      long: I Pêtrôs
+      short: I Pê
+    1Sam:
+      long: I Samuel
+      short: I Sa
+    1Thess:
+      long: I Têsalônik
+      short: I Tês
+    1Tim:
+      long: I Timôthê
+      short: I Tim
+    2Chr:
+      long: II Tơlơi Čih Ruai
+      short: II Čih
+    2Cor:
+      long: II Kôrantô
+      short: II Kôr
+    2John:
+      long: II Yôhan
+      short: II Yô
+    2Kgs:
+      long: II Ƀing Pơtao
+      short: II Pơtao
+    2Pet:
+      long: II Pêtrôs
+      short: II Pê
+    2Sam:
+      long: II Samuel
+      short: II Sa
+    2Thess:
+      long: II Têsalônik
+      short: II Tês
+    2Tim:
+      long: II Timôthê
+      short: II Tim
+    3John:
+      long: III Yôhan
+      short: III Yô
+    Acts:
+      short: Bruă
+    Amos:
+      short: Amôs
+    Col:
+      long: Kôlôs
+      short: Kôl
+    Dan:
+      long: Đaniel
+      short: Đaniel
+    Deut:
+      long: Tơlơi Pơtô Mơñă Tơlơi Juăt
+      short: Mơñă
+    Eph:
+      long: Êphêsô
+      short: Êph
+    Esth:
+      short: Êst
+    Exod:
+      long: Tơlơi Tơbiă
+    Ezek:
+      long: Êsêkiel
+      short: Êsê
+    Ezra:
+      long: Êsra
+      short: Êsr
+    Hab:
+      long: Habakuk
+    Hos:
+      long: Ôsê
+      short: Ôsê
+    Isa:
+      long: Êsai
+      short: Êsai
+    Jer:
+      long: Yêrêmi
+      short: Yêr
+    Jonah:
+      long: Yôna
+      short: Yôna
+    Josh:
+      long: Yôsuê
+    Jude:
+      long: Yut
+      short: Yut
+    Judg:
+      long: Ƀing Khua Phat Kơđi
+      short: Phat
+    Lev:
+      short: Lêwi
+    Mal:
+      long: Malaki
+    Mic:
+      short: Mika
+    Neh:
+      long: Nêhêmi
+      short: Nêh
+    Phlm:
+      long: Philêmôn
+    Prov:
+      long: Tơlơi Bơrơtưh
+    Ps:
+      long: Tơlơi Adoh Hơđăp
+      short: Adoh
+    Rev:
+      long: Tơlơi Bơrơđah
+    Ruth:
+      long: H’Rut
+    Song:
+      long: Tơlơi Adoh Hiam
+  jkb:
+    Acts:
+      long: Buă Ngă
+      short: Buă
+    Exod:
+      short: Biă
+    Gen:
+      long: Phŭn Blŭng
+      short: Phŭn
+  jra:
+    Acts:
+      long: ឞ្វៈម៍ ង៉ៈ
+      short: ឞ្វៈម៍
+    Exod:
+      long: ឞ្យៈ
+      short: ឞ្យៈ
+    Gen:
+      long: ភុន ឞ៊្លុង
+      short: ភុន
+    Jonah:
+      long: យ៉ូណះ
+      short: យ៉ូណះ
+    Matt:
+      long: ម៉ាធឿ
+      short: ម៉ាធឿ
+    Ruth:
+      long: ហរូត
+      short: ហរូត
+  jbsv14:
+    Eccl:
+      long: Pô Pơtô
+      short: Pôp
+    Esth:
+      long: Hʼester
+    Exod:
+      long: Tơbiă
+    Gal:
+      long: Galatia
+    Hag:
+      long: Haggai
+      short: Hag
+    Job:
+      long: Yôb
+      short: Yôb
+    Joel:
+      long: Yôêl
+      short: Yôê
+    John:
+      short: Yôh
+    Lam:
+      long: Čŏk Hia
+      short: Čŏk
+    Mic:
+      long: Mikhah
+    Num:
+      long: Yap
+    Obad:
+      long: Ôbadyah
+      short: Ôba
+    Phil:
+      short: Php
+    Phlm:
+      short: Phm
+    Prov:
+      short: Prt
+    Rev:
+      short: Prđ
+    Ruth:
+      long: HʼRut
+    Titus:
+      long: Titos
+    Zech:
+      long: Zekharyah
+      short: Zek
+    Zeph:
+      long: Zephanyah
+      short: Zep

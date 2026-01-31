@@ -1,0 +1,348 @@
+- osis: Gen
+  texts:
+    - Gha ta Wəshi
+    - Ghw
+- osis: Exod
+  texts:
+    - Shave
+    - Shv
+- osis: Bel
+  texts:
+    - Bɛl ba'a Shishi nya wəba
+    - Bɛl
+- osis: Lev
+  texts:
+    - Ka Lɛvi
+    - Klv
+- osis: Num
+  texts:
+    - Ɓela
+    - Ɓla
+- osis: Sir
+  texts:
+    - Bɛn Sirak
+    - Bns
+- osis: Wis
+  texts:
+    - Ntsehwele
+    - Ntsh
+- osis: Lam
+  texts:
+    - Yɛ Ŋgaɗe ghə
+    - Yŋg
+- osis: EpJer
+  texts:
+    - Palepa ta Zhɛrɛmi
+    - Pzh
+- osis: Rev
+  texts:
+    - Ghena Kelɛŋə
+    - Ghk
+- osis: Deut
+  texts:
+    - Zhɛne Ghwelə yitea Wəshi Mahalegə
+    - Zgwm
+- osis: Josh
+  texts:
+    - Zhozəwɛ
+    - Zhoz
+- osis: Judg
+  texts:
+    - Ka Meha ghwə
+    - Kmg
+- osis: Ruth
+  texts:
+    - Rət
+- osis: Isa
+  texts:
+    - Ɛzayi
+    - Ɛza
+- osis: 1Sam
+  texts:
+    - 1 Saməyɛl
+    - 1 Sa
+    - 1. Saməyɛl
+    - 1. Sa
+- osis: 2Sam
+  texts:
+    - 2 Saməyɛl
+    - 2 Sa
+    - 2. Saməyɛl
+    - 2. Sa
+- osis: 1Kgs
+  texts:
+    - 1 Ka Meghea Kɛfi
+    - 1 Kmk
+    - 1. Ka Meghea Kɛfi
+    - 1. Kmk
+- osis: 2Kgs
+  texts:
+    - 2 Ka Meghea Kɛfi
+    - 2 Kmk
+    - 2. Ka Meghea Kɛfi
+    - 2. Kmk
+- osis: 1Chr
+  texts:
+    - 1 Wəshi nyi Mene Ka Meghe
+    - 1 Wmkm
+    - 1. Wəshi nyi Mene Ka Meghe
+    - 1. Wmkm
+- osis: 2Chr
+  texts:
+    - 2 Wəshi nyi Mene Ka Meghe
+    - 2 Wmkm
+    - 2. Wəshi nyi Mene Ka Meghe
+    - 2. Wmkm
+- osis: Ezra
+  texts:
+    - Ɛsdras
+    - Ɛsd
+- osis: Neh
+  texts:
+    - Nɛhɛmi
+    - Nɛh
+- osis: Job
+  texts:
+    - Job
+- osis: Prov
+  texts:
+    - Yɛ Ghena Ŋela
+    - Ghŋ
+- osis: Eccl
+  texts:
+    - Nde zlape ghena
+    - Nzlg
+- osis: Song
+  texts:
+    - Cimə nya zeɗe ma
+    - Czm
+- osis: Ps
+  texts:
+    - Cimə
+    - Cim
+- osis: Jer
+  texts:
+    - Zhɛrɛmi
+    - Zhr
+- osis: Ezek
+  texts:
+    - Ɛzɛkiyɛl
+    - Ɛzk
+- osis: Hos
+  texts:
+    - Ozɛ
+- osis: Joel
+  texts:
+    - Zhowɛl
+    - Zhw
+- osis: Amos
+  texts:
+    - Amos
+    - Amo
+- osis: Obad
+  texts:
+    - Abdiyas
+    - Abd
+- osis: Jonah
+  texts:
+    - Zhonas
+    - Zhn
+- osis: Mic
+  texts:
+    - Mishɛ
+    - Msh
+- osis: Nah
+  texts:
+    - Nahəwm
+    - Nah
+- osis: Hab
+  texts:
+    - Habakək
+    - Hab
+- osis: Zeph
+  texts:
+    - Sofoni
+    - Sof
+- osis: Hag
+  texts:
+    - Azhɛ
+    - Azh
+- osis: Zech
+  texts:
+    - Zakari
+    - Zak
+- osis: Mal
+  texts:
+    - Malashi
+    - Mal
+- osis: Matt
+  texts:
+    - Matiye
+    - Mat
+- osis: Mark
+  texts:
+    - Mark
+    - Mrk
+- osis: Luke
+  texts:
+    - Ləwke
+    - Lwk
+- osis: 1John
+  texts:
+    - 1 Zhaŋe
+    - 1 Zhŋ
+    - 1. Zhaŋe
+    - 1. Zhŋ
+- osis: 2John
+  texts:
+    - 2 Zhaŋe
+    - 2 Zhŋ
+    - 2. Zhaŋe
+    - 2. Zhŋ
+- osis: 3John
+  texts:
+    - 3 Zhaŋe
+    - 3 Zhŋ
+    - 3. Zhaŋe
+    - 3. Zhŋ
+- osis: John
+  texts:
+    - Zhaŋe
+    - Zhŋ
+- osis: Acts
+  texts:
+    - Slene
+    - Sln
+- osis: Rom
+  texts:
+    - Ka Rome
+    - Rom
+- osis: 1Cor
+  texts:
+    - 1 Ka Korɛnte
+    - 1 Kor
+    - 1. Ka Korɛnte
+    - 1. Kor
+- osis: 2Cor
+  texts:
+    - 2 Ka Korɛnte
+    - 2 Kor
+    - 2. Ka Korɛnte
+    - 2. Kor
+- osis: Col
+  texts:
+    - Ka Kolose
+    - Kol
+- osis: Gal
+  texts:
+    - Ka Galate
+    - Gal
+- osis: Eph
+  texts:
+    - Ka Ɛfɛze
+    - Ɛfɛ
+- osis: Phil
+  texts:
+    - Ka Filipe
+    - Flp
+- osis: 1Thess
+  texts:
+    - 1 Ka Tɛsalonike
+    - 1 Tɛs
+    - 1. Ka Tɛsalonike
+    - 1. Tɛs
+- osis: 2Thess
+  texts:
+    - 2 Tɛsalonike
+    - 2 Tɛs
+    - 2. Tɛsalonike
+    - 2. Tɛs
+- osis: 1Tim
+  texts:
+    - 1 Timotɛ
+    - 1 Tim
+    - 1. Timotɛ
+    - 1. Tim
+- osis: 2Tim
+  texts:
+    - 2 Timotɛ
+    - 2 Tim
+    - 2. Timotɛ
+    - 2. Tim
+- osis: Titus
+  texts:
+    - Tite
+    - Tit
+- osis: Phlm
+  texts:
+    - Filɛmon
+    - Fil
+- osis: Heb
+  texts:
+    - Ka Ɛbrə
+    - Ɛbr
+- osis: Jas
+  texts:
+    - Zhake
+    - Zhk
+- osis: 1Pet
+  texts:
+    - 1 Piyɛre
+    - 1. Piyɛre
+- osis: 1Pet
+  texts:
+    - 1Pi
+- osis: 2Pet
+  texts:
+    - 2 Piyɛre
+    - 2 Pi
+    - 2. Piyɛre
+    - 2. Pi
+- osis: Jude
+  texts:
+    - Zhəwde
+    - Zhd
+- osis: Tob
+  texts:
+    - Tobit
+    - Tob
+- osis: Jdt
+  texts:
+    - Zhədit
+    - Zhdt
+- osis: Bar
+  texts:
+    - Barək
+    - Bar
+- osis: Sus
+  texts:
+    - Səzane
+    - Szn
+- osis: 1Macc
+  texts:
+    - 1 Makabɛ
+    - 1 Ma
+    - 1. Makabɛ
+    - 1. Ma
+- osis: 2Macc
+  texts:
+    - 2 Makabɛ
+    - 2 Ma
+    - 2. Makabɛ
+    - 2. Ma
+- osis: DanGr
+  texts:
+    - Daniyɛl Grɛk
+    - Dng
+- osis: Dan
+  texts:
+    - Daniyɛl
+    - Dan
+- osis: EsthGr
+  texts:
+    - Ɛstɛr Grɛk
+    - Ɛsg
+- osis: Esth
+  texts:
+    - Ɛstɛr
+    - Ɛst

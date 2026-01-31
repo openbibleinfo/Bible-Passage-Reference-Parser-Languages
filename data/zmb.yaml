@@ -1,0 +1,60 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Mark
+    texts:
+      - Malikɔ
+      - Mali
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yɔana
+      - Yɔa
+  - osis: Gal
+    texts:
+      - Bakalatia
+      - Kal
+  - osis: Eph
+    texts:
+      - Baɛfɛsɔ
+      - Ɛfɛ
+  - osis: Phil
+    texts:
+      - Bafilipɔ
+      - Fil
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timɔtɛɔ
+      - Tim
+  - osis: Phlm
+    texts:
+      - Filɛmɔ
+      - Filɛ
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pɛtɛlɔ
+      - Pɛt
+translations:
+  - ZMB

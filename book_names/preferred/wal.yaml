@@ -1,0 +1,192 @@
+default:
+  1Chr:
+    long: Hanidabaa Odiya Koiro Maxaafaa
+    short: 1HanO
+  1Cor:
+    long: Koiro Qoronttoosa
+    short: 1Qor
+  1John:
+    long: Koiro Yohaannisa
+    short: 1Yoh
+  1Kgs:
+    long: Kawotu Maxaafaa Koiruwaa
+    short: 1Kaw
+  1Pet:
+    long: Koiro Pheexiroosa
+    short: 1Phe
+  1Sam:
+    long: Sameela Maxaafaa Koiruwaa
+    short: 1Sam
+  1Thess:
+    long: Koiro Tasalonqqe
+    short: 1Tas
+  1Tim:
+    long: Koiro Ximootiyoosa
+    short: 1Xim
+  2Chr:
+    long: Hanidabaa Odiya Naa77antto Maxaafaa
+    short: 2HanO
+  2Cor:
+    long: Naa77antto Qoronttoosa
+    short: 2Qor
+  2John:
+    long: Naa77antto Yohaannisa
+    short: 2Yoh
+  2Kgs:
+    long: Kawotu Maxaafaa Naa77anttuwaa
+    short: 2Kaw
+  2Pet:
+    long: Naa77antto Pheexiroosa
+    short: 2Phe
+  2Sam:
+    long: Sameela Maxaafaa Naa77anttuwaa
+    short: 2Sam
+  2Thess:
+    long: Naa77antto Tasalonqqe
+    short: 2Tas
+  2Tim:
+    long: Naa77antto Ximootiyoosa
+    short: 2Xim
+  3John:
+    long: Heezzantto Yohaannisa
+    short: 3Yoh
+  Acts:
+    long: Yesuusi Kiittidoogeetu Oosuwaa
+    short: Oos
+  Amos:
+    long: Amoxa
+    short: Amox
+  Col:
+    long: Qolasiyaasa
+    short: Qol
+  Dan:
+    long: Daaneela
+    short: Dane
+  Deut:
+    long: Zaarettido Wogaa
+    short: ZarW
+  Eccl:
+    long: Eranchchaa Maxaafaa
+  Eph:
+    long: Efisoona
+    short: Efis
+  Esth:
+    long: Asttiri Maxaafaa
+  Exod:
+    long: Kessaabaa
+    short: Kess
+  Ezek:
+    long: Hizqqeela
+    short: Hiz
+  Ezra:
+    long: Izira Maxaafaa
+    short: Izir
+  Gal:
+    long: Galaatiyaa
+    short: Gal
+  Gen:
+    long: Doomettaabaa
+    short: Dom
+  Hab:
+    long: Imbbaaqooma
+    short: Imba
+  Hag:
+    long: Hagge
+  Heb:
+    long: Ibraawe
+    short: Ibra
+  Hos:
+    long: Hoose7a
+    short: Hos
+  Isa:
+    long: Isiyaasa
+    short: Isiy
+  Jas:
+    long: Yaaqooba
+    short: Yaq
+  Jer:
+    long: Ermmaasa
+    short: Erm
+  Job:
+    long: Iyyooba Maxaafaa
+    short: Iyob
+  Joel:
+    long: Yuu7eela
+    short: Yu7e
+  John:
+    long: Yohaannisa
+    short: Yoh
+  Jonah:
+    long: Yoonaasa
+    short: Yona
+  Josh:
+    long: Yaasu Maxaafaa
+    short: Yas
+  Jude:
+    long: Yihudaa
+    short: Yihu
+  Judg:
+    long: Daannatu Maxaafaa
+    short: Dana
+  Lam:
+    long: Ermmaasa Zilaassaa
+    short: Lam
+  Lev:
+    long: Wogaabaa
+    short: Wog
+  Luke:
+    long: Luqaasa
+    short: Luq
+  Mal:
+    long: Milkkiyaasa
+    short: Milk
+  Mark:
+    long: Marqqoosa
+    short: Marq
+  Matt:
+    long: Maatiyoosa
+    short: Mat
+  Mic:
+    long: Mikiyaasa
+    short: Miki
+  Nah:
+    long: Naahooma
+  Neh:
+    long: Nahimiyaa Maxaafaa
+    short: Nahi
+  Num:
+    long: Qoodaabaa
+    short: Qod
+  Obad:
+    long: Abddiyyu
+  Phil:
+    long: Piliphphisiyuusa
+    short: Pilp
+  Phlm:
+    long: Pilimoona
+    short: Pilm
+  Prov:
+    long: Leemiso Maxaafaa
+    short: Lem
+  Ps:
+    long: Mazamure Maxaafaa
+    short: Maz
+  Rev:
+    long: Ajjuutaa
+    short: Aju
+  Rom:
+    long: Roome
+    short: Rom
+  Ruth:
+    long: Uruti Maxaafaa
+    short: Rut
+  Song:
+    long: Siiquwaa Sabaa
+  Titus:
+    long: Tiitu
+    short: Tit
+  Zech:
+    long: Zakkaariyaasa
+    short: Zakk
+  Zeph:
+    long: Sofonaasa

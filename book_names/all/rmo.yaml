@@ -1,0 +1,363 @@
+- osis: Gen
+  texts:
+    - 1. Mose
+    - 1 Mo
+- osis: Exod
+  texts:
+    - 2. Mose
+    - 2 Mo
+- osis: Lev
+  texts:
+    - 3. Mose
+    - 3 Mo
+- osis: Num
+  texts:
+    - 4. Mose
+    - 4 Mo
+- osis: Lam
+  texts:
+    - Ropaskre gilja
+    - Ropaskre gilya
+    - Rop
+- osis: Rev
+  texts:
+    - Debleskro tsiro
+    - Tsi
+- osis: Deut
+  texts:
+    - 5. Mose
+    - 5 Mo
+- osis: Josh
+  texts:
+    - Josua
+    - Yosua
+    - Jos
+    - Yos
+- osis: Judg
+  texts:
+    - Tchatchepangre
+    - Čačepangre
+    - Tcha
+    - Ča
+- osis: Ruth
+  texts:
+    - Ruth
+    - Rut
+- osis: Isa
+  texts:
+    - Jesaja
+    - Yesaya
+    - Jes
+    - Yes
+- osis: 1Sam
+  texts:
+    - 1 Samuel
+    - 1 Sa
+    - 1. Samuel
+    - 1. Sa
+- osis: 2Sam
+  texts:
+    - 2 Samuel
+    - 2 Sa
+    - 2. Samuel
+    - 2. Sa
+- osis: 1Kgs
+  texts:
+    - 1 Rajengro liil
+    - 1 Rayengro liil
+    - 1 Ra
+    - 1. Rajengro liil
+    - 1. Rayengro liil
+    - 1. Ra
+- osis: 2Kgs
+  texts:
+    - 2 Rajengro liil
+    - 2 Rayengro liil
+    - 2 Ra
+    - 2. Rajengro liil
+    - 2. Rayengro liil
+    - 2. Ra
+- osis: 1Chr
+  texts:
+    - 1 Familjakro liil
+    - 1 Familyakro liil
+    - 1 Ch
+    - 1. Familjakro liil
+    - 1. Familyakro liil
+    - 1. Ch
+- osis: 2Chr
+  texts:
+    - 2 Familjakro liil
+    - 2 Familyakro liil
+    - 2 Ch
+    - 2. Familjakro liil
+    - 2. Familyakro liil
+    - 2. Ch
+- osis: Ezra
+  texts:
+    - Esra
+    - Esr
+- osis: Neh
+  texts:
+    - Nehemia
+    - Neh
+- osis: Esth
+  texts:
+    - Ester
+    - Est
+- osis: Job
+  texts:
+    - Hiob
+    - Hio
+- osis: Ps
+  texts:
+    - Debleskri gili
+    - Gil
+- osis: Prov
+  texts:
+    - Goseve laba
+    - Gosewe laba
+    - Lab
+- osis: Eccl
+  texts:
+    - Sikepaskro
+    - Sik
+- osis: Song
+  texts:
+    - Ghiléngheri Ghília
+    - Kamlepaskri gili
+    - Kam
+- osis: Jer
+  texts:
+    - Jeremia
+    - Yeremia
+    - Jer
+    - Yer
+- osis: Ezek
+  texts:
+    - Hesekijel
+    - Ezekiel
+    - Hes
+    - Ez
+- osis: Dan
+  texts:
+    - Daniel
+    - Dan
+- osis: Hos
+  texts:
+    - Hosea
+    - Hos
+- osis: Joel
+  texts:
+    - Joel
+    - Yoel
+    - Jol
+    - Yol
+- osis: Amos
+  texts:
+    - Amos
+    - Amo
+- osis: Obad
+  texts:
+    - Obadja
+    - Obadya
+    - Oba
+- osis: Jonah
+  texts:
+    - Jona
+    - Yona
+    - Jon
+    - Yon
+- osis: Mic
+  texts:
+    - Micha
+    - Mika
+    - Mic
+    - MiK
+- osis: Nah
+  texts:
+    - Nahum
+    - Nam
+- osis: Hab
+  texts:
+    - Habakuk
+    - Hab
+- osis: Zeph
+  texts:
+    - Sefanya
+    - Zefanja
+    - Sef
+    - Zef
+- osis: Hag
+  texts:
+    - Haggai
+    - Haggay
+    - Hag
+- osis: Zech
+  texts:
+    - Sacharja
+    - Zakarie
+    - Sach
+    - Zak
+- osis: Mal
+  texts:
+    - Malachie
+    - Maleachi
+    - Mal
+- osis: Matt
+  texts:
+    - Mateo
+    - Mt
+- osis: Mark
+  texts:
+    - Markus
+    - Marko
+    - Mk
+- osis: Luke
+  texts:
+    - Louka
+    - Luka
+    - Lk
+- osis: 3John
+  texts:
+    - 3. Johanni
+    - 3. Yohanni
+    - 3 Jn
+    - 3 Yn
+- osis: 1John
+  texts:
+    - 1 Johanni
+    - 1 Yohanni
+    - 1 Jn
+    - 1 Yn
+    - 1. Johanni
+    - 1. Yohanni
+    - 1. Jn
+    - 1. Yn
+- osis: 2John
+  texts:
+    - 2 Johanni
+    - 2 Yohanni
+    - 2 Jn
+    - 2 Yn
+    - 2. Johanni
+    - 2. Yohanni
+    - 2. Jn
+    - 2. Yn
+- osis: John
+  texts:
+    - Johanni
+    - Yohanni
+    - Jhn
+    - Yhn
+- osis: Acts
+  texts:
+    - Bitchepangre
+    - Bičepangre
+    - Bi
+- osis: Rom
+  texts:
+    - Remarja
+    - Remarya
+    - Rm
+- osis: 1Cor
+  texts:
+    - 1 Korintarja
+    - 1 Korintarya
+    - 1 Kor
+    - 1. Korintarja
+    - 1. Korintarya
+    - 1. Kor
+- osis: 2Cor
+  texts:
+    - 2 Korintarja
+    - 2 Korintarya
+    - 2 Kor
+    - 2. Korintarja
+    - 2. Korintarya
+    - 2. Kor
+- osis: Col
+  texts:
+    - Kolossarja
+    - Kolossarya
+    - Kol
+- osis: Gal
+  texts:
+    - Galatarja
+    - Galatarya
+    - Gal
+- osis: Eph
+  texts:
+    - Efesarja
+    - Efesarya
+    - Ef
+- osis: Phil
+  texts:
+    - Filiparja
+    - Filiparya
+    - Flp
+- osis: 1Thess
+  texts:
+    - 1 Tessalonikarja
+    - 1 Tessalonikarya
+    - 1 Tess
+    - 1. Tessalonikarja
+    - 1. Tessalonikarya
+    - 1. Tess
+- osis: 2Thess
+  texts:
+    - 2 Tessalonikarja
+    - 2 Tessalonikarya
+    - 2 Tess
+    - 2. Tessalonikarja
+    - 2. Tessalonikarya
+    - 2. Tess
+- osis: 1Tim
+  texts:
+    - 1 Timoteo
+    - 1 Tim
+    - 1. Timoteo
+    - 1. Tim
+- osis: 2Tim
+  texts:
+    - 2 Timoteo
+    - 2 Tim
+    - 2. Timoteo
+    - 2. Tim
+- osis: Titus
+  texts:
+    - Tito
+    - Tit
+- osis: Phlm
+  texts:
+    - Filemon
+    - Flm
+- osis: Heb
+  texts:
+    - Hebrearja
+    - Hebrearya
+    - Heb
+- osis: Jas
+  texts:
+    - Jakobo
+    - Yakobo
+    - Jak
+    - Yak
+- osis: 1Pet
+  texts:
+    - 1 Petro
+    - 1 Pt
+    - 1. Petro
+    - 1. Pt
+- osis: 2Pet
+  texts:
+    - 2 Petro
+    - 2 Pt
+    - 2. Petro
+    - 2. Pt
+- osis: Jude
+  texts:
+    - Judas
+    - Yudas
+    - Jud
+    - Yud

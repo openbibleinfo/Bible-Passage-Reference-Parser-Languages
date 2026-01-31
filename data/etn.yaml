@@ -1,0 +1,226 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Jenesis
+  - osis: Exod
+    texts:
+      - Eksotus
+  - osis: Lev
+    texts:
+      - Levitikus
+  - osis: Num
+    texts:
+      - Numera
+  - osis: Lam
+    texts:
+      - Niji tas taigtai
+  - osis: Rev
+    texts:
+      - Nitai ehvaig
+  - osis: Deut
+    texts:
+      - Tyuteronome
+  - osis: Josh
+    texts:
+      - Josua
+  - osis: Judg
+    texts:
+      - Ilpu Atimi Tas Alep
+  - osis: Ruth
+    texts:
+      - Rud
+  - osis: Isa
+    texts:
+      - Aiseya
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Ilpu Atimarid
+  - osis:
+      - osis: 1Chr
+        before: *first
+    texts:
+      - Iji Tas Eled
+  - osis: 1Chr
+    texts:
+      - Iji Tas Eled
+  - osis:
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Niji Tas Eled
+  - osis: 2Chr
+    texts:
+      - Niji Tas Eled
+  - osis: Ezra
+    texts:
+      - Esra
+  - osis: Neh
+    texts:
+      - Nihemaia
+  - osis: Esth
+    texts:
+      - Ester
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Saam
+  - osis: Prov
+    texts:
+      - Niji tas Arapakau
+  - osis: Eccl
+    texts:
+      - Natimi Efehtas
+  - osis: Song
+    texts:
+      - Nohranitai U Solomon
+  - osis: Jer
+    texts:
+      - Jeremaia
+  - osis: Ezek
+    texts:
+      - Esikiel
+  - osis: Dan
+    texts:
+      - Taniel
+  - osis: Hos
+    texts:
+      - Hosia
+  - osis: Joel
+    texts:
+      - Joel
+  - osis: Amos
+    texts:
+      - Emos
+  - osis: Obad
+    texts:
+      - Obataia
+  - osis: Jonah
+    texts:
+      - Jona
+  - osis: Mic
+    texts:
+      - Maika
+  - osis: Nah
+    texts:
+      - Nehum
+  - osis: Hab
+    texts:
+      - Habakuk
+  - osis: Zeph
+    texts:
+      - Sefanaia
+  - osis: Hag
+    texts:
+      - Haceai
+  - osis: Zech
+    texts:
+      - Sekaraia
+  - osis: Mal
+    texts:
+      - Malakai
+  - osis: Matt
+    texts:
+      - Madius
+  - osis: Mark
+    texts:
+      - Markus
+  - osis: Luke
+    texts:
+      - Lukas
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Joanes
+  - osis: Acts
+    texts:
+      - Niji auritai o ilpu Apostolo.
+      - Niji auritai o ilpu Apostolo
+  - osis: Rom
+    texts:
+      - Nupu Roma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Nupu Korindus
+  - osis: Col
+    texts:
+      - Nupu Kolose
+  - osis: Gal
+    texts:
+      - Nupu Calesya
+  - osis: Eph
+    texts:
+      - Nupu Efesus
+  - osis: Phil
+    texts:
+      - Nupu Filipai
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Nupu Desalonaika
+  - osis: 2Thess
+    texts:
+      - Nupu Desalonaika
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timodeus
+  - osis: Titus
+    texts:
+      - Taitus
+  - osis: Phlm
+    texts:
+      - Filimon
+  - osis: Heb
+    texts:
+      - Ilpu Hibru
+  - osis: Jas
+    texts:
+      - Jakobus
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pitrus
+  - osis: Jude
+    texts:
+      - Juta
+translations:
+  - VAO63

@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 Emi iKorinti
+    short: 1iKor
+  1John:
+    long: 1 iJɔn
+    short: 1iJɔn
+  1Pet:
+    long: 1 iPyita
+    short: 1iPit
+  1Thess:
+    long: 1 Emi iTesalonika
+    short: 1EiTe
+  1Tim:
+    long: 1 Itimoti
+    short: 1iTim
+  2Cor:
+    long: 2 Emi iKorinti
+    short: 2iKor
+  2John:
+    long: 2 iJɔn
+    short: 2iJɔn
+  2Pet:
+    long: 2 iPyita
+    short: 2iPit
+  2Thess:
+    long: 2 Emi iTesalonika
+    short: 2EiTe
+  2Tim:
+    long: 2 Itimoti
+    short: 2iTim
+  3John:
+    long: 3 iJɔn
+    short: 3iJɔn
+  Acts:
+    long: Okyɔɔkyɔ
+    short: Okyɔ
+  Col:
+    long: Emi iKolose
+    short: EiKo
+  Eph:
+    long: Emi Efesu
+    short: Efe
+  Gal:
+    long: Emi iGalatia
+    short: iGal
+  Heb:
+    long: Emi iHibru
+    short: EiHi
+  Jas:
+    long: iJɛnsi
+    short: iJɛn
+  John:
+    long: iJɔn
+    short: iJɔn
+  Jude:
+    long: iJudu
+    short: iJud
+  Luke:
+    long: iLuku
+    short: iLuk
+  Mark:
+    long: iMaki
+    short: iMak
+  Matt:
+    long: iMatiu
+    short: iMat
+  Phil:
+    long: Emi iFyilipi
+    short: EiFy
+  Phlm:
+    long: iFyilimɔn
+    short: iFyi
+  Rev:
+    long: Iba
+    short: Iba
+  Rom:
+    long: Emi iRoma
+    short: EiRo
+  Titus:
+    long: iTaitusu
+    short: iTai

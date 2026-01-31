@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: Prothom Corinthians
+    short: I Corinthians
+  1John:
+    long: First John
+    short: 1John
+  1Pet:
+    long: First Peter
+    short: 1Pe
+  1Thess:
+    long: First Thessalonians
+    short: I Th
+  1Tim:
+    long: First Timothy
+    short: I Ti
+  2Cor:
+    long: 2 Corinthians
+    short: 2 Co
+  2John:
+    long: Second John
+    short: 2John
+  2Pet:
+    long: Second Peter
+    short: 2Pe
+  2Thess:
+    long: Second Thessalonians
+    short: 2Th
+  2Tim:
+    long: Second Timothy
+    short: 2Ti
+  3John:
+    long: Third John
+    short: 3Jn
+  Acts:
+    long: Acts
+    short: Act
+  Col:
+    long: Colossians
+    short: Col
+  Eph:
+    long: Ephesians
+    short: Eph
+  Gal:
+    long: Galatians
+    short: Gal
+  Heb:
+    long: Hebrews
+    short: Heb
+  Jas:
+    long: James
+    short: Jas
+  John:
+    long: John
+    short: Jhn
+  Jude:
+    long: Jude
+    short: Jud
+  Luke:
+    long: Luke
+    short: Luk
+  Mark:
+    long: Mark
+    short: Mrk
+  Matt:
+    long: Matthew
+    short: Mat
+  Phil:
+    long: Philippians
+    short: Php
+  Phlm:
+    long: Philemon
+    short: Phm
+  Rev:
+    long: Revelation
+    short: Rev
+  Rom:
+    long: Romans
+    short: Rom
+  Titus:
+    long: Titus
+    short: Tit

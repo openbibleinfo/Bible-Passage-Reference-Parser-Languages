@@ -1,0 +1,297 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Chɛ̄nɛ̍se̍ē
+      - Chɛ̄
+  - osis: Exod
+    texts:
+      - Ɛ̍sɔ̍dɔ̍ɔ̄
+      - Ɛ̍sɔ̍
+  - osis: Lev
+    texts:
+      - Lɛ̄vi̍ti̍kɔ̍ɔ̄
+      - Lɛ̄vi̍
+  - osis: Num
+    texts:
+      - Nɔ̍mbāā
+      - Nɔ̍m
+  - osis: Lam
+    texts:
+      - Cha᷄ŋ Īmɔ̍nɛ̍ Chɛ̄lūīma̍yā Wo̍
+      - Cha᷄ŋ
+  - osis: Rev
+    texts:
+      - Sɔ̄ɔ̍ŋ Chɔ̍ɔ̍ma᷄ŋndo̍ŋ
+      - Sɔ̄ɔ̍ŋ
+  - osis: Deut
+    texts:
+      - Dītɔ̍nɔ̍mi̍ī
+      - Dītɔ̍nɔ̍
+  - osis: Josh
+    texts:
+      - Chɔ̄ɔ̍sūāā
+      - Chɔ̄ɔ̍
+  - osis: Judg
+    texts:
+      - Chɔ̄ɔ̍chi̍a̍a̍
+      - Chɔ̄ɔ̍chi̍
+  - osis: Ruth
+    texts:
+      - Lu̍fū
+  - osis: Isa
+    texts:
+      - Āīsa̍yā
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Sa̍a̍m
+  - osis: 1Sam
+    texts:
+      - Sa̍a̍mi̍ɛ̍ɛ̄ Tāso̍o̍
+  - osis: 2Sam
+    texts:
+      - Sa̍a̍mi̍ɛ̍ɛ̄ Di̍i̍ŋ Ndɔ̄ɔ̍
+  - osis: 1Kgs
+    texts:
+      - Māsāā Bɛ̍ndūāā Tāsi̍a̍a̍
+  - osis: 2Kgs
+    texts:
+      - Māsāā Bɛ̍ndūāā Di̍i̍ŋ Ndūa̍a̍
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Māsāā
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Ko̍lo̍
+  - osis: 1Chr
+    texts:
+      - Ko̍lo̍ni̍kō Tāso̍o̍
+  - osis: 2Chr
+    texts:
+      - Ko̍lo̍ni̍kō Di̍i̍ŋ Ndɔ̄ɔ̍
+  - osis: Ezra
+    texts:
+      - Ɛ̍si̍lūā
+      - Ɛ̍si̍
+  - osis: Neh
+    texts:
+      - Nɛ̄hīma̍yā
+      - Nɛ̄hī
+  - osis: Esth
+    texts:
+      - Ɛ̄si̍tā
+  - osis: Job
+    texts:
+      - Cho̍o̍bū
+  - osis: Ps
+    texts:
+      - Sa᷅m
+  - osis: Prov
+    texts:
+      - Pu̍lɔ̍wāā
+      - Pu̍lɔ̍
+  - osis: Eccl
+    texts:
+      - Īkīlīsi̍a̍a̍tīī
+      - Īkīlī
+  - osis: Song
+    texts:
+      - Chōndi̍i̍ Sɔ̍lɔ̍mɔ̄ŋ Nde̍
+      - Chōnde̍i̍
+  - osis: Jer
+    texts:
+      - Chɛ̄lūīma̍yā
+      - Chɛ̄lūī
+  - osis: Ezek
+    texts:
+      - Īsi̍kīāā
+      - Īsi̍
+  - osis: Dan
+    texts:
+      - Da̍a̍ni̍ɛ̍ɛ̄
+      - Da̍a̍n
+  - osis: Hos
+    texts:
+      - Hōōsi̍a̍ā
+      - Hōōsi̍
+  - osis: Joel
+    texts:
+      - Cho̍wɛ̄ɛ̄
+  - osis: Amos
+    texts:
+      - E̍mɔ̍ɔ̍sī
+      - E̍mɔ̍ɔ̄
+  - osis: Obad
+    texts:
+      - Ōbāda̍yā
+      - Ōbā
+  - osis: Jonah
+    texts:
+      - Cho̍nā
+  - osis: Mic
+    texts:
+      - Ma̍kāl
+  - osis: Nah
+    texts:
+      - Nāhu᷅m
+      - Nāh
+  - osis: Hab
+    texts:
+      - Ha̍ba̍ku̍kū
+      - Ha̍ba̍
+  - osis: Zeph
+    texts:
+      - Sɛ̄fāna̍yā
+      - Sɛ̄fā
+  - osis: Hag
+    texts:
+      - Ha̍kāī
+  - osis: Zech
+    texts:
+      - Sɛ̄kāla̍yā
+      - Sɛ̄kā
+  - osis: Mal
+    texts:
+      - Māla̍kāī
+      - Māla̍
+  - osis: Matt
+    texts:
+      - Māa̍ti̍u̍
+      - Ma̍a̍
+  - osis: Mark
+    texts:
+      - Ma̍kī
+  - osis: Luke
+    texts:
+      - Lu̍kū
+  - osis: 1John
+    texts:
+      - Chɔ᷄ŋ Tāso̍o̍
+  - osis: 2John
+    texts:
+      - Chɔ᷄ŋ Di̍i̍ŋ Ndɔ̄ɔ̍
+  - osis: 3John
+    texts:
+      - Chɔ᷄ŋ Ŋgāa̍ Ndɔ̄ɔ̍
+      - 3 Chɔ᷄ŋ
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Chɔ᷄ŋ
+  - osis: Acts
+    texts:
+      - Wa̍lta̍ Wānāa̍ Chi̍i̍sūa̍a̍
+      - Wa̍lta̍
+  - osis: Rom
+    texts:
+      - Lu̍o̍ma᷅ŋnda̍
+      - Lu̍o̍ma᷅ŋ
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kɔ̄li̍ŋ
+  - osis: 1Cor
+    texts:
+      - Kɔ̄li̍ŋtīāŋ Tāso̍o̍
+  - osis: 2Cor
+    texts:
+      - Kɔ̄li̍ŋtīāŋ Di̍i̍ŋ Ndɔ̄ɔ̍
+  - osis: Col
+    texts:
+      - Kōlo̍sīāŋnda̍
+      - Kōlo̍
+  - osis: Gal
+    texts:
+      - Kāle̍e̍sīāŋnda̍
+      - Kāle̍e̍
+  - osis: Eph
+    texts:
+      - Ɛ̄fi̍sīāŋnda̍
+      - Ɛ̄fi̍
+  - osis: Phil
+    texts:
+      - Fīli̍pīāŋnda̍
+      - Fi̍li̍pī
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tɛ̄sā
+  - osis: 1Thess
+    texts:
+      - Tɛ̄sālo̍nīāŋ Tāso̍o̍
+  - osis: 2Thess
+    texts:
+      - Tɛ̄sālo̍nīāŋ Di̍i̍ŋ Ndɔ̄ɔ̍
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Ti̍mo̍
+  - osis: 1Tim
+    texts:
+      - Ti̍mo̍tī Tāso̍o̍
+  - osis: 2Tim
+    texts:
+      - Ti̍mo̍tī Di̍i̍ŋ Ndɔ̄ɔ̍
+  - osis: Titus
+    texts:
+      - Ta̍i̍tɔ̄ɔ̄
+      - Ta̍i̍
+  - osis: Phlm
+    texts:
+      - Fi̍lɛ̍mɔ̄ŋ
+      - Fi̍lɛ̍
+  - osis: Heb
+    texts:
+      - Hi̍būlūi̍ya̍
+      - Hi̍bū
+  - osis: Jas
+    texts:
+      - Chēmi̍si̍
+      - Che᷅m
+  - osis: 1Pet
+    texts:
+      - Pītɛ̍ Tāso̍o̍
+  - osis: 2Pet
+    texts:
+      - Pītɛ̍ Di̍i̍ŋ Ndɔ̄ɔ̍
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pītɛ̍
+  - osis: Jude
+    texts:
+      - Chu̍dī
+translations:
+  - KIZB

@@ -1,0 +1,128 @@
+variables:
+  first: &first
+    - "1"
+    - I
+    - Sv.
+  second: &second
+    - "2"
+    - II
+    - Sv.
+books:
+  - osis: Rev
+    texts:
+      - Apokalipsis
+      - Apk
+  - osis: Matt
+    texts:
+      - Evangelijs pēc Mateusa
+      - Mt
+  - osis: Mark
+    texts:
+      - Evangelijs pēc Marka
+      - Mk
+  - osis: Luke
+    texts:
+      - Evangelijs pēc Lukasa
+      - Lk
+  - osis: 3John
+    texts:
+      - Sv. Jōņa III
+      - 3 J
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - Jōņa I
+      - J
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - Jōņa II
+      - J
+  - osis: John
+    texts:
+      - Evangelijs pēc Jōņa
+      - J
+  - osis: Acts
+    texts:
+      - Apostolu Dorbi
+      - Ap. d
+  - osis: Rom
+    texts:
+      - vēstule romīšim
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - vēstule korintīšim
+      - Kor
+  - osis: Col
+    texts:
+      - vēstule kolosīšim
+      - Kol
+  - osis: Gal
+    texts:
+      - vēstule galatīšim
+      - Gal
+  - osis: Eph
+    texts:
+      - vēstule efezīšim
+      - Ef
+  - osis: Phil
+    texts:
+      - vēstule filipīšim
+      - Filip
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - vēstule tessalonikīšim.
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - vēstule Timotejam
+      - Tim
+  - osis: Titus
+    texts:
+      - vēstule Titam
+      - Tit
+  - osis: Phlm
+    texts:
+      - vēstule Filemonam
+      - Filem
+  - osis: Heb
+    texts:
+      - vēstule ebrejim
+      - Ebr
+  - osis: Jas
+    texts:
+      - Sv. Jākuba
+      - Jk
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - Pītera I
+      - Pit
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pītera II
+      - Pit
+  - osis: Jude
+    texts:
+      - Sv. Judas
+      - Jud
+translations:
+  - LGT

@@ -1,0 +1,177 @@
+variables:
+  first: &first
+    - ১
+  second: &second
+    - ২
+books:
+  - osis: Rev
+    texts:
+      - প্রকাশিত বাক্য
+      - প্রকাশিত
+      - ဗျာဒိတ်
+      - ဗျာ
+  - osis: Matt
+    texts:
+      - মথি
+      - မဿဲ
+      - မ
+  - osis: Mark
+    texts:
+      - মার্ক
+      - မာကု
+      - မာ
+  - osis: Luke
+    texts:
+      - လုကာ
+      - লূক
+      - လု
+  - osis: 1John
+    texts:
+      - ၁ယောဟန်
+      - ၁ယော
+  - osis: 2John
+    texts:
+      - ၂ယောဟန်
+      - ၂ယော
+  - osis: 3John
+    texts:
+      - ၃ယောဟန်
+      - ৩ যোহন
+      - ၃ယော
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - যোহন
+  - osis: John
+    texts:
+      - ယောဟန်
+      - যোহন
+      - ယော
+  - osis: Acts
+    texts:
+      - တမန်တော်
+      - প্রেরিত
+      - တ
+  - osis: Rom
+    texts:
+      - রোমীয়
+      - ရောမ
+      - ရော
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - করিন্থীয়
+      - করি
+  - osis: 1Cor
+    texts:
+      - ၁ကောရိန္သု
+      - ၁ကော
+  - osis: 2Cor
+    texts:
+      - ၂ကောရိန္သု
+      - ၂ကော
+  - osis: Col
+    texts:
+      - ကောလောသဲ
+      - কলসীয়
+      - ကော
+      - কল
+  - osis: Gal
+    texts:
+      - গালাতীয়
+      - ဂါလာတိ
+      - গালা
+      - ဂါ
+  - osis: Eph
+    texts:
+      - ইফিষীয়
+      - ဧဖက်
+      - ইফি
+      - ဧ
+  - osis: Phil
+    texts:
+      - ফিলিপীয়
+      - ဖိလိပ္ပိ
+      - ফিলি
+      - ဖိ
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - থিষলনীকীয়
+      - থিষ
+  - osis: 1Thess
+    texts:
+      - ၁သက်သာလောနိတ်
+      - ၁သက်
+  - osis: 2Thess
+    texts:
+      - ၂သက်သာလောနိတ်
+      - ၂သက်
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - তীমথিয়
+      - তীম
+  - osis: 1Tim
+    texts:
+      - ၁တိမောသေ
+      - ၁တိ
+  - osis: 2Tim
+    texts:
+      - ၂တိမောသေ
+      - ၂တိ
+  - osis: Titus
+    texts:
+      - တိတု
+      - তীত
+      - တိ
+  - osis: Phlm
+    texts:
+      - ဖိလေမုန်
+      - ফিলীমন
+      - ফিলী
+      - ဖိလေ
+  - osis: Heb
+    texts:
+      - ইব্রীয়
+      - ဟေဗြဲ
+  - osis: Jas
+    texts:
+      - ယာကုပ်
+      - যাকোব
+      - ယာ
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - পিতর
+  - osis: 1Pet
+    texts:
+      - ၁ပေတရု
+      - ၁ပေ
+  - osis: 2Pet
+    texts:
+      - ၂ပေတရု
+      - ၂ပေ
+  - osis: Jude
+    texts:
+      - যিহূদা
+      - ယုဒ
+      - ယု
+translations:
+  - RMZ
+  - BBSRMZ

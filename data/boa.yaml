@@ -1,0 +1,141 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Apocaríhtsi
+      - Ap
+  - osis: Matt
+    texts:
+      - Matéo
+      - Mt
+  - osis: Mark
+    texts:
+      - Máácoó
+      - Mc
+  - osis: Luke
+    texts:
+      - Róócaá
+      - Rc
+  - osis: 1John
+    texts:
+      - 1Ja
+  - osis: 2John
+    texts:
+      - 2Ja
+  - osis: 3John
+    texts:
+      - 3 Jóáa
+      - 3Ja
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jóáa
+  - osis: John
+    texts:
+      - Jóáa
+      - Ja
+  - osis: Acts
+    texts:
+      - Hééchoó
+      - Hch
+  - osis: Rom
+    texts:
+      - Romááno
+      - Ro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Coríítio
+  - osis: 1Cor
+    texts:
+      - 1Co
+  - osis: 2Cor
+    texts:
+      - 2Co
+  - osis: Col
+    texts:
+      - Corotséétse
+      - Cor
+  - osis: Gal
+    texts:
+      - Gáárata
+      - Ga
+  - osis: Eph
+    texts:
+      - Epéétsio
+      - Ep
+  - osis: Phil
+    texts:
+      - Piripéétse
+      - Prp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tetseronitséétse
+  - osis: 1Thess
+    texts:
+      - 1Te
+  - osis: 2Thess
+    texts:
+      - 2Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotéo
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Tíítoó
+      - Tit
+  - osis: Phlm
+    texts:
+      - Piremóo
+      - Prm
+  - osis: Heb
+    texts:
+      - Heeberéo
+      - He
+  - osis: Jas
+    texts:
+      - Tsajtiágo
+      - Tsa
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Péédoro
+  - osis: 1Pet
+    texts:
+      - 1Pe
+  - osis: 2Pet
+    texts:
+      - 2Pe
+  - osis: Jude
+    texts:
+      - Jóódaá
+      - Jo
+translations:
+  - BOA

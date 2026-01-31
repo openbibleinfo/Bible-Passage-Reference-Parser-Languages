@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Tundunan
+    short: 1Tund.
+  1Cor:
+    long: 1 Korintus
+    short: 1Kor.
+  1John:
+    long: 1 Yohanes
+    short: 1Yoh.
+  1Kgs:
+    long: 1 Tomundo-tomundo
+    short: 1Tom.
+  1Pet:
+    long: 1 Petrus
+    short: 1Ptr.
+  1Sam:
+    long: 1 Samuel
+    short: 1Sam.
+  1Thess:
+    long: 1 Tesalonika
+    short: 1Tes.
+  1Tim:
+    long: 1 Timotius
+    short: 1Tim.
+  2Chr:
+    long: 2 Tundunan
+    short: 2Tund.
+  2Cor:
+    long: 2 Korintus
+    short: 2Kor.
+  2John:
+    long: 2 Yohanes
+    short: 2Yoh.
+  2Kgs:
+    long: 2 Tomundo-tomundo
+    short: 2Tom.
+  2Pet:
+    long: 2 Petrus
+    short: 2Ptr.
+  2Sam:
+    long: 2 Samuel
+    short: 2Sam.
+  2Thess:
+    long: 2 Tesalonika
+    short: 2Tes.
+  2Tim:
+    long: 2 Timotius
+    short: 2Tim.
+  3John:
+    long: 3 Yohanes
+    short: 3Yoh.
+  Acts:
+    long: Rasul-rasul Salitano
+    short: Kis. R.
+  Amos:
+    long: Amos
+    short: Am.
+  Col:
+    long: Kolose
+    short: Kol.
+  Dan:
+    long: Daniel
+    short: Dan.
+  Deut:
+    long: Kuaikon
+    short: Kua.
+  Eccl:
+    long: Pongotunggul
+    short: Pongot.
+  Eph:
+    long: Efesus
+    short: Ef.
+  Esth:
+    long: Ester
+    short: Est.
+  Exod:
+    long: Tobuatan
+    short: Tob.
+  Ezek:
+    long: Yeheskiel
+    short: Yeh.
+  Ezra:
+    long: Ezra
+    short: Ezr.
+  Gal:
+    long: Galatia
+    short: Gal.
+  Gen:
+    long: Tealian
+    short: Tea.
+  Hab:
+    long: Habakuk
+    short: Hab.
+  Hag:
+    long: Hagai
+    short: Hag.
+  Heb:
+    long: Ibrani
+    short: Ibr.
+  Hos:
+    long: Hosea
+    short: Hos.
+  Isa:
+    long: Yesaya
+    short: Yes.
+  Jas:
+    long: Yakobus
+    short: Yak.
+  Jer:
+    long: Yeremia
+    short: Yer.
+  Job:
+    long: Ayub
+    short: Ayb.
+  Joel:
+    long: Yoel
+    short: Yl.
+  John:
+    long: Yohanes
+    short: Yoh.
+  Jonah:
+    long: Yunus
+    short: Yun.
+  Josh:
+    long: Yosua
+    short: Yos.
+  Jude:
+    long: Yudas
+    short: Yud.
+  Judg:
+    long: Tano-tano
+    short: Tan.
+  Lam:
+    long: Mandaungan
+    short: Manda.
+  Lev:
+    long: Basambuan
+    short: Basam.
+  Luke:
+    long: Lukas
+    short: Luk.
+  Mal:
+    long: Maleaki
+    short: Mal.
+  Mark:
+    long: Markus
+    short: Mrk.
+  Matt:
+    long: Matius
+    short: Mat.
+  Mic:
+    long: Mikha
+    short: Mik.
+  Nah:
+    long: Nahum
+    short: Nah.
+  Neh:
+    long: Nehemia
+    short: Neh.
+  Num:
+    long: Bangaitan
+    short: Bang.
+  Obad:
+    long: Obaja
+    short: Ob.
+  Phil:
+    long: Filipi
+    short: Flp.
+  Phlm:
+    long: Filemon
+    short: Flm.
+  Prov:
+    long: Andean
+    short: And.
+  Ps:
+    long: Sadeong
+    short: Sad.
+  Rev:
+    long: Inokitakon
+    short: Ink.
+  Rom:
+    long: Roma
+    short: Rm.
+  Ruth:
+    long: Rut
+    short: Rut
+  Song:
+    long: Kidung Tuuno
+    short: Kit.
+  Titus:
+    long: Titus
+    short: Tit.
+  Zech:
+    long: Zakharia
+    short: Zak.
+  Zeph:
+    long: Zefanya
+    short: Zef.

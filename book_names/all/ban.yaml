@@ -1,0 +1,311 @@
+- osis: Gen
+  texts:
+    - Purwakaning Dadi
+    - Pur.
+- osis: Exod
+  texts:
+    - Pararudan
+    - Par.
+- osis: Lev
+  texts:
+    - Upacara
+    - Up.
+- osis: Num
+  texts:
+    - Cacah Jiwa
+    - Ca.
+- osis: Lam
+  texts:
+    - Sesambatan
+    - Ses.
+- osis: Rev
+  texts:
+    - Wahyu
+    - Wah.
+- osis: Deut
+  texts:
+    - Pangeling-eling
+    - Pang.
+- osis: Josh
+  texts:
+    - Yosua
+    - Yos.
+- osis: Judg
+  texts:
+    - Parahakim
+    - Parahak.
+- osis: Ruth
+  texts:
+    - Rut
+- osis: Isa
+  texts:
+    - Nabi Yesaya
+    - Yes.
+- osis: 1Sam
+  texts:
+    - 1 Samuel
+    - 1. Samuel
+- osis: 2Sam
+  texts:
+    - 2 Samuel
+    - 2. Samuel
+- osis: 1Sam
+  texts:
+    - 1Sam.
+- osis: 2Sam
+  texts:
+    - 2Sam.
+- osis: 1Kgs
+  texts:
+    - 1 Pararatu
+    - 1. Pararatu
+- osis: 2Kgs
+  texts:
+    - 2 Pararatu
+    - 2. Pararatu
+- osis: 1Kgs
+  texts:
+    - 1Pararat.
+- osis: 2Kgs
+  texts:
+    - 2Pararat.
+- osis: 1Chr
+  texts:
+    - 1 Babad
+    - 1. Babad
+- osis: 2Chr
+  texts:
+    - 2 Babad
+    - 2. Babad
+- osis: 1Chr
+  texts:
+    - 1Bab.
+- osis: 2Chr
+  texts:
+    - 2Bab.
+- osis: Ezra
+  texts:
+    - Esra
+    - Es.
+- osis: Neh
+  texts:
+    - Nehemia
+    - Ne.
+- osis: Esth
+  texts:
+    - Ester
+    - Est.
+- osis: Job
+  texts:
+    - Ayub
+    - Ay.
+- osis: Prov
+  texts:
+    - Pitutur
+    - Pit.
+- osis: Eccl
+  texts:
+    - Guru Pangajian
+    - Guru.
+- osis: Song
+  texts:
+    - Kidung Geguritan
+    - Geg.
+- osis: Ps
+  texts:
+    - Kidung
+    - Kid.
+- osis: Jer
+  texts:
+    - Nabi Yeremia
+    - Yer.
+- osis: Ezek
+  texts:
+    - Nabi Yeheskiel
+    - Yeh.
+- osis: Dan
+  texts:
+    - Nabi Daniel
+    - Dan.
+- osis: Hos
+  texts:
+    - Nabi Hosea
+    - Hos.
+- osis: Joel
+  texts:
+    - Nabi Yoel
+    - Yo.
+- osis: Amos
+  texts:
+    - Nabi Amos
+    - Am.
+- osis: Obad
+  texts:
+    - Nabi Obaja
+    - Ob.
+- osis: Jonah
+  texts:
+    - Nabi Yunus
+    - Yu.
+- osis: Mic
+  texts:
+    - Nabi Mika
+    - Mi.
+- osis: Nah
+  texts:
+    - Nabi Nahum
+    - Na.
+- osis: Hab
+  texts:
+    - Nabi Habakuk
+    - Ha.
+- osis: Zeph
+  texts:
+    - Nabi Sepanya
+    - Se.
+- osis: Hag
+  texts:
+    - Nabi Hagai
+    - Hag.
+- osis: Zech
+  texts:
+    - Nabi Sakaria
+    - Sa.
+- osis: Mal
+  texts:
+    - Nabi Maleaki
+    - Mal.
+- osis: Matt
+  texts:
+    - Matius
+    - Mat.
+- osis: Mark
+  texts:
+    - Markus
+    - Mar.
+- osis: Luke
+  texts:
+    - Lukas
+    - Luk.
+- osis: 1John
+  texts:
+    - 1Yoh.
+- osis: 2John
+  texts:
+    - 2Yoh.
+- osis: 3John
+  texts:
+    - 3 Yohanes
+    - 3Yoh.
+- osis: 1John
+  texts:
+    - 1 Yohanes
+    - 1. Yohanes
+- osis: 2John
+  texts:
+    - 2 Yohanes
+    - 2. Yohanes
+- osis: John
+  texts:
+    - Yohanes
+    - Yoh.
+- osis: Acts
+  texts:
+    - Pamargin Parautusan
+    - Paraut.
+- osis: Rom
+  texts:
+    - Rom.
+    - Roma
+- osis: 1Cor
+  texts:
+    - 1 Korintus
+    - 1. Korintus
+- osis: 2Cor
+  texts:
+    - 2 Korintus
+    - 2. Korintus
+- osis: 1Cor
+  texts:
+    - 1Kor.
+- osis: 2Cor
+  texts:
+    - 2Kor.
+- osis: Col
+  texts:
+    - Kolose
+    - Kol.
+- osis: Gal
+  texts:
+    - Galatia
+    - Gal.
+- osis: Eph
+  texts:
+    - Epesus
+    - Ep.
+- osis: Phil
+  texts:
+    - Pilipi
+    - Pil.
+- osis: 1Thess
+  texts:
+    - 1 Tesalonika
+    - 1. Tesalonika
+- osis: 2Thess
+  texts:
+    - 2 Tesalonika
+    - 2. Tesalonika
+- osis: 1Thess
+  texts:
+    - 1Tes.
+- osis: 2Thess
+  texts:
+    - 2Tes.
+- osis: 1Tim
+  texts:
+    - 1 Timotius
+    - 1. Timotius
+- osis: 2Tim
+  texts:
+    - 2 Timotius
+    - 2. Timotius
+- osis: 1Tim
+  texts:
+    - 1Tim.
+- osis: 2Tim
+  texts:
+    - 2Tim.
+- osis: Titus
+  texts:
+    - Titus
+    - Tit.
+- osis: Phlm
+  texts:
+    - Pilemon
+    - Pile.
+- osis: Heb
+  texts:
+    - Ibrani
+    - Ib.
+- osis: Jas
+  texts:
+    - Yakobus
+    - Yak.
+- osis: 1Pet
+  texts:
+    - 1 Petrus
+    - 1. Petrus
+- osis: 2Pet
+  texts:
+    - 2 Petrus
+    - 2. Petrus
+- osis: 1Pet
+  texts:
+    - 1Pet.
+- osis: 2Pet
+  texts:
+    - 2Pet.
+- osis: Jude
+  texts:
+    - Yudas
+    - Yud.

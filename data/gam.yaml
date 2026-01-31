@@ -1,0 +1,124 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Repelesin
+  - osis: Matt
+    texts:
+      - Matyu
+  - osis: Mark
+    texts:
+      - Mak
+  - osis: Luke
+    texts:
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Jon
+  - osis: 2John
+    texts:
+      - 2Jon
+  - osis: 3John
+    texts:
+      - 3 Jon
+      - 3Jon
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jon
+  - osis: Acts
+    texts:
+      - Aposel
+  - osis: Rom
+    texts:
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korin
+  - osis: 1Cor
+    texts:
+      - 1Kor
+  - osis: 2Cor
+    texts:
+      - 2Kor
+  - osis: Col
+    texts:
+      - Kolosi
+  - osis: Gal
+    texts:
+      - Galesia
+  - osis: Eph
+    texts:
+      - Epesus
+  - osis: Phil
+    texts:
+      - Pilipai
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonaika
+  - osis: 1Thess
+    texts:
+      - 1Tes
+  - osis: 2Thess
+    texts:
+      - 2Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Taitus
+      - Tai
+  - osis: Phlm
+    texts:
+      - Pilemon
+  - osis: Heb
+    texts:
+      - Ibru
+  - osis: Jas
+    texts:
+      - Jems
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+  - osis: 1Pet
+    texts:
+      - 1Pita
+  - osis: 2Pet
+    texts:
+      - 2Pita
+  - osis: Jude
+    texts:
+      - Jut
+translations:
+  - GAM

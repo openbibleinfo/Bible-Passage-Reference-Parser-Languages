@@ -1,0 +1,197 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Jenesii̱s
+      - Jen
+  - osis: Exod
+    texts:
+      - Éksondo̱
+      - Eks
+  - osis: Lev
+    texts:
+      - Lebitiko̱
+      - Leb
+  - osis: Num
+    texts:
+      - Xki̱
+  - osis: Lam
+    texts:
+      - Kjo̱a̱chaꞌaá
+      - Kjo
+  - osis: Rev
+    texts:
+      - Ni xi akakoo̱
+      - Nxa
+  - osis: Deut
+    texts:
+      - Ndeuteronomio̱
+      - Nde
+  - osis: Ruth
+    texts:
+      - Na̱ Ruu̱t
+      - Nar
+  - osis: Esth
+    texts:
+      - Na̱ Estee̱r (Ebreo̱)
+      - Na̱ Estee̱r
+      - Nae
+  - osis: Job
+    texts:
+      - Joo̱b
+      - Joo
+  - osis: Ps
+    texts:
+      - Xo̱jo̱n Salmoo̱
+      - Xsl
+  - osis: Prov
+    texts:
+      - Énkjínkón
+      - Enk
+  - osis: Eccl
+    texts:
+      - Eklesiastee̱
+      - Ekl
+  - osis: Song
+    texts:
+      - Én xí nda xi ꞌniú tsjatsó ngasee̱
+      - Exn
+  - osis: Jonah
+    texts:
+      - Jonaa̱
+      - Jon
+  - osis: Matt
+    texts:
+      - Matioo̱
+      - Mat
+  - osis: Mark
+    texts:
+      - Markoo̱
+      - Mar
+  - osis: Luke
+    texts:
+      - Rkaa̱
+      - Rka
+  - osis: 1John
+    texts:
+      - 1xj
+  - osis: 2John
+    texts:
+      - 2xj
+  - osis: 3John
+    texts:
+      - 3 Xo̱jo̱o̱n Juaa̱
+      - 3xj
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Xo̱jo̱o̱n Juaa̱
+  - osis: John
+    texts:
+      - Juaa̱
+      - Jua
+  - osis: Acts
+    texts:
+      - Ni xi kamá
+      - Nxk
+  - osis: Rom
+    texts:
+      - Xota̱ Roma̱
+      - Xro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Xota̱ Korinto̱
+  - osis: 1Cor
+    texts:
+      - 1xk
+  - osis: 2Cor
+    texts:
+      - 2xk
+  - osis: Col
+    texts:
+      - Xota̱ Kolosa̱
+      - Xko
+  - osis: Gal
+    texts:
+      - Xota̱ Ngalasia̱
+      - Xga
+  - osis: Eph
+    texts:
+      - Xota̱ Éfeso̱
+      - Xef
+  - osis: Phil
+    texts:
+      - Xota̱ Filipo̱
+      - Xfi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Xota̱ Tesalónika̱
+  - osis: 1Thess
+    texts:
+      - 1xt
+  - osis: 2Thess
+    texts:
+      - 2xt
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoo̱
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Titoo̱
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemoo̱
+      - Fil
+  - osis: Heb
+    texts:
+      - Xota̱ Ebreo̱
+      - Xeb
+  - osis: Jas
+    texts:
+      - Xo̱jo̱o̱n Sandiyaá
+      - Xsa
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Xo̱jo̱o̱n Peé
+  - osis: 1Pet
+    texts:
+      - 1xp
+  - osis: 2Pet
+    texts:
+      - 2xp
+  - osis: Jude
+    texts:
+      - Xo̱jo̱o̱n Jundaa̱
+      - Xju
+translations:
+  - MAIX

@@ -1,0 +1,95 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Yelwiilsɩ
+  - osis: Matt
+    texts:
+      - Matiu
+  - osis: Mark
+    texts:
+      - Maakɩ
+  - osis: Luke
+    texts:
+      - Luka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jɔɔn
+  - osis: Acts
+    texts:
+      - A Tʊ̃mɔ̃
+      - Tʊ̃mɔ̃
+  - osis: Rom
+    texts:
+      - Worom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korɩntɩ
+  - osis: Col
+    texts:
+      - Kolose
+  - osis: Gal
+    texts:
+      - Galatiya
+  - osis: Eph
+    texts:
+      - Efesus
+  - osis: Phil
+    texts:
+      - Filipai
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tɛsalonika
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: Titus
+    texts:
+      - Titusɩ
+  - osis: Phlm
+    texts:
+      - Filemon
+  - osis: Heb
+    texts:
+      - "Heburu Gãn"
+      - Heburu Gãn
+  - osis: Jas
+    texts:
+      - Jemesɩ
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+  - osis: Jude
+    texts:
+      - Judɩ
+translations:
+  - BIV

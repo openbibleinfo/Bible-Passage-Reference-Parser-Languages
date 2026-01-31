@@ -1,0 +1,144 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Génesis
+      - Gén.
+  - osis: Exod
+    texts:
+      - Éxodo
+      - Éxo.
+  - osis: Lev
+    texts:
+      - Levítico
+      - Lev.
+  - osis: Num
+    texts:
+      - Números
+      - Núm.
+  - osis: Rev
+    texts:
+      - Irantayeteri Jesoquirishito
+      - Ij.
+  - osis: Deut
+    texts:
+      - Deuteronomio
+      - Deut.
+  - osis: Josh
+    texts:
+      - Josué
+      - Jos.
+  - osis: Ps
+    texts:
+      - Salmos
+      - Sal.
+  - osis: Prov
+    texts:
+      - Proverbios
+      - Pro.
+  - osis: Matt
+    texts:
+      - Mateo
+      - Mt.
+  - osis: Mark
+    texts:
+      - Maricoshi
+      - Mr.
+  - osis: Luke
+    texts:
+      - Irocashi
+      - Ir.
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Joa
+  - osis: Acts
+    texts:
+      - Itiancaneni Jesoshi
+      - Yan.
+  - osis: Rom
+    texts:
+      - Oromasati
+      - Orom.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corintosati
+      - Cor.
+  - osis: Col
+    texts:
+      - Corosashisati
+      - Cor.
+  - osis: Gal
+    texts:
+      - Carashiasati
+      - Car.
+  - osis: Eph
+    texts:
+      - Ejesosati
+      - Ej.
+  - osis: Phil
+    texts:
+      - Jiriposhisati
+      - Jrp.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaronicasati
+      - Ts.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+      - Ti.
+  - osis: Titus
+    texts:
+      - Tit.
+      - Tito
+  - osis: Phlm
+    texts:
+      - Jiremona
+      - Jir.
+  - osis: Heb
+    texts:
+      - Ijorioririnte
+      - Ij.
+  - osis: Jas
+    texts:
+      - Santiaco
+      - St.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petero
+      - P.
+  - osis: Jude
+    texts:
+      - Jorashi
+      - Jor.
+translations:
+  - CNI

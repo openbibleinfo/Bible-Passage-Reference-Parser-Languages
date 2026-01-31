@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Wiivariyuli
+  - osis: Matt
+    texts:
+      - Matáayo
+  - osis: Mark
+    texts:
+      - Maáriki
+  - osis: Luke
+    texts:
+      - Lʉ́ka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yooháani
+  - osis: Acts
+    texts:
+      - Mɨrɨmo ya Vatumwi
+  - osis: Rom
+    texts:
+      - Varúumi
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Vakoríinto
+  - osis: Col
+    texts:
+      - Vakolosáai
+  - osis: Gal
+    texts:
+      - Vagalatía
+  - osis: Eph
+    texts:
+      - Vaeféeso
+  - osis: Phil
+    texts:
+      - Vafilíipi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Vatesaloníike
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotéeo
+  - osis: Titus
+    texts:
+      - Tíito
+  - osis: Phlm
+    texts:
+      - Filemóoni
+  - osis: Heb
+    texts:
+      - Vaeburanía
+  - osis: Jas
+    texts:
+      - Yaakúupu
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peéteri
+  - osis: Jude
+    texts:
+      - Yʉ́ʉda
+translations:
+  - LAG

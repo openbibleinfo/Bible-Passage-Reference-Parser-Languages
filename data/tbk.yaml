@@ -1,0 +1,141 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Ipinag̱ubligar
+      - Ipn
+  - osis: Matt
+    texts:
+      - Mateo
+      - Mat
+  - osis: Mark
+    texts:
+      - Marcos
+      - Mrc
+  - osis: Luke
+    texts:
+      - Lucas
+      - Luc
+  - osis: 1John
+    texts:
+      - 1Jn
+  - osis: 2John
+    texts:
+      - 2Jn
+  - osis: 3John
+    texts:
+      - 3 Juan
+      - 3Jn
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Juan
+  - osis: John
+    texts:
+      - Juan
+      - Jun
+  - osis: Acts
+    texts:
+      - Mga Binuat-buatan
+      - Bnt
+  - osis: Rom
+    texts:
+      - Roma
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corinto
+  - osis: 1Cor
+    texts:
+      - 1Co
+  - osis: 2Cor
+    texts:
+      - 2Co
+  - osis: Col
+    texts:
+      - Colosas
+      - Col
+  - osis: Gal
+    texts:
+      - Galacia
+      - Gal
+  - osis: Eph
+    texts:
+      - Efeso
+      - Efs
+  - osis: Phil
+    texts:
+      - Filipos
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonica
+  - osis: 1Thess
+    texts:
+      - 1Ts
+  - osis: 2Thess
+    texts:
+      - 2Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemon
+      - Flm
+  - osis: Heb
+    texts:
+      - Mga Hebreo
+      - Heb
+  - osis: Jas
+    texts:
+      - Santiago
+      - San
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pedro
+  - osis: 1Pet
+    texts:
+      - 1Pe
+  - osis: 2Pet
+    texts:
+      - 2Pe
+  - osis: Jude
+    texts:
+      - Judas
+      - Jud
+translations:
+  - TBK

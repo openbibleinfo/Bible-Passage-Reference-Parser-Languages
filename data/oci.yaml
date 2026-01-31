@@ -1,0 +1,19 @@
+books:
+  - osis: Matt
+    texts:
+      - Sant Matiéu
+      - Mat
+  - osis: Mark
+    texts:
+      - Sant Marc
+      - Marc
+  - osis: Luke
+    texts:
+      - Sant Lu
+      - Lu
+  - osis: John
+    texts:
+      - Sant Jan
+      - Jan
+translations:
+  - PROV

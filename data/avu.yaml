@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Tã Âꞌdâ
+  - osis: Matt
+    texts:
+      - Mãtáyõ
+  - osis: Mark
+    texts:
+      - Márãkõ
+  - osis: Luke
+    texts:
+      - Lúkạ̃
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yõwánĩ
+  - osis: Acts
+    texts:
+      - Tã ꞌẼꞌẽ
+  - osis: Rom
+    texts:
+      - Rómã lé ꞌbá
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kõrínĩtõ lé ꞌbá
+  - osis: Col
+    texts:
+      - Kõlósĩ lé ꞌbá
+  - osis: Gal
+    texts:
+      - Gãlãtíyã lé ꞌbá
+  - osis: Eph
+    texts:
+      - Ẽfésõ lé ꞌbá
+  - osis: Phil
+    texts:
+      - Fıٜ̃lıٜ́pıٜ̃ lé ꞌbá
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tẽsãlõníkã lé ꞌbá
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tĩmátĩyã
+  - osis: Titus
+    texts:
+      - Títõ
+  - osis: Phlm
+    texts:
+      - Fĩlẽmónã
+  - osis: Heb
+    texts:
+      - Ị́bũrũ
+  - osis: Jas
+    texts:
+      - Yãkóbã
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pétẽrõ
+  - osis: Jude
+    texts:
+      - Yúdıٜ̃
+translations:
+  - AVU

@@ -1,0 +1,148 @@
+variables:
+  first: &first
+    - "1"
+    - १
+  second: &second
+    - "2"
+    - २
+books:
+  - osis: Rev
+    texts:
+      - प्रकास
+      - प्रका
+  - osis: Matt
+    texts:
+      - मत्‍ति
+      - मति
+      - मत्
+  - osis: Mark
+    texts:
+      - मर्कुस
+      - मर्कु
+  - osis: Luke
+    texts:
+      - लुका
+      - लुक
+  - osis: 3John
+    texts:
+      - 3 युहान्‍ना
+      - ३ युहन्‍ना
+      - 3 युह
+      - ३ युह
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - युहान्‍ना
+      - युहन्‍ना
+      - युह
+  - osis: John
+    texts:
+      - युहान्‍ना
+      - युहन्‍ना
+      - युहा
+      - युह
+  - osis: Acts
+    texts:
+      - साल्‍तेङ दिङगिल्‍का
+      - साल्न्हाका चात्या
+      - प्रे
+      - साल्
+  - osis: Rom
+    texts:
+      - रोमि
+      - रोम
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - कोरिन्‍थि
+      - कोरिन्थि
+      - कोरि
+      - कोर
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - कोरिन्थि
+      - कोर
+  - osis: Col
+    texts:
+      - कलस्‍सि
+      - कलस्सि
+      - कल
+  - osis: Gal
+    texts:
+      - गलाति
+      - गला
+  - osis: Eph
+    texts:
+      - एफिसि
+      - एफि
+  - osis: Phil
+    texts:
+      - फिलिप्‍पि
+      - फिलिप्पि
+      - फिलि
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - थेसोलोनिकि
+      - थेस्लोनिकि
+      - थेसो
+      - थेस
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - तिमोथि
+      - तिमो
+  - osis: 1Tim
+    texts:
+      - 1तिमोथि
+      - 1तिमो
+  - osis: Titus
+    texts:
+      - तितस
+      - तित
+  - osis: Phlm
+    texts:
+      - फिलेमोन
+      - फिले
+  - osis: Heb
+    texts:
+      - हिब्रु
+  - osis: Jas
+    texts:
+      - याकुब
+      - याकु
+      - याक
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - पत्‍रुस
+      - पत्
+      - पत
+  - osis: 1Pet
+    texts:
+      - 1पतरुस
+  - osis: 2Pet
+    texts:
+      - पतरुस
+  - osis: Jude
+    texts:
+      - यहुदा
+      - यहु
+translations:
+  - DHINT
+  - DHIM

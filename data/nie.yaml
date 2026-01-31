@@ -1,0 +1,134 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Wa̰y ne ɓla ndɔ tɨ bayri
+      - Ɓla
+  - osis: Matt
+    texts:
+      - Matyo
+      - Mat
+  - osis: Mark
+    texts:
+      - Mark
+      - Mrk
+  - osis: Luke
+    texts:
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Ja̰
+  - osis: 2John
+    texts:
+      - 2Ja̰
+  - osis: 3John
+    texts:
+      - 3 Ja̰
+      - 3Ja̰
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Ja̰
+  - osis: Acts
+    texts:
+      - Bi tɨ Tomni na cida
+      - Tom
+  - osis: Rom
+    texts:
+      - Romḛ-a
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kɔrḛt-a
+  - osis: 1Cor
+    texts:
+      - 1Kɔ
+  - osis: 2Cor
+    texts:
+      - 2Kɔ
+  - osis: Col
+    texts:
+      - Kolosḛ-a
+      - Kol
+  - osis: Gal
+    texts:
+      - Galat-a
+      - Gal
+  - osis: Eph
+    texts:
+      - Epes-a
+      - Eps
+  - osis: Phil
+    texts:
+      - Pilip-a
+      - Pil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonik-a
+  - osis: 1Thess
+    texts:
+      - 1Ts
+  - osis: 2Thess
+    texts:
+      - 2Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Tit
+  - osis: Phlm
+    texts:
+      - Pilemo̰
+      - Plm
+  - osis: Heb
+    texts:
+      - Hebre-a
+      - Heb
+  - osis: Jas
+    texts:
+      - Jak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piyɛr
+  - osis: 1Pet
+    texts:
+      - 1Py
+  - osis: 2Pet
+    texts:
+      - 2Py
+  - osis: Jude
+    texts:
+      - Jud
+translations:
+  - NIE

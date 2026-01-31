@@ -1,0 +1,214 @@
+variables:
+  first: &first
+    - I
+  second: &second
+    - II
+  third: &third
+    - III
+books:
+  - osis: Gen
+    texts:
+      - Яратылыш
+  - osis: Exod
+    texts:
+      - Чыгыш
+  - osis: Lev
+    texts:
+      - Левиләр
+  - osis: Num
+    texts:
+      - Саннар
+  - osis: Lam
+    texts:
+      - Кайгы җыры
+  - osis: Rev
+    texts:
+      - Ачылыш
+  - osis: Deut
+    texts:
+      - Канун
+  - osis: Josh
+    texts:
+      - Ешуа
+  - osis: Judg
+    texts:
+      - Хөкемчеләр
+  - osis: Ruth
+    texts:
+      - Рут
+  - osis: Isa
+    texts:
+      - Ишагыйя
+  - osis: 1Kgs
+    texts:
+      - III Патшалар
+  - osis: 2Kgs
+    texts:
+      - IV Патшалар
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Патшалар
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Елъязма
+  - osis: Ezra
+    texts:
+      - Эзра
+  - osis: Neh
+    texts:
+      - Нәхәмия
+  - osis: Esth
+    texts:
+      - Эстер
+  - osis: Job
+    texts:
+      - Әюб
+  - osis: Ps
+    texts:
+      - Зәбур
+  - osis: Prov
+    texts:
+      - Гыйбрәтле сүзләр
+  - osis: Eccl
+    texts:
+      - Вәгазьче
+  - osis: Song
+    texts:
+      - Җырлар җыры
+  - osis: Jer
+    texts:
+      - Иремия
+  - osis: Ezek
+    texts:
+      - Яхәзкыл
+  - osis: Dan
+    texts:
+      - Даниил
+  - osis: Hos
+    texts:
+      - Һошея
+  - osis: Joel
+    texts:
+      - Йоил
+  - osis: Amos
+    texts:
+      - Амос
+  - osis: Obad
+    texts:
+      - Убадия
+  - osis: Jonah
+    texts:
+      - Юныс
+  - osis: Mic
+    texts:
+      - Михә
+  - osis: Nah
+    texts:
+      - Нахум
+  - osis: Hab
+    texts:
+      - Хабаккук
+  - osis: Zeph
+    texts:
+      - Сефания
+  - osis: Hag
+    texts:
+      - Хәггәй
+  - osis: Zech
+    texts:
+      - Зәкәрия
+  - osis: Mal
+    texts:
+      - Малахи
+  - osis: Matt
+    texts:
+      - Маттай
+  - osis: Mark
+    texts:
+      - Марк
+  - osis: Luke
+    texts:
+      - Лүк
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Яхъядан хат
+  - osis: John
+    texts:
+      - Яхъя
+  - osis: Acts
+    texts:
+      - Рәсүлләр
+  - osis: Rom
+    texts:
+      - Римлыларга хат
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Көринтлеләргә хат
+  - osis: Col
+    texts:
+      - Көлессәйлеләргә хат
+  - osis: Gal
+    texts:
+      - Гәләтиялеләргә хат
+  - osis: Eph
+    texts:
+      - Эфеслеләргә хат
+  - osis: Phil
+    texts:
+      - Филиппуйлыларга хат
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Тессалуникәлеләргә хат
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Тимутәйгә хат
+  - osis: Titus
+    texts:
+      - Титуска хат
+  - osis: Phlm
+    texts:
+      - Филимунга хат
+  - osis: Heb
+    texts:
+      - Гыйбриләргә хат
+  - osis: Jas
+    texts:
+      - Ягъкубтан хат
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Петердән хат
+  - osis: Jude
+    texts:
+      - Яһүдәдән хат
+translations:
+  - TTRBBL

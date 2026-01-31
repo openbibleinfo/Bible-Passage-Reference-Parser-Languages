@@ -1,0 +1,242 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Gimpuunan
+      - Gim.
+  - osis: Exod
+    texts:
+      - Pag-ighit
+      - Pag.
+  - osis: Lev
+    texts:
+      - Libitiku
+      - Lib.
+  - osis: Num
+    texts:
+      - Bilang
+      - Bil.
+  - osis: Lam
+    texts:
+      - Karukuan
+  - osis: Rev
+    texts:
+      - Ipinakakit
+  - osis: Deut
+    texts:
+      - Diyuturunumiyu
+      - Diyut.
+  - osis: Josh
+    texts:
+      - Huswi
+  - osis: Judg
+    texts:
+      - Talaghusay
+      - Talag.
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis: Isa
+    texts:
+      - Isayas
+      - Isa.
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samwil
+      - Sam.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Hari
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Krunika
+      - Kru.
+  - osis: Ezra
+    texts:
+      - Isra
+  - osis: Neh
+    texts:
+      - Nihimyas
+      - Nih.
+  - osis: Esth
+    texts:
+      - Istir
+  - osis: Job
+    texts:
+      - Hub
+  - osis: Prov
+    texts:
+      - Kabagawan
+  - osis: Eccl
+    texts:
+      - Manugtudlu
+  - osis: Song
+    texts:
+      - Kanta ni Sulumun
+  - osis: Ps
+    texts:
+      - Kanta
+  - osis: Jer
+    texts:
+      - Hirimyas
+      - Hir.
+  - osis: Ezek
+    texts:
+      - Isikil
+  - osis: Dan
+    texts:
+      - Danyil
+      - Dan.
+  - osis: Hos
+    texts:
+      - Husyas
+  - osis: Joel
+    texts:
+      - Huwil
+  - osis: Amos
+    texts:
+      - Amus
+  - osis: Obad
+    texts:
+      - Ubadyas
+  - osis: Jonah
+    texts:
+      - Hunas
+  - osis: Mic
+    texts:
+      - Mikas
+  - osis: Nah
+    texts:
+      - Nahum
+  - osis: Hab
+    texts:
+      - Habakuk
+      - Hab.
+  - osis: Zeph
+    texts:
+      - Sipanyas
+      - Sip.
+  - osis: Hag
+    texts:
+      - Hagay
+      - Hag.
+  - osis: Zech
+    texts:
+      - Sakaryas
+      - Sak.
+  - osis: Mal
+    texts:
+      - Malakyas
+      - Mal.
+  - osis: Matt
+    texts:
+      - Matiyu
+      - Mat.
+  - osis: Mark
+    texts:
+      - Markus
+      - Mk.
+  - osis: Luke
+    texts:
+      - Lukas
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Huwan
+      - Hu.
+  - osis: Acts
+    texts:
+      - Binwat
+      - Bin.
+  - osis: Rom
+    texts:
+      - Ruma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kurintu
+      - Kur.
+  - osis: Col
+    texts:
+      - Kulusas
+      - Kul.
+  - osis: Gal
+    texts:
+      - Galasya
+      - Gal.
+  - osis: Eph
+    texts:
+      - Ipisu
+  - osis: Phil
+    texts:
+      - Pilipus
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tisalunika
+      - Tis.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timutiyu
+      - Tim.
+  - osis: Titus
+    texts:
+      - Titu
+  - osis: Phlm
+    texts:
+      - Pilimun
+      - Pil.
+  - osis: Heb
+    texts:
+      - Hibriyu
+      - Hib.
+  - osis: Jas
+    texts:
+      - Santiyagu
+      - San.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pidru
+  - osis: Jude
+    texts:
+      - Hudas
+translations:
+  - HNN

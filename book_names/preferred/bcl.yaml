@@ -1,0 +1,235 @@
+default:
+  1Chr:
+    long: 1 Mga Cronica
+    short: 1 Cro.
+  1Cor:
+    long: 1 Corinto
+    short: 1 Cor.
+  1John:
+    long: 1 Juan
+    short: 1 Jn.
+  1Kgs:
+    long: 1 Mga Hade
+    short: 1 Ha.
+  1Macc:
+    long: 1 Maccabeo
+    short: 1 Mac.
+  1Pet:
+    long: 1 Pedro
+    short: 1 Ped.
+  1Sam:
+    long: 1 Samuel
+    short: 1 Sam.
+  1Thess:
+    long: 1 Tesalonica
+    short: 1 Tes.
+  1Tim:
+    long: 1 Timoteo
+    short: 1 Tim.
+  2Chr:
+    long: 2 Mga Cronica
+    short: 2 Cro.
+  2Cor:
+    long: 2 Corinto
+    short: 2 Cor.
+  2John:
+    long: 2 Juan
+    short: 2 Jn.
+  2Kgs:
+    long: 2 Mga Hade
+    short: 2 Ha.
+  2Macc:
+    long: 2 Maccabeo
+    short: 2 Mac.
+  2Pet:
+    long: 2 Pedro
+    short: 2 Ped.
+  2Sam:
+    long: 2 Samuel
+    short: 2 Sam.
+  2Thess:
+    long: 2 Tesalonica
+    short: 2 Tes.
+  2Tim:
+    long: 2 Timoteo
+    short: 2 Tim.
+  3John:
+    long: 3 Juan
+    short: 3 Jn.
+  Acts:
+    long: Mga Gibo
+    short: Gibo.
+  Amos:
+    long: Amos
+    short: Amos
+  Bar:
+    long: Baruc
+    short: Bar.
+  Bel:
+    long: Bel Asin an Dragon
+    short: Bel
+  Col:
+    long: Colosas
+    short: Col.
+  Dan:
+    long: Daniel
+    short: Dan.
+  Deut:
+    long: Deuteronomio
+    short: Deut.
+  Eccl:
+    long: Parahulit
+    short: Par.
+  EpJer:
+    long: An Surat ni Jeremias
+    short: Sur. Jer.
+  Eph:
+    long: Efeso
+    short: Efe.
+  Esth:
+    long: Esther
+    short: Est.
+  EsthGr:
+    long: Esther (An Griyegong Bersyon)
+    short: Est. Gr.
+  Exod:
+    long: Exodo
+    short: Exo.
+  Ezek:
+    long: Ezekiel
+    short: Ez.
+  Ezra:
+    long: Esdras
+    short: Esd.
+  Gal:
+    long: Galacia
+    short: Gal.
+  Gen:
+    long: Genesis
+    short: Gen.
+  Hab:
+    long: Habakkuk
+    short: Hab.
+  Hag:
+    long: Hageo
+    short: Hag.
+  Heb:
+    long: Hebreyo
+    short: Heb.
+  Hos:
+    long: Oseas
+    short: Os.
+  Isa:
+    long: Isaias
+    short: Isa.
+  Jas:
+    long: Santiago
+    short: San.
+  Jdt:
+    long: Judit
+    short: Jdt.
+  Jer:
+    long: Jeremias
+    short: Jer.
+  Job:
+    long: Job
+    short: Job.
+  Joel:
+    long: Joel
+    short: Joel
+  John:
+    long: Juan
+    short: Jn.
+  Jonah:
+    long: Jonas
+    short: Jon.
+  Josh:
+    long: Josue
+    short: Jos.
+  Jude:
+    long: Judas
+    short: Ju.
+  Judg:
+    long: Hukom
+    short: Huk.
+  Lam:
+    long: Mga Panambitan
+    short: Pan.
+  Lev:
+    long: Levitico
+    short: Lev.
+  Luke:
+    long: Lukas
+    short: Lk.
+  Mal:
+    long: Malakias
+    short: Mal.
+  Mark:
+    long: Markos
+    short: Mk.
+  Matt:
+    long: Mateo
+    short: Mt.
+  Mic:
+    long: Mikas
+    short: Mik.
+  Nah:
+    long: Nahum
+    short: Nah.
+  Neh:
+    long: Nehemias
+    short: Neh.
+  Num:
+    long: Mga Bilang
+    short: Bil.
+  Obad:
+    long: Obadias
+    short: Oba.
+  Phil:
+    long: Filipos
+    short: Flp.
+  Phlm:
+    long: Filemon
+    short: Flm.
+  PrAzar:
+    long: An Awit kan Tolong Hoben na Lalaki
+    short: Aw. kan 3 Lal.
+  Prov:
+    long: Mga Talinhaga
+    short: Tal.
+  Ps:
+    long: Salmo
+    short: Salmo
+  Rev:
+    long: Kapahayagan
+    short: Kap.
+  Rom:
+    long: Roma
+    short: Roma
+  Ruth:
+    long: Ruth
+    short: Ruth
+  Sir:
+    long: Sirac
+    short: Sir.
+  Song:
+    long: Awit nin mga Awit
+    short: Aw. nin Aw.
+  Sus:
+    long: Susana
+    short: Sus.
+  Titus:
+    long: Tito
+    short: Tito
+  Tob:
+    long: Tobit
+    short: Tob.
+  Wis:
+    long: An Kadonongan ni Solomon
+    short: Kad.
+  Zech:
+    long: Zacarias
+    short: Zac.
+  Zeph:
+    long: Sofonias
+    short: Sof.

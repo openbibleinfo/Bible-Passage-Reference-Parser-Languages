@@ -1,0 +1,96 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Prok
+  - osis: Matt
+    texts:
+      - Mt
+  - osis: Mark
+    texts:
+      - Mk
+  - osis: Luke
+    texts:
+      - Lk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Ju
+  - osis: Acts
+    texts:
+      - Ai
+  - osis: Rom
+    texts:
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kor
+  - osis: Col
+    texts:
+      - Kol
+  - osis: Gal
+    texts:
+      - Gal
+  - osis: Eph
+    texts:
+      - Efz
+  - osis: Phil
+    texts:
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tim
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: Titus
+    texts:
+      - Tit
+  - osis: Phlm
+    texts:
+      - Flm
+  - osis: Heb
+    texts:
+      - Heb
+  - osis: Jas
+    texts:
+      - Jak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Ped
+  - osis: Jude
+    texts:
+      - Jud
+translations:
+  - KONKABSI

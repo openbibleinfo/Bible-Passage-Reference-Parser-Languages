@@ -1,0 +1,145 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Panagna'an
+      - Pan
+  - osis: Exod
+    texts:
+      - Paglappas
+      - Pag
+  - osis: Rev
+    texts:
+      - Pamabukisan
+      - Pam
+  - osis: Judg
+    texts:
+      - Maghuhukum
+      - Mag
+  - osis: Ruth
+    texts:
+      - Rūt
+  - osis:
+      - osis: 1Sam
+        before: *first
+    texts:
+      - Samwel
+      - Sam
+  - osis: Esth
+    texts:
+      - Ester
+      - Est
+  - osis: Ps
+    texts:
+      - Kalangan
+      - Kal
+  - osis: Jonah
+    texts:
+      - Yunus
+      - Yun
+  - osis: Matt
+    texts:
+      - Matiyu
+      - Mat
+  - osis: Mark
+    texts:
+      - Markus
+      - Mrk
+  - osis: Luke
+    texts:
+      - Lukas
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yahiya
+      - Yah
+  - osis: Acts
+    texts:
+      - Kahinangan
+      - Kah
+  - osis: Rom
+    texts:
+      - Rōm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kurintu
+      - Kur
+  - osis: Col
+    texts:
+      - Kolossa
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatiya
+      - Gal
+  - osis: Eph
+    texts:
+      - Epesos
+      - Epe
+  - osis: Phil
+    texts:
+      - Pilipi
+      - Pil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tessaloneka
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timuti
+      - Tim
+  - osis: Titus
+    texts:
+      - Titus
+      - Tit
+  - osis: Phlm
+    texts:
+      - Pilimun
+      - Plm
+  - osis: Heb
+    texts:
+      - Hibrani
+      - Hib
+  - osis: Jas
+    texts:
+      - Yakub
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petros
+      - Pet
+  - osis: Jude
+    texts:
+      - Judas
+      - Jud
+translations:
+  - SML

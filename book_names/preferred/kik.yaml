@@ -1,0 +1,394 @@
+default:
+  1Chr:
+    long: 1 Maũndũ ma Matukũ ma Tene
+    short: 1Maũ
+  1Cor:
+    long: 1 Akorinitho
+    short: 1Akor
+  1John:
+    long: 1 Johana
+    short: 1Joh
+  1Kgs:
+    long: 1 Athamaki
+    short: 1Atha
+  1Macc:
+    long: 1 Makabai
+    short: 1Mak
+  1Pet:
+    long: 1 Petero
+    short: 1Pet
+  1Sam:
+    long: 1 Samũeli
+    short: 1Sam
+  1Thess:
+    long: 1 Athesalonike
+    short: 1Athe
+  1Tim:
+    long: 1 Timotheo
+    short: 1Tim
+  2Chr:
+    long: 2 Maũndũ ma Matukũ ma Tene
+    short: 2Maũ
+  2Cor:
+    long: 2 Akorinitho
+    short: 2Akor
+  2John:
+    long: 2 Johana
+    short: 2Joh
+  2Kgs:
+    long: 2 Athamaki
+    short: 2Atha
+  2Macc:
+    long: 2 Makabai
+    short: 2Mak
+  2Pet:
+    long: 2 Petero
+    short: 2Pet
+  2Sam:
+    long: 2 Samũeli
+    short: 2Sam
+  2Thess:
+    long: 2 Athesalonike
+    short: 2Athe
+  2Tim:
+    long: 2 Timotheo
+    short: 2Tim
+  3John:
+    long: 3 Johana
+    short: 3Joh
+  Acts:
+    long: Atũmwo
+    short: Atũ
+  Amos:
+    long: Amosi
+    short: Amo
+  Bar:
+    long: Baruku
+    short: Bar
+  Bel:
+    long: Beli na Ndamaathia
+    short: Beli
+  Col:
+    long: Akolosai
+    short: aKol
+  Dan:
+    long: Danieli
+    short: Dan
+  Deut:
+    long: Gũcookerithia Maathani
+    short: Gũco
+  Eccl:
+    long: Kohelethu
+    short: Koh
+  Eph:
+    long: aEfeso
+    short: aEf
+  Esth:
+    long: Esiteri
+    short: Esit
+  EsthGr:
+    long: Ibuku Rĩa Esiteri
+    short: EsG
+  Exod:
+    long: Thaama
+    short: Tha
+  Ezek:
+    long: Ezekieli
+    short: Eze
+  Ezra:
+    long: Ezira
+    short: Ezar
+  Gal:
+    long: Agalatia
+    short: aGal
+  Gen:
+    long: Kĩambĩrĩria
+    short: Kĩa
+  Hab:
+    long: Habakuku
+    short: Hab
+  Hag:
+    long: Hagai
+    short: Hag
+  Heb:
+    long: Ahibirania
+    short: Ahib
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Isaia
+    short: Isa
+  Jas:
+    long: Jakubu
+    short: Jak
+  Jdt:
+    long: Judithi
+    short: Judi
+  Jer:
+    long: Jeremia
+    short: Jer
+  Job:
+    long: Ayubu
+    short: Ayub
+  Joel:
+    long: Joeli
+    short: Joe
+  John:
+    long: Johana
+    short: Joh
+  Jonah:
+    long: Jona
+    short: Jon
+  Josh:
+    long: Joshua
+    short: Jos
+  Jude:
+    long: Judasi
+    short: Jud
+  Judg:
+    long: Atiirĩrĩri Bũrũri
+    short: Ati
+  Lam:
+    long: Macakaya
+    short: Maca
+  Lev:
+    long: Alawii
+    short: Alaw
+  Luke:
+    long: Luka
+    short: Luk
+  Mal:
+    long: Malaki
+    short: Mal
+  Mark:
+    long: Mariko
+    short: Mar
+  Matt:
+    long: Mathayo
+    short: Mat
+  Mic:
+    long: Mika
+    short: MiK
+  Nah:
+    long: Nahumu
+    short: Nah
+  Neh:
+    long: Nehemia
+    short: Neh
+  Num:
+    long: Ndari
+    short: Nda
+  Obad:
+    long: Obadia
+    short: Oba
+  Phil:
+    long: aFilipi
+    short: aFil
+  Phlm:
+    long: Filemona
+    short: Fil
+  PrAzar:
+    long: Ihooya rĩa Azaria
+    short: Ihooya
+  Prov:
+    long: Thimo
+    short: Thim
+  Ps:
+    long: Thaburi
+    short: Thab
+  Rev:
+    long: Kũguũrĩrio
+    short: Kũg
+  Rom:
+    long: aRoma
+    short: aRo
+  Ruth:
+    long: Ruthu
+    short: Rut
+  Sir:
+    long: Siraki
+    short: Sir
+  Song:
+    long: Rwĩmbo rwa Solomoni
+    short: Rw
+  Sus:
+    long: Susana
+    short: Sus
+  Titus:
+    long: Tito
+    short: Tit
+  Tob:
+    long: Tobiti
+    short: Tob
+  Wis:
+    long: Ũũgĩ wa Solomoni
+    short: Ũũg
+  Zech:
+    long: Zakaria
+    short: Zak
+  Zeph:
+    long: Zefania
+    short: Zef
+translations:
+  ogkbible:
+    1Chr:
+      short: 1 Maũ
+    1Cor:
+      long: 1 Akorintho
+      short: 1 Kor
+    1John:
+      short: 1 Joh
+    1Kgs:
+      short: 1 Ath
+    1Pet:
+      short: 1 Pet
+    1Sam:
+      long: 1 Samueli
+      short: 1 Sam
+    1Thess:
+      short: 1 Thes
+    1Tim:
+      short: 1 Tim
+    2Chr:
+      short: 2 Maũ
+    2Cor:
+      long: 2 Akorintho
+      short: 2 Kor
+    2John:
+      short: 2 Joh
+    2Kgs:
+      short: 2 Ath
+    2Pet:
+      short: 2 Pet
+    2Sam:
+      long: 2 Samueli
+      short: 2 Sam
+    2Thess:
+      short: 2 Thes
+    2Tim:
+      short: 2 Tim
+    3John:
+      short: 3 Joh
+    Acts:
+      short: Atũm
+    Amos:
+      short: Amos
+    Col:
+      short: Kol
+    Dan:
+      long: Ibuku Rĩa Danieli
+    Deut:
+      long: Gũcokerithia Maathani
+      short: Gũcok
+    Eph:
+      short: Ef
+    Esth:
+      long: Ibuku Rĩa Esiteri
+    Exod:
+      long: Thama
+      short: Thama
+    Ezek:
+      short: Ezek
+    Ezra:
+      long: Ibuku Rĩa Ezara
+    Gal:
+      short: Gal
+    Gen:
+      short: Kĩam
+    Job:
+      long: Ibuku Rĩa Ayubu
+    Joel:
+      short: Joel
+    Jonah:
+      short: Jona
+    Josh:
+      long: Ibuku Rĩa Joshua
+      short: Josh
+    Judg:
+      long: Ibuku Rĩa Atiirĩrĩri Bũrũri
+      short: Atiir
+    Lev:
+      long: Maũndũ Ma Alawii
+    Nah:
+      short: Nahu
+    Neh:
+      long: Ibuku Rĩa Nehemia
+    Num:
+      short: Ndar
+    Obad:
+      short: Obad
+    Phil:
+      short: Filip
+    Phlm:
+      short: Filem
+    Rom:
+      short: Rom
+    Ruth:
+      long: Ibuku Rĩa Ruthu
+      short: Ruth
+    Song:
+      long: Rũĩmbo Rũa Suleimani
+      short: Rũĩm
+    Zech:
+      long: Zekaria
+      short: Zek
+  gky:
+    1Kgs:
+      short: 1Ath
+    2Kgs:
+      short: 2Ath
+    Acts:
+      short: Atũm
+    Amos:
+      short: Amos
+    Deut:
+      long: Gũcookerithia
+      short: Gũcook
+    Exod:
+      short: Thaam
+    Ezek:
+      short: Ezek
+    Ezra:
+      long: Ezara
+    Gen:
+      short: Kĩam
+    Joel:
+      short: Joel
+    Josh:
+      short: Josh
+    Judg:
+      long: Atiirĩrĩri
+      short: Atiir
+    Matt:
+      short: Math
+    Nah:
+      short: Nahu
+    Num:
+      short: Ndar
+    Obad:
+      short: Obad
+    Phlm:
+      short: Filem
+    Rom:
+      short: aRom
+    Ruth:
+      short: Ruth
+    Song:
+      long: Rwĩmbo
+      short: Rwĩ
+    Zech:
+      long: Zekaria
+      short: Zek
+  gkn:
+    Esth:
+      short: Esi
+    Ezra:
+      short: Ezi
+    Heb:
+      long: Ahibrania
+  gkndc:
+    Ezra:
+      short: Ezi
+    Heb:
+      long: Ahibrania

@@ -13,6 +13,7 @@ const __dirname = dirname(__filename);
 const repoRoot = resolve(__dirname, "..");
 const dataDir = resolve(repoRoot, "data");
 const buildLangPath = resolve(__dirname, "build_lang.js");
+const buildSpecPath = resolve(__dirname, "build_spec.js");
 
 const entries = await readdir(dataDir, { withFileTypes: true });
 const langFiles = entries
@@ -54,6 +55,12 @@ async function runNext() {
 	let error = null;
 	try {
 		await execFileAsync("node", [buildLangPath, lang], {
+			maxBuffer: 50 * 1024 * 1024
+		});
+		await execFileAsync("node", [buildSpecPath, lang], {
+			maxBuffer: 50 * 1024 * 1024
+		});
+		await execFileAsync("npx", ["jasmine", resolve(repoRoot, "test", `${lang}.spec.js`), "--random=false"], {
 			maxBuffer: 50 * 1024 * 1024
 		});
 	} catch (error) {

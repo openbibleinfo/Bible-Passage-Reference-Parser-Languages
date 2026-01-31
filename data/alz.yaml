@@ -1,0 +1,272 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Thangambere
+      - Tha
+  - osis: Exod
+    texts:
+      - Ai
+  - osis: Lev
+    texts:
+      - Lembe Mi Julawi
+      - Law
+  - osis: Num
+    texts:
+      - Wel
+  - osis: Lam
+    texts:
+      - Ywak
+      - Ywa
+  - osis: Rev
+    texts:
+      - Lembanyutha
+      - Nyu
+  - osis: Deut
+    texts:
+      - Poi Mi Cik
+      - Poi
+  - osis: Josh
+    texts:
+      - Yocuwa
+      - Yoc
+  - osis: Judg
+    texts:
+      - Jupoklembe
+      - Pok
+  - osis: Ruth
+    texts:
+      - Ruth
+      - Rut
+  - osis: Isa
+    texts:
+      - Isaya
+      - Isa
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samwil
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Ubimo
+      - Ub
+  - osis:
+      - osis: 1Chr
+        before: *first
+    texts:
+      - Kei
+  - osis: 1Chr
+    texts:
+      - I Lemkei
+  - osis:
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Lemkei
+      - Kei
+  - osis: Ezra
+    texts:
+      - Ezra
+      - Ezr
+  - osis: Neh
+    texts:
+      - Nehemia
+      - Neh
+  - osis: Esth
+    texts:
+      - Ester
+      - Est
+  - osis: Job
+    texts:
+      - Yob
+  - osis: Ps
+    texts:
+      - Zaburi
+      - Zab
+  - osis: Prov
+    texts:
+      - Lembrieko
+      - Lem
+  - osis: Eccl
+    texts:
+      - Eklizia
+      - Ekl
+  - osis: Song
+    texts:
+      - Wer Pa Suleman
+      - Wer
+  - osis: Jer
+    texts:
+      - Yeremia
+      - Yer
+  - osis: Ezek
+    texts:
+      - Ezekiel
+      - Eze
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan
+  - osis: Hos
+    texts:
+      - Hoseya
+      - Hos
+  - osis: Joel
+    texts:
+      - Yoel
+      - Yoe
+  - osis: Amos
+    texts:
+      - Amos
+      - Amo
+  - osis: Obad
+    texts:
+      - Obadia
+      - Oba
+  - osis: Jonah
+    texts:
+      - Yona
+      - Yon
+  - osis: Mic
+    texts:
+      - Mika
+      - MiK
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Zefania
+      - Zef
+  - osis: Hag
+    texts:
+      - Hagai
+      - Hag
+  - osis: Zech
+    texts:
+      - Zekaria
+      - Zek
+  - osis: Mal
+    texts:
+      - Malaki
+      - Mal
+  - osis: Matt
+    texts:
+      - Matayo
+      - Mt
+  - osis: Mark
+    texts:
+      - Marko
+      - Mk
+  - osis: Luke
+    texts:
+      - Luka
+      - Lk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohana
+      - Yoh
+  - osis: Acts
+    texts:
+      - Tic Mi Jukwenda
+      - Tic
+  - osis: Rom
+    texts:
+      - Jurumi
+      - Rum
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Jukorinto
+      - Kor
+  - osis: Col
+    texts:
+      - Jukolosai
+      - Kol
+  - osis: Gal
+    texts:
+      - Jugalatia
+      - Gal
+  - osis: Eph
+    texts:
+      - Juefeso
+      - Ef
+  - osis: Phil
+    texts:
+      - Jufilipi
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Jutesaloniki
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+      - Tim
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemon
+      - Flm
+  - osis: Heb
+    texts:
+      - Juebrania
+      - Ebr
+  - osis: Jas
+    texts:
+      - Yakobo
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petro
+      - Pet
+  - osis: Jude
+    texts:
+      - Yuda
+      - Yud
+translations:
+  - AB1970

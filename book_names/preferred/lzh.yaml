@@ -1,0 +1,1217 @@
+default:
+  1Chr:
+    long: 列史官之第一書
+    short: 代上
+  1Cor:
+    long: 使徒保羅達哥林多人前書
+    short: 使徒保羅達哥林多人前書
+  1John:
+    long: 使徒約翰第一書
+    short: 使徒約翰第一書
+  1Kgs:
+    long: 列王上
+    short: 列王上
+  1Pet:
+    long: 使徒彼得前書
+    short: 使徒彼得前書
+  1Sam:
+    long: 撒母耳記上
+    short: 撒上
+  1Thess:
+    long: 使徒保羅達帖撒羅尼迦人前書
+    short: 使徒保羅達帖撒羅尼迦人前書
+  1Tim:
+    long: 使徒保羅達提摩太前書
+    short: 使徒保羅達提摩太前書
+  2Chr:
+    long: 列史官之第二書
+    short: 代下
+  2Cor:
+    long: 使徒保羅達哥林多人後書
+    short: 使徒保羅達哥林多人後書
+  2John:
+    long: 使徒約翰第二書
+    short: 使徒約翰第二書
+  2Kgs:
+    long: 列王下
+    short: 列王下
+  2Pet:
+    long: 使徒彼得後書
+    short: 使徒彼得後書
+  2Sam:
+    long: 撒母耳記下
+    short: 撒下
+  2Thess:
+    long: 使徒保羅達帖撒羅尼迦人後書
+    short: 使徒保羅達帖撒羅尼迦人後書
+  2Tim:
+    long: 使徒保羅達提摩太後書
+    short: 使徒保羅達提摩太後書
+  3John:
+    long: 使徒約翰第三書
+    short: 使徒約翰第三書
+  Acts:
+    long: 使徒行傳
+    short: 使徒行傳
+  Amos:
+    long: 亞摩斯
+    short: 亞摩斯
+  Col:
+    long: 使徒保羅達哥羅西人書
+    short: 使徒保羅達哥羅西人書
+  Dan:
+    long: 但以理書
+    short: 但
+  Deut:
+    long: 申命記
+    short: 復傳律例書
+  Eccl:
+    long: 傳道
+    short: 傳道
+  Eph:
+    long: 使徒保羅達以弗所人書
+    short: 使徒保羅達以弗所人書
+  Esth:
+    long: 以士帖紀
+    short: 以士帖紀
+  Exod:
+    long: 出埃及記
+    short: 出埃及記
+  Ezek:
+    long: 以西結書
+    short: 以西結
+  Ezra:
+    long: 以士喇紀
+    short: 以士喇紀
+  Gal:
+    long: 使徒保羅達加拉太人書
+    short: 使徒保羅達加拉太人書
+  Gen:
+    long: 創世記
+    short: 創世記
+  Hab:
+    long: 哈巴谷書
+    short: 先知者夏巴革之書
+  Hag:
+    long: 先知者夏佳之書
+    short: 先知者夏佳之書
+  Heb:
+    long: 使徒保羅達希伯來人書
+    short: 使徒保羅達希伯來人書
+  Hos:
+    long: 何西亞之書
+    short: 何
+  Isa:
+    long: 以賽亞書
+    short: 先知以賽亞之書
+  Jas:
+    long: 使徒雅各書
+    short: 使徒雅各書
+  Jer:
+    long: 耶利米書
+    short: 耶
+  Job:
+    long: 約伯記
+    short: 伯
+  Joel:
+    long: 先知者若以利之書
+    short: 先知者若以利之書
+  John:
+    long: 約翰福音
+    short: 約
+  Jonah:
+    long: 約拿書
+    short: 拿
+  Josh:
+    long: 約書亞記
+    short: 書
+  Jude:
+    long: 使徒猶大書
+    short: 使徒猶大書
+  Judg:
+    long: 士師記
+    short: 列審司之書
+  Lam:
+    long: 耶利米哀歌
+    short: 耶利米哀歌
+  Lev:
+    long: 利未記
+    short: 利未記
+  Luke:
+    long: 路加福音
+    short: 路
+  Mal:
+    long: 先知者馬拉記之書
+    short: 先知者馬拉記之書
+  Mark:
+    long: 馬可福音
+    short: 可
+  Matt:
+    long: 馬太福音
+    short: 太
+  Mic:
+    long: 先知者米加之書
+    short: 先知者米加之書
+  Nah:
+    long: 拿戶馬傳書
+    short: 拿戶馬傳書
+  Neh:
+    long: 尼希米亞之書
+    short: 尼希米亞之書
+  Num:
+    long: 民數紀畧
+    short: 民數紀畧
+  Obad:
+    long: 俄巴底亞書
+    short: 俄
+  Phil:
+    long: 使徒保羅達腓立比人書
+    short: 使徒保羅達腓立比人書
+  Phlm:
+    long: 使徒保羅達腓利門書
+    short: 使徒保羅達腓利門書
+  Prov:
+    long: 箴言
+    short: 箴言
+  Ps:
+    long: 詩篇
+    short: 詩
+  Rev:
+    long: 使徒約翰默示錄
+    short: 使徒約翰默示錄
+  Rom:
+    long: 使徒保羅達羅馬人書
+    short: 使徒保羅達羅馬人書
+  Ruth:
+    long: 路得記
+    short: 得
+  Song:
+    long: 雅歌
+    short: 所羅們之詩歌
+  Titus:
+    long: 使徒保羅達提多書
+    short: 使徒保羅達提多書
+  Zech:
+    long: 撒加利亞書
+    short: 亞
+  Zeph:
+    long: 西番雅書
+    short: 洗法尼亞傳書
+translations:
+  cwmlv:
+    1Chr:
+      short: 列史官之第一書
+    1Cor:
+      long: 使徒保羅與可林多輩書
+      short: 使徒保羅與可林多輩書
+    1John:
+      long: 使徒若翰之第一公書
+      short: 使徒若翰之第一公書
+    1Kgs:
+      long: 王輩之第一書
+      short: 王輩之第一書
+    1Pet:
+      long: 使徒彼多羅之第一公書
+      short: 使徒彼多羅之第一公書
+    1Sam:
+      long: 撒母以勒之第一書
+      short: 撒母以勒之第一書
+    1Thess:
+      long: 使徒保羅與弟撒羅尼亞輩書
+      short: 使徒保羅與弟撒羅尼亞輩書
+    1Tim:
+      long: 使徒保羅與弟摩氐第一書
+      short: 使徒保羅與弟摩氐第一書
+    2Chr:
+      short: 列史官之第二書
+    2Cor:
+      long: 使徒保羅與可林多輩第二書
+      short: 使徒保羅與可林多輩第二書
+    2John:
+      long: 使徒若翰之第二書
+      short: 使徒若翰之第二書
+    2Kgs:
+      long: 王輩之第二書
+      short: 王輩之第二書
+    2Pet:
+      long: 使徒彼多羅之第二公書
+      short: 使徒彼多羅之第二公書
+    2Sam:
+      long: 撒母以勒之第二書
+      short: 撒母以勒之第二書
+    2Thess:
+      long: 使徒保羅與弟羅撒尼亞輩第二書
+      short: 使徒保羅與弟羅撒尼亞輩第二書
+    2Tim:
+      long: 使徒保羅與弟摩氐第二書
+      short: 使徒保羅與弟摩氐第二書
+    3John:
+      long: 使徒若翰之第三書
+      short: 使徒若翰之第三書
+    Amos:
+      long: 預知者亞摩士之書
+      short: 預知者亞摩士之書
+    Col:
+      long: 使徒保羅與可羅所輩書
+      short: 使徒保羅與可羅所輩書
+    Dan:
+      long: 先知者但依勒之書
+      short: 先知者但依勒之書
+    Deut:
+      long: 摩西復示律書
+      short: 摩西復示律書
+    Eccl:
+      long: 宣道者書
+      short: 宣道者書
+    Eph:
+      long: 使徒保羅與以弗所輩書
+      short: 使徒保羅與以弗所輩書
+    Esth:
+      long: 依士得耳之書
+      short: 依士得耳之書
+    Exod:
+      long: 出以至百多書
+      short: 出以至百多書
+    Ezek:
+      long: 預知者以西基路之書
+      short: 預知者以西基路之書
+    Ezra:
+      long: 依沙耳亞
+      short: 依沙耳亞
+    Gal:
+      long: 使徒保羅與厄拉氐亞輩書
+      short: 使徒保羅與厄拉氐亞輩書
+    Gen:
+      long: 神造萬物書
+      short: 神造萬物書
+    Hab:
+      long: 先知者夏巴革之書
+    Heb:
+      long: 使徒保羅與希百耳輩書
+      short: 使徒保羅與希百耳輩書
+    Hos:
+      long: 預知者賀西亞之書
+      short: 預知者賀西亞之書
+    Isa:
+      long: 先知以賽亞之書
+    Jas:
+      long: 者米士即牙可百之公書
+      short: 者米士即牙可百之公書
+    Jer:
+      long: 預知者耶利未亞之書
+      short: 預知者耶利未亞之書
+    Job:
+      long: 若百書
+      short: 若百書
+    John:
+      long: 若翰傳福音之書
+      short: 若翰傳福音之書
+    Jonah:
+      long: 預知者拿若之書
+      short: 預知者拿若之書
+    Josh:
+      long: 若書亞之書
+      short: 若書亞之書
+    Jude:
+      long: 使徒如大之公書
+      short: 使徒如大之公書
+    Judg:
+      long: 列審司之書
+    Lam:
+      long: 先知者耶利未亞之哀詞
+      short: 先知者耶利未亞之哀詞
+    Lev:
+      long: 論利未輩之書
+      short: 論利未輩之書
+    Luke:
+      long: 聖路加傳福音之書
+      short: 聖路加傳福音之書
+    Mark:
+      long: 馬耳可傳福音書
+      short: 馬耳可傳福音書
+    Matt:
+      long: 使徒馬竇傳福音書
+      short: 使徒馬竇傳福音書
+    Nah:
+      long: 預知者那孚模之書
+      short: 預知者那孚模之書
+    Num:
+      long: 數以色耳勒子輩之書
+      short: 數以色耳勒子輩之書
+    Obad:
+      long: 先知者俄罷氐亞之書
+      short: 先知者俄罷氐亞之書
+    Phil:
+      long: 使徒保羅與腓利比輩書
+      short: 使徒保羅與腓利比輩書
+    Phlm:
+      long: 使徒保羅與腓利們書
+      short: 使徒保羅與腓利們書
+    Prov:
+      long: 所羅們之俗語
+      short: 所羅們之俗語
+    Ps:
+      long: 大五得詩
+      short: 大五得詩
+    Rev:
+      long: 使徒若翰顯示之書
+      short: 使徒若翰顯示之書
+    Rom:
+      long: 使徒保羅與羅馬輩書
+      short: 使徒保羅與羅馬輩書
+    Ruth:
+      long: 路得之書
+      short: 路得之書
+    Song:
+      long: 所羅們之詩歌
+    Titus:
+      long: 使徒保羅與弟多書
+      short: 使徒保羅與弟多書
+    Zech:
+      long: 預知者西加利亞之書
+      short: 預知者西加利亞之書
+    Zeph:
+      long: 預知者西法尼亞之書
+      short: 預知者西法尼亞之書
+  cwsv:
+    1Chr:
+      long: 歷代上
+      short: 歷代上
+    1John:
+      long: 約翰第一書
+      short: 約翰第一書
+    1Pet:
+      long: 彼得前書
+      short: 彼得前書
+    1Sam:
+      long: 撒母耳前
+      short: 撒母耳前
+    1Thess:
+      long: 使徒保羅達帖撒羅尼加前書
+      short: 使徒保羅達帖撒羅尼加前書
+    2Chr:
+      long: 歷代下
+      short: 歷代下
+    2John:
+      long: 約翰第二書
+      short: 約翰第二書
+    2Pet:
+      long: 彼得後書
+      short: 彼得後書
+    2Sam:
+      long: 撒母耳後
+      short: 撒母耳後
+    2Thess:
+      long: 使徒保羅達帖撒羅尼加後書
+      short: 使徒保羅達帖撒羅尼加後書
+    3John:
+      long: 約翰第三書
+      short: 約翰第三書
+    Col:
+      long: 使徒保羅達歌羅西人書
+      short: 使徒保羅達歌羅西人書
+    Dan:
+      long: 但以理
+      short: 但以理
+    Deut:
+      long: 摩西五書申命記
+      short: 摩西五書申命記
+    Eph:
+      long: 使徙保羅達以弗所人書
+      short: 使徙保羅達以弗所人書
+    Esth:
+      long: 以斯帖
+      short: 以斯帖
+    Exod:
+      long: 摩西二書出伊及記
+      short: 摩西二書出伊及記
+    Ezek:
+      long: 以西結
+    Ezra:
+      long: 以斯拉
+      short: 以斯拉
+    Gal:
+      long: 使徒保羅達迦拉太人書
+      short: 使徒保羅達迦拉太人書
+    Gen:
+      long: 摩西一書創世記
+      short: 摩西一書創世記
+    Hab:
+      long: 哈巴谷
+      short: 哈巴谷
+    Hag:
+      long: 哈該
+      short: 哈該
+    Hos:
+      long: 何西阿
+      short: 何西阿
+    Isa:
+      long: 以賽亞
+      short: 以賽亞
+    Jas:
+      long: 雅各書
+      short: 雅各書
+    Jer:
+      long: 耶利米
+      short: 耶利米
+    Job:
+      long: 約百
+      short: 約百
+    Joel:
+      long: 約珥
+      short: 約珥
+    John:
+      short: 約翰福音
+    Jonah:
+      long: 約拿
+      short: 約拿
+    Josh:
+      long: 約書亞
+      short: 約書亞
+    Jude:
+      long: 猶大書
+      short: 猶大書
+    Judg:
+      long: 士師
+      short: 士師
+    Lev:
+      long: 摩西三書利未記
+      short: 摩西三書利未記
+    Luke:
+      short: 路加福音
+    Mal:
+      long: 瑪拉基
+      short: 瑪拉基
+    Mark:
+      short: 馬可福音
+    Matt:
+      short: 馬太福音
+    Mic:
+      long: 彌迦
+      short: 彌迦
+    Nah:
+      long: 那鴻
+      short: 那鴻
+    Neh:
+      long: 尼希米
+      short: 尼希米
+    Num:
+      long: 摩西四書民數記
+      short: 摩西四書民數記
+    Obad:
+      long: 阿巴底亞
+      short: 阿巴底亞
+    Phil:
+      long: 使徒保羅達腓力此人書
+      short: 使徒保羅達腓力此人書
+    Ps:
+      short: 詩篇
+    Rev:
+      long: 默示錄
+      short: 默示錄
+    Ruth:
+      long: 路得
+      short: 路得
+    Song:
+      long: 所羅門歌又名雅歌
+      short: 所羅門歌又名雅歌
+    Zech:
+      long: 撒迦利亞
+      short: 撒迦利亞
+    Zeph:
+      long: 西番雅
+      short: 西番雅
+  cwmmv:
+    1Chr:
+      long: 歷代史紀書上卷
+      short: 歷代史紀書上卷
+    1Cor:
+      long: 聖保羅與可林多輩第一書
+      short: 聖保羅與可林多輩第一書
+    1John:
+      long: 聖若翰之第一公書
+      short: 聖若翰之第一公書
+    1Kgs:
+      long: 列王傳上卷
+      short: 列王傳上卷
+    1Pet:
+      long: 聖彼多羅之第一公書
+      short: 聖彼多羅之第一公書
+    1Sam:
+      long: 撒母以勒書上卷或曰王輩書
+      short: 撒母以勒書上卷或曰王輩書
+    1Thess:
+      long: 聖保羅使徒與弟撒羅尼亞輩書
+      short: 聖保羅使徒與弟撒羅尼亞輩書
+    1Tim:
+      long: 聖保羅使徒與弟摩氐第一書
+      short: 聖保羅使徒與弟摩氐第一書
+    2Chr:
+      long: 歷代史紀下卷
+      short: 歷代史紀下卷
+    2Cor:
+      long: 聖保羅與可林多輩第二書
+      short: 聖保羅與可林多輩第二書
+    2John:
+      long: 聖若翰之第二公書
+      short: 聖若翰之第二公書
+    2Kgs:
+      long: 列王傳下卷
+      short: 列王傳下卷
+    2Pet:
+      long: 聖彼多羅之第二公書
+      short: 聖彼多羅之第二公書
+    2Sam:
+      long: 撒母以勒書下卷
+      short: 撒母以勒書下卷
+    2Thess:
+      long: 聖保羅使徒與弟撒羅尼亞輩第二書
+      short: 聖保羅使徒與弟撒羅尼亞輩第二書
+    2Tim:
+      long: 聖保羅使徒與弟摩氐第二書
+      short: 聖保羅使徒與弟摩氐第二書
+    3John:
+      long: 聖若翰之第三公書
+      short: 聖若翰之第三公書
+    Acts:
+      long: 使徒行傳卷五
+      short: 使徒行傳卷五
+    Amos:
+      long: 亞麼士書
+      short: 亞麼士書
+    Col:
+      long: 聖保羅使徒與可羅所輩書
+      short: 聖保羅使徒與可羅所輩書
+    Dan:
+      long: 達未來者但依理書
+      short: 達未來者但依理書
+    Deut:
+      long: 摩西之第五書名曰吐嘚咡挼咪啞譯言復講法律傳
+      short: 摩西之第五書名曰吐嘚咡挼咪啞譯言復講法律傳
+    Eccl:
+      long: 宣道傳或名倚基理西亞書
+      short: 宣道傳或名倚基理西亞書
+    Eph:
+      long: 聖保羅使徒與以弗所輩書
+      short: 聖保羅使徒與以弗所輩書
+    Esth:
+      long: 以士得耳之書
+      short: 以士得耳之書
+    Exod:
+      long: 以所多書即是出去以至比多傳
+      short: 以所多書即是出去以至比多傳
+    Ezek:
+      long: 先知依西其理書
+      short: 先知依西其理書
+    Ezra:
+      long: 以士拉之書
+      short: 以士拉之書
+    Gal:
+      long: 聖保羅與厄拉氐亞輩書卷七
+      short: 聖保羅與厄拉氐亞輩書卷七
+    Gen:
+      long: 創世歷代傳或稱厄尼西書
+      short: 創世歷代傳或稱厄尼西書
+    Hab:
+      long: 夏巴古傳書
+      short: 夏巴古傳書
+    Hag:
+      long: 夏哀傳書
+      short: 夏哀傳書
+    Heb:
+      long: 聖保羅使徒與希比留輩書卷八
+      short: 聖保羅使徒與希比留輩書卷八
+    Hos:
+      short: 何西亞之書
+    Isa:
+      long: 先知以賽亞之書
+    Jas:
+      long: 者米士或稱牙可百之公書
+      short: 者米士或稱牙可百之公書
+    Jer:
+      long: 達未來者耶利米亞傳書
+      short: 達未來者耶利米亞傳書
+    Job:
+      long: 若百之書傳
+      short: 若百之書傳
+    Joel:
+      long: 若以利之書
+      short: 若以利之書
+    John:
+      long: 聖若翰傳福音之書卷四
+      short: 聖若翰傳福音之書卷四
+    Jonah:
+      long: 若拿傳書
+      short: 若拿傳書
+    Josh:
+      long: 若書亞之傳
+      short: 若書亞之傳
+    Jude:
+      long: 聖如大或稱如大士之公書
+      short: 聖如大或稱如大士之公書
+    Judg:
+      long: 審司書傳
+      short: 審司書傳
+    Lam:
+      long: 耶利米亞悲歎書傳
+      short: 耶利米亞悲歎書傳
+    Lev:
+      long: 利未氐古書傳
+      short: 利未氐古書傳
+    Luke:
+      long: 聖路加傳福音書卷三
+      short: 聖路加傳福音書卷三
+    Mal:
+      long: 達未來者馬拉其傳書
+      short: 達未來者馬拉其傳書
+    Mark:
+      long: 聖馬耳可傳福音書卷二
+      short: 聖馬耳可傳福音書卷二
+    Matt:
+      long: 聖馬竇傳福音書卷一
+      short: 聖馬竇傳福音書卷一
+    Mic:
+      long: 米加傳書
+      short: 米加傳書
+    Num:
+      long: 算民數之書傳
+      short: 算民數之書傳
+    Obad:
+      long: 阿巴氐亞書
+      short: 阿巴氐亞書
+    Phil:
+      long: 聖保羅使徒與腓利比輩書
+      short: 聖保羅使徒與腓利比輩書
+    Phlm:
+      long: 聖保羅使徒與腓利們書
+      short: 聖保羅使徒與腓利們書
+    Prov:
+      long: 諺語傳書
+      short: 諺語傳書
+    Ps:
+      long: 神詩書傳
+      short: 神詩書傳
+    Rev:
+      long: 聖若翰現示之書
+      short: 聖若翰現示之書
+    Rom:
+      long: 聖保羅使徒與羅馬輩書卷六
+      short: 聖保羅使徒與羅馬輩書卷六
+    Ruth:
+      long: 路得氏傳書
+      short: 路得氏傳書
+    Song:
+      long: 所羅門之歌
+      short: 所羅門之歌
+    Titus:
+      long: 聖保羅使徒與弟多書
+      short: 聖保羅使徒與弟多書
+    Zech:
+      long: 洗革利亞傳
+      short: 洗革利亞傳
+    Zeph:
+      long: 洗法尼亞傳書
+  cwuv:
+    1Chr:
+      long: 歷代志上
+    1Cor:
+      long: 哥林多前書
+      short: 林前
+    1John:
+      long: 約翰一書
+      short: 約壹
+    1Kgs:
+      long: 列王紀上
+      short: 王上
+    1Pet:
+      long: 彼得前書
+      short: 彼前
+    1Thess:
+      long: 帖撒羅尼迦前書
+      short: 帖前
+    1Tim:
+      long: 提摩太前書
+      short: 提前
+    2Chr:
+      long: 歷代志下
+    2Cor:
+      long: 哥林多後書
+      short: 林後
+    2John:
+      long: 約翰二書
+      short: 約贰
+    2Kgs:
+      long: 列王紀下
+      short: 王下
+    2Pet:
+      long: 彼得後書
+      short: 彼後
+    2Thess:
+      long: 帖撒羅尼迦後書
+      short: 帖後
+    2Tim:
+      long: 提摩太後書
+      short: 提後
+    3John:
+      long: 約翰三書
+      short: 約叁
+    Acts:
+      short: 徒
+    Amos:
+      long: 阿摩司書
+      short: 摩
+    Col:
+      long: 歌羅西書
+      short: 西
+    Deut:
+      short: 申
+    Eccl:
+      long: 傳道書
+      short: 傳
+    Eph:
+      long: 以弗所書
+      short: 弗
+    Esth:
+      long: 以斯帖記
+      short: 斯
+    Exod:
+      short: 出
+    Ezek:
+      short: 結
+    Ezra:
+      long: 以斯拉記
+      short: 拉
+    Gal:
+      long: 加拉太書
+      short: 加
+    Gen:
+      short: 創
+    Hab:
+      short: 哈
+    Hag:
+      long: 哈該書
+      short: 該
+    Heb:
+      long: 希伯來書
+      short: 來
+    Hos:
+      long: 何西阿書
+    Isa:
+      short: 賽
+    Jas:
+      long: 雅各書
+      short: 雅
+    Joel:
+      long: 約珥書
+      short: 珥
+    Jude:
+      long: 猶大書
+      short: 猶
+    Judg:
+      short: 士
+    Lam:
+      short: 哀
+    Lev:
+      short: 利
+    Mal:
+      long: 瑪拉基書
+      short: 瑪
+    Mic:
+      long: 彌迦書
+      short: 彌
+    Nah:
+      long: 那鴻書
+      short: 鴻
+    Neh:
+      long: 尼希米記
+      short: 尼
+    Num:
+      long: 民數記
+      short: 民
+    Phil:
+      long: 腓立比書
+      short: 腓
+    Phlm:
+      long: 腓利門書
+      short: 門
+    Prov:
+      short: 箴
+    Rev:
+      long: 啟示錄
+      short: 啟
+    Rom:
+      long: 羅馬書
+      short: 羅
+    Song:
+      short: 歌
+    Titus:
+      long: 提多書
+      short: 多
+    Zech:
+      long: 撒迦利亞書
+    Zeph:
+      short: 番
+  cwdv:
+    1Chr:
+      long: 歷代志畧上
+      short: 歷代志畧上
+    1Kgs:
+      long: 列王紀畧上
+      short: 列王紀畧上
+    1Sam:
+      short: 撒母耳記上
+    2Chr:
+      long: 歷代志畧下
+      short: 歷代志畧下
+    2Kgs:
+      long: 列王紀畧下
+      short: 列王紀畧下
+    2Sam:
+      short: 撒母耳記下
+    Amos:
+      long: 亞麽士書
+      short: 亞麽士書
+    Dan:
+      short: 但以理書
+    Deut:
+      short: 申命記
+    Ezek:
+      short: 以西結書
+    Hab:
+      short: 哈巴谷書
+    Hag:
+      long: 哈基書
+      short: 哈基書
+    Hos:
+      long: 何西書
+      short: 何西書
+    Isa:
+      short: 以賽亞書
+    Jer:
+      short: 耶利米書
+    Job:
+      long: 約百紀
+      short: 約百紀
+    Joel:
+      long: 約耳書
+      short: 約耳書
+    John:
+      long: 約翰福音傳
+      short: 約翰福音傳
+    Jonah:
+      short: 約拿書
+    Josh:
+      short: 約書亞記
+    Judg:
+      short: 士師記
+    Luke:
+      long: 路加福音傳
+      short: 路加福音傳
+    Mal:
+      long: 馬拉基書
+      short: 馬拉基書
+    Mark:
+      long: 馬可福音傳
+      short: 馬可福音傳
+    Matt:
+      long: 馬太福音傳
+      short: 馬太福音傳
+    Mic:
+      long: 米迦書
+      short: 米迦書
+    Nah:
+      long: 拿翁書
+      short: 拿翁書
+    Neh:
+      long: 尼希米紀
+      short: 尼希米紀
+    Obad:
+      long: 阿巴底書
+      short: 阿巴底書
+    Ps:
+      short: 詩篇
+    Ruth:
+      short: 路得記
+    Song:
+      short: 雅歌
+    Zech:
+      short: 撒加利亞書
+    Zeph:
+      short: 西番雅書
+  cwbbnt:
+    1Cor:
+      long: 使徒保羅達歌林多人前書
+      short: 使徒保羅達歌林多人前書
+    2Cor:
+      long: 使徒保羅達歌林多人後書
+      short: 使徒保羅達歌林多人後書
+    John:
+      long: 聖約翰福音
+      short: 聖約翰福音
+    Luke:
+      long: 聖路加福音
+      short: 聖路加福音
+    Mark:
+      long: 聖馬可福音
+      short: 聖馬可福音
+    Matt:
+      long: 聖馬太福音
+      short: 聖馬太福音
+    Phlm:
+      long: 使徒保羅達腓立門書
+      short: 使徒保羅達腓立門書
+  cwontp:
+    1Cor:
+      long: 哥林多前書
+      short: 林前
+    1John:
+      long: 約翰一書
+      short: 約壹
+    1Pet:
+      long: 彼得前書
+      short: 彼前
+    1Thess:
+      long: 帖撒羅尼迦前書
+      short: 帖前
+    1Tim:
+      long: 提摩太前書
+      short: 提前
+    2Cor:
+      long: 哥林多後書
+      short: 林後
+    2John:
+      long: 約翰二書
+      short: 約贰
+    2Pet:
+      long: 彼得後書
+      short: 彼後
+    2Thess:
+      long: 帖撒羅尼迦後書
+      short: 帖後
+    2Tim:
+      long: 提摩太後書
+      short: 提後
+    3John:
+      long: 約翰三書
+      short: 約叁
+    Acts:
+      short: 徒
+    Col:
+      long: 歌羅西書
+      short: 西
+    Eph:
+      long: 以弗所書
+      short: 弗
+    Gal:
+      long: 加拉太書
+      short: 加
+    Heb:
+      long: 希伯來書
+      short: 來
+    Jas:
+      long: 雅各書
+      short: 雅
+    Jude:
+      long: 猶大書
+      short: 猶
+    Phil:
+      long: 腓立比書
+      short: 腓
+    Phlm:
+      long: 腓利門書
+      short: 門
+    Rom:
+      long: 羅馬書
+      short: 羅
+    Titus:
+      long: 提多書
+      short: 多
+  cwbsv:
+    1Cor:
+      long: 福保祿使徒與戈林多軰第一書
+      short: 福保祿使徒與戈林多軰第一書
+    1Thess:
+      long: 福保祿與特撒羅軰第一書
+      short: 福保祿與特撒羅軰第一書
+    1Tim:
+      long: 福保祿使徒與氐末陡第一書
+      short: 福保祿使徒與氐末陡第一書
+    2Cor:
+      long: 福保祿使徒與戈林多軰第二書
+      short: 福保祿使徒與戈林多軰第二書
+    2Thess:
+      long: 福保祿與特撒羅軰第二書
+      short: 福保祿與特撒羅軰第二書
+    2Tim:
+      long: 福保祿使徒與氐末陡第二書
+      short: 福保祿使徒與氐末陡第二書
+    Acts:
+      long: 使徒行
+      short: 使徒行
+    Col:
+      long: 福保祿使徒與戈洛所軰書
+      short: 福保祿使徒與戈洛所軰書
+    Eph:
+      long: 福保祿與厄弗所軰書
+      short: 福保祿與厄弗所軰書
+    Gal:
+      long: 福保祿與雅辣逹軰書
+      short: 福保祿與雅辣逹軰書
+    Heb:
+      long: 福保祿使徒與赫伯軰書
+      short: 福保祿使徒與赫伯軰書
+    John:
+      long: 若翰攸編耶穌基督福音
+      short: 若翰攸編耶穌基督福音
+    Luke:
+      long: 聖路加攸編之福音
+      short: 路加
+    Mark:
+      long: 麻耳谷攸編耶穌基督聖福音
+      short: 麻耳谷攸編耶穌基督聖福音
+    Matt:
+      long: 瑪竇攸編耶穌基督聖福音
+      short: 瑪竇攸編耶穌基督聖福音
+    Phil:
+      long: 福保祿與［非邑］里比軰書
+      short: 福保祿與［非邑］里比軰書
+    Phlm:
+      long: 福保祿使徒與斐肋莫書
+      short: 福保祿使徒與斐肋莫書
+    Rom:
+      long: 福保祿使徒與羅瑪軰書
+      short: 福保祿使徒與羅瑪軰書
+    Titus:
+      long: 福保祿使徒與的多書
+      short: 福保祿使徒與的多書
+  cewunt:
+    1Cor:
+      long: 達哥林多人前書
+    1Thess:
+      long: 達帖撒羅尼迦人前書
+    1Tim:
+      long: 達提摩太前書
+    2Cor:
+      long: 達哥林多人後書
+    2Thess:
+      long: 達帖撒羅尼迦人後書
+    2Tim:
+      long: 達提摩太後書
+    Col:
+      long: 達哥羅西人書
+    Eph:
+      long: 達以弗所人書
+    Gal:
+      long: 達加拉太人書
+    Heb:
+      long: 希伯來書
+    Phil:
+      long: 達腓立比人書
+    Phlm:
+      long: 達腓利門書
+    Rev:
+      long: 使徒約翰得啟示錄
+    Rom:
+      long: 達羅馬人書
+    Titus:
+      long: 達提多書
+  cwcsnt:
+    1John:
+      long: 約翰達眾第一書
+      short: 約翰達眾第一書
+    1Pet:
+      long: 彼得達眾前書
+      short: 彼得達眾前書
+    1Thess:
+      long: 使徒保羅達提撒羅尼迦人前書
+      short: 使徒保羅達提撒羅尼迦人前書
+    1Tim:
+      long: 使徒保羅達底摩太前書
+      short: 使徒保羅達底摩太前書
+    2John:
+      long: 約翰達眾第二書
+      short: 約翰達眾第二書
+    2Pet:
+      long: 彼得達眾後書
+      short: 彼得達眾後書
+    2Thess:
+      long: 使徒保羅達提撒羅尼迦人後書
+      short: 使徒保羅達提撒羅尼迦人後書
+    2Tim:
+      long: 使徒保羅達底摩太後書
+      short: 使徒保羅達底摩太後書
+    3John:
+      long: 約翰達眾第三書
+      short: 約翰達眾第三書
+    Eph:
+      long: 保羅達以弗所人書
+    Gal:
+      long: 保羅達加拉太人書
+      short: 保羅達加拉太人書
+    Heb:
+      long: 達希伯來人書
+      short: 達希伯來人書
+    Jas:
+      long: 雅佮達眾書
+      short: 雅佮達眾書
+    John:
+      long: 福音四依約翰
+      short: 福音四依約翰
+    Jude:
+      long: 猶大達眾書
+      short: 猶大達眾書
+    Luke:
+      long: 福音三依路加
+      short: 福音三依路加
+    Mark:
+      long: 福音二依馬可
+      short: 福音二依馬可
+    Matt:
+      long: 福音一依馬太
+      short: 福音一依馬太
+    Phlm:
+      long: 保羅達腓利門書
+      short: 保羅達腓利門書
+    Rev:
+      long: 啟錄
+      short: 啟錄
+    Titus:
+      long: 保羅達底多書
+      short: 保羅達底多書
+  cwbcv:
+    Deut:
+      long: 復傳律例書
+    Gal:
+      long: 保羅達加拉太書
+      short: 保羅達加拉太書
+    John:
+      long: 約翰傳福音書
+      short: 約翰傳福音書
+    Josh:
+      long: 舊約全書第六卷約書亞記
+      short: 舊約全書第六卷約書亞記
+    Judg:
+      long: 士師記第七卷
+      short: 士師記第七卷
+    Luke:
+      long: 路加傳福音書
+      short: 路加傳福音書
+    Mark:
+      long: 馬可傳福音書
+      short: 馬可傳福音書
+    Matt:
+      long: 馬太傳福音書
+      short: 馬太傳福音書
+  cgjwnt:
+    John:
+      short: 約翰福音
+    Luke:
+      short: 路加福音
+    Mark:
+      short: 馬可福音
+    Matt:
+      long: 馬太福音書
+      short: 馬太福音書
+    Phil:
+      long: 使徒保羅達腓力比人書
+      short: 使徒保羅達腓力比人書

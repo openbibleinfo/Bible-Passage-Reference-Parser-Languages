@@ -1,0 +1,106 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Revelation
+  - osis: Matt
+    texts:
+      - Mateo
+      - Mat
+  - osis: Mark
+    texts:
+      - Markos
+  - osis: Luke
+    texts:
+      - Lukas
+      - Luk
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Juan
+  - osis: John
+    texts:
+      - Juan
+      - Jua
+  - osis: Acts
+    texts:
+      - Pinaggimet
+      - Pin
+  - osis: Rom
+    texts:
+      - Taga Roma
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Korinto
+      - Kor
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinto
+  - osis: Col
+    texts:
+      - Kolosas
+  - osis: Gal
+    texts:
+      - Galasiya
+      - Gal
+  - osis: Eph
+    texts:
+      - Epeso
+  - osis: Phil
+    texts:
+      - Pilipos
+  - osis: 1Thess
+    texts:
+      - I Tesalonika
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonika
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Philimon
+  - osis: Heb
+    texts:
+      - Hebrews
+  - osis: Jas
+    texts:
+      - Santiyago
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peter
+  - osis: Jude
+    texts:
+      - Judas
+translations:
+  - DUONT

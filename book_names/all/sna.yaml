@@ -1,0 +1,701 @@
+- osis: Gen
+  texts:
+    - Genesisi
+    - Mavambo
+    - Genesi
+    - Gene
+    - Gen
+    - Mav
+- osis: Exod
+  texts:
+    - Ekisodho
+    - Eksodo
+    - Kubuda
+    - Ekis
+    - Eki
+    - Kub
+- osis: Lev
+  texts:
+    - Revhitiko
+    - Revitiko
+    - Mupiro
+    - Revhi
+    - Mup
+    - Rev
+- osis: Num
+  texts:
+    - Kuverengwa
+    - Numeri
+    - Kuve
+    - Num
+    - Nu
+- osis: Sir
+  texts:
+    - Sira
+- osis: Wis
+  texts:
+    - Ungwaru
+    - Ungwa
+- osis: Lam
+  texts:
+    - Kuungudza KwaJeremiya
+    - Kuungudza kwaJeremia
+    - Mariro aJeremia
+    - Kuungudza
+    - Kuungu
+    - Kuung
+    - Kuu
+- osis: Rev
+  texts:
+    - Zvakaratidzwa
+    - Zvakazarurwa
+    - Ɀakazarurwa
+    - Zvakaz
+    - Zvak
+    - Zva
+- osis: Deut
+  texts:
+    - Kutsinhira Mutemo
+    - Deuteronomio
+    - Dhuteronomi
+    - Dhute
+    - Dhut
+    - Kut
+- osis: Josh
+  texts:
+    - Joshuwa
+    - Joshua
+    - Josh
+    - Jos
+- osis: Judg
+  texts:
+    - Vatongi
+    - Ʋatoŋgi
+    - Vato
+    - Vat
+- osis: Ruth
+  texts:
+    - Rute
+- osis: Isa
+  texts:
+    - Isaya
+    - Isa
+- osis: 1Sam
+  texts:
+    - 1 Samueri
+    - 1 Samu
+    - 1 Sam
+    - 1. Samueri
+    - 1. Samu
+    - 1. Sam
+    - I Samueri
+    - I Samu
+    - I Sam
+    - I. Samueri
+    - I. Samu
+    - I. Sam
+- osis: 2Sam
+  texts:
+    - 2 Samueri
+    - 2 Samu
+    - 2 Sam
+    - 2. Samueri
+    - 2. Samu
+    - 2. Sam
+    - II Samueri
+    - II Samu
+    - II Sam
+    - II. Samueri
+    - II. Samu
+    - II. Sam
+- osis: 1Kgs
+  texts:
+    - 1 Madzimambo
+    - 1 Madzi
+    - 1. Madzimambo
+    - 1. Madzi
+    - I Madzimambo
+    - I Madzi
+    - I. Madzimambo
+    - I. Madzi
+- osis: 2Kgs
+  texts:
+    - 2 Madzimambo
+    - 2 Madzi
+    - 2 Mad
+    - 2. Madzimambo
+    - 2. Madzi
+    - 2. Mad
+    - II Madzimambo
+    - II Madzi
+    - II Mad
+    - II. Madzimambo
+    - II. Madzi
+    - II. Mad
+- osis: 1Chr
+  texts:
+    - 1 Makoronike
+    - 1 Nhoroondo
+    - 1 Makoro
+    - 1 Makor
+    - 1 Nhor
+    - 1 Mak
+    - 1. Makoronike
+    - 1. Nhoroondo
+    - 1. Makoro
+    - 1. Makor
+    - 1. Nhor
+    - 1. Mak
+    - I Makoronike
+    - I Nhoroondo
+    - I Makoro
+    - I Makor
+    - I Nhor
+    - I Mak
+    - I. Makoronike
+    - I. Nhoroondo
+    - I. Makoro
+    - I. Makor
+    - I. Nhor
+    - I. Mak
+- osis: 2Chr
+  texts:
+    - 2 Makoronike
+    - 2 Nhoroondo
+    - 2 Makoro
+    - 2 Makor
+    - 2 Nhor
+    - 2 Mak
+    - 2. Makoronike
+    - 2. Nhoroondo
+    - 2. Makoro
+    - 2. Makor
+    - 2. Nhor
+    - 2. Mak
+    - II Makoronike
+    - II Nhoroondo
+    - II Makoro
+    - II Makor
+    - II Nhor
+    - II Mak
+    - II. Makoronike
+    - II. Nhoroondo
+    - II. Makoro
+    - II. Makor
+    - II. Nhor
+    - II. Mak
+- osis: Ezra
+  texts:
+    - Ezira
+    - Ezra
+    - Ezi
+- osis: Neh
+  texts:
+    - Nehemiya
+    - Nehemia
+    - Nehe
+    - Neh
+- osis: Job
+  texts:
+    - Jobho
+    - Jobhu
+    - Jobo
+    - Job
+- osis: Ps
+  texts:
+    - Mapisarema
+    - Mapis
+    - Nziyo
+    - Mapi
+    - Nzi
+- osis: Prov
+  texts:
+    - Zvirevo
+    - Ɀireʋo
+    - Tsumo
+    - Zvir
+    - Tsu
+    - Zvi
+- osis: Eccl
+  texts:
+    - Muparidzi
+    - Mupar
+    - Mupa
+- osis: Song
+  texts:
+    - Rwiyo Rukuru rwaSoromoni
+    - Rwiyo Rukuru
+    - Rwiyo
+    - Rwi
+- osis: Jer
+  texts:
+    - Jeremiya
+    - Jeremia
+    - Jere
+    - Jer
+- osis: Ezek
+  texts:
+    - Ezekieri
+    - Ezek
+    - Eze
+- osis: Hos
+  texts:
+    - Hosiya
+    - Hosea
+    - Hose
+    - Hos
+- osis: Joel
+  texts:
+    - Joere
+    - Joeri
+    - Joe
+- osis: Amos
+  texts:
+    - Amosi
+    - Amo
+- osis: Obad
+  texts:
+    - Obhadhiya
+    - Obhadhia
+    - Obadia
+    - Obhad
+    - Obha
+- osis: Jonah
+  texts:
+    - Jona
+- osis: Mic
+  texts:
+    - Mika
+- osis: Nah
+  texts:
+    - Nahumi
+    - Nahumu
+    - Nahum
+    - Nahu
+    - Nah
+- osis: Hab
+  texts:
+    - Habhakuki
+    - Habhakuku
+    - Habakuki
+    - Habha
+    - Habh
+- osis: Zeph
+  texts:
+    - Zefaniya
+    - Zefania
+    - Zefan
+    - Zefa
+    - Zef
+- osis: Hag
+  texts:
+    - Hagai
+    - Haga
+    - Hag
+- osis: Zech
+  texts:
+    - Zekariya
+    - Zekaria
+    - Zekar
+    - Zeka
+    - Zek
+- osis: Mal
+  texts:
+    - Maraki
+    - Marak
+    - Mara
+    - Mar
+- osis: Matt
+  texts:
+    - Mateo
+    - Mateu
+    - Mate
+    - Mat
+- osis: Mark
+  texts:
+    - Mariko
+    - Marko
+    - Mako
+    - Mak
+    - Mar
+- osis: Luke
+  texts:
+    - Ruka
+- osis: 1John
+  texts:
+    - 1Joh
+- osis: 2John
+  texts:
+    - 2Joh
+- osis: 3John
+  texts:
+    - III Johane
+    - 3 Johani
+    - 3 Johan
+    - 3 Joha
+    - 3 Joh
+    - 3Joh
+- osis: 1John
+  texts:
+    - 1 Johane
+    - 1 Johani
+    - 1 Johan
+    - 1 Joha
+    - 1 Joh
+    - 1. Johane
+    - 1. Johani
+    - 1. Johan
+    - 1. Joha
+    - 1. Joh
+    - I Johane
+    - I Johani
+    - I Johan
+    - I Joha
+    - I Joh
+    - I. Johane
+    - I. Johani
+    - I. Johan
+    - I. Joha
+    - I. Joh
+- osis: 2John
+  texts:
+    - 2 Johane
+    - 2 Johani
+    - 2 Johan
+    - 2 Joha
+    - 2 Joh
+    - 2. Johane
+    - 2. Johani
+    - 2. Johan
+    - 2. Joha
+    - 2. Joh
+    - II Johane
+    - II Johani
+    - II Johan
+    - II Joha
+    - II Joh
+    - II. Johane
+    - II. Johani
+    - II. Johan
+    - II. Joha
+    - II. Joh
+- osis: John
+  texts:
+    - Johane
+    - Johani
+    - Johan
+    - Joha
+    - Joh
+- osis: Acts
+  texts:
+    - Maɓasa Aʋaapostora
+    - Mabasa aVapostori
+    - Mabasa
+    - Maɓasa
+    - Maba
+    - Mab
+- osis: Rom
+  texts:
+    - VaRoma
+    - ƲaRoma
+    - VaRom
+    - VaRo
+    - Rom
+    - Var
+- osis: 1Cor
+  texts:
+    - 1 Vakorinde
+    - 1 ƲaKorinte
+    - 1 VaKori
+    - 1 Vakor
+    - 1 Vak
+    - 1. Vakorinde
+    - 1. ƲaKorinte
+    - 1. VaKori
+    - 1. Vakor
+    - 1. Vak
+    - I Vakorinde
+    - I ƲaKorinte
+    - I VaKori
+    - I Vakor
+    - I Vak
+    - I. Vakorinde
+    - I. ƲaKorinte
+    - I. VaKori
+    - I. Vakor
+    - I. Vak
+- osis: 2Cor
+  texts:
+    - 2 Vakorinde
+    - 2 ƲaKorinte
+    - 2 VaKori
+    - 2 Vakor
+    - 2 Vak
+    - 2. Vakorinde
+    - 2. ƲaKorinte
+    - 2. VaKori
+    - 2. Vakor
+    - 2. Vak
+    - II Vakorinde
+    - II ƲaKorinte
+    - II VaKori
+    - II Vakor
+    - II Vak
+    - II. Vakorinde
+    - II. ƲaKorinte
+    - II. VaKori
+    - II. Vakor
+    - II. Vak
+- osis: 1Cor
+  texts:
+    - 1Kor
+- osis: 2Cor
+  texts:
+    - 2Kor
+- osis: Col
+  texts:
+    - VaKorose
+    - ƲaKorose
+    - Korose
+    - VaKoro
+    - Vako
+- osis: Gal
+  texts:
+    - Vagaratiya
+    - VaGaratia
+    - ƲaGaratia
+    - VaGar
+    - VaGa
+    - Gar
+    - Vag
+- osis: Eph
+  texts:
+    - VaEfeso
+    - ƲaEfeso
+    - VaEfe
+    - Efes
+    - Vaef
+- osis: Phil
+  texts:
+    - VaFiripi
+    - ƲaFiripi
+    - Firip
+    - VaFir
+    - VaFi
+- osis: 1Thess
+  texts:
+    - 1 Vatesaronika
+    - 1 ƲaTesaronika
+    - 1 VaTesa
+    - 1 Vates
+    - 1. Vatesaronika
+    - 1. ƲaTesaronika
+    - 1. VaTesa
+    - 1. Vates
+    - I Vatesaronika
+    - I ƲaTesaronika
+    - I VaTesa
+    - I Vates
+    - I. Vatesaronika
+    - I. ƲaTesaronika
+    - I. VaTesa
+    - I. Vates
+- osis: 1Thess
+  texts:
+    - 1Tes
+- osis: 2Thess
+  texts:
+    - 2 Vatesaronika
+    - 2 Ʋatesaronika
+    - 2 VaTesa
+    - 2 Vates
+    - 2. Vatesaronika
+    - 2. Ʋatesaronika
+    - 2. VaTesa
+    - 2. Vates
+    - II Vatesaronika
+    - II Ʋatesaronika
+    - II VaTesa
+    - II Vates
+    - II. Vatesaronika
+    - II. Ʋatesaronika
+    - II. VaTesa
+    - II. Vates
+- osis: 2Thess
+  texts:
+    - 2Tes
+- osis: 1Tim
+  texts:
+    - 1 Timotio
+    - 1 Timoti
+    - 1 Timo
+    - 1 Tim
+    - 1. Timotio
+    - 1. Timoti
+    - 1. Timo
+    - 1. Tim
+    - I Timotio
+    - I Timoti
+    - I Timo
+    - I Tim
+    - I. Timotio
+    - I. Timoti
+    - I. Timo
+    - I. Tim
+- osis: 2Tim
+  texts:
+    - 2 Timotio
+    - 2 Timoti
+    - 2 Timo
+    - 2 Tim
+    - 2. Timotio
+    - 2. Timoti
+    - 2. Timo
+    - 2. Tim
+    - II Timotio
+    - II Timoti
+    - II Timo
+    - II Tim
+    - II. Timotio
+    - II. Timoti
+    - II. Timo
+    - II. Tim
+- osis: 1Tim
+  texts:
+    - 1Tim
+- osis: 2Tim
+  texts:
+    - 2Tim
+- osis: Titus
+  texts:
+    - Titosi
+    - Tito
+    - Tit
+- osis: Phlm
+  texts:
+    - Firemoni
+    - Firimoni
+    - Firim
+    - Firi
+    - Fir
+- osis: Heb
+  texts:
+    - VaHebheru
+    - ƲaHeberu
+    - VaHeb
+    - VaHe
+    - Heb
+- osis: Jas
+  texts:
+    - Jakobho
+    - Jakobo
+    - Jemusi
+    - Jakob
+    - Jako
+    - Jak
+    - Jem
+- osis: 1Pet
+  texts:
+    - 1 Petirosi
+    - 1 Petro
+    - 1 Pita
+    - 1 Pet
+    - 1. Petirosi
+    - 1. Petro
+    - 1. Pita
+    - 1. Pet
+    - I Petirosi
+    - I Petro
+    - I Pita
+    - I Pet
+    - I. Petirosi
+    - I. Petro
+    - I. Pita
+    - I. Pet
+- osis: 2Pet
+  texts:
+    - 2 Petirosi
+    - 2 Petro
+    - 2 Pita
+    - 2 Pet
+    - 2. Petirosi
+    - 2. Petro
+    - 2. Pita
+    - 2. Pet
+    - II Petirosi
+    - II Petro
+    - II Pita
+    - II Pet
+    - II. Petirosi
+    - II. Petro
+    - II. Pita
+    - II. Pet
+- osis: 1Pet
+  texts:
+    - 1Pet
+- osis: 2Pet
+  texts:
+    - 2Pet
+- osis: Jude
+  texts:
+    - Judhasi
+    - Judasi
+    - Judha
+    - Judh
+    - Jud
+- osis: Tob
+  texts:
+    - Tobhiti
+    - Tob
+- osis: Jdt
+  texts:
+    - Judhisi
+    - Jud
+- osis: Bar
+  texts:
+    - Bharuku
+    - Bha
+- osis: 1Macc
+  texts:
+    - 1 Vanamakabhi
+    - 1 Mak
+    - 1. Vanamakabhi
+    - 1. Mak
+    - I Vanamakabhi
+    - I Mak
+    - I. Vanamakabhi
+    - I. Mak
+- osis: 2Macc
+  texts:
+    - 2 Vanamakabhi
+    - 2 Mak
+    - 2. Vanamakabhi
+    - 2. Mak
+    - II Vanamakabhi
+    - II Mak
+    - II. Vanamakabhi
+    - II. Mak
+- osis: DanGr
+  texts:
+    - Dhanieri g
+    - Dhanierig
+    - Dhang
+    - Dhag
+- osis: Dan
+  texts:
+    - Dhanieri
+    - Danieri
+    - Dhan
+    - Dha
+- osis: EsthGr
+  texts:
+    - Esita g
+    - EsG
+- osis: Esth
+  texts:
+    - Esiteri
+    - Estere
+    - Esteri
+    - Esita
+    - Esit
+    - Este

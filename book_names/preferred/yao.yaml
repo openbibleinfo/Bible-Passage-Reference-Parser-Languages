@@ -1,0 +1,217 @@
+default:
+  1Chr:
+    long: 1 Mbi
+  1Cor:
+    long: 1 Akoli
+    short: 1Ŵakol
+  1John:
+    long: 1 Yoh
+    short: 1Yoh
+  1Kgs:
+    long: 1 Ayi
+  1Pet:
+    long: 1 Pet
+    short: 1Pet
+  1Sam:
+    long: 1 Sam
+  1Thess:
+    long: 1 Ates
+    short: 1Ŵas
+  1Tim:
+    long: 1 Tim
+    short: 1Tim
+  2Chr:
+    long: 2 Mbi
+  2Cor:
+    long: 2 Akoli
+    short: 2Ŵakol
+  2John:
+    long: 2 Yoh
+    short: 2Yoh
+  2Kgs:
+    long: 2 Ayi
+  2Pet:
+    long: 2 Pet
+    short: 2Petu
+  2Sam:
+    long: 2 Sam
+  2Thess:
+    long: 2 Ates
+    short: 2Ŵas
+  2Tim:
+    long: 2 Tim
+    short: 2Tim
+  3John:
+    long: 3 Yoh
+    short: 3Yoh
+  Acts:
+    long: Mase
+    short: Mas
+  Amos:
+    long: Amo
+  Col:
+    long: Akolo
+    short: Ŵak
+  Dan:
+    long: Dan
+  Deut:
+    long: Det
+  Eccl:
+    long: Jwak
+  Eph:
+    long: aEf
+    short: Ŵaef
+  Esth:
+    long: Est
+  Exod:
+    long: Eks
+  Ezek:
+    long: Esek
+  Ezra:
+    long: Esa
+  Gal:
+    long: aGal
+    short: Ŵag
+  Gen:
+    long: Gen
+  Hab:
+    long: Hab
+  Hag:
+    long: Hag
+  Heb:
+    long: Aheb
+    short: Ŵae
+  Hos:
+    long: Hos
+  Isa:
+    long: Yes
+  Jas:
+    long: Yak
+    short: Yak
+  Jer:
+    long: Yel
+  Job:
+    long: Yob
+  Joel:
+    long: Yow
+  John:
+    long: Yoh
+    short: Yoh
+  Jonah:
+    long: Yon
+  Josh:
+    long: Yos
+  Jude:
+    long: Yud
+    short: Yud
+  Judg:
+    long: Ŵak
+  Lam:
+    long: Mal
+  Lev:
+    long: Lef
+  Luke:
+    long: Luk
+    short: Luk
+  Mal:
+    long: Mala
+  Mark:
+    long: Mak
+    short: Mak
+  Matt:
+    long: Mat
+    short: Mat
+  Mic:
+    long: MiK
+  Nah:
+    long: Nah
+  Neh:
+    long: Neh
+  Num:
+    long: Num
+  Obad:
+    long: Oba
+  Phil:
+    long: aFil
+    short: Ŵaf
+  Phlm:
+    long: Fil
+    short: Fil
+  Prov:
+    long: Mis
+  Ps:
+    long: Mas
+  Rev:
+    long: Chunukuko
+    short: Chi
+  Rom:
+    long: Alo
+    short: Ŵal
+  Ruth:
+    long: Lut
+  Song:
+    long: Nyi
+  Titus:
+    long: Tit
+    short: Tit
+  Zech:
+    long: Sak
+  Zeph:
+    long: Sef
+translations:
+  ynt2018:
+    1Cor:
+      long: 1 Ŵakolinto
+    1John:
+      long: 1 Yohana
+    1Pet:
+      long: 1 Petulo
+    1Thess:
+      long: 1 Ŵasesalonike
+    1Tim:
+      long: 1 Timoseo
+    2Cor:
+      long: 2 Ŵakolinto
+    2John:
+      long: 2 Yohana
+    2Pet:
+      long: 2 Petulo
+    2Thess:
+      long: 2 Ŵasesalonike
+    2Tim:
+      long: 2 Timoseo
+    3John:
+      long: 3 Yohana
+    Acts:
+      long: Masengo
+    Col:
+      long: Ŵakolosai
+    Eph:
+      long: ŴaEfeso
+    Gal:
+      long: ŴaGalatia
+    Heb:
+      long: Ŵaeblania
+    Jas:
+      long: Yakobo
+    John:
+      long: Yohana
+    Jude:
+      long: Yuda
+    Luke:
+      long: Luka
+    Mark:
+      long: Maliko
+    Matt:
+      long: Matayo
+    Phil:
+      long: ŴaFilipi
+    Phlm:
+      long: Filimoni
+    Rom:
+      long: Ŵaloma
+    Titus:
+      long: Tito
+  yawo:
+    Rev:
+      long: Ciw

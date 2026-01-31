@@ -1,0 +1,117 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Inpakita
+      - Inp
+  - osis: Matt
+    texts:
+      - Matiyo
+      - Mat
+  - osis: Mark
+    texts:
+      - Markos
+      - Mar
+  - osis: Luke
+    texts:
+      - Lokas
+      - Lok
+  - osis: 3John
+    texts:
+      - 3 Howan
+      - 3 Ho
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+    texts:
+      - Howan
+      - How
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - Howan
+      - Ho
+  - osis: Acts
+    texts:
+      - Mga Kaazi
+      - Mga
+  - osis: Rom
+    texts:
+      - Roma
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinto
+      - Ko
+  - osis: Col
+    texts:
+      - Kolosas
+      - Kol
+  - osis: Gal
+    texts:
+      - Galasiya
+      - Gal
+  - osis: Eph
+    texts:
+      - Ipiso
+      - Ipi
+  - osis: Phil
+    texts:
+      - Pilipos
+      - Plp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tisalonika
+      - Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotiyo
+      - Tm
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Pilimon
+      - Plm
+  - osis: Heb
+    texts:
+      - Hibriyo
+      - Hib
+  - osis: Jas
+    texts:
+      - Santiago
+      - San
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pidro
+      - Pi
+  - osis: Jude
+    texts:
+      - Hodas
+      - Hod
+translations:
+  - MMNNT

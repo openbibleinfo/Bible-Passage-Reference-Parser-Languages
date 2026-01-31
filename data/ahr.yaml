@@ -1,0 +1,137 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - योहान ले हुयेल प्रकटीकरण
+      - प्रकटीकरण
+  - osis: Matt
+    texts:
+      - मत्तय
+  - osis: Mark
+    texts:
+      - मार्क
+  - osis: Luke
+    texts:
+      - लूक
+  - osis: 1John
+    texts:
+      - योहान ना पहिला पत्र
+  - osis: 2John
+    texts:
+      - योहान ना दुसरा पत्र
+  - osis: 3John
+    texts:
+      - योहान ना तिसरा पत्र
+      - 3 योहा
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - योहा
+  - osis: John
+    texts:
+      - योहान
+  - osis: Acts
+    texts:
+      - प्रेषितस्ना काम
+      - प्रेषित.
+  - osis: Rom
+    texts:
+      - रोमकरस्ले पत्र
+      - रोम
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - करिं.
+  - osis: 1Cor
+    texts:
+      - करिंथकरांसस्ले पहिल पत्र
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - करिंथकरांस
+      - करिं
+  - osis: Col
+    texts:
+      - कलस्सैकरस्ले पत्र
+      - कल
+  - osis: Gal
+    texts:
+      - गलतीकरांस पत्र
+      - गल
+  - osis: Eph
+    texts:
+      - इफिसकरस्ले पत्र
+      - इफि
+  - osis: Phil
+    texts:
+      - फिलिप्पैकरस्ले पत्र
+      - फिलि
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - थेस्स
+  - osis: 1Thess
+    texts:
+      - थेस्सलनीकरस्ले पहिला पत्र
+  - osis: 2Thess
+    texts:
+      - थेस्सलनीकरस्ले दुसरा पत्र
+  - osis: 1Tim
+    texts:
+      - तीमुथियुस ले पहिला पत्र
+      - 1तिमु
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - तिमु
+  - osis: 2Tim
+    texts:
+      - तीमुथियुस ले दुसरा पत्र
+  - osis: Titus
+    texts:
+      - तीत ले पत्र
+      - तीत
+  - osis: Phlm
+    texts:
+      - फिलेमोन ले पत्र
+      - फिले
+  - osis: Heb
+    texts:
+      - इब्री लोकस्ले पत्र
+      - इब्री
+  - osis: Jas
+    texts:
+      - याकोब ना पत्र
+      - याको
+  - osis: 1Pet
+    texts:
+      - पेत्र ना पहिला पत्र
+      - 1पेत्र
+  - osis: 2Pet
+    texts:
+      - पेत्र ना दुसरा पत्र
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - पेत्र
+  - osis: Jude
+    texts:
+      - यहूदा ना पत्र
+      - यहू
+translations:
+  - AHRNT
+  - NTAII20

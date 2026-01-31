@@ -1,0 +1,235 @@
+default:
+  1Chr:
+    long: 1 Chroniques
+    short: 1 Kroo
+  1Cor:
+    long: 1 Corinthiens
+    short: 1 Kɔra
+  1John:
+    long: 1 Jean
+    short: 1 Yoow
+  1Kgs:
+    long: 1 Rois
+    short: 1 Bib
+  1Macc:
+    long: 1 Maccabées
+    short: 1 Maka
+  1Pet:
+    long: 1 Pierre
+    short: 1 Peet
+  1Sam:
+    long: 1 Samuel
+    short: 1 Sami
+  1Thess:
+    long: 1 Thessaloniciens
+    short: 1 Tees
+  1Tim:
+    long: 1 Timothée
+    short: 1 Tiim
+  2Chr:
+    long: 2 Chroniques
+    short: 2 Kroo
+  2Cor:
+    long: 2 Corinthiens
+    short: 2 Kɔra
+  2John:
+    long: 2 Jean
+    short: 2 Yoow
+  2Kgs:
+    long: 2 Rois
+    short: 2 Bib
+  2Macc:
+    long: 2 Maccabées
+    short: 2 Maka
+  2Pet:
+    long: 2 Pierre
+    short: 2 Peet
+  2Sam:
+    long: 2 Samuel
+    short: 2 Sami
+  2Thess:
+    long: 2 Thessaloniciens
+    short: 2 Tees
+  2Tim:
+    long: 2 Timothée
+    short: 2 Tiim
+  3John:
+    long: 3 Jean
+    short: 3 Yoow
+  Acts:
+    long: Actes
+    short: Atuun
+  Amos:
+    long: Amos
+    short: Amoos
+  Bar:
+    long: Baruch
+    short: Baru
+  Bel:
+    long: Bel et le Dragon
+    short: Beel
+  Col:
+    long: Colossiens
+    short: Kool
+  Dan:
+    long: Daniel (hébreu)
+    short: Dani
+  Deut:
+    long: Deutéronome
+    short: Ditee
+  Eccl:
+    long: Ecclésiaste
+    short: Uciŋ
+  EpJer:
+    long: Lettre de Jérémie
+    short: Yeer gbam
+  Eph:
+    long: Ephésiens
+    short: Eef
+  Esth:
+    long: Esther (hébreu)
+    short: Eest
+  EsthGr:
+    long: Esther (grec)
+    short: Eest greek
+  Exod:
+    long: Exode
+    short: Disa
+  Ezek:
+    long: Ezéchiel
+    short: Eesee
+  Ezra:
+    long: Esdras
+    short: Eesi
+  Gal:
+    long: Galates
+    short: Gala
+  Gen:
+    long: Genèse
+    short: Diny
+  Hab:
+    long: Habaquq
+    short: Abak
+  Hag:
+    long: Aggée
+    short: Agaa
+  Heb:
+    long: Hébreux
+    short: Eebru
+  Hos:
+    long: Osée
+    short: Osee
+  Isa:
+    long: Esaïe
+    short: Yees
+  Jas:
+    long: Jacques
+    short: Yaku
+  Jdt:
+    long: Judith
+    short: Judii
+  Jer:
+    long: Jérémie
+    short: Yeer
+  Job:
+    long: Job
+    short: Yoob
+  Joel:
+    long: Joël
+    short: Joow
+  John:
+    long: Jean
+    short: Yoow
+  Jonah:
+    long: Jonas
+    short: Yoona
+  Josh:
+    long: Josué
+    short: Joos
+  Jude:
+    long: Jude
+    short: Juudi
+  Judg:
+    long: Juges
+    short: Bibɔ
+  Lam:
+    long: Lamentations
+    short: Iyal
+  Lev:
+    long: Lévitique
+    short: Akoo
+  Luke:
+    long: Luc
+    short: Luuki
+  Mal:
+    long: Malachie
+    short: Mala
+  Mark:
+    long: Marc
+    short: Maar
+  Matt:
+    long: Matthieu
+    short: Maat
+  Mic:
+    long: Michée
+    short: Miik
+  Nah:
+    long: Nahoum
+    short: Nawum
+  Neh:
+    long: Néhémie
+    short: Neey
+  Num:
+    long: Nombres
+    short: Dikà
+  Obad:
+    long: Abdias
+    short: Ooba
+  Phil:
+    long: Philippiens
+    short: Fiil
+  Phlm:
+    long: Philémon
+    short: Fiilm
+  PrAzar:
+    long: Cantique des trois jeunes
+    short: B3L
+  Prov:
+    long: Proverbes
+    short: Alaŋ
+  Ps:
+    long: Psaumes
+    short: Ilan
+  Rev:
+    long: Apocalypse
+    short: Dilee
+  Rom:
+    long: Romains
+    short: Room
+  Ruth:
+    long: Ruth
+    short: Ruut
+  Sir:
+    long: Siracide
+    short: Siira
+  Song:
+    long: Cantique des Cantiques
+    short: Slaŋ
+  Sus:
+    long: Susanne
+    short: Suus
+  Titus:
+    long: Tite
+    short: Tiiti
+  Tob:
+    long: Tobit
+    short: Toob
+  Wis:
+    long: Sagesse
+    short: Iciin
+  Zech:
+    long: Zacharie
+    short: Saka
+  Zeph:
+    long: Sophonie
+    short: Seef

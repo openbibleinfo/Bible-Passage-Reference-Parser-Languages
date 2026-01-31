@@ -1,0 +1,137 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Hemallaha Ngana
+      - Hem
+  - osis: Matt
+    texts:
+      - Mateus
+      - Mat
+  - osis: Mark
+    texts:
+      - Mak
+  - osis: Luke
+    texts:
+      - Lukas
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Io
+  - osis: 2John
+    texts:
+      - 2Io
+  - osis: 3John
+    texts:
+      - 3 Ioanes
+      - 3Io
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Ioanes
+  - osis: John
+    texts:
+      - Ioanes
+      - Ioa
+  - osis: Acts
+    texts:
+      - Ume
+  - osis: Rom
+    texts:
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korin
+  - osis: 1Cor
+    texts:
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - 2Ko
+  - osis: Col
+    texts:
+      - Kolosi
+      - Kol
+  - osis: Gal
+    texts:
+      - Kalasia
+      - Kal
+  - osis: Eph
+    texts:
+      - Epeses
+      - Epe
+  - osis: Phil
+    texts:
+      - Pilipai
+      - Pil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonika
+  - osis: 1Thess
+    texts:
+      - 1Te
+  - osis: 2Thess
+    texts:
+      - 2Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Titus
+      - Tit
+  - osis: Phlm
+    texts:
+      - Pilemon
+      - Plm
+  - osis: Heb
+    texts:
+      - Hipru
+      - Hip
+  - osis: Jas
+    texts:
+      - Ieims
+      - Iei
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petrus
+  - osis: 1Pet
+    texts:
+      - 1Pi
+  - osis: 2Pet
+    texts:
+      - 2Pi
+  - osis: Jude
+    texts:
+      - Iut
+translations:
+  - UVL

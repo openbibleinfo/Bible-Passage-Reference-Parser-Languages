@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: ১ বংশধর
+    short: ১ বংশ
+  1Cor:
+    long: ১ করিন্হীয়
+    short: ১ করিন্হ
+  1John:
+    long: ১ যোহন
+    short: ১ যোন
+  1Kgs:
+    long: ১ রাজাবলী
+    short: ১ রাজা
+  1Pet:
+    long: ১ পিতর
+    short: ১ পিতর
+  1Sam:
+    long: ১ শমূয়েল
+    short: ১ শমূ
+  1Thess:
+    long: ১ থিষলনীকীয়
+    short: ১ থিষলনী
+  1Tim:
+    long: ১ তীমথিয়
+    short: ১ তীমথি
+  2Chr:
+    long: ২ বংশধর
+    short: ২ বংশ
+  2Cor:
+    long: ২ করিন্হীয়
+    short: ২ করিন্হ
+  2John:
+    long: ২ যোহন
+    short: ২ যোন
+  2Kgs:
+    long: ২ রাজাবলী
+    short: ২ রাজা
+  2Pet:
+    long: ২ পিতর
+    short: ২ পিতর
+  2Sam:
+    long: ২ শমূয়েল
+    short: ২ শমূ
+  2Thess:
+    long: ২ থিষলনীকীয়
+    short: ২ থিষলনী
+  2Tim:
+    long: ২ তীমথিয়
+    short: ২ তীমথি
+  3John:
+    long: ৩ যোহন
+    short: ৩ যোন
+  Acts:
+    long: প্রেরিত্‌
+    short: প্রেরিত্‌
+  Amos:
+    long: আমোষ
+    short: আমো
+  Col:
+    long: কলসীয়
+    short: কল
+  Dan:
+    long: দানিয়েল
+    short: দানি
+  Deut:
+    long: দ্বি’লম্বর বিররণ
+    short: দ্বিবি
+  Eccl:
+    long: উপদেশক
+    short: উপদে
+  Eph:
+    long: ইফিষীয়
+    short: ইফি
+  Esth:
+    long: ইষ্টের
+    short: ইষ্টের
+  Exod:
+    long: যাত্রা
+    short: যাত্রা
+  Ezek:
+    long: যিহিষ্কেল
+    short: যিহি
+  Ezra:
+    long: ইষ্রা
+    short: ইষ্রা
+  Gal:
+    long: গালাতীয়
+    short: গালা
+  Gen:
+    long: পত্থম
+    short: পত্ত
+  Hab:
+    long: হবক্‌‌‌‌কূক
+    short: হব
+  Hag:
+    long: হগয়
+    short: হগ
+  Heb:
+    long: ইব্রীয়
+    short: ইব্রীয়
+  Hos:
+    long: হোশেয়
+    short: হোসে
+  Isa:
+    long: যিশাইয়
+    short: যিশা
+  Jas:
+    long: যাকোব
+    short: যাকোব
+  Jer:
+    long: যিরমিয়
+    short: যির
+  Job:
+    long: ইয়োব
+    short: ইয়োব
+  Joel:
+    long: যোয়েল
+    short: যোয়ে
+  John:
+    long: যোহন
+    short: যোহন
+  Jonah:
+    long: যোনা
+    short: যোনা
+  Josh:
+    long: যিহোশূয়
+    short: যিহোশু
+  Jude:
+    long: যিহূদা
+    short: যিহূা
+  Judg:
+    long: বিচের গুরিয়্যেগুন
+    short: বিচেরগু
+  Lam:
+    long: আবিলেচ্
+    short: আবি
+  Lev:
+    long: লেবীয়
+    short: লেবী
+  Luke:
+    long: লূক
+    short: লূক
+  Mal:
+    long: মালাখি
+    short: মালা
+  Mark:
+    long: মার্ক
+    short: মার্ক
+  Matt:
+    long: মথি
+    short: মথি
+  Mic:
+    long: মীখা
+    short: মীখা
+  Nah:
+    long: নহূম
+    short: নহূ
+  Neh:
+    long: নহিমিয়
+    short: নহি
+  Num:
+    long: গণাণা
+    short: গণা
+  Obad:
+    long: ওবদিয়
+    short: ওব
+  Phil:
+    long: ফিলিপীয়
+    short: ফিলি
+  Phlm:
+    long: ফিলীমন
+    short: ফিলী
+  Prov:
+    long: গম্ উপদেজ্
+    short: গমউ
+  Ps:
+    long: গীত
+    short: গীত
+  Rev:
+    long: ফগদাং পেইয়্যে
+    short: ফগদাং
+  Rom:
+    long: রোমীয়
+    short: রোমী
+  Ruth:
+    long: রূত
+    short: রূত
+  Song:
+    long: পরমগীত
+    short: পরমগী
+  Titus:
+    long: তীত
+    short: তীত
+  Zech:
+    long: সখরিয়
+    short: সখ
+  Zeph:
+    long: সফনিয়
+    short: সফ

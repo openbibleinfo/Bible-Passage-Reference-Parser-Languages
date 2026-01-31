@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Otsotsa
+  - osis: Matt
+    texts:
+      - aMatiyu
+  - osis: Mark
+    texts:
+      - Amarku
+  - osis: Luke
+    texts:
+      - Oluka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Eyohana
+  - osis: Acts
+    texts:
+      - Otum
+  - osis: Rom
+    texts:
+      - MoaOroma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - MoaOkorinti
+  - osis: Col
+    texts:
+      - MoaOkolosi
+  - osis: Gal
+    texts:
+      - MoaEgalasiya
+  - osis: Eph
+    texts:
+      - MoAfisu
+  - osis: Phil
+    texts:
+      - MoaEfilibi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - MoaEtasolonika
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Etimoti
+  - osis: Titus
+    texts:
+      - Etitu
+  - osis: Phlm
+    texts:
+      - Efilimo
+  - osis: Heb
+    texts:
+      - MoaIbrani
+  - osis: Jas
+    texts:
+      - Eyakubu
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Ebitru
+  - osis: Jude
+    texts:
+      - Eyahuda
+translations:
+  - EGONT74

@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Dekat
+    short: 1 Dek
+  1Cor:
+    long: 1 Korinto
+    short: 1 Kor
+  1John:
+    long: 1 Yoane
+    short: 1 Yoa
+  1Kgs:
+    long: 1 Moran
+    short: 1 Mor
+  1Pet:
+    long: 1 Petero
+    short: 1 Pet
+  1Sam:
+    long: 1 Samuele
+    short: 1 Sam
+  1Thess:
+    long: 1 Tesalonike
+    short: 1 Tes
+  1Tim:
+    long: 1 Timoteo
+    short: 1 Tim
+  2Chr:
+    long: 2 Dekat
+    short: 2 Dek
+  2Cor:
+    long: 2 Korinto
+    short: 2 Kor
+  2John:
+    long: 2 Yoane
+    short: 2 Yoa
+  2Kgs:
+    long: 2 Moran
+    short: 2 Mor
+  2Pet:
+    long: 2 Petero
+    short: 2 Pet
+  2Sam:
+    long: 2 Samuele
+    short: 2 Sam
+  2Thess:
+    long: 2 Tesalonike
+    short: 2 Tes
+  2Tim:
+    long: 2 Timoteo
+    short: 2 Tim
+  3John:
+    long: 3 Yoane
+    short: 3 Yoa
+  Acts:
+    long: Konesi
+    short: Kon
+  Amos:
+    long: Amosa
+    short: Amo
+  Col:
+    long: Kolosai
+    short: Kol
+  Dan:
+    long: Daniele
+    short: Dan
+  Deut:
+    long: Nyökit
+    short: Nyö
+  Eccl:
+    long: Katokuönit
+    short: Kat
+  Eph:
+    long: Epeso
+    short: Epe
+  Esth:
+    long: Esetere
+    short: Est
+  Exod:
+    long: Yuörö
+    short: Yuö
+  Ezek:
+    long: Ejikele
+    short: Ejk
+  Ezra:
+    long: Ejira
+    short: Ejr
+  Gal:
+    long: Galatia
+    short: Gal
+  Gen:
+    long: Suluet
+    short: Sul
+  Hab:
+    long: Abakuk
+    short: Abk
+  Hag:
+    long: Kagai
+    short: Kag
+  Heb:
+    long: Ebere
+    short: Eb
+  Hos:
+    long: Osea
+    short: Ose
+  Isa:
+    long: Yisaya
+    short: Yis
+  Jas:
+    long: Yakobo
+    short: Yak
+  Jer:
+    long: Yeremia
+    short: Yer
+  Job:
+    long: Eyobo
+    short: Eyo
+  Joel:
+    long: Yoele
+    short: Yoe
+  John:
+    long: Yoane
+    short: Yoa
+  Jonah:
+    long: Yona
+    short: Yon
+  Josh:
+    long: Yosua
+    short: Yos
+  Jude:
+    long: Yuda
+    short: Yud
+  Judg:
+    long: Ka’duŋök
+    short: Ka’d
+  Lam:
+    long: Delyasi
+    short: Del
+  Lev:
+    long: Lewi
+    short: Lew
+  Luke:
+    long: Luka
+    short: Luk
+  Mal:
+    long: Malaki
+    short: Mal
+  Mark:
+    long: Marako
+    short: Mar
+  Matt:
+    long: Matayo
+    short: Mat
+  Mic:
+    long: Mika
+    short: MiK
+  Nah:
+    long: Naum
+    short: Nau
+  Neh:
+    long: Nemaya
+    short: Nem
+  Num:
+    long: Kenet
+    short: Ken
+  Obad:
+    long: Obadia
+    short: Oba
+  Phil:
+    long: Pilipoi
+    short: Pil
+  Phlm:
+    long: Pilimona
+    short: Pilm
+  Prov:
+    long: Tolupesi
+    short: Tol
+  Ps:
+    long: Saumajin
+    short: Sau
+  Rev:
+    long: Kweyatti
+    short: Kwe
+  Rom:
+    long: Roma
+    short: Rom
+  Ruth:
+    long: Ruta
+    short: Ruta
+  Song:
+    long: Koli Lo ’but Parik
+    short: Köl
+  Titus:
+    long: Tito
+    short: Tit
+  Zech:
+    long: Jakaria
+    short: Jak
+  Zeph:
+    long: Jepania
+    short: Jep

@@ -1,0 +1,165 @@
+default:
+  1Cor:
+    long: 1 Kǝl-Korent
+    short: 1Ko
+  1John:
+    long: 1 Yaxya
+    short: 1Ya
+  1Pet:
+    long: 1 Butros
+    short: 1Bu
+  1Thess:
+    long: 1 Kǝl-Tesalonik
+    short: 1Te
+  1Tim:
+    long: 1 Timotay
+    short: 1Ti
+  2Cor:
+    long: 2 Kǝl-Korent
+    short: 2Ko
+  2John:
+    long: 2 Yaxya
+    short: 2Ya
+  2Pet:
+    long: 2 Butros
+    short: 2Bu
+  2Thess:
+    long: 2 Kǝl-Tesalonik
+    short: 2Te
+  2Tim:
+    long: 2 Timotay
+    short: 2Ti
+  3John:
+    long: 3 Yaxya
+    short: 3Ya
+  Acts:
+    long: Igitan
+    short: Igi
+  Col:
+    long: Kǝl-Kolosǝya
+    short: Kol
+  Eph:
+    long: Kǝl-Efez
+    short: Efe
+  Gal:
+    long: Kǝl-Galatǝya
+    short: Gal
+  Heb:
+    long: Kǝl-Ɣibri
+    short: Ɣib
+  Jas:
+    long: Yaqub
+    short: Yaq
+  John:
+    long: Yaxya
+    short: Yax
+  Jude:
+    long: Yuday
+    short: Yud
+  Luke:
+    long: Luqa
+    short: Luq
+  Mark:
+    long: Markus
+    short: Mar
+  Matt:
+    long: Matta
+    short: Mat
+  Phil:
+    long: Kǝl-Filib
+    short: Flb
+  Phlm:
+    long: Filemona
+    short: Flm
+  Rev:
+    long: Ǝnǝfilal
+    short: Ǝnǝ
+  Rom:
+    long: Kǝl-Ǝrrum
+    short: Ǝrr
+  Titus:
+    long: Titǝs
+    short: Tit
+translations:
+  ttqtg:
+    1Cor:
+      long: 1 ⴾⵍⴾⵔⵏ⵿ⵜ
+      short: 1ⴾ
+    1John:
+      long: 1 ⵢⵈⵢⴰ
+      short: 1ⵢⴰ
+    1Pet:
+      long: 1 ⵀⵜⵔⵙ
+      short: 1ⵀⵓ
+    1Thess:
+      long: 1 ⴾⵍ⵿ⵜⵙⵍⵏⴾ
+      short: 1ⵜ
+    1Tim:
+      long: 1 ⵜⵎⵜⵢ
+      short: 1ⵜⵢ
+    2Cor:
+      long: 2 ⴾⵍⴾⵔⵏ⵿ⵜ
+      short: 2ⴾ
+    2John:
+      long: 2 ⵢⵈⵢⴰ
+      short: 2ⵢⴰ
+    2Pet:
+      long: 2 ⵀⵜⵔⵙ
+      short: 2ⵀⵓ
+    2Thess:
+      long: 2 ⴾⵍ⵿ⵜⵙⵍⵏⴾ
+      short: 2ⵜ
+    2Tim:
+      long: 2 ⵜⵎⵜⵢ
+      short: 2ⵜⵢ
+    3John:
+      long: 3 ⵢⵈⵢⴰ
+      short: 3ⵢⴰ
+    Acts:
+      long: ⴶⵜⵏ
+      short: ⴶⵢ
+    Col:
+      long: ⴾⵍⴾⵍⵙⵢⴰ
+      short: ⴾⵍ
+    Eph:
+      long: ⴾⵍⴼⵤ
+      short: ⴼ
+    Gal:
+      long: ⴾⵍⴶⵍⵜⵢⴰ
+      short: ⴶⵍ
+    Heb:
+      long: ⴾⵍⵗⵀⵔⵢ
+      short: ⵗⵀ
+    Jas:
+      long: ⵢⵆⵀ
+      short: ⵢⵆ
+    John:
+      long: ⵢⵈⵢⴰ
+      short: ⵢⵈ
+    Jude:
+      long: ⵢⴹⵢ
+      short: ⵢⴹ
+    Luke:
+      long: ⵍⵆⴰ
+      short: ⵍⵆ
+    Mark:
+      long: ⵎⵔⴾⵙ
+      short: ⵎⵔ
+    Matt:
+      long: ⵎⵜⴰ
+      short: ⵎⵜ
+    Phil:
+      long: ⴾⵍⴼⵍⵀ
+      short: ⴼⵍⵀ
+    Phlm:
+      long: ⴼⵍⵎⵏⴰ
+      short: ⴼⵍⵎ
+    Rev:
+      long: ⵏⴼⵍⵍ
+      short: ⵏ
+    Rom:
+      long: ⴾⵍⵔⵎ
+      short: ⵔ
+    Titus:
+      long: ⵜⵜⵙ
+      short: ⵜⵜ

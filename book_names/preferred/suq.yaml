@@ -1,0 +1,55 @@
+default:
+  1John:
+    long: 1 Yohanis
+    short: 1Yoh
+  1Thess:
+    long: 1 Tɛsɛlongke
+    short: 1Tɛs
+  1Tim:
+    long: 1 Timotiyos
+    short: 1Tim
+  2John:
+    long: 2 Yohanis
+    short: 2Yoh
+  2Pet:
+    long: 2 Betiros
+    short: 2Bet
+  2Thess:
+    long: 2 Tɛsɛlongke
+    short: 2Tɛs
+  2Tim:
+    long: 2 Timotiyos
+    short: 2Tim
+  3John:
+    long: 3 Yohanis
+    short: 3Yoh
+  Acts:
+    long: Zuga Kèkko
+    short: Zug
+  Gen:
+    long: Lɔgɔ Sabba
+    short: Sab
+  Jas:
+    long: Yaykob
+    short: Yay
+  John:
+    long: Yohanis
+    short: Yoh
+  Jonah:
+    long: Dadaba Yonasi
+    short: Yon
+  Jude:
+    long: Yihudha
+    short: Yih
+  Mark:
+    long: Markos
+    short: Mar
+  Matt:
+    long: Matiyos
+    short: Mat
+  Phlm:
+    long: Silimona
+    short: Sil
+  Titus:
+    long: Tito
+    short: Tit

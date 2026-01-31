@@ -1,0 +1,160 @@
+default:
+  1Chr:
+    long: 1 Ondjalulo
+    short: 1 Ondjal.
+  1Cor:
+    long: 1 Aakorinto
+    short: 1 Kor.
+  1John:
+    long: 1 Johannes
+  1Kgs:
+    long: 1 Aakwaniilwa
+    short: 1 Aak.
+  1Pet:
+    long: 1 Petrus
+  1Sam:
+    long: 1 Samuel
+    short: 1 Sam.
+  1Thess:
+    long: 1 Aatessalonika
+  1Tim:
+    long: 1Timoteus
+  2Chr:
+    long: 2 Ondjalulo
+    short: 2 Ondjal.
+  2Cor:
+    long: 2 Aakorinto
+    short: 2 Kor.
+  2John:
+    long: 2 Johannes
+  2Kgs:
+    long: 2 Aakwaniilwa
+    short: 2 Aak.
+  2Pet:
+    long: 2 Petrus
+  2Sam:
+    long: 2 Samuel
+    short: 2 Sam.
+  2Thess:
+    long: 2 Aatessalonika
+  2Tim:
+    long: 2 Timoteus
+  3John:
+    long: 3 Johannes
+  Acts:
+    long: Iilonga
+    short: Iil.
+  Amos:
+    long: Amos
+  Col:
+    long: Aakolossa
+  Dan:
+    long: Daniel
+  Deut:
+    long: Deuteronomium
+    short: Deut.
+  Eccl:
+    long: Omuuvithi
+  Eph:
+    long: Aaefeso
+  Esth:
+    long: Ester
+  Exod:
+    long: Eksodus
+    short: Eks.
+  Ezek:
+    long: Hesekiel
+    short: Hes.
+  Ezra:
+    long: Esra
+    short: Esra.
+  Gal:
+    long: Aagalati
+  Gen:
+    long: Genesis
+    short: Gen.
+  Hab:
+    long: Habakuk
+  Hag:
+    long: Haggai
+  Heb:
+    long: Aahebeli
+  Hos:
+    long: Hosea
+  Isa:
+    long: Jesaja
+    short: Jes.
+  Jas:
+    long: Jakob
+  Jer:
+    long: Jeremia
+    short: Jer.
+  Job:
+    long: Job
+  Joel:
+    long: Joel
+  John:
+    long: Johannes
+    short: Joh.
+  Jonah:
+    long: Jona
+  Josh:
+    long: Josua
+    short: Jos.
+  Jude:
+    long: Judas
+  Judg:
+    long: Aatokolihapu
+    short: Aat.
+  Lam:
+    long: Oontakumandjimbo
+  Lev:
+    long: Levitikus
+    short: Lev.
+  Luke:
+    long: Lukas
+    short: Luk.
+  Mal:
+    long: Maleaki
+  Mark:
+    long: Markus
+    short: Mrk.
+  Matt:
+    long: Mateus
+    short: Mat.
+  Mic:
+    long: Mika
+    short: Mika.
+  Nah:
+    long: Nahum
+  Neh:
+    long: Nehemia
+    short: Neh.
+  Num:
+    long: Numeri
+    short: Num.
+  Obad:
+    long: Obadja
+  Phil:
+    long: Aafilippi
+  Phlm:
+    long: Filemon
+  Prov:
+    long: Omayeletumbulo
+  Ps:
+    long: Omapisalomi
+    short: Eps.
+  Rev:
+    long: Ehololo
+  Rom:
+    long: Aaroma
+  Ruth:
+    long: Rut
+  Song:
+    long: Ondjimbolela
+  Titus:
+    long: Titus
+  Zech:
+    long: Sakaria
+  Zeph:
+    long: Sefania

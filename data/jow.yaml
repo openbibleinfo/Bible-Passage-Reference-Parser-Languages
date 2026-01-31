@@ -1,0 +1,119 @@
+books:
+  - osis: Rev
+    texts:
+      - Jafinŋ ki
+      - Jaf
+  - osis: Ruth
+    texts:
+      - Uruti
+      - Urut
+  - osis: Jonah
+    texts:
+      - Yonasi
+      - Yona
+  - osis: Matt
+    texts:
+      - Matiyu
+      - Mat
+  - osis: Mark
+    texts:
+      - Maraka
+      - Mrk
+  - osis: Luke
+    texts:
+      - Luki
+      - Luk
+  - osis: 1John
+    texts:
+      - Yuhana (1)
+      - Yh1
+  - osis: 2John
+    texts:
+      - Yuhana (2)
+      - Yh2
+  - osis: 3John
+    texts:
+      - Yuhana (3)
+      - Yh3
+  - osis: John
+    texts:
+      - Yuhana
+      - Yuh
+  - osis: Acts
+    texts:
+      - Mabikiri
+      - Mab
+  - osis: Rom
+    texts:
+      - Ɔrɔmutɔnŋ kiri
+      - Ɔrm
+  - osis: 1Cor
+    texts:
+      - Korɛntitɔnŋ kiri (1)
+      - Ko1
+  - osis: 2Cor
+    texts:
+      - Korɛntitɔnŋ kiri (2)
+      - Ko2
+  - osis: Col
+    texts:
+      - Kɔlɔsitɔnŋ kiri
+      - Kɔl
+  - osis: Gal
+    texts:
+      - Galasitɔnŋ kiri
+      - Gal
+  - osis: Eph
+    texts:
+      - Efɛsitɔnŋ kiri
+      - Efɛ
+  - osis: Phil
+    texts:
+      - Filipitɔnŋ kiri
+      - Flp
+  - osis: 1Thess
+    texts:
+      - Tesalonikitɔnŋ kiri (1)
+      - Te1
+  - osis: 2Thess
+    texts:
+      - Tesalonikitɔnŋ kiri (2)
+      - Te2
+  - osis: 1Tim
+    texts:
+      - Timote (1)
+      - Tm1
+  - osis: 2Tim
+    texts:
+      - Timote (2)
+      - Tm2
+  - osis: Titus
+    texts:
+      - Tite
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filimɔn
+      - Flm
+  - osis: Heb
+    texts:
+      - Iburu kiri
+      - Ibu
+  - osis: Jas
+    texts:
+      - Yakuba
+      - Yak
+  - osis: 1Pet
+    texts:
+      - Pyɛɛri (1)
+      - Py1
+  - osis: 2Pet
+    texts:
+      - Pyɛɛri (2)
+      - Py2
+  - osis: Jude
+    texts:
+      - Yodasi
+      - Yod
+translations:
+  - JOB

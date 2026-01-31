@@ -1,0 +1,112 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Kȧŋȧibinɛ
+      - Ŋȧibinɛ
+  - osis: Matt
+    texts:
+      - Mathiu
+      - Mt
+  - osis: Mark
+    texts:
+      - Mark
+      - Mk
+  - osis: Luke
+    texts:
+      - Luk
+      - Lk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yɔn
+      - Yn
+  - osis: Acts
+    texts:
+      - Mȧyɔs ma aŋsom
+      - Mȧyɔs
+  - osis: Rom
+    texts:
+      - AŋRomans
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - AŋKɔrenth
+      - ȦŋKɔr
+  - osis: Col
+    texts:
+      - AŋKɔlɔsi
+      - Kɔl
+  - osis: Gal
+    texts:
+      - AŋKȧletia
+      - Kȧl
+  - osis: Eph
+    texts:
+      - AŋƐfisɔs
+      - Ɛfi
+  - osis: Phil
+    texts:
+      - AŋFilipai
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - AŋThɛsȧlonika
+      - Thȧsȧ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timɔthi
+      - Tim
+  - osis: Titus
+    texts:
+      - Taytɔs
+      - Tay
+  - osis: Phlm
+    texts:
+      - Faylimɔn
+      - Fay
+  - osis: Heb
+    texts:
+      - AŋHibru
+      - Hib
+  - osis: Jas
+    texts:
+      - Yeməs
+      - Yem
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pitar
+      - Pit
+  - osis: Jude
+    texts:
+      - Yud
+translations:
+  - TMNNT

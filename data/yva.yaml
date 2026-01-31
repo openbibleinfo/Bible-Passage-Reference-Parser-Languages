@@ -1,0 +1,103 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Munije Ama Akari
+  - osis: Ps
+    texts:
+      - Masmur
+      - Mzm
+  - osis: Matt
+    texts:
+      - Matius
+      - Mat
+  - osis: Mark
+    texts:
+      - Markus
+      - Mrk
+  - osis: Luke
+    texts:
+      - Lukas
+      - Lk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohanes
+  - osis: Acts
+    texts:
+      - Arakovo Matutir
+  - osis: Rom
+    texts:
+      - Roma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintus
+  - osis: 1Cor
+    texts:
+      - 1Ko
+  - osis: Col
+    texts:
+      - Kolose
+  - osis: Gal
+    texts:
+      - Galatia
+  - osis: Eph
+    texts:
+      - Epesus
+  - osis: Phil
+    texts:
+      - Pilipi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonika
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotius
+  - osis: Titus
+    texts:
+      - Titus
+  - osis: Phlm
+    texts:
+      - Pilemon
+  - osis: Heb
+    texts:
+      - Ibrani
+  - osis: Jas
+    texts:
+      - Yakobus
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petrus
+  - osis: Jude
+    texts:
+      - Yudas
+translations:
+  - YVA

@@ -1,0 +1,142 @@
+variables:
+  first: &first
+    - "1"
+    - Barua
+  second: &second
+    - "2"
+    - Barua
+books:
+  - osis: Rev
+    texts:
+      - Urambuyo lwa Yohane
+      - Ura Yoh
+  - osis: Matt
+    texts:
+      - Matayo
+      - Mat
+  - osis: Mark
+    texts:
+      - Mariko
+      - Mar
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis: 3John
+    texts:
+      - Barua ya Yohane ya kararu
+      - 3 Yoh
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - ya Yohane ya mbele
+      - Yoh
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - ya Yohane ya kavili
+      - Yoh
+  - osis: John
+    texts:
+      - Yohane
+      - Yoh
+  - osis: Acts
+    texts:
+      - Mitanie ya varumi
+      - Var
+  - osis: Rom
+    texts:
+      - Barua ya Varome
+      - VaRo
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - ya Vakorinto ya mbele
+      - Vakor
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - ya Vakorinto ya kavili
+      - Vakor
+  - osis: Col
+    texts:
+      - Barua ya Vakolosai
+      - Vako
+  - osis: Gal
+    texts:
+      - Barua ya Vagalatia
+      - Vag
+  - osis: Eph
+    texts:
+      - Barua ya Vaefeso
+      - Vae
+  - osis: Phil
+    texts:
+      - Barua ya Vafilipi
+      - Vaf
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - ya Vatesalonike ya mbele
+      - Vat
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - ya Vatesalonike ya kavili
+      - Vat
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - ya Timoteo ya mbele
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - ya Timoteo ya kavili
+      - Tim
+  - osis: Titus
+    texts:
+      - Barua ya Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Barua ya Filemon
+      - Fil
+  - osis: Heb
+    texts:
+      - Barua ya Vaebrania
+      - Vaeb
+  - osis: Jas
+    texts:
+      - Barua ya Yakobo
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - ya Petiro ya mbele
+  - osis: 1Pet
+    texts:
+      - 1Pet
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - ya Petiro ya kavili
+      - Pet
+  - osis: Jude
+    texts:
+      - Barua ya Yuda
+      - Yud
+translations:
+  - RWK72

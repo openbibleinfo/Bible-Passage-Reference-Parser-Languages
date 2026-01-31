@@ -1,0 +1,203 @@
+default:
+  1Chr:
+    long: 1 Putipuyang
+    short: 1 Pu.
+  1Cor:
+    long: 1 Korint
+    short: 1 Ko.
+  1John:
+    long: 1 Yohan
+    short: 1 Yo.
+  1Kgs:
+    long: 1 Chubatem
+    short: 1 Ch.
+  1Pet:
+    long: 1 Peter
+    short: 1 Pe.
+  1Sam:
+    long: 1 Samuel
+    short: 1 Sa.
+  1Thess:
+    long: 1 Tesalonika
+    short: 1 Te.
+  1Tim:
+    long: 1 Timoti
+    short: 1 Ti.
+  2Chr:
+    long: 2 Putipuyang
+    short: 2 Pu.
+  2Cor:
+    long: 2 Korint
+    short: 2 Ko.
+  2John:
+    long: 2 Yohan
+    short: 2 Yo.
+  2Kgs:
+    long: 2 Chubatem
+    short: 2 Ch.
+  2Pet:
+    long: 2 Peter
+    short: 2 Pe.
+  2Sam:
+    long: 2 Samuel
+    short: 2 Sa.
+  2Thess:
+    long: 2 Tesalonika
+    short: 2 Te.
+  2Tim:
+    long: 2 Timoti
+    short: 2 Ti.
+  3John:
+    long: 3 Yohan
+    short: 3 Yo.
+  Acts:
+    long: Tenyartem Mapa
+    short: Tma.
+  Amos:
+    long: Amos
+    short: Amo.
+  Col:
+    long: Kolosi
+    short: Kol.
+  Dan:
+    long: Daniel
+    short: Dan.
+  Deut:
+    long: Tazüngkunem
+    short: Taz.
+  Eccl:
+    long: Sayutsüngir
+    short: Say.
+  Eph:
+    long: Efesa
+    short: Efe.
+  Esth:
+    long: Esther
+    short: Est.
+  Exod:
+    long: Anitet
+    short: Ani.
+  Ezek:
+    long: Ezekiel
+    short: Ezk.
+  Ezra:
+    long: Ezra
+    short: Ezr.
+  Gal:
+    long: Galatia
+    short: Gal.
+  Gen:
+    long: Lipok
+    short: Lip.
+  Hab:
+    long: Habakuk
+    short: Hab.
+  Hag:
+    long: Hagai
+    short: Hag.
+  Heb:
+    long: Ibri
+    short: Ibr.
+  Hos:
+    long: Hosea
+    short: Hos.
+  Isa:
+    long: Isaia
+    short: Isa.
+  Jas:
+    long: Yakob
+    short: Yak.
+  Jer:
+    long: Yerimia
+    short: Yer.
+  Job:
+    long: Yob
+    short: Yob.
+  Joel:
+    long: Yoel
+    short: Yoe.
+  John:
+    long: Yohan
+    short: Yoh.
+  Jonah:
+    long: Yona
+    short: Yon.
+  Josh:
+    long: Yihusua
+    short: Yih.
+  Jude:
+    long: Yihuda
+    short: Yhd.
+  Judg:
+    long: Obendangertem
+    short: Obe.
+  Lam:
+    long: Aiatai
+    short: Aia.
+  Lev:
+    long: Levi
+    short: Lev.
+  Luke:
+    long: Luk
+    short: Luk.
+  Mal:
+    long: Malaki
+    short: Mal.
+  Mark:
+    long: Mark
+    short: Mar.
+  Matt:
+    long: Mathi
+    short: Mat.
+  Mic:
+    long: Mika
+    short: Mik.
+  Nah:
+    long: Nahum
+    short: Nah.
+  Neh:
+    long: Nehimia
+    short: Neh.
+  Num:
+    long: Züngdangba
+    short: Zün.
+  Obad:
+    long: Obadia
+    short: Oba.
+  Phil:
+    long: Filipi
+    short: Fil.
+  Phlm:
+    long: Filemon
+    short: Flm.
+  Prov:
+    long: Apijemtsü
+    short: Api.
+  Ps:
+    long: Tenüngsang Ken
+    short: Tke.
+  Rev:
+    long: Jungkai Adokba
+    short: Jad.
+  Rom:
+    long: Rom
+    short: Rom.
+  Ruth:
+    long: Ruth
+    short: Rut.
+  Song:
+    long: Solomon Ken
+    short: Sol.
+  Titus:
+    long: Tita
+    short: Tit.
+  Zech:
+    long: Zekaria
+    short: Zek.
+  Zeph:
+    long: Zefania
+    short: Zef.
+translations:
+  aonagabsi:
+    Prov:
+      long: Apijemtsü Shin

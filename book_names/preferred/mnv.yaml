@@ -1,0 +1,13 @@
+default:
+  John:
+    long: John
+    short: Jn
+  Luke:
+    long: Luke
+    short: Lk
+  Mark:
+    long: Mark
+    short: Mk
+  Matt:
+    long: Matthew
+    short: Mt

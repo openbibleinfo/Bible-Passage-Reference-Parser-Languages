@@ -1,0 +1,238 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Lir.
+  - osis: Exod
+    texts:
+      - Khur.
+  - osis: Lev
+    texts:
+      - Bal.
+  - osis: Num
+    texts:
+      - Khub.
+  - osis: Sir
+    texts:
+      - Sir.
+  - osis: Wis
+    texts:
+      - Lim.
+  - osis: Lam
+    texts:
+      - Lis.
+  - osis: Rev
+    texts:
+      - Lif.
+  - osis: Deut
+    texts:
+      - Likh.
+  - osis: Josh
+    texts:
+      - Yosh.
+  - osis: Judg
+    texts:
+      - Bakh.
+  - osis: Ruth
+    texts:
+      - Ru.
+  - osis: Isa
+    texts:
+      - Isa.
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Sam.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Bab.
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Ke Ch.
+  - osis: Ezra
+    texts:
+      - Esr.
+  - osis: Neh
+    texts:
+      - Neh.
+  - osis: Esth
+    texts:
+      - Est.
+  - osis: Job
+    texts:
+      - Ayu.
+  - osis: Ps
+    texts:
+      - Chiny.
+  - osis: Prov
+    texts:
+      - Chis.
+  - osis: Eccl
+    texts:
+      - Omwil.
+  - osis: Song
+    texts:
+      - Kumw.
+  - osis: Jer
+    texts:
+      - Yer.
+  - osis: Ezek
+    texts:
+      - Esek.
+  - osis: Dan
+    texts:
+      - Dan.
+  - osis: Hos
+    texts:
+      - Hos.
+  - osis: Joel
+    texts:
+      - Yoe.
+  - osis: Amos
+    texts:
+      - Amo.
+  - osis: Obad
+    texts:
+      - Obad.
+  - osis: Jonah
+    texts:
+      - Yon.
+  - osis: Mic
+    texts:
+      - Mik.
+  - osis: Nah
+    texts:
+      - Nau.
+  - osis: Hab
+    texts:
+      - Hab.
+  - osis: Zeph
+    texts:
+      - Sef.
+  - osis: Hag
+    texts:
+      - Hag.
+  - osis: Zech
+    texts:
+      - Sak.
+  - osis: Mal
+    texts:
+      - Mal.
+  - osis: Matt
+    texts:
+      - Mat.
+  - osis: Mark
+    texts:
+      - Mk.
+  - osis: Luke
+    texts:
+      - Lk.
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yn.
+  - osis: Acts
+    texts:
+      - Bikh.
+  - osis: Rom
+    texts:
+      - Bar.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Bakor.
+  - osis: Col
+    texts:
+      - Bakol.
+  - osis: Gal
+    texts:
+      - Bakal.
+  - osis: Eph
+    texts:
+      - Baef.
+  - osis: Phil
+    texts:
+      - Bafil.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Bates.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tim.
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Film.
+  - osis: Heb
+    texts:
+      - Baeb.
+  - osis: Jas
+    texts:
+      - Yak.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pet.
+  - osis: Jude
+    texts:
+      - Yudi
+  - osis: Tob
+    texts:
+      - Tob.
+  - osis: Jdt
+    texts:
+      - Yut.
+  - osis: Bar
+    texts:
+      - Baru.
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+    texts:
+      - Bam.
+  - osis: EsthGr
+    texts:
+      - Esl.
+translations:
+  - LUBBIBLE

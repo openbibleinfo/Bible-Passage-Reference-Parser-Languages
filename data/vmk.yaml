@@ -1,0 +1,213 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Epacerero
+  - osis: Exod
+    texts:
+      - Okhuma
+  - osis: Lev
+    texts:
+      - Levitiku
+  - osis: Num
+    texts:
+      - Nuumeru
+  - osis: Lam
+    texts:
+      - Icipo Soolalamika
+  - osis: Rev
+    texts:
+      - Ethupululo
+  - osis: Deut
+    texts:
+      - Deuteronomiyo
+  - osis: Josh
+    texts:
+      - Yoxuwa
+  - osis: Judg
+    texts:
+      - Ahooleli
+  - osis: Ruth
+    texts:
+      - Ruuti
+  - osis: Isa
+    texts:
+      - Yesaya
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuweli
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Mamwene
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Nyaha
+  - osis: Ezra
+    texts:
+      - Ezera
+  - osis: Neh
+    texts:
+      - Nehemiya
+  - osis: Esth
+    texts:
+      - Exteri
+  - osis: Job
+    texts:
+      - Yobi
+  - osis: Ps
+    texts:
+      - Icipo
+  - osis: Prov
+    texts:
+      - Masu a Miruku
+  - osis: Eccl
+    texts:
+      - Namalaleiya
+  - osis: Song
+    texts:
+      - Ecipo Yooreeraxa
+  - osis: Jer
+    texts:
+      - Yeremiya
+  - osis: Ezek
+    texts:
+      - Ezekiyeli
+  - osis: Dan
+    texts:
+      - Daniyeli
+  - osis: Hos
+    texts:
+      - Hoxeya
+  - osis: Joel
+    texts:
+      - Yoweli
+  - osis: Amos
+    texts:
+      - Amosi
+  - osis: Obad
+    texts:
+      - Obadiya
+  - osis: Jonah
+    texts:
+      - Yoonasi
+  - osis: Mic
+    texts:
+      - Mikeyasi
+  - osis: Nah
+    texts:
+      - Nahumi
+  - osis: Hab
+    texts:
+      - Habakuki
+  - osis: Zeph
+    texts:
+      - Zefaniya
+  - osis: Hag
+    texts:
+      - Axewu
+  - osis: Zech
+    texts:
+      - Zakariya
+  - osis: Mal
+    texts:
+      - Malekiya
+  - osis: Matt
+    texts:
+      - Matheyo
+  - osis: Mark
+    texts:
+      - Marku
+  - osis: Luke
+    texts:
+      - Luuka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohaane
+  - osis: Acts
+    texts:
+      - Miteko
+  - osis: Rom
+    texts:
+      - aRooma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Akorinto
+  - osis: Col
+    texts:
+      - aKolosi
+  - osis: Gal
+    texts:
+      - aGalata
+  - osis: Eph
+    texts:
+      - awEfeso
+  - osis: Phil
+    texts:
+      - aFilipi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Atesalonika
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timootheyo
+  - osis: Titus
+    texts:
+      - Titu
+  - osis: Phlm
+    texts:
+      - Filemone
+  - osis: Heb
+    texts:
+      - aHeberi
+  - osis: Jas
+    texts:
+      - Yakobe
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pedru
+  - osis: Jude
+    texts:
+      - Yuda
+translations:
+  - VMK2021

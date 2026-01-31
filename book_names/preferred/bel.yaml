@@ -1,0 +1,465 @@
+default:
+  1Chr:
+    long: 1 Летапісаў
+    short: 1Пар.
+  1Cor:
+    long: 1 Карынфянаў
+    short: 1 Кар
+  1John:
+    long: 1 Яна
+    short: 1 Ян
+  1Kgs:
+    long: 1 Валадароў
+    short: 1Цар.
+  1Macc:
+    long: 1-я Кніга Макабэяў
+    short: 1Мак.
+  1Pet:
+    long: 1 Пятра
+    short: 1 Пт
+  1Sam:
+    long: 1 Самуэля
+    short: 1Сам.
+  1Thess:
+    long: 1 Тэсалонцаў
+    short: 1 Тэс
+  1Tim:
+    long: 1 Цімафея
+    short: 1 Цім
+  2Chr:
+    long: 2 Летапісаў
+    short: 2Пар.
+  2Cor:
+    long: 2 Карынфянаў
+    short: 2 Кар
+  2John:
+    long: 2 Яна
+    short: 2 Ян
+  2Kgs:
+    long: 2 Валадароў
+    short: 2Цар.
+  2Macc:
+    long: 2-я Кніга Макабэяў
+    short: 2Мак.
+  2Pet:
+    long: 2 Пятра
+    short: 2 Пт
+  2Sam:
+    long: 2 Самуэля
+    short: 2Сам.
+  2Thess:
+    long: 2 Тэсалонцаў
+    short: 2 Тэс
+  2Tim:
+    long: 2 Цімафея
+    short: 2 Цім
+  3John:
+    long: 3 Яна
+    short: 3 Ян
+  Acts:
+    long: Дзеі
+    short: Дз
+  Amos:
+    long: Амос
+    short: Ам.
+  Bar:
+    long: Кніга Баруха
+    short: Барух
+  Col:
+    long: Каласянаў
+    short: Кал
+  Dan:
+    long: Данііл
+    short: Дан.
+  Deut:
+    long: Другазаконьне
+    short: Паўт. Зак.
+  Eccl:
+    long: Кніга Эклезіяста
+    short: Экл.
+  Eph:
+    long: Ліст да Эфесцаў
+    short: Эф
+  Esth:
+    long: Эстэр
+    short: Эстэр
+  Exod:
+    long: Выхад
+    short: Вых.
+  Ezek:
+    long: Езэкііля
+    short: Эзэк.
+  Ezra:
+    long: Кніга Эздры
+    short: Эздр.
+  Gal:
+    long: Галятаў
+    short: Гал
+  Gen:
+    long: Быццё
+    short: Род.
+  Hab:
+    long: Абакум
+    short: Абак.
+  Hag:
+    long: Агей
+    short: Аг.
+  Heb:
+    long: Габрэяў
+    short: Геб.
+  Hos:
+    long: Асіі
+    short: Ос.
+  Isa:
+    long: Ісая
+    short: Іс.
+  Jas:
+    long: Ліст Якуба
+    short: Як
+  Jdt:
+    long: Кніга Юдыт
+    short: Юдыт
+  Jer:
+    long: Ераміі
+    short: Ярэм.
+  Job:
+    long: Ёва
+    short: Ёў
+  Joel:
+    long: Ёэль
+    short: Ёэль
+  John:
+    long: Яна
+    short: Ян
+  Jonah:
+    long: Ёна
+    short: Ёна
+  Josh:
+    long: Ісуса
+    short: Еш.
+  Jude:
+    long: Юды
+    short: Юда
+  Judg:
+    long: Судзьдзяў
+    short: Суд.
+  Lam:
+    long: Плач
+    short: Ламен.
+  Lev:
+    long: Лявіт
+    short: Святар.
+  Luke:
+    long: Евангелле паводле Лукі
+    short: Лк
+  Mal:
+    long: Кніга Малахіі
+    short: Мал.
+  Mark:
+    long: Марка
+    short: Мк
+  Matt:
+    long: Мацьвея
+    short: Мц
+  Mic:
+    long: Кніга Міхея
+    short: Міх.
+  Nah:
+    long: Кніга Навума
+    short: Навум
+  Neh:
+    long: Кніга Нэгэміі
+    short: Нэгэм.
+  Num:
+    long: Лікі
+    short: Ліч.
+  Obad:
+    long: Абадыя
+    short: Абд.
+  Phil:
+    long: Ліст да Піліпцаў
+    short: Плп.
+  Phlm:
+    long: Філімона
+    short: Флм
+  Prov:
+    long: Выслоўі
+    short: Высл.
+  Ps:
+    long: Кніга Псальмаў
+    short: Пс.
+  Rev:
+    long: Адкрыццё
+    short: Адкр
+  Rom:
+    long: Рымлянаў
+    short: Рым
+  Ruth:
+    long: Рут
+    short: Рут
+  Sir:
+    long: Эклезіясціка (Мудрасць Ісуса, сына Сіраха)
+    short: Сірах.
+  Song:
+    long: Песьня
+    short: Песн.
+  Titus:
+    long: Ціта
+    short: Ціт
+  Tob:
+    long: Кніга Тобіі
+    short: Тоб.
+  Wis:
+    long: Кніга Мудрасці
+    short: Мудр.
+  Zech:
+    long: Захарыя
+    short: Зах.
+  Zeph:
+    long: Кніга Сафоніі
+    short: Саф.
+translations:
+  belbc17:
+    1Chr:
+      long: Першая кніга Хронікаў
+    1Cor:
+      long: Першы ліст да Карынцянаў
+      short: 1Кар.
+    1John:
+      long: Першы ліст Яна
+      short: 1Ян.
+    1Kgs:
+      long: Першая кніга Цароў
+    1Pet:
+      long: Першы ліст Пётры
+      short: 1Пёт.
+    1Sam:
+      long: Першая кніга Самуэля
+    1Thess:
+      long: Першы ліст да Тэсалонцаў
+      short: 1Тэс.
+    1Tim:
+      long: Першы ліст да Цімафея
+      short: 1Цім.
+    2Chr:
+      long: Другая кніга Хронікаў
+    2Cor:
+      long: Другі ліст да Карынцянаў
+      short: 2Кар.
+    2John:
+      long: Другі ліст Яна
+      short: 2Ян.
+    2Kgs:
+      long: Другая кніга Цароў
+    2Pet:
+      long: Другі ліст Пётры
+      short: 2Пёт.
+    2Sam:
+      long: Другая кніга Самуэля
+    2Thess:
+      long: Другі ліст да Тэсалонцаў
+      short: 2Тэс.
+    2Tim:
+      long: Другі ліст да Цімафея
+      short: 2Цім.
+    3John:
+      long: Трэці ліст Яна
+      short: 3Ян.
+    Acts:
+      long: Дзеі святых Апосталаў
+      short: Дзеі
+    Amos:
+      long: Кніга Амоса
+    Col:
+      long: Ліст да Калосцаў
+      short: Клс.
+    Dan:
+      long: Кніга Даніэля
+    Deut:
+      long: Кніга Паўторанага Закону
+    Eph:
+      short: Эф.
+    Esth:
+      long: Кніга Эстэр
+    Exod:
+      long: Кніга Выхаду
+    Ezek:
+      long: Кніга Эзэкіэля
+    Gal:
+      long: Ліст да Галатаў
+      short: Гал.
+    Gen:
+      long: Кніга Роду
+    Hab:
+      long: Кніга Абакука
+    Hag:
+      long: Кніга Агэя
+    Heb:
+      long: Ліст да Гебраяў
+    Hos:
+      long: Кніга Осіі
+    Isa:
+      long: Кніга Ісаі
+    Jas:
+      short: Як.
+    Jer:
+      long: Кніга Ярэміі
+    Job:
+      long: Кніга Ёва
+    Joel:
+      long: Кніга Ёэля
+    John:
+      long: Евангелле паводле Яна
+      short: Ян.
+    Jonah:
+      long: Кніга Ёны
+    Josh:
+      long: Кніга Ешуа
+    Jude:
+      long: Ліст Юды
+      short: Юды
+    Judg:
+      long: Кніга Суддзяў
+    Lam:
+      long: Ламентацыі Ярэміі
+    Lev:
+      long: Кніга Святарская
+    Luke:
+      short: Лк.
+    Mark:
+      long: Евангелле паводле Марка
+      short: Мк.
+    Matt:
+      long: Евангелле паводле Мацвея
+      short: Мц.
+    Num:
+      long: Кніга Лічбаў
+    Obad:
+      long: Кніга Абдыі
+    Phlm:
+      long: Ліст да Філімона
+      short: Флм.
+    Prov:
+      long: Кніга Выслоўяў Саламонавых
+    Rev:
+      long: Адкрыццё Яна
+      short: Адкр.
+    Rom:
+      long: Ліст да Рымлянаў
+      short: Рым.
+    Ruth:
+      long: Кніга Рут
+    Song:
+      long: Песня з Песняў Саламонава
+    Titus:
+      long: Ліст да Ціта
+      short: Ціт.
+    Zech:
+      long: Кніга Захарыі
+  bbb:
+    1Cor:
+      long: 1 Карыньцянаў
+    2Cor:
+      long: 2 Карыньцянаў
+    Eccl:
+      long: Эклезіяст
+    Eph:
+      long: Эфэсцаў
+    Ezek:
+      long: Эзэкіэль
+    Ezra:
+      long: Эзра
+    Gen:
+      long: Быцьцё
+    Heb:
+      long: Гебраяў
+      short: Гебр
+    Hos:
+      long: Осія
+    Jas:
+      long: Якуба
+    Jer:
+      long: Ярэмія
+    Job:
+      long: Ёў
+    Josh:
+      long: Егошуа
+    Luke:
+      long: Лукі
+    Mal:
+      long: Малахія
+    Mic:
+      long: Міхей
+    Nah:
+      long: Навум
+    Neh:
+      long: Нээмія
+    Phil:
+      long: Філіпянаў
+      short: Флп
+    Prov:
+      long: Прыповесьці
+      short: Прп
+    Ps:
+      long: Псальмы
+    Rev:
+      long: Адкрыцьцё
+    Zeph:
+      long: Сафонія
+  bbl:
+    1Kgs:
+      long: 3 Царстваў
+    1Sam:
+      long: 1 Царстваў
+    1Thess:
+      long: 1 Фесалонікійцаў
+    2Kgs:
+      long: 4 Царстваў
+    2Sam:
+      long: 2 Царстваў
+    2Thess:
+      long: 2 Фесалонікійцаў
+    Amos:
+      long: Амоса
+    Dan:
+      long: Данііла
+    Deut:
+      long: Другі Закон
+    Eccl:
+      long: Эклезіяста
+    Eph:
+      long: Эфэсянаў
+    Ezra:
+      long: Эздры
+    Hab:
+      long: Абакума
+    Hag:
+      long: Агея
+    Isa:
+      long: Ісаі
+    Jas:
+      long: Якава
+    Joel:
+      long: Ёіля
+    Jonah:
+      long: Ёны
+    Luke:
+      long: Лукаша
+    Mal:
+      long: Малахіі
+    Mic:
+      long: Міхея
+    Nah:
+      long: Навума
+    Neh:
+      long: Нээміі
+    Obad:
+      long: Аўдзея
+    Phil:
+      long: Піліпянаў
+    Ps:
+      long: Псалтыр
+    Zech:
+      long: Захарыі
+    Zeph:
+      long: Сафона

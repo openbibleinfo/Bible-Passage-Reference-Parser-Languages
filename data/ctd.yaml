@@ -1,0 +1,367 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Piancilna
+      - Pian
+  - osis: Exod
+    texts:
+      - Paikhiatna
+      - Pai
+  - osis: Lev
+    texts:
+      - Siampi Laibu
+      - Siam
+  - osis: Num
+    texts:
+      - Gamlak Vakna
+      - Gamlak-vakna
+      - Gam
+  - osis: Lam
+    texts:
+      - Kah la
+      - Kah
+  - osis: Rev
+    texts:
+      - Maangmuhna
+      - Mangmuhna
+      - Mang
+  - osis: Deut
+    texts:
+      - Thu Hilhkikna
+      - Thu-hilhkikna
+      - Thkna
+  - osis: Josh
+    texts:
+      - Joshua
+      - Josh
+      - Jos
+  - osis: Judg
+    texts:
+      - Thukhente
+      - Thkn
+      - Thu
+  - osis: Ruth
+    texts:
+      - Ruth
+  - osis: Isa
+    texts:
+      - Isaiah
+      - Isa
+  - osis:
+      - osis: 1Sam
+        before: *first
+    texts:
+      - Samuel Masa
+  - osis: 1Sam
+    texts:
+      - Samuel Masa
+      - 1Sam
+  - osis:
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel Nihna
+  - osis: 2Sam
+    texts:
+      - Samuel Nihna
+      - 2Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+    texts:
+      - Kumpi Masate
+  - osis: 1Kgs
+    texts:
+      - Kumpite Masa
+      - 1Kum
+  - osis:
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Kumpi Nihnate
+  - osis: 2Kgs
+    texts:
+      - Kumpite Nihna
+      - 2Kum
+  - osis:
+      - osis: 1Chr
+        before: *first
+    texts:
+      - Khang Tangthu Masate
+  - osis: 1Chr
+    texts:
+      - Khang-tangthu Masa
+      - 1Khang
+  - osis:
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Khang Tangthu Nihnate
+  - osis: 2Chr
+    texts:
+      - Khang-tangthu Nihna
+      - 2Khang
+  - osis: Ezra
+    texts:
+      - Ezra
+      - Ezr
+  - osis: Neh
+    texts:
+      - Nehemiah
+      - Neh
+  - osis: Esth
+    texts:
+      - Esther
+      - Est
+  - osis: Job
+    texts:
+      - Job
+  - osis: Prov
+    texts:
+      - Paunak
+      - Pau
+  - osis: Eccl
+    texts:
+      - Thuhilh-sia
+      - Thuhilhna
+      - Thna
+  - osis: Song
+    texts:
+      - Solomon la
+      - Sol
+  - osis: Ps
+    texts:
+      - Late
+      - La
+  - osis: Jer
+    texts:
+      - Jeremiah
+      - Jer
+  - osis: Ezek
+    texts:
+      - Ezekiel
+      - Ezk
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan
+  - osis: Hos
+    texts:
+      - Hosea
+      - Hos
+  - osis: Joel
+    texts:
+      - Joel
+      - Jol
+  - osis: Amos
+    texts:
+      - Amos
+  - osis: Obad
+    texts:
+      - Obadiah
+      - Oba
+  - osis: Jonah
+    texts:
+      - Jonah
+      - Jon
+  - osis: Mic
+    texts:
+      - Micah
+      - Mikah
+      - MiK
+      - Mi
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakkuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Zefaniah
+      - Zefa
+      - Zef
+  - osis: Hag
+    texts:
+      - Haggai
+      - Hag
+  - osis: Zech
+    texts:
+      - Zekhariah
+      - Zek
+  - osis: Mal
+    texts:
+      - Malakhi
+      - Mal
+  - osis: Matt
+    texts:
+      - Matthai
+      - Mattiu
+      - Mat
+  - osis: Mark
+    texts:
+      - Marka
+      - Mrk
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - Johan Masa
+  - osis: 1John
+    texts:
+      - Johan Masa
+      - 1Jhn
+      - 1Joh
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - Johan Nihna
+  - osis: 2John
+    texts:
+      - Johan Nihna
+      - 2Jhn
+      - 2Joh
+  - osis: 3John
+    texts:
+      - 3 Johan Thumna
+      - Johan Thumna
+      - 3Jhn
+      - 3Joh
+  - osis: John
+    texts:
+      - Johan
+      - Jhn
+      - Joh
+  - osis: Acts
+    texts:
+      - Sawltak
+      - Sawl
+  - osis: Rom
+    texts:
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Korin Masa
+  - osis: 1Cor
+    texts:
+      - Korin Masa
+      - 1Kor
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korin Nihna
+  - osis: 2Cor
+    texts:
+      - Korin Nihna
+      - 2Kor
+  - osis: Col
+    texts:
+      - Kolose
+      - Kol
+  - osis: Gal
+    texts:
+      - Galati
+      - Gal
+  - osis: Eph
+    texts:
+      - Efesa
+      - Efe
+  - osis: Phil
+    texts:
+      - Filippi
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Thesalonika Masa
+  - osis: 1Thess
+    texts:
+      - Thesalon Masa
+      - 1The
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thesalonika Nihna
+  - osis: 2Thess
+    texts:
+      - Thesalon Nihna
+      - 2The
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Timoti Masa
+  - osis: 1Tim
+    texts:
+      - Timoti Masa
+      - 1Tim
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti Nihna
+  - osis: 2Tim
+    texts:
+      - Timoti Nihna
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Titus
+      - Titu
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemon
+      - File
+  - osis: Heb
+    texts:
+      - Hebru
+      - Heb
+  - osis: Jas
+    texts:
+      - James
+      - Jeim
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - Peter Masa
+  - osis: 1Pet
+    texts:
+      - Piter Masa
+      - 1Pe
+      - 1Pi
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peter Nihna
+  - osis: 2Pet
+    texts:
+      - Piter Nihna
+      - 2Pe
+      - 2Pi
+  - osis: Jude
+    texts:
+      - Juda
+      - Jude
+translations:
+  - TB77
+  - TDB

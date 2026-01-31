@@ -1,0 +1,609 @@
+variables:
+  first: &first
+    - "1"
+    - 1ኛ
+    - መጽ​ሐፈ
+    - አንደኛ
+    - ወደ
+  second: &second
+    - "2"
+    - 2ኛ
+    - ሁለተኛ
+    - መጽ​ሐፈ
+    - ወደ
+books:
+  - osis: Gen
+    texts:
+      - ኦሪት ዘፍ​ጥ​ረት
+      - ኦሪት ዘፍጥረት
+      - ዘፍጥረት
+      - ዘፍ.
+      - ዘፍ
+  - osis: Exod
+    texts:
+      - ኦሪት ዘፀ​አት
+      - ኦሪት ዘጸአት
+      - ኦሪት ዘፀአት
+      - ዘፀአት
+      - ዘፀ.
+      - ዘፀ
+  - osis: Lev
+    texts:
+      - ኦሪት ዘሌ​ዋ​ው​ያን
+      - ኦሪት ዘሌዋውያን
+      - ዘሌዋውያን
+      - ዘሌ.
+      - ዘሌ
+  - osis: Num
+    texts:
+      - ኦሪት ዘኍ​ልቍ
+      - ኦሪት ዘኊልቊ
+      - ኦሪት ዘኍልቊ
+      - ዘኍ​.
+      - ዘኍልቍ
+      - ዘኍ.
+      - ዘኍል
+      - ዘኍ
+  - osis: Sir
+    texts:
+      - መጽ​ሐፈ ሲራክ
+      - መጽሐፈ ሲራክ
+      - ሲራ.
+  - osis: Wis
+    texts:
+      - መጽ​ሐፈ ጥበብ
+      - መጽሐፈ ጥበብ
+      - ጥበ.
+  - osis: Lam
+    texts:
+      - ሰቆ​ቃወ ኤር​ም​ያስ ነቢይ
+      - ሰቈቃወ ኤርምያስ
+      - ሰቆ.ኤ.
+      - ሰ.ኤ.
+      - ሰቈቃወ
+      - ሰቈ
+  - osis: EpJer
+    texts:
+      - ተረፈ ኤር​ም​ያስ
+      - ተረ.ኤር.
+  - osis: Rev
+    texts:
+      - የዮ​ሐ​ንስ ራእይ
+      - የዮሐንስ ራእይ
+      - ራእ.
+      - ራእይ
+      - ራዕ.
+      - ራእ
+  - osis: Deut
+    texts:
+      - ኦሪት ዘዳ​ግም
+      - ኦሪት ዘዳግም
+      - ዘዳግም
+      - ዘዳ.
+      - ዘዳ
+  - osis: Josh
+    texts:
+      - መጽ​ሐፈ ኢያሱ ወልደ ነዌ
+      - መጽሐፈ ኢያሱ
+      - ኢያ.
+      - ኢያሱ
+      - ኢያ
+  - osis: Judg
+    texts:
+      - መጽ​ሐፈ መሳ​ፍ​ንት
+      - መጽሐፈ መሳፍንት
+      - መሳፍንት
+      - መሳ.
+      - መሳ
+  - osis: Ruth
+    texts:
+      - መጽ​ሐፈ ሩት
+      - መጽሐፈ ሩት
+      - ሩት
+  - osis:
+      - osis: 1Esd
+        before: *first
+    texts:
+      - ዕዝራ ሱቱ​ኤል
+  - osis: 1Esd
+    texts:
+      - ዕዝ.ሱቱ.
+  - osis:
+      - osis: 2Esd
+        before: *second
+    texts:
+      - ዕዝራ ካልእ
+  - osis: 2Esd
+    texts:
+      - ዕዝ.ካል.
+  - osis: Isa
+    texts:
+      - ትን​ቢተ ኢሳ​ይ​ያስ
+      - ትንቢተ ኢሳይያስ
+      - ኢሳይያስ
+      - ኢሳ.
+      - ኢሳ
+  - osis:
+      - osis: 1Sam
+        before: *first
+    texts:
+      - ሳሙ​ኤል ቀዳ​ማዊ
+      - መጽሐፈ ሳሙኤል
+      - ሳሙኤል
+  - osis: 1Sam
+    texts:
+      - 1ሳሙ.
+      - 1ሳሙ
+  - osis:
+      - osis: 2Sam
+        before: *second
+    texts:
+      - መጽሐፈ ሳሙኤል
+      - ሳሙ​ኤል ካልእ
+      - ሳሙኤል
+  - osis: 2Sam
+    texts:
+      - 2ሳሙ.
+      - 2ሳሙ
+  - osis:
+      - osis: 1Kgs
+        before: *first
+    texts:
+      - ነገ​ሥት ቀዳ​ማዊ
+      - መጽሐፈ ነገሥት
+      - ነገሥት
+  - osis: 1Kgs
+    texts:
+      - 1ነገ.
+      - 1ነገ
+  - osis:
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - መጽሐፈ ነገሥት
+      - ነገ​ሥት ካልእ
+      - ነገሥት
+  - osis: 2Kgs
+    texts:
+      - 2ነገ.
+      - 2ነገ
+  - osis:
+      - osis: 1Chr
+        before: *first
+    texts:
+      - ዜና መዋ​ዕል ቀዳ​ማዊ
+      - መጽሐፈ ዜና መዋዕል
+      - ዜና መዋዕል
+  - osis: 1Chr
+    texts:
+      - 1ዜ.መ.
+      - 1ዜና
+  - osis:
+      - osis: 2Chr
+        before: *second
+    texts:
+      - መጽሐፈ ዜና መዋዕል
+      - ዜና መዋ​ዕል ካልእ
+      - ዜና መዋዕል
+  - osis: 2Chr
+    texts:
+      - 2ዜ.መ.
+      - 2ዜና
+  - osis: Ezra
+    texts:
+      - መጽ​ሐፈ ዕዝራ
+      - መጽሐፈ ዕዝራ
+      - ዕዝ.
+      - ዕዝራ
+      - ዕዝ
+  - osis: Neh
+    texts:
+      - መጽ​ሐፈ ነህ​ምያ
+      - መጽሐፈ ነህምያ
+      - ነህምያ
+      - ነህ.
+      - ነህ
+  - osis: Esth
+    texts:
+      - መጽሐፈ አስቴር
+      - አስቴር
+      - አስ.
+      - አስ
+  - osis: Job
+    texts:
+      - መጽ​ሐፈ ኢዮብ
+      - መጽሐፈ ኢዮብ
+      - ኢዮብ
+      - ኢዮ
+  - osis: Ps
+    texts:
+      - መዝ​ሙረ ዳዊት
+      - መጽሐፈ መዝሙር
+      - መዝሙረ ዳዊት
+      - መዝሙር
+      - መዝ.
+      - መዝ
+  - osis: Prov
+    texts:
+      - መጽሐፈ ምሳሌ
+      - ምሳ.
+      - ምሳሌ
+      - ምሳ
+  - osis: Eccl
+    texts:
+      - መጽ​ሐፈ መክ​ብብ
+      - መጽሐፈ መክብብ
+      - መክብብ
+      - መክ.
+      - መክ
+  - osis: Song
+    texts:
+      - መሓ​ልየ መሓ​ልይ ዘሰ​ሎ​ሞን
+      - መኃልየ መኃልይ
+      - ማሕልየ መሓልይ
+      - መኃ. መኃ.
+      - መሓ.
+      - ማሕ
+  - osis: Jer
+    texts:
+      - ትን​ቢተ ኤር​ም​ያስ
+      - ትንቢተ ኤርምያስ
+      - ኤርምያስ
+      - ኤር.
+      - ኤር
+  - osis: Ezek
+    texts:
+      - ትን​ቢተ ሕዝ​ቅ​ኤል
+      - ትንቢተ ሕዝቅኤል
+      - ሕዝቅኤል
+      - ሕዝ.
+      - ሕዝ
+  - osis: Dan
+    texts:
+      - ትንቢተ ዳንኤል
+      - ዳንኤል
+      - ዳን.
+      - ዳን
+  - osis: Hos
+    texts:
+      - ትን​ቢተ ሆሴዕ
+      - ትንቢተ ሆሴዕ
+      - ሆሴዕ
+      - ሆሴ
+  - osis: Joel
+    texts:
+      - ትን​ቢተ ኢዩ​ኤል
+      - ትንቢተ ኢዩኤል
+      - ኢዩኤል
+      - ኢዩ.
+      - ኢዩ
+  - osis: Amos
+    texts:
+      - ትን​ቢተ አሞጽ
+      - ትንቢተ አሞጽ
+      - አሞ.
+      - አሞጽ
+      - አሞ
+  - osis: Obad
+    texts:
+      - ትን​ቢተ አብ​ድዩ
+      - ትንቢተ አብድዩ
+      - አብድዩ
+      - አብ.
+      - አብ
+  - osis: Jonah
+    texts:
+      - ትን​ቢተ ዮናስ
+      - ትንቢተ ዮናስ
+      - ዮና.
+      - ዮናስ
+      - ዮና
+  - osis: Mic
+    texts:
+      - ትን​ቢተ ሚክ​ያስ
+      - ትንቢተ ሚክያስ
+      - ሚክያስ
+      - ሚክ.
+      - ሚክ
+  - osis: Nah
+    texts:
+      - ትን​ቢተ ናሆም
+      - ትንቢተ ናሆም
+      - ናሆ.
+      - ናሆም
+      - ናሆ
+  - osis: Hab
+    texts:
+      - ትን​ቢተ ዕን​ባ​ቆም
+      - ትንቢተ ዕንባቆም
+      - ዕንባቆም
+      - ዕን.
+      - ዕን
+  - osis: Zeph
+    texts:
+      - ትን​ቢተ ሶፎ​ን​ያስ
+      - ትንቢተ ሶፎንያስ
+      - ሶፎንያስ
+      - ሶፎ.
+      - ሶፎ
+  - osis: Hag
+    texts:
+      - ትን​ቢተ ሐጌ
+      - ትንቢተ ሐጌ
+      - ሐጌ.
+      - ሐጌ
+  - osis: Zech
+    texts:
+      - ትን​ቢተ ዘካ​ር​ያስ
+      - ትንቢተ ዘካርያስ
+      - ዘካርያስ
+      - ዘካ.
+      - ዘካ
+  - osis: Mal
+    texts:
+      - ትን​ቢተ ሚል​ክ​ያስ
+      - ትንቢተ ሚልክያስ
+      - ሚልክያስ
+      - ሚል.
+      - ሚል
+  - osis: Matt
+    texts:
+      - የማ​ቴ​ዎስ ወን​ጌል
+      - የማቴዎስ ወንጌል
+      - ማቴዎስ
+      - ማቴ.
+      - ማቴ
+  - osis: Mark
+    texts:
+      - የማ​ር​ቆስ ወን​ጌል
+      - የማርቆስ ወንጌል
+      - ማርቆስ
+      - ማር.
+      - ማር
+  - osis: Luke
+    texts:
+      - የሉ​ቃስ ወን​ጌል
+      - የሉቃስ ወንጌል
+      - ሉቃ.
+      - ሉቃስ
+      - ሉቃ
+  - osis: 1John
+    texts:
+      - የዮ​ሐ​ንስ መል​እ​ክት 1
+      - 1ዮሐ.
+      - 1ዮሐ
+  - osis: 2John
+    texts:
+      - የዮ​ሐ​ንስ መእ​ል​ክት 2
+      - 2ዮሐ.
+      - 2ዮሐ
+  - osis: 3John
+    texts:
+      - የዮ​ሐ​ንስ መል​እ​ክት 3
+      - 3ኛ የዮሐንስ መልእክት
+      - 3 የዮሐንስ መልእክት
+      - 3 ዮሐንስ
+      - 3ዮሐ.
+      - 3ዮሐ
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - የዮሐንስ መልእክት
+      - ዮሐንስ
+  - osis: John
+    texts:
+      - የዮ​ሐ​ንስ ወን​ጌል
+      - የዮሐንስ ወንጌል
+      - ዮሐንስ
+      - ዮሐ.
+      - ዮሐ
+  - osis: Acts
+    texts:
+      - የሐ​ዋ​ር​ያት ሥራ
+      - የሐዋርያት ሥራ
+      - ሐዋርያት ሥራ
+      - ሐ.ሥ.
+      - የሐዋ.
+      - ሐሥ
+  - osis: Rom
+    texts:
+      - ወደ ሮሜ ሰዎች
+      - ወደ ሮም ሰዎች
+      - ሮሜ
+      - ሮም
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - ቆሮ​ን​ቶስ ሰዎች 1
+      - ወደ ቆሮንቶስ ሰዎች
+      - ቆሮንቶስ
+  - osis: 1Cor
+    texts:
+      - 1ቆሮ.
+      - 1ቆሮ
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - ቆሮ​ን​ቶስ ሰዎች 2
+      - ወደ ቆሮንቶስ ሰዎች
+      - ቆሮንቶስ
+  - osis: 2Cor
+    texts:
+      - 2ቆሮ.
+      - 2ቆሮ
+  - osis: Col
+    texts:
+      - ወደ ቈላ​ስ​ይስ ሰዎች
+      - ወደ ቆላስይስ ሰዎች
+      - ወደ ቈላስይስ ሰዎች
+      - ቈላስይስ
+      - ቈላ​.
+      - ቆላ.
+      - ቈላ.
+      - ቈላ
+  - osis: Gal
+    texts:
+      - ወደ ገላ​ትያ ሰዎች
+      - ወደ ገላትያ ሰዎች
+      - ገላትያ
+      - ገላ.
+      - ገላ
+  - osis: Eph
+    texts:
+      - ወደ ኤፌ​ሶን ሰዎች
+      - ወደ ኤፌሶን ሰዎች
+      - ኤፌሶን
+      - ኤፌ.
+      - ኤፌ
+  - osis: Phil
+    texts:
+      - ወደ ፊል​ጵ​ስ​ዩስ ሰዎች
+      - ወደ ፊልጵስዩስ ሰዎች
+      - ፊልጵስዩስ
+      - ፊልጵ.
+      - ፊል.
+      - ፊል
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - ተሰ​ሎ​ንቄ ሰዎች 1
+      - ወደ ተሰሎንቄ ሰዎች
+      - ተሰሎንቄ ሰዎች
+      - ተሰሎንቄ
+  - osis: 1Thess
+    texts:
+      - 1ተሰ.
+      - 1ተሰ
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - ተሰ​ሎ​ንቄ ሰዎች 2
+      - ወደ ተሰሎንቄ ሰዎች
+      - ተሰሎንቄ ሰዎች
+      - ተሰሎንቄ
+  - osis: 2Thess
+    texts:
+      - 2ተሰ.
+      - 2ተሰ
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - ጢሞ​ቴ​ዎስ 1
+      - ወደ ጢሞቴዎስ
+      - ጢሞቴዎስ
+  - osis: 1Tim
+    texts:
+      - 1ጢሞ.
+      - 1ጢሞ
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - ጢሞ​ቴ​ዎስ 2
+      - ወደ ጢሞቴዎስ
+      - ጢሞቴዎስ
+  - osis: 2Tim
+    texts:
+      - 2ጢሞ.
+      - 2ጢሞ
+  - osis: Titus
+    texts:
+      - ወደ ቲቶ
+      - ቲቶ
+  - osis: Phlm
+    texts:
+      - ወደ ፊል​ሞና
+      - ወደ ፊልሞና
+      - ፊልሞ.
+      - ፊልሞና
+      - ፊሞ
+  - osis: Heb
+    texts:
+      - ወደ ዕብራውያን የተላከ መልእክት
+      - ወደ ዕብ​ራ​ው​ያን
+      - ወደ ዕብራውያን
+      - ዕብራውያን
+      - ዕብ.
+      - ዕብ
+  - osis: Jas
+    texts:
+      - የያ​ዕ​ቆብ መል​እ​ክት
+      - የያዕቆብ መልእክት
+      - ያዕቆብ
+      - ያዕ.
+      - ያዕ
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - የጴጥሮስ መልእክት
+      - ጴጥሮስ
+  - osis: 2Pet
+    texts:
+      - የጴ​ጥ​ሮስ መል​እ​ክት 2
+      - 2ጴ​ጥ.
+      - 2ጴጥ.
+      - 2ጴጥ
+  - osis: 1Pet
+    texts:
+      - የጴ​ጥ​ሮስ መል​እ​ክት
+      - 1ጴ​ጥ.
+      - 1ጴጥ.
+      - 1ጴጥ
+  - osis: Jude
+    texts:
+      - የይ​ሁዳ መል​እ​ክት
+      - የይሁዳ መልእክት
+      - ይሁዳ.
+      - ይሁዳ
+      - ይሁ
+  - osis: Tob
+    texts:
+      - መጽ​ሐፈ ጦቢት
+      - ጦቢ.
+  - osis: Jdt
+    texts:
+      - መጽ​ሐፈ ዮዲት
+      - መጽሐፈ ዮዲት
+      - ዮዲ.
+  - osis: Bar
+    texts:
+      - መጽ​ሐፈ ባሮክ
+      - መጽሐፈ ባሮክ
+      - ባሮክ
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+    texts:
+      - መጽሐፈ መቃብያን
+  - osis: 1Macc
+    texts:
+      - 1መቃ.
+  - osis: 2Macc
+    texts:
+      - 2መቃ.
+  - osis: DanGr
+    texts:
+      - ትን​ቢተ ዳን​ኤል
+  - osis: EsthGr
+    texts:
+      - መጽ​ሐፈ አስ​ቴር
+      - አስ.
+translations:
+  - AMH62
+  - ACED
+  - AMH05
+  - NASV
+  - AMH07

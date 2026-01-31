@@ -1,0 +1,226 @@
+default:
+  1Chr:
+    long: 1 Recortyssyn
+    short: 1 Recort.
+  1Cor:
+    long: 1 Corinthianee
+    short: 1 Corinth
+  1John:
+    long: 1 Ean
+    short: 1 Ean
+  1Kgs:
+    long: 1 Reeaghyn
+    short: 1 Reeaghyn
+  1Pet:
+    long: 1 Peddyr
+    short: 1 Peddyr
+  1Sam:
+    long: 1 Samuel
+    short: 1 Samuel
+  1Thess:
+    long: 1 Thessalonianee
+    short: 1 Thess
+  1Tim:
+    long: 1 Timothy
+    short: 1 Tim
+  2Chr:
+    long: 2 Recortyssyn
+    short: 2 Recort.
+  2Cor:
+    long: 2 Corinthianee
+    short: 2 Corinth
+  2John:
+    long: 2 Ean
+    short: 2 Ean
+  2Kgs:
+    long: 2 Reeaghyn
+    short: 2Reeaghyn
+  2Pet:
+    long: 2 Peddyr
+    short: 2 Peddyr
+  2Sam:
+    long: 2 Samuel
+    short: 2 Samuel
+  2Thess:
+    long: 2 Thessalonianee
+    short: 2 Thess
+  2Tim:
+    long: 2 Timothy
+    short: 2 Tim
+  3John:
+    long: 3 Ean
+    short: 3 Ean
+  Acts:
+    long: Jannoo
+    short: Jannoo
+  Amos:
+    long: Amos
+    short: Amos
+  Bar:
+    long: Baruch
+  Bel:
+    long: Bel as y Dragon
+  Col:
+    long: Colossianee
+    short: Colos
+  Dan:
+    long: Daniel
+    short: Daniel
+  Deut:
+    long: Deuteronomy
+    short: Deut
+  Eccl:
+    long: Ecclesiastes
+    short: Eccles.
+  Eph:
+    long: Ephesianee
+    short: Ephes
+  Esth:
+    long: Esther
+    short: Esther
+  Exod:
+    long: Exodus
+    short: Exodus
+  Ezek:
+    long: Ezekiel
+    short: Ezekiel
+  Ezra:
+    long: Ezra
+    short: Ezra
+  Gal:
+    long: Galatianee
+    short: Galat
+  Gen:
+    long: Genesis
+    short: Genesis
+  Hab:
+    long: Habakkuk
+    short: Habakkuk
+  Hag:
+    long: Haggai
+    short: Haggai
+  Heb:
+    long: Hebrewnee
+    short: Hebrew
+  Hos:
+    long: Hosea
+    short: Hosea
+  Isa:
+    long: Isaiah
+    short: Isaiah
+  Jas:
+    long: Jamys
+    short: Jamys
+  Jdt:
+    long: Judith
+  Jer:
+    long: Jeremiah
+    short: Jeremiah
+  Job:
+    long: Job
+    short: Job
+  Joel:
+    long: Joel
+    short: Joel
+  John:
+    long: Noo Ean
+    short: Ean
+  Jonah:
+    long: Jonah
+    short: Jonah
+  Josh:
+    long: Joshua
+    short: Joshua
+  Jude:
+    long: Jude
+    short: Jude
+  Judg:
+    long: Briwnyn
+    short: Briwnyn
+  Lam:
+    long: Dobberan
+    short: Dobberan
+  Lev:
+    long: Leviticus
+    short: Leviticus
+  Luke:
+    long: Noo Luke
+    short: Luke
+  Mal:
+    long: Malachi
+    short: Malachi
+  Mark:
+    long: Noo Mark
+    short: Mark
+  Matt:
+    long: Noo Mian
+    short: Mian
+  Mic:
+    long: Micah
+    short: Micah
+  Nah:
+    long: Nahum
+    short: Nahum
+  Neh:
+    long: Nehemiah
+    short: Nehemiah
+  Num:
+    long: Earrooyn
+    short: Earroyn
+  Obad:
+    long: Obadiah
+    short: Obadiah
+  Phil:
+    long: Philippianee
+    short: Philip
+  Phlm:
+    long: Philemon
+    short: Philem
+  Prov:
+    long: Raaghyn Creeney
+    short: Raaghyn
+  Ps:
+    long: Psalmyn
+    short: Psal.
+  Rev:
+    long: Ashlish
+    short: Ashlish
+  Rom:
+    long: Romanee
+    short: Rom
+  Ruth:
+    long: Ruth
+    short: Ruth
+  Sir:
+    long: Sirach (Ecclesiasticus)
+  Song:
+    long: Arrane Solomon
+    short: Arrane
+  Sus:
+    long: Susanna
+  Titus:
+    long: Titus
+    short: Titus
+  Tob:
+    long: Tobit
+  Wis:
+    long: Creenaght Solomon
+  Zech:
+    long: Zechariah
+    short: Zech
+  Zeph:
+    long: Zephaniah
+    short: Zeph
+translations:
+  bib1819:
+    Col:
+      short: Coloss
+    Eph:
+      short: Ephesian
+    Gal:
+      short: Galatian
+    Rom:
+      short: Roman
+  ps1761:
+    Ps:
+      short: Psalm

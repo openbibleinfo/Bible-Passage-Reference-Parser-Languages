@@ -1,0 +1,105 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Puka Pianullu
+  - osis: Rev
+    texts:
+      - Yohansi Yamkekni
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis: Esth
+    texts:
+      - Ester
+  - osis: Jonah
+    texts:
+      - Yunus
+  - osis: Matt
+    texts:
+      - Matius
+  - osis: Mark
+    texts:
+      - Markus
+  - osis: Luke
+    texts:
+      - Lukas
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohansi
+  - osis: Acts
+    texts:
+      - Rakot Nohora Makodi Upler lirni
+  - osis: Rom
+    texts:
+      - Roma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintus
+  - osis: Col
+    texts:
+      - Kolose
+  - osis: Gal
+    texts:
+      - Galatia
+  - osis: Eph
+    texts:
+      - Epsus
+  - osis: Phil
+    texts:
+      - Pilipi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonika
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotius
+  - osis: Titus
+    texts:
+      - Titus
+  - osis: Phlm
+    texts:
+      - Filemon
+  - osis: Heb
+    texts:
+      - Ibrani
+  - osis: Jas
+    texts:
+      - Yakowsi
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petrus
+  - osis: Jude
+    texts:
+      - Yudas
+translations:
+  - LEX

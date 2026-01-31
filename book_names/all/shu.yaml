@@ -1,0 +1,468 @@
+- osis: Gen
+  texts:
+    - Takwiin
+    - تكوين
+    - Takw
+    - تكن
+- osis: Exod
+  texts:
+    - Khuruuj
+    - خُروج
+    - Khrj
+    - خرج
+- osis: Lev
+  texts:
+    - Laawiyiin
+    - لاوِيِّين
+    - Law
+    - لاو
+- osis: Num
+  texts:
+    - Adad
+    - عَدد
+    - Add
+    - عدد
+- osis: Lam
+  texts:
+    - مَراثِي إرْمِيا
+    - Maraasi Irmiya
+    - مرث إرمي
+    - Mars
+- osis: Rev
+  texts:
+    - Ruʼya
+    - رُؤية
+    - رؤي
+- osis: Deut
+  texts:
+    - تَثْنِية
+    - Tasniya
+    - Tasn
+    - تثن
+- osis: Josh
+  texts:
+    - Yachuuʼ
+    - يَشُوع
+    - Yach
+    - يشع
+- osis: Judg
+  texts:
+    - Gudiya
+    - قُضياء
+    - Gud
+    - قض
+- osis: Ruth
+  texts:
+    - Raʼuus
+    - رَعُوث
+    - Rus
+    - رعث
+- osis: Isa
+  texts:
+    - Ichaʼya
+    - إشَعْيا
+    - Icha
+    - إشعي
+- osis: 1Sam
+  texts:
+    - 1 Samuwiil
+    - 1 صَمُوِيل
+    - 1. Samuwiil
+    - 1. صَمُوِيل
+- osis: 2Sam
+  texts:
+    - 2 Samuwiil
+    - 2 صَمُوِيل
+    - 2. Samuwiil
+    - 2. صَمُوِيل
+- osis: 1Sam
+  texts:
+    - 1Sam
+    - 1صم
+- osis: 2Sam
+  texts:
+    - 2Sam
+    - 2صم
+- osis: 1Kgs
+  texts:
+    - 1 Muluuk
+    - 1 مُلوك
+    - 1. Muluuk
+    - 1. مُلوك
+- osis: 2Kgs
+  texts:
+    - 2 Muluuk
+    - 2 مُلوك
+    - 2. Muluuk
+    - 2. مُلوك
+- osis: 1Kgs
+  texts:
+    - 1Mulk
+    - 1ملك
+- osis: 2Kgs
+  texts:
+    - 2Mulk
+    - 2ملك
+- osis: 1Chr
+  texts:
+    - 1 Akhbaar
+    - 1 أخبار
+    - 1. Akhbaar
+    - 1. أخبار
+- osis: 2Chr
+  texts:
+    - 2 Akhbaar
+    - 2 أخبار
+    - 2. Akhbaar
+    - 2. أخبار
+- osis: 1Chr
+  texts:
+    - 1Akhb
+    - 1خبر
+- osis: 2Chr
+  texts:
+    - 2Akhb
+    - 2خبر
+- osis: Ezra
+  texts:
+    - عَزْرا
+    - Azra
+    - Azr
+    - عزر
+- osis: Neh
+  texts:
+    - نَحَمْيا
+    - Nahamya
+    - Nah
+    - نحم
+- osis: Esth
+  texts:
+    - أسْتِير
+    - Astiir
+    - أستر
+    - Ast
+- osis: Job
+  texts:
+    - Ayyuub
+    - أيُّوب
+    - Ayub
+    - أيب
+- osis: Ps
+  texts:
+    - Zabuur
+    - زَبُور
+    - Zbr
+    - زبر
+- osis: Prov
+  texts:
+    - Amsaal
+    - أمْثال
+    - Amsl
+    - مسل
+- osis: Eccl
+  texts:
+    - Jaamiʼa
+    - جامِعة
+    - Jam
+    - جمع
+- osis: Song
+  texts:
+    - Nachiid
+    - Nchd
+    - نشيد
+    - نشد
+- osis: Jer
+  texts:
+    - إرْمِيا
+    - Irmiya
+    - إرمي
+    - Irm
+- osis: Ezek
+  texts:
+    - Hizgiyaal
+    - حِزْقِيال
+    - Hzg
+    - حزق
+- osis: Dan
+  texts:
+    - Danyaal
+    - دَنْيال
+    - Dan
+    - دنل
+- osis: Hos
+  texts:
+    - Huuchaʼ
+    - هُوشَع
+    - Huch
+    - هشع
+- osis: Joel
+  texts:
+    - Yuwiil
+    - يُوِيل
+    - Yuw
+    - يول
+- osis: Amos
+  texts:
+    - عَمُوس
+    - Amuus
+    - Ams
+    - عمس
+- osis: Obad
+  texts:
+    - عُبَدْيا
+    - Ubadya
+    - Ubdy
+    - عبد
+- osis: Jonah
+  texts:
+    - Yuunus
+    - يُونُس
+    - Yuns
+    - يونس
+- osis: Mic
+  texts:
+    - Miikha
+    - مِيخا
+    - Mikh
+    - ميخ
+- osis: Nah
+  texts:
+    - Naahuum
+    - نَاحُوم
+    - Naah
+    - نحوم
+- osis: Hab
+  texts:
+    - Habaguug
+    - حَبَقُوق
+    - Hbg
+    - حبق
+- osis: Zeph
+  texts:
+    - صَفَنْيا
+    - Safanya
+    - Saf
+    - صفن
+- osis: Hag
+  texts:
+    - Haggaay
+    - حَقَّاي
+    - Hag
+    - حقق
+- osis: Zech
+  texts:
+    - زَكَرِيَّا
+    - Zakariiya
+    - Zak
+    - زكر
+- osis: Mal
+  texts:
+    - Malaakhi
+    - مَلاخِـي
+    - Mal
+    - ملخ
+- osis: Matt
+  texts:
+    - مَتَّى
+    - Matta
+    - Mat
+    - متت
+- osis: Mark
+  texts:
+    - مَرْخُوس
+    - Markhus
+    - مرخس
+    - Mar
+- osis: Luke
+  texts:
+    - Luukha
+    - لُوقا
+    - لوق
+    - Lu
+- osis: 1John
+  texts:
+    - 1يحن
+- osis: 2John
+  texts:
+    - 2يحن
+- osis: 3John
+  texts:
+    - 3 يُوحَنَّا
+    - 3 Yuuhanna
+    - 3 Yuuh
+    - 3يحن
+- osis: 1John
+  texts:
+    - 1 يُوحَنَّا
+    - 1 Yuuhanna
+    - 1 Yuuh
+    - 1. يُوحَنَّا
+    - 1. Yuuhanna
+    - 1. Yuuh
+- osis: 2John
+  texts:
+    - 2 يُوحَنَّا
+    - 2 Yuuhanna
+    - 2 Yuuh
+    - 2. يُوحَنَّا
+    - 2. Yuuhanna
+    - 2. Yuuh
+- osis: John
+  texts:
+    - يُوحَنَّا
+    - Yuuhanna
+    - Yuuh
+    - يحن
+- osis: Acts
+  texts:
+    - Aʼmaal al-Rusul
+    - أعمال الرُسُل
+    - Amal
+    - عمل
+- osis: Rom
+  texts:
+    - رَوْمَا
+    - Rooma
+    - روم
+- osis: 1Cor
+  texts:
+    - 1 كُرُنْتُس
+    - 1 Kuruntus
+    - 1 Kur
+    - 1. كُرُنْتُس
+    - 1. Kuruntus
+    - 1. Kur
+- osis: 2Cor
+  texts:
+    - 2 كُرُنْتُس
+    - 2 Kuruntus
+    - 2 Kur
+    - 2. كُرُنْتُس
+    - 2. Kuruntus
+    - 2. Kur
+- osis: 1Cor
+  texts:
+    - 1كرن
+- osis: 2Cor
+  texts:
+    - 2كرن
+- osis: Col
+  texts:
+    - كُلُوسِي
+    - Kuluusi
+    - Kul
+    - كلس
+- osis: Gal
+  texts:
+    - Khalaatiya
+    - غَلاطِية
+    - Khal
+    - غلط
+- osis: Eph
+  texts:
+    - Afasus
+    - أفَسُس
+    - أفس
+    - Af
+- osis: Phil
+  texts:
+    - فِلِبِّي
+    - Filibbi
+    - Filib
+    - فلب
+- osis: 1Thess
+  texts:
+    - 1 Tasaluuniiki
+    - 1 تَسَلونِيكِي
+    - 1 Tasal
+    - 1. Tasaluuniiki
+    - 1. تَسَلونِيكِي
+    - 1. Tasal
+- osis: 2Thess
+  texts:
+    - 2 Tasaluuniiki
+    - 2 تَسَلونِيكِي
+    - 2 Tasal
+    - 2. Tasaluuniiki
+    - 2. تَسَلونِيكِي
+    - 2. Tasal
+- osis: 1Thess
+  texts:
+    - 1تسل
+- osis: 2Thess
+  texts:
+    - 2تسل
+- osis: 1Tim
+  texts:
+    - 1 Timuutaawus
+    - 1 تِمُوتَاوُس
+    - 1 Tim
+    - 1. Timuutaawus
+    - 1. تِمُوتَاوُس
+    - 1. Tim
+- osis: 2Tim
+  texts:
+    - 2 Timuutaawus
+    - 2 تِمُوتَاوُس
+    - 2 Tim
+    - 2. Timuutaawus
+    - 2. تِمُوتَاوُس
+    - 2. Tim
+- osis: 1Tim
+  texts:
+    - 1تم
+- osis: 2Tim
+  texts:
+    - 2تم
+- osis: Titus
+  texts:
+    - Tiitus
+    - تِيطُس
+    - Tiit
+    - تطس
+- osis: Phlm
+  texts:
+    - Filimuun
+    - فِلِمُون
+    - Filim
+    - فلم
+- osis: Heb
+  texts:
+    - عِبْرَانِيِّين
+    - Ibraaniyiin
+    - Ibra
+    - عبر
+- osis: Jas
+  texts:
+    - Yaakhuub
+    - يَعْقُوب
+    - Yaakh
+    - يعقب
+- osis: 1Pet
+  texts:
+    - 1 بُطْرُس
+    - 1 Butrus
+    - 1 But
+    - 1. بُطْرُس
+    - 1. Butrus
+    - 1. But
+- osis: 2Pet
+  texts:
+    - 2 بُطْرُس
+    - 2 Butrus
+    - 2 But
+    - 2. بُطْرُس
+    - 2. Butrus
+    - 2. But
+- osis: 1Pet
+  texts:
+    - 1بطرس
+- osis: 2Pet
+  texts:
+    - 2بطرس
+- osis: Jude
+  texts:
+    - يَهُوذَا
+    - Yahuuza
+    - Yahu
+    - يهذ

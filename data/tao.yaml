@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Ipaziman
+  - osis: Matt
+    texts:
+      - Matay
+  - osis: Mark
+    texts:
+      - Make
+  - osis: Luke
+    texts:
+      - Locya
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yowani
+  - osis: Acts
+    texts:
+      - Nimlivolivon
+  - osis: Rom
+    texts:
+      - Loma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kedinto
+  - osis: Col
+    texts:
+      - Kelosi
+  - osis: Gal
+    texts:
+      - Cyalatay
+  - osis: Eph
+    texts:
+      - Ivoso
+  - osis: Phil
+    texts:
+      - Veydipi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonicya
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotay
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Veydimeng
+  - osis: Heb
+    texts:
+      - Sipolay
+  - osis: Jas
+    texts:
+      - Yake
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pite
+  - osis: Jude
+    texts:
+      - Yota
+translations:
+  - TTNT

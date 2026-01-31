@@ -1,0 +1,294 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - उतपत्ती
+      - उत
+  - osis: Exod
+    texts:
+      - निरगमन
+      - निर
+  - osis: Lev
+    texts:
+      - लैव्य-ब्यवस्था
+      - लैव्य
+  - osis: Num
+    texts:
+      - गनती
+      - गन
+  - osis: Lam
+    texts:
+      - बिलापगीत
+      - बिला
+  - osis: Rev
+    texts:
+      - दरसन
+      - दर
+  - osis: Deut
+    texts:
+      - ब्यवस्था
+      - ब्यव
+  - osis: Josh
+    texts:
+      - यहोसू
+      - यहो
+  - osis: Judg
+    texts:
+      - नियायीमन
+      - निया
+  - osis: Ruth
+    texts:
+      - रूत
+  - osis: Isa
+    texts:
+      - यसायाह
+      - यसा
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - समूएल
+      - समू
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - राजा
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - इतिहास
+      - इति
+  - osis: Ezra
+    texts:
+      - एजरा
+      - एज
+  - osis: Neh
+    texts:
+      - नहेमियाह
+      - नहे
+  - osis: Esth
+    texts:
+      - एस्तर
+      - एस्त
+  - osis: Job
+    texts:
+      - अयूब
+      - अयू
+  - osis: Ps
+    texts:
+      - भजन-संहिता
+      - भजन
+  - osis: Prov
+    texts:
+      - नीतिबचन
+      - नीति
+  - osis: Eccl
+    texts:
+      - सभोपदेसक
+      - सभो
+  - osis: Song
+    texts:
+      - उत्तम गीत
+      - उत्तम
+  - osis: Jer
+    texts:
+      - यरमियाह
+      - यर
+  - osis: Ezek
+    texts:
+      - यहेजकेल
+      - यहे
+  - osis: Dan
+    texts:
+      - दानिएल
+      - दानि
+  - osis: Hos
+    texts:
+      - होसे
+  - osis: Joel
+    texts:
+      - योएल
+      - योए
+  - osis: Amos
+    texts:
+      - आमोस
+      - आमो
+  - osis: Obad
+    texts:
+      - ओबदयाह
+      - ओब
+  - osis: Jonah
+    texts:
+      - योना
+  - osis: Mic
+    texts:
+      - मीका
+  - osis: Nah
+    texts:
+      - नहूम
+      - नहू
+  - osis: Hab
+    texts:
+      - हबक्कूक
+      - हब
+  - osis: Zeph
+    texts:
+      - सपनयाह
+      - सप
+  - osis: Hag
+    texts:
+      - हाग्गै
+  - osis: Zech
+    texts:
+      - जकरयाह
+      - जकर
+  - osis: Mal
+    texts:
+      - मलाकी
+      - मला
+  - osis: Matt
+    texts:
+      - मत्ती
+  - osis: Mark
+    texts:
+      - मरकुस
+      - मर
+  - osis: Luke
+    texts:
+      - लूका
+  - osis: 1John
+    texts:
+      - 1यूहन्ना
+  - osis: 2John
+    texts:
+      - 2यूहन्ना
+  - osis: 3John
+    texts:
+      - 3 यूहन्ना
+      - 3यूहन्ना
+      - 3 यूह
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - यूहन्ना
+      - यूह
+  - osis: Acts
+    texts:
+      - प्रेरितमन के काम
+      - प्रेरितमन
+      - प्रेरि
+  - osis: Rom
+    texts:
+      - रोमीमन
+      - रोमी
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - कुरिन्‍थुस
+      - कुरिन्थुस
+      - कुरिन्थ
+      - कुरि
+  - osis: Col
+    texts:
+      - कुलुस्सी
+      - कुलु
+  - osis: Gal
+    texts:
+      - गलातिया
+      - गलाति
+      - गला
+  - osis: Eph
+    texts:
+      - इफिसुस
+      - इफि
+  - osis: Phil
+    texts:
+      - फिलिप्‍पी
+      - फिलिप्पी
+      - फिलि
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - थिस्‍सलुनीके
+      - थिस्सलुनीके
+      - थिस्स
+  - osis: 1Thess
+    texts:
+      - 1थिस्‍सलुनीके
+  - osis: 2Thess
+    texts:
+      - 2थिस्‍सलुनीके
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - तीमुथियुस
+      - तीमु
+  - osis: 1Tim
+    texts:
+      - 1तीमुथियुस
+  - osis: 2Tim
+    texts:
+      - 2तीमुथियुस
+  - osis: Titus
+    texts:
+      - तीतुस
+      - तीतु
+  - osis: Phlm
+    texts:
+      - फिलेमोन
+      - फिले
+  - osis: Heb
+    texts:
+      - इबरानीमन
+      - इबरीमन
+      - इब
+  - osis: Jas
+    texts:
+      - याकूब
+      - याकू
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - पतरस
+      - पत
+  - osis: 1Pet
+    texts:
+      - 1पतरस
+  - osis: 2Pet
+    texts:
+      - 2पतरस
+  - osis: Jude
+    texts:
+      - यहूदा
+      - यहू
+translations:
+  - NTC
+  - SCA

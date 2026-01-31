@@ -1,0 +1,381 @@
+default:
+  1Chr:
+    long: 1 Odu duri
+    short: 1 Od-dur
+  1Cor:
+    long: 1 Korintho
+    short: 1 Kor
+  1John:
+    long: 1 Yohona
+    short: 1 Yoh
+  1Kgs:
+    long: 1 Hayyoota
+    short: 1 Hay
+  1Macc:
+    long: 1 Makabayo
+    short: 1 Mak
+  1Pet:
+    long: 1 Petro
+    short: 1 Pet
+  1Sam:
+    long: 1 Samueli
+    short: 1 Sam
+  1Thess:
+    long: 1 Thesalonike
+    short: 1 Thes
+  1Tim:
+    long: 1 Timotheo
+    short: 1 Tim
+  2Chr:
+    long: 2 Odu duri
+    short: 2 Od-dur
+  2Cor:
+    long: 2 Korintho
+    short: 2 Kor
+  2John:
+    long: 2 Yohona
+    short: 2 Yoh
+  2Kgs:
+    long: 2 Hayyoota
+    short: 2 Hay
+  2Macc:
+    long: 2 Makabayo
+    short: 2 Mak
+  2Pet:
+    long: 2 Petro
+    short: 2 Pet
+  2Sam:
+    long: 2 Samueli
+    short: 2 Sam
+  2Thess:
+    long: 2 Thesalonike
+    short: 2 Thes
+  2Tim:
+    long: 2 Timotheo
+    short: 2 Tim
+  3John:
+    long: 3 Yohona
+    short: 3 Yoh
+  Acts:
+    long: Huji Ergattu
+    short: Huji
+  Amos:
+    long: Amosi
+    short: Amo
+  Bar:
+    long: Baruku
+    short: Bar
+  Col:
+    long: Kolosai
+    short: Kol
+  Dan:
+    long: Danieli
+    short: Dan
+  Deut:
+    long: Qaabacha Seera
+    short: Qab-Ser
+  Eccl:
+    long: Abba herega
+    short: Abb-Her
+  Eph:
+    long: Efeso
+    short: Efs
+  Esth:
+    long: Esta
+    short: Est
+  EsthGr:
+    long: Esta (Grikitini)
+    short: Gk-Est
+  Exod:
+    long: Bahisa
+    short: Bah
+  Ezek:
+    long: Ezekieli
+    short: Eze
+  Ezra:
+    long: Ezra
+    short: Ezr
+  Gal:
+    long: Galatia
+    short: Gal
+  Gen:
+    long: Uumama
+    short: Uum
+  Hab:
+    long: Habakuki
+    short: Hab
+  Hag:
+    long: Hagai
+    short: Hag
+  Heb:
+    long: Ebrania
+    short: Ebr
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Isaya
+    short: Isa
+  Jas:
+    long: Yakobo
+    short: Yak
+  Jdt:
+    long: Yudithi
+    short: Yudi
+  Jer:
+    long: Yeremia
+    short: Yer
+  Job:
+    long: Aayubu
+    short: Ayu
+  Joel:
+    long: Yoeli
+    short: Yoe
+  John:
+    long: Yohana
+    short: Yoh
+  Jonah:
+    long: Yona
+    short: Yon
+  Josh:
+    long: Yoshua
+    short: Yos
+  Jude:
+    long: Yuda
+    short: Yud
+  Judg:
+    long: Jaallaboota
+    short: Jal
+  Lam:
+    long: Boha
+    short: Boh
+  Lev:
+    long: Lawi
+    short: Law
+  Luke:
+    long: Luka
+    short: Luk
+  Mal:
+    long: Malaki
+    short: Mal
+  Mark:
+    long: Mariko
+    short: Mar
+  Matt:
+    long: Matayo
+    short: Mat
+  Mic:
+    long: Mika
+    short: MiK
+  Nah:
+    long: Nahumu
+    short: Nah
+  Neh:
+    long: Nehemia
+    short: Neh
+  Num:
+    long: Henna
+    short: Hen
+  Obad:
+    long: Obadia
+    short: Oba
+  Phil:
+    long: Filipi
+    short: Fil
+  Phlm:
+    long: Filemoni
+    short: Film
+  Prov:
+    long: Mammaasa
+    short: Mam
+  Ps:
+    long: Faaru
+    short: Far
+  Rev:
+    long: Waan Yohanati Mullisani
+    short: Mul
+  Rom:
+    long: Rumi
+    short: Rum
+  Ruth:
+    long: Ruthi
+    short: Rut
+  Sir:
+    long: Sira
+    short: Sir
+  Song:
+    long: Faaru solomoni
+    short: Solomoni
+  Titus:
+    long: Tito
+    short: Tit
+  Tob:
+    long: Tobiti
+    short: Tob
+  Wis:
+    long: Qarooma Solomoni
+    short: Qarooma
+  Zech:
+    long: Zekaria
+    short: Zek
+  Zeph:
+    long: Sefania
+    short: Sef
+translations:
+  gaxnt:
+    1Cor:
+      long: 1 Worra Qorontoosii
+      short: 1Qor
+    1John:
+      long: 1 Ergaa Yohaannisii
+      short: 1Yoh
+    1Pet:
+      long: 1 Ergaa Pheexroosii
+      short: 1Phe
+    1Thess:
+      long: 1 Worra Tasalonqe'ee
+      short: 1Tas
+    1Tim:
+      long: 1 Ximootewoos
+      short: 1Xim
+    2Cor:
+      long: 2 Worra Qorontoosii
+      short: 2Qor
+    2John:
+      long: 2 Ergaa Yohaannisii
+      short: 2Yoh
+    2Pet:
+      long: 2 Ergaa Pheexroosii
+      short: 2Phe
+    2Thess:
+      long: 2 Worra Tasalonqe'ee
+      short: 2Tas
+    2Tim:
+      long: 2 Ximootewoos
+      short: 2Xim
+    3John:
+      long: 3 Ergaa Yohaannisii
+      short: 3Yoh
+    Acts:
+      long: Hujii Ergantootaa
+      short: HuE
+    Col:
+      long: Worra Qolosaayisii
+      short: Qol
+    Eph:
+      long: Worra Efesoonii
+      short: Efe
+    Gal:
+      long: Worra Galaatiya'aa
+    Heb:
+      long: Ibroota
+      short: Ibr
+    Jas:
+      long: Ergaa Yaaqoobii
+      short: Yaaq
+    John:
+      long: Wongeela Yohaannisii
+    Jude:
+      long: Ergaa Yihuda'aa
+      short: Yih
+    Luke:
+      long: Wongeela Luqaasii
+      short: Luq
+    Mark:
+      long: Wongeela Maarqoosii
+    Matt:
+      long: Wongeela Maatewoosii
+    Phil:
+      long: Worra Filiphisiiyusii
+      short: Filp
+    Phlm:
+      long: Filemoon
+    Rev:
+      long: Mudhii Yohaannisii
+      short: Mudh
+    Rom:
+      long: Worra Rooma'aa
+      short: Rom
+    Titus:
+      long: Tiitoos
+  kakhaa:
+    1Cor:
+      long: 1Qorontoos
+      short: 1Qor.
+    1John:
+      long: 1Yohaannis
+      short: 1Yoh.
+    1Pet:
+      long: 1Phexros
+      short: 1Phex.
+    1Thess:
+      long: 1Tasaloonqe
+      short: 1Tas.
+    1Tim:
+      long: 1Ximootewoos
+      short: 1Xim.
+    2Cor:
+      long: 2Qorontoos
+      short: 2Qor.
+    2John:
+      long: 2Yohaannis
+      short: 2Yoh.
+    2Pet:
+      long: 2Phexros
+      short: 2Phex.
+    2Thess:
+      long: 2Tasaloonqe
+      short: 2Tas.
+    2Tim:
+      long: 2Ximootewoos
+      short: 2Xim.
+    3John:
+      long: 3Yohaannis
+      short: 3Yoh.
+    Acts:
+      long: Huji Ergamtoota
+      short: Huji.
+    Col:
+      long: Qolasaayi
+      short: Qol.
+    Eph:
+      long: Efessoon
+      short: Efe.
+    Gal:
+      long: Galaatiyaa
+      short: Gal.
+    Heb:
+      long: Hibraawii
+      short: Hib.
+    Jas:
+      long: Yaaqoob
+      short: Yaq.
+    John:
+      long: Yohaannis
+      short: Yoh.
+    Jude:
+      long: Yihudaa
+      short: Yih.
+    Luke:
+      long: Luqaas
+      short: Luq.
+    Mark:
+      long: Maarqoos
+      short: Mar.
+    Matt:
+      long: Maatewos
+      short: Mat.
+    Phil:
+      long: Filiphiyus
+      short: Fil.
+    Phlm:
+      short: Film.
+    Rev:
+      long: Waan Yohaanisitti mullisani
+      short: Mul.
+    Rom:
+      long: Roomaa
+      short: Rom.
+    Titus:
+      long: Tiitoo
+      short: Tiit.

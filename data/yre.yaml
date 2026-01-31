@@ -1,0 +1,107 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Apokalis
+      - Ap
+  - osis: Matt
+    texts:
+      - Matie
+      - Mt
+  - osis: Mark
+    texts:
+      - Mark
+      - Mk
+  - osis: Luke
+    texts:
+      - Luk
+      - Lk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Zan
+  - osis: Acts
+    texts:
+      - Drɛwɩ
+  - osis: Rom
+    texts:
+      - Rɔmɛn
+      - Rm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korɛnti
+      - Ko
+  - osis: Col
+    texts:
+      - Kolɔs
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatɩ
+      - Gal
+  - osis: Eph
+    texts:
+      - Efez
+      - Efɛz
+  - osis: Phil
+    texts:
+      - Filipʋ
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonik
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+      - Ti
+  - osis: Titus
+    texts:
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemɔn
+      - Flm
+  - osis: Heb
+    texts:
+      - Ebre
+  - osis: Jas
+    texts:
+      - Zaji
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piɛri
+      - Pi
+  - osis: Jude
+    texts:
+      - Zud
+translations:
+  - YRE

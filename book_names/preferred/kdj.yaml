@@ -1,0 +1,235 @@
+default:
+  1Chr:
+    long: 1 Ŋakiro a ŋirwa
+    short: 1 Ŋakiro
+  1Cor:
+    long: 1 Ŋikor.
+    short: 1 Ŋikor.
+  1John:
+    long: 1 Yoa.
+    short: 1 Yoa.
+  1Kgs:
+    long: 1 Ŋirw.
+    short: 1 Ŋirw.
+  1Macc:
+    long: 1 Ŋimak.
+    short: 1 Ŋimak.
+  1Pet:
+    long: 1 Pet.
+    short: 1 Pet.
+  1Sam:
+    long: 1 Sam.
+    short: 1 Sam.
+  1Thess:
+    long: 1 Ŋites.
+    short: 1 Ŋites.
+  1Tim:
+    long: 1 Tim.
+    short: 1 Tim.
+  2Chr:
+    long: 2 Ŋakiro a ŋirwa
+    short: 2 Ŋakiro
+  2Cor:
+    long: 2 Ŋikor.
+    short: 2 Ŋikor.
+  2John:
+    long: 2 Yoa.
+    short: 2 Yoa.
+  2Kgs:
+    long: 2 Ŋirw.
+    short: 2 Ŋirw.
+  2Macc:
+    long: 2 Ŋimak.
+    short: 2 Ŋimak.
+  2Pet:
+    long: 2 Pet.
+    short: 2 Pet.
+  2Sam:
+    long: 2 Sam.
+    short: 2 Sam.
+  2Thess:
+    long: 2 Ŋites.
+    short: 2 Ŋites.
+  2Tim:
+    long: 2 Tim.
+    short: 2 Tim.
+  3John:
+    long: 3 Yoa.
+    short: 3 Yoa.
+  Acts:
+    long: Ŋitic.
+    short: Ŋitic.
+  Amos:
+    long: Amos
+    short: Amos
+  Bar:
+    long: Bar
+    short: Bar
+  Bel:
+    long: Bel. Ep.
+    short: Bel. Ep.
+  Col:
+    long: Ŋikol.
+    short: Ŋikol.
+  Dan:
+    long: Dan.
+    short: Dan.
+  Deut:
+    long: Ŋikis.
+    short: Ŋikis.
+  Eccl:
+    long: Ekal.
+    short: Ekal.
+  EpJer:
+    long: Ab.Yer
+    short: Ab.Yer
+  Eph:
+    long: Ŋiep.
+    short: Ŋiep.
+  Esth:
+    long: Esta
+    short: Esta
+  EsthGr:
+    long: Esta Gr
+    short: Esta Gr
+  Exod:
+    long: Awos.
+    short: Awos.
+  Ezek:
+    long: Esek.
+    short: Esek.
+  Ezra:
+    long: Esir
+    short: Esir
+  Gal:
+    long: Ŋigal.
+    short: Ŋigal.
+  Gen:
+    long: Akisy.
+    short: Akisy.
+  Hab:
+    long: Abak.
+    short: Abak.
+  Hag:
+    long: Agai
+    short: Agai
+  Heb:
+    long: Ŋibur.
+    short: Ŋibur.
+  Hos:
+    long: Osea
+    short: Osea
+  Isa:
+    long: Isa.
+    short: Isa.
+  Jas:
+    long: Yak.
+    short: Yak.
+  Jdt:
+    long: Yudis
+    short: Yudis
+  Jer:
+    long: Yer.
+    short: Yer.
+  Job:
+    long: Yob
+    short: Yob
+  Joel:
+    long: Yoel
+    short: Yoel
+  John:
+    long: Yoa.
+    short: Yoa.
+  Jonah:
+    long: Yona
+    short: Yona
+  Josh:
+    long: Yos.
+    short: Yos.
+  Jude:
+    long: Yud.
+    short: Yud.
+  Judg:
+    long: Ŋikat.
+    short: Ŋikat.
+  Lam:
+    long: Aum.
+    short: Aum.
+  Lev:
+    long: Ŋilep.
+    short: Ŋilep.
+  Luke:
+    long: Luk.
+    short: Luk.
+  Mal:
+    long: Mal.
+    short: Mal.
+  Mark:
+    long: Mar.
+    short: Mar.
+  Matt:
+    long: Mat.
+    short: Mat.
+  Mic:
+    long: Mika
+    short: Mika
+  Nah:
+    long: Naum
+    short: Naum
+  Neh:
+    long: Neem.
+    short: Neem.
+  Num:
+    long: Ekim.
+    short: Ekim.
+  Obad:
+    long: Obad.
+    short: Obad.
+  Phil:
+    long: Ŋipil.
+    short: Ŋipil.
+  Phlm:
+    long: Pil.
+    short: Pil.
+  PrAzar:
+    long: Eete. ŋi. a Ŋiu.
+    short: Eete. ŋi. a Ŋiu.
+  Prov:
+    long: Ŋakit.
+    short: Ŋakit.
+  Ps:
+    long: Ŋikiru.
+    short: Ŋikiru.
+  Rev:
+    long: Akis.
+    short: Akis.
+  Rom:
+    long: Ŋirom.
+    short: Ŋirom.
+  Ruth:
+    long: Rus.
+    short: Rus.
+  Sir:
+    long: Sir
+    short: Sir
+  Song:
+    long: Eete a Ŋie.
+    short: Eete a Ŋie.
+  Sus:
+    long: Sus
+    short: Sus
+  Titus:
+    long: Tito
+    short: Tito
+  Tob:
+    long: Tob
+    short: Tob
+  Wis:
+    long: Aos.
+    short: Aos.
+  Zech:
+    long: Sakar
+    short: Sakar
+  Zeph:
+    long: Sepan.
+    short: Sepan.

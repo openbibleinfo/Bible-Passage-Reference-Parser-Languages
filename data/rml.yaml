@@ -1,0 +1,288 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Джиибэ́н
+      - Džiibén
+  - osis: Exod
+    texts:
+      - Vygiiben
+      - Выгиибэн
+  - osis: Lev
+    texts:
+      - Lievito
+      - Левито
+  - osis: Num
+    texts:
+      - Čysly
+      - Чыслы
+  - osis: Lam
+    texts:
+      - Roiben
+      - Роибэн
+  - osis: Rev
+    texts:
+      - Сыкадыипэ́н
+      - Sykadyipén
+      - Сыкад
+  - osis: Deut
+    texts:
+      - Яви́р Зако́но
+      - Javír Zakóno
+  - osis: Josh
+    texts:
+      - Ису́со
+      - Isúso
+  - osis: Judg
+    texts:
+      - Sendar'jengiri Lylvarí
+      - Сэндарьенгири Лылвари́
+      - Лылвари́
+  - osis: Ruth
+    texts:
+      - Ruta
+      - Рута
+  - osis: Isa
+    texts:
+      - Isajos
+      - Исаёс
+  - osis: 1Kgs
+    texts:
+      - 3 Kralip
+      - 3 Кралип
+  - osis: 2Kgs
+    texts:
+      - 4 Kralip
+      - 4 Кралип
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Kralip
+      - Кралип
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Paralipomienono
+      - Паралипоменоно
+      - Парал
+  - osis: Ezra
+    texts:
+      - Jézdra
+      - Е́здра
+  - osis: Neh
+    texts:
+      - Nijemíia
+      - Ниеми́я
+  - osis: Esth
+    texts:
+      - Ester
+      - Эстэр
+  - osis: Job
+    texts:
+      - Ио́во
+      - Ióvo
+  - osis: Ps
+    texts:
+      - Psalmy
+      - Псалм
+  - osis: Prov
+    texts:
+      - Pritčy
+      - Притчы
+  - osis: Eccl
+    texts:
+      - Ekliesiastos
+      - Эклес
+  - osis: Song
+    texts:
+      - Giliengiri Gilý
+      - Гил
+  - osis: Jer
+    texts:
+      - Jeriemiéjo
+      - Ереме́ё
+  - osis: Ezek
+    texts:
+      - Jezekiljo
+      - Езэкилё
+  - osis: Dan
+    texts:
+      - Danijéljo
+      - Дание́лё
+  - osis: Hos
+    texts:
+      - Osija
+      - Осия
+  - osis: Joel
+    texts:
+      - Ioil
+      - Иоил
+  - osis: Amos
+    texts:
+      - Amoso
+      - Амосо
+  - osis: Obad
+    texts:
+      - Avdijos
+      - Авдиёс
+  - osis: Jonah
+    texts:
+      - Jona
+      - Ёна
+  - osis: Mic
+    texts:
+      - Mihiejo
+      - Михеё
+  - osis: Nah
+    texts:
+      - Naumo
+      - Наумо
+  - osis: Hab
+    texts:
+      - Avakumo
+      - Авакумо
+  - osis: Zeph
+    texts:
+      - Sofonija
+      - Софония
+  - osis: Hag
+    texts:
+      - Agiejo
+      - Агеё
+  - osis: Zech
+    texts:
+      - Zahárija
+      - Заха́рия
+  - osis: Mal
+    texts:
+      - Malahiia
+      - Малахия
+  - osis: Matt
+    texts:
+      - Matfiejo
+      - Матфеё
+  - osis: Mark
+    texts:
+      - Marko
+      - Марко
+  - osis: Luke
+    texts:
+      - Luka
+      - Лука
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Ian
+      - Иан
+  - osis: John
+    texts:
+      - Joannostir
+      - Иа́но
+      - Iáno
+  - osis: Acts
+    texts:
+      - Апостолэнгири Буты́
+      - Apostolengiri Butý
+      - Буты́
+  - osis: Rom
+    texts:
+      - Rimlianenge
+      - Римлянэнгэ
+      - Римл
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinfianenge
+      - Коринфянэнгэ
+      - Коринф
+  - osis: Col
+    texts:
+      - Kolosianenge
+      - Колосянэнгэ
+      - Колос
+  - osis: Gal
+    texts:
+      - Galatenge
+      - Галатэнгэ
+      - Галат
+  - osis: Eph
+    texts:
+      - Efiesianenge
+      - Эфесянэнгэ
+      - Эфес
+  - osis: Phil
+    texts:
+      - Filipiicenge
+      - Филипийцэнгэ
+      - Филип
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Fiesalonikiicenge
+      - Фесалоникийцэнгэ
+      - Фесал
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Ximaske
+      - Химаскэ
+  - osis: Titus
+    texts:
+      - Titoske
+      - Титоскэ
+      - Тито
+  - osis: Phlm
+    texts:
+      - Filimon
+      - Филимон
+      - Филим
+  - osis: Heb
+    texts:
+      - Judénge
+      - Юдэ́нгэ
+  - osis: Jas
+    texts:
+      - Jakov
+      - Яков
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petr
+      - Пэтр
+  - osis: Jude
+    texts:
+      - Juda
+      - Юда
+translations:
+  - ROMBALTR
+  - LET1933
+  - ROMBALT

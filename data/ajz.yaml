@@ -1,0 +1,116 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Kachiklang
+      - Kka.
+  - osis: Matt
+    texts:
+      - Mothi
+      - Mot.
+  - osis: Mark
+    texts:
+      - Mark
+      - Mrk.
+  - osis: Luke
+    texts:
+      - Luk.
+      - Luk
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Johon
+      - Jn.
+  - osis: John
+    texts:
+      - Johon
+      - Jhn.
+  - osis: Acts
+    texts:
+      - Adunhel
+      - Aka.
+  - osis: Rom
+    texts:
+      - Roman
+      - Rom.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinthiya
+      - Ko.
+  - osis: Col
+    texts:
+      - Kolosiya
+      - Kol.
+  - osis: Gal
+    texts:
+      - Galatiya
+      - Gal.
+  - osis: Eph
+    texts:
+      - Ephisiya
+      - Eph.
+  - osis: Phil
+    texts:
+      - Philipiya
+      - Php.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thesalonika
+      - Th.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothi
+      - Ti.
+  - osis: Titus
+    texts:
+      - Titas
+      - Tit.
+  - osis: Phlm
+    texts:
+      - Philimon
+      - Phm.
+  - osis: Heb
+    texts:
+      - Hibru
+      - Hib.
+  - osis: Jas
+    texts:
+      - Jem.
+      - Jems
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pitor
+      - Pe.
+  - osis: Jude
+    texts:
+      - Jud.
+      - Jud
+translations:
+  - AMRI-BSI

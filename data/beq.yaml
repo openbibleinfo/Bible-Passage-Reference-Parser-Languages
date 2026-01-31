@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Nya
+  - osis: Matt
+    texts:
+      - Mat
+  - osis: Mark
+    texts:
+      - Mal
+  - osis: Luke
+    texts:
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yow
+  - osis: Acts
+    texts:
+      - Biy
+  - osis: Rom
+    texts:
+      - Lom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kol
+  - osis: Col
+    texts:
+      - Kol
+  - osis: Gal
+    texts:
+      - Nga
+  - osis: Eph
+    texts:
+      - Efe
+  - osis: Phil
+    texts:
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tim
+  - osis: Titus
+    texts:
+      - Tit
+  - osis: Phlm
+    texts:
+      - Film
+  - osis: Heb
+    texts:
+      - Heb
+  - osis: Jas
+    texts:
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pet
+  - osis: Jude
+    texts:
+      - Yud
+translations:
+  - NTB13

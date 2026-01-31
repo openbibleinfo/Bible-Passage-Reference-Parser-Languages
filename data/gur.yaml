@@ -1,0 +1,176 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Lilegere
+      - Pukre
+      - Lil
+      - Puk
+  - osis: Matt
+    texts:
+      - Amatie
+      - Matu
+      - Mat
+  - osis: Mark
+    texts:
+      - Amarkɩ
+      - Maki
+      - Mak
+      - Mar
+  - osis: Luke
+    texts:
+      - Aluki
+      - Luki
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Zã
+  - osis: 2John
+    texts:
+      - 2Zã
+  - osis: 3John
+    texts:
+      - 3 Yɔn
+      - 3 Zã
+      - 3Zã
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yɔn
+      - Zã
+  - osis: John
+    texts:
+      - Azã
+      - Yɔn
+  - osis: Acts
+    texts:
+      - Tõoma
+      - Tuuma
+      - Tuum
+      - Tõo
+  - osis: Rom
+    texts:
+      - Aromduma
+      - aRom
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintiduma
+      - Korẽntɩ
+      - Kor
+  - osis: 1Cor
+    texts:
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - 2Ko
+  - osis: Col
+    texts:
+      - Kolosiduma
+      - Kolɔsɩ
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatiyaduma
+      - Galatɩ
+      - Gal
+  - osis: Eph
+    texts:
+      - Ɛfisuduma
+      - Efɛɛzɩ
+      - Efɛ
+      - Ɛfi
+  - osis: Phil
+    texts:
+      - Filipiduma
+      - Filipi
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tɛsalonikaduma
+      - Tesaloniki
+      - Tɛs
+  - osis: 1Thess
+    texts:
+      - 1Te
+  - osis: 2Thess
+    texts:
+      - 2Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+      - Timõtɩ
+      - Tim
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Taitusi
+      - Atiti
+      - Tait
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemɔn
+      - Afilmõ
+      - Afi
+      - Flm
+  - osis: Heb
+    texts:
+      - Hiburuduma
+      - Ebre
+      - Ebr
+      - Hib
+  - osis: Jas
+    texts:
+      - Yemesi
+      - Azakɩ
+      - Yem
+      - Zak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pɩyɛɛrɩ
+      - Pita
+      - Pit
+  - osis: 1Pet
+    texts:
+      - 1Pɩ
+  - osis: 2Pet
+    texts:
+      - 2Pɩ
+  - osis: Jude
+    texts:
+      - Azudi
+      - Yude
+      - Yud
+      - Zud
+translations:
+  - GURDBL
+  - GBTP2020

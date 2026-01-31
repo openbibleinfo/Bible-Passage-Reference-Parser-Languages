@@ -1,0 +1,275 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Genesis
+  - osis: Exod
+    texts:
+      - Exodus
+  - osis: Bel
+    texts:
+      - Bel as y Dragon
+  - osis: Lev
+    texts:
+      - Leviticus
+  - osis: Num
+    texts:
+      - Earrooyn
+      - Earroyn
+  - osis: Sir
+    texts:
+      - Ecclesiasticus
+      - Sirach
+  - osis: Wis
+    texts:
+      - Creenaght Solomon
+  - osis: Lam
+    texts:
+      - Dobberan
+  - osis: Rev
+    texts:
+      - Ashlish
+  - osis: Deut
+    texts:
+      - Deuteronomy
+      - Deut
+  - osis: Josh
+    texts:
+      - Joshua
+  - osis: Judg
+    texts:
+      - Briwnyn
+  - osis: Ruth
+    texts:
+      - Ruth
+  - osis: Isa
+    texts:
+      - Isaiah
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Reeaghyn
+  - osis: 2Kgs
+    texts:
+      - 2Reeaghyn
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Recortyssyn
+      - Recort.
+  - osis: Ezra
+    texts:
+      - Ezra
+  - osis: Neh
+    texts:
+      - Nehemiah
+  - osis: Esth
+    texts:
+      - Esther
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Psalmyn
+      - Psal.
+      - Psalm
+  - osis: Prov
+    texts:
+      - Raaghyn Creeney
+      - Raaghyn
+  - osis: Eccl
+    texts:
+      - Ecclesiastes
+      - Eccles.
+  - osis: Song
+    texts:
+      - Arrane Solomon
+      - Arrane
+  - osis: Jer
+    texts:
+      - Jeremiah
+  - osis: Ezek
+    texts:
+      - Ezekiel
+  - osis: Dan
+    texts:
+      - Daniel
+  - osis: Hos
+    texts:
+      - Hosea
+  - osis: Joel
+    texts:
+      - Joel
+  - osis: Amos
+    texts:
+      - Amos
+  - osis: Obad
+    texts:
+      - Obadiah
+  - osis: Jonah
+    texts:
+      - Jonah
+  - osis: Mic
+    texts:
+      - Micah
+  - osis: Nah
+    texts:
+      - Nahum
+  - osis: Hab
+    texts:
+      - Habakkuk
+  - osis: Zeph
+    texts:
+      - Zephaniah
+      - Zeph
+  - osis: Hag
+    texts:
+      - Haggai
+  - osis: Zech
+    texts:
+      - Zechariah
+      - Zech
+  - osis: Mal
+    texts:
+      - Malachi
+  - osis: Matt
+    texts:
+      - Noo Mian
+      - Mian
+  - osis: Mark
+    texts:
+      - Noo Mark
+      - Mark
+  - osis: Luke
+    texts:
+      - Noo Luke
+      - Luke
+  - osis: John
+    texts:
+      - Noo Ean
+      - Ean
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Ean
+  - osis: Acts
+    texts:
+      - Jannoo
+  - osis: Rom
+    texts:
+      - Romanee
+      - Roman
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corinthianee
+      - Corinth
+  - osis: Col
+    texts:
+      - Colossianee
+      - Coloss
+      - Colos
+  - osis: Gal
+    texts:
+      - Galatianee
+      - Galatian
+      - Galat
+  - osis: Eph
+    texts:
+      - Ephesianee
+      - Ephesian
+      - Ephes
+  - osis: Phil
+    texts:
+      - Philippianee
+      - Philip
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thessalonianee
+      - Thess
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothy
+      - Tim
+  - osis: Titus
+    texts:
+      - Titus
+  - osis: Phlm
+    texts:
+      - Philemon
+      - Philem
+  - osis: Heb
+    texts:
+      - Hebrewnee
+      - Hebrew
+  - osis: Jas
+    texts:
+      - Jamys
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peddyr
+  - osis: Jude
+    texts:
+      - Jude
+  - osis: Tob
+    texts:
+      - Tobit
+  - osis: Jdt
+    texts:
+      - Judith
+  - osis: Bar
+    texts:
+      - Baruch
+  - osis: Sus
+    texts:
+      - Susanna
+translations:
+  - PS1765
+  - NEAN
+  - NMIAN
+  - PS1761
+  - YNAPBR
+  - YNAP
+  - CON1810
+  - BIB1819

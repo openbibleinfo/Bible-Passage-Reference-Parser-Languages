@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 Korintu
+    short: 1Kor.
+  1John:
+    long: 1 Yohane
+    short: 1Yoh.
+  1Pet:
+    long: 1 Peturu
+    short: 1Ptr.
+  1Thess:
+    long: 1 Tesalonika
+    short: 1Tes.
+  1Tim:
+    long: 1 Timotiu
+    short: 1Tim.
+  2Cor:
+    long: 2 Korintu
+    short: 2Kor.
+  2John:
+    long: 2 Yohane
+    short: 2Yoh.
+  2Pet:
+    long: 2 Peturu
+    short: 2Ptr.
+  2Thess:
+    long: 2 Tesalonika
+    short: 2Tes.
+  2Tim:
+    long: 2 Timotiu
+    short: 2Tim.
+  3John:
+    long: 3 Yohane
+    short: 3Yoh.
+  Acts:
+    long: Suro
+    short: Sur.
+  Col:
+    long: Kolose
+    short: Kol.
+  Eph:
+    long: Epesu
+    short: Ep.
+  Gal:
+    long: Galatia
+    short: Gal.
+  Heb:
+    long: Ibarani
+    short: Ibr.
+  Jas:
+    long: Yakobu
+    short: Yak.
+  John:
+    long: Yohane
+    short: Yoh.
+  Jude:
+    long: Yudasi
+    short: Yud.
+  Luke:
+    long: Lukasi
+    short: Luk.
+  Mark:
+    long: Markus
+    short: Mrk.
+  Matt:
+    long: Matiu
+    short: Mat.
+  Phil:
+    long: Pilipi
+    short: Plp.
+  Phlm:
+    long: Pilemo
+    short: Plm.
+  Rev:
+    long: Pampetudungia
+    short: Pam.
+  Rom:
+    long: Roma
+    short: Rom.
+  Titus:
+    long: Titu
+    short: Tit.

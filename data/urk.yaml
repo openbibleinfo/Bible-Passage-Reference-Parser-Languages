@@ -1,0 +1,280 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - ลามูลา
+      - ลมล
+  - osis: Exod
+    texts:
+      - บราเกะ ลารี
+      - บรล
+  - osis: Lev
+    texts:
+      - เลวี
+  - osis: Num
+    texts:
+      - กีรา
+  - osis: Lam
+    texts:
+      - บือปาโตด
+      - บปต
+  - osis: Rev
+    texts:
+      - ปลีฮัจ
+      - ปล.
+  - osis: Deut
+    texts:
+      - ปือมือเลา ฮูโกบ
+      - ปฮก
+  - osis: Josh
+    texts:
+      - โยซูวา
+      - ยซว
+  - osis: Judg
+    texts:
+      - ซือมียา กรัจ ฮูโกบ
+      - ซกฮ
+  - osis: Ruth
+    texts:
+      - รูด
+  - osis: Isa
+    texts:
+      - อิซายา
+      - อซย
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - ซามูเอน
+  - osis: 1Sam
+    texts:
+      - 1ซม
+  - osis: 2Sam
+    texts:
+      - 2ซม
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - ราฌา
+  - osis: 1Kgs
+    texts:
+      - 1รฌ
+  - osis: 2Kgs
+    texts:
+      - 2รฌ
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - จรือตา
+  - osis: 1Chr
+    texts:
+      - 1จร
+  - osis: 2Chr
+    texts:
+      - 2จร
+  - osis: Ezra
+    texts:
+      - เอซรา
+      - อซร
+  - osis: Neh
+    texts:
+      - เนฮะมียา
+      - นมย
+  - osis: Esth
+    texts:
+      - เอซะเทอ
+      - อซท
+  - osis: Job
+    texts:
+      - โยบ
+  - osis: Ps
+    texts:
+      - ลาฆู มือญาญี
+      - มปต
+  - osis: Prov
+    texts:
+      - ฮาดัจ
+      - ฮปอ
+  - osis: Eccl
+    texts:
+      - ซือมียา อาฌัยํ
+      - ซอฌ
+  - osis: Song
+    texts:
+      - มือญาญี นะ ซาโลมอน
+      - มซล
+  - osis: Jer
+    texts:
+      - เยเรมียา
+      - ยรม
+  - osis: Ezek
+    texts:
+      - เอเซเคียน
+      - อซค
+  - osis: Dan
+    texts:
+      - ดาเนียน
+      - ดนย
+  - osis: Hos
+    texts:
+      - โฮเชยา
+      - ฮชย
+  - osis: Joel
+    texts:
+      - โยเอน
+      - โยล
+  - osis: Amos
+    texts:
+      - อาโมด
+      - อมด
+  - osis: Obad
+    texts:
+      - โอบาดียา
+      - อบด
+  - osis: Jonah
+    texts:
+      - โยนา
+      - โยน
+  - osis: Mic
+    texts:
+      - มีคา
+      - มคา
+  - osis: Nah
+    texts:
+      - นาฮูม
+      - นฮม
+  - osis: Hab
+    texts:
+      - ฮาบากุก
+      - ฮบก
+  - osis: Zeph
+    texts:
+      - เซฟันยา
+      - ซฟย
+  - osis: Hag
+    texts:
+      - ฮักกัย
+      - ฮกก
+  - osis: Zech
+    texts:
+      - ซะคารียา
+      - ซคร
+  - osis: Mal
+    texts:
+      - มาลาคี
+      - มลค
+  - osis: Matt
+    texts:
+      - มัดทัย
+      - มท.
+  - osis: Mark
+    texts:
+      - มาระโก
+      - มก.
+  - osis: Luke
+    texts:
+      - ลูกา
+      - ลก.
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - โยฮัน
+      - ยน.
+  - osis: Acts
+    texts:
+      - ปือบูวัจ
+      - ปบ.
+  - osis: Rom
+    texts:
+      - รม.
+      - โรม
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - โกริน
+      - กร.
+  - osis: Col
+    texts:
+      - โกโลซี
+      - กซ.
+  - osis: Gal
+    texts:
+      - ฆาลาเตีย
+      - ฆล.
+  - osis: Eph
+    texts:
+      - เอเฟซัด
+      - อฟ.
+  - osis: Phil
+    texts:
+      - ฟีลิบปี
+      - ฟป.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - เทซะโลนิกา
+      - ทซ.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - ทิโมที
+      - ทท.
+  - osis: Titus
+    texts:
+      - ทีตัด
+      - ทต.
+  - osis: Phlm
+    texts:
+      - ฟีเลโมน
+      - ฟม.
+  - osis: Heb
+    texts:
+      - ฮีบรู
+      - ฮบ.
+  - osis: Jas
+    texts:
+      - ยากอบ
+      - ยก.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - เปโตร
+      - ปต.
+  - osis: Jude
+    texts:
+      - ยูดา
+      - ยด.
+translations:
+  - ULBIBLE

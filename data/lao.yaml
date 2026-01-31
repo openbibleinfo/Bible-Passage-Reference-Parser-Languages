@@ -1,0 +1,300 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - ປະຖົມມະການ
+      - ປຖກ
+  - osis: Exod
+    texts:
+      - ອົບພະຍົບ
+      - ອພຍ
+  - osis: Lev
+    texts:
+      - ລະບຽບ^ພວກເລວີ
+      - ລລວ
+  - osis: Num
+    texts:
+      - ຈົດບັນຊີ
+      - ຈບຊ
+  - osis: Lam
+    texts:
+      - ເພງ^ຄໍ່າຄວນ
+      - ພຄຄ
+  - osis: Rev
+    texts:
+      - ພຣະນິມິດ
+      - ພນມ
+  - osis: Deut
+    texts:
+      - ພຣະບັນຍັດສອງ
+      - ພບຍ
+  - osis: Josh
+    texts:
+      - ໂຢຊວຍ
+      - ຢຊ
+  - osis: Judg
+    texts:
+      - ພວກ^ຜູ້ປົກຄອງ
+      - ຜປ
+  - osis: Ruth
+    texts:
+      - ນາງຣຸດ
+      - ນຣ
+  - osis: Isa
+    texts:
+      - ເອຊາຢາ
+      - ອຊຢ
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - ຊາມູເອນ
+      - ຊມອ
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - ກະສັດ
+      - ກສ
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - ຂ່າວຄາວ
+      - ຂຄ
+  - osis: Ezra
+    texts:
+      - ເອຊະຣາ
+      - ອຊຣ
+  - osis: Neh
+    texts:
+      - ເນເຫມີຢາ
+      - ນມຢ
+  - osis: Esth
+    texts:
+      - ເອສະເທີ
+      - ອສທ
+  - osis: Job
+    texts:
+      - ໂຢບ
+  - osis: Ps
+    texts:
+      - ເພງ^ສັນລະເສີນ
+      - ພສສ
+  - osis: Prov
+    texts:
+      - ສຸພາສິດ
+      - ສພສ
+  - osis: Eccl
+    texts:
+      - ປັນຍາຈານ
+      - ປຍຈ
+  - osis: Song
+    texts:
+      - ຍອດເພງ
+      - ຍພ
+  - osis: Jer
+    texts:
+      - ເຢເຣມີຢາ
+      - ຢມຢ
+  - osis: Ezek
+    texts:
+      - ເອເຊກຽນ
+      - ອຊກ
+  - osis: Dan
+    texts:
+      - ດານີເອນ
+      - ດນອ
+  - osis: Hos
+    texts:
+      - ໂຮເສອາ
+      - ຮສອ
+  - osis: Joel
+    texts:
+      - ໂຢເອນ
+      - ຢອ
+  - osis: Amos
+    texts:
+      - ອາໂມດ
+      - ອມ
+  - osis: Obad
+    texts:
+      - ໂອບາດີຢາ
+      - ອບຢ
+  - osis: Jonah
+    texts:
+      - ໂຢນາ
+      - ຢນ
+  - osis: Mic
+    texts:
+      - ມີກາ
+      - ມກ
+  - osis: Nah
+    texts:
+      - ນາຮູມ
+      - ນຮ
+  - osis: Hab
+    texts:
+      - ຮາບາກຸກ
+      - ຮບກ
+  - osis: Zeph
+    texts:
+      - ເຊຟານີຢາ
+      - ຊຟຢ
+  - osis: Hag
+    texts:
+      - ຮັກກາຍ
+      - ຮກ
+  - osis: Zech
+    texts:
+      - ເຊກາຣີຢາ
+      - ຊກຢ
+  - osis: Mal
+    texts:
+      - ມາລາກີ
+      - ມລກ
+  - osis: Matt
+    texts:
+      - ມັດທາຍ
+      - ມທ
+  - osis: Mark
+    texts:
+      - ມາຣະໂກ
+      - ມຣກ
+  - osis: Luke
+    texts:
+      - ລູກາ
+      - ລກ
+  - osis: 1John
+    texts:
+      - 1ຢຮ
+  - osis: 2John
+    texts:
+      - 2ຢຮ
+  - osis: 3John
+    texts:
+      - 3 ໂຢຮັນ
+      - 3 ຢຮ
+      - 3ຢຮ
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - ໂຢຮັນ
+      - ຢຮ
+  - osis: Acts
+    texts:
+      - ກິດຈະການ
+      - ກຈກ
+  - osis: Rom
+    texts:
+      - ໂຣມ
+      - ຣມ
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - ໂກຣິນໂທ
+      - ກຣທ
+  - osis: 1Cor
+    texts:
+      - 1ກຣທ
+  - osis: 2Cor
+    texts:
+      - 2ກຣທ
+  - osis: Col
+    texts:
+      - ໂກໂລຊາຍ
+      - ກລຊ
+  - osis: Gal
+    texts:
+      - ຄາລາເຕຍ
+      - ຄລຕ
+  - osis: Eph
+    texts:
+      - ເອເຟໂຊ
+      - ອຟຊ
+  - osis: Phil
+    texts:
+      - ຟີລິບປອຍ
+      - ຟລປ
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - ເທສະໂລນິກ
+      - ທສນ
+  - osis: 1Thess
+    texts:
+      - 1ທສນ
+  - osis: 2Thess
+    texts:
+      - 2ທສນ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - ຕີໂມທຽວ
+      - ຕມທ
+  - osis: 1Tim
+    texts:
+      - 1ຕມທ
+  - osis: 2Tim
+    texts:
+      - 2ຕມທ
+  - osis: Titus
+    texts:
+      - ຕີໂຕ
+      - ຕຕ
+  - osis: Phlm
+    texts:
+      - ຟີເລໂມນ
+      - ຟລມ
+  - osis: Heb
+    texts:
+      - ເຮັບເຣີ
+      - ຮຣ
+  - osis: Jas
+    texts:
+      - ຢາໂກໂບ
+      - ຢກບ
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - ເປໂຕ
+      - ປຕ
+  - osis: 1Pet
+    texts:
+      - 1ປຕ
+  - osis: 2Pet
+    texts:
+      - 2ປຕ
+  - osis: Jude
+    texts:
+      - ຢູດາ
+      - ຢດ
+translations:
+  - LCV
+  - RLV15

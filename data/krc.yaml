@@ -1,0 +1,95 @@
+variables:
+  first: &first
+    - I
+  second: &second
+    - II
+  third: &third
+    - III
+books:
+  - osis: Rev
+    texts:
+      - Билим Ачханы
+  - osis: Ps
+    texts:
+      - Забур
+  - osis: Matt
+    texts:
+      - Маттай
+      - Мат.
+  - osis: Mark
+    texts:
+      - Марк
+  - osis: Luke
+    texts:
+      - Лук.
+      - Лука
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Ахия
+  - osis: Acts
+    texts:
+      - Ишлери
+  - osis: Rom
+    texts:
+      - Римлилеге
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Коринфлилеге
+  - osis: Col
+    texts:
+      - Колослулагъа
+  - osis: Gal
+    texts:
+      - Галатиялылагъа
+  - osis: Eph
+    texts:
+      - Эфеслилеге
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Фесалоникачылагъа
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Тимотейге
+  - osis: Titus
+    texts:
+      - Титге
+  - osis: Phlm
+    texts:
+      - Филимоннга
+  - osis: Heb
+    texts:
+      - Чюйютлелеге
+  - osis: Jas
+    texts:
+      - Якъуп
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Петер
+  - osis: Jude
+    texts:
+      - Яхуда
+translations:
+  - BLKNTP

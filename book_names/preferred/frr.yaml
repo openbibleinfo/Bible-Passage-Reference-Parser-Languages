@@ -1,0 +1,80 @@
+default:
+  1Cor:
+    long: 1 Korinther
+    short: 1 Kor
+  1John:
+    long: 1 Johannes
+    short: 1 Johan
+  1Pet:
+    long: 1 Petrus
+    short: 1 Petr
+  1Thess:
+    long: 1 Thessaloniker
+    short: 1 Thess
+  1Tim:
+    long: 1 Timotheus
+  2Cor:
+    long: 2 Korinther
+  2John:
+    long: 2 Johannes
+    short: 2 Johan
+  2Pet:
+    long: 2 Petrus
+    short: 2 Petr
+  2Thess:
+    long: 2 Thessaloniker
+    short: 2 Thess
+  2Tim:
+    long: 2 Timotheus
+    short: 2 Tim
+  3John:
+    long: 3 Johannes
+    short: 3 Johan
+  Acts:
+    long: Forhandlings
+    short: Forhan
+  Col:
+    long: Kolosser
+    short: Kol
+  Eph:
+    long: Efeser
+    short: Efes
+  Gal:
+    long: Galalater
+    short: Gal
+  Heb:
+    long: Hebräer
+    short: Heb
+  Jas:
+    long: Jakobus
+    short: Jakob
+  John:
+    long: Johannes
+    short: Johan
+  Jude:
+    long: Judas
+    short: Judas
+  Luke:
+    long: Lukas
+    short: Lukas
+  Mark:
+    long: Markus
+    short: Mark
+  Matt:
+    long: Matthäus
+    short: Matt.
+  Phil:
+    long: Filipper
+    short: Filip
+  Phlm:
+    long: Filemon
+    short: Filem
+  Rev:
+    long: Ipenbaring
+    short: Ipen
+  Rom:
+    long: Römer
+    short: Röm
+  Titus:
+    long: Titus
+    short: Titus

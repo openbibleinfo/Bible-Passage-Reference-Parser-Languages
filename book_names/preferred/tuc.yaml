@@ -1,0 +1,86 @@
+default:
+  1Cor:
+    long: 1 Korin
+    short: 1Kor
+  1John:
+    long: 1 Yoan
+    short: 1Yo
+  1Pet:
+    long: 1 Petrus
+    short: 1Pe
+  1Thess:
+    long: 1 Tesalonika
+    short: 1Tes
+  1Tim:
+    long: 1 Timoti
+    short: 1Tim
+  2Cor:
+    long: 2 Korin
+    short: 2Kor
+  2John:
+    long: 2 Yoan
+    short: 2Yo
+  2Pet:
+    long: 2 Petrus
+    short: 2Pe
+  2Thess:
+    long: 2 Tesalonika
+    short: 2Tes
+  2Tim:
+    long: 2 Timoti
+    short: 2Tim
+  3John:
+    long: 3 Yoan
+    short: 3Yo
+  Acts:
+    long: Uraat To Yes Mbaŋooŋa
+    short: Mbaŋ
+  Col:
+    long: Kolosi
+    short: Kol
+  Eph:
+    long: Epesus
+    short: Ep
+  Gal:
+    long: Galesia
+    short: Ga
+  Heb:
+    long: Hibru
+    short: Hib
+  Jas:
+    long: Yakobus
+    short: Yems
+  John:
+    long: Yoan
+    short: Yo
+  Jude:
+    long: Jud
+    short: Jud
+  Luke:
+    long: Lukas
+    short: Lu
+  Mark:
+    long: Markus
+    short: Mk
+  Matt:
+    long: Matayu
+    short: Mt
+  Phil:
+    long: Pilipai
+    short: Pil
+  Phlm:
+    long: Pilemon
+    short: Plm
+  Rev:
+    long: Saveeŋ Yoŋgaaŋ
+    short: Syg
+  Rom:
+    long: Rom
+    short: Rom
+  Titus:
+    long: Titus
+    short: Tit
+translations:
+  tucnt:
+    Rev:
+      long: Saveeŋ Yoŋgaaŋa

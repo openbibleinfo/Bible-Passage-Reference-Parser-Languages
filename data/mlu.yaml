@@ -1,0 +1,125 @@
+variables:
+  first: &first
+    - "1"
+    - I.
+  second: &second
+    - "2"
+    - II.
+books:
+  - osis: Gen
+    texts:
+      - Genesis
+      - Gen
+  - osis: Rev
+    texts:
+      - Si do na kera fatai nia
+      - Fatai
+  - osis: Ruth
+    texts:
+      - Ruti
+  - osis: Neh
+    texts:
+      - Nehemiah
+      - Neh
+  - osis: Ps
+    texts:
+      - Fa Ṉu Abu ki
+  - osis: Jonah
+    texts:
+      - Diona
+  - osis: Matt
+    texts:
+      - Mathui
+  - osis: Mark
+    texts:
+      - Mako
+  - osis: Luke
+    texts:
+      - Luke
+      - Luk
+  - osis: 3John
+    texts:
+      - III. Jone
+      - 3 Jone
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jone
+  - osis: Acts
+    texts:
+      - Si do Aposela ki kera ilidaki
+      - Ilid
+  - osis: Rom
+    texts:
+      - Roma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinitha
+      - Kor
+  - osis: Col
+    texts:
+      - Kolose
+  - osis: Gal
+    texts:
+      - Galesia
+      - Gal
+  - osis: Eph
+    texts:
+      - Efesasi
+      - Efes
+  - osis: Phil
+    texts:
+      - Filifae
+      - Filif
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thesalonika
+      - Thess
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothi
+      - Tim
+  - osis: Titus
+    texts:
+      - Taetasi
+      - Taet
+  - osis: Phlm
+    texts:
+      - Faelimone
+      - Faelim
+  - osis: Heb
+    texts:
+      - Hibaru ki
+      - Hibaru
+  - osis: Jas
+    texts:
+      - Jemesi
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+  - osis: Jude
+    texts:
+      - Jude
+translations:
+  - MLU
+  - MLU1949

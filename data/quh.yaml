@@ -1,0 +1,380 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Génesis
+      - Gn.
+      - Gn
+  - osis: Exod
+    texts:
+      - Éxodo
+      - Ex.
+      - Ex
+  - osis: Bel
+    texts:
+      - Danielmantawan Belmantawan
+      - Bel y la Serpiente
+  - osis: Lev
+    texts:
+      - Levítico
+      - Lv.
+      - Lv
+  - osis: Num
+    texts:
+      - Números
+      - Nu.
+      - Nm
+  - osis: Sir
+    texts:
+      - Eclesiástico
+      - Eclo
+      - Ecl
+  - osis: Wis
+    texts:
+      - Sabiduría
+      - Yachay
+      - Sab
+  - osis: Lam
+    texts:
+      - Lamentaciones
+      - Lam.
+      - Lm
+  - osis: Rev
+    texts:
+      - Apocalipsis
+      - Ap
+  - osis: Deut
+    texts:
+      - Deuteronomio
+      - Deu.
+      - Dt
+  - osis: Josh
+    texts:
+      - Josué
+      - Jos.
+      - Jos
+  - osis: Judg
+    texts:
+      - Jueces
+      - Jue.
+      - Jue
+  - osis: Ruth
+    texts:
+      - Rut
+      - Rt
+  - osis: Isa
+    texts:
+      - Isaías
+      - Isa.
+      - Is
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - S.
+      - S
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Reyes
+      - R.
+      - R
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Crónicas
+      - Cr.
+      - Cr
+  - osis: Ezra
+    texts:
+      - Esdras
+      - Esd.
+      - Esd
+  - osis: Neh
+    texts:
+      - Nehemías
+      - Neh.
+      - Neh
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Salmos
+      - Salmo
+      - Sal.
+      - Sal
+  - osis: Prov
+    texts:
+      - Proverbios
+      - Pr.
+      - Pr
+  - osis: Eccl
+    texts:
+      - Eclesiastés
+      - Ec.
+      - Ec
+  - osis: SgThree
+    texts:
+      - Canto de los tres jóvenes
+  - osis: Song
+    texts:
+      - Cantar de los Cantares
+      - Takiykuna
+      - Tak.
+      - Cnt
+  - osis: Jer
+    texts:
+      - Jeremías
+      - Jer.
+      - Jer
+  - osis: Ezek
+    texts:
+      - Ezequiel
+      - Ez.
+      - Ez
+  - osis: Hos
+    texts:
+      - Oseas
+      - Os.
+      - Os
+  - osis: Joel
+    texts:
+      - Joel
+      - Jl.
+      - Jl
+  - osis: Amos
+    texts:
+      - Amós
+      - Am.
+      - Am
+  - osis: Obad
+    texts:
+      - Abdías
+      - Abd.
+      - Abd
+  - osis: Jonah
+    texts:
+      - Jonás
+      - Jon.
+      - Jon
+  - osis: Mic
+    texts:
+      - Miqueas
+      - Miq.
+      - Miq
+  - osis: Nah
+    texts:
+      - Nahúm
+      - Na.
+      - Nah
+  - osis: Hab
+    texts:
+      - Habacuc
+      - Hab.
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sofonías
+      - Sof.
+      - Sof
+  - osis: Hag
+    texts:
+      - Hageo
+      - Hag.
+      - Hag
+  - osis: Zech
+    texts:
+      - Zacarías
+      - Zac.
+      - Zac
+  - osis: Mal
+    texts:
+      - Malaquías
+      - Mal.
+      - Mal
+  - osis: Matt
+    texts:
+      - San Mateo
+      - Mateo
+      - Mt
+  - osis: Mark
+    texts:
+      - San Marcos
+      - Marcos
+      - Mc
+      - Mr
+  - osis: Luke
+    texts:
+      - San Lucas
+      - Lucas
+      - Lc
+  - osis: John
+    texts:
+      - San Juan
+      - Juan
+      - Jn
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Juan
+      - Jn
+  - osis: Acts
+    texts:
+      - Hechos
+      - Hch
+  - osis: Rom
+    texts:
+      - Romanos
+      - Rom
+      - Ro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corintios
+      - Cor
+      - Co
+  - osis: Col
+    texts:
+      - Colosenses
+      - Col
+  - osis: Gal
+    texts:
+      - Gálatas
+      - Gal
+      - Gá
+      - Gl
+  - osis: Eph
+    texts:
+      - Efesios
+      - Ef
+  - osis: Phil
+    texts:
+      - Filipenses
+      - Fil
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonicenses
+      - Tes
+      - Te
+      - Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+      - Tim
+      - Ti
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemón
+      - Flm
+  - osis: Heb
+    texts:
+      - Hebreos
+      - Heb
+  - osis: Jas
+    texts:
+      - Santiago
+      - Snt
+      - Stg
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pedro
+      - Pe
+      - P
+  - osis: Jude
+    texts:
+      - Judas
+      - Jud
+  - osis: Tob
+    texts:
+      - Tobías
+      - Tobit
+      - Tob
+  - osis: Jdt
+    texts:
+      - Judit
+      - Jdt
+  - osis: Bar
+    texts:
+      - Baruc
+      - Bar
+  - osis: Sus
+    texts:
+      - Susana
+      - Sus
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+    texts:
+      - Macabeos
+      - Mac.
+      - Mac
+  - osis: DanGr
+    texts:
+      - Daniel Gr
+      - Da
+  - osis: Dan
+    texts:
+      - Daniel (hebreo)
+      - Daniel
+      - Dan.
+      - Dn
+  - osis: EsthGr
+    texts:
+      - Ester (Griego)
+      - Est (gr)
+      - Ester Gr
+      - EsG
+  - osis: Esth
+    texts:
+      - Ester (hebreo)
+      - Ester
+      - Est.
+      - Est
+translations:
+  - QU055PTI
+  - QU055PDTI
+  - QCHSB
+  - QUH

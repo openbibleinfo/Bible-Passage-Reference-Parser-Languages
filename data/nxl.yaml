@@ -1,0 +1,90 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis: Jonah
+    texts:
+      - Yunus
+      - Yun
+  - osis: Mark
+    texts:
+      - Markus
+      - Mrk
+  - osis: Luke
+    texts:
+      - Lukas
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Yoh
+  - osis: 2John
+    texts:
+      - 2Yoh
+  - osis: 3John
+    texts:
+      - 3 Yohanis
+      - 3Yoh
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yohanis
+  - osis: John
+    texts:
+      - Yohanis
+      - Yoh
+  - osis: Acts
+    texts:
+      - Atata
+      - Att
+  - osis: Phil
+    texts:
+      - Pilipi
+      - Plp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonika
+  - osis: 1Thess
+    texts:
+      - 1Tes
+  - osis: 2Thess
+    texts:
+      - 2Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotius
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Titus
+      - Tit
+  - osis: Phlm
+    texts:
+      - Pilemon
+      - Plm
+  - osis: Jas
+    texts:
+      - Yakobis
+      - Yak
+translations:
+  - NSP

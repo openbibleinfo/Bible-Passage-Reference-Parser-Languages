@@ -1,0 +1,146 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Genesis
+  - osis: Exod
+    texts:
+      - Exodus
+  - osis: Rev
+    texts:
+      - Revelation
+  - osis: Ruth
+    texts:
+      - Ruthaku
+  - osis: Isa
+    texts:
+      - Aitjayaku
+  - osis:
+      - osis: 1Sam
+        before: *first
+    texts:
+      - Samuelku
+  - osis: Neh
+    texts:
+      - Niyamayaku
+  - osis: Esth
+    texts:
+      - Esther-ku
+  - osis: Ps
+    texts:
+      - Psalm
+  - osis: Prov
+    texts:
+      - Proverbs
+  - osis: Ezek
+    texts:
+      - Itjikilku
+  - osis: Dan
+    texts:
+      - Danielku
+  - osis: Joel
+    texts:
+      - Tjawilku
+  - osis: Amos
+    texts:
+      - Aimatjaku
+  - osis: Jonah
+    texts:
+      - Jonah-ku
+  - osis: Mic
+    texts:
+      - Maikaku
+  - osis: Hag
+    texts:
+      - Akaiku
+  - osis: Mal
+    texts:
+      - Malakaiku
+  - osis: Matt
+    texts:
+      - Matthew-ku
+  - osis: Mark
+    texts:
+      - Markaku
+  - osis: Luke
+    texts:
+      - Luke-aku
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Johnku
+  - osis: Acts
+    texts:
+      - Acts
+  - osis: Rom
+    texts:
+      - Rome-aku
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kaṟintjaku
+  - osis: Col
+    texts:
+      - Kalatjiku
+  - osis: Gal
+    texts:
+      - Kalaitjiyaku
+  - osis: Eph
+    texts:
+      - Ipitjaku
+  - osis: Phil
+    texts:
+      - Pilipaiku
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tjitja-lanikaku
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timitjiku
+  - osis: Titus
+    texts:
+      - Tayitatjaku
+  - osis: Phlm
+    texts:
+      - Paalimanku
+  - osis: Heb
+    texts:
+      - Iipuṟuku
+  - osis: Jas
+    texts:
+      - Jamesaku
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peterku
+  - osis: Jude
+    texts:
+      - Jude-aku
+translations:
+  - PITJ

@@ -1,0 +1,112 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Matɔŋinɔkɔ mȧŋ
+      - Matɔ
+  - osis: Matt
+    texts:
+      - Mathiyu
+      - Math
+  - osis: Mark
+    texts:
+      - Maki
+  - osis: Luke
+    texts:
+      - Luku
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yɔni
+  - osis: Acts
+    texts:
+      - Baseriŋ Bithɔɔkɔ beŋ
+      - Bb
+  - osis: Rom
+    texts:
+      - BiRomaŋ beŋ
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - BiKɔrinthi beŋ
+      - Kɔr
+  - osis: Col
+    texts:
+      - BiKalasi beŋ
+      - Kls
+  - osis: Gal
+    texts:
+      - BiKaletiya beŋ
+      - Kal
+  - osis: Eph
+    texts:
+      - BiƐfɛsɔsi beŋ
+      - Ɛf
+  - osis: Phil
+    texts:
+      - BiFilipay beŋ
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - BiThɛsalonaika beŋ
+      - Thɛs
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - BiThɛsalonaika
+      - Thɛs
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothi
+      - Tim
+  - osis: Titus
+    texts:
+      - Taitɔsi
+      - Tai
+  - osis: Phlm
+    texts:
+      - Filimɔŋ
+      - Flm
+  - osis: Heb
+    texts:
+      - BiHiburu beŋ
+      - Hib
+  - osis: Jas
+    texts:
+      - Yemisi
+      - Yem
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+  - osis: Jude
+    texts:
+      - Yudi
+translations:
+  - LMBNT

@@ -1,0 +1,101 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Búhiisenumabu
+  - osis: Matt
+    texts:
+      - Máciya
+  - osis: Mark
+    texts:
+      - Maak
+  - osis: Luke
+    texts:
+      - Lík
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Saŋ
+  - osis: Acts
+    texts:
+      - Bakaanelabu
+  - osis: Rom
+    texts:
+      - Kata Lom
+      - Lomeŋ
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kata Koolent
+      - Koolentiyeŋ
+  - osis: Col
+    texts:
+      - Kata Kolos
+      - Kolosiyeŋ
+  - osis: Gal
+    texts:
+      - Kata Galasi
+      - Galasi
+  - osis: Eph
+    texts:
+      - Kata Efées
+      - Efées
+  - osis: Phil
+    texts:
+      - Kata Fílib
+      - Fílib
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Kata Tesalonik
+      - Tesalonik
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tímote
+      - Tím
+  - osis: Titus
+    texts:
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemoŋ
+  - osis: Heb
+    texts:
+      - Eébulo
+  - osis: Jas
+    texts:
+      - Saak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Fiyeel
+  - osis: Jude
+    texts:
+      - Súd
+translations:
+  - CSKDBL

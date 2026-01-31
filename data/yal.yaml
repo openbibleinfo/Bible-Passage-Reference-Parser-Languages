@@ -1,0 +1,204 @@
+books:
+  - osis: Gen
+    texts:
+      - Dunuɲa Fɔlɔna
+  - osis: Exod
+    texts:
+      - Xɔrɔyana
+  - osis: Lev
+    texts:
+      - Saraxaraline
+  - osis: Num
+    texts:
+      - Yatɛne
+  - osis: Lam
+    texts:
+      - Mawuga Xuine
+  - osis: Rev
+    texts:
+      - Lankɛnɛmayana
+  - osis: Deut
+    texts:
+      - Sariyane
+  - osis: Josh
+    texts:
+      - Yosuwe
+  - osis: Judg
+    texts:
+      - Kitisane
+  - osis: Ruth
+    texts:
+      - Ruti
+  - osis: Isa
+    texts:
+      - Esayi
+  - osis: 1Sam
+    texts:
+      - Samuyɛli Singena
+  - osis: 2Sam
+    texts:
+      - Samuyɛli Firindena
+  - osis: 1Kgs
+    texts:
+      - Mangane Singena
+  - osis: 2Kgs
+    texts:
+      - Mangane Firindena
+  - osis: 1Chr
+    texts:
+      - Taruxune Singena
+  - osis: 2Chr
+    texts:
+      - Taruxune Firindena
+  - osis: Ezra
+    texts:
+      - Esirasi
+  - osis: Neh
+    texts:
+      - Neyemi
+  - osis: Esth
+    texts:
+      - Esita
+  - osis: Job
+    texts:
+      - Yuba
+  - osis: Ps
+    texts:
+      - Yaburina
+  - osis: Prov
+    texts:
+      - Sandane
+  - osis: Eccl
+    texts:
+      - Karamɔxɔna
+  - osis: Song
+    texts:
+      - Marafanna Falane
+  - osis: Jer
+    texts:
+      - Yeremi
+  - osis: Ezek
+    texts:
+      - Esekiyɛli
+  - osis: Dan
+    texts:
+      - Daniyɛli
+  - osis: Hos
+    texts:
+      - Hose
+  - osis: Joel
+    texts:
+      - Yowɛli
+  - osis: Amos
+    texts:
+      - Amosi
+  - osis: Obad
+    texts:
+      - Abadi
+  - osis: Jonah
+    texts:
+      - Yunusa
+  - osis: Mic
+    texts:
+      - Mike
+  - osis: Nah
+    texts:
+      - Nahun
+  - osis: Hab
+    texts:
+      - Xabakuki
+  - osis: Zeph
+    texts:
+      - Sofoni
+  - osis: Hag
+    texts:
+      - Xage
+  - osis: Zech
+    texts:
+      - Sakari
+  - osis: Mal
+    texts:
+      - Malaki
+  - osis: Matt
+    texts:
+      - S. Matiu
+      - Matiyu
+      - Mat
+  - osis: Mark
+    texts:
+      - Maraka
+  - osis: Luke
+    texts:
+      - Luka
+  - osis: 1John
+    texts:
+      - Yoni Singena
+  - osis: 2John
+    texts:
+      - Yoni Firindena
+  - osis: 3John
+    texts:
+      - Yoni Saxandena
+  - osis: John
+    texts:
+      - Yoni
+  - osis: Acts
+    texts:
+      - Kɛwanle
+  - osis: Rom
+    texts:
+      - Romi Kaane
+  - osis: 1Cor
+    texts:
+      - Kɔrɛnti Singena
+  - osis: 2Cor
+    texts:
+      - Kɔrɛnti Firindena
+  - osis: Col
+    texts:
+      - Kɔlɔsi Kaane
+  - osis: Gal
+    texts:
+      - Galati Kaane
+  - osis: Eph
+    texts:
+      - Efɛsi Kaane
+  - osis: Phil
+    texts:
+      - Filipi Kaane
+  - osis: 1Thess
+    texts:
+      - Tesaloniki Singena
+  - osis: 2Thess
+    texts:
+      - Tesaloniki Firindena
+  - osis: 1Tim
+    texts:
+      - Timɔte Singena
+  - osis: 2Tim
+    texts:
+      - Timɔte Firindena
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filemɔn
+  - osis: Heb
+    texts:
+      - Heburune
+  - osis: Jas
+    texts:
+      - Yaki
+  - osis: 1Pet
+    texts:
+      - Piyɛri Singena
+  - osis: 2Pet
+    texts:
+      - Piyɛri Firindena
+  - osis: Jude
+    texts:
+      - Yudi
+translations:
+  - YALUNKA
+  - YAL

@@ -1,0 +1,223 @@
+default:
+  1Chr:
+    long: 1 Bi Te
+    short: 1 Bit
+  1Cor:
+    long: 1 Korindi
+    short: 1 Ko
+  1John:
+    long: 1 Yone
+    short: 1 Yo
+  1Kgs:
+    long: 1 Kini
+    short: 1 Kin
+  1Macc:
+    long: 1 Magabi
+    short: 1 Mgb
+  1Pet:
+    long: 1 Pida
+    short: 1 Pi
+  1Sam:
+    long: 1 Samuele
+    short: 1 Sml
+  1Thess:
+    long: 1 Tesalonaiga
+    short: 1 Te
+  1Tim:
+    long: 1 Timodi
+    short: 1 Ti
+  2Chr:
+    long: 2 Bi Te
+    short: 2 Bit
+  2Cor:
+    long: 2 Korindi
+    short: 2 Ko
+  2John:
+    long: 2 Yone
+    short: 2 Yo
+  2Kgs:
+    long: 2 Kini
+    short: 2 Kin
+  2Macc:
+    long: 2 Magabi
+    short: 2 Mgb
+  2Pet:
+    long: 2 Pida
+    short: 2 Pi
+  2Sam:
+    long: 2 Samuele
+    short: 2 Sml
+  2Thess:
+    long: 2 Tesalonaiga
+    short: 2 Te
+  2Tim:
+    long: 2 Timodi
+    short: 2 Ti
+  3John:
+    long: 3 Yone
+    short: 3 Yo
+  Acts:
+    long: Abosolo
+    short: Ab
+  Amos:
+    long: Amoso
+    short: Amo
+  Bar:
+    long: Barugu
+    short: Bar
+  Col:
+    long: Kolosi
+    short: Kl
+  Dan:
+    long: Daniele
+    short: Dan
+  Deut:
+    long: Mana Loyane
+    short: Man
+  Eccl:
+    long: Agali Mandabi Henegonaga Bi
+    short: Aga
+  Eph:
+    long: Ebesa
+    short: Eb
+  Esth:
+    long: Nehemaia
+    short: Esd
+  EsthGr:
+    long: Eseda Girigi
+    short: EsG
+  Exod:
+    long: Haru Penego
+    short: Har
+  Ezek:
+    long: Esegiele
+    short: Ese
+  Ezra:
+    long: Esera
+    short: Esr
+  Gal:
+    long: Galesia
+    short: Ga
+  Gen:
+    long: Pigane Binigo
+    short: Pig
+  Hab:
+    long: Habagugu
+    short: Hab
+  Hag:
+    long: Hagai
+    short: Hag
+  Heb:
+    long: Hiburu
+    short: Hi
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Aisaia
+    short: Ais
+  Jas:
+    long: Yamese
+    short: Ya
+  Jdt:
+    long: Yudidi
+    short: Yud
+  Jer:
+    long: Yaremaia
+    short: Yar
+  Job:
+    long: Yobo
+    short: Yob
+  Joel:
+    long: Yoele
+    short: Yol
+  John:
+    long: Yone
+    short: Yo
+  Jonah:
+    long: Yona
+    short: Yna
+  Josh:
+    long: Yosua
+    short: Yos
+  Jude:
+    long: Yudi
+    short: Yu
+  Judg:
+    long: Haguane Heneru
+    short: Hgn
+  Lam:
+    long: Dugu
+    short: Dug
+  Lev:
+    long: Loma Binigo
+    short: Lbm
+  Luke:
+    long: Lugu
+    short: Lg
+  Mal:
+    long: Malagai
+    short: Mal
+  Mark:
+    long: Maga
+    short: Mg
+  Matt:
+    long: Madiu
+    short: Md
+  Mic:
+    long: Maiga
+    short: Mai
+  Nah:
+    long: Nahumu
+    short: Nah
+  Neh:
+    long: Nehemaia
+    short: Neh
+  Num:
+    long: Dagalenego
+    short: Dag
+  Obad:
+    long: Obadaia
+    short: Oba
+  Phil:
+    long: Pilibai
+    short: Pb
+  Phlm:
+    long: Pilimono
+    short: Pm
+  Prov:
+    long: Mini Bayale Gigabi
+    short: Min
+  Ps:
+    long: Iba Gana
+    short: Iba
+  Rev:
+    long: Mo Walia
+    short: Mo
+  Rom:
+    long: Lomo
+    short: Lm
+  Ruth:
+    long: Ludi
+    short: Lud
+  Sir:
+    long: Siraga
+    short: Sir
+  Song:
+    long: Solomono
+    short: Sol
+  Titus:
+    long: Taidasa
+    short: Ta
+  Tob:
+    long: Tobidi
+    short: Tob
+  Wis:
+    long: Gigabi
+    short: Smg
+  Zech:
+    long: Segaraia
+    short: Seg
+  Zeph:
+    long: Sebanaia
+    short: Seb

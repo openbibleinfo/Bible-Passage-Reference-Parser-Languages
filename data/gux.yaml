@@ -1,0 +1,373 @@
+variables:
+  first: &first
+    - "1"
+    - Bi
+  second: &second
+    - "2"
+    - Bi
+books:
+  - osis: Gen
+    texts:
+      - Mi cilima
+      - Cil
+  - osis: Exod
+    texts:
+      - Mi Ñama
+      - Ñam
+  - osis: Lev
+    texts:
+      - Lefi Buolu Yaaba
+      - Levi
+      - Lef
+      - Lev
+  - osis: Num
+    texts:
+      - Mi Coadima
+      - Coa
+  - osis: Lam
+    texts:
+      - Jelemi Bubula
+      - Jeremi Bubula
+      - Jbu
+  - osis: Rev
+    texts:
+      - Mi Doagidima
+      - Doa
+  - osis: Deut
+    texts:
+      - Mi Tiadima
+      - Tia
+  - osis: Josh
+    texts:
+      - Josue
+      - Jos
+  - osis: Judg
+    texts:
+      - Bi Bujiaba
+      - Buj
+  - osis: Ruth
+    texts:
+      - Luta
+      - Ruti
+      - Lut
+      - Rut
+  - osis: Isa
+    texts:
+      - Esayi
+      - Esa
+  - osis: 1Sam
+    texts:
+      - Samueli Tikpiali
+      - 1Sam
+  - osis: 2Sam
+    texts:
+      - Samueli Tilieli
+      - 2Sam
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samueli
+  - osis: 1Kgs
+    texts:
+      - 1Bad
+  - osis: 2Kgs
+    texts:
+      - 2Bad
+  - osis:
+      - osis: 1Chr
+        before: *first
+    texts:
+      - Badiba Jama Tikpiali
+      - Bi Badiba Jama
+  - osis: 1Chr
+    texts:
+      - 1Baj
+  - osis:
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Badiba Jama Tilieli
+      - Bi Badiba Jama
+  - osis:
+      - osis: 1Kgs
+        before: *first
+    texts:
+      - Badiba Tikpiali
+      - Bi Badiba
+  - osis:
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Badiba Tilieli
+      - Bi Badiba
+  - osis: 2Chr
+    texts:
+      - 2Baj
+  - osis: Ezra
+    texts:
+      - Esidilasi
+      - Esidirasi
+      - Esd
+  - osis: Neh
+    texts:
+      - Nehemi
+      - Neh
+  - osis: Esth
+    texts:
+      - Esiteri
+      - Esita
+      - Est
+  - osis: Job
+    texts:
+      - Joba
+      - Jobi
+      - Job
+      - Jb
+  - osis: Ps
+    texts:
+      - Pisoma
+      - Pisomi
+      - Pis
+      - Ps
+  - osis: Prov
+    texts:
+      - Mi Kpanjama
+      - Kpan
+      - Kpa
+  - osis: Eccl
+    texts:
+      - O Yanfuodaano
+      - O Yanfodaano
+      - Yanf
+      - Yfd
+  - osis: Song
+    texts:
+      - I Yani
+      - Yani
+      - Yan
+  - osis: Jer
+    texts:
+      - Jelemi
+      - Jeremi
+      - Jel
+      - Jer
+  - osis: Ezek
+    texts:
+      - Esekieli
+      - Esk
+  - osis: Dan
+    texts:
+      - Danieli
+      - Dan
+  - osis: Hos
+    texts:
+      - Ose
+  - osis: Joel
+    texts:
+      - Joeli
+      - Jl
+  - osis: Amos
+    texts:
+      - Amosi
+      - Amo
+  - osis: Obad
+    texts:
+      - Abidiasi
+      - Abd
+  - osis: Jonah
+    texts:
+      - Jonasa
+      - Jonasi
+      - Jon
+  - osis: Mic
+    texts:
+      - Mise
+      - Mis
+  - osis: Nah
+    texts:
+      - Nahumi
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuki
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sofoni
+      - Sof
+  - osis: Hag
+    texts:
+      - Age
+      - Aje
+  - osis: Zech
+    texts:
+      - Sakali
+      - Sakari
+      - Sak
+  - osis: Mal
+    texts:
+      - Malaki
+      - Mal
+  - osis: Matt
+    texts:
+      - Matiyu
+      - Matie
+      - Mat
+  - osis: Mark
+    texts:
+      - Marki
+      - Maka
+      - Mak
+      - Mrk
+  - osis: Luke
+    texts:
+      - Luka
+      - Luki
+      - Luk
+  - osis: 1John
+    texts:
+      - Jan Tikpiali
+      - 1Jan
+  - osis: 2John
+    texts:
+      - Jan Tilieli
+      - 2Jan
+  - osis: 3John
+    texts:
+      - Jan Titaali
+      - 3 Jan
+      - 3Jan
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jan
+  - osis: Acts
+    texts:
+      - Jesu Tondiba Tuona
+      - Jtt
+  - osis: Rom
+    texts:
+      - Loma Yaaba
+      - Loma
+      - Lom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korenti
+  - osis: 1Cor
+    texts:
+      - Kolinta Yaaba Tikpiali
+      - 1Kol
+      - 1Kor
+  - osis: 2Cor
+    texts:
+      - Kolinta Yaaba Tilieli
+      - 2Kol
+      - 2Kor
+  - osis: Col
+    texts:
+      - Kolosa Yaaba
+      - Kolosi
+      - Kolo
+      - Kol
+  - osis: Gal
+    texts:
+      - Galati Yaaba
+      - Galati
+      - Gal
+  - osis: Eph
+    texts:
+      - Efesa Yaaba
+      - Efesa
+      - Efe
+  - osis: Phil
+    texts:
+      - Filipa Yaaba
+      - Filipi
+      - Filp
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaloniki
+  - osis: 1Thess
+    texts:
+      - Tesalonika Yaaba Tikpiali
+      - 1Tes
+  - osis: 2Thess
+    texts:
+      - Tesalonika Yaaba Tilieli
+      - 2Tes
+  - osis: 1Tim
+    texts:
+      - Timote Tikpiali
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - Timote Tilieli
+      - 2Tim
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+  - osis: Titus
+    texts:
+      - Tita
+      - Titi
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemon
+      - Filemo
+      - File
+      - Flm
+  - osis: Heb
+    texts:
+      - Hebilunba
+      - Ebilunba
+      - Ebl
+      - Heb
+  - osis: Jas
+    texts:
+      - Jaka
+      - Jaki
+      - Jak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pieri
+  - osis: 1Pet
+    texts:
+      - Pieli Tikpiali
+      - 1Pie
+  - osis: 2Pet
+    texts:
+      - Pieli Tilieli
+      - 2Pie
+  - osis: Jude
+    texts:
+      - Juda
+      - Jude
+      - Jud
+translations:
+  - GUX03
+  - BGP

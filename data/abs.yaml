@@ -1,0 +1,210 @@
+variables:
+  first: &first
+    - "1"
+    - Kapada
+    - Surat
+  second: &second
+    - "2"
+    - Kapada
+    - Surat
+books:
+  - osis: Rev
+    texts:
+      - Apokalipsis Joannes
+      - Kanjataän rahasija
+      - Yohanis Dapa Tanda
+      - Wahhju Jahhja
+      - Apokalipsis
+      - Ydt
+  - osis: Matt
+    texts:
+      - Indjil Mattheus
+      - Matius
+      - Matt
+      - Mat
+  - osis: Mark
+    texts:
+      - Indjil Markus
+      - Markus
+      - Mar
+  - osis: Luke
+    texts:
+      - Indjil Lukas
+      - Lukas
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Yoh
+  - osis: 2John
+    texts:
+      - 2Yoh
+  - osis: 3John
+    texts:
+      - Surat Joannes, jang katiga
+      - 3 Joannes
+      - 3 Yohanis
+      - 3Yoh
+  - osis: John
+    texts:
+      - Indjil Joannes
+      - Joannes
+      - Yohanis
+      - Yoh
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - Joannes, jang pertama
+      - Joannes
+      - Yohanis
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - Joannes, jang kaduwa
+      - Joannes
+      - Yohanis
+  - osis: Acts
+    texts:
+      - Perbowatan Rasul‐rasul
+      - Utusang pung Carita
+      - Perb
+      - Upc
+  - osis: Rom
+    texts:
+      - Kapada awrang Rawma
+      - Rawma
+      - Roma
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - awrang Korinthus, jang pertama
+      - Korintus
+      - Kor
+  - osis: 1Cor
+    texts:
+      - 1Kor
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - awrang Korinthus, jang kaduwa
+      - Korintus
+      - Kor
+  - osis: 2Cor
+    texts:
+      - 2Kor
+  - osis: Col
+    texts:
+      - Kapada awrang Kolossa
+      - Kolossa
+      - Kolose
+      - Kol
+  - osis: Gal
+    texts:
+      - Kapada awrang Galatia
+      - Galatia
+      - Gal
+  - osis: Eph
+    texts:
+      - Kapada awrang Efesus
+      - Efesus
+      - Efes
+      - Efs
+  - osis: Phil
+    texts:
+      - Kapada awrang Filippi
+      - Filippi
+      - Filipi
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - awrang Thessalonike, jang pertama
+      - Tesalonika
+      - Thess
+  - osis: 1Thess
+    texts:
+      - 1Tes
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - awrang Thessalonike, jang kaduwa
+      - Tesalonika
+      - Thess
+  - osis: 2Thess
+    texts:
+      - 2Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Timotheus, jang pertama
+      - Timotius
+      - Tim
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotheus, jang kaduwa
+      - Timotius
+      - Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Kapada Titus
+      - Titus
+      - Tit
+  - osis: Phlm
+    texts:
+      - Kapada Filémon
+      - Filemon
+      - Filémon
+      - Flm
+  - osis: Heb
+    texts:
+      - Kapada awrang Ibrani
+      - Ibrani
+      - Ibr
+  - osis: Jas
+    texts:
+      - Surat Jakobus
+      - Jakobus
+      - Yakobis
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - Petrus, jang pertama
+      - Petrus
+  - osis: 1Pet
+    texts:
+      - 1Ptr
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petrus, jang kaduwa
+      - Petrus
+  - osis: 2Pet
+    texts:
+      - 2Ptr
+  - osis: Jude
+    texts:
+      - Surat Judas
+      - Judas
+      - Yudas
+      - Yud
+translations:
+  - ABSABMA
+  - ABSNT

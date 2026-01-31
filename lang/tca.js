@@ -1,0 +1,572 @@
+var bcv_regexps = class {
+  constructor() {
+    this.books = [];
+    this.languages = ["tca"];
+    this.translations = [/TCA\b/gi];
+    this.first = /(?:1\.?\s*|Nüxíraxü̃xü̃\.?\s*|Nuxiraxuxu\.?\s*|Nüxíraxü̃xü\.?\s*|Nüxíraxü̃xũ\.?\s*|Nüxíraxü̃xu\.?\s*|Nüxíraxüxü̃\.?\s*|Nüxíraxüxü\.?\s*|Nüxíraxüxũ\.?\s*|Nüxíraxüxu\.?\s*|Nüxíraxũxü̃\.?\s*|Nüxíraxũxü\.?\s*|Nüxíraxũxũ\.?\s*|Nüxíraxũxu\.?\s*|Nüxíraxuxü̃\.?\s*|Nüxíraxuxü\.?\s*|Nüxíraxuxũ\.?\s*|Nüxíraxuxu\.?\s*|Nüxiraxü̃xü̃\.?\s*|Nüxiraxü̃xü\.?\s*|Nüxiraxü̃xũ\.?\s*|Nüxiraxü̃xu\.?\s*|Nüxiraxüxü̃\.?\s*|Nüxiraxüxü\.?\s*|Nüxiraxüxũ\.?\s*|Nüxiraxüxu\.?\s*|Nüxiraxũxü̃\.?\s*|Nüxiraxũxü\.?\s*|Nüxiraxũxũ\.?\s*|Nüxiraxũxu\.?\s*|Nüxiraxuxü̃\.?\s*|Nüxiraxuxü\.?\s*|Nüxiraxuxũ\.?\s*|Nüxiraxuxu\.?\s*|Nuxíraxü̃xü̃\.?\s*|Nuxíraxü̃xü\.?\s*|Nuxíraxü̃xũ\.?\s*|Nuxíraxü̃xu\.?\s*|Nuxíraxüxü̃\.?\s*|Nuxíraxüxü\.?\s*|Nuxíraxüxũ\.?\s*|Nuxíraxüxu\.?\s*|Nuxíraxũxü̃\.?\s*|Nuxíraxũxü\.?\s*|Nuxíraxũxũ\.?\s*|Nuxíraxũxu\.?\s*|Nuxíraxuxü̃\.?\s*|Nuxíraxuxü\.?\s*|Nuxíraxuxũ\.?\s*|Nuxíraxuxu\.?\s*|Nuxiraxü̃xü̃\.?\s*|Nuxiraxü̃xü\.?\s*|Nuxiraxü̃xũ\.?\s*|Nuxiraxü̃xu\.?\s*|Nuxiraxüxü̃\.?\s*|Nuxiraxüxü\.?\s*|Nuxiraxüxũ\.?\s*|Nuxiraxüxu\.?\s*|Nuxiraxũxü̃\.?\s*|Nuxiraxũxü\.?\s*|Nuxiraxũxũ\.?\s*|Nuxiraxũxu\.?\s*|Nuxiraxuxü̃\.?\s*|Nuxiraxuxü\.?\s*|Nuxiraxuxũ\.?\s*)/;
+    this.second = /(?:2\.?\s*|Norü\.?\s*|Noru\.?\s*)/;
+    this.third = /3\.?\s*/;
+    this.range_and = /(?:[&\u2013\u2014-]|\x26\.?\s*|(?:\x2d\.?\s*|–\.?\s*|—\.?\s*))/;
+    this.range_only = /(?:[\u2013\u2014-]|(?:\x2d\.?\s*|–\.?\s*|—\.?\s*))/;
+    this.match_end_split = /\d\W*(?:title)|\d\W*(?:ff)(?:[\s*]*\.)?|\d[\s*]*(?:(?:[a-e](?!\w)))|\x1e(?:[\s*]*[)\]\uff09])?|[\d\x1f]/gi;
+    this.control = /[\x1e\x1f]/g;
+    this.escaped_passage = /(?:^|[^\x1e\x1f\p{L}\p{N}])((?:(?:ch(?:apters?|a?pts?\.?|a?p?s?\.?)?\s*\d+\s*(?:[\u2013\u2014\-]|through|thru|to)\s*\d+\s*(?:from|of|in)(?:\s+the\s+book\s+of)?\s*)|(?:ch(?:apters?|a?pts?\.?|a?p?s?\.?)?\s*\d+\s*(?:from|of|in)(?:\s+the\s+book\s+of)?\s*)|(?:\d+(?:th|nd|st)\s*ch(?:apter|a?pt\.?|a?p?\.?)?\s*(?:from|of|in)(?:\s+the\s+book\s+of)?\s*))?\x1f(\d+)(?:\/\d+)?\x1f(?:\/\d+\x1f|[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—]|title\.?\s*(?![a-z])|(?:(?:chapter\.?\s*)|(?:verse\.?\s*)|(?:ff\.?\s*)|(?:&\.?\s*)|(?:[\-–—]\.?\s*))|(?:[a-e]\.?\s*(?!\w))(?!\w)|$)+)/giu;
+    this.pre_book = /(?:^|(?<=[^\p{L}]))/gu;
+    this.pre_number_book = /(?:^|(?<=[^\p{L}\p{N}])(?<!\d:(?=\d)))/gu;
+    this.post_book = /(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/gu;
+    this.all_books = [
+          {
+            osis: ["Ps"],
+            testament: "a",
+            extra: "2",
+            regexp: /\b(Ps151)(?=\.1\b)/g
+          },
+          {
+            osis: ["Gen"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Naanear[uü]\s*[uü]g[uü]chiga|Gn\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Exod"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:[IÍ]nachox[uü](?:̃x[uü]̃?chiga|x[uü]̃?chiga)|[EÉ]x\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Lev"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}]))(L(?:eb[ií]tan[uü]x[uü](?:̃ar[uü]\s*purac[uü]chiga|ar[uü]\s*purac[uü]chiga)|v\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Num"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Ira[eé]tan[uü]x[uü](?:̃ar[uü]\s*muxchiga|ar[uü]\s*muxchiga)|Nm\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Lam"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Auxex[uü]̃?chiga|Lm\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Rev"],
+            testament: "n",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Yema\s*Cu(?:áü̃\s*nüxü̃\s*dauxü̃\s*i\s*yixcüra\s*tá\s*ngupetüxü̃|au\s*nuxu\s*dauxu\s*i\s*yixcura\s*ta\s*ngupetuxu)chiga|Ap\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Deut"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Wenaxar[uü]\s*nax[uü]mat[uü]\s*ga\s*Tupanaar[uü]\s*mug[uü]|Dt\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Josh"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Yochu[eé]|Jos\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Judg"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Ãẽ̱xgacügü\s*ga\s*guxchaxü̃güarü\s*mexẽxẽruü̃gü|Aexgacugu\s*ga\s*guxchaxuguaru\s*mexexeruugu|Jue\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Ruth"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}]))(R(?:t\.|ux))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Isa"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}]))(I(?:cha[ií]a|s\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["1Sam"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}\p{N}])(?<!\d:(?=\d)))((?:N[uü]x[ií]rax[uü](?:̃x[uü](?:̃(?:\.\s*(?:Chamu[eé]|S\.)|\s*(?:Chamu[eé]|S\.))|\.\s*(?:Chamu[eé]|S\.)|\s*(?:Chamu[eé]|S\.))|x[uü](?:̃(?:\.\s*(?:Chamu[eé]|S\.)|\s*(?:Chamu[eé]|S\.))|\.\s*(?:Chamu[eé]|S\.)|\s*(?:Chamu[eé]|S\.)))|1(?:\.\s*(?:Chamu[eé]|S\.)|\s*(?:Chamu[eé]|S\.))))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["2Sam"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}\p{N}])(?<!\d:(?=\d)))((?:Nor[uü](?:\.\s*(?:Chamu[eé]|S\.)|\s*(?:Chamu[eé]|S\.))|2(?:\.\s*(?:Chamu[eé]|S\.)|\s*(?:Chamu[eé]|S\.))))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["2Kgs"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}\p{N}])(?<!\d:(?=\d)))((?:Nor[uü](?:\.\s*(?:taxre\s*ga\s*popera\s*ga\s*[aã][eẽ](?:̱xgac[uü]g[uü]chiga|xgac[uü]g[uü]chiga)|R\.)|\s*(?:taxre\s*ga\s*popera\s*ga\s*[aã][eẽ](?:̱xgac[uü]g[uü]chiga|xgac[uü]g[uü]chiga)|R\.))|2(?:\.\s*(?:taxre\s*ga\s*popera\s*ga\s*[aã][eẽ](?:̱xgac[uü]g[uü]chiga|xgac[uü]g[uü]chiga)|R\.)|\s*(?:taxre\s*ga\s*popera\s*ga\s*[aã][eẽ](?:̱xgac[uü]g[uü]chiga|xgac[uü]g[uü]chiga)|R\.))))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["2Chr"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}\p{N}])(?<!\d:(?=\d)))((?:Nor(?:ü(?:\.\s*(?:taxre\s*ga\s*to\s*ga\s*popera\s*ga\s*ãẽ̱xgacügüchiga\s*ümatüxü̃|Cr\.)|\s*(?:taxre\s*ga\s*to\s*ga\s*popera\s*ga\s*ãẽ̱xgacügüchiga\s*ümatüxü̃|Cr\.))|u\.?\s*taxre\s*ga\s*to\s*ga\s*popera\s*ga\s*aexgacuguchiga\s*umatuxu|u\.?\s*Cr\.)|2\.?\s*taxre\s*ga\s*to\s*ga\s*popera\s*ga\s*ãẽ̱xgacügüchiga\s*ümatüxü̃|2\.?\s*taxre\s*ga\s*to\s*ga\s*popera\s*ga\s*aexgacuguchiga\s*umatuxu|2\.?\s*Cr\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["1Chr"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}\p{N}])(?<!\d:(?=\d)))((?:N(?:üx(?:írax(?:ü(?:̃x(?:ü(?:̃(?:\.\s*(?:ga\s*to\s*ga\s*popera\s*ga\s*ãẽ̱xgacügüchiga\s*ümatüxü̃|Cr\.)|\s*(?:ga\s*to\s*ga\s*popera\s*ga\s*ãẽ̱xgacügüchiga\s*ümatüxü̃|Cr\.))|\.?\s*Cr\.)|(?:ũ?\.\s*|ũ?\s*)Cr\.)|(?:x[uü]̃?\.\s*|x[uü]̃?\s*)Cr\.)|(?:ũ?x[uü]̃?\.\s*|ũ?x[uü]̃?\s*)Cr\.)|(?:irax[uü]̃?x[uü]̃?\.\s*|irax[uü]̃?x[uü]̃?\s*)Cr\.)|uxiraxuxu\.?\s*ga\s*to\s*ga\s*popera\s*ga\s*aexgacuguchiga\s*umatuxu|(?:(?:(?:(?:uxiraxũx|ux(?:iraxü|írax[uü])̃?x)[uü]|uxiraxuxü)̃?\.|uxiraxuxũ\.)\s*C|(?:(?:(?:uxiraxũx|ux(?:iraxü|írax[uü])̃?x)[uü]|uxiraxuxü)̃?\s*|uxiraxuxũ\s*)C|uxiraxuxu\.?\s*C)r\.)|1\.?\s*ga\s*to\s*ga\s*popera\s*ga\s*ãẽ̱xgacügüchiga\s*ümatüxü̃|1\.?\s*ga\s*to\s*ga\s*popera\s*ga\s*aexgacuguchiga\s*umatuxu|1\.?\s*Cr\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["1Kgs"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}\p{N}])(?<!\d:(?=\d)))((?:N(?:üx(?:írax(?:ü(?:̃x(?:ü(?:̃(?:\.\s*(?:ga\s*popera\s*ga\s*ãẽ̱xgacügüchiga|R\.)|\s*(?:ga\s*popera\s*ga\s*ãẽ̱xgacügüchiga|R\.))|\.?\s*R\.)|(?:ũ?\.\s*|ũ?\s*)R\.)|(?:x[uü]̃?\.\s*|x[uü]̃?\s*)R\.)|(?:ũ?x[uü]̃?\.\s*|ũ?x[uü]̃?\s*)R\.)|(?:irax[uü]̃?x[uü]̃?\.\s*|irax[uü]̃?x[uü]̃?\s*)R\.)|uxiraxuxu\.?\s*ga\s*popera\s*ga\s*aexgacuguchiga|(?:(?:(?:(?:uxiraxũx|ux(?:iraxü|írax[uü])̃?x)[uü]|uxiraxuxü)̃?\.|uxiraxuxũ\.)\s*R|(?:(?:(?:uxiraxũx|ux(?:iraxü|írax[uü])̃?x)[uü]|uxiraxuxü)̃?\s*|uxiraxuxũ\s*)R|uxiraxuxu\.?\s*R)\.)|1(?:\.\s*ga\s*popera\s*ga\s*[aã][eẽ](?:̱xgac[uü]g[uü]|xgac[uü]g[uü])|\s*ga\s*popera\s*ga\s*[aã][eẽ](?:̱xgac[uü]g[uü]|xgac[uü]g[uü]))chiga|1\.?\s*R\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Ezra"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:E(?:sd\.|dra)|Édra))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Neh"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}]))(Ne(?:em[ií]a|h\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Esth"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Est\.|It[eé]))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Job"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Job|Yox))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Ps"],
+            testament: "oa",
+            testament_books: { Ps: "oa" },
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Wiyaeg[uü]|Sal\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Prov"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Ucu(?:̱x[eẽ]g[uü]chiga|x[eẽ]g[uü]chiga)|Pr\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Eccl"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Ngu(?:̱x[eẽ][eẽ]taeru[uü](?:̃ar[uü]\s*ore|ar[uü]\s*ore)|x[eẽ][eẽ]taeru[uü](?:̃ar[uü]\s*ore|ar[uü]\s*ore))|Ec\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Song"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}]))(C(?:harum[oó][uü](?:̃ar[uü]\s*wiyae|ar[uü]\s*wiyae)|nt\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Jer"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Yerem[ií]a|Jr\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Ezek"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}]))(E(?:chequi[eé]|z\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Dan"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}]))(D(?:ani[eé]|n\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Hos"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}]))(O(?:ch[eé]a|s\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Joel"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Jl\.|Yo[eé]))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Amos"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}]))(Am(?:[uú]x|\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Obad"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}]))(Abd(?:[ií]a|\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Jonah"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Jon\.|Yon[aá]))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Mic"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}]))(Mi(?:qu[eé]a|\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Nah"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}]))(Na(?:[uú][uü]̃?|h\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Hab"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Abac[uú]|Hab\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Zeph"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Chofon[ií]a|Sof\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Hag"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Agu[eé]u|Hag\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Zech"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Chacar[ií]a|Zac\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Mal"],
+            testament: "o",
+            regexp: /(?:^|(?<=[^\p{L}]))(Ma(?:raqu[ií]a|l\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Matt"],
+            testament: "n",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Ore\s*i\s*mex[uü](?:̃\s*ga\s*Mat[eé]u\s*[uü]mat[uü]x[uü]̃?|\s*ga\s*Mat[eé]u\s*[uü]mat[uü]x[uü]̃?)|Mt\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Mark"],
+            testament: "n",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Ore\s*i\s*mex[uü](?:̃\s*ga\s*M[aá]rcu\s*[uü]mat[uü]x[uü]̃?|\s*ga\s*M[aá]rcu\s*[uü]mat[uü]x[uü]̃?)|Mr\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Luke"],
+            testament: "n",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Ore\s*i\s*mex[uü](?:̃\s*ga\s*Luca\s*[uü]mat[uü]x[uü]̃?|\s*ga\s*Luca\s*[uü]mat[uü]x[uü]̃?)|Lc\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["3John"],
+            testament: "n",
+            regexp: /(?:^|(?<=[^\p{L}\p{N}])(?<!\d:(?=\d)))((?:Nor(?:ü\s*tomaepü̱x\s*ga\s*popera\s*ga\s*Cuáü̃\s*ümatüxü̃|u\s*tomaepux\s*ga\s*popera\s*ga\s*Cuau\s*umatuxu)|3\s*Jn\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["2John"],
+            testament: "n",
+            regexp: /(?:^|(?<=[^\p{L}\p{N}])(?<!\d:(?=\d)))((?:Nor[uü](?:\.\s*(?:taxre\s*ga\s*popera\s*ga\s*Cu[aá][uü](?:̃\s*[uü]mat[uü]x[uü]̃?|\s*[uü]mat[uü]x[uü]̃?)|Jn\.)|\s*(?:taxre\s*ga\s*popera\s*ga\s*Cu[aá][uü](?:̃\s*[uü]mat[uü]x[uü]̃?|\s*[uü]mat[uü]x[uü]̃?)|Jn\.))|2(?:\.\s*(?:taxre\s*ga\s*popera\s*ga\s*Cu[aá][uü](?:̃\s*[uü]mat[uü]x[uü]̃?|\s*[uü]mat[uü]x[uü]̃?)|Jn\.)|\s*(?:taxre\s*ga\s*popera\s*ga\s*Cu[aá][uü](?:̃\s*[uü]mat[uü]x[uü]̃?|\s*[uü]mat[uü]x[uü]̃?)|Jn\.))))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["1John"],
+            testament: "n",
+            regexp: /(?:^|(?<=[^\p{L}\p{N}])(?<!\d:(?=\d)))((?:N(?:üx(?:írax(?:ü(?:̃x(?:ü(?:̃(?:\.\s*(?:ga\s*popera\s*ga\s*Cuáü̃\s*ümatüxü̃|Jn\.)|\s*(?:ga\s*popera\s*ga\s*Cuáü̃\s*ümatüxü̃|Jn\.))|\.?\s*Jn\.)|(?:ũ?\.\s*|ũ?\s*)Jn\.)|(?:x[uü]̃?\.\s*|x[uü]̃?\s*)Jn\.)|(?:ũ?x[uü]̃?\.\s*|ũ?x[uü]̃?\s*)Jn\.)|(?:irax[uü]̃?x[uü]̃?\.\s*|irax[uü]̃?x[uü]̃?\s*)Jn\.)|uxiraxuxu\.?\s*ga\s*popera\s*ga\s*Cuau\s*umatuxu|(?:(?:(?:(?:uxiraxũx|ux(?:iraxü|írax[uü])̃?x)[uü]|uxiraxuxü)̃?\.|uxiraxuxũ\.)\s*J|(?:(?:(?:uxiraxũx|ux(?:iraxü|írax[uü])̃?x)[uü]|uxiraxuxü)̃?\s*|uxiraxuxũ\s*)J|uxiraxuxu\.?\s*J)n\.)|1(?:\.\s*ga\s*popera\s*ga\s*Cu[aá][uü](?:̃\s*[uü]mat[uü]x[uü]̃|\s*[uü]mat[uü]x[uü]̃)|\s*ga\s*popera\s*ga\s*Cu[aá][uü](?:̃\s*[uü]mat[uü]x[uü]̃|\s*[uü]mat[uü]x[uü]̃))|1(?:\.\s*ga\s*popera\s*ga\s*Cu[aá][uü](?:̃\s*[uü]mat[uü]x[uü]|\s*[uü]mat[uü]x[uü])|\s*ga\s*popera\s*ga\s*Cu[aá][uü](?:̃\s*[uü]mat[uü]x[uü]|\s*[uü]mat[uü]x[uü]))|1\.?\s*Jn\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["John"],
+            testament: "n",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Ore\s*i\s*mex(?:ü̃\s*ga\s*Cuáü̃\s*ümatüxü̃|u\s*ga\s*Cuau\s*umatuxu)|Jn\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Acts"],
+            testament: "n",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Ngechuchuar(?:ü\s*ngúexü̃gü\s*ga\s*yamugüxü̃arü\s*puracü|u\s*nguexugu\s*ga\s*yamuguxuaru\s*puracu)chiga|Hch\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Rom"],
+            testament: "n",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Popera\s*ga\s*R(?:ómawa\s*yexmagüxü̃\s*ga\s*yaxõgüxü̃tanüwa\s*namuxü̃|omawa\s*yexmaguxu\s*ga\s*yaxoguxutanuwa\s*namuxu)\s*ga\s*Pauru|Ro\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["2Cor"],
+            testament: "n",
+            regexp: /(?:^|(?<=[^\p{L}\p{N}])(?<!\d:(?=\d)))((?:Nor(?:ü(?:\.\s*(?:taxre\s*ga\s*popera\s*ga\s*Coríntiuwa\s*yexmagüxü̃\s*ga\s*yaxõgüxü̃tanüwa\s*namuxü̃\s*ga\s*Pauru|Co\.)|\s*(?:taxre\s*ga\s*popera\s*ga\s*Coríntiuwa\s*yexmagüxü̃\s*ga\s*yaxõgüxü̃tanüwa\s*namuxü̃\s*ga\s*Pauru|Co\.))|u\.?\s*taxre\s*ga\s*popera\s*ga\s*Corintiuwa\s*yexmaguxu\s*ga\s*yaxoguxutanuwa\s*namuxu\s*ga\s*Pauru|u\.?\s*Co\.)|2\.?\s*taxre\s*ga\s*popera\s*ga\s*Coríntiuwa\s*yexmagüxü̃\s*ga\s*yaxõgüxü̃tanüwa\s*namuxü̃\s*ga\s*Pauru|2\.?\s*taxre\s*ga\s*popera\s*ga\s*Corintiuwa\s*yexmaguxu\s*ga\s*yaxoguxutanuwa\s*namuxu\s*ga\s*Pauru|2\.?\s*Co\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["1Cor"],
+            testament: "n",
+            regexp: /(?:^|(?<=[^\p{L}\p{N}])(?<!\d:(?=\d)))((?:N(?:üx(?:írax(?:ü(?:̃x(?:ü(?:̃(?:\.\s*(?:ga\s*popera\s*ga\s*Coríntiuwa\s*yexmagüxü̃\s*ga\s*yaxõgüxü̃tanüwa\s*namuxü̃\s*ga\s*Pauru|Co\.)|\s*(?:ga\s*popera\s*ga\s*Coríntiuwa\s*yexmagüxü̃\s*ga\s*yaxõgüxü̃tanüwa\s*namuxü̃\s*ga\s*Pauru|Co\.))|\.?\s*Co\.)|(?:ũ?\.\s*|ũ?\s*)Co\.)|(?:x[uü]̃?\.\s*|x[uü]̃?\s*)Co\.)|(?:ũ?x[uü]̃?\.\s*|ũ?x[uü]̃?\s*)Co\.)|(?:irax[uü]̃?x[uü]̃?\.\s*|irax[uü]̃?x[uü]̃?\s*)Co\.)|uxiraxuxu\.?\s*ga\s*popera\s*ga\s*Corintiuwa\s*yexmaguxu\s*ga\s*yaxoguxutanuwa\s*namuxu\s*ga\s*Pauru|(?:(?:(?:(?:uxiraxũx|ux(?:iraxü|írax[uü])̃?x)[uü]|uxiraxuxü)̃?\.|uxiraxuxũ\.)\s*C|(?:(?:(?:uxiraxũx|ux(?:iraxü|írax[uü])̃?x)[uü]|uxiraxuxü)̃?\s*|uxiraxuxũ\s*)C|uxiraxuxu\.?\s*C)o\.)|1\.?\s*ga\s*popera\s*ga\s*Coríntiuwa\s*yexmagüxü̃\s*ga\s*yaxõgüxü̃tanüwa\s*namuxü̃\s*ga\s*Pauru|1\.?\s*ga\s*popera\s*ga\s*Corintiuwa\s*yexmaguxu\s*ga\s*yaxoguxutanuwa\s*namuxu\s*ga\s*Pauru|1\.?\s*Co\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Col"],
+            testament: "n",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Popera\s*ga\s*Cor(?:óchawa\s*yexmagüxü̃\s*ga\s*yaxõgüxü̃tanüwa\s*namuxü̃|ochawa\s*yexmaguxu\s*ga\s*yaxoguxutanuwa\s*namuxu)\s*ga\s*Pauru|Col\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Gal"],
+            testament: "n",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Popera\s*ga\s*G(?:árataanewa\s*yexmagüxü̃\s*ga\s*yaxõgüxü̃tanüwa\s*namuxü̃|arataanewa\s*yexmaguxu\s*ga\s*yaxoguxutanuwa\s*namuxu)\s*ga\s*Pauru|G[aá]\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Eph"],
+            testament: "n",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Popera\s*ga\s*Ep(?:échiuwa\s*yexmagüxü̃\s*ga\s*yaxõgüxü̃tanüwa\s*namuxü̃|echiuwa\s*yexmaguxu\s*ga\s*yaxoguxutanuwa\s*namuxu)\s*ga\s*Pauru|Ef\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Phil"],
+            testament: "n",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Popera\s*ga\s*Pir(?:ípuwa\s*yexmagüxü̃\s*ga\s*yaxõgüxü̃tanüwa\s*namuxü̃|ipuwa\s*yexmaguxu\s*ga\s*yaxoguxutanuwa\s*namuxu)\s*ga\s*Pauru|Fil\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["2Thess"],
+            testament: "n",
+            regexp: /(?:^|(?<=[^\p{L}\p{N}])(?<!\d:(?=\d)))((?:Nor(?:ü(?:\.\s*(?:taxre\s*ga\s*popera\s*ga\s*Techarónicawa\s*yexmagüxü̃\s*ga\s*yaxõgüxü̃tanüwa\s*namuxü̃\s*ga\s*Pauru|Ts\.)|\s*(?:taxre\s*ga\s*popera\s*ga\s*Techarónicawa\s*yexmagüxü̃\s*ga\s*yaxõgüxü̃tanüwa\s*namuxü̃\s*ga\s*Pauru|Ts\.))|u\.?\s*taxre\s*ga\s*popera\s*ga\s*Techaronicawa\s*yexmaguxu\s*ga\s*yaxoguxutanuwa\s*namuxu\s*ga\s*Pauru|u\.?\s*Ts\.)|2\.?\s*taxre\s*ga\s*popera\s*ga\s*Techarónicawa\s*yexmagüxü̃\s*ga\s*yaxõgüxü̃tanüwa\s*namuxü̃\s*ga\s*Pauru|2\.?\s*taxre\s*ga\s*popera\s*ga\s*Techaronicawa\s*yexmaguxu\s*ga\s*yaxoguxutanuwa\s*namuxu\s*ga\s*Pauru|2\.?\s*Ts\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["1Thess"],
+            testament: "n",
+            regexp: /(?:^|(?<=[^\p{L}\p{N}])(?<!\d:(?=\d)))((?:N(?:üx(?:írax(?:ü(?:̃x(?:ü(?:̃(?:\.\s*(?:ga\s*popera\s*ga\s*Techarónicawa\s*yexmagüxü̃\s*ga\s*yaxõgüxü̃tanüwa\s*namuxü̃\s*ga\s*Pauru|Ts\.)|\s*(?:ga\s*popera\s*ga\s*Techarónicawa\s*yexmagüxü̃\s*ga\s*yaxõgüxü̃tanüwa\s*namuxü̃\s*ga\s*Pauru|Ts\.))|\.?\s*Ts\.)|(?:ũ?\.\s*|ũ?\s*)Ts\.)|(?:x[uü]̃?\.\s*|x[uü]̃?\s*)Ts\.)|(?:ũ?x[uü]̃?\.\s*|ũ?x[uü]̃?\s*)Ts\.)|(?:irax[uü]̃?x[uü]̃?\.\s*|irax[uü]̃?x[uü]̃?\s*)Ts\.)|uxiraxuxu\.?\s*ga\s*popera\s*ga\s*Techaronicawa\s*yexmaguxu\s*ga\s*yaxoguxutanuwa\s*namuxu\s*ga\s*Pauru|(?:(?:(?:(?:uxiraxũx|ux(?:iraxü|írax[uü])̃?x)[uü]|uxiraxuxü)̃?\.|uxiraxuxũ\.)\s*T|(?:(?:(?:uxiraxũx|ux(?:iraxü|írax[uü])̃?x)[uü]|uxiraxuxü)̃?\s*|uxiraxuxũ\s*)T|uxiraxuxu\.?\s*T)s\.)|1\.?\s*ga\s*popera\s*ga\s*Techarónicawa\s*yexmagüxü̃\s*ga\s*yaxõgüxü̃tanüwa\s*namuxü̃\s*ga\s*Pauru|1\.?\s*ga\s*popera\s*ga\s*Techaronicawa\s*yexmaguxu\s*ga\s*yaxoguxutanuwa\s*namuxu\s*ga\s*Pauru|1\.?\s*Ts\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["2Tim"],
+            testament: "n",
+            regexp: /(?:^|(?<=[^\p{L}\p{N}])(?<!\d:(?=\d)))((?:Nor[uü](?:\.\s*(?:taxre\s*ga\s*popera\s*ga\s*Timut[eé]uca(?:̱x\s*nax[uü]mat[uü]x[uü]̃?\s*ga\s*Pauru|x\s*nax[uü]mat[uü]x[uü]̃?\s*ga\s*Pauru)|Ti\.)|\s*(?:taxre\s*ga\s*popera\s*ga\s*Timut[eé]uca(?:̱x\s*nax[uü]mat[uü]x[uü]̃?\s*ga\s*Pauru|x\s*nax[uü]mat[uü]x[uü]̃?\s*ga\s*Pauru)|Ti\.))|2(?:\.\s*(?:taxre\s*ga\s*popera\s*ga\s*Timut[eé]uca(?:̱x\s*nax[uü]mat[uü]x[uü]̃?\s*ga\s*Pauru|x\s*nax[uü]mat[uü]x[uü]̃?\s*ga\s*Pauru)|Ti\.)|\s*(?:taxre\s*ga\s*popera\s*ga\s*Timut[eé]uca(?:̱x\s*nax[uü]mat[uü]x[uü]̃?\s*ga\s*Pauru|x\s*nax[uü]mat[uü]x[uü]̃?\s*ga\s*Pauru)|Ti\.))))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["1Tim"],
+            testament: "n",
+            regexp: /(?:^|(?<=[^\p{L}\p{N}])(?<!\d:(?=\d)))((?:N(?:üx(?:írax(?:ü(?:̃x(?:ü(?:̃(?:\.\s*(?:ga\s*popera\s*ga\s*Timutéuca̱x\s*naxümatüxü̃\s*ga\s*Pauru|Ti\.)|\s*(?:ga\s*popera\s*ga\s*Timutéuca̱x\s*naxümatüxü̃\s*ga\s*Pauru|Ti\.))|\.?\s*Ti\.)|(?:ũ?\.\s*|ũ?\s*)Ti\.)|(?:x[uü]̃?\.\s*|x[uü]̃?\s*)Ti\.)|(?:ũ?x[uü]̃?\.\s*|ũ?x[uü]̃?\s*)Ti\.)|(?:irax[uü]̃?x[uü]̃?\.\s*|irax[uü]̃?x[uü]̃?\s*)Ti\.)|uxiraxuxu\.?\s*ga\s*popera\s*ga\s*Timuteucax\s*naxumatuxu\s*ga\s*Pauru|(?:(?:(?:(?:uxiraxũx|ux(?:iraxü|írax[uü])̃?x)[uü]|uxiraxuxü)̃?\.|uxiraxuxũ\.)\s*T|(?:(?:(?:uxiraxũx|ux(?:iraxü|írax[uü])̃?x)[uü]|uxiraxuxü)̃?\s*|uxiraxuxũ\s*)T|uxiraxuxu\.?\s*T)i\.)|1(?:\.\s*ga\s*popera\s*ga\s*Timut[eé]uca(?:̱x\s*nax[uü]mat[uü]x[uü]̃|x\s*nax[uü]mat[uü]x[uü]̃)|\s*ga\s*popera\s*ga\s*Timut[eé]uca(?:̱x\s*nax[uü]mat[uü]x[uü]̃|x\s*nax[uü]mat[uü]x[uü]̃))\s*ga\s*Pauru|1(?:\.\s*ga\s*popera\s*ga\s*Timut[eé]uca(?:̱x\s*nax[uü]mat[uü]x[uü]\s*|x\s*nax[uü]mat[uü]x[uü]\s*)|\s*ga\s*popera\s*ga\s*Timut[eé]uca(?:̱x\s*nax[uü]mat[uü]x[uü]\s*|x\s*nax[uü]mat[uü]x[uü]\s*))ga\s*Pauru|1\.?\s*Ti\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Titus"],
+            testament: "n",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Popera\s*ga\s*T[ií]toca(?:̱x\s*nax[uü]mat[uü]x[uü]̃?\s*ga\s*Pauru|x\s*nax[uü]mat[uü]x[uü]̃?\s*ga\s*Pauru)|Tit\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Phlm"],
+            testament: "n",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Popera\s*ga\s*Filem[uú][uü](?:̃ca(?:̱x\s*nax[uü]mat[uü]x[uü]̃?\s*ga\s*Pauru|x\s*nax[uü]mat[uü]x[uü]̃?\s*ga\s*Pauru)|ca(?:̱x\s*nax[uü]mat[uü]x[uü]̃?\s*ga\s*Pauru|x\s*nax[uü]mat[uü]x[uü]̃?\s*ga\s*Pauru))|Flm\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Heb"],
+            testament: "n",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Popera\s*ga\s*Yud(?:íugü\s*ga\s*yaxõgüxü̃ca̱x\s*ümatüxü̃|iugu\s*ga\s*yaxoguxucax\s*umatuxu)|He\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Jas"],
+            testament: "n",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Popera\s*ga\s*Chanti[aá]gu\s*[uü]mat[uü]x[uü]̃?|Stg\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["2Pet"],
+            testament: "n",
+            regexp: /(?:^|(?<=[^\p{L}\p{N}])(?<!\d:(?=\d)))((?:Nor[uü](?:\.\s*(?:taxre\s*ga\s*popera\s*ga\s*Pedru\s*[uü]mat[uü]x[uü]̃?|Pe\.)|\s*(?:taxre\s*ga\s*popera\s*ga\s*Pedru\s*[uü]mat[uü]x[uü]̃?|Pe\.))|2(?:\.\s*(?:taxre\s*ga\s*popera\s*ga\s*Pedru\s*[uü]mat[uü]x[uü]̃?|Pe\.)|\s*(?:taxre\s*ga\s*popera\s*ga\s*Pedru\s*[uü]mat[uü]x[uü]̃?|Pe\.))))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["1Pet"],
+            testament: "n",
+            regexp: /(?:^|(?<=[^\p{L}\p{N}])(?<!\d:(?=\d)))((?:N(?:üx(?:írax(?:ü(?:̃x(?:ü(?:̃(?:\.\s*(?:ga\s*popera\s*ga\s*Pedru\s*ümatüxü̃|Pe\.)|\s*(?:ga\s*popera\s*ga\s*Pedru\s*ümatüxü̃|Pe\.))|\.?\s*Pe\.)|(?:ũ?\.\s*|ũ?\s*)Pe\.)|(?:x[uü]̃?\.\s*|x[uü]̃?\s*)Pe\.)|(?:ũ?x[uü]̃?\.\s*|ũ?x[uü]̃?\s*)Pe\.)|(?:irax[uü]̃?x[uü]̃?\.\s*|irax[uü]̃?x[uü]̃?\s*)Pe\.)|uxiraxuxu\.?\s*ga\s*popera\s*ga\s*Pedru\s*umatuxu|(?:(?:(?:(?:uxiraxũx|ux(?:iraxü|írax[uü])̃?x)[uü]|uxiraxuxü)̃?\.|uxiraxuxũ\.)\s*P|(?:(?:(?:uxiraxũx|ux(?:iraxü|írax[uü])̃?x)[uü]|uxiraxuxü)̃?\s*|uxiraxuxũ\s*)P|uxiraxuxu\.?\s*P)e\.)|1(?:\.\s*ga\s*popera\s*ga\s*Pedru\s*[uü]mat[uü]x[uü]̃|\s*ga\s*popera\s*ga\s*Pedru\s*[uü]mat[uü]x[uü]̃)|1(?:\.\s*ga\s*popera\s*ga\s*Pedru\s*[uü]mat[uü]x[uü]|\s*ga\s*popera\s*ga\s*Pedru\s*[uü]mat[uü]x[uü])|1\.?\s*Pe\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          },
+          {
+            osis: ["Jude"],
+            testament: "n",
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Popera\s*ga\s*Y[uú]da\s*[uü]mat[uü]x[uü]̃?|Jud\.))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+          }
+        ];
+  }
+};
+
+var bcv_translations = class {
+  constructor() {
+    this.aliases = { current: { system: "current", osis: "" }, default: { system: "default", osis: "" } };
+    this.current_system = "default";
+    this.systems = {
+          current: {},
+          default: {
+            order: {
+              Gen: 1,
+              Exod: 2,
+              Lev: 3,
+              Num: 4,
+              Deut: 5,
+              Josh: 6,
+              Judg: 7,
+              Ruth: 8,
+              "1Sam": 9,
+              "2Sam": 10,
+              "1Kgs": 11,
+              "2Kgs": 12,
+              "1Chr": 13,
+              "2Chr": 14,
+              Ezra: 15,
+              Neh: 16,
+              Esth: 17,
+              Job: 18,
+              Ps: 19,
+              Prov: 20,
+              Eccl: 21,
+              Song: 22,
+              Isa: 23,
+              Jer: 24,
+              Lam: 25,
+              Ezek: 26,
+              Dan: 27,
+              Hos: 28,
+              Joel: 29,
+              Amos: 30,
+              Obad: 31,
+              Jonah: 32,
+              Mic: 33,
+              Nah: 34,
+              Hab: 35,
+              Zeph: 36,
+              Hag: 37,
+              Zech: 38,
+              Mal: 39,
+              Matt: 40,
+              Mark: 41,
+              Luke: 42,
+              John: 43,
+              Acts: 44,
+              Rom: 45,
+              "1Cor": 46,
+              "2Cor": 47,
+              Gal: 48,
+              Eph: 49,
+              Phil: 50,
+              Col: 51,
+              "1Thess": 52,
+              "2Thess": 53,
+              "1Tim": 54,
+              "2Tim": 55,
+              Titus: 56,
+              Phlm: 57,
+              Heb: 58,
+              Jas: 59,
+              "1Pet": 60,
+              "2Pet": 61,
+              "1John": 62,
+              "2John": 63,
+              "3John": 64,
+              Jude: 65,
+              Rev: 66,
+              Tob: 67,
+              Jdt: 68,
+              GkEsth: 69,
+              Wis: 70,
+              Sir: 71,
+              Bar: 72,
+              PrAzar: 73,
+              Sus: 74,
+              Bel: 75,
+              SgThree: 76,
+              EpJer: 77,
+              "1Macc": 78,
+              "2Macc": 79,
+              "3Macc": 80,
+              "4Macc": 81,
+              "1Esd": 82,
+              "2Esd": 83,
+              PrMan: 84
+            },
+            chapters: {
+              Gen: [31, 25, 24, 26, 32, 22, 24, 22, 29, 32, 32, 20, 18, 24, 21, 16, 27, 33, 38, 18, 34, 24, 20, 67, 34, 35, 46, 22, 35, 43, 55, 32, 20, 31, 29, 43, 36, 30, 23, 23, 57, 38, 34, 34, 28, 34, 31, 22, 33, 26],
+              Exod: [22, 25, 22, 31, 23, 30, 25, 32, 35, 29, 10, 51, 22, 31, 27, 36, 16, 27, 25, 26, 36, 31, 33, 18, 40, 37, 21, 43, 46, 38, 18, 35, 23, 35, 35, 38, 29, 31, 43, 38],
+              Lev: [17, 16, 17, 35, 19, 30, 38, 36, 24, 20, 47, 8, 59, 57, 33, 34, 16, 30, 37, 27, 24, 33, 44, 23, 55, 46, 34],
+              Num: [54, 34, 51, 49, 31, 27, 89, 26, 23, 36, 35, 16, 33, 45, 41, 50, 13, 32, 22, 29, 35, 41, 30, 25, 18, 65, 23, 31, 40, 16, 54, 42, 56, 29, 34, 13],
+              Deut: [46, 37, 29, 49, 33, 25, 26, 20, 29, 22, 32, 32, 18, 29, 23, 22, 20, 22, 21, 20, 23, 30, 25, 22, 19, 19, 26, 68, 29, 20, 30, 52, 29, 12],
+              Josh: [18, 24, 17, 24, 15, 27, 26, 35, 27, 43, 23, 24, 33, 15, 63, 10, 18, 28, 51, 9, 45, 34, 16, 33],
+              Judg: [36, 23, 31, 24, 31, 40, 25, 35, 57, 18, 40, 15, 25, 20, 20, 31, 13, 31, 30, 48, 25],
+              Ruth: [22, 23, 18, 22],
+              "1Sam": [28, 36, 21, 22, 12, 21, 17, 22, 27, 27, 15, 25, 23, 52, 35, 23, 58, 30, 24, 42, 15, 23, 29, 22, 44, 25, 12, 25, 11, 31, 13],
+              "2Sam": [27, 32, 39, 12, 25, 23, 29, 18, 13, 19, 27, 31, 39, 33, 37, 23, 29, 33, 43, 26, 22, 51, 39, 25],
+              "1Kgs": [53, 46, 28, 34, 18, 38, 51, 66, 28, 29, 43, 33, 34, 31, 34, 34, 24, 46, 21, 43, 29, 53],
+              "2Kgs": [18, 25, 27, 44, 27, 33, 20, 29, 37, 36, 21, 21, 25, 29, 38, 20, 41, 37, 37, 21, 26, 20, 37, 20, 30],
+              "1Chr": [54, 55, 24, 43, 26, 81, 40, 40, 44, 14, 47, 40, 14, 17, 29, 43, 27, 17, 19, 8, 30, 19, 32, 31, 31, 32, 34, 21, 30],
+              "2Chr": [17, 18, 17, 22, 14, 42, 22, 18, 31, 19, 23, 16, 22, 15, 19, 14, 19, 34, 11, 37, 20, 12, 21, 27, 28, 23, 9, 27, 36, 27, 21, 33, 25, 33, 27, 23],
+              Ezra: [11, 70, 13, 24, 17, 22, 28, 36, 15, 44],
+              Neh: [11, 20, 32, 23, 19, 19, 73, 18, 38, 39, 36, 47, 31],
+              Esth: [22, 23, 15, 17, 14, 14, 10, 17, 32, 3],
+              Job: [22, 13, 26, 21, 27, 30, 21, 22, 35, 22, 20, 25, 28, 22, 35, 22, 16, 21, 29, 29, 34, 30, 17, 25, 6, 14, 23, 28, 25, 31, 40, 22, 33, 37, 16, 33, 24, 41, 30, 24, 34, 17],
+              Ps: [6, 12, 8, 8, 12, 10, 17, 9, 20, 18, 7, 8, 6, 7, 5, 11, 15, 50, 14, 9, 13, 31, 6, 10, 22, 12, 14, 9, 11, 12, 24, 11, 22, 22, 28, 12, 40, 22, 13, 17, 13, 11, 5, 26, 17, 11, 9, 14, 20, 23, 19, 9, 6, 7, 23, 13, 11, 11, 17, 12, 8, 12, 11, 10, 13, 20, 7, 35, 36, 5, 24, 20, 28, 23, 10, 12, 20, 72, 13, 19, 16, 8, 18, 12, 13, 17, 7, 18, 52, 17, 16, 15, 5, 23, 11, 13, 12, 9, 9, 5, 8, 28, 22, 35, 45, 48, 43, 13, 31, 7, 10, 10, 9, 8, 18, 19, 2, 29, 176, 7, 8, 9, 4, 8, 5, 6, 5, 6, 8, 8, 3, 18, 3, 3, 21, 26, 9, 8, 24, 13, 10, 7, 12, 15, 21, 10, 20, 14, 9, 6],
+              Prov: [33, 22, 35, 27, 23, 35, 27, 36, 18, 32, 31, 28, 25, 35, 33, 33, 28, 24, 29, 30, 31, 29, 35, 34, 28, 28, 27, 28, 27, 33, 31],
+              Eccl: [18, 26, 22, 16, 20, 12, 29, 17, 18, 20, 10, 14],
+              Song: [17, 17, 11, 16, 16, 13, 13, 14],
+              Isa: [31, 22, 26, 6, 30, 13, 25, 22, 21, 34, 16, 6, 22, 32, 9, 14, 14, 7, 25, 6, 17, 25, 18, 23, 12, 21, 13, 29, 24, 33, 9, 20, 24, 17, 10, 22, 38, 22, 8, 31, 29, 25, 28, 28, 25, 13, 15, 22, 26, 11, 23, 15, 12, 17, 13, 12, 21, 14, 21, 22, 11, 12, 19, 12, 25, 24],
+              Jer: [19, 37, 25, 31, 31, 30, 34, 22, 26, 25, 23, 17, 27, 22, 21, 21, 27, 23, 15, 18, 14, 30, 40, 10, 38, 24, 22, 17, 32, 24, 40, 44, 26, 22, 19, 32, 21, 28, 18, 16, 18, 22, 13, 30, 5, 28, 7, 47, 39, 46, 64, 34],
+              Lam: [22, 22, 66, 22, 22],
+              Ezek: [28, 10, 27, 17, 17, 14, 27, 18, 11, 22, 25, 28, 23, 23, 8, 63, 24, 32, 14, 49, 32, 31, 49, 27, 17, 21, 36, 26, 21, 26, 18, 32, 33, 31, 15, 38, 28, 23, 29, 49, 26, 20, 27, 31, 25, 24, 23, 35],
+              Dan: [21, 49, 30, 37, 31, 28, 28, 27, 27, 21, 45, 13],
+              Hos: [11, 23, 5, 19, 15, 11, 16, 14, 17, 15, 12, 14, 16, 9],
+              Joel: [20, 32, 21],
+              Amos: [15, 16, 15, 13, 27, 14, 17, 14, 15],
+              Obad: [21],
+              Jonah: [17, 10, 10, 11],
+              Mic: [16, 13, 12, 13, 15, 16, 20],
+              Nah: [15, 13, 19],
+              Hab: [17, 20, 19],
+              Zeph: [18, 15, 20],
+              Hag: [15, 23],
+              Zech: [21, 13, 10, 14, 11, 15, 14, 23, 17, 12, 17, 14, 9, 21],
+              Mal: [14, 17, 18, 6],
+              Matt: [25, 23, 17, 25, 48, 34, 29, 34, 38, 42, 30, 50, 58, 36, 39, 28, 27, 35, 30, 34, 46, 46, 39, 51, 46, 75, 66, 20],
+              Mark: [45, 28, 35, 41, 43, 56, 37, 38, 50, 52, 33, 44, 37, 72, 47, 20],
+              Luke: [80, 52, 38, 44, 39, 49, 50, 56, 62, 42, 54, 59, 35, 35, 32, 31, 37, 43, 48, 47, 38, 71, 56, 53],
+              John: [51, 25, 36, 54, 47, 71, 53, 59, 41, 42, 57, 50, 38, 31, 27, 33, 26, 40, 42, 31, 25],
+              Acts: [26, 47, 26, 37, 42, 15, 60, 40, 43, 48, 30, 25, 52, 28, 41, 40, 34, 28, 41, 38, 40, 30, 35, 27, 27, 32, 44, 31],
+              Rom: [32, 29, 31, 25, 21, 23, 25, 39, 33, 21, 36, 21, 14, 23, 33, 27],
+              "1Cor": [31, 16, 23, 21, 13, 20, 40, 13, 27, 33, 34, 31, 13, 40, 58, 24],
+              "2Cor": [24, 17, 18, 18, 21, 18, 16, 24, 15, 18, 33, 21, 14],
+              Gal: [24, 21, 29, 31, 26, 18],
+              Eph: [23, 22, 21, 32, 33, 24],
+              Phil: [30, 30, 21, 23],
+              Col: [29, 23, 25, 18],
+              "1Thess": [10, 20, 13, 18, 28],
+              "2Thess": [12, 17, 18],
+              "1Tim": [20, 15, 16, 16, 25, 21],
+              "2Tim": [18, 26, 17, 22],
+              Titus: [16, 15, 15],
+              Phlm: [25],
+              Heb: [14, 18, 19, 16, 14, 20, 28, 13, 28, 39, 40, 29, 25],
+              Jas: [27, 26, 18, 17, 20],
+              "1Pet": [25, 25, 22, 19, 14],
+              "2Pet": [21, 22, 18],
+              "1John": [10, 29, 24, 21, 21],
+              "2John": [13],
+              "3John": [15],
+              Jude: [25],
+              Rev: [20, 29, 22, 11, 14, 17, 17, 13, 21, 11, 19, 17, 18, 20, 8, 21, 18, 24, 21, 15, 27, 21],
+              Tob: [22, 14, 17, 21, 22, 18, 16, 21, 6, 13, 18, 22, 17, 15],
+              Jdt: [16, 28, 10, 15, 24, 21, 32, 36, 14, 23, 23, 20, 20, 19, 14, 25],
+              GkEsth: [22, 23, 15, 17, 14, 14, 10, 17, 32, 13, 12, 6, 18, 19, 16, 24],
+              Wis: [16, 24, 19, 20, 23, 25, 30, 21, 18, 21, 26, 27, 19, 31, 19, 29, 21, 25, 22],
+              Sir: [30, 18, 31, 31, 15, 37, 36, 19, 18, 31, 34, 18, 26, 27, 20, 30, 32, 33, 30, 31, 28, 27, 27, 34, 26, 29, 30, 26, 28, 25, 31, 24, 33, 31, 26, 31, 31, 34, 35, 30, 22, 25, 33, 23, 26, 20, 25, 25, 16, 29, 30],
+              Bar: [22, 35, 37, 37, 9],
+              PrAzar: [68],
+              Sus: [64],
+              Bel: [42],
+              SgThree: [39],
+              EpJer: [73],
+              "1Macc": [64, 70, 60, 61, 68, 63, 50, 32, 73, 89, 74, 53, 53, 49, 41, 24],
+              "2Macc": [36, 32, 40, 50, 27, 31, 42, 36, 29, 38, 38, 45, 26, 46, 39],
+              "3Macc": [29, 33, 30, 21, 51, 41, 23],
+              "4Macc": [35, 24, 21, 26, 38, 35, 23, 29, 32, 21, 27, 19, 27, 20, 32, 25, 24, 24],
+              "1Esd": [58, 30, 24, 63, 73, 34, 15, 96, 55],
+              "2Esd": [40, 48, 36, 52, 56, 59, 70, 63, 47, 59, 46, 51, 58, 48, 63, 78],
+              PrMan: [15],
+              Ps151: [7]
+            }
+          }
+        };
+    this.systems.current = structuredClone(this.systems.default);
+  }
+};
+
+var bcv_grammar_options_default = {
+  ab: /^(?:(?:a|b|c|d|e))(?!\p{L})/iu,
+  and: /^(?:(?:(?:&\.?\s*)|&))/i,
+  c_explicit: /^[\s*]*(?:(?:chapter\.?\s*))[\s*]*/i,
+  c_sep_eu: /^\x1f\x1f\x1f/i,
+  c_sep_us: /^\x1f\x1f\x1f/i,
+  cv_sep_weak: /^(?:[\s*]*["'][\s*]*|[\s*])+/i,
+  cv_sep_eu: /^[\s*]*,+[\s*]*/i,
+  cv_sep_us: /^[\s*]*(?::+|\.(?!\s*\.\s*\.))[\s*]*/i,
+  ff: /^[\s*]*(?:(?:ff\.?\s*))(?![\p{L}\p{N}])(?:\.(?!\s*\.))?/iu,
+  in_book_of: /^[\s*]*(?:from|of|in)[\s*]*(?:the[\s*]*book[\s*]*of[\s*]*)?/i,
+  next: /^(?:\x1f\x1f\x1f)/i,
+  ordinal: /^(?:th|st|nd|rd)/i,
+  range: /^[\s*]*(?:[\-–—]|(?:[\-–—]\.?\s*))+[\s*]*/i,
+  sequence_eu: /^(?:[;/:&\-–—~\s*]|\.(?!\s*\.\s*\.)|(?:&\.?\s*))+/i,
+  sequence_us: /^(?:[,;/:&\-–—~\s*]|\.(?!\s*\.\s*\.)|(?:&\.?\s*))+/i,
+  space: /^[\s*]+/,
+  title: /^[\s*]*(?:(?:title\.?\s*))(?!\p{L})[\s*]*/iu,
+  v_explicit: /^[\s*]*(?:(?:verse\.?\s*))[\s*]*(?!\p{L})/iu
+};
+var regexps = bcv_regexps;
+var translations = bcv_translations;
+var grammar_options = bcv_grammar_options_default;
+export {
+  grammar_options,
+  regexps,
+  translations
+};

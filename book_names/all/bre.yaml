@@ -1,0 +1,363 @@
+- osis: Gen
+  texts:
+    - Geneliezh
+    - Gen
+- osis: Exod
+  texts:
+    - Ermaeziadeg
+    - Ermaeziaeg
+- osis: Lev
+  texts:
+    - Leviegezh
+    - Lev
+- osis: Num
+  texts:
+    - Niveroù
+    - Niv
+- osis: Lam
+  texts:
+    - Klemmganoù
+- osis: Rev
+  texts:
+    - Diskuliadur
+    - Diskuladur
+    - Apocalyps
+    - Apoc.
+- osis: Deut
+  texts:
+    - Adlezenn
+- osis: Josh
+  texts:
+    - Jozue
+- osis: Judg
+  texts:
+    - Ar Varnerien
+    - Varnerien
+- osis: Ruth
+  texts:
+    - Rud
+- osis: Isa
+  texts:
+    - Izaia
+- osis: 1Sam
+  texts:
+    - 1 Samuel
+    - 1. Samuel
+    - I Samuel
+    - I. Samuel
+- osis: 2Sam
+  texts:
+    - 2 Samuel
+    - 2. Samuel
+    - II Samuel
+    - II. Samuel
+- osis: 1Kgs
+  texts:
+    - 1 Rouaned
+    - 1. Rouaned
+    - I Rouaned
+    - I. Rouaned
+- osis: 2Kgs
+  texts:
+    - 2 Rouned
+    - 2. Rouned
+    - II Rouned
+    - II. Rouned
+- osis: 1Chr
+  texts:
+    - 1 Danevelloù
+    - 1. Danevelloù
+    - I Danevelloù
+    - I. Danevelloù
+- osis: 2Chr
+  texts:
+    - 2 Danevelloù
+    - 2. Danevelloù
+    - II Danevelloù
+    - II. Danevelloù
+- osis: Ezra
+  texts:
+    - Ezdra
+- osis: Neh
+  texts:
+    - Nehemia
+- osis: Esth
+  texts:
+    - Ester
+- osis: Job
+  texts:
+    - Job
+- osis: Ps
+  texts:
+    - Psalmou
+    - Salmoù
+    - Psalm
+    - Salm
+- osis: Prov
+  texts:
+    - Krennlavarioù
+- osis: Eccl
+  texts:
+    - Ar Prezeger
+    - Prezeger
+- osis: Song
+  texts:
+    - Kanenn ar C’hanennoù
+- osis: Jer
+  texts:
+    - Jeremiaz
+- osis: Ezek
+  texts:
+    - Ezekiel
+- osis: Dan
+  texts:
+    - Daniel
+- osis: Hos
+  texts:
+    - Ozea
+- osis: Joel
+  texts:
+    - Joel
+- osis: Amos
+  texts:
+    - Amoz
+- osis: Obad
+  texts:
+    - Abdia
+- osis: Jonah
+  texts:
+    - Jonaz
+- osis: Mic
+  texts:
+    - Mika
+- osis: Nah
+  texts:
+    - Nahum
+- osis: Hab
+  texts:
+    - Habakuk
+- osis: Zeph
+  texts:
+    - Sofonia
+- osis: Hag
+  texts:
+    - Agge
+- osis: Zech
+  texts:
+    - Zakaria
+- osis: Mal
+  texts:
+    - Malaki
+- osis: Matt
+  texts:
+    - Sant Vaze
+    - St. Maheu
+    - Mazhev
+    - Maheu
+    - Vaze
+- osis: Mark
+  texts:
+    - Sant Marc
+    - Marc
+    - Mark
+- osis: Luke
+  texts:
+    - Sant Lucas
+    - Lucas
+    - Lukaz
+- osis: 3John
+  texts:
+    - III S. Ian
+    - 3 Yann
+    - 3 Ian
+- osis: 1John
+  texts:
+    - 1 S. Ian
+    - 1 Yann
+    - 1 Ian
+    - 1. S. Ian
+    - 1. Yann
+    - 1. Ian
+    - I S. Ian
+    - I Yann
+    - I Ian
+    - I. S. Ian
+    - I. Yann
+    - I. Ian
+- osis: 2John
+  texts:
+    - 2 S. Ian
+    - 2 Yann
+    - 2 Ian
+    - 2. S. Ian
+    - 2. Yann
+    - 2. Ian
+    - II S. Ian
+    - II Yann
+    - II Ian
+    - II. S. Ian
+    - II. Yann
+    - II. Ian
+- osis: John
+  texts:
+    - Sant Ian
+    - Yann
+    - Ian
+- osis: Acts
+  texts:
+    - Oberoù an Ebestel
+    - Actou an Ebestel
+    - Actou
+- osis: Rom
+  texts:
+    - Romaned
+    - Rom.
+- osis: 1Cor
+  texts:
+    - 1 Corintied
+    - 1 Korintiz
+    - 1 Cor.
+    - 1. Corintied
+    - 1. Korintiz
+    - 1. Cor.
+    - I Corintied
+    - I Korintiz
+    - I Cor.
+    - I. Corintied
+    - I. Korintiz
+    - I. Cor.
+- osis: 2Cor
+  texts:
+    - 2 Corintied
+    - 2 Korintiz
+    - 2 Cor.
+    - 2. Corintied
+    - 2. Korintiz
+    - 2. Cor.
+    - II Corintied
+    - II Korintiz
+    - II Cor.
+    - II. Corintied
+    - II. Korintiz
+    - II. Cor.
+- osis: Col
+  texts:
+    - Colossied
+    - Koloseiz
+    - Col.
+- osis: Gal
+  texts:
+    - Galated
+    - Gal.
+- osis: Eph
+  texts:
+    - Ephezied
+    - Efeziz
+    - Eph.
+- osis: Phil
+  texts:
+    - Philippied
+    - Filipiz
+    - Philip.
+- osis: 1Thess
+  texts:
+    - 1 Thessalonied
+    - 1 Tesalonikiz
+    - 1 Thess.
+    - 1. Thessalonied
+    - 1. Tesalonikiz
+    - 1. Thess.
+    - I Thessalonied
+    - I Tesalonikiz
+    - I Thess.
+    - I. Thessalonied
+    - I. Tesalonikiz
+    - I. Thess.
+- osis: 2Thess
+  texts:
+    - 2 Thessalonied
+    - 2 Tesalonikiz
+    - 2 Thess.
+    - 2. Thessalonied
+    - 2. Tesalonikiz
+    - 2. Thess.
+    - II Thessalonied
+    - II Tesalonikiz
+    - II Thess.
+    - II. Thessalonied
+    - II. Tesalonikiz
+    - II. Thess.
+- osis: 1Tim
+  texts:
+    - 1 Timoteus
+    - 1 Timote
+    - 1 Tim.
+    - 1. Timoteus
+    - 1. Timote
+    - 1. Tim.
+    - I Timoteus
+    - I Timote
+    - I Tim.
+    - I. Timoteus
+    - I. Timote
+    - I. Tim.
+- osis: 2Tim
+  texts:
+    - 2 Timoteus
+    - 2 Timote
+    - 2 Tim.
+    - 2. Timoteus
+    - 2. Timote
+    - 2. Tim.
+    - II Timoteus
+    - II Timote
+    - II Tim.
+    - II. Timoteus
+    - II. Timote
+    - II. Tim.
+- osis: Titus
+  texts:
+    - Titus
+    - Tit
+- osis: Phlm
+  texts:
+    - Philemon
+    - Filemon
+    - Philem.
+- osis: Heb
+  texts:
+    - Hebreed
+    - Heb.
+- osis: Jas
+  texts:
+    - S. Jakes
+    - Jakes
+    - Jakez
+- osis: 1Pet
+  texts:
+    - 1 Pêr
+    - 1. Pêr
+    - I Pêr
+    - I. Pêr
+- osis: 1Pet
+  texts:
+    - I. S. Per
+    - 1Per
+- osis: 2Pet
+  texts:
+    - 2 S. Per
+    - 2 Per
+    - 2 Pêr
+    - 2. S. Per
+    - 2. Per
+    - 2. Pêr
+    - II S. Per
+    - II Per
+    - II Pêr
+    - II. S. Per
+    - II. Per
+    - II. Pêr
+- osis: Jude
+  texts:
+    - S. Jud
+    - Jud

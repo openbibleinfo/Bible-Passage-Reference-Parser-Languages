@@ -1,0 +1,105 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - "'Ylikloylɛleweli"
+      - "'Yliklo"
+  - osis: Matt
+    texts:
+      - Matie
+  - osis: Mark
+    texts:
+      - Malke
+  - osis: Luke
+    texts:
+      - Luke
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Zaa
+  - osis: Acts
+    texts:
+      - Nonoli
+      - Noli
+  - osis: Rom
+    texts:
+      - Wlomɛnya
+      - Wlomɛ
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kolɛtenya
+      - Kolɛ
+  - osis: Col
+    texts:
+      - Kolɔsenya
+      - Kolɔ
+  - osis: Gal
+    texts:
+      - Galatenya
+      - Gala
+  - osis: Eph
+    texts:
+      - Efɛzenya
+      - Efɛ
+  - osis: Phil
+    texts:
+      - Filiponya
+      - Fili
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonikenya
+      - Tesa
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+      - Timo
+  - osis: Titus
+    texts:
+      - Tite
+  - osis: Phlm
+    texts:
+      - Filemɔ
+      - File
+  - osis: Heb
+    texts:
+      - Eblenya
+      - Eble
+  - osis: Jas
+    texts:
+      - Zake
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piɛle
+  - osis: Jude
+    texts:
+      - Zude
+translations:
+  - BTG

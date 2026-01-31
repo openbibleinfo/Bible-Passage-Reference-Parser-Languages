@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Edk
+    short: 1 Edk
+  1Cor:
+    long: 1 Kɔl
+    short: 1 Kɔl
+  1John:
+    long: 1 Dw
+    short: 1 Dw
+  1Kgs:
+    long: 1 Arl
+    short: 1 Arl
+  1Pet:
+    long: 1 Pit
+    short: 1 Pit
+  1Sam:
+    long: 1 Sam
+    short: 1 Sam
+  1Thess:
+    long: 1 Tɛs
+    short: 1 Tɛs
+  1Tim:
+    long: 1 Tem
+    short: 1 Tem
+  2Chr:
+    long: 2 Edk
+    short: 2 Edk
+  2Cor:
+    long: 2 Kɔl
+    short: 2 Kɔl
+  2John:
+    long: 2 Dw
+    short: 2 Dw
+  2Kgs:
+    long: 2 Arl
+    short: 2 Arl
+  2Pet:
+    long: 2 Pit
+    short: 2 Pit
+  2Sam:
+    long: 2 Sam
+    short: 2 Sam
+  2Thess:
+    long: 2 Tɛs
+    short: 2 Tɛs
+  2Tim:
+    long: 2 Tem
+    short: 2 Tem
+  3John:
+    long: 3 Dw
+    short: 3 Dw
+  Acts:
+    long: Gyi
+    short: Gyi
+  Amos:
+    long: Emɔ
+    short: Emɔ
+  Col:
+    long: Kɔlɔ
+    short: Kɔlɔ
+  Dan:
+    long: Dan
+    short: Dan
+  Deut:
+    long: Mɛla
+    short: Mɛla
+  Eccl:
+    long: Nolo
+    short: Nolo
+  Eph:
+    long: Ɛfɛ
+    short: Ɛfɛ
+  Esth:
+    long: Ɛst
+    short: Ɛst
+  Exod:
+    long: Ade
+    short: Ade
+  Ezek:
+    long: Yiz
+    short: Yiz
+  Ezra:
+    long: Ɛzl
+    short: Ɛzl
+  Gal:
+    long: Gal
+    short: Gal
+  Gen:
+    long: Mɔl
+    short: Mɔl
+  Hab:
+    long: Hab
+    short: Hab
+  Hag:
+    long: Hag
+    short: Hag
+  Heb:
+    long: Hib
+    short: Hib
+  Hos:
+    long: Hoz
+    short: Hoz
+  Isa:
+    long: Aye
+    short: Aye
+  Jas:
+    long: Gye
+    short: Gye
+  Jer:
+    long: Gyɛ
+    short: Gyɛ
+  Job:
+    long: Dwo
+    short: Dwo
+  Joel:
+    long: Dww
+    short: Dww
+  John:
+    long: Dw
+    short: Dw
+  Jonah:
+    long: Dwn
+    short: Dwn
+  Josh:
+    long: Dwɔ
+    short: Dwɔ
+  Jude:
+    long: Dwu
+    short: Dwu
+  Judg:
+    long: Maa
+    short: Maa
+  Lam:
+    long: Awo
+    short: Awo
+  Lev:
+    long: Sɛlɛ
+    short: Sɛlɛ
+  Luke:
+    long: Luk
+    short: Luk
+  Mal:
+    long: Mal
+    short: Mal
+  Mark:
+    long: Mak
+    short: Mak
+  Matt:
+    long: Mat
+    short: Mat
+  Mic:
+    long: Mae
+    short: Mae
+  Nah:
+    long: Nah
+    short: Nah
+  Neh:
+    long: Nih
+    short: Nih
+  Num:
+    long: Ɛdi
+    short: Ɛdi
+  Obad:
+    long: Oba
+    short: Oba
+  Phil:
+    long: Fel
+    short: Fel
+  Phlm:
+    long: Fae
+    short: Fae
+  Prov:
+    long: Mrɛ
+    short: Mrɛ
+  Ps:
+    long: Edw
+    short: Edw
+  Rev:
+    long: Yek
+    short: Yek
+  Rom:
+    long: Wulo
+    short: Wulo
+  Ruth:
+    long: Wulu
+    short: Wulu
+  Song:
+    long: Sɔl
+    short: Sɔl
+  Titus:
+    long: Tae
+    short: Tae
+  Zech:
+    long: Zɛk
+    short: Zɛk
+  Zeph:
+    long: Zɛf
+    short: Zɛf

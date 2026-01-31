@@ -1,0 +1,115 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Roñaagayitakirini
+      - Roñ.
+  - osis: Matt
+    texts:
+      - Mateeyo
+      - Mt.
+  - osis: Mark
+    texts:
+      - Marikoshi
+      - Mr.
+  - osis: Luke
+    texts:
+      - Rookashi
+      - Rk.
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jowa
+      - J.
+  - osis: John
+    texts:
+      - Jowa
+  - osis: Acts
+    texts:
+      - Rantayitakirini
+      - Ran.
+  - osis: Rom
+    texts:
+      - Oroomajatzi
+      - Or.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintojatzi
+      - Ko.
+  - osis: Col
+    texts:
+      - Korojaashijatzi
+      - Koro.
+  - osis: Gal
+    texts:
+      - Karaashiyajatzi
+      - Kar.
+  - osis: Eph
+    texts:
+      - Ejeesojatzi
+      - Eje.
+  - osis: Phil
+    texts:
+      - Jiriposhijatzi
+      - Jir.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tejawoonikajatzi
+      - Tej.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Temoteeyo
+      - Tm.
+  - osis: Titus
+    texts:
+      - Teeto
+      - Te.
+  - osis: Phlm
+    texts:
+      - Jirimooni
+      - Jrm.
+  - osis: Heb
+    texts:
+      - Ijoriiyotzinkarite
+      - Ijor.
+  - osis: Jas
+    texts:
+      - Jantyaako
+      - Jnty.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peetero
+      - P.
+  - osis: Jude
+    texts:
+      - Joorashi
+      - Jor.
+translations:
+  - CJO

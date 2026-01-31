@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 Kɔlɛŋte
+    short: 1Kl
+  1John:
+    long: 1 Jáaŋ
+    short: 1Jŋ
+  1Pet:
+    long: 1 Piɛ
+    short: 1Pi
+  1Thess:
+    long: 1 Tesalonik
+    short: 1Te
+  1Tim:
+    long: 1 Timotɛ
+    short: 1Tm
+  2Cor:
+    long: 2 Kɔlɛŋte
+    short: 2Kl
+  2John:
+    long: 2 Jáaŋ
+    short: 2Jŋ
+  2Pet:
+    long: 2 Piɛ
+    short: 2Pi
+  2Thess:
+    long: 2 Tesalonik
+    short: 2Te
+  2Tim:
+    long: 2 Timotɛ
+    short: 2Tm
+  3John:
+    long: 3 Jáaŋ
+    short: 3Jŋ
+  Acts:
+    long: Mefaʼ Meziŋ-ntō
+    short: MeM
+  Col:
+    long: Kɔlɔs
+    short: Kɔl
+  Eph:
+    long: Efɛze
+    short: Efɛ
+  Gal:
+    long: Galat
+    short: Gal
+  Heb:
+    long: Eble
+    short: Ebl
+  Jas:
+    long: Jáak
+    short: Ják
+  John:
+    long: Jáaŋ
+    short: Jáŋ
+  Jude:
+    long: Zwide
+    short: Zde
+  Luke:
+    long: Lúkási
+    short: Lúk
+  Mark:
+    long: Málkúsi
+    short: Mlk
+  Matt:
+    long: Matío
+    short: Mat
+  Phil:
+    long: Fílíip
+    short: Flp
+  Phlm:
+    long: Filemɔŋ
+    short: Flm
+  Rev:
+    long: Menjʉɔ te lí
+    short: Mtl
+  Rom:
+    long: Lomɛŋ
+    short: Lóm
+  Titus:
+    long: Tíit
+    short: Tít

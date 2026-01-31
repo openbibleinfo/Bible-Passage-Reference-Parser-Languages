@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Hénkarå Ci.
+  - osis: Matt
+    texts:
+      - Matiyee
+  - osis: Mark
+    texts:
+      - Markɩ
+  - osis: Luke
+    texts:
+      - Likki
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Zaan
+  - osis: Acts
+    texts:
+      - Zibəəzannɔ Ci
+  - osis: Rom
+    texts:
+      - Rɔm zannɔ
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korɛntɩ zannɔ
+  - osis: Col
+    texts:
+      - Kolɔɔsɩ zannɔ
+  - osis: Gal
+    texts:
+      - Galasii zannɔ
+  - osis: Eph
+    texts:
+      - Efɛɛzɩ zannɔ
+  - osis: Phil
+    texts:
+      - Filipii zannɔ
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaloniki zannɔ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+  - osis: Titus
+    texts:
+      - Tiitɩ
+  - osis: Phlm
+    texts:
+      - Filemɔn
+  - osis: Heb
+    texts:
+      - Ebree gʊɔɔ
+  - osis: Jas
+    texts:
+      - Zakkɩ
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pɩyɛɛr
+  - osis: Jude
+    texts:
+      - Ziidi
+translations:
+  - BIB

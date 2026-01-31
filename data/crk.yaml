@@ -1,0 +1,311 @@
+variables:
+  first: &first
+    - "1"
+    - nistam
+    - ᓂᐢᑕᑦ
+    - ᓂᐢᑕᒼ
+  second: &second
+    - "2"
+    - nīswāw
+    - ᓃᓵᐧᐤ
+books:
+  - osis: Gen
+    texts:
+      - cēnisis
+      - ᒉᓂᓯᐢ
+  - osis: Exod
+    texts:
+      - ēksatas
+      - ᐁᐠᓴᑕᐢ
+  - osis: Lev
+    texts:
+      - lipitikas
+      - ᓬᐃᐱᑎᑲᐢ
+  - osis: Num
+    texts:
+      - nampars
+      - ᓇᒼᐸᕒᐢ
+  - osis: Lam
+    texts:
+      - mihtātwēwina
+      - ᒥᐦᑖᑌᐧᐃᐧᓇ
+  - osis: Rev
+    texts:
+      - kiskēyihtākohkēwin
+      - ᑭᐢᑫᔨᐦᑖᑯᐦᑫᐃᐧᐣ
+  - osis: Deut
+    texts:
+      - tiyotaranami
+      - ᑎᔪᑕᕒᐊᓇᒥ
+  - osis: Josh
+    texts:
+      - cāsyoa
+      - ᒑᐢᔪᐊ
+  - osis: Judg
+    texts:
+      - oyasowēwak
+      - ᐅᔭᓱᐁᐧᐊᐧᐠ
+  - osis: Ruth
+    texts:
+      - roht
+      - Ruth
+      - ᕒᐅᐦᐟ
+  - osis: Isa
+    texts:
+      - aysāya
+      - ᐊᐩᓵᔭ
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - sāmyoil
+      - ᓵᒼᔪᐃᓬ
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - kihci okimāwak
+      - ᑭᐦᒋ ᐅᑭᒫᐊᐧᐠ
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - akinē ācimowina
+      - ᐊᑭᓀ ᐋᒋᒧᐃᐧᓇ
+  - osis: Ezra
+    texts:
+      - ēsra
+      - ᐁᐢᕒᐊ
+  - osis: Neh
+    texts:
+      - nihimāya
+      - ᓂᐦᐃᒫᔭ
+  - osis: Esth
+    texts:
+      - ēstar
+      - ᐁᐢᑕᕒ
+  - osis: Job
+    texts:
+      - cop
+      - ᒍᑊ
+  - osis: Prov
+    texts:
+      - kakēhtāwēwina
+      - ᑲᑫᐦᑖᐁᐧᐃᐧᓇ
+  - osis: Eccl
+    texts:
+      - ikilisiyāstis
+      - ᐃᑭᓬᐃᓯᔮᐢᑎᐢ
+  - osis: Song
+    texts:
+      - nikamona o nikamon
+      - ᓂᑲᒧᓇ ᐅ ᓂᑲᒧᐣ
+  - osis: Ps
+    texts:
+      - Nikamowina
+      - Nikumoona
+      - nikamona
+      - ᓂᑲᒧᓇ
+      - Psa
+  - osis: Jer
+    texts:
+      - cērimāya
+      - ᒉᕒᐃᒫᔭ
+  - osis: Ezek
+    texts:
+      - isikiēl
+      - ᐃᓯᑭᐁᓬ
+  - osis: Dan
+    texts:
+      - tāniēl
+      - ᑖᓂᐁᓬ
+  - osis: Hos
+    texts:
+      - hāsiya
+      - ᐦᐋᓯᔭ
+  - osis: Joel
+    texts:
+      - coil
+      - ᒍᐃᓬ
+  - osis: Amos
+    texts:
+      - ēmās
+      - ᐁᒫᐢ
+  - osis: Obad
+    texts:
+      - opatāya
+      - ᐅᐸᑖᔭ
+  - osis: Jonah
+    texts:
+      - cōna
+      - ᒎᓇ
+  - osis: Mic
+    texts:
+      - Maika
+      - ᒪᐃᑲ
+  - osis: Nah
+    texts:
+      - nēham
+      - ᓀᐦᐊᒼ
+  - osis: Hab
+    texts:
+      - hāpākak
+      - ᐦᐋᐹᑲᐠ
+  - osis: Zeph
+    texts:
+      - sēpanāya
+      - ᓭᐸᓈᔭ
+  - osis: Hag
+    texts:
+      - hakēay
+      - ᐦᐊᑫᐊᐩ
+  - osis: Zech
+    texts:
+      - sēkarāya
+      - ᓭᑲᕒᐋᔭ
+  - osis: Mal
+    texts:
+      - mālakay
+      - ᒫᓬᐊᑲᐩ
+  - osis: Matt
+    texts:
+      - Oo Meyo Achimoowin St Matthew
+      - sēnt mātyo
+      - Matthew
+      - ᓭᐣᐟ ᒫᐟᔪ
+      - mātyo
+      - Mat
+      - ᒫᐟᔪ
+  - osis: Mark
+    texts:
+      - Oo Meyo Achimoowin St Mark
+      - sēnt mārk
+      - ᓭᐣᐟ ᒫᕒᐠ
+      - Mark
+      - mārk
+      - Mrk
+      - ᒫᕒᐠ
+  - osis: Luke
+    texts:
+      - sēnt lok
+      - ᓭᐣᐟ ᓬᐅᐠ
+      - Luke
+      - Lok
+      - ᓬᐅᐠ
+  - osis: 1John
+    texts:
+      - Nistum Oo Mamowe Mussina̔humakāwin John
+      - 1Jn
+  - osis: 3John
+    texts:
+      - nistwāw cān
+      - ᓂᐢᑖᐧᐤ ᒑᐣ
+      - 3 cān
+      - 3 ᒑᐣ
+  - osis: John
+    texts:
+      - Oo Meyo Achimoowin St John
+      - sēnt cān
+      - ᓭᐣᐟ ᒑᐣ
+      - John
+      - cān
+      - Jhn
+      - ᒑᐣ
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - cān
+      - ᒑᐣ
+  - osis: Acts
+    texts:
+      - isihcikēwiniwāwa
+      - ᐃᓯᐦᒋᑫᐃᐧᓂᐋᐧᐊᐧ
+      - Acts
+  - osis: Rom
+    texts:
+      - Romana
+      - ᕒᐅᒪᓇ
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - karintiyana
+      - ᑲᕒᐃᐣᑎᔭᓇ
+  - osis: Col
+    texts:
+      - kalāsiyana
+      - ᑲᓬᐋᓯᔭᓇ
+  - osis: Gal
+    texts:
+      - kalēsiyana
+      - ᑲᓬᐁᓯᔭᓇ
+  - osis: Eph
+    texts:
+      - ipisiyana
+      - ᐃᐱᓯᔭᓇ
+  - osis: Phil
+    texts:
+      - pilipiyana
+      - ᐱᓬᐃᐱᔭᓇ
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - tēsalāniyana
+      - ᑌᓴᓬᐋᓂᔭᓇ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - timatī
+      - ᑎᒪᑏ
+  - osis: Titus
+    texts:
+      - tāitas
+      - ᑖᐃᑕᐢ
+  - osis: Phlm
+    texts:
+      - pāiliman
+      - ᐹᐃᓬᐃᒪᐣ
+  - osis: Heb
+    texts:
+      - hiparowa
+      - ᐦᐃᐸᕒᐅᐊᐧ
+  - osis: Jas
+    texts:
+      - cēmis
+      - James
+      - ᒉᒥᐢ
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - pitar
+      - Pitar
+      - ᐱᑕᕒ
+  - osis: Jude
+    texts:
+      - cot
+      - ᒍᐟ
+translations:
+  - WCBR
+  - PCSBR
+  - CSW
+  - WCBS

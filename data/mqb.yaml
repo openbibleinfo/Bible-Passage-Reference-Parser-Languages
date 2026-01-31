@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Cœn sə zuɓay
+  - osis: Matt
+    texts:
+      - Mata
+  - osis: Mark
+    texts:
+      - Markus
+  - osis: Luke
+    texts:
+      - Lukas
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yuhana
+  - osis: Acts
+    texts:
+      - Mer su way ahay
+  - osis: Rom
+    texts:
+      - Ruma ahay
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintu ahay
+  - osis: Col
+    texts:
+      - Kolosiya ahay
+  - osis: Gal
+    texts:
+      - Galatiya ahay
+  - osis: Eph
+    texts:
+      - Efesus ahay
+  - osis: Phil
+    texts:
+      - Filipi ahay
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaloniki ahay
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+  - osis: Titus
+    texts:
+      - Titus
+  - osis: Phlm
+    texts:
+      - Filemon
+  - osis: Heb
+    texts:
+      - Ibəraninko ahay
+  - osis: Jas
+    texts:
+      - Yakuba
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piyer
+  - osis: Jude
+    texts:
+      - Yuda
+translations:
+  - MQB

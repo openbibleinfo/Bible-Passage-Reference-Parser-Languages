@@ -1,0 +1,158 @@
+variables:
+  first: &first
+    - መልእክተ
+    - ኀበ
+  second: &second
+    - መልእክተ
+    - ኀበ
+books:
+  - osis: Rev
+    texts:
+      - ራእዩ ለዮሐንስ
+      - ራእ.
+  - osis: Matt
+    texts:
+      - ወንጌል ዘማቴዎስ
+      - ማቴ.
+  - osis: Mark
+    texts:
+      - ወንጌል ዘማርቆስ
+      - ማር.
+  - osis: Luke
+    texts:
+      - ወንጌል ዘሉቃስ
+      - ሉቃ.
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - ዮሐንስ ሐዋርያ 1
+  - osis: 1John
+    texts:
+      - 1ዮሐ.
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - ዮሐንስ 2
+  - osis: 2John
+    texts:
+      - 2ዮሐ.
+  - osis: 3John
+    texts:
+      - መልእክተ ዮሐንስ 3
+      - 3ዮሐ.
+  - osis: John
+    texts:
+      - ወንጌል ዘዮሐንስ
+      - ዮሐ.
+  - osis: Acts
+    texts:
+      - ግብረ ሐዋርያት
+      - ግብረ ሐዋ.
+  - osis: Rom
+    texts:
+      - ኀበ ሰብአ ሮሜ
+      - ሮሜ
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - ሰብአ ቆሮንቶስ 1
+  - osis: 1Cor
+    texts:
+      - 1ቆሮ.
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - ሰብአ ቆሮንቶስ 2
+  - osis: 2Cor
+    texts:
+      - 2ቆሮ.
+  - osis: Col
+    texts:
+      - ኀበ ሰብአ ቈላስይስ
+      - ቈላ.
+  - osis: Gal
+    texts:
+      - ኀበ ሰብአ ገላትያ
+      - ገላ.
+  - osis: Eph
+    texts:
+      - ኀበ ሰብአ ኤፌሶን
+      - ኤፌ.
+  - osis: Phil
+    texts:
+      - ኀበ ሰብአ ፊልጵስዩስ
+      - ፊልጵ.
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - ሰብአ ተሰሎንቄ 1
+  - osis: 1Thess
+    texts:
+      - 1ተሰ.
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - ሰብአ ተሰሎንቄ 2
+  - osis: 2Thess
+    texts:
+      - 2ተሰ.
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - ጢሞቴዎስ 1
+  - osis: 1Tim
+    texts:
+      - 1ጢሞ.
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - ጢሞቴዎስ 2
+  - osis: 2Tim
+    texts:
+      - 2ጢሞ.
+  - osis: Titus
+    texts:
+      - ኀበ ቲቶ
+      - ቲቶ
+  - osis: Phlm
+    texts:
+      - ኀበ ፊልሞና
+      - ፊል.
+  - osis: Heb
+    texts:
+      - ኀበ ሰብእ ዕብራውያን
+      - ዕብ.
+  - osis: Jas
+    texts:
+      - መልእክተ ያዕቆብ ሐዋርያ
+      - ያዕ.
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - ጴጥሮስ 1
+  - osis: 1Pet
+    texts:
+      - 1ጴጥ.
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - ጴጥሮስ 2
+  - osis: 2Pet
+    texts:
+      - 2ጴጥ.
+  - osis: Jude
+    texts:
+      - መልእክተ ይሁዳ
+      - ይሁዳ
+translations:
+  - GEEZNT

@@ -1,0 +1,365 @@
+- osis: Gen
+  texts:
+    - Giing'eeta
+    - Gin
+- osis: Exod
+  texts:
+    - Riteayda
+    - Rit
+- osis: Lev
+  texts:
+    - Ng'asheega Lawi
+    - Lawi
+- osis: Num
+  texts:
+    - Iitooda
+    - Iit
+- osis: Lam
+  texts:
+    - Heareega
+    - Hea
+- osis: Rev
+  texts:
+    - Giidaheachta
+    - Giidaheechta
+    - Giid
+    - Gid
+- osis: Deut
+  texts:
+    - Giipkeata Diigheanda
+    - Gip
+- osis: Josh
+  texts:
+    - Yoshuwa
+    - Yos
+- osis: Judg
+  texts:
+    - Fuga Laja Girgweaguutka
+    - Fug
+- osis: Ruth
+  texts:
+    - Ruti
+    - Rut
+- osis: Isa
+  texts:
+    - Isaya
+    - Isa
+- osis: 1Sam
+  texts:
+    - 1 Samweli
+    - 1 Sam
+    - 1. Samweli
+    - 1. Sam
+- osis: 2Sam
+  texts:
+    - 2 Samweli
+    - 2 Sam
+    - 2. Samweli
+    - 2. Sam
+- osis: 1Kgs
+  texts:
+    - 1 Sugoodiga
+    - 1 Sug
+    - 1. Sugoodiga
+    - 1. Sug
+- osis: 2Kgs
+  texts:
+    - 2 Sugoodiga
+    - 2 Sug
+    - 2. Sugoodiga
+    - 2. Sug
+- osis: 1Chr
+  texts:
+    - 1 Damanyoojiga
+    - 1 Dam
+    - 1. Damanyoojiga
+    - 1. Dam
+- osis: 2Chr
+  texts:
+    - 2 Damanyoojiga
+    - 2 Dam
+    - 2. Damanyoojiga
+    - 2. Dam
+- osis: Ezra
+  texts:
+    - Esra
+    - Esr
+- osis: Neh
+  texts:
+    - Nehemiya
+    - Neh
+- osis: Esth
+  texts:
+    - Esta
+    - Est
+- osis: Job
+  texts:
+    - Ayubu
+    - Ayu
+- osis: Ps
+  texts:
+    - Nyiigheega
+    - Nyi
+- osis: Prov
+  texts:
+    - Ghwasiildeanga
+    - Ghwa
+- osis: Eccl
+  texts:
+    - Reekusiinda
+    - Ree
+- osis: Song
+  texts:
+    - Sarmeeda Sulemani
+    - Sar
+- osis: Jer
+  texts:
+    - Yeremiya
+    - Yer
+- osis: Ezek
+  texts:
+    - Esekieli
+    - Ese
+- osis: Dan
+  texts:
+    - Danieli
+    - Dan
+- osis: Hos
+  texts:
+    - Hoseya
+    - Hos
+- osis: Joel
+  texts:
+    - Yoeli
+    - Yoe
+- osis: Amos
+  texts:
+    - Amosi
+    - Amo
+- osis: Obad
+  texts:
+    - Obadiya
+    - Oba
+- osis: Jonah
+  texts:
+    - Yona
+    - Yon
+- osis: Mic
+  texts:
+    - Mika
+    - MiK
+- osis: Nah
+  texts:
+    - Nahumu
+    - Nah
+- osis: Hab
+  texts:
+    - Habakuki
+    - Hab
+- osis: Zeph
+  texts:
+    - Sefaniya
+    - Sef
+- osis: Hag
+  texts:
+    - Hagayi
+    - Hag
+- osis: Zech
+  texts:
+    - Sakariya
+    - Sak
+- osis: Mal
+  texts:
+    - Malaki
+    - Mal
+- osis: Matt
+  texts:
+    - Mattayo
+    - Matayo
+    - Mat
+- osis: Mark
+  texts:
+    - Marko
+    - Mark
+    - Mar
+- osis: Luke
+  texts:
+    - Lukka
+    - Luka
+    - Luk
+- osis: 1John
+  texts:
+    - 1Yoh
+- osis: 2John
+  texts:
+    - 2Yoh
+- osis: 3John
+  texts:
+    - 3 Yohaana
+    - 3 Yohana
+    - 3 Yoh
+    - 3Yoh
+- osis: 1John
+  texts:
+    - 1 Yohaana
+    - 1 Yohana
+    - 1 Yoh
+    - 1. Yohaana
+    - 1. Yohana
+    - 1. Yoh
+- osis: 2John
+  texts:
+    - 2 Yohaana
+    - 2 Yohana
+    - 2 Yoh
+    - 2. Yohaana
+    - 2. Yohana
+    - 2. Yoh
+- osis: John
+  texts:
+    - Yohaana
+    - Yohana
+    - Yoh
+- osis: Acts
+  texts:
+    - Gadiyeeda Giijasoodiga
+    - Gadi
+    - Gad
+- osis: Rom
+  texts:
+    - Ruumi
+    - Rumi
+    - Ruum
+    - Rum
+- osis: 1Cor
+  texts:
+    - 1 Goriinto
+    - 1 Gorinto
+    - 1 Gor
+    - 1. Goriinto
+    - 1. Gorinto
+    - 1. Gor
+- osis: 2Cor
+  texts:
+    - 2 Goriinto
+    - 2 Gorinto
+    - 2 Gor
+    - 2. Goriinto
+    - 2. Gorinto
+    - 2. Gor
+- osis: 1Cor
+  texts:
+    - 1Gor
+- osis: 2Cor
+  texts:
+    - 2Gor
+- osis: Col
+  texts:
+    - Golosaayi
+    - Golosayi
+    - Gol
+- osis: Gal
+  texts:
+    - Galattiya
+    - Galatiya
+    - Gal
+- osis: Eph
+  texts:
+    - Efeeso
+    - Efeso
+    - Efe
+- osis: Phil
+  texts:
+    - Filippi
+    - Filipi
+    - Filp
+    - Fil
+- osis: 1Thess
+  texts:
+    - 1 Desaloniikke
+    - 1 Desalonike
+    - 1 Des
+    - 1. Desaloniikke
+    - 1. Desalonike
+    - 1. Des
+- osis: 2Thess
+  texts:
+    - 2 Desaloniikke
+    - 2 Desalonike
+    - 2 Des
+    - 2. Desaloniikke
+    - 2. Desalonike
+    - 2. Des
+- osis: 1Thess
+  texts:
+    - 1Des
+- osis: 2Thess
+  texts:
+    - 2Des
+- osis: 1Tim
+  texts:
+    - 1 Dimotteo
+    - 1 Dimoteo
+    - 1 Dim
+    - 1. Dimotteo
+    - 1. Dimoteo
+    - 1. Dim
+- osis: 1Tim
+  texts:
+    - 1Dim
+- osis: 2Tim
+  texts:
+    - 2 Dimoteo
+    - 2 Dim
+    - 2. Dimoteo
+    - 2. Dim
+- osis: 2Tim
+  texts:
+    - 2Dim
+- osis: Titus
+  texts:
+    - Ditto
+    - Dito
+    - Dit
+- osis: Phlm
+  texts:
+    - Filimoni
+    - Filimoon
+    - File
+    - Film
+- osis: Heb
+  texts:
+    - Ebraniya
+    - Ebr
+- osis: Jas
+  texts:
+    - Yakkobo
+    - Yakobo
+    - Yak
+- osis: 1Pet
+  texts:
+    - 1 Betaro
+    - 1 Betro
+    - 1 Bet
+    - 1. Betaro
+    - 1. Betro
+    - 1. Bet
+- osis: 2Pet
+  texts:
+    - 2 Betaro
+    - 2 Betro
+    - 2 Bet
+    - 2. Betaro
+    - 2. Betro
+    - 2. Bet
+- osis: 1Pet
+  texts:
+    - 1Bet
+- osis: 2Pet
+  texts:
+    - 2Bet
+- osis: Jude
+  texts:
+    - Yuuda
+    - Yuda
+    - Yud

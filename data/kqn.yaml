@@ -1,0 +1,120 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Lumwekesho
+      - Lum
+  - osis: Matt
+    texts:
+      - Mateo
+      - Mat
+  - osis: Mark
+    texts:
+      - Mako
+  - osis: Luke
+    texts:
+      - Luka
+      - Lu
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yoano
+      - Yoa
+  - osis: Acts
+    texts:
+      - Byubilo
+      - Byu
+  - osis: Rom
+    texts:
+      - Loma
+      - Lo
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Kolinda
+      - Ko
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - kolinda
+      - Ko
+  - osis: Col
+    texts:
+      - Kolose
+      - Kolo
+  - osis: Gal
+    texts:
+      - Ngalatiya
+      - Nga
+  - osis: Eph
+    texts:
+      - Efisesa
+      - Efi
+  - osis: Phil
+    texts:
+      - Filipai
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonika
+      - Tesa
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Timoti
+      - Timo
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+      - Tim
+  - osis: Titus
+    texts:
+      - Titusa
+      - Titu
+  - osis: Phlm
+    texts:
+      - Filemonyi
+      - File
+  - osis: Heb
+    texts:
+      - Bahebelu
+      - Hebe
+  - osis: Jas
+    texts:
+      - Yakoba
+      - Yako
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petelo
+      - Pe
+  - osis: Jude
+    texts:
+      - Yuda
+      - Yu
+translations:
+  - KNTP

@@ -1,0 +1,102 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - ᒐᓂᓯᔅ
+  - osis: Exod
+    texts:
+      - ᐊᒃᓱᑕᔅ
+  - osis: Rev
+    texts:
+      - ᒋᔅᒐᔨᑕᑯᑕᒐᐅᓐ
+  - osis: Ps
+    texts:
+      - ᑎᐱᑦ ᐅᓂᑭᒧᐅᓇ
+  - osis: Matt
+    texts:
+      - ᒪᑎᔪᐤ
+  - osis: Mark
+    texts:
+      - ᒪᕐᒃ
+  - osis: Luke
+    texts:
+      - ᓗᒃ
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - ᒠᓐ
+  - osis: Acts
+    texts:
+      - ᐊᑈᔅᑕᓇᒡ
+  - osis: Rom
+    texts:
+      - ᕈᒪᓇ
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - ᑯᕆᓐᑎᔭᓇ
+  - osis: Col
+    texts:
+      - ᑯᓚᓯᔭᓇ
+  - osis: Gal
+    texts:
+      - ᑲᓚᓯᔭᓇ
+  - osis: Eph
+    texts:
+      - ᐃᐱᓯᔭᓇ
+  - osis: Phil
+    texts:
+      - ᐱᓕᐱᔭᓇ
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - ᑕᓴᓗᓂᔭᓇ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - ᑎᒧᑎ
+  - osis: Titus
+    texts:
+      - ᑕᐃᑕᔅ
+  - osis: Phlm
+    texts:
+      - ᐸᐃᓕᒪᓐ
+  - osis: Heb
+    texts:
+      - ᐃᑉᕈᐛ
+  - osis: Jas
+    texts:
+      - ᒋᒥᔅ
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - ᐱᑕᕐ
+  - osis: Jude
+    texts:
+      - ᒍᑦ
+translations:
+  - NSK

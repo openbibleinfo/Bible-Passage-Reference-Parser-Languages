@@ -1,0 +1,441 @@
+- osis: Gen
+  texts:
+    - Senesis
+    - Sen.
+- osis: Exod
+  texts:
+    - Eksodus
+    - Eks.
+- osis: Lev
+  texts:
+    - Lipai
+    - Lip.
+- osis: Num
+  texts:
+    - Nempe Kan
+    - Nempe
+- osis: Lam
+  texts:
+    - Koulen Kedepwidepw Kan
+    - Koul.
+- osis: Rev
+  texts:
+    - Kaudiahl
+    - Kaudial
+    - Kaud.
+- osis: Deut
+  texts:
+    - Deuderonomi
+    - Deud.
+- osis: Josh
+  texts:
+    - Sosua
+    - Sos.
+- osis: Judg
+  texts:
+    - Sounkopwung Kan
+- osis: Ruth
+  texts:
+    - Rud
+- osis: Isa
+  texts:
+    - Aiseia
+    - Ais.
+- osis: 1Sam
+  texts:
+    - 1 Samuel
+    - 1 Sam.
+    - 1. Samuel
+    - 1. Sam.
+    - Men Samuel
+    - Men Sam.
+    - Men. Samuel
+    - Men. Sam.
+- osis: 2Sam
+  texts:
+    - 2 Samuel
+    - 2 Sam.
+    - 2. Samuel
+    - 2. Sam.
+    - Men Samuel
+    - Men Sam.
+    - Men. Samuel
+    - Men. Sam.
+- osis: 1Kgs
+  texts:
+    - 1 Nanmwarki Kan
+    - 1 Nan.
+    - 1. Nanmwarki Kan
+    - 1. Nan.
+    - Men Nanmwarki Kan
+    - Men Nan.
+    - Men. Nanmwarki Kan
+    - Men. Nan.
+- osis: 2Kgs
+  texts:
+    - 2 Nanmwarki Kan
+    - 2 Nan.
+    - 2. Nanmwarki Kan
+    - 2. Nan.
+    - Men Nanmwarki Kan
+    - Men Nan.
+    - Men. Nanmwarki Kan
+    - Men. Nan.
+- osis: 1Chr
+  texts:
+    - 1 Kronikel
+    - 1 Kron.
+    - 1. Kronikel
+    - 1. Kron.
+    - Men Kronikel
+    - Men Kron.
+    - Men. Kronikel
+    - Men. Kron.
+- osis: 2Chr
+  texts:
+    - 2 Kronikel
+    - 2 Kron.
+    - 2. Kronikel
+    - 2. Kron.
+    - Men Kronikel
+    - Men Kron.
+    - Men. Kronikel
+    - Men. Kron.
+- osis: Ezra
+  texts:
+    - Esra
+- osis: Neh
+  texts:
+    - Nehmaia
+    - Neh.
+- osis: Esth
+  texts:
+    - Ester
+    - Est.
+- osis: Job
+  texts:
+    - Sohp
+- osis: Prov
+  texts:
+    - Lepin Padahk Audapan Kan
+    - Lep.
+- osis: Eccl
+  texts:
+    - Eklesiasdes
+    - Ekl.
+- osis: Song
+  texts:
+    - Melkahkahn Melkahka Kan
+    - M.M.K.
+- osis: Ps
+  texts:
+    - Melkahka Kan
+    - Psalm
+    - Mel.
+    - Ps.
+- osis: Jer
+  texts:
+    - Seremaia
+    - Ser.
+- osis: Ezek
+  texts:
+    - Esekiel
+    - Ese.
+- osis: Dan
+  texts:
+    - Daniel
+    - Dan.
+- osis: Hos
+  texts:
+    - Oseia
+    - Os.
+- osis: Joel
+  texts:
+    - Joel
+- osis: Amos
+  texts:
+    - Eimwos
+    - Ei.
+- osis: Obad
+  texts:
+    - Opadaia
+    - Op.
+- osis: Jonah
+  texts:
+    - Sona
+- osis: Mic
+  texts:
+    - Maika
+- osis: Nah
+  texts:
+    - Nahum
+    - Nah.
+- osis: Hab
+  texts:
+    - Apakuk
+    - Apak.
+- osis: Zeph
+  texts:
+    - Sepanaia
+    - Sep.
+- osis: Hag
+  texts:
+    - Akkai
+    - Ak.
+- osis: Zech
+  texts:
+    - Sekaraia
+    - Sek.
+- osis: Mal
+  texts:
+    - Malakai
+    - Mal.
+- osis: Matt
+  texts:
+    - Matäus
+    - Madiu
+    - Mad.
+    - Mat
+- osis: Mark
+  texts:
+    - Markus
+    - Mark
+    - Mar
+- osis: Luke
+  texts:
+    - Lukas
+    - Luk
+- osis: 1John
+  texts:
+    - Ioanes I
+- osis: 2John
+  texts:
+    - Ioanes II
+- osis: 3John
+  texts:
+    - Ioanes III
+    - 3 Sohn
+    - 3 Ioa
+- osis: 1John
+  texts:
+    - 1 Sohn
+    - 1 Ioa
+    - 1. Sohn
+    - 1. Ioa
+    - Men Sohn
+    - Men Ioa
+    - Men. Sohn
+    - Men. Ioa
+- osis: 2John
+  texts:
+    - 2 Sohn
+    - 2 Ioa
+    - 2. Sohn
+    - 2. Ioa
+    - Men Sohn
+    - Men Ioa
+    - Men. Sohn
+    - Men. Ioa
+- osis: John
+  texts:
+    - Ioanes
+    - Sohn
+    - Ioa
+- osis: Acts
+  texts:
+    - Wiewia Kan
+    - Wiawia
+    - Wie.
+    - Wia
+- osis: Rom
+  texts:
+    - Men Rom
+    - Rom
+- osis: 1Cor
+  texts:
+    - 1 Korint I
+    - 1 Korint
+    - 1 Kor.
+    - 1 Kor
+    - 1. Korint I
+    - 1. Korint
+    - 1. Kor.
+    - 1. Kor
+    - Men Korint I
+    - Men Korint
+    - Men Kor.
+    - Men Kor
+    - Men. Korint I
+    - Men. Korint
+    - Men. Kor.
+    - Men. Kor
+- osis: 2Cor
+  texts:
+    - 2 Korint II
+    - 2 Korint
+    - 2 Kor.
+    - 2 Kor
+    - 2. Korint II
+    - 2. Korint
+    - 2. Kor.
+    - 2. Kor
+    - Men Korint II
+    - Men Korint
+    - Men Kor.
+    - Men Kor
+    - Men. Korint II
+    - Men. Korint
+    - Men. Kor.
+    - Men. Kor
+- osis: Col
+  texts:
+    - Men Kolose
+    - Kolose
+    - Kol.
+    - Kol
+- osis: Gal
+  texts:
+    - Men Kalesia
+    - Kalesia
+    - Kal.
+    - Kal
+- osis: Eph
+  texts:
+    - Men Episus
+    - Episos
+    - Epis
+    - Ep.
+- osis: Phil
+  texts:
+    - Men Pilipi
+    - Pilipai
+    - Pilipi
+    - Pil.
+- osis: 1Thess
+  texts:
+    - 1 Tesalonik I
+    - 1 Deselonika
+    - 1 Des.
+    - 1 Tes
+    - 1. Tesalonik I
+    - 1. Deselonika
+    - 1. Des.
+    - 1. Tes
+    - Men Tesalonik I
+    - Men Deselonika
+    - Men Des.
+    - Men Tes
+    - Men. Tesalonik I
+    - Men. Deselonika
+    - Men. Des.
+    - Men. Tes
+- osis: 2Thess
+  texts:
+    - 2 Tesalonik II
+    - 2 Deselonika
+    - 2 Des.
+    - 2 Tes
+    - 2. Tesalonik II
+    - 2. Deselonika
+    - 2. Des.
+    - 2. Tes
+    - Men Tesalonik II
+    - Men Deselonika
+    - Men Des.
+    - Men Tes
+    - Men. Tesalonik II
+    - Men. Deselonika
+    - Men. Des.
+    - Men. Tes
+- osis: 1Tim
+  texts:
+    - 1 Timoty
+    - 1 Tim.
+    - 1 Tim
+    - 1. Timoty
+    - 1. Tim.
+    - 1. Tim
+    - Men Timoty
+    - Men Tim.
+    - Men Tim
+    - Men. Timoty
+    - Men. Tim.
+    - Men. Tim
+- osis: 2Tim
+  texts:
+    - 2 Timoty
+    - 2 Tim.
+    - 2 Tim
+    - 2. Timoty
+    - 2. Tim.
+    - 2. Tim
+    - Men Timoty
+    - Men Tim.
+    - Men Tim
+    - Men. Timoty
+    - Men. Tim.
+    - Men. Tim
+- osis: 1Tim
+  texts:
+    - Timoteus I
+- osis: 2Tim
+  texts:
+    - Timoteus II
+- osis: Titus
+  texts:
+    - Taitus
+    - Tait.
+    - Titus
+    - Tit
+- osis: Phlm
+  texts:
+    - Pailimwon
+    - Pilemon
+    - Pail.
+- osis: Heb
+  texts:
+    - Men Ipru
+    - Ipru
+- osis: Jas
+  texts:
+    - Iakopus
+    - Seims
+    - Iak
+- osis: 1Pet
+  texts:
+    - 1 Piter
+    - 1 Pit.
+    - 1 Pet
+    - 1. Piter
+    - 1. Pit.
+    - 1. Pet
+    - Men Piter
+    - Men Pit.
+    - Men Pet
+    - Men. Piter
+    - Men. Pit.
+    - Men. Pet
+- osis: 2Pet
+  texts:
+    - 2 Piter
+    - 2 Pit.
+    - 2 Pet
+    - 2. Piter
+    - 2. Pit.
+    - 2. Pet
+    - Men Piter
+    - Men Pit.
+    - Men Pet
+    - Men. Piter
+    - Men. Pit.
+    - Men. Pet
+- osis: 1Pet
+  texts:
+    - Petrus I
+- osis: 2Pet
+  texts:
+    - Petrus II
+- osis: Jude
+  texts:
+    - Iudas
+    - Sud

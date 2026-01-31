@@ -1,0 +1,455 @@
+default:
+  1Chr:
+    long: Α΄ ΧΡΟΝΙΚΩΝ (Ή ΠΑΡΑΛΕΙΠΟΜΕΝΩΝ Α΄)
+    short: Α΄ Χρ
+  1Cor:
+    long: Προσ Κορινθιουσ Α΄
+    short: Α΄ Κορ
+  1Esd:
+    long: Α΄ Εσδρασ
+    short: Α΄ Εσδ
+  1John:
+    long: Α΄ Ιωαννου
+    short: Α΄ Ιω
+  1Kgs:
+    long: Α΄ ΒΑΣΙΛΕΩΝ (ή ΒΑΣΙΛΕΙΩΝ Γ΄)
+    short: Α΄ Βασ
+  1Macc:
+    long: Α΄ Μακκαβαιων
+    short: Α΄ Μακ
+  1Pet:
+    long: Α΄ Πετρου
+    short: Α΄ Πε
+  1Sam:
+    long: Α΄ ΣΑΜΟΥΗΛ (ή ΒΑΣΙΛΕΙΩΝ Α΄)
+    short: Α΄ Σαμ
+  1Thess:
+    long: Προσ Θεσσαλονικεισ Α΄
+    short: Α΄ Θεσ
+  1Tim:
+    long: Α΄ Προσ Τιμοθεον
+    short: Α΄ Τιμ
+  2Chr:
+    long: Β΄ ΧΡΟΝΙΚΩΝ (Ή ΠΑΡΑΛΕΙΠΟΜΕΝΩΝ Β΄)
+    short: Β΄ Χρ
+  2Cor:
+    long: Προσ Κορινθιουσ Β΄
+    short: Β΄ Κορ
+  2John:
+    long: Β΄ Ιωαννου
+    short: Β΄ Ιω
+  2Kgs:
+    long: Β΄ ΒΑΣΙΛΕΩΝ (ή ΒΑΣΙΛΕΙΩΝ Δ΄)
+    short: Β΄ Βασ
+  2Macc:
+    long: Β΄ Μακκαβαιων
+    short: Β΄ Μακ
+  2Pet:
+    long: Β΄ Πετρου
+    short: Β΄ Πε
+  2Sam:
+    long: Β΄ ΣΑΜΟΥΗΛ (ή ΒΑΣΙΛΕΙΩΝ Β΄)
+    short: Β΄ Σαμ
+  2Thess:
+    long: Προσ Θεσσαλονικεισ Β΄
+    short: Β΄ Θεσ
+  2Tim:
+    long: Β΄ Προσ Τιμοθεον
+    short: Β΄ Τιμ
+  3John:
+    long: Γ΄ Ιωαννου
+    short: Γ΄ Ιω
+  3Macc:
+    long: Γ΄ Μακκαβαιων
+    short: Γ΄ Μακ
+  Acts:
+    long: Πραξεισ Αποστολων
+    short: Πραξ
+  Amos:
+    long: Αμωσ
+    short: Αμ
+  Bar:
+    long: Βαρουχ
+    short: Βαρ
+  Col:
+    long: Προσ Κολοσσαεισ
+    short: Κολ
+  Dan:
+    long: Δανιηλ
+    short: Δαν
+  DanGr:
+    long: Δανιηλ G
+    short: Δανλ
+  Deut:
+    long: Δευτερονομιον
+    short: Δτ
+  Eccl:
+    long: Εκκλησιαστησ
+    short: Εκ
+  EpJer:
+    long: Επιστολη Ιερεμιου
+    short: ΕπΙ
+  Eph:
+    long: Προσ Εφεσιουσ
+    short: Εφ
+  Esth:
+    long: Εσθηρ
+    short: Εσθ
+  EsthGr:
+    long: Εσθηρ G
+    short: Εσθρ
+  Exod:
+    long: Εξοδοσ
+    short: Εξ
+  Ezek:
+    long: Ιεζεκιηλ
+    short: Ιεζ
+  Ezra:
+    long: ΕΣΔΡΑΣ (ή Β΄ ΕΣΔΡΑΣ)
+    short: Εσδ
+  Gal:
+    long: Προσ Γαλατασ
+    short: Γαλ
+  Gen:
+    long: Γενεσισ
+    short: Γεν
+  Hab:
+    long: Αββακουμ
+    short: Αβ
+  Hag:
+    long: Αγγαιοσ
+    short: Αγγ
+  Heb:
+    long: Προσ Εβραιουσ
+    short: Εβρ
+  Hos:
+    long: Ωσηε
+    short: Ωσ
+  Isa:
+    long: Ησαϊασ
+    short: Ησ
+  Jas:
+    long: Ιακωβου
+    short: Ιακ
+  Jdt:
+    long: Ιουδιθ
+    short: Ιδθ
+  Jer:
+    long: Ιερεμιασ
+    short: Ιερ
+  Job:
+    long: Ιωβ
+    short: Ιωβ
+  Joel:
+    long: Ιωηλ
+    short: Ιλ
+  John:
+    long: Κατα Ιωαννην
+    short: Ιω
+  Jonah:
+    long: Ιωνασ
+    short: Ιων
+  Josh:
+    long: Ιησουσ Του Ναυη
+    short: Ιησ
+  Jude:
+    long: Ιουδα
+    short: Ιουδα
+  Judg:
+    long: Κριται
+    short: Κρ
+  Lam:
+    long: Θρηνοι
+    short: Θρ
+  Lev:
+    long: Λευιτικον
+    short: Λευ
+  Luke:
+    long: Κατα Λουκαν
+    short: Λκ
+  Mal:
+    long: Μαλαχιασ
+    short: Μαλ
+  Mark:
+    long: Κατα Μαρκον
+    short: Μκ
+  Matt:
+    long: Κατα Ματθαιον
+    short: Μτ
+  Mic:
+    long: Μιχαιασ
+    short: Μιχ
+  Nah:
+    long: Ναουμ
+    short: Νμ
+  Neh:
+    long: Νεεμιασ
+    short: Νε
+  Num:
+    long: Αριθμοι
+    short: Αρ
+  Obad:
+    long: Οβδιου
+    short: Οβδ
+  Phil:
+    long: Προσ Φιλιππησιουσ
+    short: Φιλ
+  Phlm:
+    long: Προσ Φιλημονα
+    short: Φλμ
+  Prov:
+    long: Παροιμιαι
+    short: Παρ
+  Ps:
+    long: Ψαλμοι
+    short: Ψλ
+  Rev:
+    long: Αποκαλυψη Ιωαννου
+    short: Απ
+  Rom:
+    long: Προσ Ρωμαιουσ
+    short: Ρωμ
+  Ruth:
+    long: Ρουθ
+    short: Ρουθ
+  Sir:
+    long: Σοφια Σειραχ
+    short: Σειρ
+  Song:
+    long: Ασμα Ασματων
+    short: Ασμ
+  Titus:
+    long: Προσ Τιτον
+    short: Τιτ
+  Tob:
+    long: Τωβιτ
+    short: Τωβ
+  Wis:
+    long: Σοφια Σολομωντοσ
+    short: Σολ
+  Zech:
+    long: Ζαχαριασ
+    short: Ζαχ
+  Zeph:
+    long: Σοφονιασ
+    short: Σφν
+translations:
+  fpb:
+    1Chr:
+      short: Α΄ ΧΡΟΝΙΚΩΝ (Ή ΠΑΡΑΛΕΙΠΟΜΕΝΩΝ Α΄)
+    1Cor:
+      short: Προσ Κορινθιουσ Α΄
+    1John:
+      short: Α΄ Ιωαννου
+    1Kgs:
+      short: Α΄ ΒΑΣΙΛΕΩΝ (ή ΒΑΣΙΛΕΙΩΝ Γ΄)
+    1Pet:
+      short: Α΄ Πετρου
+    1Sam:
+      short: Α΄ ΣΑΜΟΥΗΛ (ή ΒΑΣΙΛΕΙΩΝ Α΄)
+    1Thess:
+      short: Προσ Θεσσαλονικεισ Α΄
+    1Tim:
+      short: Α΄ Προσ Τιμοθεον
+    2Chr:
+      short: Β΄ ΧΡΟΝΙΚΩΝ (Ή ΠΑΡΑΛΕΙΠΟΜΕΝΩΝ Β΄)
+    2Cor:
+      short: Προσ Κορινθιουσ Β΄
+    2John:
+      short: Β΄ Ιωαννου
+    2Kgs:
+      short: Β΄ ΒΑΣΙΛΕΩΝ (ή ΒΑΣΙΛΕΙΩΝ Δ΄)
+    2Pet:
+      short: Β΄ Πετρου
+    2Sam:
+      short: Β΄ ΣΑΜΟΥΗΛ (ή ΒΑΣΙΛΕΙΩΝ Β΄)
+    2Thess:
+      short: Προσ Θεσσαλονικεισ Β΄
+    2Tim:
+      short: Β΄ Προσ Τιμοθεον
+    3John:
+      short: Γ΄ Ιωαννου
+    Acts:
+      short: Πραξεισ Αποστολων
+    Amos:
+      short: Αμωσ
+    Col:
+      short: Προσ Κολοσσαεισ
+    Dan:
+      short: Δανιηλ
+    Deut:
+      short: Δευτερονομιον
+    Eccl:
+      short: Εκκλησιαστησ
+    Eph:
+      short: Προσ Εφεσιουσ
+    Esth:
+      short: Εσθηρ
+    Exod:
+      short: Εξοδοσ
+    Ezek:
+      short: Ιεζεκιηλ
+    Ezra:
+      short: ΕΣΔΡΑΣ (ή Β΄ ΕΣΔΡΑΣ)
+    Gal:
+      short: Προσ Γαλατασ
+    Gen:
+      short: Γενεσισ
+    Hab:
+      short: Αββακουμ
+    Hag:
+      short: Αγγαιοσ
+    Heb:
+      short: Προσ Εβραιουσ
+    Hos:
+      short: Ωσηε
+    Isa:
+      short: Ησαϊασ
+    Jas:
+      short: Ιακωβου
+    Jer:
+      short: Ιερεμιασ
+    Joel:
+      short: Ιωηλ
+    John:
+      short: Κατα Ιωαννην
+    Jonah:
+      short: Ιωνασ
+    Josh:
+      short: Ιησουσ Του Ναυη
+    Judg:
+      short: Κριται
+    Lam:
+      short: Θρηνοι
+    Lev:
+      short: Λευιτικον
+    Luke:
+      short: Κατα Λουκαν
+    Mal:
+      short: Μαλαχιασ
+    Mark:
+      short: Κατα Μαρκον
+    Matt:
+      short: Κατα Ματθαιον
+    Mic:
+      short: Μιχαιασ
+    Nah:
+      short: Ναουμ
+    Neh:
+      short: Νεεμιασ
+    Num:
+      short: Αριθμοι
+    Obad:
+      short: Οβδιου
+    Phil:
+      short: Προσ Φιλιππησιουσ
+    Phlm:
+      short: Προσ Φιλημονα
+    Prov:
+      short: Παροιμιαι
+    Ps:
+      short: Ψαλμοι
+    Rev:
+      short: Αποκαλυψη Ιωαννου
+    Rom:
+      short: Προσ Ρωμαιουσ
+    Song:
+      short: Ασμα Ασματων
+    Titus:
+      short: Προσ Τιτον
+    Zech:
+      short: Ζαχαριασ
+    Zeph:
+      short: Σοφονιασ
+  lmgnt:
+    1Cor:
+      long: Πpωth Eπiσtoλh Πpoσ Kopinθioyσ
+      short: Πpωth Eπiσtoλh Πpoσ Kopinθioyσ
+    1John:
+      long: Πpωth Eπiσtoλh Iωannoy
+      short: Πpωth Eπiσtoλh Iωannoy
+    1Pet:
+      long: Πpωth Eπiσtoλh Πetpoy
+      short: Πpωth Eπiσtoλh Πetpoy
+    1Thess:
+      long: Πpωth Eπiσtoλh Πpoσ Θeσσaλonikeiσ
+      short: Πpωth Eπiσtoλh Πpoσ Θeσσaλonikeiσ
+    1Tim:
+      long: Πpωth Eπiσtoλh Πpoσ Timoθeon
+      short: Πpωth Eπiσtoλh Πpoσ Timoθeon
+    2Cor:
+      long: Δeytepη Eπiσtoλh Πpoσ Kopinθioyσ
+      short: Δeytepη Eπiσtoλh Πpoσ Kopinθioyσ
+    2John:
+      long: Δeyteph Eπiσtoλh Iωannoy
+      short: Δeyteph Eπiσtoλh Iωannoy
+    2Pet:
+      long: Δeyteph Eπiσtoλh Πetpoy
+      short: Δeyteph Eπiσtoλh Πetpoy
+    2Thess:
+      long: Δeyteph Eπiσtoλh Πpoσ Θeσσaλonikeiσ
+      short: Δeyteph Eπiσtoλh Πpoσ Θeσσaλonikeiσ
+    2Tim:
+      long: Δeyteph Eπiσtoλh Πpoσ Timoθeon
+      short: Δeyteph Eπiσtoλh Πpoσ Timoθeon
+    3John:
+      long: Tpith Eπiσtoλh Iωannoy
+      short: Tpith Eπiσtoλh Iωannoy
+    Acts:
+      long: Πpaξeiσ Tωn Aπoσtoλωn
+      short: Πpaξeiσ Tωn Aπoσtoλωn
+    Col:
+      long: Eπiσtoλh Πpoσ Koλoσσaeiσ
+      short: Eπiσtoλh Πpoσ Koλoσσaeiσ
+    Eph:
+      long: Eπiσtoλh Πpoσ Eφeσioyσ
+      short: Eπiσtoλh Πpoσ Eφeσioyσ
+    Gal:
+      long: Eπiσtoλh Πpoσ Γaλataσ
+      short: Eπiσtoλh Πpoσ Γaλataσ
+    Heb:
+      long: Eπiσtoλh Πpoσ Ebpaioyσ
+      short: Eπiσtoλh Πpoσ Ebpaioyσ
+    Jas:
+      long: Eπiσtoλh Iakωboy
+      short: Eπiσtoλh Iakωboy
+    John:
+      long: To Kata Iωannhn Eyaγγeλio
+      short: To Kata Iωannhn Eyaγγeλio
+    Jude:
+      long: Eπiσtoλh Ioyδa
+      short: Eπiσtoλh Ioyδa
+    Luke:
+      long: To Kata Λoykan Eyaγγeλio
+      short: To Kata Λoykan Eyaγγeλio
+    Mark:
+      long: To Kata Μαρκον Eyaγγeλio
+      short: To Kata Μαρκον Eyaγγeλio
+    Matt:
+      long: To Kata Matθaion Eyaγγeλio
+      short: To Kata Matθaion Eyaγγeλio
+    Phil:
+      long: Eπiσtoλh Πpoσ Φiλiππhσioyσ
+      short: Eπiσtoλh Πpoσ Φiλiππhσioyσ
+    Phlm:
+      long: Eπiσtoλh Πpoσ Φiλhmona
+      short: Eπiσtoλh Πpoσ Φiλhmona
+    Rev:
+      long: Aπokaλyψh Toy Iωannoy
+      short: Aπokaλyψh Toy Iωannoy
+    Rom:
+      long: Eπiσtoλh Πpoσ Pωmaioyσ
+      short: Eπiσtoλh Πpoσ Pωmaioyσ
+    Titus:
+      long: Eπiσtoλh Πpoσ Titon
+      short: Eπiσtoλh Πpoσ Titon
+  smy1859:
+    Acts:
+      long: Praxis
+      short: Praxis
+    Luke:
+      long: Lucan
+      short: Lucan
+  ntv:
+    Rev:
+      long: Αποκαλυψισ Ιωαννου

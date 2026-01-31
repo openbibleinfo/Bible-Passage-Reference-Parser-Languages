@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 eCorinto
+    short: 1 Cor.
+  1John:
+    long: 1 Juan
+    short: 1 Juan
+  1Pet:
+    long: 1 Pedro
+    short: 1 Ped.
+  1Thess:
+    long: 1 eTesalonica
+    short: 1 Tes.
+  1Tim:
+    long: 1 Timoteo
+    short: 1 Tim.
+  2Cor:
+    long: 2 eCorinto
+    short: 2 Cor.
+  2John:
+    long: 2 Juan
+    short: 2 Juan
+  2Pet:
+    long: 2 Pedro
+    short: 2 Ped.
+  2Thess:
+    long: 2 eTesalonica
+    short: 2 Tes.
+  2Tim:
+    long: 2 Timoteo
+    short: 2 Tim.
+  3John:
+    long: 3 Juan
+    short: 3 Juan
+  Acts:
+    long: Hen enkaman anchichay
+    short: Apos.
+  Col:
+    long: eColosas
+    short: Col.
+  Eph:
+    long: iyEfeso
+    short: Efes.
+  Gal:
+    long: iGalacia
+    short: Gal.
+  Heb:
+    long: eHebreo
+    short: Heb.
+  Jas:
+    long: Jaime
+    short: Jai.
+  John:
+    long: Juan
+    short: Juan
+  Jude:
+    long: Juda
+    short: Juda
+  Luke:
+    long: Lucas
+    short: Luc.
+  Mark:
+    long: Marcos
+    short: Mar.
+  Matt:
+    long: Mateo
+    short: Mat.
+  Phil:
+    long: iFilipos
+    short: Fili.
+  Phlm:
+    long: Filemon
+    short: Film.
+  Rev:
+    long: Hen nepaka-ammu
+    short: HaJ.
+  Rom:
+    long: eRoma
+    short: Rom.
+  Titus:
+    long: Tito
+    short: Tit.

@@ -1,0 +1,250 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Genezo
+      - Gen
+  - osis: Exod
+    texts:
+      - Eliro
+  - osis: Lev
+    texts:
+      - Levidoj
+      - Lev
+  - osis: Num
+    texts:
+      - Nombroj
+      - Nom
+  - osis: Lam
+    texts:
+      - Plorkanto
+      - Plor
+  - osis: Rev
+    texts:
+      - Apokalipso
+      - Apok
+  - osis: Deut
+    texts:
+      - Readmono
+      - Read
+  - osis: Josh
+    texts:
+      - Josuo
+      - Jos
+  - osis: Judg
+    texts:
+      - Juĝistoj
+      - Jug
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis: Isa
+    texts:
+      - Jesaja
+      - Jes
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Reĝoj
+      - Reg
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Kroniko
+      - Kron
+  - osis: Ezra
+    texts:
+      - Ezra
+  - osis: Neh
+    texts:
+      - Neĥemja
+      - Neh
+  - osis: Esth
+    texts:
+      - Ester
+      - Est
+  - osis: Job
+    texts:
+      - Ijob
+  - osis: Ps
+    texts:
+      - Psalmaro
+      - Psalmoj
+  - osis: Prov
+    texts:
+      - Sentencoj
+      - Sent
+  - osis: Eccl
+    texts:
+      - Predikanto
+      - Pred
+  - osis: Song
+    texts:
+      - Alt Kanto
+      - Kanto
+  - osis: Jer
+    texts:
+      - Jeremia
+      - Jer
+  - osis: Ezek
+    texts:
+      - Jeĥezkel
+      - Jeĥ
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan
+  - osis: Hos
+    texts:
+      - Hoŝea
+      - Hoŝ
+  - osis: Joel
+    texts:
+      - Joel
+  - osis: Amos
+    texts:
+      - Amos
+  - osis: Obad
+    texts:
+      - Obadja
+      - Obas
+  - osis: Jonah
+    texts:
+      - Jona
+  - osis: Mic
+    texts:
+      - Miĥa
+  - osis: Nah
+    texts:
+      - Naĥum
+      - Naĥ
+  - osis: Hab
+    texts:
+      - Ĥabakuk
+      - Ĥab
+  - osis: Zeph
+    texts:
+      - Cefanja
+      - Cef
+  - osis: Hag
+    texts:
+      - Ĥagaj
+      - Ĥag
+  - osis: Zech
+    texts:
+      - Zeĥarja
+      - Zeĥ
+  - osis: Mal
+    texts:
+      - Malaĥi
+  - osis: Matt
+    texts:
+      - Mateo
+      - Mat
+  - osis: Mark
+    texts:
+      - Marko
+  - osis: Luke
+    texts:
+      - Luko
+  - osis: 3John
+    texts:
+      - 3 Johano
+      - 3 Joh
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Johano
+  - osis: Acts
+    texts:
+      - Agoj
+  - osis: Rom
+    texts:
+      - Romanoj
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintanoj
+      - Kor
+  - osis: Col
+    texts:
+      - Koloseanoj
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatoj
+      - Gal
+  - osis: Eph
+    texts:
+      - Efesanoj
+      - Efes
+  - osis: Phil
+    texts:
+      - Filipianoj
+      - Filip
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonikanoj
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+      - Tim
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filemon
+  - osis: Heb
+    texts:
+      - Hebreoj
+  - osis: Jas
+    texts:
+      - Jakobo
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petro
+  - osis: Jude
+    texts:
+      - Judas
+translations:
+  - ESP

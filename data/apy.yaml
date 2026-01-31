@@ -1,0 +1,308 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Jenexi
+      - Jen
+  - osis: Exod
+    texts:
+      - Exutu
+      - Exu
+  - osis: Lev
+    texts:
+      - Rewitiku
+      - Rew
+  - osis: Num
+    texts:
+      - Numeru
+      - Num
+  - osis: Lam
+    texts:
+      - Ramẽtasão
+      - Ram
+  - osis: Rev
+    texts:
+      - Apokaripxi
+      - Apo
+  - osis: Deut
+    texts:
+      - Teuteronomiu
+      - Teu
+  - osis: Josh
+    texts:
+      - Jozue
+      - Joz
+  - osis: Judg
+    texts:
+      - Juize
+      - Jui
+  - osis: Ruth
+    texts:
+      - Ruti
+      - Rut
+  - osis: Isa
+    texts:
+      - Izaja
+      - Iza
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samueu
+  - osis: 1Sam
+    texts:
+      - 1Sam
+  - osis: 2Sam
+    texts:
+      - 2Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Tuisa
+  - osis: 1Kgs
+    texts:
+      - 1Tui
+  - osis: 2Kgs
+    texts:
+      - 2Tui
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Koronika
+  - osis: 1Chr
+    texts:
+      - 1Kor
+  - osis: 2Chr
+    texts:
+      - 2Kor
+  - osis: Ezra
+    texts:
+      - Extara
+      - Ext
+  - osis: Neh
+    texts:
+      - Neemia
+      - Nee
+  - osis: Esth
+    texts:
+      - Exite
+      - Exi
+  - osis: Job
+    texts:
+      - Jo
+  - osis: Ps
+    texts:
+      - Saumu
+      - Sau
+  - osis: Prov
+    texts:
+      - Porowepio
+      - Por
+  - osis: Eccl
+    texts:
+      - Ekereziaxti
+      - Eke
+  - osis: Song
+    texts:
+      - Kãtiku
+      - Kãt
+  - osis: Jer
+    texts:
+      - Jeremia
+      - Jer
+  - osis: Ezek
+    texts:
+      - Ezekieu
+      - Ezek
+  - osis: Dan
+    texts:
+      - Tanieu
+      - Tan
+  - osis: Hos
+    texts:
+      - Ozeja
+      - Oze
+  - osis: Joel
+    texts:
+      - Joeu
+      - Joe
+  - osis: Amos
+    texts:
+      - Amoxi
+      - Amo
+  - osis: Obad
+    texts:
+      - Opatia
+      - Opa
+  - osis: Jonah
+    texts:
+      - Jona
+      - Jon
+  - osis: Mic
+    texts:
+      - Mikeja
+      - MiK
+  - osis: Nah
+    texts:
+      - Naum
+      - Nau
+  - osis: Hab
+    texts:
+      - Apakuke
+      - Apa
+  - osis: Zeph
+    texts:
+      - Sowonia
+      - Sow
+  - osis: Hag
+    texts:
+      - Ajeu
+      - Aje
+  - osis: Zech
+    texts:
+      - Zakaria
+      - Zak
+  - osis: Mal
+    texts:
+      - Marakia
+      - Mar
+  - osis: Matt
+    texts:
+      - Mateu
+      - Mat
+  - osis: Mark
+    texts:
+      - Maku
+      - Mak
+  - osis: Luke
+    texts:
+      - Ruka
+      - Ruk
+  - osis: 1John
+    texts:
+      - 1Jo
+  - osis: 2John
+    texts:
+      - 2Jo
+  - osis: 3John
+    texts:
+      - 3 João
+      - 3Jo
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - João
+  - osis: Acts
+    texts:
+      - Atos
+      - At
+  - osis: Rom
+    texts:
+      - Romanos
+      - Ro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korĩtiu
+  - osis: 1Cor
+    texts:
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - 2Ko
+  - osis: Col
+    texts:
+      - Koroxi
+      - Kor
+  - osis: Gal
+    texts:
+      - Karaxia
+      - Ka
+  - osis: Eph
+    texts:
+      - Epezu
+      - Ep
+  - osis: Phil
+    texts:
+      - Piripo
+      - Pi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaronika
+  - osis: 1Thess
+    texts:
+      - 1Tes
+  - osis: 2Thess
+    texts:
+      - 2Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteu
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Titu
+      - Tit
+  - osis: Phlm
+    texts:
+      - Piremõ
+      - Pir
+  - osis: Heb
+    texts:
+      - Epereu
+      - Eper
+  - osis: Jas
+    texts:
+      - Tiaku
+      - Tia
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peturu
+  - osis: 1Pet
+    texts:
+      - 1Pe
+  - osis: 2Pet
+    texts:
+      - 2Pe
+  - osis: Jude
+    texts:
+      - Juta
+      - Jut
+translations:
+  - APY

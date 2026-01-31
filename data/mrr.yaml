@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - तोहचीतव पोल्‍लोङ
+  - osis: Matt
+    texts:
+      - मत्याल
+  - osis: Mark
+    texts:
+      - मार्कल
+  - osis: Luke
+    texts:
+      - लूकाल
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - योहन
+  - osis: Acts
+    texts:
+      - बळयिर
+  - osis: Rom
+    texts:
+      - रोम सहरतोर
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - कुरिंततोर
+  - osis: Col
+    texts:
+      - कुलुसितोर
+  - osis: Gal
+    texts:
+      - गलातितोर
+  - osis: Eph
+    texts:
+      - इपिसुसतोर
+  - osis: Phil
+    texts:
+      - पिलिपितोर
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - तिसलुनितोर
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - तिमोति
+  - osis: Titus
+    texts:
+      - तीतुस
+  - osis: Phlm
+    texts:
+      - पिलेमोन
+  - osis: Heb
+    texts:
+      - इब्रितोर
+  - osis: Jas
+    texts:
+      - याकुब
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - पत्रु
+  - osis: Jude
+    texts:
+      - यहुदाल
+translations:
+  - MRR

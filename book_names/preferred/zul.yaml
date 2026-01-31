@@ -1,0 +1,393 @@
+default:
+  1Chr:
+    long: 1 IziKronike
+    short: 1 IziKr.
+  1Cor:
+    long: 1 Kwabasekorinte
+    short: 1 Kho.
+  1John:
+    long: 1 KaJohane
+    short: 1 Joh.
+  1Kgs:
+    long: 1 Amakhosi
+    short: 1 AmaKh.
+  1Pet:
+    long: 1 kaPetru
+    short: 1 Pet.
+  1Sam:
+    long: 1 Usamuweli
+    short: 1 Sam.
+  1Thess:
+    long: 1 kwabaseThesalonika
+    short: 1 The.
+  1Tim:
+    long: 1 KuThimothewu
+    short: 1 Thi.
+  2Chr:
+    long: 2 IziKronike
+    short: 2 IziKr.
+  2Cor:
+    long: 2 Kwabasekorinte
+    short: 2 Kho.
+  2John:
+    long: 2 Kajohane
+    short: 2 Joh.
+  2Kgs:
+    long: 2 Amakhosi
+    short: 2 AmaKh.
+  2Pet:
+    long: 2 kaPetru
+    short: 2 Pet.
+  2Sam:
+    long: 2 Usamuweli
+    short: 2 Sam.
+  2Thess:
+    long: 2 kwabaseThesalonika
+    short: 2 The.
+  2Tim:
+    long: 2 KuThimothewu
+    short: 2 Thi.
+  3John:
+    long: 3 Kajohane
+    short: 3 Joh.
+  Acts:
+    long: IzEnzo
+    short: IzE.
+  Amos:
+    long: U-Amose
+    short: Am.
+  Col:
+    long: KwabaseKolose
+    short: Khol.
+  Dan:
+    long: uDaniyeli
+    short: Dan.
+  Deut:
+    long: Uduteronomi
+    short: Dut.
+  Eccl:
+    long: UmShumayeli
+    short: Shum.
+  Eph:
+    long: Kwabase-Efesu
+    short: Ef.
+  Esth:
+    long: U-Esteri
+    short: Est.
+  Exod:
+    long: I-Eksodusi
+    short: Eks.
+  Ezek:
+    long: Uhezekeli
+    short: Hez.
+  Ezra:
+    long: U-Ezra
+    short: Ezra
+  Gal:
+    long: KwabaseGalathiya
+    short: Gal.
+  Gen:
+    long: Ugenesise
+    short: Gen.
+  Hab:
+    long: Uhabakuki
+    short: Hab.
+  Hag:
+    long: uHagayi
+    short: Hag.
+  Heb:
+    long: KumaHeberu
+    short: Heb.
+  Hos:
+    long: Hoseya
+    short: Hos.
+  Isa:
+    long: U-Isaya
+    short: Isaya
+  Jas:
+    long: EkaJakobe
+    short: Jak.
+  Jer:
+    long: Ujeremiya
+    short: Jer.
+  Job:
+    long: Ujobe
+    short: Jobe
+  Joel:
+    long: Ujoweli
+    short: Joweli
+  John:
+    long: Johane
+    short: Joh.
+  Jonah:
+    long: uJona
+    short: Jona
+  Josh:
+    long: Ujoshuwa
+    short: Josh.
+  Jude:
+    long: EkaJuda
+    short: Jud.
+  Judg:
+    long: AbAhluleli
+    short: AbAhl.
+  Lam:
+    long: IsiLilo
+    short: IsiLilo
+  Lev:
+    long: Ulevitikusi
+    short: Ilev.
+  Luke:
+    long: Luka
+    short: Luk.
+  Mal:
+    long: uMalaki
+    short: Mal.
+  Mark:
+    long: Marku
+    short: Mak.
+  Matt:
+    long: Mathewu
+    short: Mat.
+  Mic:
+    long: uMika
+    short: Mika
+  Nah:
+    long: uNahume
+    short: Nah.
+  Neh:
+    long: uNehemiya
+    short: Neh.
+  Num:
+    long: Unumeri
+    short: Inum.
+  Obad:
+    long: Obadiya
+    short: Ob.
+  Phil:
+    long: KwabaseFilipi
+    short: Fil.
+  Phlm:
+    long: KuFilemoni
+    short: Filem.
+  Prov:
+    long: IzAga
+    short: IzA.
+  Ps:
+    long: AmaHubo
+    short: AmaH.
+  Rev:
+    long: IsAmbulo
+    short: IsAmb.
+  Rom:
+    long: KwabaseRoma
+    short: Rom.
+  Ruth:
+    long: uRuthe
+    short: Ruthe
+  Song:
+    long: IsiHlabelelo seziHlabelelo
+    short: IsiHlab.
+  Titus:
+    long: KuThithu
+    short: Thit.
+  Zech:
+    long: Uzakariya
+    short: Uzak.
+  Zeph:
+    long: uZefaniya
+    short: Uzef.
+translations:
+  zul20:
+    1Chr:
+      long: 1 Izikhronike
+      short: 1 Izik.
+    1Cor:
+      long: 1 KwabaseKhorinte
+    1Kgs:
+      short: 1 Amak.
+    1Pet:
+      long: 1 KaPhethro
+      short: 1 Phe.
+    1Sam:
+      short: 1 Usam.
+    1Thess:
+      long: 1 KwabaseThesalonikha
+    2Chr:
+      long: 2 Izikhronike
+      short: 2 Izik.
+    2Cor:
+      long: 2 KwabaseKhorinte
+    2Kgs:
+      short: 2 Amak.
+    2Pet:
+      long: 2 KaPhethro
+      short: 2 Phe.
+    2Sam:
+      short: 2 Usam.
+    2Thess:
+      long: 2 KwabaseThesalonikha
+    Acts:
+      short: Izen.
+    Amos:
+      short: U-Amo.
+    Col:
+      long: KwabaseKholose
+    Dan:
+      short: Udan.
+    Deut:
+      long: Idutheronomi
+      short: Idut.
+    Eccl:
+      short: Umsh.
+    Eph:
+      short: Efe.
+    Esth:
+      short: U-Est.
+    Exod:
+      short: I-Eks.
+    Ezek:
+      short: Uhez.
+    Ezra:
+      short: U-Ezr.
+    Gen:
+      long: Igenesisi
+      short: Igen.
+    Hab:
+      long: uHabhakuki
+      short: Uhab.
+    Hag:
+      short: Uhag.
+    Heb:
+      long: KumaHebheru
+    Hos:
+      long: Uhoziya
+      short: Uhoz.
+    Isa:
+      long: U-Izaya
+      short: U-Iza.
+    Jer:
+      short: Ujer.
+    Job:
+      short: Ujob.
+    Joel:
+      short: Ujow.
+    John:
+      long: NgokukaJohane
+    Jonah:
+      short: Ujon.
+    Josh:
+      short: Ujos.
+    Judg:
+      long: Abehluleli
+      short: Abehl.
+    Lam:
+      short: Isil.
+    Lev:
+      long: Ilevithikhusi
+    Luke:
+      long: NgokukaLuka
+    Mal:
+      long: Umalakhi
+      short: Umal.
+    Mark:
+      long: NgokukaMakhu
+    Matt:
+      long: NgokukaMathewu
+    Mic:
+      long: Umikha
+      short: Umik.
+    Nah:
+      long: Unahumi
+      short: Unah.
+    Neh:
+      short: Uneh.
+    Num:
+      long: iNumeri
+    Obad:
+      long: U-Obhadiya
+      short: U-Obh.
+    Phil:
+      long: KwabaseFiliphi
+    Phlm:
+      short: Film.
+    Prov:
+      short: Izag.
+    Rev:
+      short: Isam.
+    Ruth:
+      long: Uruthi
+      short: Urut.
+    Song:
+      short: Isihl.
+    Zech:
+      long: Uzakhariya
+  zul59:
+    1Cor:
+      short: 1 Kor.
+    1Thess:
+      short: 1 Thes.
+    1Tim:
+      short: 1 Thim.
+    2Cor:
+      short: 2 Kor.
+    2Thess:
+      short: 2 Thes.
+    2Tim:
+      short: 2 Thim.
+    Col:
+      short: Kol.
+    Exod:
+      long: U-Eksodusi
+    Hos:
+      long: uHoseya
+    John:
+      long: NgokukaJohane
+    Jude:
+      short: Juda
+    Lev:
+      short: Lev.
+    Luke:
+      long: NgokukaLuka
+    Mark:
+      long: NgokukaMarku
+      short: Mark.
+    Matt:
+      long: NgokukaMathewu
+      short: Math.
+    Num:
+      short: Num.
+    Obad:
+      long: U-Obadiya
+    Titus:
+      short: Thith.
+    Zech:
+      short: Zak.
+    Zeph:
+      short: Zef.
+  czb24:
+    1Sam:
+      long: 1 Samuweli
+    2Sam:
+      long: 2 Samuweli
+    Esth:
+      long: Esteri
+    Exod:
+      long: Ueksodusi
+    Ezra:
+      long: Ezra
+    Hag:
+      long: Hagayi
+    Jas:
+      long: EkaJokobe
+    Prov:
+      long: Izaga zikaSolomoni
+    Song:
+      long: Isihlabelelelo Sezihlabelelo
+  zulunt:
+    Jas:
+      long: EkaJokobe
+    Phil:
+      long: Kwabase-Filipi
+    Rom:
+      long: Kwabase Roma

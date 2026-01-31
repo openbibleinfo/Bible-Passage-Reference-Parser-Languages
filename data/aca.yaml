@@ -1,0 +1,48 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Matt
+    texts:
+      - Mateo
+      - Mt
+  - osis: Mark
+    texts:
+      - Marcos
+      - Mr
+  - osis: Luke
+    texts:
+      - Lucas
+      - Lc
+  - osis: Acts
+    texts:
+      - Hechos
+      - Hch
+  - osis: Eph
+    texts:
+      - Efesios
+      - Ef
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonicenses
+      - Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+      - Tm
+  - osis: Jude
+    texts:
+      - Judas
+      - Jd
+translations:
+  - ACA

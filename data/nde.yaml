@@ -1,0 +1,367 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Ugenesisi
+      - Gen
+  - osis: Exod
+    texts:
+      - U-Eksodasi
+      - Eks
+  - osis: Lev
+    texts:
+      - Ulevi
+      - Levi
+      - Lev
+  - osis: Num
+    texts:
+      - AmaNani
+      - Nani
+      - Nan
+  - osis: Lam
+    texts:
+      - iZililo
+      - Lilo
+      - Izi
+  - osis: Rev
+    texts:
+      - IsAmbulo
+      - Isam
+      - Isb
+  - osis: Deut
+    texts:
+      - Udutheronomi
+      - Dute
+      - Duth
+  - osis: Josh
+    texts:
+      - Ujoshuwa
+      - Josh
+  - osis: Judg
+    texts:
+      - AbAhluleli
+      - Aba
+      - Hlu
+  - osis: Ruth
+    texts:
+      - uRuthe
+      - Ruthe
+      - Rut
+  - osis: Isa
+    texts:
+      - U-Isaya
+      - Isa
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Usamuyeli
+      - Sam
+  - osis: 1Sam
+    texts:
+      - 1Sa
+  - osis: 2Sam
+    texts:
+      - 2Sa
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Amakhosi
+      - Kho
+  - osis: 1Kgs
+    texts:
+      - 1Khs
+  - osis: 2Kgs
+    texts:
+      - 2Khs
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - ImiLando
+      - Lan
+  - osis: 1Chr
+    texts:
+      - 1Lan
+  - osis: 2Chr
+    texts:
+      - 2Lan
+  - osis: Ezra
+    texts:
+      - U-Ezra
+      - uEzra
+      - Ezra
+  - osis: Neh
+    texts:
+      - uNehemiya
+      - uNehimiya
+      - Neh
+  - osis: Esth
+    texts:
+      - U-Esta
+      - uEsta
+      - Esta
+      - Est
+  - osis: Job
+    texts:
+      - Ujobe
+      - Jobe
+      - Job
+  - osis: Ps
+    texts:
+      - AmaHubo
+      - Hubo
+  - osis: Prov
+    texts:
+      - IzAga
+      - Zaga
+      - Iza
+  - osis: Eccl
+    texts:
+      - UmTshumayeli
+      - Tshu
+      - Tsh
+  - osis: Song
+    texts:
+      - Ingoma Yezingoma
+      - Ingoma
+      - Ngoma
+      - Ing
+  - osis: Jer
+    texts:
+      - Ujeremiya
+      - Jer
+  - osis: Ezek
+    texts:
+      - Uhezekhiyeli
+      - Hez
+  - osis: Dan
+    texts:
+      - Udanyeli
+      - Dan
+  - osis: Hos
+    texts:
+      - Uhosiya
+      - Hos
+  - osis: Joel
+    texts:
+      - Ujoweli
+      - Jow
+  - osis: Amos
+    texts:
+      - U-Amosi
+      - uAmosi
+      - Amos
+      - Ams
+  - osis: Obad
+    texts:
+      - U-Obhadaya
+      - uObadiya
+      - Obad
+      - Ob
+  - osis: Jonah
+    texts:
+      - uJona
+      - Jona
+      - Jon
+  - osis: Mic
+    texts:
+      - Umikha
+      - uMika
+      - Mika
+      - MiK
+  - osis: Nah
+    texts:
+      - uNahume
+      - Nah
+  - osis: Hab
+    texts:
+      - Uhabhakhukhi
+      - Hab
+  - osis: Zeph
+    texts:
+      - uZefaniya
+      - Zef
+  - osis: Hag
+    texts:
+      - uHagayi
+      - Hag
+  - osis: Zech
+    texts:
+      - Uzakhariya
+      - Zak
+      - Zek
+  - osis: Mal
+    texts:
+      - uMalaki
+      - Mal
+  - osis: Matt
+    texts:
+      - Umatewu
+      - Mat
+  - osis: Mark
+    texts:
+      - Umakho
+      - Mark
+      - Mak
+  - osis: Luke
+    texts:
+      - Ulukha
+      - Luka
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Jh
+  - osis: 2John
+    texts:
+      - 2Jh
+  - osis: 3John
+    texts:
+      - 3 Kajohane
+      - 3 Ujohane
+      - 3 Johane
+      - 3Jh
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - KaJohane
+      - Ujohane
+      - Joha
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - Kajohane
+      - Ujohane
+      - Johane
+  - osis: John
+    texts:
+      - Ujohane
+      - Joha
+      - Joh
+  - osis: Acts
+    texts:
+      - Imisebenzi
+      - Ims
+      - Seb
+  - osis: Rom
+    texts:
+      - AbaseRoma
+      - Roma
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - AbaseKhorinte
+      - Kor
+  - osis: 1Cor
+    texts:
+      - 1Kor
+  - osis: 2Cor
+    texts:
+      - 2Kor
+  - osis: Col
+    texts:
+      - AbaseKholose
+      - Khl
+      - Kol
+  - osis: Gal
+    texts:
+      - AbaseGalathiya
+      - Gal
+  - osis: Eph
+    texts:
+      - Abase-Efesu
+      - Efe
+  - osis: Phil
+    texts:
+      - KwabaseFiliphi
+      - AbaseFiliphi
+      - Fil
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Kwabasetesalonika
+      - AbaseThesalonika
+      - Tes
+  - osis: 1Thess
+    texts:
+      - 1The
+  - osis: 2Thess
+    texts:
+      - 2The
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Uthimothi
+      - uTimothi
+      - Tim
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Uthithu
+      - Thi
+      - Tit
+  - osis: Phlm
+    texts:
+      - kuFilimoni
+      - Ufilimoni
+      - Filim
+      - Flm
+  - osis: Heb
+    texts:
+      - AmaHebheru
+      - Heb
+  - osis: Jas
+    texts:
+      - Ujakhobe
+      - Jak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Uphethro
+      - Pet
+  - osis: 1Pet
+    texts:
+      - 1Pe
+  - osis: 2Pet
+    texts:
+      - 2Pe
+  - osis: Jude
+    texts:
+      - uJuda
+      - Juda
+      - Jud
+translations:
+  - BE1978
+  - NCB

@@ -1,0 +1,143 @@
+default:
+  1Cor:
+    long: 1. Korinćanenđe
+    short: 1. Kor
+  1John:
+    long: 1. Jovan
+    short: 1. Jn
+  1Pet:
+    long: 1. Petar
+    short: 1. Pet
+  1Thess:
+    long: 1. Solunjanenđe
+    short: 1. Sol
+  1Tim:
+    long: 1. Timotej
+    short: 1. Tim
+  2Cor:
+    long: 2. Korinćanenđe
+    short: 2. Kor
+  2John:
+    long: 2. Jovan
+    short: 2. Jn
+  2Pet:
+    long: 2. Petar
+    short: 2. Pet
+  2Thess:
+    long: 2. Solunjanenđe
+    short: 2. Sol
+  2Tim:
+    long: 2. Timotej
+    short: 2. Tim
+  3John:
+    long: 3. Jovan
+    short: 3. Jn
+  Acts:
+    long: Buća
+    short: Buća
+  Col:
+    long: Kološanenđe
+    short: Kol
+  Eph:
+    long: Efežanenđe
+    short: Ef
+  Gal:
+    long: Galatenđe
+    short: Gal
+  Gen:
+    long: Кердипэ
+    short: Крд
+  Jas:
+    long: Jakov
+    short: Jak
+  John:
+    long: Jovan
+    short: Jn
+  Jonah:
+    long: Иона
+    short: Иона
+  Jude:
+    long: Juda
+    short: Juda
+  Luke:
+    long: Luka
+    short: Lk
+  Mark:
+    long: Marko
+    short: Mk
+  Matt:
+    long: Matej
+    short: Mt
+  Phil:
+    long: Filipljanenđe
+    short: Fil
+  Phlm:
+    long: Filimon
+    short: Flm
+  Rev:
+    long: Otkrivenje
+    short: Otk
+  Rom:
+    long: Rimljanenđe
+    short: Rim
+  Ruth:
+    long: Руфь
+    short: Руфь
+  Titus:
+    long: Tit
+    short: Tit
+translations:
+  chergash:
+    1John:
+      long: 1. Jovanesko
+    1Pet:
+      long: 1. Petresko
+    1Tim:
+      long: 1. Timoteješće
+    2John:
+      long: 2. Jovanesko
+    2Pet:
+      long: 2. Petresko
+    2Tim:
+      long: 2. Timoteješće
+    3John:
+      long: 3. Jovanesko
+    Acts:
+      long: Dela
+      short: Dap
+    Gal:
+      long: Galaćanenđe
+    Jas:
+      long: Jakovesko
+    John:
+      long: Jovano
+    Jude:
+      long: Judasko
+    Phlm:
+      long: Filemonešće
+    Titus:
+      long: Titošće
+  arli:
+    Acts:
+      long: Delja
+      short: Delja
+    Jude:
+      short: Jud
+  krb:
+    Acts:
+      long: Дила
+      short: Дл
+    Luke:
+      long: Лука
+      short: Лк
+  gurbet:
+    Col:
+      long: Kološanurenđe
+    Eph:
+      long: Efescurenđe
+    Gal:
+      long: Galaćanurenđe
+    John:
+      long: Jovane
+    Titus:
+      long: Titus

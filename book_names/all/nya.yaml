@@ -1,0 +1,478 @@
+- osis: Gen
+  texts:
+    - Genesis
+    - Gen.
+    - Gen
+- osis: Exod
+  texts:
+    - Eksodo
+    - Eks.
+    - Ekso
+- osis: Lev
+  texts:
+    - Levitiko
+    - Lev.
+    - Lev
+- osis: Num
+  texts:
+    - Numeri
+    - Num.
+    - Num
+- osis: Sir
+  texts:
+    - Mphu.
+- osis: Wis
+  texts:
+    - Lun.
+- osis: Lam
+  texts:
+    - Maliro
+    - Mali.
+    - Mali
+- osis: Rev
+  texts:
+    - Chivumbulutso
+    - Chiv.
+    - Chiv
+- osis: Deut
+  texts:
+    - Deuteronomo
+    - Deut.
+    - Deut
+- osis: Josh
+  texts:
+    - Yoswa
+    - Yos.
+    - Yos
+- osis: Judg
+  texts:
+    - Oweruza
+    - Ower.
+    - Owe.
+    - Owe
+- osis: Ruth
+  texts:
+    - Rut.
+    - Rute
+    - Ru
+- osis: Isa
+  texts:
+    - Yesaya
+    - Yes.
+- osis: 1Sam
+  texts:
+    - 1 Samuele
+    - 1 Samueli
+    - 1 Sam.
+    - 1 Sam
+    - 1. Samuele
+    - 1. Samueli
+    - 1. Sam.
+    - 1. Sam
+- osis: 2Sam
+  texts:
+    - 2 Samuele
+    - 2 Samueli
+    - 2 Sam.
+    - 2 Sam
+    - 2. Samuele
+    - 2. Samueli
+    - 2. Sam.
+    - 2. Sam
+- osis: 1Sam
+  texts:
+    - 1Sam.
+- osis: 2Sam
+  texts:
+    - 2Sam.
+- osis: 1Kgs
+  texts:
+    - 1 Mafumu
+    - 1 Maf.
+    - 1 Maf
+    - 1. Mafumu
+    - 1. Maf.
+    - 1. Maf
+- osis: 2Kgs
+  texts:
+    - 2 Mafumu
+    - 2 Maf.
+    - 2 Maf
+    - 2. Mafumu
+    - 2. Maf.
+    - 2. Maf
+- osis: 1Kgs
+  texts:
+    - 1Maf.
+- osis: 2Kgs
+  texts:
+    - 2Maf.
+- osis: 1Chr
+  texts:
+    - 1 Mbiri
+    - 1 Mbi.
+    - 1 Mbi
+    - 1. Mbiri
+    - 1. Mbi.
+    - 1. Mbi
+- osis: 2Chr
+  texts:
+    - 2 Mbiri
+    - 2 Mbi.
+    - 2 Mbi
+    - 2. Mbiri
+    - 2. Mbi.
+    - 2. Mbi
+- osis: 1Chr
+  texts:
+    - 1Mbi.
+- osis: 2Chr
+  texts:
+    - 2Mbi.
+- osis: Ezra
+  texts:
+    - Ezara
+    - Eza.
+    - Ezr.
+    - Ezr
+- osis: Neh
+  texts:
+    - Nehemiya
+    - Neh.
+    - Neh
+- osis: Esth
+  texts:
+    - Estere
+    - Est.
+    - Est
+- osis: Job
+  texts:
+    - Yob.
+    - Yobu
+- osis: Ps
+  texts:
+    - MaSalimo
+    - Salimo
+    - Mas.
+- osis: Prov
+  texts:
+    - Miyambo
+    - Miy.
+    - Miy
+- osis: Eccl
+  texts:
+    - Mlaliki
+    - Mlal.
+    - Mla.
+    - Mla
+- osis: Song
+  texts:
+    - Nyimbo ya Solomoni
+    - Nyi.
+    - Nyi
+- osis: Jer
+  texts:
+    - Yeremiya
+    - Yer.
+    - Yer
+- osis: Ezek
+  texts:
+    - Ezekiele
+    - Ezekieli
+    - Ezek.
+    - Ezek
+    - Ezk.
+- osis: Dan
+  texts:
+    - Daniele
+    - Danieli
+    - Dan.
+    - Dan
+- osis: Hos
+  texts:
+    - Hoseya
+    - Hos.
+- osis: Joel
+  texts:
+    - Yowele
+    - Yoweli
+    - Yow.
+    - Yow
+- osis: Amos
+  texts:
+    - Amosi
+    - Amo.
+- osis: Obad
+  texts:
+    - Obadiya
+    - Oba.
+    - Oba
+- osis: Jonah
+  texts:
+    - Yon.
+    - Yona
+    - Jnh
+- osis: Mic
+  texts:
+    - Mik.
+    - Mika
+    - MiK
+- osis: Nah
+  texts:
+    - Nahumu
+    - Nah.
+    - Nah
+- osis: Hab
+  texts:
+    - Habakuku
+    - Hab.
+    - Hab
+- osis: Zeph
+  texts:
+    - Zefaniya
+    - Zef.
+    - Zef
+- osis: Hag
+  texts:
+    - Hagai
+    - Hag.
+    - Hag
+- osis: Zech
+  texts:
+    - Zekariya
+    - Zek.
+- osis: Mal
+  texts:
+    - Malaki
+    - Mala.
+    - Mal.
+- osis: Matt
+  texts:
+    - Mateyu
+    - Mat.
+    - Mt.
+- osis: Mark
+  texts:
+    - Marko
+    - Mrk.
+    - Mk.
+    - Mk
+- osis: Luke
+  texts:
+    - Luk.
+    - Luka
+    - Lk.
+- osis: 1John
+  texts:
+    - 1Yoh.
+- osis: 2John
+  texts:
+    - 2Yoh.
+- osis: 3John
+  texts:
+    - 3 Yohane
+    - 3 Yoh.
+    - 3 Yoh
+    - 3Yoh.
+- osis: 1John
+  texts:
+    - 1 Yohane
+    - 1 Yoh.
+    - 1 Yoh
+    - 1. Yohane
+    - 1. Yoh.
+    - 1. Yoh
+- osis: 2John
+  texts:
+    - 2 Yohane
+    - 2 Yoh.
+    - 2 Yoh
+    - 2. Yohane
+    - 2. Yoh.
+    - 2. Yoh
+- osis: John
+  texts:
+    - Yohane
+    - Yoh.
+    - Yoh
+- osis: Acts
+  texts:
+    - Machitidwe a Atumwi
+    - Machitidwe
+    - Mac.
+    - Mach
+    - Ntc.
+- osis: Rom
+  texts:
+    - aRoma
+    - Aro.
+    - aRo
+- osis: 1Cor
+  texts:
+    - 1 Akorinto
+    - 1 Ako.
+    - 1 Ako
+    - 1. Akorinto
+    - 1. Ako.
+    - 1. Ako
+- osis: 2Cor
+  texts:
+    - 2 Akorinto
+    - 2 Ako.
+    - 2 Ako
+    - 2. Akorinto
+    - 2. Ako.
+    - 2. Ako
+- osis: 1Cor
+  texts:
+    - 1Ako.
+- osis: 2Cor
+  texts:
+    - 2Ako.
+- osis: Col
+  texts:
+    - aKolose
+    - Akol.
+    - aKol
+- osis: Gal
+  texts:
+    - aGalatiya
+    - Agal.
+    - Aga.
+    - aGa
+- osis: Eph
+  texts:
+    - aEfeso
+    - Aef.
+    - aEf
+- osis: Phil
+  texts:
+    - aFilipi
+    - Afi.
+    - aFi
+- osis: 1Thess
+  texts:
+    - 1 Atesalonika
+    - 1 Ate.
+    - 1 Ate
+    - 1. Atesalonika
+    - 1. Ate.
+    - 1. Ate
+- osis: 2Thess
+  texts:
+    - 2 Atesalonika
+    - 2 Ate.
+    - 2 Ate
+    - 2. Atesalonika
+    - 2. Ate.
+    - 2. Ate
+- osis: 1Thess
+  texts:
+    - 1Ate.
+- osis: 2Thess
+  texts:
+    - 2Ate.
+- osis: 1Tim
+  texts:
+    - 1 Timoteyo
+    - 1 Timoteo
+    - 1 Tim.
+    - 1 Tim
+    - 1. Timoteyo
+    - 1. Timoteo
+    - 1. Tim.
+    - 1. Tim
+- osis: 2Tim
+  texts:
+    - 2 Timoteyo
+    - 2 Timoteo
+    - 2 Tim.
+    - 2 Tim
+    - 2. Timoteyo
+    - 2. Timoteo
+    - 2. Tim.
+    - 2. Tim
+- osis: 1Tim
+  texts:
+    - 1Tim.
+- osis: 2Tim
+  texts:
+    - 2Tim.
+- osis: Titus
+  texts:
+    - Tit.
+    - Tito
+    - Tit
+- osis: Phlm
+  texts:
+    - Filemoni
+    - File.
+    - Fil.
+    - Fil
+- osis: Heb
+  texts:
+    - aHebri
+    - Aheb.
+    - Ahe.
+    - aHe
+- osis: Jas
+  texts:
+    - Yakobo
+    - Yak.
+    - Yak
+- osis: 1Pet
+  texts:
+    - 1 Petro
+    - 1 Pet.
+    - 1 Pet
+    - 1. Petro
+    - 1. Pet.
+    - 1. Pet
+- osis: 2Pet
+  texts:
+    - 2 Petro
+    - 2 Pet.
+    - 2 Pet
+    - 2. Petro
+    - 2. Pet.
+    - 2. Pet
+- osis: 1Pet
+  texts:
+    - 1Pet.
+- osis: 2Pet
+  texts:
+    - 2Pet.
+- osis: Jude
+  texts:
+    - Yud.
+    - Yuda
+- osis: Tob
+  texts:
+    - Tob.
+- osis: Jdt
+  texts:
+    - Yud.
+- osis: Bar
+  texts:
+    - Bar.
+- osis: 1Macc
+  texts:
+    - 1 Am.
+    - 1. Am.
+- osis: 2Macc
+  texts:
+    - 2 Am.
+    - 2. Am.
+- osis: 1Macc
+  texts:
+    - 1Am.
+- osis: 2Macc
+  texts:
+    - 2Am.
+- osis: DanGr
+  texts:
+    - Daniel Greek
+    - Dan
+- osis: EsthGr
+  texts:
+    - Esr.

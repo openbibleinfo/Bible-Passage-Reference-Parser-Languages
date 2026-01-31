@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Mbai
+    short: 1 Mbai
+  1Cor:
+    long: 1 Korente
+    short: 1 Kor
+  1John:
+    long: 1 Jean
+    short: 1 Jean
+  1Kgs:
+    long: 1 Agbia
+    short: 1 Agbia
+  1Pet:
+    long: 1 Pierre
+    short: 1 Pi
+  1Sam:
+    long: 1 Samuel
+    short: 1 Sam
+  1Thess:
+    long: 1 Tesalonike
+    short: 1 Tes
+  1Tim:
+    long: 1 Timothée
+    short: 1 Tim
+  2Chr:
+    long: 2 Mbai
+    short: 2 Mbai
+  2Cor:
+    long: 2 Korente
+    short: 2 Kor
+  2John:
+    long: 2 Jean
+    short: 2 Jean
+  2Kgs:
+    long: 2 Agbia
+    short: 2 Agbia
+  2Pet:
+    long: 2 Pierre
+    short: 2 Pi
+  2Sam:
+    long: 2 Samuel
+    short: 2 Sam
+  2Thess:
+    long: 2 Tesalonike
+    short: 2 Tes
+  2Tim:
+    long: 2 Timothée
+    short: 2 Tim
+  3John:
+    long: 3 Jean
+    short: 3 Jean
+  Acts:
+    long: Awatokua
+    short: Awat
+  Amos:
+    long: Amos
+    short: Amos
+  Col:
+    long: Kolose
+    short: Kol
+  Dan:
+    long: Daniel
+    short: Dan
+  Deut:
+    long: Ndia ti fani use ni
+    short: U. Ndia
+  Eccl:
+    long: Zo ti bongbingo azo
+    short: Zo ti b.
+  Eph:
+    long: Efeze
+    short: Efe
+  Esth:
+    long: Esther
+    short: Est
+  Exod:
+    long: Sigingo
+    short: Sigi
+  Ezek:
+    long: Ezekiel
+    short: Ezek
+  Ezra:
+    long: Esdras
+    short: Esd
+  Gal:
+    long: Galasii
+    short: Gal
+  Gen:
+    long: Tongo nda ti aye
+    short: Tonda
+  Hab:
+    long: Habakuk
+    short: Hab
+  Hag:
+    long: Aggée
+    short: Agg
+  Heb:
+    long: Ahebro
+    short: Aheb
+  Hos:
+    long: Osée
+    short: Osée
+  Isa:
+    long: Ésaïe
+    short: És
+  Jas:
+    long: Jacques
+    short: Jac
+  Jer:
+    long: Jérémie
+    short: Jér
+  Job:
+    long: Job
+    short: Job
+  Joel:
+    long: Joël
+    short: Joël
+  John:
+    long: Jean
+    short: Jean
+  Jonah:
+    long: Jonas
+    short: Jon
+  Josh:
+    long: Josué
+    short: Jos
+  Jude:
+    long: Jude
+    short: Jude
+  Judg:
+    long: Awafango-ngbanga
+    short: Awaf
+  Lam:
+    long: Abia ti demango tere
+    short: Dema
+  Lev:
+    long: Awayango-sandaga
+    short: Sandaga
+  Luke:
+    long: Luc
+    short: Luc
+  Mal:
+    long: Malashii
+    short: Mal
+  Mark:
+    long: Marc
+    short: Marc
+  Matt:
+    long: Matthieu
+    short: Matt
+  Mic:
+    long: Mishe
+    short: Mish
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Néhémie
+    short: Néh
+  Num:
+    long: Wungo ti azo
+    short: Wungo
+  Obad:
+    long: Abdias
+    short: Abd
+  Phil:
+    long: Filipe
+    short: Fil
+  Phlm:
+    long: Philémon
+    short: Phm
+  Prov:
+    long: Amato
+    short: Amato
+  Ps:
+    long: Abia (Psaumes)
+    short: Abia
+  Rev:
+    long: Aye so Nzapa afa
+    short: Nz. afa
+  Rom:
+    long: Rome
+    short: Rome
+  Ruth:
+    long: Ruth
+    short: Ruth
+  Song:
+    long: B. ti abia
+    short: B. ti abia
+  Titus:
+    long: Tite
+    short: Tite
+  Zech:
+    long: Zakarii
+    short: Zak
+  Zeph:
+    long: Sofonii
+    short: Sof

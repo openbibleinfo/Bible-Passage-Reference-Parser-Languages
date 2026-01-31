@@ -1,0 +1,136 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Dyénésis
+      - Dyn
+  - osis: Exod
+    texts:
+      - Éksodus
+      - Éks
+  - osis: Rev
+    texts:
+      - Tafite
+      - Taf
+  - osis: Ruth
+    texts:
+      - Ruth
+      - Rut
+  - osis: Ps
+    texts:
+      - Salmo
+      - Sal
+  - osis: Prov
+    texts:
+      - Dad Fngewe
+      - Fng
+  - osis: Jonah
+    texts:
+      - Dyona
+      - Dyo
+  - osis: Matt
+    texts:
+      - Matyu
+      - Mat
+  - osis: Mark
+    texts:
+      - Mark
+      - Mar
+  - osis: Luke
+    texts:
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Dyan
+      - Dya
+  - osis: Acts
+    texts:
+      - Dad Nimò
+      - Nim
+  - osis: Rom
+    texts:
+      - Roma
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintu
+      - Kor
+  - osis: Col
+    texts:
+      - Kolosas
+      - Kol
+  - osis: Gal
+    texts:
+      - Galasya
+      - Gal
+  - osis: Eph
+    texts:
+      - iFisus
+      - Ifi
+  - osis: Phil
+    texts:
+      - Filifos
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tésalonika
+      - Tés
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+      - Tim
+  - osis: Titus
+    texts:
+      - Titus
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filimon
+      - Flm
+  - osis: Heb
+    texts:
+      - Hibru
+      - Hib
+  - osis: Jas
+    texts:
+      - Dyém
+      - Dyé
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Fiter
+      - Fit
+  - osis: Jude
+    texts:
+      - Dyud
+      - Dyu
+translations:
+  - TWG

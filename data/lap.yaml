@@ -1,0 +1,175 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Lo kila gəl ne
+      - Apocalypse
+      - Apoc
+      - Lkg
+  - osis: Matt
+    texts:
+      - Matthieu
+      - Matiye
+      - Mat
+  - osis: Mark
+    texts:
+      - Marəke
+      - Marc
+      - Mrk
+  - osis: Luke
+    texts:
+      - Lugu
+      - Luc
+      - Lug
+  - osis: 1John
+    texts:
+      - 1Ja̰
+  - osis: 2John
+    texts:
+      - 2Ja̰
+  - osis: 3John
+    texts:
+      - 3 Jean
+      - 3Ja̰
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jean
+  - osis: John
+    texts:
+      - Jean
+      - Ja̰
+  - osis: Acts
+    texts:
+      - Kula ɗa Njeka̰ykulaje
+      - Koula
+      - Kɗn
+  - osis: Rom
+    texts:
+      - Romaindjé
+      - Rom
+      - Rɔm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corinthiendjé
+      - Nje gə Kɔrɛnt
+      - Cor
+  - osis: 1Cor
+    texts:
+      - 1Kɔ
+  - osis: 2Cor
+    texts:
+      - 2Kɔ
+  - osis: Col
+    texts:
+      - Nje gə Kɔlɔsə
+      - Colossiendjé
+      - Col
+      - Kɔl
+  - osis: Gal
+    texts:
+      - Nje gə Galat
+      - Galatedjé
+      - Galat
+      - Gal
+  - osis: Eph
+    texts:
+      - Ephésiendjé
+      - Nje gə Epɛs
+      - Ephes
+      - Epɛ
+  - osis: Phil
+    texts:
+      - Nje gə Pilipi
+      - Philippiendjé
+      - Philip
+      - Plp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Nje gə Tesaloniki
+      - Thessaloniciendjé
+      - Thess
+  - osis: 1Thess
+    texts:
+      - 1Te
+  - osis: 2Thess
+    texts:
+      - 2Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Timothée
+      - Timoce
+  - osis: 1Tim
+    texts:
+      - 1Tm
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothée
+      - Timoce
+      - Tim
+  - osis: 2Tim
+    texts:
+      - 2Tm
+  - osis: Titus
+    texts:
+      - Tite
+      - Titə
+      - Tit
+  - osis: Phlm
+    texts:
+      - Philémon
+      - Philém
+      - Pilimo
+      - Plm
+  - osis: Heb
+    texts:
+      - Hébreudjé
+      - Ebərəje
+      - Ebə
+      - Héb
+  - osis: Jas
+    texts:
+      - Jacques
+      - Jagə
+      - Jac
+      - Jag
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pierre
+      - Piyɛr
+  - osis: 1Pet
+    texts:
+      - 1Pi
+  - osis: 2Pet
+    texts:
+      - 2Pi
+  - osis: Jude
+    texts:
+      - Jude
+      - Jud
+translations:
+  - LAP
+  - KL1960

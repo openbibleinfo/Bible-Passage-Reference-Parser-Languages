@@ -1,0 +1,132 @@
+default:
+  1Cor:
+    long: 1 ቆሮንቶሳ
+    short: 1 ቆሮ.
+  1John:
+    long: 1 ያንሳ
+    short: 1 ያን.
+  1Pet:
+    long: 1 ጴጢሮሳ
+    short: 1 ጴጢ.
+  1Thess:
+    long: 1 ተሰሎንቄ
+    short: 1 ተስ.
+  1Tim:
+    long: 1 ጢሞቶሳ
+    short: 1 ጢሞ.
+  2Cor:
+    long: 2 ቆሮንቶሳ
+    short: 2 ቆሮ.
+  2John:
+    long: 2 ያንሳ
+    short: 2 ያን.
+  2Pet:
+    long: 2 ጴጢሮሳ
+    short: 2 ጴጢ.
+  2Thess:
+    long: 2 ተሰሎንቄ
+    short: 2 ተስ.
+  2Tim:
+    long: 2 ጢሞቶሳ
+    short: 2 ጢሞ.
+  3John:
+    long: 3 ያንሳ
+    short: 3 ያን.
+  Acts:
+    long: Ofarameeraankonገi felo
+    short: Ofa. Fe.
+  Col:
+    long: K'ollasiyaasa
+    short: K'ol.
+  Eph:
+    long: Efesoona
+    short: Efe.
+  Gal:
+    long: Gelaatiya
+    short: Gel.
+  Heb:
+    long: Ibirawwii
+    short: Ibr.
+  Jas:
+    long: Yayik'ooba
+    short: Yay.
+  John:
+    long: Yaannisa
+    short: Yan.
+  Jude:
+    long: Yihuuda
+    short: Yih.
+  Luke:
+    long: Luk'k'aasa
+    short: Luk'.
+  Mark:
+    long: Mark'oosa
+    short: Mar.
+  Matt:
+    long: Matoosa
+    short: Mat.
+  Phil:
+    long: Filp'isiyosa
+    short: Filp.
+  Phlm:
+    long: Filmoona
+    short: Film.
+  Rev:
+    long: Raaga Kayaannisa
+    short: Rag.
+  Rom:
+    long: Roome
+    short: Rom.
+  Titus:
+    long: Tiito
+    short: Tit.
+translations:
+  baynteth:
+    Acts:
+      long: ኦፋራሜራንኮኒዕ ፈሎ
+      short: ኦፋ. ፈ.
+    Col:
+      long: ቆላስያሳ
+      short: ቆላ.
+    Eph:
+      long: ኤፈሶን
+      short: ኤፈ.
+    Gal:
+      long: ጋላትያ
+      short: ጋላ.
+    Heb:
+      long: እብራዊ
+      short: እብ.
+    Jas:
+      long: ያይቆባ
+      short: ያይ.
+    John:
+      long: ያንሳ
+      short: ያን.
+    Jude:
+      long: ይሁዳ
+      short: ይሁ.
+    Luke:
+      long: ሉቃሳ
+      short: ሉቃ.
+    Mark:
+      long: ማርቆሳ
+      short: ማር.
+    Matt:
+      long: ማቶሳ
+      short: ማቶ.
+    Phil:
+      long: ፍልጲስዮሳ
+      short: ፍል.
+    Phlm:
+      long: ፍልሞና
+      short: ፍልሞ.
+    Rev:
+      long: ራጋ ካያንሳ
+      short: ራጋ
+    Rom:
+      long: ካሮም ቶስ
+      short: ሮመ
+    Titus:
+      long: ቲቶ
+      short: ቲቶ

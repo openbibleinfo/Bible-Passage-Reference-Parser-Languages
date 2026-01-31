@@ -1,0 +1,116 @@
+default:
+  1Cor:
+    long: 1 Korḛtɨ je
+    short: 1Kor
+  1John:
+    long: 1 Ja̰
+    short: 1Ja̰
+  1Pet:
+    long: 1 Pɨyər
+    short: 1Pɨ
+  1Thess:
+    long: 1 Təsalonɨkɨ je
+    short: 1Təsa
+  1Tim:
+    long: 1 Tɨmote
+    short: 1Tɨm
+  2Cor:
+    long: 2 Korḛtɨ je
+    short: 2Kor
+  2John:
+    long: 2 Ja̰
+    short: 2Ja̰
+  2Pet:
+    long: 2 Pɨyər
+    short: 2Pɨ
+  2Thess:
+    long: 2 Təsalonɨkɨ je
+    short: 2Təsa
+  2Tim:
+    long: 2 Tɨmote
+    short: 2Tɨm
+  3John:
+    long: 3 Ja̰
+    short: 3Ja̰
+  Acts:
+    long: Kɨlə lə NJé kaw kɨlə je
+    short: Knjk
+  Col:
+    long: Kolosɨ je
+    short: Kol
+  Eph:
+    long: Epəjɨ je
+    short: Ep
+  Gal:
+    long: Galatɨ je
+    short: Gal
+  Heb:
+    long: Ebɨrə je
+    short: Eb
+  Jas:
+    long: Jakɨ
+    short: Jk
+  John:
+    long: Ja̰
+    short: Ja̰
+  Jonah:
+    long: Jonasɨ
+    short: Jon
+  Jude:
+    long: Judɨ
+    short: Jd
+  Lam:
+    long: No̰ Kuwə Ndoo
+    short: Nknd
+  Luke:
+    long: Lukɨ
+    short: Lk
+  Mark:
+    long: Markɨ
+    short: Mk
+  Matt:
+    long: Matɨye
+    short: Mt
+  Phil:
+    long: Pɨlɨpɨ je
+    short: Plp
+  Phlm:
+    long: Pɨləmo̰
+    short: Plm
+  Rev:
+    long: Nḛ kɨ tḛḛ kɨ dɔe
+    short: Ntd
+  Rom:
+    long: Rom je
+    short: Rm
+  Ruth:
+    long: Rutɨ
+    short: Rt
+  Titus:
+    long: Tɨtɨ
+    short: Tt
+translations:
+  bjvnt:
+    1Cor:
+      short: 1Kɔr
+    2Cor:
+      short: 2Kɔr
+  bjvdbl:
+    1Cor:
+      long: Korḛtɨ je kɨ dɔsa̰y
+    1Pet:
+      long: 1Pɨyər
+    1Thess:
+      long: Təsalonɨkɨ je
+    1Tim:
+      long: 1Tɨmote
+    2Cor:
+      long: Korḛtɨ je kɨ ko̰ joo
+    2Pet:
+      long: 2Pɨyər
+    2Thess:
+      long: Təsalonɨkɨ je
+    2Tim:
+      long: 2Tɨmote
+    Acts:
+      long: Kɨlə lə Njé kaw kɨlə je

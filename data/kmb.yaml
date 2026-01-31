@@ -1,0 +1,213 @@
+variables:
+  first: &first
+    - I
+  second: &second
+    - II
+  third: &third
+    - III
+books:
+  - osis: Gen
+    texts:
+      - Dimatekenu
+  - osis: Exod
+    texts:
+      - Makatukilu
+  - osis: Lev
+    texts:
+      - Ijila
+  - osis: Num
+    texts:
+      - Dialuilu
+  - osis: Lam
+    texts:
+      - Kuditenda
+  - osis: Rev
+    texts:
+      - Dijingunuinu
+  - osis: Deut
+    texts:
+      - Matendelelu
+  - osis: Josh
+    texts:
+      - Josuué
+  - osis: Judg
+    texts:
+      - Afundixi
+  - osis: Ruth
+    texts:
+      - Lute
+  - osis: Isa
+    texts:
+      - Izaía
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuuele
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Jisobha
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Malunda
+  - osis: Ezra
+    texts:
+      - Ejidala
+  - osis: Neh
+    texts:
+      - Nehemiia
+  - osis: Esth
+    texts:
+      - Estere
+  - osis: Job
+    texts:
+      - Jobe
+  - osis: Ps
+    texts:
+      - Jisálamu
+  - osis: Prov
+    texts:
+      - Jisabhu
+  - osis: Eccl
+    texts:
+      - Ndongixi
+  - osis: Song
+    texts:
+      - Mukumbi ua Mikumbi
+  - osis: Jer
+    texts:
+      - Jelemiia
+  - osis: Ezek
+    texts:
+      - Izekiiele
+  - osis: Dan
+    texts:
+      - Daniiele
+  - osis: Hos
+    texts:
+      - Hozeia
+  - osis: Joel
+    texts:
+      - Jouele
+  - osis: Amos
+    texts:
+      - Amoji
+  - osis: Obad
+    texts:
+      - Obadiia
+  - osis: Jonah
+    texts:
+      - Jona
+  - osis: Mic
+    texts:
+      - Mikeia
+  - osis: Nah
+    texts:
+      - Nahumu
+  - osis: Hab
+    texts:
+      - Habakuke
+  - osis: Zeph
+    texts:
+      - Sofoniia
+  - osis: Hag
+    texts:
+      - Ajeu
+  - osis: Zech
+    texts:
+      - Zakadiia
+  - osis: Mal
+    texts:
+      - Malakiia
+  - osis: Matt
+    texts:
+      - Matesu
+  - osis: Mark
+    texts:
+      - Marku
+  - osis: Luke
+    texts:
+      - Luka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Nzuá
+  - osis: Acts
+    texts:
+      - Jipoxolo
+  - osis: Rom
+    texts:
+      - Loma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kolindo
+  - osis: Col
+    texts:
+      - Kolose
+  - osis: Gal
+    texts:
+      - Ngalásia
+  - osis: Eph
+    texts:
+      - Efezo
+  - osis: Phil
+    texts:
+      - Filipe
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonika
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filemone
+  - osis: Heb
+    texts:
+      - Jihebeleu
+  - osis: Jas
+    texts:
+      - Tiiaku
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Phetele
+  - osis: Jude
+    texts:
+      - Juda
+translations:
+  - KMB80

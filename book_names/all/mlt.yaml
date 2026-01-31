@@ -1,0 +1,325 @@
+- osis: Gen
+  texts:
+    - Ġenesi
+    - Ġen
+- osis: Exod
+  texts:
+    - Eżodu
+    - Eż
+- osis: Lev
+  texts:
+    - Levitiku
+    - Lev
+- osis: Num
+  texts:
+    - Numri
+    - Num
+- osis: Sir
+  texts:
+    - Bin Sirak
+    - Sir
+- osis: Wis
+  texts:
+    - Il-ktieb Tal-għerf
+    - Għerf
+- osis: Lam
+  texts:
+    - Lamentazzjonijiet
+    - Lam
+- osis: Rev
+  texts:
+    - Apokalissi
+    - Apk
+- osis: Deut
+  texts:
+    - Dewteronomju
+    - Dt
+- osis: Josh
+  texts:
+    - Ġożwè
+    - Ġoż
+- osis: Judg
+  texts:
+    - Mħallfin
+    - Mħ
+- osis: Ruth
+  texts:
+    - Rut
+    - Rt
+- osis: Isa
+  texts:
+    - Isaija
+    - Is
+- osis: 1Sam
+  texts:
+    - 1 Samwel
+    - 1 Sam
+    - 1. Samwel
+    - 1. Sam
+- osis: 2Sam
+  texts:
+    - 2 Samwel
+    - 2 Sam
+    - 2. Samwel
+    - 2. Sam
+- osis: 1Kgs
+  texts:
+    - 1 Slaten
+    - 1 Slat
+    - 1. Slaten
+    - 1. Slat
+- osis: 2Kgs
+  texts:
+    - 2 Slaten
+    - 2 Slat
+    - 2. Slaten
+    - 2. Slat
+- osis: 1Chr
+  texts:
+    - 1 Kronaki
+    - 1 Kron
+    - 1. Kronaki
+    - 1. Kron
+- osis: 2Chr
+  texts:
+    - 2 Kronaki
+    - 2 Kron
+    - 2. Kronaki
+    - 2. Kron
+- osis: Ezra
+  texts:
+    - Esdra
+    - Esd
+- osis: Neh
+  texts:
+    - Neħemija
+    - Neħ
+- osis: Job
+  texts:
+    - Ġob
+- osis: Ps
+  texts:
+    - Salmi
+    - S
+- osis: Prov
+  texts:
+    - Proverbji
+    - Prov
+- osis: Eccl
+  texts:
+    - Koħèlet
+    - Koħ
+- osis: Song
+  texts:
+    - L-għanja Tal-għanjiet
+    - Għan
+- osis: Jer
+  texts:
+    - Ġeremija
+    - Ġer
+- osis: Ezek
+  texts:
+    - Eżekjel
+    - Eżek
+- osis: Hos
+  texts:
+    - Hosegħa
+    - Hos
+- osis: Joel
+  texts:
+    - Ġoel
+- osis: Amos
+  texts:
+    - Għamos
+    - Għam
+- osis: Obad
+  texts:
+    - Għabdija
+    - Għabd
+- osis: Jonah
+  texts:
+    - Ġona
+- osis: Mic
+  texts:
+    - Mikea
+    - MiK
+- osis: Nah
+  texts:
+    - Naħum
+    - Naħ
+- osis: Hab
+  texts:
+    - Ħabakkuk
+    - Ħab
+- osis: Zeph
+  texts:
+    - Sofonija
+    - Sof
+- osis: Hag
+  texts:
+    - Ħaggaj
+    - Ħag
+- osis: Zech
+  texts:
+    - Żakkarija
+    - Żak
+- osis: Mal
+  texts:
+    - Malakija
+    - Mal
+- osis: Matt
+  texts:
+    - Mattew
+    - Mt
+- osis: Mark
+  texts:
+    - Mark
+    - Mk
+- osis: Luke
+  texts:
+    - Luqa
+    - Lq
+- osis: 1John
+  texts:
+    - 1 Ġwanni
+    - 1 Ġw
+    - 1. Ġwanni
+    - 1. Ġw
+- osis: 2John
+  texts:
+    - 2 Ġwanni
+    - 2 Ġw
+    - 2. Ġwanni
+    - 2. Ġw
+- osis: 3John
+  texts:
+    - 3 Ġwanni
+    - 3 Ġw
+    - 3. Ġwanni
+    - 3. Ġw
+- osis: John
+  texts:
+    - Ġwanni
+    - Ġw
+- osis: Acts
+  texts:
+    - Atti Tal-appostli
+    - Atti
+- osis: Rom
+  texts:
+    - Rumani
+    - Rum
+- osis: 1Cor
+  texts:
+    - 1 Korintin
+    - 1 Kor
+    - 1. Korintin
+    - 1. Kor
+- osis: 2Cor
+  texts:
+    - 2 Korintin
+    - 2 Kor
+    - 2. Korintin
+    - 2. Kor
+- osis: Col
+  texts:
+    - Kolossin
+    - Kol
+- osis: Gal
+  texts:
+    - Galatin
+    - Gal
+- osis: Eph
+  texts:
+    - Efesin
+    - Ef
+- osis: Phil
+  texts:
+    - Filippin
+    - Fil
+- osis: 1Thess
+  texts:
+    - 1 Tessalonikin
+    - 1 Tess
+    - 1. Tessalonikin
+    - 1. Tess
+- osis: 2Thess
+  texts:
+    - 2 Tessalonikin
+    - 2 Tess
+    - 2. Tessalonikin
+    - 2. Tess
+- osis: 1Tim
+  texts:
+    - 1 Timotju
+    - 1 Tim
+    - 1. Timotju
+    - 1. Tim
+- osis: 2Tim
+  texts:
+    - 2 Timotju
+    - 2 Tim
+    - 2. Timotju
+    - 2. Tim
+- osis: Titus
+  texts:
+    - Titu
+    - Tit
+- osis: Phlm
+  texts:
+    - Filemon
+    - Film
+- osis: Heb
+  texts:
+    - Lhud
+- osis: Jas
+  texts:
+    - Ġakbu
+    - Ġak
+- osis: 1Pet
+  texts:
+    - 1 Pietru
+    - 1 Pt
+    - 1. Pietru
+    - 1. Pt
+- osis: 2Pet
+  texts:
+    - 2 Pietru
+    - 2 Pt
+    - 2. Pietru
+    - 2. Pt
+- osis: Jude
+  texts:
+    - Ġuda
+- osis: Tob
+  texts:
+    - Tobit
+    - Tob
+- osis: Jdt
+  texts:
+    - Ġuditta
+    - Ġdt
+- osis: Bar
+  texts:
+    - Bàruk
+    - Bar
+- osis: 1Macc
+  texts:
+    - 1 Makkabin
+    - 1 Mak
+    - 1. Makkabin
+    - 1. Mak
+- osis: 2Macc
+  texts:
+    - 2 Makkabin
+    - 2 Mak
+    - 2. Makkabin
+    - 2. Mak
+- osis: DanGr
+  texts:
+    - Danjel Bil-grieg
+    - DaG
+- osis: EsthGr
+  texts:
+    - Ester Bil-grieg
+    - EsG

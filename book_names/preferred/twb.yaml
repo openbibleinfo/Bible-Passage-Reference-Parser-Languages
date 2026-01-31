@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Krunika
+    short: 1Kr
+  1Cor:
+    long: 1 Kurintu
+    short: 1Ku
+  1John:
+    long: 1 Uan
+    short: 1Un
+  1Kgs:
+    long: 1 Fun
+    short: 1Fn
+  1Pet:
+    long: 1 Pedru
+    short: 1Pe
+  1Sam:
+    long: 1 Samwel
+    short: 1Sa
+  1Thess:
+    long: 1 Tesalunika
+    short: 1Te
+  1Tim:
+    long: 1 Timuteu
+    short: 1Ti
+  2Chr:
+    long: 2 Krunika
+    short: 2Kr
+  2Cor:
+    long: 2 Kurintu.
+    short: 2Ku
+  2John:
+    long: 2 Uan
+    short: 2Un
+  2Kgs:
+    long: 2 Fun
+    short: 2Fn
+  2Pet:
+    long: 2 Pedru
+    short: 2Pe
+  2Sam:
+    long: 2 Samwel
+    short: 2Sa
+  2Thess:
+    long: 2 Tesalunika
+    short: 2Te
+  2Tim:
+    long: 2 Timuteu
+    short: 2Ti
+  3John:
+    long: 3 Uan
+    short: 3Un
+  Acts:
+    long: Fakamulun
+    short: Fkm
+  Amos:
+    long: Amus
+    short: Am
+  Col:
+    long: Kulusas
+    short: Kul
+  Dan:
+    long: Daniel
+    short: Dan
+  Deut:
+    long: Deuterunumyu
+    short: Deu
+  Eccl:
+    long: Takamoyung
+    short: Tak
+  Eph:
+    long: Efesu
+    short: Ef
+  Esth:
+    long: Ester
+    short: Est
+  Exod:
+    long: Nu Galin
+    short: Gln
+  Ezek:
+    long: Esekyel
+    short: Ese.
+  Ezra:
+    long: Esra
+    short: Esr
+  Gal:
+    long: Galasya
+    short: Gal
+  Gen:
+    long: Fakasigadan
+    short: Fsg
+  Hab:
+    long: Abakuk
+    short: Ab
+  Hag:
+    long: Agay
+    short: Ag
+  Heb:
+    long: Ebreu
+    short: Eb
+  Hos:
+    long: Usea
+    short: Use
+  Isa:
+    long: Isayas
+    short: Isa
+  Jas:
+    long: Santiagu
+    short: San
+  Jer:
+    long: Eremyas
+    short: Ere
+  Job:
+    long: Ub
+    short: Ub
+  Joel:
+    long: Uel
+    short: Uel
+  John:
+    long: Uan
+    short: Uan
+  Jonah:
+    long: Unas
+    short: Un
+  Josh:
+    long: Uswe
+    short: Usw
+  Jude:
+    long: Udas
+    short: Ud
+  Judg:
+    long: Tagfangguna
+    short: Tfg
+  Lam:
+    long: Takabalu
+    short: Tkb
+  Lev:
+    long: Lebitiku
+    short: Leb
+  Luke:
+    long: Lukas
+    short: Lk
+  Mal:
+    long: Malakyas
+    short: Mal
+  Mark:
+    long: Markus
+    short: Mk
+  Matt:
+    long: Mateu
+    short: Mt
+  Mic:
+    long: Mikas
+    short: MiK
+  Nah:
+    long: Naum
+    short: Nam
+  Neh:
+    long: Nemyas
+    short: Nem
+  Num:
+    long: Tap
+    short: Tap
+  Obad:
+    long: Ubadyas
+    short: Ubd
+  Phil:
+    long: Filipus
+    short: Flp
+  Phlm:
+    long: Filemun
+    short: Flm
+  Prov:
+    long: Fangatulun
+    short: Ftn
+  Ps:
+    long: Alubad.
+    short: Alb
+  Rev:
+    long: At Nafasure
+    short: Naf
+  Rom:
+    long: Ruma
+    short: Rum
+  Ruth:
+    long: Rut
+    short: Rut
+  Song:
+    long: Sulumun at Alubad
+    short: Sul
+  Titus:
+    long: Titu
+    short: Tit
+  Zech:
+    long: Sakaryas
+    short: Sak
+  Zeph:
+    long: Sefanias
+    short: Sef

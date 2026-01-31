@@ -1,0 +1,115 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Okpume
+      - Okpu
+  - osis: Matt
+    texts:
+      - Matiyu
+      - Mat
+  - osis: Mark
+    texts:
+      - Makị
+      - Mak
+  - osis: Luke
+    texts:
+      - Lukwu
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jọni
+      - Jọn
+  - osis: Acts
+    texts:
+      - Ẹrnu Ele Izi
+      - Ẹrnu
+  - osis: Rom
+    texts:
+      - Ele Rom
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Ele Kọrinti
+      - Kọr
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Ele Kọriniti
+      - Kọr
+  - osis: Col
+    texts:
+      - Ele Kọlosi
+      - Kọl
+  - osis: Gal
+    texts:
+      - Ele Galasia
+      - Gal
+  - osis: Eph
+    texts:
+      - Ele Efesọsi
+      - Efes
+  - osis: Phil
+    texts:
+      - Ele Filipaị
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Ele Tẹsalonika
+      - Tẹs
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+      - Tim
+  - osis: Titus
+    texts:
+      - Taịtosi
+      - Taịt
+  - osis: Phlm
+    texts:
+      - Filemọni
+      - Filem
+  - osis: Heb
+    texts:
+      - Ele Hiburu
+      - Hib
+  - osis: Jas
+    texts:
+      - Jemisi
+      - Jem
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+  - osis: Jude
+    texts:
+      - Judu
+translations:
+  - IKWNT

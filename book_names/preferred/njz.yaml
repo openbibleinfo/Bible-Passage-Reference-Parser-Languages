@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Nwd
+    short: 1 Nwd
+  1Cor:
+    long: 1 Korinti
+    short: 1 Kor
+  1John:
+    long: 1 Jon
+    short: 1 Jn
+  1Kgs:
+    long: 1 Lvpw Atwg
+    short: 1 Lvp
+  1Pet:
+    long: 1 Pitor
+    short: 1 Pit
+  1Sam:
+    long: 1 Samuyel
+    short: 1 Sam
+  1Thess:
+    long: 1 Tissolonika
+    short: 1 Tis
+  1Tim:
+    long: 1 Timoti
+    short: 1 Tim
+  2Chr:
+    long: 2 Nwd
+    short: 2 Nwd
+  2Cor:
+    long: 2 Korinti
+    short: 2 Kor
+  2John:
+    long: 2 Jon
+    short: 2 Jn
+  2Kgs:
+    long: 2 Lvpw Atwg
+    short: 2 Lvp
+  2Pet:
+    long: 2 Pitor
+    short: 2 Pit
+  2Sam:
+    long: 2 Samuyel
+    short: 2 Sam
+  2Thess:
+    long: 2 Tissolonika
+    short: 2 Tis
+  2Tim:
+    long: 2 Timoti
+    short: 2 Tim
+  3John:
+    long: 3 Jon
+    short: 3 Jn
+  Acts:
+    long: Bon
+    short: Bn
+  Amos:
+    long: Amos
+    short: Amos
+  Col:
+    long: Kolosi
+    short: Kol
+  Dan:
+    long: Daniyel
+    short: Dan
+  Deut:
+    long: Betinam Pvvb
+    short: Betin
+  Eccl:
+    long: Nyijwq
+    short: Nyij
+  Eph:
+    long: Ipisi
+    short: Ipi
+  Esth:
+    long: Istar
+    short: Ist
+  Exod:
+    long: Doogin
+    short: Doog
+  Ezek:
+    long: Ijikel
+    short: Iji
+  Ezra:
+    long: Ijra
+    short: Ijra
+  Gal:
+    long: Galati
+    short: Gal
+  Gen:
+    long: Beggar
+    short: Beg
+  Hab:
+    long: Habakkuk
+    short: Hab
+  Hag:
+    long: Haggai
+    short: Hag
+  Heb:
+    long: Hibru
+    short: Hib
+  Hos:
+    long: Hosiya
+    short: Hos
+  Isa:
+    long: Aijaya
+    short: Aij
+  Jas:
+    long: Jems
+    short: Jem
+  Jer:
+    long: Jerimiya
+    short: Jer
+  Job:
+    long: Job
+    short: Job
+  Joel:
+    long: Joyel
+    short: Joy
+  John:
+    long: Jon
+    short: Jn
+  Jonah:
+    long: Jona
+    short: Jon
+  Josh:
+    long: Josua
+    short: Jos
+  Jude:
+    long: Jud
+    short: Jud
+  Judg:
+    long: Nyegam
+    short: Nyeg
+  Lam:
+    long: Nyix-riinam
+    short: Nyix
+  Lev:
+    long: Libitikas
+    short: Lib
+  Luke:
+    long: Luk
+    short: Lk
+  Mal:
+    long: Malaki
+    short: Mal
+  Mark:
+    long: Mark
+    short: Mk
+  Matt:
+    long: Metiyu
+    short: Mt
+  Mic:
+    long: Maika
+    short: Mai
+  Nah:
+    long: Naxum
+    short: Nax
+  Neh:
+    long: Nexemiya
+    short: Nex
+  Num:
+    long: Xinam
+    short: Xin
+  Obad:
+    long: Obadiya
+    short: Obad
+  Phil:
+    long: Pilipi
+    short: Pil
+  Phlm:
+    long: Pilimon
+    short: Plm
+  Prov:
+    long: Dootin
+    short: Doon
+  Ps:
+    long: Mwmin Nwswr
+    short: Mwm
+  Rev:
+    long: Nyiqry
+    short: Nr
+  Rom:
+    long: Roman
+    short: Rom
+  Ruth:
+    long: Rut
+    short: Rut
+  Song:
+    long: Solomonwg Bemin
+    short: Solom
+  Titus:
+    long: Taitas
+    short: Tait
+  Zech:
+    long: Jakariya
+    short: Jak
+  Zeph:
+    long: Japaniya
+    short: Jap

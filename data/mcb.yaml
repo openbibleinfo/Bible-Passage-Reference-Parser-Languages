@@ -1,0 +1,118 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Yogikoneatimogetunkanirira Joan
+      - Yogi
+  - osis: Jonah
+    texts:
+      - Jonashi
+      - Jon
+  - osis: Matt
+    texts:
+      - Mateo
+      - Mt
+  - osis: Mark
+    texts:
+      - Marokoshi
+      - Mr
+  - osis: Luke
+    texts:
+      - Irokashi
+      - Ir
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Joan
+      - Jn
+  - osis: Acts
+    texts:
+      - Iritigankaneegi Jeso
+      - Ipi
+  - osis: Rom
+    texts:
+      - Iromakunirira
+      - Iro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintokunirira
+      - Ko
+  - osis: Col
+    texts:
+      - Korosakunirira
+      - Kor
+  - osis: Gal
+    texts:
+      - Garashiakunirira
+      - Ga
+  - osis: Eph
+    texts:
+      - Epesokunirira
+      - Ep
+  - osis: Phil
+    texts:
+      - Piripokunirira
+      - Pir
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaronikakunirira
+      - Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+      - Ti
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Piremon
+      - Prm
+  - osis: Heb
+    texts:
+      - Evereoegi
+      - Ev
+  - osis: Jas
+    texts:
+      - Santiago
+      - Stg
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Perero
+      - Pe
+  - osis: Jude
+    texts:
+      - Jorashi
+      - Jor
+translations:
+  - MCB
+  - JON20

@@ -1,0 +1,590 @@
+default:
+  1Chr:
+    long: 1 Kronika
+    short: 1Ki
+  1Cor:
+    long: 1 Kọrinti
+    short: 1Kọ
+  1John:
+    long: 1 Johanu
+    short: 1Jh
+  1Kgs:
+    long: 1 Ọba
+    short: 1A. Ọba
+  1Pet:
+    long: 1 Peteru
+    short: 1Pet
+  1Sam:
+    long: 1 Samuẹli
+    short: 1Sa
+  1Thess:
+    long: 1 Tẹsalonika
+    short: 1Tẹ
+  1Tim:
+    long: 1 Timotiu
+    short: 1Tim
+  2Chr:
+    long: 2 Kronika
+    short: 2Ki
+  2Cor:
+    long: 2 Kọrinti
+    short: 2Kọ
+  2John:
+    long: 2 Johanu
+    short: 2Jh
+  2Kgs:
+    long: 2 Ọba
+    short: 2A. Ọba
+  2Pet:
+    long: 2 Peteru
+    short: 2Pet
+  2Sam:
+    long: 2 Samuẹli
+    short: 2Sa
+  2Thess:
+    long: 2 Tẹsalonika
+    short: 2Tẹ
+  2Tim:
+    long: 2 Timotiu
+    short: 2Tim
+  3John:
+    long: 3 Johanu
+    short: 3Jh
+  Acts:
+    long: Ìṣe àwọn Aposteli
+    short: Ap
+  Amos:
+    long: Amosi
+    short: Am
+  Col:
+    long: Kolose
+    short: Kl
+  Dan:
+    long: Daniẹli
+    short: Da
+  Deut:
+    long: Deu
+    short: De
+  Eccl:
+    long: Oni
+    short: Oni
+  Eph:
+    long: Efesu
+    short: Ef
+  Esth:
+    long: Est
+    short: Esteri
+  Exod:
+    long: Eks
+    short: Ek
+  Ezek:
+    long: Esek
+    short: El
+  Ezra:
+    long: Esr
+    short: Es
+  Gal:
+    long: Galatia
+    short: Ga
+  Gen:
+    long: Gẹn
+    short: Gẹ
+  Hab:
+    long: Habakuku
+    short: Hab
+  Hag:
+    long: Hagai
+    short: Hag
+  Heb:
+    long: Heberu
+    short: Hb
+  Hos:
+    long: Hos
+    short: Ho
+  Isa:
+    long: Aisaya
+    short: Ais
+  Jas:
+    long: Jakọbu
+    short: Jak
+  Jer:
+    long: Jer
+    short: Jer
+  Job:
+    long: Jobu
+    short: Jb
+  Joel:
+    long: Joẹli
+    short: Jl
+  John:
+    long: Johanu
+    short: Jh
+  Jonah:
+    long: Jona
+    short: Jn
+  Josh:
+    long: Joṣua
+    short: Jo
+  Jude:
+    long: Juda
+    short: Juda
+  Judg:
+    long: A. Oni
+    short: A. Ada
+  Lam:
+    long: Ẹk. Jer
+    short: Ẹj
+  Lev:
+    long: Lefitiku
+    short: Lef
+  Luke:
+    long: Luku
+    short: Lk
+  Mal:
+    long: Malaki
+    short: Mal
+  Mark:
+    long: Mak
+    short: Mak
+  Matt:
+    long: Matiu
+    short: Mat
+  Mic:
+    long: Mika
+    short: MiK
+  Nah:
+    long: Nahumu
+    short: Nah
+  Neh:
+    long: Neh
+    short: Ne
+  Num:
+    long: Num
+    short: Nu
+  Obad:
+    long: Oba
+    short: Oba
+  Phil:
+    long: Filipi
+    short: Filipi
+  Phlm:
+    long: Filemoni
+    short: File
+  Prov:
+    long: Owe
+    short: Owe
+  Ps:
+    long: O. Daf
+    short: O. Daf
+  Rev:
+    long: Ìfihàn
+    short: If
+  Rom:
+    long: Romu
+    short: Ro
+  Ruth:
+    long: Rutu
+    short: Ru
+  Song:
+    long: Orin Solomoni
+    short: O. Sol
+  Titus:
+    long: Titu
+    short: Tit
+  Zech:
+    long: Sakaraya
+    short: Sak
+  Zeph:
+    long: Sef
+    short: Sef
+translations:
+  ybcv:
+    1Chr:
+      long: I. Kro
+      short: I. Kronika
+    1Cor:
+      long: I. Kor
+      short: I. Korinti
+    1John:
+      long: I. Joh
+      short: I. Johanu
+    1Kgs:
+      long: I. A. Ọba
+      short: I. Awọn Ọba
+    1Pet:
+      long: I. Pet
+      short: I. Peteru
+    1Sam:
+      long: I. Sam
+      short: I. Samueli
+    1Thess:
+      long: I. Tes
+      short: I. Tessalonika
+    1Tim:
+      long: I. Tim
+      short: I. Timotiu
+    2Chr:
+      long: II. Kro
+      short: II. Kronika
+    2Cor:
+      long: II. Kor
+      short: II. Korinti
+    2John:
+      long: II. Joh
+      short: II. Johanu
+    2Kgs:
+      long: II. A. Ọba
+      short: II. Awọn Ọba
+    2Pet:
+      long: II. Pet
+      short: II. Peteru
+    2Sam:
+      long: II. Sam
+      short: II. Samueli
+    2Thess:
+      long: II. Tes
+      short: II. Tessalonika
+    2Tim:
+      long: II. Tim
+      short: II. Timotiu
+    3John:
+      long: III. Joh
+      short: III. Johanu
+    Acts:
+      long: Iṣe Apo
+      short: Iṣe Awọn Aposteli
+    Amos:
+      long: Amo
+      short: Amosi
+    Col:
+      long: Kol
+      short: Kolose
+    Dan:
+      long: Dan
+      short: Danieli
+    Deut:
+      short: Deuteronomi
+    Eccl:
+      short: Oniwaasu
+    Eph:
+      long: Efe
+      short: Efesu
+    Exod:
+      short: Eksodu
+    Ezek:
+      short: Esekieli
+    Ezra:
+      short: Esra
+    Gal:
+      long: Gal
+      short: Galatia
+    Gen:
+      short: Gẹnẹsisi
+    Hab:
+      long: Hab
+      short: Habakuku
+    Hag:
+      long: Hag
+      short: Hagai
+    Heb:
+      long: Heb
+      short: Heberu
+    Hos:
+      short: Hosea
+    Isa:
+      long: Isa
+      short: Isaiah
+    Jas:
+      long: Jak
+      short: Jakọbu
+    Jer:
+      short: Jeremiah
+    Job:
+      long: Job
+      short: Jobu
+    Joel:
+      long: Joel
+      short: Joeli
+    John:
+      long: Joh
+      short: Johanu
+    Jonah:
+      long: Jon
+      short: Jona
+    Josh:
+      long: Joṣ
+      short: Joṣua
+    Jude:
+      long: Jud
+    Judg:
+      short: Awọn Onidajọ
+    Lam:
+      short: Ẹkun Jeremiah
+    Lev:
+      long: Lef
+      short: Lefitiku
+    Luke:
+      long: Luk
+      short: Luku
+    Mal:
+      long: Mal
+      short: Malaki
+    Mark:
+      short: Marku
+    Matt:
+      long: Mat
+      short: Matiu
+    Mic:
+      long: MiK
+      short: Mika
+    Nah:
+      long: Nah
+      short: Nahumu
+    Neh:
+      short: Nehemiah
+    Num:
+      short: Numeri
+    Obad:
+      short: Obadiah
+    Phil:
+      long: Filp
+    Phlm:
+      long: File
+      short: Filemoni
+    Ps:
+      short: Orin Dafidi
+    Rev:
+      long: Ifi
+      short: Ifihan
+    Rom:
+      long: Rom
+      short: Romu
+    Ruth:
+      long: Rut
+      short: Rutu
+    Song:
+      long: O. Sol
+      short: Orin Solomoni
+    Titus:
+      long: Tit
+      short: Titu
+    Zech:
+      long: Sek
+      short: Sekariah
+    Zeph:
+      short: Sefaniah
+  yce:
+    1Chr:
+      long: Kronika Kinni
+      short: 1Kro
+    1Cor:
+      long: Kọrinti Kinni
+      short: 1Kọr
+    1John:
+      long: Johanu Kinni
+      short: 1Joh
+    1Kgs:
+      long: Àwọn Ọba Kinni
+    1Pet:
+      long: Peteru Kinni
+    1Sam:
+      long: Samuẹli Kinni
+      short: 1Sam
+    1Thess:
+      long: Tẹsalonika Kinni
+      short: 1Tẹs
+    1Tim:
+      long: Timoti Kinni
+    2Chr:
+      long: Kronika Keji
+      short: 2Kro
+    2Cor:
+      long: Kọrinti Keji
+      short: 2Kọr
+    2John:
+      long: Johanu Keji
+      short: 2Joh
+    2Kgs:
+      long: Àwọn Ọba Keji
+    2Pet:
+      long: Peteru Keji
+    2Sam:
+      long: Samuẹli Keji
+      short: 2Sam
+    2Thess:
+      long: Tẹsalonika Keji
+      short: 2Tẹs
+    2Tim:
+      long: Timoti Keji
+    3John:
+      long: Johanu Kẹta
+      short: 3Joh
+    Acts:
+      short: Ìṣe Apo
+    Amos:
+      short: Amos
+    Col:
+      short: Kol
+    Dan:
+      short: Dan
+    Deut:
+      long: Diutaronomi
+      short: Diut
+    Eccl:
+      long: Ìwé Oníwàásù
+    Eph:
+      short: Efe
+    Esth:
+      long: Ẹsita
+      short: Ẹst
+    Exod:
+      long: Ẹkisodu
+      short: Ẹks
+    Ezek:
+      long: Isikiẹli
+      short: Isi
+    Ezra:
+      long: Ẹsira
+      short: Ẹsr
+    Gal:
+      short: Gal
+    Gen:
+      long: Jẹnẹsisi
+      short: Jẹn
+    Heb:
+      short: Heb
+    Hos:
+      long: Hosia
+      short: Hos
+    Jer:
+      long: Jeremaya
+    Job:
+      short: Job
+    Joel:
+      short: Joẹl
+    John:
+      short: Joh
+    Jonah:
+      short: Jon
+    Josh:
+      short: Joṣ
+    Judg:
+      long: ÀWỌN ADÁJỌ́
+    Lam:
+      long: Ẹkún Jeremaya
+      short: Ẹk. Jer
+    Luke:
+      short: Luk
+    Mark:
+      long: Maku
+    Neh:
+      long: Nehemaya
+      short: Neh
+    Num:
+      long: Nọmba
+      short: Nọm
+    Obad:
+      long: Ọbadaya
+    Phil:
+      short: Filp
+    Prov:
+      long: Ìwé Òwe
+      short: Òwe
+    Ps:
+      long: Orin Dafidi
+    Rev:
+      short: Ifi
+    Rom:
+      short: Rom
+    Ruth:
+      short: Rut
+    Zeph:
+      long: Sefanaya
+  ycb:
+    1Kgs:
+      short: 1Ọb
+    1Pet:
+      short: 1Pt
+    1Tim:
+      short: 1Tm
+    2Kgs:
+      short: 2Ọb
+    2Pet:
+      short: 2Pt
+    2Tim:
+      short: 2Tm
+    Deut:
+      long: Deuteronomi
+    Eccl:
+      long: Oniwaasu
+      short: Su
+    Esth:
+      long: Esteri
+      short: Et
+    Exod:
+      long: Eksodu
+    Ezek:
+      long: Esekiẹli
+    Ezra:
+      long: Esra
+    Gen:
+      long: Gẹnẹsisi
+    Hab:
+      short: Hk
+    Hag:
+      short: Hg
+    Hos:
+      long: Hosea
+    Isa:
+      long: Isaiah
+      short: Isa
+    Jas:
+      short: Jk
+    Jer:
+      long: Jeremiah
+      short: Jr
+    Jude:
+      short: Jd
+    Judg:
+      long: Onidajọ
+      short: On
+    Lam:
+      long: Ẹkun Jeremiah
+    Lev:
+      short: lE
+    Mal:
+      short: Ml
+    Mark:
+      long: Marku
+      short: Mk
+    Matt:
+      short: Mt
+    Nah:
+      short: Nh
+    Neh:
+      long: Nehemiah
+    Num:
+      long: Numeri
+    Obad:
+      long: Ọbadiah
+      short: Ọd
+    Phil:
+      short: Fp
+    Phlm:
+      short: Fm
+    Prov:
+      long: Òwe
+      short: Òw
+    Ps:
+      long: Saamu
+      short: Sm
+    Song:
+      short: Os
+    Titus:
+      short: Tt
+    Zech:
+      long: Sekariah
+      short: Sk
+    Zeph:
+      long: Sefaniah
+      short: Sf

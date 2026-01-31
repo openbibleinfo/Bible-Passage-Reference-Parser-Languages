@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Islɛ̀o Blo̍h‑a̍ Fanpôh Tèh
+    short: 1It
+  1Cor:
+    long: 1 Kɔwli̍ntèh Nyɔ˖
+    short: 1Kɔ
+  1John:
+    long: 1 Jɔ̀ni
+    short: 1Jn
+  1Kgs:
+    long: 1 Klɔbâ˖ Pôh
+    short: 1Kl
+  1Pet:
+    long: 1 Pitɛ̍
+    short: 1Pi
+  1Sam:
+    long: 1 Sami̍ɔ̍
+    short: 1Sa
+  1Thess:
+    long: 1 Tɛsàlɔ̍ni̍kà Nyɔ˖
+    short: 1Tɛ
+  1Tim:
+    long: 1 Timoti̍
+    short: 1Ti
+  2Chr:
+    long: 2 Islɛ̀o Blo̍h‑a̍ Fanpôh Tèh
+    short: 2It
+  2Cor:
+    long: 2 Kɔwli̍ntèh Nyɔ˖
+    short: 2Kɔ
+  2John:
+    long: 2 Jɔ̀ni
+    short: 2Jn
+  2Kgs:
+    long: 2 Klɔbâ˖ Pôh
+    short: 2Kl
+  2Pet:
+    long: 2 Pitɛ̍
+    short: 2Pi
+  2Sam:
+    long: 2 Sami̍ɔ̍
+    short: 2Sa
+  2Thess:
+    long: 2 Tɛsàlɔ̍ni̍kà Nyɔ˖
+    short: 2Tɛ
+  2Tim:
+    long: 2 Timoti̍
+    short: 2Ti
+  3John:
+    long: 3 Jɔ̀ni
+    short: 3Jn
+  Acts:
+    long: Tàdloyɔ˖‑a̍ Nunu Dɛ˖
+    short: Nun
+  Amos:
+    long: Emɔsèh
+    short: Emo̍
+  Col:
+    long: Kɔlɔ̍sèh Nyɔ˖
+    short: Kɔl
+  Dan:
+    long: Dàni̍ɔ̍
+    short: Dàn
+  Deut:
+    long: Gbetè Tɔnê Win
+    short: Gtw
+  Eccl:
+    long: Bɔ̂ Wluyɔ
+    short: Bwy
+  Eph:
+    long: Ɛfɛ̍sɔ̀ Nyɔ˖
+    short: Ɛfɛ̍
+  Esth:
+    long: Ɛsla̍
+    short: Ɛsa̍
+  Exod:
+    long: Klɔ̀ Blubluɛ
+    short: Kbu
+  Ezek:
+    long: Isìki̍ɛ̀
+    short: Isk
+  Ezra:
+    long: Ɛslà
+    short: Ɛsl
+  Gal:
+    long: Kàla̍tià Nyɔ˖
+    short: Kàl
+  Gen:
+    long: Wlò Tû‑lâ
+    short: Wtl
+  Hab:
+    long: Hàbaku̍kî
+    short: Hàb
+  Hag:
+    long: Ha̍kì
+    short: Hàk
+  Heb:
+    long: I̍blû Nyɔ˖
+    short: I̍bl
+  Hos:
+    long: Hose̍à
+    short: Hos
+  Isa:
+    long: Asàya
+    short: Asà
+  Jas:
+    long: Jěmsèh
+    short: Jěm
+  Jer:
+    long: Jɛlèma̍yâ
+    short: Jma
+  Job:
+    long: Jòpo
+    short: Jòp
+  Joel:
+    long: Jo̍wɛ̀
+    short: Jo̍w
+  John:
+    long: Jɔ̀ni
+    short: Jɔ̀n
+  Jonah:
+    long: Jòna̍
+    short: Jna̍
+  Josh:
+    long: Jɔ̀soa̍
+    short: Jɔ̀s
+  Jude:
+    long: Jǔdi
+    short: Jǔd
+  Judg:
+    long: Bodiɔ˖ Pôh
+    short: Bdp
+  Lam:
+    long: Wɔtèh Fîn Win
+    short: Wfw
+  Lev:
+    long: Momà Poyɔ˖
+    short: Mpy
+  Luke:
+    long: Duku̍
+    short: Duk
+  Mal:
+    long: Malea̍kì
+    short: Mal
+  Mark:
+    long: Make̍h
+    short: Mak
+  Matt:
+    long: Mati̍u̍
+    short: Mat
+  Mic:
+    long: Mi̍kà
+    short: Mi̍k
+  Nah:
+    long: Na̍hùm
+    short: Na̍h
+  Neh:
+    long: Nehɛ̀meyâ
+    short: Nem
+  Num:
+    long: Islɛ̀o‑a̍ Slɛ̀slɛɛ
+    short: Slɛ̀
+  Obad:
+    long: Obàdi̍yâ
+    short: Obà
+  Phil:
+    long: Fili̍pì Nyɔ˖
+    short: Flp
+  Phlm:
+    long: File̍mòn
+    short: Flm
+  Prov:
+    long: Tɔ̂ Kɔnyɔ‑a̍ Na̍ Win Pôh
+    short: Nwp
+  Ps:
+    long: Nyesoa Sànê Wlɛ̍˖
+    short: Swl
+  Rev:
+    long: Kwla̍ Sâ Tèh
+    short: Kst
+  Rom:
+    long: Wlo̍mâ Nyɔ˖
+    short: Wlo̍
+  Ruth:
+    long: Wlu̍fû
+    short: Wlu
+  Song:
+    long: Wlɛ̍˖ Pôh‑a̍ Wlɛ̍
+    short: Wpw
+  Titus:
+    long: Taetɔ̍sèh
+    short: Tat
+  Zech:
+    long: Sàkàwla̍yà
+    short: Sàk
+  Zeph:
+    long: Sèfani̍yâ
+    short: Sèf

@@ -1,0 +1,620 @@
+- osis: Gen
+  texts:
+    - Pirmā Mozus
+    - 1. Mozus
+    - 1Moz
+- osis: Exod
+  texts:
+    - Otra Mozus
+    - 2. Mozus
+    - 2Moz
+- osis: Lev
+  texts:
+    - Trešā Mozus
+    - 3. Mozus
+    - 3Moz
+- osis: Num
+  texts:
+    - Ceturtā Mozus
+    - 4. Mozus
+    - 4Moz
+- osis: Sir
+  texts:
+    - Ecclesiasticus
+    - Sirach
+    - Sīr
+- osis: Wis
+  texts:
+    - Wisdom of Solomon
+    - Sāl
+- osis: Lam
+  texts:
+    - Vaimanu dziesmas
+    - Raudu dziesmas
+    - Raud
+    - Rdz
+    - Vdz
+- osis: EpJer
+  texts:
+    - Letter of Jeremiah
+    - Jerv
+- osis: Rev
+  texts:
+    - Jaņa Atklāsmes Grāmata
+    - Jāņa atklāsmes
+    - Parādīšanas
+    - Atklāsmes
+    - Parād
+    - Atkl
+- osis: PrMan
+  texts:
+    - Prayer of Manasseh
+    - Man
+- osis: Deut
+  texts:
+    - Piektā Mozus
+    - 5. Mozus
+    - 5Moz
+- osis: Josh
+  texts:
+    - Jozuas
+    - Joz
+- osis: Judg
+  texts:
+    - Sog̒u
+    - Soģu
+    - Soģ
+- osis: Ruth
+  texts:
+    - Rutes
+    - Rut
+- osis: 1Esd
+  texts:
+    - 1 Esdras
+    - 1. Esdras
+    - Pirmā Esdras
+    - Pirmā. Esdras
+    - Pāvila Esdras
+    - Pāvila. Esdras
+- osis: 1Esd
+  texts:
+    - 2Ezr
+- osis: Isa
+  texts:
+    - Jesajas
+    - Jesaja
+    - Jes
+- osis: 1Sam
+  texts:
+    - 1 Samuela
+    - 1 Samuēla
+    - 1. Samuela
+    - 1. Samuēla
+    - Pirmā Samuela
+    - Pirmā Samuēla
+    - Pirmā. Samuela
+    - Pirmā. Samuēla
+    - Pāvila Samuela
+    - Pāvila Samuēla
+    - Pāvila. Samuela
+    - Pāvila. Samuēla
+- osis: 2Sam
+  texts:
+    - 2 Samuela
+    - 2 Samuēla
+    - 2. Samuela
+    - 2. Samuēla
+    - Otra Samuela
+    - Otra Samuēla
+    - Otra. Samuela
+    - Otra. Samuēla
+    - Pāvila Samuela
+    - Pāvila Samuēla
+    - Pāvila. Samuela
+    - Pāvila. Samuēla
+- osis: 1Sam
+  texts:
+    - 1Sam
+- osis: 2Sam
+  texts:
+    - 2Sam
+- osis: 1Kgs
+  texts:
+    - 1 Ķēniņu
+    - 1. Ķēniņu
+    - Pirmā Ķēniņu
+    - Pirmā. Ķēniņu
+    - Pāvila Ķēniņu
+    - Pāvila. Ķēniņu
+- osis: 2Kgs
+  texts:
+    - 2 Ķēniņu
+    - 2. Ķēniņu
+    - Otra Ķēniņu
+    - Otra. Ķēniņu
+    - Pāvila Ķēniņu
+    - Pāvila. Ķēniņu
+- osis: 1Kgs
+  texts:
+    - 1Ķēn
+- osis: 2Kgs
+  texts:
+    - 2Ķēn
+- osis: 1Chr
+  texts:
+    - 1Laik
+    - 1L
+- osis: 2Chr
+  texts:
+    - Otrā Laiku
+    - 2Laik
+    - 2L
+- osis: 1Chr
+  texts:
+    - 1 Laiku
+    - 1. Laiku
+    - Pirmā Laiku
+    - Pirmā. Laiku
+    - Pāvila Laiku
+    - Pāvila. Laiku
+- osis: 2Chr
+  texts:
+    - 2 Laiku
+    - 2. Laiku
+    - Otra Laiku
+    - Otra. Laiku
+    - Pāvila Laiku
+    - Pāvila. Laiku
+- osis: Ezra
+  texts:
+    - Ezras
+    - Ezr
+- osis: Neh
+  texts:
+    - Nechemijas
+    - Nehemijas
+    - Nehem
+    - Neh
+- osis: Esth
+  texts:
+    - Esteres
+    - Est
+- osis: Job
+  texts:
+    - Ījaba
+    - Ījab
+    - Īj
+- osis: Ps
+  texts:
+    - Dāvida dziesmas
+    - Dāv.dz
+    - Psalmi
+    - Ps
+- osis: Prov
+  texts:
+    - Salamana Pamācības
+    - Sakāmie vārdi
+    - Sakāmvārdi
+    - Pam
+    - Sak
+- osis: Eccl
+  texts:
+    - Salamans mācītājs
+    - Mācītājs
+    - Māc
+- osis: Song
+  texts:
+    - Dziesmu dziesma
+    - Augstā dziesma
+    - Augst.dz
+    - Dz
+- osis: Jer
+  texts:
+    - Jeremijas
+    - Jeremija
+    - Jer
+- osis: Ezek
+  texts:
+    - Ecechiela
+    - Ecehiēla
+    - Ecēhiēla
+    - Ecehiēls
+    - Eceh
+    - Ech
+- osis: Dan
+  texts:
+    - Daniēla
+    - Daniēls
+    - Dan
+- osis: Hos
+  texts:
+    - Hozejas
+    - Hozeja
+    - Hoz
+- osis: Joel
+  texts:
+    - Joēla
+    - Joēls
+    - Joēl
+    - Jl
+- osis: Amos
+  texts:
+    - Amosa
+    - Amos
+    - Am
+- osis: Obad
+  texts:
+    - Obadija
+    - Obadjas
+    - Obad
+    - Ob
+- osis: Jonah
+  texts:
+    - Jonas
+    - Jona
+    - Jon
+- osis: Mic
+  texts:
+    - Michas
+    - Mihas
+    - Miha
+    - Mih
+- osis: Nah
+  texts:
+    - Nachuma
+    - Nahuma
+    - Nahūma
+    - Nakums
+    - Nah
+    - Nak
+- osis: Hab
+  texts:
+    - Habakuka
+    - Habakuks
+    - Habak
+    - Hab
+- osis: Zeph
+  texts:
+    - Cefanija
+    - Cefanjas
+    - Cef
+- osis: Hag
+  texts:
+    - Hagaja
+    - Hag
+- osis: Zech
+  texts:
+    - Caharijas
+    - Cakarijas
+    - Zaharijas
+    - Zaharija
+    - Zaha
+    - Cah
+    - Zah
+- osis: Mal
+  texts:
+    - Maleachija
+    - Maleahija
+    - Malahija
+    - Mal
+- osis: Matt
+  texts:
+    - Mateja Evaņg̒elijs
+    - Mateja evaņģēlijs
+    - Mateja ev.
+    - Mateja
+    - Mat
+    - Mt
+- osis: Mark
+  texts:
+    - Marka Evaņg̒elijs
+    - Marka evaņģēlijs
+    - Marka ev.
+    - Marka
+    - Mark
+    - Mk
+- osis: Luke
+  texts:
+    - Lūkas Evaņg̒elijs
+    - Lūkas evaņģēlijs
+    - Lūkas ev.
+    - Lūkas
+    - Lūk
+    - Lk
+- osis: 1John
+  texts:
+    - Jāņa 1. Vēstule
+    - 1Jāņ
+    - 1Jņ
+- osis: 2John
+  texts:
+    - Jāņa 2. Vēstule
+    - 2Jāņ
+    - 2Jņ
+- osis: 3John
+  texts:
+    - Jāņa 3. Vēstule
+    - 3. Jāņa
+    - 3Jāņ
+    - 3Jņ
+- osis: John
+  texts:
+    - Jāņa Evaņg̒elijs
+    - Jāņa evaņģēlijs
+    - Jāņa ev.
+    - Jāņa
+    - Jāņ
+    - Jņ
+- osis: 1John
+  texts:
+    - 1 Jāņa
+    - 1. Jāņa
+    - Pirmā Jāņa
+    - Pirmā. Jāņa
+    - Pāvila Jāņa
+    - Pāvila. Jāņa
+- osis: 2John
+  texts:
+    - 2 Jāņa
+    - 2. Jāņa
+    - Otra Jāņa
+    - Otra. Jāņa
+    - Pāvila Jāņa
+    - Pāvila. Jāņa
+- osis: 3John
+  texts:
+    - 3 Jāņa
+    - 3. Jāņa
+- osis: Acts
+  texts:
+    - Apustuļu darbi
+    - Ap.darb
+    - Apd
+- osis: Rom
+  texts:
+    - Pāvilavēstulē Romiešiem
+    - Romiešiem
+    - Rom
+    - Rm
+- osis: 1Cor
+  texts:
+    - 1 1. Vēstule Korintiešiem
+    - 1 Korintiešiem
+    - 1. 1. Vēstule Korintiešiem
+    - 1. Korintiešiem
+    - Pirmā 1. Vēstule Korintiešiem
+    - Pirmā Korintiešiem
+    - Pirmā. 1. Vēstule Korintiešiem
+    - Pirmā. Korintiešiem
+    - Pāvila 1. Vēstule Korintiešiem
+    - Pāvila Korintiešiem
+    - Pāvila. 1. Vēstule Korintiešiem
+    - Pāvila. Korintiešiem
+- osis: 1Cor
+  texts:
+    - 1Kor
+- osis: 2Cor
+  texts:
+    - 2 2. Vēstule Korintiešiem
+    - 2 Korintiešiem
+    - 2. 2. Vēstule Korintiešiem
+    - 2. Korintiešiem
+    - Otra 2. Vēstule Korintiešiem
+    - Otra Korintiešiem
+    - Otra. 2. Vēstule Korintiešiem
+    - Otra. Korintiešiem
+    - Pāvila 2. Vēstule Korintiešiem
+    - Pāvila Korintiešiem
+    - Pāvila. 2. Vēstule Korintiešiem
+    - Pāvila. Korintiešiem
+- osis: 2Cor
+  texts:
+    - 2Kor
+- osis: Col
+  texts:
+    - Pāvila Vēstule Kolosiešiem
+    - Kolosiešiem
+    - Kol
+- osis: Gal
+  texts:
+    - Pāvila Vēstule Galatiešiem
+    - Galatiešiem
+    - Gal
+- osis: Eph
+  texts:
+    - Pāvila Vēstule Efeziešiem
+    - Efesiešiem
+    - Efeziešiem
+    - Efe
+    - Ef
+- osis: Phil
+  texts:
+    - Pāvila Vēstule Filipiešiem
+    - Filipiešiem
+    - Filip
+    - Flp
+- osis: 1Thess
+  texts:
+    - 1Tes
+- osis: 2Thess
+  texts:
+    - 2 2. Vēstule Tesaloniķiešiem
+    - 2 Tesaloniķiešiem
+    - 2 Tesalonīkiešiem
+    - 2. 2. Vēstule Tesaloniķiešiem
+    - 2. Tesaloniķiešiem
+    - 2. Tesalonīkiešiem
+    - Otra 2. Vēstule Tesaloniķiešiem
+    - Otra Tesaloniķiešiem
+    - Otra Tesalonīkiešiem
+    - Otra. 2. Vēstule Tesaloniķiešiem
+    - Otra. Tesaloniķiešiem
+    - Otra. Tesalonīkiešiem
+    - Pāvila 2. Vēstule Tesaloniķiešiem
+    - Pāvila Tesaloniķiešiem
+    - Pāvila Tesalonīkiešiem
+    - Pāvila. 2. Vēstule Tesaloniķiešiem
+    - Pāvila. Tesaloniķiešiem
+    - Pāvila. Tesalonīkiešiem
+- osis: 1Thess
+  texts:
+    - 1 1. Vēstule Tesalonikiešiem
+    - 1 Tesaloniķiešiem
+    - 1 Tesalonīkiešiem
+    - 1. 1. Vēstule Tesalonikiešiem
+    - 1. Tesaloniķiešiem
+    - 1. Tesalonīkiešiem
+    - Pirmā 1. Vēstule Tesalonikiešiem
+    - Pirmā Tesaloniķiešiem
+    - Pirmā Tesalonīkiešiem
+    - Pirmā. 1. Vēstule Tesalonikiešiem
+    - Pirmā. Tesaloniķiešiem
+    - Pirmā. Tesalonīkiešiem
+    - Pāvila 1. Vēstule Tesalonikiešiem
+    - Pāvila Tesaloniķiešiem
+    - Pāvila Tesalonīkiešiem
+    - Pāvila. 1. Vēstule Tesalonikiešiem
+    - Pāvila. Tesaloniķiešiem
+    - Pāvila. Tesalonīkiešiem
+- osis: 2Thess
+  texts:
+    - 2Tes
+- osis: 1Tim
+  texts:
+    - 1 1. Vēstule Timotejam
+    - 1 Timotejam
+    - 1. 1. Vēstule Timotejam
+    - 1. Timotejam
+    - Pirmā 1. Vēstule Timotejam
+    - Pirmā Timotejam
+    - Pirmā. 1. Vēstule Timotejam
+    - Pirmā. Timotejam
+    - Pāvila 1. Vēstule Timotejam
+    - Pāvila Timotejam
+    - Pāvila. 1. Vēstule Timotejam
+    - Pāvila. Timotejam
+- osis: 1Tim
+  texts:
+    - 1Tim
+- osis: 2Tim
+  texts:
+    - 2 2. Vēstule Timotejam
+    - 2 Timotejam
+    - 2. 2. Vēstule Timotejam
+    - 2. Timotejam
+    - Otra 2. Vēstule Timotejam
+    - Otra Timotejam
+    - Otra. 2. Vēstule Timotejam
+    - Otra. Timotejam
+    - Pāvila 2. Vēstule Timotejam
+    - Pāvila Timotejam
+    - Pāvila. 2. Vēstule Timotejam
+    - Pāvila. Timotejam
+- osis: 2Tim
+  texts:
+    - 2Tim
+- osis: Titus
+  texts:
+    - Pāvila Vēstule Tītam
+    - Titam
+    - Titum
+    - Tit
+- osis: Phlm
+  texts:
+    - Pāvila Vēstule Filemonam
+    - Filemonam
+    - Filem
+    - Flm
+- osis: Heb
+  texts:
+    - Vēstule Ebrējiem
+    - Ebrejiem
+    - Ebr
+- osis: Jas
+  texts:
+    - Jēkaba Vēstule
+    - Jēkaba
+    - Jēk
+    - Jk
+- osis: 1Pet
+  texts:
+    - 1 Pētera
+    - 1. Pētera
+    - Pirmā Pētera
+    - Pirmā. Pētera
+    - Pāvila Pētera
+    - Pāvila. Pētera
+- osis: 2Pet
+  texts:
+    - 2 Pētera
+    - 2. Pētera
+    - Otra Pētera
+    - Otra. Pētera
+    - Pāvila Pētera
+    - Pāvila. Pētera
+- osis: 1Pet
+  texts:
+    - Pēteŗa 1. Vēstule
+    - 1Pēt
+- osis: 2Pet
+  texts:
+    - Pēteŗa 2. Vēstule
+    - 2Pēt
+- osis: Jude
+  texts:
+    - Jūdas Vēstule
+    - Jūdas
+    - Jūd
+- osis: Tob
+  texts:
+    - Tobit
+    - Tob
+- osis: Jdt
+  texts:
+    - Judith
+    - Jud
+- osis: Bar
+  texts:
+    - Baruch
+    - Bar
+- osis: 1Macc
+  texts:
+    - 1Mak
+- osis: 2Macc
+  texts:
+    - 2Mak
+- osis: 3Macc
+  texts:
+    - 3Mak
+- osis: 4Macc
+  texts:
+    - 4 Maccabees
+    - 4Mak
+- osis: 1Macc
+  texts:
+    - 1 Maccabees
+    - 1. Maccabees
+    - Pirmā Maccabees
+    - Pirmā. Maccabees
+    - Pāvila Maccabees
+    - Pāvila. Maccabees
+- osis: 2Macc
+  texts:
+    - 2 Maccabees
+    - 2. Maccabees
+    - Otra Maccabees
+    - Otra. Maccabees
+    - Pāvila Maccabees
+    - Pāvila. Maccabees
+- osis: 3Macc
+  texts:
+    - 3 Maccabees
+    - 3. Maccabees
+- osis: EsthGr
+  texts:
+    - Esther Greek
+    - EstS
+- osis: Ps151
+  texts:
+    - Psalm 151
+    - 151Ps

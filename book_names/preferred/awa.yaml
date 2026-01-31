@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: पहिला इतिहास
+    short: 1 इति.
+  1Cor:
+    long: कुरिन्थियन क पहिली पत्र
+    short: 1 कुरिन्थि.
+  1John:
+    long: यूहन्ना क पहिली पत्र
+    short: 1 यूहन्ना
+  1Kgs:
+    long: पहिला राजा
+    short: 1 राजा
+  1Pet:
+    long: पतरस क पहिली पत्र
+    short: 1 पतरस
+  1Sam:
+    long: पहिला समूएल
+    short: 1 समू.
+  1Thess:
+    long: थिस्सलुनीकियन क पहिली पत्र
+    short: 1 थिस्स.
+  1Tim:
+    long: तीमुथियुस क पहिली पत्र
+    short: 1 तीमु.
+  2Chr:
+    long: दूसर इतिहास
+    short: 2 इति.
+  2Cor:
+    long: कुरिन्थियन क दूसरी पत्र
+    short: 2 कुरिन्थि.
+  2John:
+    long: यूहन्ना क दूसरी पत्र
+    short: 2 यूहन्ना
+  2Kgs:
+    long: दूसर राजा
+    short: 2 राजा
+  2Pet:
+    long: पतरस क दूसरी पत्र
+    short: 2 पतरस
+  2Sam:
+    long: दूसर समूएल
+    short: 2 समू.
+  2Thess:
+    long: थिस्सलुनीकियन क दूसरी पत्र
+    short: 2 थिस्स.
+  2Tim:
+    long: तीमुथियुस क दूसरी पत्र
+    short: 2 तीमु.
+  3John:
+    long: यूहन्ना क तीसरी पत्र
+    short: 3 यूहन्ना
+  Acts:
+    long: प्रेरितन क काम
+    short: प्रेरितन
+  Amos:
+    long: आमोस
+    short: आमोस
+  Col:
+    long: कुलुस्सियन क पत्र
+    short: कुलु.
+  Dan:
+    long: दानिय्येल
+    short: दानिय्येल
+  Deut:
+    long: व्यवस्था विवरण
+    short: व्यवस्था
+  Eccl:
+    long: सभोपदेसक
+    short: सभो.
+  Eph:
+    long: इफिसियन क पत्र
+    short: इफि.
+  Esth:
+    long: एस्तेर
+    short: एस्तेर
+  Exod:
+    long: निर्गमन
+    short: निर्ग.
+  Ezek:
+    long: यहेजकेल
+    short: यहेजकेल
+  Ezra:
+    long: एज्रा
+    short: एज्रा
+  Gal:
+    long: गलातियन क पत्र
+    short: गलाति.
+  Gen:
+    long: उत्पत्ति
+    short: उत्पत्ति
+  Hab:
+    long: हबक्कूक
+    short: हबक्कूक
+  Hag:
+    long: हाग्गै
+    short: हाग्गै
+  Heb:
+    long: इब्रनियन क पत्र
+    short: इब्रनि.
+  Hos:
+    long: होसे
+    short: होसे
+  Isa:
+    long: यसायाह
+    short: यसा.
+  Jas:
+    long: याकूब क पत्र
+    short: याकूब
+  Jer:
+    long: यिर्मयाह
+    short: यिर्म.
+  Job:
+    long: अय्यूब
+    short: अय्यूब
+  Joel:
+    long: योएल
+    short: योए.
+  John:
+    long: यूहन्ना रचित सुसमाचार
+    short: यूहन्ना
+  Jonah:
+    long: योना
+    short: योना
+  Josh:
+    long: यहोसू
+    short: यहोसू
+  Jude:
+    long: यहूदा क पत्र
+    short: यहूदा
+  Judg:
+    long: निआवाधीसन
+    short: निआवाधीसन
+  Lam:
+    long: विलापगीत
+    short: विलाप.
+  Lev:
+    long: लैव्यव्यवस्था
+    short: लैव्य.
+  Luke:
+    long: लूका रचित सुसमाचार
+    short: लूका
+  Mal:
+    long: मलाकी
+    short: मलाकी
+  Mark:
+    long: मरकुस रचित सुसमाचार
+    short: मरकुस
+  Matt:
+    long: मत्ती रचित सुसमाचार
+    short: मत्ती
+  Mic:
+    long: मीका
+    short: मीका
+  Nah:
+    long: नहूम
+    short: नहूम
+  Neh:
+    long: नहेमायाह
+    short: नहे.
+  Num:
+    long: गनती
+    short: गनती
+  Obad:
+    long: ओबद्याह
+    short: ओबद्याह
+  Phil:
+    long: फिलिप्पियन क पत्र
+    short: फिलिप्पि.
+  Phlm:
+    long: फिलेमोन क पत्र
+    short: फिले.
+  Prov:
+    long: नीतिवचन
+    short: नीति.
+  Ps:
+    long: भजन संहिता
+    short: भ. सं.
+  Rev:
+    long: प्रकासित वाक्य
+    short: प्र. वा.
+  Rom:
+    long: रोमियन क पत्र
+    short: रोमि.
+  Ruth:
+    long: रूत
+    short: रूत
+  Song:
+    long: स्रेस्ठगीत
+    short: स्रेस्ठगीत
+  Titus:
+    long: तीतुस क पत्र
+    short: तीतुस
+  Zech:
+    long: जकर्याह
+    short: जकर्याह
+  Zeph:
+    long: सपन्याह
+    short: सपन्याह

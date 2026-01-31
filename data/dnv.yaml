@@ -1,0 +1,113 @@
+variables:
+  first: &first
+    - ၁
+  second: &second
+    - ၂
+  third: &third
+    - ၃
+books:
+  - osis: Rev
+    texts:
+      - ဗျာဒိတ်
+      - ဗျာ
+  - osis: Matt
+    texts:
+      - မဿဲ
+      - မ
+  - osis: Mark
+    texts:
+      - မာကု
+      - မာ
+  - osis: Luke
+    texts:
+      - လုကာ
+      - လု
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - ယောဟန်
+      - ယော
+  - osis: Acts
+    texts:
+      - တမန်တော်
+      - တ
+  - osis: Rom
+    texts:
+      - ရောမ
+      - ရော
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - ကောရိန္သု
+      - ကော
+  - osis: Col
+    texts:
+      - ကောလောသဲ
+      - ကော
+  - osis: Gal
+    texts:
+      - ဂလာတိ
+      - ဂလာ
+  - osis: Eph
+    texts:
+      - ဧဖက်
+      - ဧ
+  - osis: Phil
+    texts:
+      - ဖိလိပ္ပိ
+      - ဖိ
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - သက်သာလောနိတ်
+      - သက်
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - တိမောသေ
+      - တိ
+  - osis: Titus
+    texts:
+      - တိတု
+      - တိ
+  - osis: Phlm
+    texts:
+      - ဖိလေမုန်
+      - ဖိလေ
+  - osis: Heb
+    texts:
+      - ဟေဗြဲ
+      - ဟေ
+  - osis: Jas
+    texts:
+      - ယာကုပ်
+      - ယာ
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - ပေတရု
+      - ပေ
+  - osis: Jude
+    texts:
+      - ယုဒ
+      - ယု
+translations:
+  - NTDNB24

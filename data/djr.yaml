@@ -1,0 +1,112 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - God-waŋarrwuŋ maŋutji-gurrupanawuy
+      - Revelation
+  - osis: Matt
+    texts:
+      - Mathuyu
+  - osis: Mark
+    texts:
+      - Mäk
+  - osis: Luke
+    texts:
+      - Luk
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Djonguŋ dhäwu
+      - Djon
+  - osis: John
+    texts:
+      - Djon
+  - osis: Acts
+    texts:
+      - God-waŋarrwuŋ djämapuy mala
+      - Acts
+  - osis: Rom
+    texts:
+      - Rawumlil dhäwu
+      - Romans
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - gorinlil dhäwu
+      - Corinthians
+  - osis: Col
+    texts:
+      - Gulutjaylil dhäwu
+      - Colossians
+  - osis: Gal
+    texts:
+      - Galatjiyalil dhäwu
+      - Galatians
+  - osis: Eph
+    texts:
+      - Yipatjatjlil dhäwu
+      - Ephesians
+  - osis: Phil
+    texts:
+      - Bilipaylil dhäwu
+      - Philippians
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Dhatjalunikalil dhäwu
+      - Thessalonians
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Dimithiw dhäwu bolwuŋ
+      - Dimithi
+  - osis: Titus
+    texts:
+      - Dätitjku dhäwu bolwuŋ
+      - Dätitj
+  - osis: Phlm
+    texts:
+      - Bilimungu dhäwu bolwuŋ
+      - Bilimun
+  - osis: Heb
+    texts:
+      - Yeburuw
+      - Yeburu
+  - osis: Jas
+    texts:
+      - Djayimguŋ dhäwu
+      - Djayim
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Betawuŋ dhäwu
+      - Beta
+  - osis: Jude
+    texts:
+      - Djotkuŋ dhäwu
+      - Djot
+translations:
+  - DNT

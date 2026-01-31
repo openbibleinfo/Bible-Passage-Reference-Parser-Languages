@@ -1,0 +1,129 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Okuswerurirwa
+      - Obhusweruro
+  - osis: Matt
+    texts:
+      - Mataayo
+      - Matayo
+      - Mt.
+  - osis: Mark
+    texts:
+      - Maariko
+      - Mariko
+      - Mk.
+  - osis: Luke
+    texts:
+      - Ruuka
+      - Luka
+      - Lk.
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yowana
+      - Yoana
+      - Yo.
+  - osis: Acts
+    texts:
+      - Ebhikorwa bhya Jitumwa
+      - Ebikorwa
+  - osis: Rom
+    texts:
+      - Abharuumi
+      - Barumi
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Abhakoriito
+      - Bakorinto
+      - Bakor.
+  - osis: Col
+    texts:
+      - Abhakorosaayi
+      - Bakolosai
+      - Bakol.
+  - osis: Gal
+    texts:
+      - Abhagaraatiya
+      - BaGalatia
+      - Bagal.
+  - osis: Eph
+    texts:
+      - Abhayefeeso
+      - BaEfeso
+      - Baef.
+  - osis: Phil
+    texts:
+      - Abhafiriipi
+      - BaFilipi
+      - Bafil.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Abhatesaroonike
+      - Batesalonika
+      - Bates.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteewo
+      - Timoteo
+      - Tim.
+  - osis: Titus
+    texts:
+      - Tiito
+      - Tito
+  - osis: Phlm
+    texts:
+      - Firemooni
+      - Filemoni
+      - Filem.
+  - osis: Heb
+    texts:
+      - Abhayebhuraniya
+      - Baeburania
+      - Baeb.
+  - osis: Jas
+    texts:
+      - Yakobho
+      - Yakob.
+      - Yakobo
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peetero
+      - Petero
+      - Pet.
+  - osis: Jude
+    texts:
+      - Yuuda
+      - Yuda
+translations:
+  - KIJ1960
+  - JIT

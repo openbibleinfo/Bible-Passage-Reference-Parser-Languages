@@ -1,0 +1,141 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Shun-ndaa Yoh
+      - Sdy
+  - osis: Matt
+    texts:
+      - Matiiyu
+      - Mat
+  - osis: Mark
+    texts:
+      - Marikus
+      - Mar
+  - osis: Luke
+    texts:
+      - Lukaa
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Yoh
+  - osis: 2John
+    texts:
+      - 2Yoh
+  - osis: 3John
+    texts:
+      - 3 Yohana
+      - 3Yoh
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yohana
+  - osis: John
+    texts:
+      - Yohana
+      - Yoh
+  - osis: Acts
+    texts:
+      - Kywom Mo-ntom
+      - Kmt
+  - osis: Rom
+    texts:
+      - Romawa
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kora̱ntii
+  - osis: 1Cor
+    texts:
+      - 1Kor
+  - osis: 2Cor
+    texts:
+      - 2Kor
+  - osis: Col
+    texts:
+      - Kolosii
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatii
+      - Gal
+  - osis: Eph
+    texts:
+      - Afisaa
+      - Afi
+  - osis: Phil
+    texts:
+      - Filibii
+      - Fib
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Ta̱sa̱lonii
+  - osis: 1Thess
+    texts:
+      - 1Ta̱s
+  - osis: 2Thess
+    texts:
+      - 2Ta̱s
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotii
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Tiitus
+      - Tiit
+  - osis: Phlm
+    texts:
+      - Filiimon
+      - Fil
+  - osis: Heb
+    texts:
+      - Yibiranii
+      - Yib
+  - osis: Jas
+    texts:
+      - Yakubu
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Biitus
+  - osis: 1Pet
+    texts:
+      - 1Bit
+  - osis: 2Pet
+    texts:
+      - 2Bit
+  - osis: Jude
+    texts:
+      - Yahudaa
+      - Yah
+translations:
+  - HYAMNT

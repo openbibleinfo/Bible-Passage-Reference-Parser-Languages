@@ -1,0 +1,50 @@
+variables:
+  first: &first
+    - १
+  second: &second
+    - २
+books:
+  - osis: Mark
+    texts:
+      - मर्‌कुस
+      - मर्‌क
+  - osis: Luke
+    texts:
+      - लुका
+      - लुक
+  - osis: Acts
+    texts:
+      - पेरित
+      - पे
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - थेसलोनिकि
+  - osis: 1Thess
+    texts:
+      - १थेस
+  - osis: 2Thess
+    texts:
+      - २थेस
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - तिमोथि
+  - osis: 1Tim
+    texts:
+      - १ति
+  - osis: 2Tim
+    texts:
+      - २ति
+  - osis: Titus
+    texts:
+      - तितस
+      - तित
+translations:
+  - MAJH

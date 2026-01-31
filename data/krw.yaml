@@ -1,0 +1,113 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Wlɛfeleseɔn
+      - Wlf
+  - osis: Matt
+    texts:
+      - Matio
+      - Mt
+  - osis: Mark
+    texts:
+      - Maɛ
+      - Ma
+  - osis: Luke
+    texts:
+      - Luu
+      - Lu
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Chɔɔn
+      - Chn
+  - osis: Acts
+    texts:
+      - Nu̍-dɛ̍ᵻ
+      - Nu̍
+  - osis: Rom
+    texts:
+      - Wloma
+      - Wlo
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kɔwlɛntiɔn
+      - Kɔ
+  - osis: Col
+    texts:
+      - Kalase
+      - Kal
+  - osis: Gal
+    texts:
+      - Kelesea
+      - Kel
+  - osis: Eph
+    texts:
+      - Ɛfɛsɔ
+      - Ɛf
+  - osis: Phil
+    texts:
+      - Felepai
+      - Fel
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tɛsoloniɔn
+      - Tɛs
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+      - Tim
+  - osis: Titus
+    texts:
+      - Taitɔ
+      - Tai
+  - osis: Phlm
+    texts:
+      - Faɛlimɔ
+      - Flm
+  - osis: Heb
+    texts:
+      - Iblu
+      - Ib
+  - osis: Jas
+    texts:
+      - Chiin
+      - Chi
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pitɛ
+      - Pt
+  - osis: Jude
+    texts:
+      - Judi
+      - Ju
+translations:
+  - KDNT

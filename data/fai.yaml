@@ -1,0 +1,127 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Yesus daw misun teimin sung
+      - Daw misun
+      - Daw
+      - Dm
+  - osis: Matt
+    texts:
+      - Matiyu
+      - Mat
+      - Mt
+  - osis: Mark
+    texts:
+      - Mák
+      - Mk
+  - osis: Luke
+    texts:
+      - Luk
+      - Lk
+  - osis: 3John
+    texts:
+      - 3 Jon
+      - 3 Yon
+      - 3 Yn
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yon
+      - Yn
+  - osis: Acts
+    texts:
+      - Sinik Abem
+      - Sinik
+      - Sa
+  - osis: Rom
+    texts:
+      - Udom
+      - Ud
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kodin
+      - Kod
+      - Ko
+  - osis: Col
+    texts:
+      - Kalose
+      - Kal
+      - Ka
+  - osis: Gal
+    texts:
+      - Galesia
+      - Gal
+      - Ga
+  - osis: Eph
+    texts:
+      - Efesis
+      - Efe
+      - Ef
+  - osis: Phil
+    texts:
+      - Filibai
+      - Fil
+      - Fi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonaikka
+      - Te
+      - Th
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+      - Ti
+  - osis: Titus
+    texts:
+      - Taitas
+      - Tai
+  - osis: Phlm
+    texts:
+      - Failiman
+      - Fai
+  - osis: Heb
+    texts:
+      - Ibidu
+      - Ibi
+      - Ib
+  - osis: Jas
+    texts:
+      - Yemis
+      - Yem
+      - Ye
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Bita
+      - Bi
+  - osis: Jude
+    texts:
+      - Yut
+      - Yu
+translations:
+  - FAINT
+  - FAI

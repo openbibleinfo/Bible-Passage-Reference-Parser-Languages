@@ -1,0 +1,113 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Àpòkàlîb
+      - Àp
+  - osis: Matt
+    texts:
+      - Màtíyò
+      - Mà
+  - osis: Mark
+    texts:
+      - Máàrk
+      - Má
+  - osis: Luke
+    texts:
+      - Lúkàs
+      - Lú
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jâŋ
+      - Jâ
+  - osis: Acts
+    texts:
+      - Ə́rɨ́b nùb tómé yi ə́llé
+      - Ə
+  - osis: Rom
+    texts:
+      - Nùb róòm
+      - Rm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Nùb Kòréèntə̀
+      - Nù
+  - osis: Col
+    texts:
+      - Nùb Kòlóòs
+      - Nù
+  - osis: Gal
+    texts:
+      - Nùb Gàlàtíì
+      - Nù
+  - osis: Eph
+    texts:
+      - Nùb Èféès
+      - Nù
+  - osis: Phil
+    texts:
+      - Nùb Fìlíìb
+      - Nù
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Nùb Tèsàlòníìk
+      - Nù
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tìmòtê
+      - Tì
+  - osis: Titus
+    texts:
+      - Tît
+      - Tî
+  - osis: Phlm
+    texts:
+      - Fìlèmôŋ
+      - Fì
+  - osis: Heb
+    texts:
+      - Gbàŋ Èbɨ̀rə́ə̀
+      - Gb
+  - osis: Jas
+    texts:
+      - Jâk
+      - Jâ
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Píyéèr
+      - Pí
+  - osis: Jude
+    texts:
+      - Jûdə̀
+      - Jû
+translations:
+  - VNT

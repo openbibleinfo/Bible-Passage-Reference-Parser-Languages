@@ -1,0 +1,114 @@
+books:
+  - osis: Rev
+    texts:
+      - ອາປັຮ ເລືາຍ
+      - ອລ
+  - osis: Prov
+    texts:
+      - ປັຣນາຍ ປາລີ່ ພາຍາ
+  - osis: Matt
+    texts:
+      - ມັດທາຍ
+      - ມທ
+  - osis: Mark
+    texts:
+      - ມາຣະໂກ
+      - ມກ
+  - osis: Luke
+    texts:
+      - ລູກາ
+      - ລກ
+  - osis: 1John
+    texts:
+      - ໂຢຮັນ ມວຍ
+      - 1ຢຮ
+  - osis: 2John
+    texts:
+      - ໂຢຮັນ ບາຣ
+      - 2ຢຮ
+  - osis: 3John
+    texts:
+      - ໂຢຮັນ ໄປ
+      - 3ຢຮ
+  - osis: John
+    texts:
+      - ໂຢຮັນ
+      - ຢຮ
+  - osis: Acts
+    texts:
+      - ຣານະ ຕະ
+      - ຣຕ
+  - osis: Rom
+    texts:
+      - ໂຣມ
+      - ຣມ
+  - osis: 1Cor
+    texts:
+      - ໂກຣິນໂທ ມວຍ
+      - 1ກຣ
+  - osis: 2Cor
+    texts:
+      - ໂກຣິນໂທ ບາຣ
+      - 2ກຣ
+  - osis: Col
+    texts:
+      - ໂກໂລຊາຍ
+      - ກຊ
+  - osis: Gal
+    texts:
+      - ຄາລາເຕຍ
+      - ຄລ
+  - osis: Eph
+    texts:
+      - ເອເພໂຊ
+      - ອພ
+  - osis: Phil
+    texts:
+      - ພີລິບປອຍ
+      - ພລ
+  - osis: 1Thess
+    texts:
+      - ເທຊະໂລນິກ ມວຍ
+      - 1ທນ
+  - osis: 2Thess
+    texts:
+      - ເທຊະໂລນິກ ບາຣ
+      - 2ທນ
+  - osis: 1Tim
+    texts:
+      - ຕີໂມທຽວ ມວຍ
+      - 1ຕມ
+  - osis: 2Tim
+    texts:
+      - ຕີໂມທຽວ ບາຣ
+      - 2ຕມ
+  - osis: Titus
+    texts:
+      - ຕີໂຕ
+      - ຕຕ
+  - osis: Phlm
+    texts:
+      - ພີເລໂມນ
+      - ພມ
+  - osis: Heb
+    texts:
+      - ເຮັບເຣີ
+      - ຮຣ
+  - osis: Jas
+    texts:
+      - ຢາໂກໂບ
+      - ຢກ
+  - osis: 1Pet
+    texts:
+      - ເປໂຕ ມວຍ
+      - 1ປຕ
+  - osis: 2Pet
+    texts:
+      - ເປໂຕ ບາຣ
+      - 2ປຕ
+  - osis: Jude
+    texts:
+      - ຢູດາ
+      - ຢດ
+translations:
+  - NCQ

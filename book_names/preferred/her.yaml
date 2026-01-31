@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Ekuruhungi
+    short: 1Eku
+  1Cor:
+    long: 1 Ovakorinte
+    short: 1Kor
+  1John:
+    long: 1 Johanes
+    short: 1Jn
+  1Kgs:
+    long: 1 Ozombara
+    short: 1Ozo
+  1Pet:
+    long: 1 Petrus
+    short: 1Pt
+  1Sam:
+    long: 1 Samuel
+    short: 1Sam
+  1Thess:
+    long: 1 Ovatesalonika
+    short: 1Tes
+  1Tim:
+    long: 1 Timoteus
+    short: 1Tim
+  2Chr:
+    long: 2 Ekuruhungi
+    short: 2Eku
+  2Cor:
+    long: 2 Ovakorinte
+    short: 2Kor
+  2John:
+    long: 2 Johanes
+    short: 2Jn
+  2Kgs:
+    long: 2 Ozombara
+    short: 2Ozo
+  2Pet:
+    long: 2 Petrus
+    short: 2Pt
+  2Sam:
+    long: 2 Samuel
+    short: 2Sam
+  2Thess:
+    long: 2 Ovatesalonika
+    short: 2Tes
+  2Tim:
+    long: 2 Timoteus
+    short: 2Tim
+  3John:
+    long: 3 Johanes
+    short: 3Jn
+  Acts:
+    long: Oviungura
+    short: Oviu
+  Amos:
+    long: Amos
+    short: Amos
+  Col:
+    long: Ovakolose
+    short: Kol
+  Dan:
+    long: Daniel
+    short: Dan
+  Deut:
+    long: Deuteronomium
+    short: Deu
+  Eccl:
+    long: Omuzuvarise
+    short: Omuz
+  Eph:
+    long: Ovaefese
+    short: Ef
+  Esth:
+    long: Ester
+    short: Est
+  Exod:
+    long: Eksodus
+    short: Eks
+  Ezek:
+    long: Esekiel
+    short: Esek
+  Ezra:
+    long: Esra
+    short: Esra
+  Gal:
+    long: Ovagalate
+    short: Gal
+  Gen:
+    long: Genesis
+    short: Gen
+  Hab:
+    long: Habakuk
+    short: Hab
+  Hag:
+    long: Hagai
+    short: Hag
+  Heb:
+    long: Ovaheberi
+    short: Heb
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Jesaja
+    short: Jes
+  Jas:
+    long: Jakobus
+    short: Jak
+  Jer:
+    long: Jeremia
+    short: Jer
+  Job:
+    long: Job
+    short: Job
+  Joel:
+    long: Joel
+    short: Joel
+  John:
+    long: Johanes
+    short: Jhn
+  Jonah:
+    long: Jona
+    short: Jona
+  Josh:
+    long: Josua
+    short: Jos
+  Jude:
+    long: Judas
+    short: Jud
+  Judg:
+    long: Ovapangure
+    short: Ovap
+  Lam:
+    long: Omiimbo Vyoruhoze
+    short: Omii
+  Lev:
+    long: Levitikus
+    short: Lev
+  Luke:
+    long: Lukas
+    short: Lk
+  Mal:
+    long: Maleaki
+    short: Mal
+  Mark:
+    long: Markus
+    short: Mk
+  Matt:
+    long: Mateus
+    short: Mt
+  Mic:
+    long: Mika
+    short: Mika
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nehemia
+    short: Neh
+  Num:
+    long: Numeri
+    short: Num
+  Obad:
+    long: Obadja
+    short: Oba
+  Phil:
+    long: Ovafilipi
+    short: Flp
+  Phlm:
+    long: Filemon
+    short: Flm
+  Prov:
+    long: Omiano
+    short: Omia
+  Ps:
+    long: Omapsalme
+    short: Psa
+  Rev:
+    long: Omavandururiro
+    short: Omav
+  Rom:
+    long: Ovaroma
+    short: Rom
+  Ruth:
+    long: Rut
+    short: Rut
+  Song:
+    long: Eimburiro rOmaimburiro
+    short: Eimb
+  Titus:
+    long: Titus
+    short: Tit
+  Zech:
+    long: Sakaria
+    short: Sak
+  Zeph:
+    long: Sefanja
+    short: Sef

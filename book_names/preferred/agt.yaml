@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 Korinto
+    short: 1Kor
+  1John:
+    long: 1 Hwan
+    short: 1Hw
+  1Pet:
+    long: 1 Pedru
+    short: 1Pe
+  1Thess:
+    long: 1 Tesalonika
+    short: 1Te
+  1Tim:
+    long: 1 Timotyo
+    short: 1Ti
+  2Cor:
+    long: 2 Korinto
+    short: 2Kor
+  2John:
+    long: 2 Hwan
+    short: 2Hw
+  2Pet:
+    long: 2 Pedru
+    short: 2Pe
+  2Thess:
+    long: 2 Tesalonika
+    short: 2Te
+  2Tim:
+    long: 2 Timotyo
+    short: 2Ti
+  3John:
+    long: 3 Hwan
+    short: 3Hw
+  Acts:
+    long: Turin Kiden
+    short: Tur
+  Col:
+    long: Kolosas
+    short: Kol
+  Eph:
+    long: Efeso
+    short: Ef
+  Gal:
+    long: Galasya
+    short: Ga
+  Heb:
+    long: Hebreyu
+    short: He
+  Jas:
+    long: Santiago
+    short: San
+  John:
+    long: Hwan
+    short: Jn
+  Jude:
+    long: Hudas
+    short: Hud
+  Luke:
+    long: Lukas
+    short: Lk
+  Mark:
+    long: Markus
+    short: Mk
+  Matt:
+    long: Matyu
+    short: Mt
+  Phil:
+    long: Pilipos
+    short: Pil
+  Phlm:
+    long: Pilimon
+    short: Pim
+  Rev:
+    long: Nagmatakar
+    short: Nag
+  Rom:
+    long: Roma
+    short: Rom
+  Titus:
+    long: Tito
+    short: Tit

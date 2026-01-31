@@ -1,0 +1,481 @@
+variables:
+  first: &first
+    - "1"
+    - Eyokuqala
+    - I.
+  second: &second
+    - "2"
+    - Eyesibini
+    - II.
+books:
+  - osis: Gen
+    texts:
+      - I‐Genesise
+      - Eyeziqalo
+      - Genesise
+      - iGenesis
+      - ZiQalo
+  - osis: Exod
+    texts:
+      - Eyemfuduko
+      - I‐Kesodusi
+      - iEksodus
+      - Kesodusi
+      - Mfud
+  - osis: Lev
+    texts:
+      - I‐Levitikusi
+      - iLevitikus
+      - Levitikusi
+      - Eyonqulo
+      - Nqulo
+  - osis: Num
+    texts:
+      - Eyasentlango
+      - Imibalo
+      - iNumeri
+      - Ntlango
+  - osis: Lam
+    texts:
+      - iZililo
+      - ziLilo
+  - osis: Rev
+    texts:
+      - Isityilo sika‐Johane
+      - IsiThyilelo
+      - Isityhilelo
+      - Isityilo
+      - SiTyh
+  - osis: Deut
+    texts:
+      - Uhlaziyo-mnqophiso
+      - I‐Duteronomi
+      - iDuteronomi
+      - Duteronomi
+      - Idut.
+      - Hlaz
+  - osis: Josh
+    texts:
+      - U‐Yoshuwa
+      - uYoshuwa
+      - Yoshuwa
+      - Yosh
+  - osis: Judg
+    texts:
+      - Iinkokheli
+      - Abagwebi
+      - Nkokh
+  - osis: Ruth
+    texts:
+      - U‐Rute
+      - uRute
+      - Rute
+  - osis: Isa
+    texts:
+      - U‐Yisaya
+      - uIsaya
+      - Yisaya
+      - Isaya
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - ka‐Samyali
+      - Kasamweli
+      - Samyali
+      - Sam
+  - osis: 1Sam
+    texts:
+      - uSamuweli 1
+      - Usamuweli I
+  - osis: 2Sam
+    texts:
+      - Usamuweli II
+      - uSamuweli 2
+      - Usam. II
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Yookumkani
+      - yokumkani
+      - Yokumkani
+      - Kum
+  - osis: 1Kgs
+    texts:
+      - OOKumkani 1
+      - Ookumkani I
+  - osis: 2Kgs
+    texts:
+      - Ookumkani II
+      - OOKumkani 2
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - yezikronike
+      - Yezikronike
+      - Yeziganeko
+      - Gan
+  - osis: 1Chr
+    texts:
+      - IziKronike 1
+      - Izikronike I
+  - osis: 2Chr
+    texts:
+      - Izikronike II
+      - IziKronike 2
+  - osis: Ezra
+    texts:
+      - U‐Ezera
+      - Ezera
+      - uEzra
+      - Ezra
+  - osis: Neh
+    texts:
+      - U‐Nehemiya
+      - uNehemiya
+      - Nehemiya
+      - Neh
+  - osis: Esth
+    texts:
+      - U‐Esetere
+      - Esetere
+      - uEstere
+      - Est
+  - osis: Job
+    texts:
+      - U‐Jobi
+      - uYobhi
+      - Uyobi
+      - Jobi
+      - Yobi
+  - osis: Ps
+    texts:
+      - Iindumiso
+      - Amaculo
+      - Indum.
+      - Ndum
+  - osis: Prov
+    texts:
+      - iMizekeliso
+      - ImiZek.
+      - Izafobe
+      - Zaf
+  - osis: Eccl
+    texts:
+      - Amava Engqondi
+      - iNtshumayeli
+      - UmShumayeli
+      - Mava
+  - osis: Song
+    texts:
+      - iNgoma yazo iiNgoma
+      - Ingoma ka‐Solomone
+      - Uncuthu Lwengoma
+      - Ingoma
+      - Ngoma
+  - osis: Jer
+    texts:
+      - U‐Jeremiya
+      - Ujeremiya
+      - uYeremiya
+      - Jeremiya
+      - Uyer.
+      - Jer
+  - osis: Ezek
+    texts:
+      - U‐Hezekile
+      - uHezekile
+      - Hezekile
+      - Hez
+  - osis: Dan
+    texts:
+      - U‐Danyeli
+      - uDaniyeli
+      - Danyeli
+      - Dan
+  - osis: Hos
+    texts:
+      - U‐Hosheha
+      - Hosheha
+      - uHoseya
+      - Uhosiya
+      - Uhos.
+      - Hos
+  - osis: Joel
+    texts:
+      - U‐Joweli
+      - Ujoweli
+      - uYoweli
+      - Joweli
+      - Uyow.
+      - Jow
+  - osis: Amos
+    texts:
+      - U‐Hamose
+      - Hamose
+      - uAmosi
+      - Uamos
+      - Amos
+      - Uam.
+  - osis: Obad
+    texts:
+      - U‐Hobadiya
+      - uObhadiya
+      - Hobadiya
+      - Obhad
+  - osis: Jonah
+    texts:
+      - U‐Jona
+      - uJona
+      - uYona
+      - Jona
+  - osis: Mic
+    texts:
+      - U‐Mika
+      - uMika
+      - Mika
+  - osis: Nah
+    texts:
+      - U‐Nahume
+      - Nahume
+      - uNahum
+      - Nah
+  - osis: Hab
+    texts:
+      - U‐Habakuke
+      - uHabhakuki
+      - Habakuke
+      - Uhabh.
+      - Habh
+  - osis: Zeph
+    texts:
+      - U‐Tsefaniya
+      - Tsefaniya
+      - uZefaniya
+      - Zefan
+  - osis: Hag
+    texts:
+      - U‐Hagai
+      - uHagayi
+      - Hagai
+      - Hag
+  - osis: Zech
+    texts:
+      - U‐Zekariya
+      - Uzakariya
+      - uZekariya
+      - Zekariya
+      - Uzek.
+      - Zakar
+  - osis: Mal
+    texts:
+      - U‐Malaki
+      - uMalaki
+      - Malaki
+      - Umal.
+      - Mal
+  - osis: Matt
+    texts:
+      - Ivangeli ka‐Mateyu
+      - Umatewu
+      - uMateyu
+      - Mateyu
+      - Umat.
+      - Mat
+  - osis: Mark
+    texts:
+      - Ivangeli ka‐Maraki
+      - Maraki
+      - uMarko
+      - Marko
+  - osis: Luke
+    texts:
+      - Ivangeli ka‐Luke
+      - uLuka
+      - Luka
+      - Luke
+  - osis: 1John
+    texts:
+      - KaYohane 1
+      - Kayohane I
+  - osis: 2John
+    texts:
+      - Kayohane II
+      - KaYohane 2
+  - osis: 3John
+    texts:
+      - Eyesitatu incwadi ka‐Johane
+      - Kayohane III
+      - III. Johane
+      - 3 Kayohane
+      - KaYohane 3
+      - 3 Yoh
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - incwadi ka‐Johane
+      - Kayohane
+      - Johane
+      - Yoh
+  - osis: John
+    texts:
+      - Ivangeli ka‐Johane
+      - uYohane
+      - Johane
+      - Uyoh.
+      - Yoh
+  - osis: Acts
+    texts:
+      - Umsebenzi Wabathunywa
+      - Izenzo zabapostile
+      - IzEnzo
+      - Mseb
+  - osis: Rom
+    texts:
+      - Incwadi ka‐Paulusi kuma‐Roma
+      - KwabaseRoma
+      - Roma
+  - osis: 1Cor
+    texts:
+      - KwabaseKorinte 1
+      - Kwabasekorinte I
+      - kwabaseKor. I
+  - osis: 2Cor
+    texts:
+      - Kwabasekorinte II
+      - KwabaseKorinte 2
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - incwadi ka‐Paulusi kuma‐Korinte
+      - Kwabasekorinte
+      - Korinte
+      - Kor
+  - osis: Col
+    texts:
+      - Incwadi ka‐Paulusi kuma‐Kolose
+      - KwabaseKolose
+      - Kolose
+      - Kol
+  - osis: Gal
+    texts:
+      - Incwadi ka‐Paulusi kuma‐Galati
+      - KumaGalati
+      - Galati
+      - Gal
+  - osis: Eph
+    texts:
+      - Incwadi ka‐Paulusi kuma‐Efese
+      - Kwabase-Efese
+      - Efese
+  - osis: Phil
+    texts:
+      - Incwadi ka‐Paulusi kuma‐Filipi
+      - KwabaseFilipi
+      - Filipi
+  - osis: 1Thess
+    texts:
+      - KwabaseTesalonika 1
+      - kwabaseTesalonika I
+  - osis: 2Thess
+    texts:
+      - Kwabasetesalonika II
+      - KwabaseTesalonika 2
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - incwadi ka‐Paulusi kuma‐Tesalonika
+      - Kwabasetesalonika
+      - Tesalonika
+      - Tes
+  - osis: 1Tim
+    texts:
+      - KuTimoti 1
+      - Kutimoti I
+  - osis: 2Tim
+    texts:
+      - Kutimoti II
+      - KuTimoti 2
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - incwadi ka‐Paulusi ku‐Timote
+      - Kutimoti
+      - Timote
+      - Tim
+  - osis: Titus
+    texts:
+      - Incwadi ka‐Paulusi ku‐Titusi
+      - KuTito
+      - Titusi
+      - Tito
+  - osis: Phlm
+    texts:
+      - Incwadi ka‐Paulusi ku‐Filemone
+      - KuFilemon
+      - Filemone
+      - Kufilmon
+      - Filmon
+  - osis: Heb
+    texts:
+      - Incwadi ka‐Paulusi kuma‐Hebere
+      - KumaHebhere
+      - Hebere
+      - Hebh
+  - osis: Jas
+    texts:
+      - Incwadi ka‐Yakobi
+      - EkaJakobi
+      - Ekayakobi
+      - Yakobi
+      - Yak
+  - osis: 1Pet
+    texts:
+      - KaPetros 1
+      - Kapetros I
+  - osis: 2Pet
+    texts:
+      - Kapetros II
+      - KaPetros 2
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - incwadi ka‐Petrosi
+      - Kapetros
+      - Petrosi
+      - Pet
+  - osis: Jude
+    texts:
+      - Incwadi ka‐Jude
+      - EkaJuda
+      - EkaYuda
+      - Juda
+      - Jude
+translations:
+  - CXB24
+  - XHO96
+  - XHO1902A
+  - XHO75

@@ -1,0 +1,132 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - प्रकाशितवाक्य
+      - प्रका.
+  - osis: Matt
+    texts:
+      - मत्ती
+  - osis: Mark
+    texts:
+      - मरकुस
+      - मर.
+  - osis: Luke
+    texts:
+      - लुका
+      - लूका
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - यूहन्ना
+      - योहान
+      - यूह.
+  - osis: Acts
+    texts:
+      - प्रेरितान कामे
+      - प्रेरितान काम
+      - प्रेरी.
+  - osis: Rom
+    texts:
+      - रोमियो
+      - रोमीयो
+      - रोम.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - कुरिन्थियो
+      - कुरिंथीयो
+      - कुरि.
+  - osis: Col
+    texts:
+      - कुलीसियो
+      - कुलुसी
+      - कुलु.
+  - osis: Gal
+    texts:
+      - गलतियो पत्र
+      - गलातीयो
+      - गल.
+  - osis: Eph
+    texts:
+      - इफीसीयोन पत्र
+      - इफिसीयो
+      - इफि.
+  - osis: Phil
+    texts:
+      - फिलिपि च्या पत्र
+      - फिलेपियो
+      - फिली.
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - थिस्सलुनिक्यो
+      - थीस्सलुनीकियो
+  - osis: 1Thess
+    texts:
+      - 1थीस्स.
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - थीस्सलुनीकियों
+      - थिस्सलुनिक्यो
+      - थीस्स.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - तीमुथियुस
+      - तीमुथीयुस
+      - तीमु.
+  - osis: Titus
+    texts:
+      - तीतु.
+      - तीतुस
+  - osis: Phlm
+    texts:
+      - फिलेमोन
+      - फिले.
+  - osis: Heb
+    texts:
+      - इब्रानियो
+      - इब्रा.
+  - osis: Jas
+    texts:
+      - याकुब
+      - याकू.
+      - याकूब
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - पतरस
+      - पत.
+  - osis: Jude
+    texts:
+      - यहुदा
+      - यहूदा
+      - यहू.
+translations:
+  - NTNII2020
+  - NLXNT

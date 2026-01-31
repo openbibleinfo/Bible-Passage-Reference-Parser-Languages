@@ -1,0 +1,94 @@
+variables:
+  first: &first
+    - 1వ
+  second: &second
+    - 2వ
+  third: &third
+    - 3వ
+books:
+  - osis: Rev
+    texts:
+      - ఉజగిరి అరుస్వల్
+      - ఉజగిరి అ.
+  - osis: Matt
+    texts:
+      - మత్తయి
+  - osis: Mark
+    texts:
+      - మార్క్
+  - osis: Luke
+    texts:
+      - లూక
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - యోహన్
+  - osis: Acts
+    texts:
+      - అపొ. కా.
+  - osis: Rom
+    texts:
+      - రోమ
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - కొరంతి
+  - osis: Col
+    texts:
+      - కొలసి
+  - osis: Gal
+    texts:
+      - గలతి
+  - osis: Eph
+    texts:
+      - ఎపెసి
+  - osis: Phil
+    texts:
+      - పిలిపి
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - తెసలొనిక
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - తిమొతి
+  - osis: Titus
+    texts:
+      - తీతు
+  - osis: Phlm
+    texts:
+      - పిలెమోన్
+  - osis: Heb
+    texts:
+      - హెబ్రి
+  - osis: Jas
+    texts:
+      - యాకొబ్
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - పేతురు
+  - osis: Jude
+    texts:
+      - యూద
+translations:
+  - WSGNT

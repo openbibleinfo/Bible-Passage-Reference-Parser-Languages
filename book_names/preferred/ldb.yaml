@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 Ukorinti
+    short: 1Uko
+  1John:
+    long: 1 Uyohana
+    short: 1Uyo
+  1Pet:
+    long: 1 Ubitru
+    short: 1Ubi
+  1Thess:
+    long: 1 Utasorhonika
+    short: 1Uta
+  1Tim:
+    long: 1 Utimoti
+    short: 1Uti
+  2Cor:
+    long: 2 Ukorinti
+    short: 2Uko
+  2John:
+    long: 2 Uyohana
+    short: 2Uyo
+  2Pet:
+    long: 2 Ubitru
+    short: 2Ubi
+  2Thess:
+    long: 2 Utasorhonika
+    short: 2Uta
+  2Tim:
+    long: 2 Utimoti
+    short: 2Uti
+  3John:
+    long: 3 Uyohana
+    short: 3Uyo
+  Acts:
+    long: Abi Itser-Yesu
+    short: Aiy
+  Col:
+    long: Ukorhosi
+    short: Ukor
+  Eph:
+    long: Uafisa
+    short: Uafi
+  Gal:
+    long: Ugarhati
+    short: Ugar
+  Heb:
+    long: Uibrani
+    short: Uibr
+  Jas:
+    long: Uyaku
+    short: Uyak
+  John:
+    long: Uyohana
+    short: Uyoh
+  Jude:
+    long: Uyahuda
+    short: Uyah
+  Luke:
+    long: Irhuka
+    short: Irh
+  Mark:
+    long: Umarku
+    short: Umar
+  Matt:
+    long: Umatta
+    short: Umat
+  Phil:
+    long: Ufirhibi
+    short: Ufrb
+  Phlm:
+    long: Ufirhimon
+    short: Ufrm
+  Rev:
+    long: Irhi Uyohana
+    short: Irhi
+  Rom:
+    long: Uroma
+    short: Urom
+  Titus:
+    long: Utitu
+    short: Utit

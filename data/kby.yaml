@@ -1,0 +1,141 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Wahayi Yahayaye
+      - Wy
+  - osis: Matt
+    texts:
+      - Matiyu
+      - Mat
+  - osis: Mark
+    texts:
+      - Markus
+      - Mar
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Yah
+  - osis: 2John
+    texts:
+      - 2Yah
+  - osis: 3John
+    texts:
+      - 3 Yahaya
+      - 3Yah
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yahaya
+  - osis: John
+    texts:
+      - Yahaya
+      - Yah
+  - osis: Acts
+    texts:
+      - Kida Kǝngayamba Isaye
+      - Kki
+  - osis: Rom
+    texts:
+      - Romanwu
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintiwu
+  - osis: 1Cor
+    texts:
+      - 1Kor
+  - osis: 2Cor
+    texts:
+      - 2Kor
+  - osis: Col
+    texts:
+      - Kolosiwu
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatiyawu
+      - Gal
+  - osis: Eph
+    texts:
+      - Afisawu
+      - Afi
+  - osis: Phil
+    texts:
+      - Filibiwu
+      - Flb
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tasalonikawu
+  - osis: 1Thess
+    texts:
+      - 1Tas
+  - osis: 2Thess
+    texts:
+      - 2Tas
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Titus
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filimon
+      - Flm
+  - osis: Heb
+    texts:
+      - Ibranawu
+      - Ibr
+  - osis: Jas
+    texts:
+      - Yakuba
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Biturus
+  - osis: 1Pet
+    texts:
+      - 1Bit
+  - osis: 2Pet
+    texts:
+      - 2Bit
+  - osis: Jude
+    texts:
+      - Yahusa
+      - Yas
+translations:
+  - KBY

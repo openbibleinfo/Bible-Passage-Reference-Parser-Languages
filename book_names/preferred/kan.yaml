@@ -1,0 +1,868 @@
+default:
+  1Chr:
+    long: 1 ಪೂರ್ವಕಾಲವೃತ್ತಾಂತ
+    short: 1 ಪೂ.ಕಾ.ವೃ.
+  1Cor:
+    long: 1 ಕೊರಿಂಥದವರಿಗೆ
+    short: 1 ಕೊರಿಂಥ.
+  1John:
+    long: 1 ಯೋಹಾನನು
+    short: 1 ಯೋಹಾನ
+  1Kgs:
+    long: 1 ಅರಸುಗಳು
+    short: 1 ಅರಸು
+  1Pet:
+    long: 1 ಪೇತ್ರನು
+    short: 1 ಪೇತ್ರ
+  1Sam:
+    long: 1 ಸಮುವೇಲನು
+    short: 1 ಸಮು.
+  1Thess:
+    long: 1 ಥೆಸಲೋನಿಕದವರಿಗೆ
+    short: 1 ಥಸ್ಸಾ
+  1Tim:
+    long: 1 ತಿಮೊಥೆಯನಿಗೆ
+    short: 1 ತಿಮೊಥೆ
+  2Chr:
+    long: 2 ಪೂರ್ವಕಾಲವೃತ್ತಾಂತ
+    short: 2 ಪೂ.ಕಾ.ವೃ.
+  2Cor:
+    long: 2 ಕೊರಿಂಥದವರಿಗೆ
+    short: 2 ಕೊರಿಂಥ.
+  2John:
+    long: 2 ಯೋಹಾನನು
+    short: 2 ಯೋಹಾನ
+  2Kgs:
+    long: 2 ಅರಸುಗಳು
+    short: 2 ಅರಸು
+  2Pet:
+    long: 2 ಪೇತ್ರನು
+    short: 2 ಪೇತ್ರ
+  2Sam:
+    long: 2 ಸಮುವೇಲನು
+    short: 2 ಸಮು.
+  2Thess:
+    long: 2 ಥೆಸಲೋನಿಕದವರಿಗೆ
+    short: 2 ಥೆಸ
+  2Tim:
+    long: 2 ತಿಮೊಥೆಯನಿಗೆ
+    short: 2 ತಿಮೊಥೆ
+  3John:
+    long: 3 ಯೋಹಾನನು
+    short: 3 ಯೋಹಾನ
+  Acts:
+    long: ಅ. ಕೃ.
+    short: ಅ. ಕೃ.
+  Amos:
+    long: ಆಮೋಸ
+    short: ಆಮೋ
+  Col:
+    long: ಕೊಲೊಸ್ಸೆಯವರಿಗೆ
+    short: ಕೊಲೊ.
+  Dan:
+    long: ದಾನಿಯೇಲ
+    short: ದಾನಿ.
+  Deut:
+    long: ಧರ್ಮೋಪದೇಶಕಾಂಡ
+    short: ಧರ್ಮೋ
+  Eccl:
+    long: ಪ್ರಸಂಗಿ
+    short: ಪ್ರಸಂಗಿ
+  Eph:
+    long: ಎಫೆಸದವರಿಗೆ
+    short: ಎಫೆಸ
+  Esth:
+    long: ಎಸ್ತೇರಳು
+    short: ಎಸ್ತೇರ
+  Exod:
+    long: ವಿಮೋಚನಕಾಂಡ
+    short: ವಿಮೋ
+  Ezek:
+    long: ಯೆಜೆಕಿಯೇಲನು
+    short: ಯೆಹೆ
+  Ezra:
+    long: ಎಜ್ರ
+    short: ಎಜ್ರ
+  Gal:
+    long: ಗಲಾತ್ಯದವರಿಗೆ
+    short: ಗಲಾತ್ಯ
+  Gen:
+    long: ಆದಿಕಾಂಡ
+    short: ಆದಿ.
+  Hab:
+    long: ಹಬಕ್ಕೂಕ
+    short: ಹಬ
+  Hag:
+    long: ಹಗ್ಗಾಯ
+    short: ಹಗ್ಗಾ
+  Heb:
+    long: ಇಬ್ರಿಯರಿಗೆ
+    short: ಇಬ್ರಿ
+  Hos:
+    long: ಹೋಶೇಯ
+    short: ಹೋಶೇ
+  Isa:
+    long: ಯೆಶಾಯ
+    short: ಯೆಶಾ.
+  Jas:
+    long: ಯಾಕೋಬನು
+    short: ಯಾಕೋಬ
+  Jer:
+    long: ಯೆರೆಮೀಯ
+    short: ಯೆರೆ.
+  Job:
+    long: ಯೋಬ
+    short: ಯೋಬ
+  Joel:
+    long: ಯೋವೇಲ
+    short: ಯೋವೇ.
+  John:
+    long: ಯೋಹಾನ
+    short: ಯೋಹಾನ
+  Jonah:
+    long: ಯೋನ
+    short: ಯೋನ
+  Josh:
+    long: ಯೆಹೋಶುವ
+    short: ಯೆಹೋ
+  Jude:
+    long: ಯೂದನು
+    short: ಯೂದ
+  Judg:
+    long: ನ್ಯಾಯಸ್ಥಾಪಕರು
+    short: ನ್ಯಾಯ
+  Lam:
+    long: ಪ್ರಲಾಪಗಳು
+    short: ಪ್ರಲಾ.
+  Lev:
+    long: ಯಾಜಕಕಾಂಡ
+    short: ಯಾಜಕ.
+  Luke:
+    long: ಲೂಕ
+    short: ಲೂಕ
+  Mal:
+    long: ಮಲಾಕಿ
+    short: ಮಲಾ.
+  Mark:
+    long: ಮಾರ್ಕ
+    short: ಮಾರ್ಕ
+  Matt:
+    long: ಮತ್ತಾಯ
+    short: ಮತ್ತಾ.
+  Mic:
+    long: ಮೀಕ
+    short: ಮೀಕ
+  Nah:
+    long: ನಹೂಮ
+    short: ನಹೂ.
+  Neh:
+    long: ನೆಹೆಮೀಯ
+    short: ನೆಹೆ.
+  Num:
+    long: ಅರಣ್ಯಕಾಂಡ
+    short: ಅರಣ್ಯ
+  Obad:
+    long: ಓಬದ್ಯ
+    short: ಒಬದ್ಯ
+  Phil:
+    long: ಫಿಲಿಪ್ಪಿ
+    short: ಫಿಲಿಪ್ಪಿ
+  Phlm:
+    long: ಫಿಲೆಮೋನನಿಗೆ
+    short: ಫಿಲೆ
+  Prov:
+    long: ಜ್ಞಾನೋಕ್ತಿಗಳು
+    short: ಜ್ಞಾ.
+  Ps:
+    long: ಕೀರ್ತನೆಗಳು
+    short: ಕೀರ್ತನೆ
+  Rev:
+    long: ಪ್ರಕಟನೆ
+    short: ಪ್ರಕ
+  Rom:
+    long: ರೋಮಾಪುರದವರಿಗೆ
+    short: ರೋಮಾ
+  Ruth:
+    long: ರೂತಳು
+    short: ರೂತ
+  Song:
+    long: ಪರಮಗೀತೆ
+    short: ಗೀತೆ
+  Titus:
+    long: ತೀತನಿಗೆ
+    short: ತೀತ
+  Zech:
+    long: ಜೆಕರ್ಯ
+    short: ಜೆಕ.
+  Zeph:
+    long: ಚೆಫನ್ಯ
+    short: ಚೆಫನ್ಯ
+translations:
+  irvkan:
+    1Chr:
+      long: 1 ಪೂರ್ವ
+      short: 1ಪೂರ್ವ
+    1Cor:
+      long: 1 ಕೊರಿ
+      short: 1ಕೊರಿ
+    1John:
+      long: 1 ಯೋಹಾ
+      short: 1ಯೋಹಾ
+    1Kgs:
+      long: 1 ಅರಸು
+      short: 1ಅರಸು
+    1Pet:
+      long: 1 ಪೇತ್ರ
+      short: 1ಪೇತ್ರ
+    1Sam:
+      long: 1 ಸಮು
+      short: 1ಸಮು
+    1Thess:
+      long: 1 ಥೆಸ
+      short: 1ಥೆಸ
+    1Tim:
+      long: 1 ತಿಮೊ
+      short: 1ತಿಮೊ
+    2Chr:
+      long: 2 ಪೂರ್ವ
+      short: 2ಪೂರ್ವ
+    2Cor:
+      long: 2 ಕೊರಿ
+      short: 2ಕೊರಿ
+    2John:
+      long: 2 ಯೋಹಾ
+      short: 2ಯೋಹಾ
+    2Kgs:
+      long: 2 ಅರಸು
+      short: 2ಅರಸು
+    2Pet:
+      long: 2 ಪೇತ್ರ
+      short: 2ಪೇತ್ರ
+    2Sam:
+      long: 2 ಸಮು
+      short: 2ಸಮು
+    2Thess:
+      long: 2 ಥೆಸ
+      short: 2ಥೆಸ
+    2Tim:
+      long: 2 ತಿಮೊ
+      short: 2ತಿಮೊ
+    3John:
+      long: 3 ಯೋಹಾ
+      short: 3ಯೋಹಾ
+    Amos:
+      long: ಆಮೋ
+    Col:
+      long: ಕೊಲೊ
+      short: ಕೊಲೊ
+    Dan:
+      long: ದಾನಿ
+      short: ದಾನಿ
+    Deut:
+      long: ಧರ್ಮೋ
+    Eccl:
+      long: ಪ್ರಸ
+      short: ಪ್ರಸ
+    Eph:
+      long: ಎಫೆ
+      short: ಎಫೆ
+    Esth:
+      long: ಎಸ್ತೇ
+      short: ಎಸ್ತೇ
+    Exod:
+      long: ವಿಮೋ
+    Ezek:
+      long: ಯೆಹೆ
+    Gal:
+      long: ಗಲಾ
+      short: ಗಲಾ
+    Gen:
+      long: ಆದಿ
+      short: ಆದಿ
+    Hab:
+      long: ಹಬ
+    Hag:
+      long: ಹಗ್ಗಾ
+    Heb:
+      long: ಇಬ್ರಿ
+    Hos:
+      long: ಹೋಶೇ
+    Isa:
+      long: ಯೆಶಾ
+      short: ಯೆಶಾ
+    Jas:
+      long: ಯಾಕೋ
+      short: ಯಾಕೋ
+    Jer:
+      long: ಯೆರೆ
+      short: ಯೆರೆ
+    Joel:
+      long: ಯೋವೇ
+      short: ಯೋವೇ
+    John:
+      long: ಯೋಹಾ
+      short: ಯೋಹಾ
+    Josh:
+      long: ಯೆಹೋ
+    Jude:
+      long: ಯೂದ
+    Judg:
+      long: ನ್ಯಾಯ
+    Lam:
+      long: ಪ್ರಲಾ
+      short: ಪ್ರಲಾ
+    Lev:
+      long: ಯಾಜ
+      short: ಯಾಜ
+    Mal:
+      long: ಮಲಾ
+      short: ಮಲಾ
+    Matt:
+      long: ಮತ್ತಾ
+      short: ಮತ್ತಾ
+    Nah:
+      long: ನಹೂ
+      short: ನಹೂ
+    Neh:
+      long: ನೆಹೆ
+      short: ನೆಹೆ
+    Num:
+      long: ಅರಣ್ಯ
+    Obad:
+      long: ಓಬ
+      short: ಓಬ
+    Phlm:
+      long: ಫಿಲೆ
+    Prov:
+      long: ಜ್ಞಾನೋ
+      short: ಜ್ಞಾನೋ
+    Ps:
+      long: ಕೀರ್ತ
+      short: ಕೀರ್ತ
+    Rev:
+      long: ಪ್ರಕ
+    Rom:
+      long: ರೋಮಾ
+    Ruth:
+      long: ರೂತ
+    Song:
+      long: ಪ.ಗೀ.
+      short: ಪ. ಗೀ.
+    Titus:
+      long: ತೀತ
+    Zech:
+      long: ಜೆಕ
+      short: ಜೆಕ
+    Zeph:
+      long: ಚೆಫ
+      short: ಚೆಫ
+  kcv:
+    1Chr:
+      long: 1 ಪೂರ್ವಕಾಲ ವೃತ್ತಾಂತ
+      short: 1 ಪೂರ್ವ
+    1Cor:
+      short: 1 ಕೊರಿಂಥ
+    1Sam:
+      long: 1 ಸಮುಯೇಲ
+      short: 1 ಸಮು
+    1Thess:
+      short: 1 ಥೆಸ
+    1Tim:
+      long: 1 ತಿಮೊಥೆಯನಿಗೆ
+    2Chr:
+      long: 2 ಪೂರ್ವಕಾಲ ವೃತ್ತಾಂತ
+      short: 2 ಪೂರ್ವ
+    2Cor:
+      short: 2 ಕೊರಿಂಥ
+    2Sam:
+      long: 2 ಸಮುಯೇಲ
+      short: 2 ಸಮು
+    2Tim:
+      long: 2 ತಿಮೊಥೆಯನಿಗೆ
+    Acts:
+      long: ಅಪೊಸ್ತಲರ ಕೃತ್ಯಗಳು
+      short: ಅ. ಕೃ
+    Col:
+      short: ಕೊಲೊಸ್ಸೆ
+    Dan:
+      short: ದಾನಿ
+    Ezek:
+      long: ಯೆಹೆಜ್ಕೇಲನು
+    Gen:
+      short: ಆದಿ
+    Isa:
+      short: ಯೆಶಾಯ
+    Jer:
+      short: ಯೆರೆ
+    Joel:
+      long: ಯೋಯೇಲ
+      short: ಯೋಯೇಲ
+    Jonah:
+      long: ಯೋನನು
+    Lam:
+      short: ಪ್ರಲಾಪ
+    Lev:
+      short: ಯಾಜಕ
+    Mal:
+      short: ಮಲಾಕಿ
+    Matt:
+      short: ಮತ್ತಾಯ
+    Nah:
+      short: ನಹೂಮ
+    Neh:
+      short: ನೆಹೆ
+    Obad:
+      short: ಓಬದ್ಯ
+    Phil:
+      long: ಫಿಲಿಪ್ಪಿಯವರಿಗೆ
+    Prov:
+      short: ಜ್ಞಾನೋಕ್ತಿ
+    Ruth:
+      short: ರೂತಳು
+    Song:
+      short: ಪರಮ
+    Zech:
+      short: ಜೆಕರ್ಯ
+  kanclbsi:
+    1Chr:
+      long: 1 ಪೂರ್ವಕಾಲದ ಇತಿಹಾಸ
+      short: ೧ ಪೂರ್ವ.
+    1Cor:
+      long: 1 ಕೊರಿಂಥಿಯರಿಗೆ
+      short: ೧ ಕೊರಿಂಥ.
+    1John:
+      long: 1 ಯೊವಾನ್ನನು
+      short: ೧ ಯೊವಾ.
+    1Kgs:
+      short: ೧ ಅರಸು.
+    1Pet:
+      short: ೧ ಪೇತ್ರ.
+    1Sam:
+      short: ೧ ಸಮು.
+    1Thess:
+      long: 1 ಥೆಸಲೋನಿಯರಿಗೆ
+      short: ೧ ಥೆಸ.
+    1Tim:
+      long: 1 ತಿಮೊಥೇಯನಿಗೆ
+      short: ೧ ತಿಮೊ.
+    2Chr:
+      long: 2 ಪೂರ್ವಕಾಲದ ಇತಿಹಾಸ
+      short: ೨ ಪೂರ್ವ.
+    2Cor:
+      long: 2 ಕೊರಿಂಥಿಯರಿಗೆ
+      short: ೨ ಕೊರಿಂಥ.
+    2John:
+      long: 2 ಯೊವಾನ್ನನು
+      short: ೨ ಯೊವಾ.
+    2Kgs:
+      short: ೨ ಅರಸು.
+    2Pet:
+      short: ೨ ಪೇತ್ರ.
+    2Sam:
+      short: ೨ ಸಮು.
+    2Thess:
+      long: 2 ಥೆಸಲೋನಿಯರಿಗೆ
+      short: ೨ ಥೆಸ.
+    2Tim:
+      long: 2 ತಿಮೊಥೇಯನಿಗೆ
+      short: ೨ ತಿಮೊ.
+    3John:
+      long: 3 ಯೊವಾನ್ನನು
+      short: ೩ ಯೊವಾ.
+    Acts:
+      long: ಪ್ರೇಷಿತರ ಕಾರ್ಯಕಲಾಪಗಳು
+      short: ಪ್ರೇ. ಕಾ.
+    Amos:
+      short: ಆಮೋ.
+    Col:
+      long: ಕೊಲೊಸ್ಸೆಯರಿಗೆ
+    Dan:
+      long: ದಾನಿಯೇಲನು
+    Deut:
+      short: ಧರ್ಮೋ.
+    Eccl:
+      long: ಉಪದೇಶಕ
+    Eph:
+      long: ಎಫೆಸಿಯರಿಗೆ
+      short: ಎಫೆ.
+    Esth:
+      short: ಎಸ್ತೇರ.
+    Exod:
+      short: ವಿಮೋ.
+    Ezek:
+      short: ಯೆಜೆ.
+    Ezra:
+      long: ಎಜ್ರನು
+      short: ಎಜ್ರ.
+    Gal:
+      long: ಗಲಾತ್ಯರಿಗೆ
+      short: ಗಲಾ.
+    Hab:
+      short: ಹಬ.
+    Hag:
+      short: ಹಗ್ಗಾ.
+    Heb:
+      long: ಹಿಬ್ರಿಯರಿಗೆ
+      short: ಹಿಬ್ರಿ.
+    Hos:
+      short: ಹೋಶೇ.
+    Jas:
+      long: ಯಕೋಬನು
+      short: ಯಾಕೋಬ.
+    Job:
+      long: ಯೋಬನ ಗ್ರಂಥ
+      short: ಯೋಬ.
+    John:
+      long: ಯೊವಾನ್ನ
+      short: ಯೊವಾ.
+    Jonah:
+      short: ಯೋನ.
+    Josh:
+      short: ಯೆಹೋ.
+    Jude:
+      short: ಯೂದ.
+    Judg:
+      short: ನ್ಯಾಯ.
+    Lev:
+      short: ಯಾಜ.
+    Luke:
+      long: ಲೂಕ.
+      short: ಲೂಕ.
+    Mal:
+      long: ಮಲಾಕಿಯ
+    Mark:
+      short: ಮಾರ್ಕ.
+    Mic:
+      short: ಮೀಕ.
+    Num:
+      long: ಸಂಖ್ಯಾಕಾಂಡ
+      short: ಸಂಖ್ಯಾ.
+    Obad:
+      short: ಓಬ.
+    Phil:
+      long: ಫಿಲಿಪ್ಪಿಯರಿಗೆ
+      short: ಫಿಲಿ.
+    Phlm:
+      short: ಫಿಲೆ.
+    Ps:
+      short: ಕೀರ್ತ.
+    Rev:
+      short: ಪ್ರಕ.
+    Rom:
+      long: ರೋಮನರಿಗೆ
+      short: ರೋಮ.
+    Ruth:
+      short: ರೂತ.
+    Titus:
+      short: ತೀತ.
+    Zeph:
+      long: ಜೆಫನ್ಯ
+      short: ಜೆಫ.
+  kanjv-bsi:
+    1Chr:
+      short: 1 ಪೂರ್ವ.
+    1John:
+      short: 1 ಯೋಹಾ.
+    1Kgs:
+      short: 1 ಅರಸು.
+    1Pet:
+      long: 1 ಪೇತ್ರನು
+      short: 1 ಪೇತ್ರ.
+    1Sam:
+      long: 1 ಸಮುವೇಲನು
+    1Thess:
+      short: 1 ಥೆಸಲೋನಿಕದ.
+    1Tim:
+      short: 1 ತಿಮೊಥೆ.
+    2Chr:
+      short: 2 ಪೂರ್ವ.
+    2John:
+      short: 2 ಯೋಹಾ.
+    2Kgs:
+      short: 2 ಅರಸು.
+    2Pet:
+      long: 2 ಪೇತ್ರನು
+      short: 2 ಪೇತ್ರ.
+    2Sam:
+      long: 2 ಸಮುವೇಲನು
+    2Thess:
+      short: 2 ಥೆಸಲೋನಿಕದ.
+    2Tim:
+      short: 2 ತಿಮೊಥೆ.
+    3John:
+      short: 3 ಯೋಹಾ.
+    Acts:
+      long: ಅಪೊಸ್ತಲರ ಕೃತ್ಯಗಳು
+    Amos:
+      short: ಆಮೋ.
+    Dan:
+      long: ದಾನಿಯೇಲನು
+    Deut:
+      long: ಧರ್ಮೋಪದೇಶಕಾಂಡ
+      short: ಧರ್ಮೋ.
+    Eccl:
+      short: ಪ್ರಸಂಗಿ.
+    Eph:
+      short: ಎಫೆಸ.
+    Esth:
+      long: ಎಸ್ತೇರಳು
+      short: ಎಸ್ತೇ,
+    Exod:
+      short: ವಿಮೋ.
+    Ezek:
+      long: ಯೆಹೆಜ್ಕೇಲ
+      short: ಯೆಹೆ.
+    Ezra:
+      long: ಎಜ್ರನು
+      short: ಎಜ್ರ.
+    Gal:
+      short: ಗಲಾತ್ಯ.
+    Hab:
+      short: ಹಬಕ್ಕೂ.
+    Hag:
+      short: ಹಗ್ಗಾ.
+    Heb:
+      short: ಇಬ್ರಿ.
+    Hos:
+      long: ಹೋಶೇಯ
+      short: ಹೋಶೇ.
+    Jas:
+      short: ಯಾಕೋ.
+    Job:
+      long: ಯೋಬನು
+      short: ಯೋಬ.
+    Joel:
+      long: ಯೋವೇಲ
+    John:
+      short: ಯೋಹಾ.
+    Jonah:
+      short: ಯೋನ.
+    Josh:
+      short: ಯೆಹೋ.
+    Jude:
+      short: ಯೂದ.
+    Judg:
+      short: ನ್ಯಾಯ.
+    Luke:
+      short: ಲೂಕ.
+    Mal:
+      long: ಮಲಾಕಿಯ
+    Mark:
+      short: ಮಾರ್ಕ.
+    Mic:
+      short: ಮೀಕ.
+    Num:
+      short: ಅರಣ್ಯ.
+    Obad:
+      short: ಓಬದ್ಯ.
+    Phil:
+      long: ಫಿಲಿಪ್ಪಿಯವರಿಗೆ
+      short: ಫಿಲಿಪ್ಪಿ.
+    Phlm:
+      short: ಫಿಲೆಮೋ.
+    Ps:
+      long: ಕೀರ್ತನೆಗಳು
+      short: ಕೀರ್ತ.
+    Rev:
+      short: ಪ್ರಕ.
+    Rom:
+      short: ರೋಮಾ.
+    Ruth:
+      short: ರೂತ.
+    Song:
+      long: ಪರಮಗೀತ
+      short: ಪರಮ.
+    Titus:
+      long: ತೀತನಿಗೆ
+      short: ತೀತ.
+    Zeph:
+      short: ಚೆಫ.
+  ntsii24:
+    1Cor:
+      long: 1 ಕೊರಿಂಥ್
+      short: 1 ಕೊರಿ
+    1John:
+      long: 1 ಜುವಾಂವ್
+      short: 1 ಜುವಾ
+    1Pet:
+      long: ಪೆದ್ರುಚಿ ಪಯ್ಲಿಚಿ ಚಿಟ್
+      short: 1 ಪೆದ್ರು
+    1Thess:
+      long: 1 ಥೆಸ್ಸಾಲೊನಿಕಾಕಾರಾ
+    1Tim:
+      long: 1 ತಿಮೊಥಿ
+      short: 1 ತಿಮೊ
+    2Cor:
+      long: 2ಕೊರಿಂಥ್
+      short: 2ಕೊರಿ
+    2John:
+      long: 2 ಜುವಾಂವ್
+      short: 2 ಜುವಾ
+    2Pet:
+      long: ಪೆದ್ರುಚಿ ದುಸ್ರಿ ಚಿಟ್
+      short: 2 ಪೆದ್ರು
+    2Thess:
+      long: 2 ಥೆಸ್ಸಾಲೊನಿಕಾ‍ಕಾರಾಕ್ನಿ
+      short: 2 ಥೆಸ್ಸಾ
+    2Tim:
+      long: 2 ತಿಮೊಥಿ
+      short: 2 ತಿಮೊ
+    3John:
+      long: 3 ಜುವಾಂವ್
+      short: 3 ಜುವಾ
+    Acts:
+      long: ಅಪೊಸ್ತಲಾಂಚಿ ಕಾಮಾ
+      short: ಅ.ಕಾ
+    Col:
+      long: ಕೊಲೆಸ್ಸೆ
+      short: ಕೊಲೆ
+    Eph:
+      long: ಎಫೆಜ್
+      short: ಎಫೆಜ್
+    Gal:
+      long: ಗಾಲಾತ್
+      short: ಗಾಲಾತ್
+    Heb:
+      long: ಹೆಬ್ರೆವ್
+      short: ಹೆಬ್ರೆವ್
+    Jas:
+      long: ಜಾಕೊಬ್
+      short: ಜಾಕೊ
+    John:
+      long: ಜುವಾಂವ್
+      short: ಜುವಾಂವ್
+    Jude:
+      long: ಜುದ್
+      short: ಜುದ್
+    Luke:
+      long: ಲುಕ್
+      short: ಲುಕ್
+    Mark:
+      long: ಮಾರ್ಕ್
+      short: ಮಾರ್ಕ್
+    Matt:
+      long: ಮಾತೆವ್
+      short: ಮಾತೆವ್
+    Phlm:
+      long: ಫಿಲೆಮೊನ್
+      short: ಫಿಲೆಮುನ್
+    Rev:
+      long: ಜು.ದರ್ಶನಾ
+      short: ದರ್ಶನಾ
+    Rom:
+      long: ರೊಮ್‍ಕಾರಾ
+      short: ರೊಮ್
+    Titus:
+      long: ತಿತಾಕ್
+      short: ತಿತ್
+  kerv:
+    1Cor:
+      long: ಕೊರಿಂಥದವರಿಗೆ ಬರೆದ ಮೊದಲನೆ ಪತ್ರ
+    1John:
+      long: ಯೋಹಾನನು ಬರೆದ ಮೊದಲನೆ ಪತ್ರ
+    1Kgs:
+      long: 1 ರಾಜರುಗಳು
+      short: 1 ರಾಜರು
+    1Pet:
+      long: ಪೇತ್ರನು ಬರೆದ ಮೊದಲನೆ ಪತ್ರ
+    1Thess:
+      long: ಥೆಸಲೋನಿಕದವರಿಗೆ ಬರೆದ ಮೊದಲನೆ ಪತ್ರ
+      short: 1 ಥೆಸ.
+    1Tim:
+      long: ತಿಮೊಥೆಯನಿಗೆ ಬರೆದ ಮೊದಲನೆ ಪತ್ರ
+    2Cor:
+      long: ಕೊರಿಂಥದವರಿಗೆ ಬರೆದ ಎರಡನೆ ಪತ್ರ
+    2John:
+      long: ಯೋಹಾನನು ಬರೆದ ಎರಡನೆ ಪತ್ರ
+    2Kgs:
+      long: 2 ರಾಜರುಗಳು
+      short: 2 ರಾಜರು
+    2Pet:
+      long: ಪೇತ್ರನು ಬರೆದ ಎರಡನೆ ಪತ್ರ
+    2Thess:
+      long: ಥೆಸಲೋನಿಕದವರಿಗೆ ಬರೆದ ಎರಡನೆ ಪತ್ರ
+      short: 2 ಥೆಸ.
+    2Tim:
+      long: ತಿಮೊಥೆಯನಿಗೆ ಬರೆದ ಎರಡನೆ ಪತ್ರ
+    3John:
+      long: ಯೋಹಾನನು ಬರೆದ ಮೂರನೆ ಪತ್ರ
+    Acts:
+      long: ಅಪೊಸ್ತಲರ ಕಾರ್ಯಗಳು
+      short: ಅ.ಕಾ.
+    Amos:
+      short: ಆಮೋಸ
+    Col:
+      long: ಕೊಲೊಸ್ಸೆಯವರಿಗೆ ಬರೆದ ಪತ್ರ
+      short: ಕೊಲೊಸ್ಸೆ
+    Deut:
+      short: ಧರ್ಮೋಪ.
+    Eph:
+      long: ಎಫೆಸದವರಿಗೆ ಬರೆದ ಪತ್ರ
+    Exod:
+      short: ವಿಮೋಚನ.
+    Ezek:
+      long: ಯೆಹೆಜ್ಕೇಲ
+      short: ಯೆಹೆ.
+    Gal:
+      long: ಗಲಾತ್ಯದವರಿಗೆ ಬರೆದ ಪತ್ರ
+    Hab:
+      short: ಹಬಕ್ಕೂಕ
+    Hag:
+      short: ಹಗ್ಗಾಯ
+    Heb:
+      long: ಇಬ್ರಿಯರಿಗೆ ಬರೆದ ಪತ್ರ
+      short: ಇಬ್ರಿ.
+    Isa:
+      short: ಯೆಶಾಯ
+    Jas:
+      long: ಯಾಕೋಬನು ಬರೆದ ಪತ್ರ
+    Job:
+      long: ಯೋಬನು
+    Joel:
+      short: ಯೋವೇಲ
+    John:
+      long: ಯೋಹಾನನ ಸುವಾರ್ತೆ
+    Josh:
+      long: ಯೆಹೋಶುವನು
+      short: ಯೆಹೋಶುವ
+    Jude:
+      long: ಯೂದನು ಬರೆದ ಪತ್ರ
+    Judg:
+      short: ನ್ಯಾಯಸ್ಥಾಪಕರು
+    Lam:
+      short: ಪ್ರಲಾಪ
+    Luke:
+      long: ಲೂಕನ ಸುವಾರ್ತೆ
+    Mal:
+      short: ಮಲಾಕಿ
+    Mark:
+      long: ಮಾರ್ಕನ ಸುವಾರ್ತೆ
+    Matt:
+      long: ಮತ್ತಾಯನ ಸುವಾರ್ತೆ
+      short: ಮತ್ತಾಯ
+    Nah:
+      short: ನಹೂಮ
+    Num:
+      short: ಅರಣ್ಯ.
+    Obad:
+      long: ಒಬದ್ಯ
+    Phil:
+      long: ಫಿಲಿಪ್ಪಿಯವರಿಗೆ ಬರೆದ ಪತ್ರ
+    Phlm:
+      long: ಫಿಲೆಮೋನನಿಗೆ ಬರೆದ ಪತ್ರ
+      short: ಫಿಲೆಮೋನ
+    Prov:
+      short: ಜ್ಞಾನೋಕ್ತಿ
+    Rev:
+      long: ಯೋಹಾನನು ಬರೆದ ಪ್ರಕಟನೆ
+      short: ಪ್ರಕಟನೆ
+    Rom:
+      long: ರೋಮ್‌ನಗರದವರಿಗೆ ಬರೆದ ಪತ್ರ
+      short: ರೋಮ್‌.
+    Song:
+      long: ಪರಮ ಗೀತ
+      short: ಪರಮ ಗೀತ
+    Titus:
+      long: ತೀತನಿಗೆ ಬರೆದ ಪತ್ರ
+    Zech:
+      short: ಜೆಕರ್ಯ

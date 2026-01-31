@@ -1,0 +1,76 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Matt
+    texts:
+      - Mateu
+      - Mat
+  - osis: Mark
+    texts:
+      - Mako
+      - Mak
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis: John
+    texts:
+      - Iuano
+      - Iua
+  - osis: Acts
+    texts:
+      - Vilinga
+      - Vil
+  - osis: Rom
+    texts:
+      - Loma
+      - Lo
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kolinte
+      - Kol
+  - osis: Col
+    texts:
+      - Kolose
+      - Kol
+  - osis: Gal
+    texts:
+      - Ngalata
+      - Nga
+  - osis: Eph
+    texts:
+      - Efeso
+      - Efe
+  - osis: Phil
+    texts:
+      - Filipu
+      - Fili
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonika
+      - Tesa
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timateo
+      - Tim
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+translations:
+  - NKN

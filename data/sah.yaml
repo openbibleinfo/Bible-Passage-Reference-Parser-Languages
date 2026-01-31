@@ -1,0 +1,129 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Арыллыы
+      - Арыл
+  - osis: Ruth
+    texts:
+      - Руфь
+  - osis: Esth
+    texts:
+      - Эсфирь
+  - osis: Ps
+    texts:
+      - Саалтыр
+      - Саал
+  - osis: Prov
+    texts:
+      - Аман өһө
+  - osis: Jonah
+    texts:
+      - Иона
+  - osis: Matt
+    texts:
+      - Матфей
+      - Мф
+  - osis: Mark
+    texts:
+      - Марк
+      - Мк
+  - osis: Luke
+    texts:
+      - Лука
+      - Лк
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Иоанн
+      - Ин
+  - osis: Acts
+    texts:
+      - Апостоллар
+      - Апос
+  - osis: Rom
+    texts:
+      - Рим христианнарыгар
+      - Рим
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Коринф христианнарыгар
+      - Кор
+  - osis: Col
+    texts:
+      - Колосс христианнарыгар
+      - Кол
+  - osis: Gal
+    texts:
+      - Галатия христианнарыгар
+      - Гал
+  - osis: Eph
+    texts:
+      - Эфес христианнарыгар
+      - Эф
+  - osis: Phil
+    texts:
+      - Филиппы христианнарыгар
+      - Флп
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Фессалоника христианнарыгар
+      - Фес
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Тимофейга
+      - Тим
+  - osis: Titus
+    texts:
+      - Титкэ
+      - Тит
+  - osis: Phlm
+    texts:
+      - Филимоҥҥа
+      - Флм
+  - osis: Heb
+    texts:
+      - Еврейдэргэ
+      - Евр
+  - osis: Jas
+    texts:
+      - Иаков
+      - Иак
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Петр
+      - Пет
+  - osis: Jude
+    texts:
+      - Иуда
+      - Иуд
+translations:
+  - YKTBBL

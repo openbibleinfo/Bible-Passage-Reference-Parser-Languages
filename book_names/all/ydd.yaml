@@ -1,0 +1,294 @@
+- osis: Gen
+  texts:
+    - Bereshis
+    - ברֵאשִית
+- osis: Exod
+  texts:
+    - Shemot
+    - שְמוֹת
+- osis: Lev
+  texts:
+    - וַיִּקְרָא
+    - Vayikra
+- osis: Num
+  texts:
+    - Bamidbar
+    - במִדְבר
+- osis: Lam
+  texts:
+    - אֵיכָה
+- osis: Rev
+  texts:
+    - di antplekung
+    - די אנטפלעקונג
+- osis: Deut
+  texts:
+    - דְבָֿרִים
+    - Devarim
+- osis: Josh
+  texts:
+    - יְהוֹשועַ
+- osis: Judg
+  texts:
+    - שוֹפֿטִים
+- osis: Ruth
+  texts:
+    - רוּת
+- osis: Isa
+  texts:
+    - יְשַעְיָה
+- osis: 1Sam
+  texts:
+    - שְמוּאֵל א
+- osis: 2Sam
+  texts:
+    - שְמוּאֵל ב
+- osis: 1Kgs
+  texts:
+    - מְלָכִים א
+- osis: 2Kgs
+  texts:
+    - מְלָכִים ב
+- osis: 1Chr
+  texts:
+    - דִבֿרֵי הַיָמִים א
+- osis: 2Chr
+  texts:
+    - דִבֿרֵי הַיָמִים ב
+- osis: Ezra
+  texts:
+    - עֶזְרָא
+- osis: Neh
+  texts:
+    - נְחֶמְיָה
+- osis: Esth
+  texts:
+    - אֶסתֵּר
+- osis: Job
+  texts:
+    - אִיובֿ
+- osis: Ps
+  texts:
+    - תְּהִלִּים
+- osis: Prov
+  texts:
+    - מִשלֵי
+- osis: Eccl
+  texts:
+    - קהלת
+- osis: Song
+  texts:
+    - שִיר הַשִירִים
+- osis: Jer
+  texts:
+    - יִרְמְיָה
+- osis: Ezek
+  texts:
+    - יחֶזקֵאל
+- osis: Dan
+  texts:
+    - דָניאֵל
+- osis: Hos
+  texts:
+    - הוֹשֵעַ
+- osis: Joel
+  texts:
+    - יוֹאֵל
+- osis: Amos
+  texts:
+    - עָמוֹס
+- osis: Obad
+  texts:
+    - עוֹבֿדיָה
+- osis: Jonah
+  texts:
+    - יוֹנָה
+- osis: Mic
+  texts:
+    - מִיכָה
+- osis: Nah
+  texts:
+    - נַחום
+- osis: Hab
+  texts:
+    - חֲבַֿקוּק
+- osis: Zeph
+  texts:
+    - צפַֿניָה
+- osis: Hag
+  texts:
+    - חַגַי
+- osis: Zech
+  texts:
+    - זכַריָה
+- osis: Mal
+  texts:
+    - מַלאָכי
+- osis: Matt
+  texts:
+    - Mattityahu
+    - מתתיהו
+- osis: Mark
+  texts:
+    - Markos
+    - מארקוס
+- osis: Luke
+  texts:
+    - Lukas
+    - לוקאס
+- osis: 3John
+  texts:
+    - g Yochanan briv
+    - ג יוחנן בריוו
+- osis: 1John
+  texts:
+    - a Yochanan briv
+    - a יוחנן בריוו
+    - a. Yochanan briv
+    - a. יוחנן בריוו
+    - א Yochanan briv
+    - א יוחנן בריוו
+    - א. Yochanan briv
+    - א. יוחנן בריוו
+- osis: 2John
+  texts:
+    - b Yochanan briv
+    - b יוחנן בריוו
+    - b. Yochanan briv
+    - b. יוחנן בריוו
+    - ב Yochanan briv
+    - ב יוחנן בריוו
+    - ב. Yochanan briv
+    - ב. יוחנן בריוו
+- osis: John
+  texts:
+    - Yochanan
+    - יוחנן
+- osis: Acts
+  texts:
+    - di shlichim geshichte
+    - די שליחים געשיכטע
+- osis: Rom
+  texts:
+    - רוימער בריוו
+    - Roymer briv
+    - Roymer
+- osis: 1Cor
+  texts:
+    - a קארינטער בריוו
+    - a Korinter briv
+    - a. קארינטער בריוו
+    - a. Korinter briv
+    - א קארינטער בריוו
+    - א Korinter briv
+    - א. קארינטער בריוו
+    - א. Korinter briv
+- osis: 2Cor
+  texts:
+    - b קארינטער בריוו
+    - b Korinter briv
+    - b. קארינטער בריוו
+    - b. Korinter briv
+    - ב קארינטער בריוו
+    - ב Korinter briv
+    - ב. קארינטער בריוו
+    - ב. Korinter briv
+- osis: Col
+  texts:
+    - קאלאסער בריוו
+    - Koloser briv
+- osis: Gal
+  texts:
+    - Galater
+    - גאלאטער
+- osis: Eph
+  texts:
+    - Efezer
+    - עפעזער
+- osis: Phil
+  texts:
+    - Filiper
+    - פיליפער
+- osis: 1Thess
+  texts:
+    - a טעסאלאניקער בריוו
+    - a Tesaloniker briv
+    - a. טעסאלאניקער בריוו
+    - a. Tesaloniker briv
+    - א טעסאלאניקער בריוו
+    - א Tesaloniker briv
+    - א. טעסאלאניקער בריוו
+    - א. Tesaloniker briv
+- osis: 2Thess
+  texts:
+    - b טעסאלאניקער בריוו
+    - b Tesaloniker briv
+    - b. טעסאלאניקער בריוו
+    - b. Tesaloniker briv
+    - ב טעסאלאניקער בריוו
+    - ב Tesaloniker briv
+    - ב. טעסאלאניקער בריוו
+    - ב. Tesaloniker briv
+- osis: 1Tim
+  texts:
+    - a Timotiyos briv
+    - a טימאטעוס בריוו
+    - a. Timotiyos briv
+    - a. טימאטעוס בריוו
+    - א Timotiyos briv
+    - א טימאטעוס בריוו
+    - א. Timotiyos briv
+    - א. טימאטעוס בריוו
+- osis: 2Tim
+  texts:
+    - b Timotiyos briv
+    - b טימאטעוס בריוו
+    - b. Timotiyos briv
+    - b. טימאטעוס בריוו
+    - ב Timotiyos briv
+    - ב טימאטעוס בריוו
+    - ב. Timotiyos briv
+    - ב. טימאטעוס בריוו
+- osis: Titus
+  texts:
+    - טיטוס בריוו
+    - Titus briv
+- osis: Phlm
+  texts:
+    - פילעמאן בריוו
+    - Filemon briv
+- osis: Heb
+  texts:
+    - briv tsu di Yidn
+    - בריוו צו די יידן
+- osis: Jas
+  texts:
+    - Yaakovs briv
+    - יעקבס בריוו
+- osis: 1Pet
+  texts:
+    - a פעטרוס בריוו
+    - a Petros briv
+    - a. פעטרוס בריוו
+    - a. Petros briv
+    - א פעטרוס בריוו
+    - א Petros briv
+    - א. פעטרוס בריוו
+    - א. Petros briv
+- osis: 2Pet
+  texts:
+    - b פעטרוס בריוו
+    - b Petros briv
+    - b. פעטרוס בריוו
+    - b. Petros briv
+    - ב פעטרוס בריוו
+    - ב Petros briv
+    - ב. פעטרוס בריוו
+    - ב. Petros briv
+- osis: 1Pet
+  texts:
+    - Kefa Alef
+- osis: Jude
+  texts:
+    - Yehudes briv
+    - יהודהס בריוו

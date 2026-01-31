@@ -1,0 +1,139 @@
+default:
+  1Chr:
+    long: 1Rus
+    short: 1Rus
+  1Cor:
+    long: 1Kwa
+    short: 1Kwa
+  1John:
+    long: 1Yu
+    short: 1Yu
+  1Kgs:
+    long: 1Mgh
+    short: 1Mgh
+  1Pet:
+    long: 1Pi
+    short: 1Pi
+  1Sam:
+    long: 1Sam
+    short: 1Sam
+  1Thess:
+    long: 1Tes
+    short: 1Tes
+  1Tim:
+    long: 1Tim
+    short: 1Tim
+  2Chr:
+    long: 2Rus
+    short: 2Rus
+  2Cor:
+    long: 2Kwa
+    short: 2Kwa
+  2John:
+    long: 2Yu
+    short: 2Yu
+  2Kgs:
+    long: 2Mgh
+    short: 2Mgh
+  2Pet:
+    long: 2Pi
+    short: 2Pi
+  2Sam:
+    long: 2Sam
+    short: 2Sam
+  2Thess:
+    long: 2Tes
+    short: 2Tes
+  2Tim:
+    long: 2Tim
+    short: 2Tim
+  3John:
+    long: 3Yu
+    short: 3Yu
+  Acts:
+    long: Slg
+    short: Slg
+  Col:
+    long: Kwl
+    short: Kwl
+  Dan:
+    long: Dan
+    short: Dan
+  Deut:
+    long: Vzl
+    short: Vzl
+  Eph:
+    long: Afi
+    short: Afi
+  Esth:
+    long: Ast
+    short: Ast
+  Exod:
+    long: Sab
+    short: Sab
+  Ezra:
+    long: Izr
+    short: Izr
+  Gal:
+    long: Gal
+    short: Gal
+  Gen:
+    long: Zlr
+    short: Zlr
+  Heb:
+    long: Heb
+    short: Heb
+  Jas:
+    long: Yak
+    short: Yak
+  John:
+    long: Yuh
+    short: Yuh
+  Jonah:
+    long: Yun
+    short: Yun
+  Josh:
+    long: Yəh
+    short: Yəh
+  Jude:
+    long: Yud
+    short: Yud
+  Judg:
+    long: Gtg
+    short: Gtg
+  Lev:
+    long: Lev
+    short: Lev
+  Luke:
+    long: Luk
+    short: Luk
+  Mark:
+    long: Mak
+    short: Mak
+  Matt:
+    long: Mat
+    short: Mat
+  Neh:
+    long: Nəh
+    short: Nəh
+  Num:
+    long: Mbs
+    short: Mbs
+  Phil:
+    long: Fip
+    short: Fip
+  Phlm:
+    long: Fil
+    short: Fil
+  Rev:
+    long: Sun
+    short: Sun
+  Rom:
+    long: Rum
+    short: Rum
+  Ruth:
+    long: Rut
+    short: Rut
+  Titus:
+    long: Tit
+    short: Tit

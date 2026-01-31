@@ -1,0 +1,129 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Revelesen
+      - Re
+  - osis: Matt
+    texts:
+      - Matyu
+      - Mt
+  - osis: Mark
+    texts:
+      - Mak
+      - Mk
+  - osis: Luke
+    texts:
+      - Luk
+      - Lu
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jon
+      - Jo
+  - osis: Acts
+    texts:
+      - Aposel
+      - Ap
+  - osis: Rom
+    texts:
+      - Romba
+      - Rom
+      - Ro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinba
+      - Korin
+      - Ko
+  - osis: Col
+    texts:
+      - Kolosiba
+      - Kolosi
+      - Kl
+  - osis: Gal
+    texts:
+      - Galesiaba
+      - Galesia
+      - Ga
+  - osis: Eph
+    texts:
+      - Epesasba
+      - Efesus
+      - Ef
+      - Ep
+  - osis: Phil
+    texts:
+      - Pilipaiba
+      - Filipai
+      - Fl
+      - Pl
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonaikaba
+      - Tesalonaika
+      - Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotiké
+      - Timoti
+      - Ti
+  - osis: Titus
+    texts:
+      - Taitaské
+      - Taitus
+      - Ta
+  - osis: Phlm
+    texts:
+      - Pailimonké
+      - Filemon
+      - Fm
+      - Pm
+  - osis: Heb
+    texts:
+      - Yibruna
+      - Hibru
+      - Hi
+      - Yi
+  - osis: Jas
+    texts:
+      - Jems
+      - Je
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+      - Pi
+  - osis: Jude
+    texts:
+      - Jut
+      - Ju
+translations:
+  - ABTNT
+  - ABT

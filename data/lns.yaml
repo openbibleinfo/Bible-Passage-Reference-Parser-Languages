@@ -1,0 +1,306 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Kèʼlo
+      - Keʼ
+  - osis: Exod
+    texts:
+      - Fəə
+  - osis: Lev
+    texts:
+      - Cu
+      - Cù
+  - osis: Num
+    texts:
+      - Kintaŋ
+      - Kin
+  - osis: Lam
+    texts:
+      - Yòvdìy
+      - Yov
+  - osis: Rev
+    texts:
+      - Ŋgaà Yen
+      - Yen
+  - osis: Deut
+    texts:
+      - Remrí
+      - Rem
+  - osis: Josh
+    texts:
+      - Joshua
+      - Jos
+  - osis: Judg
+    texts:
+      - Atǎr Nsaʼ
+      - Ata
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis: Isa
+    texts:
+      - Aysaya
+      - Ays
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+  - osis: 1Sam
+    texts:
+      - 1Sa
+  - osis: 2Sam
+    texts:
+      - 2Sa
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Afòn
+  - osis: 1Kgs
+    texts:
+      - 1Af
+  - osis: 2Kgs
+    texts:
+      - 2Af
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Wòŋ
+  - osis: 1Chr
+    texts:
+      - 1Wo
+  - osis: 2Chr
+    texts:
+      - 2Wo
+  - osis: Ezra
+    texts:
+      - Esra
+      - Esr
+  - osis: Neh
+    texts:
+      - Nehemia
+      - Neh
+  - osis: Esth
+    texts:
+      - Esta
+      - Est
+  - osis: Job
+    texts:
+      - Jov
+  - osis: Ps
+    texts:
+      - Nsùyrì Nyùy
+      - Nsu
+  - osis: Prov
+    texts:
+      - Ŋgàn
+      - Ŋgn
+  - osis: Eccl
+    texts:
+      - Ŋgaà Tàrvìnyò
+      - Tar
+  - osis: Song
+    texts:
+      - Yòv Viŋgér
+      - Viŋ
+  - osis: Jer
+    texts:
+      - Jeremia
+      - Jer
+  - osis: Ezek
+    texts:
+      - Esiker
+      - Esi
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan
+  - osis: Hos
+    texts:
+      - Hosea
+      - Hos
+  - osis: Joel
+    texts:
+      - Joel
+      - Jol
+  - osis: Amos
+    texts:
+      - Amos
+      - Amo
+  - osis: Obad
+    texts:
+      - Obadia
+      - Oba
+  - osis: Jonah
+    texts:
+      - Jona
+      - Jna
+  - osis: Mic
+    texts:
+      - Mayka
+      - May
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Tsəfaniya
+      - Tsə
+  - osis: Hag
+    texts:
+      - Hagay
+      - Hag
+  - osis: Zech
+    texts:
+      - Sekariya
+      - Sek
+  - osis: Mal
+    texts:
+      - Malakay
+      - Mal
+  - osis: Matt
+    texts:
+      - Matio
+      - Mat
+  - osis: Mark
+    texts:
+      - Maak
+      - Mak
+  - osis: Luke
+    texts:
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Jo
+  - osis: 2John
+    texts:
+      - 2Jo
+  - osis: 3John
+    texts:
+      - 3 Joon
+      - 3Jo
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Joon
+  - osis: John
+    texts:
+      - Joon
+      - Jon
+  - osis: Acts
+    texts:
+      - Lim Aŋgàa Ntum
+      - Lim
+  - osis: Rom
+    texts:
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korin
+  - osis: 1Cor
+    texts:
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - 2Ko
+  - osis: Col
+    texts:
+      - Kolosia
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatia
+      - Gal
+  - osis: Eph
+    texts:
+      - Efesor
+      - Efe
+  - osis: Phil
+    texts:
+      - Filipi
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonika
+  - osis: 1Thess
+    texts:
+      - 1Te
+  - osis: 2Thess
+    texts:
+      - 2Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Titur
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemon
+      - Flm
+  - osis: Heb
+    texts:
+      - Hibru
+      - Hib
+  - osis: Jas
+    texts:
+      - Jeem
+      - Jem
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+  - osis: 1Pet
+    texts:
+      - 1Pi
+  - osis: 2Pet
+    texts:
+      - 2Pi
+  - osis: Jude
+    texts:
+      - Jud
+translations:
+  - LNB

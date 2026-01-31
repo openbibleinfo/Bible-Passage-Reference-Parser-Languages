@@ -1,0 +1,112 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Dèd́è̆lî̄
+      - Dè̆lî̄
+  - osis: Matt
+    texts:
+      - Mattĕo
+      - Mat
+  - osis: Mark
+    texts:
+      - Mărko
+      - Măr
+  - osis: Luke
+    texts:
+      - Lŭka
+      - Lŭk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Zowănnī
+      - Zo
+  - osis: Acts
+    texts:
+      - Thodŏpho
+  - osis: Rom
+    texts:
+      - Rŏma
+      - Rŏ
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kòrĭn
+      - Kòr
+  - osis: Col
+    texts:
+      - Kòlò̆ssia
+      - Kòlò̆
+  - osis: Gal
+    texts:
+      - Galatiăno
+      - Gala
+  - osis: Eph
+    texts:
+      - Ephè̆sus
+      - Ephè̆
+  - osis: Phil
+    texts:
+      - Philippiăno
+      - Phil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thèssalò̆nika
+      - Thèssa
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timò̆theo
+      - Timò̆
+  - osis: Titus
+    texts:
+      - Tĭto
+      - Tĭ
+  - osis: Phlm
+    texts:
+      - Philemòn
+      - Phile
+  - osis: Heb
+    texts:
+      - Hebrè̆u
+      - He
+  - osis: Jas
+    texts:
+      - Zăkomo
+      - Ză
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petru
+      - Pe
+  - osis: Jude
+    texts:
+      - Jŭda
+      - Jŭ
+translations:
+  - GRNT21

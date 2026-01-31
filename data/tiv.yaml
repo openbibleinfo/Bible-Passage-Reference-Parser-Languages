@@ -1,0 +1,274 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Genese
+      - Gen
+  - osis: Exod
+    texts:
+      - Ekesodu
+      - Eks
+  - osis: Lev
+    texts:
+      - Levitiku
+      - Lev
+  - osis: Num
+    texts:
+      - Numeri
+      - Num
+  - osis: Lam
+    texts:
+      - Ukwelegh
+      - Ukwe
+  - osis: Rev
+    texts:
+      - Mpase U Yohane
+      - Mpase
+  - osis: Deut
+    texts:
+      - Duteronomi
+      - Dut
+  - osis: Josh
+    texts:
+      - Yosua
+      - Yos
+  - osis: Judg
+    texts:
+      - Mbaajiriv
+      - Mbaaj
+  - osis: Ruth
+    texts:
+      - Rutu
+      - Rut
+  - osis: Isa
+    texts:
+      - Yesaia
+      - Yes
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Utor
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Kroniku
+      - Kron
+  - osis: Ezra
+    texts:
+      - Esera
+  - osis: Neh
+    texts:
+      - Nehemia
+      - Neh
+  - osis: Esth
+    texts:
+      - Eseter
+      - Eset
+  - osis: Job
+    texts:
+      - Yobu
+      - Yob
+  - osis: Ps
+    texts:
+      - Upasalmi
+      - Ps
+  - osis: Prov
+    texts:
+      - Anzaakaa
+      - Anz
+  - osis: Eccl
+    texts:
+      - Orpasenkwagh
+      - Orpa
+  - osis: Song
+    texts:
+      - I Solomon
+      - Icam
+  - osis: Jer
+    texts:
+      - Yeremia
+      - Yer
+  - osis: Ezek
+    texts:
+      - Esekiel
+      - Esek
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan
+  - osis: Hos
+    texts:
+      - Hosea
+      - Hos
+  - osis: Joel
+    texts:
+      - Yoel
+  - osis: Amos
+    texts:
+      - Amoshi
+      - Amo
+  - osis: Obad
+    texts:
+      - Obadia
+      - Obad
+  - osis: Jonah
+    texts:
+      - Yona
+      - Yon
+  - osis: Mic
+    texts:
+      - Mika
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habaku
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sefania
+      - Sef
+  - osis: Hag
+    texts:
+      - Hagai
+      - Hag
+  - osis: Zech
+    texts:
+      - Sekaria
+      - Sek
+  - osis: Mal
+    texts:
+      - Malaki
+      - Mal
+  - osis: Matt
+    texts:
+      - Mateu
+      - Mt
+  - osis: Mark
+    texts:
+      - Marku
+      - Mk
+  - osis: Luke
+    texts:
+      - Luka
+      - Lk
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohane
+      - Yoh
+  - osis: John
+    texts:
+      - Yohane
+  - osis: Acts
+    texts:
+      - Aerenakaa A Mbaapostoli
+      - Aer
+  - osis: Rom
+    texts:
+      - Mbaromanu
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Mbakorinte
+      - Kor
+  - osis: Col
+    texts:
+      - Mbakolose
+      - Kol
+  - osis: Gal
+    texts:
+      - Mbagalatia
+      - Gal
+  - osis: Eph
+    texts:
+      - Mbaefese
+      - Efe
+  - osis: Phil
+    texts:
+      - Mbafilipi
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Mbatesalonika
+      - Tes
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Timoteu
+      - Tim
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Timoteu
+      - Tim
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteu
+  - osis: Titus
+    texts:
+      - Titu
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemon
+      - File
+  - osis: Heb
+    texts:
+      - Mbaheberu
+      - Heb
+  - osis: Jas
+    texts:
+      - Yakobu
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peteru
+      - Pet
+  - osis: Jude
+    texts:
+      - Yuda
+      - Yud
+translations:
+  - TOBNR

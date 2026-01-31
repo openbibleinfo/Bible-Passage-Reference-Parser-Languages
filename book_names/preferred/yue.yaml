@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: I. Līk‐toî Chì‐leūk
+    short: 1Ch
+  1Cor:
+    long: 1 Koh‐Lām‐Toh
+    short: 1 Koh
+  1John:
+    long: 1 Yeukₒ‐Hôn
+    short: 1 Yeukₒ‐Hôn
+  1Kgs:
+    long: I. Līt‐wōng Keí‐leūk
+    short: 1Ki
+  1Pet:
+    long: 1 Peí‐Tak
+    short: 1 Peí‐Tak
+  1Sam:
+    long: I. Saatₒ‐mŏ‐ĭ
+    short: 1Sa
+  1Thess:
+    long: 1 T‘ipₒ‐Saatₒ‐Lōh‐Neī‐Ka
+    short: 1 T‘ipₒ
+  1Tim:
+    long: 1 T‘aī‐Moh‐T‘aaì
+    short: 1 T‘aī‐Moh
+  2Chr:
+    long: II. Līk‐toî Chì‐leūk
+    short: 2Ch
+  2Cor:
+    long: 2 Koh‐Lām‐Toh
+    short: 2 Koh
+  2John:
+    long: 2 Yeukₒ‐hôn
+    short: 2 Yeukₒ‐hôn
+  2Kgs:
+    long: II. Līt‐wōng Keí‐leūk
+    short: 2Ki
+  2Pet:
+    long: 2 Peí‐Tak
+    short: 2 Peí‐Tak
+  2Sam:
+    long: II. Saatₒ‐mŏ‐ĭ
+    short: 2Sa
+  2Thess:
+    long: 2 T‘ipₒ‐Saatₒ‐Lōh‐Neī‐Ka
+    short: 2 T‘ipₒ
+  2Tim:
+    long: 2 T‘aī‐Moh‐T‘aaì
+    short: 2 T‘aī‐Moh
+  3John:
+    long: 3 Yeukₒ‐Hôn
+    short: 3 Yeukₒ‐Hôn
+  Acts:
+    long: Sz̀‐T‘ō Hâng‐Chuên
+    short: Sz̀‐T‘ō Hâng‐Chuên
+  Amos:
+    long: À‐moh‐sẑ
+    short: Amo
+  Col:
+    long: Koh‐Lōh‐Sai
+    short: Koh‐Lōh‐Sai
+  Dan:
+    long: Taân‐ĭ‐leĭ
+    short: Dan
+  Deut:
+    long: Fūk‐ch‘uēn Lūt‐laî Keì
+    short: Deu
+  Eccl:
+    long: Ch‘uēn‐tô
+    short: Ecc
+  Eph:
+    long: Ĭ‐Fat‐Shóh
+    short: Ĭ‐Fat‐Shóh
+  Esth:
+    long: Ĭ‐sẑ‐t‘ipₒ
+    short: Est
+  Exod:
+    long: Ch‘ut Oi‐k‘āp Keì
+    short: Exo
+  Ezek:
+    long: Ĭ‐sai‐kitₒ
+    short: Ezk
+  Ezra:
+    long: Ĭ‐sẑ‐la
+    short: Ezr
+  Gal:
+    long: Ka‐La‐T‘aaì
+    short: Ka‐La‐T‘aaì
+  Gen:
+    long: Ch‘òng‐shaì Keì
+    short: Gen
+  Hab:
+    long: Hap‐pa‐kuk
+    short: Hab
+  Hag:
+    long: Hap‐kei
+    short: Hag
+  Heb:
+    long: Hei‐Paakₒ‐Loī
+    short: Hei‐Paakₒ
+  Hos:
+    long: Hōh‐sai
+    short: Hos
+  Isa:
+    long: Ĭ‐tsoi‐à
+    short: Isa
+  Jas:
+    long: Ngă‐Kokₒ
+    short: Ngă‐Kokₒ
+  Jer:
+    long: Yē‐leî‐maĭ
+    short: Jer
+  Job:
+    long: Yeukₒ‐paakₒ
+    short: Job
+  Joel:
+    long: Yeukₒ‐ĭ
+    short: Jol
+  John:
+    long: Yeukₒ‐Hôn
+    short: Yeukₒ‐Hôn
+  Jonah:
+    long: Yeukₒ‐nā
+    short: Jon
+  Josh:
+    long: Yeukₒ‐shue‐à
+    short: Jos
+  Jude:
+    long: Yaū‐Taaî
+    short: Yaū
+  Judg:
+    long: Sẑ‐sz Keì
+    short: Jdg
+  Lam:
+    long: Yē‐leî‐maĭ Oi‐koh
+    short: Lam
+  Lev:
+    long: Leî‐meî‐keì
+    short: Lev
+  Luke:
+    long: Lô‐Ka
+    short: Lô‐Ka
+  Mal:
+    long: Mă‐la‐kei
+    short: Mal
+  Mark:
+    long: Mă‐Hóh
+    short: Mă‐Hóh
+  Matt:
+    long: Mă‐t‘aaì
+    short: Mă‐t‘aaì
+  Mic:
+    long: Maĭ‐ka
+    short: Mic
+  Nah:
+    long: Nā‐yung
+    short: Nam
+  Neh:
+    long: Neĭ‐hei‐maĭ
+    short: Neh
+  Num:
+    long: Mān‐shò Keí Leūk
+    short: Num
+  Obad:
+    long: Oh‐pa‐taí
+    short: Oba
+  Phil:
+    long: Feī‐Laāp‐Peí
+    short: Feī‐Laāp‐Peí
+  Phlm:
+    long: Feī‐Leî‐Moōn
+    short: Feī‐Leî
+  Prov:
+    long: Cham‐īn
+    short: Pro
+  Ps:
+    long: Shi‐p‘in
+    short: Psa
+  Rev:
+    long: Māk‐Shî‐Lūk
+    short: Māk
+  Rom:
+    long: Lōh‐Mă
+    short: Lōh‐Mă
+  Ruth:
+    long: Lô-tak shî
+    short: Lô-tak
+  Song:
+    long: Ngă‐koh
+    short: Sng
+  Titus:
+    long: T‘aī‐Toh
+    short: T‘aī‐Toh
+  Zech:
+    long: Saatₒ‐ka‐leî‐à
+    short: Zec
+  Zeph:
+    long: Sai‐faan‐ngă
+    short: Zep

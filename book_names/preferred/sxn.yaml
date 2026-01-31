@@ -1,0 +1,271 @@
+default:
+  1Chr:
+    long: Kararatuang Humotong
+    short: 1Kar.
+  1Cor:
+    long: 1 Korintus
+    short: 1Kor.
+  1John:
+    long: 1 Yohanes
+    short: 1Yoh.
+  1Kgs:
+    long: Manga Ratu Humotong
+    short: 1Mar.
+  1Pet:
+    long: 1 Petrus
+    short: 1Ptr.
+  1Sam:
+    long: Samuel Humotong
+    short: 1Sam.
+  1Thess:
+    long: 1 Tesalonika
+    short: 1Tes.
+  1Tim:
+    long: 1 Timotius
+    short: 1Tim.
+  2Chr:
+    long: 2 Tawarikh
+    short: 2Kar.
+  2Cor:
+    long: 2 Korintus
+    short: 2Kor.
+  2John:
+    long: 2 Yohanes
+    short: 2Yoh.
+  2Kgs:
+    long: Manga Ratu Karuane
+    short: 2Mar.
+  2Pet:
+    long: 2 Petrus
+    short: 2Ptr.
+  2Sam:
+    long: 2 Samuel
+    short: 2Sam.
+  2Thess:
+    long: 2 Tesalonika
+    short: 2Tes.
+  2Tim:
+    long: 2 Timotius
+    short: 2Tim.
+  3John:
+    long: 3 Yohanes
+    short: 3Yoh.
+  Acts:
+    long: Wuke Ngu Manga Rasuli
+    short: Wuk.
+  Amos:
+    long: Amos
+    short: Am.
+  Col:
+    long: Kolose
+    short: Kol.
+  Dan:
+    long: Daniel
+    short: Dan.
+  Deut:
+    long: Pangangonggọ U Toratẹ̌ Kapia
+    short: Pang.
+  Eccl:
+    long: Munanasi
+    short: Mun.
+  Eph:
+    long: Efesus
+    short: Ef.
+  Esth:
+    long: Ester
+    short: Est.
+  Exod:
+    long: Sasuwang
+    short: Sas.
+  Ezek:
+    long: Yehezkiel
+    short: Yeh.
+  Ezra:
+    long: Esra
+    short: Esr.
+  Gal:
+    long: Galatia
+    short: Gal.
+  Gen:
+    long: Karariadi
+    short: Kar.
+  Hab:
+    long: Habakuk
+    short: Hab.
+  Hag:
+    long: Hagai
+    short: Hag.
+  Heb:
+    long: Ibrani
+    short: Ibr.
+  Hos:
+    long: Hosea
+    short: Hos.
+  Isa:
+    long: Yesaya
+    short: Yes.
+  Jas:
+    long: Yakobus
+    short: Yak.
+  Jer:
+    long: Yeremia
+    short: Yer.
+  Job:
+    long: Ayub
+    short: Ayb.
+  Joel:
+    long: Yoël
+    short: Yl.
+  John:
+    long: Yohanes
+    short: Yoh.
+  Jonah:
+    long: Yunus
+    short: Yun.
+  Josh:
+    long: Yosua
+    short: Yos.
+  Jude:
+    long: Yudas
+    short: Yud.
+  Judg:
+    long: Mamamonesi
+    short: Mam.
+  Lam:
+    long: Dal᷊ěmpasiang
+    short: Dal᷊.
+  Lev:
+    long: Imamat
+    short: Im.
+  Luke:
+    long: Lukas
+    short: Luk.
+  Mal:
+    long: Maleakhi
+    short: Mal.
+  Mark:
+    long: Markus
+    short: Mrk.
+  Matt:
+    long: Matius
+    short: Mat.
+  Mic:
+    long: Mikha
+    short: Mi.
+  Nah:
+    long: Nahum
+    short: Nah.
+  Neh:
+    long: Nehemia
+    short: Neh.
+  Num:
+    long: Pẹ̌tatiạ
+    short: Pẹ̌t.
+  Obad:
+    long: Obaja
+    short: Ob.
+  Phil:
+    long: Filipi
+    short: Flp.
+  Phlm:
+    long: Filemon
+    short: Flm.
+  Prov:
+    long: Baweran Salomo
+    short: Baw.
+  Ps:
+    long: Mazmur
+    short: Mzm.
+  Rev:
+    long: Kal᷊al᷊ahe
+    short: Kl᷊h.
+  Rom:
+    long: Roma
+    short: Rm.
+  Ruth:
+    long: Rut
+    short: Rut
+  Song:
+    long: Kakantarị Patebone
+    short: Kak.
+  Titus:
+    long: Titus
+    short: Tit.
+  Zech:
+    long: Zakharia
+    short: Za.
+  Zeph:
+    long: Zefanya
+    short: Zef.
+translations:
+  plt:
+    1Chr:
+      long: Tawarikh Kahimotongange
+      short: 1Taw.
+    1Kgs:
+      long: Manga Ratu Kahimotongange
+    1Sam:
+      long: Samuel Kahimotongange
+    2Chr:
+      short: 2Taw.
+    2Kgs:
+      long: Manga Ratu Karuange
+    Deut:
+      long: Saukang
+      short: Sau.
+    Exod:
+      short: Sasu.
+    Ezra:
+      long: Ezra
+      short: Ezr.
+    Lam:
+      long: Sasangi
+      short: Sai.
+    Num:
+      long: Rekenang
+      short: Rek.
+    Prov:
+      long: Sasasa
+      short: Sas.
+    Song:
+      long: Samperi Dadalo
+      short: Sad.
+  sxn:
+    1Kgs:
+      short: 1Rat.
+    2Chr:
+      long: Kararatuang Karuane
+    2Kgs:
+      short: 2Rat.
+    2Sam:
+      long: Samuel Karuane
+    Acts:
+      long: Rarolohang
+      short: Mmr.
+    Amos:
+      short: Ams.
+    Eccl:
+      long: Měnanasẹ̌
+      short: Měn.
+    Exod:
+      long: Sasěbang
+    Gen:
+      long: Pěndariadi
+      short: Pěnd.
+    Judg:
+      long: Manga Mělahukung
+      short: Měl.
+    Lev:
+      long: Manga Imang
+      short: Imng.
+    Ps:
+      long: Mazmurẹ̌
+    Rev:
+      long: Pělal᷊ahẹ
+      short: Pěl.
+    Ruth:
+      long: Rutẹ̌
+      short: Rut.
+    Zeph:
+      long: Zepanya
+      short: Zep.

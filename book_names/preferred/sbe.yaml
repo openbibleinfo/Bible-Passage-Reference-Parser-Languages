@@ -1,0 +1,73 @@
+default:
+  1Cor:
+    long: 1 Kolinito
+    short: 1Co
+  1John:
+    long: 1 Yowane
+    short: 1Jn
+  1Pet:
+    long: 1 Petelo
+    short: 1Pe
+  1Thess:
+    long: 1 Tesalonika
+    short: 1Th
+  1Tim:
+    long: 1 Timoti
+    short: 1Ti
+  2Cor:
+    long: 2 Kolinito
+    short: 2Co
+  2John:
+    long: 2 Yowane
+    short: 2Jn
+  2Pet:
+    long: 2 Petelo
+    short: 2Pe
+  2Tim:
+    long: 2 Timoti
+    short: 2Ti
+  3John:
+    long: 3 Yowane
+    short: 3Jn
+  Acts:
+    long: Apostolo
+    short: Act
+  Col:
+    long: Kolose
+    short: Col
+  Eph:
+    long: Epeso
+    short: Eph
+  Gal:
+    long: Galatiya
+    short: Gal
+  Heb:
+    long: Hebelu
+    short: Heb
+  Jas:
+    long: Yamesi
+    short: Jas
+  John:
+    long: Yowane
+    short: Jhn
+  Jude:
+    long: Yuda
+    short: Jud
+  Mark:
+    long: Maleko
+    short: Mrk
+  Matt:
+    long: Mataiyo
+    short: Mat
+  Phil:
+    long: Pilipi
+    short: Php
+  Phlm:
+    long: Pilemona
+    short: Phm
+  Rev:
+    long: Hemasalaha
+    short: Rev
+  Titus:
+    long: Taitasi
+    short: Tit

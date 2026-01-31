@@ -1,0 +1,190 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - لواحي ن يوحنا
+      - Lwaḥi
+      - Waḥ
+      - واح
+  - osis: Matt
+    texts:
+      - Matta
+      - متى
+      - Mt
+      - مت
+  - osis: Mark
+    texts:
+      - Marqus
+      - مرقس
+      - Mrq
+      - مرق
+  - osis: Luke
+    texts:
+      - Luqa
+      - لوقا
+      - Luq
+      - لوق
+  - osis: 1John
+    texts:
+      - 1Yuḥ
+      - 1يوح
+  - osis: 2John
+    texts:
+      - 2Yuḥ
+      - 2يوح
+  - osis: 3John
+    texts:
+      - 3 Yuḥanna
+      - 3 يوحنا
+      - 3Yuḥ
+      - 3يوح
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yuḥanna
+      - يوحنا
+  - osis: John
+    texts:
+      - Yuḥanna
+      - يوحنا
+      - Yuḥ
+      - يوح
+  - osis: Acts
+    texts:
+      - Ȓexḏayem
+      - ڒخذايم
+      - Ȓx
+      - ڒخ
+  - osis: Rom
+    texts:
+      - Ayṯ-Ruma
+      - أيث-روما
+      - Rum
+      - روم
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Ayṯ-Kurinṯ
+      - أيث-كورينث
+  - osis: 1Cor
+    texts:
+      - 1Kur
+      - 1كور
+  - osis: 2Cor
+    texts:
+      - 2Kur
+      - 2كور
+  - osis: Col
+    texts:
+      - Ayṯ-Kulus
+      - أيث-كولوس
+      - Kul
+      - كول
+  - osis: Gal
+    texts:
+      - Ayṯ-Galaṭya
+      - أيث-ݣلاطيا
+      - Gal
+      - ݣل
+  - osis: Eph
+    texts:
+      - Ayṯ-Ufasus
+      - أيث-ؤفسوس
+      - Afa
+      - أفس
+  - osis: Phil
+    texts:
+      - Ayṯ-Filippas
+      - أيث-فيليـپـي
+      - Flp
+      - فلپ
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Ayṯ-Salunik
+      - أيث-سلونيك
+  - osis: 1Thess
+    texts:
+      - 1Sal
+      - 1سلن
+  - osis: 2Thess
+    texts:
+      - 2Sal
+      - 2سلن
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timutawus
+      - تيموتاوس
+  - osis: 1Tim
+    texts:
+      - 1Tim
+      - 1تيم
+  - osis: 2Tim
+    texts:
+      - 2Tim
+      - 2تيم
+  - osis: Titus
+    texts:
+      - ثبرات غار تيتوس
+      - Titus
+      - Tit
+      - تيت
+  - osis: Phlm
+    texts:
+      - ثبرات غار فليمون
+      - Filimun
+      - Fil
+      - فلم
+  - osis: Heb
+    texts:
+      - Iƹibraniyen
+      - يعيبرانيين
+      - Iƹb
+      - عب
+  - osis: Jas
+    texts:
+      - ثبرات غار يعقوب
+      - Yaƹqub
+      - Yaƹ
+      - يعق
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Buṭrus
+      - بطرس
+  - osis: 1Pet
+    texts:
+      - 1Buṭ
+      - 1بط
+  - osis: 2Pet
+    texts:
+      - 2Buṭ
+      - 2بط
+  - osis: Jude
+    texts:
+      - ثبرات زي يهوذا
+      - Yahuḏa
+      - Yah
+      - يه
+translations:
+  - RIF

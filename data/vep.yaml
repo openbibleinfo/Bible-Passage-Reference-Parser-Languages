@@ -1,0 +1,128 @@
+variables:
+  first: &first
+    - "1."
+    - Ezmäine
+  second: &second
+    - "2."
+    - Toine
+books:
+  - osis: Rev
+    texts:
+      - Joannan nägudez
+      - Näg.
+  - osis: Matt
+    texts:
+      - Matvei
+      - Matv.
+  - osis: Mark
+    texts:
+      - Mark.
+      - Mark
+  - osis: Luke
+    texts:
+      - Luk.
+      - Luka
+  - osis: 1John
+    texts:
+      - Joannan ezmäine kirjeine
+  - osis: 2John
+    texts:
+      - Joannan toine kirjeine
+  - osis: 3John
+    texts:
+      - Joannan koumanz' kirjeine
+      - 3. Joan.
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Joan.
+  - osis: John
+    texts:
+      - Joan.
+      - Joan
+  - osis: Acts
+    texts:
+      - Apostoloiden tegod
+      - Ap.t.
+  - osis: Rom
+    texts:
+      - Kirjeine rimalaižile
+      - Rim.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - kirjeine korinfalaižile
+      - Kor.
+  - osis: Col
+    texts:
+      - Kirjeine kolossalaižile
+      - Kol.
+  - osis: Gal
+    texts:
+      - Kirjeine galatalaižile
+      - Gal.
+  - osis: Eph
+    texts:
+      - Kirjeine efesalaižile
+      - Ef.
+  - osis: Phil
+    texts:
+      - Kirjeine filippalaižile
+      - Fil.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - kirjeine fessalonikalaižile
+      - Fes.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - kirjeine Timofejale
+      - Tim.
+  - osis: Titus
+    texts:
+      - Kirjeine Titale
+      - Tit.
+  - osis: Phlm
+    texts:
+      - Kirjeine Filimonale
+      - Filim.
+  - osis: Heb
+    texts:
+      - Kirjeine evrejalaižile
+      - Evr.
+  - osis: Jas
+    texts:
+      - Jakovan kirjeine
+      - Jak.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petr.
+  - osis: 1Pet
+    texts:
+      - Petran ezmäine kirjeine
+  - osis: 2Pet
+    texts:
+      - Petran toine kirjeine
+  - osis: Jude
+    texts:
+      - Judan kirjeine
+      - Jud.
+translations:
+  - VPS06

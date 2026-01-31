@@ -1,0 +1,284 @@
+variables:
+  first: &first
+    - "1"
+    - Fyrra
+  second: &second
+    - "2"
+    - Seinna
+books:
+  - osis: Gen
+    texts:
+      - Genesis
+  - osis: Exod
+    texts:
+      - Exodus
+  - osis: Lev
+    texts:
+      - Triðja Mósebók
+      - 3 Mós
+  - osis: Num
+    texts:
+      - Fjórða Mósebók
+      - 4 Mós
+  - osis: Lam
+    texts:
+      - Harmljóðini
+      - Harmlj
+  - osis: Rev
+    texts:
+      - Jóhannesar opinbering
+      - Opb
+  - osis: Deut
+    texts:
+      - Fimta Mósebók
+      - 5 Mós
+  - osis: Josh
+    texts:
+      - Jósvabók
+      - Jós
+  - osis: Judg
+    texts:
+      - Dómarabókin
+      - Dóm
+  - osis: Ruth
+    texts:
+      - Rutarbók
+      - Rut
+  - osis: Isa
+    texts:
+      - Jesaja
+      - Jes
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Sámuelsbók
+      - Sám
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Kongabók
+      - Kong
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Krýnikubók
+      - Krýn
+  - osis: Ezra
+    texts:
+      - Ezra
+  - osis: Neh
+    texts:
+      - Nehemia
+      - Neh
+  - osis: Esth
+    texts:
+      - Esterarbók
+      - Est
+  - osis: Job
+    texts:
+      - Jobsbók
+      - Job
+  - osis: Ps
+    texts:
+      - Sálmarnir
+      - Sl
+  - osis: Prov
+    texts:
+      - Orðtøk Sálomons
+      - Orðt
+  - osis: Eccl
+    texts:
+      - Prædikarin
+      - Præd
+  - osis: Song
+    texts:
+      - Hásongurin
+      - Hás
+  - osis: Jer
+    texts:
+      - Jeremia
+      - Jer
+  - osis: Ezek
+    texts:
+      - Ezekiel
+      - Ez
+  - osis: Dan
+    texts:
+      - Dánjal
+      - Dán
+  - osis: Hos
+    texts:
+      - Hósea
+      - Hós
+  - osis: Joel
+    texts:
+      - Jóel
+  - osis: Amos
+    texts:
+      - Ámos
+      - Ám
+  - osis: Obad
+    texts:
+      - Óbadia
+      - Óbad
+  - osis: Jonah
+    texts:
+      - Jónas
+      - Jón
+  - osis: Mic
+    texts:
+      - Mika
+  - osis: Nah
+    texts:
+      - Náhum
+      - Náh
+  - osis: Hab
+    texts:
+      - Hábakkuk
+      - Háb
+  - osis: Zeph
+    texts:
+      - Sefanja
+      - Sef
+  - osis: Hag
+    texts:
+      - Haggai
+      - Hagg
+  - osis: Zech
+    texts:
+      - Zakarja
+      - Zak
+  - osis: Mal
+    texts:
+      - Málaki
+      - Mál
+  - osis: Matt
+    texts:
+      - Evangeliið eftir Matteus
+      - Mathæussa
+      - Matt
+  - osis: Mark
+    texts:
+      - Evangeliið eftir Markus
+      - Mark
+  - osis: Luke
+    texts:
+      - Evangeliið eftir Lukas
+      - Luk
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - John
+  - osis: 2John
+    texts:
+      - Annað bræv Jóhannesar
+  - osis: 3John
+    texts:
+      - Triðja bræv Jóhannesar
+      - 3 Jóh
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - Jóh
+  - osis: John
+    texts:
+      - Evangeliið eftir Jóhannes
+      - Jóhannesar Evangelium
+      - Jóhannes
+      - Jóh
+  - osis: Acts
+    texts:
+      - Ápostlasøgan
+      - Áps
+  - osis: Rom
+    texts:
+      - Bræv Paulusar ápostuls til Rómverja
+      - Róm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintbrævið
+      - Kor
+  - osis: Col
+    texts:
+      - Kolossubrævið
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatabrævið
+      - Gal
+  - osis: Eph
+    texts:
+      - Efesusbrævið
+      - Ef
+  - osis: Phil
+    texts:
+      - Filippibrævið
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tessalónikubrævið
+      - Tess
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteusarbrævið
+      - Tim
+  - osis: Titus
+    texts:
+      - Titusarbrævið
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemonsbrævið
+      - Filem
+  - osis: Heb
+    texts:
+      - Hebrearabrævið
+      - Hebr
+  - osis: Jas
+    texts:
+      - Hitt almenna bræv Jákups
+      - Ják
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pæt
+  - osis: 1Pet
+    texts:
+      - Hitt fyrra almenna bræv Pæturs
+  - osis: 2Pet
+    texts:
+      - Hitt seinna almenna bræv Pæturs
+  - osis: Jude
+    texts:
+      - Hitt almenna bræv Judasar
+      - Jud
+translations:
+  - FB
+  - FAO1823
+  - FAO1908

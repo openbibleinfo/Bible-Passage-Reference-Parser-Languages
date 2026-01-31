@@ -1,0 +1,34 @@
+default:
+  1John:
+    long: 1 John
+    short: 1 John
+  2Cor:
+    long: 2 Corinthians
+    short: 2 Cor
+  Acts:
+    long: Qāyīlelas (Acts)
+    short: Qāyīlelas
+  Ezek:
+    long: Ezekiel
+    short: Ezekiel
+  Isa:
+    long: Isaiah
+    short: Isaiah
+  Joel:
+    long: Joel
+    short: Joel
+  John:
+    long: John
+    short: John
+  Luke:
+    long: Luke
+    short: Luke
+  Mark:
+    long: Mark
+    short: Mark
+  Matt:
+    long: Matthew
+    short: Matthew
+  Ps:
+    long: Psalm
+    short: Psalms

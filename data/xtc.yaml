@@ -1,0 +1,99 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Tumma tanno Yasu
+  - osis: Ruth
+    texts:
+      - Rawus
+  - osis: Jonah
+    texts:
+      - Yünan
+  - osis: Matt
+    texts:
+      - Matta
+  - osis: Mark
+    texts:
+      - Murkus
+  - osis: Luke
+    texts:
+      - Lüüka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yühanna
+  - osis: Acts
+    texts:
+      - Kadafïïnï
+  - osis: Rom
+    texts:
+      - Rööma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kürünsüs
+  - osis: Col
+    texts:
+      - Kölösi
+  - osis: Gal
+    texts:
+      - Galatiya
+  - osis: Eph
+    texts:
+      - Afosus
+  - osis: Phil
+    texts:
+      - Filippi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tasalanükï
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timosaws
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filimon
+  - osis: Heb
+    texts:
+      - Ebraniin
+  - osis: Jas
+    texts:
+      - Yaguub
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Bütrüs
+  - osis: Jude
+    texts:
+      - Yahüüsa
+translations:
+  - KATCHA

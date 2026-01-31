@@ -1,0 +1,88 @@
+default:
+  1Cor:
+    long: 1 Korinthi
+  1John:
+    long: 1 Ioannit
+    short: 1 Ioannit
+  1Pet:
+    long: 1 Petrosë
+    short: 1 Petrosë
+  1Thess:
+    long: 1 Seleniqiot
+    short: 1 Seleniqiot
+  1Tim:
+    long: 1 Timothe
+    short: 1 Timothe
+  2Cor:
+    long: 2 Korinthi
+  2John:
+    long: 2 Ioannit
+    short: 2 Ioannit
+  2Pet:
+    long: 2 Petrosë
+    short: 2 Petrosë
+  2Thess:
+    long: 2 Seleniqiot
+    short: 2 Seleniqiot
+  2Tim:
+    long: 2 Timothe
+    short: 2 Timothe
+  3John:
+    long: 3 Ioannit
+    short: 3 Ioannit
+  Acts:
+    long: Bëratë
+  Col:
+    long: Kollosait
+  Deut:
+    long: nom i dytë
+    short: Lp
+  Eph:
+    long: Efesio
+  Exod:
+    long: të dalëtë
+    short: Dal
+  Gal:
+    long: Gallatë
+  Gen:
+    long: të bërëtë
+    short: Zan
+  Heb:
+    long: Çifut
+    short: Çifut
+  Isa:
+    long: Isaia
+    short: Is
+  Jas:
+    long: Iakovit
+    short: Iakovit
+  John:
+    long: Ioanni
+  Jude:
+    long: Iudhësë
+    short: Iudhësë
+  Luke:
+    long: Lluka
+  Mark:
+    long: Marko
+  Matt:
+    long: Mattheo
+  Phil:
+    long: Filippiot
+  Phlm:
+    long: Filimonë
+    short: Filimonë
+  Prov:
+    long: Fjalët e urta
+    short: Fu
+  Ps:
+    long: Psalltiri
+    short: Ps
+  Rev:
+    long: Apolalipsi
+    short: Apolalipsi
+  Rom:
+    long: Romanë
+  Titus:
+    long: Titonë
+    short: Titonë

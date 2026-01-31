@@ -1,0 +1,425 @@
+- osis: Gen
+  texts:
+    - 1 Mus.
+    - 1 Musa
+    - 1 Mus
+- osis: Exod
+  texts:
+    - 2 Mus.
+    - 2 Musa
+    - 2 Mus
+- osis: Bel
+  texts:
+    - Bel.
+    - Bel
+- osis: Lev
+  texts:
+    - 3 Mus.
+    - 3 Musa
+    - 3 Mus
+- osis: Num
+  texts:
+    - 4 Mus.
+    - 4 Musa
+    - 4 Mus
+- osis: Sir
+  texts:
+    - Sirak
+    - Sir.
+- osis: Wis
+  texts:
+    - Hap. Salomo
+    - Hap.
+- osis: Lam
+  texts:
+    - Tangis-tangis
+    - Tangis.
+    - Tangis
+- osis: EpJer
+  texts:
+    - Surat Jeremia
+    - S. Jer.
+- osis: Rev
+  texts:
+    - Pangungkabon
+    - Pangk.
+    - Pangk
+- osis: Deut
+  texts:
+    - 5 Mus.
+    - 5 Musa
+    - 5 Mus
+- osis: Josh
+  texts:
+    - Josua
+    - Jos.
+    - Jos
+- osis: Judg
+  texts:
+    - Panguhum
+    - Panguh.
+    - Panguh
+- osis: Ruth
+  texts:
+    - Rut
+- osis: Isa
+  texts:
+    - Jesaya
+    - Jes.
+    - Jes
+- osis: 1Sam
+  texts:
+    - 1 Samuel
+    - 1 Sam.
+    - 1 Sam
+    - 1. Samuel
+    - 1. Sam.
+    - 1. Sam
+- osis: 2Sam
+  texts:
+    - 2 Samuel
+    - 2 Sam.
+    - 2 Sam
+    - 2. Samuel
+    - 2. Sam.
+    - 2. Sam
+- osis: 1Kgs
+  texts:
+    - 1 Raja-Raja
+    - 1 Raj.
+    - 1 Raj
+    - 1. Raja-Raja
+    - 1. Raj.
+    - 1. Raj
+- osis: 2Kgs
+  texts:
+    - 2 Raja-Raja
+    - 2 Raj.
+    - 2 Raj
+    - 2. Raja-Raja
+    - 2. Raj.
+    - 2. Raj
+- osis: 1Chr
+  texts:
+    - 1 Kronika
+    - 1 Kron.
+    - 1 Kron
+    - 1. Kronika
+    - 1. Kron.
+    - 1. Kron
+- osis: 2Chr
+  texts:
+    - 2 Kronika
+    - 2 Kron.
+    - 2 Kron
+    - 2. Kronika
+    - 2. Kron.
+    - 2. Kron
+- osis: Ezra
+  texts:
+    - Esr.
+    - Esra
+    - Esr
+- osis: Neh
+  texts:
+    - Nehemia
+    - Neh.
+    - Neh
+- osis: Job
+  texts:
+    - Job.
+    - Job
+- osis: Ps
+  texts:
+    - Psalmen
+    - Ps.
+    - Ps
+- osis: Prov
+  texts:
+    - Podah
+    - Pod.
+    - Pod
+- osis: Eccl
+  texts:
+    - Parambilan
+    - Par.
+    - Par
+- osis: Song
+  texts:
+    - Doding Ni Doding
+    - Doding
+- osis: Jer
+  texts:
+    - Jeremia
+    - Jer.
+    - Jer
+- osis: Ezek
+  texts:
+    - Hesekiel
+    - Hes.
+    - Hes
+- osis: Hos
+  texts:
+    - Hosea
+    - Hos.
+    - Hos
+- osis: Joel
+  texts:
+    - Joel
+- osis: Amos
+  texts:
+    - Amos
+    - Am.
+    - Ams
+- osis: Obad
+  texts:
+    - Obaja
+    - Obj.
+    - Obj
+- osis: Jonah
+  texts:
+    - Jon.
+    - Jona
+    - Jon
+- osis: Mic
+  texts:
+    - Mika
+    - Mi.
+    - Mi
+- osis: Nah
+  texts:
+    - Nahum
+    - Nah.
+    - Nah
+- osis: Hab
+  texts:
+    - Habakuk
+    - Hab.
+    - Hab
+- osis: Zeph
+  texts:
+    - Sepanya
+    - Sef.
+    - Sef
+- osis: Hag
+  texts:
+    - Haggai
+    - Hag.
+    - Hag
+- osis: Zech
+  texts:
+    - Sakaria
+    - Sak.
+    - Sak
+- osis: Mal
+  texts:
+    - Maleaki
+    - Mal.
+    - Mal
+- osis: Matt
+  texts:
+    - Mateus
+    - Mat.
+    - Mat
+- osis: Mark
+  texts:
+    - Markus
+    - Mrk.
+    - Mrk
+- osis: Luke
+  texts:
+    - Lukas
+    - Luk.
+    - Luk
+- osis: 1John
+  texts:
+    - 1 Johannes
+    - 1 Joh.
+    - 1 Joh
+    - 1. Johannes
+    - 1. Joh.
+    - 1. Joh
+- osis: 2John
+  texts:
+    - 2 Johannes
+    - 2 Joh.
+    - 2 Joh
+    - 2. Johannes
+    - 2. Joh.
+    - 2. Joh
+- osis: 3John
+  texts:
+    - 3 Johannes
+    - 3 Joh.
+    - 3 Joh
+    - 3. Johannes
+    - 3. Joh.
+    - 3. Joh
+- osis: John
+  texts:
+    - Johannes
+    - Joh.
+    - Joh
+- osis: Acts
+  texts:
+    - Lahoan Ni Apostel
+    - Lah.
+    - Lah
+- osis: Rom
+  texts:
+    - Rom
+- osis: 1Cor
+  texts:
+    - 1 Korint
+    - 1 Kor.
+    - 1 Kor
+    - 1. Korint
+    - 1. Kor.
+    - 1. Kor
+- osis: 2Cor
+  texts:
+    - 2 Korint
+    - 2 Kor.
+    - 2 Kor
+    - 2. Korint
+    - 2. Kor.
+    - 2. Kor
+- osis: Col
+  texts:
+    - Kolosse
+    - Kol.
+    - Kol
+- osis: Gal
+  texts:
+    - Galatia
+    - Gal.
+    - Gal
+- osis: Eph
+  texts:
+    - Epesus
+    - Ep.
+    - Ep
+- osis: Phil
+  texts:
+    - Pilippi
+    - Pil.
+    - Pil
+- osis: 1Thess
+  texts:
+    - 1 Tessalonika
+    - 1 Tes.
+    - 1 Tes
+    - 1. Tessalonika
+    - 1. Tes.
+    - 1. Tes
+- osis: 2Thess
+  texts:
+    - 2 Tessalonika
+    - 2 Tes.
+    - 2 Tes
+    - 2. Tessalonika
+    - 2. Tes.
+    - 2. Tes
+- osis: 1Tim
+  texts:
+    - 1 Timoteus
+    - 1 Tim.
+    - 1 Tim
+    - 1. Timoteus
+    - 1. Tim.
+    - 1. Tim
+- osis: 2Tim
+  texts:
+    - 2 Timoteus
+    - 2 Tim.
+    - 2 Tim
+    - 2. Timoteus
+    - 2. Tim.
+    - 2. Tim
+- osis: Titus
+  texts:
+    - Titus
+    - Tit.
+    - Tit
+- osis: Phlm
+  texts:
+    - Pilemon
+    - Pilem.
+    - Pilem
+- osis: Heb
+  texts:
+    - Heber
+    - Heb.
+    - Heb
+- osis: Jas
+  texts:
+    - Jakobus
+    - Jak.
+    - Jak
+- osis: 1Pet
+  texts:
+    - 1 Petrus
+    - 1 Ptr.
+    - 1 Ptr
+    - 1. Petrus
+    - 1. Ptr.
+    - 1. Ptr
+- osis: 2Pet
+  texts:
+    - 2 Petrus
+    - 2 Ptr.
+    - 2 Ptr
+    - 2. Petrus
+    - 2. Ptr.
+    - 2. Ptr
+- osis: Jude
+  texts:
+    - Judas
+    - Jud.
+    - Jud
+- osis: Tob
+  texts:
+    - Tobit
+    - Tob.
+- osis: Jdt
+  texts:
+    - Judit
+    - Jdt.
+- osis: Bar
+  texts:
+    - Baruk
+    - Bar.
+- osis: Sus
+  texts:
+    - Susana
+    - Sus.
+- osis: 1Macc
+  texts:
+    - 1 Makabe
+    - 1 Mak.
+    - 1. Makabe
+    - 1. Mak.
+- osis: 2Macc
+  texts:
+    - 2 Makabe
+    - 2 Mak.
+    - 2. Makabe
+    - 2. Mak.
+- osis: AddDan
+  texts:
+    - Tamb. Daniel
+    - T. Dan.
+- osis: Dan
+  texts:
+    - Daniel
+    - Dan.
+    - Dan
+- osis: AddEsth
+  texts:
+    - Tamb. Ester
+    - T. Est
+- osis: Esth
+  texts:
+    - Ester
+    - Est.
+    - Est

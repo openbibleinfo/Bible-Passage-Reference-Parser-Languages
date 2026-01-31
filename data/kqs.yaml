@@ -1,0 +1,266 @@
+books:
+  - osis: Gen
+    texts:
+      - O Kandɔɔ
+      - O Ka
+  - osis: Exod
+    texts:
+      - Fulaa
+      - Ful
+  - osis: Lev
+    texts:
+      - Tɔŋ lasálàá
+      - Tɔŋ la
+  - osis: Num
+    texts:
+      - Kundalan
+      - Kund
+  - osis: Lam
+    texts:
+      - Cɛɛŋɔnnda Yeremi lan
+      - Cɛɛŋɔn
+  - osis: Rev
+    texts:
+      - Dɛnnda cɔɔmuanndan
+      - Dɛn Cɔɔ
+  - osis: Deut
+    texts:
+      - Tɔŋ miingua
+      - Tɔŋ mi
+  - osis: Josh
+    texts:
+      - Yosue
+      - Yos
+  - osis: Judg
+    texts:
+      - Masaa kialaa n'yamaa
+      - Yama
+  - osis: Ruth
+    texts:
+      - Ruti
+      - Rut
+  - osis: Isa
+    texts:
+      - Esai
+      - Esa
+  - osis: 1Sam
+    texts:
+      - 1Samiɛl
+      - 1Sam
+  - osis: 2Sam
+    texts:
+      - 2Samiɛl
+      - 2Sam
+  - osis: 1Kgs
+    texts:
+      - 1Masaa
+      - 1Mas
+  - osis: 2Kgs
+    texts:
+      - 2Masaa
+      - 2Mas
+  - osis: 1Chr
+    texts:
+      - 1Dɛnnda lemasalan
+      - 1Dɛn ma
+  - osis: 2Chr
+    texts:
+      - 2Dɛnnda lemasalan
+      - 2Dɛn mas
+  - osis: Ezra
+    texts:
+      - Ɛsdras
+      - Ɛsd
+  - osis: Neh
+    texts:
+      - Nehemi
+      - Neh
+  - osis: Esth
+    texts:
+      - Ɛstɛr
+      - Ɛst
+  - osis: Job
+    texts:
+      - Yɔb
+  - osis: Ps
+    texts:
+      - Condii lisai
+      - Cond lis
+  - osis: Prov
+    texts:
+      - Talelan
+      - Tal
+  - osis: Eccl
+    texts:
+      - Vana Kɔlkaloo
+      - Vana kɔl
+  - osis: Song
+    texts:
+      - Condii kɛndɛ-kɛndɛi
+      - Cond kɛ
+  - osis: Jer
+    texts:
+      - Yeremi
+      - Yer
+  - osis: Ezek
+    texts:
+      - Esekiɛl
+      - Esek
+  - osis: Dan
+    texts:
+      - Daniɛl
+      - Dani
+  - osis: Hos
+    texts:
+      - Osee
+      - Ose
+  - osis: Joel
+    texts:
+      - Yɔɛl
+      - Yɔɛ
+  - osis: Amos
+    texts:
+      - Amɔs
+      - Amɔ
+  - osis: Obad
+    texts:
+      - Abdia
+      - Abdi
+  - osis: Jonah
+    texts:
+      - Yonas
+      - Yon
+  - osis: Mic
+    texts:
+      - Misee
+      - Mis
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sofoni
+      - Sof
+  - osis: Hag
+    texts:
+      - Aasee
+      - Aas
+  - osis: Zech
+    texts:
+      - Sakari
+      - Sak
+  - osis: Mal
+    texts:
+      - Malasi
+      - Mal
+  - osis: Matt
+    texts:
+      - Matie
+      - Mat
+  - osis: Mark
+    texts:
+      - Marke
+      - Mar
+  - osis: Luke
+    texts:
+      - Luke
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Nsaŋ
+      - 1Nsa
+  - osis: 2John
+    texts:
+      - 2Nsaŋ
+      - 2Nsa
+  - osis: 3John
+    texts:
+      - 3Nsaŋ
+      - 3Nsa
+  - osis: John
+    texts:
+      - Nsaŋ
+      - Nsa
+  - osis: Acts
+    texts:
+      - Dɛnnda kiilaa
+      - Dɛn kii
+  - osis: Rom
+    texts:
+      - Rɔmnda
+      - Rɔm
+  - osis: 1Cor
+    texts:
+      - 1Korɛntea
+      - 1Kor
+  - osis: 2Cor
+    texts:
+      - 2Korɛntea
+      - 2Kor
+  - osis: Col
+    texts:
+      - Kolɔsea
+      - Kol
+  - osis: Gal
+    texts:
+      - Kalatea
+      - Kal
+  - osis: Eph
+    texts:
+      - Efɛsea
+      - Efɛ
+  - osis: Phil
+    texts:
+      - Filipea
+      - Fil
+  - osis: 1Thess
+    texts:
+      - 1Tesalonikea
+      - 1Tes
+  - osis: 2Thess
+    texts:
+      - 2Tesalonikea
+      - 2Tes
+  - osis: 1Tim
+    texts:
+      - 1Timote
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Timote
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Tite
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemɔn
+      - Filem
+  - osis: Heb
+    texts:
+      - Hebreea
+      - Heb
+  - osis: Jas
+    texts:
+      - Nsaki
+      - Nsak
+  - osis: 1Pet
+    texts:
+      - 1Piɛr
+      - 1Piɛ
+  - osis: 2Pet
+    texts:
+      - 2Piɛr
+      - 2Piɛ
+  - osis: Jude
+    texts:
+      - Yude
+      - Yud
+translations:
+  - BKG

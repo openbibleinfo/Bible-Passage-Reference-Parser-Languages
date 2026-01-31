@@ -1,0 +1,408 @@
+default:
+  1Chr:
+    long: 1 Tawarikh
+    short: 1 Taw
+  1Cor:
+    long: 1 Korintus
+    short: 1 Kor
+  1John:
+    long: 1 Yohanes
+    short: 1 Yoh
+  1Kgs:
+    long: 1 Raja-Raja
+    short: 1 Raj
+  1Macc:
+    long: 1 Makabe
+    short: 1 Mak
+  1Pet:
+    long: 1 Petrus
+    short: 1 Ptr
+  1Sam:
+    long: 1 Samuel
+    short: 1 Sam
+  1Thess:
+    long: 1 Tesalonika
+    short: 1 Tes
+  1Tim:
+    long: 1 Timotius
+    short: 1 Tim
+  2Chr:
+    long: 2 Tawarikh
+    short: 2 Taw
+  2Cor:
+    long: 2 Korintus
+    short: 2 Kor
+  2John:
+    long: 2 Yohanes
+    short: 2 Yoh
+  2Kgs:
+    long: 2 Raja-Raja
+    short: 2 Raj
+  2Macc:
+    long: 2 Makabe
+    short: 2 Mak
+  2Pet:
+    long: 2 Petrus
+    short: 2 Ptr
+  2Sam:
+    long: 2 Samuel
+    short: 2 Sam
+  2Thess:
+    long: 2 Tesalonika
+    short: 2 Tes
+  2Tim:
+    long: 2 Timotius
+    short: 2 Tim
+  3John:
+    long: 3 Yohanes
+    short: 3 Yoh
+  Acts:
+    long: Kisah Rasul-rasul
+    short: Kis
+  Amos:
+    long: Amos
+    short: Am
+  Bar:
+    long: Barukh
+    short: Bar
+  Bel:
+    long: Danbel
+  Col:
+    long: Kolose
+    short: Kol
+  Dan:
+    long: Daniel
+    short: Dan
+  Deut:
+    long: Ulangan
+    short: Ul
+  Eccl:
+    long: Pengkhutbah
+    short: Pkh
+  EpJer:
+    long: Surat Yeremia
+  Eph:
+    long: Efesus
+    short: Ef
+  Esth:
+    long: Ester
+    short: Est
+  EsthGr:
+    long: Ester
+    short: Est
+  Exod:
+    long: Keluaran
+    short: Kel
+  Ezek:
+    long: Yehezkiel
+    short: Yeh
+  Ezra:
+    long: Ezra
+    short: Ezr
+  Gal:
+    long: Galatia
+    short: Gal
+  Gen:
+    long: Kejadian
+    short: Kej
+  Hab:
+    long: Habakuk
+    short: Hab
+  Hag:
+    long: Hagai
+    short: Hag
+  Heb:
+    long: Ibrani
+    short: Ibr
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Yesaya
+    short: Yes
+  Jas:
+    long: Yakobus
+    short: Yak
+  Jdt:
+    long: Yudit
+    short: Ydt
+  Jer:
+    long: Yeremia
+    short: Yer
+  Job:
+    long: Ayub
+    short: Ayb
+  Joel:
+    long: Yoel
+    short: Yl
+  John:
+    long: Yohanes
+    short: Yoh
+  Jonah:
+    long: Yunus
+    short: Yun
+  Josh:
+    long: Yosua
+    short: Yos
+  Jude:
+    long: Yudas
+    short: Yud
+  Judg:
+    long: Hakim-Hakim
+    short: Hak
+  Lam:
+    long: Ratapan
+    short: Rat
+  Lev:
+    long: Imamat
+    short: Im
+  Luke:
+    long: Lukas
+    short: Luk
+  Mal:
+    long: Maleakhi
+    short: Mal
+  Mark:
+    long: Markus
+    short: Mrk
+  Matt:
+    long: Matius
+    short: Mat
+  Mic:
+    long: Mikha
+    short: Mi
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nehemia
+    short: Neh
+  Num:
+    long: Bilangan
+    short: Bil
+  Obad:
+    long: Obaja
+    short: Ob
+  Phil:
+    long: Filipi
+    short: Flp
+  Phlm:
+    long: Filemon
+    short: Flm
+  PrAzar:
+    long: TAMBAHAN DANIEL
+  Prov:
+    long: Amsal
+    short: Ams
+  Ps:
+    long: Mazmur
+    short: Mzm
+  Rev:
+    long: Wahyu
+    short: Why
+  Rom:
+    long: Roma
+    short: Rm
+  Ruth:
+    long: Rut
+    short: Rut
+  Sir:
+    long: Sirakh
+    short: Sir
+  Song:
+    long: Kidung Agung
+    short: Kid
+  Sus:
+    long: Susana
+  Titus:
+    long: Titus
+    short: Tit
+  Tob:
+    long: Tobit
+    short: Tob
+  Wis:
+    long: Kebijaksanaan Salomo
+    short: Keb
+  Zech:
+    long: Zakharia
+    short: Za
+  Zeph:
+    long: Zefanya
+    short: Zef
+translations:
+  avb:
+    1Chr:
+      short: 1 Tawarikh
+    1Cor:
+      short: 1 Korintus
+    1John:
+      short: 1 Yohanes
+    1Kgs:
+      short: 1 Raja-Raja
+    1Pet:
+      short: 1 Petrus
+    1Sam:
+      short: 1 Samuel
+    1Thess:
+      short: 1 Tesalonika
+    1Tim:
+      short: 1 Timotius
+    2Chr:
+      short: 2 Tawarikh
+    2Cor:
+      short: 2 Korintus
+    2John:
+      short: 2 Yohanes
+    2Kgs:
+      short: 2 Raja-Raja
+    2Pet:
+      short: 2 Petrus
+    2Sam:
+      short: 2 Samuel
+    2Thess:
+      short: 2 Tesalonika
+    2Tim:
+      short: 2 Timotius
+    3John:
+      short: 3 Yohanes
+    Acts:
+      long: Kisah Para Rasul
+      short: Kisah Para Rasul
+    Amos:
+      short: Amos
+    Col:
+      short: Kolose
+    Dan:
+      short: Daniel
+    Deut:
+      short: Ulangan
+    Eccl:
+      short: Pengkhutbah
+    Eph:
+      short: Efesus
+    Esth:
+      short: Ester
+    Exod:
+      short: Keluaran
+    Ezek:
+      short: Yehezkiel
+    Ezra:
+      short: Ezra
+    Gal:
+      short: Galatia
+    Gen:
+      short: Kejadian
+    Hab:
+      short: Habakuk
+    Hag:
+      short: Hagai
+    Heb:
+      short: Ibrani
+    Hos:
+      short: Hosea
+    Isa:
+      short: Yesaya
+    Jas:
+      short: Yakobus
+    Jer:
+      short: Yeremia
+    Job:
+      short: Ayub
+    Joel:
+      long: Yo'el
+      short: Yo'el
+    John:
+      short: Yohanes
+    Jonah:
+      short: Yunus
+    Josh:
+      short: Yosua
+    Jude:
+      short: Yudas
+    Judg:
+      short: Hakim-Hakim
+    Lam:
+      short: Ratapan
+    Lev:
+      short: Imamat
+    Luke:
+      short: Lukas
+    Mal:
+      short: Maleakhi
+    Mark:
+      short: Markus
+    Matt:
+      short: Matius
+    Mic:
+      short: Mikha
+    Nah:
+      short: Nahum
+    Neh:
+      short: Nehemia
+    Num:
+      short: Bilangan
+    Obad:
+      short: Obaja
+    Phil:
+      short: Filipi
+    Phlm:
+      short: Filemon
+    Prov:
+      short: Amsal
+    Ps:
+      short: Mazmur
+    Rev:
+      short: Wahyu
+    Rom:
+      short: Roma
+    Song:
+      short: Kidung Agung
+    Titus:
+      short: Titus
+    Zech:
+      short: Zakharia
+    Zeph:
+      short: Zefanya
+  keas:
+    1Cor:
+      long: 1 Korinthus
+    1John:
+      long: 1 Yahya
+    1Thess:
+      long: 1 Thessalonika
+    1Tim:
+      long: 1 Timothius
+    2Cor:
+      long: 2 Korinthus
+    2John:
+      long: 2 Yahya
+    2Thess:
+      long: 2 Thessalonika
+    2Tim:
+      long: 2 Timothius
+    3John:
+      long: 3 Yahya
+    Acts:
+      long: Kesah sagal Rasul
+    Col:
+      long: Kolossi
+    Jas:
+      long: Yakob
+    John:
+      long: Injil Yahya
+    Jude:
+      long: Yahuda
+    Luke:
+      long: Injil Lukas
+    Mark:
+      long: Injil Markus
+    Matt:
+      long: Injil Mathius
+    Phil:
+      long: Filippi
+    Phlm:
+      long: Philemon
+    Rev:
+      long: Wahi
+    Rom:
+      long: Rom

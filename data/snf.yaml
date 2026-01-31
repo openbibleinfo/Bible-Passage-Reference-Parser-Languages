@@ -1,0 +1,132 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Ínohlukoh
+      - Ínoh
+  - osis: Matt
+    texts:
+      - Mëccëe
+      - Mëc
+  - osis: Mark
+    texts:
+      - Marka
+      - Mrk
+  - osis: Luke
+    texts:
+      - Lúkkaa
+      - Lúk
+  - osis: 1John
+    texts:
+      - 1Saŋ
+  - osis: 2John
+    texts:
+      - 2Saŋ
+  - osis: 3John
+    texts:
+      - 3 Saŋ
+      - 3Saŋ
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Saŋ
+  - osis: Acts
+    texts:
+      - Tumeen
+      - Tum
+  - osis: Rom
+    texts:
+      - Room
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korenti
+  - osis: 1Cor
+    texts:
+      - 1Kor
+  - osis: 2Cor
+    texts:
+      - 2Kor
+  - osis: Col
+    texts:
+      - Koloos
+      - Kol
+  - osis: Gal
+    texts:
+      - Galaat
+      - Gal
+  - osis: Eph
+    texts:
+      - Efees
+  - osis: Phil
+    texts:
+      - Filiip
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaloník
+  - osis: 1Thess
+    texts:
+      - 1Tes
+  - osis: 2Thess
+    texts:
+      - 2Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tímotée
+  - osis: 1Tim
+    texts:
+      - 1Tím
+  - osis: 2Tim
+    texts:
+      - 2Tím
+  - osis: Titus
+    texts:
+      - Tít
+  - osis: Phlm
+    texts:
+      - Fílemoŋ
+      - Fíl
+  - osis: Heb
+    texts:
+      - Yaawúuꞌcaa
+      - Yaaw
+  - osis: Jas
+    texts:
+      - Saak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peeꞌ
+  - osis: 1Pet
+    texts:
+      - 1Pe
+  - osis: 2Pet
+    texts:
+      - 2Pe
+  - osis: Jude
+    texts:
+      - Yúut
+translations:
+  - SNFDBL

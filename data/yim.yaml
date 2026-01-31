@@ -1,0 +1,269 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Thrüntan
+      - Thrün
+  - osis: Exod
+    texts:
+      - Abekhit
+      - Abe
+  - osis: Lev
+    texts:
+      - Levi
+      - Lev
+  - osis: Num
+    texts:
+      - Wühkhe
+      - Wüh
+  - osis: Lam
+    texts:
+      - Tüzhokhi
+      - Tüz
+  - osis: Rev
+    texts:
+      - Amikheakakhiukkhi
+      - Ami
+  - osis: Deut
+    texts:
+      - Yuzüngthalo
+      - Yuzüng
+  - osis: Josh
+    texts:
+      - Jihusua
+      - Jihu
+  - osis: Judg
+    texts:
+      - Mahkhaprü
+      - Mah
+  - osis: Ruth
+    texts:
+      - Ruth
+      - Rut
+  - osis: Isa
+    texts:
+      - Isaia
+      - Isa
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Kiulong Thsürü
+      - Kiu
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Kiuthsüyukhean
+      - Kiuthsü
+  - osis: Ezra
+    texts:
+      - Ezra
+      - Ezr
+  - osis: Neh
+    texts:
+      - Nehemia
+      - Neh
+  - osis: Esth
+    texts:
+      - Ester
+      - Est
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Mungshikhün
+      - M.Khün
+  - osis: Prov
+    texts:
+      - Müchitmudu
+      - Müch
+  - osis: Eccl
+    texts:
+      - T H S An Gyu T H S An Gr Arü
+      - Ths
+  - osis: Song
+    texts:
+      - Khünbolungkhün
+      - Khün
+  - osis: Jer
+    texts:
+      - Jeremia
+      - Jer
+  - osis: Ezek
+    texts:
+      - Ezekiel
+      - Ezk
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan
+  - osis: Hos
+    texts:
+      - Hosea
+      - Hos
+  - osis: Joel
+    texts:
+      - Joel
+      - Jol
+  - osis: Amos
+    texts:
+      - Amos
+      - Amo
+  - osis: Obad
+    texts:
+      - Obadia
+      - Oba
+  - osis: Jonah
+    texts:
+      - Jona
+      - Jon
+  - osis: Mic
+    texts:
+      - Mika
+      - MiK
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nam
+  - osis: Hab
+    texts:
+      - Habakkuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Zephania
+      - Zep
+  - osis: Hag
+    texts:
+      - Haggai
+      - Hag
+  - osis: Zech
+    texts:
+      - Zekaria
+      - Zek
+  - osis: Mal
+    texts:
+      - Malaki
+      - Mal
+  - osis: Matt
+    texts:
+      - Mathi
+      - Mt
+  - osis: Mark
+    texts:
+      - Mark
+      - Mk
+  - osis: Luke
+    texts:
+      - Luk
+      - Lk
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Johan
+      - Jn
+  - osis: John
+    texts:
+      - Johan
+      - Jhn
+  - osis: Acts
+    texts:
+      - Yunirübo Rhimo
+      - Yunir
+  - osis: Rom
+    texts:
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korint
+      - Kor
+  - osis: Col
+    texts:
+      - Kolosi
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatia
+      - Gal
+  - osis: Eph
+    texts:
+      - Efisia
+      - Efi
+  - osis: Phil
+    texts:
+      - Filipi
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonika
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothi
+      - Tim
+  - osis: Titus
+    texts:
+      - Tita
+      - Tit
+  - osis: Phlm
+    texts:
+      - Philemon
+      - Phi
+  - osis: Heb
+    texts:
+      - Ibri
+      - Ibr
+  - osis: Jas
+    texts:
+      - Jakob
+      - Ja
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peter
+      - Pet
+  - osis: Jude
+    texts:
+      - Jud
+translations:
+  - YIMCBSI

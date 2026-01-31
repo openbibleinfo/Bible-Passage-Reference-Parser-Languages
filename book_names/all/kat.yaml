@@ -1,0 +1,463 @@
+- osis: Gen
+  texts:
+    - Genesis
+    - დაბ.
+    - დაბ
+- osis: Exod
+  texts:
+    - Exodus
+    - გამ.
+    - გამ
+- osis: Lev
+  texts:
+    - Leviticus
+    - ლევ.
+    - ლევ
+- osis: Num
+  texts:
+    - Numbers
+    - რიცხ.
+    - რცხ
+- osis: Sir
+  texts:
+    - სიბრძნე ზირაქისა წინათქმა
+    - Ecclesiasticus
+    - Sirach
+    - ზრქ
+- osis: Wis
+  texts:
+    - სიბრძნე სოლომონისა
+    - Wisdom of Solomon
+    - სლმ
+- osis: Lam
+  texts:
+    - Lamentations
+    - გოდ.
+    - გოდ
+- osis: EpJer
+  texts:
+    - Letter of Jeremiah
+    - ეპისტოლე იერემიასი
+    - ეპერ
+- osis: Rev
+  texts:
+    - Revelation
+    - გამოცხ.
+    - გცხ
+- osis: PrMan
+  texts:
+    - იუდაელი მეფის მენაშეს ლოცვა
+    - Prayer of Manasseh
+    - მან
+- osis: Deut
+  texts:
+    - Deuteronomy
+    - რჯლ.
+    - რჯ
+- osis: Josh
+  texts:
+    - Joshua
+    - იესო.
+    - ისნ
+- osis: Judg
+  texts:
+    - Judges
+    - მსაჯ.
+    - მსჯ
+- osis: Ruth
+  texts:
+    - Ruth
+    - რუთ.
+    - რთ
+- osis: 1Esd
+  texts:
+    - 1 Esdras
+    - 1. Esdras
+- osis: 1Esd
+  texts:
+    - მეორე ეზრა
+    - 2ეზ
+- osis: Isa
+  texts:
+    - Isaiah
+    - ეს.
+    - ესა
+- osis: 1Sam
+  texts:
+    - 1 Samuel
+    - 1. Samuel
+- osis: 2Sam
+  texts:
+    - 2 Samuel
+    - 2. Samuel
+- osis: 1Sam
+  texts:
+    - 1მეფ.
+    - 1მფ
+- osis: 2Sam
+  texts:
+    - 2მეფ.
+    - 2მფ
+- osis: 1Kgs
+  texts:
+    - 1 Kings
+    - 1. Kings
+- osis: 2Kgs
+  texts:
+    - 2 Kings
+    - 2. Kings
+- osis: 1Kgs
+  texts:
+    - 3მეფ.
+    - 3მფ
+- osis: 2Kgs
+  texts:
+    - 4მეფ.
+    - 4მფ
+- osis: 1Chr
+  texts:
+    - 1 Chronicles
+    - 1. Chronicles
+- osis: 2Chr
+  texts:
+    - 2 Chronicles
+    - 2. Chronicles
+- osis: 1Chr
+  texts:
+    - 1ნეშტ.
+    - 1ნშ
+- osis: 2Chr
+  texts:
+    - 2ნეშტ.
+    - 2ნშ
+- osis: Ezra
+  texts:
+    - Ezra
+    - ეზრ.
+    - ეზრ
+- osis: Neh
+  texts:
+    - Nehemiah
+    - ნეემ.
+    - ნეე
+- osis: Esth
+  texts:
+    - Esther (Hebrew)
+    - Esther
+    - ესთ.
+    - ესთ
+- osis: Job
+  texts:
+    - იობ.
+    - Job
+    - იობ
+- osis: Ps
+  texts:
+    - Psalms
+    - ფსალმ.
+    - ფს
+- osis: Prov
+  texts:
+    - Proverbs
+    - იგავ.
+    - იგვ
+- osis: Eccl
+  texts:
+    - Ecclesiastes
+    - ეკლ.
+    - ეკლ
+- osis: Song
+  texts:
+    - Song of Songs
+    - ქებ.
+    - ქბ
+- osis: Jer
+  texts:
+    - Jeremiah
+    - იერ.
+    - იერ
+- osis: Ezek
+  texts:
+    - Ezekiel
+    - ეზეკ.
+    - ეზკ
+- osis: Dan
+  texts:
+    - Daniel (Hebrew)
+    - დან.
+    - დან
+- osis: Hos
+  texts:
+    - Hosea
+    - ოს.
+    - ოს
+- osis: Joel
+  texts:
+    - იოელ.
+    - Joel
+    - იოლ
+- osis: Amos
+  texts:
+    - ამოს.
+    - Amos
+    - ამო
+- osis: Obad
+  texts:
+    - Obadiah
+    - აბდ.
+    - აბდ
+- osis: Jonah
+  texts:
+    - Jonah
+    - იონ.
+    - იონ
+- osis: Mic
+  texts:
+    - Micah
+    - მიქ.
+    - მიქ
+- osis: Nah
+  texts:
+    - Nahum
+    - ნაუმ.
+    - ნამ
+- osis: Hab
+  texts:
+    - Habakkuk
+    - აბაკ.
+    - აბკ
+- osis: Zeph
+  texts:
+    - Zephaniah
+    - სოფ.
+    - სოფ
+- osis: Hag
+  texts:
+    - Haggai
+    - ანგ.
+    - ანგ
+- osis: Zech
+  texts:
+    - Zechariah
+    - ზაქ.
+    - ზაქ
+- osis: Mal
+  texts:
+    - Malachi
+    - მალ.
+    - მალ
+- osis: Matt
+  texts:
+    - Matthew
+    - მათ.
+    - მთ
+- osis: Mark
+  texts:
+    - მარკ.
+    - Mark
+    - მრკ
+- osis: Luke
+  texts:
+    - Luke
+    - ლუკ.
+    - ლკ
+- osis: 1John
+  texts:
+    - 1 John
+    - 1. John
+- osis: 2John
+  texts:
+    - 2 John
+    - 2. John
+- osis: 3John
+  texts:
+    - 3 John
+    - 3. John
+- osis: 1John
+  texts:
+    - 1იოან.
+    - 1იო
+- osis: 2John
+  texts:
+    - 2იოან.
+    - 2იო
+- osis: 3John
+  texts:
+    - 3იოან.
+    - 3იო
+- osis: John
+  texts:
+    - იოან.
+    - John
+    - იო
+- osis: Acts
+  texts:
+    - საქმე.
+    - Acts
+    - საქ
+- osis: Rom
+  texts:
+    - Romans
+    - რომ.
+    - რომ
+- osis: 1Cor
+  texts:
+    - 1 Corinthians
+    - 1. Corinthians
+- osis: 2Cor
+  texts:
+    - 2 Corinthians
+    - 2. Corinthians
+- osis: 1Cor
+  texts:
+    - 1კორ.
+    - 1კო
+- osis: 2Cor
+  texts:
+    - 2კორ.
+    - 2კო
+- osis: Col
+  texts:
+    - Colossians
+    - კოლ.
+    - კლს
+- osis: Gal
+  texts:
+    - Galatians
+    - გალ.
+    - გლტ
+- osis: Eph
+  texts:
+    - Ephesians
+    - ეფეს.
+    - ეფს
+- osis: Phil
+  texts:
+    - Philippians
+    - ფილიპ.
+    - ფლპ
+- osis: 1Thess
+  texts:
+    - 1 Thessalonians
+    - 1. Thessalonians
+- osis: 2Thess
+  texts:
+    - 2 Thessalonians
+    - 2. Thessalonians
+- osis: 1Thess
+  texts:
+    - 1თეს.
+    - 1თს
+- osis: 2Thess
+  texts:
+    - 2თეს.
+    - 2თს
+- osis: 1Tim
+  texts:
+    - 1 Timothy
+    - 1. Timothy
+- osis: 2Tim
+  texts:
+    - 2 Timothy
+    - 2. Timothy
+- osis: 1Tim
+  texts:
+    - 1ტიმ.
+    - 1ტმ
+- osis: 2Tim
+  texts:
+    - 2ტიმ.
+    - 2ტმ
+- osis: Titus
+  texts:
+    - Titus
+    - ტიტ.
+    - ტიტ
+- osis: Phlm
+  texts:
+    - Philemon
+    - ფილ.
+    - ფლმ
+- osis: Heb
+  texts:
+    - Hebrews
+    - ებრ.
+    - ებრ
+- osis: Jas
+  texts:
+    - James
+    - იაკ.
+    - იაკ
+- osis: 1Pet
+  texts:
+    - 1 Peter
+    - 1. Peter
+- osis: 2Pet
+  texts:
+    - 2 Peter
+    - 2. Peter
+- osis: 1Pet
+  texts:
+    - 1პეტრ.
+    - 1პტ
+- osis: 2Pet
+  texts:
+    - 2პეტრ.
+    - 2პტ
+- osis: Jude
+  texts:
+    - Jude
+    - იუდ.
+    - იუდ
+- osis: Tob
+  texts:
+    - ტობითი
+    - Tobit
+    - ტობ.
+    - ტობ
+- osis: Jdt
+  texts:
+    - Judith
+    - ივდითი
+    - ივდ
+- osis: Bar
+  texts:
+    - ბარუქ წინასწარმეტყველი
+    - Baruch
+    - ბრქ
+- osis: 1Macc
+  texts:
+    - 1 Maccabees
+    - 1. Maccabees
+- osis: 2Macc
+  texts:
+    - 2 Maccabees
+    - 2. Maccabees
+- osis: 3Macc
+  texts:
+    - 3 Maccabees
+    - 3. Maccabees
+- osis: 1Macc
+  texts:
+    - პირველი მაკაბელთა
+    - 1მაკ.
+    - 1მკ
+- osis: 2Macc
+  texts:
+    - მეორე მაკაბელთა
+    - 2მაკ.
+    - 2მკ
+- osis: 3Macc
+  texts:
+    - მესამე მაკაბელთა
+    - 3მაკ.
+    - 3მკ
+- osis: DanGr
+  texts:
+    - დანიელ წინასწარმეტყველი
+    - Daniel Greek
+    - დბდ
+- osis: Ps151
+  texts:
+    - 151-ე ფსალმუნი
+    - Psalm 151

@@ -1,0 +1,135 @@
+variables:
+  first: &first
+    - "1"
+    - ١
+  second: &second
+    - "2"
+    - ٢
+books:
+  - osis: Rev
+    texts:
+      - Ru’ya
+      - رؤيا
+  - osis: Matt
+    texts:
+      - مَتَّى
+      - Matta
+  - osis: Mark
+    texts:
+      - Ingīl Marqus
+      - مَرْقُس
+      - Markus
+      - Marqus
+      - Mark
+  - osis: Luke
+    texts:
+      - لُوقَا
+      - Luuga
+  - osis: 3John
+    texts:
+      - ٣ يُوحَنَّا
+      - 3 Yuuḥanna
+      - 3 Yuuḥ
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - يُوحَنَّا
+      - Yuuḥanna
+      - Yuuḥ
+  - osis: Acts
+    texts:
+      - أعمال الرُّسُل
+      - Avmaal
+      - Avm
+  - osis: Rom
+    texts:
+      - رُومِيَه
+      - Ruumiya
+      - Ruum
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - كُورِنْثُوس
+      - Kuurintuus
+      - Kuur
+  - osis: Col
+    texts:
+      - كُولُوسِّي
+      - Kuuluussi
+      - Kuul
+  - osis: Gal
+    texts:
+      - Ghalaaṭiyya
+      - غَلَاطِيَّه
+      - Ghal
+  - osis: Eph
+    texts:
+      - Afasus
+      - أفَسُس
+      - Afas
+  - osis: Phil
+    texts:
+      - Fiilibbi
+      - فيلِبّي
+      - Fiilib
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - تَسَالُونِيكِي
+      - Tasaluniiki
+      - Tas
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - تِيمُوثَاوُس
+      - Timutaawus
+      - Tim
+  - osis: Titus
+    texts:
+      - Tiiṭus
+      - تِيطُس
+      - Tiiṭ
+  - osis: Phlm
+    texts:
+      - فِلِيمُون
+      - Filimuun
+      - Filiim
+  - osis: Heb
+    texts:
+      - Vibraaniyyiin
+      - عِبرانيين
+      - Vib
+  - osis: Jas
+    texts:
+      - يَعْقُوب
+      - Yavkuub
+      - Yav
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - بُطْرُس
+      - Buṭrus
+      - Buṭ
+  - osis: Jude
+    texts:
+      - يَهُوذَا
+      - Yahuuza
+      - Yah
+translations:
+  - APD2024

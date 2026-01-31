@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - Kameka
+  second: &second
+    - Karua
+  third: &third
+    - Kapisa
+books:
+  - osis: Rev
+    texts:
+      - Revaleson
+  - osis: Matt
+    texts:
+      - Matiu
+  - osis: Mark
+    texts:
+      - Maka
+  - osis: Luke
+    texts:
+      - Luka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jon
+  - osis: Acts
+    texts:
+      - Zazu Ria Apostoloro
+  - osis: Rom
+    texts:
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinti
+  - osis: Col
+    texts:
+      - Kolosia
+  - osis: Gal
+    texts:
+      - Qalesia
+  - osis: Eph
+    texts:
+      - Epesus
+  - osis: Phil
+    texts:
+      - Pilipae
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonika
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: Titus
+    texts:
+      - Taetusi
+  - osis: Phlm
+    texts:
+      - Pilimon
+  - osis: Heb
+    texts:
+      - Iburu
+  - osis: Jas
+    texts:
+      - Jemisi
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+  - osis: Jude
+    texts:
+      - Judi
+translations:
+  - VRSNT

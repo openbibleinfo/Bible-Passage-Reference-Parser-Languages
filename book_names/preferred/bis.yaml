@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Kronikel
+    short: 1 Kron
+  1Cor:
+    long: 1 Korin
+    short: 1 Kor
+  1John:
+    long: 1 Jon
+    short: 1 Jon
+  1Kgs:
+    long: 1 King
+    short: 1 King
+  1Pet:
+    long: 1 Pita
+    short: 1 Pita
+  1Sam:
+    long: 1 Samuel
+    short: 1 Saml
+  1Thess:
+    long: 1 Tesalonaeka
+    short: 1 Tes
+  1Tim:
+    long: 1 Timoti
+    short: 1 Tim
+  2Chr:
+    long: 2 Kronikel
+    short: 2 Kron
+  2Cor:
+    long: 2 Korin
+    short: 2 Kor
+  2John:
+    long: 2 Jon
+    short: 2 Jon
+  2Kgs:
+    long: 2 King
+    short: 2 King
+  2Pet:
+    long: 2 Pita
+    short: 2 Pita
+  2Sam:
+    long: 2 Samuel
+    short: 2 Saml
+  2Thess:
+    long: 2 Tesalonaeka
+    short: 2 Tes
+  2Tim:
+    long: 2 Timoti
+    short: 2 Tim
+  3John:
+    long: 3 Jon
+    short: 3 Jon
+  Acts:
+    long: Wok
+    short: Wok
+  Amos:
+    long: Amos
+    short: Amos
+  Col:
+    long: Kolosi
+    short: Kol
+  Dan:
+    long: Daniel
+    short: Dan
+  Deut:
+    long: Dutronome
+    short: Dut
+  Eccl:
+    long: Prija
+    short: Pri
+  Eph:
+    long: Efesas
+    short: Efes
+  Esth:
+    long: Esta
+    short: Esta
+  Exod:
+    long: Eksodas
+    short: Eks
+  Ezek:
+    long: Esikel
+    short: Esik
+  Ezra:
+    long: Esra
+    short: Esra
+  Gal:
+    long: Galesia
+    short: Gal
+  Gen:
+    long: Jenesis
+    short: Jen
+  Hab:
+    long: Habakuk
+    short: Hab
+  Hag:
+    long: Hagae
+    short: Hag
+  Heb:
+    long: Hibrus
+    short: Hib
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Aesea
+    short: Aes
+  Jas:
+    long: Jemes
+    short: Jem
+  Jer:
+    long: Jeremaea
+    short: Jer
+  Job:
+    long: Job
+    short: Job
+  Joel:
+    long: Joel
+    short: Joel
+  John:
+    long: Jon
+    short: Jon
+  Jonah:
+    long: Jona
+    short: Jona
+  Josh:
+    long: Josua
+    short: Jos
+  Jude:
+    long: Jud
+    short: Jud
+  Judg:
+    long: Jajes
+    short: Jaj
+  Lam:
+    long: Ol Krae
+    short: Krae
+  Lev:
+    long: Levitikas
+    short: Lev
+  Luke:
+    long: Luk
+    short: Luk
+  Mal:
+    long: Malakae
+    short: Mal
+  Mark:
+    long: Mak
+    short: Mak
+  Matt:
+    long: Matiu
+    short: Mat
+  Mic:
+    long: Maeka
+    short: Maeka
+  Nah:
+    long: Neham
+    short: Neham
+  Neh:
+    long: Nehemaea
+    short: Neh
+  Num:
+    long: Namba
+    short: Nam
+  Obad:
+    long: Obadaea
+    short: Obad
+  Phil:
+    long: Filipae
+    short: Fil
+  Phlm:
+    long: Filimon
+    short: Flm
+  Prov:
+    long: Ol Proveb
+    short: Prov
+  Ps:
+    long: Sam
+    short: Sam
+  Rev:
+    long: Revelesen
+    short: Rev
+  Rom:
+    long: Rom
+    short: Rom
+  Ruth:
+    long: Rut
+    short: Rut
+  Song:
+    long: Sing Blong Solomon
+    short: Sing
+  Titus:
+    long: Taetas
+    short: Taet
+  Zech:
+    long: Sekaraea
+    short: Sek
+  Zeph:
+    long: Sefanaea
+    short: Sef

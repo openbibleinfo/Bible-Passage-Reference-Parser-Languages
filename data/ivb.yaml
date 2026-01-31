@@ -1,0 +1,147 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Genesis
+      - Gen.
+  - osis: Rev
+    texts:
+      - Paltiing
+      - Pal.
+  - osis: Ruth
+    texts:
+      - Rot.
+      - Roth
+  - osis: Esth
+    texts:
+      - Ester
+      - Est.
+  - osis: Amos
+    texts:
+      - Amo.
+      - Amos
+  - osis: Obad
+    texts:
+      - Obadyas
+      - Oba.
+  - osis: Jonah
+    texts:
+      - Jonas
+      - Jon.
+  - osis: Mic
+    texts:
+      - Mikyas
+      - Mik.
+  - osis: Hag
+    texts:
+      - Haggeo
+      - Hag.
+  - osis: Zech
+    texts:
+      - Sakaryas
+      - Sak.
+  - osis: Matt
+    texts:
+      - Matchew
+      - Mt.
+  - osis: Mark
+    texts:
+      - Markos
+      - Mk.
+  - osis: Luke
+    texts:
+      - Lokas
+      - Lk.
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Juan
+      - Jn.
+  - osis: Acts
+    texts:
+      - Aramid
+      - Ara.
+  - osis: Rom
+    texts:
+      - Roma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinto
+      - Kor.
+  - osis: Col
+    texts:
+      - Kolosas
+      - Kol.
+  - osis: Gal
+    texts:
+      - Galasya
+      - Gal.
+  - osis: Eph
+    texts:
+      - Epeso
+      - Epe.
+  - osis: Phil
+    texts:
+      - Pilipos
+      - Pilp.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonika
+      - Tes.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+      - Tim.
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Pilemon
+      - Plm.
+  - osis: Heb
+    texts:
+      - Hebreo
+      - Heb.
+  - osis: Jas
+    texts:
+      - Santiago
+      - Sant.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pedro
+      - Ped.
+  - osis: Jude
+    texts:
+      - Jodas
+      - Jod.
+translations:
+  - IVB

@@ -1,0 +1,137 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Iba
+  - osis: Matt
+    texts:
+      - iMatiu
+      - iMat
+  - osis: Mark
+    texts:
+      - iMaki
+      - iMak
+  - osis: Luke
+    texts:
+      - iLuku
+      - iLuk
+  - osis: 1John
+    texts:
+      - 1iJɔn
+  - osis: 2John
+    texts:
+      - 2iJɔn
+  - osis: 3John
+    texts:
+      - 3 iJɔn
+      - 3iJɔn
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - iJɔn
+  - osis: Acts
+    texts:
+      - Okyɔɔkyɔ
+      - Okyɔ
+  - osis: Rom
+    texts:
+      - Emi iRoma
+      - EiRo
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Emi iKorinti
+  - osis: 1Cor
+    texts:
+      - 1iKor
+  - osis: 2Cor
+    texts:
+      - 2iKor
+  - osis: Col
+    texts:
+      - Emi iKolose
+      - EiKo
+  - osis: Gal
+    texts:
+      - Emi iGalatia
+      - iGal
+  - osis: Eph
+    texts:
+      - Emi Efesu
+      - Efe
+  - osis: Phil
+    texts:
+      - Emi iFyilipi
+      - EiFy
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Emi iTesalonika
+  - osis: 1Thess
+    texts:
+      - 1EiTe
+  - osis: 2Thess
+    texts:
+      - 2EiTe
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Itimoti
+  - osis: 1Tim
+    texts:
+      - 1iTim
+  - osis: 2Tim
+    texts:
+      - 2iTim
+  - osis: Titus
+    texts:
+      - iTaitusu
+      - iTai
+  - osis: Phlm
+    texts:
+      - iFyilimɔn
+      - iFyi
+  - osis: Heb
+    texts:
+      - Emi iHibru
+      - EiHi
+  - osis: Jas
+    texts:
+      - iJɛnsi
+      - iJɛn
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - iPyita
+  - osis: 1Pet
+    texts:
+      - 1iPit
+  - osis: 2Pet
+    texts:
+      - 2iPit
+  - osis: Jude
+    texts:
+      - iJudu
+      - iJud
+translations:
+  - UTR

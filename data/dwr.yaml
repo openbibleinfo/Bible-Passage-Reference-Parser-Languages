@@ -1,0 +1,515 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Doometsaa
+      - Dom.
+      - ዶመ
+  - osis: Exod
+    texts:
+      - Kessaa
+      - Kes.
+      - ከሳ
+  - osis: Lev
+    texts:
+      - Wogaa
+      - Wog.
+      - ዎጋ
+  - osis: Num
+    texts:
+      - Payduwaa
+      - Pay.
+      - ፓይዱዋ
+      - ፓይ.
+  - osis: Lam
+    texts:
+      - Ermaasa Seelaa
+      - ኤርማሳ ሴላ
+      - Sel.
+      - ሴላ
+  - osis: Rev
+    texts:
+      - Yohaannisa Sas'aa
+      - Revelation
+      - ዮሃንሳ ሳፃ
+      - ሳፃ ማፃፋ
+      - Sas'.
+      - Saxaa
+      - Sax
+      - ሳፃ
+      - ሳፅ
+  - osis: Deut
+    texts:
+      - Zaaretsuwaa
+      - Zar.
+      - ዛረዋ
+      - ዛረ.
+  - osis: Josh
+    texts:
+      - Iyyaasa
+      - Iya.
+      - ኢያሳ
+  - osis: Judg
+    texts:
+      - Daannatuwaa
+      - Dat.
+      - ዳናቱዋ
+      - ዳና.
+  - osis: Ruth
+    texts:
+      - Uruuto
+      - Uru.
+      - ኡሩቶ
+  - osis: Isa
+    texts:
+      - Isiyaasa
+      - Isa.
+      - ኢስያሳ
+      - ኢሳ.
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Sammeela
+      - Sam.
+      - ሳሜላ
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Kaatatuwaa
+      - Kat.
+      - ካታቱዋ
+      - ካታ.
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Oduwaa
+      - Od.
+      - ኦዱዋ
+  - osis: Ezra
+    texts:
+      - Izira
+      - Izr.
+      - እዝራ
+  - osis: Neh
+    texts:
+      - Nahimiyaa
+      - Nah.
+      - ናህምያ
+      - ናህ.
+  - osis: Esth
+    texts:
+      - Asttiro
+      - Ast.
+      - አስትሮ
+      - አስ.
+  - osis: Job
+    texts:
+      - Iyyooba
+      - Yob.
+      - ኢዮባ
+  - osis: Ps
+    texts:
+      - Mazimuriyaa
+      - ማዝሙርያ
+      - Maz.
+      - ማዝ.
+  - osis: Prov
+    texts:
+      - Leemisuwaa
+      - Lem.
+      - ሌምሱዋ
+      - ሌም.
+  - osis: Eccl
+    texts:
+      - Eranchchaa
+      - Era.
+      - ኤራንቻ
+      - ኤራ.
+  - osis: Song
+    texts:
+      - Siik'uwaa Sabaa
+      - ሲቁዋ ሳባ
+      - Sik'.
+      - ስቁዋ
+  - osis: Jer
+    texts:
+      - Ermaasa
+      - Erm.
+      - ኤርማሳ
+      - ኤር.
+  - osis: Ezek
+    texts:
+      - Hizik'k'eela
+      - Hiz.
+      - ህዝቄላ
+      - ህዝ.
+  - osis: Dan
+    texts:
+      - Daaneela
+      - Dan.
+      - ዳኔላ
+  - osis: Hos
+    texts:
+      - Hoose
+      - Hos.
+      - ሆሰ
+  - osis: Joel
+    texts:
+      - Iyyu'eela
+      - Iyu.
+      - ኢዩኤላ
+      - ኢዩ.
+  - osis: Amos
+    texts:
+      - Amoos'a
+      - Amo.
+      - አሞጻ
+  - osis: Obad
+    texts:
+      - Abddiyyu
+      - Abd.
+      - አብድ.
+      - አብድዩ
+  - osis: Jonah
+    texts:
+      - Yoonaasa
+      - Yon.
+      - ዮናሳ
+  - osis: Mic
+    texts:
+      - Mikiyaasa
+      - Mik.
+      - ሚክያሳ
+      - ሚክ.
+  - osis: Nah
+    texts:
+      - Naahooma
+      - Nam.
+      - ናሆማ
+  - osis: Hab
+    texts:
+      - Imbbaak'ooma
+      - እምባቆማ
+      - Imb.
+      - እምባ.
+  - osis: Zeph
+    texts:
+      - Sofonaasa
+      - Sof.
+      - ሶፎናሳ
+      - ሶፎ.
+  - osis: Hag
+    texts:
+      - Haage
+      - Hag.
+      - ሃገ
+  - osis: Zech
+    texts:
+      - Zakkaraasa
+      - Zak.
+      - ዛካራሳ
+      - ዛካ.
+  - osis: Mal
+    texts:
+      - Milkkiyaasa
+      - ሚልክያሳ
+      - Mil.
+      - ሚልክ.
+  - osis: Matt
+    texts:
+      - Maatoossa Mishiraachchuwaa
+      - Maatoossa
+      - ማቶሳ ምሽራቹዋ
+      - Matthew
+      - Mat.
+      - Mat
+      - ማቶሳ
+      - ማት
+  - osis: Mark
+    texts:
+      - Mark'k'oossa Mishiraachchuwaa
+      - Marqqoossa
+      - ማርቆሳ ምሽራቹዋ
+      - Mar.
+      - Mark
+      - ማርቆሳ
+      - Mar
+      - ማር.
+      - ማር
+  - osis: Luke
+    texts:
+      - Luuk'aasa Mishiraachchuwaa
+      - ሉቃሳ ምሽራቹዋ
+      - Luuqaasa
+      - Luk'.
+      - Luke
+      - Luq
+      - ሉቃሳ
+      - ሉቅ
+  - osis: 1John
+    texts:
+      - 1Yoh
+      - 1ዮህ
+  - osis: 2John
+    texts:
+      - 2Yoh
+      - 2ዮህ
+  - osis: 3John
+    texts:
+      - 3 Yohaannisa Kiitaa
+      - 3 Yohaannisa
+      - 3 ዮሃኒሳ ኪታ
+      - 3 ዮሃንሳ ኪታ
+      - 3 John
+      - 3 Yoh.
+      - 3 ዮሃ.
+      - 3Yoh
+      - 3ዮህ
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yohaannisa Kiitaa
+      - Yohaannisa
+      - ዮሃኒሳ ኪታ
+      - ዮሃንሳ ኪታ
+      - John
+      - Yoh.
+      - ዮሃ.
+  - osis: John
+    texts:
+      - Yohaannisa Mishiraachchuwaa
+      - Yohaannisa
+      - ዮሃንሳ ምሽራቹዋ
+      - John
+      - Yoh.
+      - ዮሃኒሳ
+      - Yoh
+      - ዮሃ.
+      - ዮህ
+  - osis: Rom
+    texts:
+      - Romans
+      - Roome
+      - Rom.
+      - Rom
+      - ሮሚያ
+      - ሮመ
+      - ሮም
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - K'oronttoosa
+      - Corinthians
+      - Qoronttoosa
+      - K'or.
+      - ቆሮንቶሳ
+      - ቆሮ.
+  - osis: 1Cor
+    texts:
+      - 1Qor
+      - 1Qo
+      - 1ቆር
+  - osis: 2Cor
+    texts:
+      - 2Qor
+      - 2Qo
+      - 2ቆር
+  - osis: Col
+    texts:
+      - K'olaasiyaasa
+      - Qolaasiyaasa
+      - Colossians
+      - K'ol.
+      - ቆላሲያሳ
+      - ቆላስያሳ
+      - Qol
+      - ቆል.
+      - ቆል
+  - osis: Gal
+    texts:
+      - Galaatiyaa
+      - Galatians
+      - Gal.
+      - ጋላቲያ
+      - ጋላትያ
+      - Gal
+      - ጋላ.
+      - ጋል
+  - osis: Eph
+    texts:
+      - Ephesians
+      - Efesoona
+      - Efe.
+      - ኤፈሶና
+      - ኤፌሶና
+      - Efe
+      - ኤፈ.
+      - ኤፌ
+  - osis: Phil
+    texts:
+      - Pilip'p'isiyoosa
+      - Piliphphisiyoosa
+      - Philippians
+      - ፒሊጲሲዮሳ
+      - ፕልጵስዮሳ
+      - Pil.
+      - ፕልጵ.
+      - Pil
+      - ፒል
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Teselonqqiyaa
+      - Thessalonians
+      - Teselonk'k'e
+      - ተሰሎንቀ
+      - ቴሴሎንቃ
+      - Tes.
+      - ተስ.
+  - osis: 1Thess
+    texts:
+      - 1Tes
+      - 1Te
+      - 1ቴስ
+  - osis: 2Thess
+    texts:
+      - 2Tes
+      - 2Te
+      - 2ቴስ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - S'imootoosa
+      - Ximootoosa
+      - Timothy
+      - S'im.
+      - ጽሞቶሳ
+      - ፂሞቶሳ
+      - ጽሞ.
+  - osis: 1Tim
+    texts:
+      - 1Xim
+      - 1Xi
+      - 1ፂም
+  - osis: 2Tim
+    texts:
+      - 2Xim
+      - 2Xi
+      - 2ፂም
+  - osis: Titus
+    texts:
+      - Tiitoo
+      - Tiita
+      - Titus
+      - Tit.
+      - Tit
+      - ቲታ
+      - ቲት
+      - ቲቶ
+  - osis: Phlm
+    texts:
+      - Pilimoona
+      - Philemon
+      - Pilm.
+      - ፒሊሞና
+      - ፕልሞና
+      - Fim
+      - Pim
+      - ፕል.
+      - ፒም
+  - osis: Heb
+    texts:
+      - Hebrews
+      - Ibraawe
+      - Ibr.
+      - ኢብራዌ
+      - እብራ.
+      - እብራዌ
+      - Ibr
+      - ኢብር
+  - osis: Jas
+    texts:
+      - Yaak'ooba Kiitaa
+      - Yayiqooba
+      - ያዪቆባ ኪታ
+      - ያቆባ ኪታ
+      - James
+      - Yak'.
+      - Yay
+      - ያቆባ
+      - ያይ
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - P'es'iroosa Kiitaa
+      - Phexiroosa
+      - ጰጽሮሳ ኪታ
+      - ጴፂሮሳ ኪታ
+      - P'es'.
+      - Peter
+      - ጰጽ.
+  - osis: 1Pet
+    texts:
+      - 1Phx
+      - 1Ph
+      - 1ጵፅ
+  - osis: 2Pet
+    texts:
+      - 2Phx
+      - 2Ph
+      - 2ጵፅ
+  - osis: Jude
+    texts:
+      - Yihudaa Kiitaa
+      - Yihudaa
+      - ዪሁዳ ኪታ
+      - ይሁዳ ኪታ
+      - Jude
+      - Yih.
+      - Yid
+      - ይሁዳ
+      - ዪድ
+  - osis: Acts
+    texts:
+      - Kiitetteeddawanttu Oosuwaa
+      - ዬሱሲ ኪቴዳዋንቱ ኦሱዋ
+      - Kiitaa
+      - Acts
+      - Kit.
+      - Kit
+      - ኪታ
+      - ኪት
+translations:
+  - DWNT
+  - DFBLVL
+  - DWRENT
+  - DWRNT
+  - DFBE

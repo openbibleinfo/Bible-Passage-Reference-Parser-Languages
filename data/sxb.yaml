@@ -1,0 +1,146 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Owusasuko
+      - Owus
+  - osis: Matt
+    texts:
+      - Mathaayo
+      - Math
+  - osis: Mark
+    texts:
+      - Mariiko
+      - Mari
+  - osis: Luke
+    texts:
+      - Luuka
+      - Luuk
+  - osis: 1John
+    texts:
+      - 1Yow
+  - osis: 2John
+    texts:
+      - 2Yow
+  - osis: 3John
+    texts:
+      - 3 Yowaana
+      - 3Yow
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yowaana
+  - osis: John
+    texts:
+      - Yowaana
+      - Yowa
+  - osis: Acts
+    texts:
+      - Awatumwa
+      - Awat
+  - osis: Rom
+    texts:
+      - Awaruumi
+      - Awaru
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Awakorintho
+  - osis: 1Cor
+    texts:
+      - 1Kori
+  - osis: 2Cor
+    texts:
+      - 2Kori
+  - osis: Col
+    texts:
+      - Awacolosaai
+      - Kolo
+  - osis: Gal
+    texts:
+      - Awagalatia
+      - Gala
+  - osis: Eph
+    texts:
+      - Awaefeeso
+      - Efee
+  - osis: Phil
+    texts:
+      - Awafilipi
+      - Filiip
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Awathesaloniika
+  - osis: 1Thess
+    texts:
+      - 1Thes
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Awathesoloniika
+  - osis: 2Thess
+    texts:
+      - 2Thes
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Awatimtheeo
+  - osis: 1Tim
+    texts:
+      - 1Timo
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Awatimotheeo
+  - osis: 2Tim
+    texts:
+      - 2Timo
+  - osis: Titus
+    texts:
+      - Awatiito
+      - Tiit
+  - osis: Phlm
+    texts:
+      - Awafilemooni
+      - Filem
+  - osis: Heb
+    texts:
+      - Awaibrania
+      - Awaib
+  - osis: Jas
+    texts:
+      - Awayakoobo
+      - Yako
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petro
+  - osis: 1Pet
+    texts:
+      - 1Pet
+  - osis: 2Pet
+    texts:
+      - 2Pet
+  - osis: Jude
+    texts:
+      - Yuuda
+translations:
+  - SXB

@@ -1,0 +1,284 @@
+default:
+  1Chr:
+    long: یەکەم پوختەی مێژوو
+    short: یەکەم پوختەی مێژوو
+  1Cor:
+    long: یه‌كه‌م قۆرنتێ
+    short: 1قۆ
+  1John:
+    long: یه‌كه‌م یوخه‌ننه‌ن
+    short: 1یو
+  1Kgs:
+    long: یەکەم پاشایان
+    short: یەکەم پاشایان
+  1Pet:
+    long: یه‌كه‌م په‌تڕۆس
+    short: 1پت
+  1Sam:
+    long: یەکەم ساموئێل
+    short: یەکەم ساموئێل
+  1Thess:
+    long: یه‌كه‌م تسلۆنیقێ
+    short: 1تق
+  1Tim:
+    long: یه‌كه‌م تیماتیئوس
+    short: 1تم
+  2Chr:
+    long: دووەم پوختەی مێژوو
+    short: دووەم پوختەی مێژوو
+  2Cor:
+    long: دووه‌م قۆرنتێ
+    short: 2قۆ
+  2John:
+    long: دووه‌م یوخه‌ننه‌ن
+    short: 2یو
+  2Kgs:
+    long: دووەم پاشایان
+    short: دووەم پاشایان
+  2Pet:
+    long: دووه‌م په‌تڕۆس
+    short: 2پت
+  2Sam:
+    long: دووەم ساموئێل
+    short: دووەم ساموئێل
+  2Thess:
+    long: دووه‌م تسلۆنیقێ
+    short: 2تق
+  2Tim:
+    long: دووه‌م تیماتیئوس
+    short: 2تم
+  3John:
+    long: سێیه‌م یوخه‌ننه‌ن
+    short: 3یو
+  Acts:
+    long: كردار
+    short: كر
+  Amos:
+    long: ئامۆس
+    short: ئامۆس
+  Col:
+    long: قولسێ
+    short: قل
+  Dan:
+    long: دانیال
+    short: دانیال
+  Deut:
+    long: دواوتار
+    short: دواوتار
+  Eccl:
+    long: ژیرمەندی
+    short: ژیرمەندی
+  Eph:
+    long: ئه‌پیسۆس
+    short: ئپ
+  Esth:
+    long: ئەستێر
+    short: ئەستێر
+  Exod:
+    long: دەرچوون
+    short: دەرچوون
+  Ezek:
+    long: حزقیێل
+    short: حزقیێل
+  Ezra:
+    long: عەزرا
+    short: عەزرا
+  Gal:
+    long: گه‌ڵاتیه‌
+    short: گل
+  Gen:
+    long: پەیدابوون
+    short: پەیدابوون
+  Hab:
+    long: حەبەقوق
+    short: حەبەقوق
+  Hag:
+    long: حەگەی
+    short: حەگەی
+  Heb:
+    long: عیبرانییەکان
+    short: عب
+  Hos:
+    long: هۆشەع
+    short: هۆشەع
+  Isa:
+    long: ئیشایا
+    short: ئیشایا
+  Jas:
+    long: یاقوب
+    short: یاقوب
+  Jer:
+    long: یەرمیا
+    short: یەرمیا
+  Job:
+    long: ئەیوب
+    short: ئەیوب
+  Joel:
+    long: یۆئێل
+    short: یۆئێل
+  John:
+    long: یوخه‌ننه‌ن
+    short: یو
+  Jonah:
+    long: یونس
+    short: یونس
+  Josh:
+    long: یەشوع
+    short: یەشوع
+  Jude:
+    long: په‌یامی پارسا ئیهوودا
+    short: ئه
+  Judg:
+    long: ڕابەران
+    short: ڕابەران
+  Lam:
+    long: شینەکانی یەرمیا
+    short: شینەکانی یەرمیا
+  Lev:
+    long: لێڤییەکان
+    short: لێڤییەکان
+  Luke:
+    long: لۆقا
+    short: لۆ
+  Mal:
+    long: مەلاخی
+    short: مەلاخی
+  Mark:
+    long: مه‌رقوس
+    short: مر
+  Matt:
+    long: مه‌تته‌ی
+    short: مت
+  Mic:
+    long: میخا
+    short: میخا
+  Nah:
+    long: ناحوم
+    short: ناحوم
+  Neh:
+    long: نەحەمیا
+    short: نەحەمیا
+  Num:
+    long: سەرژمێری
+    short: سەرژمێری
+  Obad:
+    long: عۆبەدیا
+    short: عۆبەدیا
+  Phil:
+    long: فیلیپی
+    short: فیلیپی
+  Phlm:
+    long: فلیمۆن
+    short: فل
+  Prov:
+    long: پەندەکانی سلێمان
+    short: پەندەکان
+  Ps:
+    long: زەبوورەکان
+    short: زەبوورەکان
+  Rev:
+    long: ئاشکراکردن
+    short: ئاشکراکردن
+  Rom:
+    long: ڕۆما
+    short: ڕۆ
+  Ruth:
+    long: ڕائووس
+    short: ڕائووس
+  Song:
+    long: گۆرانی گۆرانییەکان
+    short: گۆرانی گۆرانییەکان
+  Titus:
+    long: تتوس
+    short: تت
+  Zech:
+    long: زەکەریا
+    short: زەکەریا
+  Zeph:
+    long: سەفەنیا
+    short: سەفەنیا
+translations:
+  kss:
+    1Cor:
+      long: یەکەم کۆرنسۆس
+      short: یەکەم کۆرنسۆس
+    1John:
+      long: یەکەم یۆحەنا
+      short: یەکەم یۆحەنا
+    1Pet:
+      long: یەکەم پەترۆس
+      short: یەکەم پەترۆس
+    1Thess:
+      long: یەکەم سالۆنیکی
+      short: یەکەم سالۆنیکی
+    1Tim:
+      long: یەکەم تیمۆساوس
+      short: یەکەم تیمۆساوس
+    2Cor:
+      long: دووەم کۆرنسۆس
+      short: دووەم کۆرنسۆس
+    2John:
+      long: دووەم یۆحەنا
+      short: دووەم یۆحەنا
+    2Pet:
+      long: دووەم پەترۆس
+      short: دووەم پەترۆس
+    2Thess:
+      long: دووەم سالۆنیکی
+      short: دووەم سالۆنیکی
+    2Tim:
+      long: دووەم تیمۆساوس
+      short: دووەم تیمۆساوس
+    3John:
+      long: سێیەم یۆحەنا
+      short: سێیەم یۆحەنا
+    Acts:
+      long: کردار
+      short: کردار
+    Col:
+      long: کۆلۆسی
+      short: کۆلۆسی
+    Eph:
+      long: ئەفەسۆس
+      short: ئەفەسۆس
+    Gal:
+      long: گەلاتیا
+      short: گەلاتیا
+    Heb:
+      short: عیبرانییەکان
+    John:
+      long: یۆحەنا
+      short: یۆحەنا
+    Jude:
+      long: یەهوزا
+      short: یەهوزا
+    Luke:
+      short: لۆقا
+    Mark:
+      long: مەرقۆس
+      short: مەرقۆس
+    Matt:
+      long: مەتا
+      short: مەتا
+    Phlm:
+      short: فلیمۆن
+    Rom:
+      short: ڕۆما
+    Titus:
+      long: تیتۆس
+      short: تیتۆس
+  sntap:
+    Heb:
+      long: عیبڕانییه‌كان
+    Jas:
+      long: یاقوو
+      short: یق
+    Phil:
+      long: پیلیۆس
+      short: پل
+    Ps:
+      long: په‌سنییه‌كان
+      short: پس
+    Rev:
+      long: بینین
+      short: بی

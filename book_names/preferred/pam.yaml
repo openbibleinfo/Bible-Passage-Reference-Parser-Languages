@@ -1,0 +1,235 @@
+default:
+  1Chr:
+    long: 1 Cronica
+    short: 1 Cro
+  1Cor:
+    long: 1 Corinto
+    short: 1 Cor
+  1John:
+    long: 1 Juan
+    short: 1 Jn
+  1Kgs:
+    long: 1 Ari
+    short: 1 Ari
+  1Macc:
+    long: 1 Macabeo
+    short: 1 Mac
+  1Pet:
+    long: 1 Pedro
+    short: 1 Ped
+  1Sam:
+    long: 1 Samuel
+    short: 1 Sam
+  1Thess:
+    long: 1 Tesalonica
+    short: 1 Tes
+  1Tim:
+    long: 1 Timoteo
+    short: 1 Tim
+  2Chr:
+    long: 2 Cronica
+    short: 2 Cro
+  2Cor:
+    long: 2 Corinto
+    short: 2 Cor
+  2John:
+    long: 2 Juan
+    short: 2 Jn
+  2Kgs:
+    long: 2 Ari
+    short: 2 Ari
+  2Macc:
+    long: 2 Macabeo
+    short: 2 Mac
+  2Pet:
+    long: 2 Pedro
+    short: 2 Ped
+  2Sam:
+    long: 2 Samuel
+    short: 2 Sam
+  2Thess:
+    long: 2 Tesalonica
+    short: 2 Tes
+  2Tim:
+    long: 2 Timoteo
+    short: 2 Tim
+  3John:
+    long: 3 Juan
+    short: 3 Jn
+  Acts:
+    long: Ding Dapat
+    short: Dapat
+  Amos:
+    long: Amos
+    short: Amos
+  Bar:
+    long: Baruk
+    short: Bar
+  Bel:
+    long: I Bel At Ing Dragon
+    short: Bel
+  Col:
+    long: Colosas
+    short: Col
+  Dan:
+    long: Daniel
+    short: Dan
+  Deut:
+    long: Deuteronomio
+    short: Deut
+  Eccl:
+    long: Ecclesiastes
+    short: Ecc
+  EpJer:
+    long: Ing Sulat Nang Jeremias
+    short: Sulat
+  Eph:
+    long: Efeso
+    short: Efe
+  Esth:
+    long: Ester
+    short: Est
+  EsthGr:
+    long: Esther Greek
+    short: EsG
+  Exod:
+    long: Exodo
+    short: Exo
+  Ezek:
+    long: Ezekiel
+    short: Eze
+  Ezra:
+    long: Ezra
+    short: Ezra
+  Gal:
+    long: Galacia
+    short: Gal
+  Gen:
+    long: Genesis
+    short: Gen
+  Hab:
+    long: Habakuk
+    short: Hab
+  Hag:
+    long: Hageo
+    short: Hag
+  Heb:
+    long: Hebreo
+    short: Heb
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Isaias
+    short: Isa
+  Jas:
+    long: Santiago
+    short: Santi
+  Jdt:
+    long: Judith
+    short: Jdt
+  Jer:
+    long: Jeremias
+    short: Jer
+  Job:
+    long: Job
+    short: Job
+  Joel:
+    long: Joel
+    short: Joel
+  John:
+    long: Juan
+    short: Jn
+  Jonah:
+    long: Jonas
+    short: Jonas
+  Josh:
+    long: Josue
+    short: Jos
+  Jude:
+    long: Judas
+    short: Jud
+  Judg:
+    long: Ukum
+    short: Ukum
+  Lam:
+    long: Ding Tagulele
+    short: Tag
+  Lev:
+    long: Levitico
+    short: Lev
+  Luke:
+    long: Lucas
+    short: Lc
+  Mal:
+    long: Malakias
+    short: Mal
+  Mark:
+    long: Marcos
+    short: Mc
+  Matt:
+    long: Mateo
+    short: Mt
+  Mic:
+    long: Mikeas
+    short: MiK
+  Nah:
+    long: Nahum
+    short: Nam
+  Neh:
+    long: Nehemias
+    short: Neh
+  Num:
+    long: Ding Bilang
+    short: Bilang
+  Obad:
+    long: Obadias
+    short: Oba
+  Phil:
+    long: Filipos
+    short: Fil
+  Phlm:
+    long: Filemon
+    short: File
+  PrAzar:
+    long: Ing Kanta Ding Atlung Kayanakan A Lalaki
+    short: Kanta
+  Prov:
+    long: Ding Kasebian
+    short: Kas
+  Ps:
+    long: Ding Dalit
+    short: Dalit
+  Rev:
+    long: Kapahayagan
+    short: Kap
+  Rom:
+    long: Roma
+    short: Roma
+  Ruth:
+    long: Ruth
+    short: Ruth
+  Sir:
+    long: Ecclessiasticu
+    short: Sir
+  Song:
+    long: Ing Malagung Diling Kanta
+    short: Malagung
+  Sus:
+    long: Susana
+    short: Sus
+  Titus:
+    long: Tito
+    short: Tito
+  Tob:
+    long: Tobit
+    short: Tob
+  Wis:
+    long: Ing Kabiasnan Nang Solomon
+    short: Kab
+  Zech:
+    long: Zacarias
+    short: Zac
+  Zeph:
+    long: Zepania
+    short: Zep

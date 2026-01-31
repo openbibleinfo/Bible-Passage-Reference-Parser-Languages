@@ -1,0 +1,414 @@
+default:
+  1Chr:
+    long: 1 Berɛsosɛm
+    short: 1 Be
+  1Cor:
+    long: 1 Korintofo
+    short: 1 Ko
+  1John:
+    long: 1 Yohane
+    short: 1 Yoh
+  1Kgs:
+    long: 1 Ahemfo
+    short: 1 Ah
+  1Macc:
+    long: 1 Makabe
+    short: 1 Mak
+  1Pet:
+    long: 1 Petro
+    short: 1 Pe
+  1Sam:
+    long: 1 Samuel
+    short: 1 Sa
+  1Thess:
+    long: 1 Tesalonikafo
+    short: 1 Te
+  1Tim:
+    long: 1 Timoteo
+    short: 1 Ti
+  2Chr:
+    long: 2 Berɛsosɛm
+    short: 2 Be
+  2Cor:
+    long: 2 Korintofo
+    short: 2 Ko
+  2John:
+    long: 2 Yohane
+    short: 2 Yoh
+  2Kgs:
+    long: 2 Ahemfo
+    short: 2 Ah
+  2Macc:
+    long: 2 Makabe
+    short: 2 Mak
+  2Pet:
+    long: 2 Petro
+    short: 2 Pe
+  2Sam:
+    long: 2 Samuel
+    short: 2 Sa
+  2Thess:
+    long: 2 Tesalonikafo
+    short: 2 Te
+  2Tim:
+    long: 2 Timoteo
+    short: 2 Ti
+  3John:
+    long: 3 Yohane
+    short: 3 Yoh
+  Acts:
+    long: Asomafo
+    short: Aso
+  Amos:
+    long: Amos
+    short: Amos
+  Bar:
+    long: Baruk
+    short: Bar
+  Col:
+    long: Kolosefo
+    short: Kol
+  Dan:
+    long: Daniel
+    short: Dan
+  DanGr:
+    long: Daniel He
+    short: Dan He
+  Deut:
+    long: Deuteronomium
+    short: Deut
+  Eccl:
+    long: Ɔsɛnkafo
+    short: Ɔsɛ
+  Eph:
+    long: Efesofo
+    short: Efe
+  Esth:
+    long: Ester
+    short: Est
+  EsthGr:
+    long: Ester He
+    short: Est He
+  Exod:
+    long: Eksodɔs
+    short: Eks
+  Ezek:
+    long: Hesekiel
+    short: Hes
+  Ezra:
+    long: Esra
+    short: Esra
+  Gal:
+    long: Galatifo
+    short: Gal
+  Gen:
+    long: Gyenesis
+    short: Gye
+  Hab:
+    long: Habakuk
+    short: Hab
+  Hag:
+    long: Hagai
+    short: Hag
+  Heb:
+    long: Hebrifo
+    short: Heb
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Yesaia
+    short: Yes
+  Jas:
+    long: Yakobo
+    short: Yak
+  Jdt:
+    long: Yudit
+    short: Yud
+  Jer:
+    long: Yeremia
+    short: Yer
+  Job:
+    long: Hiob
+    short: Hiob
+  Joel:
+    long: Yoel
+    short: Yoel
+  John:
+    long: Yohane
+    short: Yoh
+  Jonah:
+    long: Yona
+    short: Yona
+  Josh:
+    long: Yosua
+    short: Yos
+  Jude:
+    long: Yuda
+    short: Yuda
+  Judg:
+    long: Atemmufo
+    short: Ate
+  Lam:
+    long: Kwadwom
+    short: Kwa
+  Lev:
+    long: Lewitikɔs
+    short: Lew
+  Luke:
+    long: Luka
+    short: Luk
+  Mal:
+    long: Malaki
+    short: Mal
+  Mark:
+    long: Marko
+    short: Mar
+  Matt:
+    long: Mateo
+    short: Mat
+  Mic:
+    long: Mika
+    short: Mika
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nehemia
+    short: Neh
+  Num:
+    long: Numeri
+    short: Num
+  Obad:
+    long: Obadia
+    short: Oba
+  Phil:
+    long: Filipifo
+    short: Flp
+  Phlm:
+    long: Filemon
+    short: Flm
+  Prov:
+    long: Mmebusɛm
+    short: Mmb
+  Ps:
+    long: Nnwom
+    short: Nnw
+  Rev:
+    long: Adiyisɛm
+    short: Adi
+  Rom:
+    long: Romafo
+    short: Rom
+  Ruth:
+    long: Rut
+    short: Rut
+  Sir:
+    long: Sirak
+    short: Sir
+  Song:
+    long: Nnwom Mu Dwom
+    short: Nmd
+  Titus:
+    long: Tito
+    short: Tito
+  Tob:
+    long: Tobit
+    short: Tob
+  Wis:
+    long: Nyansa
+    short: Nya
+  Zech:
+    long: Sakaria
+    short: Sak
+  Zeph:
+    long: Sefania
+    short: Sef
+translations:
+  akcb:
+    1Chr:
+      long: 1 Beresosɛm
+    1Sam:
+      short: 1 Sam
+    2Chr:
+      long: 2 Beresosɛm
+    2Sam:
+      short: 2 Sam
+    Deut:
+      long: 5 Mose
+      short: 5 Mose
+    Eccl:
+      short: Ɔskf
+    Esth:
+      long: Ɛster
+      short: Ɛst
+    Exod:
+      long: 2 Mose
+      short: 2 Mose
+    Ezra:
+      long: Ɛsra
+      short: Ɛsra
+    Gen:
+      long: 1 Mose
+      short: 1 Mose
+    Joel:
+      long: Yoɛl
+      short: Yoɛl
+    Jude:
+      short: Yud
+    Lev:
+      long: 3 Mose
+      short: 3 Mose
+    Num:
+      long: 4 Mose
+      short: 4 Mose
+  ascb:
+    1Cor:
+      long: 1 Korintofoɔ
+    1Sam:
+      short: 1 Sam
+    1Thess:
+      long: 1 Tesalonikafoɔ
+    2Cor:
+      long: 2 Korintofoɔ
+    2Sam:
+      short: 2 Sam
+    2Thess:
+      long: 2 Tesalonikafoɔ
+    Acts:
+      long: Asomafoɔ
+    Col:
+      long: Kolosefoɔ
+    Deut:
+      long: 5 Mose
+      short: 5 Mose
+    Eccl:
+      long: Ɔsɛnkafoɔ
+      short: Ɔskf
+    Eph:
+      long: Efesofoɔ
+    Esth:
+      long: Ɛster
+      short: Ɛst
+    Exod:
+      long: 2 Mose
+      short: 2 Mose
+    Ezra:
+      long: Ɛsra
+      short: Ɛsra
+    Gal:
+      long: Galatifoɔ
+    Gen:
+      long: 1 Mose
+      short: 1 Mose
+    Heb:
+      long: Hebrifoɔ
+    Joel:
+      long: Yoɛl
+      short: Yoɛl
+    Jude:
+      short: Yud
+    Judg:
+      long: Atemmufoɔ
+    Lev:
+      long: 3 Mose
+      short: 3 Mose
+    Num:
+      long: 4 Mose
+      short: 4 Mose
+    Phil:
+      long: Filipifoɔ
+    Prov:
+      long: Mmɛbusɛm
+    Rom:
+      long: Romafoɔ
+  asw:
+    1Cor:
+      long: 1 Korintofoɔ
+    1Thess:
+      long: 1 Tesalonikafoɔ
+    2Cor:
+      long: 2 Korintofoɔ
+    2Thess:
+      long: 2 Tesalonikafoɔ
+    Acts:
+      long: Asomafoɔ
+    Col:
+      long: Kolosefoɔ
+    Eccl:
+      long: Ɔsɛnkafoɔ
+    Eph:
+      long: Efesofoɔ
+    Gal:
+      long: Galatifoɔ
+    Heb:
+      long: Hebrifoɔ
+    Judg:
+      long: Atemmufoɔ
+    Luke:
+      short: Luka
+    Phil:
+      long: Filipifoɔ
+    Ps:
+      short: Dwom
+    Rom:
+      long: Romafoɔ
+  aswdc:
+    1Cor:
+      long: 1 Korintofoɔ
+    1Macc:
+      long: 1 Makabee
+    1Thess:
+      long: 1 Tesalonikafoɔ
+    2Cor:
+      long: 2 Korintofoɔ
+    2Macc:
+      long: 2 Makabee
+    2Thess:
+      long: 2 Tesalonikafoɔ
+    Acts:
+      long: Asomafoɔ
+    Col:
+      long: Kolosefoɔ
+    Eccl:
+      long: Ɔsɛnkafoɔ
+      short: Skf
+    Eph:
+      long: Efesofoɔ
+    Gal:
+      long: Galatifoɔ
+    Heb:
+      long: Hebrifoɔ
+    Judg:
+      long: Atemmufoɔ
+    Phil:
+      long: Filipifoɔ
+    Ps:
+      short: Dwom
+    Rom:
+      long: Romafoɔ
+  atwdb:
+    1Kgs:
+      long: 1 Ahene
+    1Tim:
+      short: 1 Tim
+    2Kgs:
+      long: 2 Ahene
+    2Tim:
+      short: 2 Tim
+    EsthGr:
+      long: Ester Nhoma
+      short: He Est
+    Luke:
+      short: Luka
+  ratb:
+    1Kgs:
+      long: 1 Ahene
+    1Tim:
+      short: 1 Tim
+    2Kgs:
+      long: 2 Ahene
+    2Tim:
+      short: 2 Tim
+    Luke:
+      short: Luka

@@ -1,0 +1,88 @@
+default:
+  1Cor:
+    long: Akorintu Owambeela
+    short: 1Ko
+  1John:
+    long: Zhuwawu Owambeela
+    short: 1Zh
+  1Pet:
+    long: Peduru Owambeela
+    short: 1Pe
+  1Thess:
+    long: Atesalonika Owambeela
+    short: 1Ts
+  1Tim:
+    long: Timoteyo Owambeela
+    short: 1Ti
+  2Cor:
+    long: Akorintu a Nabiili
+    short: 2Ko
+  2John:
+    long: Zhuwawu a Nabiili
+    short: 2Zh
+  2Pet:
+    long: Peduru a Nabiili
+    short: 2Pe
+  2Thess:
+    long: Atesalonika a Nabiili
+    short: 2Ts
+  2Tim:
+    long: Timoteyo a Nabiili
+    short: 2Ti
+  3John:
+    long: Zhuwawu a Neethaaru
+    short: 3Zh
+  Acts:
+    long: Meerelo a Arumiwi
+    short: Mee
+  Col:
+    long: aKolose
+    short: Kol
+  Eph:
+    long: aEfeso
+    short: Efe
+  Exod:
+    long: Okuma
+    short: Oku
+  Gal:
+    long: Agalasiya
+    short: Gal
+  Gen:
+    long: Wambeela
+    short: Wam
+  Heb:
+    long: aHeberi
+    short: Heb
+  Jas:
+    long: Tiyago
+    short: Tiy
+  John:
+    long: Zhuwawu
+    short: Zhu
+  Jude:
+    long: Zhuda
+    short: Zhd
+  Luke:
+    long: Luka
+    short: Luk
+  Mark:
+    long: Maruku
+    short: Mar
+  Matt:
+    long: Matewuzhi
+    short: Mat
+  Phil:
+    long: Afiliposi
+    short: Fil
+  Phlm:
+    long: Filimoni
+    short: Flm
+  Rev:
+    long: Ovuhulela
+    short: Ovu
+  Rom:
+    long: aRoma
+    short: Rom
+  Titus:
+    long: Titu
+    short: Tit

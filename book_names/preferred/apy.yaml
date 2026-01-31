@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Koronika
+    short: 1Kor
+  1Cor:
+    long: 1 Korĩtiu
+    short: 1Ko
+  1John:
+    long: 1 João
+    short: 1Jo
+  1Kgs:
+    long: 1 Tuisa
+    short: 1Tui
+  1Pet:
+    long: 1 Peturu
+    short: 1Pe
+  1Sam:
+    long: 1 Samueu
+    short: 1Sam
+  1Thess:
+    long: 1 Tesaronika
+    short: 1Tes
+  1Tim:
+    long: 1 Timoteu
+    short: 1Tim
+  2Chr:
+    long: 2 Koronika
+    short: 2Kor
+  2Cor:
+    long: 2 Korĩtiu
+    short: 2Ko
+  2John:
+    long: 2 João
+    short: 2Jo
+  2Kgs:
+    long: 2 Tuisa
+    short: 2Tui
+  2Pet:
+    long: 2 Peturu
+    short: 2Pe
+  2Sam:
+    long: 2 Samueu
+    short: 2Sam
+  2Thess:
+    long: 2 Tesaronika
+    short: 2Tes
+  2Tim:
+    long: 2 Timoteu
+    short: 2Tim
+  3John:
+    long: 3 João
+    short: 3Jo
+  Acts:
+    long: Atos
+    short: At
+  Amos:
+    long: Amoxi
+    short: Amo
+  Col:
+    long: Koroxi
+    short: Kor
+  Dan:
+    long: Tanieu
+    short: Tan
+  Deut:
+    long: Teuteronomiu
+    short: Teu
+  Eccl:
+    long: Ekereziaxti
+    short: Eke
+  Eph:
+    long: Epezu
+    short: Ep
+  Esth:
+    long: Exite
+    short: Exi
+  Exod:
+    long: Exutu
+    short: Exu
+  Ezek:
+    long: Ezekieu
+    short: Ezek
+  Ezra:
+    long: Extara
+    short: Ext
+  Gal:
+    long: Karaxia
+    short: Ka
+  Gen:
+    long: Jenexi
+    short: Jen
+  Hab:
+    long: Apakuke
+    short: Apa
+  Hag:
+    long: Ajeu
+    short: Aje
+  Heb:
+    long: Epereu
+    short: Eper
+  Hos:
+    long: Ozeja
+    short: Oze
+  Isa:
+    long: Izaja
+    short: Iza
+  Jas:
+    long: Tiaku
+    short: Tia
+  Jer:
+    long: Jeremia
+    short: Jer
+  Job:
+    long: Jo
+    short: Jo
+  Joel:
+    long: Joeu
+    short: Joe
+  John:
+    long: João
+    short: João
+  Jonah:
+    long: Jona
+    short: Jon
+  Josh:
+    long: Jozue
+    short: Joz
+  Jude:
+    long: Juta
+    short: Jut
+  Judg:
+    long: Juize
+    short: Jui
+  Lam:
+    long: Ramẽtasão
+    short: Ram
+  Lev:
+    long: Rewitiku
+    short: Rew
+  Luke:
+    long: Ruka
+    short: Ruk
+  Mal:
+    long: Marakia
+    short: Mar
+  Mark:
+    long: Maku
+    short: Mak
+  Matt:
+    long: Mateu
+    short: Mat
+  Mic:
+    long: Mikeja
+    short: MiK
+  Nah:
+    long: Naum
+    short: Nau
+  Neh:
+    long: Neemia
+    short: Nee
+  Num:
+    long: Numeru
+    short: Num
+  Obad:
+    long: Opatia
+    short: Opa
+  Phil:
+    long: Piripo
+    short: Pi
+  Phlm:
+    long: Piremõ
+    short: Pir
+  Prov:
+    long: Porowepio
+    short: Por
+  Ps:
+    long: Saumu
+    short: Sau
+  Rev:
+    long: Apokaripxi
+    short: Apo
+  Rom:
+    long: Romanos
+    short: Ro
+  Ruth:
+    long: Ruti
+    short: Rut
+  Song:
+    long: Kãtiku
+    short: Kãt
+  Titus:
+    long: Titu
+    short: Tit
+  Zech:
+    long: Zakaria
+    short: Zak
+  Zeph:
+    long: Sowonia
+    short: Sow

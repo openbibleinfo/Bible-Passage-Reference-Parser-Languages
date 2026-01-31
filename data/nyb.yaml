@@ -1,0 +1,95 @@
+books:
+  - osis: Rev
+    texts:
+      - Kibui Bubú Kasɛ
+      - Kbk
+  - osis: 1John
+    texts:
+      - Yohanes 1
+      - 1Yo
+  - osis: 2John
+    texts:
+      - Yohanes 2
+      - 2Yo
+  - osis: 3John
+    texts:
+      - Yohanes 3
+      - 3Yo
+  - osis: Acts
+    texts:
+      - Banɔkpɛkpɛ Axɔ̃ɛ
+      - Bae
+  - osis: Rom
+    texts:
+      - Romanɛ
+      - Rom
+  - osis: 1Cor
+    texts:
+      - Korintoanɛ 1
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - Korintoanɛ 2
+      - 2Ko
+  - osis: Col
+    texts:
+      - Koloseanɛ
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatianɛ
+      - Gal
+  - osis: Eph
+    texts:
+      - Efesoanɛ
+      - Efe
+  - osis: Phil
+    texts:
+      - Filipianɛ
+      - Flp
+  - osis: 1Thess
+    texts:
+      - Tesalonikanɛ 1
+      - 1Te
+  - osis: 2Thess
+    texts:
+      - Tesalonikanɛ 2
+      - 2Te
+  - osis: 1Tim
+    texts:
+      - Timoteo 1
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - Timoteo 2
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filimon
+      - Flm
+  - osis: Heb
+    texts:
+      - Hebrianɛ
+      - Heb
+  - osis: Jas
+    texts:
+      - Yakobo
+      - Yak
+  - osis: 1Pet
+    texts:
+      - Petro 1
+      - 1Pe
+  - osis: 2Pet
+    texts:
+      - Petro 2
+      - 2Pe
+  - osis: Jude
+    texts:
+      - Yuda
+      - Yud
+translations:
+  - NYB

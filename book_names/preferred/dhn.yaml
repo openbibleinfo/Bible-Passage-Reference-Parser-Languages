@@ -1,0 +1,165 @@
+default:
+  1Cor:
+    long: 1 कुरन्थियो
+    short: 1 कुरन्थियो
+  1John:
+    long: 1 यहुन्ना
+    short: 1 यहुन्ना
+  1Pet:
+    long: 1 पतरस
+    short: 1 पतरस
+  1Thess:
+    long: 1 थिस्सलुनीकियो
+    short: 1 थिस्सलुनीकियो
+  1Tim:
+    long: 1 तीमुथियुस
+    short: 1 तीमुथियुस
+  2Cor:
+    long: 2 कुरन्थियो
+    short: 2 कुरन्थियो
+  2John:
+    long: 2 यहुन्ना
+    short: 2 यहुन्ना
+  2Pet:
+    long: 2 पतरस
+    short: 2 पतरस
+  2Thess:
+    long: 2 थिस्सलुनीकियो
+    short: 2 थिस्सलुनीकियो
+  2Tim:
+    long: 2 तीमुथियुस
+    short: 2 तीमुथियुस
+  3John:
+    long: 3 यहुन्ना
+    short: 3 यहुन्ना
+  Acts:
+    long: प्रेरितन
+    short: प्रेरितन
+  Col:
+    long: कुलुस्सियो
+    short: कुलुस्सियो
+  Eph:
+    long: इफिसियो
+    short: इफिसियो
+  Gal:
+    long: गलातिया
+    short: गलातिया
+  Heb:
+    long: इब्रानियों
+    short: इब्रानियों
+  Jas:
+    long: याकूब
+    short: याकूब
+  John:
+    long: यहुन्ना
+    short: यहुन्ना
+  Jude:
+    long: यहूदा
+    short: यहूदा
+  Luke:
+    long: लूका
+    short: लूका
+  Mark:
+    long: मरकुस
+    short: मरकुस
+  Matt:
+    long: मत्ती
+    short: मत्ती
+  Phil:
+    long: फिलिप्पियो
+    short: फिलिप्पियो
+  Phlm:
+    long: फिलेमोन
+    short: फिलेमोन
+  Rev:
+    long: प्रकाशितवाक्य
+    short: प्रकाशितवाक्य
+  Rom:
+    long: रोमियो
+    short: रोमियो
+  Titus:
+    long: तितुस
+    short: तितुस
+translations:
+  dhnnt:
+    1Cor:
+      long: 1 કોરિંથી
+      short: 1 કોરિં.
+    1John:
+      long: 1 યોહાન
+      short: 1 યોહ.
+    1Pet:
+      long: 1 પિતર
+      short: 1 પિત.
+    1Thess:
+      long: 1 થેસલોનિકી
+      short: 1 થેસ.
+    1Tim:
+      long: 1 તિમોથી
+      short: 1 તિમ.
+    2Cor:
+      long: 2 કોરિંથી
+      short: 2 કોરિં.
+    2John:
+      long: 2 યોહાન
+      short: 2 યોહ.
+    2Pet:
+      long: 2 પિતર
+      short: 2 પિત.
+    2Thess:
+      long: 2 થેસલોનિકી
+      short: 2 થેસ.
+    2Tim:
+      long: 2 તિમોથી
+      short: 2 તિમ.
+    3John:
+      long: 3 યોહાન
+      short: 3 યોહ.
+    Acts:
+      long: પ્રેરિતસા કરેલ કામ
+      short: પ્રે.કૃ.
+    Col:
+      long: કલોસી
+      short: કલો.
+    Eph:
+      long: એફેસી
+      short: એફે.
+    Gal:
+      long: ગલાતી
+      short: ગલ.
+    Heb:
+      long: હિબ્રૂ
+      short: હિબ.
+    Jas:
+      long: યાકુબ
+      short: યાકૂ.
+    John:
+      long: યોહાન
+      short: યોહ.
+    Jude:
+      long: યહૂદા
+      short: યહૂ.
+    Luke:
+      long: લુક
+      short: લુક.
+    Mark:
+      long: માર્ક
+      short: માર્ક
+    Matt:
+      long: માથ્થી
+      short: માથ.
+    Phil:
+      long: ફિલિપી
+      short: ફિલિ.
+    Phlm:
+      long: ફિલેમોન
+      short: ફિલે.
+    Rev:
+      long: પ્રકટીકરણ
+      short: પ્રક.
+    Rom:
+      long: રોમ
+      short: રોમ.
+    Titus:
+      long: તિતસ
+      short: તિત.

@@ -1,0 +1,122 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Navisip̃eiano
+      - Visi
+  - osis: Matt
+    texts:
+      - Mataiu
+  - osis: Mark
+    texts:
+      - Mak
+  - osis: Luke
+    texts:
+      - Luka
+  - osis: 1John
+    texts:
+      - 1Jone
+  - osis: 2John
+    texts:
+      - 2Jone
+  - osis: 3John
+    texts:
+      - 3 Jone
+      - 3Jone
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jone
+  - osis: Acts
+    texts:
+      - Im̃auano
+      - Im̃auo
+  - osis: Rom
+    texts:
+      - Romo
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korin
+      - Kor
+  - osis: Col
+    texts:
+      - Kolosia
+      - Kolo
+  - osis: Gal
+    texts:
+      - Kalesia
+      - Kale
+  - osis: Eph
+    texts:
+      - Eveso
+      - Eves
+  - osis: Phil
+    texts:
+      - Vilip
+      - Vili
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesa
+  - osis: 1Thess
+    texts:
+      - 1Tesa
+  - osis: 2Thess
+    texts:
+      - 2Tesa
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+      - Timo
+  - osis: Titus
+    texts:
+      - Taitas
+  - osis: Phlm
+    texts:
+      - Vailimon
+      - Vaili
+  - osis: Heb
+    texts:
+      - Abe Kulo Ju
+      - Ipru
+  - osis: Jas
+    texts:
+      - Yemesi
+      - Yemes
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pitere
+  - osis: 1Pet
+    texts:
+      - 1Pit
+  - osis: 2Pet
+    texts:
+      - 2Pit
+  - osis: Jude
+    texts:
+      - Jut
+translations:
+  - BKI

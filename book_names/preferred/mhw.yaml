@@ -1,0 +1,85 @@
+default:
+  1Cor:
+    long: 1 Hakorinte
+    short: 1 Kor
+  1John:
+    long: 1 Johannesi
+    short: 1 Joh
+  1Pet:
+    long: 1 Petrusi
+    short: 1 Pet
+  1Thess:
+    long: 1 Hakatesalonika
+    short: 1 Tes
+  1Tim:
+    long: 1 Timoteghusi
+    short: 1 Tim
+  2Cor:
+    long: 2 Hakorinte
+    short: 2 Kor
+  2John:
+    long: 2 Johannesi
+    short: 2 Joh
+  2Pet:
+    long: 2 Petrusi
+    short: 2 Pet
+  2Thess:
+    long: 2 Hakatesalonika
+    short: 2 Tes
+  2Tim:
+    long: 2 Timoteghusi
+    short: 2 Tim
+  3John:
+    long: 3 Johannesi
+    short: 3 Joh
+  Acts:
+    long: Yitenda ya Wapostoli
+    short: Yitenda
+  Col:
+    long: Hakakolose
+    short: Kol
+  Eph:
+    long: Hakaefesusi
+    short: Ef
+  Gal:
+    long: Hakagalasiye
+    short: Gal
+  Heb:
+    long: Haheburayi
+    short: Heb
+  Jas:
+    long: Jakobusi
+    short: Jak
+  John:
+    long: Johannesi
+    short: Joh
+  Jude:
+    long: Judasi
+    short: Jud
+  Luke:
+    long: Lukasi
+    short: Luk
+  Mark:
+    long: Markusi
+    short: Mark
+  Matt:
+    long: Mateghusi
+    short: Mat
+  Phil:
+    long: Hakafilipi
+    short: Fil
+  Phlm:
+    long: Filemoni
+    short: Filem
+  Ps:
+    long: Rukwaro Romiposalemi
+    short: Pisal
+  Rev:
+    long: Yihokora
+    short: Yih
+  Rom:
+    long: Hakaroma
+    short: Rom
+  Titus:
+    long: Titusi
+    short: Tit

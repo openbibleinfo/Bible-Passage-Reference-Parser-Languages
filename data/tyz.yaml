@@ -1,0 +1,265 @@
+variables:
+  first: &first
+    - I
+  second: &second
+    - II
+  third: &third
+    - III
+books:
+  - osis: Gen
+    texts:
+      - Tặt Có Bôn Đin
+      - Tặt
+  - osis: Lev
+    texts:
+      - Lê-vi
+      - Lê
+  - osis: Num
+    texts:
+      - Dân Slố
+      - Dân
+  - osis: Lam
+    texts:
+      - Bài Sli Slương Slép
+      - Slương
+  - osis: Rev
+    texts:
+      - Khay Oóc
+      - Khay
+  - osis: Exod
+    texts:
+      - Oóc Khói Ai Cập
+      - Oóc
+  - osis: Deut
+    texts:
+      - Chuyền Te̱o Lệ Lài
+      - Chuyền
+  - osis: Josh
+    texts:
+      - Dô-xuê
+      - Dôx
+  - osis: Judg
+    texts:
+      - Bại Quan Xét
+      - Quan
+  - osis: Ruth
+    texts:
+      - Ru-tơ
+      - Ru
+  - osis: Isa
+    texts:
+      - Ê-xai
+      - Êxai
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Xa-mu-ên
+      - Xam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Bại Vuồng
+      - Vuồng
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Lịch Xử
+      - Xử
+  - osis: Ezra
+    texts:
+      - E-xơ-ra
+      - Exra
+  - osis: Neh
+    texts:
+      - Nê-hê-mi
+      - Nê
+  - osis: Esth
+    texts:
+      - Ê-xơ-tê
+      - Êxtê
+  - osis: Job
+    texts:
+      - Dóp
+  - osis: Ps
+    texts:
+      - Sli Then
+      - Sli
+  - osis: Prov
+    texts:
+      - Cằm Slắng Slon
+      - Cằm
+  - osis: Eccl
+    texts:
+      - Tạy Đạo
+      - Tạy
+  - osis: Song
+    texts:
+      - Bài Co
+      - Bài
+  - osis: Jer
+    texts:
+      - Dê-rê-mi
+      - Dê
+  - osis: Ezek
+    texts:
+      - Ê-xê-chi-ên
+      - Êxê
+  - osis: Dan
+    texts:
+      - Đa-ni-ên
+      - Đa
+  - osis: Hos
+    texts:
+      - Ô-xê
+      - Ôxê
+  - osis: Joel
+    texts:
+      - Dô-ên
+      - Dôên
+  - osis: Amos
+    texts:
+      - A-mốt
+      - Amốt
+  - osis: Obad
+    texts:
+      - Áp-đia
+      - Ápđia
+  - osis: Jonah
+    texts:
+      - Dô-na
+      - Dôna
+  - osis: Mic
+    texts:
+      - Mi-chê
+      - Mi
+  - osis: Nah
+    texts:
+      - Na-hum
+      - Na
+  - osis: Hab
+    texts:
+      - Ha-ba-cúc
+      - Ha
+  - osis: Zeph
+    texts:
+      - Xô-phô-ni
+      - Xô
+  - osis: Hag
+    texts:
+      - A-ngê
+      - Angê
+  - osis: Zech
+    texts:
+      - Xa-cha-ri
+      - Xa
+  - osis: Mal
+    texts:
+      - Ma-la-chi
+      - Mal
+  - osis: Matt
+    texts:
+      - Ma-thi-ơ
+      - Mat
+  - osis: Mark
+    texts:
+      - Mác
+  - osis: Luke
+    texts:
+      - Lu-ca
+      - Lu
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Dăng
+  - osis: Acts
+    texts:
+      - Công Viêc
+      - Công
+  - osis: Rom
+    texts:
+      - Rô-ma
+      - Rô
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Cô-rinh-tô
+      - Cô
+  - osis: Col
+    texts:
+      - Cô-lô-xe
+      - Côl
+  - osis: Gal
+    texts:
+      - Nga-la-ti
+      - Nga
+  - osis: Eph
+    texts:
+      - Ê-phê-xô
+      - Êph
+  - osis: Phil
+    texts:
+      - Phi-líp
+      - Phil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tê-xa-lô-ni-ca
+      - Tê
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Ti-mô-thê
+      - Tim
+  - osis: Titus
+    texts:
+      - Tít
+  - osis: Phlm
+    texts:
+      - Phi-lê-môn
+      - Phlm
+  - osis: Heb
+    texts:
+      - Hê-bơ-rơ
+      - Hê
+  - osis: Jas
+    texts:
+      - Da-cơ
+      - Da
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Phi-e-rơ
+      - Phi
+  - osis: Jude
+    texts:
+      - Du-đe
+      - Du
+translations:
+  - TYZ2022

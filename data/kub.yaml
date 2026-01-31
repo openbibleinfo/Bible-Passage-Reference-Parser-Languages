@@ -1,0 +1,159 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Kucangtsi
+      - Kuc
+  - osis: Exod
+    texts:
+      - Itiruye
+      - Itr
+  - osis: Rev
+    texts:
+      - Ititatso
+      - Iti
+  - osis: Ruth
+    texts:
+      - Ruti
+      - Rut
+  - osis: Neh
+    texts:
+      - Nehemiya
+      - Neh
+  - osis: Esth
+    texts:
+      - Esita
+      - Est
+  - osis: Dan
+    texts:
+      - Daniyel
+      - Dan
+  - osis: Amos
+    texts:
+      - Amos
+      - Amo
+  - osis: Jonah
+    texts:
+      - Jona
+      - Jon
+  - osis: Matt
+    texts:
+      - Matiyu
+      - Mat
+  - osis: Mark
+    texts:
+      - Markus
+      - Mak
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohana
+  - osis: John
+    texts:
+      - Yohana
+      - Yoh
+  - osis: Acts
+    texts:
+      - Wande Atom
+      - Wat
+  - osis: Rom
+    texts:
+      - Roma
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Korinti
+      - Kor
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinti
+  - osis: Col
+    texts:
+      - Kolosi
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatiya
+      - Gal
+  - osis: Eph
+    texts:
+      - Afisa
+      - Afi
+  - osis: Phil
+    texts:
+      - Filipi
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonika
+  - osis: 1Thess
+    texts:
+      - 1Th
+  - osis: 2Thess
+    texts:
+      - 2Th
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Titus
+      - Ti
+  - osis: Phlm
+    texts:
+      - Filimon
+      - Flm
+  - osis: Heb
+    texts:
+      - Mbaibrane
+      - Mba
+  - osis: Jas
+    texts:
+      - Yakubu
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Bitrus
+  - osis: Jude
+    texts:
+      - Yawuda
+      - Ywd
+translations:
+  - KUBNT

@@ -1,0 +1,201 @@
+books:
+  - osis: Gen
+    texts:
+      - Saráq Tễ Dâu
+  - osis: Exod
+    texts:
+      - Loŏh Tễ Ê-yip-tô
+  - osis: Lev
+    texts:
+      - Lê-vi
+  - osis: Num
+    texts:
+      - Ngih Proai
+  - osis: Lam
+    texts:
+      - Santoiq Cuclỗiq
+  - osis: Rev
+    texts:
+      - Sapáh Baih
+  - osis: Deut
+    texts:
+      - Patâp Loah
+  - osis: Josh
+    texts:
+      - Yô-sũa
+  - osis: Judg
+    texts:
+      - Cũai Rasữq
+  - osis: Ruth
+    texts:
+      - Rutỡ
+  - osis: Isa
+    texts:
+      - Ê-sai
+  - osis: 1Sam
+    texts:
+      - Samu-ễl Muoi
+  - osis: 2Sam
+    texts:
+      - Samu-ễl Bar
+  - osis: 1Kgs
+    texts:
+      - Puo Muoi
+  - osis: 2Kgs
+    texts:
+      - Puo Bar
+  - osis: 1Chr
+    texts:
+      - Ruaih Loah Muoi
+  - osis: 2Chr
+    texts:
+      - Ruaih Loah Bar
+  - osis: Ezra
+    texts:
+      - Ê-sara
+  - osis: Neh
+    texts:
+      - Nê-hamia
+  - osis: Esth
+    texts:
+      - Ê-satơ
+  - osis: Job
+    texts:
+      - Yop
+  - osis: Ps
+    texts:
+      - Ũat Khễn
+  - osis: Prov
+    texts:
+      - Pali Panha
+  - osis: Eccl
+    texts:
+      - Santoiq Rangoaiq
+  - osis: Song
+    texts:
+      - Cansái Ũat
+  - osis: Jer
+    texts:
+      - Yê-ramia
+  - osis: Ezek
+    texts:
+      - Ê-sakiel
+  - osis: Dan
+    texts:
+      - Daniel
+  - osis: Hos
+    texts:
+      - Hô-sĩa
+  - osis: Joel
+    texts:
+      - Yô-el
+  - osis: Amos
+    texts:
+      - Amôt
+  - osis: Obad
+    texts:
+      - Ô-badia
+  - osis: Jonah
+    texts:
+      - Yô-na
+  - osis: Mic
+    texts:
+      - Mi-ca
+  - osis: Nah
+    texts:
+      - Nahum
+  - osis: Hab
+    texts:
+      - Ha-bacúc
+  - osis: Zeph
+    texts:
+      - Sê-phania
+  - osis: Hag
+    texts:
+      - Hacai
+  - osis: Zech
+    texts:
+      - Sa-chari
+  - osis: Mal
+    texts:
+      - Ma-laki
+  - osis: Matt
+    texts:
+      - Mathia
+  - osis: Mark
+    texts:
+      - Mac
+  - osis: Luke
+    texts:
+      - Luca
+  - osis: 1John
+    texts:
+      - Yang Muoi
+  - osis: 2John
+    texts:
+      - Yang Bar
+  - osis: 3John
+    texts:
+      - Yang Pái
+  - osis: John
+    texts:
+      - Yang
+  - osis: Acts
+    texts:
+      - Ranáq Táq
+  - osis: Rom
+    texts:
+      - Rô-ma
+  - osis: 1Cor
+    texts:
+      - Côr-ntô Muoi
+  - osis: 2Cor
+    texts:
+      - Côr-ntô Bar
+  - osis: Col
+    texts:
+      - Cô-lusê
+  - osis: Gal
+    texts:
+      - Ca-lati
+  - osis: Eph
+    texts:
+      - Ê-phê-sô
+  - osis: Phil
+    texts:
+      - Phi-lip
+  - osis: 1Thess
+    texts:
+      - Tê-salô-naca Muoi
+  - osis: 2Thess
+    texts:
+      - Tê-salô-naca Bar
+  - osis: 1Tim
+    texts:
+      - Ti-muthê Muoi
+  - osis: 2Tim
+    texts:
+      - Ti-muthê Bar
+  - osis: Titus
+    texts:
+      - Atĩt
+  - osis: Phlm
+    texts:
+      - Phi-lamôn
+  - osis: Heb
+    texts:
+      - Hê-brơ
+  - osis: Jas
+    texts:
+      - Yacỡ
+  - osis: 1Pet
+    texts:
+      - Phi-er Muoi
+  - osis: 2Pet
+    texts:
+      - Phi-er Bar
+  - osis: Jude
+    texts:
+      - Yude
+translations:
+  - BRU

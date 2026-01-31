@@ -1,0 +1,131 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Nakilologiaena
+      - Nakilol
+  - osis: Matt
+    texts:
+      - Matiu
+      - Mat
+  - osis: Mark
+    texts:
+      - Mak
+  - osis: Luke
+    texts:
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Yoan
+  - osis: 2John
+    texts:
+      - 2Yoan
+  - osis: 3John
+    texts:
+      - 3 Yoane
+      - 3Yoan
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yoane
+  - osis: John
+    texts:
+      - Yoane
+      - Yoan
+  - osis: Acts
+    texts:
+      - Yum̃aena
+  - osis: Rom
+    texts:
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Koren
+  - osis: 1Cor
+    texts:
+      - 1Kor
+  - osis: 2Cor
+    texts:
+      - 2Kor
+  - osis: Col
+    texts:
+      - Kolosi
+  - osis: Gal
+    texts:
+      - Kalesia
+      - Kal
+  - osis: Eph
+    texts:
+      - Episas
+      - Epis
+  - osis: Phil
+    texts:
+      - Pilip̃ae
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonaika
+  - osis: 1Thess
+    texts:
+      - 1Tes
+  - osis: 2Thess
+    texts:
+      - 2Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Taetas
+  - osis: Phlm
+    texts:
+      - Pilimon
+  - osis: Heb
+    texts:
+      - Le Yu Lala
+  - osis: Jas
+    texts:
+      - Semes
+      - Sem
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+  - osis: 1Pet
+    texts:
+      - 1Pit
+  - osis: 2Pet
+    texts:
+      - 2Pit
+  - osis: Jude
+    texts:
+      - Sut
+translations:
+  - LWW

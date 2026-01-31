@@ -1,0 +1,96 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Dànì Kèhoį̀wo
+  - osis: Rev
+    texts:
+      - John Wenazhıı
+  - osis: Matt
+    texts:
+      - Matthew
+  - osis: Mark
+    texts:
+      - Mark
+  - osis: Luke
+    texts:
+      - Luke
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - John
+  - osis: Acts
+    texts:
+      - Zezì Wecheekeèdeè
+  - osis: Rom
+    texts:
+      - Rome
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corınth
+  - osis: Col
+    texts:
+      - Colosse
+  - osis: Gal
+    texts:
+      - Galatıa
+  - osis: Eph
+    texts:
+      - Ephesus
+  - osis: Phil
+    texts:
+      - Phılıppı
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thessalonıca
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tımothy
+  - osis: Titus
+    texts:
+      - Tıtus
+  - osis: Phlm
+    texts:
+      - Phılemon
+  - osis: Heb
+    texts:
+      - Hebrew
+  - osis: Jas
+    texts:
+      - James
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peter
+  - osis: Jude
+    texts:
+      - Jude
+translations:
+  - DNT08

@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Dɔlɔ Sɛʋɛi
+    short: 1Ds
+  1Cor:
+    long: 1 Kolɛnte
+    short: 1Ko
+  1John:
+    long: 1 Zan
+    short: 1Za
+  1Kgs:
+    long: 1 Masagiti
+    short: 1Ma
+  1Pet:
+    long: 1 Piyɛlɛ
+    short: 1Pi
+  1Sam:
+    long: 1 Samiyɛle
+    short: 1Sa
+  1Thess:
+    long: 1 Tesalonike
+    short: 1Te
+  1Tim:
+    long: 1 Timɔte
+    short: 1Ti
+  2Chr:
+    long: 2 Dɔlɔ Sɛʋɛi
+    short: 2Ds
+  2Cor:
+    long: 2 Kolɛnte
+    short: 2Ko
+  2John:
+    long: 2 Zan
+    short: 2Za
+  2Kgs:
+    long: 2 Masagiti
+    short: 2Ma
+  2Pet:
+    long: 2 Piyɛlɛ
+    short: 2Pi
+  2Sam:
+    long: 2 Samiyɛle
+    short: 2Sa
+  2Thess:
+    long: 2 Tesalonike
+    short: 2Te
+  2Tim:
+    long: 2 Timɔte
+    short: 2Ti
+  3John:
+    long: 3 Zan
+    short: 3Za
+  Acts:
+    long: Kɛɛwotiiti
+    short: Kkw
+  Amos:
+    long: Amɔse
+    short: Amɔ
+  Col:
+    long: Kolɔse
+    short: Kol
+  Dan:
+    long: Daniyɛle
+    short: Dan
+  Deut:
+    long: Tɔ Sɛʋɛi Velesiɛi
+    short: Tsv
+  Eccl:
+    long: Tɛnɛbo Nui
+    short: TbN
+  Eph:
+    long: Efɛze
+    short: Efz
+  Esth:
+    long: Ɛsetɛɛl
+    short: Ɛst
+  Exod:
+    long: Ɛgezɔde
+    short: Ɛgz
+  Ezek:
+    long: Ezekiyɛle
+    short: Ezk
+  Ezra:
+    long: Ɛsedalase
+    short: Ɛsd
+  Gal:
+    long: Galate
+    short: Gal
+  Gen:
+    long: Zenɛze
+    short: Zen
+  Hab:
+    long: Aɓakuke
+    short: Aɓk
+  Hag:
+    long: Azé
+    short: Azé
+  Heb:
+    long: Eɓulu
+    short: Eɓu
+  Hos:
+    long: Wozé
+    short: Woz
+  Isa:
+    long: Ezayi
+    short: Eza
+  Jas:
+    long: Zake
+    short: Zak
+  Jer:
+    long: Zelemi
+    short: Zel
+  Job:
+    long: Zɔɓe
+    short: Zɔɓ
+  Joel:
+    long: Zowɛle
+    short: Zow
+  John:
+    long: Zan
+    short: Zan
+  Jonah:
+    long: Zonase
+    short: Zon
+  Josh:
+    long: Zozuwe
+    short: Zoz
+  Jude:
+    long: Zude
+    short: Zud
+  Judg:
+    long: Tukpɔɠaaleʋe Nuiti
+    short: TɠN
+  Lam:
+    long: Gɔlɔ Wooiti
+    short: Gɔl
+  Lev:
+    long: Levi Nuiti
+    short: Lev
+  Luke:
+    long: Luke
+    short: Luk
+  Mal:
+    long: Malasi
+    short: Mal
+  Mark:
+    long: Maleke
+    short: Mak
+  Matt:
+    long: Matiyo
+    short: Mat
+  Mic:
+    long: Misé
+    short: Mis
+  Nah:
+    long: Naɠuume
+    short: Naɠ
+  Neh:
+    long: Neɠemi
+    short: Neɠ
+  Num:
+    long: Gaalu Sɛʋɛi
+    short: GlS
+  Obad:
+    long: Aɓediyase
+    short: Aɓd
+  Phil:
+    long: Filipe
+    short: Fil
+  Phlm:
+    long: Filemɔn
+    short: Flm
+  Prov:
+    long: Tɛnɛ Faalaaliiti
+    short: Tfa
+  Ps:
+    long: Guyeiti
+    short: Guy
+  Rev:
+    long: Kulakɛlɛmai
+    short: Kul
+  Rom:
+    long: Wɔlɔme
+    short: Wɔl
+  Ruth:
+    long: Lute
+    short: Lut
+  Song:
+    long: Guyei Pagai Guyei Pɛ Ba
+    short: Gpg
+  Titus:
+    long: Tite
+    short: Tit
+  Zech:
+    long: Zakali
+    short: Zkl
+  Zeph:
+    long: Sofoni
+    short: Sof

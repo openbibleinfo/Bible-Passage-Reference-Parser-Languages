@@ -1,0 +1,60 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Mark
+    texts:
+      - মার্ক
+  - osis: Luke
+    texts:
+      - লুক
+  - osis: Acts
+    texts:
+      - কুলিজকুরাআ কামি
+      - কুলিচ
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - করিন্থীয়
+  - osis: 1Cor
+    texts:
+      - 1করি
+  - osis: Gal
+    texts:
+      - গালাতীয়
+      - গালা
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - থিষলনীকীয়
+  - osis: 1Thess
+    texts:
+      - 1থিষ
+  - osis: 2Thess
+    texts:
+      - 2থিষ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - তীমথিয়
+  - osis: 1Tim
+    texts:
+      - 1তীম
+  - osis: 2Tim
+    texts:
+      - 2তীমথিয়
+  - osis: Titus
+    texts:
+      - তীত।
+      - তীত
+translations:
+  - KTN

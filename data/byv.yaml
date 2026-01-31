@@ -1,0 +1,267 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Neto'te
+      - Net.
+  - osis: Exod
+    texts:
+      - Netume
+      - Netu.
+  - osis: Lev
+    texts:
+      - Lévitiko
+      - Lev.
+  - osis: Num
+    texts:
+      - Nesiaṅe
+      - Nes.
+  - osis: Lam
+    texts:
+      - Nsindàvù
+      - Nsi.
+  - osis: Rev
+    texts:
+      - Apokalipse
+      - Apok.
+  - osis: Deut
+    texts:
+      - Nebwôgte
+      - Neb.
+  - osis: Josh
+    texts:
+      - Yoshua
+      - Yosh.
+  - osis: Judg
+    texts:
+      - Ghasa'kame
+      - Ghasa'.
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis: Isa
+    texts:
+      - Esaya
+      - Es.
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuél
+      - Sam.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Fenfen
+      - Fen.
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Kronika
+      - Kron.
+  - osis: Ezra
+    texts:
+      - Esdra
+      - Esd.
+  - osis: Neh
+    texts:
+      - Néhémi
+      - Néh.
+  - osis: Esth
+    texts:
+      - Est.
+      - Esta
+  - osis: Job
+    texts:
+      - Yob
+  - osis: Ps
+    texts:
+      - Yobkwi
+      - Yobk.
+  - osis: Prov
+    texts:
+      - Tànkùt
+      - Tànk.
+  - osis: Eccl
+    texts:
+      - Nzenu
+      - Ekl.
+  - osis: Song
+    texts:
+      - Nkwi Nkwi
+      - Nkwi.
+  - osis: Jer
+    texts:
+      - Yérémia
+      - Yer.
+  - osis: Ezek
+    texts:
+      - Ezékia
+      - Ez.
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan.
+  - osis: Hos
+    texts:
+      - Os.
+      - Osé
+  - osis: Joel
+    texts:
+      - Yoél
+      - Yo.
+  - osis: Amos
+    texts:
+      - Amos
+      - Am.
+  - osis: Obad
+    texts:
+      - Abdia
+      - Abd.
+  - osis: Jonah
+    texts:
+      - Yon.
+      - Yona
+  - osis: Mic
+    texts:
+      - Mik.
+      - Mika
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah.
+  - osis: Hab
+    texts:
+      - Habakuk
+      - Hab.
+  - osis: Zeph
+    texts:
+      - Sofoni
+      - Sof.
+  - osis: Hag
+    texts:
+      - Ag.
+      - Agé
+  - osis: Zech
+    texts:
+      - Sakaria
+      - Sak.
+  - osis: Mal
+    texts:
+      - Malashi
+      - Mal.
+  - osis: Matt
+    texts:
+      - Matio
+      - Mat.
+  - osis: Mark
+    texts:
+      - Mark.
+      - Marko
+  - osis: Luke
+    texts:
+      - Lukas
+      - Luk.
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohané
+      - Yoha.
+  - osis: Acts
+    texts:
+      - Mfa' Ghantum
+      - Mfa' Gha.
+  - osis: Rom
+    texts:
+      - Rom.
+      - Roma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintô
+      - Korin.
+  - osis: Col
+    texts:
+      - Kolosé
+      - Kol.
+  - osis: Gal
+    texts:
+      - Galatia
+      - Gal.
+  - osis: Eph
+    texts:
+      - Efésô
+      - Ef.
+  - osis: Phil
+    texts:
+      - Filipi
+      - Fili.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tésalônikà
+      - Tés.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timôtio
+      - Tim.
+  - osis: Titus
+    texts:
+      - Tit.
+      - Titô
+  - osis: Phlm
+    texts:
+      - Filémon
+      - Fil.
+  - osis: Heb
+    texts:
+      - Héber
+      - Héb.
+  - osis: Jas
+    texts:
+      - Yakobo
+      - Yako.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pétro
+      - Pét.
+  - osis: Jude
+    texts:
+      - Yuda
+      - Yu.
+translations:
+  - BMA

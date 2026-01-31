@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - I
+  second: &second
+    - II
+  third: &third
+    - III
+books:
+  - osis: Rev
+    texts:
+      - Kasigri
+  - osis: Matt
+    texts:
+      - Matiyu
+  - osis: Mark
+    texts:
+      - Maaki
+  - osis: Luke
+    texts:
+      - Luuki
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Gyɔni
+  - osis: Acts
+    texts:
+      - Tuumudima Tuma
+  - osis: Rom
+    texts:
+      - Room Dima
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kɔrinti Dima
+  - osis: Col
+    texts:
+      - Kɔloosidima
+  - osis: Gal
+    texts:
+      - Galɛseaa Dima
+  - osis: Eph
+    texts:
+      - Ɛfɛsusi Dima
+  - osis: Phil
+    texts:
+      - Filipaai Dima
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tɛsalɔnika Dima
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timɔti
+  - osis: Titus
+    texts:
+      - Taituusi
+  - osis: Phlm
+    texts:
+      - Failiimɔn
+  - osis: Heb
+    texts:
+      - Hibruu Dima
+  - osis: Jas
+    texts:
+      - Gyeemsi
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piita
+  - osis: Jude
+    texts:
+      - Gyuuda
+translations:
+  - MAW

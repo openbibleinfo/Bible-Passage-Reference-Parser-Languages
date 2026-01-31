@@ -1,0 +1,121 @@
+default:
+  1Cor:
+    long: 1 Corinth Embokena
+    short: 1Co
+  1John:
+    long: 1 John
+    short: 1Jn
+  1Pet:
+    long: 1 Peter
+    short: 1P
+  1Thess:
+    long: 1 Tesalonaika Embokena
+    short: 1Th
+  1Tim:
+    long: 1 Timothy
+    short: 1Ti
+  2Cor:
+    long: 2 Corinth Embokena
+    short: 2Co
+  2John:
+    long: 2 John
+    short: 2Jn
+  2Pet:
+    long: 2 Peter
+    short: 2P
+  2Thess:
+    long: 2 Tesalonaika Embokena
+    short: 2Th
+  2Tim:
+    long: 2 Timothy
+    short: 2Ti
+  3John:
+    long: 3 John
+    short: 3Jn
+  Acts:
+    long: Ekaresia
+    short: Ac
+  Col:
+    long: Kolosi Embokena
+    short: Col
+  Eph:
+    long: Efesas Embokena
+    short: Ef
+  Gal:
+    long: Galesia Embokena
+    short: Ga
+  Heb:
+    long: Hebrew Embokena
+    short: He
+  Jas:
+    long: James
+    short: Jas
+  John:
+    long: John
+    short: Jn
+  Jonah:
+    long: Jonah
+    short: Jon
+  Jude:
+    long: Jude
+    short: Jd
+  Luke:
+    long: Luke
+    short: Lk
+  Mark:
+    long: Mark
+    short: Mk
+  Matt:
+    long: Matthew
+    short: Mt
+  Phil:
+    long: Filipai Embokena
+    short: Phil
+  Phlm:
+    long: Philemon
+    short: Phm
+  Rev:
+    long: Amboda Sirorarira
+    short: As
+  Rom:
+    long: Rome Embokena
+    short: Rm
+  Ruth:
+    long: Ruth
+    short: Ru
+  Titus:
+    long: Titus
+    short: Tit
+translations:
+  kprnt:
+    1Pet:
+      short: 1Pe
+    1Thess:
+      short: 1Ts
+    1Tim:
+      short: 1Tm
+    2Pet:
+      short: 2Pe
+    2Thess:
+      short: 2Ts
+    2Tim:
+      short: 2Tm
+    Acts:
+      short: Ek
+    Col:
+      short: Kol
+    Heb:
+      short: Heb
+    Jas:
+      short: Jm
+    Phil:
+      short: Plp
+    Phlm:
+      short: Plm
+  kpr:
+    Eph:
+      short: Eph
+    Rev:
+      short: Rev
+    Rom:
+      short: Ro

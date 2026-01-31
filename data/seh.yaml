@@ -1,0 +1,161 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Cidziwiso
+      - Cid.
+      - Cid
+  - osis: Matt
+    texts:
+      - Mattheo
+      - Mateu
+      - Mat
+      - Mt.
+  - osis: Mark
+    texts:
+      - Marku
+      - Mk.
+  - osis: Luke
+    texts:
+      - Luka
+      - Lk.
+  - osis: 1John
+    texts:
+      - 1Jw.
+      - 1Jw
+  - osis: 2John
+    texts:
+      - 2Jw.
+      - 2Jw
+  - osis: 3John
+    texts:
+      - 3 Juwau
+      - 3Jw.
+      - 3Jw
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Juwau
+  - osis: John
+    texts:
+      - Juwau
+      - Jw.
+  - osis: Acts
+    texts:
+      - Mabasa a Apoxtolo
+      - Mabasa
+      - Mab.
+  - osis: Rom
+    texts:
+      - aRoma
+      - Arm.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Akorintu
+  - osis: 1Cor
+    texts:
+      - 1Ak.
+  - osis: 2Cor
+    texts:
+      - 2Ak.
+  - osis: Col
+    texts:
+      - aKolosi
+      - Aks.
+  - osis: Gal
+    texts:
+      - aGalata
+      - Agt.
+  - osis: Eph
+    texts:
+      - Aefesu
+      - Afs.
+  - osis: Phil
+    texts:
+      - aFilipi
+      - Afp.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Atesalonika
+  - osis: 1Thess
+    texts:
+      - 1At.
+      - 1At
+  - osis: 2Thess
+    texts:
+      - 2At.
+      - 2At
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: 1Tim
+    texts:
+      - 1Tm.
+      - 1Tm
+  - osis: 2Tim
+    texts:
+      - 2Tm.
+      - 2Tm
+  - osis: Titus
+    texts:
+      - Titu
+      - Tt.
+      - Tt
+  - osis: Phlm
+    texts:
+      - Filimoni
+      - Fl.
+      - Fl
+  - osis: Heb
+    texts:
+      - Hebhereu
+      - Heb.
+      - Heb
+  - osis: Jas
+    texts:
+      - Tiyago
+      - Tg.
+      - Tg
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pedhru
+  - osis: 1Pet
+    texts:
+      - 1Pd.
+      - 1Pd
+  - osis: 2Pet
+    texts:
+      - 2Pd.
+      - 2Pd
+  - osis: Jude
+    texts:
+      - Djuda
+      - Djd.
+      - Djd
+translations:
+  - SEHNT
+  - CNT13
+  - SEHMAT

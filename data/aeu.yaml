@@ -1,0 +1,119 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Genesis
+  - osis: Rev
+    texts:
+      - Phaodaiq
+      - Phd
+  - osis: Ps
+    texts:
+      - Tsiqeeq
+  - osis: Matt
+    texts:
+      - Maqthaiq
+      - Mth
+  - osis: Mark
+    texts:
+      - Maqkul
+      - Mk
+  - osis: Luke
+    texts:
+      - Lulkavq
+      - Lk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yaolhaq
+      - Yh
+  - osis: Acts
+    texts:
+      - Gaqkhoel
+      - Gkh
+  - osis: Rom
+    texts:
+      - Lolmav
+      - Lm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Gaolliqthu
+      - Glth
+  - osis: Col
+    texts:
+      - Gaollaolsail
+      - Gls
+  - osis: Gal
+    texts:
+      - Gaqlaqtil
+      - Glt
+  - osis: Eph
+    texts:
+      - Eilpheilsu
+      - Eiphs
+  - osis: Phil
+    texts:
+      - Pillilpiv
+      - Plp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Theilsaqlolni
+      - Thsln
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tilmolseiq
+      - Tms
+  - osis: Titus
+    texts:
+      - Tiltuv
+      - Tt
+  - osis: Phlm
+    texts:
+      - Philleilmoq
+      - Plm
+  - osis: Heb
+    texts:
+      - Heiqbhail
+      - Hbh
+  - osis: Jas
+    texts:
+      - Yaqkov
+      - Yk
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Bheiqtuvluv
+      - Bhtl
+  - osis: Jude
+    texts:
+      - Yuldav
+      - Yd
+translations:
+  - AEU

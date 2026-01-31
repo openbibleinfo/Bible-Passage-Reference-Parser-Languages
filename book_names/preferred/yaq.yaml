@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 Korintiom
+    short: 1 Co.
+  1John:
+    long: 1 Joan
+    short: 1 Jn.
+  1Pet:
+    long: 1 Peeo
+    short: 1 P.
+  1Thess:
+    long: 1 Tesalonisensem
+    short: 1 Ts.
+  1Tim:
+    long: 1 Timoteeo
+    short: 1 Ti.
+  2Cor:
+    long: 2 Korintiom
+    short: 2 Co.
+  2John:
+    long: 2 Joan
+    short: 2 Jn.
+  2Pet:
+    long: 2 Peeo
+    short: 2 P.
+  2Thess:
+    long: 2 Tesalonisensem
+    short: 2 Ts.
+  2Tim:
+    long: 2 Timoteeo
+    short: 2 Ti.
+  3John:
+    long: 3 Joan
+    short: 3 Jn.
+  Acts:
+    long: Krijtota Yeu Pu'arim Ya'ari
+    short: Hch.
+  Col:
+    long: Kolosensem
+    short: Col.
+  Eph:
+    long: Epeesiom
+    short: Ef.
+  Gal:
+    long: Kaalatam
+    short: Gá.
+  Heb:
+    long: Ebreeom
+    short: He.
+  Jas:
+    long: Santiaako
+    short: Stg.
+  John:
+    long: Joan
+    short: Jn.
+  Jude:
+    long: Juuras
+    short: Jud.
+  Luke:
+    long: Luukas
+    short: Lc.
+  Mark:
+    long: Maekos
+    short: Mr.
+  Matt:
+    long: Mateeo
+    short: Mt.
+  Phil:
+    long: Pilipensem
+    short: Fil.
+  Phlm:
+    long: Pilemon
+    short: Flm.
+  Rev:
+    long: Apokalipsis
+    short: Ap.
+  Rom:
+    long: Romaanom
+    short: Ro.
+  Titus:
+    long: Tiito
+    short: Tit.

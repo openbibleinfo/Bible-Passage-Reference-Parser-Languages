@@ -1,0 +1,37 @@
+default:
+  1John:
+    long: 1 John
+    short: 1 John
+  2Cor:
+    long: 2 Corinthians
+    short: 2 Cor.
+  Dan:
+    long: Daniel
+    short: Dan.
+  Exod:
+    long: Exodus
+    short: Exodus
+  Ezek:
+    long: Ezekiel
+    short: Ezek.
+  Hab:
+    long: Habakkuk
+    short: Hab.
+  Jer:
+    long: Jeremiah
+    short: Jer.
+  Joel:
+    long: Joel
+    short: Joel
+  Luke:
+    long: St. Luke
+    short: Luke
+  Mal:
+    long: Malachi
+    short: Mal.
+  Matt:
+    long: St. Matthew
+    short: Matt.
+  Ps:
+    long: Psalms
+    short: Psal.

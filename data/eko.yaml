@@ -1,0 +1,157 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Mwanzo
+      - Mwa
+  - osis: Exod
+    texts:
+      - Olaawo
+      - Ola
+  - osis: Rev
+    texts:
+      - Othoonyeziwa
+      - Oth
+  - osis: Ps
+    texts:
+      - Zaapuura
+      - Zaa
+  - osis: Jonah
+    texts:
+      - Yuunusa
+      - Yuu
+  - osis: Matt
+    texts:
+      - Matewuzhu
+      - Mat
+  - osis: Mark
+    texts:
+      - Maaruku
+      - Maa
+  - osis: Luke
+    texts:
+      - Luuka
+      - Luu
+  - osis: 1John
+    texts:
+      - 1Ya
+  - osis: 2John
+    texts:
+      - 2Ya
+  - osis: 3John
+    texts:
+      - 3 Yaahaya
+      - 3Ya
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yaahaya
+  - osis: John
+    texts:
+      - Yaahaya
+      - Yaa
+  - osis: Acts
+    texts:
+      - Khaazi
+      - Kha
+  - osis: Rom
+    texts:
+      - aRooma
+      - aRo
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Akorintiyu
+  - osis: 1Cor
+    texts:
+      - 1Ak
+  - osis: 2Cor
+    texts:
+      - 2Ak
+  - osis: Col
+    texts:
+      - Akoloosu
+      - aKo
+  - osis: Gal
+    texts:
+      - Akaalata
+      - Aka
+  - osis: Eph
+    texts:
+      - Ayeefezu
+      - Aye
+  - osis: Phil
+    texts:
+      - Afiliipu
+      - aFi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Atizaloonika
+  - osis: 1Thess
+    texts:
+      - 1At
+  - osis: 2Thess
+    texts:
+      - 2At
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timootiyu
+  - osis: 1Tim
+    texts:
+      - 1Tm
+  - osis: 2Tim
+    texts:
+      - 2Tm
+  - osis: Titus
+    texts:
+      - Tiitu
+      - Tii
+  - osis: Phlm
+    texts:
+      - Filimooni
+      - Fil
+  - osis: Heb
+    texts:
+      - Meepereewu
+      - Mee
+  - osis: Jas
+    texts:
+      - Tiyaaku
+      - Tiy
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pheeturu
+  - osis: 1Pet
+    texts:
+      - 1Ph
+  - osis: 2Pet
+    texts:
+      - 2Ph
+  - osis: Jude
+    texts:
+      - Yuuda
+      - Yda
+translations:
+  - EKO

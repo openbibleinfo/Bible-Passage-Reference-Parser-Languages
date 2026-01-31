@@ -1,0 +1,339 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - උත්පත්ති
+      - උත්
+  - osis: Exod
+    texts:
+      - නික්මයාම
+      - නික්ම
+  - osis: Lev
+    texts:
+      - ලෙවී ව්‍යවස්ථාව
+      - ලෙවී කථාව
+      - ලෙවී
+  - osis: Num
+    texts:
+      - ගණන් කථාව
+      - ගණන්
+  - osis: Sir
+    texts:
+      - උපදේශකයා හෙවත් සිරාක්
+      - සිරාක්
+  - osis: Wis
+    texts:
+      - සලමොන්ගේ ප්‍රඥාව
+      - සලමො
+  - osis: Lam
+    texts:
+      - විලාප ගී
+      - විලාප
+  - osis: Rev
+    texts:
+      - එළිදරව්ව
+      - එළිදරවු
+      - එළිදරව්
+      - එළිද
+      - එළි
+  - osis: Deut
+    texts:
+      - ද්විතීය නීති සංග්‍රහය
+      - ද්වීතීය කථාව
+      - ද්වි.නී.
+      - ද්වී.නි.
+  - osis: Josh
+    texts:
+      - ජෝෂුවා
+      - යෝෂුවා
+      - ජෝෂු
+      - යෝෂු
+  - osis: Judg
+    texts:
+      - විනිශ්චයකාරයන්ගේ පොත
+      - වීරාවලිය
+      - විනිශ්
+      - වීරා
+  - osis: Ruth
+    texts:
+      - රූත්ගේ කථාව
+      - රූත්
+  - osis: Isa
+    texts:
+      - යෙසායා
+      - යෙසා
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - සාමුවෙල්
+      - සාමු
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - රාජාවලියේ
+      - රාජාවලිය
+      - රාජා
+  - osis:
+      - osis: 2Chr
+        before: *second
+    texts:
+      - 1 වංශාවලිය
+      - වංශාවලියේ
+      - වංශාවලිය
+      - වංශා
+  - osis:
+      - osis: 1Chr
+        before: *first
+    texts:
+      - වංශාවලියේ
+      - වංශාවලිය
+      - වංශා
+  - osis: Ezra
+    texts:
+      - එස්රා
+  - osis: Neh
+    texts:
+      - නෙහෙමියා
+      - නෙහෙ
+  - osis: Job
+    texts:
+      - ජෝබ්
+  - osis: Ps
+    texts:
+      - ගීතාවලිය
+      - ගීතා
+  - osis: Prov
+    texts:
+      - හිතෝපදේශ
+      - හිතෝ
+  - osis: Eccl
+    texts:
+      - ධර්මදේශකයා
+      - ධර්ම
+  - osis: Song
+    texts:
+      - ප්‍රේම ගී
+      - ප්‍රේම
+  - osis: Jer
+    texts:
+      - ජෙරෙමියා
+      - ජෙරමියා
+      - ජෙර
+  - osis: Ezek
+    texts:
+      - එසකියෙල්ගේ
+      - එසකියෙල්
+      - එසකි
+  - osis: Dan
+    texts:
+      - දානියෙල්
+      - දානි
+  - osis: Hos
+    texts:
+      - හොසියා
+      - හොසි
+  - osis: Joel
+    texts:
+      - ජෝවෙල්
+      - ජෝවෙ
+  - osis: Amos
+    texts:
+      - අාමොස්
+      - ආමොස්
+      - ආමො
+  - osis: Obad
+    texts:
+      - ඔබදියා
+      - ඔබදි
+  - osis: Jonah
+    texts:
+      - ජෝනා
+  - osis: Mic
+    texts:
+      - මීකා
+  - osis: Nah
+    texts:
+      - නාහුම්
+      - නාහූම්
+  - osis: Hab
+    texts:
+      - හබක්කුක්
+      - හබ
+  - osis: Zeph
+    texts:
+      - ශෙපනියා
+      - ශෙප
+  - osis: Hag
+    texts:
+      - හග්ගයි
+      - හග්
+  - osis: Zech
+    texts:
+      - සෙකරියා
+      - සෙකරි
+  - osis: Mal
+    texts:
+      - මලාකි
+      - මලාකී
+  - osis: Matt
+    texts:
+      - ශුද්ධවර මතෙව්
+      - ශු. මතෙව්
+      - මතෙව්
+      - මතෙ
+  - osis: Mark
+    texts:
+      - ශුද්ධවර මාක්
+      - ශු. මාර්ක්
+      - මාර්ක්
+      - මාක්
+      - මාර්
+  - osis: Luke
+    texts:
+      - ශුද්ධවර ලූක්
+      - ශු. ලූක්
+      - ලූක්
+  - osis: John
+    texts:
+      - ශුද්ධවර ජොහන්
+      - ශු. යොහන්
+      - යොහන්
+      - ජොහ
+      - යොහ
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - ජොහන්
+      - යොහන්
+      - ජොහ
+      - යොහ
+  - osis: Acts
+    texts:
+      - අපෝස්තුලුවරුන්ගේ ක්‍රියා
+      - ක්‍රියා
+  - osis: Rom
+    texts:
+      - රෝම හසුන
+      - රාේම
+      - රෝම
+      - රෝ
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - කොරින්ති
+      - කොරි
+  - osis: Col
+    texts:
+      - කොලොස්සි
+      - කොලො
+  - osis: Gal
+    texts:
+      - ගලාති
+      - ගලා
+  - osis: Eph
+    texts:
+      - එපීස
+      - එපී
+  - osis: Phil
+    texts:
+      - පිලිප්පි
+      - පිලිප්
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - තෙසලෝනික
+      - තෙස
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - තිමෝති
+      - තිමෝ
+  - osis: Titus
+    texts:
+      - තීතස්
+  - osis: Phlm
+    texts:
+      - පිලෙමොන්
+      - පිලෙමො
+      - පිලෙ
+  - osis: Heb
+    texts:
+      - හෙබ්‍රෙව්
+      - හෙබ්‍රෙ
+  - osis: Jas
+    texts:
+      - ජාකොබ්
+      - යාකොබ්
+      - ජාකො
+      - යාකො
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - පේතෘස්
+      - පේදුරු
+      - පේතෘ
+      - පේදු
+  - osis: Jude
+    texts:
+      - යූදස්
+      - ජූද්
+      - යූද්
+  - osis: Tob
+    texts:
+      - තෝබිත්
+  - osis: Jdt
+    texts:
+      - ජුදිත්
+  - osis: Bar
+    texts:
+      - බාරුක්
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+    texts:
+      - මකබිවරු
+      - මකබි
+  - osis: EsthGr
+    texts:
+      - එස්තර් (ග්‍රීක් පිටපත)
+      - එස්ත (ග්‍රීක්)
+  - osis: Esth
+    texts:
+      - එස්තර්
+      - එස්ත
+translations:
+  - NRSV
+  - SNRV
+  - SROV
+  - SCV

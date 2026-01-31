@@ -1,0 +1,411 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Tshibangidilu
+      - Genese
+      - Tshib
+      - Gen.
+  - osis: Exod
+    texts:
+      - Tshimuangi
+      - Ekesode
+      - Tshim
+      - Ek.
+  - osis: Bel
+    texts:
+      - Bele
+  - osis: Lev
+    texts:
+      - Mikenji ya bena Levi
+      - Lewitiki
+      - Lew.
+      - Lev
+  - osis: Num
+    texts:
+      - Dibadika
+      - Nomba
+      - Nom.
+      - Dib
+  - osis: Sir
+    texts:
+      - Sira
+      - Sir
+  - osis: Wis
+    texts:
+      - Meji
+      - Mj
+  - osis: Lam
+    texts:
+      - Muadi
+      - Muad
+  - osis: EpJer
+    texts:
+      - Mukanda mutuma wa Yirmeya
+      - Muk Yirm
+  - osis: Rev
+    texts:
+      - Buakabuluibua
+      - Didimanyisha
+      - Buak.
+      - Didim
+  - osis: Deut
+    texts:
+      - Dutelonone
+      - Dielulula
+      - Diel
+      - Dut.
+  - osis: Josh
+    texts:
+      - Yoshuwa
+      - Yoshua
+      - Yosh.
+      - Yosh
+  - osis: Judg
+    texts:
+      - Balumbuluishi
+      - Balombodi
+      - Bal.
+      - Bal
+  - osis: Ruth
+    texts:
+      - Luta
+      - Rute
+      - Rt
+  - osis: Isa
+    texts:
+      - Yeshaya
+      - Yesh.
+      - Yesh
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuwele
+      - Samuele
+      - Sam.
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Bakalenga
+      - Bakelenge
+      - Bak.
+      - Bak
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Kulondolola
+      - Kul.
+      - Kul
+  - osis: Ezra
+    texts:
+      - Ezela
+      - Ezra
+      - Ez.
+      - Ezr
+  - osis: Neh
+    texts:
+      - Nehemiya
+      - Nehemya
+      - Neh.
+      - Neh
+  - osis: Job
+    texts:
+      - Yobe
+      - Yobo
+      - Yob
+  - osis: Ps
+    texts:
+      - Misambu
+      - Mis.
+      - Mis
+  - osis: Prov
+    texts:
+      - Nsumuinu
+      - Nsu.
+      - Nsum
+  - osis: Eccl
+    texts:
+      - Muambi
+      - Muam.
+      - Mb
+  - osis: Song
+    texts:
+      - Musambu muimpe Mutambe
+      - Musambu wa Solomo
+      - MuMu
+      - Mus.
+  - osis: Jer
+    texts:
+      - Yelemiya
+      - Yirmeya
+      - Yel.
+      - Yirm
+  - osis: Ezek
+    texts:
+      - Yehezekele
+      - Yezekiyele
+      - Yeh.
+      - Yez
+  - osis: Hos
+    texts:
+      - Hoshea
+      - Osheya
+      - Hosh.
+      - Osh
+  - osis: Joel
+    texts:
+      - Yowele
+      - Yoele
+      - Yowe
+  - osis: Amos
+    texts:
+      - Amosa
+      - Am
+  - osis: Obad
+    texts:
+      - Obadaya
+      - Obadya
+      - Oba.
+      - Ob
+  - osis: Jonah
+    texts:
+      - Yona
+      - Yon
+  - osis: Mic
+    texts:
+      - Mika
+      - Mi
+  - osis: Nah
+    texts:
+      - Nahuma
+      - Nahume
+      - Nah.
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuka
+      - Abakuke
+      - Abak
+      - Hab.
+  - osis: Zeph
+    texts:
+      - Sefanya
+      - Sef.
+      - Sef
+  - osis: Hag
+    texts:
+      - Agayi
+      - Hagai
+      - Hag.
+      - Aga
+  - osis: Zech
+    texts:
+      - Zekarya
+      - Zekâya
+      - Zek.
+      - Zek
+  - osis: Mal
+    texts:
+      - Malaki
+      - Mal.
+      - Mal
+  - osis: Matt
+    texts:
+      - Matayi
+      - Matayo
+      - Mat.
+      - Mat
+  - osis: Mark
+    texts:
+      - Marke
+      - Mâko
+      - Mar
+      - Mk.
+  - osis: Luke
+    texts:
+      - Luka
+      - Luke
+      - Lk.
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yowanane
+      - Yone
+      - Yow
+  - osis: Acts
+    texts:
+      - Malu Menza
+      - Bienzedi
+      - Bien.
+      - Mm
+  - osis: Rom
+    texts:
+      - Lomo
+      - Rome
+      - Lo.
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kolinto
+      - Korente
+      - Kol.
+      - Kor
+  - osis: Col
+    texts:
+      - Kolosai
+      - Kolose
+      - Kol.
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatia
+      - Ngalate
+      - Gal.
+      - Ngal
+  - osis: Eph
+    texts:
+      - Efeso
+      - Efeze
+      - Ef.
+      - Ef
+  - osis: Phil
+    texts:
+      - Filipoi
+      - Filip.
+      - Filipe
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonike
+      - Tes.
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+      - Tim.
+      - Tim
+  - osis: Titus
+    texts:
+      - Tite
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemona
+      - Filemone
+      - Filem.
+      - Filem
+  - osis: Heb
+    texts:
+      - Ebrewu
+      - Ebelu
+      - Eb.
+      - Ebr
+  - osis: Jas
+    texts:
+      - Yakobe
+      - Yakobo
+      - Yak.
+      - Yak
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petelo
+      - Petro
+      - Pet
+  - osis: 2Pet
+    texts:
+      - 3 Pet.
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - Petelo
+      - Petro
+      - Pet.
+      - Pet
+  - osis: Jude
+    texts:
+      - Yuda
+  - osis: Tob
+    texts:
+      - Tobite
+      - Tob
+  - osis: Jdt
+    texts:
+      - Yudite
+      - Yudt
+  - osis: Bar
+    texts:
+      - Baruke
+      - Bar
+  - osis: Sus
+    texts:
+      - Suzane
+      - Suz
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+    texts:
+      - Bamakabe
+      - Mak
+  - osis: DanGr
+    texts:
+      - Daniyele gr
+      - DanGr
+  - osis: Dan
+    texts:
+      - Daniyele
+      - Danyele
+      - Dan.
+      - Dan
+  - osis: EsthGr
+    texts:
+      - Estere ngreke
+      - Estgr
+  - osis: Esth
+    texts:
+      - Estere
+      - Esetê
+      - Est
+translations:
+  - TSH96
+  - TSH

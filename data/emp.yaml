@@ -1,0 +1,147 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Genesi
+  - osis: Exod
+    texts:
+      - Exodo
+  - osis: Lev
+    texts:
+      - Levitico
+  - osis: Num
+    texts:
+      - Numero
+  - osis: Rev
+    texts:
+      - Apocalipsi
+  - osis: Deut
+    texts:
+      - Deuteronomio
+  - osis: Josh
+    texts:
+      - Josue
+  - osis: Judg
+    texts:
+      - Juece
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Reye
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Cronica
+  - osis: Ezra
+    texts:
+      - Esdra
+  - osis: Neh
+    texts:
+      - Nehemia
+  - osis: Job
+    texts:
+      - Job
+  - osis: Jonah
+    texts:
+      - Joná
+  - osis: Matt
+    texts:
+      - Mateo
+  - osis: Mark
+    texts:
+      - Marco
+  - osis: Luke
+    texts:
+      - Luca
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Juaʌ̃
+  - osis: Acts
+    texts:
+      - Hecho
+  - osis: Rom
+    texts:
+      - Romano
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corinto
+  - osis: Col
+    texts:
+      - Colosa
+  - osis: Gal
+    texts:
+      - Galata
+  - osis: Eph
+    texts:
+      - Epeso
+  - osis: Phil
+    texts:
+      - Pilipo
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonica
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Pilemoʌ̃
+  - osis: Heb
+    texts:
+      - Hebreo
+  - osis: Jas
+    texts:
+      - Santiago
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pedro
+  - osis: Jude
+    texts:
+      - Juda
+translations:
+  - EMP

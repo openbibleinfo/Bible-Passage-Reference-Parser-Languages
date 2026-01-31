@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: Fakatasi Korinthus,
+    short: Fakatasi Korin
+  1John:
+    long: Fakatasi Joanes,
+    short: Fakatasi Joan
+  1Pet:
+    long: Fakatasi Pitrus,
+    short: Fakatasi Pita
+  1Thess:
+    long: Fakatasi Thisalonaika,
+    short: Fakatasi Thisa
+  1Tim:
+    long: Fakatasi Timotheus,
+    short: Fakatasi Timo
+  2Cor:
+    long: Fakarua Korinthus,
+    short: Fakarua Korin
+  2John:
+    long: Fakarua Joanes.
+    short: Fakarua Joan
+  2Pet:
+    long: Fakarua Pitrus,
+    short: Fakarua Pita
+  2Thess:
+    long: Fakarua Thisalonaika,
+    short: Fakarua Thisa
+  2Tim:
+    long: Fakarua Timotaheus,
+    short: Fakarua Timo
+  3John:
+    long: Fakatoru Joanes.
+    short: Fakatoru Joan
+  Acts:
+    long: Avere O Apostolo
+    short: Avere
+  Col:
+    long: Kolose,
+    short: Kolose
+  Eph:
+    long: Efesus,
+    short: Efesus
+  Gal:
+    long: Caleisa,
+    short: Caleisa
+  Heb:
+    long: Hibru,
+    short: Hibru
+  Jas:
+    long: Jacobus,
+    short: Jacob
+  John:
+    long: Joanes,
+    short: Joan
+  Jude:
+    long: Jute.
+    short: Jud
+  Luke:
+    long: Lukus,
+    short: Luk
+  Mark:
+    long: Markus,
+    short: Mak
+  Matt:
+    long: Mathius,
+    short: Matiu
+  Phil:
+    long: Felepai,
+    short: Felepai
+  Phlm:
+    long: Felimon.
+    short: Felimon
+  Rev:
+    long: Nokofarairo O Anea Keimai,
+    short: Nokofarairo O Anea Keimai
+  Rom:
+    long: Romanis,
+    short: Roman
+  Titus:
+    long: Taitus,
+    short: Taitus

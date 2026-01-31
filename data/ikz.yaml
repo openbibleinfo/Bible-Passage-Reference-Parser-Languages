@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Ubhwɨrɨkibhwa
+  - osis: Matt
+    texts:
+      - Mataayo
+  - osis: Mark
+    texts:
+      - Maaroko
+  - osis: Luke
+    texts:
+      - Ruuka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yoohana
+  - osis: Acts
+    texts:
+      - Amahocha ga Abhatumwa
+  - osis: Rom
+    texts:
+      - Abharuumi
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Abhakʉrintʉ
+  - osis: Col
+    texts:
+      - Abhakorosaayi
+  - osis: Gal
+    texts:
+      - Abhagaraatiya
+  - osis: Eph
+    texts:
+      - Abheefeeso
+  - osis: Phil
+    texts:
+      - Abhafiripi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Abhatɨsarʉʉnikɨ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoseo
+  - osis: Titus
+    texts:
+      - Tiitʉ
+  - osis: Phlm
+    texts:
+      - Firimʉʉni
+  - osis: Heb
+    texts:
+      - Abhɨɨbhuraaniya
+  - osis: Jas
+    texts:
+      - Yaakobho
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peetero
+  - osis: Jude
+    texts:
+      - Yuuda
+translations:
+  - IKZ

@@ -1,0 +1,57 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Mark
+    texts:
+      - मार्क
+  - osis: Luke
+    texts:
+      - लूक
+  - osis: Acts
+    texts:
+      - प्रेषित
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - करिंथ
+  - osis: 1Cor
+    texts:
+      - 1करिंथ
+  - osis: Gal
+    texts:
+      - गलती
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - थेस्स
+  - osis: 1Thess
+    texts:
+      - 1थेस्स
+  - osis: 2Thess
+    texts:
+      - 2थेस्स
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - तीमथी
+  - osis: 1Tim
+    texts:
+      - 1तीमथी
+  - osis: 2Tim
+    texts:
+      - 2तीमथी
+  - osis: Titus
+    texts:
+      - तीत
+translations:
+  - WRR

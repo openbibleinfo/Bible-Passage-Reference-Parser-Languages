@@ -1,0 +1,197 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Kam To Ihtẽm Xà
+      - Kam
+  - osis: Exod
+    texts:
+      - Me Cator Xà
+      - Cat
+  - osis: Num
+    texts:
+      - Me Cahyt Xà
+      - Cah
+  - osis: Rev
+    texts:
+      - Ipipẽ Xà
+      - Ip
+  - osis: Deut
+    texts:
+      - Cute Me To Ihhimpej Xà
+      - Cut
+  - osis: Josh
+    texts:
+      - Jojuw
+      - Joj
+  - osis: Judg
+    texts:
+      - Me To Ihhimpej Catêjê
+      - Ih
+  - osis: Ruth
+    texts:
+      - Rutikwỳj
+      - Rut
+  - osis: Isa
+    texts:
+      - Ixaj
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Xamer
+      - Xam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Pahhi Catêjê
+      - Pah
+  - osis:
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Me Hũjarẽn Xà
+      - Hũ
+  - osis: Ezra
+    texts:
+      - Extra
+      - Ex
+  - osis: Job
+    texts:
+      - Jo
+  - osis: Ps
+    texts:
+      - Mencrer Xà
+      - Men
+  - osis: Prov
+    texts:
+      - Me Hapackre Xà
+      - Me Hap
+  - osis: Jer
+    texts:
+      - Jeremij
+      - Jer
+  - osis: Dan
+    texts:
+      - Taner
+      - Tan
+  - osis: Jonah
+    texts:
+      - Jona
+      - Jon
+  - osis: Hab
+    texts:
+      - Hapakuc
+      - Hap
+  - osis: Matt
+    texts:
+      - Matew
+      - Mt
+  - osis: Mark
+    texts:
+      - Macô
+      - Mc
+  - osis: Luke
+    texts:
+      - Ruc
+      - Rc
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jowãw
+      - Jow
+  - osis: Acts
+    texts:
+      - Me Hàpên Xà
+      - Me Hàp
+  - osis: Rom
+    texts:
+      - Roman
+      - Ro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corinti
+      - Co
+  - osis: Col
+    texts:
+      - Coroxo
+      - Cor
+  - osis: Gal
+    texts:
+      - Carati
+      - Car
+  - osis: Eph
+    texts:
+      - Epet
+      - Ep
+  - osis: Phil
+    texts:
+      - Pirip
+      - Pi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Texarõn
+      - Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timot
+      - Ti
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Piremõ
+      - Pir
+  - osis: Heb
+    texts:
+      - Ixaher
+      - Ixah
+  - osis: Jas
+    texts:
+      - Tijac
+      - Tij
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petrô
+      - Pe
+  - osis: Jude
+    texts:
+      - Juta
+      - Jut
+translations:
+  - RAM

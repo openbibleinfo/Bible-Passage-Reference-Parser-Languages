@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1Kor
+    short: 1Kor
+  1John:
+    long: 1Yoh
+    short: 1Yoh
+  1Pet:
+    long: 1Pe
+    short: 1Pe
+  1Thess:
+    long: 1Tes
+    short: 1Tes
+  1Tim:
+    long: 1Tim
+    short: 1Tim
+  2Cor:
+    long: 2Kor
+    short: 2Kor
+  2John:
+    long: 2Yoh
+    short: 2Yoh
+  2Pet:
+    long: 2Pe
+    short: 2Pe
+  2Thess:
+    long: 2Tes
+    short: 2Tes
+  2Tim:
+    long: 2Tim
+    short: 2Tim
+  3John:
+    long: 3Yoh
+    short: 3Yoh
+  Acts:
+    long: Bap
+    short: Bap
+  Col:
+    long: Kol
+    short: Kol
+  Eph:
+    long: Ef
+    short: Ef
+  Gal:
+    long: Gal
+    short: Gal
+  Heb:
+    long: Ebr
+    short: Ebr
+  Jas:
+    long: Yak
+    short: Yak
+  John:
+    long: Yoh
+    short: Yoh
+  Jude:
+    long: Yud
+    short: Yud
+  Luke:
+    long: Lk
+    short: Lk
+  Mark:
+    long: Mk
+    short: Mk
+  Matt:
+    long: Mt
+    short: Mt
+  Phil:
+    long: Fil
+    short: Fil
+  Phlm:
+    long: Flm
+    short: Flm
+  Rev:
+    long: Ekm
+    short: Ekm
+  Rom:
+    long: Rom
+    short: Rom
+  Titus:
+    long: Tit
+    short: Tit

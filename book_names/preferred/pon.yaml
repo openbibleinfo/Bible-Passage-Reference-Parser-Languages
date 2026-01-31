@@ -1,0 +1,296 @@
+default:
+  1Chr:
+    long: 1 Kronikel
+    short: 1 Kron.
+  1Cor:
+    long: 1 Korint
+    short: 1 Kor
+  1John:
+    long: 1 Sohn
+    short: 1 Ioa
+  1Kgs:
+    long: 1 Nanmwarki Kan
+    short: 1 Nan.
+  1Pet:
+    long: 1 Piter
+    short: 1 Pet
+  1Sam:
+    long: 1 Samuel
+    short: 1 Sam.
+  1Thess:
+    long: 1 Deselonika
+    short: 1 Des.
+  1Tim:
+    long: 1 Timoty
+    short: 1 Tim
+  2Chr:
+    long: 2 Kronikel
+    short: 2 Kron.
+  2Cor:
+    long: 2 Korint
+    short: 2 Kor
+  2John:
+    long: 2 Sohn
+    short: 2 Ioa
+  2Kgs:
+    long: 2 Nanmwarki Kan
+    short: 2 Nan.
+  2Pet:
+    long: 2 Piter
+    short: 2 Pet
+  2Sam:
+    long: 2 Samuel
+    short: 2 Sam.
+  2Thess:
+    long: 2 Deselonika
+    short: 2 Des.
+  2Tim:
+    long: 2 Timoty
+    short: 2 Tim
+  3John:
+    long: 3 Sohn
+    short: 3 Ioa
+  Acts:
+    long: Wiawia
+    short: Wia
+  Amos:
+    long: Eimwos
+    short: Ei.
+  Col:
+    long: Kolose
+    short: Kol
+  Dan:
+    long: Daniel
+    short: Dan.
+  Deut:
+    long: Deuderonomi
+    short: Deud.
+  Eccl:
+    long: Eklesiasdes
+    short: Ekl.
+  Eph:
+    long: Episos
+    short: Ep.
+  Esth:
+    long: Ester
+    short: Est.
+  Exod:
+    long: Eksodus
+    short: Eks.
+  Ezek:
+    long: Esekiel
+    short: Ese.
+  Ezra:
+    long: Esra
+    short: Esra
+  Gal:
+    long: Kalesia
+    short: Kal
+  Gen:
+    long: Senesis
+    short: Sen.
+  Hab:
+    long: Apakuk
+    short: Apak.
+  Hag:
+    long: Akkai
+    short: Ak.
+  Heb:
+    long: Ipru
+    short: Ipru
+  Hos:
+    long: Oseia
+    short: Os.
+  Isa:
+    long: Aiseia
+    short: Ais.
+  Jas:
+    long: Iakopus
+    short: Iak
+  Jer:
+    long: Seremaia
+    short: Ser.
+  Job:
+    long: Sohp
+    short: Sohp
+  Joel:
+    long: Joel
+    short: Joel
+  John:
+    long: Ioanes
+    short: Ioa
+  Jonah:
+    long: Sona
+    short: Sona
+  Josh:
+    long: Sosua
+    short: Sos.
+  Jude:
+    long: Iudas
+    short: Iudas
+  Judg:
+    long: Sounkopwung Kan
+    short: Sounkopwung Kan
+  Lam:
+    long: Koulen Kedepwidepw Kan
+    short: Koul.
+  Lev:
+    long: Lipai
+    short: Lip.
+  Luke:
+    long: Luk
+    short: Luk
+  Mal:
+    long: Malakai
+    short: Mal.
+  Mark:
+    long: Mark
+    short: Mar
+  Matt:
+    long: Madiu
+    short: Mad.
+  Mic:
+    long: Maika
+    short: Maika
+  Nah:
+    long: Nahum
+    short: Nah.
+  Neh:
+    long: Nehmaia
+    short: Neh.
+  Num:
+    long: Nempe Kan
+    short: Nempe
+  Obad:
+    long: Opadaia
+    short: Op.
+  Phil:
+    long: Men Pilipi
+    short: Pil.
+  Phlm:
+    long: Pailimwon
+    short: Pail.
+  Prov:
+    long: Lepin Padahk Audapan Kan
+    short: Lep.
+  Ps:
+    long: Melkahka Kan
+    short: Mel.
+  Rev:
+    long: Kaudiahl
+    short: Kaud.
+  Rom:
+    long: Men Rom
+    short: Rom
+  Ruth:
+    long: Rud
+    short: Rud
+  Song:
+    long: Melkahkahn Melkahka Kan
+    short: M.M.K.
+  Titus:
+    long: Taitus
+    short: Tait.
+  Zech:
+    long: Sekaraia
+    short: Sek.
+  Zeph:
+    long: Sepanaia
+    short: Sep.
+translations:
+  pon2006:
+    1Cor:
+      short: 1 Kor.
+    1John:
+      short: 1 Sohn
+    1Pet:
+      short: 1 Pit.
+    1Tim:
+      short: 1 Tim.
+    2Cor:
+      short: 2 Kor.
+    2John:
+      short: 2 Sohn
+    2Pet:
+      short: 2 Pit.
+    2Tim:
+      short: 2 Tim.
+    3John:
+      short: 3 Sohn
+    Acts:
+      long: Wiewia Kan
+      short: Wie.
+    Col:
+      short: Kol.
+    Gal:
+      short: Kal.
+    Jas:
+      long: Seims
+      short: Seims
+    John:
+      long: Sohn
+      short: Sohn
+    Jude:
+      long: Sud
+      short: Sud
+    Mark:
+      short: Mark
+    Phil:
+      long: Pilipai
+    Rom:
+      long: Rom
+  ponpd:
+    1Cor:
+      long: Men Korint I
+    1John:
+      long: Ioanes I
+    1Pet:
+      long: Petrus I
+    1Thess:
+      long: Men Tesalonik I
+      short: 1 Tes
+    1Tim:
+      long: Timoteus I
+    2Cor:
+      long: Men Korint II
+    2John:
+      long: Ioanes II
+    2Pet:
+      long: Petrus II
+    2Thess:
+      long: Men Tesalonik II
+      short: 2 Tes
+    2Tim:
+      long: Timoteus II
+    3John:
+      long: Ioanes III
+    Col:
+      long: Men Kolose
+    Eph:
+      long: Men Episus
+      short: Epis
+    Gal:
+      long: Men Kalesia
+    Heb:
+      long: Men Ipru
+    Luke:
+      long: Lukas
+    Mark:
+      long: Markus
+    Matt:
+      long: Matäus
+      short: Mat
+    Phil:
+      short: Pilipi
+    Phlm:
+      long: Pilemon
+      short: Pilemon
+    Ps:
+      long: Psalm
+      short: Ps.
+    Rev:
+      long: Kaudial
+      short: Kaudial
+    Titus:
+      long: Titus
+      short: Tit

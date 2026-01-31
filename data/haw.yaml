@@ -1,0 +1,240 @@
+variables:
+  first: &first
+    - Ka
+    - ʻO
+  second: &second
+    - Ka
+    - ʻO
+books:
+  - osis: Gen
+    texts:
+      - Ka Buke Mua A Mose, I Kapa ʻIa Kinohi
+  - osis: Exod
+    texts:
+      - Ka Buke ʻAlua A Mose, I Kapa ʻIa Puka ʻAna
+  - osis: Lev
+    texts:
+      - Ka Buke ʻAkolu A Mose, I Kapa ʻIa ʻOihana Kahuna
+  - osis: Num
+    texts:
+      - Ka Buke ʻAhā A Mose, I Kapa ʻIa Nā Helu
+  - osis: Lam
+    texts:
+      - Ke Kanikau A Ieremia
+  - osis: Rev
+    texts:
+      - Ka Hōʻike ʻAna A Ioane Ka Haipule
+  - osis: Deut
+    texts:
+      - Ka Buke ʻAlima A Mose, I Kapa ʻIa Kānāwai Lua
+  - osis: Josh
+    texts:
+      - Ka Buke A Iosua
+  - osis: Judg
+    texts:
+      - Ka Buke No Nā Luna Kānāwai
+  - osis: Ruth
+    texts:
+      - Ka Buke No Ruta
+  - osis: Isa
+    texts:
+      - Ka Wānana A ʻIsaia
+  - osis:
+      - osis: 1Sam
+        before: *first
+    texts:
+      - Buke Mua A Samuʻela
+  - osis:
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Buke ʻAlua A Samuʻela
+  - osis:
+      - osis: 1Kgs
+        before: *first
+    texts:
+      - Buke Mua No Nā Aliʻi
+  - osis:
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Buke ʻAlua No Nā Aliʻi
+  - osis:
+      - osis: 1Chr
+        before: *first
+    texts:
+      - Buke Mua O Ka ʻOihana Aliʻi
+  - osis:
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Buke ʻAlua O Ka ʻOihana Aliʻi
+  - osis: Ezra
+    texts:
+      - Ka Buke A ʻEzera
+  - osis: Neh
+    texts:
+      - Ka Buke A Nehemia
+  - osis: Esth
+    texts:
+      - Ka Buke No ʻEsetera
+  - osis: Job
+    texts:
+      - Ka Buke No Ioba
+  - osis: Ps
+    texts:
+      - Ka Buke O Nā Halelū
+  - osis: Prov
+    texts:
+      - Nā ʻŌlelo Akamai A Solomona
+  - osis: Eccl
+    texts:
+      - Ke Kahuna
+  - osis: Song
+    texts:
+      - Ke Mele A Solomona
+  - osis: Jer
+    texts:
+      - Ka Wānana A Ieremia
+  - osis: Ezek
+    texts:
+      - Ka Wānana A ʻEzekiʻela
+  - osis: Dan
+    texts:
+      - Ka Buke No Daniʻela
+  - osis: Hos
+    texts:
+      - Hosea
+  - osis: Joel
+    texts:
+      - Ioʻela
+  - osis: Amos
+    texts:
+      - ʻAmosa
+  - osis: Obad
+    texts:
+      - ʻObadia
+  - osis: Jonah
+    texts:
+      - Iona
+  - osis: Mic
+    texts:
+      - Mika
+  - osis: Nah
+    texts:
+      - Nahuma
+  - osis: Hab
+    texts:
+      - Habakuka
+  - osis: Zeph
+    texts:
+      - Zepania
+  - osis: Hag
+    texts:
+      - Hagai
+  - osis: Zech
+    texts:
+      - Zekaria
+  - osis: Mal
+    texts:
+      - Malaki
+  - osis: Matt
+    texts:
+      - Ka ʻEuanelio I Kākau ʻIa Ai E Mataio
+  - osis: Mark
+    texts:
+      - Ka ʻEuanelio I Kākau ʻIa Ai E Mareko
+  - osis: Luke
+    texts:
+      - Ka ʻEuanelio I Kākau ʻIa Ai E Luka
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - Ka ʻEpisetole Hoʻolaha Mua A Ioane
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - Ka ʻEpisetole Lua A Ioane
+  - osis: 3John
+    texts:
+      - ʻO Ka ʻEpisetole Kolu A Ioane
+  - osis: John
+    texts:
+      - Ka ʻEuanelio I Kākau ʻIa Ai E Ioane
+  - osis: Acts
+    texts:
+      - Nā ʻOihana A Ka Poʻe Lunaʻōlelo
+  - osis: Rom
+    texts:
+      - ʻO Ka ʻEpisetole A Paulo Ka Lunaʻōlelo I Ko Roma
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Ka ʻEpisetole Mua A Paulo Ka Lunaʻōlelo I Ko Korineto
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Ka ʻEpisetole Lua A Paulo Ka Lunaʻōlelo I Ko Korineto
+  - osis: Col
+    texts:
+      - ʻO Ka ʻEpisetole A Paulo Ka Lunaʻōlelo I Ko Kolosa
+  - osis: Gal
+    texts:
+      - ʻO Ka ʻEpisetole A Paulo Ka Lunaʻōlelo I Ko Galatia
+  - osis: Eph
+    texts:
+      - ʻO Ka ʻEpisetole A Paulo Ka Lunaʻōlelo I Ko ʻEpeso
+  - osis: Phil
+    texts:
+      - ʻO Ka ʻEpisetole A Paulo Ka Lunaʻōlelo I Ko Pilipi
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Ka ʻEpisetole Mua A Paulo Ka Lunaʻōlelo I Ko Tesalonike
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Ka ʻEpisetole Lua A Paulo Ka Lunaʻōlelo I Ko Tesalonike
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Ka ʻEpisetole Mua A Paulo Ka Lunaʻōlelo Iā Timoteo
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Ka ʻEpisetole Lua A Paulo Ka Lunaʻōlelo Iā Timoteo
+  - osis: Titus
+    texts:
+      - ʻO Ka ʻEpisetole A Paulo Iā Tito
+  - osis: Phlm
+    texts:
+      - ʻO Ka ʻEpisetole A Paulo Iā Pilemona
+  - osis: Heb
+    texts:
+      - ʻO Ka ʻEpisetole A Paulo Ka Lunaʻōlelo I Ko Hebera
+  - osis: Jas
+    texts:
+      - ʻO Ka ʻEpisetole Hoʻolaha A Iakobo
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - Ka ʻEpisetole Hoʻolaha Mua A Petero
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Ka ʻEpisetole Hoʻolaha ʻAlua A Petero
+  - osis: Jude
+    texts:
+      - ʻO Ka ʻEpisetole Hoʻolaha A Iuda
+translations:
+  - KBH

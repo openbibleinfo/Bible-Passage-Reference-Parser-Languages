@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 Kɔrint
+    short: 1Kɔr
+  1John:
+    long: Jan deete
+    short: 1Jn
+  1Pet:
+    long: Piɛr deete
+    short: 1Pr
+  1Thess:
+    long: Tɛsalonikŋ deete
+    short: 1Tɛs
+  1Tim:
+    long: Timote kɛn deete
+    short: 1Tim
+  2Cor:
+    long: 2 Kɔrint
+    short: 2Kɔr
+  2John:
+    long: Jan gɛn k‑dige
+    short: 2Jn
+  2Pet:
+    long: Piɛr gɛn k‑dige
+    short: 2Pr
+  2Thess:
+    long: Tɛsalonikŋ gɛn k‑dige
+    short: 2Tɛs
+  2Tim:
+    long: Timote gɛn k‑dige
+    short: 2Tim
+  3John:
+    long: Jan gɛn k‑mɔtɔge
+    short: 3Jn
+  Acts:
+    long: Naabm jee kaan̰ naabm Isage
+    short: Njkn
+  Col:
+    long: Kɔlɔs
+    short: Kɔl
+  Eph:
+    long: Ɛpɛz
+    short: Ɛp
+  Gal:
+    long: Galat
+    short: Gal
+  Heb:
+    long: Ɛbrege
+    short: Ɛb
+  Jas:
+    long: Jak
+    short: Jak
+  John:
+    long: Jan
+    short: Jn
+  Jude:
+    long: Jud
+    short: Jud
+  Luke:
+    long: Luk
+    short: Lk
+  Mark:
+    long: Mark
+    short: Mk
+  Matt:
+    long: Matiye
+    short: Mt
+  Phil:
+    long: Pilip
+    short: Plp
+  Phlm:
+    long: Pilemon
+    short: Plm
+  Rev:
+    long: Apokalips
+    short: Apok
+  Rom:
+    long: Rɔmɛge
+    short: Rm
+  Titus:
+    long: Tit
+    short: Tit

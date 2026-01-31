@@ -1,0 +1,298 @@
+- osis: Gen
+  texts:
+    - Oyinyima
+    - Oyn
+- osis: Exod
+  texts:
+    - Ọyịkụra
+    - Kụra
+- osis: Lev
+  texts:
+    - Ireevi
+    - Ire
+- osis: Num
+  texts:
+    - Ịrịka
+    - Ịrị
+- osis: Lam
+  texts:
+    - Arụwẹ
+    - Arụ
+- osis: Rev
+  texts:
+    - Ẹtore
+    - Ẹtẹ
+- osis: Deut
+  texts:
+    - Ọda
+- osis: Josh
+  texts:
+    - Ijosuwa
+    - Ijos
+- osis: Judg
+  texts:
+    - Ọdọvịdị
+    - Ọdọ
+- osis: Ruth
+  texts:
+    - Iruutu
+    - Iru
+- osis: Isa
+  texts:
+    - Ayịsaya
+    - Ayị
+- osis: 1Sam
+  texts:
+    - 1 Ịsamụwẹrị
+    - 1 Ịsa
+    - 1. Ịsamụwẹrị
+    - 1. Ịsa
+- osis: 2Sam
+  texts:
+    - 2 Ịsamụwẹrị
+    - 2 Ịsa
+    - 2. Ịsamụwẹrị
+    - 2. Ịsa
+- osis: 1Kgs
+  texts:
+    - 1 Ohinọyị
+    - 1 Ohi
+    - 1. Ohinọyị
+    - 1. Ohi
+- osis: 2Kgs
+  texts:
+    - 2 Ohinọyị
+    - 2 Ohi
+    - 2. Ohinọyị
+    - 2. Ohi
+- osis: 1Chr
+  texts:
+    - 1 Ịtọpa
+    - 1 Ịtọ
+    - 1. Ịtọpa
+    - 1. Ịtọ
+- osis: 2Chr
+  texts:
+    - 2 Ịtọpa
+    - 2 Ịtọ
+    - 2. Ịtọpa
+    - 2. Ịtọ
+- osis: Ezra
+  texts:
+    - Ẹzịra
+    - Ẹzị
+- osis: Neh
+  texts:
+    - Inehemaya
+    - Ine
+- osis: Esth
+  texts:
+    - Ẹsịta
+    - Ẹsị
+- osis: Job
+  texts:
+    - Ijoovu
+    - Ijov
+- osis: Prov
+  texts:
+    - Ụhịrẹyị
+    - Ụhị
+- osis: Eccl
+  texts:
+    - Ịrẹyị Ọzwọzịsa
+    - Ọzw
+- osis: Song
+  texts:
+    - Ahẹ Isoromọnị
+    - Iso
+- osis: Ps
+  texts:
+    - Ahẹ Ụgama
+    - Ahẹ
+- osis: Jer
+  texts:
+    - Ijeremaya
+    - Ijer
+- osis: Ezek
+  texts:
+    - Ezikẹẹrị
+    - Ezk
+- osis: Dan
+  texts:
+    - Ịdanịyẹrị
+    - Ịda
+- osis: Hos
+  texts:
+    - Ihoseya
+    - Iho
+- osis: Joel
+  texts:
+    - Ijowẹrị
+    - Ijow
+- osis: Amos
+  texts:
+    - Emọsị
+    - Emọ
+- osis: Obad
+  texts:
+    - Ọbadaya
+    - Ọba
+- osis: Jonah
+  texts:
+    - Ijona
+    - Ijon
+- osis: Mic
+  texts:
+    - Imika
+    - Imi
+- osis: Nah
+  texts:
+    - Ịnahụmị
+    - Ịna
+- osis: Hab
+  texts:
+    - Ihabaku
+    - Iha
+- osis: Zeph
+  texts:
+    - Ịzẹhwanaya
+    - Ịzhw
+- osis: Hag
+  texts:
+    - Ịhagayị
+    - Ihg
+- osis: Zech
+  texts:
+    - Ịzakaraya
+    - Iza
+- osis: Mal
+  texts:
+    - Ịmarakayị
+    - Ịma
+- osis: Matt
+  texts:
+    - Imatiwu
+    - Imt
+- osis: Mark
+  texts:
+    - Ịmaakị
+    - Ịmk
+- osis: Luke
+  texts:
+    - Iruuku
+    - Irk
+- osis: 1John
+  texts:
+    - 1 Ịjọọnụ
+    - 1 Ịjọ
+    - 1. Ịjọọnụ
+    - 1. Ịjọ
+- osis: 2John
+  texts:
+    - 2 Ịjọọnụ
+    - 2 Ịjọ
+    - 2. Ịjọọnụ
+    - 2. Ịjọ
+- osis: 3John
+  texts:
+    - 3 Ịjọọnụ
+    - 3 Ịjọ
+    - 3. Ịjọọnụ
+    - 3. Ịjọ
+- osis: John
+  texts:
+    - Ịjọọnụ
+    - Ịjọ
+- osis: Acts
+  texts:
+    - Odeyi
+    - Ụkọ
+- osis: Rom
+  texts:
+    - Aniroomi
+    - Iro
+- osis: 1Cor
+  texts:
+    - 1 Anịkọrịntị
+    - 1 Ịkọ
+    - 1. Anịkọrịntị
+    - 1. Ịkọ
+- osis: 2Cor
+  texts:
+    - 2 Anịkọrịntị
+    - 2 Ịkọ
+    - 2. Anịkọrịntị
+    - 2. Ịkọ
+- osis: Col
+  texts:
+    - Anikorasi
+    - Ikor
+- osis: Gal
+  texts:
+    - Anigaratiya
+    - Iga
+- osis: Eph
+  texts:
+    - Anẹhwẹsọsị
+    - Ẹhw
+- osis: Phil
+  texts:
+    - Anihwiripi
+    - Ihwi
+- osis: 1Thess
+  texts:
+    - 1 Anịtẹsaronika
+    - 1 Ịtẹ
+    - 1. Anịtẹsaronika
+    - 1. Ịtẹ
+- osis: 2Thess
+  texts:
+    - 2 Anịtẹsaronika
+    - 2 Ịtẹ
+    - 2. Anịtẹsaronika
+    - 2. Ịtẹ
+- osis: 1Tim
+  texts:
+    - 1 Itimoti
+    - 1 Itim
+    - 1. Itimoti
+    - 1. Itim
+- osis: 2Tim
+  texts:
+    - 2 Itimoti
+    - 2 Itim
+    - 2. Itimoti
+    - 2. Itim
+- osis: Titus
+  texts:
+    - Ịtayịtọsị
+    - Ịta
+- osis: Phlm
+  texts:
+    - Ihwirimọnị
+    - Ihwm
+- osis: Heb
+  texts:
+    - Anihiburu
+    - Ihib
+- osis: Jas
+  texts:
+    - Ijemiisi
+    - Ije
+- osis: 1Pet
+  texts:
+    - 1 Ipi
+    - 1. Ipi
+- osis: 2Pet
+  texts:
+    - 2 Ipi
+    - 2. Ipi
+- osis: 1Pet
+  texts:
+    - 1Ipita
+- osis: 2Pet
+  texts:
+    - 2Ipita
+- osis: Jude
+  texts:
+    - Ijudi

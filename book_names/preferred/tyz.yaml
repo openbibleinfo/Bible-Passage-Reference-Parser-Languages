@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: I Lịch Xử
+    short: I Xử
+  1Cor:
+    long: I Cô-rinh-tô
+    short: I Cô
+  1John:
+    long: I Dăng
+    short: I Dăng
+  1Kgs:
+    long: I Bại Vuồng
+    short: I Vuồng
+  1Pet:
+    long: I Phi-e-rơ
+    short: I Phi
+  1Sam:
+    long: I Xa-mu-ên
+    short: I Xam
+  1Thess:
+    long: I Tê-xa-lô-ni-ca
+    short: I Tê
+  1Tim:
+    long: I Ti-mô-thê
+    short: I Tim
+  2Chr:
+    long: II Lịch Xử
+    short: II Xử
+  2Cor:
+    long: II Cô-rinh-tô
+    short: II Cô
+  2John:
+    long: II Dăng
+    short: II Dăng
+  2Kgs:
+    long: II Bại Vuồng
+    short: II Vuồng
+  2Pet:
+    long: II Phi-e-rơ
+    short: II Phi
+  2Sam:
+    long: II Xa-mu-ên
+    short: II Xam
+  2Thess:
+    long: II Tê-xa-lô-ni-ca
+    short: II Tê
+  2Tim:
+    long: II Ti-mô-thê
+    short: II Tim
+  3John:
+    long: III Dăng
+    short: III Dăng
+  Acts:
+    long: Công Viêc
+    short: Công
+  Amos:
+    long: A-mốt
+    short: Amốt
+  Col:
+    long: Cô-lô-xe
+    short: Côl
+  Dan:
+    long: Đa-ni-ên
+    short: Đa
+  Deut:
+    long: Chuyền Te̱o Lệ Lài
+    short: Chuyền
+  Eccl:
+    long: Tạy Đạo
+    short: Tạy
+  Eph:
+    long: Ê-phê-xô
+    short: Êph
+  Esth:
+    long: Ê-xơ-tê
+    short: Êxtê
+  Exod:
+    long: Oóc Khói Ai Cập
+    short: Oóc
+  Ezek:
+    long: Ê-xê-chi-ên
+    short: Êxê
+  Ezra:
+    long: E-xơ-ra
+    short: Exra
+  Gal:
+    long: Nga-la-ti
+    short: Nga
+  Gen:
+    long: Tặt Có Bôn Đin
+    short: Tặt
+  Hab:
+    long: Ha-ba-cúc
+    short: Ha
+  Hag:
+    long: A-ngê
+    short: Angê
+  Heb:
+    long: Hê-bơ-rơ
+    short: Hê
+  Hos:
+    long: Ô-xê
+    short: Ôxê
+  Isa:
+    long: Ê-xai
+    short: Êxai
+  Jas:
+    long: Da-cơ
+    short: Da
+  Jer:
+    long: Dê-rê-mi
+    short: Dê
+  Job:
+    long: Dóp
+    short: Dóp
+  Joel:
+    long: Dô-ên
+    short: Dôên
+  John:
+    long: Dăng
+    short: Dăng
+  Jonah:
+    long: Dô-na
+    short: Dôna
+  Josh:
+    long: Dô-xuê
+    short: Dôx
+  Jude:
+    long: Du-đe
+    short: Du
+  Judg:
+    long: Bại Quan Xét
+    short: Quan
+  Lam:
+    long: Bài Sli Slương Slép
+    short: Slương
+  Lev:
+    long: Lê-vi
+    short: Lê
+  Luke:
+    long: Lu-ca
+    short: Lu
+  Mal:
+    long: Ma-la-chi
+    short: Mal
+  Mark:
+    long: Mác
+    short: Mác
+  Matt:
+    long: Ma-thi-ơ
+    short: Mat
+  Mic:
+    long: Mi-chê
+    short: Mi
+  Nah:
+    long: Na-hum
+    short: Na
+  Neh:
+    long: Nê-hê-mi
+    short: Nê
+  Num:
+    long: Dân Slố
+    short: Dân
+  Obad:
+    long: Áp-đia
+    short: Ápđia
+  Phil:
+    long: Phi-líp
+    short: Phil
+  Phlm:
+    long: Phi-lê-môn
+    short: Phlm
+  Prov:
+    long: Cằm Slắng Slon
+    short: Cằm
+  Ps:
+    long: Sli Then
+    short: Sli
+  Rev:
+    long: Khay Oóc
+    short: Khay
+  Rom:
+    long: Rô-ma
+    short: Rô
+  Ruth:
+    long: Ru-tơ
+    short: Ru
+  Song:
+    long: Bài Co
+    short: Bài
+  Titus:
+    long: Tít
+    short: Tít
+  Zech:
+    long: Xa-cha-ri
+    short: Xa
+  Zeph:
+    long: Xô-phô-ni
+    short: Xô

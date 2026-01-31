@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 Lkorinto
+    short: 1Lkor
+  1John:
+    long: 1 Yoana
+    short: 1Yoa
+  1Pet:
+    long: 1 Petero
+    short: 1Pet
+  1Thess:
+    long: 1 Ltesalonike
+    short: 1Ltes
+  1Tim:
+    long: 1 Timoti
+    short: 1Tim
+  2Cor:
+    long: 2 Lkorinto
+    short: 2Lkor
+  2John:
+    long: 2 Yoana
+    short: 2Yoa
+  2Pet:
+    long: 2 Petero
+    short: 2Pet
+  2Thess:
+    long: 2 Ltesalonike
+    short: 2Ltes
+  2Tim:
+    long: 2 Timoti
+    short: 2Tim
+  3John:
+    long: 3 Yoana
+    short: 3Yoa
+  Acts:
+    long: Asat
+    short: Asat
+  Col:
+    long: Lkolosae
+    short: Lkol
+  Eph:
+    long: Epeso
+    short: Epe
+  Gal:
+    long: Lgalatia
+    short: Lga
+  Heb:
+    long: Lburania
+    short: Lbr
+  Jas:
+    long: Yakobo
+    short: Yak
+  John:
+    long: Yoana
+    short: Yoa
+  Jude:
+    long: Yuda
+    short: Yuda
+  Luke:
+    long: Luka
+    short: Luka
+  Mark:
+    long: Marko
+    short: Mrk
+  Matt:
+    long: Matayo
+    short: Mat
+  Phil:
+    long: Lpilipi
+    short: Lpi
+  Phlm:
+    long: Pilemon
+    short: Pil
+  Rev:
+    long: Mbolunoto
+    short: Mbo
+  Rom:
+    long: Rroman
+    short: Rrom
+  Titus:
+    long: Tito
+    short: Tito

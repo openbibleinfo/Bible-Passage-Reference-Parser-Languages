@@ -1,0 +1,239 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Genesis
+      - Gen.
+  - osis: Exod
+    texts:
+      - Eksodus
+      - Eks.
+  - osis: Lev
+    texts:
+      - Levitikus
+      - Lev.
+  - osis: Num
+    texts:
+      - Numeri
+      - Num.
+  - osis: Lam
+    texts:
+      - Oontakumandjimbo
+  - osis: Rev
+    texts:
+      - Ehololo
+  - osis: Deut
+    texts:
+      - Deuteronomium
+      - Deut.
+  - osis: Josh
+    texts:
+      - Josua
+      - Jos.
+  - osis: Judg
+    texts:
+      - Aatokolihapu
+      - Aat.
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis: Isa
+    texts:
+      - Jesaja
+      - Jes.
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - Sam.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Aakwaniilwa
+      - Aak.
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Ondjalulo
+      - Ondjal.
+  - osis: Ezra
+    texts:
+      - Esra.
+      - Esra
+  - osis: Neh
+    texts:
+      - Nehemia
+      - Neh.
+  - osis: Esth
+    texts:
+      - Ester
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Omapisalomi
+      - Eps.
+  - osis: Prov
+    texts:
+      - Omayeletumbulo
+  - osis: Eccl
+    texts:
+      - Omuuvithi
+  - osis: Song
+    texts:
+      - Ondjimbolela
+  - osis: Jer
+    texts:
+      - Jeremia
+      - Jer.
+  - osis: Ezek
+    texts:
+      - Hesekiel
+      - Hes.
+  - osis: Dan
+    texts:
+      - Daniel
+  - osis: Hos
+    texts:
+      - Hosea
+  - osis: Joel
+    texts:
+      - Joel
+  - osis: Amos
+    texts:
+      - Amos
+  - osis: Obad
+    texts:
+      - Obadja
+  - osis: Jonah
+    texts:
+      - Jona
+  - osis: Mic
+    texts:
+      - Mika.
+      - Mika
+  - osis: Nah
+    texts:
+      - Nahum
+  - osis: Hab
+    texts:
+      - Habakuk
+  - osis: Zeph
+    texts:
+      - Sefania
+  - osis: Hag
+    texts:
+      - Haggai
+  - osis: Zech
+    texts:
+      - Sakaria
+  - osis: Mal
+    texts:
+      - Maleaki
+  - osis: Matt
+    texts:
+      - Mateus
+      - Mat.
+  - osis: Mark
+    texts:
+      - Markus
+      - Mrk.
+  - osis: Luke
+    texts:
+      - Lukas
+      - Luk.
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Johannes
+  - osis: John
+    texts:
+      - Johannes
+      - Joh.
+  - osis: Acts
+    texts:
+      - Iilonga
+      - Iil.
+  - osis: Rom
+    texts:
+      - Aaroma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Aakorinto
+      - Kor.
+  - osis: Col
+    texts:
+      - Aakolossa
+  - osis: Gal
+    texts:
+      - Aagalati
+  - osis: Eph
+    texts:
+      - Aaefeso
+  - osis: Phil
+    texts:
+      - Aafilippi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Aatessalonika
+  - osis: 1Tim
+    texts:
+      - 1Timoteus
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteus
+  - osis: Titus
+    texts:
+      - Titus
+  - osis: Phlm
+    texts:
+      - Filemon
+  - osis: Heb
+    texts:
+      - Aahebeli
+  - osis: Jas
+    texts:
+      - Jakob
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petrus
+  - osis: Jude
+    texts:
+      - Judas
+translations:
+  - ONDB

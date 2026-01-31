@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Kronika
+    short: 1Kron
+  1Cor:
+    long: 1 Korint
+    short: 1Kor
+  1John:
+    long: 1 Johannes
+    short: 1Joh
+  1Kgs:
+    long: 1 Rajaraja
+    short: 1Raj
+  1Pet:
+    long: 1 Petrus
+    short: 1Ptr
+  1Sam:
+    long: 1 Samuel
+    short: 1Sam
+  1Thess:
+    long: 1 Tessalonik
+    short: 1Tes
+  1Tim:
+    long: 1 Timoteus
+    short: 1Tim
+  2Chr:
+    long: 2 Kronika
+    short: 2Kron
+  2Cor:
+    long: 2 Korint
+    short: 2Kor
+  2John:
+    long: 2 Johannes
+    short: 2Joh
+  2Kgs:
+    long: 2 Rajaraja
+    short: 2Raj
+  2Pet:
+    long: 2 Petrus
+    short: 2Ptr
+  2Sam:
+    long: 2 Samuel
+    short: 2Sam
+  2Thess:
+    long: 2 Tessalonik
+    short: 2Tes
+  2Tim:
+    long: 2 Timoteus
+    short: 2Tim
+  3John:
+    long: 3 Johannes
+    short: 3Joh
+  Acts:
+    long: Ulaon Ni Apostel
+    short: Ul
+  Amos:
+    long: Panurirang Amos
+    short: Am
+  Col:
+    long: Kolosse
+    short: Kol
+  Dan:
+    long: Panurirang Daniel
+    short: Dan
+  Deut:
+    long: 5 Musa
+    short: 5Mus
+  Eccl:
+    long: Parjamita Sian Si Salomo
+    short: Pjm
+  Eph:
+    long: Epesus
+    short: Eps
+  Esth:
+    long: Ester
+    short: Est
+  Exod:
+    long: 2 Musa
+    short: 2Mus
+  Ezek:
+    long: Panurirang Hesekiel
+    short: Hes
+  Ezra:
+    long: Esra
+    short: Esr
+  Gal:
+    long: Galatia
+    short: Gal
+  Gen:
+    long: 1 Musa
+    short: 1Mus
+  Hab:
+    long: Panurirang Habakuk
+    short: Hab
+  Hag:
+    long: Panurirang Haggai
+    short: Hag
+  Heb:
+    long: Heber
+    short: Heb
+  Hos:
+    long: Panurirang Hosea
+    short: Hos
+  Isa:
+    long: Panurirang Jesaya
+    short: Jes
+  Jas:
+    long: Jakobus
+    short: Jak
+  Jer:
+    long: Panurirang Jeremia
+    short: Jer
+  Job:
+    long: Job
+    short: Job
+  Joel:
+    long: Panurirang Joel
+    short: Joel
+  John:
+    long: Johannes
+    short: Joh
+  Jonah:
+    long: Panurirang Jona
+    short: Jona
+  Josh:
+    long: Josua
+    short: Jos
+  Jude:
+    long: Judas
+    short: Jud
+  Judg:
+    long: Panguhum
+    short: Pangh
+  Lam:
+    long: Ende Andung Sian Panurirang Jeremia
+    short: And
+  Lev:
+    long: 3 Musa
+    short: 3Mus
+  Luke:
+    long: Lukas
+    short: Luk
+  Mal:
+    long: Panurirang Maleaki
+    short: Mal
+  Mark:
+    long: Markus
+    short: Mrk
+  Matt:
+    long: Mateus
+    short: Mat
+  Mic:
+    long: Panurirang Mika
+    short: MiK
+  Nah:
+    long: Panurirang Nahum
+    short: Nah
+  Neh:
+    long: Nehemia
+    short: Neh
+  Num:
+    long: 4 Musa
+    short: 4Mus
+  Obad:
+    long: Panurirang Obaja
+    short: Ob
+  Phil:
+    long: Pilippi
+    short: Plp
+  Phlm:
+    long: Pilemon
+    short: Plm
+  Prov:
+    long: Poda Sian Raja Salomo
+    short: Poda
+  Ps:
+    long: Psalmen
+    short: Ps
+  Rev:
+    long: Pangungkapon
+    short: Pgk
+  Rom:
+    long: Rom
+    short: Rom
+  Ruth:
+    long: Rut
+    short: Rut
+  Song:
+    long: Ende Ni Angka Ende Sian Si Salomo
+    short: Ende
+  Titus:
+    long: Titus
+    short: Tit
+  Zech:
+    long: Panurirang Sakaria
+    short: Sak
+  Zeph:
+    long: Panurirang Sepania
+    short: Sep

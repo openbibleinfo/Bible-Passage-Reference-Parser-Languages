@@ -1,0 +1,141 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - iShitushizya
+      - Ishi
+  - osis: Matt
+    texts:
+      - uMataayi
+      - Matayi
+      - Mat.
+  - osis: Mark
+    texts:
+      - uMaaliko
+      - Maliko
+      - Mal.
+  - osis: Luke
+    texts:
+      - uLuuka
+      - Luk.
+      - Luka
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Uyoohani
+      - Yohani
+      - Yoh
+  - osis: John
+    texts:
+      - uYoohani
+      - Yohani
+      - Yoh.
+  - osis: Acts
+    texts:
+      - Imbombo zya Vapositili
+      - iMbombo izya Vhatumwa
+  - osis: Rom
+    texts:
+      - aVhaluumi
+      - VaLoma
+      - Va
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Avhakolinto
+      - VaKolinti
+      - Kol.
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Avhakolinto
+      - VaKolinti
+      - Kol
+  - osis: Col
+    texts:
+      - aVhakolosaayi
+      - Kolosi
+      - Kol
+  - osis: Gal
+    texts:
+      - aVhagalaatiya
+      - VaGalati
+      - Gal
+  - osis: Eph
+    texts:
+      - aVhahefeeso
+      - VaEfeso
+      - Efe
+  - osis: Phil
+    texts:
+      - aVhafiilipi
+      - Filipi
+      - Fili
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Avhatesaloniiki
+      - Vatesaloniki
+      - Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Utiimoti
+      - Timoti
+      - Tim
+  - osis: Titus
+    texts:
+      - uTiiti
+      - Titi
+      - Tit
+  - osis: Phlm
+    texts:
+      - uFilimooni
+      - Filemoni
+      - Fil
+  - osis: Heb
+    texts:
+      - aVhahebuuli
+      - VaHebuli
+      - Vah
+  - osis: Jas
+    texts:
+      - uYaakobu
+      - Yakobu
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Upeeteli
+      - Peteli
+      - Pet
+  - osis: Jude
+    texts:
+      - uYuuda
+      - Yuda
+      - Yud
+translations:
+  - NYI1965
+  - NIH

@@ -1,0 +1,185 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Senisi
+      - Sen
+  - osis: Rev
+    texts:
+      - Yeso Kirisito ene‑bona
+      - Teoso ka Yama Namo
+      - Yk
+      - Yn
+  - osis: Dan
+    texts:
+      - Tanieo
+      - Tan
+  - osis: Matt
+    texts:
+      - Mateo
+      - Mat
+      - Mt
+  - osis: Mark
+    texts:
+      - Maroko
+      - Mako
+      - Mak
+      - Mk
+  - osis: Luke
+    texts:
+      - Roka
+      - Rok
+      - Rk
+  - osis: 1John
+    texts:
+      - Yowaho daidi
+      - 1Yw
+  - osis: 2John
+    texts:
+      - Yowaho yoto‑ke
+      - 2Yw
+  - osis: 3John
+    texts:
+      - Yowaho faina
+      - 3 Yowao
+      - 3 Yo
+      - 3Yw
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yowao
+      - Yo
+  - osis: John
+    texts:
+      - Yowaho
+      - Yowao
+      - Yow
+      - Yw
+  - osis: Acts
+    texts:
+      - Yeso‑ka yo‑yose mai tamine
+      - Ato
+      - Yes
+  - osis: Rom
+    texts:
+      - Homa
+      - Hom
+      - Hm
+  - osis: 1Cor
+    texts:
+      - Korito daidi
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - Korito yoto‑ke
+      - 2Ko
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korito
+      - Ko
+  - osis: Col
+    texts:
+      - Koroso
+      - Kor
+  - osis: Gal
+    texts:
+      - Karatiya
+      - Karasia
+      - Kar
+  - osis: Eph
+    texts:
+      - Efesiyo
+      - Efeso
+      - Ef
+  - osis: Phil
+    texts:
+      - Firibo
+      - Frb
+  - osis: 1Thess
+    texts:
+      - Tesaronika daidi
+      - 1Te
+  - osis: 2Thess
+    texts:
+      - Tesaronika yoto‑ke
+      - 2Te
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaronika
+      - Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotio
+      - Ti
+  - osis: 1Tim
+    texts:
+      - Timoti daidi
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - Timoti yoto‑ke
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Firemo
+      - Firimo
+      - Frm
+  - osis: Heb
+    texts:
+      - Ihayeo Mati
+      - Ebereo
+      - Iha
+      - Eb
+  - osis: Jas
+    texts:
+      - Tiyako
+      - Tiako
+      - Tia
+      - Tiy
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Betiro
+      - Be
+  - osis: 1Pet
+    texts:
+      - Bedoro daidi
+      - 1Be
+  - osis: 2Pet
+    texts:
+      - Bedoro yoto‑ke
+      - 2Be
+  - osis: Jude
+    texts:
+      - Yoda‑ka yama hani
+      - Yota
+      - Yod
+      - Yot
+translations:
+  - JAANT

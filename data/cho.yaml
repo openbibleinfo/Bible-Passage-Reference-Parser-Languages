@@ -1,0 +1,159 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Chenesis
+      - Genesis
+      - Chen
+  - osis: Exod
+    texts:
+      - Eksotʋs
+      - Eks
+  - osis: Lev
+    texts:
+      - Lefitikʋs
+      - Lef
+  - osis: Num
+    texts:
+      - Numbas
+      - Num
+  - osis: Deut
+    texts:
+      - Tutelonomi
+      - Tut
+  - osis: Josh
+    texts:
+      - Choshua
+      - Chosh
+  - osis: Judg
+    texts:
+      - Nan Apesa
+  - osis: Rev
+    texts:
+      - Nan Otʋni
+      - Nan
+  - osis: Ruth
+    texts:
+      - Luth
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Mi̱ko
+  - osis: Ps
+    texts:
+      - Atʋloa
+  - osis: Matt
+    texts:
+      - Mahlu
+  - osis: Mark
+    texts:
+      - Mark i̱ Holisso
+      - Mark
+      - Mak
+  - osis: Luke
+    texts:
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Chan
+  - osis: Acts
+    texts:
+      - Apostel isht Anumpa
+      - Anumpa
+  - osis: Rom
+    texts:
+      - Loman
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kolinhlian
+      - Kol
+  - osis: Col
+    texts:
+      - Koloshan
+      - Kol
+  - osis: Gal
+    texts:
+      - Kaleshan
+      - Kal
+  - osis: Eph
+    texts:
+      - Efeshan
+      - Efes
+  - osis: Phil
+    texts:
+      - Filippian
+      - Filip
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Hlessalonian
+      - Hless
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timohli
+      - Tim
+  - osis: Titus
+    texts:
+      - Titus
+  - osis: Phlm
+    texts:
+      - Filemon
+      - Filem
+  - osis: Heb
+    texts:
+      - Heblu
+  - osis: Jas
+    texts:
+      - Chemis
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - Pita
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peta
+      - Pita
+  - osis: Jude
+    texts:
+      - Chute
+translations:
+  - CHH
+  - CHTW

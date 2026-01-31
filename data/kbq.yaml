@@ -1,0 +1,288 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Jenesis-Agafa
+      - Jen-Agf
+      - Jenesis
+  - osis: Exod
+    texts:
+      - Zmavarene
+      - Eks-Atr
+  - osis: Lev
+    texts:
+      - Lev-Pri
+      - 3 Mose
+  - osis: Num
+    texts:
+      - Nam-Ham
+      - 4 Mose
+  - osis: Lam
+    texts:
+      - Lementesen-Zavi Krafa
+      - Lem-Zav
+  - osis: Rev
+    texts:
+      - Hufore hu'nea naneke
+      - Revalesen-Hufo Hu'ne
+      - Rev-Huf
+  - osis: Deut
+    texts:
+      - Tiuteronomi Kasege
+      - Diu-Kas
+  - osis: Josh
+    texts:
+      - Zosua
+      - Jos
+  - osis: Judg
+    texts:
+      - Jasi vahere
+      - Jad-Kva
+  - osis: Ruth
+    texts:
+      - Ruti
+      - Rut
+  - osis: Isa
+    texts:
+      - Aizaia
+      - Ais
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samue
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+    texts:
+      - Kva vahere
+      - Ing
+  - osis:
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Kin
+      - Kva
+  - osis:
+      - osis: 1Chr
+        before: *first
+    texts:
+      - Kroniku-2 Kroniku
+      - Kro-Zam
+  - osis:
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Kronikol-Zamagi Zamagenke
+      - Kro-Zam
+  - osis: Ezra
+    texts:
+      - Ezra
+      - Esr
+  - osis: Neh
+    texts:
+      - Nehemaia
+      - Neh
+  - osis: Esth
+    texts:
+      - Esta
+      - Est
+  - osis: Job
+    texts:
+      - Jovu
+      - Jop
+  - osis: Ps
+    texts:
+      - Sams-Zgame
+      - Sam-Zga
+  - osis: Prov
+    texts:
+      - Mani'zanti mofo nanekee
+      - Proveps-Knare Nomaniza
+      - Pro-Knr
+      - Pro
+  - osis: Eccl
+    texts:
+      - Ikrisiasatis
+      - Ikl-Ant
+  - osis: Song
+    texts:
+      - Soromoni' mago' ara hunte'nea zgamere
+      - Sol-Zga
+  - osis: Jer
+    texts:
+      - Zeremaia
+      - Jer
+  - osis: Ezek
+    texts:
+      - Izikeli
+      - Izik
+  - osis: Dan
+    texts:
+      - Taneo
+      - Dan
+  - osis: Hos
+    texts:
+      - Hosea
+      - Hos
+  - osis: Joel
+    texts:
+      - Jol
+      - Zoe
+  - osis: Amos
+    texts:
+      - Emosi
+      - Emo
+  - osis: Obad
+    texts:
+      - Obadaia
+      - Oba
+  - osis: Jonah
+    texts:
+      - Jona
+  - osis: Mic
+    texts:
+      - Maika
+      - Maik
+  - osis: Nah
+    texts:
+      - Nahumu
+      - Nah
+  - osis: Hab
+    texts:
+      - Havakaki
+      - Hab
+  - osis: Zeph
+    texts:
+      - Zefanaia
+      - Zef
+  - osis: Hag
+    texts:
+      - Hagai
+      - Hag
+  - osis: Zech
+    texts:
+      - Zekraia Sekaraia
+      - Zek
+  - osis: Mal
+    texts:
+      - Marakai
+      - Mal
+  - osis: Matt
+    texts:
+      - Matiu
+      - Mat
+  - osis: Mark
+    texts:
+      - Maki
+      - Mak
+  - osis: Luke
+    texts:
+      - Luku
+      - Ruku
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Joni
+      - Jon
+  - osis: Acts
+    texts:
+      - Aposolo
+      - Aposol
+      - Apo
+  - osis: Rom
+    texts:
+      - Roma
+      - Romu
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinti
+      - Kor
+  - osis: Col
+    texts:
+      - Kolosi
+      - Kol
+  - osis: Gal
+    texts:
+      - Galesia
+      - Gal
+  - osis: Eph
+    texts:
+      - Efesasi
+      - Efe
+  - osis: Phil
+    texts:
+      - Filipai
+      - Filp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonaika
+      - Tesaronaika
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+      - Tim
+  - osis: Titus
+    texts:
+      - Taitusi
+      - Taitus
+      - Tait
+  - osis: Phlm
+    texts:
+      - Falimoni
+      - Fai
+      - Fal
+  - osis: Heb
+    texts:
+      - Hibru
+      - Hivru
+      - Hib
+  - osis: Jas
+    texts:
+      - Jemisi
+      - Jem
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+      - Pit
+  - osis: Jude
+    texts:
+      - Juti
+      - Zute
+      - Jut
+translations:
+  - KBQ

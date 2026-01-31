@@ -1,0 +1,133 @@
+default:
+  1Cor:
+    long: 1 Corintodenidsa
+    short: 1Co
+  1John:
+    long: 1 Huanocca
+    short: 1Hn
+  1Pet:
+    long: 1 Pedoro
+    short: 1Pe
+  1Thess:
+    long: 1 Tesaronicadenidsa
+    short: 1Te
+  1Tim:
+    long: 1 Timoteodsa
+    short: 1Ti
+  2Cor:
+    long: 2 Corintodenidsa
+    short: 2Co
+  2John:
+    long: 2 Huanocca
+    short: 2Hn
+  2Pet:
+    long: 2 Pedoro
+    short: 2Pe
+  2Thess:
+    long: 2 Tesaronicadenidsa
+    short: 2Te
+  2Tim:
+    long: 2 Timoteodsa
+    short: 2Ti
+  3John:
+    long: 3 Huanocca
+    short: 3Hn
+  Acts:
+    long: Atos
+    short: Tah
+  Col:
+    long: Corosadenidsa
+    short: Cor
+  Eph:
+    long: Epesodenidsa
+    short: Ep
+  Gal:
+    long: Carasiadenidsa
+    short: Car
+  Heb:
+    long: Ebreo
+    short: Eb
+  Jas:
+    long: Satiacocca
+    short: Sat
+  John:
+    long: Huano
+    short: Hn
+  Jude:
+    long: Jodacca
+    short: Jod
+  Luke:
+    long: Roca
+    short: Rc
+  Mark:
+    long: Maraco
+    short: Mc
+  Matt:
+    long: Mateo
+    short: Mt
+  Phil:
+    long: Piripodenidsa
+    short: Prp
+  Phlm:
+    long: Piremao
+    short: Prm
+  Rev:
+    long: Apocalipsis
+    short: Ap
+  Rom:
+    long: Romanodenidsa
+    short: Rom
+  Titus:
+    long: Tito
+    short: Tit
+translations:
+  kbnt:
+    1Cor:
+      long: 1 Corintodeniza
+    1John:
+      long: 1 Zouao
+    1Thess:
+      long: 1 Tesaronicadeniza
+    1Tim:
+      long: 1 Timoti
+    2Cor:
+      long: 2 Corintodeniza
+    2John:
+      long: 2 Zouao
+    2Thess:
+      long: 2 Tesaronicadeniza
+    2Tim:
+      long: 2 Timoti
+    3John:
+      long: 3 Zouao
+    Col:
+      long: Corosadeniza
+    Eph:
+      long: Epesodeniza
+    Gal:
+      long: Carasiadeniza
+    Jas:
+      long: Tiaco
+    John:
+      long: Zouao
+    Jude:
+      long: Zoda
+    Phil:
+      long: Piripodeniza
+    Rev:
+      long: Apocaripisi
+    Rom:
+      long: Rromanodeniza
+  culnt:
+    1Pet:
+      long: 1 Pedrocca
+    2Pet:
+      long: 2 Pedrocca
+    Acts:
+      long: Tahimarideni
+    Heb:
+      long: Ebreodenidsa
+    Phlm:
+      long: Piremaodsa
+    Titus:
+      long: Titodsa

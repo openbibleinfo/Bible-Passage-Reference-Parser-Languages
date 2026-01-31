@@ -1,0 +1,97 @@
+variables:
+  first: &first
+    - Ꮙꮃ
+  second: &second
+    - Ꮙꮃ
+books:
+  - osis: Rev
+    texts:
+      - Ꮳꮒ Ꮔꮝꮫ Ꭰꮵꮎꮔꭺꮻꮞꮈꭲ
+  - osis: Matt
+    texts:
+      - Ꭳꮝꮫ Ꭷꮓꭾꮫ Ꮉꮪ Ꭴꮼꮺꮃꮕꭿ
+  - osis: Mark
+    texts:
+      - Ꭳꮝꮫ Ꭷꮓꭾꮫ Ꮉꭶ Ꭴꮼꮺꮃꮕꭿ
+  - osis: Luke
+    texts:
+      - Ꭳꮝꮫ Ꭷꮓꭾꮫ Ꮇꭶ Ꭴꮼꮺꮃꮕꭿ
+  - osis: 1John
+    texts:
+      - Ꮳꮒ Ꭲꭼᏹᏹ Ꭴꮼꮺꮃꮕꭿ
+  - osis: 2John
+    texts:
+      - Ꮳꮒ Ꮤꮅꮑ Ꭴꮼꮺꮃꮕꭿ
+  - osis: 3John
+    texts:
+      - Ꮳꮒ Ꮶꭲꮑ Ꭴꮼꮺꮃꮕꭿ
+  - osis: John
+    texts:
+      - Ꭳꮝꮫ Ꭷꮓꭾꮫ Ꮳꮒ Ꭴꮼꮺꮃꮕꭿ
+  - osis: Acts
+    texts:
+      - Ꭸꮵꮕꮟꮫ Ꮔꮎꮫꮑꮅꮩꮈꭲ
+  - osis: Rom
+    texts:
+      - Ꮙꮃ Ꮆꮋ Ꭰꮑꭿ Ꮷꮼꮺꮃꮑꮈꭿ
+  - osis: 1Cor
+    texts:
+      - Ꭺꮅꮒꮧᏹ Ꭰꮑꭿ Ꭲꭼᏹᏹ Ꭸꭺꮺꮃꮑꮈꭿ
+  - osis: 2Cor
+    texts:
+      - Ꭺꮅꮒꮧᏹ Ꭰꮑꭿ Ꮤꮅꮑ Ꭸꭺꮺꮃꮑꮈꭿ
+  - osis: Col
+    texts:
+      - Ꮙꮃ Ꭺꮆꮟ Ꭰꮑꭿ Ꮷꮼꮺꮃꮑꮈꭿ
+  - osis: Gal
+    texts:
+      - Ꮙꮃ Ꭸꮄꮟᏹ Ꭰꮑꭿ Ꮷꮼꮺꮃꮑꮈꭿ
+  - osis: Eph
+    texts:
+      - Ꮙꮃ Ꭱꮘꮜ Ꭰꮑꭿ Ꮷꮼꮺꮃꮑꮈꭿ
+  - osis: Phil
+    texts:
+      - Ꮙꮃ Ꮘꮅꭹᏹ Ꭰꮑꭿ Ꮷꮼꮺꮃꮑꮈꭿ
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Ꮥꮟꮆꮒꭶ Ꭰꮑꭿ Ꭲꭼᏹᏹ Ꮷꮼꮺꮃꮑꮈꭿ
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Ꮥꮟꮆꮒꭶ Ꭰꮑꭿ Ꮤꮅꮑ Ꮷꮼꮺꮃꮑꮈꭿ
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Ꮷꮼꮺꮃꮕꭿ Ꭲꭼᏹᏹ Ꮧꮉꮧ Ꮷꮼꮺꮃꮑꮈꭿ
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Ꮷꮼꮺꮃꮕꭿ Ꮤꮅꮑ Ꮧꮉꮧ Ꮷꮼꮺꮃꮑꮈꭿ
+  - osis: Titus
+    texts:
+      - Ꮙꮃ Ꮣꮣꮟ Ꭴꮼꮺꮃꮑꮈꭿ
+  - osis: Phlm
+    texts:
+      - Ꮙꮃ Ꮖꮅꮉꮒ Ꭴꮼꮺꮃꮑꮈꭿ
+  - osis: Heb
+    texts:
+      - Ꮙꮃ Ꭰꮒꮘꮇ Ꮷꮼꮺꮃꮑꮈꭿ
+  - osis: Jas
+    texts:
+      - Ꮵꮋ Ꭴꮼꮺꮃꮕꭿ
+  - osis: 1Pet
+    texts:
+      - Ꮘꮣ Ꭲꭼᏹᏹ Ꭴꮼꮺꮃꮕꭿ
+  - osis: 2Pet
+    texts:
+      - Ꮘꮣ Ꮤꮅꮑ Ꭴꮼꮺꮃꮕꭿ
+  - osis: Jude
+    texts:
+      - Ꮷꮣꮟ Ꭴꮼꮺꮃꮕꭿ
+translations:
+  - CHRNT

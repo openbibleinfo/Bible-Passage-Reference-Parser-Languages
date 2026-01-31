@@ -1,0 +1,93 @@
+default:
+  1Cor:
+    long: 1 Коринф христианнарыгар
+    short: 1 Кор
+  1John:
+    long: 1 Иоанн
+    short: 1 Ин
+  1Pet:
+    long: 1 Петр
+    short: 1 Пет
+  1Thess:
+    long: 1 Фессалоника христианнарыгар
+    short: 1 Фес
+  1Tim:
+    long: 1 Тимофейга
+    short: 1 Тим
+  2Cor:
+    long: 2 Коринф христианнарыгар
+    short: 2 Кор
+  2John:
+    long: 2 Иоанн
+    short: 2 Ин
+  2Pet:
+    long: 2 Петр
+    short: 2 Пет
+  2Thess:
+    long: 2 Фессалоника христианнарыгар
+    short: 2 Фес
+  2Tim:
+    long: 2 Тимофейга
+    short: 2 Тим
+  3John:
+    long: 3 Иоанн
+    short: 3 Ин
+  Acts:
+    long: Апостоллар
+    short: Апос
+  Col:
+    long: Колосс христианнарыгар
+    short: Кол
+  Eph:
+    long: Эфес христианнарыгар
+    short: Эф
+  Esth:
+    long: Эсфирь
+  Gal:
+    long: Галатия христианнарыгар
+    short: Гал
+  Heb:
+    long: Еврейдэргэ
+    short: Евр
+  Jas:
+    long: Иаков
+    short: Иак
+  John:
+    long: Иоанн
+    short: Ин
+  Jonah:
+    long: Иона
+  Jude:
+    long: Иуда
+    short: Иуд
+  Luke:
+    long: Лука
+    short: Лк
+  Mark:
+    long: Марк
+    short: Мк
+  Matt:
+    long: Матфей
+    short: Мф
+  Phil:
+    long: Филиппы христианнарыгар
+    short: Флп
+  Phlm:
+    long: Филимоҥҥа
+    short: Флм
+  Prov:
+    long: Аман өһө
+  Ps:
+    long: Саалтыр
+    short: Саал
+  Rev:
+    long: Арыллыы
+    short: Арыл
+  Rom:
+    long: Рим христианнарыгар
+    short: Рим
+  Ruth:
+    long: Руфь
+  Titus:
+    long: Титкэ
+    short: Тит

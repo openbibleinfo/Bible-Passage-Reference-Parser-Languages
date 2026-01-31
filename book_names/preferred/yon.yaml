@@ -1,0 +1,88 @@
+default:
+  1Cor:
+    long: 1 Korindan
+    short: 1Ko
+  1John:
+    long: 1 Yoon
+    short: 1Yn
+  1Pet:
+    long: 1 Pita
+    short: 1Pi
+  1Thess:
+    long: 1 Tesalonaikadan
+    short: 1Te
+  1Tim:
+    long: 1 Timoti
+    short: 1Ti
+  2Cor:
+    long: 2 Korindan
+    short: 2Ko
+  2John:
+    long: 2 Yoon
+    short: 2Yn
+  2Pet:
+    long: 2 Pita
+    short: 2Pi
+  2Thess:
+    long: 2 Tesalonaikadan
+    short: 2Te
+  2Tim:
+    long: 2 Timoti
+    short: 2Ti
+  3John:
+    long: 3 Yoon
+    short: 3Yn
+  Acts:
+    long: Kwamiwen
+    short: Kw
+  Col:
+    long: Kolosedan
+    short: Kol
+  Eph:
+    long: Efesusdan
+    short: Ef
+  Gal:
+    long: Galasiadan
+    short: Gal
+  Gen:
+    long: Andowoon
+    short: And
+  Heb:
+    long: Hibrudan
+    short: Hib
+  Jas:
+    long: Yems
+    short: Yem
+  John:
+    long: Yoon
+    short: Yn
+  Jude:
+    long: Jud
+    short: Jud
+  Luke:
+    long: Luk
+    short: Lk
+  Mark:
+    long: Maak
+    short: Mk
+  Matt:
+    long: Matyu
+    short: Mt
+  Phil:
+    long: Filipaidan
+    short: Flp
+  Phlm:
+    long: Failimon
+    short: Flm
+  Ps:
+    long: Yook
+    short: Yook
+  Rev:
+    long: Korokboon
+    short: Krk
+  Rom:
+    long: Romdan
+    short: Rom
+  Titus:
+    long: Taitus
+    short: Tait

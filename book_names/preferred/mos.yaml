@@ -1,0 +1,491 @@
+default:
+  1Chr:
+    long: 1 Kibayã
+    short: 1Kib
+  1Cor:
+    long: 1 Korẽnt rãmba
+    short: 1Ko
+  1John:
+    long: 1 Zã
+    short: 1Zã
+  1Kgs:
+    long: 1 Rĩm-dãmbã
+    short: 1Dĩm
+  1Macc:
+    long: 1Makabe
+    short: 1M
+  1Pet:
+    long: 1 Pɩyɛɛr
+    short: 1P
+  1Sam:
+    long: 1 Sãmwɛlle
+    short: 1S
+  1Thess:
+    long: 1 Tesalonik rãmba
+    short: 1Te
+  1Tim:
+    long: 1 Tɩmote
+    short: 1Tm
+  2Chr:
+    long: 2 Kibayã
+    short: 2Kib
+  2Cor:
+    long: 2 Korẽnt rãmba
+    short: 2Ko
+  2John:
+    long: 2 Zã
+    short: 2Zã
+  2Kgs:
+    long: 2 Rĩm-dãmba
+    short: 2Dĩm
+  2Macc:
+    long: 2Makabe
+    short: 2M
+  2Pet:
+    long: 2 Pɩyɛɛr
+    short: 2P
+  2Sam:
+    long: 2 Sãmwɛlle
+    short: 2S
+  2Thess:
+    long: 2 Tesalonik rãmba
+    short: 2Te
+  2Tim:
+    long: 2 Tɩmote
+    short: 2Tm
+  3John:
+    long: 3 Zã
+    short: 3Zã
+  Acts:
+    long: Tʋʋm-tʋmdba vɩɩm
+    short: Tma
+  Amos:
+    long: A Amoose
+    short: Am
+  Bar:
+    long: A Barʋk
+    short: Ba
+  Col:
+    long: Koloos‑rãmba
+    short: Kol
+  Dan:
+    long: A Dãniyɛlle
+    short: Dãn
+  DanGr:
+    long: Daniyɛl
+    short: Dn
+  Deut:
+    long: Tõodo
+    short: Tõ
+  Eccl:
+    long: Kowelɛt
+    short: Ko
+  EpJer:
+    long: A zeremi seb bila
+    short: Zrsb
+  Eph:
+    long: Efɛɛs rãmba
+    short: Efɛ
+  Esth:
+    long: A Ɛstɛɛre
+    short: Ɛst
+  EsthGr:
+    long: Estɛr
+    short: Est
+  Exod:
+    long: Ezipt yiib kibare
+    short: Ey
+  Ezek:
+    long: A Ezekɩyɛlle
+    short: Ez
+  Ezra:
+    long: A Ɛsdraase
+    short: Esd
+  Gal:
+    long: Galat Rãmba
+    short: Gal
+  Gen:
+    long: Sɩngre
+    short: Bs
+  Hab:
+    long: A Habakuki
+    short: Ab
+  Hag:
+    long: A Aaze
+    short: Aaz
+  Heb:
+    long: Ebre rãmba
+    short: Eb
+  Hos:
+    long: A Ooze
+    short: Ooz
+  Isa:
+    long: A Ezayi
+    short: Eza
+  Jas:
+    long: Zak
+    short: Zak
+  Jdt:
+    long: Zudit
+    short: Zt
+  Jer:
+    long: A Zeremi
+    short: Zer
+  Job:
+    long: A. Zoobe
+    short: Zob
+  Joel:
+    long: A Zowɛlle
+    short: Zl
+  John:
+    long: A Zã Sõng
+    short: Zã
+  Jonah:
+    long: A Zonaase
+    short: Zo
+  Josh:
+    long: A Zozoe
+    short: Zoz
+  Jude:
+    long: A Zʋʋde
+    short: Zud
+  Judg:
+    long: Bʋ-kaoodba
+    short: Bk
+  Lam:
+    long: A Zeremi wiisgu
+    short: Ky
+  Lev:
+    long: Maan-kʋʋr sebre
+    short: Man
+  Luke:
+    long: A Luk Sõng
+    short: Luk
+  Mal:
+    long: A Malasɩ
+    short: Mal
+  Mark:
+    long: A Mark Sõng
+    short: Mark
+  Matt:
+    long: A Matiye Sõng
+    short: Mat
+  Mic:
+    long: A Miise
+    short: Mi
+  Nah:
+    long: A Nahum
+    short: Na
+  Neh:
+    long: A Neemi
+    short: Ne
+  Num:
+    long: Sõadga
+    short: Ss
+  Obad:
+    long: A Abdyaase
+    short: Abd
+  Phil:
+    long: Filip Tẽng Rãmba
+    short: Fi
+  Phlm:
+    long: A Filemo
+    short: Flm
+  Prov:
+    long: Yelbũna
+    short: Yel
+  Ps:
+    long: Yɩɩla
+    short: Yɩ
+  Rev:
+    long: Vẽnegre
+    short: Vẽn
+  Rom:
+    long: Rom Dãmba
+    short: Rom
+  Ruth:
+    long: A Ruti
+    short: Rt
+  Sir:
+    long: Sira biiga
+    short: Si
+  Song:
+    long: A Salmo yɩɩla
+    short: Salm
+  Titus:
+    long: A Tit
+    short: Tit
+  Tob:
+    long: Tobi
+    short: Tb
+  Wis:
+    long: Yam vẽenem
+    short: Yv
+  Zech:
+    long: A Zakari
+    short: Zaka
+  Zeph:
+    long: A Sofoni
+    short: So
+translations:
+  moodc98:
+    1Chr:
+      long: 1Na-rot
+      short: 1Nar
+    1Cor:
+      long: 1Korẽnt Rãmba
+    1Kgs:
+      long: 1Dĩm Dãmba
+    1Pet:
+      long: 1Piyɛr
+    1Sam:
+      long: 1Samwɛl
+    1Thess:
+      long: 1Tesalonik Rãmba
+    1Tim:
+      long: 1Timote
+    2Chr:
+      long: 2Na-rot
+      short: 2Nar
+    2Cor:
+      long: 2Korẽnt Rãmba
+    2Kgs:
+      long: 2Dĩm Dãmba
+    2Pet:
+      long: 2Piyɛr
+    2Sam:
+      long: 2Samwɛl
+    2Thess:
+      long: 2Tesalonik Rãmba
+    2Tim:
+      long: 2Timote
+    Acts:
+      short: Tv
+    Amos:
+      long: Amos
+    Col:
+      long: Kolos Rãmba
+    Deut:
+      long: Yaoolem
+      short: Yao
+    Eph:
+      long: Efɛɛz Rãmba
+      short: Ef
+    Ezek:
+      long: Ezekiyɛl
+    Ezra:
+      long: Esdras
+    Gal:
+      short: Ga
+    Gen:
+      long: Sɩngrẽ
+    Hab:
+      long: Abakuk
+    Hag:
+      long: Aze
+      short: Az
+    Hos:
+      long: Oze
+      short: Oz
+    Isa:
+      long: A izayi sebre
+      short: Iz
+    Jer:
+      long: Zeremi
+      short: Zr
+    Job:
+      long: Zoob
+    Joel:
+      long: Zowɛl
+    Jonah:
+      long: Zonas
+    Josh:
+      long: Zozuwe
+    Jude:
+      long: Zɩɩd
+      short: Zɩ
+    Lam:
+      long: Kʋʋr yɩɩla
+    Luke:
+      short: Lk
+    Mal:
+      long: Malasi
+      short: Ml
+    Mark:
+      short: Mk
+    Matt:
+      short: Mt
+    Mic:
+      long: Mise
+    Nah:
+      long: Nawum
+    Neh:
+      long: Neemi
+    Obad:
+      long: A abdiyas
+    Phlm:
+      short: Fm
+    Rev:
+      long: Yɛl pukr sebre
+      short: Yp
+    Rom:
+      short: Rm
+    Ruth:
+      long: Rut
+    Song:
+      long: Yɩɩn-noog menga
+      short: Yɩn
+    Titus:
+      short: Tt
+    Zech:
+      long: Zakari
+      short: Zki
+    Zeph:
+      long: Sofoni
+  mpbu:
+    1Cor:
+      long: 1 Korẽnt‑rãmbã
+      short: 1Kor
+    1Kgs:
+      short: 1Rĩm
+    1Pet:
+      long: 1 Pɩyɛɛre
+      short: 1Pɩy
+    1Sam:
+      short: 1Sãm
+    1Thess:
+      long: 1 Tesalonik‑rãmba
+      short: 1Tes
+    1Tim:
+      short: 1Tɩm
+    2Cor:
+      long: 2 Korẽnt‑rãmbã sebre
+      short: 2Kor
+    2Kgs:
+      short: 2Rĩm
+    2Pet:
+      long: 2 Pɩyɛɛre
+      short: 2Pɩy
+    2Sam:
+      short: 2Sãm
+    2Thess:
+      long: 2 Tesalonik‑rãmba
+      short: 2Tes
+    2Tim:
+      short: 2Tɩm
+    Acts:
+      long: Tẽn‑tʋmdbã tʋʋmã
+      short: Tʋʋm
+    Amos:
+      short: Amo
+    Eccl:
+      long: Koɛɛg Soaba
+      short: Koɛɛ
+    Eph:
+      long: Efɛɛs‑rãmba
+    Exod:
+      long: Yikri
+      short: Yik
+    Ezek:
+      short: Eze
+    Ezra:
+      short: Ɛsd
+    Gal:
+      long: Galat‑rãmba
+    Gen:
+      short: Sɩng
+    Hab:
+      short: Hab
+    Heb:
+      long: Ebre‑rãmba
+      short: Ebr
+    Jas:
+      long: Zake
+    Job:
+      short: Zoob
+    Joel:
+      short: Zow
+    John:
+      long: A Zã koe‑noogo
+    Jonah:
+      short: Zon
+    Jude:
+      short: Zʋʋ
+    Judg:
+      long: Bʋ‑kaoodba
+      short: Bʋ
+    Lam:
+      short: Wiis
+    Lev:
+      long: Maan‑kʋʋre
+      short: Mk
+    Luke:
+      long: A Luk koe‑noogo
+    Mark:
+      long: A Mark koe‑noogo
+    Matt:
+      long: A Matye koe‑noogo
+    Mic:
+      short: Miis
+    Nah:
+      short: Nah
+    Neh:
+      short: Neem
+    Num:
+      long: Sõdbo
+      short: Sõd
+    Phil:
+      long: Filip‑rãmba
+      short: Fili
+    Phlm:
+      long: A Fɩlmo
+      short: Fɩl
+    Prov:
+      long: Yel‑bũna
+    Ps:
+      long: Yɩɩn‑sõamyã
+      short: Yɩɩn
+    Rom:
+      long: Rom‑dãmbã
+    Ruth:
+      short: Rut
+    Titus:
+      long: A Titi
+    Zeph:
+      short: Sof
+  moont98:
+    1Pet:
+      short: 1Pɩ
+    1Tim:
+      short: 1Tɩ
+    2Pet:
+      short: 2Pɩ
+    2Tim:
+      short: 2Tɩ
+    Acts:
+      long: Tʋʋma
+    Col:
+      long: Kolosẽ rãmbã
+    Heb:
+      long: Hebre
+      short: Heb
+    John:
+      long: Zã
+    Jude:
+      long: Zuud
+    Luke:
+      long: Luk
+    Mark:
+      long: Mark
+      short: Mrk
+    Matt:
+      long: Matye
+    Phil:
+      long: Filip rãmba
+      short: Fil
+    Phlm:
+      long: Fɩlmo
+    Rom:
+      long: Rom rãmba
+    Titus:
+      long: Tit

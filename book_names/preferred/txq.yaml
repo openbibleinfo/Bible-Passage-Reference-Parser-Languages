@@ -1,0 +1,85 @@
+default:
+  1Cor:
+    long: 1 Korentus
+    short: 1Kor
+  1John:
+    long: 1 Yohanis
+    short: 1Yoh
+  1Pet:
+    long: 1 Petrus
+    short: 1Pet
+  1Thess:
+    long: 1 Tesalonika
+    short: 1Tes
+  1Tim:
+    long: 1 Timotius
+    short: 1Tim
+  2Cor:
+    long: 2 Korentus
+    short: 2Kor
+  2John:
+    long: 2 Yohanis
+    short: 2Yoh
+  2Pet:
+    long: 2 Petrus
+    short: 2Pet
+  2Thess:
+    long: 2 Tesalonika
+    short: 2Tes
+  2Tim:
+    long: 2 Timotius
+    short: 2Tim
+  3John:
+    long: 3 Yohanis
+    short: 3Yoh
+  Acts:
+    long: Nedenuk kara Tutuin
+    short: Kis
+  Col:
+    long: Kolose
+    short: Kol
+  Eph:
+    long: Epesus
+    short: Ef
+  Gal:
+    long: Galatia
+    short: Gal
+  Gen:
+    long: Tutui Makasososak
+    short: Kej
+  Heb:
+    long: Ibrani
+    short: Ibr
+  Jas:
+    long: Yakobis
+    short: Yak
+  John:
+    long: Yohanis
+    short: Yoh
+  Jude:
+    long: Yudas
+    short: Yud
+  Luke:
+    long: Lukas
+    short: Luk
+  Mark:
+    long: Markus
+    short: Mrk
+  Matt:
+    long: Mateos
+    short: Mat
+  Phil:
+    long: Felipi
+    short: Flp
+  Phlm:
+    long: Filmon
+    short: Flm
+  Rev:
+    long: Dae-bafo Beuk
+    short: Why
+  Rom:
+    long: Roma
+    short: Rm
+  Titus:
+    long: Titus
+    short: Tit

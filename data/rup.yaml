@@ -1,0 +1,36 @@
+variables:
+  third: &third
+    - "3"
+books:
+  - osis: Matt
+    texts:
+      - Matheu
+  - osis: Mark
+    texts:
+      - Marc
+      - Mrc
+  - osis: Luke
+    texts:
+      - Luka
+  - osis: 1John
+    texts:
+      - 1 Ioan
+      - 1 In
+  - osis: 2John
+    texts:
+      - 2 Ioan
+      - 2 In
+  - osis:
+      - osis: 3John
+        before: *third
+    texts:
+      - Ioan
+      - In
+  - osis: Jude
+    texts:
+      - Iuda
+      - Iud
+translations:
+  - RUPF
+  - ARUM
+  - AROM

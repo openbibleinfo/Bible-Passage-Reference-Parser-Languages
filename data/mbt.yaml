@@ -1,0 +1,141 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Impakita
+      - Imp
+  - osis: Matt
+    texts:
+      - Matiyu
+      - Mat
+  - osis: Mark
+    texts:
+      - Markus
+      - Mar
+  - osis: Luke
+    texts:
+      - Lukas
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Huw
+  - osis: 2John
+    texts:
+      - 2Huw
+  - osis: 3John
+    texts:
+      - 3 Huwan
+      - 3Huw
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Huwan
+  - osis: John
+    texts:
+      - Huwan
+      - Huw
+  - osis: Acts
+    texts:
+      - Me Himu
+      - Himu
+  - osis: Rom
+    texts:
+      - Ruma
+      - Rum
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kurintu
+  - osis: 1Cor
+    texts:
+      - 1Ku
+  - osis: 2Cor
+    texts:
+      - 2Ku
+  - osis: Col
+    texts:
+      - Kulusas
+      - Kul
+  - osis: Gal
+    texts:
+      - Galasya
+      - Gal
+  - osis: Eph
+    texts:
+      - Ipisu
+      - Ipi
+  - osis: Phil
+    texts:
+      - Pilipus
+      - Pil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tisalunika
+  - osis: 1Thess
+    texts:
+      - 1Ti
+  - osis: 2Thess
+    texts:
+      - 2Ti
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timutiyu
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Titu
+      - Tit
+  - osis: Phlm
+    texts:
+      - Pilimun
+      - Plm
+  - osis: Heb
+    texts:
+      - Hibruwanen
+      - Hib
+  - osis: Jas
+    texts:
+      - Santiyagu
+      - San
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pidru
+  - osis: 1Pet
+    texts:
+      - 1Pi
+  - osis: 2Pet
+    texts:
+      - 2Pi
+  - osis: Jude
+    texts:
+      - Hudas
+      - Hud
+translations:
+  - MBT

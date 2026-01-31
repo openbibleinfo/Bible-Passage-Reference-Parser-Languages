@@ -1,0 +1,203 @@
+default:
+  1Chr:
+    long: 1 Besako
+    short: 1 Bes
+  1Cor:
+    long: 1 Ba-Kolinto
+    short: 1 Kol
+  1John:
+    long: 1 Yoane
+    short: 1 Yoa
+  1Kgs:
+    long: 1 Bakulaka
+    short: 1 Bak
+  1Pet:
+    long: 1 Petelo
+    short: 1 Pet
+  1Sam:
+    long: 1 Samwele
+    short: 1 Sam
+  1Thess:
+    long: 1 Ba-Tesalonike
+    short: 1 Tes
+  1Tim:
+    long: 1 Timoteo
+    short: 1 Tim
+  2Chr:
+    long: 2 Besako
+    short: 2 Bes
+  2Cor:
+    long: 2 Ba-Kolinto
+    short: 2 Kol
+  2John:
+    long: 2 Yoane
+    short: 2 Yoa
+  2Kgs:
+    long: 2 Bakulaka
+    short: 2 Bak
+  2Pet:
+    long: 2 Petelo
+    short: 2 Pet
+  2Sam:
+    long: 2 Samwele
+    short: 2 Sam
+  2Thess:
+    long: 2 Ba-Tesalonike
+    short: 2 Tes
+  2Tim:
+    long: 2 Timoteo
+    short: 2 Tim
+  3John:
+    long: 3 Yoane
+    short: 3 Yoa
+  Acts:
+    long: Belemo Beki Bikima
+    short: Bik
+  Amos:
+    long: Amosa
+    short: Am
+  Col:
+    long: Ba-Kolosai
+    short: Kolos
+  Dan:
+    long: Danyele
+    short: Dan
+  Deut:
+    long: Bisekyelo biʼafeka
+    short: B. biʼaf
+  Eccl:
+    long: Wongoji
+    short: Wong
+  Eph:
+    long: Ba-Efeso
+    short: Ef
+  Esth:
+    long: Esetele
+    short: Eset
+  Exod:
+    long: Olelo
+    short: Ol
+  Ezek:
+    long: Yezekele
+    short: Yez
+  Ezra:
+    long: Ezala
+    short: Ez
+  Gal:
+    long: Ba-Ngalatia
+    short: Ngal
+  Gen:
+    long: Toango
+    short: To
+  Hab:
+    long: Abakuka
+    short: Ab
+  Hag:
+    long: Angai
+    short: Ang
+  Heb:
+    long: Ba-Ebele
+    short: Eb
+  Hos:
+    long: Osea
+    short: Os
+  Isa:
+    long: Yesaya
+    short: Yes
+  Jas:
+    long: Yakobo
+    short: Yak
+  Jer:
+    long: Yelemaya
+    short: Yel
+  Job:
+    long: Eyobo
+    short: Ey
+  Joel:
+    long: Yoele
+    short: Yoe
+  John:
+    long: Yoane
+    short: Yoa
+  Jonah:
+    long: Yona
+    short: Yona
+  Josh:
+    long: Yoswa
+    short: Yos
+  Jude:
+    long: Yuda
+    short: Yuda
+  Judg:
+    long: Bateni bʼakambo
+    short: Bat
+  Lam:
+    long: Balelo
+    short: Bal
+  Lev:
+    long: Bisekyelo bia Ba-Lewi
+    short: Lewi
+  Luke:
+    long: Luka
+    short: Lk
+  Mal:
+    long: Malaki
+    short: Mal
+  Mark:
+    long: Malako
+    short: Mk
+  Matt:
+    long: Matayo
+    short: Mt
+  Mic:
+    long: Mika
+    short: Mika
+  Nah:
+    long: Nauma
+    short: Nau
+  Neh:
+    long: Nemaya
+    short: Nem
+  Num:
+    long: Beanji
+    short: Bea
+  Obad:
+    long: Obadiya
+    short: Obad
+  Phil:
+    long: Ba-Filipoi
+    short: Fil
+  Phlm:
+    long: Filemona
+    short: Filem
+  Prov:
+    long: Nsau
+    short: Nsau
+  Ps:
+    long: Njemba ya Losimo
+    short: Nj Los
+  Rev:
+    long: Eneyelo
+    short: Eney
+  Rom:
+    long: Ba-Loma
+    short: Lom
+  Ruth:
+    long: Luta
+    short: Luta
+  Song:
+    long: Njemba ea Njemba
+    short: Nj Nj
+  Titus:
+    long: Tito
+    short: Tito
+  Zech:
+    long: Zekalaya
+    short: Zek
+  Zeph:
+    long: Sefanya
+    short: Sef
+translations:
+  lol87:
+    Acts:
+      long: Bikambelo biki bikima

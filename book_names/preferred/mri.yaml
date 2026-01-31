@@ -1,0 +1,242 @@
+default:
+  1Chr:
+    long: 1 Whakapapa
+    short: 1Wkp
+  1Cor:
+    long: 1 Koriniti
+    short: 1Kor
+  1John:
+    long: 1 Hoani
+    short: 1Hoa
+  1Kgs:
+    long: 1 Kingi
+    short: 1Kng
+  1Pet:
+    long: 1 Pita
+    short: 1Pit
+  1Sam:
+    long: 1 Hamuera
+    short: 1Ham
+  1Thess:
+    long: 1 Teharonika
+    short: 1Teh
+  1Tim:
+    long: 1 Timoti
+    short: 1Tim
+  2Chr:
+    long: 2 Whakapapa
+    short: 2Wkp
+  2Cor:
+    long: 2 Koriniti
+    short: 2Kor
+  2John:
+    long: 2 Hoani
+    short: 2Hoa
+  2Kgs:
+    long: 2 Kingi
+    short: 2Kng
+  2Pet:
+    long: 2 Pita
+    short: 2Pit
+  2Sam:
+    long: 2 Hamuera
+    short: 2Ham
+  2Thess:
+    long: 2 Teharonika
+    short: 2Teh
+  2Tim:
+    long: 2 Timoti
+    short: 2Tim
+  3John:
+    long: 3 Hoani
+    short: 3Hoa
+  Acts:
+    long: Mahi
+    short: Mahi
+  Amos:
+    long: Amoho
+    short: Amoh
+  Col:
+    long: Korohe
+    short: Koro
+  Dan:
+    long: Raniera
+    short: Rani
+  Deut:
+    long: Tiuteronomi
+    short: Tiut
+  Eccl:
+    long: Kaikauwhau
+    short: Kkwh
+  Eph:
+    long: Epeha
+    short: Epeh
+  Esth:
+    long: Ehetere
+    short: Ehet
+  Exod:
+    long: Ekoruhe
+    short: Ekor
+  Ezek:
+    long: Ehekiera
+    short: Ehek
+  Ezra:
+    long: Etera
+    short: Eter
+  Gal:
+    long: Karatia
+    short: Kara
+  Gen:
+    long: Kenehi
+    short: Kene
+  Hab:
+    long: Hapakuku
+    short: Hapa
+  Hag:
+    long: Hakai
+    short: Haka
+  Heb:
+    long: Hiperu
+    short: Hepe
+  Hos:
+    long: Hohea
+    short: Hohe
+  Isa:
+    long: Ihaia
+    short: Ihai
+  Jas:
+    long: Hemi
+    short: Hemi
+  Jer:
+    long: Heremaia
+    short: Here
+  Job:
+    long: Hopa
+    short: Hopa
+  Joel:
+    long: Hoera
+    short: Hoer
+  John:
+    long: Hoani
+    short: Hoan
+  Jonah:
+    long: Hona
+    short: Hona
+  Josh:
+    long: Hohua
+    short: Hohu
+  Jude:
+    long: Hura
+    short: Hura
+  Judg:
+    long: Kaiwhakariterite
+    short: Kwhk
+  Lam:
+    long: Ngā Tangi
+    short: Tang
+  Lev:
+    long: Rewitikuha
+    short: Rewi
+  Luke:
+    long: Ruka
+    short: Ruka
+  Mal:
+    long: Maraki
+    short: Mara
+  Mark:
+    long: Maka
+    short: Maka
+  Matt:
+    long: Matiu
+    short: Mati
+  Mic:
+    long: Mika
+    short: Mika
+  Nah:
+    long: Nahumu
+    short: Nahu
+  Neh:
+    long: Nehemia
+    short: Nehe
+  Num:
+    long: Tauanga
+    short: Taua
+  Obad:
+    long: Oparia
+    short: Opar
+  Phil:
+    long: Piripai
+    short: Pirp
+  Phlm:
+    long: Pirimona
+    short: Prmn
+  Prov:
+    long: Whakatauki
+    short: Wtki
+  Ps:
+    long: Waiata
+    short: Waia
+  Rev:
+    long: Whakakitenga
+    short: Kite
+  Rom:
+    long: Roma
+    short: Roma
+  Ruth:
+    long: Rutu
+    short: Rutu
+  Song:
+    long: Waiata a Horomona
+    short: Waih
+  Titus:
+    long: Taituha
+    short: Tait
+  Zech:
+    long: Hakaraia
+    short: Hakr
+  Zeph:
+    long: Tepania
+    short: Tepa
+translations:
+  mri2012:
+    1Kgs:
+      long: 1 Kīngi
+    2Kgs:
+      long: 2 Kīngi
+    Acts:
+      long: Ngā Mahi
+    Amos:
+      long: Āmoho
+      short: Āmoh
+    Hag:
+      long: Hākai
+      short: Hāka
+    Heb:
+      long: Ngā Hiperu
+      short: Hipe
+    Hos:
+      long: Hōhea
+      short: Hōhe
+    Isa:
+      long: Ihāia
+      short: Ihāi
+    Jas:
+      long: Hēmi
+      short: Hēmi
+    Jude:
+      long: Hūrā
+      short: Hūrā
+    Mark:
+      long: Māka
+      short: Māka
+    Obad:
+      long: Opāria
+      short: Opār
+    Rom:
+      long: Rōma
+      short: Rōma
+  mri1952:
+    Eph:
+      short: Epeha
+    Lam:
+      long: Tangi

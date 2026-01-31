@@ -1,0 +1,134 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Mwanduso
+      - Mwand
+  - osis: Exod
+    texts:
+      - Kulawa
+      - Kul
+  - osis: Lev
+    texts:
+      - Walawi
+      - Wala
+  - osis: Num
+    texts:
+      - Peta
+      - Pet
+  - osis: Rev
+    texts:
+      - Lugubulo
+      - Lugubu
+  - osis: Deut
+    texts:
+      - Kumbukumbu
+      - Kumb
+  - osis: Matt
+    texts:
+      - Masayo
+      - Mas
+  - osis: Mark
+    texts:
+      - Maliki
+      - Mali
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohana
+      - Yoh
+  - osis: Acts
+    texts:
+      - Sang'hano
+      - Sang'h
+  - osis: Rom
+    texts:
+      - Waloma
+      - Lom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Wakolimso
+      - Wako
+  - osis: Col
+    texts:
+      - waKolosayi
+      - Wakolosai
+      - Kolos
+  - osis: Gal
+    texts:
+      - Wagalatiya
+      - Gala
+  - osis: Eph
+    texts:
+      - Waefeso
+      - Efes
+  - osis: Phil
+    texts:
+      - waFilipi
+      - Filip
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Wasesalonike
+      - Sesa
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoseyo
+      - Timo
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filimoni
+      - Fili
+  - osis: Heb
+    texts:
+      - Waebulaniya
+      - Ebula
+  - osis: Jas
+    texts:
+      - Yakobo
+      - Yako
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petili
+      - Peti
+  - osis: Jude
+    texts:
+      - Yuda
+      - Yud
+translations:
+  - KWERE

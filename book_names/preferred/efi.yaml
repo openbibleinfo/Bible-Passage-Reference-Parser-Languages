@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Chronicles
+    short: 1 Chr
+  1Cor:
+    long: 1 Ŋwed Corinth
+    short: 1 Cor
+  1John:
+    long: 1 John
+    short: 1 Jhn
+  1Kgs:
+    long: 1 Ndidem
+    short: 1 Ndi
+  1Pet:
+    long: 1 Peter
+    short: 1 Pet
+  1Sam:
+    long: 1 Samuel
+    short: 1 Sam
+  1Thess:
+    long: 1 Ŋwed Thessalonica
+    short: 1 Thes
+  1Tim:
+    long: 1Ŋwed Timothy
+    short: 1 Tim
+  2Chr:
+    long: 2 Chronicles
+    short: 2 Chr
+  2Cor:
+    long: 2 Ŋwed Corinth
+    short: 2 Cor
+  2John:
+    long: 2 John
+    short: 2 Jhn
+  2Kgs:
+    long: 2 Ndidem
+    short: 2 Ndi
+  2Pet:
+    long: 2 Peter
+    short: 2 Pet
+  2Sam:
+    long: 2 Samuel
+    short: 2 Sam
+  2Thess:
+    long: 2 Ŋwed Thessalonica
+    short: 2 Thes
+  2Tim:
+    long: 2 Ŋwed Timothy
+    short: 2 Tim
+  3John:
+    long: 3 John
+    short: 3 Jhn
+  Acts:
+    long: Utom Mme Apostle
+    short: Acts
+  Amos:
+    long: Amos
+    short: Amo
+  Col:
+    long: Ŋwed Mbon Colossae
+    short: Col
+  Dan:
+    long: Daniel
+    short: Dan
+  Deut:
+    long: Deuteronomy
+    short: Deut
+  Eccl:
+    long: Ecclesiastes
+    short: Eccl
+  Eph:
+    long: Ŋwed Mbon Ephesus
+    short: Eph
+  Esth:
+    long: Esther
+    short: Esth
+  Exod:
+    long: Exodus
+    short: Exo
+  Ezek:
+    long: Ezekiel
+    short: Ezek
+  Ezra:
+    long: Ezra
+    short: Ezr
+  Gal:
+    long: Ŋwed Mbon Galatia
+    short: Gal
+  Gen:
+    long: Genesis
+    short: Gen
+  Hab:
+    long: Habakkuk
+    short: Hab
+  Hag:
+    long: Haggai
+    short: Hag
+  Heb:
+    long: Mme Hebrew
+    short: Heb
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Isaiah
+    short: Isa
+  Jas:
+    long: James
+    short: Jas
+  Jer:
+    long: Jeremiah
+    short: Jer
+  Job:
+    long: Ŋwed Job
+    short: Job
+  Joel:
+    long: Joel
+    short: Joel
+  John:
+    long: John
+    short: Jn
+  Jonah:
+    long: Jonah
+    short: Jon
+  Josh:
+    long: Joshua
+    short: Josh
+  Jude:
+    long: Jude
+    short: Jud
+  Judg:
+    long: Judges
+    short: Judg
+  Lam:
+    long: Ŋwed Eseme
+    short: Eseme
+  Lev:
+    long: Leviticus
+    short: Lev
+  Luke:
+    long: Luke
+    short: Lk
+  Mal:
+    long: Malachi
+    short: Mal
+  Mark:
+    long: Mark
+    short: Mk
+  Matt:
+    long: Matthew
+    short: Mt
+  Mic:
+    long: Micah
+    short: Mic
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nehemiah
+    short: Neh
+  Num:
+    long: Numbers
+    short: Num
+  Obad:
+    long: Obadiah
+    short: Obad
+  Phil:
+    long: Ŋwed Mbon Philippi
+    short: Phil
+  Phlm:
+    long: Philemon
+    short: Phlm
+  Prov:
+    long: Mme Ŋke
+    short: Ŋke
+  Ps:
+    long: Ŋwed Mme Psalm
+    short: Ps
+  Rev:
+    long: Eriyarare
+    short: Edi
+  Rom:
+    long: Ŋwed Mbon Rome
+    short: Rom
+  Ruth:
+    long: Ruth
+    short: Ruth
+  Song:
+    long: Ikwɔ Solomon
+    short: Ikwɔ
+  Titus:
+    long: Titus
+    short: Tit
+  Zech:
+    long: Zechariah
+    short: Zech
+  Zeph:
+    long: Zephaniah
+    short: Zeph

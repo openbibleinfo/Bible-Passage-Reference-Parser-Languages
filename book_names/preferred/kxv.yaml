@@ -1,0 +1,87 @@
+default:
+  1Cor:
+    long: ୧କର
+    short: ୧କର
+  1John:
+    long: ୧ଜହ
+    short: ୧ଜହ
+  1Pet:
+    long: ୧ପିତ
+    short: ୧ପିତ
+  1Thess:
+    long: ୧ତେସ
+    short: ୧ତେସ
+  1Tim:
+    long: ୧ତିମ
+    short: ୧ତିମ
+  2Cor:
+    long: ୨କର
+    short: ୨କର
+  2John:
+    long: ୨ଜହ
+    short: ୨ଜହ
+  2Pet:
+    long: ୨ପିତ
+    short: ୨ପିତ
+  2Thess:
+    long: ୨ତେସ
+    short: ୨ତେସ
+  2Tim:
+    long: ୨ତିମ
+    short: ୨ତିମ
+  3John:
+    long: ୩ଜହ
+    short: ୩ଜହ
+  Acts:
+    long: କାମା
+    short: କାମା
+  Col:
+    long: କଲସି
+    short: କଲସି
+  Eph:
+    long: ଏପିସି
+    short: ଏପିସି
+  Gal:
+    long: ଗାଲା
+    short: ଗାଲା
+  Heb:
+    long: ଏବ୍ରି
+    short: ଏବ୍ରି
+  Jas:
+    long: ଜାକୁବ
+    short: ଜାକୁବ
+  John:
+    long: ଜହ
+    short: ଜହ
+  Jude:
+    long: ଜୀହୁଦା
+    short: ଜୀହୁଦା
+  Luke:
+    long: Luka
+    short: Luka
+  Mark:
+    long: ମାର୍କ
+    short: ମାର୍କ
+  Matt:
+    long: ମାତି
+    short: ମାତି
+  Phil:
+    long: ପିଲିପି
+    short: ପିଲିପି
+  Phlm:
+    long: ପିଲିମ
+    short: ପିଲିମ
+  Rev:
+    long: ୱେ଼ ବ଼ଲୁ
+    short: ୱେ଼ ବ଼ଲୁ
+  Rom:
+    long: ରମି
+    short: ରମି
+  Titus:
+    long: ତିତସ
+    short: ତିତସ
+translations:
+  ntkii20:
+    Luke:
+      long: ଲୂକ
+      short: ଲୂକ

@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Itkimäkqä
+  - osis: Matt
+    texts:
+      - Matiu
+  - osis: Mark
+    texts:
+      - Makä
+  - osis: Luke
+    texts:
+      - Lukä
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jonä
+  - osis: Acts
+    texts:
+      - Wäuŋuiŋqä
+  - osis: Rom
+    texts:
+      - Romä
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinä
+  - osis: Col
+    texts:
+      - Kolosi
+  - osis: Gal
+    texts:
+      - Galesiya
+  - osis: Eph
+    texts:
+      - Epäsäsi
+  - osis: Phil
+    texts:
+      - Pilipai
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesälonaika
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: Titus
+    texts:
+      - Talusi
+  - osis: Phlm
+    texts:
+      - Pilimänä
+  - osis: Heb
+    texts:
+      - Hipru
+  - osis: Jas
+    texts:
+      - Jemisi
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pitä
+  - osis: Jude
+    texts:
+      - Jutä
+translations:
+  - MCR

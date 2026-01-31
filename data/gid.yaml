@@ -1,0 +1,368 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Va'Atəŋ
+      - Vaa
+  - osis: Exod
+    texts:
+      - Əgilye
+      - Əgi
+  - osis: Lev
+    texts:
+      - Məsdəlveŋge
+      - Məs
+  - osis: Num
+    texts:
+      - Əŋɗa
+      - Əŋɗ
+  - osis: Sir
+    texts:
+      - Sirasid
+      - Sir
+  - osis: Wis
+    texts:
+      - Maɗɗula
+      - Maɗ
+  - osis: Lam
+    texts:
+      - Əɓuhma
+      - Əɓu
+  - osis: EpJer
+    texts:
+      - Letər na Yeremiya
+      - Lny
+  - osis: Rev
+    texts:
+      - Hənhən
+      - Hnh
+      - Hnz
+  - osis: Deut
+    texts:
+      - Əmsak aka Mahenziŋ
+      - Əms
+  - osis: Josh
+    texts:
+      - Yosuwa
+      - Yos
+  - osis: Judg
+    texts:
+      - Mətawaŋwəna
+      - Mət
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis: Isa
+    texts:
+      - Isaya
+      - Isa
+  - osis: 1Sam
+    texts:
+      - 1Samiyel
+      - 1Sa
+  - osis: 2Sam
+    texts:
+      - 2Samiyel
+      - 2Sa
+  - osis: 1Kgs
+    texts:
+      - 1Milyeŋge
+      - 1Mi
+  - osis: 2Kgs
+    texts:
+      - 2Milyeŋge
+      - 2Mi
+  - osis: 1Chr
+    texts:
+      - 1Alabaraɗe Də Mabərkiziti
+      - 1Al
+  - osis: 2Chr
+    texts:
+      - 2Alabaraɗe Də Mabərkiziti
+      - 2Al
+  - osis: Ezra
+    texts:
+      - Ezra
+      - Ezr
+  - osis: Neh
+    texts:
+      - Nehemi
+      - Neh
+  - osis: Job
+    texts:
+      - Yob
+  - osis: Prov
+    texts:
+      - Wənməkkpaŋga
+      - Wən
+  - osis: Eccl
+    texts:
+      - Məsmaɗula
+      - Mər
+  - osis: Song
+    texts:
+      - Gəlya net Gəlyaɗe
+      - Gəl
+  - osis: Ps
+    texts:
+      - Gəlyaɗe
+      - Glɗ
+  - osis: Jer
+    texts:
+      - Yeremiya
+      - Yer
+  - osis: Ezek
+    texts:
+      - Ezekiyel
+      - Eze
+  - osis: Hos
+    texts:
+      - Hose'a
+      - Hos
+  - osis: Joel
+    texts:
+      - Yo'el
+      - Yo'
+  - osis: Amos
+    texts:
+      - Amos
+      - Amo
+  - osis: Obad
+    texts:
+      - Obadya
+      - Oba
+  - osis: Jonah
+    texts:
+      - Yonas
+      - Yon
+  - osis: Mic
+    texts:
+      - Mika
+      - MiK
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sefanya
+      - Sef
+  - osis: Hag
+    texts:
+      - Haggay
+      - Hag
+  - osis: Zech
+    texts:
+      - Zakarya
+      - Zak
+  - osis: Mal
+    texts:
+      - Malakiya
+      - Mal
+  - osis: Matt
+    texts:
+      - Matiye
+      - Mat
+      - Mt
+  - osis: Mark
+    texts:
+      - Markus
+      - Mar
+      - Mk
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+      - Lk
+  - osis: 1John
+    texts:
+      - 1Yohanna
+      - 1Yoh
+      - 1Zŋ
+  - osis: 2John
+    texts:
+      - 2Yohanna
+      - 2Yoh
+      - 2Zŋ
+  - osis: 3John
+    texts:
+      - 3Yohanna
+      - 3 Zaŋ
+      - 3Yoh
+      - 3Zŋ
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Zaŋ
+  - osis: John
+    texts:
+      - Yohanna
+      - Yoh
+      - Zaŋ
+  - osis: Acts
+    texts:
+      - Wəza net Maslənɗe
+      - Wəza net Masləŋɗe
+      - W.N.M.
+      - Wnm
+  - osis: Rom
+    texts:
+      - Roma
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintiyen
+  - osis: 1Cor
+    texts:
+      - 1Korintus
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - 2Korintus
+      - 2Ko
+  - osis: Col
+    texts:
+      - Kolosiyen
+      - Kolosi
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatiyen
+      - Galat
+      - Gal
+  - osis: Eph
+    texts:
+      - Efesiyen
+      - Efesus
+      - Efe
+      - Ef
+  - osis: Phil
+    texts:
+      - Filipiyen
+      - Filipi
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonikiyen
+  - osis: 1Thess
+    texts:
+      - 1Tesaloniki
+      - 1Te
+  - osis: 2Thess
+    texts:
+      - 2Tesaloniki
+      - 2Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+  - osis: 1Tim
+    texts:
+      - 1Timote
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Timote
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Titus
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemon
+      - Flm
+  - osis: Heb
+    texts:
+      - Yahudiyen
+      - Ibriɗe
+      - Ibr
+      - Yah
+  - osis: Jas
+    texts:
+      - Yakob
+      - Yak
+      - Zak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piyer
+  - osis: 1Pet
+    texts:
+      - 1Piyer
+      - 1Pi
+  - osis: 2Pet
+    texts:
+      - 2Piyer
+      - 2Pi
+  - osis: Jude
+    texts:
+      - Yuda
+      - Zuda
+      - Yud
+      - Zud
+  - osis: Tob
+    texts:
+      - Tobit
+      - Tob
+  - osis: Jdt
+    texts:
+      - Yudit
+      - Ydt
+  - osis: Bar
+    texts:
+      - Baruk
+      - Bar
+  - osis: 1Macc
+    texts:
+      - 1Makabeɗe
+      - 1Ma
+  - osis: 2Macc
+    texts:
+      - 2Makabeɗe
+      - 2Ma
+  - osis: DanGr
+    texts:
+      - Daniyel Gərek
+      - DaG
+  - osis: Dan
+    texts:
+      - Daniyel
+      - Dan
+  - osis: EsthGr
+    texts:
+      - Ester Gərek
+      - Egk
+  - osis: Esth
+    texts:
+      - Ester
+      - Est
+translations:
+  - BG
+  - BGD
+  - GDRNT85

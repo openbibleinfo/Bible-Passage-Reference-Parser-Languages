@@ -1,0 +1,304 @@
+default:
+  1Chr:
+    long: 1 Diketsahalo
+    short: 1 Dik.
+  1Cor:
+    long: 1 Bakorinthe
+    short: 1 Bakr.
+  1John:
+    long: 1 Johanne
+    short: 1 Joh.
+  1Kgs:
+    long: 1 Dikgosi
+    short: 1 Dikg.
+  1Pet:
+    long: 1 Petrose
+    short: 1 Pet.
+  1Sam:
+    long: 1 Samuele
+    short: 1 Sam.
+  1Thess:
+    long: 1 Bathesalonika
+    short: 1 Bat.
+  1Tim:
+    long: 1 Timothea
+    short: 1 Tim.
+  2Chr:
+    long: 2 Diketsahalo
+    short: 2 Dik.
+  2Cor:
+    long: 2 Bakorinthe
+    short: 2 Bakr.
+  2John:
+    long: 2 Johanne
+    short: 2 Joh.
+  2Kgs:
+    long: 2 Dikgosi
+    short: 2 Dikg.
+  2Pet:
+    long: 2 Petrose
+    short: 2 Pet.
+  2Sam:
+    long: 2 Samuele
+    short: 2 Sam.
+  2Thess:
+    long: 2 Bathesalonika
+    short: 2 Bat.
+  2Tim:
+    long: 2 Timothea
+    short: 2 Tim.
+  3John:
+    long: 3 Johanne
+    short: 3 Joh.
+  Acts:
+    long: Diketso
+    short: Dik.
+  Amos:
+    long: Amose
+    short: Amo.
+  Col:
+    long: BaKolose
+    short: Bakl.
+  Dan:
+    long: Daniele
+    short: Dan.
+  Deut:
+    long: Deuteronoma
+    short: Dipo.
+  Eccl:
+    long: Moeklesia
+    short: Mor.
+  Eph:
+    long: Baefese
+    short: Bae.
+  Esth:
+    long: Esthere
+    short: Est.
+  Exod:
+    long: Eksoda
+    short: Phal.
+  Ezek:
+    long: Esekiele
+    short: Esk.
+  Ezra:
+    long: Esdrase
+    short: Esr.
+  Gal:
+    long: Bagalata
+    short: Bag.
+  Gen:
+    long: Genese
+    short: Tshim.
+  Hab:
+    long: Habakuke
+    short: Hab.
+  Hag:
+    long: Haggai
+    short: Hag.
+  Heb:
+    long: BaHebheru
+    short: Bah.
+  Hos:
+    long: Hosea
+    short: Hos.
+  Isa:
+    long: Esaia
+    short: Esa.
+  Jas:
+    long: Jakobo
+    short: Jak.
+  Jer:
+    long: Jeremia
+    short: Jer.
+  Job:
+    long: Jobo
+    short: Jobo
+  Joel:
+    long: Joele
+    short: Joe.
+  John:
+    long: Johanne
+    short: Joh.
+  Jonah:
+    long: Jonase
+    short: Jona.
+  Josh:
+    long: Joshua
+    short: Josh.
+  Jude:
+    long: Juda
+    short: Juda
+  Judg:
+    long: Baahlodi
+    short: Baa.
+  Lam:
+    long: Dillo Tsa Jeremia
+    short: Kodi.
+  Lev:
+    long: Levitike
+    short: Mee.
+  Luke:
+    long: Luka
+    short: Luka
+  Mal:
+    long: Malakia
+    short: Mal.
+  Mark:
+    long: Mareka
+    short: Mar.
+  Matt:
+    long: Mattheu
+    short: Mat.
+  Mic:
+    long: Mikea
+    short: Mmik.
+  Nah:
+    long: Nahume
+    short: Nah.
+  Neh:
+    long: Nehemia
+    short: Neh.
+  Num:
+    long: Numere
+    short: Dipa.
+  Obad:
+    long: Obadia
+    short: Oba.
+  Phil:
+    long: BaFilipi
+    short: Baf.
+  Phlm:
+    long: Filemone
+    short: Fil.
+  Prov:
+    long: Diproverbia
+    short: Mae.
+  Ps:
+    long: Dipesaleme
+    short: Pes.
+  Rev:
+    long: Tshenolo
+    short: Tshen.
+  Rom:
+    long: BaRoma
+    short: Bar.
+  Ruth:
+    long: Ruthe
+    short: Rut.
+  Song:
+    long: Sefela sa Salomone
+    short: Sef.
+  Titus:
+    long: Tite
+    short: Tite
+  Zech:
+    long: Sakaria
+    short: Sak.
+  Zeph:
+    long: Sofonia
+    short: Sof.
+translations:
+  csob24:
+    1Chr:
+      long: 1 Dikronike
+    1Kgs:
+      long: 1 Marena
+    2Chr:
+      long: 2 Dikronike
+    2Kgs:
+      long: 2 Marena
+    Ezek:
+      long: Ezekiele
+    Isa:
+      long: Isaia
+    Jude:
+      long: Yuda
+  sso61-so:
+    1Chr:
+      long: I Dikronike
+    1Cor:
+      long: I Bakorinthe
+    1John:
+      long: I Johanne
+    1Kgs:
+      long: I Marena
+    1Pet:
+      long: I Petrose
+    1Sam:
+      long: I Samuele
+    1Thess:
+      long: I Bathesalonika
+    1Tim:
+      long: I Timothea
+    2Chr:
+      long: II Dikronike
+    2Cor:
+      long: II Bakorinthe
+    2John:
+      long: II Johanne
+    2Kgs:
+      long: II Marena
+    2Pet:
+      long: II Petrose
+    2Sam:
+      long: II Samuele
+    2Thess:
+      long: II Bathesalonika
+    2Tim:
+      long: II Timothea
+    3John:
+      long: III Johanne
+    Heb:
+      long: Baheberu
+  sothont:
+    1John:
+      long: Johanne 1
+    2John:
+      long: Johanne 2
+    3John:
+      long: Johanne 3
+    Jude:
+      long: Yuda
+  sso89so:
+    Deut:
+      long: Dipolelo
+    Eccl:
+      long: Moruti
+    Esth:
+      long: Esetere
+    Exod:
+      long: Phallo
+    Ezra:
+      long: Esera
+    Gen:
+      long: Tshimoloho
+    Hag:
+      long: Hagai
+    Heb:
+      long: Baheberu
+    Isa:
+      long: Esaya
+    Lam:
+      long: Koli-ya-malla
+    Lev:
+      long: Meetlo
+    Mal:
+      long: Malakiya
+    Matt:
+      long: Matheu
+    Mic:
+      long: Mmikiya
+    Num:
+      long: Dipalo
+    Obad:
+      long: Obadiya
+    Prov:
+      long: Maele
+    Ps:
+      long: Dipesalema
+    Song:
+      long: Sefela Sa Difela
+    Zech:
+      long: Sakariya
+    Zeph:
+      long: Sofonea

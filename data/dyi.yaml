@@ -1,0 +1,257 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Zhenɛsi
+      - Zhenɛ
+  - osis: Exod
+    texts:
+      - Ɛkizɔdi
+      - Ɛki
+  - osis: Lev
+    texts:
+      - Levitiki
+      - Levi
+  - osis: Num
+    texts:
+      - Nɔmburu
+      - Nɔmbu
+  - osis: Lam
+    texts:
+      - Yuŋgbɔgɔrɔ sɛnrɛ
+      - Yuŋgbɔ
+  - osis: Rev
+    texts:
+      - Nagawa
+      - Naga
+  - osis: Deut
+    texts:
+      - Deteronɔmu
+      - Dete
+  - osis: Josh
+    texts:
+      - Zhozuwe
+      - Zhozu
+  - osis: Judg
+    texts:
+      - Kiti kɔfɛnnɛ
+      - Kiti
+  - osis: Ruth
+    texts:
+      - Uruti
+  - osis: Isa
+    texts:
+      - Ezayi
+      - Eza
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samiyɛli
+      - Sami
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Wunlumbolo
+      - Wunlu
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Kuroniki
+      - Kuro
+  - osis: Ezra
+    texts:
+      - Ɛsidirasi
+      - Ɛsidi
+  - osis: Neh
+    texts:
+      - Nehemi
+      - Nehe
+  - osis: Esth
+    texts:
+      - Ɛsitɛri
+      - Ɛsitɛ
+  - osis: Job
+    texts:
+      - Zhɔbu
+  - osis: Ps
+    texts:
+      - Yuuro
+  - osis: Prov
+    texts:
+      - Yomiyɛgɛlɛ
+      - Yomi
+  - osis: Eccl
+    texts:
+      - Yɛnŋɛlɛ sɛnrɛ yofɔ
+      - Yofɔ
+  - osis: Song
+    texts:
+      - Yurutanga
+      - Yurutan
+  - osis: Jer
+    texts:
+      - Zheremi
+      - Zhere
+  - osis: Ezek
+    texts:
+      - Ezekiyɛli
+      - Eze
+  - osis: Dan
+    texts:
+      - Daniyɛli
+      - Dani
+  - osis: Hos
+    texts:
+      - Oze
+  - osis: Joel
+    texts:
+      - Zhowɛli
+      - Zhowɛ
+  - osis: Amos
+    texts:
+      - Amɔsi
+      - Amɔ
+  - osis: Obad
+    texts:
+      - Abidiyasi
+      - Abi
+  - osis: Jonah
+    texts:
+      - Zhonasi
+      - Zhona
+  - osis: Mic
+    texts:
+      - Mishe
+  - osis: Nah
+    texts:
+      - Nawumu
+      - Nawu
+  - osis: Hab
+    texts:
+      - Abakuki
+      - Aba
+  - osis: Zeph
+    texts:
+      - Sofoni
+      - Sofo
+  - osis: Hag
+    texts:
+      - Azhe
+  - osis: Zech
+    texts:
+      - Zakari
+      - Zaka
+  - osis: Mal
+    texts:
+      - Malaki
+      - Mala
+  - osis: Matt
+    texts:
+      - Matiye
+      - Mati
+  - osis: Mark
+    texts:
+      - Mariki
+      - Maki
+  - osis: Luke
+    texts:
+      - Luki
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Zhan
+  - osis: Acts
+    texts:
+      - Kapyegele
+      - Kapye
+  - osis: Rom
+    texts:
+      - Ɔrɔmu
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korɛnti
+      - Korɛn
+  - osis: Col
+    texts:
+      - Kolɔsi
+      - Kolɔ
+  - osis: Gal
+    texts:
+      - Galasi
+      - Gala
+  - osis: Eph
+    texts:
+      - Efɛzi
+      - Efɛ
+  - osis: Phil
+    texts:
+      - Filipi
+      - Fili
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaloniki
+      - Tesa
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+      - Timo
+  - osis: Titus
+    texts:
+      - Tite
+  - osis: Phlm
+    texts:
+      - Filemɔ
+      - File
+  - osis: Heb
+    texts:
+      - Eburuye
+      - Ebu
+  - osis: Jas
+    texts:
+      - Zhaki
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pyɛri
+      - Pyɛ
+  - osis: Jude
+    texts:
+      - Zhude
+translations:
+  - DYIB

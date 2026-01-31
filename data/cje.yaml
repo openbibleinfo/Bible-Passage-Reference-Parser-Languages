@@ -1,0 +1,111 @@
+variables:
+  first: &first
+    - I
+  second: &second
+    - II
+  third: &third
+    - III
+books:
+  - osis: Rev
+    texts:
+      - Bơ-àr Pơh Tơbiă Brơi Thơu
+      - Pơh
+  - osis: Matt
+    texts:
+      - Mathiơ
+      - Mat
+  - osis: Mark
+    texts:
+      - Mak
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jăng
+      - Jng
+  - osis: Acts
+    texts:
+      - Bruă Du Mơnih Tơdi-Tơdài
+      - Bruă
+  - osis: Rom
+    texts:
+      - Rôma
+      - Rôm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kôrintô
+      - Kô
+  - osis: Col
+    texts:
+      - Kôlôse
+      - Kôl
+  - osis: Gal
+    texts:
+      - Galati
+      - Ga
+  - osis: Eph
+    texts:
+      - Ephêsô
+      - Eph
+  - osis: Phil
+    texts:
+      - Philip
+      - Phil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalônika
+      - Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timôthe
+      - Ti
+  - osis: Titus
+    texts:
+      - Tĭt
+  - osis: Phlm
+    texts:
+      - Philêmôn
+      - Phlm
+  - osis: Heb
+    texts:
+      - Hebrơ
+      - He
+  - osis: Jas
+    texts:
+      - Jakơ
+      - Ja
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pier
+      - Pi
+  - osis: Jude
+    texts:
+      - Juđe
+      - Ju
+translations:
+  - CNT15

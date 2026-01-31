@@ -1,0 +1,264 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Pamungkaan
+      - Pmk.
+  - osis: Exod
+    texts:
+      - Haruruar
+      - Har.
+  - osis: Lev
+    texts:
+      - Hamalimon
+      - Ham.
+  - osis: Num
+    texts:
+      - Bilangan
+      - Bil.
+  - osis: Lam
+    texts:
+      - Andung
+      - And.
+  - osis: Rev
+    texts:
+      - Halumbaan
+      - Hal.
+  - osis: Deut
+    texts:
+      - Pangarataion
+      - Pang.
+  - osis: Josh
+    texts:
+      - Josua
+      - Jos.
+  - osis: Judg
+    texts:
+      - Hakim-Hakim
+      - Hak.
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis: Isa
+    texts:
+      - Jesaya
+      - Jes.
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - Sam.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Raja-Raja
+      - Raj.
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Jujur Taon
+      - Juj.
+  - osis: Ezra
+    texts:
+      - Esr.
+      - Esra
+  - osis: Neh
+    texts:
+      - Nehemia
+      - Neh.
+  - osis: Esth
+    texts:
+      - Ester
+      - Est.
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Masmur
+      - Msm.
+  - osis: Prov
+    texts:
+      - Poda
+  - osis: Eccl
+    texts:
+      - Parjamita
+      - Pjm.
+  - osis: Song
+    texts:
+      - Ende Na Godang
+      - End.
+  - osis: Jer
+    texts:
+      - Jeremia
+      - Jer.
+  - osis: Ezek
+    texts:
+      - Jeheskiel
+      - Jeh.
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan.
+  - osis: Hos
+    texts:
+      - Hosea
+      - Hos.
+  - osis: Joel
+    texts:
+      - Joel
+  - osis: Amos
+    texts:
+      - Amos
+      - Am.
+  - osis: Obad
+    texts:
+      - Obaja
+      - Ob.
+  - osis: Jonah
+    texts:
+      - Junus
+      - Jun.
+  - osis: Mic
+    texts:
+      - Mika
+      - Mi.
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah.
+  - osis: Hab
+    texts:
+      - Habakuk
+      - Hab.
+  - osis: Zeph
+    texts:
+      - Zepanya
+      - Zep.
+  - osis: Hag
+    texts:
+      - Hagai
+      - Hag.
+  - osis: Zech
+    texts:
+      - Zakaria
+      - Za.
+  - osis: Mal
+    texts:
+      - Maleaki
+      - Mal.
+  - osis: Matt
+    texts:
+      - Mateus
+      - Mat.
+  - osis: Mark
+    texts:
+      - Markus
+      - Mrk.
+  - osis: Luke
+    texts:
+      - Lukas
+      - Luk.
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Johannes
+      - Joh.
+  - osis: Acts
+    texts:
+      - Baenon Ni Angka Rasul
+      - Bar.
+  - osis: Rom
+    texts:
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintus
+      - Kor.
+  - osis: Col
+    texts:
+      - Kolosse
+      - Kol.
+  - osis: Gal
+    texts:
+      - Galatia
+      - Gal.
+  - osis: Eph
+    texts:
+      - Epesus
+      - Eps.
+  - osis: Phil
+    texts:
+      - Pilippi
+      - Plp.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tessalonika
+      - Tes.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteus
+      - Tim.
+  - osis: Titus
+    texts:
+      - Titus
+      - Tit.
+  - osis: Phlm
+    texts:
+      - Pilemon
+      - Plm.
+  - osis: Heb
+    texts:
+      - Ibrani
+      - Ibr.
+  - osis: Jas
+    texts:
+      - Jakobus
+      - Jak.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petrus
+      - Ptr.
+  - osis: Jude
+    texts:
+      - Judas
+      - Jud.
+translations:
+  - LAIAKB

@@ -1,0 +1,344 @@
+variables:
+  first: &first
+    - "1"
+    - ၁
+  second: &second
+    - "2"
+    - ၂
+books:
+  - osis: Gen
+    texts:
+      - ဒေါ ဂုဝ်
+      - ดอ โฆว
+      - ดฆ
+      - တဂ
+  - osis: Exod
+    texts:
+      - เลห
+      - လေး
+      - ลอ
+  - osis: Lev
+    texts:
+      - ดา อี หลู
+      - အီ လှူ
+      - อ หล
+      - အလ
+  - osis: Num
+    texts:
+      - แปร กาฮ็อห
+      - ပြဲ ကာဟဝ်း
+      - กฮ
+      - ကဟ
+  - osis: Lam
+    texts:
+      - က့လိုဝ်
+      - กลึร
+      - นก
+      - ကလ
+  - osis: Rev
+    texts:
+      - ပပ်
+      - ปบ
+      - ပပ
+  - osis: Josh
+    texts:
+      - အာယုဝ်ဆူအာ
+      - อาโยวซูอา
+      - โยว
+      - ယဆအ
+  - osis: Judg
+    texts:
+      - အီ ဆုင်ဖျာတ်
+      - อี ซูงพยาด
+      - ซพ
+      - ဆဖ
+  - osis: Ruth
+    texts:
+      - နာင် ရူထာ
+      - นาง รูทา
+      - รูทา
+      - ရထ
+  - osis: Isa
+    texts:
+      - อาอีซายัะ
+      - အာအီဆာယ
+      - อซย
+      - အဆယ
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - အာဆာမူအေန်
+      - อาซามูเอน
+      - ซา
+      - ဆာ
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - ခုန်ဒီခမ်
+      - คูนดีคัม
+      - ခုန်
+      - คูน
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - ဘိူန်
+      - บืน
+  - osis: Ezra
+    texts:
+      - อาเอซารา
+      - အာအေဆာရာ
+      - อซร
+      - အဆရ
+  - osis: Neh
+    texts:
+      - อาเนฮามี
+      - အာနေဟာမီ
+      - นฮม
+      - နဟမ
+  - osis: Esth
+    texts:
+      - နာင် အေဆာထာ
+      - นาง เอซาทา
+      - อซท
+      - အဆထ
+  - osis: Job
+    texts:
+      - အာယုဝ်ဘာ
+      - อาโยวบา
+      - ยบ
+      - ယဘ
+  - osis: Ps
+    texts:
+      - မှုဝ်
+      - หม
+      - မဝ
+  - osis: Prov
+    texts:
+      - အင်
+      - อง
+      - အင
+  - osis: Eccl
+    texts:
+      - ဟုဝ် ဒါရာ
+      - โฮว ดารา
+      - อี ฮด
+      - ဟ ဒ
+  - osis: Deut
+    texts:
+      - ดารา
+      - ဒါရာ
+      - ดร
+      - ဒရ
+  - osis: Song
+    texts:
+      - ရွက့်
+      - ร็อก
+      - ล ร
+      - လရ
+  - osis: Jer
+    texts:
+      - อาเยเรมี
+      - အာယေရေမီ
+      - ยรม
+      - ယရမ
+  - osis: Ezek
+    texts:
+      - အာအေဆေခေန်
+      - อาเอเซเคน
+      - อซค
+      - အဆခ
+  - osis: Dan
+    texts:
+      - อาดาเนลัะ
+      - အာဒါနေလ
+      - ดนล
+      - ဒနလ
+  - osis: Hos
+    texts:
+      - အာဟုဝ်ဆီယာ
+      - อาโฮวซียา
+      - ฮซย
+      - ဟဆယ
+  - osis: Joel
+    texts:
+      - อาโยวเอลัะ
+      - အာယုဝ်အေလ
+      - ยอล
+      - ယအလ
+  - osis: Amos
+    texts:
+      - အာမုဝ်ဆာ
+      - อาโมวซา
+      - อมซ
+      - အမဆ
+  - osis: Obad
+    texts:
+      - အာအောဘာဒီ
+      - อาออบาดี
+      - อบด
+      - အဘဒ
+  - osis: Jonah
+    texts:
+      - အာယုဝ်နာ
+      - อาโยวนา
+      - ยน
+      - ယန
+  - osis: Mic
+    texts:
+      - อามีคา
+      - အာမီခါ
+      - มค
+      - မခ
+  - osis: Nah
+    texts:
+      - အာနာဟူမ်
+      - อานาโฮม
+      - นฮ
+      - နဟ
+  - osis: Hab
+    texts:
+      - အာဟာဘာဂုက်
+      - อาฮาบาฆูก
+      - ฮบฆ
+      - ဟဘဂ
+  - osis: Zeph
+    texts:
+      - อาเจพานี
+      - အာစေဖာနီ
+      - จพน
+      - စဖန
+  - osis: Hag
+    texts:
+      - အာဟာကာယ်
+      - อาฮากาย
+      - ฮก
+      - ဟက
+  - osis: Zech
+    texts:
+      - อาซาคารา
+      - အာဆာခါရာ
+      - ซคร
+      - ဆခရ
+  - osis: Mal
+    texts:
+      - อามาลาคี
+      - အာမာလာခီ
+      - มลค
+      - မလခ
+  - osis: Matt
+    texts:
+      - มท
+      - မထ
+  - osis: Mark
+    texts:
+      - มก
+      - မက
+  - osis: Luke
+    texts:
+      - လက်
+      - ลก
+      - လက
+  - osis: 3John
+    texts:
+      - 3 ยฮ
+      - ၃ ယဟ
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - ยฮ
+      - ယဟ
+  - osis: Acts
+    texts:
+      - ปร
+      - ပရ
+  - osis: Rom
+    texts:
+      - ရမ်
+      - รม
+      - ရမ
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - คร
+      - ခရ
+  - osis: Col
+    texts:
+      - กซ
+      - ကဆ
+  - osis: Gal
+    texts:
+      - ဂလထ
+      - ฆท
+      - ဂထ
+  - osis: Eph
+    texts:
+      - อพ
+      - အဖ
+  - osis: Phil
+    texts:
+      - พพ
+      - ဖဖ
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - ทล
+      - ထလ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - ทม
+      - ထမ
+  - osis: Titus
+    texts:
+      - อท
+      - အထ
+  - osis: Phlm
+    texts:
+      - ဖမ်
+      - พม
+      - ဖမ
+  - osis: Heb
+    texts:
+      - ဟပ်
+      - ฮบ
+      - ဟဘ
+  - osis: Jas
+    texts:
+      - ยก
+      - ယက
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - ปต
+      - ပတ
+  - osis: Jude
+    texts:
+      - ยด
+      - ယဒ
+translations:
+  - PCE

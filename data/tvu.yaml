@@ -1,0 +1,141 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Bimənyí
+      - Bim
+  - osis: Matt
+    texts:
+      - Matíó
+      - Mat
+  - osis: Mark
+    texts:
+      - Mə́líkusu
+      - Mə́l
+  - osis: Luke
+    texts:
+      - Lúkasɛ
+      - Lúk
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yɔhánɛsɛ
+  - osis: 1John
+    texts:
+      - 1Yɔ
+  - osis: 2John
+    texts:
+      - 2Yɔ
+  - osis: 3John
+    texts:
+      - 3Yɔhánɛsɛ
+      - 3Yɔ
+  - osis: John
+    texts:
+      - Yɔhánɛsɛ
+      - Yɔh
+  - osis: Acts
+    texts:
+      - Bɛnyɛná
+      - Bɛn
+  - osis: Rom
+    texts:
+      - Lɔ́ma
+      - Lɔ́m
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kɔlɛ́ŋɛ́tɛ
+  - osis: 1Cor
+    texts:
+      - 1Kɔ
+  - osis: 2Cor
+    texts:
+      - 2Kɔ
+  - osis: Col
+    texts:
+      - Kolósia
+      - Kol
+  - osis: Gal
+    texts:
+      - Kalátɛ
+      - Kal
+  - osis: Eph
+    texts:
+      - Ɛfɛ́sɛ
+      - Ɛfɛ
+  - osis: Phil
+    texts:
+      - Filíbo
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tɛsalɔnɛ́ka
+  - osis: 1Thess
+    texts:
+      - 1Tɛ
+  - osis: 2Thess
+    texts:
+      - 2Tɛ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotíó
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Títi
+      - Tít
+  - osis: Phlm
+    texts:
+      - Filómono
+      - Flm
+  - osis: Heb
+    texts:
+      - Hɛ́bɛlɛ
+      - Hɛ́b
+  - osis: Jas
+    texts:
+      - Yákɔbɔ
+      - Yák
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Bíə́lə
+  - osis: 1Pet
+    texts:
+      - 1Bi
+  - osis: 2Pet
+    texts:
+      - 2Bi
+  - osis: Jude
+    texts:
+      - Yútu
+      - Yút
+translations:
+  - TVU

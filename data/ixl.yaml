@@ -1,0 +1,136 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Apokaliipsis
+      - Apocalipsis
+      - Ap
+  - osis: Matt
+    texts:
+      - Mateo
+      - Tio
+      - Mt
+  - osis: Mark
+    texts:
+      - Marcos
+      - Kuxh
+      - Mr
+  - osis: Luke
+    texts:
+      - Lucas
+      - Luk
+      - Lc
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Juan
+      - Xhun
+      - Jn
+  - osis: Acts
+    texts:
+      - Vibʼanoʼm inqʼa Apoostol
+      - Hechos
+      - Hch
+  - osis: Rom
+    texts:
+      - Romaanos
+      - Romanos
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Koriintios
+      - Corintios
+      - Co
+  - osis: Col
+    texts:
+      - Koloseenses
+      - Colosenses
+      - Col
+  - osis: Gal
+    texts:
+      - Gaalatas
+      - Gálatas
+      - Gá
+  - osis: Eph
+    texts:
+      - Ephesians
+      - Efeesios
+      - Efesios
+      - Ef
+  - osis: Phil
+    texts:
+      - Filipeenses
+      - Filipenses
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaloniseenses
+      - Tesalonicenses
+      - Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteeo
+      - Timoteo
+      - Ti
+  - osis: Titus
+    texts:
+      - Tiito
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemoon
+      - Filemón
+      - Flm
+  - osis: Heb
+    texts:
+      - Evreeos
+      - Hebreos
+      - Heb
+  - osis: Jas
+    texts:
+      - Santiaago
+      - Santiago
+      - Stg
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pedro
+      - Lu'
+      - Luʼ
+      - Pe
+  - osis: Jude
+    texts:
+      - Juudas
+      - Judas
+      - Jud
+translations:
+  - IXLN
+  - IXL

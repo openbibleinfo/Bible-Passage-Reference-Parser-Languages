@@ -1,0 +1,292 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Ġenesi
+      - Ġen
+  - osis: Exod
+    texts:
+      - Eżodu
+      - Eż
+  - osis: Lev
+    texts:
+      - Levitiku
+      - Lev
+  - osis: Num
+    texts:
+      - Numri
+      - Num
+  - osis: Sir
+    texts:
+      - Bin Sirak
+      - Sir
+  - osis: Wis
+    texts:
+      - Il-ktieb Tal-għerf
+      - Għerf
+  - osis: Lam
+    texts:
+      - Lamentazzjonijiet
+      - Lam
+  - osis: Rev
+    texts:
+      - Apokalissi
+      - Apk
+  - osis: Deut
+    texts:
+      - Dewteronomju
+      - Dt
+  - osis: Josh
+    texts:
+      - Ġożwè
+      - Ġoż
+  - osis: Judg
+    texts:
+      - Mħallfin
+      - Mħ
+  - osis: Ruth
+    texts:
+      - Rut
+      - Rt
+  - osis: Isa
+    texts:
+      - Isaija
+      - Is
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samwel
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Slaten
+      - Slat
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Kronaki
+      - Kron
+  - osis: Ezra
+    texts:
+      - Esdra
+      - Esd
+  - osis: Neh
+    texts:
+      - Neħemija
+      - Neħ
+  - osis: Job
+    texts:
+      - Ġob
+  - osis: Ps
+    texts:
+      - Salmi
+      - S
+  - osis: Prov
+    texts:
+      - Proverbji
+      - Prov
+  - osis: Eccl
+    texts:
+      - Koħèlet
+      - Koħ
+  - osis: Song
+    texts:
+      - L-għanja Tal-għanjiet
+      - Għan
+  - osis: Jer
+    texts:
+      - Ġeremija
+      - Ġer
+  - osis: Ezek
+    texts:
+      - Eżekjel
+      - Eżek
+  - osis: Hos
+    texts:
+      - Hosegħa
+      - Hos
+  - osis: Joel
+    texts:
+      - Ġoel
+  - osis: Amos
+    texts:
+      - Għamos
+      - Għam
+  - osis: Obad
+    texts:
+      - Għabdija
+      - Għabd
+  - osis: Jonah
+    texts:
+      - Ġona
+  - osis: Mic
+    texts:
+      - Mikea
+      - MiK
+  - osis: Nah
+    texts:
+      - Naħum
+      - Naħ
+  - osis: Hab
+    texts:
+      - Ħabakkuk
+      - Ħab
+  - osis: Zeph
+    texts:
+      - Sofonija
+      - Sof
+  - osis: Hag
+    texts:
+      - Ħaggaj
+      - Ħag
+  - osis: Zech
+    texts:
+      - Żakkarija
+      - Żak
+  - osis: Mal
+    texts:
+      - Malakija
+      - Mal
+  - osis: Matt
+    texts:
+      - Mattew
+      - Mt
+  - osis: Mark
+    texts:
+      - Mark
+      - Mk
+  - osis: Luke
+    texts:
+      - Luqa
+      - Lq
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Ġwanni
+      - Ġw
+  - osis: Acts
+    texts:
+      - Atti Tal-appostli
+      - Atti
+  - osis: Rom
+    texts:
+      - Rumani
+      - Rum
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintin
+      - Kor
+  - osis: Col
+    texts:
+      - Kolossin
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatin
+      - Gal
+  - osis: Eph
+    texts:
+      - Efesin
+      - Ef
+  - osis: Phil
+    texts:
+      - Filippin
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tessalonikin
+      - Tess
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotju
+      - Tim
+  - osis: Titus
+    texts:
+      - Titu
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemon
+      - Film
+  - osis: Heb
+    texts:
+      - Lhud
+  - osis: Jas
+    texts:
+      - Ġakbu
+      - Ġak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pietru
+      - Pt
+  - osis: Jude
+    texts:
+      - Ġuda
+  - osis: Tob
+    texts:
+      - Tobit
+      - Tob
+  - osis: Jdt
+    texts:
+      - Ġuditta
+      - Ġdt
+  - osis: Bar
+    texts:
+      - Bàruk
+      - Bar
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+    texts:
+      - Makkabin
+      - Mak
+  - osis: DanGr
+    texts:
+      - Danjel Bil-grieg
+      - DaG
+  - osis: EsthGr
+    texts:
+      - Ester Bil-grieg
+      - EsG
+translations:
+  - MB20

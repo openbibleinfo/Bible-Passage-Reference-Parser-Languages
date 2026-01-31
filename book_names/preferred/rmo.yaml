@@ -1,0 +1,302 @@
+default:
+  1Chr:
+    long: 1. Familjakro liil
+    short: 1 Ch
+  1Cor:
+    long: 1. Korintarja
+    short: 1 Kor
+  1John:
+    long: 1. Johanni
+    short: 1 Jn
+  1Kgs:
+    long: 1. Rajengro liil
+    short: 1 Ra
+  1Pet:
+    long: 1. Petro
+    short: 1 Pt
+  1Sam:
+    long: 1. Samuel
+    short: 1 Sa
+  1Thess:
+    long: 1. Tessalonikarja
+    short: 1 Tess
+  1Tim:
+    long: 1. Timoteo
+    short: 1 Tim
+  2Chr:
+    long: 2. Familjakro liil
+    short: 2 Ch
+  2Cor:
+    long: 2. Korintarja
+    short: 2 Kor
+  2John:
+    long: 2. Johanni
+    short: 2 Jn
+  2Kgs:
+    long: 2. Rajengro liil
+    short: 2 Ra
+  2Pet:
+    long: 2. Petro
+    short: 2 Pt
+  2Sam:
+    long: 2. Samuel
+    short: 2 Sa
+  2Thess:
+    long: 2. Tessalonikarja
+    short: 2 Tess
+  2Tim:
+    long: 2. Timoteo
+    short: 2 Tim
+  3John:
+    long: 3. Johanni
+    short: 3 Jn
+  Acts:
+    long: Bitchepangre
+    short: Bi
+  Amos:
+    long: Amos
+    short: Amo
+  Col:
+    long: Kolossarja
+    short: Kol
+  Dan:
+    long: Daniel
+    short: Dan
+  Deut:
+    long: 5. Mose
+    short: 5 Mo
+  Eccl:
+    long: Sikepaskro
+    short: Sik
+  Eph:
+    long: Efesarja
+    short: Ef
+  Esth:
+    long: Ester
+    short: Est
+  Exod:
+    long: 2. Mose
+    short: 2 Mo
+  Ezek:
+    long: Ezekiel
+    short: Ez
+  Ezra:
+    long: Esra
+    short: Esr
+  Gal:
+    long: Galatarja
+    short: Gal
+  Gen:
+    long: 1. Mose
+    short: 1 Mo
+  Hab:
+    long: Habakuk
+    short: Hab
+  Hag:
+    long: Haggai
+    short: Hag
+  Heb:
+    long: Hebrearja
+    short: Heb
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Jesaja
+    short: Jes
+  Jas:
+    long: Jakobo
+    short: Jak
+  Jer:
+    long: Jeremia
+    short: Jer
+  Job:
+    long: Hiob
+    short: Hio
+  Joel:
+    long: Joel
+    short: Jol
+  John:
+    long: Johanni
+    short: Jhn
+  Jonah:
+    long: Jona
+    short: Jon
+  Josh:
+    long: Josua
+    short: Jos
+  Jude:
+    long: Judas
+    short: Jud
+  Judg:
+    long: Tchatchepangre
+    short: Tcha
+  Lam:
+    long: Ropaskre gilja
+    short: Rop
+  Lev:
+    long: 3. Mose
+    short: 3 Mo
+  Luke:
+    long: Louka
+    short: Lk
+  Mal:
+    long: Malachie
+    short: Mal
+  Mark:
+    long: Marko
+    short: Mk
+  Matt:
+    long: Mateo
+    short: Mt
+  Mic:
+    long: Micha
+    short: MiK
+  Nah:
+    long: Nahum
+    short: Nam
+  Neh:
+    long: Nehemia
+    short: Neh
+  Num:
+    long: 4. Mose
+    short: 4 Mo
+  Obad:
+    long: Obadja
+    short: Oba
+  Phil:
+    long: Filiparja
+    short: Flp
+  Phlm:
+    long: Filemon
+    short: Flm
+  Prov:
+    long: Goseve laba
+    short: Lab
+  Ps:
+    long: Debleskri gili
+    short: Gil
+  Rev:
+    long: Debleskro tsiro
+    short: Tsi
+  Rom:
+    long: Remarja
+    short: Rm
+  Ruth:
+    long: Rut
+    short: Rut
+  Song:
+    long: Kamlepaskri gili
+    short: Kam
+  Titus:
+    long: Tito
+    short: Tit
+  Zech:
+    long: Sacharja
+    short: Sach
+  Zeph:
+    long: Sefanya
+    short: Sef
+translations:
+  rom7:
+    1Chr:
+      long: 1. Familyakro liil
+    1Cor:
+      long: 1. Korintarya
+    1John:
+      long: 1. Yohanni
+      short: 1 Yn
+    1Kgs:
+      long: 1. Rayengro liil
+    1Thess:
+      long: 1. Tessalonikarya
+    2Chr:
+      long: 2. Familyakro liil
+    2Cor:
+      long: 2. Korintarya
+    2John:
+      long: 2. Yohanni
+      short: 2 Yn
+    2Kgs:
+      long: 2. Rayengro liil
+    2Thess:
+      long: 2. Tessalonikarya
+    3John:
+      long: 3. Yohanni
+      short: 3 Yn
+    Acts:
+      long: Bičepangre
+    Col:
+      long: Kolossarya
+    Eph:
+      long: Efesarya
+    Gal:
+      long: Galatarya
+    Hag:
+      long: Haggay
+    Heb:
+      long: Hebrearya
+    Isa:
+      long: Yesaya
+      short: Yes
+    Jas:
+      long: Yakobo
+      short: Yak
+    Jer:
+      long: Yeremia
+      short: Yer
+    Joel:
+      long: Yoel
+      short: Yol
+    John:
+      long: Yohanni
+      short: Yhn
+    Jonah:
+      long: Yona
+      short: Yon
+    Josh:
+      long: Yosua
+      short: Yos
+    Jude:
+      long: Yudas
+      short: Yud
+    Judg:
+      long: Čačepangre
+      short: Ča
+    Lam:
+      long: Ropaskre gilya
+    Mic:
+      long: Mika
+    Obad:
+      long: Obadya
+    Phil:
+      long: Filiparya
+    Rom:
+      long: Remarya
+    Ruth:
+      long: Ruth
+    Zech:
+      long: Zakarie
+      short: Zak
+  rom6:
+    Ezek:
+      long: Hesekijel
+      short: Hes
+    Luke:
+      long: Luka
+    Mal:
+      long: Maleachi
+    Mic:
+      short: Mic
+    Prov:
+      long: Gosewe laba
+    Zeph:
+      long: Zefanja
+      short: Zef
+  sint1912:
+    Mark:
+      long: Markus
+      short: Markus
+  sint1875:
+    Song:
+      long: Ghiléngheri Ghília

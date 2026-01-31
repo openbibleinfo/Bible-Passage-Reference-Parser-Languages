@@ -1,0 +1,375 @@
+variables:
+  first: &first
+    - "1"
+    - Ri
+  second: &second
+    - "2"
+    - Ri
+books:
+  - osis: Gen
+    texts:
+      - Gén
+  - osis: Exod
+    texts:
+      - Ex
+  - osis: Lev
+    texts:
+      - Lev
+  - osis: Num
+    texts:
+      - Núm
+  - osis: Lam
+    texts:
+      - Lam
+  - osis: Rev
+    texts:
+      - Ri xekꞌalajrises chuvech ri apóstol San Juan
+      - Apocalipsis
+      - Ap.
+      - Ap
+  - osis: Deut
+    texts:
+      - Deut
+  - osis: Josh
+    texts:
+      - Jos
+  - osis: Judg
+    texts:
+      - Jue
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis: Isa
+    texts:
+      - Isa
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Rey
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Crón
+  - osis: Ezra
+    texts:
+      - Esd
+  - osis: Neh
+    texts:
+      - Neh
+  - osis: Esth
+    texts:
+      - Ester
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Sal
+  - osis: Prov
+    texts:
+      - Pro
+  - osis: Eccl
+    texts:
+      - Ecl
+  - osis: Song
+    texts:
+      - Cnt
+  - osis: Jer
+    texts:
+      - Jer
+  - osis: Ezek
+    texts:
+      - Ez
+  - osis: Dan
+    texts:
+      - Dn
+  - osis: Hos
+    texts:
+      - Os
+  - osis: Joel
+    texts:
+      - Joel
+  - osis: Amos
+    texts:
+      - Am
+  - osis: Obad
+    texts:
+      - Abd
+  - osis: Jonah
+    texts:
+      - Jon
+  - osis: Mic
+    texts:
+      - Miq
+  - osis: Nah
+    texts:
+      - Nah
+  - osis: Hab
+    texts:
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sof
+  - osis: Hag
+    texts:
+      - Hag
+  - osis: Zech
+    texts:
+      - Zac
+  - osis: Mal
+    texts:
+      - Mal
+  - osis: Matt
+    texts:
+      - Ri utzulaj chꞌabel ri nuꞌij achique ruchojmil nkucolotaj, ri tzꞌiban can
+        roma ri San Mateo
+      - San Mateo
+      - Mateo
+      - Mt.
+      - Mt
+  - osis: Mark
+    texts:
+      - Ri utzulaj chꞌabel ri nuꞌij achique ruchojmil nkucolotaj, ri tzꞌiban can
+        roma ri San Marcos
+      - San Marcos
+      - Marcos
+      - Mr.
+      - Mc
+      - Mr
+  - osis: Luke
+    texts:
+      - Ri utzulaj chꞌabel ri nuꞌij achique ruchojmil nkucolotaj, ri tzꞌiban can
+        roma ri San Lucas
+      - San Lucas
+      - Lucas
+      - Lc.
+      - Lc
+  - osis: 1John
+    texts:
+      - 1Jn.
+  - osis: 2John
+    texts:
+      - 2Jn.
+  - osis: 3John
+    texts:
+      - Ri rox carta ri xutzꞌibaj ri apóstol San Juan
+      - 3 Juan
+      - 3 Jn.
+      - 3 Jn
+      - 3Jn.
+  - osis: John
+    texts:
+      - Ri utzulaj chꞌabel ri nuꞌij achique ruchojmil nkucolotaj, ri tzꞌiban can
+        roma ri San Juan
+      - San Juan
+      - Juan
+      - Jn.
+      - Jn
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - naꞌey carta ri xutzꞌibaj ri apóstol San Juan
+      - Juan
+      - Jn.
+      - Jn
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - rucaꞌn carta ri xutzꞌibaj ri apóstol San Juan
+      - Juan
+      - Jn.
+      - Jn
+  - osis: Acts
+    texts:
+      - Ri rusamaj ri Dios ri xquiꞌen can ri apóstoles
+      - Hechos
+      - Hch.
+      - Hch
+  - osis: Rom
+    texts:
+      - Ri carta ri xutzꞌibaj ri apóstol San Pablo chique ri quiniman ri
+        Jesucristo pa tinamit Roma
+      - Romanos
+      - Ro.
+      - Rom
+      - Ro
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - naꞌey carta ri xutzꞌibaj ri apóstol San Pablo chique ri quiniman ri
+        Jesucristo pa tinamit Corinto
+      - Corintios
+      - Co.
+      - Co
+  - osis: 1Cor
+    texts:
+      - 1Co.
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - rucaꞌn carta ri xutzꞌibaj ri apóstol San Pablo chique ri quiniman ri
+        Jesucristo pa tinamit Corinto
+      - Corintios
+      - Co.
+      - Co
+  - osis: 2Cor
+    texts:
+      - 2Co.
+  - osis: Col
+    texts:
+      - Ri carta ri xutzꞌibaj ri apóstol San Pablo chique ri quiniman ri
+        Jesucristo pa tinamit Colosas
+      - Colosenses
+      - Col.
+      - Col
+  - osis: Gal
+    texts:
+      - Ri carta ri xutzꞌibaj ri apóstol San Pablo chique ri quiniman ri
+        Jesucristo pa rochꞌulef Galacia
+      - Gálatas
+      - Gá.
+      - Gal
+      - Ga
+      - Gá
+  - osis: Eph
+    texts:
+      - Ri carta ri xutzꞌibaj ri apóstol San Pablo chique ri quiniman ri
+        Jesucristo pa tinamit Efeso
+      - Efesios
+      - Ef.
+      - Ef
+  - osis: Phil
+    texts:
+      - Ri carta ri xutzꞌibaj ri apóstol San Pablo chique ri quiniman ri
+        Jesucristo pa tinamit Filipos
+      - Filipenses
+      - Fil.
+      - Fil
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - naꞌey carta ri xutzꞌibaj ri apóstol San Pablo chique ri quiniman ri
+        Jesucristo pa tinamit Tesalónica
+      - Tesalonicenses
+      - Ts.
+      - Te
+      - Ts
+  - osis: 1Thess
+    texts:
+      - 1Ts.
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - rucaꞌn carta ri xutzꞌibaj ri apóstol San Pablo chique ri quiniman ri
+        Jesucristo pa tinamit Tesalónica
+      - Tesalonicenses
+      - Ts.
+      - Te
+      - Ts
+  - osis: 2Thess
+    texts:
+      - 2Ts.
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - naꞌey carta ri xutzꞌibaj ri apóstol San Pablo che ri Timoteo
+      - Timoteo
+      - Ti.
+      - Ti
+  - osis: 1Tim
+    texts:
+      - 1Ti.
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - rucaꞌn carta ri xutzꞌibaj ri apóstol San Pablo che ri Timoteo
+      - Timoteo
+      - Ti.
+      - Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti.
+  - osis: Titus
+    texts:
+      - Ri carta ri xutzꞌibaj ri apóstol San Pablo che ri Tito
+      - Tit.
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Ri carta ri xutzꞌibaj ri apóstol San Pablo che ri Filemón
+      - Filemón
+      - Flm.
+      - Flm
+  - osis: Heb
+    texts:
+      - Ri carta ri tzꞌiban chique ri quiniman ri Jesucristo chiquicojol ri
+        vinak hebreos
+      - Hebreos
+      - He.
+      - Heb
+      - He
+  - osis: Jas
+    texts:
+      - Ri carta ri xutzꞌibaj ri Santiago
+      - Santiago
+      - Stg.
+      - Stg
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - naꞌey carta ri xutzꞌibaj ri apóstol San Pedro
+      - Pedro
+      - P.
+      - Pe
+      - P
+  - osis: 1Pet
+    texts:
+      - 1P.
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - rucaꞌn carta ri xutzꞌibaj ri apóstol San Pedro
+      - Pedro
+      - P.
+      - Pe
+      - P
+  - osis: 2Pet
+    texts:
+      - 2P.
+  - osis: Jude
+    texts:
+      - Ri carta ri xutzꞌibaj ri apóstol San Judas
+      - San Judas apostol
+      - Judas
+      - Jud.
+      - Jud
+translations:
+  - CAK
+  - CAKSMJ
+  - KQC
+  - CAKY

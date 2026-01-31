@@ -1,0 +1,113 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Apokalipsis
+      - Ap.
+  - osis: Matt
+    texts:
+      - Mateeo
+      - Mt.
+  - osis: Mark
+    texts:
+      - Maekos
+      - Mr.
+  - osis: Luke
+    texts:
+      - Luukas
+      - Lc.
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Joan
+      - Jn.
+  - osis: Acts
+    texts:
+      - Krijtota Yeu Pu'arim Ya'ari
+      - Hch.
+  - osis: Rom
+    texts:
+      - Romaanom
+      - Ro.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintiom
+      - Co.
+  - osis: Col
+    texts:
+      - Kolosensem
+      - Col.
+  - osis: Gal
+    texts:
+      - Kaalatam
+      - Gá.
+  - osis: Eph
+    texts:
+      - Epeesiom
+      - Ef.
+  - osis: Phil
+    texts:
+      - Pilipensem
+      - Fil.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonisensem
+      - Ts.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteeo
+      - Ti.
+  - osis: Titus
+    texts:
+      - Tiito
+      - Tit.
+  - osis: Phlm
+    texts:
+      - Pilemon
+      - Flm.
+  - osis: Heb
+    texts:
+      - Ebreeom
+      - He.
+  - osis: Jas
+    texts:
+      - Santiaako
+      - Stg.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peeo
+      - P.
+  - osis: Jude
+    texts:
+      - Juuras
+      - Jud.
+translations:
+  - YAQ

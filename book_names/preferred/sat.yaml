@@ -1,0 +1,232 @@
+default:
+  1Chr:
+    long: 1 Bõsbudạ
+    short: 1 Bõs
+  1Cor:
+    long: 1 Korinthiko
+    short: 1 Kor
+  1John:
+    long: 1 Johan
+    short: 1 Jhn
+  1Kgs:
+    long: 1 Rapajko
+    short: 1 Raj
+  1Pet:
+    long: 1 Patras
+    short: 1 Pat
+  1Sam:
+    long: 1 Samuel
+    short: 1 Sam
+  1Thess:
+    long: 1 Thessalonikikko
+    short: 1 Th
+  1Tim:
+    long: 1Timothi
+    short: 1 Tim
+  2Chr:
+    long: 2 Bõsbudạ
+    short: 2 Bõs
+  2Cor:
+    long: 2 Korinthiko
+    short: 2 Kor
+  2John:
+    long: 2 Johan
+    short: 2 Jhn
+  2Kgs:
+    long: 2 Rapajko
+    short: 2 Raj
+  2Pet:
+    long: 2 Patras
+    short: 2 Pat
+  2Sam:
+    long: 2 Samuel
+    short: 2 Sam
+  2Thess:
+    long: 2 Thessalonikiko
+    short: 2 Th
+  2Tim:
+    long: 2Timothi
+    short: 2 Tim
+  3John:
+    long: 3 Johan
+    short: 3 Jhn
+  Acts:
+    long: Aposkạmi
+    short: Apos
+  Amos:
+    long: Amos
+    short: Amo
+  Col:
+    long: Kolossiko lạgitʼ Pạul Apostolakʼ ciṭhi
+    short: Kol
+  Dan:
+    long: Daniel
+    short: Dan
+  Deut:
+    long: Dosar Biboron
+    short: Bib
+  Eccl:
+    long: Sosolhayic̕
+    short: Sos
+  Eph:
+    long: Ephesiko lạgitʼ Pạul Apostolakʼ ciṭhi
+    short: Eph
+  Esth:
+    long: Ester
+    short: Est
+  Exod:
+    long: Exodus
+    short: Exo
+  Ezek:
+    long: Jeheskel
+    short: Jeh
+  Ezra:
+    long: Esra
+    short: Esr
+  Gal:
+    long: Galathiko lạgitʼ Pạul Apostolakʼ ciṭhi
+    short: Gal
+  Gen:
+    long: Genesis
+    short: Gen
+  Hab:
+    long: Habakkuk
+    short: Hab
+  Hag:
+    long: Hagae
+    short: Hag
+  Heb:
+    long: Ibriko
+    short: Ibr
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Jesaea
+    short: Jes
+  Jas:
+    long: Jakob
+    short: Jak
+  Jer:
+    long: Jirimiạ
+    short: Jir
+  Job:
+    long: Jobakʼ
+    short: Job
+  Joel:
+    long: Joel
+    short: Joe
+  John:
+    long: Johan
+    short: Jhn
+  Jonah:
+    long: Jona
+    short: Jon
+  Josh:
+    long: Josuạ
+    short: Josu
+  Jude:
+    long: Jihudạwakʼ ciṭhi
+    short: Jih
+  Judg:
+    long: Bikʼcạrko
+    short: Bikʼ
+  Lam:
+    long: Rak̕joṅ
+    short: Rakʼ
+  Lev:
+    long: Levitikus
+    short: Lev
+  Luke:
+    long: Luk
+    short: Luk
+  Mal:
+    long: Malaki
+    short: Mal
+  Mark:
+    long: Mark
+    short: Mar
+  Matt:
+    long: Mathae
+    short: Mat
+  Mic:
+    long: Mikạ
+    short: MiK
+  Nah:
+    long: Nạhum
+    short: Nạh
+  Neh:
+    long: Nehemiạ
+    short: Neh
+  Num:
+    long: Numeri
+    short: Num
+  Obad:
+    long: Obodiạ
+    short: Obo
+  Phil:
+    long: Philipiko lạgitʼ Pạul apostolakʼ ciṭhi
+    short: Php
+  Phlm:
+    long: Philimon
+    short: Phi
+  Prov:
+    long: Kạhtukko
+    short: Kạh
+  Ps:
+    long: Sereńko
+    short: Ser
+  Rev:
+    long: Johan sodor
+    short: Joh
+  Rom:
+    long: Romiko lạgitʼ Pạul Apostolakʼ ciṭhi
+    short: Rom
+  Ruth:
+    long: Rut
+    short: Rut
+  Song:
+    long: Soros sereń
+    short: Sor
+  Titus:
+    long: Titus lạgitʼ Pạul Apostolakʼ ciṭhi
+    short: Tit
+  Zech:
+    long: Sakariạ
+    short: Sak
+  Zeph:
+    long: Sephaniạ
+    short: Sep
+translations:
+  sclnt:
+    1Cor:
+      short: 1Kor
+    1John:
+      short: 1Jhn
+    1Pet:
+      short: 1Pat
+    1Thess:
+      short: 1Th
+    1Tim:
+      short: 1Tim
+    2Cor:
+      short: 2Kor
+    2John:
+      short: 2Jhn
+    2Pet:
+      short: 2Pat
+    2Thess:
+      short: 2Th
+    2Tim:
+      short: 2Tim
+    3John:
+      short: 3Jhn
+    Acts:
+      short: Aps
+  sbt:
+    Jude:
+      short: Jihu
+    Mark:
+      short: Mrk
+    Rev:
+      short: Sod

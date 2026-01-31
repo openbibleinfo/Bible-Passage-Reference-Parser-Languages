@@ -1,0 +1,96 @@
+books:
+  - osis: Gen
+    texts:
+      - ފެށުން
+  - osis: Exod
+    texts:
+      - ނެރުއްވުން
+  - osis: Rev
+    texts:
+      - ހާމަކޮށްދެއްވުންތަކެއް
+  - osis: Ruth
+    texts:
+      - ރާޢޫތު
+  - osis: 1Sam
+    texts:
+      - 1 ޞަމޫއީލް
+  - osis: 2Sam
+    texts:
+      - 2 ޞަމޫއީލް
+  - osis: Prov
+    texts:
+      - ހަރުބަސްތައް
+  - osis: Jonah
+    texts:
+      - ޔޫނުސް
+  - osis: Matt
+    texts:
+      - މައްތާ
+  - osis: Mark
+    texts:
+      - މަރުކުސް
+  - osis: Luke
+    texts:
+      - ލޫކާސް
+  - osis: 1John
+    texts:
+      - ޔޫޙަންނާގެ ފުރަތަމަ ސިޓީ
+  - osis: 2John
+    texts:
+      - ޔޫޙަންނާގެ ދެވަނަ ސިޓީ
+  - osis: 3John
+    texts:
+      - ޔޫޙަންނާގެ ތިންވަނަ ސިޓީ
+  - osis: John
+    texts:
+      - ޔޫޙަންނާ
+  - osis: Acts
+    texts:
+      - މަންދޫބުންގެ މަސައްކަތް
+  - osis: Col
+    texts:
+      - ކުލޫއްސީގެ މަސީޙީންނަށް ސިޓީ
+  - osis: Gal
+    texts:
+      - ގަލާތިޔާގެ މަސީޙީންނަށް ސިޓީ
+  - osis: Eph
+    texts:
+      - އެފޭސުސްގެ މަސީޙީންނަށް ސިޓީ
+  - osis: Phil
+    texts:
+      - ފިލިއްޕީގެ މަސީޙީންނަށް ސިޓީ
+  - osis: 1Thess
+    texts:
+      - ތިސަލޯނިކާގެ މަސީޙީންނަށް ފުރަތަމަ ސިޓީ
+  - osis: 2Thess
+    texts:
+      - ތިސަލޯނިކާގެ މަސީޙީންނަށް ދެވަނަ ސިޓީ
+  - osis: 1Tim
+    texts:
+      - ތިމޮތީއަށް ފުރަތަމަ ސިޓީ
+  - osis: 2Tim
+    texts:
+      - ތިމޮތީއަށް ދެވަނަ ސިޓީ
+  - osis: Titus
+    texts:
+      - ތީތުސްއަށް ސިޓީ
+  - osis: Phlm
+    texts:
+      - ފިލަމެންއަށް ސިޓީ
+  - osis: Heb
+    texts:
+      - ޢިބްރާނީންނަށް ސިޓީ
+  - osis: Jas
+    texts:
+      - ޔާމިޒުގެ ސިޓީ
+  - osis: 1Pet
+    texts:
+      - ޕަތަރަސްގެ ފުރަތަމަ ސިޓީ
+  - osis: 2Pet
+    texts:
+      - ޕަތަރަސްގެ ދެވަނަ ސިޓީ
+  - osis: Jude
+    texts:
+      - ޔަހޫ‏ޛާގެ ސިޓީ
+translations:
+  - DIV

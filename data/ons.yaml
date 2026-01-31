@@ -1,0 +1,96 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Don Sane
+  - osis: Matt
+    texts:
+      - Matayu
+  - osis: Mark
+    texts:
+      - Mareko
+  - osis: Luke
+    texts:
+      - Luka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohane
+  - osis: Acts
+    texts:
+      - Aposolo
+  - osis: Rom
+    texts:
+      - Roma
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Kirinti
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinti
+  - osis: Col
+    texts:
+      - Kolosi
+  - osis: Gal
+    texts:
+      - Galatiya
+  - osis: Eph
+    texts:
+      - Epeso
+  - osis: Phil
+    texts:
+      - Pilipi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonaika
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: Titus
+    texts:
+      - Titus
+  - osis: Phlm
+    texts:
+      - Pilemon
+  - osis: Heb
+    texts:
+      - Hibru
+  - osis: Jas
+    texts:
+      - Yakop
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petoro
+  - osis: Jude
+    texts:
+      - Yuda
+translations:
+  - ONSNT

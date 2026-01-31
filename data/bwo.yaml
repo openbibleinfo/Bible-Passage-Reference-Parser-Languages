@@ -1,0 +1,114 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Yohans Bek'o
+      - Bek'.
+  - osis: Matt
+    texts:
+      - Matiwos Dooshishiyo
+      - Mat.
+  - osis: Mark
+    texts:
+      - Mark'os Dooshishiyo
+      - Mar.
+  - osis: Luke
+    texts:
+      - Luk'as Dooshishiyo
+      - Luk'.
+  - osis: John
+    texts:
+      - Yohans Dooshishiyo
+      - Yoh.
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohans
+      - Yoh.
+  - osis: Acts
+    texts:
+      - Woshetswotsi
+      - Wosh.
+  - osis: Rom
+    texts:
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - K'orontos
+      - K'or.
+  - osis: Col
+    texts:
+      - K'olasiyas
+      - K'ol.
+  - osis: Gal
+    texts:
+      - Gelati
+      - Gel.
+  - osis: Eph
+    texts:
+      - Efeson
+      - Efe.
+  - osis: Phil
+    texts:
+      - Filp'siyos
+      - Filp.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Teselonk'e
+      - Tes.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - T'imotiwos
+      - T'im.
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filimon
+      - Film.
+  - osis: Heb
+    texts:
+      - Ibrawiyots
+      - Ibr.
+  - osis: Jas
+    texts:
+      - Yak'ob
+      - Yak'.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - P'et'ros
+      - P'et'.
+  - osis: Jude
+    texts:
+      - Yhu.
+      - Yhud
+translations:
+  - BRNNTLTN

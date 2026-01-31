@@ -1,0 +1,115 @@
+variables:
+  first: &first
+    - १
+  second: &second
+    - २
+  third: &third
+    - ३
+books:
+  - osis: Rev
+    texts:
+      - प्रकाश
+  - osis: Matt
+    texts:
+      - मत्ती
+  - osis: Mark
+    texts:
+      - मर्‌कस्
+      - मर्‌कुस
+      - मर्‌क
+  - osis: Luke
+    texts:
+      - लुका
+      - लुक
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - युहना
+  - osis: Acts
+    texts:
+      - प्रेरीत्
+      - खबरदुत
+      - खबर
+  - osis: Rom
+    texts:
+      - रोमी
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - कोरीन्‍थी
+  - osis: Col
+    texts:
+      - कोलसी
+  - osis: Gal
+    texts:
+      - गालाती
+  - osis: Eph
+    texts:
+      - एफेसस्
+  - osis: Phil
+    texts:
+      - फीलीपी
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - थेसालोनीका
+      - थेसलोनिकि
+  - osis: 1Thess
+    texts:
+      - १थेस
+  - osis: 2Thess
+    texts:
+      - २थेस
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - तिमोथि
+      - तीमोथी
+  - osis: 1Tim
+    texts:
+      - १तिमो
+  - osis: 2Tim
+    texts:
+      - २तिमो
+  - osis: Titus
+    texts:
+      - तीतस्
+      - तितस
+      - तित
+  - osis: Phlm
+    texts:
+      - फीलेमोन्
+  - osis: Heb
+    texts:
+      - हेब्रैनी
+  - osis: Jas
+    texts:
+      - याकुब्
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - पत्रुस्
+  - osis: Jude
+    texts:
+      - यहुदा
+translations:
+  - CDM93
+  - CHEP

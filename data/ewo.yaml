@@ -1,0 +1,84 @@
+books:
+  - osis: Rev
+    texts:
+      - Ekm
+  - osis: Matt
+    texts:
+      - Mt
+  - osis: Mark
+    texts:
+      - Mk
+  - osis: Luke
+    texts:
+      - Lk
+  - osis: 1John
+    texts:
+      - 1Yoh
+  - osis: 2John
+    texts:
+      - 2Yoh
+  - osis: 3John
+    texts:
+      - 3Yoh
+  - osis: John
+    texts:
+      - Yoh
+  - osis: Acts
+    texts:
+      - Bap
+  - osis: Rom
+    texts:
+      - Rom
+  - osis: 1Cor
+    texts:
+      - 1Kor
+  - osis: 2Cor
+    texts:
+      - 2Kor
+  - osis: Col
+    texts:
+      - Kol
+  - osis: Gal
+    texts:
+      - Gal
+  - osis: Eph
+    texts:
+      - Ef
+  - osis: Phil
+    texts:
+      - Fil
+  - osis: 1Thess
+    texts:
+      - 1Tes
+  - osis: 2Thess
+    texts:
+      - 2Tes
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Tit
+  - osis: Phlm
+    texts:
+      - Flm
+  - osis: Heb
+    texts:
+      - Ebr
+  - osis: Jas
+    texts:
+      - Yak
+  - osis: 1Pet
+    texts:
+      - 1Pe
+  - osis: 2Pet
+    texts:
+      - 2Pe
+  - osis: Jude
+    texts:
+      - Yud
+translations:
+  - NTE12

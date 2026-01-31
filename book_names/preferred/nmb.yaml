@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Krunikel
+    short: 1 Krun
+  1Cor:
+    long: 1 Kurin
+    short: 1 Kurin
+  1John:
+    long: 1 Sun
+    short: 1 Sun
+  1Kgs:
+    long: 1 Armlin
+    short: 1 Armlin
+  1Pet:
+    long: 1 P'ita
+    short: 1 P'ita
+  1Sam:
+    long: 1 Samuil
+    short: 1 Sam
+  1Thess:
+    long: 1 Tesalunaika
+    short: 1 Tes
+  1Tim:
+    long: 1 Timuti
+    short: 1 Tim
+  2Chr:
+    long: 2 Krunikel
+    short: 2 Krun
+  2Cor:
+    long: 2 Kurin
+    short: 2 Kurin
+  2John:
+    long: 2 Sun
+    short: 2 Sun
+  2Kgs:
+    long: 2 Armlin
+    short: 2 Armlin
+  2Pet:
+    long: 2 P'ita
+    short: 2 P'ita
+  2Sam:
+    long: 2 Samuil
+    short: 2 Sam
+  2Thess:
+    long: 2 Tesalunaika
+    short: 2 Tes
+  2Tim:
+    long: 2 Timuti
+    short: 2 Tim
+  3John:
+    long: 3 Sun
+    short: 3 Sun
+  Acts:
+    long: Parei
+    short: Parei
+  Amos:
+    long: Emus
+    short: Emus
+  Col:
+    long: Kulusi
+    short: Kulusi
+  Dan:
+    long: Taniel
+    short: Taniel
+  Deut:
+    long: Tv'el V'nen Hua
+    short: Tvh
+  Eccl:
+    long: Dui Ivrp'ep'a V'nen
+    short: Div
+  Eph:
+    long: Evases
+    short: Evases
+  Esth:
+    long: Esta
+    short: Esta
+  Exod:
+    long: Avruh
+    short: Avruh
+  Ezek:
+    long: Esikiel
+    short: Esikiel
+  Ezra:
+    long: Esra
+    short: Esra
+  Gal:
+    long: Kalesia
+    short: Kalesia
+  Gen:
+    long: Ap'u
+    short: Ap'u
+  Hab:
+    long: Apakuk
+    short: Apakuk
+  Hag:
+    long: Akai
+    short: Akai
+  Heb:
+    long: Isrel
+    short: Isrel
+  Hos:
+    long: Usia
+    short: Usia
+  Isa:
+    long: Aisaia
+    short: Aisaia
+  Jas:
+    long: Sim'is
+    short: Sim'is
+  Jer:
+    long: Seremaia
+    short: Seremaia
+  Job:
+    long: Sup
+    short: Sup
+  Joel:
+    long: Suil
+    short: Suil
+  John:
+    long: Sun
+    short: Sun
+  Jonah:
+    long: Suna
+    short: Suna
+  Josh:
+    long: Susua
+    short: Susua
+  Jude:
+    long: Sut
+    short: Sut
+  Judg:
+    long: Mlin Avv'ana Hua
+    short: Mah
+  Lam:
+    long: Tklien
+    short: Tklien
+  Lev:
+    long: Livai
+    short: Livai
+  Luke:
+    long: Luk
+    short: Luk
+  Mal:
+    long: Malakai
+    short: Mal
+  Mark:
+    long: Mak
+    short: Mak
+  Matt:
+    long: Matiu
+    short: Mat
+  Mic:
+    long: Maika
+    short: Maika
+  Nah:
+    long: Nehum
+    short: Nehum
+  Neh:
+    long: Niamaia
+    short: Niamaia
+  Num:
+    long: Nut Kaka
+    short: Nut Kaka
+  Obad:
+    long: Upataia
+    short: Upataia
+  Phil:
+    long: Vilipai
+    short: Vilipai
+  Phlm:
+    long: Vailimun
+    short: Vailimun
+  Prov:
+    long: V'nen Avrndaui
+    short: V'nen
+  Ps:
+    long: Npin
+    short: Npin
+  Rev:
+    long: Revelesen
+    short: Rev
+  Rom:
+    long: Rum
+    short: Rum
+  Ruth:
+    long: Rut
+    short: Rut
+  Song:
+    long: Npinan a Sulumun
+    short: Nas
+  Titus:
+    long: Taitas
+    short: Taitas
+  Zech:
+    long: Sekaraia
+    short: Sek
+  Zeph:
+    long: Sevanaia
+    short: Sev

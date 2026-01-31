@@ -1,0 +1,117 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Apocalipse
+      - Apokarip
+  - osis: Matt
+    texts:
+      - Mateus
+      - Matew
+  - osis: Mark
+    texts:
+      - Maah-Ko
+      - Marcos
+  - osis: Luke
+    texts:
+      - Lucas
+      - Rukas
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jowãw
+      - João
+  - osis: Acts
+    texts:
+      - Atos
+  - osis: Rom
+    texts:
+      - Romanos
+      - Roma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Coríntios
+      - Korĩn
+  - osis: Col
+    texts:
+      - Colossenses
+      - Korosa
+  - osis: Gal
+    texts:
+      - Gálatas
+      - Garata
+  - osis: Eph
+    texts:
+      - Efésios
+      - Epeso
+  - osis: Phil
+    texts:
+      - Filipenses
+      - Pirip
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tessalonicenses
+      - Tesaronika
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Timóteo
+      - Tsimoot
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tsimoot
+  - osis: 2Tim
+    texts:
+      - Timóteo
+  - osis: Titus
+    texts:
+      - Tiit
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filemom
+      - Piremon
+  - osis: Heb
+    texts:
+      - Hebreus
+      - Eberew
+  - osis: Jas
+    texts:
+      - Tsijaag
+      - Tiago
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pedro
+      - Peed
+  - osis: Jude
+    texts:
+      - Judas
+translations:
+  - MBJ

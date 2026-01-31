@@ -1,0 +1,109 @@
+default:
+  1Cor:
+    long: 1 Korinto
+    short: 1 Kor.
+  1John:
+    long: 1 Juan
+    short: 1 Jn.
+  1Pet:
+    long: 1 Pedro
+    short: 1 Ped.
+  1Thess:
+    long: 1 Tesalonika
+    short: 1 Tes.
+  1Tim:
+    long: 1 Timoteo
+    short: 1 Tim.
+  2Cor:
+    long: 2 Korinto
+    short: 2 Kor.
+  2John:
+    long: 2 Juan
+    short: 2 Jn.
+  2Pet:
+    long: 2 Pedro
+    short: 2 Ped.
+  2Thess:
+    long: 2 Tesalonika
+    short: 2 Tes.
+  2Tim:
+    long: 2 Timoteo
+    short: 2 Tim.
+  3John:
+    long: 3 Juan
+    short: 3 Jn.
+  Acts:
+    long: Aramid
+    short: Ara.
+  Amos:
+    long: Amos
+    short: Amo.
+  Col:
+    long: Kolosas
+    short: Kol.
+  Eph:
+    long: Epeso
+    short: Epe.
+  Esth:
+    long: Ester
+    short: Est.
+  Gal:
+    long: Galasya
+    short: Gal.
+  Gen:
+    long: Genesis
+    short: Gen.
+  Hag:
+    long: Haggeo
+    short: Hag.
+  Heb:
+    long: Hebreo
+    short: Heb.
+  Jas:
+    long: Santiago
+    short: Sant.
+  John:
+    long: Juan
+    short: Jn.
+  Jonah:
+    long: Jonas
+    short: Jon.
+  Jude:
+    long: Jodas
+    short: Jod.
+  Luke:
+    long: Lokas
+    short: Lk.
+  Mark:
+    long: Markos
+    short: Mk.
+  Matt:
+    long: Matchew
+    short: Mt.
+  Mic:
+    long: Mikyas
+    short: Mik.
+  Obad:
+    long: Obadyas
+    short: Oba.
+  Phil:
+    long: Pilipos
+    short: Pilp.
+  Phlm:
+    long: Pilemon
+    short: Plm.
+  Rev:
+    long: Paltiing
+    short: Pal.
+  Rom:
+    long: Roma
+    short: Roma
+  Ruth:
+    long: Roth
+    short: Rot.
+  Titus:
+    long: Tito
+    short: Tito
+  Zech:
+    long: Sakaryas
+    short: Sak.

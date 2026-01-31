@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Ịtọpa
+    short: 1 Ịtọ
+  1Cor:
+    long: 1 Anịkọrịntị
+    short: 1 Ịkọ
+  1John:
+    long: 1 Ịjọọnụ
+    short: 1 Ịjọ
+  1Kgs:
+    long: 1 Ohinọyị
+    short: 1 Ohi
+  1Pet:
+    long: 1Ipita
+    short: 1 Ipi
+  1Sam:
+    long: 1 Ịsamụwẹrị
+    short: 1 Ịsa
+  1Thess:
+    long: 1 Anịtẹsaronika
+    short: 1 Ịtẹ
+  1Tim:
+    long: 1 Itimoti
+    short: 1 Itim
+  2Chr:
+    long: 2 Ịtọpa
+    short: 2 Ịtọ
+  2Cor:
+    long: 2 Anịkọrịntị
+    short: 2 Ịkọ
+  2John:
+    long: 2 Ịjọọnụ
+    short: 2 Ịjọ
+  2Kgs:
+    long: 2 Ohinọyị
+    short: 2 Ohi
+  2Pet:
+    long: 2Ipita
+    short: 2 Ipi
+  2Sam:
+    long: 2 Ịsamụwẹrị
+    short: 2 Ịsa
+  2Thess:
+    long: 2 Anịtẹsaronika
+    short: 2 Ịtẹ
+  2Tim:
+    long: 2 Itimoti
+    short: 2 Itim
+  3John:
+    long: 3 Ịjọọnụ
+    short: 3 Ịjọ
+  Acts:
+    long: Odeyi
+    short: Ụkọ
+  Amos:
+    long: Emọsị
+    short: Emọ
+  Col:
+    long: Anikorasi
+    short: Ikor
+  Dan:
+    long: Ịdanịyẹrị
+    short: Ịda
+  Deut:
+    long: Ọda
+    short: Ọda
+  Eccl:
+    long: Ịrẹyị Ọzwọzịsa
+    short: Ọzw
+  Eph:
+    long: Anẹhwẹsọsị
+    short: Ẹhw
+  Esth:
+    long: Ẹsịta
+    short: Ẹsị
+  Exod:
+    long: Ọyịkụra
+    short: Kụra
+  Ezek:
+    long: Ezikẹẹrị
+    short: Ezk
+  Ezra:
+    long: Ẹzịra
+    short: Ẹzị
+  Gal:
+    long: Anigaratiya
+    short: Iga
+  Gen:
+    long: Oyinyima
+    short: Oyn
+  Hab:
+    long: Ihabaku
+    short: Iha
+  Hag:
+    long: Ịhagayị
+    short: Ihg
+  Heb:
+    long: Anihiburu
+    short: Ihib
+  Hos:
+    long: Ihoseya
+    short: Iho
+  Isa:
+    long: Ayịsaya
+    short: Ayị
+  Jas:
+    long: Ijemiisi
+    short: Ije
+  Jer:
+    long: Ijeremaya
+    short: Ijer
+  Job:
+    long: Ijoovu
+    short: Ijov
+  Joel:
+    long: Ijowẹrị
+    short: Ijow
+  John:
+    long: Ịjọọnụ
+    short: Ịjọ
+  Jonah:
+    long: Ijona
+    short: Ijon
+  Josh:
+    long: Ijosuwa
+    short: Ijos
+  Jude:
+    long: Ijudi
+    short: Ijudi
+  Judg:
+    long: Ọdọvịdị
+    short: Ọdọ
+  Lam:
+    long: Arụwẹ
+    short: Arụ
+  Lev:
+    long: Ireevi
+    short: Ire
+  Luke:
+    long: Iruuku
+    short: Irk
+  Mal:
+    long: Ịmarakayị
+    short: Ịma
+  Mark:
+    long: Ịmaakị
+    short: Ịmk
+  Matt:
+    long: Imatiwu
+    short: Imt
+  Mic:
+    long: Imika
+    short: Imi
+  Nah:
+    long: Ịnahụmị
+    short: Ịna
+  Neh:
+    long: Inehemaya
+    short: Ine
+  Num:
+    long: Ịrịka
+    short: Ịrị
+  Obad:
+    long: Ọbadaya
+    short: Ọba
+  Phil:
+    long: Anihwiripi
+    short: Ihwi
+  Phlm:
+    long: Ihwirimọnị
+    short: Ihwm
+  Prov:
+    long: Ụhịrẹyị
+    short: Ụhị
+  Ps:
+    long: Ahẹ Ụgama
+    short: Ahẹ
+  Rev:
+    long: Ẹtore
+    short: Ẹtẹ
+  Rom:
+    long: Aniroomi
+    short: Iro
+  Ruth:
+    long: Iruutu
+    short: Iru
+  Song:
+    long: Ahẹ Isoromọnị
+    short: Iso
+  Titus:
+    long: Ịtayịtọsị
+    short: Ịta
+  Zech:
+    long: Ịzakaraya
+    short: Iza
+  Zeph:
+    long: Ịzẹhwanaya
+    short: Ịzhw

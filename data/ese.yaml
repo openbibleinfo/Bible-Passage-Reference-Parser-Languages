@@ -1,0 +1,134 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Apocalipsis
+      - Apocanisi
+      - Ap
+  - osis: Matt
+    texts:
+      - Mateo
+      - Mt
+  - osis: Mark
+    texts:
+      - Macoso
+      - Marcos
+      - Mc
+      - Mr
+  - osis: Luke
+    texts:
+      - Lucas
+      - Noca
+      - Lc
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Huani
+      - Juan
+      - Jn
+  - osis: Acts
+    texts:
+      - Hechos
+      - Hecho
+      - Hch
+  - osis: Rom
+    texts:
+      - Romanos
+      - Shomano
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corintios
+      - Conitio
+      - Co
+  - osis: 1Cor
+    texts:
+      - 1Co
+  - osis: Col
+    texts:
+      - Colosenses
+      - Conosenese
+      - Col
+  - osis: Gal
+    texts:
+      - Gálatas
+      - Janata
+      - Gá
+  - osis: Eph
+    texts:
+      - Efesios
+      - Epesio
+      - Ef
+  - osis: Phil
+    texts:
+      - Filipenses
+      - Pinipese
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonicenses
+      - Tesanonisese
+      - Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+      - Ti
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemón
+      - Pinemo
+      - Flm
+  - osis: Heb
+    texts:
+      - Hebreos
+      - Emeo
+      - Heb
+  - osis: Jas
+    texts:
+      - Santiaco
+      - Santiago
+      - Stg
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pedro
+      - Peno
+      - Pe
+  - osis: Jude
+    texts:
+      - Judas
+      - Jode
+      - Jud
+translations:
+  - ESE

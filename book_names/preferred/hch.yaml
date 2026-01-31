@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Kemɨtiuyɨ
+    short: 1Kem
+  1Cor:
+    long: 1 Kurinitutari
+    short: 1Ku
+  1John:
+    long: 1 Wani
+    short: 1Wa
+  1Kgs:
+    long: 1 Te'aitamete
+    short: 1Te
+  1Pet:
+    long: 1 Pekuru
+    short: 1Pe
+  1Sam:
+    long: 1 Tsamuheri
+    short: 1Tsam
+  1Thess:
+    long: 1 Tetsarunikatari
+    short: 1Tets
+  1Tim:
+    long: 1 Timuteu
+    short: 1Tim
+  2Chr:
+    long: 2 Kemɨtiuyɨ
+    short: 2Kem
+  2Cor:
+    long: 2 Kurinitutari
+    short: 2Ku
+  2John:
+    long: 2 Wani
+    short: 2Wa
+  2Kgs:
+    long: 2 Te'aitamete
+    short: 2Te
+  2Pet:
+    long: 2 Pekuru
+    short: 2Pe
+  2Sam:
+    long: 2 Tsamuheri
+    short: 2Tsam
+  2Thess:
+    long: 2 Tetsarunikatari
+    short: 2Tets
+  2Tim:
+    long: 2 Timuteu
+    short: 2Tim
+  3John:
+    long: 3 Wani
+    short: 3Wa
+  Acts:
+    long: Nɨ'ariekate
+    short: Nɨ'a
+  Amos:
+    long: "'Amuxi"
+    short: "'Amu"
+  Col:
+    long: Kurutsetari
+    short: Kur
+  Dan:
+    long: Tanieri
+    short: Tan
+  Deut:
+    long: Hutarieka 'inɨari
+    short: Hut
+  Eccl:
+    long: Ti'ɨkitame
+    short: "'Ɨki"
+  Eph:
+    long: "'Epetsutari"
+    short: "'Epe"
+  Esth:
+    long: "'Etsitexi"
+    short: "'Etsi"
+  Exod:
+    long: Memeyekɨ
+    short: Mem
+  Ezek:
+    long: "'Etsekieri"
+    short: "'Etse"
+  Ezra:
+    long: "'Etsitɨraxi"
+    short: "'Ets"
+  Gal:
+    long: Karatsiyatari
+    short: Kar
+  Gen:
+    long: Tsutɨarika
+    short: Tsut
+  Hab:
+    long: "'Awakuki"
+    short: "'Awa"
+  Hag:
+    long: "'Akehuxi"
+    short: "'Ake"
+  Heb:
+    long: Hepɨrayutsixi
+    short: Hep
+  Hos:
+    long: "'Utseyaxi"
+    short: "'Uts"
+  Isa:
+    long: Kitsariyaxi
+    short: Kits
+  Jas:
+    long: Tsatiyaku
+    short: Tsat
+  Jer:
+    long: Keremiyaxi
+    short: Ker
+  Job:
+    long: Kuwi
+    short: Kuwi
+  Joel:
+    long: Kuheri
+    short: Kuh
+  John:
+    long: Wani
+    short: Wa
+  Jonah:
+    long: Kunatsi
+    short: Kun
+  Josh:
+    long: Kutsuhexi
+    short: Kuts
+  Jude:
+    long: Kura
+    short: Kura
+  Judg:
+    long: "'Itsɨkate"
+    short: "'Its"
+  Lam:
+    long: Hiwerika
+    short: Hiw
+  Lev:
+    long: Mawari
+    short: Maw
+  Luke:
+    long: Rukaxi
+    short: Ruk
+  Mal:
+    long: Marakiyaxi
+    short: Mara
+  Mark:
+    long: Marikuxi
+    short: Mar
+  Matt:
+    long: Mateu
+    short: Mat
+  Mic:
+    long: Mikeyaxi
+    short: MiK
+  Nah:
+    long: Nahumi
+    short: Nah
+  Neh:
+    long: Nehemiyaxi
+    short: Neh
+  Num:
+    long: "'Inɨatsie"
+    short: "'Inɨa"
+  Obad:
+    long: "'Awiriyaxi"
+    short: "'Awi"
+  Phil:
+    long: Piriputari
+    short: Pir
+  Phlm:
+    long: Kirimuni
+    short: Kir
+  Prov:
+    long: Temaiwawemete
+    short: Temai
+  Ps:
+    long: Nɨawari
+    short: Nɨa
+  Rev:
+    long: Matsiɨkɨtɨ kemɨratɨa
+    short: Mats
+  Rom:
+    long: Xumatari
+    short: Xum
+  Ruth:
+    long: Xuti
+    short: Xut
+  Song:
+    long: Kwikari
+    short: Kwi
+  Titus:
+    long: Titu
+    short: Tit
+  Zech:
+    long: Tsakariyaxi
+    short: Tsak
+  Zeph:
+    long: Tsupuniyaxi
+    short: Tsup

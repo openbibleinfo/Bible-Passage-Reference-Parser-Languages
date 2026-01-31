@@ -1,0 +1,340 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - ማዢንቲ ማፃኣፔ
+      - ማዢ. ማፃ
+  - osis: Exod
+    texts:
+      - ኬሲ ማፃኣፔ
+      - ኬሲ. ማፃ
+  - osis: Lev
+    texts:
+      - ሌዊ ዓሶ ማፃኣፖ
+      - ሌዊ. ዓኬ
+  - osis: Num
+    texts:
+      - ፓይዲ ማፃኣፔ
+      - ፓይ. ማፃ
+  - osis: Lam
+    texts:
+      - ዔርሚያሴ ቃዮ ማፃኣፖ
+      - ዔቃ. ማ
+  - osis: Rev
+    texts:
+      - ዮሓኒሴም ፆኦሲ ፔጋሲ ዻዌ ባኮ
+      - ዮሃኒሴም ፆኦሲ ዻዌ ባኮ
+      - ዮሃ. ፆፔዻ
+      - ዮሓ. ፆፔዻ
+  - osis: Deut
+    texts:
+      - ላሚንቴ ዎጎ ማፃኣፖ
+      - ላሚ. ዎማ
+  - osis: Josh
+    texts:
+      - ዒያሱ ማፃኣፖ
+      - ዒያ.
+  - osis: Judg
+    texts:
+      - ሱኡጎ ማፃኣፖ
+      - ሱኡጎ. ማፃ
+  - osis: Ruth
+    texts:
+      - ሩኡቴ ማፃኣፖ
+      - ሩኡቴ
+  - osis: Isa
+    texts:
+      - ዒሲያሴ ማፃኣፖ
+      - ዒሲ.
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - ሳሙዔኤሌ ማፃኣፖ
+  - osis: 1Sam
+    texts:
+      - 1ሳሙ.
+  - osis: 2Sam
+    texts:
+      - 2ሳሙ.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - ካኣቶ ማፃኣፖ
+  - osis: 1Kgs
+    texts:
+      - 1ካኣቶ. ማ
+  - osis: 2Kgs
+    texts:
+      - 2ካኣቶ. ማ
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - ፆኦሲ ዓሶ ሃይሶ
+  - osis: 1Chr
+    texts:
+      - 1ፆኦሲ. ዓሃኬ
+  - osis: 2Chr
+    texts:
+      - 2ፆኦሲ. ዓሃኬ
+  - osis: Ezra
+    texts:
+      - ዒዝራ ማፃኣፖ
+      - ዒዝ.
+  - osis: Neh
+    texts:
+      - ኔሄሚያ ማፃኣፖ
+      - ኔሄ.
+  - osis: Esth
+    texts:
+      - ዓስቲሮ ማፃኣፖ
+      - ዓስቲ.
+  - osis: Job
+    texts:
+      - ዒዮቤ ማፃኣፖ
+      - ዒዮ.
+  - osis: Ps
+    texts:
+      - ዓይኑሞ ማፃኣፖ
+      - ዓይኑ.
+  - osis: Prov
+    texts:
+      - ኮኦኪንሢ ማፃኣፔ
+      - ኮኦኪ.
+  - osis: Eccl
+    texts:
+      - ማክቢቤ ማፃኣፖ
+      - ማክ.
+  - osis: Song
+    texts:
+      - ቢያፓ ባሼ ዓይኑሞ
+      - ቢባ. ዓይ
+  - osis: Jer
+    texts:
+      - ዔርሚያሴ ማፃኣፖ
+      - ዔር.
+  - osis: Ezek
+    texts:
+      - ሂዚቄኤሌ ማፃኣፖ
+      - ሂዚ.
+  - osis: Dan
+    texts:
+      - ዳኣኔኤሌ ማፃኣፖ
+      - ዳኣኔ.
+  - osis: Hos
+    texts:
+      - ሆሴዔ ማፃኣፖ
+      - ሆሴ.
+  - osis: Joel
+    texts:
+      - ዒዩዔኤሌ ማፃኣፖ
+      - ዒዩ.
+  - osis: Amos
+    texts:
+      - ዓሞፄ ማፃኣፖ
+      - ዓሞ.
+  - osis: Obad
+    texts:
+      - ዓብዲዮ ማፃኣፖ
+      - ዓብዲ.
+  - osis: Jonah
+    texts:
+      - ዮናኣሴ ማፃኣፖ
+      - ዮና.
+  - osis: Mic
+    texts:
+      - ሚኪያሴ ማፃኣፖ
+      - ሚኪ.
+  - osis: Nah
+    texts:
+      - ናሆኦሜ ማፃኣፖ
+      - ናሆ.
+  - osis: Hab
+    texts:
+      - ዒምባቆሜ ማፃኣፖ
+      - ዒምባ.
+  - osis: Zeph
+    texts:
+      - ሶፖኒያሴ ማፃኣፖ
+      - ሶፖ.
+  - osis: Hag
+    texts:
+      - ሃኣጌ ማፃኣፖ
+      - ሃኣጌ
+  - osis: Zech
+    texts:
+      - ዛካሪያሴ ማፃኣፖ
+      - ዛካ.
+  - osis: Mal
+    texts:
+      - ሚልኪያሴ ማፃኣፖ
+      - ሚል.
+  - osis: Matt
+    texts:
+      - ማቲዎሴ ፃኣፔ ኮዦ ሃይሶ
+      - ማቲዎሴ
+      - ማቲ.
+  - osis: Mark
+    texts:
+      - ማርቆሴ ፃኣፔ ኮዦ ሃይሶ
+      - ማርቆሴ
+      - ማር.
+  - osis: Luke
+    texts:
+      - ሉቃሴ ፃኣፔ ኮዦ ሃይሶ
+      - ሉቃ.
+      - ሉቃሴ
+  - osis: 1John
+    texts:
+      - ዮሓኒሴ ኪኢቶ'' 1
+      - 1ዮሃ.
+      - 1ዮሓ.
+  - osis: 2John
+    texts:
+      - ዮሓኒሴ ኪኢቶ'' 2
+      - 2ዮሃ.
+      - 2ዮሓ.
+  - osis: 3John
+    texts:
+      - ዮሓኒሴ ኪኢቶ'' 3
+      - 3 ዮሃኒሴ
+      - 3ዮሃ.
+      - 3ዮሓ.
+  - osis: John
+    texts:
+      - ዮሃኒሴ ፃኣፔ ኮዦ ሃይሶ
+      - ዮሓኒሴ
+      - ዮሃ.
+      - ዮሓ.
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - ዮሃኒሴ
+  - osis: Acts
+    texts:
+      - ፆኦሲ ማዾ''ም ዳኪንቴዞንሢኮ ማዾ''
+      - ዳኪንቴዞንሢ ማዾ
+      - ዳኪ. ማዾ''
+      - ዳኪ. ማዾ
+  - osis: Rom
+    texts:
+      - ሮሜ ዓጮ'' ዓሶም
+      - ሮሜ ዓሶም
+      - ሮሜ
+  - osis: 1Cor
+    texts:
+      - ቆሮንቶሴ ዓሶም 1
+      - 1ቆሮ.
+  - osis: 2Cor
+    texts:
+      - ቆሮንቶሴ ዓሶም 2
+      - 2ቆሮ.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - ቆሮንቶሴ ዓሶም
+  - osis: Col
+    texts:
+      - ቆላሲያሴ ዓሶም
+      - ቆላ.
+  - osis: Gal
+    texts:
+      - ጋላቲያ ዓሶም
+      - ጋላ.
+  - osis: Eph
+    texts:
+      - ዔፕሶኔ ዓሶም
+      - ዔፕ.
+  - osis: Phil
+    texts:
+      - ፒልጲሲዮሴ ዓሶም
+      - ፒልጲ.
+  - osis: 1Thess
+    texts:
+      - ቴስሎንቄ ዓሶም 1
+      - 1ቴስ.
+  - osis: 2Thess
+    texts:
+      - ቴስሎንቄ ዓሶም 2
+      - 2ቴስ.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - ቴስሎንቄ ዓሶም
+  - osis: 1Tim
+    texts:
+      - ፂሞቴዎሴም 1
+      - 1ፂሞ.
+  - osis: 2Tim
+    texts:
+      - ፂሞቴዎሴም 2
+      - 2ፂሞ.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - ፂሞቴዎሴም
+  - osis: Titus
+    texts:
+      - ቲቶም
+      - ቲቶ
+  - osis: Phlm
+    texts:
+      - ፒልሞናም
+      - ፒልሞ.
+  - osis: Heb
+    texts:
+      - ዔብሬ ዓሶም ዳኪንቴ ኪኢታ
+      - ዔብሬ ዓሶም
+      - ዔብ.
+  - osis: Jas
+    texts:
+      - ያይቆኦቤ ኪኢቶ''
+      - ያይቆኦቤ ኪኢቶ
+      - ያይ.
+  - osis: 1Pet
+    texts:
+      - ጴፂሮሴ ኪኢቶ'' 1
+      - 1ጴፂ.
+  - osis: 2Pet
+    texts:
+      - ጴፂሮሴ ኪኢቶ'' 2
+      - 2ጴፂ.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - ጴፂሮሴ
+  - osis: Jude
+    texts:
+      - ዪሁዳ ዳኬ ኪኢቶ
+      - ዪሁዳ ኪኢቶ''
+      - ዪሁ.
+translations:
+  - MNT
+  - MB

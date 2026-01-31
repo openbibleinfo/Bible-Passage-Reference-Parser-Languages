@@ -1,0 +1,311 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Genesis
+      - Gen.
+  - osis: Exod
+    texts:
+      - Exodo
+      - Exo.
+  - osis: Bel
+    texts:
+      - Bel Asin an Dragon
+      - Bel
+  - osis: Lev
+    texts:
+      - Levitico
+      - Lev.
+  - osis: Num
+    texts:
+      - Mga Bilang
+      - Bil.
+  - osis: Sir
+    texts:
+      - Sirac
+      - Sir.
+  - osis: Wis
+    texts:
+      - An Kadonongan ni Solomon
+      - Kad.
+  - osis: Lam
+    texts:
+      - Mga Panambitan
+      - Pan.
+  - osis: EpJer
+    texts:
+      - An Surat ni Jeremias
+      - Sur. Jer.
+  - osis: Rev
+    texts:
+      - Kapahayagan
+      - Kap.
+  - osis: Deut
+    texts:
+      - Deuteronomio
+      - Deut.
+  - osis: Josh
+    texts:
+      - Josue
+      - Jos.
+  - osis: Judg
+    texts:
+      - Hukom
+      - Huk.
+  - osis: Ruth
+    texts:
+      - Ruth
+  - osis: Isa
+    texts:
+      - Isaias
+      - Isa.
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - Sam.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Mga Hade
+      - Ha.
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Mga Cronica
+      - Cro.
+  - osis: Ezra
+    texts:
+      - Esdras
+      - Esd.
+  - osis: Neh
+    texts:
+      - Nehemias
+      - Neh.
+  - osis: Job
+    texts:
+      - Job.
+      - Job
+  - osis: Ps
+    texts:
+      - Salmo
+  - osis: Prov
+    texts:
+      - Mga Talinhaga
+      - Tal.
+  - osis: Eccl
+    texts:
+      - Parahulit
+      - Par.
+  - osis: SgThree
+    texts:
+      - An Awit kan Tolong Hoben na Lalaki
+      - Aw. kan 3 Lal.
+  - osis: Song
+    texts:
+      - Awit nin mga Awit
+      - Aw. nin Aw.
+  - osis: Jer
+    texts:
+      - Jeremias
+      - Jer.
+  - osis: Ezek
+    texts:
+      - Ezekiel
+      - Ez.
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan.
+  - osis: Hos
+    texts:
+      - Oseas
+      - Os.
+  - osis: Joel
+    texts:
+      - Joel
+  - osis: Amos
+    texts:
+      - Amos
+  - osis: Obad
+    texts:
+      - Obadias
+      - Oba.
+  - osis: Jonah
+    texts:
+      - Jonas
+      - Jon.
+  - osis: Mic
+    texts:
+      - Mikas
+      - Mik.
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah.
+  - osis: Hab
+    texts:
+      - Habakkuk
+      - Hab.
+  - osis: Zeph
+    texts:
+      - Sofonias
+      - Sof.
+  - osis: Hag
+    texts:
+      - Hageo
+      - Hag.
+  - osis: Zech
+    texts:
+      - Zacarias
+      - Zac.
+  - osis: Mal
+    texts:
+      - Malakias
+      - Mal.
+  - osis: Matt
+    texts:
+      - Mateo
+      - Mt.
+  - osis: Mark
+    texts:
+      - Markos
+      - Mk.
+  - osis: Luke
+    texts:
+      - Lukas
+      - Lk.
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Juan
+      - Jn.
+  - osis: Acts
+    texts:
+      - Mga Gibo
+      - Gibo.
+  - osis: Rom
+    texts:
+      - Roma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corinto
+      - Cor.
+  - osis: Col
+    texts:
+      - Colosas
+      - Col.
+  - osis: Gal
+    texts:
+      - Galacia
+      - Gal.
+  - osis: Eph
+    texts:
+      - Efeso
+      - Efe.
+  - osis: Phil
+    texts:
+      - Filipos
+      - Flp.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonica
+      - Tes.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+      - Tim.
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filemon
+      - Flm.
+  - osis: Heb
+    texts:
+      - Hebreyo
+      - Heb.
+  - osis: Jas
+    texts:
+      - Santiago
+      - San.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pedro
+      - Ped.
+  - osis: Jude
+    texts:
+      - Judas
+      - Ju.
+  - osis: Tob
+    texts:
+      - Tobit
+      - Tob.
+  - osis: Jdt
+    texts:
+      - Judit
+      - Jdt.
+  - osis: Bar
+    texts:
+      - Baruc
+      - Bar.
+  - osis: Sus
+    texts:
+      - Susana
+      - Sus.
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+    texts:
+      - Maccabeo
+      - Mac.
+  - osis: EsthGr
+    texts:
+      - Esther (An Griyegong Bersyon)
+      - Est. Gr.
+  - osis: Esth
+    texts:
+      - Esther
+      - Est.
+translations:
+  - MBBBIK92

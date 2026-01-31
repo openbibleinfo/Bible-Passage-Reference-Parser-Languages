@@ -1,0 +1,291 @@
+default:
+  1Chr:
+    long: 1 Amang'ana gi Ichinkaaga
+    short: 1 Ich
+  1Cor:
+    long: 1 Abhakorinto
+    short: 1 Ko
+  1John:
+    long: 1 Yohana
+    short: 1 Yoh
+  1Kgs:
+    long: 1 Abhagambi
+    short: 1 Gam
+  1Macc:
+    long: 1 Abamakabhayo
+    short: 1 Mak
+  1Pet:
+    long: 1 Bhetero
+    short: 1 Bhe
+  1Sam:
+    long: 1 Samueri
+    short: 1 Sam
+  1Thess:
+    long: 1 Abhatesaronike
+    short: 1 Abh
+  1Tim:
+    long: 1 Timoteo
+    short: 1 Tim
+  2Chr:
+    long: 2 Amang'ana gi Ichinkaaga
+    short: 2 Ich
+  2Cor:
+    long: 2 Abhakorinto
+    short: 2 Ko
+  2John:
+    long: 2 Yohana
+    short: 2 Yoh
+  2Kgs:
+    long: 2 Abhagambi
+    short: 2 Gam
+  2Macc:
+    long: 2 Abamakabhayo
+    short: 2 Mak
+  2Pet:
+    long: 2 Bhetero
+    short: 2 Bhe
+  2Sam:
+    long: 2 Samueri
+    short: 2 Sam
+  2Thess:
+    long: 2 Abhatesaronike
+    short: 2 Abh
+  2Tim:
+    long: 2 Timoteo
+    short: 2 Tim
+  3John:
+    long: 3 Yohana
+    short: 3 Yoh
+  Acts:
+    long: Amakora
+    short: Ama
+  Amos:
+    long: Amosi
+    short: Amo
+  Bar:
+    long: Bharuku
+    short: Bhar
+  Col:
+    long: Abhakorosai
+    short: Kor
+  Dan:
+    long: Tanieri
+    short: Tan
+  Deut:
+    long: Ëhëëtöko ya Amarago
+    short: Ëhë
+  Eccl:
+    long: Umurundia
+    short: Umu
+  Eph:
+    long: Abhaebheso
+    short: Eb
+  Esth:
+    long: Esita
+    short: Est
+  EsthGr:
+    long: Esita (Ikigiriki)
+    short: EsG
+  Exod:
+    long: Ëgeetëko
+    short: Ëgt
+  Ezek:
+    long: Esekieri
+    short: Ese
+  Ezra:
+    long: Esira
+    short: Esr
+  Gal:
+    long: Abhagaratia
+    short: Gar
+  Gen:
+    long: Ögötanga
+    short: Ögt
+  Hab:
+    long: Habhakuki
+    short: Hak
+  Hag:
+    long: Hagai
+    short: Hag
+  Heb:
+    long: Abhaebhurania
+    short: Ibr
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Isaya
+    short: Isa
+  Jas:
+    long: Yakobho
+    short: Yak
+  Jdt:
+    long: Yutiti
+    short: Yut
+  Jer:
+    long: Yeremia
+    short: Yer
+  Job:
+    long: Ayubhu
+    short: Ayb
+  Joel:
+    long: Yoeri
+    short: Yoe
+  John:
+    long: Yohana
+    short: Yoh
+  Jonah:
+    long: Yona
+    short: Yon
+  Josh:
+    long: Yosua
+    short: Yos
+  Jude:
+    long: Yuta
+    short: Yuta
+  Judg:
+    long: Abhahökania
+    short: Abh
+  Lam:
+    long: Ikuuro
+    short: Iku
+  Lev:
+    long: Abharawi
+    short: Abhar
+  Luke:
+    long: Ruka
+    short: Ruk
+  Mal:
+    long: Maraki
+    short: Mari
+  Mark:
+    long: Mariko
+    short: Mk
+  Matt:
+    long: Matayo
+    short: Mat
+  Mic:
+    long: Mika
+    short: MiK
+  Nah:
+    long: Nahumu
+    short: Nah
+  Neh:
+    long: Nehemia
+    short: Neh
+  Num:
+    long: Ëbharo
+    short: Ëbh
+  Obad:
+    long: Obhatia
+    short: Oba
+  Phil:
+    long: Abhabhiribi
+    short: Bhi
+  Phlm:
+    long: Bhiremoni
+    short: Bhir
+  Prov:
+    long: Ibhirengiö
+    short: Ibh
+  Ps:
+    long: Ësabhuri
+    short: Sab
+  Rev:
+    long: Öbhöhönyöro
+    short: Öbhö
+  Rom:
+    long: Abharumi
+    short: Rum
+  Ruth:
+    long: Ruti
+    short: Rut
+  Sir:
+    long: Sira
+    short: Sir
+  Song:
+    long: Irisiringio rë Ëtegerio
+    short: Iri
+  Titus:
+    long: Tito
+    short: Tito
+  Tob:
+    long: Tobhiti
+    short: Tob
+  Wis:
+    long: Öbhöng'aini bho Sureimani
+    short: Öbh
+  Zech:
+    long: Sekaria
+    short: Sek
+  Zeph:
+    long: Sebhania
+    short: Seb
+translations:
+  knt95:
+    1Cor:
+      long: 1 Abaköriinto
+      short: 1 Kö
+    1John:
+      long: 1 Yöhana
+      short: 1 Yöh
+    1Pet:
+      long: 1 Bëëtërö
+      short: 1 Bët
+    1Thess:
+      long: 1 Abatesaronike
+      short: 1 Te
+    2Cor:
+      long: 2 Abaköriinto
+      short: 2 Kö
+    2John:
+      long: 2 Yöhana
+      short: 2 Yöh
+    2Pet:
+      long: 2 Bëëtërö
+      short: 2 Bët
+    2Thess:
+      long: 2 Abatesaronike
+      short: 2 Te
+    3John:
+      long: 3 Yöhana
+      short: 3 Yöh
+    Acts:
+      long: Amaköra
+      short: Amak
+    Col:
+      long: Abakörösai
+      short: Körö
+    Eph:
+      long: Abaëbëëso
+    Gal:
+      long: Abagaratia
+    Heb:
+      long: Abaibrania
+    Jas:
+      long: Yaköbö
+    John:
+      long: Yöhana
+      short: Yöh
+    Jude:
+      long: Yuuta
+      short: Yut
+    Luke:
+      long: Ruuka
+      short: Rk
+    Mark:
+      long: Maarikö
+    Matt:
+      long: Mataayo
+      short: Mt
+    Phil:
+      long: Ababiribi
+      short: Bir
+    Phlm:
+      long: Biremööni
+      short: Bire
+    Rev:
+      long: Okohonyorroa
+      short: Okoh
+    Rom:
+      long: Abaruumi

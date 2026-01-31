@@ -1,0 +1,141 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Veʼita
+      - Ve
+  - osis: Matt
+    texts:
+      - Madiu
+      - Md
+  - osis: Mark
+    texts:
+      - Maki
+      - Mk
+  - osis: Luke
+    texts:
+      - Luke
+      - Lk
+  - osis: 1John
+    texts:
+      - 1Ion
+  - osis: 2John
+    texts:
+      - 2Ion
+  - osis: 3John
+    texts:
+      - 3 Ioni
+      - 3Ion
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Ioni
+  - osis: John
+    texts:
+      - Ioni
+      - Ion
+  - osis: Acts
+    texts:
+      - Viaqa
+      - Via
+  - osis: Rom
+    texts:
+      - Loma
+      - Lom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kolinita
+  - osis: 1Cor
+    texts:
+      - 1Kol
+  - osis: 2Cor
+    texts:
+      - 2Kol
+  - osis: Col
+    texts:
+      - Kolose
+      - Kol
+  - osis: Gal
+    texts:
+      - Galetia
+      - Gal
+  - osis: Eph
+    texts:
+      - Efeso
+      - Efe
+  - osis: Phil
+    texts:
+      - Filifai
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonaika
+  - osis: 1Thess
+    texts:
+      - 1Te
+  - osis: 2Thess
+    texts:
+      - 2Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Taitusi
+      - Tai
+  - osis: Phlm
+    texts:
+      - Filimoni
+      - Fim
+  - osis: Heb
+    texts:
+      - Ibeliu
+      - Ibe
+  - osis: Jas
+    texts:
+      - Iemesa
+      - Iem
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Fita
+  - osis: 1Pet
+    texts:
+      - 1Fit
+  - osis: 2Pet
+    texts:
+      - 2Fit
+  - osis: Jude
+    texts:
+      - Iuda
+      - Iud
+translations:
+  - MOXNT

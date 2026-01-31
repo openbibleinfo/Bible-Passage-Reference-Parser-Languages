@@ -1,0 +1,116 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Xowawu Nenyetxho
+      - Apo
+  - osis: Matt
+    texts:
+      - Matewsà
+      - Mat
+  - osis: Mark
+    texts:
+      - Mahhusa
+      - Mar
+  - osis: Luke
+    texts:
+      - Rukasà
+      - Luc
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Xowawo
+      - Jo
+  - osis: John
+    texts:
+      - Xowawu
+      - Joã
+  - osis: Acts
+    texts:
+      - Txesusu Nànyaketxho ro komo
+      - Ats
+  - osis: Rom
+    texts:
+      - Homa
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Koryentu
+      - Co
+  - osis: Col
+    texts:
+      - Korosos
+      - Col
+  - osis: Gal
+    texts:
+      - Karaseya
+      - Gál
+  - osis: Eph
+    texts:
+      - Ehfesu
+      - Efs
+  - osis: Phil
+    texts:
+      - Feryepos
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaroneka
+      - Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Txemohtyo
+      - Tm
+  - osis: Titus
+    texts:
+      - Txetu
+      - Tit
+  - osis: Phlm
+    texts:
+      - Feryemonà
+      - Flm
+  - osis: Heb
+    texts:
+      - Ekmàryewyana komo
+      - Heb
+  - osis: Jas
+    texts:
+      - Txaku
+      - Tgo
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petru
+      - Pe
+  - osis: Jude
+    texts:
+      - Xuknasà
+      - Jud
+translations:
+  - HIX

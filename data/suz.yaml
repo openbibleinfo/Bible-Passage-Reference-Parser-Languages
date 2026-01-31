@@ -1,0 +1,261 @@
+variables:
+  first: &first
+    - १
+  second: &second
+    - २
+books:
+  - osis: Gen
+    texts:
+      - उत्पत्ती
+  - osis: Exod
+    texts:
+      - प्रस्‍थान
+  - osis: Lev
+    texts:
+      - लेवी
+  - osis: Num
+    texts:
+      - गन्‍ती
+  - osis: Lam
+    texts:
+      - बिलाप
+  - osis: Rev
+    texts:
+      - प्रकाश
+  - osis: Deut
+    texts:
+      - ब्‍यवस्‍था
+  - osis: Josh
+    texts:
+      - यहोसु
+  - osis: Judg
+    texts:
+      - न्‍यायाधीस
+  - osis: Ruth
+    texts:
+      - रूथ
+  - osis: Isa
+    texts:
+      - यसैया
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - सामुएल
+  - osis: 1Sam
+    texts:
+      - १सामुएल
+  - osis: 2Sam
+    texts:
+      - २सामुएल
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - राजा
+  - osis: 1Kgs
+    texts:
+      - १राजा
+  - osis: 2Kgs
+    texts:
+      - २राजा
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - इतिहास
+  - osis: 1Chr
+    texts:
+      - १इतिहास
+  - osis: 2Chr
+    texts:
+      - २इतिहास
+  - osis: Ezra
+    texts:
+      - एज्रा
+  - osis: Neh
+    texts:
+      - नेहेम्‍याह
+  - osis: Esth
+    texts:
+      - एस्‍तर
+  - osis: Job
+    texts:
+      - अय्‍युब
+  - osis: Ps
+    texts:
+      - भजन संग्रह
+  - osis: Prov
+    texts:
+      - हितोपदेस
+  - osis: Eccl
+    texts:
+      - उपदेसक
+  - osis: Song
+    texts:
+      - ठेयब कुम्सो
+  - osis: Jer
+    texts:
+      - येरमीया
+  - osis: Ezek
+    texts:
+      - इजीकीएल
+  - osis: Dan
+    texts:
+      - दानीएल
+  - osis: Hos
+    texts:
+      - होसे
+  - osis: Joel
+    texts:
+      - योएल
+  - osis: Amos
+    texts:
+      - आमोस
+  - osis: Obad
+    texts:
+      - ओबदिया
+  - osis: Jonah
+    texts:
+      - योना
+  - osis: Mic
+    texts:
+      - मीका
+  - osis: Nah
+    texts:
+      - नहुम
+  - osis: Hab
+    texts:
+      - हबकुक
+  - osis: Zeph
+    texts:
+      - सेफन्‍याह
+  - osis: Hag
+    texts:
+      - हाग्‍गै
+  - osis: Zech
+    texts:
+      - जकरिया
+  - osis: Mal
+    texts:
+      - मलाकी
+  - osis: Matt
+    texts:
+      - मत्ती
+  - osis: Mark
+    texts:
+      - मर्कूस
+  - osis: Luke
+    texts:
+      - लूका
+  - osis: 1John
+    texts:
+      - १यूहन्‍ना
+  - osis: 2John
+    texts:
+      - २यूहन्‍ना
+  - osis: 3John
+    texts:
+      - ३ यूहन्‍ना
+      - ३यूहन्‍ना
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - यूहन्‍ना
+  - osis: Acts
+    texts:
+      - प्रेरित
+  - osis: Rom
+    texts:
+      - रोमी
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - कोरिन्‍थी
+  - osis: 1Cor
+    texts:
+      - १कोरिन्‍थी
+  - osis: 2Cor
+    texts:
+      - २कोरिन्‍थी
+  - osis: Col
+    texts:
+      - कलस्‍सी
+  - osis: Gal
+    texts:
+      - गलाती
+  - osis: Eph
+    texts:
+      - एफिसी
+  - osis: Phil
+    texts:
+      - फिलिप्‍पी
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - थिस्‍सलोनिकी
+  - osis: 1Thess
+    texts:
+      - १थिस्‍सलोनिकी
+  - osis: 2Thess
+    texts:
+      - २थिस्‍सलोनिकी
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - तिमोथी
+  - osis: 1Tim
+    texts:
+      - १तिमोथी
+  - osis: 2Tim
+    texts:
+      - २तिमोथी
+  - osis: Titus
+    texts:
+      - तीतस
+  - osis: Phlm
+    texts:
+      - फिलेमोन
+  - osis: Heb
+    texts:
+      - हिब्रू
+  - osis: Jas
+    texts:
+      - याकूब
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - पत्रुस
+  - osis: 1Pet
+    texts:
+      - १पत्रुस
+  - osis: 2Pet
+    texts:
+      - २पत्रुस
+  - osis: Jude
+    texts:
+      - यहूदा
+translations:
+  - SUZ

@@ -1,0 +1,96 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Mthon
+  - osis: Matt
+    texts:
+      - Mth
+  - osis: Mark
+    texts:
+      - Mk
+  - osis: Luke
+    texts:
+      - Lk
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jawhen
+  - osis: John
+    texts:
+      - Jh
+      - Jn
+  - osis: Acts
+    texts:
+      - Tloe
+  - osis: Rom
+    texts:
+      - Ro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kawrin
+  - osis: Col
+    texts:
+      - Kawlaw
+  - osis: Gal
+    texts:
+      - Gal
+  - osis: Eph
+    texts:
+      - Eiphe
+  - osis: Phil
+    texts:
+      - Phili
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tasalo
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timaw
+  - osis: Titus
+    texts:
+      - Titu
+  - osis: Phlm
+    texts:
+      - Phi
+  - osis: Heb
+    texts:
+      - Hei
+  - osis: Jas
+    texts:
+      - Jaku
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peitru
+  - osis: Jude
+    texts:
+      - Juda
+translations:
+  - MRO1

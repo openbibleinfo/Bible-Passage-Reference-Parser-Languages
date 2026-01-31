@@ -1,0 +1,235 @@
+default:
+  1Chr:
+    long: 1 Kronika
+    short: 1 Kron.
+  1Cor:
+    long: 1 Korintus
+    short: 1 Kor.
+  1John:
+    long: 1 Johanes
+    short: 1 Joh.
+  1Kgs:
+    long: 1 Raja-Raja
+    short: 1 Raj.
+  1Macc:
+    long: 1 Makabe
+    short: 1 Mak.
+  1Pet:
+    long: 1 Petrus
+    short: 1 Ptr.
+  1Sam:
+    long: 1 Samuel
+    short: 1 Sam.
+  1Thess:
+    long: 1 Tesalonika
+    short: 1 Tes.
+  1Tim:
+    long: 1 Timoteus
+    short: 1 Tim.
+  2Chr:
+    long: 2 Kronika
+    short: 2 Kron.
+  2Cor:
+    long: 2 Korintus
+    short: 2 Kor.
+  2John:
+    long: 2 Johanes
+    short: 2 Joh.
+  2Kgs:
+    long: 2 Raja-Raja
+    short: 2 Raj.
+  2Macc:
+    long: 2 Makabe
+    short: 2 Mak.
+  2Pet:
+    long: 2 Petrus
+    short: 2 Ptr.
+  2Sam:
+    long: 2 Samuel
+    short: 2 Sam.
+  2Thess:
+    long: 2 Tesalonika
+    short: 2 Tes.
+  2Tim:
+    long: 2 Timoteus
+    short: 2 Tim.
+  3John:
+    long: 3 Johanes
+    short: 3 Joh.
+  Acts:
+    long: Ulaan Apostel
+    short: Ul.
+  Amos:
+    long: Amos
+    short: Am.
+  Bar:
+    long: Baruk
+    short: Bar.
+  Bel:
+    long: Bel
+    short: Bel.
+  Col:
+    long: Kolose
+    short: Kol.
+  Dan:
+    long: Daniel
+    short: Dan.
+  Deut:
+    long: 5 Musa
+    short: 5 Ms.
+  Eccl:
+    long: Perjamita
+    short: Prjm.
+  EpJer:
+    long: Surat Jeremia
+    short: S. Jer.
+  Eph:
+    long: Epesus
+    short: Ep.
+  Esth:
+    long: Ester
+    short: Est.
+  EsthGr:
+    long: TAMB. ESTER
+    short: T. Est
+  Exod:
+    long: 2 Musa
+    short: 2 Ms.
+  Ezek:
+    long: Hesekiel
+    short: Hes.
+  Ezra:
+    long: Esra
+    short: Esr.
+  Gal:
+    long: Galatia
+    short: Gal.
+  Gen:
+    long: 1 Musa
+    short: 1 Ms.
+  Hab:
+    long: Habakuk
+    short: Hab.
+  Hag:
+    long: Hagai
+    short: Hag.
+  Heb:
+    long: Heber
+    short: Heb.
+  Hos:
+    long: Hosea
+    short: Hos.
+  Isa:
+    long: Jesaya
+    short: Jes.
+  Jas:
+    long: Jakobus
+    short: Jak.
+  Jdt:
+    long: Judit
+    short: Jdt.
+  Jer:
+    long: Jeremia
+    short: Jer.
+  Job:
+    long: Job
+    short: Jb.
+  Joel:
+    long: Joel
+    short: Jl.
+  John:
+    long: Johanes
+    short: Joh.
+  Jonah:
+    long: Junus
+    short: Jun.
+  Josh:
+    long: Josua
+    short: Jos.
+  Jude:
+    long: Judas
+    short: Jud.
+  Judg:
+    long: Perhukum
+    short: Prh.
+  Lam:
+    long: Tangis Milangi
+    short: Tang.
+  Lev:
+    long: 3 Musa
+    short: 3 Ms.
+  Luke:
+    long: Lukas
+    short: Luk.
+  Mal:
+    long: Maleaki
+    short: Mal.
+  Mark:
+    long: Markus
+    short: Mrk.
+  Matt:
+    long: Mateus
+    short: Mat.
+  Mic:
+    long: Mika
+    short: Mik.
+  Nah:
+    long: Nahum
+    short: Nah.
+  Neh:
+    long: Nehemia
+    short: Neh.
+  Num:
+    long: 4 Musa
+    short: 4 Ms.
+  Obad:
+    long: Obaja
+    short: Ob.
+  Phil:
+    long: Pilipi
+    short: Pil.
+  Phlm:
+    long: Pilemon
+    short: Plm.
+  PrAzar:
+    long: TAMB. DANIEL
+    short: T. Dan.
+  Prov:
+    long: Peddah
+    short: Pdh.
+  Ps:
+    long: Psalm
+    short: Ps.
+  Rev:
+    long: Alamat
+    short: Alm.
+  Rom:
+    long: Rom
+    short: Rm.
+  Ruth:
+    long: Rut
+    short: Rut
+  Sir:
+    long: Sirak
+    short: Sir.
+  Song:
+    long: Ende Raja Salomo
+    short: End.
+  Sus:
+    long: Susana
+    short: Sus.
+  Titus:
+    long: Titus
+    short: Tit.
+  Tob:
+    long: Tobit
+    short: Tob.
+  Wis:
+    long: Kep. Salomo
+    short: Kep.
+  Zech:
+    long: Zakharia
+    short: Zak.
+  Zeph:
+    long: Zepanya
+    short: Zep.

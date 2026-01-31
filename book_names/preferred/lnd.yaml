@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: Inul Luk Pun-pun
+    short: 1 In
+  1Cor:
+    long: 1 Korintus
+    short: 1 Kor
+  1John:
+    long: 1 Yahya
+    short: 1 Yah
+  1Kgs:
+    long: Raca'-raca' Luk Pun-pun
+    short: 1 Rac
+  1Pet:
+    long: 1 Petrus
+    short: 1 Pét
+  1Sam:
+    long: Semuil Luk Pun-pun
+    short: 1 Sem
+  1Thess:
+    long: 1 Tesalonika
+    short: 1 Tes
+  1Tim:
+    long: 1 Timotius
+    short: 1 Tim
+  2Chr:
+    long: Inul Luk Kedueh
+    short: 2 In
+  2Cor:
+    long: 2 Korintus
+    short: 2 Kor
+  2John:
+    long: 2 Yahya
+    short: 2 Yah
+  2Kgs:
+    long: Raca'-raca' Luk Kedueh
+    short: 2 Rac
+  2Pet:
+    long: 2 Petrus
+    short: 2 Pét
+  2Sam:
+    long: Semuil Luk Kedueh
+    short: 2 Sem
+  2Thess:
+    long: 2 Tesalonika
+    short: 2 Tes
+  2Tim:
+    long: 2 Timotius
+    short: 2 Tim
+  3John:
+    long: 3 Yahya
+    short: 3 Yah
+  Acts:
+    long: Kekamen Rasul-rasul
+    short: Kek
+  Amos:
+    long: Amos
+    short: Am
+  Col:
+    long: Kolose
+    short: Kol
+  Dan:
+    long: Daniel
+    short: Dan
+  Deut:
+    long: Bada' Ratnan Ukum
+    short: Bad
+  Eccl:
+    long: Lun Luk Mada'
+    short: Mad
+  Eph:
+    long: Epesus
+    short: Ep
+  Esth:
+    long: Ester
+    short: Est
+  Exod:
+    long: Pura'
+    short: Pur
+  Ezek:
+    long: Yehiskiel
+    short: Yeh
+  Ezra:
+    long: Esra
+    short: Esr
+  Gal:
+    long: Galatia
+    short: Gal
+  Gen:
+    long: Pudut
+    short: Pud
+  Hab:
+    long: Habakuk
+    short: Hab
+  Hag:
+    long: Hagai
+    short: Hag
+  Heb:
+    long: Iberani
+    short: Ibr
+  Hos:
+    long: Hosia
+    short: Hos
+  Isa:
+    long: Yesaya
+    short: Yes
+  Jas:
+    long: Yakub
+    short: Yak
+  Jer:
+    long: Yeremia
+    short: Yer
+  Job:
+    long: Ayub
+    short: Ayub
+  Joel:
+    long: Yoel
+    short: Yo
+  John:
+    long: Yahya
+    short: Yah
+  Jonah:
+    long: Yunus
+    short: Yun
+  Josh:
+    long: Yusak
+    short: Yus
+  Jude:
+    long: Yahuda
+    short: Yhu
+  Judg:
+    long: Lun Luk Nguyut
+    short: Ngu
+  Lam:
+    long: Tido Yeremia
+    short: Tid
+  Lev:
+    long: Ukum
+    short: Uk
+  Luke:
+    long: Lukas
+    short: Luk
+  Mal:
+    long: Malaki
+    short: Mal
+  Mark:
+    long: Markus
+    short: Mrk
+  Matt:
+    long: Matius
+    short: Mat
+  Mic:
+    long: Mika
+    short: MiK
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nehemia
+    short: Neh
+  Num:
+    long: Iap
+    short: Iap
+  Obad:
+    long: Obadia
+    short: Ob
+  Phil:
+    long: Pilipi
+    short: Pil
+  Phlm:
+    long: Pilimon
+    short: Plim
+  Prov:
+    long: Bale'
+    short: Bal
+  Ps:
+    long: Nani Ubur
+    short: Nani
+  Rev:
+    long: Bala Luk Linio
+    short: Lin
+  Rom:
+    long: Rum
+    short: Rum
+  Ruth:
+    long: Rut
+    short: Rut
+  Song:
+    long: Nani Selimun
+    short: Sel
+  Titus:
+    long: Titus
+    short: Tit
+  Zech:
+    long: Sekaria
+    short: Sek
+  Zeph:
+    long: Sepania
+    short: Sep

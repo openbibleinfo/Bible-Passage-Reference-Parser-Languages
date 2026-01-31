@@ -1,0 +1,112 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Nyooth
+      - Ny
+  - osis: Ps
+    texts:
+      - Diɛt ke Dabid
+      - Dit
+  - osis: Matt
+    texts:
+      - Mathayo
+      - Math
+  - osis: Mark
+    texts:
+      - Mak
+  - osis: Luke
+    texts:
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jɔn
+  - osis: Acts
+    texts:
+      - Dutuuc
+      - Dut
+  - osis: Rom
+    texts:
+      - Romai
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinthoi
+      - Kor
+  - osis: Col
+    texts:
+      - Kolothai
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatai
+      - Gal
+  - osis: Eph
+    texts:
+      - Epethioi
+      - Ep
+  - osis: Phil
+    texts:
+      - Pilipoi
+      - Pil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thethalonikei
+      - Theth
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotheo
+      - Tim
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Pilemon
+      - Pilem
+  - osis: Heb
+    texts:
+      - Eberuu
+      - Eb
+  - osis: Jas
+    texts:
+      - Jakob
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petero
+      - Pet
+  - osis: Jude
+    texts:
+      - Juda
+translations:
+  - DIET
+  - LEKJOT

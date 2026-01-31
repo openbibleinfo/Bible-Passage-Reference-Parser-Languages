@@ -1,0 +1,269 @@
+variables:
+  first: &first
+    - "1"
+    - "1."
+  second: &second
+    - "2"
+    - "2."
+books:
+  - osis: Gen
+    texts:
+      - 1. Mosebok
+      - 1 Mos
+  - osis: Exod
+    texts:
+      - 2. Mosebok
+      - 2 Mos
+  - osis: Lev
+    texts:
+      - 3. Mosebok
+      - 3 Mos
+  - osis: Num
+    texts:
+      - 4. Mosebok
+      - 4 Mos
+  - osis: Lam
+    texts:
+      - Klagesongane
+      - Klag
+  - osis: Rev
+    texts:
+      - Johannes' openberring
+      - Op
+  - osis: Deut
+    texts:
+      - 5. Mosebok
+      - 5 Mos
+  - osis: Josh
+    texts:
+      - Josva
+      - Jos
+  - osis: Judg
+    texts:
+      - Dommarane
+      - Domarane
+      - Dom
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis: Isa
+    texts:
+      - Jesaja
+      - Jes
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuelsbok
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Kongebok
+      - Kong
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Krønikebok
+      - Krøn
+  - osis: Ezra
+    texts:
+      - Esra
+  - osis: Neh
+    texts:
+      - Nehemja
+      - Neh
+  - osis: Esth
+    texts:
+      - Ester
+      - Est
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Salmane
+      - Sal
+  - osis: Prov
+    texts:
+      - Ordtaka
+      - Ordt
+  - osis: Eccl
+    texts:
+      - Forkynnaren
+      - Fork
+  - osis: Song
+    texts:
+      - Høgsongen
+      - Høgs
+  - osis: Jer
+    texts:
+      - Jeremia
+      - Jer
+  - osis: Ezek
+    texts:
+      - Esekiel
+      - Esek
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan
+  - osis: Hos
+    texts:
+      - Hosea
+      - Hos
+  - osis: Joel
+    texts:
+      - Joel
+  - osis: Amos
+    texts:
+      - Amos
+      - Am
+  - osis: Obad
+    texts:
+      - Obadja
+      - Ob
+  - osis: Jonah
+    texts:
+      - Jona
+  - osis: Mic
+    texts:
+      - Mika
+      - Mi
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakkuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sefanja
+      - Sef
+  - osis: Hag
+    texts:
+      - Haggai
+      - Hag
+  - osis: Zech
+    texts:
+      - Sakarja
+      - Sak
+  - osis: Mal
+    texts:
+      - Malaki
+      - Mal
+  - osis: Matt
+    texts:
+      - Matteus
+      - Matt
+  - osis: Mark
+    texts:
+      - Markus
+      - Mark
+  - osis: Luke
+    texts:
+      - Lukas
+      - Luk
+  - osis: 3John
+    texts:
+      - 3. Johannes
+      - 3 Joh
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Johannes
+      - Joh
+  - osis: Acts
+    texts:
+      - Apostelgjerningane
+      - Apg
+  - osis: Rom
+    texts:
+      - Romarane
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintar
+      - Kor
+  - osis: Col
+    texts:
+      - Kolossarane
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatarane
+      - Gal
+  - osis: Eph
+    texts:
+      - Efesarane
+      - Ef
+  - osis: Phil
+    texts:
+      - Filipparane
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tessalonikar
+      - Tess
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteus
+      - Tim
+  - osis: Titus
+    texts:
+      - Titus
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemon
+      - Filem
+  - osis: Heb
+    texts:
+      - Hebrearane
+      - Hebr
+  - osis: Jas
+    texts:
+      - Jakob
+      - Jak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peter
+      - Pet
+  - osis: Jude
+    texts:
+      - Judas
+      - Jud
+translations:
+  - NO2011NN
+  - NO1938NN
+  - NO1978NN

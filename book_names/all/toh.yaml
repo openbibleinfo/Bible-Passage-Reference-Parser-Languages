@@ -1,0 +1,337 @@
+- osis: Gen
+  texts:
+    - Genesi
+    - Gen
+- osis: Exod
+  texts:
+    - Ekisodha
+    - Eks
+- osis: Lev
+  texts:
+    - Levhi
+    - Levh
+- osis: Num
+  texts:
+    - Mitengo
+    - Mit
+- osis: Sir
+  texts:
+    - Bheni Siraki
+    - Sirk
+- osis: Wis
+  texts:
+    - Guti
+    - Gut
+- osis: Lam
+  texts:
+    - Gililo
+    - Gil
+- osis: Rev
+  texts:
+    - Gutuledwa
+    - Gutu
+- osis: Deut
+  texts:
+    - Dhewuteronome
+    - Dhet
+- osis: Josh
+  texts:
+    - Josuwa
+    - Jos
+- osis: Judg
+  texts:
+    - Valamuli
+    - Val
+- osis: Ruth
+  texts:
+    - Rute
+    - Rut
+- osis: Isa
+  texts:
+    - Isaya
+    - Isa
+- osis: 1Sam
+  texts:
+    - 1 Samuweli
+    - 1 Sam
+    - 1. Samuweli
+    - 1. Sam
+- osis: 2Sam
+  texts:
+    - 2 Samuweli
+    - 2 Sam
+    - 2. Samuweli
+    - 2. Sam
+- osis: 1Kgs
+  texts:
+    - 1 Dzipfhumu
+    - 1 Dzipf
+    - 1. Dzipfhumu
+    - 1. Dzipf
+- osis: 2Kgs
+  texts:
+    - 2 Dzipfhumu
+    - 2 Dzipf
+    - 2. Dzipfhumu
+    - 2. Dzipf
+- osis: 1Chr
+  texts:
+    - 1 Dzikoronika
+    - 1 Dzik
+    - 1. Dzikoronika
+    - 1. Dzik
+- osis: 2Chr
+  texts:
+    - 2 Dzikoronika
+    - 2 Dzik
+    - 2. Dzikoronika
+    - 2. Dzik
+- osis: Ezra
+  texts:
+    - Ezira
+    - Ezr
+- osis: Neh
+  texts:
+    - Nehemiya
+    - Neh
+- osis: Esth
+  texts:
+    - Esiteri
+    - Est
+- osis: Job
+  texts:
+    - Joba
+    - Job
+- osis: Ps
+  texts:
+    - Dzindzimo
+    - Dzind
+- osis: Prov
+  texts:
+    - Mavingu
+    - Mav
+- osis: Eccl
+  texts:
+    - Muhevbudzi
+    - Muh
+- osis: Song
+  texts:
+    - Gizimba
+    - Giz
+- osis: Jer
+  texts:
+    - Jeremiya
+    - Jer
+- osis: Ezek
+  texts:
+    - Ezekiyeli
+    - Ezek
+- osis: Dan
+  texts:
+    - Dhaniyeli
+    - Dhan
+- osis: Hos
+  texts:
+    - Hoseya
+    - Hos
+- osis: Joel
+  texts:
+    - Joyele
+    - Jol
+    - Joy
+- osis: Amos
+  texts:
+    - Amosi
+    - Amos
+- osis: Obad
+  texts:
+    - Obhadhiya
+    - Obhad
+- osis: Jonah
+  texts:
+    - Jona
+    - Jon
+- osis: Mic
+  texts:
+    - Mikeya
+    - MiK
+- osis: Nah
+  texts:
+    - Nahume
+    - Nah
+- osis: Hab
+  texts:
+    - Habhakuka
+    - Habh
+- osis: Zeph
+  texts:
+    - Sofoniya
+    - Sof
+- osis: Hag
+  texts:
+    - Agewu
+    - Agew
+- osis: Zech
+  texts:
+    - Zakariya
+    - Zak
+- osis: Mal
+  texts:
+    - Malakiya
+    - Mal
+- osis: Matt
+  texts:
+    - Matewu
+    - Mat
+- osis: Mark
+  texts:
+    - Marko
+    - Mark
+- osis: Luke
+  texts:
+    - Luka
+    - Luk
+- osis: 1John
+  texts:
+    - 1 Johane
+    - 1 Joh
+    - 1. Johane
+    - 1. Joh
+- osis: 2John
+  texts:
+    - 2 Johane
+    - 2 Joh
+    - 2. Johane
+    - 2. Joh
+- osis: 3John
+  texts:
+    - 3 Johane
+    - 3 Joh
+    - 3. Johane
+    - 3. Joh
+- osis: John
+  texts:
+    - Johane
+    - Joh
+- osis: Acts
+  texts:
+    - Mithumo
+    - Mith
+- osis: Rom
+  texts:
+    - VaRoma
+    - Rom
+- osis: 1Cor
+  texts:
+    - 1 Vakorinto
+    - 1 Kor
+    - 1. Vakorinto
+    - 1. Kor
+- osis: 2Cor
+  texts:
+    - 2 Vakorinto
+    - 2 Kor
+    - 2. Vakorinto
+    - 2. Kor
+- osis: Col
+  texts:
+    - Vakolosi
+    - Kol
+- osis: Gal
+  texts:
+    - Vagalatiya
+    - Gal
+- osis: Eph
+  texts:
+    - VaEfeso
+    - Efes
+    - Efs
+- osis: Phil
+  texts:
+    - Vafilipi
+    - Filp
+    - Fil
+- osis: 1Thess
+  texts:
+    - 1 Vatesalonika
+    - 1 Tes
+    - 1. Vatesalonika
+    - 1. Tes
+- osis: 2Thess
+  texts:
+    - 2 Vatesalonika
+    - 2 Tes
+    - 2. Vatesalonika
+    - 2. Tes
+- osis: 1Tim
+  texts:
+    - 1 Thimoti
+    - 1 Thim
+    - 1. Thimoti
+    - 1. Thim
+- osis: 2Tim
+  texts:
+    - 2 Thimoti
+    - 2 Thim
+    - 2. Thimoti
+    - 2. Thim
+- osis: Titus
+  texts:
+    - Tito
+    - Tit
+- osis: Phlm
+  texts:
+    - Filemoni
+    - Flm
+- osis: Heb
+  texts:
+    - VaHebheru
+    - Hebh
+- osis: Jas
+  texts:
+    - Jakobe
+    - Jak
+- osis: 1Pet
+  texts:
+    - 1 Pedro
+    - 1 Ped
+    - 1. Pedro
+    - 1. Ped
+- osis: 2Pet
+  texts:
+    - 2 Pedro
+    - 2 Ped
+    - 2. Pedro
+    - 2. Ped
+- osis: Jude
+  texts:
+    - Judha
+    - Judh
+- osis: Tob
+  texts:
+    - Tobhiya
+    - Tobh
+- osis: Jdt
+  texts:
+    - Judhite
+    - Judt
+- osis: Bar
+  texts:
+    - Bharuki
+    - Bhar
+- osis: 1Macc
+  texts:
+    - 1 Makabhewu
+    - 1 Mak
+    - 1. Makabhewu
+    - 1. Mak
+- osis: 2Macc
+  texts:
+    - 2 Makabhewu
+    - 2 Mak
+    - 2. Makabhewu
+    - 2. Mak
+- osis: EsthGr
+  texts:
+    - Esiteri
+    - Est

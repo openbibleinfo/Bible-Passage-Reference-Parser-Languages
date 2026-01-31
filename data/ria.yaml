@@ -1,0 +1,264 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Yarung
+      - Yar
+  - osis: Exod
+    texts:
+      - Hinngkhouhmo
+      - Hinng
+  - osis: Lev
+    texts:
+      - Aokchai
+      - Aok
+  - osis: Num
+    texts:
+      - Tukesmaimo
+      - Tuke
+  - osis: Lam
+    texts:
+      - Kahsmang
+      - Kah
+  - osis: Rev
+    texts:
+      - Phnuhsplangmo
+      - Phn
+  - osis: Deut
+    texts:
+      - Tuimungrisnammo
+      - Tuim
+  - osis: Josh
+    texts:
+      - Jihushua
+      - Jihus
+  - osis: Judg
+    texts:
+      - Tuidulnai
+      - Tuid
+  - osis: Ruth
+    texts:
+      - Ruth
+  - osis: Isa
+    texts:
+      - Isaia
+      - Isa
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Raja Rao
+      - Raja
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Jatikautma
+      - Jati
+  - osis: Ezra
+    texts:
+      - Ezra
+      - Ezr
+  - osis: Neh
+    texts:
+      - Nehemia
+      - Neh
+  - osis: Esth
+    texts:
+      - Esther
+      - Est
+  - osis: Job
+    texts:
+      - Youb
+  - osis: Ps
+    texts:
+      - Kuarerchahmung
+      - Kuare
+  - osis: Prov
+    texts:
+      - Mtikautma
+      - Mti
+  - osis: Eccl
+    texts:
+      - Phrungnaiha
+      - Phrung
+  - osis: Song
+    texts:
+      - Potorangzag
+      - Poto
+  - osis: Jer
+    texts:
+      - Jeremia
+      - Jer
+  - osis: Ezek
+    texts:
+      - Jihiskiel
+      - Jihi
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan
+  - osis: Hos
+    texts:
+      - Hosea
+      - Hos
+  - osis: Joel
+    texts:
+      - Joel
+  - osis: Amos
+    texts:
+      - Amos
+      - Amo
+  - osis: Obad
+    texts:
+      - Obadia
+      - Oba
+  - osis: Jonah
+    texts:
+      - Jona
+      - Jon
+  - osis: Mic
+    texts:
+      - Mika
+      - MiK
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakkuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Zephania
+      - Zeph
+  - osis: Hag
+    texts:
+      - Haggai
+      - Hag
+  - osis: Zech
+    texts:
+      - Zekharia
+      - Zek
+  - osis: Mal
+    texts:
+      - Malakhi
+      - Mal
+  - osis: Matt
+    texts:
+      - Mathai
+      - Mat
+  - osis: Mark
+    texts:
+      - Mark
+      - Mrk
+  - osis: Luke
+    texts:
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Johon
+      - Jhn
+  - osis: Acts
+    texts:
+      - Samung
+      - Smg
+  - osis: Rom
+    texts:
+      - Roman
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinth
+      - Kor
+  - osis: Col
+    texts:
+      - Kolosa
+      - Kol
+  - osis: Gal
+    texts:
+      - Galati
+      - Gal
+  - osis: Eph
+    texts:
+      - Ephesi
+      - Eph
+  - osis: Phil
+    texts:
+      - Philippi
+      - Php
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thessalonika
+      - Thes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothi
+      - Tim
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Philimon
+      - Phm
+  - osis: Heb
+    texts:
+      - Hebrai
+  - osis: Jas
+    texts:
+      - Jakob
+      - Jak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pitor
+      - Pit
+  - osis: Jude
+    texts:
+      - Jihuda
+      - Jihu
+translations:
+  - BRUBSI

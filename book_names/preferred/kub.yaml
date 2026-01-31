@@ -1,0 +1,100 @@
+default:
+  1Cor:
+    long: 1 Korinti
+    short: 1 Kor
+  1John:
+    long: 1 Yohana
+  1Pet:
+    long: 1 Bitrus
+  1Thess:
+    long: 1 Tesalonika
+    short: 1Th
+  1Tim:
+    long: 1 Timoti
+    short: 1Ti
+  2Cor:
+    long: 2 Korinti
+  2John:
+    long: 2 Yohana
+  2Pet:
+    long: 2 Bitrus
+  2Thess:
+    long: 2 Tesalonika
+    short: 2Th
+  2Tim:
+    long: 2 Timoti
+    short: 2Ti
+  3John:
+    long: 3 Yohana
+  Acts:
+    long: Wande Atom
+    short: Wat
+  Amos:
+    long: Amos
+    short: Amo
+  Col:
+    long: Kolosi
+    short: Kol
+  Dan:
+    long: Daniyel
+    short: Dan
+  Eph:
+    long: Afisa
+    short: Afi
+  Esth:
+    long: Esita
+    short: Est
+  Exod:
+    long: Itiruye
+    short: Itr
+  Gal:
+    long: Galatiya
+    short: Gal
+  Gen:
+    long: Kucangtsi
+    short: Kuc
+  Heb:
+    long: Mbaibrane
+    short: Mba
+  Jas:
+    long: Yakubu
+    short: Yak
+  John:
+    long: Yohana
+    short: Yoh
+  Jonah:
+    long: Jona
+    short: Jon
+  Jude:
+    long: Yawuda
+    short: Ywd
+  Luke:
+    long: Luka
+    short: Luk
+  Mark:
+    long: Markus
+    short: Mak
+  Matt:
+    long: Matiyu
+    short: Mat
+  Neh:
+    long: Nehemiya
+    short: Neh
+  Phil:
+    long: Filipi
+    short: Flp
+  Phlm:
+    long: Filimon
+    short: Flm
+  Rev:
+    long: Ititatso
+    short: Iti
+  Rom:
+    long: Roma
+    short: Rom
+  Ruth:
+    long: Ruti
+    short: Rut
+  Titus:
+    long: Titus
+    short: Ti

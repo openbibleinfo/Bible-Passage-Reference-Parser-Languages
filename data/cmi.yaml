@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Apocalipsis
+  - osis: Matt
+    texts:
+      - Mateo
+  - osis: Mark
+    texts:
+      - Marcos
+  - osis: Luke
+    texts:
+      - Lucas
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Juan
+  - osis: Acts
+    texts:
+      - Hechos
+  - osis: Rom
+    texts:
+      - Romanos
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corintios
+  - osis: Col
+    texts:
+      - Colosenses
+  - osis: Gal
+    texts:
+      - Gálatas
+  - osis: Eph
+    texts:
+      - Efesios
+  - osis: Phil
+    texts:
+      - Filipenses
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonicenses
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filemón
+  - osis: Heb
+    texts:
+      - Hebreos
+  - osis: Jas
+    texts:
+      - Santiago
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pedro
+  - osis: Jude
+    texts:
+      - Judas
+translations:
+  - CMI

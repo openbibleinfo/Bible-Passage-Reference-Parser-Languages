@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Sungson
+    short: 1Ss
+  1Cor:
+    long: 1 Korinthu
+    short: 1Kr
+  1John:
+    long: 1 Yohan
+    short: 1Yh
+  1Kgs:
+    long: 1 Hwankti
+    short: 1Hw
+  1Pet:
+    long: 1 Petru
+    short: 1Pt
+  1Sam:
+    long: 1 Samuel
+    short: 1Sa
+  1Thess:
+    long: 1 Thesaloni
+    short: 1Th
+  1Tim:
+    long: 1 Timothi
+    short: 1Tm
+  2Chr:
+    long: 2 Sungson
+    short: 2Ss
+  2Cor:
+    long: 2 Korinthu
+    short: 2Kr
+  2John:
+    long: 2 Yohan
+    short: 2Yh
+  2Kgs:
+    long: 2 Hwankti
+    short: 2Hw
+  2Pet:
+    long: 2 Petru
+    short: 2Pt
+  2Sam:
+    long: 2 Samuel
+    short: 2Sa
+  2Thess:
+    long: 2 Thesaloni
+    short: 2Th
+  2Tim:
+    long: 2 Timothi
+    short: 2Tm
+  3John:
+    long: 3 Yohan
+    short: 3Yh
+  Acts:
+    long: Lvgyo
+    short: Lgy
+  Amos:
+    long: Amo
+    short: Amo
+  Col:
+    long: Kolose
+    short: Kol
+  Dan:
+    long: Daniel
+    short: Dan
+  Deut:
+    long: Lyi
+    short: Lyi
+  Eccl:
+    long: Joeui
+    short: Joe
+  Eph:
+    long: Ephesu
+    short: Eph
+  Esth:
+    long: Esther
+    short: Est
+  Exod:
+    long: Dyung
+    short: Dyu
+  Ezek:
+    long: Ezekiel
+    short: Ezk
+  Ezra:
+    long: Ezra
+    short: Ezr
+  Gal:
+    long: Galati
+    short: Gal
+  Gen:
+    long: Vpom
+    short: Vpm
+  Hab:
+    long: Habakuk
+    short: Hab
+  Hag:
+    long: Hagai
+    short: Hag
+  Heb:
+    long: Hebre
+    short: Heb
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Esaia
+    short: Esa
+  Jas:
+    long: Yaku
+    short: Yak
+  Jer:
+    long: Yeremia
+    short: Yer
+  Job:
+    long: Yoba
+    short: Yob
+  Joel:
+    long: Yoel
+    short: Yol
+  John:
+    long: Yohan
+    short: Yoh
+  Jonah:
+    long: Yona
+    short: Yon
+  Josh:
+    long: Yoshua
+    short: Yosh
+  Jude:
+    long: Yuda
+    short: Yud
+  Judg:
+    long: Soetuon
+    short: Soe
+  Lam:
+    long: Kuk
+    short: Kuk
+  Lev:
+    long: Lewi
+    short: Lew
+  Luke:
+    long: Luka
+    short: Luk
+  Mal:
+    long: Malakhi
+    short: Mal
+  Mark:
+    long: Makho
+    short: Mak
+  Matt:
+    long: Mathe
+    short: Mat
+  Mic:
+    long: Mikha
+    short: MiK
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nehemia
+    short: Neh
+  Num:
+    long: Gyung
+    short: Gyu
+  Obad:
+    long: Obadia
+    short: Oba
+  Phil:
+    long: Philipi
+    short: Php
+  Phlm:
+    long: Philemon
+    short: Phm
+  Prov:
+    long: Sodang
+    short: Sod
+  Ps:
+    long: Chungh
+    short: Chd
+  Rev:
+    long: Nyoqnyvng
+    short: Nyoq
+  Rom:
+    long: Roma
+    short: Rom
+  Ruth:
+    long: Rutha
+    short: Rut
+  Song:
+    long: Solomon
+    short: SmL
+  Titus:
+    long: Titu
+    short: Tit
+  Zech:
+    long: Zekharia
+    short: Zek
+  Zeph:
+    long: Zephania
+    short: Zep

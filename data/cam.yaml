@@ -1,0 +1,140 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Pii Beetihi
+      - Pb
+  - osis: Matt
+    texts:
+      - Mataio
+      - Mat
+  - osis: Mark
+    texts:
+      - Maréko
+      - Mar
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis: 1John
+    texts:
+      - Io1
+  - osis: 2John
+    texts:
+      - Io2
+  - osis: 3John
+    texts:
+      - 3 Ioane
+      - Io3
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Ioane
+  - osis: John
+    texts:
+      - Ioane
+      - Ioa
+  - osis: Acts
+    texts:
+      - Apostolo
+      - Apo
+  - osis: Rom
+    texts:
+      - Roma
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korénit
+  - osis: 1Cor
+    texts:
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - 2Ko
+  - osis: Col
+    texts:
+      - Kolosé
+      - Kol
+  - osis: Gal
+    texts:
+      - Galat
+      - Gal
+  - osis: Eph
+    texts:
+      - Éféso
+      - Éfé
+  - osis: Phil
+    texts:
+      - Filipi
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tésalonik
+  - osis: 1Thess
+    texts:
+      - 1Ts
+  - osis: 2Thess
+    texts:
+      - 2Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoté
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filémon
+      - Fil
+  - osis: Heb
+    texts:
+      - Ébéru
+      - Ébé
+  - osis: Jas
+    texts:
+      - Cang
+      - Cag
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pétéru
+  - osis: 1Pet
+    texts:
+      - 1Pt
+  - osis: 2Pet
+    texts:
+      - 2Pt
+  - osis: Jude
+    texts:
+      - Jude
+      - Jud
+translations:
+  - CAM

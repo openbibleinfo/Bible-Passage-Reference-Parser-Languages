@@ -1,0 +1,166 @@
+variables:
+  first: &first
+    - "1"
+    - Pa
+    - په
+  second: &second
+    - Pa
+    - په
+books:
+  - osis: Gen
+    texts:
+      - Pédáesh
+      - پێدایش
+      - Péd
+  - osis: Exod
+    texts:
+      - Dargwaz
+      - دَرگوَز
+  - osis: Rev
+    texts:
+      - اِلهام
+      - Elhám
+  - osis: Ps
+    texts:
+      - Zabur
+      - زَبور
+  - osis: Dan
+    texts:
+      - Dányál
+      - دانیال
+  - osis: Matt
+    texts:
+      - Mattá
+      - مَتّا
+      - Mat
+  - osis: Mark
+    texts:
+      - Markás
+      - مَرکاس
+      - Mar
+  - osis: Luke
+    texts:
+      - Luká
+      - لوکا
+      - Luk
+  - osis: 1John
+    texts:
+      - Yuhannáay Awali Kágad
+      - یوهَنّائے ائولی کاگد
+      - یوهَنّا1
+      - Yuh1
+  - osis: 2John
+    texts:
+      - Yuhannáay Domi Kágad
+      - یوهَنّائے دومی کاگد
+      - یوهَنّا2
+      - Yuh2
+  - osis: 3John
+    texts:
+      - Yuhannáay Saymi Kágad
+      - یوهَنّائے سئیمی کاگد
+      - یوهَنّا3
+      - Yuh3
+  - osis: John
+    texts:
+      - Yuhanná
+      - یوهَنّا
+      - Yuh
+  - osis: Acts
+    texts:
+      - Kásedáni Kár
+      - کاسِدانی کار
+      - Kár
+      - کار
+  - osis: Rom
+    texts:
+      - Pulosay kágad pa Rumián
+      - پولُسئے کاگد په رومیان
+      - رومیان
+      - Rum
+  - osis: Gal
+    texts:
+      - Pa Galátián Pulosay kágad
+      - په گَلاتیان پولُسئے کاگد
+      - Galátián
+      - گَلاتیان
+  - osis: Phil
+    texts:
+      - Pa Pilipián Pulosay kágad
+      - په پیلیپیان پولُسئے کاگد
+      - Pilipián
+      - پیلیپیان
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesálunikián Pulosay domi kágad
+      - تِسالونیکیان پولُسئے دومی کاگد
+  - osis: 2Thess
+    texts:
+      - 2 Tesálunikián
+      - 2 تِسالونیکیان
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Tesálunikián Pulosay awali kágad
+      - تِسالونیکیان پولُسئے ائولی کاگد
+      - Tesálunikián
+      - تِسالونیکیان
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Timutáusá Pulosay awali kágad
+      - تیموتاووسا پولُسئے ائولی کاگد
+      - Timutáus
+  - osis: 1Tim
+    texts:
+      - 1تیموتاووس
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timutáusá Pulosay domi kágad
+      - تیموتاووسا پولُسئے دومی کاگد
+  - osis: 2Tim
+    texts:
+      - 2تیموتاووس
+      - 2Timutáus
+  - osis: Titus
+    texts:
+      - Pa Titusá Pulosay kágad
+      - په تیتوسا پولُسئے کاگد
+      - Titus
+      - تیتوس
+  - osis: Phlm
+    texts:
+      - Pa Pilimuná Pulosay kágad
+      - په پیلیمونا پولُسئے کاگد
+      - Pilimun
+      - پیلیمون
+  - osis: Jas
+    texts:
+      - Ákub
+      - آکوب
+  - osis: 1Pet
+    texts:
+      - پِتْرُسئے ائولی کاگد
+      - Petrosay Awal Kágad
+      - پِتْرُس1
+      - Pet1
+  - osis: 2Pet
+    texts:
+      - Petrosay Domi Kágad
+      - پِتْرُسئے دومی کاگد
+      - پِتْرُس2
+      - Pet2
+  - osis: Jude
+    texts:
+      - Yahudáay Kágad
+      - یَهودائے کاگد
+      - یَهودا
+      - Yah
+translations:
+  - BAL

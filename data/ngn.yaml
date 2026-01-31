@@ -1,0 +1,138 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Pwede abwa
+      - Pwe
+  - osis: Matt
+    texts:
+      - Matyo
+      - Mat
+  - osis: Mark
+    texts:
+      - Mak
+  - osis: Luke
+    texts:
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Ey
+  - osis: 2John
+    texts:
+      - 2Ey
+  - osis: 3John
+    texts:
+      - 3 Eyɔɔ
+      - 3Ey
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Eyɔɔ
+  - osis: John
+    texts:
+      - Eyɔɔ
+      - Eyɔ
+  - osis: Acts
+    texts:
+      - Eleabwa
+      - Ele
+  - osis: Rom
+    texts:
+      - Bɔ Rom
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kɔrɛn
+  - osis: 1Cor
+    texts:
+      - 1Kɔ
+  - osis: 2Cor
+    texts:
+      - 2Kɔ
+  - osis: Col
+    texts:
+      - Bɔ Kolose
+      - Kol
+  - osis: Gal
+    texts:
+      - Galashiya
+      - Gal
+  - osis: Eph
+    texts:
+      - Bɔ Efɛsɔs
+      - Efɛ
+  - osis: Phil
+    texts:
+      - Bɔ Filipi
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Bɔ Tɛsalonika
+  - osis: 1Thess
+    texts:
+      - 1Tɛ
+  - osis: 2Thess
+    texts:
+      - 2Tɛ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Tayitɔs
+      - Tay
+  - osis: Phlm
+    texts:
+      - Filemɔn
+      - Fim
+  - osis: Heb
+    texts:
+      - Hibrus
+      - Hib
+  - osis: Jas
+    texts:
+      - Jɛms
+      - Jɛm
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petoro
+  - osis: 1Pet
+    texts:
+      - 1Pe
+  - osis: 2Pet
+    texts:
+      - 2Pe
+  - osis: Jude
+    texts:
+      - Jud
+translations:
+  - NBT

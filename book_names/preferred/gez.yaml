@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: ኀበ ሰብአ ቆሮንቶስ 1
+    short: 1ቆሮ.
+  1John:
+    long: መልእክተ ዮሐንስ ሐዋርያ 1
+    short: 1ዮሐ.
+  1Pet:
+    long: መልእክተ ጴጥሮስ 1
+    short: 1ጴጥ.
+  1Thess:
+    long: ኀበ ሰብአ ተሰሎንቄ 1
+    short: 1ተሰ.
+  1Tim:
+    long: ኀበ ጢሞቴዎስ 1
+    short: 1ጢሞ.
+  2Cor:
+    long: ኀበ ሰብአ ቆሮንቶስ 2
+    short: 2ቆሮ.
+  2John:
+    long: መልእክተ ዮሐንስ 2
+    short: 2ዮሐ.
+  2Pet:
+    long: መልእክተ ጴጥሮስ 2
+    short: 2ጴጥ.
+  2Thess:
+    long: ኀበ ሰብአ ተሰሎንቄ 2
+    short: 2ተሰ.
+  2Tim:
+    long: ኀበ ጢሞቴዎስ 2
+    short: 2ጢሞ.
+  3John:
+    long: መልእክተ ዮሐንስ 3
+    short: 3ዮሐ.
+  Acts:
+    long: ግብረ ሐዋርያት
+    short: ግብረ ሐዋ.
+  Col:
+    long: ኀበ ሰብአ ቈላስይስ
+    short: ቈላ.
+  Eph:
+    long: ኀበ ሰብአ ኤፌሶን
+    short: ኤፌ.
+  Gal:
+    long: ኀበ ሰብአ ገላትያ
+    short: ገላ.
+  Heb:
+    long: ኀበ ሰብእ ዕብራውያን
+    short: ዕብ.
+  Jas:
+    long: መልእክተ ያዕቆብ ሐዋርያ
+    short: ያዕ.
+  John:
+    long: ወንጌል ዘዮሐንስ
+    short: ዮሐ.
+  Jude:
+    long: መልእክተ ይሁዳ
+    short: ይሁዳ
+  Luke:
+    long: ወንጌል ዘሉቃስ
+    short: ሉቃ.
+  Mark:
+    long: ወንጌል ዘማርቆስ
+    short: ማር.
+  Matt:
+    long: ወንጌል ዘማቴዎስ
+    short: ማቴ.
+  Phil:
+    long: ኀበ ሰብአ ፊልጵስዩስ
+    short: ፊልጵ.
+  Phlm:
+    long: ኀበ ፊልሞና
+    short: ፊል.
+  Rev:
+    long: ራእዩ ለዮሐንስ
+    short: ራእ.
+  Rom:
+    long: ኀበ ሰብአ ሮሜ
+    short: ሮሜ
+  Titus:
+    long: ኀበ ቲቶ
+    short: ቲቶ

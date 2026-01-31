@@ -1,0 +1,128 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Pewaliꞌána
+      - Pew.
+  - osis: Rev
+    texts:
+      - Pampetudeꞌá
+      - Pamp.
+  - osis: Ruth
+    texts:
+      - Ruti
+  - osis: Esth
+    texts:
+      - Eteꞌ
+  - osis: Dan
+    texts:
+      - Danieli
+      - Dan.
+  - osis: Jonah
+    texts:
+      - Iunu
+  - osis: Matt
+    texts:
+      - Matiu
+      - Mat.
+  - osis: Mark
+    texts:
+      - Marakusi
+      - Mrk.
+  - osis: Luke
+    texts:
+      - Lukasi
+      - Luk.
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Iohane
+      - Ioh.
+  - osis: Acts
+    texts:
+      - Surona Pueꞌ Iesu
+      - Suro
+  - osis: Rom
+    texts:
+      - Roma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintu
+      - Kor.
+  - osis: Col
+    texts:
+      - Kolose
+      - Kol.
+  - osis: Gal
+    texts:
+      - Galatia
+      - Gal.
+  - osis: Eph
+    texts:
+      - Epesu
+      - Ep.
+  - osis: Phil
+    texts:
+      - Pilipi
+      - Plp.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonika
+      - Tes.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotiu
+      - Tim.
+  - osis: Titus
+    texts:
+      - Titu
+  - osis: Phlm
+    texts:
+      - Pilemo
+      - Pil.
+  - osis: Heb
+    texts:
+      - Iberani
+      - Ibr.
+  - osis: Jas
+    texts:
+      - Iakobu
+      - Iak.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peturuꞌ
+      - Pet.
+  - osis: Jude
+    texts:
+      - Iudasiꞌ
+      - Iud.
+translations:
+  - NTBEP

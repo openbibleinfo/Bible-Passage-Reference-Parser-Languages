@@ -1,0 +1,133 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - प्रकाशितवाक्य
+      - પ્રકટીકરણ
+      - પ્રક.
+  - osis: Matt
+    texts:
+      - માથ્થી
+      - मत्ती
+      - માથ.
+  - osis: Mark
+    texts:
+      - मरकुस
+      - માર્ક
+  - osis: Luke
+    texts:
+      - लूका
+      - લુક.
+      - લુક
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - यहुन्ना
+      - યોહાન
+      - યોહ.
+  - osis: Acts
+    texts:
+      - પ્રેરિતસા કરેલ કામ
+      - प्रेरितन
+      - પ્રે.કૃ.
+  - osis: Rom
+    texts:
+      - रोमियो
+      - રોમ.
+      - રોમ
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - कुरन्थियो
+      - કોરિંથી
+      - કોરિં.
+  - osis: Col
+    texts:
+      - कुलुस्सियो
+      - કલોસી
+      - કલો.
+  - osis: Gal
+    texts:
+      - गलातिया
+      - ગલાતી
+      - ગલ.
+  - osis: Eph
+    texts:
+      - इफिसियो
+      - એફેસી
+      - એફે.
+  - osis: Phil
+    texts:
+      - फिलिप्पियो
+      - ફિલિપી
+      - ફિલિ.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - थिस्सलुनीकियो
+      - થેસલોનિકી
+      - થેસ.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - तीमुथियुस
+      - તિમોથી
+      - તિમ.
+  - osis: Titus
+    texts:
+      - तितुस
+      - તિત.
+      - તિતસ
+  - osis: Phlm
+    texts:
+      - फिलेमोन
+      - ફિલેમોન
+      - ફિલે.
+  - osis: Heb
+    texts:
+      - इब्रानियों
+      - હિબ્રૂ
+      - હિબ.
+  - osis: Jas
+    texts:
+      - याकूब
+      - યાકુબ
+      - યાકૂ.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - पतरस
+      - પિત.
+      - પિતર
+  - osis: Jude
+    texts:
+      - यहूदा
+      - યહૂદા
+      - યહૂ.
+translations:
+  - NTDII20
+  - DHNNT

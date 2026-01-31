@@ -1,0 +1,584 @@
+variables:
+  first: &first
+    - "1"
+    - "1."
+    - I
+    - I.
+    - K
+    - S.
+  second: &second
+    - "2"
+    - "2."
+    - II
+    - II.
+    - K
+    - S.
+books:
+  - osis: Gen
+    texts:
+      - I. Mosessove Bvqve.
+      - 1 Mojzes
+      - I Mojzes
+      - 1 Mz
+      - Gen.
+  - osis: Exod
+    texts:
+      - II. Mosessove Bvqve.
+      - II Mojzes
+      - 2 Mojzes
+      - Exod.
+      - 2 Mz
+  - osis: Bel
+    texts:
+      - Od Bela v'Babeli.
+      - Bel.
+  - osis: Lev
+    texts:
+      - III. Mosessove Bvqve.
+      - III Mojzes
+      - 3 Mojzes
+      - Levit.
+      - 3 Mz
+  - osis: Num
+    texts:
+      - Iiii. Mosessove Bvqve.
+      - IV Mojzes
+      - 4 Mojzes
+      - 4 Mz
+      - Num.
+  - osis: Sir
+    texts:
+      - Iesvs Syrah.
+      - Syrach.
+      - Sirah
+      - Sir
+  - osis: Wis
+    texts:
+      - Salomonova Modrvst.
+      - Modrost
+      - Sap.
+      - Mdr
+  - osis: Lam
+    texts:
+      - Ieremiavv Klagovanie.
+      - Žalostinke
+      - Lam.
+      - Žal
+  - osis: EpJer
+    texts:
+      - Jeremijevo pismo
+      - JerP
+  - osis: Rev
+    texts:
+      - S. Ioannesa Resodivenie.
+      - Razodetje
+      - Oznanost
+      - Apoc.
+      - Ozn
+      - Raz
+  - osis: PrMan
+    texts:
+      - Manassova Molitov.
+      - Man.
+  - osis: Deut
+    texts:
+      - V. Mosessove Bvqve.
+      - 5 Mojzes
+      - V Mojzes
+      - Deut.
+      - 5 Mz
+  - osis: Josh
+    texts:
+      - Iosvove Bvqve.
+      - Jozue
+      - Ioſ.
+      - Joz
+  - osis: Judg
+    texts:
+      - Bvqve Teh Rihtariev.
+      - Sodniki
+      - Iudic.
+      - Sod
+  - osis: Ruth
+    texts:
+      - Bvqve Te Rvthe.
+      - Ruta
+      - Ruth
+      - Rut
+  - osis: Isa
+    texts:
+      - Iesaias Prerok.
+      - Izaija
+      - Iesa.
+      - Iz
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samvelove Bvqve.
+      - Samuel
+      - Sam.
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Bvqve Teh Krailev.
+      - Kralji
+      - Reg.
+      - Kr
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Bvqve Te Hronike.
+      - Kroniška
+      - Letopisi
+      - Par.
+      - Krn
+      - Let
+  - osis: Ezra
+    texts:
+      - Esrave Bvqve.
+      - Esdr.
+      - Ezdra
+      - Ezra
+      - Ezr
+  - osis: Neh
+    texts:
+      - Nehemiave Bvqve.
+      - Nehemija
+      - Nehem.
+      - Neh
+  - osis: Job
+    texts:
+      - Iobove Bvqve.
+      - Iob.
+      - Job
+  - osis: Ps
+    texts:
+      - Knige žoltárske
+      - Psalter.
+      - Psalmi
+      - Pſal.
+      - Žolt
+      - Ps
+  - osis: PrAzar
+    texts:
+      - Molitev Aſarja
+  - osis: Prov
+    texts:
+      - Salomonove Pripvvisti.
+      - Pregovori
+      - Prov.
+      - Prg
+  - osis: Eccl
+    texts:
+      - Salomonov Predigar.
+      - Propovednik
+      - Pridigar
+      - Eccl.
+      - Prd
+      - Prp
+  - osis: SgThree
+    texts:
+      - Peissen Teh Treh Mosh
+  - osis: Song
+    texts:
+      - Salomonove Vissoke Peisni.
+      - Visoka pesem
+      - Cant.
+      - Vp
+  - osis: Jer
+    texts:
+      - Ieremias Prerok.
+      - Jeremija
+      - Ierem.
+      - Jer
+  - osis: Ezek
+    texts:
+      - Ezekiel Prerok.
+      - Ezekijel
+      - Ezekiel
+      - Ezech.
+      - Ezk
+  - osis: Hos
+    texts:
+      - Oseas Prerok.
+      - Oſee.
+      - Ozea
+      - Ozej
+      - Oz
+  - osis: Joel
+    texts:
+      - Ioel Prerok.
+      - Ioel.
+      - Joel
+      - Jl
+  - osis: Amos
+    texts:
+      - Amos Prerok.
+      - Amos.
+      - Amos
+      - Am
+  - osis: Obad
+    texts:
+      - Obadia Prerok.
+      - Obadija
+      - Abdija
+      - Abd.
+      - Abd
+      - Obd
+  - osis: Jonah
+    texts:
+      - Ionas Prerok.
+      - Iona.
+      - Jona
+      - Jon
+  - osis: Mic
+    texts:
+      - Miha Prerok.
+      - Mich.
+      - Mihej
+      - Miha
+      - Mih
+  - osis: Nah
+    texts:
+      - Nahvm Prerok.
+      - Nach.
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakvk Prerok.
+      - Habakuk
+      - Hab.
+      - Hab
+  - osis: Zeph
+    texts:
+      - Zeffania Prerok.
+      - Sofonija
+      - Zefanija
+      - Soph.
+      - Sof
+      - Zef
+  - osis: Hag
+    texts:
+      - Haggai Prerok.
+      - Hagaj
+      - Agej
+      - Agg.
+      - Hag
+      - Ag
+  - osis: Zech
+    texts:
+      - Saharia Prerok.
+      - Zaharija
+      - Zach.
+      - Zah
+  - osis: Mal
+    texts:
+      - Maleahi Prerok.
+      - Malahija
+      - Mal.
+      - Mal
+  - osis: Matt
+    texts:
+      - S. Mattevsha Evangeli.
+      - Sv. Matevž
+      - Matth.
+      - Mátaj
+      - Matej
+      - Mát
+      - Mt
+  - osis: Mark
+    texts:
+      - S. Marka Evangeli.
+      - Sv. Marko
+      - Marc.
+      - Marko
+      - Mark
+      - Mr
+  - osis: Luke
+    texts:
+      - S. Lvkesha Evangeli.
+      - Sv. Lukež
+      - Lükáč
+      - Luc.
+      - Luka
+      - Lük
+      - Lk
+  - osis: 3John
+    texts:
+      - S. Ioannesa III. Lyst.
+      - III Janez
+      - III Jánoš
+      - 3. Ioan.
+      - 3. Janez
+      - 3 Janez
+      - 3 Jan
+      - 3 Jn
+  - osis: John
+    texts:
+      - S. Ioannesa Evangeli.
+      - Sv. Janez
+      - Ioan.
+      - Janez
+      - Jánoš
+      - Ján
+      - Jn
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - Ioannesa I. Lyst.
+      - Ioan.
+      - Janez
+      - Jánoš
+      - Jan
+      - Jn
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - Ioannesa II. Lyst.
+      - Ioan.
+      - Janez
+      - Jánoš
+      - Jan
+      - Jn
+  - osis: Acts
+    texts:
+      - Dianie Teh Apostolov.
+      - Apostolska dela
+      - Dejanja
+      - Djánje
+      - Act.
+      - Dján
+      - Apd
+  - osis: Rom
+    texts:
+      - S. Pavla Lyst Na Rimlane.
+      - K Rimláncom
+      - Rimljanom
+      - Rom.
+      - Rim
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Pavla I. Lyst Na Korinterie.
+      - Korintušáncom I
+      - Korinčanom
+      - Cor.
+      - Kor
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Pavla II. Lyst Na Korinterie.
+      - Korintušáncom II
+      - Korinčanom
+      - Cor.
+      - Kor
+  - osis: Col
+    texts:
+      - S. Pavla Lyst Na Kolosserie.
+      - K Kološšáncom
+      - Kološanom
+      - Coloß.
+      - Kol
+  - osis: Gal
+    texts:
+      - S. Pavla Lyst Na Galaterie.
+      - K Galatáncom
+      - Galačanom
+      - Galatom
+      - Gal.
+      - Gal
+  - osis: Eph
+    texts:
+      - S. Pavla Lyst Na Epheserie.
+      - K Efezáncom
+      - Efežanom
+      - Eph.
+      - Ef
+  - osis: Phil
+    texts:
+      - S. Pavla Lyst Na Philipperie.
+      - K Filippéncom
+      - Filipljanom
+      - Philipp.
+      - Fil
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Pavla I. Lyst Na Tessaloniherie.
+      - Tessaloničáncom I
+      - Tesaloničanom
+      - Theß.
+      - Tes
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Pavla II. Lyst Na Tessaloniherie.
+      - Tessaloničáncom II
+      - Tesaloničanom
+      - Theß.
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Pavla I. Lyst Na Timotea.
+      - Timoteuši I
+      - Timoteju
+      - Timoth.
+      - Tim
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Pavla II. Lyst Na Timotea.
+      - Timoteuši II
+      - Timoteju
+      - Timoth.
+      - Tim
+  - osis: Titus
+    texts:
+      - S. Pavla Lyst Na Tita.
+      - K Tituši
+      - Tit.
+      - Titu
+      - Tit
+  - osis: Phlm
+    texts:
+      - S. Pavla Lyst Na Philemona.
+      - K Filemoni
+      - Filemonu
+      - Philem.
+      - Filem
+      - Flm
+  - osis: Heb
+    texts:
+      - Lyst Na Ebreerie.
+      - Hebrejcem
+      - K Židovom
+      - Heb.
+      - Heb
+      - Žid
+  - osis: Jas
+    texts:
+      - S. Iacoba Lyst.
+      - Iacob.
+      - Jakob
+      - Jakub
+      - Jak
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - Petra I. Lyst.
+      - Peter
+      - Pet.
+      - Pet
+      - Pt
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petra II. Lyst.
+      - Peter
+      - Pet.
+      - Pet
+      - Pt
+  - osis: Jude
+    texts:
+      - S. Ivdesha Lyst.
+      - Iudae.
+      - Júdaš
+      - Juda
+      - Jud
+      - Júd
+  - osis: Tob
+    texts:
+      - Tobieve Bvqve.
+      - Tobija
+      - Tobit
+      - Tob.
+      - Tob
+  - osis: Jdt
+    texts:
+      - Ivditine Bvqve.
+      - Iudith.
+      - Judita
+      - Jdt
+  - osis: Bar
+    texts:
+      - Barvh Prerok.
+      - Baruch.
+      - Baruh
+      - Bar
+  - osis: Sus
+    texts:
+      - Istoria Od Svsanne Inv Daniela.
+      - Sus.
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+    texts:
+      - Bvqve Teh Machabeeriev.
+      - Makabejci
+      - Mach.
+      - Mkb
+  - osis: AddDan
+    texts:
+      - Add. Dan.
+  - osis: AddEsth
+    texts:
+      - Shtvki K'esteri.
+      - Add. Eſter.
+  - osis: DanGr
+    texts:
+      - Daniel (dodatki)
+      - Danijel (2. del)
+      - DanD
+  - osis: Dan
+    texts:
+      - Daniel Prerok.
+      - Danijel
+      - Daniel
+      - Dan.
+      - Dan
+  - osis: EsthGr
+    texts:
+      - Estera (2. del)
+      - Estera (grška)
+      - EstD
+      - EstG
+  - osis: Esth
+    texts:
+      - Esterine Bvqve.
+      - Eſter.
+      - Estera
+      - Est
+translations:
+  - CHR
+  - DAL1584
+  - EKU
+  - SJV
+  - PREK28
+  - SSP
+  - SLNT
+  - ZJ

@@ -1,0 +1,111 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Nepalappâ
+      - Nepa
+  - osis: Matt
+    texts:
+      - Mattiu
+      - Mat
+  - osis: Mark
+    texts:
+      - Markus
+      - Mar
+  - osis: Luke
+    texts:
+      - Lukas
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Kuan
+      - Kn
+  - osis: Acts
+    texts:
+      - Kingnguá
+      - King
+  - osis: Rom
+    texts:
+      - Roma
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinto
+      - Kor
+  - osis: Col
+    texts:
+      - Kolosi
+      - Kol
+  - osis: Gal
+    texts:
+      - Galasia
+      - Gal
+  - osis: Eph
+    texts:
+      - Epeso
+      - Epe
+  - osis: Phil
+    texts:
+      - Pilippay
+      - Pilp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tessalonika
+      - Tess
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotio
+      - Tim
+  - osis: Titus
+    texts:
+      - Titò
+      - Tit
+  - osis: Phlm
+    texts:
+      - Pilemon
+      - Pilm
+  - osis: Heb
+    texts:
+      - Kebru
+      - Keb
+  - osis: Jas
+    texts:
+      - Ime
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Eduru
+      - Edu
+  - osis: Jude
+    texts:
+      - Jud
+translations:
+  - ATT

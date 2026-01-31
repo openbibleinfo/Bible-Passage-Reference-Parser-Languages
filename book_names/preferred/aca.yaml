@@ -1,0 +1,31 @@
+default:
+  1Thess:
+    long: 1 Tesalonicenses
+    short: 1 Ts
+  1Tim:
+    long: 1 Timoteo
+    short: 1 Tm
+  2Thess:
+    long: 2 Tesalonicenses
+    short: 2 Ts
+  2Tim:
+    long: 2 Timoteo
+    short: 2 Tm
+  Acts:
+    long: Hechos
+    short: Hch
+  Eph:
+    long: Efesios
+    short: Ef
+  Jude:
+    long: Judas
+    short: Jd
+  Luke:
+    long: Lucas
+    short: Lc
+  Mark:
+    long: Marcos
+    short: Mr
+  Matt:
+    long: Mateo
+    short: Mt

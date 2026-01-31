@@ -1,0 +1,543 @@
+default:
+  1Chr:
+    long: 1. Laiku
+    short: 1L
+  1Cor:
+    long: 1. Korintiešiem
+    short: 1Kor
+  1Esd:
+    long: 1 Esdras (Greek)
+    short: 2Ezr
+  1John:
+    long: 1. Jāņa
+    short: 1Jņ
+  1Kgs:
+    long: 1. Ķēniņu
+    short: 1Ķēn
+  1Macc:
+    long: 1 Maccabees
+    short: 1Mak
+  1Pet:
+    long: 1. Pētera
+    short: 1Pēt
+  1Sam:
+    long: 1. Samuēla
+    short: 1Sam
+  1Thess:
+    long: 1. Tesalonīkiešiem
+    short: 1Tes
+  1Tim:
+    long: 1. Timotejam
+    short: 1Tim
+  2Chr:
+    long: 2. Laiku
+    short: 2L
+  2Cor:
+    long: 2. Korintiešiem
+    short: 2Kor
+  2John:
+    long: 2. Jāņa
+    short: 2Jņ
+  2Kgs:
+    long: 2. Ķēniņu
+    short: 2Ķēn
+  2Macc:
+    long: 2 Maccabees
+    short: 2Mak
+  2Pet:
+    long: 2. Pētera
+    short: 2Pēt
+  2Sam:
+    long: 2. Samuēla
+    short: 2Sam
+  2Thess:
+    long: 2. Tesalonīkiešiem
+    short: 2Tes
+  2Tim:
+    long: 2. Timotejam
+    short: 2Tim
+  3John:
+    long: 3. Jāņa
+    short: 3Jņ
+  3Macc:
+    long: 3 Maccabees
+    short: 3Mak
+  4Macc:
+    long: 4 Maccabees
+    short: 4Mak
+  Acts:
+    long: Apustuļu darbi
+    short: Apd
+  Amos:
+    long: Amosa
+    short: Am
+  Bar:
+    long: Baruch
+    short: Bar
+  Col:
+    long: Kolosiešiem
+    short: Kol
+  Dan:
+    long: Daniēla
+    short: Dan
+  Deut:
+    long: 5. Mozus
+    short: 5Moz
+  Eccl:
+    long: Mācītājs
+    short: Māc
+  EpJer:
+    long: Letter of Jeremiah
+    short: Jerv
+  Eph:
+    long: Efesiešiem
+    short: Ef
+  Esth:
+    long: Esteres
+    short: Est
+  EsthGr:
+    long: Esther Greek
+    short: EstS
+  Exod:
+    long: 2. Mozus
+    short: 2Moz
+  Ezek:
+    long: Ecehiēla
+    short: Ech
+  Ezra:
+    long: Ezras
+    short: Ezr
+  Gal:
+    long: Galatiešiem
+    short: Gal
+  Gen:
+    long: 1. Mozus
+    short: 1Moz
+  Hab:
+    long: Habakuka
+    short: Hab
+  Hag:
+    long: Hagaja
+    short: Hag
+  Heb:
+    long: Ebrejiem
+    short: Ebr
+  Hos:
+    long: Hozejas
+    short: Hoz
+  Isa:
+    long: Jesajas
+    short: Jes
+  Jas:
+    long: Jēkaba
+    short: Jk
+  Jdt:
+    long: Judith
+    short: Jud
+  Jer:
+    long: Jeremijas
+    short: Jer
+  Job:
+    long: Ījaba
+    short: Īj
+  Joel:
+    long: Joēla
+    short: Jl
+  John:
+    long: Jāņa
+    short: Jņ
+  Jonah:
+    long: Jonas
+    short: Jon
+  Josh:
+    long: Jozuas
+    short: Joz
+  Jude:
+    long: Jūdas
+    short: Jūd
+  Judg:
+    long: Soģu
+    short: Soģ
+  Lam:
+    long: Raudu dziesmas
+    short: Vdz
+  Lev:
+    long: 3. Mozus
+    short: 3Moz
+  Luke:
+    long: Lūkas
+    short: Lk
+  Mal:
+    long: Maleahija
+    short: Mal
+  Mark:
+    long: Marka
+    short: Mk
+  Matt:
+    long: Mateja
+    short: Mt
+  Mic:
+    long: Mihas
+    short: Mih
+  Nah:
+    long: Nahūma
+    short: Nah
+  Neh:
+    long: Nehemijas
+    short: Neh
+  Num:
+    long: 4. Mozus
+    short: 4Moz
+  Obad:
+    long: Obadjas
+    short: Ob
+  Phil:
+    long: Filipiešiem
+    short: Flp
+  Phlm:
+    long: Filemonam
+    short: Flm
+  PrMan:
+    long: Prayer of Manasseh
+    short: Man
+  Prov:
+    long: Sakāmvārdi
+    short: Sak
+  Ps:
+    long: Psalmi
+    short: Ps
+  Ps151:
+    long: Psalm 151
+    short: 151Ps
+  Rev:
+    long: Atklāsmes
+    short: Atkl
+  Rom:
+    long: Romiešiem
+    short: Rm
+  Ruth:
+    long: Rutes
+    short: Rut
+  Sir:
+    long: Sirach (Ecclesiasticus)
+    short: Sīr
+  Song:
+    long: Augstā dziesma
+    short: Dz
+  Titus:
+    long: Titam
+    short: Tit
+  Tob:
+    long: Tobit
+    short: Tob
+  Wis:
+    long: Wisdom of Solomon
+    short: Sāl
+  Zech:
+    long: Zaharijas
+    short: Zah
+  Zeph:
+    long: Cefanjas
+    short: Cef
+translations:
+  lg8:
+    1Chr:
+      short: 1Laik
+    1John:
+      short: 1Jāņ
+    1Thess:
+      long: 1. Tesaloniķiešiem
+    2Chr:
+      short: 2Laik
+    2John:
+      short: 2Jāņ
+    2Thess:
+      long: 2. Tesaloniķiešiem
+    3John:
+      short: 3Jāņ
+    Acts:
+      short: Ap.darb
+    Amos:
+      long: Amos
+      short: Amos
+    Dan:
+      long: Daniēls
+    Eccl:
+      long: Salamans mācītājs
+    Eph:
+      short: Efe
+    Ezek:
+      long: Ecehiēls
+      short: Eceh
+    Hab:
+      long: Habakuks
+      short: Habak
+    Hos:
+      long: Hozeja
+    Isa:
+      long: Jesaja
+    Jas:
+      short: Jēk
+    Jer:
+      long: Jeremija
+    Job:
+      short: Ījab
+    Joel:
+      long: Joēls
+      short: Joēl
+    John:
+      long: Jāņa ev.
+      short: Jāņ
+    Jonah:
+      long: Jona
+    Lam:
+      short: Raud
+    Luke:
+      long: Lūkas ev.
+      short: Lūk
+    Mal:
+      long: Malahija
+    Mark:
+      long: Marka ev.
+      short: Mark
+    Matt:
+      long: Mateja ev.
+      short: Mat
+    Mic:
+      long: Miha
+    Nah:
+      long: Nakums
+      short: Nak
+    Neh:
+      short: Nehem
+    Obad:
+      long: Obadija
+      short: Obad
+    Phil:
+      short: Filip
+    Phlm:
+      short: Filem
+    Prov:
+      long: Sakāmie vārdi
+    Ps:
+      long: Dāvida dziesmas
+      short: Dāv.dz
+    Rev:
+      long: Parādīšanas
+      short: Parād
+    Rom:
+      short: Rom
+    Song:
+      short: Augst.dz
+    Titus:
+      long: Titum
+    Zech:
+      long: Zaharija
+      short: Zaha
+    Zeph:
+      long: Cefanija
+  ltv1965:
+    1Chr:
+      long: Pirmā Laiku
+    1Cor:
+      long: Pāvila 1. Vēstule Korintiešiem
+    1John:
+      long: Jāņa 1. Vēstule
+    1Kgs:
+      long: Pirmā Ķēniņu
+    1Pet:
+      long: Pēteŗa 1. Vēstule
+    1Sam:
+      long: Pirmā Samuela
+    1Thess:
+      long: Pāvila 1. Vēstule Tesalonikiešiem
+    1Tim:
+      long: Pāvila 1. Vēstule Timotejam
+    2Chr:
+      long: Otra Laiku
+    2Cor:
+      long: Pāvila 2. Vēstule Korintiešiem
+    2John:
+      long: Jāņa 2. Vēstule
+    2Kgs:
+      long: Otra Ķēniņu
+    2Pet:
+      long: Pēteŗa 2. Vēstule
+    2Sam:
+      long: Otra Samuela
+    2Thess:
+      long: Pāvila 2. Vēstule Tesaloniķiešiem
+    2Tim:
+      long: Pāvila 2. Vēstule Timotejam
+    3John:
+      long: Jāņa 3. Vēstule
+    Col:
+      long: Pāvila Vēstule Kolosiešiem
+    Deut:
+      long: Piektā Mozus
+    Eccl:
+      long: Salamans mācītājs
+    Eph:
+      long: Pāvila Vēstule Efeziešiem
+    Exod:
+      long: Otra Mozus
+    Ezek:
+      long: Ecechiela
+    Gal:
+      long: Pāvila Vēstule Galatiešiem
+    Gen:
+      long: Pirmā Mozus
+    Heb:
+      long: Vēstule Ebrējiem
+    Jas:
+      long: Jēkaba Vēstule
+    John:
+      long: Jāņa Evaņg̒elijs
+    Jude:
+      long: Jūdas Vēstule
+    Judg:
+      long: Sog̒u
+    Lev:
+      long: Trešā Mozus
+    Luke:
+      long: Lūkas Evaņg̒elijs
+    Mal:
+      long: Maleachija
+    Mark:
+      long: Marka Evaņg̒elijs
+    Matt:
+      long: Mateja Evaņg̒elijs
+    Mic:
+      long: Michas
+    Nah:
+      long: Nachuma
+    Neh:
+      long: Nechemijas
+    Num:
+      long: Ceturtā Mozus
+    Phil:
+      long: Pāvila Vēstule Filipiešiem
+    Phlm:
+      long: Pāvila Vēstule Filemonam
+    Prov:
+      long: Salamana Pamācības
+    Rev:
+      long: Jaņa Atklāsmes Grāmata
+    Rom:
+      long: Pāvilavēstulē Romiešiem
+    Titus:
+      long: Pāvila Vēstule Tītam
+    Zech:
+      long: Cakarijas
+  ljd:
+    1Cor:
+      long: 1 Korintiešiem
+      short: 1 Korintiešiem
+    1John:
+      long: 1 Jāņa
+      short: 1 Jāņa
+    1Pet:
+      long: 1 Pētera
+      short: 1 Pētera
+    1Thess:
+      long: 1 Tesaloniķiešiem
+      short: 1 Tesaloniķiešiem
+    1Tim:
+      long: 1 Timotejam
+      short: 1 Timotejam
+    2Cor:
+      long: 2 Korintiešiem
+      short: 2 Korintiešiem
+    2John:
+      long: 2 Jāņa
+      short: 2 Jāņa
+    2Pet:
+      long: 2 Pētera
+      short: 2 Pētera
+    2Thess:
+      long: 2 Tesaloniķiešiem
+      short: 2 Tesaloniķiešiem
+    2Tim:
+      long: 2 Timotejam
+      short: 2 Timotejam
+    3John:
+      long: 3 Jāņa
+      short: 3 Jāņa
+    Acts:
+      short: Apustuļu darbi
+    Col:
+      short: Kolosiešiem
+    Eph:
+      long: Efeziešiem
+      short: Efeziešiem
+    Gal:
+      short: Galatiešiem
+    Heb:
+      short: Ebrejiem
+    Jas:
+      short: Jēkaba
+    John:
+      long: Jāņa evaņģēlijs
+      short: Jāņa evaņģēlijs
+    Jude:
+      short: Jūdas
+    Luke:
+      long: Lūkas evaņģēlijs
+      short: Lūkas evaņģēlijs
+    Mark:
+      long: Marka evaņģēlijs
+      short: Marka evaņģēlijs
+    Matt:
+      long: Mateja evaņģēlijs
+      short: Mateja evaņģēlijs
+    Phil:
+      short: Filipiešiem
+    Phlm:
+      short: Filemonam
+    Rev:
+      long: Jāņa atklāsmes
+      short: Jāņa atklāsmes
+    Rom:
+      short: Romiešiem
+    Titus:
+      short: Titam
+  rlb:
+    1Thess:
+      long: 1. Tesaloniķiešiem
+    2Chr:
+      long: Otrā Laiku
+    2Thess:
+      long: 2. Tesaloniķiešiem
+    Eccl:
+      long: Salamans mācītājs
+    Eph:
+      long: Efeziešiem
+    Ezek:
+      long: Ecēhiēla
+    Lam:
+      short: Rdz
+    Nah:
+      long: Nahuma
+    Prov:
+      long: Salamana Pamācības
+      short: Pam
+    Rev:
+      long: Jāņa atklāsmes
+    Zech:
+      long: Caharijas
+      short: Cah
+  nrlb2024:
+    Lam:
+      long: Vaimanu dziesmas
+    Song:
+      long: Dziesmu dziesma
+  nlb:
+    Lam:
+      long: Vaimanu dziesmas
+    Song:
+      long: Dziesmu dziesma
+  nlbdc:
+    Lam:
+      long: Vaimanu dziesmas
+    Song:
+      long: Dziesmu dziesma

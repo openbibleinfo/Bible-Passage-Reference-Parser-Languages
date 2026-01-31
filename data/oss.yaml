@@ -1,0 +1,268 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Райдиан
+      - Райд
+  - osis: Exod
+    texts:
+      - Рацыд
+      - Рац
+  - osis: Lev
+    texts:
+      - Левит
+      - Лев
+  - osis: Num
+    texts:
+      - Нымӕцтӕ
+      - Ным
+  - osis: Lam
+    texts:
+      - Хъарӕг
+      - Хъар
+  - osis: Rev
+    texts:
+      - Ӕргомад
+      - Ӕрг
+  - osis: Deut
+    texts:
+      - Фӕлхатгонд ӕгъдау
+      - Фӕл
+  - osis: Josh
+    texts:
+      - Нуны фырт Йешуа
+      - Нун
+  - osis: Judg
+    texts:
+      - Фӕтӕгтӕ
+      - Фӕт
+  - osis: Ruth
+    texts:
+      - Руф
+  - osis: Isa
+    texts:
+      - Исайа
+      - Ис
+  - osis: 1Kgs
+    texts:
+      - 3 Паддзахӕдтӕ
+      - 3 Пад
+  - osis: 2Kgs
+    texts:
+      - 4 Паддзахӕдтӕ
+      - 4 Пад
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Паддзахӕдтӕ
+      - Пад
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Азфыстытӕ
+      - Азф
+  - osis: Ezra
+    texts:
+      - Езра
+      - Езр
+  - osis: Neh
+    texts:
+      - Неемиа
+      - Неем
+  - osis: Esth
+    texts:
+      - Естер
+      - Ест
+  - osis: Job
+    texts:
+      - Иов
+  - osis: Ps
+    texts:
+      - Псаломттӕ
+      - Псаломтӕ
+      - Псал
+      - Пс
+  - osis: Prov
+    texts:
+      - Ӕмбисӕндтӕ
+      - Ӕмб
+  - osis: Eccl
+    texts:
+      - Екклесиаст
+      - Экклесиаст
+      - Эккл
+      - Екк
+  - osis: Song
+    texts:
+      - Зарджыты зарӕг
+      - Зар
+  - osis: Jer
+    texts:
+      - Йеремиа
+      - Йер
+  - osis: Ezek
+    texts:
+      - Езекиел
+      - Езек
+  - osis: Dan
+    texts:
+      - Даниил
+      - Дан
+  - osis: Hos
+    texts:
+      - Осиа
+      - Ос
+  - osis: Joel
+    texts:
+      - Иоел
+  - osis: Amos
+    texts:
+      - Амос
+      - Ам
+  - osis: Obad
+    texts:
+      - Авадиа
+      - Авад
+  - osis: Jonah
+    texts:
+      - Ионӕ
+  - osis: Mic
+    texts:
+      - Михей
+      - Мих
+  - osis: Nah
+    texts:
+      - Наум
+  - osis: Hab
+    texts:
+      - Аввакум
+      - Авв
+  - osis: Zeph
+    texts:
+      - Софониа
+      - Соф
+  - osis: Hag
+    texts:
+      - Аггей
+      - Агг
+  - osis: Zech
+    texts:
+      - Захариа
+      - Зах
+  - osis: Mal
+    texts:
+      - Малахиа
+      - Мал
+  - osis: Matt
+    texts:
+      - Матфей
+      - Мт
+  - osis: Mark
+    texts:
+      - Марк
+      - Мк
+  - osis: Luke
+    texts:
+      - Лука
+      - Лк
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Иоанн
+      - Ин
+  - osis: Acts
+    texts:
+      - Апостолты хъуыддӕгтӕ
+      - Хъуыд
+  - osis: Rom
+    texts:
+      - Ромӕгтӕм
+      - Ром
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Коринфӕгтӕм
+      - Кор
+  - osis: Col
+    texts:
+      - Колоссӕгтӕм
+      - Кол
+  - osis: Gal
+    texts:
+      - Галатӕгтӕм
+      - Гал
+  - osis: Eph
+    texts:
+      - Эфесӕгтӕм
+      - Эф
+  - osis: Phil
+    texts:
+      - Филиппӕгтӕм
+      - Флп
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Фессалоникӕгтӕм
+      - Фес
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Тимофеймӕ
+      - Тим
+  - osis: Titus
+    texts:
+      - Титмӕ
+      - Тит
+  - osis: Phlm
+    texts:
+      - Филимонмӕ
+      - Фил
+  - osis: Heb
+    texts:
+      - Дзуттӕгтӕм
+      - Дзут
+  - osis: Jas
+    texts:
+      - Йаков
+      - Йак
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Петр
+      - Пет
+  - osis: Jude
+    texts:
+      - Иудӕ
+translations:
+  - OSS2022
+  - OSSOTP

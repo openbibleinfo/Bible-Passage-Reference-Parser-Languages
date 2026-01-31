@@ -1,0 +1,106 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Mfunukuro
+  - osis: Matt
+    texts:
+      - Matayo
+      - Mat.
+  - osis: Mark
+    texts:
+      - Mariko
+      - Mrk.
+  - osis: Luke
+    texts:
+      - Luk.
+      - Luka
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohane
+  - osis: John
+    texts:
+      - Yohane
+      - Yoh.
+  - osis: Acts
+    texts:
+      - Ndima Ja Ntume
+      - Ntum.
+  - osis: Rom
+    texts:
+      - VaRoma
+      - Var
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Vakorinto
+      - Kor.
+  - osis: Col
+    texts:
+      - Vakolosai
+      - Kol.
+  - osis: Gal
+    texts:
+      - Vagalatia
+  - osis: Eph
+    texts:
+      - VaEfeso
+      - Efs.
+  - osis: Phil
+    texts:
+      - Vafilipi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Vatesalonike
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filemoni
+  - osis: Heb
+    texts:
+      - Vaebrania
+  - osis: Jas
+    texts:
+      - Yakobo
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petro
+      - Pet.
+  - osis: Jude
+    texts:
+      - Yud.
+      - Yuda
+translations:
+  - CHSUNT67

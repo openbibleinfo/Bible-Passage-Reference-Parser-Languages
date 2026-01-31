@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Hinwɔ Hi Mits Yohana
+  - osis: Matt
+    texts:
+      - Mata
+  - osis: Mark
+    texts:
+      - Markus
+  - osis: Luke
+    texts:
+      - Luka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohana
+  - osis: Acts
+    texts:
+      - Tɔmsyaadɛ Woosɛ
+  - osis: Rom
+    texts:
+      - Roma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kɔrɛŋgtu
+  - osis: Col
+    texts:
+      - Kolosiya
+  - osis: Gal
+    texts:
+      - Galatiya
+  - osis: Eph
+    texts:
+      - Efesu
+  - osis: Phil
+    texts:
+      - Filipi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaloniki
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timɔte
+  - osis: Titus
+    texts:
+      - Titus
+  - osis: Phlm
+    texts:
+      - Filmɔŋ
+  - osis: Heb
+    texts:
+      - Ibraniŋko
+  - osis: Jas
+    texts:
+      - Yakuba
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piyɛr
+  - osis: Jude
+    texts:
+      - Yahuda
+translations:
+  - NTD

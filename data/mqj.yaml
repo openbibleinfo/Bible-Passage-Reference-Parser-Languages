@@ -1,0 +1,149 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Pa'paombo'
+      - Wahyu
+      - Pom.
+  - osis: Matt
+    texts:
+      - Matius
+      - Mat.
+  - osis: Mark
+    texts:
+      - Markus
+      - Mrk.
+  - osis: Luke
+    texts:
+      - Lukas
+      - Luk.
+  - osis: 1John
+    texts:
+      - 1Yoh.
+  - osis: 2John
+    texts:
+      - 2Yoh.
+  - osis: 3John
+    texts:
+      - 3 Yohanes
+      - 3Yoh.
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yohanes
+  - osis: John
+    texts:
+      - Yohanes
+      - Yoh.
+  - osis: Acts
+    texts:
+      - Kisah Para Rasul
+      - Uleleanna Rasul
+      - Ur.
+  - osis: Rom
+    texts:
+      - Roma
+      - Rm.
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Corinthians
+      - Korintus
+  - osis: 1Cor
+    texts:
+      - 1Kor.
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintus
+  - osis: 2Cor
+    texts:
+      - 2Kor.
+  - osis: Col
+    texts:
+      - Kolose
+      - Kol.
+  - osis: Gal
+    texts:
+      - Galatia
+      - Gal.
+  - osis: Eph
+    texts:
+      - Efesus
+      - Ef.
+  - osis: Phil
+    texts:
+      - Filipi
+      - Flp.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonika
+  - osis: 1Thess
+    texts:
+      - 1Tesalonika
+      - 1Tes.
+  - osis: 2Thess
+    texts:
+      - 2Tesalonika
+      - 2Tes.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotius
+  - osis: 1Tim
+    texts:
+      - 1Tim.
+  - osis: 2Tim
+    texts:
+      - 2Tim.
+  - osis: Titus
+    texts:
+      - Titus
+      - Tit.
+  - osis: Phlm
+    texts:
+      - Filemon
+      - Flm.
+  - osis: Heb
+    texts:
+      - Ibrani
+      - Ibr.
+  - osis: Jas
+    texts:
+      - Yakobus
+      - Yak.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petrus
+  - osis: 1Pet
+    texts:
+      - 1Ptr.
+  - osis: 2Pet
+    texts:
+      - 2Ptr.
+  - osis: Jude
+    texts:
+      - Yudas
+      - Yud.
+translations:
+  - MQJ

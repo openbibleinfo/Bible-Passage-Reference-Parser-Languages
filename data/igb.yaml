@@ -1,0 +1,272 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Oyinyima
+      - Oyn
+  - osis: Exod
+    texts:
+      - Ọyịkụra
+      - Kụra
+  - osis: Lev
+    texts:
+      - Ireevi
+      - Ire
+  - osis: Num
+    texts:
+      - Ịrịka
+      - Ịrị
+  - osis: Lam
+    texts:
+      - Arụwẹ
+      - Arụ
+  - osis: Rev
+    texts:
+      - Ẹtore
+      - Ẹtẹ
+  - osis: Deut
+    texts:
+      - Ọda
+  - osis: Josh
+    texts:
+      - Ijosuwa
+      - Ijos
+  - osis: Judg
+    texts:
+      - Ọdọvịdị
+      - Ọdọ
+  - osis: Ruth
+    texts:
+      - Iruutu
+      - Iru
+  - osis: Isa
+    texts:
+      - Ayịsaya
+      - Ayị
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Ịsamụwẹrị
+      - Ịsa
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Ohinọyị
+      - Ohi
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Ịtọpa
+      - Ịtọ
+  - osis: Ezra
+    texts:
+      - Ẹzịra
+      - Ẹzị
+  - osis: Neh
+    texts:
+      - Inehemaya
+      - Ine
+  - osis: Esth
+    texts:
+      - Ẹsịta
+      - Ẹsị
+  - osis: Job
+    texts:
+      - Ijoovu
+      - Ijov
+  - osis: Prov
+    texts:
+      - Ụhịrẹyị
+      - Ụhị
+  - osis: Eccl
+    texts:
+      - Ịrẹyị Ọzwọzịsa
+      - Ọzw
+  - osis: Song
+    texts:
+      - Ahẹ Isoromọnị
+      - Iso
+  - osis: Ps
+    texts:
+      - Ahẹ Ụgama
+      - Ahẹ
+  - osis: Jer
+    texts:
+      - Ijeremaya
+      - Ijer
+  - osis: Ezek
+    texts:
+      - Ezikẹẹrị
+      - Ezk
+  - osis: Dan
+    texts:
+      - Ịdanịyẹrị
+      - Ịda
+  - osis: Hos
+    texts:
+      - Ihoseya
+      - Iho
+  - osis: Joel
+    texts:
+      - Ijowẹrị
+      - Ijow
+  - osis: Amos
+    texts:
+      - Emọsị
+      - Emọ
+  - osis: Obad
+    texts:
+      - Ọbadaya
+      - Ọba
+  - osis: Jonah
+    texts:
+      - Ijona
+      - Ijon
+  - osis: Mic
+    texts:
+      - Imika
+      - Imi
+  - osis: Nah
+    texts:
+      - Ịnahụmị
+      - Ịna
+  - osis: Hab
+    texts:
+      - Ihabaku
+      - Iha
+  - osis: Zeph
+    texts:
+      - Ịzẹhwanaya
+      - Ịzhw
+  - osis: Hag
+    texts:
+      - Ịhagayị
+      - Ihg
+  - osis: Zech
+    texts:
+      - Ịzakaraya
+      - Iza
+  - osis: Mal
+    texts:
+      - Ịmarakayị
+      - Ịma
+  - osis: Matt
+    texts:
+      - Imatiwu
+      - Imt
+  - osis: Mark
+    texts:
+      - Ịmaakị
+      - Ịmk
+  - osis: Luke
+    texts:
+      - Iruuku
+      - Irk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Ịjọọnụ
+      - Ịjọ
+  - osis: Acts
+    texts:
+      - Odeyi
+      - Ụkọ
+  - osis: Rom
+    texts:
+      - Aniroomi
+      - Iro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Anịkọrịntị
+      - Ịkọ
+  - osis: Col
+    texts:
+      - Anikorasi
+      - Ikor
+  - osis: Gal
+    texts:
+      - Anigaratiya
+      - Iga
+  - osis: Eph
+    texts:
+      - Anẹhwẹsọsị
+      - Ẹhw
+  - osis: Phil
+    texts:
+      - Anihwiripi
+      - Ihwi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Anịtẹsaronika
+      - Ịtẹ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Itimoti
+      - Itim
+  - osis: Titus
+    texts:
+      - Ịtayịtọsị
+      - Ịta
+  - osis: Phlm
+    texts:
+      - Ihwirimọnị
+      - Ihwm
+  - osis: Heb
+    texts:
+      - Anihiburu
+      - Ihib
+  - osis: Jas
+    texts:
+      - Ijemiisi
+      - Ije
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Ipi
+  - osis: 1Pet
+    texts:
+      - 1Ipita
+  - osis: 2Pet
+    texts:
+      - 2Ipita
+  - osis: Jude
+    texts:
+      - Ijudi
+translations:
+  - EBTP

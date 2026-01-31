@@ -1,0 +1,115 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Apukalipsis
+      - Apuk
+  - osis: Matt
+    texts:
+      - San Matiyu
+      - Mt
+  - osis: Mark
+    texts:
+      - San Marcus
+      - Mk
+  - osis: Luke
+    texts:
+      - San Lukas
+      - Lk
+  - osis: John
+    texts:
+      - San Jwan
+      - Jn
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jwan
+      - Jn
+  - osis: Acts
+    texts:
+      - Ichus
+      - Ich
+  - osis: Rom
+    texts:
+      - Rrumanus
+      - Rru
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kurintyus
+      - Kur
+  - osis: Col
+    texts:
+      - Klusinsis
+      - Kul
+  - osis: Gal
+    texts:
+      - Gálatas
+      - Gal
+  - osis: Eph
+    texts:
+      - Ifisyus
+      - If
+  - osis: Phil
+    texts:
+      - Filipinsis
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tisalunisinsis
+      - Tis
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timutiyu
+      - Tim
+  - osis: Titus
+    texts:
+      - Titu
+  - osis: Phlm
+    texts:
+      - Filimun
+      - Flm
+  - osis: Heb
+    texts:
+      - Ibriyus
+      - Ib
+  - osis: Jas
+    texts:
+      - Santyagu
+      - Sant
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pidru
+      - Pid
+  - osis: Jude
+    texts:
+      - Judas
+      - Jud
+translations:
+  - QVC

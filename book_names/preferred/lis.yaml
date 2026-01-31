@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 c mi To L
+    short: 1 mi
+  1Cor:
+    long: 1 Ko-lE-Tu To L
+    short: 1 lE
+  1John:
+    long: 1 yo-v To L
+    short: 1 Yo
+  1Kgs:
+    long: 1 w ti To L
+    short: 1 w
+  1Pet:
+    long: 1 Pi-te To L
+    short: 1 Pi
+  1Sam:
+    long: 1 s-mu-ye To L
+    short: 1 mu
+  1Thess:
+    long: 1 Te-s-lo-ni-y To L
+    short: 1 Te
+  1Tim:
+    long: 1 Ti-mo-Ti-wu To L
+    short: 1 Ti
+  2Chr:
+    long: 2 c mi To L
+    short: 2 mi
+  2Cor:
+    long: 2 Ko-lE-Tu To L
+    short: 2 lE
+  2John:
+    long: 2 yo-v To L
+    short: 2 Yo
+  2Kgs:
+    long: 2 w ti To L
+    short: 2 w
+  2Pet:
+    long: 2 Pi-te To L
+    short: 2 Pi
+  2Sam:
+    long: 2 s-mu-ye To L
+    short: 2 mu
+  2Thess:
+    long: 2 Te-s-lo-ni-y To L
+    short: 2 Te
+  2Tim:
+    long: 2 Ti-mo-Ti-wu To L
+    short: 2 Ti
+  3John:
+    long: 3 yo-v To L
+    short: 3 Yo
+  Acts:
+    long: fi du To L
+    short: fi
+  Amos:
+    long: a-mo-si To L
+    short: a
+  Col:
+    long: ko-lo-xi To L
+    short: Ko
+  Dan:
+    long: d-ni-le To L
+    short: d
+  Deut:
+    long: jU k bA m. To L
+    short: jU
+  Eccl:
+    long: m. mi c P To L
+    short: c
+  Eph:
+    long: yi-Ju-so To L
+    short: yi
+  Esth:
+    long: E-sl-te To L
+    short: E
+  Exod:
+    long: do je To L
+    short: do
+  Ezek:
+    long: yi-xi-ce To L
+    short: ce
+  Ezra:
+    long: E,-sL-l To L
+    short: sL
+  Gal:
+    long: g-l-Ti-y To L
+    short: g
+  Gen:
+    long: yi ce yi wu To L
+    short: wu
+  Hab:
+    long: H-b-kl To L
+    short: h
+  Hag:
+    long: h-kD To L
+    short: kD
+  Heb:
+    long: vi-bE-ru To L
+    short: vi
+  Hos:
+    long: ho-xi-y To L
+    short: Ho
+  Isa:
+    long: yi-s-y To L
+    short: s
+  Jas:
+    long: y-ku To L
+    short: y
+  Jer:
+    long: ye-li-mi To L
+    short: Ye
+  Job:
+    long: yo-be To L
+    short: be
+  Joel:
+    long: yo-L To L
+    short: L
+  John:
+    long: yo-v To L
+    short: Yo
+  Jonah:
+    long: yo,-n To L
+    short: n
+  Josh:
+    long: yo-xu To L
+    short: xu
+  Jude:
+    long: yu-t To L
+    short: Yu
+  Judg:
+    long: bA mu xy, P To L
+    short: bA
+  Lam:
+    long: a CyH jE To L
+    short: Cy
+  Lev:
+    long: lE-yi To L
+    short: lE
+  Luke:
+    long: lu-K To L
+    short: Lu
+  Mal:
+    long: MA-lD-kd To L
+    short: mA
+  Mark:
+    long: m-Ko To L
+    short: Ko
+  Matt:
+    long: m-Ti To L
+    short: m
+  Mic:
+    long: "Mi-kd: To L"
+    short: Kd
+  Nah:
+    long: ne-yu-mD To L
+    short: Ne
+  Neh:
+    long: ni-y-m-y To L
+    short: Ni
+  Num:
+    long: p xy U To L
+    short: U
+  Obad:
+    long: o-bD-d-y; To L
+    short: o
+  Phil:
+    long: Pi-li-Pi To L
+    short: li
+  Phlm:
+    long: Pi-li-mD To L
+    short: mD
+  Prov:
+    long: Vo jE To L
+    short: jE
+  Ps:
+    long: mu gw To L
+    short: gw
+  Rev:
+    long: mo gL du To L
+    short: Mo
+  Rom:
+    long: ro-m To L
+    short: Ro
+  Ruth:
+    long: Ru-te To L
+    short: Ru
+  Song:
+    long: so-lo-mo mu gw To L
+    short: So
+  Titus:
+    long: Ti-to To L
+    short: To
+  Zech:
+    long: s-cy-li-y To L
+    short: cy
+  Zeph:
+    long: Rd-j-n-y; To L
+    short: J

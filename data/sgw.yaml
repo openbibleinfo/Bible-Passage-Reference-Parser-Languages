@@ -1,0 +1,215 @@
+variables:
+  first: &first
+    - 1ነ
+  second: &second
+    - 2ነ
+  third: &third
+    - 3ነ
+books:
+  - osis: Gen
+    texts:
+      - ፍጥ.
+  - osis: Exod
+    texts:
+      - ዘፃት
+  - osis: Lev
+    texts:
+      - ሌዊ
+  - osis: Num
+    texts:
+      - ዝር
+  - osis: Lam
+    texts:
+      - ኤርብ
+  - osis: Rev
+    texts:
+      - ራዕይ
+  - osis: Deut
+    texts:
+      - ዘዳ.
+  - osis: Josh
+    texts:
+      - ኢያሱ
+  - osis: Judg
+    texts:
+      - መሳ.
+  - osis: Ruth
+    texts:
+      - ሩት
+  - osis: Isa
+    texts:
+      - ኢሳ
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - ሳሙ.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - ነገ.
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - ዜና
+  - osis: Ezra
+    texts:
+      - እዝራ
+  - osis: Neh
+    texts:
+      - ነኽ
+  - osis: Esth
+    texts:
+      - አስ
+  - osis: Job
+    texts:
+      - ኢዮብ
+  - osis: Ps
+    texts:
+      - ዝምራ
+  - osis: Prov
+    texts:
+      - ወማ
+  - osis: Eccl
+    texts:
+      - ሰባ
+  - osis: Song
+    texts:
+      - መጣፍ ተዝምራ ዝም
+  - osis: Jer
+    texts:
+      - ኤር
+  - osis: Ezek
+    texts:
+      - ኽዝ
+  - osis: Dan
+    texts:
+      - ዳን
+  - osis: Hos
+    texts:
+      - ኾሴ
+  - osis: Joel
+    texts:
+      - ኢዩ
+  - osis: Amos
+    texts:
+      - አሞፅ
+  - osis: Obad
+    texts:
+      - አብ
+  - osis: Jonah
+    texts:
+      - ዮናስ
+  - osis: Mic
+    texts:
+      - ሚክ
+  - osis: Nah
+    texts:
+      - ናኾም
+  - osis: Hab
+    texts:
+      - እን
+  - osis: Zeph
+    texts:
+      - ሶፎ
+  - osis: Hag
+    texts:
+      - ኻጌ
+  - osis: Zech
+    texts:
+      - ዘካ
+  - osis: Mal
+    texts:
+      - ሚል
+  - osis: Matt
+    texts:
+      - ማቴ.
+  - osis: Mark
+    texts:
+      - ማር.
+  - osis: Luke
+    texts:
+      - ሉቃ.
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - ዮኻ
+  - osis: John
+    texts:
+      - ዮኻ.
+  - osis: Acts
+    texts:
+      - ና. ሜና.
+  - osis: Rom
+    texts:
+      - ሮሜ
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - ቆሮ.
+  - osis: Col
+    texts:
+      - ቆላ
+  - osis: Gal
+    texts:
+      - ገላ
+  - osis: Eph
+    texts:
+      - ኤፌ
+  - osis: Phil
+    texts:
+      - ፊል
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - ተሰ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - ጢሞ
+  - osis: Titus
+    texts:
+      - ቲቶ
+  - osis: Phlm
+    texts:
+      - ፊልሞና
+  - osis: Heb
+    texts:
+      - እብ
+  - osis: Jas
+    texts:
+      - ያእ
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - ጴጥ
+  - osis: Jude
+    texts:
+      - ይኹዳ
+translations:
+  - GURAB

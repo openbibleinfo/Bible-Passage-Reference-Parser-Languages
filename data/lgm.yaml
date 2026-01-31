@@ -1,0 +1,116 @@
+variables:
+  first: &first
+    - "1"
+    - I
+  second: &second
+    - "2"
+    - II
+books:
+  - osis: Rev
+    texts:
+      - Kulolesibua
+      - Kul.
+  - osis: Matt
+    texts:
+      - Matayo
+      - Mat.
+  - osis: Mark
+    texts:
+      - Malako
+      - Mk.
+  - osis: Luke
+    texts:
+      - Luka
+      - Lk.
+  - osis: 1John
+    texts:
+      - I. Yoana
+  - osis: 2John
+    texts:
+      - II. Yoana
+  - osis: 3John
+    texts:
+      - III. Yoana
+      - 3 Yoana
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yoana
+  - osis: Acts
+    texts:
+      - Misako
+  - osis: Rom
+    texts:
+      - Balomo
+      - Lom.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Bakolinto
+      - Kol.
+  - osis: Col
+    texts:
+      - Bakolosai
+      - Kol.
+  - osis: Gal
+    texts:
+      - BaGalatia
+      - Gal.
+  - osis: Eph
+    texts:
+      - BaEfeso
+      - Efeso
+  - osis: Phil
+    texts:
+      - Bafilipo
+      - Fil.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Batesolonike
+      - Tes.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+      - Tim.
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filemona
+      - Filem.
+  - osis: Heb
+    texts:
+      - Baebelo
+      - Ebelo
+  - osis: Jas
+    texts:
+      - Yakobo
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petelo
+      - Pet.
+  - osis: Jude
+    texts:
+      - Yuda
+translations:
+  - NTKI57

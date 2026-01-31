@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 Koryentu
+    short: 1 Co
+  1John:
+    long: 1 Xowawo
+    short: 1 Jo
+  1Pet:
+    long: 1 Petru
+    short: 1 Pe
+  1Thess:
+    long: 1 Tesaroneka
+    short: 1 Ts
+  1Tim:
+    long: 1 Txemohtyo
+    short: 1 Tm
+  2Cor:
+    long: 2 Koryentu
+    short: 2 Co
+  2John:
+    long: 2 Xowawo
+    short: 2 Jo
+  2Pet:
+    long: 2 Petru
+    short: 2 Pe
+  2Thess:
+    long: 2 Tesaroneka
+    short: 2 Ts
+  2Tim:
+    long: 2 Txemohtyo
+    short: 2 Tm
+  3John:
+    long: 3 Xowawo
+    short: 3 Jo
+  Acts:
+    long: Txesusu Nànyaketxho ro komo
+    short: Ats
+  Col:
+    long: Korosos
+    short: Col
+  Eph:
+    long: Ehfesu
+    short: Efs
+  Gal:
+    long: Karaseya
+    short: Gál
+  Heb:
+    long: Ekmàryewyana komo
+    short: Heb
+  Jas:
+    long: Txaku
+    short: Tgo
+  John:
+    long: Xowawu
+    short: Joã
+  Jude:
+    long: Xuknasà
+    short: Jud
+  Luke:
+    long: Rukasà
+    short: Luc
+  Mark:
+    long: Mahhusa
+    short: Mar
+  Matt:
+    long: Matewsà
+    short: Mat
+  Phil:
+    long: Feryepos
+    short: Flp
+  Phlm:
+    long: Feryemonà
+    short: Flm
+  Rev:
+    long: Xowawu Nenyetxho
+    short: Apo
+  Rom:
+    long: Homa
+    short: Rom
+  Titus:
+    long: Txetu
+    short: Tit

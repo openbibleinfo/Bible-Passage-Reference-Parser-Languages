@@ -1,0 +1,141 @@
+variables:
+  first: &first
+    - Wam
+  second: &second
+    - Sikũn
+books:
+  - osis: Rev
+    texts:
+      - Apokarip
+      - Ap
+  - osis: Matt
+    texts:
+      - Matêwre
+      - Mt
+  - osis: Mark
+    texts:
+      - Makre
+      - Mk
+  - osis: Luke
+    texts:
+      - Rukre
+      - Rk
+  - osis: 1John
+    texts:
+      - 1Jw
+  - osis: 2John
+    texts:
+      - 2Jw
+  - osis: 3John
+    texts:
+      - Hapuhã Juãw
+      - 3Jw
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Juãw
+  - osis: John
+    texts:
+      - Juãw
+      - Jw
+  - osis: Acts
+    texts:
+      - Atre
+      - At
+  - osis: Rom
+    texts:
+      - Rõmãn
+      - Rm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korĩt
+  - osis: 1Cor
+    texts:
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - 2Ko
+  - osis: Col
+    texts:
+      - Korosẽ
+      - Kr
+  - osis: Gal
+    texts:
+      - Karatas
+      - Kt
+  - osis: Eph
+    texts:
+      - Epes
+      - Ep
+  - osis: Phil
+    texts:
+      - Piripos
+      - Pp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesarõn
+  - osis: 1Thess
+    texts:
+      - 1Ts
+  - osis: 2Thess
+    texts:
+      - 2Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Ximotre
+  - osis: 1Tim
+    texts:
+      - 1Xm
+  - osis: 2Tim
+    texts:
+      - 2Xm
+  - osis: Titus
+    texts:
+      - Xitre
+      - Xt
+  - osis: Phlm
+    texts:
+      - Piremõ
+      - Pm
+  - osis: Heb
+    texts:
+      - Eprêw
+      - Epr
+  - osis: Jas
+    texts:
+      - Xiakre
+      - Xk
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pêtre
+  - osis: 1Pet
+    texts:
+      - 1Pt
+  - osis: 2Pet
+    texts:
+      - 2Pt
+  - osis: Jude
+    texts:
+      - Jutre
+      - Jt
+translations:
+  - APN

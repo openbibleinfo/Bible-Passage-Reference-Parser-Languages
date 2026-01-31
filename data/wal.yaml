@@ -1,0 +1,290 @@
+variables:
+  first: &first
+    - Koiro
+  second: &second
+    - Naa77antto
+books:
+  - osis: Gen
+    texts:
+      - Doomettaabaa
+      - Dom
+  - osis: Exod
+    texts:
+      - Kessaabaa
+      - Kess
+  - osis: Lev
+    texts:
+      - Wogaabaa
+      - Wog
+  - osis: Num
+    texts:
+      - Qoodaabaa
+      - Qod
+  - osis: Lam
+    texts:
+      - Ermmaasa Zilaassaa
+      - Lam
+  - osis: Rev
+    texts:
+      - Ajjuutaa
+      - Aju
+  - osis: Deut
+    texts:
+      - Zaarettido Wogaa
+      - ZarW
+  - osis: Josh
+    texts:
+      - Yaasu Maxaafaa
+      - Yas
+  - osis: Judg
+    texts:
+      - Daannatu Maxaafaa
+      - Dana
+  - osis: Ruth
+    texts:
+      - Uruti Maxaafaa
+      - Rut
+  - osis: Isa
+    texts:
+      - Isiyaasa
+      - Isiy
+  - osis: 1Sam
+    texts:
+      - Sameela Maxaafaa Koiruwaa
+      - 1Sam
+  - osis: 2Sam
+    texts:
+      - Sameela Maxaafaa Naa77anttuwaa
+      - 2Sam
+  - osis: 1Kgs
+    texts:
+      - Kawotu Maxaafaa Koiruwaa
+      - 1Kaw
+  - osis: 2Kgs
+    texts:
+      - Kawotu Maxaafaa Naa77anttuwaa
+      - 2Kaw
+  - osis: 1Chr
+    texts:
+      - Hanidabaa Odiya Koiro Maxaafaa
+      - 1HanO
+  - osis: 2Chr
+    texts:
+      - Hanidabaa Odiya Naa77antto Maxaafaa
+      - 2HanO
+  - osis: Ezra
+    texts:
+      - Izira Maxaafaa
+      - Izir
+  - osis: Neh
+    texts:
+      - Nahimiyaa Maxaafaa
+      - Nahi
+  - osis: Esth
+    texts:
+      - Asttiri Maxaafaa
+  - osis: Job
+    texts:
+      - Iyyooba Maxaafaa
+      - Iyob
+  - osis: Ps
+    texts:
+      - Mazamure Maxaafaa
+      - Maz
+  - osis: Prov
+    texts:
+      - Leemiso Maxaafaa
+      - Lem
+  - osis: Eccl
+    texts:
+      - Eranchchaa Maxaafaa
+  - osis: Song
+    texts:
+      - Siiquwaa Sabaa
+  - osis: Jer
+    texts:
+      - Ermmaasa
+      - Erm
+  - osis: Ezek
+    texts:
+      - Hizqqeela
+      - Hiz
+  - osis: Dan
+    texts:
+      - Daaneela
+      - Dane
+  - osis: Hos
+    texts:
+      - Hoose7a
+      - Hos
+  - osis: Joel
+    texts:
+      - Yuu7eela
+      - Yu7e
+  - osis: Amos
+    texts:
+      - Amoxa
+      - Amox
+  - osis: Obad
+    texts:
+      - Abddiyyu
+  - osis: Jonah
+    texts:
+      - Yoonaasa
+      - Yona
+  - osis: Mic
+    texts:
+      - Mikiyaasa
+      - Miki
+  - osis: Nah
+    texts:
+      - Naahooma
+  - osis: Hab
+    texts:
+      - Imbbaaqooma
+      - Imba
+  - osis: Zeph
+    texts:
+      - Sofonaasa
+  - osis: Hag
+    texts:
+      - Hagge
+  - osis: Zech
+    texts:
+      - Zakkaariyaasa
+      - Zakk
+  - osis: Mal
+    texts:
+      - Milkkiyaasa
+      - Milk
+  - osis: Matt
+    texts:
+      - Maatiyoosa
+      - Mat
+  - osis: Mark
+    texts:
+      - Marqqoosa
+      - Marq
+  - osis: Luke
+    texts:
+      - Luqaasa
+      - Luq
+  - osis: 1John
+    texts:
+      - 1Yoh
+  - osis: 2John
+    texts:
+      - 2Yoh
+  - osis: 3John
+    texts:
+      - Heezzantto Yohaannisa
+      - 3Yoh
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yohaannisa
+  - osis: John
+    texts:
+      - Yohaannisa
+      - Yoh
+  - osis: Acts
+    texts:
+      - Yesuusi Kiittidoogeetu Oosuwaa
+      - Oos
+  - osis: Rom
+    texts:
+      - Roome
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Qoronttoosa
+  - osis: 1Cor
+    texts:
+      - 1Qor
+  - osis: 2Cor
+    texts:
+      - 2Qor
+  - osis: Col
+    texts:
+      - Qolasiyaasa
+      - Qol
+  - osis: Gal
+    texts:
+      - Galaatiyaa
+      - Gal
+  - osis: Eph
+    texts:
+      - Efisoona
+      - Efis
+  - osis: Phil
+    texts:
+      - Piliphphisiyuusa
+      - Pilp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tasalonqqe
+  - osis: 1Thess
+    texts:
+      - 1Tas
+  - osis: 2Thess
+    texts:
+      - 2Tas
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Ximootiyoosa
+  - osis: 1Tim
+    texts:
+      - 1Xim
+  - osis: 2Tim
+    texts:
+      - 2Xim
+  - osis: Titus
+    texts:
+      - Tiitu
+      - Tit
+  - osis: Phlm
+    texts:
+      - Pilimoona
+      - Pilm
+  - osis: Heb
+    texts:
+      - Ibraawe
+      - Ibra
+  - osis: Jas
+    texts:
+      - Yaaqooba
+      - Yaq
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pheexiroosa
+  - osis: 1Pet
+    texts:
+      - 1Phe
+  - osis: 2Pet
+    texts:
+      - 2Phe
+  - osis: Jude
+    texts:
+      - Yihudaa
+      - Yihu
+translations:
+  - WOB

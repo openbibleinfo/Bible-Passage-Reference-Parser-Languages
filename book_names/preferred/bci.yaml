@@ -1,0 +1,285 @@
+default:
+  1Chr:
+    long: 1 Be Nyoliɛ
+    short: 1Nyo
+  1Cor:
+    long: 1 Corinthefue mun
+    short: 1 Cor
+  1John:
+    long: 1 Jean
+    short: 1 Jean
+  1Kgs:
+    long: 1 Famiɛn Mun
+    short: 1Fam
+  1Pet:
+    long: 1 Pierre
+    short: 1 Pierre
+  1Sam:
+    long: 1 Samiɛl
+    short: 1Sam
+  1Thess:
+    long: 1 Thessaloniquefue mun
+    short: 1 Th
+  1Tim:
+    long: 1 Timote
+    short: 1 Ti
+  2Chr:
+    long: 2 Be Nyoliɛ
+    short: 2Nyo
+  2Cor:
+    long: 2 Corinthefue mun
+    short: 2 Cor
+  2John:
+    long: 2 Jean
+    short: 2 Jean
+  2Kgs:
+    long: 2 Famiɛn Mun
+    short: 2Fam
+  2Pet:
+    long: 2 Pierre
+    short: 2 Pierre
+  2Sam:
+    long: 2 Samiɛl
+    short: 2Sam
+  2Thess:
+    long: 2 Thessaloniquefue mun
+    short: 2 Th
+  2Tim:
+    long: 2 Timote
+    short: 2 Ti
+  3John:
+    long: 3 Jean
+    short: 3 Jean
+  Acts:
+    long: Sa Nga Be Yoli'n
+    short: Sa nga
+  Amos:
+    long: Amɔs
+    short: Amɔ
+  Col:
+    long: Colossesfue mun
+    short: Col
+  Dan:
+    long: Daniɛl
+    short: Dan
+  Deut:
+    long: Mmla'n
+    short: Mml
+  Eccl:
+    long: Akunndanfuɛ'n
+    short: Aku
+  Eph:
+    long: Efɛzfuɛ Mun
+    short: Efɛ
+  Esth:
+    long: Ɛstɛr
+    short: Ɛst
+  Exod:
+    long: Ezipt Lɔ Tulɛ'n
+    short: Tul
+  Ezek:
+    long: Ezekiɛl
+    short: Eze
+  Ezra:
+    long: Ɛsdras
+    short: Ɛsd
+  Gal:
+    long: Galasifuɛ Mun
+    short: Gal
+  Gen:
+    long: Bo Bolɛ
+    short: Bob
+  Hab:
+    long: Abakik
+    short: Aba
+  Hag:
+    long: Aze
+    short: Aze
+  Heb:
+    long: Ebre Mun
+    short: Ebr
+  Hos:
+    long: Oze
+    short: Oze
+  Isa:
+    long: Ezai
+    short: Eza
+  Jas:
+    long: Jacques
+    short: Jacq
+  Jer:
+    long: Zeremi
+    short: Zer
+  Job:
+    long: Zɔb
+    short: Zɔb
+  Joel:
+    long: Zoɛl
+    short: Zoɛ
+  John:
+    long: Jean
+    short: Jean
+  Jonah:
+    long: Zonas
+    short: Zon
+  Josh:
+    long: Zozie
+    short: Zoz
+  Jude:
+    long: Jude
+    short: Jude
+  Judg:
+    long: Jɔlɛ Difuɛ Mun
+    short: Jɔl
+  Lam:
+    long: Ngwlɛ Yilɛ
+    short: Ngw
+  Lev:
+    long: Saun Yolɛ
+    short: Sau
+  Luke:
+    long: Lik
+    short: Lik
+  Mal:
+    long: Malasi
+    short: Mal
+  Mark:
+    long: Marc
+    short: Mar
+  Matt:
+    long: Matie
+    short: Mat
+  Mic:
+    long: Mise
+    short: Mis
+  Nah:
+    long: Naɔm
+    short: Naɔ
+  Neh:
+    long: Neemi
+    short: Nee
+  Num:
+    long: Kalɛ
+    short: Kal
+  Obad:
+    long: Abdias
+    short: Abd
+  Phil:
+    long: Filipfuɛ Mun
+    short: Fil
+  Phlm:
+    long: Filemɔn
+    short: Flm
+  Prov:
+    long: Nyanndra Mun
+    short: Nya
+  Ps:
+    long: Jue Mun
+    short: Jue
+  Rev:
+    long: Sa Nglo Yilɛ
+    short: Ngl
+  Rom:
+    long: Romefue mun
+    short: Rom
+  Ruth:
+    long: Rit
+    short: Rit
+  Song:
+    long: Ngɔjue Fɛfɛ Kpa'n
+    short: Fɛf
+  Titus:
+    long: Tit
+    short: Tit
+  Zech:
+    long: Zakari
+    short: Zkr
+  Zeph:
+    long: Sofoni
+    short: Sof
+translations:
+  bb98:
+    1Cor:
+      long: 1 Korɛntfuɛ Mun
+      short: 1Kor
+    1John:
+      long: 1 Zan
+      short: 1Zan
+    1Pet:
+      long: 1 Piɛr
+      short: 1Piɛ
+    1Thess:
+      long: 1 Tɛsalonikfuɛ Mun
+      short: 1Tɛs
+    1Tim:
+      short: 1Tim
+    2Cor:
+      long: 2 Korɛntfuɛ Mun
+      short: 2Kor
+    2John:
+      long: 2 Zan
+      short: 2Zan
+    2Pet:
+      long: 2 Piɛr
+      short: 2Piɛ
+    2Thess:
+      long: 2 Tɛsalonikfuɛ Mun
+      short: 2Tɛs
+    2Tim:
+      short: 2Tim
+    3John:
+      long: 3 Zan
+      short: 3Zan
+    Acts:
+      short: Yol
+    Col:
+      long: Kolɔsfuɛ Mun
+      short: Kol
+    Jas:
+      long: Zak
+      short: Zak
+    John:
+      long: Zan
+      short: Zan
+    Jude:
+      long: Zid
+      short: Zid
+    Mark:
+      long: Mark
+    Rom:
+      long: Rɔmfuɛ Mun
+      short: Rɔm
+  blnt74:
+    1Tim:
+      long: 1 Timothée
+    2Tim:
+      long: 2 Timothée
+    Acts:
+      long: Sa nga bé yôli'n
+    Eph:
+      long: ÉphÈsefue mun
+      short: Éph
+    Gal:
+      long: Galatiefue mun
+    Heb:
+      long: Hébreu
+      short: Héb
+    Luke:
+      long: Luc
+      short: Luc
+    Mark:
+      short: Marc
+    Matt:
+      long: Matthieu
+      short: Matt
+    Phil:
+      long: Philippesfue mun
+      short: Phil
+    Phlm:
+      long: Philémon
+      short: Phlm
+    Rev:
+      long: Sa nglô yile
+      short: Snyil
+    Titus:
+      long: Tite

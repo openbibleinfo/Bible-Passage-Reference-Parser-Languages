@@ -1,0 +1,262 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Hagonegahani
+  - osis: Exod
+    texts:
+      - Tahinga
+  - osis: Bel
+    texts:
+      - Belo
+  - osis: Lev
+    texts:
+      - Hagarahenga
+  - osis: Num
+    texts:
+      - Tomaha Ninuni
+  - osis: Sir
+    texts:
+      - Sirake
+  - osis: Wis
+    texts:
+      - Aitangisiha
+  - osis: Lam
+    texts:
+      - Angiha Maramara
+  - osis: Rev
+    texts:
+      - Ranganiha
+  - osis: PrMan
+    texts:
+      - Nunginungiha Iana O Manase
+  - osis: Deut
+    texts:
+      - Ramata
+  - osis: Josh
+    texts:
+      - Josua
+  - osis: Judg
+    texts:
+      - Mane Ni Hagaotonga
+  - osis: Ruth
+    texts:
+      - Ruti
+  - osis:
+      - osis: 1Esd
+        before: *first
+      - osis: 2Esd
+        before: *second
+    texts:
+      - Esetarase
+  - osis: Isa
+    texts:
+      - Isaia
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuele
+  - osis:
+      - osis: 1Kgs
+        before: *first
+    texts:
+      - Maheraha
+  - osis:
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Maneraha
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Sihonga
+  - osis: Ezra
+    texts:
+      - Esera
+  - osis: Neh
+    texts:
+      - Nehemia
+  - osis: Job
+    texts:
+      - Jobe
+  - osis: Ps
+    texts:
+      - Ki
+  - osis: Prov
+    texts:
+      - Na Maramarêrava
+  - osis: Eccl
+    texts:
+      - Buka Ni Takoha
+  - osis: Song
+    texts:
+      - Romani Na Kiha
+  - osis: Jer
+    texts:
+      - Jeremia
+  - osis: Ezek
+    texts:
+      - Esekiele
+  - osis: Hos
+    texts:
+      - Hosea
+  - osis: Joel
+    texts:
+      - Joele
+  - osis: Amos
+    texts:
+      - Amose
+  - osis: Obad
+    texts:
+      - Obatia
+  - osis: Jonah
+    texts:
+      - Jona
+  - osis: Mic
+    texts:
+      - Mika
+  - osis: Nah
+    texts:
+      - Nahumi
+  - osis: Hab
+    texts:
+      - Habakuku
+  - osis: Zeph
+    texts:
+      - Sepania
+  - osis: Hag
+    texts:
+      - Hagai
+  - osis: Zech
+    texts:
+      - Sakaria
+  - osis: Mal
+    texts:
+      - Malaki
+  - osis: Matt
+    texts:
+      - Mateo
+  - osis: Mark
+    texts:
+      - Mareko
+  - osis: Luke
+    texts:
+      - Luka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Joane
+  - osis: Acts
+    texts:
+      - Tagaraha Iata Na Aposotolo
+  - osis: Rom
+    texts:
+      - Roma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinto
+  - osis: Col
+    texts:
+      - Kolose
+  - osis: Gal
+    texts:
+      - Galasia
+  - osis: Eph
+    texts:
+      - Epeso
+  - osis: Phil
+    texts:
+      - Pilipi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonika
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Pilemone
+  - osis: Heb
+    texts:
+      - Hebereo
+  - osis: Jas
+    texts:
+      - Jakobo
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petero
+  - osis: Jude
+    texts:
+      - Juta
+  - osis: Tob
+    texts:
+      - Tobiti
+  - osis: Jdt
+    texts:
+      - Jutiti
+  - osis: Bar
+    texts:
+      - Baruku
+  - osis: Sus
+    texts:
+      - Susana
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+    texts:
+      - Makabeo
+  - osis: AddDan
+    texts:
+      - Taniele 2
+  - osis: Dan
+    texts:
+      - Taniele
+  - osis: EsthGr
+    texts:
+      - Eseta (Greece)
+      - Eseta(greece)
+  - osis: Esth
+    texts:
+      - Eseta (Hebereo)
+      - Eseta
+translations:
+  - KCB

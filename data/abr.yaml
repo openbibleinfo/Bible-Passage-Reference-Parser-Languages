@@ -1,0 +1,112 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Adiyisɛm
+      - Adi
+  - osis: Matt
+    texts:
+      - Mateo
+      - Mat
+  - osis: Mark
+    texts:
+      - Marko
+      - Mar
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohane
+      - Yoh
+  - osis: Acts
+    texts:
+      - Asomafoɔ
+      - Aso
+  - osis: Rom
+    texts:
+      - Romafoɔ
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintofoɔ
+      - Ko
+  - osis: Col
+    texts:
+      - Kolosefoɔ nwoma
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatifoɔ
+      - Gal
+  - osis: Eph
+    texts:
+      - Efesofoɔ
+      - Efe
+  - osis: Phil
+    texts:
+      - Filipifoɔ nwoma
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonikafoɔ
+      - Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+      - Ti
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemon
+      - Fil
+  - osis: Heb
+    texts:
+      - Hebrifoɔ
+      - Heb
+  - osis: Jas
+    texts:
+      - Yakobo
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petro
+      - Pe
+  - osis: Jude
+    texts:
+      - Yuda
+translations:
+  - BNT2022

@@ -1,0 +1,137 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - เกาตีนา
+      - กตน.
+  - osis: Exod
+    texts:
+      - อิซราเอล ญาย
+      - อซญ.
+  - osis: Num
+    texts:
+      - อุ ตี แลง
+      - อตล.
+  - osis: Rev
+    texts:
+      - เยซู โตะ
+      - ยซต.
+  - osis: Ruth
+    texts:
+      - รูด
+  - osis: Jonah
+    texts:
+      - โยนา
+      - ยน
+  - osis: Matt
+    texts:
+      - มัดทิว
+      - มท.
+  - osis: Mark
+    texts:
+      - มาระโก
+  - osis: Luke
+    texts:
+      - ลูกา
+      - ลก.
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - ยน.
+      - ยอน
+  - osis: John
+    texts:
+      - ยอน
+  - osis: Acts
+    texts:
+      - ตัวแทน
+      - ตยซ.
+  - osis: Rom
+    texts:
+      - รม.
+      - โรม
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - โคริน
+      - โคร.
+  - osis: Col
+    texts:
+      - โคโลซี
+      - คลซ.
+  - osis: Gal
+    texts:
+      - กาลาเทีย
+      - กลท.
+  - osis: Eph
+    texts:
+      - เอเฟซัด
+      - อฟซ.
+  - osis: Phil
+    texts:
+      - ฟีลิบปี
+      - ฟลป.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - เทซะโลนิกา
+      - ทซก.
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - ทิโมที
+      - ทมท
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - ทิโมที
+      - ทมท.
+  - osis: Titus
+    texts:
+      - ทีตัด
+      - ทต.
+  - osis: Phlm
+    texts:
+      - ฟีลีโมน
+      - ฟลม.
+  - osis: Heb
+    texts:
+      - ฮีบรู
+      - ฮบ.
+  - osis: Jas
+    texts:
+      - ยากอบ
+      - ยก.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - เปโตร
+      - ปต.
+  - osis: Jude
+    texts:
+      - ยูดา
+      - ยด.
+translations:
+  - PRT

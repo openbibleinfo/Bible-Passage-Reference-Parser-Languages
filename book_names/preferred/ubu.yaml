@@ -1,0 +1,164 @@
+default:
+  1Cor:
+    long: Ou Korini
+    short: 1 Kor
+  1John:
+    long: Jono Kumbi-Lepamo
+    short: 1Jon
+  1Pet:
+    long: Ou Pita
+    short: 1 Pet
+  1Thess:
+    long: Ou Tesallonaika
+    short: 1 Tes
+  1Tim:
+    long: Ou Timoti
+    short: 1 Tim
+  2Cor:
+    long: Pe-Korini
+    short: 2 Kor
+  2John:
+    long: Jono Talo Sipemo
+    short: 2Jon
+  2Pet:
+    long: Pe-Pita
+    short: 2 Pe
+  2Thess:
+    long: Pe-Tesallonaika
+    short: 2 Tes
+  2Tim:
+    long: Pe-Timoti
+    short: 2 Tim
+  3John:
+    long: Jono Yepoko Sipemo
+    short: 3Jon
+  Acts:
+    long: Lipa Mundorumu Yema
+    short: Lmy
+  Col:
+    long: Kollosi
+    short: Kol
+  Eph:
+    long: Epesasi
+    short: Ep
+  Gal:
+    long: Gallesia
+    short: Gal
+  Heb:
+    long: Ipuru
+    short: Ipu
+  Jas:
+    long: Jemisi
+    short: Jem
+  John:
+    long: Jono
+    short: Jon
+  Jude:
+    long: Jutu
+    short: Jut
+  Luke:
+    long: Lluku
+    short: Lluk
+  Mark:
+    long: Mako
+    short: Mak
+  Matt:
+    long: Mateyu
+    short: Mat
+  Phil:
+    long: Pillipai
+    short: Pil
+  Phlm:
+    long: Pillimono
+    short: Plm
+  Rev:
+    long: Lipe Ora Sirimu
+    short: Los
+  Rom:
+    long: Romo
+    short: Rom
+  Titus:
+    long: Taitasi
+    short: Tai
+translations:
+  ubun:
+    1Cor:
+      short: 1Ko
+    1John:
+      long: Jono Kumbi Lepamo
+    1Pet:
+      short: 1Pe
+    1Thess:
+      short: 1Te
+    1Tim:
+      short: 1Ti
+    2Cor:
+      long: Pe Korini
+      short: 2Ko
+    2Pet:
+      long: Pe Pita
+      short: 2Pi
+    2Thess:
+      long: Pe Tesallonaika
+      short: 2Te
+    2Tim:
+      long: Pe Timoti
+      short: 2Ti
+    Acts:
+      long: Lipe Mundurumu Yema
+  ubuk:
+    1Cor:
+      long: Ou-Korini
+      short: 1Kor
+    1Pet:
+      long: Ou-Pita
+      short: 1Pit
+    1Thess:
+      long: Ou-Tesallonaika
+      short: 1Tes
+    1Tim:
+      long: Ou-Timoti
+      short: 1Tim
+    2Cor:
+      short: 2Kor
+    2John:
+      long: Jono Talo-Sipemo
+    2Pet:
+      short: 2Pit
+    2Thess:
+      short: 2Tes
+    2Tim:
+      short: 2Tim
+    3John:
+      long: Jono Yepoko-Sipemo
+    Acts:
+      long: Lipe Mundorumu Yema
+    Luke:
+      long: Lluko
+    Rom:
+      short: Ron
+  ubua:
+    1Cor:
+      long: U-Korini
+    1John:
+      short: 1 Jon
+    1Pet:
+      long: U-Pita
+    1Thess:
+      long: U-Tesallonaika
+    1Tim:
+      long: U-Timoti
+    2John:
+      long: JonoTalo-Sipamo
+      short: 2 Jon
+    3John:
+      long: Jono Yopoko-Sipamo
+      short: 3 Jon
+    Acts:
+      short: Lip
+    Eph:
+      short: Epe
+    Luke:
+      short: Luk
+    Rev:
+      long: Lipa Ora Sirimu

@@ -1,0 +1,41 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Mark
+    texts:
+      - Markus
+      - Mar
+  - osis: John
+    texts:
+      - Yohana
+  - osis: Acts
+    texts:
+      - Gaan
+      - Gmy
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Ɓoɓa Korinti
+      - Ɓkor.
+  - osis: Gal
+    texts:
+      - Ɓoɓa Galatiya
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotawus
+      - Ti
+  - osis: Jas
+    texts:
+      - Yakubu
+translations:
+  - JGK

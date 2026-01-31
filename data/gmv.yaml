@@ -1,0 +1,458 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Medheteththa Maxaafa
+      - ሜቴ ማጻፋ
+      - Medhe
+      - ሜ
+  - osis: Exod
+    texts:
+      - Kessa Maxaafa
+      - ኬሳ ማጻፋ
+      - Kessa
+      - ኬሳ
+  - osis: Lev
+    texts:
+      - Leweta Maxaafa
+      - ሌዌታ ማጻፋ
+      - Lewe
+      - ሌዌ
+  - osis: Num
+    texts:
+      - Taybo Maxaafa
+      - ታይቦ ማጻፋ
+      - Tay
+      - ታይ
+  - osis: Lam
+    texts:
+      - Ermaasa zilas
+      - ኤርማሳ ዚላስ
+      - Er Zila
+      - ኤር ዚላ
+  - osis: Rev
+    texts:
+      - Yohannisa Ajjuuta
+      - Revelation
+      - ዮሃኒሳ ኣጁታ
+      - Ajju
+      - ኣጁ
+  - osis: Deut
+    texts:
+      - Zaareththo Maxaafa
+      - ዛሬ ማጻፋ
+      - Zaare
+      - ዛሬ
+  - osis: Josh
+    texts:
+      - Iyaaso Maxaafa
+      - ኢያሶ ማጻፋ
+      - Iya
+      - ኢያ
+  - osis: Judg
+    texts:
+      - Daannata Maxaafa
+      - ዳናታ ማጻፋ
+      - Daanna
+      - ዳና
+  - osis: Ruth
+    texts:
+      - Uruti Maxaafa
+      - ኡሩቲ ማጻፋ
+      - Uru
+      - ኡሩ
+  - osis: Isa
+    texts:
+      - Isayaasa Tinbite
+      - ኢሳያሳ ቲንቢቴ
+      - Isa
+      - ኢሳ
+  - osis: 1Sam
+    texts:
+      - 1Sameela Maxaafa
+      - 1ሳሜላ ማጻፋ
+      - 1Same
+      - 1ሳሜ
+  - osis: 2Sam
+    texts:
+      - 2Sameela Maxaafa
+      - 2ሳሜላ ማጻፋ
+      - 2Same
+      - 2ሳሜ
+  - osis: 1Kgs
+    texts:
+      - 1Kawota Maxaafa
+      - 1ካዎታ ማጻፋ
+      - 1Kawo
+      - 1ካዎ
+  - osis: 2Kgs
+    texts:
+      - 2Kawota Maxaafa
+      - 2ካዎታ ማጻፋ
+      - 2Kawo
+      - 2ካዎ
+  - osis: 1Chr
+    texts:
+      - 1Taarike Maxaafa
+      - 1ታሪኬ ማጻፋ
+      - 1Taari
+      - 1ታሪ
+  - osis: 2Chr
+    texts:
+      - 2Taarike Maxaafa
+      - 2ታሪኬ ማጻፋ
+      - 2Taari
+      - 2ታሪ
+  - osis: Ezra
+    texts:
+      - Izra Maxaafa
+      - ኢዝራ ማጻፋ
+      - Iz
+      - ኢዝ
+  - osis: Neh
+    texts:
+      - Nahimiya Maxaafa
+      - ናሂሚያ ማጻፋ
+      - Nahi
+      - ናሂ
+  - osis: Esth
+    texts:
+      - Asteri Maxaafa
+      - ኣስቴሪ ማጻፋ
+      - As
+      - ኣስ
+  - osis: Job
+    texts:
+      - Iyoobe Maxaafa
+      - ኢዮቤ ማጻፋ
+      - Iyo
+      - ኢዮ
+  - osis: Ps
+    texts:
+      - Mazamure Maxaafa
+      - ዬ ማጻፋ
+      - Maza
+      - ማዛ
+  - osis: Prov
+    texts:
+      - Leemiso Maxaafa
+      - ሌሚሶ ማጻፋ
+      - Leemi
+      - ሌሚ
+  - osis: Eccl
+    texts:
+      - Eranchchata Maxaafa
+      - ኤራንቻታ ማጻፋ
+      - Era
+      - ኤራ
+  - osis: Song
+    texts:
+      - Siiqo Saba
+      - Siiqo
+      - ሲቆ ሳባ
+      - ሲቆ
+  - osis: Jer
+    texts:
+      - Ermaasa Tinbite
+      - ኤርማሳ ቲንቢቴ
+      - Er
+      - ኤር
+  - osis: Ezek
+    texts:
+      - Hiziqeela Tinbite
+      - ሂዚቄላ ቲንቢቴ
+      - Hizi
+      - ሂዚ
+  - osis: Dan
+    texts:
+      - Daaneela Tinbite
+      - ዳኔላ ቲንቢቴ
+      - Daane
+      - ዳኔ
+  - osis: Hos
+    texts:
+      - Hose7e Tinbite
+      - ሆሴኤ ቲንቢቴ
+      - Hose
+      - ሆሴ
+  - osis: Joel
+    texts:
+      - Iyu7eele Tinbite
+      - ኢዩኤሌ ቲንቢቴ
+      - Iyu
+      - ኢዩ
+  - osis: Amos
+    texts:
+      - Amoxe Tinbite
+      - ኣሞጼ ቲንቢቴ
+      - Amo
+      - ኣሞ
+  - osis: Obad
+    texts:
+      - Abdiyu Tinbite
+      - ኣብዲዩ ቲንቢቴ
+      - Ab
+      - ኣብ
+  - osis: Jonah
+    texts:
+      - Yoonaasa Tinbite
+      - ዮናሳ ቲንቢቴ
+      - Yoona
+      - ዮና
+  - osis: Mic
+    texts:
+      - Mikiyaasa Tinbite
+      - ሚኪያሳ ቲንቢቴ
+      - Miki
+      - ሚኪ
+  - osis: Nah
+    texts:
+      - Nahome Tinbite
+      - ናሆሜ ቲንቢቴ
+      - Naho
+      - ናሆ
+  - osis: Hab
+    texts:
+      - Imbaaqo Tinbite
+      - ኢምባቆ ቲንቢቴ
+      - Im
+      - ኢም
+  - osis: Zeph
+    texts:
+      - Sofonaasa Tinbite
+      - ሶፎናሳ ቲንቢቴ
+      - Sofo
+      - ሶፎ
+  - osis: Hag
+    texts:
+      - Hagge Tinbite
+      - ሃጌ ቲንቢቴ
+      - Hagge
+      - ሃጌ
+  - osis: Zech
+    texts:
+      - Zakaraasa Tinbite
+      - ዛካራሳ ቲንቢቴ
+      - Zaka
+      - ዛካ
+  - osis: Mal
+    texts:
+      - Milkaasa Tinbite
+      - ሚልካሳ ቲንቢቴ
+      - Mil
+      - ሚል
+  - osis: Matt
+    texts:
+      - Matoosa Mishiraachcho
+      - ማቶሳ ሚሺራቾ
+      - Maatosa
+      - Mato
+      - ማቶ
+  - osis: Mark
+    texts:
+      - Marqoosa Mishiraachcho
+      - Marqqossa
+      - ማርቆሳ ሚሺራቾ
+      - Mar
+      - ማር
+  - osis: Luke
+    texts:
+      - Luqaasa Mishiraachcho
+      - Luqaassa
+      - ሉቃሳ ሚሺራቾ
+      - Luqa
+      - ሉቃ
+  - osis: 1John
+    texts:
+      - 1Yohannisa Kiita
+      - 1ዮሃኒሳ ኪታ
+      - 1Yoha
+      - 1ዮሃ
+  - osis: 2John
+    texts:
+      - 2Yohannisa Kiita
+      - 2ዮሃኒሳ ኪታ
+      - 2Yoha
+      - 2ዮሃ
+  - osis: 3John
+    texts:
+      - 3Yohannisa Kiita
+      - 3 Yanisa
+      - 3ዮሃኒሳ ኪታ
+      - 3Yoha
+      - 3ዮሃ
+  - osis: John
+    texts:
+      - Yohannisa Mishiraachcho
+      - Yanisa Mishiracho
+      - ዮሃኒሳ ሚሺራቾ
+      - Yoha
+      - ዮሃ
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yanisa
+  - osis: Acts
+    texts:
+      - Kitetidayta Ootho
+      - Hawaareta Ooso
+      - ሃዋሬታ ኦሶ
+      - Hawa
+      - ሃዋ
+  - osis: Rom
+    texts:
+      - Oroome Asaas
+      - ኦሮሜ ኣሳስ
+      - Roome
+      - Oro
+      - ኦሮ
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Qoronttosa
+  - osis: 1Cor
+    texts:
+      - 1Qorontoose Asaas
+      - 1ቆሮንቶሴ ኣሳስ
+      - 1Qoro
+      - 1ቆሮ
+  - osis: 2Cor
+    texts:
+      - 2Qorontoose Asaas
+      - 2ቆሮንቶሴ ኣሳስ
+      - 2Qoro
+      - 2ቆሮ
+  - osis: Col
+    texts:
+      - Qolasiyaase Asaas
+      - Qolasiyasen
+      - ቆላሲያሴ ኣሳስ
+      - Qola
+      - ቆላ
+  - osis: Gal
+    texts:
+      - Galatiya Asaas
+      - Gelatiyan
+      - ጋላቲያ ኣሳስ
+      - Gala
+      - ጋላ
+  - osis: Eph
+    texts:
+      - Efesoone Asaas
+      - Efesoone
+      - ኤፌሶኔ ኣሳስ
+      - Efe
+      - ኤፌ
+  - osis: Phil
+    texts:
+      - Piliphisiyoose Asaas
+      - Piliphisiyosa
+      - ፒሊጲሲዮሴ ኣሳስ
+      - Pili
+      - ፒሊ
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Teslonqqe
+  - osis: 1Thess
+    texts:
+      - 1Tasolonqe Asaas
+      - 1ታሶሎንቄ ኣሳስ
+      - 1Taso
+      - 1ታሶ
+  - osis: 2Thess
+    texts:
+      - 2Tasolonqe Asaas
+      - 2ታሶሎንቄ ኣሳስ
+      - 2Taso
+      - 2ታሶ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Ximttoossa
+  - osis: 1Tim
+    texts:
+      - 1Ximtoosas
+      - 1ጺምቶሳስ
+      - 1Xim
+      - 1ጺም
+  - osis: 2Tim
+    texts:
+      - 2Ximtoosas
+      - 2ጺምቶሳስ
+      - 2Xim
+      - 2ጺም
+  - osis: Titus
+    texts:
+      - Titoosas
+      - Titosas
+      - Tito
+      - ቲቶሳስ
+      - ቲቶ
+  - osis: Phlm
+    texts:
+      - Pillimona
+      - Pilmoonas
+      - ፒልሞናስ
+      - Pilm
+      - ፒልም
+  - osis: Heb
+    texts:
+      - Ibraawe Asaas
+      - ኢብራዌ ኣሳስ
+      - Ibirawe
+      - Ib
+      - ኢብ
+  - osis: Jas
+    texts:
+      - Yaaqoobe Kiita
+      - Yaqobeppe
+      - ያቆቤ ኪታ
+      - Yaaqo
+      - ያቆ
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Phixxirosa
+  - osis: 1Pet
+    texts:
+      - 1Phexroosa Kiita
+      - 1ጴጽሮሳ ኪታ
+      - 1Phex
+      - 1ጴጽ
+  - osis: 2Pet
+    texts:
+      - 2Phexroosa Kiita
+      - 2ጴጽሮሳ ኪታ
+      - 2Phex
+      - 2ጴጽ
+  - osis: Jude
+    texts:
+      - Yuhuda Kiita
+      - Ayhude
+      - ዩሁዳ ኪታ
+      - Yuhu
+      - ዩሁ
+translations:
+  - GGMNT
+  - GM
+  - GAFBEV

@@ -1,0 +1,126 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - प्रकाशित वाक्य
+      - प्रका.
+  - osis: Matt
+    texts:
+      - मत्ती
+  - osis: Mark
+    texts:
+      - मरकु.
+      - मरकुस
+  - osis: Luke
+    texts:
+      - लुक.
+      - लुका
+  - osis: 3John
+    texts:
+      - 3 योहान
+      - 3 योह.
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - योहान
+      - योह.
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - योहान
+      - योहा
+  - osis: John
+    texts:
+      - योहान
+  - osis: Acts
+    texts:
+      - प्रेषि.
+      - प्रेषित
+  - osis: Rom
+    texts:
+      - रोम.
+      - रोमी
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - कुरीन्थियो
+      - कुरी.
+  - osis: Col
+    texts:
+      - कुलुस्सि
+      - कुलु.
+  - osis: Gal
+    texts:
+      - गलातियों
+      - गलाति
+  - osis: Eph
+    texts:
+      - इफिसीयो
+      - इफि.
+  - osis: Phil
+    texts:
+      - फिलिप्पि
+      - फिलि.
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - थिस्सलुनीकियो
+      - थिस्स.
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - थिस्सलुनीकियो
+      - थिस्स
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - तीमथी
+      - तीम
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - तीमथी
+      - तीम.
+  - osis: Titus
+    texts:
+      - तीतु.
+      - तीतुस
+  - osis: Phlm
+    texts:
+      - फिलेमोन
+      - फिले.
+  - osis: Heb
+    texts:
+      - इब्रानियो
+      - इब्रा.
+  - osis: Jas
+    texts:
+      - याकु.
+      - याकुब
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - पतरस
+      - पत.
+  - osis: Jude
+    texts:
+      - यहुदा
+      - यहु.
+translations:
+  - BFBNT

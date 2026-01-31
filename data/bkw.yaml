@@ -1,0 +1,107 @@
+books:
+  - osis: Rev
+    texts:
+      - Etɛp ɛ Sisim Zaŋ na bee
+      - Etp
+  - osis: Matt
+    texts:
+      - Matye
+      - Mat
+  - osis: Mark
+    texts:
+      - Malak
+      - Mak
+  - osis: Luke
+    texts:
+      - Luk
+  - osis: 1John
+    texts:
+      - Zaŋ yii Mɛkɛn
+      - 1Za
+  - osis: 2John
+    texts:
+      - Zaŋ yii Bhɔɔba
+      - 2Za
+  - osis: 3John
+    texts:
+      - Zaŋ yii Elɛl
+      - 3Za
+  - osis: John
+    texts:
+      - Zaŋ
+  - osis: Acts
+    texts:
+      - Mɛsa
+      - Mɛs
+  - osis: Rom
+    texts:
+      - Loma
+      - Lom
+  - osis: 1Cor
+    texts:
+      - Koolɛt yii Mɛkɛn
+      - 1Kl
+  - osis: 2Cor
+    texts:
+      - Koolɛt yii Bɔɔba
+      - 2Kl
+  - osis: Col
+    texts:
+      - Kolɔs
+      - Kol
+  - osis: Gal
+    texts:
+      - Ghalat
+      - Gha
+  - osis: Eph
+    texts:
+      - Efɛɛz
+      - Efɛ
+  - osis: Phil
+    texts:
+      - Filip
+      - Fil
+  - osis: 1Thess
+    texts:
+      - Tɛsalonik yii Mɛkɛn
+      - 1Tɛ
+  - osis: 2Thess
+    texts:
+      - Tɛsalonik yii Bɔɔba
+      - 2Tɛ
+  - osis: 1Tim
+    texts:
+      - Timote yii Mɛken
+      - 1Tm
+  - osis: 2Tim
+    texts:
+      - Timote yii Bɔɔba
+      - 2Tm
+  - osis: Titus
+    texts:
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemɔŋ
+      - Flm
+  - osis: Heb
+    texts:
+      - Ebele
+      - Ebe
+  - osis: Jas
+    texts:
+      - Zak
+  - osis: 1Pet
+    texts:
+      - Pyɛɛd yii Mɛkɛn
+      - 1Py
+  - osis: 2Pet
+    texts:
+      - Pyɛɛd yii Bhɔɔba
+      - 2Py
+  - osis: Jude
+    texts:
+      - Zuud
+      - Zud
+translations:
+  - BKWNT

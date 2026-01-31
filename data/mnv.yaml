@@ -1,0 +1,19 @@
+books:
+  - osis: Matt
+    texts:
+      - Matthew
+      - Mt
+  - osis: Mark
+    texts:
+      - Mark
+      - Mk
+  - osis: Luke
+    texts:
+      - Luke
+      - Lk
+  - osis: John
+    texts:
+      - John
+      - Jn
+translations:
+  - MNV

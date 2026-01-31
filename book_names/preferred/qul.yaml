@@ -1,0 +1,151 @@
+default:
+  1Cor:
+    long: 1 Co
+    short: 1 Co
+  1John:
+    long: 1 Jn
+    short: 1 Jn
+  1Pet:
+    long: 1 Pe
+    short: 1 P
+  1Thess:
+    long: 1 Te
+    short: 1 Te
+  1Tim:
+    long: 1 Ti
+    short: 1 Ti
+  2Cor:
+    long: 2 Co
+    short: 2 Co
+  2John:
+    long: 2 Jn
+    short: 2 Jn
+  2Pet:
+    long: 2 Pe
+    short: 2 P
+  2Thess:
+    long: 2 Te
+    short: 2 Te
+  2Tim:
+    long: 2 Ti
+    short: 2 Ti
+  3John:
+    long: 3 Jn
+    short: 3 Jn
+  Acts:
+    long: Hch
+    short: Hch
+  Col:
+    long: Col
+    short: Col
+  Eph:
+    long: Ef
+    short: Ef
+  Gal:
+    long: Gá
+    short: Gá
+  Heb:
+    long: Heb
+    short: He
+  Jas:
+    long: Santiago
+    short: Stg
+  John:
+    long: Jn
+    short: Jn
+  Jude:
+    long: Jud
+    short: Jud
+  Luke:
+    long: Lc
+    short: Lc
+  Mark:
+    long: Marcos
+    short: Mc
+  Matt:
+    long: Mateo
+    short: Mt
+  Phil:
+    long: Filipenses
+    short: Fil
+  Phlm:
+    long: Filemón
+    short: Flm
+  Rev:
+    long: Ap
+    short: Ap
+  Rom:
+    long: Rom
+    short: Ro
+  Titus:
+    long: Tit
+    short: Tit
+translations:
+  qnbnt:
+    1Cor:
+      long: 1 Corintios
+    1John:
+      long: 1 Juan
+    1Pet:
+      long: 1 Pedro
+    1Thess:
+      long: 1 Tesalonicenses
+      short: 1 Ts
+    1Tim:
+      long: 1 Timoteo
+    2Cor:
+      long: 2 Corintios
+    2John:
+      long: 2 Juan
+    2Pet:
+      long: 2 Pedro
+    2Thess:
+      long: 2 Tesalonicenses
+      short: 2 Ts
+    2Tim:
+      long: 2 Timoteo
+    3John:
+      long: 3 Juan
+    Acts:
+      long: Hechos
+    Col:
+      long: Colosenses
+    Eph:
+      long: Efesios
+    Gal:
+      long: Gálatas
+    Heb:
+      long: Hebreos
+    John:
+      long: Juan
+    Jude:
+      long: Judas
+    Luke:
+      long: Lucas
+    Rev:
+      long: Apocalipsis
+    Rom:
+      long: Romanos
+    Titus:
+      long: Tito
+  qul:
+    1Pet:
+      short: 1 Pe
+    2Pet:
+      short: 2 Pe
+    Heb:
+      short: Heb
+    Jas:
+      long: Stg
+    Mark:
+      long: Mr
+      short: Mr
+    Matt:
+      long: Mt
+    Phil:
+      long: Flp
+      short: Flp
+    Phlm:
+      long: Flm
+    Rom:
+      short: Rom

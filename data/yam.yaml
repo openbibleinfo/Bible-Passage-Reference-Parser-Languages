@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Bum Nwì à Nìtsə̀' Fa
+  - osis: Matt
+    texts:
+      - Màtiyò
+  - osis: Mark
+    texts:
+      - Mak
+  - osis: Luke
+    texts:
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jon
+  - osis: Acts
+    texts:
+      - Ŋgàa Ntum Jisòs
+  - osis: Rom
+    texts:
+      - Rumà
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korè
+  - osis: Col
+    texts:
+      - Kòlosì
+  - osis: Gal
+    texts:
+      - Gàlesiyà
+  - osis: Eph
+    texts:
+      - Efesò
+  - osis: Phil
+    texts:
+      - Fìlipiyà
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tètàlonikà
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timatì
+  - osis: Titus
+    texts:
+      - Taitòs
+  - osis: Phlm
+    texts:
+      - Filimʉ̀
+  - osis: Heb
+    texts:
+      - Hibrù
+  - osis: Jas
+    texts:
+      - Jem
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pità
+  - osis: Jude
+    texts:
+      - Jud
+translations:
+  - YAM

@@ -1,0 +1,456 @@
+variables:
+  first: &first
+    - "1"
+    - Першая
+    - Першы
+  second: &second
+    - "2"
+    - Другая
+    - Другі
+books:
+  - osis: Gen
+    texts:
+      - Кніга Роду
+      - Быцьцё
+      - Быццё
+      - Род.
+  - osis: Exod
+    texts:
+      - Кніга Выхаду
+      - Выхад
+      - Вых.
+  - osis: Lev
+    texts:
+      - Кніга Святарская
+      - Святар.
+      - Лявіт
+  - osis: Num
+    texts:
+      - Кніга Лічбаў
+      - Лікі
+      - Ліч.
+  - osis: Sir
+    texts:
+      - Мудрасць Ісуса, сына Сіраха
+      - Эклезіясціка
+      - Сірах.
+  - osis: Wis
+    texts:
+      - Кніга Мудрасці
+      - Мудр.
+  - osis: Lam
+    texts:
+      - Ламентацыі Ярэміі
+      - Ламен.
+      - Плач
+  - osis: Rev
+    texts:
+      - Адкрыццё Яна
+      - Адкрыцьцё
+      - Адкрыццё
+      - Адкр.
+      - Адкр
+  - osis: Deut
+    texts:
+      - Кніга Паўторанага Закону
+      - Другазаконьне
+      - Другі Закон
+      - Паўт. Зак.
+  - osis: Josh
+    texts:
+      - Кніга Ешуа
+      - Егошуа
+      - Ісуса
+      - Еш.
+  - osis: Judg
+    texts:
+      - Кніга Суддзяў
+      - Судзьдзяў
+      - Суд.
+  - osis: Ruth
+    texts:
+      - Кніга Рут
+      - Рут
+  - osis: Isa
+    texts:
+      - Кніга Ісаі
+      - Ісаі
+      - Ісая
+      - Іс.
+  - osis: 1Sam
+    texts:
+      - 1Сам.
+  - osis: 2Sam
+    texts:
+      - 2Сам.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - кніга Цароў
+      - Валадароў
+  - osis: 1Kgs
+    texts:
+      - 3 Царстваў
+      - 1Цар.
+  - osis: 2Kgs
+    texts:
+      - 4 Царстваў
+      - 2Цар.
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - кніга Самуэля
+      - Царстваў
+      - Самуэля
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - кніга Хронікаў
+      - Летапісаў
+  - osis: 1Chr
+    texts:
+      - 1Пар.
+  - osis: 2Chr
+    texts:
+      - 2Пар.
+  - osis: Ezra
+    texts:
+      - Кніга Эздры
+      - Эздр.
+      - Эздры
+      - Эзра
+  - osis: Neh
+    texts:
+      - Кніга Нэгэміі
+      - Нэгэм.
+      - Нээміі
+      - Нээмія
+  - osis: Esth
+    texts:
+      - Кніга Эстэр
+      - Эстэр
+  - osis: Job
+    texts:
+      - Кніга Ёва
+      - Ёва
+      - Ёў
+  - osis: Ps
+    texts:
+      - Кніга Псальмаў
+      - Псалтыр
+      - Псальмы
+      - Пс.
+  - osis: Prov
+    texts:
+      - Кніга Выслоўяў Саламонавых
+      - Прыповесьці
+      - Выслоўі
+      - Высл.
+      - Прп
+  - osis: Eccl
+    texts:
+      - Кніга Эклезіяста
+      - Эклезіяста
+      - Эклезіяст
+      - Экл.
+  - osis: Song
+    texts:
+      - Песня з Песняў Саламонава
+      - Песьня
+      - Песн.
+  - osis: Jer
+    texts:
+      - Кніга Ярэміі
+      - Ераміі
+      - Ярэмія
+      - Ярэм.
+  - osis: Ezek
+    texts:
+      - Кніга Эзэкіэля
+      - Езэкііля
+      - Эзэкіэль
+      - Эзэк.
+  - osis: Dan
+    texts:
+      - Кніга Даніэля
+      - Данііла
+      - Данііл
+      - Дан.
+  - osis: Hos
+    texts:
+      - Кніга Осіі
+      - Асіі
+      - Осія
+      - Ос.
+  - osis: Joel
+    texts:
+      - Кніга Ёэля
+      - Ёіля
+      - Ёэль
+  - osis: Amos
+    texts:
+      - Кніга Амоса
+      - Амоса
+      - Амос
+      - Ам.
+  - osis: Obad
+    texts:
+      - Кніга Абдыі
+      - Абадыя
+      - Аўдзея
+      - Абд.
+  - osis: Jonah
+    texts:
+      - Кніга Ёны
+      - Ёна
+      - Ёны
+  - osis: Mic
+    texts:
+      - Кніга Міхея
+      - Міхей
+      - Міхея
+      - Міх.
+  - osis: Nah
+    texts:
+      - Кніга Навума
+      - Навума
+      - Навум
+  - osis: Hab
+    texts:
+      - Кніга Абакука
+      - Абакума
+      - Абакум
+      - Абак.
+  - osis: Zeph
+    texts:
+      - Кніга Сафоніі
+      - Сафонія
+      - Сафона
+      - Саф.
+  - osis: Hag
+    texts:
+      - Кніга Агэя
+      - Агей
+      - Агея
+      - Аг.
+  - osis: Zech
+    texts:
+      - Кніга Захарыі
+      - Захарыі
+      - Захарыя
+      - Зах.
+  - osis: Mal
+    texts:
+      - Кніга Малахіі
+      - Малахіі
+      - Малахія
+      - Мал.
+  - osis: Matt
+    texts:
+      - Евангелле паводле Мацвея
+      - Мацьвея
+      - Мц.
+      - Мц
+  - osis: Mark
+    texts:
+      - Евангелле паводле Марка
+      - Марка
+      - Мк.
+      - Мк
+  - osis: Luke
+    texts:
+      - Евангелле паводле Лукі
+      - Лукаша
+      - Лукі
+      - Лк.
+      - Лк
+  - osis: 1John
+    texts:
+      - 1Ян.
+  - osis: 2John
+    texts:
+      - 2Ян.
+  - osis: 3John
+    texts:
+      - Трэці ліст Яна
+      - 3 Яна
+      - 3 Ян
+      - 3Ян.
+  - osis: John
+    texts:
+      - Евангелле паводле Яна
+      - Ян.
+      - Яна
+      - Ян
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - ліст Яна
+      - Яна
+      - Ян
+  - osis: Acts
+    texts:
+      - Дзеі святых Апосталаў
+      - Дзеі
+      - Дз
+  - osis: Rom
+    texts:
+      - Ліст да Рымлянаў
+      - Рымлянаў
+      - Рым.
+      - Рым
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - ліст да Карынцянаў
+      - Карыньцянаў
+      - Карынфянаў
+      - Кар
+  - osis: 1Cor
+    texts:
+      - 1Кар.
+  - osis: 2Cor
+    texts:
+      - 2Кар.
+  - osis: Col
+    texts:
+      - Ліст да Калосцаў
+      - Каласянаў
+      - Клс.
+      - Кал
+  - osis: Gal
+    texts:
+      - Ліст да Галатаў
+      - Галятаў
+      - Гал.
+      - Гал
+  - osis: Eph
+    texts:
+      - Ліст да Эфесцаў
+      - Эфэсянаў
+      - Эфэсцаў
+      - Эф.
+      - Эф
+  - osis: Phil
+    texts:
+      - Ліст да Піліпцаў
+      - Піліпянаў
+      - Філіпянаў
+      - Плп.
+      - Флп
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - ліст да Тэсалонцаў
+      - Фесалонікійцаў
+      - Тэсалонцаў
+      - Тэс
+  - osis: 1Thess
+    texts:
+      - 1Тэс.
+  - osis: 2Thess
+    texts:
+      - 2Тэс.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - ліст да Цімафея
+      - Цімафея
+      - Цім
+  - osis: 1Tim
+    texts:
+      - 1Цім.
+  - osis: 2Tim
+    texts:
+      - 2Цім.
+  - osis: Titus
+    texts:
+      - Ліст да Ціта
+      - Ціт.
+      - Ціта
+      - Ціт
+  - osis: Phlm
+    texts:
+      - Ліст да Філімона
+      - Філімона
+      - Флм.
+      - Флм
+  - osis: Heb
+    texts:
+      - Ліст да Гебраяў
+      - Габрэяў
+      - Гебраяў
+      - Геб.
+      - Гебр
+  - osis: Jas
+    texts:
+      - Ліст Якуба
+      - Якава
+      - Якуба
+      - Як.
+      - Як
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - ліст Пётры
+      - Пятра
+      - Пт
+  - osis: 1Pet
+    texts:
+      - 1Пёт.
+  - osis: 2Pet
+    texts:
+      - 2Пёт.
+  - osis: Jude
+    texts:
+      - Ліст Юды
+      - Юда
+      - Юды
+  - osis: Tob
+    texts:
+      - Кніга Тобіі
+      - Тоб.
+  - osis: Jdt
+    texts:
+      - Кніга Юдыт
+      - Юдыт
+  - osis: Bar
+    texts:
+      - Кніга Баруха
+      - Барух
+  - osis: 1Macc
+    texts:
+      - 1-я Кніга Макабэяў
+      - 1Мак.
+  - osis: 2Macc
+    texts:
+      - 2-я Кніга Макабэяў
+      - 2Мак.
+translations:
+  - BBB
+  - BBL
+  - BELBC17

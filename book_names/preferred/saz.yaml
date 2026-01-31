@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 சரித்ரு
+    short: 1 சரி
+  1Cor:
+    long: 1 கொரிந்தியர்
+    short: 1 கொரி
+  1John:
+    long: 1 யோவான்
+    short: 1 யோவா
+  1Kgs:
+    long: 1 ரஜான்
+    short: 1 ரஜா
+  1Pet:
+    long: 1 பேதுரு
+    short: 1 பேதுரு
+  1Sam:
+    long: 1 சாமுயேல்
+    short: 1 சாமு
+  1Thess:
+    long: 1 தெசலோனிக்கேயர்
+    short: 1 தெச
+  1Tim:
+    long: 1 தீமோத்தேயு
+    short: 1 தீமோ
+  2Chr:
+    long: 2 சரித்ரு
+    short: 2 சரி
+  2Cor:
+    long: 2 கொரிந்தியர்
+    short: 2 கொரி
+  2John:
+    long: 2 யோவான்
+    short: 2 யோவா
+  2Kgs:
+    long: 2 ரஜான்
+    short: 2 ரஜா
+  2Pet:
+    long: 2 பேதுரு
+    short: 2 பேதுரு
+  2Sam:
+    long: 2 சாமுயேல்
+    short: 2 சாமு
+  2Thess:
+    long: 2 தெசலோனிக்கேயர்
+    short: 2 தெச
+  2Tim:
+    long: 2 தீமோத்தேயு
+    short: 2 தீமோ
+  3John:
+    long: 3 யோவான்
+    short: 3 யோவா
+  Acts:
+    long: அப்போஸ்தலர்
+    short: அப்
+  Amos:
+    long: ஆமோஸ்
+    short: ஆமோ
+  Col:
+    long: கொலோசெயர்
+    short: கொலோ
+  Dan:
+    long: தானியேல்
+    short: தானி
+  Deut:
+    long: உபாகமம்
+    short: உபா
+  Eccl:
+    long: பிரஸங்கி
+    short: பிர
+  Eph:
+    long: எபேசியர்
+    short: எபே
+  Esth:
+    long: எஸ்தர்
+    short: எஸ்
+  Exod:
+    long: யாத்ராகமம்
+    short: யாத்
+  Ezek:
+    long: எசேக்கியேல்
+    short: எசே
+  Ezra:
+    long: எஸ்ரா
+    short: எஸ்ரா
+  Gal:
+    long: கலாத்தியர்
+    short: கலா
+  Gen:
+    long: ஆதியாகமம்
+    short: ஆதி
+  Hab:
+    long: ஆபகூக்
+    short: ஆப
+  Hag:
+    long: ஆகாய்
+    short: ஆகா
+  Heb:
+    long: எபிரேயர்
+    short: எபி
+  Hos:
+    long: ஓசியா
+    short: ஓசி
+  Isa:
+    long: ஏசாயா
+    short: ஏசா
+  Jas:
+    long: யாக்கோபு
+    short: யாக்
+  Jer:
+    long: எரேமியா
+    short: எரே
+  Job:
+    long: யோபு
+    short: யோபு
+  Joel:
+    long: யோயேல்
+    short: யோயேல்
+  John:
+    long: யோவான்
+    short: யோவா
+  Jonah:
+    long: யோனா
+    short: யோனா
+  Josh:
+    long: யோசுவா
+    short: யோசு
+  Jude:
+    long: யூதா
+    short: யூதா
+  Judg:
+    long: நியாயாதிபதின்
+    short: நியா
+  Lam:
+    long: ரொட்னி
+    short: ரொட்னி
+  Lev:
+    long: லேவியராகமம்
+    short: லேவி
+  Luke:
+    long: லூக்கா
+    short: லூக்
+  Mal:
+    long: மல்கியா
+    short: மல்
+  Mark:
+    long: மாற்கு
+    short: மாற்கு
+  Matt:
+    long: மத்தேயு
+    short: மத்
+  Mic:
+    long: மீகா
+    short: மீகா
+  Nah:
+    long: நாகூம்
+    short: நாகூ
+  Neh:
+    long: நெகேமியா
+    short: நெகே
+  Num:
+    long: ஸங்க்²யாகமம்
+    short: ஸங்க்
+  Obad:
+    long: ஒபதியா
+    short: ஒப
+  Phil:
+    long: பிலிப்பியர்
+    short: பிலி
+  Phlm:
+    long: பிலேமோன்
+    short: பிலே
+  Prov:
+    long: நீதி வத்தான்
+    short: நீதி
+  Ps:
+    long: ஸங்கீதுன்
+    short: ஸங்
+  Rev:
+    long: தர்ஸன புஸ்தவ்
+    short: தர்ஸன
+  Rom:
+    long: ரோமர்
+    short: ரோமர்
+  Ruth:
+    long: ரூத்
+    short: ரூத்
+  Song:
+    long: உன்னத கீத்
+    short: உன்
+  Titus:
+    long: தீத்து
+    short: தீத்
+  Zech:
+    long: சகரியா
+    short: சக
+  Zeph:
+    long: செப்பனியா
+    short: செப்

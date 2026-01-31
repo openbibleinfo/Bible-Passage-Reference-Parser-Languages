@@ -1,0 +1,224 @@
+default:
+  1Chr:
+    long: 1 Khronikl
+    short: 1 Khrn.
+  1Cor:
+    long: 1 Korinth
+    short: 1 Kor.
+  1John:
+    long: 1 Ïoannis
+    short: 1 Ïoan.
+  1Kgs:
+    long: 1 Syiem
+    short: 1 Syiem.
+  1Pet:
+    long: 1 Petros
+    short: 1 Pet.
+  1Sam:
+    long: 1 Samuel
+    short: 1 Sam.
+  1Thess:
+    long: 1 Thessaloni
+    short: 1 Thes.
+  1Tim:
+    long: 1 Timothi
+    short: 1 Tim.
+  2Chr:
+    long: 2 Khronikl
+    short: 2 Khrn.
+  2Cor:
+    long: 2 Korinth
+    short: 2 Kor.
+  2John:
+    long: 2 Ïoannis
+    short: 2 Ïoan.
+  2Kgs:
+    long: 2 Syiem
+    short: 2 Syiem.
+  2Pet:
+    long: 2 Petros
+    short: 2 Pet.
+  2Sam:
+    long: 2 Samuel
+    short: 2 Sam.
+  2Thess:
+    long: 2 Thessaloni
+    short: 2 Thes.
+  2Tim:
+    long: 2 Timothi
+    short: 2 Tim.
+  3John:
+    long: 3 Ïoannis
+    short: 3 Ïoan.
+  Acts:
+    long: Ki Kam
+    short: Ki Kam.
+  Amos:
+    long: Amos
+    short: Amo.
+  Col:
+    long: Kolossai
+    short: Kol.
+  Dan:
+    long: Daniel
+    short: Dan.
+  Deut:
+    long: Deuteronomi
+    short: Deu.
+  Eccl:
+    long: Ekklesiastis
+    short: Ekl.
+  Eph:
+    long: Ephesos
+    short: Eph.
+  Esth:
+    long: Esther
+    short: Est.
+  Exod:
+    long: Eksodos
+    short: Eks.
+  Ezek:
+    long: Esekiel
+    short: Ese.
+  Ezra:
+    long: Esra
+    short: Esr.
+  Gal:
+    long: Galatia
+    short: Gal.
+  Gen:
+    long: Jenesis
+    short: Jen.
+  Hab:
+    long: Habakkuk
+    short: Hab.
+  Hag:
+    long: Haggai
+    short: Hag.
+  Heb:
+    long: Hebru
+    short: Heb.
+  Hos:
+    long: Hosia
+    short: Hos.
+  Isa:
+    long: Isaïah
+    short: Isa.
+  Jas:
+    long: Jakob
+    short: Jak.
+  Jer:
+    long: Jeremaïah
+    short: Jer.
+  Job:
+    long: Job
+    short: Job.
+  Joel:
+    long: Joel
+    short: Joel.
+  John:
+    long: Ïoannis
+    short: Ïoan.
+  Jonah:
+    long: Jonah
+    short: Jon.
+  Josh:
+    long: Joshua
+    short: Jos.
+  Jude:
+    long: Judah
+    short: Jud.
+  Judg:
+    long: Nongbishar
+    short: Nbshr.
+  Lam:
+    long: Jingrwai Sngewsynei
+    short: JngSnei.
+  Lev:
+    long: Lebitikos
+    short: Leb.
+  Luke:
+    long: Loukas
+    short: Luk.
+  Mal:
+    long: Malakhi
+    short: Mal.
+  Mark:
+    long: Markos
+    short: Mrk.
+  Matt:
+    long: Mathaïos
+    short: Mat.
+  Mic:
+    long: Mikah
+    short: Mik.
+  Nah:
+    long: Nahum
+    short: Nah.
+  Neh:
+    long: Nehemaïah
+    short: Neh.
+  Num:
+    long: Jingkheiñ
+    short: Jkhñ.
+  Obad:
+    long: Obadaïah
+    short: Oba.
+  Phil:
+    long: Philippi
+    short: Php.
+  Phlm:
+    long: Philemon
+    short: Phlm.
+  Prov:
+    long: Proberb
+    short: Pro.
+  Ps:
+    long: Salm
+    short: Salm.
+  Rev:
+    long: Jingpynpaw
+    short: Jpw.
+  Rom:
+    long: Rom
+    short: Rom.
+  Ruth:
+    long: Ruth
+    short: Rut.
+  Song:
+    long: Jingrwai Solomon
+    short: JngSol.
+  Titus:
+    long: Titos
+    short: Tit.
+  Zech:
+    long: Sekharaïah
+    short: Sekh.
+  Zeph:
+    long: Sephanaïah
+    short: Seph.
+translations:
+  khaclbsi:
+    1Thess:
+      short: 1 Thess.
+    2Thess:
+      short: 2 Thess.
+    Deut:
+      short: Deut.
+    Eccl:
+      long: Eklesiastis
+    Ezra:
+      short: Esra.
+    Josh:
+      short: Josh.
+    Matt:
+      long: Matthaïos
+    Rev:
+      long: Ka Jingpynpaw
+  khb:
+    Joel:
+      short: Jol.
+    Lam:
+      long: Sngewsynei
+    Num:
+      short: Jkñ.

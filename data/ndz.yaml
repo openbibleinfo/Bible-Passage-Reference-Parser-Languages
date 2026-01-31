@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Có Kóó
+  - osis: Matt
+    texts:
+      - Màtéyò
+  - osis: Mark
+    texts:
+      - Márìkò
+  - osis: Luke
+    texts:
+      - Lúkà
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jòvánì
+  - osis: Acts
+    texts:
+      - Ndâ Nèté
+  - osis: Rom
+    texts:
+      - Rómà
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kòríndì
+  - osis: Col
+    texts:
+      - Kòlósìyà
+  - osis: Gal
+    texts:
+      - Gàlátì
+  - osis: Eph
+    texts:
+      - Éfàsù
+  - osis: Phil
+    texts:
+      - Fìlípì
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tèsàlónìkà
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tìmàtéyò
+  - osis: Titus
+    texts:
+      - Títò
+  - osis: Phlm
+    texts:
+      - Fílímònì
+  - osis: Heb
+    texts:
+      - Ìbìráyò
+  - osis: Jas
+    texts:
+      - Jákòmò
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pìyétòrò
+  - osis: Jude
+    texts:
+      - Júdà
+translations:
+  - NDZ

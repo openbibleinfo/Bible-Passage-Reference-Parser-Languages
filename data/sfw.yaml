@@ -1,0 +1,269 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Gyenesise
+      - Gye
+  - osis: Exod
+    texts:
+      - Ɛksadɔso
+      - Ɛks
+  - osis: Lev
+    texts:
+      - Lewitikɔso
+      - Lew
+  - osis: Num
+    texts:
+      - Numeri
+      - Num
+  - osis: Lam
+    texts:
+      - Awuye
+      - Awu
+  - osis: Rev
+    texts:
+      - Nyekyire
+      - Nye
+  - osis: Deut
+    texts:
+      - Deuteronomi
+      - Deut
+  - osis: Josh
+    texts:
+      - Yosua
+      - Yos
+  - osis: Judg
+    texts:
+      - Maenbulɛfoɛ
+      - Mae
+  - osis: Ruth
+    texts:
+      - Rutu
+  - osis: Isa
+    texts:
+      - Yesaya
+      - Yes
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Ahemvo
+      - Ahe
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Aberɛso Dwirɛ
+      - Abe
+  - osis: Ezra
+    texts:
+      - Ɛsra
+      - Ɛsr
+  - osis: Neh
+    texts:
+      - Nehemia
+      - Neh
+  - osis: Esth
+    texts:
+      - Ɛseta
+      - Ɛst
+  - osis: Job
+    texts:
+      - Yob
+  - osis: Prov
+    texts:
+      - Anyandera
+      - Any
+  - osis: Eccl
+    texts:
+      - Nworɛ Dwirɛhanɛniɛ
+      - Nwo
+  - osis: Song
+    texts:
+      - Edwein Nu Dwein
+      - Edw Nu
+  - osis: Ps
+    texts:
+      - Edwein
+      - Edw
+  - osis: Jer
+    texts:
+      - Yeremia
+      - Yer
+  - osis: Ezek
+    texts:
+      - Hesekiel
+      - Hes
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan
+  - osis: Hos
+    texts:
+      - Hosea
+      - Hos
+  - osis: Joel
+    texts:
+      - Yoel
+      - Yow
+  - osis: Amos
+    texts:
+      - Amose
+      - Amo
+  - osis: Obad
+    texts:
+      - Obadia
+      - Oba
+  - osis: Jonah
+    texts:
+      - Yona
+  - osis: Mic
+    texts:
+      - Mika
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuku
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sefania
+      - Sef
+  - osis: Hag
+    texts:
+      - Hagae
+      - Hag
+  - osis: Zech
+    texts:
+      - Sakaria
+      - Sak
+  - osis: Mal
+    texts:
+      - Malaki
+      - Mal
+  - osis: Matt
+    texts:
+      - Mateo
+      - Mat
+  - osis: Mark
+    texts:
+      - Marko
+      - Mak
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohane
+      - Yoh
+  - osis: Acts
+    texts:
+      - Asomafoɛ
+      - Aso
+  - osis: Rom
+    texts:
+      - Romanfoɛ
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintofoɛ
+      - Kor
+  - osis: Col
+    texts:
+      - Kolosefoɛ
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatiafoɛ
+      - Gal
+  - osis: Eph
+    texts:
+      - Ɛfesofoɛ
+      - Ɛfe
+  - osis: Phil
+    texts:
+      - Filipifoɛ
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Tɛsalonikafoɛ
+      - Tɛs
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tɛsalonika
+      - Tɛs
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+      - Tim
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemɔn
+      - Flm
+  - osis: Heb
+    texts:
+      - Hebrifoɛ
+      - Heb
+  - osis: Jas
+    texts:
+      - Yakobo
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petro
+      - Pet
+  - osis: Jude
+    texts:
+      - Yuda
+      - Yud
+translations:
+  - EBP

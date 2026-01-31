@@ -1,0 +1,399 @@
+variables:
+  first: &first
+    - "1"
+    - १
+  second: &second
+    - "2"
+    - २
+books:
+  - osis: Gen
+    texts:
+      - उत्पत्तिको पुस्तक
+      - उत्‍पत्ति
+      - उत्पत्ति
+      - उत्प
+      - उत
+  - osis: Exod
+    texts:
+      - प्रस्थानको पुस्तक
+      - प्रस्‍थान
+      - प्रस्थान
+      - प्रस
+  - osis: Lev
+    texts:
+      - लेवीहरूको पुस्तक
+      - लेवीहरू
+      - लेवी
+  - osis: Num
+    texts:
+      - गन्तीको पुस्तक
+      - गन्‍ती
+      - गन्ती
+  - osis: Lam
+    texts:
+      - यर्मियाको विलाप
+      - विलाप
+      - विला
+  - osis: Rev
+    texts:
+      - यूहन्नालाई भएको प्रकाश
+      - प्रकाश
+      - प्रका
+  - osis: Deut
+    texts:
+      - व्यवस्थाको पुस्तक
+      - व्‍यवस्‍था
+      - व्यवस्था
+      - व्‍य
+      - व्यव
+  - osis: Josh
+    texts:
+      - यहोशूको पुस्तक
+      - यहोशू
+      - यहो
+  - osis: Judg
+    texts:
+      - न्यायकर्ताहरूको पुस्तक
+      - न्यायकर्ताहरू
+      - न्यायकर्ता
+      - न्‍याय
+      - न्याय
+  - osis: Ruth
+    texts:
+      - रूथको पुस्तक
+      - रूथ
+  - osis: Isa
+    texts:
+      - यशैयाको पुस्तक
+      - यशैया
+      - यशै
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - शमूएल
+      - शमू
+  - osis: 1Sam
+    texts:
+      - शमूएलको पहिलो पुस्तक
+  - osis: 2Sam
+    texts:
+      - शमूएलको दोस्रो पुस्तक
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - राजाहरू
+      - राजा
+      - राज
+  - osis: 1Kgs
+    texts:
+      - राजाहरूक पहिल पुस्तक
+      - 1राजाहरू
+  - osis: 2Kgs
+    texts:
+      - राजाहरूको दोस्रो पुस्तक
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - इतिहास
+      - इति
+  - osis: 1Chr
+    texts:
+      - इतिहासको पहिलो पुस्तक
+  - osis: 2Chr
+    texts:
+      - इतिहासको दोस्रो पुस्तक
+  - osis: Ezra
+    texts:
+      - एज्राको पुस्तक
+      - एज्रा
+  - osis: Neh
+    texts:
+      - नहेम्याहको पुस्तक
+      - नहेम्‍याह
+      - नहेम्याह
+      - नहे
+  - osis: Esth
+    texts:
+      - एस्तरको पुस्तक
+      - एस्‍तर
+      - एस्तर
+      - एस
+  - osis: Job
+    texts:
+      - अय्यूबको पुस्तक
+      - अय्‍यूब
+      - अय्यूब
+      - इयोब
+      - अयू
+  - osis: Ps
+    texts:
+      - भजनसंग्रह
+      - भजन
+      - भज
+  - osis: Prov
+    texts:
+      - हितोपदेशको पुस्तक
+      - हितोपदेश
+      - हितो
+  - osis: Eccl
+    texts:
+      - उपदेशकको पुस्तक
+      - उपदेशक
+      - उप
+  - osis: Song
+    texts:
+      - सुलेमानको श्रेष्ठगीत
+      - श्रेष्‍ठगीत
+      - श्रेष्ठगीत
+      - श्रेष्‍ठ
+  - osis: Jer
+    texts:
+      - यर्मियाको पुस्तक
+      - यर्मिया
+      - यर
+  - osis: Ezek
+    texts:
+      - इजकिएलको पुस्तक
+      - इजकिएल
+      - इज
+  - osis: Dan
+    texts:
+      - दानियलको पुस्तक
+      - दानिएल
+      - दानियल
+      - दानि
+      - दान
+  - osis: Hos
+    texts:
+      - होशेको पुस्तक
+      - होशे
+  - osis: Joel
+    texts:
+      - योएलको पुस्तक
+      - योएल
+      - योए
+  - osis: Amos
+    texts:
+      - आमोसको पुस्तक
+      - आमोस
+      - आमो
+  - osis: Obad
+    texts:
+      - ओबदियाको पुस्तक
+      - ओबदिया
+      - ओब
+  - osis: Jonah
+    texts:
+      - योनाको पुस्तक
+      - योना
+  - osis: Mic
+    texts:
+      - मीकाको पुस्तक
+      - मीका
+  - osis: Nah
+    texts:
+      - नहूमको पुस्तक
+      - नहूम
+      - नहू
+  - osis: Hab
+    texts:
+      - हबकूकको पुस्तक
+      - हबकूक
+      - हब
+  - osis: Zeph
+    texts:
+      - सपन्याहको पुस्तक
+      - सपन्‍याह
+      - सपन्याह
+      - सप
+  - osis: Hag
+    texts:
+      - हाग्गैको पुस्तक
+      - हाग्‍गै
+      - हाग्गै
+      - हाग
+  - osis: Zech
+    texts:
+      - जकरियाको पुस्तक
+      - जकरिया
+      - जक
+  - osis: Mal
+    texts:
+      - मलाकीको पुस्तक
+      - मलाकी
+      - मला
+  - osis: Matt
+    texts:
+      - मत्तीको सुसमाचार
+      - मत्ती
+  - osis: Mark
+    texts:
+      - मर्कूसको सुसमाचार
+      - मर्कूस
+      - मर्कू
+      - मर्क
+  - osis: Luke
+    texts:
+      - लूकाको सुसमाचार
+      - लूका
+      - लूक
+  - osis: 1John
+    texts:
+      - यूहन्नाको पहिलो पत्र
+  - osis: 2John
+    texts:
+      - यूहन्नाको दोस्रो पत्र
+  - osis: 3John
+    texts:
+      - यूहन्नाको तेस्रो पत्र
+      - 3 यूहन्‍ना
+      - ३ यूहन्‍ना
+      - 3 यूहन्ना
+      - 3 यूह
+      - ३ यूह
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - यूहन्‍ना
+      - यूहन्ना
+      - यूह
+  - osis: John
+    texts:
+      - यूहन्नाको सुसमाचार
+      - यूहन्‍ना
+      - यूहन्ना
+      - यूह
+  - osis: Acts
+    texts:
+      - प्रेरितहरूका काम
+      - प्रेरित
+      - प्रे
+  - osis: Rom
+    texts:
+      - रोमीहरूलाई पावलको पत्र
+      - रोमी
+      - रोम
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - कोरिन्थी
+      - कोरि
+      - कोर
+  - osis: 1Cor
+    texts:
+      - कोरिन्थीहरूलाई पावलको पहिलो पत्र
+  - osis: 2Cor
+    texts:
+      - कोरिन्थीहरूलाई पावलको दोस्रो पत्र
+  - osis: Col
+    texts:
+      - कलस्सीहरूलाई पावलको पत्र
+      - कलस्सी
+      - कल
+  - osis: Gal
+    texts:
+      - गलातीहरूलाई पावलको पत्र
+      - गलाती
+      - गला
+  - osis: Eph
+    texts:
+      - एफिसीहरूलाई पावलको पत्र
+      - एफिसी
+      - एफि
+  - osis: Phil
+    texts:
+      - फिलिप्पीहरूलाई पावलको पत्र
+      - फिलिप्पी
+      - फिलि
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - थिस्सलोनिकी
+      - थेसलोनिकी
+      - थेस
+  - osis: 1Thess
+    texts:
+      - थिस्सलोनिकीहरूलाई पावलको पहिलो पत्र
+  - osis: 2Thess
+    texts:
+      - थिस्सलोनिकीहरूलाई पावलको दोस्रो पत्र
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - तिमोथी
+      - तिमो
+  - osis: 1Tim
+    texts:
+      - तिमोथीलाईर् पावलको पहिलो पत्र
+  - osis: 2Tim
+    texts:
+      - तिमोथीलाई पावलको दोस्रो पत्र
+  - osis: Titus
+    texts:
+      - तीतसलाई पावलको पत्र
+      - तीतस
+      - तीत
+  - osis: Phlm
+    texts:
+      - फिलेमोनलाई पावलको पत्र
+      - फिलेमोन
+      - फिले
+  - osis: Heb
+    texts:
+      - हिब्रूहरूको निम्ति पत्र
+      - हिब्रूहरू
+      - हिब्रू
+      - हिब
+  - osis: Jas
+    texts:
+      - याकूबको पत्र
+      - याकूब
+      - याकोब
+      - याको
+      - याक
+  - osis: 1Pet
+    texts:
+      - पत्रुसको पहिलो पत्र
+  - osis: 2Pet
+    texts:
+      - पत्रुसको दोस्रो पत्र
+  - osis: Jude
+    texts:
+      - यहूदाको पत्र
+      - यहूदा
+      - यहू
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - पत्रुस
+      - पत्रु
+      - पत्र
+translations:
+  - NNRV
+  - NCV
+  - NERV
+  - SNHB

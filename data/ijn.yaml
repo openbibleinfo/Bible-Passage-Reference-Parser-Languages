@@ -1,0 +1,269 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Suku-saakị
+      - Suk
+  - osis: Exod
+    texts:
+      - Paka-so
+      - Pks
+  - osis: Lev
+    texts:
+      - Lẹvitikọsị
+      - Lẹv
+  - osis: Num
+    texts:
+      - Kịẹn-aḅịḅị
+      - Kịẹ
+  - osis: Lam
+    texts:
+      - Kururu Owu-apọkọ
+      - Kur
+  - osis: Rev
+    texts:
+      - Mịẹfinji
+      - Mịẹ
+  - osis: Deut
+    texts:
+      - Ditẹrọnọmị
+      - Dit
+  - osis: Josh
+    texts:
+      - Jọsụwa
+      - Jọs
+  - osis: Judg
+    texts:
+      - Ḅẹrẹkọn-apụ
+      - Ḅẹr
+  - osis: Ruth
+    texts:
+      - Rufu
+      - Ruf
+  - osis: Isa
+    texts:
+      - Ayịzaya
+      - Ayị
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samụẹlị
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Amadapụ
+      - Ama
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Paka-aị
+      - Pkị
+  - osis: Ezra
+    texts:
+      - Ẹzịra
+      - Ẹzị
+  - osis: Neh
+    texts:
+      - Nehimaya
+      - Neh
+  - osis: Esth
+    texts:
+      - Ẹsịta
+      - Ẹsị
+  - osis: Job
+    texts:
+      - Jobu
+      - Job
+  - osis: Ps
+    texts:
+      - Devidi-Anume
+      - Dev
+  - osis: Prov
+    texts:
+      - Egberima-Ẹkwẹn
+      - Egb
+  - osis: Eccl
+    texts:
+      - Nimi Tolumaḅọ
+      - Nim
+  - osis: Song
+    texts:
+      - Sọlọmọnị Ḅẹlẹtẹịn Nume
+      - Sọl
+  - osis: Jer
+    texts:
+      - Jerimaya
+      - Jer
+  - osis: Ezek
+    texts:
+      - Izikẹlị
+      - Izi
+  - osis: Dan
+    texts:
+      - Danẹlị
+      - Dan
+  - osis: Hos
+    texts:
+      - Hosiya
+      - Hos
+  - osis: Joel
+    texts:
+      - Jowẹlị
+      - Jow
+  - osis: Amos
+    texts:
+      - Emọsị
+      - Emọ
+  - osis: Obad
+    texts:
+      - Obadaya
+      - Oba
+  - osis: Jonah
+    texts:
+      - Jona
+      - Jon
+  - osis: Mic
+    texts:
+      - Mayịka
+      - May
+  - osis: Nah
+    texts:
+      - Nahọmụ
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakọkụ
+      - Hab
+  - osis: Zeph
+    texts:
+      - Zẹfanaya
+      - Zẹf
+  - osis: Hag
+    texts:
+      - Hegayị
+      - Heg
+  - osis: Zech
+    texts:
+      - Zẹkaraya
+      - Zẹk
+  - osis: Mal
+    texts:
+      - Malakayị
+      - Mal
+  - osis: Matt
+    texts:
+      - Matiyo
+      - Mat
+  - osis: Mark
+    texts:
+      - Makị
+      - Mak
+  - osis: Luke
+    texts:
+      - Luku
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jọnị
+      - Jọn
+  - osis: Acts
+    texts:
+      - Fịrịmẹnjịapụ
+      - Fịr
+  - osis: Rom
+    texts:
+      - Romu
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kọrịntị
+      - Kọr
+  - osis: Col
+    texts:
+      - Kọlọsị
+      - Kọl
+  - osis: Gal
+    texts:
+      - Galesiya
+      - Gal
+  - osis: Eph
+    texts:
+      - Ẹfisọsị
+      - Ẹfi
+  - osis: Phil
+    texts:
+      - Filipayị
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tẹsalonịka
+      - Tẹs
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+      - Tim
+  - osis: Titus
+    texts:
+      - Tayịtọsị
+      - Tay
+  - osis: Phlm
+    texts:
+      - Filimọnị
+      - Flm
+  - osis: Heb
+    texts:
+      - Hiburu
+      - Hib
+  - osis: Jas
+    texts:
+      - Jemụsị
+      - Jem
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+      - Pit
+  - osis: Jude
+    texts:
+      - Judu
+      - Jud
+translations:
+  - KBTP

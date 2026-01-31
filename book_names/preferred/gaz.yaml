@@ -1,0 +1,385 @@
+default:
+  1Chr:
+    long: 1 Seenaa
+    short: 1Sen
+  1Cor:
+    long: 1 Gara Warra Qorontos
+    short: 1Qor
+  1John:
+    long: 1 Ergaa Yohannis
+    short: 1Yh
+  1Kgs:
+    long: 1 Mootota
+    short: 1Mot
+  1Pet:
+    long: 1 Ergaa Phethros
+    short: 1Ph
+  1Sam:
+    long: 1 Saamuʼeel
+    short: 1Sam
+  1Thess:
+    long: 1 Gara Warra Tasaloniiqee
+    short: 1Tas
+  1Tim:
+    long: 1 Gara Thimotewos
+    short: 1Xim
+  2Chr:
+    long: 2 Seenaa
+    short: 2Sen
+  2Cor:
+    long: 2 Gara Warra Qorontos
+    short: 2Qor
+  2John:
+    long: 2 Ergaa Yohannis
+    short: 2Yh
+  2Kgs:
+    long: 2 Mootota
+    short: 2Mot
+  2Pet:
+    long: 2 Ergaa Phethros
+    short: 2Ph
+  2Sam:
+    long: 2 Saamuʼeel
+    short: 2Sam
+  2Thess:
+    long: 2 Gara Warra Tasaloniiqee
+    short: 2Tas
+  2Tim:
+    long: 2 Gara Thimotewos
+    short: 2Xim
+  3John:
+    long: 3 Ergaa Yohannis
+    short: 3Yh
+  Acts:
+    long: Hojii
+    short: HoE
+  Amos:
+    long: Amoos
+    short: Amo
+  Col:
+    long: Gara Warra Qolosaayis
+    short: Qol
+  Dan:
+    long: Daaniʼel
+    short: Dan
+  Deut:
+    long: Keessa Deebii
+    short: KeD
+  Eccl:
+    long: Lallaba
+    short: Lal
+  Eph:
+    long: Efesoon
+    short: Efe
+  Esth:
+    long: Asteer
+    short: As
+  Exod:
+    long: Baʼuu
+    short: Bau
+  Ezek:
+    long: Hisqiʼeel
+    short: His
+  Ezra:
+    long: Izraa
+    short: Iz
+  Gal:
+    long: Galaatiyaa
+    short: Gal
+  Gen:
+    long: Seera Uumamaa
+    short: Uma
+  Hab:
+    long: Anbaaqoom
+    short: An
+  Hag:
+    long: Haagee
+    short: Hag
+  Heb:
+    long: Gara Ibrootaa
+    short: Ibr
+  Hos:
+    long: Hooseʼaa
+    short: Hos
+  Isa:
+    long: Isaayyaas
+    short: Isa
+  Jas:
+    long: Ergaa Yaaqoob
+    short: Yaq
+  Jer:
+    long: Ermiyaas
+    short: Er
+  Job:
+    long: Iyyoob
+    short: Iyo
+  Joel:
+    long: Macaafa Yo'el Raajichaa
+    short: Yoe
+  John:
+    long: Wangeela Yohannis
+    short: Yoh
+  Jonah:
+    long: Yoonaas
+    short: Yon
+  Josh:
+    long: Iyyaasuu
+    short: Iya
+  Jude:
+    long: Ergaa Yihudaa
+    short: Yhd
+  Judg:
+    long: Abbootii Murtii
+    short: AbM
+  Lam:
+    long: Faaruu
+    short: Faru
+  Lev:
+    long: Lewwota
+    short: Lew
+  Luke:
+    long: Luqaas
+    short: Luq
+  Mal:
+    long: Macaafa Miilkiyaas Raajichaa
+    short: Mil
+  Mark:
+    long: Maarqos
+    short: Mar
+  Matt:
+    long: Maatewos
+    short: Mat
+  Mic:
+    long: Macaafa Miikiyaas Raajichaa
+    short: MiK
+  Nah:
+    long: Macaafa Naahom Raajichaa
+    short: Naho
+  Neh:
+    long: Macaafa Nahimiiyaa
+    short: Nah
+  Num:
+    long: Lakkoobsa
+    short: Lak
+  Obad:
+    long: Macaafa Obaadiiyaa Raajichaa
+    short: Abd
+  Phil:
+    long: Fiiliphisiyuus
+    short: Filp
+  Phlm:
+    long: Fiilmoonaa
+    short: Film
+  Prov:
+    long: Fakkeenya
+    short: Fak
+  Ps:
+    long: Faarfannaa
+    short: Far
+  Rev:
+    long: Mul'ata Yohannis
+    short: Mul
+  Rom:
+    long: Gara Warra Roomaa
+    short: Rom
+  Ruth:
+    long: Macaafa Ruut
+    short: Rut
+  Song:
+    long: Macaafa Weedduu Weedduu Caalu
+    short: Wed
+  Titus:
+    long: Gara Tiitoos
+    short: Tit
+  Zech:
+    long: Macaafa Zakaariyaas Raajichaa
+    short: Zak
+  Zeph:
+    long: Macaafa Sefaaniyaa Raajichaa
+    short: Sef
+translations:
+  nocv:
+    1Chr:
+      short: 1Sn
+    1Cor:
+      long: 1 Qorontos
+      short: 1Qr
+    1John:
+      long: 1 Yohannis
+    1Kgs:
+      short: 1Mt
+    1Pet:
+      long: 1 Phexros
+    1Sam:
+      short: 1Sm
+    1Thess:
+      long: 1 Tasaloniiqee
+      short: 1Ts
+    1Tim:
+      long: 1 Xiimotewos
+      short: 1Xm
+    2Chr:
+      short: 2Sn
+    2Cor:
+      long: 2 Qorontos
+      short: 2Qr
+    2John:
+      long: 2 Yohannis
+    2Kgs:
+      short: 2Mt
+    2Pet:
+      long: 2 Phexros
+    2Sam:
+      short: 2Sm
+    2Thess:
+      long: 2 Tasaloniiqee
+      short: 2Ts
+    2Tim:
+      long: 2 Xiimotewos
+      short: 2Xm
+    3John:
+      long: 3 Yohannis
+    Acts:
+      short: Hoj
+    Col:
+      long: Qolosaayis
+    Esth:
+      short: Ast
+    Ezra:
+      short: Izr
+    Gen:
+      long: Uumama
+    Hab:
+      short: Anb
+    Heb:
+      long: Ibroota
+    Jas:
+      long: Yaaqoob
+    Jer:
+      short: Erm
+    Joel:
+      long: Yooʼeel
+    John:
+      long: Yohannis
+    Jude:
+      long: Yihuudaa
+    Lam:
+      short: Fru
+    Mal:
+      long: Miilkiyaas
+    Mic:
+      long: Miikiyaas
+    Nah:
+      long: Naahoom
+      short: Nho
+    Neh:
+      long: Nahimiyaa
+    Obad:
+      long: Obaadiyaa
+    Phil:
+      short: Flp
+    Phlm:
+      short: Flm
+    Rev:
+      long: Mulʼata
+    Rom:
+      long: Roomaa
+    Ruth:
+      long: Ruut
+    Song:
+      long: Weedduu
+    Titus:
+      long: Tiitoo
+    Zech:
+      long: Zakkaariyaas
+    Zeph:
+      long: Sefaaniyaa
+  macqul:
+    1Chr:
+      long: Macaafa Seenaa Baraa Isa Duraa
+    1John:
+      short: 1Yoh
+    1Kgs:
+      long: Macaafa Moototaa Isa Duraa
+    1Pet:
+      short: 1Phe
+    1Sam:
+      long: Macaafa Saamu'el Isa Duraa
+    2Chr:
+      long: Macaafa Seenaa Baraa Isa Lammaffaa
+    2John:
+      short: 2Yoh
+    2Kgs:
+      long: Macaafa Moototaa Isa Lammaffaa
+    2Pet:
+      short: 2Phe
+    2Sam:
+      long: Macaafa Saamu'el Isa Lammaffaa
+    3John:
+      short: 3Yoh
+    Acts:
+      long: Hojii Ergamootaa
+    Amos:
+      long: Macaafa Amos Raajichaa
+    Dan:
+      long: Macaafa Daani'el Raajichaa
+    Deut:
+      long: Seera Keessa Deebii
+      short: Kes
+    Eccl:
+      long: Macaafa Lallabaa
+    Eph:
+      long: Gara Warra Efesoon
+    Esth:
+      long: Macaafa Asteer
+    Exod:
+      long: Seera Ba'uu
+    Ezek:
+      long: Macaafa Hisqi'el Raajichaa
+    Ezra:
+      long: Macaafa Izraa
+    Gal:
+      long: Gara Warra Galaatiyaa
+    Hab:
+      long: Macaafa Anbaaqom Raajichaa
+    Hag:
+      long: Macaafa Haagee Raajichaa
+    Hos:
+      long: Macaafa Hose'a Raajichaa
+    Isa:
+      long: Macaafa Isaayaas Raajichaa
+    Jer:
+      long: Macaafa Ermiyaas Raajichaa
+    Job:
+      long: Macaafa Iyoob
+    Jonah:
+      long: Yoonaas Raajichaa
+    Josh:
+      long: Macaafa Iyaasuu
+    Jude:
+      short: Yih
+    Judg:
+      long: Macaafa Abboota Firdii
+      short: Abo
+    Lam:
+      long: Faaruu Ermiyaas
+    Lev:
+      long: Seera Lewwootaa
+    Luke:
+      long: Wangeela Luqaas
+    Mark:
+      long: Wangeela Maarqos
+    Matt:
+      long: Wangeela Maatewos
+    Num:
+      long: Seera Lakkoobsaa
+    Obad:
+      short: Oba
+    Phil:
+      long: Gara Warra Filiphisiiyus
+    Phlm:
+      long: Gara Filemon
+    Prov:
+      long: Macaafa Fakkeenyaa
+    Ps:
+      long: Macaafa Faarfannaa

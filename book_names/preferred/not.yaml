@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 Corintios
+    short: 1 Co
+  1John:
+    long: 1 Joan
+    short: 1 Jn
+  1Pet:
+    long: 1 Peroro
+    short: 1 Pe
+  1Thess:
+    long: 1 Tesarónicasati
+    short: 1 Te
+  1Tim:
+    long: 1 Timoteo
+    short: 1 Ti
+  2Cor:
+    long: 2 Corintios
+    short: 2 Co
+  2John:
+    long: 2 Joan
+    short: 2 Jn
+  2Pet:
+    long: 2 Peroro
+    short: 2 Pe
+  2Thess:
+    long: 2 Tesarónicasati
+    short: 2 Te
+  2Tim:
+    long: 2 Timoteo
+    short: 2 Ti
+  3John:
+    long: 3 Joan
+    short: 3 Jn
+  Acts:
+    long: Iragátane Jesos
+    short: Irag
+  Col:
+    long: Corosasati
+    short: Cor
+  Eph:
+    long: Ejesosati
+    short: Ef
+  Gal:
+    long: Garasiasati
+    short: Ga
+  Heb:
+    long: Ebereo
+    short: Eb
+  Jas:
+    long: Santiago
+    short: Stg
+  John:
+    long: Joan
+    short: Jn
+  Jude:
+    long: Joras
+    short: Jor
+  Luke:
+    long: Irocas
+    short: Ir
+  Mark:
+    long: Maricos
+    short: Mr
+  Matt:
+    long: Mateo
+    short: Mt
+  Phil:
+    long: Jeriposati
+    short: Jrp
+  Phlm:
+    long: Jeremón
+    short: Jrm
+  Rev:
+    long: Yoniaguëri Joan
+    short: Yon
+  Rom:
+    long: Romanos
+    short: iRom
+  Titus:
+    long: Tito
+    short: Tit

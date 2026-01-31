@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: Ihiẹn Mẹni Nke Ibuzọ
+    short: 1Hm
+  1Cor:
+    long: Ndị Kọrẹntị Ibuzọ
+    short: 1Kọ
+  1John:
+    long: Jọnụ Ibuzọ
+    short: 1Jn
+  1Kgs:
+    long: Ndị-nze Nke Ibuzọ
+    short: 1Nz
+  1Pet:
+    long: Pita Ibuzọ
+    short: 1Pi
+  1Sam:
+    long: Samuẹlụ Nke Ibuzọ
+    short: 1Sa
+  1Thess:
+    long: Ndị Tẹsalonika Ibuzọ
+    short: 1Tẹ
+  1Tim:
+    long: Timoti Ibuzọ
+    short: 1Ti
+  2Chr:
+    long: Ihiẹn Mẹni Nke Ẹbụọ
+    short: 2Hm
+  2Cor:
+    long: Ndị Kọrẹntị Nke Ẹbụọ
+    short: 2Kọ
+  2John:
+    long: Jọnụ Nke Ẹbụọ
+    short: 2Jn
+  2Kgs:
+    long: Ndị-nze Nke Ẹbụọ
+    short: 2Nz
+  2Pet:
+    long: Pita Nke Ẹbụọ
+    short: 2Pi
+  2Sam:
+    long: Samuẹlụ Nke Ẹbụọ
+    short: 2Sa
+  2Thess:
+    long: Ndị Tẹsalonika Nke Ẹbụọ
+    short: 2Tẹ
+  2Tim:
+    long: Timoti Nke Ẹbụọ
+    short: 2Ti
+  3John:
+    long: Jọnụ Nke Ẹtọ
+    short: 3Jn
+  Acts:
+    long: Ọrụn Ndị-ozi
+    short: Ọrụn
+  Amos:
+    long: Emọsụ
+    short: Emọ
+  Col:
+    long: Ndị Kolosị
+    short: Kol
+  Dan:
+    long: Daniẹlụ
+    short: Dan
+  Deut:
+    long: Ditrọnọmi
+    short: Dit
+  Eccl:
+    long: Ẹkịliziastisi
+    short: Ẹkị
+  Eph:
+    long: Ndị Ẹfẹsọsụ
+    short: Ẹfẹ
+  Esth:
+    long: Ẹsta
+    short: Ẹst
+  Exod:
+    long: Ọpụpụ
+    short: Ọpụ
+  Ezek:
+    long: Izikẹlụ
+    short: Izi
+  Ezra:
+    long: Ẹzra
+    short: Ẹzr
+  Gal:
+    long: Ndị Galeshịa
+    short: Gal
+  Gen:
+    long: Jẹnẹsisi
+    short: Jẹn
+  Hab:
+    long: Habakọkụ
+    short: Hab
+  Hag:
+    long: Hagaị
+    short: Hag
+  Heb:
+    long: Hibru
+    short: Hib
+  Hos:
+    long: Hosia
+    short: Hos
+  Isa:
+    long: Azaya
+    short: Aza
+  Jas:
+    long: Jemisi
+    short: Jem
+  Jer:
+    long: Jerimaya
+    short: Jer
+  Job:
+    long: Jobu
+    short: Job
+  Joel:
+    long: Juwẹlụ
+    short: Juẹ
+  John:
+    long: Jọnụ
+    short: Jọn
+  Jonah:
+    long: Jona
+    short: Jna
+  Josh:
+    long: Joshụa
+    short: Jos
+  Jude:
+    long: Judu
+    short: Jud
+  Judg:
+    long: Ndị Han Eṅẹn
+    short: Eṅẹ
+  Lam:
+    long: Ẹkwan
+    short: Ẹkw
+  Lev:
+    long: Lẹvitikọsụ
+    short: Lẹv
+  Luke:
+    long: Luku
+    short: Luk
+  Mal:
+    long: Malakaị
+    short: Mal
+  Mark:
+    long: Makị
+    short: Mak
+  Matt:
+    long: Matiu
+    short: Mat
+  Mic:
+    long: Maịka
+    short: Maị
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nehemiah
+    short: Neh
+  Num:
+    long: Ọgụngụn
+    short: Ọgụ
+  Obad:
+    long: Obadaya
+    short: Oba
+  Phil:
+    long: Ndị Filipi
+    short: Fil
+  Phlm:
+    long: Filemọnụ
+    short: Fim
+  Prov:
+    long: Itẹn
+    short: Itẹ
+  Ps:
+    long: Ẹbụ-ọma
+    short: Ẹbụ
+  Rev:
+    long: Rẹvẹleshọnụ
+    short: Rẹv
+  Rom:
+    long: Ndị Rom
+    short: Rom
+  Ruth:
+    long: Rutu
+    short: Rut
+  Song:
+    long: Ẹbụ Solomọnụ
+    short: Ẹbs
+  Titus:
+    long: Taịtọsụ
+    short: Taị
+  Zech:
+    long: Zẹkaraya
+    short: Zẹk
+  Zeph:
+    long: Zẹfanaya
+    short: Zẹf

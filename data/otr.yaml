@@ -1,0 +1,106 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - ŋuɽun ŋun ŋaŋinu
+  - osis: Matt
+    texts:
+      - maṯa
+      - mṯ.
+  - osis: Mark
+    texts:
+      - Markus
+      - mks.
+  - osis: Luke
+    texts:
+      - Luka
+      - Lk.
+  - osis: 3John
+    texts:
+      - 3 yuwana
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - Yuwana
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - yuwana
+  - osis: John
+    texts:
+      - Yuwana
+      - ywn.
+  - osis: Acts
+    texts:
+      - ŋɩru ŋun ŋapɩlo duwəjo
+  - osis: Rom
+    texts:
+      - rumiya
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - kurinṯus
+      - Kur.
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - kurinṯus
+      - Kur
+  - osis: Col
+    texts:
+      - Kulusi
+  - osis: Gal
+    texts:
+      - galaṯia
+  - osis: Eph
+    texts:
+      - awisus
+  - osis: Phil
+    texts:
+      - bilibi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - ṯasaluniki
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - ṯimuṯawus
+  - osis: Titus
+    texts:
+      - ṯitusŋ
+  - osis: Phlm
+    texts:
+      - Bilimun
+  - osis: Heb
+    texts:
+      - lɩbrani
+  - osis: Jas
+    texts:
+      - Yagub
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Buṯrus
+  - osis: Jude
+    texts:
+      - yauḏa
+translations:
+  - OTR1966

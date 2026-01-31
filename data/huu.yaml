@@ -1,0 +1,118 @@
+variables:
+  first: &first
+    - "1"
+    - Primera
+  second: &second
+    - "2"
+    - Segunda
+books:
+  - osis: Rev
+    texts:
+      - Apocalipsis
+      - Ap
+  - osis: Matt
+    texts:
+      - San Mateo
+      - Mt
+  - osis: Mark
+    texts:
+      - San Marcos
+      - Mr
+  - osis: Luke
+    texts:
+      - San Lucas
+      - Lc
+  - osis: 3John
+    texts:
+      - Tercera Carta de San Juan
+      - 3 Jn
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Carta de San Juan
+      - Jn
+  - osis: John
+    texts:
+      - San Juan
+      - Jn
+  - osis: Acts
+    texts:
+      - Hechos de los Apóstoles
+      - Hch
+  - osis: Rom
+    texts:
+      - Carta a los Romanos
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Carta a los Corintios
+      - Co
+  - osis: Col
+    texts:
+      - Carta a los Colosenses
+      - Col
+  - osis: Gal
+    texts:
+      - Carta a los Gálatas
+      - Gá
+  - osis: Eph
+    texts:
+      - Carta a los Efesios
+      - Ef
+  - osis: Phil
+    texts:
+      - Carta a los Filipenses
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Carta a los Tesalonicenses
+      - Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Carta a Timoteo
+      - Ti
+  - osis: Titus
+    texts:
+      - Carta a Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Carta a Filemón
+      - Flm
+  - osis: Heb
+    texts:
+      - Carta a los Hebreos
+      - Heb
+  - osis: Jas
+    texts:
+      - Carta de Santiago
+      - Stg
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Carta de San Pedro
+      - P
+  - osis: Jude
+    texts:
+      - Carta de San Judas
+      - Jud
+translations:
+  - HUU

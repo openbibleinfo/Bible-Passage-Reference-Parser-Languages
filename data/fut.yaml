@@ -1,0 +1,121 @@
+variables:
+  first: &first
+    - Fakatasi
+  second: &second
+    - Fakarua
+books:
+  - osis: Rev
+    texts:
+      - Nokofarairo O Anea Keimai,
+      - Nokofarairo O Anea Keimai
+  - osis: Matt
+    texts:
+      - Mathius,
+      - Matiu
+  - osis: Mark
+    texts:
+      - Markus,
+      - Mak
+  - osis: Luke
+    texts:
+      - Lukus,
+      - Luk
+  - osis: 3John
+    texts:
+      - Fakatoru Joanes.
+      - Fakatoru Joan
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+    texts:
+      - Joanes,
+      - Joan
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - Joanes.
+      - Joan
+  - osis: Acts
+    texts:
+      - Avere O Apostolo
+      - Avere
+  - osis: Rom
+    texts:
+      - Romanis,
+      - Roman
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinthus,
+      - Korin
+  - osis: Col
+    texts:
+      - Kolose,
+      - Kolose
+  - osis: Gal
+    texts:
+      - Caleisa,
+      - Caleisa
+  - osis: Eph
+    texts:
+      - Efesus,
+      - Efesus
+  - osis: Phil
+    texts:
+      - Felepai,
+      - Felepai
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thisalonaika,
+      - Thisa
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Timotheus,
+      - Timo
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotaheus,
+      - Timo
+  - osis: Titus
+    texts:
+      - Taitus,
+      - Taitus
+  - osis: Phlm
+    texts:
+      - Felimon.
+      - Felimon
+  - osis: Heb
+    texts:
+      - Hibru,
+      - Hibru
+  - osis: Jas
+    texts:
+      - Jacobus,
+      - Jacob
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pitrus,
+      - Pita
+  - osis: Jude
+    texts:
+      - Jute.
+      - Jud
+translations:
+  - ANT

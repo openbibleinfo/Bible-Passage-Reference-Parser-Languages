@@ -1,0 +1,273 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Gen
+  - osis: Exod
+    texts:
+      - Eks
+  - osis: Lev
+    texts:
+      - Lef
+  - osis: Num
+    texts:
+      - Num
+  - osis: Lam
+    texts:
+      - Mal
+  - osis: Rev
+    texts:
+      - Chunukuko
+      - Chi
+      - Ciw
+  - osis: Deut
+    texts:
+      - Det
+  - osis: Josh
+    texts:
+      - Yos
+  - osis: Judg
+    texts:
+      - Ŵak
+  - osis: Ruth
+    texts:
+      - Lut
+  - osis: Isa
+    texts:
+      - Yes
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Ayi
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Mbi
+  - osis: Ezra
+    texts:
+      - Esa
+  - osis: Neh
+    texts:
+      - Neh
+  - osis: Esth
+    texts:
+      - Est
+  - osis: Job
+    texts:
+      - Yob
+  - osis: Ps
+    texts:
+      - Mas
+  - osis: Prov
+    texts:
+      - Mis
+  - osis: Eccl
+    texts:
+      - Jwak
+  - osis: Song
+    texts:
+      - Nyi
+  - osis: Jer
+    texts:
+      - Yel
+  - osis: Ezek
+    texts:
+      - Esek
+  - osis: Dan
+    texts:
+      - Dan
+  - osis: Hos
+    texts:
+      - Hos
+  - osis: Joel
+    texts:
+      - Yow
+  - osis: Amos
+    texts:
+      - Amo
+  - osis: Obad
+    texts:
+      - Oba
+  - osis: Jonah
+    texts:
+      - Yon
+  - osis: Mic
+    texts:
+      - MiK
+  - osis: Nah
+    texts:
+      - Nah
+  - osis: Hab
+    texts:
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sef
+  - osis: Hag
+    texts:
+      - Hag
+  - osis: Zech
+    texts:
+      - Sak
+  - osis: Mal
+    texts:
+      - Mala
+  - osis: Matt
+    texts:
+      - Matayo
+      - Mat
+  - osis: Mark
+    texts:
+      - Maliko
+      - Mak
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Yoh
+  - osis: 2John
+    texts:
+      - 2Yoh
+  - osis: 3John
+    texts:
+      - 3 Yohana
+      - 3 Yoh
+      - 3Yoh
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yohana
+      - Yoh
+  - osis: Acts
+    texts:
+      - Masengo
+      - Mase
+      - Mas
+  - osis: Rom
+    texts:
+      - Ŵaloma
+      - Alo
+      - Ŵal
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Ŵakolinto
+      - Akoli
+  - osis: 1Cor
+    texts:
+      - 1Ŵakol
+  - osis: 2Cor
+    texts:
+      - 2Ŵakol
+  - osis: Col
+    texts:
+      - Ŵakolosai
+      - Akolo
+      - Ŵak
+  - osis: Gal
+    texts:
+      - ŴaGalatia
+      - aGal
+      - Ŵag
+  - osis: Eph
+    texts:
+      - ŴaEfeso
+      - Ŵaef
+      - aEf
+  - osis: Phil
+    texts:
+      - ŴaFilipi
+      - aFil
+      - Ŵaf
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Ŵasesalonike
+      - Ates
+  - osis: 1Thess
+    texts:
+      - 1Ŵas
+  - osis: 2Thess
+    texts:
+      - 2Ŵas
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoseo
+      - Tim
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filimoni
+      - Fil
+  - osis: Heb
+    texts:
+      - Ŵaeblania
+      - Aheb
+      - Ŵae
+  - osis: Jas
+    texts:
+      - Yakobo
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petulo
+      - Pet
+  - osis: 1Pet
+    texts:
+      - 1Pet
+  - osis: 2Pet
+    texts:
+      - 2Petu
+  - osis: Jude
+    texts:
+      - Yuda
+      - Yud
+translations:
+  - YAWO
+  - YNT2018

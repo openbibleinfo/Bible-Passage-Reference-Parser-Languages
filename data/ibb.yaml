@@ -1,0 +1,138 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Adiyaara
+      - Adi
+  - osis: Matt
+    texts:
+      - Matiu
+      - Mat
+  - osis: Mark
+    texts:
+      - Maak
+      - Mak
+  - osis: Luke
+    texts:
+      - Duk
+  - osis: 1John
+    texts:
+      - 1Yn
+  - osis: 2John
+    texts:
+      - 2Yn
+  - osis: 3John
+    texts:
+      - 3 Yọọn
+      - 3Yn
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yọọn
+  - osis: John
+    texts:
+      - Yọọn
+      - Yọn
+  - osis: Acts
+    texts:
+      - Utom
+      - Utm
+  - osis: Rom
+    texts:
+      - Rum
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kọrint
+  - osis: 1Cor
+    texts:
+      - 1Kọ
+  - osis: 2Cor
+    texts:
+      - 2Kọ
+  - osis: Col
+    texts:
+      - Kodosi
+      - Kod
+  - osis: Gal
+    texts:
+      - Kadesia
+      - Kad
+  - osis: Eph
+    texts:
+      - Efisọs
+      - Efi
+  - osis: Phil
+    texts:
+      - Fidibai
+      - Fid
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesadonia
+  - osis: 1Thess
+    texts:
+      - 1Te
+  - osis: 2Thess
+    texts:
+      - 2Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Taitọs
+      - Tai
+  - osis: Phlm
+    texts:
+      - Fidimọn
+      - Fdm
+  - osis: Heb
+    texts:
+      - Ibru
+      - Ibr
+  - osis: Jas
+    texts:
+      - Yemsi
+      - Yem
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Bita
+  - osis: 1Pet
+    texts:
+      - 1Bi
+  - osis: 2Pet
+    texts:
+      - 2Bi
+  - osis: Jude
+    texts:
+      - Yud
+translations:
+  - ICB

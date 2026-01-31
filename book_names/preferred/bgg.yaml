@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 Khorinthek
+    short: 1Khor
+  1John:
+    long: 1 Jon
+    short: 1Jon
+  1Pet:
+    long: 1 Phithar
+    short: 1Phth
+  1Thess:
+    long: 1 Thesalonithek
+    short: 1The
+  1Tim:
+    long: 1 Thimothi
+    short: 1Thi
+  2Cor:
+    long: 2 Khorinthek
+    short: 2Khor
+  2John:
+    long: 2 Jon
+    short: 2Jon
+  2Pet:
+    long: 2 Phithar
+    short: 2Phth
+  2Thess:
+    long: 2 Thesalonithek
+    short: 2The
+  2Tim:
+    long: 2 Thimothi
+    short: 2Thi
+  3John:
+    long: 3 Jon
+    short: 3Jon
+  Acts:
+    long: Bliathek
+    short: Blk
+  Col:
+    long: Kholosithek
+    short: Khol
+  Eph:
+    long: Iphisithek
+    short: Iphi
+  Gal:
+    long: Galathithek
+    short: Gal
+  Heb:
+    long: Hebriuthek
+    short: Heb
+  Jas:
+    long: Jems
+    short: Jms
+  John:
+    long: Jon
+    short: Jon
+  Jude:
+    long: Jud
+    short: Jud
+  Luke:
+    long: Lug
+    short: Lug
+  Mark:
+    long: Marg
+    short: Mrg
+  Matt:
+    long: Methiu
+    short: Mth
+  Phil:
+    long: Philiphithek
+    short: Phi
+  Phlm:
+    long: Philimon
+    short: Phlm
+  Rev:
+    long: Dong
+    short: Dng
+  Rom:
+    long: Romanthek
+    short: Rom
+  Titus:
+    long: Thaidas
+    short: Thd

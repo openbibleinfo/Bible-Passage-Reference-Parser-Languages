@@ -1,0 +1,253 @@
+default:
+  1Chr:
+    long: 1Шастир
+    short: 1Шс
+  1Cor:
+    long: 1 Коринт
+    short: 1Ко
+  1John:
+    long: 1 Иохан
+    short: 1Ио
+  1Kgs:
+    long: 1Хаад
+    short: 1Ха
+  1Pet:
+    long: 1 Петр
+    short: 1Пт
+  1Sam:
+    long: 1 Самуел
+    short: 1См
+  1Thess:
+    long: 1 Тесалоник
+    short: 1Тс
+  1Tim:
+    long: 1 Тимот
+    short: 1Тм
+  2Chr:
+    long: 2Шастир
+    short: 2Шс
+  2Cor:
+    long: 2 Коринт
+    short: 2Ко
+  2John:
+    long: 2 Иохан
+    short: 2Ио
+  2Kgs:
+    long: 2Хаад
+    short: 2Ха
+  2Pet:
+    long: 2 Петр
+    short: 2Пт
+  2Sam:
+    long: 2 Самуел
+    short: 2См
+  2Thess:
+    long: 2 Тесалоник
+    short: 2Тс
+  2Tim:
+    long: 2 Тимот
+    short: 2Тм
+  3John:
+    long: 3 Иохан
+    short: 3Ио
+  Acts:
+    long: Үйлс
+    short: Үйл
+  Amos:
+    long: Амос
+    short: Амо
+  Col:
+    long: Колоссай
+    short: Кол
+  Dan:
+    long: Даниел
+    short: Дан
+  Deut:
+    long: Дэд хууль
+    short: Дх
+  Eccl:
+    long: Номлогчийн үгс
+    short: Ном
+  Eph:
+    long: Ефес
+    short: Еф
+  Esth:
+    long: Естер
+    short: Ест
+  Exod:
+    long: Гэтлэл
+    short: Гэт
+  Ezek:
+    long: Езекиел
+    short: Езк
+  Ezra:
+    long: Езра
+    short: Езр
+  Gal:
+    long: Галат
+    short: Гал
+  Gen:
+    long: Эхлэл
+    short: Эх
+  Hab:
+    long: Хабаккук
+    short: Хаб
+  Hag:
+    long: Хаггаи
+    short: Хаг
+  Heb:
+    long: Еврей
+    short: Евр
+  Hos:
+    long: Хосеа
+    short: Хос
+  Isa:
+    long: Исаиа
+    short: Иса
+  Jas:
+    long: Иаков
+    short: Иак
+  Jer:
+    long: Иеремиа
+    short: Иер
+  Job:
+    long: Иов
+    short: Иов
+  Joel:
+    long: Иоел
+    short: Иое
+  John:
+    long: Иохан
+    short: Иох
+  Jonah:
+    long: Иона
+    short: Ион
+  Josh:
+    long: Иошуа
+    short: Иош
+  Jude:
+    long: Иуда
+    short: Иуд
+  Judg:
+    long: Шүүгчид
+    short: Шү
+  Lam:
+    long: Гашуудал
+    short: Гаш
+  Lev:
+    long: Леви
+    short: Ле
+  Luke:
+    long: Лук
+    short: Лк
+  Mal:
+    long: Малахи
+    short: Мал
+  Mark:
+    long: Марk
+    short: Мк
+  Matt:
+    long: Матай
+    short: Мт
+  Mic:
+    long: Мика
+    short: Мик
+  Nah:
+    long: Нахум
+    short: Нах
+  Neh:
+    long: Нехемиа
+    short: Нех
+  Num:
+    long: Тооллого
+    short: То
+  Obad:
+    long: Обадиа
+    short: Оба
+  Phil:
+    long: Филиппой
+    short: Фил
+  Phlm:
+    long: Филемон
+    short: Флм
+  Prov:
+    long: Сургаалт үгс
+    short: Сур
+  Ps:
+    long: Дуулал
+    short: Дуу
+  Rev:
+    long: Илчлэл
+    short: Илч
+  Rom:
+    long: Ром
+    short: Ром
+  Ruth:
+    long: Рут
+    short: Рут
+  Song:
+    long: Соломоны дуун
+    short: Сд
+  Titus:
+    long: Тит
+    short: Тит
+  Zech:
+    long: Зехариа
+    short: Зех
+  Zeph:
+    long: Зефаниа
+    short: Зеф
+translations:
+  mab2004:
+    1Chr:
+      long: Шастирын Дээд
+    1Kgs:
+      long: Хаадын Дээд
+    2Chr:
+      long: Шастирын Дэд
+    2Kgs:
+      long: Хаадын Дэд
+    Exod:
+      long: Египетээс Гарсан Нь
+      short: Ег
+    Lev:
+      long: Левит
+    Rev:
+      long: Илчлэлт
+  ab2013:
+    1Cor:
+      long: 1Коринт
+    1John:
+      long: 1Иохан
+    1Pet:
+      long: 1Петр
+    1Sam:
+      long: 1Самуел
+    1Thess:
+      long: 1Тесалоник
+    1Tim:
+      long: 1Тимот
+    2Cor:
+      long: 2Коринт
+    2John:
+      long: 2Иохан
+    2Pet:
+      long: 2Петр
+    2Sam:
+      long: 2Самуел
+    2Thess:
+      long: 2Тесалоник
+    2Tim:
+      long: 2Тимот
+    3John:
+      long: 3Иохан
+    Judg:
+      short: Шүү
+    Lev:
+      short: Лев
+    Mark:
+      long: Марк
+    Num:
+      short: Тоо
+    Phil:
+      short: Флп

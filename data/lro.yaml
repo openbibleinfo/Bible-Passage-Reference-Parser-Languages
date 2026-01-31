@@ -1,0 +1,55 @@
+variables:
+  first: &first
+    - "1"
+books:
+  - osis: Rev
+    texts:
+      - ꞌTäälü
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+    texts:
+      - Yuwana
+  - osis: Acts
+    texts:
+      - Yiiru
+  - osis: 2Cor
+    texts:
+      - 2 Küründüj
+  - osis: Col
+    texts:
+      - Külüjï
+  - osis: Gal
+    texts:
+      - Galatiya
+  - osis: Eph
+    texts:
+      - Abijuj
+  - osis: Phil
+    texts:
+      - Bïlïpï
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Täjlänükï
+  - osis: Phlm
+    texts:
+      - Bïlïmün
+  - osis: Heb
+    texts:
+      - Ngwïbrü
+  - osis: Jas
+    texts:
+      - Yagub
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - Butruj
+  - osis: Jude
+    texts:
+      - Yäwüdä
+translations:
+  - LARO

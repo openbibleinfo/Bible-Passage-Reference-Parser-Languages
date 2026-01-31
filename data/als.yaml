@@ -1,0 +1,121 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - të bërëtë
+      - Zan
+  - osis: Exod
+    texts:
+      - të dalëtë
+      - Dal
+  - osis: Rev
+    texts:
+      - Apolalipsi
+  - osis: Deut
+    texts:
+      - nom i dytë
+      - Lp
+  - osis: Isa
+    texts:
+      - Isaia
+      - Is
+  - osis: Ps
+    texts:
+      - Psalltiri
+      - Ps
+  - osis: Prov
+    texts:
+      - Fjalët e urta
+      - Fu
+  - osis: Matt
+    texts:
+      - Mattheo
+  - osis: Mark
+    texts:
+      - Marko
+  - osis: Luke
+    texts:
+      - Lluka
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Ioannit
+  - osis: John
+    texts:
+      - Ioanni
+  - osis: Acts
+    texts:
+      - Bëratë
+  - osis: Rom
+    texts:
+      - Romanë
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinthi
+  - osis: Col
+    texts:
+      - Kollosait
+  - osis: Gal
+    texts:
+      - Gallatë
+  - osis: Eph
+    texts:
+      - Efesio
+  - osis: Phil
+    texts:
+      - Filippiot
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Seleniqiot
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothe
+  - osis: Titus
+    texts:
+      - Titonë
+  - osis: Phlm
+    texts:
+      - Filimonë
+  - osis: Heb
+    texts:
+      - Çifut
+  - osis: Jas
+    texts:
+      - Iakovit
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petrosë
+  - osis: Jude
+    texts:
+      - Iudhësë
+translations:
+  - ALTMK27
+  - AL1884
+  - ALPSTO1868

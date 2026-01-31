@@ -1,0 +1,140 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Apokorípisi
+      - Ap
+  - osis: Matt
+    texts:
+      - Mateo
+      - Mt
+  - osis: Mark
+    texts:
+      - Marko
+      - Mr
+  - osis: Luke
+    texts:
+      - Arókasi
+      - Ar
+  - osis: 1John
+    texts:
+      - 1Xo
+  - osis: 2John
+    texts:
+      - 2Xo
+  - osis: 3John
+    texts:
+      - 3 Xoão
+      - 3Xo
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Xoão
+  - osis: John
+    texts:
+      - Xoão
+      - Xo
+  - osis: Acts
+    texts:
+      - Átosi
+      - Át
+  - osis: Rom
+    texts:
+      - Homano
+      - Ho
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korĩto
+  - osis: 1Cor
+    texts:
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - 2Ko
+  - osis: Col
+    texts:
+      - Koroso
+      - Kor
+  - osis: Gal
+    texts:
+      - Karásia
+      - Ka
+  - osis: Eph
+    texts:
+      - Épeso
+      - Éps
+  - osis: Phil
+    texts:
+      - Piriposi
+      - Prp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesarónika
+  - osis: 1Thess
+    texts:
+      - 1Te
+  - osis: 2Thess
+    texts:
+      - 2Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tximótxio
+  - osis: 1Tim
+    texts:
+      - 1Txm
+  - osis: 2Tim
+    texts:
+      - 2Txm
+  - osis: Titus
+    texts:
+      - Txito
+      - Txt
+  - osis: Phlm
+    texts:
+      - Piremõ
+      - Prm
+  - osis: Heb
+    texts:
+      - Epireo
+      - Epr
+  - osis: Jas
+    texts:
+      - Txiako
+      - Txk
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petro
+  - osis: 1Pet
+    texts:
+      - 1Pe
+  - osis: 2Pet
+    texts:
+      - 2Pe
+  - osis: Jude
+    texts:
+      - Xota
+translations:
+  - APU

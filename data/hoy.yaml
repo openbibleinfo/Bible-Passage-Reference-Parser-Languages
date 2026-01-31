@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - १
+  second: &second
+    - २
+  third: &third
+    - ३
+books:
+  - osis: Rev
+    texts:
+      - प्रकाशितवाक्य
+  - osis: Matt
+    texts:
+      - मत्ती
+  - osis: Mark
+    texts:
+      - मरकुस
+  - osis: Luke
+    texts:
+      - लूका
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - यूहन्ना
+  - osis: Acts
+    texts:
+      - प्रेरितगोळ
+  - osis: Rom
+    texts:
+      - रोमियों
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - कुरिन्थि
+  - osis: Col
+    texts:
+      - कुलुस्सिगोळ
+  - osis: Gal
+    texts:
+      - गलातिगोळ
+  - osis: Eph
+    texts:
+      - इफिसिगोळ
+  - osis: Phil
+    texts:
+      - फिलिप्पिगोळ
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - थिस्सलुनीकि
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - तीमुथियुस
+  - osis: Titus
+    texts:
+      - तीतुस
+  - osis: Phlm
+    texts:
+      - फिलेमोन
+  - osis: Heb
+    texts:
+      - इब्रानिगोळ
+  - osis: Jas
+    texts:
+      - याकूब
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - पतरस
+  - osis: Jude
+    texts:
+      - यहूदा
+translations:
+  - NTHAA20

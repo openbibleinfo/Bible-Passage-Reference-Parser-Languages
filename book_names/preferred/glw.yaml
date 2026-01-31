@@ -1,0 +1,15 @@
+default:
+  1Cor:
+    long: 1Co
+  2Cor:
+    long: 2Co
+  Col:
+    long: Col
+  Gal:
+    long: Gal
+  Mark:
+    long: Markus
+    short: Mk
+  Matt:
+    long: Mata
+    short: Mt

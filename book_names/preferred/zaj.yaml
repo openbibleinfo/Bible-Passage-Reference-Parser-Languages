@@ -1,0 +1,127 @@
+default:
+  1Cor:
+    long: 1 Wakorinto
+    short: 1Kol.
+  1John:
+    long: 1 Yohana
+    short: 1Yoh.
+  1Pet:
+    long: 1 Petro
+    short: 1Pet.
+  1Thess:
+    long: 1 Watesalonike
+    short: 1Tes.
+  1Tim:
+    long: 1 Timoteo
+    short: 1Tim.
+  2Cor:
+    long: 2 Wakorinto
+    short: 2Kol.
+  2John:
+    long: 2 Yohana
+    short: 2Yoh.
+  2Pet:
+    long: 2 Petro
+    short: 2Pet.
+  2Thess:
+    long: 2 Watesalonike
+    short: 2Tes.
+  2Tim:
+    long: 2 Timoteo
+    short: 2Tim.
+  3John:
+    long: 3 Yohana
+    short: 3Yoh.
+  Acts:
+    long: Sang'hano
+    short: Sang'h.
+  Col:
+    long: Wakolosai
+    short: Kol.
+  Eph:
+    long: Waefeso
+    short: Efs.
+  Exod:
+    long: Kuhalawa
+    short: Kuh.
+  Gal:
+    long: Wagalatia
+    short: Gal.
+  Gen:
+    long: Mwanduso
+    short: Mwand.
+  Heb:
+    long: Waeblania
+    short: Ebl.
+  Jas:
+    long: Yakobo
+    short: Yak.
+  John:
+    long: Yohana
+    short: Yoh.
+  Jude:
+    long: Yuda
+    short: Yud.
+  Luke:
+    long: Luka
+    short: Luk.
+  Mark:
+    long: Maluko
+    short: Mlk.
+  Matt:
+    long: Matayo
+    short: Mat.
+  Phil:
+    long: waFilipi
+    short: Flp.
+  Phlm:
+    long: Filemoni
+    short: Flm.
+  Rev:
+    long: Lugubulo
+    short: Lug.
+  Rom:
+    long: Waloma
+    short: Lom.
+  Titus:
+    long: Tito
+    short: Tit.
+translations:
+  kizalamo:
+    1Cor:
+      long: 1Wakolinto
+    1John:
+      long: 1Yohana
+    1Pet:
+      long: 1Petulo
+    1Thess:
+      long: 1Watesalonike
+    1Tim:
+      long: 1Timoteo
+    2Cor:
+      long: 2Wakolinto
+    2John:
+      long: 2Yohana
+    2Pet:
+      long: 2Petulo
+    2Thess:
+      long: 2Watesalonike
+    2Tim:
+      long: 2Timoteo
+    3John:
+      long: 3Yohana
+    Phlm:
+      long: Filimoni
+  zam75:
+    Acts:
+      long: Sanghano
+    Heb:
+      long: Waebrania
+    Mark:
+      long: Marko
+    Matt:
+      long: Mateo
+    Rev:
+      long: Lugubulo lwa Yohana
+    Rom:
+      long: waRoma

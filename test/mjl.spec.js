@@ -1,0 +1,321 @@
+"use strict";
+import { bcv_parser } from "bible-passage-reference-parser/esm/bcv_parser.js";
+import * as lang from "../lang/mjl.js";
+
+describe("Localized book Rev (mjl)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: Rev (mjl)", () => {
+		expect(p.parse("प्रकासना री गल्ला 1:1").osis()).toEqual("Rev.1.1");
+		expect(p.parse("प्रका. 1:1").osis()).toEqual("Rev.1.1");
+	});
+});
+describe("Localized book Matt (mjl)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: Matt (mjl)", () => {
+		expect(p.parse("मत्ती 1:1").osis()).toEqual("Matt.1.1");
+	});
+});
+describe("Localized book Mark (mjl)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: Mark (mjl)", () => {
+		expect(p.parse("मरकु. 1:1").osis()).toEqual("Mark.1.1");
+		expect(p.parse("मरकुस 1:1").osis()).toEqual("Mark.1.1");
+	});
+});
+describe("Localized book Luke (mjl)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: Luke (mjl)", () => {
+		expect(p.parse("लूक. 1:1").osis()).toEqual("Luke.1.1");
+		expect(p.parse("लूका 1:1").osis()).toEqual("Luke.1.1");
+	});
+});
+describe("Localized book 1John (mjl)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: 1John (mjl)", () => {
+		expect(p.parse("1 यहून्ना 1:1").osis()).toEqual("1John.1.1");
+		expect(p.parse("1 यहू. 1:1").osis()).toEqual("1John.1.1");
+		expect(p.parse("1. यहून्ना 1:1").osis()).toEqual("1John.1.1");
+		expect(p.parse("1. यहू. 1:1").osis()).toEqual("1John.1.1");
+	});
+});
+describe("Localized book 2John (mjl)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: 2John (mjl)", () => {
+		expect(p.parse("2 यहून्ना 1:1").osis()).toEqual("2John.1.1");
+		expect(p.parse("2 यहू. 1:1").osis()).toEqual("2John.1.1");
+		expect(p.parse("2. यहून्ना 1:1").osis()).toEqual("2John.1.1");
+		expect(p.parse("2. यहू. 1:1").osis()).toEqual("2John.1.1");
+	});
+});
+describe("Localized book 3John (mjl)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: 3John (mjl)", () => {
+		expect(p.parse("3 यहून्ना 1:1").osis()).toEqual("3John.1.1");
+		expect(p.parse("3 यहू. 1:1").osis()).toEqual("3John.1.1");
+		expect(p.parse("3. यहून्ना 1:1").osis()).toEqual("3John.1.1");
+		expect(p.parse("3. यहू. 1:1").osis()).toEqual("3John.1.1");
+	});
+});
+describe("Localized book John (mjl)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: John (mjl)", () => {
+		expect(p.parse("यहून्ना 1:1").osis()).toEqual("John.1.1");
+		expect(p.parse("यहू. 1:1").osis()).toEqual("John.1.1");
+	});
+});
+describe("Localized book Acts (mjl)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: Acts (mjl)", () => {
+		expect(p.parse("चुणिरे चेले रे काम 1:1").osis()).toEqual("Acts.1.1");
+		expect(p.parse("चुणिरे चेले 1:1").osis()).toEqual("Acts.1.1");
+	});
+});
+describe("Localized book Rom (mjl)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: Rom (mjl)", () => {
+		expect(p.parse("रोमियो 1:1").osis()).toEqual("Rom.1.1");
+		expect(p.parse("रोमि. 1:1").osis()).toEqual("Rom.1.1");
+	});
+});
+describe("Localized book 1Cor (mjl)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: 1Cor (mjl)", () => {
+		expect(p.parse("1 कुरिन्थियो 1:1").osis()).toEqual("1Cor.1.1");
+		expect(p.parse("1 कुरि. 1:1").osis()).toEqual("1Cor.1.1");
+		expect(p.parse("1. कुरिन्थियो 1:1").osis()).toEqual("1Cor.1.1");
+		expect(p.parse("1. कुरि. 1:1").osis()).toEqual("1Cor.1.1");
+	});
+});
+describe("Localized book 2Cor (mjl)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: 2Cor (mjl)", () => {
+		expect(p.parse("2 कुरिन्थियो 1:1").osis()).toEqual("2Cor.1.1");
+		expect(p.parse("2 कुरि. 1:1").osis()).toEqual("2Cor.1.1");
+		expect(p.parse("2. कुरिन्थियो 1:1").osis()).toEqual("2Cor.1.1");
+		expect(p.parse("2. कुरि. 1:1").osis()).toEqual("2Cor.1.1");
+	});
+});
+describe("Localized book Col (mjl)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: Col (mjl)", () => {
+		expect(p.parse("कुलुस्सियो 1:1").osis()).toEqual("Col.1.1");
+		expect(p.parse("कुल. 1:1").osis()).toEqual("Col.1.1");
+	});
+});
+describe("Localized book Gal (mjl)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: Gal (mjl)", () => {
+		expect(p.parse("गलातियो 1:1").osis()).toEqual("Gal.1.1");
+		expect(p.parse("गला. 1:1").osis()).toEqual("Gal.1.1");
+	});
+});
+describe("Localized book Eph (mjl)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: Eph (mjl)", () => {
+		expect(p.parse("इफिसियो 1:1").osis()).toEqual("Eph.1.1");
+		expect(p.parse("इफि. 1:1").osis()).toEqual("Eph.1.1");
+	});
+});
+describe("Localized book Phil (mjl)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: Phil (mjl)", () => {
+		expect(p.parse("फिलिप्पियो 1:1").osis()).toEqual("Phil.1.1");
+		expect(p.parse("फिलिप्पी. 1:1").osis()).toEqual("Phil.1.1");
+	});
+});
+describe("Localized book 1Thess (mjl)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: 1Thess (mjl)", () => {
+		expect(p.parse("1 थिस्सलुनकियो 1:1").osis()).toEqual("1Thess.1.1");
+		expect(p.parse("1 थिस्स. 1:1").osis()).toEqual("1Thess.1.1");
+		expect(p.parse("1. थिस्सलुनकियो 1:1").osis()).toEqual("1Thess.1.1");
+		expect(p.parse("1. थिस्स. 1:1").osis()).toEqual("1Thess.1.1");
+	});
+});
+describe("Localized book 2Thess (mjl)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: 2Thess (mjl)", () => {
+		expect(p.parse("2 थिस्सलुनकियो 1:1").osis()).toEqual("2Thess.1.1");
+		expect(p.parse("2 थिस्स. 1:1").osis()).toEqual("2Thess.1.1");
+		expect(p.parse("2. थिस्सलुनकियो 1:1").osis()).toEqual("2Thess.1.1");
+		expect(p.parse("2. थिस्स. 1:1").osis()).toEqual("2Thess.1.1");
+	});
+});
+describe("Localized book 1Tim (mjl)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: 1Tim (mjl)", () => {
+		expect(p.parse("1 तिमिथियुस 1:1").osis()).toEqual("1Tim.1.1");
+		expect(p.parse("1 तिमि. 1:1").osis()).toEqual("1Tim.1.1");
+		expect(p.parse("1. तिमिथियुस 1:1").osis()).toEqual("1Tim.1.1");
+		expect(p.parse("1. तिमि. 1:1").osis()).toEqual("1Tim.1.1");
+	});
+});
+describe("Localized book 2Tim (mjl)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: 2Tim (mjl)", () => {
+		expect(p.parse("2 तिमिथियुस 1:1").osis()).toEqual("2Tim.1.1");
+		expect(p.parse("2 तिमि. 1:1").osis()).toEqual("2Tim.1.1");
+		expect(p.parse("2. तिमिथियुस 1:1").osis()).toEqual("2Tim.1.1");
+		expect(p.parse("2. तिमि. 1:1").osis()).toEqual("2Tim.1.1");
+	});
+});
+describe("Localized book Titus (mjl)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: Titus (mjl)", () => {
+		expect(p.parse("तितु. 1:1").osis()).toEqual("Titus.1.1");
+		expect(p.parse("तितुस 1:1").osis()).toEqual("Titus.1.1");
+	});
+});
+describe("Localized book Phlm (mjl)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: Phlm (mjl)", () => {
+		expect(p.parse("फिलेमो. 1:1").osis()).toEqual("Phlm.1.1");
+		expect(p.parse("फिलेमोन 1:1").osis()).toEqual("Phlm.1.1");
+	});
+});
+describe("Localized book Heb (mjl)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: Heb (mjl)", () => {
+		expect(p.parse("इब्रानियो 1:1").osis()).toEqual("Heb.1.1");
+		expect(p.parse("इब्रा. 1:1").osis()).toEqual("Heb.1.1");
+	});
+});
+describe("Localized book Jas (mjl)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: Jas (mjl)", () => {
+		expect(p.parse("याकू. 1:1").osis()).toEqual("Jas.1.1");
+		expect(p.parse("याकूब 1:1").osis()).toEqual("Jas.1.1");
+	});
+});
+describe("Localized book 1Pet (mjl)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: 1Pet (mjl)", () => {
+		expect(p.parse("1 पतरस 1:1").osis()).toEqual("1Pet.1.1");
+		expect(p.parse("1 पत. 1:1").osis()).toEqual("1Pet.1.1");
+		expect(p.parse("1. पतरस 1:1").osis()).toEqual("1Pet.1.1");
+		expect(p.parse("1. पत. 1:1").osis()).toEqual("1Pet.1.1");
+	});
+});
+describe("Localized book 2Pet (mjl)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: 2Pet (mjl)", () => {
+		expect(p.parse("2 पतरस 1:1").osis()).toEqual("2Pet.1.1");
+		expect(p.parse("2 पत. 1:1").osis()).toEqual("2Pet.1.1");
+		expect(p.parse("2. पतरस 1:1").osis()).toEqual("2Pet.1.1");
+		expect(p.parse("2. पत. 1:1").osis()).toEqual("2Pet.1.1");
+	});
+});
+describe("Localized book Jude (mjl)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book: Jude (mjl)", () => {
+		expect(p.parse("यहूदा 1:1").osis()).toEqual("Jude.1.1");
+	});
+});

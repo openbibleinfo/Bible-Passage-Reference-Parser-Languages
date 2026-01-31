@@ -1,0 +1,237 @@
+default:
+  1Chr:
+    long: 1 Kronikas
+    short: 1 Kr
+  1Cor:
+    long: 1 Korintios
+    short: 1 Kor
+  1John:
+    long: 1 Juan
+    short: 1 Jn
+  1Kgs:
+    long: 1 Relles
+    short: 1 R
+  1Pet:
+    long: 1 Pedro
+    short: 1 P
+  1Sam:
+    long: 1 Samuel
+    short: 1 S
+  1Thess:
+    long: 1 Tesalonisenses
+    short: 1 Ts
+  1Tim:
+    long: 1 Timoteo
+    short: 1 Ti
+  2Chr:
+    long: 2 Kronikas
+    short: 2 Kr
+  2Cor:
+    long: 2 Korintios
+    short: 2 Kor
+  2John:
+    long: 2 Juan
+    short: 2 Jn
+  2Kgs:
+    long: 2 Relles
+    short: 2 R
+  2Pet:
+    long: 2 Pedro
+    short: 2 P
+  2Sam:
+    long: 2 Samuel
+    short: 2 S
+  2Thess:
+    long: 2 Tesalonisenses
+    short: 2 Ts
+  2Tim:
+    long: 2 Timoteo
+    short: 2 Ti
+  3John:
+    long: 3 Juan
+    short: 3 Jn
+  Acts:
+    long: Echos
+    short: Ech
+  Amos:
+    long: Amos
+    short: Am
+  Col:
+    long: Kolosenses
+    short: Kol
+  Dan:
+    long: Daniel
+    short: Dn
+  Deut:
+    long: Deuteronomio
+    short: Dt
+  Eccl:
+    long: Eklesiastes
+    short: Ekl
+  Eph:
+    long: Efesios
+    short: Ef
+  Esth:
+    long: Ester
+    short: Est
+  Exod:
+    long: Eksodo
+    short: Ek
+  Ezek:
+    long: Ezekiel
+    short: Ez
+  Ezra:
+    long: Esdras
+    short: Esd
+  Gal:
+    long: Galatas
+    short: Gl
+  Gen:
+    long: Jenesis
+    short: Анг
+  Hab:
+    long: Jabakuk
+    short: Jab
+  Hag:
+    long: Jageo
+    short: Jag
+  Heb:
+    long: Ebreos
+    short: Ebr
+  Hos:
+    long: Oseas
+    short: Os
+  Isa:
+    long: Isaias
+    short: Is
+  Jas:
+    long: Santiago
+    short: Stg
+  Jer:
+    long: Jeremias
+    short: Jer
+  Job:
+    long: Job
+    short: Job
+  Joel:
+    long: Joel
+    short: Jl
+  John:
+    long: Juan
+    short: Jn
+  Jonah:
+    long: Иона
+    short: Иона
+  Josh:
+    long: Josue
+    short: Jos
+  Jude:
+    long: Judas
+    short: Jud
+  Judg:
+    long: Jueses
+    short: Jue
+  Lam:
+    long: Lamentasiones
+    short: Lm
+  Lev:
+    long: Levitiko
+    short: Lv
+  Luke:
+    long: Lukas
+    short: Лк
+  Mal:
+    long: Malakias
+    short: Mal
+  Mark:
+    long: Markos
+    short: Mk
+  Matt:
+    long: Matei
+    short: Matei
+  Mic:
+    long: Mikeas
+    short: MiK
+  Nah:
+    long: Najum
+    short: Naj
+  Neh:
+    long: Nejemias
+    short: Nej
+  Num:
+    long: Numeros
+    short: Nm
+  Obad:
+    long: Abdias
+    short: Abd
+  Phil:
+    long: Filipenses
+    short: Flp
+  Phlm:
+    long: Filemon
+    short: Flm
+  Prov:
+    long: Proverbios
+    short: Pr
+  Ps:
+    long: Salmos
+    short: Sal
+  Rev:
+    long: Apokalipsis
+    short: Apo
+  Rom:
+    long: Romanos
+    short: Ro
+  Ruth:
+    long: Руфь
+    short: Руфь
+  Song:
+    long: Kantares
+    short: Knt
+  Titus:
+    long: Tito
+    short: Tit
+  Zech:
+    long: Zakarias
+    short: Zak
+  Zeph:
+    long: Sofonias
+    short: Sof
+translations:
+  srb:
+    Acts:
+      long: Бути
+      short: Бути
+    Gen:
+      long: Англунимо
+    Luke:
+      long: Лукатар
+  vrb:
+    Acts:
+      long: Рындоря
+      short: Рынд
+    Gen:
+      long: Англунимос
+    Luke:
+      long: Лукастар
+  ber:
+    Gen:
+      short: Jen
+    Jonah:
+      long: Jonas
+      short: Jon
+    Luke:
+      short: Lk
+    Matt:
+      long: Mateo
+      short: Mt
+    Ruth:
+      long: Rut
+      short: Rt
+  lrb:
+    Gen:
+      long: Кэздэто
+      short: Кд
+    Ruth:
+      long: Рут
+      short: Рут

@@ -1,0 +1,235 @@
+default:
+  1Chr:
+    long: 1 Kronik
+    short: 1 Kro
+  1Cor:
+    long: 1 Korentyen
+    short: 1 Kor
+  1John:
+    long: 1 Zan
+    short: 1 Zn
+  1Kgs:
+    long: 1 Rwa
+    short: 1 Rwa
+  1Macc:
+    long: 1 Makabe
+    short: 1 Mak
+  1Pet:
+    long: 1 Pyer
+    short: 1 Pr
+  1Sam:
+    long: 1 Samyel
+    short: 1 Sa
+  1Thess:
+    long: 1 Tesalonisyen
+    short: 1 Tes
+  1Tim:
+    long: 1 Timote
+    short: 1 Tim
+  2Chr:
+    long: 2 Kronik
+    short: 2 Kro
+  2Cor:
+    long: 2 Korentyen
+    short: 2 Kor
+  2John:
+    long: 2 Zan
+    short: 2 Zn
+  2Kgs:
+    long: 2 Rwa
+    short: 2 Rwa
+  2Macc:
+    long: 2 Makabe
+    short: 2 Mak
+  2Pet:
+    long: 2 Pyer
+    short: 2 Pr
+  2Sam:
+    long: 2 Samyel
+    short: 2 Sa
+  2Thess:
+    long: 2 Tesalonisyen
+    short: 2 Tes
+  2Tim:
+    long: 2 Timote
+    short: 2 Tim
+  3John:
+    long: 3 Zan
+    short: 3 Zn
+  Acts:
+    long: Akt de Zapot
+    short: Akt
+  Amos:
+    long: Amos
+    short: Am
+  Bar:
+    long: Barouk
+    short: Bar
+  Bel:
+    long: Bel ek Dragon
+    short: Bel
+  Col:
+    long: Kolosyen
+    short: Kol
+  Dan:
+    long: Danyel
+    short: Dan
+  Deut:
+    long: Deterononm
+    short: Det
+  Eccl:
+    long: Eklezyas
+    short: Ekl
+  EpJer:
+    long: Let Zereremi
+    short: Lt Zer
+  Eph:
+    long: Efezyen
+    short: Ef
+  Esth:
+    long: Ester
+    short: Est
+  EsthGr:
+    long: Ester Grek
+    short: Est Grek
+  Exod:
+    long: Egzod
+    short: Egz
+  Ezek:
+    long: Ezekyel
+    short: Ezk
+  Ezra:
+    long: Esdras
+    short: Esd
+  Gal:
+    long: Galat
+    short: Gal
+  Gen:
+    long: Zenez
+    short: Zen
+  Hab:
+    long: Habakouk
+    short: Hab
+  Hag:
+    long: Agze
+    short: Ag
+  Heb:
+    long: Ebre
+    short: Eb
+  Hos:
+    long: Oze
+    short: Oz
+  Isa:
+    long: Ezai
+    short: Eza
+  Jas:
+    long: Zak
+    short: Zk
+  Jdt:
+    long: Zidit
+    short: Zdt
+  Jer:
+    long: Zeremi
+    short: Zer
+  Job:
+    long: Zob
+    short: Zb
+  Joel:
+    long: Zoel
+    short: Zl
+  John:
+    long: Zan
+    short: Zn
+  Jonah:
+    long: Zonas
+    short: Zon
+  Josh:
+    long: Zozye
+    short: Zo
+  Jude:
+    long: Zid
+    short: Zd
+  Judg:
+    long: Ziz
+    short: Ziz
+  Lam:
+    long: Lamantasyon
+    short: Lm
+  Lev:
+    long: Levitik
+    short: Lev
+  Luke:
+    long: Lik
+    short: Lk
+  Mal:
+    long: Malasi
+    short: Ml
+  Mark:
+    long: Mark
+    short: Mrk
+  Matt:
+    long: Matye
+    short: Mat
+  Mic:
+    long: Mise
+    short: Mi
+  Nah:
+    long: Nahoum
+    short: Nah
+  Neh:
+    long: Nehemi
+    short: Neh
+  Num:
+    long: Nonm
+    short: Nm
+  Obad:
+    long: Abdyas
+    short: Abd
+  Phil:
+    long: Filipyen
+    short: Flp
+  Phlm:
+    long: Filemon
+    short: Flm
+  PrAzar:
+    long: Kantik Trwa Zennzan
+    short: Kt 3 Zenn
+  Prov:
+    long: Proverb
+    short: Pro
+  Ps:
+    long: Psonm
+    short: Ps
+  Rev:
+    long: Revelasyon
+    short: Rev
+  Rom:
+    long: Romen
+    short: Rom
+  Ruth:
+    long: Rit
+    short: Rt
+  Sir:
+    long: Sirasid
+    short: Sir
+  Song:
+    long: Kantik Salomon
+    short: Kt
+  Sus:
+    long: Sizann
+    short: Siz
+  Titus:
+    long: Tit
+    short: Tt
+  Tob:
+    long: Tobi
+    short: Tb
+  Wis:
+    long: Lasazes
+    short: Las
+  Zech:
+    long: Zakari
+    short: Za
+  Zeph:
+    long: Sofoni
+    short: Sof

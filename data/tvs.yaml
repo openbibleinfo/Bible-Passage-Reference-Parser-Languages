@@ -1,0 +1,135 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Exod
+    texts:
+      - Kufuma
+  - osis: Rev
+    texts:
+      - Ujughuo
+      - Ujugh
+  - osis: Ps
+    texts:
+      - Malumbo
+  - osis: Jer
+    texts:
+      - Yeremiya
+      - Yer.
+  - osis: Ezek
+    texts:
+      - Ezekiel
+      - Ezek.
+  - osis: Dan
+    texts:
+      - Danieli
+      - Dan.
+  - osis: Joel
+    texts:
+      - Yoel
+  - osis: Matt
+    texts:
+      - Mattayo
+      - Matt
+  - osis: Mark
+    texts:
+      - Marko
+  - osis: Luke
+    texts:
+      - Luka
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Wakwe Yohana
+      - Yohana
+  - osis: John
+    texts:
+      - Yohana
+      - Yohan
+  - osis: Acts
+    texts:
+      - Mihiro ya Waondo
+      - Mihiro
+  - osis: Rom
+    texts:
+      - Hena Waroma
+      - waRoma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Hena Wakorintho
+      - Wakor
+  - osis: Col
+    texts:
+      - Hena Wakolossai
+      - Wakol
+  - osis: Gal
+    texts:
+      - Hena Wagalatia
+      - Wagal
+  - osis: Eph
+    texts:
+      - Hena Waefeso
+      - Waefeso
+  - osis: Phil
+    texts:
+      - Hena Wafilipi
+      - waFilipi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Hena Wathessaloniki
+      - Wathess
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Hena Timoteo
+      - Tim
+  - osis: Titus
+    texts:
+      - Hena Tito
+      - Tito
+  - osis: Phlm
+    texts:
+      - Hena Filemon
+      - Filemon
+  - osis: Heb
+    texts:
+      - Hena Waebrania
+      - Waebr
+  - osis: Jas
+    texts:
+      - Wakwe Yakobo
+      - Yakobo
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Wakwe Petro
+      - Petro
+  - osis: Jude
+    texts:
+      - Warake Wakwe Yuda
+      - Yuda
+translations:
+  - TAVETA

@@ -1,0 +1,183 @@
+default:
+  1Cor:
+    long: کورینتھیپའ ۱
+    short: 1کرِنت
+  1John:
+    long: یوہའنའن ۱
+    short: 1یُوؔحنّا
+  1Pet:
+    long: پیٹའر
+    short: 1پطرؔس
+  1Thess:
+    long: تھیسའلونیکའپའ ۱
+    short: 1تھسلُنیکے
+  1Tim:
+    long: تیموتھِی ۱
+    short: 1تِیمُتی
+  2Cor:
+    long: کورینتھیپའ ۲
+    short: 2کرِنت
+  2John:
+    long: یوہའنའن ۲
+    short: 2 یوحنّان
+  2Pet:
+    long: پیٹའر ۲
+    short: 2 پطرؔس
+  2Thess:
+    long: تھیسའلونیکའپའ ۲
+    short: 2تھسلُنیکے
+  2Tim:
+    long: تیموتھِی ۲
+    short: 2تِیمُتی
+  3John:
+    long: یوہའنའن ۳
+    short: 3 یوحنّان
+  Acts:
+    long: چھاگلاسگون
+    short: چھاگلاس
+  Col:
+    long: کولوسیپا
+    short: کولوسی
+  Dan:
+    long: དཱ༌ནི༌ཨེལ༌
+    short: དཱ༌ནི༌ཨེལ༌
+  Eph:
+    long: ایپھیسوسپا
+    short: اِفسُس
+  Exod:
+    long: Exodus
+    short: བིང༌ཏེ༌ ཆའ༌ཁན༌
+  Gal:
+    long: گالاتییاپا
+    short: گلَتیہ
+  Gen:
+    long: གོ༌ཟུག༌
+    short: གོ༌ཟུག༌
+  Heb:
+    long: عبرانی پا
+    short: عِبرانی
+  Jas:
+    long: یاکوب
+    short: یعقُوبؔ
+  John:
+    long: یوہانان
+    short: یوحنّا
+  Josh:
+    long: ཡོ༌ཤུའ༌།
+    short: ཡོ༌ཤུའ༌
+  Jude:
+    long: یودا
+    short: یودا
+  Judg:
+    long: སྐྱོབ༌ཁན༌ནི༌ གོ༌ཁྲིད༌གུན༌
+    short: སྐྱོབ༌ཁན༌ནི༌ གོ༌ཁྲིད༌གུན༌
+  Luke:
+    long: لوکا
+    short: لُوک
+  Mark:
+    long: مارکوس
+    short: مرقُس
+  Matt:
+    long: مادتھا
+    short: متّی
+  Phil:
+    long: پھیلیپیپا
+    short: فِلپّی
+  Phlm:
+    long: پھیلیمون
+    short: پھیلیمون
+  Rev:
+    long: یونگچیسچانّی دوس
+    short: یونگچیسچان
+  Rom:
+    long: رومپا
+    short: روم
+  Ruth:
+    long: རུཐ༌
+    short: རུཐ༌
+  Titus:
+    long: تیتوس
+    short: طِطُس
+translations:
+  lbj:
+    1Cor:
+      long: ཀོ༌རིན༌ཐི༌པ༌ 1
+      short: ཀོ༌རིན༌ཐི༌པ༌ 1
+    1John:
+      long: ཡོ༌ཧཱ༌ནན༌ 1
+      short: ཡོ༌ཧཱ༌ནན༌ 1
+    1Pet:
+      long: པི༌ཏྲར༌ 1
+      short: པི༌ཏྲར༌ 1
+    1Thess:
+      long: ཐེ༌ས༌ལོ༌ནི༌ཀ༌པ༌ 1
+      short: ཐེ༌ས༌ལོ༌ནི༌ཀ༌པ༌ 1
+    1Tim:
+      long: ཏི༌མོ༌ཐི༌ 1
+      short: ཏི༌མོ༌ཐི༌ 1
+    2Cor:
+      long: ཀོ༌རིན༌ཐི༌པ༌ 2
+      short: ཀོ༌རིན༌ཐི༌པ༌ 2
+    2John:
+      long: ཡོ༌ཧཱ༌ནན༌ 2
+      short: ཡོ༌ཧཱ༌ནན༌ 2
+    2Pet:
+      long: པི༌ཏྲར༌ 2
+      short: པི༌ཏྲར༌ 2
+    2Thess:
+      long: ཐེ༌ས༌ལོ༌ནི༌ཀ༌པ༌ 2
+      short: ཐེ༌ས༌ལོ༌ནི༌ཀ༌པ༌ 2
+    2Tim:
+      long: ཏི༌མོ༌ཐི༌ 2
+      short: ཏི༌མོ༌ཐི༌ 2
+    3John:
+      long: ཡོ༌ཧཱ༌ནན༌ 3
+      short: ཡོ༌ཧཱ༌ནན༌ 3
+    Acts:
+      long: ཆག༌ལས༌གུན༌
+      short: ཆག༌ལས༌གུན༌
+    Col:
+      long: ཀོ༌ལོ༌སིའི༌པ༌
+      short: ཀོ༌ལོ༌སིའི༌པ༌
+    Eph:
+      long: ཨེ༌ཕེ༌སུས༌པ༌
+      short: ཨེ༌ཕེ༌སུས༌པ༌
+    Gal:
+      long: གཱ༌ལ༌ཏི༌ཡཱ༌པ༌
+      short: གཱ༌ལ༌ཏི༌ཡཱ༌པ༌
+    Heb:
+      long: ཨིབ༌རི༌པ༌
+      short: ཨིབ༌རི༌པ༌
+    Jas:
+      long: ཡ༌ཀོབ༌
+      short: ཡ༌ཀོབ༌
+    John:
+      long: ཡོ༌ཧཱ༌ནན༌
+      short: ཡོ༌ཧཱ༌ནན༌
+    Jude:
+      long: ཡུ༌དཱ༌
+      short: ཡུ༌དཱ༌
+    Luke:
+      long: ལུ༌ཀ༌
+      short: ལུ༌ཀ༌
+    Mark:
+      long: མར༌ཀུས༌
+      short: མར༌ཀུས༌
+    Matt:
+      long: མད༌ཐཱ༌
+      short: མད༌ཐཱ༌
+    Phil:
+      long: ཕི༌ལི༌པི༌པ༌
+      short: ཕི༌ལི༌པི༌པ༌
+    Phlm:
+      long: ཕི༌ལི༌མོན༌
+      short: ཕི༌ལི༌མོན༌
+    Rev:
+      long: ཡོང༌ཅེས༌ཅན༌ནི༌ དུས༌
+      short: ཡོང༌ཅེས༌ཅན༌ནི༌ དུས༌
+    Rom:
+      long: རོམ༌པ༌
+      short: རོམ༌པ༌
+    Titus:
+      long: ཏི༌ཏུས༌
+      short: ཏི༌ཏུས༌

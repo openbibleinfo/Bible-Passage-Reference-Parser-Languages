@@ -1,0 +1,172 @@
+default:
+  1Cor:
+    long: 1 Akorintu
+    short: 1Ako
+  1John:
+    long: 1 Nayohana
+    short: 1Nay
+  1Pet:
+    long: 1 Napeturo
+    short: 1Nap
+  1Thess:
+    long: 1 Atesalonika
+    short: 1Ts
+  1Tim:
+    long: 1 Natim
+    short: 1Natim
+  2Cor:
+    long: 2 Akorintu
+    short: 2Ako
+  2John:
+    long: 2 Nayohana
+    short: 2Nay
+  2Pet:
+    long: 2 Napeturo
+    short: 2Nap
+  2Thess:
+    long: 2 Atesalonika
+    short: 2Ts
+  2Tim:
+    long: 2 Natim
+    short: 2Natim
+  3John:
+    long: 3 Nayohana
+    short: 3Nay
+  Acts:
+    long: Miteko
+    short: Mit
+  Col:
+    long: aKolosi
+    short: Kol
+  Eph:
+    long: Annefesu
+    short: Efs
+  Gal:
+    long: Akalata
+    short: Kal
+  Gen:
+    long: Mphattuwelo
+    short: Mph
+  Heb:
+    long: Aebraniya
+    short: Aebr
+  Jas:
+    long: Nayakhobo
+    short: Nayak
+  John:
+    long: Nayohana
+    short: Yoh
+  Jonah:
+    long: Yona
+    short: Yon
+  Jude:
+    long: Nayuuda
+    short: Nayu
+  Luke:
+    long: Luka
+    short: Luk
+  Mark:
+    long: Marku
+    short: Mako
+  Matt:
+    long: Mateu
+    short: Mat
+  Phil:
+    long: Afilipu
+    short: Flp
+  Phlm:
+    long: Filimoni
+    short: Flm
+  Rev:
+    long: Upatakulhelhiya
+    short: Upat
+  Rom:
+    long: Arumi
+    short: Aru
+  Titus:
+    long: Natito
+    short: Nat
+translations:
+  mmnt:
+    1Cor:
+      short: 1Ko
+    1John:
+      long: 1 Yohani
+      short: 1Yo
+    1Pet:
+      long: 1 Peturu
+      short: 1Pt
+    1Tim:
+      long: 1 Timotiyu
+      short: 1Tm
+    2Cor:
+      short: 2Ko
+    2John:
+      long: 2 Yohani
+      short: 2Yo
+    2Pet:
+      long: 2 Peturu
+      short: 2Pt
+    2Tim:
+      long: 2 Timotiyu
+      short: 2Tm
+    3John:
+      long: 3 Yohani
+      short: 3Yo
+    Heb:
+      long: Annaheperi
+      short: Epr
+    Jas:
+      long: Yakopu
+      short: Yak
+    John:
+      long: Yohani
+    Jude:
+      long: Yuta
+      short: Yut
+    Mark:
+      short: Mar
+    Rev:
+      long: Wiicoonihera
+      short: Wic
+    Rom:
+      long: aRoma
+      short: Rom
+    Titus:
+      long: Titu
+      short: Tit
+  mnt:
+    1Cor:
+      long: 1 o Ukorintho
+    1Thess:
+      long: 1 o Uthesalonike
+      short: 1Uthes
+    2Cor:
+      long: 2 o Ukorintho
+    2Thess:
+      long: o Uthesalonike
+      short: 2Uthes
+    Acts:
+      long: Mitheko
+      short: Mitk
+    Col:
+      long: o Ukolosai
+      short: Ukol
+    Eph:
+      long: o Uefeso
+      short: Uef
+    Gal:
+      long: o Ugalatia
+      short: Ugal
+    John:
+      short: Yoha
+    Mark:
+      long: Namako
+    Matt:
+      long: Namatayo
+    Phil:
+      long: o Ufilipi
+      short: Ufil
+    Phlm:
+      long: Nafilimoni
+      short: Naf

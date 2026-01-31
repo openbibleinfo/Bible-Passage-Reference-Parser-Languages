@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Wukuwi wa Yookhani
+  - osis: Matt
+    texts:
+      - Mataayi
+  - osis: Mark
+    texts:
+      - Maalika
+  - osis: Luke
+    texts:
+      - Luuka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yookhani
+  - osis: Acts
+    texts:
+      - Mbombo zya Bhasundikwa
+  - osis: Rom
+    texts:
+      - Bhaluumi
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Bhakolinso
+  - osis: Col
+    texts:
+      - Bhakolosaayi
+  - osis: Gal
+    texts:
+      - Bhagalatiya
+  - osis: Eph
+    texts:
+      - Bhaefeeso
+  - osis: Phil
+    texts:
+      - Bhafiliipi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Bhatesalonike
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tiimoti
+  - osis: Titus
+    texts:
+      - Tiito
+  - osis: Phlm
+    texts:
+      - Fiilimooni
+  - osis: Heb
+    texts:
+      - Bhaebulaniya
+  - osis: Jas
+    texts:
+      - Yaakobo
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peeteli
+  - osis: Jude
+    texts:
+      - Yʉʉda
+translations:
+  - MALILA

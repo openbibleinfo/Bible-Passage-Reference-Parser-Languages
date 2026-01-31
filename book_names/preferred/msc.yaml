@@ -1,0 +1,61 @@
+default:
+  1John:
+    long: 1Yu
+    short: 1Jn
+  1Pet:
+    long: 1Pi
+    short: 1Pe
+  2John:
+    long: 2Yu
+    short: 2Jn
+  2Pet:
+    long: 2Pi
+    short: 2Pe
+  3John:
+    long: 3Yu
+    short: 3Jn
+  Acts:
+    long: Kew
+    short: Act
+  Col:
+    long: Kɔl
+    short: Col
+  Eph:
+    long: Efe
+    short: Eph
+  Exod:
+    long: Hɔr
+    short: Exo
+  Gal:
+    long: Kal
+    short: Gal
+  Gen:
+    long: Ada
+    short: Gen
+  Jas:
+    long: Yak
+    short: Jas
+  John:
+    long: Yuh
+    short: Jhn
+  Jonah:
+    long: Yun
+    short: Jon
+  Josh:
+    long: Yos
+    short: Jos
+  Jude:
+    long: Jud
+    short: Jud
+  Luke:
+    long: Luk
+    short: Luk
+  Matt:
+    long: Mat
+    short: Mat
+  Phil:
+    long: Fil
+    short: Php
+  Ruth:
+    long: Rut
+    short: Rut

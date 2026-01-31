@@ -1,0 +1,720 @@
+default:
+  1Chr:
+    long: ရာဇဝင်ချုပ်ပထမစောင်
+    short: ၅ ရာ၊
+  1Cor:
+    long: ၁ ကောရိန္သု
+    short: ၁ ကော
+  1John:
+    long: ယော~ဟန်၏~ဩ~ဝါ~ဒ~ကျမ်း~ပ~ဌ~မ~စောင်။
+    short: ၁ ယော
+  1Kgs:
+    long: ဓမ္မရာဇဝင်တတိယစောင်
+    short: ၃ ရာ၊
+  1Pet:
+    long: ပေ~တ~ရု~ဩ~ဝါ~ဒ~ကျမ်း~ပ~ဌ~မ~စောင်။
+    short: ၁ ပေ
+  1Sam:
+    long: ဓမ္မရာဇဝင်ပထမစောင်
+    short: ၁ ရာ၊
+  1Thess:
+    long: ၁ သက်သာလောနိတ်
+    short: ၁ သက်
+  1Tim:
+    long: ၁ တိမောသေ
+    short: ၁ တိ
+  2Chr:
+    long: ရာ~ဇ~ဝံ~သ~ကျမ်း~ဒု~တိ~ယ~တွဲ
+    short: ၆ ရာ၊
+  2Cor:
+    long: ၂ ကောရိန္သု
+    short: ၂ ကော
+  2John:
+    long: ရှင်ယောဟန်ဩဝါဒစာဒုတိယစောင်
+    short: ၂ ယော
+  2Kgs:
+    long: ဓမ္မရာဇဝင်စတုတ္ထစောင်
+    short: ၄ ရာ၊
+  2Pet:
+    long: ရှင်ပေတရုဩဝါဒစာဒုတိယစောင်
+    short: ၂ ပေ
+  2Sam:
+    long: ဓမ္မရာဇဝင်ဒုတိယစောင်
+    short: ၂ ရာ၊
+  2Thess:
+    long: ၂ သက်သာလောနိတ်
+    short: ၂ သက်
+  2Tim:
+    long: ၂ တိမောသေ
+    short: ၂ တိ
+  3John:
+    long: ရှင်ယောဟန်ဩဝါဒစာတတိယစောင်
+    short: ၃ ယော
+  Acts:
+    long: တမန်တော်
+    short: တ
+  Amos:
+    long: အာ~မုတ်~ကျမ်း။
+    short: အာ
+  Col:
+    long: ကောလောသဲ
+    short: ကော
+  Dan:
+    long: ဒံ~ယေ~လ~ကျမ်း။
+    short: ဒံ
+  Deut:
+    long: တရားဟောရာ
+    short: တရား
+  Eccl:
+    long: ဒေသနာ
+    short: ဒေ
+  Eph:
+    long: ဧဖက်
+    short: ဧ
+  Esth:
+    long: ဧ~သ~တာ။
+    short: ဧသ
+  Exod:
+    long: ထွက်~လွတ်~ရာ~ကျမ်း။
+    short: ထွ
+  Ezek:
+    long: ယေ~ဇ~ကျေ~လ~ကျမ်း။
+    short: ယေဇ
+  Ezra:
+    long: ဧ~ဇ~ရ။
+    short: ဧဇ
+  Gal:
+    long: ဂလာတိ
+    short: ဂလ
+  Gen:
+    long: က~မ္ဘာ~ဦး~ကျမ်း။
+    short: က
+  Hab:
+    long: ဟ~ဗ~က္ကုတ်~ကျမ်း။
+    short: ဟဗ
+  Hag:
+    long: ဟ~ဂ္ဂဲ~ကျမ်း။
+    short: ဟဂ္ဂဲ
+  Heb:
+    long: ဟေဗြဲ
+    short: ဟေဗြဲ
+  Hos:
+    long: ဟော~ရှေ~ကျမ်း။
+    short: ဟော
+  Isa:
+    long: ဟေ~ရှာ~ယ~ကျမ်း။
+    short: ဟေရှာ
+  Jas:
+    long: ယာ~ကုပ်~ဩ~ဝါ~ဒ~ကျမ်း။
+    short: ယာ
+  Jer:
+    long: ယေ~ရ~မိ~ကျမ်း။
+    short: ယေ
+  Job:
+    long: ယော~ဘ။
+    short: ယောဘ
+  Joel:
+    long: ယော~လ~ကျမ်း။
+    short: ယောလ
+  John:
+    long: ရှင်ယောဟန်
+    short: ယော
+  Jonah:
+    long: ယော~န~ကျမ်း
+    short: ယောန
+  Josh:
+    long: ယော~ရှု။
+    short: ယောရှု
+  Jude:
+    long: ယု~ဒ~ဩ~ဝါ~ဒ~ကျမ်း။
+    short: ယု
+  Judg:
+    long: တ~ရား~မင်း။
+    short: သူကြီး
+  Lam:
+    long: ပ~ရိ~ဒေ~ဝ~ဂီ~တ~ကျမ်း။
+    short: မြည်
+  Lev:
+    long: လေ~ဝိ~၀တ်~ထုံး~ကျမ်း။
+    short: ဝတ်
+  Luke:
+    long: ရှင်လုကာ
+    short: လု
+  Mal:
+    long: မာ~လ~ခိ~ကျမ်း။
+    short: မာလ
+  Mark:
+    long: ရှင်မာကု
+    short: မာ
+  Matt:
+    long: မဿဲ
+    short: မ
+  Mic:
+    long: မိက္ခာ
+    short: မိ
+  Nah:
+    long: နာ~ဟုံ~ကျမ်း။
+    short: နာ
+  Neh:
+    long: နေ~ဟ~မိ။
+    short: နေ
+  Num:
+    long: စာ~ရင်း~တော်~ဝင်~ကျမ်း။
+    short: တော
+  Obad:
+    long: သြ​ဗ​ဒိ
+    short: ဩ
+  Phil:
+    long: ဖိလိပ္ပိ
+    short: ဖိ
+  Phlm:
+    long: ဖိလေမုန်
+    short: ဖိလေ
+  Prov:
+    long: န~ယ~ပုံ~ပြင်~ကျမ်း။
+    short: သု
+  Ps:
+    long: ဆာ~လံ။
+    short: ဆာ
+  Rev:
+    long: ဗျာဒိတ်
+    short: ဗျာ
+  Rom:
+    long: ရောမ
+    short: ရော
+  Ruth:
+    long: ရု​သ
+    short: ရု
+  Song:
+    long: ဂီ~တ~မေ~ဒ~ဏီ
+    short: သီ
+  Titus:
+    long: တိတု
+    short: တိ
+  Zech:
+    long: ဇာ~ခ~ရိ~ကျမ်း။
+    short: ဇာ
+  Zeph:
+    long: ဇေဖနိ
+    short: ဇေ
+translations:
+  msbu:
+    1Chr:
+      short: ၅ရာ
+    1Cor:
+      long: ကောရိန္သုဩဝါဒစာပထမစောင်
+      short: ၁ကော
+    1John:
+      long: ရှင်ယောဟန်ဩဝါဒစာပထမစောင်
+      short: ၁ယော
+    1Kgs:
+      short: ၃ရာ
+    1Pet:
+      long: ရှင်ပေတရုဩဝါဒစာပထမစောင်
+      short: ၁ပေ
+    1Sam:
+      short: ၁ရာ
+    1Thess:
+      long: သက်သာလောနိတ်ဩဝါဒစာပထမစောင်
+      short: ၁သက်
+    1Tim:
+      long: တိမောသေဩဝါဒစာပထမစောင်
+      short: ၁တိ
+    2Chr:
+      long: ရာဇဝင်ချုပ်ဒုတိယစောင်
+      short: ၆ရာ
+    2Cor:
+      long: ကောရိန္သုဩဝါဒစာဒုတိယစောင်
+      short: ၂ကော
+    2John:
+      short: ၂ယော
+    2Kgs:
+      short: ၄ရာ
+    2Pet:
+      short: ၂ပေ
+    2Sam:
+      short: ၂ရာ
+    2Thess:
+      long: သက်သာလောနိတ်ဩဝါဒစာဒုတိယစောင်
+      short: ၂သက်
+    2Tim:
+      long: တိမောသေဩဝါဒစာဒုတိယစောင်
+      short: ၂တိ
+    3John:
+      short: ၃ယော
+    Acts:
+      long: တမန်တော်ဝတ္ထု
+    Amos:
+      long: အာမုတ်အနာဂတ္တိကျမ်း
+    Col:
+      long: ကောလောသဲဩဝါဒစာ
+    Dan:
+      long: ဒံယေလအနာဂတ္တိကျမ်း
+    Deut:
+      long: တရားဟောရာကျမ်း
+    Eccl:
+      long: ဒေသနာကျမ်း
+    Eph:
+      long: ဧဖက်ဩဝါဒစာ
+    Esth:
+      long: ဧသတာဝတ္ထု
+    Exod:
+      long: ထွက်မြောက်ရာကျမ်း
+    Ezek:
+      long: ယေဇကျေလအနာဂတ္တိကျမ်း
+    Ezra:
+      long: ဧဇရမှတ်စာ
+    Gal:
+      long: ဂလာတိဩဝါဒစာ
+    Gen:
+      long: ကမ္ဘာဦးကျမ်း
+    Hab:
+      long: ဟာဗက္ကုတ်အနာဂတ္တိကျမ်း
+    Hag:
+      long: ဟဂ္ဂဲအနာဂတ္တိကျမ်း
+    Heb:
+      long: ဟေဗြဲဩဝါဒစာ
+    Hos:
+      long: ဟောရှေအနာဂတ္တိကျမ်း
+    Isa:
+      long: ဟေရှာယအနာဂတ္တိကျမ်း
+    Jas:
+      long: ရှင်ယာကုပ်ဩဝါဒစာ
+    Jer:
+      long: ယေရမိအနာဂတ္တိကျမ်း
+    Job:
+      long: ယောဘဝတ္ထု
+    Joel:
+      long: ယောလအနာဂတ္တိကျမ်း
+    John:
+      long: ရှင်ယောဟန်ခရစ်ဝင်
+    Jonah:
+      long: ယောနဝတ္ထု
+    Josh:
+      long: ယောရှုမှတ်စာ
+    Jude:
+      long: ရှင်ယုဒဩဝါဒစာ
+    Judg:
+      long: တရားသူကြီးမှတ်စာ
+    Lam:
+      long: ယေရမိမြည်တမ်းစကား
+    Lev:
+      long: ဝတ်ပြုရာကျမ်း
+    Luke:
+      long: ရှင်လုကာခရစ်ဝင်
+    Mal:
+      long: မာလခိအနာဂတ္တိကျမ်း
+    Mark:
+      long: ရှင်မာကုခရစ်ဝင်
+    Matt:
+      long: ရှင်မဿဲခရစ်ဝင်
+    Mic:
+      long: မိက္ခာအနာဂတ္တိကျမ်း
+    Nah:
+      long: နာဟုံအနာဂတ္တိကျမ်း
+    Neh:
+      long: နေဟမိမှတ်စာ
+    Num:
+      long: တောလည်ရာကျမ်း
+    Obad:
+      long: ဩဗဒိအနာဂတ္တိကျမ်း
+    Phil:
+      long: ဖိလိပ္ပိသြဝါဒစာ
+    Phlm:
+      long: ဖိလေမုန်ဩဝါဒစာ
+    Prov:
+      long: သုတ္တံကျမ်း
+    Ps:
+      long: ဆာလံကျမ်း
+    Rev:
+      long: ဗျာဒိတ်ကျမ်း
+    Rom:
+      long: ရောမဩဝါဒစာ
+    Ruth:
+      long: ရုသဝတ္ထု
+    Song:
+      long: ရှောလမုန်သီချင်း
+    Titus:
+      long: တိတုဩဝါဒစာ
+    Zech:
+      long: ဇာခရိအနာဂတ္တိကျမ်း
+    Zeph:
+      long: ဇေဖနိအနာဂတ္တိကျမ်း
+  ghb:
+    1Chr:
+      long: ၁ ရာ~ဇ~ဝံ~သ။
+    1Cor:
+      long: ၁ ကော~ရိ~န္သု~ဩ~ဝါ~ဒ~ကျမ်း
+    1Kgs:
+      long: ၁ ဘု~ရင်~မင်း။
+    1Sam:
+      long: ၁ ရှ~မွေ~လ။
+    1Thess:
+      long: သက်~သာ~လော~နိတ်~ဩ~ဝါ~ဒ~ကျမ်း ပ~ဌ~မ~စောင်။
+    1Tim:
+      long: ၁ တိ~မော~သေ။
+    2Cor:
+      long: ၂ ကော~ရိ~န္သု~ဩ~ဝါ~ဒ~ကျမ်း။
+    2John:
+      long: ၂ ﻿ယော~ဟန်။
+    2Kgs:
+      long: ၂ ဘု~ရင်~မင်း။
+    2Pet:
+      long: ၂ ပေ~တ~ရု။
+    2Sam:
+      long: ၂ ရှ~မွေ~လ
+    2Thess:
+      long: သက်~သာ~လော~နိတ်~ဩ~ဝါ~ဒ~ကျမ်း ဒု~တိ~ယ~စောင်။
+    2Tim:
+      long: တိ~မော~သေ~ဩ~ဝါ~ဒကျမ်း ဒု~တိ~ယ~စောင်။
+    3John:
+      long: ၃ ယော~ဟန်။
+    Acts:
+      long: တ~မန်~တော်~ဝ~တ္ထု။
+    Col:
+      long: ကော~လော~သဲ~ဩ~ဝါ~ဒ~ကျမ်း။
+    Deut:
+      long: ဓ~မ္မ~ထပ်~ဆင့်~ကျမ်း။
+    Eccl:
+      long: အာ~စ~ရိ~ယော~ဝါ~ဒ~ကျမ်း။
+    Eph:
+      long: ဧ~ဖက်~ဩ~ဝါ~ဒ~ကျမ်း။
+    Gal:
+      long: ဂ~လာ~တိ~ဩ~ဝါ~ဒ~ကျမ်း။
+    Heb:
+      long: ဟေ~ဗြဲ~ဩ~ဝါ~ဒ~ကျမ်း။
+    Luke:
+      long: ရှင်~လု~ကာ
+    Mark:
+      long: ရှင်~မာ~ကု
+    Matt:
+      long: ရှင်~မဿဲ။
+    Mic:
+      long: မိ~က္ခာ~ကျမ်း။
+    Obad:
+      long: ဩ~ဗ~ဒိ~ကျမ်း။
+    Phil:
+      long: ဖိ~လိ~ပ္ပိ~ဩ~ဝါ~ဒ~ကျမ်း။
+    Phlm:
+      long: ဖိ~လေ~မုန်~ဩ~ဝါ~ဒ~ကျမ်း။
+    Rev:
+      long: ဗျာ~ဒိတ်~တော်~ကျမ်း။
+    Rom:
+      long: ရော~မ~ဩ~ဝါ~ဒ~ကျမ်း။
+    Ruth:
+      long: ရု~သ။
+    Titus:
+      long: ﻿တိ~တု~ဩ~ဝါ~ဒ~ကျမ်း။
+    Zeph:
+      long: ဇေ~ဖ~နိ~ကျမ်း။
+  jbmle:
+    1Chr:
+      long: ၁ ရာဇဝင်ချုပ်
+    1Cor:
+      short: ၁ ကော၊
+    1John:
+      long: ၁ ရှင်ယောဟန်
+      short: ၁ ယော၊
+    1Kgs:
+      long: ၃ ဓမ္မရာဇဝင်
+    1Pet:
+      long: ၁ ရှင်ပေတရု
+      short: ၁ ပေ၊
+    1Sam:
+      long: ၁ ဓမ္မရာဇဝင်
+    1Thess:
+      short: ၁ သက်၊
+    1Tim:
+      short: ၁ တိ၊
+    2Chr:
+      long: ၂ ရာဇဝင်ချုပ်
+    2Cor:
+      short: ၂ ကော၊
+    2John:
+      long: ၂ ရှင်ယောဟန်
+      short: ၂ ယော၊
+    2Kgs:
+      long: ၄ ဓမ္မရာဇဝင်
+    2Pet:
+      long: ၂ ရှင်ပေတရု
+      short: ၂ ပေ၊
+    2Sam:
+      long: ၂ ဓမ္မရာဇဝင်
+    2Thess:
+      short: ၂ သက်၊
+    2Tim:
+      short: ၂ တိ၊
+    3John:
+      long: ၃ ရှင်ယောဟန်
+      short: ၃ ယော၊
+    Acts:
+      short: တ၊
+    Amos:
+      long: အာမုတ်
+      short: အာ၊
+    Col:
+      short: ကော၊
+    Dan:
+      long: ဒံယေလ
+      short: ဒံ၊
+    Deut:
+      short: တရား၊
+    Eccl:
+      short: ဒေ၊
+    Eph:
+      short: ဧ၊
+    Esth:
+      long: ဧသတာ
+      short: ဧသ၊
+    Exod:
+      long: ထွက်မြောက်ရာ
+      short: ထွ၊
+    Ezek:
+      long: ယေဇကျေလ
+      short: ယေဇ၊
+    Ezra:
+      long: ဧဇရ
+      short: ဧဇ၊
+    Gal:
+      short: ဂလ၊
+    Gen:
+      long: ကမ္ဘာဦး
+      short: က၊
+    Hab:
+      long: ဟဗက္ကုတ်
+      short: ဟဗ၊
+    Hag:
+      long: ဟဂ္ဂဲ
+      short: ဟဂ္ဂဲ၊
+    Heb:
+      short: ဟေဗြဲ၊
+    Hos:
+      long: ဟောရှေ
+      short: ဟော၊
+    Isa:
+      long: ဟေရှာယ
+      short: ဟေရှာ၊
+    Jas:
+      long: ရှင်ယာကုပ်
+      short: ယာ၊
+    Jer:
+      long: ယေရမိ
+      short: ယေ၊
+    Job:
+      long: ယောဘ
+      short: ယောဘ၊
+    Joel:
+      long: ယောလ
+      short: ယောလ၊
+    John:
+      short: ယော၊
+    Jonah:
+      long: ယောန
+      short: ယောန၊
+    Josh:
+      long: ယောရှု
+      short: ယောရှု၊
+    Jude:
+      long: ရှင်ယုဒ
+      short: ယု၊
+    Judg:
+      long: တရားသူကြီး
+      short: သူကြီး၊
+    Lam:
+      long: ယေရမိမြည်တမ်း
+      short: မြည်၊
+    Lev:
+      long: ဝတ်ပြုရာ
+      short: ဝတ်၊
+    Luke:
+      short: လု၊
+    Mal:
+      long: မာလခိ
+      short: မာလ၊
+    Mark:
+      short: မာ၊
+    Matt:
+      long: ရှင်မဿဲ
+      short: မ၊
+    Mic:
+      short: မိ၊
+    Nah:
+      long: နာဟုံ
+      short: နာ၊
+    Neh:
+      long: နေဟမိ
+      short: နေ၊
+    Num:
+      long: တောလည်ရာ
+      short: တော၊
+    Obad:
+      long: ဩဗဒိ
+      short: ဩ၊
+    Phil:
+      short: ဖိ၊
+    Phlm:
+      short: ဖိလေ၊
+    Prov:
+      long: သုတ္တံ
+      short: သု၊
+    Ps:
+      long: ဆာလံ
+      short: ဆာ၊
+    Rev:
+      short: ဗျာ၊
+    Rom:
+      short: ရော၊
+    Ruth:
+      short: ရု၊
+    Song:
+      long: သီချင်း
+      short: သီ၊
+    Titus:
+      short: တိ၊
+    Zech:
+      long: ဇာခရိ
+      short: ဇာ၊
+    Zeph:
+      short: ဇေ၊
+  bcl:
+    1Chr:
+      long: ၁ ရာ​ချုပ်
+    1Cor:
+      long: ၁ ကော
+    1John:
+      long: ၁ ယော
+    1Kgs:
+      long: ၃ ရာ
+    1Pet:
+      long: ၁ ပေ
+    1Sam:
+      long: ၁ ရာ
+    1Thess:
+      long: ၁ သက်
+    1Tim:
+      long: ၁ တိ
+    2Chr:
+      long: ၂ ရာ​ချုပ်
+    2Cor:
+      long: ၂ ကော
+    2John:
+      long: ၂ ယော
+    2Kgs:
+      long: ၄ ရာ
+    2Pet:
+      long: ၂ ပေ
+    2Sam:
+      long: ၂ ရာ
+    2Thess:
+      long: ၂ သက်
+    2Tim:
+      long: ၂ တိ
+    3John:
+      long: ၃ ယော
+    Acts:
+      long: တမန်တော်ဝတ္ထု
+    Amos:
+      long: အာ​မုတ်
+    Col:
+      long: ကော​လော​သဲ
+    Dan:
+      long: ဒံ​ယေ​လ
+    Deut:
+      long: တ​ရား​ဟော
+    Eccl:
+      long: ဒေသနာကျမ်း။
+    Eph:
+      long: ဧ​ဖက်
+    Esth:
+      long: ဧ​သ​တာ
+    Exod:
+      long: ထွက်​မြောက်
+    Ezek:
+      long: ယေ​ဇ​ကျေ​လ
+    Ezra:
+      long: ဧ​ဇ​ရ
+    Gal:
+      long: ဂ​လာ​တိ
+    Gen:
+      long: ကမ္ဘာ​ဦး
+    Hab:
+      long: ဟ​ဗက္ကုတ်
+    Hag:
+      long: ဟ္ဂဲ
+    Heb:
+      long: ဟေ​ဗြဲ
+    Hos:
+      long: ဟော​ရှေ
+    Isa:
+      long: ဟေ​ရှာ​ယ
+    Jas:
+      long: ယာ​ကုပ်
+    Jer:
+      long: ယေ​ရ​မိ
+    Job:
+      long: ယောဘဝတ္တု။
+    Joel:
+      long: ယော​လ
+    Jonah:
+      long: ယော​န
+    Josh:
+      long: ယော​ရှု
+    Jude:
+      long: ယု​ဒ
+    Judg:
+      long: သူ​ကြီး
+    Lam:
+      long: မြည်​တမ်း​စ​ကား
+    Lev:
+      long: ဝတ်​ပြု
+    Luke:
+      long: လုကာ
+    Mal:
+      long: မာ​လ​ခိ
+    Nah:
+      long: နာ​ဟုံ
+    Neh:
+      long: နေ​ဟ​မိ
+    Num:
+      long: တော​လည်
+    Phil:
+      long: ဖိ​လိပ္ပိ
+    Phlm:
+      long: ဖိ​လေ​မုန်
+    Prov:
+      long: သုတ္တံကျမ်း။
+    Ps:
+      long: ဆာ​လံ
+    Rev:
+      long: ဗျာ​ဒိတ်
+    Rom:
+      long: ရော​မ
+    Song:
+      long: ရှောလမုန်သီချင်း။
+    Titus:
+      long: တိ​တု
+    Zech:
+      long: ဇာ​ခ​ရိ
+  bcb:
+    1John:
+      long: ၁ ယောဟန်
+    1Pet:
+      long: ၁ ပေတရု
+    2John:
+      long: ၂ ယောဟန်
+    2Pet:
+      long: ၂ ပေတရု
+    3John:
+      long: ၃ ယောဟန်
+    Gal:
+      short: ဂလာ
+    Jas:
+      long: ယာကုပ်
+    John:
+      long: ယောဟန်
+    Jude:
+      long: ယုဒ
+    Luke:
+      long: လုကာ
+    Mark:
+      long: မာကု

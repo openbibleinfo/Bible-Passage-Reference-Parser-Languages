@@ -1,0 +1,85 @@
+default:
+  1Cor:
+    long: 1 Akorinto
+    short: 1 Kor
+  1John:
+    long: 1 Yohane
+    short: 1 Yoh
+  1Pet:
+    long: 1 Petro
+    short: 1 Pet
+  1Thess:
+    long: 1 Atesalonika
+    short: 1 Tes
+  1Tim:
+    long: 1 Timóteo
+    short: 1 Tim
+  2Cor:
+    long: 2 Akorinto
+    short: 2 Kor
+  2John:
+    long: 2 Yohane
+    short: 2 Yoh
+  2Pet:
+    long: 2 Petro
+    short: 2 Pet
+  2Thess:
+    long: 2 Atesalonika
+    short: 2 Tes
+  2Tim:
+    long: 2 Timóteo
+    short: 2 Tim
+  3John:
+    long: 3 Yohane
+    short: 3 Yoh
+  Acts:
+    long: Saweriwa Tarummwa
+    short: Saw
+  Col:
+    long: aKolose
+    short: Kol
+  Eph:
+    long: aEfeso
+    short: Efe
+  Gal:
+    long: aGalitiya
+    short: Gal
+  Heb:
+    long: aHebri
+    short: aHebri
+  Jas:
+    long: Yakobo
+    short: Yak
+  John:
+    long: Yohane
+    short: Yoh
+  Jude:
+    long: Yuda
+    short: Yuda
+  Luke:
+    long: Luka
+    short: Luka
+  Mark:
+    long: Marku
+    short: Mark
+  Matt:
+    long: Mateyu
+    short: Mat
+  Phil:
+    long: aFilipi
+    short: Filip
+  Phlm:
+    long: Filemon
+    short: Filem
+  Ps:
+    long: Masalmo
+    short: Masalmo
+  Rev:
+    long: Yawupulula
+    short: Yaw
+  Rom:
+    long: aRoma
+    short: aRoma
+  Titus:
+    long: Tito
+    short: Tito

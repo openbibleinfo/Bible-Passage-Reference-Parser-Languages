@@ -1,0 +1,340 @@
+default:
+  1Chr:
+    long: Kiin zɛnaa ǹ sii sɛ́wɔ bibinaa
+    short: Kzs1
+  1Cor:
+    long: Kor1
+    short: Kor1
+  1John:
+    long: Zaã1
+    short: Zaã1
+  1Kgs:
+    long: Kiin1
+    short: Kiin1
+  1Macc:
+    long: Makaabee1
+    short: Mkb1
+  1Pet:
+    long: Piɛ1
+    short: Piɛ1
+  1Sam:
+    long: Sam1
+    short: Sam1
+  1Thess:
+    long: Tes1
+    short: Tes1
+  1Tim:
+    long: Tim1
+    short: Tim1
+  2Chr:
+    long: Kiin zɛnaa ǹ sii sɛ́wɔ paabaa ǹ wɔ
+    short: Kzs2
+  2Cor:
+    long: Kor2
+    short: Kor2
+  2John:
+    long: Zaã2
+    short: Zaã2
+  2Kgs:
+    long: Kiin2
+    short: Kiin2
+  2Macc:
+    long: Makaabee2
+    short: Mkb2
+  2Pet:
+    long: Piɛ2
+    short: Piɛ2
+  2Sam:
+    long: Sam2
+    short: Sam2
+  2Thess:
+    long: Tes2
+    short: Tes2
+  2Tim:
+    long: Tim2
+    short: Tim2
+  3John:
+    long: Zaã3
+    short: Zaã3
+  Acts:
+    long: Nds
+    short: Nds
+  Amos:
+    long: Amɔ
+    short: Amɔ
+  Bar:
+    long: Baruku
+    short: Bar
+  Col:
+    long: Kol
+    short: Kol
+  Dan:
+    long: Dan
+    short: Dan
+  Deut:
+    long: Tdp
+    short: Tdp
+  Eccl:
+    long: Bls
+    short: Bls
+  Eph:
+    long: Efɛ
+    short: Efɛ
+  Esth:
+    long: Ɛsit
+    short: Ɛsit
+  EsthGr:
+    long: Ɛsitɛɛrɛ Grɛki
+    short: EsG
+  Exod:
+    long: Bbn
+    short: Bbn
+  Ezek:
+    long: Eze
+    short: Eze
+  Ezra:
+    long: Ɛsid
+    short: Ɛsid
+  Gal:
+    long: Gal
+    short: Gal
+  Gen:
+    long: Sgk
+    short: Sgk
+  Hab:
+    long: Abak
+    short: Abak
+  Hag:
+    long: Aze
+    short: Aze
+  Heb:
+    long: Ebr
+    short: Ebr
+  Hos:
+    long: Oz
+    short: Oz
+  Isa:
+    long: Iza
+    short: Iza
+  Jas:
+    long: Zaaki
+    short: Zaaki
+  Jdt:
+    long: Zuditi
+    short: Zdt
+  Jer:
+    long: Zer
+    short: Zer
+  Job:
+    long: Zɔb
+    short: Zɔb
+  Joel:
+    long: Zow
+    short: Zow
+  John:
+    long: Zaã
+    short: Zaã
+  Jonah:
+    long: Zon
+    short: Zon
+  Josh:
+    long: Zoz
+    short: Zoz
+  Jude:
+    long: Zud
+    short: Zud
+  Judg:
+    long: Sii yɔrɔ-bɔlen
+    short: Syb
+  Lam:
+    long: Bps
+    short: Bps
+  Lev:
+    long: Lawa a wúlu-bɔlen
+    short: Lws
+  Luke:
+    long: Luk
+    short: Luk
+  Mal:
+    long: Mal
+    short: Mal
+  Mark:
+    long: Mar
+    short: Mar
+  Matt:
+    long: Mat
+    short: Mat
+  Mic:
+    long: Mis
+    short: Mis
+  Nah:
+    long: Nah
+    short: Nah
+  Neh:
+    long: Neh
+    short: Neh
+  Num:
+    long: Minin nimi
+    short: Mns
+  Obad:
+    long: Abd
+    short: Abd
+  Phil:
+    long: Fili
+    short: Fili
+  Phlm:
+    long: File
+    short: File
+  Prov:
+    long: Suu
+    short: Suu
+  Ps:
+    long: Loe
+    short: Loe
+  Rev:
+    long: Sii-nyaan
+    short: Sns
+  Rom:
+    long: Rɔm
+    short: Rɔm
+  Ruth:
+    long: Uru
+    short: Uru
+  Sir:
+    long: Yiriwoorobaa
+    short: Srs
+  Song:
+    long: Lkk
+    short: Lkk
+  Titus:
+    long: Tiiti
+    short: Tiiti
+  Tob:
+    long: Tobiti
+    short: Tbt
+  Wis:
+    long: Yiriwoorobaa ǹ sɛ́wɔ
+    short: Yws
+  Zech:
+    long: Zak
+    short: Zak
+  Zeph:
+    long: Sof
+    short: Sof
+translations:
+  sbpe2011:
+    1Chr:
+      long: Kzs1
+    2Chr:
+      long: Kzs2
+    Judg:
+      long: Syb
+    Lev:
+      long: Lws
+    Num:
+      long: Mns
+    Rev:
+      long: Sns
+  sce2013:
+    1Cor:
+      long: Korɛnti1
+    1Pet:
+      long: Piɛrɛ1
+    1Sam:
+      long: Samayeli1
+    1Thess:
+      long: Tesaloniki1
+    1Tim:
+      long: Timote1
+    2Cor:
+      long: Korɛnti2
+    2Pet:
+      long: Piɛrɛ2
+    2Sam:
+      long: Samayeli2
+    2Thess:
+      long: Tesaloniki2
+    2Tim:
+      long: Timote2
+    Acts:
+      long: Nya ǹ dín
+    Amos:
+      long: Amɔɔsi
+    Col:
+      long: Kolɔɔsi minin
+    Deut:
+      long: Timəə dí-pɛn
+    Eccl:
+      long: Boo-laakalaali
+    Eph:
+      long: Efɛɛzi minin
+    Exod:
+      long: Bɔ bɛ̀rɛbaa nɛ
+    Ezek:
+      long: Ezekieli
+    Ezra:
+      long: Ɛsidrasi
+    Gal:
+      long: Galaasi minin
+    Gen:
+      long: Siin Giala
+    Hab:
+      long: Abakuku
+    Hag:
+      long: Azee
+    Heb:
+      long: Ebrəə
+    Hos:
+      long: Ozee
+    Isa:
+      long: Izayii
+    Jer:
+      long: Zeremii
+    Job:
+      long: Zɔbu
+    Joel:
+      long: Zowɛli
+    Jonah:
+      long: Zonaasi
+    Josh:
+      long: Zozoe
+    Jude:
+      long: Zude
+    Lam:
+      long: Busii pɛ
+    Luke:
+      long: Luku
+    Mal:
+      long: Malakii
+    Mark:
+      long: Marki
+    Matt:
+      long: Matiə
+    Mic:
+      long: Misee
+    Nah:
+      long: Nahumu
+    Neh:
+      long: Nehemii
+    Obad:
+      long: Abdiasi
+    Phil:
+      long: Filipi minin
+    Phlm:
+      long: Filemɔn
+    Prov:
+      long: Suusun
+    Ps:
+      long: Loen
+    Rom:
+      long: Rɔmu minin
+    Ruth:
+      long: Uruti
+    Song:
+      long: Loe kɔɔ̃n kɔɔ̃n
+    Titus:
+      long: Tiitii
+    Zech:
+      long: Zakarii
+    Zeph:
+      long: Sofonii

@@ -1,0 +1,298 @@
+default:
+  1Chr:
+    long: 1 Ihe E Mere
+    short: 1Ih
+  1Cor:
+    long: 1 Ndị Kọrint
+    short: 1Kọ
+  1John:
+    long: 1 Jọn
+    short: 1Jọn
+  1Kgs:
+    long: 1 Ndị Eze
+    short: 1Ez
+  1Pet:
+    long: 1 Pita
+    short: 1Pt
+  1Sam:
+    long: 1 Samuel
+    short: 1Sa
+  1Thess:
+    long: 1 Ndị Tesalonaịka
+    short: 1Te
+  1Tim:
+    long: 1 Timoti
+    short: 1Tm
+  2Chr:
+    long: 2 Ihe E Mere
+    short: 2Ih
+  2Cor:
+    long: 2 Ndị Kọrint
+    short: 2Kọ
+  2John:
+    long: 2 Jọn
+    short: 2Jọn
+  2Kgs:
+    long: 2 Ndị Eze
+    short: 2Ez
+  2Pet:
+    long: 2 Pita
+    short: 2Pt
+  2Sam:
+    long: 2 Samuel
+    short: 2Sa
+  2Thess:
+    long: 2 Ndị Tesalonaịka
+    short: 2Te
+  2Tim:
+    long: 2 Timoti
+    short: 2Tm
+  3John:
+    long: 3 Jọn
+    short: 3Jọn
+  Acts:
+    long: Ọlu Ndi-ozi
+    short: Ọrụ
+  Amos:
+    long: Emos
+    short: Ems
+  Col:
+    long: Ndi Kọlọsi
+    short: Kọl
+  Dan:
+    long: Daniel
+    short: Dan
+  Deut:
+    long: Deuteronomi
+    short: Dit
+  Eccl:
+    long: Ekiliziastis
+    short: Ekl
+  Eph:
+    long: Ndi Efesọs
+    short: Efe
+  Esth:
+    long: Esta
+    short: Est
+  Exod:
+    long: Ọpupu
+    short: Ọpụ
+  Ezek:
+    long: Ezikiel
+    short: Izk
+  Ezra:
+    long: Ezra
+    short: Ezr
+  Gal:
+    long: Ndi Galetia
+    short: Gal
+  Gen:
+    long: Jenesis
+    short: Jen
+  Hab:
+    long: Habakuk
+    short: Hab
+  Hag:
+    long: Hagai
+    short: Heg
+  Heb:
+    long: Ndi-hibru
+    short: Hib
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Aisaia
+    short: Aịz
+  Jas:
+    long: Jemes
+    short: Jem
+  Jer:
+    long: Jeremaia
+    short: Jer
+  Job:
+    long: Job
+    short: Job
+  Joel:
+    long: Joel
+    short: Jul
+  John:
+    long: Jọn
+    short: Jọn
+  Jonah:
+    long: Jona
+    short: Jon
+  Josh:
+    long: Joshua
+    short: Jos
+  Jude:
+    long: Jud
+    short: Jud
+  Judg:
+    long: Ndi-ikpe
+    short: Nkp
+  Lam:
+    long: Abù-ákwá
+    short: Akw
+  Lev:
+    long: Levitikọs
+    short: Lev
+  Luke:
+    long: Luk
+    short: Luk
+  Mal:
+    long: Malakai
+    short: Mal
+  Mark:
+    long: Mak
+    short: Mak
+  Matt:
+    long: Matiu
+    short: Mat
+  Mic:
+    long: Maika
+    short: Mai
+  Nah:
+    long: Nehum
+    short: Nhu
+  Neh:
+    long: Nehemaia
+    short: Neh
+  Num:
+    long: Ọnu-ọgugu
+    short: Ọnụ
+  Obad:
+    long: Obadaia
+    short: Ọbd
+  Phil:
+    long: Ndi Filipai
+    short: Fil
+  Phlm:
+    long: Failimon
+    short: Fịl
+  Prov:
+    long: Ilu
+    short: Ilu
+  Ps:
+    long: Abù Ọma
+    short: Abụ
+  Rev:
+    long: Mkpughe
+    short: Mkp
+  Rom:
+    long: Ndi Rom
+    short: Rom
+  Ruth:
+    long: Rut
+    short: Rut
+  Song:
+    long: Abù Nke Abù
+    short: Abk
+  Titus:
+    long: Taitọs
+    short: Taị
+  Zech:
+    long: Zekaraia
+    short: Zek
+  Zeph:
+    long: Zefanaia
+    short: Zef
+translations:
+  igbob:
+    1Chr:
+      long: I. Ihe Emere
+    1Cor:
+      long: I. Ndi Kọrint
+    1John:
+      long: I. Jọn
+    1Kgs:
+      long: I. Ndi-eze
+    1Pet:
+      long: I. Pita
+    1Sam:
+      long: I. Samuel
+    1Thess:
+      long: I. Ndi Tesalọnaika
+    1Tim:
+      long: I. Timọti
+    2Chr:
+      long: II. Ihe Emere
+    2Cor:
+      long: II. Ndi Kọrint
+    2John:
+      long: II. Jọn
+    2Kgs:
+      long: II. Ndi-eze
+    2Pet:
+      long: II. Pita
+    2Sam:
+      long: II. Samuel
+    2Thess:
+      long: II. Ndi Tesalọnaika
+    2Tim:
+      long: II. Timọti
+    3John:
+      long: III. Jọn
+    Eccl:
+      long: Eklisiastis
+    Rev:
+      long: Nkpughe
+  icb:
+    Acts:
+      long: Ọrụ Ndị Ozi
+    Amos:
+      long: Emọs
+    Col:
+      long: Ndị Kọlọsị
+    Deut:
+      long: Diuteronomi
+    Eph:
+      long: Ndị Efesọs
+    Exod:
+      long: Ọpụpụ
+    Ezek:
+      long: Izikiel
+    Gal:
+      long: Ndị Galeshịa
+    Hag:
+      long: Hegai
+    Heb:
+      long: Ndị Hibru
+    Hos:
+      long: Hosiya
+    Isa:
+      long: Aịzaya
+    Jas:
+      long: Jemis
+    Jer:
+      long: Jeremaya
+    Joel:
+      long: Juel
+    Judg:
+      long: Ndị Ikpe
+    Lam:
+      long: Abụ Akwa
+    Mal:
+      long: Malakaị
+    Neh:
+      long: Nehemaya
+    Num:
+      long: Ọnụọgụgụ
+    Obad:
+      long: Ọbadaya
+    Phil:
+      long: Ndị Filipai
+    Phlm:
+      long: Fịlịmọn
+    Ps:
+      long: Abụ Ọma
+    Rom:
+      long: Ndị Rom
+    Song:
+      long: Abụ nke Abụ
+    Titus:
+      long: Taịtọs
+    Zech:
+      long: Zekaraya
+    Zeph:
+      long: Zefanaya

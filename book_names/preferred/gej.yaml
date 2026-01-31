@@ -1,0 +1,220 @@
+default:
+  1Chr:
+    long: 1Kronikà
+    short: 1Kro
+  1Cor:
+    long: 1Kòrɛ̃tòtɔwo
+    short: 1Kòr
+  1John:
+    long: 1Yòhanɛ̀s
+    short: 1Yoh
+  1Kgs:
+    long: 1Èfìɔwo
+    short: 1Èfìɔ
+  1Macc:
+    long: 1Màkàbeòwo
+    short: 1Mak
+  1Pet:
+    long: 1Petrò
+    short: 1Pet
+  1Sam:
+    long: 1Samuɛl
+    short: 1Sam
+  1Thess:
+    long: 1Tɛsalonikà
+    short: 1Tɛs
+  1Tim:
+    long: 1Timòteo
+    short: 1Tim
+  2Chr:
+    long: 2Kronikà
+    short: 2Kro
+  2Cor:
+    long: 2Kòrɛ̃tòtɔwo
+    short: 2Kòr
+  2John:
+    long: 2Yòhanɛ̀s
+    short: 2Yòh
+  2Kgs:
+    long: 2Èfìɔ
+    short: 2Èfìɔ
+  2Macc:
+    long: 2Màkàbeòwo
+    short: 2Mak
+  2Pet:
+    long: 2Petrò
+    short: 2Pet
+  2Sam:
+    long: 2Samuɛl
+    short: 2Sam
+  2Thess:
+    long: 2Tɛsalonikà
+    short: 2Tɛs
+  2Tim:
+    long: 2Timòteo
+    short: 2Tim
+  3John:
+    long: 3Yòhanɛ̀s
+    short: 3Yoh
+  Acts:
+    long: Èdɔwɔ̀wɔwo
+    short: Dɔw
+  Amos:
+    long: Àmos
+    short: Àmos
+  Bar:
+    long: Bàruk
+    short: Bàr
+  Col:
+    long: Kolosètɔwo
+    short: Kol
+  DanGr:
+    long: Dàniɛl-G
+    short: Dàg
+  Deut:
+    long: Èsea gbìgbɔ̀ hlɛ̃
+    short: Gbì
+  Eccl:
+    long: Àɖàŋùɖètɔ
+    short: Àɖà
+  Eph:
+    long: Efesòtɔwo
+    short: Efes
+  EsthGr:
+    long: Ɛstà-G
+    short: ƐstG
+  Exod:
+    long: Toto jo
+    short: Tot
+  Ezek:
+    long: Ezekìɛl
+    short: Eze
+  Ezra:
+    long: Ɛzrà
+    short: Ɛzr
+  Gal:
+    long: Galatìatɔwɔ
+    short: Gal
+  Gen:
+    long: Gɔ̃mèjèje be Xoma
+    short: Gɔ̃m
+  Hab:
+    long: Hàbakuk
+    short: Hàb
+  Hag:
+    long: Hagài
+    short: Hag
+  Heb:
+    long: Hebrùwo
+    short: Heb
+  Hos:
+    long: Òzeà
+    short: Òze
+  Isa:
+    long: Ezayà
+    short: Eza
+  Jas:
+    long: Yakobò
+    short: Yak
+  Jdt:
+    long: Yudìt
+    short: Ydt
+  Jer:
+    long: Yeremìa
+    short: Yer
+  Job:
+    long: Yɔb
+    short: Yɔb
+  Joel:
+    long: Yoɛ̀l
+    short: Yòl
+  John:
+    long: Yòhanɛ̀s
+    short: Yòh
+  Jonah:
+    long: Yonà
+    short: Yon
+  Josh:
+    long: Yosùa
+    short: Yos
+  Jude:
+    long: Yudà
+    short: Yud
+  Judg:
+    long: Kòjoɖotɔwo
+    short: Kòj
+  Lam:
+    long: Àlenanawo
+    short: Àle
+  Lev:
+    long: Levìwo
+    short: Lev
+  Luke:
+    long: Lukà
+    short: Luk
+  Mal:
+    long: Malakìa
+    short: Mal
+  Mark:
+    long: Markò
+    short: Mrk
+  Matt:
+    long: Màteo
+    short: Màt
+  Mic:
+    long: Mikà
+    short: MiK
+  Nah:
+    long: Nàhum
+    short: Nàh
+  Neh:
+    long: Nèhemìa
+    short: Nèh
+  Num:
+    long: Àmè Hɛ̃hlɛ̃
+    short: Hɛ̃h
+  Obad:
+    long: Obadìa
+    short: Oba
+  Phil:
+    long: Fìlipìtɔwo
+    short: Fil
+  Phlm:
+    long: Filemɔ̀n
+    short: Flm
+  Prov:
+    long: Èlododowo
+    short: Èlo
+  Ps:
+    long: Èhàwo
+    short: Èhàw
+  Rev:
+    long: Àvìmènu
+    short: Àvì
+  Rom:
+    long: Romàtɔwo
+    short: Rom
+  Ruth:
+    long: Rut
+    short: Rut
+  Sir:
+    long: Sirasid
+    short: Sir
+  Song:
+    long: Èhàwo be Èhà
+    short: Èhà
+  Titus:
+    long: Titò
+    short: Tit
+  Tob:
+    long: Tobì
+    short: Tob
+  Wis:
+    long: Ànyasã
+    short: Àny
+  Zech:
+    long: Zakarìa
+    short: Zak
+  Zeph:
+    long: Sèfanìa
+    short: Sèf

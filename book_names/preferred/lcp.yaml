@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 3 กซัต
+    short: 3 กซต.
+  1Cor:
+    long: 1 โคริน
+    short: 1 คร.
+  1John:
+    long: 1 โยฮัน
+    short: 1 ยน.
+  1Kgs:
+    long: 1 กซัต
+    short: 1 กซต.
+  1Pet:
+    long: 1 เปโตร
+    short: 1 ปต.
+  1Sam:
+    long: 1 ซามูเอน
+    short: 1 ซมอ.
+  1Thess:
+    long: 1 เทซะโลนิกา
+    short: 1 ทก.
+  1Tim:
+    long: 1 ทิโมที
+    short: 1 ทท.
+  2Chr:
+    long: 4 กซัต
+    short: 4 กซต.
+  2Cor:
+    long: 2 โคริน
+    short: 2 คร.
+  2John:
+    long: 2 โยฮัน
+    short: 2 ยน.
+  2Kgs:
+    long: 2 กซัต
+    short: 2 กซต.
+  2Pet:
+    long: 2 เปโตร
+    short: 2 ปต.
+  2Sam:
+    long: 2 ซามูเอน
+    short: 2 ซมอ.
+  2Thess:
+    long: 2 เทซะโลนิกา
+    short: 2 ทก.
+  2Tim:
+    long: 2 ทิโมที
+    short: 2 ทท.
+  3John:
+    long: 3 โยฮัน
+    short: 3 ยน.
+  Acts:
+    long: กันไกญกอ
+    short: กก.
+  Amos:
+    long: อาโมต
+    short: อมต.
+  Col:
+    long: โคโลซี
+    short: คซ.
+  Dan:
+    long: ด่านีเอน
+    short: ดนอ.
+  Deut:
+    long: 5 โมเซ
+    short: 5 มเซ.
+  Eccl:
+    long: คูไมจพันญา
+    short: คมญ.
+  Eph:
+    long: เอเฟโซ
+    short: อฟ.
+  Esth:
+    long: เอซเทอ
+    short: อซท.
+  Exod:
+    long: 2 โมเซ
+    short: 2 มเซ.
+  Ezek:
+    long: เอเซเคียน
+    short: อซค.
+  Ezra:
+    long: เอซรา
+    short: อซร.
+  Gal:
+    long: กะลาเทีย
+    short: กท.
+  Gen:
+    long: 1 โมเซ
+    short: 1 มเซ.
+  Hab:
+    long: ฮาบ่ากุก
+    short: ฮบก.
+  Hag:
+    long: ฮักไก
+    short: ฮกก.
+  Heb:
+    long: ฮีบรู
+    short: ฮบ.
+  Hos:
+    long: โฮเชยา
+    short: ฮชย.
+  Isa:
+    long: อิซยา
+    short: อซย.
+  Jas:
+    long: ยาโคโบ่
+    short: ยบ.
+  Jer:
+    long: เยเรมี
+    short: ยรม.
+  Job:
+    long: โยป
+    short: โยป.
+  Joel:
+    long: โยเอน
+    short: ยอน.
+  John:
+    long: โยฮัน
+    short: ยฮ.
+  Jonah:
+    long: โยนา
+    short: ยนา.
+  Josh:
+    long: โยชูวา
+    short: ยชว.
+  Jude:
+    long: ยูด่า
+    short: ยด.
+  Judg:
+    long: ปรเตีฮรตุม
+    short: ปรต.
+  Lam:
+    long: รซอมเยือม
+    short: รซย.
+  Lev:
+    long: 3 โมเซ
+    short: 3 มเซ.
+  Luke:
+    long: ลูกา
+    short: ลก.
+  Mal:
+    long: มาลาคี
+    short: มลค.
+  Mark:
+    long: มาระโก
+    short: มก.
+  Matt:
+    long: มัตไท
+    short: มท.
+  Mic:
+    long: มีคา
+    short: มคา.
+  Nah:
+    long: นาฮุม
+    short: นาฮ.
+  Neh:
+    long: เนฮะมี
+    short: นฮม.
+  Num:
+    long: 4 โมเซ
+    short: 4 มเซ.
+  Obad:
+    long: โอบ่าดี่
+    short: อบด.
+  Phil:
+    long: ฟีลิปปี
+    short: ฟป.
+  Phlm:
+    long: ฟีเลโมน
+    short: ฟม.
+  Prov:
+    long: ซตอกรเง่อึม
+    short: ซตง.
+  Ps:
+    long: ลืลาว
+    short: ลลว.
+  Rev:
+    long: รโฮงะ
+    short: รฮ.
+  Rom:
+    long: โรม
+    short: รม.
+  Ruth:
+    long: รูต
+    short: รูต.
+  Song:
+    long: รซอมเชียซาโลมอน
+    short: ซลม.
+  Titus:
+    long: ติโต
+    short: ตต.
+  Zech:
+    long: เซคาริยา
+    short: ซคย.
+  Zeph:
+    long: เซฟันยา
+    short: ซฟย.

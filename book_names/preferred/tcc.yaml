@@ -1,0 +1,276 @@
+default:
+  1Chr:
+    long: 1 Damanyoojiga
+    short: 1 Dam
+  1Cor:
+    long: 1 Goriinto
+    short: 1 Gor
+  1John:
+    long: 1 Yohaana
+    short: 1 Yoh
+  1Kgs:
+    long: 1 Sugoodiga
+    short: 1 Sug
+  1Pet:
+    long: 1 Betaro
+    short: 1 Bet
+  1Sam:
+    long: 1 Samweli
+    short: 1 Sam
+  1Thess:
+    long: 1 Desaloniikke
+    short: 1 Des
+  1Tim:
+    long: 1 Dimoteo
+    short: 1 Dim
+  2Chr:
+    long: 2 Damanyoojiga
+    short: 2 Dam
+  2Cor:
+    long: 2 Goriinto
+    short: 2 Gor
+  2John:
+    long: 2 Yohaana
+    short: 2 Yoh
+  2Kgs:
+    long: 2 Sugoodiga
+    short: 2 Sug
+  2Pet:
+    long: 2 Betaro
+    short: 2 Bet
+  2Sam:
+    long: 2 Samweli
+    short: 2 Sam
+  2Thess:
+    long: 2 Desaloniikke
+    short: 2 Des
+  2Tim:
+    long: 2 Dimoteo
+    short: 2 Dim
+  3John:
+    long: 3 Yohaana
+    short: 3 Yoh
+  Acts:
+    long: Gadiyeeda Giijasoodiga
+    short: Gad
+  Amos:
+    long: Amosi
+    short: Amo
+  Col:
+    long: Golosaayi
+    short: Gol
+  Dan:
+    long: Danieli
+    short: Dan
+  Deut:
+    long: Giipkeata Diigheanda
+    short: Gip
+  Eccl:
+    long: Reekusiinda
+    short: Ree
+  Eph:
+    long: Efeeso
+    short: Efe
+  Esth:
+    long: Esta
+    short: Est
+  Exod:
+    long: Riteayda
+    short: Rit
+  Ezek:
+    long: Esekieli
+    short: Ese
+  Ezra:
+    long: Esra
+    short: Esr
+  Gal:
+    long: Galatiya
+    short: Gal
+  Gen:
+    long: Giing'eeta
+    short: Gin
+  Hab:
+    long: Habakuki
+    short: Hab
+  Hag:
+    long: Hagayi
+    short: Hag
+  Heb:
+    long: Ebraniya
+    short: Ebr
+  Hos:
+    long: Hoseya
+    short: Hos
+  Isa:
+    long: Isaya
+    short: Isa
+  Jas:
+    long: Yakkobo
+    short: Yak
+  Jer:
+    long: Yeremiya
+    short: Yer
+  Job:
+    long: Ayubu
+    short: Ayu
+  Joel:
+    long: Yoeli
+    short: Yoe
+  John:
+    long: Yohaana
+    short: Yoh
+  Jonah:
+    long: Yona
+    short: Yon
+  Josh:
+    long: Yoshuwa
+    short: Yos
+  Jude:
+    long: Yuda
+    short: Yud
+  Judg:
+    long: Fuga Laja Girgweaguutka
+    short: Fug
+  Lam:
+    long: Heareega
+    short: Hea
+  Lev:
+    long: Ng'asheega Lawi
+    short: Lawi
+  Luke:
+    long: Luka
+    short: Luk
+  Mal:
+    long: Malaki
+    short: Mal
+  Mark:
+    long: Marko
+    short: Mar
+  Matt:
+    long: Matayo
+    short: Mat
+  Mic:
+    long: Mika
+    short: MiK
+  Nah:
+    long: Nahumu
+    short: Nah
+  Neh:
+    long: Nehemiya
+    short: Neh
+  Num:
+    long: Iitooda
+    short: Iit
+  Obad:
+    long: Obadiya
+    short: Oba
+  Phil:
+    long: Filipi
+    short: Fil
+  Phlm:
+    long: Filimoni
+    short: File
+  Prov:
+    long: Ghwasiildeanga
+    short: Ghwa
+  Ps:
+    long: Nyiigheega
+    short: Nyi
+  Rev:
+    long: Giidaheachta
+    short: Gid
+  Rom:
+    long: Rumi
+    short: Rum
+  Ruth:
+    long: Ruti
+    short: Rut
+  Song:
+    long: Sarmeeda Sulemani
+    short: Sar
+  Titus:
+    long: Dito
+    short: Dit
+  Zech:
+    long: Sakariya
+    short: Sak
+  Zeph:
+    long: Sefaniya
+    short: Sef
+translations:
+  db15:
+    1Cor:
+      long: 1 Gorinto
+    1John:
+      long: 1 Yohana
+      short: 1Yoh
+    1Pet:
+      short: 1Bet
+    1Thess:
+      long: 1 Desalonike
+      short: 1Des
+    1Tim:
+      short: 1Dim
+    2Cor:
+      long: 2 Gorinto
+    2John:
+      long: 2 Yohana
+      short: 2Yoh
+    2Pet:
+      short: 2Bet
+    2Thess:
+      long: 2 Desalonike
+      short: 2Des
+    2Tim:
+      short: 2Dim
+    3John:
+      long: 3 Yohana
+      short: 3Yoh
+    Col:
+      long: Golosayi
+    Eph:
+      long: Efeso
+    Jas:
+      long: Yakobo
+    John:
+      long: Yohana
+    Phil:
+      short: Filp
+    Phlm:
+      short: Film
+    Rev:
+      short: Giid
+  dtgant09:
+    1Cor:
+      short: 1Gor
+    1Pet:
+      long: 1 Betro
+    1Tim:
+      long: 1 Dimotteo
+    2Cor:
+      short: 2Gor
+    2Pet:
+      long: 2 Betro
+    Acts:
+      short: Gadi
+    Gal:
+      long: Galattiya
+    Jude:
+      long: Yuuda
+    Luke:
+      long: Lukka
+    Mark:
+      short: Mark
+    Matt:
+      long: Mattayo
+    Phil:
+      long: Filippi
+    Phlm:
+      long: Filimoon
+    Rev:
+      long: Giidaheechta
+    Rom:
+      long: Ruumi
+      short: Ruum
+    Titus:
+      long: Ditto

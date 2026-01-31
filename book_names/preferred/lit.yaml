@@ -1,0 +1,425 @@
+default:
+  1Chr:
+    long: 1 Metraščių
+    short: 1 Met
+  1Cor:
+    long: 1 Korintiečiams
+    short: 1 Kor
+  1John:
+    long: 1 Jono
+    short: 1 Jn
+  1Kgs:
+    long: 1 Karalių
+    short: 1 Kar
+  1Macc:
+    long: 1 Makabiejų
+    short: 1 Mak
+  1Pet:
+    long: 1 Petro
+    short: 1 Pt
+  1Sam:
+    long: 1 Samuelio
+    short: 1 Sam
+  1Thess:
+    long: 1 Tesalonikiečiams
+    short: 1 Tes
+  1Tim:
+    long: 1 Timotiejui
+    short: 1 Tim
+  2Chr:
+    long: 2 Metraščių
+    short: 2 Met
+  2Cor:
+    long: 2 Korintiečiams
+    short: 2 Kor
+  2John:
+    long: 2 Jono
+    short: 2 Jn
+  2Kgs:
+    long: 2 Karalių
+    short: 2 Kar
+  2Macc:
+    long: 2 Makabiejų
+    short: 2 Mak
+  2Pet:
+    long: 2 Petro
+    short: 2 Pt
+  2Sam:
+    long: 2 Samuelio
+    short: 2 Sam
+  2Thess:
+    long: 2 Tesalonikiečiams
+    short: 2 Tes
+  2Tim:
+    long: 2 Timotiejui
+    short: 2 Tim
+  3John:
+    long: 3 Jono
+    short: 3 Jn
+  Acts:
+    long: Apaštalų darbai
+    short: Apd
+  Amos:
+    long: Amoso
+    short: Am
+  Bar:
+    long: Barucho
+    short: Bar
+  Col:
+    long: Kolosiečiams
+    short: Kol
+  Dan:
+    long: Danieliaus
+    short: Dan
+  DanGr:
+    long: Danieliaus (graikiškieji)
+    short: Dan(g)
+  Deut:
+    long: Pakartoto Įstatymo
+    short: Įst
+  Eccl:
+    long: Mokytojo
+    short: Mok
+  Eph:
+    long: Efeziečiams
+    short: Ef
+  Esth:
+    long: Esteros
+    short: Est
+  EsthGr:
+    long: Esteros (graikiškoji)
+    short: Est(g)
+  Exod:
+    long: Išėjimo
+    short: Iš
+  Ezek:
+    long: Ezechielio
+    short: Ez
+  Ezra:
+    long: Ezros
+    short: Ezr
+  Gal:
+    long: Galatams
+    short: Gal
+  Gen:
+    long: Pradžios
+    short: Pr
+  Hab:
+    long: Habakuko
+    short: Hab
+  Hag:
+    long: Agėjo
+    short: Ag
+  Heb:
+    long: Hebrajams
+    short: Hbr
+  Hos:
+    long: Ozėjo
+    short: Oz
+  Isa:
+    long: Izaijo
+    short: Iz
+  Jas:
+    long: Jokūbo
+    short: Jok
+  Jdt:
+    long: Juditos
+    short: Jdt
+  Jer:
+    long: Jeremijo
+    short: Jer
+  Job:
+    long: Jobo
+    short: Job
+  Joel:
+    long: Joelio
+    short: Jl
+  John:
+    long: Jono
+    short: Jn
+  Jonah:
+    long: Jonos
+    short: Jon
+  Josh:
+    long: Jozuės
+    short: Joz
+  Jude:
+    long: Judo
+    short: Jud
+  Judg:
+    long: Teisėjų
+    short: Ts
+  Lam:
+    long: Raudų
+    short: Rd
+  Lev:
+    long: Kunigų
+    short: Kun
+  Luke:
+    long: Luko
+    short: Lk
+  Mal:
+    long: Malachijo
+    short: Mal
+  Mark:
+    long: Morkaus
+    short: Mk
+  Matt:
+    long: Mato
+    short: Mt
+  Mic:
+    long: Michėjo
+    short: Mch
+  Nah:
+    long: Nahumo
+    short: Nah
+  Neh:
+    long: Nehemijo
+    short: Neh
+  Num:
+    long: Skaičių
+    short: Sk
+  Obad:
+    long: Abdijo
+    short: Abd
+  Phil:
+    long: Filipiečiams
+    short: Fil
+  Phlm:
+    long: Filemonui
+    short: Fm
+  Prov:
+    long: Patarlės
+    short: Pat
+  Ps:
+    long: Psalmynas
+    short: Ps
+  Rev:
+    long: Apreiškimas
+    short: Apr
+  Rom:
+    long: Romiečiams
+    short: Rom
+  Ruth:
+    long: Rūtos
+    short: Rūt
+  Sir:
+    long: Siracido
+    short: Sir
+  Song:
+    long: Giesmių giesmės
+    short: Gg
+  Titus:
+    long: Titui
+    short: Tit
+  Tob:
+    long: Tobito
+    short: Tob
+  Wis:
+    long: Išminties
+    short: Išm
+  Zech:
+    long: Zacharijo
+    short: Zch
+  Zeph:
+    long: Sofonijo
+    short: Sof
+translations:
+  kbv:
+    1Chr:
+      long: Pirmoji Kronikų knyga
+      short: Pirmoji Kronikų knyga
+    1Cor:
+      long: Pirmasis laiškas Korintiečiams
+      short: Pirmasis laiškas Korintiečiams
+    1John:
+      long: Pirmasis Jono laiškas
+      short: Pirmasis Jono laiškas
+    1Kgs:
+      long: Pirmoji Karalių knyga
+      short: Pirmoji Karalių knyga
+    1Pet:
+      long: Pirmasis Petro laiškas
+      short: Pirmasis Petro laiškas
+    1Sam:
+      long: Pirmoji Samuelio knyga
+      short: Pirmoji Samuelio knyga
+    1Thess:
+      long: Pirmasis laiškas Tesalonikiečiams
+      short: Pirmasis laiškas Tesalonikiečiams
+    1Tim:
+      long: Pirmasis laiškas Timotiejui
+      short: Pirmasis laiškas Timotiejui
+    2Chr:
+      long: Antroji Kronikų knyga
+      short: Antroji Kronikų knyga
+    2Cor:
+      long: Antrasis laiškas Korintiečiams
+      short: Antrasis laiškas Korintiečiams
+    2John:
+      long: Antrasis Jono laiškas
+      short: Antrasis Jono laiškas
+    2Kgs:
+      long: Antroji Karalių knyga
+      short: Antroji Karalių knyga
+    2Pet:
+      long: Antrasis Petro laiškas
+      short: Antrasis Petro laiškas
+    2Sam:
+      long: Antroji Samuelio knyga
+      short: Antroji Samuelio knyga
+    2Thess:
+      long: Antrasis laiškas Tesalonikiečiams
+      short: Antrasis laiškas Tesalonikiečiams
+    2Tim:
+      long: Antrasis laiškas Timotiejui
+      short: Antrasis laiškas Timotiejui
+    3John:
+      long: Trečiasis Jono laiškas
+      short: Trečiasis Jono laiškas
+    Acts:
+      short: Apaštalų darbai
+    Amos:
+      long: Amoso pranašystė
+      short: Amoso pranašystė
+    Col:
+      long: Laiškas Kolosiečiams
+      short: Laiškas Kolosiečiams
+    Dan:
+      long: Danieliaus pranašystė
+      short: Danieliaus pranašystė
+    Deut:
+      long: Pakartoto įstatymo knyga
+      short: Pakartoto įstatymo knyga
+    Eccl:
+      long: Ekleziasto knyga
+      short: Ekleziasto knyga
+    Eph:
+      long: Laiškas Efeziečiams
+      short: Laiškas Efeziečiams
+    Esth:
+      long: Esteros knyga
+      short: Esteros knyga
+    Exod:
+      long: Išėjimo knyga
+      short: Išėjimo knyga
+    Ezek:
+      long: Ezechielio pranašystė
+      short: Ezechielio pranašystė
+    Ezra:
+      long: Ezros knyga
+      short: Ezros knyga
+    Gal:
+      long: Laiškas Galatams
+      short: Laiškas Galatams
+    Gen:
+      long: Pradžios knyga
+      short: Pradžios knyga
+    Hab:
+      long: Habakuko pranašystė
+      short: Habakuko pranašystė
+    Hag:
+      long: Agėjo pranašystė
+      short: Agėjo pranašystė
+    Heb:
+      long: Laiškas Hebrajams
+      short: Laiškas Hebrajams
+    Hos:
+      long: Ozėjo pranašystė
+      short: Ozėjo pranašystė
+    Isa:
+      long: Izaijo pranašystė
+      short: Izaijo pranašystė
+    Jas:
+      long: Jokūbo laiškas
+      short: Jokūbo laiškas
+    Jer:
+      long: Jeremijo pranašystė
+      short: Jeremijo pranašystė
+    Job:
+      long: Jobo knyga
+      short: Jobo knyga
+    Joel:
+      long: Joelio pranašystė
+      short: Joelio pranašystė
+    John:
+      long: Evangelija pagal Joną
+      short: Evangelija pagal Joną
+    Jonah:
+      long: Jonos pranašystė
+      short: Jonos pranašystė
+    Josh:
+      long: Jozuės knyga
+      short: Jozuės knyga
+    Jude:
+      long: Judo laiškas
+      short: Judo laiškas
+    Judg:
+      long: Teisėjų knyga
+      short: Teisėjų knyga
+    Lam:
+      long: Raudų knyga
+      short: Raudų knyga
+    Lev:
+      long: Kunigų knyga
+      short: Kunigų knyga
+    Luke:
+      long: Evangelija pagal Luką
+      short: Evangelija pagal Luką
+    Mal:
+      long: Malachijo pranašystė
+      short: Malachijo pranašystė
+    Mark:
+      long: Evangelija pagal Morkų
+      short: Evangelija pagal Morkų
+    Matt:
+      long: Evangelija pagal Matą
+      short: Evangelija pagal Matą
+    Mic:
+      long: Michėjo pranašystė
+      short: Michėjo pranašystė
+    Nah:
+      long: Nahumo pranašystė
+      short: Nahumo pranašystė
+    Neh:
+      long: Nehemijo knyga
+      short: Nehemijo knyga
+    Num:
+      long: Skaičių knyga
+      short: Skaičių knyga
+    Obad:
+      long: Abdijo pranašystė
+      short: Abdijo pranašystė
+    Phil:
+      long: Laiškas Filipiečiams
+      short: Laiškas Filipiečiams
+    Phlm:
+      long: Laiškas Filemonui
+      short: Laiškas Filemonui
+    Prov:
+      long: Patarlių knyga
+      short: Patarlių knyga
+    Ps:
+      long: Psalmių knyga
+      short: Psalmių knyga
+    Rev:
+      long: Apreiškimas Jonui
+      short: Apreiškimas Jonui
+    Rom:
+      long: Laiškas Romiečiams
+      short: Laiškas Romiečiams
+    Ruth:
+      long: Rūtos knyga
+      short: Rūtos knyga
+    Song:
+      long: Giesmių giesmė
+      short: Giesmių giesmė
+    Titus:
+      long: Laiškas Titui
+      short: Laiškas Titui
+    Zech:
+      long: Zacharijo pranašystė
+      short: Zacharijo pranašystė
+    Zeph:
+      long: Sofonijo pranašystė
+      short: Sofonijo pranašystė

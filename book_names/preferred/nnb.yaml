@@ -1,0 +1,287 @@
+default:
+  1Chr:
+    long: 1 Emyatsi yʼEmigulu
+    short: 1 Emy
+  1Cor:
+    long: 1 Abanya Korĩnto
+    short: 1 AbanyaKorinto
+  1John:
+    long: 1 Yoane
+    short: 1 Yn
+  1Kgs:
+    long: 1 Abami
+    short: 1 Bam
+  1Pet:
+    long: 1 Petero
+    short: 1 Pet
+  1Sam:
+    long: 1 Samwelĩ
+    short: 1 Sam
+  1Thess:
+    long: 1 Abanya Tesalonĩka
+    short: 1 AbanyaTesalonika
+  1Tim:
+    long: 1 Timoteo
+    short: 1 Timoteo
+  2Chr:
+    long: 2 Emyatsi yʼEmigulu
+    short: 2 Emy
+  2Cor:
+    long: 2 Abanya Korĩnto
+    short: 2 AbanyaKorinto
+  2John:
+    long: 2 Yoane
+    short: 2 Yn
+  2Kgs:
+    long: 2 Abami
+    short: 2 Bam
+  2Pet:
+    long: 2 Petero
+    short: 2 Pet
+  2Sam:
+    long: 2 Samwelĩ
+    short: 2 Sam
+  2Thess:
+    long: 2 Abanya Tesalonĩka
+    short: 2 AbanyaTesalonika
+  2Tim:
+    long: 2 Timoteo
+    short: 2 Timoteo
+  3John:
+    long: 3 Yoane
+    short: 3 Yn
+  Acts:
+    long: Emibiri
+    short: Emibiri
+  Amos:
+    long: Amosĩ
+    short: Amo
+  Col:
+    long: Abanya Kolosaĩ
+    short: AbanyaKolosai
+  Dan:
+    long: Danĩelĩ
+    short: Dan
+  Deut:
+    long: Eryibuka Ebihano
+    short: Ebi
+  Eccl:
+    long: Omũgambũlĩ
+    short: Omũ
+  Eph:
+    long: Abanya Efeso
+    short: AbanyaEfeso
+  Esth:
+    long: Esĩterĩ
+    short: Esĩ
+  Exod:
+    long: Erĩlũayo
+    short: Erĩ
+  Ezek:
+    long: Ezekĩelĩ
+    short: Eze
+  Ezra:
+    long: Ezera
+    short: Ezr
+  Gal:
+    long: Abanya Galatĩa
+    short: AbanyaGalatia
+  Gen:
+    long: Enzũko
+    short: Enz
+  Hab:
+    long: Habakũkĩ
+    short: Hab
+  Hag:
+    long: Hagaĩ
+    short: Hag
+  Heb:
+    long: AbaEbrania
+    short: AbaEbrania
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Ĩsaya
+    short: Ĩsa
+  Jas:
+    long: Yakobo
+    short: Yak
+  Jer:
+    long: Yeremĩa
+    short: Yer
+  Job:
+    long: Yobũ
+    short: Yobũ
+  Joel:
+    long: Yoelĩ
+    short: Yoe
+  John:
+    long: Yoane
+    short: Yn
+  Jonah:
+    long: Yona
+    short: Yona
+  Josh:
+    long: Yosũa
+    short: Yos
+  Jude:
+    long: Yuda
+    short: Yuda
+  Judg:
+    long: Abatswerĩ
+    short: Abat
+  Lam:
+    long: Ekiriro
+    short: Eki
+  Lev:
+    long: Abalawĩ
+    short: Law
+  Luke:
+    long: Luka
+    short: Lk
+  Mal:
+    long: Malakĩ
+    short: Mal
+  Mark:
+    long: Mariko
+    short: Mariko
+  Matt:
+    long: Matayo
+    short: Matayo
+  Mic:
+    long: Mĩka
+    short: Mĩka
+  Nah:
+    long: Nahũmũ
+    short: Nah
+  Neh:
+    long: Nehemĩa
+    short: Neh
+  Num:
+    long: Emiganzo
+    short: Emig
+  Obad:
+    long: Obadĩa
+    short: Oba
+  Phil:
+    long: Abanya Fĩlĩpĩ
+    short: AbanyaFilipi
+  Phlm:
+    long: Filemono
+    short: Filemono
+  Prov:
+    long: Emĩsyo
+    short: Emĩ
+  Ps:
+    long: Esyonyimbo
+    short: Esy
+  Rev:
+    long: Eribisurirwa
+    short: Eribisurirwa
+  Rom:
+    long: Abanya Roma
+    short: AbanyaRoma
+  Ruth:
+    long: Rũta
+    short: Rũta
+  Song:
+    long: Olwimbo lwʼEsyonyimbo
+    short: Olw
+  Titus:
+    long: Tito
+    short: Tito
+  Zech:
+    long: Zekarĩa
+    short: Zek
+  Zeph:
+    long: Zefania
+    short: Zef
+translations:
+  kb80:
+    1Cor:
+      short: 1 Kor
+    1Thess:
+      short: 1 Tes
+    1Tim:
+      long: 1 Tĩmoteo
+      short: 1 Tĩm
+    2Cor:
+      short: 2 Kor
+    2Thess:
+      short: 2 Tes
+    2Tim:
+      long: 2 Tĩmoteo
+      short: 2 Tĩm
+    Acts:
+      long: Emĩbĩrĩ
+      short: Emĩb
+    Col:
+      short: Kol
+    Eph:
+      short: Efe
+    Gal:
+      short: Gal
+    Heb:
+      short: Ebr
+    Jude:
+      long: Yũda
+      short: Yũda
+    Luke:
+      long: Lũka
+    Mark:
+      long: Marĩko
+      short: Mk
+    Matt:
+      short: Mt
+    Phil:
+      short: Fĩl
+    Phlm:
+      long: Fĩlemono
+      short: Fĩle
+    Rev:
+      long: Erĩbĩsũlĩrwa
+      short: Erĩb
+    Rom:
+      short: Abar
+    Titus:
+      long: Tĩto
+      short: Tĩto
+  ntn62:
+    1Cor:
+      long: 1 AbanyaKorinto
+    1John:
+      short: 1 Yoane
+    1Pet:
+      short: 1 Petero
+    1Thess:
+      long: 1 AbanyaTesalonika
+    2Cor:
+      long: 2 AbanyaKorinto
+    2John:
+      short: 2 Yoane
+    2Pet:
+      short: 2 Petero
+    2Thess:
+      long: 2 AbanyaTesalonika
+    3John:
+      short: 3 Yoane
+    Col:
+      long: AbanyaKolosai
+    Eph:
+      long: AbanyaEfeso
+    Gal:
+      long: AbanyaGalatia
+    Jas:
+      short: Yakobo
+    John:
+      short: Yoane
+    Luke:
+      short: Luka
+    Phil:
+      long: AbanyaFilipi
+    Ps:
+      long: Sauma
+      short: Sauma
+    Rom:
+      long: AbanyaRoma

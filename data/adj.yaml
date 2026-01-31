@@ -1,0 +1,141 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Ów eke Jan ɛkn es ɛkn ɛm
+      - Es Ɛkn
+  - osis: Matt
+    texts:
+      - Matie e lɛl
+      - Matie
+  - osis: Mark
+    texts:
+      - Mark e lɛl
+      - Mark
+  - osis: Luke
+    texts:
+      - Luk e lɛl
+      - Luk
+  - osis: 1John
+    texts:
+      - Jan e lɛl krɛkrɛ
+  - osis: 2John
+    texts:
+      - Jan e lɛl yony ɛm
+  - osis: 3John
+    texts:
+      - Jan e lɛl nyahan ɛm
+      - 3 Jan
+  - osis: John
+    texts:
+      - Jan e lɛl
+      - Jan
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jan
+  - osis: Acts
+    texts:
+      - Ɛrm ɛsɛl ecʼob kok e lɛl
+      - Ob Kok
+  - osis: Rom
+    texts:
+      - Rom eyŋ e lɛl
+      - Rom
+  - osis: 1Cor
+    texts:
+      - Korɛnt eyŋ e lɛl krɛkrɛ
+  - osis: 2Cor
+    texts:
+      - Korɛnt eyŋ e lɛl yony ɛm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korɛnt
+  - osis: Col
+    texts:
+      - Kolↄs eyŋ e lɛl
+      - Kolↄs
+  - osis: Gal
+    texts:
+      - Galat eyŋ e lɛl
+      - Galat
+  - osis: Eph
+    texts:
+      - Efɛs eyŋ e lɛl
+      - Efɛs
+  - osis: Phil
+    texts:
+      - Filip eyŋ e lɛl
+      - Filip
+  - osis: 1Thess
+    texts:
+      - Tesaloni eyŋ e lɛl krɛkrɛ
+  - osis: 2Thess
+    texts:
+      - Tesaloni eyŋ e lɛl yony ɛm
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaloni
+  - osis: 1Tim
+    texts:
+      - Timote e lɛl krɛkrɛ
+  - osis: 2Tim
+    texts:
+      - Timote e lɛl yony ɛm
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+  - osis: Titus
+    texts:
+      - Tit e lɛl
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemↄ e lɛl
+      - Filemↄ
+  - osis: Heb
+    texts:
+      - Ebre eyŋ e lɛl
+      - Ebre
+  - osis: Jas
+    texts:
+      - Jak e lɛl
+      - Jak
+  - osis: 2Pet
+    texts:
+      - Piɛr e lɛl krɛkrɛ yony ɛm
+  - osis: 1Pet
+    texts:
+      - Piɛr e lɛl krɛkrɛ
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piɛr
+  - osis: Jude
+    texts:
+      - Jud e lɛl ekʼawŋ
+      - Jud
+translations:
+  - ADJ

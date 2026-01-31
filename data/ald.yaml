@@ -1,0 +1,92 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Ɔwɔ-mɛ̀n-yrikàn
+  - osis: Matt
+    texts:
+      - Matie
+  - osis: Mark
+    texts:
+      - Markɛ̀n
+  - osis: Luke
+    texts:
+      - Lükɛ̀n
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Zhan
+  - osis: Acts
+    texts:
+      - Ɔkɔ̀hɔ̀n-wá-bɔ̀ kɔ̀hɔ̀n hán
+  - osis: Rom
+    texts:
+      - Rɔmɛ̀n-anmàn-bɔ̀
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korɛntɛ̀n anmàn-bɔ̀
+  - osis: Col
+    texts:
+      - Kɔlɔsèn anmàn-bɔ̀
+  - osis: Gal
+    texts:
+      - Galasi anmàn-bɔ̀
+  - osis: Eph
+    texts:
+      - Efɛzɛ̀n anmàn-bɔ̀
+  - osis: Phil
+    texts:
+      - Filipɛ̀n anmàn-bɔ̀
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonikɛ̀n anmàn-bɔ̀
+  - osis: 1Tim
+    texts:
+      - Kpàkpà timote
+  - osis: 2Tim
+    texts:
+      - Anhyrɛmɛ̀n timote
+  - osis: Titus
+    texts:
+      - Titɛ̀n
+  - osis: Phlm
+    texts:
+      - Filemɔn
+  - osis: Heb
+    texts:
+      - Ebre-bɔ̀
+  - osis: Jas
+    texts:
+      - Zhakɛ̀n
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piɛrɛ̀n
+  - osis: Jude
+    texts:
+      - Zhüdɛ̀n
+translations:
+  - ANT03

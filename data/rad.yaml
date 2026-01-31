@@ -1,0 +1,284 @@
+variables:
+  first: &first
+    - I
+  second: &second
+    - II
+books:
+  - osis: Gen
+    texts:
+      - Klei Mphŭn Dơ̆ng
+      - Kmd
+  - osis: Exod
+    texts:
+      - Klei Kbiă
+      - Kkbiă
+  - osis: Lev
+    texts:
+      - Bruă Lêwi
+      - Lêwi
+  - osis: Num
+    texts:
+      - Klei Yap
+      - Kyap
+  - osis: Lam
+    texts:
+      - Klei Čŏk Hia
+      - Kčhia
+  - osis: Rev
+    texts:
+      - Klei Bi Êdah
+      - Kbêdah
+  - osis: Deut
+    texts:
+      - Klei Mtô Mñă Klei Bhiăn
+      - Kmñă
+  - osis: Josh
+    texts:
+      - Y-Yôsuê
+      - Yôsuê
+  - osis: Judg
+    texts:
+      - Phung Khua Phat Kđi
+      - Kpkđi
+  - osis: Ruth
+    texts:
+      - H'Rut
+      - Rut
+  - osis: Isa
+    texts:
+      - Y-Êsai
+      - Êsai
+  - osis:
+      - osis: 1Sam
+        before: *first
+    texts:
+      - Y-Samuel
+      - Sam
+  - osis:
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Y-samuel
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Bruă Mtao
+      - Mtao
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Klei Yăl Dliê
+      - Kyd
+  - osis: Ezra
+    texts:
+      - Y-Êsra
+      - Êsra
+  - osis: Neh
+    texts:
+      - Y-Nêhêmi
+      - Nêhê
+  - osis: Esth
+    texts:
+      - H'Êsther
+      - Êst
+  - osis: Job
+    texts:
+      - Y-Yôp
+      - Yôp
+  - osis: Ps
+    texts:
+      - Klei Mmuñ Hđăp
+      - Kmh
+  - osis: Prov
+    texts:
+      - Klei Bi Hriêng
+      - Kbh
+  - osis: Eccl
+    texts:
+      - Khua Pô Mtô
+      - Kpm
+  - osis: Song
+    texts:
+      - Klei Mmuñ Siam Hĭn
+      - Kmsh
+  - osis: Jer
+    texts:
+      - Y-Yêrêmi
+      - Yêr
+  - osis: Ezek
+    texts:
+      - Y-Êsêkiêl
+      - Êsê
+  - osis: Dan
+    texts:
+      - Y-Đaniel
+      - Đan
+  - osis: Hos
+    texts:
+      - Y-Ôsê
+      - Ôsê
+  - osis: Joel
+    texts:
+      - Y-Yôel
+      - Yôel
+  - osis: Amos
+    texts:
+      - Y-Amôs
+      - Amôs
+  - osis: Obad
+    texts:
+      - Y-Apđia
+      - Apđia
+  - osis: Jonah
+    texts:
+      - Y-Yôna
+      - Yôna
+  - osis: Mic
+    texts:
+      - Y-Mika
+      - Mika
+  - osis: Nah
+    texts:
+      - Y-Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Y-Haƀakuk
+      - Haƀa
+  - osis: Zeph
+    texts:
+      - Y-Sôphôni
+      - Sôphô
+  - osis: Hag
+    texts:
+      - Y-Agê
+      - Agê
+  - osis: Zech
+    texts:
+      - Y-Sakari
+      - Saka
+  - osis: Mal
+    texts:
+      - Y-Malaki
+      - Mala
+  - osis: Matt
+    texts:
+      - Y-Mathiơ
+      - Mat
+  - osis: Mark
+    texts:
+      - Y-Markôs
+      - Mark
+  - osis: Luke
+    texts:
+      - Y-Luk
+      - Luk
+  - osis: 3John
+    texts:
+      - III Y-yôhan
+      - III Yôh
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+    texts:
+      - Y-Yôhan
+      - Yôh
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - Y-yôhan
+      - Yôh
+  - osis: Acts
+    texts:
+      - Bruă Phung Khua Ƀĭng Kna
+      - Bƀk
+  - osis: Rom
+    texts:
+      - Rôm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kôrantô
+      - Kôr
+  - osis: Col
+    texts:
+      - Kôlôs
+      - Kôl
+  - osis: Gal
+    texts:
+      - Galati
+      - Gal
+  - osis: Eph
+    texts:
+      - Êphêsô
+      - Êph
+  - osis: Phil
+    texts:
+      - Philip
+      - Phi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Têsalônik
+      - Têsa
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Y-Timôthê
+      - Timô
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Y-timôthê
+      - Timô
+  - osis: Titus
+    texts:
+      - Y-Tit
+      - Tit
+  - osis: Phlm
+    texts:
+      - Y-Philêmôn
+      - Philê
+  - osis: Heb
+    texts:
+      - Hêbrơ
+      - Hêb
+  - osis: Jas
+    texts:
+      - Y-Yakơ
+      - Yakơ
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - Y-Pêtrôs
+      - Pê
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Y-pêtrôs
+      - Pê
+  - osis: Jude
+    texts:
+      - Y-Yut
+      - Yut
+translations:
+  - RAD2015

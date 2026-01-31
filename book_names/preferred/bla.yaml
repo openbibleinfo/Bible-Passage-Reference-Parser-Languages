@@ -1,0 +1,15 @@
+default:
+  John:
+    long: John
+    short: John
+  Mark:
+    long: Mark
+    short: Mark
+  Matt:
+    long: Matthew
+    short: Mat
+translations:
+  bla1890:
+    Matt:
+      long: St. Matthew
+      short: Matthew

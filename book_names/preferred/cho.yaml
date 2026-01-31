@@ -1,0 +1,129 @@
+default:
+  1Cor:
+    long: 1 Kolinhlian
+    short: 1 Kol
+  1John:
+    long: 1 Chan
+    short: 1 Chan
+  1Kgs:
+    long: 1 Mi̱ko
+    short: 1 Mi̱ko
+  1Pet:
+    long: 1 Pita
+    short: 1 Pita
+  1Sam:
+    long: 1 Samuel
+    short: 1 Sam
+  1Thess:
+    long: 1 Hlessalonian
+    short: 1 Hless
+  1Tim:
+    long: 1 Timohli
+    short: 1 Tim
+  2Cor:
+    long: 2 Kolinhlian
+    short: 2 Kol
+  2John:
+    long: 2 Chan
+    short: 2 Chan
+  2Kgs:
+    long: 2 Mi̱ko
+    short: 2 Mi̱ko
+  2Pet:
+    long: 2 Pita
+    short: 2 Peta
+  2Sam:
+    long: 2 Samuel
+    short: 2 Sam
+  2Thess:
+    long: 2 Hlessalonian
+    short: 2 Hless
+  2Tim:
+    long: 2 Timohli
+    short: 2 Tim
+  3John:
+    long: 3 Chan
+    short: 3 Chan
+  Acts:
+    long: Apostel isht Anumpa
+    short: Anumpa
+  Col:
+    long: Koloshan
+    short: Kol
+  Deut:
+    long: Tutelonomi
+    short: Tut
+  Eph:
+    long: Efeshan
+    short: Efes
+  Exod:
+    long: Eksotʋs
+    short: Eks
+  Gal:
+    long: Kaleshan
+    short: Kal
+  Gen:
+    long: Chenesis
+    short: Chen
+  Heb:
+    long: Heblu
+    short: Heblu
+  Jas:
+    long: Chemis
+    short: Chemis
+  John:
+    long: Chan
+    short: Chan
+  Josh:
+    long: Choshua
+    short: Chosh
+  Jude:
+    long: Chute
+    short: Chute
+  Judg:
+    long: Nan Apesa
+    short: Nan Apesa
+  Lev:
+    long: Lefitikʋs
+    short: Lef
+  Luke:
+    long: Luk
+    short: Luk
+  Mark:
+    long: Mak
+    short: Mak
+  Matt:
+    long: Mahlu
+    short: Mahlu
+  Num:
+    long: Numbas
+    short: Num
+  Phil:
+    long: Filippian
+    short: Filip
+  Phlm:
+    long: Filemon
+    short: Filem
+  Ps:
+    long: Atʋloa
+    short: Atʋloa
+  Rev:
+    long: Nan Otʋni
+    short: Nan
+  Rom:
+    long: Loman
+    short: Loman
+  Ruth:
+    long: Luth
+    short: Luth
+  Titus:
+    long: Titus
+    short: Titus
+translations:
+  chtw:
+    Gen:
+      long: Genesis
+      short: Genesis
+    Mark:
+      long: Mark i̱ Holisso
+      short: Mark

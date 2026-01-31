@@ -1,0 +1,116 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Apocalipse
+      - Ap
+  - osis: Matt
+    texts:
+      - Mateu
+      - Mt
+  - osis: Mark
+    texts:
+      - Marku
+      - Mc
+  - osis: Luke
+    texts:
+      - Luka
+      - Lk
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Juaõ
+      - Jo
+  - osis: John
+    texts:
+      - Joaõ
+      - Jo
+  - osis: Acts
+    texts:
+      - Aõhebo Rotỹỹnyre
+      - At
+  - osis: Rom
+    texts:
+      - Roma‑ò
+      - Ro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Oritxi-ò
+      - Co
+  - osis: Col
+    texts:
+      - Òlòsò
+      - Ol
+  - osis: Gal
+    texts:
+      - Alatxia-ò
+      - Ga
+  - osis: Eph
+    texts:
+      - Efesu-ò
+      - Ef
+  - osis: Phil
+    texts:
+      - Filipi-ò
+      - Fp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonia-ò
+      - Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tximòtxi‑ò
+      - Tm
+  - osis: Titus
+    texts:
+      - Txitu‑ò
+      - Tt
+  - osis: Phlm
+    texts:
+      - Filemo‑ò
+      - Fm
+  - osis: Heb
+    texts:
+      - Hebreu‑ò
+      - He
+  - osis: Jas
+    texts:
+      - Txiau Ryberiti
+      - Tx
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pedro
+      - Pe
+  - osis: Jude
+    texts:
+      - Judasi
+      - Jd
+translations:
+  - KPJ

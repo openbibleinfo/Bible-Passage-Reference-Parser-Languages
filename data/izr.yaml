@@ -1,0 +1,110 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Ike̱ng a ta tonong aYohana
+      - aR. aYoh
+  - osis: Matt
+    texts:
+      - aMatiyu
+      - aMat
+  - osis: Mark
+    texts:
+      - aMarkus
+      - aMar
+  - osis: Luke
+    texts:
+      - aLuka
+      - aLuk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - aYohana
+      - aYoh
+  - osis: Acts
+    texts:
+      - Itomong Ámanzo
+      - I. Ámanzo
+  - osis: Rom
+    texts:
+      - aRom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - aKoranti
+      - Akor
+  - osis: Col
+    texts:
+      - aKolosi
+      - aKol
+  - osis: Gal
+    texts:
+      - aGalati
+      - aGal
+  - osis: Eph
+    texts:
+      - Afisa
+      - Afi
+  - osis: Phil
+    texts:
+      - aFilipi
+      - aFil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - aTasalonika
+      - aTas
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - aTimoti
+      - aTim
+  - osis: Titus
+    texts:
+      - aTitus
+  - osis: Phlm
+    texts:
+      - aFilimon
+      - aFilim
+  - osis: Heb
+    texts:
+      - Ibrani
+      - Ibra
+  - osis: Jas
+    texts:
+      - aYakub
+      - aYak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - aBitrus
+      - aBit
+  - osis: Jude
+    texts:
+      - aZhud
+translations:
+  - IZRNT

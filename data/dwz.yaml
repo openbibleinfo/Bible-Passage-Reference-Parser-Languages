@@ -1,0 +1,34 @@
+variables:
+  first: &first
+    - १
+  second: &second
+    - २
+books:
+  - osis: Mark
+    texts:
+      - मर्कुस
+  - osis: Luke
+    texts:
+      - लुका
+  - osis: Acts
+    texts:
+      - प्रेरित
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - थेसलोनिकि
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - तिमोथि
+  - osis: Titus
+    texts:
+      - तितस
+translations:
+  - DEWZ

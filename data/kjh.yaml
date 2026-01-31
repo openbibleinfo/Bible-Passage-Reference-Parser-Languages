@@ -1,0 +1,116 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Азых чоох
+      - Аз.ч.
+  - osis: Matt
+    texts:
+      - Матфей
+      - Мф
+  - osis: Mark
+    texts:
+      - Марк
+      - Мк
+  - osis: Luke
+    texts:
+      - Лука
+      - Лк
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Иоанның
+      - Ин
+  - osis: John
+    texts:
+      - Иоанн
+      - Ин
+  - osis: Acts
+    texts:
+      - Илҷілернің
+      - Илҷ
+  - osis: Rom
+    texts:
+      - Римдегілерге
+      - Рим
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Коринфтегілерге
+      - Кор
+  - osis: Col
+    texts:
+      - Колоссадағыларға
+      - Кол
+  - osis: Gal
+    texts:
+      - Галат чиріндегілерге
+      - Гал
+  - osis: Eph
+    texts:
+      - Ефестегілерге
+      - Еф
+  - osis: Phil
+    texts:
+      - Филипптегілерге
+      - Флп
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Фессалониктегілерге
+      - Фес
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Тимофейге
+      - Тим
+  - osis: Titus
+    texts:
+      - Титке
+      - Тит
+  - osis: Phlm
+    texts:
+      - Филимонға
+      - Флм
+  - osis: Heb
+    texts:
+      - Еврейлерге
+      - Евр
+  - osis: Jas
+    texts:
+      - Иаковтың
+      - Иак
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Петрның
+      - Пет
+  - osis: Jude
+    texts:
+      - Иуданың
+      - Иуд
+translations:
+  - XKSNT

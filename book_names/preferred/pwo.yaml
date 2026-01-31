@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: ၁ ကွ့ၭ
+    short: ၁ ကွ့ၭ
+  1Cor:
+    long: ၁ ကီ
+    short: ၁ ကီ
+  1John:
+    long: ၁ ယီ
+    short: ၁ ယီ
+  1Kgs:
+    long: ၥ ဎွၩ
+    short: ၥ ဎွၩ
+  1Pet:
+    long: ၁ ပံ
+    short: ၁ ပံ
+  1Sam:
+    long: ၥ စၫ
+    short: ၥ စၫ
+  1Thess:
+    long: ၁ ၥ့ၭ
+    short: ၁ ၥ့ၭ
+  1Tim:
+    long: ၁ ထံ
+    short: ၁ ထံ
+  2Chr:
+    long: ၂ ကွ့ၭ
+    short: ၂ ကွ့ၭ
+  2Cor:
+    long: ၂ ကီ
+    short: ၂ ကီ
+  2John:
+    long: ၂ ယီ
+    short: ၂ ယီ
+  2Kgs:
+    long: ၂ ဎွၩ
+    short: ၂ ဎွၩ
+  2Pet:
+    long: ၂ ပံ
+    short: ၂ ပံ
+  2Sam:
+    long: ၂ စၫ
+    short: ၂ စၫ
+  2Thess:
+    long: ၂ ၥ့ၭ
+    short: ၂ ၥ့ၭ
+  2Tim:
+    long: ၂ ထံ
+    short: ၂ ထံ
+  3John:
+    long: ၃ ယီ
+    short: ၃ ယီ
+  Acts:
+    long: ဆၧ
+    short: ဆၧ
+  Amos:
+    long: မူၭ
+    short: မူၭ
+  Col:
+    long: လီ
+    short: လီ
+  Dan:
+    long: ဒၫ့
+    short: ဒၫ့
+  Deut:
+    long: ၅ မိ
+    short: ၅ မိ
+  Eccl:
+    long: လီၩ
+    short: လီၩ
+  Eph:
+    long: အ့
+    short: အ့
+  Esth:
+    long: တၧၫ
+    short: တၧၫ
+  Exod:
+    long: ၂ မိ
+    short: ၂ မိ
+  Ezek:
+    long: ဇံၫ
+    short: ဇံၫ
+  Ezra:
+    long: ရၫ
+    short: ရၫ
+  Gal:
+    long: လ့
+    short: လ့
+  Gen:
+    long: ၥ မိ
+    short: ၥ မိ
+  Hab:
+    long: ကၧၭ
+    short: ကၧၭ
+  Hag:
+    long: ဟၭ
+    short: ဟၭ
+  Heb:
+    long: ဟံ
+    short: ဟံ
+  Hos:
+    long: ဟိၫ
+    short: ဟိၫ
+  Isa:
+    long: အဲၫ
+    short: အဲၫ
+  Jas:
+    long: ယ့
+    short: ယ့
+  Jer:
+    long: မဲအၫ
+    short: မဲအၫ
+  Job:
+    long: ဘၭ
+    short: ဘၭ
+  Joel:
+    long: ယိၫ
+    short: ယိၫ
+  John:
+    long: ယီ
+    short: ယီ
+  Jonah:
+    long: နၫ
+    short: နၫ
+  Josh:
+    long: ရှုၫ.
+    short: ရှုၫ.
+  Jude:
+    long: ဒၭ
+    short: ဒၭ
+  Judg:
+    long: စ့ၩ
+    short: စ့ၩ
+  Lam:
+    long: ဂၪ့ဆၧ
+    short: ဂၪ့ဆၧ
+  Lev:
+    long: ၃ မိ
+    short: ၃ မိ
+  Luke:
+    long: လု
+    short: လု
+  Mal:
+    long: ခဲၫ
+    short: ခဲၫ
+  Mark:
+    long: မၫ
+    short: မၫ
+  Matt:
+    long: မၭ
+    short: မၭ
+  Mic:
+    long: မဲ
+    short: မဲ
+  Nah:
+    long: ဟၧၫ့
+    short: ဟၧၫ့
+  Neh:
+    long: နံၫ
+    short: နံၫ
+  Num:
+    long: ၄ မိ
+    short: ၄ မိ
+  Obad:
+    long: အိၫ
+    short: အိၫ
+  Phil:
+    long: ဖံၫ
+    short: ဖံၫ
+  Phlm:
+    long: လံမၧၫ့
+    short: လံမၧၫ့
+  Prov:
+    long: ဒီၩ့
+    short: ဒီၩ့
+  Ps:
+    long: အၪ့
+    short: အၪ့
+  Rev:
+    long: နဲၪ
+    short: နဲၪ
+  Rom:
+    long: ရိ
+    short: ရိ
+  Ruth:
+    long: ရု
+    short: ရု
+  Song:
+    long: ထၭ
+    short: ထၭ
+  Titus:
+    long: တဲ
+    short: တဲ
+  Zech:
+    long: ရဲ
+    short: ရဲ
+  Zeph:
+    long: ဖနဲ
+    short: ဖနဲ

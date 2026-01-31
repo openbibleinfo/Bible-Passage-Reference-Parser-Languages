@@ -1,0 +1,36 @@
+books:
+  - osis: Matt
+    texts:
+      - Matayo
+  - osis: 1John
+    texts:
+      - 1Jn
+  - osis: 2John
+    texts:
+      - 2Jn
+  - osis: 3John
+    texts:
+      - 3Jn
+  - osis: Col
+    texts:
+      - Col
+  - osis: 1Thess
+    texts:
+      - 1Th
+  - osis: 2Thess
+    texts:
+      - 2Th
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Phlm
+    texts:
+      - Phm
+  - osis: Jas
+    texts:
+      - Jas
+translations:
+  - WJA

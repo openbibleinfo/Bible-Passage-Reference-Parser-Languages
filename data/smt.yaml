@@ -1,0 +1,141 @@
+variables:
+  first: &first
+    - I
+  second: &second
+    - II
+books:
+  - osis: Rev
+    texts:
+      - Thuphuandoh
+      - Thup.
+  - osis: Matt
+    texts:
+      - Matthai
+      - Mat.
+  - osis: Mark
+    texts:
+      - Mark
+      - Mrk.
+  - osis: Luke
+    texts:
+      - Luk.
+      - Luke
+  - osis: 1John
+    texts:
+      - John I
+  - osis: 2John
+    texts:
+      - John II
+  - osis: 3John
+    texts:
+      - John III
+      - III Jn.
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jn.
+  - osis: John
+    texts:
+      - Jhn.
+      - John
+  - osis: Acts
+    texts:
+      - Silbawlte
+      - Sil.
+  - osis: Rom
+    texts:
+      - Romete
+      - Rom.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kor.
+  - osis: 1Cor
+    texts:
+      - Korinthte I
+  - osis: 2Cor
+    texts:
+      - Korinthte II
+  - osis: Col
+    texts:
+      - Kolossite
+      - Kol.
+  - osis: Gal
+    texts:
+      - Galatiate
+      - Gal.
+  - osis: Eph
+    texts:
+      - Ephesite
+      - Eph.
+  - osis: Phil
+    texts:
+      - Philippite
+      - Phil.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thess.
+  - osis: 1Thess
+    texts:
+      - Thessalonikate I
+  - osis: 2Thess
+    texts:
+      - Thessalonikate II
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tim.
+  - osis: 1Tim
+    texts:
+      - Timothi I
+  - osis: 2Tim
+    texts:
+      - Timothi II
+  - osis: Titus
+    texts:
+      - Tit.
+      - Tita
+  - osis: Phlm
+    texts:
+      - Philemon
+      - Phile.
+  - osis: Heb
+    texts:
+      - Hebraite
+      - Heb.
+  - osis: Jas
+    texts:
+      - Jakob
+      - Jak.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pet.
+  - osis: 1Pet
+    texts:
+      - Peter I
+  - osis: 2Pet
+    texts:
+      - Peter II
+  - osis: Jude
+    texts:
+      - Jud.
+      - Jude
+translations:
+  - SIMTBSI

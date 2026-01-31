@@ -1,0 +1,626 @@
+- osis: Gen
+  texts:
+    - Genesisy
+    - Genesỳ
+    - Jenezy
+    - Gen.
+    - Gen
+    - Jen
+- osis: Exod
+  texts:
+    - Eksodosy
+    - Eksaody
+    - Eksôdy
+    - Eks.
+    - Eks
+- osis: Bel
+  texts:
+    - I Bela sy ilay dragona
+    - Bel
+- osis: Lev
+  texts:
+    - Levitikosy
+    - Levitika
+    - Levitîka
+    - Lev.
+    - Lev
+- osis: Num
+  texts:
+    - Fanisana
+    - Nomery
+    - Nomerỳ
+    - Fanis
+    - Nom.
+    - Nom
+- osis: Sir
+  texts:
+    - Ekleziastika
+    - Bena-Siràka
+    - Ben-Sir
+    - Ekl
+- osis: Wis
+  texts:
+    - Fahendrena
+    - Fah
+- osis: Lam
+  texts:
+    - Fitomanian’i Jeremia
+    - Fitomaniana
+    - Fit.
+    - Fit
+- osis: EpJer
+  texts:
+    - Taratasin'i Jeremià
+    - Tar Jer
+- osis: Rev
+  texts:
+    - Apôkalipsa nosoratan’i Md Joany
+    - Apokalipsy
+    - Apôkalipsỳ
+    - Apokalypsy
+    - Apo.
+    - Apôk
+    - Apo
+- osis: Deut
+  texts:
+    - Deoteronomia
+    - Deotoronomia
+    - Deoterônômy
+    - Deterônômy
+    - Deter
+    - Deo.
+    - Deot
+    - Deo
+- osis: Josh
+  texts:
+    - Josoa
+    - Jôsoe
+    - Jos.
+    - Jos
+    - Jôs
+- osis: Judg
+  texts:
+    - Mpitsara
+    - Mpits.
+    - Mpits
+- osis: Ruth
+  texts:
+    - Rot.
+    - Rota
+    - Rot
+- osis: Isa
+  texts:
+    - Isaia
+    - Isaià
+    - Izaia
+    - Isa.
+    - Isa
+    - Is
+    - Iz
+- osis: 1Sam
+  texts:
+    - 1 Samoela
+    - 1 Sam
+    - 1. Samoela
+    - 1. Sam
+- osis: 2Sam
+  texts:
+    - 2 Samoela
+    - 2 Sam
+    - 2. Samoela
+    - 2. Sam
+- osis: 1Sam
+  texts:
+    - 1Samoela
+    - 1Sam.
+    - 1Sam
+- osis: 2Sam
+  texts:
+    - 2Samoela
+    - 2Sam.
+    - 2Sam
+- osis: 1Kgs
+  texts:
+    - 1 Mpanjaka
+    - 1 Mp
+    - 1. Mpanjaka
+    - 1. Mp
+- osis: 2Kgs
+  texts:
+    - 2 Mpanjaka
+    - 2 Mp
+    - 2. Mpanjaka
+    - 2. Mp
+- osis: 1Kgs
+  texts:
+    - 1Mpanjaka
+    - 1Mpan.
+    - 1Mpa
+- osis: 2Kgs
+  texts:
+    - 2Mpanjaka
+    - 2Mpan.
+    - 2Mpa
+- osis: 1Chr
+  texts:
+    - 1 Tantara
+    - 1 Tan
+    - 1. Tantara
+    - 1. Tan
+- osis: 2Chr
+  texts:
+    - 2 Tantara
+    - 2 Tan
+    - 2. Tantara
+    - 2. Tan
+- osis: 1Chr
+  texts:
+    - 1Tantara
+    - 1Tan.
+    - 1Tan
+- osis: 2Chr
+  texts:
+    - 2Tantara
+    - 2Tan.
+    - 2Tan
+- osis: Ezra
+  texts:
+    - Esdrasa
+    - Hezrà
+    - Ezr.
+    - Ezra
+    - Esd
+    - Ezr
+    - Hez
+- osis: Neh
+  texts:
+    - Nehemia
+    - Nehemià
+    - Neh.
+    - Neh
+- osis: Job
+  texts:
+    - Job.
+    - Joba
+    - Jôba
+    - Job
+    - Jôb
+- osis: Ps
+  texts:
+    - Salamo
+    - Sal.
+    - Sal
+- osis: Prov
+  texts:
+    - Ohabolana
+    - Oha.
+    - Ohab
+    - Oha
+- osis: Eccl
+  texts:
+    - Mpitoriteny
+    - Kôheleta
+    - Mpit T.
+    - Mpit
+    - Kôh
+- osis: SgThree
+  texts:
+    - Hiran'ireo Zatovo Telo Lahy
+    - Hzt
+- osis: Song
+  texts:
+    - Tononkira dia Tononkira
+    - Tonon-kiran'i Solomona
+    - Tonon-kiran’i Solomona
+    - Tononkiran'i Salômôna
+    - Tononkiran’i Solomona
+    - Ton.
+    - Ton
+- osis: Jer
+  texts:
+    - Jeremia
+    - Jeremià
+    - Jer.
+    - Jer
+- osis: Ezek
+  texts:
+    - Ezekiela
+    - Eze.
+    - Ezek
+    - Eze
+- osis: Hos
+  texts:
+    - Hosea
+    - Hôsea
+    - Hos.
+    - Osea
+    - Hos
+    - Hôs
+    - Os
+- osis: Joel
+  texts:
+    - Joela
+    - Jôela
+    - Joely
+    - Joe.
+    - Joe
+    - Jl
+- osis: Amos
+  texts:
+    - Hamôsa
+    - Amosa
+    - Amôsy
+    - Amo.
+    - Amo
+    - Ham
+    - Am
+- osis: Obad
+  texts:
+    - Abdiasa
+    - Hôbadià
+    - Obadia
+    - Abd
+    - Hôb
+    - Oba
+- osis: Jonah
+  texts:
+    - Jônasy
+    - Jon.
+    - Jona
+    - Jônà
+    - Jon
+    - Jôn
+- osis: Mic
+  texts:
+    - Mikea
+    - Mik.
+    - Mika
+    - Mikà
+    - MiK
+- osis: Nah
+  texts:
+    - Nahoma
+    - Nah.
+    - Nah
+- osis: Hab
+  texts:
+    - Habakoka
+    - Habakòka
+    - Hab.
+    - Hab
+- osis: Zeph
+  texts:
+    - Tsefanià
+    - Sôfônia
+    - Zefania
+    - Tsef
+    - Zef.
+    - Sôf
+    - Zef
+- osis: Hag
+  texts:
+    - Akjea
+    - Hagay
+    - Hag.
+    - Akj
+    - Hag
+- osis: Zech
+  texts:
+    - Zakaria
+    - Zakarià
+    - Zak.
+    - Zak
+- osis: Mal
+  texts:
+    - Malakia
+    - Malakỳ
+    - Mal.
+    - Mal
+- osis: Matt
+  texts:
+    - Matio
+    - Mat.
+    - Mat
+    - Mt
+- osis: Mark
+  texts:
+    - Marka
+    - Mar.
+    - Mar
+    - Mk
+- osis: Luke
+  texts:
+    - Lioka
+    - Lio.
+    - Lio
+    - Lk
+- osis: 1John
+  texts:
+    - 1Jaona
+    - 1Joany
+    - 1Jao.
+    - 1Jao
+    - 1Jn
+- osis: 2John
+  texts:
+    - 2Jaona
+    - 2Joany
+    - 2Jao.
+    - 2Jao
+    - 2Jn
+- osis: 3John
+  texts:
+    - 3 Jôhany
+    - 3 Jaona
+    - 3Jaona
+    - 3Joany
+    - 3 Jôh
+    - 3Jao.
+    - 3Jao
+    - 3Jn
+- osis: 1John
+  texts:
+    - 1 Jôhany
+    - 1 Jaona
+    - 1 Jôh
+    - 1. Jôhany
+    - 1. Jaona
+    - 1. Jôh
+- osis: 2John
+  texts:
+    - 2 Jôhany
+    - 2 Jaona
+    - 2 Jôh
+    - 2. Jôhany
+    - 2. Jaona
+    - 2. Jôh
+- osis: John
+  texts:
+    - Jôhany
+    - Jaona
+    - Joany
+    - Jao.
+    - Jao
+    - Jôh
+    - Jn
+- osis: Acts
+  texts:
+    - Asan'ny Apostoly
+    - Asan’ny Apostoly
+    - Asan’i Apôstôly
+    - Asa.
+    - Asa
+- osis: Rom
+  texts:
+    - Rômanina
+    - Romana
+    - Rom.
+    - Rom
+    - Rm
+- osis: 1Cor
+  texts:
+    - 1 Kôrintianina
+    - 1 Korintiana
+    - 1 Kôr
+    - 1. Kôrintianina
+    - 1. Korintiana
+    - 1. Kôr
+- osis: 2Cor
+  texts:
+    - 2 Kôrintianina
+    - 2 Korintiana
+    - 2 Kôr
+    - 2. Kôrintianina
+    - 2. Korintiana
+    - 2. Kôr
+- osis: 1Cor
+  texts:
+    - 1Kôrintianina
+    - 1Korintiana
+    - 1Kor.
+    - 1Kor
+    - 1Kôr
+- osis: 2Cor
+  texts:
+    - 2Kôrintianina
+    - 2Korintiana
+    - 2Kor.
+    - 2Kor
+    - 2Kôr
+- osis: Col
+  texts:
+    - Kôlôsianina
+    - Kolosiana
+    - Kol.
+    - Kol
+    - Kôl
+- osis: Gal
+  texts:
+    - Galatianina
+    - Galatiana
+    - Galata
+    - Gal.
+    - Gal
+- osis: Eph
+  texts:
+    - Efesianina
+    - Efezianina
+    - Efesiana
+    - Efe.
+    - Efe
+    - Ef
+- osis: Phil
+  texts:
+    - Filipianina
+    - Filipiana
+    - Fil.
+    - Fil
+- osis: 1Thess
+  texts:
+    - 1 Tesalônisianina
+    - 1 Tesaloniana
+    - 1 Tes
+    - 1. Tesalônisianina
+    - 1. Tesaloniana
+    - 1. Tes
+- osis: 2Thess
+  texts:
+    - 2 Tesalônisianina
+    - 2 Tesaloniana
+    - 2 Tes
+    - 2. Tesalônisianina
+    - 2. Tesaloniana
+    - 2. Tes
+- osis: 1Thess
+  texts:
+    - 1Tesalônisianina
+    - 1Tesaloniana
+    - 1Tes.
+    - 1Tes
+- osis: 2Thess
+  texts:
+    - 2Tesalônisianina
+    - 2Tesaloniana
+    - 2Tes.
+    - 2Tes
+- osis: 1Tim
+  texts:
+    - 1 Timoty
+    - 1 Timôty
+    - 1 Tim
+    - 1. Timoty
+    - 1. Timôty
+    - 1. Tim
+- osis: 2Tim
+  texts:
+    - 2 Timoty
+    - 2 Timôty
+    - 2 Tim
+    - 2. Timoty
+    - 2. Timôty
+    - 2. Tim
+- osis: 1Tim
+  texts:
+    - 1Timote
+    - 1Timoty
+    - 1Tim.
+    - 1Tim
+- osis: 2Tim
+  texts:
+    - 2Timote
+    - 2Timoty
+    - 2Tim.
+    - 2Tim
+- osis: Titus
+  texts:
+    - Titosy
+    - Tit.
+    - Tito
+    - Tit
+- osis: Phlm
+  texts:
+    - Filemona
+    - Filemôna
+    - Filem
+    - Flem.
+    - Flem
+- osis: Heb
+  texts:
+    - Hebreo
+    - Hebrio
+    - Heb.
+    - Heb
+- osis: Jas
+  texts:
+    - Jakoba
+    - Jakôba
+    - Jak.
+    - Jak
+- osis: 1Pet
+  texts:
+    - 1 Petera
+    - 1 Pt
+    - 1. Petera
+    - 1. Pt
+- osis: 2Pet
+  texts:
+    - 2 Petera
+    - 2 Pt
+    - 2. Petera
+    - 2. Pt
+- osis: 1Pet
+  texts:
+    - 1Petera
+    - 1Piera
+    - 1Pet.
+    - 1Pier
+    - 1Pet
+- osis: 2Pet
+  texts:
+    - 2Petera
+    - 2Piera
+    - 2Pet.
+    - 2Pier
+    - 2Pet
+- osis: Jude
+  texts:
+    - Jod.
+    - Joda
+    - Jodà
+    - Jod
+- osis: Tob
+  texts:
+    - Tôbita
+    - Tobia
+    - Tbt
+    - Tob
+- osis: Jdt
+  texts:
+    - Jodita
+    - Jdt
+- osis: Bar
+  texts:
+    - Baròka
+    - Bar
+- osis: Sus
+  texts:
+    - Sozanina
+    - Soz
+- osis: 1Macc
+  texts:
+    - 1 Makabeo
+    - 1 Mak
+    - 1. Makabeo
+    - 1. Mak
+- osis: 2Macc
+  texts:
+    - 2 Makabeo
+    - 2 Mak
+    - 2. Makabeo
+    - 2. Mak
+- osis: 1Macc
+  texts:
+    - 1Makabeo
+    - 1Mak
+- osis: 2Macc
+  texts:
+    - 2Makabeo
+    - 2Mak
+- osis: DanGr
+  texts:
+    - Bokin’i Daniela
+    - Dan Gr
+- osis: Dan
+  texts:
+    - Daniela
+    - Dan.
+    - Dan
+- osis: EsthGr
+  texts:
+    - Estera Grika
+    - Est Gr
+- osis: Esth
+  texts:
+    - Estera
+    - Est.
+    - Est

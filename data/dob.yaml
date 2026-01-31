@@ -1,0 +1,141 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Nugana
+      - Nug
+  - osis: Exod
+    texts:
+      - Si Apwesa
+      - Apwesa
+  - osis: Lev
+    texts:
+      - Loina
+  - osis: Rev
+    texts:
+      - E'ita'ita
+      - Et
+  - osis: Ruth
+    texts:
+      - Ruta
+  - osis: Isa
+    texts:
+      - Isaia
+  - osis: Esth
+    texts:
+      - Esiteri
+      - Esit
+  - osis: Ps
+    texts:
+      - Salamo
+  - osis: Jonah
+    texts:
+      - Iona
+  - osis: Matt
+    texts:
+      - Madiu
+      - Md
+  - osis: Mark
+    texts:
+      - Maki
+      - Mk
+  - osis: Luke
+    texts:
+      - Luke
+      - Lu
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yoni
+      - Yo
+  - osis: Acts
+    texts:
+      - Guinuwa
+      - Gu
+  - osis: Rom
+    texts:
+      - Loma
+      - Lo
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kolinita
+      - Ko
+  - osis: Col
+    texts:
+      - Kolose
+      - Kol
+  - osis: Gal
+    texts:
+      - Galetia
+      - Ga
+  - osis: Eph
+    texts:
+      - Epeso
+      - Ep
+  - osis: Phil
+    texts:
+      - Pilipai
+      - Pi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonaika
+      - Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+      - Ti
+  - osis: Titus
+    texts:
+      - Taito
+      - Ta
+  - osis: Phlm
+    texts:
+      - Pilimoni
+      - Pilim
+  - osis: Heb
+    texts:
+      - Ibeliu
+      - Ib
+  - osis: Jas
+    texts:
+      - Yemesa
+      - Ye
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+      - Pi
+  - osis: Jude
+    texts:
+      - Yude
+      - Yu
+translations:
+  - DOBOT
+  - DOB

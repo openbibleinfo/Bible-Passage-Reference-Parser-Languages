@@ -1,0 +1,421 @@
+default:
+  1Chr:
+    long: 1 Kr
+    short: 1 Kr
+  1Cor:
+    long: 1 Ko
+    short: 1 Ko
+  1John:
+    long: 1 Jn
+    short: 1 Jn
+  1Kgs:
+    long: 1 R
+    short: 1 R
+  1Macc:
+    long: 1 Mak
+    short: 1 Mak
+  1Pet:
+    long: 1 Pe
+    short: 1 Pe
+  1Sam:
+    long: 1 S
+    short: 1 S
+  1Thess:
+    long: 1 Ts
+    short: 1 Ts
+  1Tim:
+    long: 1 Ti
+    short: 1 Ti
+  2Chr:
+    long: 2 Kr
+    short: 2 Kr
+  2Cor:
+    long: 2 Ko
+    short: 2 Ko
+  2John:
+    long: 2 Jn
+    short: 2 Jn
+  2Kgs:
+    long: 2 R
+    short: 2 R
+  2Macc:
+    long: 2 Mak
+    short: 2 Mak
+  2Pet:
+    long: 2 Pe
+    short: 2 Pe
+  2Sam:
+    long: 2 S
+    short: 2 S
+  2Thess:
+    long: 2 Ts
+    short: 2 Ts
+  2Tim:
+    long: 2 Ti
+    short: 2 Ti
+  3John:
+    long: 3 Jn
+    short: 3 Jn
+  Acts:
+    long: Hch
+    short: Hch
+  Amos:
+    long: Am
+    short: Am
+  Bar:
+    long: Bar
+    short: Bar
+  Col:
+    long: Kol
+    short: Kol
+  Dan:
+    long: Dn
+    short: Dn
+  DanGr:
+    long: Daniel (dc)
+  Deut:
+    long: Dt
+    short: Dt
+  Eccl:
+    long: Ek
+    short: Ek
+  EpJer:
+    long: Carta de Jeremías
+  Eph:
+    long: Ef
+    short: Ef
+  Esth:
+    long: Est
+    short: Est
+  EsthGr:
+    long: Est (gr)
+    short: Est (gr)
+  Exod:
+    long: Ex
+    short: Ex
+  Ezek:
+    long: Ez
+    short: Ez
+  Ezra:
+    long: Esd
+    short: Esd
+  Gal:
+    long: Gal
+    short: Gal
+  Gen:
+    long: Gn
+    short: Gn
+  Hab:
+    long: Hab
+    short: Hab
+  Hag:
+    long: Hag
+    short: Hag
+  Heb:
+    long: Heb
+    short: Heb
+  Hos:
+    long: Os
+    short: Os
+  Isa:
+    long: Is
+    short: Is
+  Jas:
+    long: Stg
+    short: Stg
+  Jdt:
+    long: Jdt
+    short: Jdt
+  Jer:
+    long: Jr
+    short: Jr
+  Job:
+    long: Job
+    short: Job
+  Joel:
+    long: Jl
+    short: Jl
+  John:
+    long: Jn
+    short: Jn
+  Jonah:
+    long: Jon
+    short: Jon
+  Josh:
+    long: Jos
+    short: Jos
+  Jude:
+    long: Jud
+    short: Jud
+  Judg:
+    long: Jue
+    short: Jue
+  Lam:
+    long: Lm
+    short: Lm
+  Lev:
+    long: Lv
+    short: Lv
+  Luke:
+    long: Lk
+    short: Lk
+  Mal:
+    long: Mal
+    short: Mal
+  Mark:
+    long: Mk
+    short: Mk
+  Matt:
+    long: Mt
+    short: Mt
+  Mic:
+    long: Mi
+    short: Mi
+  Nah:
+    long: Nah
+    short: Nah
+  Neh:
+    long: Neh
+    short: Neh
+  Num:
+    long: Nm
+    short: Nm
+  Obad:
+    long: Abd
+    short: Abd
+  Phil:
+    long: Fil
+    short: Fil
+  Phlm:
+    long: Flm
+    short: Flm
+  Prov:
+    long: Pr
+    short: Pr
+  Ps:
+    long: Sal
+    short: Sal
+  Rev:
+    long: Ap
+    short: Ap
+  Rom:
+    long: Ro
+    short: Ro
+  Ruth:
+    long: Rut
+    short: Rut
+  Sir:
+    long: Eklo
+    short: Eklo
+  Song:
+    long: Knt
+    short: Knt
+  Titus:
+    long: Tt
+    short: Tt
+  Tob:
+    long: Tb
+    short: Tb
+  Wis:
+    long: Sab
+    short: Sab
+  Zech:
+    long: Zak
+    short: Zak
+  Zeph:
+    long: Sof
+    short: Sof
+translations:
+  kek:
+    1Chr:
+      long: 1 Crónicas
+      short: 1 Crón.
+    1Cor:
+      long: 1 Corintios
+      short: 1 Cor.
+    1John:
+      long: 1 Juan
+      short: 1 Juan
+    1Kgs:
+      long: 1 Reyes
+      short: 1 Rey.
+    1Pet:
+      long: 1 Pedro
+      short: 1 Ped.
+    1Sam:
+      long: 1 Samuel
+      short: 1 Sam.
+    1Thess:
+      long: 1 Tesalonicenses
+      short: 1 Tes.
+    1Tim:
+      long: 1 Timoteo
+      short: 1 Tim.
+    2Chr:
+      long: 2 Crónicas
+      short: 2 Crón.
+    2Cor:
+      long: 2 Corintios
+      short: 2 Cor.
+    2John:
+      long: 2 Juan
+      short: 2 Juan
+    2Kgs:
+      long: 2 Reyes
+      short: 2 Rey.
+    2Pet:
+      long: 2 Pedro
+      short: 2 Ped.
+    2Sam:
+      long: 2 Samuel
+      short: 2 Sam.
+    2Thess:
+      long: 2 Tesalonicenses
+      short: 2 Tes.
+    2Tim:
+      long: 2 Timoteo
+      short: 2 Tim.
+    3John:
+      long: 3 Juan
+      short: 3 Juan
+    Acts:
+      long: Hechos
+      short: Hech.
+    Amos:
+      long: Amós
+      short: Amós
+    Col:
+      long: Colosenses
+      short: Col.
+    Dan:
+      long: Daniel
+      short: Dan.
+    Deut:
+      long: Deuteronomio
+      short: Deut.
+    Eccl:
+      long: Eclesiastés
+      short: Ecles.
+    Eph:
+      long: Efesios
+      short: Efes.
+    Esth:
+      long: Ester
+      short: Est.
+    Exod:
+      long: Éxodo
+      short: Ex.
+    Ezek:
+      long: Ezequiel
+      short: Ezeq.
+    Ezra:
+      long: Esdras
+      short: Esd.
+    Gal:
+      long: Gálatas
+      short: Gál.
+    Gen:
+      long: Génesis
+      short: Gén.
+    Hab:
+      long: Habacuc
+      short: Hab.
+    Hag:
+      long: Hageo
+      short: Hag.
+    Heb:
+      long: Hebreos
+      short: Heb.
+    Hos:
+      long: Oseas
+      short: Ose.
+    Isa:
+      long: Isaías
+      short: Isa.
+    Jas:
+      long: Santiago
+      short: Sant.
+    Jer:
+      long: Jeremías
+      short: Jer.
+    Joel:
+      long: Joel
+      short: Joel
+    John:
+      long: San Juan
+      short: Juan
+    Jonah:
+      long: Jonás
+      short: Jon.
+    Josh:
+      long: Josué
+      short: Jos.
+    Jude:
+      long: San Judas
+      short: Judas
+    Judg:
+      long: Jueces
+      short: Jue.
+    Lam:
+      long: Lamentaciones
+      short: Lam.
+    Lev:
+      long: Levítico
+      short: Lev.
+    Luke:
+      long: San Lucas
+      short: Luc.
+    Mal:
+      long: Malaquías
+      short: Mal.
+    Mark:
+      long: San Marcos
+      short: Mar.
+    Matt:
+      long: San Mateo
+      short: Mat.
+    Mic:
+      long: Miqueas
+      short: Miq.
+    Nah:
+      long: Nahum
+      short: Nah.
+    Neh:
+      long: Nehemías
+      short: Neh.
+    Num:
+      long: Números
+      short: Núm.
+    Obad:
+      long: Abdías
+      short: Abd.
+    Phil:
+      long: Filipenses
+      short: Filip.
+    Phlm:
+      long: Filemón
+      short: Filem.
+    Prov:
+      long: Proverbios
+      short: Prov.
+    Ps:
+      long: Salmos
+      short: Sal.
+    Rev:
+      long: Apocalipsis
+      short: Apoc.
+    Rom:
+      long: Romanos
+      short: Rom.
+    Song:
+      long: Cantares
+      short: Cant.
+    Titus:
+      long: Tito
+      short: Tito
+    Zech:
+      long: Zacarías
+      short: Zac.
+    Zeph:
+      long: Sofonías
+      short: Sof.

@@ -1,0 +1,172 @@
+default:
+  1Cor:
+    long: Kòrî̌tiaphû̌ awǐlǒ tabǎ
+    short: Kòrî̌tiaphû̌ awǐlǒ tabǎ
+  1John:
+    long: Jowǎ̤ni̤ awǐlǒ tabǎ
+    short: Jowǎ̤ni̤ awǐlǒ tabǎ
+  1Pet:
+    long: Petarǔ awǐlǒ tôbǎ
+    short: Petarǔ awǐlǒ tôbǎ
+  1Thess:
+    long: Tè̌shalò̌niaphû̌ awǐlǒ tabǎ
+    short: Tè̌shalò̌niaphû̌ awǐlǒ tabǎ
+  1Tim:
+    long: Timò̤̌te awǐlǒ tabǎ
+    short: Timò̤̌te awǐlǒ tabǎ
+  2Cor:
+    long: Kòrî̌tiaphû̌ ginǐ̤bǎ tabǎ
+    short: Kòrî̌tiaphû̌ ginǐ̤bǎ tabǎ
+  2John:
+    long: Jowǎ̤ni̤ ginǐ̤bǎ tabǎ
+    short: Jowǎ̤ni̤ ginǐ̤bǎ tabǎ
+  2Pet:
+    long: Petarǔ ginǐ̤bǎ tôbǎ
+    short: Petarǔ ginǐ̤bǎ tôbǎ
+  2Thess:
+    long: Tè̌shalò̌niaphû̌ ginǐ̤bǎ tabǎ
+    short: Tè̌shalò̌niaphû̌ ginǐ̤bǎ tabǎ
+  2Tim:
+    long: Timò̤̌te ginǐ̤bǎ tabǎ
+    short: Timò̤̌te ginǐ̤bǎ tabǎ
+  3John:
+    long: Jowǎ̤ni̤ subǎ tabǎ
+    short: Jowǎ̤ni̤ subǎ tabǎ
+  Acts:
+    long: Pwa̤nophû̌
+    short: Pwa̤nophû̌
+  Col:
+    long: Kòlòtè̌
+    short: Kòlòtè̌
+  Eph:
+    long: Ephè̌shiaphû̌
+    short: Ephè̌shiaphû̌
+  Gal:
+    long: Galatǐ
+    short: Galatǐ
+  Gen:
+    long: Mǒhtûlû̌hǎhtûsa
+    short: Mǒhtûlû̌hǎhtûsa
+  Heb:
+    long: Ebrephû̌
+    short: Ebrephû̌
+  Jas:
+    long: Jǎgomo̤
+    short: Jǎgomo̤
+  John:
+    long: Jowǎ̤ni̤
+    short: Jowǎ̤ni̤
+  Jude:
+    long: Yǔda
+    short: Yǔda
+  Luke:
+    long: Lǔka
+    short: Lǔka
+  Mark:
+    long: Makǔ
+    short: Makǔ
+  Matt:
+    long: Matěo
+    short: Matěo
+  Phil:
+    long: Phǐlǐpiaphû̌
+    short: Phǐlǐpiaphû̌
+  Phlm:
+    long: Philemo
+    short: Philemo
+  Ps:
+    long: Htû̌sò̌htò̌
+    short: Htû̌sò̌htò̌
+  Rev:
+    long: Ta̤dǔlè̌lṳ̌htò̌
+    short: Ta̤dǔlè̌lṳ̌htò̌
+  Rom:
+    long: Rò̌mǎphû̌
+    short: Rò̌mǎphû̌
+  Titus:
+    long: Tǐtu
+    short: Tǐtu
+translations:
+  kxf:
+    1Cor:
+      long: Kôritu awǐlǒ tôbǎ
+      short: Kôritu awǐlǒ tôbǎ
+    1John:
+      long: Yṳ̂ha awǐlǒ tôbǎ
+      short: Yṳ̂ha awǐlǒ tôbǎ
+    1Thess:
+      long: Tîsalònǐ awǐlǒ tôbǎ
+      short: Tîsalònǐ awǐlǒ tôbǎ
+    1Tim:
+      long: Tîmôte awǐlǒ tôbǎ
+      short: Tîmôte awǐlǒ tôbǎ
+    2Cor:
+      long: Kôritu ginǐ̤bǎ tôbǎ
+      short: Kôritu ginǐ̤bǎ tôbǎ
+    2John:
+      long: Yṳ̂ha ginǐ̤bǎ tôbǎ
+      short: Yṳ̂ha ginǐ̤bǎ tôbǎ
+    2Thess:
+      long: Tîsalònǐ ginǐ̤bǎ tôbǎ
+      short: Tîsalònǐ ginǐ̤bǎ tôbǎ
+    2Tim:
+      long: Tîmôte ginǐ̤bǎ tôbǎ
+      short: Tîmôte ginǐ̤bǎ tôbǎ
+    3John:
+      long: Yṳ̂ha subǎ tôbǎ
+      short: Yṳ̂ha subǎ tôbǎ
+    Eph:
+      long: Ěphěsu
+      short: Ěphěsu
+    Heb:
+      long: Hebrǔ
+      short: Hebrǔ
+    Jas:
+      long: Ya̤kû
+      short: Ya̤kû
+    John:
+      long: Yṳ̂ha
+      short: Yṳ̂ha
+    Matt:
+      long: Matè̌
+      short: Matè̌
+    Phil:
+      long: Phǐlǐpǐ
+      short: Phǐlǐpǐ
+    Phlm:
+      long: Phǐlǐmṳ̂
+      short: Phǐlǐmṳ̂
+    Rom:
+      long: Rṳ̂̌me̤
+      short: Rṳ̂̌me̤
+  krc:
+    1Pet:
+      long: Petru awǐlǒ tabǎ
+      short: Petru awǐlǒ tabǎ
+    2Pet:
+      long: Petru ginǐ̤bǎ tabǎ
+      short: Petru ginǐ̤bǎ tabǎ
+    Acts:
+      long: Pwa̤nophû̌ toǒ
+      short: Pwa̤nophû̌ toǒ
+    Col:
+      long: Kòlò̌shiaphû̌
+      short: Kòlò̌shiaphû̌
+    Gal:
+      long: Galatǐaphû̌
+      short: Galatǐaphû̌
+    Jude:
+      long: Yṳ̌da
+      short: Yṳ̌da
+    Mark:
+      long: Mǎ̤riko
+      short: Mǎ̤riko
+    Ps:
+      long: Ta̤htû̌sò̌ǐ
+      short: Ta̤htû̌sò̌ǐ
+    Rev:
+      long: Ta̤dǔlè̌nǎ
+      short: Ta̤dǔlè̌nǎ
+    Titus:
+      long: Tǐtǔ
+      short: Tǐtǔ

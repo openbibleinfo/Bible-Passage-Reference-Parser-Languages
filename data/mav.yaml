@@ -1,0 +1,113 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Iesui Aru E Hap
+      - Aru
+  - osis: Matt
+    texts:
+      - Mateu
+      - Mt
+  - osis: Mark
+    texts:
+      - Maku
+      - Mk
+  - osis: Luke
+    texts:
+      - Iruka
+      - Ir
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Iuwãu
+      - Iuw
+  - osis: Acts
+    texts:
+      - Iesui Potmuꞌeria
+      - Pot
+  - osis: Rom
+    texts:
+      - Humanu
+      - Hum
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kuriniu
+      - Kur
+  - osis: Col
+    texts:
+      - Korosi
+      - Kor
+  - osis: Gal
+    texts:
+      - Karasia
+      - Kar
+  - osis: Eph
+    texts:
+      - Ewesu
+      - Ew
+  - osis: Phil
+    texts:
+      - Wiripu
+      - Wrp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaronika
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteu
+      - Ti
+  - osis: Titus
+    texts:
+      - Titu
+      - Tit
+  - osis: Phlm
+    texts:
+      - Wiremu
+      - Wrm
+  - osis: Heb
+    texts:
+      - Epereu
+      - Ep
+  - osis: Jas
+    texts:
+      - Tiaku
+      - Tiak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peteru
+      - Pe
+  - osis: Jude
+    texts:
+      - Iuta
+      - Iut
+translations:
+  - MAV

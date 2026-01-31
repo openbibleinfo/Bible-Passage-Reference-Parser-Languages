@@ -1,0 +1,121 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Revelation
+      - Veve
+  - osis: Ruth
+    texts:
+      - Ruth
+      - Rut
+  - osis: Jonah
+    texts:
+      - Jonah
+      - Jona
+  - osis: Matt
+    texts:
+      - Matthew
+      - Met
+  - osis: Mark
+    texts:
+      - Mark
+      - Mak
+  - osis: Luke
+    texts:
+      - Luke
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - John
+      - Zion
+  - osis: Acts
+    texts:
+      - Acts
+      - Kel
+  - osis: Rom
+    texts:
+      - Romans
+      - Lom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corinthians
+      - Ko
+  - osis: Col
+    texts:
+      - Colossians
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatians
+      - Gal
+  - osis: Eph
+    texts:
+      - Ephesians
+      - Ef
+  - osis: Phil
+    texts:
+      - Philippians
+      - Filip
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thessalonians
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothy
+      - Tim
+  - osis: Titus
+    texts:
+      - Titus
+      - Tait
+  - osis: Phlm
+    texts:
+      - Philemon
+      - Filem
+  - osis: Heb
+    texts:
+      - Hebrews
+      - Iblu
+  - osis: Jas
+    texts:
+      - James
+      - Zems
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peter
+      - Pita
+  - osis: Jude
+    texts:
+      - Jude
+      - Zud
+translations:
+  - KVG

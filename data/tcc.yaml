@@ -1,0 +1,329 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Giing'eeta
+      - Gin
+  - osis: Exod
+    texts:
+      - Riteayda
+      - Rit
+  - osis: Lev
+    texts:
+      - Ng'asheega Lawi
+      - Lawi
+  - osis: Num
+    texts:
+      - Iitooda
+      - Iit
+  - osis: Lam
+    texts:
+      - Heareega
+      - Hea
+  - osis: Rev
+    texts:
+      - Giidaheachta
+      - Giidaheechta
+      - Giid
+      - Gid
+  - osis: Deut
+    texts:
+      - Giipkeata Diigheanda
+      - Gip
+  - osis: Josh
+    texts:
+      - Yoshuwa
+      - Yos
+  - osis: Judg
+    texts:
+      - Fuga Laja Girgweaguutka
+      - Fug
+  - osis: Ruth
+    texts:
+      - Ruti
+      - Rut
+  - osis: Isa
+    texts:
+      - Isaya
+      - Isa
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samweli
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Sugoodiga
+      - Sug
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Damanyoojiga
+      - Dam
+  - osis: Ezra
+    texts:
+      - Esra
+      - Esr
+  - osis: Neh
+    texts:
+      - Nehemiya
+      - Neh
+  - osis: Esth
+    texts:
+      - Esta
+      - Est
+  - osis: Job
+    texts:
+      - Ayubu
+      - Ayu
+  - osis: Ps
+    texts:
+      - Nyiigheega
+      - Nyi
+  - osis: Prov
+    texts:
+      - Ghwasiildeanga
+      - Ghwa
+  - osis: Eccl
+    texts:
+      - Reekusiinda
+      - Ree
+  - osis: Song
+    texts:
+      - Sarmeeda Sulemani
+      - Sar
+  - osis: Jer
+    texts:
+      - Yeremiya
+      - Yer
+  - osis: Ezek
+    texts:
+      - Esekieli
+      - Ese
+  - osis: Dan
+    texts:
+      - Danieli
+      - Dan
+  - osis: Hos
+    texts:
+      - Hoseya
+      - Hos
+  - osis: Joel
+    texts:
+      - Yoeli
+      - Yoe
+  - osis: Amos
+    texts:
+      - Amosi
+      - Amo
+  - osis: Obad
+    texts:
+      - Obadiya
+      - Oba
+  - osis: Jonah
+    texts:
+      - Yona
+      - Yon
+  - osis: Mic
+    texts:
+      - Mika
+      - MiK
+  - osis: Nah
+    texts:
+      - Nahumu
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuki
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sefaniya
+      - Sef
+  - osis: Hag
+    texts:
+      - Hagayi
+      - Hag
+  - osis: Zech
+    texts:
+      - Sakariya
+      - Sak
+  - osis: Mal
+    texts:
+      - Malaki
+      - Mal
+  - osis: Matt
+    texts:
+      - Mattayo
+      - Matayo
+      - Mat
+  - osis: Mark
+    texts:
+      - Marko
+      - Mark
+      - Mar
+  - osis: Luke
+    texts:
+      - Lukka
+      - Luka
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Yoh
+  - osis: 2John
+    texts:
+      - 2Yoh
+  - osis: 3John
+    texts:
+      - 3 Yohaana
+      - 3 Yohana
+      - 3 Yoh
+      - 3Yoh
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yohaana
+      - Yohana
+      - Yoh
+  - osis: Acts
+    texts:
+      - Gadiyeeda Giijasoodiga
+      - Gadi
+      - Gad
+  - osis: Rom
+    texts:
+      - Ruumi
+      - Rumi
+      - Ruum
+      - Rum
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Goriinto
+      - Gorinto
+      - Gor
+  - osis: 1Cor
+    texts:
+      - 1Gor
+  - osis: 2Cor
+    texts:
+      - 2Gor
+  - osis: Col
+    texts:
+      - Golosaayi
+      - Golosayi
+      - Gol
+  - osis: Gal
+    texts:
+      - Galattiya
+      - Galatiya
+      - Gal
+  - osis: Eph
+    texts:
+      - Efeeso
+      - Efeso
+      - Efe
+  - osis: Phil
+    texts:
+      - Filippi
+      - Filipi
+      - Filp
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Desaloniikke
+      - Desalonike
+      - Des
+  - osis: 1Thess
+    texts:
+      - 1Des
+  - osis: 2Thess
+    texts:
+      - 2Des
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Dimotteo
+      - Dimoteo
+      - Dim
+  - osis: 1Tim
+    texts:
+      - 1Dim
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Dimoteo
+      - Dim
+  - osis: 2Tim
+    texts:
+      - 2Dim
+  - osis: Titus
+    texts:
+      - Ditto
+      - Dito
+      - Dit
+  - osis: Phlm
+    texts:
+      - Filimoni
+      - Filimoon
+      - File
+      - Film
+  - osis: Heb
+    texts:
+      - Ebraniya
+      - Ebr
+  - osis: Jas
+    texts:
+      - Yakkobo
+      - Yakobo
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Betaro
+      - Betro
+      - Bet
+  - osis: 1Pet
+    texts:
+      - 1Bet
+  - osis: 2Pet
+    texts:
+      - 2Bet
+  - osis: Jude
+    texts:
+      - Yuuda
+      - Yuda
+      - Yud
+translations:
+  - DB15
+  - DTGANT09

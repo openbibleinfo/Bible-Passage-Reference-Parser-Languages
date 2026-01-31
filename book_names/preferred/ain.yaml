@@ -1,0 +1,87 @@
+default:
+  1Cor:
+    long: I Korintos
+    short: 1 Kor
+  1John:
+    long: I Yoannes
+    short: 1 Yoan
+  1Pet:
+    long: I Petros
+    short: 1 Pet
+  1Thess:
+    long: I Tessaronike
+  1Tim:
+    long: I Timoteos
+    short: 1 Tim
+  2Cor:
+    long: II Korintos
+    short: 2 Kor
+  2John:
+    long: II Yoannes
+    short: 2 Yoan
+  2Pet:
+    long: II Petros
+    short: 2 Pet
+  2Thess:
+    long: II Tessaronike
+    short: 2 Tes
+  2Tim:
+    long: II Timoteos
+    short: 2 Tim
+  3John:
+    long: III Yoannes
+    short: 3 Yoan
+  Acts:
+    long: Apostoro ikip oma kambi
+    short: Kambi
+  Col:
+    long: Korosai
+    short: Kor
+  Eph:
+    long: Epesos
+    short: Epe
+  Gal:
+    long: Garatea
+    short: Gar
+  Heb:
+    long: Hebraios
+    short: Heb
+  Jas:
+    long: Yakob
+    short: Yak
+  John:
+    long: Yoannes
+    short: Yoan
+  Jonah:
+    long: Jona
+    short: Jona
+  Jude:
+    long: Youdas
+    short: Yoad
+  Luke:
+    long: Roukos
+    short: Rouk
+  Mark:
+    long: Markos
+    short: Mark
+  Matt:
+    long: Mattaios
+    short: Matt
+  Phil:
+    long: Piripoi
+    short: Piri
+  Phlm:
+    long: Pirimon
+    short: Piri
+  Ps:
+    long: Iyohaichish
+    short: Iyohaichish
+  Rev:
+    long: Ekambakbe
+    short: Ekam
+  Rom:
+    long: Roma
+    short: Roma
+  Titus:
+    long: Titus
+    short: Tit

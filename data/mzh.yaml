@@ -1,0 +1,214 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Gén
+  - osis: Exod
+    texts:
+      - Éx
+  - osis: Lev
+    texts:
+      - Lev
+  - osis: Num
+    texts:
+      - Núm
+  - osis: Lam
+    texts:
+      - Lam
+  - osis: Rev
+    texts:
+      - Apoc
+  - osis: Deut
+    texts:
+      - Deut
+  - osis: Josh
+    texts:
+      - Jos
+  - osis: Judg
+    texts:
+      - Jue
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis: Isa
+    texts:
+      - Isa
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Rey
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Crón
+  - osis: Ezra
+    texts:
+      - Esdras
+  - osis: Neh
+    texts:
+      - Neh
+  - osis: Esth
+    texts:
+      - Ester
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Salmo|Sal
+      - Sal
+  - osis: Prov
+    texts:
+      - Prov
+  - osis: Eccl
+    texts:
+      - Ecles
+  - osis: Song
+    texts:
+      - Can
+  - osis: Jer
+    texts:
+      - Jer
+  - osis: Ezek
+    texts:
+      - Ezeq
+  - osis: Dan
+    texts:
+      - Dan
+  - osis: Hos
+    texts:
+      - Oseas
+  - osis: Joel
+    texts:
+      - Joel
+  - osis: Amos
+    texts:
+      - Amós
+  - osis: Obad
+    texts:
+      - Abd
+  - osis: Jonah
+    texts:
+      - Jonás
+  - osis: Mic
+    texts:
+      - Miq
+  - osis: Nah
+    texts:
+      - Nahúm
+  - osis: Hab
+    texts:
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sof
+  - osis: Hag
+    texts:
+      - Hag
+  - osis: Zech
+    texts:
+      - Zac
+  - osis: Mal
+    texts:
+      - Mal
+  - osis: Matt
+    texts:
+      - Mat
+  - osis: Mark
+    texts:
+      - Mar
+  - osis: Luke
+    texts:
+      - Luc
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Juan
+  - osis: Acts
+    texts:
+      - Ap.Lh
+  - osis: Rom
+    texts:
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Cor
+  - osis: Col
+    texts:
+      - Col
+  - osis: Gal
+    texts:
+      - Gál
+  - osis: Eph
+    texts:
+      - Ef
+  - osis: Phil
+    texts:
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tim
+  - osis: Titus
+    texts:
+      - Tit
+  - osis: Phlm
+    texts:
+      - Film
+  - osis: Heb
+    texts:
+      - Heb
+  - osis: Jas
+    texts:
+      - Sant
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Ped
+  - osis: Jude
+    texts:
+      - Judas
+translations:
+  - WCHB

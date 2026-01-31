@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 Koronti
+    short: 1Kor
+  1John:
+    long: 1 Yowana
+    short: 1Yow
+  1Pet:
+    long: 1 Biti̱re
+    short: 1Bit
+  1Thess:
+    long: 1 Tassalonika
+    short: 1Tas
+  1Tim:
+    long: 1 Timoti
+    short: 1Tim
+  2Cor:
+    long: 2 Koronti
+    short: 2Kor
+  2John:
+    long: 2 Yowana
+    short: 2Yow
+  2Pet:
+    long: 2 Biti̱re
+    short: 2Bit
+  2Thess:
+    long: 2 Tassalonika
+    short: 2Tas
+  2Tim:
+    long: 2 Timoti
+    short: 2Tim
+  3John:
+    long: 3 Yowana
+    short: 3Yow
+  Acts:
+    long: Nangi̱n Fandubi̱m
+    short: Nfa
+  Col:
+    long: Kolosiyam
+    short: Kol
+  Eph:
+    long: Afisam
+    short: Afi
+  Gal:
+    long: Ka̱la̱tiyam
+    short: Ka̱l
+  Heb:
+    long: Yibraniyam
+    short: Yib
+  Jas:
+    long: Yakubu
+    short: Yak
+  John:
+    long: Yowana
+    short: Yow
+  Jude:
+    long: Yafuda
+    short: Yaf
+  Luke:
+    long: Luka
+    short: Luk
+  Mark:
+    long: Markus
+    short: Mar
+  Matt:
+    long: Matta
+    short: Mat
+  Phil:
+    long: Filibiyam
+    short: Fi̱l
+  Phlm:
+    long: Filimon
+    short: Fil
+  Rev:
+    long: Dwakam
+    short: Dyo
+  Rom:
+    long: Romam
+    short: Rom
+  Titus:
+    long: Titus
+    short: Tit

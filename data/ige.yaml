@@ -1,0 +1,219 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Ọmwụ Ọdada
+  - osis: Exod
+    texts:
+      - Ehe Ọkpụkpụ
+      - Ehe
+  - osis: Lev
+    texts:
+      - Ala Ilivayị
+  - osis: Num
+    texts:
+      - Ọwawa
+  - osis: Lam
+    texts:
+      - Ida Ọbaba
+  - osis: Rev
+    texts:
+      - Ọwụrụụ-wụrụ
+  - osis: Deut
+    texts:
+      - Ehile Ọmada
+      - Ehile
+  - osis: Josh
+    texts:
+      - Ijochuwa
+  - osis: Judg
+    texts:
+      - Angịleje
+  - osis: Ruth
+    texts:
+      - Irutu
+  - osis: Isa
+    texts:
+      - Ayịsaya
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Ịsamwẹlụ
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Ịdịrịhụ
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Ego Ogbegbe
+  - osis: Ezra
+    texts:
+      - Ẹsịra
+  - osis: Neh
+    texts:
+      - Inehemaya
+  - osis: Esth
+    texts:
+      - Ẹsịta
+  - osis: Job
+    texts:
+      - Ijobu
+  - osis: Ps
+    texts:
+      - Eje Ọnyịịla
+  - osis: Prov
+    texts:
+      - Etu
+  - osis: Eccl
+    texts:
+      - ỌngọliryaỌngọ
+  - osis: Song
+    texts:
+      - Eje Ọ-gụ Eje
+  - osis: Jer
+    texts:
+      - Ijeremaya
+  - osis: Ezek
+    texts:
+      - Isikẹlụ
+  - osis: Dan
+    texts:
+      - Ịdanẹlụ
+  - osis: Hos
+    texts:
+      - Ihoseya
+  - osis: Joel
+    texts:
+      - Ijuwẹlụ
+  - osis: Amos
+    texts:
+      - EmọsịEmọ
+  - osis: Obad
+    texts:
+      - ObadayaOba
+  - osis: Jonah
+    texts:
+      - Ijona
+  - osis: Mic
+    texts:
+      - Ịmayịka
+  - osis: Nah
+    texts:
+      - Ịnahụm
+  - osis: Hab
+    texts:
+      - Ịhabakuku
+  - osis: Zeph
+    texts:
+      - Ịsẹfaniya
+  - osis: Hag
+    texts:
+      - Ịhagayị
+  - osis: Zech
+    texts:
+      - Ịsẹkaraya
+  - osis: Mal
+    texts:
+      - Ịmalakayị
+  - osis: Matt
+    texts:
+      - Ịmatiyu
+      - Mat
+  - osis: Mark
+    texts:
+      - Ịmakị
+      - Mak
+  - osis: Luke
+    texts:
+      - iLuku
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Ịjọn
+  - osis: Acts
+    texts:
+      - Ụkụrwọ nya Alẹrụ
+      - Ụkụr
+  - osis: Rom
+    texts:
+      - Ala Irom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Ala Ịkọrịntị
+  - osis: Col
+    texts:
+      - Ala Ikọlosi
+  - osis: Gal
+    texts:
+      - Ala Ịgaletiya
+  - osis: Eph
+    texts:
+      - Ala Efesọsị
+  - osis: Phil
+    texts:
+      - Ala Ifilipayị
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Ala Ịtẹsalonika
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Itimoti
+  - osis: Titus
+    texts:
+      - Ịtayịtọsị
+  - osis: Phlm
+    texts:
+      - Ifilimọn
+  - osis: Heb
+    texts:
+      - Ala Ihiburu
+  - osis: Jas
+    texts:
+      - Ijemsi
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Ipita
+  - osis: Jude
+    texts:
+      - iJudu
+translations:
+  - IBT2

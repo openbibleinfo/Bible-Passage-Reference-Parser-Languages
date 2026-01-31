@@ -1,0 +1,112 @@
+variables:
+  first: &first
+    - १
+  second: &second
+    - २
+  third: &third
+    - ३
+books:
+  - osis: Rev
+    texts:
+      - पारकास
+      - पारका
+  - osis: Matt
+    texts:
+      - मात्‌ति
+      - मात्‌
+  - osis: Mark
+    texts:
+      - मारकुस
+      - मार
+  - osis: Luke
+    texts:
+      - लुका
+      - लुक्
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - युहान्‍ना
+      - युह
+  - osis: Acts
+    texts:
+      - मुलिचेला टोॽवा
+      - मुलिचेला
+  - osis: Rom
+    texts:
+      - रोमि
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - कोरिन्‌थि
+      - को
+  - osis: Col
+    texts:
+      - कालास्‌सि
+      - काल
+  - osis: Gal
+    texts:
+      - गालाति
+      - गाल
+  - osis: Eph
+    texts:
+      - एफिसि
+      - एफि
+  - osis: Phil
+    texts:
+      - फिलिप्‌पि
+      - फिलि
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - थेसालोनिकि
+      - थेसा
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - तिमोथि
+      - ति
+  - osis: Titus
+    texts:
+      - तितास
+      - ति
+  - osis: Phlm
+    texts:
+      - फिलेमोन
+      - फिले
+  - osis: Heb
+    texts:
+      - हिब्‍रु
+      - हिब
+  - osis: Jas
+    texts:
+      - याकुब
+      - याक
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - पाटरुस
+      - पाटरु
+  - osis: Jude
+    texts:
+      - याहुदा
+      - याहु
+translations:
+  - APH

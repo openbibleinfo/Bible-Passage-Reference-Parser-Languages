@@ -1,0 +1,161 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Apocalipsis
+      - Apocaripisi
+      - Ap
+  - osis: Matt
+    texts:
+      - Mateo
+      - Mt
+  - osis: Mark
+    texts:
+      - Maraco
+      - Mc
+  - osis: Luke
+    texts:
+      - Roca
+      - Rc
+  - osis: 1John
+    texts:
+      - 1Hn
+  - osis: 2John
+    texts:
+      - 2Hn
+  - osis: 3John
+    texts:
+      - 3 Huanocca
+      - 3 Zouao
+      - 3Hn
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Huanocca
+      - Zouao
+  - osis: John
+    texts:
+      - Huano
+      - Zouao
+      - Hn
+  - osis: Acts
+    texts:
+      - Tahimarideni
+      - Atos
+      - Tah
+  - osis: Rom
+    texts:
+      - Romanodenidsa
+      - Rromanodeniza
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corintodenidsa
+      - Corintodeniza
+  - osis: 1Cor
+    texts:
+      - 1Co
+  - osis: 2Cor
+    texts:
+      - 2Co
+  - osis: Col
+    texts:
+      - Corosadenidsa
+      - Corosadeniza
+      - Cor
+  - osis: Gal
+    texts:
+      - Carasiadenidsa
+      - Carasiadeniza
+      - Car
+  - osis: Eph
+    texts:
+      - Epesodenidsa
+      - Epesodeniza
+      - Ep
+  - osis: Phil
+    texts:
+      - Piripodenidsa
+      - Piripodeniza
+      - Prp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaronicadenidsa
+      - Tesaronicadeniza
+  - osis: 1Thess
+    texts:
+      - 1Te
+  - osis: 2Thess
+    texts:
+      - 2Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteodsa
+      - Timoti
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Titodsa
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Piremaodsa
+      - Piremao
+      - Prm
+  - osis: Heb
+    texts:
+      - Ebreodenidsa
+      - Ebreo
+      - Eb
+  - osis: Jas
+    texts:
+      - Satiacocca
+      - Tiaco
+      - Sat
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pedrocca
+      - Pedoro
+  - osis: 1Pet
+    texts:
+      - 1Pe
+  - osis: 2Pet
+    texts:
+      - 2Pe
+  - osis: Jude
+    texts:
+      - Jodacca
+      - Zoda
+      - Jod
+translations:
+  - CULNT
+  - KBNT

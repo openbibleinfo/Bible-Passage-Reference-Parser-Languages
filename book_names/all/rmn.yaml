@@ -1,0 +1,283 @@
+- osis: Gen
+  texts:
+    - Кердипэ
+    - Крд
+- osis: Rev
+  texts:
+    - Otkrivenje
+    - Phućardipe
+    - Phuć
+    - Otk
+- osis: Ruth
+  texts:
+    - Руфь
+- osis: Jonah
+  texts:
+    - Иона
+- osis: Matt
+  texts:
+    - Evangelium e Matejestar
+    - Mateje
+    - Matej
+    - Mt
+- osis: Mark
+  texts:
+    - Evangelium e Markostar
+    - Marko
+    - Mk
+- osis: Luke
+  texts:
+    - Evangelium e Lukastar
+    - Lukahtar
+    - Lukéstar
+    - Luka
+    - Лука
+    - Luk
+    - Lk
+    - Лк
+- osis: 3John
+  texts:
+    - Trito e Jovanesiri
+    - 3. Jovanesko
+    - 3. Jovan
+    - 3. Jn
+    - 3 Jn
+- osis: 1John
+  texts:
+    - 1 e Jovanesiri
+    - 1 Jovanesko
+    - 1 Jovan
+    - 1 Jn
+    - 1. e Jovanesiri
+    - 1. Jovanesko
+    - 1. Jovan
+    - 1. Jn
+    - Angluni e Jovanesiri
+    - Angluni Jovanesko
+    - Angluni Jovan
+    - Angluni Jn
+    - Angluni. e Jovanesiri
+    - Angluni. Jovanesko
+    - Angluni. Jovan
+    - Angluni. Jn
+- osis: 2John
+  texts:
+    - 2 e Jovanesiri
+    - 2 Jovanesko
+    - 2 Jovan
+    - 2 Jn
+    - 2. e Jovanesiri
+    - 2. Jovanesko
+    - 2. Jovan
+    - 2. Jn
+    - Dujto e Jovanesiri
+    - Dujto Jovanesko
+    - Dujto Jovan
+    - Dujto Jn
+    - Dujto. e Jovanesiri
+    - Dujto. Jovanesko
+    - Dujto. Jovan
+    - Dujto. Jn
+- osis: John
+  texts:
+    - Evangelium e Jovanostar
+    - Jovane
+    - Jovano
+    - Jovan
+    - Jn
+- osis: Acts
+  texts:
+    - Ćerdipna e apostolengere
+    - Delja
+    - Buća
+    - Ćeap
+    - Dela
+    - Дила
+    - Dap
+    - Дл
+- osis: Rom
+  texts:
+    - Rimljanenđe
+    - Rimljanenge
+    - Rim
+- osis: 1Cor
+  texts:
+    - 1 e Korinćanjenge
+    - 1 Korinćanenđe
+    - 1 Kor
+    - 1. e Korinćanjenge
+    - 1. Korinćanenđe
+    - 1. Kor
+    - Angluni e Korinćanjenge
+    - Angluni Korinćanenđe
+    - Angluni Kor
+    - Angluni. e Korinćanjenge
+    - Angluni. Korinćanenđe
+    - Angluni. Kor
+- osis: 2Cor
+  texts:
+    - 2 Korinćanjenge
+    - 2 Korinćanenđe
+    - 2 Kor
+    - 2. Korinćanjenge
+    - 2. Korinćanenđe
+    - 2. Kor
+    - Dujto Korinćanjenge
+    - Dujto Korinćanenđe
+    - Dujto Kor
+    - Dujto. Korinćanjenge
+    - Dujto. Korinćanenđe
+    - Dujto. Kor
+- osis: Col
+  texts:
+    - E Kološanenge
+    - Kološanurenđe
+    - Kološanenđe
+    - Kol
+- osis: Gal
+  texts:
+    - Galaćanurenđe
+    - E Galatenge
+    - Galaćanenđe
+    - Galatenđe
+    - Gal
+- osis: Eph
+  texts:
+    - Efesconenge
+    - Efescurenđe
+    - Efežanenđe
+    - Ef
+- osis: Phil
+  texts:
+    - E Filipljanenge
+    - Filipljanenđe
+    - Fil
+    - Flp
+- osis: 1Thess
+  texts:
+    - 1 e Solunjamnenge
+    - 1 Solunjanenđe
+    - 1 Sol
+    - 1. e Solunjamnenge
+    - 1. Solunjanenđe
+    - 1. Sol
+    - Angluni e Solunjamnenge
+    - Angluni Solunjanenđe
+    - Angluni Sol
+    - Angluni. e Solunjamnenge
+    - Angluni. Solunjanenđe
+    - Angluni. Sol
+- osis: 2Thess
+  texts:
+    - 2 e Solunjamnenge
+    - 2 Solunjanenđe
+    - 2 Sol
+    - 2. e Solunjamnenge
+    - 2. Solunjanenđe
+    - 2. Sol
+    - Dujto e Solunjamnenge
+    - Dujto Solunjanenđe
+    - Dujto Sol
+    - Dujto. e Solunjamnenge
+    - Dujto. Solunjanenđe
+    - Dujto. Sol
+- osis: 1Tim
+  texts:
+    - 1 e Timotejese
+    - 1 Timoteješće
+    - 1 Timotej
+    - 1 Tim
+    - 1. e Timotejese
+    - 1. Timoteješće
+    - 1. Timotej
+    - 1. Tim
+    - Angluni e Timotejese
+    - Angluni Timoteješće
+    - Angluni Timotej
+    - Angluni Tim
+    - Angluni. e Timotejese
+    - Angluni. Timoteješće
+    - Angluni. Timotej
+    - Angluni. Tim
+- osis: 2Tim
+  texts:
+    - 2 e Timotejese
+    - 2 Timoteješće
+    - 2 Timotej
+    - 2 Tim
+    - 2. e Timotejese
+    - 2. Timoteješće
+    - 2. Timotej
+    - 2. Tim
+    - Dujto e Timotejese
+    - Dujto Timoteješće
+    - Dujto Timotej
+    - Dujto Tim
+    - Dujto. e Timotejese
+    - Dujto. Timoteješće
+    - Dujto. Timotej
+    - Dujto. Tim
+- osis: Titus
+  texts:
+    - E Titose
+    - Titošće
+    - Titus
+    - Tit
+- osis: Phlm
+  texts:
+    - E Filimonose
+    - Filemonešće
+    - Filimon
+    - Flm
+- osis: Heb
+  texts:
+    - E Jevrejenge
+    - Jev
+- osis: Jas
+  texts:
+    - E Jakovesiri
+    - Jakovesko
+    - Jakov
+    - Jak
+- osis: 1Pet
+  texts:
+    - 1 e Petresiri
+    - 1 Petresko
+    - 1 Petar
+    - 1 Pet
+    - 1. e Petresiri
+    - 1. Petresko
+    - 1. Petar
+    - 1. Pet
+    - Angluni e Petresiri
+    - Angluni Petresko
+    - Angluni Petar
+    - Angluni Pet
+    - Angluni. e Petresiri
+    - Angluni. Petresko
+    - Angluni. Petar
+    - Angluni. Pet
+- osis: 2Pet
+  texts:
+    - 2 e Petresiri
+    - 2 Petresko
+    - 2 Petar
+    - 2 Pet
+    - 2. e Petresiri
+    - 2. Petresko
+    - 2. Petar
+    - 2. Pet
+    - Dujto e Petresiri
+    - Dujto Petresko
+    - Dujto Petar
+    - Dujto Pet
+    - Dujto. e Petresiri
+    - Dujto. Petresko
+    - Dujto. Petar
+    - Dujto. Pet
+- osis: Jude
+  texts:
+    - E Judesiri
+    - Judasko
+    - Juda
+    - Jud

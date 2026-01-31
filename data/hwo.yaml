@@ -1,0 +1,75 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Matt
+    texts:
+      - Matta
+  - osis: Mark
+    texts:
+      - Markus
+  - osis: Luke
+    texts:
+      - Luka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yahaya
+  - osis: 1John
+    texts:
+      - 1Yahaya
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korontiyaya
+  - osis: Col
+    texts:
+      - Kolosiyaya
+  - osis: Gal
+    texts:
+      - Nggalatiyaya
+  - osis: Phil
+    texts:
+      - Filibiyaya
+  - osis: 1Thess
+    texts:
+      - 1Tasalonikaya
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tasalonikaya
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: Titus
+    texts:
+      - Titus
+  - osis: Phlm
+    texts:
+      - Filimon
+  - osis: Jas
+    texts:
+      - Yakubu
+  - osis: Jude
+    texts:
+      - Yahuda
+translations:
+  - HWO

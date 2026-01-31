@@ -1,0 +1,112 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Paanaiteta
+      - Pan
+  - osis: Matt
+    texts:
+      - Matteo
+      - Mat
+  - osis: Mark
+    texts:
+      - Mareko
+      - Mar
+  - osis: Luke
+    texts:
+      - Ruka
+      - Ruk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Dzohane
+      - Dzoh
+  - osis: Acts
+    texts:
+      - Aposoro
+      - Apo
+  - osis: Rom
+    texts:
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Koritti
+      - Kor
+  - osis: Col
+    texts:
+      - Korose
+      - Koro
+  - osis: Gal
+    texts:
+      - Garata
+      - Gar
+  - osis: Eph
+    texts:
+      - Epeso
+      - Epe
+  - osis: Phil
+    texts:
+      - Piripi
+      - Pir
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Ttesaronike
+      - Ttes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotteo
+      - Tim
+  - osis: Titus
+    texts:
+      - Ttitto
+      - Tit
+  - osis: Phlm
+    texts:
+      - Piremo
+      - Pire
+  - osis: Heb
+    texts:
+      - Heboro
+      - Heb
+  - osis: Jas
+    texts:
+      - Dzakopo
+      - Dza
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peetoro
+      - Pet
+  - osis: Jude
+    texts:
+      - Dzute
+      - Dzut
+translations:
+  - GHS

@@ -1,0 +1,344 @@
+variables:
+  first: &first
+    - "1"
+    - I.
+  second: &second
+    - "2"
+    - II.
+books:
+  - osis: Gen
+    texts:
+      - Enkiterunoto
+      - Enk
+  - osis: Exod
+    texts:
+      - Enaidurra
+      - Ena
+  - osis: Lev
+    texts:
+      - Ilawi
+      - Ilaw
+  - osis: Num
+    texts:
+      - Enkikena
+      - Enki
+  - osis: Sir
+    texts:
+      - Sirak
+  - osis: Wis
+    texts:
+      - Eng'eno nagut e Solomon
+      - Eng'e
+  - osis: Lam
+    texts:
+      - Nkishirat
+      - Nkish
+  - osis: Rev
+    texts:
+      - Embolunoto
+      - Emb
+  - osis: Deut
+    texts:
+      - Enkigilata oo Nkitanapat
+      - Enkig
+  - osis: Josh
+    texts:
+      - Yoshua
+      - Yosh
+  - osis: Judg
+    texts:
+      - Ilarishak
+      - Ilari
+  - osis: Ruth
+    texts:
+      - Rusi
+      - Ru
+  - osis: Isa
+    texts:
+      - Isaya
+      - Isa
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Ilaiguanak
+      - Illaig
+      - Ilai
+  - osis:
+      - osis: 1Chr
+        before: *first
+    texts:
+      - Interpen
+      - Intepen
+      - Int
+  - osis:
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Intepen
+      - Int
+  - osis: Ezra
+    texts:
+      - Esra
+      - Esr
+  - osis: Neh
+    texts:
+      - Nehemia
+      - Neh
+  - osis: Esth
+    texts:
+      - Esta
+      - Est
+  - osis: Job
+    texts:
+      - Yoab
+      - Yoa
+  - osis: Ps
+    texts:
+      - Olkerempe le Nkai
+      - Olke
+      - Olk
+  - osis: Prov
+    texts:
+      - Ndung'eta e Rashe
+      - Ndung
+  - osis: Eccl
+    texts:
+      - Olaikooni
+      - Olaik
+  - osis: Song
+    texts:
+      - Osinkolio le Solomon
+      - Osink
+  - osis: Jer
+    texts:
+      - Yeremia
+      - Yer
+  - osis: Ezek
+    texts:
+      - Esekiel
+      - Esek
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan
+  - osis: Hos
+    texts:
+      - Hosea
+      - Hos
+  - osis: Joel
+    texts:
+      - Yoel
+      - Yoe
+  - osis: Amos
+    texts:
+      - Amos
+      - Amo
+  - osis: Obad
+    texts:
+      - Obadia
+      - Obad
+  - osis: Jonah
+    texts:
+      - Yona
+      - Yon
+  - osis: Mic
+    texts:
+      - Mika
+      - MiK
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuki
+      - Habakuk
+      - Haba
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sefania
+      - Sefa
+      - Sef
+  - osis: Hag
+    texts:
+      - Hagai
+      - Hag
+  - osis: Zech
+    texts:
+      - Sakaria
+      - Saka
+      - Sak
+  - osis: Mal
+    texts:
+      - Malaki
+      - Mala
+      - Mal
+  - osis: Matt
+    texts:
+      - Matayos
+      - Matayo
+      - Mat
+  - osis: Mark
+    texts:
+      - Markos
+      - Marko
+      - Mk
+  - osis: Luke
+    texts:
+      - Lukas
+      - Luka
+      - Lk
+  - osis: 3John
+    texts:
+      - Empalai E Uni E Yohana
+      - III. Yohanes
+      - 3 Yohana
+      - 3 Yhn
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yohanes
+      - Yohana
+      - Yhn
+  - osis: Acts
+    texts:
+      - Nkitobirat
+      - Iasat
+      - Iat
+  - osis: Rom
+    texts:
+      - Romayoi
+      - iRoma
+      - Irm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Ilkorintioi
+      - Ilkorintio
+      - Ilkorinto
+      - Ilkor
+  - osis: Col
+    texts:
+      - Ilkolosai
+      - Ilkol
+  - osis: Gal
+    texts:
+      - Ilgalatai
+      - Ilgalatia
+      - Ilg
+  - osis: Eph
+    texts:
+      - Ile Efeso
+      - Efesioi
+      - Efe
+  - osis: Phil
+    texts:
+      - Ilfilipesioi
+      - Ilfilipi
+      - Ilf
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Iltesalonikes
+      - Ilsesalonike
+      - Ils
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteos
+      - Timoteo
+      - Tim
+  - osis: Titus
+    texts:
+      - Titos
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemon
+      - Filimon
+      - Fil
+  - osis: Heb
+    texts:
+      - Ilhebrania
+      - Ilhebrayoi
+      - Ilbrania
+      - Ilb
+      - Ilh
+  - osis: Jas
+    texts:
+      - Yakobos
+      - Yakobo
+      - Yko
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petero
+      - Petros
+      - Pet
+  - osis: Jude
+    texts:
+      - Yudas
+      - Yuda
+      - Yd
+  - osis: Tob
+    texts:
+      - Tobit
+      - Tob
+  - osis: Jdt
+    texts:
+      - Yudit
+      - Yud
+  - osis: Bar
+    texts:
+      - Baruk
+      - Bar
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+    texts:
+      - Ilmakabayo
+      - Mak
+  - osis: DanGr
+    texts:
+      - Daniel
+      - Dani
+  - osis: EsthGr
+    texts:
+      - Esta
+translations:
+  - MBS
+  - SINYATI
+  - MAAREPRO
+  - MAAREDC
+  - MAS70

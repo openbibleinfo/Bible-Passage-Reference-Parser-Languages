@@ -1,0 +1,302 @@
+- osis: Gen
+  texts:
+    - Эхин
+    - Эх
+- osis: Exod
+  texts:
+    - Египедһээ гаралга
+    - Гар
+- osis: Lev
+  texts:
+    - Левит
+    - Лев
+- osis: Num
+  texts:
+    - Тоололго
+    - Тоо
+- osis: Lam
+  texts:
+    - Гашуудал
+    - Гаш
+- osis: Rev
+  texts:
+    - Гэршэлгэ
+    - Гэр
+- osis: Deut
+  texts:
+    - Хуули дабталга
+    - Хуу
+- osis: Josh
+  texts:
+    - Нүүнэй Иисүүс
+    - Нүүн
+- osis: Judg
+  texts:
+    - Ударидагшад
+    - Уд
+- osis: Ruth
+  texts:
+    - Рүүт
+- osis: Isa
+  texts:
+    - Исай
+    - Иса
+- osis: 1Kgs
+  texts:
+    - 3 Хаан түрэнүүд
+    - 3 Хаан
+- osis: 2Kgs
+  texts:
+    - 4 Хаан түрэнүүд
+    - 4 Хаан
+- osis: 1Sam
+  texts:
+    - 1 Хаан түрэнүүд
+    - 1 Хаан
+    - 1. Хаан түрэнүүд
+    - 1. Хаан
+- osis: 2Sam
+  texts:
+    - 2 Хаан түрэнүүд
+    - 2 Хаан
+    - 2. Хаан түрэнүүд
+    - 2. Хаан
+- osis: 1Chr
+  texts:
+    - 1 Угай бэшэг
+    - 1 Уг
+    - 1. Угай бэшэг
+    - 1. Уг
+- osis: 2Chr
+  texts:
+    - 2 Угай бэшэг
+    - 2 Уг
+    - 2. Угай бэшэг
+    - 2. Уг
+- osis: Ezra
+  texts:
+    - Эзраа
+    - Эзр
+- osis: Neh
+  texts:
+    - Нэхэмьяа
+    - Нэх
+- osis: Esth
+  texts:
+    - Эстээр
+    - Эст
+- osis: Job
+  texts:
+    - Иоов
+- osis: Ps
+  texts:
+    - Псалманууд
+    - Псалм
+    - Псал
+- osis: Prov
+  texts:
+    - Һургаал
+    - Һур
+- osis: Eccl
+  texts:
+    - Экклезиаст
+    - Экк
+- osis: Song
+  texts:
+    - Дуунай дуун
+    - Дуун
+- osis: Jer
+  texts:
+    - Ерэмияа
+    - Ер
+- osis: Ezek
+  texts:
+    - Эзэкээл
+    - Эзэк
+- osis: Dan
+  texts:
+    - Даниил
+    - Дан
+- osis: Hos
+  texts:
+    - Һошээ
+    - Һош
+- osis: Joel
+  texts:
+    - Ёһээл
+    - Ёһ
+- osis: Amos
+  texts:
+    - Амоос
+    - Ам
+- osis: Obad
+  texts:
+    - Авдии
+    - Авд
+- osis: Jonah
+  texts:
+    - Иона
+    - Ион
+- osis: Mic
+  texts:
+    - Михей
+    - Мих
+- osis: Nah
+  texts:
+    - Наум
+- osis: Hab
+  texts:
+    - Аввакуум
+    - Авв
+- osis: Zeph
+  texts:
+    - Цэпаанияа
+    - Цэп
+- osis: Hag
+  texts:
+    - Хаггай
+    - Хаг
+- osis: Zech
+  texts:
+    - Захарияа
+    - Зах
+- osis: Mal
+  texts:
+    - Малаахи
+    - Мал
+- osis: Matt
+  texts:
+    - Матвей
+    - Мт
+- osis: Mark
+  texts:
+    - Марк
+    - Мк
+- osis: Luke
+  texts:
+    - Лука
+    - Лк
+- osis: 1John
+  texts:
+    - Иоаннай 1-дэхи хандалга
+- osis: 2John
+  texts:
+    - Иоаннай 2-дохи хандалга
+- osis: 3John
+  texts:
+    - Иоаннай 3-дахи хандалга
+    - 3 Ин
+- osis: 1John
+  texts:
+    - 1 Ин
+    - 1. Ин
+- osis: 2John
+  texts:
+    - 2 Ин
+    - 2. Ин
+- osis: John
+  texts:
+    - Иоанн
+    - Ин
+- osis: Acts
+  texts:
+    - Элшэнэрэй бүтээһэн хэрэгүүд
+    - Хэрэгүүд
+    - Хэр
+- osis: Rom
+  texts:
+    - Римэйхиндэ
+    - Рим
+- osis: 1Cor
+  texts:
+    - 1 Кор
+    - 1. Кор
+- osis: 2Cor
+  texts:
+    - 2 Кор
+    - 2. Кор
+- osis: 1Cor
+  texts:
+    - Коринфынхидтэ 1-дэхи
+- osis: 2Cor
+  texts:
+    - Коринфынхидтэ 2-дохи
+- osis: Col
+  texts:
+    - Колоссынхидтэ
+    - Кол
+- osis: Gal
+  texts:
+    - Галаадуудта
+    - Галадуудта
+    - Гал
+- osis: Eph
+  texts:
+    - Эфесэйхиндэ
+    - Эф
+- osis: Phil
+  texts:
+    - Филиппынхидтэ
+    - Флп
+- osis: 1Thess
+  texts:
+    - 1 Фес
+    - 1. Фес
+- osis: 2Thess
+  texts:
+    - 2 Фес
+    - 2. Фес
+- osis: 1Thess
+  texts:
+    - Фессалоникиинхидтэ 1-дэхи
+- osis: 2Thess
+  texts:
+    - Фессалоникиинхидтэ 2-дохи
+- osis: 1Tim
+  texts:
+    - 1 Тим
+    - 1. Тим
+- osis: 2Tim
+  texts:
+    - 2 Тим
+    - 2. Тим
+- osis: 1Tim
+  texts:
+    - Тимофейдэ 1-дэхи
+- osis: 2Tim
+  texts:
+    - Тимофейдэ 2-дохи
+- osis: Titus
+  texts:
+    - Тидтэ
+    - Тит
+- osis: Phlm
+  texts:
+    - Филимондо
+    - Флм
+- osis: Heb
+  texts:
+    - Еврейнүүдтэ
+    - Евр
+- osis: Jas
+  texts:
+    - Яковай хандалга
+    - Як
+- osis: 1Pet
+  texts:
+    - 1 Пёт
+    - 1. Пёт
+- osis: 2Pet
+  texts:
+    - 2 Пёт
+    - 2. Пёт
+- osis: 1Pet
+  texts:
+    - Пётрой 1-дэхи хандалга
+- osis: 2Pet
+  texts:
+    - Пётрой 2-дохи хандалга
+- osis: Jude
+  texts:
+    - Иудын хандалга
+    - Иуд

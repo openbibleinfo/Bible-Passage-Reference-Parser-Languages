@@ -1,0 +1,115 @@
+default:
+  1Cor:
+    long: Коринфиязухъе тӀоцебесеб кагъат
+    short: 1 Кор.
+  1John:
+    long: Иоаннил тӀоцебесеб кагъат
+    short: 1 Ин.
+  1Kgs:
+    long: 3 Пачаби
+    short: 3 Пач.
+  1Pet:
+    long: Пётрил тӀоцебесеб кагъат
+    short: 1 Пёт.
+  1Sam:
+    long: 1 Пачаби
+    short: 1 Пач.
+  1Thess:
+    long: Фессалоникиязухъе тӀоцебесеб кагъат
+    short: 1 Фес.
+  1Tim:
+    long: Тимофейихъе тӀоцебесеб кагъат
+    short: 1 Тим.
+  2Cor:
+    long: Коринфиязухъе кӀиабилеб кагъат
+    short: 2 Кор.
+  2John:
+    long: Иоаннил кӀиабилеб кагъат
+    short: 2 Ин.
+  2Kgs:
+    long: 4 Пачаби
+    short: 4 Пач.
+  2Pet:
+    long: Пётрил кӀиабилеб кагъат
+    short: 2 Пёт.
+  2Sam:
+    long: 2 Пачаби
+    short: 2 Пач.
+  2Thess:
+    long: Фессалоникиязухъе кӀиабилеб кагъат
+    short: 2 Фес.
+  2Tim:
+    long: Тимофейихъе кӀиабилеб кагъат
+    short: 2 Тим.
+  3John:
+    long: Иоаннил лъабабилеб кагъат
+    short: 3 Ин.
+  Acts:
+    long: Чапарзабазул ишал
+    short: Чап.
+  Col:
+    long: Колоссиязухъе кагъат
+    short: Кол.
+  Dan:
+    long: Даниял
+    short: Дан.
+  Eph:
+    long: Эфесиязухъе кагъат
+    short: Эф.
+  Esth:
+    long: Эстер
+  Gal:
+    long: Галатиязухъе кагъат
+    short: Гал.
+  Heb:
+    long: ЖугьутӀазухъе кагъат
+    short: Жугь.
+  Jas:
+    long: Якъубил кагъат
+    short: Якъ.
+  John:
+    long: Иоанн
+    short: Ин.
+  Jonah:
+    long: Юнус
+  Jude:
+    long: Ягьудал кагъат
+    short: Ягь.
+  Luke:
+    long: Лука
+    short: Лук.
+  Mark:
+    long: Марк
+    short: Мар.
+  Matt:
+    long: Матфей
+    short: Мат.
+  Phil:
+    long: Филиппиязухъе кагъат
+    short: Филип.
+  Phlm:
+    long: Филемонихъе кагъат
+    short: Филим.
+  Prov:
+    long: Гӏакъилал рагӀаби
+  Rev:
+    long: Иоанние Аллагьас загьир гьарурал ишал
+  Rom:
+    long: Румазухъе кагъат
+    short: Рум.
+  Ruth:
+    long: Рут
+    short: Рут
+  Titus:
+    long: Титихъе кагъат
+    short: Тит.
+translations:
+  avrnt:
+    John:
+      long: Иоанница бицараб Рохалил хабар
+    Luke:
+      long: Лукаца бицараб Рохалил хабар
+    Mark:
+      long: Маркица бицараб Рохалил хабар
+    Matt:
+      long: Матфейица бицараб Рохалил хабар

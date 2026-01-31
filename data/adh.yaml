@@ -1,0 +1,291 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Cakirok
+      - Cak
+  - osis: Exod
+    texts:
+      - Wok
+  - osis: Lev
+    texts:
+      - Jolevi
+  - osis: Num
+    texts:
+      - Kwan
+  - osis: Sir
+    texts:
+      - Rieko pa Yesu wod pa Sirak
+      - Sirak
+  - osis: Wis
+    texts:
+      - Rieko pa Solomon
+      - Rieko
+  - osis: Lam
+    texts:
+      - Ywakirok
+      - Ywak
+  - osis: Rev
+    texts:
+      - Menyirok ri Yohana
+      - Meny
+  - osis: Deut
+    texts:
+      - Cik
+  - osis: Josh
+    texts:
+      - Yosuwa
+      - Yos
+  - osis: Judg
+    texts:
+      - Jothum Banja
+      - Jothum
+  - osis: Ruth
+    texts:
+      - Ruth
+  - osis: Isa
+    texts:
+      - Isaya
+      - Isa
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samwiri
+      - Sam
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Kigana kwoŋ Kerin
+      - Kigana
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Kerin
+  - osis: Ezra
+    texts:
+      - Ezira
+  - osis: Neh
+    texts:
+      - Nehemia
+      - Nehe
+  - osis: Job
+    texts:
+      - Yobu
+      - Yob
+  - osis: Ps
+    texts:
+      - Zabuli
+      - Zab
+  - osis: Prov
+    texts:
+      - Agecin
+      - Agec
+  - osis: Eccl
+    texts:
+      - Jafonji
+  - osis: Song
+    texts:
+      - Wer pa Solomon
+      - Wer
+  - osis: Jer
+    texts:
+      - Yeremia
+      - Yer
+  - osis: Ezek
+    texts:
+      - Ezekiel
+      - Eze
+  - osis: Hos
+    texts:
+      - Hoseya
+      - Hos
+  - osis: Joel
+    texts:
+      - Yowel
+  - osis: Amos
+    texts:
+      - Amos
+  - osis: Obad
+    texts:
+      - Obadia
+      - Obad
+  - osis: Jonah
+    texts:
+      - Yona
+  - osis: Mic
+    texts:
+      - Mika
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Zefania
+      - Zef
+  - osis: Hag
+    texts:
+      - Hagay
+      - Hag
+  - osis: Zech
+    texts:
+      - Zekaria
+      - Zek
+  - osis: Mal
+    texts:
+      - Malaki
+      - Mal
+  - osis: Matt
+    texts:
+      - Matayo
+      - Mat
+  - osis: Mark
+    texts:
+      - Mariko
+      - Mar
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohana
+      - Yoh
+  - osis: Acts
+    texts:
+      - Tim pa Jomoor
+      - Tim
+  - osis: Rom
+    texts:
+      - Joroma
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Jokorintho
+      - Kor
+  - osis: Col
+    texts:
+      - Jokolosia
+      - Kol
+  - osis: Gal
+    texts:
+      - Jogalasia
+      - Gal
+  - osis: Eph
+    texts:
+      - Joefeso
+      - Efeso
+  - osis: Phil
+    texts:
+      - Jofilipi
+      - Filip
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Jothesalonika
+      - Thes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothe
+      - Tim
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filimon
+      - Fili
+  - osis: Heb
+    texts:
+      - Joebulaniya
+      - Ebu
+  - osis: Jas
+    texts:
+      - Yakobo
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petero
+      - Pet
+  - osis: Jude
+    texts:
+      - Yuda
+      - Yud
+  - osis: Tob
+    texts:
+      - Tobit
+      - Tob
+  - osis: Jdt
+    texts:
+      - Yudita
+  - osis: Bar
+    texts:
+      - Baruk
+      - Bar
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+    texts:
+      - Jomakabi
+      - Jom
+  - osis: DanGr
+    texts:
+      - Daniel gi Dhogrik
+      - DaG
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan
+  - osis: EsthGr
+    texts:
+      - Esita gi Dhogrik
+      - Esgrik
+  - osis: Esth
+    texts:
+      - Esita
+translations:
+  - DHOPE
+  - DHOCDC

@@ -1,0 +1,141 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Abokalubo
+      - Abok
+  - osis: Matt
+    texts:
+      - Matiu
+      - Mat
+  - osis: Mark
+    texts:
+      - Maka
+      - Mak
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Dion
+  - osis: 2John
+    texts:
+      - 2Dion
+  - osis: 3John
+    texts:
+      - 3 Dioni
+      - 3Dion
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Dioni
+  - osis: John
+    texts:
+      - Dioni
+      - Dion
+  - osis: Acts
+    texts:
+      - Abostolo
+      - Abos
+  - osis: Rom
+    texts:
+      - Loma
+      - Lom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Koliniti
+  - osis: 1Cor
+    texts:
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - 2Ko
+  - osis: Col
+    texts:
+      - Kolosia
+      - Kol
+  - osis: Gal
+    texts:
+      - Galesia
+      - Gal
+  - osis: Eph
+    texts:
+      - Evesasi
+      - Eve
+  - osis: Phil
+    texts:
+      - Bilibai
+      - Blb
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonia
+  - osis: 1Thess
+    texts:
+      - 1Tes
+  - osis: 2Thess
+    texts:
+      - 2Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Taitasi
+      - Tai
+  - osis: Phlm
+    texts:
+      - Bilimoni
+      - Blm
+  - osis: Heb
+    texts:
+      - Hibulu
+      - Hib
+  - osis: Jas
+    texts:
+      - Diemisi
+      - Diem
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Bita
+  - osis: 1Pet
+    texts:
+      - 1Bit
+  - osis: 2Pet
+    texts:
+      - 2Bit
+  - osis: Jude
+    texts:
+      - Diudi
+      - Diud
+translations:
+  - KPX

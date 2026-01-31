@@ -1,0 +1,35 @@
+variables:
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Kamhinhin
+      - Kam
+  - osis: Matt
+    texts:
+      - Mathiu
+      - Mat
+  - osis: Mark
+    texts:
+      - Mark
+  - osis: Luke
+    texts:
+      - Luk
+  - osis: 1John
+    texts:
+      - 1 Jon
+  - osis: 2John
+    texts:
+      - 2 Jon
+  - osis:
+      - osis: John
+      - osis: 3John
+        before: *third
+    texts:
+      - Jon
+  - osis: Acts
+    texts:
+      - Nar
+translations:
+  - LEN1902

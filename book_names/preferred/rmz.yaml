@@ -1,0 +1,165 @@
+default:
+  1Cor:
+    long: ১ করিন্থীয়
+    short: ১ করি
+  1John:
+    long: ১ যোহন
+    short: ১ যোহন
+  1Pet:
+    long: ১ পিতর
+    short: ১ পিতর
+  1Thess:
+    long: ১ থিষলনীকীয়
+    short: ১ থিষ
+  1Tim:
+    long: ১ তীমথিয়
+    short: ১ তীম
+  2Cor:
+    long: ২ করিন্থীয়
+    short: ২ করি
+  2John:
+    long: ২ যোহন
+    short: ২ যোহন
+  2Pet:
+    long: ২ পিতর
+    short: ২ পিতর
+  2Thess:
+    long: ২ থিষলনীকীয়
+    short: ২ থিষ
+  2Tim:
+    long: ২ তীমথিয়
+    short: ২ তীম
+  3John:
+    long: ৩ যোহন
+    short: ৩ যোহন
+  Acts:
+    long: প্রেরিত
+    short: প্রেরিত
+  Col:
+    long: কলসীয়
+    short: কল
+  Eph:
+    long: ইফিষীয়
+    short: ইফি
+  Gal:
+    long: গালাতীয়
+    short: গালা
+  Heb:
+    long: ইব্রীয়
+    short: ইব্রীয়
+  Jas:
+    long: যাকোব
+    short: যাকোব
+  John:
+    long: যোহন
+    short: যোহন
+  Jude:
+    long: যিহূদা
+    short: যিহূদা
+  Luke:
+    long: লূক
+    short: লূক
+  Mark:
+    long: মার্ক
+    short: মার্ক
+  Matt:
+    long: মথি
+    short: মথি
+  Phil:
+    long: ফিলিপীয়
+    short: ফিলি
+  Phlm:
+    long: ফিলীমন
+    short: ফিলী
+  Rev:
+    long: প্রকাশিত বাক্য
+    short: প্রকাশিত
+  Rom:
+    long: রোমীয়
+    short: রোমীয়
+  Titus:
+    long: তীত
+    short: তীত
+translations:
+  rmz:
+    1Cor:
+      long: ၁ကောရိန္သု
+      short: ၁ကော
+    1John:
+      long: ၁ယောဟန်
+      short: ၁ယော
+    1Pet:
+      long: ၁ပေတရု
+      short: ၁ပေ
+    1Thess:
+      long: ၁သက်သာလောနိတ်
+      short: ၁သက်
+    1Tim:
+      long: ၁တိမောသေ
+      short: ၁တိ
+    2Cor:
+      long: ၂ကောရိန္သု
+      short: ၂ကော
+    2John:
+      long: ၂ယောဟန်
+      short: ၂ယော
+    2Pet:
+      long: ၂ပေတရု
+      short: ၂ပေ
+    2Thess:
+      long: ၂သက်သာလောနိတ်
+      short: ၂သက်
+    2Tim:
+      long: ၂တိမောသေ
+      short: ၂တိ
+    3John:
+      long: ၃ယောဟန်
+      short: ၃ယော
+    Acts:
+      long: တမန်တော်
+      short: တ
+    Col:
+      long: ကောလောသဲ
+      short: ကော
+    Eph:
+      long: ဧဖက်
+      short: ဧ
+    Gal:
+      long: ဂါလာတိ
+      short: ဂါ
+    Heb:
+      long: ဟေဗြဲ
+      short: ဟေဗြဲ
+    Jas:
+      long: ယာကုပ်
+      short: ယာ
+    John:
+      long: ယောဟန်
+      short: ယော
+    Jude:
+      long: ယုဒ
+      short: ယု
+    Luke:
+      long: လုကာ
+      short: လု
+    Mark:
+      long: မာကု
+      short: မာ
+    Matt:
+      long: မဿဲ
+      short: မ
+    Phil:
+      long: ဖိလိပ္ပိ
+      short: ဖိ
+    Phlm:
+      long: ဖိလေမုန်
+      short: ဖိလေ
+    Rev:
+      long: ဗျာဒိတ်
+      short: ဗျာ
+    Rom:
+      long: ရောမ
+      short: ရော
+    Titus:
+      long: တိတု
+      short: တိ

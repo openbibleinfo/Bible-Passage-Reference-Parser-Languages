@@ -1,0 +1,214 @@
+variables:
+  first: &first
+    - ၁
+    - ၥ
+  second: &second
+    - ၂
+  third: &third
+    - ၃
+books:
+  - osis: Gen
+    texts:
+      - ၥ မိ
+  - osis: Exod
+    texts:
+      - ၂ မိ
+  - osis: Lev
+    texts:
+      - ၃ မိ
+  - osis: Num
+    texts:
+      - ၄ မိ
+  - osis: Lam
+    texts:
+      - ဂၪ့ဆၧ
+  - osis: Rev
+    texts:
+      - နဲၪ
+  - osis: Deut
+    texts:
+      - ၅ မိ
+  - osis: Josh
+    texts:
+      - ရှုၫ.
+  - osis: Judg
+    texts:
+      - စ့ၩ
+  - osis: Ruth
+    texts:
+      - ရု
+  - osis: Isa
+    texts:
+      - အဲၫ
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - စၫ
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - ဎွၩ
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - ကွ့ၭ
+  - osis: Ezra
+    texts:
+      - ရၫ
+  - osis: Neh
+    texts:
+      - နံၫ
+  - osis: Esth
+    texts:
+      - တၧၫ
+  - osis: Job
+    texts:
+      - ဘၭ
+  - osis: Ps
+    texts:
+      - အၪ့
+  - osis: Prov
+    texts:
+      - ဒီၩ့
+  - osis: Eccl
+    texts:
+      - လီၩ
+  - osis: Song
+    texts:
+      - ထၭ
+  - osis: Jer
+    texts:
+      - မဲအၫ
+  - osis: Ezek
+    texts:
+      - ဇံၫ
+  - osis: Dan
+    texts:
+      - ဒၫ့
+  - osis: Hos
+    texts:
+      - ဟိၫ
+  - osis: Joel
+    texts:
+      - ယိၫ
+  - osis: Amos
+    texts:
+      - မူၭ
+  - osis: Obad
+    texts:
+      - အိၫ
+  - osis: Jonah
+    texts:
+      - နၫ
+  - osis: Mic
+    texts:
+      - မဲ
+  - osis: Nah
+    texts:
+      - ဟၧၫ့
+  - osis: Hab
+    texts:
+      - ကၧၭ
+  - osis: Zeph
+    texts:
+      - ဖနဲ
+  - osis: Hag
+    texts:
+      - ဟၭ
+  - osis: Zech
+    texts:
+      - ရဲ
+  - osis: Mal
+    texts:
+      - ခဲၫ
+  - osis: Matt
+    texts:
+      - မၭ
+  - osis: Mark
+    texts:
+      - မၫ
+  - osis: Luke
+    texts:
+      - လု
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - ယီ
+  - osis: Acts
+    texts:
+      - ဆၧ
+  - osis: Rom
+    texts:
+      - ရိ
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - ကီ
+  - osis: Col
+    texts:
+      - လီ
+  - osis: Gal
+    texts:
+      - လ့
+  - osis: Eph
+    texts:
+      - အ့
+  - osis: Phil
+    texts:
+      - ဖံၫ
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - ၥ့ၭ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - ထံ
+  - osis: Titus
+    texts:
+      - တဲ
+  - osis: Phlm
+    texts:
+      - လံမၧၫ့
+  - osis: Heb
+    texts:
+      - ဟံ
+  - osis: Jas
+    texts:
+      - ယ့
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - ပံ
+  - osis: Jude
+    texts:
+      - ဒၭ
+translations:
+  - PWOKYN2

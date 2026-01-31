@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: O Tawarikh Madodihiraka
+    short: 1Taw.
+  1Cor:
+    long: O Korintus Madodihiraka
+    short: 1Kor.
+  1John:
+    long: O Yohanis Madodihiraka
+    short: 1Yoh.
+  1Kgs:
+    long: O Kokoano Madodihiraka
+    short: 1Kok.
+  1Pet:
+    long: O Petrus Madodihiraka
+    short: 1Pet.
+  1Sam:
+    long: O Samuel Madodihiraka
+    short: 1Sam.
+  1Thess:
+    long: O Tesalonika Madodihiraka
+    short: 1Tes.
+  1Tim:
+    long: O Timotius Madodihiraka
+    short: 1Tim.
+  2Chr:
+    long: O Tawarikh Mahinotoka
+    short: 2Taw.
+  2Cor:
+    long: O Korintus Mahinotoka
+    short: 2Kor.
+  2John:
+    long: O Yohanis Mahinotoka
+    short: 2Yoh.
+  2Kgs:
+    long: O Kokoano Mahinotoka
+    short: 2Kok.
+  2Pet:
+    long: O Petrus Mahinotoka
+    short: 2Pet.
+  2Sam:
+    long: O Samuel Mahinotoka
+    short: 2Sam.
+  2Thess:
+    long: O Tesalonika Mahinotoka
+    short: 2Tes.
+  2Tim:
+    long: O Timotius Mahinotoka
+    short: 2Tim.
+  3John:
+    long: O Yohanis Mahangeoka
+    short: 3Yoh.
+  Acts:
+    long: O Kisah Rasul-rasul
+    short: Kis.
+  Amos:
+    long: O Amos
+    short: Am.
+  Col:
+    long: O Kolose
+    short: Kol.
+  Dan:
+    long: O Daniel
+    short: Dan.
+  Deut:
+    long: O Ulangan
+    short: Ul.
+  Eccl:
+    long: O Pengkhotbah
+    short: Pkh.
+  Eph:
+    long: O Efesus
+    short: Ef.
+  Esth:
+    long: O Ngo Ester
+    short: Est.
+  Exod:
+    long: O Keluaran
+    short: Kel.
+  Ezek:
+    long: O Yehezkiel
+    short: Yeh.
+  Ezra:
+    long: O Ezra
+    short: Ezr.
+  Gal:
+    long: O Galatia
+    short: Gal.
+  Gen:
+    long: O Kejadian
+    short: Kej.
+  Hab:
+    long: O Habakuk
+    short: Hab.
+  Hag:
+    long: O Hagai
+    short: Hag.
+  Heb:
+    long: O Ibrani
+    short: Ibr.
+  Hos:
+    long: O Hosea
+    short: Hos.
+  Isa:
+    long: O Yesaya
+    short: Yes.
+  Jas:
+    long: O Yakobus
+    short: Yak.
+  Jer:
+    long: O Yeremia
+    short: Yer.
+  Job:
+    long: O Ayub
+    short: Ayb.
+  Joel:
+    long: O Yoel
+    short: Yl.
+  John:
+    long: O Yohanis
+    short: Yoh.
+  Jonah:
+    long: O Yunus
+    short: Yun.
+  Josh:
+    long: O Yosua
+    short: Yos.
+  Jude:
+    long: O Yudas
+    short: Yud.
+  Judg:
+    long: O Hakim-hakim
+    short: Hak.
+  Lam:
+    long: O Ratapan
+    short: Rat.
+  Lev:
+    long: O Imamat
+    short: Im.
+  Luke:
+    long: O Lukas
+    short: Luk.
+  Mal:
+    long: O Maleakhi
+    short: Mal.
+  Mark:
+    long: O Markus
+    short: Mark.
+  Matt:
+    long: O Matius
+    short: Mat.
+  Mic:
+    long: O Mikha
+    short: Mi.
+  Nah:
+    long: O Nahum
+    short: Nah.
+  Neh:
+    long: O Nehemia
+    short: Neh.
+  Num:
+    long: O Bilangan
+    short: Bil.
+  Obad:
+    long: O Obaja
+    short: Ob.
+  Phil:
+    long: O Pilipi
+    short: Plp.
+  Phlm:
+    long: O Filemon
+    short: Flm.
+  Prov:
+    long: O Amsal
+    short: Ams.
+  Ps:
+    long: O Mazmur
+    short: Mzm.
+  Rev:
+    long: O Himatoko
+    short: Him.
+  Rom:
+    long: O Roma
+    short: Rm.
+  Ruth:
+    long: O Ngo Rut
+    short: Rut
+  Song:
+    long: O Kidung Agung
+    short: Kid.
+  Titus:
+    long: O Titus
+    short: Tit.
+  Zech:
+    long: O Zakharia
+    short: Za.
+  Zeph:
+    long: O Zefanya
+    short: Zef.

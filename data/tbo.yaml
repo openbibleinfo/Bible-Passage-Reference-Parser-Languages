@@ -1,0 +1,141 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Yaubada a wogeletana
+      - Yau
+  - osis: Matt
+    texts:
+      - Matiu
+      - Mt
+  - osis: Mark
+    texts:
+      - Maki
+      - Mk
+  - osis: Luke
+    texts:
+      - Luka
+      - Lk
+  - osis: 1John
+    texts:
+      - 1Yn
+  - osis: 2John
+    texts:
+      - 2Yn
+  - osis: 3John
+    texts:
+      - 3 Yoni
+      - 3Yn
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yoni
+  - osis: John
+    texts:
+      - Yoni
+      - Yn
+  - osis: Acts
+    texts:
+      - Bagibagi
+      - Bag
+  - osis: Rom
+    texts:
+      - Loma
+      - Lm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kolinito
+  - osis: 1Cor
+    texts:
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - 2Ko
+  - osis: Col
+    texts:
+      - Kolosi
+      - Kl
+  - osis: Gal
+    texts:
+      - Galatiya
+      - Ga
+  - osis: Eph
+    texts:
+      - Epeso
+      - Ep
+  - osis: Phil
+    texts:
+      - Pilipai
+      - Plp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonika
+  - osis: 1Thess
+    texts:
+      - 1Te
+  - osis: 2Thess
+    texts:
+      - 2Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Taitasi
+      - Tai
+  - osis: Phlm
+    texts:
+      - Pilimoni
+      - Plm
+  - osis: Heb
+    texts:
+      - Hibulu
+      - Hib
+  - osis: Jas
+    texts:
+      - Yamesa
+      - Yam
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+  - osis: 1Pet
+    texts:
+      - 1Pi
+  - osis: 2Pet
+    texts:
+      - 2Pi
+  - osis: Jude
+    texts:
+      - Yuda
+      - Yud
+translations:
+  - TBO

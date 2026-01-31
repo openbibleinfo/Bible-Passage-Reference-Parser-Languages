@@ -1,0 +1,283 @@
+- osis: Gen
+  texts:
+    - Башланув
+    - Баш
+- osis: Exod
+  texts:
+    - Чыкъыш
+    - Чыкъ
+- osis: Lev
+  texts:
+    - Левийлилер
+    - Лев
+- osis: Num
+  texts:
+    - Сайылар
+    - Сай
+- osis: Lam
+  texts:
+    - Агълав йырлары
+    - Агъл
+- osis: Rev
+  texts:
+    - Сырларнынъ ачылувы
+    - Сыр
+- osis: Deut
+  texts:
+    - Къануннынъ текрары
+    - Текр
+- osis: Josh
+  texts:
+    - Нун огълу Ехошуа
+    - Ехо
+- osis: Judg
+  texts:
+    - Къадылар
+    - Къад
+- osis: Ruth
+  texts:
+    - Рут
+- osis: Isa
+  texts:
+    - Ешая
+    - Еш
+- osis: 1Kgs
+  texts:
+    - 3 Падишалар
+    - 3 Пад
+- osis: 2Kgs
+  texts:
+    - 4 Падишалар
+    - 4 Пад
+- osis: 1Sam
+  texts:
+    - 1 Падишалар
+    - 1 Пад
+    - 1. Падишалар
+    - 1. Пад
+- osis: 2Sam
+  texts:
+    - 2 Падишалар
+    - 2 Пад
+    - 2. Падишалар
+    - 2. Пад
+- osis: 1Chr
+  texts:
+    - 1 Тарих вакъиалары
+    - 1 Тар
+    - 1. Тарих вакъиалары
+    - 1. Тар
+- osis: 2Chr
+  texts:
+    - 2 Тарих вакъиалары
+    - 2 Тар
+    - 2. Тарих вакъиалары
+    - 2. Тар
+- osis: Ezra
+  texts:
+    - Узеир
+- osis: Neh
+  texts:
+    - Нехемья
+    - Нех
+- osis: Esth
+  texts:
+    - Эстер
+    - Эст
+- osis: Job
+  texts:
+    - Эюп
+- osis: Ps
+  texts:
+    - Зебур
+    - Збр
+- osis: Prov
+  texts:
+    - Икметли сёзлер
+    - Икм
+- osis: Eccl
+  texts:
+    - Джемаат башы
+    - Джем
+- osis: Song
+  texts:
+    - Энъ яхшы йыр
+    - Йыр
+- osis: Jer
+  texts:
+    - Йирмея
+    - Йрм
+- osis: Ezek
+  texts:
+    - Ехезкель
+    - Ехез
+- osis: Dan
+  texts:
+    - Даниял
+    - Дан
+- osis: Hos
+  texts:
+    - Хошеа
+    - Хош
+- osis: Joel
+  texts:
+    - Ёэль
+- osis: Amos
+  texts:
+    - Амос
+    - Ам
+- osis: Obad
+  texts:
+    - Овадья
+    - Ов
+- osis: Jonah
+  texts:
+    - Юнус
+- osis: Mic
+  texts:
+    - Микъа
+- osis: Nah
+  texts:
+    - Нахум
+    - Нах
+- osis: Hab
+  texts:
+    - Хавакъкъукъ
+    - Хав
+- osis: Zeph
+  texts:
+    - Цефанья
+    - Цеф
+- osis: Hag
+  texts:
+    - Хагъгъай
+    - Хагъ
+- osis: Zech
+  texts:
+    - Зекерья
+    - Зек
+- osis: Mal
+  texts:
+    - Малакий
+    - Мал
+- osis: Matt
+  texts:
+    - Матта
+    - Мт
+- osis: Mark
+  texts:
+    - Марк
+    - Мк
+- osis: Luke
+  texts:
+    - Лука
+    - Лк
+- osis: 1John
+  texts:
+    - 1 Юхан
+    - 1 Юх
+    - 1. Юхан
+    - 1. Юх
+- osis: 2John
+  texts:
+    - 2 Юхан
+    - 2 Юх
+    - 2. Юхан
+    - 2. Юх
+- osis: 3John
+  texts:
+    - 3 Юхан
+    - 3 Юх
+    - 3. Юхан
+    - 3. Юх
+- osis: John
+  texts:
+    - Юхан
+    - Юх
+- osis: Acts
+  texts:
+    - Фаалиет
+    - Фаал
+- osis: Rom
+  texts:
+    - Римлилерге
+    - Рим
+- osis: 1Cor
+  texts:
+    - 1 Коринтлилерге
+    - 1 Кор
+    - 1. Коринтлилерге
+    - 1. Кор
+- osis: 2Cor
+  texts:
+    - 2 Коринтлилерге
+    - 2 Кор
+    - 2. Коринтлилерге
+    - 2. Кор
+- osis: Col
+  texts:
+    - Колоссайлыларгъа
+    - Кол
+- osis: Gal
+  texts:
+    - Галатиядакилерге
+    - Гал
+- osis: Eph
+  texts:
+    - Эфеслилерге
+    - Эф
+- osis: Phil
+  texts:
+    - Филиплердекилерге
+    - Флп
+- osis: 1Thess
+  texts:
+    - 1 Тессалоникелилерге
+    - 1 Тес
+    - 1. Тессалоникелилерге
+    - 1. Тес
+- osis: 2Thess
+  texts:
+    - 2 Тессалоникелилерге
+    - 2 Тес
+    - 2. Тессалоникелилерге
+    - 2. Тес
+- osis: 1Tim
+  texts:
+    - 1 Тимотейге
+    - 1 Тим
+    - 1. Тимотейге
+    - 1. Тим
+- osis: 2Tim
+  texts:
+    - 2 Тимотейге
+    - 2 Тим
+    - 2. Тимотейге
+    - 2. Тим
+- osis: Titus
+  texts:
+    - Титке
+    - Тит
+- osis: Phlm
+  texts:
+    - Филимонгъа
+    - Флм
+- osis: Heb
+  texts:
+    - Еудийлерге
+    - Еуд
+- osis: Jas
+  texts:
+    - Якъуп
+    - Якъ
+- osis: 1Pet
+  texts:
+    - 1 Пётр
+    - 1. Пётр
+- osis: 2Pet
+  texts:
+    - 2 Пётр
+    - 2. Пётр
+- osis: Jude
+  texts:
+    - Иуда

@@ -1,0 +1,364 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Igenesisi
+      - Ugenesise
+      - Igen.
+      - Gen.
+  - osis: Exod
+    texts:
+      - I-Eksodusi
+      - U-Eksodusi
+      - Ueksodusi
+      - I-Eks.
+      - Eks.
+  - osis: Lev
+    texts:
+      - Ilevithikhusi
+      - Ulevitikusi
+      - Ilev.
+      - Lev.
+  - osis: Num
+    texts:
+      - iNumeri
+      - Unumeri
+      - Inum.
+      - Num.
+  - osis: Lam
+    texts:
+      - IsiLilo
+      - Isil.
+  - osis: Rev
+    texts:
+      - IsAmbulo
+      - IsAmb.
+      - Isam.
+  - osis: Deut
+    texts:
+      - Idutheronomi
+      - Uduteronomi
+      - Idut.
+      - Dut.
+  - osis: Josh
+    texts:
+      - Ujoshuwa
+      - Josh.
+      - Ujos.
+  - osis: Judg
+    texts:
+      - AbAhluleli
+      - Abehluleli
+      - AbAhl.
+      - Abehl.
+  - osis: Ruth
+    texts:
+      - uRuthe
+      - Uruthi
+      - Ruthe
+      - Urut.
+  - osis: Isa
+    texts:
+      - U-Isaya
+      - U-Izaya
+      - U-Iza.
+      - Isaya
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Usamuweli
+      - Samuweli
+      - Usam.
+      - Sam.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Amakhosi
+      - AmaKh.
+      - Amak.
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Izikhronike
+      - IziKronike
+      - IziKr.
+      - Izik.
+  - osis: Ezra
+    texts:
+      - U-Ezr.
+      - U-Ezra
+      - Ezra
+  - osis: Neh
+    texts:
+      - uNehemiya
+      - Uneh.
+      - Neh.
+  - osis: Esth
+    texts:
+      - U-Esteri
+      - Esteri
+      - U-Est.
+      - Est.
+  - osis: Job
+    texts:
+      - Ujob.
+      - Ujobe
+      - Jobe
+  - osis: Ps
+    texts:
+      - AmaHubo
+      - AmaH.
+  - osis: Prov
+    texts:
+      - Izaga zikaSolomoni
+      - Izag.
+      - IzAga
+      - IzA.
+  - osis: Eccl
+    texts:
+      - UmShumayeli
+      - Shum.
+      - Umsh.
+  - osis: Song
+    texts:
+      - Isihlabelelelo Sezihlabelelo
+      - IsiHlabelelo seziHlabelelo
+      - IsiHlab.
+      - Isihl.
+  - osis: Jer
+    texts:
+      - Ujeremiya
+      - Ujer.
+      - Jer.
+  - osis: Ezek
+    texts:
+      - Uhezekeli
+      - Uhez.
+      - Hez.
+  - osis: Dan
+    texts:
+      - uDaniyeli
+      - Udan.
+      - Dan.
+  - osis: Hos
+    texts:
+      - uHoseya
+      - Uhoziya
+      - Hoseya
+      - Uhoz.
+      - Hos.
+  - osis: Joel
+    texts:
+      - Ujoweli
+      - Joweli
+      - Ujow.
+  - osis: Amos
+    texts:
+      - U-Amose
+      - U-Amo.
+      - Am.
+  - osis: Obad
+    texts:
+      - U-Obhadiya
+      - U-Obadiya
+      - Obadiya
+      - U-Obh.
+      - Ob.
+  - osis: Jonah
+    texts:
+      - Ujon.
+      - uJona
+      - Jona
+  - osis: Mic
+    texts:
+      - Umikha
+      - Umik.
+      - uMika
+      - Mika
+  - osis: Nah
+    texts:
+      - uNahume
+      - Unahumi
+      - Unah.
+      - Nah.
+  - osis: Hab
+    texts:
+      - uHabhakuki
+      - Uhabakuki
+      - Uhab.
+      - Hab.
+  - osis: Zeph
+    texts:
+      - uZefaniya
+      - Uzef.
+      - Zef.
+  - osis: Hag
+    texts:
+      - uHagayi
+      - Hagayi
+      - Uhag.
+      - Hag.
+  - osis: Zech
+    texts:
+      - Uzakhariya
+      - Uzakariya
+      - Uzak.
+      - Zak.
+  - osis: Mal
+    texts:
+      - Umalakhi
+      - uMalaki
+      - Umal.
+      - Mal.
+  - osis: Matt
+    texts:
+      - NgokukaMathewu
+      - Mathewu
+      - Math.
+      - Mat.
+  - osis: Mark
+    texts:
+      - NgokukaMakhu
+      - NgokukaMarku
+      - Mark.
+      - Marku
+      - Mak.
+  - osis: Luke
+    texts:
+      - NgokukaLuka
+      - Luk.
+      - Luka
+  - osis: 3John
+    texts:
+      - 3 Kajohane
+      - 3 Joh.
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - KaJohane
+      - Joh.
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - Kajohane
+      - Joh.
+  - osis: John
+    texts:
+      - NgokukaJohane
+      - Johane
+      - Joh.
+  - osis: Acts
+    texts:
+      - IzEnzo
+      - Izen.
+      - IzE.
+  - osis: Rom
+    texts:
+      - Kwabase Roma
+      - KwabaseRoma
+      - Rom.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - KwabaseKhorinte
+      - Kwabasekorinte
+      - Kho.
+      - Kor.
+  - osis: Col
+    texts:
+      - KwabaseKholose
+      - KwabaseKolose
+      - Khol.
+      - Kol.
+  - osis: Gal
+    texts:
+      - KwabaseGalathiya
+      - Gal.
+  - osis: Eph
+    texts:
+      - Kwabase-Efesu
+      - Efe.
+      - Ef.
+  - osis: Phil
+    texts:
+      - Kwabase-Filipi
+      - KwabaseFiliphi
+      - KwabaseFilipi
+      - Fil.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - KwabaseThesalonikha
+      - kwabaseThesalonika
+      - Thes.
+      - The.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - KuThimothewu
+      - Thim.
+      - Thi.
+  - osis: Titus
+    texts:
+      - KuThithu
+      - Thith.
+      - Thit.
+  - osis: Phlm
+    texts:
+      - KuFilemoni
+      - Filem.
+      - Film.
+  - osis: Heb
+    texts:
+      - KumaHebheru
+      - KumaHeberu
+      - Heb.
+  - osis: Jas
+    texts:
+      - EkaJakobe
+      - EkaJokobe
+      - Jak.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - KaPhethro
+      - kaPetru
+      - Pet.
+      - Phe.
+  - osis: Jude
+    texts:
+      - EkaJuda
+      - Jud.
+      - Juda
+translations:
+  - ZULUNT
+  - CZB24
+  - ZUL59
+  - ZUL20

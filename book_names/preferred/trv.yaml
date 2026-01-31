@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Nooda
+    short: 1 No
+  1Cor:
+    long: 1 Korinto
+    short: 1 Kor
+  1John:
+    long: 1 Yohane
+    short: 1 Yoh
+  1Kgs:
+    long: 1 Qbsuran Paru
+    short: 1 Qbs
+  1Pet:
+    long: 1 Petros
+    short: 1 Pet
+  1Sam:
+    long: 1 Samuel
+    short: 1 Sam
+  1Thess:
+    long: 1 Tesaloniki
+    short: 1 Tes
+  1Tim:
+    long: 1 Timoteos
+    short: 1 Tim
+  2Chr:
+    long: 2 Nooda
+    short: 2 No
+  2Cor:
+    long: 2 Korinto
+    short: 2 Kor
+  2John:
+    long: 2 Yohane
+    short: 2 Yoh
+  2Kgs:
+    long: 2 Qbsuran Paru
+    short: 2 Qbs
+  2Pet:
+    long: 2 Petros
+    short: 2 Pet
+  2Sam:
+    long: 2 Samuel
+    short: 2 Sam
+  2Thess:
+    long: 2 Tesaloniki
+    short: 2 Tes
+  2Tim:
+    long: 2 Timoteos
+    short: 2 Tim
+  3John:
+    long: 3 Yohane
+    short: 3 Yoh
+  Acts:
+    long: Qneepah
+    short: Qne
+  Amos:
+    long: Amos
+    short: Amo
+  Col:
+    long: Korosay
+    short: Kro
+  Dan:
+    long: Daniyel
+    short: Dan
+  Deut:
+    long: Mege Gaya
+    short: Meg
+  Eccl:
+    long: Gmarang Kari
+    short: Gma
+  Eph:
+    long: Epesos
+    short: Epe
+  Esth:
+    long: Ester
+    short: Ester
+  Exod:
+    long: Lntadan
+    short: Lnt
+  Ezek:
+    long: Yexejqel
+    short: Yex
+  Ezra:
+    long: Ejra
+    short: Ejra
+  Gal:
+    long: Garatia
+    short: Gar
+  Gen:
+    long: Smnlean
+    short: Smn
+  Hab:
+    long: Xabaquq
+    short: Xab
+  Hag:
+    long: Xagay
+    short: Xag
+  Heb:
+    long: Hiburu
+    short: Hib
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Isaya
+    short: Isa
+  Jas:
+    long: Yakobu
+    short: Yak
+  Jer:
+    long: Yirmeyah
+    short: Yir
+  Job:
+    long: Yobu
+    short: Yob
+  Joel:
+    long: Yoel
+    short: Yoe
+  John:
+    long: Yohane
+    short: Yoh
+  Jonah:
+    long: Yonah
+    short: Yon
+  Josh:
+    long: Yehosua
+    short: Yeh
+  Jude:
+    long: Yehudah
+    short: Yehu
+  Judg:
+    long: Dmpsgao
+    short: Dmps
+  Lam:
+    long: Uyas Tsdamac Yirmeyah
+    short: Tsd
+  Lev:
+    long: Lewiy
+    short: Lew
+  Luke:
+    long: Ruka
+    short: Ruk
+  Mal:
+    long: Malakiy
+    short: Mal
+  Mark:
+    long: Markos
+    short: Mrk
+  Matt:
+    long: Matay
+    short: Mat
+  Mic:
+    long: Mikah
+    short: MiK
+  Nah:
+    long: Naxum
+    short: Nax
+  Neh:
+    long: Nexemyah
+    short: Nex
+  Num:
+    long: Spegan
+    short: Spe
+  Obad:
+    long: Obadyah
+    short: Oba
+  Phil:
+    long: Pilipi
+    short: Pil
+  Phlm:
+    long: Pilemon
+    short: Pile
+  Prov:
+    long: Kari Rdrudan
+    short: Kar
+  Ps:
+    long: Uyas
+    short: Uyas
+  Rev:
+    long: Pntuura
+    short: Pnt
+  Rom:
+    long: Roma
+    short: Rom
+  Ruth:
+    long: Rute
+    short: Rut
+  Song:
+    long: Uyas Mskuxul
+    short: Msk
+  Titus:
+    long: Titos
+    short: Tit
+  Zech:
+    long: Jekaryah
+    short: Jek
+  Zeph:
+    long: Cepanyah
+    short: Cep

@@ -1,0 +1,136 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Fe ká tina nun ha̰ Za̰a
+      - Fkt
+  - osis: Matt
+    texts:
+      - Matiye
+      - Mat
+  - osis: Mark
+    texts:
+      - Marki
+      - Mrk
+  - osis: Luke
+    texts:
+      - Luku
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Za̰
+  - osis: 2John
+    texts:
+      - 2Za̰
+  - osis: 3John
+    texts:
+      - 3 Za̰a
+      - 3Za̰
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Za̰a
+  - osis: Acts
+    texts:
+      - Peɗ nzoɓ ndáy nzaapeɗri
+      - Peɗ
+  - osis: Rom
+    texts:
+      - Rɔmri
+      - Rɔm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kɔrɛ̰teri
+  - osis: 1Cor
+    texts:
+      - 1Kɔ
+  - osis: 2Cor
+    texts:
+      - 2Kɔ
+  - osis: Col
+    texts:
+      - Kolosiri
+      - Kol
+  - osis: Gal
+    texts:
+      - Galasiri
+      - Gal
+  - osis: Eph
+    texts:
+      - Efɛzeri
+      - Efz
+  - osis: Phil
+    texts:
+      - Filiɓri
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonikri
+  - osis: 1Thess
+    texts:
+      - 1Ts
+  - osis: 2Thess
+    texts:
+      - 2Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+  - osis: 1Tim
+    texts:
+      - 1Tm
+  - osis: 2Tim
+    texts:
+      - 2Tm
+  - osis: Titus
+    texts:
+      - Tite
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemo̰n
+      - Flm
+  - osis: Heb
+    texts:
+      - Eborori
+      - Ebo
+  - osis: Jas
+    texts:
+      - Zak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piyɛr
+  - osis: 1Pet
+    texts:
+      - 1Pr
+  - osis: 2Pet
+    texts:
+      - 2Pr
+  - osis: Jude
+    texts:
+      - Zud
+translations:
+  - XUO

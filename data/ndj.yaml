@@ -1,0 +1,113 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Ugubutulu
+      - Ugl
+  - osis: Matt
+    texts:
+      - Mateyi
+      - Mat
+  - osis: Mark
+    texts:
+      - Maliku
+      - Mlk
+  - osis: Luke
+    texts:
+      - Lukasi
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohani
+      - Yhn
+  - osis: Acts
+    texts:
+      - Figoli
+      - Fgl
+  - osis: Rom
+    texts:
+      - VaLoma
+      - Vlm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Vakolindu
+      - Vkl
+  - osis: Col
+    texts:
+      - Vakolusayi
+      - Vks
+  - osis: Gal
+    texts:
+      - Vagalatiya
+      - Vag
+  - osis: Eph
+    texts:
+      - Vaifesu
+      - Vfs
+  - osis: Phil
+    texts:
+      - Vafilipi
+      - Vfp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Vatesaloniki
+      - Vtk
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotewu
+      - Tmt
+  - osis: Titus
+    texts:
+      - Titusi
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filimoni
+      - Flm
+  - osis: Heb
+    texts:
+      - Vayibulaniya
+      - Vbl
+  - osis: Jas
+    texts:
+      - Yakobi
+      - Ykb
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petili
+      - Ptl
+  - osis: Jude
+    texts:
+      - Yuda
+      - Yud
+translations:
+  - NDBV

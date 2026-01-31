@@ -1,0 +1,141 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Mbʉ́gʉ́lú
+      - Mbʉ́
+  - osis: Matt
+    texts:
+      - Matiyô
+      - Mat
+  - osis: Mark
+    texts:
+      - Márkus
+      - Mak
+  - osis: Luke
+    texts:
+      - Lúkas
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Yn
+  - osis: 2John
+    texts:
+      - 2Yn
+  - osis: 3John
+    texts:
+      - 3 Yuánɛs
+      - 3Yn
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yuánɛs
+  - osis: John
+    texts:
+      - Yuánɛs
+      - Yuá
+  - osis: Acts
+    texts:
+      - Misɔ́ɔ́lʉ́gʉ́
+      - Mis
+  - osis: Rom
+    texts:
+      - Buud ɔ́ Róma
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Buud ɔ́ Kɔrɛ̂nt
+  - osis: 1Cor
+    texts:
+      - 1Kr
+  - osis: 2Cor
+    texts:
+      - 2Kr
+  - osis: Col
+    texts:
+      - Buud ɔ́ Kolósia
+      - Kol
+  - osis: Gal
+    texts:
+      - Buud ɔ́ Galátia
+      - Gal
+  - osis: Eph
+    texts:
+      - Buud ɔ́ Ifɛ̂z
+      - Ifz
+  - osis: Phil
+    texts:
+      - Buud ɔ́ Filipî
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Buud ɔ́ Tesaloníka
+  - osis: 1Thess
+    texts:
+      - 1Te
+  - osis: 2Thess
+    texts:
+      - 2Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotê
+  - osis: 1Tim
+    texts:
+      - 1Tm
+  - osis: 2Tim
+    texts:
+      - 2Tm
+  - osis: Titus
+    texts:
+      - Títus
+      - Tit
+  - osis: Phlm
+    texts:
+      - Fʉlmɔ̂ŋ
+      - Flm
+  - osis: Heb
+    texts:
+      - Wəhebʉrə̂
+      - Heb
+  - osis: Jas
+    texts:
+      - Zhâk
+      - Zhk
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pyɛ̂r
+  - osis: 1Pet
+    texts:
+      - 1Pr
+  - osis: 2Pet
+    texts:
+      - 2Pr
+  - osis: Jude
+    texts:
+      - Yûdə
+      - Yûd
+translations:
+  - MCP

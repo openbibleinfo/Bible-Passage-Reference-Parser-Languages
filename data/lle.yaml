@@ -1,0 +1,132 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Boharni ad Johanes
+      - Boharni
+  - osis: Matt
+    texts:
+      - Mateus
+      - Mat
+  - osis: Mark
+    texts:
+      - Markus
+      - Mark
+  - osis: Luke
+    texts:
+      - Lukas
+  - osis: 1John
+    texts:
+      - Johanes I
+  - osis: 2John
+    texts:
+      - Johanes II
+  - osis: 3John
+    texts:
+      - Johanes III
+      - 3 Johan
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Johan
+  - osis: John
+    texts:
+      - Johanes
+      - Johan
+  - osis: Acts
+    texts:
+      - Apostel
+  - osis: Rom
+    texts:
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kor
+  - osis: 1Cor
+    texts:
+      - Korint I
+  - osis: 2Cor
+    texts:
+      - Korint II
+  - osis: Col
+    texts:
+      - Kolosa
+  - osis: Gal
+    texts:
+      - Galatia
+      - Gal
+  - osis: Eph
+    texts:
+      - Evesus
+  - osis: Phil
+    texts:
+      - Philipi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tes
+  - osis: 1Thess
+    texts:
+      - Tesalonik I
+  - osis: 2Thess
+    texts:
+      - Tesalonik II
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tim
+  - osis: 1Tim
+    texts:
+      - Timoteus I
+  - osis: 2Tim
+    texts:
+      - Timoteus II
+  - osis: Titus
+    texts:
+      - Titus
+  - osis: Phlm
+    texts:
+      - Philemon
+      - Philem
+  - osis: Heb
+    texts:
+      - Hebru
+  - osis: Jas
+    texts:
+      - Jakobus
+      - Jakob
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petr
+  - osis: 1Pet
+    texts:
+      - Petrus I
+  - osis: 2Pet
+    texts:
+      - Petrus II
+  - osis: Jude
+    texts:
+      - Judas
+translations:
+  - LLENT

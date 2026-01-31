@@ -1,0 +1,285 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Pi zi tiki
+      - Pt.
+  - osis: Exod
+    texts:
+      - Niyi n'edi
+      - Ne.
+  - osis: Lev
+    texts:
+      - Levitekai
+      - Lev.
+  - osis: Num
+    texts:
+      - Piɵi
+      - Pi.
+  - osis: Lam
+    texts:
+      - Yama zi tuuwi
+      - Yt.
+  - osis: Rev
+    texts:
+      - Siŋki n'edi
+      - S'edi.
+  - osis: Deut
+    texts:
+      - Wiyi na midini gadai
+      - Wmg.
+  - osis: Josh
+    texts:
+      - Yosva
+      - Yos.
+  - osis: Judg
+    texts:
+      - Paakai zi sariya
+      - Ps.
+  - osis: Ruth
+    texts:
+      - Rut.
+      - Rut
+  - osis: Isa
+    texts:
+      - Esaya
+      - Es.
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuwel
+      - Sam.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Lp.
+  - osis: 1Kgs
+    texts:
+      - Lokwita n'avut na wiiɗi paakai
+  - osis: 2Kgs
+    texts:
+      - Lokwita n'ag'aŋ sulu na wiiɗi paakai
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Ly.
+  - osis: 1Chr
+    texts:
+      - Labar na war yivai n'avut
+  - osis: 2Chr
+    texts:
+      - Labar na war yivai n'ag'aŋ sulu
+  - osis: Ezra
+    texts:
+      - Ezdras
+      - Ezd.
+  - osis: Neh
+    texts:
+      - Nahamiyas
+      - Nah.
+  - osis: Esth
+    texts:
+      - Ester
+      - Est.
+  - osis: Job
+    texts:
+      - Yob.
+      - Yob
+  - osis: Ps
+    texts:
+      - Yama na wiini David
+      - Yam. D.
+  - osis: Prov
+    texts:
+      - Seŋ joro
+      - Sj.
+  - osis: Eccl
+    texts:
+      - Ɗif zi ɓiki seŋ
+      - Ɗɓs.
+  - osis: Song
+    texts:
+      - Yama n'a suwa yama paŋ
+      - Yy.
+  - osis: Jer
+    texts:
+      - Yeremiyas
+      - Yer.
+  - osis: Ezek
+    texts:
+      - Ezekiyel
+      - Ezek.
+  - osis: Dan
+    texts:
+      - Daniyel
+      - Dan.
+  - osis: Hos
+    texts:
+      - Hoseya
+      - Hos.
+  - osis: Joel
+    texts:
+      - Yowel
+      - Yo.
+  - osis: Amos
+    texts:
+      - Amos
+      - Am.
+  - osis: Obad
+    texts:
+      - Abdiyas
+      - Abd.
+  - osis: Jonah
+    texts:
+      - Yonas
+      - Yon.
+  - osis: Mic
+    texts:
+      - Mik.
+      - Mika
+  - osis: Nah
+    texts:
+      - Nahum
+      - Na.
+  - osis: Hab
+    texts:
+      - Habakuk
+      - Hab.
+  - osis: Zeph
+    texts:
+      - Sofoniyas
+      - Sof.
+  - osis: Hag
+    texts:
+      - Haggai
+      - Hag.
+  - osis: Zech
+    texts:
+      - Sakariyas
+      - Sak.
+  - osis: Mal
+    texts:
+      - Malakiyas
+      - Mal.
+  - osis: Matt
+    texts:
+      - Matewus
+      - Mat.
+  - osis: Mark
+    texts:
+      - Markus
+      - Mark.
+  - osis: Luke
+    texts:
+      - Lukas
+      - Luk.
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - Yoh.
+  - osis: 1John
+    texts:
+      - 1Yohana
+  - osis: 3John
+    texts:
+      - 3 Yohana
+      - 3Yoh.
+  - osis:
+      - osis: John
+      - osis: 2John
+        before: *second
+    texts:
+      - Yohana
+      - Yoh.
+  - osis: Acts
+    texts:
+      - Sdaɗi Apostelai
+      - Sdaɗ. Apost.
+  - osis: Rom
+    texts:
+      - Romekai
+      - Rom.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintekai
+      - Kor.
+  - osis: Col
+    texts:
+      - Kolosekai
+      - Kol.
+  - osis: Gal
+    texts:
+      - Galatekai
+      - Gal.
+  - osis: Eph
+    texts:
+      - Efesekai
+      - Efes.
+  - osis: Phil
+    texts:
+      - Filipekai
+      - Fili.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonikekai
+      - Tes.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotewus
+      - Tim.
+  - osis: Titus
+    texts:
+      - Titus
+      - Tit.
+  - osis: Phlm
+    texts:
+      - Filemon
+      - File.
+  - osis: Heb
+    texts:
+      - Hebrekai
+      - Heb.
+  - osis: Jas
+    texts:
+      - Yakob
+      - Yak.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peter
+      - Pet.
+  - osis: Jude
+    texts:
+      - Yudas
+      - Yud.
+translations:
+  - MUSUM

@@ -1,0 +1,139 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Edêe Fughu
+      - Edê
+  - osis: Matt
+    texts:
+      - Matìo
+      - Mat
+  - osis: Mark
+    texts:
+      - Mâk
+  - osis: Luke
+    texts:
+      - Lûk
+  - osis: 1John
+    texts:
+      - 1Dz
+  - osis: 2John
+    texts:
+      - 2Dz
+  - osis: 3John
+    texts:
+      - 3 Dzɔ̌n
+      - 3Dz
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Dzɔ̌n
+  - osis: John
+    texts:
+      - Dzɔ̌n
+      - Dzn
+  - osis: Acts
+    texts:
+      - Kə̀fwàʼ
+      - Kfw
+  - osis: Rom
+    texts:
+      - Lumà
+      - Lum
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kòlentìan
+  - osis: 1Cor
+    texts:
+      - 1Kò
+  - osis: 2Cor
+    texts:
+      - 2Kò
+  - osis: Col
+    texts:
+      - Kòloshìan
+      - Kòl
+  - osis: Gal
+    texts:
+      - Gàlashìan
+      - Gàl
+  - osis: Eph
+    texts:
+      - Efɛsùs
+      - Efs
+  - osis: Phil
+    texts:
+      - Fèlepìan
+      - Fèl
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tɛ̀sàlonìan
+  - osis: 1Thess
+    texts:
+      - 1Tɛ̀
+  - osis: 2Thess
+    texts:
+      - 2Tɛ̀
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotì
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Taetùs
+      - Tae
+  - osis: Phlm
+    texts:
+      - Filemùn
+      - Fil
+  - osis: Heb
+    texts:
+      - Hibùlù
+      - Hib
+  - osis: Jas
+    texts:
+      - Dzɛ̂ms
+      - Dzm
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pità
+  - osis: 1Pet
+    texts:
+      - 1Pi
+  - osis: 2Pet
+    texts:
+      - 2Pi
+  - osis: Jude
+    texts:
+      - Dzûd
+      - Dzd
+translations:
+  - AGQ

@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Kutondobola
+    short: 1To
+  1Cor:
+    long: 1 Bakorindo
+    short: 1Ko
+  1John:
+    long: 1 Yohana
+    short: 1Yh
+  1Kgs:
+    long: 1 Baami
+    short: 1Ba
+  1Pet:
+    long: 1 Peturu
+    short: 1Pe
+  1Sam:
+    long: 1 Samweri
+    short: 1Sa
+  1Thess:
+    long: 1 Batesaloniki
+    short: 1Te
+  1Tim:
+    long: 1 Timoteyo
+    short: 1Ti
+  2Chr:
+    long: 2 Kutondobola
+    short: 2To
+  2Cor:
+    long: 2 Bakorindo
+    short: 2Ko
+  2John:
+    long: 2 Yohana
+    short: 2Yh
+  2Kgs:
+    long: 2 Baami
+    short: 2Ba
+  2Pet:
+    long: 2 Peturu
+    short: 2Pe
+  2Sam:
+    long: 2 Samweri
+    short: 2Sa
+  2Thess:
+    long: 2 Batesaloniki
+    short: 2Te
+  2Tim:
+    long: 2 Timoteyo
+    short: 2Ti
+  3John:
+    long: 3 Yohana
+    short: 3Yh
+  Acts:
+    long: Mikolezi
+    short: Mko
+  Amos:
+    long: Hamoosi
+    short: Ham
+  Col:
+    long: Bakolosaayi
+    short: Kol
+  Dan:
+    long: Danyeri
+    short: Dan
+  Deut:
+    long: Bukengeeze
+    short: Buk
+  Eccl:
+    long: Mwigiriza
+    short: Mwi
+  Eph:
+    long: Bahefeso
+    short: Hef
+  Esth:
+    long: Hesiteeri
+    short: Hes
+  Exod:
+    long: Kulyoka
+    short: Kul
+  Ezek:
+    long: Hezekyeri
+    short: Hez
+  Ezra:
+    long: Hizira
+    short: Hiz
+  Gal:
+    long: Bagalatiya
+    short: Gal
+  Gen:
+    long: Ndondeko
+    short: Ndo
+  Hab:
+    long: Habakuki
+    short: Hab
+  Hag:
+    long: Hagayi
+    short: Hag
+  Heb:
+    long: Baheburaniya
+    short: Heb
+  Hos:
+    long: Hosheya
+    short: Hos
+  Isa:
+    long: Hisaaya
+    short: His
+  Jas:
+    long: Yakobo
+    short: Yak
+  Jer:
+    long: Yeremiya
+    short: Yer
+  Job:
+    long: Hayubu
+    short: Hay
+  Joel:
+    long: Yuheeri
+    short: Yuh
+  John:
+    long: Yohana
+    short: Yoh
+  Jonah:
+    long: Yona
+    short: Yon
+  Josh:
+    long: Yoshwa
+    short: Yos
+  Jude:
+    long: Yuda
+    short: Yud
+  Judg:
+    long: Batwi beꞌmaaja
+    short: Bat
+  Lam:
+    long: Kimombo
+    short: Kim
+  Lev:
+    long: Balaawi
+    short: Bal
+  Luke:
+    long: Luka
+    short: Luk
+  Mal:
+    long: Malaki
+    short: Mal
+  Mark:
+    long: Mariko
+    short: Mar
+  Matt:
+    long: Mataayo
+    short: Mat
+  Mic:
+    long: Mika
+    short: MiK
+  Nah:
+    long: Nahumu
+    short: Nah
+  Neh:
+    long: Nehemiya
+    short: Neh
+  Num:
+    long: Muharuuro
+    short: Muh
+  Obad:
+    long: Hobadiya
+    short: Hob
+  Phil:
+    long: Bafiripi
+    short: Frp
+  Phlm:
+    long: Firimooni
+    short: Frm
+  Prov:
+    long: Migani
+    short: Mig
+  Ps:
+    long: Zaburi
+    short: Zab
+  Rev:
+    long: Bwigule
+    short: Bwi
+  Rom:
+    long: Barumi
+    short: Rum
+  Ruth:
+    long: Ruuti
+    short: Rut
+  Song:
+    long: Lwimbo Lwija
+    short: Lwi
+  Titus:
+    long: Tiito
+    short: Tit
+  Zech:
+    long: Zakariya
+    short: Zak
+  Zeph:
+    long: Sefaniya
+    short: Sef

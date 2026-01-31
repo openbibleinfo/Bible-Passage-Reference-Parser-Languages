@@ -1,0 +1,963 @@
+default:
+  1Chr:
+    long: 1Tantara
+    short: 1Tan
+  1Cor:
+    long: 1Korintiana
+    short: 1 Kôr
+  1John:
+    long: 1Jaona
+    short: 1 Jôh
+  1Kgs:
+    long: 1Mpanjaka
+    short: 1Mpa
+  1Macc:
+    long: 1 Makabeo
+    short: 1 Mak
+  1Pet:
+    long: 1 Petera
+    short: 1 Pt
+  1Sam:
+    long: 1Samoela
+    short: 1Sam
+  1Thess:
+    long: 1Tesaloniana
+    short: 1Tes
+  1Tim:
+    long: 1Timoty
+    short: 1Tim
+  2Chr:
+    long: 2Tantara
+    short: 2Tan
+  2Cor:
+    long: 2Korintiana
+    short: 2 Kôr
+  2John:
+    long: 2Jaona
+    short: 2 Jôh
+  2Kgs:
+    long: 2Mpanjaka
+    short: 2Mpa
+  2Macc:
+    long: 2 Makabeo
+    short: 2 Mak
+  2Pet:
+    long: 2 Petera
+    short: 2 Pt
+  2Sam:
+    long: 2Samoela
+    short: 2Sam
+  2Thess:
+    long: 2Tesaloniana
+    short: 2Tes
+  2Tim:
+    long: 2Timoty
+    short: 2Tim
+  3John:
+    long: 3Jaona
+    short: 3 Jôh
+  Acts:
+    long: Asan’ny Apostoly
+    short: Asa
+  Amos:
+    long: Amosa
+    short: Amo
+  Bar:
+    long: Baròka
+    short: Bar
+  Bel:
+    long: I Bela sy ilay dragona
+    short: Bel
+  Col:
+    long: Kolosiana
+    short: Kôl
+  Dan:
+    long: Daniela
+    short: Dan
+  DanGr:
+    long: Bokin’i Daniela
+    short: Dan Gr
+  Deut:
+    long: Deoteronomia
+    short: Deo
+  Eccl:
+    long: Mpitoriteny
+    short: Mpit
+  EpJer:
+    long: Taratasin'i Jeremià
+    short: Tar Jer
+  Eph:
+    long: Efesiana
+    short: Ef
+  Esth:
+    long: Estera
+    short: Est
+  EsthGr:
+    long: Estera Grika
+    short: Est Gr
+  Exod:
+    long: Eksodosy
+    short: Eks
+  Ezek:
+    long: Ezekiela
+    short: Ezek
+  Ezra:
+    long: Ezra
+    short: Ezr
+  Gal:
+    long: Galatiana
+    short: Gal
+  Gen:
+    long: Genesisy
+    short: Gen
+  Hab:
+    long: Habakoka
+    short: Hab
+  Hag:
+    long: Hagay
+    short: Hag
+  Heb:
+    long: Hebreo
+    short: Heb
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Isaia
+    short: Is
+  Jas:
+    long: Jakoba
+    short: Jak
+  Jdt:
+    long: Jodita
+    short: Jdt
+  Jer:
+    long: Jeremia
+    short: Jer
+  Job:
+    long: Joba
+    short: Jôb
+  Joel:
+    long: Joela
+    short: Jl
+  John:
+    long: Jaona
+    short: Jao
+  Jonah:
+    long: Jona
+    short: Jôn
+  Josh:
+    long: Josoa
+    short: Jos
+  Jude:
+    long: Joda
+    short: Jod
+  Judg:
+    long: Mpitsara
+    short: Mpits
+  Lam:
+    long: Fitomaniana
+    short: Fit
+  Lev:
+    long: Levitikosy
+    short: Lev
+  Luke:
+    long: Lioka
+    short: Lk
+  Mal:
+    long: Malakia
+    short: Mal
+  Mark:
+    long: Marka
+    short: Mk
+  Matt:
+    long: Matio
+    short: Mt
+  Mic:
+    long: Mika
+    short: MiK
+  Nah:
+    long: Nahoma
+    short: Nah
+  Neh:
+    long: Nehemia
+    short: Neh
+  Num:
+    long: Nomery
+    short: Nom
+  Obad:
+    long: Obadia
+    short: Oba
+  Phil:
+    long: Filipiana
+    short: Fil
+  Phlm:
+    long: Filemona
+    short: Filem
+  PrAzar:
+    long: Hiran'ireo Zatovo Telo Lahy
+    short: Hzt
+  Prov:
+    long: Ohabolana
+    short: Ohab
+  Ps:
+    long: Salamo
+    short: Sal
+  Rev:
+    long: Apokalipsy
+    short: Apôk
+  Rom:
+    long: Romana
+    short: Rm
+  Ruth:
+    long: Rota
+    short: Rot
+  Sir:
+    long: Bena-Siràka
+    short: Ben-Sir
+  Song:
+    long: Tononkiran'i Salômôna
+    short: Ton
+  Sus:
+    long: Sozanina
+    short: Soz
+  Titus:
+    long: Titosy
+    short: Tit
+  Tob:
+    long: Tobia
+    short: Tbt
+  Wis:
+    long: Fahendrena
+    short: Fah
+  Zech:
+    long: Zakaria
+    short: Zak
+  Zeph:
+    long: Zefania
+    short: Tsef
+translations:
+  diem:
+    1Chr:
+      long: 1 Tantara
+      short: 1 Tan
+    1Cor:
+      long: 1 Kôrintianina
+    1John:
+      long: 1 Jôhany
+    1Kgs:
+      long: 1 Mpanjaka
+      short: 1 Mp
+    1Sam:
+      long: 1 Samoela
+      short: 1 Sam
+    1Thess:
+      long: 1 Tesalônisianina
+      short: 1 Tes
+    1Tim:
+      long: 1 Timôty
+      short: 1 Tim
+    2Chr:
+      long: 2 Tantara
+      short: 2 Tan
+    2Cor:
+      long: 2 Kôrintianina
+    2John:
+      long: 2 Jôhany
+    2Kgs:
+      long: 2 Mpanjaka
+      short: 2 Mp
+    2Sam:
+      long: 2 Samoela
+      short: 2 Sam
+    2Thess:
+      long: 2 Tesalônisianina
+      short: 2 Tes
+    2Tim:
+      long: 2 Timôty
+      short: 2 Tim
+    3John:
+      long: 3 Jôhany
+    Acts:
+      long: Asa
+    Amos:
+      long: Hamôsa
+      short: Ham
+    Col:
+      long: Kôlôsianina
+    Deut:
+      long: Deoterônômy
+      short: Deot
+    Eccl:
+      long: Kôheleta
+      short: Kôh
+    Eph:
+      long: Efesianina
+    Exod:
+      long: Eksôdy
+    Ezra:
+      long: Hezrà
+      short: Hez
+    Gal:
+      long: Galatianina
+    Gen:
+      long: Genesỳ
+    Hab:
+      long: Habakòka
+    Hos:
+      long: Hôsea
+      short: Hôs
+    Isa:
+      long: Isaià
+    Jer:
+      long: Jeremià
+    Job:
+      long: Jôba
+    Joel:
+      long: Jôela
+    John:
+      long: Jôhany
+      short: Jôh
+    Jonah:
+      long: Jônà
+    Lev:
+      long: Levitîka
+    Mal:
+      long: Malakỳ
+    Mic:
+      long: Mikà
+    Neh:
+      long: Nehemià
+    Num:
+      long: Nomerỳ
+    Obad:
+      long: Hôbadià
+      short: Hôb
+    Phil:
+      long: Filipianina
+    Phlm:
+      long: Filemôna
+      short: Flem
+    Rev:
+      long: Apôkalipsỳ
+    Rom:
+      long: Rômanina
+    Titus:
+      long: Tito
+    Zech:
+      long: Zakarià
+    Zeph:
+      long: Tsefanià
+  diemdc:
+    1Chr:
+      long: 1 Tantara
+      short: 1 Tan
+    1Cor:
+      long: 1 Kôrintianina
+    1John:
+      long: 1 Jôhany
+    1Kgs:
+      long: 1 Mpanjaka
+      short: 1 Mp
+    1Sam:
+      long: 1 Samoela
+      short: 1 Sam
+    1Thess:
+      long: 1 Tesalônisianina
+      short: 1 Tes
+    1Tim:
+      long: 1 Timôty
+      short: 1 Tim
+    2Chr:
+      long: 2 Tantara
+      short: 2 Tan
+    2Cor:
+      long: 2 Kôrintianina
+    2John:
+      long: 2 Jôhany
+    2Kgs:
+      long: 2 Mpanjaka
+      short: 2 Mp
+    2Sam:
+      long: 2 Samoela
+      short: 2 Sam
+    2Thess:
+      long: 2 Tesalônisianina
+      short: 2 Tes
+    2Tim:
+      long: 2 Timôty
+      short: 2 Tim
+    3John:
+      long: 3 Jôhany
+    Acts:
+      long: Asa
+    Amos:
+      long: Hamôsa
+      short: Ham
+    Col:
+      long: Kôlôsianina
+    Deut:
+      long: Deoterônômy
+      short: Deot
+    Eccl:
+      long: Kôheleta
+      short: Kôh
+    Eph:
+      long: Efesianina
+    Exod:
+      long: Eksôdy
+    Ezra:
+      long: Hezrà
+      short: Hez
+    Gal:
+      long: Galatianina
+    Gen:
+      long: Genesỳ
+    Hab:
+      long: Habakòka
+    Hos:
+      long: Hôsea
+      short: Hôs
+    Isa:
+      long: Isaià
+    Jer:
+      long: Jeremià
+    Job:
+      long: Jôba
+    Joel:
+      long: Jôela
+    John:
+      long: Jôhany
+      short: Jôh
+    Jonah:
+      long: Jônà
+    Lev:
+      long: Levitîka
+    Mal:
+      long: Malakỳ
+    Mic:
+      long: Mikà
+    Neh:
+      long: Nehemià
+    Num:
+      long: Nomerỳ
+    Obad:
+      long: Hôbadià
+      short: Hôb
+    Phil:
+      long: Filipianina
+    Phlm:
+      long: Filemôna
+      short: Flem
+    Rev:
+      long: Apôkalipsỳ
+    Rom:
+      long: Rômanina
+    Titus:
+      long: Tito
+    Tob:
+      long: Tôbita
+    Zech:
+      long: Zakarià
+    Zeph:
+      long: Tsefanià
+  mg1865:
+    1Chr:
+      long: 1 Tantara
+      short: 1 Tantara
+    1Cor:
+      long: 1 Korintiana
+      short: 1 Korintiana
+    1John:
+      long: 1 Jaona
+      short: 1 Jaona
+    1Kgs:
+      long: 1 Mpanjaka
+      short: 1 Mpanjaka
+    1Pet:
+      short: 1 Petera
+    1Sam:
+      long: 1 Samoela
+      short: 1 Samoela
+    1Thess:
+      long: 1 Tesaloniana
+      short: 1 Tesaloniana
+    1Tim:
+      long: 1 Timoty
+      short: 1 Timoty
+    2Chr:
+      long: 2 Tantara
+      short: 2 Tantara
+    2Cor:
+      long: 2 Korintiana
+      short: 2 Korintiana
+    2John:
+      long: 2 Jaona
+      short: 2 Jaona
+    2Kgs:
+      long: 2 Mpanjaka
+      short: 2 Mpanjaka
+    2Pet:
+      short: 2 Petera
+    2Sam:
+      long: 2 Samoela
+      short: 2 Samoela
+    2Thess:
+      long: 2 Tesaloniana
+      short: 2 Tesaloniana
+    2Tim:
+      long: 2 Timoty
+      short: 2 Timoty
+    3John:
+      long: 3 Jaona
+      short: 3 Jaona
+    Acts:
+      long: Asan'ny Apostoly
+      short: Asan'ny Apostoly
+    Amos:
+      short: Amosa
+    Col:
+      short: Kolosiana
+    Dan:
+      short: Daniela
+    Deut:
+      long: Deotoronomia
+      short: Deotoronomia
+    Eccl:
+      short: Mpitoriteny
+    Eph:
+      short: Efesiana
+    Esth:
+      short: Estera
+    Exod:
+      short: Eksodosy
+    Ezek:
+      short: Ezekiela
+    Ezra:
+      short: Ezra
+    Gal:
+      short: Galatiana
+    Gen:
+      short: Genesisy
+    Hab:
+      short: Habakoka
+    Hag:
+      short: Hagay
+    Heb:
+      short: Hebreo
+    Hos:
+      short: Hosea
+    Isa:
+      short: Isaia
+    Jas:
+      short: Jakoba
+    Jer:
+      short: Jeremia
+    Job:
+      short: Joba
+    Joel:
+      short: Joela
+    John:
+      short: Jaona
+    Jonah:
+      short: Jona
+    Josh:
+      short: Josoa
+    Jude:
+      short: Joda
+    Judg:
+      short: Mpitsara
+    Lam:
+      short: Fitomaniana
+    Lev:
+      short: Levitikosy
+    Luke:
+      short: Lioka
+    Mal:
+      short: Malakia
+    Mark:
+      short: Marka
+    Matt:
+      short: Matio
+    Mic:
+      short: Mika
+    Nah:
+      short: Nahoma
+    Neh:
+      short: Nehemia
+    Num:
+      short: Nomery
+    Obad:
+      short: Obadia
+    Phil:
+      short: Filipiana
+    Phlm:
+      short: Filemona
+    Prov:
+      short: Ohabolana
+    Ps:
+      short: Salamo
+    Rev:
+      long: Apokalypsy
+      short: Apokalypsy
+    Rom:
+      short: Romana
+    Ruth:
+      short: Rota
+    Song:
+      long: Tonon-kiran'i Solomona
+      short: Tonon-kiran'i Solomona
+    Titus:
+      short: Titosy
+    Zech:
+      short: Zakaria
+    Zeph:
+      short: Zefania
+  mpb:
+    1Chr:
+      short: 1Tan.
+    1Cor:
+      short: 1Kor.
+    1John:
+      short: 1Jao.
+    1Kgs:
+      short: 1Mpan.
+    1Pet:
+      long: 1Petera
+      short: 1Pet.
+    1Sam:
+      short: 1Sam.
+    1Thess:
+      short: 1Tes.
+    1Tim:
+      short: 1Tim.
+    2Chr:
+      short: 2Tan.
+    2Cor:
+      short: 2Kor.
+    2John:
+      short: 2Jao.
+    2Kgs:
+      short: 2Mpan.
+    2Pet:
+      long: 2Petera
+      short: 2Pet.
+    2Sam:
+      short: 2Sam.
+    2Thess:
+      short: 2Tes.
+    2Tim:
+      short: 2Tim.
+    3John:
+      short: 3Jao.
+    Acts:
+      short: Asa.
+    Amos:
+      short: Amo.
+    Col:
+      short: Kol.
+    Dan:
+      short: Dan.
+    Deut:
+      short: Deo.
+    Eccl:
+      short: Mpit T.
+    Eph:
+      short: Efe.
+    Esth:
+      short: Est.
+    Exod:
+      short: Eks.
+    Ezek:
+      short: Eze.
+    Ezra:
+      short: Ezr.
+    Gal:
+      short: Gal.
+    Gen:
+      short: Gen.
+    Hab:
+      short: Hab.
+    Hag:
+      short: Hag.
+    Heb:
+      short: Heb.
+    Hos:
+      short: Hos.
+    Isa:
+      short: Isa.
+    Jas:
+      short: Jak.
+    Jer:
+      short: Jer.
+    Job:
+      short: Job.
+    Joel:
+      short: Joe.
+    John:
+      short: Jao.
+    Jonah:
+      short: Jon.
+    Josh:
+      short: Jos.
+    Jude:
+      short: Jod.
+    Judg:
+      short: Mpits.
+    Lam:
+      short: Fit.
+    Lev:
+      short: Lev.
+    Luke:
+      short: Lio.
+    Mal:
+      short: Mal.
+    Mark:
+      short: Mar.
+    Matt:
+      short: Mat.
+    Mic:
+      short: Mik.
+    Nah:
+      short: Nah.
+    Neh:
+      short: Neh.
+    Num:
+      short: Nom.
+    Phil:
+      short: Fil.
+    Phlm:
+      short: Flem.
+    Prov:
+      short: Oha.
+    Ps:
+      short: Sal.
+    Rev:
+      long: Apokalypsy
+      short: Apo.
+    Rom:
+      short: Rom.
+    Ruth:
+      short: Rot.
+    Song:
+      long: Tonon-kiran’i Solomona
+      short: Ton.
+    Titus:
+      short: Tit.
+    Zech:
+      short: Zak.
+    Zeph:
+      short: Zef.
+  mr35:
+    1Cor:
+      short: 1Kor
+    1John:
+      short: 1Jao
+    1Pet:
+      long: 1Petera
+      short: 1Pet
+    2Cor:
+      short: 2Kor
+    2John:
+      short: 2Jao
+    2Pet:
+      long: 2Petera
+      short: 2Pet
+    3John:
+      short: 3Jao
+    Col:
+      short: Kol
+    Eph:
+      short: Efe
+    Ezek:
+      short: Eze
+    Isa:
+      short: Isa
+    Job:
+      short: Job
+    Joel:
+      short: Joe
+    Jonah:
+      short: Jon
+    Luke:
+      short: Lio
+    Mark:
+      short: Mar
+    Matt:
+      short: Mat
+    Prov:
+      short: Oha
+    Rev:
+      short: Apo
+    Rom:
+      short: Rom
+    Song:
+      long: Tononkiran’i Solomona
+    Zeph:
+      short: Zef
+  mrv:
+    1Cor:
+      short: 1Kor
+    1John:
+      short: 1Jao
+    1Pet:
+      long: 1Petera
+      short: 1Pet
+    2Cor:
+      short: 2Kor
+    2John:
+      short: 2Jao
+    2Pet:
+      long: 2Petera
+      short: 2Pet
+    3John:
+      short: 3Jao
+    Col:
+      short: Kol
+    Eph:
+      short: Efe
+    Ezek:
+      short: Eze
+    Isa:
+      short: Isa
+    Job:
+      short: Job
+    Joel:
+      short: Joe
+    Jonah:
+      short: Jon
+    Luke:
+      short: Lio
+    Mark:
+      short: Mar
+    Matt:
+      short: Mat
+    Prov:
+      short: Oha
+    Rev:
+      short: Apo
+    Rom:
+      short: Rom
+    Song:
+      long: Tononkiran’i Solomona
+    Zeph:
+      short: Zef
+  mcb:
+    1Cor:
+      long: 1Kôrintianina
+      short: 1Kôr
+    1John:
+      long: 1Joany
+      short: 1Jn
+    1Macc:
+      long: 1Makabeo
+      short: 1Mak
+    1Pet:
+      long: 1Piera
+      short: 1Pier
+    1Thess:
+      long: 1Tesalônisianina
+    1Tim:
+      long: 1Timote
+    2Cor:
+      long: 2Kôrintianina
+      short: 2Kôr
+    2John:
+      long: 2Joany
+      short: 2Jn
+    2Macc:
+      long: 2Makabeo
+      short: 2Mak
+    2Pet:
+      long: 2Piera
+      short: 2Pier
+    2Thess:
+      long: 2Tesalônisianina
+    2Tim:
+      long: 2Timote
+    3John:
+      long: 3Joany
+      short: 3Jn
+    Acts:
+      long: Asan’i Apôstôly
+    Amos:
+      long: Amôsy
+      short: Am
+    Col:
+      long: Kôlôsianina
+    Deut:
+      long: Deterônômy
+      short: Deter
+    Eccl:
+      long: Mpit
+    Eph:
+      long: Efezianina
+    Exod:
+      long: Eksaody
+    Ezra:
+      long: Esdrasa
+      short: Esd
+    Gal:
+      long: Galata
+    Gen:
+      long: Jenezy
+      short: Jen
+    Hag:
+      long: Akjea
+      short: Akj
+    Heb:
+      long: Hebrio
+    Hos:
+      long: Osea
+      short: Os
+    Isa:
+      long: Izaia
+      short: Iz
+    Jas:
+      long: Jakôba
+    Job:
+      long: Jôba
+    Joel:
+      long: Joely
+    John:
+      long: Joany
+      short: Jn
+    Jonah:
+      long: Jônasy
+    Josh:
+      long: Jôsoe
+      short: Jôs
+    Jude:
+      long: Jodà
+    Lam:
+      long: Fitomanian’i Jeremia
+    Lev:
+      long: Levitika
+    Mic:
+      long: Mikea
+    Num:
+      long: Fanisana
+      short: Fanis
+    Obad:
+      long: Abdiasa
+      short: Abd
+    Phil:
+      long: Filipianina
+    Phlm:
+      long: Filemôna
+    Rev:
+      long: Apôkalipsa nosoratan’i Md Joany
+    Rom:
+      long: Rômanina
+    Sir:
+      long: Ekleziastika
+      short: Ekl
+    Song:
+      long: Tononkira dia Tononkira
+    Titus:
+      long: Tito
+    Tob:
+      short: Tob
+    Zeph:
+      long: Sôfônia
+      short: Sôf

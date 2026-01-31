@@ -1,0 +1,176 @@
+variables:
+  first: &first
+    - "1"
+    - Kaban
+  second: &second
+    - "2"
+    - Kaban
+books:
+  - osis: Gen
+    texts:
+      - Genesis
+  - osis: Exod
+    texts:
+      - Exodus
+  - osis: Rev
+    texts:
+      - Kaban Revelation
+  - osis: Deut
+    texts:
+      - Deuteronomy
+  - osis: Judg
+    texts:
+      - Judges
+  - osis: Ruth
+    texts:
+      - Ruth
+  - osis: Isa
+    texts:
+      - Isaiah
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Kings
+  - osis: Ezra
+    texts:
+      - Ezra
+  - osis: Neh
+    texts:
+      - Nehemiah
+  - osis: Job
+    texts:
+      - Job
+  - osis: Jer
+    texts:
+      - Jeremiah
+  - osis: Dan
+    texts:
+      - Daniel
+  - osis: Hos
+    texts:
+      - Hosea
+  - osis: Joel
+    texts:
+      - Joel
+  - osis: Amos
+    texts:
+      - Amos
+  - osis: Jonah
+    texts:
+      - Jonah
+  - osis: Hag
+    texts:
+      - Haggai
+  - osis: Mal
+    texts:
+      - Malachi
+  - osis: Matt
+    texts:
+      - Kaban Matthewmu
+  - osis: Mark
+    texts:
+      - Kaban Markamu
+  - osis: Luke
+    texts:
+      - Kaban Lukeumu
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - 1 Johnumu
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - 2 Johnumu
+  - osis: 3John
+    texts:
+      - Kaban 3 Johnumu
+  - osis: John
+    texts:
+      - Kaban Johnumu
+  - osis: Acts
+    texts:
+      - Kaban Acts
+  - osis: Rom
+    texts:
+      - Kaban Roman-warranda
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - 1 Corinthian-warranda
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - 2 Corinthian-warranda
+  - osis: Col
+    texts:
+      - Kaban Colossian-warranda
+  - osis: Gal
+    texts:
+      - Kaban Galatian-warranda
+  - osis: Eph
+    texts:
+      - Kaban Ephesian-warranda
+  - osis: Phil
+    texts:
+      - Kaban Philippian-warranda
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - 1 Thessalonian-warranda 1
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - 2 Thessalonian-warranda
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - 1 Timothynda
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - 2 Timothynda
+  - osis: Titus
+    texts:
+      - Kaban Titusanda
+  - osis: Phlm
+    texts:
+      - Kaban Philemonanda
+  - osis: Heb
+    texts:
+      - Kaban Hebrew-warranda
+  - osis: Jas
+    texts:
+      - Kaban Jamesamu
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - 1 Petermu
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - 2 Petermu
+  - osis: Jude
+    texts:
+      - Kaban Judeumu
+translations:
+  - GVN

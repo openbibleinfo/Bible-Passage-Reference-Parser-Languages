@@ -1,0 +1,18 @@
+books:
+  - osis: Luke
+    texts:
+      - Luc
+      - Lc
+  - osis: Acts
+    texts:
+      - Actes
+      - Bid
+  - osis: 1Tim
+    texts:
+      - 1 Timothée
+  - osis: Jas
+    texts:
+      - Jacques
+      - Sake
+translations:
+  - GSR

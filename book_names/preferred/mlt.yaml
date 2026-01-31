@@ -1,0 +1,220 @@
+default:
+  1Chr:
+    long: 1 Kronaki
+    short: 1 Kron
+  1Cor:
+    long: 1 Korintin
+    short: 1 Kor
+  1John:
+    long: 1 Ġwanni
+    short: 1 Ġw
+  1Kgs:
+    long: 1 Slaten
+    short: 1 Slat
+  1Macc:
+    long: 1 Makkabin
+    short: 1 Mak
+  1Pet:
+    long: 1 Pietru
+    short: 1 Pt
+  1Sam:
+    long: 1 Samwel
+    short: 1 Sam
+  1Thess:
+    long: 1 Tessalonikin
+    short: 1 Tess
+  1Tim:
+    long: 1 Timotju
+    short: 1 Tim
+  2Chr:
+    long: 2 Kronaki
+    short: 2 Kron
+  2Cor:
+    long: 2 Korintin
+    short: 2 Kor
+  2John:
+    long: 2 Ġwanni
+    short: 2 Ġw
+  2Kgs:
+    long: 2 Slaten
+    short: 2 Slat
+  2Macc:
+    long: 2 Makkabin
+    short: 2 Mak
+  2Pet:
+    long: 2 Pietru
+    short: 2 Pt
+  2Sam:
+    long: 2 Samwel
+    short: 2 Sam
+  2Thess:
+    long: 2 Tessalonikin
+    short: 2 Tess
+  2Tim:
+    long: 2 Timotju
+    short: 2 Tim
+  3John:
+    long: 3 Ġwanni
+    short: 3 Ġw
+  Acts:
+    long: Atti Tal-appostli
+    short: Atti
+  Amos:
+    long: Għamos
+    short: Għam
+  Bar:
+    long: Bàruk
+    short: Bar
+  Col:
+    long: Kolossin
+    short: Kol
+  DanGr:
+    long: Danjel Bil-grieg
+    short: DaG
+  Deut:
+    long: Dewteronomju
+    short: Dt
+  Eccl:
+    long: Koħèlet
+    short: Koħ
+  Eph:
+    long: Efesin
+    short: Ef
+  EsthGr:
+    long: Ester Bil-grieg
+    short: EsG
+  Exod:
+    long: Eżodu
+    short: Eż
+  Ezek:
+    long: Eżekjel
+    short: Eżek
+  Ezra:
+    long: Esdra
+    short: Esd
+  Gal:
+    long: Galatin
+    short: Gal
+  Gen:
+    long: Ġenesi
+    short: Ġen
+  Hab:
+    long: Ħabakkuk
+    short: Ħab
+  Hag:
+    long: Ħaggaj
+    short: Ħag
+  Heb:
+    long: Lhud
+    short: Lhud
+  Hos:
+    long: Hosegħa
+    short: Hos
+  Isa:
+    long: Isaija
+    short: Is
+  Jas:
+    long: Ġakbu
+    short: Ġak
+  Jdt:
+    long: Ġuditta
+    short: Ġdt
+  Jer:
+    long: Ġeremija
+    short: Ġer
+  Job:
+    long: Ġob
+    short: Ġob
+  Joel:
+    long: Ġoel
+    short: Ġoel
+  John:
+    long: Ġwanni
+    short: Ġw
+  Jonah:
+    long: Ġona
+    short: Ġona
+  Josh:
+    long: Ġożwè
+    short: Ġoż
+  Jude:
+    long: Ġuda
+    short: Ġuda
+  Judg:
+    long: Mħallfin
+    short: Mħ
+  Lam:
+    long: Lamentazzjonijiet
+    short: Lam
+  Lev:
+    long: Levitiku
+    short: Lev
+  Luke:
+    long: Luqa
+    short: Lq
+  Mal:
+    long: Malakija
+    short: Mal
+  Mark:
+    long: Mark
+    short: Mk
+  Matt:
+    long: Mattew
+    short: Mt
+  Mic:
+    long: Mikea
+    short: MiK
+  Nah:
+    long: Naħum
+    short: Naħ
+  Neh:
+    long: Neħemija
+    short: Neħ
+  Num:
+    long: Numri
+    short: Num
+  Obad:
+    long: Għabdija
+    short: Għabd
+  Phil:
+    long: Filippin
+    short: Fil
+  Phlm:
+    long: Filemon
+    short: Film
+  Prov:
+    long: Proverbji
+    short: Prov
+  Ps:
+    long: Salmi
+    short: S
+  Rev:
+    long: Apokalissi
+    short: Apk
+  Rom:
+    long: Rumani
+    short: Rum
+  Ruth:
+    long: Rut
+    short: Rt
+  Sir:
+    long: Bin Sirak
+    short: Sir
+  Song:
+    long: L-għanja Tal-għanjiet
+    short: Għan
+  Titus:
+    long: Titu
+    short: Tit
+  Tob:
+    long: Tobit
+    short: Tob
+  Wis:
+    long: Il-ktieb Tal-għerf
+    short: Għerf
+  Zech:
+    long: Żakkarija
+    short: Żak
+  Zeph:
+    long: Sofonija
+    short: Sof

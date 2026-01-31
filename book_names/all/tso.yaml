@@ -1,0 +1,504 @@
+- osis: Gen
+  texts:
+    - Genesa
+    - Gen.
+- osis: Exod
+  texts:
+    - Eksoda
+    - Eks.
+- osis: Bel
+  texts:
+    - Bele ni Dragona
+    - Bel.
+- osis: Lev
+  texts:
+    - Levhitika
+    - Levh.
+    - Lev.
+- osis: Num
+  texts:
+    - Tinhlayo
+    - Tinhl.
+- osis: Sir
+  texts:
+    - Siraka
+    - Sir.
+- osis: Wis
+  texts:
+    - Vutlhari
+    - Vutlh.
+- osis: Lam
+  texts:
+    - Swirilo
+    - Swir.
+- osis: EpJer
+  texts:
+    - Papila ra Yeremiya
+    - PapYer.
+- osis: Rev
+  texts:
+    - Nhlavutelo
+    - Nhlav.
+- osis: Deut
+  texts:
+    - Deuteronoma
+    - Deteronoma
+    - Duteronoma
+    - Dut.
+- osis: Josh
+  texts:
+    - Yoxuwa
+    - Yox.
+- osis: Judg
+  texts:
+    - Vaavanyisi
+    - Vaav.
+- osis: Ruth
+  texts:
+    - Rhuti
+    - Rhu.
+- osis: Isa
+  texts:
+    - Esaya
+    - Es.
+- osis: 1Sam
+  texts:
+    - 1 Samuwele
+    - 1 Samiele
+    - 1 Sam.
+    - 1. Samuwele
+    - 1. Samiele
+    - 1. Sam.
+    - I Samuwele
+    - I Samiele
+    - I Sam.
+    - I. Samuwele
+    - I. Samiele
+    - I. Sam.
+- osis: 2Sam
+  texts:
+    - 2 Samuwele
+    - 2 Samiele
+    - 2 Sam.
+    - 2. Samuwele
+    - 2. Samiele
+    - 2. Sam.
+    - II Samuwele
+    - II Samiele
+    - II Sam.
+    - II. Samuwele
+    - II. Samiele
+    - II. Sam.
+- osis: 1Kgs
+  texts:
+    - 1 Tihosi
+    - 1 Tih.
+    - 1. Tihosi
+    - 1. Tih.
+    - I Tihosi
+    - I Tih.
+    - I. Tihosi
+    - I. Tih.
+- osis: 2Kgs
+  texts:
+    - 2 Tihosi
+    - 2 Tih.
+    - 2. Tihosi
+    - 2. Tih.
+    - II Tihosi
+    - II Tih.
+    - II. Tihosi
+    - II. Tih.
+- osis: 1Chr
+  texts:
+    - 1 Tikronika
+    - 1 Tikr.
+    - 1. Tikronika
+    - 1. Tikr.
+    - I Tikronika
+    - I Tikr.
+    - I. Tikronika
+    - I. Tikr.
+- osis: 2Chr
+  texts:
+    - 2 Tikronika
+    - 2 Tikr.
+    - 2. Tikronika
+    - 2. Tikr.
+    - II Tikronika
+    - II Tikr.
+    - II. Tikronika
+    - II. Tikr.
+- osis: Ezra
+  texts:
+    - Ezr.
+    - Ezra
+- osis: Neh
+  texts:
+    - Nehemiya
+    - Neh.
+- osis: Job
+  texts:
+    - Ntirho
+    - Yob.
+    - Yobo
+- osis: Ps
+  texts:
+    - Tipisalema
+    - Pisalema
+    - Ps.
+- osis: PrAzar
+  texts:
+    - Xikhongelo xa Azariya
+    - Aza.
+- osis: Prov
+  texts:
+    - Swivuriso
+    - Swiv.
+- osis: Eccl
+  texts:
+    - Mudyondzisi
+    - Eklesiasta
+    - Mudy.
+- osis: Song
+  texts:
+    - Risimu ra Tinsimu
+    - Ris.
+- osis: Jer
+  texts:
+    - Yeremiya
+    - Yer.
+- osis: Ezek
+  texts:
+    - Ezekiyele
+    - Ezekiele
+    - Ez.
+- osis: Dan
+  texts:
+    - Daniyele
+    - Daniele
+    - Dan.
+- osis: Hos
+  texts:
+    - Hosiya
+    - Hos.
+- osis: Joel
+  texts:
+    - Yuwele
+    - Yuw.
+- osis: Amos
+  texts:
+    - Amosi
+    - Am.
+- osis: Obad
+  texts:
+    - Obadiya
+    - Ob.
+- osis: Jonah
+  texts:
+    - Yonasi
+    - Yon.
+- osis: Mic
+  texts:
+    - Mikiya
+    - Mik.
+- osis: Nah
+  texts:
+    - Nahume
+    - Nahumu
+    - Nah.
+- osis: Hab
+  texts:
+    - Habakuku
+    - Hab.
+- osis: Zeph
+  texts:
+    - Sofaniya
+    - Sofoniya
+    - Sof.
+- osis: Hag
+  texts:
+    - Hagayi
+    - Hag.
+- osis: Zech
+  texts:
+    - Zakariya
+    - Zak.
+- osis: Mal
+  texts:
+    - Malakiya
+    - Mal.
+- osis: Matt
+  texts:
+    - Matewu
+    - Mat.
+    - Mt.
+- osis: Mark
+  texts:
+    - Marka
+    - Mar.
+    - Mk.
+- osis: Luke
+  texts:
+    - Luk.
+    - Luka
+    - Lk.
+- osis: 3John
+  texts:
+    - III Yohane
+    - III Yohani
+    - 3 Yohane
+    - III Yoh.
+- osis: 1John
+  texts:
+    - 1 Yohane
+    - 1 Yohani
+    - 1 Yoh.
+    - 1. Yohane
+    - 1. Yohani
+    - 1. Yoh.
+    - I Yohane
+    - I Yohani
+    - I Yoh.
+    - I. Yohane
+    - I. Yohani
+    - I. Yoh.
+- osis: 2John
+  texts:
+    - 2 Yohane
+    - 2 Yohani
+    - 2 Yoh.
+    - 2. Yohane
+    - 2. Yohani
+    - 2. Yoh.
+    - II Yohane
+    - II Yohani
+    - II Yoh.
+    - II. Yohane
+    - II. Yohani
+    - II. Yoh.
+- osis: John
+  texts:
+    - Yohane
+    - Yohani
+    - Yoh.
+- osis: Acts
+  texts:
+    - Mintirho
+    - Timhaka
+    - Mint.
+    - Timh.
+- osis: Rom
+  texts:
+    - Va le Roma
+    - Varhoma
+    - Rho.
+    - Rom.
+- osis: 1Cor
+  texts:
+    - 1 Va le Korinto
+    - 1 Vakorinto
+    - 1 Kor.
+    - 1. Va le Korinto
+    - 1. Vakorinto
+    - 1. Kor.
+    - I Va le Korinto
+    - I Vakorinto
+    - I Kor.
+    - I. Va le Korinto
+    - I. Vakorinto
+    - I. Kor.
+- osis: 2Cor
+  texts:
+    - 2 Va le Korinto
+    - 2 Vakorinto
+    - 2 Kor.
+    - 2. Va le Korinto
+    - 2. Vakorinto
+    - 2. Kor.
+    - II Va le Korinto
+    - II Vakorinto
+    - II Kor.
+    - II. Va le Korinto
+    - II. Vakorinto
+    - II. Kor.
+- osis: Col
+  texts:
+    - Va le Kolosa
+    - Vakolosa
+    - Kol.
+- osis: Gal
+  texts:
+    - Va le Galatiya
+    - Vagalatiya
+    - Gal.
+- osis: Eph
+  texts:
+    - Va le Efesa
+    - Vaefesa
+    - Efe.
+    - Ef.
+- osis: Phil
+  texts:
+    - Va le Filipi
+    - Vafilipiya
+    - Flp.
+- osis: 1Thess
+  texts:
+    - 1 Va le Thesalonika
+    - 1 Vatesalonika
+    - 1 Thes.
+    - 1 Tes.
+    - 1. Va le Thesalonika
+    - 1. Vatesalonika
+    - 1. Thes.
+    - 1. Tes.
+    - I Va le Thesalonika
+    - I Vatesalonika
+    - I Thes.
+    - I Tes.
+    - I. Va le Thesalonika
+    - I. Vatesalonika
+    - I. Thes.
+    - I. Tes.
+- osis: 2Thess
+  texts:
+    - 2 Va le Thesalonika
+    - 2 Vatesalonika
+    - 2 Thes.
+    - 2 Tes.
+    - 2. Va le Thesalonika
+    - 2. Vatesalonika
+    - 2. Thes.
+    - 2. Tes.
+    - II Va le Thesalonika
+    - II Vatesalonika
+    - II Thes.
+    - II Tes.
+    - II. Va le Thesalonika
+    - II. Vatesalonika
+    - II. Thes.
+    - II. Tes.
+- osis: 1Tim
+  texts:
+    - 1 Timotewu
+    - 1 Timotiya
+    - 1 Tim.
+    - 1. Timotewu
+    - 1. Timotiya
+    - 1. Tim.
+    - I Timotewu
+    - I Timotiya
+    - I Tim.
+    - I. Timotewu
+    - I. Timotiya
+    - I. Tim.
+- osis: 2Tim
+  texts:
+    - 2 Timotewu
+    - 2 Timotiya
+    - 2 Tim.
+    - 2. Timotewu
+    - 2. Timotiya
+    - 2. Tim.
+    - II Timotewu
+    - II Timotiya
+    - II Tim.
+    - II. Timotewu
+    - II. Timotiya
+    - II. Tim.
+- osis: Titus
+  texts:
+    - Tit.
+    - Tito
+- osis: Phlm
+  texts:
+    - Filemoni
+    - Filimoni
+    - Flm.
+- osis: Heb
+  texts:
+    - Vaheberu
+    - Vaheveru
+    - Heb.
+    - Hev.
+- osis: Jas
+  texts:
+    - Yakobe
+    - Yakobo
+    - Yak.
+- osis: 1Pet
+  texts:
+    - 1 Petrosi
+    - 1 Petro
+    - 1 Pet.
+    - 1. Petrosi
+    - 1. Petro
+    - 1. Pet.
+    - I Petrosi
+    - I Petro
+    - I Pet.
+    - I. Petrosi
+    - I. Petro
+    - I. Pet.
+- osis: 2Pet
+  texts:
+    - 2 Petrosi
+    - 2 Petro
+    - 2 Pet.
+    - 2. Petrosi
+    - 2. Petro
+    - 2. Pet.
+    - II Petrosi
+    - II Petro
+    - II Pet.
+    - II. Petrosi
+    - II. Petro
+    - II. Pet.
+- osis: Jude
+  texts:
+    - Yud.
+    - Yuda
+- osis: Tob
+  texts:
+    - Tobiti
+    - Tob.
+- osis: Jdt
+  texts:
+    - Yuditi
+- osis: Bar
+  texts:
+    - Baruku
+    - Bar.
+- osis: Sus
+  texts:
+    - Susana
+    - Sus.
+- osis: 1Macc
+  texts:
+    - 1 Vamakabiya
+    - 1 Mak.
+    - 1. Vamakabiya
+    - 1. Mak.
+    - I Vamakabiya
+    - I Mak.
+    - I. Vamakabiya
+    - I. Mak.
+- osis: 2Macc
+  texts:
+    - 2 Vamakabiya
+    - 2 Mak.
+    - 2. Vamakabiya
+    - 2. Mak.
+    - II Vamakabiya
+    - II Mak.
+    - II. Vamakabiya
+    - II. Mak.
+- osis: EsthGr
+  texts:
+    - Estere (Xigriki)
+    - EstG.
+- osis: Esth
+  texts:
+    - Estere
+    - Est.

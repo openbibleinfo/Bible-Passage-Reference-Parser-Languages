@@ -1,0 +1,112 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Reweresen
+      - Rew
+  - osis: Matt
+    texts:
+      - Matiyu
+      - Mt
+  - osis: Mark
+    texts:
+      - Mako
+      - Mk
+  - osis: Luke
+    texts:
+      - Luka
+      - Lk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yoane
+      - Yo
+  - osis: Acts
+    texts:
+      - Aposel
+      - Ap
+  - osis: Rom
+    texts:
+      - Roma
+      - Ro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korin
+      - Ko
+  - osis: Col
+    texts:
+      - Korosi
+      - Kor
+  - osis: Gal
+    texts:
+      - Garesia
+      - Gar
+  - osis: Eph
+    texts:
+      - Efesasi
+      - Ef
+  - osis: Phil
+    texts:
+      - Firipai
+      - Fir
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaronaika
+      - Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+      - Ti
+  - osis: Titus
+    texts:
+      - Taitasi
+      - Tai
+  - osis: Phlm
+    texts:
+      - Firemon
+      - Fmn
+  - osis: Heb
+    texts:
+      - Ipuru
+      - Ip
+  - osis: Jas
+    texts:
+      - Yemesi
+      - Yem
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+      - Pi
+  - osis: Jude
+    texts:
+      - Yut
+translations:
+  - CJV

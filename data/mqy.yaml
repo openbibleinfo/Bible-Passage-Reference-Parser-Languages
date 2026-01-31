@@ -1,0 +1,103 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Widang Si’ang Oné Hi Yohanés
+  - osis: Matt
+    texts:
+      - Matéus
+      - Mat.
+  - osis: Mark
+    texts:
+      - Markus
+      - Mrk.
+  - osis: Luke
+    texts:
+      - Lukas
+      - Luk.
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohanés
+  - osis: John
+    texts:
+      - Yohanés
+      - Yoh.
+  - osis: Acts
+    texts:
+      - Tombo Pété Gori De Rasul-rasul
+  - osis: Rom
+    texts:
+      - Roma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintus
+  - osis: Col
+    texts:
+      - Kolosé
+  - osis: Gal
+    texts:
+      - Galatia
+  - osis: Eph
+    texts:
+      - Éfésus
+  - osis: Phil
+    texts:
+      - Pilipi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tésalonika
+  - osis: 1Tim
+    texts:
+      - 2 Timotéus
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotius
+  - osis: Titus
+    texts:
+      - Titus
+  - osis: Phlm
+    texts:
+      - Filémon
+  - osis: Heb
+    texts:
+      - Ibrani
+  - osis: Jas
+    texts:
+      - James
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - Petrus
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pétrus
+  - osis: Jude
+    texts:
+      - Yudas
+translations:
+  - BMNT

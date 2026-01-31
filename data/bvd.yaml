@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Na Faatai lae
+  - osis: Matt
+    texts:
+      - Matiu
+  - osis: Mark
+    texts:
+      - Maak
+  - osis: Luke
+    texts:
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Dion
+  - osis: Acts
+    texts:
+      - "'Aks"
+  - osis: Rom
+    texts:
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Koren
+  - osis: Col
+    texts:
+      - Kolose
+  - osis: Gal
+    texts:
+      - Geleisia
+  - osis: Eph
+    texts:
+      - "'Efesas"
+  - osis: Phil
+    texts:
+      - Filibae
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonaeka
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotii
+  - osis: Titus
+    texts:
+      - Taetas
+  - osis: Phlm
+    texts:
+      - Filimon
+  - osis: Heb
+    texts:
+      - Hibrus
+  - osis: Jas
+    texts:
+      - Demes
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Bita
+  - osis: Jude
+    texts:
+      - Diud
+translations:
+  - BVD

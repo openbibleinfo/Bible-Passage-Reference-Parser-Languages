@@ -1,0 +1,117 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Matt
+    texts:
+      - Matío
+      - Ma
+  - osis: Mark
+    texts:
+      - Márkus
+      - Má
+  - osis: Luke
+    texts:
+      - Lúg
+      - Lú
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yoohá̧na
+      - Yo
+  - osis: Acts
+    texts:
+      - Debtere ba'ad waa ba'ad voo nɔ
+      - De Ba'ad
+  - osis: Rev
+    texts:
+      - Debtere Hȩn Ho̧lȩ́
+      - De
+  - osis: Rom
+    texts:
+      - Nán Róma Vʉ
+      - Ná Róma
+  - osis: Col
+    texts:
+      - Nán Kolosíi Vʉ
+      - Ná Kolosíi
+  - osis: Gal
+    texts:
+      - Nán Galád Vʉ
+      - Ná Galád
+  - osis: Eph
+    texts:
+      - Nán Ɛfɛ́ɛz Vʉ
+      - Ná Ɛfɛ́ɛz
+  - osis: Phil
+    texts:
+      - Nán Filíb Vʉ
+      - Ná Filíb
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Nán Tesaloníi Vʉ
+      - Ná Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timɔtée
+      - Ti
+  - osis: Titus
+    texts:
+      - Tíd
+      - Tí
+  - osis: Phlm
+    texts:
+      - Filmóŋ
+      - Fi
+  - osis: Heb
+    texts:
+      - Nán Eebərә́ə Vʉ
+      - Ná Eebərә́ə
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Nán Koríńti vu̵
+      - Ná
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Nán Koríńti Vʉ
+      - Ná
+  - osis: Jas
+    texts:
+      - Yaakúbu
+      - Ya
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piɛ́r
+      - Pi
+  - osis: Jude
+    texts:
+      - Yúúda
+      - Yú
+translations:
+  - DIINT

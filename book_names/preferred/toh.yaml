@@ -1,0 +1,232 @@
+default:
+  1Chr:
+    long: 1 Dzikoronika
+    short: 1 Dzik
+  1Cor:
+    long: 1 Vakorinto
+    short: 1 Kor
+  1John:
+    long: 1 Johane
+    short: 1 Joh
+  1Kgs:
+    long: 1 Dzipfhumu
+    short: 1 Dzipf
+  1Macc:
+    long: 1 Makabhewu
+    short: 1 Mak
+  1Pet:
+    long: 1 Pedro
+    short: 1 Ped
+  1Sam:
+    long: 1 Samuweli
+    short: 1 Sam
+  1Thess:
+    long: 1 Vatesalonika
+    short: 1 Tes
+  1Tim:
+    long: 1 Thimoti
+    short: 1 Thim
+  2Chr:
+    long: 2 Dzikoronika
+    short: 2 Dzik
+  2Cor:
+    long: 2 Vakorinto
+    short: 2 Kor
+  2John:
+    long: 2 Johane
+    short: 2 Joh
+  2Kgs:
+    long: 2 Dzipfhumu
+    short: 2 Dzipf
+  2Macc:
+    long: 2 Makabhewu
+    short: 2 Mak
+  2Pet:
+    long: 2 Pedro
+    short: 2 Ped
+  2Sam:
+    long: 2 Samuweli
+    short: 2 Sam
+  2Thess:
+    long: 2 Vatesalonika
+    short: 2 Tes
+  2Tim:
+    long: 2 Thimoti
+    short: 2 Thim
+  3John:
+    long: 3 Johane
+    short: 3 Joh
+  Acts:
+    long: Mithumo
+    short: Mith
+  Amos:
+    long: Amosi
+    short: Amos
+  Bar:
+    long: Bharuki
+    short: Bhar
+  Col:
+    long: Vakolosi
+    short: Kol
+  Dan:
+    long: Dhaniyeli
+    short: Dhan
+  Deut:
+    long: Dhewuteronome
+    short: Dhet
+  Eccl:
+    long: Muhevbudzi
+    short: Muh
+  Eph:
+    long: VaEfeso
+    short: Efes
+  Esth:
+    long: Esiteri
+    short: Est
+  EsthGr:
+    long: Esiteri
+    short: Est
+  Exod:
+    long: Ekisodha
+    short: Eks
+  Ezek:
+    long: Ezekiyeli
+    short: Ezek
+  Ezra:
+    long: Ezira
+    short: Ezr
+  Gal:
+    long: Vagalatiya
+    short: Gal
+  Gen:
+    long: Genesi
+    short: Gen
+  Hab:
+    long: Habhakuka
+    short: Habh
+  Hag:
+    long: Agewu
+    short: Agew
+  Heb:
+    long: VaHebheru
+    short: Hebh
+  Hos:
+    long: Hoseya
+    short: Hos
+  Isa:
+    long: Isaya
+    short: Isa
+  Jas:
+    long: Jakobe
+    short: Jak
+  Jdt:
+    long: Judhite
+    short: Judt
+  Jer:
+    long: Jeremiya
+    short: Jer
+  Job:
+    long: Joba
+    short: Job
+  Joel:
+    long: Joyele
+    short: Jol
+  John:
+    long: Johane
+    short: Joh
+  Jonah:
+    long: Jona
+    short: Jon
+  Josh:
+    long: Josuwa
+    short: Jos
+  Jude:
+    long: Judha
+    short: Judh
+  Judg:
+    long: Valamuli
+    short: Val
+  Lam:
+    long: Gililo
+    short: Gil
+  Lev:
+    long: Levhi
+    short: Levh
+  Luke:
+    long: Luka
+    short: Luk
+  Mal:
+    long: Malakiya
+    short: Mal
+  Mark:
+    long: Marko
+    short: Mark
+  Matt:
+    long: Matewu
+    short: Mat
+  Mic:
+    long: Mikeya
+    short: MiK
+  Nah:
+    long: Nahume
+    short: Nah
+  Neh:
+    long: Nehemiya
+    short: Neh
+  Num:
+    long: Mitengo
+    short: Mit
+  Obad:
+    long: Obhadhiya
+    short: Obhad
+  Phil:
+    long: Vafilipi
+    short: Fil
+  Phlm:
+    long: Filemoni
+    short: Flm
+  Prov:
+    long: Mavingu
+    short: Mav
+  Ps:
+    long: Dzindzimo
+    short: Dzind
+  Rev:
+    long: Gutuledwa
+    short: Gutu
+  Rom:
+    long: VaRoma
+    short: Rom
+  Ruth:
+    long: Rute
+    short: Rut
+  Sir:
+    long: Bheni Siraki
+    short: Sirk
+  Song:
+    long: Gizimba
+    short: Giz
+  Titus:
+    long: Tito
+    short: Tit
+  Tob:
+    long: Tobhiya
+    short: Tobh
+  Wis:
+    long: Guti
+    short: Gut
+  Zech:
+    long: Zakariya
+    short: Zak
+  Zeph:
+    long: Sofoniya
+    short: Sof
+translations:
+  bge2014:
+    Eph:
+      short: Efs
+  bgg2014:
+    Joel:
+      short: Joy
+    Phil:
+      short: Filp

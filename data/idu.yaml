@@ -1,0 +1,270 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Ohútu
+      - Ohút
+  - osis: Exod
+    texts:
+      - Oōyɛbɛ̄cɛ
+      - Oyɛb
+  - osis: Lev
+    texts:
+      - Ulīfayi
+      - Ulīf
+  - osis: Num
+    texts:
+      - Áluka
+      - Áluk
+  - osis: Lam
+    texts:
+      - Ikwūayidɔ
+      - Ikwū
+  - osis: Rev
+    texts:
+      - Ɔdā Nēé Mafú Lɛ Ujɔ́ɔni
+      - Mafú
+  - osis: Deut
+    texts:
+      - Oblatūkíne
+      - Obla
+  - osis: Josh
+    texts:
+      - Ujóssuwa
+      - Ujós
+  - osis: Judg
+    texts:
+      - Ācohɛ́pɔ̄
+      - Āco
+  - osis: Ruth
+    texts:
+      - Urútu
+      - Urút
+  - osis: Isa
+    texts:
+      - Ayisáya
+      - Ayis
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Usámuwɛ̄lu
+      - Usám
+  - osis: Ezra
+    texts:
+      - Ɛ́sira
+      - Ɛ́sra
+  - osis: Neh
+    texts:
+      - Unehemíya
+      - Uneh
+  - osis: Esth
+    texts:
+      - Ɛ́sta
+  - osis: Job
+    texts:
+      - Ujóbu
+      - Ujób
+  - osis: Ps
+    texts:
+      - Aíjē Kú Ɛ̄gbā
+      - Aíjē
+  - osis: Prov
+    texts:
+      - Aíita
+      - Aíit
+  - osis: Eccl
+    texts:
+      - Ɔ̄cokóītá
+      - Ɔ̄cok
+  - osis: Song
+    texts:
+      - Ijē Kú Usólōmɔn
+      - Usól
+  - osis: Jer
+    texts:
+      - Ujɛrɛmíya
+      - Ujer
+  - osis: Ezek
+    texts:
+      - Isíkɛ̄lu
+      - Isík
+  - osis: Dan
+    texts:
+      - Udánīyɛ̄lu
+      - Udan
+  - osis: Hos
+    texts:
+      - Uhosíi
+      - Uhos
+  - osis: Joel
+    texts:
+      - Ujówɛ̄lu
+      - Ujów
+  - osis: Amos
+    texts:
+      - Émɔ̄si
+      - Émɔs
+  - osis: Obad
+    texts:
+      - Obadíya
+      - Obad
+  - osis: Jonah
+    texts:
+      - Ujóna
+      - Ujón
+  - osis: Mic
+    texts:
+      - Umáyíka
+      - Umáy
+  - osis: Nah
+    texts:
+      - Unáhum
+      - Unáh
+  - osis: Hab
+    texts:
+      - Uhábakūku
+      - Uháb
+  - osis: Zeph
+    texts:
+      - Usɛfaníya
+      - Usɛf
+  - osis: Hag
+    texts:
+      - Uhágāyi
+      - Uhág
+  - osis: Zech
+    texts:
+      - Usakaríya
+      - Usak
+  - osis: Mal
+    texts:
+      - Umálakāyi
+      - Umál
+  - osis: Matt
+    texts:
+      - Umátiyu
+      - Umát
+  - osis: Mark
+    texts:
+      - Umáki
+      - Umák
+  - osis: Luke
+    texts:
+      - Ulúku
+      - Ulúk
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Ujɔ́ɔni
+      - Ujɔ́n
+  - osis: John
+    texts:
+      - Ujɔ́ni
+      - Ujɔ́n
+  - osis: Acts
+    texts:
+      - Úklɔ́ Kú Ācotɛ̄hɔ̄
+      - Ācot
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Úklɔ́ Kú Aɔ́cɛ́
+      - Úklɔ́
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Aɔ́cɛ́
+  - osis: Rom
+    texts:
+      - Ācɛ Uróm
+      - Uróm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Ācɛ Ukɔ́rīnti
+      - Ukɔ́r
+  - osis: Col
+    texts:
+      - Ācɛ Ukólōsi
+      - Ukól
+  - osis: Gal
+    texts:
+      - Ācɛ Ugalésīya
+      - Ugal
+  - osis: Eph
+    texts:
+      - Ācɛ Ɛ́fēsɔsi
+      - Ɛfɛs
+  - osis: Phil
+    texts:
+      - Ācɛ Ufílipāyi
+      - Ufíl
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Ācɛ Utesaloníka
+      - Utɛs
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Utímōti
+      - Utím
+  - osis: Titus
+    texts:
+      - Utáyítɔ̄si
+      - Utáy
+  - osis: Phlm
+    texts:
+      - Ufílīmɔn
+      - Ufím
+  - osis: Heb
+    texts:
+      - Ācɛ Uhíbru
+      - Uhíb
+  - osis: Jas
+    texts:
+      - Ujɛ́mīsi
+      - Ujém
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Upíta
+      - Upít
+  - osis: Jude
+    texts:
+      - Ujúudu
+      - Ujúd
+translations:
+  - IFBCL

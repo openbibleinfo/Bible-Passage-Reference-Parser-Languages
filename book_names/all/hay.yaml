@@ -1,0 +1,364 @@
+- osis: Gen
+  texts:
+    - Embandizo
+    - Emb
+- osis: Exod
+  texts:
+    - Okuruga
+    - Oku
+- osis: Bel
+  texts:
+    - Beli n'enjoka
+    - Bel
+- osis: Lev
+  texts:
+    - Eby'abalevita
+    - Eby
+- osis: Num
+  texts:
+    - Orubara
+    - Orub
+- osis: Sir
+  texts:
+    - Sira
+    - Sir
+- osis: Wis
+  texts:
+    - Obumanyi
+    - Obu
+- osis: Lam
+  texts:
+    - Okutongya
+    - Okut
+- osis: EpJer
+  texts:
+    - Ebarua ya Yeremia
+    - Byer
+- osis: Rev
+  texts:
+    - Okushurulirwa
+    - Kwa
+- osis: Deut
+  texts:
+    - Obwijukiro
+    - Obw
+- osis: Josh
+  texts:
+    - Yoshua
+    - Yos
+- osis: Judg
+  texts:
+    - Abaramuzi
+    - Aba
+- osis: Ruth
+  texts:
+    - Ruti
+    - Rut
+- osis: Isa
+  texts:
+    - Isaya
+    - Isa
+- osis: 1Sam
+  texts:
+    - 1 Samweli
+    - 1. Samweli
+- osis: 2Sam
+  texts:
+    - 2 Samweli
+    - 2. Samweli
+- osis: 1Sam
+  texts:
+    - 1Sa
+- osis: 2Sam
+  texts:
+    - 2Sa
+- osis: 1Kgs
+  texts:
+    - 1 Abakama
+    - 1. Abakama
+- osis: 2Kgs
+  texts:
+    - 2 Abakama
+    - 2. Abakama
+- osis: 1Kgs
+  texts:
+    - 1Ab
+- osis: 2Kgs
+  texts:
+    - 2Ab
+- osis: 1Chr
+  texts:
+    - 1 Amakuru
+    - 1. Amakuru
+- osis: 2Chr
+  texts:
+    - 2 Amakuru
+    - 2. Amakuru
+- osis: 1Chr
+  texts:
+    - 1Ma
+- osis: 2Chr
+  texts:
+    - 2Ma
+- osis: Ezra
+  texts:
+    - Ezira
+    - Ezi
+- osis: Neh
+  texts:
+    - Nehemia
+    - Neh
+- osis: Esth
+  texts:
+    - Esita(Hebrew)
+    - Esi(Heb)
+    - Esita
+    - Esi
+- osis: Job
+  texts:
+    - Yobu
+    - Yob
+- osis: Ps
+  texts:
+    - Ezaburi
+    - Zab
+- osis: PrAzar
+  texts:
+    - Enshara Ya Azaria
+- osis: Prov
+  texts:
+    - Emigani
+    - Emi
+- osis: Eccl
+  texts:
+    - Mwegesa
+    - Mwe
+- osis: SgThree
+  texts:
+    - Abasigazi bashatu
+- osis: Song
+  texts:
+    - Oruhoya
+    - Oru
+- osis: Jer
+  texts:
+    - Yeremia
+    - Yer
+- osis: Ezek
+  texts:
+    - Ezekieli
+    - Eze
+- osis: Dan
+  texts:
+    - Danieli
+    - Dan
+- osis: Hos
+  texts:
+    - Hosea
+    - Hos
+- osis: Joel
+  texts:
+    - Yoeli
+    - Yoe
+- osis: Amos
+  texts:
+    - Amosi
+    - Amo
+- osis: Obad
+  texts:
+    - Obadia
+    - Oba
+- osis: Jonah
+  texts:
+    - Yona
+    - Yon
+- osis: Mic
+  texts:
+    - Mika
+    - MiK
+- osis: Nah
+  texts:
+    - Nahumu
+    - Nah
+- osis: Hab
+  texts:
+    - Habakuki
+    - Hab
+- osis: Zeph
+  texts:
+    - Zefania
+    - Zef
+- osis: Hag
+  texts:
+    - Hagai
+    - Hag
+- osis: Zech
+  texts:
+    - Zekaria
+    - Zek
+- osis: Mal
+  texts:
+    - Malaki
+    - Mal
+- osis: Matt
+  texts:
+    - Matayo
+    - Mat
+- osis: Mark
+  texts:
+    - Mariko
+    - Mar
+- osis: Luke
+  texts:
+    - Luka
+    - Luk
+- osis: 1John
+  texts:
+    - 1 Yohana
+    - 1 Yoh
+    - 1. Yohana
+    - 1. Yoh
+- osis: 2John
+  texts:
+    - 2 Yohana
+    - 2 Yoh
+    - 2. Yohana
+    - 2. Yoh
+- osis: 3John
+  texts:
+    - 3 Yohana
+    - 3 Yoh
+    - 3. Yohana
+    - 3. Yoh
+- osis: John
+  texts:
+    - Yohana
+    - Yoh
+- osis: Acts
+  texts:
+    - Ebikorwa
+    - By'
+- osis: Rom
+  texts:
+    - Abaroma
+    - Abar
+- osis: 1Cor
+  texts:
+    - 1 Abakorinto
+    - 1. Abakorinto
+- osis: 2Cor
+  texts:
+    - 2 Abakorinto
+    - 2. Abakorinto
+- osis: 1Cor
+  texts:
+    - 1Kor
+- osis: 2Cor
+  texts:
+    - 2Kor
+- osis: Col
+  texts:
+    - Abakolosai
+    - Kol
+- osis: Gal
+  texts:
+    - Abagalasia
+    - Abag
+- osis: Eph
+  texts:
+    - Abaefeso
+    - Abae
+- osis: Phil
+  texts:
+    - Abafilipi
+    - Fil
+- osis: 1Thess
+  texts:
+    - 1 Abatesalonika
+    - 1 Abat
+    - 1. Abatesalonika
+    - 1. Abat
+- osis: 2Thess
+  texts:
+    - 2 Abatesalonika
+    - 2 Abat
+    - 2. Abatesalonika
+    - 2. Abat
+- osis: 1Tim
+  texts:
+    - 1 Timoteo
+    - 1 Tim
+    - 1. Timoteo
+    - 1. Tim
+- osis: 2Tim
+  texts:
+    - 2 Timoteo
+    - 2 Tim
+    - 2. Timoteo
+    - 2. Tim
+- osis: Titus
+  texts:
+    - Tito
+    - Tit
+- osis: Phlm
+  texts:
+    - Filemoni
+    - Film
+- osis: Heb
+  texts:
+    - Abaheburania
+    - Heb
+- osis: Jas
+  texts:
+    - Yakobo
+    - Yak
+- osis: 1Pet
+  texts:
+    - 1 Petero
+    - 1 Pet
+    - 1. Petero
+    - 1. Pet
+- osis: 2Pet
+  texts:
+    - 2 Petero
+    - 2 Pet
+    - 2. Petero
+    - 2. Pet
+- osis: Jude
+  texts:
+    - Judi
+    - Jud
+- osis: Tob
+  texts:
+    - Tobiti
+    - Tob
+- osis: Jdt
+  texts:
+    - Yudithi
+    - Yud
+- osis: Bar
+  texts:
+    - Baruku
+    - Bar
+- osis: Sus
+  texts:
+    - Shuzana
+    - Shu
+- osis: 1Macc
+  texts:
+    - 1 Abamakabeo
+    - 1. Abamakabeo
+- osis: 2Macc
+  texts:
+    - 2 Abamakabeo
+    - 2. Abamakabeo
+- osis: 1Macc
+  texts:
+    - 1Mak
+- osis: 2Macc
+  texts:
+    - 2Mak
+- osis: EsthGr
+  texts:
+    - Esita
+    - Esit

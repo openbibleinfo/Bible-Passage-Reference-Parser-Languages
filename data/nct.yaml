@@ -1,0 +1,101 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Rouphuh
+  - osis: Matt
+    texts:
+      - Mithew
+      - Mit.
+  - osis: Mark
+    texts:
+      - Mak.
+      - Mak
+  - osis: Luke
+    texts:
+      - Luk.
+      - Luk
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Johon
+  - osis: John
+    texts:
+      - Johon
+      - Jhn.
+  - osis: Acts
+    texts:
+      - Ruihngei Tullu
+      - Rui.
+  - osis: Rom
+    texts:
+      - Romiya
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korenthiya
+      - Kor.
+  - osis: Col
+    texts:
+      - Kolosiya
+  - osis: Gal
+    texts:
+      - Galatiya
+  - osis: Eph
+    texts:
+      - Ephesiya
+  - osis: Phil
+    texts:
+      - Philipiya
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thesolonikiya
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothi
+  - osis: Titus
+    texts:
+      - Taitas
+  - osis: Phlm
+    texts:
+      - Philimon
+  - osis: Heb
+    texts:
+      - Ebriya
+  - osis: Jas
+    texts:
+      - Jacob
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pitar
+  - osis: Jude
+    texts:
+      - Jud
+translations:
+  - CHOTBSI

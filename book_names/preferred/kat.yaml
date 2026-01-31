@@ -1,0 +1,472 @@
+default:
+  1Chr:
+    long: 1 Chronicles
+    short: 1ნშ
+  1Cor:
+    long: 1 Corinthians
+    short: 1კო
+  1Esd:
+    long: 1 Esdras (Greek)
+    short: 2ეზ
+  1John:
+    long: 1 John
+    short: 1იო
+  1Kgs:
+    long: 1 Kings
+    short: 3მფ
+  1Macc:
+    long: 1 Maccabees
+    short: 1მაკ.
+  1Pet:
+    long: 1 Peter
+    short: 1პტ
+  1Sam:
+    long: 1 Samuel
+    short: 1მფ
+  1Thess:
+    long: 1 Thessalonians
+    short: 1თს
+  1Tim:
+    long: 1 Timothy
+    short: 1ტმ
+  2Chr:
+    long: 2 Chronicles
+    short: 2ნშ
+  2Cor:
+    long: 2 Corinthians
+    short: 2კო
+  2John:
+    long: 2 John
+    short: 2იო
+  2Kgs:
+    long: 2 Kings
+    short: 4მფ
+  2Macc:
+    long: 2 Maccabees
+    short: 2მაკ.
+  2Pet:
+    long: 2 Peter
+    short: 2პტ
+  2Sam:
+    long: 2 Samuel
+    short: 2მფ
+  2Thess:
+    long: 2 Thessalonians
+    short: 2თს
+  2Tim:
+    long: 2 Timothy
+    short: 2ტმ
+  3John:
+    long: 3 John
+    short: 3იო
+  3Macc:
+    long: 3 Maccabees
+    short: 3მაკ.
+  Acts:
+    long: Acts
+    short: საქ
+  Amos:
+    long: Amos
+    short: ამო
+  Bar:
+    long: Baruch
+    short: ბრქ
+  Col:
+    long: Colossians
+    short: კლს
+  Dan:
+    long: Daniel (Hebrew)
+    short: დან
+  DanGr:
+    long: Daniel Greek
+    short: დბდ
+  Deut:
+    long: Deuteronomy
+    short: რჯ
+  Eccl:
+    long: Ecclesiastes
+    short: ეკლ
+  EpJer:
+    long: Letter of Jeremiah
+    short: ეპერ
+  Eph:
+    long: Ephesians
+    short: ეფს
+  Esth:
+    long: Esther (Hebrew)
+    short: ესთ
+  Exod:
+    long: Exodus
+    short: გამ
+  Ezek:
+    long: Ezekiel
+    short: ეზკ
+  Ezra:
+    long: Ezra
+    short: ეზრ
+  Gal:
+    long: Galatians
+    short: გლტ
+  Gen:
+    long: Genesis
+    short: დაბ
+  Hab:
+    long: Habakkuk
+    short: აბკ
+  Hag:
+    long: Haggai
+    short: ანგ
+  Heb:
+    long: Hebrews
+    short: ებრ
+  Hos:
+    long: Hosea
+    short: ოს
+  Isa:
+    long: Isaiah
+    short: ესა
+  Jas:
+    long: James
+    short: იაკ
+  Jdt:
+    long: Judith
+    short: ივდ
+  Jer:
+    long: Jeremiah
+    short: იერ
+  Job:
+    long: Job
+    short: იობ
+  Joel:
+    long: Joel
+    short: იოლ
+  John:
+    long: John
+    short: იო
+  Jonah:
+    long: Jonah
+    short: იონ
+  Josh:
+    long: Joshua
+    short: ისნ
+  Jude:
+    long: Jude
+    short: იუდ
+  Judg:
+    long: Judges
+    short: მსჯ
+  Lam:
+    long: Lamentations
+    short: გოდ
+  Lev:
+    long: Leviticus
+    short: ლევ
+  Luke:
+    long: Luke
+    short: ლკ
+  Mal:
+    long: Malachi
+    short: მალ
+  Mark:
+    long: Mark
+    short: მრკ
+  Matt:
+    long: Matthew
+    short: მთ
+  Mic:
+    long: Micah
+    short: მიქ
+  Nah:
+    long: Nahum
+    short: ნამ
+  Neh:
+    long: Nehemiah
+    short: ნეე
+  Num:
+    long: Numbers
+    short: რცხ
+  Obad:
+    long: Obadiah
+    short: აბდ
+  Phil:
+    long: Philippians
+    short: ფლპ
+  Phlm:
+    long: Philemon
+    short: ფლმ
+  PrMan:
+    long: Prayer of Manasseh
+    short: მან
+  Prov:
+    long: Proverbs
+    short: იგვ
+  Ps:
+    long: Psalms
+    short: ფს
+  Ps151:
+    long: 151-ე ფსალმუნი
+    short: "151"
+  Rev:
+    long: Revelation
+    short: გცხ
+  Rom:
+    long: Romans
+    short: რომ
+  Ruth:
+    long: Ruth
+    short: რთ
+  Sir:
+    long: Sirach (Ecclesiasticus)
+    short: ზრქ
+  Song:
+    long: Song of Songs
+    short: ქბ
+  Titus:
+    long: Titus
+    short: ტიტ
+  Tob:
+    long: Tobit
+    short: ტობ
+  Wis:
+    long: Wisdom of Solomon
+    short: სლმ
+  Zech:
+    long: Zechariah
+    short: ზაქ
+  Zeph:
+    long: Zephaniah
+    short: სოფ
+translations:
+  geo02:
+    1Chr:
+      long: 1ნეშტ.
+      short: 1ნეშტ.
+    1Cor:
+      long: 1კორ.
+      short: 1კორ.
+    1Esd:
+      long: მეორე ეზრა
+    1John:
+      long: 1იოან.
+      short: 1იოან.
+    1Kgs:
+      long: 3მეფ.
+      short: 3მეფ.
+    1Macc:
+      long: პირველი მაკაბელთა
+    1Pet:
+      long: 1პეტრ.
+      short: 1პეტრ.
+    1Sam:
+      long: 1მეფ.
+      short: 1მეფ.
+    1Thess:
+      long: 1თეს.
+      short: 1თეს.
+    1Tim:
+      long: 1ტიმ.
+      short: 1ტიმ.
+    2Chr:
+      long: 2ნეშტ.
+      short: 2ნეშტ.
+    2Cor:
+      long: 2კორ.
+      short: 2კორ.
+    2John:
+      long: 2იოან.
+      short: 2იოან.
+    2Kgs:
+      long: 4მეფ.
+      short: 4მეფ.
+    2Macc:
+      long: მეორე მაკაბელთა
+    2Pet:
+      long: 2პეტრ.
+      short: 2პეტრ.
+    2Sam:
+      long: 2მეფ.
+      short: 2მეფ.
+    2Thess:
+      long: 2თეს.
+      short: 2თეს.
+    2Tim:
+      long: 2ტიმ.
+      short: 2ტიმ.
+    3John:
+      long: 3იოან.
+      short: 3იოან.
+    3Macc:
+      long: მესამე მაკაბელთა
+    Acts:
+      long: საქმე.
+      short: საქმე.
+    Amos:
+      long: ამოს.
+      short: ამოს.
+    Bar:
+      long: ბარუქ წინასწარმეტყველი
+    Col:
+      long: კოლ.
+      short: კოლ.
+    Dan:
+      long: დან.
+      short: დან.
+    DanGr:
+      long: დანიელ წინასწარმეტყველი
+    Deut:
+      long: რჯლ.
+      short: რჯლ.
+    Eccl:
+      long: ეკლ.
+      short: ეკლ.
+    EpJer:
+      long: ეპისტოლე იერემიასი
+    Eph:
+      long: ეფეს.
+      short: ეფეს.
+    Esth:
+      long: ესთ.
+      short: ესთ.
+    Exod:
+      long: გამ.
+      short: გამ.
+    Ezek:
+      long: ეზეკ.
+      short: ეზეკ.
+    Ezra:
+      long: ეზრ.
+      short: ეზრ.
+    Gal:
+      long: გალ.
+      short: გალ.
+    Gen:
+      long: დაბ.
+      short: დაბ.
+    Hab:
+      long: აბაკ.
+      short: აბაკ.
+    Hag:
+      long: ანგ.
+      short: ანგ.
+    Heb:
+      long: ებრ.
+      short: ებრ.
+    Hos:
+      long: ოს.
+      short: ოს.
+    Isa:
+      long: ეს.
+      short: ეს.
+    Jas:
+      long: იაკ.
+      short: იაკ.
+    Jdt:
+      long: ივდითი
+    Jer:
+      long: იერ.
+      short: იერ.
+    Job:
+      long: იობ.
+      short: იობ.
+    Joel:
+      long: იოელ.
+      short: იოელ.
+    John:
+      long: იოან.
+      short: იოან.
+    Jonah:
+      long: იონ.
+      short: იონ.
+    Josh:
+      long: იესო.
+      short: იესო.
+    Jude:
+      long: იუდ.
+      short: იუდ.
+    Judg:
+      long: მსაჯ.
+      short: მსაჯ.
+    Lam:
+      long: გოდ.
+      short: გოდ.
+    Lev:
+      long: ლევ.
+      short: ლევ.
+    Luke:
+      long: ლუკ.
+      short: ლუკ.
+    Mal:
+      long: მალ.
+      short: მალ.
+    Mark:
+      long: მარკ.
+      short: მარკ.
+    Matt:
+      long: მათ.
+      short: მათ.
+    Mic:
+      long: მიქ.
+      short: მიქ.
+    Nah:
+      long: ნაუმ.
+      short: ნაუმ.
+    Neh:
+      long: ნეემ.
+      short: ნეემ.
+    Num:
+      long: რიცხ.
+      short: რიცხ.
+    Obad:
+      long: აბდ.
+      short: აბდ.
+    Phil:
+      long: ფილიპ.
+      short: ფილიპ.
+    Phlm:
+      long: ფილ.
+      short: ფილ.
+    PrMan:
+      long: იუდაელი მეფის მენაშეს ლოცვა
+    Prov:
+      long: იგავ.
+      short: იგავ.
+    Ps:
+      long: ფსალმ.
+      short: ფსალმ.
+    Rev:
+      long: გამოცხ.
+      short: გამოცხ.
+    Rom:
+      long: რომ.
+      short: რომ.
+    Ruth:
+      long: რუთ.
+      short: რუთ.
+    Sir:
+      long: სიბრძნე ზირაქისა წინათქმა
+    Song:
+      long: ქებ.
+      short: ქებ.
+    Titus:
+      long: ტიტ.
+      short: ტიტ.
+    Tob:
+      long: ტობითი
+      short: ტობ.
+    Wis:
+      long: სიბრძნე სოლომონისა
+    Zech:
+      long: ზაქ.
+      short: ზაქ.
+    Zeph:
+      long: სოფ.
+      short: სოფ.
+  sbs:
+    1Macc:
+      short: 1მკ
+    2Macc:
+      short: 2მკ
+    3Macc:
+      short: 3მკ
+    Ps151:
+      long: Psalm 151

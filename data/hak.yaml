@@ -1,0 +1,267 @@
+books:
+  - osis: Gen
+    texts:
+      - Chhóng-sṳ Ki
+      - 創世記
+  - osis: Exod
+    texts:
+      - Chhut Âi-khi̍p Ki
+      - 出埃及記
+  - osis: Lev
+    texts:
+      - Li-vi Ki
+      - 利未記
+  - osis: Num
+    texts:
+      - Mìn-su Ki
+      - 民數記
+  - osis: Lam
+    texts:
+      - Yâ-li-mí Ôi-kô
+      - 耶利米哀歌
+  - osis: Rev
+    texts:
+      - Khí-sṳ-liu̍k
+      - 啟示錄
+  - osis: Deut
+    texts:
+      - Sṳ̂n-min Ki
+      - 申命記
+  - osis: Josh
+    texts:
+      - Yok-sû-â Ki
+      - 約書亞記
+  - osis: Judg
+    texts:
+      - Sṳ-sṳ̂ Ki
+      - 士師記
+  - osis: Ruth
+    texts:
+      - Lu-tet Ki
+      - 路得記
+  - osis: Isa
+    texts:
+      - Yî-soi-â Sû
+      - 以賽亞書
+  - osis: 1Sam
+    texts:
+      - Sat-mû-ngí Ki-song
+      - 撒母耳記上
+  - osis: 2Sam
+    texts:
+      - Sat-mû-ngí Ki-ha
+      - 撒母耳記下
+  - osis: 1Kgs
+    texts:
+      - Lie̍t-vòng Ki-song
+      - 列王紀上
+  - osis: 2Kgs
+    texts:
+      - Lie̍t-vòng Ki-ha
+      - 列王紀下
+  - osis: 1Chr
+    texts:
+      - Li̍t-thoi-chṳ Song
+      - 歷代志上
+  - osis: 2Chr
+    texts:
+      - Li̍t-thoi-chṳ Ha
+      - 歷代志下
+  - osis: Ezra
+    texts:
+      - Yî-sṳ̂-lâ Ki
+      - 以斯拉記
+  - osis: Neh
+    texts:
+      - Nì-hî-mí Ki
+      - 尼希米記
+  - osis: Esth
+    texts:
+      - Yî-sṳ̂-thiap Ki
+      - 以斯帖記
+  - osis: Job
+    texts:
+      - Yok-pak Ki
+      - 約伯記
+  - osis: Ps
+    texts:
+      - Sṳ̂-phiên
+      - 詩篇
+  - osis: Prov
+    texts:
+      - Chṳ̂m-ngièn
+      - 箴言
+  - osis: Eccl
+    texts:
+      - Chhòn-tho Sû
+      - 傳道書
+  - osis: Song
+    texts:
+      - Ngâ-kô
+      - 雅歌
+  - osis: Jer
+    texts:
+      - Yâ-li-mí Sû
+      - 耶利米書
+  - osis: Ezek
+    texts:
+      - Yî-sî-kiet Sû
+      - 以西結書
+  - osis: Dan
+    texts:
+      - Tan-yî-lî Sû
+      - 但以理書
+  - osis: Hos
+    texts:
+      - Hò-sî-â Sû
+      - 何西阿書
+  - osis: Joel
+    texts:
+      - Yok-ngí Sû
+      - 約珥書
+  - osis: Amos
+    texts:
+      - Â-mô-sṳ̂ Sû
+      - 阿摩司書
+  - osis: Obad
+    texts:
+      - Ngò-pâ-tí-â Sû
+      - 俄巴底亞書
+  - osis: Jonah
+    texts:
+      - Yok-nâ Sû
+      - 約拿書
+  - osis: Mic
+    texts:
+      - Mì-kâ Sû
+      - 彌迦書
+  - osis: Nah
+    texts:
+      - Nâ-fùng Sû
+      - 那鴻書
+  - osis: Hab
+    texts:
+      - Ha̍p-pâ-kuk Sû
+      - 哈巴谷書
+  - osis: Zeph
+    texts:
+      - Sî-fân-ngâ Sû
+      - 西番雅書
+  - osis: Hag
+    texts:
+      - Ha̍p-kâi Sû
+      - 哈該書
+  - osis: Zech
+    texts:
+      - Sat-kâ-li-â Sû
+      - 撒迦利亞書
+  - osis: Mal
+    texts:
+      - Mâ-lâ-kî Sû
+      - 瑪拉基書
+  - osis: Matt
+    texts:
+      - Mâ-thai
+      - 馬太
+  - osis: Mark
+    texts:
+      - Mâ-khó
+      - 馬可
+  - osis: Luke
+    texts:
+      - Lu-kâ
+      - 路加
+  - osis: 1John
+    texts:
+      - Yok-hon Yit-sû
+      - 約翰一書
+  - osis: 2John
+    texts:
+      - Yok-hon Ngi-sû
+      - 約翰二書
+  - osis: 3John
+    texts:
+      - Yok-hon Sâm-sû
+      - 約翰三書
+  - osis: John
+    texts:
+      - Yok-hon
+      - 約翰
+  - osis: Acts
+    texts:
+      - Sṳ́-thù Hàng-chhon
+      - 使徒
+  - osis: Rom
+    texts:
+      - Lò-mâ Sû
+      - 羅馬書
+  - osis: 1Cor
+    texts:
+      - Kô-lìm-tô Chhièn-sû
+      - 哥林多前書
+  - osis: 2Cor
+    texts:
+      - Kô-lìm-tô Heu-sû
+      - 哥林多後書
+  - osis: Col
+    texts:
+      - Kô-lò-sî Sû
+      - 歌羅西書
+  - osis: Gal
+    texts:
+      - Kâ-lâ-thai Sû
+      - 加拉太書
+  - osis: Eph
+    texts:
+      - Yî-fut-só Sû
+      - 以弗所書
+  - osis: Phil
+    texts:
+      - Fî-li̍p-pí Sû
+      - 腓立比書
+  - osis: 1Thess
+    texts:
+      - Thiap-sat-lò-nì-kâ Chhièn-sû
+      - 帖撒羅尼迦前書
+  - osis: 2Thess
+    texts:
+      - Thiap-sat-lò-nì-kâ Heu-sû
+      - 帖撒羅尼迦後書
+  - osis: 1Tim
+    texts:
+      - Thì-mô-thai Chhièn-sû
+      - 提摩太前書
+  - osis: 2Tim
+    texts:
+      - Thì-mô-thai Heu-sû
+      - 提摩太後書
+  - osis: Titus
+    texts:
+      - Thì-tô Sû
+      - 提多書
+  - osis: Phlm
+    texts:
+      - Fî-li-mùn Sû
+      - 腓利門書
+  - osis: Heb
+    texts:
+      - Hî-pak-lòi Sû
+      - 希伯來書
+  - osis: Jas
+    texts:
+      - Ngâ-kok Sû
+      - 雅各書
+  - osis: 1Pet
+    texts:
+      - Pí-tet Chhièn-sû
+      - 彼得前書
+  - osis: 2Pet
+    texts:
+      - Pí-tet Heu-sû
+      - 彼得後書
+  - osis: Jude
+    texts:
+      - Yù-thai Sû
+      - 猶大書
+translations:
+  - THV12HDB

@@ -1,0 +1,141 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Sokigi
+      - Sok
+  - osis: Matt
+    texts:
+      - Mátíyu
+      - Mt
+  - osis: Mark
+    texts:
+      - Máhka
+      - Mk
+  - osis: Luke
+    texts:
+      - Árúka
+      - Ár
+  - osis: 1John
+    texts:
+      - 1Sn
+  - osis: 2John
+    texts:
+      - 2Sn
+  - osis: 3John
+    texts:
+      - 3 Sóni
+      - 3Sn
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Sóni
+  - osis: John
+    texts:
+      - Sóni
+      - Sn
+  - osis: Acts
+    texts:
+      - Eqmaro
+      - Eq
+  - osis: Rom
+    texts:
+      - aRoma
+      - aRom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kórína
+  - osis: 1Cor
+    texts:
+      - 1Kór
+  - osis: 2Cor
+    texts:
+      - 2Kór
+  - osis: Col
+    texts:
+      - Kórósía
+      - Kór
+  - osis: Gal
+    texts:
+      - Kárétía
+      - Kár
+  - osis: Eph
+    texts:
+      - Épésa
+      - Ép
+  - osis: Phil
+    texts:
+      - Pírípái
+      - Pír
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tésárónáíka
+  - osis: 1Thess
+    texts:
+      - 1Ts
+  - osis: 2Thess
+    texts:
+      - 2Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tímóti
+  - osis: 1Tim
+    texts:
+      - 1Tm
+  - osis: 2Tim
+    texts:
+      - 2Tm
+  - osis: Titus
+    texts:
+      - Táítása
+      - Táí
+  - osis: Phlm
+    texts:
+      - Pírémóna
+      - Prm
+  - osis: Heb
+    texts:
+      - Íbaru Ke
+      - Íb
+  - osis: Jas
+    texts:
+      - Sémísi
+      - Sém
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Píta
+  - osis: 1Pet
+    texts:
+      - 1Pt
+  - osis: 2Pet
+    texts:
+      - 2Pt
+  - osis: Jude
+    texts:
+      - Súta
+      - Sút
+translations:
+  - AWB

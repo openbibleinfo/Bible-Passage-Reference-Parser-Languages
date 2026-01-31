@@ -1,0 +1,141 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Mingkan Enetet Kal
+      - Ming
+  - osis: Matt
+    texts:
+      - Matiut
+      - Mat
+  - osis: Mark
+    texts:
+      - Marakut
+      - Mrk
+  - osis: Luke
+    texts:
+      - Ulukat
+      - Uluk
+  - osis: 1John
+    texts:
+      - 1Joan
+  - osis: 2John
+    texts:
+      - 2Joan
+  - osis: 3John
+    texts:
+      - 3 Joanet
+      - 3Joan
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Joanet
+  - osis: John
+    texts:
+      - Joanet
+      - Joan
+  - osis: Acts
+    texts:
+      - Bugun
+      - Bugu
+  - osis: Rom
+    texts:
+      - Oroma
+      - Orom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintut
+  - osis: 1Cor
+    texts:
+      - 1Kor
+  - osis: 2Cor
+    texts:
+      - 2Kor
+  - osis: Col
+    texts:
+      - Kolote
+      - Kolo
+  - osis: Gal
+    texts:
+      - Kalatia
+      - Kala
+  - osis: Eph
+    texts:
+      - Epetut
+      - Epe
+  - osis: Phil
+    texts:
+      - Pilipi
+      - Pili
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tetalonika
+  - osis: 1Thess
+    texts:
+      - 1Tet
+  - osis: 2Thess
+    texts:
+      - 2Tet
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotiut
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Titut
+      - Tit
+  - osis: Phlm
+    texts:
+      - Pilemon
+      - Pile
+  - osis: Heb
+    texts:
+      - Iberani
+      - Ibr
+  - osis: Jas
+    texts:
+      - Jakobut
+      - Jako
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peterut
+  - osis: 1Pet
+    texts:
+      - 1Pet
+  - osis: 2Pet
+    texts:
+      - 2Pet
+  - osis: Jude
+    texts:
+      - Jurat
+      - Jura
+translations:
+  - LAIUHN

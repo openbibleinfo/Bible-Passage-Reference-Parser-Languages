@@ -1,0 +1,21 @@
+default:
+  Acts:
+    long: Aposel
+    short: Ap
+  Gen:
+    long: Genesis
+  Luke:
+    long: Luk
+    short: Lk
+  Mark:
+    long: Mak
+    short: Mk
+  Matt:
+    long: Mattiu
+    short: Mat
+  Phlm:
+    long: Plm
+    short: Plm
+  Titus:
+    long: Tit
+    short: Ti

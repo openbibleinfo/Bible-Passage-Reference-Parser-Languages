@@ -1,0 +1,114 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Ɛn Ya Vannáb Úr Pu Zaŋ Ní
+      - Ɛn ya Vannáb
+  - osis: Ps
+    texts:
+      - Vɛ́rtò
+  - osis: Matt
+    texts:
+      - Mata
+      - Mt
+  - osis: Mark
+    texts:
+      - Marku
+      - Mk
+  - osis: Luke
+    texts:
+      - Luka
+      - Lk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Zaŋ
+  - osis: Acts
+    texts:
+      - Tòmnábtò Tonómi
+      - Tòm
+  - osis: Rom
+    texts:
+      - Romanábò
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintunáb
+      - Kor
+  - osis: Col
+    texts:
+      - Kolosináb
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatináb
+      - Gal
+  - osis: Eph
+    texts:
+      - Ɛfesunáb
+      - Ɛfe
+  - osis: Phil
+    texts:
+      - Filipináb
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonináb
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+      - Tim
+  - osis: Titus
+    texts:
+      - Titu
+  - osis: Phlm
+    texts:
+      - Filimanu
+      - Flm
+  - osis: Heb
+    texts:
+      - Ɛbərətò
+      - Ɛbə
+  - osis: Jas
+    texts:
+      - Zaki Dɛrwalɛ
+      - Zaki
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piɛr
+      - Pi
+  - osis: Jude
+    texts:
+      - Zuda Dɛrwalɛ
+      - Zud
+translations:
+  - PNT

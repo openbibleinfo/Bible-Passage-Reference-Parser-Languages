@@ -1,0 +1,140 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Khái Huyền
+      - Khn
+  - osis: Matt
+    texts:
+      - Ma-thi-ơ
+      - Mat
+  - osis: Mark
+    texts:
+      - Mác
+  - osis: Luke
+    texts:
+      - Lu-ca
+      - Lca
+  - osis: 1John
+    texts:
+      - 1Gig
+  - osis: 2John
+    texts:
+      - 2Gig
+  - osis: 3John
+    texts:
+      - 3 Giăng
+      - 3Gig
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Giăng
+  - osis: John
+    texts:
+      - Giăng
+      - Gig
+  - osis: Acts
+    texts:
+      - Tàn Wiêc
+      - Wiê
+  - osis: Rom
+    texts:
+      - Đô-ma
+      - Đô
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Cô-đinh-tô
+  - osis: 1Cor
+    texts:
+      - 1Cô
+  - osis: 2Cor
+    texts:
+      - 2Cô
+  - osis: Col
+    texts:
+      - Cô-lô-xe
+      - Côl
+  - osis: Gal
+    texts:
+      - Ga-la-ti
+      - Gal
+  - osis: Eph
+    texts:
+      - Ê-phê-xô
+      - Êph
+  - osis: Phil
+    texts:
+      - Phi-líp-pi
+      - Php
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tê-xa-lô-ni-ca
+  - osis: 1Thess
+    texts:
+      - 1Tê
+  - osis: 2Thess
+    texts:
+      - 2Tê
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Ti-mô-thê
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Ti-tốt
+      - Tit
+  - osis: Phlm
+    texts:
+      - Phi-lê-môn
+      - Phm
+  - osis: Heb
+    texts:
+      - Hê-bơ-đơ
+      - Hêb
+  - osis: Jas
+    texts:
+      - Gia-cơ
+      - Gia
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Phi-e-đơ
+  - osis: 1Pet
+    texts:
+      - 1Phi
+  - osis: 2Pet
+    texts:
+      - 2Phi
+  - osis: Jude
+    texts:
+      - Giu-đe
+      - Giđ
+translations:
+  - MTQ2020

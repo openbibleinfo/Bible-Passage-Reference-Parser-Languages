@@ -1,0 +1,141 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Apocalipse
+      - Ap
+  - osis: Matt
+    texts:
+      - Mateu
+      - Mt
+  - osis: Mark
+    texts:
+      - Maku
+      - Mk
+  - osis: Luke
+    texts:
+      - Luka
+      - Lk
+  - osis: 1John
+    texts:
+      - 1Ju
+  - osis: 2John
+    texts:
+      - 2Ju
+  - osis: 3John
+    texts:
+      - 3 Juã
+      - 3Ju
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Juã
+  - osis: John
+    texts:
+      - Juã
+      - Ju
+  - osis: Acts
+    texts:
+      - Atos
+      - At
+  - osis: Rom
+    texts:
+      - Romanũ
+      - Ro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korĩtu
+  - osis: 1Cor
+    texts:
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - 2Ko
+  - osis: Col
+    texts:
+      - Korosi
+      - Kor
+  - osis: Gal
+    texts:
+      - Garasi
+      - Ga
+  - osis: Eph
+    texts:
+      - Efesu
+      - Ef
+  - osis: Phil
+    texts:
+      - Firiposi
+      - Fp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesarũn
+  - osis: 1Thess
+    texts:
+      - 1Ts
+  - osis: 2Thess
+    texts:
+      - 2Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+  - osis: 1Tim
+    texts:
+      - 1Tm
+  - osis: 2Tim
+    texts:
+      - 2Tm
+  - osis: Titus
+    texts:
+      - Tito
+      - Tt
+  - osis: Phlm
+    texts:
+      - Firemõ
+      - Fm
+  - osis: Heb
+    texts:
+      - Epyreu
+      - Ep
+  - osis: Jas
+    texts:
+      - Tiago
+      - Tg
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pedro
+  - osis: 1Pet
+    texts:
+      - 1Pe
+  - osis: 2Pet
+    texts:
+      - 2Pe
+  - osis: Jude
+    texts:
+      - Judas
+      - Jud
+translations:
+  - KYZ

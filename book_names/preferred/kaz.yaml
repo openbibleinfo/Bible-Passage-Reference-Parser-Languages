@@ -1,0 +1,261 @@
+default:
+  1Chr:
+    long: Шежірелер 1-ж.
+    short: Шеж1
+  1Cor:
+    long: Қорынттықт. 1-хат
+    short: Қор 1
+  1John:
+    long: Жохан 1
+    short: Жох 1
+  1Kgs:
+    long: Патшалықтар 3-ж.
+    short: Пат3
+  1Pet:
+    long: Петір 1
+    short: Пет 1
+  1Sam:
+    long: Патшалықтар 1-ж.
+    short: Пат1
+  1Thess:
+    long: Салониқал. 1-хат
+    short: Сал 1
+  1Tim:
+    long: Тимотейге 1
+    short: Тім 1
+  2Chr:
+    long: Шежірелер 2-ж.
+    short: Шеж2
+  2Cor:
+    long: Қорынттықт. 2-хат
+    short: Қор 2
+  2John:
+    long: Жохан 2
+    short: Жох 2
+  2Kgs:
+    long: Патшалықтар 4-ж.
+    short: Пат4
+  2Pet:
+    long: Петір 2
+    short: Пет 2
+  2Sam:
+    long: Патшалықтар 2-ж.
+    short: Пат2
+  2Thess:
+    long: Салониқал. 2-хат
+    short: Сал 2
+  2Tim:
+    long: Тимотейге 2
+    short: Тім 2
+  3John:
+    long: Жохан 3
+    short: Жох 3
+  Acts:
+    long: Елшіл. істері
+    short: Елш
+  Amos:
+    long: Амос
+    short: Амо
+  Col:
+    long: Қолостықт. хат
+    short: Қол
+  Dan:
+    long: Даниял
+    short: Дан
+  Deut:
+    long: Заңды қайталау
+    short: Заң
+  Eccl:
+    long: Уағыздаушы
+    short: Уағ
+  Eph:
+    long: Ефестікт. хат
+    short: Еф
+  Esth:
+    long: Естер
+    short: Ест
+  Exod:
+    long: Мысырдан шығу
+    short: Мыс
+  Ezek:
+    long: Езекиел
+    short: Езк
+  Ezra:
+    long: Езра
+    short: Езр
+  Gal:
+    long: Ғалаттықт. хат
+    short: Ғал
+  Gen:
+    long: Жаратылыстың баст.
+    short: Жар
+  Hab:
+    long: Аббақұқ
+    short: Абқ
+  Hag:
+    long: Хаққай
+    short: Хақ
+  Heb:
+    long: Еврейлерге
+    short: Евр
+  Hos:
+    long: Ошия
+    short: Ош
+  Isa:
+    long: Ишая
+    short: Иш
+  Jas:
+    long: Жақып
+    short: Жақ
+  Jer:
+    long: Еремия
+    short: Ерм
+  Job:
+    long: Әйүп
+    short: Әйүп
+  Joel:
+    long: Жоел
+    short: Жое
+  John:
+    long: Жохан
+    short: Жох
+  Jonah:
+    long: Жүніс
+    short: Жүн
+  Josh:
+    long: Ешуа
+    short: Еш
+  Jude:
+    long: Яһуда
+    short: Яһд
+  Judg:
+    long: Билер
+    short: Бил
+  Lam:
+    long: Жоқтау
+    short: Жоқт
+  Lev:
+    long: Леуіліктер
+    short: Леу
+  Luke:
+    long: Лұқа
+    short: Лұқ
+  Mal:
+    long: Малахи
+    short: Мал
+  Mark:
+    long: Марқа
+    short: Мар
+  Matt:
+    long: Матай
+    short: Мат
+  Mic:
+    long: Миха
+    short: Мих
+  Nah:
+    long: Нақұм
+    short: Нқм
+  Neh:
+    long: Нехемия
+    short: Нех
+  Num:
+    long: Руларды санау
+    short: Рул
+  Obad:
+    long: Абди
+    short: Абд
+  Phil:
+    long: Філіпілікт. хат
+    short: Флп
+  Phlm:
+    long: Філимонға
+    short: Флм
+  Prov:
+    long: Нақыл сөздер
+    short: Нқл
+  Ps:
+    long: Забур жырлары
+    short: Жыр
+  Rev:
+    long: Аян
+    short: Аян
+  Rom:
+    long: Римдіктерге
+    short: Рим
+  Ruth:
+    long: Рут
+    short: Рут
+  Song:
+    long: Таңдаулы ән
+    short: Ән
+  Titus:
+    long: Титке
+    short: Тит
+  Zech:
+    long: Зәкәрия
+    short: Зәк
+  Zeph:
+    long: Софония
+    short: Соф
+translations:
+  qazbi2010:
+    1Cor:
+      short: Қор1
+    1John:
+      long: Жоханның 1-хаты
+      short: Жох1
+    1Pet:
+      long: Петірдің 1-хаты
+      short: Пет1
+    1Thess:
+      short: Сал1
+    1Tim:
+      long: Тімотеге 1-хат
+      short: Тім1
+    2Cor:
+      short: Қор2
+    2John:
+      long: Жоханның 2-хаты
+      short: Жох2
+    2Pet:
+      long: Петірдің 2-хаты
+      short: Пет2
+    2Thess:
+      short: Сал2
+    2Tim:
+      long: Тімотеге 2-хат
+      short: Тім2
+    3John:
+      long: Жоханның 3-хаты
+      short: Жох3
+    Heb:
+      long: Еврейлерге хат
+    Jas:
+      long: Жақыптың хаты
+    Jude:
+      long: Яһуданың хаты
+    Phlm:
+      long: Філимонға хат
+    Rom:
+      long: Римдіктерге хат
+    Titus:
+      long: Титке хат
+  ntkaz:
+    1Cor:
+      long: Қорынттықтарға 1
+    1Thess:
+      long: Салониқалықтарға 1
+    2Cor:
+      long: Қорынттықтарға 2
+    2Thess:
+      long: Салониқалықтарға 2
+    Acts:
+      long: Елшілер
+    Col:
+      long: Қолостықтарға
+    Eph:
+      long: Ефестіктерге
+    Gal:
+      long: Ғалаттықтарға
+    Phil:
+      long: Філіпіліктерге

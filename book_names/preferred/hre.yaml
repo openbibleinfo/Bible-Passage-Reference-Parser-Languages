@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 'Nhòng Bùa
+    short: 1Nb
+  1Cor:
+    long: 1 Cô-rinh-tô
+    short: 1Cô
+  1John:
+    long: 1 Jon
+    short: 1Jon
+  1Kgs:
+    long: 1 'Bài Bùa
+    short: 1Bùa
+  1Pet:
+    long: 1 Pêtrô
+    short: 1Pêt
+  1Sam:
+    long: 1 Sa-mu-ên
+    short: 1Sam
+  1Thess:
+    long: 1 Tê-sa-lô-ni-ca
+    short: 1Tês
+  1Tim:
+    long: 1 Ti-mô-thê
+    short: 1Tim
+  2Chr:
+    long: 2 'Nhòng Bùa
+    short: 2Nb
+  2Cor:
+    long: 2 Cô-rinh-tô
+    short: 2Cô
+  2John:
+    long: 2 Jon
+    short: 2Jon
+  2Kgs:
+    long: 2 'Bài Bùa
+    short: 2Bùa
+  2Pet:
+    long: 2 Pêtrô
+    short: 2Pêt
+  2Sam:
+    long: 2 Sa-mu-ên
+    short: 2Sam
+  2Thess:
+    long: 2 Tê-sa-lô-ni-ca
+    short: 2Tês
+  2Tim:
+    long: 2 Ti-mô-thê
+    short: 2Tim
+  3John:
+    long: 3 Jon
+    short: 3Jon
+  Acts:
+    long: Bìac Yiang Hadròih
+    short: Byh
+  Amos:
+    long: Amôt
+    short: Amôt
+  Col:
+    long: Cô-lô-se
+    short: Côl
+  Dan:
+    long: Đa-ni-ên
+    short: Đan
+  Deut:
+    long: Ranenh Achìh Hlài
+    short: Rah
+  Eccl:
+    long: Bàu Anoi Hnài
+    short: Bah
+  Eph:
+    long: Ê-phê-sô
+    short: Êph
+  Esth:
+    long: Êxtê
+    short: Êxtê
+  Exod:
+    long: Loh Enh Aicàp
+    short: Lea
+  Ezek:
+    long: Ê-xê-chi-ên
+    short: Êxê
+  Ezra:
+    long: Êxra
+    short: Êxra
+  Gal:
+    long: Ga-la-ti
+    short: Gal
+  Gen:
+    long: Bìac Baxèm
+    short: Bb
+  Hab:
+    long: Ha-ba-cuc
+    short: Hab
+  Hag:
+    long: Hagai
+    short: Hag
+  Heb:
+    long: Hêbru
+    short: Hêb
+  Hos:
+    long: Ôsê
+    short: Ôsê
+  Isa:
+    long: Êsai
+    short: Êsai
+  Jas:
+    long: Jacò
+    short: Jac
+  Jer:
+    long: Jê-rê-mi
+    short: Jêr
+  Job:
+    long: Jop
+    short: Jop
+  Joel:
+    long: Jôên
+    short: Jôên
+  John:
+    long: Jon
+    short: Jon
+  Jonah:
+    long: Jôna
+    short: Jôna
+  Josh:
+    long: Jôsuê
+    short: Jôs
+  Jude:
+    long: Juđe
+    short: Juđ
+  Judg:
+    long: "'Bài Cwan Hadrah"
+    short: Bch
+  Lam:
+    long: Bàu Ha-on
+    short: Ha-on
+  Lev:
+    long: Lêwi
+    short: Lêwi
+  Luke:
+    long: Luca
+    short: Luc
+  Mal:
+    long: Ma-la-chi
+    short: Mal
+  Mark:
+    long: Mŏc
+    short: Mŏc
+  Matt:
+    long: Mathêu
+    short: Mat
+  Mic:
+    long: Mica
+    short: Mica
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nê-hê-mi
+    short: Nêh
+  Num:
+    long: Sôq Jàn
+    short: Sj
+  Obad:
+    long: Apđia
+    short: Apđia
+  Phil:
+    long: Philip
+    short: Philip
+  Phlm:
+    long: Phi-lê-môn
+    short: Phil
+  Prov:
+    long: Bàu Rabiaq
+    short: Br
+  Ps:
+    long: "'Bŏi Calêu Plình"
+    short: Bcp
+  Rev:
+    long: Bìac Mahno
+    short: Bm
+  Rom:
+    long: Rôma
+    short: Rôm
+  Ruth:
+    long: Rut
+    short: Rut
+  Song:
+    long: "'Bŏi Calêu"
+    short: Bc
+  Titus:
+    long: Tit
+    short: Tit
+  Zech:
+    long: Xa-cha-ri
+    short: Xach
+  Zeph:
+    long: Sô-phô-ni
+    short: Sôph

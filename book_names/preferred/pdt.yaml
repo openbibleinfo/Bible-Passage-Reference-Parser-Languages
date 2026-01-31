@@ -1,0 +1,248 @@
+default:
+  1Chr:
+    long: 1. Chronik
+    short: 1Chr
+  1Cor:
+    long: 1. Korinta
+    short: 1Kor
+  1John:
+    long: 1. Johanes
+    short: 1Joh
+  1Kgs:
+    long: 1. Kjennichs
+    short: 1Kje
+  1Pet:
+    long: 1. Petrus
+    short: 1Pet
+  1Sam:
+    long: 1. Samuel
+    short: 1Sam
+  1Thess:
+    long: 1. Tessalonicha
+    short: 1Tes
+  1Tim:
+    long: 1. Timotäus
+    short: 1Tim
+  2Chr:
+    long: 2. Chronik
+    short: 2Chr
+  2Cor:
+    long: 2. Korinta
+    short: 2Kor
+  2John:
+    long: 2. Johanes
+    short: 2Joh
+  2Kgs:
+    long: 2. Kjennichs
+    short: 2Kje
+  2Pet:
+    long: 2. Petrus
+    short: 2Pet
+  2Sam:
+    long: 2. Samuel
+    short: 2Sam
+  2Thess:
+    long: 2. Tessalonicha
+    short: 2Tes
+  2Tim:
+    long: 2. Timotäus
+    short: 2Tim
+  3John:
+    long: 3. Johanes
+    short: 3Joh
+  Acts:
+    long: Aposteljeschicht
+    short: Apo
+  Amos:
+    long: Amos
+    short: Amos
+  Col:
+    long: Kolossa
+    short: Kol
+  Dan:
+    long: Daniel
+    short: Dan
+  Deut:
+    long: 5. Mose
+    short: 5Mo
+  Eccl:
+    long: Liera
+    short: Liera
+  Eph:
+    long: Efeesa
+    short: Efe
+  Esth:
+    long: Esta
+    short: Est
+  Exod:
+    long: 2. Mose
+    short: 2Mo
+  Ezek:
+    long: Hesekiel
+    short: Hes
+  Ezra:
+    long: Esra
+    short: Esra
+  Gal:
+    long: Galata
+    short: Gal
+  Gen:
+    long: 1. Mose
+    short: 1Mo
+  Hab:
+    long: Habakuk
+    short: Hab
+  Hag:
+    long: Hagai
+    short: Hag
+  Heb:
+    long: Hebräa
+    short: Heb
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Jesaja
+    short: Jes
+  Jas:
+    long: Jakobus
+    short: Jak
+  Jer:
+    long: Jeremia
+    short: Jer
+  Job:
+    long: Hiob
+    short: Hiob
+  Joel:
+    long: Joel
+    short: Joel
+  John:
+    long: Johanes
+    short: Jeh
+  Jonah:
+    long: Jona
+    short: Jona
+  Josh:
+    long: Josua
+    short: Jos
+  Jude:
+    long: Judas
+    short: Jud
+  Judg:
+    long: Rechta
+    short: Rech
+  Lam:
+    long: Kloagleeda
+    short: Kloa
+  Lev:
+    long: 3. Mose
+    short: 3Mo
+  Luke:
+    long: Lukas
+    short: Luk
+  Mal:
+    long: Maleachi
+    short: Mal
+  Mark:
+    long: Markus
+    short: Mar
+  Matt:
+    long: Matäus
+    short: Mat
+  Mic:
+    long: Micha
+    short: Micha
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nehemia
+    short: Neh
+  Num:
+    long: 4. Mose
+    short: 4Mo
+  Obad:
+    long: Obadja
+    short: Oba
+  Phil:
+    long: Filippa
+    short: Fili
+  Phlm:
+    long: Filemon
+    short: Fil
+  Prov:
+    long: Spricha
+    short: Spr
+  Ps:
+    long: Psalm
+    short: Psa
+  Rev:
+    long: Openboarunk
+    short: Opb
+  Rom:
+    long: Reema
+    short: Reema
+  Ruth:
+    long: Rut
+    short: Rut
+  Song:
+    long: Daut Leet
+    short: Leet
+  Titus:
+    long: Titus
+    short: Tit
+  Zech:
+    long: Sacharja
+    short: Sach
+  Zeph:
+    long: Zefanja
+    short: Zef
+translations:
+  pb:
+    1Kgs:
+      short: 1Kjen
+    1Thess:
+      short: 1Tess
+    2Kgs:
+      short: 2Kjen
+    2Thess:
+      short: 2Tess
+    Acts:
+      short: Apost
+    Eph:
+      short: Efs
+    Esth:
+      long: Ester
+    John:
+      short: Joh
+    Lam:
+      short: Kloag
+    Mark:
+      short: Mrk
+    Phil:
+      short: Flp
+    Ps:
+      long: Psalmen
+  pbjhf:
+    Deut:
+      short: 5Mos
+    Esth:
+      short: Esta
+    Exod:
+      short: 2Mos
+    Gen:
+      short: 1Mos
+    Jude:
+      short: Judas
+    Lev:
+      short: 3Mos
+    Nah:
+      short: Nahum
+    Num:
+      short: 4Mos
+    Ps:
+      short: Psalm
+    Rev:
+      short: Ope
+    Song:
+      long: Leet de Leeda

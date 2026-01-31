@@ -1,0 +1,96 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Ɛɛnycan O Loocu
+  - osis: Rev
+    texts:
+      - Wunozyak
+  - osis: Matt
+    texts:
+      - Matiyu
+  - osis: Mark
+    texts:
+      - Marko
+  - osis: Luke
+    texts:
+      - Luka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jɔn
+  - osis: Acts
+    texts:
+      - Toonnyak
+  - osis: Rom
+    texts:
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintiya
+  - osis: Col
+    texts:
+      - Kolosiya
+  - osis: Gal
+    texts:
+      - Galatiya
+  - osis: Eph
+    texts:
+      - Evesos
+  - osis: Phil
+    texts:
+      - Vilipiya
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tɛsalonika
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timozi
+  - osis: Titus
+    texts:
+      - Titos
+  - osis: Phlm
+    texts:
+      - Vilimon
+  - osis: Heb
+    texts:
+      - Ibiro
+  - osis: Jas
+    texts:
+      - Jemis
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pitɔr
+  - osis: Jude
+    texts:
+      - Jud
+translations:
+  - MUR

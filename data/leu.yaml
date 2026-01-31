@@ -1,0 +1,146 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Kuusan Fasavatan
+      - Kf
+  - osis: Matt
+    texts:
+      - Matiu
+      - Mt
+  - osis: Mark
+    texts:
+      - Maak
+      - Mk
+  - osis: Luke
+    texts:
+      - Luuk
+      - Lk
+  - osis: 1John
+    texts:
+      - 1Jn
+  - osis: 2John
+    texts:
+      - 2Jn
+  - osis: 3John
+    texts:
+      - 3 Jon
+      - 3 Jn
+      - 3Jn
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jon
+      - Jn
+  - osis: Acts
+    texts:
+      - Faisok sina mu Yaamut
+      - Faisok
+      - Fk
+  - osis: Rom
+    texts:
+      - Rom
+      - Rm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korin
+      - Kr
+  - osis: 1Cor
+    texts:
+      - 1Kr
+  - osis: 2Cor
+    texts:
+      - 2Kr
+  - osis: Col
+    texts:
+      - Kolaasi
+      - Kl
+  - osis: Gal
+    texts:
+      - Galesia
+      - Gl
+  - osis: Eph
+    texts:
+      - Efasis
+      - Ef
+  - osis: Phil
+    texts:
+      - Filipai
+      - Fp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonaika
+      - Ts
+  - osis: 1Thess
+    texts:
+      - 1Ts
+  - osis: 2Thess
+    texts:
+      - 2Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+      - Tm
+  - osis: 1Tim
+    texts:
+      - 1Tm
+  - osis: 2Tim
+    texts:
+      - 2Tm
+  - osis: Titus
+    texts:
+      - Taitus
+      - Tt
+  - osis: Phlm
+    texts:
+      - Failimon
+      - Fm
+  - osis: Heb
+    texts:
+      - Hibru
+      - Hb
+  - osis: Jas
+    texts:
+      - Jems
+      - Js
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+      - Pt
+  - osis: 1Pet
+    texts:
+      - 1Pt
+  - osis: 2Pet
+    texts:
+      - 2Pt
+  - osis: Jude
+    texts:
+      - Juut
+      - Jt
+translations:
+  - TFSP
+  - LEU

@@ -1,0 +1,345 @@
+- osis: Gen
+  texts:
+    - پیدایش
+- osis: Exod
+  texts:
+    - خروج
+- osis: Lev
+  texts:
+    - لاویان
+- osis: Num
+  texts:
+    - اعداد
+- osis: Lam
+  texts:
+    - مراثی اِرمیا
+    - سوگ‌نامه
+    - سوگنامه
+    - مراثی
+- osis: Rev
+  texts:
+    - مکاشفهٔ یوحنا
+    - مکاشفۀ یوحنا
+    - مکاشفه
+- osis: Deut
+  texts:
+    - تثنیه
+- osis: Josh
+  texts:
+    - یوشع
+- osis: Judg
+  texts:
+    - داوران
+- osis: Ruth
+  texts:
+    - روت
+- osis: Isa
+  texts:
+    - اِشعیا
+    - اشعیا
+- osis: 1Sam
+  texts:
+    - اول سموئیل
+    - اول. سموئیل
+    - اوّل سموئیل
+    - اوّل. سموئیل
+- osis: 2Sam
+  texts:
+    - دوم سموئیل
+    - دوم. سموئیل
+    - دوّم سموئیل
+    - دوّم. سموئیل
+- osis: 1Sam
+  texts:
+    - ۱سموئیل
+- osis: 2Sam
+  texts:
+    - ۲سموئیل
+- osis: 1Kgs
+  texts:
+    - اول پادشاهان
+    - اول. پادشاهان
+    - اوّل پادشاهان
+    - اوّل. پادشاهان
+- osis: 2Kgs
+  texts:
+    - دوم پادشاهان
+    - دوم. پادشاهان
+    - دوّم پادشاهان
+    - دوّم. پادشاهان
+- osis: 1Kgs
+  texts:
+    - ۱پادشاهان
+- osis: 2Kgs
+  texts:
+    - ۲پادشاهان
+- osis: 1Chr
+  texts:
+    - اول تواریخ
+    - اول. تواریخ
+    - اوّل تواریخ
+    - اوّل. تواریخ
+- osis: 2Chr
+  texts:
+    - دوم تواریخ
+    - دوم. تواریخ
+    - دوّم تواریخ
+    - دوّم. تواریخ
+- osis: 1Chr
+  texts:
+    - ۱تواریخ
+- osis: 2Chr
+  texts:
+    - ۲تواریخ
+- osis: Ezra
+  texts:
+    - عِزرا
+    - عزرا
+- osis: Neh
+  texts:
+    - نِحِمیا
+    - نحمیا
+- osis: Esth
+  texts:
+    - استِر
+    - اِستر
+    - استر
+- osis: Job
+  texts:
+    - ایّوب
+    - ایوب
+- osis: Ps
+  texts:
+    - مزامیر
+    - مزمور
+- osis: Prov
+  texts:
+    - امثال
+- osis: Eccl
+  texts:
+    - جامعه
+- osis: Song
+  texts:
+    - غزل غزل‌ها
+    - غزل‌غزل‌ها
+    - غزل غزلها
+    - غزلها
+- osis: Jer
+  texts:
+    - اِرمیا
+    - ارمیا
+- osis: Ezek
+  texts:
+    - حِزِقیال
+    - حِزقیال
+    - حزقیال
+- osis: Dan
+  texts:
+    - دانیال
+- osis: Hos
+  texts:
+    - هوشع
+- osis: Joel
+  texts:
+    - یوئیل
+- osis: Amos
+  texts:
+    - عاموس نبی
+    - عاموس
+- osis: Obad
+  texts:
+    - عوبَدیا
+    - عوبدیا
+- osis: Jonah
+  texts:
+    - یونس
+- osis: Mic
+  texts:
+    - میکاه
+    - میکا
+- osis: Nah
+  texts:
+    - ناحوم
+- osis: Hab
+  texts:
+    - حَبَقوق
+    - حبقوق
+- osis: Zeph
+  texts:
+    - صَفَنیا
+    - صفنیا
+- osis: Hag
+  texts:
+    - حَجّای
+    - حَجَّی
+    - حجی
+- osis: Zech
+  texts:
+    - زَکریا
+    - زکریا
+- osis: Mal
+  texts:
+    - مَلاکی
+    - ملاکی
+- osis: Matt
+  texts:
+    - مَتّی
+    - متّی
+    - متی
+- osis: Mark
+  texts:
+    - مَرقُس
+    - مرقس
+- osis: Luke
+  texts:
+    - لوقا
+- osis: 1John
+  texts:
+    - ۱یوحنا
+- osis: 2John
+  texts:
+    - ۲یوحنا
+- osis: 3John
+  texts:
+    - سوّم یوحنا
+    - سوم یوحنا
+    - ۳یوحنا
+- osis: 1John
+  texts:
+    - اول یوحنا
+    - اول. یوحنا
+    - اوّل یوحنا
+    - اوّل. یوحنا
+- osis: 2John
+  texts:
+    - دوم یوحنا
+    - دوم. یوحنا
+    - دوّم یوحنا
+    - دوّم. یوحنا
+- osis: John
+  texts:
+    - یوحنا
+- osis: Acts
+  texts:
+    - کارهای رسولان
+    - اعمال رسولان
+    - اعمال
+- osis: Rom
+  texts:
+    - رومیان
+- osis: 1Cor
+  texts:
+    - اول قرنتیان
+    - اول. قرنتیان
+    - اوّل قرنتیان
+    - اوّل. قرنتیان
+- osis: 2Cor
+  texts:
+    - دوم قرنتیان
+    - دوم. قرنتیان
+    - دوّم قرنتیان
+    - دوّم. قرنتیان
+- osis: 1Cor
+  texts:
+    - ۱قرنتیان
+- osis: 2Cor
+  texts:
+    - ۲قرنتیان
+- osis: Col
+  texts:
+    - کولُسیان
+    - کولسیان
+- osis: Gal
+  texts:
+    - غلاطیان
+- osis: Eph
+  texts:
+    - اَفِسُسیان
+    - اَفِسسیان
+    - افسسیان
+- osis: Phil
+  texts:
+    - فیلیپیان
+    - فلیپیان
+- osis: 1Thess
+  texts:
+    - اول تسالونیکیان
+    - اول. تسالونیکیان
+    - اوّل تسالونیکیان
+    - اوّل. تسالونیکیان
+- osis: 2Thess
+  texts:
+    - دوم تسالونیکیان
+    - دوم. تسالونیکیان
+    - دوّم تسالونیکیان
+    - دوّم. تسالونیکیان
+- osis: 1Thess
+  texts:
+    - ۱تسالونیکیان
+    - ۱تسالونیکان
+- osis: 2Thess
+  texts:
+    - ۲تسالونیکیان
+- osis: 1Tim
+  texts:
+    - اول تیموتائوس
+    - اول تیموتاؤس
+    - اول. تیموتائوس
+    - اول. تیموتاؤس
+    - اوّل تیموتائوس
+    - اوّل تیموتاؤس
+    - اوّل. تیموتائوس
+    - اوّل. تیموتاؤس
+- osis: 2Tim
+  texts:
+    - دوم تیموتائوس
+    - دوم تیموتاؤس
+    - دوم. تیموتائوس
+    - دوم. تیموتاؤس
+    - دوّم تیموتائوس
+    - دوّم تیموتاؤس
+    - دوّم. تیموتائوس
+    - دوّم. تیموتاؤس
+- osis: 1Tim
+  texts:
+    - ۱تیموتائوس
+- osis: 2Tim
+  texts:
+    - ۲تیموتائوس
+- osis: Titus
+  texts:
+    - تیتوس
+    - تیطُس
+    - تیطس
+- osis: Phlm
+  texts:
+    - فِلیمُون
+    - فیلیمون
+    - فلیمون
+- osis: Heb
+  texts:
+    - عبرانیان
+- osis: Jas
+  texts:
+    - یعقوب
+- osis: 1Pet
+  texts:
+    - اول پطرس
+    - اول. پطرس
+    - اوّل پطرس
+    - اوّل. پطرس
+- osis: 2Pet
+  texts:
+    - دوم پطرس
+    - دوم. پطرس
+    - دوّم پطرس
+    - دوّم. پطرس
+- osis: 1Pet
+  texts:
+    - ۱پطرس
+- osis: 2Pet
+  texts:
+    - ۲پطرس
+- osis: Jude
+  texts:
+    - یهودا

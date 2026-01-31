@@ -1,0 +1,290 @@
+default:
+  1Chr:
+    long: 1Alabaraɗe Də Mabərkiziti
+    short: 1Al
+  1Cor:
+    long: 1Korintus
+    short: 1Ko
+  1John:
+    long: 1Yohanna
+    short: 1Yoh
+  1Kgs:
+    long: 1Milyeŋge
+    short: 1Mi
+  1Macc:
+    long: 1Makabeɗe
+    short: 1Ma
+  1Pet:
+    long: 1Piyer
+    short: 1Pi
+  1Sam:
+    long: 1Samiyel
+    short: 1Sa
+  1Thess:
+    long: 1Tesaloniki
+    short: 1Te
+  1Tim:
+    long: 1Timote
+    short: 1Ti
+  2Chr:
+    long: 2Alabaraɗe Də Mabərkiziti
+    short: 2Al
+  2Cor:
+    long: 2Korintus
+    short: 2Ko
+  2John:
+    long: 2Yohanna
+    short: 2Yoh
+  2Kgs:
+    long: 2Milyeŋge
+    short: 2Mi
+  2Macc:
+    long: 2Makabeɗe
+    short: 2Ma
+  2Pet:
+    long: 2Piyer
+    short: 2Pi
+  2Sam:
+    long: 2Samiyel
+    short: 2Sa
+  2Thess:
+    long: 2Tesaloniki
+    short: 2Te
+  2Tim:
+    long: 2Timote
+    short: 2Ti
+  3John:
+    long: 3Yohanna
+    short: 3Yoh
+  Acts:
+    long: Wəza net Maslənɗe
+    short: Wnm
+  Amos:
+    long: Amos
+    short: Amo
+  Bar:
+    long: Baruk
+    short: Bar
+  Col:
+    long: Kolosi
+    short: Kol
+  Dan:
+    long: Daniyel
+    short: Dan
+  DanGr:
+    long: Daniyel Gərek
+    short: DaG
+  Deut:
+    long: Əmsak aka Mahenziŋ
+    short: Əms
+  Eccl:
+    long: Məsmaɗula
+    short: Mər
+  EpJer:
+    long: Letər na Yeremiya
+    short: Lny
+  Eph:
+    long: Efesus
+    short: Efe
+  Esth:
+    long: Ester
+    short: Est
+  EsthGr:
+    long: Ester Gərek
+    short: Egk
+  Exod:
+    long: Əgilye
+    short: Əgi
+  Ezek:
+    long: Ezekiyel
+    short: Eze
+  Ezra:
+    long: Ezra
+    short: Ezr
+  Gal:
+    long: Galat
+    short: Gal
+  Gen:
+    long: Va'Atəŋ
+    short: Vaa
+  Hab:
+    long: Habakuk
+    short: Hab
+  Hag:
+    long: Haggay
+    short: Hag
+  Heb:
+    long: Ibriɗe
+    short: Ibr
+  Hos:
+    long: Hose'a
+    short: Hos
+  Isa:
+    long: Isaya
+    short: Isa
+  Jas:
+    long: Yakob
+    short: Yak
+  Jdt:
+    long: Yudit
+    short: Ydt
+  Jer:
+    long: Yeremiya
+    short: Yer
+  Job:
+    long: Yob
+    short: Yob
+  Joel:
+    long: Yo'el
+    short: Yo'
+  John:
+    long: Yohanna
+    short: Yoh
+  Jonah:
+    long: Yonas
+    short: Yon
+  Josh:
+    long: Yosuwa
+    short: Yos
+  Jude:
+    long: Yuda
+    short: Yud
+  Judg:
+    long: Mətawaŋwəna
+    short: Mət
+  Lam:
+    long: Əɓuhma
+    short: Əɓu
+  Lev:
+    long: Məsdəlveŋge
+    short: Məs
+  Luke:
+    long: Luka
+    short: Luk
+  Mal:
+    long: Malakiya
+    short: Mal
+  Mark:
+    long: Markus
+    short: Mar
+  Matt:
+    long: Matiye
+    short: Mat
+  Mic:
+    long: Mika
+    short: MiK
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nehemi
+    short: Neh
+  Num:
+    long: Əŋɗa
+    short: Əŋɗ
+  Obad:
+    long: Obadya
+    short: Oba
+  Phil:
+    long: Filipi
+    short: Flp
+  Phlm:
+    long: Filemon
+    short: Flm
+  Prov:
+    long: Wənməkkpaŋga
+    short: Wən
+  Ps:
+    long: Gəlyaɗe
+    short: Glɗ
+  Rev:
+    long: Hənhən
+    short: Hnh
+  Rom:
+    long: Rom
+    short: Rom
+  Ruth:
+    long: Rut
+    short: Rut
+  Sir:
+    long: Sirasid
+    short: Sir
+  Song:
+    long: Gəlya net Gəlyaɗe
+    short: Gəl
+  Titus:
+    long: Titus
+    short: Tit
+  Tob:
+    long: Tobit
+    short: Tob
+  Wis:
+    long: Maɗɗula
+    short: Maɗ
+  Zech:
+    long: Zakarya
+    short: Zak
+  Zeph:
+    long: Sefanya
+    short: Sef
+translations:
+  gdrnt85:
+    1Cor:
+      long: 1 Korintiyen
+    1John:
+      long: 1 Zaŋ
+      short: 1Zŋ
+    1Pet:
+      long: 1 Piyer
+    1Thess:
+      long: 1 Tesalonikiyen
+    1Tim:
+      long: 1 Timote
+    2Cor:
+      long: 2 Korintiyen
+    2John:
+      long: 2 Zaŋ
+      short: 2Zŋ
+    2Pet:
+      long: 2 Piyer
+    2Thess:
+      long: 2 Tesalonikiyen
+    2Tim:
+      long: 2 Timote
+    3John:
+      long: 3 Zaŋ
+      short: 3Zŋ
+    Acts:
+      long: Wəza net Masləŋɗe
+      short: W.N.M.
+    Col:
+      long: Kolosiyen
+    Eph:
+      long: Efesiyen
+      short: Ef
+    Gal:
+      long: Galatiyen
+    Heb:
+      long: Yahudiyen
+      short: Yah
+    Jas:
+      long: Zak
+      short: Zak
+    John:
+      long: Zaŋ
+      short: Zaŋ
+    Jude:
+      long: Zuda
+      short: Zud
+    Luke:
+      short: Lk
+    Mark:
+      short: Mk
+    Matt:
+      short: Mt
+    Phil:
+      long: Filipiyen
+    Rev:
+      short: Hnz
+    Rom:
+      long: Roma

@@ -1,0 +1,126 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - ফারাকগিবা খাৎথা
+      - ফারাকা
+  - osis: Matt
+    texts:
+      - মথি
+  - osis: Mark
+    texts:
+      - মার্ক
+  - osis: Luke
+    texts:
+      - লূক
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - যোহন
+      - যোহ
+  - osis: John
+    texts:
+      - যোহননা
+      - যোহন
+  - osis: Acts
+    texts:
+      - ওয়াত্তেতারাংনা
+      - ওয়াত্তেতা
+  - osis: Rom
+    texts:
+      - রোমানরাংনা
+      - রোম
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - করিন্থী
+  - osis: 1Cor
+    texts:
+      - 1ম করিন্থীয়রাংনা
+  - osis: 2Cor
+    texts:
+      - 2য় করিন্থীয়রাংনা
+  - osis: Col
+    texts:
+      - কলসীয়রাংনা
+      - কলসী
+  - osis: Gal
+    texts:
+      - গালাতীয়রাংনা
+      - গালা
+  - osis: Eph
+    texts:
+      - ইফিষীয়রাংনা
+      - ইফি
+  - osis: Phil
+    texts:
+      - ফিলিপীয়রাংনা
+      - ফিলি
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - থিষলনীকী
+      - থিষলনী
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - থিষলনীকীয়রাংনা
+      - থিষলনী
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - তীমথিয়
+      - তীম
+  - osis: Titus
+    texts:
+      - তীতনা
+      - তীত
+  - osis: Phlm
+    texts:
+      - ফিলীমনা
+      - ফিলী
+  - osis: Heb
+    texts:
+      - ইব্রীয়রাংনা
+      - ইব্রী
+  - osis: Jas
+    texts:
+      - যাকোব
+  - osis: 2Pet
+    texts:
+      - ২ পিতর
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - পিতর
+  - osis: 1Pet
+    texts:
+      - পিতর
+  - osis: Jude
+    texts:
+      - যিহূদা
+      - যিহূ
+translations:
+  - GLNT

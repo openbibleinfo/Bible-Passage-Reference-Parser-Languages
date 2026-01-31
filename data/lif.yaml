@@ -1,0 +1,349 @@
+variables:
+  first: &first
+    - १
+    - ᥇
+  second: &second
+    - २
+    - ᥈
+books:
+  - osis: Gen
+    texts:
+      - तोलिङ्‌सोमु
+      - ᤋᤥᤗᤡᤱᤛᤥᤔᤢ
+      - तोलिङ्
+      - ᤋᤥᤗᤡᤱ
+  - osis: Exod
+    texts:
+      - लाम्‍दिक्
+      - ᤗᤠᤶᤍᤡᤰ
+      - ला
+      - ᤗᤠ
+  - osis: Lev
+    texts:
+      - ले़बि
+      - ᤗᤧᤒᤡ
+  - osis: Num
+    texts:
+      - खानिःत्
+      - ᤂᤠᤏᤡ᤺ᤳ
+  - osis: Lam
+    texts:
+      - मे़रिङ् साप्‍पन्
+      - ᤔᤧᤖᤡᤱ ᤛᤠᤵᤐᤴ
+      - मे़ सा
+      - ᤔᤧ ᤛᤠ
+  - osis: Rev
+    texts:
+      - सुफो
+      - ᤛᤢᤑᤥ
+  - osis: Deut
+    texts:
+      - साम्‌योथिम् इङ्
+      - ᤛᤠᤶᤕᤥᤌᤡᤶ ᤀᤡᤱ
+      - साम्‌यो इङ्
+      - ᤛᤠᤶᤕᤥ ᤀᤡᤱ
+  - osis: Josh
+    texts:
+      - यहोसु
+      - ᤕᤜᤥᤛᤢ
+      - यहो
+      - ᤕᤜᤥ
+  - osis: Judg
+    texts:
+      - खासे़न्‍लोःम्‍बा
+      - ᤂᤠᤛᤧᤴᤗᤥ᤺ᤶᤒᤠ
+      - खालो
+      - ᤂᤠᤗᤥ
+  - osis: Ruth
+    texts:
+      - रुथ
+      - ᤖᤢᤌ
+  - osis: Isa
+    texts:
+      - यसैया
+      - ᤕᤛᤤᤕᤠ
+      - यसै
+      - ᤕᤛᤤ
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - सामुए़ल
+      - ᤛᤠᤔᤢᤀᤧᤗ
+      - सामु
+      - ᤛᤠᤔᤢ
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - हाङ्
+      - ᤜᤠᤱ
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - साप्‍मुःन्‍धुम्
+      - ᤛᤠᤵᤔᤢ᤺ᤴᤎᤢᤶ
+      - साप्‍मु
+      - ᤛᤠᤵᤔᤢ
+  - osis: Ezra
+    texts:
+      - ए़ज्रा
+      - ᤀᤧᤈᤪᤠ
+  - osis: Neh
+    texts:
+      - नहेम्‍याह
+      - ᤏᤜᤣᤔᤩᤠᤜ
+      - नहे
+      - ᤏᤜᤣ
+  - osis: Esth
+    texts:
+      - ए़स्‍तर
+      - ᤀᤧᤛ᤻ᤋᤖ
+  - osis: Job
+    texts:
+      - अयुब
+      - ᤀᤕᤢᤒ
+  - osis: Ps
+    texts:
+      - निङ्‌वाॽफु साम्‍लोसुम्
+      - ᤏᤡᤱᤘᤠ᤹ᤑᤢ ᤛᤠᤶᤗᤥᤛᤢᤶ
+      - निङ् सुम्
+      - ᤏᤡᤱ ᤛᤢᤶ
+  - osis: Prov
+    texts:
+      - खाहुन्
+      - ᤂᤠᤜᤢᤴ
+  - osis: Eccl
+    texts:
+      - खाहुन्‍साबा
+      - ᤂᤠᤜᤢᤴᤛᤠᤒᤠ
+      - खा साबा
+      - ᤂᤠ ᤛᤠᤒᤠ
+  - osis: Song
+    texts:
+      - सोलोमनरे़ कुसाम्‍लो
+      - ᤛᤥᤗᤥᤔᤏᤖᤧ ᤁᤢᤛᤠᤶᤗᤥ
+      - सोलो साम्‍लो
+      - ᤛᤥᤗᤥ ᤛᤠᤶᤗᤥ
+  - osis: Jer
+    texts:
+      - यर्मिया
+      - ᤕᤷᤔᤡᤕᤠ
+      - यर्मि
+      - ᤕᤷᤔᤡ
+  - osis: Ezek
+    texts:
+      - ᤀᤡᤈᤁᤡᤀᤣᤗ
+      - इजकिएल
+      - ᤀᤡᤈ
+      - इज
+  - osis: Dan
+    texts:
+      - दानिए़ल
+      - ᤍᤠᤏᤡᤀᤧᤗ
+      - दानि
+      - ᤍᤠᤏᤡ
+  - osis: Hos
+    texts:
+      - होसे
+      - ᤜᤥᤛᤣ
+  - osis: Joel
+    texts:
+      - ᤕᤥᤀᤣᤗ
+      - योएल
+      - ᤕᤥᤀᤣ
+      - योए
+  - osis: Amos
+    texts:
+      - ᤀᤠᤔᤥᤛ
+      - आमोस
+      - ᤀᤠᤔᤥ
+      - आमो
+  - osis: Obad
+    texts:
+      - ᤀᤥᤒᤍᤡᤕᤠ
+      - ओबदिया
+      - ᤀᤥᤒ
+      - ओब
+  - osis: Jonah
+    texts:
+      - योना
+      - ᤕᤥᤏᤠ
+  - osis: Mic
+    texts:
+      - मिका
+      - ᤔᤡᤁᤠ
+  - osis: Nah
+    texts:
+      - नहुम
+      - ᤏᤜᤢᤔ
+  - osis: Hab
+    texts:
+      - हबकुक
+      - ᤜᤒᤁᤢᤁ
+      - हब
+      - ᤜᤒ
+  - osis: Zeph
+    texts:
+      - सपन्‍याह
+      - ᤛᤐᤏᤩᤠᤜ
+      - सप
+      - ᤛᤐ
+  - osis: Hag
+    texts:
+      - हाग्‍गै
+      - ᤜᤠᤃ᤻ᤃᤤ
+  - osis: Zech
+    texts:
+      - जकरिया
+      - ᤈᤁᤖᤡᤕᤠ
+      - जक
+      - ᤈᤁ
+  - osis: Mal
+    texts:
+      - मलाकि
+      - ᤔᤗᤠᤁᤡ
+      - मला
+      - ᤔᤗᤠ
+  - osis: Matt
+    texts:
+      - मत्ति
+      - ᤔᤳᤋᤡ
+  - osis: Mark
+    texts:
+      - मर्कुस
+      - मर्कु
+      - ᤔᤷᤁᤢᤛ
+      - ᤔᤷᤁᤢ
+  - osis: Luke
+    texts:
+      - लुका
+      - ᤗᤢᤁᤠ
+  - osis: 3John
+    texts:
+      - ३ युहुन्‍ना
+      - ᥉ ᤕᤢᤜᤢᤴᤏᤠ
+      - ३ युहु
+      - ᥉ ᤕᤢᤜᤢ
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - युहुन्‍ना
+      - ᤕᤢᤜᤢᤴᤏᤠ
+      - युहु
+      - ᤕᤢᤜᤢ
+  - osis: Acts
+    texts:
+      - सेःक्‌युक्‍मिबाहाॽ
+      - ᤛᤣ᤺ᤰᤕᤢᤰᤔᤡᤒᤠᤜᤠ᤹
+      - सेःक्‌युक्
+      - ᤛᤣ᤺ᤰᤕᤢᤰ
+  - osis: Rom
+    texts:
+      - रोमि
+      - ᤖᤥᤔᤡ
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - कोरन्‍थि
+      - ᤁᤥᤖᤴᤌᤡ
+      - कोर
+      - ᤁᤥᤖ
+  - osis: Col
+    texts:
+      - कलस्‍सि
+      - ᤁᤗᤛ᤻ᤛᤡ
+      - कलस्‌
+      - ᤁᤗᤛ᤻
+  - osis: Gal
+    texts:
+      - गलाति
+      - ᤃᤗᤠᤋᤡ
+      - गला
+      - ᤃᤗᤠ
+  - osis: Eph
+    texts:
+      - ᤀᤣᤑᤡᤛᤡ
+      - एफिसि
+      - ᤀᤣᤑᤡ
+      - एफि
+  - osis: Phil
+    texts:
+      - फिलिप्‍पि
+      - ᤑᤡᤗᤡᤵᤐᤡ
+      - फिलिप
+      - ᤑᤡᤗᤡᤐ
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - थिस्‍सलोनिकि
+      - ᤌᤡᤛ᤻ᤛᤗᤥᤏᤡᤁᤡ
+      - थिस्‍स
+      - ᤌᤡᤛ᤻ᤛ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - तिमोथि
+      - ᤋᤡᤔᤥᤌᤡ
+      - तिमो
+      - ᤋᤡᤔᤥ
+  - osis: Titus
+    texts:
+      - तितस
+      - ᤋᤡᤋᤛ
+      - तित
+      - ᤋᤡᤋ
+  - osis: Phlm
+    texts:
+      - फिलेमोन
+      - ᤑᤡᤗᤣᤔᤥᤏ
+      - फिले
+      - ᤑᤡᤗᤣ
+  - osis: Heb
+    texts:
+      - हिब्रु
+      - ᤜᤡᤒᤪᤢ
+  - osis: Jas
+    texts:
+      - याकुब
+      - ᤕᤠᤁᤢᤒ
+      - याकु
+      - ᤕᤠᤁᤢ
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - पत्रुस
+      - पत्रु
+      - ᤐᤋᤪᤢᤛ
+      - ᤐᤋᤪᤢ
+  - osis: Jude
+    texts:
+      - यहुदा
+      - ᤕᤜᤢᤍᤠ
+      - यहु
+      - ᤕᤜᤢ
+translations:
+  - LIFOTNT

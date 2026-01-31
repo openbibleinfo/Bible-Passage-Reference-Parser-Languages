@@ -1,0 +1,202 @@
+books:
+  - osis: Gen
+    texts:
+      - 1Mos.
+  - osis: Exod
+    texts:
+      - 2Mos.
+  - osis: Lev
+    texts:
+      - 3Mos.
+  - osis: Num
+    texts:
+      - 4Mos.
+  - osis: Lam
+    texts:
+      - Sou.
+  - osis: Rev
+    texts:
+      - Pamoil.
+  - osis: Deut
+    texts:
+      - 5Mos.
+  - osis: Josh
+    texts:
+      - Jos.
+  - osis: Judg
+    texts:
+      - Pas.
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis: Isa
+    texts:
+      - Jes.
+  - osis: 1Sam
+    texts:
+      - 1Sam.
+  - osis: 2Sam
+    texts:
+      - 2Sam.
+  - osis: 1Kgs
+    texts:
+      - 1Rim.
+  - osis: 2Kgs
+    texts:
+      - 2Rim.
+  - osis: 1Chr
+    texts:
+      - 1Taw.
+  - osis: 2Chr
+    texts:
+      - 2Taw.
+  - osis: Ezra
+    texts:
+      - Ezra
+  - osis: Neh
+    texts:
+      - Neh.
+  - osis: Esth
+    texts:
+      - Est.
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Psalmen
+      - Psalm.
+  - osis: Prov
+    texts:
+      - Pangt.
+  - osis: Eccl
+    texts:
+      - Sip.
+  - osis: Song
+    texts:
+      - Ur.Sab.
+  - osis: Jer
+    texts:
+      - Jer.
+  - osis: Ezek
+    texts:
+      - Jehz.
+  - osis: Dan
+    texts:
+      - Dan.
+  - osis: Hos
+    texts:
+      - Hos.
+  - osis: Joel
+    texts:
+      - Jol.
+  - osis: Amos
+    texts:
+      - Ams.
+  - osis: Obad
+    texts:
+      - Obj.
+  - osis: Jonah
+    texts:
+      - Jon.
+  - osis: Mic
+    texts:
+      - Mik.
+  - osis: Nah
+    texts:
+      - Nah.
+  - osis: Hab
+    texts:
+      - Hab.
+  - osis: Zeph
+    texts:
+      - Zep.
+  - osis: Hag
+    texts:
+      - Hag.
+  - osis: Zech
+    texts:
+      - Zakh.
+  - osis: Mal
+    texts:
+      - Malk.
+  - osis: Matt
+    texts:
+      - Mat.
+  - osis: Mark
+    texts:
+      - Mrk.
+  - osis: Luke
+    texts:
+      - Luk.
+  - osis: 1John
+    texts:
+      - 1Joh.
+  - osis: 2John
+    texts:
+      - 2Joh.
+  - osis: 3John
+    texts:
+      - 3Joh.
+  - osis: John
+    texts:
+      - Joh.
+  - osis: Acts
+    texts:
+      - Pugap.
+  - osis: Rom
+    texts:
+      - Rm.
+  - osis: 1Cor
+    texts:
+      - 1Kor.
+  - osis: 2Cor
+    texts:
+      - 2Kor.
+  - osis: Col
+    texts:
+      - Kol.
+  - osis: Gal
+    texts:
+      - Gal.
+  - osis: Eph
+    texts:
+      - Ep.
+  - osis: Phil
+    texts:
+      - Plp.
+  - osis: 1Thess
+    texts:
+      - 1Tes.
+  - osis: 2Thess
+    texts:
+      - 2Tes.
+  - osis: 1Tim
+    texts:
+      - 1Tim.
+  - osis: 2Tim
+    texts:
+      - 2Tim.
+  - osis: Titus
+    texts:
+      - Tit.
+  - osis: Phlm
+    texts:
+      - Plm.
+  - osis: Heb
+    texts:
+      - Ibr.
+  - osis: Jas
+    texts:
+      - Jak.
+  - osis: 1Pet
+    texts:
+      - 1Ptr.
+  - osis: 2Pet
+    texts:
+      - 2Ptr.
+  - osis: Jude
+    texts:
+      - Jud.
+translations:
+  - MWV

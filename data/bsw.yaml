@@ -1,0 +1,148 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Raaga Kayaannisa
+      - ራጋ ካያንሳ
+      - Rag.
+      - ራጋ
+  - osis: Matt
+    texts:
+      - Matoosa
+      - Mat.
+      - ማቶ.
+      - ማቶሳ
+  - osis: Mark
+    texts:
+      - Mark'oosa
+      - Mar.
+      - ማርቆሳ
+      - ማር.
+  - osis: Luke
+    texts:
+      - Luk'k'aasa
+      - Luk'.
+      - ሉቃ.
+      - ሉቃሳ
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - ያን.
+      - ያንሳ
+  - osis: John
+    texts:
+      - Yaannisa
+      - Yan.
+      - ያን.
+      - ያንሳ
+  - osis: Acts
+    texts:
+      - Ofarameeraankonገi felo
+      - ኦፋራሜራንኮኒዕ ፈሎ
+      - Ofa. Fe.
+      - ኦፋ. ፈ.
+  - osis: Rom
+    texts:
+      - ካሮም ቶስ
+      - Roome
+      - Rom.
+      - ሮመ
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - ቆሮንቶሳ
+      - ቆሮ.
+  - osis: Col
+    texts:
+      - K'ollasiyaasa
+      - K'ol.
+      - ቆላስያሳ
+      - ቆላ.
+  - osis: Gal
+    texts:
+      - Gelaatiya
+      - Gel.
+      - ጋላትያ
+      - ጋላ.
+  - osis: Eph
+    texts:
+      - Efesoona
+      - Efe.
+      - ኤፈሶን
+      - ኤፈ.
+  - osis: Phil
+    texts:
+      - Filp'isiyosa
+      - ፍልጲስዮሳ
+      - Filp.
+      - ፍል.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - ተሰሎንቄ
+      - ተስ.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - ጢሞቶሳ
+      - ጢሞ.
+  - osis: Titus
+    texts:
+      - Tiito
+      - Tit.
+      - ቲቶ
+  - osis: Phlm
+    texts:
+      - Filmoona
+      - Film.
+      - ፍልሞ.
+      - ፍልሞና
+  - osis: Heb
+    texts:
+      - Ibirawwii
+      - Ibr.
+      - እብራዊ
+      - እብ.
+  - osis: Jas
+    texts:
+      - Yayik'ooba
+      - Yay.
+      - ያይቆባ
+      - ያይ.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - ጴጢሮሳ
+      - ጴጢ.
+  - osis: Jude
+    texts:
+      - Yihuuda
+      - Yih.
+      - ይሁ.
+      - ይሁዳ
+translations:
+  - BAYNT
+  - BAYNTETH

@@ -1,0 +1,94 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Boboloja
+  - osis: Matt
+    texts:
+      - Matayo
+  - osis: Mark
+    texts:
+      - Malako
+  - osis: Luke
+    texts:
+      - Luka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yoane
+  - osis: Acts
+    texts:
+      - Bikɔmɛli
+  - osis: Rom
+    texts:
+      - Baloma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Bakolinto
+  - osis: Col
+    texts:
+      - Bakɔlɔsai
+  - osis: Gal
+    texts:
+      - Bagalata
+  - osis: Eph
+    texts:
+      - Baɛpɛsɔ
+  - osis: Phil
+    texts:
+      - Bafilipoi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Batɛsalɔnike
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Pilemona
+  - osis: Heb
+    texts:
+      - Baebele
+  - osis: Jas
+    texts:
+      - Yakobo
+  - osis: 2Pet
+    texts:
+      - 1 Pɛtɛlo
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - Pɛtɛlo
+  - osis: Jude
+    texts:
+      - Yuda
+translations:
+  - NTNG61

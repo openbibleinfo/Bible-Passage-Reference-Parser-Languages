@@ -1,0 +1,123 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - วิวรณ์
+      - วว.
+  - osis: Matt
+    texts:
+      - มัทธิว
+      - มธ.
+  - osis: Mark
+    texts:
+      - มาระโก
+      - มก.
+  - osis: Luke
+    texts:
+      - ลูกา
+      - ลก.
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - ยอห์น
+      - ยน.
+  - osis: Acts
+    texts:
+      - กิจการ
+      - กจ.
+  - osis: Rom
+    texts:
+      - รม.
+      - โรม
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - โครินธ์
+      - คธ.
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - โครินธ์
+      - คร.
+  - osis: Col
+    texts:
+      - โคโลสี
+      - คส.
+  - osis: Gal
+    texts:
+      - กาลาเทีย
+      - กท.
+  - osis: Eph
+    texts:
+      - เอเฟซัส
+      - อฟ.
+  - osis: Phil
+    texts:
+      - ฟีลิปปี
+      - ฟป.
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - เธสะ‌โลนิกา
+  - osis: 1Thess
+    texts:
+      - 1ธส.
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - เธสะโลนิกา
+      - ธส.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - ทิโมธี
+      - ทธ.
+  - osis: Titus
+    texts:
+      - ทิตัส
+      - ทต.
+  - osis: Phlm
+    texts:
+      - ฟีเลโมน
+      - ฟม.
+  - osis: Heb
+    texts:
+      - ฮีบรู
+      - ฮบ.
+  - osis: Jas
+    texts:
+      - ยากอบ
+      - ยก.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - เปโตร
+      - ปต.
+  - osis: Jude
+    texts:
+      - ยูดา
+      - ยด.
+translations:
+  - BZI

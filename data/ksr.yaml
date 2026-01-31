@@ -1,0 +1,146 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Jenesis
+      - Jen
+  - osis: Rev
+    texts:
+      - Isaisaaŋ
+      - Isa
+  - osis: Ruth
+    texts:
+      - Ruut
+  - osis: Jonah
+    texts:
+      - Joona
+  - osis: Matt
+    texts:
+      - Matuyuu
+      - Mat
+  - osis: Mark
+    texts:
+      - Maak
+  - osis: Luke
+    texts:
+      - Luuk
+  - osis: 1John
+    texts:
+      - Jombaanoŋ Tere 1
+  - osis: 2John
+    texts:
+      - Jombaanoŋ Tere 2
+  - osis: 3John
+    texts:
+      - Jombaanoŋ Tere 3
+      - 3 Jon
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jon
+  - osis: Acts
+    texts:
+      - Aposol Gawoŋ Meme
+      - Apo
+  - osis: Rom
+    texts:
+      - Room Tere
+      - Room
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kor
+  - osis: 1Cor
+    texts:
+      - Korint Tere 1
+  - osis: 2Cor
+    texts:
+      - Korint Tere 2
+  - osis: Col
+    texts:
+      - Kolosi Tere
+      - Kol
+  - osis: Gal
+    texts:
+      - Galesia Tere
+      - Gal
+  - osis: Eph
+    texts:
+      - Efesus Tere
+      - Ef
+  - osis: Phil
+    texts:
+      - Filipai Tere
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tes
+  - osis: 1Thess
+    texts:
+      - Tesalonaika Tere 1
+  - osis: 2Thess
+    texts:
+      - Tesalonaika Tere 2
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tim
+  - osis: 1Tim
+    texts:
+      - Timotiwaa Tere 1
+  - osis: 2Tim
+    texts:
+      - Timotiwaa Tere 2
+  - osis: Titus
+    texts:
+      - Taituswaa Tere
+      - Tai
+  - osis: Phlm
+    texts:
+      - Filemombaa Tere
+      - Flm
+  - osis: Heb
+    texts:
+      - Hibruu Tere
+      - Hib
+  - osis: Jas
+    texts:
+      - Jeimswaanoŋ Tere
+      - Jei
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piito
+  - osis: 1Pet
+    texts:
+      - Piitowaanoŋ Tere 1
+  - osis: 2Pet
+    texts:
+      - Piitowaanoŋ Tere 2
+  - osis: Jude
+    texts:
+      - Juudawaanoŋ Tere
+      - Juud
+translations:
+  - KSR

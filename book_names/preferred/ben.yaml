@@ -1,0 +1,1163 @@
+default:
+  1Chr:
+    long: ১ বংশাবলি
+    short: ১ বংশা
+  1Cor:
+    long: ১ করিন্থীয়
+    short: ১ করি
+  1John:
+    long: 1 যোহন
+    short: 1 যোহন
+  1Kgs:
+    long: ১ রাজাবলি
+    short: 1রাজা
+  1Pet:
+    long: ১ পিতর
+    short: ১ পিতর
+  1Sam:
+    long: 1 শমূয়েল
+    short: 1 শমূয়েল
+  1Thess:
+    long: ১ থিষলনীকীয়
+    short: 1থিষ
+  1Tim:
+    long: ১ তীমথিয়
+    short: 1 তীম
+  2Chr:
+    long: ২ বংশাবলি
+    short: ২ বংশা
+  2Cor:
+    long: ২ করিন্থীয়
+    short: 2করি
+  2John:
+    long: ২ যোহন
+    short: 2 যোহন
+  2Kgs:
+    long: ২ রাজাবলি
+    short: 2রাজা
+  2Pet:
+    long: ২ পিতর
+    short: ২ পিতর
+  2Sam:
+    long: 2 শমূয়েল
+    short: 2 শমূয়েল
+  2Thess:
+    long: ২ থিষলনীকীয়
+    short: 2থিষ
+  2Tim:
+    long: ২ তীমথিয়
+    short: 2 তীম
+  3John:
+    long: ৩ যোহন
+    short: 3 যোহন
+  Acts:
+    long: প্রেরিত
+    short: প্রেরিত
+  Amos:
+    long: আমোষ
+    short: আমোষ
+  Col:
+    long: কলসীয়
+    short: কল
+  Dan:
+    long: দানিয়েল
+    short: দানি
+  Deut:
+    long: দ্বিতীয় বিবরণ
+    short: দ্বি বি
+  Eccl:
+    long: উপদেশক
+    short: উপ
+  Eph:
+    long: ইফিষীয়
+    short: ইফি
+  Esth:
+    long: ইষ্টের
+    short: ইষ্টের
+  Exod:
+    long: যাত্রাপুস্তক
+    short: যাত্রা
+  Ezek:
+    long: যিহিষ্কেল
+    short: যিহি
+  Ezra:
+    long: ইষ্রা
+    short: ইষ্রা
+  Gal:
+    long: গালাতীয়
+    short: গালা
+  Gen:
+    long: আদিপুস্তক
+    short: আদি
+  Hab:
+    long: হবক্‌কূক
+    short: হব
+  Hag:
+    long: হগয়
+    short: হগ
+  Heb:
+    long: ইবরানী
+    short: ইব্রী
+  Hos:
+    long: হোশেয়
+    short: হোশে
+  Isa:
+    long: যিশাইয়
+    short: যিশা
+  Jas:
+    long: যাকোব
+    short: যাকোব
+  Jer:
+    long: যিরমিয়
+    short: যির
+  Job:
+    long: ইয়োব
+    short: ইয়োব
+  Joel:
+    long: যোয়েল
+    short: যোয়েল
+  John:
+    long: যোহন
+    short: যোহ
+  Jonah:
+    long: যোনা
+    short: যোনা
+  Josh:
+    long: ইউসা
+    short: যিহো
+  Jude:
+    long: যিহূদা
+    short: যিহূদা
+  Judg:
+    long: বিচারকর্তৃগণ
+    short: বিচার
+  Lam:
+    long: বিলাপ
+    short: বিলাপ
+  Lev:
+    long: লেবীয় পুস্তক
+    short: লেবী
+  Luke:
+    long: লূক
+    short: লূক
+  Mal:
+    long: মালাখি
+    short: মালা
+  Mark:
+    long: মার্ক
+    short: মার্ক
+  Matt:
+    long: মথি
+    short: মথি
+  Mic:
+    long: মীখা
+    short: মীখা
+  Nah:
+    long: নহূম
+    short: নহূম
+  Neh:
+    long: নহিমিয়
+    short: নহি
+  Num:
+    long: গণনা পুস্তক
+    short: গণনা
+  Obad:
+    long: ওবদিয়
+    short: ওব
+  Phil:
+    long: ফিলিপীয়
+    short: ফিলি
+  Phlm:
+    long: ফিলীমন
+    short: ফিলী
+  Prov:
+    long: হিতোপদেশ
+    short: হিতো
+  Ps:
+    long: গীতসংহিতা
+    short: গীত
+  Rev:
+    long: প্রকাশিত বাক্য
+    short: প্রকা
+  Rom:
+    long: রোমীয়
+    short: রোমীয়
+  Ruth:
+    long: রূত
+    short: রূত
+  Song:
+    long: পরমগীত
+    short: পরম
+  Titus:
+    long: তীত
+    short: তীত
+  Zech:
+    long: সখরিয়
+    short: সখ
+  Zeph:
+    long: সফনিয়
+    short: সফ
+translations:
+  irvben:
+    1Chr:
+      long: 1 বংশাবলি
+      short: 1বংশ
+    1Cor:
+      long: 1 করিন্থীয়
+      short: 1করি
+    1John:
+      short: 1যোহ
+    1Kgs:
+      long: 1 রাজাবলি
+    1Pet:
+      long: 1 পিতর
+      short: 1পিত
+    1Sam:
+      short: 1শমূ
+    1Thess:
+      long: 1 থিষলনীকীয়
+    1Tim:
+      long: 1 তীমথিয়
+      short: 1তীম
+    2Chr:
+      long: 2 বংশাবলি
+      short: 2বংশ
+    2Cor:
+      long: 2 করিন্থীয়
+    2John:
+      long: 2 যোহন
+      short: 2যোহ
+    2Kgs:
+      long: 2 রাজাবলি
+    2Pet:
+      long: 2 পিতর
+      short: 2পিত
+    2Sam:
+      short: 2শমূ
+    2Thess:
+      long: 2 থিষলনীকীয়
+    2Tim:
+      long: 2 তীমথিয়
+      short: 2তীম
+    3John:
+      long: 3 যোহন
+      short: 3যোহ
+    Acts:
+      long: প্রেরিতদের কার্য্য
+    Amos:
+      short: আমো
+    Col:
+      long: কলসীয়
+    Deut:
+      short: দ্বিতীয়
+    Eph:
+      long: ইফিষীয়
+    Esth:
+      short: ইষ্ট
+    Ezek:
+      long: যিহিস্কেল
+    Gal:
+      long: গালাতীয়
+    Hab:
+      long: হবককূক
+      short: হবক
+    Heb:
+      long: ইব্রীয়
+    Jas:
+      short: যাকো
+    Job:
+      short: ইয়ো
+    Joel:
+      long: যোয়েল
+      short: যোয়ে
+    John:
+      short: যোহন
+    Josh:
+      long: যিহোশূয়
+    Jude:
+      short: যিহূ
+    Judg:
+      long: বিচারকর্ত্তৃগণ
+      short: বিচারক
+    Lam:
+      short: বিলা
+    Lev:
+      long: লেবীয়
+    Luke:
+      long: লুক
+      short: লুক
+    Nah:
+      short: নহূ
+    Num:
+      long: গণনা
+      short: গণ
+    Obad:
+      long: ওবদিয়
+    Phil:
+      long: ফিলিপীয়
+    Rev:
+      short: প্রকাশ
+    Rom:
+      long: রোমীয়
+      short: রোম
+    Zeph:
+      long: সফনিয়
+  bcv:
+    1Chr:
+      long: 1 বংশাবলি
+      short: 1বংশা
+    1Cor:
+      long: 1 করিন্থীয়
+      short: 1করি
+    1John:
+      short: 1যোহ
+    1Kgs:
+      long: 1 রাজাবলি
+    1Pet:
+      long: 1 পিতর
+      short: 1পিত
+    1Sam:
+      short: 1শমূ
+    1Thess:
+      long: 1 থিষলনীকীয়
+    1Tim:
+      long: 1 তিমথি
+      short: 1তিম
+    2Chr:
+      long: 2 বংশাবলি
+      short: 2বংশা
+    2Cor:
+      long: 2 করিন্থীয়
+    2John:
+      long: 2 যোহন
+      short: 2যোহ
+    2Kgs:
+      long: 2 রাজাবলি
+    2Pet:
+      long: 2 পিতর
+      short: 2পিত
+    2Sam:
+      short: 2শমূ
+    2Thess:
+      long: 2 থিষলনীকীয়
+    2Tim:
+      long: 2 তিমথি
+      short: 2তিম
+    3John:
+      long: 3 যোহন
+      short: 3যোহ
+    Acts:
+      short: প্রেরি
+    Amos:
+      short: আমো
+    Col:
+      long: কলসীয়
+    Deut:
+      short: দ্বিতী
+    Eph:
+      long: ইফিষীয়
+    Esth:
+      short: ইষ্টে
+    Exod:
+      long: যাত্রা পুস্তক
+    Gal:
+      long: গালাতীয়
+    Gen:
+      long: আদি পুস্তক
+    Heb:
+      long: ইব্রীয়
+    Jas:
+      short: যাকো
+    Job:
+      short: ইয়ো
+    Joel:
+      long: যোয়েল
+      short: যোয়ে
+    Josh:
+      long: যিহোশূয়
+    Jude:
+      short: যিহূ
+    Judg:
+      short: বিচা
+    Lam:
+      short: বিলা
+    Nah:
+      short: নহূ
+    Num:
+      short: গণ
+    Obad:
+      long: ওবদিয়
+    Phil:
+      long: ফিলিপীয়
+    Ps:
+      long: গীত
+    Rom:
+      long: রোমীয়
+      short: রোমী
+    Song:
+      short: পর
+    Zeph:
+      long: সফনিয়
+  bengali-bsi:
+    1Chr:
+      long: 1 বংশাবলি।
+      short: 1 বংশ
+    1Cor:
+      long: 1 করিন্থীয়।
+      short: 1 কর
+    1John:
+      long: 1 যোহন।
+    1Kgs:
+      long: 1 রাজাবলি।
+      short: 1 রাজা
+    1Pet:
+      long: 1 পিতর।
+      short: 1 পিতর
+    1Sam:
+      long: 1 শমূয়েলে।
+    1Thess:
+      long: 1 থিষলনীকীয়।
+      short: 1 থিষ
+    1Tim:
+      long: 1 তীমথিয়ে।
+    2Chr:
+      long: 2 বংশাবলি।
+      short: 2 বংশ
+    2Cor:
+      long: 2 করিন্থীয়।
+      short: 2 কর
+    2John:
+      long: 2 যোহন।
+    2Kgs:
+      long: 2 রাজাবলি।
+      short: 2 রাজা
+    2Pet:
+      long: 2 পিতর।
+      short: 2 পিতর
+    2Sam:
+      long: 2 শমূয়েলে।
+    2Thess:
+      long: 2 থিষলনীকীয়।
+      short: 2 থিষ
+    2Tim:
+      long: 2 তীমথিয়ে।
+    3John:
+      long: 3 যোহন।
+    Acts:
+      long: প্রেরিত।
+    Amos:
+      long: আমোষ ভাববাদীর পুস্তক।
+    Col:
+      long: কলসীয়।
+      short: কলসীয়
+    Dan:
+      long: দানিয়েলের পুস্তক।
+    Deut:
+      long: দ্বিতীয় বিবরণ।
+    Eccl:
+      long: উপদেশক।
+    Eph:
+      long: ইফিষীয়।
+      short: ইফিষীয়
+    Esth:
+      long: ইষ্টেরের বিবরণ।
+      short: ইষ্টে
+    Ezek:
+      long: যিহিষ্কেল ভাববাদীর পুস্তক।
+    Ezra:
+      long: ইষ্রা।
+    Gal:
+      long: গালাতীয়।
+      short: গালাতীয়
+    Hab:
+      long: হবক্‌কূক ভাববাদীর পুস্তক।
+      short: হবক্‌কুক
+    Hag:
+      long: হগয় ভাববাদীর পুস্তক।
+      short: হগয়
+    Heb:
+      long: ইব্রীয়।
+    Hos:
+      long: হোশেয় ভাববাদীর পুস্তক।
+      short: হোশেয়
+    Isa:
+      long: যিশাইয় ভাববাদীর পুস্তক।
+      short: যিশ
+    Jas:
+      long: যাকোবে।
+      short: যাকোবে
+    Jer:
+      long: যিরমিয় ভাববাদীর পুস্তক।
+    Job:
+      long: ইয়োবের বিবরণ।
+    Joel:
+      long: যোয়েল ভাববাদীর পুস্তক।
+    John:
+      long: যোহন।
+      short: যো
+    Jonah:
+      long: যোনা ভাববাদীর পুস্তক।
+    Josh:
+      long: যিহোশূয়ের পুস্তক।
+      short: যিহোশূয়
+    Jude:
+      long: যিহূদা।
+    Judg:
+      long: বিচারকর্ত্তৃগণের বিবরণ।
+      short: বিচারকর্ত্তৃগণে
+    Lam:
+      long: যিরমিয়ের বিলাপ।
+    Lev:
+      long: লেবীয় পুন্তক।
+      short: লেবীয়
+    Luke:
+      long: লুক।
+    Mal:
+      long: মালাখি ভাববাদীর পুস্তক।
+      short: মাল
+    Mark:
+      long: মার্ক।
+    Matt:
+      long: মথি।
+    Mic:
+      long: মীখা ভাববাদীর পুস্তক।
+    Nah:
+      long: নহূম ভাববাদীর পুস্তক।
+    Neh:
+      long: নহিমিয়ের পুস্তক।
+    Num:
+      long: গণনাপুস্তক।
+    Obad:
+      long: ওবদিয় ভাববাদীর পুস্তক।
+      short: ওবদিয়
+    Phil:
+      long: ফিলিপীয়।
+      short: ফিলিপীয়
+    Phlm:
+      long: ফিলীমনে।
+      short: ফিলীমনে
+    Prov:
+      long: হিতোপদেশ।
+      short: হিত
+    Ps:
+      long: গীতসংহিতা ।
+    Rev:
+      long: প্রকাশিত বাক্য।
+    Rom:
+      long: রোমীয়।
+    Ruth:
+      long: রূতের বিবরণ।
+      short: রূতে
+    Song:
+      long: পরমগীত।
+    Titus:
+      long: তীত।
+    Zech:
+      long: সখরিয়।
+    Zeph:
+      long: সফনিয় ভাববাদীর পুস্তক।
+      short: সফনিয়
+  berv:
+    1Chr:
+      long: বংশাবলির প্রথম খণ্ড
+      short: 1 বংশাবলি
+    1Cor:
+      long: করিন্থীয়দের প্রতি প্রথম পত্র
+      short: 1 করিন্থীয়
+    1John:
+      long: যোহনের প্রথম পত্র
+    1Kgs:
+      long: রাজাবলির প্রথম খণ্ড
+      short: 1 রাজাবলি
+    1Pet:
+      long: পিতরের প্রথম পত্র
+      short: 1 পিতর
+    1Sam:
+      long: শমূয়েলের প্রথম পুস্তক
+    1Thess:
+      long: থিষলনীকীয়দের প্রতি প্রথম পত্র
+      short: 1 থিষলনীকীয়
+    1Tim:
+      long: তীমথিয়ের প্রতি প্রথম পত্র
+      short: 1 তীমথিয়
+    2Chr:
+      long: বংশাবলির দ্বিতীয় খণ্ড
+      short: 2 বংশাবলি
+    2Cor:
+      long: করিন্থীয়দের প্রতি দ্বিতীয় পত্র
+      short: 2 করিন্থীয়
+    2John:
+      long: যোহনের দ্বিতীয় পত্র
+    2Kgs:
+      long: রাজাবলির দ্বিতীয় খণ্ড
+      short: 2 রাজাবলি
+    2Pet:
+      long: পিতরের দ্বিতীয় পত্র
+      short: 2 পিতর
+    2Sam:
+      long: শমূয়েলের দ্বিতীয় পুস্তক
+    2Thess:
+      long: থিষলনীকীয়দের প্রতি দ্বিতীয় পত্র
+      short: 2 থিষলনীকীয়
+    2Tim:
+      long: তীমথিয়ের প্রতি দ্বিতীয় পত্র
+      short: 2 তীমথিয়
+    3John:
+      long: যোহনের তৃতীয় পত্র
+    Acts:
+      long: প্রেরিতদের কার্য্য-বিবরণ
+    Amos:
+      long: আমোষ ভাববাদীর পুস্তক
+    Col:
+      long: কলসীয়দের প্রতি পত্র
+      short: কলসীয়
+    Dan:
+      long: দানিয়েলের পুস্তক
+    Deut:
+      short: দ্বি. বি.
+    Eccl:
+      short: উপদেশক
+    Eph:
+      long: ইফিষীয়দের প্রতি পত্র
+      short: ইফিষীয়
+    Esth:
+      long: ইষ্টেরের বিবরণ
+    Ezek:
+      long: যিহিষ্কেল ভাববাদীর পুস্তক
+      short: যিহিষ্কেল
+    Gal:
+      long: গালাতীয়দের প্রতি পত্র
+      short: গালাতীয়
+    Hab:
+      long: হবক‌্কূক ভাববাদীর পুস্তক
+      short: হবক‌্কূক
+    Hag:
+      long: হগয় ভাববাদীর পুস্তক
+      short: হগয়
+    Heb:
+      long: ইব্রীয়দের প্রতি পত্র
+      short: ইব্রীয়
+    Hos:
+      long: হোশেয় ভাববাদীর পুস্তক
+      short: হোশেয়
+    Isa:
+      long: যিশাইয় ভাববাদীর পুস্তক
+      short: যিশাইয়
+    Jas:
+      long: যাকোবের পত্র
+    Jer:
+      long: যিরমিয় ভাববাদীর পুস্তক
+      short: যিরমিয়
+    Job:
+      long: ইয়োবের বিবরণ
+    Joel:
+      long: যোয়েল ভাববাদীর পুস্তক
+    John:
+      long: যোহনলিখিত সুসমাচার
+      short: যোহন
+    Jonah:
+      long: যোনা ভাববাদীর পুস্তক
+    Josh:
+      long: যিহোশূয়ের পুস্তক
+      short: যিহোশূয়
+    Jude:
+      long: যিহূদার পত্র
+    Judg:
+      long: বিচারকর্ত্তৃগণের বিবরণ
+      short: বিচারকর্ত্তৃগণের বিবরণ
+    Lam:
+      long: যিরমিয়র বিলাপ
+    Lev:
+      short: লেবীয়
+    Luke:
+      long: লূকলিখিত সুসমাচার
+    Mal:
+      long: মালাখি ভাববাদীর পুস্তক
+      short: মালাখি
+    Mark:
+      long: মার্কলিখিত সুসমাচার
+    Matt:
+      long: মথিলিখিত সুসমাচার
+    Mic:
+      long: মীখা ভাববাদীর পুস্তক
+    Nah:
+      long: নহূম ভাববাদীর পুস্তক
+    Neh:
+      long: নহিমিয়র পুস্তক
+      short: নহিমিয়
+    Num:
+      long: গণনাপুস্তক
+    Obad:
+      long: ওবদিয় ভাববাদীর পুস্তক
+      short: ওবদিয়
+    Phil:
+      long: ফিলিপীয়দের প্রতি পত্র
+      short: ফিলিপীয়
+    Phlm:
+      long: ফিলীমনের প্রতি পত্র
+      short: ফিলীমন
+    Prov:
+      short: হিতোপদেশ
+    Ps:
+      short: গীতসংহিতা
+    Rev:
+      short: প্র.বা.
+    Rom:
+      long: রোমীয়দের প্রতি পত্র
+    Ruth:
+      long: রূতের বিবরণ
+    Song:
+      long: শলোমনের পরমগীত
+      short: পরমগীত
+    Titus:
+      long: তীতের প্রতি পত্র
+    Zech:
+      long: সখরিয় ভাববাদীর পুস্তক
+      short: সখরিয়
+    Zeph:
+      long: সফনিয় ভাববাদীর পুস্তক
+      short: সফনিয়
+  mbcl:
+    1Chr:
+      long: ১ খান্দাননামা
+    1John:
+      long: ১ ইউহোন্না
+    1Kgs:
+      long: ১ বাদশাহ্‌নামা
+    1Sam:
+      long: ১ শামুয়েল
+    2Chr:
+      long: ২ খান্দাননামা
+    2John:
+      long: ২ ইউহোন্না
+    2Kgs:
+      long: ২ বাদশাহ্‌নামা
+    2Sam:
+      long: ২ শামুয়েল
+    3John:
+      long: ৩ ইউহোন্না
+    Amos:
+      long: আমোস
+    Dan:
+      long: দানিয়াল
+    Deut:
+      long: দ্বিতীয় বিবরণ
+    Eccl:
+      long: হেদায়েতকারী
+    Exod:
+      long: হিজরত
+    Ezek:
+      long: ইহিস্কেল
+    Ezra:
+      long: উযায়ের
+    Gen:
+      long: পয়দায়েশ
+    Hab:
+      long: হাবাক্কুক
+    Hag:
+      long: হগয়
+    Hos:
+      long: হোসিয়া
+    Isa:
+      long: ইশাইয়া
+    Jas:
+      long: ইয়াকুব
+    Jer:
+      long: ইয়ারমিয়া
+    Job:
+      long: আইয়ুব
+    John:
+      long: ইউহোন্না
+    Jonah:
+      long: ইউনুস
+    Jude:
+      long: এহুদা
+    Judg:
+      long: কাজীগণ
+    Lam:
+      long: মাতম
+    Lev:
+      long: লেবীয়
+    Mic:
+      long: মিকাহ্‌
+    Nah:
+      long: নাহূম
+    Neh:
+      long: নহিমিয়া
+    Num:
+      long: শুমারী
+    Prov:
+      long: মেসাল
+    Ps:
+      long: জবুর
+    Rev:
+      long: প্রকাশিত কালাম
+    Song:
+      long: সোলায়মানের শীর
+    Zech:
+      long: জাকারিয়া
+  bacib:
+    1Chr:
+      long: ১ খান্দাননামা
+      short: ১ খান্দান‌
+    1John:
+      long: ১ ইউহোন্না
+      short: ১ ইউ
+    1Kgs:
+      long: ১ বাদশাহ্‌নামা
+      short: ১ বাদশাহ্‌
+    1Sam:
+      long: ১ শামুয়েল
+      short: ১ শামু
+    1Thess:
+      short: ১ থিষলনীকীয়
+    1Tim:
+      short: ১ তীমথিয়
+    2Chr:
+      long: ২ খান্দাননামা
+      short: ২ খান্দান‌
+    2Cor:
+      short: ২ করি
+    2John:
+      long: ২ ইউহোন্না
+      short: ২ ইউ
+    2Kgs:
+      long: ২ বাদশাহ্‌নামা
+      short: ২ বাদশাহ্‌
+    2Sam:
+      long: ২ শামুয়েল
+      short: ২ শামু
+    2Thess:
+      short: ২ থিষলনীকীয়
+    2Tim:
+      short: ২ তীমথিয়
+    3John:
+      long: ৩ ইউহোন্না
+      short: ৩ ইউ
+    Amos:
+      long: আমোজ
+      short: আমোস
+    Col:
+      short: কলসীয়
+    Dan:
+      long: দানিয়াল
+    Deut:
+      long: দ্বিতীয় বিবরণ
+    Eccl:
+      long: হেদায়েতকারী
+      short: হেদায়েতকারী
+    Eph:
+      short: ইফিষীয়
+    Exod:
+      long: হিজরত
+      short: হিজ
+    Ezek:
+      long: ইহিস্কেল
+      short: ইহি
+    Ezra:
+      long: উযায়ের
+      short: উযায়ের
+    Gal:
+      short: গালাতীয়
+    Gen:
+      long: পয়দায়েশ
+      short: পয়দা
+    Hab:
+      long: হাবাক্কুক
+      short: হাবাক্কুক
+    Hag:
+      long: হগয়
+      short: হগয়
+    Heb:
+      short: ইবরানী
+    Hos:
+      long: হোসিয়া
+      short: হোসিয়া
+    Isa:
+      long: ইশাইয়া
+      short: ইশা
+    Jas:
+      long: ইয়াকুব
+      short: ইয়াকুব
+    Jer:
+      long: ইয়ারমিয়া
+      short: ইয়ার
+    Job:
+      long: আইউব
+      short: আইয়ুব
+    Joel:
+      short: যোয়েল
+    John:
+      long: ইউহোন্না
+      short: ইউ
+    Jonah:
+      long: ইউনুস
+      short: ইউনুস
+    Josh:
+      short: ইউসা
+    Jude:
+      long: এহুদা
+      short: এহুদা
+    Judg:
+      long: কাজীগণ
+      short: কাজী
+    Lam:
+      long: মাতম
+      short: মাতম
+    Lev:
+      long: লেবীয়
+      short: লেবীয়
+    Mal:
+      short: মালাখি
+    Mic:
+      long: মিকাহ্
+      short: মিকাহ্‌
+    Nah:
+      long: নাহূম
+      short: নাহূম
+    Neh:
+      long: নহিমিয়া
+    Num:
+      long: শুমারী
+      short: শুমারী
+    Obad:
+      short: ওবদিয়
+    Phil:
+      short: ফিলিপীয়
+    Phlm:
+      short: ফিলীমন
+    Prov:
+      long: মেসাল
+      short: মেসাল
+    Ps:
+      long: জবুর শরীফ
+      short: জবুর শরীফ
+    Rev:
+      long: প্রকাশিত কালাম
+      short: প্রকাশিত কালাম
+    Rom:
+      short: রোমীয়
+    Song:
+      long: সোলায়মান
+      short: সোলায়মান
+    Zech:
+      long: জাকারিয়া
+      short: জাকা
+    Zeph:
+      short: সফনিয়
+  bengalcl-bsi:
+    1Cor:
+      long: ১ করিন্থীয়
+    1John:
+      short: ১ যোহন
+    1Kgs:
+      short: ১ রাজা
+    1Sam:
+      long: ১ শমুয়েলে
+      short: ১ শমু
+    1Thess:
+      long: ১ থিষলনিকীয়
+      short: ১ থিষ
+    1Tim:
+      long: ১ তিমথির
+      short: ১ তিম
+    2Cor:
+      long: ২ করিন্থীয়
+      short: ২ করি
+    2John:
+      short: ২ যোহন
+    2Kgs:
+      short: ২ রাজা
+    2Sam:
+      long: ২ শমুয়েলে
+      short: ২ শমু
+    2Thess:
+      long: ২ থিষলনিকীয়
+      short: ২ থিষ
+    2Tim:
+      long: ২ তিমথির
+      short: ২ তিম
+    3John:
+      short: ৩ যোহন
+    Amos:
+      long: আমোস
+      short: আমোস
+    Col:
+      long: কলসীয়
+    Deut:
+      short: দ্বি.বি.
+    Eph:
+      long: ইফিসীয়
+    Gal:
+      long: গালাতীয়
+    Hab:
+      long: হবক্‌কুক
+      short: হবক্
+    Hag:
+      short: হগয়
+    Heb:
+      long: হিব্রু
+      short: হিব্রু
+    Hos:
+      short: হোশেয়
+    Job:
+      long: ইয়োবে
+    Joel:
+      long: যোয়েল
+    John:
+      short: যোহন
+    Josh:
+      long: যিহোশূয়ের পুস্তক
+    Jude:
+      long: যিহুদা
+      short: যিহুদা
+    Judg:
+      long: বিচারপতি ও জননায়কদের বিবরণ
+    Lam:
+      long: বিলাপ গীতি
+    Lev:
+      short: লেবীয়
+    Luke:
+      long: লুক
+      short: লুক
+    Nah:
+      long: নহুম
+      short: নহুম
+    Neh:
+      long: নহিমিয়ে
+    Obad:
+      long: ওবদিয়
+    Phil:
+      long: ফিলিপীয়
+    Phlm:
+      long: ফিলীমনের
+      short: ফিলীমন
+    Rom:
+      long: রোমীয়
+    Ruth:
+      long: রূথের কাহিনী
+      short: রূথ
+    Titus:
+      long: তীতের
+    Zeph:
+      long: সফনিয়
+  sbcl:
+    1John:
+      long: ১ যোহন
+    1Sam:
+      long: ১ শমূয়েল
+    1Thess:
+      long: 1 থিষলনীকীয়
+    2Sam:
+      long: ২ শমূয়েল
+    2Thess:
+      long: 2 থিষলনীকীয়
+    2Tim:
+      long: 2 তীমথিয়
+    Acts:
+      long: প্রেরিত্‌
+    Dan:
+      long: দানিয়েল
+    Deut:
+      long: দ্বিতীয় বিবরণ
+    Hag:
+      long: হগয়
+    Heb:
+      long: ইব্রীয়
+    Hos:
+      long: হোশেয়
+    Isa:
+      long: যিশাইয়
+    Jer:
+      long: যিরমিয়
+    Job:
+      long: ইয়োব
+    Josh:
+      long: যিহোশূয়
+    Lev:
+      long: লেবীয় পুস্তক
+    Neh:
+      long: নহিমিয়
+    Num:
+      long: গণনাপুস্তক
+    Zech:
+      long: সখরিয়
+  rovu:
+    1John:
+      long: ১ যোহন
+      short: ১ যোহ
+    1Kgs:
+      short: ১ রাজা
+    1Sam:
+      long: ১ শমূয়েল
+      short: ১ শমূ
+    1Thess:
+      short: ১ থিষ
+    1Tim:
+      short: ১ তীম
+    2Cor:
+      short: ২করি
+    2John:
+      short: ২ যোহ
+    2Kgs:
+      short: ২ রাজা
+    2Sam:
+      long: ২ শমূয়েল
+      short: ২ শমূ
+    2Thess:
+      short: ২ থিষ
+    2Tim:
+      short: ২ তীম
+    3John:
+      short: ৩ যোহ
+    Acts:
+      long: প্রেরিত্‌
+      short: প্রেরিত্‌
+    Dan:
+      long: দানিয়েল
+    Deut:
+      long: দ্বিতীয় বিবরণ
+      short: "দ্বি:বি:"
+    Eccl:
+      long: উপ
+    Hab:
+      long: হবক্‌
+      short: হবক্‌
+    Hag:
+      long: হগয় ভাববাদীর পুস্তক
+    Heb:
+      long: ইব্রীয়
+    Hos:
+      long: হোশেয়
+    Isa:
+      long: যিশাইয়
+    Jer:
+      long: যিরমিয়
+    Job:
+      long: ইয়োব
+    Josh:
+      long: যিহোশূয়
+    Lev:
+      long: লেবীয় পুস্তক
+    Mal:
+      short: মালাখি
+    Neh:
+      long: নহিমিয়
+    Prov:
+      long: হিতোপ
+    Ps:
+      long: গীত
+    Rev:
+      short: প্রকাশিত
+    Ruth:
+      long: রূতের বিবরণ
+    Zech:
+      long: সখরিয়
+  ben1921r:
+    Luke:
+      long: Luk
+      short: Luk
+  ben1882r:
+    Mark:
+      long: Márk-Likhita Susamácár
+      short: Már

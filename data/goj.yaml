@@ -1,0 +1,96 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - प्रकाशन
+  - osis: Matt
+    texts:
+      - मत्ती
+  - osis: Mark
+    texts:
+      - मरकुस
+  - osis: Luke
+    texts:
+      - लूका
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - यूहन्ना
+  - osis: John
+    texts:
+      - यहून्ना
+  - osis: Acts
+    texts:
+      - प्रेरितहोन
+      - प्रेरित
+  - osis: Rom
+    texts:
+      - रोमीयो
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - कुरिन्थिहोन
+  - osis: Col
+    texts:
+      - कुलुस्सियो
+  - osis: Gal
+    texts:
+      - गलतिया
+  - osis: Eph
+    texts:
+      - इपिसियो
+  - osis: Phil
+    texts:
+      - फिलीपियो
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - थिस्‍सलुनीकियों
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - तिमोथी
+  - osis: Titus
+    texts:
+      - तीतुस
+  - osis: Phlm
+    texts:
+      - फिलेमोन
+  - osis: Heb
+    texts:
+      - इब्रानीहोन
+  - osis: Jas
+    texts:
+      - याकूब
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - पतरस
+  - osis: Jude
+    texts:
+      - यहूदा
+translations:
+  - NTGNN24

@@ -1,0 +1,159 @@
+default:
+  1Cor:
+    long: ୧ କରନ୍ତିୟ
+    short: ୧ କରନ୍ତିୟ
+  1John:
+    long: ୧ ଜହନ୍‌
+    short: ୧ ଜହନ୍‌
+  1Pet:
+    long: ୧ ପିତର
+    short: ୧ ପିତ.
+  1Thess:
+    long: ୧ ତେସ୍‌ଲନିକି
+    short: ୧ ତେସ୍‌ଲନିକି
+  1Tim:
+    long: ୧ ତିମତି
+    short: ୧ ତିମ.
+  2Cor:
+    long: ୨ କରନ୍ତିୟ
+    short: ୨ କରି.
+  2John:
+    long: ୨ ଜହନ୍‌
+    short: ୨ ଜହନ୍‌
+  2Pet:
+    long: ୨ ପିତର
+    short: ୨ ପିତ.
+  2Thess:
+    long: ୨ ତେସ୍‌ଲନିକି
+    short: ୨ ତେସ୍‌ଲନିକି
+  2Tim:
+    long: ୨ ତିମଥି
+    short: ୨ ତିମ.
+  3John:
+    long: ୩ ଜହନ୍‌
+    short: ୩ ଜହନ୍‌
+  Acts:
+    long: ପକ୍ୟାତାକା
+    short: କାମାୟ୍.
+  Col:
+    long: କଲସିୟ
+    short: କଲ.
+  Eph:
+    long: ଏପିସିୟ
+    short: ଏପିସିୟ
+  Gal:
+    long: ଗାଲାତିୟ
+    short: ଗାଲା.
+  Heb:
+    long: ଏବ୍ରି
+    short: ଏବ୍ରି
+  Jas:
+    long: ଜାକ୍‌ବ
+    short: ଜାକ୍‌ବ
+  John:
+    long: ଜହନ୍‌
+    short: ଜହନ୍‌
+  Jude:
+    long: ଜିହୁଦା
+    short: ଜିହୁଦା
+  Luke:
+    long: ଲୁକ
+    short: ଲୁକ
+  Mark:
+    long: ମାର୍କ
+    short: ମାର୍କ
+  Matt:
+    long: ମାତିଉ
+    short: ମାତିଉ
+  Phil:
+    long: ପିଲିପିୟ
+    short: ପିଲିପିୟ
+  Phlm:
+    long: ପିଲିମନ୍‌
+    short: ପିଲିମନ୍‌
+  Rev:
+    long: ହତ୍‌ତି
+    short: ହତ୍‌ତି
+  Rom:
+    long: ରମିୟ
+    short: ରମିୟ
+  Titus:
+    long: ତୀତସ
+    short: ତୀତ.
+translations:
+  pegnt:
+    1Cor:
+      long: ୧ କରିନ୍ଥିୟ
+      short: ୧ କରି.
+    1John:
+      long: ୧ ଯୋହନ
+      short: ୧ ଯୋହନ.
+    1Thess:
+      long: ୧ ଥେସଲନୀକିୟ
+      short: ୧ ଥେସ.
+    1Tim:
+      long: ୧ ତିମଥି
+    2John:
+      long: ୨ ଯୋହନ
+      short: ୨ ଯୋହନ.
+    2Thess:
+      long: ୨ ଥେସଲନୀକିୟ
+      short: ୨ ଥେସ.
+    3John:
+      long: ୩ ଯୋହନ
+      short: ୩ ଯୋହନ.
+    Acts:
+      long: ବାଚିକିତି ଚେଲାହିର୍ କାତା
+    Col:
+      long: କଲସୀୟ
+    Eph:
+      long: ଏଫିସୀୟ
+      short: ଏଫି.
+    Heb:
+      long: ଏବ୍ରୀ
+      short: ଏବ୍ରୀ.
+    Jas:
+      long: ଯାକୁବ
+      short: ଯାକୁ.
+    John:
+      long: ଯୋହନ
+      short: ଯୋହନ.
+    Jude:
+      long: ଯିହୁଦା
+      short: ଯିହୁ.
+    Luke:
+      short: ଲୁକ.
+    Mark:
+      short: ମାର୍କ.
+    Matt:
+      long: ମାଥିଉ
+      short: ମାଥି.
+    Phil:
+      long: ଫିଲୀପିୟ
+      short: ଫିଲୀ.
+    Phlm:
+      long: ଫିଲୀମୋନ
+      short: ଫିଲୀମୋ.
+    Rev:
+      long: ୱେଚ୍‍ଚି ବେଣ୍
+      short: ୱେଚ୍.
+    Rom:
+      long: ରୋମିୟ
+      short: ରୋମି.
+  ntnoo20:
+    1Pet:
+      long: ୧ ପିତର୍‌ତି
+      short: ୧ ପିତର୍‌
+    1Tim:
+      short: ୧ ତିମତି
+    2Cor:
+      short: ୨କରନ୍ତିୟ
+    2Pet:
+      long: ୨ ପିତର୍‌ତି
+      short: ୨ ପିତର୍‌
+    Acts:
+      short: ପକ୍ୟାତାକା
+    Col:
+      short: କଲସିୟ
+    Gal:
+      short: ଗାଲାତିୟ

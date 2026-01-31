@@ -1,0 +1,106 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - ప్రకటన
+      - ప్రక
+  - osis: Matt
+    texts:
+      - మత్తయి
+      - మత్త
+  - osis: Mark
+    texts:
+      - మార్కు
+  - osis: Luke
+    texts:
+      - లూకా
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - యోహాను
+      - యోహా
+  - osis: Acts
+    texts:
+      - బారికుల్ కమ్మొ
+      - బారి కమ్మొ
+  - osis: Rom
+    texts:
+      - రోమా
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - కొరింది
+      - కొరి
+  - osis: Col
+    texts:
+      - కొలస్సి
+      - కొల
+  - osis: Gal
+    texts:
+      - గలతి
+      - గల
+  - osis: Eph
+    texts:
+      - ఎపెసి
+      - ఎపె
+  - osis: Phil
+    texts:
+      - పిలిప్పి
+      - పిలి
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - దెస్స
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - తిమోతి
+      - తిమో
+  - osis: Titus
+    texts:
+      - తీతు
+  - osis: Phlm
+    texts:
+      - పిలేమోను
+      - పిలె
+  - osis: Heb
+    texts:
+      - ఏబ్రీ
+  - osis: Jas
+    texts:
+      - యాకోబు
+      - యాకో
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - పేతురు
+      - పేతు
+  - osis: Jude
+    texts:
+      - యూదా
+translations:
+  - KEY

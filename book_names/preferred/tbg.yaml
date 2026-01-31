@@ -1,0 +1,136 @@
+default:
+  1Cor:
+    long: 1 Korinti
+    short: 1 Kor
+  1John:
+    long: 1 Ioni
+    short: 1 Ion
+  1Kgs:
+    long: 1 King
+    short: 1 Kin
+  1Pet:
+    long: 1 Pitaa
+    short: 1 Pit
+  1Sam:
+    long: 1 Samueri
+    short: 1 Samueri
+  1Thess:
+    long: 1 Tesaronaika
+    short: 1 Tes
+  1Tim:
+    long: 1 Timoti
+    short: 1 Tim
+  2Cor:
+    long: 2 Korinti
+    short: 2 Kor
+  2John:
+    long: 2 Ioni
+    short: 2 Ion
+  2Kgs:
+    long: 2 King
+    short: 2 Kin
+  2Pet:
+    long: 2 Pitaa
+    short: 2 Pit
+  2Sam:
+    long: 2 Samueri
+    short: 2 Samueri
+  2Thess:
+    long: 2 Tesaronaika
+    short: 2 Tes
+  2Tim:
+    long: 2 Timoti
+    short: 2 Tim
+  3John:
+    long: 3 Ioni
+    short: 3 Ion
+  Acts:
+    long: Kaiqa Varora
+    short: Kv
+  Col:
+    long: Korosi
+    short: Kor
+  Dan:
+    long: Danieri
+    short: Dan
+  Eph:
+    long: Epasaasi
+    short: Epa
+  Esth:
+    long: Estaa
+    short: Est
+  Exod:
+    long: Katu Varora
+    short: Kis
+  Gal:
+    long: Karesia
+    short: Kar
+  Gen:
+    long: Okara
+    short: Stt
+  Heb:
+    long: Hiparu
+    short: Hip
+  Isa:
+    long: Aisaiaa
+    short: Ais
+  Jas:
+    long: Iemi
+    short: Iem
+  Jer:
+    long: Ieremaiaa
+    short: Ieremaiaa
+  John:
+    long: Ioni
+    short: Ion
+  Jonah:
+    long: Ionaa
+    short: Jna
+  Josh:
+    long: Iosuaa
+    short: Iosuaa
+  Jude:
+    long: Iuti
+    short: Iut
+  Judg:
+    long: Qiata Vaiintinavu
+    short: Het
+  Luke:
+    long: Ruki
+    short: Ruk
+  Mark:
+    long: Maaki
+    short: Maa
+  Matt:
+    long: Matiu
+    short: Mat
+  Neh:
+    long: Nehemia
+    short: Neh
+  Num:
+    long: Kaarantura
+    short: Kaarantura
+  Phil:
+    long: Piripai
+    short: Prp
+  Phlm:
+    long: Pirimoni
+    short: Prm
+  Prov:
+    long: Uva Maara Koqera
+    short: Uva Maara Koqera
+  Ps:
+    long: Ihi
+    short: Sng
+  Rev:
+    long: Qoqaiqama Kora
+    short: Qk
+  Rom:
+    long: Romeni
+    short: Rom
+  Ruth:
+    long: Ruti
+    short: Rut
+  Titus:
+    long: Taiaasi
+    short: Tai

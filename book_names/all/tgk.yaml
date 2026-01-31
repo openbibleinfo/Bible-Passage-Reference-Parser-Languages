@@ -1,0 +1,363 @@
+- osis: Gen
+  texts:
+    - Ҳастӣ
+    - Ҳас.
+- osis: Exod
+  texts:
+    - Хуруҷ
+    - Хур.
+- osis: Lev
+  texts:
+    - Ибодат
+    - Иб.
+- osis: Num
+  texts:
+    - Ададҳо
+    - Ад.
+- osis: Lam
+  texts:
+    - Навҳаҳои Ирмиё
+    - Нав.
+- osis: Rev
+  texts:
+    - Ваҳй Юҳанно
+    - Ошкорсозӣ
+    - Ваҳй
+    - Ошк
+- osis: Deut
+  texts:
+    - Такрори Шариат
+    - Так. Шар.
+- osis: Josh
+  texts:
+    - Еҳушаъ ибни Нун
+    - Еҳ.
+- osis: Judg
+  texts:
+    - Доварон
+    - Дов.
+- osis: Ruth
+  texts:
+    - Рут
+- osis: Isa
+  texts:
+    - Ишаъё
+    - Иш.
+- osis: 1Kgs
+  texts:
+    - 3 Подшоҳон
+    - 3 Подш.
+- osis: 2Kgs
+  texts:
+    - 4 Подшоҳон
+    - 4 Подш.
+- osis: 1Sam
+  texts:
+    - 1 Подшоҳон
+    - 1 Подш.
+    - 1. Подшоҳон
+    - 1. Подш.
+- osis: 2Sam
+  texts:
+    - 2 Подшоҳон
+    - 2 Подш.
+    - 2. Подшоҳон
+    - 2. Подш.
+- osis: 1Chr
+  texts:
+    - 1 Вақоеънома
+    - 1 Вақ.
+    - 1. Вақоеънома
+    - 1. Вақ.
+- osis: 2Chr
+  texts:
+    - 2 Вақоеънома
+    - 2 Вак.
+    - 2. Вақоеънома
+    - 2. Вак.
+- osis: Ezra
+  texts:
+    - Эзр.
+    - Эзро
+- osis: Neh
+  texts:
+    - Наҳемьё
+    - Наҳ.
+- osis: Esth
+  texts:
+    - Эстер
+    - Эст.
+- osis: Job
+  texts:
+    - Айюб
+- osis: Ps
+  texts:
+    - Забур
+    - Заб.
+- osis: Prov
+  texts:
+    - Масалҳо
+    - Мас.
+- osis: Eccl
+  texts:
+    - Воиз
+- osis: Song
+  texts:
+    - Суруди Сурудҳо
+    - Сур. Сур.
+- osis: Jer
+  texts:
+    - Ирмиё
+    - Ирм.
+- osis: Ezek
+  texts:
+    - Ҳизқиёл
+    - Ҳиз.
+- osis: Dan
+  texts:
+    - Дониёл
+    - Дон.
+- osis: Hos
+  texts:
+    - Ҳушаъ
+    - Ҳуш.
+- osis: Joel
+  texts:
+    - Юил
+- osis: Amos
+  texts:
+    - Омӯс
+    - Ом.
+- osis: Obad
+  texts:
+    - Убадьё
+    - Уб.
+- osis: Jonah
+  texts:
+    - Юнус
+    - Юн.
+- osis: Mic
+  texts:
+    - Мик.
+    - Мико
+- osis: Nah
+  texts:
+    - Наҳум
+- osis: Hab
+  texts:
+    - Ҳабаққуқ
+    - Ҳаб.
+- osis: Zeph
+  texts:
+    - Сафаниё
+    - Саф.
+- osis: Hag
+  texts:
+    - Ҳаҷҷай
+    - Ҳаҷ.
+- osis: Zech
+  texts:
+    - Закариё
+    - Зак.
+- osis: Mal
+  texts:
+    - Малокӣ
+    - Мал.
+- osis: Matt
+  texts:
+    - Инҷили Матто
+    - Матто
+    - Мат.
+    - Мат
+- osis: Mark
+  texts:
+    - Инҷили Марқӯс
+    - Марқӯс
+    - Марқ.
+    - Марқ
+- osis: Luke
+  texts:
+    - Инҷили Луқо
+    - Луқ.
+    - Луқо
+    - Луқ
+- osis: 1John
+  texts:
+    - 1Юҳ
+- osis: 2John
+  texts:
+    - 2Юҳ
+- osis: 3John
+  texts:
+    - 3 Юҳанно
+    - 3 Юҳ.
+    - 3Юҳ
+- osis: John
+  texts:
+    - Инҷили Юҳанно
+    - Юҳанно
+    - Юҳ.
+    - Юҳ
+- osis: 1John
+  texts:
+    - 1 Юҳанно
+    - 1 Юҳ.
+    - 1. Юҳанно
+    - 1. Юҳ.
+- osis: 2John
+  texts:
+    - 2 Юҳанно
+    - 2 Юҳ.
+    - 2. Юҳанно
+    - 2. Юҳ.
+- osis: Acts
+  texts:
+    - Аъмоли Ҳаввориён
+    - Корнома
+    - Аъм.
+    - Kop
+    - Кф
+- osis: Rom
+  texts:
+    - Нома ба Румиён
+    - Румиён
+    - Рум.
+    - Рум
+- osis: 1Cor
+  texts:
+    - 1 ба Қӯринтиён
+    - 1 Қӯринтиён
+    - 1 Қӯр.
+    - 1. ба Қӯринтиён
+    - 1. Қӯринтиён
+    - 1. Қӯр.
+- osis: 2Cor
+  texts:
+    - 2 ба Қӯринтиён
+    - 2 Қӯринтиён
+    - 2 Қӯр.
+    - 2. ба Қӯринтиён
+    - 2. Қӯринтиён
+    - 2. Қӯр.
+- osis: 1Cor
+  texts:
+    - 1Қӯр
+- osis: 2Cor
+  texts:
+    - 2Қӯр
+- osis: Col
+  texts:
+    - Нома ба Қӯлассиён
+    - Қӯлассиён
+    - Қӯл.
+    - Қӯл
+- osis: Gal
+  texts:
+    - Нома ба Ғалотиён
+    - Ғалотиён
+    - Ғал.
+    - Ғал
+- osis: Eph
+  texts:
+    - Нома ба Эфсӯсиён
+    - Эфсӯсиён
+    - Эфс.
+    - Эф
+- osis: Phil
+  texts:
+    - Нома ба Филиппиён
+    - Филиппиён
+    - Фил.
+    - Флп
+    - Фп
+- osis: 1Thess
+  texts:
+    - 1 ба Таслӯникиён
+    - 1 Таслӯникиён
+    - 1 Тас.
+    - 1. ба Таслӯникиён
+    - 1. Таслӯникиён
+    - 1. Тас.
+- osis: 2Thess
+  texts:
+    - 2 ба Таслӯникиён
+    - 2 Таслӯникиён
+    - 2 Тас.
+    - 2. ба Таслӯникиён
+    - 2. Таслӯникиён
+    - 2. Тас.
+- osis: 1Thess
+  texts:
+    - 1Тас
+- osis: 2Thess
+  texts:
+    - 2Тас
+- osis: 1Tim
+  texts:
+    - 1 ба Тимотиюс
+    - 1 Тимотиюс
+    - 1 Тим.
+    - 1. ба Тимотиюс
+    - 1. Тимотиюс
+    - 1. Тим.
+- osis: 2Tim
+  texts:
+    - 2 ба Тимотиюс
+    - 2 Тимотиюс
+    - 2 Тим.
+    - 2. ба Тимотиюс
+    - 2. Тимотиюс
+    - 2. Тим.
+- osis: 1Tim
+  texts:
+    - 1Тим
+- osis: 2Tim
+  texts:
+    - 2Тим
+- osis: Titus
+  texts:
+    - Нома ба Титус
+    - Титус
+    - Тит.
+    - Тит
+- osis: Phlm
+  texts:
+    - Нома ба Филемӯн
+    - Филемӯн
+    - Филем.
+    - Флм
+    - Фм
+- osis: Heb
+  texts:
+    - ба Ибриён
+    - Ибриён
+    - Ибр.
+    - Ибр
+- osis: Jas
+  texts:
+    - Яъқуб
+    - Яъқ.
+    - Яъқ
+- osis: 1Pet
+  texts:
+    - 1 Петрус
+    - 1 Пет.
+    - 1. Петрус
+    - 1. Пет.
+- osis: 2Pet
+  texts:
+    - 2 Петрус
+    - 2 Пет.
+    - 2. Петрус
+    - 2. Пет.
+- osis: 1Pet
+  texts:
+    - 1Пет
+- osis: 2Pet
+  texts:
+    - 2Пет
+- osis: Jude
+  texts:
+    - Яҳудо
+    - Яҳ.
+    - Яҳ

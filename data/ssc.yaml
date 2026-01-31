@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Okohonyora
+  - osis: Matt
+    texts:
+      - Mataayo
+  - osis: Mark
+    texts:
+      - Maariko
+  - osis: Luke
+    texts:
+      - Ruuka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohana
+  - osis: Acts
+    texts:
+      - Amangʼana agha Abhatomwa
+  - osis: Rom
+    texts:
+      - Abharuumi
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Abhakörintö
+  - osis: Col
+    texts:
+      - Abhakorosaai
+  - osis: Gal
+    texts:
+      - Abhagharatia
+  - osis: Eph
+    texts:
+      - Abhaëfësö
+  - osis: Phil
+    texts:
+      - Abhafiripi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Abhatësarönikë
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+  - osis: Titus
+    texts:
+      - Tiito
+  - osis: Phlm
+    texts:
+      - Firimoni
+  - osis: Heb
+    texts:
+      - Abhaëbhuraania
+  - osis: Jas
+    texts:
+      - Yaakobho
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peetero
+  - osis: Jude
+    texts:
+      - Yuuda
+translations:
+  - SSC

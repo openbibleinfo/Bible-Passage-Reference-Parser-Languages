@@ -1,0 +1,43 @@
+default:
+  1Kgs:
+    long: 1 Kinivo
+    short: 1 Ki
+  1Sam:
+    long: 1 Samuela
+    short: 1 Sam
+  2Kgs:
+    long: 2 Kinivo
+    short: 2 Ki
+  2Sam:
+    long: 2 Samuela
+    short: 2 Sam
+  Acts:
+    long: Apositolo Divalabubuna
+    short: Aposi
+  Deut:
+    long: Loina Kanaveluqa
+    short: Loi2
+  Exod:
+    long: Isauyedi
+    short: Isa
+  Gen:
+    long: Kabavelamu
+    short: Kaba
+  Josh:
+    long: Iosua
+    short: Ios
+  Judg:
+    long: Toloina Bwaigidi
+    short: Tol
+  Lev:
+    long: Loina
+    short: Loi
+  Luke:
+    long: Luke
+    short: Luke
+  Mark:
+    long: Malika
+    short: Mak
+  Num:
+    long: Wawa
+    short: Wawa

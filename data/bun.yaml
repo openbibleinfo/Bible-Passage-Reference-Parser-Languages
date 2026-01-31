@@ -1,0 +1,65 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Matt
+    texts:
+      - Matthew
+  - osis: Luke
+    texts:
+      - Luke
+  - osis: 1John
+    texts:
+      - Jɔn Nsendɛ
+  - osis: 2John
+    texts:
+      - Jɔn Mɔɛkɛ Tiŋdɛ
+  - osis: 3John
+    texts:
+      - Jɔn Mɔɛkɛ Raɛ
+      - 3 Jɔn
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jɔn
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Ath
+  - osis: 1Thess
+    texts:
+      - Athɛsalonianaɛ Nsendɛ
+  - osis: 2Thess
+    texts:
+      - Athɛsalonianaɛ Mɔɛkɛ Tiŋdɛ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tim
+  - osis: 1Tim
+    texts:
+      - Timothi Nsendɛ
+  - osis: 2Tim
+    texts:
+      - Timothi Mɔɛkɛ Tiŋdɛ
+  - osis: Phlm
+    texts:
+      - Faylimɔn
+      - Fay
+  - osis: Jude
+    texts:
+      - Jud
+translations:
+  - SNT
+  - BUN1839

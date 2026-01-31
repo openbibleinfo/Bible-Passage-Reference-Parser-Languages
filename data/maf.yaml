@@ -1,0 +1,307 @@
+variables:
+  first: &first
+    - "1"
+    - I
+  second: &second
+    - "2"
+    - II
+books:
+  - osis: Gen
+    texts:
+      - Genèse
+      - Gen.
+  - osis: Exod
+    texts:
+      - Exode
+      - Ex.
+  - osis: Lev
+    texts:
+      - Lèv.
+  - osis: Num
+    texts:
+      - Nombres
+      - No.
+  - osis: Lam
+    texts:
+      - Lamentations de Jérémie
+      - Lam.
+  - osis: Rev
+    texts:
+      - Apocalypse
+      - Revelation
+      - Ap.
+      - Rev
+  - osis: Deut
+    texts:
+      - Deutéronome
+      - Deut.
+  - osis: Josh
+    texts:
+      - Josué
+      - Jos.
+  - osis: Judg
+    texts:
+      - Juges
+      - Ju.
+  - osis: Ruth
+    texts:
+      - Ruth
+  - osis: Isa
+    texts:
+      - Esaie
+      - Es.
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - Sam.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Rois
+      - R.
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Chroniques
+      - Chron.
+  - osis: Ezra
+    texts:
+      - Esdras
+      - Esd.
+  - osis: Neh
+    texts:
+      - Néhémie
+      - Néh.
+  - osis: Esth
+    texts:
+      - Esther
+      - Est.
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Psaumes
+      - Ps.
+  - osis: Prov
+    texts:
+      - Proverbes
+      - Prov.
+  - osis: Eccl
+    texts:
+      - Ecclésiaste
+      - Eccl.
+  - osis: Song
+    texts:
+      - Cantique des Cantiques
+      - Cant.
+  - osis: Jer
+    texts:
+      - Jérémie
+      - Jér.
+  - osis: Ezek
+    texts:
+      - Ezéchiel
+      - Ez.
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan.
+  - osis: Hos
+    texts:
+      - Osée
+      - Os.
+  - osis: Joel
+    texts:
+      - Joel
+  - osis: Amos
+    texts:
+      - Amos
+      - Am.
+  - osis: Obad
+    texts:
+      - Abdias
+      - Abd
+  - osis: Jonah
+    texts:
+      - Jonas
+      - Jon.
+  - osis: Mic
+    texts:
+      - Michée
+      - Mich.
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah.
+  - osis: Hab
+    texts:
+      - Habakuk
+      - Hab.
+  - osis: Zeph
+    texts:
+      - Sophonie
+      - Soph.
+  - osis: Hag
+    texts:
+      - Aggée
+      - Ag.
+  - osis: Zech
+    texts:
+      - Zacharie
+      - Zach.
+  - osis: Mal
+    texts:
+      - Malachie
+      - Mal.
+  - osis: Matt
+    texts:
+      - Matthieu
+      - Matthew
+      - Mt.
+      - Mt
+  - osis: Mark
+    texts:
+      - Marc
+      - Mark
+      - Mr
+  - osis: Luke
+    texts:
+      - Luke
+      - Luc
+      - Lc
+  - osis: 3John
+    texts:
+      - III Jean
+      - III Jn.
+      - 3 John
+      - 3 Jn
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jean
+      - John
+      - Jn.
+      - Jn
+  - osis: John
+    texts:
+      - Jean
+      - John
+      - Jhn
+  - osis: Acts
+    texts:
+      - Actes
+      - Acts
+      - Act
+  - osis: Rom
+    texts:
+      - Romains
+      - Romans
+      - Rom.
+      - Ro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corinthians
+      - Corinthiens
+      - Cor.
+      - Co
+  - osis: Col
+    texts:
+      - Colossians
+      - Colossiens
+      - Col.
+      - Col
+  - osis: Gal
+    texts:
+      - Galatians
+      - Galates
+      - Gal.
+      - Ga
+  - osis: Eph
+    texts:
+      - Ephesians
+      - Ephésiens
+      - Eph.
+      - Eph
+  - osis: Phil
+    texts:
+      - Philippians
+      - Philippiens
+      - Phil.
+      - Phl
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thessaloniciens
+      - Thessalonians
+      - Thess.
+      - Th
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothée
+      - Timothy
+      - Tim.
+      - Ti
+  - osis: Titus
+    texts:
+      - Titus
+      - Tite
+      - Tit
+  - osis: Phlm
+    texts:
+      - Philemon
+      - Philémon
+      - Phi.
+      - Phm
+  - osis: Heb
+    texts:
+      - Hébreux
+      - Hebrews
+      - Hébr.
+      - He
+  - osis: Jas
+    texts:
+      - Jacques
+      - Ja.
+      - Ja
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pierre
+      - Peter
+      - Pi.
+      - Pe
+  - osis: Jude
+    texts:
+      - Jude
+      - Jud
+translations:
+  - MOF89
+  - MAFNT

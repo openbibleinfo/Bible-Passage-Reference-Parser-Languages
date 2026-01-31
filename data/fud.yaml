@@ -1,0 +1,215 @@
+variables:
+  first: &first
+    - Uluaki
+  second: &second
+    - Lua
+  third: &third
+    - Tolu
+books:
+  - osis: Gen
+    texts:
+      - Senesi
+  - osis: Exod
+    texts:
+      - Ekesote
+  - osis: Lev
+    texts:
+      - Levitiko
+  - osis: Num
+    texts:
+      - Numelo
+  - osis: Lam
+    texts:
+      - Tagi laulau a Selemia
+  - osis: Rev
+    texts:
+      - Apokalipisi
+  - osis: Deut
+    texts:
+      - Tetelonome
+  - osis: Josh
+    texts:
+      - Sosue
+  - osis: Judg
+    texts:
+      - Tuifakamaau
+  - osis: Ruth
+    texts:
+      - Lute
+  - osis: Isa
+    texts:
+      - Esaia
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - tosi a Samuele
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - tosi o Sau
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - tosi o Koloniko
+  - osis: Ezra
+    texts:
+      - Esetalasi
+  - osis: Neh
+    texts:
+      - Neemia
+  - osis: Esth
+    texts:
+      - Esitele
+  - osis: Job
+    texts:
+      - Sopo
+  - osis: Ps
+    texts:
+      - Pesalemo
+  - osis: Prov
+    texts:
+      - Taagapati
+  - osis: Eccl
+    texts:
+      - Ekelesiasi
+  - osis: Song
+    texts:
+      - Katiko o Katiko
+  - osis: Jer
+    texts:
+      - Selemia
+  - osis: Ezek
+    texts:
+      - Esekiele
+  - osis: Dan
+    texts:
+      - Taniela
+  - osis: Hos
+    texts:
+      - Oseo
+  - osis: Joel
+    texts:
+      - Soele
+  - osis: Amos
+    texts:
+      - Amosi
+  - osis: Obad
+    texts:
+      - Apetiasi
+  - osis: Jonah
+    texts:
+      - Sonasi
+  - osis: Mic
+    texts:
+      - Mikea
+  - osis: Nah
+    texts:
+      - Naume
+  - osis: Hab
+    texts:
+      - Apakuki
+  - osis: Zeph
+    texts:
+      - Sofoni
+  - osis: Hag
+    texts:
+      - Akeseo
+  - osis: Zech
+    texts:
+      - Sakalia
+  - osis: Mal
+    texts:
+      - Malakia
+  - osis: Matt
+    texts:
+      - Mateo
+  - osis: Mark
+    texts:
+      - Maleko
+  - osis: Luke
+    texts:
+      - Luka
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - tosi a Soane
+  - osis: John
+    texts:
+      - Soane
+  - osis: Acts
+    texts:
+      - Gaoi
+  - osis: Rom
+    texts:
+      - Loma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - tosi ki le kau Kolinto
+  - osis: Col
+    texts:
+      - Kolose
+  - osis: Gal
+    texts:
+      - Kalate
+  - osis: Eph
+    texts:
+      - Efeso
+  - osis: Phil
+    texts:
+      - Filipe
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - tosi ki le kau Tesalonika
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - tosi kia Timoteo
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filemo
+  - osis: Heb
+    texts:
+      - Epelo
+  - osis: Jas
+    texts:
+      - Sakopo
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - tosi a Petelo
+  - osis: Jude
+    texts:
+      - Suta
+translations:
+  - FB2000

@@ -1,0 +1,141 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Mo꞉mo꞉do꞉
+      - Mo꞉mo꞉
+  - osis: Rev
+    texts:
+      - Kalaba To
+      - Kala
+  - osis: Ruth
+    texts:
+      - Lud
+  - osis: Matt
+    texts:
+      - Madiyu
+      - Madi
+  - osis: Mark
+    texts:
+      - Mak
+  - osis: Luke
+    texts:
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Yo꞉n
+  - osis: 2John
+    texts:
+      - 2Yo꞉n
+  - osis: 3John
+    texts:
+      - 3 Yo꞉n
+      - 3Yo꞉n
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yo꞉n
+  - osis: Acts
+    texts:
+      - Iliga꞉felo꞉
+      - Ilig
+  - osis: Rom
+    texts:
+      - Lom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kolin
+  - osis: 1Cor
+    texts:
+      - 1Kol
+  - osis: 2Cor
+    texts:
+      - 2Kol
+  - osis: Col
+    texts:
+      - Kolosi
+      - Kolo
+  - osis: Gal
+    texts:
+      - Galasia
+      - Gala
+  - osis: Eph
+    texts:
+      - A꞉fesa꞉s
+      - A꞉fe
+  - osis: Phil
+    texts:
+      - Filibai
+      - Fili
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonaika
+  - osis: 1Thess
+    texts:
+      - 1Tes
+  - osis: 2Thess
+    texts:
+      - 2Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Taitus
+      - Tait
+  - osis: Phlm
+    texts:
+      - Filemon
+      - File
+  - osis: Heb
+    texts:
+      - Hibulu
+      - Hibu
+  - osis: Jas
+    texts:
+      - Ya꞉ma꞉s
+      - Ya꞉m
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Bida
+  - osis: 1Pet
+    texts:
+      - 1Bid
+  - osis: 2Pet
+    texts:
+      - 2Bid
+  - osis: Jude
+    texts:
+      - Yud
+translations:
+  - BCO

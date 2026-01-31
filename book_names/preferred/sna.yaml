@@ -1,0 +1,723 @@
+default:
+  1Chr:
+    long: 1 Makoronike
+    short: 1 Nhor
+  1Cor:
+    long: 1 Vakorinde
+    short: 1 Vak
+  1John:
+    long: 1 Johani
+    short: 1 Joh
+  1Kgs:
+    long: 1 Madzimambo
+    short: 1 Madzi
+  1Macc:
+    long: 1 Vanamakabhi
+    short: 1 Mak
+  1Pet:
+    long: 1 Pita
+    short: 1 Pita
+  1Sam:
+    long: 1 Samueri
+    short: 1 Sam
+  1Thess:
+    long: 1 Vatesaronika
+    short: 1 Vates
+  1Tim:
+    long: 1 Timoti
+    short: 1 Tim
+  2Chr:
+    long: 2 Makoronike
+    short: 2 Nhor
+  2Cor:
+    long: 2 Vakorinde
+    short: 2 Vak
+  2John:
+    long: 2 Johani
+    short: 2 Joh
+  2Kgs:
+    long: 2 Madzimambo
+    short: 2 Madzi
+  2Macc:
+    long: 2 Vanamakabhi
+    short: 2 Mak
+  2Pet:
+    long: 2 Pita
+    short: 2 Pita
+  2Sam:
+    long: 2 Samueri
+    short: 2 Sam
+  2Thess:
+    long: 2 Vatesaronika
+    short: 2 Vates
+  2Tim:
+    long: 2 Timoti
+    short: 2 Tim
+  3John:
+    long: 3 Johani
+    short: 3 Joh
+  Acts:
+    long: Mabasa
+    short: Mab
+  Amos:
+    long: Amosi
+    short: Amo
+  Bar:
+    long: Bharuku
+    short: Bha
+  Col:
+    long: VaKorose
+    short: Vako
+  Dan:
+    long: Dhanieri
+    short: Dhan
+  DanGr:
+    long: Dhanieri g
+    short: Dhang
+  Deut:
+    long: Dhuteronomi
+    short: Kut
+  Eccl:
+    long: Muparidzi
+    short: Mupa
+  Eph:
+    long: VaEfeso
+    short: Vaef
+  Esth:
+    long: Esita
+    short: Esit
+  EsthGr:
+    long: Esita g
+    short: EsG
+  Exod:
+    long: Ekisodho
+    short: Kub
+  Ezek:
+    long: Ezekieri
+    short: Ezek
+  Ezra:
+    long: Ezira
+    short: Ezira
+  Gal:
+    long: VaGaratia
+    short: Vag
+  Gen:
+    long: Genesi
+    short: Mav
+  Hab:
+    long: Habhakuku
+    short: Habh
+  Hag:
+    long: Hagai
+    short: Hag
+  Heb:
+    long: VaHebheru
+    short: VaHeb
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Isaya
+    short: Isa
+  Jas:
+    long: Jakobho
+    short: Jem
+  Jdt:
+    long: Judhisi
+    short: Jud
+  Jer:
+    long: Jeremiya
+    short: Jer
+  Job:
+    long: Jobho
+    short: Jobhu
+  Joel:
+    long: Joere
+    short: Joe
+  John:
+    long: Johani
+    short: Joh
+  Jonah:
+    long: Jona
+    short: Jona
+  Josh:
+    long: Joshua
+    short: Josh
+  Jude:
+    long: Judha
+    short: Judh
+  Judg:
+    long: Vatongi
+    short: Vat
+  Lam:
+    long: Kuungudza
+    short: Kuung
+  Lev:
+    long: Mupiro
+    short: Mup
+  Luke:
+    long: Ruka
+    short: Ruka
+  Mal:
+    long: Maraki
+    short: Mar
+  Mark:
+    long: Mako
+    short: Mak
+  Matt:
+    long: Mateu
+    short: Mat
+  Mic:
+    long: Mika
+    short: Mika
+  Nah:
+    long: Nahumi
+    short: Nah
+  Neh:
+    long: Nehemiya
+    short: Neh
+  Num:
+    long: Numeri
+    short: Kuve
+  Obad:
+    long: Obhadhiya
+    short: Obha
+  Phil:
+    long: VaFiripi
+    short: VaFi
+  Phlm:
+    long: Firimoni
+    short: Fir
+  PrAzar:
+    long: Dhanierig
+    short: Dhag
+  Prov:
+    long: Tsumo
+    short: Tsu
+  Ps:
+    long: Mapisarema
+    short: Nzi
+  Rev:
+    long: Zvakaratidzwa
+    short: Zvak
+  Rom:
+    long: VaRoma
+    short: Var
+  Ruth:
+    long: Rute
+    short: Rute
+  Sir:
+    long: Sira
+    short: Sira
+  Song:
+    long: Rwiyo
+    short: Rwi
+  Titus:
+    long: Tito
+    short: Tit
+  Tob:
+    long: Tobhiti
+    short: Tob
+  Wis:
+    long: Ungwaru
+    short: Ungwa
+  Zech:
+    long: Zekariya
+    short: Zek
+  Zeph:
+    long: Zefaniya
+    short: Zef
+translations:
+  scb:
+    1Chr:
+      short: 1 Makoro
+    1Cor:
+      short: 1 VaKori
+    1John:
+      short: 1 Joha
+    1Pet:
+      long: 1 Petro
+      short: 1 Pet
+    1Sam:
+      short: 1 Samu
+    1Thess:
+      short: 1 VaTesa
+    1Tim:
+      short: 1 Timo
+    2Chr:
+      short: 2 Makoro
+    2Cor:
+      short: 2 VaKori
+    2John:
+      short: 2 Joha
+    2Pet:
+      long: 2 Petro
+      short: 2 Pet
+    2Sam:
+      short: 2 Samu
+    2Thess:
+      short: 2 VaTesa
+    2Tim:
+      short: 2 Timo
+    3John:
+      short: 3 Joha
+    Acts:
+      short: Maba
+    Col:
+      short: VaKoro
+    Dan:
+      short: Dha
+    Deut:
+      short: Dhute
+    Eph:
+      short: VaEfe
+    Esth:
+      long: Esteri
+      short: Este
+    Exod:
+      short: Eki
+    Ezek:
+      short: Eze
+    Ezra:
+      short: Ezi
+    Gal:
+      short: VaGa
+    Gen:
+      long: Genesisi
+      short: Gene
+    Hab:
+      long: Habhakuki
+      short: Habha
+    Hag:
+      short: Haga
+    Heb:
+      short: VaHe
+    Hos:
+      short: Hose
+    Jas:
+      short: Jako
+    Jer:
+      long: Jeremia
+      short: Jere
+    Job:
+      short: Job
+    John:
+      short: Joha
+    Judg:
+      short: Vato
+    Lam:
+      long: Kuungudza kwaJeremia
+      short: Kuu
+    Lev:
+      long: Revhitiko
+      short: Revhi
+    Mal:
+      short: Mara
+    Mark:
+      short: Mako
+    Matt:
+      long: Mateo
+      short: Mate
+    Nah:
+      short: Nahu
+    Neh:
+      long: Nehemia
+      short: Nehe
+    Num:
+      short: Nu
+    Obad:
+      long: Obhadhia
+    Phlm:
+      short: Firi
+    Prov:
+      long: Zvirevo
+      short: Zvi
+    Ps:
+      short: Mapi
+    Rev:
+      long: Zvakazarurwa
+      short: Zva
+    Rom:
+      short: VaRo
+    Song:
+      long: Rwiyo Rukuru rwaSoromoni
+      short: Rwiyo
+    Titus:
+      short: Tito
+    Zech:
+      long: Zekaria
+      short: Zeka
+    Zeph:
+      long: Zefania
+      short: Zefa
+  sub:
+    1Chr:
+      short: 1 Makor
+    1Cor:
+      short: 1 Vakor
+    1John:
+      short: 1 Johan
+    1Pet:
+      long: 1 Petirosi
+      short: 1 Pet
+    2Chr:
+      short: 2 Makor
+    2Cor:
+      short: 2 Vakor
+    2John:
+      short: 2 Johan
+    2Pet:
+      long: 2 Petirosi
+      short: 2 Pet
+    3John:
+      short: 3 Johan
+    Acts:
+      long: Mabasa aVapostori
+    Amos:
+      short: Amosi
+    Col:
+      short: VaKoro
+    Deut:
+      short: Dhute
+    Eccl:
+      short: Mupar
+    Eph:
+      short: VaEfe
+    Esth:
+      long: Esiteri
+    Exod:
+      short: Ekis
+    Gal:
+      short: VaGar
+    Gen:
+      short: Gen
+    Hab:
+      short: Habha
+    Hag:
+      short: Hagai
+    Hos:
+      long: Hosiya
+      short: Hosiya
+    Isa:
+      short: Isaya
+    Jas:
+      short: Jakob
+    Job:
+      short: Jobho
+    Joel:
+      short: Joere
+    John:
+      short: Johan
+    Jude:
+      long: Judhasi
+      short: Judha
+    Judg:
+      short: Vato
+    Lam:
+      long: Kuungudza KwaJeremiya
+      short: Kuungu
+    Lev:
+      long: Revhitiko
+      short: Revhi
+    Mal:
+      short: Marak
+    Mark:
+      short: Mako
+    Nah:
+      short: Nahum
+    Num:
+      short: Num
+    Obad:
+      short: Obhad
+    Phil:
+      short: VaFir
+    Phlm:
+      short: Firim
+    Prov:
+      long: Zvirevo
+      short: Zvir
+    Ps:
+      short: Mapis
+    Rev:
+      long: Zvakazarurwa
+      short: Zvakaz
+    Rom:
+      short: VaRom
+    Song:
+      long: Rwiyo Rukuru rwaSoromoni
+      short: Rwiyo
+    Titus:
+      short: Tito
+    Zech:
+      short: Zekar
+    Zeph:
+      short: Zefan
+  sna2002:
+    1Chr:
+      short: 1 Mak
+    1Cor:
+      short: 1Kor
+    1John:
+      short: 1Joh
+    1Pet:
+      long: 1 Petirosi
+      short: 1Pet
+    1Thess:
+      short: 1Tes
+    1Tim:
+      short: 1Tim
+    2Chr:
+      short: 2 Mak
+    2Cor:
+      short: 2Kor
+    2John:
+      short: 2Joh
+    2Kgs:
+      short: 2 Mad
+    2Pet:
+      long: 2 Petirosi
+      short: 2Pet
+    2Thess:
+      short: 2Tes
+    2Tim:
+      short: 2Tim
+    3John:
+      short: 3Joh
+    Amos:
+      short: Amosi
+    Col:
+      short: Korose
+    Deut:
+      short: Dhut
+    Eccl:
+      short: Mupar
+    Eph:
+      short: Efes
+    Esth:
+      long: Esiteri
+    Exod:
+      short: Eki
+    Gal:
+      long: Vagaratiya
+      short: Gar
+    Gen:
+      short: Gen
+    Hab:
+      long: Habhakuki
+      short: Habha
+    Hag:
+      short: Hagai
+    Heb:
+      short: Heb
+    Hos:
+      short: Hosea
+    Isa:
+      short: Isaya
+    Jas:
+      short: Jak
+    Job:
+      short: Job
+    Joel:
+      short: Joere
+    John:
+      short: Johani
+    Josh:
+      short: Jos
+    Jude:
+      long: Judhasi
+      short: Jud
+    Lam:
+      long: Kuungudza KwaJeremiya
+      short: Kuu
+    Lev:
+      long: Revhitiko
+      short: Rev
+    Mal:
+      short: Marak
+    Mark:
+      short: Mako
+    Nah:
+      short: Nahumi
+    Num:
+      short: Num
+    Obad:
+      short: Obhad
+    Phil:
+      short: Firip
+    Phlm:
+      short: Firim
+    Prov:
+      long: Zvirevo
+      short: Zvir
+    Ps:
+      short: Mapis
+    Rev:
+      long: Zvakazarurwa
+    Rom:
+      short: Rom
+    Song:
+      long: Rwiyo Rukuru rwaSoromoni
+      short: Rwiyo
+    Titus:
+      short: Tito
+    Zech:
+      short: Zekar
+    Zeph:
+      short: Zefan
+  sclb:
+    1Chr:
+      long: 1 Nhoroondo
+    2Chr:
+      long: 2 Nhoroondo
+    Deut:
+      long: Kutsinhira Mutemo
+    Exod:
+      long: Kubuda
+    Gen:
+      long: Mavambo
+    Jas:
+      long: Jemusi
+    Job:
+      long: Jobhu
+    Joel:
+      long: Joeri
+    Josh:
+      long: Joshuwa
+    Mark:
+      long: Mariko
+    Nah:
+      long: Nahumu
+    Num:
+      long: Kuverengwa
+    Ps:
+      long: Nziyo
+    Titus:
+      long: Titosi
+  sclbd:
+    1Chr:
+      long: 1 Nhoroondo
+    2Chr:
+      long: 2 Nhoroondo
+    Deut:
+      long: Kutsinhira Mutemo
+    Exod:
+      long: Kubuda
+    Gen:
+      long: Mavambo
+    Jas:
+      long: Jemusi
+    Job:
+      long: Jobhu
+    Joel:
+      long: Joeri
+    Josh:
+      long: Joshuwa
+    Mark:
+      long: Mariko
+    Nah:
+      long: Nahumu
+    Num:
+      long: Kuverengwa
+    Ps:
+      long: Nziyo
+    Titus:
+      long: Titosi
+  sub1949:
+    1Chr:
+      long: I Makoronike
+    1Cor:
+      long: I ƲaKorinte
+    1John:
+      long: I Johane
+    1Kgs:
+      long: I Madzimambo
+    1Pet:
+      long: I Petro
+    1Sam:
+      long: I Samueri
+    1Thess:
+      long: I ƲaTesaronika
+    1Tim:
+      long: I Timotio
+    2Chr:
+      long: II Makoronike
+    2Cor:
+      long: 2 ƲaKorinte
+    2John:
+      long: II Johane
+    2Kgs:
+      long: II Madzimambo
+    2Pet:
+      long: II Petro
+    2Sam:
+      long: II Samueri
+    2Thess:
+      long: II Ʋatesaronika
+    2Tim:
+      long: II Timotio
+    3John:
+      long: III Johane
+    Acts:
+      long: Maɓasa Aʋaapostora
+      short: Maɓasa
+    Col:
+      long: ƲaKorose
+    Dan:
+      long: Danieri
+    Deut:
+      long: Deuteronomio
+    Eph:
+      long: ƲaEfeso
+    Esth:
+      long: Estere
+    Exod:
+      long: Eksodo
+    Ezra:
+      long: Ezra
+    Gal:
+      long: ƲaGaratia
+    Hab:
+      long: Habakuki
+    Heb:
+      long: ƲaHeberu
+    Jas:
+      long: Jakobo
+    Jer:
+      long: Jeremia
+    Job:
+      long: Jobo
+    John:
+      long: Johane
+    Jude:
+      long: Judasi
+    Judg:
+      long: Ʋatoŋgi
+    Lam:
+      long: Mariro aJeremia
+    Lev:
+      long: Revitiko
+    Mark:
+      long: Marko
+      short: Mar
+    Matt:
+      long: Mateo
+    Neh:
+      long: Nehemia
+    Obad:
+      long: Obadia
+    Phil:
+      long: ƲaFiripi
+    Phlm:
+      long: Firemoni
+    Prov:
+      long: Ɀireʋo
+    Rev:
+      long: Ɀakazarurwa
+    Rom:
+      long: ƲaRoma
+    Song:
+      long: Rwiyo Rukuru
+    Zech:
+      long: Zekaria
+    Zeph:
+      long: Zefania

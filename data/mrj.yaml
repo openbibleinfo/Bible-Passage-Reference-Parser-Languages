@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Пачм
+  - osis: Matt
+    texts:
+      - Мф
+  - osis: Mark
+    texts:
+      - Мк
+  - osis: Luke
+    texts:
+      - Лк
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Ин
+  - osis: Acts
+    texts:
+      - Ап.пӓш
+  - osis: Rom
+    texts:
+      - Рим
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Кор
+  - osis: Col
+    texts:
+      - Кол
+  - osis: Gal
+    texts:
+      - Гал
+  - osis: Eph
+    texts:
+      - Еф
+  - osis: Phil
+    texts:
+      - Флп
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Фес
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Тим
+  - osis: Titus
+    texts:
+      - Тит
+  - osis: Phlm
+    texts:
+      - Флм
+  - osis: Heb
+    texts:
+      - Евр
+  - osis: Jas
+    texts:
+      - Иак
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Петр
+  - osis: Jude
+    texts:
+      - Иуд
+translations:
+  - HMNT14

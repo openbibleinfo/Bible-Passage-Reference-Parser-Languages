@@ -1,0 +1,237 @@
+variables:
+  first: &first
+    - "1"
+    - Primera
+  second: &second
+    - "2"
+    - Segunda
+books:
+  - osis: Gen
+    texts:
+      - Génesis
+      - Gn.
+  - osis: Exod
+    texts:
+      - Éxodo
+      - Ex.
+  - osis: Lev
+    texts:
+      - Levítico
+      - Lv.
+  - osis: Num
+    texts:
+      - Números
+      - Nm.
+  - osis: Rev
+    texts:
+      - Apocalipsis
+      - Iwa.
+  - osis: Deut
+    texts:
+      - Deuteronomio
+      - Dt.
+  - osis: Josh
+    texts:
+      - Josué
+      - Jos.
+  - osis: Judg
+    texts:
+      - Jueces
+      - Jue.
+  - osis: Ruth
+    texts:
+      - Rt.
+      - Rut
+  - osis: Isa
+    texts:
+      - Isaías
+      - Is.
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - S.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Reyes
+      - R.
+  - osis: Ezra
+    texts:
+      - Esdras
+      - Esd.
+  - osis: Neh
+    texts:
+      - Nehemías
+      - Neh.
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Salmos
+      - Sal.
+  - osis: Prov
+    texts:
+      - Proverbios
+      - Pr.
+  - osis: Eccl
+    texts:
+      - Eclesiastés
+      - Ec.
+  - osis: Jer
+    texts:
+      - Jeremías
+      - Jer.
+  - osis: Ezek
+    texts:
+      - Ezequiel
+      - Ez.
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dn.
+  - osis: Hos
+    texts:
+      - Oseas
+      - Os.
+  - osis: Joel
+    texts:
+      - Joel
+      - Jl.
+  - osis: Amos
+    texts:
+      - Amós
+      - Am.
+  - osis: Jonah
+    texts:
+      - Jonás
+      - Jon.
+  - osis: Mic
+    texts:
+      - Miqueas
+      - Mi.
+  - osis: Hab
+    texts:
+      - Habacuc
+      - Hab.
+  - osis: Zech
+    texts:
+      - Zacarías
+      - Zac.
+  - osis: Mal
+    texts:
+      - Malaquías
+      - Mal.
+  - osis: Matt
+    texts:
+      - Evangelio según San Mateo
+      - Mt.
+  - osis: Mark
+    texts:
+      - Evangelio según San Marcos
+      - Mr.
+  - osis: Luke
+    texts:
+      - Evangelio según San Lucas
+      - Lc.
+  - osis: 3John
+    texts:
+      - Tercera Carta de San Juan
+      - 3 Jn.
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Carta de San Juan
+      - Jn.
+  - osis: John
+    texts:
+      - Evangelio según San Juan
+      - Jn.
+  - osis: Acts
+    texts:
+      - Los Hechos de los Apóstoles
+      - Tak.
+  - osis: Rom
+    texts:
+      - Carta de San Pablo a los Romanos
+      - Ro.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - carta de San Pablo a los Corintios
+      - Co.
+  - osis: Col
+    texts:
+      - Carta de San Pablo a los Colosenses
+      - Col.
+  - osis: Gal
+    texts:
+      - Carta de San Pablo a los Gálatas
+      - Ga.
+  - osis: Eph
+    texts:
+      - Carta de San Pablo a los Efesios
+      - Ef.
+  - osis: Phil
+    texts:
+      - Carta de San Pablo a los Filipenses
+      - Flp.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - carta de San Pablo a los Tesalonicenses
+      - Ts.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - carta de San Pablo a Timoteo
+      - Ti.
+  - osis: Titus
+    texts:
+      - Carta de San Pablo a Tito
+      - Tit.
+  - osis: Phlm
+    texts:
+      - Carta de San Pablo a Filemón
+      - Flm.
+  - osis: Heb
+    texts:
+      - Carta a los Hebreos
+      - He.
+  - osis: Jas
+    texts:
+      - Carta de San Santiago
+      - Stg.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Carta de San Pedro
+      - P.
+  - osis: Jude
+    texts:
+      - Carta de San Judas
+      - Jud.
+translations:
+  - AGR

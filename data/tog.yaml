@@ -1,0 +1,273 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Chiyambo
+      - Chiy.
+  - osis: Exod
+    texts:
+      - Chituwa
+      - Chitu.
+  - osis: Lev
+    texts:
+      - ŴaLevi
+      - Lev.
+  - osis: Num
+    texts:
+      - Maŵerengedu
+      - Maŵ
+  - osis: Lam
+    texts:
+      - Chitenje
+      - Chite.
+  - osis: Rev
+    texts:
+      - Chivumbuzi
+      - Chiv.
+  - osis: Deut
+    texts:
+      - Marangu
+      - Mar.
+  - osis: Josh
+    texts:
+      - Yoswa
+      - Yos.
+  - osis: Judg
+    texts:
+      - Ŵeruzgi
+      - Ŵer.
+  - osis: Ruth
+    texts:
+      - Ruti
+      - Rut
+  - osis: Isa
+    texts:
+      - Yesaya
+      - Yes.
+  - osis:
+      - osis: 1Sam
+        before: *first
+    texts:
+      - Samuele
+      - Sam
+  - osis:
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuele
+      - Sam.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - ŴaKaronga
+      - Kar.
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Mikoka
+      - Mik.
+  - osis: Ezra
+    texts:
+      - Ezr.
+      - Ezra
+  - osis: Neh
+    texts:
+      - Nehemiya
+      - Neh.
+  - osis: Esth
+    texts:
+      - Estere
+      - Est.
+  - osis: Job
+    texts:
+      - Job.
+      - Jobu
+  - osis: Prov
+    texts:
+      - Nthanthi
+      - Nth.
+  - osis: Eccl
+    texts:
+      - Wakutaula
+      - Wak.
+  - osis: Song
+    texts:
+      - Sumu ya Zisumu
+      - Zis.
+  - osis: Ps
+    texts:
+      - Sum.
+      - Sumu
+  - osis: Jer
+    texts:
+      - Yeremiya
+      - Yer.
+  - osis: Ezek
+    texts:
+      - Ezekiele
+      - Ezk.
+  - osis: Dan
+    texts:
+      - Danyele
+      - Dan.
+  - osis: Hos
+    texts:
+      - Hoseya
+      - Hos.
+  - osis: Joel
+    texts:
+      - Yoele
+      - Yoe.
+  - osis: Amos
+    texts:
+      - Amosi
+      - Amo.
+  - osis: Obad
+    texts:
+      - Obadiya
+      - Oba
+  - osis: Jonah
+    texts:
+      - Yon.
+      - Yona
+  - osis: Mic
+    texts:
+      - Mik.
+      - Mika
+  - osis: Nah
+    texts:
+      - Nahumu
+      - Nam
+  - osis: Hab
+    texts:
+      - Habakuku
+      - Hab.
+  - osis: Zeph
+    texts:
+      - Zefaniya
+      - Zef.
+  - osis: Hag
+    texts:
+      - Hagayi
+      - Hag
+  - osis: Zech
+    texts:
+      - Zekariya
+      - Zek.
+  - osis: Mal
+    texts:
+      - Malaki
+      - Mal.
+  - osis: Matt
+    texts:
+      - Mateyu
+      - Mat.
+  - osis: Mark
+    texts:
+      - Marko
+      - Mrk.
+  - osis: Luke
+    texts:
+      - Luk.
+      - Luka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohane
+      - Yoh.
+  - osis: Acts
+    texts:
+      - Machitidu gha Ŵakutumika
+      - Mach.
+  - osis: Rom
+    texts:
+      - ŴaRoma
+      - Rom.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - ŴaKorinte
+      - Akor.
+  - osis: Col
+    texts:
+      - ŴaKolose
+      - Kol.
+  - osis: Gal
+    texts:
+      - ŴaGalatia
+      - Gal.
+  - osis: Eph
+    texts:
+      - ŴaEfeso
+      - Efe.
+  - osis: Phil
+    texts:
+      - ŴaFilipi
+      - Fil.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - ŴaTesalonika
+      - Ates.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+      - Tim.
+  - osis: Titus
+    texts:
+      - Tit.
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filemone
+      - Film.
+  - osis: Heb
+    texts:
+      - ŴaHebere
+      - Aheb.
+  - osis: Jas
+    texts:
+      - Yakobe
+      - Yak.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petro
+      - Pet.
+  - osis: Jude
+    texts:
+      - Yud.
+      - Yuda
+translations:
+  - TONGAMW

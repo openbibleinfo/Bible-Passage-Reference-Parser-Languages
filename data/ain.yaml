@@ -1,0 +1,123 @@
+variables:
+  first: &first
+    - "1"
+    - I
+  second: &second
+    - "2"
+    - II
+books:
+  - osis: Rev
+    texts:
+      - Ekambakbe
+      - Ekam
+  - osis: Ps
+    texts:
+      - Iyohaichish
+  - osis: Jonah
+    texts:
+      - Jona
+  - osis: Matt
+    texts:
+      - Mattaios
+      - Matt
+  - osis: Mark
+    texts:
+      - Markos
+      - Mark
+  - osis: Luke
+    texts:
+      - Roukos
+      - Rouk
+  - osis: 3John
+    texts:
+      - III Yoannes
+      - 3 Yoan
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yoannes
+      - Yoan
+  - osis: Acts
+    texts:
+      - Apostoro ikip oma kambi
+      - Kambi
+  - osis: Rom
+    texts:
+      - Roma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintos
+      - Kor
+  - osis: Col
+    texts:
+      - Korosai
+      - Kor
+  - osis: Gal
+    texts:
+      - Garatea
+      - Gar
+  - osis: Eph
+    texts:
+      - Epesos
+      - Epe
+  - osis: Phil
+    texts:
+      - Piripoi
+      - Piri
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Tessaronike
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tessaronike
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteos
+      - Tim
+  - osis: Titus
+    texts:
+      - Titus
+      - Tit
+  - osis: Phlm
+    texts:
+      - Pirimon
+      - Piri
+  - osis: Heb
+    texts:
+      - Hebraios
+      - Heb
+  - osis: Jas
+    texts:
+      - Yakob
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petros
+      - Pet
+  - osis: Jude
+    texts:
+      - Youdas
+      - Yoad
+translations:
+  - AINU

@@ -1,0 +1,222 @@
+books:
+  - osis: Gen
+    texts:
+      - Kusintii Andunya
+      - K.A.
+  - osis: Exod
+    texts:
+      - Kufita
+  - osis: Lev
+    texts:
+      - Kuwee
+  - osis: Num
+    texts:
+      - Kuka
+  - osis: Lam
+    texts:
+      - Kukpata
+  - osis: Rev
+    texts:
+      - Kuyɛi Zãa
+  - osis: Deut
+    texts:
+      - Wooda ku kɔsi
+  - osis: Josh
+    texts:
+      - Zozue
+  - osis: Judg
+    texts:
+      - Woo kiiti ŋa
+      - Woo kiiti
+  - osis: Ruth
+    texts:
+      - Ruutu
+  - osis: Isa
+    texts:
+      - Ezai
+  - osis: 1Sam
+    texts:
+      - Samuɛli 1,
+      - Samuɛli 1
+  - osis: 2Sam
+    texts:
+      - Samuɛli 2,
+      - Samuɛli 2
+  - osis: 1Kgs
+    texts:
+      - Ilaalu ŋa 1
+      - Ilaalu 1,
+  - osis: 2Kgs
+    texts:
+      - Ilaalu ŋa 2
+      - Ilaalu 2,
+  - osis: 1Chr
+    texts:
+      - Bomma 1,
+      - Bomma 1
+  - osis: 2Chr
+    texts:
+      - Bomma 2,
+      - Bomma 2
+  - osis: Ezra
+    texts:
+      - Ɛsidarasi
+  - osis: Neh
+    texts:
+      - Neemi
+  - osis: Esth
+    texts:
+      - Ɛsitɛɛ
+  - osis: Job
+    texts:
+      - Zɔɔbu
+  - osis: Prov
+    texts:
+      - Mɔnda ŋa
+      - Mɔnda
+  - osis: Eccl
+    texts:
+      - Woo lasabu
+  - osis: Song
+    texts:
+      - Iri ku kɔ̃ iyi í dɔ̃ í re
+  - osis: Ps
+    texts:
+      - Iri ku kɔ̃
+  - osis: Jer
+    texts:
+      - Zeremi
+  - osis: Ezek
+    texts:
+      - Ezekiɛli
+  - osis: Dan
+    texts:
+      - Daniɛli
+  - osis: Hos
+    texts:
+      - Ozee
+  - osis: Joel
+    texts:
+      - Zoɛli
+  - osis: Amos
+    texts:
+      - Amɔsu
+  - osis: Obad
+    texts:
+      - Abudiasi
+  - osis: Jonah
+    texts:
+      - Zonasi
+  - osis: Mic
+    texts:
+      - Misee
+  - osis: Nah
+    texts:
+      - Nahumu
+  - osis: Hab
+    texts:
+      - Abakuku
+  - osis: Zeph
+    texts:
+      - Sofoni
+  - osis: Hag
+    texts:
+      - Azee
+  - osis: Zech
+    texts:
+      - Zakari
+  - osis: Mal
+    texts:
+      - Malasi
+  - osis: Matt
+    texts:
+      - Matie
+  - osis: Mark
+    texts:
+      - Maaku
+  - osis: Luke
+    texts:
+      - Luku
+  - osis: 1John
+    texts:
+      - Zãa 1,
+      - Zãa 1
+  - osis: 2John
+    texts:
+      - Zãa 2,
+      - Zãa 2
+  - osis: 3John
+    texts:
+      - Zãa 3,
+      - Zãa 3
+  - osis: John
+    texts:
+      - Zãa
+  - osis: Acts
+    texts:
+      - Woo bɛ ŋa
+      - Woo bɛ
+  - osis: Rom
+    texts:
+      - Romu
+  - osis: 1Cor
+    texts:
+      - Kɔrɛnti 1,
+      - Kɔrɛnti 1
+  - osis: 2Cor
+    texts:
+      - Kɔrɛnti 2,
+      - Kɔrɛnti 2
+  - osis: Col
+    texts:
+      - Kolosee
+  - osis: Gal
+    texts:
+      - Galati
+  - osis: Eph
+    texts:
+      - Efɛɛzu
+  - osis: Phil
+    texts:
+      - Filipi
+  - osis: 1Thess
+    texts:
+      - Tɛsalonika 1,
+      - Tɛsalonika 1
+  - osis: 2Thess
+    texts:
+      - Tɛsalonika 2,
+      - Tɛsalonika 2
+  - osis: 1Tim
+    texts:
+      - Timɔtee 1,
+      - Timɔtee 1
+  - osis: 2Tim
+    texts:
+      - Timɔtee 2,
+      - Timɔtee 2
+  - osis: Titus
+    texts:
+      - Titee
+  - osis: Phlm
+    texts:
+      - Filemɔɔ
+  - osis: Heb
+    texts:
+      - Ebɛɛ
+  - osis: Jas
+    texts:
+      - Zaaki
+  - osis: 1Pet
+    texts:
+      - Piɛɛ 1,
+      - Piɛɛ 1
+  - osis: 2Pet
+    texts:
+      - Piɛɛ 2,
+      - Piɛɛ 2
+  - osis: Jude
+    texts:
+      - Zudu
+translations:
+  - MKL

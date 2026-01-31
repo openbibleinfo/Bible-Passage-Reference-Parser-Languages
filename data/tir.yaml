@@ -1,0 +1,293 @@
+variables:
+  first: &first
+    - "1"
+    - 1ይ
+  second: &second
+    - "2"
+    - 2ይ
+books:
+  - osis: Gen
+    texts:
+      - ዘፍጥረት
+      - ዘፍ.
+  - osis: Exod
+    texts:
+      - ዘጸኣት
+      - ዘፀኣት
+      - ዘፀ.
+  - osis: Lev
+    texts:
+      - ዘሌዋውያን
+      - ዘሌ.
+  - osis: Num
+    texts:
+      - ዘሑልቍ
+      - ዘሑ.
+  - osis: Lam
+    texts:
+      - ሰቆቃወ
+      - ሰቆ.
+  - osis: Rev
+    texts:
+      - ራእይ
+  - osis: Deut
+    texts:
+      - ዘዳግም
+      - ዘዳ.
+  - osis: Josh
+    texts:
+      - ኢያሱ
+      - እያሱ
+  - osis: Judg
+    texts:
+      - መሳፍንት
+      - መሳ.
+      - ዳያኑ
+  - osis: Ruth
+    texts:
+      - ሩት
+  - osis: Isa
+    texts:
+      - ኢሳይያስ
+      - ኢሳያስ
+      - ኢሳ.
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - ሳሙኤል
+      - ሳሙ.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - ነገስታት
+      - ነገስት
+      - ነገ.
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - ይ ዜና
+      - ዜና.
+      - ዜና
+  - osis: Ezra
+    texts:
+      - እዝራ
+  - osis: Neh
+    texts:
+      - ነህምያ
+      - ነህ.
+  - osis: Esth
+    texts:
+      - ኣስቴር
+      - ኣስ.
+  - osis: Job
+    texts:
+      - ኢዮብ
+      - እዮብ
+  - osis: Ps
+    texts:
+      - መዝ.
+      - ዳዊት
+  - osis: Prov
+    texts:
+      - ምስላታት
+      - ምሳ.
+      - ምሳሌ
+  - osis: Eccl
+    texts:
+      - መክብብ
+      - መክ.
+  - osis: Song
+    texts:
+      - ናይ ሰሎሞን መሃልየ መሃልይ
+      - መሃልየ
+      - መሃ.
+  - osis: Jer
+    texts:
+      - ኤርሚያስ
+      - ኤርምያስ
+      - ኤር.
+  - osis: Ezek
+    texts:
+      - ህዝቅኤል
+      - ሕዝቅኤል
+      - ሕዝ.
+  - osis: Dan
+    texts:
+      - ዳኒኤል
+      - ዳንኤል
+      - ዳን.
+  - osis: Hos
+    texts:
+      - ሆሴኣ
+      - ሆሴዕ
+  - osis: Joel
+    texts:
+      - ኢዩኤል
+      - ኢዩ.
+      - ጆኤል
+  - osis: Amos
+    texts:
+      - ኣሞፅ
+  - osis: Obad
+    texts:
+      - ኣብድዩ
+      - ኦብድያ
+      - ኣብ.
+  - osis: Jonah
+    texts:
+      - ዮናስ
+  - osis: Mic
+    texts:
+      - ሚክያስ
+      - ሚክ.
+  - osis: Nah
+    texts:
+      - ናሁም
+      - ናሆም
+  - osis: Hab
+    texts:
+      - ኣንባቆም
+      - እንባቆም
+      - እንባ.
+  - osis: Zeph
+    texts:
+      - ሶፎንያስ
+      - ጸፎንያስ
+      - ሶፎ.
+  - osis: Hag
+    texts:
+      - ሃጋ
+      - ሓጌ
+  - osis: Zech
+    texts:
+      - ዘካርያስ
+      - ዘካ.
+  - osis: Mal
+    texts:
+      - ሚልክያስ
+      - ሚል.
+  - osis: Matt
+    texts:
+      - ማቴዎስ
+      - ማቴ.
+  - osis: Mark
+    texts:
+      - ማርቆስ
+      - ማር.
+  - osis: Luke
+    texts:
+      - ሉቃ.
+      - ሉቃስ
+  - osis: 3John
+    texts:
+      - 3ይ ዮሃንስ
+      - 3 ዮሃንስ
+      - 3 ዮሓ.
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - ይ ዮሃንስ
+      - ዮሃንስ
+      - ዮሓ.
+  - osis: John
+    texts:
+      - ዮሃንስ
+      - ዮሓ.
+  - osis: Acts
+    texts:
+      - ግብሪ ሃዋርያት
+      - ግ.ሓ.
+  - osis: Rom
+    texts:
+      - ሮሜ
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - ይ ቆሮንቶስ
+      - ቆሮንቶስ
+      - ቆሮ.
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - ቆሮንቶስ
+      - ቆሮ.
+  - osis: Col
+    texts:
+      - ቈላስይስ
+      - ቈላ.
+  - osis: Gal
+    texts:
+      - ገላትያ
+      - ገላ.
+  - osis: Eph
+    texts:
+      - ኤፌሶን
+      - ኤፌ.
+  - osis: Phil
+    texts:
+      - ፊልጵስዩስ
+      - ፊልጵ.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - ይ ተሰሎንቄ
+      - ተሰሎንቄ
+      - ተሰ.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - ይ ጢሞቴዎስ
+      - ጢሞቴዎስ
+      - ጢሞ.
+  - osis: Titus
+    texts:
+      - ቲቶ
+  - osis: Phlm
+    texts:
+      - ፊልሞና
+      - ፊል.
+  - osis: Heb
+    texts:
+      - እብራይስጢ
+      - ዕብራውያን
+      - ዕብ.
+  - osis: Jas
+    texts:
+      - ያእቆብ
+      - ያዕቆብ
+      - ያቆ.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - ይ ጴጥሮስ
+      - ጴጥሮስ
+      - ጴጥ.
+  - osis: Jude
+    texts:
+      - ይሁዳ
+translations:
+  - TIG24
+  - TB15

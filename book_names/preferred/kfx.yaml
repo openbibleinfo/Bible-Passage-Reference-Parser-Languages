@@ -1,0 +1,219 @@
+default:
+  1Cor:
+    long: 1 कुरिन्थियों
+    short: 1 कुरि
+  1John:
+    long: 1 यूहन्ना
+    short: 1 युहन्ना
+  1Pet:
+    long: 1 पतरस
+    short: 1 पत
+  1Thess:
+    long: 1 थिस्सलुनीकियों
+    short: 1 थिस्स
+  1Tim:
+    long: 1 तीमुथियुस
+    short: 1 तिमुतुस
+  2Cor:
+    long: 2 कुरिन्थियों
+    short: 2 कुरि
+  2John:
+    long: 2 यूहन्ना
+    short: 2 युहन्ना
+  2Pet:
+    long: 2 पतरस
+    short: 2 पत
+  2Thess:
+    long: 2 थिस्सलुनीकियों
+    short: 2 थिस्स
+  2Tim:
+    long: 2 तीमुथियुस
+    short: 2 तिमुतुस
+  3John:
+    long: 3 यूहन्ना
+    short: 3 युहन्ना
+  Acts:
+    long: प्रेरित
+    short: प्ररि
+  Col:
+    long: कुलुस्सियों
+    short: कुलु
+  Eph:
+    long: इफिसियों
+    short: इफि
+  Gal:
+    long: गलातियों
+    short: गला
+  Heb:
+    long: इब्रानियों
+    short: इब्रा
+  Jas:
+    long: याकूब
+    short: याकू
+  John:
+    long: यूहन्ना
+    short: युहन्ना
+  Jude:
+    long: यहूदा
+    short: यहू
+  Luke:
+    long: लूका
+    short: लूका
+  Mark:
+    long: मरकुस
+    short: मर
+  Matt:
+    long: मत्ती
+    short: मत्ती
+  Phil:
+    long: फिलिप्पियों
+    short: फिलि
+  Phlm:
+    long: फिलेमोन
+    short: फिल
+  Rev:
+    long: प्रकाशितवाक्य
+    short: प्रका
+  Rom:
+    long: रोमियो
+    short: रोमि
+  Titus:
+    long: तीतुस
+    short: तितुस
+translations:
+  kfx-nt:
+    1Cor:
+      short: 1 कुरि.
+    1John:
+      short: 1 यूह.
+    1Pet:
+      short: 1 पत.
+    1Thess:
+      short: 1 थिस्स.
+    1Tim:
+      short: 1 तीमु.
+    2Cor:
+      short: 2 कुरि.
+    2John:
+      short: 2 यूह.
+    2Pet:
+      short: 2 पत.
+    2Thess:
+      short: 2 थिस्स.
+    2Tim:
+      short: 2 तीमु.
+    3John:
+      short: 3 यूह.
+    Acts:
+      short: प्रेरि.
+    Col:
+      short: कुलु.
+    Eph:
+      short: इफि.
+    Gal:
+      short: गला.
+    Heb:
+      short: इब्रा.
+    Jas:
+      short: याकू.
+    John:
+      short: यूह.
+    Jude:
+      short: यहू.
+    Mark:
+      short: मर.
+    Phil:
+      short: फिलि.
+    Phlm:
+      short: फिले.
+    Rev:
+      short: प्रका.
+    Rom:
+      short: रोमि.
+    Titus:
+      short: तीतु.
+  osjnt:
+    1Cor:
+      long: 1 कुरिन्थी
+      short: 1 कुरिन्थी
+    1John:
+      long: 1 युहन्ना
+    1Pet:
+      short: 1 पतरस
+    1Thess:
+      long: 1 थिस्सलुनी
+      short: 1 थिस्सलुनी
+    1Tim:
+      long: 1 तिमुतुस
+    2Cor:
+      long: 2 कुरिन्थी
+      short: 2 कुरिन्थी
+    2John:
+      long: 2 युहन्ना
+    2Pet:
+      short: 2 पतरस
+    2Thess:
+      long: 2 थिस्सलुनी
+      short: 2 थिस्सलुनी
+    2Tim:
+      long: 2 तिमुतुस
+    3John:
+      long: 3 युहन्ना
+    Acts:
+      long: शधाणूं
+      short: शधाणूं
+    Col:
+      long: कुलुस्सी
+      short: कुलुस्सी
+    Eph:
+      long: इफिसी
+      short: इफिसी
+    Gal:
+      long: गलाती
+      short: गलाती
+    Heb:
+      long: इब्रानी
+      short: इब्रानी
+    Jas:
+      short: याकूब
+    John:
+      long: युहन्ना
+    Jude:
+      short: यहूदा
+    Luke:
+      long: लुका
+      short: लुका
+    Mark:
+      short: मरकुस
+    Phil:
+      long: फिलिप्पी
+      short: फिलिप्पी
+    Phlm:
+      short: फिलेमोन
+    Rev:
+      long: प्रगट की दी गल्ला
+      short: प्रगट की दी गल्ला
+    Rom:
+      long: रोमी
+      short: रोमी
+    Titus:
+      long: तितुस
+  isjnt:
+    1John:
+      short: 1 यूह
+    1Tim:
+      short: 1 तीमु
+    2John:
+      short: 2 यूह
+    2Tim:
+      short: 2 तीमु
+    3John:
+      short: 3 यूह
+    John:
+      short: यूह
+    Phlm:
+      long: फिलमोन
+    Rom:
+      long: रोमियों
+    Titus:
+      short: तीतु

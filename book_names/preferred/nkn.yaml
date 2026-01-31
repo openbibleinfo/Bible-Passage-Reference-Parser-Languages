@@ -1,0 +1,52 @@
+default:
+  1Cor:
+    long: 1 Kolinte
+    short: 1 Kol
+  1Thess:
+    long: 1 Tesalonika
+    short: 1 Tesa
+  1Tim:
+    long: 1 Timateo
+    short: 1 Tim
+  2Cor:
+    long: 2 Kolinte
+    short: 2 Kol
+  2Thess:
+    long: 2 Tesalonika
+    short: 2 Tesa
+  2Tim:
+    long: 2 Timateo
+    short: 2 Tim
+  Acts:
+    long: Vilinga
+    short: Vil
+  Col:
+    long: Kolose
+    short: Kol
+  Eph:
+    long: Efeso
+    short: Efe
+  Gal:
+    long: Ngalata
+    short: Nga
+  John:
+    long: Iuano
+    short: Iua
+  Luke:
+    long: Luka
+    short: Luk
+  Mark:
+    long: Mako
+    short: Mak
+  Matt:
+    long: Mateu
+    short: Mat
+  Phil:
+    long: Filipu
+    short: Fili
+  Rom:
+    long: Loma
+    short: Lo
+  Titus:
+    long: Tito
+    short: Tit

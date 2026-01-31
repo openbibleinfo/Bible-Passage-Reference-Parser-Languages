@@ -1,0 +1,272 @@
+default:
+  1Chr:
+    long: 1 MaKro.
+    short: 1 MaKro.
+  1Cor:
+    long: 1 VaK.
+    short: 1 VaK.
+  1John:
+    long: 1 Joh.
+    short: 1 Joh.
+  1Kgs:
+    long: 1 Madzi.
+    short: 1 Madzi.
+  1Pet:
+    long: 1 Pet.
+    short: 1 Pet.
+  1Sam:
+    long: 1 Sam.
+    short: 1 Sam.
+  1Thess:
+    long: 1 VaTes.
+    short: 1 VaTes.
+  1Tim:
+    long: 1 Tim.
+    short: 1 Tim.
+  2Chr:
+    long: 2 MaKro.
+    short: 2 MaKro.
+  2Cor:
+    long: 2 VaK.
+    short: 2 VaK.
+  2John:
+    long: 2 Joh.
+    short: 2 Joh.
+  2Kgs:
+    long: 2 Madzi.
+    short: 2 Madzi
+  2Pet:
+    long: 2 Pet.
+    short: 2 Pet.
+  2Sam:
+    long: 2 Sam.
+    short: 2 Sam.
+  2Thess:
+    long: 2 VaTes.
+    short: 2 VaTes.
+  2Tim:
+    long: 2 Tim.
+    short: 2. Tim.
+  3John:
+    long: 3 Joh.
+    short: 3 Joh.
+  Acts:
+    long: Zvak.
+    short: Zvak.
+  Amos:
+    long: Amo.
+    short: Amo.
+  Col:
+    long: VaKo.
+    short: VaKo.
+  Dan:
+    long: Dha.
+    short: Dha.
+  Deut:
+    long: Dhuto.
+    short: Dhuto.
+  Eccl:
+    long: Muchu.
+    short: Muchu.
+  Eph:
+    long: VaEfe.
+    short: VaEfe.
+  Esth:
+    long: Esita
+    short: Esita
+  Exod:
+    long: Ek.
+    short: Ek.
+  Ezek:
+    long: Ezek.
+    short: Ezek.
+  Ezra:
+    long: Ezura
+    short: Ezura
+  Gal:
+    long: VaG.
+    short: VaG.
+  Gen:
+    long: Gen.
+    short: Gen.
+  Hab:
+    long: Hab
+    short: Hab.
+  Hag:
+    long: Hag.
+    short: Hag.
+  Heb:
+    long: VaH.
+    short: VaH.
+  Hos:
+    long: Hos.
+    short: Hos.
+  Isa:
+    long: Isa.
+    short: Isa.
+  Jas:
+    long: Jak.
+    short: Jak.
+  Jer:
+    long: Jer.
+    short: Jer.
+  Job:
+    long: Jobe
+    short: Jobe
+  Joel:
+    long: Joeri
+    short: Joeri
+  John:
+    long: Joh.
+    short: Joh.
+  Jonah:
+    long: Jona
+    short: Jona
+  Josh:
+    long: Josh.
+    short: Josh.
+  Jude:
+    long: Jud.
+    short: Jud.
+  Judg:
+    long: Vato.
+    short: Vato.
+  Lam:
+    long: Chi.
+    short: Chi.
+  Lev:
+    long: Revhi
+    short: Revhi
+  Luke:
+    long: Ruka
+    short: Ruk.
+  Mal:
+    long: Mar.
+    short: Mar.
+  Mark:
+    long: Marku
+    short: Mar.
+  Matt:
+    long: Mat.
+    short: Mat.
+  Mic:
+    long: Mik.
+    short: Mik.
+  Nah:
+    long: Nah.
+    short: Nah.
+  Neh:
+    long: Neh.
+    short: Neh.
+  Num:
+    long: Zvi.
+    short: Zvi.
+  Obad:
+    long: Obh.
+    short: Obh.
+  Phil:
+    long: VaF.
+    short: VaF.
+  Phlm:
+    long: Firimoni
+    short: Fir.
+  Prov:
+    long: Mazwi
+    short: Mazwi
+  Ps:
+    long: Nduyo
+    short: Nduyo
+  Rev:
+    long: Chak.
+    short: Chak.
+  Rom:
+    long: VaR.
+    short: VaR.
+  Ruth:
+    long: Ruthe
+    short: Ruthe
+  Song:
+    long: Sor.
+    short: Sor.
+  Titus:
+    long: Tit.
+    short: Tit.
+  Zech:
+    long: Zek.
+    short: Zek.
+  Zeph:
+    long: Zef.
+    short: Zef.
+translations:
+  ntcindau:
+    1Cor:
+      long: I Vakorinte
+      short: I Vak.
+    1John:
+      long: I Johani
+      short: I Joh.
+    1Pet:
+      long: I Pedru
+      short: I Ped.
+    1Thess:
+      long: I Vatesaronika
+      short: I Vat.
+    1Tim:
+      long: I Timoti
+      short: I Tim.
+    2Cor:
+      long: II Vakorinte
+      short: II Vak.
+    2John:
+      long: II Johani
+      short: II Joh.
+    2Pet:
+      long: II Pedru
+      short: II Ped.
+    2Thess:
+      long: II Vatesaronika
+      short: II Vat.
+    2Tim:
+      long: II Timoti
+      short: II Tim.
+    3John:
+      long: III Johani
+      short: III Joh.
+    Acts:
+      long: Zvakayitwa ngo Vapostori
+    Col:
+      long: VaKorose
+      short: Vak.
+    Eph:
+      long: Vaefesu
+      short: Vaef.
+    Gal:
+      long: Vagaratiya
+    Heb:
+      long: VaHebheru
+      short: Vahe.
+    Jas:
+      long: Jakobe
+    John:
+      long: Johani
+    Jude:
+      long: Judha
+    Matt:
+      long: Mateu
+    Phil:
+      long: VaFiripi
+    Rev:
+      long: Chakapangijihwa
+    Rom:
+      long: VaRoma
+    Titus:
+      long: Titosi
+  ndau:
+    Luke:
+      short: Ruka
+    Mark:
+      long: Mk.
+      short: Mk.
+    Phlm:
+      long: Fr.
+      short: Fr.

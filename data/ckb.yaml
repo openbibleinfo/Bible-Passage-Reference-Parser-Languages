@@ -1,0 +1,286 @@
+variables:
+  first: &first
+    - یه‌كه‌م
+    - یەکەم
+  second: &second
+    - دووه‌م
+    - دووەم
+books:
+  - osis: Gen
+    texts:
+      - پەیدابوون
+  - osis: Exod
+    texts:
+      - دەرچوون
+  - osis: Lev
+    texts:
+      - لێڤییەکان
+  - osis: Num
+    texts:
+      - سەرژمێری
+  - osis: Lam
+    texts:
+      - شینەکانی یەرمیا
+  - osis: Rev
+    texts:
+      - ئاشکراکردن
+      - بینین
+      - بی
+  - osis: Deut
+    texts:
+      - دواوتار
+  - osis: Josh
+    texts:
+      - یەشوع
+  - osis: Judg
+    texts:
+      - ڕابەران
+  - osis: Ruth
+    texts:
+      - ڕائووس
+  - osis: Isa
+    texts:
+      - ئیشایا
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - ساموئێل
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - پاشایان
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - پوختەی مێژوو
+  - osis: Ezra
+    texts:
+      - عەزرا
+  - osis: Neh
+    texts:
+      - نەحەمیا
+  - osis: Esth
+    texts:
+      - ئەستێر
+  - osis: Job
+    texts:
+      - ئەیوب
+  - osis: Ps
+    texts:
+      - په‌سنییه‌كان
+      - زەبوورەکان
+      - پس
+  - osis: Prov
+    texts:
+      - پەندەکانی سلێمان
+      - پەندەکان
+  - osis: Eccl
+    texts:
+      - ژیرمەندی
+  - osis: Song
+    texts:
+      - گۆرانی گۆرانییەکان
+  - osis: Jer
+    texts:
+      - یەرمیا
+  - osis: Ezek
+    texts:
+      - حزقیێل
+  - osis: Dan
+    texts:
+      - دانیال
+  - osis: Hos
+    texts:
+      - هۆشەع
+  - osis: Joel
+    texts:
+      - یۆئێل
+  - osis: Amos
+    texts:
+      - ئامۆس
+  - osis: Obad
+    texts:
+      - عۆبەدیا
+  - osis: Jonah
+    texts:
+      - یونس
+  - osis: Mic
+    texts:
+      - میخا
+  - osis: Nah
+    texts:
+      - ناحوم
+  - osis: Hab
+    texts:
+      - حەبەقوق
+  - osis: Zeph
+    texts:
+      - سەفەنیا
+  - osis: Hag
+    texts:
+      - حەگەی
+  - osis: Zech
+    texts:
+      - زەکەریا
+  - osis: Mal
+    texts:
+      - مەلاخی
+  - osis: Matt
+    texts:
+      - مه‌تته‌ی
+      - مەتا
+      - مت
+  - osis: Mark
+    texts:
+      - مه‌رقوس
+      - مەرقۆس
+      - مر
+  - osis: Luke
+    texts:
+      - لۆقا
+      - لۆ
+  - osis: 1John
+    texts:
+      - 1یو
+  - osis: 2John
+    texts:
+      - 2یو
+  - osis: 3John
+    texts:
+      - سێیه‌م یوخه‌ننه‌ن
+      - سێیەم یۆحەنا
+      - 3یو
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - یوخه‌ننه‌ن
+      - یۆحەنا
+  - osis: John
+    texts:
+      - یوخه‌ننه‌ن
+      - یۆحەنا
+      - یو
+  - osis: Acts
+    texts:
+      - كردار
+      - کردار
+      - كر
+  - osis: Rom
+    texts:
+      - ڕۆما
+      - ڕۆ
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - کۆرنسۆس
+      - قۆرنتێ
+  - osis: 1Cor
+    texts:
+      - 1قۆ
+  - osis: 2Cor
+    texts:
+      - 2قۆ
+  - osis: Col
+    texts:
+      - کۆلۆسی
+      - قولسێ
+      - قل
+  - osis: Gal
+    texts:
+      - گه‌ڵاتیه‌
+      - گەلاتیا
+      - گل
+  - osis: Eph
+    texts:
+      - ئه‌پیسۆس
+      - ئەفەسۆس
+      - ئپ
+  - osis: Phil
+    texts:
+      - پیلیۆس
+      - فیلیپی
+      - پل
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - تسلۆنیقێ
+      - سالۆنیکی
+  - osis: 1Thess
+    texts:
+      - 1تق
+  - osis: 2Thess
+    texts:
+      - 2تق
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - تیماتیئوس
+      - تیمۆساوس
+  - osis: 1Tim
+    texts:
+      - 1تم
+  - osis: 2Tim
+    texts:
+      - 2تم
+  - osis: Titus
+    texts:
+      - تیتۆس
+      - تتوس
+      - تت
+  - osis: Phlm
+    texts:
+      - فلیمۆن
+      - فل
+  - osis: Heb
+    texts:
+      - عیبڕانییه‌كان
+      - عیبرانییەکان
+      - عب
+  - osis: Jas
+    texts:
+      - یاقوب
+      - یاقوو
+      - یق
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - په‌تڕۆس
+      - پەترۆس
+  - osis: 1Pet
+    texts:
+      - 1پت
+  - osis: 2Pet
+    texts:
+      - 2پت
+  - osis: Jude
+    texts:
+      - په‌یامی پارسا ئیهوودا
+      - یەهوزا
+      - ئه
+translations:
+  - KSS
+  - SNTAP

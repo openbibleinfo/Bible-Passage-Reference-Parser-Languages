@@ -1,0 +1,98 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - दरसन
+  - osis: Matt
+    texts:
+      - मत्ती
+  - osis: Mark
+    texts:
+      - मरकुस
+  - osis: Luke
+    texts:
+      - लूका
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - एहुन्‍ना
+  - osis: Acts
+    texts:
+      - परेरित
+  - osis: Rom
+    texts:
+      - रोमि
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - कुरिन्थि
+      - कुरि
+  - osis: Col
+    texts:
+      - कुलुसि
+      - कुलु
+  - osis: Gal
+    texts:
+      - गलाति
+      - गला
+  - osis: Eph
+    texts:
+      - इफिसि
+      - इफि
+  - osis: Phil
+    texts:
+      - फिलिप्पी
+      - फिलि
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - थिस्स
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - तीमुथि
+  - osis: Titus
+    texts:
+      - तीतुस
+  - osis: Phlm
+    texts:
+      - फिलेमोन
+  - osis: Heb
+    texts:
+      - इबरानी
+  - osis: Jas
+    texts:
+      - एकूब
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - पतरस
+  - osis: Jude
+    texts:
+      - एहूदा
+translations:
+  - KSZ

@@ -1,0 +1,465 @@
+- osis: Gen
+  texts:
+    - 1 Mose
+    - Mos I,
+    - Mose I
+    - Mo I
+    - 1Mo
+- osis: Exod
+  texts:
+    - Mos II,
+    - Mose II
+    - 2 Mose
+    - Mo II
+    - 2Mo
+- osis: Lev
+  texts:
+    - Mos III,
+    - Mose III
+    - 3 Mose
+    - Mo III
+    - 3Mo
+- osis: Num
+  texts:
+    - Mos IV,
+    - Mose IV
+    - 4 Mose
+    - Mo IV
+    - 4Mo
+- osis: Sir
+  texts:
+    - Eklesiastiko
+    - Sir
+- osis: Wis
+  texts:
+    - Salomo ƒe Nunya
+    - Nya
+- osis: Lam
+  texts:
+    - Konyifahawo
+    - Konyi
+    - Kony
+    - Kon
+- osis: Rev
+  texts:
+    - Nyaɖeɖefia, si woɖe fia Yohanes
+    - Nyaɖeɖefia
+    - Nyaɖ
+    - Nyd
+- osis: Deut
+  texts:
+    - 5 Mose
+    - Mos V,
+    - Mose V
+    - Mo V
+    - 5Mo
+- osis: Josh
+  texts:
+    - Yosua
+    - Yos
+- osis: Judg
+  texts:
+    - Ʋɔnudrɔ̃lawo
+    - Ɖelawo
+    - Ɖel
+    - Ʋɔn
+- osis: Ruth
+  texts:
+    - Rut
+- osis: Isa
+  texts:
+    - Yesaya
+    - Yes
+- osis: 1Sam
+  texts:
+    - Samuel I
+    - Sam I,
+    - Sam I
+    - 1Sa
+- osis: 2Sam
+  texts:
+    - Samuel II
+    - Sam II,
+    - Sam II
+    - 2Sa
+- osis: 1Sam
+  texts:
+    - 1 Samuel
+    - 1. Samuel
+- osis: 2Sam
+  texts:
+    - 2 Samuel
+    - 2. Samuel
+- osis: 1Kgs
+  texts:
+    - Fiawo I
+    - Fia I,
+    - Fia I
+    - 1Fi
+- osis: 2Kgs
+  texts:
+    - Fiawo II
+    - Fia II,
+    - Fia II
+    - 2Fi
+- osis: 1Kgs
+  texts:
+    - 1 Fiawo
+    - 1. Fiawo
+- osis: 2Kgs
+  texts:
+    - 2 Fiawo
+    - 2. Fiawo
+- osis: 1Chr
+  texts:
+    - Kronika I
+    - Kron I,
+    - Kron I
+    - 1Kr
+- osis: 2Chr
+  texts:
+    - Kronika II
+    - Kron II,
+    - Kron II
+    - 2Kr
+- osis: 1Chr
+  texts:
+    - 1 Kronika
+    - 1. Kronika
+- osis: 2Chr
+  texts:
+    - 2 Kronika
+    - 2. Kronika
+- osis: Ezra
+  texts:
+    - Ezra ƒe Agbalẽ
+    - Ezra
+    - Ezr
+- osis: Neh
+  texts:
+    - Nexemya ƒe Agbalẽ
+    - Nehemia
+    - Nexemya
+    - Neh
+    - Nex
+- osis: Job
+  texts:
+    - Hiob ƒe Agbalẽ
+    - Hiob
+    - Hio
+- osis: Ps
+  texts:
+    - Psalmowo
+    - Psa
+    - Ps
+- osis: Prov
+  texts:
+    - Salomo ƒe Lododowo
+    - Lododowo
+    - Lod
+- osis: Eccl
+  texts:
+    - Nyagblɔla Salomo
+    - Nyagblɔla
+    - Nyagb
+    - Nya
+    - Nyg
+- osis: Song
+  texts:
+    - Hawo ƒe ha
+    - Hawo
+    - Haw
+- osis: Jer
+  texts:
+    - Yeremia
+    - Yeremya
+    - Yer
+- osis: Ezek
+  texts:
+    - Hezekiel
+    - Xezekiel
+    - Hez
+    - Xez
+- osis: Dan
+  texts:
+    - Daniel
+    - Dan
+- osis: Hos
+  texts:
+    - Hosea
+    - Hos
+- osis: Joel
+  texts:
+    - Yoel
+    - Yol
+- osis: Amos
+  texts:
+    - Amos
+    - Amo
+- osis: Obad
+  texts:
+    - Obadia
+    - Obadya
+    - Oba
+- osis: Jonah
+  texts:
+    - Yona
+    - Yon
+- osis: Mic
+  texts:
+    - Mika
+    - Mixa
+    - MiK
+- osis: Nah
+  texts:
+    - Nahum
+    - Naxum
+    - Nah
+    - Nax
+- osis: Hab
+  texts:
+    - Habakuk
+    - Xabakuk
+    - Hab
+    - Xab
+- osis: Zeph
+  texts:
+    - Zefania
+    - Zefanya
+    - Zef
+- osis: Hag
+  texts:
+    - Hagai
+    - Xagai
+    - Hag
+    - Xag
+- osis: Zech
+  texts:
+    - Zaxarya
+    - Zekaria
+    - Zax
+    - Zek
+- osis: Mal
+  texts:
+    - Maleaxi
+    - Malaki
+    - Mal
+- osis: Matt
+  texts:
+    - Mateo
+    - Mat
+- osis: Mark
+  texts:
+    - Marko
+    - Mar
+    - Mrk
+- osis: Luke
+  texts:
+    - Luka
+    - Luk
+    - Lu
+- osis: 1John
+  texts:
+    - Yohanes ƒe Agbalẽ Gbatɔ̃
+    - Yohanes I
+    - Yoh I,
+    - Yoh I
+    - 1Yh
+- osis: 2John
+  texts:
+    - Yohanes ƒe Agbalẽ Evelia
+    - Yohanes II
+    - Yoh II,
+    - Yoh II
+    - 2Yh
+- osis: 3John
+  texts:
+    - Yohanes ƒe Agbalẽ Atɔ̃lia
+    - Yohanes III
+    - 3 Yohanes
+    - Yoh III,
+    - Yoh III
+    - 3Yh
+- osis: 1John
+  texts:
+    - 1 Yohanes
+    - 1. Yohanes
+- osis: 2John
+  texts:
+    - 2 Yohanes
+    - 2. Yohanes
+- osis: John
+  texts:
+    - Yohanes
+    - Yoh
+    - Yh
+- osis: Acts
+  texts:
+    - Amedɔdɔawo ƒe Dɔwɔwɔwo
+    - Dɔwɔwɔwo
+    - Dɔw
+    - Dɔ
+- osis: Rom
+  texts:
+    - Romatɔwo
+    - Rom
+- osis: 1Cor
+  texts:
+    - Korintotɔwo I,
+    - Korintotɔwo I
+    - Kor I,
+    - Kor I
+    - 1Ko
+- osis: 2Cor
+  texts:
+    - Korintotɔwo II,
+    - Korintotɔwo
+    - Kor II,
+    - Kor II
+    - 2Ko
+- osis: 1Cor
+  texts:
+    - 1 Korintotɔwo
+    - 1. Korintotɔwo
+- osis: 2Cor
+  texts:
+    - 2 Korintotɔwo
+    - 2. Korintotɔwo
+- osis: Col
+  texts:
+    - Kolosetɔwo
+    - Kol
+- osis: Gal
+  texts:
+    - Galatiatɔwo
+    - Gal
+- osis: Eph
+  texts:
+    - Efesotɔwo
+    - Efes
+    - Efe
+    - Ef
+- osis: Phil
+  texts:
+    - Filipitɔwo
+    - Fil
+- osis: 1Thess
+  texts:
+    - Tesalonikatɔwo I
+    - Tes I,
+    - Tes I
+    - 1Te
+- osis: 2Thess
+  texts:
+    - Tesalonikatɔwo II
+    - Tes II,
+    - Tes II
+    - 2Te
+- osis: 1Thess
+  texts:
+    - 1 Tesalonikatɔwo
+    - 1. Tesalonikatɔwo
+- osis: 2Thess
+  texts:
+    - 2 Tesalonikatɔwo
+    - 2. Tesalonikatɔwo
+- osis: 1Tim
+  texts:
+    - Timoteo I
+    - Tim I,
+    - Tim I
+    - 1Ti
+- osis: 2Tim
+  texts:
+    - Timoteo II
+    - Tim II,
+    - Tim II
+    - 2Ti
+- osis: 1Tim
+  texts:
+    - 1 Timoteo
+    - 1. Timoteo
+- osis: 2Tim
+  texts:
+    - 2 Timoteo
+    - 2. Timoteo
+- osis: Titus
+  texts:
+    - Tito
+    - Tit
+    - Ti
+- osis: Phlm
+  texts:
+    - Paulo ƒe Agbalẽ si woŋlo ɖo ɖe Filemon
+    - Filemon
+    - Filem
+    - Film
+    - Flm
+- osis: Heb
+  texts:
+    - Agbalẽ si woŋlo ɖo ɖe Hebritɔwo
+    - Hebritɔwo
+    - Heb
+- osis: Jas
+  texts:
+    - Yakobo ƒe Agbalẽ
+    - Yakobo
+    - Yak
+- osis: 1Pet
+  texts:
+    - Petro ƒe Agbalẽ Gbatɔ̃
+    - Petro I
+    - Pet I,
+    - Pet I
+    - 1Pe
+- osis: 2Pet
+  texts:
+    - Petro ƒe Agbalẽ Evelia
+    - Petro II
+    - Pet II,
+    - Pet II
+    - 2Pe
+- osis: 1Pet
+  texts:
+    - 1 Petro
+    - 1. Petro
+- osis: 2Pet
+  texts:
+    - 2 Petro
+    - 2. Petro
+- osis: Jude
+  texts:
+    - Yuda ƒe Agbalẽ
+    - Yuda
+    - Yud
+- osis: Tob
+  texts:
+    - Tobit
+    - Tob
+- osis: Jdt
+  texts:
+    - Yudit
+- osis: Bar
+  texts:
+    - Barux
+    - Bar
+- osis: 1Macc
+  texts:
+    - 1Makabeowo
+    - Mak I,
+- osis: 2Macc
+  texts:
+    - 2Makabeowo
+    - Mak II,
+- osis: DanGr
+  texts:
+    - Daniɛl
+    - DanGr
+- osis: EsthGr
+  texts:
+    - Esta G
+    - Est G
+- osis: Esth
+  texts:
+    - Ester
+    - Est

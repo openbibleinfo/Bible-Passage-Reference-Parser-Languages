@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 أخبار
+    short: 1خبر
+  1Cor:
+    long: 1 كُرُنْتُس
+    short: 1كرن
+  1John:
+    long: 1 يُوحَنَّا
+    short: 1يحن
+  1Kgs:
+    long: 1 مُلوك
+    short: 1ملك
+  1Pet:
+    long: 1 بُطْرُس
+    short: 1بطرس
+  1Sam:
+    long: 1 صَمُوِيل
+    short: 1صم
+  1Thess:
+    long: 1 تَسَلونِيكِي
+    short: 1تسل
+  1Tim:
+    long: 1 تِمُوتَاوُس
+    short: 1تم
+  2Chr:
+    long: 2 أخبار
+    short: 2خبر
+  2Cor:
+    long: 2 كُرُنْتُس
+    short: 2كرن
+  2John:
+    long: 2 يُوحَنَّا
+    short: 2يحن
+  2Kgs:
+    long: 2 مُلوك
+    short: 2ملك
+  2Pet:
+    long: 2 بُطْرُس
+    short: 2بطرس
+  2Sam:
+    long: 2 صَمُوِيل
+    short: 2صم
+  2Thess:
+    long: 2 تَسَلونِيكِي
+    short: 2تسل
+  2Tim:
+    long: 2 تِمُوتَاوُس
+    short: 2تم
+  3John:
+    long: 3 يُوحَنَّا
+    short: 3يحن
+  Acts:
+    long: أعمال الرُسُل
+    short: عمل
+  Amos:
+    long: عَمُوس
+    short: عمس
+  Col:
+    long: كُلُوسِي
+    short: كلس
+  Dan:
+    long: دَنْيال
+    short: دنل
+  Deut:
+    long: تَثْنِية
+    short: تثن
+  Eccl:
+    long: جامِعة
+    short: جمع
+  Eph:
+    long: أفَسُس
+    short: أفس
+  Esth:
+    long: أسْتِير
+    short: أستر
+  Exod:
+    long: خُروج
+    short: خرج
+  Ezek:
+    long: حِزْقِيال
+    short: حزق
+  Ezra:
+    long: عَزْرا
+    short: عزر
+  Gal:
+    long: غَلاطِية
+    short: غلط
+  Gen:
+    long: تكوين
+    short: تكن
+  Hab:
+    long: حَبَقُوق
+    short: حبق
+  Hag:
+    long: حَقَّاي
+    short: حقق
+  Heb:
+    long: عِبْرَانِيِّين
+    short: عبر
+  Hos:
+    long: هُوشَع
+    short: هشع
+  Isa:
+    long: إشَعْيا
+    short: إشعي
+  Jas:
+    long: يَعْقُوب
+    short: يعقب
+  Jer:
+    long: إرْمِيا
+    short: إرمي
+  Job:
+    long: أيُّوب
+    short: أيب
+  Joel:
+    long: يُوِيل
+    short: يول
+  John:
+    long: يُوحَنَّا
+    short: يحن
+  Jonah:
+    long: يُونُس
+    short: يونس
+  Josh:
+    long: يَشُوع
+    short: يشع
+  Jude:
+    long: يَهُوذَا
+    short: يهذ
+  Judg:
+    long: قُضياء
+    short: قض
+  Lam:
+    long: مَراثِي إرْمِيا
+    short: مرث إرمي
+  Lev:
+    long: لاوِيِّين
+    short: لاو
+  Luke:
+    long: لُوقا
+    short: لوق
+  Mal:
+    long: مَلاخِـي
+    short: ملخ
+  Mark:
+    long: مَرْخُوس
+    short: مرخس
+  Matt:
+    long: مَتَّى
+    short: متت
+  Mic:
+    long: مِيخا
+    short: ميخ
+  Nah:
+    long: نَاحُوم
+    short: نحوم
+  Neh:
+    long: نَحَمْيا
+    short: نحم
+  Num:
+    long: عَدد
+    short: عدد
+  Obad:
+    long: عُبَدْيا
+    short: عبد
+  Phil:
+    long: فِلِبِّي
+    short: فلب
+  Phlm:
+    long: فِلِمُون
+    short: فلم
+  Prov:
+    long: أمْثال
+    short: مسل
+  Ps:
+    long: زَبُور
+    short: زبر
+  Rev:
+    long: رُؤية
+    short: رؤي
+  Rom:
+    long: رَوْمَا
+    short: روم
+  Ruth:
+    long: رَعُوث
+    short: رعث
+  Song:
+    long: نشيد
+    short: نشد
+  Titus:
+    long: تِيطُس
+    short: تطس
+  Zech:
+    long: زَكَرِيَّا
+    short: زكر
+  Zeph:
+    long: صَفَنْيا
+    short: صفن

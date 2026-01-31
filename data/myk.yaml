@@ -1,0 +1,148 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Kashɛɛ
+      - Kas.
+  - osis: Ruth
+    texts:
+      - Wuruti
+      - Wur.
+  - osis: Jonah
+    texts:
+      - Zhonasi
+      - Zhon.
+  - osis: Matt
+    texts:
+      - Macoo
+      - Mac.
+  - osis: Mark
+    texts:
+      - Marika
+      - Mar.
+  - osis: Luke
+    texts:
+      - Luka
+  - osis: 1John
+    texts:
+      - 1Yoh.
+  - osis: 2John
+    texts:
+      - 2Yoh.
+  - osis: 3John
+    texts:
+      - 3 Yohana
+      - 3Yoh.
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yohana
+  - osis: John
+    texts:
+      - Yohana
+      - Yoh.
+  - osis: Acts
+    texts:
+      - Kapyegee
+      - Kap.
+  - osis: Rom
+    texts:
+      - Oromɛ Shɛɛn
+      - Oro.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korɛnte Shɛɛn
+  - osis: 1Cor
+    texts:
+      - 1Kor.
+  - osis: 2Cor
+    texts:
+      - 2Kor.
+  - osis: Col
+    texts:
+      - Kolose Shɛɛn
+      - Kol.
+  - osis: Gal
+    texts:
+      - Galasi Shɛɛn
+      - Gal.
+  - osis: Eph
+    texts:
+      - Efese Shɛɛn
+      - Efe.
+  - osis: Phil
+    texts:
+      - Filipe Shɛɛn
+      - Flp.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaloniki Shɛɛn
+  - osis: 1Thess
+    texts:
+      - 1Tes.
+  - osis: 2Thess
+    texts:
+      - 2Tes.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+  - osis: 1Tim
+    texts:
+      - 1Tim.
+  - osis: 2Tim
+    texts:
+      - 2Tim.
+  - osis: Titus
+    texts:
+      - Tit.
+      - Tite
+  - osis: Phlm
+    texts:
+      - Filemɔ
+      - Flm.
+  - osis: Heb
+    texts:
+      - Heburuu
+      - Heb.
+  - osis: Jas
+    texts:
+      - Yakuba
+      - Yak.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pyɛɛri
+  - osis: 1Pet
+    texts:
+      - 1Pyɛ.
+  - osis: 2Pet
+    texts:
+      - 2Pyɛ.
+  - osis: Jude
+    texts:
+      - Zhude
+      - Zhu.
+translations:
+  - MYKNTPO

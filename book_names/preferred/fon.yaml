@@ -1,0 +1,229 @@
+default:
+  1Chr:
+    long: 1 Tan
+    short: 1 Tan
+  1Cor:
+    long: 1 Kɔlɛ́ntinu
+    short: 1 Kɔlɛ́ntinu
+  1John:
+    long: 1 Jǎan
+    short: 1 Jǎan
+  1Kgs:
+    long: 1 Axɔ́sú
+    short: 1 Axɔ́sú
+  1Macc:
+    long: 1 Makabée
+    short: 1 Makabée
+  1Pet:
+    long: 1 Piyɛ́ɛ
+    short: 1 Piyɛ́ɛ
+  1Sam:
+    long: 1 Samuwɛ́li
+    short: 1 Samuwɛ́li
+  1Thess:
+    long: 1 Tɛsalonikinu
+    short: 1 Tɛsalonikinu
+  1Tim:
+    long: 1 Timɔtée
+    short: 1 Timɔtée
+  2Chr:
+    long: 2 Tan
+    short: 2 Tan
+  2Cor:
+    long: 2 Kɔlɛ́ntinu
+    short: 2 Kɔlɛ́ntinu
+  2John:
+    long: 2 Jǎan
+    short: 2 Jǎan
+  2Kgs:
+    long: 2 Axɔ́sú
+    short: 2 Axɔ́sú
+  2Macc:
+    long: 2 Makabée
+    short: 2 Makabée
+  2Pet:
+    long: 2 Piyɛ́ɛ
+    short: 2 Piyɛ́ɛ
+  2Sam:
+    long: 2 Samuwɛ́li
+    short: 2 Samuwɛ́li
+  2Thess:
+    long: 2 Tɛsalonikinu
+    short: 2 Tɛsalonikinu
+  2Tim:
+    long: 2 Timɔtée
+    short: 2 Timɔtée
+  3John:
+    long: 3 Jǎan
+    short: 3 Jǎan
+  Acts:
+    long: Mɛsɛ́dó
+    short: Mɛsɛ́dó
+  Amos:
+    long: Amɔ́si
+    short: Amɔ́si
+  Bar:
+    long: Balúki
+    short: Balúki
+  Col:
+    long: Kolósinu
+    short: Kolósinu
+  Dan:
+    long: Daniyɛ́li
+    short: Daniyɛ́li
+  DanGr:
+    long: Daniyɛ́li Glɛ̌sigbe
+    short: Daniyɛ́li Glɛ̌sigbe
+  Deut:
+    long: Sɛ́nflínmɛ
+    short: Sɛ́nflínmɛ
+  Eccl:
+    long: Nǔnywɛ́tɔ́xó
+    short: Nǔnywɛ́tɔ́xó
+  EpJer:
+    long: Jelemíi wlán
+    short: Jelemíi wlán
+  Eph:
+    long: Efɛ́zinu
+    short: Efɛ́zinu
+  Esth:
+    long: Ɛsitɛ́ɛ
+    short: Ɛsitɛ́ɛ
+  EsthGr:
+    long: Ɛsitɛ́ɛ Glɛ̌sigbe
+    short: Ɛsitɛ́ɛ Glɛ̌sigbe
+  Exod:
+    long: Tíntɔ́n
+    short: Tíntɔ́n
+  Ezek:
+    long: Ezekiyɛ́li
+    short: Ezekiyɛ́li
+  Ezra:
+    long: Ɛsidlási
+    short: Ɛsidlási
+  Gal:
+    long: Galatinu
+    short: Galatinu
+  Gen:
+    long: Bǐbɛ́mɛ
+    short: Bǐbɛ́mɛ
+  Hab:
+    long: Xabakúku
+    short: Xabakúku
+  Hag:
+    long: Ajée
+    short: Ajée
+  Heb:
+    long: Eblée
+    short: Eblée
+  Hos:
+    long: Ozée
+    short: Ozée
+  Isa:
+    long: Ezayíi
+    short: Ezayíi
+  Jas:
+    long: Jaki
+    short: Jaki
+  Jdt:
+    long: Judíti
+    short: Judíti
+  Jer:
+    long: Jelemíi
+    short: Jelemíi
+  Job:
+    long: Jɔ̌bu
+    short: Jɔ̌bu
+  Joel:
+    long: Jowɛ́li
+    short: Jowɛ́li
+  John:
+    long: Jǎan
+    short: Jǎan
+  Jonah:
+    long: Jonási
+    short: Jonási
+  Josh:
+    long: Jozuwée
+    short: Jozuwée
+  Jude:
+    long: Judi
+    short: Judi
+  Judg:
+    long: Hwɛɖɔtɔ́
+    short: Hwɛɖɔtɔ́
+  Lam:
+    long: Gbɛvíhan
+    short: Gbɛvíhan
+  Lev:
+    long: Levíi ví
+    short: Levíi ví
+  Luke:
+    long: Luki
+    short: Luki
+  Mal:
+    long: Malacíi
+    short: Malacíi
+  Mark:
+    long: Maki
+    short: Maki
+  Matt:
+    long: Matíe
+    short: Matíe
+  Mic:
+    long: Micée
+    short: Micée
+  Nah:
+    long: Naxúmu
+    short: Naxúmu
+  Neh:
+    long: Nɛɛmíi
+    short: Nɛɛmíi
+  Num:
+    long: Kɛ́nsísɔ́
+    short: Kɛ́nsísɔ́
+  Obad:
+    long: Abudiyási
+    short: Abudiyási
+  Phil:
+    long: Filípunu
+    short: Filípunu
+  Phlm:
+    long: Filemɔ́ɔ
+    short: Filemɔ́ɔ
+  Prov:
+    long: Nǔnywɛ́xó
+    short: Nǔnywɛ́xó
+  Ps:
+    long: Ɖɛhan
+    short: Ɖɛhan
+  Rev:
+    long: Nǔɖexlɛ́mɛ
+    short: Nǔɖexlɛ́mɛ
+  Rom:
+    long: Hlɔ̌manu
+    short: Hlɔ̌manu
+  Ruth:
+    long: Hwliti
+    short: Hwliti
+  Sir:
+    long: Silaki ví
+    short: Silaki ví
+  Song:
+    long: Hanvíví
+    short: Hanvíví
+  Titus:
+    long: Titu
+    short: Titu
+  Tob:
+    long: Tobíi
+    short: Tobíi
+  Wis:
+    long: Sɛ́núnywɛ́
+    short: Sɛ́núnywɛ́
+  Zech:
+    long: Zakalíi
+    short: Zakalíi
+  Zeph:
+    long: Sofoníi
+    short: Sofoníi

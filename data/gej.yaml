@@ -1,0 +1,291 @@
+books:
+  - osis: Gen
+    texts:
+      - Gɔ̃mèjèje be Xoma
+      - Gɔ̃m
+  - osis: Exod
+    texts:
+      - Toto jo
+      - Tot
+  - osis: Lev
+    texts:
+      - Levìwo
+      - Lev
+  - osis: Num
+    texts:
+      - Àmè Hɛ̃hlɛ̃
+      - Hɛ̃h
+  - osis: Sir
+    texts:
+      - Sirasid
+      - Sir
+  - osis: Wis
+    texts:
+      - Ànyasã
+      - Àny
+  - osis: Lam
+    texts:
+      - Àlenanawo
+      - Àle
+  - osis: Rev
+    texts:
+      - Àvìmènu
+      - Àvì
+  - osis: Deut
+    texts:
+      - Èsea gbìgbɔ̀ hlɛ̃
+      - Gbì
+  - osis: Josh
+    texts:
+      - Yosùa
+      - Yos
+  - osis: Judg
+    texts:
+      - Kòjoɖotɔwo
+      - Kòj
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis: Isa
+    texts:
+      - Ezayà
+      - Eza
+  - osis: 1Sam
+    texts:
+      - 1Samuɛl
+      - 1Sam
+  - osis: 2Sam
+    texts:
+      - 2Samuɛl
+      - 2Sam
+  - osis: 1Kgs
+    texts:
+      - 1Èfìɔwo
+      - 1Èfìɔ
+  - osis: 2Kgs
+    texts:
+      - 2Èfìɔ
+  - osis: 1Chr
+    texts:
+      - 1Kronikà
+      - 1Kro
+  - osis: 2Chr
+    texts:
+      - 2Kronikà
+      - 2Kro
+  - osis: Ezra
+    texts:
+      - Ɛzrà
+      - Ɛzr
+  - osis: Neh
+    texts:
+      - Nèhemìa
+      - Nèh
+  - osis: Job
+    texts:
+      - Yɔb
+  - osis: Prov
+    texts:
+      - Èlododowo
+      - Èlo
+  - osis: Eccl
+    texts:
+      - Àɖàŋùɖètɔ
+      - Àɖà
+  - osis: Song
+    texts:
+      - Èhàwo be Èhà
+      - Èhà
+  - osis: Ps
+    texts:
+      - Èhàwo
+      - Èhàw
+  - osis: Jer
+    texts:
+      - Yeremìa
+      - Yer
+  - osis: Ezek
+    texts:
+      - Ezekìɛl
+      - Eze
+  - osis: Hos
+    texts:
+      - Òzeà
+      - Òze
+  - osis: Joel
+    texts:
+      - Yoɛ̀l
+      - Yòl
+  - osis: Amos
+    texts:
+      - Àmos
+  - osis: Obad
+    texts:
+      - Obadìa
+      - Oba
+  - osis: Jonah
+    texts:
+      - Yonà
+      - Yon
+  - osis: Mic
+    texts:
+      - Mikà
+      - MiK
+  - osis: Nah
+    texts:
+      - Nàhum
+      - Nàh
+  - osis: Hab
+    texts:
+      - Hàbakuk
+      - Hàb
+  - osis: Zeph
+    texts:
+      - Sèfanìa
+      - Sèf
+  - osis: Hag
+    texts:
+      - Hagài
+      - Hag
+  - osis: Zech
+    texts:
+      - Zakarìa
+      - Zak
+  - osis: Mal
+    texts:
+      - Malakìa
+      - Mal
+  - osis: Matt
+    texts:
+      - Màteo
+      - Màt
+  - osis: Mark
+    texts:
+      - Markò
+      - Mrk
+  - osis: Luke
+    texts:
+      - Lukà
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Yòhanɛ̀s
+      - 1Yoh
+  - osis: 2John
+    texts:
+      - 2Yòhanɛ̀s
+      - 2Yòh
+  - osis: 3John
+    texts:
+      - 3Yòhanɛ̀s
+      - 3Yoh
+  - osis: John
+    texts:
+      - Yòhanɛ̀s
+      - Yòh
+  - osis: Acts
+    texts:
+      - Èdɔwɔ̀wɔwo
+      - Dɔw
+  - osis: Rom
+    texts:
+      - Romàtɔwo
+      - Rom
+  - osis: 1Cor
+    texts:
+      - 1Kòrɛ̃tòtɔwo
+      - 1Kòr
+  - osis: 2Cor
+    texts:
+      - 2Kòrɛ̃tòtɔwo
+      - 2Kòr
+  - osis: Col
+    texts:
+      - Kolosètɔwo
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatìatɔwɔ
+      - Gal
+  - osis: Eph
+    texts:
+      - Efesòtɔwo
+      - Efes
+  - osis: Phil
+    texts:
+      - Fìlipìtɔwo
+      - Fil
+  - osis: 1Thess
+    texts:
+      - 1Tɛsalonikà
+      - 1Tɛs
+  - osis: 2Thess
+    texts:
+      - 2Tɛsalonikà
+      - 2Tɛs
+  - osis: 1Tim
+    texts:
+      - 1Timòteo
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Timòteo
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Titò
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemɔ̀n
+      - Flm
+  - osis: Heb
+    texts:
+      - Hebrùwo
+      - Heb
+  - osis: Jas
+    texts:
+      - Yakobò
+      - Yak
+  - osis: 1Pet
+    texts:
+      - 1Petrò
+      - 1Pet
+  - osis: 2Pet
+    texts:
+      - 2Petrò
+      - 2Pet
+  - osis: Jude
+    texts:
+      - Yudà
+      - Yud
+  - osis: Tob
+    texts:
+      - Tobì
+      - Tob
+  - osis: Jdt
+    texts:
+      - Yudìt
+      - Ydt
+  - osis: Bar
+    texts:
+      - Bàruk
+      - Bàr
+  - osis: 1Macc
+    texts:
+      - 1Màkàbeòwo
+      - 1Mak
+  - osis: 2Macc
+    texts:
+      - 2Màkàbeòwo
+      - 2Mak
+  - osis: DanGr
+    texts:
+      - Dàniɛl-G
+      - Dàg
+  - osis: EsthGr
+    texts:
+      - Ɛstà-G
+      - ƐstG
+translations:
+  - GEN

@@ -1,0 +1,294 @@
+- osis: Gen
+  texts:
+    - Postanak
+    - Post
+- osis: Exod
+  texts:
+    - Izlazak
+    - Izl
+- osis: Lev
+  texts:
+    - Lev. zakon
+    - Lev
+- osis: Num
+  texts:
+    - Brojevi
+    - Br
+- osis: Lam
+  texts:
+    - Tužaljke
+    - Tuž
+- osis: Rev
+  texts:
+    - Otkrovenje
+    - Otk
+- osis: Deut
+  texts:
+    - Pon. zakon
+    - Pnz
+- osis: Josh
+  texts:
+    - Jošua
+    - Jš
+- osis: Judg
+  texts:
+    - Suci
+- osis: Ruth
+  texts:
+    - Ruta
+    - Rut
+- osis: Isa
+  texts:
+    - Izaija
+    - Iz
+- osis: 1Sam
+  texts:
+    - 1 Samuelova
+    - 1 Sam
+    - 1. Samuelova
+    - 1. Sam
+- osis: 2Sam
+  texts:
+    - 2 Samuelova
+    - 2 Sam
+    - 2. Samuelova
+    - 2. Sam
+- osis: 1Kgs
+  texts:
+    - 1 Kraljeva
+    - 1 Kr
+    - 1. Kraljeva
+    - 1. Kr
+- osis: 2Kgs
+  texts:
+    - 2 Kraljeva
+    - 2 Kr
+    - 2. Kraljeva
+    - 2. Kr
+- osis: 1Chr
+  texts:
+    - 1 Ljetopis
+    - 1 Ljet
+    - 1. Ljetopis
+    - 1. Ljet
+- osis: 2Chr
+  texts:
+    - 2 Ljetopis
+    - 2 Ljet
+    - 2. Ljetopis
+    - 2. Ljet
+- osis: Ezra
+  texts:
+    - Ezra
+    - Ezr
+- osis: Neh
+  texts:
+    - Nehemija
+    - Neh
+- osis: Esth
+  texts:
+    - Estera
+    - Est
+- osis: Job
+  texts:
+    - Job
+- osis: Ps
+  texts:
+    - Psalmi
+    - Ps
+- osis: Prov
+  texts:
+    - Izreke
+    - Izr
+- osis: Eccl
+  texts:
+    - Propovjednik
+    - Prop
+- osis: Song
+  texts:
+    - Pjesma
+    - Pj
+- osis: Jer
+  texts:
+    - Jeremija
+    - Jr
+- osis: Ezek
+  texts:
+    - Ezekiel
+    - Ez
+- osis: Dan
+  texts:
+    - Daniel
+    - Dn
+- osis: Hos
+  texts:
+    - Hošea
+    - Hoš
+- osis: Joel
+  texts:
+    - Joel
+    - Jl
+- osis: Amos
+  texts:
+    - Amos
+    - Am
+- osis: Obad
+  texts:
+    - Obadija
+    - Ob
+- osis: Jonah
+  texts:
+    - Jona
+    - Jon
+- osis: Mic
+  texts:
+    - Mihej
+    - Mih
+- osis: Nah
+  texts:
+    - Nahum
+    - Nah
+- osis: Hab
+  texts:
+    - Habakuk
+    - Hab
+- osis: Zeph
+  texts:
+    - Sefanja
+    - Sef
+- osis: Hag
+  texts:
+    - Hagaj
+    - Hag
+- osis: Zech
+  texts:
+    - Zaharija
+    - Zah
+- osis: Mal
+  texts:
+    - Malahija
+    - Mal
+- osis: Matt
+  texts:
+    - Matej
+    - Mt
+- osis: Mark
+  texts:
+    - Marko
+    - Mk
+- osis: Luke
+  texts:
+    - Luka
+    - Lk
+- osis: 3John
+  texts:
+    - 3. Ivanovo
+    - 3 Iv
+- osis: 1John
+  texts:
+    - 1 Ivanovo
+    - 1 Iv
+    - 1. Ivanovo
+    - 1. Iv
+- osis: 2John
+  texts:
+    - 2 Ivanovo
+    - 2 Iv
+    - 2. Ivanovo
+    - 2. Iv
+- osis: John
+  texts:
+    - Ivan
+    - Iv
+- osis: Acts
+  texts:
+    - Djela
+    - Dj
+- osis: Rom
+  texts:
+    - Rimljanima
+    - Rim
+- osis: 1Cor
+  texts:
+    - 1 Korinćanima
+    - 1 Kor
+    - 1. Korinćanima
+    - 1. Kor
+- osis: 2Cor
+  texts:
+    - 2 Korinćanima
+    - 2 Kor
+    - 2. Korinćanima
+    - 2. Kor
+- osis: Col
+  texts:
+    - Kološanima
+    - Kol
+- osis: Gal
+  texts:
+    - Galaćanima
+    - Gal
+- osis: Eph
+  texts:
+    - Efežanima
+    - Ef
+- osis: Phil
+  texts:
+    - Filipljanima
+    - Fil
+- osis: 1Thess
+  texts:
+    - 1 Solunjanima
+    - 1 Sol
+    - 1. Solunjanima
+    - 1. Sol
+- osis: 2Thess
+  texts:
+    - 2 Solunjanima
+    - 2 Sol
+    - 2. Solunjanima
+    - 2. Sol
+- osis: 1Tim
+  texts:
+    - 1 Timoteju
+    - 1 Tim
+    - 1. Timoteju
+    - 1. Tim
+- osis: 2Tim
+  texts:
+    - 2 Timoteju
+    - 2 Tim
+    - 2. Timoteju
+    - 2. Tim
+- osis: Titus
+  texts:
+    - Titu
+    - Tit
+- osis: Phlm
+  texts:
+    - Filemonu
+    - Flm
+- osis: Heb
+  texts:
+    - Jevrejima
+    - Heb
+- osis: Jas
+  texts:
+    - Jakovljevo
+    - Jak
+- osis: 1Pet
+  texts:
+    - 1 Kefino
+    - 1 Kf
+    - 1. Kefino
+    - 1. Kf
+- osis: 2Pet
+  texts:
+    - 2 Kefino
+    - 2 Kf
+    - 2. Kefino
+    - 2. Kf
+- osis: Jude
+  texts:
+    - Judino
+    - Jd

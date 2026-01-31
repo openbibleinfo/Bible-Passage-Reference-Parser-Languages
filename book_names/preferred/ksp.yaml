@@ -1,0 +1,115 @@
+default:
+  1Cor:
+    long: 1 Kɔrɛntinyɛje
+    short: 1Kɔ
+  1John:
+    long: 1 Jan
+    short: 1Jn
+  1Pet:
+    long: 1 Piyɛr
+    short: 1Pi
+  1Thess:
+    long: 1 Tesalonisinyɛje
+    short: 1Te
+  1Tim:
+    long: 1 Timɔte
+    short: 1Ti
+  2Cor:
+    long: 2 Kɔrɛntinyɛje
+    short: 2Kɔ
+  2John:
+    long: 2 Jan
+    short: 2Jn
+  2Pet:
+    long: 2 Piyɛr
+    short: 2Pi
+  2Thess:
+    long: 2 Tesalonisinyɛje
+    short: 2Te
+  2Tim:
+    long: 2 Timɔte
+    short: 2Ti
+  3John:
+    long: 3 Jan
+    short: 3Jn
+  Acts:
+    long: Kula
+    short: Kl
+  Col:
+    long: Kolosinyɛje
+    short: Kol
+  Eph:
+    long: Epɛjinyɛje
+    short: Epɛ
+  Esth:
+    long: Ester
+    short: Est
+  Gal:
+    long: Galatəje
+    short: Gal
+  Heb:
+    long: Ebərəje
+    short: Ebə
+  Jas:
+    long: Jakə
+    short: Jak
+  John:
+    long: Jan
+    short: Jan
+  Jonah:
+    long: Jonase
+    short: Jn
+  Jude:
+    long: Judə
+    short: Jud
+  Luke:
+    long: Luku
+    short: Lk
+  Mark:
+    long: Marke
+    short: Mk
+  Matt:
+    long: Matiye
+    short: Mat
+  Phil:
+    long: Pilipinyɛje
+    short: Pil
+  Phlm:
+    long: Pilemɔn
+    short: Plm
+  Rev:
+    long: Apokalisi
+    short: Apo
+  Rom:
+    long: Rɔmɛnje
+    short: Rɔm
+  Ruth:
+    long: Rutu
+    short: Rt
+  Titus:
+    long: Tite
+    short: Tit
+translations:
+  kspdbl:
+    1Tim:
+      long: 1Ti
+    2Tim:
+      long: 2Ti
+    Matt:
+      short: Mt
+    Rev:
+      long: Neje Ke Ddutu Ndɔ Te
+      short: Ddn
+    Titus:
+      short: Tt
+  kabbant:
+    Acts:
+      long: Kulaje
+      short: Kul
+    Luke:
+      short: Luk
+    Mark:
+      long: Markə
+      short: Mrk
+    Titus:
+      long: Titə

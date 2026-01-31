@@ -1,0 +1,255 @@
+default:
+  1Chr:
+    long: 1 Lelakoné Kraton
+    short: 1Lk
+  1Cor:
+    long: 1 Korinta
+    short: 1Ko
+  1John:
+    long: 1 Yohanes
+    short: 1Yo
+  1Kgs:
+    long: 1 Para Ratu
+    short: 1Pr
+  1Pet:
+    long: 1 Pétrus
+    short: 1P
+  1Sam:
+    long: 1 Samuèl
+    short: 1Sam
+  1Thess:
+    long: 1 Tèsalonika
+    short: 1Te
+  1Tim:
+    long: 1 Timotius
+    short: 1Ti
+  2Chr:
+    long: 2 Lelakoné Kraton
+    short: 2Lk
+  2Cor:
+    long: 2 Korinta
+    short: 2Ko
+  2John:
+    long: 2 Yohanes
+    short: 2Yo
+  2Kgs:
+    long: 2 Para Ratu
+    short: 2Pr
+  2Pet:
+    long: 2 Pétrus
+    short: 2P
+  2Sam:
+    long: 2 Samuèl
+    short: 2Sam
+  2Thess:
+    long: 2 Tèsalonika
+    short: 2Te
+  2Tim:
+    long: 2 Timotius
+    short: 2Ti
+  3John:
+    long: 3 Yohanes
+    short: 3Yo
+  Acts:
+    long: Para Rasul
+    short: PaRa
+  Amos:
+    long: Amos
+    short: Am
+  Col:
+    long: Kolosé
+    short: Kol
+  Dan:
+    long: Danièl
+    short: Dan
+  Deut:
+    long: Andarané Torèt
+    short: At
+  Eccl:
+    long: Juru Kotbah
+    short: Jk
+  Eph:
+    long: Efése
+    short: Ef
+  Esth:
+    long: Ester
+    short: Est
+  Exod:
+    long: Pangentasan
+    short: Pa
+  Ezek:
+    long: Yéhèskièl
+    short: Yeh
+  Ezra:
+    long: Ezra
+    short: Ez
+  Gal:
+    long: Galasia
+    short: Ga
+  Gen:
+    long: Wiwitan
+    short: Wi
+  Hab:
+    long: Habakuk
+    short: Hab
+  Hag:
+    long: Hagai
+    short: Ha
+  Heb:
+    long: Ibrani
+    short: Ib
+  Hos:
+    long: Hoséa
+    short: Hos
+  Isa:
+    long: Yésaya
+    short: Yes
+  Jas:
+    long: Yakobus
+    short: Yak
+  Jer:
+    long: Yérémia
+    short: Yer
+  Job:
+    long: Ayub
+    short: Ay
+  Joel:
+    long: Yoèl
+    short: Yo
+  John:
+    long: Yohanes
+    short: Yo
+  Jonah:
+    long: Yunus
+    short: Yu
+  Josh:
+    long: Yosua
+    short: Yos
+  Jude:
+    long: Yudas
+    short: Yud
+  Judg:
+    long: Para Rèkter
+    short: Prk
+  Lam:
+    long: Kidung Pesambat
+    short: Kp
+  Lev:
+    long: Para Imam
+    short: Pi
+  Luke:
+    long: Lukas
+    short: Lk
+  Mal:
+    long: Maliaki
+    short: Mal
+  Mark:
+    long: Markus
+    short: Mr
+  Matt:
+    long: Matius
+    short: Mat
+  Mic:
+    long: Mika
+    short: Mi
+  Nah:
+    long: Nahum
+    short: Na
+  Neh:
+    long: Néhémia
+    short: Neh
+  Num:
+    long: Itungan
+    short: It
+  Obad:
+    long: Obaja
+    short: Ob
+  Phil:
+    long: Filipi
+    short: Flp
+  Phlm:
+    long: Filemon
+    short: Flm
+  Prov:
+    long: Wulang Bebasan
+    short: Wb
+  Ps:
+    long: Masmur
+    short: Mas
+  Rev:
+    long: Pamedaran
+    short: Pam
+  Rom:
+    long: Rum
+    short: Rum
+  Ruth:
+    long: Rut
+    short: Rut
+  Song:
+    long: Kidung Luhur
+    short: Kl
+  Titus:
+    long: Titus
+    short: Tit
+  Zech:
+    long: Sakaria
+    short: Sa
+  Zeph:
+    long: Séfanya
+    short: Sef
+translations:
+  kjs17:
+    1Cor:
+      long: 1 Korintus
+      short: 1Kor
+    1John:
+      short: 1Yoh
+    1Pet:
+      short: 1Pet
+    1Thess:
+      long: 1 Tésalonika
+      short: 1Tes
+    1Tim:
+      short: 1Tim
+    2Cor:
+      long: 2 Korintus
+      short: 2Kor
+    2John:
+      short: 2Yoh
+    2Pet:
+      short: 2Pet
+    2Thess:
+      long: 2 Tésalonika
+      short: 2Tes
+    2Tim:
+      short: 2Tim
+    3John:
+      short: 3Yoh
+    Eph:
+      long: Efésus
+    Gal:
+      long: Galatia
+      short: Gal
+    Heb:
+      short: Ibr
+    John:
+      short: Yoh
+    Luke:
+      short: Luk
+    Mark:
+      short: Mrk
+    Phlm:
+      long: Filémon
+    Rev:
+      long: Wahyu
+      short: Wah
+  jvn:
+    Acts:
+      short: Ras
+    Matt:
+      long: Matéus
+      short: Mt
+    Phil:
+      short: Fp
+    Phlm:
+      short: Fm

@@ -1,0 +1,306 @@
+- osis: Gen
+  texts:
+    - Ipakilya
+- osis: Exod
+  texts:
+    - Ikogwa
+- osis: Lev
+  texts:
+    - Levitiki
+- osis: Num
+  texts:
+    - Itangô
+- osis: Lam
+  texts:
+    - Dingô Yi Yeremya
+    - Dingô
+- osis: Rev
+  texts:
+    - Itum̃inya
+    - Itu
+- osis: Deut
+  texts:
+    - Ivanga Ny’ambaṉi
+- osis: Josh
+  texts:
+    - Yôsua
+- osis: Judg
+  texts:
+    - Iyèkèli
+    - Iyèk
+- osis: Ruth
+  texts:
+    - Ruti
+- osis: Isa
+  texts:
+    - Yezaya
+    - Yez
+- osis: 1Sam
+  texts:
+    - 1 Samuèl
+    - 1 Sam
+    - 1. Samuèl
+    - 1. Sam
+    - I Samuèl
+    - I Sam
+    - I. Samuèl
+    - I. Sam
+- osis: 2Sam
+  texts:
+    - 2 Samuèl
+    - 2 Sam
+    - 2. Samuèl
+    - 2. Sam
+    - II Samuèl
+    - II Sam
+    - II. Samuèl
+    - II. Sam
+- osis: 1Kgs
+  texts:
+    - 1 Aga
+    - 1. Aga
+    - I Aga
+    - I. Aga
+- osis: 2Kgs
+  texts:
+    - 2 Aga
+    - 2. Aga
+    - II Aga
+    - II. Aga
+- osis: 1Chr
+  texts:
+    - 1 Krôniki
+    - 1 Kron
+    - 1. Krôniki
+    - 1. Kron
+    - I Krôniki
+    - I Kron
+    - I. Krôniki
+    - I. Kron
+- osis: 2Chr
+  texts:
+    - 2 Krôniki
+    - 2 Kron
+    - 2. Krôniki
+    - 2. Kron
+    - II Krôniki
+    - II Kron
+    - II. Krôniki
+    - II. Kron
+- osis: Ezra
+  texts:
+    - Ezrasi
+    - Ezra
+- osis: Neh
+  texts:
+    - Neemya
+    - Neem
+- osis: Esth
+  texts:
+    - Estèr
+- osis: Job
+  texts:
+    - Yobu
+- osis: Ps
+  texts:
+    - Ijembô
+- osis: Prov
+  texts:
+    - Inkôgô
+- osis: Eccl
+  texts:
+    - Ôkambi
+- osis: Song
+  texts:
+    - Evanda Z’ijembô
+    - Evanda
+- osis: Jer
+  texts:
+    - Yeremya
+    - Yer
+- osis: Ezek
+  texts:
+    - Ezekyèl
+    - Ezek
+- osis: Dan
+  texts:
+    - Danyèl
+    - Dan
+- osis: Hos
+  texts:
+    - Ôsea
+- osis: Joel
+  texts:
+    - Yôèl
+- osis: Amos
+  texts:
+    - Amosi
+- osis: Obad
+  texts:
+    - Abidyas
+    - Abid
+- osis: Jonah
+  texts:
+    - Yôna
+- osis: Mic
+  texts:
+    - Mika
+- osis: Nah
+  texts:
+    - Naum̃u
+- osis: Hab
+  texts:
+    - Abakuk
+    - Abak
+- osis: Zeph
+  texts:
+    - Zefanya
+    - Zef
+- osis: Hag
+  texts:
+    - Agay
+- osis: Zech
+  texts:
+    - Zakarya
+    - Zak
+- osis: Mal
+  texts:
+    - Malaki
+    - Mal
+- osis: Matt
+  texts:
+    - Matay
+- osis: Mark
+  texts:
+    - Mark
+- osis: Luke
+  texts:
+    - Luk
+- osis: 3John
+  texts:
+    - III Yôan
+    - 3 Yôan
+- osis: 1John
+  texts:
+    - 1 Yôan
+    - 1. Yôan
+    - I Yôan
+    - I. Yôan
+- osis: 2John
+  texts:
+    - 2 Yôan
+    - 2. Yôan
+    - II Yôan
+    - II. Yôan
+- osis: John
+  texts:
+    - Yôan
+- osis: Acts
+  texts:
+    - Rôm̃i
+- osis: Rom
+  texts:
+    - Rôma
+- osis: 1Cor
+  texts:
+    - 1 Kôrinti
+    - 1 Kôr
+    - 1. Kôrinti
+    - 1. Kôr
+    - I Kôrinti
+    - I Kôr
+    - I. Kôrinti
+    - I. Kôr
+- osis: 2Cor
+  texts:
+    - 2 Kôrinti
+    - 2 Kôr
+    - 2. Kôrinti
+    - 2. Kôr
+    - II Kôrinti
+    - II Kôr
+    - II. Kôrinti
+    - II. Kôr
+- osis: Col
+  texts:
+    - Kôlosi
+    - Kôl
+- osis: Gal
+  texts:
+    - Galati
+    - Gal
+- osis: Eph
+  texts:
+    - Efèsi
+- osis: Phil
+  texts:
+    - Filipi
+    - Fil
+- osis: 1Thess
+  texts:
+    - 1 Tesalôniki
+    - 1 Tes
+    - 1. Tesalôniki
+    - 1. Tes
+    - I Tesalôniki
+    - I Tes
+    - I. Tesalôniki
+    - I. Tes
+- osis: 2Thess
+  texts:
+    - 2 Tesalôniki
+    - 2 Tes
+    - 2. Tesalôniki
+    - 2. Tes
+    - II Tesalôniki
+    - II Tes
+    - II. Tesalôniki
+    - II. Tes
+- osis: 1Tim
+  texts:
+    - 1 Timôte
+    - 1 Tim
+    - 1. Timôte
+    - 1. Tim
+    - I Timôte
+    - I Tim
+    - I. Timôte
+    - I. Tim
+- osis: 2Tim
+  texts:
+    - 2 Timôte
+    - 2 Tim
+    - 2. Timôte
+    - 2. Tim
+    - II Timôte
+    - II Tim
+    - II. Timôte
+    - II. Tim
+- osis: Titus
+  texts:
+    - Tite
+- osis: Phlm
+  texts:
+    - Filemône
+    - Filem
+- osis: Heb
+  texts:
+    - Ebèr
+- osis: Jas
+  texts:
+    - Yakobu
+- osis: 1Pet
+  texts:
+    - 1 Pyère
+    - 1. Pyère
+    - I Pyère
+    - I. Pyère
+- osis: 2Pet
+  texts:
+    - 2 Pyère
+    - 2. Pyère
+    - II Pyère
+    - II. Pyère
+- osis: Jude
+  texts:
+    - Yudi

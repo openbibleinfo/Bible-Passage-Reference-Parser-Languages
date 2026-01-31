@@ -1,0 +1,110 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Kao Dund
+      - Kao
+  - osis: Matt
+    texts:
+      - Matiyu
+      - Mat
+  - osis: Mark
+    texts:
+      - Mak
+  - osis: Luke
+    texts:
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Njon
+      - Njo
+  - osis: Acts
+    texts:
+      - Bismi Sao
+      - Bis
+  - osis: Rom
+    texts:
+      - Orom
+      - Oro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korind
+      - Kor
+  - osis: Col
+    texts:
+      - Kolosi
+      - Kol
+  - osis: Gal
+    texts:
+      - Kalesiya
+      - Kal
+  - osis: Eph
+    texts:
+      - Ebeses
+      - Ebe
+  - osis: Phil
+    texts:
+      - Pilipi
+      - Pil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonaka
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+      - Tim
+  - osis: Titus
+    texts:
+      - Tatas
+      - Tat
+  - osis: Phlm
+    texts:
+      - Pilimon
+      - Pilm
+  - osis: Heb
+    texts:
+      - Nju Sem
+      - NjuS
+  - osis: Jas
+    texts:
+      - Njemus
+      - Nje
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+      - Pit
+  - osis: Jude
+    texts:
+      - Njur
+translations:
+  - AKH

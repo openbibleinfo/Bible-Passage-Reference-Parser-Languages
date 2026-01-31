@@ -1,0 +1,280 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Irphutna
+      - Irp
+  - osis: Exod
+    texts:
+      - Fesuakna
+      - Fes
+  - osis: Lev
+    texts:
+      - Levi Dân
+      - Lev
+  - osis: Num
+    texts:
+      - Nambar
+      - Nam
+  - osis: Lam
+    texts:
+      - Chap Hla
+      - Chap
+  - osis: Rev
+    texts:
+      - Thuphuang
+      - Thup
+  - osis: Deut
+    texts:
+      - Dân Inhnina
+      - Dhn
+  - osis: Josh
+    texts:
+      - Josua
+      - Jos
+  - osis: Judg
+    texts:
+      - Roirêltuhai
+      - Roi
+  - osis: Ruth
+    texts:
+      - Ruthi
+      - Rut
+  - osis: Isa
+    texts:
+      - Isaia
+      - Isa
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuela
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Rênghai
+      - Rng
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Thurchi Suina
+      - Tsn
+  - osis: Ezra
+    texts:
+      - Ezra
+      - Ezr
+  - osis: Neh
+    texts:
+      - Nehemia
+      - Neh
+  - osis: Esth
+    texts:
+      - Estheri
+      - Est
+  - osis: Job
+    texts:
+      - Joba
+      - Job
+  - osis: Ps
+    texts:
+      - Inpâkna Hlahai
+      - Ipn
+  - osis: Prov
+    texts:
+      - Thuvârhai
+      - Thuv
+  - osis: Eccl
+    texts:
+      - Thuhriltu
+      - Thu
+  - osis: Song
+    texts:
+      - Hlahai Hla
+      - Hla
+  - osis: Jer
+    texts:
+      - Jeremia
+      - Jer
+  - osis: Ezek
+    texts:
+      - Ezekiela
+      - Ezek
+  - osis: Dan
+    texts:
+      - Daniela
+      - Dan
+  - osis: Hos
+    texts:
+      - Hosea
+      - Hos
+  - osis: Joel
+    texts:
+      - Joela
+      - Joel
+  - osis: Amos
+    texts:
+      - Amosa
+      - Amos
+  - osis: Obad
+    texts:
+      - Obadia
+      - Obad
+  - osis: Jonah
+    texts:
+      - Jona
+      - Jon
+  - osis: Mic
+    texts:
+      - Mika
+      - MiK
+  - osis: Nah
+    texts:
+      - Nahuma
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuka
+      - Hab
+  - osis: Zeph
+    texts:
+      - Zefania
+      - Zef
+  - osis: Hag
+    texts:
+      - Hagaia
+      - Hag
+  - osis: Zech
+    texts:
+      - Zakaria
+      - Zak
+  - osis: Mal
+    texts:
+      - Malakia
+      - Mal
+  - osis: Matt
+    texts:
+      - Mathaia
+      - Mt
+  - osis: Mark
+    texts:
+      - Marka
+      - Mk
+  - osis: Luke
+    texts:
+      - Luka
+      - Lk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Johana
+      - Joh
+  - osis: Acts
+    texts:
+      - Tîrtônhai Sintho
+      - Tîr
+  - osis: Rom
+    texts:
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinth
+      - Kor
+  - osis: Col
+    texts:
+      - Kolosa
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatia
+      - Gal
+  - osis: Eph
+    texts:
+      - Efesi
+      - Efe
+  - osis: Phil
+    texts:
+      - Filipi
+      - Fil
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thesalonika toc2 2 Thesalonika
+      - Thes
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Thesalonika
+      - Thes
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Timothea toc2 1 Timothea
+      - Tim
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothea toc2 2 Timothea
+      - Tim
+  - osis: Titus
+    texts:
+      - Tita toc2 Tita
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemona toc2 Filemona
+      - Film
+  - osis: Heb
+    texts:
+      - Hebrai toc2 Hebrai
+      - Heb
+  - osis: Jas
+    texts:
+      - Jakoba toc2 Jakoba
+      - Jak
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - Petera toc2 1 Petera
+      - Pet
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petera toc2 2 Petera
+      - Pet
+  - osis: Jude
+    texts:
+      - Juda
+      - Jud
+translations:
+  - HRACLBSI

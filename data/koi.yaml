@@ -1,0 +1,115 @@
+variables:
+  first: &first
+    - "1"
+    - "1."
+  second: &second
+    - "2"
+    - "2."
+books:
+  - osis: Rev
+    texts:
+      - Осьтӧм
+      - Осьт.
+  - osis: Matt
+    texts:
+      - Матвей
+      - Мт.
+  - osis: Mark
+    texts:
+      - Марк
+      - Мк.
+  - osis: Luke
+    texts:
+      - Лука
+      - Лк.
+  - osis: 3John
+    texts:
+      - 3 Иоан
+      - 3. Ин.
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Иоан
+      - Ин.
+  - osis: Acts
+    texts:
+      - Ап. керӧммез
+      - Ап.кер.
+  - osis: Rom
+    texts:
+      - Римын оліссезлӧ
+      - Рим.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Коринфын оліссезлӧ
+      - Кор.
+  - osis: Col
+    texts:
+      - Колосын оліссезлӧ
+      - Кол.
+  - osis: Gal
+    texts:
+      - Галатияын оліссезлӧ
+      - Гал.
+  - osis: Eph
+    texts:
+      - Ефесын оліссезлӧ
+      - Еф.
+  - osis: Phil
+    texts:
+      - Филипын оліссезлӧ
+      - Фил.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Фессалоникаын оліссезлӧ
+      - Фесс.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Тимофейлӧ
+      - Тим.
+  - osis: Titus
+    texts:
+      - Титлӧ
+      - Тит.
+  - osis: Phlm
+    texts:
+      - Филимонлӧ
+      - Филем.
+  - osis: Heb
+    texts:
+      - Еврейезлӧ
+      - Евр.
+  - osis: Jas
+    texts:
+      - Яков
+      - Як.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Петра
+      - Пет.
+  - osis: Jude
+    texts:
+      - Иуд.
+      - Иуда
+translations:
+  - KPNT19

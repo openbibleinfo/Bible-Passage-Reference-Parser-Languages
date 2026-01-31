@@ -1,0 +1,231 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Muuduko
+      - Mdk.
+  - osis: Exod
+    texts:
+      - Mollurolovomato
+      - Moll.
+  - osis: Lev
+    texts:
+      - Pris Womdo
+      - Pris.
+  - osis: Num
+    texts:
+      - Jagillo
+      - Jag.
+  - osis: Rev
+    texts:
+      - Adodolukuu'nosungiko
+      - Ado.
+  - osis: Deut
+    texts:
+      - Loowo
+      - Loo.
+  - osis: Josh
+    texts:
+      - Joosuuwa
+      - Joos.
+  - osis: Judg
+    texts:
+      - A'mwo Mido Mollomwalokwe
+      - Mido.
+  - osis: Isa
+    texts:
+      - Aisaiya
+      - Ais.
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samwel
+  - osis: 1Sam
+    texts:
+      - 1Sam.
+  - osis: 2Sam
+    texts:
+      - 2Sam.
+  - osis:
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - A'mwo Aguto Kig
+  - osis: 2Kgs
+    texts:
+      - 2Kig.
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Kuuguudo
+  - osis: 1Chr
+    texts:
+      - 1Kuu.
+  - osis: 2Chr
+    texts:
+      - 2Kuu.
+  - osis: Ps
+    texts:
+      - Da'buukiyo
+      - Da'bk.
+  - osis: Jer
+    texts:
+      - Jeremaiya
+      - Jer.
+  - osis: Hos
+    texts:
+      - Hooseya
+      - Hoos.
+  - osis: Jonah
+    texts:
+      - Joona
+      - Jna.
+  - osis: Mic
+    texts:
+      - Maika
+      - Mka.
+  - osis: Zech
+    texts:
+      - Sekoraiya
+      - Sek.
+  - osis: Matt
+    texts:
+      - Matyuu
+      - Mt.
+  - osis: Mark
+    texts:
+      - Mak
+      - Mk.
+  - osis: Luke
+    texts:
+      - Luuk
+      - Lk.
+  - osis: 1John
+    texts:
+      - 1Jn.
+  - osis: 2John
+    texts:
+      - 2Jn.
+  - osis: 3John
+    texts:
+      - 3 Joon
+      - 3Jn.
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Joon
+  - osis: John
+    texts:
+      - Joon
+      - Jn.
+  - osis: Acts
+    texts:
+      - Kuurotokwe
+      - Krt.
+  - osis: Rom
+    texts:
+      - Room
+      - Rm.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Koorin
+  - osis: 1Cor
+    texts:
+      - 1Krn.
+  - osis: 2Cor
+    texts:
+      - 2Krn.
+  - osis: Col
+    texts:
+      - Kooloosi
+      - Kls.
+  - osis: Gal
+    texts:
+      - Galesiya
+      - Gal.
+  - osis: Eph
+    texts:
+      - Efesos
+      - Ef.
+  - osis: Phil
+    texts:
+      - Filipai
+      - Flp.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaloonaika
+  - osis: 1Thess
+    texts:
+      - 1Ts.
+  - osis: 2Thess
+    texts:
+      - 2Ts.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timooti
+  - osis: 1Tim
+    texts:
+      - 1Tm.
+  - osis: 2Tim
+    texts:
+      - 2Tm.
+  - osis: Titus
+    texts:
+      - Taitos
+      - Tai.
+  - osis: Phlm
+    texts:
+      - Filemoon
+      - Flm.
+  - osis: Heb
+    texts:
+      - Hibruu
+      - Hib.
+  - osis: Jas
+    texts:
+      - Jems
+      - Jms.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+  - osis: 1Pet
+    texts:
+      - 1Pt.
+  - osis: 2Pet
+    texts:
+      - 2Pt.
+  - osis: Jude
+    texts:
+      - Juut
+      - Jt.
+translations:
+  - SMB

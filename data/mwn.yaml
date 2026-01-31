@@ -1,0 +1,220 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Intaliko
+  - osis: Exod
+    texts:
+      - Ukufuma
+  - osis: Lev
+    texts:
+      - Levitikasi
+  - osis: Num
+    texts:
+      - Impendwa
+  - osis: Lam
+    texts:
+      - Lamentations
+      - Ukulosya
+  - osis: Rev
+    texts:
+      - Revelation
+  - osis: Deut
+    texts:
+      - Amasundo
+  - osis: Josh
+    texts:
+      - Joshua
+  - osis: Judg
+    texts:
+      - Wakapanzya
+  - osis: Ruth
+    texts:
+      - Ruti
+  - osis: Isa
+    texts:
+      - Ayizeya
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samueli
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Uwazyamfumu
+      - Izyamfumu
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Uwamilandu
+      - Imilandu
+  - osis: Ezra
+    texts:
+      - Ezra
+  - osis: Neh
+    texts:
+      - Nehemiya
+  - osis: Esth
+    texts:
+      - Esther (Hebrew)
+      - Esther
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Amalumbo
+  - osis: Prov
+    texts:
+      - Imilumbe
+  - osis: Eccl
+    texts:
+      - Ekawizya
+  - osis: Song
+    texts:
+      - Ulwimbo Lwandwimbo
+  - osis: Jer
+    texts:
+      - Jeremiya
+  - osis: Ezek
+    texts:
+      - Ezekiel
+  - osis: Dan
+    texts:
+      - Daniel (Hebrew)
+      - Daniel
+  - osis: Hos
+    texts:
+      - Hosiya
+  - osis: Joel
+    texts:
+      - Joel
+  - osis: Amos
+    texts:
+      - Amosi
+  - osis: Obad
+    texts:
+      - Obadiya
+  - osis: Jonah
+    texts:
+      - Yona
+  - osis: Mic
+    texts:
+      - Mika
+  - osis: Nah
+    texts:
+      - Nahumi
+  - osis: Hab
+    texts:
+      - Habakuku
+  - osis: Zeph
+    texts:
+      - Zefaniya
+  - osis: Hag
+    texts:
+      - Hagayi
+  - osis: Zech
+    texts:
+      - Zakariya
+  - osis: Mal
+    texts:
+      - Malakayi
+  - osis: Matt
+    texts:
+      - Mateyu
+  - osis: Mark
+    texts:
+      - Marko
+  - osis: Luke
+    texts:
+      - Luka
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - John
+  - osis: John
+    texts:
+      - Yohani
+  - osis: Acts
+    texts:
+      - Imilimo
+  - osis: Rom
+    texts:
+      - Romans
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Wakorinte
+  - osis: Col
+    texts:
+      - Colossians
+  - osis: Gal
+    texts:
+      - Galatians
+  - osis: Eph
+    texts:
+      - Ephesians
+  - osis: Phil
+    texts:
+      - Philippians
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thessalonians
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothy
+  - osis: Titus
+    texts:
+      - Titus
+  - osis: Phlm
+    texts:
+      - Philemon
+  - osis: Heb
+    texts:
+      - Hebrews
+  - osis: Jas
+    texts:
+      - James
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peter
+  - osis: Jude
+    texts:
+      - Jude
+translations:
+  - CHBV81

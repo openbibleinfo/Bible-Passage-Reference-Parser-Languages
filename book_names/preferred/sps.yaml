@@ -1,0 +1,88 @@
+default:
+  1Cor:
+    long: 1 Korin
+    short: 1Ko
+  1John:
+    long: Vaamuan Jon
+    short: 1Jn
+  1Pet:
+    long: 1 Pita
+    short: 1Pi
+  1Thess:
+    long: Vaamuan Tesalonaika
+    short: 1Te
+  1Tim:
+    long: Vaamuan Timoti
+    short: 1Ti
+  2Cor:
+    long: 2 Korin
+    short: 2Ko
+  2John:
+    long: Fafuan Jon
+    short: 2Jn
+  2Pet:
+    long: 2 Pita
+    short: 2Pi
+  2Thess:
+    long: Fafuan Tesalonaika
+    short: 2Te
+  2Tim:
+    long: Fafuan Timoti
+    short: 2Ti
+  3John:
+    long: Fafofopis Jon
+    short: 3Jn
+  Acts:
+    long: Binun Tan Amaraav
+    short: Am
+  Col:
+    long: Kolosi
+    short: Kol
+  Eph:
+    long: Efeses
+    short: Ef
+  Gal:
+    long: Galesia
+    short: Ga
+  Gen:
+    long: Jenesis
+    short: Jen
+  Heb:
+    long: Hiburu
+    short: Hi
+  Jas:
+    long: Jemis
+    short: Je
+  John:
+    long: Jon
+    short: Jn
+  Josh:
+    long: Josua
+    short: Jos
+  Jude:
+    long: Jut
+    short: Jut
+  Luke:
+    long: Luke
+    short: Lk
+  Mark:
+    long: Mak
+    short: Mk
+  Matt:
+    long: Matiu
+    short: Mt
+  Phil:
+    long: Filipai
+    short: Fp
+  Phlm:
+    long: Filimon
+    short: Fm
+  Rev:
+    long: Vegiaun Tapokaa
+    short: Vt
+  Rom:
+    long: Roum
+    short: Rm
+  Titus:
+    long: Taitus
+    short: Tai

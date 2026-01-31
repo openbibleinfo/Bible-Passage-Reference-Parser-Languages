@@ -1,0 +1,256 @@
+default:
+  1Chr:
+    long: 1 Cròniques
+    short: 1 Cròniques
+  1Cor:
+    long: 1 Corintis
+    short: 1 Corintis
+  1John:
+    long: 1 Joan
+    short: 1 Joan
+  1Kgs:
+    long: 1 Reis
+    short: 1 Re
+  1Macc:
+    long: 1 Macabeus
+    short: 1 Macabeus
+  1Pet:
+    long: 1 Pere
+    short: 1 Pere
+  1Sam:
+    long: 1 Samuel
+    short: 1 Samuel
+  1Thess:
+    long: 1 Tessalonicencs
+    short: 1 Tessalonicencs
+  1Tim:
+    long: 1 Timoteu
+    short: 1 Timoteu
+  2Chr:
+    long: 2 Cròniques
+    short: 2 Cròniques
+  2Cor:
+    long: 2 Corintis
+    short: 2 Corintis
+  2John:
+    long: 2 Joan
+    short: 2 Joan
+  2Kgs:
+    long: 2 Reis
+    short: 2 Re
+  2Macc:
+    long: 2 Macabeus
+    short: 2 Macabeus
+  2Pet:
+    long: 2 Pere
+    short: 2 Pere
+  2Sam:
+    long: 2 Samuel
+    short: 2 Samuel
+  2Thess:
+    long: 2 Tessalonicencs
+    short: 2 Tessalonicencs
+  2Tim:
+    long: 2 Timoteu
+    short: 2 Timoteu
+  3John:
+    long: 3 Joan
+    short: 3 Joan
+  Acts:
+    long: Fets
+    short: Ac
+  Amos:
+    long: Amós
+    short: Amós
+  Bar:
+    long: Baruc
+    short: Baruc
+  Col:
+    long: Colossencs
+    short: Colossencs
+  Dan:
+    long: Daniel
+    short: Daniel
+  DanGr:
+    long: Daniel (fragments grecs)
+    short: Daniel (fragments grecs)
+  Deut:
+    long: Deuteronomi
+    short: Deuteronomi
+  Eccl:
+    long: Cohèlet
+    short: Cohèlet
+  EpJer:
+    long: Jeremies
+    short: Jeremies
+  Eph:
+    long: Efesis
+    short: Efesis
+  Esth:
+    long: Ester
+    short: Ester
+  EsthGr:
+    long: Ester (versió grega)
+    short: Ester (versió grega)
+  Exod:
+    long: Èxode
+    short: Èxode
+  Ezek:
+    long: Ezequiel
+    short: Ezequiel
+  Ezra:
+    long: Esdres
+    short: Esdres
+  Gal:
+    long: Gàlates
+    short: Gàlates
+  Gen:
+    long: Gènesi
+    short: Gènesi
+  Hab:
+    long: Habacuc
+    short: Habacuc
+  Hag:
+    long: Ageu
+    short: Ageu
+  Heb:
+    long: Hebreus
+    short: Hebreus
+  Hos:
+    long: Osees
+    short: Osees
+  Isa:
+    long: Isaïes
+    short: Isaïes
+  Jas:
+    long: Jaume
+    short: Jaume
+  Jdt:
+    long: Judit
+    short: Judit
+  Jer:
+    long: Jeremies
+    short: Jeremies
+  Job:
+    long: Job
+    short: Job
+  Joel:
+    long: Joel
+    short: Joel
+  John:
+    long: Joan
+    short: Jn
+  Jonah:
+    long: Jonàs
+    short: Jonàs
+  Josh:
+    long: Josuè
+    short: Josuè
+  Jude:
+    long: Judes
+    short: Judes
+  Judg:
+    long: Jutges
+    short: Jutges
+  Lam:
+    long: Lamentacions
+    short: Lamentacions
+  Lev:
+    long: Levític
+    short: Levític
+  Luke:
+    long: Lluc
+    short: Lc
+  Mal:
+    long: Malaquies
+    short: Malaquies
+  Mark:
+    long: Marc
+    short: Marc
+  Matt:
+    long: Mateu
+    short: Mateu
+  Mic:
+    long: Miquees
+    short: Miquees
+  Nah:
+    long: Nahum
+    short: Nahum
+  Neh:
+    long: Nehemies
+    short: Nehemies
+  Num:
+    long: Nombres
+    short: Nombres
+  Obad:
+    long: Abdies
+    short: Abdies
+  Phil:
+    long: Filipencs
+    short: Filipencs
+  Phlm:
+    long: Filemó
+    short: Filemó
+  Prov:
+    long: Proverbis
+    short: Proverbis
+  Ps:
+    long: Salms
+    short: Salms
+  Rev:
+    long: Apocalipsi
+    short: Apocalipsi
+  Rom:
+    long: Romans
+    short: Romans
+  Ruth:
+    long: Rut
+    short: Rut
+  Sir:
+    long: Siràcida
+    short: Siràcida
+  Song:
+    long: Càntic dels Càntics
+    short: Càntic dels Càntics
+  Titus:
+    long: Titus
+    short: Titus
+  Tob:
+    long: Tobit
+    short: Tobit
+  Wis:
+    long: Saviesa
+    short: Saviesa
+  Zech:
+    long: Zacaries
+    short: Zacaries
+  Zeph:
+    long: Sofonies
+    short: Sofonies
+translations:
+  bci:
+    1Kgs:
+      short: 1 Reis
+    2Kgs:
+      short: 2 Reis
+    Acts:
+      long: Fets dels Apòstols
+      short: Fets dels Apòstols
+    John:
+      short: Joan
+    Luke:
+      short: Lluc
+    Phlm:
+      long: Filèmon
+      short: Filèmon
+  bec:
+    Eccl:
+      long: L’eclesiastès
+      short: L’eclesiastès
+    Mark:
+      short: Mc
+    Matt:
+      short: Mt
+    Song:
+      long: El Càntic Dels Càntics
+      short: El Càntic Dels Càntics

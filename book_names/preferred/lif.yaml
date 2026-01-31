@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: ᥇ ᤛᤠᤵᤔᤢ᤺ᤴᤎᤢᤶ
+    short: ᥇ ᤛᤠᤵᤔᤢ
+  1Cor:
+    long: ᥇ ᤁᤥᤖᤴᤌᤡ
+    short: ᥇ ᤁᤥᤖ
+  1John:
+    long: ᥇ ᤕᤢᤜᤢᤴᤏᤠ
+    short: ᥇ ᤕᤢᤜᤢ
+  1Kgs:
+    long: ᥇ ᤜᤠᤱ
+    short: ᥇ ᤜᤠᤱ
+  1Pet:
+    long: ᥇ ᤐᤋᤪᤢᤛ
+    short: ᥇ ᤐᤋᤪᤢ
+  1Sam:
+    long: ᥇ ᤛᤠᤔᤢᤀᤧᤗ
+    short: ᥇ ᤛᤠᤔᤢ
+  1Thess:
+    long: ᥇ ᤌᤡᤛ᤻ᤛᤗᤥᤏᤡᤁᤡ
+    short: ᥇ ᤌᤡᤛ᤻ᤛ
+  1Tim:
+    long: ᥇ ᤋᤡᤔᤥᤌᤡ
+    short: ᥇ ᤋᤡᤔᤥ
+  2Chr:
+    long: ᥈ ᤛᤠᤵᤔᤢ᤺ᤴᤎᤢᤶ
+    short: ᥈ ᤛᤠᤵᤔᤢ
+  2Cor:
+    long: ᥈ ᤁᤥᤖᤴᤌᤡ
+    short: ᥈ ᤁᤥᤖ
+  2John:
+    long: ᥈ ᤕᤢᤜᤢᤴᤏᤠ
+    short: ᥈ ᤕᤢᤜᤢ
+  2Kgs:
+    long: ᥈ ᤜᤠᤱ
+    short: ᥈ ᤜᤠᤱ
+  2Pet:
+    long: ᥈ ᤐᤋᤪᤢᤛ
+    short: ᥈ ᤐᤋᤪᤢ
+  2Sam:
+    long: ᥈ ᤛᤠᤔᤢᤀᤧᤗ
+    short: ᥈ ᤛᤠᤔᤢ
+  2Thess:
+    long: ᥈ ᤌᤡᤛ᤻ᤛᤗᤥᤏᤡᤁᤡ
+    short: ᥈ ᤌᤡᤛ᤻ᤛ
+  2Tim:
+    long: ᥈ ᤋᤡᤔᤥᤌᤡ
+    short: ᥈ ᤋᤡᤔᤥ
+  3John:
+    long: ᥉ ᤕᤢᤜᤢᤴᤏᤠ
+    short: ᥉ ᤕᤢᤜᤢ
+  Acts:
+    long: ᤛᤣ᤺ᤰᤕᤢᤰᤔᤡᤒᤠᤜᤠ᤹
+    short: ᤛᤣ᤺ᤰᤕᤢᤰ
+  Amos:
+    long: ᤀᤠᤔᤥᤛ
+    short: ᤀᤠᤔᤥ
+  Col:
+    long: ᤁᤗᤛ᤻ᤛᤡ
+    short: ᤁᤗᤛ᤻
+  Dan:
+    long: ᤍᤠᤏᤡᤀᤧᤗ
+    short: ᤍᤠᤏᤡ
+  Deut:
+    long: ᤛᤠᤶᤕᤥᤌᤡᤶ ᤀᤡᤱ
+    short: ᤛᤠᤶᤕᤥ ᤀᤡᤱ
+  Eccl:
+    long: ᤂᤠᤜᤢᤴᤛᤠᤒᤠ
+    short: ᤂᤠ ᤛᤠᤒᤠ
+  Eph:
+    long: ᤀᤣᤑᤡᤛᤡ
+    short: ᤀᤣᤑᤡ
+  Esth:
+    long: ᤀᤧᤛ᤻ᤋᤖ
+    short: ᤀᤧᤛ᤻ᤋᤖ
+  Exod:
+    long: ᤗᤠᤶᤍᤡᤰ
+    short: ᤗᤠ
+  Ezek:
+    long: ᤀᤡᤈᤁᤡᤀᤣᤗ
+    short: ᤀᤡᤈ
+  Ezra:
+    long: ᤀᤧᤈᤪᤠ
+    short: ᤀᤧᤈᤪᤠ
+  Gal:
+    long: ᤃᤗᤠᤋᤡ
+    short: ᤃᤗᤠ
+  Gen:
+    long: ᤋᤥᤗᤡᤱᤛᤥᤔᤢ
+    short: ᤋᤥᤗᤡᤱ
+  Hab:
+    long: ᤜᤒᤁᤢᤁ
+    short: ᤜᤒ
+  Hag:
+    long: ᤜᤠᤃ᤻ᤃᤤ
+    short: ᤜᤠᤃ᤻ᤃᤤ
+  Heb:
+    long: ᤜᤡᤒᤪᤢ
+    short: ᤜᤡᤒᤪᤢ
+  Hos:
+    long: ᤜᤥᤛᤣ
+    short: ᤜᤥᤛᤣ
+  Isa:
+    long: ᤕᤛᤤᤕᤠ
+    short: ᤕᤛᤤ
+  Jas:
+    long: ᤕᤠᤁᤢᤒ
+    short: ᤕᤠᤁᤢ
+  Jer:
+    long: ᤕᤷᤔᤡᤕᤠ
+    short: ᤕᤷᤔᤡ
+  Job:
+    long: ᤀᤕᤢᤒ
+    short: ᤀᤕᤢᤒ
+  Joel:
+    long: ᤕᤥᤀᤣᤗ
+    short: ᤕᤥᤀᤣ
+  John:
+    long: ᤕᤢᤜᤢᤴᤏᤠ
+    short: ᤕᤢᤜᤢ
+  Jonah:
+    long: ᤕᤥᤏᤠ
+    short: ᤕᤥᤏᤠ
+  Josh:
+    long: ᤕᤜᤥᤛᤢ
+    short: ᤕᤜᤥ
+  Jude:
+    long: ᤕᤜᤢᤍᤠ
+    short: ᤕᤜᤢ
+  Judg:
+    long: ᤂᤠᤛᤧᤴᤗᤥ᤺ᤶᤒᤠ
+    short: ᤂᤠᤗᤥ
+  Lam:
+    long: ᤔᤧᤖᤡᤱ ᤛᤠᤵᤐᤴ
+    short: ᤔᤧ ᤛᤠ
+  Lev:
+    long: ᤗᤧᤒᤡ
+    short: ᤗᤧᤒᤡ
+  Luke:
+    long: ᤗᤢᤁᤠ
+    short: ᤗᤢᤁᤠ
+  Mal:
+    long: ᤔᤗᤠᤁᤡ
+    short: ᤔᤗᤠ
+  Mark:
+    long: ᤔᤷᤁᤢᤛ
+    short: ᤔᤷᤁᤢ
+  Matt:
+    long: ᤔᤳᤋᤡ
+    short: ᤔᤳᤋᤡ
+  Mic:
+    long: ᤔᤡᤁᤠ
+    short: ᤔᤡᤁᤠ
+  Nah:
+    long: ᤏᤜᤢᤔ
+    short: ᤏᤜᤢᤔ
+  Neh:
+    long: ᤏᤜᤣᤔᤩᤠᤜ
+    short: ᤏᤜᤣ
+  Num:
+    long: ᤂᤠᤏᤡ᤺ᤳ
+    short: ᤂᤠᤏᤡ᤺ᤳ
+  Obad:
+    long: ᤀᤥᤒᤍᤡᤕᤠ
+    short: ᤀᤥᤒ
+  Phil:
+    long: ᤑᤡᤗᤡᤵᤐᤡ
+    short: ᤑᤡᤗᤡᤐ
+  Phlm:
+    long: ᤑᤡᤗᤣᤔᤥᤏ
+    short: ᤑᤡᤗᤣ
+  Prov:
+    long: ᤂᤠᤜᤢᤴ
+    short: ᤂᤠᤜᤢᤴ
+  Ps:
+    long: ᤏᤡᤱᤘᤠ᤹ᤑᤢ ᤛᤠᤶᤗᤥᤛᤢᤶ
+    short: ᤏᤡᤱ ᤛᤢᤶ
+  Rev:
+    long: ᤛᤢᤑᤥ
+    short: ᤛᤢᤑᤥ
+  Rom:
+    long: ᤖᤥᤔᤡ
+    short: ᤖᤥᤔᤡ
+  Ruth:
+    long: ᤖᤢᤌ
+    short: ᤖᤢᤌ
+  Song:
+    long: ᤛᤥᤗᤥᤔᤏᤖᤧ ᤁᤢᤛᤠᤶᤗᤥ
+    short: ᤛᤥᤗᤥ ᤛᤠᤶᤗᤥ
+  Titus:
+    long: ᤋᤡᤋᤛ
+    short: ᤋᤡᤋ
+  Zech:
+    long: ᤈᤁᤖᤡᤕᤠ
+    short: ᤈᤁ
+  Zeph:
+    long: ᤛᤐᤏᤩᤠᤜ
+    short: ᤛᤐ

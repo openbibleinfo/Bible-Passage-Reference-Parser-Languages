@@ -1,0 +1,298 @@
+- osis: Gen
+  texts:
+    - Genesisi
+    - Gen.
+- osis: Exod
+  texts:
+    - Eksodha
+    - Eks.
+- osis: Lev
+  texts:
+    - Levh.
+    - Levhi
+- osis: Num
+  texts:
+    - Mitengo
+    - Mit.
+- osis: Lam
+  texts:
+    - Sidilo
+    - Sid.
+- osis: Rev
+  texts:
+    - Mtuletelo
+    - Mtu.
+- osis: Deut
+  texts:
+    - Dhewuteronome
+    - Dhewut.
+- osis: Josh
+  texts:
+    - Joxuwa
+    - Jox.
+- osis: Judg
+  texts:
+    - Valamuli
+    - Val.
+- osis: Ruth
+  texts:
+    - Rut.
+    - Rute
+- osis: Isa
+  texts:
+    - Isaya
+    - Isa.
+- osis: 1Sam
+  texts:
+    - 1 Samuwele
+    - 1 Sam.
+    - 1. Samuwele
+    - 1. Sam.
+- osis: 2Sam
+  texts:
+    - 2 Samuwele
+    - 2 Sam.
+    - 2. Samuwele
+    - 2. Sam.
+- osis: 1Kgs
+  texts:
+    - 1 Vafumeli
+    - 1 Vafu.
+    - 1. Vafumeli
+    - 1. Vafu.
+- osis: 2Kgs
+  texts:
+    - 2 Vafumeli
+    - 2 Vafu.
+    - 2. Vafumeli
+    - 2. Vafu.
+- osis: 1Chr
+  texts:
+    - 1 Makronika
+    - 1 Mak.
+    - 1. Makronika
+    - 1. Mak.
+- osis: 2Chr
+  texts:
+    - 2 Makronika
+    - 2 Mak.
+    - 2. Makronika
+    - 2. Mak.
+- osis: Ezra
+  texts:
+    - Ezr.
+    - Ezra
+- osis: Neh
+  texts:
+    - Nehemiya
+    - Neh.
+- osis: Esth
+  texts:
+    - Esteri
+    - Est.
+- osis: Job
+  texts:
+    - Job.
+    - Jobe
+- osis: Ps
+  texts:
+    - Masalmo
+    - Mas.
+- osis: Prov
+  texts:
+    - Mavingu
+    - Mav.
+- osis: Eccl
+  texts:
+    - Ekleziyaste
+    - Ekl.
+- osis: Song
+  texts:
+    - Ndando ya Tindando
+    - Nda.
+- osis: Jer
+  texts:
+    - Jeremiya
+    - Jer.
+- osis: Ezek
+  texts:
+    - Ezekhiyele
+    - Eze.
+- osis: Dan
+  texts:
+    - Dhaniyeli
+    - Dhan.
+- osis: Hos
+  texts:
+    - Hoseya
+    - Hos.
+- osis: Joel
+  texts:
+    - Joyeli
+    - Joy.
+- osis: Amos
+  texts:
+    - Amosi
+    - Amo.
+- osis: Obad
+  texts:
+    - Obhadhiya
+    - Obha.
+- osis: Jonah
+  texts:
+    - Jon.
+    - Jona
+- osis: Mic
+  texts:
+    - Mik.
+    - Mika
+- osis: Nah
+  texts:
+    - Nahume
+    - Nah.
+- osis: Hab
+  texts:
+    - Habhakuki
+    - Hab.
+- osis: Zeph
+  texts:
+    - Zefaniya
+    - Zef.
+- osis: Hag
+  texts:
+    - Hagayi
+    - Hag.
+- osis: Zech
+  texts:
+    - Zakariya
+    - Zak.
+- osis: Mal
+  texts:
+    - Malakiya
+    - Mal.
+- osis: Matt
+  texts:
+    - Matewu
+    - Mat.
+- osis: Mark
+  texts:
+    - Marku
+    - Mar.
+- osis: Luke
+  texts:
+    - Luk.
+    - Luka
+- osis: 1John
+  texts:
+    - 1 Johani
+    - 1 Joh.
+    - 1. Johani
+    - 1. Joh.
+- osis: 2John
+  texts:
+    - 2 Johani
+    - 2 Joh.
+    - 2. Johani
+    - 2. Joh.
+- osis: 3John
+  texts:
+    - 3 Johani
+    - 3 Joh.
+    - 3. Johani
+    - 3. Joh.
+- osis: John
+  texts:
+    - Johani
+    - Joh.
+- osis: Acts
+  texts:
+    - Mithumo
+    - Mith.
+- osis: Rom
+  texts:
+    - VaRoma
+    - VaR.
+- osis: 1Cor
+  texts:
+    - 1 Vakorinto
+    - 1 VaK.
+    - 1. Vakorinto
+    - 1. VaK.
+- osis: 2Cor
+  texts:
+    - 2 Vakorinto
+    - 2 VaK.
+    - 2. Vakorinto
+    - 2. VaK.
+- osis: Col
+  texts:
+    - Vakolosa
+    - Vakl.
+- osis: Gal
+  texts:
+    - Vagalatiya
+    - VaG.
+- osis: Eph
+  texts:
+    - Vaefesu
+    - Vaef.
+- osis: Phil
+  texts:
+    - Vafilipiya
+    - VaF.
+- osis: 1Thess
+  texts:
+    - 1 Vatesalonika
+    - 1 Vat.
+    - 1. Vatesalonika
+    - 1. Vat.
+- osis: 2Thess
+  texts:
+    - 2 Vatesalonika
+    - 2 Vat.
+    - 2. Vatesalonika
+    - 2. Vat.
+- osis: 1Tim
+  texts:
+    - 1 Timoti
+    - 1 Tim.
+    - 1. Timoti
+    - 1. Tim.
+- osis: 2Tim
+  texts:
+    - 2 Timoti
+    - 2 Tim.
+    - 2. Timoti
+    - 2. Tim.
+- osis: Titus
+  texts:
+    - Titosi
+    - Tit.
+- osis: Phlm
+  texts:
+    - Filimoni
+    - Film.
+- osis: Heb
+  texts:
+    - VaHebheru
+    - Vaheb.
+- osis: Jas
+  texts:
+    - Jakobe
+    - Jak.
+- osis: 1Pet
+  texts:
+    - 1 Pedro
+    - 1 Ped.
+    - 1. Pedro
+    - 1. Ped.
+- osis: 2Pet
+  texts:
+    - 2 Pedro
+    - 2 Ped.
+    - 2. Pedro
+    - 2. Ped.
+- osis: Jude
+  texts:
+    - Judha
+    - Jud.

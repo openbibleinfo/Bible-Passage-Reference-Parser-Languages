@@ -1,0 +1,245 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Bǐbɛ́mɛ
+  - osis: Exod
+    texts:
+      - Tíntɔ́n
+  - osis: Lev
+    texts:
+      - Levíi ví
+  - osis: Num
+    texts:
+      - Kɛ́nsísɔ́
+  - osis: Sir
+    texts:
+      - Silaki ví
+  - osis: Wis
+    texts:
+      - Sɛ́núnywɛ́
+  - osis: Lam
+    texts:
+      - Gbɛvíhan
+  - osis: EpJer
+    texts:
+      - Jelemíi wlán
+  - osis: Rev
+    texts:
+      - Nǔɖexlɛ́mɛ
+  - osis: Deut
+    texts:
+      - Sɛ́nflínmɛ
+  - osis: Josh
+    texts:
+      - Jozuwée
+  - osis: Judg
+    texts:
+      - Hwɛɖɔtɔ́
+  - osis: Ruth
+    texts:
+      - Hwliti
+  - osis: Isa
+    texts:
+      - Ezayíi
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuwɛ́li
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Axɔ́sú
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Tan
+  - osis: Ezra
+    texts:
+      - Ɛsidlási
+  - osis: Neh
+    texts:
+      - Nɛɛmíi
+  - osis: Job
+    texts:
+      - Jɔ̌bu
+  - osis: Ps
+    texts:
+      - Ɖɛhan
+  - osis: Prov
+    texts:
+      - Nǔnywɛ́xó
+  - osis: Eccl
+    texts:
+      - Nǔnywɛ́tɔ́xó
+  - osis: Song
+    texts:
+      - Hanvíví
+  - osis: Jer
+    texts:
+      - Jelemíi
+  - osis: Ezek
+    texts:
+      - Ezekiyɛ́li
+  - osis: Hos
+    texts:
+      - Ozée
+  - osis: Joel
+    texts:
+      - Jowɛ́li
+  - osis: Amos
+    texts:
+      - Amɔ́si
+  - osis: Obad
+    texts:
+      - Abudiyási
+  - osis: Jonah
+    texts:
+      - Jonási
+  - osis: Mic
+    texts:
+      - Micée
+  - osis: Nah
+    texts:
+      - Naxúmu
+  - osis: Hab
+    texts:
+      - Xabakúku
+  - osis: Zeph
+    texts:
+      - Sofoníi
+  - osis: Hag
+    texts:
+      - Ajée
+  - osis: Zech
+    texts:
+      - Zakalíi
+  - osis: Mal
+    texts:
+      - Malacíi
+  - osis: Matt
+    texts:
+      - Matíe
+  - osis: Mark
+    texts:
+      - Maki
+  - osis: Luke
+    texts:
+      - Luki
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jǎan
+  - osis: Acts
+    texts:
+      - Mɛsɛ́dó
+  - osis: Rom
+    texts:
+      - Hlɔ̌manu
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kɔlɛ́ntinu
+  - osis: Col
+    texts:
+      - Kolósinu
+  - osis: Gal
+    texts:
+      - Galatinu
+  - osis: Eph
+    texts:
+      - Efɛ́zinu
+  - osis: Phil
+    texts:
+      - Filípunu
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tɛsalonikinu
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timɔtée
+  - osis: Titus
+    texts:
+      - Titu
+  - osis: Phlm
+    texts:
+      - Filemɔ́ɔ
+  - osis: Heb
+    texts:
+      - Eblée
+  - osis: Jas
+    texts:
+      - Jaki
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piyɛ́ɛ
+  - osis: Jude
+    texts:
+      - Judi
+  - osis: Tob
+    texts:
+      - Tobíi
+  - osis: Jdt
+    texts:
+      - Judíti
+  - osis: Bar
+    texts:
+      - Balúki
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+    texts:
+      - Makabée
+  - osis: DanGr
+    texts:
+      - Daniyɛ́li Glɛ̌sigbe
+  - osis: Dan
+    texts:
+      - Daniyɛ́li
+  - osis: EsthGr
+    texts:
+      - Ɛsitɛ́ɛ Glɛ̌sigbe
+  - osis: Esth
+    texts:
+      - Ɛsitɛ́ɛ
+translations:
+  - FON13
+  - FONDC

@@ -1,0 +1,168 @@
+default:
+  1Chr:
+    long: דברי הימים א
+    short: דברי הימים א
+  1Kgs:
+    long: מלכים א
+    short: מל"א
+  1Sam:
+    long: שמואל א
+    short: שמ"א
+  2Chr:
+    long: דברי הימים ב
+    short: דברי הימים ב
+  2Kgs:
+    long: מלכים ב
+    short: מל"ב
+  2Sam:
+    long: שמואל ב
+    short: שמ"ב
+  Amos:
+    long: עמוס
+    short: עמוס
+  Dan:
+    long: דניאל
+    short: דנ'
+  Deut:
+    long: דברים
+    short: דבר'
+  Eccl:
+    long: קהלת
+    short: קהלת
+  Esth:
+    long: אסתר
+    short: אסתר
+  Exod:
+    long: שמות
+    short: שמות
+  Ezek:
+    long: יחזקאל
+    short: יחז'
+  Ezra:
+    long: עזרא
+    short: עזרא
+  Gen:
+    long: בראשית
+    short: ברא'
+  Hab:
+    long: חבקוק
+    short: חבק'
+  Hag:
+    long: חגי
+    short: חגי
+  Hos:
+    long: הושע
+    short: הושע
+  Isa:
+    long: ישעיה
+    short: ישע'
+  Jer:
+    long: ירמיה
+    short: ירמ'
+  Job:
+    long: איוב
+    short: איוב
+  Joel:
+    long: יואל
+    short: יואל
+  Jonah:
+    long: יונה
+    short: יונה
+  Josh:
+    long: יהושע
+    short: יהושע
+  Judg:
+    long: שופטים
+    short: שופטים
+  Lam:
+    long: איכה
+    short: איכה
+  Lev:
+    long: ויקרא
+    short: ויק'
+  Mal:
+    long: מלאכי
+    short: מלא'
+  Mic:
+    long: מיכה
+    short: מיכה
+  Nah:
+    long: נחום
+    short: נחום
+  Neh:
+    long: נחמיה
+    short: נחמ'
+  Num:
+    long: במדבר
+    short: במד'
+  Obad:
+    long: עבדיה
+    short: עבד'
+  Prov:
+    long: משלי
+    short: משלי
+  Ps:
+    long: תהלים
+    short: תהל'
+  Ruth:
+    long: רות
+    short: רות
+  Song:
+    long: שיר השירים
+    short: שה"ש
+  Zech:
+    long: זכריה
+    short: זכר'
+  Zeph:
+    long: צפניה
+    short: צפנ'
+translations:
+  hebotbsi:
+    1Chr:
+      short: דהי"א
+    2Chr:
+      short: דהי"ב
+    Judg:
+      long: שפטים
+      short: שפט'
+  wlc:
+    1Kgs:
+      short: מלכים א
+    1Sam:
+      short: שמואל א
+    2Kgs:
+      short: מלכים ב
+    2Sam:
+      short: שמואל ב
+    Dan:
+      short: דניאל
+    Deut:
+      short: דברים
+    Ezek:
+      short: יחזקאל
+    Gen:
+      short: בראשית
+    Hab:
+      short: חבקוק
+    Isa:
+      short: ישעיה
+    Jer:
+      short: ירמיה
+    Lev:
+      short: ויקרא
+    Mal:
+      short: מלאכי
+    Neh:
+      short: נחמיה
+    Num:
+      short: במדבר
+    Obad:
+      short: עבדיה
+    Ps:
+      short: תהלים
+    Song:
+      short: שיר השירים
+    Zech:
+      short: זכריה
+    Zeph:
+      short: צפניה

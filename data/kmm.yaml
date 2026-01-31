@@ -1,0 +1,312 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - A’nphutna
+      - Aph
+  - osis: Exod
+    texts:
+      - Sōksōt
+      - Sōk
+  - osis: Lev
+    texts:
+      - Levi-dân
+      - Lev
+  - osis: Num
+    texts:
+      - Mijahei
+      - Mj
+  - osis: Lam
+    texts:
+      - Ṭajaisuina
+      - Ṭa
+  - osis: Rev
+    texts:
+      - Ṭongphông
+      - Ṭph
+  - osis: Deut
+    texts:
+      - Dânrabu Inhnina
+      - Dân
+  - osis: Josh
+    texts:
+      - Joshua
+      - Jos
+  - osis: Judg
+    texts:
+      - Ṭongkatanhei
+      - Ṭt
+  - osis: Ruth
+    texts:
+      - Ruth
+      - Ru
+  - osis: Isa
+    texts:
+      - Isaiah
+      - Is
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Sa
+  - osis: 1Sam
+    texts:
+      - Samuel Inkhatna
+  - osis: 2Sam
+    texts:
+      - Samuel Inhnina
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Rn
+  - osis: 1Kgs
+    texts:
+      - Renghei Inkhatna
+  - osis: 2Kgs
+    texts:
+      - Renghei Inhnina
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Th
+  - osis: 1Chr
+    texts:
+      - Thuhminghei Inkhatna
+  - osis: 2Chr
+    texts:
+      - Thuhminghei Inhnina
+  - osis: Ezra
+    texts:
+      - Ezra
+      - Ezr
+  - osis: Neh
+    texts:
+      - Nehemiah
+      - Neh
+  - osis: Esth
+    texts:
+      - Esther
+      - Est
+  - osis: Job
+    texts:
+      - Job
+      - Jb
+  - osis: Prov
+    texts:
+      - Ṭongchîk-hei
+      - Ṭch
+  - osis: Eccl
+    texts:
+      - Mi Intheipa
+      - Mth
+  - osis: Song
+    texts:
+      - Hlahei Hla
+      - Hlh
+  - osis: Ps
+    texts:
+      - Hlahei
+      - Hl
+  - osis: Jer
+    texts:
+      - Jeremiah
+      - Jer
+  - osis: Ezek
+    texts:
+      - Ezekiel
+      - Eze
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dn
+  - osis: Hos
+    texts:
+      - Hosea
+      - Ho
+  - osis: Joel
+    texts:
+      - Joel
+      - Jl
+  - osis: Amos
+    texts:
+      - Amos
+      - Am
+  - osis: Obad
+    texts:
+      - Obadiah
+      - Ob
+  - osis: Jonah
+    texts:
+      - Jonah
+      - Jo
+  - osis: Mic
+    texts:
+      - Micah
+      - Mic
+  - osis: Nah
+    texts:
+      - Nahum
+      - Na
+  - osis: Hab
+    texts:
+      - Habakkuk
+      - Ha
+  - osis: Zeph
+    texts:
+      - Zephaniah
+      - Zep
+  - osis: Hag
+    texts:
+      - Haggai
+      - Hag
+  - osis: Zech
+    texts:
+      - Zechariah
+      - Zec
+  - osis: Mal
+    texts:
+      - Malachi
+      - Mal
+  - osis: Matt
+    texts:
+      - Matthew
+      - Mt
+  - osis: Mark
+    texts:
+      - Mark
+      - Mk
+  - osis: Luke
+    texts:
+      - Luke
+      - Lk
+  - osis: 1John
+    texts:
+      - John Inkhatna
+  - osis: 2John
+    texts:
+      - John Inhnina
+  - osis: 3John
+    texts:
+      - John Inthumna
+      - 3 Jn
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jn
+  - osis: John
+    texts:
+      - John
+      - Jn
+  - osis: Acts
+    texts:
+      - Ṭōntlohei
+      - Ṭōn
+  - osis: Rom
+    texts:
+      - Romanhei
+      - Ro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Cor
+  - osis: 1Cor
+    texts:
+      - Corinthianhei Inkhatna
+  - osis: 2Cor
+    texts:
+      - Corinthianhei Inhnina
+  - osis: Col
+    texts:
+      - Colossianhei
+      - Col
+  - osis: Gal
+    texts:
+      - Galatianhei
+      - Ga
+  - osis: Eph
+    texts:
+      - Ephesianhei
+      - Eph
+  - osis: Phil
+    texts:
+      - Philippianhei
+      - Phl
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - The
+  - osis: 1Thess
+    texts:
+      - Thessalonianhei Inkhatna
+  - osis: 2Thess
+    texts:
+      - Thessalonianhei Inhnina
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Ti
+  - osis: 1Tim
+    texts:
+      - Timothy Inkhatna
+  - osis: 2Tim
+    texts:
+      - Timothy Inhnina
+  - osis: Titus
+    texts:
+      - Titus
+      - Tit
+  - osis: Phlm
+    texts:
+      - Philemon
+      - Phm
+  - osis: Heb
+    texts:
+      - Hebrewhei
+      - He
+  - osis: Jas
+    texts:
+      - James
+      - Jam
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pe
+  - osis: 1Pet
+    texts:
+      - Peter Inkhatna
+  - osis: 2Pet
+    texts:
+      - Peter Inhnina
+  - osis: Jude
+    texts:
+      - Jude
+      - Jd
+translations:
+  - KOMRBSI

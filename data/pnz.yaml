@@ -1,0 +1,107 @@
+books:
+  - osis: Rev
+    texts:
+      - Apokalipse
+      - Apo
+  - osis: Matt
+    texts:
+      - Matiye
+      - Mat
+  - osis: Mark
+    texts:
+      - Márke
+      - Mrk
+  - osis: Luke
+    texts:
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Zâŋ
+      - 1Zŋ
+  - osis: 2John
+    texts:
+      - 2Zâŋ
+      - 2Zŋ
+  - osis: 3John
+    texts:
+      - 3Zâŋ
+      - 3Zŋ
+  - osis: John
+    texts:
+      - Zâŋ
+  - osis: Acts
+    texts:
+      - Péna a Apotereri
+      - Pap
+  - osis: Rom
+    texts:
+      - Rɔmɛri̧
+      - Rɔm
+  - osis: 1Cor
+    texts:
+      - 1Kɔrɛŋtiyɛ̧́ri̧
+      - 1Kɔ
+  - osis: 2Cor
+    texts:
+      - 2 Kɔrɛŋtiyɛ̧́ri̧
+      - 2Kɔ
+  - osis: Col
+    texts:
+      - Kolosiyɛ̧́ri̧
+      - Kol
+  - osis: Gal
+    texts:
+      - Galátíyɛ̧́ri̧
+      - Gal
+  - osis: Eph
+    texts:
+      - Efɛziyɛ̧́ri̧
+      - Efɛ
+  - osis: Phil
+    texts:
+      - Filípiyɛ̧́ri̧
+      - Flp
+  - osis: 1Thess
+    texts:
+      - 1Tesalonisiyɛ̧́ri̧
+      - 1Te
+  - osis: 2Thess
+    texts:
+      - 2Tesalonisiyɛ̧́ri̧
+      - 2Te
+  - osis: 1Tim
+    texts:
+      - 1Timoté
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Timoté
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Tît
+  - osis: Phlm
+    texts:
+      - Filemɔŋ
+      - Flm
+  - osis: Heb
+    texts:
+      - Hebiréri
+      - Heb
+  - osis: Jas
+    texts:
+      - Ják
+  - osis: 1Pet
+    texts:
+      - 1Píyɛr
+      - 1Pí
+  - osis: 2Pet
+    texts:
+      - 2Píyɛr
+      - 2Pí
+  - osis: Jude
+    texts:
+      - Júde
+      - Jud
+translations:
+  - PNZ

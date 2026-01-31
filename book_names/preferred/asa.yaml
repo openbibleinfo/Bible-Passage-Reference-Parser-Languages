@@ -1,0 +1,68 @@
+default:
+  1Cor:
+    long: 1 Vakorinto
+    short: 1 Kor.
+  1John:
+    long: 1 Yohane
+  1Pet:
+    long: 1 Petro
+    short: 1 Pet.
+  1Thess:
+    long: 1 Vatesalonike
+  1Tim:
+    long: 1 Timoteo
+  2Cor:
+    long: 2 Vakorinto
+    short: 2 Kor.
+  2John:
+    long: 2 Yohane
+  2Pet:
+    long: 2 Petro
+    short: 2 Pet.
+  2Thess:
+    long: 2 Vatesalonike
+  2Tim:
+    long: 2 Timoteo
+  3John:
+    long: 3 Yohane
+  Acts:
+    long: Ndima Ja Ntume
+    short: Ntum.
+  Col:
+    long: Vakolosai
+    short: Kol.
+  Eph:
+    long: VaEfeso
+    short: Efs.
+  Gal:
+    long: Vagalatia
+  Heb:
+    long: Vaebrania
+  Jas:
+    long: Yakobo
+  John:
+    long: Yohane
+    short: Yoh.
+  Jude:
+    long: Yuda
+    short: Yud.
+  Luke:
+    long: Luka
+    short: Luk.
+  Mark:
+    long: Mariko
+    short: Mrk.
+  Matt:
+    long: Matayo
+    short: Mat.
+  Phil:
+    long: Vafilipi
+  Phlm:
+    long: Filemoni
+  Rev:
+    long: Mfunukuro
+  Rom:
+    long: VaRoma
+    short: Var
+  Titus:
+    long: Tito

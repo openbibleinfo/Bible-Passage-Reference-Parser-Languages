@@ -1,0 +1,463 @@
+default:
+  1Chr:
+    long: Kronika I
+    short: 1Kr
+  1Cor:
+    long: 1 Korintotɔwo
+    short: 1Ko
+  1John:
+    long: 1 Yohanes
+    short: 1Yh
+  1Kgs:
+    long: Fiawo I
+    short: 1Fi
+  1Macc:
+    long: 1Makabeowo
+    short: Mak I,
+  1Pet:
+    long: 1 Petro
+    short: 1Pe
+  1Sam:
+    long: Samuel I
+    short: 1Sa
+  1Thess:
+    long: Tesalonikatɔwo I
+    short: 1Te
+  1Tim:
+    long: Timoteo I
+    short: 1Ti
+  2Chr:
+    long: Kronika II
+    short: 2Kr
+  2Cor:
+    long: 2 Korintotɔwo
+    short: 2Ko
+  2John:
+    long: 2 Yohanes
+    short: 2Yh
+  2Kgs:
+    long: Fiawo II
+    short: 2Fi
+  2Macc:
+    long: 2Makabeowo
+    short: Mak II,
+  2Pet:
+    long: 2 Petro
+    short: 2Pe
+  2Sam:
+    long: Samuel II
+    short: 2Sa
+  2Thess:
+    long: Tesalonikatɔwo II
+    short: 2Te
+  2Tim:
+    long: Timoteo II
+    short: 2Ti
+  3John:
+    long: 3 Yohanes
+    short: 3Yh
+  Acts:
+    long: Dɔwɔwɔwo
+    short: Dɔw
+  Amos:
+    long: Amos
+    short: Amos
+  Bar:
+    long: Barux
+    short: Bar
+  Col:
+    long: Kolosetɔwo
+    short: Kol
+  Dan:
+    long: Daniel
+    short: Dan
+  DanGr:
+    long: Daniɛl
+    short: DanGr
+  Deut:
+    long: Mose V
+    short: 5Mo
+  Eccl:
+    long: Nyagblɔla
+    short: Nya
+  Eph:
+    long: Efesotɔwo
+    short: Ef
+  Esth:
+    long: Ester
+    short: Est
+  EsthGr:
+    long: Esta G
+    short: Est G
+  Exod:
+    long: Mose II
+    short: 2Mo
+  Ezek:
+    long: Xezekiel
+    short: Xez
+  Ezra:
+    long: Ezra
+    short: Ezr
+  Gal:
+    long: Galatiatɔwo
+    short: Gal
+  Gen:
+    long: Mose I
+    short: 1Mo
+  Hab:
+    long: Xabakuk
+    short: Xab
+  Hag:
+    long: Xagai
+    short: Xag
+  Heb:
+    long: Hebritɔwo
+    short: Heb
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Yesaya
+    short: Yes
+  Jas:
+    long: Yakobo
+    short: Yak
+  Jdt:
+    long: Yudit
+    short: Yudit
+  Jer:
+    long: Yeremya
+    short: Yer
+  Job:
+    long: Hiob
+    short: Hiob
+  Joel:
+    long: Yoel
+    short: Yoel
+  John:
+    long: Yohanes
+    short: Yoh
+  Jonah:
+    long: Yona
+    short: Yona
+  Josh:
+    long: Yosua
+    short: Yos
+  Jude:
+    long: Yuda
+    short: Yud
+  Judg:
+    long: Ʋɔnudrɔ̃lawo
+    short: Ʋɔn
+  Lam:
+    long: Konyifahawo
+    short: Kon
+  Lev:
+    long: Mose III
+    short: 3Mo
+  Luke:
+    long: Luka
+    short: Luk
+  Mal:
+    long: Maleaxi
+    short: Mal
+  Mark:
+    long: Marko
+    short: Mar
+  Matt:
+    long: Mateo
+    short: Mat
+  Mic:
+    long: Mixa
+    short: MiK
+  Nah:
+    long: Naxum
+    short: Nax
+  Neh:
+    long: Nehemia
+    short: Nex
+  Num:
+    long: Mose IV
+    short: 4Mo
+  Obad:
+    long: Obadya
+    short: Oba
+  Phil:
+    long: Filipitɔwo
+    short: Fil
+  Phlm:
+    long: Filemon
+    short: Filem
+  Prov:
+    long: Lododowo
+    short: Lod
+  Ps:
+    long: Psalmowo
+    short: Ps
+  Rev:
+    long: Nyaɖeɖefia
+    short: Nyaɖ
+  Rom:
+    long: Romatɔwo
+    short: Rom
+  Ruth:
+    long: Rut
+    short: Rut
+  Sir:
+    long: Eklesiastiko
+    short: Sir
+  Song:
+    long: Hawo ƒe ha
+    short: Hawo
+  Titus:
+    long: Tito
+    short: Ti
+  Tob:
+    long: Tobit
+    short: Tob
+  Wis:
+    long: Salomo ƒe Nunya
+    short: Nya
+  Zech:
+    long: Zaxarya
+    short: Zax
+  Zeph:
+    long: Zefanya
+    short: Zef
+translations:
+  ecs:
+    1Chr:
+      long: 1 Kronika
+    1Kgs:
+      long: 1 Fiawo
+    1Sam:
+      long: 1 Samuel
+    1Thess:
+      long: 1 Tesalonikatɔwo
+    1Tim:
+      long: 1 Timoteo
+    2Chr:
+      long: 2 Kronika
+    2Kgs:
+      long: 2 Fiawo
+    2Sam:
+      long: 2 Samuel
+    2Thess:
+      long: 2 Tesalonikatɔwo
+    2Tim:
+      long: 2 Timoteo
+    Amos:
+      short: Amo
+    Deut:
+      long: 5 Mose
+    Eccl:
+      short: Nyg
+    Eph:
+      short: Efe
+    Exod:
+      long: 2 Mose
+    Ezek:
+      long: Hezekiel
+      short: Hez
+    Gen:
+      long: 1 Mose
+    Hab:
+      long: Habakuk
+      short: Hab
+    Hag:
+      long: Hagai
+      short: Hag
+    Jer:
+      long: Yeremia
+    Job:
+      short: Hio
+    Joel:
+      short: Yol
+    John:
+      short: Yh
+    Jonah:
+      short: Yon
+    Lev:
+      long: 3 Mose
+    Mal:
+      long: Malaki
+    Mark:
+      short: Mrk
+    Mic:
+      long: Mika
+    Nah:
+      long: Nahum
+      short: Nah
+    Neh:
+      short: Neh
+    Num:
+      long: 4 Mose
+    Obad:
+      long: Obadia
+    Phlm:
+      short: Flm
+    Ps:
+      short: Psa
+    Rev:
+      short: Nyd
+    Song:
+      long: Hawo
+      short: Haw
+    Titus:
+      short: Tit
+    Zech:
+      long: Zekaria
+      short: Zek
+    Zeph:
+      long: Zefania
+  ewerv:
+    1Chr:
+      short: Kron I
+    1Cor:
+      long: Korintotɔwo I
+      short: Kor I
+    1John:
+      long: Yohanes I
+      short: Yoh I
+    1Kgs:
+      short: Fia I
+    1Pet:
+      long: Petro I
+      short: Pet I
+    1Sam:
+      short: Sam I
+    1Thess:
+      short: Tes I
+    1Tim:
+      short: Tim I
+    2Chr:
+      short: Kron II
+    2Cor:
+      long: Korintotɔwo
+      short: Kor II
+    2John:
+      long: Yohanes II
+      short: Yoh II
+    2Kgs:
+      short: Fia II
+    2Pet:
+      long: Petro II
+      short: Pet II
+    2Sam:
+      short: Sam II
+    2Thess:
+      short: Tes II
+    2Tim:
+      short: Tim II
+    3John:
+      long: Yohanes III
+      short: Yoh III
+    Acts:
+      short: Dɔ
+    Deut:
+      short: Mo V
+    Exod:
+      short: Mo II
+    Gen:
+      short: Mo I
+    Lam:
+      short: Kony
+    Lev:
+      short: Mo III
+    Luke:
+      short: Lu
+    Mic:
+      short: Mixa
+    Neh:
+      long: Nexemya
+    Num:
+      short: Mo IV
+  ebdc14:
+    1Chr:
+      short: Kron I,
+    1Cor:
+      long: Korintotɔwo I,
+      short: Kor I,
+    1John:
+      long: Yohanes ƒe Agbalẽ Gbatɔ̃
+      short: Yoh I,
+    1Kgs:
+      short: Fia I,
+    1Pet:
+      long: Petro ƒe Agbalẽ Gbatɔ̃
+      short: Pet I,
+    1Sam:
+      short: Sam I,
+    1Thess:
+      short: Tes I,
+    1Tim:
+      short: Tim I,
+    2Chr:
+      short: Kron II,
+    2Cor:
+      long: Korintotɔwo II,
+      short: Kor II,
+    2John:
+      long: Yohanes ƒe Agbalẽ Evelia
+      short: Yoh II,
+    2Kgs:
+      short: Fia II,
+    2Pet:
+      long: Petro ƒe Agbalẽ Evelia
+      short: Pet II,
+    2Sam:
+      short: Sam II,
+    2Thess:
+      short: Tes II,
+    2Tim:
+      short: Tim II,
+    3John:
+      long: Yohanes ƒe Agbalẽ Atɔ̃lia
+      short: Yoh III,
+    Acts:
+      long: Amedɔdɔawo ƒe Dɔwɔwɔwo
+    Deut:
+      short: Mos V,
+    Eccl:
+      long: Nyagblɔla Salomo
+      short: Nyagb
+    Eph:
+      short: Efes
+    Exod:
+      short: Mos II,
+    Ezra:
+      long: Ezra ƒe Agbalẽ
+      short: Ezra
+    Gen:
+      short: Mos I,
+    Heb:
+      long: Agbalẽ si woŋlo ɖo ɖe Hebritɔwo
+    Jas:
+      long: Yakobo ƒe Agbalẽ
+    Job:
+      long: Hiob ƒe Agbalẽ
+    Jude:
+      long: Yuda ƒe Agbalẽ
+      short: Yuda
+    Judg:
+      long: Ɖelawo
+      short: Ɖel
+    Lam:
+      short: Konyi
+    Lev:
+      short: Mos III,
+    Mic:
+      short: Mika
+    Neh:
+      long: Nexemya ƒe Agbalẽ
+    Num:
+      short: Mos IV,
+    Phlm:
+      long: Paulo ƒe Agbalẽ si woŋlo ɖo ɖe Filemon
+      short: Film
+    Prov:
+      long: Salomo ƒe Lododowo
+    Rev:
+      long: Nyaɖeɖefia, si woɖe fia Yohanes
+    Titus:
+      short: Tito

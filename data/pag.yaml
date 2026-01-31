@@ -1,0 +1,360 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Genesis
+      - Gen.
+  - osis: Exod
+    texts:
+      - Exodo
+      - Exo.
+  - osis: Bel
+    texts:
+      - Si Bel tan say Dragon
+      - Bel.
+      - Bel
+  - osis: Lev
+    texts:
+      - Levitico
+      - Lev.
+  - osis: Num
+    texts:
+      - Saray Bilang
+      - Bilang
+      - Bil.
+  - osis: Sir
+    texts:
+      - Sirac
+      - Sir.
+  - osis: Wis
+    texts:
+      - Say Kakabatan nen Solomon
+      - Kab. nen S.
+  - osis: Lam
+    texts:
+      - Saray Tagleey
+      - Tag.
+  - osis: EpJer
+    texts:
+      - Say Sulat ni Jeremias
+      - Sul. nen Jer.
+      - Jeremias
+      - Jere.
+  - osis: Rev
+    texts:
+      - Puyan
+      - Puy.
+      - Pu.
+  - osis: Deut
+    texts:
+      - Deuteronomio
+      - Deut.
+  - osis: Josh
+    texts:
+      - Josue
+      - Jos.
+  - osis: Judg
+    texts:
+      - Saray Huis
+      - Huis.
+      - Huis
+  - osis: Ruth
+    texts:
+      - Ruth.
+      - Ruth
+      - Rut
+  - osis: Isa
+    texts:
+      - Isaias
+      - Isa.
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - Sam.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Saray Arari
+      - Ar.
+  - osis: 1Kgs
+    texts:
+      - Saray Arari
+  - osis: 2Kgs
+    texts:
+      - Saray Arari
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Saray Awaran
+      - Awa.
+  - osis: Ezra
+    texts:
+      - Esdras
+      - Esd.
+  - osis: Neh
+    texts:
+      - Nehemias
+      - Neh.
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Saray Salmo
+      - Salmo
+      - Sal.
+  - osis: PrAzar
+    texts:
+      - Say Pikakasi Nen Azarias
+  - osis: Prov
+    texts:
+      - Saray Probirbio
+      - Probirbio
+      - Prob.
+      - Pro.
+  - osis: Eccl
+    texts:
+      - Ecclesiastes
+      - Ecc.
+      - Ec.
+  - osis: SgThree
+    texts:
+      - Say Kanta Da Ray Taloran Lalakin Tobun-balo
+      - Kanta da ray Taloran Lalakin Tobun-balo
+      - Kan. Ta Tob.
+  - osis: Song
+    texts:
+      - Say Kanta Nen Solomon
+      - Kanta nen Solomon
+      - Kan. nen S.
+      - Ka.
+  - osis: Jer
+    texts:
+      - Jeremias
+      - Jer.
+  - osis: Ezek
+    texts:
+      - Ezekiel
+      - Ez.
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan.
+  - osis: Hos
+    texts:
+      - Oseas
+      - Os.
+  - osis: Joel
+    texts:
+      - Joel
+  - osis: Amos
+    texts:
+      - Amos
+      - Am.
+  - osis: Obad
+    texts:
+      - Obadias
+      - Oba.
+  - osis: Jonah
+    texts:
+      - Jonas
+      - Jon.
+  - osis: Mic
+    texts:
+      - Mikias
+      - Mik.
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah.
+  - osis: Hab
+    texts:
+      - Habacuc
+      - Hab.
+  - osis: Zeph
+    texts:
+      - Sofonias
+      - Sof.
+  - osis: Hag
+    texts:
+      - Aggeo
+      - Agg.
+  - osis: Zech
+    texts:
+      - Zacarias
+      - Zac.
+  - osis: Mal
+    texts:
+      - Malakias
+      - Mal.
+  - osis: Matt
+    texts:
+      - Mateo
+      - Mat.
+  - osis: Mark
+    texts:
+      - Marcos
+      - Mar.
+  - osis: Luke
+    texts:
+      - Lucas
+      - Luc.
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Juan
+      - Jn.
+  - osis: Acts
+    texts:
+      - Saray Gawgawa
+      - Gaw.
+  - osis: Rom
+    texts:
+      - Saray Taga Roma
+      - Taga Roma
+      - Rom.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Saray Taga Corinto
+      - Corinto
+      - Cor.
+  - osis: Col
+    texts:
+      - Saray Taga Colosas
+      - Colosas
+      - Col.
+  - osis: Gal
+    texts:
+      - Saray Taga Galacia
+      - Taga Galacia
+      - Gal.
+  - osis: Eph
+    texts:
+      - Saray Taga Efeso
+      - Taga-Efeso
+      - Efe.
+      - Ef.
+  - osis: Phil
+    texts:
+      - Saray Taga Filipos
+      - Filipos
+      - Fil.
+      - Fi.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Saray Taga Tesalonica
+      - Tesalonica
+      - Tes.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+      - Tim.
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filemon
+      - Filem.
+      - Fil.
+  - osis: Heb
+    texts:
+      - Saray Hebreo
+      - Hebreo
+      - Heb.
+  - osis: Jas
+    texts:
+      - Santiago
+      - Sant.
+      - San.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pedro
+      - Ped.
+      - Pe.
+  - osis: Jude
+    texts:
+      - Judas
+      - Jud.
+      - Ju.
+  - osis: Tob
+    texts:
+      - Tobit
+      - Tob.
+  - osis: Jdt
+    texts:
+      - Judit
+      - Jud.
+  - osis: Bar
+    texts:
+      - Baruc
+      - Bar.
+  - osis: Sus
+    texts:
+      - Susana
+      - Sus.
+  - osis: 1Macc
+    texts:
+      - Say Ononan Libro na Saray Macabeo
+  - osis: 2Macc
+    texts:
+      - Say Kumadwan Libro na Saray Macabeo
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+    texts:
+      - Saray Macabeo
+      - Mac.
+  - osis: EsthGr
+    texts:
+      - Ester (Grigo)
+      - Est. (Gr.)
+      - Ester
+      - Es.
+  - osis: Esth
+    texts:
+      - Ester
+      - Est.
+translations:
+  - MBBPAN83
+  - PNPV

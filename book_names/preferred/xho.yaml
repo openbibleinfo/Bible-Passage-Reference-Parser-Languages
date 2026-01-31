@@ -1,0 +1,551 @@
+default:
+  1Chr:
+    long: 1 Yeziganeko
+    short: 1 Gan
+  1Cor:
+    long: 1 Kwabasekorinte
+    short: 1 Kor
+  1John:
+    long: 1 Kayohane
+    short: 1 Yoh
+  1Kgs:
+    long: 1 Yookumkani
+    short: 1 Kum
+  1Pet:
+    long: 1 Kapetros
+    short: 1 Pet
+  1Sam:
+    long: 1 Kasamweli
+    short: 1 Sam
+  1Thess:
+    long: 1 Kwabasetesalonika
+    short: 1 Tes
+  1Tim:
+    long: 1 Kutimoti
+    short: 1 Tim
+  2Chr:
+    long: 2 Yeziganeko
+    short: 2 Gan
+  2Cor:
+    long: 2 Kwabasekorinte
+    short: 2 Kor
+  2John:
+    long: 2 Kayohane
+    short: 2 Yoh
+  2Kgs:
+    long: 2 Yookumkani
+    short: 2 Kum
+  2Pet:
+    long: 2 Kapetros
+    short: 2 Pet
+  2Sam:
+    long: 2 Kasamweli
+    short: 2 Sam
+  2Thess:
+    long: 2 Kwabasetesalonika
+    short: 2 Tes
+  2Tim:
+    long: 2 Kutimoti
+    short: 2 Tim
+  3John:
+    long: 3 Kayohane
+    short: 3 Yoh
+  Acts:
+    long: IzEnzo
+    short: IzEnzo
+  Amos:
+    long: uAmosi
+    short: Amos
+  Col:
+    long: KwabaseKolose
+    short: Kol
+  Dan:
+    long: uDaniyeli
+    short: Dan
+  Deut:
+    long: iDuteronomi
+    short: Duteronomi
+  Eccl:
+    long: iNtshumayeli
+    short: Mava
+  Eph:
+    long: Kwabase-Efese
+    short: Efese
+  Esth:
+    long: uEstere
+    short: Esetere
+  Exod:
+    long: iEksodus
+    short: Kesodusi
+  Ezek:
+    long: uHezekile
+    short: Hez
+  Ezra:
+    long: uEzra
+    short: Ezera
+  Gal:
+    long: KumaGalati
+    short: Gal
+  Gen:
+    long: iGenesis
+    short: Genesise
+  Hab:
+    long: uHabhakuki
+    short: Habakuke
+  Hag:
+    long: uHagayi
+    short: Hag
+  Heb:
+    long: KumaHebhere
+    short: Hebere
+  Hos:
+    long: uHoseya
+    short: Hos
+  Isa:
+    long: uIsaya
+    short: Isaya
+  Jas:
+    long: Ekayakobi
+    short: Yak
+  Jer:
+    long: uYeremiya
+    short: Jer
+  Job:
+    long: uYobhi
+    short: Jobi
+  Joel:
+    long: uYoweli
+    short: Jow
+  John:
+    long: uYohane
+    short: Johane
+  Jonah:
+    long: uYona
+    short: Jona
+  Josh:
+    long: uYoshuwa
+    short: Yosh
+  Jude:
+    long: EkaYuda
+    short: Juda
+  Judg:
+    long: Abagwebi
+    short: Abagwebi
+  Lam:
+    long: iZililo
+    short: iZililo
+  Lev:
+    long: iLevitikus
+    short: Levitikusi
+  Luke:
+    long: uLuka
+    short: Luka
+  Mal:
+    long: uMalaki
+    short: Mal
+  Mark:
+    long: uMarko
+    short: Maraki
+  Matt:
+    long: uMateyu
+    short: Mat
+  Mic:
+    long: uMika
+    short: Mika
+  Nah:
+    long: uNahum
+    short: Nah
+  Neh:
+    long: uNehemiya
+    short: Neh
+  Num:
+    long: iNumeri
+    short: Imibalo
+  Obad:
+    long: uObhadiya
+    short: Hobadiya
+  Phil:
+    long: KwabaseFilipi
+    short: Filipi
+  Phlm:
+    long: KuFilemon
+    short: Filemone
+  Prov:
+    long: iMizekeliso
+    short: ImiZek.
+  Ps:
+    long: Iindumiso
+    short: Amaculo
+  Rev:
+    long: Isityhilelo
+    short: Isityilo
+  Rom:
+    long: KwabaseRoma
+    short: Roma
+  Ruth:
+    long: uRute
+    short: Rute
+  Song:
+    long: iNgoma yazo iiNgoma
+    short: Ingoma
+  Titus:
+    long: KuTito
+    short: Tito
+  Zech:
+    long: uZekariya
+    short: Uzek.
+  Zeph:
+    long: uZefaniya
+    short: Tsefaniya
+translations:
+  xho1902a:
+    1Chr:
+      long: Eyokuqala yezikronike
+      short: I. Yezikronike
+    1Cor:
+      long: Eyokuqala incwadi ka‐Paulusi kuma‐Korinte
+      short: I. Korinte
+    1John:
+      long: Eyokuqala incwadi ka‐Johane
+      short: I. Johane
+    1Kgs:
+      long: Eyokuqala yokumkani
+      short: I. Yokumkani
+    1Pet:
+      long: Eyokuqala incwadi ka‐Petrosi
+      short: I. Petrosi
+    1Sam:
+      long: Eyokuqala ka‐Samyali
+      short: I. Samyali
+    1Thess:
+      long: Eyokuqala incwadi ka‐Paulusi kuma‐Tesalonika
+      short: I. Tesalonika
+    1Tim:
+      long: Eyokuqala incwadi ka‐Paulusi ku‐Timote
+      short: I. Timote
+    2Chr:
+      long: Eyesibini yezikronike
+      short: II. Yezikronike
+    2Cor:
+      long: Eyesibini incwadi ka‐Paulusi kuma‐Korinte
+      short: II. Korinte
+    2John:
+      long: Eyesibini incwadi ka‐Johane
+      short: II. Johane
+    2Kgs:
+      long: Eyesibini yokumkani
+      short: II. Yokumkani
+    2Pet:
+      long: Eyesibini incwadi ka‐Petrosi
+      short: II. Petrosi
+    2Sam:
+      long: Eyesibini ka‐Samyali
+      short: II. Samyali
+    2Thess:
+      long: Eyesibini incwadi ka‐Paulusi kuma‐Tesalonika
+      short: II. Tesalonika
+    2Tim:
+      long: Eyesibini incwadi ka‐Paulusi ku‐Timote
+      short: II. Timote
+    3John:
+      long: Eyesitatu incwadi ka‐Johane
+      short: III. Johane
+    Acts:
+      long: Izenzo zabapostile
+    Amos:
+      long: U‐Hamose
+      short: Hamose
+    Col:
+      long: Incwadi ka‐Paulusi kuma‐Kolose
+      short: Kolose
+    Dan:
+      long: U‐Danyeli
+      short: Danyeli
+    Deut:
+      long: I‐Duteronomi
+    Eccl:
+      long: UmShumayeli
+      short: UmShumayeli
+    Eph:
+      long: Incwadi ka‐Paulusi kuma‐Efese
+    Esth:
+      long: U‐Esetere
+    Exod:
+      long: I‐Kesodusi
+    Ezek:
+      long: U‐Hezekile
+      short: Hezekile
+    Ezra:
+      long: U‐Ezera
+    Gal:
+      long: Incwadi ka‐Paulusi kuma‐Galati
+      short: Galati
+    Gen:
+      long: I‐Genesise
+    Hab:
+      long: U‐Habakuke
+    Hag:
+      long: U‐Hagai
+      short: Hagai
+    Heb:
+      long: Incwadi ka‐Paulusi kuma‐Hebere
+    Hos:
+      long: U‐Hosheha
+      short: Hosheha
+    Isa:
+      long: U‐Yisaya
+      short: Yisaya
+    Jas:
+      long: Incwadi ka‐Yakobi
+      short: Yakobi
+    Jer:
+      long: U‐Jeremiya
+      short: Jeremiya
+    Job:
+      long: U‐Jobi
+    Joel:
+      long: U‐Joweli
+      short: Joweli
+    John:
+      long: Ivangeli ka‐Johane
+    Jonah:
+      long: U‐Jona
+    Josh:
+      long: U‐Yoshuwa
+      short: Yoshuwa
+    Jude:
+      long: Incwadi ka‐Jude
+      short: Jude
+    Lev:
+      long: I‐Levitikusi
+    Luke:
+      long: Ivangeli ka‐Luke
+      short: Luke
+    Mal:
+      long: U‐Malaki
+      short: Malaki
+    Mark:
+      long: Ivangeli ka‐Maraki
+    Matt:
+      long: Ivangeli ka‐Mateyu
+      short: Mateyu
+    Mic:
+      long: U‐Mika
+    Nah:
+      long: U‐Nahume
+      short: Nahume
+    Neh:
+      long: U‐Nehemiya
+      short: Nehemiya
+    Num:
+      long: Imibalo
+    Obad:
+      long: U‐Hobadiya
+    Phil:
+      long: Incwadi ka‐Paulusi kuma‐Filipi
+    Phlm:
+      long: Incwadi ka‐Paulusi ku‐Filemone
+    Prov:
+      short: iMizekeliso
+    Ps:
+      long: Amaculo
+    Rev:
+      long: Isityilo sika‐Johane
+    Rom:
+      long: Incwadi ka‐Paulusi kuma‐Roma
+    Ruth:
+      long: U‐Rute
+    Song:
+      long: Ingoma ka‐Solomone
+    Titus:
+      long: Incwadi ka‐Paulusi ku‐Titusi
+      short: Titusi
+    Zech:
+      long: U‐Zekariya
+      short: Zekariya
+    Zeph:
+      long: U‐Tsefaniya
+  xho75:
+    1Chr:
+      long: Izikronike I
+    1Cor:
+      long: Kwabasekorinte I
+      short: kwabaseKor. I
+    1John:
+      long: Kayohane I
+    1Kgs:
+      long: Ookumkani I
+    1Pet:
+      long: Kapetros I
+    1Sam:
+      long: Usamuweli I
+    1Thess:
+      long: kwabaseTesalonika I
+      short: kwabaseTesalonika I
+    1Tim:
+      long: Kutimoti I
+    2Chr:
+      long: Izikronike II
+    2Cor:
+      long: Kwabasekorinte II
+    2John:
+      long: Kayohane II
+    2Kgs:
+      long: Ookumkani II
+    2Pet:
+      long: Kapetros II
+    2Sam:
+      long: Usamuweli II
+      short: Usam. II
+    2Thess:
+      long: Kwabasetesalonika II
+    2Tim:
+      long: Kutimoti II
+    3John:
+      long: Kayohane III
+    Amos:
+      short: Uam.
+    Dan:
+      short: uDaniyeli
+    Deut:
+      short: Idut.
+    Exod:
+      short: iEksodus
+    Hab:
+      short: Uhabh.
+    Hos:
+      short: Uhos.
+    Isa:
+      short: uIsaya
+    Jer:
+      short: Uyer.
+    Joel:
+      short: Uyow.
+    John:
+      short: Uyoh.
+    Luke:
+      short: uLuka
+    Mal:
+      short: Umal.
+    Mark:
+      short: uMarko
+    Matt:
+      short: Umat.
+    Mic:
+      short: uMika
+    Ps:
+      short: Indum.
+  cxb24:
+    1Chr:
+      long: IziKronike 1
+    1Cor:
+      long: KwabaseKorinte 1
+    1John:
+      long: KaYohane 1
+    1Kgs:
+      long: OOKumkani 1
+    1Pet:
+      long: KaPetros 1
+    1Sam:
+      long: uSamuweli 1
+    1Thess:
+      long: KwabaseTesalonika 1
+    1Tim:
+      long: KuTimoti 1
+    2Chr:
+      long: IziKronike 2
+    2Cor:
+      long: KwabaseKorinte 2
+    2John:
+      long: KaYohane 2
+    2Kgs:
+      long: OOKumkani 2
+    2Pet:
+      long: KaPetros 2
+    2Sam:
+      long: uSamuweli 2
+    2Thess:
+      long: KwabaseTesalonika 2
+    2Tim:
+      long: KuTimoti 2
+    3John:
+      long: KaYohane 3
+    Jas:
+      long: EkaJakobi
+    Rev:
+      long: IsiThyilelo
+  xho96:
+    Acts:
+      long: Umsebenzi Wabathunywa
+      short: Mseb
+    Amos:
+      long: Uamos
+    Deut:
+      long: Uhlaziyo-mnqophiso
+      short: Hlaz
+    Eccl:
+      long: Amava Engqondi
+    Esth:
+      short: Est
+    Exod:
+      long: Eyemfuduko
+      short: Mfud
+    Ezra:
+      short: Ezra
+    Gen:
+      long: Eyeziqalo
+      short: ZiQalo
+    Hab:
+      short: Habh
+    Heb:
+      short: Hebh
+    Hos:
+      long: Uhosiya
+    Jer:
+      long: Ujeremiya
+    Job:
+      long: Uyobi
+      short: Yobi
+    Joel:
+      long: Ujoweli
+    John:
+      short: Yoh
+    Jonah:
+      long: uJona
+    Jude:
+      long: EkaJuda
+    Judg:
+      long: Iinkokheli
+      short: Nkokh
+    Lam:
+      short: ziLilo
+    Lev:
+      long: Eyonqulo
+      short: Nqulo
+    Mark:
+      short: Marko
+    Matt:
+      long: Umatewu
+    Num:
+      long: Eyasentlango
+      short: Ntlango
+    Obad:
+      short: Obhad
+    Phlm:
+      long: Kufilmon
+      short: Filmon
+    Prov:
+      long: Izafobe
+      short: Zaf
+    Ps:
+      short: Ndum
+    Rev:
+      short: SiTyh
+    Song:
+      long: Uncuthu Lwengoma
+      short: Ngoma
+    Zech:
+      long: Uzakariya
+      short: Zakar
+    Zeph:
+      short: Zefan

@@ -1,0 +1,58 @@
+variables:
+  first: &first
+    - Age
+  second: &second
+    - Agedu
+  third: &third
+    - Osoda
+books:
+  - osis: Ruth
+    texts:
+      - Uludi
+  - osis: Matt
+    texts:
+      - Madiu
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yone
+  - osis: Acts
+    texts:
+      - Abosolo
+  - osis: Col
+    texts:
+      - Golosi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Desalonaiga
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Dimodi
+  - osis: Titus
+    texts:
+      - Daidasa
+  - osis: Phlm
+    texts:
+      - Filimono
+  - osis: Jas
+    texts:
+      - Yamese
+  - osis: Jude
+    texts:
+      - Yudi
+translations:
+  - ETR

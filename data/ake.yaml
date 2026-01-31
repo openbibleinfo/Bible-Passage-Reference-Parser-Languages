@@ -1,0 +1,140 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Isenpoikasaꞌ
+      - Isen
+  - osis: Matt
+    texts:
+      - Maꞌsiu
+      - Ms
+  - osis: Mark
+    texts:
+      - Maꞌ
+      - Ma
+  - osis: Luke
+    texts:
+      - Ʉruꞌ
+      - Ʉr
+  - osis: 1John
+    texts:
+      - 1Ise
+  - osis: 2John
+    texts:
+      - 2Ise
+  - osis: 3John
+    texts:
+      - 3 Isaan
+      - 3Isa
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Isaan
+  - osis: John
+    texts:
+      - Isaan
+      - Isa
+  - osis: Acts
+    texts:
+      - Inkupʉꞌpʉ
+      - Ink
+  - osis: Rom
+    texts:
+      - Ron
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Koren
+  - osis: 1Cor
+    texts:
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - 2Ko
+  - osis: Col
+    texts:
+      - Koroꞌse
+      - Kor
+  - osis: Gal
+    texts:
+      - Kareꞌsiya
+      - Kar
+  - osis: Eph
+    texts:
+      - Eꞌpeꞌsas
+      - Ep
+  - osis: Phil
+    texts:
+      - Piriꞌpai
+      - Pir
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaroniꞌka
+  - osis: 1Thess
+    texts:
+      - 1Ts
+  - osis: 2Thess
+    texts:
+      - 2Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Temuꞌti
+  - osis: 1Tim
+    texts:
+      - 1Tm
+  - osis: 2Tim
+    texts:
+      - 2Tm
+  - osis: Titus
+    texts:
+      - Taiꞌtas
+      - Tai
+  - osis: Phlm
+    texts:
+      - Pairiman
+      - Pair
+  - osis: Heb
+    texts:
+      - Ipuru
+      - Ipu
+  - osis: Jas
+    texts:
+      - Isens
+      - Is
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piꞌta
+  - osis: 1Pet
+    texts:
+      - 1Pi
+  - osis: 2Pet
+    texts:
+      - 2Pi
+  - osis: Jude
+    texts:
+      - Isutʉ
+      - Isu
+translations:
+  - AKE

@@ -1,0 +1,104 @@
+variables:
+  first: &first
+    - I.
+  second: &second
+    - II.
+books:
+  - osis: Gen
+    texts:
+      - Kenesis
+  - osis: Rev
+    texts:
+      - Reveleson
+  - osis: Ruth
+    texts:
+      - Ruth
+  - osis: Matt
+    texts:
+      - Matiyu
+  - osis: Mark
+    texts:
+      - Mark
+  - osis: Luke
+    texts:
+      - Luk
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - Yoane.
+  - osis: 3John
+    texts:
+      - III. Yoane
+  - osis:
+      - osis: John
+      - osis: 2John
+        before: *second
+    texts:
+      - Yoane
+  - osis: Acts
+    texts:
+      - Ovun Apostol
+  - osis: Rom
+    texts:
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korint
+  - osis: Col
+    texts:
+      - Kolose
+  - osis: Gal
+    texts:
+      - Kalesia
+  - osis: Eph
+    texts:
+      - Efesus
+  - osis: Phil
+    texts:
+      - Filipi
+  - osis: 2Thess
+    texts:
+      - 2 Teselonia
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Teselonia
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+  - osis: Titus
+    texts:
+      - Tītus
+  - osis: Phlm
+    texts:
+      - Filimon
+  - osis: Heb
+    texts:
+      - Hibru
+  - osis: Jas
+    texts:
+      - Yacobo
+      - Yakobo
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piter
+  - osis: Jude
+    texts:
+      - Jūd
+translations:
+  - ERGOT
+  - ERGNT79

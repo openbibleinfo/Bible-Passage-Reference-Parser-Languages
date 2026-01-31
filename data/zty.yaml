@@ -1,0 +1,117 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Apokalipsis
+      - Ap.
+  - osis: Ps
+    texts:
+      - Salmos
+      - Sal.
+  - osis: Matt
+    texts:
+      - Matío
+      - Mt.
+  - osis: Mark
+    texts:
+      - Markos
+      - Mr.
+  - osis: Luke
+    texts:
+      - Lukas
+      - Lk.
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jn.
+      - Ẕwa
+  - osis: Acts
+    texts:
+      - Hechos
+      - Hch.
+  - osis: Rom
+    texts:
+      - Romanos
+      - Ro.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corintios
+      - Co.
+  - osis: Col
+    texts:
+      - Colosenses
+      - Col.
+  - osis: Gal
+    texts:
+      - Gálatas
+      - Gá.
+  - osis: Eph
+    texts:
+      - Efesios
+      - Ef.
+  - osis: Phil
+    texts:
+      - Filipenses
+      - Fil.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonisenses
+      - Ts.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+      - Ti.
+  - osis: Titus
+    texts:
+      - Tit.
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filemón
+      - Flm.
+  - osis: Heb
+    texts:
+      - Hebreos
+      - He.
+  - osis: Jas
+    texts:
+      - Stg.
+      - Žedw
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Bedw
+      - P.
+  - osis: Jude
+    texts:
+      - Judas
+      - Jud.
+translations:
+  - ZTY

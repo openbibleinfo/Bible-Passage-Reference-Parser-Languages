@@ -1,0 +1,360 @@
+- osis: Gen
+  texts:
+    - Kalate Metataʼa
+    - Met
+- osis: Exod
+  texts:
+    - Nkôlan
+    - Nk
+- osis: Bel
+  texts:
+    - Bel A Nyo
+- osis: Lev
+  texts:
+    - Levitik
+    - Lv.
+    - Lv
+- osis: Num
+  texts:
+    - Nlañane Bôt
+    - Nb.
+    - Nlb
+- osis: Sir
+  texts:
+    - Sir
+- osis: Wis
+  texts:
+    - Fek
+- osis: Lam
+  texts:
+    - Minyôn
+    - Miny
+    - Min
+- osis: EpJer
+  texts:
+    - Lyer
+- osis: Rev
+  texts:
+    - Nlitan
+    - Nli
+- osis: Deut
+  texts:
+    - Deuteronome
+    - Dt.
+    - Dt
+- osis: Josh
+  texts:
+    - Yasua
+    - Yas.
+    - Yas
+- osis: Judg
+  texts:
+    - Betyiʼi Mejô
+    - Bm
+- osis: Ruth
+  texts:
+    - Rut
+    - Rt
+- osis: Isa
+  texts:
+    - Ezayi
+    - Eza
+- osis: 1Sam
+  texts:
+    - 1 S
+    - 1. S
+- osis: 2Sam
+  texts:
+    - 2 S
+    - 2. S
+- osis: 1Sam
+  texts:
+    - Samuel Ôsu
+- osis: 2Sam
+  texts:
+    - Samuel Baa
+- osis: 1Kgs
+  texts:
+    - 1 Bb.
+    - 1 Bb
+    - 1. Bb.
+    - 1. Bb
+- osis: 2Kgs
+  texts:
+    - 2 Bb.
+    - 2 Bb
+    - 2. Bb.
+    - 2. Bb
+- osis: 1Kgs
+  texts:
+    - Bejô Bôt Ôsu
+- osis: 2Kgs
+  texts:
+    - Bejô Bôte Baa
+- osis: 1Chr
+  texts:
+    - 1 Minkte
+    - 1. Minkte
+- osis: 2Chr
+  texts:
+    - 2 Minkte
+    - 2. Minkte
+- osis: 1Chr
+  texts:
+    - Minkañete Ôsu
+- osis: 2Chr
+  texts:
+    - Minkañete Baa
+- osis: Ezra
+  texts:
+    - Esdras
+    - Esd
+- osis: Neh
+  texts:
+    - Nehemie
+    - Neh
+    - Né
+- osis: Esth
+  texts:
+    - Esthe
+    - Est
+- osis: Job
+  texts:
+    - Yob
+    - Yb
+- osis: Ps
+  texts:
+    - Besam
+    - Sam
+- osis: Prov
+  texts:
+    - Minkana
+    - Mink
+- osis: Eccl
+  texts:
+    - Ekleziaste
+    - Ekl
+- osis: Song
+  texts:
+    - Jia Ja Dañ Abeñ
+    - So
+- osis: Jer
+  texts:
+    - Yeremia
+    - Yer
+- osis: Ezek
+  texts:
+    - Ezekiel
+    - Eze
+- osis: Dan
+  texts:
+    - Daniel
+    - Dn
+- osis: Hos
+  texts:
+    - Oze
+    - Oz
+- osis: Joel
+  texts:
+    - Yoel
+    - Yo
+- osis: Amos
+  texts:
+    - Amôs
+    - Am
+- osis: Obad
+  texts:
+    - Abdias
+    - Abd
+- osis: Jonah
+  texts:
+    - Yona
+    - Yon
+- osis: Mic
+  texts:
+    - Miké
+    - MiK
+- osis: Nah
+  texts:
+    - Nahum
+    - Nah
+- osis: Hab
+  texts:
+    - Habakuk
+    - Ha
+- osis: Zeph
+  texts:
+    - Sofoni
+    - Sof
+- osis: Hag
+  texts:
+    - Agé
+    - Ag
+- osis: Zech
+  texts:
+    - Zakari
+    - Zak
+- osis: Mal
+  texts:
+    - Malaki
+    - Mal
+- osis: Matt
+  texts:
+    - Metias
+    - Mt
+- osis: Mark
+  texts:
+    - Markus
+    - Mk
+- osis: Luke
+  texts:
+    - Lukas
+    - Lk
+- osis: 1John
+  texts:
+    - Jean Ôsu
+- osis: 2John
+  texts:
+    - Jean Baa
+- osis: 3John
+  texts:
+    - Jean Lale
+    - 3 Jn
+- osis: 1John
+  texts:
+    - 1 Jn
+    - 1. Jn
+- osis: 2John
+  texts:
+    - 2 Jn
+    - 2. Jn
+- osis: John
+  texts:
+    - Yoanes
+    - Yoa
+- osis: Acts
+  texts:
+    - Mimboone Minlôman
+    - Mm
+- osis: Rom
+  texts:
+    - Berômeñ
+    - Rm
+- osis: 1Cor
+  texts:
+    - 1 Ko
+    - 1. Ko
+- osis: 2Cor
+  texts:
+    - 2 Ko
+    - 2. Ko
+- osis: 1Cor
+  texts:
+    - Koréñt Ôsu
+- osis: 2Cor
+  texts:
+    - Koréñt Baa
+- osis: Col
+  texts:
+    - Kôlôs
+    - Kôl
+- osis: Gal
+  texts:
+    - Galati
+    - Ga
+- osis: Eph
+  texts:
+    - Efeze
+    - Ef
+- osis: Phil
+  texts:
+    - Filip
+    - Fil
+- osis: 1Thess
+  texts:
+    - 1 Tes
+    - 1. Tes
+- osis: 2Thess
+  texts:
+    - 2 Tes
+    - 2. Tes
+- osis: 1Thess
+  texts:
+    - Tésalonik Ôsu
+- osis: 2Thess
+  texts:
+    - Tésalonik Baa
+- osis: 1Tim
+  texts:
+    - 1 Tim
+    - 1. Tim
+- osis: 2Tim
+  texts:
+    - 2 Tim
+    - 2. Tim
+- osis: 1Tim
+  texts:
+    - Timôté Ôsu
+- osis: 2Tim
+  texts:
+    - Timôté Baa
+- osis: Titus
+  texts:
+    - Tite
+    - Tt
+- osis: Phlm
+  texts:
+    - Filemoñ
+    - Film
+- osis: Heb
+  texts:
+    - Hébre
+    - Hé
+- osis: Jas
+  texts:
+    - Yakob
+    - Yak
+- osis: 1Pet
+  texts:
+    - 1 Pi
+    - 1. Pi
+- osis: 2Pet
+  texts:
+    - 2 Pi
+    - 2. Pi
+- osis: 1Pet
+  texts:
+    - Pierre Ôsu
+- osis: 2Pet
+  texts:
+    - Pierre Baa
+- osis: Jude
+  texts:
+    - Yude
+    - Yud
+- osis: Tob
+  texts:
+    - Tob
+- osis: Jdt
+  texts:
+    - Yd
+- osis: Bar
+  texts:
+    - Bak
+- osis: Sus
+  texts:
+    - Suzane
+- osis: 1Macc
+  texts:
+    - 1 Mak
+    - 1. Mak
+- osis: 2Macc
+  texts:
+    - 2 Mak
+    - 2. Mak
+- osis: DanGr
+  texts:
+    - Dagr
+- osis: EsthGr
+  texts:
+    - EstG

@@ -1,0 +1,345 @@
+- osis: Gen
+  texts:
+    - Zenez
+    - Zen
+- osis: Exod
+  texts:
+    - Egzod
+    - Egz
+- osis: Bel
+  texts:
+    - Bel ek Dragon
+    - Bel
+- osis: Lev
+  texts:
+    - Levitik
+    - Lev
+- osis: Num
+  texts:
+    - Nonm
+    - Nm
+- osis: Sir
+  texts:
+    - Sirasid
+    - Sir
+- osis: Wis
+  texts:
+    - Lasazes
+    - Las
+- osis: Lam
+  texts:
+    - Lamantasyon
+    - Lm
+- osis: EpJer
+  texts:
+    - Let Zereremi
+    - Lt Zer
+- osis: Rev
+  texts:
+    - Revelasyon
+    - Rev
+- osis: Deut
+  texts:
+    - Deterononm
+    - Det
+- osis: Josh
+  texts:
+    - Zozye
+    - Zo
+- osis: Judg
+  texts:
+    - Ziz
+- osis: Ruth
+  texts:
+    - Rit
+    - Rt
+- osis: Isa
+  texts:
+    - Ezai
+    - Eza
+- osis: 1Sam
+  texts:
+    - 1 Samyel
+    - 1 Sa
+    - 1. Samyel
+    - 1. Sa
+- osis: 2Sam
+  texts:
+    - 2 Samyel
+    - 2 Sa
+    - 2. Samyel
+    - 2. Sa
+- osis: 1Kgs
+  texts:
+    - 1 Rwa
+    - 1. Rwa
+- osis: 2Kgs
+  texts:
+    - 2 Rwa
+    - 2. Rwa
+- osis: 1Chr
+  texts:
+    - 1 Kronik
+    - 1 Kro
+    - 1. Kronik
+    - 1. Kro
+- osis: 2Chr
+  texts:
+    - 2 Kronik
+    - 2 Kro
+    - 2. Kronik
+    - 2. Kro
+- osis: Ezra
+  texts:
+    - Esdras
+    - Esd
+- osis: Neh
+  texts:
+    - Nehemi
+    - Neh
+- osis: Job
+  texts:
+    - Zob
+    - Zb
+- osis: Ps
+  texts:
+    - Psonm
+    - Ps
+- osis: Prov
+  texts:
+    - Proverb
+    - Pro
+- osis: Eccl
+  texts:
+    - Eklezyas
+    - Ekl
+- osis: SgThree
+  texts:
+    - Kantik Trwa Zennzan
+    - Kt 3 Zenn
+- osis: Song
+  texts:
+    - Kantik Salomon
+    - Kt
+- osis: Jer
+  texts:
+    - Zeremi
+    - Zer
+- osis: Ezek
+  texts:
+    - Ezekyel
+    - Ezk
+- osis: Dan
+  texts:
+    - Danyel
+    - Dan
+- osis: Hos
+  texts:
+    - Oze
+    - Oz
+- osis: Joel
+  texts:
+    - Zoel
+    - Zl
+- osis: Amos
+  texts:
+    - Amos
+    - Am
+- osis: Obad
+  texts:
+    - Abdyas
+    - Abd
+- osis: Jonah
+  texts:
+    - Zonas
+    - Zon
+- osis: Mic
+  texts:
+    - Mise
+    - Mi
+- osis: Nah
+  texts:
+    - Nahoum
+    - Nah
+- osis: Hab
+  texts:
+    - Habakouk
+    - Hab
+- osis: Zeph
+  texts:
+    - Sofoni
+    - Sof
+- osis: Hag
+  texts:
+    - Agze
+    - Ag
+- osis: Zech
+  texts:
+    - Zakari
+    - Za
+- osis: Mal
+  texts:
+    - Malasi
+    - Ml
+- osis: Matt
+  texts:
+    - Matye
+    - Mat
+- osis: Mark
+  texts:
+    - Mark
+    - Mrk
+- osis: Luke
+  texts:
+    - Lik
+    - Lk
+- osis: 1John
+  texts:
+    - 1 Zan
+    - 1 Zn
+    - 1. Zan
+    - 1. Zn
+- osis: 2John
+  texts:
+    - 2 Zan
+    - 2 Zn
+    - 2. Zan
+    - 2. Zn
+- osis: 3John
+  texts:
+    - 3 Zan
+    - 3 Zn
+    - 3. Zan
+    - 3. Zn
+- osis: John
+  texts:
+    - Zan
+    - Zn
+- osis: Acts
+  texts:
+    - Akt de Zapot
+    - Akt
+- osis: Rom
+  texts:
+    - Romen
+    - Rom
+- osis: 1Cor
+  texts:
+    - 1 Korentyen
+    - 1 Kor
+    - 1. Korentyen
+    - 1. Kor
+- osis: 2Cor
+  texts:
+    - 2 Korentyen
+    - 2 Kor
+    - 2. Korentyen
+    - 2. Kor
+- osis: Col
+  texts:
+    - Kolosyen
+    - Kol
+- osis: Gal
+  texts:
+    - Galat
+    - Gal
+- osis: Eph
+  texts:
+    - Efezyen
+    - Ef
+- osis: Phil
+  texts:
+    - Filipyen
+    - Flp
+- osis: 1Thess
+  texts:
+    - 1 Tesalonisyen
+    - 1 Tes
+    - 1. Tesalonisyen
+    - 1. Tes
+- osis: 2Thess
+  texts:
+    - 2 Tesalonisyen
+    - 2 Tes
+    - 2. Tesalonisyen
+    - 2. Tes
+- osis: 1Tim
+  texts:
+    - 1 Timote
+    - 1 Tim
+    - 1. Timote
+    - 1. Tim
+- osis: 2Tim
+  texts:
+    - 2 Timote
+    - 2 Tim
+    - 2. Timote
+    - 2. Tim
+- osis: Titus
+  texts:
+    - Tit
+    - Tt
+- osis: Phlm
+  texts:
+    - Filemon
+    - Flm
+- osis: Heb
+  texts:
+    - Ebre
+    - Eb
+- osis: Jas
+  texts:
+    - Zak
+    - Zk
+- osis: 1Pet
+  texts:
+    - 1 Pyer
+    - 1 Pr
+    - 1. Pyer
+    - 1. Pr
+- osis: 2Pet
+  texts:
+    - 2 Pyer
+    - 2 Pr
+    - 2. Pyer
+    - 2. Pr
+- osis: Jude
+  texts:
+    - Zid
+    - Zd
+- osis: Tob
+  texts:
+    - Tobi
+    - Tb
+- osis: Jdt
+  texts:
+    - Zidit
+    - Zdt
+- osis: Bar
+  texts:
+    - Barouk
+    - Bar
+- osis: Sus
+  texts:
+    - Sizann
+    - Siz
+- osis: 1Macc
+  texts:
+    - 1 Makabe
+    - 1 Mak
+    - 1. Makabe
+    - 1. Mak
+- osis: 2Macc
+  texts:
+    - 2 Makabe
+    - 2 Mak
+    - 2. Makabe
+    - 2. Mak
+- osis: EsthGr
+  texts:
+    - Ester Grek
+    - Est Grek
+- osis: Esth
+  texts:
+    - Ester
+    - Est

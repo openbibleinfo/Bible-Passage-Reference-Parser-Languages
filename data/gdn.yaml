@@ -1,0 +1,113 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Matatapupu
+      - Mata
+  - osis: Matt
+    texts:
+      - Mateyu
+      - Mat
+  - osis: Mark
+    texts:
+      - Maki
+      - Mak
+  - osis: Luke
+    texts:
+      - Ruki
+      - Ruk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Diyoni
+      - Diyn
+  - osis: Acts
+    texts:
+      - Bususu
+      - Bus
+  - osis: Rom
+    texts:
+      - Roumi
+      - Rou
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korini
+      - Kor
+  - osis: Col
+    texts:
+      - Korosiya
+      - Kor
+  - osis: Gal
+    texts:
+      - Garasiya
+      - Gar
+  - osis: Eph
+    texts:
+      - Epeso
+      - Ep
+  - osis: Phil
+    texts:
+      - Piripai
+      - Pir
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaronika
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Simosi
+      - Sim
+  - osis: Titus
+    texts:
+      - Taitos
+      - Tai
+  - osis: Phlm
+    texts:
+      - Paerimoni
+      - Pae
+  - osis: Heb
+    texts:
+      - Iburu
+      - Ibu
+  - osis: Jas
+    texts:
+      - Diyemesi
+      - Diy
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+      - Pit
+  - osis: Jude
+    texts:
+      - Diyudi
+      - Diyd
+translations:
+  - GDN

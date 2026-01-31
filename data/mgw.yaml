@@ -1,0 +1,70 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Matt
+    texts:
+      - Matei
+      - Mat
+  - osis: Mark
+    texts:
+      - Maluko
+      - Mal
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis: John
+    texts:
+      - Yoani
+      - Yoa
+  - osis: Acts
+    texts:
+      - Makowe
+      - Mako
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Akolinto
+  - osis: 1Cor
+    texts:
+      - 1Kol
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Atesalonike
+  - osis: 1Thess
+    texts:
+      - 1Tes
+  - osis: 2Thess
+    texts:
+      - 2Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemoni
+      - Fil
+translations:
+  - MATUMBI

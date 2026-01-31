@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 বংশা
+    short: 1 বংশা
+  1Cor:
+    long: 1 কৰি
+    short: 1কৰি
+  1John:
+    long: 1 যোহন
+    short: 1যো
+  1Kgs:
+    long: 1 ৰাজা
+    short: 1ৰাজা
+  1Pet:
+    long: 1 পিতৰ
+    short: 1পিত
+  1Sam:
+    long: 1 চমূ
+    short: 1চমূ
+  1Thess:
+    long: 1 থিচলনীকীয়া
+    short: 1থিচ
+  1Tim:
+    long: 1 তীমথিয়
+    short: 1তীম
+  2Chr:
+    long: 2 বংশা
+    short: 2বংশা
+  2Cor:
+    long: 2 কৰি
+    short: 2কৰি
+  2John:
+    long: 2 যোহন
+    short: 2যো
+  2Kgs:
+    long: 2 ৰাজা
+    short: 2ৰাজা
+  2Pet:
+    long: 2 পিতৰ
+    short: 2পিত
+  2Sam:
+    long: 2 চমূ
+    short: 2চমূ
+  2Thess:
+    long: 2 থিচলনীকীয়া
+    short: 2থিচ
+  2Tim:
+    long: 2 তীমথিয়
+    short: 2তীম
+  3John:
+    long: 3 যোহন
+    short: 3যো
+  Acts:
+    long: পাঁচনি
+    short: পাঁচনি
+  Amos:
+    long: আমো
+    short: আমো
+  Col:
+    long: কলচীয়া
+    short: কল
+  Dan:
+    long: দানি
+    short: দানি
+  Deut:
+    long: দ্বি.বি.
+    short: দ্বি.বি.
+  Eccl:
+    long: উপ
+    short: উপ
+  Eph:
+    long: ইফিচীয়া
+    short: ইফি
+  Esth:
+    long: ইষ্ট
+    short: ইষ্ট
+  Exod:
+    long: যাত্ৰা
+    short: যাত্ৰা
+  Ezek:
+    long: যিহি
+    short: যিহি
+  Ezra:
+    long: ইজ্ৰা
+    short: ইজ্ৰা
+  Gal:
+    long: গালাতীয়া
+    short: গালা
+  Gen:
+    long: আদি
+    short: আদি
+  Hab:
+    long: হব
+    short: হব
+  Hag:
+    long: হ্গ্গ
+    short: হ্গ্গ
+  Heb:
+    long: ইব্ৰী
+    short: ইব্ৰী
+  Hos:
+    long: হোচ
+    short: হোচ
+  Isa:
+    long: যিচ
+    short: যিচ
+  Jas:
+    long: যাকোব
+    short: যাকো
+  Jer:
+    long: যিৰি
+    short: যিৰি
+  Job:
+    long: ইয়ো
+    short: ইয়ো
+  Joel:
+    long: যোৱে
+    short: যোৱে
+  John:
+    long: যোহন
+    short: যোহন
+  Jonah:
+    long: যোন
+    short: যোনা
+  Josh:
+    long: যিহো
+    short: যিহো
+  Jude:
+    long: যিহূদা
+    short: যিহূদা
+  Judg:
+    long: বিচাৰ
+    short: বিচাৰ
+  Lam:
+    long: বিলা
+    short: বিলা
+  Lev:
+    long: লেবীয়া
+    short: লেবী
+  Luke:
+    long: লূক
+    short: লূক
+  Mal:
+    long: মলা
+    short: মলা
+  Mark:
+    long: মাৰ্ক
+    short: মাৰ্ক
+  Matt:
+    long: মথি
+    short: মথি
+  Mic:
+    long: মীখ
+    short: মীখা
+  Nah:
+    long: নহূ
+    short: নহূ
+  Neh:
+    long: নহি
+    short: নহি
+  Num:
+    long: গননা
+    short: গন
+  Obad:
+    long: ওবদি
+    short: ওব
+  Phil:
+    long: ফিলিপীয়া
+    short: ফিল
+  Phlm:
+    long: ফিলীমন
+    short: ফিলী
+  Prov:
+    long: হিতো
+    short: হিতো
+  Ps:
+    long: গীত
+    short: গীত
+  Rev:
+    long: প্ৰকাশিত বাক্য
+    short: প্ৰকা
+  Rom:
+    long: ৰোমীয়া
+    short: ৰোমীয়া
+  Ruth:
+    long: ৰূথ
+    short: ৰূথ
+  Song:
+    long: পৰম
+    short: পৰম
+  Titus:
+    long: তীত
+    short: তীত
+  Zech:
+    long: জখ
+    short: জখ
+  Zeph:
+    long: চফ
+    short: চফ

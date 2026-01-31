@@ -1,0 +1,213 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Tabekacane
+  - osis: Exod
+    texts:
+      - Takatwasane Izipiti
+  - osis: Lev
+    texts:
+      - Lrivi
+  - osis: Num
+    texts:
+      - Taasipane
+  - osis: Lam
+    texts:
+      - Silringau
+  - osis: Rev
+    texts:
+      - Nipadrelane
+  - osis: Deut
+    texts:
+      - Tapelane Drekase
+  - osis: Josh
+    texts:
+      - Yesua
+  - osis: Judg
+    texts:
+      - Tamagarange
+  - osis: Ruth
+    texts:
+      - Ruthe
+  - osis: Isa
+    texts:
+      - Isaiya
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuile
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Latalialalai
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Lacaili
+  - osis: Ezra
+    texts:
+      - Izera
+  - osis: Neh
+    texts:
+      - Nihimi
+  - osis: Esth
+    texts:
+      - Isetire
+  - osis: Job
+    texts:
+      - Yubu
+  - osis: Ps
+    texts:
+      - Lasenai
+  - osis: Prov
+    texts:
+      - Kavagavagane
+  - osis: Eccl
+    texts:
+      - Wabulru
+  - osis: Song
+    texts:
+      - Senai
+  - osis: Jer
+    texts:
+      - Yerimia
+  - osis: Ezek
+    texts:
+      - Izikile
+  - osis: Dan
+    texts:
+      - Daniele
+  - osis: Hos
+    texts:
+      - Husia
+  - osis: Joel
+    texts:
+      - Yuile
+  - osis: Amos
+    texts:
+      - Amuse
+  - osis: Obad
+    texts:
+      - Ubadaiya
+  - osis: Jonah
+    texts:
+      - Yuna
+  - osis: Mic
+    texts:
+      - Mika
+  - osis: Nah
+    texts:
+      - Nahumu
+  - osis: Hab
+    texts:
+      - Habakuke
+  - osis: Zeph
+    texts:
+      - Zipania
+  - osis: Hag
+    texts:
+      - Hagai
+  - osis: Zech
+    texts:
+      - Zakaria
+  - osis: Mal
+    texts:
+      - Malaki
+  - osis: Matt
+    texts:
+      - Matai
+  - osis: Mark
+    texts:
+      - Maruku
+  - osis: Luke
+    texts:
+      - Luka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yuhani
+  - osis: Acts
+    texts:
+      - Nisikawlane
+  - osis: Rom
+    texts:
+      - Ruma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kurintu
+  - osis: Col
+    texts:
+      - Kulusia
+  - osis: Gal
+    texts:
+      - Galatia
+  - osis: Eph
+    texts:
+      - Ipisu
+  - osis: Phil
+    texts:
+      - Pilripi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tisaruniki
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timuthi
+  - osis: Titus
+    texts:
+      - Titu
+  - osis: Phlm
+    texts:
+      - Pilrimunge
+  - osis: Heb
+    texts:
+      - Hiburu
+  - osis: Jas
+    texts:
+      - Yakubu
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pitiru
+  - osis: Jude
+    texts:
+      - Yuda
+translations:
+  - NDV

@@ -1,0 +1,215 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Pinpiik
+  - osis: Exod
+    texts:
+      - Nyinu
+  - osis: Lev
+    texts:
+      - Liifai teeb
+  - osis: Num
+    texts:
+      - Nikant
+  - osis: Lam
+    texts:
+      - Fabinii
+  - osis: Rev
+    texts:
+      - Fiitu
+  - osis: Deut
+    texts:
+      - Sennu
+  - osis: Josh
+    texts:
+      - Joosua
+  - osis: Judg
+    texts:
+      - Barbuura
+  - osis: Ruth
+    texts:
+      - Ruf
+  - osis: Isa
+    texts:
+      - Aisaya
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Kpanbara
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Barkperii
+  - osis: Ezra
+    texts:
+      - Esra
+  - osis: Neh
+    texts:
+      - Nehemaya
+  - osis: Esth
+    texts:
+      - Estaa
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Yaŋ
+  - osis: Prov
+    texts:
+      - Barjokit
+  - osis: Eccl
+    texts:
+      - Banntɔɔ
+  - osis: Song
+    texts:
+      - Yankpaŋii
+  - osis: Jer
+    texts:
+      - Jeremaya
+  - osis: Ezek
+    texts:
+      - Esekiel
+  - osis: Dan
+    texts:
+      - Daniel
+  - osis: Hos
+    texts:
+      - Hosea
+  - osis: Joel
+    texts:
+      - Joel
+  - osis: Amos
+    texts:
+      - Amos
+  - osis: Obad
+    texts:
+      - Obadia
+  - osis: Jonah
+    texts:
+      - Jona
+  - osis: Mic
+    texts:
+      - Maika
+  - osis: Nah
+    texts:
+      - Nahum
+  - osis: Hab
+    texts:
+      - Habakuk
+  - osis: Zeph
+    texts:
+      - Sefania
+  - osis: Hag
+    texts:
+      - Hagai
+  - osis: Zech
+    texts:
+      - Sekaria
+  - osis: Mal
+    texts:
+      - Malakai
+  - osis: Matt
+    texts:
+      - Matiu
+  - osis: Mark
+    texts:
+      - Mak
+  - osis: Luke
+    texts:
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jɔɔnn
+  - osis: Acts
+    texts:
+      - Toona
+  - osis: Rom
+    texts:
+      - Rom Teeb
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korint teeb
+      - Kor.
+  - osis: Col
+    texts:
+      - Kolosa teeb
+  - osis: Gal
+    texts:
+      - Galasia teeb
+  - osis: Eph
+    texts:
+      - Efesus teeb
+  - osis: Phil
+    texts:
+      - Filipi teeb
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonika teeb
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: Titus
+    texts:
+      - Taitus
+  - osis: Phlm
+    texts:
+      - Filemonn
+  - osis: Heb
+    texts:
+      - Hiibru teeb
+  - osis: Jas
+    texts:
+      - Jeems
+      - Jems
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piita
+  - osis: Jude
+    texts:
+      - Juud
+translations:
+  - BIM

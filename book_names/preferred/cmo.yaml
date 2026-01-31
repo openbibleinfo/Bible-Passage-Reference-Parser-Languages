@@ -1,0 +1,363 @@
+default:
+  1Chr:
+    long: I Nau Rêh Jêng
+    short: I Rêh Jêng
+  1Cor:
+    long: I Kôrintô
+    short: 1Kô
+  1John:
+    long: I Yôhan
+    short: 1Yô
+  1Kgs:
+    long: I Phung Hađăch
+    short: I Hađăch
+  1Pet:
+    long: I Pêtrôs
+    short: 1Pê
+  1Sam:
+    long: I Samuel
+    short: I Sa
+  1Thess:
+    long: I Têsalônik
+    short: 1Tê
+  1Tim:
+    long: I Timôthê
+    short: 1Ti
+  2Chr:
+    long: II Nau Rêh Jêng
+    short: II Rêh Jêng
+  2Cor:
+    long: II Kôrintô
+    short: 2Kô
+  2John:
+    long: II Yôhan
+    short: 2Yô
+  2Kgs:
+    long: II Phung Hađăch
+    short: II Hađăch
+  2Pet:
+    long: II Pêtrôs
+    short: 2Pê
+  2Sam:
+    long: II Samuel
+    short: II Sa
+  2Thess:
+    long: II Têsalônik
+    short: 2Tê
+  2Tim:
+    long: II Timôthê
+    short: 2Ti
+  3John:
+    long: III Yôhan
+    short: 3Yô
+  Acts:
+    long: Kan Kôranh Oh Mon
+    short: Kan
+  Amos:
+    long: Amôt
+    short: Amôt
+  Col:
+    long: Kôlôh
+    short: Kôl
+  Dan:
+    long: Daniel
+    short: Dan
+  Deut:
+    long: Nau Vay Nkah Tay
+    short: Nkah
+  Eccl:
+    long: Nơm Nti
+    short: Nti
+  Eph:
+    long: Êphêsô
+    short: Êph
+  Esth:
+    long: Êsther
+    short: Êst
+  Exod:
+    long: Nau Ngluh Êjipt
+    short: Ngluh
+  Ezek:
+    long: Êsêkiêl
+    short: Êsê
+  Ezra:
+    long: Êsra
+    short: Êsr
+  Gal:
+    long: Galati
+    short: Gal
+  Gen:
+    long: Nau Ntơm
+    short: Nnt
+  Hab:
+    long: Habakuk
+    short: Hab
+  Hag:
+    long: Agê
+    short: Agê
+  Heb:
+    long: Hêbrơ
+    short: Hêb
+  Hos:
+    long: Ôsê
+    short: Ôsê
+  Isa:
+    long: Êsai
+    short: Êsai
+  Jas:
+    long: Yakơ
+    short: Yak
+  Jer:
+    long: Yêrêmi
+    short: Yêr
+  Job:
+    long: Yôp
+    short: Yôp
+  Joel:
+    long: Yôel
+    short: Yôel
+  John:
+    long: Yôhan
+    short: Yôh
+  Jonah:
+    long: Yôna
+    short: Yôn
+  Josh:
+    long: Yôsuê
+    short: Yôs
+  Jude:
+    long: Yut
+    short: Yut
+  Judg:
+    long: Phung Kôranh Phat Dôih
+    short: Phat Dôih
+  Lam:
+    long: Nau Nhĭm Vơl
+    short: Nhĭm Vơl
+  Lev:
+    long: Kan Lêvi
+    short: Lêvi
+  Luke:
+    long: Luka
+    short: Luk
+  Mal:
+    long: Malachi
+    short: Mal
+  Mark:
+    long: Markôs
+    short: Mar
+  Matt:
+    long: Mathay
+    short: Mat
+  Mic:
+    long: Mika
+    short: Mika
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nêhêmi
+    short: Nêh
+  Num:
+    long: Nau Kơp Bunuyh
+    short: Kơp
+  Obad:
+    long: Apdia
+    short: Apdia
+  Phil:
+    long: Philip
+    short: Phi
+  Phlm:
+    long: Philêmôn
+    short: Phlm
+  Prov:
+    long: Nau Hôr
+    short: Hôr
+  Ps:
+    long: Nau Mprơ Ơm
+    short: Mprơ Ơm
+  Rev:
+    long: Nau Tâm Mpơl
+    short: Mpơl
+  Rom:
+    long: Rôm
+    short: Rôm
+  Ruth:
+    long: Rut
+    short: Rut
+  Song:
+    long: Nau Mprơ Ueh
+    short: Mprơ Ueh
+  Titus:
+    long: Tit
+    short: Tit
+  Zech:
+    long: Sakari
+    short: Sak
+  Zeph:
+    long: Sôphôni
+    short: Sôph
+translations:
+  cmo2023:
+    1Cor:
+      short: I Kô
+    1John:
+      short: I Yôh
+    1Pet:
+      short: I Pê
+    1Thess:
+      short: I Tê
+    1Tim:
+      short: I Ti
+    2Cor:
+      short: II Kô
+    2John:
+      short: II Yôh
+    2Pet:
+      short: II Pê
+    2Thess:
+      short: II Tê
+    2Tim:
+      short: II Ti
+    3John:
+      short: III Yôh
+    Col:
+      long: Kôlôs
+    Gen:
+      short: Ntơm
+    Jonah:
+      short: Yôna
+    Mark:
+      short: Mark
+    Matt:
+      long: Mathiơ
+    Phil:
+      short: Phil
+  cmol:
+    1Cor:
+      long: Kôrĭntô Rơh 1
+    1John:
+      long: Yôhan Rơh 1
+    1Pet:
+      long: Pêtrôs Rơh 1
+    1Thess:
+      long: Têsalônik Rơh 1
+    1Tim:
+      long: Timôthê Rơh 1
+    2Cor:
+      long: Kôrĭntô Rơh 2
+    2John:
+      long: Yôhan Rơh 2
+    2Pet:
+      long: Pêtrôs Rơh 2
+    2Thess:
+      long: Têsalônik Rơh 2
+    2Tim:
+      long: Timôthê Rơh 2
+    3John:
+      long: Yôhan Rơh 3
+    Acts:
+      long: Kôranh Oh Mon
+      short: Kar
+    Jonah:
+      long: Yônais
+    Jude:
+      long: Yuđas
+      short: Yuđ
+    Phlm:
+      short: Phm
+    Rev:
+      short: Ntm
+    Titus:
+      long: Titus
+  cmok:
+    1Cor:
+      long: កោរិនតោ​រើស ១
+      short: ១កោ
+    1John:
+      long: យោហាន​រើស ១
+      short: ១យហ
+    1Pet:
+      long: ពេត្រោស​រើស ១
+      short: ១ពេ
+    1Thess:
+      long: តេឆាលោនិក​រើស ១
+      short: ១តេ
+    1Tim:
+      long: តីមោថេ​រើស ១
+      short: ១តម
+    2Cor:
+      long: កោរិនតោ​រើស ២
+      short: ២កោ
+    2John:
+      long: យោហាន​រើស ២
+      short: ២យហ
+    2Pet:
+      long: ពេត្រោស​រើស ២
+      short: ២ពេ
+    2Thess:
+      long: តេឆាលោនិក​រើស ២
+      short: ២តេ
+    2Tim:
+      long: តីមោថេ​រើស ២
+      short: ២តម
+    3John:
+      long: យោហាន​រើស ៣
+      short: ៣យហ
+    Acts:
+      long: កោរាញ​អ៝ស​ម៝ន
+      short: ការ
+    Col:
+      long: កោលោស
+      short: កោល
+    Eph:
+      long: អេផេឆោ
+      short: អេផ
+    Gal:
+      long: កាលាតី
+      short: កាល
+    Gen:
+      long: នាវ​នតើម
+      short: នន
+    Heb:
+      long: ហេឞ្រើ
+      short: ហេឞ
+    Jas:
+      long: យាកើ
+      short: យាក
+    John:
+      long: យោហាន
+      short: យហ
+    Jonah:
+      long: យោនាយ្ស
+      short: យោន
+    Jude:
+      long: យូដាស
+      short: យដ
+    Luke:
+      long: លូកា
+      short: លក
+    Mark:
+      long: មារកោស
+      short: មក
+    Matt:
+      long: មាថាយ
+      short: មថ
+    Phil:
+      long: ផីលីប
+      short: ផល
+    Phlm:
+      long: ផីលេមោន
+      short: ផលម
+    Rev:
+      long: នាវ​តឹម​មពើល
+      short: នតម
+    Rom:
+      long: រោម
+      short: រម
+    Ruth:
+      long: រូត
+      short: រត
+    Titus:
+      long: តីតុស
+      short: តត

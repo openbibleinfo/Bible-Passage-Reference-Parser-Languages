@@ -1,0 +1,235 @@
+default:
+  1Chr:
+    long: 1 Makani
+    short: 1 Maka
+  1Cor:
+    long: 1 Bene Kolinto
+    short: 1 Koli
+  1John:
+    long: 1 Joni
+    short: 1 Joni
+  1Kgs:
+    long: 1 Baami
+    short: 1 Baami
+  1Macc:
+    long: 1 Makabisi
+    short: 1 Makabisi
+  1Pet:
+    long: 1 Pita
+    short: 1 Pita
+  1Sam:
+    long: 1 Samwelo
+    short: 1 Samwe
+  1Thess:
+    long: 1 Bene Tesalonika
+    short: 1 Tesa
+  1Tim:
+    long: 1 Timoti
+    short: 1 Timo
+  2Chr:
+    long: 2 Makani
+    short: 2 Maka
+  2Cor:
+    long: 2 Bene Kolinto
+    short: 2 Koli
+  2John:
+    long: 2 Joni
+    short: 2 Joni
+  2Kgs:
+    long: 2 Baami
+    short: 2 Baami
+  2Macc:
+    long: 2 Makabisi
+    short: 2 Makabisi
+  2Pet:
+    long: 2 Pita
+    short: 2 Pita
+  2Sam:
+    long: 2 Samwelo
+    short: 2 Samwe
+  2Thess:
+    long: 2 Bene Tesalonika
+    short: 2 Tesa
+  2Tim:
+    long: 2 Timoti
+    short: 2 Timo
+  3John:
+    long: 3 Joni
+    short: 3 Joni
+  Acts:
+    long: Milimo ya Batumwi
+    short: Mili
+  Amos:
+    long: Amosi
+    short: Amo
+  Bar:
+    long: Baluku
+    short: Balu
+  Bel:
+    long: Belo ansoka inene
+    short: Belo
+  Col:
+    long: Bene Kolose
+    short: Kolo
+  Dan:
+    long: Danyelo
+    short: Danye
+  Deut:
+    long: Dutolonomi
+    short: Duto
+  Eccl:
+    long: Shikushimikila
+    short: Shikushi
+  EpJer:
+    long: Jelemiya2
+    short: Jele2
+  Eph:
+    long: Bene Efeso
+    short: Efe
+  Esth:
+    long: Esita
+    short: Esita
+  EsthGr:
+    long: EsitaG
+    short: EsitG
+  Exod:
+    long: Kulonga
+    short: Kulo
+  Ezek:
+    long: Esekelo
+    short: Ese
+  Ezra:
+    long: Esila
+    short: Esila
+  Gal:
+    long: Bene Galatiya
+    short: Gala
+  Gen:
+    long: Matalikilo
+    short: Mata
+  Hab:
+    long: Abakuku
+    short: Abaku
+  Hag:
+    long: Agayi
+    short: Aga
+  Heb:
+    long: Bene Ebulu
+    short: Ebulu
+  Hos:
+    long: Osiya
+    short: Osi
+  Isa:
+    long: Isaya
+    short: Isa
+  Jas:
+    long: Jemusi
+    short: Jemu
+  Jdt:
+    long: Judisi
+    short: Judisi
+  Jer:
+    long: Jelemiya
+    short: Jele
+  Job:
+    long: Jobo
+    short: Jobo
+  Joel:
+    long: Jowelo
+    short: Jowe
+  John:
+    long: Joni
+    short: Joni
+  Jonah:
+    long: Jona
+    short: Jona
+  Josh:
+    long: Joshuwa
+    short: Joshu
+  Jude:
+    long: Judi
+    short: Judi
+  Judg:
+    long: Boomboloshi
+    short: Boombo
+  Lam:
+    long: Malilo
+    short: Mali
+  Lev:
+    long: Bene Lefi
+    short: Bene Lefi
+  Luke:
+    long: Luka
+    short: Luka
+  Mal:
+    long: Malaki
+    short: Mala
+  Mark:
+    long: Maako
+    short: Maako
+  Matt:
+    long: Mateyo
+    short: Mate
+  Mic:
+    long: Mika
+    short: Mika
+  Nah:
+    long: Naamu
+    short: Naamu
+  Neh:
+    long: Neyemiya
+    short: Neye
+  Num:
+    long: Shakubelenga
+    short: Shakube
+  Obad:
+    long: Obadiya
+    short: Obadi
+  Phil:
+    long: Bene Filipi
+    short: Fili
+  Phlm:
+    long: Filimoni
+    short: Filimo
+  PrAzar:
+    long: Danyele
+    short: Dany
+  Prov:
+    long: Tushimpi
+    short: Tushimpi
+  Ps:
+    long: Kulumbaisha
+    short: Kulu
+  Rev:
+    long: Ciyubululo
+    short: Ciyu
+  Rom:
+    long: Bene Loma
+    short: Loma
+  Ruth:
+    long: Lute
+    short: Lute
+  Sir:
+    long: Silaki
+    short: Sila
+  Song:
+    long: Lwiimbo lwakwe Solomoni
+    short: Lwiimbo
+  Sus:
+    long: Susana
+    short: Susa
+  Titus:
+    long: Taitasi
+    short: Taita
+  Tob:
+    long: Tobiti
+    short: Tobiti
+  Wis:
+    long: Busongo Bwakwe Solomoni
+    short: Buso
+  Zech:
+    long: Sekaliya
+    short: Seka
+  Zeph:
+    long: Sefaniya
+    short: Sefa

@@ -1,0 +1,64 @@
+variables:
+  first: &first
+    - "1"
+books:
+  - osis: Gen
+    texts:
+      - Ko fɔlɔfɔlɛ
+      - Fɔlɛ
+  - osis: Exod
+    texts:
+      - Hɔrɔya
+      - Hɔr.
+  - osis: Lev
+    texts:
+      - Lewi bɔnsɛnu la sariya
+      - Lew.
+  - osis: Ruth
+    texts:
+      - Ruti
+  - osis:
+      - osis: 1Sam
+        before: *first
+    texts:
+      - Samiyɛli
+  - osis: 1Sam
+    texts:
+      - 1Sam
+  - osis: Jonah
+    texts:
+      - Yunusa
+      - Yun.
+  - osis: Luke
+    texts:
+      - Luki
+  - osis: John
+    texts:
+      - Yaya
+  - osis: Acts
+    texts:
+      - Kiilanu
+  - osis: Phil
+    texts:
+      - Filipi
+  - osis: 2Thess
+    texts:
+      - 2 Tesaloniki
+      - 2 Tes
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Tesaloniki
+      - Tes
+  - osis: Jas
+    texts:
+      - Yaguba
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - Piyɛri
+      - Piy
+translations:
+  - MFG

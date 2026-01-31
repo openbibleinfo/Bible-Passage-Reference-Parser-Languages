@@ -1,0 +1,141 @@
+default:
+  1Cor:
+    long: 1 Korinto
+    short: 1 Kor
+  1John:
+    long: 1 Yoane
+    short: 1 Yn
+  1Pet:
+    long: 1 Petro
+    short: 1 Petro
+  1Thess:
+    long: 1 Tesalonika
+    short: 1 Tes
+  1Tim:
+    long: 1 Timoteo
+    short: 1 Tim
+  2Cor:
+    long: 2 Korinto
+    short: 2 Kor
+  2John:
+    long: 2 Yoane
+    short: 2 Yn
+  2Pet:
+    long: 2 Petro
+    short: 2 Petro
+  2Thess:
+    long: 2 Tesalonika
+    short: 2 Tes
+  2Tim:
+    long: 2 Timoteo
+    short: 2 Tim
+  3John:
+    long: 3 Yoane
+    short: 3 Yn
+  Acts:
+    long: Ehanita
+    short: Ehan
+  Col:
+    long: Kolose
+    short: Kol
+  Eph:
+    long: Efeso
+    short: Ef
+  Gal:
+    long: Galasia
+    short: Gal
+  Heb:
+    long: Ebrei
+    short: Eb
+  Jas:
+    long: Yakobo
+    short: Yak
+  John:
+    long: Yoane
+    short: Yn
+  Jude:
+    long: Yuda
+    short: Yud
+  Luke:
+    long: Luka
+    short: Lk
+  Mark:
+    long: Marko
+    short: Mar
+  Matt:
+    long: Matteyo
+    short: Mat
+  Phil:
+    long: Filipi
+    short: Fil
+  Phlm:
+    long: Filimon
+    short: Fel
+  Rev:
+    long: Etaleyehina
+    short: Eta
+  Rom:
+    long: Roma
+    short: Ro
+  Titus:
+    long: Tito
+    short: Tit
+translations:
+  ea2003:
+    1Cor:
+      long: 1Korinto
+      short: 1Kor
+    1John:
+      short: 1Yoa
+    1Pet:
+      short: 1Pet
+    1Thess:
+      short: 1Tes
+    1Tim:
+      long: 1 Timoteyo
+      short: 1Tim
+    2Cor:
+      long: 2Korinto
+      short: 2Kor
+    2John:
+      short: 2Yoa
+    2Pet:
+      short: 2Pet
+    2Thess:
+      short: 2Tes
+    2Tim:
+      long: 2 Timoteyo
+      short: 2Tim
+    3John:
+      short: 3Yoa
+    Acts:
+      long: Ehanita Lefahat
+      short: Ehanita
+    Eph:
+      short: Efe
+    Heb:
+      short: Ebrei
+    John:
+      short: Yoa
+    Luke:
+      short: Luk
+    Rom:
+      short: Rom
+  lot1969:
+    Eph:
+      long: Efisa
+    Gal:
+      long: Galatia
+    Jude:
+      short: Yuda
+    Mark:
+      short: Mk
+    Matt:
+      short: Mt
+    Phil:
+      short: Filip
+    Phlm:
+      long: Filimona
+      short: Filim
+    Rev:
+      short: Etal

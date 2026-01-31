@@ -1,0 +1,275 @@
+variables:
+  first: &first
+    - "1"
+    - I.
+  second: &second
+    - "2"
+    - II.
+books:
+  - osis: Gen
+    texts:
+      - Ch‘òng‐shaì Keì
+      - Gen
+  - osis: Exod
+    texts:
+      - Ch‘ut Oi‐k‘āp Keì
+      - Exo
+  - osis: Lev
+    texts:
+      - Leî‐meî‐keì
+      - Lev
+  - osis: Num
+    texts:
+      - Mān‐shò Keí Leūk
+      - Num
+  - osis: Lam
+    texts:
+      - Yē‐leî‐maĭ Oi‐koh
+      - Lam
+  - osis: Rev
+    texts:
+      - Māk‐Shî‐Lūk
+      - Māk
+  - osis: Deut
+    texts:
+      - Fūk‐ch‘uēn Lūt‐laî Keì
+      - Deu
+  - osis: Josh
+    texts:
+      - Yeukₒ‐shue‐à
+      - Jos
+  - osis: Judg
+    texts:
+      - Sẑ‐sz Keì
+      - Jdg
+  - osis: Ruth
+    texts:
+      - Lô-tak shî
+      - Lô-tak
+  - osis: Isa
+    texts:
+      - Ĭ‐tsoi‐à
+      - Isa
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Saatₒ‐mŏ‐ĭ
+  - osis: 1Sam
+    texts:
+      - 1Sa
+  - osis: 2Sam
+    texts:
+      - 2Sa
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Līt‐wōng Keí‐leūk
+  - osis: 1Kgs
+    texts:
+      - 1Ki
+  - osis: 2Kgs
+    texts:
+      - 2Ki
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Līk‐toî Chì‐leūk
+  - osis: 1Chr
+    texts:
+      - 1Ch
+  - osis: 2Chr
+    texts:
+      - 2Ch
+  - osis: Ezra
+    texts:
+      - Ĭ‐sẑ‐la
+      - Ezr
+  - osis: Neh
+    texts:
+      - Neĭ‐hei‐maĭ
+      - Neh
+  - osis: Esth
+    texts:
+      - Ĭ‐sẑ‐t‘ipₒ
+      - Est
+  - osis: Job
+    texts:
+      - Yeukₒ‐paakₒ
+      - Job
+  - osis: Ps
+    texts:
+      - Shi‐p‘in
+      - Psa
+  - osis: Prov
+    texts:
+      - Cham‐īn
+      - Pro
+  - osis: Eccl
+    texts:
+      - Ch‘uēn‐tô
+      - Ecc
+  - osis: Song
+    texts:
+      - Ngă‐koh
+      - Sng
+  - osis: Jer
+    texts:
+      - Yē‐leî‐maĭ
+      - Jer
+  - osis: Ezek
+    texts:
+      - Ĭ‐sai‐kitₒ
+      - Ezk
+  - osis: Dan
+    texts:
+      - Taân‐ĭ‐leĭ
+      - Dan
+  - osis: Hos
+    texts:
+      - Hōh‐sai
+      - Hos
+  - osis: Joel
+    texts:
+      - Yeukₒ‐ĭ
+      - Jol
+  - osis: Amos
+    texts:
+      - À‐moh‐sẑ
+      - Amo
+  - osis: Obad
+    texts:
+      - Oh‐pa‐taí
+      - Oba
+  - osis: Jonah
+    texts:
+      - Yeukₒ‐nā
+      - Jon
+  - osis: Mic
+    texts:
+      - Maĭ‐ka
+      - Mic
+  - osis: Nah
+    texts:
+      - Nā‐yung
+      - Nam
+  - osis: Hab
+    texts:
+      - Hap‐pa‐kuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sai‐faan‐ngă
+      - Zep
+  - osis: Hag
+    texts:
+      - Hap‐kei
+      - Hag
+  - osis: Zech
+    texts:
+      - Saatₒ‐ka‐leî‐à
+      - Zec
+  - osis: Mal
+    texts:
+      - Mă‐la‐kei
+      - Mal
+  - osis: Matt
+    texts:
+      - Mă‐t‘aaì
+  - osis: Mark
+    texts:
+      - Mă‐Hóh
+  - osis: Luke
+    texts:
+      - Lô‐Ka
+  - osis: 3John
+    texts:
+      - 3 Yeukₒ‐Hôn
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+    texts:
+      - Yeukₒ‐Hôn
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - Yeukₒ‐hôn
+  - osis: Acts
+    texts:
+      - Sz̀‐T‘ō Hâng‐Chuên
+  - osis: Rom
+    texts:
+      - Lōh‐Mă
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Koh‐Lām‐Toh
+      - Koh
+  - osis: Col
+    texts:
+      - Koh‐Lōh‐Sai
+  - osis: Gal
+    texts:
+      - Ka‐La‐T‘aaì
+  - osis: Eph
+    texts:
+      - Ĭ‐Fat‐Shóh
+  - osis: Phil
+    texts:
+      - Feī‐Laāp‐Peí
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - T‘ipₒ‐Saatₒ‐Lōh‐Neī‐Ka
+      - T‘ipₒ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - T‘aī‐Moh‐T‘aaì
+      - T‘aī‐Moh
+  - osis: Titus
+    texts:
+      - T‘aī‐Toh
+  - osis: Phlm
+    texts:
+      - Feī‐Leî‐Moōn
+      - Feī‐Leî
+  - osis: Heb
+    texts:
+      - Hei‐Paakₒ‐Loī
+      - Hei‐Paakₒ
+  - osis: Jas
+    texts:
+      - Ngă‐Kokₒ
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peí‐Tak
+  - osis: Jude
+    texts:
+      - Yaū‐Taaî
+      - Yaū
+translations:
+  - CAN

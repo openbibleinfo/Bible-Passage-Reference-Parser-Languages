@@ -1,0 +1,312 @@
+default:
+  1Chr:
+    long: 1 Weche Mag Ndalo
+    short: 1 W.Nda
+  1Cor:
+    long: 1 Jo-Korintho
+    short: 1 Kor
+  1John:
+    long: 1 Johana
+    short: 1 Joh
+  1Kgs:
+    long: 1 Ruodhi
+    short: 1 Ruo
+  1Macc:
+    long: 1 Jo-Makabayo
+    short: 1 Jo-Makabayo
+  1Pet:
+    long: 1 Petro
+    short: 1 Pet
+  1Sam:
+    long: 1 Samuel
+    short: 1 Sam
+  1Thess:
+    long: 1 Jo-Thesalonika
+    short: 1 Thes
+  1Tim:
+    long: 1 Timotheo
+    short: 1 Timo
+  2Chr:
+    long: 2 Weche Mag Ndalo
+    short: 2 W.Nda
+  2Cor:
+    long: 2 Jo-Korintho
+    short: 2 Kor
+  2John:
+    long: 2 Johana
+    short: 2 Joh
+  2Kgs:
+    long: 2 Ruodhi
+    short: 2 Ruo
+  2Macc:
+    long: 2 Jo-Makabayo
+    short: 2 Jo-Makabayo
+  2Pet:
+    long: 2 Petro
+    short: 2 Pet
+  2Sam:
+    long: 2 Samuel
+    short: 2 Sam
+  2Thess:
+    long: 2 Jo-Thesalonika
+    short: 2 Thes
+  2Tim:
+    long: 2 Timotheo
+    short: 2 Timo
+  3John:
+    long: 3 Johana
+    short: 3 Joh
+  Acts:
+    long: Tich Joote
+    short: Joo
+  Amos:
+    long: Amos
+    short: Amo
+  Bar:
+    long: Baruk
+    short: Baruk
+  Col:
+    long: Jo-Kolosai
+    short: Kol
+  Dan:
+    long: Daniel
+    short: Dan
+  Deut:
+    long: Rapar Mar Chik
+    short: R.Chik
+  Eccl:
+    long: Eklesiastes
+    short: Ekl
+  Eph:
+    long: Jo-Efeso
+    short: Efe
+  Esth:
+    long: Esta
+    short: Est
+  EsthGr:
+    long: Esta, kod weche moko momedie
+    short: Esta-kod
+  Exod:
+    long: Wuok
+    short: Wuo
+  Ezek:
+    long: Ezekiel
+    short: Eze
+  Ezra:
+    long: Ezra
+    short: Ezr
+  Gal:
+    long: Jo-Galatia
+    short: Gal
+  Gen:
+    long: Chakruok
+    short: Chak
+  Hab:
+    long: Habakuk
+    short: Hab
+  Hag:
+    long: Hagai
+    short: Hag
+  Heb:
+    long: Jo-Hibrania
+    short: Hib
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Isaya
+    short: Isa
+  Jas:
+    long: Jakobo
+    short: Jak
+  Jdt:
+    long: Judith
+    short: Judith
+  Jer:
+    long: Jeremia
+    short: Jer
+  Job:
+    long: Ayub
+    short: Ayu
+  Joel:
+    long: Joel
+    short: Joe
+  John:
+    long: Johana
+    short: Joh
+  Jonah:
+    long: Jona
+    short: Jon
+  Josh:
+    long: Joshua
+    short: Jos
+  Jude:
+    long: Juda
+    short: Jud
+  Judg:
+    long: Jongʼad Bura
+    short: Bura
+  Lam:
+    long: Ywagruok
+    short: Ywa
+  Lev:
+    long: Tim Jo-Lawi
+    short: Lawi
+  Luke:
+    long: Luka
+    short: Luk
+  Mal:
+    long: Malaki
+    short: Mal
+  Mark:
+    long: Mariko
+    short: Mar
+  Matt:
+    long: Mathayo
+    short: Mat
+  Mic:
+    long: Mika
+    short: MiK
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nehemia
+    short: Neh
+  Num:
+    long: Kwan
+    short: Kwa
+  Obad:
+    long: Obadia
+    short: Oba
+  Phil:
+    long: Jo-Filipi
+    short: Fil
+  Phlm:
+    long: Filemon
+    short: Filem
+  Prov:
+    long: Ngeche
+    short: Nge
+  Ps:
+    long: Zaburi
+    short: Zab
+  Rev:
+    long: Fweny
+    short: Fwe
+  Rom:
+    long: Jo-Rumi
+    short: Rum
+  Ruth:
+    long: Ruth
+    short: Rut
+  Sir:
+    long: Eklesiastikus
+    short: Eklesiastikus
+  Song:
+    long: Wer Mamit
+    short: Wer
+  Titus:
+    long: Tito
+    short: Tit
+  Tob:
+    long: Tobit
+    short: Tobit
+  Wis:
+    long: Rieko
+    short: Rieko
+  Zech:
+    long: Zekaria
+    short: Zek
+  Zeph:
+    long: Zefania
+    short: Zef
+translations:
+  nlt:
+    1Chr:
+      short: 1We
+    1Cor:
+      short: 1Kor
+    1John:
+      short: 1Joh
+    1Kgs:
+      short: 1Ruo
+    1Pet:
+      short: 1Pet
+    1Sam:
+      short: 1Sam
+    1Thess:
+      short: 1Thes
+    1Tim:
+      short: 1Tim
+    2Chr:
+      short: 2We
+    2Cor:
+      short: 2Kor
+    2John:
+      short: 2Joh
+    2Kgs:
+      short: 2Ruo
+    2Pet:
+      short: 2Pet
+    2Sam:
+      short: 2Sam
+    2Thess:
+      short: 2Thes
+    2Tim:
+      short: 2Tim
+    3John:
+      short: 3Joh
+    Deut:
+      short: Rap
+    Phlm:
+      short: Flm
+  dho15:
+    Acts:
+      short: Joote
+    Amos:
+      short: Amos
+    Eph:
+      short: Efes
+    Exod:
+      short: Wuok
+    Ezek:
+      short: Ezek
+    Ezra:
+      short: Ezra
+    Job:
+      short: Ayub
+    Joel:
+      short: Joel
+    Jonah:
+      short: Jona
+    Josh:
+      short: Josh
+    Jude:
+      short: Juda
+    Judg:
+      long: Jong’ad Bura
+    Lam:
+      short: Ywag
+    Lev:
+      short: T.Lawi
+    Luke:
+      short: Luka
+    Matt:
+      short: Math
+    Mic:
+      short: Mika
+    Num:
+      short: Kwan
+    Obad:
+      short: Obad
+    Rev:
+      short: Fweny
+    Rom:
+      short: Rumi
+    Ruth:
+      short: Ruth
+    Song:
+      long: Wer Mamit Moloyo Wende Duto
+    Titus:
+      short: Tito

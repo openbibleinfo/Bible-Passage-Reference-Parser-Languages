@@ -1,0 +1,214 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Mui
+  - osis: Exod
+    texts:
+      - Gadili Asi
+  - osis: Lev
+    texts:
+      - Gobele Salasu
+  - osis: Num
+    texts:
+      - Idisu
+  - osis: Lam
+    texts:
+      - Fofagini Disu
+  - osis: Deut
+    texts:
+      - Mousese Ea Malasu
+  - osis: Josh
+    texts:
+      - Yosiua
+  - osis: Judg
+    texts:
+      - Bisisu
+  - osis: Ruth
+    texts:
+      - Ludi
+  - osis: Isa
+    texts:
+      - Aisaia
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Sa:miuele
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Hina
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Hou Olelesu
+  - osis: Ezra
+    texts:
+      - Esela
+  - osis: Neh
+    texts:
+      - Nihemaia
+  - osis: Esth
+    texts:
+      - Eseda
+  - osis: Job
+    texts:
+      - Yoube
+  - osis: Ps
+    texts:
+      - Gesami Hea:su
+  - osis: Prov
+    texts:
+      - Malasu
+  - osis: Eccl
+    texts:
+      - Da:i Dione Dawa:i Olelesu
+  - osis: Rev
+    texts:
+      - "Wamolegei Sia: Olelesu"
+      - Olelesu
+  - osis: Song
+    texts:
+      - Soloumane ea Gesami
+  - osis: Jer
+    texts:
+      - Yelemaia
+  - osis: Ezek
+    texts:
+      - Isigiele
+  - osis: Dan
+    texts:
+      - Da:niele
+  - osis: Hos
+    texts:
+      - Hosia
+  - osis: Joel
+    texts:
+      - Youele
+  - osis: Amos
+    texts:
+      - A:imose
+  - osis: Obad
+    texts:
+      - Oubadaia
+  - osis: Jonah
+    texts:
+      - Youna
+  - osis: Mic
+    texts:
+      - Maiga
+  - osis: Nah
+    texts:
+      - Na:ihame
+  - osis: Hab
+    texts:
+      - Ha:bagage
+  - osis: Zeph
+    texts:
+      - Sefanaia
+  - osis: Hag
+    texts:
+      - Ha:ga:iai
+  - osis: Zech
+    texts:
+      - Segalaia
+  - osis: Mal
+    texts:
+      - Malagai
+  - osis: Matt
+    texts:
+      - Ma:diu
+  - osis: Mark
+    texts:
+      - Maga
+  - osis: Luke
+    texts:
+      - Luge
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+    texts:
+      - Yone
+  - osis: 2John
+    texts:
+      - 2Yone
+  - osis: 3John
+    texts:
+      - 3Yone
+  - osis: Acts
+    texts:
+      - Asunasi Dunu Ilia Hou
+  - osis: Rom
+    texts:
+      - Louma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Golidia
+  - osis: Col
+    texts:
+      - Golosia
+  - osis: Gal
+    texts:
+      - Gala:isia
+  - osis: Eph
+    texts:
+      - Efesase
+  - osis: Phil
+    texts:
+      - Filibai
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Desalounia
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Dimodi
+  - osis: Titus
+    texts:
+      - Daidase
+  - osis: Phlm
+    texts:
+      - Failimone
+  - osis: Heb
+    texts:
+      - Hibulu
+  - osis: Jas
+    texts:
+      - Ya:mese
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Bida
+  - osis: Jude
+    texts:
+      - Yude
+translations:
+  - BEO

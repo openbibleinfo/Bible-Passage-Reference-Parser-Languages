@@ -1,0 +1,69 @@
+variables:
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Burqesun
+      - Burq.
+  - osis: Exod
+    texts:
+      - C'eysun
+      - C'eys.
+  - osis: Num
+    texts:
+      - Ams'i oç̌ala
+      - Ams'i oç̌.
+  - osis: Ps
+    texts:
+      - Ǐvel mə̌ğurxo
+      - Ǐvel mə̌ğ.
+  - osis: Prov
+    texts:
+      - Məsəloox
+      - Məs.
+  - osis: Jonah
+    texts:
+      - İon.
+      - İona
+  - osis: Matt
+    texts:
+      - Mat'fey
+      - Mat'.
+  - osis: Mark
+    texts:
+      - Mrk'.
+      - Mark
+  - osis: Luke
+    texts:
+      - Luk'.
+      - Luk'a
+  - osis: 1John
+    texts:
+      - 1 İoan.
+      - 1 İoan
+  - osis: 2John
+    texts:
+      - 2 İoan.
+      - 2 İoan
+  - osis:
+      - osis: John
+      - osis: 3John
+        before: *third
+    texts:
+      - İoan.
+      - İoan
+  - osis: Acts
+    texts:
+      - Ap'ost'olxo
+      - Ap'ost'.
+  - osis: Heb
+    texts:
+      - Əbraniğo
+      - Əbr.
+  - osis: Jas
+    texts:
+      - İak'ov
+      - İak'.
+translations:
+  - UDI

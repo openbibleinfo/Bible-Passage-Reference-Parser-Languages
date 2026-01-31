@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: Labar na war yivai n'avut
+    short: 1 Ly.
+  1Cor:
+    long: 1 Korintekai
+    short: 1 Kor.
+  1John:
+    long: 1Yohana
+    short: 1 Yoh.
+  1Kgs:
+    long: Lokwita n'avut na wiiɗi paakai
+    short: 1 Lp.
+  1Pet:
+    long: 1 Peter
+    short: 1 Pet.
+  1Sam:
+    long: 1 Samuwel
+    short: 1 Sam.
+  1Thess:
+    long: 1 Tesalonikekai
+    short: 1 Tes.
+  1Tim:
+    long: 1 Timotewus
+    short: 1 Tim.
+  2Chr:
+    long: Labar na war yivai n'ag'aŋ sulu
+    short: 2 Ly.
+  2Cor:
+    long: 2 Korintekai
+    short: 2 Kor.
+  2John:
+    long: 2 Yohana
+    short: 2 Yoh.
+  2Kgs:
+    long: Lokwita n'ag'aŋ sulu na wiiɗi paakai
+    short: 2 Lp.
+  2Pet:
+    long: 2 Peter
+    short: 2 Pet.
+  2Sam:
+    long: 2 Samuwel
+    short: 2 Sam.
+  2Thess:
+    long: 2 Tesalonikekai
+    short: 2 Tes.
+  2Tim:
+    long: 2 Timotewus
+    short: 2 Tim.
+  3John:
+    long: 3 Yohana
+    short: 3Yoh.
+  Acts:
+    long: Sdaɗi Apostelai
+    short: Sdaɗ. Apost.
+  Amos:
+    long: Amos
+    short: Am.
+  Col:
+    long: Kolosekai
+    short: Kol.
+  Dan:
+    long: Daniyel
+    short: Dan.
+  Deut:
+    long: Wiyi na midini gadai
+    short: Wmg.
+  Eccl:
+    long: Ɗif zi ɓiki seŋ
+    short: Ɗɓs.
+  Eph:
+    long: Efesekai
+    short: Efes.
+  Esth:
+    long: Ester
+    short: Est.
+  Exod:
+    long: Niyi n'edi
+    short: Ne.
+  Ezek:
+    long: Ezekiyel
+    short: Ezek.
+  Ezra:
+    long: Ezdras
+    short: Ezd.
+  Gal:
+    long: Galatekai
+    short: Gal.
+  Gen:
+    long: Pi zi tiki
+    short: Pt.
+  Hab:
+    long: Habakuk
+    short: Hab.
+  Hag:
+    long: Haggai
+    short: Hag.
+  Heb:
+    long: Hebrekai
+    short: Heb.
+  Hos:
+    long: Hoseya
+    short: Hos.
+  Isa:
+    long: Esaya
+    short: Es.
+  Jas:
+    long: Yakob
+    short: Yak.
+  Jer:
+    long: Yeremiyas
+    short: Yer.
+  Job:
+    long: Yob
+    short: Yob.
+  Joel:
+    long: Yowel
+    short: Yo.
+  John:
+    long: Yohana
+    short: Yoh.
+  Jonah:
+    long: Yonas
+    short: Yon.
+  Josh:
+    long: Yosva
+    short: Yos.
+  Jude:
+    long: Yudas
+    short: Yud.
+  Judg:
+    long: Paakai zi sariya
+    short: Ps.
+  Lam:
+    long: Yama zi tuuwi
+    short: Yt.
+  Lev:
+    long: Levitekai
+    short: Lev.
+  Luke:
+    long: Lukas
+    short: Luk.
+  Mal:
+    long: Malakiyas
+    short: Mal.
+  Mark:
+    long: Markus
+    short: Mark.
+  Matt:
+    long: Matewus
+    short: Mat.
+  Mic:
+    long: Mika
+    short: Mik.
+  Nah:
+    long: Nahum
+    short: Na.
+  Neh:
+    long: Nahamiyas
+    short: Nah.
+  Num:
+    long: Piɵi
+    short: Pi.
+  Obad:
+    long: Abdiyas
+    short: Abd.
+  Phil:
+    long: Filipekai
+    short: Fili.
+  Phlm:
+    long: Filemon
+    short: File.
+  Prov:
+    long: Seŋ joro
+    short: Sj.
+  Ps:
+    long: Yama na wiini David
+    short: Yam. D.
+  Rev:
+    long: Siŋki n'edi
+    short: S'edi.
+  Rom:
+    long: Romekai
+    short: Rom.
+  Ruth:
+    long: Rut
+    short: Rut.
+  Song:
+    long: Yama n'a suwa yama paŋ
+    short: Yy.
+  Titus:
+    long: Titus
+    short: Tit.
+  Zech:
+    long: Sakariyas
+    short: Sak.
+  Zeph:
+    long: Sofoniyas
+    short: Sof.

@@ -1,0 +1,366 @@
+- osis: Gen
+  texts:
+    - Mwambĩlĩlyo
+    - Mwa
+- osis: Exod
+  texts:
+    - Kuma
+- osis: Lev
+  texts:
+    - Alivai
+    - Ali
+- osis: Num
+  texts:
+    - Motalo
+    - Mot
+- osis: Sir
+  texts:
+    - Sil
+- osis: Wis
+  texts:
+    - Ũĩ
+- osis: Lam
+  texts:
+    - Iĩo
+- osis: Rev
+  texts:
+    - Ũvuan’yo
+    - Ũvu
+- osis: Deut
+  texts:
+    - Kũtũngĩlĩlwa Kwa Mĩao
+    - Kũt
+- osis: Josh
+  texts:
+    - Yosua
+    - Yos
+- osis: Judg
+  texts:
+    - Asili
+    - Asi
+- osis: Ruth
+  texts:
+    - Luthi
+    - Lu
+    - Lũ
+- osis: Isa
+  texts:
+    - Isaia
+    - Isa
+    - Ĩsa
+- osis: 1Sam
+  texts:
+    - 1 Samueli
+    - 1 Sam
+    - 1. Samueli
+    - 1. Sam
+- osis: 2Sam
+  texts:
+    - 2 Samueli
+    - 2 Sam
+    - 2. Samueli
+    - 2. Sam
+- osis: 1Sam
+  texts:
+    - 1Sam
+- osis: 2Sam
+  texts:
+    - 2Sam
+- osis: 1Kgs
+  texts:
+    - 1 Asumbĩ
+    - 1 Asu
+    - 1. Asumbĩ
+    - 1. Asu
+- osis: 2Kgs
+  texts:
+    - 2 Asumbĩ
+    - 2 Asu
+    - 2. Asumbĩ
+    - 2. Asu
+- osis: 1Kgs
+  texts:
+    - 1Asu
+- osis: 2Kgs
+  texts:
+    - 2Asu
+- osis: 1Chr
+  texts:
+    - 1 Mavinda
+    - 1 Mav
+    - 1. Mavinda
+    - 1. Mav
+- osis: 2Chr
+  texts:
+    - 2 Mavinda
+    - 2 Mav
+    - 2. Mavinda
+    - 2. Mav
+- osis: 1Chr
+  texts:
+    - 1Mav
+- osis: 2Chr
+  texts:
+    - 2Mav
+- osis: Ezra
+  texts:
+    - Esala
+    - Esa
+- osis: Neh
+  texts:
+    - Neemia
+    - Nee
+- osis: Esth
+  texts:
+    - Esita
+    - Est
+- osis: Job
+  texts:
+    - Yovu
+- osis: Ps
+  texts:
+    - Savuli
+    - Sav
+- osis: Prov
+  texts:
+    - Nthimo
+    - Nth
+- osis: Eccl
+  texts:
+    - Mũtavan’ya
+    - Mũta
+- osis: Song
+  texts:
+    - Wathi
+    - Wa
+- osis: Jer
+  texts:
+    - Yelemai
+    - Yel
+- osis: Ezek
+  texts:
+    - Esekieli
+    - Esek
+- osis: Dan
+  texts:
+    - Ndanieli
+    - Nda
+- osis: Hos
+  texts:
+    - Osea
+- osis: Joel
+  texts:
+    - Yoeli
+    - Yoe
+- osis: Amos
+  texts:
+    - Amosi
+    - Amo
+- osis: Obad
+  texts:
+    - Ovatia
+    - Ova
+- osis: Jonah
+  texts:
+    - Yona
+- osis: Mic
+  texts:
+    - Mika
+- osis: Nah
+  texts:
+    - Naumu
+    - Nau
+    - Naũ
+- osis: Hab
+  texts:
+    - Avakuki
+    - Ava
+- osis: Zeph
+  texts:
+    - Nzevania
+    - Nzev
+- osis: Hag
+  texts:
+    - Akai
+- osis: Zech
+  texts:
+    - Nzekalia
+    - Nzek
+- osis: Mal
+  texts:
+    - Malaki
+    - Mal
+- osis: Matt
+  texts:
+    - Mathayo
+    - Mat
+    - Mt
+- osis: Mark
+  texts:
+    - Maliko
+    - Mko
+    - Mk
+- osis: Luke
+  texts:
+    - Luka
+    - Lk
+- osis: 1John
+  texts:
+    - 1Yoa
+- osis: 2John
+  texts:
+    - 2Yoa
+- osis: 3John
+  texts:
+    - 3 Yoana
+    - 3 Yoa
+    - 3Yoa
+- osis: 1John
+  texts:
+    - 1 Yoana
+    - 1 Yoa
+    - 1. Yoana
+    - 1. Yoa
+- osis: 2John
+  texts:
+    - 2 Yoana
+    - 2 Yoa
+    - 2. Yoana
+    - 2. Yoa
+- osis: John
+  texts:
+    - Yoana
+    - Yoa
+- osis: Acts
+  texts:
+    - Meko Ma Atũmwa
+    - Meko
+- osis: Rom
+  texts:
+    - Alomi
+    - Alo
+- osis: 1Cor
+  texts:
+    - 1 Akolintho
+    - 1 Ako
+    - 1. Akolintho
+    - 1. Ako
+- osis: 2Cor
+  texts:
+    - 2 Akolintho
+    - 2 Ako
+    - 2. Akolintho
+    - 2. Ako
+- osis: 1Cor
+  texts:
+    - 1Ako
+- osis: 2Cor
+  texts:
+    - 2Ako
+- osis: Col
+  texts:
+    - Akolosai
+    - aKol
+    - aKo
+- osis: Gal
+  texts:
+    - Akalatia
+    - Aka
+- osis: Eph
+  texts:
+    - Aeveso
+    - Aev
+- osis: Phil
+  texts:
+    - Avilivi
+    - Avi
+- osis: 1Thess
+  texts:
+    - 1 Athesalonika
+    - 1 Ath
+    - 1. Athesalonika
+    - 1. Ath
+- osis: 2Thess
+  texts:
+    - 2 Athesalonika
+    - 2 Ath
+    - 2. Athesalonika
+    - 2. Ath
+- osis: 1Thess
+  texts:
+    - 1Ath
+- osis: 2Thess
+  texts:
+    - 2Ath
+- osis: 1Tim
+  texts:
+    - 1 Timotheo
+    - 1 Tim
+    - 1. Timotheo
+    - 1. Tim
+- osis: 2Tim
+  texts:
+    - 2 Timotheo
+    - 2 Tim
+    - 2. Timotheo
+    - 2. Tim
+- osis: 1Tim
+  texts:
+    - 1Tim
+- osis: 2Tim
+  texts:
+    - 2Tim
+- osis: Titus
+  texts:
+    - Tito
+- osis: Phlm
+  texts:
+    - Vilemona
+    - Vil
+- osis: Heb
+  texts:
+    - Aevelania
+    - Aevl
+- osis: Jas
+  texts:
+    - Yakovo
+    - Yak
+- osis: 1Pet
+  texts:
+    - 1 Vetelo
+    - 1 Vet
+    - 1. Vetelo
+    - 1. Vet
+- osis: 2Pet
+  texts:
+    - 2 Vetelo
+    - 2 Vet
+    - 2. Vetelo
+    - 2. Vet
+- osis: 1Pet
+  texts:
+    - 1Vet
+- osis: 2Pet
+  texts:
+    - 2Vet
+- osis: Jude
+  texts:
+    - Yuta
+- osis: Tob
+  texts:
+    - Tov
+- osis: Jdt
+  texts:
+    - Yund
+- osis: Bar
+  texts:
+    - Mba
+- osis: 1Macc
+  texts:
+    - 1Mak
+- osis: 2Macc
+  texts:
+    - 2Mak
+- osis: EsthGr
+  texts:
+    - Est-Kĩk

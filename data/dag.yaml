@@ -1,0 +1,292 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Piligu
+      - Pil
+  - osis: Exod
+    texts:
+      - Yibu
+  - osis: Lev
+    texts:
+      - Lɛvinima
+      - Lɛv
+  - osis: Num
+    texts:
+      - Kalinlinima
+      - Kal
+  - osis: Sir
+    texts:
+      - Siraki
+      - Sir
+  - osis: Wis
+    texts:
+      - Sul Yɛm
+      - Yɛm
+  - osis: Lam
+    texts:
+      - Fabilanima
+      - Fab
+  - osis: Rev
+    texts:
+      - Kahigibu
+      - Kah
+  - osis: Deut
+    texts:
+      - Zaligu Teebu
+      - Zaligu
+      - Zal
+  - osis: Josh
+    texts:
+      - Jɔshua
+      - Jɔsh
+  - osis: Judg
+    texts:
+      - Zuɣulaannima
+      - Zuɣ
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis: Isa
+    texts:
+      - Aizaia
+      - Aiz
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuɛl
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Nanima
+      - Nan
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Yɛlikura
+      - Yɛl
+  - osis: Ezra
+    texts:
+      - Ɛzra
+  - osis: Neh
+    texts:
+      - Nɛhimia
+      - Nɛh
+  - osis: Job
+    texts:
+      - Ayuba
+      - Ayu
+  - osis: Prov
+    texts:
+      - Ŋaha
+  - osis: Eccl
+    texts:
+      - Waazuyihira
+      - Waaz
+  - osis: Song
+    texts:
+      - Sulemaana Yila
+      - Sul
+  - osis: Ps
+    texts:
+      - Yila
+  - osis: Jer
+    texts:
+      - Jɛrimia
+      - Jɛr
+  - osis: Ezek
+    texts:
+      - Ɛzɛkiɛl
+      - Ɛzɛk
+  - osis: Dan
+    texts:
+      - Daniɛl
+      - Dan
+  - osis: Hos
+    texts:
+      - Hozia
+      - Hoz
+  - osis: Joel
+    texts:
+      - Joɛl
+  - osis: Amos
+    texts:
+      - Amɔs
+  - osis: Obad
+    texts:
+      - Obadia
+      - Oba
+  - osis: Jonah
+    texts:
+      - Jona
+  - osis: Mic
+    texts:
+      - Maika
+      - Mai
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Zɛfania
+      - Zɛf
+  - osis: Hag
+    texts:
+      - Hagai
+      - Hag
+  - osis: Zech
+    texts:
+      - Zakaria
+      - Zak
+  - osis: Mal
+    texts:
+      - Malaki
+      - Mal
+  - osis: Matt
+    texts:
+      - Matiu
+      - Mat
+  - osis: Mark
+    texts:
+      - Maak
+  - osis: Luke
+    texts:
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jɔn
+  - osis: Acts
+    texts:
+      - Tuumba Tuma
+      - Tuma
+  - osis: Rom
+    texts:
+      - Romnima
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kɔrintinima
+      - Kɔr
+  - osis: Col
+    texts:
+      - Kolɔsainima
+      - Kolɔsinima
+      - Kol
+  - osis: Gal
+    texts:
+      - Galɛshianima
+      - Gal
+  - osis: Eph
+    texts:
+      - Ɛfɛsusnima
+      - Ɛfɛs
+  - osis: Phil
+    texts:
+      - Filipainima
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tɛsalɔnaikanima
+      - Tɛsalɔnikanima
+      - Tɛs
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+      - Tim
+  - osis: Titus
+    texts:
+      - Taitus
+      - Tait
+  - osis: Phlm
+    texts:
+      - Failimɔn
+      - Fai
+  - osis: Heb
+    texts:
+      - Hiburunima
+      - Hib
+  - osis: Jas
+    texts:
+      - Jeemsi
+      - Jeem
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+  - osis: Jude
+    texts:
+      - Jud
+  - osis: Tob
+    texts:
+      - Tɔbiti
+      - Tɔb
+  - osis: Jdt
+    texts:
+      - Judit
+  - osis: Bar
+    texts:
+      - Baruk
+      - Bar
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+    texts:
+      - Makabiis
+      - Mak
+  - osis: DanGr
+    texts:
+      - Dan
+  - osis: EsthGr
+    texts:
+      - Ɛsta Gk
+  - osis: Esth
+    texts:
+      - Ɛsta
+translations:
+  - RLDB
+  - DBWDB

@@ -1,0 +1,456 @@
+- osis: Gen
+  texts:
+    - Chapletajic
+    - Gn
+- osis: Exod
+  texts:
+    - Elem
+    - Ex
+- osis: Lev
+  texts:
+    - Aj Levitib
+    - Lv
+- osis: Num
+  texts:
+    - Ajilanic
+    - Nm
+- osis: Lam
+  texts:
+    - Juyuwem
+    - Lm
+- osis: Rev
+  texts:
+    - Ri K'alajisanic
+    - Apocalipsis
+    - Ap
+- osis: Deut
+  texts:
+    - U Camulixic ri Pixab
+    - Dt
+- osis: Josh
+  texts:
+    - Ri Josue
+    - Jos
+- osis: Judg
+  texts:
+    - K'atal tak Tzij
+    - Jue
+- osis: Ruth
+  texts:
+    - Ri Rut
+    - Rt
+- osis: Isa
+  texts:
+    - Ri Isaiy
+    - Is
+- osis: 1Sam
+  texts:
+    - 1 Samuel
+    - 1 S
+    - 1. Samuel
+    - 1. S
+    - Nabe Samuel
+    - Nabe S
+    - Nabe. Samuel
+    - Nabe. S
+- osis: 2Sam
+  texts:
+    - 2 Samuel
+    - 2 S
+    - 2. Samuel
+    - 2. S
+    - Ucab Samuel
+    - Ucab S
+    - Ucab. Samuel
+    - Ucab. S
+- osis: 1Kgs
+  texts:
+    - 1 Ajawinelab
+    - 1 R
+    - 1. Ajawinelab
+    - 1. R
+    - Nabe Ajawinelab
+    - Nabe R
+    - Nabe. Ajawinelab
+    - Nabe. R
+- osis: 2Kgs
+  texts:
+    - 2 Ajawinelab
+    - 2 R
+    - 2. Ajawinelab
+    - 2. R
+    - Ucab Ajawinelab
+    - Ucab R
+    - Ucab. Ajawinelab
+    - Ucab. R
+- osis: 1Chr
+  texts:
+    - 1 Tzijobelil
+    - 1 Cr
+    - 1. Tzijobelil
+    - 1. Cr
+    - Nabe Tzijobelil
+    - Nabe Cr
+    - Nabe. Tzijobelil
+    - Nabe. Cr
+- osis: 2Chr
+  texts:
+    - 2 Tzijobelil
+    - 2 Cr
+    - 2. Tzijobelil
+    - 2. Cr
+    - Ucab Tzijobelil
+    - Ucab Cr
+    - Ucab. Tzijobelil
+    - Ucab. Cr
+- osis: Ezra
+  texts:
+    - Ri Esdras
+    - Esd
+- osis: Neh
+  texts:
+    - Ri Nehemiy
+    - Neh
+- osis: Esth
+  texts:
+    - Ri Ester
+    - Est
+- osis: Job
+  texts:
+    - Ri Job
+    - Job
+- osis: Ps
+  texts:
+    - Salmib
+    - Sal
+- osis: Prov
+  texts:
+    - E C'ambal tak Tzij
+    - Pr
+- osis: Eccl
+  texts:
+    - Ri Tzijonel
+    - Ec
+- osis: Song
+  texts:
+    - Bixonic Tak
+    - Cnt
+- osis: Jer
+  texts:
+    - Ri Jeremiy
+    - Jr
+- osis: Ezek
+  texts:
+    - Ri Ezequiel
+    - Ez
+- osis: Dan
+  texts:
+    - Ri Daniel
+    - Dn
+- osis: Hos
+  texts:
+    - Ri Osey
+    - Os
+- osis: Joel
+  texts:
+    - Ri Joel
+    - Jl
+- osis: Amos
+  texts:
+    - Ri Amos
+    - Am
+- osis: Obad
+  texts:
+    - Ri Abdiy
+    - Abd
+- osis: Jonah
+  texts:
+    - Ri Jonas
+    - Jon
+- osis: Mic
+  texts:
+    - Ri Miquey
+    - Mi
+- osis: Nah
+  texts:
+    - Ri Nahum
+    - Nah
+- osis: Hab
+  texts:
+    - Ri Habacuc
+    - Hab
+- osis: Zeph
+  texts:
+    - Ri Soponiy
+    - Sof
+- osis: Hag
+  texts:
+    - Ri Hajey
+    - Hag
+- osis: Zech
+  texts:
+    - Ri Zacariy
+    - Zac
+- osis: Mal
+  texts:
+    - Ri Malaquiy
+    - Mal
+- osis: Matt
+  texts:
+    - San Mateo
+    - Ri Matey
+    - Mateo
+    - Mt
+- osis: Mark
+  texts:
+    - San Marcos
+    - Ri Marcux
+    - Marcos
+    - Mr
+- osis: Luke
+  texts:
+    - San Lucas
+    - Ri Lucax
+    - Lucas
+    - Lc
+- osis: 1John
+  texts:
+    - 1Jn
+- osis: 2John
+  texts:
+    - 2Jn
+- osis: 3John
+  texts:
+    - Urox Xuan
+    - 3 Juan
+    - 3 Jn
+    - 3Jn
+- osis: John
+  texts:
+    - San Juan
+    - Ri Xuan
+    - Juan
+    - Jn
+- osis: 1John
+  texts:
+    - 1 Juan
+    - 1 Xuan
+    - 1 Jn
+    - 1. Juan
+    - 1. Xuan
+    - 1. Jn
+    - Nabe Juan
+    - Nabe Xuan
+    - Nabe Jn
+    - Nabe. Juan
+    - Nabe. Xuan
+    - Nabe. Jn
+- osis: 2John
+  texts:
+    - 2 Juan
+    - 2 Xuan
+    - 2 Jn
+    - 2. Juan
+    - 2. Xuan
+    - 2. Jn
+    - Ucab Juan
+    - Ucab Xuan
+    - Ucab Jn
+    - Ucab. Juan
+    - Ucab. Xuan
+    - Ucab. Jn
+- osis: Acts
+  texts:
+    - Hechos
+    - Banoj
+    - Hch
+- osis: Rom
+  texts:
+    - Aj Romab
+    - Romanos
+    - Rom
+    - Ro
+- osis: 1Cor
+  texts:
+    - 1 aj Corintib
+    - 1 Corintios
+    - 1 Co
+    - 1. aj Corintib
+    - 1. Corintios
+    - 1. Co
+    - Nabe aj Corintib
+    - Nabe Corintios
+    - Nabe Co
+    - Nabe. aj Corintib
+    - Nabe. Corintios
+    - Nabe. Co
+- osis: 2Cor
+  texts:
+    - 2 aj Corintib
+    - 2 Corintios
+    - 2 Co
+    - 2. aj Corintib
+    - 2. Corintios
+    - 2. Co
+    - Ucab aj Corintib
+    - Ucab Corintios
+    - Ucab Co
+    - Ucab. aj Corintib
+    - Ucab. Corintios
+    - Ucab. Co
+- osis: 1Cor
+  texts:
+    - 1Co
+- osis: 2Cor
+  texts:
+    - 2Co
+- osis: Col
+  texts:
+    - Aj Colosayib
+    - Colosenses
+    - Col
+- osis: Gal
+  texts:
+    - Aj Galasib
+    - Gálatas
+    - Ga
+    - Gá
+- osis: Eph
+  texts:
+    - Aj Epesib
+    - Efesios
+    - Ef
+- osis: Phil
+  texts:
+    - Aj Pilipsib
+    - Filipenses
+    - Fil
+    - Flp
+- osis: 1Thess
+  texts:
+    - 1 aj Tesaloniquib
+    - 1 Tesalonicenses
+    - 1 Ts
+    - 1. aj Tesaloniquib
+    - 1. Tesalonicenses
+    - 1. Ts
+    - Nabe aj Tesaloniquib
+    - Nabe Tesalonicenses
+    - Nabe Ts
+    - Nabe. aj Tesaloniquib
+    - Nabe. Tesalonicenses
+    - Nabe. Ts
+- osis: 2Thess
+  texts:
+    - 2 aj Tesaloniquib
+    - 2 Tesalonicenses
+    - 2 Ts
+    - 2. aj Tesaloniquib
+    - 2. Tesalonicenses
+    - 2. Ts
+    - Ucab aj Tesaloniquib
+    - Ucab Tesalonicenses
+    - Ucab Ts
+    - Ucab. aj Tesaloniquib
+    - Ucab. Tesalonicenses
+    - Ucab. Ts
+- osis: 1Thess
+  texts:
+    - 1Ts
+- osis: 2Thess
+  texts:
+    - 2Ts
+- osis: 1Tim
+  texts:
+    - 1 Timoteo
+    - 1 Timotey
+    - 1 Ti
+    - 1. Timoteo
+    - 1. Timotey
+    - 1. Ti
+    - Nabe Timoteo
+    - Nabe Timotey
+    - Nabe Ti
+    - Nabe. Timoteo
+    - Nabe. Timotey
+    - Nabe. Ti
+- osis: 2Tim
+  texts:
+    - 2 Timoteo
+    - 2 Timotey
+    - 2 Ti
+    - 2. Timoteo
+    - 2. Timotey
+    - 2. Ti
+    - Ucab Timoteo
+    - Ucab Timotey
+    - Ucab Ti
+    - Ucab. Timoteo
+    - Ucab. Timotey
+    - Ucab. Ti
+- osis: 1Tim
+  texts:
+    - 1Ti
+- osis: 2Tim
+  texts:
+    - 2Ti
+- osis: Titus
+  texts:
+    - Ri Tit
+    - Tito
+    - Tit
+- osis: Phlm
+  texts:
+    - Ri Pilemon
+    - Filemón
+    - Flm
+- osis: Heb
+  texts:
+    - Aj Hebreyib
+    - Hebreos
+    - Heb
+    - He
+- osis: Jas
+  texts:
+    - Ri Santiag
+    - Santiago
+    - Stg
+- osis: 1Pet
+  texts:
+    - 1 Pedro
+    - 1 Lu'
+    - 1 Pe
+    - 1. Pedro
+    - 1. Lu'
+    - 1. Pe
+    - Nabe Pedro
+    - Nabe Lu'
+    - Nabe Pe
+    - Nabe. Pedro
+    - Nabe. Lu'
+    - Nabe. Pe
+- osis: 2Pet
+  texts:
+    - 2 Pedro
+    - 2 Lu'
+    - 2 Pe
+    - 2. Pedro
+    - 2. Lu'
+    - 2. Pe
+    - Ucab Pedro
+    - Ucab Lu'
+    - Ucab Pe
+    - Ucab. Pedro
+    - Ucab. Lu'
+    - Ucab. Pe
+- osis: 1Pet
+  texts:
+    - 1P
+- osis: 2Pet
+  texts:
+    - 2P
+- osis: Jude
+  texts:
+    - Ri Juds
+    - Judas
+    - Jud

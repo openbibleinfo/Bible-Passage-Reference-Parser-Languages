@@ -1,0 +1,433 @@
+default:
+  1Chr:
+    long: nistam akinē ācimowina
+    short: 1 akinē ācimowina
+  1Cor:
+    long: nistam karintiyana
+    short: 1 karintiyana
+  1John:
+    long: Nistum Oo Mamowe Mussina̔humakāwin John
+    short: 1 cān
+  1Kgs:
+    long: nistam kihci okimāwak
+    short: 1 kihci okimāwak
+  1Pet:
+    long: nistam pitar
+    short: 1 Pitar
+  1Sam:
+    long: nistam sāmyoil
+    short: 1 sāmyoil
+  1Thess:
+    long: nistam tēsalāniyana
+    short: 1 tēsalāniyana
+  1Tim:
+    long: nistam timatī
+    short: 1 timatī
+  2Chr:
+    long: nīswāw akinē ācimowina
+    short: 2 akinē ācimowina
+  2Cor:
+    long: nīswāw karintiyana
+    short: 2 karintiyana
+  2John:
+    long: nīswāw cān
+    short: 2 cān
+  2Kgs:
+    long: nīswāw kihci okimāwak
+    short: 2 kihci okimāwak
+  2Pet:
+    long: nīswāw pitar
+    short: 2 Pitar
+  2Sam:
+    long: nīswāw sāmyoil
+    short: 2 sāmyoil
+  2Thess:
+    long: nīswāw tēsalāniyana
+    short: 2 tēsalāniyana
+  2Tim:
+    long: nīswāw timatī
+    short: 2 timatī
+  3John:
+    long: nistwāw cān
+    short: 3 cān
+  Acts:
+    long: Acts
+    short: isihcikēwiniwāwa
+  Amos:
+    long: ēmās
+    short: ēmās
+  Col:
+    long: kalāsiyana
+    short: kalāsiyana
+  Dan:
+    long: tāniēl
+    short: tāniēl
+  Deut:
+    long: tiyotaranami
+    short: tiyotaranami
+  Eccl:
+    long: ikilisiyāstis
+    short: ikilisiyāstis
+  Eph:
+    long: ipisiyana
+    short: ipisiyana
+  Esth:
+    long: ēstar
+    short: ēstar
+  Exod:
+    long: ēksatas
+    short: ēksatas
+  Ezek:
+    long: isikiēl
+    short: isikiēl
+  Ezra:
+    long: ēsra
+    short: ēsra
+  Gal:
+    long: kalēsiyana
+    short: kalēsiyana
+  Gen:
+    long: cēnisis
+    short: cēnisis
+  Hab:
+    long: hāpākak
+    short: hāpākak
+  Hag:
+    long: hakēay
+    short: hakēay
+  Heb:
+    long: hiparowa
+    short: hiparowa
+  Hos:
+    long: hāsiya
+    short: hāsiya
+  Isa:
+    long: aysāya
+    short: aysāya
+  Jas:
+    long: James
+    short: cēmis
+  Jer:
+    long: cērimāya
+    short: cērimāya
+  Job:
+    long: cop
+    short: cop
+  Joel:
+    long: coil
+    short: coil
+  John:
+    long: John
+    short: Jhn
+  Jonah:
+    long: cōna
+    short: cōna
+  Josh:
+    long: cāsyoa
+    short: cāsyoa
+  Jude:
+    long: cot
+    short: cot
+  Judg:
+    long: oyasowēwak
+    short: oyasowēwak
+  Lam:
+    long: mihtātwēwina
+    short: mihtātwēwina
+  Lev:
+    long: lipitikas
+    short: lipitikas
+  Luke:
+    long: Luke
+    short: Lok
+  Mal:
+    long: mālakay
+    short: mālakay
+  Mark:
+    long: Mark
+    short: Mrk
+  Matt:
+    long: Matthew
+    short: Mat
+  Mic:
+    long: Maika
+    short: Maika
+  Nah:
+    long: nēham
+    short: nēham
+  Neh:
+    long: nihimāya
+    short: nihimāya
+  Num:
+    long: nampars
+    short: nampars
+  Obad:
+    long: opatāya
+    short: opatāya
+  Phil:
+    long: pilipiyana
+    short: pilipiyana
+  Phlm:
+    long: pāiliman
+    short: pāiliman
+  Prov:
+    long: kakēhtāwēwina
+    short: kakēhtāwēwina
+  Ps:
+    long: Nikamowina
+    short: Psa
+  Rev:
+    long: kiskēyihtākohkēwin
+    short: kiskēyihtākohkēwin
+  Rom:
+    long: Romana
+    short: Romana
+  Ruth:
+    long: Ruth
+    short: roht
+  Song:
+    long: nikamona o nikamon
+    short: nikamona o nikamon
+  Titus:
+    long: tāitas
+    short: tāitas
+  Zech:
+    long: sēkarāya
+    short: sēkarāya
+  Zeph:
+    long: sēpanāya
+    short: sēpanāya
+translations:
+  wcbs:
+    1Chr:
+      long: ᓂᐢᑕᑦ ᐊᑭᓀ ᐋᒋᒧᐃᐧᓇ
+      short: 1 ᐊᑭᓀ ᐋᒋᒧᐃᐧᓇ
+    1Cor:
+      long: ᓂᐢᑕᒼ ᑲᕒᐃᐣᑎᔭᓇ
+      short: 1 ᑲᕒᐃᐣᑎᔭᓇ
+    1John:
+      long: ᓂᐢᑕᒼ ᒑᐣ
+      short: 1 ᒑᐣ
+    1Kgs:
+      long: ᓂᐢᑕᑦ ᑭᐦᒋ ᐅᑭᒫᐊᐧᐠ
+      short: 1 ᑭᐦᒋ ᐅᑭᒫᐊᐧᐠ
+    1Pet:
+      long: ᓂᐢᑕᒼ ᐱᑕᕒ
+      short: 1 ᐱᑕᕒ
+    1Sam:
+      long: ᓂᐢᑕᒼ ᓵᒼᔪᐃᓬ
+      short: 1 ᓵᒼᔪᐃᓬ
+    1Thess:
+      long: ᓂᐢᑕᒼ ᑌᓴᓬᐋᓂᔭᓇ
+      short: 1 ᑌᓴᓬᐋᓂᔭᓇ
+    1Tim:
+      long: ᓂᐢᑕᒼ ᑎᒪᑏ
+      short: 1 ᑎᒪᑏ
+    2Chr:
+      long: ᓃᓵᐧᐤ ᐊᑭᓀ ᐋᒋᒧᐃᐧᓇ
+      short: 2 ᐊᑭᓀ ᐋᒋᒧᐃᐧᓇ
+    2Cor:
+      long: ᓃᓵᐧᐤ ᑲᕒᐃᐣᑎᔭᓇ
+      short: 2 ᑲᕒᐃᐣᑎᔭᓇ
+    2John:
+      long: ᓃᓵᐧᐤ ᒑᐣ
+      short: 2 ᒑᐣ
+    2Kgs:
+      long: ᓃᓵᐧᐤ ᑭᐦᒋ ᐅᑭᒫᐊᐧᐠ
+      short: 2 ᑭᐦᒋ ᐅᑭᒫᐊᐧᐠ
+    2Pet:
+      long: ᓃᓵᐧᐤ ᐱᑕᕒ
+      short: 2 ᐱᑕᕒ
+    2Sam:
+      long: ᓃᓵᐧᐤ ᓵᒼᔪᐃᓬ
+      short: 2 ᓵᒼᔪᐃᓬ
+    2Thess:
+      long: ᓃᓵᐧᐤ ᑌᓴᓬᐋᓂᔭᓇ
+      short: 2 ᑌᓴᓬᐋᓂᔭᓇ
+    2Tim:
+      long: ᓃᓵᐧᐤ ᑎᒪᑏ
+      short: 2 ᑎᒪᑏ
+    3John:
+      long: ᓂᐢᑖᐧᐤ ᒑᐣ
+      short: 3 ᒑᐣ
+    Acts:
+      long: ᐃᓯᐦᒋᑫᐃᐧᓂᐋᐧᐊᐧ
+      short: ᐃᓯᐦᒋᑫᐃᐧᓂᐋᐧᐊᐧ
+    Amos:
+      long: ᐁᒫᐢ
+      short: ᐁᒫᐢ
+    Col:
+      long: ᑲᓬᐋᓯᔭᓇ
+      short: ᑲᓬᐋᓯᔭᓇ
+    Dan:
+      long: ᑖᓂᐁᓬ
+      short: ᑖᓂᐁᓬ
+    Deut:
+      long: ᑎᔪᑕᕒᐊᓇᒥ
+      short: ᑎᔪᑕᕒᐊᓇᒥ
+    Eccl:
+      long: ᐃᑭᓬᐃᓯᔮᐢᑎᐢ
+      short: ᐃᑭᓬᐃᓯᔮᐢᑎᐢ
+    Eph:
+      long: ᐃᐱᓯᔭᓇ
+      short: ᐃᐱᓯᔭᓇ
+    Esth:
+      long: ᐁᐢᑕᕒ
+      short: ᐁᐢᑕᕒ
+    Exod:
+      long: ᐁᐠᓴᑕᐢ
+      short: ᐁᐠᓴᑕᐢ
+    Ezek:
+      long: ᐃᓯᑭᐁᓬ
+      short: ᐃᓯᑭᐁᓬ
+    Ezra:
+      long: ᐁᐢᕒᐊ
+      short: ᐁᐢᕒᐊ
+    Gal:
+      long: ᑲᓬᐁᓯᔭᓇ
+      short: ᑲᓬᐁᓯᔭᓇ
+    Gen:
+      long: ᒉᓂᓯᐢ
+      short: ᒉᓂᓯᐢ
+    Hab:
+      long: ᐦᐋᐹᑲᐠ
+      short: ᐦᐋᐹᑲᐠ
+    Hag:
+      long: ᐦᐊᑫᐊᐩ
+      short: ᐦᐊᑫᐊᐩ
+    Heb:
+      long: ᐦᐃᐸᕒᐅᐊᐧ
+      short: ᐦᐃᐸᕒᐅᐊᐧ
+    Hos:
+      long: ᐦᐋᓯᔭ
+      short: ᐦᐋᓯᔭ
+    Isa:
+      long: ᐊᐩᓵᔭ
+      short: ᐊᐩᓵᔭ
+    Jas:
+      long: ᒉᒥᐢ
+      short: ᒉᒥᐢ
+    Jer:
+      long: ᒉᕒᐃᒫᔭ
+      short: ᒉᕒᐃᒫᔭ
+    Job:
+      long: ᒍᑊ
+      short: ᒍᑊ
+    Joel:
+      long: ᒍᐃᓬ
+      short: ᒍᐃᓬ
+    John:
+      long: ᓭᐣᐟ ᒑᐣ
+      short: ᒑᐣ
+    Jonah:
+      long: ᒎᓇ
+      short: ᒎᓇ
+    Josh:
+      long: ᒑᐢᔪᐊ
+      short: ᒑᐢᔪᐊ
+    Jude:
+      long: ᒍᐟ
+      short: ᒍᐟ
+    Judg:
+      long: ᐅᔭᓱᐁᐧᐊᐧᐠ
+      short: ᐅᔭᓱᐁᐧᐊᐧᐠ
+    Lam:
+      long: ᒥᐦᑖᑌᐧᐃᐧᓇ
+      short: ᒥᐦᑖᑌᐧᐃᐧᓇ
+    Lev:
+      long: ᓬᐃᐱᑎᑲᐢ
+      short: ᓬᐃᐱᑎᑲᐢ
+    Luke:
+      long: ᓭᐣᐟ ᓬᐅᐠ
+      short: ᓬᐅᐠ
+    Mal:
+      long: ᒫᓬᐊᑲᐩ
+      short: ᒫᓬᐊᑲᐩ
+    Mark:
+      long: ᓭᐣᐟ ᒫᕒᐠ
+      short: ᒫᕒᐠ
+    Matt:
+      long: ᓭᐣᐟ ᒫᐟᔪ
+      short: ᒫᐟᔪ
+    Mic:
+      long: ᒪᐃᑲ
+      short: ᒪᐃᑲ
+    Nah:
+      long: ᓀᐦᐊᒼ
+      short: ᓀᐦᐊᒼ
+    Neh:
+      long: ᓂᐦᐃᒫᔭ
+      short: ᓂᐦᐃᒫᔭ
+    Num:
+      long: ᓇᒼᐸᕒᐢ
+      short: ᓇᒼᐸᕒᐢ
+    Obad:
+      long: ᐅᐸᑖᔭ
+      short: ᐅᐸᑖᔭ
+    Phil:
+      long: ᐱᓬᐃᐱᔭᓇ
+      short: ᐱᓬᐃᐱᔭᓇ
+    Phlm:
+      long: ᐹᐃᓬᐃᒪᐣ
+      short: ᐹᐃᓬᐃᒪᐣ
+    Prov:
+      long: ᑲᑫᐦᑖᐁᐧᐃᐧᓇ
+      short: ᑲᑫᐦᑖᐁᐧᐃᐧᓇ
+    Ps:
+      long: ᓂᑲᒧᓇ
+      short: ᓂᑲᒧᓇ
+    Rev:
+      long: ᑭᐢᑫᔨᐦᑖᑯᐦᑫᐃᐧᐣ
+      short: ᑭᐢᑫᔨᐦᑖᑯᐦᑫᐃᐧᐣ
+    Rom:
+      long: ᕒᐅᒪᓇ
+      short: ᕒᐅᒪᓇ
+    Ruth:
+      long: ᕒᐅᐦᐟ
+      short: ᕒᐅᐦᐟ
+    Song:
+      long: ᓂᑲᒧᓇ ᐅ ᓂᑲᒧᐣ
+      short: ᓂᑲᒧᓇ ᐅ ᓂᑲᒧᐣ
+    Titus:
+      long: ᑖᐃᑕᐢ
+      short: ᑖᐃᑕᐢ
+    Zech:
+      long: ᓭᑲᕒᐋᔭ
+      short: ᓭᑲᕒᐋᔭ
+    Zeph:
+      long: ᓭᐸᓈᔭ
+      short: ᓭᐸᓈᔭ
+  csw:
+    1John:
+      short: 1Jn
+    John:
+      long: Oo Meyo Achimoowin St John
+    Mark:
+      long: Oo Meyo Achimoowin St Mark
+    Matt:
+      long: Oo Meyo Achimoowin St Matthew
+    Ps:
+      long: Nikumoona
+  wcbr:
+    1John:
+      long: nistam cān
+    Acts:
+      long: isihcikēwiniwāwa
+    Jas:
+      long: cēmis
+    John:
+      long: sēnt cān
+      short: cān
+    Luke:
+      long: sēnt lok
+    Mark:
+      long: sēnt mārk
+      short: mārk
+    Matt:
+      long: sēnt mātyo
+      short: mātyo
+    Ps:
+      long: nikamona
+      short: nikamona
+    Ruth:
+      long: roht

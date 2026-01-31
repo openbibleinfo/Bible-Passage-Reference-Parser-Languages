@@ -1,0 +1,400 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Génesis
+      - Gn
+  - osis: Exod
+    texts:
+      - Éxodo
+      - Ex
+  - osis: Lev
+    texts:
+      - Levítico
+      - Lv
+  - osis: Num
+    texts:
+      - Números
+      - Nm
+  - osis: Sir
+    texts:
+      - Eclesiástico
+      - Eclo
+  - osis: Wis
+    texts:
+      - Sabiduría
+      - Sab
+  - osis: Lam
+    texts:
+      - Lamentaciones
+      - Lamentaciónes
+      - Lm
+  - osis: Rev
+    texts:
+      - Apocalipsis
+      - Apocalípsis
+      - Apoc
+      - Ap
+  - osis: Deut
+    texts:
+      - Deuteronomio
+      - Deuteronómio
+      - Dt
+  - osis: Josh
+    texts:
+      - Josue
+      - Josué
+      - Jos
+  - osis: Judg
+    texts:
+      - Jueces
+      - Juéces
+      - Jue
+  - osis: Ruth
+    texts:
+      - Rut
+      - Rt
+  - osis: Isa
+    texts:
+      - Isaías
+      - Is
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - S
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Reyes
+      - Réyes
+      - R
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Crónicas
+      - Cr
+  - osis: Ezra
+    texts:
+      - Esdras
+      - Ésdras
+      - Esd
+  - osis: Neh
+    texts:
+      - Nehemías
+      - Neh
+  - osis: Esth
+    texts:
+      - Ester
+      - Est
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Salmokuéra
+      - Salmos
+      - Sal
+  - osis: Prov
+    texts:
+      - Proverbios
+      - Provérbios
+      - Pr
+  - osis: Eccl
+    texts:
+      - Eclesiastés
+      - Eclesiástes
+      - Ec
+  - osis: Song
+    texts:
+      - Cantar de los cantáres
+      - Cantares
+      - Cnt
+  - osis: Jer
+    texts:
+      - Jeremías
+      - Jer
+  - osis: Ezek
+    texts:
+      - Ezequiel
+      - Ez
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dn
+  - osis: Hos
+    texts:
+      - Oseas
+      - Oséas
+      - Os
+  - osis: Joel
+    texts:
+      - Joel
+      - Jl
+  - osis: Amos
+    texts:
+      - Amos
+      - Amós
+      - Am
+  - osis: Obad
+    texts:
+      - Abdías
+      - Abd
+  - osis: Jonah
+    texts:
+      - Jonas
+      - Jonás
+      - Jon
+  - osis: Mic
+    texts:
+      - Miqueas
+      - Miquéas
+      - Miq
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nahúm
+      - Nah
+  - osis: Hab
+    texts:
+      - Habacuc
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sofonías
+      - Sof
+  - osis: Hag
+    texts:
+      - Hagéo
+      - Ageo
+      - Ag
+  - osis: Zech
+    texts:
+      - Zacarías
+      - Zac
+  - osis: Mal
+    texts:
+      - Malaquías
+      - Mal
+  - osis: Matt
+    texts:
+      - San Mateo
+      - Matéo
+      - Mat
+      - Mt
+  - osis: Mark
+    texts:
+      - San Marcos
+      - Márcos
+      - Marc
+      - Mc
+  - osis: Luke
+    texts:
+      - San Lucas
+      - Lúcas
+      - Luc
+      - Lc
+  - osis: 1John
+    texts:
+      - 1Juan
+  - osis: 2John
+    texts:
+      - 2Juan
+  - osis: 3John
+    texts:
+      - 3 Juan
+      - 3Juan
+      - 3 J
+  - osis: John
+    texts:
+      - San Juan
+      - Juan
+      - Jn
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Juan
+      - J
+  - osis: Acts
+    texts:
+      - Apostolkuéra
+      - Rembiapocue
+      - Hechos
+      - Hch
+      - Rem
+  - osis: Rom
+    texts:
+      - Romaýguape Guare
+      - Romayguakuérape
+      - Romanos
+      - Rom
+      - Ro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corintoyguakuérape
+      - Corintoýgua
+      - Corintios
+      - Co
+  - osis: 1Cor
+    texts:
+      - 1Cor
+  - osis: 2Cor
+    texts:
+      - 2Cor
+  - osis: Col
+    texts:
+      - Colosayguakuérape
+      - Colosseýgua
+      - Colosenses
+      - Col
+  - osis: Gal
+    texts:
+      - Galaciayguakuérape
+      - Galaciaýgua
+      - Gálatas
+      - Gal
+      - Gl
+  - osis: Eph
+    texts:
+      - Efesoyguakuérape
+      - Efesoýgua
+      - Efesios
+      - Efes
+      - Ef
+  - osis: Phil
+    texts:
+      - Filipoyguakuérape
+      - Filiposýgua
+      - Filipenses
+      - Filip
+      - Fil
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Tesalonicayguakuérape
+      - Tesalonicenses
+      - Teselónicaýgua
+      - Ts
+  - osis: 1Thess
+    texts:
+      - 1Tes
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonicayguakuérape
+      - Tesalónicaýgua
+      - Tesalonicenses
+      - Ts
+  - osis: 2Thess
+    texts:
+      - 2Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotéope
+      - Timoteo
+      - Tit
+      - Ti
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Títope
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemónpe
+      - Filemon
+      - Filemón
+      - Filem
+      - Flm
+  - osis: Heb
+    texts:
+      - Hebreoyguakuérape
+      - Hebreocuera
+      - Hebreos
+      - Heb
+  - osis: Jas
+    texts:
+      - Santiago
+      - Tiágo
+      - Sant
+      - Stg
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pedro
+      - Pédro
+      - P
+  - osis: 1Pet
+    texts:
+      - 1Ped
+  - osis: 2Pet
+    texts:
+      - 2Ped
+  - osis: Jude
+    texts:
+      - San Judas
+      - Judas
+      - Júdas
+      - Jud
+  - osis: Tob
+    texts:
+      - Tobit
+      - Tob
+  - osis: Jdt
+    texts:
+      - Judit
+      - Jdt
+  - osis: Bar
+    texts:
+      - Baruc
+      - Bar
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+    texts:
+      - Macabeos
+      - Mac
+translations:
+  - GRN1913
+  - GDC2006
+  - GPC2006
+  - BGNNP15
+  - BNP76

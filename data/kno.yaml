@@ -1,0 +1,110 @@
+variables:
+  first: &first
+    - "1"
+    - Gboo
+  second: &second
+    - "2"
+    - Gboo
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Ko Ɔ Nundenɛ
+  - osis: Matt
+    texts:
+      - Matiu
+  - osis: Mark
+    texts:
+      - Maki
+  - osis: Luke
+    texts:
+      - Duku
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Chɔn
+  - osis: Acts
+    texts:
+      - Chisɔsi 'a Sɔ Mɔɛ Nu
+  - osis: Rom
+    texts:
+      - Gboo Domi Ko A
+      - Domi
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Fean Bɔɛ Kɔyindi Ko A
+      - Kɔyindi
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Saa Kɔyindi Ko A
+      - Kɔyindi
+  - osis: Col
+    texts:
+      - Gboo Kɔdɔsai Ko A
+      - Kɔdɔsai
+  - osis: Gal
+    texts:
+      - Gboo Kadesia Ko A
+      - Kadesia
+  - osis: Eph
+    texts:
+      - Gboo Ɛfisɔsi Ko A
+      - Ɛfisɔsi
+  - osis: Phil
+    texts:
+      - Gboo Fiipai Ko A
+      - Fiipai
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Fean Bɔɛ Tɛsadonika Ko A
+      - Tɛsadonika
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Saa Tɛsadonika Ko A
+      - Tɛsadonika
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: Titus
+    texts:
+      - Taitɔsi
+  - osis: Phlm
+    texts:
+      - Fidemɔn
+  - osis: Heb
+    texts:
+      - Gboo Ibu Mɔɛ N Ko A
+  - osis: Jas
+    texts:
+      - Chimisi
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+  - osis: Jude
+    texts:
+      - Chuda
+translations:
+  - KONONT

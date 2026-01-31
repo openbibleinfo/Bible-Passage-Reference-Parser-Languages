@@ -1,0 +1,125 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Pinongurugan
+      - Pgn
+  - osis: Rev
+    texts:
+      - Pinointolang
+      - P'tolang
+  - osis: Ps
+    texts:
+      - Lagu
+      - Lgu
+  - osis: Prov
+    texts:
+      - Pontudukan
+      - Pon
+  - osis: Matt
+    texts:
+      - Matius
+      - Mat
+  - osis: Mark
+    texts:
+      - Markus
+      - Mrk
+  - osis: Luke
+    texts:
+      - Lukas
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yuanis
+      - Yns
+  - osis: Acts
+    texts:
+      - Pinongoorapan
+      - P'rapan
+  - osis: Rom
+    texts:
+      - Ruum
+      - Rm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kurintus
+      - Kur
+  - osis: Col
+    texts:
+      - Kulusi
+      - Kul
+  - osis: Gal
+    texts:
+      - Galatia
+      - Gal
+  - osis: Eph
+    texts:
+      - Ipisus
+      - Ip
+  - osis: Phil
+    texts:
+      - Pilipi
+      - Plp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tisalunika
+      - Tis
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timutius
+      - Tim
+  - osis: Titus
+    texts:
+      - Titus
+      - Tit
+  - osis: Phlm
+    texts:
+      - Pilimun
+      - Plm
+  - osis: Heb
+    texts:
+      - Ibrani
+      - Ibr
+  - osis: Jas
+    texts:
+      - Yakubus
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pitrus
+      - Ptr
+  - osis: Jude
+    texts:
+      - Yudas
+      - Yud
+translations:
+  - TXA

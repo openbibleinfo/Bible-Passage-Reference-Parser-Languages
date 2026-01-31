@@ -1,0 +1,167 @@
+default:
+  1Cor:
+    long: 1 कुरिन्थियों
+    short: 1 ಕೊರಿಂಥ
+  1John:
+    long: 1 यूहन्ना
+    short: 1 यूह.
+  1Pet:
+    long: 1 पतरस
+    short: 1 पत.
+  1Thess:
+    long: 1 थिस्सलुनीकियों
+    short: 1 थिस्स.
+  1Tim:
+    long: 1 तीमुथियुस
+    short: 1 तीमु.
+  2Cor:
+    long: 2 कुरिन्थियों
+    short: 2 कुरि.
+  2John:
+    long: 2 यूहन्ना
+    short: 2 यूह.
+  2Pet:
+    long: 2 पतरस
+    short: 2 पत.
+  2Thess:
+    long: 2 थिस्सलुनीकियों
+    short: 2 थिस्स.
+  2Tim:
+    long: 2 तीमुथियुस
+    short: 2 तीमु.
+  3John:
+    long: 3 यूहन्ना
+    short: 3 यूह.
+  Acts:
+    long: प्रेरितों के काम
+    short: प्रेरित
+  Col:
+    long: कुलुस्सियों
+    short: कुलु.
+  Eph:
+    long: इफिसियों
+    short: इफि.
+  Gal:
+    long: गलातियों
+    short: गला.
+  Heb:
+    long: इब्रानियों
+    short: इब्रा.
+  Jas:
+    long: याकूब
+    short: याकू.
+  John:
+    long: यूहन्ना
+    short: यूहन्ना
+  Jude:
+    long: यहूदा
+    short: यहू.
+  Luke:
+    long: लूका
+    short: लूका
+  Mark:
+    long: मरकुस
+    short: मरकुस
+  Matt:
+    long: मत्ती
+    short: मत्ती
+  Phil:
+    long: फिलिप्पियों
+    short: फिलि.
+  Phlm:
+    long: फिलेमोन
+    short: फिले.
+  Rev:
+    long: प्रकाशित वाक्य
+    short: प्रका.
+  Rom:
+    long: रोमियो
+    short: रोम.
+  Titus:
+    long: तीतुस
+    short: ती.
+translations:
+  goknt:
+    1Cor:
+      short: 1कुरि.
+  ntgmi23:
+    1Cor:
+      long: 1 ಕೋರಿಂಥ್
+    1John:
+      long: 1 ಯೊಹಾನ್
+      short: 1 ಯೊಹಾನ್
+    1Pet:
+      long: 1 ಪೇತ್ರ
+      short: 1 ಪೇತ್ರ
+    1Thess:
+      long: 1 ತೆಸಲೊನಿಕ್
+      short: 1 ಥೆಸಲೊನಿಕ್
+    1Tim:
+      long: 1 ತಿಮೊತಿ
+      short: 1 ತಿಮೊಥಿ
+    2Cor:
+      long: 2 ಕೊರಿಂಥ
+      short: 2 ಕೊರಿಂಥ
+    2John:
+      long: 2 ಯೊಹಾನ್
+      short: 2 ಯೊಹಾನ್
+    2Pet:
+      long: 2 ಪೇತ್ರ
+      short: 2 ಪೇತ್ರ
+    2Thess:
+      long: 2 ತೆಸಲೊನಿಕ್
+      short: 2 ಥೆಸಲೊನಿಕ್
+    2Tim:
+      long: 2 ತಿಮೊತಿ
+      short: 2 ತಿಮೊಥಿ
+    3John:
+      long: 3 ಯೊಹಾನ್
+      short: 3 ಯೊಹಾನ್
+    Acts:
+      long: ಅಪೊಸ್ತಲ್
+      short: ಅಪೊಸ್ತಲ್
+    Col:
+      long: ಕೊಲೊಸ್ಸೆ
+      short: ಕೊಲೊಸ್ಸೆ
+    Eph:
+      long: ಎಫೆಸಾತ್‌ಲ್ಯಾನಾ
+      short: ಎಫೆಸ
+    Gal:
+      long: ಗಲಾತ್ಯಾತ್‌ಲ್ಯಾನಾ
+      short: ಗಲಾಥ್ಯ
+    Heb:
+      long: ಇಬ್ರಿಯ
+      short: ಇಬ್ರಿಯ
+    Jas:
+      long: ಯಾಕೊಬ್
+      short: ಯಾಕೊಬ್
+    John:
+      long: ಯೊಹಾನ್
+      short: ಯೋಹಾನ್
+    Jude:
+      long: ಯುದ್
+      short: ಯುದ್
+    Luke:
+      long: ಲುಕ್
+      short: ಲುಕ್
+    Mark:
+      long: ಮಾರ್ಕ್
+      short: ಮಾರ್ಕ್
+    Matt:
+      long: ಮತ್ತಾಯ್
+      short: ಮತ್ತಾಯಾ
+    Phil:
+      long: ಪಿಲಿಪ್ಪಿ
+      short: ಪಿಲಿಪ್ಪಿ
+    Phlm:
+      long: ಪಿಲೊಮೊನ್
+      short: ಪಿಲೊಮೊನ್
+    Rev:
+      long: ದರ್ಶಾನ್
+      short: ದರ್ಶಾನ್
+    Rom:
+      long: ರೋಮಾಪುರಾತ್‌ಲ್ಯಾನಾ
+      short: ರೊಮಾಪುರಾತ್‌ಲ್ಯಾನಾ
+    Titus:
+      long: ತೀತ್
+      short: ತೀತ್

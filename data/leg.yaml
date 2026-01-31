@@ -1,0 +1,268 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Génesis
+      - Gn
+  - osis: Exod
+    texts:
+      - Éxodo
+      - Ex
+  - osis: Lev
+    texts:
+      - Levítico
+      - Lv
+  - osis: Num
+    texts:
+      - Números
+      - Nm
+  - osis: Lam
+    texts:
+      - Lamentaciónes
+      - Lm
+  - osis: Rev
+    texts:
+      - El Apocalipsis
+      - Ap
+  - osis: Deut
+    texts:
+      - Deuteronomio
+      - Dt
+  - osis: Josh
+    texts:
+      - Josué
+      - Jos
+  - osis: Judg
+    texts:
+      - Jueces
+      - Jue
+  - osis: Ruth
+    texts:
+      - Rut
+      - Rt
+  - osis: Isa
+    texts:
+      - Isaías
+      - Is
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - S
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Reyes
+      - R
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Crónicas
+      - Cr
+  - osis: Ezra
+    texts:
+      - Esdras
+      - Esd
+  - osis: Neh
+    texts:
+      - Nehemías
+      - Neh
+  - osis: Esth
+    texts:
+      - Ester
+      - Est
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Salmos
+      - Sal
+  - osis: Prov
+    texts:
+      - Proverbios
+      - Pr
+  - osis: Eccl
+    texts:
+      - Eclesiastés
+      - Ec
+  - osis: Song
+    texts:
+      - Los Cantares
+      - Cnt
+  - osis: Jer
+    texts:
+      - Jeremías
+      - Jer
+  - osis: Ezek
+    texts:
+      - Ezequiel
+      - Ez
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dn
+  - osis: Hos
+    texts:
+      - Oseas
+      - Os
+  - osis: Joel
+    texts:
+      - Joel
+      - Jl
+  - osis: Amos
+    texts:
+      - Amós
+      - Am
+  - osis: Obad
+    texts:
+      - Abdías
+      - Abd
+  - osis: Jonah
+    texts:
+      - Jonás
+      - Jon
+  - osis: Mic
+    texts:
+      - Miqueas
+      - Mi
+  - osis: Nah
+    texts:
+      - Nahúm
+      - Nah
+  - osis: Hab
+    texts:
+      - Habacuc
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sofonías
+      - Sof
+  - osis: Hag
+    texts:
+      - Hageo
+      - Hag
+  - osis: Zech
+    texts:
+      - Zacarías
+      - Zac
+  - osis: Mal
+    texts:
+      - Malaquías
+      - Mal
+  - osis: Matt
+    texts:
+      - San Mateo
+      - Mt
+  - osis: Mark
+    texts:
+      - San Marcos
+      - Mr
+  - osis: Luke
+    texts:
+      - San Lucas
+      - Lc
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - San Juan
+      - Jn
+  - osis: Acts
+    texts:
+      - Los Hechos
+      - Hch
+  - osis: Rom
+    texts:
+      - Romanos
+      - Ro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corintios
+      - Co
+  - osis: Col
+    texts:
+      - Colosenses
+      - Col
+  - osis: Gal
+    texts:
+      - Galatas
+      - Gá
+  - osis: Eph
+    texts:
+      - Efesios
+      - Ef
+  - osis: Phil
+    texts:
+      - Filipenses
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonicenses
+      - Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+      - Ti
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemon
+      - Flm
+  - osis: Heb
+    texts:
+      - Hebreos
+      - He
+  - osis: Jas
+    texts:
+      - Santiago
+      - Stg
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - San Pedro
+      - P
+  - osis: Jude
+    texts:
+      - San Judas
+      - Jud
+translations:
+  - ENHL

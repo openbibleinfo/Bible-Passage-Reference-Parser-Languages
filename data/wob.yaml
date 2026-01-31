@@ -1,0 +1,118 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Dɩ'kwla‑sawlu
+      - Dk
+  - osis: Matt
+    texts:
+      - Matie
+      - Mt
+  - osis: Mark
+    texts:
+      - Makɩ
+      - Mk
+  - osis: Luke
+    texts:
+      - Luikɩ
+      - Lk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - San
+  - osis: Acts
+    texts:
+      - Nʋʋdɩ
+      - Nʋʋ
+  - osis: Rom
+    texts:
+      - Romɛ
+      - Ro
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Korɛntɩ
+  - osis: 1Cor
+    texts:
+      - 1Ko
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korɛntɩ
+      - Ko
+  - osis: Col
+    texts:
+      - Kolɔsɩ
+      - Kol
+  - osis: Gal
+    texts:
+      - Galasi
+      - Gal
+  - osis: Eph
+    texts:
+      - Efɛsɩ
+      - Ef
+  - osis: Phil
+    texts:
+      - Filipʋ
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonikɩ
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+      - Tim
+  - osis: Titus
+    texts:
+      - Titɩ
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemɔ
+      - Flm
+  - osis: Heb
+    texts:
+      - Eble
+      - Eb
+  - osis: Jas
+    texts:
+      - Sakɩ
+      - Sk
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piɛi
+      - Pi
+  - osis: Jude
+    texts:
+      - Suidɩ
+      - Sd
+translations:
+  - WOB

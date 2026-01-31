@@ -1,0 +1,130 @@
+- osis: Rev
+  texts:
+    - Apocalipsis
+    - Ap
+- osis: Matt
+  texts:
+    - Mateo
+    - Mt
+- osis: Mark
+  texts:
+    - Marcos
+    - Mc
+- osis: Luke
+  texts:
+    - Lucas
+    - Lc
+- osis: 1John
+  texts:
+    - 1 San Juan
+    - 1 Jn
+    - 1. San Juan
+    - 1. Jn
+- osis: 2John
+  texts:
+    - 2 San Juan
+    - 2 Jn
+    - 2. San Juan
+    - 2. Jn
+- osis: 3John
+  texts:
+    - 3 San Juan
+    - 3 Jn
+    - 3. San Juan
+    - 3. Jn
+- osis: John
+  texts:
+    - Juan
+    - Jn
+- osis: Acts
+  texts:
+    - Hechos
+    - Hch
+- osis: Rom
+  texts:
+    - Romanos
+    - Ro
+- osis: 1Cor
+  texts:
+    - 1 Korintopi
+    - 1 Ko
+    - 1. Korintopi
+    - 1. Ko
+- osis: 2Cor
+  texts:
+    - 2 Korintopi
+    - 2 Ko
+    - 2. Korintopi
+    - 2. Ko
+- osis: Col
+  texts:
+    - Kolosaspi
+    - Kl
+- osis: Gal
+  texts:
+    - Galasiapi
+    - Gl
+- osis: Eph
+  texts:
+    - Efesopi
+    - Ef
+- osis: Phil
+  texts:
+    - Filipospi
+    - Fp
+- osis: 1Thess
+  texts:
+    - 1 Tesalonikapi
+    - 1 Ts
+    - 1. Tesalonikapi
+    - 1. Ts
+- osis: 2Thess
+  texts:
+    - 2 Tesalonikapi
+    - 2 Ts
+    - 2. Tesalonikapi
+    - 2. Ts
+- osis: 1Tim
+  texts:
+    - 1 Timoteota
+    - 1 Ti
+    - 1. Timoteota
+    - 1. Ti
+- osis: 2Tim
+  texts:
+    - 2 Timoteota
+    - 2 Ti
+    - 2. Timoteota
+    - 2. Ti
+- osis: Titus
+  texts:
+    - Titota
+    - Tit
+- osis: Phlm
+  texts:
+    - Filemonta
+    - Flm
+- osis: Heb
+  texts:
+    - Hebreokunata
+    - Heb
+- osis: Jas
+  texts:
+    - Santiago
+    - Stg
+- osis: 1Pet
+  texts:
+    - 1 San Pedro
+    - 1 P
+    - 1. San Pedro
+    - 1. P
+- osis: 2Pet
+  texts:
+    - 2 San Pedro
+    - 2 P
+    - 2. San Pedro
+    - 2. P
+- osis: Jude
+  texts:
+    - Judas
+    - Jud

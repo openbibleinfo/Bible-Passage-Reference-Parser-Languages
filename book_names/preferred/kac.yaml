@@ -1,0 +1,314 @@
+default:
+  1Chr:
+    long: 1 Hkawhkam Labau
+    short: 1 Hkawhkam Labau
+  1Cor:
+    long: 1 Korinhtu
+    short: 1 Korinhtu
+  1John:
+    long: 1 Yawhan
+    short: 1 Yawhan
+  1Kgs:
+    long: 1 Hkawhkam
+    short: 1 Hkawhkam
+  1Pet:
+    long: 1 Petru
+    short: 1Pe
+  1Sam:
+    long: 1 Samuela
+    short: 1 Samuela
+  1Thess:
+    long: 1 Htesaloni
+    short: 1Ht
+  1Tim:
+    long: 1 Timohti
+    short: 1 Timohti
+  2Chr:
+    long: 2 Hkawhkam Labau
+    short: 2 Hkawhkam Labau
+  2Cor:
+    long: 2 Korinhtu
+    short: 2 Korinhtu
+  2John:
+    long: 2 Yawhan
+    short: 2 Yawhan
+  2Kgs:
+    long: 2 Hkawhkam
+    short: 2 Hkawhkam
+  2Pet:
+    long: 2 Petru
+    short: 2Pe
+  2Sam:
+    long: 2 Samuela
+    short: 2 Samuela
+  2Thess:
+    long: 2 Htesaloni
+    short: 2H2
+  2Tim:
+    long: 2 Timohti
+    short: 2 Timohti
+  3John:
+    long: 3 Yawhan
+    short: 3 Yawhan
+  Acts:
+    long: Kasa
+    short: Kas
+  Amos:
+    long: Amo
+    short: Amo
+  Col:
+    long: Kolose
+    short: Kol
+  Dan:
+    long: Daniela
+    short: Dan
+  Deut:
+    long: Tara Jahprang
+    short: Tara Jahprang
+  Eccl:
+    long: Hpaji Ningli
+    short: Hpaji Ningli
+  Eph:
+    long: Ehpesu
+    short: Ehp
+  Esth:
+    long: Eshta
+    short: Esh
+  Exod:
+    long: Pru Mat
+    short: Pru
+  Ezek:
+    long: Ezekela
+    short: Eze
+  Ezra:
+    long: Ezra
+    short: Ezr
+  Gal:
+    long: Galati
+    short: Gal
+  Gen:
+    long: Ningpawt Ninghpang
+    short: Nin
+  Hab:
+    long: Habaku
+    short: Hab
+  Hag:
+    long: Hagi
+    short: Hag
+  Heb:
+    long: Hebre
+    short: Heb
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Esaia
+    short: Esa
+  Jas:
+    long: Yaku
+    short: Yak
+  Jer:
+    long: Yeremia
+    short: Yer
+  Job:
+    long: Yoba
+    short: Yob
+  Joel:
+    long: Yoela
+    short: Yoe
+  John:
+    long: Yawhan
+    short: Yhn
+  Jonah:
+    long: Yona
+    short: Yon
+  Josh:
+    long: Yawshu
+    short: Yawshu
+  Jude:
+    long: Yuda
+    short: Yud
+  Judg:
+    long: Tara Agyi
+    short: Tara Agyi
+  Lam:
+    long: Sharung Shayawt
+    short: Sharung Shayawt
+  Lev:
+    long: Jaw Jau
+    short: Jaw
+  Luke:
+    long: Luka
+    short: Lk
+  Mal:
+    long: Malahki
+    short: Mal
+  Mark:
+    long: Marku
+    short: Mk
+  Matt:
+    long: Mahte
+    short: Mat
+  Mic:
+    long: Mihka
+    short: MiK
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nehemia
+    short: Neh
+  Num:
+    long: Bu Hkawm
+    short: Bhk
+  Obad:
+    long: Obadia
+    short: Oba
+  Phil:
+    long: Hpilipi
+    short: Hpilipi
+  Phlm:
+    long: Hpilemon
+    short: Hpilemon
+  Prov:
+    long: Ga Shagawp
+    short: Ga Shagawp
+  Ps:
+    long: Shakawn Kungdawn
+    short: Shakawn Kungdawn
+  Rev:
+    long: Shingran
+    short: Shr
+  Rom:
+    long: Roma
+    short: Rom
+  Ruth:
+    long: Ruhta
+    short: Ruhta
+  Song:
+    long: Shawlumon A Mahkawn Ga
+    short: Shawlumon A Mahkawn Ga
+  Titus:
+    long: Titu
+    short: Tit
+  Zech:
+    long: Zehkaria
+    short: Zeh
+  Zeph:
+    long: Zehpani
+    short: Zehpani
+translations:
+  jclb:
+    1Chr:
+      short: 1Hl
+    1Cor:
+      short: 1Ko
+    1John:
+      short: 1Yh
+    1Kgs:
+      short: 1Hk
+    1Sam:
+      short: 1Sa
+    1Tim:
+      short: 1Tm
+    2Chr:
+      short: 2Hl
+    2Cor:
+      short: 2Ko
+    2John:
+      short: 2Yh
+    2Kgs:
+      short: 2Hk
+    2Sam:
+      short: 2Sa
+    2Thess:
+      short: 2Ht
+    2Tim:
+      short: 2Tm
+    3John:
+      short: 3Yh
+    Deut:
+      short: Trj
+    Eccl:
+      short: Hpj
+    Exod:
+      long: Pru Mat Wa Ai
+    Josh:
+      short: Ysh
+    Judg:
+      short: Trg
+    Luke:
+      short: Luk
+    Mal:
+      long: Malahki Laika
+    Mark:
+      short: Mrk
+    Phil:
+      short: Hpl
+    Phlm:
+      short: Hpm
+    Prov:
+      short: Gsh
+    Ps:
+      short: Shk
+    Ruth:
+      short: Rut
+    Song:
+      short: Smg
+    Zeph:
+      short: Zep
+  jhvt3:
+    Col:
+      short: Kolose
+    Eph:
+      short: Ehpesu
+    Esth:
+      short: Eshta
+    Exod:
+      short: Pru Mat
+    Ezek:
+      short: Ezekela
+    Ezra:
+      short: Ezra
+    Gal:
+      long: Galati Ni
+      short: Galati Ni
+    Gen:
+      short: Ningpawt Ninghpang
+    Hab:
+      short: Habaku
+    Hos:
+      short: Hosea
+    Jas:
+      short: Yaku
+    Jer:
+      short: Yeremia
+    Job:
+      short: Yoba
+    John:
+      short: Yn
+    Jonah:
+      short: Yona
+    Jude:
+      short: Yuda
+    Lev:
+      short: Jaw Jau
+    Mal:
+      short: Malahki
+    Matt:
+      short: Mt
+    Mic:
+      short: Mihka
+    Nah:
+      short: Nahum
+    Neh:
+      short: Nehemia
+    Num:
+      short: Bu Hkawm
+    Obad:
+      long: Obedia
+      short: Obedia
+    Rom:
+      short: Roma
+    Titus:
+      short: Titu

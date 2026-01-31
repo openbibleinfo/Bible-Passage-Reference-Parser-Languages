@@ -1,0 +1,370 @@
+default:
+  1Chr:
+    long: 1 Yá̰a̰ Gə̄
+    short: 1 Yá̰a̰
+  1Cor:
+    long: 1 Korḛntə
+    short: 1Ko
+  1John:
+    long: 1 Ja̰a̰
+    short: 1Ja̰a̰
+  1Kgs:
+    long: 1 Mban̄g Gə̄
+    short: 1 Mba
+  1Macc:
+    long: 1 Makabe Gə̄
+    short: 1Mak
+  1Pet:
+    long: 1 Piyer
+    short: 1Pi
+  1Sam:
+    long: 1 Samuel
+    short: 1 Sam
+  1Thess:
+    long: 1 Tesalonik
+    short: 1Tes
+  1Tim:
+    long: 1 Timote
+    short: 1 Tim
+  2Chr:
+    long: 2 Yá̰a̰ Gə̄
+    short: 2 Yá̰a̰
+  2Cor:
+    long: 2 Korḛntə
+    short: 2Ko
+  2John:
+    long: 2 Ja̰a̰
+    short: 2Ja̰a̰
+  2Kgs:
+    long: 2 Mban̄g
+    short: 2 Mba
+  2Macc:
+    long: 2 Makabe Gə̄
+    short: 2Mak
+  2Pet:
+    long: 2 Piyer
+    short: 2Pi
+  2Sam:
+    long: 2 Samuel
+    short: 2 Sam
+  2Thess:
+    long: 2 Tesalonik
+    short: 2Tes
+  2Tim:
+    long: 2 Timote
+    short: 2 Tim
+  3John:
+    long: 3 Ja̰a̰
+    short: 3Ja̰a̰
+  Acts:
+    long: Kəla Rāā
+    short: Kəla
+  Amos:
+    long: Amos
+    short: Am
+  Bar:
+    long: Baruk
+    short: Bar
+  Bel:
+    long: Ɓesə̄ Bel
+    short: Bel
+  Col:
+    long: Kolosə
+    short: Koloə
+  Dan:
+    long: Daniel
+    short: Dan
+  Deut:
+    long: Ndū Najə̄
+    short: Ndū
+  Eccl:
+    long: Kohelet
+    short: Kohelet
+  EpJer:
+    long: Makətūbə̄ yā Jeremi
+    short: Makətūbə̄ yā Jeremi
+  Eph:
+    long: Epejə
+    short: Ep
+  Esth:
+    long: Ester
+    short: Est
+  EsthGr:
+    long: Ester kə ta Gərek
+    short: Ester kə ta Gərek
+  Exod:
+    long: Teē
+    short: Teē
+  Ezek:
+    long: Ejekiel
+    short: Eje
+  Ezra:
+    long: Esdras
+    short: Esdras
+  Gal:
+    long: Galatə
+    short: Gal
+  Gen:
+    long: Ta Kəla
+    short: Tkg
+  Hab:
+    long: Habakuk
+    short: Hab
+  Hag:
+    long: Aje
+    short: Aje
+  Heb:
+    long: Hebəro
+    short: Heb
+  Hos:
+    long: Makətūbə̄ yā Ojee
+    short: Oje
+  Isa:
+    long: Ijai
+    short: Ij
+  Jas:
+    long: Jakə
+    short: Jak
+  Jdt:
+    long: Juditə
+    short: Juditə
+  Jer:
+    long: Jeremi
+    short: Jer
+  Job:
+    long: Job
+    short: Job
+  Joel:
+    long: Joel
+    short: Jo
+  John:
+    long: Ja̰a̰
+    short: Ja̰a̰
+  Jonah:
+    long: Jonas
+    short: Jonas
+  Josh:
+    long: Jojue
+    short: Joj
+  Jude:
+    long: Jud
+    short: Jud
+  Judg:
+    long: Makətūbə̄ yā Ngé Sarya gə̄
+    short: Sar
+  Lam:
+    long: Makətūbə̄ Nōō rɔ̄
+    short: Nōō rɔ̄
+  Lev:
+    long: Lebi Gə̄
+    short: Leb
+  Luke:
+    long: Luk
+    short: Luk
+  Mal:
+    long: Makətūbə̄ yā Malasi
+    short: Mal
+  Mark:
+    long: Mark
+    short: Mark
+  Matt:
+    long: Matiye
+    short: Mat
+  Mic:
+    long: Makətūbə̄ yā Mise
+    short: Mis
+  Nah:
+    long: Makətūbə̄ yā Nahum
+    short: Nah
+  Neh:
+    long: Makətūbə̄ yā Nehemi
+    short: Nehemi
+  Num:
+    long: Tə́da
+    short: Tə́da
+  Obad:
+    long: Abədias
+    short: Abədias
+  Phil:
+    long: Makətūbə̄ ń Pol ndang adə̄ Pilipə gə̄ ní
+    short: Pilipə
+  Phlm:
+    long: Makətūbə̄ ń Pol ndang adə̄ Pilemo̰ ní
+    short: Pil
+  PrAzar:
+    long: PĀ YĀ BALSÁÁ KƏ́ MƏTÁ GƏ̄
+    short: Pā yā balsáá kə́ mətá gə̄
+  Prov:
+    long: Gōsə̄
+    short: Gōs
+  Ps:
+    long: Makətūbə̄ Pā gə̄ kə́ yā tɔ̄yń Nə́ɓā
+    short: Pā
+  Rev:
+    long: Jeju Teē Kum Ja̰a̰
+    short: Yá̰Jt
+  Rom:
+    long: Makətūbə̄ ń Pol ndang adə̄ Rom gə̄ ní
+    short: Rom
+  Ruth:
+    long: Makətūbə̄ yā Rutə
+    short: Rutə
+  Sir:
+    long: Jeju Kə́ Ngōn̄ Sirak
+    short: Sirak
+  Song:
+    long: Pā kə́ majə
+    short: Pā kə́ majə
+  Sus:
+    long: Sujan
+    short: Sujan
+  Titus:
+    long: Makətūbə̄ ń Pol ndang adə̄ Titə ní
+    short: Tit
+  Tob:
+    long: Tobi
+    short: Tobi
+  Wis:
+    long: Kum kedə̄
+    short: Kum kedə̄
+  Zech:
+    long: Jakari
+    short: Jaka
+  Zeph:
+    long: Makətūbə̄ yā Soponi
+    short: Sop
+translations:
+  sb:
+    1Chr:
+      long: Makətūbə̄ kə́ ta kəga dɔ kə́ dɔ Yá̰a̰ gə̄ ń rāān̄ yá̰á̰ tə́ ní
+    1Cor:
+      long: Makətūbə̄ kə́ ta kəga dɔ ń Pol ndang adə̄ Korḛntə gə̄ ní
+    1John:
+      long: Makətūbə̄ kə́ ta kəga dɔ ń Ja̰a̰ ndang ní
+    1Kgs:
+      long: Makətūbə̄ kə́ ta kəga dɔ yā Mban̄g gə̄
+    1Pet:
+      long: Makətūbə̄ kə́ ta kəga dɔ ń Piyer ndang ní
+    1Sam:
+      long: Makətūbə̄ kə́ ta kəga dɔ yā Samuel
+    1Thess:
+      long: Makətūbə̄ kə́ ta kəga dɔ ń Pol ndang adə̄ Tesalonik gə̄ ní
+    1Tim:
+      long: Makətūbə̄ kə́ ta kəga dɔ ń Pol ndang adə̄ Timote ní
+    2Chr:
+      long: Makətūbə̄ kə́ nge ko̰ jōó kə́ dɔ Yá̰a̰ gə̄ ń rāān̄ yá̰á̰ tə́ ní
+    2Cor:
+      long: Makətūbə̄ kə́ nge ko̰ jōó ń Pol ndang adə̄ Korḛntə gə̄ ní
+    2John:
+      long: Makətūbə̄ kə́ nge ko̰ jōó ń Ja̰a̰ ndang ní
+    2Kgs:
+      long: Makətūbə̄ kə́ nge ko̰ jōó yā Mban̄g gə̄
+    2Pet:
+      long: Makətūbə̄ kə́ nge ko̰ jōó ń Piyer ndang ní
+    2Sam:
+      long: Makətūbə̄ kə́ nge ko̰ jōó yā Samuel
+    2Thess:
+      long: Makətūbə̄ kə́ nge ko̰ jōó ń Pol ndang adə̄ Tesalonik gə̄ ní
+    2Tim:
+      long: Makətūbə̄ kə́ nge ko̰ jōó ń Pol ndang adə̄ Timote ní
+    3John:
+      long: Makətūbə̄ kə́ nge ko̰ mətá ń Ja̰a̰ ndang ní
+    Acts:
+      long: Kəla rāā Ngámbang kəla gə̄
+    Amos:
+      long: Makətūbə̄ yā Amos
+    Col:
+      long: Makətūbə̄ ń Pol ndang adə̄ Kolosə gə̄ ní
+    Dan:
+      long: Makətūbə̄ yā Daniel
+    Deut:
+      long: Ndū Najə̄ kə́ nge ko̰ jōó
+    Eccl:
+      long: Makətūbə̄ yā Kohelet
+    Eph:
+      long: Makətūbə̄ ń Pol ndang adə̄ Epejə gə̄ ní
+    Esth:
+      long: Makətūbə̄ yā Ester
+    Exod:
+      long: Teē Ngán Israel gə̄
+    Ezek:
+      long: Makətūbə̄ yā Ejekiel
+    Ezra:
+      long: Makətūbə̄ yā Esdras
+    Gal:
+      long: Makətūbə̄ ń Pol ndang adə̄ Galatə gə̄ ní
+    Gen:
+      long: Ta Kəla gír yá̰a̰ gə̄
+    Hab:
+      long: Makətūbə̄ yā Habakuk
+    Hag:
+      long: Makətūbə̄ yā Aje
+    Heb:
+      long: Makətūbə̄ kə́ ndang adə̄n̄ Hebəro gə̄
+    Isa:
+      long: Makətūbə̄ yā Ijai
+    Jas:
+      long: Makətūbə̄ ń Jakə ndang ní
+    Jer:
+      long: Makətūbə̄ yā Jeremi
+    Job:
+      long: Makətūbə̄ yā Job
+    Joel:
+      long: Makətūbə̄ yā Joel
+    John:
+      long: Najə̄ kə́ Majə yā Jeju ń Ja̰a̰ ndang ní
+    Jonah:
+      long: Makətūbə̄ yā Jonas
+    Josh:
+      long: Makətūbə̄ yā Jojue
+    Jude:
+      long: Makətūbə̄ ń Jud ndang ní
+    Lev:
+      long: Ndū najə̄ yā Ngán Lebi gə̄
+    Luke:
+      long: Najə̄ kə́ Majə yā Jeju ń Luk ndang ní
+    Mark:
+      long: Najə̄ kə́ Majə yā Jeju ń Mark ndang ní
+    Matt:
+      long: Najə̄ kə́ Majə yā Jeju ń Matiye ndang ní
+    Num:
+      long: Tə́da kutə Ngán Israel gə̄
+    Obad:
+      long: Makətūbə̄ yā Abədias
+    Prov:
+      long: Gōsə̄ najə̄ gə̄
+    Rev:
+      long: Makətūbə̄ Yá̰a̰ gə̄ kə́ Jeju teē kum Ja̰a̰ dɔ tə́
+    Song:
+      long: Pā kə́ majə tɔȳ pā gə̄
+    Zech:
+      long: Makətūbə̄ yā Jakari
+  sardc:
+    Hos:
+      long: Ojee
+    Judg:
+      long: Ngé Sarya
+    Lam:
+      long: Nōō rɔ̄
+    Mal:
+      long: Malasi
+    Mic:
+      long: Mise
+    Nah:
+      long: Nahum
+    Neh:
+      long: Nehemi
+    Phil:
+      long: Pilipə
+    Phlm:
+      long: Pilemo̰
+    Ps:
+      long: Pā Gə̄
+    Rom:
+      long: Rom
+    Ruth:
+      long: Rutə
+    Titus:
+      long: Titə
+    Zeph:
+      long: Soponi

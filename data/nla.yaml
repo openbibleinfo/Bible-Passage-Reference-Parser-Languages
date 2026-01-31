@@ -1,0 +1,138 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Mənjwo Jâŋ
+      - Mjw
+  - osis: Matt
+    texts:
+      - Matyê
+      - Mat
+  - osis: Mark
+    texts:
+      - Máakúsʉ
+      - Mks
+  - osis: Luke
+    texts:
+      - Lúʼkáasʉ
+      - Lks
+  - osis: 1John
+    texts:
+      - 1Jŋ
+  - osis: 2John
+    texts:
+      - 2Jŋ
+  - osis: 3John
+    texts:
+      - 3 Jâŋ
+      - 3Jŋ
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jâŋ
+  - osis: Acts
+    texts:
+      - Məfaʼ Pəghaŋə-ntə̂u
+      - Mpt
+  - osis: Rom
+    texts:
+      - Lóma
+      - Lóm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korêŋtə
+  - osis: 1Cor
+    texts:
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - 2Ko
+  - osis: Col
+    texts:
+      - Kolósʉ
+      - Kol
+  - osis: Gal
+    texts:
+      - Galâtə
+      - Gal
+  - osis: Eph
+    texts:
+      - Efêzə
+      - Efz
+  - osis: Phil
+    texts:
+      - Filîpə
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonîkə
+  - osis: 1Thess
+    texts:
+      - 1Te
+  - osis: 2Thess
+    texts:
+      - 2Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotêi
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Tîtə
+      - Tît
+  - osis: Phlm
+    texts:
+      - Filemôŋ
+      - Flm
+  - osis: Heb
+    texts:
+      - Hebələ̂
+      - Heb
+  - osis: Jas
+    texts:
+      - Jâghʼ
+      - Jâg
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pyêh
+  - osis: 1Pet
+    texts:
+      - 1Py
+  - osis: 2Pet
+    texts:
+      - 2Py
+  - osis: Jude
+    texts:
+      - Jwîdə
+      - Jwd
+translations:
+  - NLA

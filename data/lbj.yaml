@@ -1,0 +1,168 @@
+variables:
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - གོ༌ཟུག༌
+  - osis: Exod
+    texts:
+      - བིང༌ཏེ༌ ཆའ༌ཁན༌
+      - Exodus
+  - osis: Rev
+    texts:
+      - ཡོང༌ཅེས༌ཅན༌ནི༌ དུས༌
+      - یونگچیسچانّی دوس
+      - یونگچیسچان
+  - osis: Josh
+    texts:
+      - ཡོ༌ཤུའ༌།
+      - ཡོ༌ཤུའ༌
+  - osis: Judg
+    texts:
+      - སྐྱོབ༌ཁན༌ནི༌ གོ༌ཁྲིད༌གུན༌
+  - osis: Ruth
+    texts:
+      - རུཐ༌
+  - osis: Dan
+    texts:
+      - དཱ༌ནི༌ཨེལ༌
+  - osis: Matt
+    texts:
+      - مادتھا
+      - མད༌ཐཱ༌
+      - متّی
+  - osis: Mark
+    texts:
+      - མར༌ཀུས༌
+      - مارکوس
+      - مرقُس
+  - osis: Luke
+    texts:
+      - ལུ༌ཀ༌
+      - لُوک
+      - لوکا
+  - osis: 1John
+    texts:
+      - ཡོ༌ཧཱ༌ནན༌ 1
+      - 1یُوؔحنّا
+      - یوہའنའن ۱
+  - osis: 2John
+    texts:
+      - ཡོ༌ཧཱ༌ནན༌ 2
+      - یوہའنའن ۲
+  - osis: 3John
+    texts:
+      - ཡོ༌ཧཱ༌ནན༌ 3
+      - 3 یوحنّان
+      - یوہའنའن ۳
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - یوحنّان
+  - osis: John
+    texts:
+      - ཡོ༌ཧཱ༌ནན༌
+      - یوہانان
+      - یوحنّا
+  - osis: Acts
+    texts:
+      - چھاگلاسگون
+      - ཆག༌ལས༌གུན༌
+      - چھاگلاس
+  - osis: Rom
+    texts:
+      - རོམ༌པ༌
+      - رومپا
+      - روم
+  - osis: 1Cor
+    texts:
+      - ཀོ༌རིན༌ཐི༌པ༌ 1
+      - کورینتھیپའ ۱
+      - 1کرِنت
+  - osis: 2Cor
+    texts:
+      - ཀོ༌རིན༌ཐི༌པ༌ 2
+      - کورینتھیپའ ۲
+      - 2کرِنت
+  - osis: Col
+    texts:
+      - ཀོ༌ལོ༌སིའི༌པ༌
+      - کولوسیپا
+      - کولوسی
+  - osis: Gal
+    texts:
+      - གཱ༌ལ༌ཏི༌ཡཱ༌པ༌
+      - گالاتییاپا
+      - گلَتیہ
+  - osis: Eph
+    texts:
+      - ཨེ༌ཕེ༌སུས༌པ༌
+      - ایپھیسوسپا
+      - اِفسُس
+  - osis: Phil
+    texts:
+      - ཕི༌ལི༌པི༌པ༌
+      - پھیلیپیپا
+      - فِلپّی
+  - osis: 1Thess
+    texts:
+      - ཐེ༌ས༌ལོ༌ནི༌ཀ༌པ༌ 1
+      - تھیسའلونیکའپའ ۱
+      - 1تھسلُنیکے
+  - osis: 2Thess
+    texts:
+      - ཐེ༌ས༌ལོ༌ནི༌ཀ༌པ༌ 2
+      - تھیسའلونیکའپའ ۲
+      - 2تھسلُنیکے
+  - osis: 1Tim
+    texts:
+      - ཏི༌མོ༌ཐི༌ 1
+      - تیموتھِی ۱
+      - 1تِیمُتی
+  - osis: 2Tim
+    texts:
+      - ཏི༌མོ༌ཐི༌ 2
+      - تیموتھِی ۲
+      - 2تِیمُتی
+  - osis: Titus
+    texts:
+      - ཏི༌ཏུས༌
+      - تیتوس
+      - طِطُس
+  - osis: Phlm
+    texts:
+      - ཕི༌ལི༌མོན༌
+      - پھیلیمون
+  - osis: Heb
+    texts:
+      - عبرانی پا
+      - ཨིབ༌རི༌པ༌
+      - عِبرانی
+  - osis: Jas
+    texts:
+      - یعقُوبؔ
+      - ཡ༌ཀོབ༌
+      - یاکوب
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - پطرؔس
+  - osis: 2Pet
+    texts:
+      - པི༌ཏྲར༌ 2
+      - پیٹའر ۲
+  - osis: 1Pet
+    texts:
+      - པི༌ཏྲར༌ 1
+      - 1پطرؔس
+      - پیٹའر
+  - osis: Jude
+    texts:
+      - ཡུ༌དཱ༌
+      - یودا
+translations:
+  - LBJ
+  - LBJNT

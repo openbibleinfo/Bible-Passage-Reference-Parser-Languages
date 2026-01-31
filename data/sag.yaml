@@ -1,0 +1,253 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Tongo nda ti aye
+      - Tonda
+  - osis: Exod
+    texts:
+      - Sigingo
+      - Sigi
+  - osis: Lev
+    texts:
+      - Awayango-sandaga
+      - Sandaga
+  - osis: Num
+    texts:
+      - Wungo ti azo
+      - Wungo
+  - osis: Lam
+    texts:
+      - Abia ti demango tere
+      - Dema
+  - osis: Rev
+    texts:
+      - Aye so Nzapa afa
+      - Nz. afa
+  - osis: Deut
+    texts:
+      - Ndia ti fani use ni
+      - U. Ndia
+  - osis: Josh
+    texts:
+      - Josué
+      - Jos
+  - osis: Judg
+    texts:
+      - Awafango-ngbanga
+      - Awaf
+  - osis: Ruth
+    texts:
+      - Ruth
+  - osis: Isa
+    texts:
+      - Ésaïe
+      - És
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Agbia
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Mbai
+  - osis: Ezra
+    texts:
+      - Esdras
+      - Esd
+  - osis: Neh
+    texts:
+      - Néhémie
+      - Néh
+  - osis: Esth
+    texts:
+      - Esther
+      - Est
+  - osis: Job
+    texts:
+      - Job
+  - osis: Prov
+    texts:
+      - Amato
+  - osis: Eccl
+    texts:
+      - Zo ti bongbingo azo
+      - Zo ti b.
+  - osis: Song
+    texts:
+      - B. ti abia
+  - osis: Ps
+    texts:
+      - Abia
+  - osis: Jer
+    texts:
+      - Jérémie
+      - Jér
+  - osis: Ezek
+    texts:
+      - Ezekiel
+      - Ezek
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan
+  - osis: Hos
+    texts:
+      - Osée
+  - osis: Joel
+    texts:
+      - Joël
+  - osis: Amos
+    texts:
+      - Amos
+  - osis: Obad
+    texts:
+      - Abdias
+      - Abd
+  - osis: Jonah
+    texts:
+      - Jonas
+      - Jon
+  - osis: Mic
+    texts:
+      - Mishe
+      - Mish
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sofonii
+      - Sof
+  - osis: Hag
+    texts:
+      - Aggée
+      - Agg
+  - osis: Zech
+    texts:
+      - Zakarii
+      - Zak
+  - osis: Mal
+    texts:
+      - Malashii
+      - Mal
+  - osis: Matt
+    texts:
+      - Matthieu
+      - Matt
+  - osis: Mark
+    texts:
+      - Marc
+  - osis: Luke
+    texts:
+      - Luc
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jean
+  - osis: Acts
+    texts:
+      - Awatokua
+      - Awat
+  - osis: Rom
+    texts:
+      - Rome
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korente
+      - Kor
+  - osis: Col
+    texts:
+      - Kolose
+      - Kol
+  - osis: Gal
+    texts:
+      - Galasii
+      - Gal
+  - osis: Eph
+    texts:
+      - Efeze
+      - Efe
+  - osis: Phil
+    texts:
+      - Filipe
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonike
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothée
+      - Tim
+  - osis: Titus
+    texts:
+      - Tite
+  - osis: Phlm
+    texts:
+      - Philémon
+      - Phm
+  - osis: Heb
+    texts:
+      - Ahebro
+      - Aheb
+  - osis: Jas
+    texts:
+      - Jacques
+      - Jac
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pierre
+      - Pi
+  - osis: Jude
+    texts:
+      - Jude
+translations:
+  - BSC2010

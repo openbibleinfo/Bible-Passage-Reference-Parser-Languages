@@ -1,0 +1,235 @@
+default:
+  1Chr:
+    long: Ɓi Ngi Hin Gar Mudumbuŋ Naŋ
+    short: 1 Ɓi Hi
+  1Cor:
+    long: Korentihey Mudumbuŋ
+    short: 1 Kor
+  1John:
+    long: Zaŋ Mudumbuŋ Naŋ
+    short: 1 Zaŋ
+  1Kgs:
+    long: Buyoy Mudumbuŋ Naŋ
+    short: 1 Buy
+  1Macc:
+    long: 1 Mak
+    short: 1 Mak
+  1Pet:
+    long: Piyer Mudumbuŋ Naŋ
+    short: 1 Piyer
+  1Sam:
+    long: Samuyel Mudumbuŋ Naŋ
+    short: 1 Sam
+  1Thess:
+    long: Tesalonikey Mudumbuŋ Naŋ
+    short: 1 Tes
+  1Tim:
+    long: Timote Mudumbuŋ Naŋ
+    short: 1 Ti
+  2Chr:
+    long: Ɓi Ngi Hiney Mucuw Naŋ
+    short: 2 Ɓi Hi
+  2Cor:
+    long: Korentihey Mucuw Naŋ
+    short: 2 Kor
+  2John:
+    long: Zaŋ Mucuw Naŋ
+    short: 2 Zaŋ
+  2Kgs:
+    long: Buyoy Mucuw Naŋ
+    short: 2 Buy
+  2Macc:
+    long: 2 Mak
+    short: 2 Mak
+  2Pet:
+    long: Piyer Mucuw Naŋ
+    short: 2 Piyer
+  2Sam:
+    long: Samuyel Mucuw Naŋ
+    short: 2 Sam
+  2Thess:
+    long: Tesalonikey Mucuw Naŋ
+    short: 2 Tes
+  2Tim:
+    long: Timote Mucuw Naŋ
+    short: 2 Ti
+  3John:
+    long: Zaŋ Mimakir Naŋ
+    short: 3 Zaŋ
+  Acts:
+    long: Slra
+    short: Slra
+  Amos:
+    long: Amos
+    short: Amos
+  Bar:
+    long: Bar
+    short: Bar
+  Bel:
+    long: Bel
+    short: Bel
+  Col:
+    long: Kolosoy
+    short: Kol
+  Dan:
+    long: Daniyel
+    short: Dan
+  Deut:
+    long: Slu cuw
+    short: Slu cuw
+  Eccl:
+    long: Tila Mi
+    short: Til
+  EpJer:
+    long: Ɗe Zer
+    short: De Zer
+  Eph:
+    long: Efesey
+    short: Efe
+  Esth:
+    long: Ester
+    short: Es
+  EsthGr:
+    long: Est G
+    short: Est G
+  Exod:
+    long: Bi Ngi Israyeley
+    short: Bi
+  Ezek:
+    long: Ezekiyel
+    short: Eze
+  Ezra:
+    long: Esdras
+    short: Esd
+  Gal:
+    long: Galatay
+    short: Gal
+  Gen:
+    long: Zli Virzi
+    short: Zli
+  Hab:
+    long: Habakuk
+    short: Hab
+  Hag:
+    long: Aze
+    short: Aze
+  Heb:
+    long: Heberey
+    short: Heb
+  Hos:
+    long: Oze
+    short: Oze
+  Isa:
+    long: Ezayi
+    short: Eza
+  Jas:
+    long: Zak
+    short: Zk
+  Jdt:
+    long: Jud
+    short: Jud
+  Jer:
+    long: Zeremi
+    short: Zer
+  Job:
+    long: Jop
+    short: Jop
+  Joel:
+    long: Zowel
+    short: Zow
+  John:
+    long: Zaŋ
+    short: Zaŋ
+  Jonah:
+    long: Zonas
+    short: Zon
+  Josh:
+    long: Zozuwe
+    short: Zozu
+  Jude:
+    long: Zude
+    short: Zude
+  Judg:
+    long: Migi Kiitahay
+    short: Kiit
+  Lam:
+    long: Tuwuy
+    short: Tuw
+  Lev:
+    long: Levihey
+    short: Levi
+  Luke:
+    long: Luk
+    short: Luk
+  Mal:
+    long: Malasi
+    short: Mal
+  Mark:
+    long: Mark
+    short: Mark
+  Matt:
+    long: Matiye
+    short: Mat
+  Mic:
+    long: Mise
+    short: Mise
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nehemi
+    short: Neh
+  Num:
+    long: Slufa Vu
+    short: Sluf
+  Obad:
+    long: Abdiyas
+    short: Abd
+  Phil:
+    long: Filipihey
+    short: Fil
+  Phlm:
+    long: Filemoŋ
+    short: File
+  PrAzar:
+    long: Dan G
+    short: Dan G
+  Prov:
+    long: Mikucuwuloy
+    short: Miku
+  Ps:
+    long: Dimisey
+    short: Dim
+  Rev:
+    long: Ɓimunjuyo
+    short: Ɓim
+  Rom:
+    long: Romahay
+    short: Rom
+  Ruth:
+    long: Ruth
+    short: Ruth
+  Sir:
+    long: Sir
+    short: Sir
+  Song:
+    long: Dimis Mimezle
+    short: Mim
+  Sus:
+    long: Suz
+    short: Suz
+  Titus:
+    long: Tit
+    short: Tit
+  Tob:
+    long: Tob
+    short: Tob
+  Wis:
+    long: Sin Ji
+    short: Sin Ji
+  Zech:
+    long: Zakari
+    short: Zak
+  Zeph:
+    long: Sofoni
+    short: Sof

@@ -1,0 +1,208 @@
+default:
+  1Chr:
+    long: 1 Chanchin Suina
+    short: 1 Chr
+  1Cor:
+    long: 1 Korinth
+    short: 1 Kor
+  1John:
+    long: 1 Johan
+    short: 1 Jn
+  1Kgs:
+    long: 1 Lalhai
+    short: 1 Lal
+  1Pet:
+    long: 1 Peter
+    short: 1 Pet
+  1Sam:
+    long: 1 Samuel
+    short: 1 Sam
+  1Thess:
+    long: 1 Thessalonika
+    short: 1 Thes
+  1Tim:
+    long: 1 Timothe
+    short: 1 Tim
+  2Chr:
+    long: 2 Chanchin Suina
+    short: 2 Chr
+  2Cor:
+    long: 2 Korinth
+    short: 2 Kor
+  2John:
+    long: 2 Johan
+    short: 2 Jn
+  2Kgs:
+    long: 2 Lalhai
+    short: 2 Lal
+  2Pet:
+    long: 2 Peter
+    short: 2 Pet
+  2Sam:
+    long: 2 Samuel
+    short: 2 Sam
+  2Thess:
+    long: 2 Thessalonika
+    short: 2 Thes
+  2Tim:
+    long: 2 Timothe
+    short: 2 Tim
+  3John:
+    long: 3 Johan
+    short: 3 Jn
+  Acts:
+    long: Thilthawhai
+    short: Tt
+  Amos:
+    long: Amos
+    short: Am
+  Col:
+    long: Kolossa
+    short: Kol
+  Dan:
+    long: Daniel
+    short: Dan
+  Deut:
+    long: Dân Pahnina
+    short: Dt
+  Eccl:
+    long: Thuhriltu
+    short: Ttu
+  Eph:
+    long: Ephesi
+    short: Eph
+  Esth:
+    long: Esther
+    short: Est
+  Exod:
+    long: Fesuokna
+    short: Ex
+  Ezek:
+    long: Ezekiel
+    short: Ezek
+  Ezra:
+    long: Ezra
+    short: Ezr
+  Gal:
+    long: Galati
+    short: Gal
+  Gen:
+    long: Inṭanna
+    short: Gen
+  Hab:
+    long: Habakkuk
+    short: Hab
+  Hag:
+    long: Haggai
+    short: Hag
+  Heb:
+    long: Hebraihai
+    short: Heb
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Isai
+    short: Is
+  Jas:
+    long: Jakob
+    short: Jak
+  Jer:
+    long: Jeremia
+    short: Jer
+  Job:
+    long: Job
+    short: Job
+  Joel:
+    long: Joel
+    short: Joel
+  John:
+    long: Johan
+    short: Jn
+  Jonah:
+    long: Jona
+    short: Jon
+  Josh:
+    long: Josua
+    short: Jos
+  Jude:
+    long: Juda
+    short: Juda
+  Judg:
+    long: Roreltuhai
+    short: Rt
+  Lam:
+    long: Ṭap Hla
+    short: Ṭap
+  Lev:
+    long: Levi Dân
+    short: Lev
+  Luke:
+    long: Luka
+    short: Lk
+  Mal:
+    long: Malaki
+    short: Mal
+  Mark:
+    long: Marka
+    short: Mk
+  Matt:
+    long: Matthai
+    short: Mt
+  Mic:
+    long: Mika
+    short: MiK
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nehemia
+    short: Neh
+  Num:
+    long: Nambar
+    short: Nam
+  Obad:
+    long: Obadia
+    short: Ob
+  Phil:
+    long: Philippi
+    short: Phil
+  Phlm:
+    long: Philemon
+    short: Phlm
+  Prov:
+    long: Thuvarhai
+    short: Tv
+  Ps:
+    long: Inpâkna Hla Bu
+    short: Sm
+  Rev:
+    long: Thuphuongsuo
+    short: Tp
+  Rom:
+    long: Rom
+    short: Rom
+  Ruth:
+    long: Ruth
+    short: Ruth
+  Song:
+    long: Hlahai Hla
+    short: Hh
+  Titus:
+    long: Tita
+    short: Tit
+  Zech:
+    long: Zekaria
+    short: Zek
+  Zeph:
+    long: Zephania
+    short: Zeph
+translations:
+  hmarclbsi:
+    2Pet:
+      long: Peter
+    Ps:
+      long: Inpâkna Hlabu
+  hmovbsi:
+    Rev:
+      long: Thupuongsuo

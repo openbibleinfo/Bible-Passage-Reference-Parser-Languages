@@ -1,0 +1,144 @@
+variables:
+  first: &first
+    - १
+    - ༡
+  second: &second
+    - २
+    - ༢
+books:
+  - osis: Rev
+    texts:
+      - ॱङो़न्‍पा
+      - མངོན་པ།
+  - osis: Matt
+    texts:
+      - མད་ཐཱ།
+      - मेथा
+  - osis: Mark
+    texts:
+      - མར་ཀུ།
+      - मारकु
+  - osis: Luke
+    texts:
+      - ལུ་ཀ།
+      - लुका
+      - ལུ་ཀ
+  - osis: 3John
+    texts:
+      - ३ योहान्‍ना
+      - ༣ ཡོ་ཧ་ནན།
+      - ༣ ཡོ་ཧ།
+      - ३ योहा
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - योहान्‍ना
+      - ཡོ་ཧ་ནན།
+      - ཡོ་ཧ།
+      - योहा
+  - osis: Acts
+    texts:
+      - མཛད་པ།
+      - जेपा
+  - osis: Rom
+    texts:
+      - རོ་མཱ་པ།
+      - रोमापा
+      - རོ་མཱ།
+      - रोम
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - ཀོ་རིན་ཐུ་པ།
+      - कोरीन्‍थुपा
+      - ཀོ་རིན།
+      - कोरीन
+  - osis: Col
+    texts:
+      - ཀོ་ལོ་སཱེ་པ།
+      - ཀོ་ལོ་སཱེ།
+      - कोलोसेपा
+      - कोलोसे
+  - osis: Gal
+    texts:
+      - ག་ལ་ཏི་ཡཱ་པ།
+      - गालातीयापा
+      - ག་ལ་ཏི་ཡཱ།
+      - गालातीया
+  - osis: Eph
+    texts:
+      - ཨེ་ཕེ་སུ་པ།
+      - ཨེ་ཕེ་སུ།
+      - एफीसुपा
+      - एफीसु
+  - osis: Phil
+    texts:
+      - ཕི་ལིབ་པཱི་པ།
+      - फीलीप्‍पीपा
+      - ཕི་ལིབ།
+      - फीलीप
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - ཐེ་ས་ལོ་ནི་ཀེ་པ།
+      - थेसालोनीकेपा
+      - ཐེ་ས།
+      - थेसा
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - ཏི་མོ་ཐེའུ།
+      - ཏི་མོ་ཐེ།
+      - तीमोथेउ
+      - तीमोथे
+  - osis: Titus
+    texts:
+      - ཏི་ཏོས།
+      - ཏི་ཏོ།
+      - तीतोस
+      - तीतो
+  - osis: Phlm
+    texts:
+      - ཕི་ལེ་མོན།
+      - फीलेमोन
+      - ཕི་ལེ།
+      - फीले
+  - osis: Heb
+    texts:
+      - ཨིབ་རི་པ།
+      - ईब्‍रीपा
+      - ཨིབ་རི།
+      - ईब्‍री
+  - osis: Jas
+    texts:
+      - ཡ་ཀོབ།
+      - याकोब
+      - ཡ་ཀོ།
+      - याको
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - པེ་ཏྲོ།
+      - पेटो
+  - osis: Jude
+    texts:
+      - ཡུ་དཱ།
+      - युदा
+translations:
+  - LOY

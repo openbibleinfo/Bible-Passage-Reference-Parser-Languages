@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Revilieshan
+  - osis: Matt
+    texts:
+      - Matyu
+  - osis: Mark
+    texts:
+      - Maak
+  - osis: Luke
+    texts:
+      - Luuk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jan
+  - osis: Acts
+    texts:
+      - Aks
+  - osis: Rom
+    texts:
+      - Ruoman
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintiyan
+  - osis: Col
+    texts:
+      - Koloshan
+  - osis: Gal
+    texts:
+      - Gyalieshan
+  - osis: Eph
+    texts:
+      - Ifiijan
+  - osis: Phil
+    texts:
+      - Filipiyan
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaluoniyan
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: Titus
+    texts:
+      - Taitos
+  - osis: Phlm
+    texts:
+      - Failiiman
+  - osis: Heb
+    texts:
+      - Iibruu
+  - osis: Jas
+    texts:
+      - Jiemz
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piita
+  - osis: Jude
+    texts:
+      - Juud
+translations:
+  - JNT

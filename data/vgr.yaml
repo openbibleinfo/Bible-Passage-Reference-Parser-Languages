@@ -1,0 +1,85 @@
+books:
+  - osis: Rev
+    texts:
+      - ప్రక
+  - osis: Matt
+    texts:
+      - మత్త
+  - osis: Mark
+    texts:
+      - మార్కు
+  - osis: Luke
+    texts:
+      - లూకా
+  - osis: 1John
+    texts:
+      - 1యోహా
+  - osis: 2John
+    texts:
+      - 2యోహా
+  - osis: 3John
+    texts:
+      - 3యోహా
+  - osis: John
+    texts:
+      - యోహా
+  - osis: Acts
+    texts:
+      - అపొ
+  - osis: Rom
+    texts:
+      - రోమా
+  - osis: 1Cor
+    texts:
+      - 1కొరింథీ
+  - osis: 2Cor
+    texts:
+      - 2కొరింథీ
+  - osis: Col
+    texts:
+      - కొలొస్సీ
+  - osis: Gal
+    texts:
+      - గలతీ
+  - osis: Eph
+    texts:
+      - ఎఫెసీ
+  - osis: Phil
+    texts:
+      - ఫిలిప్పీ
+  - osis: 1Thess
+    texts:
+      - 1థెస్స
+  - osis: 2Thess
+    texts:
+      - 2థెస్స
+  - osis: 1Tim
+    texts:
+      - 1తిమో
+  - osis: 2Tim
+    texts:
+      - 2తిమో
+  - osis: Titus
+    texts:
+      - తీతు
+  - osis: Phlm
+    texts:
+      - ఫిలేమోన్
+      - ఫిలే
+  - osis: Heb
+    texts:
+      - హెబ్రీ
+  - osis: Jas
+    texts:
+      - యాకో
+  - osis: 1Pet
+    texts:
+      - 1పేతు
+  - osis: 2Pet
+    texts:
+      - 2పేతు
+  - osis: Jude
+    texts:
+      - యూదా
+translations:
+  - NTVII24

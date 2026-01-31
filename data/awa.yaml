@@ -1,0 +1,276 @@
+variables:
+  first: &first
+    - "1"
+    - पहिला
+  second: &second
+    - "2"
+    - दूसर
+books:
+  - osis: Gen
+    texts:
+      - उत्पत्ति
+  - osis: Exod
+    texts:
+      - निर्गमन
+      - निर्ग.
+  - osis: Lev
+    texts:
+      - लैव्यव्यवस्था
+      - लैव्य.
+  - osis: Num
+    texts:
+      - गनती
+  - osis: Lam
+    texts:
+      - विलापगीत
+      - विलाप.
+  - osis: Rev
+    texts:
+      - प्रकासित वाक्य
+      - प्र. वा.
+  - osis: Deut
+    texts:
+      - व्यवस्था विवरण
+      - व्यवस्था
+  - osis: Josh
+    texts:
+      - यहोसू
+  - osis: Judg
+    texts:
+      - निआवाधीसन
+  - osis: Ruth
+    texts:
+      - रूत
+  - osis: Isa
+    texts:
+      - यसायाह
+      - यसा.
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - समूएल
+      - समू.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - राजा
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - इतिहास
+      - इति.
+  - osis: Ezra
+    texts:
+      - एज्रा
+  - osis: Neh
+    texts:
+      - नहेमायाह
+      - नहे.
+  - osis: Esth
+    texts:
+      - एस्तेर
+  - osis: Job
+    texts:
+      - अय्यूब
+  - osis: Ps
+    texts:
+      - भजन संहिता
+      - भ. सं.
+  - osis: Prov
+    texts:
+      - नीतिवचन
+      - नीति.
+  - osis: Eccl
+    texts:
+      - सभोपदेसक
+      - सभो.
+  - osis: Song
+    texts:
+      - स्रेस्ठगीत
+  - osis: Jer
+    texts:
+      - यिर्मयाह
+      - यिर्म.
+  - osis: Ezek
+    texts:
+      - यहेजकेल
+  - osis: Dan
+    texts:
+      - दानिय्येल
+  - osis: Hos
+    texts:
+      - होसे
+  - osis: Joel
+    texts:
+      - योए.
+      - योएल
+  - osis: Amos
+    texts:
+      - आमोस
+  - osis: Obad
+    texts:
+      - ओबद्याह
+  - osis: Jonah
+    texts:
+      - योना
+  - osis: Mic
+    texts:
+      - मीका
+  - osis: Nah
+    texts:
+      - नहूम
+  - osis: Hab
+    texts:
+      - हबक्कूक
+  - osis: Zeph
+    texts:
+      - सपन्याह
+  - osis: Hag
+    texts:
+      - हाग्गै
+  - osis: Zech
+    texts:
+      - जकर्याह
+  - osis: Mal
+    texts:
+      - मलाकी
+  - osis: Matt
+    texts:
+      - मत्ती रचित सुसमाचार
+      - मत्ती
+  - osis: Mark
+    texts:
+      - मरकुस रचित सुसमाचार
+      - मरकुस
+  - osis: Luke
+    texts:
+      - लूका रचित सुसमाचार
+      - लूका
+  - osis: 1John
+    texts:
+      - यूहन्ना क पहिली पत्र
+  - osis: 2John
+    texts:
+      - यूहन्ना क दूसरी पत्र
+  - osis: 3John
+    texts:
+      - यूहन्ना क तीसरी पत्र
+      - 3 यूहन्ना
+  - osis: John
+    texts:
+      - यूहन्ना रचित सुसमाचार
+      - यूहन्ना
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - यूहन्ना
+  - osis: Acts
+    texts:
+      - प्रेरितन क काम
+      - प्रेरितन
+  - osis: Rom
+    texts:
+      - रोमियन क पत्र
+      - रोमि.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - कुरिन्थि.
+  - osis: 1Cor
+    texts:
+      - कुरिन्थियन क पहिली पत्र
+  - osis: 2Cor
+    texts:
+      - कुरिन्थियन क दूसरी पत्र
+  - osis: Col
+    texts:
+      - कुलुस्सियन क पत्र
+      - कुलु.
+  - osis: Gal
+    texts:
+      - गलातियन क पत्र
+      - गलाति.
+  - osis: Eph
+    texts:
+      - इफिसियन क पत्र
+      - इफि.
+  - osis: Phil
+    texts:
+      - फिलिप्पियन क पत्र
+      - फिलिप्पि.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - थिस्स.
+  - osis: 1Thess
+    texts:
+      - थिस्सलुनीकियन क पहिली पत्र
+  - osis: 2Thess
+    texts:
+      - थिस्सलुनीकियन क दूसरी पत्र
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - तीमु.
+  - osis: 1Tim
+    texts:
+      - तीमुथियुस क पहिली पत्र
+  - osis: 2Tim
+    texts:
+      - तीमुथियुस क दूसरी पत्र
+  - osis: Titus
+    texts:
+      - तीतुस क पत्र
+      - तीतुस
+  - osis: Phlm
+    texts:
+      - फिलेमोन क पत्र
+      - फिले.
+  - osis: Heb
+    texts:
+      - इब्रनियन क पत्र
+      - इब्रनि.
+  - osis: Jas
+    texts:
+      - याकूब क पत्र
+      - याकूब
+  - osis: 1Pet
+    texts:
+      - पतरस क पहिली पत्र
+  - osis: 2Pet
+    texts:
+      - पतरस क दूसरी पत्र
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - पतरस
+  - osis: Jude
+    texts:
+      - यहूदा क पत्र
+      - यहूदा
+translations:
+  - AERV

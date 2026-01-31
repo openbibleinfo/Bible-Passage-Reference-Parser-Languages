@@ -1,0 +1,158 @@
+variables:
+  first: &first
+    - اوّل
+  second: &second
+    - دوم
+books:
+  - osis: Gen
+    texts:
+      - پیدایش
+  - osis: Exod
+    texts:
+      - خروج
+  - osis: Rev
+    texts:
+      - موکأشفه
+  - osis: Ruth
+    texts:
+      - روت
+  - osis: Ezra
+    texts:
+      - عِزرا
+  - osis: Esth
+    texts:
+      - استر
+  - osis: Job
+    texts:
+      - ایوب
+  - osis: Ps
+    texts:
+      - مزامیر
+  - osis: Dan
+    texts:
+      - دانیال
+  - osis: Jonah
+    texts:
+      - یونس
+  - osis: Matt
+    texts:
+      - متّی
+      - متا
+  - osis: Mark
+    texts:
+      - مَرقُس
+  - osis: Luke
+    texts:
+      - لوقا
+  - osis: 1John
+    texts:
+      - ۱یوحنا
+  - osis: 2John
+    texts:
+      - ۲یوحنا
+  - osis: 3John
+    texts:
+      - سوم یوحنا
+      - ۳یوحنا
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - یوحنا
+  - osis: John
+    texts:
+      - یوحنا
+      - یوح
+  - osis: Acts
+    texts:
+      - روسولأنٚ کأرأن
+      - اعمالٚ رسولأن
+      - اعمال
+      - کأرأن
+  - osis: Rom
+    texts:
+      - رومیأن
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - قرنتیان
+  - osis: 1Cor
+    texts:
+      - ۱قرنتیان
+  - osis: 2Cor
+    texts:
+      - ۲قرنتیان
+  - osis: Col
+    texts:
+      - کولسیان
+  - osis: Gal
+    texts:
+      - غلاطیأن
+  - osis: Eph
+    texts:
+      - افسسیان
+  - osis: Phil
+    texts:
+      - فیلیپیان
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - تسالونیکیان
+  - osis: 1Thess
+    texts:
+      - ۱تسالونیکیان
+  - osis: 2Thess
+    texts:
+      - ۲تسالونیکیان
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - تیموتائوس
+  - osis: 1Tim
+    texts:
+      - ۱تیموتائوس
+  - osis: 2Tim
+    texts:
+      - ۲تیموتائوس
+  - osis: Titus
+    texts:
+      - تیتوس
+  - osis: Phlm
+    texts:
+      - فیلیمون
+  - osis: Heb
+    texts:
+      - عبرأنیأن
+  - osis: Jas
+    texts:
+      - یعقوب
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - پطرس
+  - osis: 1Pet
+    texts:
+      - ۱پطرس
+  - osis: 2Pet
+    texts:
+      - ۲پطرس
+  - osis: Jude
+    texts:
+      - یهودا
+translations:
+  - GLKNT
+  - GLK

@@ -1,0 +1,568 @@
+default:
+  1Chr:
+    long: 1 Taarike
+    short: 1 Taari
+  1Cor:
+    long: 1 ቆሮንቶሳ
+    short: 1Qoro
+  1John:
+    long: 1 Yohaanisa
+    short: 1Yoha
+  1Kgs:
+    long: 1 Kawota
+    short: 1 Kawo
+  1Pet:
+    long: 1 Phexiroosa
+    short: 1Phexi
+  1Sam:
+    long: 1 Sameela
+    short: 1 Same
+  1Thess:
+    long: 1 Teselonqe
+    short: 1Tese
+  1Tim:
+    long: 1 Ximotiyoosa
+    short: 1Ximo
+  2Chr:
+    long: 2 Taarike
+    short: 2 Taari
+  2Cor:
+    long: 2 ቆሮንቶሳ
+    short: 2Qoro
+  2John:
+    long: 2 Yohaanisa
+    short: 2Yoha
+  2Kgs:
+    long: 2 Kawota
+    short: 2 Kawo
+  2Pet:
+    long: 2 Phexiroosa
+    short: 2Phexi
+  2Sam:
+    long: 2 Sameela
+    short: 2 Same
+  2Thess:
+    long: 2 Taselonqe
+    short: 2Tese
+  2Tim:
+    long: 2 Ximotiyoosa
+    short: 2Ximo
+  3John:
+    long: 3 Yohaanisa
+    short: 3Yoha
+  Acts:
+    long: Hawaareta Oosuwa
+    short: Ha.O
+  Amos:
+    long: Amoxe
+    short: Amo
+  Col:
+    long: Qolaasiyasa
+    short: Qola
+  Dan:
+    long: Daanela
+    short: Daane
+  Deut:
+    long: Zaaretho
+    short: Zaare
+  Eccl:
+    long: Erata
+    short: Era
+  Eph:
+    long: Efesoona
+    short: Efe
+  Esth:
+    long: Astiro
+    short: Asti
+  Exod:
+    long: Kessa
+    short: Kessa
+  Ezek:
+    long: Hizqeela
+    short: Hiz
+  Ezra:
+    long: Izira
+    short: Izi
+  Gal:
+    long: Galaatiya
+    short: Gala
+  Gen:
+    long: Medhetethi
+    short: Medhe
+  Hab:
+    long: Inbaqoome
+    short: Inba
+  Hag:
+    long: Hagge
+    short: Hagge
+  Heb:
+    long: Ibraawe
+    short: Ib
+  Hos:
+    long: Hose
+    short: Hose
+  Isa:
+    long: Isayaasa
+    short: Isa
+  Jas:
+    long: Yayqooba
+    short: Yay
+  Jer:
+    long: Ermiyaasa
+    short: Ermi
+  Job:
+    long: Iyyoba
+    short: Iyyo
+  Joel:
+    long: Iyyu7eela
+    short: Iyyu
+  John:
+    long: Yohaannisa
+    short: Yoha
+  Jonah:
+    long: Yoonasa
+    short: Yoona
+  Josh:
+    long: Iyyasu
+    short: Iyya
+  Jude:
+    long: Yihuda
+    short: Yihu
+  Judg:
+    long: Ayseysata
+    short: Ayse
+  Lam:
+    long: Milalsa
+    short: Mila
+  Lev:
+    long: Leeweta
+    short: Leewe
+  Luke:
+    long: Luuqaasa
+    short: Luuqa
+  Mal:
+    long: Milkiyaasa
+    short: Milki
+  Mark:
+    long: Marqqoosa
+    short: Mar
+  Matt:
+    long: Maatoosa
+    short: Maato
+  Mic:
+    long: Mikiyaasa
+    short: Miki
+  Nah:
+    long: Nahoome
+    short: Naho
+  Neh:
+    long: Nahime
+    short: Nahi
+  Num:
+    long: Taybo
+    short: Taybo
+  Obad:
+    long: Abdiyu
+    short: Abdi
+  Phil:
+    long: Filphisiyuusa
+    short: Fil
+  Phlm:
+    long: Filmmoona
+    short: Filmo
+  Prov:
+    long: Leemiso
+    short: Leemi
+  Ps:
+    long: Mazmure
+    short: Maz
+  Rev:
+    long: Yohaannisa Qonccethaa
+    short: Qon
+  Rom:
+    long: Roome
+    short: Roome
+  Ruth:
+    long: Uruuto
+    short: Uru
+  Song:
+    long: Solomone
+    short: Solo
+  Titus:
+    long: Tito
+    short: Tito
+  Zech:
+    long: Zakaryaasa
+    short: Zaka
+  Zeph:
+    long: Sofonaasa
+    short: Sofo
+translations:
+  gfbevf:
+    1Chr:
+      long: 1 ታርከ
+      short: 1 ታር
+    1Cor:
+      short: 1 ቆሮ
+    1John:
+      long: 1 ዮሃንሳ
+      short: 1 ዮሀ
+    1Kgs:
+      long: 1 ካዎታ
+      short: 1 ካዎ
+    1Pet:
+      long: 1 ጰፅሮሳ
+      short: 1 ጰፅ
+    1Sam:
+      long: 1 ሳሜላ
+      short: 1 ሳሜ
+    1Thess:
+      long: 1 ተሰሎንቀ
+      short: 1 ተሰ
+    1Tim:
+      long: 1 ፅሞትዮሳ
+      short: 1 ፅሞ
+    2Chr:
+      long: 2 ታርከ
+      short: 2 ታር
+    2Cor:
+      short: 2 ቆሮ
+    2John:
+      long: 2 ዮሃንሳ
+      short: 2 ዮሀ
+    2Kgs:
+      long: 2 ካዎታ
+      short: 2 ካዎ
+    2Pet:
+      long: 2 ጰፅሮሳ
+      short: 2 ጰፅ
+    2Sam:
+      long: 2 ሳሜላ
+      short: 2 ሳሜ
+    2Thess:
+      long: 2 ታሰሎንቀ
+      short: 2 ታሰ
+    2Tim:
+      long: 2 ፅሞትዮሳ
+      short: 2 ፅሞ
+    3John:
+      long: 3 ዮሃንሳ
+      short: 3 ዮሀ
+    Acts:
+      long: ሀዋረታ
+      short: ሀዋ
+    Amos:
+      long: አሞፀ
+      short: አሞ
+    Col:
+      long: ቆላስያሳ
+      short: ቆላ
+    Dan:
+      long: ዳነላ
+      short: ዳነ
+    Deut:
+      long: ዛረ
+      short: ዛረ
+    Eccl:
+      long: ኤራታ
+      short: ኤራ
+    Eph:
+      long: ኤፈሶና
+      short: ኤፈ
+    Esth:
+      long: አስትሮ
+      short: አስት
+    Exod:
+      long: ከሳ
+      short: ከሳ
+    Ezek:
+      long: ህዝቄላ
+      short: ህዝ
+    Ezra:
+      long: እዝራ
+      short: እዝ
+    Gal:
+      long: ጋላትያ
+      short: ጋላ
+    Gen:
+      long: መተ
+      short: መ
+    Hab:
+      long: እንባቆመ
+      short: እንባ
+    Hag:
+      long: ሀገ
+      short: ሀገ
+    Heb:
+      long: እብራወ
+      short: እብራ
+    Hos:
+      long: ሆሰ
+      short: ሆሰ
+    Isa:
+      long: እሳያሳ
+      short: እሳ
+    Jas:
+      long: ያይቆባ
+      short: ያይ
+    Jer:
+      long: ኤርምያሳ
+      short: ኤርም
+    Job:
+      long: እዮባ
+      short: እዮ
+    Joel:
+      long: እዩኤላ
+      short: እዩ
+    John:
+      long: ዮሃንሳ
+      short: ዮሀ
+    Jonah:
+      long: ዮናሳ
+      short: ዮና
+    Josh:
+      long: እያሱ
+      short: እያ
+    Jude:
+      long: ይሁዳ
+      short: ይሁ
+    Judg:
+      long: አይሰይሳታ
+      short: አይሰ
+    Lam:
+      long: ምላልሳ
+      short: ምላ
+    Lev:
+      long: ሌወታ
+      short: ሌወ
+    Luke:
+      long: ሉቃሳ
+      short: ሉቃ
+    Mal:
+      long: ምልክያሳ
+      short: ምልክ
+    Mark:
+      long: ማርቆሳ
+      short: ማር
+    Matt:
+      long: ማቶሳ
+      short: ማቶ
+    Mic:
+      long: ምክያሳ
+      short: ምክ
+    Nah:
+      long: ናሆመ
+      short: ናሆ
+    Neh:
+      long: ናህመ
+      short: ናህ
+    Num:
+      long: ታይቦ
+      short: ታይቦ
+    Obad:
+      long: አብድዩ
+      short: አብድ
+    Phil:
+      long: ፍልጵስዩሳ
+      short: ፍልጵ
+    Phlm:
+      long: ፍልሞና
+      short: ፍልሞ
+    Prov:
+      long: ሌምሶ
+      short: ሌም
+    Ps:
+      long: ማዝሙረ
+      short: ማዝ
+    Rev:
+      long: ቆን
+      short: ቆን
+    Rom:
+      long: ሮመ
+      short: ሮመ
+    Ruth:
+      long: ኡሩቶ
+      short: ኡሩ
+    Song:
+      long: ሶሎሞነ
+      short: ሶሎ
+    Titus:
+      long: ትቶ
+      short: ትቶ
+    Zech:
+      long: ዛካርያሳ
+      short: ዛካ
+    Zeph:
+      long: ሶፎናሳ
+      short: ሶፎ
+  gfblvf:
+    1Cor:
+      long: 1 Qorontoosa
+      short: 1 Qoro
+    1John:
+      short: 1 Yoha
+    1Pet:
+      long: 1 Phexroosa
+      short: 1 Phex
+    1Thess:
+      short: 1 Tese
+    1Tim:
+      short: 1 Ximo
+    2Cor:
+      long: 2 Qorontoosa
+      short: 2 Qoro
+    2John:
+      short: 2 Yoha
+    2Pet:
+      long: 2 Phexroosa
+      short: 2 Phex
+    2Thess:
+      short: 2 Tase
+    2Tim:
+      short: 2 Ximo
+    3John:
+      short: 3 Yoha
+    Acts:
+      long: Hawaareta
+      short: Hawa
+    Gal:
+      long: Galatiya
+    Heb:
+      short: Ibra
+    John:
+      long: Yohaanisa
+    Luke:
+      long: Luqaasa
+      short: Luqa
+    Mark:
+      long: Marqoosa
+    Matt:
+      long: Maatosa
+    Phil:
+      short: Filphi
+    Phlm:
+      long: Filmoona
+    Rev:
+      long: Qon
+  gofrnt:
+    1Cor:
+      long: 1 Qoronttoosa
+    1John:
+      long: 1 Yohaannisa
+    2Cor:
+      long: 2 Qoronttoosa
+    2John:
+      long: 2 Yohaannisa
+    2Thess:
+      long: 2 Teselonqe
+    3John:
+      long: 3 Yohaannisa
+    Rev:
+      short: Yo.Qo
+  gofent:
+    1Cor:
+      short: 1ቆሮ
+    1John:
+      long: 1 ዮሃኒሳ
+      short: 1ዮሃ
+    1Pet:
+      long: 1 ጴፂሮሳ
+      short: 1ጴፂ
+    1Thess:
+      long: 1 ቴሴሎንቄ
+      short: 1ቴሴ
+    1Tim:
+      long: 1 ፂሞቲዮሳ
+      short: 1ፂሞ
+    2Cor:
+      short: 2ቆሮ
+    2John:
+      long: 2 ዮሃኒሳ
+      short: 2ዮሃ
+    2Pet:
+      long: 2 ጴፂሮሳ
+      short: 2ጴፂ
+    2Thess:
+      long: 2 ቴሴሎንቄ
+      short: 2ቴሴ
+    2Tim:
+      long: 2 ፂሞቲዮሳ
+      short: 2ፂሞ
+    3John:
+      long: 3 ዮሃኒሳ
+      short: 3ዮሃ
+    Acts:
+      long: ሃዋሬታ ኦሱዋ
+      short: ሃ.ኦ
+    Col:
+      long: ቆላሲያሳ
+      short: ቆላ
+    Eph:
+      long: ኤፌሶና
+      short: ኤፌ
+    Gal:
+      long: ጋላቲያ
+      short: ጋላ
+    Heb:
+      long: ኢብራዌ
+      short: ኢብ
+    Jas:
+      long: ያይቆባ
+      short: ያይ
+    John:
+      long: ዮሃኒሳ
+      short: ዮሃ
+    Jude:
+      long: ዪሁዳ
+      short: ዪሁ
+    Luke:
+      long: ሉቃሳ
+      short: ሉቃ
+    Mark:
+      long: ማርቆሳ
+      short: ማር
+    Matt:
+      long: ማቶሳ
+      short: ማቶ
+    Phil:
+      long: ፊልጲሲዩሳ
+      short: ፊል
+    Phlm:
+      long: ፊልሞና
+      short: ፊልሞ
+    Rev:
+      long: ዮሃኒሳ ቆንጬ
+      short: ዮ.ቆ
+    Rom:
+      long: ሮሜ
+      short: ሮሜ
+    Titus:
+      long: ቲቶ
+      short: ቲቶ
+  gofnt:
+    1Cor:
+      long: 1Qoronttoosa
+    1John:
+      long: 1Yohaannisa
+    1Pet:
+      long: 1Phexiroosa
+    1Thess:
+      long: 1Teselonqe
+    1Tim:
+      long: 1Ximotiyoosa
+    2Cor:
+      long: 2Qoronttoosa
+    2John:
+      long: 2Yohaannisa
+    2Pet:
+      long: 2Phexiroosa
+    2Thess:
+      long: 2Teselonqe
+    2Tim:
+      long: 2Ximotiyoosa
+    3John:
+      long: 3Yohaannisa
+    Acts:
+      short: Ha@O
+    Rev:
+      short: Yo@Qo

@@ -1,0 +1,312 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Kasaukan
+      - Kas.
+  - osis: Exod
+    texts:
+      - Kaingkualan
+      - Kai.
+  - osis: Bel
+    texts:
+      - I Danil Am Dewa Bel Am Tambuakal Babil
+  - osis: Lev
+    texts:
+      - Imamat
+      - Im.
+  - osis: Num
+    texts:
+      - Untaban
+      - Un.
+  - osis: Sir
+    texts:
+      - Sirak
+      - Sir.
+  - osis: Wis
+    texts:
+      - Kapintaran Ri Salomo
+      - Kap.
+  - osis: Lam
+    texts:
+      - Sulaboi
+      - Sul.
+  - osis: EpJer
+    texts:
+      - Surat Ru Nabi Jirimia
+  - osis: Rev
+    texts:
+      - Pinaintalang
+      - Pin.
+  - osis: Deut
+    texts:
+      - Sagulion
+      - Sag.
+  - osis: Josh
+    texts:
+      - Josua
+      - Jos.
+  - osis: Judg
+    texts:
+      - Tingganai Ru Bansa'
+      - Tin.
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis: Isa
+    texts:
+      - Jisaya
+      - Jis.
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuil
+      - Sam.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Raja'-raja'
+      - Raj.
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Tunung Ru Bansa' Israil
+      - Tun.
+  - osis: Ezra
+    texts:
+      - Ijr.
+      - Ijra
+  - osis: Neh
+    texts:
+      - Nigimia
+      - Nig.
+  - osis: Job
+    texts:
+      - Ayp.
+      - Ayup
+  - osis: Ps
+    texts:
+      - Mazmur
+      - Mzm.
+  - osis: Prov
+    texts:
+      - Amsal
+      - Ams.
+  - osis: Eccl
+    texts:
+      - Mampatanou
+      - Mpt.
+  - osis: Song
+    texts:
+      - Rimbai Pangamparan
+      - Rim.
+  - osis: Jer
+    texts:
+      - Jirimia
+      - Jir.
+  - osis: Ezek
+    texts:
+      - Yehezkiel
+      - Yeh.
+  - osis: Hos
+    texts:
+      - Gosia
+      - Gos.
+  - osis: Joel
+    texts:
+      - Joil
+      - Jl.
+  - osis: Amos
+    texts:
+      - Amos
+      - Am.
+  - osis: Obad
+    texts:
+      - Obaja
+      - Ob.
+  - osis: Jonah
+    texts:
+      - Junus
+      - Jun.
+  - osis: Mic
+    texts:
+      - Mika
+      - Mi.
+  - osis: Nah
+    texts:
+      - Nagum
+      - Nam.
+  - osis: Hab
+    texts:
+      - Abakuk
+      - Ab.
+  - osis: Zeph
+    texts:
+      - Jipanya
+      - Jip.
+  - osis: Hag
+    texts:
+      - Agai
+      - Agi.
+  - osis: Zech
+    texts:
+      - Jakaria
+      - Ja.
+  - osis: Mal
+    texts:
+      - Maliaki
+      - Mal.
+  - osis: Matt
+    texts:
+      - Matius
+      - Mat.
+  - osis: Mark
+    texts:
+      - Markus
+      - Mrk.
+  - osis: Luke
+    texts:
+      - Lukas
+      - Luk.
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Juanis
+      - Jua.
+  - osis: Acts
+    texts:
+      - Rinalatan
+      - Rin.
+  - osis: Rom
+    texts:
+      - Roma
+      - Rm.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintus
+      - Kor.
+  - osis: Col
+    texts:
+      - Kolosi
+      - Kol.
+  - osis: Gal
+    texts:
+      - Galatia
+      - Gal.
+  - osis: Eph
+    texts:
+      - Ipisus
+      - Ip.
+  - osis: Phil
+    texts:
+      - Pilipi
+      - Plp.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tisalonika
+      - Tis.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotius
+      - Tim.
+  - osis: Titus
+    texts:
+      - Titus
+      - Tit.
+  - osis: Phlm
+    texts:
+      - Pilimon
+      - Plm.
+  - osis: Heb
+    texts:
+      - Ibrani
+      - Ibr.
+  - osis: Jas
+    texts:
+      - Jakubus
+      - Jak.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pitrus
+      - Ptr.
+  - osis: Jude
+    texts:
+      - Judas
+      - Jud.
+  - osis: Tob
+    texts:
+      - Tobit
+      - Tob.
+  - osis: Jdt
+    texts:
+      - Judit
+      - Jdt.
+  - osis: Bar
+    texts:
+      - Baruk
+      - Bar.
+  - osis: Sus
+    texts:
+      - Tunung Ri Susana Am I Danil
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+    texts:
+      - Makabi
+      - Mak.
+  - osis: AddDan
+    texts:
+      - Pinaruang Ra Danil
+  - osis: Dan
+    texts:
+      - Danil
+      - Dan.
+  - osis: AddEsth
+    texts:
+      - Pinaruang Ra Kitab Ester
+      - Pnr.
+  - osis: Esth
+    texts:
+      - Ester
+      - Est.
+translations:
+  - TMTV

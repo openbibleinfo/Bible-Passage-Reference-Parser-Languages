@@ -1,0 +1,22 @@
+default:
+  1John:
+    long: 1 John
+    short: 1 John
+  2Cor:
+    long: 2 Corinthians
+    short: 2 Cor.
+  Exod:
+    long: Exodus
+    short: Exodus
+  Ezek:
+    long: Ezekiel
+    short: Ez.
+  Luke:
+    long: Luke
+    short: Luke
+  Matt:
+    long: Matthew
+    short: Matthew
+  Ps:
+    long: Psalms
+    short: Psalms

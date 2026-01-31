@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Kánáníkɔ̀
+    short: 1 Kán
+  1Cor:
+    long: 1 Kɔ̀ɖéíntĩ̀ɔ̀
+    short: 1 Kɔ̀
+  1John:
+    long: 1 Jɔ̃́ɔ́
+    short: 1 Jɔ̃́ɔ́
+  1Kgs:
+    long: 1 Kĩ́ìn
+    short: 1 Kĩ́ìn
+  1Pet:
+    long: 1 Píɖɛ̀
+    short: 1 Pí
+  1Sam:
+    long: 1 Sámíò
+    short: 1 Sám
+  1Thess:
+    long: 1 Tɛ̀sàɖónìà
+    short: 1 Tɛ̀
+  1Tim:
+    long: 1 Tímétè
+    short: 1 Tí
+  2Chr:
+    long: 2 Kánáníkɔ̀
+    short: 2 Kán
+  2Cor:
+    long: 2 Kɔ̀ɖéíntĩ̀ɔ̀
+    short: 2 Kɔ̀
+  2John:
+    long: 2 Jɔ̃́ɔ́
+    short: 2 Jɔ̃́ɔ́
+  2Kgs:
+    long: 2 Kĩ́ìn
+    short: 2 Kĩ́ìn
+  2Pet:
+    long: 2 Píɖɛ̀
+    short: 2 Pí
+  2Sam:
+    long: 2 Sámíò
+    short: 2 Sám
+  2Thess:
+    long: 2 Tɛ̀sàɖónìà
+    short: 2 Tɛ̀
+  2Tim:
+    long: 2 Tímétè
+    short: 2 Tí
+  3John:
+    long: 3 Jɔ̃́ɔ́
+    short: 3 Jɔ̃́ɔ́
+  Acts:
+    long: Àpɔ́sò
+    short: Àpɔ́
+  Amos:
+    long: Emɔ́
+    short: Emɔ́
+  Col:
+    long: Kɔ̀ɖɔ́sĩ̀à
+    short: Kɔ̀ɖɔ́
+  Dan:
+    long: Dànyá
+    short: Dàn
+  Deut:
+    long: Dìtɔ̀wáɖánámɛ̀
+    short: Dìtɔ̀
+  Eccl:
+    long: Ìkíɖísìásì
+    short: Ìkí
+  Eph:
+    long: Ìfísĩ̀ɔ̀
+    short: Ìfí
+  Esth:
+    long: Ɛsɔ́ɖɔ́
+    short: Ɛsɔ́
+  Exod:
+    long: Ɛ́séɖɔ̀
+    short: Ɛ́sé
+  Ezek:
+    long: Ìzíkìò
+    short: Ìzí
+  Ezra:
+    long: Ɛ́zùɖùà
+    short: Ɛ́zù
+  Gal:
+    long: Gàɖézìà
+    short: Gàɖé
+  Gen:
+    long: Jɛ́nɛ́sì
+    short: Jɛ́n
+  Hab:
+    long: Hàbákù
+    short: Hàbá
+  Hag:
+    long: Hágàì
+    short: Hágàì
+  Heb:
+    long: Híìbúɖúù
+    short: Híì
+  Hos:
+    long: Hòzéà
+    short: Hò
+  Isa:
+    long: Àzédyà
+    short: Àzé
+  Jas:
+    long: Jĩ́ìn
+    short: Jĩ́ìn
+  Jer:
+    long: Jɛ̀ɖèmádyà
+    short: Jɛ̀ɖè
+  Job:
+    long: Jóɓò
+    short: Jóɓò
+  Joel:
+    long: Jóɛ̀
+    short: Jóɛ̀
+  John:
+    long: Jɔ̃́ɔ́
+    short: Jɔ̃́ɔ́
+  Jonah:
+    long: Jónà
+    short: Jónà
+  Josh:
+    long: Jasúé
+    short: Ja
+  Jude:
+    long: Júɖè
+    short: Júɖè
+  Judg:
+    long: Tɔ̀ɔ̀-ɓìɔ̀
+    short: Tɔ̀ɔ̀
+  Lam:
+    long: Vĩ̌-wùɖù
+    short: Vĩ̌
+  Lev:
+    long: Ɖìvéɖékɔ̀
+    short: Ɖìvé
+  Luke:
+    long: Ɖúù
+    short: Ɖúù
+  Mal:
+    long: Máɖékà
+    short: Máɖé
+  Mark:
+    long: Máà
+    short: Máà
+  Matt:
+    long: Máfíò
+    short: Máfíò
+  Mic:
+    long: Mákà
+    short: Mákà
+  Nah:
+    long: Néhɔ̃̀
+    short: Néhɔ̃̀
+  Neh:
+    long: Níòmádyà
+    short: Níò
+  Num:
+    long: Nɔ̀ɓà
+    short: Nɔ̀ɓà
+  Obad:
+    long: Òbòdádyà
+    short: Òbò
+  Phil:
+    long: Fèɖópĩ̀à
+    short: Fèɖó
+  Phlm:
+    long: Fàɖímɔ̀
+    short: Fàɖí
+  Prov:
+    long: Nɔ́ɔ́
+    short: Nɔ́ɔ́
+  Ps:
+    long: Wɛ́ɖɛ́
+    short: Wɛ́ɖɛ́
+  Rev:
+    long: Wɛ̀ɖɛ̀ɓèɖésĩ̀ɔ̀
+    short: Wɛ̀ɖɛ̀
+  Rom:
+    long: Wóɖómà
+    short: Wóɖó
+  Ruth:
+    long: Wuɖufí
+    short: Wu
+  Song:
+    long: Sã́ɖòmàà Wɛ́ɖɛ́
+    short: Sã́ɖó
+  Titus:
+    long: Tátɔ̀
+    short: Tátɔ̀
+  Zech:
+    long: Zɛ́kɔ̀wáɖádyà
+    short: Zɛ́kɔ̀
+  Zeph:
+    long: Zɛ́fènádyà
+    short: Zɛ́fè

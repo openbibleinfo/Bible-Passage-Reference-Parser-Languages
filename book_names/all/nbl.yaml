@@ -1,0 +1,294 @@
+- osis: Gen
+  texts:
+    - kuGenesisi
+    - Ugenesisi
+- osis: Exod
+  texts:
+    - ku-Eksodusi
+    - U-Eksodusi
+- osis: Lev
+  texts:
+    - kuLevitikusi|nakuLevitikusi
+    - Ulevitikusi
+- osis: Num
+  texts:
+    - kuNumerina|kuNumeri
+    - Unumeri
+- osis: Lam
+  texts:
+    - IsiLilo
+- osis: Rev
+  texts:
+    - IsAmbulo
+- osis: Deut
+  texts:
+    - kuDuteronomi|nakuDuteronomi
+    - Uduteronomi
+- osis: Josh
+  texts:
+    - kuJotjhuwa|nezikuJotjhuwa
+    - Ujotjhuwa
+- osis: Judg
+  texts:
+    - abaKhokheli|nakubaKhokheli
+    - Abakhokheli
+- osis: Ruth
+  texts:
+    - kuRute
+    - uRute
+- osis: Isa
+  texts:
+    - U-Isaya
+- osis: 1Sam
+  texts:
+    - 1 Samyela|naku-1 Samyela
+    - 1 Usamyela
+    - 1. Samyela|naku-1 Samyela
+    - 1. Usamyela
+    - ku-1 Samyela|naku-1 Samyela
+    - ku-1 Usamyela
+    - ku-1. Samyela|naku-1 Samyela
+    - ku-1. Usamyela
+- osis: 2Sam
+  texts:
+    - 2 Samyela|naku-2 Samyela
+    - 2 Usamyela
+    - 2. Samyela|naku-2 Samyela
+    - 2. Usamyela
+    - ku-2 Samyela|naku-2 Samyela
+    - ku-2 Usamyela
+    - ku-2. Samyela|naku-2 Samyela
+    - ku-2. Usamyela
+- osis: 1Kgs
+  texts:
+    - 1 amaKhosi|naku-1 amaKhosi
+    - 1 Amakhosi
+    - 1. amaKhosi|naku-1 amaKhosi
+    - 1. Amakhosi
+    - ku-1 amaKhosi|naku-1 amaKhosi
+    - ku-1 Amakhosi
+    - ku-1. amaKhosi|naku-1 amaKhosi
+    - ku-1. Amakhosi
+- osis: 2Kgs
+  texts:
+    - 2 amaKhosi|naku-2 amaKhosi
+    - 2 Amakhosi
+    - 2. amaKhosi|naku-2 amaKhosi
+    - 2. Amakhosi
+    - ku-2 amaKhosi|naku-2 amaKhosi
+    - ku-2 Amakhosi
+    - ku-2. amaKhosi|naku-2 amaKhosi
+    - ku-2. Amakhosi
+- osis: 1Chr
+  texts:
+    - 1 iinKronike
+    - 1 Iinkronike
+    - 1. iinKronike
+    - 1. Iinkronike
+    - ku-1 iinKronike
+    - ku-1 Iinkronike
+    - ku-1. iinKronike
+    - ku-1. Iinkronike
+- osis: 2Chr
+  texts:
+    - 2 iinKronike
+    - 2 Iinkronike
+    - 2. iinKronike
+    - 2. Iinkronike
+    - ku-2 iinKronike
+    - ku-2 Iinkronike
+    - ku-2. iinKronike
+    - ku-2. Iinkronike
+- osis: Ezra
+  texts:
+    - U-Ezra
+- osis: Neh
+  texts:
+    - Unerhemiya
+- osis: Esth
+  texts:
+    - ku-Esta
+    - U-Esta
+- osis: Job
+  texts:
+    - kuJobho|nakuJobho
+    - Ujobho
+- osis: Ps
+  texts:
+    - iRhubo|iRhubo|aseRhubeni|bekuliRhubo
+    - Amarhubo
+- osis: Prov
+  texts:
+    - IzAga
+- osis: Eccl
+  texts:
+    - Umtjhumayeli
+- osis: Song
+  texts:
+    - Ingoma Yeengoma
+- osis: Jer
+  texts:
+    - kuJoromiya
+    - Ujoromiya
+- osis: Ezek
+  texts:
+    - Uhezekiyeli
+- osis: Dan
+  texts:
+    - Udanyela
+- osis: Hos
+  texts:
+    - kuHosiya
+    - Uhosiya
+- osis: Joel
+  texts:
+    - Ujuweli
+- osis: Amos
+  texts:
+    - U-Amosi
+- osis: Obad
+  texts:
+    - U-Obadiya
+- osis: Jonah
+  texts:
+    - uJona
+- osis: Mic
+  texts:
+    - kuMikha
+    - Umikha
+- osis: Nah
+  texts:
+    - Unarhume
+- osis: Hab
+  texts:
+    - Urhabakhukhu
+- osis: Zeph
+  texts:
+    - uZefaniya
+- osis: Hag
+  texts:
+    - uHagayi
+- osis: Zech
+  texts:
+    - kuZakariya
+    - Uzakariya
+- osis: Mal
+  texts:
+    - uMalaki
+- osis: Matt
+  texts:
+    - kuMatewu
+    - Umatewu
+- osis: Mark
+  texts:
+    - Umarkosi
+- osis: Luke
+  texts:
+    - Ulukasi
+    - kuLuka
+- osis: 1John
+  texts:
+    - 1 Ujwanisi
+    - 1. Ujwanisi
+    - ku-1 Ujwanisi
+    - ku-1. Ujwanisi
+- osis: 2John
+  texts:
+    - 2 Ujwanisi
+    - 2. Ujwanisi
+    - ku-2 Ujwanisi
+    - ku-2. Ujwanisi
+- osis: 3John
+  texts:
+    - 3 Ujwanisi
+    - 3. Ujwanisi
+- osis: John
+  texts:
+    - Ujwanisi
+- osis: Acts
+  texts:
+    - Izenzo Zabapostoli
+    - neZenzo
+- osis: Rom
+  texts:
+    - Kweberoma
+- osis: 1Cor
+  texts:
+    - 1 Kwebekorinte
+    - 1 KwebeKorinte
+    - 1. Kwebekorinte
+    - 1. KwebeKorinte
+    - ku-1 Kwebekorinte
+    - ku-1 KwebeKorinte
+    - ku-1. Kwebekorinte
+    - ku-1. KwebeKorinte
+- osis: 2Cor
+  texts:
+    - 2 Kwebekorinte
+    - 2. Kwebekorinte
+    - ku-2 Kwebekorinte
+    - ku-2. Kwebekorinte
+- osis: Col
+  texts:
+    - Kwebekolose
+- osis: Gal
+  texts:
+    - Kwebegalatiya
+- osis: Eph
+  texts:
+    - Kwebe-efesu
+- osis: Phil
+  texts:
+    - Kwebefilipi
+- osis: 1Thess
+  texts:
+    - 1 Kwebethesalonika
+    - 1. Kwebethesalonika
+    - ku-1 Kwebethesalonika
+    - ku-1. Kwebethesalonika
+- osis: 2Thess
+  texts:
+    - 2 Kwebethesalonika
+    - 2. Kwebethesalonika
+    - ku-2 Kwebethesalonika
+    - ku-2. Kwebethesalonika
+- osis: 1Tim
+  texts:
+    - 1 Uthimothi
+    - 1. Uthimothi
+    - ku-1 Uthimothi
+    - ku-1. Uthimothi
+- osis: 2Tim
+  texts:
+    - 2 Uthimothi
+    - 2. Uthimothi
+    - ku-2 Uthimothi
+    - ku-2. Uthimothi
+- osis: Titus
+  texts:
+    - Utitosi
+- osis: Phlm
+  texts:
+    - Ufilimoni
+- osis: Heb
+  texts:
+    - KumaHebheru
+    - AmaHebheru
+- osis: Jas
+  texts:
+    - Ujakopo
+- osis: 1Pet
+  texts:
+    - 1 Upitrosi
+    - 1. Upitrosi
+    - ku-1 Upitrosi
+    - ku-1. Upitrosi
+- osis: 2Pet
+  texts:
+    - 2 Upitrosi
+    - 2. Upitrosi
+    - ku-2 Upitrosi
+    - ku-2. Upitrosi
+- osis: Jude
+  texts:
+    - uJuda

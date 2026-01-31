@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - ബെ്ളിപട്ട കാര്യഗ
+  - osis: Matt
+    texts:
+      - മത്തായി
+  - osis: Mark
+    texts:
+      - മറ്‌ക്കോസ്
+  - osis: Luke
+    texts:
+      - ലൂക്കോസ്
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - ഓഗന്നാ്
+  - osis: Acts
+    texts:
+      - അപ്പൊസലല
+  - osis: Rom
+    texts:
+      - റോമക്കാറാര്
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - കൊരിന്ത്യക്കാറാര്
+  - osis: Col
+    texts:
+      - കൊലോസ്യക്കാറാര്
+  - osis: Gal
+    texts:
+      - ഗലാത്ത്യക്കാറാര്
+  - osis: Eph
+    texts:
+      - എപ്പെസോസ്‌ക്കാറാര്
+  - osis: Phil
+    texts:
+      - പിലിപ്പ്യക്കാറാര്
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - തെസ്‌ലോനിക്ക്യക്കാറാര്
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - തിമത്തോസ്
+  - osis: Titus
+    texts:
+      - തീത്തോസ്
+  - osis: Phlm
+    texts:
+      - പിലേമോന്
+  - osis: Heb
+    texts:
+      - എവുറാര്
+  - osis: Jas
+    texts:
+      - ആക്കോവു
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - പത്ത്‌റോസ്
+  - osis: Jude
+    texts:
+      - ജൂദാ്
+translations:
+  - MUDUGA

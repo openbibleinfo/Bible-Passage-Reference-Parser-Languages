@@ -1,0 +1,187 @@
+variables:
+  first: &first
+    - "1"
+    - "1."
+    - Angluni
+  second: &second
+    - "2"
+    - "2."
+    - Dujto
+books:
+  - osis: Gen
+    texts:
+      - Кердипэ
+      - Крд
+  - osis: Rev
+    texts:
+      - Otkrivenje
+      - Phućardipe
+      - Phuć
+      - Otk
+  - osis: Ruth
+    texts:
+      - Руфь
+  - osis: Jonah
+    texts:
+      - Иона
+  - osis: Matt
+    texts:
+      - Evangelium e Matejestar
+      - Mateje
+      - Matej
+      - Mt
+  - osis: Mark
+    texts:
+      - Evangelium e Markostar
+      - Marko
+      - Mk
+  - osis: Luke
+    texts:
+      - Evangelium e Lukastar
+      - Lukahtar
+      - Lukéstar
+      - Luka
+      - Лука
+      - Luk
+      - Lk
+      - Лк
+  - osis: 3John
+    texts:
+      - Trito e Jovanesiri
+      - 3. Jovanesko
+      - 3. Jovan
+      - 3. Jn
+      - 3 Jn
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - e Jovanesiri
+      - Jovanesko
+      - Jovan
+      - Jn
+  - osis: John
+    texts:
+      - Evangelium e Jovanostar
+      - Jovane
+      - Jovano
+      - Jovan
+      - Jn
+  - osis: Acts
+    texts:
+      - Ćerdipna e apostolengere
+      - Delja
+      - Buća
+      - Ćeap
+      - Dela
+      - Дила
+      - Dap
+      - Дл
+  - osis: Rom
+    texts:
+      - Rimljanenđe
+      - Rimljanenge
+      - Rim
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - e Korinćanjenge
+      - Korinćanenđe
+      - Kor
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinćanjenge
+      - Korinćanenđe
+      - Kor
+  - osis: Col
+    texts:
+      - E Kološanenge
+      - Kološanurenđe
+      - Kološanenđe
+      - Kol
+  - osis: Gal
+    texts:
+      - Galaćanurenđe
+      - E Galatenge
+      - Galaćanenđe
+      - Galatenđe
+      - Gal
+  - osis: Eph
+    texts:
+      - Efesconenge
+      - Efescurenđe
+      - Efežanenđe
+      - Ef
+  - osis: Phil
+    texts:
+      - E Filipljanenge
+      - Filipljanenđe
+      - Fil
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - e Solunjamnenge
+      - Solunjanenđe
+      - Sol
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - e Timotejese
+      - Timoteješće
+      - Timotej
+      - Tim
+  - osis: Titus
+    texts:
+      - E Titose
+      - Titošće
+      - Titus
+      - Tit
+  - osis: Phlm
+    texts:
+      - E Filimonose
+      - Filemonešće
+      - Filimon
+      - Flm
+  - osis: Heb
+    texts:
+      - E Jevrejenge
+      - Jev
+  - osis: Jas
+    texts:
+      - E Jakovesiri
+      - Jakovesko
+      - Jakov
+      - Jak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - e Petresiri
+      - Petresko
+      - Petar
+      - Pet
+  - osis: Jude
+    texts:
+      - E Judesiri
+      - Judasko
+      - Juda
+      - Jud
+translations:
+  - CHERGASH
+  - GURBET
+  - ARLI
+  - KRB

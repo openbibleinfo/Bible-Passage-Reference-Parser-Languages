@@ -1,0 +1,111 @@
+variables:
+  first: &first
+    - "1"
+    - I
+  second: &second
+    - "2"
+    - II
+books:
+  - osis: Rev
+    texts:
+      - Mafunukuliko
+      - Maf
+  - osis: Ps
+    texts:
+      - Zaburi Sya Daud
+      - Zabur
+  - osis: Matt
+    texts:
+      - Mattayo
+      - Matt
+  - osis: Mark
+    texts:
+      - Marko
+  - osis: Luke
+    texts:
+      - Luka
+  - osis: 3John
+    texts:
+      - III Yohana
+      - 3 Yoh
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yohana
+      - Yoh
+  - osis: Acts
+    texts:
+      - Makitiko Ga Maapostolo
+      - Makitiko
+  - osis: Rom
+    texts:
+      - Roma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintho
+      - Kor
+  - osis: Col
+    texts:
+      - Kolosse
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatia
+      - Gal
+  - osis: Eph
+    texts:
+      - Efeso
+  - osis: Phil
+    texts:
+      - Filipi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thessalonike
+      - Thess
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+      - Tim
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filemon
+  - osis: Heb
+    texts:
+      - Hebrayo
+      - Heb
+  - osis: Jas
+    texts:
+      - Yakobo
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petro
+      - Pet
+  - osis: Jude
+    texts:
+      - Yuda
+translations:
+  - MGS1937
+  - MGSPSA

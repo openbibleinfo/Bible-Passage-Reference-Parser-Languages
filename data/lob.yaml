@@ -1,0 +1,118 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Nirɔrɛ
+      - Nɩr
+  - osis: Matt
+    texts:
+      - Matiə
+      - Mat
+  - osis: Mark
+    texts:
+      - Markɩ
+      - Mar
+  - osis: Luke
+    texts:
+      - Luki
+      - Lu
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jã
+  - osis: Acts
+    texts:
+      - Thãgbaa Thɔ̃thɔnaa Thɔ̃
+      - Th t t
+  - osis: Rom
+    texts:
+      - Rɔmdara
+      - Rɔm
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Korɛ̃tɩdara
+      - Kor
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kor
+  - osis: 2Cor
+    texts:
+      - Korɛ̃tɩdara
+  - osis: Col
+    texts:
+      - Kolosɩdara
+      - Kol
+  - osis: Gal
+    texts:
+      - Galasɩdara
+      - Gal
+  - osis: Eph
+    texts:
+      - Efɛjɩdara
+      - Efɛ
+  - osis: Phil
+    texts:
+      - Filipidara
+      - Fili
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonɩkɩdara
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothe
+      - Tim
+  - osis: Titus
+    texts:
+      - Tɩtɩ
+      - Tɩ
+  - osis: Phlm
+    texts:
+      - Filemɔ̃
+      - File
+  - osis: Heb
+    texts:
+      - Ebirəsɔ
+      - Ebi
+  - osis: Jas
+    texts:
+      - Jakɩ
+      - Ja
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pɩɛr
+      - Pɩ
+  - osis: Jude
+    texts:
+      - Juudi
+      - Juu
+translations:
+  - LOBIRI

@@ -1,0 +1,323 @@
+default:
+  1Cor:
+    long: 1 Karintiyanak
+    short: 1Co
+  1John:
+    long: 1 Cwaan
+    short: 1Jn
+  1Kgs:
+    long: 1 Kihciokimaak
+    short: 1Ki
+  1Pet:
+    long: 1 Piitar
+    short: 1Pe
+  1Sam:
+    long: 1 Saamiyoo
+    short: 1Sa
+  1Thess:
+    long: 1 Tehsalooniyanak
+    short: 1Th
+  1Tim:
+    long: 1 Timahti
+    short: 1Ti
+  2Cor:
+    long: 2 Karintiyanak
+    short: 2Co
+  2John:
+    long: 2 Cwaan
+    short: 2Jn
+  2Kgs:
+    long: 2 Kihciokimaak
+    short: 2Ki
+  2Pet:
+    long: 2 Piitar
+    short: 2Pe
+  2Sam:
+    long: 2 Saamiyoo
+    short: 2Sa
+  2Thess:
+    long: 2 Tehsalooniyanak
+    short: 2Th
+  2Tim:
+    long: 2 Timahti
+    short: 2Ti
+  3John:
+    long: 3 Cwaan
+    short: 3Jn
+  Acts:
+    long: Ishihcikewinan
+    short: Act
+  Amos:
+    long: Emahs
+    short: Amos
+  Col:
+    long: Kalaahshiyanak
+    short: Col
+  Dan:
+    long: Taaniyoo
+    short: Dan
+  Deut:
+    long: Tootaraanamii
+    short: Deu
+  Eccl:
+    long: Kaakihkentaahsotc
+    short: Ecc
+  Eph:
+    long: Ihpiishiyanak
+    short: Eph
+  Esth:
+    long: Ehstar
+    short: Est
+  Exod:
+    long: Ekihsatahs
+    short: Exo
+  Ezek:
+    long: Iisiihkiyoo
+    short: Ezk
+  Ezra:
+    long: Esara
+    short: Ezr
+  Gal:
+    long: Kalehshiyanak
+    short: Gal
+  Gen:
+    long: Cenisihs
+    short: Gen
+  Hab:
+    long: Haapakahk
+    short: Hab
+  Hag:
+    long: Haakeaai
+    short: Hag
+  Heb:
+    long: Hiiparoowak
+    short: Heb
+  Hos:
+    long: Hosiiya
+    short: Hosea
+  Isa:
+    long: Aaiseya
+    short: Isa
+  Jas:
+    long: Ciimis
+    short: Jas
+  Jer:
+    long: Ceramaaya
+    short: Jer
+  Job:
+    long: Coop
+    short: Job
+  Joel:
+    long: Coowel
+    short: Joel
+  John:
+    long: Cwaan
+    short: Jhn
+  Jonah:
+    long: Coona
+    short: Jon
+  Josh:
+    long: Caahshowaa
+    short: Jos
+  Jude:
+    long: Coot
+    short: Jud
+  Judg:
+    long: Onaahkonikek
+    short: Jdg
+  Lam:
+    long: Maanentamowin
+    short: Lam
+  Lev:
+    long: Lipitikahs
+    short: Lev
+  Luke:
+    long: Lok
+    short: Luk
+  Mal:
+    long: Maalahkaai
+    short: Mal
+  Mark:
+    long: Maarhk
+    short: Mrk
+  Matt:
+    long: Maahtiyo
+    short: Mat
+  Mic:
+    long: Maaihka
+    short: Mic
+  Nah:
+    long: Neham
+    short: Nah
+  Neh:
+    long: Niiyamaaya
+    short: Neh
+  Num:
+    long: Akintaahsonan
+    short: Num
+  Obad:
+    long: Oopitaaya
+    short: Oba
+  Phil:
+    long: Pilipiyanak
+    short: Php
+  Phlm:
+    long: Paailiiman
+    short: Philem
+  Prov:
+    long: Kakiihtaawikiishwewinan
+    short: Pro
+  Ps:
+    long: Nikamonan
+    short: Psa
+  Rev:
+    long: Kihkentamooshiwewin
+    short: Rev
+  Rom:
+    long: Oroomanak
+    short: Rom
+  Ruth:
+    long: Oroot
+    short: Rut
+  Song:
+    long: Swaalaman Onikamonan
+    short: Sng
+  Titus:
+    long: Taitahs
+    short: Titus
+  Zech:
+    long: Sehkaraaya
+    short: Zech
+  Zeph:
+    long: Sehpanaaya
+    short: Zeph
+translations:
+  ojbs:
+    1Cor:
+      long: 1 ᑲᕒᐃᑎᔭᓇᒃ
+    1John:
+      long: 1 ᒞᓐ
+    1Kgs:
+      long: 1 ᑭᒋᐅᑭᒫᒃ
+    1Pet:
+      long: 1 ᐲᑕᕒ
+    1Sam:
+      long: 1 ᓵᒥᔫ
+    1Thess:
+      long: 1 ᑌᓴᓬᐆᓂᔭᓇᒃ
+    1Tim:
+      long: 1 ᑎᒪᑎ
+    2Cor:
+      long: 2 ᑲᕒᐃᑎᔭᓇᒃ
+    2John:
+      long: 2 ᒞᓐ
+    2Kgs:
+      long: 2 ᑭᒋᐅᑭᒫᒃ
+    2Pet:
+      long: 2 ᐲᑕᕒ
+    2Sam:
+      long: 2 ᓵᒥᔫ
+    2Thess:
+      long: 2 ᑌᓴᓬᐆᓂᔭᓇᒃ
+    2Tim:
+      long: 2 ᑎᒪᑎ
+    3John:
+      long: 3 ᒞᓐ
+    Acts:
+      long: ᐃᔑᒋᑫᐎᓇᓐ
+    Amos:
+      long: ᐁᒪᔅ
+    Col:
+      long: ᑲᓬᐋᔑᔭᓇᒃ
+    Dan:
+      long: ᑖᓂᔫ
+    Deut:
+      long: ᑑᑕᕒᐋᓇᒦ
+    Eccl:
+      long: ᑳᑭᑫᑖᓱᒡ
+    Eph:
+      long: ᐃᐲᔑᔭᓇᒃ
+    Esth:
+      long: ᐁᔅᑕᕒ
+    Exod:
+      long: ᐁᑭᓴᑕᔅ
+    Ezek:
+      long: ᐄᓰᑭᔫ
+    Ezra:
+      long: ᐁᓴᕒᐊ
+    Gal:
+      long: ᑲᓬᐁᔑᔭᓇᒃ
+    Gen:
+      long: ᒉᓂᓯᔅ
+    Hab:
+      long: ᐋᐸᑲᒃ
+    Hag:
+      long: ᐋᑫᐋᐃ
+    Heb:
+      long: ᐄᐸᕒᐆᐗᒃ
+    Hos:
+      long: ᐅᓰᔭ
+    Isa:
+      long: ᐋᐃᓭᔭ
+    Jas:
+      long: ᒌᒥᔅ
+    Jer:
+      long: ᒉᕒᐊᒫᔭ
+    Job:
+      long: ᒎᑉ
+    Joel:
+      long: ᒎᐌᓬ
+    John:
+      long: ᒞᓐ
+    Jonah:
+      long: ᒎᓇ
+    Josh:
+      long: ᒑᔓᐙ
+    Jude:
+      long: ᒎᑦ
+    Judg:
+      long: ᐅᓈᑯᓂᑫᒃ
+    Lam:
+      long: ᒫᓀᑕᒧᐎᓐ
+    Lev:
+      long: ᓬᐃᐱᑎᑲᔅ
+    Luke:
+      long: ᓬᐅᒃ
+    Mal:
+      long: ᒫᓬᐊᑳᐃ
+    Mark:
+      long: ᒫᕒᒃ
+    Matt:
+      long: ᒫᑎᔪ
+    Mic:
+      long: ᒫᐃᑲ
+    Nah:
+      long: ᓀᐊᒻ
+    Neh:
+      long: ᓃᔭᒫᔭ
+    Num:
+      long: ᐊᑭᑖᓱᓇᓐ
+    Obad:
+      long: ᐆᐱᑖᔭ
+    Phil:
+      long: ᐱᓬᐃᐱᔭᓇᒃ
+    Phlm:
+      long: ᐹᐃᓬᐄᒪᓐ
+    Prov:
+      long: ᑲᑮᑖᐎᑮᔗᐎᓇᓐ
+    Ps:
+      long: ᓂᑲᒧᓇᓐ
+    Rev:
+      long: ᑭᑫᑕᒨᔑᐌᐎᓐ
+    Rom:
+      long: ᐅᕒᐆᒪᓇᒃ
+    Ruth:
+      long: ᐅᕒᐆᑦ
+    Song:
+      long: ᔂᓬᐊᒪᓐ ᐅᓂᑲᒧᓇᓐ
+    Titus:
+      long: ᑕᐃᑕᔅ
+    Zech:
+      long: ᓭᑲᕒᐋᔭ
+    Zeph:
+      long: ᓭᐸᓈᔭ

@@ -1,0 +1,37 @@
+default:
+  1Cor:
+    long: 1 Akolinto
+    short: 1Kol
+  1Thess:
+    long: 1 Atesalonike
+    short: 1Tes
+  1Tim:
+    long: 1 Timoteo
+    short: 1Tim
+  2Thess:
+    long: 2 Atesalonike
+    short: 2Tes
+  2Tim:
+    long: 2 Timoteo
+    short: 2Tim
+  Acts:
+    long: Makowe
+    short: Mako
+  John:
+    long: Yoani
+    short: Yoa
+  Luke:
+    long: Luka
+    short: Luk
+  Mark:
+    long: Maluko
+    short: Mal
+  Matt:
+    long: Matei
+    short: Mat
+  Phlm:
+    long: Filemoni
+    short: Fil
+  Titus:
+    long: Tito
+    short: Tit

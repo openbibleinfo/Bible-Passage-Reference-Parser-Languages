@@ -1,0 +1,542 @@
+default:
+  1Chr:
+    long: १ इतिहास
+    short: १ इति
+  1Cor:
+    long: 1 कोरिन्थी
+    short: 1 कोरि
+  1John:
+    long: 1 यूहन्‍ना
+    short: 1 यूह
+  1Kgs:
+    long: 1राजाहरू
+    short: 1 राजा
+  1Pet:
+    long: 1 पत्रुस
+    short: 1 पत्रु
+  1Sam:
+    long: १ शमूएल
+    short: १ शमू
+  1Thess:
+    long: 1 थेसलोनिकी
+    short: 1 थेस
+  1Tim:
+    long: 1 तिमोथी
+    short: 1 तिमो
+  2Chr:
+    long: २ इतिहास
+    short: २ इति
+  2Cor:
+    long: 2 कोरिन्थी
+    short: 2 कोरि
+  2John:
+    long: 2 यूहन्‍ना
+    short: 2 यूह
+  2Kgs:
+    long: 2 राजाहरू
+    short: 2 राजा
+  2Pet:
+    long: 2 पत्रुस
+    short: 2 पत्रु
+  2Sam:
+    long: २ शमूएल
+    short: २ शमू
+  2Thess:
+    long: 2 थेसलोनिकी
+    short: 2 थेस
+  2Tim:
+    long: 2 तिमोथी
+    short: 2 तिमो
+  3John:
+    long: 3 यूहन्‍ना
+    short: 3 यूह
+  Acts:
+    long: प्रेरित
+    short: प्रेरित
+  Amos:
+    long: आमोस
+    short: आमो
+  Col:
+    long: कलस्सी
+    short: कल
+  Dan:
+    long: दानिएल
+    short: दान
+  Deut:
+    long: व्यवस्था
+    short: व्‍य
+  Eccl:
+    long: उपदेशक
+    short: उप
+  Eph:
+    long: एफिसी
+    short: एफि
+  Esth:
+    long: एस्‍तर
+    short: एस
+  Exod:
+    long: प्रस्‍थान
+    short: प्रस
+  Ezek:
+    long: इजकिएल
+    short: इज
+  Ezra:
+    long: एज्रा
+    short: एज्रा
+  Gal:
+    long: गलाती
+    short: गला
+  Gen:
+    long: उत्‍पत्ति
+    short: उत
+  Hab:
+    long: हबकूक
+    short: हब
+  Hag:
+    long: हाग्‍गै
+    short: हाग
+  Heb:
+    long: हिब्रू
+    short: हिब्रू
+  Hos:
+    long: होशे
+    short: होशे
+  Isa:
+    long: यशैया
+    short: यशै
+  Jas:
+    long: याकूब
+    short: याक
+  Jer:
+    long: यर्मिया
+    short: यर
+  Job:
+    long: अय्‍यूब
+    short: अयू
+  Joel:
+    long: योएल
+    short: योए
+  John:
+    long: यूहन्‍ना
+    short: यूह
+  Jonah:
+    long: योना
+    short: योना
+  Josh:
+    long: यहोशू
+    short: यहो
+  Jude:
+    long: यहूदा
+    short: यहू
+  Judg:
+    long: न्यायकर्ता
+    short: न्‍याय
+  Lam:
+    long: विलाप
+    short: विला
+  Lev:
+    long: लेवी
+    short: लेवी
+  Luke:
+    long: लूका
+    short: लूका
+  Mal:
+    long: मलाकी
+    short: मला
+  Mark:
+    long: मर्कूस
+    short: मर्क
+  Matt:
+    long: मत्ती
+    short: मत्ती
+  Mic:
+    long: मीका
+    short: मीका
+  Nah:
+    long: नहूम
+    short: नहू
+  Neh:
+    long: नहेम्‍याह
+    short: नहे
+  Num:
+    long: गन्ती
+    short: गन्ती
+  Obad:
+    long: ओबदिया
+    short: ओब
+  Phil:
+    long: फिलिप्पी
+    short: फिलि
+  Phlm:
+    long: फिलेमोन
+    short: फिले
+  Prov:
+    long: हितोपदेश
+    short: हितो
+  Ps:
+    long: भजनसंग्रह
+    short: भज
+  Rev:
+    long: प्रकाश
+    short: प्रका
+  Rom:
+    long: रोमी
+    short: रोमी
+  Ruth:
+    long: रूथ
+    short: रूथ
+  Song:
+    long: श्रेष्‍ठगीत
+    short: श्रेष्‍ठ
+  Titus:
+    long: तीतस
+    short: तीत
+  Zech:
+    long: जकरिया
+    short: जक
+  Zeph:
+    long: सपन्‍याह
+    short: सप
+translations:
+  ncv:
+    1Chr:
+      long: 1 इतिहास
+      short: 1 इति
+    1Sam:
+      long: 1 शमूएल
+      short: 1 शमू
+    2Chr:
+      long: 2 इतिहास
+      short: 2 इति
+    2Sam:
+      long: 2 शमूएल
+      short: 2 शमू
+    Amos:
+      short: आमोस
+    Dan:
+      short: दानि
+    Deut:
+      short: व्यव
+    Esth:
+      long: एस्तर
+      short: एस्तर
+    Exod:
+      long: प्रस्थान
+    Gen:
+      long: उत्पत्ति
+      short: उत्प
+    Hag:
+      long: हाग्गै
+      short: हाग्गै
+    Heb:
+      long: हिब्रूहरू
+    Jas:
+      long: याकोब
+      short: याको
+    Jer:
+      short: यर्मिया
+    Job:
+      long: इयोब
+      short: इयोब
+    Joel:
+      short: योएल
+    Judg:
+      short: न्याय
+    Lam:
+      short: विलाप
+    Mark:
+      short: मर्कू
+    Nah:
+      short: नहूम
+    Neh:
+      long: नहेम्याह
+    Ps:
+      short: भजन
+    Zeph:
+      long: सपन्याह
+  nerv:
+    1Chr:
+      long: इतिहासको पहिलो पुस्तक
+      short: 1 इतिहास
+    1Cor:
+      long: कोरिन्थीहरूलाई पावलको पहिलो पत्र
+      short: 1 कोरिन्थी
+    1John:
+      long: यूहन्नाको पहिलो पत्र
+      short: 1 यूहन्ना
+    1Kgs:
+      long: राजाहरूक पहिल पुस्तक
+    1Pet:
+      long: पत्रुसको पहिलो पत्र
+      short: 1 पत्रुस
+    1Sam:
+      long: शमूएलको पहिलो पुस्तक
+      short: 1 शमूएल
+    1Thess:
+      long: थिस्सलोनिकीहरूलाई पावलको पहिलो पत्र
+      short: 1 थिस्सलोनिकी
+    1Tim:
+      long: तिमोथीलाईर् पावलको पहिलो पत्र
+      short: 1 तिमोथी
+    2Chr:
+      long: इतिहासको दोस्रो पुस्तक
+      short: 2 इतिहास
+    2Cor:
+      long: कोरिन्थीहरूलाई पावलको दोस्रो पत्र
+      short: 2 कोरिन्थी
+    2John:
+      long: यूहन्नाको दोस्रो पत्र
+      short: 2 यूहन्ना
+    2Kgs:
+      long: राजाहरूको दोस्रो पुस्तक
+    2Pet:
+      long: पत्रुसको दोस्रो पत्र
+      short: 2 पत्रुस
+    2Sam:
+      long: शमूएलको दोस्रो पुस्तक
+      short: 2 शमूएल
+    2Thess:
+      long: थिस्सलोनिकीहरूलाई पावलको दोस्रो पत्र
+      short: 2 थिस्सलोनिकी
+    2Tim:
+      long: तिमोथीलाई पावलको दोस्रो पत्र
+      short: 2 तिमोथी
+    3John:
+      long: यूहन्नाको तेस्रो पत्र
+      short: 3 यूहन्ना
+    Acts:
+      long: प्रेरितहरूका काम
+    Amos:
+      long: आमोसको पुस्तक
+      short: आमोस
+    Col:
+      long: कलस्सीहरूलाई पावलको पत्र
+      short: कलस्सी
+    Dan:
+      long: दानियलको पुस्तक
+      short: दानियल
+    Deut:
+      long: व्यवस्थाको पुस्तक
+      short: व्यवस्था
+    Eccl:
+      long: उपदेशकको पुस्तक
+      short: उपदेशक
+    Eph:
+      long: एफिसीहरूलाई पावलको पत्र
+      short: एफिसी
+    Esth:
+      long: एस्तरको पुस्तक
+      short: एस्तर
+    Exod:
+      long: प्रस्थानको पुस्तक
+      short: प्रस्थान
+    Ezek:
+      long: इजकिएलको पुस्तक
+      short: इजकिएल
+    Ezra:
+      long: एज्राको पुस्तक
+    Gal:
+      long: गलातीहरूलाई पावलको पत्र
+      short: गलाती
+    Gen:
+      long: उत्पत्तिको पुस्तक
+      short: उत्पत्ति
+    Hab:
+      long: हबकूकको पुस्तक
+      short: हबकूक
+    Hag:
+      long: हाग्गैको पुस्तक
+      short: हाग्गै
+    Heb:
+      long: हिब्रूहरूको निम्ति पत्र
+    Hos:
+      long: होशेको पुस्तक
+    Isa:
+      long: यशैयाको पुस्तक
+      short: यशैया
+    Jas:
+      long: याकूबको पत्र
+      short: याकूब
+    Jer:
+      long: यर्मियाको पुस्तक
+      short: यर्मिया
+    Job:
+      long: अय्यूबको पुस्तक
+      short: अय्यूब
+    Joel:
+      long: योएलको पुस्तक
+      short: योएल
+    John:
+      long: यूहन्नाको सुसमाचार
+      short: यूहन्ना
+    Jonah:
+      long: योनाको पुस्तक
+    Josh:
+      long: यहोशूको पुस्तक
+      short: यहोशू
+    Jude:
+      long: यहूदाको पत्र
+      short: यहूदा
+    Judg:
+      long: न्यायकर्ताहरूको पुस्तक
+      short: न्यायकर्ता
+    Lam:
+      long: यर्मियाको विलाप
+      short: विलाप
+    Lev:
+      long: लेवीहरूको पुस्तक
+    Luke:
+      long: लूकाको सुसमाचार
+    Mal:
+      long: मलाकीको पुस्तक
+      short: मलाकी
+    Mark:
+      long: मर्कूसको सुसमाचार
+      short: मर्कूस
+    Matt:
+      long: मत्तीको सुसमाचार
+    Mic:
+      long: मीकाको पुस्तक
+    Nah:
+      long: नहूमको पुस्तक
+      short: नहूम
+    Neh:
+      long: नहेम्याहको पुस्तक
+      short: नहेम्याह
+    Num:
+      long: गन्तीको पुस्तक
+    Obad:
+      long: ओबदियाको पुस्तक
+      short: ओबदिया
+    Phil:
+      long: फिलिप्पीहरूलाई पावलको पत्र
+      short: फिलिप्पी
+    Phlm:
+      long: फिलेमोनलाई पावलको पत्र
+      short: फिलेमोन
+    Prov:
+      long: हितोपदेशको पुस्तक
+      short: हितोपदेश
+    Ps:
+      short: भजन
+    Rev:
+      long: यूहन्नालाई भएको प्रकाश
+      short: प्रकाश
+    Rom:
+      long: रोमीहरूलाई पावलको पत्र
+    Ruth:
+      long: रूथको पुस्तक
+    Song:
+      long: सुलेमानको श्रेष्ठगीत
+      short: श्रेष्ठगीत
+    Titus:
+      long: तीतसलाई पावलको पत्र
+      short: तीतस
+    Zech:
+      long: जकरियाको पुस्तक
+      short: जकरिया
+    Zeph:
+      long: सपन्याहको पुस्तक
+      short: सपन्याह
+  nnrv:
+    1Cor:
+      long: १ कोरिन्थी
+      short: १ कोर
+    1John:
+      long: १ यूहन्‍ना
+      short: १ यूह
+    1Kgs:
+      long: १ राजाहरू
+      short: १ राज
+    1Pet:
+      long: १ पत्रुस
+      short: १ पत्र
+    1Thess:
+      long: १ थेसलोनिकी
+      short: १ थेस
+    1Tim:
+      long: १ तिमोथी
+      short: १ तिमो
+    2Cor:
+      long: २ कोरिन्थी
+      short: २ कोर
+    2John:
+      long: २ यूहन्‍ना
+      short: २ यूह
+    2Kgs:
+      long: २ राजाहरू
+      short: २ राज
+    2Pet:
+      long: २ पत्रुस
+      short: २ पत्र
+    2Thess:
+      long: २ थेसलोनिकी
+      short: २ थेस
+    2Tim:
+      long: २ तिमोथी
+      short: २ तिमो
+    3John:
+      long: ३ यूहन्‍ना
+      short: ३ यूह
+    Acts:
+      short: प्रे
+    Heb:
+      short: हिब
+    Judg:
+      long: न्यायकर्ताहरू
+    Lev:
+      long: लेवीहरू
+    Luke:
+      short: लूक
+    Rom:
+      short: रोम
+  snhb:
+    1Cor:
+      long: १ कोरिन्थी
+      short: १ कोर
+    1John:
+      long: १ यूहन्‍ना
+      short: १ यूह
+    1Kgs:
+      long: १ राजा
+      short: १ राज
+    1Pet:
+      long: १ पत्रुस
+      short: १ पत्र
+    1Thess:
+      long: १ थेसलोनिकी
+      short: १ थेस
+    1Tim:
+      long: १ तिमोथी
+      short: १ तिमो
+    2Cor:
+      long: २ कोरिन्थी
+      short: २ कोर
+    2John:
+      long: २ यूहन्‍ना
+      short: २ यूह
+    2Kgs:
+      long: २ राजा
+      short: २ राज
+    2Pet:
+      long: २ पत्रुस
+      short: २ पत्र
+    2Thess:
+      long: २ थेसलोनिकी
+      short: २ थेस
+    2Tim:
+      long: २ तिमोथी
+      short: २ तिमो
+    3John:
+      long: ३ यूहन्‍ना
+      short: ३ यूह
+    Acts:
+      short: प्रे
+    Deut:
+      long: व्‍यवस्‍था
+    Luke:
+      short: लूक
+    Num:
+      long: गन्‍ती
+    Rom:
+      short: रोम

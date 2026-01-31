@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 Korintojatzi
+    short: 1 Ko.
+  1John:
+    long: 1 Jowa
+    short: 1 J.
+  1Pet:
+    long: 1 Peetero
+    short: 1 P.
+  1Thess:
+    long: 1 Tejawoonikajatzi
+    short: 1 Tej.
+  1Tim:
+    long: 1 Temoteeyo
+    short: 1 Tm.
+  2Cor:
+    long: 2 Korintojatzi
+    short: 2 Ko.
+  2John:
+    long: 2 Jowa
+    short: 2 J.
+  2Pet:
+    long: 2 Peetero
+    short: 2 P.
+  2Thess:
+    long: 2 Tejawoonikajatzi
+    short: 2 Tej.
+  2Tim:
+    long: 2 Temoteeyo
+    short: 2 Tm.
+  3John:
+    long: 3 Jowa
+    short: 3 J.
+  Acts:
+    long: Rantayitakirini
+    short: Ran.
+  Col:
+    long: Korojaashijatzi
+    short: Koro.
+  Eph:
+    long: Ejeesojatzi
+    short: Eje.
+  Gal:
+    long: Karaashiyajatzi
+    short: Kar.
+  Heb:
+    long: Ijoriiyotzinkarite
+    short: Ijor.
+  Jas:
+    long: Jantyaako
+    short: Jnty.
+  John:
+    long: Jowa
+    short: Jowa
+  Jude:
+    long: Joorashi
+    short: Jor.
+  Luke:
+    long: Rookashi
+    short: Rk.
+  Mark:
+    long: Marikoshi
+    short: Mr.
+  Matt:
+    long: Mateeyo
+    short: Mt.
+  Phil:
+    long: Jiriposhijatzi
+    short: Jir.
+  Phlm:
+    long: Jirimooni
+    short: Jrm.
+  Rev:
+    long: Roñaagayitakirini
+    short: Roñ.
+  Rom:
+    long: Oroomajatzi
+    short: Or.
+  Titus:
+    long: Teeto
+    short: Te.

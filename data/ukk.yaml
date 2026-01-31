@@ -1,0 +1,52 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Mark
+    texts:
+      - "caam: ma kux"
+  - osis: Luke
+    texts:
+      - "caam: luk ka"
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - "caam: yo: haan"
+  - osis: Acts
+    texts:
+      - "caam: ta maan caox"
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - "caam: taet sa law: nek"
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - "caam: tix maw: se"
+  - osis: Titus
+    texts:
+      - "caam: tix tux"
+  - osis: Phlm
+    texts:
+      - "caam: phix le mon"
+  - osis: Jas
+    texts:
+      - "caam: ya kop"
+translations:
+  - UKK

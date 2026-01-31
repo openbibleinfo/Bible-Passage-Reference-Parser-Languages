@@ -1,0 +1,80 @@
+default:
+  1Cor:
+    long: १ कोरीन्‍थी
+  1John:
+    long: १ युहना
+  1Pet:
+    long: १ पत्रुस्
+  1Thess:
+    long: १ थेसलोनिकि
+    short: १थेस
+  1Tim:
+    long: १ तिमोथि
+    short: १तिमो
+  2Cor:
+    long: २ कोरीन्‍थी
+  2John:
+    long: २ युहना
+  2Pet:
+    long: २ पत्रुस्
+  2Thess:
+    long: २ थेसलोनिकि
+    short: २थेस
+  2Tim:
+    long: २ तिमोथि
+    short: २तिमो
+  3John:
+    long: ३ युहना
+  Acts:
+    long: खबरदुत
+    short: खबर
+  Col:
+    long: कोलसी
+  Eph:
+    long: एफेसस्
+  Gal:
+    long: गालाती
+  Heb:
+    long: हेब्रैनी
+  Jas:
+    long: याकुब्
+  John:
+    long: युहना
+  Jude:
+    long: यहुदा
+  Luke:
+    long: लुका
+    short: लुक
+  Mark:
+    long: मर्‌कस्
+    short: मर्‌क
+  Matt:
+    long: मत्ती
+  Phil:
+    long: फीलीपी
+  Phlm:
+    long: फीलेमोन्
+  Rev:
+    long: प्रकाश
+  Rom:
+    long: रोमी
+  Titus:
+    long: तितस
+    short: तित
+translations:
+  cdm93:
+    1Thess:
+      long: १ थेसालोनीका
+    1Tim:
+      long: १ तीमोथी
+    2Thess:
+      long: २ थेसालोनीका
+    2Tim:
+      long: २ तीमोथी
+    Acts:
+      long: प्रेरीत्
+    Titus:
+      long: तीतस्
+  chep:
+    Mark:
+      long: मर्‌कुस

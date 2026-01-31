@@ -1,0 +1,214 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Aepa Gemae
+      - Aep
+  - osis: Exod
+    texts:
+      - Hat
+  - osis: Num
+    texts:
+      - Napa
+      - Nap
+  - osis: Rev
+    texts:
+      - Leveleseni
+      - Le
+  - osis: Josh
+    texts:
+      - Yasuva
+      - Yas
+  - osis: Ruth
+    texts:
+      - Luti
+      - Lut
+  - osis: Isa
+    texts:
+      - Aiyeya
+      - Aiy
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samiyo
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Kini
+      - Kin
+  - osis:
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Sitoli
+      - Sit
+  - osis: Ezra
+    texts:
+      - Esala
+      - Esa
+  - osis: Esth
+    texts:
+      - Esata
+      - Est
+  - osis: Ps
+    texts:
+      - Samu
+      - Sam
+  - osis: Prov
+    texts:
+      - Mai'naya kavane
+      - Mai
+  - osis: Song
+    texts:
+      - Salomoni Yokemae
+      - Sal
+  - osis: Dan
+    texts:
+      - Neniyo
+      - Nen
+  - osis: Obad
+    texts:
+      - Omataiya
+      - Oma
+  - osis: Jonah
+    texts:
+      - Yona
+      - Yna
+  - osis: Mic
+    texts:
+      - Maika
+      - Mka
+  - osis: Nah
+    texts:
+      - Neyomi
+      - Ney
+  - osis: Hab
+    texts:
+      - Hamakaki
+      - Ham
+  - osis: Zeph
+    texts:
+      - Sefanaiya
+      - Sef
+  - osis: Hag
+    texts:
+      - Hagai
+      - Hag
+  - osis: Mal
+    texts:
+      - Malakai
+      - Mal
+  - osis: Matt
+    texts:
+      - Matiyu
+      - Mt
+  - osis: Mark
+    texts:
+      - Maki
+      - Mk
+  - osis: Luke
+    texts:
+      - Luki
+      - Lu
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yoni
+      - Yo
+  - osis: Acts
+    texts:
+      - Apa
+      - Ap
+  - osis: Rom
+    texts:
+      - Lomu
+      - Lo
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kolitiyani
+      - Ko
+  - osis: Col
+    texts:
+      - Kolosi
+      - Kl
+  - osis: Gal
+    texts:
+      - Galesiya
+      - Ga
+  - osis: Eph
+    texts:
+      - Efasasi
+      - Ef
+  - osis: Phil
+    texts:
+      - Filipai
+      - Fl
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaloniyani
+      - Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+      - Ti
+  - osis: Titus
+    texts:
+      - Taitasi
+      - Ta
+  - osis: Phlm
+    texts:
+      - Failimoni
+      - Fm
+  - osis: Heb
+    texts:
+      - Himulu
+      - Hi
+  - osis: Jas
+    texts:
+      - Yemisi
+      - Ye
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+      - Pi
+  - osis: Jude
+    texts:
+      - Yuti
+      - Yu
+translations:
+  - KYG2013

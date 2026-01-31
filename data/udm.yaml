@@ -1,0 +1,362 @@
+variables:
+  first: &first
+    - "1"
+    - Экс.
+  second: &second
+    - "2"
+    - Экс.
+books:
+  - osis: Gen
+    texts:
+      - Улон-вылон
+      - Ул.-выл.
+  - osis: Exod
+    texts:
+      - Потон
+      - Пот.
+  - osis: Lev
+    texts:
+      - Левит
+      - Лев.
+  - osis: Num
+    texts:
+      - Лыдпусъёс
+      - Лыд.
+  - osis: Sir
+    texts:
+      - Сӥрах
+      - Сӥр.
+  - osis: Wis
+    texts:
+      - Соломонлэн Визьлык книгаез
+      - Визьл.
+  - osis: Lam
+    texts:
+      - Иеремиялэн бӧрдонэз
+      - Бӧрд.
+  - osis: EpJer
+    texts:
+      - Иеремиялэн ыстэм гожтэтэз
+      - И.гож.
+  - osis: Rev
+    texts:
+      - Усьтӥськон
+      - Усьт.
+  - osis: Deut
+    texts:
+      - Кыкетӥ Закон
+      - 2Зак.
+  - osis: Josh
+    texts:
+      - Иисус Навин
+      - Нав.
+  - osis: Judg
+    texts:
+      - Судьяос
+      - Суд.
+  - osis: Ruth
+    texts:
+      - Руф.
+      - Руфь
+  - osis: 1Esd
+    texts:
+      - Ездралэн 2-тӥ книгаез
+      - 2Езд.
+  - osis: 2Esd
+    texts:
+      - Ездралэн 3-тӥ книгаез
+      - 3Езд.
+  - osis: Isa
+    texts:
+      - Исаия
+      - Ис.
+  - osis: 1Sam
+    texts:
+      - 1Экс.
+  - osis: 2Sam
+    texts:
+      - 2Экс.
+  - osis: 1Kgs
+    texts:
+      - 3Экс.
+  - osis:
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - 4-тӥ книгазы
+  - osis: 2Kgs
+    texts:
+      - 4Экс.
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Паралипоменон
+  - osis: 1Chr
+    texts:
+      - 1Пар.
+  - osis: 2Chr
+    texts:
+      - 2Пар.
+  - osis: Ezra
+    texts:
+      - Ездра
+      - Езд.
+  - osis: Neh
+    texts:
+      - Неемия
+      - Неем.
+  - osis: Esth
+    texts:
+      - Есфирь
+      - Есф.
+  - osis: Job
+    texts:
+      - Иов
+  - osis: Ps
+    texts:
+      - Псалтирь
+      - Пс.
+  - osis: Prov
+    texts:
+      - Мадёнъёс
+      - Мад.
+  - osis: Eccl
+    texts:
+      - Екклесиаст
+      - Еккл.
+  - osis: Song
+    texts:
+      - Кырӟанъёс пӧлысь кырӟан
+      - Кырӟ.
+  - osis: Jer
+    texts:
+      - Иеремия
+      - Иер.
+  - osis: Ezek
+    texts:
+      - Иезекииль
+      - Иез.
+  - osis: Dan
+    texts:
+      - Даниил
+      - Дан.
+  - osis: Hos
+    texts:
+      - Осия
+      - Ос.
+  - osis: Joel
+    texts:
+      - Иоил.
+      - Иоиль
+  - osis: Amos
+    texts:
+      - Амос
+      - Ам.
+  - osis: Obad
+    texts:
+      - Авдия
+      - Авд.
+  - osis: Jonah
+    texts:
+      - Ион.
+      - Иона
+  - osis: Mic
+    texts:
+      - Михей
+      - Мих.
+  - osis: Nah
+    texts:
+      - Наум
+  - osis: Hab
+    texts:
+      - Аввакум
+      - Авв.
+  - osis: Zeph
+    texts:
+      - Софония
+      - Соф.
+  - osis: Hag
+    texts:
+      - Аггей
+      - Агг.
+  - osis: Zech
+    texts:
+      - Захария
+      - Зах.
+  - osis: Mal
+    texts:
+      - Малакия
+      - Мал.
+  - osis: Matt
+    texts:
+      - Матфей
+      - Мф.
+  - osis: Mark
+    texts:
+      - Марк
+      - Мк.
+  - osis: Luke
+    texts:
+      - Лука
+      - Лк.
+  - osis: 1John
+    texts:
+      - 1Ин.
+  - osis: 2John
+    texts:
+      - 2Ин.
+  - osis: 3John
+    texts:
+      - 3 Иоанн
+      - 3Ин.
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Иоанн
+  - osis: John
+    texts:
+      - Иоанн
+      - Ин.
+  - osis: Acts
+    texts:
+      - Апостолъёслэн ужъёссы
+      - Ап.уж.
+  - osis: Rom
+    texts:
+      - Римын улӥсьёслы
+      - Рим.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Коринфын улӥсьёслы
+  - osis: 1Cor
+    texts:
+      - 1Кор.
+  - osis: 2Cor
+    texts:
+      - 2Кор.
+  - osis: Col
+    texts:
+      - Колоссыын улӥсьёслы
+      - Кол.
+  - osis: Gal
+    texts:
+      - Галатияын улӥсьёслы
+      - Гал.
+  - osis: Eph
+    texts:
+      - Ефесын улӥсьёслы
+      - Еф.
+  - osis: Phil
+    texts:
+      - Филиппыын улӥсьёслы
+      - Фил.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Фессалоникаын улӥсьёслы
+  - osis: 1Thess
+    texts:
+      - 1Фес.
+  - osis: 2Thess
+    texts:
+      - 2Фес.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Тимофейлы
+  - osis: 1Tim
+    texts:
+      - 1Тим.
+  - osis: 2Tim
+    texts:
+      - 2Тим.
+  - osis: Titus
+    texts:
+      - Титлы
+      - Тит.
+  - osis: Phlm
+    texts:
+      - Филимонлы
+      - Филим.
+  - osis: Heb
+    texts:
+      - Еврейёслы
+      - Евр.
+  - osis: Jas
+    texts:
+      - Иаков
+      - Иак.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Петр
+  - osis: 1Pet
+    texts:
+      - 1Пет.
+  - osis: 2Pet
+    texts:
+      - 2Пет.
+  - osis: Jude
+    texts:
+      - Иуд.
+      - Иуда
+  - osis: Tob
+    texts:
+      - Товит
+      - Тов.
+  - osis: Jdt
+    texts:
+      - Иудифь
+      - И-фь
+  - osis: Bar
+    texts:
+      - Варух
+      - Вар.
+  - osis: 1Macc
+    texts:
+      - Маккавейёслэн 1-тӥ книгазы
+      - 1Макк.
+  - osis:
+      - osis: 1Sam
+        before: *first
+    texts:
+      - 1-тӥ книгазы
+  - osis: 2Macc
+    texts:
+      - Маккавейёслэн 2-тӥ книгазы
+      - 2Макк.
+  - osis:
+      - osis: 2Sam
+        before: *second
+    texts:
+      - 2-тӥ книгазы
+  - osis: 3Macc
+    texts:
+      - Маккавейёслэн 3-тӥ книгазы
+      - 3Макк.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+    texts:
+      - 3-тӥ книгазы
+translations:
+  - UDM13

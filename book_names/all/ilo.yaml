@@ -1,0 +1,413 @@
+- osis: Gen
+  texts:
+    - Genesis
+    - Gen.
+- osis: Exod
+  texts:
+    - Exodo
+    - Ex.
+- osis: Lev
+  texts:
+    - Levitico
+    - Lev.
+- osis: Num
+  texts:
+    - Numeros
+    - Numero
+    - Num.
+- osis: Lam
+  texts:
+    - Dagiti Un-unnoy
+    - Dungdung-aw
+    - D. Un.
+    - Dung.
+- osis: Rev
+  texts:
+    - Apocalipsis
+    - Paltiing
+    - Apoc.
+    - Pal.
+- osis: Deut
+  texts:
+    - Deuteronomio
+    - Deut.
+- osis: Josh
+  texts:
+    - Josue
+    - Jos.
+- osis: Judg
+  texts:
+    - Oc-ocom
+    - Uk-ukom
+    - Oc.
+    - Uk.
+- osis: Ruth
+  texts:
+    - Rut.
+    - Ruth
+    - Rt.
+- osis: Isa
+  texts:
+    - Isaias
+    - Isa.
+    - Is.
+- osis: 1Sam
+  texts:
+    - 1 Samuel
+    - 1 Sam.
+    - 1. Samuel
+    - 1. Sam.
+    - I Samuel
+    - I Sam.
+    - I. Samuel
+    - I. Sam.
+- osis: 2Sam
+  texts:
+    - 2 Samuel
+    - 2 Sam.
+    - 2. Samuel
+    - 2. Sam.
+    - II Samuel
+    - II Sam.
+    - II. Samuel
+    - II. Sam.
+- osis: 1Kgs
+  texts:
+    - 1 Ar-ari
+    - 1 Ar.
+    - 1. Ar-ari
+    - 1. Ar.
+    - I Ar-ari
+    - I Ar.
+    - I. Ar-ari
+    - I. Ar.
+- osis: 2Kgs
+  texts:
+    - 2 Ar-ari
+    - 2 Ar.
+    - 2. Ar-ari
+    - 2. Ar.
+    - II Ar-ari
+    - II Ar.
+    - II. Ar-ari
+    - II. Ar.
+- osis: 1Chr
+  texts:
+    - 1 Cronicas
+    - 1 Cron.
+    - 1. Cronicas
+    - 1. Cron.
+    - I Cronicas
+    - I Cron.
+    - I. Cronicas
+    - I. Cron.
+- osis: 2Chr
+  texts:
+    - 2 Cronicas
+    - 2 Cron.
+    - 2. Cronicas
+    - 2. Cron.
+    - II Cronicas
+    - II Cron.
+    - II. Cronicas
+    - II. Cron.
+- osis: Ezra
+  texts:
+    - Esdras
+    - Esd.
+    - Ezra
+    - Ez.
+- osis: Neh
+  texts:
+    - Nehemias
+    - Neh.
+- osis: Esth
+  texts:
+    - Ester
+    - Est.
+- osis: Job
+  texts:
+    - Jb.
+    - Job
+- osis: Prov
+  texts:
+    - Dagiti Proverbio
+    - Prov.
+- osis: Eccl
+  texts:
+    - Eclesiastes
+    - Ecle.
+    - Ec.
+- osis: Song
+  texts:
+    - Ti Canta Ni Salomon
+    - Kanta ni Solomon
+    - C. ni Sal.
+    - Kanta.
+- osis: Ps
+  texts:
+    - Dagiti Salmo
+    - Sal.
+- osis: Jer
+  texts:
+    - Jeremias
+    - Jer.
+- osis: Ezek
+  texts:
+    - Ezequiel
+    - Ezekiel
+    - Eze.
+- osis: Dan
+  texts:
+    - Daniel
+    - Dan.
+- osis: Hos
+  texts:
+    - Oseas
+    - Os.
+- osis: Joel
+  texts:
+    - Joel
+    - Jl.
+- osis: Amos
+  texts:
+    - Amos
+    - Am.
+- osis: Obad
+  texts:
+    - Obadias
+    - Abdias
+    - Obd.
+    - Ab.
+- osis: Jonah
+  texts:
+    - Jonas
+    - Jon.
+- osis: Mic
+  texts:
+    - Mikias
+    - Mik.
+    - Mk.
+- osis: Nah
+  texts:
+    - Nahum
+    - Nah.
+- osis: Hab
+  texts:
+    - Habacuc
+    - Habakuk
+    - Hab.
+- osis: Zeph
+  texts:
+    - Sofonias
+    - Sof.
+- osis: Hag
+  texts:
+    - Haggeo
+    - Hag.
+- osis: Zech
+  texts:
+    - Zacarias
+    - Zac.
+- osis: Mal
+  texts:
+    - Malakias
+    - Mal.
+    - Mlk.
+- osis: Matt
+  texts:
+    - San Mateo
+    - Mateo
+    - Mat.
+- osis: Mark
+  texts:
+    - San Marcos
+    - Marcos
+    - Mar.
+- osis: Luke
+  texts:
+    - San Lucas
+    - Lucas
+    - Luc.
+- osis: 3John
+  texts:
+    - III Juan
+    - 3 Juan
+    - 3 Jn.
+- osis: John
+  texts:
+    - San Juan
+    - Juan
+    - Jn.
+- osis: 1John
+  texts:
+    - 1 Juan
+    - 1 Jn.
+    - 1. Juan
+    - 1. Jn.
+    - I Juan
+    - I Jn.
+    - I. Juan
+    - I. Jn.
+- osis: 2John
+  texts:
+    - 2 Juan
+    - 2 Jn.
+    - 2. Juan
+    - 2. Jn.
+    - II Juan
+    - II Jn.
+    - II. Juan
+    - II. Jn.
+- osis: Acts
+  texts:
+    - Dagiti Aramid
+    - D. Ara.
+    - Ara.
+- osis: Rom
+  texts:
+    - Taga Roma
+    - Taga-Roma
+    - Rom.
+- osis: 1Cor
+  texts:
+    - 1 Taga Corinto
+    - 1 Taga-Corinto
+    - 1 Cor.
+    - 1. Taga Corinto
+    - 1. Taga-Corinto
+    - 1. Cor.
+    - I Taga Corinto
+    - I Taga-Corinto
+    - I Cor.
+    - I. Taga Corinto
+    - I. Taga-Corinto
+    - I. Cor.
+- osis: 2Cor
+  texts:
+    - 2 Taga Corinto
+    - 2 Taga-Corinto
+    - 2 Cor.
+    - 2. Taga Corinto
+    - 2. Taga-Corinto
+    - 2. Cor.
+    - II Taga Corinto
+    - II Taga-Corinto
+    - II Cor.
+    - II. Taga Corinto
+    - II. Taga-Corinto
+    - II. Cor.
+- osis: Col
+  texts:
+    - Taga Colosas
+    - Taga-Colosas
+    - Col.
+- osis: Gal
+  texts:
+    - Taga Galacia
+    - Taga-Galacia
+    - Gal.
+- osis: Eph
+  texts:
+    - Taga Efeso
+    - Taga-Efeso
+    - Efe.
+    - Ef.
+- osis: Phil
+  texts:
+    - Taga Filipos
+    - Taga-Filipos
+    - Fili.
+    - Fil.
+- osis: 1Thess
+  texts:
+    - 1 Taga Tesalonica
+    - 1 Taga-Tesalonica
+    - 1 Tes.
+    - 1. Taga Tesalonica
+    - 1. Taga-Tesalonica
+    - 1. Tes.
+    - I Taga Tesalonica
+    - I Taga-Tesalonica
+    - I Tes.
+    - I. Taga Tesalonica
+    - I. Taga-Tesalonica
+    - I. Tes.
+- osis: 2Thess
+  texts:
+    - 2 Taga Tesalonica
+    - 2 Taga-Tesalonica
+    - 2 Tes.
+    - 2. Taga Tesalonica
+    - 2. Taga-Tesalonica
+    - 2. Tes.
+    - II Taga Tesalonica
+    - II Taga-Tesalonica
+    - II Tes.
+    - II. Taga Tesalonica
+    - II. Taga-Tesalonica
+    - II. Tes.
+- osis: 1Tim
+  texts:
+    - 1 Timoteo
+    - 1 Tim.
+    - 1. Timoteo
+    - 1. Tim.
+    - I Timoteo
+    - I Tim.
+    - I. Timoteo
+    - I. Tim.
+- osis: 2Tim
+  texts:
+    - 2 Timoteo
+    - 2 Tim.
+    - 2. Timoteo
+    - 2. Tim.
+    - II Timoteo
+    - II Tim.
+    - II. Timoteo
+    - II. Tim.
+- osis: Titus
+  texts:
+    - Tit.
+    - Tito
+- osis: Phlm
+  texts:
+    - Filemon
+    - Filem.
+    - File.
+- osis: Heb
+  texts:
+    - Hebreo
+    - Heb.
+- osis: Jas
+  texts:
+    - Santiago
+    - Sant.
+    - San.
+- osis: 1Pet
+  texts:
+    - 1 Pedro
+    - 1 Ped.
+    - 1. Pedro
+    - 1. Ped.
+    - I Pedro
+    - I Ped.
+    - I. Pedro
+    - I. Ped.
+- osis: 2Pet
+  texts:
+    - 2 Pedro
+    - 2 Ped.
+    - 2. Pedro
+    - 2. Ped.
+    - II Pedro
+    - II Ped.
+    - II. Pedro
+    - II. Ped.
+- osis: Jude
+  texts:
+    - San Judas
+    - Judas
+    - Jud.
+    - Jd.

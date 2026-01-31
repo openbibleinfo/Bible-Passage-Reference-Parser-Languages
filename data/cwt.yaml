@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Kafeeñal ku
+  - osis: Matt
+    texts:
+      - Májiye
+  - osis: Mark
+    texts:
+      - Mark
+  - osis: Luke
+    texts:
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Saaŋ
+  - osis: Acts
+    texts:
+      - Epotor i
+  - osis: Rom
+    texts:
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korent
+  - osis: Col
+    texts:
+      - Kolos
+  - osis: Gal
+    texts:
+      - Galasi
+  - osis: Eph
+    texts:
+      - Efees
+  - osis: Phil
+    texts:
+      - Fílip
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonik
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+  - osis: Titus
+    texts:
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemoŋ
+  - osis: Heb
+    texts:
+      - Esuwif i
+  - osis: Jas
+    texts:
+      - Saak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piyeer
+  - osis: Jude
+    texts:
+      - Sud
+translations:
+  - CWT

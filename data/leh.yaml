@@ -1,0 +1,299 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Matalikilo
+      - Mata
+  - osis: Exod
+    texts:
+      - Kulonga
+      - Kulo
+  - osis: Bel
+    texts:
+      - Belo ansoka inene
+      - Belo
+  - osis: Lev
+    texts:
+      - Bene Lefi
+  - osis: Num
+    texts:
+      - Shakubelenga
+      - Shakube
+  - osis: Sir
+    texts:
+      - Silaki
+      - Sila
+  - osis: Wis
+    texts:
+      - Busongo Bwakwe Solomoni
+      - Buso
+  - osis: Lam
+    texts:
+      - Malilo
+      - Mali
+  - osis: EpJer
+    texts:
+      - Jelemiya2
+      - Jele2
+  - osis: Rev
+    texts:
+      - Ciyubululo
+      - Ciyu
+  - osis: Deut
+    texts:
+      - Dutolonomi
+      - Duto
+  - osis: Josh
+    texts:
+      - Joshuwa
+      - Joshu
+  - osis: Judg
+    texts:
+      - Boomboloshi
+      - Boombo
+  - osis: Ruth
+    texts:
+      - Lute
+  - osis: Isa
+    texts:
+      - Isaya
+      - Isa
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samwelo
+      - Samwe
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Baami
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Makani
+      - Maka
+  - osis: Ezra
+    texts:
+      - Esila
+  - osis: Neh
+    texts:
+      - Neyemiya
+      - Neye
+  - osis: Esth
+    texts:
+      - Esita
+  - osis: Job
+    texts:
+      - Jobo
+  - osis: Ps
+    texts:
+      - Kulumbaisha
+      - Kulu
+  - osis: Prov
+    texts:
+      - Tushimpi
+  - osis: Eccl
+    texts:
+      - Shikushimikila
+      - Shikushi
+  - osis: Song
+    texts:
+      - Lwiimbo lwakwe Solomoni
+      - Lwiimbo
+  - osis: Jer
+    texts:
+      - Jelemiya
+      - Jele
+  - osis: Ezek
+    texts:
+      - Esekelo
+      - Ese
+  - osis: Dan
+    texts:
+      - Danyelo
+      - Danye
+  - osis: Hos
+    texts:
+      - Osiya
+      - Osi
+  - osis: Joel
+    texts:
+      - Jowelo
+      - Jowe
+  - osis: Amos
+    texts:
+      - Amosi
+      - Amo
+  - osis: Obad
+    texts:
+      - Obadiya
+      - Obadi
+  - osis: Jonah
+    texts:
+      - Jona
+  - osis: Mic
+    texts:
+      - Mika
+  - osis: Nah
+    texts:
+      - Naamu
+  - osis: Hab
+    texts:
+      - Abakuku
+      - Abaku
+  - osis: Zeph
+    texts:
+      - Sefaniya
+      - Sefa
+  - osis: Hag
+    texts:
+      - Agayi
+      - Aga
+  - osis: Zech
+    texts:
+      - Sekaliya
+      - Seka
+  - osis: Mal
+    texts:
+      - Malaki
+      - Mala
+  - osis: Matt
+    texts:
+      - Mateyo
+      - Mate
+  - osis: Mark
+    texts:
+      - Maako
+  - osis: Luke
+    texts:
+      - Luka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Joni
+  - osis: Acts
+    texts:
+      - Milimo ya Batumwi
+      - Mili
+  - osis: Rom
+    texts:
+      - Bene Loma
+      - Loma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Bene Kolinto
+      - Koli
+  - osis: Col
+    texts:
+      - Bene Kolose
+      - Kolo
+  - osis: Gal
+    texts:
+      - Bene Galatiya
+      - Gala
+  - osis: Eph
+    texts:
+      - Bene Efeso
+      - Efe
+  - osis: Phil
+    texts:
+      - Bene Filipi
+      - Fili
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Bene Tesalonika
+      - Tesa
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+      - Timo
+  - osis: Titus
+    texts:
+      - Taitasi
+      - Taita
+  - osis: Phlm
+    texts:
+      - Filimoni
+      - Filimo
+  - osis: Heb
+    texts:
+      - Bene Ebulu
+      - Ebulu
+  - osis: Jas
+    texts:
+      - Jemusi
+      - Jemu
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+  - osis: Jude
+    texts:
+      - Judi
+  - osis: Tob
+    texts:
+      - Tobiti
+  - osis: Jdt
+    texts:
+      - Judisi
+  - osis: Bar
+    texts:
+      - Baluku
+      - Balu
+  - osis: Sus
+    texts:
+      - Susana
+      - Susa
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+    texts:
+      - Makabisi
+  - osis: DanGr
+    texts:
+      - Danyele
+      - Dany
+  - osis: EsthGr
+    texts:
+      - EsitaG
+      - EsitG
+translations:
+  - LDCB

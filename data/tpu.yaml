@@ -1,0 +1,96 @@
+variables:
+  first: &first
+    - ១
+  second: &second
+    - ២
+  third: &third
+    - ៣
+books:
+  - osis: Rev
+    texts:
+      - សារ តាំបាង
+      - វិវរណៈ
+  - osis: Matt
+    texts:
+      - ម៉ាថាយ
+  - osis: Mark
+    texts:
+      - ម៉ាកុះ
+  - osis: Luke
+    texts:
+      - លូកា
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - យូហាន
+  - osis: Acts
+    texts:
+      - ង៉ារ មួត រ៉ះ ប៉ាតាង យីស៊ូ
+      - កិច្ច
+      - ការ
+  - osis: Rom
+    texts:
+      - រ៉ូម
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - កូរិនថូះ
+  - osis: Col
+    texts:
+      - កូឡូះ
+  - osis: Gal
+    texts:
+      - កាឡាទី
+  - osis: Eph
+    texts:
+      - អេភេសូ
+  - osis: Phil
+    texts:
+      - ភីលីប
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - ថេសាឡូនិក
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - ធីម៉ូថេ
+  - osis: Titus
+    texts:
+      - ទីតុះ
+  - osis: Phlm
+    texts:
+      - ភីលេម៉ូន
+  - osis: Heb
+    texts:
+      - ហេព្រឺ
+  - osis: Jas
+    texts:
+      - យ៉ាកុប
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - ពេត្រុះ
+  - osis: Jude
+    texts:
+      - យូដះ
+translations:
+  - TPU

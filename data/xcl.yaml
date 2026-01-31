@@ -1,0 +1,228 @@
+variables:
+  first: &first
+    - Առ
+    - Թագաւորութեանց
+  second: &second
+    - Առ
+    - Թագաւորութեանց
+books:
+  - osis: Gen
+    texts:
+      - Ծնունդք
+  - osis: Exod
+    texts:
+      - Ելք
+  - osis: Lev
+    texts:
+      - Ղեւտական
+  - osis: Num
+    texts:
+      - Թիւք
+  - osis: Lam
+    texts:
+      - Ողբք
+  - osis: Rev
+    texts:
+      - Սրբոյն Յովհաննու Առաքելոյ Եւ Աստուածաբան Աւետարանչի՝՝
+  - osis: Deut
+    texts:
+      - Երկրորդումն Օրինաց
+  - osis: Josh
+    texts:
+      - Գիրք Յեսուայ Որդւոյ Նաւեայ
+  - osis: Judg
+    texts:
+      - Դատաւորք
+  - osis: Ruth
+    texts:
+      - Հռութ
+  - osis: Isa
+    texts:
+      - Մարգարէութիւն Եսայեայ
+  - osis:
+      - osis: 1Kgs
+        before: *first
+    texts:
+      - Երրորդ
+  - osis:
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Չորրորդ
+  - osis: 1Chr
+    texts:
+      - Մնացորդաց Առաջին
+  - osis: 2Chr
+    texts:
+      - Մնացորդաց Երկրորդ
+  - osis: Ezra
+    texts:
+      - Եզր
+  - osis: Neh
+    texts:
+      - Գիրք Նէեմեայ
+  - osis: Job
+    texts:
+      - Գիրք Յոբայ
+  - osis: Ps
+    texts:
+      - Գիրք Սաղմոսաց
+  - osis: Prov
+    texts:
+      - Առակք Սողոմոնի
+  - osis: Eccl
+    texts:
+      - Ժողովօղ
+  - osis: Song
+    texts:
+      - Երգ Երգոց Օրհնութիւն Օրհնութեանց
+  - osis: Jer
+    texts:
+      - Մարգարէութիւն Երեմեայ
+  - osis: Ezek
+    texts:
+      - Մարգարէութիւն Եզեկիելի
+  - osis: Hos
+    texts:
+      - Մարգարէութիւն Ովսեայ
+  - osis: Joel
+    texts:
+      - Մարգարէութիւն Յովելայ
+  - osis: Amos
+    texts:
+      - Մարգարէութիւն Ամովսայ
+  - osis: Obad
+    texts:
+      - Մարգարէութիւն Աբդիու
+  - osis: Jonah
+    texts:
+      - Մարգարէութիւն Յովնանու
+  - osis: Mic
+    texts:
+      - Մարգարէութիւն Միքիայ
+  - osis: Nah
+    texts:
+      - Մարգարէութիւն Նաւումայ
+  - osis: Hab
+    texts:
+      - Մարգարէութիւն Ամբակումայ
+  - osis: Zeph
+    texts:
+      - Մարգարէութիւն Սոփոնիայ
+  - osis: Hag
+    texts:
+      - Մարգարէութիւն Անգեայ
+  - osis: Zech
+    texts:
+      - Մարգարէութիւն Զաքարեայ
+  - osis: Mal
+    texts:
+      - Մարգարէութիւն Մաղաքիայ
+  - osis: Matt
+    texts:
+      - Աւետարան Ըստ Մատթէոսի
+  - osis: Mark
+    texts:
+      - Աւետարան Ըստ Մարկոսի
+  - osis: Luke
+    texts:
+      - Աւետարան Ըստ Ղուկասու
+  - osis: 1John
+    texts:
+      - Յովհաննու Առաջին՝՝
+  - osis: 2John
+    texts:
+      - Յովհաննու Երկրորդ՝՝
+  - osis: 3John
+    texts:
+      - Յովհաննու Երրորդ՝՝
+  - osis: John
+    texts:
+      - Աւետարան Ըստ Յովհաննու
+  - osis: Acts
+    texts:
+      - Գործք Առաքելոց
+  - osis: Rom
+    texts:
+      - Պաւղոսի Առաքելոյ Առ Հռովմայեցիս Թուղթ
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Կորնթացիս Առաջին Թուղթ
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Կորնթացիս Երկրորդ Թուղթ
+  - osis: Col
+    texts:
+      - Առ Կողոսացիս Թուղթ
+  - osis: Gal
+    texts:
+      - Առ Գաղատացիս Թուղթ
+  - osis: Eph
+    texts:
+      - Առ Եփեսացիս Թուղթ
+  - osis: Phil
+    texts:
+      - Առ Փիլիպեցիս Թուղթ
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Թեսաղոնիկեցիս Առաջին Թուղթ
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Թեսաղոնիկեցիս Երկրորդ Թուղթ
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Տիմոթէոս Առաջին Թուղթ
+  - osis:
+      - osis: 1Sam
+        before: *first
+    texts:
+      - Առաջին
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Տիմոթէոս Երկրորդ Թուղթ
+  - osis: Titus
+    texts:
+      - Առ Տիտոս Թուղթ
+  - osis: Phlm
+    texts:
+      - Եւ Առ Արքիպպոս Սարկաւագ Եւ Առ Ապփիա Թուղթ՝՝
+  - osis: Heb
+    texts:
+      - Առ Եբրայեցիս Թուղթ
+  - osis: Jas
+    texts:
+      - Սրբոյ Առաքելոյն Յակովբայ Կաթողիկէ՝՝
+  - osis: 1Pet
+    texts:
+      - Պետրոսի Առաջին՝՝
+  - osis: 2Pet
+    texts:
+      - Թուղթ Պետրոսի Երկրորդ
+  - osis:
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Երկրորդ
+  - osis: Jude
+    texts:
+      - Թուղթ Յուդայի Առաքելոյ Կաթողիկէ
+  - osis: DanGr
+    texts:
+      - Մարգարէութիւն Դանիելի
+  - osis: EsthGr
+    texts:
+      - Եսթեր
+translations:
+  - GRB1895

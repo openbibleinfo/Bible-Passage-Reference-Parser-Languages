@@ -1,0 +1,139 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - El Apocalipsis
+      - Apocalipsis
+      - Ap.
+      - Ap
+  - osis: Matt
+    texts:
+      - San Mateo
+      - Mt.
+      - Mt
+  - osis: Mark
+    texts:
+      - San Marcos
+      - Mr.
+      - Mr
+  - osis: Luke
+    texts:
+      - San Lucas
+      - Lc.
+      - Lc
+  - osis: John
+    texts:
+      - San Juan
+      - Jn.
+      - Jn
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Juan
+      - Jn.
+      - Jn
+  - osis: Acts
+    texts:
+      - Hechos
+      - Hch.
+      - Hch
+  - osis: Rom
+    texts:
+      - Romanos
+      - Ro.
+      - Ro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corintios
+      - Co.
+      - Co
+  - osis: Col
+    texts:
+      - Colosenses
+      - Col.
+      - Col
+  - osis: Gal
+    texts:
+      - Gálatas
+      - Gá.
+      - Ga
+  - osis: Eph
+    texts:
+      - Efesios
+      - Ef.
+      - Ef
+  - osis: Phil
+    texts:
+      - Filipenses
+      - Flp.
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonicenses
+      - Te.
+      - Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+      - Ti.
+      - Ti
+  - osis: Titus
+    texts:
+      - Tit.
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemón
+      - Flm.
+      - Flm
+  - osis: Heb
+    texts:
+      - Hebreos
+      - Heb.
+      - Heb
+  - osis: Jas
+    texts:
+      - Santiago
+      - Stg.
+      - Stg
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pedro
+      - Pe.
+      - Pe
+  - osis: Jude
+    texts:
+      - Judas
+      - Jud.
+      - Jud
+translations:
+  - NOA
+  - NOAA

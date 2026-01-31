@@ -1,0 +1,152 @@
+variables:
+  first: &first
+    - ១
+  second: &second
+    - ២
+books:
+  - osis: Gen
+    texts:
+      - កណើត ពដិះ គ្រែ
+      - ពគ្រ.
+  - osis: Rev
+    texts:
+      - កាន ប៉ើក ពដៃ
+      - បព.
+  - osis: Ruth
+    texts:
+      - ណាង រូត
+      - រូត
+  - osis: Esth
+    texts:
+      - ណាង អ៊ែសថើរ
+      - អថ.
+  - osis: Matt
+    texts:
+      - ម៉ាថាយ
+      - មថ.
+  - osis: Mark
+    texts:
+      - ម៉ាកុះ
+      - មក.
+  - osis: Luke
+    texts:
+      - លូកា
+      - លក.
+  - osis: 1John
+    texts:
+      - ១យហ.
+  - osis: 2John
+    texts:
+      - ២យហ.
+  - osis: 3John
+    texts:
+      - ៣ យ៉ូហាន
+      - ៣យហ.
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - យ៉ូហាន
+  - osis: John
+    texts:
+      - យ៉ូហាន
+      - យហ.
+  - osis: Acts
+    texts:
+      - ហណាយ
+      - ហណ.
+  - osis: Rom
+    texts:
+      - រ៉ូម
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - កូរិនថូស
+  - osis: 1Cor
+    texts:
+      - ១ករ.
+  - osis: 2Cor
+    texts:
+      - ២ករ.
+  - osis: Col
+    texts:
+      - កូឡូស
+      - កូឡ.
+  - osis: Gal
+    texts:
+      - ឝ៉ាឡាទី
+      - ឝ៉ាឡ.
+  - osis: Eph
+    texts:
+      - អ៊ែភីសូ
+      - អភ.
+  - osis: Phil
+    texts:
+      - ភីលីប
+      - ភីល.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - ធែសាឡូនិក
+  - osis: 1Thess
+    texts:
+      - ១ធស.
+  - osis: 2Thess
+    texts:
+      - ២ធស.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - ធីម៉ូធែ
+  - osis: 1Tim
+    texts:
+      - ១ធម.
+  - osis: 2Tim
+    texts:
+      - ២ធម.
+  - osis: Titus
+    texts:
+      - ទីតុះ
+      - ទត.
+  - osis: Phlm
+    texts:
+      - ភីលីម៉ូន
+      - ភីម.
+  - osis: Heb
+    texts:
+      - ហ៊ែប្រ៊ឺ
+      - ហប.
+  - osis: Jas
+    texts:
+      - យ៉ាកុប
+      - យក.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - ពីត្រុះ
+  - osis: 1Pet
+    texts:
+      - ១ពត្រ.
+  - osis: 2Pet
+    texts:
+      - ២ពត្រ.
+  - osis: Jude
+    texts:
+      - យូដាស
+      - យដ.
+translations:
+  - KRR

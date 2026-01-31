@@ -1,0 +1,607 @@
+default:
+  1Chr:
+    long: ១ របាក្សត្រ
+    short: ១របា
+  1Cor:
+    long: ១ កូរិន‌ថូស
+    short: ១ករ
+  1John:
+    long: ១ យ៉ូហាន
+    short: ១យហ
+  1Kgs:
+    long: ១ ពង្សាវតារក្សត្រ
+    short: ១ពង្ស
+  1Pet:
+    long: ១ ពេត្រុស
+    short: ១ពត្រ
+  1Sam:
+    long: ណាពី​សាំយូ‌អែល ទី ១
+    short: ១សយ
+  1Thess:
+    long: 1 Thessalonians
+    short: ១ថស
+  1Tim:
+    long: ១ ធីម៉ូថេ
+    short: ១ធម
+  2Chr:
+    long: ២ របាក្សត្រ
+    short: ២របា
+  2Cor:
+    long: ២ កូរិនថូស
+    short: ២ករ
+  2John:
+    long: ២ យ៉ូហាន
+    short: ២យហ
+  2Kgs:
+    long: ២ ពង្សាវតារក្សត្រ
+    short: ២ពង្ស
+  2Pet:
+    long: ២ ពេត្រុស
+    short: ២ពត្រ
+  2Sam:
+    long: ណាពី​សាំយូ‌អែល ទី ២
+    short: ២សយ
+  2Thess:
+    long: 2 Thessalonians
+    short: ២ថស
+  2Tim:
+    long: ២ ធីម៉ូថេ
+    short: ២ធម
+  3John:
+    long: ៣ យ៉ូហាន
+    short: ៣យហ
+  Acts:
+    long: កិច្ចការ
+    short: កក
+  Amos:
+    long: អេម៉ុស
+    short: អម
+  Col:
+    long: កូឡុស
+    short: កូឡ
+  Dan:
+    long: ដានីយ៉ែល
+    short: ដន
+  Deut:
+    long: ចោទិយ‌កថា
+    short: ចក
+  Eccl:
+    long: សាស្ដា
+    short: សស
+  Eph:
+    long: អេភេសូរ
+    short: អភ
+  Esth:
+    long: នាង​អេសធើរ
+    short: អធ
+  Exod:
+    long: និក្ខមនំ
+    short: នក
+  Ezek:
+    long: ណាពី​អេសេ‌គាល
+    short: អគ
+  Ezra:
+    long: អែសរ៉ា
+    short: អរ
+  Gal:
+    long: កាឡាទី
+    short: កាឡ
+  Gen:
+    long: លោកុប្បត្តិ
+    short: លប
+  Hab:
+    long: ហាបាគុក
+    short: ហគ
+  Hag:
+    long: ហាកាយ
+    short: ហក
+  Heb:
+    long: ហេប្រឺ
+    short: ហប
+  Hos:
+    long: ហូសេ
+    short: ហស
+  Isa:
+    long: អេសាយ
+    short: អស
+  Jas:
+    long: យ៉ាកុប
+    short: យក
+  Jer:
+    long: យេរេមា
+    short: យរ
+  Job:
+    long: យ៉ូប
+    short: យ៉ូប
+  Joel:
+    long: យ៉ូអែល
+    short: យអ
+  John:
+    long: យ៉ូហាន
+    short: យហ
+  Jonah:
+    long: យ៉ូណាស
+    short: យណ
+  Josh:
+    long: យ៉ូស្វេ
+    short: យស
+  Jude:
+    long: យូដាស
+    short: យដ
+  Judg:
+    long: ចៅហ្វាយ
+    short: ចហ
+  Lam:
+    long: បរិទេវ
+    short: បរ
+  Lev:
+    long: លេវីវិន័យ
+    short: លវ
+  Luke:
+    long: លូកា
+    short: លក
+  Mal:
+    long: ម៉ាឡាគី
+    short: មគ
+  Mark:
+    long: ម៉ាកុស
+    short: មក
+  Matt:
+    long: ម៉ាថាយ
+    short: មថ
+  Mic:
+    long: មីកា
+    short: មីក
+  Nah:
+    long: ណាហ៊ុម
+    short: ណហ
+  Neh:
+    long: នេហេមា
+    short: នហ
+  Num:
+    long: ជន‌គណនា
+    short: ជគ
+  Obad:
+    long: អូបាឌា
+    short: អឌ
+  Phil:
+    long: ភីលីព
+    short: ភីល
+  Phlm:
+    long: ភីលេម៉ូន
+    short: ភល
+  Prov:
+    long: សុភាសិត
+    short: សុភ
+  Ps:
+    long: ទំនុកតម្កើង
+    short: ទំន
+  Rev:
+    long: វិវរណៈ
+    short: វវ
+  Rom:
+    long: រ៉ូម
+    short: រ៉ូម
+  Ruth:
+    long: នាង​រស់
+    short: រស់
+  Song:
+    long: បទ​ចំរៀង
+    short: បច
+  Titus:
+    long: ទីតុស
+    short: ទត
+  Zech:
+    long: សាការី
+    short: សក
+  Zeph:
+    long: សេផានា
+    short: សផ
+translations:
+  ktv14:
+    1Chr:
+      long: របា‌ក្សត្រ ទី​១
+    1Cor:
+      long: ១​កូរិន‌ថូស
+    1John:
+      long: ១​យ៉ូហាន
+    1Kgs:
+      long: ពង្សាវតារ‌ក្សត្រ ទី ១
+    1Pet:
+      long: ១​ពេត្រុស
+    1Sam:
+      short: ១ណសយ
+    1Thess:
+      long: ១​ថេស្សា‌ឡូនិក
+    1Tim:
+      long: ១​ធីម៉ូ‌ថេ
+    2Chr:
+      long: របា‌ក្សត្រ ទី​២
+    2Cor:
+      long: ២​កូរិន‌ថូស
+      short: 2ករ
+    2John:
+      long: ២​យ៉ូហាន
+    2Kgs:
+      long: ពង្សាវតារ‌ក្សត្រ​ទី ២
+    2Pet:
+      long: ២​ពេត្រុស
+    2Sam:
+      short: ២ណសយ
+    2Thess:
+      long: ២​ថេស្សា‌ឡូនិក
+    2Tim:
+      long: ២​ធីម៉ូ‌ថេ
+    3John:
+      long: ៣​យ៉ូហាន
+    Amos:
+      long: ណាពី​អេម៉ុស
+    Col:
+      long: កូឡូស
+    Dan:
+      long: ណាពី​ដានី‌យ៉ែល
+    Deut:
+      long: ទុតិយកថា
+      short: ទក
+    Eccl:
+      long: តួន
+    Eph:
+      long: អេភេ‌សូ
+    Exod:
+      long: សេរី‌ភាព
+      short: សភ
+    Ezra:
+      long: ណាពី​អែសរ៉ា
+    Gal:
+      long: កាឡា‌ទី
+    Gen:
+      long: កំណើត​ពិភព​លោក
+      short: កណ
+    Hab:
+      long: ណាពី​ហាបា‌គូក
+    Hag:
+      long: ណាពី​ហាកាយ
+    Hos:
+      long: ណាពី​ហូសេ
+    Isa:
+      long: ណាពី​អេសាយ
+    Jas:
+      long: យ៉ាកកូប
+    Jer:
+      long: ណាពី​យេរេមា
+    Job:
+      long: ណាពី​អៃយ៉ូប
+      short: ណាពី​អៃយ៉ូប
+    Joel:
+      long: ណាពី​យ៉ូអែល
+    John:
+      long: យ៉ះយ៉ា
+      short: យយ
+    Jonah:
+      long: ណាពី​យូណើស
+    Judg:
+      long: ពួក​ចៅហ្វាយ
+    Lam:
+      long: សំណោក
+    Mal:
+      long: ណាពី​ម៉ាឡា‌គី
+    Mic:
+      long: ណាពី​មីកា
+      short: ណាពី​មីកា
+    Nah:
+      long: ណាពី​ណាហ៊ូម
+    Neh:
+      long: ណាពី​នេហេ‌មា
+    Num:
+      long: ជំរឿន​ប្រជាជន
+      short: ជរ
+    Obad:
+      long: ណាពី​អូបា‌ឌា
+    Ps:
+      long: គីតាប‌សាបូរ
+      short: គីតាប‌សាបូរ
+    Zech:
+      long: ណាពី​សាកា‌រីយ៉ា
+    Zeph:
+      long: ណាពី​សេផា‌នាស
+  rkov16:
+    1Chr:
+      long: ១ របា‌ក្សត្រ
+      short: ១ របា
+    1Cor:
+      short: ១ ករ
+    1John:
+      short: ១ យហ
+    1Kgs:
+      long: ១ ពង្សាវ‌តារ‌ក្សត្រ
+      short: ១ ពង្ស
+    1Pet:
+      short: ១ ពត្រ
+    1Sam:
+      long: ១ សាំ‌យូ‌អែល
+      short: ១ សយ
+    1Thess:
+      long: ១ ថែស្សាឡូនីច
+      short: ១ ថស
+    1Tim:
+      short: ១ ធម
+    2Chr:
+      long: ២ របា‌ក្សត្រ
+      short: ២ របា
+    2Cor:
+      short: ២ ករ
+    2John:
+      short: ២ យហ
+    2Kgs:
+      long: ២ ពង្សាវ‌តារ‌ក្សត្រ
+      short: ២ ពង្ស
+    2Pet:
+      short: ២ ពត្រ
+    2Sam:
+      long: ២ សាំ‌យូ‌អែល
+      short: ២ សយ
+    2Thess:
+      long: ២ ថែស្សាឡូនីច
+      short: ២ ថស
+    2Tim:
+      short: ២ ធម
+    3John:
+      short: ៣ យហ
+    Dan:
+      long: ដានី‌យ៉ែល
+    Eccl:
+      long: សាស្តា
+    Ezek:
+      long: អេ‌សេ‌គាល
+    Gen:
+      long: លោកុ‌ប្បត្តិ
+    Heb:
+      long: ហេព្រើរ
+      short: ហព
+    Judg:
+      long: ពួក​ចៅ‌ហ្វាយ
+    Lev:
+      long: លេវី‌វិន័យ
+    Prov:
+      long: សុភា‌សិត
+    Song:
+      long: បទ​ចម្រៀង​សាឡូម៉ូន
+  kcb:
+    1Cor:
+      long: 1 Corinthians
+      short: 1 Corinthians
+    1John:
+      long: 1 John
+      short: 1 John
+    1Pet:
+      long: 1 Peter
+      short: 1 Peter
+    1Thess:
+      short: 1 Thessalonians
+    1Tim:
+      long: 1 Timothy
+      short: 1 Timothy
+    2Cor:
+      long: 2 Corinthians
+      short: 2 Corinthians
+    2John:
+      long: 2 John
+      short: 2 John
+    2Pet:
+      long: 2 Peter
+      short: 2 Peter
+    2Thess:
+      short: 2 Thessalonians
+    2Tim:
+      long: 2 Timothy
+      short: 2 Timothy
+    3John:
+      long: 3 John
+      short: 3 John
+    Acts:
+      long: Acts of the Apostles
+      short: Acts of the Apostles
+    Col:
+      long: Colossians
+      short: Colossians
+    Eph:
+      long: Ephesians
+      short: Ephesians
+    Gal:
+      long: Galatians
+      short: Galatians
+    Heb:
+      long: Hebrews
+      short: Hebrews
+    Jas:
+      long: James
+      short: James
+    John:
+      long: John
+      short: John
+    Jude:
+      long: Jude
+      short: Jude
+    Luke:
+      long: Luke
+      short: Luke
+    Mark:
+      long: Mark
+      short: Mark
+    Matt:
+      long: Matthew
+      short: Matthew
+    Phil:
+      long: Philippians
+      short: Philippians
+    Phlm:
+      long: Philemon
+      short: Philemon
+    Rev:
+      long: Revelation
+      short: Revelation
+    Rom:
+      long: Romans
+      short: Romans
+    Titus:
+      long: Titus
+      short: Titus
+  gkhb:
+    1Cor:
+      long: កូរិនថូស ទី១
+      short: ១កូរិន
+    1John:
+      long: យ៉ូហាន ទី១
+      short: ១យ៉ូ
+    1Pet:
+      long: ពេត្រុស ទី១
+      short: ១ពេ
+    1Thess:
+      long: ថែស្សាឡូនីច ទី១
+      short: ១ថែស
+    1Tim:
+      long: ធីម៉ូថេ ទី១
+      short: ១ធីម៉ូ
+    2Cor:
+      long: កូរិនថូស ទី២
+      short: ២កូរិន
+    2John:
+      long: យ៉ូហាន ទី២
+      short: ២យ៉ូ
+    2Pet:
+      long: ពេត្រុស ទី២
+      short: ២ពេ
+    2Thess:
+      long: ថែស្សាឡូនីច ទី២
+      short: ២ថែស
+    2Tim:
+      long: ធីម៉ូថេ ទី២
+      short: ២ធីម៉ូ
+    3John:
+      long: យ៉ូហាន ទី៣
+      short: ៣យ៉ូ
+    Acts:
+      short: កិច្ចកា
+    Col:
+      short: កូឡុ
+    Dan:
+      short: ដានីយ
+    Eccl:
+      short: សាស្ដា
+    Eph:
+      short: អេភេ
+    Gal:
+      short: កាឡា
+    Gen:
+      short: លោកុ
+    Heb:
+      long: ហេព្រើរ
+      short: ហេព្រ
+    Isa:
+      short: អេសា
+    Jas:
+      short: យ៉ាកុ
+    John:
+      short: យ៉ូហា
+    Jude:
+      short: យូដា
+    Luke:
+      short: លូកា
+    Mal:
+      short: ម៉ាឡា
+    Mark:
+      short: ម៉ាកុ
+    Matt:
+      short: ម៉ាថា
+    Phil:
+      short: ភីលីព
+    Phlm:
+      short: ភីលេ
+    Prov:
+      short: សុភា
+    Ps:
+      short: ទំនុក
+    Rev:
+      long: "វិវរណ:"
+      short: វិវរណ
+    Titus:
+      short: ទីតុស
+    Zech:
+      short: សាកា
+  khsv05:
+    1Cor:
+      long: ១ កូរិនថូស
+    1Sam:
+      long: ១ សាំយូអែល
+    1Thess:
+      long: ១ ថេស្សាឡូនិក
+    2Sam:
+      long: ២ សាំយូអែល
+    2Thess:
+      long: ២ ថេស្សាឡូនិក
+    Col:
+      long: កូឡូស
+    Deut:
+      long: ទុតិយកថា
+      short: ទក
+    Eph:
+      long: អេភេសូ
+    Esth:
+      long: នាងអេសធើរ
+    Ezek:
+      long: អេសេគាល
+    Hab:
+      long: ហាបាគូក
+    Nah:
+      long: ណាហ៊ូម
+    Num:
+      long: ជនគណនា
+    Ruth:
+      long: នាងរស់
+    Song:
+      long: បទចម្រៀង
+  khb54:
+    1Sam:
+      long: ១ សាំយូ‌អែល
+    1Thess:
+      long: ១ ថែស្សា‌ឡូ‌នីច
+    2Cor:
+      long: ២ កូរិន‌ថូស
+    2Sam:
+      long: ២ សាំយូ‌អែល
+    2Thess:
+      long: ២ ថែស្សា‌ឡូ‌នីច
+    Col:
+      long: កូល៉ុស
+      short: កល
+    Dan:
+      long: ដានី‌យ៉ែល
+    Eccl:
+      long: សាស្តា
+    Esth:
+      long: នាង​អេស‌ធើរ
+    Ezek:
+      long: អេសេ‌គាល
+    Gal:
+      long: កាឡា‌ទី
+    Gen:
+      long: លោកុ‌ប្បត្តិ
+    Heb:
+      long: ហេ‌ព្រើរ
+      short: ហព
+    Jer:
+      long: យេរេ‌មា
+    Lev:
+      long: លេវី‌វិន័យ
+    Mal:
+      long: ម៉ាឡា‌គី
+    Neh:
+      long: នេហេ‌មា
+    Obad:
+      long: អូបា‌ឌា
+    Phlm:
+      long: ភីលេ‌ម៉ូន
+    Ps:
+      long: ទំនុកដំកើង
+    Zeph:
+      long: សេផា‌នា

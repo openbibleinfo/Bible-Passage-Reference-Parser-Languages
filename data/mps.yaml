@@ -1,0 +1,281 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Tigidali Nai Gagalama Nigali Side
+      - Gag
+  - osis: Exod
+    texts:
+      - Ma Dobola Sali
+      - Sai
+  - osis: Lev
+    texts:
+      - Pris Sę Ebo Bomai Po
+      - Prs
+  - osis: Num
+    texts:
+      - Israel Hanigo Namba
+      - Nam
+  - osis: Lam
+    texts:
+      - Te We Bidi Dabego Jerusalem Hagede Gela Wali
+      - Gel
+  - osis: Rev
+    texts:
+      - Kraisgo Geme Dualali Sę Pedelabo Po Jonbolo Ola Mani
+      - Ped
+  - osis: Deut
+    texts:
+      - Bomai Po
+      - Bom
+  - osis: Josh
+    texts:
+      - Josua
+      - Jos
+  - osis: Judg
+    texts:
+      - Te Israel Tobolu Bidi Dabe
+      - Tob
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis: Isa
+    texts:
+      - Aisaia
+      - Ais
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - Sml
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Kin
+  - osis: 1Kgs
+    texts:
+      - Te Israel me Juda Hani Sigo Tuni Bidigo Po Elalubo Buku Deli
+  - osis: 2Kgs
+    texts:
+      - Te Israel me Juda Hani Sigo Tuni Bidigo Po Elalubo Buku Si
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Sto
+  - osis: 1Chr
+    texts:
+      - Tuni Bidi Dabego Po Elalubo Buku Deli
+  - osis: 2Chr
+    texts:
+      - Tuni Bidi Dabego Po Elalubo Buku Si
+  - osis: Ezra
+    texts:
+      - Esra
+      - Esr
+  - osis: Neh
+    texts:
+      - Nehemia
+      - Neh
+  - osis: Esth
+    texts:
+      - Esta
+      - Est
+  - osis: Job
+    texts:
+      - Jop
+  - osis: Ps
+    texts:
+      - Godigo Nogi Ugwaba Sabo Tęąbi Po Wabo Buku Dabe
+      - Tib
+  - osis: Prov
+    texts:
+      - Bugagia Bidibo Kolesagade Po Asęai Buku
+      - Pro
+  - osis: Eccl
+    texts:
+      - Kolesaga Koneai Bidigo Pusali Po Elalubo Buku
+      - Kb
+  - osis: Song
+    texts:
+      - Solomon
+      - Sol
+  - osis: Jer
+    texts:
+      - Jeremaia
+      - Jer
+  - osis: Ezek
+    texts:
+      - Esekiel
+      - Ese
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan
+  - osis: Hos
+    texts:
+      - Hosea
+      - Hos
+  - osis: Joel
+    texts:
+      - Joel
+      - Jol
+  - osis: Amos
+    texts:
+      - Amos
+      - Amo
+  - osis: Obad
+    texts:
+      - Obadia
+      - Oba
+  - osis: Jonah
+    texts:
+      - Jona
+      - Jna
+  - osis: Mic
+    texts:
+      - Maika
+      - Mai
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sefanaia
+      - Sef
+  - osis: Hag
+    texts:
+      - Hagai
+      - Hag
+  - osis: Zech
+    texts:
+      - Sekaraia
+      - Sek
+  - osis: Mal
+    texts:
+      - Malakai
+      - Mal
+  - osis: Matt
+    texts:
+      - Matyu
+      - Mat
+  - osis: Mark
+    texts:
+      - Mak
+  - osis: Luke
+    texts:
+      - Luk
+  - osis: 3John
+    texts:
+      - 2 Jon
+      - 3 Jn
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jon
+      - Jn
+  - osis: John
+    texts:
+      - Jon
+  - osis: Acts
+    texts:
+      - Godigo Sęba Tagala Palai Bidigo Po
+      - Tpi
+  - osis: Rom
+    texts:
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korin
+      - Ko
+  - osis: Col
+    texts:
+      - Kolosi
+      - Kol
+  - osis: Gal
+    texts:
+      - Galesia
+      - Gal
+  - osis: Eph
+    texts:
+      - Efesus
+      - Ef
+  - osis: Phil
+    texts:
+      - Filipai
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonaika
+      - Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Ti
+  - osis: 1Tim
+    texts:
+      - 2 Timoti
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+      - Ti
+  - osis: Titus
+    texts:
+      - Taitus
+      - Tai
+  - osis: Phlm
+    texts:
+      - Filemon
+      - Flm
+  - osis: Heb
+    texts:
+      - Hibru
+      - Hib
+  - osis: Jas
+    texts:
+      - Jems
+      - Jem
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+      - Pi
+  - osis: Jude
+    texts:
+      - Jut
+translations:
+  - MPS

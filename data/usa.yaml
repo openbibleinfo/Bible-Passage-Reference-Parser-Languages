@@ -1,0 +1,113 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Arébárétiani
+      - Aré
+  - osis: Matt
+    texts:
+      - Máátiyu
+      - Mát
+  - osis: Mark
+    texts:
+      - Mááki
+      - Mák
+  - osis: Luke
+    texts:
+      - Arúke
+      - Arú
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yóáane
+      - Yóá
+  - osis: Acts
+    texts:
+      - Apótoro
+      - Apó
+  - osis: Rom
+    texts:
+      - Arómani
+      - Aró
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korítiani
+      - Ko
+  - osis: Col
+    texts:
+      - Koráátiani
+      - Kor
+  - osis: Gal
+    texts:
+      - Karétiani
+      - Kar
+  - osis: Eph
+    texts:
+      - Ipítiani
+      - Ipí
+  - osis: Phil
+    texts:
+      - Pirípiani
+      - Pir
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tetaróniani
+      - Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tímoti
+      - Tí
+  - osis: Titus
+    texts:
+      - Tááítati
+      - Táá
+  - osis: Phlm
+    texts:
+      - Pírímoni
+      - Prm
+  - osis: Heb
+    texts:
+      - Íbaru
+      - Íba
+  - osis: Jas
+    texts:
+      - Yêmiti
+      - Yêm
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pítaa
+      - Pí
+  - osis: Jude
+    texts:
+      - Yúti
+      - Yút
+translations:
+  - USA

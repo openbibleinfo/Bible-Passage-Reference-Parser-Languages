@@ -1,0 +1,223 @@
+default:
+  1Chr:
+    long: 1 ຂ່າວຄາວ
+    short: 1 ຂຄ
+  1Cor:
+    long: 1 ໂກຣິນໂທ
+    short: 1 ກຣທ
+  1John:
+    long: 1 ໂຢຮັນ
+    short: 1 ຢຮ
+  1Kgs:
+    long: 1 ກະສັດ
+    short: 1 ກສ
+  1Pet:
+    long: 1 ເປໂຕ
+    short: 1 ປຕ
+  1Sam:
+    long: 1 ຊາມູເອນ
+    short: 1 ຊມອ
+  1Thess:
+    long: 1 ເທສະໂລນິກ
+    short: 1 ທສນ
+  1Tim:
+    long: 1 ຕີໂມທຽວ
+    short: 1 ຕມທ
+  2Chr:
+    long: 2 ຂ່າວຄາວ
+    short: 2 ຂຄ
+  2Cor:
+    long: 2 ໂກຣິນໂທ
+    short: 2 ກຣທ
+  2John:
+    long: 2 ໂຢຮັນ
+    short: 2 ຢຮ
+  2Kgs:
+    long: 2 ກະສັດ
+    short: 2 ກສ
+  2Pet:
+    long: 2 ເປໂຕ
+    short: 2 ປຕ
+  2Sam:
+    long: 2 ຊາມູເອນ
+    short: 2 ຊມອ
+  2Thess:
+    long: 2 ເທສະໂລນິກ
+    short: 2 ທສນ
+  2Tim:
+    long: 2 ຕີໂມທຽວ
+    short: 2 ຕມທ
+  3John:
+    long: 3 ໂຢຮັນ
+    short: 3 ຢຮ
+  Acts:
+    long: ກິດຈະການ
+    short: ກຈກ
+  Amos:
+    long: ອາໂມດ
+    short: ອມ
+  Col:
+    long: ໂກໂລຊາຍ
+    short: ກລຊ
+  Dan:
+    long: ດານີເອນ
+    short: ດນອ
+  Deut:
+    long: ພຣະບັນຍັດສອງ
+    short: ພບຍ
+  Eccl:
+    long: ປັນຍາຈານ
+    short: ປຍຈ
+  Eph:
+    long: ເອເຟໂຊ
+    short: ອຟຊ
+  Esth:
+    long: ເອສະເທີ
+    short: ອສທ
+  Exod:
+    long: ອົບພະຍົບ
+    short: ອພຍ
+  Ezek:
+    long: ເອເຊກຽນ
+    short: ອຊກ
+  Ezra:
+    long: ເອຊະຣາ
+    short: ອຊຣ
+  Gal:
+    long: ຄາລາເຕຍ
+    short: ຄລຕ
+  Gen:
+    long: ປະຖົມມະການ
+    short: ປຖກ
+  Hab:
+    long: ຮາບາກຸກ
+    short: ຮບກ
+  Hag:
+    long: ຮັກກາຍ
+    short: ຮກ
+  Heb:
+    long: ເຮັບເຣີ
+    short: ຮຣ
+  Hos:
+    long: ໂຮເສອາ
+    short: ຮສອ
+  Isa:
+    long: ເອຊາຢາ
+    short: ອຊຢ
+  Jas:
+    long: ຢາໂກໂບ
+    short: ຢກບ
+  Jer:
+    long: ເຢເຣມີຢາ
+    short: ຢມຢ
+  Job:
+    long: ໂຢບ
+    short: ໂຢບ
+  Joel:
+    long: ໂຢເອນ
+    short: ຢອ
+  John:
+    long: ໂຢຮັນ
+    short: ຢຮ
+  Jonah:
+    long: ໂຢນາ
+    short: ຢນ
+  Josh:
+    long: ໂຢຊວຍ
+    short: ຢຊ
+  Jude:
+    long: ຢູດາ
+    short: ຢດ
+  Judg:
+    long: ພວກ^ຜູ້ປົກຄອງ
+    short: ຜປ
+  Lam:
+    long: ເພງ^ຄໍ່າຄວນ
+    short: ພຄຄ
+  Lev:
+    long: ລະບຽບ^ພວກເລວີ
+    short: ລລວ
+  Luke:
+    long: ລູກາ
+    short: ລກ
+  Mal:
+    long: ມາລາກີ
+    short: ມລກ
+  Mark:
+    long: ມາຣະໂກ
+    short: ມຣກ
+  Matt:
+    long: ມັດທາຍ
+    short: ມທ
+  Mic:
+    long: ມີກາ
+    short: ມກ
+  Nah:
+    long: ນາຮູມ
+    short: ນຮ
+  Neh:
+    long: ເນເຫມີຢາ
+    short: ນມຢ
+  Num:
+    long: ຈົດບັນຊີ
+    short: ຈບຊ
+  Obad:
+    long: ໂອບາດີຢາ
+    short: ອບຢ
+  Phil:
+    long: ຟີລິບປອຍ
+    short: ຟລປ
+  Phlm:
+    long: ຟີເລໂມນ
+    short: ຟລມ
+  Prov:
+    long: ສຸພາສິດ
+    short: ສພສ
+  Ps:
+    long: ເພງ^ສັນລະເສີນ
+    short: ພສສ
+  Rev:
+    long: ພຣະນິມິດ
+    short: ພນມ
+  Rom:
+    long: ໂຣມ
+    short: ຣມ
+  Ruth:
+    long: ນາງຣຸດ
+    short: ນຣ
+  Song:
+    long: ຍອດເພງ
+    short: ຍພ
+  Titus:
+    long: ຕີໂຕ
+    short: ຕຕ
+  Zech:
+    long: ເຊກາຣີຢາ
+    short: ຊກຢ
+  Zeph:
+    long: ເຊຟານີຢາ
+    short: ຊຟຢ
+translations:
+  lcv:
+    1Cor:
+      short: 1ກຣທ
+    1John:
+      short: 1ຢຮ
+    1Pet:
+      short: 1ປຕ
+    1Thess:
+      short: 1ທສນ
+    1Tim:
+      short: 1ຕມທ
+    2Cor:
+      short: 2ກຣທ
+    2John:
+      short: 2ຢຮ
+    2Pet:
+      short: 2ປຕ
+    2Thess:
+      short: 2ທສນ
+    2Tim:
+      short: 2ຕມທ
+    3John:
+      short: 3ຢຮ

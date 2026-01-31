@@ -1,0 +1,111 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Uswelulo
+      - Uswe
+  - osis: Matt
+    texts:
+      - Mateo
+      - Mt
+  - osis: Mark
+    texts:
+      - Malko
+      - Mk
+  - osis: Luke
+    texts:
+      - Luka
+      - Lk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yoane
+      - Yn
+  - osis: Acts
+    texts:
+      - Milimo
+      - Mil
+  - osis: Rom
+    texts:
+      - Aloma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kolinto
+      - Akoli
+  - osis: Col
+    texts:
+      - Akolosai
+      - aKol
+  - osis: Gal
+    texts:
+      - Agalatia
+      - aGal
+  - osis: Eph
+    texts:
+      - aEfeso
+      - aEf
+  - osis: Phil
+    texts:
+      - aFilipi
+      - Afl
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonike
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+      - Tim
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filemoni
+      - Fil
+  - osis: Heb
+    texts:
+      - Aeblania
+      - Aebl
+  - osis: Jas
+    texts:
+      - Yakobo
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petlo
+      - Pet
+  - osis: Jude
+    texts:
+      - Yuda
+      - Yd
+translations:
+  - FNT1988

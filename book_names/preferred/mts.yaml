@@ -1,0 +1,13 @@
+default:
+  Gen:
+    long: Génesis
+    short: Gn
+  John:
+    long: Juan
+    short: Jn
+  Luke:
+    long: Lucas
+    short: Lc
+  Phlm:
+    long: Filemón
+    short: Flm

@@ -1,0 +1,146 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Fíĉilum
+      - Fíĉ
+  - osis: Rev
+    texts:
+      - Bagitener
+      - Bag
+  - osis: Ruth
+    texts:
+      - Rít
+      - Rut
+  - osis: Jonah
+    texts:
+      - Sonas
+      - Son
+  - osis: Matt
+    texts:
+      - Mácie
+      - Mác
+  - osis: Mark
+    texts:
+      - Maruk
+      - Mrk
+  - osis: Luke
+    texts:
+      - Lík
+  - osis: 1John
+    texts:
+      - 1Sŋ
+  - osis: 2John
+    texts:
+      - 2Sŋ
+  - osis: 3John
+    texts:
+      - 3 Saaŋ
+      - 3Sŋ
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Saaŋ
+  - osis: Acts
+    texts:
+      - Mukanay
+      - Muk
+  - osis: Rom
+    texts:
+      - Bugaa Rom
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korent
+  - osis: 1Cor
+    texts:
+      - 1Kor
+  - osis: 2Cor
+    texts:
+      - 2Kor
+  - osis: Col
+    texts:
+      - Bugaa Kolos
+      - Kol
+  - osis: Gal
+    texts:
+      - Bugaa Galasi
+      - Gal
+  - osis: Eph
+    texts:
+      - Bugal Efes
+      - Efes
+  - osis: Phil
+    texts:
+      - Bugaa Fílip
+      - Fílp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Bugaa Tesalonik
+  - osis: 1Thess
+    texts:
+      - 1Tes
+  - osis: 2Thess
+    texts:
+      - 2Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tímonte
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemoŋ
+      - Film
+  - osis: Heb
+    texts:
+      - Híbori
+      - Híb
+  - osis: Jas
+    texts:
+      - Saak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Ᵽier
+  - osis: 1Pet
+    texts:
+      - 1Ᵽi
+  - osis: 2Pet
+    texts:
+      - 2Ᵽi
+  - osis: Jude
+    texts:
+      - Síd
+translations:
+  - BQJDBL2

@@ -1,0 +1,19 @@
+default:
+  Acts:
+    long: Hechos
+    short: Hch
+  John:
+    long: Juan
+    short: Jn
+  Luke:
+    long: Lucas
+    short: Lc
+  Mark:
+    long: Marcos
+    short: Mr
+  Matt:
+    long: Mateo
+    short: Mt
+  Rom:
+    long: Romanos
+    short: Rom

@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 I-Korinto
+    short: 1Ko
+  1John:
+    long: 1 San Juan
+    short: 1Ju
+  1Pet:
+    long: 1 San Pedro
+    short: 1Pe
+  1Thess:
+    long: 1 I-Tisalonika
+    short: 1Ts
+  1Tim:
+    long: 1 Timoteo
+    short: 1Ti
+  2Cor:
+    long: 2 I-Korinto
+    short: 2Ko
+  2John:
+    long: 2 San Juan
+    short: 2Ju
+  2Pet:
+    long: 2 San Pedro
+    short: 2Pe
+  2Thess:
+    long: 2 I-Tisalonika
+    short: 2Ts
+  2Tim:
+    long: 2 Timoteo
+    short: 2Ti
+  3John:
+    long: 3 San Juan
+    short: 3Ju
+  Acts:
+    long: Inpaspasing
+    short: Inp
+  Col:
+    long: I-Kolosas
+    short: Kol
+  Eph:
+    long: I-Ipiso
+    short: Ipi
+  Gal:
+    long: I-Galasia
+    short: Gal
+  Heb:
+    long: Hodiyos
+    short: Hod
+  Jas:
+    long: Santiago
+    short: San
+  John:
+    long: San Juan
+    short: Jua
+  Jude:
+    long: San Judas
+    short: Jud
+  Luke:
+    long: San Lucas
+    short: Luc
+  Mark:
+    long: San Marcos
+    short: Mar
+  Matt:
+    long: San Mateo
+    short: Mat
+  Phil:
+    long: I-Pilipos
+    short: Pil
+  Phlm:
+    long: Filemon
+    short: Fil
+  Rev:
+    long: Inpa-Amta Nen Jesucristo
+    short: Amt
+  Rom:
+    long: I-Roma
+    short: Rom
+  Titus:
+    long: Tito
+    short: Tit

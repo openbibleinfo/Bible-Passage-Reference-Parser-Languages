@@ -1,0 +1,48 @@
+books:
+  - osis: Exod
+    texts:
+      - Exodus
+  - osis: Ps
+    texts:
+      - Psalms
+      - Psal.
+  - osis: Jer
+    texts:
+      - Jeremiah
+      - Jer.
+  - osis: Ezek
+    texts:
+      - Ezekiel
+      - Ezek.
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan.
+  - osis: Joel
+    texts:
+      - Joel
+  - osis: Hab
+    texts:
+      - Habakkuk
+      - Hab.
+  - osis: Mal
+    texts:
+      - Malachi
+      - Mal.
+  - osis: Matt
+    texts:
+      - St. Matthew
+      - Matt.
+  - osis: Luke
+    texts:
+      - St. Luke
+      - Luke
+  - osis: 1John
+    texts:
+      - 1 John
+  - osis: 2Cor
+    texts:
+      - 2 Corinthians
+      - 2 Cor.
+translations:
+  - ONE

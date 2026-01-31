@@ -1,0 +1,134 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Nəhan-əhaniən
+      - Nəh
+  - osis: Matt
+    texts:
+      - Matiu
+      - Mat
+  - osis: Mark
+    texts:
+      - Mak
+  - osis: Luke
+    texts:
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Jon
+  - osis: 2John
+    texts:
+      - 2Jon
+  - osis: 3John
+    texts:
+      - 3 Jon
+      - 3Jon
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jon
+  - osis: Acts
+    texts:
+      - Uək Mɨn
+      - Uək
+  - osis: Rom
+    texts:
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korən
+  - osis: 1Cor
+    texts:
+      - 1Kor
+  - osis: 2Cor
+    texts:
+      - 2Kor
+  - osis: Col
+    texts:
+      - Kolosi
+      - Kol
+  - osis: Gal
+    texts:
+      - Kəlesiə
+      - Kəl
+  - osis: Eph
+    texts:
+      - Efəsɨs
+      - Efəs
+  - osis: Phil
+    texts:
+      - Fɨlɨpai
+      - Fɨl
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Təsalonaikə
+  - osis: 1Thess
+    texts:
+      - 1Təs
+  - osis: 2Thess
+    texts:
+      - 2Təs
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Taitəs
+      - Tait
+  - osis: Phlm
+    texts:
+      - Fɨlimon
+      - Flm
+  - osis: Heb
+    texts:
+      - Hiprus
+      - Hip
+  - osis: Jas
+    texts:
+      - Jemɨs
+      - Jem
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pitə
+  - osis: 1Pet
+    texts:
+      - 1Pitə
+  - osis: 2Pet
+    texts:
+      - 2Pitə
+  - osis: Jude
+    texts:
+      - Jut
+translations:
+  - TNP

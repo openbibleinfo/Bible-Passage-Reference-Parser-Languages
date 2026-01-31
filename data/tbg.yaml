@@ -1,0 +1,180 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Okara
+      - Stt
+  - osis: Exod
+    texts:
+      - Katu Varora
+      - Kis
+  - osis: Num
+    texts:
+      - Kaarantura
+  - osis: Rev
+    texts:
+      - Qoqaiqama Kora
+      - Qk
+  - osis: Josh
+    texts:
+      - Iosuaa
+  - osis: Judg
+    texts:
+      - Qiata Vaiintinavu
+      - Het
+  - osis: Ruth
+    texts:
+      - Ruti
+      - Rut
+  - osis: Isa
+    texts:
+      - Aisaiaa
+      - Ais
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samueri
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - King
+      - Kin
+  - osis: Neh
+    texts:
+      - Nehemia
+      - Neh
+  - osis: Esth
+    texts:
+      - Estaa
+      - Est
+  - osis: Ps
+    texts:
+      - Ihi
+      - Sng
+  - osis: Prov
+    texts:
+      - Uva Maara Koqera
+  - osis: Jer
+    texts:
+      - Ieremaiaa
+  - osis: Dan
+    texts:
+      - Danieri
+      - Dan
+  - osis: Jonah
+    texts:
+      - Ionaa
+      - Jna
+  - osis: Matt
+    texts:
+      - Matiu
+      - Mat
+  - osis: Mark
+    texts:
+      - Maaki
+      - Maa
+  - osis: Luke
+    texts:
+      - Ruki
+      - Ruk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Ioni
+      - Ion
+  - osis: Acts
+    texts:
+      - Kaiqa Varora
+      - Kv
+  - osis: Rom
+    texts:
+      - Romeni
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinti
+      - Kor
+  - osis: Col
+    texts:
+      - Korosi
+      - Kor
+  - osis: Gal
+    texts:
+      - Karesia
+      - Kar
+  - osis: Eph
+    texts:
+      - Epasaasi
+      - Epa
+  - osis: Phil
+    texts:
+      - Piripai
+      - Prp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaronaika
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+      - Tim
+  - osis: Titus
+    texts:
+      - Taiaasi
+      - Tai
+  - osis: Phlm
+    texts:
+      - Pirimoni
+      - Prm
+  - osis: Heb
+    texts:
+      - Hiparu
+      - Hip
+  - osis: Jas
+    texts:
+      - Iemi
+      - Iem
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pitaa
+      - Pit
+  - osis: Jude
+    texts:
+      - Iuti
+      - Iut
+translations:
+  - TBG

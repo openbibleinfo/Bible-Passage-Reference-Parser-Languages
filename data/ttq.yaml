@@ -1,0 +1,191 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Ǝnǝfilal
+      - ⵏⴼⵍⵍ
+      - Ǝnǝ
+      - ⵏ
+  - osis: Matt
+    texts:
+      - Matta
+      - Mat
+      - ⵎⵜⴰ
+      - ⵎⵜ
+  - osis: Mark
+    texts:
+      - Markus
+      - ⵎⵔⴾⵙ
+      - Mar
+      - ⵎⵔ
+  - osis: Luke
+    texts:
+      - Luqa
+      - Luq
+      - ⵍⵆⴰ
+      - ⵍⵆ
+  - osis: 1John
+    texts:
+      - 1Ya
+      - 1ⵢⴰ
+  - osis: 2John
+    texts:
+      - 2Ya
+      - 2ⵢⴰ
+  - osis: 3John
+    texts:
+      - 3 Yaxya
+      - 3 ⵢⵈⵢⴰ
+      - 3Ya
+      - 3ⵢⴰ
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yaxya
+      - ⵢⵈⵢⴰ
+  - osis: John
+    texts:
+      - Yaxya
+      - ⵢⵈⵢⴰ
+      - Yax
+      - ⵢⵈ
+  - osis: Acts
+    texts:
+      - Igitan
+      - Igi
+      - ⴶⵜⵏ
+      - ⴶⵢ
+  - osis: Rom
+    texts:
+      - Kǝl-Ǝrrum
+      - ⴾⵍⵔⵎ
+      - Ǝrr
+      - ⵔ
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kǝl-Korent
+      - ⴾⵍⴾⵔⵏ⵿ⵜ
+  - osis: 1Cor
+    texts:
+      - 1Ko
+      - 1ⴾ
+  - osis: 2Cor
+    texts:
+      - 2Ko
+      - 2ⴾ
+  - osis: Col
+    texts:
+      - Kǝl-Kolosǝya
+      - ⴾⵍⴾⵍⵙⵢⴰ
+      - Kol
+      - ⴾⵍ
+  - osis: Gal
+    texts:
+      - Kǝl-Galatǝya
+      - ⴾⵍⴶⵍⵜⵢⴰ
+      - Gal
+      - ⴶⵍ
+  - osis: Eph
+    texts:
+      - Kǝl-Efez
+      - ⴾⵍⴼⵤ
+      - Efe
+      - ⴼ
+  - osis: Phil
+    texts:
+      - Kǝl-Filib
+      - ⴾⵍⴼⵍⵀ
+      - Flb
+      - ⴼⵍⵀ
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Kǝl-Tesalonik
+      - ⴾⵍ⵿ⵜⵙⵍⵏⴾ
+  - osis: 1Thess
+    texts:
+      - 1Te
+      - 1ⵜ
+  - osis: 2Thess
+    texts:
+      - 2Te
+      - 2ⵜ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotay
+      - ⵜⵎⵜⵢ
+  - osis: 1Tim
+    texts:
+      - 1Ti
+      - 1ⵜⵢ
+  - osis: 2Tim
+    texts:
+      - 2Ti
+      - 2ⵜⵢ
+  - osis: Titus
+    texts:
+      - Titǝs
+      - Tit
+      - ⵜⵜⵙ
+      - ⵜⵜ
+  - osis: Phlm
+    texts:
+      - Filemona
+      - ⴼⵍⵎⵏⴰ
+      - Flm
+      - ⴼⵍⵎ
+  - osis: Heb
+    texts:
+      - Kǝl-Ɣibri
+      - ⴾⵍⵗⵀⵔⵢ
+      - Ɣib
+      - ⵗⵀ
+  - osis: Jas
+    texts:
+      - Yaqub
+      - Yaq
+      - ⵢⵆⵀ
+      - ⵢⵆ
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Butros
+      - ⵀⵜⵔⵙ
+  - osis: 1Pet
+    texts:
+      - 1Bu
+      - 1ⵀⵓ
+  - osis: 2Pet
+    texts:
+      - 2Bu
+      - 2ⵀⵓ
+  - osis: Jude
+    texts:
+      - Yuday
+      - Yud
+      - ⵢⴹⵢ
+      - ⵢⴹ
+translations:
+  - TTQ
+  - TTQTG

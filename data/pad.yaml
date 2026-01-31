@@ -1,0 +1,124 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Apocalipse
+      - Apo
+  - osis: Matt
+    texts:
+      - Mateus
+      - Mat
+  - osis: Mark
+    texts:
+      - Marcos
+      - Mar
+  - osis: Luke
+    texts:
+      - Lucas
+      - Luc
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - João
+      - Jo
+  - osis: John
+    texts:
+      - João
+      - Joã
+  - osis: Acts
+    texts:
+      - Atos
+      - Ats
+  - osis: Rom
+    texts:
+      - Romanos
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Coríntios
+      - Co
+  - osis: Col
+    texts:
+      - Colossenses
+      - Col
+  - osis: Gal
+    texts:
+      - Gálatas
+      - Gál
+  - osis: Eph
+    texts:
+      - Eféios
+      - Efs
+  - osis: Phil
+    texts:
+      - Filipenses
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Tessalonicenses
+      - Ts
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesssalonicenses
+      - Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Timóteo
+      - Tim
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timóteo
+      - Tm
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemon
+      - Flm
+  - osis: Heb
+    texts:
+      - Hebreus
+      - Heb
+  - osis: Jas
+    texts:
+      - Tiago
+      - Tgo
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pedro
+      - Pe
+  - osis: Jude
+    texts:
+      - Judas
+      - Jud
+translations:
+  - PAD

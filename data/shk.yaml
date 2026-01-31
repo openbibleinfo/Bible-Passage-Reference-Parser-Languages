@@ -1,0 +1,256 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Cɑ̈gø
+  - osis: Exod
+    texts:
+      - Kedhø
+  - osis: Bel
+    texts:
+      - Bel
+  - osis: Lev
+    texts:
+      - Kwɑrr
+  - osis: Num
+    texts:
+      - Kwɑn
+  - osis: Sir
+    texts:
+      - Sir
+  - osis: Wis
+    texts:
+      - Pelø
+  - osis: Lam
+    texts:
+      - Ywøg
+  - osis: EpJer
+    texts:
+      - Cïïjø
+  - osis: Rev
+    texts:
+      - Nyudhø
+  - osis: Deut
+    texts:
+      - Jølø
+  - osis: Josh
+    texts:
+      - Jöc
+  - osis: Judg
+    texts:
+      - Jɑgg
+  - osis: Ruth
+    texts:
+      - Ruth
+  - osis: Isa
+    texts:
+      - Icɑ
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Sɑm
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Rɑ̈nhì
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Kwøb
+  - osis: Ezra
+    texts:
+      - Edhrɑ̀
+  - osis: Neh
+    texts:
+      - Nëm
+  - osis: Job
+    texts:
+      - Ayub
+  - osis: Ps
+    texts:
+      - Wör
+  - osis: PrAzar
+    texts:
+      - Kwɑ̈jji Adhɑriyɑ̀
+      - Ka
+  - osis: Prov
+    texts:
+      - Gɑ́j
+  - osis: Eccl
+    texts:
+      - Tïddø
+  - osis: SgThree
+    texts:
+      - Wörri Wøbb Ádɑ̈g
+      - Wá
+  - osis: Song
+    texts:
+      - Wörr-ɑ Døngø
+      - Wd
+  - osis: Jer
+    texts:
+      - Jer
+  - osis: Ezek
+    texts:
+      - Idhki
+  - osis: Dan
+    texts:
+      - Dɑn
+  - osis: Hos
+    texts:
+      - Odhe
+  - osis: Joel
+    texts:
+      - Yöiil
+  - osis: Amos
+    texts:
+      - Amos
+  - osis: Obad
+    texts:
+      - Obɑ
+  - osis: Jonah
+    texts:
+      - Yön
+  - osis: Mic
+    texts:
+      - Miikɑ̀
+  - osis: Nah
+    texts:
+      - Nɑum
+  - osis: Hab
+    texts:
+      - Abɑ
+  - osis: Zeph
+    texts:
+      - Dhep
+  - osis: Hag
+    texts:
+      - Agɑ
+  - osis: Zech
+    texts:
+      - Dhek
+  - osis: Mal
+    texts:
+      - Mɑl
+  - osis: Matt
+    texts:
+      - Mt
+  - osis: Mark
+    texts:
+      - Mk
+  - osis: Luke
+    texts:
+      - Lk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jn
+  - osis: Acts
+    texts:
+      - Gwøg
+  - osis: Rom
+    texts:
+      - Röm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kör
+  - osis: Col
+    texts:
+      - Köl
+  - osis: Gal
+    texts:
+      - Gɑl
+  - osis: Eph
+    texts:
+      - Epɑ
+  - osis: Phil
+    texts:
+      - Pïl
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tim
+  - osis: Titus
+    texts:
+      - Tït
+  - osis: Phlm
+    texts:
+      - Pilm
+  - osis: Heb
+    texts:
+      - Ibru
+  - osis: Jas
+    texts:
+      - Yɑg
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pït
+  - osis: Jude
+    texts:
+      - Yeudɑ̀
+  - osis: Tob
+    texts:
+      - Töb
+  - osis: Jdt
+    texts:
+      - Jdt
+  - osis: Bar
+    texts:
+      - Bɑr
+  - osis: Sus
+    texts:
+      - Sus
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+    texts:
+      - Mɑk
+  - osis: EsthGr
+    texts:
+      - Est Gk Wïj
+  - osis: Esth
+    texts:
+      - Est
+translations:
+  - SHKDCB

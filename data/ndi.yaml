@@ -1,0 +1,94 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Kedké Yohana Núù bìá
+  - osis: Matt
+    texts:
+      - Mata
+  - osis: Mark
+    texts:
+      - Markus
+  - osis: Luke
+    texts:
+      - Luka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohana
+  - osis: Acts
+    texts:
+      - Gbantumsə̀ bəd Tùsá
+      - Gbantumsə̀ bəd Tù'
+  - osis: Rom
+    texts:
+      - Roma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintu
+  - osis: Col
+    texts:
+      - Kolosia
+  - osis: Gal
+    texts:
+      - Galatiya
+  - osis: Eph
+    texts:
+      - Efesus
+  - osis: Phil
+    texts:
+      - Filipiya
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonika
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+  - osis: Titus
+    texts:
+      - Titus
+  - osis: Phlm
+    texts:
+      - Filemon
+  - osis: Heb
+    texts:
+      - Ibraniŋko bəraa
+  - osis: Jas
+    texts:
+      - Yakuba
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piyɛr
+  - osis: Jude
+    texts:
+      - Yuda
+translations:
+  - SLNT98

@@ -1,0 +1,137 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Mbolunoto
+      - Mbo
+  - osis: Matt
+    texts:
+      - Matayo
+      - Mat
+  - osis: Mark
+    texts:
+      - Marko
+      - Mrk
+  - osis: Luke
+    texts:
+      - Luka
+  - osis: 1John
+    texts:
+      - 1Yoa
+  - osis: 2John
+    texts:
+      - 2Yoa
+  - osis: 3John
+    texts:
+      - 3 Yoana
+      - 3Yoa
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yoana
+  - osis: John
+    texts:
+      - Yoana
+      - Yoa
+  - osis: Acts
+    texts:
+      - Asat
+  - osis: Rom
+    texts:
+      - Rroman
+      - Rrom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Lkorinto
+  - osis: 1Cor
+    texts:
+      - 1Lkor
+  - osis: 2Cor
+    texts:
+      - 2Lkor
+  - osis: Col
+    texts:
+      - Lkolosae
+      - Lkol
+  - osis: Gal
+    texts:
+      - Lgalatia
+      - Lga
+  - osis: Eph
+    texts:
+      - Epeso
+      - Epe
+  - osis: Phil
+    texts:
+      - Lpilipi
+      - Lpi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Ltesalonike
+  - osis: 1Thess
+    texts:
+      - 1Ltes
+  - osis: 2Thess
+    texts:
+      - 2Ltes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Pilemon
+      - Pil
+  - osis: Heb
+    texts:
+      - Lburania
+      - Lbr
+  - osis: Jas
+    texts:
+      - Yakobo
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petero
+  - osis: 1Pet
+    texts:
+      - 1Pet
+  - osis: 2Pet
+    texts:
+      - 2Pet
+  - osis: Jude
+    texts:
+      - Yuda
+translations:
+  - SAQ

@@ -1,0 +1,138 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Añanar
+      - Añr
+  - osis: Rev
+    texts:
+      - Andoɗakel
+      - Adk
+  - osis: Matt
+    texts:
+      - Maco
+      - Mac
+  - osis: Mark
+    texts:
+      - Marëk
+      - Mrk
+  - osis: Luke
+    texts:
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Ŝa
+  - osis: 2John
+    texts:
+      - 2Ŝa
+  - osis: 3John
+    texts:
+      - 3 Ŝaŋ
+      - 3Ŝa
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Ŝaŋ
+  - osis: Acts
+    texts:
+      - Ɓandixa
+      - Ɓan
+  - osis: Rom
+    texts:
+      - Ɓërom
+      - Ɓrm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Ɓëkoreŋët
+  - osis: 1Cor
+    texts:
+      - 1Ɓk
+  - osis: 2Cor
+    texts:
+      - 2Ɓk
+  - osis: Col
+    texts:
+      - Ɓëkolos
+      - Ɓks
+  - osis: Gal
+    texts:
+      - Ɓëgalat
+      - Ɓgt
+  - osis: Eph
+    texts:
+      - Ɓëhefes
+      - Ɓfs
+  - osis: Phil
+    texts:
+      - Ɓëfilip
+      - Ɓfp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Ɓëtesalonik
+  - osis: 1Thess
+    texts:
+      - 1Ɓt
+  - osis: 2Thess
+    texts:
+      - 2Ɓt
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+  - osis: 1Tim
+    texts:
+      - 1Tm
+  - osis: 2Tim
+    texts:
+      - 2Tm
+  - osis: Titus
+    texts:
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemoŋ
+      - Flm
+  - osis: Heb
+    texts:
+      - Ɓëŝëwif
+      - Ɓŝf
+  - osis: Jas
+    texts:
+      - Ŝak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piyer
+  - osis: 1Pet
+    texts:
+      - 1Py
+  - osis: 2Pet
+    texts:
+      - 2Py
+  - osis: Jude
+    texts:
+      - Yud
+translations:
+  - BSCDBL

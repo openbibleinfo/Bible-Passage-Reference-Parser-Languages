@@ -1,0 +1,141 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Dityadoda
+      - Dit
+  - osis: Matt
+    texts:
+      - Matévu
+      - Mt
+  - osis: Mark
+    texts:
+      - Márcu
+      - Mr
+  - osis: Luke
+    texts:
+      - Dúcasiy
+      - Du
+  - osis: 1John
+    texts:
+      - 1Ju
+  - osis: 2John
+    texts:
+      - 2Ju
+  - osis: 3John
+    texts:
+      - 3 Juán
+      - 3Ju
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Juán
+  - osis: John
+    texts:
+      - Juán
+      - Ju
+  - osis: Acts
+    texts:
+      - Jvaayada
+      - Jva
+  - osis: Rom
+    texts:
+      - Róma
+      - Ro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Coríntyu
+  - osis: 1Cor
+    texts:
+      - 1Co
+  - osis: 2Cor
+    texts:
+      - 2Co
+  - osis: Col
+    texts:
+      - Codósasiy
+      - Cod
+  - osis: Gal
+    texts:
+      - Cadásiya
+      - Cad
+  - osis: Eph
+    texts:
+      - Evésu
+      - Ev
+  - osis: Phil
+    texts:
+      - Vidípo
+      - Vid
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesadónica
+  - osis: 1Thess
+    texts:
+      - 1Te
+  - osis: 2Thess
+    texts:
+      - 2Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timutévu
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Títu
+      - Tit
+  - osis: Phlm
+    texts:
+      - Videmó̱
+      - Vdm
+  - osis: Heb
+    texts:
+      - Ebrévuveda
+      - Ebr
+  - osis: Jas
+    texts:
+      - Santiyácu
+      - San
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pyítru
+  - osis: 1Pet
+    texts:
+      - 1Py
+  - osis: 2Pet
+    texts:
+      - 2Py
+  - osis: Jude
+    texts:
+      - Júdasiy
+      - Jud
+translations:
+  - YAD

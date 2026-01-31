@@ -1,0 +1,363 @@
+default:
+  1Chr:
+    long: 1 වංශාවලිය
+    short: 1 වංශා
+  1Cor:
+    long: 1 කොරින්ති
+    short: 1 කොරි
+  1John:
+    long: 1 ජොහන්
+    short: 1 ජොහ
+  1Kgs:
+    long: 1 රාජාවලිය
+    short: 1 රාජා
+  1Macc:
+    long: 1 මකබිවරු
+    short: 1 මකබි
+  1Pet:
+    long: 1 පේතෘස්
+    short: 1 පේදු
+  1Sam:
+    long: 1 සාමුවෙල්
+    short: 1 සාමු
+  1Thess:
+    long: 1 තෙසලෝනික
+    short: 1 තෙස
+  1Tim:
+    long: 1 තිමෝති
+    short: 1 තිමෝ
+  2Chr:
+    long: 2 1 වංශාවලිය
+    short: 2 වංශා
+  2Cor:
+    long: 2 කොරින්ති
+    short: 2 කොරි
+  2John:
+    long: 2 ජොහන්
+    short: 2 ජොහ
+  2Kgs:
+    long: 2 රාජාවලිය
+    short: 2 රාජා
+  2Macc:
+    long: 2 මකබිවරු
+    short: 2 මකබි
+  2Pet:
+    long: 2 පේතෘස්
+    short: 2 පේදු
+  2Sam:
+    long: 2 සාමුවෙල්
+    short: 2 සාමු
+  2Thess:
+    long: 2 තෙසලෝනික
+    short: 2 තෙස
+  2Tim:
+    long: 2 තිමෝති
+    short: 2 තිමෝ
+  3John:
+    long: 3 ජොහන්
+    short: 3 ජොහ
+  Acts:
+    long: ක්‍රියා
+    short: ක්‍රියා
+  Amos:
+    long: අාමොස්
+    short: ආමො
+  Bar:
+    long: බාරුක්
+    short: බාරුක්
+  Col:
+    long: කොලොස්සි
+    short: කොලො
+  Dan:
+    long: දානියෙල්
+    short: දානි
+  Deut:
+    long: ද්විතීය නීති සංග්‍රහය
+    short: ද්වි.නී.
+  Eccl:
+    long: ධර්මදේශකයා
+    short: ධර්ම
+  Eph:
+    long: එපීස
+    short: එපී
+  Esth:
+    long: එස්තර්
+    short: එස්ත
+  EsthGr:
+    long: එස්තර් (ග්‍රීක් පිටපත)
+    short: එස්ත (ග්‍රීක්)
+  Exod:
+    long: නික්මයාම
+    short: නික්ම
+  Ezek:
+    long: එසකියෙල්
+    short: එසකි
+  Ezra:
+    long: එස්රා
+    short: එස්රා
+  Gal:
+    long: ගලාති
+    short: ගලා
+  Gen:
+    long: උත්පත්ති
+    short: උත්
+  Hab:
+    long: හබක්කුක්
+    short: හබ
+  Hag:
+    long: හග්ගයි
+    short: හග්
+  Heb:
+    long: හෙබ්‍රෙව්
+    short: හෙබ්‍රෙ
+  Hos:
+    long: හොසියා
+    short: හොසි
+  Isa:
+    long: යෙසායා
+    short: යෙසා
+  Jas:
+    long: ජාකොබ්
+    short: ජාකො
+  Jdt:
+    long: ජුදිත්
+    short: ජුදිත්
+  Jer:
+    long: ජෙරමියා
+    short: ජෙර
+  Job:
+    long: ජෝබ්
+    short: ජෝබ්
+  Joel:
+    long: ජෝවෙල්
+    short: ජෝවෙ
+  John:
+    long: ශුද්ධවර ජොහන්
+    short: ජොහ
+  Jonah:
+    long: ජෝනා
+    short: ජෝනා
+  Josh:
+    long: ජෝෂු
+    short: ජෝෂු
+  Jude:
+    long: ජූද්
+    short: ජූද්
+  Judg:
+    long: වීරාවලිය
+    short: වීරා
+  Lam:
+    long: විලාප ගී
+    short: විලාප
+  Lev:
+    long: ලෙවී ව්‍යවස්ථාව
+    short: ලෙවී
+  Luke:
+    long: ශුද්ධවර ලූක්
+    short: ලූක්
+  Mal:
+    long: මලාකි
+    short: මලාකි
+  Mark:
+    long: ශුද්ධවර මාක්
+    short: මාක්
+  Matt:
+    long: ශුද්ධවර මතෙව්
+    short: මතෙ
+  Mic:
+    long: මීකා
+    short: මීකා
+  Nah:
+    long: නාහුම්
+    short: නාහුම්
+  Neh:
+    long: නෙහෙමියා
+    short: නෙහෙ
+  Num:
+    long: ගණන් කථාව
+    short: ගණන්
+  Obad:
+    long: ඔබදියා
+    short: ඔබදි
+  Phil:
+    long: පිලිප්පි
+    short: පිලිප්
+  Phlm:
+    long: පිලෙමොන්
+    short: පිලෙ
+  Prov:
+    long: හිතෝපදේශ
+    short: හිතෝ
+  Ps:
+    long: ගීතාවලිය
+    short: ගීතා
+  Rev:
+    long: එළිදරව්ව
+    short: එළිද
+  Rom:
+    long: රෝම
+    short: රෝම
+  Ruth:
+    long: රූත්ගේ කථාව
+    short: රූත්
+  Sir:
+    long: උපදේශකයා හෙවත් සිරාක්
+    short: සිරාක්
+  Song:
+    long: ප්‍රේම ගී
+    short: ප්‍රේම
+  Titus:
+    long: තීතස්
+    short: තීතස්
+  Tob:
+    long: තෝබිත්
+    short: තෝබිත්
+  Wis:
+    long: සලමොන්ගේ ප්‍රඥාව
+    short: සලමො
+  Zech:
+    long: සෙකරියා
+    short: සෙකරි
+  Zeph:
+    long: ශෙපනියා
+    short: ශෙප
+translations:
+  nrsv:
+    1Chr:
+      long: 1 වංශාවලියේ
+    1Kgs:
+      long: 1 රාජාවලියේ
+    1Pet:
+      long: 1 පේදුරු
+    2Chr:
+      long: 2 වංශාවලියේ
+    2Kgs:
+      long: 2 රාජාවලියේ
+    2Pet:
+      long: 2 පේදුරු
+    Ezek:
+      long: එසකියෙල්ගේ
+    Ruth:
+      long: රූත්
+  srov:
+    1Cor:
+      short: 1 කොරි
+    1John:
+      long: 1 යොහන්
+      short: 1 යොහ
+    1Pet:
+      short: 1 පේතෘ
+    1Tim:
+      short: 1 තිමෝ
+    2Cor:
+      short: 2 කොරි
+    2John:
+      long: 2 යොහන්
+      short: 2 යොහ
+    2Pet:
+      short: 2 පේතෘ
+    2Tim:
+      short: 2 තිමෝ
+    3John:
+      long: 3 යොහන්
+      short: 3 යොහ
+    Amos:
+      long: ආමොස්
+    Col:
+      short: කොලො
+    Deut:
+      long: ද්වීතීය කථාව
+      short: ද්වී.නි.
+    Jas:
+      long: යාකොබ්
+      short: යාකො
+    Jer:
+      long: ජෙරෙමියා
+    John:
+      long: ශු. යොහන්
+      short: යොහ
+    Josh:
+      long: යෝෂුවා
+      short: යෝෂු
+    Jude:
+      long: යූදස් (යූද්)
+      short: යූද්
+    Judg:
+      long: විනිශ්චයකාරයන්ගේ පොත
+      short: විනිශ්
+    Lev:
+      long: ලෙවී කථාව
+    Luke:
+      long: ශු. ලූක්
+    Mal:
+      long: මලාකී
+      short: මලාකී
+    Mark:
+      long: ශු. මාර්ක්
+      short: මාර්ක්
+    Matt:
+      long: ශු. මතෙව්
+    Nah:
+      long: නාහූම්
+      short: නාහූම්
+    Rev:
+      long: එළිදරව්
+    Rom:
+      short: රාේම
+  scv:
+    1John:
+      long: 1 යොහන්
+      short: 1 යොහ
+    1Pet:
+      short: 1 පේතෘ
+    2John:
+      long: 2 යොහන්
+      short: 2 යොහ
+    2Pet:
+      short: 2 පේතෘ
+    3John:
+      long: 3 යොහන්
+      short: 3 යොහ
+    Acts:
+      long: අපෝස්තුලුවරුන්ගේ ක්‍රියා
+    Eph:
+      short: එපීස
+    Gal:
+      short: ගලාති
+    Jas:
+      long: යාකොබ්
+      short: යාකොබ්
+    John:
+      long: යොහන්
+      short: යොහ
+    Jude:
+      long: යූද්
+      short: යූද්
+    Luke:
+      long: ලූක්
+    Mark:
+      long: මාර්ක්
+      short: මාර්
+    Matt:
+      long: මතෙව්
+    Phlm:
+      short: පිලෙමො
+    Rev:
+      long: එළිදරවු
+      short: එළි
+    Rom:
+      long: රෝම හසුන
+      short: රෝ
+  snrv:
+    1Pet:
+      long: 1 පේදුරු
+    2Chr:
+      long: 2 වංශාවලිය
+    2Pet:
+      long: 2 පේදුරු
+    3John:
+      short: 3 ජොහ
+    Amos:
+      long: අාමොස්
+    Josh:
+      long: ජෝෂුවා

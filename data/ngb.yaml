@@ -1,0 +1,100 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Suma
+  - osis: Matt
+    texts:
+      - Matie
+      - Mat.
+  - osis: Mark
+    texts:
+      - Marko
+      - Mar.
+  - osis: Luke
+    texts:
+      - Luk.
+      - Luka
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yoanɛ
+  - osis: John
+    texts:
+      - Yoanɛ
+      - Yoa.
+  - osis: Acts
+    texts:
+      - Awa Pangɔ Kwa
+  - osis: Rom
+    texts:
+      - Roma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kɔrinto
+      - Kɔr.
+  - osis: Col
+    texts:
+      - Kɔlɔsɛ
+  - osis: Gal
+    texts:
+      - Galatia
+  - osis: Eph
+    texts:
+      - Efɛzɛ
+  - osis: Phil
+    texts:
+      - Filipɛ
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tɛsalɔnikɛ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timɔte
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filemɔ
+  - osis: Heb
+    texts:
+      - Aebreo
+  - osis: Jas
+    texts:
+      - Zaki
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petro
+  - osis: Jude
+    texts:
+      - Yudɛ
+translations:
+  - NGB87

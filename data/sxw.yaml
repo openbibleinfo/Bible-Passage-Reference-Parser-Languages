@@ -1,0 +1,113 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Apocalypse.
+      - Apocalypse
+  - osis: Matt
+    texts:
+      - Matthieu.
+      - Matthieu
+  - osis: Mark
+    texts:
+      - Marc.
+      - Marc
+  - osis: Luke
+    texts:
+      - Luc.
+      - Luc
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jean.
+      - Jean
+  - osis: Acts
+    texts:
+      - Actes.
+      - Actes
+  - osis: Rom
+    texts:
+      - Romains.
+      - Romains
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corinthiens.
+      - Corinthiens
+  - osis: Col
+    texts:
+      - Colossiens.
+      - Colossiens
+  - osis: Gal
+    texts:
+      - Galates.
+      - Galates
+  - osis: Eph
+    texts:
+      - Éphésiens.
+      - Éphésiens
+  - osis: Phil
+    texts:
+      - Philippiens.
+      - Philippiens
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thessaloniciens.
+      - Thessaloniciens
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothée.
+      - Timothée
+  - osis: Titus
+    texts:
+      - Tite.
+      - Tite
+  - osis: Phlm
+    texts:
+      - Philémon.
+      - Philémon
+  - osis: Heb
+    texts:
+      - Hébreux.
+      - Hébreux
+  - osis: Jas
+    texts:
+      - Jacques.
+      - Jacques
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pierre.
+      - Pierre
+  - osis: Jude
+    texts:
+      - Jude.
+      - Jude
+translations:
+  - SXW

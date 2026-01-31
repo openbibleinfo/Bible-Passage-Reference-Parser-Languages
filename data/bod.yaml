@@ -1,0 +1,296 @@
+variables:
+  first: &first
+    - ༡
+  second: &second
+    - ༢
+books:
+  - osis: Gen
+    texts:
+      - བཀོད་པ་
+      - བཀོད་པ།
+      - བཀོད་པ
+  - osis: Exod
+    texts:
+      - ཨེ་ཅིབ་ནས་ཐོན་པ།
+      - སྡེབ་ཐོན་
+      - སྡེབ་ཐོན
+  - osis: Lev
+    texts:
+      - ལེ་ཝིའི་ཚུལ་ཁྲིམས།
+      - ལེ་ཝི་
+      - ལེ་ཝི
+  - osis: Num
+    texts:
+      - གྲངས་ཀ་
+      - གྲངས་ཀ
+  - osis: Lam
+    texts:
+      - སྐྱོ་གླུ།
+      - སྐྱོ་གླུ
+  - osis: Rev
+    texts:
+      - མངོན་པ།
+  - osis: Deut
+    texts:
+      - བཀའ་ཁྲིམས་སྐྱར་བཤད་
+      - བཀའ་ལུང་།
+  - osis: Josh
+    texts:
+      - ཡོ་ཤུ་ཨ་
+      - ཡོ་ཤུ་ཨ།
+      - ཡོ་ཤུ་ཨ
+  - osis: Judg
+    texts:
+      - ཁྲིམས་དཔོན་
+      - ཁྲིམས་དཔོན།
+      - ཁྲིམས་དཔོན
+  - osis: Ruth
+    texts:
+      - རུ་ཐི།
+      - རུད
+  - osis: Isa
+    texts:
+      - ཡེ་ཤ་ཡཱ་
+      - ཡེ་ཤ་ཡཱ།
+      - ཡེ་ཤ་ཡཱ
+  - osis:
+      - osis: 1Sam
+        before: *first
+    texts:
+      - ཤ་མུ་ཨེལ།
+  - osis: 1Sam
+    texts:
+      - སཱ་མུ་ཨེལ་དང་པོ།
+      - ཤ་མུ་ཨེལ་དང་པོ།
+  - osis:
+      - osis: 2Sam
+        before: *second
+    texts:
+      - ཤ་མུ་ཨེལ་
+  - osis: 2Sam
+    texts:
+      - སཱ་མུ་ཨེལ་གཉིས་པ།
+      - ཤ་མུ་ཨེལ་གཉིས་པ།
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - རྒྱལ་རབས་
+  - osis: 1Kgs
+    texts:
+      - རྒྱལ་རབས་དང་པོ།
+  - osis: 2Kgs
+    texts:
+      - རྒྱལ་རབས་གཉིས་པ།
+  - osis:
+      - osis: 1Chr
+        before: *first
+    texts:
+      - སྔོན་རབ་
+  - osis: 1Chr
+    texts:
+      - སྔོན་རབས་དང་པོ།
+  - osis:
+      - osis: 2Chr
+        before: *second
+    texts:
+      - སྔོན་རབས་
+  - osis: 2Chr
+    texts:
+      - སྔོན་རབས་གཉིས་པ།
+  - osis: Ezra
+    texts:
+      - ཨེས་སི་རཱ།
+      - ཨེཛ་ར
+  - osis: Neh
+    texts:
+      - ནེ་ཧེམ་ཡཱ།
+      - ནེ་ཧེམ་ཡཱ
+  - osis: Esth
+    texts:
+      - ཨེས་སི་ཐེར།
+      - ཨེསེ་ཐར
+  - osis: Job
+    texts:
+      - ཨེས་ཡོབ།
+      - ཡོབ
+  - osis: Ps
+    texts:
+      - གསུང་མགུར་
+      - གསུང་མགུར།
+      - གསུང་མགུར
+  - osis: Prov
+    texts:
+      - ལེགས་བཤད།
+      - ལེགས་བཤད
+  - osis: Eccl
+    texts:
+      - འཆད་པ་པོ
+      - སྟོན་པ།
+  - osis: Song
+    texts:
+      - སྙན་མགུར།
+      - གསུང་གླུ
+  - osis: Jer
+    texts:
+      - ཡེ་རེམ་ཡཱ།
+      - ཡེར་མི་ཡཱ་
+      - ཡེར་མི་ཡཱ
+  - osis: Ezek
+    texts:
+      - ཨི་ཛི་ཀི་ཨེལ་
+      - ཨེ་ཟེ་ཀི་ཨེལ།
+      - ཨི་ཛི་ཀི་ཨེལ
+  - osis: Dan
+    texts:
+      - དཱ་ནེ་ཨེལ།
+      - དྷ་ནི་ཨེལ
+  - osis: Hos
+    texts:
+      - ཧོ་ཤེ་ཨ།
+      - ཧོ་ཟེ།
+      - ཧོ་ཟེ
+  - osis: Joel
+    texts:
+      - ཡོ་ཨེལ།
+      - ཡོ་ཨེལ
+  - osis: Amos
+    texts:
+      - ཨ་མའོ་སི།
+      - ཨ་མོསེ
+  - osis: Obad
+    texts:
+      - ཨོ་བ་དི་ཡཱ
+      - ཨོ་བད་ཡཱ།
+  - osis: Jonah
+    texts:
+      - ཡོ་ནཱ།
+      - ཡོ་ནཱ
+  - osis: Mic
+    texts:
+      - མི་ཀཱ
+  - osis: Nah
+    texts:
+      - ནཱ་ཧུམ།
+      - ན་ཧུམ
+  - osis: Hab
+    texts:
+      - ཧ་བྷ་ཀུག
+      - ཧ་བཱ་ཁུག
+  - osis: Zeph
+    texts:
+      - ཛེ་ཕ་ནི་ཡཱ
+      - ཟེ་ཕན་ཡཱ།
+  - osis: Hag
+    texts:
+      - ཧག་གཱ་ཨི།
+      - ཧག་གྷཨེ
+  - osis: Zech
+    texts:
+      - ཟཱ་ཀར་ཡཱ།
+      - ཛ་ཀར་ཡ
+  - osis: Mal
+    texts:
+      - མཱལ་ཨ་ཀེ
+      - མ་ལ་ཀི
+  - osis: Matt
+    texts:
+      - མད་ཐཱ།
+  - osis: Mark
+    texts:
+      - མཱཪ་ཀུ
+      - མར་ཀུ
+  - osis: Luke
+    texts:
+      - ལུ་ཀཱ
+      - ལོ་ཀུ
+  - osis: 1John
+    texts:
+      - ཡོ་ཧ་ནན་དང་པོ།
+      - ཡོ་ཧ་ནན། ༡
+  - osis: 2John
+    texts:
+      - ཡོ་ཧ་ནན་གཉིས་པ།
+      - ཡོ་ཧ་ནན། ༢
+  - osis: 3John
+    texts:
+      - ཡོ་ཧ་ནན་གསུམ་པ།
+      - ཡོ་ཧ་ནན། ༣
+  - osis: John
+    texts:
+      - ཡོ་ཧ་ནན།
+  - osis: Acts
+    texts:
+      - མཛད་འཕྲིན།
+      - མཛད་པ།
+  - osis: Rom
+    texts:
+      - རོ་མཱ་པ།
+  - osis: 1Cor
+    texts:
+      - ཀོ་རིན་ཐུ་པ་དང་པོ།
+      - ཀོ་རིན་ཐུ་པ། ༡
+  - osis: 2Cor
+    texts:
+      - ཀོ་རིན་ཐུ་པ་གཉིས་པ།
+      - ཀོ་རིན་ཐུ་པ། ༢
+  - osis: Col
+    texts:
+      - ཀོ་ལོ་སཱ་པ།
+  - osis: Gal
+    texts:
+      - ག་ལད་ཡཱ་པ།
+  - osis: Eph
+    texts:
+      - ཨེ་ཕེ་སི་པ།
+      - ཨེ་ཕེ་སུ་པ།
+  - osis: Phil
+    texts:
+      - ཕི་ལིབ་པཱི་པ།
+      - ཕི་ལིབ་པི་པ།
+  - osis: 1Thess
+    texts:
+      - ཐེ་སཱ་ལོ་ནེ་ཀེ་པ་དང་པོ།
+      - ཐེ་ས་ལོ་ནི་ཀེ་པ། ༡
+  - osis: 2Thess
+    texts:
+      - ཐེ་སཱ་ལོ་ནེ་ཀེ་པ་གཉིས་པ།
+      - ཐེ་ས་ལོ་ནི་ཀེ་པ། ༢
+  - osis: 1Tim
+    texts:
+      - ཐི་མོ་ཐེ་དང་པོ།
+      - ཐི་མོ་ཐེ། ༡
+  - osis: 2Tim
+    texts:
+      - ཐི་མོ་ཐེ་གཉིས་པ།
+      - ཐི་མོ་ཐེ། ༢
+  - osis: Titus
+    texts:
+      - ཐེ་ཏུ།
+  - osis: Phlm
+    texts:
+      - ཕི་ལེ་མོན།
+  - osis: Heb
+    texts:
+      - ཡ་ཧུ་དཱ་པ།
+      - ཨིབ་རི་པ།
+  - osis: Jas
+    texts:
+      - ཡ་ཀོབ།
+  - osis: 1Pet
+    texts:
+      - པེ་ཏྲོ་དང་པོ།
+      - པེ་ཏྲོ། ༡
+  - osis: 2Pet
+    texts:
+      - པེ་ཏྲོ་གཉིས་པ།
+      - པེ་ཏྲོ། ༢
+  - osis: Jude
+    texts:
+      - ཡ་ཧུ་དཱ།
+translations:
+  - NTB
+  - TOT11
+  - CTB

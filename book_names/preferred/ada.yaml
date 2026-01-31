@@ -1,0 +1,274 @@
+default:
+  1Chr:
+    long: Kronika I,
+    short: Kron I,
+  1Cor:
+    long: 1 Korintobi
+    short: 1 Kor.
+  1John:
+    long: 1 Yohane
+    short: 1 Yoh.
+  1Kgs:
+    long: Matsɛmɛ I,
+    short: Mats I,
+  1Pet:
+    long: 1 Petro
+    short: 1 Pet.
+  1Sam:
+    long: Samuel I,
+    short: Sam I,
+  1Thess:
+    long: 1 Tesalonikabi
+    short: 1 Tes.
+  1Tim:
+    long: 1 Timoteo
+    short: 1 Tim.
+  2Chr:
+    long: Kronika II,
+    short: Kron II,
+  2Cor:
+    long: 2 Korintobi
+    short: 2 Kor.
+  2John:
+    long: 2 Yohane
+    short: 2 Yoh.
+  2Kgs:
+    long: Matsɛmɛ II,
+    short: Mats II,
+  2Pet:
+    long: 2 Petro
+    short: 2 Pet.
+  2Sam:
+    long: Samuel II,
+    short: Sam II,
+  2Thess:
+    long: 2 Tesalonikabi
+    short: 2 Tes.
+  2Tim:
+    long: 2 Timoteo
+    short: 2 Tim.
+  3John:
+    long: 3 Yohane
+    short: 3 Yoh.
+  Acts:
+    long: Bɔfo
+    short: Bɔf.
+  Amos:
+    long: Amos
+    short: Amos
+  Col:
+    long: Kolose Bi
+    short: Kol
+  Dan:
+    long: Daniel
+    short: Dan
+  Deut:
+    long: Mose V,
+    short: Mose V,
+  Eccl:
+    long: Fiɛlɔ
+    short: Fiɛ
+  Eph:
+    long: Efeso Bi
+    short: Efes
+  Esth:
+    long: Ester
+    short: Est
+  Exod:
+    long: Mose II,
+    short: Mose II,
+  Ezek:
+    long: Ezekiel
+    short: Ezek
+  Ezra:
+    long: Ezra
+    short: Ezra
+  Gal:
+    long: Galatabi
+    short: Gal
+  Gen:
+    long: Mose I,
+    short: Mose I,
+  Hab:
+    long: Habakuk
+    short: Hab
+  Hag:
+    long: Hagai
+    short: Hag
+  Heb:
+    long: Hebri Bi
+    short: Heb
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Yesaya
+    short: Yes
+  Jas:
+    long: Yakobo
+    short: Yak
+  Jer:
+    long: Yeremia
+    short: Yer
+  Job:
+    long: Hiob
+    short: Hiob
+  Joel:
+    long: Yoel
+    short: Yoel
+  John:
+    long: Yohane
+    short: Yoh
+  Jonah:
+    long: Yona
+    short: Yona
+  Josh:
+    long: Yoshua
+    short: Yosh
+  Jude:
+    long: Yuda
+    short: Yuda
+  Judg:
+    long: Manyadali
+    short: Many
+  Lam:
+    long: Kɔmɔ Yemi
+    short: Kɔmɔ
+  Lev:
+    long: Mose III,
+    short: Mose III,
+  Luke:
+    long: Luka
+    short: Luk
+  Mal:
+    long: Malaki
+    short: Mal
+  Mark:
+    long: Marko
+    short: Mar
+  Matt:
+    long: Mateo
+    short: Mat
+  Mic:
+    long: Mika
+    short: Mika
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nehemia
+    short: Neh
+  Num:
+    long: Mose IV,
+    short: Mose IV,
+  Obad:
+    long: Obadia
+    short: Oba
+  Phil:
+    long: Filipi Bi
+    short: Filip.
+  Phlm:
+    long: Filemon
+    short: Filem.
+  Prov:
+    long: Abɛ
+    short: Abɛ
+  Ps:
+    long: La
+    short: La
+  Rev:
+    long: Kpojemi
+    short: Kpoj
+  Rom:
+    long: Roma Bi
+    short: Rom
+  Ruth:
+    long: Rut
+    short: Rut
+  Song:
+    long: Lahi
+    short: Lahi
+  Titus:
+    long: Tito
+    short: Tit
+  Zech:
+    long: Zakaria
+    short: Zak
+  Zeph:
+    long: Zefania
+    short: Zef
+translations:
+  dangme:
+    1Cor:
+      long: Korinto Bi I,
+      short: Kor I,
+    1John:
+      long: Yohane I
+      short: Yoh I,
+    1Pet:
+      long: Petro I,
+      short: Pet I,
+    1Thess:
+      long: Tesalonika Bi I,
+      short: Tes I,
+    1Tim:
+      long: Timoteo I,
+      short: Tim I,
+    2Cor:
+      long: Korinto Bi II,
+      short: Kor II,
+    2John:
+      long: Yohane II,
+      short: Yoh II,
+    2Pet:
+      long: Petro II,
+      short: Pet II,
+    2Thess:
+      long: Tesalonika Bi II,
+      short: Tes II,
+    2Tim:
+      long: Timoteo II,
+      short: Tim II,
+    3John:
+      long: Yohane III,
+      short: Yoh III,
+    Acts:
+      long: Ni Tsumi
+      short: Nits
+    Gal:
+      long: Galatia Bi
+    Phil:
+      short: Filp
+    Phlm:
+      short: Film
+  dan77:
+    Col:
+      long: Kolosebi
+      short: Kol.
+    Eph:
+      long: Efesobi
+      short: Efes.
+    Gal:
+      short: Gal.
+    Heb:
+      long: Hebribi
+      short: Heb.
+    Jas:
+      short: Yak.
+    John:
+      short: Yoh.
+    Luke:
+      short: Luka
+    Mark:
+      short: Mar.
+    Matt:
+      short: Mat.
+    Phil:
+      long: Filipibi
+    Rev:
+      short: Kpoj.
+    Rom:
+      long: Romabi
+      short: Rom.
+    Titus:
+      short: Tito

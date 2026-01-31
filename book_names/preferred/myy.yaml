@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 Co
+    short: 1 Co
+  1John:
+    long: 1 Juan
+    short: 1 Jn
+  1Pet:
+    long: 1 Pedro
+    short: 1 Pe
+  1Thess:
+    long: 1 Te
+    short: 1 Te
+  1Tim:
+    long: 1 Ti
+    short: 1 Ti
+  2Cor:
+    long: 2 Co
+    short: 2 Co
+  2John:
+    long: 2 Juan
+    short: 2 Jn
+  2Pet:
+    long: 2 Pedro
+    short: 2 Pe
+  2Thess:
+    long: 2 Te
+    short: 2 Te
+  2Tim:
+    long: 2 Ti
+    short: 2 Ti
+  3John:
+    long: 3 Juan
+    short: 3 Jn
+  Acts:
+    long: Hechos
+    short: Hch
+  Col:
+    long: Col
+    short: Col
+  Eph:
+    long: Ef
+    short: Ef
+  Gal:
+    long: Gá
+    short: Gá
+  Heb:
+    long: Heb
+    short: Heb
+  Jas:
+    long: Stg
+    short: Stg
+  John:
+    long: Juan
+    short: Jn
+  Jude:
+    long: Judas
+    short: Jud
+  Luke:
+    long: Lucas
+    short: Lc
+  Mark:
+    long: Marcos
+    short: Mr
+  Matt:
+    long: Mateo
+    short: Mt
+  Phil:
+    long: Flp
+    short: Flp
+  Phlm:
+    long: Flm
+    short: Flm
+  Rev:
+    long: Apocalipsis
+    short: Ap
+  Rom:
+    long: Rom
+    short: Rom
+  Titus:
+    long: Tit
+    short: Tit

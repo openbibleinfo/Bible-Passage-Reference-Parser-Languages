@@ -1,0 +1,119 @@
+books:
+  - osis: Gen
+    texts:
+      - Wambeela
+      - Wam
+  - osis: Exod
+    texts:
+      - Okuma
+      - Oku
+  - osis: Rev
+    texts:
+      - Ovuhulela
+      - Ovu
+  - osis: Matt
+    texts:
+      - Matewuzhi
+      - Mat
+  - osis: Mark
+    texts:
+      - Maruku
+      - Mar
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis: 1John
+    texts:
+      - Zhuwawu Owambeela
+      - 1Zh
+  - osis: 2John
+    texts:
+      - Zhuwawu a Nabiili
+      - 2Zh
+  - osis: 3John
+    texts:
+      - Zhuwawu a Neethaaru
+      - 3Zh
+  - osis: John
+    texts:
+      - Zhuwawu
+      - Zhu
+  - osis: Acts
+    texts:
+      - Meerelo a Arumiwi
+      - Mee
+  - osis: Rom
+    texts:
+      - aRoma
+      - Rom
+  - osis: 1Cor
+    texts:
+      - Akorintu Owambeela
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - Akorintu a Nabiili
+      - 2Ko
+  - osis: Col
+    texts:
+      - aKolose
+      - Kol
+  - osis: Gal
+    texts:
+      - Agalasiya
+      - Gal
+  - osis: Eph
+    texts:
+      - aEfeso
+      - Efe
+  - osis: Phil
+    texts:
+      - Afiliposi
+      - Fil
+  - osis: 1Thess
+    texts:
+      - Atesalonika Owambeela
+      - 1Ts
+  - osis: 2Thess
+    texts:
+      - Atesalonika a Nabiili
+      - 2Ts
+  - osis: 1Tim
+    texts:
+      - Timoteyo Owambeela
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - Timoteyo a Nabiili
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Titu
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filimoni
+      - Flm
+  - osis: Heb
+    texts:
+      - aHeberi
+      - Heb
+  - osis: Jas
+    texts:
+      - Tiyago
+      - Tiy
+  - osis: 1Pet
+    texts:
+      - Peduru Owambeela
+      - 1Pe
+  - osis: 2Pet
+    texts:
+      - Peduru a Nabiili
+      - 2Pe
+  - osis: Jude
+    texts:
+      - Zhuda
+      - Zhd
+translations:
+  - TKE

@@ -1,0 +1,407 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Vphaungc Vyaungc
+      - Rapha Hiqwa Lak
+      - Rap
+      - V.V
+  - osis: Exod
+    texts:
+      - Atsuq Wan
+      - Dungwvnc
+      - Ats
+      - Dw
+  - osis: Lev
+    texts:
+      - Lewi
+      - Lew
+  - osis: Num
+    texts:
+      - Wuinkhuemc
+      - Weawea
+      - Wea
+      - Wkh
+  - osis: Lam
+    texts:
+      - Yonzyec
+      - Ajonjü
+      - Yoy
+  - osis: Rev
+    texts:
+      - Atiichhi Arkuq
+      - Revelation
+      - Tvkhic
+      - Tvkh
+      - Rev
+  - osis: Deut
+    texts:
+      - Tvrac Tvsvmz
+      - Tri Chongke
+      - Tvrac
+      - Tri
+  - osis: Josh
+    texts:
+      - Joshua
+      - Yoshua
+      - Yosh
+      - Jos
+  - osis: Judg
+    texts:
+      - Phoc Waz
+      - Phowebi
+      - Phoc
+      - Pho
+  - osis: Ruth
+    texts:
+      - Rutha
+      - Rut
+  - osis: Isa
+    texts:
+      - Esaia
+      - Isaia
+      - Esa
+      - Isa
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - Sa
+  - osis: 1Sam
+    texts:
+      - 1Sam
+  - osis: 2Sam
+    texts:
+      - 2Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Hokhambi
+      - Hokhvmx
+      - Ho
+  - osis: 1Kgs
+    texts:
+      - 1Hokh
+  - osis: 2Kgs
+    texts:
+      - 2Hokh
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Tvtsuingc Tvy
+      - Kaüwa Weraü
+      - Ka
+  - osis: 1Chr
+    texts:
+      - 1Tvts
+  - osis: 2Chr
+    texts:
+      - 2Tvts
+  - osis: Ezra
+    texts:
+      - Ejra
+      - Ezra
+      - Ejr
+  - osis: Neh
+    texts:
+      - Nehemia
+      - Neh
+  - osis: Esth
+    texts:
+      - Esthar
+      - Esta
+      - Est
+  - osis: Job
+    texts:
+      - Yoba
+      - Job
+      - Yob
+  - osis: Ps
+    texts:
+      - Shomshi
+      - Tvtsvmc
+      - Tvts
+      - Sho
+  - osis: Prov
+    texts:
+      - Bomc Tvguip
+      - Taksu Lak
+      - Btg
+  - osis: Eccl
+    texts:
+      - Phaqchi Shra Lak
+      - Tharc Tvluingc
+      - Tharc
+  - osis: Song
+    texts:
+      - Solomon Shic
+      - Ashichong
+      - Shic
+  - osis: Jer
+    texts:
+      - Jeremia
+      - Yeremia
+      - Jer
+      - Yer
+  - osis: Ezek
+    texts:
+      - Ejekiel
+      - Ezekiel
+      - Eje
+      - Ezk
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan
+  - osis: Hos
+    texts:
+      - Hosea
+      - Hos
+  - osis: Joel
+    texts:
+      - Joel
+      - Yoel
+  - osis: Amos
+    texts:
+      - Amos
+      - Amo
+  - osis: Obad
+    texts:
+      - Obadia
+      - Oba
+  - osis: Jonah
+    texts:
+      - Jona
+      - Jon
+  - osis: Mic
+    texts:
+      - Mikha
+      - Mika
+      - MiK
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Jephania
+      - Zephania
+      - Zeph
+  - osis: Hag
+    texts:
+      - Hagai
+      - Hag
+  - osis: Zech
+    texts:
+      - Zecharia
+      - Jekeria
+      - Zech
+  - osis: Mal
+    texts:
+      - Malakhi
+      - Malaki
+      - Mal
+  - osis: Matt
+    texts:
+      - Matthew
+      - Mothiq
+      - Mahte
+      - Mat
+      - Mot
+      - Mt
+  - osis: Mark
+    texts:
+      - Makaq
+      - Marku
+      - Mark
+      - Mak
+      - Mk
+  - osis: Luke
+    texts:
+      - Lukaq
+      - Luka
+      - Luke
+      - Luk
+      - Lk
+  - osis: 1John
+    texts:
+      - 1Yoh
+  - osis: 2John
+    texts:
+      - 2Yoh
+  - osis: 3John
+    texts:
+      - 3 Johan
+      - 3 Yohan
+      - 3 John
+      - 3 Jhn
+      - 3Yoh
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Johan
+      - Yohan
+      - John
+      - Jhn
+  - osis: John
+    texts:
+      - Johan
+      - Yohan
+      - John
+      - Joh
+      - Yoh
+      - Jn
+  - osis: Acts
+    texts:
+      - Kiimwebi Jaqsham
+      - Acts
+      - Kamx
+      - Kiim
+      - Act
+  - osis: Rom
+    texts:
+      - Romans
+      - Roma
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corinthians
+      - Korinhtu
+      - Korin
+      - Co
+      - Ko
+  - osis: 1Cor
+    texts:
+      - 1Kor
+  - osis: 2Cor
+    texts:
+      - 2Kor
+  - osis: Col
+    texts:
+      - Colossians
+      - Kolosia
+      - Kolose
+      - Col
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatians
+      - Galatia
+      - Gal
+  - osis: Eph
+    texts:
+      - Ephesians
+      - Ephisia
+      - Ephesu
+      - Eph
+  - osis: Phil
+    texts:
+      - Philippians
+      - Philipia
+      - Philipi
+      - Phil
+      - Php
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thessalonians
+      - Thesalonia
+      - Thesaloni
+      - Th
+  - osis: 1Thess
+    texts:
+      - 1Thes
+  - osis: 2Thess
+    texts:
+      - 2Thes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothi
+      - Timothy
+      - Ti
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Titas
+      - Titus
+      - Titu
+      - Tit
+  - osis: Phlm
+    texts:
+      - Philemon
+      - Phlm
+      - Phm
+  - osis: Heb
+    texts:
+      - Hebrews
+      - Hebre
+      - Hibru
+      - Heb
+  - osis: Jas
+    texts:
+      - Jakob
+      - James
+      - Yaku
+      - Jas
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petar
+      - Peter
+      - Pe
+  - osis: 1Pet
+    texts:
+      - 1Pet
+  - osis: 2Pet
+    texts:
+      - 2Pet
+  - osis: Jude
+    texts:
+      - Jude
+      - Yuda
+      - Jud
+      - Yud
+translations:
+  - TANGSBSI
+  - HNOT01
+  - MMM

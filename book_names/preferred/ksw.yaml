@@ -1,0 +1,398 @@
+default:
+  1Chr:
+    long: လံာ်ကွဲးနီၣ်တၢ်အခီၣ်ထံးတဘ့ၣ်
+    short: ၁ကွဲး.
+  1Cor:
+    long: 1 ကရံၣ်သူး
+    short: ၁ကရံၣ်.
+  1John:
+    long: လံာ်စီၤယိၤဟၣ်ကွဲးဝဲအခီၣ်ထံးတဘ့ၣ်.
+    short: ၁ယိၤ
+  1Kgs:
+    long: လံာ်စီၤပၤအခီၣ်ထံးတဘ့ၣ်
+    short: ၁စီၤ.
+  1Pet:
+    long: လံာ်စီၤပ့းတရူးကွဲးဝဲအခီၣ်ထံးတဘ့ၣ်.
+    short: ၁ပ့း
+  1Sam:
+    long: လံာ်စီၤၡမူၤအ့လးအခီၣ်ထံးတဘ့ၣ်
+    short: ၁ မူၤ.
+  1Thess:
+    long: လံာ်စီၤပီလူးကွဲးန့ၢ်ပှၤသ့းစၤလနံဖိ အခီၣ်ထံးတဘ့ၣ်.
+    short: ၁သ့း
+  1Tim:
+    long: လံာ်စီၤပီလူးကွဲးန့ၢ်စီၤတံၤမသ့းအခီၣ်ထံးတဘ့ၣ်
+    short: ၁တံၤ
+  2Chr:
+    long: လံာ်ကွဲးနီၣ်တၢ်ခံဘ့ၣ်တဘ့ၣ်
+    short: ၂ကွဲး.
+  2Cor:
+    long: လံာ်စီၤပီလူးကွဲးန့ၢ်ပှၤကရံၣ်သူးဖိပှဲၤထီၣ်ခံဘ့ၣ်တဘ့ၣ်.
+    short: ၂ကရံၣ်.
+  2John:
+    long: လံာ်စီၤယိၤဟၣ်ကွဲးဝဲခံဘ့ၣ်တဘ့ၣ်.
+    short: ၂ယိၤ
+  2Kgs:
+    long: လံာ်စီၤပၤခံဘ့ၣ်တဘ့ၣ်
+    short: ၂စီၤ.
+  2Pet:
+    long: လံာ်စီၤပ့းတရူးကွဲးဝဲခံဘ့ၣ်တဘ့ၣ်
+    short: ၂ပ့း
+  2Sam:
+    long: လံာ်စီၤၡမူၤအ့လးခံဘ့ၣ်တဘ့ၣ်
+    short: ၂ မူၤ.
+  2Thess:
+    long: လံာ်စီၤပီလူးကွဲးန့ၢ်ပှၤသ့းစၤလနံဖိခံဘ့ၣ်တဘ့ၣ်.
+    short: ၂သ့း
+  2Tim:
+    long: လံာ်စီၤပီလူးကွဲးန့ၢ်စီၤတံၤမသ့းခံဘ့ၣ်တဘ့ၣ်
+    short: ၂တံၤ
+  3John:
+    long: လံာ်စီၤယိၤဟၣ်ကွဲးဝဲသၢဘ့ၣ်တဘ့ၣ်.
+    short: ၃ယိၤ
+  Acts:
+    long: ပှၤတၢ်မၢဖိအမၤတၢ်.
+    short: မၤတၢ်.
+  Amos:
+    long: လံာ်ဧၤမိၣ်
+    short: ဧၤ.
+  Col:
+    long: ကလီးစဲ
+    short: ကလီး
+  Dan:
+    long: လံာ်ဒၤနံးယ့လး
+    short: ဒၤ.
+  Deut:
+    long: လံာ်စီၤမိၤရှ့ယဲၢ်ဘ့ၣ်တဘ့ၣ်.
+    short: သိၣ်သီ.
+  Eccl:
+    long: လံာ်ပှၤစံၣ်တဲၤတဲလီၤတၢ်
+    short: စံၣ်
+  Eph:
+    long: လံာ်စီၤပီလူးကွဲးန့ၢ်ပှၤအ့းဖ့းစူးဖိ.
+    short: အ့း
+  Esth:
+    long: လံာ်နီၢ်အ့ၤစတၢ်
+    short: အ့ၤ
+  Exod:
+    long: လံာ်စီၤမိၤရှ့ခံဘ့ၣ်တဘ့ၣ်.
+    short: ဟးထီၣ်.
+  Ezek:
+    long: လံာ်ယဃ့းစက့လး
+    short: ဃ့း.
+  Ezra:
+    long: လံာ်စီၤဧ့စြၤ
+    short: ဧ့.
+  Gal:
+    long: ကလၤတံ
+    short: ကလၤ
+  Gen:
+    long: လံာ်စီၤမိၤရှ့အခီၣ်ထံးတဘ့ၣ်.
+    short: ကဲထီၣ်.
+  Hab:
+    long: လံာ်ဃဘးကူာ်
+    short: ဃဘး
+  Hag:
+    long: လံာ်ဃးကဲ
+    short: ဃး
+  Heb:
+    long: လံာ်စီၤပီလူးကွဲးန့ၢ်ပှၤဧ့ၤဘြံၤဖိ.
+    short: ဧ့ၤ
+  Hos:
+    long: လံာ်ဟိၤရှ့.
+    short: ဟိၤ.
+  Isa:
+    long: လံာ်ယၡါယၤ
+    short: ရှါ.
+  Jas:
+    long: ယၤကိာ်
+    short: ယၤ
+  Jer:
+    long: လံာ်ယံးရမံယၤ
+    short: ယံး.
+  Job:
+    long: လံာ်စီၤယိၤဘး
+    short: ဘး.
+  Joel:
+    long: လံာ်ယိၤအ့လး
+    short: အ့.
+  John:
+    long: တၢ်သးခုအကစီၣ်ဒ်စီၤယိၤဟၣ်ကွဲးဝဲအသိးန့ၣ်.
+    short: ယိၤ.
+  Jonah:
+    long: လံာ်ယိၤနါ
+    short: နါ.
+  Josh:
+    long: လံာ်စီၤယိၤရှူ.
+    short: ရှူ.
+  Jude:
+    long: ယူဒၤ
+    short: ယူ
+  Judg:
+    long: လံာ်ပှၤစံၣ်ညီၣ်ကွီၢ်
+    short: စံၣ်ညီၣ်.
+  Lam:
+    long: လံာ်သးသယုၢ်တၢ်
+    short: သး
+  Lev:
+    long: လံာ်စီၤမိၤရှ့သၢဘ့ၣ်တဘ့ၣ်.
+    short: ဘူၣ်ဘါ.
+  Luke:
+    long: တၢ်သးခုအကစီၣ်ဒ်စီၤလူၤကၣ်ကွဲးဝဲအသိးန့ၣ်.
+    short: လူၤ.
+  Mal:
+    long: လံာ်မၤလကံ
+    short: မၤ
+  Mark:
+    long: လံာ်တၢ်သးခုကစီၣ်ဒ်စီၤမၢ်ကူးကွဲးဝဲအသိးန့ၣ်.
+    short: မၢ်.
+  Matt:
+    long: လံာ်တၢ်သးခုကစီၣ်လၢခရံာ်အဂ့ၢ်.
+    short: မး.
+  Mic:
+    long: လံာ်မံကၤ
+    short: မံ.
+  Nah:
+    long: လံာ်နၤဃူၣ်
+    short: နၤ
+  Neh:
+    long: လံာ်စီၤနဃ့မယၤ
+    short: ဃ့.
+  Num:
+    long: လံာ်စီၤမိၤရှ့လွံၢ်ဘ့ၣ်တဘ့ၣ်.
+    short: တၢ်ဂံၢ်.
+  Obad:
+    long: လံာ်စီၤဧိၤဘါဒယၤ.
+    short: ဧိၤ.
+  Phil:
+    long: ဖံလံးပံၤ
+    short: ဖံလံး
+  Phlm:
+    long: ဖံၤလ့မိၣ်
+    short: ဖံၤ
+  Prov:
+    long: တၢ်ကတိၤဒိ.
+    short: ကတိၤ.
+  Ps:
+    long: စံးထီၣ်ပတြၢၤ
+    short: စံး.
+  Rev:
+    long: လံာ်တၢ်လီၣ်ဖျါလၢစီၤယိၤဟၣ်.
+    short: လီၣ်
+  Rom:
+    long: ရိမ့ၤ
+    short: ရိ
+  Ruth:
+    long: လံာ်နီၢ်ရူၤသး
+    short: ရူၤ
+  Song:
+    long: လံာ်တၢ်သးဝံၣ်တဖၣ်အတၢ်သးဝံၣ်
+    short: တၢ်
+  Titus:
+    long: တံတူး
+    short: တံ
+  Zech:
+    long: လံာ်စကၤရယၤ
+    short: ကၤ.
+  Zeph:
+    long: လံာ်စဖါနယၤ
+    short: စဖါ
+translations:
+  kswm:
+    1Chr:
+      long: လံာ်ကွဲးနီၣ်တၢ်အခီၣ်ထံးတဘ့ၣ်.
+    1Cor:
+      long: လံာ်စီၤပီလူးကွဲးန့ၢ်ပှၤကရံၣ်သူးဖိအခီၣ်ထံးတဘ့ၣ်.
+    1John:
+      short: ၁ယိၤ.
+    1Kgs:
+      long: လံာ်စီၤပၤအခီၣ်ထံးတဘ့ၣ်.
+    1Pet:
+      short: ၁ပ့း.
+    1Sam:
+      long: လံာ်စီၤၡမူၤအ့လးအခီၣ်ထံးတဘ့ၣ်.
+      short: ၁မူၤ.
+    1Thess:
+      short: ၁သ့း.
+    1Tim:
+      short: ၁တံၤ.
+    2Chr:
+      long: လံာ်ကွဲးနီၣ်တၢ်ခံဘ့ၣ်တဘ့ၣ်.
+    2John:
+      short: ၂ယိၤ.
+    2Kgs:
+      long: လံာ်စီၤပၤခံဘ့ၣ်တဘ့ၣ်.
+    2Pet:
+      short: ၂ပ့း.
+    2Sam:
+      long: လံာ်စီၤၡမူၤအ့လးခံဘ့ၣ်တဘ့ၣ်.
+      short: ၂မူၤ.
+    2Thess:
+      short: ၂သ့း.
+    2Tim:
+      short: ၂တံၤ.
+    3John:
+      short: ၃ယိၤ.
+    Amos:
+      long: လံာ်ဧၤမိၣ်.
+    Col:
+      long: လံာ်စီၤပီလူးကွဲးန့ၢ်ပှၤကလီးစဲဖိ.
+      short: ကလီး.
+    Dan:
+      long: လံာ်ဒၤနံးယ့လး.
+    Deut:
+      short: ၅မိၤ.
+    Eccl:
+      long: လံာ်ပှၤစံၣ်တဲၤတဲလီၤတၢ်.
+      short: စံၣ်.
+    Eph:
+      short: အ့း.
+    Esth:
+      long: လံာ်နီၢ်အ့ၤစတၢ်.
+      short: အ့ၤ.
+    Exod:
+      short: ၂မိၤ.
+    Ezek:
+      long: ဝံယဃ့းစက့လး.
+    Ezra:
+      long: လံာ်စီၤဧ့စြၤ.
+    Gal:
+      long: လံာ်စီၤပီလူးကွဲးန့ၢ်ပှၤကလၤတံဖိ.
+      short: ကလၤ.
+    Gen:
+      short: ၁မိၤ.
+    Hab:
+      long: လံာ်ဃဘးကူာ်.
+      short: ဃဘး.
+    Hag:
+      long: လံာ်ဃးကဲ.
+      short: ဃး.
+    Heb:
+      short: ဧ့ၤ.
+    Isa:
+      long: လံာ်ယၡါယၤ.
+    Jas:
+      long: လံာ်စီၤယၤကိာ်ကွဲးဝဲ.
+      short: ယၤ.
+    Jer:
+      long: လံာ်ယံးရမံယၤ.
+    Joel:
+      long: လံာ်ယိၤအ့လး.
+    Jonah:
+      long: လံာ်ယိၤနါ.
+    Jude:
+      long: လံာ်စီၤယူဒၤကွဲးဝဲ.
+      short: ယူ.
+    Judg:
+      long: လံာ်ပှၤစံၣ်ညီၣ်ကွီၢ်.
+    Lam:
+      long: လံာ်သးသယုၢ်တၢ်.
+      short: သး.
+    Lev:
+      short: ၃မိၤ.
+    Mal:
+      long: လံာ်မၤလကံ.
+      short: မၤ.
+    Mic:
+      long: လံာ်မံကၤ.
+    Nah:
+      long: လံာ်နၤဃူၣ်.
+      short: နၤ.
+    Neh:
+      long: လံာ်စီၤနဃ့မယၤ.
+    Num:
+      short: ၄မိၤ.
+    Phil:
+      long: လံာ်စီၤပီလူးကွဲးန့ၢ်ပှၤဖံလံးပံၤဖိ.
+      short: ဖံလံး.
+    Phlm:
+      long: လံာ်စီၤပီလူးကွဲးန့ၢ်စီၤဖံၤလ့မိၣ်.
+      short: ဖံၤ.
+    Ps:
+      long: စံးထီၣ်ပတြၢၤ.
+    Rev:
+      short: လီၣ်.
+    Rom:
+      long: လံာ်စီၤပီလူးကွဲးန့ၢ်ပှၤရိမ့ၤဖိ.
+      short: ရိ.
+    Ruth:
+      long: လံာ်နီၢ်ရူၤသး.
+      short: ရူၤ.
+    Song:
+      long: လံာ်တၢ်သးဝံၣ်တဖၣ်အတၢ်သးဝံၣ်.
+      short: တၢ်.
+    Titus:
+      long: လံာ်စီၤပီလူးကွဲးန့ၢ်စီၤတံတူး.
+      short: တံ.
+    Zech:
+      long: လံာ်စကၤရယၤ.
+    Zeph:
+      long: လံာ်စဖါနယၤ.
+      short: ဖါ.
+  kswc:
+    1John:
+      long: ၁ ယိၤဟၣ်
+    1Kgs:
+      short: ၁စီၤပၤ
+    1Pet:
+      long: ၁ ပ့းတရူး
+    1Thess:
+      long: ၁ သ့းစၤလနံ
+    1Tim:
+      long: ၁ တံၤမသ့း
+    2Cor:
+      long: ၂ ကရံၣ်သူး
+    2John:
+      long: ၂ ယိၤဟၣ်
+    2Kgs:
+      short: ၂စီၤပၤ
+    2Pet:
+      long: ၂ ပ့းတရူး
+    2Thess:
+      long: ၂ သ့းစၤလနံ
+    2Tim:
+      long: ၂ တံၤမသ့း
+    3John:
+      long: ၃ ယိၤဟၣ်
+    Acts:
+      long: မၤတၢ်
+    Deut:
+      long: လံာ်သိၣ်လီၤသီလီၤတၢ်
+    Eph:
+      long: အ့းဖ့းစူး
+    Exod:
+      long: လံာ်တၢ်ဟးထီၣ်ကွံာ်
+    Gen:
+      long: လံာ်တၢ်ကဲထီၣ်အခီၣ်ထံး
+    Heb:
+      long: ဧ့ၤဘြံၤ
+    Hos:
+      long: လံာ်ဟိၤၡ့
+    Isa:
+      short: ၡါ.
+    Job:
+      short: ယိၤဘး
+    John:
+      long: လံာ်ယိၤဟၣ်
+    Josh:
+      long: လံာ်စီၤယိၤၡူ
+      short: ၡူ.
+    Lev:
+      long: လံာ်တၢ်ဘူၣ်ထီၣ်ဘါထီၣ်
+    Luke:
+      long: လံာ်လူၤကၣ်
+    Mark:
+      long: လံာ်မၢ်ကူး
+    Matt:
+      long: လံာ်မးသဲ
+    Num:
+      long: လံာ်တၢ်ဂံၢ်
+    Obad:
+      long: လံာ်ဧိၤဘါဒယၤ
+    Prov:
+      long: လံာ်တၢ်ကူၣ်သ့အတၢ်ကတိၤ
+      short: ကူၣ်သ့
+    Rev:
+      long: လံာ်လီၣ်ဖျါ
+    Zech:
+      short: စကၤ

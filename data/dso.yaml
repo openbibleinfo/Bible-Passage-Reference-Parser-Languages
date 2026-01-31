@@ -1,0 +1,102 @@
+variables:
+  first: &first
+    - ୧
+    - ୧ମ
+  second: &second
+    - ୨
+    - ୨ୟ
+books:
+  - osis: Rev
+    texts:
+      - ପର୍‌କାସିତ
+  - osis: Matt
+    texts:
+      - ମାତିଉ
+  - osis: Mark
+    texts:
+      - ମାର୍‌କ
+  - osis: Luke
+    texts:
+      - ଲୁକ୍‌
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - ମ ଜଅନ୍‌
+  - osis: 3John
+    texts:
+      - ୩ ୟ ଜଅନ୍‌
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - ୟ ଜଅନ୍‌
+  - osis: John
+    texts:
+      - ଜଅନ୍‌
+  - osis: Acts
+    texts:
+      - ପେରିତ୍‌
+  - osis: Rom
+    texts:
+      - ରମିୟ
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - କରନ୍ତିୟ
+  - osis: Col
+    texts:
+      - କଲସିଅ
+  - osis: Gal
+    texts:
+      - ଗାଲାତିୟ
+  - osis: Eph
+    texts:
+      - ଏପିସିୟ
+  - osis: Phil
+    texts:
+      - ପିଲିପିୟ
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - ତେସଲନିକିୟ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - ତିମତି
+  - osis: Titus
+    texts:
+      - ତିତସ୍‌
+  - osis: Phlm
+    texts:
+      - ପିଲିମନ୍‌
+  - osis: Heb
+    texts:
+      - ଏବ୍‌ରି
+  - osis: Jas
+    texts:
+      - ଜାକୁବ
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - ମ ପିତର୍‌
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - ୟ ପିତର୍‌
+  - osis: Jude
+    texts:
+      - ଜିଉଦା
+translations:
+  - NTSAA20

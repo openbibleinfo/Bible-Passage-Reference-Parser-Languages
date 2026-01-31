@@ -1,0 +1,326 @@
+variables:
+  first: &first
+    - "1"
+    - Men
+  second: &second
+    - "2"
+    - Men
+books:
+  - osis: Gen
+    texts:
+      - Senesis
+      - Sen.
+  - osis: Exod
+    texts:
+      - Eksodus
+      - Eks.
+  - osis: Lev
+    texts:
+      - Lipai
+      - Lip.
+  - osis: Num
+    texts:
+      - Nempe Kan
+      - Nempe
+  - osis: Lam
+    texts:
+      - Koulen Kedepwidepw Kan
+      - Koul.
+  - osis: Rev
+    texts:
+      - Kaudiahl
+      - Kaudial
+      - Kaud.
+  - osis: Deut
+    texts:
+      - Deuderonomi
+      - Deud.
+  - osis: Josh
+    texts:
+      - Sosua
+      - Sos.
+  - osis: Judg
+    texts:
+      - Sounkopwung Kan
+  - osis: Ruth
+    texts:
+      - Rud
+  - osis: Isa
+    texts:
+      - Aiseia
+      - Ais.
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - Sam.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Nanmwarki Kan
+      - Nan.
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Kronikel
+      - Kron.
+  - osis: Ezra
+    texts:
+      - Esra
+  - osis: Neh
+    texts:
+      - Nehmaia
+      - Neh.
+  - osis: Esth
+    texts:
+      - Ester
+      - Est.
+  - osis: Job
+    texts:
+      - Sohp
+  - osis: Prov
+    texts:
+      - Lepin Padahk Audapan Kan
+      - Lep.
+  - osis: Eccl
+    texts:
+      - Eklesiasdes
+      - Ekl.
+  - osis: Song
+    texts:
+      - Melkahkahn Melkahka Kan
+      - M.M.K.
+  - osis: Ps
+    texts:
+      - Melkahka Kan
+      - Psalm
+      - Mel.
+      - Ps.
+  - osis: Jer
+    texts:
+      - Seremaia
+      - Ser.
+  - osis: Ezek
+    texts:
+      - Esekiel
+      - Ese.
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan.
+  - osis: Hos
+    texts:
+      - Oseia
+      - Os.
+  - osis: Joel
+    texts:
+      - Joel
+  - osis: Amos
+    texts:
+      - Eimwos
+      - Ei.
+  - osis: Obad
+    texts:
+      - Opadaia
+      - Op.
+  - osis: Jonah
+    texts:
+      - Sona
+  - osis: Mic
+    texts:
+      - Maika
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah.
+  - osis: Hab
+    texts:
+      - Apakuk
+      - Apak.
+  - osis: Zeph
+    texts:
+      - Sepanaia
+      - Sep.
+  - osis: Hag
+    texts:
+      - Akkai
+      - Ak.
+  - osis: Zech
+    texts:
+      - Sekaraia
+      - Sek.
+  - osis: Mal
+    texts:
+      - Malakai
+      - Mal.
+  - osis: Matt
+    texts:
+      - Matäus
+      - Madiu
+      - Mad.
+      - Mat
+  - osis: Mark
+    texts:
+      - Markus
+      - Mark
+      - Mar
+  - osis: Luke
+    texts:
+      - Lukas
+      - Luk
+  - osis: 1John
+    texts:
+      - Ioanes I
+  - osis: 2John
+    texts:
+      - Ioanes II
+  - osis: 3John
+    texts:
+      - Ioanes III
+      - 3 Sohn
+      - 3 Ioa
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Sohn
+      - Ioa
+  - osis: John
+    texts:
+      - Ioanes
+      - Sohn
+      - Ioa
+  - osis: Acts
+    texts:
+      - Wiewia Kan
+      - Wiawia
+      - Wie.
+      - Wia
+  - osis: Rom
+    texts:
+      - Men Rom
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Korint I
+      - Korint
+      - Kor.
+      - Kor
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korint II
+      - Korint
+      - Kor.
+      - Kor
+  - osis: Col
+    texts:
+      - Men Kolose
+      - Kolose
+      - Kol.
+      - Kol
+  - osis: Gal
+    texts:
+      - Men Kalesia
+      - Kalesia
+      - Kal.
+      - Kal
+  - osis: Eph
+    texts:
+      - Men Episus
+      - Episos
+      - Epis
+      - Ep.
+  - osis: Phil
+    texts:
+      - Men Pilipi
+      - Pilipai
+      - Pilipi
+      - Pil.
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Tesalonik I
+      - Deselonika
+      - Des.
+      - Tes
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonik II
+      - Deselonika
+      - Des.
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoty
+      - Tim.
+      - Tim
+  - osis: 1Tim
+    texts:
+      - Timoteus I
+  - osis: 2Tim
+    texts:
+      - Timoteus II
+  - osis: Titus
+    texts:
+      - Taitus
+      - Tait.
+      - Titus
+      - Tit
+  - osis: Phlm
+    texts:
+      - Pailimwon
+      - Pilemon
+      - Pail.
+  - osis: Heb
+    texts:
+      - Men Ipru
+      - Ipru
+  - osis: Jas
+    texts:
+      - Iakopus
+      - Seims
+      - Iak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piter
+      - Pit.
+      - Pet
+  - osis: 1Pet
+    texts:
+      - Petrus I
+  - osis: 2Pet
+    texts:
+      - Petrus II
+  - osis: Jude
+    texts:
+      - Iudas
+      - Sud
+translations:
+  - PONPD
+  - PON2006

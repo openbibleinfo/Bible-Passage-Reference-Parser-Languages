@@ -1,0 +1,156 @@
+variables:
+  first: &first
+    - "1"
+    - ୧
+  second: &second
+    - "2"
+    - ୨
+books:
+  - osis: Rev
+    texts:
+      - ପ୍ରକାଶିତ୍ ବାକ୍ୟ
+      - ପ୍ରକାସିତ୍‌
+      - ପ୍ରକା.
+      - ପ୍ରକା
+  - osis: Matt
+    texts:
+      - ମାତିଉ
+      - ମାଥି.
+      - ମାଥିଉ
+      - ମାତି
+  - osis: Mark
+    texts:
+      - ମାର୍କ
+  - osis: Luke
+    texts:
+      - ଲୁକ
+  - osis: 3John
+    texts:
+      - ୩ ଜହନ୍‌
+      - 3 ଯୋହନ୍
+      - ୩ ଯୋହ.
+      - ୩ ଜହ
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - ଜହନ୍‌
+      - ଯୋହନ୍
+      - ଯୋହ.
+      - ଜହ
+  - osis: Acts
+    texts:
+      - ପେରିତ୍‌
+      - ପ୍ରେରି.
+      - ପ୍ରେରିତ
+      - ପେରି
+  - osis: Rom
+    texts:
+      - ରୋମୀ.
+      - ରୋମୀୟ
+      - ରମିୟ
+      - ରମି
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - କରିନ୍ଥୀୟ
+      - କରନ୍ତି
+      - କରି.
+      - କର
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - କରିନ୍ଥୀୟ
+      - କରନ୍ତି
+      - କ୍‍ରି.
+      - କର
+  - osis: Col
+    texts:
+      - କଲସୀୟ
+      - କଲସି
+      - କଲ.
+      - କଲ
+  - osis: Gal
+    texts:
+      - ଗାଲାତିୟ
+      - ଗାଲାତୀୟ
+      - ଗାଲା.
+      - ଗାଲା
+  - osis: Eph
+    texts:
+      - ଏପିସିୟ
+      - ଏଫିସୀୟ
+      - ଏଫି.
+      - ଏପି
+  - osis: Phil
+    texts:
+      - ଫିଲିପ୍ପୀୟ
+      - ଫିଲିପ୍ପ.
+      - ପିଲିପିୟ
+      - ପିଲିପି
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - ଥେସଲନିକିୟ
+      - ତେସଲନିକି
+      - ଥେସ୍.
+      - ତେସ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - ତିମତି
+      - ତୀମଥି
+      - ତୀମ.
+      - ତିମ
+  - osis: Titus
+    texts:
+      - ତିତସ୍‌
+      - ତୀତସ୍
+      - ତୀତ.
+      - ତିତ
+  - osis: Phlm
+    texts:
+      - ପିଲିମନ୍
+      - ଫିଲିମନ୍
+      - ପିଲିମ
+      - ଫିଲି.
+  - osis: Heb
+    texts:
+      - ଏବ୍ରି
+      - ଏବ୍ରୀ
+  - osis: Jas
+    texts:
+      - ଜାକୁବ
+      - ଯାକୁ.
+      - ଯାକୁବ
+      - ଜାକୁ
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - ପିତର୍‌
+      - ପିତର୍
+      - ପିତ.
+      - ପିତ
+  - osis: Jude
+    texts:
+      - ଯିହୁଦି
+      - ଜିଉଦା
+      - ଯିହୁ.
+      - ଜିଉ
+translations:
+  - BDVNT
+  - NTBPL20

@@ -1,0 +1,113 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Apokalipisi
+      - Apok.
+  - osis: Matt
+    texts:
+      - Matié
+      - Mat.
+  - osis: Mark
+    texts:
+      - Maloko
+      - Mlk.
+  - osis: Luke
+    texts:
+      - Luk.
+      - Luka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Dja.
+      - Djaa
+  - osis: Acts
+    texts:
+      - Kul.
+      - Kulu
+  - osis: Rom
+    texts:
+      - Lom.
+      - Loma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kolito
+      - Kol.
+  - osis: Col
+    texts:
+      - Kolosai
+      - Kol.
+  - osis: Gal
+    texts:
+      - Galate
+      - Gal.
+  - osis: Eph
+    texts:
+      - Efeso
+      - Efe.
+  - osis: Phil
+    texts:
+      - Filipoi
+      - Fil.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonike
+      - Tes.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotio
+      - Tim.
+  - osis: Titus
+    texts:
+      - Tit.
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filemo
+      - Flm.
+  - osis: Heb
+    texts:
+      - Ebele
+      - Ebe.
+  - osis: Jas
+    texts:
+      - Djakɨ
+      - Djk.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piele
+      - Pie.
+  - osis: Jude
+    texts:
+      - Djud.
+      - Djude
+translations:
+  - MDM

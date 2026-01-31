@@ -1,0 +1,210 @@
+default:
+  1Cor:
+    long: Corinthia aré̤lố tôba
+    short: 1Co
+  1John:
+    long: Giovanni aré̤lố tôba
+    short: 1Gi
+  1Kgs:
+    long: ꤋꤝꤤ ꤢ꤬ꤚꤟꤢꤩꤜꤣ ꤒꤣ꤬ꤙꤢ꤬
+    short: ꤋꤝꤤ ꤢ꤬ꤚꤟꤢꤩꤜꤣ ꤒꤣ꤬ꤙꤢ꤬
+  1Pet:
+    long: Petru aré̤lố tôba
+    short: 1Pe
+  1Sam:
+    long: ꤏꤛꤢ꤬ꤗꤢꤨ꤬ꤢꤩꤜꤢ꤬ ꤢ꤬ꤚꤟꤢꤩꤜꤣ ꤒꤣ꤬ꤙꤢ꤬
+    short: ꤏꤛꤢ꤬ꤗꤢꤨ꤬ꤢꤩꤜꤢ꤬ ꤢ꤬ꤚꤟꤢꤩꤜꤣ ꤒꤣ꤬ꤙꤢ꤬
+  1Thess:
+    long: Thessalonia aré̤lố tôba
+    short: 1Th
+  1Tim:
+    long: Timothy aré̤lố tôba
+    short: 1Ti
+  2Cor:
+    long: Corinthia nyě̤ba tôba
+    short: 2Co
+  2John:
+    long: Giovanni nyě̤ba tôba
+    short: 2Gi
+  2Pet:
+    long: Petru nyě̤ba tôba
+    short: 2Pe
+  2Sam:
+    long: ꤏꤛꤢ꤬ꤗꤢꤨ꤬ꤢꤩꤜꤢ꤬ ꤔꤛꤢꤩ꤭ꤙꤢ꤬ ꤒꤣ꤬ꤙꤢ꤬
+    short: ꤏꤛꤢ꤬ꤗꤢꤨ꤬ꤢꤩꤜꤢ꤬ ꤔꤛꤢꤩ꤭ꤙꤢ꤬ ꤒꤣ꤬ꤙꤢ꤬
+  2Thess:
+    long: Thessalonia nyě̤ba tôba
+    short: 2Th
+  2Tim:
+    long: Timothy nyě̤ba tôba
+    short: 2Ti
+  3John:
+    long: Giovanni thuô̌ba tôba
+    short: 3Gi
+  Acts:
+    long: Prè̤dônyǎphú tahe
+    short: Tah
+  Col:
+    long: Colossae
+    short: Col
+  Deut:
+    long: ꤘꤣ꤬ꤑꤢ꤭
+    short: ꤘꤣ꤬ꤑꤢ꤭
+  Eph:
+    long: Epheso
+    short: Eph
+  Esth:
+    long: ꤢꤧ꤬ꤞꤢ꤬ꤒꤢ꤬
+    short: ꤢꤧ꤬ꤞꤢ꤬ꤒꤢ꤬
+  Exod:
+    long: ꤓꤢꤩ꤬ꤡꤛꤣꤏꤤ꤬ꤕꤜꤢꤧ
+    short: ꤓꤢꤩ꤬ꤡꤛꤣꤏꤤ꤬ꤕꤜꤢꤧ
+  Gal:
+    long: Galasia
+    short: Gal
+  Gen:
+    long: ꤟꤢꤩ꤬ꤋꤢꤨ꤬ꤓꤝꤟꤥ꤭ꤜꤢꤨ
+    short: ꤟꤢꤩ꤬ꤋꤢꤨ꤬ꤓꤝꤟꤥ꤭ꤜꤢꤨ
+  Heb:
+    long: Hebreo
+    short: Heb
+  Jas:
+    long: Jakomo
+    short: Jak
+  John:
+    long: Giovanni
+    short: Gio
+  Jonah:
+    long: ꤡꤛꤥ꤬ꤔꤢ
+    short: ꤡꤛꤥ꤬ꤔꤢ
+  Josh:
+    long: ꤛꤥ꤬ꤏꤛꤢꤨ
+    short: ꤛꤥ꤬ꤏꤛꤢꤨ
+  Jude:
+    long: Juda
+    short: Jud
+  Judg:
+    long: ꤕꤚꤟꤢꤧ꤬ꤡꤤ꤬ꤚꤛꤢ꤬ꤒꤟꤢꤧ꤬
+    short: ꤕꤚꤟꤢꤧ꤬ꤡꤤ꤬ꤚꤛꤢ꤬ꤒꤟꤢꤧ꤬
+  Lev:
+    long: ꤡꤢꤪꤙꤢꤨ꤬ꤡꤢꤪꤙꤢꤧ꤭
+    short: ꤡꤢꤪꤙꤢꤨ꤬ꤡꤢꤪꤙꤢꤧ꤭
+  Luke:
+    long: Luka
+    short: Luk
+  Mark:
+    long: Marko
+    short: Mar
+  Matt:
+    long: Matteo
+    short: Mat
+  Num:
+    long: ꤜꤢꤩ꤭ꤗꤟꤤ꤬ꤊꤜꤢꤧ꤭
+    short: ꤜꤢꤩ꤭ꤗꤟꤤ꤬ꤊꤜꤢꤧ꤭
+  Phil:
+    long: Philippi
+    short: Php
+  Phlm:
+    long: Philomena
+    short: Phm
+  Prov:
+    long: ꤕꤚꤟꤢꤧ꤬ꤞꤤꤖꤢꤧꤍꤟꤥ
+    short: ꤕꤚꤟꤢꤧ꤬ꤞꤤꤖꤢꤧꤍꤟꤥ
+  Ps:
+    long: ꤓꤢꤨ꤬ꤞꤢꤧꤓꤛꤢ꤬
+    short: ꤓꤢꤨ꤬ꤞꤢꤧꤓꤛꤢ꤬
+  Rev:
+    long: Tè̤dyéluô̌htya
+    short: Tè̤d
+  Rom:
+    long: Roma
+    short: Rom
+  Ruth:
+    long: ꤚꤢꤨꤒꤢ
+    short: ꤚꤢꤨꤒꤢ
+  Titus:
+    long: Tito
+    short: Tit
+translations:
+  kyuntot:
+    1Cor:
+      long: ꤊꤢ꤬ꤚꤤ꤬ꤞꤢꤨ꤬ ꤢ꤬ꤚꤟꤢꤩꤜꤣ ꤒꤣ꤬ꤙꤢ꤬
+      short: ꤊꤢ꤬ꤚꤤ꤬ꤞꤢꤨ꤬ ꤢ꤬ꤚꤟꤢꤩꤜꤣ ꤒꤣ꤬ꤙꤢ꤬
+    1John:
+      long: ꤛꤥ꤭ꤟꤢ꤬ ꤢ꤬ꤚꤟꤢꤩꤜꤣ ꤒꤣ꤬ꤙꤢ꤬
+      short: ꤛꤥ꤭ꤟꤢ꤬ ꤢ꤬ꤚꤟꤢꤩꤜꤣ ꤒꤣ꤬ꤙꤢ꤬
+    1Pet:
+      long: ꤕꤢꤩ꤬ꤒꤢ꤬ꤚꤢꤨ ꤢ꤬ꤚꤟꤢꤩꤜꤣ ꤒꤣ꤬ꤙꤢ꤬
+      short: ꤕꤢꤩ꤬ꤒꤢ꤬ꤚꤢꤨ ꤢ꤬ꤚꤟꤢꤩꤜꤣ ꤒꤣ꤬ꤙꤢ꤬
+    1Thess:
+      long: ꤞꤢꤩ꤬ꤎꤢ꤬ꤜꤢ꤬ꤔꤤ ꤢ꤬ꤚꤟꤢꤩꤜꤣ ꤒꤣ꤬ꤙꤢ꤬
+      short: ꤞꤢꤩ꤬ꤎꤢ꤬ꤜꤢ꤬ꤔꤤ ꤢ꤬ꤚꤟꤢꤩꤜꤣ ꤒꤣ꤬ꤙꤢ꤬
+    1Tim:
+      long: ꤒꤤ꤬ꤗꤢ꤬ꤞꤢꤩ꤬ ꤢ꤬ꤚꤟꤢꤩꤜꤣ ꤒꤣ꤬ꤙꤢ꤬
+      short: ꤒꤤ꤬ꤗꤢ꤬ꤞꤢꤩ꤬ ꤢ꤬ꤚꤟꤢꤩꤜꤣ ꤒꤣ꤬ꤙꤢ꤬
+    2Cor:
+      long: ꤊꤢ꤬ꤚꤤ꤬ꤞꤢꤨ꤬ ꤔꤛꤢꤩ꤭ꤙꤢ꤬ ꤒꤣ꤬ꤙꤢ꤬
+      short: ꤊꤢ꤬ꤚꤤ꤬ꤞꤢꤨ꤬ ꤔꤛꤢꤩ꤭ꤙꤢ꤬ ꤒꤣ꤬ꤙꤢ꤬
+    2John:
+      long: ꤛꤥ꤭ꤟꤢ꤬ ꤔꤛꤢꤩ꤭ꤙꤢ꤬ ꤒꤣ꤬ꤙꤢ꤬
+      short: ꤛꤥ꤭ꤟꤢ꤬ ꤔꤛꤢꤩ꤭ꤙꤢ꤬ ꤒꤣ꤬ꤙꤢ꤬
+    2Pet:
+      long: ꤕꤢꤩ꤬ꤒꤢ꤬ꤚꤢꤨ ꤔꤛꤢꤩ꤭ꤙꤢ꤬ ꤒꤣ꤬ꤙꤢ꤬
+      short: ꤕꤢꤩ꤬ꤒꤢ꤬ꤚꤢꤨ ꤔꤛꤢꤩ꤭ꤙꤢ꤬ ꤒꤣ꤬ꤙꤢ꤬
+    2Thess:
+      long: ꤞꤢꤩ꤬ꤎꤢ꤬ꤜꤢ꤬ꤔꤤ ꤔꤛꤢꤩ꤭ꤙꤢ꤬ ꤒꤣ꤬ꤙꤢ꤬
+      short: ꤞꤢꤩ꤬ꤎꤢ꤬ꤜꤢ꤬ꤔꤤ ꤔꤛꤢꤩ꤭ꤙꤢ꤬ ꤒꤣ꤬ꤙꤢ꤬
+    2Tim:
+      long: ꤒꤤ꤬ꤗꤢ꤬ꤞꤢꤩ꤬ ꤔꤛꤢꤩ꤭ꤙꤢ꤬ ꤒꤣ꤬ꤙꤢ꤬
+      short: ꤒꤤ꤬ꤗꤢ꤬ꤞꤢꤩ꤬ ꤔꤛꤢꤩ꤭ꤙꤢ꤬ ꤒꤣ꤬ꤙꤢ꤬
+    3John:
+      long: ꤛꤥ꤭ꤟꤢ꤬ ꤞꤌꤣ꤭ꤙꤢ꤬ ꤒꤣ꤬ꤙꤢ꤬
+      short: ꤛꤥ꤭ꤟꤢ꤬ ꤞꤌꤣ꤭ꤙꤢ꤬ ꤒꤣ꤬ꤙꤢ꤬
+    Acts:
+      long: ꤕꤚꤟꤢꤧ꤬ꤘꤣ꤬ꤑꤢ꤭ꤖꤢꤨ ꤒꤢ꤬ꤟꤢꤩ꤬
+      short: ꤕꤚꤟꤢꤧ꤬ꤘꤣ꤬ꤑꤢ꤭ꤖꤢꤨ ꤒꤢ꤬ꤟꤢꤩ꤬
+    Col:
+      long: ꤊꤢ꤬ꤜꤢꤪ꤬ꤎꤢꤧ
+      short: ꤊꤢ꤬ꤜꤢꤪ꤬ꤎꤢꤧ
+    Eph:
+      long: ꤢꤩꤖꤢꤩꤎꤢꤨ꤬
+      short: ꤢꤩꤖꤢꤩꤎꤢꤨ꤬
+    Gal:
+      long: ꤊꤢ꤬ꤜꤢ꤬ꤒꤤ
+      short: ꤊꤢ꤬ꤜꤢ꤬ꤒꤤ
+    Heb:
+      long: ꤟꤤꤙꤚꤢꤨ
+      short: ꤟꤤꤙꤚꤢꤨ
+    Jas:
+      long: ꤡꤛꤢꤩ꤭ꤗꤢ꤬ꤎꤣ꤬
+      short: ꤡꤛꤢꤩ꤭ꤗꤢ꤬ꤎꤣ꤬
+    John:
+      long: ꤛꤥ꤭ꤟꤢ꤬
+      short: ꤛꤥ꤭ꤟꤢ꤬
+    Jude:
+      long: ꤛꤢꤨꤘꤢ꤬
+      short: ꤛꤢꤨꤘꤢ꤬
+    Luke:
+      long: ꤜꤢꤨꤊꤢ꤬
+      short: ꤜꤢꤨꤊꤢ꤬
+    Mark:
+      long: ꤗꤢ꤬ꤊꤢꤨ
+      short: ꤗꤢ꤬ꤊꤢꤨ
+    Matt:
+      long: ꤗꤢꤞꤢꤧ
+      short: ꤗꤢꤞꤢꤧ
+    Phil:
+      long: ꤖꤤꤜꤤ꤬ꤕꤤ꤬
+      short: ꤖꤤꤜꤤ꤬ꤕꤤ꤬
+    Phlm:
+      long: ꤖꤤꤜꤢ꤬ꤗꤥ꤬
+      short: ꤖꤤꤜꤢ꤬ꤗꤥ꤬
+    Rev:
+      long: ꤒꤟꤢꤧ꤬ꤘꤛꤢꤩꤜꤟꤌꤣ꤭ꤓꤛꤢ꤬
+      short: ꤒꤟꤢꤧ꤬ꤘꤛꤢꤩꤜꤟꤌꤣ꤭ꤓꤛꤢ꤬
+    Rom:
+      long: ꤚꤟꤥꤗꤢꤩ꤬
+      short: ꤚꤟꤥꤗꤢꤩ꤬
+    Titus:
+      long: ꤒꤤꤒꤢꤨ
+      short: ꤒꤤꤒꤢꤨ

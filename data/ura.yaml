@@ -1,0 +1,111 @@
+books:
+  - osis: Rev
+    texts:
+      - Afocarifisi
+      - Af
+  - osis: Matt
+    texts:
+      - Mateeocha Laenai
+      - Mt
+  - osis: Mark
+    texts:
+      - Marocohacha Laenai
+      - Mr
+  - osis: Luke
+    texts:
+      - Locasiicha Laenai
+      - Lc
+  - osis: 1John
+    texts:
+      - Joaancha Letoai Leinjiin
+      - 1Jn
+  - osis: 2John
+    texts:
+      - Joaancha Letoai Coroataja
+      - 2Jn
+  - osis: 3John
+    texts:
+      - Joaancha Letoai Nichataja
+      - 3Jn
+  - osis: John
+    texts:
+      - Joaancha Laenai
+      - Jn
+  - osis: Acts
+    texts:
+      - Ichanohichuru
+      - Ich
+  - osis: Rom
+    texts:
+      - Roma Nenacaauru Rai
+      - Ro
+  - osis: 1Cor
+    texts:
+      - Corintoo Nenacaauru Rai Leinjiin
+      - 1Co
+  - osis: 2Cor
+    texts:
+      - Corintoo Nenacaauru Rai Coroataja
+      - 2Co
+  - osis: Col
+    texts:
+      - Colosau Nenacaauru Rai
+      - Col
+  - osis: Gal
+    texts:
+      - Galasia Batane Nenacaauru Rai
+      - Ga
+  - osis: Eph
+    texts:
+      - Efesoo Nenacaauru Rai
+      - Ef
+  - osis: Phil
+    texts:
+      - Filipoo Nenacaauru Rai
+      - Fl
+  - osis: 1Thess
+    texts:
+      - Tesalonecau Nenacaauru Rai Leinjiin
+      - 1Te
+  - osis: 2Thess
+    texts:
+      - Tesalonecau Nenacaauru Rai Coroataja
+      - 2Te
+  - osis: 1Tim
+    texts:
+      - Timoteo Rai Leinjiin
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - Timoteo Rai Coroataja
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Tito Rai
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemoon Rai
+      - Fil
+  - osis: Heb
+    texts:
+      - Ebereeocuru Rai
+      - He
+  - osis: Jas
+    texts:
+      - Saantiaaocha Letoai
+      - Sat
+  - osis: 1Pet
+    texts:
+      - Fedoroacha Letoai Leinjiin
+      - 1Fd
+  - osis: 2Pet
+    texts:
+      - Fedoroacha Letoai Coroataja
+      - 2Fd
+  - osis: Jude
+    texts:
+      - Jodasiicha Letoai
+      - Jod
+translations:
+  - URA

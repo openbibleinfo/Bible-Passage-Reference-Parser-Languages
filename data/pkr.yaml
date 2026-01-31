@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - ബെ്ളിപട്ട കാര്യ
+  - osis: Matt
+    texts:
+      - മത്തായി
+  - osis: Mark
+    texts:
+      - മര്‌ക്കോസു
+  - osis: Luke
+    texts:
+      - ലൂക്കോസു
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - ഓഗന്നാന്
+  - osis: Acts
+    texts:
+      - അപ്പോസുത്തലാര്
+  - osis: Rom
+    texts:
+      - റോമഗാറാര്
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - കൊരിന്ത്യഗാറാര്
+  - osis: Col
+    texts:
+      - കൊലേസ്യഗാറാര്
+  - osis: Gal
+    texts:
+      - ഗലാത്ത്യഗാറാര്
+  - osis: Eph
+    texts:
+      - എപസോസുഗാറാര്
+  - osis: Phil
+    texts:
+      - പിലിപ്പ്യഗാറാര്
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - തെസെലോനിക്ക്യഗാറാര്
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - തിമിത്തോസു
+  - osis: Titus
+    texts:
+      - തീത്തോസു
+  - osis: Phlm
+    texts:
+      - പിലെമോനു
+  - osis: Heb
+    texts:
+      - എവുറായാര്
+  - osis: Jas
+    texts:
+      - ആക്കോവു
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - പത്ത്‌റോസു
+  - osis: Jude
+    texts:
+      - ജൂദാന്
+translations:
+  - PAL

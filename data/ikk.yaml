@@ -1,0 +1,288 @@
+variables:
+  first: &first
+    - Ndị
+  second: &second
+    - Ndị
+books:
+  - osis: Gen
+    texts:
+      - Jẹnẹsisi
+      - Jẹn
+  - osis: Exod
+    texts:
+      - Ọpụpụ
+      - Ọpụ
+  - osis: Lev
+    texts:
+      - Lẹvitikọsụ
+      - Lẹv
+  - osis: Num
+    texts:
+      - Ọgụngụn
+      - Ọgụ
+  - osis: Lam
+    texts:
+      - Ẹkwan
+      - Ẹkw
+  - osis: Rev
+    texts:
+      - Rẹvẹleshọnụ
+      - Rẹv
+  - osis: Deut
+    texts:
+      - Ditrọnọmi
+      - Dit
+  - osis: Josh
+    texts:
+      - Joshụa
+      - Jos
+  - osis: Judg
+    texts:
+      - Ndị Han Eṅẹn
+      - Eṅẹ
+  - osis: Ruth
+    texts:
+      - Rutu
+      - Rut
+  - osis: Isa
+    texts:
+      - Azaya
+      - Aza
+  - osis: 1Sam
+    texts:
+      - Samuẹlụ Nke Ibuzọ
+      - 1Sa
+  - osis: 2Sam
+    texts:
+      - Samuẹlụ Nke Ẹbụọ
+      - 2Sa
+  - osis: 1Kgs
+    texts:
+      - Ndị-nze Nke Ibuzọ
+      - 1Nz
+  - osis: 2Kgs
+    texts:
+      - Ndị-nze Nke Ẹbụọ
+      - 2Nz
+  - osis: 1Chr
+    texts:
+      - Ihiẹn Mẹni Nke Ibuzọ
+      - 1Hm
+  - osis: 2Chr
+    texts:
+      - Ihiẹn Mẹni Nke Ẹbụọ
+      - 2Hm
+  - osis: Ezra
+    texts:
+      - Ẹzra
+      - Ẹzr
+  - osis: Neh
+    texts:
+      - Nehemiah
+      - Neh
+  - osis: Esth
+    texts:
+      - Ẹsta
+      - Ẹst
+  - osis: Job
+    texts:
+      - Jobu
+      - Job
+  - osis: Prov
+    texts:
+      - Itẹn
+      - Itẹ
+  - osis: Eccl
+    texts:
+      - Ẹkịliziastisi
+      - Ẹkị
+  - osis: Song
+    texts:
+      - Ẹbụ Solomọnụ
+      - Ẹbs
+  - osis: Ps
+    texts:
+      - Ẹbụ-ọma
+      - Ẹbụ
+  - osis: Jer
+    texts:
+      - Jerimaya
+      - Jer
+  - osis: Ezek
+    texts:
+      - Izikẹlụ
+      - Izi
+  - osis: Dan
+    texts:
+      - Daniẹlụ
+      - Dan
+  - osis: Hos
+    texts:
+      - Hosia
+      - Hos
+  - osis: Joel
+    texts:
+      - Juwẹlụ
+      - Juẹ
+  - osis: Amos
+    texts:
+      - Emọsụ
+      - Emọ
+  - osis: Obad
+    texts:
+      - Obadaya
+      - Oba
+  - osis: Jonah
+    texts:
+      - Jona
+      - Jna
+  - osis: Mic
+    texts:
+      - Maịka
+      - Maị
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakọkụ
+      - Hab
+  - osis: Zeph
+    texts:
+      - Zẹfanaya
+      - Zẹf
+  - osis: Hag
+    texts:
+      - Hagaị
+      - Hag
+  - osis: Zech
+    texts:
+      - Zẹkaraya
+      - Zẹk
+  - osis: Mal
+    texts:
+      - Malakaị
+      - Mal
+  - osis: Matt
+    texts:
+      - Matiu
+      - Mat
+  - osis: Mark
+    texts:
+      - Makị
+      - Mak
+  - osis: Luke
+    texts:
+      - Luku
+      - Luk
+  - osis: 1John
+    texts:
+      - Jọnụ Ibuzọ
+      - 1Jn
+  - osis: 2John
+    texts:
+      - Jọnụ Nke Ẹbụọ
+      - 2Jn
+  - osis: 3John
+    texts:
+      - Jọnụ Nke Ẹtọ
+      - 3Jn
+  - osis: John
+    texts:
+      - Jọnụ
+      - Jọn
+  - osis: Acts
+    texts:
+      - Ọrụn Ndị-ozi
+      - Ọrụn
+  - osis: Rom
+    texts:
+      - Ndị Rom
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Kọrẹntị Ibuzọ
+  - osis: 1Cor
+    texts:
+      - 1Kọ
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kọrẹntị Nke Ẹbụọ
+  - osis: 2Cor
+    texts:
+      - 2Kọ
+  - osis: Col
+    texts:
+      - Ndị Kolosị
+      - Kol
+  - osis: Gal
+    texts:
+      - Ndị Galeshịa
+      - Gal
+  - osis: Eph
+    texts:
+      - Ndị Ẹfẹsọsụ
+      - Ẹfẹ
+  - osis: Phil
+    texts:
+      - Ndị Filipi
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Tẹsalonika Ibuzọ
+  - osis: 1Thess
+    texts:
+      - 1Tẹ
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tẹsalonika Nke Ẹbụọ
+  - osis: 2Thess
+    texts:
+      - 2Tẹ
+  - osis: 1Tim
+    texts:
+      - Timoti Ibuzọ
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - Timoti Nke Ẹbụọ
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Taịtọsụ
+      - Taị
+  - osis: Phlm
+    texts:
+      - Filemọnụ
+      - Fim
+  - osis: Heb
+    texts:
+      - Hibru
+      - Hib
+  - osis: Jas
+    texts:
+      - Jemisi
+      - Jem
+  - osis: 1Pet
+    texts:
+      - Pita Ibuzọ
+      - 1Pi
+  - osis: 2Pet
+    texts:
+      - Pita Nke Ẹbụọ
+      - 2Pi
+  - osis: Jude
+    texts:
+      - Judu
+      - Jud
+translations:
+  - IKKBI

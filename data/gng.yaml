@@ -1,0 +1,107 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Mikpiirm
+      - Mikp
+  - osis: Matt
+    texts:
+      - Matie
+      - Mat
+  - osis: Mark
+    texts:
+      - Mark
+      - Mar
+  - osis: Luke
+    texts:
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - San
+  - osis: Acts
+    texts:
+      - Itùon
+  - osis: Rom
+    texts:
+      - Erom yaab
+      - Erom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korɛnt yaab
+      - Kor
+  - osis: Col
+    texts:
+      - Kolɔs yaab
+      - Kol
+  - osis: Gal
+    texts:
+      - Galasi yaab
+      - Gal
+  - osis: Eph
+    texts:
+      - Efɛs yaab
+      - Efɛ
+  - osis: Phil
+    texts:
+      - Filip yaab
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonik yaab
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+      - Tim
+  - osis: Titus
+    texts:
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemɔn
+      - File
+  - osis: Heb
+    texts:
+      - Ebrembɛ
+      - Ebr
+  - osis: Jas
+    texts:
+      - Saak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piɛr
+      - Pi
+  - osis: Jude
+    texts:
+      - Sud
+translations:
+  - GNGNT

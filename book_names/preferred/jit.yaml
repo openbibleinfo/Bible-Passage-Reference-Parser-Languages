@@ -1,0 +1,137 @@
+default:
+  1Cor:
+    long: 1 Abhakoriito
+    short: 1 Bakor.
+  1John:
+    long: 1 Yoana
+    short: 1 Yo.
+  1Pet:
+    long: 1 Peetero
+    short: 1 Pet.
+  1Thess:
+    long: 1 Abhatesaroonike
+    short: 1 Bates.
+  1Tim:
+    long: 1 Timoteewo
+    short: 1 Tim.
+  2Cor:
+    long: 2 Abhakoriito
+    short: 2 Bakor.
+  2John:
+    long: 2 Yoana
+    short: 2 Yo.
+  2Pet:
+    long: 2 Peetero
+    short: 2 Pet.
+  2Thess:
+    long: 2 Abhatesaroonike
+    short: 2 Bates.
+  2Tim:
+    long: 2 Timoteewo
+    short: 2 Tim.
+  3John:
+    long: 3 Yoana
+    short: 3 Yo.
+  Acts:
+    long: Ebhikorwa bhya Jitumwa
+    short: Ebikorwa
+  Col:
+    long: Abhakorosaayi
+    short: Bakol.
+  Eph:
+    long: Abhayefeeso
+    short: Baef.
+  Gal:
+    long: Abhagaraatiya
+    short: Bagal.
+  Heb:
+    long: Abhayebhuraniya
+    short: Baeb.
+  Jas:
+    long: Yakobho
+    short: Yakob.
+  John:
+    long: Yoana
+    short: Yo.
+  Jude:
+    long: Yuda
+  Luke:
+    long: Luka
+    short: Lk.
+  Mark:
+    long: Maariko
+    short: Mk.
+  Matt:
+    long: Mataayo
+    short: Mt.
+  Phil:
+    long: Abhafiriipi
+    short: Bafil.
+  Phlm:
+    long: Filemoni
+    short: Filem.
+  Rev:
+    long: Obhusweruro
+  Rom:
+    long: Abharuumi
+    short: Barumi
+  Titus:
+    long: Tiito
+    short: Tito
+translations:
+  kij1960:
+    1Cor:
+      long: 1 Bakorinto
+    1Pet:
+      long: 1 Petero
+    1Thess:
+      long: 1 Batesalonika
+    1Tim:
+      long: 1 Timoteo
+    2Cor:
+      long: 2 Bakorinto
+    2Pet:
+      long: 2 Petero
+    2Thess:
+      long: 2 Batesalonika
+    2Tim:
+      long: 2 Timoteo
+    Acts:
+      long: Ebikorwa
+    Col:
+      long: Bakolosai
+    Eph:
+      long: BaEfeso
+    Gal:
+      long: BaGalatia
+    Heb:
+      long: Baeburania
+    Jas:
+      long: Yakobo
+    Mark:
+      long: Mariko
+    Matt:
+      long: Matayo
+    Phil:
+      long: BaFilipi
+    Rev:
+      long: Okuswerurirwa
+    Rom:
+      long: Barumi
+    Titus:
+      long: Tito
+  jit:
+    1John:
+      long: 1 Yowana
+    2John:
+      long: 2 Yowana
+    3John:
+      long: 3 Yowana
+    John:
+      long: Yowana
+    Jude:
+      long: Yuuda
+    Luke:
+      long: Ruuka
+    Phlm:
+      long: Firemooni

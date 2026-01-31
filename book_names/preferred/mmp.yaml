@@ -1,0 +1,91 @@
+default:
+  1Cor:
+    long: 1 Kolin
+    short: 1Ko
+  1John:
+    long: 1 Tion
+    short: 1Jn
+  1Pet:
+    long: 1 Bita
+    short: 1Bi
+  1Thess:
+    long: 1 Tesalonaika
+    short: 1Ts
+  1Tim:
+    long: 1 Timoti
+    short: 1Ti
+  2Cor:
+    long: 2 Kolin
+    short: 2Ko
+  2John:
+    long: 2 Tion
+    short: 2Jn
+  2Pet:
+    long: 2 Bita
+    short: 2Bi
+  2Thess:
+    long: 2 Tesalonaika
+    short: 2Ts
+  2Tim:
+    long: 2 Timoti
+    short: 2Ti
+  3John:
+    long: 3 Tion
+    short: 3Jn
+  Acts:
+    long: Ese Liou
+    short: Act
+  Col:
+    long: Kolosi
+    short: Kol
+  Eph:
+    long: Efeses
+    short: Efe
+  Exod:
+    long: Eikoko Eleaele
+    short: Exo
+  Gal:
+    long: Kalesia
+    short: Kal
+  Gen:
+    long: Tiosikale
+    short: Stt
+  Heb:
+    long: Hiblu
+    short: Hib
+  Jas:
+    long: Tiemes
+    short: Jem
+  John:
+    long: Tion
+    short: Jon
+  Jonah:
+    long: Tiona
+    short: Jna
+  Jude:
+    long: Tiut
+    short: Jud
+  Luke:
+    long: Luk
+    short: Luk
+  Mark:
+    long: Mak
+    short: Mak
+  Matt:
+    long: Matiu
+    short: Mat
+  Phil:
+    long: Filibai
+    short: Fil
+  Phlm:
+    long: Filemon
+    short: Flm
+  Rev:
+    long: Osowo Le
+    short: Rev
+  Rom:
+    long: Lom
+    short: Lom
+  Titus:
+    long: Taitus
+    short: Tai

@@ -1,0 +1,154 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Tavui Leo
+  - osis: Rev
+    texts:
+      - A Serelue Lawe Jon
+      - Lawe Jon
+  - osis: Deut
+    texts:
+      - Leo
+      - Lnm
+  - osis: Josh
+    texts:
+      - Jesua
+      - Jes
+  - osis: Judg
+    texts:
+      - Tangaloi Vagamwasoi
+      - Tva
+  - osis: Isa
+    texts:
+      - Asaea
+      - Tla
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - Sa
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Ratahigi
+      - Ra
+  - osis: Ezra
+    texts:
+      - Esra
+      - Esr
+  - osis: Ps
+    texts:
+      - Ahi
+  - osis: Prov
+    texts:
+      - Gaidumu
+      - Gns
+  - osis: Jer
+    texts:
+      - Jeremae
+      - Tls
+  - osis: Dan
+    texts:
+      - Daniel
+      - Bnd
+  - osis: Jonah
+    texts:
+      - Sona
+      - Tlj
+  - osis: Matt
+    texts:
+      - Matiu
+  - osis: Mark
+    texts:
+      - Mak
+  - osis: Luke
+    texts:
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jon
+  - osis: Acts
+    texts:
+      - Lalakogi
+  - osis: Rom
+    texts:
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Koren
+  - osis: Col
+    texts:
+      - Kolosi
+  - osis: Gal
+    texts:
+      - Kalesia
+  - osis: Eph
+    texts:
+      - Evesas
+  - osis: Phil
+    texts:
+      - Vilibae
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonaeka
+      - Tesa
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: Titus
+    texts:
+      - Taetas
+  - osis: Phlm
+    texts:
+      - Vilimon
+  - osis: Heb
+    texts:
+      - Hibru
+  - osis: Jas
+    texts:
+      - Jemis
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Bita
+  - osis: Jude
+    texts:
+      - Jud
+translations:
+  - HNT
+  - HAVOTS

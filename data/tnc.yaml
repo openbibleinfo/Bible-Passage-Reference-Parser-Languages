@@ -1,0 +1,42 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Ap
+  - osis: Mark
+    texts:
+      - Mr
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - Jn
+  - osis: Acts
+    texts:
+      - Hch
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Co
+  - osis: Phil
+    texts:
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Ts
+  - osis: Jas
+    texts:
+      - Stg
+translations:
+  - TNC

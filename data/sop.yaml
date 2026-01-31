@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - I
+  second: &second
+    - Ii
+  third: &third
+    - Iii
+books:
+  - osis: Rev
+    texts:
+      - Kibafumulwe
+  - osis: Matt
+    texts:
+      - Mateo
+  - osis: Mark
+    texts:
+      - Mako
+  - osis: Luke
+    texts:
+      - Luka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yoano
+  - osis: Acts
+    texts:
+      - Bikitshino
+  - osis: Rom
+    texts:
+      - Bena Loma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Bena Kodinda
+  - osis: Col
+    texts:
+      - Bena Kolose
+  - osis: Gal
+    texts:
+      - Bena Ngalatea
+  - osis: Eph
+    texts:
+      - Bena Efisesa
+  - osis: Phil
+    texts:
+      - Bena Fidihai
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Bena Tesalonika
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Temote
+  - osis: Titus
+    texts:
+      - Tetusa
+  - osis: Phlm
+    texts:
+      - Filemone
+  - osis: Heb
+    texts:
+      - Bena Bahebelu
+  - osis: Jas
+    texts:
+      - Yakoba
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petelo
+  - osis: Jude
+    texts:
+      - Yuda
+translations:
+  - NTLK52

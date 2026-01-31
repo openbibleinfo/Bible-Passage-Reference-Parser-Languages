@@ -10,6 +10,7 @@ This repo builds language-specific Bible reference parsing data from YAML langua
 - Build bundle: `bin/compile.sh`
 - Build language data: `node bin/build_lang.js eng` (writes `lang/eng.js` and `book_names/all/eng.yaml`)
 - Build specs from `book_names/all/`: `node bin/build_spec.js` (all) or `node bin/build_spec.js eng` (single)
+- Build all languages + specs + run tests: `node bin/build_all_langs.js` (use `-j <n>` to control workers)
 
 ## Key Inputs
 - `data/_defaults.yaml`: required defaults for `variables` and `options`.
@@ -27,3 +28,4 @@ This repo builds language-specific Bible reference parsing data from YAML langua
 - `lang/*.js`: generated language outputs (commit optional; regenerate as needed).
 - `book_names/all/*.yaml`: generated book-name lists (used to generate specs).
 - `test/*.spec.js`: generated localized-book specs from `book_names/all/`.
+- `book_names/preferred/*.yaml`: preferred display names (default + optional translation overrides).

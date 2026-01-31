@@ -1,0 +1,177 @@
+default:
+  1Chr:
+    long: Yudaya Mangɛe I
+    short: Ym I
+  1Cor:
+    long: Korinti I
+  1John:
+    long: 1 John
+  1Kgs:
+    long: Isirayila Mangɛe I
+    short: Man I
+  1Pet:
+    long: 1 Peter
+  1Sam:
+    long: Samuweli I
+    short: Sam I
+  1Thess:
+    long: 1 Thessalonians
+  1Tim:
+    long: 1 Timothy
+  2Chr:
+    long: Yudaya Mangɛe II
+    short: Ym II
+  2Cor:
+    long: 2 Corinthians
+  2John:
+    long: 2 John
+  2Kgs:
+    long: Isirayila Mangɛe II
+    short: Man II
+  2Pet:
+    long: 2 Peter
+  2Sam:
+    long: Samuweli II
+    short: Sam II
+  2Thess:
+    long: 2 Thessalonians
+  2Tim:
+    long: 2 Timothy
+  3John:
+    long: 3 John
+  Acts:
+    long: Taruxui
+  Amos:
+    long: Amos
+    short: Amo
+  Col:
+    long: Colossians
+  Dan:
+    long: Daniel (Hebrew)
+    short: Dan
+  Deut:
+    long: Masenyi Dɔnxɔɛ
+    short: Dɔn
+  Eccl:
+    long: Ecclesiastes
+    short: Kaw
+  Eph:
+    long: Ephesians
+  Esth:
+    long: Esita xa Taruxui
+    short: Est
+  Exod:
+    long: Yɛtɛ sɔtɔɛ
+    short: Yɛt
+  Ezek:
+    long: Ezekiel
+    short: Ese
+  Ezra:
+    long: Annabi Esidirasi
+    short: Esi
+  Gal:
+    long: Galatians
+  Gen:
+    long: Fe Fɔlɔ Fɔlɛ
+    short: Fɔl
+  Hab:
+    long: Habakkuk
+    short: Hab
+  Hag:
+    long: Haggai
+    short: Hag
+  Heb:
+    long: Hebrews
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Annabi Esayi
+    short: Esa
+  Jas:
+    long: James
+  Jer:
+    long: Annabi Yeremi
+    short: Yer
+  Job:
+    long: Job
+    short: Yub
+  Joel:
+    long: Joel
+    short: Yow
+  John:
+    long: Yaya
+  Jonah:
+    long: Yunusa
+    short: Yun
+  Josh:
+    long: Yosuwe
+    short: Yos
+  Jude:
+    long: Jude
+  Judg:
+    long: Kiitisae
+    short: Kit
+  Lam:
+    long: Lamentations
+    short: 2Ye
+  Lev:
+    long: Lewi Sɛrɛxɛdubɛ
+    short: Lew
+  Luke:
+    long: Luki
+  Mal:
+    long: Malachi
+    short: Mal
+  Mark:
+    long: Maraki
+  Matt:
+    long: Lingjili Matthew
+    short: Matthew
+  Mic:
+    long: Micah
+    short: MiK
+  Nah:
+    long: Nahum
+    short: Nax
+  Neh:
+    long: Annabi Nehemi
+    short: Neh
+  Num:
+    long: Kɔnti tife
+    short: Kɔn
+  Obad:
+    long: Obadiah
+    short: Aba
+  Phil:
+    long: Philippians
+  Phlm:
+    long: Philemon
+  Prov:
+    long: Proverbs
+    short: Taa
+  Ps:
+    long: Yabura Dawuda
+    short: Yab
+  Rev:
+    long: Revelation
+  Rom:
+    long: Romans
+  Ruth:
+    long: Ruti
+    short: Rut
+  Song:
+    long: Song of Songs
+    short: Suu
+  Titus:
+    long: Titus
+  Zech:
+    long: Zechariah
+    short: Sak
+  Zeph:
+    long: Zephaniah
+    short: Sof
+translations:
+  susu:
+    Matt:
+      long: Matiyu

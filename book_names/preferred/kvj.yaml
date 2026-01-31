@@ -1,0 +1,235 @@
+default:
+  1Chr:
+    long: 1 Wəshi nyi Mene Ka Meghe
+    short: 1 Wmkm
+  1Cor:
+    long: 1 Ka Korɛnte
+    short: 1 Kor
+  1John:
+    long: 1 Zhaŋe
+    short: 1 Zhŋ
+  1Kgs:
+    long: 1 Ka Meghea Kɛfi
+    short: 1 Kmk
+  1Macc:
+    long: 1 Makabɛ
+    short: 1 Ma
+  1Pet:
+    long: 1 Piyɛre
+    short: 1Pi
+  1Sam:
+    long: 1 Saməyɛl
+    short: 1 Sa
+  1Thess:
+    long: 1 Ka Tɛsalonike
+    short: 1 Tɛs
+  1Tim:
+    long: 1 Timotɛ
+    short: 1 Tim
+  2Chr:
+    long: 2 Wəshi nyi Mene Ka Meghe
+    short: 2 Wmkm
+  2Cor:
+    long: 2 Ka Korɛnte
+    short: 2 Kor
+  2John:
+    long: 2 Zhaŋe
+    short: 2 Zhŋ
+  2Kgs:
+    long: 2 Ka Meghea Kɛfi
+    short: 2 Kmk
+  2Macc:
+    long: 2 Makabɛ
+    short: 2 Ma
+  2Pet:
+    long: 2 Piyɛre
+    short: 2 Pi
+  2Sam:
+    long: 2 Saməyɛl
+    short: 2 Sa
+  2Thess:
+    long: 2 Tɛsalonike
+    short: 2 Tɛs
+  2Tim:
+    long: 2 Timotɛ
+    short: 2 Tim
+  3John:
+    long: 3 Zhaŋe
+    short: 3 Zhŋ
+  Acts:
+    long: Slene
+    short: Sln
+  Amos:
+    long: Amos
+    short: Amo
+  Bar:
+    long: Barək
+    short: Bar
+  Bel:
+    long: Bɛl ba'a Shishi nya wəba
+    short: Bɛl
+  Col:
+    long: Ka Kolose
+    short: Kol
+  Dan:
+    long: Daniyɛl
+    short: Dan
+  Deut:
+    long: Zhɛne Ghwelə yitea Wəshi Mahalegə
+    short: Zgwm
+  Eccl:
+    long: Nde zlape ghena
+    short: Nzlg
+  EpJer:
+    long: Palepa ta Zhɛrɛmi
+    short: Pzh
+  Eph:
+    long: Ka Ɛfɛze
+    short: Ɛfɛ
+  Esth:
+    long: Ɛstɛr
+    short: Ɛst
+  EsthGr:
+    long: Ɛstɛr Grɛk
+    short: Ɛsg
+  Exod:
+    long: Shave
+    short: Shv
+  Ezek:
+    long: Ɛzɛkiyɛl
+    short: Ɛzk
+  Ezra:
+    long: Ɛsdras
+    short: Ɛsd
+  Gal:
+    long: Ka Galate
+    short: Gal
+  Gen:
+    long: Gha ta Wəshi
+    short: Ghw
+  Hab:
+    long: Habakək
+    short: Hab
+  Hag:
+    long: Azhɛ
+    short: Azh
+  Heb:
+    long: Ka Ɛbrə
+    short: Ɛbr
+  Hos:
+    long: Ozɛ
+    short: Ozɛ
+  Isa:
+    long: Ɛzayi
+    short: Ɛza
+  Jas:
+    long: Zhake
+    short: Zhk
+  Jdt:
+    long: Zhədit
+    short: Zhdt
+  Jer:
+    long: Zhɛrɛmi
+    short: Zhr
+  Job:
+    long: Job
+    short: Job
+  Joel:
+    long: Zhowɛl
+    short: Zhw
+  John:
+    long: Zhaŋe
+    short: Zhŋ
+  Jonah:
+    long: Zhonas
+    short: Zhn
+  Josh:
+    long: Zhozəwɛ
+    short: Zhoz
+  Jude:
+    long: Zhəwde
+    short: Zhd
+  Judg:
+    long: Ka Meha ghwə
+    short: Kmg
+  Lam:
+    long: Yɛ Ŋgaɗe ghə
+    short: Yŋg
+  Lev:
+    long: Ka Lɛvi
+    short: Klv
+  Luke:
+    long: Ləwke
+    short: Lwk
+  Mal:
+    long: Malashi
+    short: Mal
+  Mark:
+    long: Mark
+    short: Mrk
+  Matt:
+    long: Matiye
+    short: Mat
+  Mic:
+    long: Mishɛ
+    short: Msh
+  Nah:
+    long: Nahəwm
+    short: Nah
+  Neh:
+    long: Nɛhɛmi
+    short: Nɛh
+  Num:
+    long: Ɓela
+    short: Ɓla
+  Obad:
+    long: Abdiyas
+    short: Abd
+  Phil:
+    long: Ka Filipe
+    short: Flp
+  Phlm:
+    long: Filɛmon
+    short: Fil
+  PrAzar:
+    long: Daniyɛl Grɛk
+    short: DNG
+  Prov:
+    long: Yɛ Ghena Ŋela
+    short: Ghŋ
+  Ps:
+    long: Cimə
+    short: Cim
+  Rev:
+    long: Ghena Kelɛŋə
+    short: Ghk
+  Rom:
+    long: Ka Rome
+    short: Rom
+  Ruth:
+    long: Rət
+    short: Rət
+  Sir:
+    long: Bɛn Sirak
+    short: Bns
+  Song:
+    long: Cimə nya zeɗe ma
+    short: Czm
+  Sus:
+    long: Səzane
+    short: Szn
+  Titus:
+    long: Tite
+    short: Tit
+  Tob:
+    long: Tobit
+    short: Tob
+  Wis:
+    long: Ntsehwele
+    short: Ntsh
+  Zech:
+    long: Zakari
+    short: Zak
+  Zeph:
+    long: Sofoni
+    short: Sof

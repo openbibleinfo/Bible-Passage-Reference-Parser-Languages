@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1​ทกวิ้ไน
+    short: 1ทกน.
+  1Cor:
+    long: 1​โคเรง
+    short: 1คร.
+  1John:
+    long: 1​โยฮาง
+    short: 1ยฮ.
+  1Kgs:
+    long: 1​กจุ้แฆว้
+    short: 1กจฆ.
+  1Pet:
+    long: 1เปโต
+    short: 1ปต.
+  1Sam:
+    long: 1ซามูเอง
+    short: 1ซมอ.
+  1Thess:
+    long: 1​เทซาโลนีเก
+    short: 1ทซล.
+  1Tim:
+    long: 1​ทีโมเท
+    short: 1ทมท.
+  2Chr:
+    long: 2ทกวิ้ไน
+    short: 2ทกน.
+  2Cor:
+    long: 2​โคเรง
+    short: 2คร.
+  2John:
+    long: 2​โยฮาง
+    short: 2ยฮ.
+  2Kgs:
+    long: 2​กจุ้แฆว้
+    short: 2กจฆ.
+  2Pet:
+    long: 2​เปโต
+    short: 2ปต.
+  2Sam:
+    long: 2​ซามูเอง
+    short: 2ซมอ.
+  2Thess:
+    long: 2​เทซาโลนีเก
+    short: 2ทซล.
+  2Tim:
+    long: 2​ทีโมเท
+    short: 2ทมท.
+  3John:
+    long: 3​โยฮาง
+    short: 3ยฮ.
+  Acts:
+    long: ท​แม้
+    short: ทม.
+  Amos:
+    long: อาโม
+    short: อม.
+  Col:
+    long: โคโลซี
+    short: คลซ.
+  Dan:
+    long: ดานีเอง
+    short: ดนอ.
+  Deut:
+    long: โล้​ล้างที๊ง​ทอางแม้เลา
+    short: ลทอ.
+  Eccl:
+    long: ทโกงซีมองแบ
+    short: ทกบ.
+  Eph:
+    long: เอเฟโซ
+    short: อฟซ.
+  Esth:
+    long: เอซเทอ
+    short: อซท.
+  Exod:
+    long: ทไจทางไฆวะ
+    short: ทจฆ.
+  Ezek:
+    long: เอเซเคียง
+    short: อซค.
+  Ezra:
+    long: เอซรา
+    short: อซร.
+  Gal:
+    long: กาลาเต
+    short: กลต.
+  Gen:
+    long: ทอคางไท้ะ
+    short: ทคท.
+  Hab:
+    long: ฮาบากุ้
+    short: ฮบก.
+  Hag:
+    long: ฮะไก
+    short: ฮก.
+  Heb:
+    long: ฮีบรู
+    short: ฮบ.
+  Hos:
+    long: โฮเชยา
+    short: ฮชย.
+  Isa:
+    long: อีซยา
+    short: อซย.
+  Jas:
+    long: ยาเก้า
+    short: ยก.
+  Jer:
+    long: เยเรมี
+    short: ยรม.
+  Job:
+    long: โยบา
+    short: ยบ.
+  Joel:
+    long: โยเอง
+    short: ยอ.
+  John:
+    long: โยฮาง
+    short: ยฮ.
+  Jonah:
+    long: โยนา
+    short: ยน.
+  Josh:
+    long: โยชูวา
+    short: ยชว.
+  Jude:
+    long: ยูด้ะ
+    short: ยด.
+  Judg:
+    long: โพล้งต้ะเซ๊งเท่อ
+    short: พตท.
+  Lam:
+    long: ท​ฌางล้างย้าล้าง
+    short: ทฌล.
+  Lev:
+    long: เลวี​อ​ไฌ่
+    short: ลวฌ.
+  Luke:
+    long: ลูกา
+    short: ลก.
+  Mal:
+    long: มาลาคี
+    short: มลค.
+  Mark:
+    long: มาร้ะกู
+    short: มรก.
+  Matt:
+    long: ม้ะทู
+    short: มท.
+  Mic:
+    long: มีคา
+    short: มค.
+  Nah:
+    long: นาฮูง
+    short: นฮ.
+  Neh:
+    long: เนฮะมี
+    short: นฮม.
+  Num:
+    long: เกล้​ท​ซ้ะวี่ง
+    short: กทซ.
+  Obad:
+    long: โอบาดี
+    short: อบด.
+  Phil:
+    long: ฟีลิ้ปี
+    short: ฟลป.
+  Phlm:
+    long: ฟีเลโมง
+    short: ฟลม.
+  Prov:
+    long: ทอางด้อง
+    short: ทอด.
+  Ps:
+    long: ทอางปฆ้า
+    short: ทอฆ.
+  Rev:
+    long: ท​เน​โพล​ทาง
+    short: ทนท.
+  Rom:
+    long: โรมา
+    short: รม.
+  Ruth:
+    long: น่าง​รุ้
+    short: นร.
+  Song:
+    long: ซาโลโมอแท๊
+    short: ซลม.
+  Titus:
+    long: ทีต๊ะ
+    short: ทต.
+  Zech:
+    long: เซคารียา
+    short: ซคย.
+  Zeph:
+    long: เซฟางยา
+    short: ซฟย.

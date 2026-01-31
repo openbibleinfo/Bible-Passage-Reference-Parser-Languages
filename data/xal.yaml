@@ -1,0 +1,129 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Эклц
+  - osis: Exod
+    texts:
+      - Нүүдл
+  - osis: Lev
+    texts:
+      - Левит
+  - osis: Num
+    texts:
+      - Әмтнә то авлһн
+  - osis: Rev
+    texts:
+      - Апокалипсис
+  - osis: Deut
+    texts:
+      - Давтх Закан
+  - osis: Ruth
+    texts:
+      - Рут
+  - osis: Job
+    texts:
+      - Йов
+  - osis: Ps
+    texts:
+      - Псалмс
+  - osis: Prov
+    texts:
+      - Цецн селвгүд
+  - osis: Eccl
+    texts:
+      - Цецн Ухана Багш
+  - osis: Song
+    texts:
+      - Соломона хамгин сән дун
+  - osis: Jonah
+    texts:
+      - Йона
+  - osis: Matt
+    texts:
+      - Матай
+  - osis: Mark
+    texts:
+      - Марк
+  - osis: Luke
+    texts:
+      - Лука
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Йохан
+  - osis: Acts
+    texts:
+      - Апостолмуд
+  - osis: Rom
+    texts:
+      - Риминхн
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Көринтинхн
+  - osis: Col
+    texts:
+      - Калосинхн
+  - osis: Gal
+    texts:
+      - Һалатьянхн
+  - osis: Eph
+    texts:
+      - Епесинхн
+  - osis: Phil
+    texts:
+      - Пилипинхн
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Тесалоникинхн
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Тимофей
+  - osis: Titus
+    texts:
+      - Тит
+  - osis: Phlm
+    texts:
+      - Пилемон
+  - osis: Heb
+    texts:
+      - Евреймүд
+  - osis: Jas
+    texts:
+      - Яков
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Пётр
+  - osis: Jude
+    texts:
+      - Йуда
+translations:
+  - XALBBL

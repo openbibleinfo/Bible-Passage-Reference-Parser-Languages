@@ -1,0 +1,96 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Ka ki ici wapatahakaniwitc Jean
+  - osis: Matt
+    texts:
+      - Matio
+  - osis: Mark
+    texts:
+      - Mark
+  - osis: Luke
+    texts:
+      - Luc
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jean
+  - osis: Acts
+    texts:
+      - Ka ki aitotiskeritci Cecoc otarotakana
+  - osis: Rom
+    texts:
+      - Rome iriniwok
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corinthe iriniwok
+  - osis: Col
+    texts:
+      - Colosse iriniwok
+  - osis: Gal
+    texts:
+      - Galatie iriniwok
+  - osis: Eph
+    texts:
+      - Éphèse iriniwok
+  - osis: Phil
+    texts:
+      - Pirip iriniwok
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Thessalonique irinowok
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thessalonique iriniwok
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothée
+  - osis: Titus
+    texts:
+      - Tite
+  - osis: Phlm
+    texts:
+      - Philémon
+  - osis: Heb
+    texts:
+      - Hébreux iriniwok
+  - osis: Jas
+    texts:
+      - Cak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pien
+  - osis: Jude
+    texts:
+      - Jude
+translations:
+  - ATMK

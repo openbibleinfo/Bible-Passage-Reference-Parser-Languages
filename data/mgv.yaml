@@ -1,0 +1,112 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Uyekulii
+      - Uyek
+  - osis: Matt
+    texts:
+      - Matei
+      - Mate
+  - osis: Mark
+    texts:
+      - Maluko
+      - Malu
+  - osis: Luke
+    texts:
+      - Luka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohana
+      - Yoha
+  - osis: Acts
+    texts:
+      - Mahengu
+      - Mahe
+  - osis: Rom
+    texts:
+      - Aloma
+      - Alo
+  - osis: 1Cor
+    texts:
+      - 1Akolintu
+      - 1Ako
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Akolintu
+      - Ako
+  - osis: Col
+    texts:
+      - Akolosai
+      - aKo
+  - osis: Gal
+    texts:
+      - Agalatia
+      - aGa
+  - osis: Eph
+    texts:
+      - Aepesu
+      - Aepe
+  - osis: Phil
+    texts:
+      - Apilipi
+      - Api
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Atesaloniki
+      - Ate
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+      - Timo
+  - osis: Titus
+    texts:
+      - Titu
+  - osis: Phlm
+    texts:
+      - Pilimini
+      - Pili
+  - osis: Heb
+    texts:
+      - Aebulania
+      - Aebu
+  - osis: Jas
+    texts:
+      - Yakobu
+      - Yako
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petili
+      - Peti
+  - osis: Jude
+    texts:
+      - Yuda
+translations:
+  - NTMBL2020

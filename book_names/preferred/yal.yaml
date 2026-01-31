@@ -1,0 +1,138 @@
+default:
+  1Chr:
+    long: Taruxune Singena
+  1Cor:
+    long: Kɔrɛnti Singena
+  1John:
+    long: Yoni Singena
+  1Kgs:
+    long: Mangane Singena
+  1Pet:
+    long: Piyɛri Singena
+  1Sam:
+    long: Samuyɛli Singena
+  1Thess:
+    long: Tesaloniki Singena
+  1Tim:
+    long: Timɔte Singena
+  2Chr:
+    long: Taruxune Firindena
+  2Cor:
+    long: Kɔrɛnti Firindena
+  2John:
+    long: Yoni Firindena
+  2Kgs:
+    long: Mangane Firindena
+  2Pet:
+    long: Piyɛri Firindena
+  2Sam:
+    long: Samuyɛli Firindena
+  2Thess:
+    long: Tesaloniki Firindena
+  2Tim:
+    long: Timɔte Firindena
+  3John:
+    long: Yoni Saxandena
+  Acts:
+    long: Kɛwanle
+  Amos:
+    long: Amosi
+  Col:
+    long: Kɔlɔsi Kaane
+  Dan:
+    long: Daniyɛli
+  Deut:
+    long: Sariyane
+  Eccl:
+    long: Karamɔxɔna
+  Eph:
+    long: Efɛsi Kaane
+  Esth:
+    long: Esita
+  Exod:
+    long: Xɔrɔyana
+  Ezek:
+    long: Esekiyɛli
+  Ezra:
+    long: Esirasi
+  Gal:
+    long: Galati Kaane
+  Gen:
+    long: Dunuɲa Fɔlɔna
+  Hab:
+    long: Xabakuki
+  Hag:
+    long: Xage
+  Heb:
+    long: Heburune
+  Hos:
+    long: Hose
+  Isa:
+    long: Esayi
+  Jas:
+    long: Yaki
+  Jer:
+    long: Yeremi
+  Job:
+    long: Yuba
+  Joel:
+    long: Yowɛli
+  John:
+    long: Yoni
+  Jonah:
+    long: Yunusa
+  Josh:
+    long: Yosuwe
+  Jude:
+    long: Yudi
+  Judg:
+    long: Kitisane
+  Lam:
+    long: Mawuga Xuine
+  Lev:
+    long: Saraxaraline
+  Luke:
+    long: Luka
+  Mal:
+    long: Malaki
+  Mark:
+    long: Maraka
+  Matt:
+    long: Matiyu
+    short: Mat
+  Mic:
+    long: Mike
+  Nah:
+    long: Nahun
+  Neh:
+    long: Neyemi
+  Num:
+    long: Yatɛne
+  Obad:
+    long: Abadi
+  Phil:
+    long: Filipi Kaane
+  Phlm:
+    long: Filemɔn
+  Prov:
+    long: Sandane
+  Ps:
+    long: Yaburina
+  Rev:
+    long: Lankɛnɛmayana
+  Rom:
+    long: Romi Kaane
+  Ruth:
+    long: Ruti
+  Song:
+    long: Marafanna Falane
+  Titus:
+    long: Tito
+  Zech:
+    long: Sakari
+  Zeph:
+    long: Sofoni
+translations:
+  yal:
+    Matt:
+      long: S. Matiu

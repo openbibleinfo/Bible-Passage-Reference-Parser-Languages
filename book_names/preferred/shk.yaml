@@ -1,0 +1,235 @@
+default:
+  1Chr:
+    long: 1 Kwøb
+    short: 1 Kwøb
+  1Cor:
+    long: 1 Kör
+    short: 1 Kör
+  1John:
+    long: 1 Jn
+    short: 1 Jn
+  1Kgs:
+    long: 1 Rɑ̈nhì
+    short: 1 Rɑ̈nhì
+  1Macc:
+    long: 1 Mɑk
+    short: 1 Mɑk
+  1Pet:
+    long: 1 Pït
+    short: 1 Pït
+  1Sam:
+    long: 1 Sɑm
+    short: 1 Sɑm
+  1Thess:
+    long: 1 Tes
+    short: 1 Tes
+  1Tim:
+    long: 1 Tim
+    short: 1 Tim
+  2Chr:
+    long: 2 Kwøb
+    short: 2 Kwøb
+  2Cor:
+    long: 2 Kör
+    short: 2 Kör
+  2John:
+    long: 2 Jn
+    short: 2 Jn
+  2Kgs:
+    long: 2 Rɑ̈nhì
+    short: 2 Rɑ̈nhì
+  2Macc:
+    long: 2 Mɑk
+    short: 2 Mɑk
+  2Pet:
+    long: 2 Pït
+    short: 2 Pït
+  2Sam:
+    long: 2 Sɑm
+    short: 2 Sɑm
+  2Thess:
+    long: 2 Tes
+    short: 2 Tes
+  2Tim:
+    long: 2 Tim
+    short: 2 Tim
+  3John:
+    long: 3 Jn
+    short: 3 Jn
+  Acts:
+    long: Gwøg
+    short: Gwøg
+  Amos:
+    long: Amos
+    short: Amos
+  Bar:
+    long: Bɑr
+    short: Bɑr
+  Bel:
+    long: Bel
+    short: Bel
+  Col:
+    long: Köl
+    short: Köl
+  Dan:
+    long: Dɑn
+    short: Dɑn
+  Deut:
+    long: Jølø
+    short: Jølø
+  Eccl:
+    long: Tïddø
+    short: Tïddø
+  EpJer:
+    long: Cïïjø
+    short: Cïïjø
+  Eph:
+    long: Epɑ
+    short: Epɑ
+  Esth:
+    long: Est
+    short: Est
+  EsthGr:
+    long: Est Gk Wïj
+    short: Est Gk Wïj
+  Exod:
+    long: Kedhø
+    short: Kedhø
+  Ezek:
+    long: Idhki
+    short: Idhki
+  Ezra:
+    long: Edhrɑ̀
+    short: Edhrɑ̀
+  Gal:
+    long: Gɑl
+    short: Gɑl
+  Gen:
+    long: Cɑ̈gø
+    short: Cɑ̈gø
+  Hab:
+    long: Abɑ
+    short: Abɑ
+  Hag:
+    long: Agɑ
+    short: Agɑ
+  Heb:
+    long: Ibru
+    short: Ibru
+  Hos:
+    long: Odhe
+    short: Odhe
+  Isa:
+    long: Icɑ
+    short: Icɑ
+  Jas:
+    long: Yɑg
+    short: Yɑg
+  Jdt:
+    long: Jdt
+    short: Jdt
+  Jer:
+    long: Jer
+    short: Jer
+  Job:
+    long: Ayub
+    short: Ayub
+  Joel:
+    long: Yöiil
+    short: Yöiil
+  John:
+    long: Jn
+    short: Jn
+  Jonah:
+    long: Yön
+    short: Yön
+  Josh:
+    long: Jöc
+    short: Jöc
+  Jude:
+    long: Yeudɑ̀
+    short: Yeudɑ̀
+  Judg:
+    long: Jɑgg
+    short: Jɑgg
+  Lam:
+    long: Ywøg
+    short: Ywøg
+  Lev:
+    long: Kwɑrr
+    short: Kwɑrr
+  Luke:
+    long: Lk
+    short: Lk
+  Mal:
+    long: Mɑl
+    short: Mɑl
+  Mark:
+    long: Mk
+    short: Mk
+  Matt:
+    long: Mt
+    short: Mt
+  Mic:
+    long: Miikɑ̀
+    short: Miikɑ̀
+  Nah:
+    long: Nɑum
+    short: Nɑum
+  Neh:
+    long: Nëm
+    short: Nëm
+  Num:
+    long: Kwɑn
+    short: Kwɑn
+  Obad:
+    long: Obɑ
+    short: Obɑ
+  Phil:
+    long: Pïl
+    short: Pïl
+  Phlm:
+    long: Pilm
+    short: Pilm
+  PrAzar:
+    long: KA/WÁ
+    short: KA/WÁ
+  Prov:
+    long: Gɑ́j
+    short: Gɑ́j
+  Ps:
+    long: Wör
+    short: Wör
+  Rev:
+    long: Nyudhø
+    short: Nyudhø
+  Rom:
+    long: Röm
+    short: Röm
+  Ruth:
+    long: Ruth
+    short: Ruth
+  Sir:
+    long: Sir
+    short: Sir
+  Song:
+    long: Wörr-ɑ Døngø
+    short: Wd
+  Sus:
+    long: Sus
+    short: Sus
+  Titus:
+    long: Tït
+    short: Tït
+  Tob:
+    long: Töb
+    short: Töb
+  Wis:
+    long: Pelø
+    short: Pelø
+  Zech:
+    long: Dhek
+    short: Dhek
+  Zeph:
+    long: Dhep
+    short: Dhep

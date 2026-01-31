@@ -1,0 +1,485 @@
+default:
+  1Chr:
+    long: اول تواریخ
+    short: ۱تواریخ
+  1Cor:
+    long: اول قرنتیان
+    short: ۱قرنتیان
+  1John:
+    long: اول یوحنا
+    short: ۱یوحنا
+  1Kgs:
+    long: اول پادشاهان
+    short: ۱پادشاهان
+  1Pet:
+    long: اول پطرس
+    short: ۱پطرس
+  1Sam:
+    long: اول سموئیل
+    short: ۱سموئیل
+  1Thess:
+    long: اول تسالونیکیان
+    short: ۱تسالونیکیان
+  1Tim:
+    long: ۱تیموتائوس
+    short: ۱تیموتائوس
+  2Chr:
+    long: دوم تواریخ
+    short: ۲تواریخ
+  2Cor:
+    long: دوم قرنتیان
+    short: ۲قرنتیان
+  2John:
+    long: دوم یوحنا
+    short: ۲یوحنا
+  2Kgs:
+    long: دوم پادشاهان
+    short: ۲پادشاهان
+  2Pet:
+    long: دوم پطرس
+    short: ۲پطرس
+  2Sam:
+    long: دوم سموئیل
+    short: ۲سموئیل
+  2Thess:
+    long: دوم تسالونیکیان
+    short: ۲تسالونیکیان
+  2Tim:
+    long: ۲تیموتائوس
+    short: ۲تیموتائوس
+  3John:
+    long: سوم یوحنا
+    short: ۳یوحنا
+  Acts:
+    long: اعمال
+    short: اعمال
+  Amos:
+    long: عاموس
+    short: عاموس
+  Col:
+    long: کولسیان
+    short: کولسیان
+  Dan:
+    long: دانیال
+    short: دانیال
+  Deut:
+    long: تثنیه
+    short: تثنیه
+  Eccl:
+    long: جامعه
+    short: جامعه
+  Eph:
+    long: افسسیان
+    short: افسسیان
+  Esth:
+    long: استر
+    short: استر
+  Exod:
+    long: خروج
+    short: خروج
+  Ezek:
+    long: حزقیال
+    short: حزقیال
+  Ezra:
+    long: عِزرا
+    short: عِزرا
+  Gal:
+    long: غلاطیان
+    short: غلاطیان
+  Gen:
+    long: پیدایش
+    short: پیدایش
+  Hab:
+    long: حبقوق
+    short: حبقوق
+  Hag:
+    long: حَجّای
+    short: حجی
+  Heb:
+    long: عبرانیان
+    short: عبرانیان
+  Hos:
+    long: هوشع
+    short: هوشع
+  Isa:
+    long: اشعیا
+    short: اشعیا
+  Jas:
+    long: یعقوب
+    short: یعقوب
+  Jer:
+    long: ارمیا
+    short: ارمیا
+  Job:
+    long: ایوب
+    short: ایوب
+  Joel:
+    long: یوئیل
+    short: یوئیل
+  John:
+    long: یوحنا
+    short: یوحنا
+  Jonah:
+    long: یونس
+    short: یونس
+  Josh:
+    long: یوشع
+    short: یوشع
+  Jude:
+    long: یهودا
+    short: یهودا
+  Judg:
+    long: داوران
+    short: داوران
+  Lam:
+    long: مراثی
+    short: مراثی
+  Lev:
+    long: لاویان
+    short: لاویان
+  Luke:
+    long: لوقا
+    short: لوقا
+  Mal:
+    long: ملاکی
+    short: ملاکی
+  Mark:
+    long: مرقس
+    short: مرقس
+  Matt:
+    long: متّی
+    short: متی
+  Mic:
+    long: میکاه
+    short: میکاه
+  Nah:
+    long: ناحوم
+    short: ناحوم
+  Neh:
+    long: نحمیا
+    short: نحمیا
+  Num:
+    long: اعداد
+    short: اعداد
+  Obad:
+    long: عوبدیا
+    short: عوبدیا
+  Phil:
+    long: فیلیپیان
+    short: فیلیپیان
+  Phlm:
+    long: فِلیمُون
+    short: فیلیمون
+  Prov:
+    long: امثال
+    short: امثال
+  Ps:
+    long: مزامیر
+    short: مزمور
+  Rev:
+    long: مکاشفه
+    short: مکاشفه
+  Rom:
+    long: رومیان
+    short: رومیان
+  Ruth:
+    long: روت
+    short: روت
+  Song:
+    long: غزل غزلها
+    short: غزل غزل‌ها
+  Titus:
+    long: تیتوس
+    short: تیتوس
+  Zech:
+    long: زکریا
+    short: زکریا
+  Zeph:
+    long: صَفَنیا
+    short: صفنیا
+translations:
+  tpvr:
+    1Chr:
+      long: اوّل تواریخ
+      short: اوّل تواریخ
+    1Cor:
+      long: اوّل قرنتیان
+      short: اوّل قرنتیان
+    1John:
+      long: اوّل یوحنا
+      short: اوّل یوحنا
+    1Kgs:
+      long: اوّل پادشاهان
+      short: اوّل پادشاهان
+    1Pet:
+      long: اوّل پطرس
+      short: اوّل پطرس
+    1Sam:
+      long: اوّل سموئیل
+      short: اوّل سموئیل
+    1Thess:
+      long: اوّل تسالونیکیان
+      short: اوّل تسالونیکیان
+    1Tim:
+      long: اوّل تیموتاؤس
+      short: اوّل تیموتاؤس
+    2Chr:
+      long: دوّم تواریخ
+      short: دوّم تواریخ
+    2Cor:
+      long: دوّم قرنتیان
+      short: دوّم قرنتیان
+    2John:
+      long: دوّم یوحنا
+      short: دوّم یوحنا
+    2Kgs:
+      long: دوّم پادشاهان
+      short: دوّم پادشاهان
+    2Pet:
+      long: دوّم پطرس
+      short: دوّم پطرس
+    2Sam:
+      long: دوّم سموئیل
+      short: دوّم سموئیل
+    2Thess:
+      long: دوّم تسالونیکیان
+      short: دوّم تسالونیکیان
+    2Tim:
+      long: دوّم تیموتاؤس
+      short: دوّم تیموتاؤس
+    3John:
+      long: سوّم یوحنا
+      short: سوّم یوحنا
+    Acts:
+      long: کارهای رسولان
+      short: کارهای رسولان
+    Amos:
+      long: عاموس نبی
+      short: عاموس نبی
+    Eph:
+      long: اَفِسُسیان
+      short: اَفِسُسیان
+    Hag:
+      short: حَجّای
+    Isa:
+      long: اِشعیا
+      short: اِشعیا
+    Jer:
+      long: اِرمیا
+      short: اِرمیا
+    Job:
+      long: ایّوب
+      short: ایّوب
+    Lam:
+      long: سوگ‌نامه
+      short: سوگ‌نامه
+    Matt:
+      short: متّی
+    Neh:
+      long: نِحِمیا
+      short: نِحِمیا
+    Obad:
+      long: عوبَدیا
+      short: عوبَدیا
+    Phlm:
+      short: فِلیمُون
+    Ps:
+      long: مزمور
+    Rev:
+      long: مکاشفۀ یوحنا
+      short: مکاشفۀ یوحنا
+    Song:
+      long: غزل غزل‌ها
+    Titus:
+      long: تیطُس
+      short: تیطُس
+    Zech:
+      long: زَکریا
+      short: زَکریا
+    Zeph:
+      short: صَفَنیا
+  pov-fas:
+    1Chr:
+      long: ۱تواریخ
+    1Cor:
+      long: ۱قرنتیان
+    1John:
+      long: ۱یوحنا
+    1Kgs:
+      long: ۱پادشاهان
+    1Pet:
+      long: ۱پطرس
+    1Sam:
+      long: ۱سموئیل
+    1Thess:
+      long: ۱تسالونیکان
+      short: ۱تسالونیکان
+    2Chr:
+      long: ۲تواریخ
+    2Cor:
+      long: ۲قرنتیان
+    2John:
+      long: ۲یوحنا
+    2Kgs:
+      long: ۲پادشاهان
+    2Pet:
+      long: ۲پطرس
+    2Sam:
+      long: ۲سموئیل
+    2Thess:
+      long: ۲تسالونیکیان
+    3John:
+      long: ۳یوحنا
+    Esth:
+      long: استِر
+      short: استِر
+    Ezra:
+      long: عزرا
+      short: عزرا
+    Hag:
+      long: حجی
+    Matt:
+      long: متی
+    Mic:
+      long: میکا
+      short: میکا
+    Phil:
+      long: فلیپیان
+      short: فلیپیان
+    Phlm:
+      long: فیلیمون
+    Ps:
+      short: مزامیر
+    Song:
+      long: غزل‌غزل‌ها
+      short: غزل‌غزل‌ها
+    Titus:
+      long: تیطس
+      short: تیطس
+    Zeph:
+      long: صفنیا
+  nmv:
+    1Chr:
+      long: ۱تواریخ
+    1Cor:
+      long: ۱قرنتیان
+    1John:
+      long: ۱یوحنا
+    1Kgs:
+      long: ۱پادشاهان
+    1Pet:
+      long: ۱پطرس
+    1Sam:
+      long: ۱سموئیل
+    1Thess:
+      long: ۱تسالونیکیان
+    2Chr:
+      long: ۲تواریخ
+    2Cor:
+      long: ۲قرنتیان
+    2John:
+      long: ۲یوحنا
+    2Kgs:
+      long: ۲پادشاهان
+    2Pet:
+      long: ۲پطرس
+    2Sam:
+      long: ۲سموئیل
+    2Thess:
+      long: ۲تسالونیکیان
+    3John:
+      long: ۳یوحنا
+    Col:
+      long: کولُسیان
+      short: کولُسیان
+    Eph:
+      long: اَفِسسیان
+      short: اَفِسسیان
+    Esth:
+      long: اِستر
+      short: اِستر
+    Ezek:
+      long: حِزقیال
+      short: حِزقیال
+    Hab:
+      long: حَبَقوق
+      short: حَبَقوق
+    Hag:
+      long: حَجَّی
+      short: حَجَّی
+    Isa:
+      long: اِشعیا
+      short: اِشعیا
+    Jer:
+      long: اِرمیا
+      short: اِرمیا
+    Lam:
+      long: مراثی اِرمیا
+      short: مراثی اِرمیا
+    Mal:
+      long: مَلاکی
+      short: مَلاکی
+    Mark:
+      long: مَرقُس
+      short: مَرقُس
+    Matt:
+      long: مَتّی
+      short: مَتّی
+    Neh:
+      long: نِحِمیا
+      short: نِحِمیا
+    Obad:
+      long: عوبَدیا
+      short: عوبَدیا
+    Phlm:
+      long: فیلیمون
+    Ps:
+      long: مزمور
+    Song:
+      long: غزل غزل‌ها
+    Zeph:
+      short: صَفَنیا
+  tpv:
+    1Tim:
+      long: اول تیموتاؤس
+    2Tim:
+      long: دوم تیموتاؤس
+    Acts:
+      long: کارهای رسولان
+    Ezra:
+      long: عزرا
+    Job:
+      long: ایّوب
+    Lam:
+      long: سوگنامه
+    Mic:
+      long: میکا
+    Rev:
+      long: مکاشفهٔ یوحنا
+    Titus:
+      long: تیطُس
+  pcb:
+    1Tim:
+      long: اول تیموتائوس
+    2Tim:
+      long: دوم تیموتائوس
+    Acts:
+      long: اعمال رسولان
+    Ezek:
+      long: حِزِقیال
+      short: حِزِقیال
+    Hag:
+      long: حَجَّی
+      short: حَجَّی
+    Mark:
+      long: مَرقُس
+      short: مَرقُس
+    Matt:
+      long: متی
+    Phlm:
+      long: فلیمون
+      short: فلیمون
+    Song:
+      short: غزلها
+    Zeph:
+      long: صفنیا

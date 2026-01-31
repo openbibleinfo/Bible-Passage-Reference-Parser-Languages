@@ -1,0 +1,272 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - 1 มเซ.
+      - 1 โมเซ
+  - osis: Exod
+    texts:
+      - 2 มเซ.
+      - 2 โมเซ
+  - osis: Lev
+    texts:
+      - 3 มเซ.
+      - 3 โมเซ
+  - osis: Num
+    texts:
+      - 4 มเซ.
+      - 4 โมเซ
+  - osis: Lam
+    texts:
+      - รซอมเยือม
+      - รซย.
+  - osis: Rev
+    texts:
+      - รโฮงะ
+      - รฮ.
+  - osis: Deut
+    texts:
+      - 5 มเซ.
+      - 5 โมเซ
+  - osis: Josh
+    texts:
+      - โยชูวา
+      - ยชว.
+  - osis: Judg
+    texts:
+      - ปรเตีฮรตุม
+      - ปรต.
+  - osis: Ruth
+    texts:
+      - รูต.
+      - รูต
+  - osis: Isa
+    texts:
+      - อิซยา
+      - อซย.
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - ซามูเอน
+      - ซมอ.
+  - osis: 1Chr
+    texts:
+      - 3 กซต.
+      - 3 กซัต
+  - osis: 2Chr
+    texts:
+      - 4 กซต.
+      - 4 กซัต
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - กซต.
+      - กซัต
+  - osis: Ezra
+    texts:
+      - เอซรา
+      - อซร.
+  - osis: Neh
+    texts:
+      - เนฮะมี
+      - นฮม.
+  - osis: Esth
+    texts:
+      - เอซเทอ
+      - อซท.
+  - osis: Job
+    texts:
+      - โยป.
+      - โยป
+  - osis: Ps
+    texts:
+      - ลืลาว
+      - ลลว.
+  - osis: Prov
+    texts:
+      - ซตอกรเง่อึม
+      - ซตง.
+  - osis: Eccl
+    texts:
+      - คูไมจพันญา
+      - คมญ.
+  - osis: Song
+    texts:
+      - รซอมเชียซาโลมอน
+      - ซลม.
+  - osis: Jer
+    texts:
+      - เยเรมี
+      - ยรม.
+  - osis: Ezek
+    texts:
+      - เอเซเคียน
+      - อซค.
+  - osis: Dan
+    texts:
+      - ด่านีเอน
+      - ดนอ.
+  - osis: Hos
+    texts:
+      - โฮเชยา
+      - ฮชย.
+  - osis: Joel
+    texts:
+      - โยเอน
+      - ยอน.
+  - osis: Amos
+    texts:
+      - อาโมต
+      - อมต.
+  - osis: Obad
+    texts:
+      - โอบ่าดี่
+      - อบด.
+  - osis: Jonah
+    texts:
+      - ยนา.
+      - โยนา
+  - osis: Mic
+    texts:
+      - มคา.
+      - มีคา
+  - osis: Nah
+    texts:
+      - นาฮุม
+      - นาฮ.
+  - osis: Hab
+    texts:
+      - ฮาบ่ากุก
+      - ฮบก.
+  - osis: Zeph
+    texts:
+      - เซฟันยา
+      - ซฟย.
+  - osis: Hag
+    texts:
+      - ฮักไก
+      - ฮกก.
+  - osis: Zech
+    texts:
+      - เซคาริยา
+      - ซคย.
+  - osis: Mal
+    texts:
+      - มาลาคี
+      - มลค.
+  - osis: Matt
+    texts:
+      - มัตไท
+      - มท.
+  - osis: Mark
+    texts:
+      - มาระโก
+      - มก.
+  - osis: Luke
+    texts:
+      - ลูกา
+      - ลก.
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - โยฮัน
+      - ยน.
+  - osis: John
+    texts:
+      - โยฮัน
+      - ยฮ.
+  - osis: Acts
+    texts:
+      - กันไกญกอ
+      - กก.
+  - osis: Rom
+    texts:
+      - รม.
+      - โรม
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - โคริน
+      - คร.
+  - osis: Col
+    texts:
+      - โคโลซี
+      - คซ.
+  - osis: Gal
+    texts:
+      - กะลาเทีย
+      - กท.
+  - osis: Eph
+    texts:
+      - เอเฟโซ
+      - อฟ.
+  - osis: Phil
+    texts:
+      - ฟีลิปปี
+      - ฟป.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - เทซะโลนิกา
+      - ทก.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - ทิโมที
+      - ทท.
+  - osis: Titus
+    texts:
+      - ติโต
+      - ตต.
+  - osis: Phlm
+    texts:
+      - ฟีเลโมน
+      - ฟม.
+  - osis: Heb
+    texts:
+      - ฮีบรู
+      - ฮบ.
+  - osis: Jas
+    texts:
+      - ยาโคโบ่
+      - ยบ.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - เปโตร
+      - ปต.
+  - osis: Jude
+    texts:
+      - ยูด่า
+      - ยด.
+translations:
+  - WLB

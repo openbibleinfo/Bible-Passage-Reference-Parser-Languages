@@ -1,0 +1,125 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Sbulesa
+      - Zb
+  - osis: Ps
+    texts:
+      - Psalteri
+      - Ps
+  - osis: Matt
+    texts:
+      - Mattheut
+      - Mateu
+      - Mt
+  - osis: Mark
+    texts:
+      - Markut
+      - Marku
+      - Mk
+  - osis: Luke
+    texts:
+      - Lukësë
+      - Luka
+      - Lk
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Gjionn
+      - Gjn
+  - osis: John
+    texts:
+      - Gjionnit
+      - Gjn
+  - osis: Acts
+    texts:
+      - Punët’ e Apostujvet
+      - Vap
+  - osis: Rom
+    texts:
+      - Romanët
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinthianët
+      - Kor
+  - osis: Col
+    texts:
+      - Kolossianët
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatianët
+      - Gal
+  - osis: Eph
+    texts:
+      - Efesianët
+      - Ef
+  - osis: Phil
+    texts:
+      - Filippianët
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thessalonikanët
+      - Sel
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothenë
+      - Tim
+  - osis: Titus
+    texts:
+      - Titonë
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemonë
+      - Flm
+  - osis: Heb
+    texts:
+      - Hebrejt
+      - Heb
+  - osis: Jas
+    texts:
+      - Iakobit
+      - Jak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pietër
+      - Pjt
+  - osis: Jude
+    texts:
+      - Judë
+      - Jud
+translations:
+  - ALGKK72
+  - ALGNT
+  - ALGEPS1872

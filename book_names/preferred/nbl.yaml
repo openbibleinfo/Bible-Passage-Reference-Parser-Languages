@@ -1,0 +1,160 @@
+default:
+  1Chr:
+    long: 1 Iinkronike
+    short: ku-1 iinKronike
+  1Cor:
+    long: 1 Kwebekorinte
+    short: ku-1 KwebeKorinte
+  1John:
+    long: 1 Ujwanisi
+  1Kgs:
+    long: 1 Amakhosi
+    short: ku-1 amaKhosi|naku-1 amaKhosi
+  1Pet:
+    long: 1 Upitrosi
+  1Sam:
+    long: 1 Usamyela
+    short: ku-1 Samyela|naku-1 Samyela
+  1Thess:
+    long: 1 Kwebethesalonika
+  1Tim:
+    long: 1 Uthimothi
+  2Chr:
+    long: 2 Iinkronike
+    short: ku-2 iinKronike
+  2Cor:
+    long: 2 Kwebekorinte
+  2John:
+    long: 2 Ujwanisi
+  2Kgs:
+    long: 2 Amakhosi
+    short: ku-2 amaKhosi|naku-2 amaKhosi
+  2Pet:
+    long: 2 Upitrosi
+  2Sam:
+    long: 2 Usamyela
+    short: ku-2 Samyela|naku-2 Samyela
+  2Thess:
+    long: 2 Kwebethesalonika
+  2Tim:
+    long: 2 Uthimothi
+  3John:
+    long: 3 Ujwanisi
+  Acts:
+    long: Izenzo Zabapostoli
+    short: neZenzo
+  Amos:
+    long: U-Amosi
+  Col:
+    long: Kwebekolose
+  Dan:
+    long: Udanyela
+  Deut:
+    long: Uduteronomi
+    short: kuDuteronomi|nakuDuteronomi
+  Eccl:
+    long: Umtjhumayeli
+  Eph:
+    long: Kwebe-efesu
+  Esth:
+    long: U-Esta
+    short: ku-Esta
+  Exod:
+    long: U-Eksodusi
+    short: ku-Eksodusi
+  Ezek:
+    long: Uhezekiyeli
+  Ezra:
+    long: U-Ezra
+  Gal:
+    long: Kwebegalatiya
+  Gen:
+    long: Ugenesisi
+    short: kuGenesisi
+  Hab:
+    long: Urhabakhukhu
+  Hag:
+    long: uHagayi
+  Heb:
+    long: AmaHebheru
+    short: KumaHebheru
+  Hos:
+    long: Uhosiya
+    short: kuHosiya
+  Isa:
+    long: U-Isaya
+  Jas:
+    long: Ujakopo
+  Jer:
+    long: Ujoromiya
+    short: kuJoromiya
+  Job:
+    long: Ujobho
+    short: kuJobho|nakuJobho
+  Joel:
+    long: Ujuweli
+  John:
+    long: Ujwanisi
+  Jonah:
+    long: uJona
+  Josh:
+    long: Ujotjhuwa
+    short: kuJotjhuwa|nezikuJotjhuwa
+  Jude:
+    long: uJuda
+  Judg:
+    long: Abakhokheli
+    short: abaKhokheli|nakubaKhokheli
+  Lam:
+    long: IsiLilo
+  Lev:
+    long: Ulevitikusi
+    short: kuLevitikusi|nakuLevitikusi
+  Luke:
+    long: Ulukasi
+    short: kuLuka
+  Mal:
+    long: uMalaki
+  Mark:
+    long: Umarkosi
+  Matt:
+    long: Umatewu
+    short: kuMatewu
+  Mic:
+    long: Umikha
+    short: kuMikha
+  Nah:
+    long: Unarhume
+  Neh:
+    long: Unerhemiya
+  Num:
+    long: Unumeri
+    short: kuNumerina|kuNumeri
+  Obad:
+    long: U-Obadiya
+  Phil:
+    long: Kwebefilipi
+  Phlm:
+    long: Ufilimoni
+  Prov:
+    long: IzAga
+    short: IzAga
+  Ps:
+    long: Amarhubo
+    short: iRhubo|iRhubo|aseRhubeni|bekuliRhubo
+  Rev:
+    long: IsAmbulo
+  Rom:
+    long: Kweberoma
+  Ruth:
+    long: uRute
+    short: kuRute
+  Song:
+    long: Ingoma Yeengoma
+  Titus:
+    long: Utitosi
+  Zech:
+    long: Uzakariya
+    short: kuZakariya
+  Zeph:
+    long: uZefaniya

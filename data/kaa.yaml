@@ -1,0 +1,447 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Jaratılıs
+      - Жаратылыс
+      - Jar
+      - Жар
+  - osis: Exod
+    texts:
+      - Shıǵıw
+      - Шығыў
+      - Shıǵ
+      - Шығ
+  - osis: Lev
+    texts:
+      - Lebiyliler
+      - Лебийлилер
+      - Leb
+      - Леб
+  - osis: Num
+    texts:
+      - Sanlar
+      - Санлар
+      - San
+      - Сан
+  - osis: Lam
+    texts:
+      - Joqlaw
+      - Жоқлаў
+      - Joq
+      - Жоқ
+  - osis: Rev
+    texts:
+      - Ayan
+      - Аян
+  - osis: Deut
+    texts:
+      - Nızamnıń qaytalanıwı
+      - Нызамның қайталаныўы
+      - Nzm
+      - Нзм
+  - osis: Josh
+    texts:
+      - Eshua
+      - Eshu
+      - Ешуа
+      - Ешу
+  - osis: Judg
+    texts:
+      - Biyler
+      - Бийлер
+      - Biy
+      - Бий
+  - osis: Ruth
+    texts:
+      - Rut
+      - Рут
+  - osis: Isa
+    texts:
+      - Iyshaya
+      - Ийшая
+      - Iysh
+      - Ийш
+  - osis: 1Sam
+    texts:
+      - 1Pat
+      - 1Пат
+  - osis: 2Sam
+    texts:
+      - 2Pat
+      - 2Пат
+  - osis: 1Kgs
+    texts:
+      - 3 Patshalar
+      - 3 Патшалар
+      - 3Pat
+      - 3Пат
+  - osis: 2Kgs
+    texts:
+      - 4 Patshalar
+      - 4 Патшалар
+      - 4Pat
+      - 4Пат
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Patshalar
+      - Патшалар
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Jılnama
+      - Жылнама
+  - osis: 1Chr
+    texts:
+      - 1Jln
+      - 1Жлн
+  - osis: 2Chr
+    texts:
+      - 2Jln
+      - 2Жлн
+  - osis: Ezra
+    texts:
+      - Ezra
+      - Эзра
+      - Ezr
+      - Эзр
+  - osis: Neh
+    texts:
+      - Nexemiya
+      - Нехемия
+      - Nxm
+      - Нхм
+  - osis: Esth
+    texts:
+      - Ester
+      - Эстер
+      - Est
+      - Эст
+  - osis: Job
+    texts:
+      - Ayup
+      - Аюп
+  - osis: Ps
+    texts:
+      - Zabur
+      - Забур
+      - Zab
+      - Заб
+  - osis: Prov
+    texts:
+      - Hikmetler
+      - Ҳикметлер
+      - Hkm
+      - Ҳкм
+  - osis: Eccl
+    texts:
+      - Wazshı
+      - Ўазшы
+      - Waz
+      - Ўаз
+  - osis: Song
+    texts:
+      - Qosıqlar qosıǵı
+      - Қосықлар қосығы
+      - Qsq
+      - Қсқ
+  - osis: Jer
+    texts:
+      - Eremiya
+      - Еремия
+      - Erm
+      - Ерм
+  - osis: Ezek
+    texts:
+      - Ezekiel
+      - Езекиел
+      - Ezk
+      - Езк
+  - osis: Dan
+    texts:
+      - Daniel
+      - Даниел
+      - Dan
+      - Дан
+  - osis: Hos
+    texts:
+      - Hoshea
+      - Ҳошеа
+      - Hosh
+      - Ҳош
+  - osis: Joel
+    texts:
+      - Ioel
+      - Иоел
+      - Iol
+      - Иол
+  - osis: Amos
+    texts:
+      - Amos
+      - Амос
+      - Amo
+      - Амо
+  - osis: Obad
+    texts:
+      - Obadiya
+      - Обадия
+      - Obd
+      - Обд
+  - osis: Jonah
+    texts:
+      - Yunus
+      - Yuns
+      - Юнус
+      - Юнс
+  - osis: Mic
+    texts:
+      - Mixa
+      - Миха
+      - Mix
+      - Мих
+  - osis: Nah
+    texts:
+      - Naxum
+      - Нахум
+      - Nax
+      - Нах
+  - osis: Hab
+    texts:
+      - Xabaqquq
+      - Хабаққуқ
+      - Xab
+      - Хаб
+  - osis: Zeph
+    texts:
+      - Sefaniya
+      - Сефания
+      - Sef
+      - Сеф
+  - osis: Hag
+    texts:
+      - Xaggay
+      - Хаггай
+      - Xag
+      - Хаг
+  - osis: Zech
+    texts:
+      - Zexariya
+      - Зехария
+      - Zxr
+      - Зхр
+  - osis: Mal
+    texts:
+      - Malaxiya
+      - Малахия
+      - Mal
+      - Мал
+  - osis: Matt
+    texts:
+      - Matta
+      - Матта
+      - Mat
+      - Мат
+  - osis: Mark
+    texts:
+      - Mark
+      - Марк
+      - Mrk
+      - Мрк
+  - osis: Luke
+    texts:
+      - Luka
+      - Лука
+      - Luk
+      - Лук
+  - osis: 1John
+    texts:
+      - Юх. 1-х.
+      - 1Yuxn
+      - 1Юхн
+  - osis: 2John
+    texts:
+      - Юх. 2-х.
+      - 2Yuxn
+      - 2Юхн
+  - osis: 3John
+    texts:
+      - Юх. 3-х.
+      - 3 Yuxan
+      - 3 Юхан
+      - 3Yuxn
+      - 3Юхн
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yuxan
+      - Юхан
+  - osis: John
+    texts:
+      - Yuxan
+      - Yuxn
+      - Юхан
+      - Юхн
+  - osis: Acts
+    texts:
+      - Elshiler
+      - Елшилер
+      - Elsh
+      - Елш
+  - osis: Rom
+    texts:
+      - Rimliler
+      - Римлилер
+      - Рим.
+      - Rim
+      - Рим
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinfliler
+      - Коринфлилер
+  - osis: 1Cor
+    texts:
+      - Кор. 1-х.
+      - 1Kor
+      - 1Кор
+  - osis: 2Cor
+    texts:
+      - Кор. 2-х.
+      - 2Kor
+      - 2Кор
+  - osis: Col
+    texts:
+      - Kolosalılar
+      - Колосалылар
+      - Колоса.
+      - Kol
+      - Кол
+  - osis: Gal
+    texts:
+      - Galatiyalılar
+      - Галатиялылар
+      - Галат
+      - Gal
+      - Гал
+  - osis: Eph
+    texts:
+      - Efesliler
+      - Эфеслилер
+      - Ефес.
+      - Efs
+      - Эфс
+  - osis: Phil
+    texts:
+      - Filipliler
+      - Филиплилер
+      - Филип.
+      - Fil
+      - Фил
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Salonikalılar
+      - Салоникалылар
+  - osis: 1Thess
+    texts:
+      - Сал. 1-х.
+      - 1Sal
+      - 1Сал
+  - osis: 2Thess
+    texts:
+      - Сал. 2-х.
+      - 2Sal
+      - 2Сал
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timofey
+      - Тимофей
+  - osis: 1Tim
+    texts:
+      - Тимоф. 1-х.
+      - 1Tim
+      - 1Тим
+  - osis: 2Tim
+    texts:
+      - Тимоф. 2-х.
+      - 2Tim
+      - 2Тим
+  - osis: Titus
+    texts:
+      - Titus
+      - Титус
+      - Тит.
+      - Tit
+      - Тит
+  - osis: Phlm
+    texts:
+      - Filimon
+      - Филимон
+      - Филим.
+      - Flm
+      - Флм
+  - osis: Heb
+    texts:
+      - Evreyler
+      - Еврейлер
+      - Еврей.
+      - Evr
+      - Евр
+  - osis: Jas
+    texts:
+      - Yaqıp
+      - Yaqp
+      - Яқып
+      - Яқп
+  - osis: 1Pet
+    texts:
+      - Петр 1-х.
+      - 1Pet
+      - 1Пет
+  - osis: 2Pet
+    texts:
+      - Петр 2-х.
+      - 2Pet
+      - 2Пет
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petr
+      - Петр
+  - osis: Jude
+    texts:
+      - Yahuda
+      - Яҳуда
+      - Yahu
+      - Яҳу
+translations:
+  - KAA22L
+  - KRKNT
+  - KAA22C

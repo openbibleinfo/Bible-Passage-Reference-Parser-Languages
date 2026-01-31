@@ -1,0 +1,78 @@
+variables:
+  first: &first
+    - "1"
+books:
+  - osis: Lev
+    texts:
+      - Leviticus
+      - Lev.
+  - osis: Ps
+    texts:
+      - Psalms
+      - Psalm
+  - osis: Prov
+    texts:
+      - Proverbs
+      - Prov.
+  - osis: Jer
+    texts:
+      - Jeramiah
+      - Jer.
+  - osis: Ezek
+    texts:
+      - Ezekiel
+      - Ezek.
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan.
+  - osis: Joel
+    texts:
+      - Joel
+  - osis: Matt
+    texts:
+      - Matthew
+      - Matt.
+  - osis: Luke
+    texts:
+      - Luke
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+    texts:
+      - John
+  - osis: Rom
+    texts:
+      - Romans
+      - Rom.
+  - osis: 2Cor
+    texts:
+      - 2 Corinthians
+      - 2 Cor.
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Corinthians
+      - Cor.
+  - osis: Gal
+    texts:
+      - Galatians
+      - Gal.
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Timothy
+      - Tim.
+  - osis: Heb
+    texts:
+      - Hebrews
+      - Heb.
+  - osis: Ps151
+    texts:
+      - Hymns
+      - Psalm
+translations:
+  - NCG

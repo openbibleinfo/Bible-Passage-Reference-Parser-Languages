@@ -1,0 +1,248 @@
+default:
+  1Chr:
+    long: 1 Ivyo ku Ngoma
+    short: 1 Ngo
+  1Cor:
+    long: 1 Ab’i Korinto
+    short: 1 Kor
+  1John:
+    long: 1 Yohana
+    short: 1 Yoh
+  1Kgs:
+    long: 1 Abami
+    short: 1 Abam
+  1Pet:
+    long: 1 Petero
+    short: 1 Pet
+  1Sam:
+    long: 1 Samweli
+    short: 1 Sam
+  1Thess:
+    long: 1 Ab’i Tesalonike
+    short: 1 Tes
+  1Tim:
+    long: 1 Timoteyo
+    short: 1 Tim
+  2Chr:
+    long: 2 Ivyo ku Ngoma
+    short: 2 Ngo
+  2Cor:
+    long: 2 Ab’i Korinto
+    short: 2 Kor
+  2John:
+    long: 2 Yohana
+    short: 2 Yoh
+  2Kgs:
+    long: 2 Abami
+    short: 2 Abam
+  2Pet:
+    long: 2 Petero
+    short: 2 Pet
+  2Sam:
+    long: 2 Samweli
+    short: 2 Sam
+  2Thess:
+    long: 2 Ab’i Tesalonike
+    short: 2 Tes
+  2Tim:
+    long: 2 Timoteyo
+    short: 2 Tim
+  3John:
+    long: 3 Yohana
+    short: 3 Yoh
+  Acts:
+    long: Ivyakozwe
+    short: Ivk
+  Amos:
+    long: Amosi
+    short: Am
+  Col:
+    long: Ab’i Kolosayi
+    short: Kol
+  Dan:
+    long: Daniyeli
+    short: Dan
+  Deut:
+    long: Gusubira mu Vyagezwe
+    short: Gus
+  Eccl:
+    long: Umusiguzi
+    short: Umus
+  Eph:
+    long: Abanyefeso
+    short: Ef
+  Esth:
+    long: Esiteri
+    short: Est
+  Exod:
+    long: Kuvayo
+    short: Kuv
+  Ezek:
+    long: Ezekiyeli
+    short: Ezk
+  Ezra:
+    long: Ezira
+    short: Ezr
+  Gal:
+    long: Ab’i Galatiya
+    short: Gal
+  Gen:
+    long: Itanguriro
+    short: Ita
+  Hab:
+    long: Habakuki
+    short: Hab
+  Hag:
+    long: Hagayi
+    short: Hag
+  Heb:
+    long: Abaheburayo
+    short: Heb
+  Hos:
+    long: Hoseya
+    short: Hos
+  Isa:
+    long: Yesaya
+    short: Yes
+  Jas:
+    long: Yakobo
+    short: Yak
+  Jer:
+    long: Yeremiya
+    short: Yer
+  Job:
+    long: Yobu
+    short: Yob
+  Joel:
+    long: Yoweli
+    short: Yow
+  John:
+    long: Yohana
+    short: Yh
+  Jonah:
+    long: Yona
+    short: Yon
+  Josh:
+    long: Yosuwa
+    short: Yos
+  Jude:
+    long: Yuda
+    short: Yud
+  Judg:
+    long: Abacamanza
+    short: Abac
+  Lam:
+    long: Gucura Intimba
+    short: Int
+  Lev:
+    long: Abalewi
+    short: Lew
+  Luke:
+    long: Luka
+    short: Luk
+  Mal:
+    long: Malaki
+    short: Mal
+  Mark:
+    long: Mariko
+    short: Mrk
+  Matt:
+    long: Matayo
+    short: Mat
+  Mic:
+    long: Mika
+    short: MiK
+  Nah:
+    long: Nahumu
+    short: Nah
+  Neh:
+    long: Nehemiya
+    short: Neh
+  Num:
+    long: Guharūra
+    short: Guh
+  Obad:
+    long: Obadiya
+    short: Ob
+  Phil:
+    long: Ab’i Filipi
+    short: Flp
+  Phlm:
+    long: Filemoni
+    short: Flm
+  Prov:
+    long: Imigani
+    short: Imig
+  Ps:
+    long: Zaburi
+    short: Zab
+  Rev:
+    long: Ivyahishuriwe Yohana
+    short: Ivy
+  Rom:
+    long: Abaroma
+    short: Rom
+  Ruth:
+    long: Rusi
+    short: Rus
+  Song:
+    long: Indirimbo ya Salomo
+    short: Ind
+  Titus:
+    long: Tito
+    short: Tit
+  Zech:
+    long: Zekariya
+    short: Zek
+  Zeph:
+    long: Zefaniya
+    short: Zef
+translations:
+  ckb:
+    1Cor:
+      long: 1 Korinto
+      short: 1Ko
+    1John:
+      short: 1Yh
+    1Pet:
+      short: 1Pe
+    1Thess:
+      long: 1 Tesalonike
+      short: 1Te
+    1Tim:
+      short: 1Ti
+    2Cor:
+      long: 2 Korinto
+      short: 2Ko
+    2John:
+      short: 2Yh
+    2Pet:
+      short: 2Pe
+    2Thess:
+      long: 2 Tesalonike
+      short: 2Te
+    2Tim:
+      short: 2Ti
+    3John:
+      short: 3Yh
+    Col:
+      long: Kolosayi
+    Eph:
+      long: Efeso
+      short: Efs
+    Gal:
+      long: Galatiya
+    Phil:
+      long: Filipi
+    Rev:
+      long: Ivyahishuwe
+    Rom:
+      long: Roma
+  run1967:
+    Acts:
+      long: Ivyakozwe N’intumwa
+      short: Ivyak
+    John:
+      short: Yoh
+    Rev:
+      short: Ivyah

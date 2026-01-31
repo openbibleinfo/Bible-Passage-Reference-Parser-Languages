@@ -1,0 +1,274 @@
+default:
+  1Chr:
+    long: 1 ይ ዜና
+    short: 1 ዜና.
+  1Cor:
+    long: 1 ይ ቆሮንቶስ
+    short: 1 ቆሮ.
+  1John:
+    long: 1 ይ ዮሃንስ
+    short: 1 ዮሓ.
+  1Kgs:
+    long: 1 ነገስታት
+    short: 1 ነገ.
+  1Pet:
+    long: 1 ይ ጴጥሮስ
+    short: 1 ጴጥ.
+  1Sam:
+    long: 1 ሳሙኤል
+    short: 1 ሳሙ.
+  1Thess:
+    long: 1 ይ ተሰሎንቄ
+    short: 1 ተሰ.
+  1Tim:
+    long: 1 ይ ጢሞቴዎስ
+    short: 1 ጢሞ.
+  2Chr:
+    long: 2 ይ ዜና
+    short: 2 ዜና.
+  2Cor:
+    long: 2 ቆሮንቶስ
+    short: 2 ቆሮ.
+  2John:
+    long: 2 ይ ዮሃንስ
+    short: 2 ዮሓ.
+  2Kgs:
+    long: 2 ነገስታት
+    short: 2 ነገ.
+  2Pet:
+    long: 2 ይ ጴጥሮስ
+    short: 2 ጴጥ.
+  2Sam:
+    long: 2 ሳሙኤል
+    short: 2 ሳሙ.
+  2Thess:
+    long: 2 ይ ተሰሎንቄ
+    short: 2 ተሰ.
+  2Tim:
+    long: 2 ይ ጢሞቴዎስ
+    short: 2 ጢሞ.
+  3John:
+    long: 3 ዮሃንስ
+    short: 3 ዮሓ.
+  Acts:
+    long: ግብሪ ሃዋርያት
+    short: ግ.ሓ.
+  Amos:
+    long: ኣሞፅ
+    short: ኣሞፅ
+  Col:
+    long: ቈላስይስ
+    short: ቈላ.
+  Dan:
+    long: ዳኒኤል
+    short: ዳን.
+  Deut:
+    long: ዘዳግም
+    short: ዘዳ.
+  Eccl:
+    long: መክብብ
+    short: መክ.
+  Eph:
+    long: ኤፌሶን
+    short: ኤፌ.
+  Esth:
+    long: ኣስቴር
+    short: ኣስ.
+  Exod:
+    long: ዘጸኣት
+    short: ዘፀ.
+  Ezek:
+    long: ህዝቅኤል
+    short: ሕዝ.
+  Ezra:
+    long: እዝራ
+    short: እዝራ
+  Gal:
+    long: ገላትያ
+    short: ገላ.
+  Gen:
+    long: ዘፍጥረት
+    short: ዘፍ.
+  Hab:
+    long: ኣንባቆም
+    short: እንባ.
+  Hag:
+    long: ሃጋ
+    short: ሓጌ
+  Heb:
+    long: እብራይስጢ
+    short: ዕብ.
+  Hos:
+    long: ሆሴኣ
+    short: ሆሴዕ
+  Isa:
+    long: ኢሳያስ
+    short: ኢሳ.
+  Jas:
+    long: ያእቆብ
+    short: ያቆ.
+  Jer:
+    long: ኤርሚያስ
+    short: ኤር.
+  Job:
+    long: ኢዮብ
+    short: ኢዮብ
+  Joel:
+    long: ኢዩኤል
+    short: ኢዩ.
+  John:
+    long: ዮሃንስ
+    short: ዮሓ.
+  Jonah:
+    long: ዮናስ
+    short: ዮናስ
+  Josh:
+    long: ኢያሱ
+    short: ኢያሱ
+  Jude:
+    long: ይሁዳ
+    short: ይሁዳ
+  Judg:
+    long: መሳፍንት
+    short: መሳ.
+  Lam:
+    long: ሰቆቃወ
+    short: ሰቆ.
+  Lev:
+    long: ዘሌዋውያን
+    short: ዘሌ.
+  Luke:
+    long: ሉቃስ
+    short: ሉቃ.
+  Mal:
+    long: ሚልክያስ
+    short: ሚል.
+  Mark:
+    long: ማርቆስ
+    short: ማር.
+  Matt:
+    long: ማቴዎስ
+    short: ማቴ.
+  Mic:
+    long: ሚክያስ
+    short: ሚክ.
+  Nah:
+    long: ናሁም
+    short: ናሆም
+  Neh:
+    long: ነህምያ
+    short: ነህ.
+  Num:
+    long: ዘሑልቍ
+    short: ዘሑ.
+  Obad:
+    long: ኣብድዩ
+    short: ኣብ.
+  Phil:
+    long: ፊልጵስዩስ
+    short: ፊልጵ.
+  Phlm:
+    long: ፊልሞና
+    short: ፊል.
+  Prov:
+    long: ምሳሌ
+    short: ምሳ.
+  Ps:
+    long: ዳዊት
+    short: መዝ.
+  Rev:
+    long: ራእይ
+    short: ራእይ
+  Rom:
+    long: ሮሜ
+    short: ሮሜ
+  Ruth:
+    long: ሩት
+    short: ሩት
+  Song:
+    long: መሃልየ
+    short: መሃ.
+  Titus:
+    long: ቲቶ
+    short: ቲቶ
+  Zech:
+    long: ዘካርያስ
+    short: ዘካ.
+  Zeph:
+    long: ሶፎንያስ
+    short: ሶፎ.
+translations:
+  tb15:
+    1Chr:
+      long: 1ይ ዜና
+    1Cor:
+      long: 1ይ ቆሮንቶስ
+    1John:
+      long: 1ይ ዮሃንስ
+    1Kgs:
+      long: 1ይ ነገስት
+    1Pet:
+      long: 1ይ ጴጥሮስ
+    1Sam:
+      long: 1ይ ሳሙኤል
+    1Thess:
+      long: 1ይ ተሰሎንቄ
+    1Tim:
+      long: 1ይ ጢሞቴዎስ
+    2Chr:
+      long: 2ይ ዜና
+    2Cor:
+      long: 2ይ ቆሮንቶስ
+    2John:
+      long: 2ይ ዮሃንስ
+    2Kgs:
+      long: 2ይ ነገስት
+    2Pet:
+      long: 2ይ ጴጥሮስ
+    2Sam:
+      long: 2ይ ሳሙኤል
+    2Thess:
+      long: 2ይ ተሰሎንቄ
+    2Tim:
+      long: 2ይ ጢሞቴዎስ
+    3John:
+      long: 3ይ ዮሃንስ
+    Dan:
+      long: ዳንኤል
+    Exod:
+      long: ዘፀኣት
+    Ezek:
+      long: ሕዝቅኤል
+    Hab:
+      long: እንባቆም
+    Hag:
+      long: ሓጌ
+    Heb:
+      long: ዕብራውያን
+    Hos:
+      long: ሆሴዕ
+    Isa:
+      long: ኢሳይያስ
+    Nah:
+      long: ናሆም
+  tig24:
+    Jas:
+      long: ያዕቆብ
+    Jer:
+      long: ኤርምያስ
+    Job:
+      long: እዮብ
+    Joel:
+      long: ጆኤል
+    Josh:
+      long: እያሱ
+    Judg:
+      long: ዳያኑ
+    Obad:
+      long: ኦብድያ
+    Prov:
+      long: ምስላታት
+    Song:
+      long: ናይ ሰሎሞን መሃልየ መሃልይ
+    Zeph:
+      long: ጸፎንያስ

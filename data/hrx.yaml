@@ -1,0 +1,111 @@
+books:
+  - osis: Rev
+    texts:
+      - Apokalipse
+      - Ap
+  - osis: Matt
+    texts:
+      - Mateus
+      - Mt
+  - osis: Mark
+    texts:
+      - Markus
+      - Mk
+  - osis: Luke
+    texts:
+      - Lukas
+      - Lk
+  - osis: 1John
+    texts:
+      - 1Yohan
+      - 1Yn
+  - osis: 2John
+    texts:
+      - 2Yohan
+      - 2Jn
+  - osis: 3John
+    texts:
+      - 3Yohan
+      - 3Jn
+  - osis: John
+    texts:
+      - Yohan
+      - Yo
+  - osis: Acts
+    texts:
+      - Akte
+      - At
+  - osis: Rom
+    texts:
+      - Reemer
+      - Rm
+  - osis: 1Cor
+    texts:
+      - 1Korintios
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - 2Korintios
+      - 2Ko
+  - osis: Col
+    texts:
+      - Kolosenser
+      - Kl
+  - osis: Gal
+    texts:
+      - Kalatas
+      - Ka
+  - osis: Eph
+    texts:
+      - Efësius
+      - Ef
+  - osis: Phil
+    texts:
+      - Filipenser
+      - Fp
+  - osis: 1Thess
+    texts:
+      - 1Tesalooniker
+      - 1Ts
+  - osis: 2Thess
+    texts:
+      - 2Tesalooniker
+      - 2Ts
+  - osis: 1Tim
+    texts:
+      - 1Timoteus
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Timoteus
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Titus
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemon
+      - Fn
+  - osis: Heb
+    texts:
+      - Hepreyer
+      - Hp
+  - osis: Jas
+    texts:
+      - Tiaako
+      - Tk
+  - osis: 1Pet
+    texts:
+      - 1Pheeter
+      - 1Pe
+  - osis: 2Pet
+    texts:
+      - 2Pheeter
+      - 2Pe
+  - osis: Jude
+    texts:
+      - Yuutas
+      - Yt
+translations:
+  - NTHUNSRIK

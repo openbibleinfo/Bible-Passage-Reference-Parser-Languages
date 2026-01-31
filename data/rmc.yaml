@@ -1,0 +1,311 @@
+variables:
+  first: &first
+    - "1."
+  second: &second
+    - "2."
+books:
+  - osis: Gen
+    texts:
+      - 1. Mojžišoskro
+      - 1M
+  - osis: Exod
+    texts:
+      - 2. Mojžišoskro
+      - 2M
+  - osis: Lev
+    texts:
+      - 3. Mojžišoskro
+      - 3M
+  - osis: Num
+    texts:
+      - 4. Mojžišoskro
+      - 4M
+  - osis: Lam
+    texts:
+      - Roviben le Jeremijašiskro
+      - Rov
+  - osis: Rev
+    texts:
+      - Zjaveňje
+      - Zj
+  - osis: Deut
+    texts:
+      - 5. Mojžišoskro
+      - 5M
+  - osis: Josh
+    texts:
+      - Jozua
+      - Joz
+  - osis: Judg
+    texts:
+      - Sudcengro
+      - Sud
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis: Isa
+    texts:
+      - Izajaš
+      - Iz
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samueloskro
+  - osis: 1Sam
+    texts:
+      - 1Sam
+  - osis: 2Sam
+    texts:
+      - 2Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Kraľengro
+  - osis: 1Kgs
+    texts:
+      - 1Krľ
+  - osis: 2Kgs
+    texts:
+      - 2Krľ
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Kronicko
+  - osis: 1Chr
+    texts:
+      - 1Krn
+  - osis: 2Chr
+    texts:
+      - 2Krn
+  - osis: Ezra
+    texts:
+      - Ezdraš
+      - Ezd
+  - osis: Neh
+    texts:
+      - Nehemiaš
+      - Neh
+  - osis: Esth
+    texts:
+      - Ester
+      - Est
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Žalmi
+      - Ž
+  - osis: Prov
+    texts:
+      - Prislovja
+      - Pri
+  - osis: Eccl
+    texts:
+      - Kazaťeľis
+      - Kaz
+  - osis: Song
+    texts:
+      - Nekšukareder giľi
+      - Giľi
+  - osis: Jer
+    texts:
+      - Jeremijaš
+      - Jer
+  - osis: Ezek
+    texts:
+      - Ezechiel
+      - Ez
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan
+  - osis: Hos
+    texts:
+      - Hozeaš
+      - Hoz
+  - osis: Joel
+    texts:
+      - Joel
+  - osis: Amos
+    texts:
+      - Amos
+      - Am
+  - osis: Obad
+    texts:
+      - Obadijaš
+      - Obd
+  - osis: Jonah
+    texts:
+      - Jonaš
+      - Jon
+  - osis: Mic
+    texts:
+      - Micheaš
+      - Mi
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sofonijaš
+      - Sof
+  - osis: Hag
+    texts:
+      - Haggeus
+      - Hag
+  - osis: Zech
+    texts:
+      - Zacharijaš
+      - Zach
+  - osis: Mal
+    texts:
+      - Malachijaš
+      - Mal
+  - osis: Matt
+    texts:
+      - Matuš
+      - Mat
+  - osis: Mark
+    texts:
+      - Marek
+      - Mrk
+  - osis: Luke
+    texts:
+      - Лукастар
+      - Lukaš
+      - Luk
+      - Лук
+  - osis: 1John
+    texts:
+      - 1Jn
+  - osis: 2John
+    texts:
+      - 2Jn
+  - osis: 3John
+    texts:
+      - 3. Jan
+      - 3Jn
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jan
+  - osis: Acts
+    texts:
+      - Keriben
+      - Skutki
+      - Sk
+  - osis: Rom
+    texts:
+      - Rimanenge
+      - Rim
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinťanenge
+  - osis: 1Cor
+    texts:
+      - 1Kor
+  - osis: 2Cor
+    texts:
+      - 2Kor
+  - osis: Col
+    texts:
+      - Kološanenge
+      - Kol
+  - osis: Gal
+    texts:
+      - Galaťanenge
+      - Gal
+  - osis: Eph
+    texts:
+      - Efežanenge
+      - Ef
+  - osis: Phil
+    texts:
+      - Filipanenge
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaloničanenge
+  - osis: 1Thess
+    texts:
+      - 1Tes
+  - osis: 2Thess
+    texts:
+      - 2Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteoske
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Titoske
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemonoske
+      - Flm
+  - osis: Heb
+    texts:
+      - Židenge
+      - Žid
+  - osis: Jas
+    texts:
+      - Jakob
+      - Jak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peter
+  - osis: 1Pet
+    texts:
+      - 1Pt
+  - osis: 2Pet
+    texts:
+      - 2Pt
+  - osis: Jude
+    texts:
+      - Juda
+      - Jud
+translations:
+  - RMC
+  - MOR1936
+  - ZRB

@@ -1,0 +1,321 @@
+books:
+  - osis: Gen
+    texts:
+      - Damina
+      - Kod
+  - osis: Exod
+    texts:
+      - Bɔri
+      - Bɔk
+  - osis: Bel
+    texts:
+      - Bɛli Ka Kitabu
+  - osis: Lev
+    texts:
+      - Sarakalasebagaw
+      - Sar
+  - osis: Num
+    texts:
+      - Jateri
+      - Kok
+  - osis: Sir
+    texts:
+      - Sir
+  - osis: Wis
+    texts:
+      - Lɔn
+  - osis: Lam
+    texts:
+      - Kasikan
+      - Dusu
+  - osis: EpJer
+    texts:
+      - Zeb
+  - osis: Rev
+    texts:
+      - Yirali
+      - Yirari
+      - Yir
+  - osis: Deut
+    texts:
+      - Sariya
+      - Sad
+  - osis: Josh
+    texts:
+      - Yosuwe
+      - Zoz
+  - osis: Judg
+    texts:
+      - Kititigɛbagaw
+      - Cɛf
+  - osis: Ruth
+    texts:
+      - Ruti
+      - Uru
+  - osis: Isa
+    texts:
+      - Ezayi
+      - Eza
+  - osis: 1Sam
+    texts:
+      - Samawilu fɔlɔ
+      - Sam fɔlɔ
+  - osis: 2Sam
+    texts:
+      - Samawilu flanan
+      - Sam 2nan
+  - osis: 1Kgs
+    texts:
+      - Masacɛw fɔlɔ
+      - Mas fɔlɔ
+  - osis: 2Kgs
+    texts:
+      - Masacɛw flanan
+      - Mas 2nan
+  - osis: 1Chr
+    texts:
+      - Kibaroyaw fɔlɔ
+      - Lok fɔlɔ
+  - osis: 2Chr
+    texts:
+      - Kibaroyaw flanan
+      - Lok 2nan
+  - osis: Ezra
+    texts:
+      - Ɛsidarasi
+      - Ɛsi
+  - osis: Neh
+    texts:
+      - Nehemi
+      - Nee
+  - osis: Job
+    texts:
+      - Ayuba
+      - Zɔbu
+  - osis: Ps
+    texts:
+      - Zaburuw
+      - Zaburu
+      - Dal
+  - osis: Prov
+    texts:
+      - Zanaw
+      - Tal
+  - osis: Eccl
+    texts:
+      - Waajurikɛbaga
+      - Waa
+  - osis: Song
+    texts:
+      - Dɔnkiriw
+      - Dus
+  - osis: Jer
+    texts:
+      - Yeremi
+      - Zer
+  - osis: Ezek
+    texts:
+      - Ezekiyɛli
+      - Eze
+  - osis: Dan
+    texts:
+      - Daniyɛli
+      - Dan
+  - osis: Hos
+    texts:
+      - Oze
+  - osis: Joel
+    texts:
+      - Yowɛli
+      - Zow
+  - osis: Amos
+    texts:
+      - Amɔsi
+      - Amɔ
+  - osis: Obad
+    texts:
+      - Abidiyasi
+      - Abu
+  - osis: Jonah
+    texts:
+      - Yunusu
+      - Zon
+  - osis: Mic
+    texts:
+      - Mise
+  - osis: Nah
+    texts:
+      - Nahɔmu
+      - Naw
+  - osis: Hab
+    texts:
+      - Habakuki
+      - Aba
+  - osis: Zeph
+    texts:
+      - Sofoni
+      - Sof
+  - osis: Hag
+    texts:
+      - Hagize
+      - Aze
+  - osis: Zech
+    texts:
+      - Jakariya
+      - Zak
+  - osis: Mal
+    texts:
+      - Malaki
+      - Mal
+  - osis: Matt
+    texts:
+      - Matiyo
+      - Matiyu
+      - Mat
+  - osis: Mark
+    texts:
+      - Marika
+      - Mariki
+      - Mar
+  - osis: Luke
+    texts:
+      - Luka
+  - osis: 1John
+    texts:
+      - Yuhana fɔlɔ
+      - Zan fɔlɔ
+  - osis: 2John
+    texts:
+      - Yuhana flanan
+      - Zan Filanan
+      - Zan 2nan
+  - osis: 3John
+    texts:
+      - Yuhana sabanan
+      - Zan Sabanan
+      - Zan 3nan
+  - osis: John
+    texts:
+      - Yuhana
+      - Zan
+  - osis: Acts
+    texts:
+      - Kɛwalew
+      - Kɛwaliw
+      - Kɛw
+  - osis: Rom
+    texts:
+      - Ɔrɔmukaw
+      - Rɔmukaw
+      - Ɔrɔ
+  - osis: 1Cor
+    texts:
+      - Korɛntikaw fɔlɔ
+      - Kor fɔlɔ
+  - osis: 2Cor
+    texts:
+      - Korɛntikaw Filanan
+      - Korɛntikaw flanan
+      - Kor 2nan
+  - osis: Col
+    texts:
+      - Kɔlɔsikaw
+      - Kɔl
+  - osis: Gal
+    texts:
+      - Galasikaw
+      - Galatikaw
+      - Gal
+  - osis: Eph
+    texts:
+      - Efɛzikaw
+      - Ɛfɛsikaw
+      - Efɛ
+  - osis: Phil
+    texts:
+      - Filipikaw
+      - Fil
+  - osis: 1Thess
+    texts:
+      - Tesalonikikaw fɔlɔ
+      - Tesalonikaw Fɔlɔ
+      - Tes fɔlɔ
+  - osis: 2Thess
+    texts:
+      - Tesalonikikaw flanan
+      - Tesalonikaw Filanan
+      - Tes Filanan
+      - Tes 2nan
+  - osis: 1Tim
+    texts:
+      - Timote fɔlɔ
+      - Tim fɔlɔ
+  - osis: 2Tim
+    texts:
+      - Timote Filanan
+      - Timote flanan
+      - Tim 2nan
+  - osis: Titus
+    texts:
+      - Tite
+      - Titi
+  - osis: Phlm
+    texts:
+      - Filemɔn
+      - File
+  - osis: Heb
+    texts:
+      - Heburuw
+      - Eburuw
+      - Ebu
+  - osis: Jas
+    texts:
+      - Yakuba
+      - Zaki
+  - osis: 1Pet
+    texts:
+      - Piyɛri fɔlɔ
+      - Piy fɔlɔ
+  - osis: 2Pet
+    texts:
+      - Piyɛri Filanan
+      - Piyɛri flanan
+      - Piy Filanan
+      - Piy 2nan
+  - osis: Jude
+    texts:
+      - Zude
+  - osis: Tob
+    texts:
+      - Tob
+  - osis: Jdt
+    texts:
+      - Zud
+  - osis: Bar
+    texts:
+      - Bar
+  - osis: Sus
+    texts:
+      - Suzani Ka Koo
+  - osis: 1Macc
+    texts:
+      - Makabew Fɔlɔ
+      - Mak fɔlɔ
+  - osis: 2Macc
+    texts:
+      - Makabew Filanan
+      - Mak 2nan
+  - osis: DanGr
+    texts:
+      - Daniyɛli, girɛkikan na
+  - osis: EsthGr
+    texts:
+      - Ɛst gir
+  - osis: Esth
+    texts:
+      - Ɛsitɛri
+      - Ɛst
+translations:
+  - JULDC08
+  - DYU
+  - JULNT94

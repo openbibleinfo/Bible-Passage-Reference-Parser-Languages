@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: Mataafa Otoowwa a paayyota
+    short: otoo a 1ta
+  1Cor:
+    long: Qorontoosi a paayyota
+    short: Qoro 1ta
+  1John:
+    long: Yohaannisi a paayyota
+    short: Yoha 1ta
+  1Kgs:
+    long: Mataafa a Nuqussa a paayyota
+    short: nuqu a 1ta
+  1Pet:
+    long: Petroosi a paayyota
+    short: Peti 1ta
+  1Sam:
+    long: Mataafa Saamu'eeli a paayyota
+    short: Saamu a 1ta
+  1Thess:
+    long: Teseloonqe a paayyota
+    short: Tese a 1ta
+  1Tim:
+    long: Timotoosi a paayyota
+    short: Timo 1ta
+  2Chr:
+    long: Mataafa Otoowwa a lammatta
+    short: otoo a 2ta
+  2Cor:
+    long: Qorontoosi a lammatta
+    short: Qoro 2ta
+  2John:
+    long: Yohaannisi a lammatta
+    short: Yoha 2ta
+  2Kgs:
+    long: Mataafa a Nuqussa a lammatta
+    short: nuqu a 2ta
+  2Pet:
+    long: Petiroosi a lammatta
+    short: Peti 2ta
+  2Sam:
+    long: Mataafa Saamu'eeli a lammatta
+    short: Saamu a 2ta
+  2Thess:
+    long: Teseloonqe a lammatta
+    short: Tese a 2ta
+  2Tim:
+    long: Timotoosi a lammatta
+    short: Timo 2ta
+  3John:
+    long: Yohaannisi a sessatta
+    short: Yoha 3ta
+  Acts:
+    long: Kodampaya
+    short: koda
+  Amos:
+    long: Xuuma Amoosi
+    short: Amo
+  Col:
+    long: Qolaasiisi
+    short: Qola
+  Dan:
+    long: Xuuma Taani'eeli
+    short: Taani
+  Deut:
+    long: Mataafa oppa' Ooreta
+    short: ooreta
+  Eccl:
+    long: Mataafa Dehaamta
+    short: deha
+  Eph:
+    long: Efesooni
+    short: Efe
+  Esth:
+    long: Mataafa Asteeri
+    short: As
+  Exod:
+    long: Mataafa Sooketa
+    short: sooka
+  Ezek:
+    long: Xuuma Hisqeeli
+    short: His
+  Ezra:
+    long: Mataafa Isira
+    short: Isi
+  Gal:
+    long: Kelaatiya
+    short: Kelaati
+  Gen:
+    long: Mataafa Uumata
+    short: uuma
+  Hab:
+    long: Xuuma Inpaqoomi
+    short: Inpa
+  Hag:
+    long: Xuuma Hake
+    short: Hake
+  Heb:
+    long: ipro
+    short: Ip
+  Hos:
+    long: Hoose'i
+    short: Hoose
+  Isa:
+    long: Xuuma Issayyaasi
+    short: Issa
+  Jas:
+    long: Yayqoopi
+    short: Yay
+  Jer:
+    long: Xuuma Ermiyaasi
+    short: Er
+  Job:
+    long: Mataafa Iyyoopi
+    short: Iyyo
+  Joel:
+    long: Xuuma Iyyu'eeli
+    short: Iyyu
+  John:
+    long: Yohaannisi
+    short: Yoha
+  Jonah:
+    long: Xuuma Yoonaasi
+    short: Yoona
+  Josh:
+    long: Mataafa Iyyaasu
+    short: Iyya
+  Jude:
+    long: Yihuta
+    short: Yihu
+  Judg:
+    long: Mataafa Taanynyada
+    short: taanynya
+  Lam:
+    long: Pooyta Ermiyaasi
+    short: pooyi
+  Lev:
+    long: Mataafa orra Lewi
+    short: Lewi
+  Luke:
+    long: Luqaasi
+    short: Luqa
+  Mal:
+    long: Xuuma Milkiyaasi
+    short: Mil
+  Mark:
+    long: Mariqoosi
+    short: Maari
+  Matt:
+    long: Maatiyoosi
+    short: Maati
+  Mic:
+    long: Xuuma Mikkiyaasi
+    short: Mikki
+  Nah:
+    long: Xuuma Nahoomi
+    short: Naho
+  Neh:
+    long: Mataafa a Nehimya
+    short: Nehi
+  Num:
+    long: Mataafa Dikoota
+    short: dikoota
+  Obad:
+    long: Xuuma Aptiyu
+    short: Apti
+  Phil:
+    long: Filippisiyuusi
+    short: Fili
+  Phlm:
+    long: Filmoona
+    short: Fil
+  Prov:
+    long: Mataafa Pahana
+    short: phana
+  Ps:
+    long: Mataafa Masmuureta
+    short: Mas
+  Rev:
+    long: Keleshaata
+    short: kele
+  Rom:
+    long: Roomi
+    short: Roomi
+  Ruth:
+    long: Mataafa Rutti
+    short: Rutti
+  Song:
+    long: Masmuureta a masmuurewwa piisa qara jaallitto
+    short: jaala
+  Titus:
+    long: Tiito
+    short: Tiito
+  Zech:
+    long: Xuuma Sakkaariyaasi
+    short: Sakka
+  Zeph:
+    long: Xuuma Sofooniyaasi
+    short: Sofo

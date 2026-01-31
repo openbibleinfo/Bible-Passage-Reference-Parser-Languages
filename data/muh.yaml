@@ -1,0 +1,96 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Gina Ngü
+  - osis: Rev
+    texts:
+      - Ngü te sere te-ye
+  - osis: Matt
+    texts:
+      - Matayo
+  - osis: Mark
+    texts:
+      - Marako
+  - osis: Luke
+    texts:
+      - Luka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yüwane
+  - osis: Acts
+    texts:
+      - Mürü Tima
+  - osis: Rom
+    texts:
+      - Rüma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korïnito
+  - osis: Col
+    texts:
+      - Kolosayï
+  - osis: Gal
+    texts:
+      - Galatïya
+  - osis: Eph
+    texts:
+      - Efeso
+  - osis: Phil
+    texts:
+      - Fïlïpoyi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonika
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteyo
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Fïlemüna
+  - osis: Heb
+    texts:
+      - Ebere
+  - osis: Jas
+    texts:
+      - Yakobo
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petero
+  - osis: Jude
+    texts:
+      - Yudi
+translations:
+  - MUH

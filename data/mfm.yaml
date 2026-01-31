@@ -1,0 +1,99 @@
+books:
+  - osis: Rev
+    texts:
+      - Mǝtakǝr Nǝ Yahwana
+      - Mǝta
+  - osis: Matt
+    texts:
+      - Matiwu
+      - Mat
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis: 1John
+    texts:
+      - Yahwana Nǝ Tanggǝrma
+      - 1Yah
+  - osis: 2John
+    texts:
+      - Yahwana Nǝ Mǝthlǝkura nyi
+      - 2Yah
+  - osis: 3John
+    texts:
+      - Yahwana Nǝ Makǝrkura nyi
+      - 3Yah
+  - osis: John
+    texts:
+      - Yahwana
+      - Yah
+  - osis: 1Cor
+    texts:
+      - 1 Kwaranthli
+      - 1Kwa
+  - osis: 2Cor
+    texts:
+      - 2 Kwaranthli
+      - 2Kwa
+  - osis: Col
+    texts:
+      - Kolosi
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatiya
+      - Gal
+  - osis: Eph
+    texts:
+      - Afisa
+      - Afi
+  - osis: Phil
+    texts:
+      - Fǝlipi
+      - Fǝl
+  - osis: 1Thess
+    texts:
+      - Tasalonika Nǝ Tanggǝrma
+      - 1Tas
+  - osis: 2Thess
+    texts:
+      - Tasalonika Nǝ Mǝthlǝu
+      - 2Tas
+  - osis: 1Tim
+    texts:
+      - Timathlawusu Nǝ Tanggǝrma
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - Timathlawusu Nǝ Mǝthlǝu
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Tayitusu
+      - Tai
+  - osis: Phlm
+    texts:
+      - Fǝlimonu
+      - Fil
+  - osis: Heb
+    texts:
+      - Ibraniya
+      - Ibra
+  - osis: Jas
+    texts:
+      - Jamisu
+      - Jam
+  - osis: 1Pet
+    texts:
+      - Biturusu Nǝ Tanggǝrma
+      - 1Bit
+  - osis: 2Pet
+    texts:
+      - Biturusu Nǝ Mǝthlǝu
+      - 2Bit
+  - osis: Jude
+    texts:
+      - Yahuza
+      - Yahu
+translations:
+  - MFMTNT

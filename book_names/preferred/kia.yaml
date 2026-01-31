@@ -1,0 +1,274 @@
+default:
+  1Chr:
+    long: 1Maana ge gan ma ne
+    short: 1Maa
+  1Cor:
+    long: 1 Korent
+    short: 1Ko
+  1John:
+    long: 1 Yohana
+    short: 1Yo
+  1Kgs:
+    long: 1Gan ma
+    short: 1Gan
+  1Pet:
+    long: 1 Piyer
+    short: 1Bit
+  1Sam:
+    long: 1Samiyel
+    short: 1Sam
+  1Thess:
+    long: 1 Tesalonik
+    short: 1Te
+  1Tim:
+    long: 1 Timote
+    short: 1Ti
+  2Chr:
+    long: 2 Maana ge gan ma ne
+    short: 2Maa
+  2Cor:
+    long: 2 Korent
+    short: 2Ko
+  2John:
+    long: 2 Yohana
+    short: 2Yo
+  2Kgs:
+    long: 2Gan ma
+    short: 2Gan
+  2Pet:
+    long: 2 Piyer
+    short: 2Bit
+  2Sam:
+    long: 2Samiyel
+    short: 2Sam
+  2Thess:
+    long: 2 Tesalonik
+    short: 2Te
+  2Tim:
+    long: 2 Timote
+    short: 2Ti
+  3John:
+    long: 3 Yohana
+    short: 3Yo
+  Acts:
+    long: Temel kerra ma
+    short: Tkm
+  Amos:
+    long: Amos
+    short: Amo
+  Col:
+    long: Kolos
+    short: Kol
+  Dan:
+    long: Danyel
+    short: Dan
+  Deut:
+    long: Dwage Eya
+    short: Dwa
+  Eccl:
+    long: Bage oy fare
+    short: Bag
+  Eph:
+    long: Efesus ma
+    short: Efe
+  Esth:
+    long: Ester
+    short: Est
+  Exod:
+    long: Wat zum
+    short: Wat
+  Ezek:
+    long: Ezekel
+    short: Eze
+  Ezra:
+    long: Esdras
+    short: Esd
+  Gal:
+    long: Galatiya ma
+    short: Gal
+  Gen:
+    long: Pe eya
+    short: Pe
+  Hab:
+    long: Habakuk
+    short: Hab
+  Hag:
+    long: Haggay
+    short: Hag
+  Heb:
+    long: Hebre
+    short: Heb
+  Hos:
+    long: Hosiya
+    short: Hos
+  Isa:
+    long: Isaya
+    short: Isa
+  Jas:
+    long: Jak
+    short: Jak
+  Jer:
+    long: Irmiya
+    short: Irm
+  Job:
+    long: Ayuba
+    short: Ayu
+  Joel:
+    long: Juwel
+    short: Juw
+  John:
+    long: Yohana
+    short: Yoh
+  Jonah:
+    long: Jonas
+    short: Jon
+  Josh:
+    long: Juswa
+    short: Jus
+  Jude:
+    long: Jude
+    short: Jud
+  Judg:
+    long: Naa ge kun sarya ma
+    short: Nks
+  Lam:
+    long: Sun ta ma
+    short: Sun
+  Lev:
+    long: Temel Kerra ge Levi vya ma ne
+    short: Lev
+  Luke:
+    long: Luk
+    short: Luk
+  Mal:
+    long: Malaci
+    short: Mal
+  Mark:
+    long: Mark
+    short: Mar
+  Matt:
+    long: Mata
+    short: Mat
+  Mic:
+    long: Mika
+    short: MiK
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nehemiya
+    short: Neh
+  Num:
+    long: Isiya ma
+    short: Isi
+  Obad:
+    long: Obadiya
+    short: Oba
+  Phil:
+    long: Filibus ma
+    short: Fil
+  Phlm:
+    long: Filemon
+    short: Flm
+  Prov:
+    long: Fare sḭ ma
+    short: Frs
+  Ps:
+    long: Kaŋ mballa ma
+    short: Kmb
+  Rev:
+    long: Daalam
+    short: Daa
+  Rom:
+    long: Rom
+    short: Rom
+  Ruth:
+    long: Ruda
+    short: Rud
+  Song:
+    long: Kaŋ mballa ge ne waɗe kaŋ mballa ma
+    short: Kwk
+  Titus:
+    long: Titus
+    short: Tit
+  Zech:
+    long: Zakariya
+    short: Zak
+  Zeph:
+    long: Sofoniya
+    short: Sof
+translations:
+  kb2013:
+    1Cor:
+      long: 1Korinte ma
+      short: 1Kor
+    1John:
+      long: 1Yohanna
+      short: 1Yoh
+    1Pet:
+      long: 1Bitrus
+    1Thess:
+      long: 1Tesalonika ma
+      short: 1Tes
+    1Tim:
+      long: 1Timotawus
+      short: 1Tim
+    2Cor:
+      long: 2Korinte ma
+      short: 2Kor
+    2John:
+      long: 2Yohanna
+      short: 2Yoh
+    2Pet:
+      long: 2Bitrus
+    2Thess:
+      long: 2Tesalonika ma
+      short: 2Tes
+    2Tim:
+      long: 2Timotawus
+      short: 2Tim
+    3John:
+      long: 3Yohanna
+      short: 3Yoh
+    Col:
+      long: Kolos ma
+    Heb:
+      long: Ibriniya ma
+      short: Ibr
+    Jas:
+      long: Yakub
+      short: Yak
+    John:
+      long: Yohanna
+    Jude:
+      long: Yuda
+      short: Yud
+    Luke:
+      long: Luka
+    Mark:
+      long: Markus
+    Matt:
+      long: Matta
+    Rom:
+      long: Roma ma
+  kia:
+    1Pet:
+      short: 1Pi
+    2Pet:
+      short: 2Pi
+    Acts:
+      long: Tèmel keeya
+      short: Tkt
+    Eph:
+      long: Efez
+    Gal:
+      long: Galaɗ
+    Mark:
+      short: Mrk
+    Phil:
+      long: Filip
+    Phlm:
+      long: Filemo̰
+    Rev:
+      long: Dyanna ya zum
+      short: Dzk

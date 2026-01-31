@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Mambo ya Siku
+    short: 1 Sik
+  1Cor:
+    long: 1 Wakorinto
+    short: 1 Kor
+  1John:
+    long: 1 Yoane
+    short: 1 Yn
+  1Kgs:
+    long: 1 Wafalme
+    short: 1 Fal
+  1Pet:
+    long: 1 Petro
+    short: 1 Pet
+  1Sam:
+    long: 1 Samweli
+    short: 1 Sam
+  1Thess:
+    long: 1 Watesalonika
+    short: 1 Tes
+  1Tim:
+    long: 1 Timoteo
+    short: 1 Tim
+  2Chr:
+    long: 2 Mambo ya Siku
+    short: 2 Sik
+  2Cor:
+    long: 2 Wakorinto
+    short: 2 Kor
+  2John:
+    long: 2 Yoane
+    short: 2 Yn
+  2Kgs:
+    long: 2 Wafalme
+    short: 2 Fal
+  2Pet:
+    long: 2 Petro
+    short: 2 Pet
+  2Sam:
+    long: 2 Samweli
+    short: 2 Sam
+  2Thess:
+    long: 2 Watesalonika
+    short: 2 Tes
+  2Tim:
+    long: 2 Timoteo
+    short: 2 Tim
+  3John:
+    long: 3 Yoane
+    short: 3 Yn
+  Acts:
+    long: Matendo ya Mitume
+    short: Mdo
+  Amos:
+    long: Amosi
+    short: Amo
+  Col:
+    long: waKolosayi
+    short: Kol
+  Dan:
+    long: Danieli
+    short: Dan
+  Deut:
+    long: Kumbukumbu la Sheria
+    short: Kumb
+  Eccl:
+    long: Muhubiri
+    short: Muh
+  Eph:
+    long: Waefeso
+    short: Efe
+  Esth:
+    long: Esteri
+    short: Est
+  Exod:
+    long: Kutoka
+    short: Kut
+  Ezek:
+    long: Ezekieli
+    short: Eze
+  Ezra:
+    long: Ezra
+    short: Ezra
+  Gal:
+    long: Wagalatia
+    short: Gal
+  Gen:
+    long: Mwanzo
+    short: Mwa
+  Hab:
+    long: Habakuki
+    short: Hab
+  Hag:
+    long: Hagai
+    short: Hag
+  Heb:
+    long: Waebrania
+    short: Ebr
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Isaya
+    short: Isa
+  Jas:
+    long: Yakobo
+    short: Yak
+  Jer:
+    long: Yeremia
+    short: Yer
+  Job:
+    long: Yobu
+    short: Yobu
+  Joel:
+    long: Yoeli
+    short: Yoe
+  John:
+    long: Yoane
+    short: Yn
+  Jonah:
+    long: Yona
+    short: Yona
+  Josh:
+    long: Yoshua
+    short: Yos
+  Jude:
+    long: Yuda
+    short: Yuda
+  Judg:
+    long: Waamuzi
+    short: Amu
+  Lam:
+    long: Maombolezo
+    short: Omb
+  Lev:
+    long: Walawi
+    short: Law
+  Luke:
+    long: Luka
+    short: Lk
+  Mal:
+    long: Malaki
+    short: Mal
+  Mark:
+    long: Marko
+    short: Mk
+  Matt:
+    long: Matayo
+    short: Mat
+  Mic:
+    long: Mika
+    short: Mika
+  Nah:
+    long: Nahumu
+    short: Nah
+  Neh:
+    long: Nehemia
+    short: Neh
+  Num:
+    long: Hesabu
+    short: Hes
+  Obad:
+    long: Obadia
+    short: Oba
+  Phil:
+    long: waFilipi
+    short: Fil
+  Phlm:
+    long: Filemono
+    short: File
+  Prov:
+    long: Mezali
+    short: Mez
+  Ps:
+    long: Zaburi
+    short: Zab
+  Rev:
+    long: Ufunuo
+    short: Ufu
+  Rom:
+    long: waRoma
+    short: Rom
+  Ruth:
+    long: Ruta
+    short: Rut
+  Song:
+    long: Wimbo wa Solomono
+    short: Wim
+  Titus:
+    long: Tito
+    short: Tito
+  Zech:
+    long: Zakaria
+    short: Zak
+  Zeph:
+    long: Zefania
+    short: Zef

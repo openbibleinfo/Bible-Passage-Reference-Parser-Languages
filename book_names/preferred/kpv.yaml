@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Каднебӧг
+    short: 1Кад.
+  1Cor:
+    long: 1 Коринфӧ
+    short: 1Кор.
+  1John:
+    long: 1 Иоан
+    short: 1Ин.
+  1Kgs:
+    long: Ӧксыяслӧн 3 небӧг
+    short: 3Ӧкс.
+  1Pet:
+    long: 1 Петыр
+    short: 1Пет.
+  1Sam:
+    long: Ӧксыяслӧн 1 небӧг
+    short: 1Ӧкс.
+  1Thess:
+    long: 1 Фессалоникаӧ
+    short: 1Фесс.
+  1Tim:
+    long: 1 Тимофейлы
+    short: 1Тим.
+  2Chr:
+    long: 2 Каднебӧг
+    short: 2Кад.
+  2Cor:
+    long: 2 Коринфӧ
+    short: 2Кор.
+  2John:
+    long: 2 Иоан
+    short: 2Ин.
+  2Kgs:
+    long: Ӧксыяслӧн 4 небӧг
+    short: 4Ӧкс.
+  2Pet:
+    long: 2 Петыр
+    short: 2Пет.
+  2Sam:
+    long: Ӧксыяслӧн 2 небӧг
+    short: 2Ӧкс.
+  2Thess:
+    long: 2 Фессалоникаӧ
+    short: 2Фесс.
+  2Tim:
+    long: 2 Тимофейлы
+    short: 2Тим.
+  3John:
+    long: 3 Иоан
+    short: 3Ин.
+  Acts:
+    long: Ап. уджъяс
+    short: Ап.удж.
+  Amos:
+    long: Амос
+    short: Ам.
+  Col:
+    long: Колосӧ
+    short: Кол.
+  Dan:
+    long: Даниил
+    short: Дан.
+  Deut:
+    long: Индӧд
+    short: Инд.
+  Eccl:
+    long: Еклесиаст
+    short: Екл.
+  Eph:
+    long: Ефесӧ
+    short: Еф.
+  Esth:
+    long: Эсфир
+    short: Эсф.
+  Exod:
+    long: Петӧм
+    short: Пет.
+  Ezek:
+    long: Езекиль
+    short: Езек.
+  Ezra:
+    long: Ездра
+    short: Езд.
+  Gal:
+    long: Галатӧ
+    short: Гал.
+  Gen:
+    long: Олӧм
+    short: Ол.
+  Hab:
+    long: Аввакум
+    short: Авв.
+  Hag:
+    long: Аггей
+    short: Агг.
+  Heb:
+    long: Еврейяслы
+    short: Евр.
+  Hos:
+    long: Осий
+    short: Ос.
+  Isa:
+    long: Исай
+    short: Ис.
+  Jas:
+    long: Яков
+    short: Як.
+  Jer:
+    long: Еремей
+    short: Ерем.
+  Job:
+    long: Иов
+    short: Иов
+  Joel:
+    long: Йоиль
+    short: Йоиль
+  John:
+    long: Иоан
+    short: Ин.
+  Jonah:
+    long: Иона
+    short: Иона
+  Josh:
+    long: Нав Исус
+    short: Нав Ис.
+  Jude:
+    long: Иуда
+    short: Иуда
+  Judg:
+    long: Ёрдысьяс
+    short: Ёрд.
+  Lam:
+    long: Бӧрданкыв
+    short: Бӧрд.
+  Lev:
+    long: Левит
+    short: Лев.
+  Luke:
+    long: Лука
+    short: Лк.
+  Mal:
+    long: Малакий
+    short: Мал.
+  Mark:
+    long: Марк
+    short: Мк.
+  Matt:
+    long: Матвей
+    short: Мт.
+  Mic:
+    long: Микей
+    short: Мик.
+  Nah:
+    long: Наум
+    short: Наум
+  Neh:
+    long: Неемий
+    short: Неем.
+  Num:
+    long: Лыд
+    short: Лыд
+  Obad:
+    long: Авдий
+    short: Авд.
+  Phil:
+    long: Филипӧ
+    short: Флп.
+  Phlm:
+    long: Филимонлы
+    short: Флм.
+  Prov:
+    long: Шусьӧгъяс
+    short: Шусь.
+  Ps:
+    long: Псалтыр
+    short: Пс.
+  Rev:
+    long: Восьтӧм
+    short: Восьт.
+  Rom:
+    long: Римӧ
+    short: Рим.
+  Ruth:
+    long: Руфа
+    short: Руфа
+  Song:
+    long: Сьылан
+    short: Сьыл.
+  Titus:
+    long: Титлы
+    short: Тит.
+  Zech:
+    long: Закар
+    short: Зак.
+  Zeph:
+    long: Софоний
+    short: Соф.

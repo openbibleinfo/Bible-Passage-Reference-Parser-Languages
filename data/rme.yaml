@@ -1,0 +1,59 @@
+variables:
+  first: &first
+    - "1"
+books:
+  - osis: Exod
+    texts:
+      - Exodus
+  - osis: Rev
+    texts:
+      - Revelation
+  - osis: Isa
+    texts:
+      - Isaiah
+  - osis: Ps
+    texts:
+      - Psalms
+      - Psalm
+  - osis: Ezek
+    texts:
+      - Ezekiel
+  - osis: Matt
+    texts:
+      - Matthew
+  - osis: Mark
+    texts:
+      - Mark
+  - osis: Luke
+    texts:
+      - Luke
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+    texts:
+      - John
+  - osis: Rom
+    texts:
+      - Romans
+  - osis: 2Tim
+    texts:
+      - 2 Timothy
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Timothy
+  - osis: Heb
+    texts:
+      - Hebrews
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - Peter
+translations:
+  - SGM1985
+  - ARKL
+  - SGM1995
+  - ARBOS

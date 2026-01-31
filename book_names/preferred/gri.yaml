@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Turupatu Dato
+    short: 1Tur
+  1Cor:
+    long: 1 Korint
+    short: 1Ko
+  1John:
+    long: 1 Ioane
+    short: 1In
+  1Kgs:
+    long: 1 Taovia Tsapakae
+    short: 1Tao
+  1Pet:
+    long: 1 Petero
+    short: 1Pe
+  1Sam:
+    long: 1 Samuel
+    short: 1Sam
+  1Thess:
+    long: 1 Tesalonika
+    short: 1Te
+  1Tim:
+    long: 1 Timoti
+    short: 1Ti
+  2Chr:
+    long: 2 Turupatu Dato
+    short: 2Tur
+  2Cor:
+    long: 2 Korint
+    short: 2Ko
+  2John:
+    long: 2 Ioane
+    short: 2In
+  2Kgs:
+    long: 2 Taovia Tsapakae
+    short: 2Tao
+  2Pet:
+    long: 2 Petero
+    short: 2Pe
+  2Sam:
+    long: 2 Samuel
+    short: 2Sam
+  2Thess:
+    long: 2 Tesalonika
+    short: 2Te
+  2Tim:
+    long: 2 Timoti
+    short: 2Ti
+  3John:
+    long: 3 Ioane
+    short: 3In
+  Acts:
+    long: Aqoaqo
+    short: Aq
+  Amos:
+    long: Amos
+    short: Am
+  Col:
+    long: Kolose
+    short: Kol
+  Dan:
+    long: Daniel
+    short: Dan
+  Deut:
+    long: Na Vaolusi Ketsa
+    short: Diu
+  Eccl:
+    long: Sasani Sasaga
+    short: Sas
+  Eph:
+    long: Epesus
+    short: Ep
+  Esth:
+    long: Esta
+    short: Est
+  Exod:
+    long: Binaboli
+    short: Eks
+  Ezek:
+    long: Esekiel
+    short: Esik
+  Ezra:
+    long: Esra
+    short: Esra
+  Gal:
+    long: Galatia
+    short: Gal
+  Gen:
+    long: Tuturigana
+    short: Gen
+  Hab:
+    long: Habakuk
+    short: Hab
+  Hag:
+    long: Hagai
+    short: Hag
+  Heb:
+    long: Hibru
+    short: Hib
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Isaia
+    short: Aes
+  Jas:
+    long: Iakobo
+    short: Iak
+  Jer:
+    long: Jeremia
+    short: Jer
+  Job:
+    long: Job
+    short: Job
+  Joel:
+    long: Joel
+    short: Jl
+  John:
+    long: Ioane
+    short: Ioa
+  Jonah:
+    long: Jona
+    short: Jon
+  Josh:
+    long: Josua
+    short: Jos
+  Jude:
+    long: Iude
+    short: Iud
+  Judg:
+    long: Tinoni Pede
+    short: Tin
+  Lam:
+    long: Tangitangi
+    short: Tang
+  Lev:
+    long: Aqo Manetabu
+    short: Lev
+  Luke:
+    long: Luka
+    short: Luk
+  Mal:
+    long: Malaki
+    short: Mal
+  Mark:
+    long: Marko
+    short: Mrk
+  Matt:
+    long: Mateo
+    short: Mat
+  Mic:
+    long: Mika
+    short: Mika
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nehemia
+    short: Niem
+  Num:
+    long: Tsoko Tinoni
+    short: Nabas
+  Obad:
+    long: Obadia
+    short: Ob
+  Phil:
+    long: Pilipi
+    short: Plp
+  Phlm:
+    long: Pilemon
+    short: Plm
+  Prov:
+    long: Goko Tabana
+    short: Gok
+  Ps:
+    long: Linge
+    short: Sam
+  Rev:
+    long: Na Katemai
+    short: Kate
+  Rom:
+    long: Roma
+    short: Rm
+  Ruth:
+    long: Rut
+    short: Rut
+  Song:
+    long: Linge Na Galuve
+    short: Ling Gal
+  Titus:
+    long: Titus
+    short: Tit
+  Zech:
+    long: Sekaria
+    short: Sek
+  Zeph:
+    long: Sepania
+    short: Sep

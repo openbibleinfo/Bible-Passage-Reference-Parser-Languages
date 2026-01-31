@@ -1,0 +1,109 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - પ્રકટીકરણ
+      - પ્રકટી.
+  - osis: Matt
+    texts:
+      - માથ્થી
+  - osis: Mark
+    texts:
+      - માર્ક
+  - osis: Luke
+    texts:
+      - લૂક
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - યોહાન
+      - યોહ.
+  - osis: Acts
+    texts:
+      - પ્રેરિતોનાં કૃત્યો
+      - પ્રે.કૃ
+  - osis: Rom
+    texts:
+      - રોમનોને પત્ર
+      - રોમ.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - કરિંથીઓને પત્ર
+      - કરિં.
+  - osis: Col
+    texts:
+      - કલોસ્સીઓને પત્ર
+      - કલો.
+  - osis: Gal
+    texts:
+      - ગલાતીઓને પત્ર
+      - ગલા.
+  - osis: Eph
+    texts:
+      - એફેસીઓને પત્ર
+      - એફે.
+  - osis: Phil
+    texts:
+      - ફિલિપ્પીઓને પત્ર
+      - ફિલિ.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - થેસ્સાલોનિકીઓને પત્ર
+      - થેસ્સ.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - તિમોથીને પત્ર
+      - તિમો.
+  - osis: Titus
+    texts:
+      - તિતસને પત્ર
+  - osis: Phlm
+    texts:
+      - ફીલેમોન ને પત્ર
+      - ફીલે.
+  - osis: Heb
+    texts:
+      - હિબ્રૂઓને પત્ર
+      - હિબ્રૂ.
+  - osis: Jas
+    texts:
+      - યાકૂબનો પત્ર
+      - યાકૂ.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - પિતરનો પત્ર
+      - પિત.
+  - osis: Jude
+    texts:
+      - યહૂદાનો પત્ર
+      - યહૂ.
+translations:
+  - KXPNT

@@ -1,0 +1,426 @@
+default:
+  1Chr:
+    long: 1 Nofoa‘iga a Tupu
+    short: 1 No
+  1Cor:
+    long: 1 Korinito
+    short: 1 Kori
+  1John:
+    long: 1 Ioane
+    short: 1 Ioane
+  1Kgs:
+    long: 1 Tupu
+    short: 1 Tu
+  1Macc:
+    long: 1 Makapaio
+    short: 1 Maka
+  1Pet:
+    long: 1 Peteru
+    short: 1 Pete
+  1Sam:
+    long: 1 Samuelu
+    short: 1 Samu
+  1Thess:
+    long: 1 Tesalonia
+    short: 1 Tesa
+  1Tim:
+    long: 1 Timoteo
+    short: 1 Timo
+  2Chr:
+    long: 2 Nofoa‘iga a Tupu
+    short: 2 No
+  2Cor:
+    long: 2 Korinito
+    short: 2 Kori
+  2John:
+    long: 2 Ioane
+    short: 2 Ioane
+  2Kgs:
+    long: 2 Tupu
+    short: 2 Tu
+  2Macc:
+    long: 2 Makapaio
+    short: 2 Maka
+  2Pet:
+    long: 2 Peteru
+    short: 2 Pete
+  2Sam:
+    long: 2 Samuelu
+    short: 2 Samu
+  2Thess:
+    long: 2 Tesalonia
+    short: 2 Tesa
+  2Tim:
+    long: 2 Timoteo
+    short: 2 Timo
+  3John:
+    long: 3 Ioane
+    short: 3 Ioane
+  Acts:
+    long: Galuega
+    short: Galu
+  Amos:
+    long: Amosa
+    short: Amo
+  Bar:
+    long: Baruch
+  Col:
+    long: Kolose
+    short: Kolo
+  Dan:
+    long: Tanielu,
+    short: Tan
+  DanGr:
+    long: Daniel Greek
+    short: Tani
+  Deut:
+    long: Teuteronome
+    short: Teu
+  Eccl:
+    long: Failauga
+    short: Fai
+  Eph:
+    long: Efeso
+    short: Efe
+  Esth:
+    long: Eseta,
+    short: Est
+  EsthGr:
+    long: Esther Greek
+    short: Ese
+  Exod:
+    long: Esoto
+    short: Eso
+  Ezek:
+    long: Esekielu
+    short: Esek
+  Ezra:
+    long: Esera
+    short: Ese
+  Gal:
+    long: Kalatia
+    short: Kala
+  Gen:
+    long: Kenese
+    short: Ken
+  Hab:
+    long: Sapakuka
+    short: Sap
+  Hag:
+    long: Hakai
+    short: Hak
+  Heb:
+    long: Eperu
+    short: Epe
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Isaia
+    short: Isa
+  Jas:
+    long: Iakopo
+    short: Iako
+  Jdt:
+    long: Iutita
+    short: Iuti
+  Jer:
+    long: Ieremia
+    short: Ier
+  Job:
+    long: Iopu
+    short: Iop
+  Joel:
+    long: Ioelu
+    short: Ioe
+  John:
+    long: Ioane
+    short: Ioane
+  Jonah:
+    long: Iona
+    short: Ion
+  Josh:
+    long: Iosua
+    short: Ios
+  Jude:
+    long: Iuta
+    short: Iuta
+  Judg:
+    long: Faamasino,
+    short: Faam
+  Lam:
+    long: Auega,
+    short: Aue
+  Lev:
+    long: Levitiko
+    short: Lev
+  Luke:
+    long: Luka
+    short: Luka
+  Mal:
+    long: Malaki
+    short: Mal
+  Mark:
+    long: Mareko
+    short: Mare
+  Matt:
+    long: Mataio
+    short: Mata
+  Mic:
+    long: Mika
+    short: MiK
+  Nah:
+    long: Nauma
+    short: Nau
+  Neh:
+    long: Neemia
+    short: Nee
+  Num:
+    long: Numera
+    short: Num
+  Obad:
+    long: Opetaia
+    short: Ope
+  Phil:
+    long: Filipi
+    short: Fili
+  Phlm:
+    long: Filemoni
+    short: File
+  Prov:
+    long: Faataoto,
+    short: Faat
+  Ps:
+    long: Salamo,
+    short: Sal
+  Rev:
+    long: Faaaliga,
+    short: Fa‘aa
+  Rom:
+    long: Roma
+    short: Roma
+  Ruth:
+    long: Ruta
+    short: Rut
+  Sir:
+    long: Sirako
+    short: Sira
+  Song:
+    long: Le Pese A Solomona,
+    short: P.sol
+  Titus:
+    long: Tito
+    short: Tito
+  Tob:
+    long: Topita
+    short: Topi
+  Wis:
+    long: Poto
+    short: Poto
+  Zech:
+    long: Sakaria
+    short: Sak
+  Zeph:
+    long: Sefanaia
+    short: Sef
+translations:
+  sov:
+    1Chr:
+      long: I. Nofoaiga A Tupu,
+      short: 1N.tup
+    1Cor:
+      long: I. Korinito,
+      short: 1Kor
+    1John:
+      long: I. Ioane,
+      short: 1Ioa
+    1Kgs:
+      long: I Tupu,
+      short: 1Tup
+    1Pet:
+      long: I. Peteru,
+      short: 1Pet
+    1Sam:
+      long: I. Samuelu,
+      short: 1Sam
+    1Thess:
+      long: I. Tesalonia,
+      short: 1Tes
+    1Tim:
+      long: I. Timoteo,
+      short: 1Tim
+    2Chr:
+      long: II. Nofoaiga A Tupu,
+      short: 2N.tup
+    2Cor:
+      long: II Korinito,
+      short: 2Kor
+    2John:
+      long: II. Ioane.
+      short: 2Ioa
+    2Kgs:
+      long: II Tupu,
+      short: 2Tup
+    2Pet:
+      long: II. Peteru,
+      short: 2Pet
+    2Sam:
+      long: II. Samuelu,
+      short: 2Sam
+    2Thess:
+      long: II Tesalonia,
+      short: 2Tes
+    2Tim:
+      long: II Timoteo,
+      short: 2Tim
+    3John:
+      long: III. Ioane.
+      short: 3Ioa
+    Acts:
+      long: Galuega,
+      short: Gal
+    Amos:
+      long: Amosa,
+    Col:
+      long: Kolose,
+      short: Kol
+    Deut:
+      long: Teuteronome,
+    Eccl:
+      long: Failauga,
+    Eph:
+      long: Efeso,
+    Ezek:
+      long: Esekielu,
+    Ezra:
+      long: Esera,
+    Gal:
+      long: Kalatia,
+      short: Kal
+    Gen:
+      long: Kenese,
+    Hab:
+      long: Sapakuka,
+    Hag:
+      long: Hakai,
+    Heb:
+      long: Eperu,
+    Hos:
+      long: Hosea,
+    Isa:
+      long: Isaia,
+    Jas:
+      long: Iakopo,
+      short: Iak
+    Jer:
+      long: Ieremia,
+    Job:
+      long: Iopu,
+    Joel:
+      long: Ioelu,
+    John:
+      long: Ioane,
+      short: Ioa
+    Jonah:
+      long: Iona,
+    Josh:
+      long: Iosua,
+    Jude:
+      long: Iuta.
+      short: Iut
+    Luke:
+      long: Luka,
+      short: Luk
+    Mal:
+      long: Malaki,
+    Mark:
+      long: Mareko,
+      short: Mar
+    Matt:
+      long: Mataio,
+      short: Mat
+    Mic:
+      long: Mika,
+    Nah:
+      long: Nauma,
+    Neh:
+      long: Neemia,
+    Obad:
+      long: Opetaia.
+    Phil:
+      long: Filipi,
+    Phlm:
+      long: Filemoni,
+    Rev:
+      short: Faal
+    Rom:
+      long: Roma,
+      short: Rom
+    Ruth:
+      long: Ruta,
+    Titus:
+      long: Tito,
+      short: Tit
+    Zech:
+      long: Sakaria,
+    Zeph:
+      long: Sefanaia,
+  rscb:
+    Ezek:
+      short: Eseki
+    Ezra:
+      short: Esera
+    Gen:
+      short: Kene
+    Hab:
+      short: Sapa
+    Hag:
+      short: Hakai
+    Hos:
+      short: Hose
+    Isa:
+      short: Isai
+    Jer:
+      short: Iere
+    Job:
+      short: Iopu
+    Jonah:
+      short: Iona
+    Josh:
+      short: Iosu
+    Judg:
+      long: Fa‘amasino
+      short: Fa‘ama
+    Lam:
+      long: Paruka
+      short: Paru
+    Lev:
+      short: Levi
+    Mal:
+      short: Mala
+    Mic:
+      short: Mika
+    Num:
+      short: Nume
+    Prov:
+      long: Fa‘ata‘oto
+      short: Fa‘ata
+    Ps:
+      long: Salāmo
+      short: Sala
+    Rev:
+      long: Fa‘aaliga
+    Ruth:
+      short: Ruta
+    Song:
+      long: Pese
+      short: Pese
+    Zech:
+      short: Saka
+    Zeph:
+      short: Sefa
+  scnt:
+    Phlm:
+      short: Filemoni
+    Rev:
+      long: O le Fa‘aaliga

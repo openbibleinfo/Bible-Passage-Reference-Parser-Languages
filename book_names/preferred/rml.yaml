@@ -1,0 +1,336 @@
+default:
+  1Chr:
+    long: 1 Paralipomienono
+    short: 1 Парал
+  1Cor:
+    long: 1 Korinfianenge
+    short: 1 Коринф
+  1John:
+    long: 1 Ian
+    short: 1 Иан
+  1Kgs:
+    long: 3 Kralip
+    short: 3 Кралип
+  1Pet:
+    long: 1 Petr
+    short: 1 Пэтр
+  1Sam:
+    long: 1 Kralip
+    short: 1 Кралип
+  1Thess:
+    long: 1 Fiesalonikiicenge
+    short: 1 Фесал
+  1Tim:
+    long: 1 Ximaske
+    short: 1 Химаскэ
+  2Chr:
+    long: 2 Paralipomienono
+    short: 2 Парал
+  2Cor:
+    long: 2 Korinfianenge
+    short: 2 Коринф
+  2John:
+    long: 2 Ian
+    short: 2 Иан
+  2Kgs:
+    long: 4 Kralip
+    short: 4 Кралип
+  2Pet:
+    long: 2 Petr
+    short: 2 Пэтр
+  2Sam:
+    long: 2 Kralip
+    short: 2 Кралип
+  2Thess:
+    long: 2 Fiesalonikiicenge
+    short: 2 Фесал
+  2Tim:
+    long: 2 Ximaske
+    short: 2 Химаскэ
+  3John:
+    long: 3 Ian
+    short: 3 Иан
+  Acts:
+    long: Apostolengiri Butý
+    short: Буты́
+  Amos:
+    long: Amoso
+    short: Амосо
+  Col:
+    long: Kolosianenge
+    short: Колос
+  Dan:
+    long: Danijéljo
+    short: Дание́лё
+  Deut:
+    long: Javír Zakóno
+    short: Яви́р Зако́но
+  Eccl:
+    long: Ekliesiastos
+    short: Эклес
+  Eph:
+    long: Efiesianenge
+    short: Эфес
+  Esth:
+    long: Ester
+    short: Эстэр
+  Exod:
+    long: Vygiiben
+    short: Выгиибэн
+  Ezek:
+    long: Jezekiljo
+    short: Езэкилё
+  Ezra:
+    long: Jézdra
+    short: Е́здра
+  Gal:
+    long: Galatenge
+    short: Галат
+  Gen:
+    long: Džiibén
+    short: Джиибэ́н
+  Hab:
+    long: Avakumo
+    short: Авакумо
+  Hag:
+    long: Agiejo
+    short: Агеё
+  Heb:
+    long: Judénge
+    short: Юдэ́нгэ
+  Hos:
+    long: Osija
+    short: Осия
+  Isa:
+    long: Isajos
+    short: Исаёс
+  Jas:
+    long: Jakov
+    short: Яков
+  Jer:
+    long: Jeriemiéjo
+    short: Ереме́ё
+  Job:
+    long: Ióvo
+    short: Ио́во
+  Joel:
+    long: Ioil
+    short: Иоил
+  John:
+    long: Iáno
+    short: Иа́но
+  Jonah:
+    long: Jona
+    short: Ёна
+  Josh:
+    long: Isúso
+    short: Ису́со
+  Jude:
+    long: Juda
+    short: Юда
+  Judg:
+    long: Sendar'jengiri Lylvarí
+    short: Лылвари́
+  Lam:
+    long: Roiben
+    short: Роибэн
+  Lev:
+    long: Lievito
+    short: Левито
+  Luke:
+    long: Luka
+    short: Лука
+  Mal:
+    long: Malahiia
+    short: Малахия
+  Mark:
+    long: Marko
+    short: Марко
+  Matt:
+    long: Matfiejo
+    short: Матфеё
+  Mic:
+    long: Mihiejo
+    short: Михеё
+  Nah:
+    long: Naumo
+    short: Наумо
+  Neh:
+    long: Nijemíia
+    short: Ниеми́я
+  Num:
+    long: Čysly
+    short: Чыслы
+  Obad:
+    long: Avdijos
+    short: Авдиёс
+  Phil:
+    long: Filipiicenge
+    short: Филип
+  Phlm:
+    long: Filimon
+    short: Филим
+  Prov:
+    long: Pritčy
+    short: Притчы
+  Ps:
+    long: Psalmy
+    short: Псалм
+  Rev:
+    long: Sykadyipén
+    short: Сыкад
+  Rom:
+    long: Rimlianenge
+    short: Римл
+  Ruth:
+    long: Ruta
+    short: Рута
+  Song:
+    long: Giliengiri Gilý
+    short: Гил
+  Titus:
+    long: Titoske
+    short: Тито
+  Zech:
+    long: Zahárija
+    short: Заха́рия
+  Zeph:
+    long: Sofonija
+    short: Софония
+translations:
+  rombalt:
+    1Chr:
+      long: 1 Паралипоменоно
+    1Cor:
+      long: 1 Коринфянэнгэ
+    1John:
+      long: 1 Иан
+    1Kgs:
+      long: 3 Кралип
+    1Pet:
+      long: 1 Пэтр
+    1Sam:
+      long: 1 Кралип
+    1Thess:
+      long: 1 Фесалоникийцэнгэ
+    1Tim:
+      long: 1 Химаскэ
+    2Chr:
+      long: 2 Паралипоменоно
+    2Cor:
+      long: 2 Коринфянэнгэ
+    2John:
+      long: 2 Иан
+    2Kgs:
+      long: 4 Кралип
+    2Pet:
+      long: 2 Пэтр
+    2Sam:
+      long: 2 Кралип
+    2Thess:
+      long: 2 Фесалоникийцэнгэ
+    2Tim:
+      long: 2 Химаскэ
+    3John:
+      long: 3 Иан
+    Acts:
+      long: Апостолэнгири Буты́
+    Amos:
+      long: Амосо
+    Col:
+      long: Колосянэнгэ
+    Dan:
+      long: Дание́лё
+    Deut:
+      long: Яви́р Зако́но
+    Eccl:
+      long: Эклес
+    Eph:
+      long: Эфесянэнгэ
+    Esth:
+      long: Эстэр
+    Exod:
+      long: Выгиибэн
+    Ezek:
+      long: Езэкилё
+    Ezra:
+      long: Е́здра
+    Gal:
+      long: Галатэнгэ
+    Gen:
+      long: Джиибэ́н
+    Hab:
+      long: Авакумо
+    Hag:
+      long: Агеё
+    Heb:
+      long: Юдэ́нгэ
+    Hos:
+      long: Осия
+    Isa:
+      long: Исаёс
+    Jas:
+      long: Яков
+    Jer:
+      long: Ереме́ё
+    Job:
+      long: Ио́во
+    Joel:
+      long: Иоил
+    John:
+      long: Иа́но
+    Jonah:
+      long: Ёна
+    Josh:
+      long: Ису́со
+    Jude:
+      long: Юда
+    Judg:
+      long: Сэндарьенгири Лылвари́
+    Lam:
+      long: Роибэн
+    Lev:
+      long: Левито
+    Luke:
+      long: Лука
+    Mal:
+      long: Малахия
+    Mark:
+      long: Марко
+    Matt:
+      long: Матфеё
+    Mic:
+      long: Михеё
+    Nah:
+      long: Наумо
+    Neh:
+      long: Ниеми́я
+    Num:
+      long: Чыслы
+    Obad:
+      long: Авдиёс
+    Phil:
+      long: Филипийцэнгэ
+    Phlm:
+      long: Филимон
+    Prov:
+      long: Притчы
+    Ps:
+      long: Псалм
+    Rev:
+      long: Сыкадыипэ́н
+    Rom:
+      long: Римлянэнгэ
+    Ruth:
+      long: Рута
+    Song:
+      long: Гил
+    Titus:
+      long: Титоскэ
+    Zech:
+      long: Заха́рия
+    Zeph:
+      long: Софония
+  let1933:
+    John:
+      long: Joannostir

@@ -1,0 +1,321 @@
+- osis: Gen
+  texts:
+    - Genese
+    - Gene
+- osis: Exod
+  texts:
+    - Exodo
+    - Exo
+- osis: Lev
+  texts:
+    - Levitiku
+    - Levi
+- osis: Num
+  texts:
+    - Numero
+    - Nume
+- osis: Lam
+  texts:
+    - Te Aue A Ieremia
+    - Aue
+- osis: Rev
+  texts:
+    - Apokalupo
+    - Apo
+- osis: Deut
+  texts:
+    - Deuteronomi
+    - Deu
+- osis: Josh
+  texts:
+    - Iosua
+    - Iosu
+- osis: Judg
+  texts:
+    - Te Au Akava
+    - Aka
+- osis: Ruth
+  texts:
+    - Ruta
+- osis: Isa
+  texts:
+    - Isaia
+    - Isa
+- osis: 1Sam
+  texts:
+    - 1 Samuela
+    - 1 Samu
+    - 1. Samuela
+    - 1. Samu
+- osis: 2Sam
+  texts:
+    - 2 Samuela
+    - 2 Samu
+    - 2. Samuela
+    - 2. Samu
+- osis: 1Kgs
+  texts:
+    - 1 Ariki
+    - 1 Ari
+    - 1. Ariki
+    - 1. Ari
+- osis: 2Kgs
+  texts:
+    - 2 Ariki
+    - 2 Ari
+    - 2. Ariki
+    - 2. Ari
+- osis: 1Chr
+  texts:
+    - 1 Paraleipomeno
+    - 1 Para
+    - 1. Paraleipomeno
+    - 1. Para
+- osis: 2Chr
+  texts:
+    - 2 Paraleipomeno
+    - 2 Para
+    - 2. Paraleipomeno
+    - 2. Para
+- osis: Ezra
+  texts:
+    - Ezera
+- osis: Neh
+  texts:
+    - Nehemia
+    - Nehe
+- osis: Esth
+  texts:
+    - Esetera
+    - Esete
+- osis: Job
+  texts:
+    - Iobu
+- osis: Ps
+  texts:
+    - Salamo
+    - Sala
+- osis: Prov
+  texts:
+    - Maseli
+    - Mase
+- osis: Eccl
+  texts:
+    - Koheleta
+    - Kohe
+- osis: Song
+  texts:
+    - Te Imene A Solomona
+    - Ime
+- osis: Jer
+  texts:
+    - Ieremia
+    - Iere
+- osis: Ezek
+  texts:
+    - Ezekiela
+    - Eze
+- osis: Dan
+  texts:
+    - Daniela
+    - Dani
+- osis: Hos
+  texts:
+    - Hosea
+    - Hose
+- osis: Joel
+  texts:
+    - Ioela
+- osis: Amos
+  texts:
+    - Amosa
+    - Amo
+- osis: Obad
+  texts:
+    - Obadia
+    - Oba
+- osis: Jonah
+  texts:
+    - Iona
+- osis: Mic
+  texts:
+    - Mika
+- osis: Nah
+  texts:
+    - Nahuma
+    - Nahu
+- osis: Hab
+  texts:
+    - Habakuka
+    - Haba
+- osis: Zeph
+  texts:
+    - Zephania
+    - Zepha
+- osis: Hag
+  texts:
+    - Hagai
+    - Haga
+- osis: Zech
+  texts:
+    - Zekaria
+    - Zeka
+- osis: Mal
+  texts:
+    - Malaki
+    - Mala
+- osis: Matt
+  texts:
+    - Mataio
+    - Mātaio
+    - Mata
+    - Māt
+- osis: Mark
+  texts:
+    - Mareko
+    - Māreko
+    - Mare
+    - Mār
+- osis: Luke
+  texts:
+    - Luka
+    - Luk
+- osis: 1John
+  texts:
+    - 1 Ioane
+    - 1 Ioa
+    - 1. Ioane
+    - 1. Ioa
+- osis: 2John
+  texts:
+    - 2 Ioane
+    - 2 Ioa
+    - 2. Ioane
+    - 2. Ioa
+- osis: 3John
+  texts:
+    - 3 Ioane
+    - 3 Ioa
+    - 3. Ioane
+    - 3. Ioa
+- osis: John
+  texts:
+    - Ioane
+    - Ioa
+- osis: Acts
+  texts:
+    - "'Anga'anga"
+    - Angaanga
+    - Anga
+- osis: Rom
+  texts:
+    - Roma
+    - Rōma
+    - Rōm
+- osis: 1Cor
+  texts:
+    - 1 Korinetia
+    - 1 Kōrīnētia
+    - 1 Kori
+    - 1 Kōr
+    - 1. Korinetia
+    - 1. Kōrīnētia
+    - 1. Kori
+    - 1. Kōr
+- osis: 2Cor
+  texts:
+    - 2 Korinetia
+    - 2 Kōrīnētia
+    - 2 Kori
+    - 2 Kōr
+    - 2. Korinetia
+    - 2. Kōrīnētia
+    - 2. Kori
+    - 2. Kōr
+- osis: Col
+  texts:
+    - Kolosa
+    - Kolo
+    - Kol
+- osis: Gal
+  texts:
+    - Galatia
+    - Gala
+    - Gal
+- osis: Eph
+  texts:
+    - Ephesia
+    - Ephe
+    - Eph
+- osis: Phil
+  texts:
+    - Philipi
+    - Phili
+    - Phil
+- osis: 1Thess
+  texts:
+    - 1 Tesalonia
+    - 1 Tesalōnia
+    - 1 Tesa
+    - 1. Tesalonia
+    - 1. Tesalōnia
+    - 1. Tesa
+- osis: 2Thess
+  texts:
+    - 2 Tesalonia
+    - 2 Tesalōnia
+    - 2 Tesa
+    - 2. Tesalonia
+    - 2. Tesalōnia
+    - 2. Tesa
+- osis: 1Tim
+  texts:
+    - 1 Timoteo
+    - 1 Timōteo
+    - 1 Timo
+    - 1. Timoteo
+    - 1. Timōteo
+    - 1. Timo
+- osis: 2Tim
+  texts:
+    - 2 Timoteo
+    - 2 Timōteo
+    - 2 Timo
+    - 2. Timoteo
+    - 2. Timōteo
+    - 2. Timo
+- osis: Titus
+  texts:
+    - Tito
+- osis: Phlm
+  texts:
+    - Philemona
+    - Phile
+    - Phlm
+- osis: Heb
+  texts:
+    - Ebera
+    - Ebe
+- osis: Jas
+  texts:
+    - Iakobo
+    - Iako
+- osis: 1Pet
+  texts:
+    - 1 Petero
+    - 1 Pete
+    - 1 Pet
+    - 1. Petero
+    - 1. Pete
+    - 1. Pet
+- osis: 2Pet
+  texts:
+    - 2 Petero
+    - 2 Pete
+    - 2 Pet
+    - 2. Petero
+    - 2. Pete
+    - 2. Pet
+- osis: Jude
+  texts:
+    - Iuda

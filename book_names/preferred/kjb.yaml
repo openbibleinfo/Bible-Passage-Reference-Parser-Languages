@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Cr
+    short: 1 Cr
+  1Cor:
+    long: 1 Co
+    short: 1 Co
+  1John:
+    long: 1 Jn
+    short: 1 Jn
+  1Kgs:
+    long: 1 R
+    short: 1 R
+  1Pet:
+    long: 1 P
+    short: 1 P
+  1Sam:
+    long: 1 S
+    short: 1 S
+  1Thess:
+    long: 1 Ts
+    short: 1 Ts
+  1Tim:
+    long: 1 Ti
+    short: 1 Ti
+  2Chr:
+    long: 2 Cr
+    short: 2 Cr
+  2Cor:
+    long: 2 Co
+    short: 2 Co
+  2John:
+    long: 2 Jn
+    short: 2 Jn
+  2Kgs:
+    long: 2 R
+    short: 2 R
+  2Pet:
+    long: 2 P
+    short: 2 P
+  2Sam:
+    long: 2 S
+    short: 2 S
+  2Thess:
+    long: 2 Ts
+    short: 2 Ts
+  2Tim:
+    long: 2 Ti
+    short: 2 Ti
+  3John:
+    long: 3 Jn
+    short: 3 Jn
+  Acts:
+    long: Hch
+    short: Hch
+  Amos:
+    long: Am
+    short: Am
+  Col:
+    long: Col
+    short: Col
+  Dan:
+    long: Dn
+    short: Dn
+  Deut:
+    long: Dt
+    short: Dt
+  Eccl:
+    long: Ec
+    short: Ec
+  Eph:
+    long: Ef
+    short: Ef
+  Esth:
+    long: Est
+    short: Est
+  Exod:
+    long: Ex
+    short: Ex
+  Ezek:
+    long: Ez
+    short: Ez
+  Ezra:
+    long: Esd
+    short: Esd
+  Gal:
+    long: Gl
+    short: Gl
+  Gen:
+    long: Gn
+    short: Gn
+  Hab:
+    long: Hab
+    short: Hab
+  Hag:
+    long: Hag
+    short: Hag
+  Heb:
+    long: Heb
+    short: Heb
+  Hos:
+    long: Os
+    short: Os
+  Isa:
+    long: Is
+    short: Is
+  Jas:
+    long: Stg
+    short: Stg
+  Jer:
+    long: Jer
+    short: Jer
+  Job:
+    long: Job
+    short: Job
+  Joel:
+    long: Jl
+    short: Jl
+  John:
+    long: Jn
+    short: Jn
+  Jonah:
+    long: Jon
+    short: Jon
+  Josh:
+    long: Jos
+    short: Jos
+  Jude:
+    long: Jud
+    short: Jud
+  Judg:
+    long: Jue
+    short: Jue
+  Lam:
+    long: Lm
+    short: Lm
+  Lev:
+    long: Lv
+    short: Lv
+  Luke:
+    long: Lc
+    short: Lc
+  Mal:
+    long: Mal
+    short: Mal
+  Mark:
+    long: Mc
+    short: Mc
+  Matt:
+    long: Mt
+    short: Mt
+  Mic:
+    long: Miq
+    short: Miq
+  Nah:
+    long: Nah
+    short: Nah
+  Neh:
+    long: Neh
+    short: Neh
+  Num:
+    long: Nm
+    short: Nm
+  Obad:
+    long: Abd
+    short: Abd
+  Phil:
+    long: Flp
+    short: Flp
+  Phlm:
+    long: Flm
+    short: Flm
+  Prov:
+    long: Pr
+    short: Pr
+  Ps:
+    long: Sal
+    short: Sal
+  Rev:
+    long: Ap
+    short: Ap
+  Rom:
+    long: Ro
+    short: Ro
+  Ruth:
+    long: Rt
+    short: Rt
+  Song:
+    long: Cnt
+    short: Cnt
+  Titus:
+    long: Tit
+    short: Tit
+  Zech:
+    long: Zac
+    short: Zac
+  Zeph:
+    long: Sof
+    short: Sof

@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - I.
+  second: &second
+    - II.
+  third: &third
+    - III.
+books:
+  - osis: Rev
+    texts:
+      - Wayuotanin
+  - osis: Matt
+    texts:
+      - Mattheos
+  - osis: Mark
+    texts:
+      - Markos
+  - osis: Luke
+    texts:
+      - Lukas
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Johannes
+  - osis: Acts
+    texts:
+      - Olianyanpi kin
+  - osis: Rom
+    texts:
+      - Roma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinth
+  - osis: Col
+    texts:
+      - Kolosse
+  - osis: Gal
+    texts:
+      - Galatia
+  - osis: Eph
+    texts:
+      - Ephesos
+  - osis: Phil
+    texts:
+      - Philippi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thessalonike
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotheos
+  - osis: Titus
+    texts:
+      - Titos
+  - osis: Phlm
+    texts:
+      - Philemon
+  - osis: Heb
+    texts:
+      - Hebrew
+  - osis: Jas
+    texts:
+      - Jakob
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Inyan
+  - osis: Jude
+    texts:
+      - Judas
+translations:
+  - DAKOTANT

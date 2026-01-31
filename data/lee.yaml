@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Kɔn dɛ̀bɛ́ Zhã nɔ mɔ́
+  - osis: Matt
+    texts:
+      - Məco
+  - osis: Mark
+    texts:
+      - Markɛ
+  - osis: Luke
+    texts:
+      - Lwiki
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Zhã
+  - osis: Acts
+    texts:
+      - Tùntúmə́ bé
+  - osis: Rom
+    texts:
+      - Orɔm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kɔrɛ̃tɛ
+  - osis: Col
+    texts:
+      - Kɔlɔɔsɛ
+  - osis: Gal
+    texts:
+      - Galəshi
+  - osis: Eph
+    texts:
+      - Efɛɛzɛ
+  - osis: Phil
+    texts:
+      - Shilipu
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesəloniki
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+  - osis: Titus
+    texts:
+      - Titi
+  - osis: Phlm
+    texts:
+      - Shəlamɔ
+  - osis: Heb
+    texts:
+      - Ebərəbá
+  - osis: Jas
+    texts:
+      - Zhakɛ
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pyɛɛrɛ
+  - osis: Jude
+    texts:
+      - Zhidi
+translations:
+  - LEE

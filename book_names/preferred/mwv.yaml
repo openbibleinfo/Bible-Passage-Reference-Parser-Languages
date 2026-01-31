@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1Taw.
+    short: 1Taw.
+  1Cor:
+    long: 1Kor.
+    short: 1Kor.
+  1John:
+    long: 1Joh.
+    short: 1Joh.
+  1Kgs:
+    long: 1Rim.
+    short: 1Rim.
+  1Pet:
+    long: 1Ptr.
+    short: 1Ptr.
+  1Sam:
+    long: 1Sam.
+    short: 1Sam.
+  1Thess:
+    long: 1Tes.
+    short: 1Tes.
+  1Tim:
+    long: 1Tim.
+    short: 1Tim.
+  2Chr:
+    long: 2Taw.
+    short: 2Taw.
+  2Cor:
+    long: 2Kor.
+    short: 2Kor.
+  2John:
+    long: 2Joh.
+    short: 2Joh.
+  2Kgs:
+    long: 2Rim.
+    short: 2Rim.
+  2Pet:
+    long: 2Ptr.
+    short: 2Ptr.
+  2Sam:
+    long: 2Sam.
+    short: 2Sam.
+  2Thess:
+    long: 2Tes.
+    short: 2Tes.
+  2Tim:
+    long: 2Tim.
+    short: 2Tim.
+  3John:
+    long: 3Joh.
+    short: 3Joh.
+  Acts:
+    long: Pugap.
+    short: Pugap.
+  Amos:
+    long: Ams.
+    short: Ams.
+  Col:
+    long: Kol.
+    short: Kol.
+  Dan:
+    long: Dan.
+    short: Dan.
+  Deut:
+    long: 5Mos.
+    short: 5Mos.
+  Eccl:
+    long: Sip.
+    short: Sip.
+  Eph:
+    long: Ep.
+    short: Ep.
+  Esth:
+    long: Est.
+    short: Est.
+  Exod:
+    long: 2Mos.
+    short: 2Mos.
+  Ezek:
+    long: Jehz.
+    short: Jehz.
+  Ezra:
+    long: Ezra
+    short: Ezra
+  Gal:
+    long: Gal.
+    short: Gal.
+  Gen:
+    long: 1Mos.
+    short: 1Mos.
+  Hab:
+    long: Hab.
+    short: Hab.
+  Hag:
+    long: Hag.
+    short: Hag.
+  Heb:
+    long: Ibr.
+    short: Ibr.
+  Hos:
+    long: Hos.
+    short: Hos.
+  Isa:
+    long: Jes.
+    short: Jes.
+  Jas:
+    long: Jak.
+    short: Jak.
+  Jer:
+    long: Jer.
+    short: Jer.
+  Job:
+    long: Job
+    short: Job
+  Joel:
+    long: Jol.
+    short: Jol.
+  John:
+    long: Joh.
+    short: Joh.
+  Jonah:
+    long: Jon.
+    short: Jon.
+  Josh:
+    long: Jos.
+    short: Jos.
+  Jude:
+    long: Jud.
+    short: Jud.
+  Judg:
+    long: Pas.
+    short: Pas.
+  Lam:
+    long: Sou.
+    short: Sou.
+  Lev:
+    long: 3Mos.
+    short: 3Mos.
+  Luke:
+    long: Luk.
+    short: Luk.
+  Mal:
+    long: Malk.
+    short: Malk.
+  Mark:
+    long: Mrk.
+    short: Mrk.
+  Matt:
+    long: Mat.
+    short: Mat.
+  Mic:
+    long: Mik.
+    short: Mik.
+  Nah:
+    long: Nah.
+    short: Nah.
+  Neh:
+    long: Neh.
+    short: Neh.
+  Num:
+    long: 4Mos.
+    short: 4Mos.
+  Obad:
+    long: Obj.
+    short: Obj.
+  Phil:
+    long: Plp.
+    short: Plp.
+  Phlm:
+    long: Plm.
+    short: Plm.
+  Prov:
+    long: Pangt.
+    short: Pangt.
+  Ps:
+    long: Psalmen
+    short: Psalm.
+  Rev:
+    long: Pamoil.
+    short: Pamoil.
+  Rom:
+    long: Rm.
+    short: Rm.
+  Ruth:
+    long: Rut
+    short: Rut
+  Song:
+    long: Ur.Sab.
+    short: Ur.Sab.
+  Titus:
+    long: Tit.
+    short: Tit.
+  Zech:
+    long: Zakh.
+    short: Zakh.
+  Zeph:
+    long: Zep.
+    short: Zep.

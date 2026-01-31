@@ -1,0 +1,141 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Efijanm mo enggwà
+      - Efi
+  - osis: Matt
+    texts:
+      - Matiyu
+      - Mat
+  - osis: Mark
+    texts:
+      - Marku
+      - Mak
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Yoh
+  - osis: 2John
+    texts:
+      - 2Yoh
+  - osis: 3John
+    texts:
+      - 3 Yohana
+      - 3Yoh
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yohana
+  - osis: John
+    texts:
+      - Yohana
+      - Yoh
+  - osis: Acts
+    texts:
+      - Be Mochi
+      - Bmoc
+  - osis: Rom
+    texts:
+      - Be ya a Roma
+      - Brom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Be ya a Korinti
+  - osis: 1Cor
+    texts:
+      - 1Bko
+  - osis: 2Cor
+    texts:
+      - 2Bko
+  - osis: Col
+    texts:
+      - Be ya a Kolosi
+      - Bkol
+  - osis: Gal
+    texts:
+      - Be ya a Galati
+      - Bgal
+  - osis: Eph
+    texts:
+      - Be ya a Afisa
+      - Bafi
+  - osis: Phil
+    texts:
+      - Be ya a Filibi
+      - Bfil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Be ya a Tasalonika
+  - osis: 1Thess
+    texts:
+      - 1Bta
+  - osis: 2Thess
+    texts:
+      - 2Bta
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Titu
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filimo
+      - Fil
+  - osis: Heb
+    texts:
+      - Be ya a Ebru
+      - Ebru
+  - osis: Jas
+    texts:
+      - Yakubo
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Bitru
+  - osis: 1Pet
+    texts:
+      - 1Bit
+  - osis: 2Pet
+    texts:
+      - 2Bit
+  - osis: Jude
+    texts:
+      - Juda
+      - Jud
+translations:
+  - ICH

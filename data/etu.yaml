@@ -1,0 +1,113 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Ndem i jon, echî
+      - Ndem
+  - osis: Matt
+    texts:
+      - Matiyu, echî
+      - Mat
+  - osis: Mark
+    texts:
+      - Mak, echî
+      - Mak
+  - osis: Luke
+    texts:
+      - Luk, echî
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jon, echî
+      - Jon
+  - osis: Acts
+    texts:
+      - Etûm ágbán í jisos, echî
+      - Etûm
+  - osis: Rom
+    texts:
+      - Ane rom, echî
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Ane korin, echî
+      - Korin
+  - osis: Col
+    texts:
+      - Ane korose, echî
+      - Kor
+  - osis: Gal
+    texts:
+      - Ane garasiya, echî
+      - Gar
+  - osis: Eph
+    texts:
+      - Ane efesus, echî
+      - Efe
+  - osis: Phil
+    texts:
+      - Ane firipi, echî
+      - Fir
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Ane tesaronika, echî
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti, echî
+      - Tim
+  - osis: Titus
+    texts:
+      - Tayitus, echî
+      - Tay
+  - osis: Phlm
+    texts:
+      - Farimun, echî
+      - Farm
+  - osis: Heb
+    texts:
+      - Ane ibru, echî
+      - Ibru
+  - osis: Jas
+    texts:
+      - Jems, echî
+      - Jems
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita, echî
+      - Pita
+  - osis: Jude
+    texts:
+      - Jʉt, echî
+      - Jʉt
+translations:
+  - ETUNT

@@ -1,0 +1,160 @@
+variables:
+  first: &first
+    - "1"
+    - "1."
+  second: &second
+    - "2"
+    - "2."
+books:
+  - osis: Gen
+    texts:
+      - Genesis
+  - osis: Rev
+    texts:
+      - Johannese ilmutus
+      - Ilmutus
+      - Ilm
+  - osis: Matt
+    texts:
+      - Matteuse evangeelium
+      - Matteuse
+      - Matteus
+      - Mt
+  - osis: Mark
+    texts:
+      - Markuse evangeelium
+      - Markuse
+      - Markus
+      - Mk
+  - osis: Luke
+    texts:
+      - Luuka evangeelium
+      - Luuka
+      - Lk
+  - osis: 1John
+    texts:
+      - 1Jh
+  - osis: 2John
+    texts:
+      - 2Jh
+  - osis: 3John
+    texts:
+      - 3. Johannese
+      - 3 Johannese
+      - 3Jh
+  - osis: John
+    texts:
+      - Johannese evangeelium
+      - Johannese
+      - Johannes
+      - Jh
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Johannese
+  - osis: Acts
+    texts:
+      - Apostlite teod
+      - Apostlite
+      - Ap
+  - osis: Rom
+    texts:
+      - Roomlastele
+      - Roomlased
+      - Rm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintlastele
+  - osis: 1Cor
+    texts:
+      - 1Kr
+  - osis: 2Cor
+    texts:
+      - 2Kr
+  - osis: Col
+    texts:
+      - Koloslastele
+      - Kl
+  - osis: Gal
+    texts:
+      - Galaatlastele
+      - Gl
+  - osis: Eph
+    texts:
+      - Efeslastele
+      - Ef
+  - osis: Phil
+    texts:
+      - Filiplastele
+      - Fl
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tessalooniklastele
+  - osis: 1Thess
+    texts:
+      - 1Ts
+  - osis: 2Thess
+    texts:
+      - 2Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteosele
+  - osis: 1Tim
+    texts:
+      - 1Tm
+  - osis: 2Tim
+    texts:
+      - 2Tm
+  - osis: Titus
+    texts:
+      - Tiitusele
+      - Tt
+  - osis: Phlm
+    texts:
+      - Fileemonile
+      - Fm
+  - osis: Heb
+    texts:
+      - Heebrealastele
+      - Hb
+  - osis: Jas
+    texts:
+      - Jaakobuse
+      - Jakoobuse
+      - Jk
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peetruse
+  - osis: 1Pet
+    texts:
+      - 1Pt
+  - osis: 2Pet
+    texts:
+      - 2Pt
+  - osis: Jude
+    texts:
+      - Juuda
+      - Jd
+translations:
+  - EEP
+  - PKP
+  - ECV

@@ -1,0 +1,76 @@
+default:
+  1Cor:
+    long: 1 Kolito
+    short: 1Ko
+  1John:
+    long: 1 Yowani
+    short: 1Yo
+  1Pet:
+    long: 1 Peetelo
+    short: 1Pe
+  1Thess:
+    long: 1 Tesalonika
+    short: 1Te
+  1Tim:
+    long: 1 Timoteo
+    short: 1Ti
+  2John:
+    long: 2 Yowani
+    short: 2Yo
+  2Pet:
+    long: 2 Peetero
+    short: 2Pe
+  2Thess:
+    long: 2 Tesalonika
+    short: 2Te
+  2Tim:
+    long: 2 Timoteo
+    short: 2Ti
+  3John:
+    long: 3 Yowani
+    short: 3Yo
+  Acts:
+    long: Biyiluu
+    short: Biy
+  Col:
+    long: Kolosaayi
+    short: Kol
+  Eph:
+    long: Efeso
+    short: Efe
+  Gal:
+    long: Ngalatia
+    short: Ngl
+  Jas:
+    long: Yaakobi
+    short: Yak
+  John:
+    long: Yowani
+    short: Yow
+  Jude:
+    long: Yuude
+    short: Yud
+  Luke:
+    long: Luka
+    short: Luk
+  Mark:
+    long: Malako
+    short: Mlk
+  Matt:
+    long: Mataayi
+    short: Mat
+  Phil:
+    long: Filipi
+    short: Flp
+  Phlm:
+    long: Filemoni
+    short: Fil
+  Rev:
+    long: Nziaabisi a Yowani
+    short: Nzi
+  Rom:
+    long: Looma
+    short: Lom
+  Titus:
+    long: Tiite
+    short: Tit

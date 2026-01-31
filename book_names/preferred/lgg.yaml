@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Suru Ma E'yo
+    short: 1 Sur
+  1Cor:
+    long: 1 'Ba Korintoa 'Diyi
+    short: 1 Kor
+  1John:
+    long: 1 Yohana
+    short: 1 Yoh
+  1Kgs:
+    long: 1 Opi
+    short: 1 Opi
+  1Pet:
+    long: 1 Petero
+    short: 1 Pet
+  1Sam:
+    long: 1 Samueli
+    short: 1 Sam
+  1Thess:
+    long: 1 'Ba Tesalonikia 'Diyi
+    short: 1 Tes
+  1Tim:
+    long: 1 Timoteo
+    short: 1 Tim
+  2Chr:
+    long: 2 Suru Ma E'yo
+    short: 2 Sur
+  2Cor:
+    long: 2 'Ba Korintoa 'Diyi
+    short: 2 Kor
+  2John:
+    long: 2 Yohana
+    short: 2 Yoh
+  2Kgs:
+    long: 2 Opi
+    short: 2 Opi
+  2Pet:
+    long: 2 Petero
+    short: 2 Pet
+  2Sam:
+    long: 2 Samueli
+    short: 2 Sam
+  2Thess:
+    long: 2 'Ba Tesalonikia 'Diyi
+    short: 2 Tes
+  2Tim:
+    long: 2 Timoteo
+    short: 2 Tim
+  3John:
+    long: 3 Yohana
+    short: 3 Yoh
+  Acts:
+    long: ’Yeta
+    short: ’Yeta
+  Amos:
+    long: Amosi
+    short: Amo
+  Col:
+    long: "'Ba Kolosaia 'Diyi"
+    short: Kol
+  Dan:
+    long: Danieli
+    short: Dan
+  Deut:
+    long: Azita Amvizu
+    short: Azi
+  Eccl:
+    long: Eklesiaste
+    short: Ekl
+  Eph:
+    long: "'Ba Efesoa 'Diyi"
+    short: Efe
+  Esth:
+    long: Esiteri
+    short: Esi
+  Exod:
+    long: Efuza
+    short: Efu
+  Ezek:
+    long: Ezekieli
+    short: Eze
+  Ezra:
+    long: Ezira
+    short: Ezr
+  Gal:
+    long: "'Ba Galatiaa 'Diyi"
+    short: Gal
+  Gen:
+    long: E’doza
+    short: E’do
+  Hab:
+    long: Habakuki
+    short: Hab
+  Hag:
+    long: Hagai
+    short: Hag
+  Heb:
+    long: "'Ba Ebraniani"
+    short: Ebra
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Isaya
+    short: Isa
+  Jas:
+    long: Yakoboni
+    short: Yak
+  Jer:
+    long: Yeremia
+    short: Yer
+  Job:
+    long: Yobu
+    short: Yob
+  Joel:
+    long: Yoeli
+    short: Yoe
+  John:
+    long: Yohana
+    short: Yoh
+  Jonah:
+    long: Yona
+    short: Yon
+  Josh:
+    long: Yosua
+    short: Yos
+  Jude:
+    long: Yuda
+    short: Yud
+  Judg:
+    long: "'Ba E'yo Lipi 'Diyini"
+    short: Lip
+  Lam:
+    long: Imvo Ongo
+    short: Imv
+  Lev:
+    long: "'Ba Levini"
+    short: Lev
+  Luke:
+    long: Luka
+    short: Luk
+  Mal:
+    long: Malaki
+    short: Mal
+  Mark:
+    long: Marako
+    short: Mar
+  Matt:
+    long: Matayo
+    short: Mat
+  Mic:
+    long: Mika
+    short: MiK
+  Nah:
+    long: Nahumi
+    short: Nah
+  Neh:
+    long: Nehemia
+    short: Neh
+  Num:
+    long: Kalafe
+    short: Kal
+  Obad:
+    long: Obadia
+    short: Oba
+  Phil:
+    long: "'Ba Filipia 'Diyi"
+    short: Fil
+  Phlm:
+    long: Filemona
+    short: File
+  Prov:
+    long: E'yo O'beza
+    short: O’be
+  Ps:
+    long: Zaburi
+    short: Zab
+  Rev:
+    long: E'yo Eceza
+    short: Eceza
+  Rom:
+    long: "'Ba Rumia 'Diyi"
+    short: Rum
+  Ruth:
+    long: Rutu
+    short: Rut
+  Song:
+    long: Ongo Sulemanini
+    short: Ong
+  Titus:
+    long: Tito
+    short: Tit
+  Zech:
+    long: Zekaria
+    short: Zek
+  Zeph:
+    long: Zefania
+    short: Zef

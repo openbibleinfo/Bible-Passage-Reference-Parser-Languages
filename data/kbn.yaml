@@ -1,0 +1,121 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Apocalypse
+      - Apoc
+  - osis: Matt
+    texts:
+      - Saint Matthieu
+      - Matthieu
+  - osis: Mark
+    texts:
+      - Saint Marc
+      - Marc
+  - osis: Luke
+    texts:
+      - Saint Luc
+      - Luc
+  - osis: 1John
+    texts:
+      - Titili Takarata a Jean ko̱ dé
+  - osis: 3John
+    texts:
+      - Takarata Saïkè a Jean ko̱ dé
+      - 3 Jean
+  - osis: John
+    texts:
+      - Saint Jean
+      - Jean
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jean
+  - osis: Acts
+    texts:
+      - Pinali a Njou‐Mboro‐Pinali
+      - Pinali
+  - osis: Rom
+    texts:
+      - Romainli
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corinthienli
+      - Cor
+  - osis: Col
+    texts:
+      - Colossienli
+      - Col
+  - osis: Gal
+    texts:
+      - Galateli
+      - Gal
+  - osis: Eph
+    texts:
+      - Éphésienli
+      - Éph
+  - osis: Phil
+    texts:
+      - Philippienli
+      - Philip
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thessalonicienli
+      - Thess
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Timothée
+      - Tim
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tim
+  - osis: Titus
+    texts:
+      - Tite
+  - osis: Phlm
+    texts:
+      - Philémon
+      - Philém
+  - osis: Heb
+    texts:
+      - Hébreuli
+      - Héb
+  - osis: Jas
+    texts:
+      - Jac
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - Titili Takarata a Pierre ko̱ dé
+      - Pierre
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pierre
+  - osis: Jude
+    texts:
+      - Jude
+translations:
+  - KBN1947

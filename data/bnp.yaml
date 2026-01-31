@@ -1,0 +1,170 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - A Vuhuna
+      - Vuh
+  - osis: Exod
+    texts:
+      - A Nimariu
+      - Nim
+  - osis: Lev
+    texts:
+      - E Levi
+      - Levi
+  - osis: Num
+    texts:
+      - Ni Gi
+      - Gi
+  - osis: Rev
+    texts:
+      - Kapiloho
+      - Kap
+  - osis: Deut
+    texts:
+      - Vinara
+      - Vin
+  - osis: Josh
+    texts:
+      - Iosua
+      - Ios
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis: Jonah
+    texts:
+      - Iona
+  - osis: Matt
+    texts:
+      - Mateo
+      - Mat
+  - osis: Mark
+    texts:
+      - Markus
+      - Mrk
+  - osis: Luke
+    texts:
+      - Lukas
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Ion
+  - osis: 2John
+    texts:
+      - 2Ion
+  - osis: 3John
+    texts:
+      - 3 Ioanes
+      - 3Ion
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Ioanes
+  - osis: John
+    texts:
+      - Ioanes
+      - Ion
+  - osis: Acts
+    texts:
+      - Apostolo
+      - Apo
+  - osis: Rom
+    texts:
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korin
+  - osis: 1Cor
+    texts:
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - 2Ko
+  - osis: Col
+    texts:
+      - Kolosi
+      - Kol
+  - osis: Gal
+    texts:
+      - Galesia
+      - Gal
+  - osis: Eph
+    texts:
+      - Epesus
+      - Epe
+  - osis: Phil
+    texts:
+      - Pilipai
+      - Pili
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonika
+  - osis: 1Thess
+    texts:
+      - 1Tes
+  - osis: 2Thess
+    texts:
+      - 2Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Titus
+      - Tit
+  - osis: Phlm
+    texts:
+      - Pilemon
+      - Pmn
+  - osis: Heb
+    texts:
+      - Hibru
+      - Hib
+  - osis: Jas
+    texts:
+      - Iakop
+      - Iak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petrus
+  - osis: 1Pet
+    texts:
+      - 1Pe
+  - osis: 2Pet
+    texts:
+      - 2Pe
+  - osis: Jude
+    texts:
+      - Iuda
+      - Iud
+translations:
+  - BNP

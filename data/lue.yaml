@@ -1,0 +1,327 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Kuputuka
+      - Kupu.
+  - osis: Exod
+    texts:
+      - Kulovoka
+      - Kulo.
+  - osis: Lev
+    texts:
+      - Vyavalevi
+      - Levi
+  - osis: Num
+    texts:
+      - Kulava
+      - Kula.
+  - osis: Lam
+    texts:
+      - Lungungu
+      - Lungu.
+  - osis: Rev
+    texts:
+      - Kusoloka
+      - Kusolola
+      - Kuso.
+      - Kuso
+  - osis: Deut
+    texts:
+      - Luximbi Lwamucivali
+      - Luxi.
+  - osis: Josh
+    texts:
+      - Yoxuwa
+      - Yoxu.
+  - osis: Judg
+    texts:
+      - Vaka-kuyula
+      - Kuyu.
+  - osis: Ruth
+    texts:
+      - Lute
+  - osis: Isa
+    texts:
+      - Isaya
+      - Isa.
+  - osis: 1Sam
+    texts:
+      - Samwe. 1,
+      - Samwele 1
+  - osis: 2Sam
+    texts:
+      - Samwe. 2,
+      - Samwele 2
+  - osis: 1Kgs
+    texts:
+      - Vamyangana 1
+      - Vamya. 1,
+  - osis: 2Kgs
+    texts:
+      - Vamyangana 2
+      - Vamya. 2,
+  - osis: 1Chr
+    texts:
+      - Mukanda Wamijimbu 1
+      - Miji. 1,
+  - osis: 2Chr
+    texts:
+      - Mukanda Wamijimbu 2
+      - Miji. 2,
+  - osis: Ezra
+    texts:
+      - Ezela
+  - osis: Neh
+    texts:
+      - Nehemiah
+      - Nehe.
+  - osis: Esth
+    texts:
+      - Eseta
+      - Ese.
+  - osis: Job
+    texts:
+      - Yopa
+  - osis: Ps
+    texts:
+      - Jisamu
+      - Samu
+  - osis: Prov
+    texts:
+      - Viximo
+      - Vixi.
+  - osis: Eccl
+    texts:
+      - Muka-kwambulula
+      - Kwambu.
+  - osis: Song
+    texts:
+      - Mwaso Wasolomone
+      - Mwaso.
+  - osis: Jer
+    texts:
+      - Yelemiya
+      - Yele.
+  - osis: Ezek
+    texts:
+      - Ezekele
+      - Ezeke.
+  - osis: Dan
+    texts:
+      - Ndanyele
+      - Ndanye.
+  - osis: Hos
+    texts:
+      - Hozeya
+      - Hoze.
+  - osis: Joel
+    texts:
+      - Yowele
+      - Yowe.
+  - osis: Amos
+    texts:
+      - Amose
+      - Amo.
+  - osis: Obad
+    texts:
+      - Ovaciya
+      - Ova.
+  - osis: Jonah
+    texts:
+      - Yona
+  - osis: Mic
+    texts:
+      - Mika
+  - osis: Nah
+    texts:
+      - Nahume
+      - Nahu.
+  - osis: Hab
+    texts:
+      - Hambakuke
+      - Hamba.
+  - osis: Zeph
+    texts:
+      - Zefwanyiya
+      - Zefwa.
+  - osis: Hag
+    texts:
+      - Hangai
+  - osis: Zech
+    texts:
+      - Zekaliya
+      - Zeka.
+  - osis: Mal
+    texts:
+      - Malaki
+      - Mala.
+  - osis: Matt
+    texts:
+      - Mateu
+      - Mat
+  - osis: Mark
+    texts:
+      - Mako
+  - osis: Luke
+    texts:
+      - Luka
+  - osis: 1John
+    texts:
+      - Wayowano 1
+      - Yowa. 1,
+  - osis: 2John
+    texts:
+      - Wayowano 2
+      - Yowa. 2,
+  - osis: 3John
+    texts:
+      - Wayowano 3
+      - 3 Yowano
+      - Yowa. 3,
+      - 3 Yowa
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yowano
+      - Yowa
+  - osis: John
+    texts:
+      - Yowano
+      - Yowa.
+      - Yowa
+  - osis: Acts
+    texts:
+      - Vilinga
+      - Vili.
+      - Vili
+  - osis: Rom
+    texts:
+      - Wavaka-loma
+      - Loma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kolinde
+      - Koli
+  - osis: 1Cor
+    texts:
+      - Wavaka-kolinde 1
+      - Koli. 1,
+  - osis: 2Cor
+    texts:
+      - Wavaka-kolinde 2
+      - Koli. 2,
+  - osis: Col
+    texts:
+      - Wavaka-kolose
+      - Kolose
+      - Kolo.
+      - Kolo
+  - osis: Gal
+    texts:
+      - Wavaka-ngalexa
+      - Ngalesha
+      - Ngale.
+      - Ngal
+  - osis: Eph
+    texts:
+      - Wavaka-efwesu
+      - Efwesu
+      - Efwe.
+      - Efwe
+  - osis: Phil
+    texts:
+      - Wavaka-fwilipi
+      - Fwilipi
+      - Fwili.
+      - Fwili
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesolonyika
+      - Teso
+  - osis: 1Thess
+    texts:
+      - Wavaka-tesolonyika 1
+      - Teso. 1,
+  - osis: 2Thess
+    texts:
+      - Wavaka-tesolonyika 2
+      - Teso. 2,
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Chimoteu
+      - Chim
+  - osis: 1Tim
+    texts:
+      - Wacimoteu 1
+      - Cimo. 1,
+  - osis: 2Tim
+    texts:
+      - Wacimoteu 2
+      - Cimo. 2,
+  - osis: Titus
+    texts:
+      - 1 Wacituse
+      - Chituse
+      - Chitu
+      - Citu.
+  - osis: Phlm
+    texts:
+      - 1 Wafwilemone
+      - Fwilemone
+      - Fwile.
+      - Fwile
+  - osis: Heb
+    texts:
+      - Hepeleu
+      - Mukanda
+      - Hepe.
+      - Hepe
+  - osis: Jas
+    texts:
+      - Wayakova
+      - Yakova
+      - Yako.
+      - Yako
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petulu
+      - Pet
+  - osis: 1Pet
+    texts:
+      - Wapetulu 1
+      - Petu. 1,
+  - osis: 2Pet
+    texts:
+      - Wapetulu 2
+      - Petu. 2,
+  - osis: Jude
+    texts:
+      - Wayuta
+      - Yuta
+translations:
+  - LUV
+  - LUE70

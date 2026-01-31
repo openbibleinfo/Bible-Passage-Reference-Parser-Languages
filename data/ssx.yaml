@@ -1,0 +1,96 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Kini Pieke
+  - osis: Rev
+    texts:
+      - Peneme Yaeyekeeki
+  - osis: Matt
+    texts:
+      - Ma꞉tiu
+  - osis: Mark
+    texts:
+      - Maka
+  - osis: Luke
+    texts:
+      - Luku
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Dioni
+  - osis: Acts
+    texts:
+      - Aposolo
+  - osis: Rom
+    texts:
+      - Loma꞉
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kotindi
+  - osis: Col
+    texts:
+      - Kolosi
+  - osis: Gal
+    texts:
+      - Ka꞉leisia
+  - osis: Eph
+    texts:
+      - Epesese
+  - osis: Phil
+    texts:
+      - Pilipai
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Desalonaika
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timodi
+  - osis: Titus
+    texts:
+      - Taitasi
+  - osis: Phlm
+    texts:
+      - Pailimono
+  - osis: Heb
+    texts:
+      - Hibulu
+  - osis: Jas
+    texts:
+      - Dia꞉mesi
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pida
+  - osis: Jude
+    texts:
+      - Diudi
+translations:
+  - SEMB

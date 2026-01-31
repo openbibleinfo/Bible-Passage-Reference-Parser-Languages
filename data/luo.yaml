@@ -1,0 +1,358 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Chakruok
+      - Chak
+  - osis: Exod
+    texts:
+      - Wuok
+      - Wuo
+  - osis: Lev
+    texts:
+      - Tim Jo-Lawi
+      - T.Lawi
+      - Lawi
+  - osis: Num
+    texts:
+      - Kwan
+      - Kwa
+  - osis: Sir
+    texts:
+      - Eklesiastikus
+  - osis: Wis
+    texts:
+      - Rieko
+  - osis: Lam
+    texts:
+      - Ywagruok
+      - Ywag
+      - Ywa
+  - osis: Rev
+    texts:
+      - Fweny
+      - Fwe
+  - osis: Deut
+    texts:
+      - Rapar Mar Chik
+      - R.Chik
+      - Rap
+  - osis: Josh
+    texts:
+      - Joshua
+      - Josh
+      - Jos
+  - osis: Judg
+    texts:
+      - Jong’ad Bura
+      - Jongʼad Bura
+      - Bura
+  - osis: Ruth
+    texts:
+      - Ruth
+      - Rut
+  - osis: Isa
+    texts:
+      - Isaya
+      - Isa
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - Sam
+  - osis: 1Sam
+    texts:
+      - 1Sam
+  - osis: 2Sam
+    texts:
+      - 2Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Ruodhi
+      - Ruo
+  - osis: 1Kgs
+    texts:
+      - 1Ruo
+  - osis: 2Kgs
+    texts:
+      - 2Ruo
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Weche Mag Ndalo
+      - W.Nda
+  - osis: 1Chr
+    texts:
+      - 1We
+  - osis: 2Chr
+    texts:
+      - 2We
+  - osis: Ezra
+    texts:
+      - Ezra
+      - Ezr
+  - osis: Neh
+    texts:
+      - Nehemia
+      - Neh
+  - osis: Esth
+    texts:
+      - Esta
+      - Est
+  - osis: Job
+    texts:
+      - Ayub
+      - Ayu
+  - osis: Ps
+    texts:
+      - Zaburi
+      - Zab
+  - osis: Prov
+    texts:
+      - Ngeche
+      - Nge
+  - osis: Eccl
+    texts:
+      - Eklesiastes
+      - Ekl
+  - osis: Song
+    texts:
+      - Wer Mamit Moloyo Wende Duto
+      - Wer Mamit
+      - Wer
+  - osis: Jer
+    texts:
+      - Jeremia
+      - Jer
+  - osis: Ezek
+    texts:
+      - Ezekiel
+      - Ezek
+      - Eze
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan
+  - osis: Hos
+    texts:
+      - Hosea
+      - Hos
+  - osis: Joel
+    texts:
+      - Joel
+      - Joe
+  - osis: Amos
+    texts:
+      - Amos
+      - Amo
+  - osis: Obad
+    texts:
+      - Obadia
+      - Obad
+      - Oba
+  - osis: Jonah
+    texts:
+      - Jona
+      - Jon
+  - osis: Mic
+    texts:
+      - Mika
+      - MiK
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Zefania
+      - Zef
+  - osis: Hag
+    texts:
+      - Hagai
+      - Hag
+  - osis: Zech
+    texts:
+      - Zekaria
+      - Zek
+  - osis: Mal
+    texts:
+      - Malaki
+      - Mal
+  - osis: Matt
+    texts:
+      - Mathayo
+      - Math
+      - Mat
+  - osis: Mark
+    texts:
+      - Mariko
+      - Mar
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Joh
+  - osis: 2John
+    texts:
+      - 2Joh
+  - osis: 3John
+    texts:
+      - 3 Johana
+      - 3 Joh
+      - 3Joh
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Johana
+      - Joh
+  - osis: Acts
+    texts:
+      - Tich Joote
+      - Joote
+      - Joo
+  - osis: Rom
+    texts:
+      - Jo-Rumi
+      - Rumi
+      - Rum
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Jo-Korintho
+      - Kor
+  - osis: 1Cor
+    texts:
+      - 1Kor
+  - osis: 2Cor
+    texts:
+      - 2Kor
+  - osis: Col
+    texts:
+      - Jo-Kolosai
+      - Kol
+  - osis: Gal
+    texts:
+      - Jo-Galatia
+      - Gal
+  - osis: Eph
+    texts:
+      - Jo-Efeso
+      - Efes
+      - Efe
+  - osis: Phil
+    texts:
+      - Jo-Filipi
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Jo-Thesalonika
+      - Thes
+  - osis: 1Thess
+    texts:
+      - 1Thes
+  - osis: 2Thess
+    texts:
+      - 2Thes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotheo
+      - Timo
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemon
+      - Filem
+      - Flm
+  - osis: Heb
+    texts:
+      - Jo-Hibrania
+      - Hib
+  - osis: Jas
+    texts:
+      - Jakobo
+      - Jak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petro
+      - Pet
+  - osis: 1Pet
+    texts:
+      - 1Pet
+  - osis: 2Pet
+    texts:
+      - 2Pet
+  - osis: Jude
+    texts:
+      - Juda
+      - Jud
+  - osis: Tob
+    texts:
+      - Tobit
+  - osis: Jdt
+    texts:
+      - Judith
+  - osis: Bar
+    texts:
+      - Baruk
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+    texts:
+      - Jo-Makabayo
+  - osis: AddEsth
+    texts:
+      - Esta, kod weche moko momedie
+      - Esta-kod
+translations:
+  - NLT
+  - DHO15

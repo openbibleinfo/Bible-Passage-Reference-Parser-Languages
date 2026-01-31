@@ -1,0 +1,253 @@
+variables:
+  first: &first
+    - I
+  second: &second
+    - II
+  third: &third
+    - III
+books:
+  - osis: Gen
+    texts:
+      - Gẹnẹsis
+      - Gẹn
+  - osis: Exod
+    texts:
+      - Ẹksọdọs
+      - Ẹks
+  - osis: Lev
+    texts:
+      - Levitikọs
+      - Lev
+  - osis: Num
+    texts:
+      - Nọmbas
+      - Nọm
+  - osis: Lam
+    texts:
+      - Eve Orriara
+      - Eve
+  - osis: Rev
+    texts:
+      - Arhie Maan
+      - Arhie
+  - osis: Deut
+    texts:
+      - Diuteronomi
+      - Diut
+  - osis: Josh
+    texts:
+      - Jọsua
+      - Jọs
+  - osis: Judg
+    texts:
+      - Giọgis
+      - Giọg
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis: Isa
+    texts:
+      - Aizaia
+      - Aiz
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuẹl
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Ọba
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Krọnikol
+      - Krọ
+  - osis: Ezra
+    texts:
+      - Ẹzra
+  - osis: Neh
+    texts:
+      - Nehimaia
+      - Neh
+  - osis: Esth
+    texts:
+      - Ẹsta
+      - Ẹst
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Psalm
+      - Psm
+  - osis: Prov
+    texts:
+      - Itan
+  - osis: Eccl
+    texts:
+      - Asan-Ibo
+      - Asan
+  - osis: Song
+    texts:
+      - Ihuan Ne Ọ Sọọ Ihuan Hia
+      - Ihuan
+  - osis: Jer
+    texts:
+      - Jerimaia
+      - Jer
+  - osis: Ezek
+    texts:
+      - Ezikiẹl
+      - Ezik
+  - osis: Dan
+    texts:
+      - Daniẹl
+      - Dan
+  - osis: Hos
+    texts:
+      - Hozia
+      - Hoz
+  - osis: Joel
+    texts:
+      - Joẹl
+  - osis: Amos
+    texts:
+      - Emọs
+  - osis: Obad
+    texts:
+      - Obedaia
+      - Obed
+  - osis: Jonah
+    texts:
+      - Jona
+      - Jon
+  - osis: Mic
+    texts:
+      - Maika
+      - Mai
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakọk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Zẹfanaia
+      - Zẹf
+  - osis: Hag
+    texts:
+      - Hagai
+      - Hag
+  - osis: Zech
+    texts:
+      - Zẹkaraia
+  - osis: Mal
+    texts:
+      - Malakai
+      - Mal
+  - osis: Matt
+    texts:
+      - Matiu
+      - Mat
+  - osis: Mark
+    texts:
+      - Mak
+  - osis: Luke
+    texts:
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jọn
+  - osis: Acts
+    texts:
+      - Iwinna
+  - osis: Rom
+    texts:
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kọrinti
+      - Kọr
+  - osis: Col
+    texts:
+      - Kọlose
+      - Kọl
+  - osis: Gal
+    texts:
+      - Galatia
+      - Gal
+  - osis: Eph
+    texts:
+      - Ẹfisọs
+      - Ẹfis
+  - osis: Phil
+    texts:
+      - Filipai
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tẹsalonaika
+      - Tẹs
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+      - Tim
+  - osis: Titus
+    texts:
+      - Taitọs
+      - Tai
+  - osis: Phlm
+    texts:
+      - Failimọn
+      - Fai
+  - osis: Heb
+    texts:
+      - Hibru
+      - Hib
+  - osis: Jas
+    texts:
+      - Jems
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+  - osis: Jude
+    texts:
+      - Jud
+translations:
+  - EDO96

@@ -1,0 +1,149 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Tavaꞌu
+      - Tav
+  - osis: Rev
+    texts:
+      - Revelesen
+      - Pal
+  - osis: Jonah
+    texts:
+      - Iona
+      - Io
+  - osis: Matt
+    texts:
+      - Mataio
+      - Mat
+  - osis: Mark
+    texts:
+      - Maluko
+      - Mak
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Ionesi
+  - osis: 1John
+    texts:
+      - 1Ioa
+  - osis: 2John
+    texts:
+      - 2Ioa
+  - osis: 3John
+    texts:
+      - 3 Ioanesi
+      - 3Ioa
+  - osis: John
+    texts:
+      - Ioanesi
+      - Ioa
+  - osis: Acts
+    texts:
+      - Aposeli
+      - Apo
+  - osis: Rom
+    texts:
+      - Romu
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kolinito
+  - osis: 1Cor
+    texts:
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - 2Ko
+  - osis: Col
+    texts:
+      - Kolosi
+      - Kol
+  - osis: Gal
+    texts:
+      - Xalatia
+      - Xal
+  - osis: Eph
+    texts:
+      - Epeso
+      - Ep
+  - osis: Phil
+    texts:
+      - Pilipai
+      - Pil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonika
+  - osis: 1Thess
+    texts:
+      - 1Te
+  - osis: 2Thess
+    texts:
+      - 2Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Pilimoni
+      - Plm
+  - osis: Heb
+    texts:
+      - Evalaio
+      - Eva
+  - osis: Jas
+    texts:
+      - Iakovo
+      - Iak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+  - osis: 1Pet
+    texts:
+      - 1Pi
+  - osis: 2Pet
+    texts:
+      - 2Pi
+  - osis: Jude
+    texts:
+      - Iudasi
+      - Iud
+translations:
+  - ATANTPO

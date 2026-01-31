@@ -1,0 +1,229 @@
+default:
+  1Chr:
+    long: 1 Kronikas
+    short: 1 Kr
+  1Cor:
+    long: 1 Korint
+    short: 1 Ko
+  1John:
+    long: 1 Jan
+    short: 1 Jn
+  1Kgs:
+    long: 1 King Nani
+    short: 1 Ki
+  1Macc:
+    long: 1 Macabeo
+    short: 1 Mac
+  1Pet:
+    long: 1 Pita
+    short: 1 Pi
+  1Sam:
+    long: 1 Samuil
+    short: 1 Sa
+  1Thess:
+    long: 1 Tesalonaika
+    short: 1 Tes
+  1Tim:
+    long: 1 Timoti
+    short: 1 Ti
+  2Chr:
+    long: 2 Kronikas
+    short: 2 Kr
+  2Cor:
+    long: 2 Korint
+    short: 2 Ko
+  2John:
+    long: 2 Jan
+    short: 2 Jn
+  2Kgs:
+    long: 2 King Nani
+    short: 2 Ki
+  2Macc:
+    long: 2 Macabeo
+    short: 2 Mac
+  2Pet:
+    long: 2 Pita
+    short: 2 Pi
+  2Sam:
+    long: 2 Samuil
+    short: 2 Sa
+  2Thess:
+    long: 2 Tesalonaika
+    short: 2 Tes
+  2Tim:
+    long: 2 Timoti
+    short: 2 Ti
+  3John:
+    long: 3 Jan
+    short: 3 Jn
+  Acts:
+    long: Apastil Nani Sturka
+    short: Ap
+  Amos:
+    long: Emus
+    short: Em
+  Bar:
+    long: Baruc
+    short: Bar
+  Col:
+    long: Kolosi
+    short: Kol
+  Dan:
+    long: Daniel
+    short: Dn
+  DanGr:
+    long: Daniel (dc)
+    short: Dn (dc)
+  Deut:
+    long: Kli Smalkanka
+    short: Kli
+  Eccl:
+    long: Smasmalkra
+    short: Smas
+  EpJer:
+    long: Carta de Jeremías
+    short: CdJ Bar
+  Eph:
+    long: Epesus
+    short: Epe
+  Esth:
+    long: Ester
+    short: Est
+  EsthGr:
+    long: Ester (dc)
+    short: Est (dc)
+  Exod:
+    long: Impakan Sturka
+    short: Imp St
+  Ezek:
+    long: Isikiel
+    short: Isi
+  Ezra:
+    long: Esdras
+    short: Esd
+  Gal:
+    long: Galesha
+    short: Gal
+  Gen:
+    long: Blasi Sturka
+    short: Bla
+  Hab:
+    long: Abakuk
+    short: Ab
+  Hag:
+    long: Hageo
+    short: Hag
+  Heb:
+    long: Hibru Nani
+    short: Hib
+  Hos:
+    long: Oseas
+    short: Os
+  Isa:
+    long: Aiseya
+    short: Ais
+  Jas:
+    long: Jems
+    short: Je
+  Jdt:
+    long: Judit
+    short: Jdt
+  Jer:
+    long: Jirimaya
+    short: Jir
+  Job:
+    long: Job
+    short: Job
+  Joel:
+    long: Joel
+    short: Jl
+  John:
+    long: Jan
+    short: Jn
+  Jonah:
+    long: Jona
+    short: Jon
+  Josh:
+    long: Jasua
+    short: Jas
+  Jude:
+    long: Judas
+    short: Jud
+  Judg:
+    long: Wihta Nani
+    short: Wih
+  Lam:
+    long: Inanka Nani
+    short: Ina
+  Lev:
+    long: Libait Lâka
+    short: Lib
+  Luke:
+    long: Luk
+    short: Lk
+  Mal:
+    long: Malaquía
+    short: Mal
+  Mark:
+    long: Mark
+    short: Mk
+  Matt:
+    long: Matiu
+    short: Mt
+  Mic:
+    long: Miqueas
+    short: Miq
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nihimaya
+    short: Nih
+  Num:
+    long: Kulki Kaikanka
+    short: Kul
+  Obad:
+    long: Abdías
+    short: Abd
+  Phil:
+    long: Pilipai
+    short: Pil
+  Phlm:
+    long: Pilimon
+    short: Plm
+  Prov:
+    long: Sins Lâka
+    short: S L
+  Ps:
+    long: Lawana Nani
+    short: Law
+  Rev:
+    long: Param Marikanka
+    short: Par M
+  Rom:
+    long: Roman
+    short: Ro
+  Ruth:
+    long: Rut
+    short: Rt
+  Sir:
+    long: Eclesiástico
+    short: Ecl
+  Song:
+    long: Yamni Kulki Lawana
+    short: Yam
+  Titus:
+    long: Taitus
+    short: Tai
+  Tob:
+    long: Tobit
+    short: Tob
+  Wis:
+    long: Sinska Lâka
+    short: Si L
+  Zech:
+    long: Sakaraya
+    short: Sak
+  Zeph:
+    long: Sofonías
+    short: Sof

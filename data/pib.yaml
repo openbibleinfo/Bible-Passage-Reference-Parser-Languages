@@ -1,0 +1,138 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Gipgujetkaluru
+      - Gip
+  - osis: Matt
+    texts:
+      - Matiyo
+      - Mt
+  - osis: Mark
+    texts:
+      - Marko
+      - Mr
+  - osis: Luke
+    texts:
+      - Lokasu
+      - Lk
+  - osis: 1John
+    texts:
+      - 1Gwa
+  - osis: 2John
+    texts:
+      - 2Gwa
+  - osis: 3John
+    texts:
+      - 3 Gwa
+      - 3Gwa
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Gwa
+  - osis: Acts
+    texts:
+      - Yokanatkalune Kamrure
+      - Yk
+  - osis: Rom
+    texts:
+      - Romanone
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintyone
+  - osis: 1Cor
+    texts:
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - 2Ko
+  - osis: Col
+    texts:
+      - Kolosane
+      - Kol
+  - osis: Gal
+    texts:
+      - Kalatane
+      - Kal
+  - osis: Eph
+    texts:
+      - Gigwisone
+      - Gig
+  - osis: Phil
+    texts:
+      - Wilipone
+      - Wlp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonikane
+  - osis: 1Thess
+    texts:
+      - 1Te
+  - osis: 2Thess
+    texts:
+      - 2Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotiyo
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Wilimo
+      - Wlm
+  - osis: Heb
+    texts:
+      - Gewreyone
+      - Gew
+  - osis: Jas
+    texts:
+      - Santiyako
+      - Sty
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petro
+  - osis: 1Pet
+    texts:
+      - 1P
+  - osis: 2Pet
+    texts:
+      - 2P
+  - osis: Jude
+    texts:
+      - Gota
+      - Got
+translations:
+  - PIB

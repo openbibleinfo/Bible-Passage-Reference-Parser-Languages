@@ -1,0 +1,64 @@
+default:
+  1Cor:
+    long: 1 Corintios
+    short: 1 Corintios
+  1John:
+    long: 1 Juan
+  1Pet:
+    long: 1 Pedro
+  1Thess:
+    long: 1 Tesalonicenses
+  1Tim:
+    long: 1 Timoteo
+    short: 1 Timoteo
+  2Cor:
+    long: 2 Corintios
+    short: 2 Corintios
+  2John:
+    long: 2 Juan
+  2Pet:
+    long: 2 Pedro
+  2Thess:
+    long: 2 Tesalonicenses
+  2Tim:
+    long: 2 Timoteo
+    short: 2 Timoteo
+  3John:
+    long: 3 Juan
+  Acts:
+    long: Hechos
+  Col:
+    long: Colosenses
+    short: Colosenses
+  Eph:
+    long: Efesios
+    short: Efesios
+  Gal:
+    long: Gálatas
+  Heb:
+    long: Hebreos
+  Jas:
+    long: Santiago
+  John:
+    long: Juan
+  Jude:
+    long: Judas
+  Luke:
+    long: Lucas
+  Mark:
+    long: Marcos
+  Matt:
+    long: Mateo
+  Phil:
+    long: Filipenses
+    short: Filipenses
+  Phlm:
+    long: Filemón
+  Rev:
+    long: Apocalipsis
+  Rom:
+    long: Romanos
+    short: Romanos
+  Titus:
+    long: Tito
+    short: Tito

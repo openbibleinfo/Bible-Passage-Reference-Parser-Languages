@@ -1,0 +1,99 @@
+variables:
+  first: &first
+    - "1"
+    - I
+  second: &second
+    - "2"
+    - II
+books:
+  - osis: Rev
+    texts:
+      - Gétsutsuéô
+  - osis: Matt
+    texts:
+      - Matthieu
+      - Matt.
+  - osis: Mark
+    texts:
+      - Marc
+  - osis: Luke
+    texts:
+      - Luc
+  - osis: 3John
+    texts:
+      - III Jean
+      - 3 Jean
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jean
+  - osis: Acts
+    texts:
+      - Mayanzame
+  - osis: Rom
+    texts:
+      - Romains
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corinthiens
+  - osis: Col
+    texts:
+      - Colosses
+      - Col
+  - osis: Gal
+    texts:
+      - Galatie
+      - Gal
+  - osis: Eph
+    texts:
+      - Ephésiens
+  - osis: Phil
+    texts:
+      - Philippiens
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thessaloniciens
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothée
+  - osis: Titus
+    texts:
+      - Tite
+  - osis: Phlm
+    texts:
+      - Philémon
+      - Philém
+  - osis: Heb
+    texts:
+      - Hébreux
+  - osis: Jas
+    texts:
+      - Jacques
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pierre
+  - osis: Jude
+    texts:
+      - Jude
+translations:
+  - TSV

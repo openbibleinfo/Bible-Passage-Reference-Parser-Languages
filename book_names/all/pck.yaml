@@ -1,0 +1,298 @@
+- osis: Gen
+  texts:
+    - Genesis
+    - Gen.
+- osis: Exod
+  texts:
+    - Eksodas
+    - Eks.
+- osis: Lev
+  texts:
+    - Levitikas
+    - Lev.
+- osis: Num
+  texts:
+    - Nambars
+    - Nam.
+- osis: Lam
+  texts:
+    - Kahlate
+    - Kah.
+- osis: Rev
+  texts:
+    - Kilakna
+    - Kil.
+- osis: Deut
+  texts:
+    - Diuteronomi
+    - Diut.
+- osis: Josh
+  texts:
+    - Joshua
+    - Jos.
+- osis: Judg
+  texts:
+    - Vaihawmmite
+    - Vai.
+- osis: Ruth
+  texts:
+    - Rut.
+    - Ruth
+- osis: Isa
+  texts:
+    - Isa.
+    - Isai
+- osis: 1Sam
+  texts:
+    - 1 Samuel
+    - 1 Sa.
+    - 1. Samuel
+    - 1. Sa.
+- osis: 2Sam
+  texts:
+    - 2 Samuel
+    - 2 Sa.
+    - 2. Samuel
+    - 2. Sa.
+- osis: 1Kgs
+  texts:
+    - 1 Kumpipate
+    - 1 Kum.
+    - 1. Kumpipate
+    - 1. Kum.
+- osis: 2Kgs
+  texts:
+    - 2 Kumpipate
+    - 2 Kum.
+    - 2. Kumpipate
+    - 2. Kum.
+- osis: 1Chr
+  texts:
+    - 1 Kronikil
+    - 1 Kron.
+    - 1. Kronikil
+    - 1. Kron.
+- osis: 2Chr
+  texts:
+    - 2 Kronikil
+    - 2 Kron.
+    - 2. Kronikil
+    - 2. Kron.
+- osis: Ezra
+  texts:
+    - Ezr.
+    - Ezra
+- osis: Neh
+  texts:
+    - Nehemiah
+    - Neh.
+- osis: Esth
+  texts:
+    - Esther
+    - Est.
+- osis: Job
+  texts:
+    - Job.
+    - Job
+- osis: Ps
+  texts:
+    - Sam.
+    - Sam
+- osis: Prov
+  texts:
+    - Paunakte
+    - Pau.
+- osis: Eccl
+  texts:
+    - Eklisiasti
+    - Ekl.
+- osis: Song
+  texts:
+    - Solomon Late
+    - Late.
+- osis: Jer
+  texts:
+    - Jeremiah
+    - Jer.
+- osis: Ezek
+  texts:
+    - Ezekiel
+    - Ezek.
+- osis: Dan
+  texts:
+    - Daniel
+    - Dan.
+- osis: Hos
+  texts:
+    - Hosia
+    - Hos.
+- osis: Joel
+  texts:
+    - Joel
+    - Jol.
+- osis: Amos
+  texts:
+    - Amo.
+    - Amos
+- osis: Obad
+  texts:
+    - Obadiah
+    - Oba.
+- osis: Jonah
+  texts:
+    - Jonah
+    - Jon.
+- osis: Mic
+  texts:
+    - Mikah
+    - Mik.
+- osis: Nah
+  texts:
+    - Nahum
+    - Nah.
+- osis: Hab
+  texts:
+    - Habakkuk
+    - Hab.
+- osis: Zeph
+  texts:
+    - Zephaniah
+    - Zeph.
+- osis: Hag
+  texts:
+    - Haggai
+    - Hag.
+- osis: Zech
+  texts:
+    - Zekariah
+    - Zek.
+- osis: Mal
+  texts:
+    - Malaki
+    - Mal.
+- osis: Matt
+  texts:
+    - Matthai
+    - Matt.
+- osis: Mark
+  texts:
+    - Mark
+    - Mk.
+- osis: Luke
+  texts:
+    - Luke
+    - Lk.
+- osis: 1John
+  texts:
+    - 1 Johan
+    - 1 Jn.
+    - 1. Johan
+    - 1. Jn.
+- osis: 2John
+  texts:
+    - 2 Johan
+    - 2 Jn.
+    - 2. Johan
+    - 2. Jn.
+- osis: 3John
+  texts:
+    - 3 Johan
+    - 3 Jn.
+    - 3. Johan
+    - 3. Jn.
+- osis: John
+  texts:
+    - Johan
+    - Jn.
+- osis: Acts
+  texts:
+    - Nasepte
+    - Nas.
+- osis: Rom
+  texts:
+    - Romte
+    - Rom.
+- osis: 1Cor
+  texts:
+    - 1 Korinthte
+    - 1 Kor.
+    - 1. Korinthte
+    - 1. Kor.
+- osis: 2Cor
+  texts:
+    - 2 Korinthte
+    - 2 Kor.
+    - 2. Korinthte
+    - 2. Kor.
+- osis: Col
+  texts:
+    - Kolosate
+    - Kol.
+- osis: Gal
+  texts:
+    - Galatiate
+    - Gal.
+- osis: Eph
+  texts:
+    - Ephesate
+    - Eph.
+- osis: Phil
+  texts:
+    - Philippite
+    - Phil.
+- osis: 1Thess
+  texts:
+    - 1 Thessalonikate
+    - 1 Thess.
+    - 1. Thessalonikate
+    - 1. Thess.
+- osis: 2Thess
+  texts:
+    - 2 Thessalonikate
+    - 2 Thess.
+    - 2. Thessalonikate
+    - 2. Thess.
+- osis: 1Tim
+  texts:
+    - 1 Timothi
+    - 1 Tim.
+    - 1. Timothi
+    - 1. Tim.
+- osis: 2Tim
+  texts:
+    - 2 Timothi
+    - 2 Tim.
+    - 2. Timothi
+    - 2. Tim.
+- osis: Titus
+  texts:
+    - Titas
+    - Tit.
+- osis: Phlm
+  texts:
+    - Philemon
+    - Plm.
+- osis: Heb
+  texts:
+    - Hebrute
+    - Heb.
+- osis: Jas
+  texts:
+    - Jakob
+    - Jak.
+- osis: 1Pet
+  texts:
+    - 1 Peter
+    - 1 Pet.
+    - 1. Peter
+    - 1. Pet.
+- osis: 2Pet
+  texts:
+    - 2 Peter
+    - 2 Pet.
+    - 2. Peter
+    - 2. Pet.
+- osis: Jude
+  texts:
+    - Jud.
+    - Juda

@@ -1,0 +1,346 @@
+- osis: Gen
+  texts:
+    - Stat
+    - Stt
+- osis: Exod
+  texts:
+    - Kisim Bek
+    - Kis
+- osis: Bel
+  texts:
+    - Bel na Bikpela Snek
+    - Bel
+- osis: Lev
+  texts:
+    - Wok Pris
+    - Wkp
+- osis: Num
+  texts:
+    - Namba
+    - Nam
+- osis: Sir
+  texts:
+    - Sirak
+    - Sir
+- osis: Wis
+  texts:
+    - Gutpela Stretpela Tingting
+    - Gst
+- osis: Lam
+  texts:
+    - Krai
+    - Kra
+- osis: EpJer
+  texts:
+    - Pas bilong Jeremaia
+    - Pbj
+- osis: Rev
+  texts:
+    - Kamapim Tok Hait
+    - Kth
+- osis: Deut
+  texts:
+    - Lo
+- osis: Josh
+  texts:
+    - Josua
+    - Jos
+- osis: Judg
+  texts:
+    - Hetman
+    - Het
+- osis: Ruth
+  texts:
+    - Rut
+- osis: Isa
+  texts:
+    - Aisaia
+    - Ais
+- osis: 1Sam
+  texts:
+    - 1 Samuel
+    - 1 Sml
+    - 1. Samuel
+    - 1. Sml
+- osis: 2Sam
+  texts:
+    - 2 Samuel
+    - 2 Sml
+    - 2. Samuel
+    - 2. Sml
+- osis: 1Kgs
+  texts:
+    - 1 King
+    - 1 Kin
+    - 1. King
+    - 1. Kin
+- osis: 2Kgs
+  texts:
+    - 2 King
+    - 2 Kin
+    - 2. King
+    - 2. Kin
+- osis: 1Chr
+  texts:
+    - 1 Stori
+    - 1 Sto
+    - 1. Stori
+    - 1. Sto
+- osis: 2Chr
+  texts:
+    - 2 Stori
+    - 2 Sto
+    - 2. Stori
+    - 2. Sto
+- osis: Ezra
+  texts:
+    - Esra
+    - Esr
+- osis: Neh
+  texts:
+    - Nehemia
+    - Neh
+- osis: Job
+  texts:
+    - Jop
+- osis: Ps
+  texts:
+    - Buk Song
+    - Sng
+- osis: Prov
+  texts:
+    - Gutpela Sindaun
+    - Snd
+- osis: Eccl
+  texts:
+    - Saveman
+    - Sav
+- osis: SgThree
+  texts:
+    - Tripela Yangpela Man
+    - Tym
+- osis: Song
+  texts:
+    - Solomon
+    - Sol
+- osis: Jer
+  texts:
+    - Jeremaia
+    - Jer
+- osis: Ezek
+  texts:
+    - Esekiel
+    - Ese
+- osis: Dan
+  texts:
+    - Daniel
+    - Dan
+- osis: Hos
+  texts:
+    - Hosea
+    - Hos
+- osis: Joel
+  texts:
+    - Joel
+    - Jol
+- osis: Amos
+  texts:
+    - Amos
+    - Amo
+- osis: Obad
+  texts:
+    - Obadia
+    - Oba
+- osis: Jonah
+  texts:
+    - Jona
+    - Jna
+- osis: Mic
+  texts:
+    - Maika
+    - Mai
+- osis: Nah
+  texts:
+    - Nahum
+    - Nah
+- osis: Hab
+  texts:
+    - Habakuk
+    - Hab
+- osis: Zeph
+  texts:
+    - Sefanaia
+    - Sef
+- osis: Hag
+  texts:
+    - Hagai
+    - Hag
+- osis: Zech
+  texts:
+    - Sekaraia
+    - Sek
+- osis: Mal
+  texts:
+    - Malakai
+    - Mal
+- osis: Matt
+  texts:
+    - Matyu
+    - Mt
+- osis: Mark
+  texts:
+    - Mak
+    - Mk
+- osis: Luke
+  texts:
+    - Luk
+    - Lu
+- osis: 3John
+  texts:
+    - 3 Jo 1.
+    - 3 Jon
+    - 3 Jo
+- osis: 1John
+  texts:
+    - 1 Jon
+    - 1 Jo
+    - 1. Jon
+    - 1. Jo
+- osis: 2John
+  texts:
+    - 2 Jon
+    - 2 Jo
+    - 2. Jon
+    - 2. Jo
+- osis: John
+  texts:
+    - Jon
+    - Jo
+- osis: Acts
+  texts:
+    - Aposel
+    - Ap
+- osis: Rom
+  texts:
+    - Rom
+    - Ro
+- osis: 1Cor
+  texts:
+    - 1 Korin
+    - 1 Ko
+    - 1. Korin
+    - 1. Ko
+- osis: 2Cor
+  texts:
+    - 2 Korin
+    - 2 Ko
+    - 2. Korin
+    - 2. Ko
+- osis: Col
+  texts:
+    - Kolosi
+    - Kl
+- osis: Gal
+  texts:
+    - Galesia
+    - Ga
+- osis: Eph
+  texts:
+    - Efesus
+    - Ef
+- osis: Phil
+  texts:
+    - Filipai
+    - Fl
+- osis: 1Thess
+  texts:
+    - 1 Tesalonaika
+    - 1 Te
+    - 1. Tesalonaika
+    - 1. Te
+- osis: 2Thess
+  texts:
+    - 2 Tesalonaika
+    - 2 Te
+    - 2. Tesalonaika
+    - 2. Te
+- osis: 1Tim
+  texts:
+    - 1 Timoti
+    - 1 Ti
+    - 1. Timoti
+    - 1. Ti
+- osis: 2Tim
+  texts:
+    - 2 Timoti
+    - 2 Ti
+    - 2. Timoti
+    - 2. Ti
+- osis: Titus
+  texts:
+    - Taitus
+    - Ta
+- osis: Phlm
+  texts:
+    - Filemon
+    - Fm
+- osis: Heb
+  texts:
+    - Hibru
+    - Hi
+- osis: Jas
+  texts:
+    - Jems
+    - Je
+- osis: 1Pet
+  texts:
+    - 1 Pita
+    - 1 Pi
+    - 1. Pita
+    - 1. Pi
+- osis: 2Pet
+  texts:
+    - 2 Pita
+    - 2 Pi
+    - 2. Pita
+    - 2. Pi
+- osis: Jude
+  texts:
+    - Jut
+    - Ju
+- osis: Tob
+  texts:
+    - Tobit
+    - Tob
+- osis: Jdt
+  texts:
+    - Judit
+    - Jdt
+- osis: Bar
+  texts:
+    - Baruk
+    - Bar
+- osis: Sus
+  texts:
+    - Susana
+    - Sus
+- osis: 1Macc
+  texts:
+    - 1 Makabi
+    - 1 Mkb
+    - 1. Makabi
+    - 1. Mkb
+- osis: 2Macc
+  texts:
+    - 2 Makabi
+    - 2 Mkb
+    - 2. Makabi
+    - 2. Mkb
+- osis: EsthGr
+  texts:
+    - Esta Grik
+    - EsG
+- osis: Esth
+  texts:
+    - Esta
+    - Est

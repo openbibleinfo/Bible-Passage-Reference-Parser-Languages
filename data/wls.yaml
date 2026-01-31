@@ -1,0 +1,232 @@
+variables:
+  first: &first
+    - "1"
+    - Uluaki
+  second: &second
+    - "2"
+    - Lua
+  third: &third
+    - Tolu
+books:
+  - osis: Gen
+    texts:
+      - Senesi
+  - osis: Exod
+    texts:
+      - Ekesote
+  - osis: Lev
+    texts:
+      - Levitiko
+  - osis: Num
+    texts:
+      - Numelo
+  - osis: Lam
+    texts:
+      - Tagi laulau a Selemia
+  - osis: Rev
+    texts:
+      - Apokalipisi
+  - osis: Deut
+    texts:
+      - Tetelonome
+  - osis: Josh
+    texts:
+      - Sosue
+  - osis: Judg
+    texts:
+      - Tui Fakamaau
+  - osis: Ruth
+    texts:
+      - Lute
+  - osis: Isa
+    texts:
+      - Esaia
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Tohi A Samuele
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Hau
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Koloniko
+  - osis: Ezra
+    texts:
+      - Esetalasi
+  - osis: Neh
+    texts:
+      - Neemia
+  - osis: Esth
+    texts:
+      - Esitele
+  - osis: Job
+    texts:
+      - Sopo
+  - osis: Ps
+    texts:
+      - Pesalemo
+  - osis: Prov
+    texts:
+      - Taaga Lea
+  - osis: Eccl
+    texts:
+      - Ekelesiasi
+  - osis: Song
+    texts:
+      - Katiko O Te U Katiko
+  - osis: Jer
+    texts:
+      - Selemia
+  - osis: Ezek
+    texts:
+      - Esekiele
+  - osis: Dan
+    texts:
+      - Taniela
+  - osis: Hos
+    texts:
+      - Oseo
+  - osis: Joel
+    texts:
+      - Soele
+  - osis: Amos
+    texts:
+      - Amosi
+  - osis: Obad
+    texts:
+      - Apetiasi
+  - osis: Jonah
+    texts:
+      - Sonasi
+  - osis: Mic
+    texts:
+      - Mikea
+  - osis: Nah
+    texts:
+      - Naume
+  - osis: Hab
+    texts:
+      - Hapakuke
+  - osis: Zeph
+    texts:
+      - Sofoni
+  - osis: Hag
+    texts:
+      - Akeseo
+  - osis: Zech
+    texts:
+      - Sakalia
+  - osis: Mal
+    texts:
+      - Malakia
+  - osis: Matt
+    texts:
+      - Evaselio A Mateo
+      - Mateo
+  - osis: Mark
+    texts:
+      - Evaselio A Maleko
+      - Maleko
+  - osis: Luke
+    texts:
+      - Evaselio A Luka
+      - Luka
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Tohi A Soane
+  - osis: John
+    texts:
+      - Evaselio A Soane
+      - Soane
+  - osis: Acts
+    texts:
+      - Tohi Gaue A Te Kau Apositolo
+      - Tohi Gaue
+  - osis: Rom
+    texts:
+      - Tohi a Paulo ki te kau Loma
+      - Loma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - tohi a Paulo ki te kau Kolinito
+      - Kolinito
+  - osis: Col
+    texts:
+      - Tohi a Paulo ki te kau Kolose
+      - Kolose
+  - osis: Gal
+    texts:
+      - Tohi a Paulo ki te kau Kalate
+      - Kalate
+  - osis: Eph
+    texts:
+      - Tohi a Paulo ki te kau Efeso
+      - Efeso
+  - osis: Phil
+    texts:
+      - Tohi a Paulo ki te kau Filipe
+      - Filipe
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - tohi a Paulo ki te kau Tesalonika
+      - Tesalonika
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - tohi a Paulo kia Timoteo
+      - Timoteo
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filemo
+  - osis: Heb
+    texts:
+      - Tohi ki te kau Hepeleo
+      - Hepeleo
+  - osis: Jas
+    texts:
+      - Tohi A Sakopo
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Tohi A Petelo
+  - osis: Jude
+    texts:
+      - Tohi A Suta
+translations:
+  - WLS1971
+  - WB2011

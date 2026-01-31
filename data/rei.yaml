@@ -1,0 +1,70 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - ప్రకటన
+  - osis: Matt
+    texts:
+      - మత్తయి
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - యోహాను
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - కొరింది
+  - osis: Col
+    texts:
+      - కొలస్సీ
+  - osis: Gal
+    texts:
+      - గలతీ
+  - osis: Eph
+    texts:
+      - ఎపేసీ
+  - osis: Phil
+    texts:
+      - పిలిప్పీ
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - తెస్సలొని
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - తిమోతి
+  - osis: Titus
+    texts:
+      - తీతు
+  - osis: Phlm
+    texts:
+      - ఫిలేమోను
+  - osis: Heb
+    texts:
+      - హెబ్రీ
+  - osis: Jude
+    texts:
+      - యూదా
+translations:
+  - NTRPT23

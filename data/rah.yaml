@@ -1,0 +1,254 @@
+variables:
+  first: &first
+    - ১
+  second: &second
+    - ২
+  third: &third
+    - ৩
+books:
+  - osis: Gen
+    texts:
+      - চঙি
+  - osis: Exod
+    texts:
+      - চৗবৗতনি
+      - চৗবৗ
+  - osis: Lev
+    texts:
+      - লেবী
+  - osis: Num
+    texts:
+      - লেকেনি
+      - লেকে
+  - osis: Lam
+    texts:
+      - হেপমি
+      - হেপ
+  - osis: Rev
+    texts:
+      - তৗনৗকতানি
+      - তৗনৗ
+  - osis: Deut
+    texts:
+      - লাবনিং তাওৰায়
+      - লাব
+  - osis: Josh
+    texts:
+      - যিহোশূৱা
+      - যিহো
+  - osis: Judg
+    texts:
+      - বিচাৰ গিৰদো
+      - বিচা
+  - osis: Ruth
+    texts:
+      - ৰূথ
+  - osis: Isa
+    texts:
+      - যিশয়া
+      - যি
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - শমুৱেল
+      - শমু
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - ৰাজা
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - বংশদো
+      - বংশ
+  - osis: Ezra
+    texts:
+      - ইজ্রা
+  - osis: Neh
+    texts:
+      - নহিমিয়া
+      - নহি
+  - osis: Esth
+    texts:
+      - ইষ্টেৰ
+      - ইষ্টে
+  - osis: Job
+    texts:
+      - ইয়োব
+      - ইয়ো
+  - osis: Ps
+    texts:
+      - চায়পৗৰি
+      - চায়
+  - osis: Prov
+    texts:
+      - আদত ক্রৌ
+      - আদত
+  - osis: Eccl
+    texts:
+      - দেপ্রেংগিৰ
+      - দেপ্রেং
+  - osis: Song
+    texts:
+      - শলোমননি
+      - শলো
+  - osis: Jer
+    texts:
+      - যিৰিমিয়া
+      - যিৰি
+  - osis: Ezek
+    texts:
+      - যিহিষ্কেল
+      - যিহি
+  - osis: Dan
+    texts:
+      - দানিয়েল
+      - দানি
+  - osis: Hos
+    texts:
+      - হোচেয়
+      - হোচে
+  - osis: Joel
+    texts:
+      - যোৱেল
+      - যোৱে
+  - osis: Amos
+    texts:
+      - আমোষ
+      - আমো
+  - osis: Obad
+    texts:
+      - ওবদিয়
+      - ওব
+  - osis: Jonah
+    texts:
+      - যোনা
+  - osis: Mic
+    texts:
+      - মীখা
+  - osis: Nah
+    texts:
+      - নহুম
+  - osis: Hab
+    texts:
+      - হবক্কুক
+      - হব
+  - osis: Zeph
+    texts:
+      - সফনিয়
+      - সফ
+  - osis: Hag
+    texts:
+      - হগয়
+  - osis: Zech
+    texts:
+      - জখৰিয়
+      - জখ
+  - osis: Mal
+    texts:
+      - মালাখী
+      - মালা
+  - osis: Matt
+    texts:
+      - মথি
+  - osis: Mark
+    texts:
+      - মার্ক
+  - osis: Luke
+    texts:
+      - লুক
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - যোহন
+      - যো
+  - osis: Acts
+    texts:
+      - দিমসেত
+      - দিম
+  - osis: Rom
+    texts:
+      - ৰোমীয়
+      - ৰো
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - কৰি
+  - osis: Col
+    texts:
+      - কলসীয়া
+      - কল
+  - osis: Gal
+    texts:
+      - গালাতীয়া
+      - গালা
+  - osis: Eph
+    texts:
+      - ইফিষীয়া
+      - ইফি
+  - osis: Phil
+    texts:
+      - ফিলিপীয়া
+      - ফিলি
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - থিষলনীকীয়া
+      - থিষ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - তীমথি
+      - তীম
+  - osis: Titus
+    texts:
+      - তীত
+  - osis: Phlm
+    texts:
+      - ফিলীমন
+      - ফিলী
+  - osis: Heb
+    texts:
+      - ইব্রী
+  - osis: Jas
+    texts:
+      - যাকোব
+      - যাকো
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - পিতৰ
+      - পি
+  - osis: Jude
+    texts:
+      - যিহুদা
+      - যিহু
+translations:
+  - RABHBSI

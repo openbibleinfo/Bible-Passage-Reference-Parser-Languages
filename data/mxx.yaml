@@ -1,0 +1,63 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Matt
+    texts:
+      - Matiyu
+      - Mat
+  - osis: Mark
+    texts:
+      - Maki
+  - osis: Luke
+    texts:
+      - Luka
+  - osis: John
+    texts:
+      - Yaya
+  - osis: Acts
+    texts:
+      - Kɛ́wɛɛ
+      - Kɛw
+  - osis: Phil
+    texts:
+      - Filipika olu
+      - Fili
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonikika olu
+  - osis: 1Thess
+    texts:
+      - 1Te
+  - osis: 2Thess
+    texts:
+      - 2Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Titi
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemɔn
+      - File
+translations:
+  - MXX

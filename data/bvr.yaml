@@ -1,0 +1,99 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Borrich
+  - osis: Matt
+    texts:
+      - Metiyu
+  - osis: Mark
+    texts:
+      - Mark
+  - osis: Luke
+    texts:
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jon
+  - osis: Acts
+    texts:
+      - Jama Aburr-ji
+  - osis: Rom
+    texts:
+      - Rowm Aburr-guyinda
+      - Rowm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Gorint Aburr-guyinda
+      - Gorint
+  - osis: Col
+    texts:
+      - Gulóchay Aburr-guyinda
+      - Gulóchay
+  - osis: Gal
+    texts:
+      - Galéychiya Aburr-guyinda
+      - Galéychiya
+  - osis: Eph
+    texts:
+      - Apachach Aburr-guyinda
+      - Apachach
+  - osis: Phil
+    texts:
+      - Bilipay
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Jechalónika Aburr-guyinda
+      - Jechalónika
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Dimati
+  - osis: Titus
+    texts:
+      - Daytach
+  - osis: Phlm
+    texts:
+      - Baylíman
+  - osis: Heb
+    texts:
+      - Yibru Yerrcha
+  - osis: Jas
+    texts:
+      - Jeymch
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Birta
+  - osis: Jude
+    texts:
+      - Jut
+translations:
+  - BVRNT

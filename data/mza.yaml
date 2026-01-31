@@ -1,0 +1,138 @@
+variables:
+  first: &first
+    - "1"
+    - Tutu
+  second: &second
+    - "2"
+    - Tutu
+books:
+  - osis: Rev
+    texts:
+      - Tutu Apocalipsis
+      - Ap.
+  - osis: Matt
+    texts:
+      - Tutu Mate
+      - Mt.
+  - osis: Mark
+    texts:
+      - Tutu Marku
+      - Mr.
+  - osis: Luke
+    texts:
+      - Tutu Luka
+      - Lc.
+  - osis: 3John
+    texts:
+      - Tutu Xuva Uni
+      - 3 Jn.
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - Xuva Nunuu
+      - Jn.
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - Xuva Uvi
+      - Jn.
+  - osis: John
+    texts:
+      - Tutu Xuva
+      - Jn.
+  - osis: Acts
+    texts:
+      - Tutu Hechos
+      - Hch.
+  - osis: Rom
+    texts:
+      - Tutu Romanu
+      - Ro.
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Corintu Nunuu
+      - Co.
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corintu Uvi
+      - Co.
+  - osis: Col
+    texts:
+      - Tutu Colosa
+      - Col.
+  - osis: Gal
+    texts:
+      - Tutu Gálata
+      - Gá.
+  - osis: Eph
+    texts:
+      - Tutu Efesu
+      - Ef.
+  - osis: Phil
+    texts:
+      - Tutu Filipu
+      - Fil.
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Tesalónica Nunuu
+      - Ts.
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalónica Uvi
+      - Ts.
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Timoteu Nunuu
+      - Ti.
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteu Uvi
+      - Ti.
+  - osis: Titus
+    texts:
+      - Tutu Titu
+      - Tit.
+  - osis: Phlm
+    texts:
+      - Tutu Filemón
+      - Flm.
+  - osis: Heb
+    texts:
+      - Tutu Hebreu
+      - He.
+  - osis: Jas
+    texts:
+      - Tutu Jandiau
+      - Stg.
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - Petuꞌ Nunuu
+      - P.
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petuꞌ Uvi
+      - P.
+  - osis: Jude
+    texts:
+      - Tutu Juda
+      - Jud.
+translations:
+  - MZA

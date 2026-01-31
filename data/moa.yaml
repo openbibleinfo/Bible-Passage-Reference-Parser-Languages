@@ -1,0 +1,137 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - ‑Yrɛ
+  - osis: Matt
+    texts:
+      - Matie
+      - Mat
+  - osis: Mark
+    texts:
+      - Maki
+      - Mak
+  - osis: Luke
+    texts:
+      - Luki
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Za
+  - osis: 2John
+    texts:
+      - 2Za
+  - osis: 3John
+    texts:
+      - 3 Zaan
+      - 3Za
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Zaan
+  - osis: Acts
+    texts:
+      - Klɛza
+      - Klɛ
+  - osis: Rom
+    texts:
+      - Romɛ
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korɛnti
+  - osis: 1Cor
+    texts:
+      - 1Kor
+  - osis: 2Cor
+    texts:
+      - 2Kor
+  - osis: Col
+    texts:
+      - Kolɔsi
+      - Kol
+  - osis: Gal
+    texts:
+      - Galasi
+      - Gal
+  - osis: Eph
+    texts:
+      - Efɛzi
+      - Efɛ
+  - osis: Phil
+    texts:
+      - Filipu
+      - Filp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaloniki
+  - osis: 1Thess
+    texts:
+      - 1Tes
+  - osis: 2Thess
+    texts:
+      - 2Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Titi
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemɔ
+      - Film
+  - osis: Heb
+    texts:
+      - Ebre
+      - Ebr
+  - osis: Jas
+    texts:
+      - Zaki
+      - Zak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piɛri
+  - osis: 1Pet
+    texts:
+      - 1Pi
+  - osis: 2Pet
+    texts:
+      - 2Pi
+  - osis: Jude
+    texts:
+      - Zudi
+      - Zud
+translations:
+  - MOA

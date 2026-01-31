@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Úklɔ́ Kú Aɔ́cɛ́
+    short: 1 Úklɔ́
+  1Cor:
+    long: 1 Ācɛ Ukɔ́rīnti
+    short: 1 Ukɔ́r
+  1John:
+    long: 1 Ujɔ́ɔni
+    short: 1 Ujɔ́n
+  1Kgs:
+    long: 1 Aɔ́cɛ́
+    short: 1 Aɔ́cɛ́
+  1Pet:
+    long: 1 Upíta
+    short: 1 Upít
+  1Sam:
+    long: 1 Usámuwɛ̄lu
+    short: 1 Usám
+  1Thess:
+    long: 1 Ācɛ Utesaloníka
+    short: 1 Utɛs
+  1Tim:
+    long: 1 Utímōti
+    short: 1 Utím
+  2Chr:
+    long: 2 Úklɔ́ Kú Aɔ́cɛ́
+    short: 2 Úklɔ́
+  2Cor:
+    long: 2 Ācɛ Ukɔ́rīnti
+    short: 2 Ukɔ́r
+  2John:
+    long: 2 Ujɔ́ɔni
+    short: 2 Ujɔ́n
+  2Kgs:
+    long: 2 Aɔ́cɛ́
+    short: 2 Aɔ́cɛ́
+  2Pet:
+    long: 2 Upíta
+    short: 2 Upít
+  2Sam:
+    long: 2 Usámuwɛ̄lu
+    short: 2 Usám
+  2Thess:
+    long: 2 Ācɛ Utesaloníka
+    short: 2 Utɛs
+  2Tim:
+    long: 2 Utímōti
+    short: 2 Utím
+  3John:
+    long: 3 Ujɔ́ɔni
+    short: 3 Ujɔ́n
+  Acts:
+    long: Úklɔ́ Kú Ācotɛ̄hɔ̄
+    short: Ācot
+  Amos:
+    long: Émɔ̄si
+    short: Émɔs
+  Col:
+    long: Ācɛ Ukólōsi
+    short: Ukól
+  Dan:
+    long: Udánīyɛ̄lu
+    short: Udan
+  Deut:
+    long: Oblatūkíne
+    short: Obla
+  Eccl:
+    long: Ɔ̄cokóītá
+    short: Ɔ̄cok
+  Eph:
+    long: Ācɛ Ɛ́fēsɔsi
+    short: Ɛfɛs
+  Esth:
+    long: Ɛ́sta
+    short: Ɛ́sta
+  Exod:
+    long: Oōyɛbɛ̄cɛ
+    short: Oyɛb
+  Ezek:
+    long: Isíkɛ̄lu
+    short: Isík
+  Ezra:
+    long: Ɛ́sra
+    short: Ɛ́sira
+  Gal:
+    long: Ācɛ Ugalésīya
+    short: Ugal
+  Gen:
+    long: Ohútu
+    short: Ohút
+  Hab:
+    long: Uhábakūku
+    short: Uháb
+  Hag:
+    long: Uhágāyi
+    short: Uhág
+  Heb:
+    long: Ācɛ Uhíbru
+    short: Uhíb
+  Hos:
+    long: Uhosíi
+    short: Uhos
+  Isa:
+    long: Ayisáya
+    short: Ayis
+  Jas:
+    long: Ujɛ́mīsi
+    short: Ujém
+  Jer:
+    long: Ujɛrɛmíya
+    short: Ujer
+  Job:
+    long: Ujóbu
+    short: Ujób
+  Joel:
+    long: Ujówɛ̄lu
+    short: Ujów
+  John:
+    long: Ujɔ́ni
+    short: Ujɔ́n
+  Jonah:
+    long: Ujóna
+    short: Ujón
+  Josh:
+    long: Ujóssuwa
+    short: Ujós
+  Jude:
+    long: Ujúudu
+    short: Ujúd
+  Judg:
+    long: Ācohɛ́pɔ̄
+    short: Āco
+  Lam:
+    long: Ikwūayidɔ
+    short: Ikwū
+  Lev:
+    long: Ulīfayi
+    short: Ulīf
+  Luke:
+    long: Ulúku
+    short: Ulúk
+  Mal:
+    long: Umálakāyi
+    short: Umál
+  Mark:
+    long: Umáki
+    short: Umák
+  Matt:
+    long: Umátiyu
+    short: Umát
+  Mic:
+    long: Umáyíka
+    short: Umáy
+  Nah:
+    long: Unáhum
+    short: Unáh
+  Neh:
+    long: Unehemíya
+    short: Uneh
+  Num:
+    long: Áluka
+    short: Áluk
+  Obad:
+    long: Obadíya
+    short: Obad
+  Phil:
+    long: Ācɛ Ufílipāyi
+    short: Ufíl
+  Phlm:
+    long: Ufílīmɔn
+    short: Ufím
+  Prov:
+    long: Aíita
+    short: Aíit
+  Ps:
+    long: Aíjē Kú Ɛ̄gbā
+    short: Aíjē
+  Rev:
+    long: Ɔdā Nēé Mafú Lɛ Ujɔ́ɔni
+    short: Mafú
+  Rom:
+    long: Ācɛ Uróm
+    short: Uróm
+  Ruth:
+    long: Urútu
+    short: Urút
+  Song:
+    long: Ijē Kú Usólōmɔn
+    short: Usól
+  Titus:
+    long: Utáyítɔ̄si
+    short: Utáy
+  Zech:
+    long: Usakaríya
+    short: Usak
+  Zeph:
+    long: Usɛfaníya
+    short: Usɛf

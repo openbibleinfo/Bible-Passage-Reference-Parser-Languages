@@ -1,0 +1,272 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Genesis
+      - Gen
+  - osis: Exod
+    texts:
+      - Exodus
+      - Exod
+  - osis: Lev
+    texts:
+      - Leviticus
+      - Lev
+  - osis: Num
+    texts:
+      - Numbers
+      - Num
+  - osis: Lam
+    texts:
+      - Lamentations
+      - Lam
+  - osis: Rev
+    texts:
+      - Revelation
+      - Rev
+  - osis: Deut
+    texts:
+      - Deuteronomy
+      - Deut
+  - osis: Josh
+    texts:
+      - Joshua
+      - Josh
+  - osis: Judg
+    texts:
+      - Judges
+      - Judg
+  - osis: Ruth
+    texts:
+      - Ruth
+  - osis: Isa
+    texts:
+      - Isaiah
+      - Isa
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Kings
+      - Kgs
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Chronicles
+      - Chr
+  - osis: Ezra
+    texts:
+      - Ezra
+  - osis: Neh
+    texts:
+      - Nehemiah
+      - Neh
+  - osis: Esth
+    texts:
+      - Esther
+      - Esth
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Psalms
+      - Ps
+  - osis: Prov
+    texts:
+      - Proverbs
+      - Prov
+  - osis: Eccl
+    texts:
+      - Ecclesiastes
+      - Eccl
+  - osis: Song
+    texts:
+      - Song of Songs
+      - Song
+  - osis: Jer
+    texts:
+      - Jeremiah
+      - Jer
+  - osis: Ezek
+    texts:
+      - Ezekiel
+      - Ezek
+  - osis: Dan
+    texts:
+      - Daniel
+  - osis: Hos
+    texts:
+      - Hosea
+      - Hos
+  - osis: Joel
+    texts:
+      - Joel
+  - osis: Amos
+    texts:
+      - Amos
+  - osis: Obad
+    texts:
+      - Obadiah
+      - Obad
+  - osis: Jonah
+    texts:
+      - Jonah
+      - Jon
+  - osis: Mic
+    texts:
+      - Micah
+      - Mic
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakkuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Zephaniah
+      - Zeph
+  - osis: Hag
+    texts:
+      - Haggai
+      - Hag
+  - osis: Zech
+    texts:
+      - Zechariah
+      - Zech
+  - osis: Mal
+    texts:
+      - Malachi
+      - Mal
+  - osis: Matt
+    texts:
+      - Ratokenti 8atio
+      - Matthew
+      - 8atio
+      - Matt
+  - osis: Mark
+    texts:
+      - Roiatatokenti Mark
+      - St. Mark
+      - Mark
+  - osis: Luke
+    texts:
+      - Rioiatatokenti Luc
+      - Luke
+      - Luc
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Sawátis
+      - Jn
+  - osis: John
+    texts:
+      - Roiatatokenti San
+      - John
+      - San
+  - osis: Acts
+    texts:
+      - Acts
+  - osis: Rom
+    texts:
+      - Romans
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corinthians
+      - Cor
+  - osis: Col
+    texts:
+      - Colossians
+      - Col
+  - osis: Gal
+    texts:
+      - Galatians
+      - Gal
+  - osis: Eph
+    texts:
+      - Ephesians
+      - Eph
+  - osis: Phil
+    texts:
+      - Philippians
+      - Phil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thessalonians
+      - Thes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothy
+      - Tim
+  - osis: Titus
+    texts:
+      - Titus
+      - Tit
+  - osis: Phlm
+    texts:
+      - Philemon
+      - Phlm
+  - osis: Heb
+    texts:
+      - Hebrews
+      - Heb
+  - osis: Jas
+    texts:
+      - Jas
+      - Sák
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Tiér
+      - Pet
+  - osis: Jude
+    texts:
+      - Jude
+translations:
+  - MOH1804
+  - MOH1774
+  - MOH1880
+  - MHK

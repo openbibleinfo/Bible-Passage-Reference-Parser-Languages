@@ -1,0 +1,144 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Panagnaan
+      - Gen
+  - osis: Rev
+    texts:
+      - Siga Pakaradjaan bay Pinalahil
+      - Rev
+  - osis: Matt
+    texts:
+      - Matiyu
+      - Mat
+  - osis: Mark
+    texts:
+      - Malkus
+      - Mrk
+  - osis: Luke
+    texts:
+      - Lukas
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Jn
+  - osis: 2John
+    texts:
+      - 2Jn
+  - osis: 3John
+    texts:
+      - 3 Yahiya
+      - 3Jn
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yahiya
+  - osis: John
+    texts:
+      - Yahiya
+      - Jhn
+  - osis: Acts
+    texts:
+      - Salsila siga Rasul
+      - Act
+  - osis: Rom
+    texts:
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korin
+  - osis: 1Cor
+    texts:
+      - 1Co
+  - osis: 2Cor
+    texts:
+      - 2Co
+  - osis: Col
+    texts:
+      - Kolossa
+      - Col
+  - osis: Gal
+    texts:
+      - Galatiya
+      - Gal
+  - osis: Eph
+    texts:
+      - Epesus
+      - Eph
+  - osis: Phil
+    texts:
+      - Pilipi
+      - Php
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaloneka
+  - osis: 1Thess
+    texts:
+      - 1Th
+  - osis: 2Thess
+    texts:
+      - 2Th
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timuti
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Taytus
+      - Tit
+  - osis: Phlm
+    texts:
+      - Pilimun
+      - Phm
+  - osis: Heb
+    texts:
+      - Hibrani
+      - Heb
+  - osis: Jas
+    texts:
+      - Yaꞌkub
+      - Jas
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pitel
+  - osis: 1Pet
+    texts:
+      - 1Pe
+  - osis: 2Pet
+    texts:
+      - 2Pe
+  - osis: Jude
+    texts:
+      - Jud
+      - Jūd
+translations:
+  - SJM

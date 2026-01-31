@@ -1,0 +1,106 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - "'Yii Ghlä‑wälɩ"
+      - Ghlä
+  - osis: Matt
+    texts:
+      - Matie
+  - osis: Mark
+    texts:
+      - Makö
+  - osis: Luke
+    texts:
+      - Lukö
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Zään
+  - osis: Acts
+    texts:
+      - Nʋnʋgbɩɩ
+      - Nʋnʋ
+  - osis: Rom
+    texts:
+      - Wlɔmʋ‑dunyʋä
+      - Wlɔmʋ
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kolɛtɩ‑dunyʋä
+      - Kolɛ
+  - osis: Col
+    texts:
+      - Kolɔsʋ‑dunyʋä
+      - Kolɔ
+  - osis: Gal
+    texts:
+      - Galatɩnyʋä
+      - Gala
+  - osis: Eph
+    texts:
+      - Efɛzɩ‑dunyʋä
+      - Efɛ
+  - osis: Phil
+    texts:
+      - Filipʋ‑dunyʋä
+      - Fili
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonikö‑dunyʋä
+      - Tesa
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotee
+      - Timo
+  - osis: Titus
+    texts:
+      - Titö
+  - osis: Phlm
+    texts:
+      - Filemɔɔ
+      - File
+  - osis: Heb
+    texts:
+      - Eblëënyʋä
+      - Eblëë
+  - osis: Jas
+    texts:
+      - Zakö
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pɩɛlö
+      - Pɩɛ
+  - osis: Jude
+    texts:
+      - Zudö
+translations:
+  - GOD

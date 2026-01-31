@@ -1,0 +1,109 @@
+variables:
+  first: &first
+    - I
+  second: &second
+    - II
+  third: &third
+    - III
+books:
+  - osis: Rev
+    texts:
+      - Khảy Ọc
+      - Khảy
+  - osis: Matt
+    texts:
+      - Ma-thi-ơ
+      - Mat
+  - osis: Mark
+    texts:
+      - Mahc
+  - osis: Luke
+    texts:
+      - Lu-ca
+      - Lu
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Dahng
+  - osis: Acts
+    texts:
+      - Cóhng Vệc
+  - osis: Rom
+    texts:
+      - Lô-ma
+      - Lô
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Cô-lihng-tô
+      - Cô
+  - osis: Col
+    texts:
+      - Cô-lô-sê
+      - Côl
+  - osis: Gal
+    texts:
+      - Ca-la-ti
+      - Ca
+  - osis: Eph
+    texts:
+      - Ê-fê-sô
+      - Êfê
+  - osis: Phil
+    texts:
+      - Fi-líhp
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tê-sa-lô-ni-ca
+      - Tê
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Ti-mô-thê
+      - Ti
+  - osis: Titus
+    texts:
+      - Tíht
+  - osis: Phlm
+    texts:
+      - Fi-lê-môn
+      - Film
+  - osis: Heb
+    texts:
+      - Hê-bơ-lơ
+      - Hê
+  - osis: Jas
+    texts:
+      - Da-cơ
+      - Da
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Fi-e-lơ
+      - Fi
+  - osis: Jude
+    texts:
+      - Du-đe
+      - Du
+translations:
+  - NUT2019

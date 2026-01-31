@@ -1,0 +1,281 @@
+default:
+  1Chr:
+    long: 1 Khang Tangthu Masate
+    short: 1Khang
+  1Cor:
+    long: 1 Korin Masa
+    short: 1Kor
+  1John:
+    long: 1 Johan Masa
+    short: 1Jhn
+  1Kgs:
+    long: 1 Kumpi Masate
+    short: 1Kum
+  1Pet:
+    long: 1 Peter Masa
+    short: 1Pe
+  1Sam:
+    long: 1 Samuel Masa
+    short: 1Sam
+  1Thess:
+    long: 1 Thesalonika Masa
+    short: 1The
+  1Tim:
+    long: 1 Timoti Masa
+    short: 1Tim
+  2Chr:
+    long: 2 Khang Tangthu Nihnate
+    short: 2Khang
+  2Cor:
+    long: 2 Korin Nihna
+    short: 2Kor
+  2John:
+    long: 2 Johan Nihna
+    short: 2Jhn
+  2Kgs:
+    long: 2 Kumpi Nihnate
+    short: 2Kum
+  2Pet:
+    long: 2 Peter Nihna
+    short: 2Pe
+  2Sam:
+    long: 2 Samuel Nihna
+    short: 2Sam
+  2Thess:
+    long: 2 Thesalonika Nihna
+    short: 2The
+  2Tim:
+    long: 2 Timoti Nihna
+    short: 2Tim
+  3John:
+    long: 3 Johan Thumna
+    short: 3Jhn
+  Acts:
+    long: Sawltak
+    short: Sawl
+  Amos:
+    long: Amos
+    short: Amos
+  Col:
+    long: Kolose
+    short: Kol
+  Dan:
+    long: Daniel
+    short: Dan
+  Deut:
+    long: Thu Hilhkikna
+    short: Thkna
+  Eccl:
+    long: Thuhilh-sia
+    short: Thna
+  Eph:
+    long: Efesa
+    short: Efe
+  Esth:
+    long: Esther
+    short: Est
+  Exod:
+    long: Paikhiatna
+    short: Pai
+  Ezek:
+    long: Ezekiel
+    short: Ezk
+  Ezra:
+    long: Ezra
+    short: Ezr
+  Gal:
+    long: Galati
+    short: Gal
+  Gen:
+    long: Piancilna
+    short: Pian
+  Hab:
+    long: Habakkuk
+    short: Hab
+  Hag:
+    long: Haggai
+    short: Hag
+  Heb:
+    long: Hebru
+    short: Heb
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Isaiah
+    short: Isa
+  Jas:
+    long: James
+    short: James
+  Jer:
+    long: Jeremiah
+    short: Jer
+  Job:
+    long: Job
+    short: Job
+  Joel:
+    long: Joel
+    short: Joel
+  John:
+    long: Johan
+    short: Jhn
+  Jonah:
+    long: Jonah
+    short: Jon
+  Josh:
+    long: Joshua
+    short: Jos
+  Jude:
+    long: Juda
+    short: Juda
+  Judg:
+    long: Thukhente
+    short: Thkn
+  Lam:
+    long: Kah la
+    short: Kah
+  Lev:
+    long: Siampi Laibu
+    short: Siam
+  Luke:
+    long: Luka
+    short: Luk
+  Mal:
+    long: Malakhi
+    short: Mal
+  Mark:
+    long: Marka
+    short: Mrk
+  Matt:
+    long: Matthai
+    short: Mat
+  Mic:
+    long: Micah
+    short: Mi
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nehemiah
+    short: Neh
+  Num:
+    long: Gamlak Vakna
+    short: Gam
+  Obad:
+    long: Obadiah
+    short: Oba
+  Phil:
+    long: Filippi
+    short: Fil
+  Phlm:
+    long: Filemon
+    short: File
+  Prov:
+    long: Paunak
+    short: Pau
+  Ps:
+    long: Late
+    short: La
+  Rev:
+    long: Maangmuhna
+    short: Mang
+  Rom:
+    long: Rom
+    short: Rom
+  Ruth:
+    long: Ruth
+    short: Ruth
+  Song:
+    long: Solomon la
+    short: Sol
+  Titus:
+    long: Titu
+    short: Tit
+  Zech:
+    long: Zekhariah
+    short: Zek
+  Zeph:
+    long: Zefaniah
+    short: Zef
+translations:
+  tb77:
+    1Chr:
+      long: Khang-tangthu Masa
+    1Cor:
+      long: Korin Masa
+    1John:
+      long: Johan Masa
+    1Kgs:
+      long: Kumpite Masa
+    1Pet:
+      long: Piter Masa
+      short: 1Pi
+    1Sam:
+      long: Samuel Masa
+    1Thess:
+      long: Thesalon Masa
+    1Tim:
+      long: Timoti Masa
+    2Chr:
+      long: Khang-tangthu Nihna
+    2Cor:
+      long: Korin Nihna
+    2John:
+      long: Johan Nihna
+    2Kgs:
+      long: Kumpite Nihna
+    2Pet:
+      long: Piter Nihna
+      short: 2Pi
+    2Sam:
+      long: Samuel Nihna
+    2Thess:
+      long: Thesalon Nihna
+    2Tim:
+      long: Timoti Nihna
+    3John:
+      long: Johan Thumna
+    Deut:
+      long: Thu-hilhkikna
+    Ezra:
+      short: Ezra
+    Jas:
+      long: Jeim
+      short: Jeim
+    Joel:
+      short: Jol
+    Matt:
+      long: Mattiu
+    Num:
+      long: Gamlak-vakna
+    Rev:
+      long: Mangmuhna
+    Titus:
+      short: Titu
+  tdb:
+    1John:
+      short: 1Joh
+    2John:
+      short: 2Joh
+    3John:
+      short: 3Joh
+    Eccl:
+      long: Thuhilhna
+    John:
+      short: Joh
+    Jonah:
+      short: Jonah
+    Josh:
+      short: Josh
+    Jude:
+      long: Jude
+      short: Jude
+    Judg:
+      short: Thu
+    Mic:
+      long: Mikah
+      short: MiK
+    Titus:
+      long: Titus
+    Zeph:
+      short: Zefa

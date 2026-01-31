@@ -1,0 +1,153 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Kananet
+      - Kan
+  - osis: Exod
+    texts:
+      - Lu̱ge̱z
+      - Lu̱g
+  - osis: Rev
+    texts:
+      - O̱no̱zzo̱k
+      - O̱no̱
+  - osis: Ruth
+    texts:
+      - Ruz
+  - osis: Jonah
+    texts:
+      - Jonah
+      - Jna
+  - osis: Matt
+    texts:
+      - Ma̱te̱yo̱
+      - Ma̱t
+  - osis: Mark
+    texts:
+      - Marko
+      - Mrk
+  - osis: Luke
+    texts:
+      - Lu̱ka̱
+      - Lu̱k
+  - osis: 1John
+    texts:
+      - 1Jon
+  - osis: 2John
+    texts:
+      - 2Jon
+  - osis: 3John
+    texts:
+      - 3 Jon
+      - 3Jon
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jon
+  - osis: Acts
+    texts:
+      - Buk wa To̱ni̱a̱u̱
+      - To̱n
+  - osis: Rom
+    texts:
+      - Roma
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Ko̱ri̱nto̱
+  - osis: 1Cor
+    texts:
+      - 1Ko̱r
+  - osis: 2Cor
+    texts:
+      - 2Ko̱r
+  - osis: Col
+    texts:
+      - Kolosiya
+      - Kol
+  - osis: Gal
+    texts:
+      - Ga̱la̱ti̱a̱
+      - Ga̱l
+  - osis: Eph
+    texts:
+      - Evesos
+      - Eph
+  - osis: Phil
+    texts:
+      - Vilipia
+      - Vlp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Te̱se̱lo̱ni̱ka̱
+  - osis: 1Thess
+    texts:
+      - 1Te̱s
+  - osis: 2Thess
+    texts:
+      - 2Te̱s
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Ti̱mo̱te̱yo̱
+  - osis: 1Tim
+    texts:
+      - 1Ti̱m
+  - osis: 2Tim
+    texts:
+      - 2Ti̱m
+  - osis: Titus
+    texts:
+      - Ti̱to̱
+      - Ti̱t
+  - osis: Phlm
+    texts:
+      - Vilomene
+      - Vlm
+  - osis: Heb
+    texts:
+      - I̱bu̱ru̱
+      - I̱bu̱
+  - osis: Jas
+    texts:
+      - Je̱mi̱s
+      - Je̱m
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peturu
+  - osis: 1Pet
+    texts:
+      - 1Pet
+  - osis: 2Pet
+    texts:
+      - 2Pet
+  - osis: Jude
+    texts:
+      - Ju̱da̱
+      - Ju̱d
+translations:
+  - TEX

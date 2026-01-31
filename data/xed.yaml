@@ -1,0 +1,141 @@
+books:
+  - osis: Gen
+    texts:
+      - Zlr
+  - osis: Exod
+    texts:
+      - Sab
+  - osis: Lev
+    texts:
+      - Lev
+  - osis: Num
+    texts:
+      - Mbs
+  - osis: Rev
+    texts:
+      - Sun
+  - osis: Deut
+    texts:
+      - Vzl
+  - osis: Josh
+    texts:
+      - Yəh
+  - osis: Judg
+    texts:
+      - Gtg
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis: 1Sam
+    texts:
+      - 1Sam
+  - osis: 2Sam
+    texts:
+      - 2Sam
+  - osis: 1Kgs
+    texts:
+      - 1Mgh
+  - osis: 2Kgs
+    texts:
+      - 2Mgh
+  - osis: 1Chr
+    texts:
+      - 1Rus
+  - osis: 2Chr
+    texts:
+      - 2Rus
+  - osis: Ezra
+    texts:
+      - Izr
+  - osis: Neh
+    texts:
+      - Nəh
+  - osis: Esth
+    texts:
+      - Ast
+  - osis: Dan
+    texts:
+      - Dan
+  - osis: Jonah
+    texts:
+      - Yun
+  - osis: Matt
+    texts:
+      - Mat
+  - osis: Mark
+    texts:
+      - Mak
+  - osis: Luke
+    texts:
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Yu
+  - osis: 2John
+    texts:
+      - 2Yu
+  - osis: 3John
+    texts:
+      - 3Yu
+  - osis: John
+    texts:
+      - Yuh
+  - osis: Acts
+    texts:
+      - Slg
+  - osis: Rom
+    texts:
+      - Rum
+  - osis: 1Cor
+    texts:
+      - 1Kwa
+  - osis: 2Cor
+    texts:
+      - 2Kwa
+  - osis: Col
+    texts:
+      - Kwl
+  - osis: Gal
+    texts:
+      - Gal
+  - osis: Eph
+    texts:
+      - Afi
+  - osis: Phil
+    texts:
+      - Fip
+  - osis: 1Thess
+    texts:
+      - 1Tes
+  - osis: 2Thess
+    texts:
+      - 2Tes
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Tit
+  - osis: Phlm
+    texts:
+      - Fil
+  - osis: Heb
+    texts:
+      - Heb
+  - osis: Jas
+    texts:
+      - Yak
+  - osis: 1Pet
+    texts:
+      - 1Pi
+  - osis: 2Pet
+    texts:
+      - 2Pi
+  - osis: Jude
+    texts:
+      - Yud
+translations:
+  - XED

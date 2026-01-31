@@ -1,0 +1,325 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Gha ta Wəshi
+      - Ghw
+  - osis: Exod
+    texts:
+      - Shave
+      - Shv
+  - osis: Bel
+    texts:
+      - Bɛl ba'a Shishi nya wəba
+      - Bɛl
+  - osis: Lev
+    texts:
+      - Ka Lɛvi
+      - Klv
+  - osis: Num
+    texts:
+      - Ɓela
+      - Ɓla
+  - osis: Sir
+    texts:
+      - Bɛn Sirak
+      - Bns
+  - osis: Wis
+    texts:
+      - Ntsehwele
+      - Ntsh
+  - osis: Lam
+    texts:
+      - Yɛ Ŋgaɗe ghə
+      - Yŋg
+  - osis: EpJer
+    texts:
+      - Palepa ta Zhɛrɛmi
+      - Pzh
+  - osis: Rev
+    texts:
+      - Ghena Kelɛŋə
+      - Ghk
+  - osis: Deut
+    texts:
+      - Zhɛne Ghwelə yitea Wəshi Mahalegə
+      - Zgwm
+  - osis: Josh
+    texts:
+      - Zhozəwɛ
+      - Zhoz
+  - osis: Judg
+    texts:
+      - Ka Meha ghwə
+      - Kmg
+  - osis: Ruth
+    texts:
+      - Rət
+  - osis: Isa
+    texts:
+      - Ɛzayi
+      - Ɛza
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Saməyɛl
+      - Sa
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Ka Meghea Kɛfi
+      - Kmk
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Wəshi nyi Mene Ka Meghe
+      - Wmkm
+  - osis: Ezra
+    texts:
+      - Ɛsdras
+      - Ɛsd
+  - osis: Neh
+    texts:
+      - Nɛhɛmi
+      - Nɛh
+  - osis: Job
+    texts:
+      - Job
+  - osis: Prov
+    texts:
+      - Yɛ Ghena Ŋela
+      - Ghŋ
+  - osis: Eccl
+    texts:
+      - Nde zlape ghena
+      - Nzlg
+  - osis: Song
+    texts:
+      - Cimə nya zeɗe ma
+      - Czm
+  - osis: Ps
+    texts:
+      - Cimə
+      - Cim
+  - osis: Jer
+    texts:
+      - Zhɛrɛmi
+      - Zhr
+  - osis: Ezek
+    texts:
+      - Ɛzɛkiyɛl
+      - Ɛzk
+  - osis: Hos
+    texts:
+      - Ozɛ
+  - osis: Joel
+    texts:
+      - Zhowɛl
+      - Zhw
+  - osis: Amos
+    texts:
+      - Amos
+      - Amo
+  - osis: Obad
+    texts:
+      - Abdiyas
+      - Abd
+  - osis: Jonah
+    texts:
+      - Zhonas
+      - Zhn
+  - osis: Mic
+    texts:
+      - Mishɛ
+      - Msh
+  - osis: Nah
+    texts:
+      - Nahəwm
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakək
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sofoni
+      - Sof
+  - osis: Hag
+    texts:
+      - Azhɛ
+      - Azh
+  - osis: Zech
+    texts:
+      - Zakari
+      - Zak
+  - osis: Mal
+    texts:
+      - Malashi
+      - Mal
+  - osis: Matt
+    texts:
+      - Matiye
+      - Mat
+  - osis: Mark
+    texts:
+      - Mark
+      - Mrk
+  - osis: Luke
+    texts:
+      - Ləwke
+      - Lwk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Zhaŋe
+      - Zhŋ
+  - osis: Acts
+    texts:
+      - Slene
+      - Sln
+  - osis: Rom
+    texts:
+      - Ka Rome
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Ka Korɛnte
+      - Kor
+  - osis: Col
+    texts:
+      - Ka Kolose
+      - Kol
+  - osis: Gal
+    texts:
+      - Ka Galate
+      - Gal
+  - osis: Eph
+    texts:
+      - Ka Ɛfɛze
+      - Ɛfɛ
+  - osis: Phil
+    texts:
+      - Ka Filipe
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Ka Tɛsalonike
+      - Tɛs
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tɛsalonike
+      - Tɛs
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotɛ
+      - Tim
+  - osis: Titus
+    texts:
+      - Tite
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filɛmon
+      - Fil
+  - osis: Heb
+    texts:
+      - Ka Ɛbrə
+      - Ɛbr
+  - osis: Jas
+    texts:
+      - Zhake
+      - Zhk
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - Piyɛre
+  - osis: 1Pet
+    texts:
+      - 1Pi
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piyɛre
+      - Pi
+  - osis: Jude
+    texts:
+      - Zhəwde
+      - Zhd
+  - osis: Tob
+    texts:
+      - Tobit
+      - Tob
+  - osis: Jdt
+    texts:
+      - Zhədit
+      - Zhdt
+  - osis: Bar
+    texts:
+      - Barək
+      - Bar
+  - osis: Sus
+    texts:
+      - Səzane
+      - Szn
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+    texts:
+      - Makabɛ
+      - Ma
+  - osis: DanGr
+    texts:
+      - Daniyɛl Grɛk
+      - Dng
+  - osis: Dan
+    texts:
+      - Daniyɛl
+      - Dan
+  - osis: EsthGr
+    texts:
+      - Ɛstɛr Grɛk
+      - Ɛsg
+  - osis: Esth
+    texts:
+      - Ɛstɛr
+      - Ɛst
+translations:
+  - BEK12
+  - BEKDC12

@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Kroniko
+    short: 1 Kron
+  1Cor:
+    long: 1 Korintanoj
+    short: 1 Kor
+  1John:
+    long: 1 Johano
+    short: 1 Johano
+  1Kgs:
+    long: 1 Reĝoj
+    short: 1 Reg
+  1Pet:
+    long: 1 Petro
+    short: 1 Petro
+  1Sam:
+    long: 1 Samuel
+    short: 1 Sam
+  1Thess:
+    long: 1 Tesalonikanoj
+    short: 1 Tes
+  1Tim:
+    long: 1 Timoteo
+    short: 1 Tim
+  2Chr:
+    long: 2 Kroniko
+    short: 2 Kron
+  2Cor:
+    long: 2 Korintanoj
+    short: 2 Kor
+  2John:
+    long: 2 Johano
+    short: 2 Johano
+  2Kgs:
+    long: 2 Reĝoj
+    short: 2 Reg
+  2Pet:
+    long: 2 Petro
+    short: 2 Petro
+  2Sam:
+    long: 2 Samuel
+    short: 2 Sam
+  2Thess:
+    long: 2 Tesalonikanoj
+    short: 2 Tes
+  2Tim:
+    long: 2 Timoteo
+    short: 2 Tim
+  3John:
+    long: 3 Johano
+    short: 3 Joh
+  Acts:
+    long: Agoj
+    short: Agoj
+  Amos:
+    long: Amos
+    short: Amos
+  Col:
+    long: Koloseanoj
+    short: Kol
+  Dan:
+    long: Daniel
+    short: Dan
+  Deut:
+    long: Readmono
+    short: Read
+  Eccl:
+    long: Predikanto
+    short: Pred
+  Eph:
+    long: Efesanoj
+    short: Efes
+  Esth:
+    long: Ester
+    short: Est
+  Exod:
+    long: Eliro
+    short: Eliro
+  Ezek:
+    long: Jeĥezkel
+    short: Jeĥ
+  Ezra:
+    long: Ezra
+    short: Ezra
+  Gal:
+    long: Galatoj
+    short: Gal
+  Gen:
+    long: Genezo
+    short: Gen
+  Hab:
+    long: Ĥabakuk
+    short: Ĥab
+  Hag:
+    long: Ĥagaj
+    short: Ĥag
+  Heb:
+    long: Hebreoj
+    short: Hebreoj
+  Hos:
+    long: Hoŝea
+    short: Hoŝ
+  Isa:
+    long: Jesaja
+    short: Jes
+  Jas:
+    long: Jakobo
+    short: Jakobo
+  Jer:
+    long: Jeremia
+    short: Jer
+  Job:
+    long: Ijob
+    short: Ijob
+  Joel:
+    long: Joel
+    short: Joel
+  John:
+    long: Johano
+    short: Johano
+  Jonah:
+    long: Jona
+    short: Jona
+  Josh:
+    long: Josuo
+    short: Jos
+  Jude:
+    long: Judas
+    short: Judas
+  Judg:
+    long: Juĝistoj
+    short: Jug
+  Lam:
+    long: Plorkanto
+    short: Plor
+  Lev:
+    long: Levidoj
+    short: Lev
+  Luke:
+    long: Luko
+    short: Luko
+  Mal:
+    long: Malaĥi
+    short: Malaĥi
+  Mark:
+    long: Marko
+    short: Marko
+  Matt:
+    long: Mateo
+    short: Mat
+  Mic:
+    long: Miĥa
+    short: Miĥa
+  Nah:
+    long: Naĥum
+    short: Naĥ
+  Neh:
+    long: Neĥemja
+    short: Neh
+  Num:
+    long: Nombroj
+    short: Nom
+  Obad:
+    long: Obadja
+    short: Obas
+  Phil:
+    long: Filipianoj
+    short: Filip
+  Phlm:
+    long: Filemon
+    short: Filemon
+  Prov:
+    long: Sentencoj
+    short: Sent
+  Ps:
+    long: Psalmaro
+    short: Psalmoj
+  Rev:
+    long: Apokalipso
+    short: Apok
+  Rom:
+    long: Romanoj
+    short: Rom
+  Ruth:
+    long: Rut
+    short: Rut
+  Song:
+    long: Alt Kanto
+    short: Kanto
+  Titus:
+    long: Tito
+    short: Tito
+  Zech:
+    long: Zeĥarja
+    short: Zeĥ
+  Zeph:
+    long: Cefanja
+    short: Cef

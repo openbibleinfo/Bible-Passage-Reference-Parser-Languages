@@ -1,0 +1,695 @@
+default:
+  1Chr:
+    long: 1 Kroniška
+    short: 1 Krn
+  1Cor:
+    long: 1 Korinčanom
+    short: 1 Kor
+  1John:
+    long: 1 Janez
+    short: 1 Jn
+  1Kgs:
+    long: 1 Kralji
+    short: 1 Kr
+  1Macc:
+    long: 1 Makabejci
+    short: 1 Mkb
+  1Pet:
+    long: 1 Peter
+    short: 1 Pt
+  1Sam:
+    long: 1 Samuel
+    short: 1 Sam
+  1Thess:
+    long: 1 Tesaloničanom
+    short: 1 Tes
+  1Tim:
+    long: 1 Timoteju
+    short: 1 Tim
+  2Chr:
+    long: 2 Kroniška
+    short: 2 Krn
+  2Cor:
+    long: 2 Korinčanom
+    short: 2 Kor
+  2John:
+    long: 2 Janez
+    short: 2 Jn
+  2Kgs:
+    long: 2 Kralji
+    short: 2 Kr
+  2Macc:
+    long: 2 Makabejci
+    short: 2 Mkb
+  2Pet:
+    long: 2 Peter
+    short: 2 Pt
+  2Sam:
+    long: 2 Samuel
+    short: 2 Sam
+  2Thess:
+    long: 2 Tesaloničanom
+    short: 2 Tes
+  2Tim:
+    long: 2 Timoteju
+    short: 2 Tim
+  3John:
+    long: 3 Janez
+    short: 3 Jn
+  Acts:
+    long: Apostolska dela
+    short: Apd
+  Amos:
+    long: Amos
+    short: Am
+  Bar:
+    long: Baruh
+    short: Bar
+  Bel:
+    long: Od Bela v'Babeli.
+    short: Bel.
+  Col:
+    long: Kološanom
+    short: Kol
+  Dan:
+    long: Daniel
+    short: Dan
+  DanGr:
+    long: Daniel (dodatki)
+    short: DanD
+  Deut:
+    long: 5 Mojzes
+    short: 5 Mz
+  Eccl:
+    long: Pridigar
+    short: Prd
+  EpJer:
+    long: Jeremijevo pismo
+    short: JerP
+  Eph:
+    long: Efežanom
+    short: Ef
+  Esth:
+    long: Estera
+    short: Est
+  EsthGr:
+    long: Estera (2. del)
+    short: Add. Eſter.
+  Exod:
+    long: 2 Mojzes
+    short: 2 Mz
+  Ezek:
+    long: Ezekiel
+    short: Ezk
+  Ezra:
+    long: Ezra
+    short: Ezr
+  Gal:
+    long: Galačanom
+    short: Gal
+  Gen:
+    long: 1 Mojzes
+    short: 1 Mz
+  Hab:
+    long: Habakuk
+    short: Hab
+  Hag:
+    long: Agej
+    short: Ag
+  Heb:
+    long: Hebrejcem
+    short: Heb
+  Hos:
+    long: Ozej
+    short: Oz
+  Isa:
+    long: Izaija
+    short: Iz
+  Jas:
+    long: Jakob
+    short: Jak
+  Jdt:
+    long: Judita
+    short: Jdt
+  Jer:
+    long: Jeremija
+    short: Jer
+  Job:
+    long: Job
+    short: Job
+  Joel:
+    long: Joel
+    short: Jl
+  John:
+    long: Janez
+    short: Jn
+  Jonah:
+    long: Jona
+    short: Jon
+  Josh:
+    long: Jozue
+    short: Joz
+  Jude:
+    long: Juda
+    short: Jud
+  Judg:
+    long: Sodniki
+    short: Sod
+  Lam:
+    long: Žalostinke
+    short: Žal
+  Lev:
+    long: 3 Mojzes
+    short: 3 Mz
+  Luke:
+    long: Luka
+    short: Lk
+  Mal:
+    long: Malahija
+    short: Mal
+  Mark:
+    long: Marko
+    short: Mr
+  Matt:
+    long: Matej
+    short: Mt
+  Mic:
+    long: Mihej
+    short: Mih
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nehemija
+    short: Neh
+  Num:
+    long: 4 Mojzes
+    short: 4 Mz
+  Obad:
+    long: Abdija
+    short: Abd
+  Phil:
+    long: Filipljanom
+    short: Flp
+  Phlm:
+    long: Filemonu
+    short: Flm
+  PrAzar:
+    long: SHTVKI HDANIELV.
+    short: Add. Dan.
+  PrMan:
+    long: Manassova Molitov.
+    short: Man.
+  Prov:
+    long: Pregovori
+    short: Prg
+  Ps:
+    long: Psalmi
+    short: Ps
+  Rev:
+    long: Razodetje
+    short: Raz
+  Rom:
+    long: Rimljanom
+    short: Rim
+  Ruth:
+    long: Ruta
+    short: Rut
+  Sir:
+    long: Sirah
+    short: Sir
+  Song:
+    long: Visoka pesem
+    short: Vp
+  Sus:
+    long: Istoria Od Svsanne Inv Daniela.
+    short: Sus.
+  Titus:
+    long: Titu
+    short: Tit
+  Tob:
+    long: Tobieve Bvqve.
+    short: Tob
+  Wis:
+    long: Modrost
+    short: Mdr
+  Zech:
+    long: Zaharija
+    short: Zah
+  Zeph:
+    long: Sofonija
+    short: Sof
+translations:
+  chr:
+    1Chr:
+      long: I Letopisi
+      short: 1 Let
+    1Cor:
+      long: I Korinčanom
+    1John:
+      long: I Janez
+    1Kgs:
+      long: I Kralji
+    1Pet:
+      long: I Peter
+    1Sam:
+      long: I Samuel
+    1Thess:
+      long: I Tesaloničanom
+    1Tim:
+      long: I Timoteju
+    2Chr:
+      long: II Letopisi
+      short: 2 Let
+    2Cor:
+      long: II Korinčanom
+    2John:
+      long: II Janez
+    2Kgs:
+      long: II Kralji
+    2Pet:
+      long: II Peter
+    2Sam:
+      long: II Samuel
+    2Thess:
+      long: II Tesaloničanom
+    2Tim:
+      long: II Timoteju
+    3John:
+      long: III Janez
+    Acts:
+      long: Dejanja
+    Deut:
+      long: V Mojzes
+    Eccl:
+      long: Propovednik
+      short: Prp
+    Exod:
+      long: II Mojzes
+    Gal:
+      long: Galatom
+    Gen:
+      long: I Mojzes
+    Hag:
+      long: Hagaj
+      short: Hag
+    Hos:
+      long: Ozea
+    John:
+      long: Sv. Janez
+    Lev:
+      long: III Mojzes
+    Luke:
+      long: Sv. Lukež
+    Mark:
+      long: Sv. Marko
+    Matt:
+      long: Sv. Matevž
+    Mic:
+      long: Miha
+    Num:
+      long: IV Mojzes
+    Obad:
+      long: Obadija
+      short: Obd
+    Zeph:
+      long: Zefanija
+      short: Zef
+  dal1584:
+    1Chr:
+      long: I. Bvqve Te Hronike.
+      short: 1. Par.
+    1Cor:
+      long: S. Pavla I. Lyst Na Korinterie.
+      short: 1. Cor.
+    1John:
+      long: S. Ioannesa I. Lyst.
+      short: 1. Ioan.
+    1Kgs:
+      long: I. Bvqve Teh Krailev.
+      short: 1. Reg.
+    1Macc:
+      long: I. Bvqve Teh Machabeeriev.
+      short: 1. Mach.
+    1Pet:
+      long: S. Petra I. Lyst.
+      short: 1. Pet.
+    1Sam:
+      long: I. Samvelove Bvqve.
+      short: 1. Sam.
+    1Thess:
+      long: S. Pavla I. Lyst Na Tessaloniherie.
+      short: 1. Theß.
+    1Tim:
+      long: S. Pavla I. Lyst Na Timotea.
+      short: 1. Timoth.
+    2Chr:
+      long: II. Bvqve Te Hronike.
+      short: 2. Par.
+    2Cor:
+      long: S. Pavla II. Lyst Na Korinterie.
+      short: 2. Cor.
+    2John:
+      long: S. Ioannesa II. Lyst.
+      short: 2. Ioan.
+    2Kgs:
+      long: II. Bvqve Teh Krailev.
+      short: 2. Reg.
+    2Macc:
+      long: II. Bvqve Teh Machabeeriev.
+      short: 2. Mach.
+    2Pet:
+      long: S. Petra II. Lyst.
+      short: 2. Pet.
+    2Sam:
+      long: II. Samvelove Bvqve.
+      short: 2. Sam.
+    2Thess:
+      long: S. Pavla II. Lyst Na Tessaloniherie.
+      short: 2. Theß.
+    2Tim:
+      long: S. Pavla II. Lyst Na Timotea.
+      short: 2. Timoth.
+    3John:
+      long: S. Ioannesa III. Lyst.
+      short: 3. Ioan.
+    Acts:
+      long: Dianie Teh Apostolov.
+      short: Act.
+    Amos:
+      long: Amos Prerok.
+      short: Amos.
+    Bar:
+      long: Barvh Prerok.
+      short: Baruch.
+    Col:
+      long: S. Pavla Lyst Na Kolosserie.
+      short: Coloß.
+    Dan:
+      long: Daniel Prerok.
+      short: Dan.
+    Deut:
+      long: V. Mosessove Bvqve.
+      short: Deut.
+    Eccl:
+      long: Salomonov Predigar.
+      short: Eccl.
+    Eph:
+      long: S. Pavla Lyst Na Epheserie.
+      short: Eph.
+    Esth:
+      long: Esterine Bvqve.
+      short: Eſter.
+    EsthGr:
+      long: SHTVKI K'ESTERI.
+    Exod:
+      long: II. Mosessove Bvqve.
+      short: Exod.
+    Ezek:
+      long: Ezekiel Prerok.
+      short: Ezech.
+    Ezra:
+      long: Esrave Bvqve.
+      short: Esdr.
+    Gal:
+      long: S. Pavla Lyst Na Galaterie.
+      short: Gal.
+    Gen:
+      long: I. Mosessove Bvqve.
+      short: Gen.
+    Hab:
+      long: Habakvk Prerok.
+      short: Hab.
+    Hag:
+      long: Haggai Prerok.
+      short: Agg.
+    Heb:
+      long: Lyst Na Ebreerie.
+      short: Heb.
+    Hos:
+      long: Oseas Prerok.
+      short: Oſee.
+    Isa:
+      long: Iesaias Prerok.
+      short: Iesa.
+    Jas:
+      long: S. Iacoba Lyst.
+      short: Iacob.
+    Jdt:
+      long: Ivditine Bvqve.
+      short: Iudith.
+    Jer:
+      long: Ieremias Prerok.
+      short: Ierem.
+    Job:
+      long: Iobove Bvqve.
+      short: Iob.
+    Joel:
+      long: Ioel Prerok.
+      short: Ioel.
+    John:
+      long: S. Ioannesa Evangeli.
+      short: Ioan.
+    Jonah:
+      long: Ionas Prerok.
+      short: Iona.
+    Josh:
+      long: Iosvove Bvqve.
+      short: Ioſ.
+    Jude:
+      long: S. Ivdesha Lyst.
+      short: Iudae.
+    Judg:
+      long: Bvqve Teh Rihtariev.
+      short: Iudic.
+    Lam:
+      long: Ieremiavv Klagovanie.
+      short: Lam.
+    Lev:
+      long: III. Mosessove Bvqve.
+      short: Levit.
+    Luke:
+      long: S. Lvkesha Evangeli.
+      short: Luc.
+    Mal:
+      long: Maleahi Prerok.
+      short: Mal.
+    Mark:
+      long: S. Marka Evangeli.
+      short: Marc.
+    Matt:
+      long: S. Mattevsha Evangeli.
+      short: Matth.
+    Mic:
+      long: Miha Prerok.
+      short: Mich.
+    Nah:
+      long: Nahvm Prerok.
+      short: Nach.
+    Neh:
+      long: Nehemiave Bvqve.
+      short: Nehem.
+    Num:
+      long: Iiii. Mosessove Bvqve.
+      short: Num.
+    Obad:
+      long: Obadia Prerok.
+      short: Abd.
+    Phil:
+      long: S. Pavla Lyst Na Philipperie.
+      short: Philipp.
+    Phlm:
+      long: S. Pavla Lyst Na Philemona.
+      short: Philem.
+    Prov:
+      long: Salomonove Pripvvisti.
+      short: Prov.
+    Ps:
+      long: Psalter.
+      short: Pſal.
+    Rev:
+      long: S. Ioannesa Resodivenie.
+      short: Apoc.
+    Rom:
+      long: S. Pavla Lyst Na Rimlane.
+      short: Rom.
+    Ruth:
+      long: Bvqve Te Rvthe.
+      short: Ruth
+    Sir:
+      long: Iesvs Syrah.
+      short: Syrach.
+    Song:
+      long: Salomonove Vissoke Peisni.
+      short: Cant.
+    Titus:
+      long: S. Pavla Lyst Na Tita.
+      short: Tit.
+    Tob:
+      short: Tob.
+    Wis:
+      long: Salomonova Modrvst.
+      short: Sap.
+    Zech:
+      long: Saharia Prerok.
+      short: Zach.
+    Zeph:
+      long: Zeffania Prerok.
+      short: Soph.
+  slnt:
+    1Cor:
+      long: 1. Korinčanom
+      short: 1. Korinčanom
+    1John:
+      long: 1. Janez
+      short: 1. Janez
+    1Pet:
+      long: 1. Peter
+      short: 1. Peter
+    1Thess:
+      long: 1. Tesaloničanom
+      short: 1. Tesaloničanom
+    1Tim:
+      long: 1. Timoteju
+      short: 1. Timoteju
+    2Cor:
+      long: 2. Korinčanom
+      short: 2. Korinčanom
+    2John:
+      long: 2. Janez
+      short: 2. Janez
+    2Pet:
+      long: 2. Peter
+      short: 2. Peter
+    2Thess:
+      long: 2. Tesaloničanom
+      short: 2. Tesaloničanom
+    2Tim:
+      long: 2. Timoteju
+      short: 2. Timoteju
+    3John:
+      long: 3. Janez
+      short: 3. Janez
+    Acts:
+      short: Apostolska dela
+    Col:
+      short: Kološanom
+    Eph:
+      short: Efežanom
+    Gal:
+      short: Galačanom
+    Heb:
+      short: Hebrejcem
+    Jas:
+      short: Jakob
+    John:
+      short: Janez
+    Jude:
+      short: Juda
+    Luke:
+      short: Luka
+    Mark:
+      short: Marko
+    Matt:
+      short: Matej
+    Phil:
+      short: Filipljanom
+    Phlm:
+      short: Filemonu
+    Rev:
+      short: Razodetje
+    Rom:
+      short: Rimljanom
+    Titus:
+      short: Titu
+  prek28:
+    1Cor:
+      long: K Korintušáncom I
+    1John:
+      long: I Jánoš
+      short: 1 Jan
+    1Pet:
+      long: I Peter
+      short: 1 Pet
+    1Thess:
+      long: K Tessaloničáncom I
+    1Tim:
+      long: K Timoteuši I
+    2Cor:
+      long: K Korintušáncom II
+    2John:
+      long: II Jánoš
+      short: 2 Jan
+    2Pet:
+      long: II Peter
+      short: 2 Pet
+    2Thess:
+      long: K Tessaloničáncom II
+    2Tim:
+      long: K Timoteuši II
+    3John:
+      long: III Jánoš
+      short: 3 Jan
+    Acts:
+      long: Djánje
+      short: Dján
+    Col:
+      long: K Kološšáncom
+    Eph:
+      long: K Efezáncom
+    Gal:
+      long: K Galatáncom
+    Heb:
+      long: K Židovom
+      short: Žid
+    Jas:
+      long: Jakub
+    John:
+      long: Jánoš
+      short: Ján
+    Jude:
+      long: Júdaš
+      short: Júd
+    Luke:
+      long: Lükáč
+      short: Lük
+    Mark:
+      short: Mark
+    Matt:
+      long: Mátaj
+      short: Mát
+    Phil:
+      long: K Filippéncom
+      short: Fil
+    Phlm:
+      long: K Filemoni
+      short: Filem
+    Ps:
+      long: Knige žoltárske
+      short: Žolt
+    Rev:
+      long: Oznanost
+      short: Ozn
+    Rom:
+      long: K Rimláncom
+    Titus:
+      long: K Tituši
+  eku:
+    Dan:
+      long: Danijel
+    DanGr:
+      long: Danijel (2. del)
+    EsthGr:
+      short: EstD
+    Ezek:
+      long: Ezekijel
+    Ezra:
+      long: Ezdra
+    Tob:
+      long: Tobija
+  ssp:
+    EsthGr:
+      long: Estera (grška)
+      short: EstG
+    Tob:
+      long: Tobit

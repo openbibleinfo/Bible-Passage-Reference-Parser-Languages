@@ -1,0 +1,204 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Génesis
+      - Gn
+  - osis: Exod
+    texts:
+      - Éxodo
+      - Ex
+  - osis: Rev
+    texts:
+      - Apocalipsis
+      - Apocalipse
+      - Ap
+  - osis: Josh
+    texts:
+      - Josué
+      - Jos
+  - osis: Judg
+    texts:
+      - Jueces
+      - Jue
+  - osis: Ruth
+    texts:
+      - Rut
+      - Rt
+  - osis: Esth
+    texts:
+      - Ester
+      - Est
+  - osis: Jonah
+    texts:
+      - Jonás
+      - Jon
+  - osis: Matt
+    texts:
+      - San Mateo
+      - Mateus
+      - Mt
+  - osis: Mark
+    texts:
+      - San Marcos
+      - Marcos
+      - Mc
+      - Mr
+  - osis: Luke
+    texts:
+      - San Lucas
+      - Lucas
+      - Lc
+  - osis: 1John
+    texts:
+      - 1Jn
+      - 1Jo
+  - osis: 2John
+    texts:
+      - 2Jn
+      - 2Jo
+  - osis: 3John
+    texts:
+      - 3 San Juan
+      - 3 João
+      - 3Jn
+      - 3Jo
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - San Juan
+      - João
+  - osis: John
+    texts:
+      - San Juan
+      - João
+      - Jn
+      - Jo
+  - osis: Acts
+    texts:
+      - Hechos
+      - Atos
+      - Hch
+      - At
+  - osis: Rom
+    texts:
+      - Romanos
+      - Rm
+      - Ro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corintios
+      - Coríntios
+  - osis: 1Cor
+    texts:
+      - 1Co
+  - osis: 2Cor
+    texts:
+      - 2Co
+  - osis: Col
+    texts:
+      - Colossenses
+      - Colosenses
+      - Col
+      - Cl
+  - osis: Gal
+    texts:
+      - Gálatas
+      - Gal
+      - Gl
+  - osis: Eph
+    texts:
+      - Efesios
+      - Efésios
+      - Ef
+  - osis: Phil
+    texts:
+      - Filipenses
+      - Fil
+      - Fl
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tessalonicenses
+      - Tesalonicenses
+  - osis: 1Thess
+    texts:
+      - 1Ts
+  - osis: 2Thess
+    texts:
+      - 2Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+      - Timóteo
+  - osis: 1Tim
+    texts:
+      - 1Ti
+      - 1Tm
+  - osis: 2Tim
+    texts:
+      - 2Ti
+      - 2Tm
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+      - Tt
+  - osis: Phlm
+    texts:
+      - Filemom
+      - Filemón
+      - Flm
+      - Fm
+  - osis: Heb
+    texts:
+      - Hebreos
+      - Hebreus
+      - Heb
+      - Hb
+  - osis: Jas
+    texts:
+      - Santiago
+      - Tiago
+      - Stg
+      - Tg
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - San Pedro
+      - Pedro
+  - osis: 1Pet
+    texts:
+      - 1Pd
+      - 1P
+  - osis: 2Pet
+    texts:
+      - 2Pd
+      - 2P
+  - osis: Jude
+    texts:
+      - Judas
+      - Jud
+translations:
+  - TUO

@@ -1,0 +1,55 @@
+default:
+  1Cor:
+    long: 1 Koronti
+    short: 1Kor
+  1Pet:
+    long: 1 Pita
+    short: 1Pit
+  1Thess:
+    long: 1 Tasoloni
+    short: 1Tas
+  2Cor:
+    long: 2 Koronti
+    short: 2Kor
+  2John:
+    long: 2 Joon
+    short: 2Jo
+  2Pet:
+    long: 2 Pita
+    short: 2Pit
+  2Thess:
+    long: 2 Tasoloni
+    short: 2Tas
+  3John:
+    long: 3 Joon
+    short: 3Jo
+  Acts:
+    long: Ɗak
+    short: Ɗak
+  Col:
+    long: Kolosi
+    short: Kol
+  Eph:
+    long: Afisus
+    short: Afis
+  Gal:
+    long: Galati
+    short: Gal
+  Jas:
+    long: Jemis
+    short: Jem
+  Jude:
+    long: Juud
+    short: Juud
+  Mark:
+    long: Maak
+    short: Maak
+  Phil:
+    long: Filipi
+    short: Filp
+  Rev:
+    long: Suun
+    short: Sug
+  Titus:
+    long: Titus
+    short: Tit

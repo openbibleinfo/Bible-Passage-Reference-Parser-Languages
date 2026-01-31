@@ -1,0 +1,345 @@
+default:
+  1Chr:
+    long: Dîrok I,
+    short: Dîr I,
+  1Cor:
+    long: Korintʼî I
+    short: Kor I,
+  1John:
+    long: Yûhenna I,
+    short: Yûh I,
+  1Kgs:
+    long: Padîşah I,
+    short: Pad I,
+  1Pet:
+    long: Petrûs I
+    short: Pet I,
+  1Sam:
+    long: Samûêl I,
+    short: Sam I,
+  1Thess:
+    long: Selanîkî I,
+    short: Sel I,
+  1Tim:
+    long: Tîmotêyos I,
+    short: Tîm I,
+  2Cor:
+    long: Korintʼî II
+    short: Kor II,
+  2John:
+    long: Yûhenna II,
+    short: Yûh II,
+  2Kgs:
+    long: Padîşah II,
+    short: Pad II,
+  2Pet:
+    long: Petrûs II
+    short: Pet II,
+  2Sam:
+    long: Samûêl II,
+    short: Sam II,
+  2Thess:
+    long: Selanîkî II,
+    short: Sel II,
+  2Tim:
+    long: Tîmotêyos II,
+    short: Tîm II
+  3John:
+    long: Yûhenna III,
+    short: Yûh III,
+  Acts:
+    long: Karên Şandiyan
+    short: Şandiyan
+  Amos:
+    long: Amos
+    short: Amos
+  Col:
+    long: Kolosî
+    short: Kol
+  Dan:
+    long: Daniyêl
+    short: Dan
+  Deut:
+    long: Dubarekirina Şerîetê
+    short: Dub
+  Eccl:
+    long: Waiz
+    short: Waiz
+  Eph:
+    long: Efesî
+    short: Efe
+  Esth:
+    long: Ester
+    short: Est
+  Exod:
+    long: Derketin
+    short: Drkt
+  Ezra:
+    long: Ezra
+    short: Ezr
+  Gal:
+    long: Galatî
+    short: Gal
+  Gen:
+    long: Destpêk
+    short: Dstp
+  Hab:
+    long: Habaqûq
+    short: Hab
+  Hag:
+    long: Hagay
+    short: Hag
+  Heb:
+    long: Îbranî
+    short: Îbr
+  Hos:
+    long: Hoşêya
+    short: Hoş
+  Isa:
+    long: Îşaya
+    short: Îşa
+  Jas:
+    long: Aqûb
+    short: Aqûb
+  Jer:
+    long: Yêremya
+    short: Yêr
+  Job:
+    long: Eyûb
+    short: Eyûb
+  Joel:
+    long: Yoêl
+    short: Yoêl
+  John:
+    long: Yûhenna
+    short: Yûh
+  Jonah:
+    long: Ûnis
+    short: Ûnis
+  Josh:
+    long: Yêşû
+    short: Yêşû
+  Jude:
+    long: Cihûda
+    short: Cihd
+  Judg:
+    long: Dadger
+    short: Ddgr
+  Lam:
+    long: Lavijên Şînê
+    short: Lvj
+  Lev:
+    long: Lêwiyî
+    short: Lêw
+  Luke:
+    long: Lûqa
+    short: Luk
+  Mal:
+    long: Melaxî
+    short: Mel
+  Mark:
+    long: Marqos
+    short: Mar
+  Matt:
+    long: Metta
+    short: Met
+  Mic:
+    long: Mîxa
+    short: Mîxa
+  Nah:
+    long: Nahûm
+    short: Nah
+  Neh:
+    long: Nehemya
+    short: Neh
+  Num:
+    long: Hejmartin
+    short: Hejm
+  Obad:
+    long: Ovadya
+    short: Ovad
+  Phil:
+    long: Filîpî
+    short: Flp
+  Phlm:
+    long: Filêmon
+    short: Flm
+  Prov:
+    long: Methelokên
+    short: Methelokên
+  Ps:
+    long: Zebûr
+    short: Zeb
+  Rev:
+    long: Eʼyantî
+    short: Peyx
+  Rom:
+    long: Romayî
+    short: Rom
+  Ruth:
+    long: Rût
+    short: Rût
+  Song:
+    long: Helbesta Helbestan
+    short: Hlb
+  Titus:
+    long: Tîto
+    short: Tît
+  Zech:
+    long: Zekeriya
+    short: Zek
+  Zeph:
+    long: Sefanya
+    short: Sef
+translations:
+  kurnt:
+    1Cor:
+      long: Korîntî I,
+    1Pet:
+      long: Petrûs I,
+    2Cor:
+      long: Korîntî II,
+    2Pet:
+      long: Petrûs II,
+    Prov:
+      long: Şîretên Silêman
+      short: Şîr
+    Rev:
+      long: Peyxam
+    Titus:
+      long: Tîtos
+  kmrntc:
+    1Cor:
+      long: Корьнтʼи I
+    1John:
+      long: Йуһʼәнна I
+    1Pet:
+      long: Пәтрус I
+    1Thess:
+      long: Тʼесалоники I
+    1Tim:
+      long: Тимотʼейо I
+    2Cor:
+      long: Корьнтʼи II
+    2John:
+      long: Йуһʼәнна II
+    2Pet:
+      long: Пәтрус II
+    2Thess:
+      long: Тʼесалоники II
+    2Tim:
+      long: Тимотʼейо II
+    3John:
+      long: Йуһʼәнна III
+    Acts:
+      long: Кʼаред Шандийа
+    Col:
+      long: Колоси
+    Eph:
+      long: Әфәси
+    Gal:
+      long: Галати
+    Heb:
+      long: Ибрани
+    Jas:
+      long: Аԛуб
+    John:
+      long: Йуһʼәнна
+    Jude:
+      long: Щьһуда
+    Luke:
+      long: Луԛа
+    Mark:
+      long: Марԛос
+    Matt:
+      long: Мәтта
+    Phil:
+      long: Филипи
+    Phlm:
+      long: Фьлимон
+    Rev:
+      long: Әʼйанти
+    Rom:
+      long: Рʼомайи
+    Titus:
+      long: Тито
+  skb:
+    1Cor:
+      long: اول قرنتیان
+    1John:
+      long: یوحنا 1
+    1Pet:
+      long: ناما پِطرُس یا اَوِلی
+    1Thess:
+      long: ناما اَوِلی بُ تسالونیکیا
+    1Tim:
+      long: ناما اَوِلی بُ تیموتائوس
+    2Cor:
+      long: ناما دویه بُ قُرنتیا
+    2John:
+      long: یوحنا 2
+    2Pet:
+      long: ناما پِطرُس یا دویه
+    2Thess:
+      long: ناما دویه بُ تسالونیکیا
+    2Tim:
+      long: ناما دویه بُ تیموتائوس
+    3John:
+      long: یوحنا 3
+    Acts:
+      long: شُله رسولا
+    Col:
+      long: نامَ بُ کولُسیا
+    Eph:
+      long: نامَ بُ اَفِسُسیا
+    Gal:
+      long: نامَ بُ غَلاطیا
+    Heb:
+      long: نامَ بُ مسیحیِت عبرانی
+    Jas:
+      long: یعقوب
+    John:
+      long: یوحنا
+    Jude:
+      long: ناما یهودا
+    Luke:
+      long: لوقا
+    Mark:
+      long: مَرقُس
+    Matt:
+      long: مَتّی
+    Phil:
+      long: نامَ بُ فیلیپیا
+    Phlm:
+      long: نامَ بُ فیلیمون
+    Rev:
+      long: آشگَرابون
+    Rom:
+      long: نامَ بُ رومیا
+    Titus:
+      long: نامَ بُ تیتوس
+  kmrntl:
+    1John:
+      long: Yûhʼenna I
+    1Thess:
+      long: Tʼêsalonîkî I
+    1Tim:
+      long: Tîmotʼêyo I
+    2John:
+      long: Yûhʼenna II
+    2Thess:
+      long: Tʼêsalonîkî II
+    2Tim:
+      long: Tîmotʼêyo II
+    3John:
+      long: Yûhʼenna III
+    Acts:
+      long: Kʼarêd Şandîya
+    John:
+      long: Yûhʼenna
+    Phil:
+      long: Fîlîpî
+    Phlm:
+      long: Filîmon
+    Rom:
+      long: Rʼomayî

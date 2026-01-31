@@ -1,0 +1,138 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Kelokelozato
+      - Kel.
+  - osis: Matt
+    texts:
+      - Matiu
+      - Mat.
+  - osis: Mark
+    texts:
+      - Mak.
+      - Maka
+  - osis: Luke
+    texts:
+      - Luk.
+      - Luke
+  - osis: 1John
+    texts:
+      - 1Jon.
+  - osis: 2John
+    texts:
+      - 2Jon.
+  - osis: 3John
+    texts:
+      - 3 Jone
+      - 3Jon.
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jone
+  - osis: John
+    texts:
+      - Jon.
+      - Jone
+  - osis: Acts
+    texts:
+      - Iruruputo
+      - Iru.
+  - osis: Rom
+    texts:
+      - Rom.
+      - Romu
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Koriniti
+  - osis: 1Cor
+    texts:
+      - 1Korin.
+  - osis: 2Cor
+    texts:
+      - 2Korin.
+  - osis: Col
+    texts:
+      - Kolosi
+      - Kol.
+  - osis: Gal
+    texts:
+      - Qelesia
+      - Qel.
+  - osis: Eph
+    texts:
+      - Epesasi
+      - Epes.
+  - osis: Phil
+    texts:
+      - Pilipai
+      - Pilip.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonaika
+  - osis: 1Thess
+    texts:
+      - 1Tes.
+  - osis: 2Thess
+    texts:
+      - 2Tes.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: 1Tim
+    texts:
+      - 1Tim.
+  - osis: 2Tim
+    texts:
+      - 2Tim.
+  - osis: Titus
+    texts:
+      - Taitasi
+      - Tait.
+  - osis: Phlm
+    texts:
+      - Pilimone
+      - Pilim.
+  - osis: Heb
+    texts:
+      - Hiburu
+      - Hib.
+  - osis: Jas
+    texts:
+      - Jemisi
+      - Jem.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+  - osis: 2Pet
+    texts:
+      - 2Pit.
+  - osis: Jude
+    texts:
+      - Jiud.
+      - Jiudi
+translations:
+  - BLBNT

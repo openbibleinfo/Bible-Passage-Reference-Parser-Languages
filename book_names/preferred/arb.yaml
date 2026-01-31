@@ -1,0 +1,1455 @@
+default:
+  1Chr:
+    long: أَخْبَارِ ٱلْأَوَّلُ
+    short: 1أخ
+  1Cor:
+    long: رسالة كورنثوس الأولى
+    short: 1كو
+  1John:
+    long: يوحنّا الأولى
+    short: 1يو
+  1Kgs:
+    long: اَلْمُلُوكِ ٱلْأَوَّلُ
+    short: 1مل
+  1Macc:
+    long: المكابيين الأول
+    short: 1 مك
+  1Pet:
+    long: بطرس الأولى
+    short: 1بط
+  1Sam:
+    long: سفر صموئيل الأول
+    short: 1صم
+  1Thess:
+    long: رسالة تسالونيكي الأولى
+    short: 1تس
+  1Tim:
+    long: رسالة بولس الأولى إلى تيموثاوس
+    short: 1تي
+  2Chr:
+    long: أَخْبَارِ ٱلثَّانِي
+    short: 2أخ
+  2Cor:
+    long: رسالة كورنثوس الثانية
+    short: 2كو
+  2John:
+    long: رسالة يوحنا الثانية
+    short: 2يو
+  2Kgs:
+    long: اَلْمُلُوكِ ٱلثَّانِي
+    short: 2مل
+  2Macc:
+    long: المكابـيين الثاني
+    short: 2 مك
+  2Pet:
+    long: بطرس الثانية
+    short: 2بط
+  2Sam:
+    long: سفر صموئيل الثاني
+    short: 2صم
+  2Thess:
+    long: رسالة تسالونيكي الثانية
+    short: 2تس
+  2Tim:
+    long: رسالة بولس الثانية إلى تيموثاوس
+    short: 2تي
+  3John:
+    long: رسالة يوحنا الثالثة
+    short: 3يو
+  Acts:
+    long: أعمال الرسل
+    short: أع
+  Amos:
+    long: عاموس
+    short: عا
+  Bar:
+    long: باروك
+    short: با
+  Col:
+    long: كولوسي
+    short: كو
+  Dan:
+    long: دانيال
+    short: دا
+  DanGr:
+    long: دانيال
+    short: دا (يو)
+  Deut:
+    long: التثنية
+    short: تث
+  Eccl:
+    long: الجامعة
+    short: جا
+  EpJer:
+    long: رسالة إرميا
+    short: إر (يو)
+  Eph:
+    long: أفاسوس
+    short: أف
+  Esth:
+    long: أَسْتِير
+    short: أس
+  EsthGr:
+    long: أستير
+    short: أس (يو)
+  Exod:
+    long: الخروج
+    short: خر
+  Ezek:
+    long: حزقيال
+    short: حز
+  Ezra:
+    long: عزرا
+    short: عز
+  Gal:
+    long: غلاطية
+    short: غل
+  Gen:
+    long: التكوين
+    short: تك
+  Hab:
+    long: حبقوق
+    short: حب
+  Hag:
+    long: حجي
+    short: حج
+  Heb:
+    long: العبرانيين
+    short: عب
+  Hos:
+    long: هوشع
+    short: هو
+  Isa:
+    long: إِشَعْيَاءَ
+    short: إش
+  Jas:
+    long: يعقوب
+    short: يع
+  Jdt:
+    long: يهوديت
+    short: يه
+  Jer:
+    long: إرميا
+    short: إر
+  Job:
+    long: أيوب
+    short: أي
+  Joel:
+    long: يوئيل
+    short: يؤ
+  John:
+    long: البشارة كما دوّنها يوحنا
+    short: يو
+  Jonah:
+    long: يُونَان
+    short: يون
+  Josh:
+    long: يَشُوع
+    short: يش
+  Jude:
+    long: يهوذا
+    short: يه
+  Judg:
+    long: القضاة
+    short: قض
+  Lam:
+    long: سفر مراثي ارميا
+    short: مرا
+  Lev:
+    long: اللاويين
+    short: لا
+  Luke:
+    long: لوقا
+    short: لو
+  Mal:
+    long: ملاخي
+    short: ملا
+  Mark:
+    long: مرقس
+    short: مرقس
+  Matt:
+    long: متّى
+    short: مت
+  Mic:
+    long: ميخا
+    short: مي
+  Nah:
+    long: نَاحُوم
+    short: نا
+  Neh:
+    long: نحميا
+    short: نح
+  Num:
+    long: العدد
+    short: عد
+  Obad:
+    long: عوبديا
+    short: عو
+  Phil:
+    long: فيلبي
+    short: في
+  Phlm:
+    long: رسالة بولس إلى فيلمون
+    short: فل
+  Prov:
+    long: الأمثال
+    short: أم
+  Ps:
+    long: المزامير
+    short: مز
+  Rev:
+    long: الرؤيا
+    short: رؤ
+  Rom:
+    long: روما
+    short: رو
+  Ruth:
+    long: رَاعُوث
+    short: را
+  Sir:
+    long: يشوع بن سيراخ
+    short: سي
+  Song:
+    long: سفر نشيد الأنشاد
+    short: نش
+  Titus:
+    long: تيتوس
+    short: تي
+  Tob:
+    long: طوبيا
+    short: طو
+  Wis:
+    long: الحكمة
+    short: الحكمة
+  Zech:
+    long: زكريا
+    short: زك
+  Zeph:
+    long: صفنيا
+    short: صف
+translations:
+  sat:
+    1Chr:
+      long: 1 أخْبَار
+      short: 1 أخْبَار
+    1Cor:
+      long: 1 كورنثوس
+      short: 1 كورنثوس
+    1John:
+      long: 1 يُوحَنَّا
+      short: 1 يُوحَنَّا
+    1Kgs:
+      long: 1 مُلُوك
+      short: 1 مُلُوك
+    1Pet:
+      long: 1 بطرس
+      short: 1 بطرس
+    1Sam:
+      long: 1 صَمُوئيل
+      short: 1 صَمُوئِيل
+    1Thess:
+      long: 1 تسَالونيكي
+      short: 1 تسَالونيكي
+    1Tim:
+      long: 1 تيموثَاوس
+      short: 1 تيموثَاوس
+    2Chr:
+      long: 2 أخْبَار
+      short: 2 أخْبَار
+    2Cor:
+      long: 2 كورنثوس
+      short: 2 كورنثوس
+    2John:
+      long: 2 يُوحَنَّا
+      short: 2 يُوحَنَّا
+    2Kgs:
+      long: 2 مُلُوك
+      short: 2 مُلُوك
+    2Pet:
+      long: 2 بطرس
+      short: 2 بطرس
+    2Sam:
+      long: 2 صَمُوئيل
+      short: 2 صَمُوئِيل
+    2Thess:
+      long: 2 تسَالونيكي
+      short: 2 تسَالونيكي
+    2Tim:
+      long: 2 تيموثَاوس
+      short: 2 تيموثَاوس
+    3John:
+      long: 3 يُوحَنَّا
+      short: 3 يُوحَنَّا
+    Acts:
+      long: أعْمَال
+      short: أعْمَال
+    Amos:
+      long: عَامُوس
+      short: عَامُوس
+    Col:
+      long: كُولُوسِي
+      short: كُولُوسِي
+    Dan:
+      long: دَانيَال
+      short: دَانيَال
+    Deut:
+      long: تَثْنِيَة
+      short: تَثْنِيَة
+    Eccl:
+      long: الجَامِعَة
+      short: الجَامِعَة
+    Eph:
+      long: أفَسُس
+      short: أفَسُس
+    Esth:
+      long: أسْتِير
+      short: أسْتِير
+    Exod:
+      long: خرُوج
+      short: خرُوج
+    Ezek:
+      long: حِزْقِيَال
+      short: حِزْقِيَال
+    Ezra:
+      long: عَزْرَا
+      short: عَزْرَا
+    Gal:
+      long: غَلَاطِيَّة
+      short: غَلَاطِيَّة
+    Gen:
+      long: تكوين
+      short: تكوين
+    Hab:
+      long: حَبَقُّوق
+      short: حَبَقُّوق
+    Hag:
+      long: حَجَّي
+      short: حَجَّي
+    Heb:
+      long: عِبرَانِيّين
+      short: عِبرَانِيّين
+    Hos:
+      long: هُوشَع
+      short: هُوشَع
+    Isa:
+      long: إشَعْيَاء
+      short: إشَعْيَاء
+    Jas:
+      long: يَعْقُوب
+      short: يَعْقُوب
+    Jer:
+      long: إرْمِيَا
+      short: إرْمِيَا
+    Job:
+      long: أيُّوب
+      short: أيُّوب
+    Joel:
+      long: يُوئيل
+      short: يُوئِيل
+    John:
+      long: يُوحَنَّا
+      short: يُوحَنَّا
+    Jonah:
+      short: يُونَان
+    Josh:
+      short: يَشُوع
+    Jude:
+      long: يَهُوذَا
+      short: يَهُوذَا
+    Judg:
+      long: قُضَاة
+      short: قُضَاة
+    Lam:
+      long: مَرَاثِي إرْمِي
+      short: مَرَاثِي إرْمِي
+    Lev:
+      long: لَاويّين
+      short: لَاويّين
+    Luke:
+      long: لُوقَا
+      short: لُوقَا
+    Mal:
+      long: مَلَاخِي
+      short: مَلَاخِي
+    Mark:
+      long: مَرْقُس
+      short: مَرْقُس
+    Matt:
+      long: مَتَّى
+      short: مَتَّى
+    Mic:
+      long: ميخَا
+      short: ميخَا
+    Nah:
+      short: نَاحُوم
+    Neh:
+      long: نَحَمْيَا
+      short: نَحَمْيَا
+    Num:
+      long: عَدَد
+      short: عَدَد
+    Obad:
+      long: عُوبَدْيَا
+      short: عُوبَدْيَا
+    Phil:
+      long: فِيلِبِّي
+      short: فِيلِبِّي
+    Phlm:
+      long: فِلِيمُون
+      short: فِلِيمُون
+    Prov:
+      long: الأمثَال
+      short: الأمْثَال
+    Ps:
+      long: المَزَامِير
+      short: المَزَامِير
+    Rev:
+      long: رُؤيَا
+      short: رُؤيَا
+    Rom:
+      long: رُومَا
+      short: رُومَا
+    Ruth:
+      short: رَاعُوث
+    Song:
+      long: نَشِيد الأنشَاد
+      short: نَشِيد الأنشَاد
+    Titus:
+      long: تِيطُس
+      short: تِيطُس
+    Zech:
+      long: زَكَريَّا
+      short: زَكَرِيَّا
+    Zeph:
+      long: صَفَنْيَا
+      short: صَفَنْيَا
+  sab:
+    1Chr:
+      long: 1أخبار
+    1Cor:
+      long: 1كورنتوس
+      short: 1كور
+    1John:
+      long: 1يوحنا
+    1Kgs:
+      long: 1ملوك
+    1Pet:
+      long: 1بطرس
+    1Sam:
+      long: 1صمويل
+    1Thess:
+      long: 1تسالونكي
+    1Tim:
+      long: 1تيموثي
+      short: 1تم
+    2Chr:
+      long: 2أخبار
+    2Cor:
+      long: 2كورنتوس
+      short: 2كور
+    2John:
+      long: 2يوحنا
+    2Kgs:
+      long: 2ملوك
+    2Pet:
+      long: 2بطرس
+    2Sam:
+      long: 2صمويل
+    2Thess:
+      long: 2تسالونكي
+    2Tim:
+      long: 2تيموثي
+      short: 2تم
+    3John:
+      long: 3يوحنا
+    Eph:
+      long: أفاسس
+    Esth:
+      long: إستير
+      short: إس
+    Isa:
+      long: إشعيا
+    John:
+      long: يوحنا
+    Jonah:
+      long: يونس
+    Josh:
+      long: يوشع
+    Lam:
+      long: مراثي إرميا
+    Mark:
+      short: مر
+    Matt:
+      long: متى
+    Nah:
+      long: ناحوم
+    Phlm:
+      long: فلمون
+    Ruth:
+      long: راعوث
+    Song:
+      long: نشيد الأناشيد
+  nav:
+    1Chr:
+      long: أخبار الأيام الأول
+      short: 1 أخ
+    1Cor:
+      long: كورنثوس الأولى
+      short: 1 كو
+    1John:
+      long: يوحنا الأولى
+      short: 1 يو
+    1Kgs:
+      long: ملوك الأول
+      short: 1 مل
+    1Pet:
+      short: 1 بط
+    1Sam:
+      long: صموئيل الأول
+      short: 1 صم
+    1Thess:
+      long: تسالونيكي الأولى
+      short: 1 تس
+    1Tim:
+      long: تيموثاوس الأولى
+      short: 1 تي
+    2Chr:
+      long: أخبار الأيام الثاني
+      short: 2 أخ
+    2Cor:
+      long: كورنثوس الثانية
+      short: 2 كو
+    2John:
+      long: يوحنا الثانية
+      short: 2 يو
+    2Kgs:
+      long: ملوك الثاني
+      short: 2 مل
+    2Pet:
+      short: 2 بط
+    2Sam:
+      long: صموئيل الثاني
+      short: 2 صم
+    2Thess:
+      long: تسالونيكي الثانية
+      short: 2 تس
+    2Tim:
+      long: تيموثاوس الثانية
+      short: 2 تي
+    3John:
+      long: يوحنا الثالثة
+      short: 3 يو
+    Acts:
+      long: أعمال
+    Eph:
+      long: أفسس
+    Esth:
+      long: أستير
+    Gal:
+      short: غلاطية
+    Isa:
+      long: إشعياء
+    Joel:
+      short: يوئ
+    John:
+      long: إنجيل يوحنا
+    Jonah:
+      long: يونان
+    Josh:
+      long: يشوع
+    Lam:
+      long: مراثي إرميا
+    Luke:
+      long: إنجيل لوقا
+    Mark:
+      long: إنجيل مرقس
+    Matt:
+      long: إنجيل متى
+      short: متى
+    Nah:
+      long: ناحوم
+    Phlm:
+      long: فليمون
+    Ps:
+      long: مزمور
+    Rev:
+      long: رؤيا يوحنا
+    Ruth:
+      long: راعوث
+    Song:
+      long: نشيد الأنشاد
+    Titus:
+      long: تيطس
+  cav:
+    1Chr:
+      long: الأخبار الأوّل
+      short: الأخبار الأوّل
+    1Cor:
+      long: الأولى إلى قورنتس
+      short: الأولى إلى قورنتس
+    1John:
+      short: يوحنّا الأولى
+    1Kgs:
+      long: الملوك الأوّل
+      short: الملوك الأوّل
+    1Macc:
+      long: المكّابيّين الأوّل
+      short: المكّابيّين الأوّل
+    1Pet:
+      short: بطرس الأولى
+    1Sam:
+      long: صموئيل الأوّل
+      short: صموئيل الأوّل
+    1Thess:
+      long: الأولى إلى تسالونيقي
+      short: الأولى إلى تسالونيقي
+    1Tim:
+      long: الأولى إلى طيموتاوس
+      short: الأولى إلى طيموتاوس
+    2Chr:
+      long: الأخبار الثاني
+      short: الأخبار الثاني
+    2Cor:
+      long: الثانية إلى قورنتس
+      short: الثانية إلى قورنتس
+    2John:
+      long: يوحنّا الثانية
+      short: يوحنّا الثانية
+    2Kgs:
+      long: الملوك الثاني
+      short: الملوك الثاني
+    2Macc:
+      long: المكابيّين الثاني
+      short: المكابيّين الثاني
+    2Pet:
+      short: بطرس الثانية
+    2Sam:
+      long: صموئيل الثاني
+      short: صموئيل الثاني
+    2Thess:
+      long: الثانية إلى تسالونيقي
+      short: الثانية إلى تسالونيقي
+    2Tim:
+      long: الثانية إلى طيموتاوس
+      short: الثانية إلى طيموتاوس
+    3John:
+      long: يوحنّا الثالثة
+      short: يوحنّا الثالثة
+    Acts:
+      short: أعمال الرسل
+    Amos:
+      short: عاموس
+    Bar:
+      short: باروك
+    Col:
+      long: قولسي
+      short: قولسي
+    DanGr:
+      short: دانيال
+    Deut:
+      long: تثنية الاشتراع
+      short: تثنية الاشتراع
+    Eccl:
+      short: الجامعة
+    Eph:
+      long: أفسس
+      short: أفسس
+    EsthGr:
+      short: أستير
+    Exod:
+      long: خروج
+      short: خروج
+    Ezek:
+      short: حزقيال
+    Ezra:
+      short: عزرا
+    Gal:
+      short: غلاطية
+    Gen:
+      long: تكوين
+      short: تكوين
+    Hab:
+      short: حبقوق
+    Hag:
+      long: حجّاي
+      short: حجّاي
+    Heb:
+      long: العبرانيّين
+      short: العبرانيّين
+    Hos:
+      short: هوشع
+    Isa:
+      long: أشعيا
+      short: أشعيا
+    Jas:
+      short: يعقوب
+    Jdt:
+      short: يهوديت
+    Jer:
+      short: إرميا
+    Job:
+      long: أيّوب
+      short: أيّوب
+    Joel:
+      short: يوئيل
+    John:
+      long: يوحنّا
+      short: يوحنّا
+    Jonah:
+      long: يونان
+      short: يونان
+    Josh:
+      long: يشوع بن نون
+      short: يشوع بن نون
+    Jude:
+      short: يهوذا
+    Judg:
+      short: القضاة
+    Lam:
+      long: المراثي
+      short: المراثي
+    Lev:
+      long: الأحبار
+      short: الأحبار
+    Luke:
+      short: لوقا
+    Mal:
+      short: ملاخي
+    Matt:
+      short: متّى
+    Mic:
+      short: ميخا
+    Nah:
+      long: نحوم
+      short: نحوم
+    Neh:
+      short: نحميا
+    Num:
+      short: العدد
+    Obad:
+      short: عوبديا
+    Phil:
+      short: فيلبي
+    Phlm:
+      long: فيلمون
+      short: فيلمون
+    Prov:
+      short: الأمثال
+    Ps:
+      short: المزامير
+    Rev:
+      long: رؤيا يوحنّا
+      short: رؤيا يوحنّا
+    Rom:
+      long: رومة
+      short: رومة
+    Ruth:
+      long: راعوت
+      short: راعوت
+    Sir:
+      short: يشوع بن سيراخ
+    Song:
+      long: نشيد الأناشيد
+      short: نشيد الأناشيد
+    Titus:
+      long: طيطس
+      short: طيطس
+    Tob:
+      long: طوبيّا
+      short: طوبيّا
+    Zech:
+      long: زكريّا
+      short: زكريّا
+    Zeph:
+      short: صفنيا
+  gna93:
+    1Chr:
+      long: سفر أخبار الأيام الأول
+    1Cor:
+      short: كورنثوس الأولى
+    1John:
+      long: رسالة يوحنا الأولى
+    1Kgs:
+      long: سفر الملوك الأول
+    1Pet:
+      long: رسالة بطرس الأولى
+    2Chr:
+      long: سفر أخبار الأيام الثاني
+    2Kgs:
+      long: سفر الملوك الثاني
+    2Pet:
+      long: رسالة بطرس الثانية
+    Acts:
+      short: أعمال
+    Amos:
+      long: سفر عاموس
+    Col:
+      long: رسالة كولوسي
+    Dan:
+      long: سفر دانيال
+    Deut:
+      long: سفر التـثنية
+    Eccl:
+      long: سفر الجامعة
+    Eph:
+      long: رسالة أفسس
+    Esth:
+      long: سفر أستير
+    Exod:
+      long: سفر الخروج
+    Ezek:
+      long: سفر حزقيال
+    Ezra:
+      long: سفر عزرا
+    Gal:
+      long: رسالة غلاطية
+    Hab:
+      long: سفر حبقوق
+    Hag:
+      long: سفر حجاي
+    Heb:
+      long: رسالة إلى العبرانيين
+    Hos:
+      long: سفر هوشع
+    Isa:
+      long: سفر إشعيا
+      short: اش
+    Jas:
+      long: رسالة يعقوب
+    Jer:
+      long: سفر ارميا
+      short: ار
+    Job:
+      long: سفر أيوب
+    Joel:
+      long: سفر يوئيل
+    John:
+      short: يوحنا
+    Jonah:
+      long: سفر يونان
+    Josh:
+      long: سفر يشوع
+    Jude:
+      long: رسالة يهوذا
+    Judg:
+      long: سفر القضاة
+    Lev:
+      long: سفر اللاويـين
+    Luke:
+      long: البشارة كما دوّنها لوقا
+      short: لوقا
+    Mal:
+      long: سفر ملاخي
+    Mark:
+      long: البشارة كما دوّنها مرقس
+    Matt:
+      long: البشارة كما دوّنها متى
+      short: متى
+    Mic:
+      long: سفر ميخا
+    Nah:
+      long: سفر ناحوم
+    Neh:
+      long: سفر نحميا
+    Num:
+      long: سفر العدد
+    Obad:
+      long: سفر عوبـيديا
+    Phil:
+      long: رسالة فيلبــي
+    Prov:
+      long: سفر الأمثال
+    Rev:
+      long: رؤيا يوحنا
+    Rom:
+      long: رسالة رومة
+    Ruth:
+      long: سفر راعوث
+    Titus:
+      long: رسالة بولس إلى تيطس
+    Zech:
+      long: سفر زكريا
+    Zeph:
+      long: سفر صفنيا
+  gna93dc:
+    1Chr:
+      long: سفر أخبار الأيام الأول
+    1Cor:
+      short: كورنثوس الأولى
+    1John:
+      long: رسالة يوحنا الأولى
+    1Kgs:
+      long: سفر الملوك الأول
+    1Pet:
+      long: رسالة بطرس الأولى
+    2Chr:
+      long: سفر أخبار الأيام الثاني
+    2Kgs:
+      long: سفر الملوك الثاني
+    2Pet:
+      long: رسالة بطرس الثانية
+    Acts:
+      short: أعمال
+    Amos:
+      long: سفر عاموس
+    Col:
+      long: رسالة كولوسي
+    Dan:
+      long: سفر دانيال
+    DanGr:
+      long: دانيال يوناني
+    Deut:
+      long: سفر التـثنية
+    Eccl:
+      long: سفر الجامعة
+    Eph:
+      long: رسالة أفسس
+    Esth:
+      long: سفر أستير
+    EsthGr:
+      long: أستير يوناني
+    Exod:
+      long: سفر الخروج
+    Ezek:
+      long: سفر حزقيال
+    Ezra:
+      long: سفر عزرا
+    Gal:
+      long: رسالة غلاطية
+    Hab:
+      long: سفر حبقوق
+    Hag:
+      long: سفر حجاي
+    Heb:
+      long: رسالة إلى العبرانيين
+    Hos:
+      long: سفر هوشع
+    Isa:
+      long: سفر إشعيا
+      short: اش
+    Jas:
+      long: رسالة يعقوب
+    Jer:
+      long: سفر ارميا
+      short: ار
+    Job:
+      long: سفر أيوب
+    Joel:
+      long: سفر يوئيل
+    John:
+      short: يوحنا
+    Jonah:
+      long: سفر يونان
+    Josh:
+      long: سفر يشوع
+    Jude:
+      long: رسالة يهوذا
+    Judg:
+      long: سفر القضاة
+    Lev:
+      long: سفر اللاويـين
+    Luke:
+      long: البشارة كما دوّنها لوقا
+      short: لوقا
+    Mal:
+      long: سفر ملاخي
+    Mark:
+      long: البشارة كما دوّنها مرقس
+    Matt:
+      long: البشارة كما دوّنها متى
+      short: متى
+    Mic:
+      long: سفر ميخا
+    Nah:
+      long: سفر ناحوم
+    Neh:
+      long: سفر نحميا
+    Num:
+      long: سفر العدد
+    Obad:
+      long: سفر عوبـيديا
+    Phil:
+      long: رسالة فيلبــي
+    Prov:
+      long: سفر الأمثال
+    Rev:
+      long: رؤيا يوحنا
+    Rom:
+      long: رسالة رومة
+    Ruth:
+      long: سفر راعوث
+    Titus:
+      long: رسالة بولس إلى تيطس
+    Wis:
+      short: حك
+    Zech:
+      long: سفر زكريا
+    Zeph:
+      long: سفر صفنيا
+  arb:
+    1Chr:
+      long: من قصّة النبيّ داود (1 أخبار)
+      short: من قصّة النبيّ داود (1 أخبار)
+    1Cor:
+      long: كورنتوس الأولى
+    1Kgs:
+      long: قصص سليمان وإلياس واليسع (1 ملوك)
+      short: قصص سليمان وإلياس واليسع (1 ملوك)
+    1Pet:
+      long: صخر الأولى
+    1Sam:
+      long: قصّة صموئيل وداود (1 صموئيل)
+      short: قصّة صموئيل وداود (1 صموئيل)
+    1Thess:
+      long: تسالونكي الأولى
+    1Tim:
+      long: تيموتاوي الأولى
+    2Chr:
+      long: من قصّة النبيّ سليمان (2 أخبار)
+      short: من قصّة النبيّ سليمان (2 أخبار)
+    2Cor:
+      long: كورنتوس الثانية
+    2John:
+      long: يوحنّا الثانية
+    2Kgs:
+      long: من قصّة إلياس واليسع (2 ملوك)
+      short: من قصّة إلياس واليسع (2 ملوك)
+    2Pet:
+      long: صخر الثانية
+    2Sam:
+      long: من قصّة النبيّ داود (2 صموئيل)
+      short: من قصّة النبيّ داود (2 صموئيل)
+    2Thess:
+      long: تسالونكي الثانية
+    2Tim:
+      long: تيموتاوي الثانية
+    3John:
+      long: يوحنّا الثالثة
+    Acts:
+      long: سيرة الحواريّين
+    Amos:
+      long: من الوحي إلى عاموس
+      short: من الوحي إلى عاموس
+    Dan:
+      long: كتاب النّبيّ دانيال
+      short: كتاب النّبيّ دانيال
+    Deut:
+      long: قصّة النبي موسى – من التثنية
+      short: قصّة النبي موسى – من التثنية
+    Eccl:
+      long: كتاب الخطيب الحكيم
+      short: الخطيب الحكيم
+    Exod:
+      long: قصّة النّبيّ موسى - الخروج
+      short: قصّة النّبيّ موسى - الخروج
+    Ezek:
+      long: من الوحي إلى حزقيال
+      short: من الوحي إلى حزقيال
+    Gen:
+      long: قصص الأنبياء - التّكوين
+      short: قصص الأنبياء - التكوين
+    Hab:
+      long: من الوحي إلى حبقوق
+      short: من الوحي إلى حبقوق
+    Hos:
+      long: من الوحي إلى هوشع
+      short: من الوحي إلى هوشع
+    Isa:
+      long: من الوحي إلى أشعيا
+      short: من الوحي إلى أشعيا
+    Jer:
+      long: من الوحي إلى إرميا
+      short: من الوحي إلى إرميا
+    Job:
+      long: قصّة النّبيّ أيّوب
+      short: قصّة النّبيّ أيّوب
+    John:
+      long: يوحنّا
+    Jonah:
+      long: قصّة النّبيّ يونس
+      short: قصّة النّبيّ يونس
+    Lam:
+      long: من مراثي النّبيّ إرميا
+      short: من مراثي إرميا
+    Lev:
+      long: قصّة النبيّ موسى – من اللاويين
+      short: قصّة النبيّ موسى – من اللاويين
+    Mal:
+      long: من الوحي إلى ملاكي
+      short: من الوحي إلى ملاكي
+    Mic:
+      long: من الوحي إلى ميخا
+      short: من الوحي إلى ميخا
+    Num:
+      long: قصّة النبي موسى - من العدد
+      short: قصّة النبي موسى - من العدد
+    Phil:
+      long: فيليبّي
+    Phlm:
+      long: فِليمون
+    Prov:
+      long: من أمثال النبيّ سليمان
+      short: من أمثال النبيّ سليمان
+    Ps:
+      long: من كتاب الزبور
+      short: من كتاب الزبور
+    Ruth:
+      long: قصّة راعوث المؤمنة
+      short: قصّة راعوث المؤمنة
+    Zech:
+      long: من الوحي إلى زكريّا
+      short: من الوحي إلى زكريّا
+  tma-c:
+    1Chr:
+      long: من قصّة النبيّ داود (1 أخبار)
+      short: من قصّة النبيّ داود (1 أخبار)
+    1Cor:
+      long: كورنتوس الأولى
+      short: من رسالة كورنتوس الأولى
+    1John:
+      short: رسالة يوحنّا الأولى
+    1Kgs:
+      long: قصص سليمان وإلياس واليسع (1 ملوك)
+      short: قصص سليمان وإلياس واليسع (1 ملوك)
+    1Pet:
+      long: صخر الأولى
+      short: من رسالة صخر الأولى
+    1Sam:
+      long: قصّة صموئيل وداود (1 صموئيل)
+      short: قصّة صموئيل وداود (1 صموئيل)
+    2Cor:
+      long: كورنتوس الثانية
+      short: من رسالة كورنتوس الثانية
+    Dan:
+      long: كتاب النّبيّ دانيال
+      short: كتاب النّبيّ دانيال
+    Eccl:
+      long: كتاب الخطيب الحكيم
+      short: الخطيب الحكيم
+    Eph:
+      short: من رسالة أفاسوس
+    Exod:
+      long: قصّة النّبيّ موسى - الخروج
+      short: قصّة النّبيّ موسى - الخروج
+    Ezek:
+      long: من الوحي إلى حزقيال
+      short: من الوحي إلى حزقيال
+    Gal:
+      short: من رسالة غلاطية
+    Gen:
+      long: قصص الأنبياء - التّكوين
+      short: قصص الأنبياء - التكوين
+    Heb:
+      short: من رسالة العبرانيين
+    Isa:
+      long: من الوحي إلى أشعيا
+      short: من الوحي إلى أشعيا
+    Jer:
+      long: من الوحي إلى إرميا
+      short: من الوحي إلى إرميا
+    Jonah:
+      long: قصّة النّبيّ يونس
+      short: قصّة النّبيّ يونس
+    Matt:
+      short: من الإنجيل - عن متّى
+    Prov:
+      long: من أمثال النبيّ سليمان
+      short: من أمثال النبيّ سليمان
+    Ps:
+      long: من كتاب الزبور
+      short: من كتاب الزبور
+    Rev:
+      short: كتاب الرؤيا
+    Rom:
+      short: من رسالة روما
+  gov:
+    1Cor:
+      long: الرِّسَالَة الأُولى إلى أهلِ كُورَنثُوس
+    1John:
+      long: رِسَالَةُ القِدِّيسِ يُوحَنَّا الأولَى
+    1Pet:
+      long: رِسَالَةُ القِدِّيس بُطْرُسَ الأولى
+    1Thess:
+      long: الرِّسَالةُ الأُولى إلى أهْلِ تَسَالُونِيكِي
+    1Tim:
+      long: الرِّسَالَةُ الأولى إلى تِيمُوثَاوس
+    2Cor:
+      long: الرِّسَالَة الثّانِيَة إلى أهلِ كُورَنْثُوس
+    2John:
+      long: رِسَالَةُ القِدِّيس يُوحَنَّا الثَّانِيَة
+    2Pet:
+      long: رِسَالَةُ القِدِّيس بُطْرُسَ الثَّانِيَة
+    2Thess:
+      long: الرِّسَالة الثَّانِيَة إلى أهْلِ تَسَالُونِيكِي
+    2Tim:
+      long: الرِّسَالَةُ الثَّانِية إلى تِيمُوثَاوس
+    3John:
+      long: رِسَالَةُ القِدِّيس يُوحَنَّا الثَّالِثَة
+    Acts:
+      long: أَعْمَالُ ٱلرُّسُلِ
+      short: أَعْمَالُ ٱلرُّسُلِ
+    Col:
+      long: الرِّسَالة إلى أهلِ كُولُسِّي
+    Eph:
+      long: الرِّسَالةُ إلى أهْلِ أفَسُسْ
+    Gal:
+      long: الرِّسَالةُ إلى أهْلِ غَلاطِيَة
+    Heb:
+      long: الرِّسَالة إلى العِبرانِيِّين
+    Jas:
+      long: رِسَالَةُ القِدِّيس يَعْقُوب
+    John:
+      long: إِنْجِيلُ يُوحَنَّا
+    Jude:
+      long: رِسَالَةُ القِدِّيس يَهُوذَا
+    Luke:
+      long: إِنْجِيلُ لُوقَا
+      short: لوقا
+    Mark:
+      long: إِنْجِيلُ مَرْقُسَ
+      short: مَرقُس
+    Matt:
+      long: إِنْجِيلُ مَتَّى
+    Phil:
+      long: الرِّسَالة إلى أهلِ فِيلِيبِّي
+    Phlm:
+      long: الرِّسَالة إلى فِيلِيمُن
+    Rev:
+      long: رُؤْيا القِدِّيس يُوحَنَّا اللاهوتي
+    Rom:
+      long: الرِسَالَةُ إِلَى أَهْلِ رُومِيَةَ
+    Titus:
+      long: الرِّسَالة إلى تِيطُس
+  avddv:
+    1Cor:
+      long: كورِنثوسَ الأولَى
+    1John:
+      long: يوحَنّا الأولَى
+    1Pet:
+      long: بُطرُسَ الأولَى
+    1Sam:
+      long: صَمُوئِيلَ ٱلْأَوَّلُ
+    1Thess:
+      long: تسالونيكي الأولَى
+    1Tim:
+      long: تيموثاوُسَ الأولَى
+    2Cor:
+      long: كورِنثوسَ الثّانيةُ
+    2John:
+      long: يوحَنّا الثّانيةُ
+    2Pet:
+      long: بُطرُسَ الثّانيةُ
+    2Sam:
+      long: صَمُوئِيلَ ٱلثَّانِي
+    2Thess:
+      long: تسالونيكي الثّانيةُ
+    2Tim:
+      long: تيموثاوُسَ الثّانيةُ
+    3John:
+      long: يوحَنّا الثّالِثَةُ
+    Acts:
+      long: أعمالُ الرُّسُلِ
+    Amos:
+      long: عَامُوس
+    Col:
+      long: كولوسّي
+    Dan:
+      long: دَانِيآل
+    Deut:
+      long: اَلتَّثْنِيَة
+    Eccl:
+      long: اَلْجَامِعَةِ
+    Eph:
+      long: أفَسُسَ
+    Exod:
+      long: اَلْخُرُوجُ
+    Ezek:
+      long: حِزْقِيَال
+    Ezra:
+      long: عَزْرَا
+    Gal:
+      long: غَلاطيَّةَ
+      short: غلا
+    Gen:
+      long: اَلتَّكْوِينُ
+    Hab:
+      long: حَبَقُّوق
+    Hag:
+      long: حَجَّي
+    Heb:
+      long: العِبرانيِّينَ
+    Hos:
+      long: هُوشَع
+    Jas:
+      long: يَعقوبَ
+    Jer:
+      long: إِرْمِيَا
+    Job:
+      long: أَيُّوبَ
+    Joel:
+      long: يُوئِيل
+    John:
+      long: إِنجيلُ يوحَنّا
+    Jude:
+      long: يَهوذا
+    Judg:
+      long: اَلْقُضَاة
+    Lam:
+      long: مَرَاثِي إِرْمِيَا
+    Lev:
+      long: اَللَّاوِيِّينَ
+    Luke:
+      long: إِنجيلُ لوقا
+    Mal:
+      long: مَلَاخِي
+    Mark:
+      long: إِنجيلُ مَرقُسَ
+      short: مر
+    Matt:
+      long: إِنجيلُ مَتَّى
+    Mic:
+      long: مِيخَا
+    Neh:
+      long: نَحَمْيَا
+    Num:
+      long: اَلْعَدَد
+    Obad:
+      long: عُوبَدْيَا
+    Phil:
+      long: فيلِبّي
+    Phlm:
+      long: فِليمونَ
+    Prov:
+      long: أَمْثَالٌ
+    Ps:
+      long: اَلْمَزَامِيرُ
+    Rev:
+      long: رؤيا يوحَنّا
+    Rom:
+      long: روميَةَ
+    Song:
+      long: نَشِيدُ ٱلْأَنْشَادِ
+    Titus:
+      long: تيطُسَ
+    Zech:
+      long: زَكَريَّا
+    Zeph:
+      long: صَفَنْيَا
+  avd:
+    1Cor:
+      long: كُورِنْثُوسَ ٱلأُولَى
+    1John:
+      long: يُوحَنَّا ٱلْأُولَى
+    1Pet:
+      long: بُطْرُسَ ٱلْأُولَى
+    1Sam:
+      long: صَمُوئِيلَ ٱلْأَوَّلُ
+    1Thess:
+      long: تَسَالُونِيكِي ٱلأُولَى
+    1Tim:
+      long: تِيمُوثَاوُسَ ٱلْأُولَى
+    2Cor:
+      long: كُورِنْثُوسَ  ٱلثَّانِيةُ
+    2John:
+      long: يُوحَنَّا ٱلثَّانِيَةُ
+    2Pet:
+      long: بُطْرُسَ ٱلثَّانِيَةُ
+    2Sam:
+      long: صَمُوئِيلَ ٱلثَّانِي
+    2Thess:
+      long: تَسَالُونِيكِي ٱلثَّانِيةُ
+    2Tim:
+      long: تِيمُوثَاوُسَ ٱلثَّانِيةُ
+    3John:
+      long: يُوحَنَّا ٱلثَّالِثَةُ
+    Acts:
+      long: أَعْمَالُ ٱلرُّسُلِ
+    Amos:
+      long: عَامُوس
+    Col:
+      long: كُولُوسِّي
+    Dan:
+      long: دَانِيآل
+    Deut:
+      long: اَلتَّثْنِيَة
+    Eccl:
+      long: اَلْجَامِعَةِ
+    Eph:
+      long: أَفَسُسَ
+    Exod:
+      long: اَلْخُرُوجُ
+    Ezek:
+      long: حِزْقِيَال
+    Ezra:
+      long: عَزْرَا
+    Gal:
+      long: غَلَاطِيَّةَ
+    Gen:
+      long: اَلتَّكْوِينُ
+    Hab:
+      long: حَبَقُّوق
+    Hag:
+      long: حَجَّي
+    Heb:
+      long: ٱلْعِبْرَانِيِّينَ
+    Hos:
+      long: هُوشَع
+    Jas:
+      long: يَعْقُوبَ
+    Jer:
+      long: إِرْمِيَا
+    Job:
+      long: أَيُّوبَ
+    Joel:
+      long: يُوئِيل
+    John:
+      long: يُوحَنَّا
+    Jude:
+      long: يَهُوذَا
+    Judg:
+      long: اَلْقُضَاة
+    Lam:
+      long: مَرَاثِي إِرْمِيَا
+    Lev:
+      long: اَللَّاوِيِّينَ
+    Luke:
+      long: لُوقَا
+    Mal:
+      long: مَلَاخِي
+    Mark:
+      long: مَرْقُسَ
+      short: مر
+    Matt:
+      long: مَتَّى
+    Mic:
+      long: مِيخَا
+    Neh:
+      long: نَحَمْيَا
+    Num:
+      long: اَلْعَدَد
+    Obad:
+      long: عُوبَدْيَا
+    Phil:
+      long: فِيلِبِّي
+    Phlm:
+      long: فِلِيمُونَ
+    Prov:
+      long: أَمْثَالٌ
+    Ps:
+      long: اَلْمَزَامِيرُ
+    Rev:
+      long: رُؤْيَا يُوحَنَّا
+    Rom:
+      long: رُومِيَةَ
+    Song:
+      long: نَشِيدُ ٱلْأَنْشَادِ
+    Titus:
+      long: تِيطُسَ
+    Zech:
+      long: زَكَريَّا
+    Zeph:
+      long: صَفَنْيَا
+  faov:
+    Ps:
+      long: مزامير داود النبيّ
+      short: مزامير داود النبيّ

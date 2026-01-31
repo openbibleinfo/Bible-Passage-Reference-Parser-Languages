@@ -1,0 +1,290 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Zɛnɛse
+      - Zɛn
+  - osis: Exod
+    texts:
+      - Ɛsedɔ
+      - Ɛse
+  - osis: Lev
+    texts:
+      - Levetekɔ
+      - Lev
+  - osis: Num
+    texts:
+      - Nɔŋba
+  - osis: Lam
+    texts:
+      - Zerusâlɛŋ Karáa Maa Wɔ̂lɔ-wooi
+      - Wɔ̂lɔ-wooi
+  - osis: Rev
+    texts:
+      - M̀ɛni-lɛɛi
+      - M̀ɛni
+  - osis: Deut
+    texts:
+      - Dutɛrɔnome
+      - Dut
+  - osis: Josh
+    texts:
+      - Zasua
+      - Zas
+  - osis: Judg
+    texts:
+      - M̀ɛni-sâa Ƃó-ƃelai
+      - Ƃó-ƃelai
+  - osis: Ruth
+    texts:
+      - Lûfi
+  - osis: Isa
+    texts:
+      - Azaya
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Sam
+  - osis: 1Sam
+    texts:
+      - Samia Maa-ŋuŋ
+  - osis: 2Sam
+    texts:
+      - Samia Veerɛi
+  - osis: 1Kgs
+    texts:
+      - Kâloŋ Maa-ŋuŋ
+  - osis: 2Kgs
+    texts:
+      - Kâloŋ Veerɛi
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Kâloŋ
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Kɔlɔ
+  - osis: 1Chr
+    texts:
+      - Kɔlɔnikɔ Maa-ŋuŋ
+  - osis: 2Chr
+    texts:
+      - Kɔlɔnikɔ Veerɛi
+  - osis: Ezra
+    texts:
+      - Ɛzura
+  - osis: Neh
+    texts:
+      - Niɛmaya
+      - Niɛ
+  - osis: Esth
+    texts:
+      - Ɛtɛ
+  - osis: Job
+    texts:
+      - Zôo
+  - osis: Ps
+    texts:
+      - Wule-woo-ŋa
+      - Wule
+  - osis: Prov
+    texts:
+      - Táre-woo-ŋa
+      - Táre
+  - osis: Eccl
+    texts:
+      - Ikilisiati
+      - Ikili
+  - osis: Song
+    texts:
+      - Wule-ŋa Kélee Mɛi Wûle
+      - Wule-ŋa
+  - osis: Jer
+    texts:
+      - Zɛlemaya
+      - Zɛl
+  - osis: Ezek
+    texts:
+      - Izikiɛ
+      - Izi
+  - osis: Dan
+    texts:
+      - Danîa
+      - Dan
+  - osis: Hos
+    texts:
+      - Osia
+  - osis: Joel
+    texts:
+      - Zooɛ
+  - osis: Amos
+    texts:
+      - Emɔ
+  - osis: Obad
+    texts:
+      - Obadaya
+      - Oba
+  - osis: Jonah
+    texts:
+      - Zôna
+  - osis: Mic
+    texts:
+      - Maka
+  - osis: Nah
+    texts:
+      - Neeuŋ
+  - osis: Hab
+    texts:
+      - Abaku
+      - Aba
+  - osis: Zeph
+    texts:
+      - Zɛfɛnâya
+      - Zɛf
+  - osis: Hag
+    texts:
+      - Egaa
+  - osis: Zech
+    texts:
+      - Zɛkɛrâya
+      - Zɛk
+  - osis: Mal
+    texts:
+      - Malakai
+      - Mal
+  - osis: Matt
+    texts:
+      - Maafîu
+      - Maaf
+  - osis: Mark
+    texts:
+      - Mâki
+  - osis: Luke
+    texts:
+      - Lûu
+  - osis: 1John
+    texts:
+      - Zɔ̂ŋ Maa-ŋuŋ
+  - osis: 2John
+    texts:
+      - Zɔ̂ŋ Veerɛi
+  - osis: 3John
+    texts:
+      - Zɔ̂ŋ Zaaƃai
+      - 3 Zɔ̂ŋ
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Zɔ̂ŋ
+  - osis: Acts
+    texts:
+      - Zia-ƃelai Kɛ́-mɛni-ŋai
+      - Díkɛ-mɛni-ŋai
+  - osis: Rom
+    texts:
+      - Lomaŋ
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kɔle
+  - osis: 1Cor
+    texts:
+      - Kɔleŋtiɛŋ Maa-ŋuŋ
+  - osis: 2Cor
+    texts:
+      - Kɔleŋtiɛŋ Veerɛi
+  - osis: Col
+    texts:
+      - Kolasiɛŋ
+      - Kol
+  - osis: Gal
+    texts:
+      - Galesiɛŋ
+      - Gal
+  - osis: Eph
+    texts:
+      - Ifisiɛŋ
+      - Ifi
+  - osis: Phil
+    texts:
+      - Felepiɛŋ
+      - Fel
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tɛsɛ
+  - osis: 1Thess
+    texts:
+      - Tɛsɛlôniɛŋ Maa-ŋuŋ
+  - osis: 2Thess
+    texts:
+      - Tɛsɛlôniɛŋ Veerɛi
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tem
+  - osis: 1Tim
+    texts:
+      - Temete Maa-ŋuŋ
+  - osis: 2Tim
+    texts:
+      - Temete Veerɛi
+  - osis: Titus
+    texts:
+      - Taitɔ
+  - osis: Phlm
+    texts:
+      - Falemɔŋ
+      - Fal
+  - osis: Heb
+    texts:
+      - Ibulu
+      - Ibu
+  - osis: Jas
+    texts:
+      - Zĩi
+  - osis: 1Pet
+    texts:
+      - Pitɛ Maa-ŋuŋ
+  - osis: 2Pet
+    texts:
+      - Pitɛ Veerɛi
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pitɛ
+  - osis: Jude
+    texts:
+      - Zûu
+translations:
+  - KWB

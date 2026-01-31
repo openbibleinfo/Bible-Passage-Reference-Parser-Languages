@@ -1,0 +1,73 @@
+variables:
+  first: &first
+    - १
+  second: &second
+    - २
+  third: &third
+    - ३
+books:
+  - osis: Matt
+    texts:
+      - मत्ती
+  - osis: Mark
+    texts:
+      - मर्कूस
+      - मर्‌क
+  - osis: Luke
+    texts:
+      - लुका
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - युहन्‍ना
+      - युह
+  - osis: John
+    texts:
+      - युहन्‍ना
+      - युहन
+  - osis: Acts
+    texts:
+      - प्रेरित
+      - प्रे
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - ठेसलोनीकी
+      - ठेस
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - टीमोठी
+      - टी
+  - osis: Titus
+    texts:
+      - टीटस
+  - osis: Jas
+    texts:
+      - याकुब
+      - याकु
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - पट्‍रुस
+      - पट्
+  - osis: Jude
+    texts:
+      - यहुडा
+      - यहु
+translations:
+  - EMGP

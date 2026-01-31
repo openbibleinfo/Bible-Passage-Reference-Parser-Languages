@@ -1,0 +1,269 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - yi ce yi wu To L
+      - wu
+  - osis: Exod
+    texts:
+      - do je To L
+      - do
+  - osis: Lev
+    texts:
+      - lE-yi To L
+      - lE
+  - osis: Num
+    texts:
+      - p xy U To L
+      - U
+  - osis: Lam
+    texts:
+      - a CyH jE To L
+      - Cy
+  - osis: Rev
+    texts:
+      - mo gL du To L
+      - Mo
+  - osis: Deut
+    texts:
+      - jU k bA m. To L
+      - jU
+  - osis: Josh
+    texts:
+      - yo-xu To L
+      - xu
+  - osis: Judg
+    texts:
+      - bA mu xy, P To L
+      - bA
+  - osis: Ruth
+    texts:
+      - Ru-te To L
+      - Ru
+  - osis: Isa
+    texts:
+      - yi-s-y To L
+      - s
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - w ti To L
+      - w
+  - osis: Ezra
+    texts:
+      - E,-sL-l To L
+      - sL
+  - osis: Neh
+    texts:
+      - ni-y-m-y To L
+      - Ni
+  - osis: Esth
+    texts:
+      - E-sl-te To L
+      - E
+  - osis: Job
+    texts:
+      - yo-be To L
+      - be
+  - osis: Prov
+    texts:
+      - Vo jE To L
+      - jE
+  - osis: Eccl
+    texts:
+      - m. mi c P To L
+      - c
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - c mi To L
+      - mi
+  - osis: Song
+    texts:
+      - so-lo-mo mu gw To L
+      - So
+  - osis: Ps
+    texts:
+      - mu gw To L
+      - gw
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - s-mu-ye To L
+      - mu
+  - osis: Jer
+    texts:
+      - ye-li-mi To L
+      - Ye
+  - osis: Ezek
+    texts:
+      - yi-xi-ce To L
+      - ce
+  - osis: Dan
+    texts:
+      - d-ni-le To L
+      - d
+  - osis: Hos
+    texts:
+      - ho-xi-y To L
+      - Ho
+  - osis: Amos
+    texts:
+      - a-mo-si To L
+      - a
+  - osis: Obad
+    texts:
+      - o-bD-d-y; To L
+      - o
+  - osis: Jonah
+    texts:
+      - yo,-n To L
+      - n
+  - osis: Mic
+    texts:
+      - "Mi-kd: To L"
+      - Kd
+  - osis: Nah
+    texts:
+      - ne-yu-mD To L
+      - Ne
+  - osis: Hab
+    texts:
+      - H-b-kl To L
+      - h
+  - osis: Zeph
+    texts:
+      - Rd-j-n-y; To L
+      - J
+  - osis: Hag
+    texts:
+      - h-kD To L
+      - kD
+  - osis: Zech
+    texts:
+      - s-cy-li-y To L
+      - cy
+  - osis: Mal
+    texts:
+      - MA-lD-kd To L
+      - mA
+  - osis: Matt
+    texts:
+      - m-Ti To L
+      - m
+  - osis: Mark
+    texts:
+      - m-Ko To L
+      - Ko
+  - osis: Luke
+    texts:
+      - lu-K To L
+      - Lu
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - yo-v To L
+      - Yo
+  - osis: Acts
+    texts:
+      - fi du To L
+      - fi
+  - osis: Rom
+    texts:
+      - ro-m To L
+      - Ro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Ko-lE-Tu To L
+      - lE
+  - osis: Col
+    texts:
+      - ko-lo-xi To L
+      - Ko
+  - osis: Gal
+    texts:
+      - g-l-Ti-y To L
+      - g
+  - osis: Eph
+    texts:
+      - yi-Ju-so To L
+      - yi
+  - osis: Phil
+    texts:
+      - Pi-li-Pi To L
+      - li
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Te-s-lo-ni-y To L
+      - Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Ti-mo-Ti-wu To L
+      - Ti
+  - osis: Phlm
+    texts:
+      - Pi-li-mD To L
+      - mD
+  - osis: Heb
+    texts:
+      - vi-bE-ru To L
+      - vi
+  - osis: Jas
+    texts:
+      - y-ku To L
+      - y
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pi-te To L
+      - Pi
+  - osis: Jude
+    texts:
+      - yu-t To L
+      - Yu
+  - osis: Joel
+    texts:
+      - yo-L To L
+      - L
+  - osis: Titus
+    texts:
+      - Ti-to To L
+      - To
+translations:
+  - LRB

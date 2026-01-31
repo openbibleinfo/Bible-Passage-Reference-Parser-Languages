@@ -1,0 +1,99 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Buka Ha'ata'i
+  - osis: Matt
+    texts:
+      - St. Matiu
+      - Matiu
+  - osis: Mark
+    texts:
+      - St. Mak
+      - Mak
+  - osis: Luke
+    texts:
+      - St. Luk
+      - Luk
+  - osis: John
+    texts:
+      - St. Jon
+      - Jon
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jon
+  - osis: Acts
+    texts:
+      - Buka Tatau'aro
+  - osis: Rom
+    texts:
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korin
+  - osis: Col
+    texts:
+      - Kolosae
+  - osis: Gal
+    texts:
+      - Galesia
+  - osis: Eph
+    texts:
+      - Efesas
+  - osis: Phil
+    texts:
+      - Pilipae
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonaeka
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: Titus
+    texts:
+      - Taetas
+  - osis: Phlm
+    texts:
+      - Pilimon
+  - osis: Heb
+    texts:
+      - Hibru
+  - osis: Jas
+    texts:
+      - Jems
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+  - osis: Jude
+    texts:
+      - Jiud
+translations:
+  - AIA

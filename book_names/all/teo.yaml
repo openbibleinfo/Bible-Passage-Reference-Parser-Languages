@@ -1,0 +1,343 @@
+- osis: Gen
+  texts:
+    - Ageun
+    - Age
+- osis: Exod
+  texts:
+    - Anyoun
+    - Any
+- osis: Lev
+  texts:
+    - Ilebin
+    - Leb
+- osis: Num
+  texts:
+    - Aimario
+    - Mar
+- osis: Lam
+  texts:
+    - Akuudian
+    - Aku
+- osis: Rev
+  texts:
+    - Apukokinio
+    - Apuk
+    - Apu
+- osis: Deut
+  texts:
+    - Ikisila
+    - Ikis
+- osis: Josh
+  texts:
+    - Yosua
+    - Yos
+- osis: Judg
+  texts:
+    - Ikatubok
+    - Tub
+- osis: Ruth
+  texts:
+    - Rusi
+    - Rus
+- osis: Isa
+  texts:
+    - Isaia
+    - Isa
+- osis: 1Sam
+  texts:
+    - 1 Samuel
+    - 1 Sam
+    - 1. Samuel
+    - 1. Sam
+- osis: 2Sam
+  texts:
+    - 2 Samuel
+    - 2 Sam
+    - 2. Samuel
+    - 2. Sam
+- osis: 1Kgs
+  texts:
+    - 1 Ikabakan
+    - 1 Ika
+    - 1. Ikabakan
+    - 1. Ika
+- osis: 2Kgs
+  texts:
+    - 2 Ikabakan
+    - 2 Ika
+    - 2. Ikabakan
+    - 2. Ika
+- osis: 1Chr
+  texts:
+    - 1 Aisiitonokin
+    - 1 Siit
+    - 1. Aisiitonokin
+    - 1. Siit
+- osis: 2Chr
+  texts:
+    - 2 Aisiltonokin
+    - 2 Siit
+    - 2. Aisiltonokin
+    - 2. Siit
+- osis: Ezra
+  texts:
+    - Esera
+    - Esr
+- osis: Neh
+  texts:
+    - Nekemia
+    - Nek
+- osis: Esth
+  texts:
+    - Esita
+    - Est
+- osis: Job
+  texts:
+    - Yob
+- osis: Ps
+  texts:
+    - Isabulin
+    - Isab
+    - Sab
+- osis: Prov
+  texts:
+    - Awaragasia
+    - Awar
+    - Awa
+- osis: Eccl
+  texts:
+    - Ekalimonokinan
+    - Lim
+- osis: Song
+  texts:
+    - Ekosio
+    - Eko
+- osis: Jer
+  texts:
+    - Yeremia
+    - Yer
+- osis: Ezek
+  texts:
+    - Esekiel
+    - Esk
+- osis: Dan
+  texts:
+    - Daniel
+    - Dan
+- osis: Hos
+  texts:
+    - Kosea
+    - Kos
+- osis: Joel
+  texts:
+    - Yoel
+    - Yoe
+- osis: Amos
+  texts:
+    - Amos
+    - Amo
+- osis: Obad
+  texts:
+    - Obadia
+    - Oba
+- osis: Jonah
+  texts:
+    - Yon
+- osis: Mic
+  texts:
+    - Mika
+    - MiK
+- osis: Nah
+  texts:
+    - Nakum
+    - Nak
+- osis: Hab
+  texts:
+    - Kabakuk
+    - Kbk
+- osis: Zeph
+  texts:
+    - Sepania
+    - Sep
+- osis: Hag
+  texts:
+    - Kagai
+    - Kag
+- osis: Zech
+  texts:
+    - Sekaria
+    - Sek
+- osis: Mal
+  texts:
+    - Malaki
+    - Mal
+- osis: Matt
+  texts:
+    - Matayo
+    - Mat
+- osis: Mark
+  texts:
+    - Marako
+    - Mariko
+    - Mar
+    - Mk
+- osis: Luke
+  texts:
+    - Luka
+    - Luk
+- osis: 1John
+  texts:
+    - 1 Yokana
+    - 1 Yoana
+    - 1 Yoa
+    - 1 Yok
+    - 1. Yokana
+    - 1. Yoana
+    - 1. Yoa
+    - 1. Yok
+- osis: 2John
+  texts:
+    - 2 Yokana
+    - 2 Yoana
+    - 2 Yoa
+    - 2 Yok
+    - 2. Yokana
+    - 2. Yoana
+    - 2. Yoa
+    - 2. Yok
+- osis: 3John
+  texts:
+    - 3 Yokana
+    - 3 Yoana
+    - 3 Yoa
+    - 3 Yok
+    - 3. Yokana
+    - 3. Yoana
+    - 3. Yoa
+    - 3. Yok
+- osis: John
+  texts:
+    - Yokana
+    - Yoana
+    - Yoa
+    - Yok
+- osis: Acts
+  texts:
+    - Aswamisio
+    - Asom
+    - Asw
+- osis: Rom
+  texts:
+    - Iromayon
+    - iRom
+    - Rom
+- osis: 1Cor
+  texts:
+    - 1 Ikorinton
+    - 1 Ikor
+    - 1 Kor
+    - 1. Ikorinton
+    - 1. Ikor
+    - 1. Kor
+- osis: 2Cor
+  texts:
+    - 2 Ikorinton
+    - 2 Ikor
+    - 2 Kor
+    - 2. Ikorinton
+    - 2. Ikor
+    - 2. Kor
+- osis: Col
+  texts:
+    - Ikolosayon
+    - Ikolosain
+    - Ikol
+    - Kol
+- osis: Gal
+  texts:
+    - Igalatian
+    - iGal
+    - Gal
+- osis: Eph
+  texts:
+    - Ipeson
+    - Ipes
+    - Pes
+- osis: Phil
+  texts:
+    - Ipilipin
+    - Ipil
+    - Pil
+- osis: 1Thess
+  texts:
+    - 1 Isesalonikan
+    - 1 Itesalonikan
+    - 1 Itesa
+    - 1 Ses
+    - 1. Isesalonikan
+    - 1. Itesalonikan
+    - 1. Itesa
+    - 1. Ses
+- osis: 2Thess
+  texts:
+    - 2 Isesalonikan
+    - 2 Itesalonikan
+    - 2 Itesa
+    - 2 Ses
+    - 2. Isesalonikan
+    - 2. Itesalonikan
+    - 2. Itesa
+    - 2. Ses
+- osis: 1Tim
+  texts:
+    - 1 Timoteo
+    - 1 Timoti
+    - 1 Tim
+    - 1. Timoteo
+    - 1. Timoti
+    - 1. Tim
+- osis: 2Tim
+  texts:
+    - 2 Timoteo
+    - 2 Timoti
+    - 2 Tim
+    - 2. Timoteo
+    - 2. Timoti
+    - 2. Tim
+- osis: Titus
+  texts:
+    - Tito
+    - Tit
+- osis: Phlm
+  texts:
+    - Filemon
+    - Pilemon
+    - Fil
+    - Plm
+- osis: Heb
+  texts:
+    - Iburanian
+    - Iburayon
+    - Ibur
+    - Bur
+- osis: Jas
+  texts:
+    - Yakobo
+    - Yakob
+    - Yak
+- osis: 1Pet
+  texts:
+    - 1 Petero
+    - 1 Pet
+    - 1. Petero
+    - 1. Pet
+- osis: 2Pet
+  texts:
+    - 2 Petero
+    - 2 Pet
+    - 2. Petero
+    - 2. Pet
+- osis: Jude
+  texts:
+    - Yuda
+    - Yud

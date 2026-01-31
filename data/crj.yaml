@@ -1,0 +1,141 @@
+variables:
+  first: &first
+    - "1"
+    - ᓃᔥᑕᒻ
+  second: &second
+    - "2"
+    - ᓃᔓ
+books:
+  - osis: Rev
+    texts:
+      - ᒋᔅᒉᔨᐦᑖᑯᐦᑖᒉᐎᓐ
+      - Revelation
+      - Rev
+  - osis: Matt
+    texts:
+      - Matthew
+      - Mat
+      - ᒫᑎᔫ
+  - osis: Mark
+    texts:
+      - Mark
+      - Mrk
+      - ᒫᕐᒃ
+  - osis: Luke
+    texts:
+      - Luke
+      - Luk
+      - ᓘᒃ
+  - osis: 3John
+    texts:
+      - 3 John
+      - ᓂᔥᑐ ᒞᓐ
+      - 3 Jn
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - John
+      - Jn
+      - ᒞᓐ
+  - osis: John
+    texts:
+      - John
+      - Jhn
+      - ᒞᓐ
+  - osis: Acts
+    texts:
+      - ᐊᐸᔅᑕᓚᒡ
+      - Acts
+      - Act
+  - osis: Rom
+    texts:
+      - Romans
+      - Rom
+      - ᕎᒪᓐ
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corinthians
+      - ᑯᕆᓐᑎᔭᓐ
+      - Cor
+  - osis: Col
+    texts:
+      - Colossians
+      - ᑯᓨᓯᔭᓐ
+      - Col
+  - osis: Gal
+    texts:
+      - Galatians
+      - ᑲᓓᔑᔭᓐ
+      - Gal
+  - osis: Eph
+    texts:
+      - Ephesians
+      - ᐃᐲᓯᔭᓐ
+      - Eph
+  - osis: Phil
+    texts:
+      - Philippians
+      - ᐱᓕᐱᔭᓐ
+      - Plp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thessalonians
+      - ᑌᓴᓨᓂᔭᓐ
+      - Th
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothy
+      - ᑎᒧᑏ
+      - Ti
+  - osis: Titus
+    texts:
+      - Titus
+      - ᑕᐃᑕᔅ
+      - Tit
+  - osis: Phlm
+    texts:
+      - Philemon
+      - ᐹᐃᓖᒪᓐ
+      - Phm
+  - osis: Heb
+    texts:
+      - Hebrews
+      - ᐦᐄᑉᕈᐗ
+      - Heb
+  - osis: Jas
+    texts:
+      - James
+      - Jas
+      - ᒉᒥᔅ
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peter
+      - ᐲᑕᕐ
+      - Pe
+  - osis: Jude
+    texts:
+      - Jude
+      - Jud
+      - ᒎᑦ
+translations:
+  - CRJRNT
+  - JBCNT

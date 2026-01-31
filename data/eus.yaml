@@ -1,0 +1,278 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Hasiera
+      - Jenesa
+  - osis: Exod
+    texts:
+      - Ecsodoa
+      - Irteera
+  - osis: Lev
+    texts:
+      - Lebitarrena
+      - Lebiticoa
+  - osis: Num
+    texts:
+      - Zenbakiak
+      - Nombreac
+  - osis: Sir
+    texts:
+      - Ben Sirak
+  - osis: Wis
+    texts:
+      - Jakinduria
+  - osis: Lam
+    texts:
+      - Jeremias Profetaren Deithoreac
+      - Negar Kantak
+  - osis: EpJer
+    texts:
+      - Jeremiasen Gt.
+  - osis: Rev
+    texts:
+      - Apokalipsia
+  - osis: Deut
+    texts:
+      - Deuteronomioa
+      - Duteronoma
+  - osis: Josh
+    texts:
+      - Josue
+  - osis: Judg
+    texts:
+      - Epaileak
+      - Juieac
+  - osis: Ruth
+    texts:
+      - Erruth
+      - Rut
+  - osis: Isa
+    texts:
+      - Isaiasen Profecia
+      - Isaias
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Erregueac
+      - Samuel
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Erregueac
+      - Erregeak
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Paralipomenac
+      - Kronikak
+  - osis: Ezra
+    texts:
+      - Esdras
+  - osis: Neh
+    texts:
+      - Nehemias
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Psalmoac
+      - Salmoak
+  - osis: Prov
+    texts:
+      - Esaera Zaharrak
+      - Erran-çaharrac
+  - osis: Eccl
+    texts:
+      - Eclesiastesa
+      - Kohelet
+  - osis: Song
+    texts:
+      - Salomonen Cantiquetaco Cantica
+      - Kantarik Ederrena
+  - osis: Jer
+    texts:
+      - Jeremiasen Profecia
+      - Jeremias
+  - osis: Ezek
+    texts:
+      - Ecequielen Profecia
+      - Ezekiel
+  - osis: Hos
+    texts:
+      - Oseeren Profecia
+      - Oseas
+  - osis: Joel
+    texts:
+      - Joelen Profecia
+      - Joel
+  - osis: Amos
+    texts:
+      - Amosen Profecia
+      - Amos
+  - osis: Obad
+    texts:
+      - Abdiasen Profecia
+      - Abdias
+  - osis: Jonah
+    texts:
+      - Jonasen Profecia
+      - Jonas
+  - osis: Mic
+    texts:
+      - Miqueasen Profecia
+      - Mikeas
+  - osis: Nah
+    texts:
+      - Nahumen Profecia
+      - Nahum
+  - osis: Hab
+    texts:
+      - Habacuquen Profecia
+      - Habakuk
+  - osis: Zeph
+    texts:
+      - Sophoniasen Profecia
+      - Sofonias
+  - osis: Hag
+    texts:
+      - Agjeoren Profecia
+      - Ageo
+  - osis: Zech
+    texts:
+      - Çacariasen Profecia
+      - Zakarias
+  - osis: Mal
+    texts:
+      - Malaquiasen Profecia
+      - Malakias
+  - osis: Matt
+    texts:
+      - Mateo
+  - osis: Mark
+    texts:
+      - Markos
+  - osis: Luke
+    texts:
+      - Lukas
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Joan
+  - osis: Acts
+    texts:
+      - Eginak
+  - osis: Rom
+    texts:
+      - Erromatarrei
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintoarrei
+  - osis: Col
+    texts:
+      - Kolosarrei
+  - osis: Gal
+    texts:
+      - Galaziarrei
+  - osis: Eph
+    texts:
+      - Efesoarrei
+  - osis: Phil
+    texts:
+      - Filipoarrei
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonikarrei
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteori
+  - osis: Titus
+    texts:
+      - Titori
+  - osis: Phlm
+    texts:
+      - Filemoni
+  - osis: Heb
+    texts:
+      - Hebrearrei
+  - osis: Jas
+    texts:
+      - Santiago
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pedro
+  - osis: Jude
+    texts:
+      - Judas
+  - osis: Tob
+    texts:
+      - Tobit
+  - osis: Jdt
+    texts:
+      - Judit
+  - osis: Bar
+    texts:
+      - Baruk
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+    texts:
+      - Makabearrak
+  - osis: DanGr
+    texts:
+      - Daniel Gr.
+  - osis: Dan
+    texts:
+      - Danielen Profecia
+      - Daniel
+  - osis: EsthGr
+    texts:
+      - Ester Gr.
+  - osis: Esth
+    texts:
+      - Esther
+      - Ester
+translations:
+  - EAB
+  - EABD
+  - BHNT

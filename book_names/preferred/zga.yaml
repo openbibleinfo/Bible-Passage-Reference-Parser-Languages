@@ -1,0 +1,135 @@
+default:
+  1Cor:
+    long: 1 Kolinti
+    short: 1 Kolinti
+  1John:
+    long: 1 Johani
+    short: 1 Johani
+  1Pet:
+    long: 1 Petele
+    short: 1 Petele
+  1Thess:
+    long: 1 Tesaloniki
+    short: 1 Tesaloniki
+  1Tim:
+    long: 1 Timoti
+    short: 1 Timoti
+  2Cor:
+    long: 2 Kolinti
+    short: 2 Kolinti
+  2John:
+    long: 2 Johani
+    short: 2 Johani
+  2Pet:
+    long: 2 Petele
+    short: 2 Petele
+  2Thess:
+    long: 2 Tesaloniki
+    short: 2 Tesaloniki
+  2Tim:
+    long: 2 Timoti
+    short: 2 Timoti
+  3John:
+    long: 3 Johani
+    short: 3 Johani
+  Acts:
+    long: Mbombo tsa Vapositili
+    short: Vapositili
+  Col:
+    long: Kolosi
+    short: Kolosi
+  Eph:
+    long: Epesi
+    short: Epesi
+  Gal:
+    long: Galati
+    short: Galati
+  Heb:
+    long: Hebuli
+    short: Hebuli
+  Jas:
+    long: Jakobu
+    short: Jakobu
+  John:
+    long: Johani
+    short: Johani
+  Jude:
+    long: Ilipisitili Lya Juta
+    short: Ilipisitili Lya Juta
+  Luke:
+    long: Luka
+    short: Luka
+  Mark:
+    long: Malika
+    short: Malika
+  Matt:
+    long: Mataayo
+    short: Matai
+  Phil:
+    long: Pilipi
+    short: Pilipi
+  Phlm:
+    long: Filimoni
+    short: Pilemoni
+  Rev:
+    long: Lʉvonekelo
+    short: Uluvonekelo
+  Rom:
+    long: Loma
+    short: Loma
+  Titus:
+    long: Titi
+    short: Titi
+translations:
+  zga:
+    1Cor:
+      long: 1 Vakolinto
+    1John:
+      long: 1 Yohana
+    1Pet:
+      long: 1 Petulo
+    1Thess:
+      long: 1 Vatesalonike
+    2Cor:
+      long: 2 Vakolinto
+    2John:
+      long: 2 Yohana
+    2Pet:
+      long: 2 Petulo
+    2Thess:
+      long: 2 Vatesalonike
+    3John:
+      long: 3 Yohana
+    Col:
+      long: Vakolosai
+    Eph:
+      long: VaEfeso
+    Gal:
+      long: Vagalatiya
+    Heb:
+      long: Vaebulaniya
+    Jas:
+      long: Yakobo
+    John:
+      long: Yohana
+    Jude:
+      long: Yuuda
+    Luke:
+      long: Luuka
+    Mark:
+      long: Maliko
+    Phil:
+      long: Vafilipi
+    Rom:
+      long: Valooma
+    Titus:
+      long: Tito
+  kinga:
+    Acts:
+      long: Vapositili
+    Matt:
+      long: Matai
+    Phlm:
+      long: Pilemoni
+    Rev:
+      long: Uluvonekelo

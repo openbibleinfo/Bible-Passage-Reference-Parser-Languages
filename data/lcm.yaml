@@ -1,0 +1,123 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Tutapongai
+      - Tut
+  - osis: Rev
+    texts:
+      - Asangai
+      - As
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis: Jonah
+    texts:
+      - Jon
+  - osis: Matt
+    texts:
+      - Mataio
+      - Mt
+  - osis: Mark
+    texts:
+      - Marko
+      - Mk
+  - osis: Luke
+    texts:
+      - Lukas
+      - Lk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Ioanes
+      - Io
+  - osis: Acts
+    texts:
+      - Aposel
+      - Ap
+  - osis: Rom
+    texts:
+      - Rome
+      - Ro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinto
+      - Ko
+  - osis: Col
+    texts:
+      - Kolosai
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatia
+      - Ga
+  - osis: Eph
+    texts:
+      - Epeso
+      - Ep
+  - osis: Phil
+    texts:
+      - Pilipo
+      - Pil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonike
+      - Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+      - Ti
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Pilemon
+      - Plm
+  - osis: Heb
+    texts:
+      - Eberaio
+      - Eb
+  - osis: Jas
+    texts:
+      - Iakovo
+      - Ia
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petero
+      - Pe
+  - osis: Jude
+    texts:
+      - Iudas
+      - Iu
+translations:
+  - LCM

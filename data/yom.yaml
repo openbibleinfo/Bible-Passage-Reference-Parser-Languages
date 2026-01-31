@@ -1,0 +1,120 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - 1 Mose
+      - 1 Mos
+  - osis: Lam
+    texts:
+      - Nkunga mi Maniongo
+      - Nku
+  - osis: Rev
+    texts:
+      - Tsongolo
+  - osis: Ruth
+    texts:
+      - Luti
+      - Lut
+  - osis: Esth
+    texts:
+      - Esiteli
+      - Esi
+  - osis: Ps
+    texts:
+      - Minkunga
+  - osis: Jonah
+    texts:
+      - Yona
+      - Yon
+  - osis: Matt
+    texts:
+      - Matayi
+  - osis: Mark
+    texts:
+      - Malako
+  - osis: Luke
+    texts:
+      - Luka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yowani
+  - osis: Acts
+    texts:
+      - Mavanga
+      - Mav
+  - osis: Rom
+    texts:
+      - Loma
+      - Lom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kolinto
+      - Kol
+  - osis: Col
+    texts:
+      - Kolosayi
+  - osis: Gal
+    texts:
+      - Ngalatiya
+      - Ngal
+  - osis: Eph
+    texts:
+      - Efeso
+  - osis: Phil
+    texts:
+      - Filipi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonika
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+  - osis: Titus
+    texts:
+      - Tite
+  - osis: Phlm
+    texts:
+      - Filemo
+  - osis: Heb
+    texts:
+      - Ebelewo
+  - osis: Jas
+    texts:
+      - Zaki
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piela
+  - osis: Jude
+    texts:
+      - Yuda
+translations:
+  - YOM

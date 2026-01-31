@@ -1,0 +1,111 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Fiitu
+      - Fit
+  - osis: Matt
+    texts:
+      - Mɑɑtieo
+      - Mɑt
+  - osis: Mark
+    texts:
+      - Mɑɑlk
+      - Mɑlk
+  - osis: Luke
+    texts:
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Sɑn
+  - osis: Acts
+    texts:
+      - Tuonɑ
+      - Tuo
+  - osis: Rom
+    texts:
+      - Luonmtieb
+      - Luo
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kuolent-tieb
+      - Kol
+  - osis: Col
+    texts:
+      - Kuoluostieb
+      - Kuo
+  - osis: Gal
+    texts:
+      - Gɑɑlɑɑt-tieb
+      - Gɑl
+  - osis: Eph
+    texts:
+      - Efestieb
+      - Efe
+  - osis: Phil
+    texts:
+      - Fiiliiptieb
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesɑɑluoniiktieb
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tiimuote
+      - Tim
+  - osis: Titus
+    texts:
+      - Tiit
+      - Tit
+  - osis: Phlm
+    texts:
+      - Fiilemɔn
+      - File
+  - osis: Heb
+    texts:
+      - Hebluonbɑ
+      - Heb
+  - osis: Jas
+    texts:
+      - Sɑɑk
+      - Sɑk
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piɑl
+      - Pil
+  - osis: Jude
+    texts:
+      - Suud
+      - Sud
+translations:
+  - MOBANT07

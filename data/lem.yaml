@@ -1,0 +1,84 @@
+books:
+  - osis: Rev
+    texts:
+      - NyB
+  - osis: Matt
+    texts:
+      - Mat
+  - osis: Mark
+    texts:
+      - Mak
+  - osis: Luke
+    texts:
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Sŋ
+  - osis: 2John
+    texts:
+      - 2Sŋ
+  - osis: 3John
+    texts:
+      - 3Sŋ
+  - osis: John
+    texts:
+      - Saŋ
+  - osis: Acts
+    texts:
+      - Bbɛ
+  - osis: Rom
+    texts:
+      - Lom
+  - osis: 1Cor
+    texts:
+      - 1Kɔ
+  - osis: 2Cor
+    texts:
+      - 2Kɔ
+  - osis: Col
+    texts:
+      - Kol
+  - osis: Gal
+    texts:
+      - Kal
+  - osis: Eph
+    texts:
+      - Ɛfɛ
+  - osis: Phil
+    texts:
+      - Fil
+  - osis: 1Thess
+    texts:
+      - 1Tɛ
+  - osis: 2Thess
+    texts:
+      - 2Tɛ
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Tit
+  - osis: Phlm
+    texts:
+      - Flm
+  - osis: Heb
+    texts:
+      - Ebe
+  - osis: Jas
+    texts:
+      - Sak
+  - osis: 1Pet
+    texts:
+      - 1Bi
+  - osis: 2Pet
+    texts:
+      - 2Bi
+  - osis: Jude
+    texts:
+      - Sut
+translations:
+  - LEM

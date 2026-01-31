@@ -1,0 +1,267 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Zenesesi
+      - Zen
+  - osis: Exod
+    texts:
+      - Ekisidasi
+      - Ekd
+  - osis: Lev
+    texts:
+      - Livitikasi
+      - Liv
+  - osis: Num
+    texts:
+      - Ninaedi rina Tinoni
+      - Nab
+  - osis: Lam
+    texts:
+      - Kinabo te Zeremaea
+      - Ktz
+  - osis: Rev
+    texts:
+      - Revalesoni
+      - Rev
+  - osis: Deut
+    texts:
+      - Diutironomi
+      - Diut
+  - osis: Josh
+    texts:
+      - Zosua
+      - Zos
+  - osis: Judg
+    texts:
+      - Zazi
+      - Zaz
+  - osis: Ruth
+    texts:
+      - Ruti
+      - Rt
+  - osis: Isa
+    texts:
+      - Aisea
+      - Ais
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuela
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Baṉara
+      - Baṉ
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Koronikolo
+      - Koron
+  - osis: Ezra
+    texts:
+      - Ezara
+      - Ezr
+  - osis: Neh
+    texts:
+      - Nehemaea
+      - Nehe
+  - osis: Esth
+    texts:
+      - Esita
+      - Est
+  - osis: Job
+    texts:
+      - Zobi
+      - Zob
+  - osis: Ps
+    texts:
+      - Sam
+  - osis: Prov
+    texts:
+      - Zinama Tumatumae
+      - Zt
+  - osis: Eccl
+    texts:
+      - Ekeliziasiti
+      - Ekl
+  - osis: Song
+    texts:
+      - Kinera Koari na Kinerakera
+      - Kkk
+  - osis: Jer
+    texts:
+      - Zeremaea
+      - Zer
+  - osis: Ezek
+    texts:
+      - Izikeli
+      - Izk
+  - osis: Dan
+    texts:
+      - Daniela
+      - Dan
+  - osis: Hos
+    texts:
+      - Hozea
+      - Hoz
+  - osis: Joel
+    texts:
+      - Zoili
+      - Zol
+  - osis: Amos
+    texts:
+      - Emosi
+      - Em
+  - osis: Obad
+    texts:
+      - Obadaea
+      - Obd
+  - osis: Jonah
+    texts:
+      - Zona
+      - Zna
+  - osis: Mic
+    texts:
+      - Maika
+      - Mka
+  - osis: Nah
+    texts:
+      - Nehumu
+      - Nehu
+  - osis: Hab
+    texts:
+      - Habakuku
+      - Hbk
+  - osis: Zeph
+    texts:
+      - Zepanaea
+      - Zepa
+  - osis: Hag
+    texts:
+      - Haqai
+      - Haq
+  - osis: Zech
+    texts:
+      - Zakaraea
+      - Zak
+  - osis: Mal
+    texts:
+      - Malakai
+      - Mal
+  - osis: Matt
+    texts:
+      - Matiu
+      - Mt
+  - osis: Mark
+    texts:
+      - Maka
+      - Mk
+  - osis: Luke
+    texts:
+      - Luke
+      - Lk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Zone
+      - Zn
+  - osis: Acts
+    texts:
+      - Tinavete
+      - Tta
+  - osis: Rom
+    texts:
+      - Roma
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Koriniti
+      - Kor
+  - osis: Col
+    texts:
+      - Kolosae
+      - Kol
+  - osis: Gal
+    texts:
+      - Qalesia
+      - Qal
+  - osis: Eph
+    texts:
+      - Episasi
+      - Epi
+  - osis: Phil
+    texts:
+      - Pilipae
+      - Pil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonaika
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+      - Tim
+  - osis: Titus
+    texts:
+      - Taetusi
+      - Ta
+  - osis: Phlm
+    texts:
+      - Pilimone
+      - Plm
+  - osis: Heb
+    texts:
+      - Hiburu
+      - Hib
+  - osis: Jas
+    texts:
+      - Zemisi
+      - Zem
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+      - Pit
+  - osis: Jude
+    texts:
+      - Ziudi
+      - Zd
+translations:
+  - ROV

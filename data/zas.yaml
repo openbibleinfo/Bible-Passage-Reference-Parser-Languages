@@ -1,0 +1,138 @@
+variables:
+  first: &first
+    - "1"
+    - Guiꞌch
+  second: &second
+    - "2"
+    - Guiꞌch
+books:
+  - osis: Rev
+    texts:
+      - Ni balüü Jesucrist loj San Juan
+      - Ap
+  - osis: Matt
+    texts:
+      - San Matew
+      - Mt
+  - osis: Mark
+    texts:
+      - San Marcw
+      - Mc
+  - osis: Luke
+    texts:
+      - San Lujc
+      - Lc
+  - osis: 3John
+    texts:
+      - Guiꞌch bayon bacaa San Juan
+      - 3 Jn
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - yaloj bacaa San Juan
+      - Jn
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - barojp bacaa San Juan
+      - Jn
+  - osis: John
+    texts:
+      - San Juan
+      - Jn
+  - osis: Acts
+    texts:
+      - Ni been ree apóstoles
+      - Hch
+  - osis: Rom
+    texts:
+      - Guiꞌch par ree bén Rom
+      - Ro
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - yaloj par ree bén Corinto
+      - Co
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - barojp par ree bén Corinto
+      - Co
+  - osis: Col
+    texts:
+      - Guiꞌch par ree bén Colosas
+      - Col
+  - osis: Gal
+    texts:
+      - Guiꞌch par ree bén Galacia
+      - Gl
+  - osis: Eph
+    texts:
+      - Guiꞌch par ree bén Éfeso
+      - Ef
+  - osis: Phil
+    texts:
+      - Guiꞌch par ree bén Filipos
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - yaloj par ree bén Tesalónica
+      - Ts
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - barojp par ree bén Tesalónica
+      - Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - yaloj par Timoteo
+      - Ti
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - barojp par Timoteo
+      - Ti
+  - osis: Titus
+    texts:
+      - Guiꞌch par Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Guiꞌch par Filemón
+      - Flm
+  - osis: Heb
+    texts:
+      - Guiꞌch par ree bén Hebreos
+      - Heb
+  - osis: Jas
+    texts:
+      - Guiꞌch bacaa Santiaaw
+      - Stg
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - yaloj bacaa San Pedr
+      - Pe
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - barojp bacaa San Pedr
+      - Pe
+  - osis: Jude
+    texts:
+      - Guiꞌch bacaa San Judas
+      - Jud
+translations:
+  - ZAS

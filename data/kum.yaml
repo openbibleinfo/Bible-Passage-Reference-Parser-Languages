@@ -1,0 +1,112 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Вагьий
+      - Вагь
+  - osis: Matt
+    texts:
+      - Маттай
+      - Мат
+  - osis: Mark
+    texts:
+      - Марк
+      - Мк
+  - osis: Luke
+    texts:
+      - Лукъа
+      - Лкъ
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Югьан
+      - Югь
+  - osis: Acts
+    texts:
+      - Элчилер
+      - Элч
+  - osis: Rom
+    texts:
+      - Румдагъылагъа
+      - Рум
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Коринфдегилеге
+      - Кор
+  - osis: Col
+    texts:
+      - Колосдагъылагъа
+      - Кол
+  - osis: Gal
+    texts:
+      - Галатиядагъылагъа
+      - Гал
+  - osis: Eph
+    texts:
+      - Эфесдегилеге
+      - Эф
+  - osis: Phil
+    texts:
+      - Филиппадагъылагъа
+      - Фил
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Салоникдегилеге
+      - Сал
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Тимофейге
+      - Тим
+  - osis: Titus
+    texts:
+      - Титге
+      - Тит
+  - osis: Phlm
+    texts:
+      - Филимонгъа
+      - Филим
+  - osis: Heb
+    texts:
+      - Ягьудилеге
+      - Ягь
+  - osis: Jas
+    texts:
+      - Якъуб
+      - Якъ
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Петер
+      - Пет
+  - osis: Jude
+    texts:
+      - Ягьуда
+translations:
+  - KUMNTBC

@@ -1,0 +1,250 @@
+default:
+  1Chr:
+    long: 1 ፆኦሲ ዓሶ ሃይሶ
+    short: 1ፆኦሲ. ዓሃኬ
+  1Cor:
+    long: 1 ቆሮንቶሴ ዓሶም
+    short: 1ቆሮ.
+  1John:
+    long: 1 ዮሃኒሴ
+    short: 1ዮሃ.
+  1Kgs:
+    long: 1 ካኣቶ ማፃኣፖ
+    short: 1ካኣቶ. ማ
+  1Pet:
+    long: 1 ጴፂሮሴ
+    short: 1ጴፂ.
+  1Sam:
+    long: 1 ሳሙዔኤሌ ማፃኣፖ
+    short: 1ሳሙ.
+  1Thess:
+    long: 1 ቴስሎንቄ ዓሶም
+    short: 1ቴስ.
+  1Tim:
+    long: 1 ፂሞቴዎሴም
+    short: 1ፂሞ.
+  2Chr:
+    long: 2 ፆኦሲ ዓሶ ሃይሶ
+    short: 2ፆኦሲ. ዓሃኬ
+  2Cor:
+    long: 2 ቆሮንቶሴ ዓሶም
+    short: 2ቆሮ.
+  2John:
+    long: 2 ዮሃኒሴ
+    short: 2ዮሃ.
+  2Kgs:
+    long: 2 ካኣቶ ማፃኣፖ
+    short: 2ካኣቶ. ማ
+  2Pet:
+    long: 2 ጴፂሮሴ
+    short: 2ጴፂ.
+  2Sam:
+    long: 2 ሳሙዔኤሌ ማፃኣፖ
+    short: 2ሳሙ.
+  2Thess:
+    long: 2 ቴስሎንቄ ዓሶም
+    short: 2ቴስ.
+  2Tim:
+    long: 2 ፂሞቴዎሴም
+    short: 2ፂሞ.
+  3John:
+    long: 3 ዮሃኒሴ
+    short: 3ዮሃ.
+  Acts:
+    long: ዳኪንቴዞንሢ ማዾ
+    short: ዳኪ. ማዾ
+  Amos:
+    long: ዓሞፄ ማፃኣፖ
+    short: ዓሞ.
+  Col:
+    long: ቆላሲያሴ ዓሶም
+    short: ቆላ.
+  Dan:
+    long: ዳኣኔኤሌ ማፃኣፖ
+    short: ዳኣኔ.
+  Deut:
+    long: ላሚንቴ ዎጎ ማፃኣፖ
+    short: ላሚ. ዎማ
+  Eccl:
+    long: ማክቢቤ ማፃኣፖ
+    short: ማክ.
+  Eph:
+    long: ዔፕሶኔ ዓሶም
+    short: ዔፕ.
+  Esth:
+    long: ዓስቲሮ ማፃኣፖ
+    short: ዓስቲ.
+  Exod:
+    long: ኬሲ ማፃኣፔ
+    short: ኬሲ. ማፃ
+  Ezek:
+    long: ሂዚቄኤሌ ማፃኣፖ
+    short: ሂዚ.
+  Ezra:
+    long: ዒዝራ ማፃኣፖ
+    short: ዒዝ.
+  Gal:
+    long: ጋላቲያ ዓሶም
+    short: ጋላ.
+  Gen:
+    long: ማዢንቲ ማፃኣፔ
+    short: ማዢ. ማፃ
+  Hab:
+    long: ዒምባቆሜ ማፃኣፖ
+    short: ዒምባ.
+  Hag:
+    long: ሃኣጌ ማፃኣፖ
+    short: ሃኣጌ
+  Heb:
+    long: ዔብሬ ዓሶም
+    short: ዔብ.
+  Hos:
+    long: ሆሴዔ ማፃኣፖ
+    short: ሆሴ.
+  Isa:
+    long: ዒሲያሴ ማፃኣፖ
+    short: ዒሲ.
+  Jas:
+    long: ያይቆኦቤ ኪኢቶ
+    short: ያይ.
+  Jer:
+    long: ዔርሚያሴ ማፃኣፖ
+    short: ዔር.
+  Job:
+    long: ዒዮቤ ማፃኣፖ
+    short: ዒዮ.
+  Joel:
+    long: ዒዩዔኤሌ ማፃኣፖ
+    short: ዒዩ.
+  John:
+    long: ዮሃኒሴ ፃኣፔ ኮዦ ሃይሶ
+    short: ዮሃ.
+  Jonah:
+    long: ዮናኣሴ ማፃኣፖ
+    short: ዮና.
+  Josh:
+    long: ዒያሱ ማፃኣፖ
+    short: ዒያ.
+  Jude:
+    long: ዪሁዳ ኪኢቶ''
+    short: ዪሁ.
+  Judg:
+    long: ሱኡጎ ማፃኣፖ
+    short: ሱኡጎ. ማፃ
+  Lam:
+    long: ዔርሚያሴ ቃዮ ማፃኣፖ
+    short: ዔቃ. ማ
+  Lev:
+    long: ሌዊ ዓሶ ማፃኣፖ
+    short: ሌዊ. ዓኬ
+  Luke:
+    long: ሉቃሴ
+    short: ሉቃ.
+  Mal:
+    long: ሚልኪያሴ ማፃኣፖ
+    short: ሚል.
+  Mark:
+    long: ማርቆሴ
+    short: ማር.
+  Matt:
+    long: ማቲዎሴ
+    short: ማቲ.
+  Mic:
+    long: ሚኪያሴ ማፃኣፖ
+    short: ሚኪ.
+  Nah:
+    long: ናሆኦሜ ማፃኣፖ
+    short: ናሆ.
+  Neh:
+    long: ኔሄሚያ ማፃኣፖ
+    short: ኔሄ.
+  Num:
+    long: ፓይዲ ማፃኣፔ
+    short: ፓይ. ማፃ
+  Obad:
+    long: ዓብዲዮ ማፃኣፖ
+    short: ዓብዲ.
+  Phil:
+    long: ፒልጲሲዮሴ ዓሶም
+    short: ፒልጲ.
+  Phlm:
+    long: ፒልሞናም
+    short: ፒልሞ.
+  Prov:
+    long: ኮኦኪንሢ ማፃኣፔ
+    short: ኮኦኪ.
+  Ps:
+    long: ዓይኑሞ ማፃኣፖ
+    short: ዓይኑ.
+  Rev:
+    long: ዮሃኒሴም ፆኦሲ ዻዌ ባኮ
+    short: ዮሃ. ፆፔዻ
+  Rom:
+    long: ሮሜ ዓሶም
+    short: ሮሜ
+  Ruth:
+    long: ሩኡቴ ማፃኣፖ
+    short: ሩኡቴ
+  Song:
+    long: ቢያፓ ባሼ ዓይኑሞ
+    short: ቢባ. ዓይ
+  Titus:
+    long: ቲቶም
+    short: ቲቶ
+  Zech:
+    long: ዛካሪያሴ ማፃኣፖ
+    short: ዛካ.
+  Zeph:
+    long: ሶፖኒያሴ ማፃኣፖ
+    short: ሶፖ.
+translations:
+  mnt:
+    1Cor:
+      long: ቆሮንቶሴ ዓሶም 1
+    1John:
+      long: ዮሓኒሴ ኪኢቶ'' 1
+      short: 1ዮሓ.
+    1Pet:
+      long: ጴፂሮሴ ኪኢቶ'' 1
+    1Thess:
+      long: ቴስሎንቄ ዓሶም 1
+    1Tim:
+      long: ፂሞቴዎሴም 1
+    2Cor:
+      long: ቆሮንቶሴ ዓሶም 2
+    2John:
+      long: ዮሓኒሴ ኪኢቶ'' 2
+      short: 2ዮሓ.
+    2Pet:
+      long: ጴፂሮሴ ኪኢቶ'' 2
+    2Thess:
+      long: ቴስሎንቄ ዓሶም 2
+    2Tim:
+      long: ፂሞቴዎሴም 2
+    3John:
+      long: ዮሓኒሴ ኪኢቶ'' 3
+      short: 3ዮሓ.
+    Acts:
+      long: ፆኦሲ ማዾ''ም ዳኪንቴዞንሢኮ ማዾ''
+      short: ዳኪ. ማዾ''
+    Heb:
+      long: ዔብሬ ዓሶም ዳኪንቴ ኪኢታ
+    Jas:
+      long: ያይቆኦቤ ኪኢቶ''
+    John:
+      long: ዮሓኒሴ
+      short: ዮሓ.
+    Rev:
+      long: ዮሓኒሴም ፆኦሲ ፔጋሲ ዻዌ ባኮ
+      short: ዮሓ. ፆፔዻ
+    Rom:
+      long: ሮሜ ዓጮ'' ዓሶም
+  mb:
+    Jude:
+      long: ዪሁዳ ዳኬ ኪኢቶ
+    Luke:
+      long: ሉቃሴ ፃኣፔ ኮዦ ሃይሶ
+    Mark:
+      long: ማርቆሴ ፃኣፔ ኮዦ ሃይሶ
+    Matt:
+      long: ማቲዎሴ ፃኣፔ ኮዦ ሃይሶ

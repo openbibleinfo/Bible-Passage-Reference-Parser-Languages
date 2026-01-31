@@ -1,0 +1,63 @@
+books:
+  - osis: Gen
+    texts:
+      - التَّكوِين
+      - تك
+  - osis: Ruth
+    texts:
+      - رَاعُوثَ
+      - را
+  - osis: Dan
+    texts:
+      - دانيال
+      - دان
+  - osis: Mark
+    texts:
+      - مَرقُس
+      - مر
+  - osis: Luke
+    texts:
+      - لُوقَا
+      - لو
+  - osis: 1John
+    texts:
+      - 1يُوحَنَّ
+      - 1يو
+  - osis: 2John
+    texts:
+      - 2يُوحَنَّ
+      - 2يو
+  - osis: 3John
+    texts:
+      - 3يُوحَنَّ
+      - 3يو
+  - osis: 1Cor
+    texts:
+      - 1كُورِنتُوس
+      - 1كو
+  - osis: Eph
+    texts:
+      - أَفَسُس
+      - أف
+  - osis: Phil
+    texts:
+      - فِيلِبِّي
+      - في
+  - osis: 1Thess
+    texts:
+      - 1تسَلُونِيكِ
+      - 1تس
+  - osis: Jas
+    texts:
+      - يَعقُوب
+      - يع
+  - osis: 1Pet
+    texts:
+      - 1بُطرُس
+      - 1بط
+  - osis: 2Pet
+    texts:
+      - 2بُطرُس
+      - 2بط
+translations:
+  - JBN

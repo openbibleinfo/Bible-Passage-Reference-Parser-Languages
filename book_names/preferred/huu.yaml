@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: Primera Carta a los Corintios
+    short: 1 Co
+  1John:
+    long: Primera Carta de San Juan
+    short: 1 Jn
+  1Pet:
+    long: Primera Carta de San Pedro
+    short: 1 P
+  1Thess:
+    long: Primera Carta a los Tesalonicenses
+    short: 1 Te
+  1Tim:
+    long: Primera Carta a Timoteo
+    short: 1 Ti
+  2Cor:
+    long: Segunda Carta a los Corintios
+    short: 2 Co
+  2John:
+    long: Segunda Carta de San Juan
+    short: 2 Jn
+  2Pet:
+    long: Segunda Carta de San Pedro
+    short: 2 P
+  2Thess:
+    long: Segunda Carta a los Tesalonicenses
+    short: 2 Te
+  2Tim:
+    long: Segunda Carta a Timoteo
+    short: 2 Ti
+  3John:
+    long: Tercera Carta de San Juan
+    short: 3 Jn
+  Acts:
+    long: Hechos de los Apóstoles
+    short: Hch
+  Col:
+    long: Carta a los Colosenses
+    short: Col
+  Eph:
+    long: Carta a los Efesios
+    short: Ef
+  Gal:
+    long: Carta a los Gálatas
+    short: Gá
+  Heb:
+    long: Carta a los Hebreos
+    short: Heb
+  Jas:
+    long: Carta de Santiago
+    short: Stg
+  John:
+    long: San Juan
+    short: Jn
+  Jude:
+    long: Carta de San Judas
+    short: Jud
+  Luke:
+    long: San Lucas
+    short: Lc
+  Mark:
+    long: San Marcos
+    short: Mr
+  Matt:
+    long: San Mateo
+    short: Mt
+  Phil:
+    long: Carta a los Filipenses
+    short: Flp
+  Phlm:
+    long: Carta a Filemón
+    short: Flm
+  Rev:
+    long: Apocalipsis
+    short: Ap
+  Rom:
+    long: Carta a los Romanos
+    short: Rom
+  Titus:
+    long: Carta a Tito
+    short: Tit

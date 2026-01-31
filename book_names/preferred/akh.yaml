@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 Korind
+    short: 1 Kor
+  1John:
+    long: 1 Njon
+    short: 1 Njo
+  1Pet:
+    long: 1 Pita
+    short: 1 Pit
+  1Thess:
+    long: 1 Tesalonaka
+    short: 1 Tes
+  1Tim:
+    long: 1 Timoti
+    short: 1 Tim
+  2Cor:
+    long: 2 Korind
+    short: 2 Kor
+  2John:
+    long: 2 Njon
+    short: 2 Njo
+  2Pet:
+    long: 2 Pita
+    short: 2 Pit
+  2Thess:
+    long: 2 Tesalonaka
+    short: 2 Tes
+  2Tim:
+    long: 2 Timoti
+    short: 2 Tim
+  3John:
+    long: 3 Njon
+    short: 3 Njo
+  Acts:
+    long: Bismi Sao
+    short: Bis
+  Col:
+    long: Kolosi
+    short: Kol
+  Eph:
+    long: Ebeses
+    short: Ebe
+  Gal:
+    long: Kalesiya
+    short: Kal
+  Heb:
+    long: Nju Sem
+    short: NjuS
+  Jas:
+    long: Njemus
+    short: Nje
+  John:
+    long: Njon
+    short: Njo
+  Jude:
+    long: Njur
+    short: Njur
+  Luke:
+    long: Luk
+    short: Luk
+  Mark:
+    long: Mak
+    short: Mak
+  Matt:
+    long: Matiyu
+    short: Mat
+  Phil:
+    long: Pilipi
+    short: Pil
+  Phlm:
+    long: Pilimon
+    short: Pilm
+  Rev:
+    long: Kao Dund
+    short: Kao
+  Rom:
+    long: Orom
+    short: Oro
+  Titus:
+    long: Tatas
+    short: Tat

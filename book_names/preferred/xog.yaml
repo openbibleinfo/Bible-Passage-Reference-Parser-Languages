@@ -1,0 +1,232 @@
+default:
+  1Chr:
+    long: 1 Ebyomubyanda
+    short: 1 Byom
+  1Cor:
+    long: 1 Ab'e Korintho
+    short: 1 Kor
+  1John:
+    long: 1 Yoanne
+    short: 1 Yoa
+  1Kgs:
+    long: 1 Bakyabazinga
+    short: 1 Bakyab
+  1Macc:
+    long: 1 Abamakkabeo
+    short: 1 Bamak
+  1Pet:
+    long: 1 Petero
+    short: 1 Pet
+  1Sam:
+    long: 1 Samueli
+    short: 1 Sam
+  1Thess:
+    long: 1 Ab'e Thessalonika
+    short: 1 Thes
+  1Tim:
+    long: 1 Timotheo
+    short: 1 Tim
+  2Chr:
+    long: 2 Ebyomubyanda
+    short: 2 Byom
+  2Cor:
+    long: 2 Ab'e Korintho
+    short: 2 Kor
+  2John:
+    long: 2 Yoanne
+    short: 2 Yoa
+  2Kgs:
+    long: 2 Bakyabazinga
+    short: 2 Bakyab
+  2Macc:
+    long: 2 Abamakkabeo
+    short: 2 Bamak
+  2Pet:
+    long: 2 Petero
+    short: 2 Pet
+  2Sam:
+    long: 2 Samueli
+    short: 2 Sam
+  2Thess:
+    long: 2 Ab'e Thessalonika
+    short: 2 Thes
+  2Tim:
+    long: 2 Timotheo
+    short: 2 Tim
+  3John:
+    long: 3 Yoanne
+    short: 3 Yoa
+  Acts:
+    long: Ebikolwa By'Abatume
+    short: Bik
+  Amos:
+    long: Amosi
+    short: Amo
+  Bar:
+    long: Baruku
+    short: Bar
+  Bel:
+    long: Beli n'Ogusota
+    short: Bel
+  Col:
+    long: Ab'e Kolosai
+    short: Kol
+  Dan:
+    long: Danieli
+    short: Dan
+  Deut:
+    long: Amateeka Agokubiri
+    short: Ma
+  Eccl:
+    long: Omulangirizi
+    short: Mul
+  EpJer:
+    long: Embaluwa ya Yeremia
+    short: Mbal Yer
+  Eph:
+    long: Ab'Efeso
+    short: Efe
+  EsthGr:
+    long: Esitheri
+    short: Esit Lug
+  Exod:
+    long: Okuvaayo
+    short: Kuv
+  Ezek:
+    long: Ezekieli
+    short: Ezek
+  Ezra:
+    long: Ezera
+    short: Ezer
+  Gal:
+    long: Ab'e Galatia
+    short: Gal
+  Gen:
+    long: Amainhama
+    short: Mainh
+  Hab:
+    long: Habakkuku
+    short: Hab
+  Hag:
+    long: Haggai
+    short: Hag
+  Heb:
+    long: Abaheburayi
+    short: Heb
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Isaia
+    short: Isa
+  Jas:
+    long: Yakobo
+    short: Yak
+  Jdt:
+    long: Yuditha
+    short: Yudt
+  Jer:
+    long: Yeremia
+    short: Yer
+  Job:
+    long: Yobu
+    short: Yob
+  Joel:
+    long: Yoeli
+    short: Yoe
+  John:
+    long: Yoanne
+    short: Yoa
+  Jonah:
+    long: Yona
+    short: Yon
+  Josh:
+    long: Yoshua
+    short: Yosh
+  Jude:
+    long: Yuda
+    short: Yud
+  Judg:
+    long: Abalamuzi
+    short: Balam
+  Lam:
+    long: Okulira
+    short: Kul
+  Lev:
+    long: Abalevi
+    short: Lev
+  Luke:
+    long: Luka
+    short: Luk
+  Mal:
+    long: Malaki
+    short: Mal
+  Mark:
+    long: Mariko
+    short: Mar
+  Matt:
+    long: Matayo
+    short: Mat
+  Mic:
+    long: Mika
+    short: MiK
+  Nah:
+    long: Nahumu
+    short: Nah
+  Neh:
+    long: Nehemia
+    short: Neh
+  Num:
+    long: Okubala
+    short: Kub
+  Obad:
+    long: Obadia
+    short: Obad
+  Phil:
+    long: Ab'e Filippi
+    short: Fil
+  Phlm:
+    long: Filemoni
+    short: Filem
+  PrAzar:
+    long: Okusaba kwa Azaria
+    short: Kus 3 Bais
+  Prov:
+    long: Ensambo
+    short: Nsa
+  Ps:
+    long: Zabbuli
+    short: Zab
+  Rev:
+    long: Okwolekebwa
+    short: Kwol
+  Rom:
+    long: Ab'e Roma
+    short: Rom
+  Ruth:
+    long: Ruthi
+    short: Ru
+  Sir:
+    long: Siraki
+    short: Sir
+  Song:
+    long: Olwembo
+    short: Lwe
+  Sus:
+    long: Susanna
+    short: Sus
+  Titus:
+    long: Tito
+    short: Tit
+  Tob:
+    long: Tobiti
+    short: Tob
+  Wis:
+    long: Amagezi ga Solomoni
+    short: Mag
+  Zech:
+    long: Zekaria
+    short: Zek
+  Zeph:
+    long: Zefania
+    short: Zef

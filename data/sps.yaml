@@ -1,0 +1,150 @@
+variables:
+  first: &first
+    - "1"
+    - Vaamuan
+  second: &second
+    - "2"
+    - Fafuan
+books:
+  - osis: Gen
+    texts:
+      - Jenesis
+      - Jen
+  - osis: Rev
+    texts:
+      - Vegiaun Tapokaa
+      - Vt
+  - osis: Josh
+    texts:
+      - Josua
+      - Jos
+  - osis: Matt
+    texts:
+      - Matiu
+      - Mt
+  - osis: Mark
+    texts:
+      - Mak
+      - Mk
+  - osis: Luke
+    texts:
+      - Luke
+      - Lk
+  - osis: 1John
+    texts:
+      - 1Jn
+  - osis: 2John
+    texts:
+      - 2Jn
+  - osis: 3John
+    texts:
+      - Fafofopis Jon
+      - 3Jn
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jon
+  - osis: John
+    texts:
+      - Jon
+      - Jn
+  - osis: Acts
+    texts:
+      - Binun Tan Amaraav
+      - Am
+  - osis: Rom
+    texts:
+      - Roum
+      - Rm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korin
+  - osis: 1Cor
+    texts:
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - 2Ko
+  - osis: Col
+    texts:
+      - Kolosi
+      - Kol
+  - osis: Gal
+    texts:
+      - Galesia
+      - Ga
+  - osis: Eph
+    texts:
+      - Efeses
+      - Ef
+  - osis: Phil
+    texts:
+      - Filipai
+      - Fp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonaika
+  - osis: 1Thess
+    texts:
+      - 1Te
+  - osis: 2Thess
+    texts:
+      - 2Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Taitus
+      - Tai
+  - osis: Phlm
+    texts:
+      - Filimon
+      - Fm
+  - osis: Heb
+    texts:
+      - Hiburu
+      - Hi
+  - osis: Jas
+    texts:
+      - Jemis
+      - Je
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+  - osis: 1Pet
+    texts:
+      - 1Pi
+  - osis: 2Pet
+    texts:
+      - 2Pi
+  - osis: Jude
+    texts:
+      - Jut
+translations:
+  - SPSNTPO

@@ -1,0 +1,227 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Ap'u
+  - osis: Exod
+    texts:
+      - Avruh
+  - osis: Lev
+    texts:
+      - Livai
+  - osis: Num
+    texts:
+      - Nut Kaka
+  - osis: Lam
+    texts:
+      - Tklien
+  - osis: Rev
+    texts:
+      - Revelesen
+      - Rev
+  - osis: Deut
+    texts:
+      - Tv'el V'nen Hua
+      - Tvh
+  - osis: Josh
+    texts:
+      - Susua
+  - osis: Judg
+    texts:
+      - Mlin Avv'ana Hua
+      - Mah
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis: Isa
+    texts:
+      - Aisaia
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuil
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Armlin
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Krunikel
+      - Krun
+  - osis: Ezra
+    texts:
+      - Esra
+  - osis: Neh
+    texts:
+      - Niamaia
+  - osis: Esth
+    texts:
+      - Esta
+  - osis: Job
+    texts:
+      - Sup
+  - osis: Ps
+    texts:
+      - Npin
+  - osis: Eccl
+    texts:
+      - Dui Ivrp'ep'a V'nen
+      - Div
+  - osis: Prov
+    texts:
+      - V'nen Avrndaui
+      - V'nen
+  - osis: Song
+    texts:
+      - Npinan a Sulumun
+      - Nas
+  - osis: Jer
+    texts:
+      - Seremaia
+  - osis: Ezek
+    texts:
+      - Esikiel
+  - osis: Dan
+    texts:
+      - Taniel
+  - osis: Hos
+    texts:
+      - Usia
+  - osis: Joel
+    texts:
+      - Suil
+  - osis: Amos
+    texts:
+      - Emus
+  - osis: Obad
+    texts:
+      - Upataia
+  - osis: Jonah
+    texts:
+      - Suna
+  - osis: Mic
+    texts:
+      - Maika
+  - osis: Nah
+    texts:
+      - Nehum
+  - osis: Hab
+    texts:
+      - Apakuk
+  - osis: Zeph
+    texts:
+      - Sevanaia
+      - Sev
+  - osis: Hag
+    texts:
+      - Akai
+  - osis: Zech
+    texts:
+      - Sekaraia
+      - Sek
+  - osis: Mal
+    texts:
+      - Malakai
+      - Mal
+  - osis: Matt
+    texts:
+      - Matiu
+      - Mat
+  - osis: Mark
+    texts:
+      - Mak
+  - osis: Luke
+    texts:
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Sun
+  - osis: Acts
+    texts:
+      - Parei
+  - osis: Rom
+    texts:
+      - Rum
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kurin
+  - osis: Col
+    texts:
+      - Kulusi
+  - osis: Gal
+    texts:
+      - Kalesia
+  - osis: Eph
+    texts:
+      - Evases
+  - osis: Phil
+    texts:
+      - Vilipai
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalunaika
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timuti
+      - Tim
+  - osis: Titus
+    texts:
+      - Taitas
+  - osis: Phlm
+    texts:
+      - Vailimun
+  - osis: Heb
+    texts:
+      - Isrel
+  - osis: Jas
+    texts:
+      - Sim'is
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - P'ita
+  - osis: Jude
+    texts:
+      - Sut
+translations:
+  - NMB

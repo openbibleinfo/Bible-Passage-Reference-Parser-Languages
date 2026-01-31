@@ -1,0 +1,401 @@
+variables:
+  first: &first
+    - "1"
+    - I
+  second: &second
+    - "2"
+    - II
+books:
+  - osis: Gen
+    texts:
+      - ᒨᓯᓯ ᓯᕗᓪᓖᑦ
+      - Genesis
+      - Gen.
+  - osis: Exod
+    texts:
+      - ᒨᓯᓯ ᐂᑉᐸᖏᑦ
+      - Exodus
+      - Ex.
+  - osis: Lev
+    texts:
+      - Leviticus
+      - ᒨᓯᓯ ᐱᖓᔪᖏᑦ
+      - Lev.
+  - osis: Num
+    texts:
+      - ᒨᓯᓯ ᓯᑕᒪᖏᑦ
+      - Numbers
+      - Num.
+  - osis: Lam
+    texts:
+      - Jeremiab Ogguarutigijangit
+      - ᔨᕆᒤᐊᐅᑉ ᐅᒡᒍᐊᕐᓂᖏᑦ
+      - ᐅᒡᒍᐊᕐᓃᑦ
+  - osis: Rev
+    texts:
+      - Takotitaunermik
+      - ᔪᐊᓇᓯᐅᑉ ᑕᑯᑎᑕᐅᓂᖏᑦ
+      - Takot.
+      - ᑕᑯᑎ
+  - osis: Deut
+    texts:
+      - Deuteronomy
+      - ᒨᓯᓯ ᑕᓪᓕᒪᖏᑦ
+      - Deut.
+  - osis: Josh
+    texts:
+      - ᔮᓱᐊᑉ ᐊᒡᓚᖏᑦ
+      - Josua
+      - Jos.
+      - ᔮᓱᐊ
+  - osis: Judg
+    texts:
+      - ᐃᓗᐊᕐᓮᔩᑦ ᐊᒡᓚᖏᑦ
+      - Idluarsaijut
+      - ᐃᓗᐊᕐᓮᔩᑦ
+      - Idl.
+  - osis: Ruth
+    texts:
+      - ᕉᑎᐅᑉ ᐅᓂᒃᑲᐅᓯᓂᖓ
+      - Ruth
+      - ᕉᑎᐅᑉ
+  - osis: Isa
+    texts:
+      - ᐂᓮᐊᓯᐅᑉ ᐊᒡᓚᖏᑦ
+      - Jesaiase
+      - Jes.
+      - ᐂᓮᐊᓯ
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - Sam.
+  - osis: 1Sam
+    texts:
+      - ᓴᒧᐃᓕ ᓯᕗᓪᓖᑦ
+  - osis: 2Sam
+    texts:
+      - ᓴᒧᐃᓕ ᐂᑉᐸᖏᑦ
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Atannit
+      - Atan.
+  - osis: 1Kgs
+    texts:
+      - ᐊᑕᓃᑦ ᓯᕗᓪᓖᑦ
+  - osis: 2Kgs
+    texts:
+      - ᐊᑕᓃᑦ ᐂᑉᐸᖏᑦ
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Kronika
+  - osis: 1Chr
+    texts:
+      - ᑯᕉᓂᑲ ᓯᕗᓪᓖᑦ
+  - osis: 2Chr
+    texts:
+      - ᑯᕉᓂᑲ ᐂᑉᐸᖏᑦ
+  - osis: Ezra
+    texts:
+      - ᐄᓱᕋᐅᑉ ᐊᒡᓚᖏᑦ
+      - Esra
+      - ᐄᓱᕋ
+  - osis: Neh
+    texts:
+      - ᓂᕼᐃᒤᐊᐅᑉ ᐊᒡᓚᖏᑦ
+      - Nehemia
+      - ᓂᕼᐃᒤᐊ
+  - osis: Esth
+    texts:
+      - ᐃᔅᑕᐅᑉ ᐊᒡᓚᖏᑦ
+      - Ester
+      - ᐃᔅᑕᕐ
+  - osis: Job
+    texts:
+      - ᔫᐱᐅᑉ ᐊᒡᓚᖏᑦ
+      - Hiobe.
+      - Hiobe
+      - ᔫᐱ
+  - osis: Ps
+    texts:
+      - Imgerut
+      - ᐃᓐᖏᕈᑎᑦ
+      - ᐃᓐᖏᕈᑦ
+      - Img.
+  - osis: Prov
+    texts:
+      - ᓲᓗᒨᓂᐅᑉ ᐅᖃᓪᓚᖕᓂᖏᑦ
+      - Salomob Okâl
+      - Sal. oᴋâl.
+      - ᓲᓗᒨᓂ
+  - osis: Eccl
+    texts:
+      - ᐃᓕᓯᒪᓃᑦ ᐃᒃᓖᓯᐊᓯᑏᔅ
+      - Okaluktok
+      - ᐃᒃᓕᓯᐊᔅᑏᔅ
+  - osis: Song
+    texts:
+      - ᓲᓗᒨᓂᐅᑉ ᐃᓐᖏᕈᓯᖏᑦ
+      - Imgerusersoak
+      - ᐃᓐᖏᕈᓰᑦ
+  - osis: Jer
+    texts:
+      - ᔨᕆᒤᐊᐅᑉ ᐊᒡᓚᖏᑦ
+      - Jeremia
+      - Jer.
+      - ᔨᕆᒤᐊ
+  - osis: Ezek
+    texts:
+      - ᐃᓯᑭᐊᓕᐅᑉ ᐊᒡᓚᖏᑦ
+      - Hesekiel
+      - ᐃᓯᑭᐊᓕ
+      - Hes.
+  - osis: Dan
+    texts:
+      - ᑖᓂᐊᓕᐅᑉ ᐊᒡᓚᖏᑦ
+      - Daniel
+      - ᑖᓂᐊᓕ
+  - osis: Hos
+    texts:
+      - ᕼᐆᓯᐊᑉ ᐊᒡᓚᖏᑦ
+      - Hosea
+      - Hos.
+      - ᕼᐆᓯᐊ
+  - osis: Joel
+    texts:
+      - ᔪᐃᓕᐅᑉ ᐊᒡᓚᖏᑦ
+      - Joel
+      - ᔪᐃᓕ
+  - osis: Amos
+    texts:
+      - ᐂᒨᓯᐅᑉ ᐊᒡᓚᖏᑦ
+      - Amos
+      - ᐂᒨᓯ
+  - osis: Obad
+    texts:
+      - ᐅᐸᑍᐊᑉ ᐊᒡᓚᖏᑦ
+      - Obadia
+      - ᐅᐸᑍᐊ
+  - osis: Jonah
+    texts:
+      - ᔫᓇᐅᑉ ᐊᒡᓚᖏᑦ
+      - Jona
+      - ᔫᓇ
+  - osis: Mic
+    texts:
+      - ᒤᑲᐅᑉ ᐊᒡᓚᖏᑦ
+      - Migga
+      - ᒤᑲ
+  - osis: Nah
+    texts:
+      - ᓇᕼᐅᒥᐅᑉ ᐊᒡᓚᖏᑦ
+      - Nahum
+      - ᓇᕼᐅᒥ
+  - osis: Hab
+    texts:
+      - ᕼᐊᐸᑲᐅᑉ ᐊᒡᓚᖏᑦ
+      - Habakûb
+      - Hab.
+      - ᕼᐊᐸᑲ
+  - osis: Zeph
+    texts:
+      - ᔨᐸᓁᐊᐅᑉ ᐊᒡᓚᖏᑦ
+      - Sefania
+      - ᔨᐸᓁᐊ
+  - osis: Hag
+    texts:
+      - ᕼᐊᒊᑉ ᐊᒡᓚᖏᑦ
+      - Haggai
+      - Hagg.
+      - ᕼᐊᒊ
+  - osis: Zech
+    texts:
+      - ᓴᑲᕅᐊᐅᑉ ᐊᒡᓚᖏᑦ
+      - Saggaria
+      - Sagg.
+      - ᓴᑲᕅᐊ
+  - osis: Mal
+    texts:
+      - ᒪᓚᑬᑉ ᐊᒡᓚᖏᑦ
+      - Mâlaki
+      - Mal.
+      - ᒪᓚᑬ
+  - osis: Matt
+    texts:
+      - Maatiusiup Aglangit
+      - ᒫᑎᐅᓯᐅᑉ ᐊᒡᓚᖏᑦ
+      - Maatiusi
+      - Mattêuse
+      - Matt.
+      - ᒫᑎᐅᓯ
+  - osis: Mark
+    texts:
+      - Maakusiup Aglangit
+      - ᒫᑯᓯᐅᑉ ᐊᒡᓚᖏᑦ
+      - Maakusi
+      - Markuse
+      - Mark.
+      - ᒫᑯᓯ
+  - osis: Luke
+    texts:
+      - Luukasiup Aglangit
+      - ᓘᑲᓯᐅᑉ ᐊᒡᓚᖏᑦ
+      - Luukasi
+      - Lukase
+      - Luk.
+      - ᓘᑲᓯ
+  - osis: 1John
+    texts:
+      - ᔪᐊᓇᓯ ᓯᕗᓪᓖᑦ
+  - osis: 2John
+    texts:
+      - ᔪᐊᓇᓯᐅᑉ ᐂᑉᐸᖏᑦ
+  - osis: 3John
+    texts:
+      - III Johannesib
+      - ᔪᐊᓇᓯᐅᑉ ᐱᖓᔪᖏᑦ
+      - 3 ᔪᐊᓇᓯ
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Johannesib
+      - ᔪᐊᓇᓯ
+  - osis: John
+    texts:
+      - Juanasiup Aglangit
+      - ᔪᐊᓇᓯᐅᑉ ᐊᒡᓚᖏᑦ
+      - Johannese
+      - Juanasi
+      - Joh.
+      - ᔪᐊᓇᓯ
+  - osis: Acts
+    texts:
+      - Apostelit Piniarningit
+      - ᐋᐴᓯᑕᓖᑦ ᐱᓂᐊᕐᓂᖏᑦ
+      - Ap. pin.
+      - ᐋᐴᓯᑕᓖᑦ
+  - osis: Rom
+    texts:
+      - Rômiunut
+      - ᕉᒪᒥᐅᓄᑦ
+      - Rom.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintemiunut
+      - Kor.
+      - ᑯᕆᓐᑎ
+  - osis: 1Cor
+    texts:
+      - ᑯᕆᓐᑎᐊᒥᐅᓄᑦ ᓯᕗᓪᓖᑦ
+  - osis: 2Cor
+    texts:
+      - ᑯᕆᓐᑎᐊᒥᐅᓄᑦ ᐂᑉᐸᖏᑦ
+  - osis: Col
+    texts:
+      - Kolossamiunut
+      - ᑯᓘᓯᐊᒥᐅᓄᑦ
+      - ᑯᓘᓯ
+  - osis: Gal
+    texts:
+      - Galâtsiamiunut
+      - ᒐᓔᑎᐊᒥᐅᓄᑦ
+      - ᒐᓔᑎ
+  - osis: Eph
+    texts:
+      - Efêsusemiunut
+      - ᐃᐱᓯᒥᐅᓄᑦ
+      - ᐃᐱᓯ
+  - osis: Phil
+    texts:
+      - Filippimiunut
+      - ᐱᓕᐱᒥᐅᓄᑦ
+      - ᐱᓕᐱ
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tessalônikamiunut
+      - ᑎᓴᓗᓁ
+  - osis: 1Thess
+    texts:
+      - ᑎᓴᓗᓁᑲᒥᐅᓄᑦ ᓯᕗᓪᓖᑦ
+  - osis: 2Thess
+    texts:
+      - ᑎᓴᓗᓁᑲᒥᐅᓄᑦ ᐂᑉᐸᖏᑦ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timôteusemut
+      - ᑎᒧᑎ
+  - osis: 1Tim
+    texts:
+      - ᑎᒧᑎᒧᑦ ᓯᕗᓪᓖᑦ
+  - osis: 2Tim
+    texts:
+      - ᑎᒧᑎᒧᑦ ᐂᑉᐸᖏᑦ
+  - osis: Titus
+    texts:
+      - Titusemut
+      - ᑍᑑᓯᒧᑦ
+      - ᑍᑑᓯᑦ
+  - osis: Phlm
+    texts:
+      - Filemônemut
+      - ᐰᓕᒨᓂᒧᑦ
+      - ᐰᓕᒨ
+  - osis: Heb
+    texts:
+      - Ebrêerinut
+      - ᐄᑉᕈᐃᓄᑦ
+      - Ebr.
+  - osis: Jas
+    texts:
+      - ᔧᒥᓯᐅᑉ ᐊᒡᓚᖏᑦ
+      - Jâkobusib
+      - ᔧᒥᓯ
+  - osis: 1Pet
+    texts:
+      - ᐲᑦᑐᕉᓯ ᓯᕗᓪᓖᑦ
+  - osis: 2Pet
+    texts:
+      - ᐲᑦᑐᕉᓯ ᐂᑉᐸᖏᑦ
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pêtrusib
+      - Petr.
+      - ᐲᑦᑐᕉᓯ
+  - osis: Jude
+    texts:
+      - ᔫᑎᐅᑉ ᐊᒡᓚᖏᑦ
+      - Jûdasib
+      - ᔫᑎᐅᑉ
+translations:
+  - EAIBR
+  - EAIB

@@ -1,0 +1,113 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Dionibai
+      - Dionib
+  - osis: Matt
+    texts:
+      - Madiu
+      - Mad
+  - osis: Mark
+    texts:
+      - Maki
+      - Mak
+  - osis: Luke
+    texts:
+      - Ruki
+      - Ruk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Dioni
+      - Dion
+  - osis: Acts
+    texts:
+      - Afasoro
+      - Afa
+  - osis: Rom
+    texts:
+      - Romani
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinida
+      - Kor
+  - osis: Col
+    texts:
+      - Korose
+      - Kor
+  - osis: Gal
+    texts:
+      - Gareisia
+      - Gar
+  - osis: Eph
+    texts:
+      - Efesa
+      - Efe
+  - osis: Phil
+    texts:
+      - Firifai
+      - Fir
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Desoronaika
+      - Des
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Dimodi
+      - Dim
+  - osis: Titus
+    texts:
+      - Daidasi
+      - Daid
+  - osis: Phlm
+    texts:
+      - Fairimoni
+      - Frm
+  - osis: Heb
+    texts:
+      - Iburu
+      - Ibu
+  - osis: Jas
+    texts:
+      - Deimisi
+      - Deim
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Fida
+      - Fid
+  - osis: Jude
+    texts:
+      - Diude
+      - Diud
+translations:
+  - ABY

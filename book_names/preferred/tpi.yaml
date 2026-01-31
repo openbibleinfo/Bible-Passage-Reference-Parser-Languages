@@ -1,0 +1,239 @@
+default:
+  1Chr:
+    long: 1 Stori
+    short: 1 Sto
+  1Cor:
+    long: 1 Korin
+    short: 1 Ko
+  1John:
+    long: 1 Jon
+    short: 1 Jo
+  1Kgs:
+    long: 1 King
+    short: 1 Kin
+  1Macc:
+    long: 1 Makabi
+    short: 1 Mkb
+  1Pet:
+    long: 1 Pita
+    short: 1 Pi
+  1Sam:
+    long: 1 Samuel
+    short: 1 Sml
+  1Thess:
+    long: 1 Tesalonaika
+    short: 1 Te
+  1Tim:
+    long: 1 Timoti
+    short: 1 Ti
+  2Chr:
+    long: 2 Stori
+    short: 2 Sto
+  2Cor:
+    long: 2 Korin
+    short: 2 Ko
+  2John:
+    long: 2 Jon
+    short: 2 Jo
+  2Kgs:
+    long: 2 King
+    short: 2 Kin
+  2Macc:
+    long: 2 Makabi
+    short: 2 Mkb
+  2Pet:
+    long: 2 Pita
+    short: 2 Pi
+  2Sam:
+    long: 2 Samuel
+    short: 2 Sml
+  2Thess:
+    long: 2 Tesalonaika
+    short: 2 Te
+  2Tim:
+    long: 2 Timoti
+    short: 2 Ti
+  3John:
+    long: 3 Jon
+    short: 3 Jo
+  Acts:
+    long: Aposel
+    short: Ap
+  Amos:
+    long: Amos
+    short: Amo
+  Bar:
+    long: Baruk
+    short: Bar
+  Bel:
+    long: Bel na Bikpela Snek
+    short: Bel
+  Col:
+    long: Kolosi
+    short: Kl
+  Dan:
+    long: Daniel
+    short: Dan
+  Deut:
+    long: Lo
+    short: Lo
+  Eccl:
+    long: Saveman
+    short: Sav
+  EpJer:
+    long: Pas bilong Jeremaia
+    short: Pbj
+  Eph:
+    long: Efesus
+    short: Ef
+  Esth:
+    long: Esta
+    short: Est
+  EsthGr:
+    long: Esta Grik
+    short: EsG
+  Exod:
+    long: Kisim Bek
+    short: Kis
+  Ezek:
+    long: Esekiel
+    short: Ese
+  Ezra:
+    long: Esra
+    short: Esr
+  Gal:
+    long: Galesia
+    short: Ga
+  Gen:
+    long: Stat
+    short: Stt
+  Hab:
+    long: Habakuk
+    short: Hab
+  Hag:
+    long: Hagai
+    short: Hag
+  Heb:
+    long: Hibru
+    short: Hi
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Aisaia
+    short: Ais
+  Jas:
+    long: Jems
+    short: Je
+  Jdt:
+    long: Judit
+    short: Jdt
+  Jer:
+    long: Jeremaia
+    short: Jer
+  Job:
+    long: Jop
+    short: Jop
+  Joel:
+    long: Joel
+    short: Jol
+  John:
+    long: Jon
+    short: Jo
+  Jonah:
+    long: Jona
+    short: Jna
+  Josh:
+    long: Josua
+    short: Jos
+  Jude:
+    long: Jut
+    short: Ju
+  Judg:
+    long: Hetman
+    short: Het
+  Lam:
+    long: Krai
+    short: Kra
+  Lev:
+    long: Wok Pris
+    short: Wkp
+  Luke:
+    long: Luk
+    short: Lu
+  Mal:
+    long: Malakai
+    short: Mal
+  Mark:
+    long: Mak
+    short: Mk
+  Matt:
+    long: Matyu
+    short: Mt
+  Mic:
+    long: Maika
+    short: Mai
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nehemia
+    short: Neh
+  Num:
+    long: Namba
+    short: Nam
+  Obad:
+    long: Obadia
+    short: Oba
+  Phil:
+    long: Filipai
+    short: Fl
+  Phlm:
+    long: Filemon
+    short: Fm
+  PrAzar:
+    long: Tripela Yangpela Man
+    short: TYM
+  Prov:
+    long: Gutpela Sindaun
+    short: Snd
+  Ps:
+    long: Buk Song
+    short: Sng
+  Rev:
+    long: Kamapim Tok Hait
+    short: Kth
+  Rom:
+    long: Rom
+    short: Ro
+  Ruth:
+    long: Rut
+    short: Rut
+  Sir:
+    long: Sirak
+    short: Sir
+  Song:
+    long: Solomon
+    short: Sol
+  Sus:
+    long: Susana
+    short: Sus
+  Titus:
+    long: Taitus
+    short: Ta
+  Tob:
+    long: Tobit
+    short: Tob
+  Wis:
+    long: Gutpela Stretpela Tingting
+    short: Gst
+  Zech:
+    long: Sekaraia
+    short: Sek
+  Zeph:
+    long: Sefanaia
+    short: Sef
+translations:
+  tpipng:
+    3John:
+      short: 3 Jo 1.

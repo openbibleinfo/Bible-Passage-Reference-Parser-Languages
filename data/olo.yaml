@@ -1,0 +1,135 @@
+variables:
+  first: &first
+    - "1"
+    - Enzimäine
+  second: &second
+    - "2"
+    - "2."
+    - Toine
+books:
+  - osis: Rev
+    texts:
+      - Jiävindy Iivanale
+      - Jiäv.
+  - osis: Matt
+    texts:
+      - Matfei
+      - Matf.
+  - osis: Mark
+    texts:
+      - Mark.
+      - Marku
+  - osis: Luke
+    texts:
+      - Luk.
+      - Luka
+  - osis: 1John
+    texts:
+      - Iivanan enzimäine kirjaine
+  - osis: 2John
+    texts:
+      - Iivanan toine kirjaine
+  - osis: 3John
+    texts:
+      - Iivanan kolmas kirjaine
+      - 3 Iiv.
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Iiv.
+  - osis: John
+    texts:
+      - Iivan
+      - Iiv.
+  - osis: Acts
+    texts:
+      - Apostoloin ruavot
+      - Ap.r.
+  - osis: Rom
+    texts:
+      - Kirjaine riimalazile
+      - Riim.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - kirjaine korinfalazile
+      - Kor.
+  - osis: Col
+    texts:
+      - Kirjaine kolossalazile
+      - Kol.
+  - osis: Gal
+    texts:
+      - Kirjaine galatalazile
+      - Gal.
+  - osis: Eph
+    texts:
+      - Kirjaine efesalazile
+      - Ef.
+  - osis: Phil
+    texts:
+      - Kirjaine filippalazile
+      - Fil.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - kirjaine fessalonikalazile
+      - Fess.
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - kirjaine Timofeile
+  - osis: 1Tim
+    texts:
+      - 1. Tim.
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - kirjaine Timofeile
+      - Tim.
+  - osis: Titus
+    texts:
+      - Kirjaine Tiitale
+      - Tiit.
+  - osis: Phlm
+    texts:
+      - Kirjaine Filimonale
+      - Filim.
+  - osis: Heb
+    texts:
+      - Kirjaine jevreilöile
+      - Jevr.
+  - osis: Jas
+    texts:
+      - Juakoin kirjaine
+      - Juak.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pedr.
+  - osis: 1Pet
+    texts:
+      - Pedrin enzimäine kirjaine
+  - osis: 2Pet
+    texts:
+      - Pedrin toine kirjaine
+  - osis: Jude
+    texts:
+      - Juudan kirjaine
+      - Juud.
+translations:
+  - LIVVI

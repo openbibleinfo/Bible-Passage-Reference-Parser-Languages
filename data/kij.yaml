@@ -1,0 +1,268 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Vitouula
+      - Vit
+  - osis: Exod
+    texts:
+      - Sunapula
+      - Sun
+  - osis: Lev
+    texts:
+      - Tolula
+      - Tol
+  - osis: Num
+    texts:
+      - Kala Bawa
+      - Baw
+  - osis: Lam
+    texts:
+      - Kavinavina
+      - Kav
+  - osis: Rev
+    texts:
+      - Yoni Igisimlili
+      - Yg
+  - osis: Deut
+    texts:
+      - Karaiwaga Kwaiyuwela
+      - Kak
+  - osis: Josh
+    texts:
+      - Yosuwa
+      - Yos
+  - osis: Judg
+    texts:
+      - Tokwaraiwaga
+      - Tok
+  - osis: Ruth
+    texts:
+      - Ruti
+      - Rut
+  - osis: Isa
+    texts:
+      - Aisea
+      - Ais
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samwela
+      - Sml
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Gweguya
+      - Gwe
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Liliu
+      - Lil
+  - osis: Ezra
+    texts:
+      - Esira
+      - Esi
+  - osis: Neh
+    texts:
+      - Niemaia
+      - Nie
+  - osis: Esth
+    texts:
+      - Esiteri
+      - Est
+  - osis: Job
+    texts:
+      - Yobi
+      - Yob
+  - osis: Ps
+    texts:
+      - Sam
+  - osis: Prov
+    texts:
+      - Bigivakala
+      - Big
+  - osis: Eccl
+    texts:
+      - Toguguya
+      - Tog
+  - osis: Song
+    texts:
+      - Solomoni Kala Wosi
+      - Skw
+  - osis: Jer
+    texts:
+      - Yeremaia
+      - Yer
+  - osis: Ezek
+    texts:
+      - Isikeli
+      - Isi
+  - osis: Dan
+    texts:
+      - Daniela
+      - Dan
+  - osis: Hos
+    texts:
+      - Osia
+      - Osi
+  - osis: Joel
+    texts:
+      - Yoweli
+      - Yoe
+  - osis: Amos
+    texts:
+      - Emosi
+      - Emo
+  - osis: Obad
+    texts:
+      - Obedaia
+      - Obe
+  - osis: Jonah
+    texts:
+      - Youna
+      - You
+  - osis: Mic
+    texts:
+      - Maika
+      - Mai
+  - osis: Nah
+    texts:
+      - Neum
+      - Neu
+  - osis: Hab
+    texts:
+      - Abakuki
+      - Aba
+  - osis: Zeph
+    texts:
+      - Sepanaia
+      - Sep
+  - osis: Hag
+    texts:
+      - Agai
+      - Aga
+  - osis: Zech
+    texts:
+      - Sekaraia
+      - Sek
+  - osis: Mal
+    texts:
+      - Malakai
+      - Mal
+  - osis: Matt
+    texts:
+      - Madiu
+      - Md
+  - osis: Mark
+    texts:
+      - Maka
+      - Mk
+  - osis: Luke
+    texts:
+      - Luka
+      - Lk
+  - osis: 3John
+    texts:
+      - 3 Yoni
+      - 3 Tn
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yoni
+      - Yn
+  - osis: Acts
+    texts:
+      - Si Vavagi Aposetolo
+      - Va
+  - osis: Rom
+    texts:
+      - Roum
+      - Rm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinita
+      - Kr
+  - osis: Col
+    texts:
+      - Kolosai
+      - Kl
+  - osis: Gal
+    texts:
+      - Galetia
+      - Gl
+  - osis: Eph
+    texts:
+      - Epeso
+      - Ep
+  - osis: Phil
+    texts:
+      - Pilipai
+      - Pl
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonaika
+      - Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+      - Tm
+  - osis: Titus
+    texts:
+      - Taito
+      - Tt
+  - osis: Phlm
+    texts:
+      - Pilimoni
+      - Pm
+  - osis: Heb
+    texts:
+      - Iberu
+      - Ib
+  - osis: Jas
+    texts:
+      - Yemesa
+      - Ym
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+      - Pt
+  - osis: Jude
+    texts:
+      - Yuda
+      - Yd
+translations:
+  - PNGKIR

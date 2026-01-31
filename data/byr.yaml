@@ -1,0 +1,117 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Jenɨzɨzɨ
+      - Jen
+  - osis: Rev
+    texts:
+      - Wɨjalangasakyaꞌ
+      - Wj
+  - osis: Matt
+    texts:
+      - Matɨyui
+      - Mt
+  - osis: Mark
+    texts:
+      - Maakɨ
+      - Mk
+  - osis: Luke
+    texts:
+      - Lukɨ
+      - Lk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jonɨ
+      - Jn
+  - osis: Acts
+    texts:
+      - Apozelɨyara
+      - Ap
+  - osis: Rom
+    texts:
+      - Romɨ
+      - Rm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Koridɨ
+      - Ko
+  - osis: Col
+    texts:
+      - Kolozi
+      - Kl
+  - osis: Gal
+    texts:
+      - Galezɨya
+      - Gl
+  - osis: Eph
+    texts:
+      - Epazaazɨ
+      - Ep
+  - osis: Phil
+    texts:
+      - Pilipaai
+      - Pl
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tezalonaaika
+      - Tz
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+      - Tm
+  - osis: Titus
+    texts:
+      - Taaitazai
+      - Tt
+  - osis: Phlm
+    texts:
+      - Paailimonɨ
+      - Plm
+  - osis: Heb
+    texts:
+      - Yɨvɨru
+      - Yv
+  - osis: Jas
+    texts:
+      - Jemɨzai
+      - Jm
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pitai
+      - Pt
+  - osis: Jude
+    texts:
+      - Juthɨyai
+      - Jth
+translations:
+  - BYR

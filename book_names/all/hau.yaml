@@ -1,0 +1,491 @@
+- osis: Gen
+  texts:
+    - ڢَارَوَ
+    - Farawa
+    - ڢَارْ
+    - Far
+- osis: Exod
+  texts:
+    - ڢِتُواْوَ
+    - Fitowa
+    - ڢِتْ
+    - Fit
+- osis: Lev
+  texts:
+    - ڢِرِسْتُواْثِے
+    - Firistoci
+    - لِـ ڢِرْ
+    - L.Fir
+    - Fir
+- osis: Num
+  texts:
+    - لِـ ڧِدْ
+    - ڧِدَايَ
+    - Ƙidaya
+    - L.Ƙid
+    - Ƙid
+- osis: Lam
+  texts:
+    - مَكُواْكِ
+    - مَكُواْ
+    - Makoki
+    - Mak
+- osis: Rev
+  texts:
+    - رُعُيَرْ دَ عَكَيِ وَ يَحْيَى
+    - Ruʼuya ta Yohanna
+    - رُعُيَ
+    - R Yoh
+    - W.Yah
+- osis: Deut
+  texts:
+    - مَيْمَيْتَاوَرْ شَرِيعَ
+    - Maimaitawar Shariʼa
+    - مَيْ شَـ
+    - M Sh
+    - M.Sh
+- osis: Josh
+  texts:
+    - يُواْشُوَ
+    - Yoshuwa
+    - يُواشْ
+    - Josh
+    - Yosh
+- osis: Judg
+  texts:
+    - أَلْڧَلَيْ
+    - Mahukunta
+    - أَلْڧَ
+    - L.Mah
+    - Mah
+- osis: Ruth
+  texts:
+    - رُوتْ
+    - Rut
+- osis: Isa
+  texts:
+    - عِشَايَ
+    - Ishaya
+    - عِشـ
+    - Ish
+- osis: 1Sam
+  texts:
+    - 1 سَمَٰعِيلَ
+    - 1 Samaʼila
+    - 1 سَمْ
+    - 1. سَمَٰعِيلَ
+    - 1. Samaʼila
+    - 1. سَمْ
+- osis: 2Sam
+  texts:
+    - 2 سَمَٰعِيلَ
+    - 2 Samaʼila
+    - 2 سَمْ
+    - 2. سَمَٰعِيلَ
+    - 2. Samaʼila
+    - 2. سَمْ
+- osis: 1Sam
+  texts:
+    - 1Sam
+- osis: 2Sam
+  texts:
+    - 2Sam
+- osis: 1Kgs
+  texts:
+    - 1 سَرَاكُنَ
+    - 1 Sarakuna
+    - 1 سَرْ
+    - 1. سَرَاكُنَ
+    - 1. Sarakuna
+    - 1. سَرْ
+- osis: 2Kgs
+  texts:
+    - 2 سَرَاكُنَ
+    - 2 Sarakuna
+    - 2 سَرْ
+    - 2. سَرَاكُنَ
+    - 2. Sarakuna
+    - 2. سَرْ
+- osis: 1Kgs
+  texts:
+    - 1Sar
+- osis: 2Kgs
+  texts:
+    - 2Sar
+- osis: 1Chr
+  texts:
+    - 1 تَارِيحِ
+    - 1 Tarihi
+    - 1 تَارْ
+    - 1. تَارِيحِ
+    - 1. Tarihi
+    - 1. تَارْ
+- osis: 2Chr
+  texts:
+    - 2 تَارِيحِ
+    - 2 Tarihi
+    - 2 تَارْ
+    - 2. تَارِيحِ
+    - 2. Tarihi
+    - 2. تَارْ
+- osis: 1Chr
+  texts:
+    - 1Tar
+- osis: 2Chr
+  texts:
+    - 2Tar
+- osis: Ezra
+  texts:
+    - عُزَيْرُ
+    - Ezra
+    - Ezr
+- osis: Neh
+  texts:
+    - نٜىٰهٜىٰمِيَ
+    - Nehemiya
+    - نٜىٰهْ
+    - Neh
+- osis: Esth
+  texts:
+    - عٜىٰسْتَا
+    - Esta
+- osis: Job
+  texts:
+    - أَيُوبَ
+    - Ayuba
+    - أَيُو
+    - Ayu
+- osis: Ps
+  texts:
+    - زَبُورَا
+    - Zabura
+    - زَبُو
+    - Zab
+- osis: Prov
+  texts:
+    - كَرِنْ مَغَنَ
+    - Karin Magana
+    - كَـ مَغْـ
+    - K Mag
+    - K.Mag
+- osis: Eccl
+  texts:
+    - Mai Hadishi
+    - مَيْ وَعَظِ
+    - مَيْ وَ
+    - M Had
+    - M.Had
+- osis: Song
+  texts:
+    - وَاڧَرْ وَاڧُواْڧِ
+    - Waƙar Waƙoƙi
+    - وْ وَاڧْ
+    - W.W
+    - Ww
+- osis: Jer
+  texts:
+    - إِرْمِيَ
+    - Irmiya
+    - إِرْمِ
+    - Irm
+- osis: Ezek
+  texts:
+    - هِظْڧِيَالْ
+    - Ezekiyel
+    - هِظْ
+    - Eze
+    - Ezk
+- osis: Dan
+  texts:
+    - دَانِيٜىٰلْ
+    - Daniyel
+    - دَانْ
+    - Dan
+- osis: Hos
+  texts:
+    - يُوشَعُ
+    - Hosiya
+    - يُوشْ
+    - Yush
+    - Hos
+- osis: Joel
+  texts:
+    - يُواْوٜىٰلْ
+    - يُواوْ
+    - Yowel
+    - Yow
+- osis: Amos
+  texts:
+    - عَمُواسْ
+    - Amos
+- osis: Obad
+  texts:
+    - عُواْبَدِيَ
+    - عُواْبَدْ
+    - Obadiya
+    - Oba
+- osis: Jonah
+  texts:
+    - يُونُسَ
+    - Yunana
+    - يُونْ
+    - Yun
+- osis: Mic
+  texts:
+    - مِيكَ
+    - Mika
+    - MiK
+- osis: Nah
+  texts:
+    - نَهُمْ
+    - Nahum
+    - نَهْ
+    - Nah
+- osis: Hab
+  texts:
+    - حَبَكُّكْ
+    - Habakkuk
+    - حَبـ
+    - Hab
+- osis: Zeph
+  texts:
+    - Zefaniya
+    - زَڢَنِيَ
+    - زَڢـ
+    - Zaf
+    - Zef
+- osis: Hag
+  texts:
+    - هَغَّيْ
+    - Haggai
+    - هَغْ
+    - Hag
+- osis: Zech
+  texts:
+    - زَكَرِيَّا
+    - Zakariya
+    - زَكْ
+    - Zak
+- osis: Mal
+  texts:
+    - مَلَكَيْ
+    - Malaki
+    - مَلْ
+    - Mal
+- osis: Matt
+  texts:
+    - Mattiyu
+    - مَتِيُ
+    - مَتْ
+    - Mat
+- osis: Mark
+  texts:
+    - مَرْكُسْ
+    - Markus
+    - مَرْ
+    - Mar
+- osis: Luke
+  texts:
+    - لُكَّ
+    - Luka
+    - لُكْ
+    - Luk
+- osis: 1John
+  texts:
+    - 1Yah
+    - 1Yoh
+- osis: 2John
+  texts:
+    - 2Yah
+    - 2Yoh
+- osis: 3John
+  texts:
+    - 3 Yohanna
+    - 3 يَحْيَى
+    - 3 يَحـ
+    - 3Yah
+    - 3Yoh
+- osis: 1John
+  texts:
+    - 1 Yohanna
+    - 1 يَحْيَى
+    - 1 يَحـ
+    - 1. Yohanna
+    - 1. يَحْيَى
+    - 1. يَحـ
+- osis: 2John
+  texts:
+    - 2 Yohanna
+    - 2 يَحْيَى
+    - 2 يَحـ
+    - 2. Yohanna
+    - 2. يَحْيَى
+    - 2. يَحـ
+- osis: John
+  texts:
+    - Yohanna
+    - يَحْيَى
+    - يَحـ
+    - Yah
+    - Yoh
+- osis: Acts
+  texts:
+    - أَيُّكَنْ مَنْذَنِّے
+    - Ayyukan Manzanni
+    - أَيُّكَنْ
+    - Ayy M
+    - A.M
+- osis: Rom
+  texts:
+    - رُواْمَاوَا
+    - Romawa
+    - رُوامْ
+    - Rom
+- osis: 1Cor
+  texts:
+    - 1 كُواْرِنْتِيَاوَا
+    - 1 Korintiyawa
+    - 1 كُوارْ
+    - 1. كُواْرِنْتِيَاوَا
+    - 1. Korintiyawa
+    - 1. كُوارْ
+- osis: 2Cor
+  texts:
+    - 2 كُواْرِنْتِيَاوَا
+    - 2 Korintiyawa
+    - 2 كُوارْ
+    - 2. كُواْرِنْتِيَاوَا
+    - 2. Korintiyawa
+    - 2. كُوارْ
+- osis: 1Cor
+  texts:
+    - 1Kor
+- osis: 2Cor
+  texts:
+    - 2Kor
+- osis: Col
+  texts:
+    - كُواْلُواْسِيَاوَا
+    - Kolossiyawa
+    - كُوالْ
+    - Kol
+- osis: Gal
+  texts:
+    - غَلَاتِيَاوَا
+    - Galatiyawa
+    - غَلْ
+    - Gal
+- osis: Eph
+  texts:
+    - أَڢِسَاوَا
+    - Afisawa
+    - أَڢِسْ
+    - Afi
+- osis: Phil
+  texts:
+    - ڢِلِبِيَاوَا
+    - Filibbiyawa
+    - ڢِلِبْ
+    - Fili
+    - Fil
+- osis: 1Thess
+  texts:
+    - 1 تَسَلُواْنِكَاوَا
+    - 1 Tessalonikawa
+    - 1 تَسْ
+    - 1. تَسَلُواْنِكَاوَا
+    - 1. Tessalonikawa
+    - 1. تَسْ
+- osis: 2Thess
+  texts:
+    - 2 تَسَلُواْنِكَاوَا
+    - 2 Tessalonikawa
+    - 2 تَسْ
+    - 2. تَسَلُواْنِكَاوَا
+    - 2. Tessalonikawa
+    - 2. تَسْ
+- osis: 1Thess
+  texts:
+    - 1Tas
+    - 1Tes
+- osis: 2Thess
+  texts:
+    - 2Tas
+    - 2Tes
+- osis: 1Tim
+  texts:
+    - 1 تِمُواْتِ
+    - 1 Timoti
+    - 1 تِمْ
+    - 1. تِمُواْتِ
+    - 1. Timoti
+    - 1. تِمْ
+- osis: 2Tim
+  texts:
+    - 2 تِمُواْتِ
+    - 2 Timoti
+    - 2 تِمْ
+    - 2. تِمُواْتِ
+    - 2. Timoti
+    - 2. تِمْ
+- osis: 1Tim
+  texts:
+    - 1Tim
+- osis: 2Tim
+  texts:
+    - 2Tim
+- osis: Titus
+  texts:
+    - تِيتُسْ
+    - Titus
+    - تِيتْ
+    - Tit
+- osis: Phlm
+  texts:
+    - ڢِلِمُوانْ
+    - Filemon
+    - ڢِلْ
+    - Fil
+    - Flm
+- osis: Heb
+  texts:
+    - إِبْرَانِيَاوَا
+    - Ibraniyawa
+    - إِبْرَ
+    - Ibr
+- osis: Jas
+  texts:
+    - يَعْڧُوبَ
+    - يَعْڧـ
+    - Yaƙub
+    - Yak
+    - Yaƙ
+- osis: 1Pet
+  texts:
+    - 1 بِتْرُسْ
+    - 1 Bitrus
+    - 1 بِتْ
+    - 1. بِتْرُسْ
+    - 1. Bitrus
+    - 1. بِتْ
+- osis: 2Pet
+  texts:
+    - 2 بِتْرُسْ
+    - 2 Bitrus
+    - 2 بِتْ
+    - 2. بِتْرُسْ
+    - 2. Bitrus
+    - 2. بِتْ
+- osis: 1Pet
+  texts:
+    - 1Bit
+- osis: 2Pet
+  texts:
+    - 2Bit
+- osis: Jude
+  texts:
+    - يَهُودَ
+    - Yahuda
+    - يَهُو
+    - Yahu
+    - Yah

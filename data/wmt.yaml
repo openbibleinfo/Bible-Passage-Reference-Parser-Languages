@@ -1,0 +1,65 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Genesis
+  - osis: Ruth
+    texts:
+      - Ruth
+  - osis: Isa
+    texts:
+      - Isaiah
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Kings
+  - osis: Ps
+    texts:
+      - Psalms
+  - osis: Jonah
+    texts:
+      - Jonah
+  - osis: Matt
+    texts:
+      - Matthew
+  - osis: Mark
+    texts:
+      - Mark
+  - osis: Luke
+    texts:
+      - Luke
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+    texts:
+      - John
+  - osis: Acts
+    texts:
+      - Acts
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Corinthians
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Timothy
+translations:
+  - WMTOTNT

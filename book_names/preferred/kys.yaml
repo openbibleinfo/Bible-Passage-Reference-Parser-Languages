@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Tukit
+    short: 1 Tuk
+  1Cor:
+    long: 1 Korintus
+    short: 1 Kor
+  1John:
+    long: 1 Yohanes
+    short: 1 Yoh
+  1Kgs:
+    long: 1 Laja'
+    short: 1 Laj
+  1Pet:
+    long: 1 Petrus
+    short: 1 Pet
+  1Sam:
+    long: 1 Samuel
+    short: 1 Sam
+  1Thess:
+    long: 1 Tesalonika
+    short: 1 Tes
+  1Tim:
+    long: 1 Timotius
+    short: 1 Tim
+  2Chr:
+    long: 2 Tukit
+    short: 2 Tuk
+  2Cor:
+    long: 2 Korintus
+    short: 2 Kor
+  2John:
+    long: 2 Yohanes
+    short: 2 Yoh
+  2Kgs:
+    long: 2 Laja'
+    short: 2 Laj
+  2Pet:
+    long: 2 Petrus
+    short: 2 Pet
+  2Sam:
+    long: 2 Samuel
+    short: 2 Sam
+  2Thess:
+    long: 2 Tesalonika
+    short: 2 Tes
+  2Tim:
+    long: 2 Timotius
+    short: 2 Tim
+  3John:
+    long: 3 Yohanes
+    short: 3 Yoh
+  Acts:
+    long: Hadui Daha' Sihu Tuhan
+    short: Hst
+  Amos:
+    long: Amos
+    short: Am
+  Col:
+    long: Kolosé
+    short: Kol
+  Dan:
+    long: Daniel
+    short: Dan
+  Deut:
+    long: Kelua' Dahun Musa
+    short: Kel d M
+  Eccl:
+    long: Peklung Urip
+    short: Pek Ur
+  Eph:
+    long: Efesus
+    short: Ef
+  Esth:
+    long: Ester
+    short: Est
+  Exod:
+    long: Usang Daha' Israel
+    short: Us
+  Ezek:
+    long: Yehezkiel
+    short: Yehez
+  Ezra:
+    long: Ezra
+    short: Ez
+  Gal:
+    long: Galatia
+    short: Gal
+  Gen:
+    long: Aring Kelesing
+    short: Ar Kel
+  Hab:
+    long: Habakuk
+    short: Hab
+  Hag:
+    long: Hagai
+    short: Hag
+  Heb:
+    long: Ibrani
+    short: Ib
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Yesaya
+    short: Yes
+  Jas:
+    long: Yakobus
+    short: Yak
+  Jer:
+    long: Yeremia
+    short: Yer
+  Job:
+    long: Ayub
+    short: Ay
+  Joel:
+    long: Yoel
+    short: Yoel
+  John:
+    long: Yohanes
+    short: Yoh
+  Jonah:
+    long: Yunus
+    short: Yu
+  Josh:
+    long: Yosua
+    short: Yos
+  Jude:
+    long: Yudas
+    short: Yud
+  Judg:
+    long: Daha' Aleng Petneng
+    short: D ag Pet
+  Lam:
+    long: Ka'i Yeremia
+    short: Ka'i
+  Lev:
+    long: Hadui Daha' Lewi
+    short: Lewi
+  Luke:
+    long: Lukas
+    short: Lk
+  Mal:
+    long: Maleakhi
+    short: Mal
+  Mark:
+    long: Markus
+    short: Mk
+  Matt:
+    long: Matius
+    short: Mat
+  Mic:
+    long: Mikha
+    short: MiK
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nehemia
+    short: Neh
+  Num:
+    long: Kahum Daha' Israel
+    short: Kah d Is
+  Obad:
+    long: Obaja
+    short: Ob
+  Phil:
+    long: Filipi
+    short: Fil
+  Phlm:
+    long: Filemon
+    short: Filem
+  Prov:
+    long: Ivun Salomo
+    short: Ivun
+  Ps:
+    long: Nyanyi Daha' Israel
+    short: Ndi
+  Rev:
+    long: Ket Tula
+    short: K Tula
+  Rom:
+    long: Roma
+    short: Rom
+  Ruth:
+    long: Rut
+    short: Rut
+  Song:
+    long: Leken Laja' Salomo
+    short: Lek
+  Titus:
+    long: Titus
+    short: Tit
+  Zech:
+    long: Zakharia
+    short: Zak
+  Zeph:
+    long: Zefanya
+    short: Zef

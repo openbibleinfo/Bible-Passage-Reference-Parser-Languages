@@ -1,0 +1,138 @@
+variables:
+  first: &first
+    - "1"
+    - Ma
+  second: &second
+    - "2"
+    - Ma
+books:
+  - osis: Rev
+    texts:
+      - Ama Ñämñäm Sage Ma Jon
+      - Ñäm
+  - osis: Matt
+    texts:
+      - Ma Matyu
+      - Mat
+  - osis: Mark
+    texts:
+      - Ma Mak
+      - Mak
+  - osis: Luke
+    texts:
+      - Ma Luk
+      - Luk
+  - osis: 3John
+    texts:
+      - Ma Jon 3
+      - 3 Jo
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - Jon 1
+      - Jo
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - Jon 2
+      - Jo
+  - osis: John
+    texts:
+      - Ma Jon
+      - Jon
+  - osis: Acts
+    texts:
+      - Ama Ngangda Arha Lat
+      - Lat
+  - osis: Rom
+    texts:
+      - Ma Romgäna
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Koringäna 1
+      - Ko
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Koringäna 2
+      - Ko
+  - osis: Col
+    texts:
+      - Ma Kolosiqäna
+      - Kol
+  - osis: Gal
+    texts:
+      - Ma Galesiaqäna
+      - Gal
+  - osis: Eph
+    texts:
+      - Ma Efesuskäna
+      - Efe
+  - osis: Phil
+    texts:
+      - Ma Filipaiqäna
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Tesalonaikaqäna 1
+      - Te
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonaikaqäna 2
+      - Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Timoti 1
+      - Ti
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti 2
+      - Ti
+  - osis: Titus
+    texts:
+      - Ma Taitus
+      - Tit
+  - osis: Phlm
+    texts:
+      - Ma Filemon
+      - Flm
+  - osis: Heb
+    texts:
+      - Ma Hibruqäna
+      - Hib
+  - osis: Jas
+    texts:
+      - Ma Jems
+      - Jem
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - Pita 1
+      - Pi
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita 2
+      - Pi
+  - osis: Jude
+    texts:
+      - Ma Jut
+      - Jut
+translations:
+  - URO

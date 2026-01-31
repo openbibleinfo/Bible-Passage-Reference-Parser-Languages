@@ -1,0 +1,29 @@
+books:
+  - osis: Gen
+    texts:
+      - Genesis
+  - osis: Matt
+    texts:
+      - Mattiu
+      - Mat
+  - osis: Mark
+    texts:
+      - Mak
+      - Mk
+  - osis: Luke
+    texts:
+      - Luk
+      - Lk
+  - osis: Acts
+    texts:
+      - Aposel
+      - Ap
+  - osis: Titus
+    texts:
+      - Tit
+      - Ti
+  - osis: Phlm
+    texts:
+      - Plm
+translations:
+  - NSS

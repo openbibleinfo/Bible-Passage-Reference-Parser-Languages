@@ -1,0 +1,296 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Genese
+      - Genesi
+      - Gen.
+  - osis: Exod
+    texts:
+      - Eksodose
+      - Ekisodo
+      - Eks.
+  - osis: Lev
+    texts:
+      - Lefitikose
+      - Lefitiko
+      - Lef.
+  - osis: Num
+    texts:
+      - Numeri
+      - Num.
+  - osis: Lam
+    texts:
+      - Dillo Tša Jeremia
+      - Dillo
+  - osis: Rev
+    texts:
+      - Kutollo
+      - Kut.
+  - osis: Deut
+    texts:
+      - Doiteronomio
+      - Doit.
+  - osis: Josh
+    texts:
+      - Joshua
+      - Josh.
+      - Jos.
+  - osis: Judg
+    texts:
+      - Baahlodi
+      - Baahl.
+  - osis: Ruth
+    texts:
+      - Ruthe
+      - Rute
+  - osis: Isa
+    texts:
+      - Jesaya
+      - Jes.
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuele
+      - Sam.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Dikgoši
+      - Dikg.
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Dikoronika
+      - Dikronika
+      - Koronika
+      - Koron.
+      - Dikr.
+  - osis: Ezra
+    texts:
+      - Esera
+      - Esra
+  - osis: Neh
+    texts:
+      - Nehemia
+      - Neh.
+  - osis: Esth
+    texts:
+      - Esitere
+      - Estere
+      - Est.
+  - osis: Job
+    texts:
+      - Jobo
+  - osis: Ps
+    texts:
+      - DiPesalome
+      - Dipsalme
+      - Pes.
+      - Pes
+  - osis: Prov
+    texts:
+      - Diema tša Salomo
+      - Diema
+  - osis: Eccl
+    texts:
+      - Mmoledi
+      - Mmol.
+  - osis: Song
+    texts:
+      - Sefela Sa Difela
+      - Sifela Sa Difela
+      - Sef.
+  - osis: Jer
+    texts:
+      - Jeremia
+      - Jer.
+  - osis: Ezek
+    texts:
+      - Hesekiele
+      - Hes.
+  - osis: Dan
+    texts:
+      - Daniele
+      - Dan.
+  - osis: Hos
+    texts:
+      - Hosea
+      - Hos.
+  - osis: Joel
+    texts:
+      - Joele
+  - osis: Amos
+    texts:
+      - Amose
+      - Amosi
+  - osis: Obad
+    texts:
+      - Obadia
+      - Obadya
+      - Obad.
+  - osis: Jonah
+    texts:
+      - Jona
+  - osis: Mic
+    texts:
+      - Mika
+  - osis: Nah
+    texts:
+      - Nahume
+      - Nah.
+  - osis: Hab
+    texts:
+      - Habakuku
+      - Hab.
+  - osis: Zeph
+    texts:
+      - Tsefanya
+      - Sofonia
+      - Tsef.
+      - Sof.
+  - osis: Hag
+    texts:
+      - Hagai
+      - Hag.
+  - osis: Zech
+    texts:
+      - Sakaria
+      - Sak.
+  - osis: Mal
+    texts:
+      - Malakia
+      - Maleaki
+      - Mal.
+  - osis: Matt
+    texts:
+      - Mateo
+      - Mateu
+      - Mat.
+  - osis: Mark
+    texts:
+      - Markose
+      - Mareka
+      - Mar.
+  - osis: Luke
+    texts:
+      - Lukase
+      - Luk.
+      - Luka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Johanese
+      - Johane
+      - Joh.
+  - osis: Acts
+    texts:
+      - Ditiro Tša Baapostola
+      - Ditiro
+      - Dit.
+  - osis: Rom
+    texts:
+      - Ba-Roma
+      - BaRoma
+      - Bar.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Bakorinthe
+      - Bakorinte
+      - Bakor.
+  - osis: Col
+    texts:
+      - BaKolose
+      - Bakol.
+  - osis: Gal
+    texts:
+      - BaGalatia
+      - Bag.
+  - osis: Eph
+    texts:
+      - BaEfeso
+      - Baef.
+  - osis: Phil
+    texts:
+      - BaFilipi
+      - Baf.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Bathesalonika
+      - Bat.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotheose
+      - Timotheo
+      - Tim.
+  - osis: Titus
+    texts:
+      - Titose
+      - Tit.
+      - Tito
+  - osis: Phlm
+    texts:
+      - Epistola Ya Filemone
+      - Filemone
+      - Fil.
+  - osis: Heb
+    texts:
+      - Bahebere
+      - Baheberu
+      - Bah.
+  - osis: Jas
+    texts:
+      - Jakobose
+      - Jakobo
+      - Jak.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petrose
+      - Petro
+      - Pet.
+  - osis: Jude
+    texts:
+      - Judase
+      - Jud.
+      - Juda
+translations:
+  - NSO51
+  - NSO00
+  - CSEB24

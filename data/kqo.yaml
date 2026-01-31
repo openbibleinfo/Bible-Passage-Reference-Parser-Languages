@@ -1,0 +1,113 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - "'Wlehvolesiehn'"
+      - Wleh
+  - osis: Matt
+    texts:
+      - Matio'
+      - Mt
+  - osis: Mark
+    texts:
+      - "'Make"
+      - Mk
+  - osis: Luke
+    texts:
+      - "'Lu"
+      - Lu
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - :Jororn'
+      - Jn
+  - osis: Acts
+    texts:
+      - Noo-deh:⧾
+      - Nd
+  - osis: Rom
+    texts:
+      - "'Wloon-chlee-deh:"
+      - Wlon
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - "'Korli-chlee-deh:"
+      - Kor
+  - osis: Col
+    texts:
+      - ":Kolorsi'-chlee-deh:"
+      - Kol
+  - osis: Gal
+    texts:
+      - ":Gale'tia-chlee-deh:"
+      - Gal
+  - osis: Eph
+    texts:
+      - "'Ehfesor-chlee-deh:"
+      - Ehf
+  - osis: Phil
+    texts:
+      - ":Fele'pa-chlee-deh:"
+      - Fel
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - "'Tehsolo'nika-chlee-deh:"
+      - Teh
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - :Timehte'
+      - Ti
+  - osis: Titus
+    texts:
+      - Talor'
+      - Tal
+  - osis: Phlm
+    texts:
+      - :Falimor'
+      - Fal
+  - osis: Heb
+    texts:
+      - :Hiblu'
+      - Hi
+  - osis: Jas
+    texts:
+      - "'Jeen:"
+      - Jen
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - :Piteh'
+      - Pi
+  - osis: Jude
+    texts:
+      - Juu'
+      - Ju
+translations:
+  - TCHKR

@@ -1,0 +1,116 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Kepehaa I Hésus Kelistu
+      - Kep
+  - osis: Matt
+    texts:
+      - Matéyo
+      - Mat
+  - osis: Mark
+    texts:
+      - Malkos
+      - Mal
+  - osis: Luke
+    texts:
+      - Lukas
+      - Luk
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Huwan
+      - Hu
+  - osis: John
+    texts:
+      - Huwan
+      - Hwn
+  - osis: Acts
+    texts:
+      - Binaelan
+      - Bin
+  - osis: Rom
+    texts:
+      - Loma
+      - Lom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kolintu
+      - Ko
+  - osis: Col
+    texts:
+      - Kolosas
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatiya
+      - Gal
+  - osis: Eph
+    texts:
+      - Épéso
+      - Épé
+  - osis: Phil
+    texts:
+      - Pilipos
+      - Plp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tésalonika
+      - Té
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotiyu
+      - Ti
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Pilimon
+      - Plm
+  - osis: Heb
+    texts:
+      - Hibelu
+      - Hib
+  - osis: Jas
+    texts:
+      - Santiyago
+      - San
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pidelu
+      - Pi
+  - osis: Jude
+    texts:
+      - Hudas
+      - Hud
+translations:
+  - MTANT

@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 Corinto
+    short: 1 Co.
+  1John:
+    long: 1 Xivan
+    short: 1 Jn.
+  1Pet:
+    long: 1 Pitalu'
+    short: 1 P.
+  1Thess:
+    long: 1 Tesalónica
+    short: 1 Ts.
+  1Tim:
+    long: 1 Timoteo
+    short: 1 Ti.
+  2Cor:
+    long: 2 Corinto
+    short: 2 Co.
+  2John:
+    long: 2 Xivan
+    short: 2 Jn.
+  2Pet:
+    long: 2 Pitalu'
+    short: 2 P.
+  2Thess:
+    long: 2 Tesalónica
+    short: 2 Ts.
+  2Tim:
+    long: 2 Timoteo
+    short: 2 Ti.
+  3John:
+    long: 3 Xivan
+    short: 3 Jn.
+  Acts:
+    long: Ixtamalakachan Ju Jesús
+    short: Hch.
+  Col:
+    long: Colosas
+    short: Col.
+  Eph:
+    long: Efeso
+    short: Ef.
+  Gal:
+    long: Galacia
+    short: Gá.
+  Heb:
+    long: Ju Israelitanin
+    short: He.
+  Jas:
+    long: Santiago
+    short: Stg.
+  John:
+    long: Xivan
+    short: Jn.
+  Jude:
+    long: Judas
+    short: Jud.
+  Luke:
+    long: Lucas
+    short: Lc.
+  Mark:
+    long: Marcos
+    short: Mr.
+  Matt:
+    long: Mateo
+    short: Mt.
+  Phil:
+    long: Filipos
+    short: Fil.
+  Phlm:
+    long: Filemón
+    short: Flm.
+  Rev:
+    long: Ju Amavasalacalh
+    short: Ap.
+  Rom:
+    long: Roma
+    short: Ro.
+  Titus:
+    long: Tito
+    short: Tit.

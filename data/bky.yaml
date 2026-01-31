@@ -1,0 +1,215 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Jénésis
+  - osis: Exod
+    texts:
+      - Ézódos
+  - osis: Lev
+    texts:
+      - Lyívyítyíkus
+  - osis: Num
+    texts:
+      - Nómba
+  - osis: Lam
+    texts:
+      - Lamantéshan
+  - osis: Rev
+    texts:
+      - Revelíshon
+  - osis: Deut
+    texts:
+      - Dyitorónómyi
+      - Dyitórónómyi
+  - osis: Josh
+    texts:
+      - Jóshwa
+  - osis: Judg
+    texts:
+      - Jójis
+  - osis: Ruth
+    texts:
+      - Nkyi to ké Rût
+      - Rût
+  - osis: Isa
+    texts:
+      - Azáya
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Sámwel
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Kyîng
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Korónyíkil
+  - osis: Ezra
+    texts:
+      - Ézara
+  - osis: Neh
+    texts:
+      - Nehemyâ
+  - osis: Esth
+    texts:
+      - Esitá
+  - osis: Job
+    texts:
+      - Jôp
+  - osis: Ps
+    texts:
+      - Sâm
+  - osis: Prov
+    texts:
+      - Póróvep
+  - osis: Eccl
+    texts:
+      - Ekyilyizátes
+  - osis: Song
+    texts:
+      - Okwan
+  - osis: Jer
+    texts:
+      - Jeryimáya
+  - osis: Ezek
+    texts:
+      - Ezékyel
+  - osis: Dan
+    texts:
+      - Dányel
+  - osis: Hos
+    texts:
+      - Hozáya
+  - osis: Joel
+    texts:
+      - Jówel
+  - osis: Amos
+    texts:
+      - Émos
+  - osis: Obad
+    texts:
+      - Obadyâ
+  - osis: Jonah
+    texts:
+      - Jóna
+  - osis: Mic
+    texts:
+      - Máka
+  - osis: Nah
+    texts:
+      - Náhum
+  - osis: Hab
+    texts:
+      - Habákuk
+  - osis: Zeph
+    texts:
+      - Zefanyâ
+  - osis: Hag
+    texts:
+      - Hágya
+  - osis: Zech
+    texts:
+      - Zákaryâ
+  - osis: Mal
+    texts:
+      - Máláka
+  - osis: Matt
+    texts:
+      - Mátyuu
+  - osis: Mark
+    texts:
+      - Mâk
+  - osis: Luke
+    texts:
+      - Lûk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jǒn
+  - osis: Acts
+    texts:
+      - Âak
+  - osis: Rom
+    texts:
+      - Rúman
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Koríntyan
+  - osis: Col
+    texts:
+      - Kolóshan
+  - osis: Gal
+    texts:
+      - Galíshan
+  - osis: Eph
+    texts:
+      - Efyíshan
+  - osis: Phil
+    texts:
+      - Fyilyípyan
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalónyan
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tyímótyi
+  - osis: Titus
+    texts:
+      - Tátus
+  - osis: Phlm
+    texts:
+      - Fyílyímon
+  - osis: Heb
+    texts:
+      - Hyíburus
+  - osis: Jas
+    texts:
+      - Jêmsyi
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pyíta
+  - osis: Jude
+    texts:
+      - Jût
+translations:
+  - BKY

@@ -1,0 +1,266 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Smnlean
+      - Smn
+  - osis: Exod
+    texts:
+      - Lntadan
+      - Lnt
+  - osis: Lev
+    texts:
+      - Lewiy
+      - Lew
+  - osis: Num
+    texts:
+      - Spegan
+      - Spe
+  - osis: Lam
+    texts:
+      - Uyas Tsdamac Yirmeyah
+      - Tsd
+  - osis: Rev
+    texts:
+      - Pntuura
+      - Pnt
+  - osis: Deut
+    texts:
+      - Mege Gaya
+      - Meg
+  - osis: Josh
+    texts:
+      - Yehosua
+      - Yeh
+  - osis: Judg
+    texts:
+      - Dmpsgao
+      - Dmps
+  - osis: Ruth
+    texts:
+      - Rute
+      - Rut
+  - osis: Isa
+    texts:
+      - Isaya
+      - Isa
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Qbsuran Paru
+      - Qbs
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Nooda
+      - No
+  - osis: Ezra
+    texts:
+      - Ejra
+  - osis: Neh
+    texts:
+      - Nexemyah
+      - Nex
+  - osis: Esth
+    texts:
+      - Ester
+  - osis: Job
+    texts:
+      - Yobu
+      - Yob
+  - osis: Prov
+    texts:
+      - Kari Rdrudan
+      - Kar
+  - osis: Eccl
+    texts:
+      - Gmarang Kari
+      - Gma
+  - osis: Song
+    texts:
+      - Uyas Mskuxul
+      - Msk
+  - osis: Ps
+    texts:
+      - Uyas
+  - osis: Jer
+    texts:
+      - Yirmeyah
+      - Yir
+  - osis: Ezek
+    texts:
+      - Yexejqel
+      - Yex
+  - osis: Dan
+    texts:
+      - Daniyel
+      - Dan
+  - osis: Hos
+    texts:
+      - Hosea
+      - Hos
+  - osis: Joel
+    texts:
+      - Yoel
+      - Yoe
+  - osis: Amos
+    texts:
+      - Amos
+      - Amo
+  - osis: Obad
+    texts:
+      - Obadyah
+      - Oba
+  - osis: Jonah
+    texts:
+      - Yonah
+      - Yon
+  - osis: Mic
+    texts:
+      - Mikah
+      - MiK
+  - osis: Nah
+    texts:
+      - Naxum
+      - Nax
+  - osis: Hab
+    texts:
+      - Xabaquq
+      - Xab
+  - osis: Zeph
+    texts:
+      - Cepanyah
+      - Cep
+  - osis: Hag
+    texts:
+      - Xagay
+      - Xag
+  - osis: Zech
+    texts:
+      - Jekaryah
+      - Jek
+  - osis: Mal
+    texts:
+      - Malakiy
+      - Mal
+  - osis: Matt
+    texts:
+      - Matay
+      - Mat
+  - osis: Mark
+    texts:
+      - Markos
+      - Mrk
+  - osis: Luke
+    texts:
+      - Ruka
+      - Ruk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohane
+      - Yoh
+  - osis: Acts
+    texts:
+      - Qneepah
+      - Qne
+  - osis: Rom
+    texts:
+      - Roma
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinto
+      - Kor
+  - osis: Col
+    texts:
+      - Korosay
+      - Kro
+  - osis: Gal
+    texts:
+      - Garatia
+      - Gar
+  - osis: Eph
+    texts:
+      - Epesos
+      - Epe
+  - osis: Phil
+    texts:
+      - Pilipi
+      - Pil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaloniki
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteos
+      - Tim
+  - osis: Titus
+    texts:
+      - Titos
+      - Tit
+  - osis: Phlm
+    texts:
+      - Pilemon
+      - Pile
+  - osis: Heb
+    texts:
+      - Hiburu
+      - Hib
+  - osis: Jas
+    texts:
+      - Yakobu
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petros
+      - Pet
+  - osis: Jude
+    texts:
+      - Yehudah
+      - Yehu
+translations:
+  - SED1

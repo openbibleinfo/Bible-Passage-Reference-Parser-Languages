@@ -1,0 +1,141 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Inpa-Amta Nen Jesucristo
+      - Amt
+  - osis: Matt
+    texts:
+      - San Mateo
+      - Mat
+  - osis: Mark
+    texts:
+      - San Marcos
+      - Mar
+  - osis: Luke
+    texts:
+      - San Lucas
+      - Luc
+  - osis: 1John
+    texts:
+      - 1Ju
+  - osis: 2John
+    texts:
+      - 2Ju
+  - osis: 3John
+    texts:
+      - 3 San Juan
+      - 3Ju
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - San Juan
+  - osis: John
+    texts:
+      - San Juan
+      - Jua
+  - osis: Acts
+    texts:
+      - Inpaspasing
+      - Inp
+  - osis: Rom
+    texts:
+      - I-Roma
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - I-Korinto
+  - osis: 1Cor
+    texts:
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - 2Ko
+  - osis: Col
+    texts:
+      - I-Kolosas
+      - Kol
+  - osis: Gal
+    texts:
+      - I-Galasia
+      - Gal
+  - osis: Eph
+    texts:
+      - I-Ipiso
+      - Ipi
+  - osis: Phil
+    texts:
+      - I-Pilipos
+      - Pil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - I-Tisalonika
+  - osis: 1Thess
+    texts:
+      - 1Ts
+  - osis: 2Thess
+    texts:
+      - 2Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemon
+      - Fil
+  - osis: Heb
+    texts:
+      - Hodiyos
+      - Hod
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - San Pedro
+  - osis: 1Pet
+    texts:
+      - 1Pe
+  - osis: 2Pet
+    texts:
+      - 2Pe
+  - osis: Jude
+    texts:
+      - San Judas
+      - Jud
+  - osis: Jas
+    texts:
+      - Santiago
+      - San
+translations:
+  - TNT

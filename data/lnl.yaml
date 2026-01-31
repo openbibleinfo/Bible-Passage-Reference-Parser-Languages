@@ -1,0 +1,115 @@
+variables:
+  first: &first
+    - "1"
+    - Dokʉ̈
+  second: &second
+    - "2"
+    - Bïchuû
+books:
+  - osis: Rev
+    texts:
+      - Apökälîbïchi
+      - Apk
+  - osis: Matt
+    texts:
+      - Matiyə̈
+      - Mat
+  - osis: Mark
+    texts:
+      - Mâreke
+      - Mar
+  - osis: Luke
+    texts:
+      - Lûke
+      - Luk
+  - osis: 3John
+    texts:
+      - Vötaâ Jâan
+      - 3 Jan
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jâan
+      - Jan
+  - osis: Acts
+    texts:
+      - Abadjângele
+      - Abdj
+  - osis: Rom
+    texts:
+      - Rômo
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Körɛ̂nte
+      - Kor
+  - osis: Col
+    texts:
+      - Kölôse
+      - Kol
+  - osis: Gal
+    texts:
+      - Gälâte
+      - Gal
+  - osis: Eph
+    texts:
+      - Ëfêze
+      - Efe
+  - osis: Phil
+    texts:
+      - Fïlîpe
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tësälönîke
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotë
+      - Tim
+  - osis: Titus
+    texts:
+      - Tîte
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemön
+      - Flm
+  - osis: Heb
+    texts:
+      - Aheborö
+      - aHe
+  - osis: Jas
+    texts:
+      - Jâke
+      - Jak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pîêre
+      - Pie
+  - osis: Jude
+    texts:
+      - Jûde
+      - Jud
+translations:
+  - LNL

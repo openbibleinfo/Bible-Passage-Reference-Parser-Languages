@@ -1,0 +1,103 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - ಪ್ರಕಟನೆ
+  - osis: Matt
+    texts:
+      - ಮತ್ತಾಯ
+  - osis: Mark
+    texts:
+      - ಮಾರ್ಕ
+  - osis: Luke
+    texts:
+      - ಲುಕ
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - ಯೊಹಾನ
+  - osis: Acts
+    texts:
+      - ಅಪೊಸ್ತಲೊ
+  - osis: Rom
+    texts:
+      - ರೊಮಾಪೂರ
+      - ರೊಮ
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - ಕೊರಿಂಥವಾಲಾವೊನೆ
+      - ಕೊರಿಂಥ
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - ಕೊರಿಂಥ
+  - osis: Col
+    texts:
+      - ಕೊಲೆಸ್ಸೆ
+  - osis: Gal
+    texts:
+      - ಗಲಾತ್ಯ
+  - osis: Eph
+    texts:
+      - ಎಫೆಸ
+  - osis: Phil
+    texts:
+      - ಫಿಲಿಪ್ಪಿ
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - ಥೆಸಲೊನಿಕ
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - ತಿಮೊತಿನೆ
+      - ತಿಮೊತಿ
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - ತಿಮೊತಿ
+  - osis: Titus
+    texts:
+      - ತಿತನೆ
+  - osis: Phlm
+    texts:
+      - ಫಿಲೊಮನನೆ
+      - ಫಿಲೊಮನ
+  - osis: Heb
+    texts:
+      - ಇಬ್ರಿಯ
+  - osis: Jas
+    texts:
+      - ಯಾಕೊಬ
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - ಪೆತ್ರಾ
+  - osis: Jude
+    texts:
+      - ಯುದ
+translations:
+  - NTSRR23

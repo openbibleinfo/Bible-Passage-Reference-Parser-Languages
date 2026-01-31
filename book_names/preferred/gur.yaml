@@ -1,0 +1,171 @@
+default:
+  1Cor:
+    long: 1 Korẽntɩ
+    short: 1 Kor
+  1John:
+    long: 1 Yɔn
+    short: 1 Yɔn
+  1Pet:
+    long: 1 Pita
+    short: 1 Pit
+  1Thess:
+    long: 1 Tesaloniki
+    short: 1 Tɛs
+  1Tim:
+    long: 1 Timoti
+    short: 1 Tim
+  2Cor:
+    long: 2 Korẽntɩ
+    short: 2 Kor
+  2John:
+    long: 2 Yɔn
+    short: 2 Yɔn
+  2Pet:
+    long: 2 Pita
+    short: 2 Pit
+  2Thess:
+    long: 2 Tesaloniki
+    short: 2 Tɛs
+  2Tim:
+    long: 2 Timoti
+    short: 2 Tim
+  3John:
+    long: 3 Yɔn
+    short: 3 Yɔn
+  Acts:
+    long: Tõoma
+    short: Tuum
+  Col:
+    long: Kolosiduma
+    short: Kol
+  Eph:
+    long: Efɛɛzɩ
+    short: Efɛ
+  Gal:
+    long: Galatiyaduma
+    short: Gal
+  Heb:
+    long: Ebre
+    short: Ebr
+  Jas:
+    long: Azakɩ
+    short: Yem
+  John:
+    long: Azã
+    short: Azã
+  Jude:
+    long: Azudi
+    short: Yud
+  Luke:
+    long: Aluki
+    short: Luk
+  Mark:
+    long: Amarkɩ
+    short: Mak
+  Matt:
+    long: Amatie
+    short: Mat
+  Phil:
+    long: Filipi
+    short: Fil
+  Phlm:
+    long: Afilmõ
+    short: Afi
+  Rev:
+    long: Lilegere
+    short: Lil
+  Rom:
+    long: Aromduma
+    short: Rom
+  Titus:
+    long: Atiti
+    short: Tait
+translations:
+  gurdbl:
+    1Cor:
+      short: 1Ko
+    1John:
+      long: 1 Zã
+      short: 1Zã
+    1Pet:
+      long: 1 Pɩyɛɛrɩ
+      short: 1Pɩ
+    1Thess:
+      short: 1Te
+    1Tim:
+      long: 1 Timõtɩ
+      short: 1Ti
+    2Cor:
+      short: 2Ko
+    2John:
+      long: 2 Zã
+      short: 2Zã
+    2Pet:
+      long: 2 Pɩyɛɛrɩ
+      short: 2Pɩ
+    2Thess:
+      short: 2Te
+    2Tim:
+      long: 2 Timõtɩ
+      short: 2Ti
+    3John:
+      long: 3 Zã
+      short: 3Zã
+    Acts:
+      short: Tõo
+    Col:
+      long: Kolɔsɩ
+    Gal:
+      long: Galatɩ
+    Jas:
+      short: Zak
+    Jude:
+      short: Zud
+    Mark:
+      short: Mar
+    Rev:
+      long: Pukre
+      short: Puk
+    Rom:
+      long: Rom
+    Titus:
+      short: Tit
+  gbtp2020:
+    1Cor:
+      long: 1 Korintiduma
+    1Thess:
+      long: 1 Tɛsalonikaduma
+    2Cor:
+      long: 2 Korintiduma
+    2Thess:
+      long: 2 Tɛsalonikaduma
+    Acts:
+      long: Tuuma
+    Eph:
+      long: Ɛfisuduma
+      short: Ɛfi
+    Heb:
+      long: Hiburuduma
+      short: Hib
+    Jas:
+      long: Yemesi
+    John:
+      long: Yɔn
+      short: Yɔn
+    Jude:
+      long: Yude
+    Luke:
+      long: Luki
+    Mark:
+      long: Maki
+    Matt:
+      long: Matu
+    Phil:
+      long: Filipiduma
+    Phlm:
+      long: Filemɔn
+      short: Flm
+    Rom:
+      short: aRom
+    Titus:
+      long: Taitusi

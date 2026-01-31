@@ -1,0 +1,142 @@
+default:
+  1Chr:
+    long: 1 Crónica
+    short: 1 Cro
+  1Cor:
+    long: 1 Corintios
+    short: 1Co
+  1John:
+    long: 1 San Juan
+    short: 1Jn
+  1Pet:
+    long: 1 San Pedro
+    short: 1P
+  1Sam:
+    long: 1 Samue
+    short: 1 Sam
+  1Thess:
+    long: 1 Tesalonicenses
+    short: 1Te
+  1Tim:
+    long: 1 Timoteo
+    short: 1Ti
+  2Chr:
+    long: 2 Crónica
+    short: 2 Cro
+  2Cor:
+    long: 2 Corintios
+    short: 2Co
+  2John:
+    long: 2 San Juan
+    short: 2Jn
+  2Kgs:
+    long: 2 Reyes
+    short: 2 Rey
+  2Pet:
+    long: 2 San Pedro
+    short: 2P
+  2Sam:
+    long: 2 Samue
+    short: 2 Sam
+  2Thess:
+    long: 2 Tesalonicenses
+    short: 2Te
+  2Tim:
+    long: 2 Timoteo
+    short: 2Ti
+  3John:
+    long: 3 San Juan
+    short: 3Jn
+  Acts:
+    long: Hechos
+    short: Hch
+  Col:
+    long: Colosenses
+    short: Col
+  Deut:
+    long: Deuteronomio
+    short: Deu
+  Eph:
+    long: Efesios
+    short: Ef
+  Exod:
+    long: Éxodo
+    short: Ex
+  Gal:
+    long: Gálatas
+    short: Ga
+  Gen:
+    long: Génesis
+    short: Gen
+  Heb:
+    long: Hebreos
+    short: Heb
+  Hos:
+    long: Osea
+    short: Os
+  Isa:
+    long: Isaía
+    short: Isa
+  Jas:
+    long: Santiago
+    short: Stg
+  Jer:
+    long: Jeremía
+    short: Jer
+  John:
+    long: Juan
+    short: Jn
+  Jonah:
+    long: Joná
+    short: Jon
+  Josh:
+    long: Josué
+    short: Jos
+  Jude:
+    long: San Judas
+    short: Jud
+  Judg:
+    long: Jueces
+    short: Jue
+  Lev:
+    long: Levítico
+    short: Lev
+  Luke:
+    long: Lucas
+    short: Lc
+  Mark:
+    long: Marcos
+    short: Mr
+  Matt:
+    long: Mateo
+    short: Mt
+  Mic:
+    long: Miquea
+    short: Miq
+  Num:
+    long: Números
+    short: Num
+  Phil:
+    long: Filipenses
+    short: Fil
+  Phlm:
+    long: Filemón
+    short: Flm
+  Prov:
+    long: Proverbio
+    short: Pro
+  Ps:
+    long: Salmo
+    short: Sal
+  Rev:
+    long: Apocalipsis
+    short: Ap
+  Rom:
+    long: Romanos
+    short: Rom
+  Titus:
+    long: Tito
+    short: Tit
+  Zech:
+    long: Zacaría
+    short: Zac

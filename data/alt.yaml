@@ -1,0 +1,101 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Ачылта
+  - osis: Matt
+    texts:
+      - Матфей
+      - Мф.
+  - osis: Mark
+    texts:
+      - Марк
+      - Мк.
+  - osis: Luke
+    texts:
+      - Лука
+      - Лк.
+  - osis: 1John
+    texts:
+      - Иоанныҥ 1-кы самаразы
+  - osis: 2John
+    texts:
+      - Иоанныҥ 2-чи самаразы
+  - osis: 3John
+    texts:
+      - Иоанныҥ 3-чи самаразы
+  - osis: John
+    texts:
+      - Иоанн
+      - Ин.
+  - osis: Acts
+    texts:
+      - Апостолдордыҥ керектери
+  - osis: Rom
+    texts:
+      - Римдегилерге
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Коринфтегилерге
+      - Кор.
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Коринфтегилерге
+  - osis: Col
+    texts:
+      - Колоссыдагыларга серкпеге самаразы
+  - osis: Gal
+    texts:
+      - Галаттарга
+  - osis: Eph
+    texts:
+      - Ефестегилерге
+  - osis: Phil
+    texts:
+      - Филиппыдагыларга
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Фессалоникадагыларга
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Тимофейге
+  - osis: Titus
+    texts:
+      - Титке
+  - osis: Phlm
+    texts:
+      - Филимонго
+  - osis: Heb
+    texts:
+      - Еврейлерге
+  - osis: Jas
+    texts:
+      - Иаковтыҥ самаразы
+  - osis: 1Pet
+    texts:
+      - Петрдыҥ 1-кы самаразы
+  - osis: 2Pet
+    texts:
+      - Петрдыҥ 2-чи самаразы
+  - osis: Jude
+    texts:
+      - Иуданыҥ самаразы
+      - Иуда
+translations:
+  - ALTNTBC

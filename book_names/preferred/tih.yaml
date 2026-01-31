@@ -1,0 +1,231 @@
+default:
+  1Chr:
+    long: 1 Tunung Ru Bansa' Israil
+    short: 1 Tun.
+  1Cor:
+    long: 1 Korintus
+    short: 1 Kor.
+  1John:
+    long: 1 Juanis
+    short: 1 Jua.
+  1Kgs:
+    long: 1 Raja'-raja'
+    short: 1 Raj.
+  1Macc:
+    long: 1 Makabi
+    short: 1 Mak.
+  1Pet:
+    long: 1 Pitrus
+    short: 1 Ptr.
+  1Sam:
+    long: 1 Samuil
+    short: 1 Sam.
+  1Thess:
+    long: 1 Tisalonika
+    short: 1 Tis.
+  1Tim:
+    long: 1 Timotius
+    short: 1 Tim.
+  2Chr:
+    long: 2 Tunung Ru Bansa' Israil
+    short: 2 Tun.
+  2Cor:
+    long: 2 Korintus
+    short: 2 Kor.
+  2John:
+    long: 2 Juanis
+    short: 2 Jua.
+  2Kgs:
+    long: 2 Raja'-raja'
+    short: 2 Raj.
+  2Macc:
+    long: 2 Makabi
+    short: 2 Mak.
+  2Pet:
+    long: 2 Pitrus
+    short: 2 Ptr.
+  2Sam:
+    long: 2 Samuil
+    short: 2 Sam.
+  2Thess:
+    long: 2 Tisalonika
+    short: 2 Tis.
+  2Tim:
+    long: 2 Timotius
+    short: 2 Tim.
+  3John:
+    long: 3 Juanis
+    short: 3 Jua.
+  Acts:
+    long: Rinalatan
+    short: Rin.
+  Amos:
+    long: Amos
+    short: Am.
+  Bar:
+    long: Baruk
+    short: Bar.
+  Bel:
+    long: I Danil Am Dewa Bel Am Tambuakal Babil
+  Col:
+    long: Kolosi
+    short: Kol.
+  Dan:
+    long: Danil
+    short: Dan.
+  Deut:
+    long: Sagulion
+    short: Sag.
+  Eccl:
+    long: Mampatanou
+    short: Mpt.
+  EpJer:
+    long: Surat Ru Nabi Jirimia
+  Eph:
+    long: Ipisus
+    short: Ip.
+  Esth:
+    long: Ester
+    short: Est.
+  EsthGr:
+    long: PINARUANG RA KITAB ESTER
+    short: Pnr.
+  Exod:
+    long: Kaingkualan
+    short: Kai.
+  Ezek:
+    long: Yehezkiel
+    short: Yeh.
+  Ezra:
+    long: Ijra
+    short: Ijr.
+  Gal:
+    long: Galatia
+    short: Gal.
+  Gen:
+    long: Kasaukan
+    short: Kas.
+  Hab:
+    long: Abakuk
+    short: Ab.
+  Hag:
+    long: Agai
+    short: Agi.
+  Heb:
+    long: Ibrani
+    short: Ibr.
+  Hos:
+    long: Gosia
+    short: Gos.
+  Isa:
+    long: Jisaya
+    short: Jis.
+  Jas:
+    long: Jakubus
+    short: Jak.
+  Jdt:
+    long: Judit
+    short: Jdt.
+  Jer:
+    long: Jirimia
+    short: Jir.
+  Job:
+    long: Ayup
+    short: Ayp.
+  Joel:
+    long: Joil
+    short: Jl.
+  John:
+    long: Juanis
+    short: Jua.
+  Jonah:
+    long: Junus
+    short: Jun.
+  Josh:
+    long: Josua
+    short: Jos.
+  Jude:
+    long: Judas
+    short: Jud.
+  Judg:
+    long: Tingganai Ru Bansa'
+    short: Tin.
+  Lam:
+    long: Sulaboi
+    short: Sul.
+  Lev:
+    long: Imamat
+    short: Im.
+  Luke:
+    long: Lukas
+    short: Luk.
+  Mal:
+    long: Maliaki
+    short: Mal.
+  Mark:
+    long: Markus
+    short: Mrk.
+  Matt:
+    long: Matius
+    short: Mat.
+  Mic:
+    long: Mika
+    short: Mi.
+  Nah:
+    long: Nagum
+    short: Nam.
+  Neh:
+    long: Nigimia
+    short: Nig.
+  Num:
+    long: Untaban
+    short: Un.
+  Obad:
+    long: Obaja
+    short: Ob.
+  Phil:
+    long: Pilipi
+    short: Plp.
+  Phlm:
+    long: Pilimon
+    short: Plm.
+  PrAzar:
+    long: PINARUANG RA DANIL
+  Prov:
+    long: Amsal
+    short: Ams.
+  Ps:
+    long: Mazmur
+    short: Mzm.
+  Rev:
+    long: Pinaintalang
+    short: Pin.
+  Rom:
+    long: Roma
+    short: Rm.
+  Ruth:
+    long: Rut
+    short: Rut
+  Sir:
+    long: Sirak
+    short: Sir.
+  Song:
+    long: Rimbai Pangamparan
+    short: Rim.
+  Sus:
+    long: Tunung Ri Susana Am I Danil
+  Titus:
+    long: Titus
+    short: Tit.
+  Tob:
+    long: Tobit
+    short: Tob.
+  Wis:
+    long: Kapintaran Ri Salomo
+    short: Kap.
+  Zech:
+    long: Jakaria
+    short: Ja.
+  Zeph:
+    long: Jipanya
+    short: Jip.

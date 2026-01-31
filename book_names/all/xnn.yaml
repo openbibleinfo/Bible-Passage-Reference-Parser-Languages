@@ -1,0 +1,278 @@
+- osis: Gen
+  texts:
+    - Genesis
+    - Gen.
+- osis: Exod
+  texts:
+    - Exodo
+    - Exo.
+- osis: Lev
+  texts:
+    - Levitico
+    - Lev.
+- osis: Num
+  texts:
+    - Nomero
+    - Nom.
+- osis: Sir
+  texts:
+    - Sirac
+    - Sir.
+- osis: Wis
+  texts:
+    - Silib
+    - Sil.
+- osis: Rev
+  texts:
+    - Naipagtek
+    - Nap.
+- osis: Deut
+  texts:
+    - Deuteronomio
+    - Deu.
+- osis: Josh
+  texts:
+    - Josue
+    - Jos.
+- osis: Judg
+  texts:
+    - Ookom
+    - Ook.
+- osis: Ruth
+  texts:
+    - Rut.
+    - Ruth
+- osis: Isa
+  texts:
+    - Isaias
+    - Isa.
+- osis: 1Sam
+  texts:
+    - 1 Samuel
+    - 1 Sam.
+    - 1. Samuel
+    - 1. Sam.
+- osis: 2Sam
+  texts:
+    - 2 Samuel
+    - 2 Sam.
+    - 2. Samuel
+    - 2. Sam.
+- osis: 1Kgs
+  texts:
+    - 1 Aal.
+    - 1 Aali
+    - 1. Aal.
+    - 1. Aali
+- osis: 2Kgs
+  texts:
+    - 2 Aal.
+    - 2 Aali
+    - 2. Aal.
+    - 2. Aali
+- osis: 2Chr
+  texts:
+    - 2 Cronicas
+    - 2 Cro.
+    - 2. Cronicas
+    - 2. Cro.
+- osis: Neh
+  texts:
+    - Nehemias
+    - Neh.
+- osis: Job
+  texts:
+    - Job
+- osis: Ps
+  texts:
+    - Salmo
+    - Sal.
+- osis: Prov
+  texts:
+    - Proverbio
+    - Pro.
+- osis: Eccl
+  texts:
+    - Eclesiastes
+    - Ecl.
+- osis: Jer
+  texts:
+    - Jeremias
+    - Jer.
+- osis: Ezek
+  texts:
+    - Ezekiel
+    - Eze.
+- osis: Dan
+  texts:
+    - Daniel
+    - Dan.
+- osis: Hos
+  texts:
+    - Oseas
+    - Ose.
+- osis: Joel
+  texts:
+    - Joe.
+    - Joel
+- osis: Amos
+  texts:
+    - Amo.
+    - Amos
+- osis: Jonah
+  texts:
+    - Jonas
+    - Jon.
+- osis: Mic
+  texts:
+    - Mikias
+    - Mik.
+- osis: Hab
+  texts:
+    - Habakuk
+    - Hab.
+- osis: Zeph
+  texts:
+    - Sofonias
+    - Sof.
+- osis: Zech
+  texts:
+    - Zacarias
+    - Zac.
+- osis: Mal
+  texts:
+    - Malakias
+    - Mal
+- osis: Matt
+  texts:
+    - Mateo
+    - Mat.
+- osis: Mark
+  texts:
+    - Marcos
+    - Mar.
+- osis: Luke
+  texts:
+    - Lucas
+    - Luc.
+- osis: 1John
+  texts:
+    - 1 Juan
+    - 1 Jn.
+    - 1. Juan
+    - 1. Jn.
+- osis: 2John
+  texts:
+    - 2 Juan
+    - 2 Jn.
+    - 2. Juan
+    - 2. Jn.
+- osis: 3John
+  texts:
+    - 3 Juan
+    - 3 Jn.
+    - 3. Juan
+    - 3. Jn.
+- osis: John
+  texts:
+    - Juan
+- osis: Acts
+  texts:
+    - Aapostolis
+    - Apos.
+- osis: Rom
+  texts:
+    - Rom.
+    - Roma
+- osis: 1Cor
+  texts:
+    - 1 Corinto
+    - 1 Cor.
+    - 1. Corinto
+    - 1. Cor.
+- osis: 2Cor
+  texts:
+    - 2 Corinto
+    - 2 Cor.
+    - 2. Corinto
+    - 2. Cor.
+- osis: Col
+  texts:
+    - Colosas
+    - Col.
+- osis: Gal
+  texts:
+    - Galacia
+    - Gal.
+- osis: Eph
+  texts:
+    - Efeso
+    - Efs.
+- osis: Phil
+  texts:
+    - Filipos
+    - Flp.
+- osis: 1Thess
+  texts:
+    - 1 Tesalonica
+    - 1 Tes.
+    - 1. Tesalonica
+    - 1. Tes.
+- osis: 2Thess
+  texts:
+    - 2 Tesalonica
+    - 2 Tes.
+    - 2. Tesalonica
+    - 2. Tes.
+- osis: 1Tim
+  texts:
+    - 1 Timoteo
+    - 1 Tim.
+    - 1. Timoteo
+    - 1. Tim.
+- osis: 2Tim
+  texts:
+    - 2 Timoteo
+    - 2 Tim.
+    - 2. Timoteo
+    - 2. Tim.
+- osis: Titus
+  texts:
+    - Tit.
+    - Tito
+- osis: Phlm
+  texts:
+    - Filemon
+    - Flm.
+- osis: Heb
+  texts:
+    - Hebreo
+    - Heb.
+- osis: Jas
+  texts:
+    - Santiago
+    - San.
+- osis: 1Pet
+  texts:
+    - 1 Pedro
+    - 1 Pet.
+    - 1. Pedro
+    - 1. Pet.
+- osis: 2Pet
+  texts:
+    - 2 Pedro
+    - 2 Pet.
+    - 2. Pedro
+    - 2. Pet.
+- osis: Jude
+  texts:
+    - Judas
+    - Jud.
+- osis: Jdt
+  texts:
+    - Judit
+    - Jdt.
+- osis: Bar
+  texts:
+    - Baruch
+    - Bar.

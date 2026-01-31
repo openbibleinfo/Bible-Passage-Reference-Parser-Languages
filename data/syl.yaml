@@ -1,0 +1,282 @@
+books:
+  - osis: Gen
+    texts:
+      - "Tourat 1: Foeda Nama"
+      - "তৌরাত ১: পয়দা নামা"
+      - "ꠔꠃꠞꠣꠔ ১: ꠙꠄꠖꠣ ꠘꠣꠝꠣ"
+      - Foeda
+      - পয়দা
+      - ꠙꠄꠖꠣ
+  - osis: Exod
+    texts:
+      - "Tourat 2: Hizrot"
+      - "তৌরাত ২: হিজরত"
+      - "ꠔꠃꠞꠣꠔ ২: ꠢꠤꠎꠞꠔ"
+      - Hiz
+      - হিজ
+      - ꠢꠤꠎ
+  - osis: Lev
+    texts:
+      - "তৌরাত ৩: লেবিয়ান"
+      - "Tourat 3: Lebian"
+      - "ꠔꠃꠞꠣꠔ ৩: ꠟꠦꠛꠤꠀꠘ"
+      - Lebi
+      - লেবি
+      - ꠟꠦꠛꠤ
+  - osis: Num
+    texts:
+      - "Tourat 4: Shumari"
+      - "তৌরাত ৪: শুমারি"
+      - "ꠔꠃꠞꠣꠔ ৪: ꠡꠥꠝꠣꠞꠤ"
+      - Shumari
+      - শুমারি
+      - ꠡꠥꠝꠣꠞꠤ
+  - osis: Rev
+    texts:
+      - Zaira Kalam
+      - জাইরা কালাম
+      - ꠎꠣꠁꠞꠣ ꠇꠣꠟꠣꠝ
+      - জাইরা
+      - Zair
+      - ꠎꠣꠁꠞ
+  - osis: Deut
+    texts:
+      - "Tourat 5: Dusra-Boyani"
+      - "তৌরাত ৫: দুছরা-বয়ানি"
+      - "ꠔꠃꠞꠣꠔ ৫: ꠖꠥꠍꠞꠣ-ꠛꠄꠀꠘꠤ"
+      - 2Boyani
+      - ২বয়ানি
+      - ২ꠛꠄꠀꠘꠤ
+  - osis: Ruth
+    texts:
+      - "Asmani Kitab: Rut"
+      - "আছমানি কিতাব: রুত"
+      - "ꠀꠍꠝꠣꠘꠤ ꠇꠤꠔꠣꠛ: ꠞꠥꠔ"
+      - Rut
+      - রুত
+      - ꠞꠥꠔ
+  - osis: Ps
+    texts:
+      - Zobur Shorif
+      - জবুর শরিফ
+      - ꠎꠛꠥꠞ ꠡꠞꠤꠚ
+      - Zobur
+      - জবুর
+      - ꠎꠛꠥꠞ
+  - osis: Jonah
+    texts:
+      - "Asmani Kitab: Iunus"
+      - "আছমানি কিতাব: ইউনুছ"
+      - "ꠀꠍꠝꠣꠘꠤ ꠇꠤꠔꠣꠛ: ꠁꠃꠘꠥꠍ"
+      - Iunus
+      - ইউনুছ
+      - ꠁꠃꠘꠥꠍ
+  - osis: Mal
+    texts:
+      - "Asmani Kitab: Malaki"
+      - "আছমানি কিতাব: মালাখি"
+      - মালাখি
+      - Mal
+  - osis: Matt
+    texts:
+      - Moti
+      - মথি
+      - ꠝꠕꠤ
+  - osis: Mark
+    texts:
+      - মার্কুছ
+      - ꠝꠣꠞ꠆ꠇꠥꠍ
+      - Markus
+      - মার্ক
+      - ꠝꠣꠞ꠆ꠇ
+      - Mark
+  - osis: Luke
+    texts:
+      - Luk
+      - লুক
+      - ꠟꠥꠇ
+  - osis: 1John
+    texts:
+      - ১-হান্নান
+      - ১-ꠢꠣꠘ꠆ꠘꠣꠘ
+      - 1-Hannan
+      - ১হান্ন
+      - ১ꠢꠣꠘ꠆ꠘ
+      - 1Han
+  - osis: 2John
+    texts:
+      - ২-হান্নান
+      - ২-ꠢꠣꠘ꠆ꠘꠣꠘ
+      - 2-Hannan
+      - ২হান্ন
+      - ২ꠢꠣꠘ꠆ꠘ
+      - 2Han
+  - osis: 3John
+    texts:
+      - ৩-হান্নান
+      - ৩-ꠢꠣꠘ꠆ꠘꠣꠘ
+      - 3-Hannan
+      - ৩হান্ন
+      - ৩ꠢꠣꠘ꠆ꠘ
+      - 3Han
+  - osis: John
+    texts:
+      - হান্নান
+      - ꠢꠣꠘ꠆ꠘꠣꠘ
+      - Hannan
+      - হান্ন
+      - ꠢꠣꠘ꠆ꠘ
+      - Hann
+  - osis: Acts
+    texts:
+      - Sahabi Nama
+      - সাহাবি নামা
+      - ꠍꠣꠢꠣꠛꠤ ꠘꠣꠝꠣ
+      - সাহাবি
+      - Sah
+      - ꠍꠣꠢ
+  - osis: Rom
+    texts:
+      - Ruman
+      - রোমান
+      - ꠞꠥꠝꠣꠘ
+      - Rum
+      - রোম
+      - ꠞꠥꠝ
+  - osis: 1Cor
+    texts:
+      - ১-করিন্থিয়া
+      - 1-Korintia
+      - ১-ꠇꠞꠤꠘ꠆ꠔꠤꠀ
+      - 1Kor
+      - ১কর
+      - ১ꠇꠞ
+  - osis: 2Cor
+    texts:
+      - ২-করিন্থিয়া
+      - 2-Korintia
+      - ২-ꠇꠞꠤꠘ꠆ꠔꠤꠀ
+      - 2Kor
+      - ২কর
+      - ২ꠇꠞ
+  - osis: Col
+    texts:
+      - কলোছিয়া
+      - Kolosia
+      - ꠇꠟ꠆ꠟꠍꠤꠀ
+      - ꠇꠟ꠆ꠟꠍ
+      - Kol
+      - কলছ
+  - osis: Gal
+    texts:
+      - গালাতিয়া
+      - Galatia
+      - ꠉꠣꠟꠣꠔꠤꠀ
+      - গালা
+      - ꠉꠣꠟꠣ
+      - Gal
+  - osis: Eph
+    texts:
+      - ইফিছিয়া
+      - Ifisia
+      - ꠁꠚꠤꠍꠤꠀ
+      - iFis
+      - ইফিছ
+      - ꠁꠚꠤꠍ
+  - osis: Phil
+    texts:
+      - ফিলিপিয়া
+      - Filifia
+      - ꠚꠤꠟꠤꠙꠤꠀ
+      - Flf
+      - ফলপ
+      - ꠚꠟꠙ
+  - osis: 1Thess
+    texts:
+      - ১-ꠕꠤꠡꠟꠘꠤꠇꠤꠀ
+      - "1-Tishol:"
+      - "১-থিষল:"
+      - 1Tis
+      - ১থিষ
+      - ১ꠕꠤꠡ
+  - osis: 2Thess
+    texts:
+      - ২-ꠕꠤꠡꠟꠘꠤꠇꠤꠀ
+      - "2-Tishol:"
+      - "২-থিষল:"
+      - 2Tis
+      - ২থিষ
+      - ২ꠕꠤꠡ
+  - osis: 1Tim
+    texts:
+      - 1-Timoti
+      - ১-তিমথি
+      - ১-ꠔꠤꠝꠕꠤ
+      - 1Tim
+      - ১তিম
+      - ১ꠔꠤꠝ
+  - osis: 2Tim
+    texts:
+      - 2-Timoti
+      - ২-তিমথি
+      - ২-ꠔꠤꠝꠕꠤ
+      - 2Tim
+      - ২তিম
+      - ২ꠔꠤꠝ
+  - osis: Titus
+    texts:
+      - Titas
+      - তীতাছ
+      - ꠔꠤꠔꠣꠍ
+      - Tit
+      - তীত
+      - ꠔꠤꠔ
+  - osis: Phlm
+    texts:
+      - Filimon
+      - ফিলিমন
+      - ꠚꠤꠟꠤꠝꠘ
+      - Flm
+      - ফলম
+      - ꠚꠟꠝ
+  - osis: Heb
+    texts:
+      - Ibrani
+      - ইবরানি
+      - ꠁꠛꠞꠣꠘꠤ
+      - Ibr
+      - ইবর
+      - ꠁꠛꠞ
+  - osis: Jas
+    texts:
+      - ইয়াকুব
+      - Iakub
+      - ꠁꠀꠇꠥꠛ
+      - Iak
+      - ꠁꠀꠇ
+  - osis: 1Pet
+    texts:
+      - 1-Fitor
+      - ১-পিতর
+      - ১-ꠙꠤꠔꠞ
+      - 1Fit
+      - ১পিত
+      - ১ꠙꠤꠔ
+  - osis: 2Pet
+    texts:
+      - 2-Fitor
+      - ২-পিতর
+      - ২-ꠙꠤꠔꠞ
+      - 2Fit
+      - ২পিত
+      - ২ꠙꠤꠔ
+  - osis: Jude
+    texts:
+      - Ehuda
+      - এহুদা
+      - ꠄꠢꠥꠖꠣ
+      - ꠄꠢꠥꠖ
+translations:
+  - SYLL
+  - SYLN
+  - SYLB

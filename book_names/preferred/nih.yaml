@@ -1,0 +1,165 @@
+default:
+  1Cor:
+    long: 1 Avhakolinto
+    short: 1 Avhakolinto
+  1John:
+    long: 1 Uyoohani
+    short: 1 Uyoohani
+  1Pet:
+    long: 1 Peteli
+    short: 1 Pet
+  1Thess:
+    long: 1 Avhatesaloniiki
+    short: 1 Avhatesaloniiki
+  1Tim:
+    long: 1 Timoti
+    short: 1 Tim
+  2Cor:
+    long: 2 Avhakolinto
+    short: 2 Avhakolinto
+  2John:
+    long: 2 Uyoohani
+    short: 2 Uyoohani
+  2Pet:
+    long: 2 Peteli
+    short: 2 Pet
+  2Thess:
+    long: 2 Avhatesaloniiki
+    short: 2 Avhatesaloniiki
+  2Tim:
+    long: 2 Timoti
+    short: 2 Tim
+  3John:
+    long: 3 Uyoohani
+    short: 3 Uyoohani
+  Acts:
+    long: Imbombo zya Vapositili
+    short: Imbombo zya Vapositili
+  Col:
+    long: Kolosi
+    short: Kol
+  Eph:
+    long: VaEfeso
+    short: Efe
+  Gal:
+    long: VaGalati
+    short: Gal
+  Heb:
+    long: VaHebuli
+    short: Vah
+  Jas:
+    long: Yakobu
+    short: Yak
+  John:
+    long: Yohani
+    short: Yoh.
+  Jude:
+    long: Yuda
+    short: Yud
+  Luke:
+    long: Luka
+    short: Luk.
+  Mark:
+    long: Maliko
+    short: Mal.
+  Matt:
+    long: Matayi
+    short: Mat.
+  Phil:
+    long: Filipi
+    short: Fili
+  Phlm:
+    long: Filemoni
+    short: Fil
+  Rev:
+    long: iShitushizya
+    short: Ishi
+  Rom:
+    long: VaLoma
+    short: Va
+  Titus:
+    long: Titi
+    short: Tit
+translations:
+  nyi1965:
+    1Cor:
+      long: 1 VaKolinti
+      short: 1 Kol.
+    1John:
+      long: 1 Yohani
+      short: 1 Yoh
+    1Thess:
+      long: 1 Vatesaloniki
+      short: 1 Te
+    2Cor:
+      long: 2 VaKolinti
+      short: 2 Kol
+    2John:
+      long: 2 Yohani
+      short: 2 Yoh
+    2Thess:
+      long: 2 Vatesaloniki
+      short: 2 Te
+    3John:
+      long: 3 Yohani
+      short: 3 Yoh
+  nih:
+    1Pet:
+      long: 1 Upeeteli
+      short: 1 Upeeteli
+    1Tim:
+      long: 1 Utiimoti
+      short: 1 Utiimoti
+    2Pet:
+      long: 2 Upeeteli
+      short: 2 Upeeteli
+    2Tim:
+      long: 2 Utiimoti
+      short: 2 Utiimoti
+    Acts:
+      long: iMbombo izya Vhatumwa
+      short: iMbombo izya Vhatumwa
+    Col:
+      long: aVhakolosaayi
+      short: aVhakolosaayi
+    Eph:
+      long: aVhahefeeso
+      short: aVhahefeeso
+    Gal:
+      long: aVhagalaatiya
+      short: aVhagalaatiya
+    Heb:
+      long: aVhahebuuli
+      short: aVhahebuuli
+    Jas:
+      long: uYaakobu
+      short: uYaakobu
+    John:
+      long: uYoohani
+      short: uYoohani
+    Jude:
+      long: uYuuda
+      short: uYuuda
+    Luke:
+      long: uLuuka
+      short: uLuuka
+    Mark:
+      long: uMaaliko
+      short: uMaaliko
+    Matt:
+      long: uMataayi
+      short: uMataayi
+    Phil:
+      long: aVhafiilipi
+      short: aVhafiilipi
+    Phlm:
+      long: uFilimooni
+      short: uFilimooni
+    Rev:
+      short: iShitushizya
+    Rom:
+      long: aVhaluumi
+      short: aVhaluumi
+    Titus:
+      long: uTiiti
+      short: uTiiti

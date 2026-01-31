@@ -1,0 +1,134 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Na-kel-vǝhoti-an
+      - KelV
+  - osis: Matt
+    texts:
+      - Mattiu
+      - Mat
+  - osis: Mark
+    texts:
+      - Mak
+  - osis: Luke
+    texts:
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Jon
+  - osis: 2John
+    texts:
+      - 2Jon
+  - osis: 3John
+    texts:
+      - 3 Jon
+      - 3Jon
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jon
+  - osis: Acts
+    texts:
+      - Nauman gail
+      - Uman
+  - osis: Rom
+    texts:
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korint
+  - osis: 1Cor
+    texts:
+      - 1Kor
+  - osis: 2Cor
+    texts:
+      - 2Kor
+  - osis: Col
+    texts:
+      - Kolosse
+      - Kol
+  - osis: Gal
+    texts:
+      - Kalatia
+      - Kal
+  - osis: Eph
+    texts:
+      - Efesus
+      - Efe
+  - osis: Phil
+    texts:
+      - Filippi
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tessalonika
+  - osis: 1Thess
+    texts:
+      - 1Tes
+  - osis: 2Thess
+    texts:
+      - 2Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Titus
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filem̃on
+      - Flm
+  - osis: Heb
+    texts:
+      - NaIpru gail
+      - Ipru
+  - osis: Jas
+    texts:
+      - Jemes
+      - Jem
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+  - osis: 1Pet
+    texts:
+      - 1Pit
+  - osis: 2Pet
+    texts:
+      - 2Pit
+  - osis: Jude
+    texts:
+      - Jut
+translations:
+  - KLV

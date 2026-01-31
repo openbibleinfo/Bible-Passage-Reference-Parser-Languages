@@ -1,0 +1,113 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Nat Jax Tɨ Tɨɨ Gu Juan
+      - Ap.
+  - osis: Matt
+    texts:
+      - Mateo
+      - Mt.
+  - osis: Mark
+    texts:
+      - Maarkos
+      - Mr.
+  - osis: Luke
+    texts:
+      - Luukas
+      - Lc.
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Juan
+      - Jn.
+  - osis: Acts
+    texts:
+      - Gu Noonbiꞌñ Guch Xoiꞌkam
+      - Hch.
+  - osis: Rom
+    texts:
+      - Rooma Kam
+      - Ro.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Koriinto Kam
+      - Co.
+  - osis: Col
+    texts:
+      - Koloosas Kam
+      - Col.
+  - osis: Gal
+    texts:
+      - Galaasia Kam
+      - Gá.
+  - osis: Eph
+    texts:
+      - Eepeso Kam
+      - Ef.
+  - osis: Phil
+    texts:
+      - Piliipos Kam
+      - Fil.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaloonika Kam
+      - Ts.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+      - Ti.
+  - osis: Titus
+    texts:
+      - Tiito
+      - Tit.
+  - osis: Phlm
+    texts:
+      - Pilimoon
+      - Flm.
+  - osis: Heb
+    texts:
+      - Israel Kam
+      - He.
+  - osis: Jas
+    texts:
+      - Santiago
+      - Stg.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peegro
+      - P.
+  - osis: Jude
+    texts:
+      - Juudas
+      - Jud.
+translations:
+  - STP

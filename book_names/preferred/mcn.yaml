@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Labar-ma-liyna
+    short: 1 Lml
+  1Cor:
+    long: 1 Korintena
+    short: 1 Kor
+  1John:
+    long: 1 Yohana
+    short: 1 Yoh
+  1Kgs:
+    long: 1 Muliyana
+    short: 1 Mul
+  1Pet:
+    long: 1 Peter
+    short: 1 Pet
+  1Sam:
+    long: 1 Samuel
+    short: 1 Sam
+  1Thess:
+    long: 1 Tesalonikŋa
+    short: 1 Tes
+  1Tim:
+    long: 1 Timotewus
+    short: 1 Tim
+  2Chr:
+    long: 2 Labar-ma-liyna
+    short: 2 Lml
+  2Cor:
+    long: 2 Korintena
+    short: 2 Kor
+  2John:
+    long: 2 Yohana
+    short: 2 Yoh
+  2Kgs:
+    long: 2 Muliyana
+    short: 2 Mul
+  2Pet:
+    long: 2 Peter
+    short: 2 Pet
+  2Sam:
+    long: 2 Samuel
+    short: 2 Sam
+  2Thess:
+    long: 2 Tesalonikŋa
+    short: 2 Tes
+  2Tim:
+    long: 2 Timotewus
+    short: 2 Tim
+  3John:
+    long: 3 Yohana
+    short: 3 Yoh
+  Acts:
+    long: Lopna
+    short: Lop Ap
+  Amos:
+    long: Amos
+    short: Am
+  Col:
+    long: Kolosena
+    short: Kol
+  Dan:
+    long: Daniel
+    short: Dan
+  Deut:
+    long: Gatta-sem-ma'ta
+    short: Gsm
+  Eccl:
+    long: Sa Ma Kusta
+    short: Smk
+  Eph:
+    long: Efesena
+    short: Efes
+  Esth:
+    long: Ester
+    short: Est
+  Exod:
+    long: Kal-goyta
+    short: Kg
+  Ezek:
+    long: Ezekiyel
+    short: Ezek
+  Ezra:
+    long: Esdras
+    short: Esd
+  Gal:
+    long: Galatena
+    short: Gal
+  Gen:
+    long: Cawa'ta Tunita
+    short: Ct
+  Hab:
+    long: Habakuk
+    short: Hab
+  Hag:
+    long: Haggeya
+    short: Hag
+  Heb:
+    long: Hebrena
+    short: Heb
+  Hos:
+    long: Hoseya
+    short: Hos
+  Isa:
+    long: Esaya
+    short: Es
+  Jas:
+    long: Yakub
+    short: Yak
+  Jer:
+    long: Yeremiyas
+    short: Yer
+  Job:
+    long: Job
+    short: Job
+  Joel:
+    long: Jowel
+    short: Jwl
+  John:
+    long: Yohana
+    short: Yoh
+  Jonah:
+    long: Yonas
+    short: Yon
+  Josh:
+    long: Yosuwa
+    short: Yos
+  Jude:
+    long: Yudas
+    short: Yud
+  Judg:
+    long: Sa Ka Kitana
+    short: Skk
+  Lam:
+    long: Tiyna Vi Yeremiyas
+    short: Ty
+  Lev:
+    long: Sa Levitna
+    short: Slv
+  Luke:
+    long: Lukas
+    short: Luk
+  Mal:
+    long: Malakiya
+    short: Mal
+  Mark:
+    long: Markus
+    short: Mark
+  Matt:
+    long: Matewus
+    short: Mat
+  Mic:
+    long: Mikka
+    short: MiK
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nehemiya
+    short: Neh
+  Num:
+    long: Ŋaɓta
+    short: Ŋɓ
+  Obad:
+    long: Abdiyas
+    short: Abd
+  Phil:
+    long: Filipina
+    short: Fil
+  Phlm:
+    long: Filemon
+    short: Flm
+  Prov:
+    long: Law Ma Nir-niramna
+    short: Lmn
+  Ps:
+    long: Nulla
+    short: Nul
+  Rev:
+    long: Wid-ŋayayta
+    short: Wŋ
+  Rom:
+    long: Romena
+    short: Rom
+  Ruth:
+    long: Rut
+    short: Rut
+  Song:
+    long: Nul Ma Suw Nulla
+    short: Nsn
+  Titus:
+    long: Titus
+    short: Tit
+  Zech:
+    long: Zakariya
+    short: Zak
+  Zeph:
+    long: Sofoniya
+    short: Sof

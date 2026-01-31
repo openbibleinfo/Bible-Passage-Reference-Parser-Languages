@@ -1,0 +1,44 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Ruth
+    texts:
+      - Rutu
+  - osis: Jonah
+    texts:
+      - Tiona
+  - osis: Mark
+    texts:
+      - Maki
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Tione
+  - osis: Col
+    texts:
+      - Korosae
+  - osis: Eph
+    texts:
+      - Episasi
+  - osis: Phil
+    texts:
+      - Piripae
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaronaeka
+translations:
+  - ALU

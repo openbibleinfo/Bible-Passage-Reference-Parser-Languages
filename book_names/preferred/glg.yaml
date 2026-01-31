@@ -1,0 +1,220 @@
+default:
+  1Chr:
+    long: 1 Crónicas
+    short: 1Cr
+  1Cor:
+    long: 1 Corintios
+    short: 1Co
+  1John:
+    long: 1 Xoán
+    short: 1Xn
+  1Kgs:
+    long: 1 Reis
+    short: 1Re
+  1Macc:
+    long: 1 Macabeos
+    short: 1Mc
+  1Pet:
+    long: 1 Pedro
+    short: 1Pe
+  1Sam:
+    long: 1 Samuel
+    short: 1Sa
+  1Thess:
+    long: 1 Tesalonicenses
+    short: 1Ts
+  1Tim:
+    long: 1 Timoteo
+    short: 1Tm
+  2Chr:
+    long: 2 Crónicas
+    short: 2Cr
+  2Cor:
+    long: 2 Corintios
+    short: 2Co
+  2John:
+    long: 2 Xoán
+    short: 2Xn
+  2Kgs:
+    long: 2 Reis
+    short: 2Re
+  2Macc:
+    long: 2 Macabeos
+    short: 2Mc
+  2Pet:
+    long: 2 Pedro
+    short: 2Pe
+  2Sam:
+    long: 2 Samuel
+    short: 2Sa
+  2Thess:
+    long: 2 Tesalonicenses
+    short: 2Ts
+  2Tim:
+    long: 2 Timoteo
+    short: 2Tm
+  3John:
+    long: 3 Xoán
+    short: 3Xn
+  Acts:
+    long: Feitos
+    short: Fts
+  Amos:
+    long: Amós
+    short: Amó
+  Bar:
+    long: Baruc
+    short: Bar
+  Col:
+    long: Colosenses
+    short: Col
+  DanGr:
+    long: Daniel
+    short: DaG
+  Deut:
+    long: Deuteronomio
+    short: Dt
+  Eccl:
+    long: Qohélet (Eclesiastés)
+    short: Ecl
+  Eph:
+    long: Efesios
+    short: Efe
+  EsthGr:
+    long: Ester
+    short: EsG
+  Exod:
+    long: Éxodo
+    short: Éxo
+  Ezek:
+    long: Ezequiel
+    short: Ezq
+  Ezra:
+    long: Esdras
+    short: Esd
+  Gal:
+    long: Gálatas
+    short: Gál
+  Gen:
+    long: Xénese
+    short: Xén
+  Hab:
+    long: Habacuc
+    short: Hab
+  Hag:
+    long: Axeo
+    short: Axe
+  Heb:
+    long: Hebreos
+    short: Heb
+  Hos:
+    long: Oseas
+    short: Ose
+  Isa:
+    long: Isaías
+    short: Isa
+  Jas:
+    long: Santiago
+    short: Stg
+  Jdt:
+    long: Xudit
+    short: Xud
+  Jer:
+    long: Xeremías
+    short: Xer
+  Job:
+    long: Xob
+    short: Xob
+  Joel:
+    long: Xoel
+    short: Xoe
+  John:
+    long: Xoán
+    short: Xn
+  Jonah:
+    long: Xonás
+    short: Xon
+  Josh:
+    long: Xosué
+    short: Xos
+  Jude:
+    long: Xudas
+    short: Xdt
+  Judg:
+    long: Xuíces
+    short: Xuí
+  Lam:
+    long: Lamentacións
+    short: Lam
+  Lev:
+    long: Levítico
+    short: Lev
+  Luke:
+    long: Lucas
+    short: Lc
+  Mal:
+    long: Malaquías
+    short: Mal
+  Mark:
+    long: Marcos
+    short: Mr
+  Matt:
+    long: Mateo
+    short: Mt
+  Mic:
+    long: Miqueas
+    short: Miq
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nehemías
+    short: Neh
+  Num:
+    long: Números
+    short: Núm
+  Obad:
+    long: Abdías
+    short: Abd
+  Phil:
+    long: Filipenses
+    short: Flp
+  Phlm:
+    long: Filemón
+    short: Flm
+  Prov:
+    long: Proverbios
+    short: Pro
+  Ps:
+    long: Salmos
+    short: Sal
+  Rev:
+    long: Apocalipse
+    short: Apo
+  Rom:
+    long: Romanos
+    short: Rom
+  Ruth:
+    long: Rut
+    short: Rut
+  Sir:
+    long: Eclesiástico
+    short: Sir
+  Song:
+    long: Cantares
+    short: Cnt
+  Titus:
+    long: Tito
+    short: Tit
+  Tob:
+    long: Tobías
+    short: Tob
+  Wis:
+    long: Sabedoría
+    short: Sab
+  Zech:
+    long: Zacarías
+    short: Zac
+  Zeph:
+    long: Sofonías
+    short: Sof

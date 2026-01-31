@@ -1,0 +1,118 @@
+variables:
+  first: &first
+    - "1"
+    - Omoŋ
+  second: &second
+    - "2"
+    - Pɛɛyeen
+books:
+  - osis: Rev
+    texts:
+      - Dɛnɛɛ Pɛrka Yowanisik
+      - Dpy
+  - osis: Matt
+    texts:
+      - Maatiyoos
+      - Maa.
+  - osis: Mark
+    texts:
+      - Markoos
+      - Mar.
+  - osis: Luke
+    texts:
+      - Lukaas
+      - Luk.
+  - osis: 3John
+    texts:
+      - Jiiteen Yowanisik
+      - 3 Yow
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yowanisik
+      - Yow
+  - osis: John
+    texts:
+      - Yowanis
+      - Yow.
+  - osis: Acts
+    texts:
+      - Ijaag Wosɛytaanakoŋk
+      - Ija.
+  - osis: Rom
+    texts:
+      - Roome
+      - Roo
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korontoosuk
+      - Kor
+  - osis: Col
+    texts:
+      - Kolasiis
+      - Kol
+  - osis: Gal
+    texts:
+      - Gɛlatiyaa
+      - Gɛl
+  - osis: Eph
+    texts:
+      - Epesoon
+      - Epe
+  - osis: Phil
+    texts:
+      - Pilipisiyoos
+      - Phi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tɛsɛlonkeek
+      - Tɛs
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotiyoosuk
+      - Tim
+  - osis: Titus
+    texts:
+      - Tiito
+      - Tii
+  - osis: Phlm
+    texts:
+      - Pilimoona
+      - Phm
+  - osis: Heb
+    texts:
+      - Ibirawiyaan
+      - Ibi
+  - osis: Jas
+    texts:
+      - Yaykoob
+      - Yay
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petrosuk
+      - Pet
+  - osis: Jude
+    texts:
+      - Yuuda
+      - Yuu
+translations:
+  - KSTM

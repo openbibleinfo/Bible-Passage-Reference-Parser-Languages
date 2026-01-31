@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Sayikereewa
+  - osis: Matt
+    texts:
+      - Matio
+  - osis: Mark
+    texts:
+      - Marako
+  - osis: Luke
+    texts:
+      - Luka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohane
+  - osis: Acts
+    texts:
+      - Sayoowam
+  - osis: Rom
+    texts:
+      - Romafɔm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kɔrintofɔm
+  - osis: Col
+    texts:
+      - Kolosiyafɔm
+  - osis: Gal
+    texts:
+      - Galaatiyafɔm
+  - osis: Eph
+    texts:
+      - Ɛfɛsofɔm
+  - osis: Phil
+    texts:
+      - Filipiyafɔm
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tɛsalonikafɔm
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: Titus
+    texts:
+      - Titosi
+  - osis: Phlm
+    texts:
+      - Filemon
+  - osis: Heb
+    texts:
+      - Hiburufɔm
+  - osis: Jas
+    texts:
+      - Yakobo
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petoro
+  - osis: Jude
+    texts:
+      - Juda
+translations:
+  - CKO

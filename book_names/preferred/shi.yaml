@@ -1,0 +1,282 @@
+default:
+  1Chr:
+    long: 1 uwssan
+    short: 1 uwssan
+  1Cor:
+    long: 1 Kurintus
+    short: 1 Kurintus
+  1John:
+    long: 1 Yuḥanna
+    short: 1 Yuḥanna
+  1Kgs:
+    long: 1 igldan
+    short: 1 igldan
+  1Pet:
+    long: 1 bṭrus
+    short: 1 bṭrus
+  1Sam:
+    long: 1 ṣamwil
+    short: 1 ṣamwil
+  1Thess:
+    long: 1 tasaluniki
+    short: 1 tasaluniki
+  1Tim:
+    long: 1 timutaws
+    short: 1 timutaws
+  2Chr:
+    long: 2 uwssan
+    short: 2 uwssan
+  2Cor:
+    long: 2 Kurintus
+    short: 2 Kurintus
+  2John:
+    long: 2 Yuḥanna
+    short: 2 Yuḥanna
+  2Kgs:
+    long: 2 igldan
+    short: 2 igldan
+  2Pet:
+    long: 2 bṭrus
+    short: 2 bṭrus
+  2Sam:
+    long: 2 ṣamwil
+    short: 2 ṣamwil
+  2Thess:
+    long: 2 tasaluniki
+    short: 2 tasaluniki
+  2Tim:
+    long: 2 timutaws
+    short: 2 timutaws
+  3John:
+    long: 3 Yuḥanna
+    short: 3 Yuḥanna
+  Acts:
+    long: irqqasn
+    short: irqqasn
+  Amos:
+    long: ɛamus
+    short: ɛamus
+  Col:
+    long: Kulussi
+    short: Kulussi
+  Dan:
+    long: danyal
+    short: danyal
+  Deut:
+    long: tinbaḍin
+    short: tinbaḍin
+  Eccl:
+    long: amslmd
+    short: amslmd
+  Eph:
+    long: afsus
+    short: afsus
+  Esth:
+    long: astir
+    short: astir
+  Exod:
+    long: ufuġ
+    short: ufuġ
+  Ezek:
+    long: iḥazqyal
+    short: iḥazqyal
+  Ezra:
+    long: ɛazra
+    short: ɛazra
+  Gal:
+    long: galaṭiyya
+    short: galaṭiyya
+  Gen:
+    long: isizwur
+    short: isizwur
+  Hab:
+    long: ḥabaqquq
+    short: ḥabaqquq
+  Hag:
+    long: ḥaggay
+    short: ḥaggay
+  Heb:
+    long: iɛbrin
+    short: iɛbrin
+  Hos:
+    long: hušaɛ
+    short: hušaɛ
+  Isa:
+    long: išaɛyah
+    short: išaɛyah
+  Jas:
+    long: yaɛqub
+    short: yaɛqub
+  Jer:
+    long: irmiyah
+    short: irmiyah
+  Job:
+    long: Ayyub
+    short: Ayyub
+  Joel:
+    long: yuwil
+    short: yuwil
+  John:
+    long: Yuḥanna
+    short: Yuḥanna
+  Jonah:
+    long: yunah
+    short: yunah
+  Josh:
+    long: yahušuɛ
+    short: yahušuɛ
+  Jude:
+    long: Yahuda
+    short: Yahuda
+  Judg:
+    long: iriyasn
+    short: iriyasn
+  Lam:
+    long: ismummʷin
+    short: ismummʷin
+  Lev:
+    long: ayt‑lawi
+    short: ayt‑lawi
+  Luke:
+    long: Luqa
+    short: Luqa
+  Mal:
+    long: malah̬i
+    short: malah̬i
+  Mark:
+    long: Marqus
+    short: Marqus
+  Matt:
+    long: Matta
+    short: Matta
+  Mic:
+    long: mih̬ah
+    short: mih̬ah
+  Nah:
+    long: Naḥum
+    short: Naḥum
+  Neh:
+    long: naḥamyah
+    short: naḥamyah
+  Num:
+    long: tasutin
+    short: tasutin
+  Obad:
+    long: ɛubadyah
+    short: ɛubadyah
+  Phil:
+    long: Filibbi
+    short: Filibbi
+  Phlm:
+    long: Filimun
+    short: Filimun
+  Prov:
+    long: imrwasn
+    short: imrwasn
+  Ps:
+    long: imurign
+    short: imurign
+  Rev:
+    long: anurẓm
+    short: anurẓm
+  Rom:
+    long: Ruma
+    short: Ruma
+  Ruth:
+    long: raɛut
+    short: raɛut
+  Song:
+    long: tallġat n‑suliman
+    short: tallġat n‑suliman
+  Titus:
+    long: tiṭus
+    short: tiṭus
+  Zech:
+    long: zakaryah
+    short: zakaryah
+  Zeph:
+    long: ṣafanyah
+    short: ṣafanyah
+translations:
+  shint10:
+    1Cor:
+      long: 1 كورينتوس
+      short: 1 كورينتوس
+    1John:
+      long: 1 يوحانّا
+      short: 1 يوحانّا
+    1Pet:
+      long: 1 بطرُس
+      short: 1 بطرُس
+    1Thess:
+      long: 1 تاسالونيكي
+      short: 1 تاسالونيكي
+    1Tim:
+      long: 1 تيموتاوس
+      short: 1 تيموتاوس
+    2Cor:
+      long: 2 كورينتوس
+      short: 2 كورينتوس
+    2John:
+      long: 2 يوحانّا
+      short: 2 يوحانّا
+    2Pet:
+      long: 2 بطرُس
+      short: 2 بطرُس
+    2Thess:
+      long: 2 تاسالونيكي
+      short: 2 تاسالونيكي
+    2Tim:
+      long: 2 تيموتاوس
+      short: 2 تيموتاوس
+    3John:
+      long: 3 يوحانّا
+      short: 3 يوحانّا
+    Acts:
+      long: يرقّاسن
+      short: يرقّاسن
+    Col:
+      long: كولوسّي
+      short: كولوسّي
+    Eph:
+      long: افسوس
+      short: افسوس
+    Gal:
+      long: گالاطيّا
+      short: گالاطيّا
+    Heb:
+      long: يعبرين
+      short: يعبرين
+    Jas:
+      long: ياعقوب
+      short: ياعقوب
+    John:
+      long: يوحانّا
+      short: يوحانّا
+    Jude:
+      long: ياهودا
+      short: ياهودا
+    Luke:
+      long: لوقا
+      short: لوقا
+    Mark:
+      long: مارقُس
+      short: مارقُس
+    Matt:
+      long: ماتّا
+      short: ماتّا
+    Phil:
+      long: فيليبّي
+      short: فيليبّي
+    Phlm:
+      long: فيليمون
+      short: فيليمون
+    Rev:
+      long: انورژم
+      short: انورژم
+    Rom:
+      long: روما
+      short: روما
+    Titus:
+      long: تيطوس
+      short: تيطوس

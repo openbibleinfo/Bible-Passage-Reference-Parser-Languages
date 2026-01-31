@@ -1,0 +1,290 @@
+- osis: Gen
+  texts:
+    - Baɗitari
+    - Baɗ
+- osis: Exod
+  texts:
+    - Səɓəlari
+    - Səɓ
+- osis: Lev
+  texts:
+    - Pristayeri
+    - Prist
+- osis: Num
+  texts:
+    - Jikayeri
+    - Jik
+- osis: Lam
+  texts:
+    - Jikatuwayeri
+    - Jikatu
+- osis: Rev
+  texts:
+    - Aka Yahwana
+    - Kəl Yah
+- osis: Deut
+  texts:
+    - Zwarəngkər Shariya
+    - Z. Sha
+- osis: Josh
+  texts:
+    - Joshuwa
+    - Josh
+- osis: Judg
+  texts:
+    - Alkaliyayeri
+    - Alk
+- osis: Ruth
+  texts:
+    - Ruth
+- osis: Isa
+  texts:
+    - Ishaya
+    - Ish
+- osis: 1Sam
+  texts:
+    - 1 Samiwal
+    - 1 Sam
+    - 1. Samiwal
+    - 1. Sam
+- osis: 2Sam
+  texts:
+    - 2 Samiwal
+    - 2 Sam
+    - 2. Samiwal
+    - 2. Sam
+- osis: 1Kgs
+  texts:
+    - 1 Kuthlyayeri
+    - 1 Kuth
+    - 1. Kuthlyayeri
+    - 1. Kuth
+- osis: 2Kgs
+  texts:
+    - 2 Kuthlyayeri
+    - 2 Kuth
+    - 2. Kuthlyayeri
+    - 2. Kuth
+- osis: 1Chr
+  texts:
+    - 1 Labar Na Waci
+    - 1 Lab Wac
+    - 1. Labar Na Waci
+    - 1. Lab Wac
+- osis: 2Chr
+  texts:
+    - 2 Lab Wac
+    - 2 Lab
+    - 2. Lab Wac
+    - 2. Lab
+- osis: Ezra
+  texts:
+    - Ezra
+- osis: Neh
+  texts:
+    - Neh
+- osis: Esth
+  texts:
+    - Esta
+- osis: Job
+  texts:
+    - Ayuba
+    - Ayu
+- osis: Ps
+  texts:
+    - Zabura
+    - Zab
+- osis: Prov
+  texts:
+    - Karapwayeri
+    - Kar
+- osis: Eccl
+  texts:
+    - M. Ngkəra
+- osis: Song
+  texts:
+    - H. Ha Hayeri
+    - H. Ha
+- osis: Jer
+  texts:
+    - Irmiya
+    - Irm
+- osis: Ezek
+  texts:
+    - Ezekiyel
+    - Ezek
+- osis: Dan
+  texts:
+    - Daniyel
+    - Dan
+- osis: Hos
+  texts:
+    - Hoseya
+    - Hos
+- osis: Joel
+  texts:
+    - Yowel
+    - Yo
+- osis: Amos
+  texts:
+    - Amos
+- osis: Obad
+  texts:
+    - Obadiya
+    - Obad
+- osis: Jonah
+  texts:
+    - Jona
+- osis: Mic
+  texts:
+    - Mika
+- osis: Nah
+  texts:
+    - Nahum
+    - Nah
+- osis: Hab
+  texts:
+    - Habakkuk
+    - Hab
+- osis: Zeph
+  texts:
+    - Zafaniya
+    - Zaf
+- osis: Hag
+  texts:
+    - Haggai
+    - Hag
+- osis: Zech
+  texts:
+    - Zakariya
+    - Zak
+- osis: Mal
+  texts:
+    - Malaki
+    - Mal
+- osis: Matt
+  texts:
+    - Mathliyu
+    - Mat
+- osis: Mark
+  texts:
+    - Markus
+    - Mar
+- osis: Luke
+  texts:
+    - Luka
+    - Luk
+- osis: 1John
+  texts:
+    - 1 Yahwana
+    - 1 Yah
+    - 1. Yahwana
+    - 1. Yah
+- osis: 2John
+  texts:
+    - 2 Yahwana
+    - 2 Yah
+    - 2. Yahwana
+    - 2. Yah
+- osis: 3John
+  texts:
+    - 3 Yahwana
+    - 3 Yah
+    - 3. Yahwana
+    - 3. Yah
+- osis: John
+  texts:
+    - Yahwana
+    - Yah
+- osis: Acts
+  texts:
+    - Kəth Apos
+- osis: Rom
+  texts:
+    - Mjir Rom
+    - Rom
+- osis: 1Cor
+  texts:
+    - 1 Korinthli
+    - 1 Kor
+    - 1. Korinthli
+    - 1. Kor
+- osis: 2Cor
+  texts:
+    - 2 Korinthli
+    - 2 Kor
+    - 2. Korinthli
+    - 2. Kor
+- osis: Col
+  texts:
+    - Kolossi
+    - Kol
+- osis: Gal
+  texts:
+    - Galatiya
+    - Gal
+- osis: Eph
+  texts:
+    - Afisa
+    - Afis
+- osis: Phil
+  texts:
+    - Fəlippi
+    - Fəl
+- osis: 1Thess
+  texts:
+    - 1 Thlas
+    - 1. Thlas
+- osis: 1Thess
+  texts:
+    - 1Thlassalonika
+- osis: 2Thess
+  texts:
+    - 2 Thlassalonika
+    - 2 Thlas
+    - 2. Thlassalonika
+    - 2. Thlas
+- osis: 1Tim
+  texts:
+    - 1 Timothli
+    - 1 Tim
+    - 1. Timothli
+    - 1. Tim
+- osis: 2Tim
+  texts:
+    - 2 Timothli
+    - 2 Tim
+    - 2. Timothli
+    - 2. Tim
+- osis: Titus
+  texts:
+    - Titus
+    - Tit
+- osis: Phlm
+  texts:
+    - Fəlimon
+    - Fəlm
+- osis: Heb
+  texts:
+    - Ibrani
+    - Ibr
+- osis: Jas
+  texts:
+    - Yakub
+    - Yak
+- osis: 1Pet
+  texts:
+    - 1 Bitrəs
+    - 1 Bit
+    - 1. Bitrəs
+    - 1. Bit
+- osis: 2Pet
+  texts:
+    - 2 Bitrəs
+    - 2 Bit
+    - 2. Bitrəs
+    - 2. Bit
+- osis: Jude
+  texts:
+    - Yahuda
+    - Yahu

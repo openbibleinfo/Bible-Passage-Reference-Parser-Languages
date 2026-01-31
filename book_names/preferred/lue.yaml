@@ -1,0 +1,276 @@
+default:
+  1Chr:
+    long: Mukanda Wamijimbu 1
+    short: Miji. 1,
+  1Cor:
+    long: 1 Kolinde
+    short: 1 Koli
+  1John:
+    long: 1 Yowano
+    short: 1 Yowa
+  1Kgs:
+    long: Vamyangana 1
+    short: Vamya. 1,
+  1Pet:
+    long: 1 Petulu
+    short: 1 Pet
+  1Sam:
+    long: Samwele 1
+    short: Samwe. 1,
+  1Thess:
+    long: 1 Tesolonyika
+    short: 1 Teso
+  1Tim:
+    long: 1 Chimoteu
+    short: 1 Chim
+  2Chr:
+    long: Mukanda Wamijimbu 2
+    short: Miji. 2,
+  2Cor:
+    long: 2 Kolinde
+    short: 2 Koli
+  2John:
+    long: 2 Yowano
+    short: 2 Yowa
+  2Kgs:
+    long: Vamyangana 2
+    short: Vamya. 2,
+  2Pet:
+    long: 2 Petulu
+    short: 2 Pet
+  2Sam:
+    long: Samwele 2
+    short: Samwe. 2,
+  2Thess:
+    long: 2 Tesolonyika
+    short: 2 Teso
+  2Tim:
+    long: 2 Chimoteu
+    short: 2 Chim
+  3John:
+    long: 3 Yowano
+    short: 3 Yowa
+  Acts:
+    long: Vilinga
+    short: Vili
+  Amos:
+    long: Amose
+    short: Amo.
+  Col:
+    long: Kolose
+    short: Kolo
+  Dan:
+    long: Ndanyele
+    short: Ndanye.
+  Deut:
+    long: Luximbi Lwamucivali
+    short: Luxi.
+  Eccl:
+    long: Muka-kwambulula
+    short: Kwambu.
+  Eph:
+    long: Efwesu
+    short: Efwe
+  Esth:
+    long: Eseta
+    short: Ese.
+  Exod:
+    long: Kulovoka
+    short: Kulo.
+  Ezek:
+    long: Ezekele
+    short: Ezeke.
+  Ezra:
+    long: Ezela
+    short: Ezela
+  Gal:
+    long: Ngalesha
+    short: Ngal
+  Gen:
+    long: Kuputuka
+    short: Kupu.
+  Hab:
+    long: Hambakuke
+    short: Hamba.
+  Hag:
+    long: Hangai
+    short: Hangai
+  Heb:
+    long: Hepeleu
+    short: Hepe
+  Hos:
+    long: Hozeya
+    short: Hoze.
+  Isa:
+    long: Isaya
+    short: Isa.
+  Jas:
+    long: Wayakova
+    short: Yako
+  Jer:
+    long: Yelemiya
+    short: Yele.
+  Job:
+    long: Yopa
+    short: Yopa
+  Joel:
+    long: Yowele
+    short: Yowe.
+  John:
+    long: Yowano
+    short: Yowa
+  Jonah:
+    long: Yona
+    short: Yona
+  Josh:
+    long: Yoxuwa
+    short: Yoxu.
+  Jude:
+    long: Wayuta
+    short: Yuta
+  Judg:
+    long: Vaka-kuyula
+    short: Kuyu.
+  Lam:
+    long: Lungungu
+    short: Lungu.
+  Lev:
+    long: Vyavalevi
+    short: Levi
+  Luke:
+    long: Luka
+    short: Luka
+  Mal:
+    long: Malaki
+    short: Mala.
+  Mark:
+    long: Mako
+    short: Mako
+  Matt:
+    long: Mateu
+    short: Mat
+  Mic:
+    long: Mika
+    short: Mika
+  Nah:
+    long: Nahume
+    short: Nahu.
+  Neh:
+    long: Nehemiah
+    short: Nehe.
+  Num:
+    long: Kulava
+    short: Kula.
+  Obad:
+    long: Ovaciya
+    short: Ova.
+  Phil:
+    long: Fwilipi
+    short: Fwili
+  Phlm:
+    long: 1 Wafwilemone
+    short: Fwile
+  Prov:
+    long: Viximo
+    short: Vixi.
+  Ps:
+    long: Jisamu
+    short: Samu
+  Rev:
+    long: Kusoloka
+    short: Kuso
+  Rom:
+    long: Loma
+    short: Loma
+  Ruth:
+    long: Lute
+    short: Lute
+  Song:
+    long: Mwaso Wasolomone
+    short: Mwaso.
+  Titus:
+    long: 1 Wacituse
+    short: Chitu
+  Zech:
+    long: Zekaliya
+    short: Zeka.
+  Zeph:
+    long: Zefwanyiya
+    short: Zefwa.
+translations:
+  lue70:
+    1Cor:
+      long: Wavaka-kolinde 1
+      short: Koli. 1,
+    1John:
+      long: Wayowano 1
+      short: Yowa. 1,
+    1Pet:
+      long: Wapetulu 1
+      short: Petu. 1,
+    1Thess:
+      long: Wavaka-tesolonyika 1
+      short: Teso. 1,
+    1Tim:
+      long: Wacimoteu 1
+      short: Cimo. 1,
+    2Cor:
+      long: Wavaka-kolinde 2
+      short: Koli. 2,
+    2John:
+      long: Wayowano 2
+      short: Yowa. 2,
+    2Pet:
+      long: Wapetulu 2
+      short: Petu. 2,
+    2Thess:
+      long: Wavaka-tesolonyika 2
+      short: Teso. 2,
+    2Tim:
+      long: Wacimoteu 2
+      short: Cimo. 2,
+    3John:
+      long: Wayowano 3
+      short: Yowa. 3,
+    Acts:
+      short: Vili.
+    Col:
+      long: Wavaka-kolose
+      short: Kolo.
+    Eph:
+      long: Wavaka-efwesu
+      short: Efwe.
+    Gal:
+      long: Wavaka-ngalexa
+      short: Ngale.
+    Heb:
+      long: Mukanda
+      short: Hepe.
+    Jas:
+      short: Yako.
+    John:
+      short: Yowa.
+    Matt:
+      short: Mateu
+    Phil:
+      long: Wavaka-fwilipi
+      short: Fwili.
+    Phlm:
+      short: Fwile.
+    Rev:
+      short: Kuso.
+    Rom:
+      long: Wavaka-loma
+    Titus:
+      short: Citu.
+  luv:
+    Jas:
+      long: Yakova
+    Jude:
+      long: Yuta
+    Phlm:
+      long: Fwilemone
+    Rev:
+      long: Kusolola
+    Titus:
+      long: Chituse

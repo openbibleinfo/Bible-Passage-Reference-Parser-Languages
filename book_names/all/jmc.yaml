@@ -1,0 +1,317 @@
+- osis: Gen
+  texts:
+    - Mapookyony
+    - Map
+- osis: Exod
+  texts:
+    - Yuuka
+    - Yuu
+- osis: Lev
+  texts:
+    - VaLevi
+    - Val
+- osis: Num
+  texts:
+    - Meekyena
+    - Mee
+- osis: Lam
+  texts:
+    - Fiiyo
+    - Fyi
+- osis: Rev
+  texts:
+    - Usukuyony
+    - Usu
+- osis: Deut
+  texts:
+    - Nkumbuye Wa Uvavaso
+    - Nku
+- osis: Josh
+  texts:
+    - Yosua
+    - Yos
+- osis: Judg
+  texts:
+    - Valeti
+    - Vat
+- osis: Ruth
+  texts:
+    - Ruti
+    - Rut
+- osis: Isa
+  texts:
+    - Isaya
+    - Yes
+- osis: 1Sam
+  texts:
+    - 1 Samueli
+    - 1 Sam
+    - 1. Samueli
+    - 1. Sam
+- osis: 2Sam
+  texts:
+    - 2 Samueli
+    - 2 Sam
+    - 2. Samueli
+    - 2. Sam
+- osis: 1Kgs
+  texts:
+    - 1 Vamangyi
+    - 1 Vam
+    - 1. Vamangyi
+    - 1. Vam
+- osis: 2Kgs
+  texts:
+    - 2 Vamangyi
+    - 2 Vam
+    - 2. Vamangyi
+    - 2. Vam
+- osis: 1Chr
+  texts:
+    - 1 Mbony Ta Fyeeri
+    - 1 Fye
+    - 1. Mbony Ta Fyeeri
+    - 1. Fye
+- osis: 2Chr
+  texts:
+    - 2 Mbony Ta Fyeeri
+    - 2 Fye
+    - 2. Mbony Ta Fyeeri
+    - 2. Fye
+- osis: Ezra
+  texts:
+    - Esra
+    - Esr
+- osis: Neh
+  texts:
+    - Nehemia
+    - Neh
+- osis: Esth
+  texts:
+    - Esta
+    - Est
+- osis: Job
+  texts:
+    - Yobu
+    - Yob
+- osis: Ps
+  texts:
+    - Saburi
+- osis: Prov
+  texts:
+    - Fyaaso
+    - Fya
+- osis: Eccl
+  texts:
+    - Mwiilosha
+    - Mwi
+- osis: Song
+  texts:
+    - Kyiimbo Kya Fiimbo
+    - Kyii
+- osis: Jer
+  texts:
+    - Yeremia
+    - Yer
+- osis: Ezek
+  texts:
+    - Esekieli
+    - Ese
+- osis: Dan
+  texts:
+    - Danieli
+    - Dan
+- osis: Hos
+  texts:
+    - Hosea
+    - Hos
+- osis: Joel
+  texts:
+    - Yoeli
+    - Yol
+- osis: Amos
+  texts:
+    - Amosi
+    - Amo
+- osis: Obad
+  texts:
+    - Obadia
+    - Oba
+- osis: Jonah
+  texts:
+    - Yona
+    - Yon
+- osis: Mic
+  texts:
+    - Mika
+    - MiK
+- osis: Nah
+  texts:
+    - Nahumu
+    - Nah
+- osis: Hab
+  texts:
+    - Habakuki
+    - Hab
+- osis: Zeph
+  texts:
+    - Sefania
+    - Sef
+- osis: Hag
+  texts:
+    - Hagai
+    - Hag
+- osis: Zech
+  texts:
+    - Sekaria
+    - Sek
+- osis: Mal
+  texts:
+    - Malaki
+    - Mal
+- osis: Matt
+  texts:
+    - Matayo
+    - Mat
+- osis: Mark
+  texts:
+    - Marko
+    - Mar
+- osis: Luke
+  texts:
+    - Luka
+    - Luk
+- osis: 1John
+  texts:
+    - 1Yoh
+- osis: 2John
+  texts:
+    - 2Yoh
+- osis: 3John
+  texts:
+    - 3 Yohane
+    - 3Yoh
+- osis: 1John
+  texts:
+    - 1 Yohane
+    - 1 Yoh
+    - 1. Yohane
+    - 1. Yoh
+- osis: John
+  texts:
+    - Yohane
+    - Yoh
+- osis: 2John
+  texts:
+    - 2 Yohane
+    - 2. Yohane
+- osis: Acts
+  texts:
+    - Mashora
+    - Mav
+- osis: Rom
+  texts:
+    - Varome
+    - Var
+- osis: 1Cor
+  texts:
+    - 1 Vakorinto
+    - 1. Vakorinto
+- osis: 2Cor
+  texts:
+    - 2 Vakorinto
+    - 2. Vakorinto
+- osis: 1Cor
+  texts:
+    - 1Vak
+    - 1Ko
+- osis: 2Cor
+  texts:
+    - 2Vak
+    - 2Ko
+- osis: Col
+  texts:
+    - Vakolosai
+    - Kol
+- osis: Gal
+  texts:
+    - Vagalatia
+    - Gal
+    - Vag
+- osis: Eph
+  texts:
+    - VaEfeso
+    - Efe
+    - Vae
+- osis: Phil
+  texts:
+    - Vafilipi
+    - Fili
+    - Vaf
+- osis: 1Thess
+  texts:
+    - 1 Vatesalonike
+    - 1. Vatesalonike
+- osis: 2Thess
+  texts:
+    - 2 Vatesalonike
+    - 2. Vatesalonike
+- osis: 1Thess
+  texts:
+    - 1Tes
+    - 1Vat
+- osis: 2Thess
+  texts:
+    - 2Tes
+    - 2Vat
+- osis: 1Tim
+  texts:
+    - 1 Timoteo
+    - 1. Timoteo
+- osis: 2Tim
+  texts:
+    - 2 Timoteo
+    - 2. Timoteo
+- osis: 1Tim
+  texts:
+    - 1Tim
+- osis: 2Tim
+  texts:
+    - 2Tim
+- osis: Titus
+  texts:
+    - Tito
+    - Tit
+- osis: Phlm
+  texts:
+    - Filemoni
+    - File
+    - Fil
+- osis: Heb
+  texts:
+    - Vaebrania
+    - Ebr
+- osis: Jas
+  texts:
+    - Yakobo
+    - Yak
+- osis: 1Pet
+  texts:
+    - 1 Petro
+    - 1. Petro
+- osis: 2Pet
+  texts:
+    - 2 Petro
+    - 2. Petro
+- osis: 1Pet
+  texts:
+    - 1Pet
+    - 1Pe
+- osis: 2Pet
+  texts:
+    - 2Pet
+    - 2Pe
+- osis: Jude
+  texts:
+    - Yuda
+    - Yud

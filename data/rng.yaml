@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - I
+  second: &second
+    - II
+  third: &third
+    - III
+books:
+  - osis: Rev
+    texts:
+      - Mpf
+  - osis: Matt
+    texts:
+      - Mt
+  - osis: Mark
+    texts:
+      - Mrk
+  - osis: Luke
+    texts:
+      - Lk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yhn
+  - osis: Acts
+    texts:
+      - Mnt
+  - osis: Rom
+    texts:
+      - Rm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kor
+  - osis: Col
+    texts:
+      - Kls
+  - osis: Gal
+    texts:
+      - Gl
+  - osis: Eph
+    texts:
+      - Ef
+  - osis: Phil
+    texts:
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tsl
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tmt
+  - osis: Titus
+    texts:
+      - Tit
+  - osis: Phlm
+    texts:
+      - Flm
+  - osis: Heb
+    texts:
+      - Heb
+  - osis: Jas
+    texts:
+      - Ykb
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Ptr
+  - osis: Jude
+    texts:
+      - Yd
+translations:
+  - NTX2007

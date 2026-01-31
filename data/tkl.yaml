@@ -1,0 +1,113 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Fakaaliga
+      - Fkl
+  - osis: Matt
+    texts:
+      - Mataio
+      - Mat
+  - osis: Mark
+    texts:
+      - Maleko
+      - Mlk
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Ioane
+      - Ioa
+  - osis: Acts
+    texts:
+      - Gāluega
+      - Gāl
+  - osis: Rom
+    texts:
+      - Loma
+      - Lom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kolinito
+      - Kol
+  - osis: Col
+    texts:
+      - Kolohe
+      - Klh
+  - osis: Gal
+    texts:
+      - Kalatia
+      - Kal
+  - osis: Eph
+    texts:
+      - Efeho
+      - Efe
+  - osis: Phil
+    texts:
+      - Filipi
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tehalonia
+      - Teh
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+      - Tim
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemoni
+      - Flm
+  - osis: Heb
+    texts:
+      - Epelu
+      - Epe
+  - osis: Jas
+    texts:
+      - Iakopo
+      - Iak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petelu
+      - Pet
+  - osis: Jude
+    texts:
+      - Iuta
+      - Iut
+translations:
+  - TNT

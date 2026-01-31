@@ -1,0 +1,268 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Âthaona
+      - Âtn
+  - osis: Exod
+    texts:
+      - Puasaina
+      - Pua
+  - osis: Lev
+    texts:
+      - Theihthaina
+      - Ttn
+  - osis: Num
+    texts:
+      - Maluhreina
+      - Maluh
+  - osis: Lam
+    texts:
+      - Chaphôhtuna
+      - Chap
+  - osis: Rev
+    texts:
+      - Biephuah
+      - Biep
+  - osis: Deut
+    texts:
+      - Ryhpachaneina
+      - Ryhpa
+  - osis: Josh
+    texts:
+      - Zawsua
+      - Zsua
+  - osis: Judg
+    texts:
+      - Ryureituhpazy
+      - Rrt
+  - osis: Ruth
+    texts:
+      - Ruthi
+      - Rut
+  - osis: Isa
+    texts:
+      - Isai
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuela
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Abeizy
+      - Abei
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Thâtihzyrona
+      - Ttr
+  - osis: Ezra
+    texts:
+      - Ezrâ
+      - Ezr
+  - osis: Neh
+    texts:
+      - Nehemiah
+      - Neh
+  - osis: Esth
+    texts:
+      - Estheri
+      - Est
+  - osis: Job
+    texts:
+      - Zawbâ
+      - Zbâ
+  - osis: Prov
+    texts:
+      - Biesozy
+      - Bies
+  - osis: Eccl
+    texts:
+      - Biechhotuhpa
+      - Biech
+  - osis: Song
+    texts:
+      - Hlazy Hla
+      - Hhl
+  - osis: Ps
+    texts:
+      - Hlazy
+      - Hla
+  - osis: Jer
+    texts:
+      - Zeremiah
+      - Zer
+  - osis: Ezek
+    texts:
+      - Ezekia
+      - Ezk
+  - osis: Dan
+    texts:
+      - Dâniah
+      - Dân
+  - osis: Hos
+    texts:
+      - Hôsia
+      - Hôs
+  - osis: Joel
+    texts:
+      - Zôela
+      - Zôe
+  - osis: Amos
+    texts:
+      - Amôsâ
+      - Ams
+  - osis: Obad
+    texts:
+      - Ôbadia
+      - Ôbd
+  - osis: Jonah
+    texts:
+      - Zawna
+      - Zna
+  - osis: Mic
+    texts:
+      - Mikâ
+      - MiK
+  - osis: Nah
+    texts:
+      - Nâhu
+      - Nâh
+  - osis: Hab
+    texts:
+      - Habaku
+      - Hab
+  - osis: Zeph
+    texts:
+      - Zephania
+      - Zep
+  - osis: Hag
+    texts:
+      - Hâkai
+      - Hâk
+  - osis: Zech
+    texts:
+      - Zekaria
+      - Zkr
+  - osis: Mal
+    texts:
+      - Malakhai
+      - Mal
+  - osis: Matt
+    texts:
+      - Mathai
+      - Mat
+  - osis: Mark
+    texts:
+      - Mâka
+      - Mka
+  - osis: Luke
+    texts:
+      - Luka
+      - Lka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Zawhâna
+      - Zhn
+  - osis: Acts
+    texts:
+      - Hmotaopazy
+      - Hmt
+  - osis: Rom
+    texts:
+      - Rawma
+      - Rma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kawrini
+      - Kaw
+  - osis: Col
+    texts:
+      - Kaolaosâ
+      - Kao
+  - osis: Gal
+    texts:
+      - Kalatia
+      - Kal
+  - osis: Eph
+    texts:
+      - Ephesi
+      - Eph
+  - osis: Phil
+    texts:
+      - Philipi
+      - Phil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thysalawnika
+      - Thys
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timawthy
+      - Tim
+  - osis: Titus
+    texts:
+      - Titu
+      - Tit
+  - osis: Phlm
+    texts:
+      - Philemaw
+      - Philm
+  - osis: Heb
+    texts:
+      - Hebrai
+      - Heb
+  - osis: Jas
+    texts:
+      - Zâmie
+      - Zâm
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pity
+      - Pit
+  - osis: Jude
+    texts:
+      - Zudâh
+      - Zud
+translations:
+  - MARVBSI

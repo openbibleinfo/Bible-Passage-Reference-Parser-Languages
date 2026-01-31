@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Babad
+    short: 1Bab.
+  1Cor:
+    long: 1 Korintus
+    short: 1Kor.
+  1John:
+    long: 1 Yohanes
+    short: 1Yoh.
+  1Kgs:
+    long: 1 Pararatu
+    short: 1Pararat.
+  1Pet:
+    long: 1 Petrus
+    short: 1Pet.
+  1Sam:
+    long: 1 Samuel
+    short: 1Sam.
+  1Thess:
+    long: 1 Tesalonika
+    short: 1Tes.
+  1Tim:
+    long: 1 Timotius
+    short: 1Tim.
+  2Chr:
+    long: 2 Babad
+    short: 2Bab.
+  2Cor:
+    long: 2 Korintus
+    short: 2Kor.
+  2John:
+    long: 2 Yohanes
+    short: 2Yoh.
+  2Kgs:
+    long: 2 Pararatu
+    short: 2Pararat.
+  2Pet:
+    long: 2 Petrus
+    short: 2Pet.
+  2Sam:
+    long: 2 Samuel
+    short: 2Sam.
+  2Thess:
+    long: 2 Tesalonika
+    short: 2Tes.
+  2Tim:
+    long: 2 Timotius
+    short: 2Tim.
+  3John:
+    long: 3 Yohanes
+    short: 3Yoh.
+  Acts:
+    long: Pamargin Parautusan
+    short: Paraut.
+  Amos:
+    long: Nabi Amos
+    short: Am.
+  Col:
+    long: Kolose
+    short: Kol.
+  Dan:
+    long: Nabi Daniel
+    short: Dan.
+  Deut:
+    long: Pangeling-eling
+    short: Pang.
+  Eccl:
+    long: Guru Pangajian
+    short: Guru.
+  Eph:
+    long: Epesus
+    short: Ep.
+  Esth:
+    long: Ester
+    short: Est.
+  Exod:
+    long: Pararudan
+    short: Par.
+  Ezek:
+    long: Nabi Yeheskiel
+    short: Yeh.
+  Ezra:
+    long: Esra
+    short: Es.
+  Gal:
+    long: Galatia
+    short: Gal.
+  Gen:
+    long: Purwakaning Dadi
+    short: Pur.
+  Hab:
+    long: Nabi Habakuk
+    short: Ha.
+  Hag:
+    long: Nabi Hagai
+    short: Hag.
+  Heb:
+    long: Ibrani
+    short: Ib.
+  Hos:
+    long: Nabi Hosea
+    short: Hos.
+  Isa:
+    long: Nabi Yesaya
+    short: Yes.
+  Jas:
+    long: Yakobus
+    short: Yak.
+  Jer:
+    long: Nabi Yeremia
+    short: Yer.
+  Job:
+    long: Ayub
+    short: Ay.
+  Joel:
+    long: Nabi Yoel
+    short: Yo.
+  John:
+    long: Yohanes
+    short: Yoh.
+  Jonah:
+    long: Nabi Yunus
+    short: Yu.
+  Josh:
+    long: Yosua
+    short: Yos.
+  Jude:
+    long: Yudas
+    short: Yud.
+  Judg:
+    long: Parahakim
+    short: Parahak.
+  Lam:
+    long: Sesambatan
+    short: Ses.
+  Lev:
+    long: Upacara
+    short: Up.
+  Luke:
+    long: Lukas
+    short: Luk.
+  Mal:
+    long: Nabi Maleaki
+    short: Mal.
+  Mark:
+    long: Markus
+    short: Mar.
+  Matt:
+    long: Matius
+    short: Mat.
+  Mic:
+    long: Nabi Mika
+    short: Mi.
+  Nah:
+    long: Nabi Nahum
+    short: Na.
+  Neh:
+    long: Nehemia
+    short: Ne.
+  Num:
+    long: Cacah Jiwa
+    short: Ca.
+  Obad:
+    long: Nabi Obaja
+    short: Ob.
+  Phil:
+    long: Pilipi
+    short: Pil.
+  Phlm:
+    long: Pilemon
+    short: Pile.
+  Prov:
+    long: Pitutur
+    short: Pit.
+  Ps:
+    long: Kidung
+    short: Kid.
+  Rev:
+    long: Wahyu
+    short: Wah.
+  Rom:
+    long: Roma
+    short: Rom.
+  Ruth:
+    long: Rut
+    short: Rut
+  Song:
+    long: Kidung Geguritan
+    short: Geg.
+  Titus:
+    long: Titus
+    short: Tit.
+  Zech:
+    long: Nabi Sakaria
+    short: Sa.
+  Zeph:
+    long: Nabi Sepanya
+    short: Se.

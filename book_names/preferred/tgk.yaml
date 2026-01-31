@@ -1,0 +1,289 @@
+default:
+  1Chr:
+    long: 1 Вақоеънома
+    short: 1 Вақ.
+  1Cor:
+    long: 1 ба Қӯринтиён
+    short: 1 Қӯр.
+  1John:
+    long: 1 Юҳанно
+    short: 1 Юҳ.
+  1Kgs:
+    long: 3 Подшоҳон
+    short: 3 Подш.
+  1Pet:
+    long: 1 Петрус
+    short: 1 Пет.
+  1Sam:
+    long: 1 Подшоҳон
+    short: 1 Подш.
+  1Thess:
+    long: 1 Таслӯникиён
+    short: 1 Тас.
+  1Tim:
+    long: 1 Тимотиюс
+    short: 1 Тим.
+  2Chr:
+    long: 2 Вақоеънома
+    short: 2 Вак.
+  2Cor:
+    long: 2 ба Қӯринтиён
+    short: 2 Қӯр.
+  2John:
+    long: 2 Юҳанно
+    short: 2 Юҳ.
+  2Kgs:
+    long: 4 Подшоҳон
+    short: 4 Подш.
+  2Pet:
+    long: 2 Петрус
+    short: 2 Пет.
+  2Sam:
+    long: 2 Подшоҳон
+    short: 2 Подш.
+  2Thess:
+    long: 2 Таслӯникиён
+    short: 2 Тас.
+  2Tim:
+    long: 2 Тимотиюс
+    short: 2 Тим.
+  3John:
+    long: 3 Юҳанно
+    short: 3 Юҳ.
+  Acts:
+    long: Аъмоли Ҳаввориён
+    short: Аъм.
+  Amos:
+    long: Омӯс
+    short: Ом.
+  Col:
+    long: Нома ба Қӯлассиён
+    short: Қӯл
+  Dan:
+    long: Дониёл
+    short: Дон.
+  Deut:
+    long: Такрори Шариат
+    short: Так. Шар.
+  Eccl:
+    long: Воиз
+    short: Воиз
+  Eph:
+    long: Нома ба Эфсӯсиён
+    short: Эф
+  Esth:
+    long: Эстер
+    short: Эст.
+  Exod:
+    long: Хуруҷ
+    short: Хур.
+  Ezek:
+    long: Ҳизқиёл
+    short: Ҳиз.
+  Ezra:
+    long: Эзро
+    short: Эзр.
+  Gal:
+    long: Нома ба Ғалотиён
+    short: Ғал
+  Gen:
+    long: Ҳастӣ
+    short: Ҳас.
+  Hab:
+    long: Ҳабаққуқ
+    short: Ҳаб.
+  Hag:
+    long: Ҳаҷҷай
+    short: Ҳаҷ.
+  Heb:
+    long: Ибриён
+    short: Ибр
+  Hos:
+    long: Ҳушаъ
+    short: Ҳуш.
+  Isa:
+    long: Ишаъё
+    short: Иш.
+  Jas:
+    long: Яъқуб
+    short: Яъқ
+  Jer:
+    long: Ирмиё
+    short: Ирм.
+  Job:
+    long: Айюб
+    short: Айюб
+  Joel:
+    long: Юил
+    short: Юил
+  John:
+    long: Инҷили Юҳанно
+    short: Юҳ
+  Jonah:
+    long: Юнус
+    short: Юн.
+  Josh:
+    long: Еҳушаъ ибни Нун
+    short: Еҳ.
+  Jude:
+    long: Яҳудо
+    short: Яҳ
+  Judg:
+    long: Доварон
+    short: Дов.
+  Lam:
+    long: Навҳаҳои Ирмиё
+    short: Нав.
+  Lev:
+    long: Ибодат
+    short: Иб.
+  Luke:
+    long: Инҷили Луқо
+    short: Луқ
+  Mal:
+    long: Малокӣ
+    short: Мал.
+  Mark:
+    long: Инҷили Марқӯс
+    short: Марқ
+  Matt:
+    long: Инҷили Матто
+    short: Мат
+  Mic:
+    long: Мико
+    short: Мик.
+  Nah:
+    long: Наҳум
+    short: Наҳум
+  Neh:
+    long: Наҳемьё
+    short: Наҳ.
+  Num:
+    long: Ададҳо
+    short: Ад.
+  Obad:
+    long: Убадьё
+    short: Уб.
+  Phil:
+    long: Нома ба Филиппиён
+    short: Фил.
+  Phlm:
+    long: Нома ба Филемӯн
+    short: Филем.
+  Prov:
+    long: Масалҳо
+    short: Мас.
+  Ps:
+    long: Забур
+    short: Заб.
+  Rev:
+    long: Ваҳй Юҳанно
+    short: Ваҳй
+  Rom:
+    long: Нома ба Румиён
+    short: Рум
+  Ruth:
+    long: Рут
+    short: Рут
+  Song:
+    long: Суруди Сурудҳо
+    short: Сур. Сур.
+  Titus:
+    long: Нома ба Титус
+    short: Тит
+  Zech:
+    long: Закариё
+    short: Зак.
+  Zeph:
+    long: Сафаниё
+    short: Саф.
+translations:
+  kmo:
+    1Cor:
+      long: 1 Қӯринтиён
+      short: 1Қӯр
+    1John:
+      short: 1Юҳ
+    1Pet:
+      short: 1Пет
+    1Thess:
+      short: 1Тас
+    1Tim:
+      short: 1Тим
+    2Cor:
+      long: 2 Қӯринтиён
+      short: 2Қӯр
+    2John:
+      short: 2Юҳ
+    2Pet:
+      short: 2Пет
+    2Thess:
+      short: 2Тас
+    2Tim:
+      short: 2Тим
+    3John:
+      short: 3Юҳ
+    Acts:
+      long: Корнома
+      short: Кф
+    Col:
+      long: Қӯлассиён
+    Eph:
+      long: Эфсӯсиён
+    Gal:
+      long: Ғалотиён
+    John:
+      long: Юҳанно
+    Luke:
+      long: Луқо
+    Mark:
+      long: Марқӯс
+    Matt:
+      long: Матто
+    Phil:
+      long: Филиппиён
+      short: Фп
+    Phlm:
+      long: Филемӯн
+      short: Фм
+    Rev:
+      long: Ошкорсозӣ
+      short: Ошк
+    Rom:
+      long: Румиён
+    Titus:
+      long: Титус
+  km92:
+    1Thess:
+      long: 1 ба Таслӯникиён
+    1Tim:
+      long: 1 ба Тимотиюс
+    2Thess:
+      long: 2 ба Таслӯникиён
+    2Tim:
+      long: 2 ба Тимотиюс
+    Col:
+      short: Қӯл.
+    Eph:
+      short: Эфс.
+    Gal:
+      short: Ғал.
+    Heb:
+      long: ба Ибриён
+      short: Ибр.
+    Jas:
+      short: Яъқ.
+    John:
+      short: Юҳ.
+    Jude:
+      short: Яҳ.
+    Luke:
+      short: Луқ.
+    Mark:
+      short: Марқ.
+    Matt:
+      short: Мат.
+    Rom:
+      short: Рум.
+    Titus:
+      short: Тит.

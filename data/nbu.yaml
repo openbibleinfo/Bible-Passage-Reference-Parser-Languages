@@ -1,0 +1,273 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Thaureymei
+      - Tha
+  - osis: Exod
+    texts:
+      - Tatpatmei
+      - Tat
+  - osis: Lev
+    texts:
+      - Levithouc
+      - Lev
+  - osis: Num
+    texts:
+      - Singchakh
+      - Sin
+  - osis: Lam
+    texts:
+      - Latlumei
+      - Ltl
+  - osis: Rev
+    texts:
+      - Ndauhloumei
+      - Nda
+  - osis: Deut
+    texts:
+      - Riakdanv Kaluaihmei
+      - Ria
+  - osis: Josh
+    texts:
+      - Joshua
+      - Jos
+  - osis: Judg
+    texts:
+      - Latzanpouc Nunc
+      - Lzp
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis: Isa
+    texts:
+      - Isaia
+      - Isa
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - Sa
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Guangh Nunc
+      - Gu
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Kinchakh
+      - Ki
+  - osis: Ezra
+    texts:
+      - Ezra
+      - Ezr
+  - osis: Neh
+    texts:
+      - Nehemia
+      - Neh
+  - osis: Esth
+    texts:
+      - Esthar
+      - Est
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Kalumlu
+      - Kal
+  - osis: Prov
+    texts:
+      - Latkwdyn
+      - Lkd
+  - osis: Eccl
+    texts:
+      - Ningtingdyn
+      - Nin
+  - osis: Song
+    texts:
+      - Solomon Lu
+      - Sol
+  - osis: Jer
+    texts:
+      - Jeremia
+      - Jer
+  - osis: Ezek
+    texts:
+      - Ezekiel
+      - Eze
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan
+  - osis: Hos
+    texts:
+      - Hosea
+      - Hos
+  - osis: Joel
+    texts:
+      - Joel
+      - Jol
+  - osis: Amos
+    texts:
+      - Amos
+      - Amo
+  - osis: Obad
+    texts:
+      - Obadia
+      - Oba
+  - osis: Jonah
+    texts:
+      - Jona
+      - Jon
+  - osis: Mic
+    texts:
+      - Maika
+      - Mai
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Zephania
+      - Zep
+  - osis: Hag
+    texts:
+      - Hagai
+      - Hag
+  - osis: Zech
+    texts:
+      - Zekaria
+      - Zek
+  - osis: Mal
+    texts:
+      - Malakai
+      - Mal
+  - osis: Matt
+    texts:
+      - Metthiu
+      - Met
+  - osis: Mark
+    texts:
+      - Mark
+      - Mrk
+  - osis: Luke
+    texts:
+      - Luk
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jahon
+      - Jn
+  - osis: John
+    texts:
+      - Jahon
+      - Jhn
+  - osis: Acts
+    texts:
+      - Latdiutatmei
+      - Lat
+  - osis: Rom
+    texts:
+      - Rommei
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinmei
+      - Ko
+  - osis: Col
+    texts:
+      - Kolossiamei
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatimei
+      - Gal
+  - osis: Eph
+    texts:
+      - Ephisiamei
+      - Eph
+  - osis: Phil
+    texts:
+      - Philipimei
+      - Phil
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Thesalonikamei
+      - Th
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thesolonikamei
+      - Th
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothi
+      - Ti
+  - osis: Titus
+    texts:
+      - Tita
+      - Tit
+  - osis: Phlm
+    texts:
+      - Philemon
+      - Phl
+  - osis: Heb
+    texts:
+      - Ibrimei
+      - Ibr
+  - osis: Jas
+    texts:
+      - Jakob
+      - Jak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pitar
+      - Pi
+  - osis: Jude
+    texts:
+      - Juda
+      - Jud
+translations:
+  - RONGBSI

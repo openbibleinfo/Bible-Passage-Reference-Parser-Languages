@@ -1,0 +1,314 @@
+- osis: Gen
+  texts:
+    - Génesis
+    - Gn
+- osis: Exod
+  texts:
+    - Éxodo
+    - Ex
+- osis: Lev
+  texts:
+    - Levítico
+    - Lv
+- osis: Rev
+  texts:
+    - Apocalipsis
+    - Ap
+- osis: Josh
+  texts:
+    - Josué
+    - Jos
+- osis: Judg
+  texts:
+    - Jueces
+    - Jue
+- osis: Ruth
+  texts:
+    - Rut
+- osis: 1Sam
+  texts:
+    - 1 Samuel
+    - 1 S
+    - 1. Samuel
+    - 1. S
+    - Bajx Samuel
+    - Bajx S
+    - Bajx. Samuel
+    - Bajx. S
+- osis: 2Sam
+  texts:
+    - 2 Samuel
+    - 2 S
+    - 2. Samuel
+    - 2. S
+    - Ca'p Samuel
+    - Ca'p S
+    - Ca'p. Samuel
+    - Ca'p. S
+    - Caꞌp Samuel
+    - Caꞌp S
+    - Caꞌp. Samuel
+    - Caꞌp. S
+- osis: 1Sam
+  texts:
+    - 1S
+- osis: 2Sam
+  texts:
+    - 2S
+- osis: Ezra
+  texts:
+    - Esdras
+    - Esd
+- osis: Neh
+  texts:
+    - Nehemías
+    - Neh
+- osis: Esth
+  texts:
+    - Ester
+    - Est
+- osis: Ps
+  texts:
+    - Salmos
+    - Sal
+- osis: Prov
+  texts:
+    - Proverbios
+    - Pro
+- osis: Dan
+  texts:
+    - Daniel
+    - Dn
+- osis: Hos
+  texts:
+    - Oseas
+    - Os
+- osis: Joel
+  texts:
+    - Joel
+    - Jl
+- osis: Amos
+  texts:
+    - Amós
+    - Am
+- osis: Obad
+  texts:
+    - Abdías
+    - Abd
+- osis: Jonah
+  texts:
+    - Jonás
+    - Jon
+- osis: Mic
+  texts:
+    - Miqueas
+    - Miq
+- osis: Nah
+  texts:
+    - Nahúm
+    - Nah
+- osis: Hab
+  texts:
+    - Habacuc
+    - Hab
+- osis: Zeph
+  texts:
+    - Sofonías
+    - Sof
+- osis: Hag
+  texts:
+    - Hageo
+    - Hag
+- osis: Zech
+  texts:
+    - Zacarías
+    - Zac
+- osis: Mal
+  texts:
+    - Malaquías
+    - Mal
+- osis: Matt
+  texts:
+    - Mateo
+    - Mt
+- osis: Mark
+  texts:
+    - Marcos
+    - Mr
+- osis: Luke
+  texts:
+    - Lucas
+    - Lc
+- osis: 3John
+  texts:
+    - Toxi'n Juan
+    - Toxiꞌn Juan
+    - 3 Jn
+- osis: 1John
+  texts:
+    - 1 Juan
+    - 1 Jn
+    - 1. Juan
+    - 1. Jn
+    - Bajx Juan
+    - Bajx Jn
+    - Bajx. Juan
+    - Bajx. Jn
+- osis: 2John
+  texts:
+    - 2 Juan
+    - 2 Jn
+    - 2. Juan
+    - 2. Jn
+    - Ca'p Juan
+    - Ca'p Jn
+    - Ca'p. Juan
+    - Ca'p. Jn
+    - Caꞌp Juan
+    - Caꞌp Jn
+    - Caꞌp. Juan
+    - Caꞌp. Jn
+- osis: John
+  texts:
+    - Juan
+    - Jn
+- osis: Acts
+  texts:
+    - Hechos
+    - Hch
+- osis: Rom
+  texts:
+    - Romanos
+    - Ro
+- osis: 1Cor
+  texts:
+    - 1 Corintios
+    - 1 Co
+    - 1. Corintios
+    - 1. Co
+    - Bajx Corintios
+    - Bajx Co
+    - Bajx. Corintios
+    - Bajx. Co
+- osis: 2Cor
+  texts:
+    - 2 Corintios
+    - 2 Co
+    - 2. Corintios
+    - 2. Co
+    - Ca'p Corintios
+    - Ca'p Co
+    - Ca'p. Corintios
+    - Ca'p. Co
+    - Caꞌp Corintios
+    - Caꞌp Co
+    - Caꞌp. Corintios
+    - Caꞌp. Co
+- osis: Col
+  texts:
+    - Colosenses
+    - Col
+- osis: Gal
+  texts:
+    - Gálatas
+    - Gl
+- osis: Eph
+  texts:
+    - Efesios
+    - Ef
+- osis: Phil
+  texts:
+    - Filipenses
+    - Fil
+- osis: 1Thess
+  texts:
+    - 1 Tesalonicenses
+    - 1 Ts
+    - 1. Tesalonicenses
+    - 1. Ts
+    - Bajx Tesalonicenses
+    - Bajx Ts
+    - Bajx. Tesalonicenses
+    - Bajx. Ts
+- osis: 2Thess
+  texts:
+    - 2 Tesalonicenses
+    - 2 Ts
+    - 2. Tesalonicenses
+    - 2. Ts
+    - Ca'p Tesalonicenses
+    - Ca'p Ts
+    - Ca'p. Tesalonicenses
+    - Ca'p. Ts
+    - Caꞌp Tesalonicenses
+    - Caꞌp Ts
+    - Caꞌp. Tesalonicenses
+    - Caꞌp. Ts
+- osis: 1Tim
+  texts:
+    - 1 Timoteo
+    - 1 Ti
+    - 1. Timoteo
+    - 1. Ti
+    - Bajx Timoteo
+    - Bajx Ti
+    - Bajx. Timoteo
+    - Bajx. Ti
+- osis: 2Tim
+  texts:
+    - 2 Timoteo
+    - 2 Ti
+    - 2. Timoteo
+    - 2. Ti
+    - Ca'p Timoteo
+    - Ca'p Ti
+    - Ca'p. Timoteo
+    - Ca'p. Ti
+    - Caꞌp Timoteo
+    - Caꞌp Ti
+    - Caꞌp. Timoteo
+    - Caꞌp. Ti
+- osis: Titus
+  texts:
+    - Tito
+    - Tit
+- osis: Phlm
+  texts:
+    - Filemón
+    - Flm
+- osis: Heb
+  texts:
+    - Hebreos
+    - Heb
+- osis: Jas
+  texts:
+    - Santiago
+    - Stg
+- osis: 1Pet
+  texts:
+    - 1 Pedro
+    - 1 Pe
+    - 1. Pedro
+    - 1. Pe
+    - Bajx Pedro
+    - Bajx Pe
+    - Bajx. Pedro
+    - Bajx. Pe
+- osis: 2Pet
+  texts:
+    - 2 Pedro
+    - 2 Pe
+    - 2. Pedro
+    - 2. Pe
+    - Ca'p Pedro
+    - Ca'p Pe
+    - Ca'p. Pedro
+    - Ca'p. Pe
+    - Caꞌp Pedro
+    - Caꞌp Pe
+    - Caꞌp. Pedro
+    - Caꞌp. Pe
+- osis: Jude
+  texts:
+    - Judas
+    - Jud

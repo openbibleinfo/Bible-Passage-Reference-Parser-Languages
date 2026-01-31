@@ -1,0 +1,152 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Camba
+      - Cam
+  - osis: Exod
+    texts:
+      - Pula
+      - Pul
+  - osis: Rev
+    texts:
+      - Teeɓ ki
+      - Tee
+  - osis: Jonah
+    texts:
+      - Yunus
+      - Yun
+  - osis: Matt
+    texts:
+      - Macce
+      - Mce
+  - osis: Mark
+    texts:
+      - Maarko
+      - Mrk
+  - osis: Luke
+    texts:
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Sŋ
+  - osis: 2John
+    texts:
+      - 2Sŋ
+  - osis: 3John
+    texts:
+      - 3 Saaŋ
+      - 3Sŋ
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Saaŋ
+  - osis: John
+    texts:
+      - Saaŋ
+      - Saŋ
+  - osis: Acts
+    texts:
+      - Tum ci
+      - Tum
+  - osis: Rom
+    texts:
+      - Ɓi Rom
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korenta
+  - osis: 1Cor
+    texts:
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - 2Ko
+  - osis: Col
+    texts:
+      - Ɓi Kolos
+      - Kol
+  - osis: Gal
+    texts:
+      - Ɓi Galaat
+      - Gal
+  - osis: Eph
+    texts:
+      - Ɓi Efes
+      - Efe
+  - osis: Phil
+    texts:
+      - Ɓi Filippi
+      - Fip
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tessalonik
+  - osis: 1Thess
+    texts:
+      - 1Te
+  - osis: 2Thess
+    texts:
+      - 2Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoote
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemoon
+      - Fim
+  - osis: Heb
+    texts:
+      - Heber ci
+      - Heb
+  - osis: Jas
+    texts:
+      - Saak
+      - Sak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piyeer
+  - osis: 1Pet
+    texts:
+      - 1Pi
+  - osis: 2Pet
+    texts:
+      - 2Pi
+  - osis: Jude
+    texts:
+      - Yuud
+      - Yuu
+translations:
+  - SSS
+  - MOS

@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Тарих вакъиалары
+    short: 1 Тар
+  1Cor:
+    long: 1 Коринтлилерге
+    short: 1 Кор
+  1John:
+    long: 1 Юхан
+    short: 1 Юх
+  1Kgs:
+    long: 3 Падишалар
+    short: 3 Пад
+  1Pet:
+    long: 1 Пётр
+    short: 1 Пётр
+  1Sam:
+    long: 1 Падишалар
+    short: 1 Пад
+  1Thess:
+    long: 1 Тессалоникелилерге
+    short: 1 Тес
+  1Tim:
+    long: 1 Тимотейге
+    short: 1 Тим
+  2Chr:
+    long: 2 Тарих вакъиалары
+    short: 2 Тар
+  2Cor:
+    long: 2 Коринтлилерге
+    short: 2 Кор
+  2John:
+    long: 2 Юхан
+    short: 2 Юх
+  2Kgs:
+    long: 4 Падишалар
+    short: 4 Пад
+  2Pet:
+    long: 2 Пётр
+    short: 2 Пётр
+  2Sam:
+    long: 2 Падишалар
+    short: 2 Пад
+  2Thess:
+    long: 2 Тессалоникелилерге
+    short: 2 Тес
+  2Tim:
+    long: 2 Тимотейге
+    short: 2 Тим
+  3John:
+    long: 3 Юхан
+    short: 3 Юх
+  Acts:
+    long: Фаалиет
+    short: Фаал
+  Amos:
+    long: Амос
+    short: Ам
+  Col:
+    long: Колоссайлыларгъа
+    short: Кол
+  Dan:
+    long: Даниял
+    short: Дан
+  Deut:
+    long: Къануннынъ текрары
+    short: Текр
+  Eccl:
+    long: Джемаат башы
+    short: Джем
+  Eph:
+    long: Эфеслилерге
+    short: Эф
+  Esth:
+    long: Эстер
+    short: Эст
+  Exod:
+    long: Чыкъыш
+    short: Чыкъ
+  Ezek:
+    long: Ехезкель
+    short: Ехез
+  Ezra:
+    long: Узеир
+    short: Узеир
+  Gal:
+    long: Галатиядакилерге
+    short: Гал
+  Gen:
+    long: Башланув
+    short: Баш
+  Hab:
+    long: Хавакъкъукъ
+    short: Хав
+  Hag:
+    long: Хагъгъай
+    short: Хагъ
+  Heb:
+    long: Еудийлерге
+    short: Еуд
+  Hos:
+    long: Хошеа
+    short: Хош
+  Isa:
+    long: Ешая
+    short: Еш
+  Jas:
+    long: Якъуп
+    short: Якъ
+  Jer:
+    long: Йирмея
+    short: Йрм
+  Job:
+    long: Эюп
+    short: Эюп
+  Joel:
+    long: Ёэль
+    short: Ёэль
+  John:
+    long: Юхан
+    short: Юх
+  Jonah:
+    long: Юнус
+    short: Юнус
+  Josh:
+    long: Нун огълу Ехошуа
+    short: Ехо
+  Jude:
+    long: Иуда
+    short: Иуда
+  Judg:
+    long: Къадылар
+    short: Къад
+  Lam:
+    long: Агълав йырлары
+    short: Агъл
+  Lev:
+    long: Левийлилер
+    short: Лев
+  Luke:
+    long: Лука
+    short: Лк
+  Mal:
+    long: Малакий
+    short: Мал
+  Mark:
+    long: Марк
+    short: Мк
+  Matt:
+    long: Матта
+    short: Мт
+  Mic:
+    long: Микъа
+    short: Микъа
+  Nah:
+    long: Нахум
+    short: Нах
+  Neh:
+    long: Нехемья
+    short: Нех
+  Num:
+    long: Сайылар
+    short: Сай
+  Obad:
+    long: Овадья
+    short: Ов
+  Phil:
+    long: Филиплердекилерге
+    short: Флп
+  Phlm:
+    long: Филимонгъа
+    short: Флм
+  Prov:
+    long: Икметли сёзлер
+    short: Икм
+  Ps:
+    long: Зебур
+    short: Збр
+  Rev:
+    long: Сырларнынъ ачылувы
+    short: Сыр
+  Rom:
+    long: Римлилерге
+    short: Рим
+  Ruth:
+    long: Рут
+    short: Рут
+  Song:
+    long: Энъ яхшы йыр
+    short: Йыр
+  Titus:
+    long: Титке
+    short: Тит
+  Zech:
+    long: Зекерья
+    short: Зек
+  Zeph:
+    long: Цефанья
+    short: Цеф

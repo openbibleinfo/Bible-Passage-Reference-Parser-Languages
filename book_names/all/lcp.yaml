@@ -1,0 +1,294 @@
+- osis: Gen
+  texts:
+    - 1 มเซ.
+    - 1 โมเซ
+- osis: Exod
+  texts:
+    - 2 มเซ.
+    - 2 โมเซ
+- osis: Lev
+  texts:
+    - 3 มเซ.
+    - 3 โมเซ
+- osis: Num
+  texts:
+    - 4 มเซ.
+    - 4 โมเซ
+- osis: Lam
+  texts:
+    - รซอมเยือม
+    - รซย.
+- osis: Rev
+  texts:
+    - รโฮงะ
+    - รฮ.
+- osis: Deut
+  texts:
+    - 5 มเซ.
+    - 5 โมเซ
+- osis: Josh
+  texts:
+    - โยชูวา
+    - ยชว.
+- osis: Judg
+  texts:
+    - ปรเตีฮรตุม
+    - ปรต.
+- osis: Ruth
+  texts:
+    - รูต.
+    - รูต
+- osis: Isa
+  texts:
+    - อิซยา
+    - อซย.
+- osis: 1Sam
+  texts:
+    - 1 ซามูเอน
+    - 1 ซมอ.
+    - 1. ซามูเอน
+    - 1. ซมอ.
+- osis: 2Sam
+  texts:
+    - 2 ซามูเอน
+    - 2 ซมอ.
+    - 2. ซามูเอน
+    - 2. ซมอ.
+- osis: 1Chr
+  texts:
+    - 3 กซต.
+    - 3 กซัต
+- osis: 2Chr
+  texts:
+    - 4 กซต.
+    - 4 กซัต
+- osis: 1Kgs
+  texts:
+    - 1 กซต.
+    - 1 กซัต
+    - 1. กซต.
+    - 1. กซัต
+- osis: 2Kgs
+  texts:
+    - 2 กซต.
+    - 2 กซัต
+    - 2. กซต.
+    - 2. กซัต
+- osis: Ezra
+  texts:
+    - เอซรา
+    - อซร.
+- osis: Neh
+  texts:
+    - เนฮะมี
+    - นฮม.
+- osis: Esth
+  texts:
+    - เอซเทอ
+    - อซท.
+- osis: Job
+  texts:
+    - โยป.
+    - โยป
+- osis: Ps
+  texts:
+    - ลืลาว
+    - ลลว.
+- osis: Prov
+  texts:
+    - ซตอกรเง่อึม
+    - ซตง.
+- osis: Eccl
+  texts:
+    - คูไมจพันญา
+    - คมญ.
+- osis: Song
+  texts:
+    - รซอมเชียซาโลมอน
+    - ซลม.
+- osis: Jer
+  texts:
+    - เยเรมี
+    - ยรม.
+- osis: Ezek
+  texts:
+    - เอเซเคียน
+    - อซค.
+- osis: Dan
+  texts:
+    - ด่านีเอน
+    - ดนอ.
+- osis: Hos
+  texts:
+    - โฮเชยา
+    - ฮชย.
+- osis: Joel
+  texts:
+    - โยเอน
+    - ยอน.
+- osis: Amos
+  texts:
+    - อาโมต
+    - อมต.
+- osis: Obad
+  texts:
+    - โอบ่าดี่
+    - อบด.
+- osis: Jonah
+  texts:
+    - ยนา.
+    - โยนา
+- osis: Mic
+  texts:
+    - มคา.
+    - มีคา
+- osis: Nah
+  texts:
+    - นาฮุม
+    - นาฮ.
+- osis: Hab
+  texts:
+    - ฮาบ่ากุก
+    - ฮบก.
+- osis: Zeph
+  texts:
+    - เซฟันยา
+    - ซฟย.
+- osis: Hag
+  texts:
+    - ฮักไก
+    - ฮกก.
+- osis: Zech
+  texts:
+    - เซคาริยา
+    - ซคย.
+- osis: Mal
+  texts:
+    - มาลาคี
+    - มลค.
+- osis: Matt
+  texts:
+    - มัตไท
+    - มท.
+- osis: Mark
+  texts:
+    - มาระโก
+    - มก.
+- osis: Luke
+  texts:
+    - ลูกา
+    - ลก.
+- osis: 1John
+  texts:
+    - 1 โยฮัน
+    - 1 ยน.
+    - 1. โยฮัน
+    - 1. ยน.
+- osis: 2John
+  texts:
+    - 2 โยฮัน
+    - 2 ยน.
+    - 2. โยฮัน
+    - 2. ยน.
+- osis: 3John
+  texts:
+    - 3 โยฮัน
+    - 3 ยน.
+    - 3. โยฮัน
+    - 3. ยน.
+- osis: John
+  texts:
+    - โยฮัน
+    - ยฮ.
+- osis: Acts
+  texts:
+    - กันไกญกอ
+    - กก.
+- osis: Rom
+  texts:
+    - รม.
+    - โรม
+- osis: 1Cor
+  texts:
+    - 1 โคริน
+    - 1 คร.
+    - 1. โคริน
+    - 1. คร.
+- osis: 2Cor
+  texts:
+    - 2 โคริน
+    - 2 คร.
+    - 2. โคริน
+    - 2. คร.
+- osis: Col
+  texts:
+    - โคโลซี
+    - คซ.
+- osis: Gal
+  texts:
+    - กะลาเทีย
+    - กท.
+- osis: Eph
+  texts:
+    - เอเฟโซ
+    - อฟ.
+- osis: Phil
+  texts:
+    - ฟีลิปปี
+    - ฟป.
+- osis: 1Thess
+  texts:
+    - 1 เทซะโลนิกา
+    - 1 ทก.
+    - 1. เทซะโลนิกา
+    - 1. ทก.
+- osis: 2Thess
+  texts:
+    - 2 เทซะโลนิกา
+    - 2 ทก.
+    - 2. เทซะโลนิกา
+    - 2. ทก.
+- osis: 1Tim
+  texts:
+    - 1 ทิโมที
+    - 1 ทท.
+    - 1. ทิโมที
+    - 1. ทท.
+- osis: 2Tim
+  texts:
+    - 2 ทิโมที
+    - 2 ทท.
+    - 2. ทิโมที
+    - 2. ทท.
+- osis: Titus
+  texts:
+    - ติโต
+    - ตต.
+- osis: Phlm
+  texts:
+    - ฟีเลโมน
+    - ฟม.
+- osis: Heb
+  texts:
+    - ฮีบรู
+    - ฮบ.
+- osis: Jas
+  texts:
+    - ยาโคโบ่
+    - ยบ.
+- osis: 1Pet
+  texts:
+    - 1 เปโตร
+    - 1 ปต.
+    - 1. เปโตร
+    - 1. ปต.
+- osis: 2Pet
+  texts:
+    - 2 เปโตร
+    - 2 ปต.
+    - 2. เปโตร
+    - 2. ปต.
+- osis: Jude
+  texts:
+    - ยูด่า
+    - ยด.

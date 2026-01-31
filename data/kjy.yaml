@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Penameyaya ei
+  - osis: Matt
+    texts:
+      - Madiu
+  - osis: Mark
+    texts:
+      - Maka
+  - osis: Luke
+    texts:
+      - Luka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Dioni
+  - osis: Acts
+    texts:
+      - Aposolo
+  - osis: Rom
+    texts:
+      - Romo
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korindi
+  - osis: Col
+    texts:
+      - Kolosi
+  - osis: Gal
+    texts:
+      - Galaesia
+  - osis: Eph
+    texts:
+      - Epesusi
+  - osis: Phil
+    texts:
+      - Pilipai
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Desalonaika
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Dimodi
+  - osis: Titus
+    texts:
+      - Daidasi
+  - osis: Phlm
+    texts:
+      - Pailimoni
+  - osis: Heb
+    texts:
+      - Iburu
+  - osis: Jas
+    texts:
+      - Dieimusi
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pida
+  - osis: Jude
+    texts:
+      - Diudi
+translations:
+  - POLENT23

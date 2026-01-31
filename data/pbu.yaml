@@ -1,0 +1,316 @@
+variables:
+  first: &first
+    - اول
+    - لومړی
+  second: &second
+    - دوهم
+    - دوېم
+books:
+  - osis: Gen
+    texts:
+      - پېدايښت
+      - پېدا
+  - osis: Exod
+    texts:
+      - هِجرت
+      - هِجر
+  - osis: Lev
+    texts:
+      - ليويانو
+      - ليوا
+  - osis: Num
+    texts:
+      - شمېر
+  - osis: Lam
+    texts:
+      - مرثيى
+  - osis: Rev
+    texts:
+      - مکاشفه
+      - رويا
+  - osis: Deut
+    texts:
+      - ګردان
+  - osis: Josh
+    texts:
+      - يشوَع
+      - يشو
+  - osis: Judg
+    texts:
+      - قاضيانو
+      - قاضي
+  - osis: Ruth
+    texts:
+      - روت
+  - osis: Isa
+    texts:
+      - يشعياه
+      - يشعا
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - سموئيل
+  - osis: 1Sam
+    texts:
+      - ۱سمو
+  - osis: 2Sam
+    texts:
+      - ۲سمو
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - بادشاهان
+  - osis: 1Kgs
+    texts:
+      - ۱بادش
+  - osis: 2Kgs
+    texts:
+      - ۲بادش
+  - osis:
+      - osis: 1Chr
+        before: *first
+    texts:
+      - تواريخ
+  - osis: 1Chr
+    texts:
+      - ۱تارخ
+  - osis:
+      - osis: 2Chr
+        before: *second
+    texts:
+      - تاريخ
+  - osis: 2Chr
+    texts:
+      - ۲تارخ
+  - osis: Ezra
+    texts:
+      - عزرا
+  - osis: Neh
+    texts:
+      - نحمياه
+      - نحم
+  - osis: Esth
+    texts:
+      - اِستَر
+      - استر
+  - osis: Job
+    texts:
+      - ايُوب
+  - osis: Ps
+    texts:
+      - زبور
+  - osis: Prov
+    texts:
+      - متلونه
+      - متل
+  - osis: Eccl
+    texts:
+      - څېړونکی
+      - معلِم
+      - معلم
+  - osis: Song
+    texts:
+      - غزلې
+      - غزل
+  - osis: Jer
+    texts:
+      - يرمياه
+      - يرميا
+  - osis: Ezek
+    texts:
+      - حزقى‌ايل
+      - حزق
+  - osis: Dan
+    texts:
+      - دانيال
+      - دانيا
+  - osis: Hos
+    texts:
+      - هوسيع
+      - هوس
+  - osis: Joel
+    texts:
+      - يوايل
+  - osis: Amos
+    texts:
+      - عاموس
+      - عامو
+  - osis: Obad
+    texts:
+      - عبدياه
+      - عبد
+  - osis: Jonah
+    texts:
+      - يُونس
+  - osis: Mic
+    texts:
+      - ميکاه
+      - ميک
+  - osis: Nah
+    texts:
+      - ناحوم
+  - osis: Hab
+    texts:
+      - حبقُوق
+      - حبقوق
+  - osis: Zeph
+    texts:
+      - صفنياه
+      - صفن
+  - osis: Hag
+    texts:
+      - حجى
+  - osis: Zech
+    texts:
+      - زکرياه
+      - زکريا
+  - osis: Mal
+    texts:
+      - ملاکى
+      - ملاک
+  - osis: Matt
+    texts:
+      - متى
+      - متي
+  - osis: Mark
+    texts:
+      - مرقوس
+  - osis: Luke
+    texts:
+      - لوقا
+  - osis: 1John
+    texts:
+      - ۱يوحنا
+  - osis: 2John
+    texts:
+      - ۲يوحنا
+  - osis: 3John
+    texts:
+      - درېم يوحنا
+      - درېم یوحنا
+      - ۳يوحنا
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - يوحنا
+      - یوحنا
+  - osis: Acts
+    texts:
+      - د رسولانو عملونه
+      - اعمال
+  - osis: Rom
+    texts:
+      - روميان
+      - رومیان
+      - روم
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - کورنتيان
+      - قرنتیان
+  - osis: 1Cor
+    texts:
+      - ۱کورن
+  - osis: 2Cor
+    texts:
+      - ۲کورن
+  - osis: Col
+    texts:
+      - کولوسيان
+      - کولسیان
+      - کولوس
+  - osis: Gal
+    texts:
+      - غلاتیان
+      - ګلتيان
+      - ګلت
+  - osis: Eph
+    texts:
+      - اِفِسيانو
+      - افسیسیان
+      - افس
+  - osis: Phil
+    texts:
+      - فيليپيانو
+      - فیلیپیان
+      - فيلپ
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - تِسالونيکيان
+      - تسالونیکیان
+  - osis: 1Thess
+    texts:
+      - ۱تسالو
+  - osis: 2Thess
+    texts:
+      - ۲تسالو
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - تيموتيوس
+      - تیموتاوس
+  - osis: 1Tim
+    texts:
+      - ۱تيمو
+  - osis: 2Tim
+    texts:
+      - ۲تيمو
+  - osis: Titus
+    texts:
+      - تيطوس
+      - تیتوس
+  - osis: Phlm
+    texts:
+      - فيليمون
+      - فیلیمون
+      - فيليم
+  - osis: Heb
+    texts:
+      - عبرانيان
+      - عبرانیان
+      - عبران
+  - osis: Jas
+    texts:
+      - يعقوب
+      - یعقوب
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - پطروس
+  - osis: 1Pet
+    texts:
+      - ۱پطرس
+  - osis: 2Pet
+    texts:
+      - ۲پطرس
+  - osis: Jude
+    texts:
+      - يهوداه
+      - یهودا
+      - يهود
+translations:
+  - APB
+  - PYPB

@@ -1,0 +1,270 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Baɗitari
+      - Baɗ
+  - osis: Exod
+    texts:
+      - Səɓəlari
+      - Səɓ
+  - osis: Lev
+    texts:
+      - Pristayeri
+      - Prist
+  - osis: Num
+    texts:
+      - Jikayeri
+      - Jik
+  - osis: Lam
+    texts:
+      - Jikatuwayeri
+      - Jikatu
+  - osis: Rev
+    texts:
+      - Aka Yahwana
+      - Kəl Yah
+  - osis: Deut
+    texts:
+      - Zwarəngkər Shariya
+      - Z. Sha
+  - osis: Josh
+    texts:
+      - Joshuwa
+      - Josh
+  - osis: Judg
+    texts:
+      - Alkaliyayeri
+      - Alk
+  - osis: Ruth
+    texts:
+      - Ruth
+  - osis: Isa
+    texts:
+      - Ishaya
+      - Ish
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samiwal
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Kuthlyayeri
+      - Kuth
+  - osis:
+      - osis: 1Chr
+        before: *first
+    texts:
+      - Labar Na Waci
+      - Lab Wac
+  - osis:
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Lab Wac
+      - Lab
+  - osis: Ezra
+    texts:
+      - Ezra
+  - osis: Neh
+    texts:
+      - Neh
+  - osis: Esth
+    texts:
+      - Esta
+  - osis: Job
+    texts:
+      - Ayuba
+      - Ayu
+  - osis: Ps
+    texts:
+      - Zabura
+      - Zab
+  - osis: Prov
+    texts:
+      - Karapwayeri
+      - Kar
+  - osis: Eccl
+    texts:
+      - M. Ngkəra
+  - osis: Song
+    texts:
+      - H. Ha Hayeri
+      - H. Ha
+  - osis: Jer
+    texts:
+      - Irmiya
+      - Irm
+  - osis: Ezek
+    texts:
+      - Ezekiyel
+      - Ezek
+  - osis: Dan
+    texts:
+      - Daniyel
+      - Dan
+  - osis: Hos
+    texts:
+      - Hoseya
+      - Hos
+  - osis: Joel
+    texts:
+      - Yowel
+      - Yo
+  - osis: Amos
+    texts:
+      - Amos
+  - osis: Obad
+    texts:
+      - Obadiya
+      - Obad
+  - osis: Jonah
+    texts:
+      - Jona
+  - osis: Mic
+    texts:
+      - Mika
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakkuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Zafaniya
+      - Zaf
+  - osis: Hag
+    texts:
+      - Haggai
+      - Hag
+  - osis: Zech
+    texts:
+      - Zakariya
+      - Zak
+  - osis: Mal
+    texts:
+      - Malaki
+      - Mal
+  - osis: Matt
+    texts:
+      - Mathliyu
+      - Mat
+  - osis: Mark
+    texts:
+      - Markus
+      - Mar
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yahwana
+      - Yah
+  - osis: Acts
+    texts:
+      - Kəth Apos
+  - osis: Rom
+    texts:
+      - Mjir Rom
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinthli
+      - Kor
+  - osis: Col
+    texts:
+      - Kolossi
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatiya
+      - Gal
+  - osis: Eph
+    texts:
+      - Afisa
+      - Afis
+  - osis: Phil
+    texts:
+      - Fəlippi
+      - Fəl
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Thlas
+  - osis: 1Thess
+    texts:
+      - 1Thlassalonika
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thlassalonika
+      - Thlas
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothli
+      - Tim
+  - osis: Titus
+    texts:
+      - Titus
+      - Tit
+  - osis: Phlm
+    texts:
+      - Fəlimon
+      - Fəlm
+  - osis: Heb
+    texts:
+      - Ibrani
+      - Ibr
+  - osis: Jas
+    texts:
+      - Yakub
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Bitrəs
+      - Bit
+  - osis: Jude
+    texts:
+      - Yahuda
+      - Yahu
+translations:
+  - BB

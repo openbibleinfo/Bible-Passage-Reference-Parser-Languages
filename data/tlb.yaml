@@ -1,0 +1,336 @@
+variables:
+  first: &first
+    - O
+  second: &second
+    - O
+books:
+  - osis: Gen
+    texts:
+      - O Kejadian
+      - Kej.
+  - osis: Exod
+    texts:
+      - O Keluaran
+      - Kel.
+  - osis: Lev
+    texts:
+      - O Imamat
+      - Im.
+  - osis: Num
+    texts:
+      - O Bilangan
+      - Bil.
+  - osis: Lam
+    texts:
+      - O Ratapan
+      - Rat.
+  - osis: Rev
+    texts:
+      - O Himatoko
+      - Him.
+  - osis: Deut
+    texts:
+      - O Ulangan
+      - Ul.
+  - osis: Josh
+    texts:
+      - O Yosua
+      - Yos.
+  - osis: Judg
+    texts:
+      - O Hakim-hakim
+      - Hak.
+  - osis: Ruth
+    texts:
+      - O Ngo Rut
+      - Rut
+  - osis: Isa
+    texts:
+      - O Yesaya
+      - Yes.
+  - osis:
+      - osis: 1Sam
+        before: *first
+    texts:
+      - Samuel Madodihiraka
+  - osis: 1Sam
+    texts:
+      - 1Sam.
+  - osis:
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel Mahinotoka
+  - osis: 2Sam
+    texts:
+      - 2Sam.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+    texts:
+      - Kokoano Madodihiraka
+  - osis: 1Kgs
+    texts:
+      - 1Kok.
+  - osis:
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Kokoano Mahinotoka
+  - osis: 2Kgs
+    texts:
+      - 2Kok.
+  - osis:
+      - osis: 1Chr
+        before: *first
+    texts:
+      - Tawarikh Madodihiraka
+  - osis: 1Chr
+    texts:
+      - 1Taw.
+  - osis:
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Tawarikh Mahinotoka
+  - osis: 2Chr
+    texts:
+      - 2Taw.
+  - osis: Ezra
+    texts:
+      - O Ezra
+      - Ezr.
+  - osis: Neh
+    texts:
+      - O Nehemia
+      - Neh.
+  - osis: Esth
+    texts:
+      - O Ngo Ester
+      - Est.
+  - osis: Job
+    texts:
+      - O Ayub
+      - Ayb.
+  - osis: Ps
+    texts:
+      - O Mazmur
+      - Mzm.
+  - osis: Prov
+    texts:
+      - O Amsal
+      - Ams.
+  - osis: Eccl
+    texts:
+      - O Pengkhotbah
+      - Pkh.
+  - osis: Song
+    texts:
+      - O Kidung Agung
+      - Kid.
+  - osis: Jer
+    texts:
+      - O Yeremia
+      - Yer.
+  - osis: Ezek
+    texts:
+      - O Yehezkiel
+      - Yeh.
+  - osis: Dan
+    texts:
+      - O Daniel
+      - Dan.
+  - osis: Hos
+    texts:
+      - O Hosea
+      - Hos.
+  - osis: Joel
+    texts:
+      - O Yoel
+      - Yl.
+  - osis: Amos
+    texts:
+      - O Amos
+      - Am.
+  - osis: Obad
+    texts:
+      - O Obaja
+      - Ob.
+  - osis: Jonah
+    texts:
+      - O Yunus
+      - Yun.
+  - osis: Mic
+    texts:
+      - O Mikha
+      - Mi.
+  - osis: Nah
+    texts:
+      - O Nahum
+      - Nah.
+  - osis: Hab
+    texts:
+      - O Habakuk
+      - Hab.
+  - osis: Zeph
+    texts:
+      - O Zefanya
+      - Zef.
+  - osis: Hag
+    texts:
+      - O Hagai
+      - Hag.
+  - osis: Zech
+    texts:
+      - O Zakharia
+      - Za.
+  - osis: Mal
+    texts:
+      - O Maleakhi
+      - Mal.
+  - osis: Matt
+    texts:
+      - O Matius
+      - Mat.
+  - osis: Mark
+    texts:
+      - O Markus
+      - Mark.
+  - osis: Luke
+    texts:
+      - O Lukas
+      - Luk.
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - Yohanis Madodihiraka
+  - osis: 1John
+    texts:
+      - 1Yoh.
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - Yohanis Mahinotoka
+  - osis: 2John
+    texts:
+      - 2Yoh.
+  - osis: 3John
+    texts:
+      - O Yohanis Mahangeoka
+      - 3Yoh.
+  - osis: John
+    texts:
+      - O Yohanis
+      - Yoh.
+  - osis: Acts
+    texts:
+      - O Kisah Rasul-rasul
+      - Kis.
+  - osis: Rom
+    texts:
+      - O Roma
+      - Rm.
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Korintus Madodihiraka
+  - osis: 1Cor
+    texts:
+      - 1Kor.
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintus Mahinotoka
+  - osis: 2Cor
+    texts:
+      - 2Kor.
+  - osis: Col
+    texts:
+      - O Kolose
+      - Kol.
+  - osis: Gal
+    texts:
+      - O Galatia
+      - Gal.
+  - osis: Eph
+    texts:
+      - O Efesus
+      - Ef.
+  - osis: Phil
+    texts:
+      - O Pilipi
+      - Plp.
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Tesalonika Madodihiraka
+  - osis: 1Thess
+    texts:
+      - 1Tes.
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonika Mahinotoka
+  - osis: 2Thess
+    texts:
+      - 2Tes.
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Timotius Madodihiraka
+  - osis: 1Tim
+    texts:
+      - 1Tim.
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotius Mahinotoka
+  - osis: 2Tim
+    texts:
+      - 2Tim.
+  - osis: Titus
+    texts:
+      - O Titus
+      - Tit.
+  - osis: Phlm
+    texts:
+      - O Filemon
+      - Flm.
+  - osis: Heb
+    texts:
+      - O Ibrani
+      - Ibr.
+  - osis: Jas
+    texts:
+      - O Yakobus
+      - Yak.
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - Petrus Madodihiraka
+  - osis: 1Pet
+    texts:
+      - 1Pet.
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petrus Mahinotoka
+  - osis: 2Pet
+    texts:
+      - 2Pet.
+  - osis: Jude
+    texts:
+      - O Yudas
+      - Yud.
+translations:
+  - TLB

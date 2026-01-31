@@ -1,0 +1,100 @@
+default:
+  1Cor:
+    long: 1 Ko
+    short: 1 Ko
+  1John:
+    long: 1 Zn
+    short: 1 Zn
+  1Pet:
+    long: 1 Pi
+    short: 1 Pi
+  1Thess:
+    long: 1 Tes
+    short: 1 Tes
+  1Tim:
+    long: 1 Tim
+    short: 1 Tim
+  2Cor:
+    long: 2 Ko
+    short: 2 Ko
+  2John:
+    long: 2 Zn
+    short: 2 Zn
+  2Pet:
+    long: 2 Pi
+    short: 2 Pi
+  2Thess:
+    long: 2 Tes
+    short: 2 Tes
+  2Tim:
+    long: 2 Tim
+    short: 2 Tim
+  3John:
+    long: 3 Zn
+    short: 3 Zn
+  Acts:
+    long: Zis
+    short: Zis
+  Col:
+    long: Kol
+    short: Kol
+  Eph:
+    long: Ef
+    short: Ef
+  Esth:
+    long: Ester
+    short: Est
+  Gal:
+    long: Ga
+    short: Ga
+  Gen:
+    long: Zenez
+    short: Zen
+  Heb:
+    long: Eb
+    short: Eb
+  Isa:
+    long: Izai
+    short: Iza
+  Jas:
+    long: Zak
+    short: Zak
+  John:
+    long: Zn
+    short: Zn
+  Jude:
+    long: Zid
+    short: Zid
+  Luke:
+    long: Lk
+    short: Lk
+  Mark:
+    long: Mk
+    short: Mk
+  Matt:
+    long: Mt
+    short: Mt
+  Phil:
+    long: Fil
+    short: Fil
+  Phlm:
+    long: Flm
+    short: Flm
+  Prov:
+    long: Proverb
+    short: Pro
+  Ps:
+    long: Psom
+    short: Psm
+  Rev:
+    long: Rev
+    short: Rev
+  Rom:
+    long: Rom
+    short: Rom
+  Ruth:
+    long: Rit
+    short: Rit
+  Titus:
+    long: Tit
+    short: Tit

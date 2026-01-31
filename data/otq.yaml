@@ -1,0 +1,138 @@
+variables:
+  first: &first
+    - "1"
+    - Ár
+  second: &second
+    - "2"
+    - Ár
+books:
+  - osis: Rev
+    texts:
+      - Ya Nthandi
+      - Ap.
+  - osis: Matt
+    texts:
+      - Ar Mateo
+      - Mt.
+  - osis: Mark
+    texts:
+      - Ar Marko
+      - Mr.
+  - osis: Luke
+    texts:
+      - Ar Luka
+      - Lc.
+  - osis: 3John
+    texts:
+      - Ár Hñu Ar Xuwa
+      - 3 Jn.
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - Ndu̱i Ar Xuwa
+      - Jn.
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - Ñoho Ar Xuwa
+      - Jn.
+  - osis: John
+    texts:
+      - Ar Xuwa
+      - Jn.
+  - osis: Acts
+    texts:
+      - Ya ꞌBE̱FI
+      - Hch.
+  - osis: Rom
+    texts:
+      - Ar Romanu
+      - Ro.
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Ndu̱i Ar Korintio
+      - Co.
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Ñoho Ar Korintio
+      - Co.
+  - osis: Col
+    texts:
+      - Ar Kolosense
+      - Col.
+  - osis: Gal
+    texts:
+      - Ar Galata
+      - Gá.
+  - osis: Eph
+    texts:
+      - Ar Efesio
+      - Ef.
+  - osis: Phil
+    texts:
+      - Ar Filipense
+      - Fil.
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Ndu̱i Ar Tesalonisense
+      - Ts.
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Ñoho Ar Tesalonisense
+      - Ts.
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Ndu̱i Ar Timoteo
+      - Ti.
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Ñoho Ar Timoteo
+      - Ti.
+  - osis: Titus
+    texts:
+      - Ar Tito
+      - Tit.
+  - osis: Phlm
+    texts:
+      - Ar Filemon
+      - Flm.
+  - osis: Heb
+    texts:
+      - Ar Ebreo
+      - He.
+  - osis: Jas
+    texts:
+      - Ar Santiago
+      - Stg.
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - Ndu̱i Ar Pedro
+      - P.
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Ñoho Ar Pedro
+      - P.
+  - osis: Jude
+    texts:
+      - Ar Huda
+      - Jud.
+translations:
+  - OTQ

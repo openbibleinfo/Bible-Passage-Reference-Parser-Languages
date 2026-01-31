@@ -1,0 +1,102 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Matt
+    texts:
+      - Matye
+      - Mat
+  - osis: Mark
+    texts:
+      - Markɩ
+      - Mar
+  - osis: Luke
+    texts:
+      - Liki
+      - Lik
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Nsyɔ̃
+  - osis: Acts
+    texts:
+      - Tyípɩ́nɩ̀
+      - Tyí
+  - osis: Rom
+    texts:
+      - Wrome tãn
+      - Wro
+  - osis: 1Cor
+    texts:
+      - Korɛ̃nti tãn
+      - 1Kor
+  - osis: 2Cor
+    texts:
+      - Korɛ̃nti tãn
+      - 2Kor
+  - osis: Col
+    texts:
+      - Kolɔsɩ
+      - Kol
+  - osis: Gal
+    texts:
+      - Kalatɩ tãn
+      - Kal
+  - osis: Eph
+    texts:
+      - Yefɛsɩ tãn
+      - Yef
+  - osis: Phil
+    texts:
+      - Filipi
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaloniki
+  - osis: 1Thess
+    texts:
+      - 1Tes
+  - osis: 2Thess
+    texts:
+      - 2Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Titi
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemo
+      - Fil
+  - osis: Jas
+    texts:
+      - Nsyakɩ
+      - Nsy
+translations:
+  - WIBDBL

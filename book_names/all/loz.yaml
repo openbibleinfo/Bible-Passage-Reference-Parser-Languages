@@ -1,0 +1,343 @@
+- osis: Gen
+  texts:
+    - Simuluho
+    - Sim
+- osis: Exod
+  texts:
+    - Mututo
+    - Mut
+- osis: Bel
+  texts:
+    - Bele
+- osis: Lev
+  texts:
+    - Malivi
+- osis: Num
+  texts:
+    - Lipalo
+    - Lipa
+- osis: Sir
+  texts:
+    - Lituto za Siraki
+    - Litu
+- osis: Wis
+  texts:
+    - Butali
+    - But
+- osis: Lam
+  texts:
+    - Sililo
+    - Sili
+- osis: EpJer
+  texts:
+    - Jeremia
+- osis: Rev
+  texts:
+    - Sinulo
+    - Sin
+- osis: Deut
+  texts:
+    - Mulao
+    - Mul
+- osis: Josh
+  texts:
+    - Joshua
+    - Josh
+- osis: Judg
+  texts:
+    - Baatuli
+    - Baat
+- osis: Ruth
+  texts:
+    - Ruti
+    - Rut
+- osis: Isa
+  texts:
+    - Isaya
+    - Isa
+- osis: 1Sam
+  texts:
+    - 1 Samuele
+    - 1 Sam
+    - 1. Samuele
+    - 1. Sam
+- osis: 2Sam
+  texts:
+    - 2 Samuele
+    - 2 Sam
+    - 2. Samuele
+    - 2. Sam
+- osis: 1Kgs
+  texts:
+    - 1 Malena
+    - 1 Male
+    - 1. Malena
+    - 1. Male
+- osis: 2Kgs
+  texts:
+    - 2 Malena
+    - 2 Male
+    - 2. Malena
+    - 2. Male
+- osis: 1Chr
+  texts:
+    - 1 Litaba
+    - 1 Lita
+    - 1. Litaba
+    - 1. Lita
+- osis: 2Chr
+  texts:
+    - 2 Litaba
+    - 2 Lita
+    - 2. Litaba
+    - 2. Lita
+- osis: Ezra
+  texts:
+    - Ezra
+- osis: Neh
+  texts:
+    - Nehemia
+    - Neh
+- osis: Job
+  texts:
+    - Jobo
+    - Job
+- osis: Prov
+  texts:
+    - Mashitanguti
+    - Mash
+- osis: Eccl
+  texts:
+    - Mubuleli
+    - Mub
+- osis: Song
+  texts:
+    - Pina ya Lipina
+    - Pina
+- osis: Ps
+  texts:
+    - Lipina
+    - Lipi
+- osis: Jer
+  texts:
+    - Jeremia
+    - Jer
+- osis: Ezek
+  texts:
+    - Ezekiele
+    - Ezek
+- osis: Dan
+  texts:
+    - Daniele
+    - Dan
+- osis: Hos
+  texts:
+    - Hosea
+    - Hos
+- osis: Joel
+  texts:
+    - Joele
+    - Joel
+- osis: Amos
+  texts:
+    - Amosi
+    - Am
+- osis: Obad
+  texts:
+    - Obadia
+    - Obad
+- osis: Jonah
+  texts:
+    - Jonasi
+    - Jona
+- osis: Mic
+  texts:
+    - Mika
+- osis: Nah
+  texts:
+    - Nahumi
+    - Nah
+- osis: Hab
+  texts:
+    - Habakuki
+    - Hab
+- osis: Zeph
+  texts:
+    - Zefania
+    - Zefa
+- osis: Hag
+  texts:
+    - Hagai
+    - Hag
+- osis: Zech
+  texts:
+    - Zakaria
+    - Zak
+- osis: Mal
+  texts:
+    - Malaki
+    - Mala
+- osis: Matt
+  texts:
+    - Mateu
+    - Mat
+- osis: Mark
+  texts:
+    - Mareka
+    - Mar
+- osis: Luke
+  texts:
+    - Luka
+    - Luk
+- osis: 1John
+  texts:
+    - 1 Joani
+    - 1 Joa
+    - 1. Joani
+    - 1. Joa
+- osis: 2John
+  texts:
+    - 2 Joani
+    - 2 Joa
+    - 2. Joani
+    - 2. Joa
+- osis: 3John
+  texts:
+    - 3 Joani
+    - 3 Joa
+    - 3. Joani
+    - 3. Joa
+- osis: John
+  texts:
+    - Joani
+    - Joa
+- osis: Acts
+  texts:
+    - Likezo
+    - Lik
+- osis: Rom
+  texts:
+    - BaRoma
+    - Baro
+- osis: 1Cor
+  texts:
+    - 1 Bakorinte
+    - 1 Bakor
+    - 1. Bakorinte
+    - 1. Bakor
+- osis: 2Cor
+  texts:
+    - 2 Bakorinte
+    - 2 Bakor
+    - 2. Bakorinte
+    - 2. Bakor
+- osis: Col
+  texts:
+    - BaKolose
+    - Bakol
+- osis: Gal
+  texts:
+    - Magalata
+    - Magal
+- osis: Eph
+  texts:
+    - Baefese
+    - Baef
+- osis: Phil
+  texts:
+    - BaFilipi
+    - Bafil
+- osis: 1Thess
+  texts:
+    - 1 Batesalonika
+    - 1 Bates
+    - 1. Batesalonika
+    - 1. Bates
+- osis: 2Thess
+  texts:
+    - 2 Batesalonika
+    - 2 Bates
+    - 2. Batesalonika
+    - 2. Bates
+- osis: 1Tim
+  texts:
+    - 1 Timotea
+    - 1 Tim
+    - 1. Timotea
+    - 1. Tim
+- osis: 2Tim
+  texts:
+    - 2 Timotea
+    - 2 Tim
+    - 2. Timotea
+    - 2. Tim
+- osis: Titus
+  texts:
+    - Tite
+- osis: Phlm
+  texts:
+    - Filemoni
+    - Fil
+- osis: Heb
+  texts:
+    - Maheberu
+    - Maheb
+- osis: Jas
+  texts:
+    - Jakobo
+    - Jak
+- osis: 1Pet
+  texts:
+    - 1 Pitrosi
+    - 1 Pit
+    - 1. Pitrosi
+    - 1. Pit
+- osis: 2Pet
+  texts:
+    - 2 Pitrosi
+    - 2 Pit
+    - 2. Pitrosi
+    - 2. Pit
+- osis: Jude
+  texts:
+    - Juda
+- osis: Tob
+  texts:
+    - Tobita
+    - Tob
+- osis: Jdt
+  texts:
+    - Judisi
+    - Judi
+- osis: Bar
+  texts:
+    - Baruki
+    - Bar
+- osis: Sus
+  texts:
+    - Suzana
+- osis: 1Macc
+  texts:
+    - 1 Mak
+    - 1. Mak
+- osis: 2Macc
+  texts:
+    - 2 Mak
+    - 2. Mak
+- osis: 1Macc
+  texts:
+    - Buka ya Pili ya Makabaeusi
+- osis: 2Macc
+  texts:
+    - Buka ya Bubeli ya Makabaeusi
+- osis: DanGr
+  texts:
+    - Daniele
+- osis: EsthGr
+  texts:
+    - Dt. Estere
+    - Dt. Est
+- osis: Esth
+  texts:
+    - Estere
+    - Est

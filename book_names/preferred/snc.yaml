@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 Korinto
+    short: 1Ko
+  1John:
+    long: 1 Ioane
+    short: 1Io
+  1Pet:
+    long: 1 Petero
+    short: 1Pe
+  1Thess:
+    long: 1 Tesalonika
+    short: 1Te
+  1Tim:
+    long: 1 Timoteo
+    short: 1Ti
+  2Cor:
+    long: 2 Korinto
+    short: 2Ko
+  2John:
+    long: 2 Ioane
+    short: 2Io
+  2Pet:
+    long: 2 Petero
+    short: 2Pe
+  2Thess:
+    long: 2 Tesalonika
+    short: 2Te
+  2Tim:
+    long: 2 Timoteo
+    short: 2Ti
+  3John:
+    long: 3 Ioane
+    short: 3Io
+  Acts:
+    long: Apostolo
+    short: Ap
+  Col:
+    long: Kolose
+    short: Kol
+  Eph:
+    long: Efeso
+    short: Ef
+  Gal:
+    long: Galatia
+    short: Ga
+  Heb:
+    long: Heberu
+    short: Heb
+  Jas:
+    long: Iakobo
+    short: Ia
+  John:
+    long: Ioane
+    short: Io
+  Jude:
+    long: Iudas
+    short: Iu
+  Luke:
+    long: Luka
+    short: Lu
+  Mark:
+    long: Mareko
+    short: Mar
+  Matt:
+    long: Mataio
+    short: Mt
+  Phil:
+    long: Filipi
+    short: Flp
+  Phlm:
+    long: Filemona
+    short: Flm
+  Rev:
+    long: Apokalupo
+    short: Apk
+  Rom:
+    long: Roma
+    short: Ro
+  Titus:
+    long: Tito
+    short: Tit

@@ -1,0 +1,55 @@
+default:
+  1Cor:
+    long: 1 Corinthians
+    short: 1 Cor.
+  1John:
+    long: 1 John
+    short: 1 John
+  1Tim:
+    long: 1 Timothy
+    short: 1 Tim.
+  2Cor:
+    long: 2 Corinthians
+    short: 2 Cor.
+  Dan:
+    long: Daniel
+    short: Dan.
+  Ezek:
+    long: Ezekiel
+    short: Ezek.
+  Gal:
+    long: Galatians
+    short: Gal.
+  Heb:
+    long: Hebrews
+    short: Heb.
+  Jer:
+    long: Jeramiah
+    short: Jer.
+  Joel:
+    long: Joel
+    short: Joel
+  John:
+    long: John
+    short: John
+  Lev:
+    long: Leviticus
+    short: Lev.
+  Luke:
+    long: Luke
+    short: Luke
+  Matt:
+    long: Matthew
+    short: Matt.
+  Prov:
+    long: Proverbs
+    short: Prov.
+  Ps:
+    long: Psalms
+    short: Psalm
+  Ps151:
+    long: Hymns
+    short: Psalm
+  Rom:
+    long: Romans
+    short: Rom.

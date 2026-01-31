@@ -1,0 +1,119 @@
+default:
+  1Cor:
+    long: اوّل قرنتیان
+    short: ۱قرنتیان
+  1John:
+    long: اوّل یوحنا
+    short: ۱یوحنا
+  1Pet:
+    long: اوّل پطرس
+    short: ۱پطرس
+  1Thess:
+    long: اوّل تسالونیکیان
+    short: ۱تسالونیکیان
+  1Tim:
+    long: اوّل تیموتائوس
+    short: ۱تیموتائوس
+  2Cor:
+    long: دوم قرنتیان
+    short: ۲قرنتیان
+  2John:
+    long: دوم یوحنا
+    short: ۲یوحنا
+  2Pet:
+    long: دوم پطرس
+    short: ۲پطرس
+  2Thess:
+    long: دوم تسالونیکیان
+    short: ۲تسالونیکیان
+  2Tim:
+    long: دوم تیموتائوس
+    short: ۲تیموتائوس
+  3John:
+    long: سوم یوحنا
+    short: ۳یوحنا
+  Acts:
+    long: اعمالٚ رسولأن
+    short: اعمال
+  Col:
+    long: کولسیان
+    short: کولسیان
+  Dan:
+    long: دانیال
+    short: دانیال
+  Eph:
+    long: افسسیان
+    short: افسسیان
+  Esth:
+    long: استر
+    short: استر
+  Exod:
+    long: خروج
+    short: خروج
+  Ezra:
+    long: عِزرا
+  Gal:
+    long: غلاطیأن
+    short: غلاطیأن
+  Gen:
+    long: پیدایش
+    short: پیدایش
+  Heb:
+    long: عبرأنیأن
+    short: عبرأنیأن
+  Jas:
+    long: یعقوب
+    short: یعقوب
+  Job:
+    long: ایوب
+  John:
+    long: یوحنا
+    short: یوح
+  Jonah:
+    long: یونس
+    short: یونس
+  Jude:
+    long: یهودا
+    short: یهودا
+  Luke:
+    long: لوقا
+    short: لوقا
+  Mark:
+    long: مَرقُس
+    short: مَرقُس
+  Matt:
+    long: متا
+    short: متا
+  Phil:
+    long: فیلیپیان
+    short: فیلیپیان
+  Phlm:
+    long: فیلیمون
+    short: فیلیمون
+  Ps:
+    long: مزامیر
+  Rev:
+    long: موکأشفه
+    short: موکأشفه
+  Rom:
+    long: رومیأن
+    short: رومیأن
+  Ruth:
+    long: روت
+    short: روت
+  Titus:
+    long: تیتوس
+    short: تیتوس
+translations:
+  glk:
+    1Pet:
+      long: ۱پطرس
+    Matt:
+      long: متّی
+      short: متّی
+  glknt:
+    Acts:
+      long: روسولأنٚ کأرأن
+      short: کأرأن
+    John:
+      short: یوحنا

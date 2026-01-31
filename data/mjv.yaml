@@ -1,0 +1,116 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - വെളിപ്പാട്
+      - വെളി.
+  - osis: Matt
+    texts:
+      - മത്തായി
+      - മത്താ.
+  - osis: Mark
+    texts:
+      - മരുക്കോശ്
+      - മരു.
+  - osis: Luke
+    texts:
+      - ലൂക്കോശ്
+      - ലൂക്കോ.
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - ഓകന്നാന്
+      - ഓക.
+  - osis: John
+    texts:
+      - ഓകന്നാൻ
+      - ഓക.
+  - osis: Acts
+    texts:
+      - അപ്പോശ്‌ത്തലര് തെയ്‌വ വേലെ
+      - അപ്പോ.
+  - osis: Rom
+    texts:
+      - റോമര്
+      - റോമ.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - കൊരിന്തിയര്
+      - കൊരി.
+  - osis: Col
+    texts:
+      - കൊലോശിയര്
+      - കൊലോ.
+  - osis: Gal
+    texts:
+      - കെലാത്തിയര്
+      - കെലാ.
+  - osis: Eph
+    texts:
+      - എപേശിയര്
+      - എപേ.
+  - osis: Phil
+    texts:
+      - പിലിപ്പിയര്
+      - പിലി.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - തെശലോനിയര്
+      - തെശലോ.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - തിമോത്തിയോശ്
+      - തിമോ.
+  - osis: Titus
+    texts:
+      - തീത്തോശ്
+      - തീത്തോ.
+  - osis: Phlm
+    texts:
+      - പിലേമോന്
+      - പിലേ.
+  - osis: Heb
+    texts:
+      - എബുറായര്
+      - എബു.
+  - osis: Jas
+    texts:
+      - ആക്കോവ്
+      - ആക്കോ.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - പത്തിരോശ്
+      - പത്തി.
+  - osis: Jude
+    texts:
+      - ഊതാ.
+      - ഊതാ
+translations:
+  - MJV

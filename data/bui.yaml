@@ -1,0 +1,106 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Bimwa
+  - osis: Matt
+    texts:
+      - Matthieu
+      - Matt
+  - osis: Mark
+    texts:
+      - Marc
+  - osis: Luke
+    texts:
+      - Luc
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jean
+  - osis: Acts
+    texts:
+      - Matoma ma Bapôtres
+      - Matoma
+  - osis: Rom
+    texts:
+      - Baromain
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corinthien
+      - Cor
+  - osis: Col
+    texts:
+      - Colossien
+      - Col
+  - osis: Gal
+    texts:
+      - Galate
+      - Gal
+  - osis: Eph
+    texts:
+      - Ephésien
+      - Ephés
+  - osis: Phil
+    texts:
+      - Philippien
+      - Philip
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thessalonicien
+      - Thess
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothée
+      - Tim
+  - osis: Titus
+    texts:
+      - Tite
+  - osis: Phlm
+    texts:
+      - Philémon
+      - Philém
+  - osis: Heb
+    texts:
+      - Hébreu
+      - Héb
+  - osis: Jas
+    texts:
+      - Jacques
+      - Jac
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pierre
+  - osis: Jude
+    texts:
+      - Jude
+translations:
+  - BUI1947

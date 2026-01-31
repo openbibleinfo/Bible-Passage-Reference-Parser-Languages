@@ -1,0 +1,97 @@
+variables:
+  first: &first
+    - I
+  second: &second
+    - II
+  third: &third
+    - III
+books:
+  - osis: Rev
+    texts:
+      - Veɗe
+  - osis: Matt
+    texts:
+      - Matiye
+      - Mat.
+  - osis: Mark
+    texts:
+      - Markə
+      - Mar.
+  - osis: Luke
+    texts:
+      - Liki
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Zaŋ
+  - osis: Acts
+    texts:
+      - Joŋre
+  - osis: Rom
+    texts:
+      - Romeŋ
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Koreŋtəŋ
+      - Kor.
+  - osis: Col
+    texts:
+      - Kolosiŋ
+  - osis: Gal
+    texts:
+      - Galatiŋ
+  - osis: Eph
+    texts:
+      - Efesiŋ
+  - osis: Phil
+    texts:
+      - Filipiŋ
+  - osis: 1Thess
+    texts:
+      - 1 Tesalonikiŋ
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonikiŋ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+  - osis: Titus
+    texts:
+      - Titi
+  - osis: Phlm
+    texts:
+      - Filemoŋ
+  - osis: Heb
+    texts:
+      - Hebereŋ
+  - osis: Jas
+    texts:
+      - Zaki
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piyer
+  - osis: Jude
+    texts:
+      - Zudi
+translations:
+  - KERNT05

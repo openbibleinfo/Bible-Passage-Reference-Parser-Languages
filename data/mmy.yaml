@@ -1,0 +1,94 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Gaaro ta Gaari ku Kiilenta
+  - osis: Matt
+    texts:
+      - Matiye
+  - osis: Mark
+    texts:
+      - Mark
+  - osis: Luke
+    texts:
+      - Lik
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yaaya
+  - osis: Acts
+    texts:
+      - Lubaakico N̰amaakeetee Iisa Masi
+      - Lubaakico
+  - osis: Rom
+    texts:
+      - Rooma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korente
+  - osis: Col
+    texts:
+      - Koloos
+  - osis: Gal
+    texts:
+      - Galasi
+  - osis: Eph
+    texts:
+      - Epez
+  - osis: Phil
+    texts:
+      - Pilip
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonik
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+  - osis: Titus
+    texts:
+      - Tit
+  - osis: Phlm
+    texts:
+      - Pilemon
+  - osis: Heb
+    texts:
+      - Ebireenigee
+  - osis: Jas
+    texts:
+      - Zak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piyer
+  - osis: Jude
+    texts:
+      - Yud
+translations:
+  - MMY

@@ -1,0 +1,448 @@
+default:
+  1Chr:
+    long: 1 Veigauna
+    short: 1Vei
+  1Cor:
+    long: 1 Korinica
+    short: 1Kori
+  1John:
+    long: 1 Joni
+    short: 1Joni
+  1Kgs:
+    long: 1 Tui
+    short: 1Tui
+  1Macc:
+    long: 1 Makabe
+    short: 1M
+  1Pet:
+    long: 1 Pita
+    short: 1Pita
+  1Sam:
+    long: 1 Samuela
+    short: 1Samu
+  1Thess:
+    long: 1 Cesalonaika
+    short: 1Cesa
+  1Tim:
+    long: 1 Timoci
+    short: 1Timo
+  2Chr:
+    long: 2 Veigauna
+    short: 2Vei
+  2Cor:
+    long: 2 Korinica
+    short: 2Kori
+  2John:
+    long: 2 Joni
+    short: 2Joni
+  2Kgs:
+    long: 2 Tui
+    short: 2Tui
+  2Macc:
+    long: 2 Makabe
+    short: 2M
+  2Pet:
+    long: 2 Pita
+    short: 2Pita
+  2Sam:
+    long: 2 Samuela
+    short: 2Samu
+  2Thess:
+    long: 2 Cesalonaika
+    short: 2Cesa
+  2Tim:
+    long: 2 Timoci
+    short: 2Timo
+  3John:
+    long: 3 Joni
+    short: 3Joni
+  Acts:
+    long: Cakacaka
+    short: Caka
+  Amos:
+    long: Emosi
+    short: Emo
+  Bar:
+    long: Baruki
+    short: Br
+  Bel:
+    long: 3. O BELE KEI NA DRAKONI DAUKATA
+    short: 3. Tn
+  Col:
+    long: Kolosa
+    short: Kolo
+  Dan:
+    long: Taniela
+    short: Tani
+  Deut:
+    long: Vakarua
+    short: Vrua
+  Eccl:
+    long: Dauvunau
+    short: Dvu
+  Eph:
+    long: Efeso
+    short: Efe
+  Esth:
+    long: Esiteri
+    short: Esi
+  EsthGr:
+    long: Gk Esiteri
+    short: Gk Est
+  Exod:
+    long: Lako Yani
+    short: Lako
+  Ezek:
+    long: Isikeli
+    short: Isi
+  Ezra:
+    long: Esera
+    short: Esera
+  Gal:
+    long: Kalatia
+    short: Kala
+  Gen:
+    long: Vakatekivu
+    short: Vteki
+  Hab:
+    long: Apakuki
+    short: Apa
+  Hag:
+    long: Akeai
+    short: Ake
+  Heb:
+    long: Iperiu
+    short: Ipe
+  Hos:
+    long: Osea
+    short: Osea
+  Isa:
+    long: Aisea
+    short: Aisea
+  Jas:
+    long: Jemesa
+    short: Jeme
+  Jdt:
+    long: Udite
+    short: Ud
+  Jer:
+    long: Jeremaia
+    short: Jere
+  Job:
+    long: Jope
+    short: Jope
+  Joel:
+    long: Joeli
+    short: Joeli
+  John:
+    long: Joni
+    short: Joni
+  Jonah:
+    long: Jona
+    short: Jona
+  Josh:
+    long: Josua
+    short: Josua
+  Jude:
+    long: Juta
+    short: Juta
+  Judg:
+    long: Dauveilewai
+    short: Dvei
+  Lam:
+    long: Lele i Jeremaia
+    short: Lele
+  Lev:
+    long: Vunau ni Soro
+    short: Vsoro
+  Luke:
+    long: Luke
+    short: Luke
+  Mal:
+    long: Malakai
+    short: Mala
+  Mark:
+    long: Marika
+    short: Mari
+  Matt:
+    long: Maciu
+    short: Maciu
+  Mic:
+    long: Maika
+    short: Maika
+  Nah:
+    long: Neumi
+    short: Neumi
+  Neh:
+    long: Niemaia
+    short: Nie
+  Num:
+    long: Tiko Voli mai na Lekutu
+    short: Tiko
+  Obad:
+    long: Opetaia
+    short: Ope
+  Phil:
+    long: Filipai
+    short: Fpai
+  Phlm:
+    long: Filimoni
+    short: Fmoni
+  PrAzar:
+    long: 1. NA MASU I ASARIA KEI NA NODRATOU SERE NA TOLU NA CAURAVOU ????
+    short: 1. Tn
+  Prov:
+    long: Vosa Vakaibalebale
+    short: Vbale
+  Ps:
+    long: Same
+    short: Same
+  Rev:
+    long: Vakatakila
+    short: Vtaki
+  Rom:
+    long: Roma
+    short: Roma
+  Ruth:
+    long: Ruci
+    short: Ruci
+  Sir:
+    long: Siraki
+    short: Sr
+  Song:
+    long: Sere i Solomoni
+    short: Sere
+  Sus:
+    long: 2. NA IVOLA I SUSANA
+    short: 2. Tn
+  Titus:
+    long: Taito
+    short: Taito
+  Tob:
+    long: Tobita
+    short: Tb
+  Wis:
+    long: Yalomatua
+    short: Ym
+  Zech:
+    long: Sakaraia
+    short: Saka
+  Zeph:
+    long: Sefanaia
+    short: Sefa
+translations:
+  fij1864:
+    1Chr:
+      long: I. A Veika Sa Caka E Na Veigauna
+      short: I. A Veika Sa Caka E Na Veigauna
+    1Cor:
+      long: I. Vei Ira Na Kai Korinica
+      short: I. Vei Ira Na Kai Korinica
+    1John:
+      long: I. Ai Vola I Joni
+    1Kgs:
+      long: I. A Kedrai Vola Na Tui
+      short: I. A Kedrai Vola Na Tui
+    1Pet:
+      long: I. Ai Vola I Petero
+      short: I. Ai Vola I Petero
+    1Sam:
+      long: Ai I Vola I Simueli
+      short: Ai I Vola I Simueli
+    1Thess:
+      long: I. Vei Ira Na Kai Cesalonika
+      short: I. Vei Ira Na Kai Cesalonika
+    2Chr:
+      long: II. A Veika Sa Caka E Na Veigauna
+      short: II. A Veika Sa Caka E Na Veigauna
+    2Cor:
+      long: II. Vei Ira Na Kai Korinica
+      short: II. Vei Ira Na Kai Korinica
+    2John:
+      long: II. Ai Vola I Joni.
+      short: II. Ai Vola I Joni.
+    2Kgs:
+      long: II. Ai Kedrai Vola Na Tui
+      short: II. Ai Kedrai Vola Na Tui
+    2Pet:
+      long: II. Ai Vola I Petero.
+      short: II. Ai Vola I Petero.
+    2Sam:
+      long: II. Ai Ni Vola I Samueli
+      short: II. Ai Ni Vola I Samueli
+    2Thess:
+      long: II. Vei Ira Na Kai Cesalonika
+      short: II. Vei Ira Na Kai Cesalonika
+    3John:
+      long: III. Ai Vola I Joni
+      short: III. Ai Vola I Joni
+    Acts:
+      long: A Cakacaka
+      short: A Cakacaka
+    Amos:
+      long: Ai Vola I Amosi Na Parofita
+      short: Ai Vola I Amosi Na Parofita
+    Col:
+      long: Vei Ira Na Kai Kolosa
+      short: Vei Ira Na Kai Kolosa
+    Dan:
+      long: Ai Vola I Tanieli Na Parofita
+      short: Ai Vola I Tanieli Na Parofita
+    Deut:
+      long: Nai Vakarua
+      short: Nai Vakarua
+    Eccl:
+      long: A Nonai Vola Na Dauvunau
+      short: A Nonai Vola Na Dauvunau
+    Eph:
+      long: Vei Ira Na Kai Efeso
+      short: Vei Ira Na Kai Efeso
+    Esth:
+      long: Ai Vola Kei Esiteri
+      short: Ai Vola Kei Esiteri
+    Exod:
+      long: Na Lako Yani
+      short: Na Lako Yani
+    Ezek:
+      long: Ai Vola I Isirieli Na Parofita
+      short: Ai Vola I Isirieli Na Parofita
+    Ezra:
+      long: Ai Vola I Esira
+      short: Ai Vola I Esira
+    Gal:
+      long: Vei Ira Na Kai Kalatia
+      short: Vei Ira Na Kai Kalatia
+    Gen:
+      long: Nai Vakatekivu
+      short: Nai Vakatekivu
+    Hab:
+      long: Ai Vola I Epakuki Na Parofita
+      short: Ai Vola I Epakuki Na Parofita
+    Hag:
+      long: Ai Vola I Akei Na Parofita
+      short: Ai Vola I Akei Na Parofita
+    Heb:
+      long: Vei Ira Na Iperiu
+      short: Vei Ira Na Iperiu
+    Hos:
+      long: Ai Vola I Osea Na Parofita
+      short: Ai Vola I Osea Na Parofita
+    Isa:
+      long: Ai Vola I Isaia, na Parofita
+      short: Ai Vola I Isaia, na Parofita
+    Jas:
+      long: Ai Vola I Jemesi
+      short: Ai Vola I Jemesi
+    Jer:
+      long: Ai Vola I Jeremaia Na Parofita
+      short: Ai Vola I Jeremaia Na Parofita
+    Job:
+      long: Ai Vola Kei Jope
+      short: Ai Vola Kei Jope
+    Joel:
+      long: Ai Vola I Joeli Na Parofita
+      short: Ai Vola I Joeli Na Parofita
+    Jonah:
+      long: Ai Vola I Jona Na Parofita
+      short: Ai Vola I Jona Na Parofita
+    Josh:
+      long: Ai Vola Kei Josua
+      short: Ai Vola Kei Josua
+    Jude:
+      long: Ai Vola I Juta
+      short: Ai Vola I Juta
+    Judg:
+      long: A Kedrai Vola Na Dauveilewai
+      short: A Kedrai Vola Na Dauveilewai
+    Lam:
+      long: A Lele I Jeremaia
+      short: A Lele I Jeremaia
+    Lev:
+      long: Na Vunau Ni Soro
+      short: Na Vunau Ni Soro
+    Mal:
+      long: Ai Vola I Malakai Na Parofita
+      short: Ai Vola I Malakai Na Parofita
+    Mark:
+      short: Marika
+    Mic:
+      long: Ai Vola I Maika Na Parofita
+      short: Ai Vola I Maika Na Parofita
+    Nah:
+      long: Ai Vola I Neumi Na Parofita
+      short: Ai Vola I Neumi Na Parofita.
+    Neh:
+      long: Ai Vola I Niemiya
+      short: Ai Vola I Niemiya
+    Num:
+      long: Na Tiko Voli Mai Na Lekutu
+      short: Na Tiko Voli Mai Na Lekutu
+    Obad:
+      long: Ai Vola I Opatiya Na Parofita
+      short: Ai Vola I Opatiya Na Parofita.
+    Phil:
+      long: Vei Ira Na Kai Filipai
+      short: Vei Ira Na Kai Filipai
+    Phlm:
+      long: Vei Filimoni
+      short: Vei Filimoni
+    Prov:
+      long: Ai Vola Vakaibalebale
+      short: Ai Vola Vakaibalebale
+    Ps:
+      long: Meke
+      short: Meke
+    Rev:
+      long: Ai Vakatakila
+      short: Ai Vakatakila
+    Rom:
+      long: Vei Ira Na Kai Roma
+      short: Vei Ira Na Kai Roma
+    Ruth:
+      long: Ai Vola Kei Ruci
+      short: Ai Vola Kei Ruci
+    Song:
+      long: A Meke I Solomoni
+      short: A Meke I Solomoni
+    Titus:
+      long: Vei Taito
+      short: Vei Taito
+    Zech:
+      long: Ai Vola I Sikariya Na Parofita
+      short: Ai Vola I Sikariya Na Parofita
+    Zeph:
+      long: Ai Vola I Sifaniya Na Parofita
+      short: Ai Vola I Sifaniya Na Parofita
+  fov:
+    Deut:
+      long: Nai Vakarua
+    Eccl:
+      long: Na Dauvunau
+    Exod:
+      long: Na Lako Yani
+    Gen:
+      long: Nai Vakatekivu
+    Judg:
+      long: Na Dauveilewai
+    Lam:
+      long: A Lele I Jeremaia
+    Lev:
+      long: Na Vunau Ni Soro
+    Num:
+      long: Na Tiko Mai Na Lekutu
+    Prov:
+      long: Na Vosa Vakaibalebale
+    Ps:
+      long: Na Same
+    Rev:
+      long: Nai Vakatakila I Joni
+    Song:
+      long: Na Sere I Solomoni
+  frv21:
+    Hag:
+      short: Akeai
+    Num:
+      long: Tiko mai na Lekutu
+  fnvdc12:
+    Prov:
+      long: Vosavakaibalebale

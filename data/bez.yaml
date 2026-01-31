@@ -1,0 +1,145 @@
+variables:
+  first: &first
+    - "1"
+    - "1."
+  second: &second
+    - "2"
+    - "2."
+books:
+  - osis: Rev
+    texts:
+      - Luvilatulilo
+      - Luvilatulo
+      - Luv.
+  - osis: Matt
+    texts:
+      - Mataji
+      - Matayo
+      - Mat.
+  - osis: Mark
+    texts:
+      - Malika
+      - Maluko
+      - Mal.
+  - osis: Luke
+    texts:
+      - Luk.
+      - Luka
+  - osis: 3John
+    texts:
+      - 3 Johana
+      - 3 Yohana
+      - 3. Joh.
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Johana
+      - Yohana
+      - Joh.
+  - osis: Acts
+    texts:
+      - Malimo ga Vatume
+      - Apositili
+      - Apos.
+  - osis: Rom
+    texts:
+      - VaLoma
+      - Lom.
+      - Loma
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Vakolindo
+      - Kol.
+      - Kol
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Vakolindo
+      - Kolindi
+      - Kol.
+  - osis: Col
+    texts:
+      - Vakolosayi
+      - Kolosa
+      - Kol.
+  - osis: Gal
+    texts:
+      - Vagalatya
+      - Galata
+      - Gal.
+  - osis: Eph
+    texts:
+      - VaEfeso
+      - Efese
+      - Ef.
+  - osis: Phil
+    texts:
+      - Vafilipi
+      - Filipi
+      - Fil.
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Vatesalonike
+      - Tesalonike
+      - Tes.
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Vatesalonike
+      - Tesaloniki
+      - Tes.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+      - Timoti
+      - Tim.
+  - osis: Titus
+    texts:
+      - Tit.
+      - Titi
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filemono
+      - Filimoni
+      - Filem.
+  - osis: Heb
+    texts:
+      - Vaebulaniya
+      - Hebele
+      - Heb.
+  - osis: Jas
+    texts:
+      - Jakovo
+      - Yakobo
+      - Jak.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petele
+      - Petulo
+      - Pet.
+  - osis: Jude
+    texts:
+      - Juda
+      - Yuda
+translations:
+  - BNT
+  - BEZ

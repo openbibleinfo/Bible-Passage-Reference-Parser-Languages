@@ -1,0 +1,269 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Dedi
+      - De.
+  - osis: Exod
+    texts:
+      - Luhu
+      - Lu.
+  - osis: Lev
+    texts:
+      - Paratu
+      - Part.
+  - osis: Num
+    texts:
+      - Diha
+      - Di.
+  - osis: Lam
+    texts:
+      - Padudurungu
+      - Pddr.
+  - osis: Rev
+    texts:
+      - Pabowangu
+      - Pabw.
+  - osis: Deut
+    texts:
+      - Belingu
+      - Bel.
+  - osis: Josh
+    texts:
+      - Yuhua
+      - Yuh.
+  - osis: Judg
+    texts:
+      - Da Hakimu
+      - Hak.
+  - osis: Ruth
+    texts:
+      - Rutu
+      - Ru.
+  - osis: Isa
+    texts:
+      - Yahaya
+      - Yhya.
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Hamuilu
+      - Ham.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Hanganji
+      - Hang.
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Lii Ndai
+      - L Nd.
+  - osis: Ezra
+    texts:
+      - Ehira
+      - Ehra.
+  - osis: Neh
+    texts:
+      - Nahemia
+      - Nhma.
+  - osis: Esth
+    texts:
+      - Etiru
+      - Etru.
+  - osis: Job
+    texts:
+      - Na Mbukuna I Ayupu
+      - Aypu.
+  - osis: Ps
+    texts:
+      - Pamalangungu
+      - Paml.
+  - osis: Prov
+    texts:
+      - Pangerangu
+      - Pangr.
+  - osis: Eccl
+    texts:
+      - Ma-pabobarungu
+      - Mapb.
+  - osis: Song
+    texts:
+      - Ludu Bokulu
+      - L Bkl.
+  - osis: Jer
+    texts:
+      - Yerimia
+      - Yerm.
+  - osis: Ezek
+    texts:
+      - Yahakialu
+      - Yhkl.
+  - osis: Dan
+    texts:
+      - Ndanialu
+      - Ndan.
+  - osis: Hos
+    texts:
+      - Hohia
+      - Ho.
+  - osis: Joel
+    texts:
+      - Yoilu
+      - Yo.
+  - osis: Amos
+    texts:
+      - Amuhu
+      - Am.
+  - osis: Obad
+    texts:
+      - Ombanja
+      - Omb.
+  - osis: Jonah
+    texts:
+      - Yunuhu
+      - Yun.
+  - osis: Mic
+    texts:
+      - Mik.
+      - Mika
+  - osis: Nah
+    texts:
+      - Nahumu
+      - Nhmu.
+  - osis: Hab
+    texts:
+      - Hambakuku
+      - Hamb.
+  - osis: Zeph
+    texts:
+      - Hapanya
+      - Hap.
+  - osis: Hag
+    texts:
+      - Hanggai
+      - Hngg.
+  - osis: Zech
+    texts:
+      - Hakaria
+      - Hakr.
+  - osis: Mal
+    texts:
+      - Maliaki
+      - Mal.
+  - osis: Matt
+    texts:
+      - Matiu
+      - Mat.
+  - osis: Mark
+    texts:
+      - Màruku
+      - Mrk.
+  - osis: Luke
+    texts:
+      - Lukahu
+      - Luk.
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yuhani
+      - Yuhn.
+  - osis: Acts
+    texts:
+      - Na Rukuda Da Pa-pahurungu
+      - Pphr.
+  - osis: Rom
+    texts:
+      - Roma
+      - Ro.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinitu
+      - Kor.
+  - osis: Col
+    texts:
+      - Kolohi
+      - Kol.
+  - osis: Gal
+    texts:
+      - Nggalatia
+      - Ngga.
+  - osis: Eph
+    texts:
+      - Epihu
+      - Ep.
+  - osis: Phil
+    texts:
+      - Pilipi
+      - Pilp.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tehalunika
+      - Teh.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timutiu
+      - Tim.
+  - osis: Titus
+    texts:
+      - Titu
+      - Ti.
+  - osis: Phlm
+    texts:
+      - Pilemungu
+      - Pilm.
+  - osis: Heb
+    texts:
+      - Imbarani
+      - Imbr.
+  - osis: Jas
+    texts:
+      - Yakombu
+      - Yak.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peturu
+      - Pet.
+  - osis: Jude
+    texts:
+      - Yund.
+      - Yunda
+translations:
+  - KAM

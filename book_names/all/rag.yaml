@@ -1,0 +1,326 @@
+- osis: Gen
+  texts:
+    - Litanga
+    - Lit.
+- osis: Exod
+  texts:
+    - Kutwula
+    - Kutura
+    - Kut.
+- osis: Lev
+  texts:
+    - Kyavalevi
+    - Lev.
+    - Levi
+- osis: Num
+  texts:
+    - Livalidza
+    - Livaliza
+    - Liv.
+- osis: Lam
+  texts:
+    - Lisioma Lia Jeremia
+    - Lisyoma lya Jeremia
+    - Lis. Jer.
+- osis: Rev
+  texts:
+    - Likunula
+    - Liku.
+- osis: Deut
+  texts:
+    - Kwidzulitsa
+    - Lizuliza
+    - Liz.
+- osis: Josh
+  texts:
+    - Joshua
+    - Jos.
+- osis: Judg
+  texts:
+    - Vakalagi
+    - Vaka.
+- osis: Ruth
+  texts:
+    - Ruth
+    - Ruz.
+    - Ruzi
+- osis: Isa
+  texts:
+    - Isaya
+    - Isa.
+- osis: 1Sam
+  texts:
+    - 1 Samweli
+    - 1 Sam.
+    - 1. Samweli
+    - 1. Sam.
+- osis: 2Sam
+  texts:
+    - 2 Samweli
+    - 2 Sam.
+    - 2. Samweli
+    - 2. Sam.
+- osis: 1Kgs
+  texts:
+    - 1 Avam.
+    - 1 Avami
+    - 1. Avam.
+    - 1. Avami
+- osis: 2Kgs
+  texts:
+    - 2 Avam.
+    - 2 Avami
+    - 2. Avam.
+    - 2. Avami
+- osis: 1Chr
+  texts:
+    - 1 Kyetsinyinga
+    - 1 Zing'inga
+    - 1 Zin.
+    - 1. Kyetsinyinga
+    - 1. Zing'inga
+    - 1. Zin.
+- osis: 2Chr
+  texts:
+    - 2 Kyetsinyinga
+    - 2 Zing'inga
+    - 2 Zin.
+    - 2. Kyetsinyinga
+    - 2. Zing'inga
+    - 2. Zin.
+- osis: Ezra
+  texts:
+    - Ezara
+    - Eza.
+- osis: Neh
+  texts:
+    - Nehemia
+    - Neh.
+- osis: Esth
+  texts:
+    - Esiteri
+    - Esther
+    - Est.
+- osis: Job
+  texts:
+    - Ayubu
+    - Ayu.
+- osis: Ps
+  texts:
+    - Zaburi
+    - Zab.
+- osis: Prov
+  texts:
+    - Tsing'ano
+    - Zing'ano
+    - Zing'.
+- osis: Eccl
+  texts:
+    - Kohelethu
+    - Kohelezu
+    - Koh
+- osis: Song
+  texts:
+    - Lwimbu lwa Solomoni
+    - Lwi. Sol.
+- osis: Jer
+  texts:
+    - Jeremia
+    - Jer.
+- osis: Ezek
+  texts:
+    - Ezekieli
+    - Zacheli
+    - Zac.
+- osis: Dan
+  texts:
+    - Danieli
+    - Danyeli
+    - Dan.
+- osis: Hos
+  texts:
+    - Hosea
+    - Hos.
+- osis: Joel
+  texts:
+    - Joeli
+    - Joe.
+- osis: Amos
+  texts:
+    - Amosi
+    - Amo.
+- osis: Obad
+  texts:
+    - Obadia
+    - Oba.
+- osis: Jonah
+  texts:
+    - Jon.
+    - Jona
+- osis: Mic
+  texts:
+    - Mik.
+    - Mika
+- osis: Nah
+  texts:
+    - Nahumu
+    - Nahum
+    - Nah.
+- osis: Hab
+  texts:
+    - Habakuki
+    - Habakuk
+    - Hab.
+- osis: Zeph
+  texts:
+    - Zefania
+    - Zef.
+- osis: Hag
+  texts:
+    - Haggai
+    - Hagai
+    - Hag.
+- osis: Zech
+  texts:
+    - Zakaria
+    - Zekaria
+    - Zak.
+- osis: Mal
+  texts:
+    - Malaki
+    - Mal.
+- osis: Matt
+  texts:
+    - Matayo
+    - Mat.
+- osis: Mark
+  texts:
+    - Mariko
+    - Marko
+    - Mar.
+- osis: Luke
+  texts:
+    - Luk.
+    - Luka
+- osis: 1John
+  texts:
+    - 1 Yohana
+    - 1 Yoh.
+    - 1. Yohana
+    - 1. Yoh.
+- osis: 2John
+  texts:
+    - 2 Yohana
+    - 2 Yoh.
+    - 2. Yohana
+    - 2. Yoh.
+- osis: 3John
+  texts:
+    - 3 Yohana
+    - 3 Yoh.
+    - 3. Yohana
+    - 3. Yoh.
+- osis: John
+  texts:
+    - Yohana
+    - Yoh.
+- osis: Acts
+  texts:
+    - Vatumwa
+    - Vikolwa
+    - Vik.
+- osis: Rom
+  texts:
+    - Varumi
+    - VaR.
+- osis: 1Cor
+  texts:
+    - 1 Vakorintho
+    - 1 Vakorinzo
+    - 1 Vakor.
+    - 1. Vakorintho
+    - 1. Vakorinzo
+    - 1. Vakor.
+- osis: 2Cor
+  texts:
+    - 2 Vakorintho
+    - 2 Vakorinzo
+    - 2 Vakor.
+    - 2. Vakorintho
+    - 2. Vakorinzo
+    - 2. Vakor.
+- osis: Col
+  texts:
+    - Vakolosai
+    - Vak.
+- osis: Gal
+  texts:
+    - Vagalatia
+    - Vagal.
+- osis: Eph
+  texts:
+    - VaEfeso
+    - Vafeso
+    - Vaef.
+- osis: Phil
+  texts:
+    - Vafilipi
+    - VaF.
+- osis: 1Thess
+  texts:
+    - 1 Vatesalonike
+    - 1 Vate.
+    - 1. Vatesalonike
+    - 1. Vate.
+- osis: 2Thess
+  texts:
+    - 2 Vatesalonike
+    - 2 Vate.
+    - 2. Vatesalonike
+    - 2. Vate.
+- osis: 1Tim
+  texts:
+    - 1 Timoteo
+    - 1. Timoteo
+- osis: 2Tim
+  texts:
+    - 2 Timoteo
+    - 2. Timoteo
+- osis: Titus
+  texts:
+    - Tito.
+    - Tito
+- osis: Phlm
+  texts:
+    - Filemona
+    - Filimona
+    - Filim.
+- osis: Heb
+  texts:
+    - Vaheburaina
+    - Vahebraina
+    - Vaheb.
+- osis: Jas
+  texts:
+    - Yakobo
+    - Yak.
+- osis: 1Pet
+  texts:
+    - 1 Petero
+    - 1 Petro
+    - 1 Pet.
+    - 1. Petero
+    - 1. Petro
+    - 1. Pet.
+- osis: 2Pet
+  texts:
+    - 2 Petero
+    - 2 Petro
+    - 2 Pet.
+    - 2. Petero
+    - 2. Petro
+    - 2. Pet.
+- osis: Jude
+  texts:
+    - Yudasi
+    - Yuda

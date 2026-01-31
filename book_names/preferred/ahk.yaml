@@ -1,0 +1,309 @@
+default:
+  1Chr:
+    long: 1 Laˬsaˬbaˬ
+    short: 1 Laˬsaˬbaˬ
+  1Cor:
+    long: 1 Gawrliqtu
+    short: 1 Gawˇliˬtu
+  1John:
+    long: 1 Yorhaq
+    short: 1 Yoˇhaˬ
+  1Kgs:
+    long: 1 Sahˬpaˬ
+    short: 1 Sahˬpaˬ
+  1Pet:
+    long: 1 Beqtuvluv
+    short: 1 Beˬtuˆluˆ
+  1Sam:
+    long: 1 Saˬmeuˬlaˆ
+    short: 1 Saˬmeuˬlaˆ
+  1Thess:
+    long: 1 Tersaqlorni
+    short: 1 Teˇsaˬloˇni
+  1Tim:
+    long: 1 Tivmorseq
+    short: 1 Tiˆmoˇseˬ
+  2Chr:
+    long: 2 Laˬsaˬbaˬ
+    short: 2 Laˬsaˬbaˬ
+  2Cor:
+    long: 2 Gawrliqtu
+    short: 2 Gawˇliˬtu
+  2John:
+    long: 2 Yorhaq
+    short: 2 Yoˇhaˬ
+  2Kgs:
+    long: 2 Sahˬpaˬ
+    short: 2 Sahˬpaˬ
+  2Pet:
+    long: 2 Beqtuvluv
+    short: 2 Beˬtuˆluˆ
+  2Sam:
+    long: 2 Saˬmeuˬlaˆ
+    short: 2 Saˬmeuˬlaˆ
+  2Thess:
+    long: 2 Tersaqlorni
+    short: 2 Teˇsaˬloˇni
+  2Tim:
+    long: 2 Tivmorseq
+    short: 2 Tiˆmoˇseˬ
+  3John:
+    long: 3 Yorhaq
+    short: 3 Yoˇhaˬ
+  Acts:
+    long: Ghaqkhaer
+    short: Ghkh
+  Amos:
+    long: Aˬmoˆ
+    short: Aˬmoˆ
+  Col:
+    long: Gawrlawrsaer
+    short: Gawˇlawˇsehˇ
+  Dan:
+    long: Daˬyeˬlaˇ
+    short: Daˬyeˬlaˇ
+  Deut:
+    long: Dawˬmehˬ
+    short: Dawˬmehˬ
+  Eccl:
+    long: Dawˬ tsoˆ
+    short: Dawˬ tsoˆ
+  Eph:
+    long: Erpersu
+    short: Eps
+  Esth:
+    long: Iˇsaˬtaˆ
+    short: Iˇsaˬtaˆ
+  Exod:
+    long: Doˆ-iˇ
+    short: Doˆ-iˇ
+  Ezek:
+    long: Yeˬsaˬgeˬlaˇ
+    short: Yeˬsaˬgeˬlaˇ
+  Ezra:
+    long: Eˇzaˬlaˬ
+    short: Eˇzaˬlaˬ
+  Gal:
+    long: Gaqlaqtiv
+    short: Gaˬlaˬtiˆ
+  Gen:
+    long: Aˇ dahˬ
+    short: Aˇ dahˬ
+  Hab:
+    long: Haˬbaˬkuˆ
+    short: Haˬbaˬkuˆ
+  Hag:
+    long: Haˬgaiˇ
+    short: Haˬgaiˇ
+  Heb:
+    long: Heqbyaer
+    short: Hby
+  Hos:
+    long: Hawˇseˬ
+    short: Hawˇseˬ
+  Isa:
+    long: Iˇsaˬyaˇ
+    short: Iˇsaˬyaˇ
+  Jas:
+    long: Yaqkov
+    short: Yaˬkoˆ
+  Jer:
+    long: Yeˬlaˬmiˇ
+    short: Yeˬlaˬmiˇ
+  Job:
+    long: Yawˇbaˆ
+    short: Yawˇbaˆ
+  Joel:
+    long: Yawˇlaˆ
+    short: Yawˇlaˆ
+  John:
+    long: Yorhaq
+    short: Yh
+  Jonah:
+    long: Yawˇnaˆ
+    short: Yawˇnaˆ
+  Josh:
+    long: Yawˇshuˆ
+    short: Yawˇshuˆ
+  Jude:
+    long: Yurdav
+    short: Yd
+  Judg:
+    long: Yaˇ kʼaˬ daˇ
+    short: Yaˇ kʼaˬ daˇ
+  Lam:
+    long: Ngoeˇ dawˬ
+    short: Ngoeˇ dawˬ
+  Lev:
+    long: Uˬ duˬ
+    short: Uˬ duˬ
+  Luke:
+    long: Lurkaf
+    short: Lk
+  Mal:
+    long: Maˬlaˬkiˇ
+    short: Maˬlaˬkiˇ
+  Mark:
+    long: Maqkuv
+    short: Maˬkuˆ
+  Matt:
+    long: Maqtaeq
+    short: Maꞈtehˬ
+  Mic:
+    long: Miˇkaˬ
+    short: Miˇkaˬ
+  Nah:
+    long: Naˬhmˬ
+    short: Naˬhmˬ
+  Neh:
+    long: Neˬhaˬmiˇ
+    short: Neˬhaˬmiˇ
+  Num:
+    long: Bawˇtsahˬ
+    short: Bawˇtsahˬ
+  Obad:
+    long: Aaˇbaˬdiˇ
+    short: Aaˇbaˬdiˇ
+  Phil:
+    long: Pirlirpiv
+    short: Piˇliˇpiˆ
+  Phlm:
+    long: Pirlermoq
+    short: Piˇleˇmoˬ
+  Prov:
+    long: Dawqdaq
+    short: Dawˬ daˬ
+  Ps:
+    long: Ja ceuˬ
+    short: Ja ceuˬ
+  Rev:
+    long: Pah meuˬ-eu
+    short: Pah meuˬ-eu
+  Rom:
+    long: Lormav
+    short: Lm
+  Ruth:
+    long: Luˇta
+    short: Luˇta
+  Song:
+    long: Dawˬ caˇ
+    short: Dawˬ caˇ
+  Titus:
+    long: Tirtuv
+    short: Tiˇtuˆ
+  Zech:
+    long: Zaˬkaˬliˇ
+    short: Zaˬkaˬliˇ
+  Zeph:
+    long: Zeˬpaˬniˇ
+    short: Zeˬpaˬniˇ
+translations:
+  aka:
+    1Cor:
+      short: 1Glt
+    1John:
+      short: 1Yh
+    1Pet:
+      short: 1Btl
+    1Thess:
+      short: 1Tsln
+    1Tim:
+      short: 1Tms
+    2Cor:
+      short: 2Glt
+    2John:
+      short: 2Yh
+    2Pet:
+      short: 2Btl
+    2Thess:
+      short: 2Tsln
+    2Tim:
+      short: 2Tms
+    3John:
+      short: 3Yh
+    Col:
+      short: Gls
+    Gal:
+      short: Glt
+    Jas:
+      short: Yk
+    Mark:
+      short: Mk
+    Matt:
+      short: Mt
+    Phil:
+      short: Plp
+    Phlm:
+      short: Plm
+    Prov:
+      short: Dd
+    Ps:
+      long: Jaceuq
+      short: Jc
+    Rev:
+      long: Panmaeq
+      short: Pm
+    Titus:
+      short: Tt
+  ahk:
+    1Cor:
+      long: 1 Gawˇliˬtu
+    1John:
+      long: 1 Yoˇhaˬ
+    1Pet:
+      long: 1 Beˬtuˆluˆ
+    1Thess:
+      long: 1 Teˇsaˬloˇni
+    1Tim:
+      long: 1 Tiˆmoˇseˬ
+    2Cor:
+      long: 2 Gawˇliˬtu
+    2John:
+      long: 2 Yoˇhaˬ
+    2Pet:
+      long: 2 Beˬtuˆluˆ
+    2Thess:
+      long: 2 Teˇsaˬloˇni
+    2Tim:
+      long: 2 Tiˆmoˇseˬ
+    3John:
+      long: 3 Yoˇhaˬ
+    Acts:
+      long: Gʼaˬkʼehˇ
+      short: Gʼaˬkʼehˇ
+    Col:
+      long: Gawˇlawˇsehˇ
+    Eph:
+      long: Eˇpeˇsu
+      short: Eˇpeˇsu
+    Gal:
+      long: Gaˬlaˬtiˆ
+    Heb:
+      long: HeˬByehˇ
+      short: HeˬByehˇ
+    Jas:
+      long: Yaˬkoˆ
+    John:
+      long: Yoˇhaˬ
+      short: Yoˇhaˬ
+    Jude:
+      long: Yuˇdaˆ
+      short: Yuˇdaˆ
+    Luke:
+      long: Luˇkaꞈ
+      short: Luˇkaꞈ
+    Mark:
+      long: Maˬkuˆ
+    Matt:
+      long: Maꞈtehˬ
+    Phil:
+      long: Piˇliˇpiˆ
+    Phlm:
+      long: Piˇleˇmoˬ
+    Prov:
+      long: Dawˬ daˬ
+    Rom:
+      long: Loˇmaˆ sahˬ boꞈ
+      short: Loˇmaˆ sahˬ boꞈ
+    Titus:
+      long: Tiˇtuˆ

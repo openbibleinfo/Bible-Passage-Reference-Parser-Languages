@@ -1,0 +1,299 @@
+default:
+  1Chr:
+    long: 1 - تواريخ
+    short: 1 - توا
+  1Cor:
+    long: 1.ڪرنٿين
+    short: 1.ڪر
+  1John:
+    long: 1.يوحنا
+    short: 1.يو
+  1Kgs:
+    long: 1 - بادشاهہ
+    short: 1 - با
+  1Pet:
+    long: 1.پطرس
+    short: 1.پط
+  1Sam:
+    long: 1 - سموئيل
+    short: 1 - سم
+  1Thess:
+    long: 1.ٿسلونيڪين
+    short: 1.ٿس
+  1Tim:
+    long: 1.تيمٿيس
+    short: 1.تيم
+  2Chr:
+    long: 2 - تواريخ
+    short: 2 - توا
+  2Cor:
+    long: 2.ڪرنٿين
+    short: 2.ڪر
+  2John:
+    long: 2.يوحنا
+    short: 2.يو
+  2Kgs:
+    long: 2 - بادشاهہ
+    short: 2 - با
+  2Pet:
+    long: 2.پطرس
+    short: 2.پط
+  2Sam:
+    long: 2 - سموئيل
+    short: 2 - سم
+  2Thess:
+    long: 2.ٿسلونيڪين
+    short: 2.ٿس
+  2Tim:
+    long: 2.تيمٿيس
+    short: 2.تيم
+  3John:
+    long: 3.يوحنا
+    short: 3.يو
+  Acts:
+    long: رسولن جا ڪم
+    short: رس
+  Amos:
+    long: عاموس
+    short: عا
+  Col:
+    long: ڪلسين
+    short: ڪل
+  Dan:
+    long: داني ايل
+    short: دان
+  Deut:
+    long: شريعت جو دور
+    short: شر
+  Eccl:
+    long: واعظ
+    short: وا
+  Eph:
+    long: اِفسين
+    short: اف
+  Esth:
+    long: آستر
+    short: آس
+  Exod:
+    long: خروج
+    short: خر
+  Ezek:
+    long: حزقي ايل
+    short: حز
+  Ezra:
+    long: عزرا
+    short: عز
+  Gal:
+    long: گلتين
+    short: گل
+  Gen:
+    long: پيدائش
+    short: پيد
+  Hab:
+    long: حبقوق
+    short: حبق
+  Hag:
+    long: حجي
+    short: حجي
+  Heb:
+    long: عبرانين
+    short: عبر
+  Hos:
+    long: هوسيع
+    short: هوس
+  Isa:
+    long: يسعياہ
+    short: يس
+  Jas:
+    long: يعقوب
+    short: يع
+  Jer:
+    long: يرمياہ
+    short: ير
+  Job:
+    long: ايوب
+    short: ايو
+  Joel:
+    long: يوايل
+    short: يوا
+  John:
+    long: يوحنا
+    short: يو
+  Jonah:
+    long: يوناہ
+    short: يون
+  Josh:
+    long: يشوع
+    short: يش
+  Jude:
+    long: يهوداہ
+    short: يهو
+  Judg:
+    long: رهبرَ
+    short: ره
+  Lam:
+    long: زاريون
+    short: زار
+  Lev:
+    long: لاوي سرشتو
+    short: لاو
+  Luke:
+    long: لوقا
+    short: لو
+  Mal:
+    long: ملاڪي
+    short: ملا
+  Mark:
+    long: مرقس
+    short: مر
+  Matt:
+    long: متي
+    short: مت
+  Mic:
+    long: ميڪاہ
+    short: ميڪ
+  Nah:
+    long: ناحوم
+    short: ناح
+  Neh:
+    long: نحمياہ
+    short: نحم
+  Num:
+    long: ڳاڻاٽو
+    short: ڳا
+  Obad:
+    long: عبدياہ
+    short: عبد
+  Phil:
+    long: فلپين
+    short: فلپ
+  Phlm:
+    long: فليمون
+    short: فل
+  Prov:
+    long: مثل
+    short: مثل
+  Ps:
+    long: زبور
+    short: زب
+  Rev:
+    long: مڪاشفو
+    short: مڪا
+  Rom:
+    long: رومين
+    short: رو
+  Ruth:
+    long: روٿ
+    short: روٿ
+  Song:
+    long: راڳ
+    short: را
+  Titus:
+    long: طيطس
+    short: طيط
+  Zech:
+    long: ذڪرياہ
+    short: ذڪ
+  Zeph:
+    long: صفنياہ
+    short: صف
+translations:
+  msb:
+    1Chr:
+      long: 1.تواريخ
+      short: 1.توا
+    1Kgs:
+      long: 1.بادشاهَہ
+      short: 1.با
+    1Sam:
+      long: 1.سموئيل
+      short: 1.سم
+    2Chr:
+      long: 2.تواريخ
+      short: 2.توا
+    2Kgs:
+      long: 2.بادشاهَہ
+      short: 2.با
+    2Sam:
+      long: 2.سموئيل
+      short: 2.سم
+    Dan:
+      long: دانيال
+    Ezek:
+      long: حزقي‌ايل
+    Jonah:
+      long: يونس
+    Prov:
+      long: چوڻيون
+      short: چوڻ
+    Ruth:
+      long: رُوت
+      short: رُوت
+    Song:
+      long: راڳن جو راڳ
+    Zech:
+      long: زڪرياہ
+      short: زڪ
+  sb62:
+    1Cor:
+      long: 1 - ڪرنٿين
+      short: 1 - ڪر
+    1John:
+      long: 1 - يوحنا
+      short: 1 - يو
+    1Pet:
+      long: 1 - پطرس
+      short: 1 - پط
+    1Thess:
+      long: 1 - ٿسلونيڪين
+      short: 1 - ٿس
+    1Tim:
+      long: 1 - تيمٿيس
+      short: 1 - تيم
+    2Cor:
+      long: 2 - ڪرنٿين
+      short: 2 - ڪر
+    2John:
+      long: 2 - يوحنا
+      short: 2 - يو
+    2Pet:
+      long: 2 - پطرس
+      short: 2 - پط
+    2Thess:
+      long: 2 - ٿسلونيڪين
+      short: 2 - ٿس
+    2Tim:
+      long: 2 - تيمٿيس
+      short: 2 - تيم
+    3John:
+      long: 3 - يوحنا
+      short: 3 - يو
+    Eph:
+      long: افسين
+    Hag:
+      long: حجيءَ
+    Jude:
+      long: يهوداهہ
+    Judg:
+      long: قاضين
+      short: قا
+    Mal:
+      long: ملاڪيءَ
+    Matt:
+      short: متي
+  sclnt:
+    1Tim:
+      short: 1.تم
+    2Tim:
+      short: 2.تم
+  hsb:
+    Acts:
+      long: سنتن جا ڪم
+      short: سن
+    Rev:
+      long: آڪاش‌واڻي
+      short: آڪ
+  snd:
+    Luke:
+      long: लूका
+      short: लूका

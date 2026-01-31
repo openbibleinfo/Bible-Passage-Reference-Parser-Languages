@@ -1,0 +1,654 @@
+variables:
+  first: &first
+    - "1"
+    - Ergaa
+    - Gara
+    - Kitaaba
+  second: &second
+    - "2"
+    - Ergaa
+    - Gara
+    - Kitaaba
+books:
+  - osis: Gen
+    texts:
+      - Seera Uumamaa
+      - Ser. Uma.
+      - Uumama
+      - Uum
+  - osis: Exod
+    texts:
+      - Seera Bayu'uu
+      - Ser. Ba'u.
+      - Bahisa
+      - Bah
+  - osis: Lev
+    texts:
+      - Seera Leewwotaa
+      - Ser. Lew.
+      - Lawi
+      - Law
+  - osis: Num
+    texts:
+      - Seera Laakkobsaa
+      - Ser. Lak.
+      - Henna
+      - Hen
+  - osis: Sir
+    texts:
+      - Sira
+      - Sir
+  - osis: Wis
+    texts:
+      - Qarooma Solomoni
+      - Qarooma
+  - osis: Lam
+    texts:
+      - Kitaaba Faaruu Ermiyaasii
+      - Far. Erm.
+      - Boha
+      - Boh
+  - osis: Rev
+    texts:
+      - Waan Yohaanisitti mullisani
+      - Waan Yohanati Mullisani
+      - Mul'dhata Yohaannisii
+      - Mudhata Yohaannisii
+      - Mudhii Yohaannisii
+      - Mudh. Yoh.
+      - Mudh
+      - Mul.
+      - Mul
+  - osis: Deut
+    texts:
+      - Seera Keessa Deebii
+      - Qaabacha Seera
+      - Kes. Deb.
+      - Qab-Ser
+  - osis: Josh
+    texts:
+      - Kitaaba Iyyaasu'uu
+      - Yoshua
+      - Iyya.
+      - Yos
+  - osis: Judg
+    texts:
+      - Abboota Murti'ii
+      - Jaallaboota
+      - Abbo. Mur.
+      - Jal
+  - osis: Ruth
+    texts:
+      - Kitaaba Ruutii
+      - Ruthi
+      - Rut.
+      - Rut
+  - osis: Isa
+    texts:
+      - Raajii Isaayyaasii
+      - Isaya
+      - Isa.
+      - Isa
+  - osis:
+      - osis: 1Sam
+        before: *first
+    texts:
+      - Saamu'eelii ka 1ffaa
+      - Samueli
+      - Sam
+  - osis: 1Sam
+    texts:
+      - Sam. 1ffaa
+  - osis:
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Saamu'eelii ka 2ffaa
+      - Samueli
+      - Sam
+  - osis: 2Sam
+    texts:
+      - Sam. 2ffaa
+  - osis:
+      - osis: 1Kgs
+        before: *first
+    texts:
+      - Moototaa ka 1ffaa
+      - Hayyoota
+      - Hay
+  - osis: 1Kgs
+    texts:
+      - Mot. 1ffaa
+  - osis:
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Mootota ka 2ffaa
+      - Hayyoota
+      - Hay
+  - osis: 2Kgs
+    texts:
+      - Mot. 2ffaa
+  - osis:
+      - osis: 1Chr
+        before: *first
+    texts:
+      - Seena'aa ka 1ffaa
+      - Odu duri
+      - Od-dur
+  - osis: 1Chr
+    texts:
+      - Sen. 1ffaa
+  - osis:
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Seena'aa ka 2ffaa
+      - Odu duri
+      - Od-dur
+  - osis: 2Chr
+    texts:
+      - Sen. 2ffaa
+  - osis: Ezra
+    texts:
+      - Kitaaba Izra'aa
+      - Ezra
+      - Izra
+      - Ezr
+  - osis: Neh
+    texts:
+      - Kitaaba Naahimiya'aa
+      - Nehemia
+      - Nah.
+      - Neh
+  - osis: Job
+    texts:
+      - Kitaaba Iyyoobii
+      - Aayubu
+      - Iyyo.
+      - Ayu
+  - osis: Prov
+    texts:
+      - Kitaaba Mammaakaa
+      - Mammaasa
+      - Mam.
+      - Mam
+  - osis: Eccl
+    texts:
+      - Kitaaba Lallabaa
+      - Abba herega
+      - Abb-Her
+      - Lal.
+  - osis: Song
+    texts:
+      - Kitaaba Weedduu Weedduu Caalu
+      - Faaru solomoni
+      - Solomoni
+      - Wed.
+  - osis: Ps
+    texts:
+      - Kitaaba Faaru'uu
+      - Faaru
+      - Far.
+      - Far
+  - osis: Jer
+    texts:
+      - Raajii Ermiyaasii
+      - Yeremia
+      - Erm.
+      - Yer
+  - osis: Ezek
+    texts:
+      - Raajii Hisqeelii
+      - Ezekieli
+      - His.
+      - Eze
+  - osis: Dan
+    texts:
+      - Raajii Daani'eelii
+      - Danieli
+      - Dan.
+      - Dan
+  - osis: Hos
+    texts:
+      - Raajii Hose'ee
+      - Hose.
+      - Hosea
+      - Hos
+  - osis: Joel
+    texts:
+      - Raajii Iyyu'eelii
+      - Iyyu.
+      - Yoeli
+      - Yoe
+  - osis: Amos
+    texts:
+      - Raajii Amootsii
+      - Amosi
+      - Amo.
+      - Amo
+  - osis: Obad
+    texts:
+      - Raajii Abdiyyuu
+      - Obadia
+      - Abd.
+      - Oba
+  - osis: Jonah
+    texts:
+      - Raajii Yoonaasii
+      - Yon.
+      - Yona
+      - Yon
+  - osis: Mic
+    texts:
+      - Raajii Miikiyaasii
+      - Mik.
+      - Mika
+      - MiK
+  - osis: Nah
+    texts:
+      - Raajii Naahoomii
+      - Nahumu
+      - Naho.
+      - Nah
+  - osis: Hab
+    texts:
+      - Raajii Imbaaqoomii
+      - Habakuki
+      - Imba.
+      - Hab
+  - osis: Zeph
+    texts:
+      - Raajii Sofoniyaasii
+      - Sefania
+      - Sofo.
+      - Sef
+  - osis: Hag
+    texts:
+      - Raajii Hage'ee
+      - Hagai
+      - Hag.
+      - Hag
+  - osis: Zech
+    texts:
+      - Raajii Zakkaariyaasii
+      - Zekaria
+      - Zakk.
+      - Zek
+  - osis: Mal
+    texts:
+      - Raajii Milkiyaasii
+      - Malaki
+      - Mil.
+      - Mal
+  - osis: Matt
+    texts:
+      - Dubbii Nagayaa Ka Maatewoosii
+      - Oduu Nagayaa Ka Maatewoosii
+      - Wongeela Maatewoosii
+      - Wongeela Maatewos
+      - Maatewos
+      - Matayo
+      - Mat.
+      - Mat
+  - osis: Mark
+    texts:
+      - Dubbii Nagayaa Ka Maarqoosii
+      - Oduu Nagayaa Ka Maarqoosii
+      - Wongeela Maarqoosii
+      - Wongeela Maarqoos
+      - Maarqoos
+      - Mariko
+      - Mar.
+      - Mar
+  - osis: Luke
+    texts:
+      - Dubbii Nagayaa Ka Luqaasii
+      - Oduu Nagayaa Ka Luuqaasii
+      - Wongeela Luqaasii
+      - Wongeela Luqaas
+      - Luqaas
+      - Luka
+      - Luq.
+      - Luk
+      - Luq
+  - osis: 1John
+    texts:
+      - Yohaannisii Ka 1ffaa
+      - 1Yohaannis
+      - Yoh. 1ffaa
+      - 1Yoh.
+      - 1Yoh
+  - osis: 2John
+    texts:
+      - Yohaannisii Ka 2ffaa
+      - 2Yohaannis
+      - Yoh. 2ffaa
+      - 2Yoh.
+      - 2Yoh
+  - osis: 3John
+    texts:
+      - Ergaa Yohaannisii Ka 3ffaa
+      - Yohaannisii Ka 3ffaa
+      - 3 Ergaa Yohaannisii
+      - 3 Ergaa Yohaannis
+      - 3Yohaannis
+      - Yoh. 3ffaa
+      - 3 Yohona
+      - 3 Yoh
+      - 3Yoh.
+      - 3Yoh
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - Yohaannisii Ka 1ffaa
+      - Ergaa Yohaannisii
+      - Ergaa Yohaannis
+      - Yohona
+      - Yoh
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - Yohaannisii Ka 2ffaa
+      - Ergaa Yohaannisii
+      - Ergaa Yohaannis
+      - Yohona
+      - Yoh
+  - osis: John
+    texts:
+      - Dubbii Nagayaa Ka Yohaannisii
+      - Oduu Nagayaa Ka Yohaannisii
+      - Wongeela Yohaannisii
+      - Wongeela Yohaannis
+      - Yohaannis
+      - Yohana
+      - Yoh.
+      - Yoh
+  - osis: Acts
+    texts:
+      - Hujii Ergamittootaa
+      - Hujii Ergantootaa
+      - Hujii Ergamootaa
+      - Huji Ergamtoota
+      - Huji Ergattu
+      - Hu. Er.
+      - Huji.
+      - Huji
+      - HuE
+  - osis: Rom
+    texts:
+      - Ergaa Phaawuloos Gara Worra Rooma'aa Erge
+      - Gara Worra Rooma'aa
+      - Worra Rooma'aa
+      - Roomaa
+      - Rom.
+      - Rumi
+      - Rom
+      - Rum
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Phaawuloos Gara worra Qorontoosii Erge ka 1ffaa
+      - Worra Qorontoosii 1ffaa
+      - Gara Worra Qorontoosii
+      - Worra Qorontoosii
+      - Korintho
+      - Kor
+  - osis: 1Cor
+    texts:
+      - 1Qorontoos
+      - Qor. 1ffaa
+      - 1Qor.
+      - 1Qor
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Phaawuloos Gara Worra Qorontoosii Erge Ka 2ffaa
+      - Worra Qorontoosii 2ffaa
+      - Gara Worra Qorontoosii
+      - Worra Qorontoosii
+      - Korintho
+      - Kor
+  - osis: 2Cor
+    texts:
+      - 2Qorontoos
+      - Qor. 2ffaa
+      - 2Qor.
+      - 2Qor
+  - osis: Col
+    texts:
+      - Ergaa Phaawuloos Gara Worra Qolaasiyaasii Erge
+      - Gara Worra Qolaasiyaasii
+      - Gara Worra Qolasaayisii
+      - Worra Qolosaayisii
+      - Qolasaayi
+      - Kolosai
+      - Qol.
+      - Kol
+      - Qol
+  - osis: Gal
+    texts:
+      - Ergaa Phaawuloos Gara Worra Galaatiya'aa Erge
+      - Gara Worra Galaatiya'aa
+      - Gara Worra Galaatiyaa
+      - Worra Galaatiya'aa
+      - Galaatiyaa
+      - Galatia
+      - Gal.
+      - Gal
+  - osis: Eph
+    texts:
+      - Ergaa Phaawuloos Gara Worra Efesoonii Erge
+      - Gara Worra Efesoonii
+      - Worra Efesoonii
+      - Efessoon
+      - Efeso
+      - Efe.
+      - Efe
+      - Efs
+  - osis: Phil
+    texts:
+      - Ergaa Phaawuloos Gara Worra Filiphisiyuusii Erge
+      - Gara Worra Filiphisiiyusii
+      - Gara Worra Filiphisiyuusii
+      - Worra Filiphisiiyusii
+      - Filiphiyus
+      - Filipi
+      - Filph.
+      - Fil.
+      - Filp
+      - Fil
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Phaawuloos Gara Worra Tasolonqe'ee Erge ka 1ffaa
+      - Worra Tasolonqe'ee 1ffaa
+      - Gara Worra Tasaloonqee
+      - Worra Tasalonqe'ee
+      - Thesalonike
+      - Thes
+  - osis: 1Thess
+    texts:
+      - 1Tasaloonqe
+      - Tas. 1ffaa
+      - 1Tas.
+      - 1Tas
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Phaawuloos Gara Worra Tasolonqe'ee Erge ka 2ffaa
+      - Worra Tasolonqe'ee 2ffaa
+      - Gara Worra Tasaloonqee
+      - Worra Tasalonqe'ee
+      - Thesalonike
+      - Thes
+  - osis: 2Thess
+    texts:
+      - 2Tasaloonqe
+      - Tas. 2ffaa
+      - 2Tas.
+      - 2Tas
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Phaawuloos Gara Ximootewoosii Erge ka 1ffaa
+      - Ximootewoosii 1ffaa
+      - Gara Ximotewoosii
+      - Ximootewoos
+      - Timotheo
+      - Tim
+  - osis: 1Tim
+    texts:
+      - 1Ximootewoos
+      - Xim. 1ffaa
+      - 1Xim.
+      - 1Xim
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Phaawuloos Gara Ximootewoosii Erge ka 2ffaa
+      - Ximootewoosii 2ffaa
+      - Gara Ximotewoosii
+      - Ximootewoos
+      - Timotheo
+      - Tim
+  - osis: 2Tim
+    texts:
+      - 2Ximootewoos
+      - Xim. 2ffaa
+      - 2Xim.
+      - 2Xim
+  - osis: Titus
+    texts:
+      - Ergaa Phaawuloos Gara Tiito'oo Erge
+      - Gara Tiitoosii
+      - Gara Tiito'oo
+      - Tiitoos
+      - Tiitoo
+      - Tiit.
+      - Tit.
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Ergaa Phaawuloos Gara Filimoona'aa Erge
+      - Gara Filimoona'aa
+      - Gara Filiimona
+      - Filemoni
+      - Filemoon
+      - Film.
+      - Film
+      - Flm
+  - osis: Heb
+    texts:
+      - Ergaa Gara Worra Ibrootaa Ergame
+      - Gara Worra Ibrootaa
+      - Gara Ibirootaa
+      - Hibraawii
+      - Ebrania
+      - Ibroota
+      - Hib.
+      - Ibr.
+      - Ebr
+      - Ibr
+  - osis: Jas
+    texts:
+      - Ergaa Yaaqoob Erge
+      - Ergaa Yaaqoobii
+      - Ergaa Yaaqoob
+      - Yaaqoob
+      - Yakobo
+      - Yaaq
+      - Yaq.
+      - Yak
+      - Yaq
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - Pheexroosii Ka 1ffaa
+      - Ergaa Pheexroosii
+      - Ergaa Phexiros
+      - Petro
+      - Pet
+  - osis: 1Pet
+    texts:
+      - Pheexroosii Ka 1ffaa
+      - Phex. 1ffaa
+      - 1Phexros
+      - 1Phex.
+      - 1Phex
+      - 1Phe
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pheexroosii Ka 2ffaa
+      - Ergaa Pheexroosii
+      - Ergaa Phexiros
+      - Petro
+      - Pet
+  - osis: 2Pet
+    texts:
+      - Pheexroosii Ka 2ffaa
+      - Phex. 2ffaa
+      - 2Phexros
+      - 2Phex.
+      - 2Phex
+      - 2Phe
+  - osis: Jude
+    texts:
+      - Ergaa Yihuudaan Erge
+      - Ergaa Yihuuda'aa
+      - Ergaa Yihuda'aa
+      - Ergaa Yihudaa
+      - Yihudaa
+      - Yihu.
+      - Yih.
+      - Yuda
+      - Yih
+      - Yud
+  - osis: Tob
+    texts:
+      - Tobiti
+      - Tob
+  - osis: Jdt
+    texts:
+      - Yudithi
+      - Yudi
+  - osis: Bar
+    texts:
+      - Baruku
+      - Bar
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+    texts:
+      - Makabayo
+      - Mak
+  - osis: EsthGr
+    texts:
+      - Esta (Grikitini)
+      - Gk-Est
+  - osis: Esth
+    texts:
+      - Kitaaba Asteerii
+      - Ast.
+      - Esta
+      - Est
+translations:
+  - GAXNT
+  - KAKHAA
+  - BOR
+  - BORDC

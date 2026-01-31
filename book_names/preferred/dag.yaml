@@ -1,0 +1,240 @@
+default:
+  1Chr:
+    long: 1 Yɛlikura
+    short: 1 Yɛl
+  1Cor:
+    long: 1 Kɔrintinima
+    short: 1 Kɔr
+  1John:
+    long: 1 Jɔn
+    short: 1 Jɔn
+  1Kgs:
+    long: 1 Nanima
+    short: 1 Nan
+  1Macc:
+    long: 1 Makabiis
+    short: 1 Mak
+  1Pet:
+    long: 1 Pita
+    short: 1 Pita
+  1Sam:
+    long: 1 Samuɛl
+    short: 1 Sam
+  1Thess:
+    long: 1 Tɛsalɔnaikanima
+    short: 1 Tɛs
+  1Tim:
+    long: 1 Timoti
+    short: 1 Tim
+  2Chr:
+    long: 2 Yɛlikura
+    short: 2 Yɛl
+  2Cor:
+    long: 2 Kɔrintinima
+    short: 2 Kɔr
+  2John:
+    long: 2 Jɔn
+    short: 2 Jɔn
+  2Kgs:
+    long: 2 Nanima
+    short: 2 Nan
+  2Macc:
+    long: 2 Makabiis
+    short: 2 Mak
+  2Pet:
+    long: 2 Pita
+    short: 2 Pita
+  2Sam:
+    long: 2 Samuɛl
+    short: 2 Sam
+  2Thess:
+    long: 2 Tɛsalɔnaikanima
+    short: 2 Tɛs
+  2Tim:
+    long: 2 Timoti
+    short: 2 Tim
+  3John:
+    long: 3 Jɔn
+    short: 3 Jɔn
+  Acts:
+    long: Tuma
+    short: Tuma
+  Amos:
+    long: Amɔs
+    short: Amɔs
+  Bar:
+    long: Baruk
+    short: Bar
+  Col:
+    long: Kolɔsainima
+    short: Kol
+  Dan:
+    long: Daniɛl
+    short: Dan
+  DanGr:
+    long: Dan
+  Deut:
+    long: Zaligu
+    short: Zal
+  Eccl:
+    long: Waazuyihira
+    short: Waaz
+  Eph:
+    long: Ɛfɛsusnima
+    short: Ɛfɛs
+  Esth:
+    long: Ɛsta
+    short: Ɛsta
+  EsthGr:
+    long: Ɛsta Gk
+    short: Ɛsta Gk
+  Exod:
+    long: Yibu
+    short: Yibu
+  Ezek:
+    long: Ɛzɛkiɛl
+    short: Ɛzɛk
+  Ezra:
+    long: Ɛzra
+    short: Ɛzra
+  Gal:
+    long: Galɛshianima
+    short: Gal
+  Gen:
+    long: Piligu
+    short: Pil
+  Hab:
+    long: Habakuk
+    short: Hab
+  Hag:
+    long: Hagai
+    short: Hag
+  Heb:
+    long: Hiburunima
+    short: Hib
+  Hos:
+    long: Hozia
+    short: Hoz
+  Isa:
+    long: Aizaia
+    short: Aiz
+  Jas:
+    long: Jeemsi
+    short: Jeem
+  Jdt:
+    long: Judit
+    short: Judit
+  Jer:
+    long: Jɛrimia
+    short: Jɛr
+  Job:
+    long: Ayuba
+    short: Ayu
+  Joel:
+    long: Joɛl
+    short: Joɛl
+  John:
+    long: Jɔn
+    short: Jɔn
+  Jonah:
+    long: Jona
+    short: Jona
+  Josh:
+    long: Jɔshua
+    short: Jɔsh
+  Jude:
+    long: Jud
+    short: Jud
+  Judg:
+    long: Zuɣulaannima
+    short: Zuɣ
+  Lam:
+    long: Fabilanima
+    short: Fab
+  Lev:
+    long: Lɛvinima
+    short: Lɛv
+  Luke:
+    long: Luk
+    short: Luk
+  Mal:
+    long: Malaki
+    short: Mal
+  Mark:
+    long: Maak
+    short: Maak
+  Matt:
+    long: Matiu
+    short: Mat
+  Mic:
+    long: Maika
+    short: Mai
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nɛhimia
+    short: Nɛh
+  Num:
+    long: Kalinlinima
+    short: Kal
+  Obad:
+    long: Obadia
+    short: Oba
+  Phil:
+    long: Filipainima
+    short: Fil
+  Phlm:
+    long: Failimɔn
+    short: Fai
+  Prov:
+    long: Ŋaha
+    short: Ŋaha
+  Ps:
+    long: Yila
+    short: Yila
+  Rev:
+    long: Kahigibu
+    short: Kah
+  Rom:
+    long: Rom
+    short: Rom
+  Ruth:
+    long: Rut
+    short: Rut
+  Sir:
+    long: Siraki
+    short: Sir
+  Song:
+    long: Sulemaana Yila
+    short: Sul
+  Titus:
+    long: Taitus
+    short: Tait
+  Tob:
+    long: Tɔbiti
+    short: Tɔb
+  Wis:
+    long: Sul Yɛm
+    short: Yɛm
+  Zech:
+    long: Zakaria
+    short: Zak
+  Zeph:
+    long: Zɛfania
+    short: Zɛf
+translations:
+  rldb:
+    1Thess:
+      long: 1 Tɛsalɔnikanima
+    2Thess:
+      long: 2 Tɛsalɔnikanima
+    Col:
+      long: Kolɔsinima
+  dbwdb:
+    Acts:
+      long: Tuumba Tuma
+    Deut:
+      long: Zaligu Teebu
+    Rom:
+      long: Romnima

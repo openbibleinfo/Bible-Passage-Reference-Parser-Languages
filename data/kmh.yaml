@@ -1,0 +1,159 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Repelesin
+      - Rep
+  - osis: Matt
+    texts:
+      - Matyiw
+      - Matyu
+      - Mat
+  - osis: Mark
+    texts:
+      - Mak
+  - osis: Luke
+    texts:
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Jo
+  - osis: 2John
+    texts:
+      - 2Jo
+  - osis: 3John
+    texts:
+      - 3 Jon
+      - 3Jo
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jon
+  - osis: Acts
+    texts:
+      - Apasol
+      - Aposɨl
+      - Apo
+      - Ap
+  - osis: Rom
+    texts:
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Koriyn
+      - Korid
+      - Kor
+  - osis: 1Cor
+    texts:
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - 2Ko
+  - osis: Col
+    texts:
+      - Kolosiy
+      - Kolosi
+      - Kol
+  - osis: Gal
+    texts:
+      - Galesiya
+      - Galesia
+      - Gal
+  - osis: Eph
+    texts:
+      - Yipiyses
+      - Epesas
+      - Yip
+      - Ep
+  - osis: Phil
+    texts:
+      - Piyliypay
+      - Pilipai
+      - Pil
+      - Piy
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonaika
+      - Tesalonayka
+      - Tes
+  - osis: 1Thess
+    texts:
+      - 1Te
+  - osis: 2Thess
+    texts:
+      - 2Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotiy
+      - Timoti
+      - Tim
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Taitas
+      - Taytas
+      - Tai
+      - Tay
+  - osis: Phlm
+    texts:
+      - Piyliymon
+      - Pilimon
+      - Piyl
+      - Plm
+  - osis: Heb
+    texts:
+      - Hiybriw
+      - Hibru
+      - Hib
+      - Hiy
+  - osis: Jas
+    texts:
+      - Jemis
+      - Jems
+      - Jem
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piyta
+      - Pita
+      - Piyt
+  - osis: 1Pet
+    texts:
+      - 1Pi
+  - osis: 2Pet
+    texts:
+      - 2Pi
+  - osis: Jude
+    texts:
+      - Jud
+      - Jut
+translations:
+  - KMH

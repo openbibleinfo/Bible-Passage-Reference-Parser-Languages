@@ -1,0 +1,166 @@
+default:
+  1Chr:
+    long: 1 Tawari
+    short: 1 Taw
+  1Cor:
+    long: 1 Korintusu
+    short: 1 Kor
+  1John:
+    long: 1 Yohanese
+    short: 1 Yoh
+  1Kgs:
+    long: 1 Kokoano
+    short: 1 Kok
+  1Pet:
+    long: 1 Peturusu
+    short: 1 Pet
+  1Sam:
+    long: 1 Samuele
+    short: 1 Sam
+  1Thess:
+    long: 1 Tesalonika
+    short: 1 Tes
+  1Tim:
+    long: 1 Timotiusu
+    short: 1 Tim
+  2Chr:
+    long: 2 Tawari
+    short: 2 Taw
+  2Cor:
+    long: 2 Korintusu
+    short: 2 Kor
+  2John:
+    long: 2 Yohanese
+    short: 2 Yoh
+  2Kgs:
+    long: 2 Kokoano
+    short: 2 Kok
+  2Pet:
+    long: 2 Peturusu
+    short: 2 Pet
+  2Sam:
+    long: 2 Samuele
+    short: 2 Sam
+  2Thess:
+    long: 2 Tesalonika
+    short: 2 Tes
+  2Tim:
+    long: 2 Timotiusu
+    short: 2 Tim
+  3John:
+    long: 3 Yohanese
+    short: 3 Yoh
+  Acts:
+    long: Hidingoto
+    short: Hid
+  Col:
+    long: Kolose
+    short: Kol
+  Deut:
+    long: Higalioli
+    short: Hig
+  Eccl:
+    long: Tobadotoko
+    short: Tob
+  Eph:
+    long: Efesusu
+    short: Efe
+  Esth:
+    long: Estere
+    short: Est
+  Exod:
+    long: Huhupu
+    short: Huh
+  Ezra:
+    long: Esara
+    short: Esa
+  Gal:
+    long: Galatia
+    short: Gal
+  Gen:
+    long: Dodadi
+    short: Dod
+  Hab:
+    long: Habaku
+    short: Hab
+  Heb:
+    long: Ibarani
+    short: Iba
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Yesaya
+    short: Yes
+  Jas:
+    long: Yakobusu
+    short: Yak
+  Jer:
+    long: Yeremia
+    short: Yer
+  John:
+    long: Yohanese
+    short: Yoh
+  Jonah:
+    long: Yunusu
+    short: Yun
+  Josh:
+    long: Yosua
+    short: Yos
+  Jude:
+    long: Yudasa
+    short: Yud
+  Judg:
+    long: Hihira
+    short: Hih
+  Lev:
+    long: Gogao
+    short: Gog
+  Luke:
+    long: Lukasa
+    short: Luk
+  Mal:
+    long: Maleaki
+    short: Mal
+  Mark:
+    long: Maruku
+    short: Mar
+  Matt:
+    long: Matiusu
+    short: Mat
+  Mic:
+    long: Mika
+    short: MiK
+  Neh:
+    long: Nehemia
+    short: Neh
+  Num:
+    long: Gegetongo
+    short: Geg
+  Phil:
+    long: Filiipi
+    short: Fili
+  Phlm:
+    long: Filemono
+    short: File
+  Prov:
+    long: Sosawaro
+    short: Sos
+  Ps:
+    long: Higiriiri
+    short: Higi
+  Rev:
+    long: Himatoko
+    short: Him
+  Rom:
+    long: Roma
+    short: Rom
+  Ruth:
+    long: Ruutu
+    short: Ruu
+  Titus:
+    long: Titusu
+    short: Tit
+  Zech:
+    long: Sakaria
+    short: Sak

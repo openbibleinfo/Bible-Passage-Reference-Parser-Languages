@@ -1,0 +1,141 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Auxa zexaldixa
+      - Aux
+  - osis: Matt
+    texts:
+      - Mateyu
+      - Mt
+  - osis: Mark
+    texts:
+      - Malku
+      - Mlk
+  - osis: Luke
+    texts:
+      - Alduka
+      - Lk
+  - osis: 1John
+    texts:
+      - 1Jñ
+  - osis: 2John
+    texts:
+      - 2Jñ
+  - osis: 3John
+    texts:
+      - 3 Juañ
+      - 3Jñ
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Juañ
+  - osis: John
+    texts:
+      - Juañ
+      - Jñ
+  - osis: Acts
+    texts:
+      - Ajanashatone
+      - Ajsh
+  - osis: Rom
+    texts:
+      - Aldumaxa
+      - Alm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kuldintuxa
+  - osis: 1Cor
+    texts:
+      - 1Kt
+  - osis: 2Cor
+    texts:
+      - 2Kt
+  - osis: Col
+    texts:
+      - Kuldusaxa
+      - Kls
+  - osis: Gal
+    texts:
+      - Galdasiaxa
+      - Ga
+  - osis: Eph
+    texts:
+      - Epesuxa
+      - Ep
+  - osis: Phil
+    texts:
+      - Pildipuxa
+      - Plp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaldónikaxa
+  - osis: 1Thess
+    texts:
+      - 1Ts
+  - osis: 2Thess
+    texts:
+      - 2Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timuteyu
+  - osis: 1Tim
+    texts:
+      - 1Tm
+  - osis: 2Tim
+    texts:
+      - 2Tm
+  - osis: Titus
+    texts:
+      - Titu
+      - Tit
+  - osis: Phlm
+    texts:
+      - Pildimóñ
+      - Plm
+  - osis: Heb
+    texts:
+      - Ebeldeyu
+      - Eb
+  - osis: Jas
+    texts:
+      - Santiaku
+      - St
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Péguldu
+  - osis: 1Pet
+    texts:
+      - 1Pe
+  - osis: 2Pet
+    texts:
+      - 2Pe
+  - osis: Jude
+    texts:
+      - Judá
+      - Jd
+translations:
+  - KOGNT

@@ -1,0 +1,541 @@
+default:
+  1Chr:
+    long: ૧ કાળવૃત્તાંત
+    short: 1 કાળ.
+  1Cor:
+    long: 1 કરિં.
+    short: 1 કરિં.
+  1John:
+    long: યોહાનનો પહેલો પત્ર
+    short: 1 યોહ.
+  1Kgs:
+    long: 1 રાજા.
+    short: 1 રા.
+  1Pet:
+    long: પિતરનો પહેલો પત્ર
+    short: 1 પિત.
+  1Sam:
+    long: ૧ શમુએલ
+    short: 1 શમુ.
+  1Thess:
+    long: 1 થેસ.
+    short: 1 થેસ.
+  1Tim:
+    long: તિમોથીને પહેલો પત્ર
+    short: 1 તિમ.
+  2Chr:
+    long: ૨ કાળવૃત્તાંત
+    short: 2 કાળ.
+  2Cor:
+    long: 2 કરિં.
+    short: 2 કરિં.
+  2John:
+    long: યોહાનનો બીજો પત્ર
+    short: 2 યોહ.
+  2Kgs:
+    long: 2 રાજા.
+    short: 2 રા.
+  2Pet:
+    long: પિતરનો બીજો પત્ર
+    short: 2 પિત.
+  2Sam:
+    long: ૨ શમુએલ
+    short: 2 શમુ.
+  2Thess:
+    long: 2 થેસ.
+    short: 2 થેસ.
+  2Tim:
+    long: તિમોથીને બીજો પત્ર
+    short: 2 તિમ.
+  3John:
+    long: યોહાનનો ત્રીજો પત્ર
+    short: 3 યોહ.
+  Acts:
+    long: પ્રેરિતોનાં કૃત્યો
+    short: પ્રે.કૃ.
+  Amos:
+    long: આમોસ
+    short: આમો.
+  Col:
+    long: કલો.
+    short: કલો.
+  Dan:
+    long: દાનિયેલ
+    short: દા.
+  Deut:
+    long: પુનર્નિયમ
+    short: પુન.
+  Eccl:
+    long: સભાશિક્ષક
+    short: સભા.
+  Eph:
+    long: એફેસીઓને પત્ર
+    short: એફે.
+  Esth:
+    long: એસ્તેર
+    short: એસ્ત.
+  Exod:
+    long: નિર્ગમન
+    short: નિ.
+  Ezek:
+    long: હઝકિયેલ
+    short: હઝ.
+  Ezra:
+    long: એઝરા
+    short: એઝ.
+  Gal:
+    long: ગલાતીઓને પત્ર
+    short: ગલ.
+  Gen:
+    long: ઉત્પત્તિ
+    short: ઉત.
+  Hab:
+    long: હબાક્કુક
+    short: હબા.
+  Hag:
+    long: હાગ્ગાય
+    short: હાગ.
+  Heb:
+    long: હિબ્રૂઓને પત્ર
+    short: હિબ.
+  Hos:
+    long: હોશિયા
+    short: હોશિ.
+  Isa:
+    long: યશાયા
+    short: યશા.
+  Jas:
+    long: યાકૂ.
+    short: યાકૂ.
+  Jer:
+    long: યર્મિયા
+    short: યર્મિ.
+  Job:
+    long: અયૂબ
+    short: અયૂ.
+  Joel:
+    long: યોએલ
+    short: યોએ.
+  John:
+    long: યોહાન
+    short: યોહ.
+  Jonah:
+    long: યૂના
+    short: યૂના
+  Josh:
+    long: યહોશુઆ
+    short: યહો.
+  Jude:
+    long: યહૂદાનો પત્ર
+    short: યહૂ.
+  Judg:
+    long: ન્યાયાધીશો
+    short: ન્યા.
+  Lam:
+    long: યર્મિયાનો વિલાપ
+    short: ય.વિ.
+  Lev:
+    long: લેવીય
+    short: લે.
+  Luke:
+    long: લૂક
+    short: લૂ.
+  Mal:
+    long: માલાખી
+    short: માલ.
+  Mark:
+    long: માર્ક
+    short: માર્ક
+  Matt:
+    long: માથ્થી
+    short: માથ.
+  Mic:
+    long: મિખા
+    short: મિ.
+  Nah:
+    long: નાહૂમ
+    short: નાહૂ.
+  Neh:
+    long: નહેમ્યા
+    short: નહે.
+  Num:
+    long: ગણના
+    short: ગણ.
+  Obad:
+    long: ઓબાદ્યા
+    short: ઓબા.
+  Phil:
+    long: ફિલિપીઓને પત્ર
+    short: ફિલિ.
+  Phlm:
+    long: ફિલે.
+    short: ફિલે.
+  Prov:
+    long: નીતિવચનો
+    short: નીતિ.
+  Ps:
+    long: ગીતશાસ્‍ત્ર
+    short: ગી.શા.
+  Rev:
+    long: પ્રકટીકરણ
+    short: પ્રક.
+  Rom:
+    long: રોમનોને પત્ર
+    short: રોમ.
+  Ruth:
+    long: રૂથ
+    short: રૂથ
+  Song:
+    long: ગીતોનું ગીત
+    short: ગી.ગી.
+  Titus:
+    long: તિતસને પત્ર
+    short: તિત.
+  Zech:
+    long: ઝખાર્યા
+    short: ઝખ.
+  Zeph:
+    long: સફાન્યા
+    short: સફા.
+translations:
+  irvguj:
+    1Chr:
+      long: 1 કાળ.
+    1John:
+      long: 1 યોહ.
+    1Kgs:
+      short: 1 રાજા.
+    1Pet:
+      long: 1 પિત.
+    1Sam:
+      long: 1 શમુ.
+    1Tim:
+      long: 1 તિમ.
+    2Chr:
+      long: 2 કાળ.
+    2John:
+      long: 2 યોહ.
+    2Kgs:
+      short: 2 રાજા.
+    2Pet:
+      long: 2 પિત.
+    2Sam:
+      long: 2 શમુ.
+    2Tim:
+      long: 2 તિમ.
+    3John:
+      long: 3 યોહ.
+    Acts:
+      long: પ્રે.કૃ.
+    Amos:
+      long: આમ.
+      short: આમ.
+    Dan:
+      long: દાનિ.
+      short: દાનિ.
+    Deut:
+      long: પુન.
+    Eccl:
+      long: સભા.
+    Eph:
+      long: એફે.
+    Esth:
+      long: એસ્ત.
+    Exod:
+      long: નિર્ગ.
+      short: નિર્ગ.
+    Ezek:
+      long: હઝ.
+    Ezra:
+      long: એઝ.
+    Gal:
+      long: ગલ.
+    Gen:
+      long: ઉત્પ
+      short: ઉત્પ.
+    Hab:
+      long: હબ.
+      short: હબ.
+    Hag:
+      long: હાગ.
+    Heb:
+      long: હિબ.
+    Hos:
+      long: હોશિ.
+      short: હોશ.
+    Isa:
+      long: યશા.
+    Jer:
+      long: યર્મિ.
+    Job:
+      long: અયૂ.
+    Joel:
+      long: યોએ.
+    John:
+      long: યોહ.
+    Jonah:
+      long: યૂન.
+      short: યૂન.
+    Josh:
+      long: યહો.
+    Jude:
+      long: યહૂ.
+    Judg:
+      long: ન્યાય.
+      short: ન્યાય.
+    Lam:
+      long: વિલા.
+      short: વિલા.
+    Lev:
+      long: લેવી
+      short: લેવી
+    Luke:
+      short: લૂક
+    Mal:
+      long: માલા.
+      short: માલા.
+    Matt:
+      long: માથ.
+    Mic:
+      long: મીખા.
+      short: મીખ.
+    Nah:
+      long: નાહૂ.
+    Neh:
+      long: નહે.
+    Num:
+      long: ગણ.
+    Obad:
+      long: ઓબ.
+      short: ઓબ.
+    Phil:
+      long: ફિલિ.
+    Prov:
+      long: નીતિ.
+    Ps:
+      long: ગી.શા.
+    Rev:
+      long: પ્રક.
+    Rom:
+      long: રોમ.
+    Ruth:
+      short: રૂથ.
+    Song:
+      long: ગીત.
+      short: ગીત.
+    Titus:
+      long: તિત.
+    Zech:
+      long: ઝખા.
+    Zeph:
+      long: સફા.
+  gerv:
+    1Chr:
+      long: 1 કાળવૃત્તાંતનું
+    1Cor:
+      long: 1 કરિંથીઓ
+    1John:
+      long: 1 યોહાન
+    1Kgs:
+      long: 1 રાજાઓનું
+    1Pet:
+      long: 1 પિતર
+    1Sam:
+      long: 1 શમુએલનું
+    1Thess:
+      long: 1 થેસ્સલોનિકીઓ
+      short: 1 થેસ્.
+    1Tim:
+      long: 1 તિમોથી
+    2Chr:
+      long: 2 કાળવૃત્તાંતનું
+    2Cor:
+      long: 2 કરિંથીઓ
+    2John:
+      long: 2 યોહાન
+    2Kgs:
+      long: 2 રાજાઓનું
+    2Pet:
+      long: 2 પિતર
+    2Sam:
+      long: 2 શમુએલનું
+    2Thess:
+      long: 2 થેસ્સલોનિકીઓ
+      short: 2 થેસ્.
+    2Tim:
+      long: 2 તિમોથી
+    3John:
+      long: 3 યોહાન
+    Col:
+      long: કલોસ્સીઓ
+    Eph:
+      long: એફેસીઓ
+    Esth:
+      short: એસ્.
+    Gal:
+      long: ગલાતીઓ
+    Heb:
+      long: હિબ્રૂઓ
+      short: હિબ્રૂ.
+    Jas:
+      long: યાકૂબ
+    Jude:
+      long: યહુદા
+      short: યહુ.
+    Lam:
+      short: ય.ર્વિ.
+    Mic:
+      long: મિખાહ
+    Phil:
+      long: ફિલિપ્પીઓ
+    Phlm:
+      long: ફિલેમોન
+    Ps:
+      long: ગીતશાસ્ત્ર
+    Rom:
+      long: રોમનો
+    Titus:
+      long: તિતસ
+      short: તિતસ
+  gujcl-bsi:
+    1Chr:
+      short: ૧ કાળ.
+    1Cor:
+      long: કોરીંથીઓને પહેલો પત્ર
+      short: ૧ કોરીં.
+    1John:
+      short: ૧ યોહા.
+    1Kgs:
+      long: ૧ રાજા
+      short: ૧ રાજા.
+    1Pet:
+      short: ૧ પિત.
+    1Sam:
+      short: ૧ શમુ.
+    1Thess:
+      long: થેસ્સાલોનિકિઓને પહેલો પત્ર
+    1Tim:
+      short: ૧ તિમો.
+    2Chr:
+      short: ૨ કાળ.
+    2Cor:
+      long: કોરીંથીઓને બીજો પત્ર
+      short: ૨ કોરીં.
+    2John:
+      short: ૨ યોહા.
+    2Kgs:
+      long: ૨ રાજા
+      short: ૨ રાજા.
+    2Pet:
+      short: ૨ પિત.
+    2Sam:
+      short: ૨ શમુ.
+    2Thess:
+      long: થેસ્સાલોનિકિઓને બીજો પત્ર
+    2Tim:
+      short: ૨ તિમો.
+    3John:
+      short: ૩ યોહા.
+    Acts:
+      long: પ્રેષિતોનાં કાર્યો
+      short: પ્રે.કા.
+    Col:
+      long: કોલોસીઓને પત્ર
+    Dan:
+      short: દાનિ.
+    Exod:
+      short: નિર્ગ.
+    Gal:
+      short: ગલા.
+    Heb:
+      short: હિબ્રૂ.
+    Jas:
+      long: યાકોબનો પત્ર
+      short: યાકો.
+    Job:
+      long: યોબ
+      short: યોબ.
+    John:
+      short: યોહા.
+    Jonah:
+      long: યોના
+    Judg:
+      short: ન્યાયા.
+    Lev:
+      short: લેવી.
+    Luke:
+      short: લૂક.
+    Mal:
+      short: માલા.
+    Mark:
+      short: માર્ક.
+    Mic:
+      short: મિખા
+    Phlm:
+      long: ફિલેમોનને પત્ર
+    Prov:
+      long: સુભાષિતસંગ્રહ
+      short: સુભા.
+    Rev:
+      long: સંદર્શન
+      short: સંદ.
+    Ruth:
+      short: રૂથ.
+    Zech:
+      short: ઝખા.
+  gujovbsi:
+    1Chr:
+      short: ૧ કાળ.
+    1Cor:
+      long: કરિંથીઓને પહેલો પત્ર
+      short: ૧ કોરીં.
+    1John:
+      short: ૧ યોહ.
+    1Kgs:
+      long: ૧ રાજાઓ
+      short: ૧ રા.
+    1Pet:
+      short: ૧ પિત.
+    1Sam:
+      short: ૧ શમુ.
+    1Thess:
+      long: થેસ્સાલોનિકીઓને પહેલો પત્ર
+      short: ૧ થેસ.
+    1Tim:
+      short: ૧ તિમ.
+    2Chr:
+      short: ૨ કાળ.
+    2Cor:
+      long: કરિંથીઓને બીજો પત્ર
+      short: ૨ કોરીં.
+    2John:
+      short: ૨ યોહ.
+    2Kgs:
+      long: ૨ રાજાઓ
+      short: ૨ રા.
+    2Pet:
+      short: ૨ પિત.
+    2Sam:
+      short: ૨ શમુ.
+    2Thess:
+      long: થેસ્સાલોનિકીઓને બીજો પત્ર
+      short: ૨ થેસ.
+    2Tim:
+      short: ૨ તિમ.
+    3John:
+      short: ૩ યોહ.
+    Col:
+      long: કલોસીઓને પત્ર
+    Hab:
+      long: હબાકુક
+    Hos:
+      short: હો.
+    Jas:
+      long: યાકૂબનો પત્ર
+    Mic:
+      long: મીખાહ
+      short: મી.
+    Nah:
+      short: નાહ.
+    Phlm:
+      long: ફિલેમોનને પાઉલ પ્રેરિતનો પત્ર

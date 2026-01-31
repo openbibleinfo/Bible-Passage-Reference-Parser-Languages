@@ -1,0 +1,265 @@
+variables:
+  first: &first
+    - "1"
+    - I
+  second: &second
+    - "2"
+    - II
+books:
+  - osis: Gen
+    texts:
+      - Atiti Awm Angchei Nai
+      - Aa
+  - osis: Exod
+    texts:
+      - Theu Nai
+      - Theu
+  - osis: Lev
+    texts:
+      - Levi
+      - Lev
+  - osis: Num
+    texts:
+      - Kati Nai
+      - Kati
+  - osis: Lam
+    texts:
+      - Tangam Nai Leu
+      - Lam
+  - osis: Rev
+    texts:
+      - Amteng Hai Nai
+      - Amt
+  - osis: Josh
+    texts:
+      - Josua
+  - osis: Judg
+    texts:
+      - Tara Chih Nai Keungchi
+      - Tara chih
+  - osis: Ruth
+    texts:
+      - Ruthi
+  - osis: Isa
+    texts:
+      - Isaia
+      - Is
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuela
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Areng Keh
+      - Ar
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Neng Satang
+      - Neng
+  - osis: Ezra
+    texts:
+      - Ezara
+      - Eza
+  - osis: Neh
+    texts:
+      - Nehemia
+      - Neh
+  - osis: Esth
+    texts:
+      - Esther
+      - Esth
+  - osis: Job
+    texts:
+      - Joba
+      - Job
+  - osis: Ps
+    texts:
+      - Sam
+  - osis: Prov
+    texts:
+      - Leu Kacheng
+      - Lkch
+  - osis: Eccl
+    texts:
+      - Parip nai leu
+      - Parp
+  - osis: Deut
+    texts:
+      - Leu Thui Nai
+      - Leu
+  - osis: Song
+    texts:
+      - Solomon i khulym
+      - Sol
+  - osis: Jer
+    texts:
+      - Jeremia
+      - Jer
+  - osis: Ezek
+    texts:
+      - Ezekiela
+      - Ezek
+  - osis: Dan
+    texts:
+      - Daniela
+      - Dan
+  - osis: Hos
+    texts:
+      - Hosea
+      - Hos
+  - osis: Joel
+    texts:
+      - Joela
+      - Joel
+  - osis: Amos
+    texts:
+      - Amos
+      - Amo
+  - osis: Obad
+    texts:
+      - Obadia
+      - Oba
+  - osis: Jonah
+    texts:
+      - Jona
+  - osis: Mic
+    texts:
+      - Mikha
+      - MiK
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakkuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Zephaniah
+      - Zep
+  - osis: Hag
+    texts:
+      - Hakai
+      - Hak
+  - osis: Zech
+    texts:
+      - Zekhariah
+      - Zek
+  - osis: Mal
+    texts:
+      - Malakhi
+      - Mal
+  - osis: Matt
+    texts:
+      - Matthai
+      - Mt
+  - osis: Mark
+    texts:
+      - Marka
+      - Mk
+  - osis: Luke
+    texts:
+      - Luka
+      - Lk
+  - osis: 3John
+    texts:
+      - III Johan
+      - 3 Jh
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Johan
+      - Jh
+  - osis: Acts
+    texts:
+      - Amtaw
+      - Ataw
+  - osis: Rom
+    texts:
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinth
+      - Kor
+  - osis: Col
+    texts:
+      - Kolosa
+      - Kol
+  - osis: Gal
+    texts:
+      - Kalatia
+      - Kal
+  - osis: Eph
+    texts:
+      - Ephesi
+      - Eph
+  - osis: Phil
+    texts:
+      - Philipi
+      - Phil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thesalonika
+      - Thes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothei
+      - Tim
+  - osis: Titus
+    texts:
+      - Tita
+      - Tit
+  - osis: Phlm
+    texts:
+      - Philemon
+      - Phlm
+  - osis: Heb
+    texts:
+      - Hebrai
+      - Heb
+  - osis: Jas
+    texts:
+      - Jakob
+      - Jak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petera
+      - Pet
+  - osis: Jude
+    texts:
+      - Juda
+translations:
+  - KCL02

@@ -1,0 +1,94 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Vukundukule
+  - osis: Matt
+    texts:
+      - Mateo
+  - osis: Mark
+    texts:
+      - Marko
+  - osis: Luke
+    texts:
+      - Lukasi
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohana
+  - osis: Acts
+    texts:
+      - Milimo
+  - osis: Rom
+    texts:
+      - VaRoma
+  - osis: 1Cor
+    texts:
+      - 1vakorinto
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Vakorinto
+  - osis: Col
+    texts:
+      - Vakolose
+  - osis: Gal
+    texts:
+      - Vagalatia
+  - osis: Eph
+    texts:
+      - VaEfeso
+  - osis: Phil
+    texts:
+      - Vafilipi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Vatesalonike
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filemoni
+  - osis: Heb
+    texts:
+      - Vahebrayo
+  - osis: Jas
+    texts:
+      - Yakobo
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petro
+  - osis: Jude
+    texts:
+      - Yuda
+translations:
+  - NYAMWEZI51

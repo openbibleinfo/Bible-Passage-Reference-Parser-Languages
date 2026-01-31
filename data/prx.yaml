@@ -1,0 +1,98 @@
+variables:
+  first: &first
+    - I
+  second: &second
+    - II
+books:
+  - osis: Rev
+    texts:
+      - Khyenluks
+  - osis: Matt
+    texts:
+      - Matthaisioi Phrinzangpo
+  - osis: Mark
+    texts:
+      - Markosi Phrinzangpo
+  - osis: Luke
+    texts:
+      - Lukasi Phrinzangpo
+  - osis: 3John
+    texts:
+      - III Yoannes
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - Yoannes
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - Yoannes
+      - Y
+  - osis: John
+    texts:
+      - Yoannesi Phrinzangpo
+  - osis: Acts
+    texts:
+      - Narpa Phingchaun
+  - osis: Rom
+    texts:
+      - Romapaun
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinthyapaun
+  - osis: Col
+    texts:
+      - Kolossyapaun
+  - osis: Gal
+    texts:
+      - Galatyapaun
+  - osis: Eph
+    texts:
+      - Ephesyapaun
+  - osis: Phil
+    texts:
+      - Philippyapaun
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thessalonikyapaun
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotheos
+  - osis: Titus
+    texts:
+      - Titus
+  - osis: Phlm
+    texts:
+      - Philemon
+  - osis: Heb
+    texts:
+      - Heberpaun
+  - osis: Jas
+    texts:
+      - Yaqobos
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petros
+  - osis: Jude
+    texts:
+      - Yude
+translations:
+  - SOMA

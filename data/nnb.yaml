@@ -1,0 +1,280 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Enzũko
+      - Enz
+  - osis: Exod
+    texts:
+      - Erĩlũayo
+      - Erĩ
+  - osis: Lev
+    texts:
+      - Abalawĩ
+      - Law
+  - osis: Num
+    texts:
+      - Emiganzo
+      - Emig
+  - osis: Lam
+    texts:
+      - Ekiriro
+      - Eki
+  - osis: Rev
+    texts:
+      - Erĩbĩsũlĩrwa
+      - Eribisurirwa
+      - Erĩb
+  - osis: Deut
+    texts:
+      - Eryibuka Ebihano
+      - Ebi
+  - osis: Josh
+    texts:
+      - Yosũa
+      - Yos
+  - osis: Judg
+    texts:
+      - Abatswerĩ
+      - Abat
+  - osis: Ruth
+    texts:
+      - Rũta
+  - osis: Isa
+    texts:
+      - Ĩsaya
+      - Ĩsa
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samwelĩ
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Abami
+      - Bam
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Emyatsi yʼEmigulu
+      - Emy
+  - osis: Ezra
+    texts:
+      - Ezera
+      - Ezr
+  - osis: Neh
+    texts:
+      - Nehemĩa
+      - Neh
+  - osis: Esth
+    texts:
+      - Esĩterĩ
+      - Esĩ
+  - osis: Job
+    texts:
+      - Yobũ
+  - osis: Ps
+    texts:
+      - Esyonyimbo
+      - Sauma
+      - Esy
+  - osis: Prov
+    texts:
+      - Emĩsyo
+      - Emĩ
+  - osis: Eccl
+    texts:
+      - Omũgambũlĩ
+      - Omũ
+  - osis: Song
+    texts:
+      - Olwimbo lwʼEsyonyimbo
+      - Olw
+  - osis: Jer
+    texts:
+      - Yeremĩa
+      - Yer
+  - osis: Ezek
+    texts:
+      - Ezekĩelĩ
+      - Eze
+  - osis: Dan
+    texts:
+      - Danĩelĩ
+      - Dan
+  - osis: Hos
+    texts:
+      - Hosea
+      - Hos
+  - osis: Joel
+    texts:
+      - Yoelĩ
+      - Yoe
+  - osis: Amos
+    texts:
+      - Amosĩ
+      - Amo
+  - osis: Obad
+    texts:
+      - Obadĩa
+      - Oba
+  - osis: Jonah
+    texts:
+      - Yona
+  - osis: Mic
+    texts:
+      - Mĩka
+  - osis: Nah
+    texts:
+      - Nahũmũ
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakũkĩ
+      - Hab
+  - osis: Zeph
+    texts:
+      - Zefania
+      - Zef
+  - osis: Hag
+    texts:
+      - Hagaĩ
+      - Hag
+  - osis: Zech
+    texts:
+      - Zekarĩa
+      - Zek
+  - osis: Mal
+    texts:
+      - Malakĩ
+      - Mal
+  - osis: Matt
+    texts:
+      - Matayo
+      - Mt
+  - osis: Mark
+    texts:
+      - Mariko
+      - Marĩko
+      - Mk
+  - osis: Luke
+    texts:
+      - Luka
+      - Lũka
+      - Lk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yoane
+      - Yn
+  - osis: Acts
+    texts:
+      - Emibiri
+      - Emĩbĩrĩ
+      - Emĩb
+  - osis: Rom
+    texts:
+      - Abanya Roma
+      - AbanyaRoma
+      - Abar
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Abanya Korĩnto
+      - AbanyaKorinto
+      - Kor
+  - osis: Col
+    texts:
+      - Abanya Kolosaĩ
+      - AbanyaKolosai
+      - Kol
+  - osis: Gal
+    texts:
+      - Abanya Galatĩa
+      - AbanyaGalatia
+      - Gal
+  - osis: Eph
+    texts:
+      - Abanya Efeso
+      - AbanyaEfeso
+      - Efe
+  - osis: Phil
+    texts:
+      - Abanya Fĩlĩpĩ
+      - AbanyaFilipi
+      - Fĩl
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Abanya Tesalonĩka
+      - AbanyaTesalonika
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+      - Tĩmoteo
+      - Tĩm
+  - osis: Titus
+    texts:
+      - Tito
+      - Tĩto
+  - osis: Phlm
+    texts:
+      - Filemono
+      - Fĩlemono
+      - Fĩle
+  - osis: Heb
+    texts:
+      - AbaEbrania
+      - Ebr
+  - osis: Jas
+    texts:
+      - Yakobo
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petero
+      - Pet
+  - osis: Jude
+    texts:
+      - Yuda
+      - Yũda
+translations:
+  - KB80
+  - NTN62

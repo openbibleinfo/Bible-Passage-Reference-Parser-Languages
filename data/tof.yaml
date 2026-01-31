@@ -1,0 +1,157 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Bwób Zitül
+      - Zit.
+  - osis: Exod
+    texts:
+      - Bazeb Tonarr
+      - Baz.
+  - osis: Lev
+    texts:
+      - Lebitikus
+      - Leb.
+  - osis: Num
+    texts:
+      - Bótang Peba
+      - Bót.
+  - osis: Rev
+    texts:
+      - Okaka Amzazirrün Kla
+      - Ok. Am.
+  - osis: Deut
+    texts:
+      - Duterronomi
+      - Dut.
+  - osis: Ruth
+    texts:
+      - Rrut
+  - osis: Isa
+    texts:
+      - Aesaya
+      - Aes.
+  - osis:
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - Sam.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - King
+  - osis:
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Krronikol
+      - Krron.
+  - osis: Ps
+    texts:
+      - Wórr Peba
+      - Wórr
+  - osis: Jonah
+    texts:
+      - Zona
+  - osis: Matt
+    texts:
+      - Metyu
+      - Met.
+  - osis: Mark
+    texts:
+      - Mak
+  - osis: Luke
+    texts:
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Zon
+  - osis: Acts
+    texts:
+      - Apostolab Tórrmen
+  - osis: Rom
+    texts:
+      - Rrom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korrint
+      - Korr.
+  - osis: Col
+    texts:
+      - Kolosi
+      - Kol.
+  - osis: Gal
+    texts:
+      - Galatia
+      - Gal.
+  - osis: Eph
+    texts:
+      - Epesus
+      - Ep.
+  - osis: Phil
+    texts:
+      - Pilipi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonika
+      - Tes.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+      - Tim.
+  - osis: Titus
+    texts:
+      - Taetus
+      - Taet.
+  - osis: Phlm
+    texts:
+      - Pilimon
+      - Pilim.
+  - osis: Heb
+    texts:
+      - Ibrru
+      - Ib.
+  - osis: Jas
+    texts:
+      - Zeims
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+  - osis: Jude
+    texts:
+      - Zud
+translations:
+  - TOF

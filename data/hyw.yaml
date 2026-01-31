@@ -1,0 +1,358 @@
+variables:
+  first: &first
+    - Ա.
+    - Առաջին
+    - Ա․
+  second: &second
+    - Բ.
+    - Բ․
+    - Երկրորդ
+books:
+  - osis: Gen
+    texts:
+      - Ծննդոց
+      - Ծննդ.
+  - osis: Exod
+    texts:
+      - Ելից
+  - osis: Lev
+    texts:
+      - Ղեւտացւոց
+      - Ղեւտ.
+  - osis: Num
+    texts:
+      - Թուոց
+  - osis: Lam
+    texts:
+      - Ողբք Երեմեայ
+  - osis: Rev
+    texts:
+      - Յայտնութիւն Յովհաննու
+      - Յայտ. Յովհ.
+      - Յայտ․ Յովհ․
+      - Յայտնութիւն
+      - Յյտ
+  - osis: Deut
+    texts:
+      - Բ. Օրինաց
+      - Բ. Օր.
+  - osis: Josh
+    texts:
+      - Յեսուայ
+      - Յես.
+  - osis: Judg
+    texts:
+      - Դատաւորաց
+      - Դատ.
+  - osis: Ruth
+    texts:
+      - Հռութ
+  - osis: Isa
+    texts:
+      - Եսայեայ
+      - Եսայ.
+  - osis: 1Kgs
+    texts:
+      - Գ. Թագաւորաց
+      - Գ. Թագ.
+  - osis: 2Kgs
+    texts:
+      - Դ. Թագաւորաց
+      - Դ. Թագ.
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Թագաւորաց
+      - Թագ.
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Մնացորդաց
+      - Մնաց.
+  - osis: Ezra
+    texts:
+      - Եզրաս
+  - osis: Neh
+    texts:
+      - Նէեմեայ
+      - Նէեմ.
+  - osis: Esth
+    texts:
+      - Եսթեր
+  - osis: Job
+    texts:
+      - Յոբայ
+  - osis: Ps
+    texts:
+      - Սաղմոս
+      - Սաղմ.
+  - osis: Prov
+    texts:
+      - Առակաց
+  - osis: Eccl
+    texts:
+      - Ժողովողի
+  - osis: Song
+    texts:
+      - Երգ Երգոց
+  - osis: Jer
+    texts:
+      - Երեմեայ
+      - Երեմ.
+  - osis: Ezek
+    texts:
+      - Եզեկիէլի
+      - Եզեկ.
+  - osis: Dan
+    texts:
+      - Դանիէլ
+  - osis: Hos
+    texts:
+      - Ովսեայ
+  - osis: Joel
+    texts:
+      - Յովելեայ
+  - osis: Amos
+    texts:
+      - Ամովսայ
+  - osis: Obad
+    texts:
+      - Աբդիու
+  - osis: Jonah
+    texts:
+      - Յովնանու
+  - osis: Mic
+    texts:
+      - Միքիայ
+  - osis: Nah
+    texts:
+      - Նաւումայ
+  - osis: Hab
+    texts:
+      - Ամբակումայ
+  - osis: Zeph
+    texts:
+      - Սոփոնեայ
+  - osis: Hag
+    texts:
+      - Անգեայ
+  - osis: Zech
+    texts:
+      - Զաքարեայ
+  - osis: Mal
+    texts:
+      - Մաղաքեայ
+  - osis: Matt
+    texts:
+      - Ըստ Մատթէոսի
+      - Մատթէոս
+      - Մատթ.
+      - Մտ
+  - osis: Mark
+    texts:
+      - Ըստ Մարկոսի
+      - Մարկոս
+      - Մարկ.
+      - Մր
+  - osis: Luke
+    texts:
+      - Ըստ Ղուկասի
+      - Ղոիկաս
+      - Ղուկ.
+      - Ղկ
+  - osis: 1John
+    texts:
+      - Յովհաննէսի Առաջին
+      - Ա.Յհ
+  - osis: 2John
+    texts:
+      - Յովհաննէսի Երկրորդ
+      - Բ.Յհ
+  - osis: 3John
+    texts:
+      - Յովհաննէսի Երրորդ
+      - Երրորդ Յովհաննու
+      - Գ. Յովհ.
+      - Գ․ Յովհ․
+      - Գ.Յհ
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Յովհաննու
+      - Յովհ.
+      - Յովհ․
+  - osis: John
+    texts:
+      - Ըստ Յովհաննէսի
+      - Յովհաննոի
+      - Յովհ.
+      - Յհ
+  - osis: Acts
+    texts:
+      - Առաքեալներու Գործերը
+      - Գործք Առաքելոց
+      - Գործ.
+      - Գրծ
+  - osis: Rom
+    texts:
+      - Հռոմայեցիներուն
+      - Հռովմայեցիս
+      - Հռովմ.
+      - Հռովմ․
+      - Հռ
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Նամակը Կորնթացիներուն
+      - Կորնթացիս
+      - Կորթ.
+  - osis: 1Cor
+    texts:
+      - Ա.Կր
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Նամակը Կորնթացիներուն
+      - Կորնթացիս
+      - Կորթ.
+      - Կորթ․
+  - osis: 2Cor
+    texts:
+      - Բ.Կր
+  - osis: Col
+    texts:
+      - Կողոսացիներուն
+      - Կողոսացիս
+      - Կող.
+      - Կող․
+      - Կղ
+  - osis: Gal
+    texts:
+      - Գաղատացիներուն
+      - Գաղատացիս
+      - Գաղ.
+      - Գաղ․
+      - Գղ
+  - osis: Eph
+    texts:
+      - Եփեսացիներուն
+      - Եփեսացիս
+      - Եփս.
+      - Եփս․
+      - Եփ
+  - osis: Phil
+    texts:
+      - Փիլիպպեցիներուն
+      - Փիլիպպեցիս
+      - Փիլպ.
+      - Փիլպ․
+      - Փլպ
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Նամակը Թեսաղոնիկեցիներուն
+      - Թեսաղոնիկեցիս
+      - Թես.
+      - Թես․
+  - osis: 1Thess
+    texts:
+      - Ա.Թս
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Նամակը Թեսաղոնիկեցիներուն
+      - Թեսաղոնիկեցիս
+      - Թես
+  - osis: 2Thess
+    texts:
+      - Բ.Թս
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Նամակը Տիմոթէոսին
+      - Տիմոթէոս
+      - Տիմ.
+      - Տիմ․
+  - osis: 1Tim
+    texts:
+      - Ա.Տմ
+  - osis: 2Tim
+    texts:
+      - Բ.Տմ
+  - osis: Titus
+    texts:
+      - Տիտոսին
+      - Տիտոս
+      - Տիտ.
+      - Տիտ․
+      - Տիտ
+  - osis: Phlm
+    texts:
+      - Փիլիմոնին
+      - Փիլիմոն
+      - Փիլ.
+      - Փիլ․
+      - Փլմ
+  - osis: Heb
+    texts:
+      - Եբրայեցիներուն
+      - Եբրայեցիս
+      - Եբր.
+      - Եբր․
+      - Եբր
+  - osis: Jas
+    texts:
+      - Յակոբոս
+      - Յակոբու
+      - Յակ.
+      - Յակ․
+      - Յկ
+  - osis: 1Pet
+    texts:
+      - Պետրոսի Առաջին
+  - osis: 2Pet
+    texts:
+      - Պետրոսի Երկրորդ
+      - Բ.Պտ
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - Պետրոսի
+      - Պետ.
+      - Պետ․
+      - Պտ
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Պետրոսի
+      - Պետ.
+      - Պետ․
+  - osis: Jude
+    texts:
+      - Յուդայի
+      - Յուդ.
+      - Յուդ․
+      - Յուդա
+      - Յդ
+translations:
+  - WARMB
+  - WANTACOC
+  - WA2017

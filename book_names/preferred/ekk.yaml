@@ -1,0 +1,170 @@
+default:
+  1Cor:
+    long: 1 Korintlastele
+    short: 1 Korintlastele
+  1John:
+    long: 1 Johannese
+    short: 1 Johannese
+  1Pet:
+    long: 1 Peetruse
+    short: 1 Peetruse
+  1Thess:
+    long: 1 Tessalooniklastele
+    short: 1 Tessalooniklastele
+  1Tim:
+    long: 1 Timoteosele
+    short: 1 Timoteosele
+  2Cor:
+    long: 2 Korintlastele
+    short: 2 Korintlastele
+  2John:
+    long: 2 Johannese
+    short: 2 Johannese
+  2Pet:
+    long: 2 Peetruse
+    short: 2 Peetruse
+  2Thess:
+    long: 2 Tessalooniklastele
+    short: 2 Tessalooniklastele
+  2Tim:
+    long: 2 Timoteosele
+    short: 2 Timoteosele
+  3John:
+    long: 3 Johannese
+    short: 3 Johannese
+  Acts:
+    long: Apostlite
+    short: Ap
+  Col:
+    long: Koloslastele
+    short: Kl
+  Eph:
+    long: Efeslastele
+    short: Ef
+  Gal:
+    long: Galaatlastele
+    short: Galaatlastele
+  Gen:
+    long: Genesis
+    short: Genesis
+  Heb:
+    long: Heebrealastele
+    short: Hb
+  Jas:
+    long: Jaakobuse
+    short: Jakoobuse
+  John:
+    long: Johannes
+    short: Jh
+  Jude:
+    long: Juuda
+    short: Jd
+  Luke:
+    long: Luuka
+    short: Lk
+  Mark:
+    long: Markus
+    short: Markuse evangeelium
+  Matt:
+    long: Matteus
+    short: Matteuse evangeelium
+  Phil:
+    long: Filiplastele
+    short: Filiplastele
+  Phlm:
+    long: Fileemonile
+    short: Fileemonile
+  Rev:
+    long: Ilmutus
+    short: Ilm
+  Rom:
+    long: Roomlastele
+    short: Rm
+  Titus:
+    long: Tiitusele
+    short: Tiitusele
+translations:
+  ecv:
+    1Cor:
+      long: 1. Korintlastele
+      short: 1Kr
+    1John:
+      long: 1. Johannese
+      short: 1Jh
+    1Pet:
+      long: 1. Peetruse
+      short: 1Pt
+    1Thess:
+      long: 1. Tessalooniklastele
+      short: 1Ts
+    1Tim:
+      long: 1. Timoteosele
+      short: 1Tm
+    2Cor:
+      long: 2. Korintlastele
+      short: 2Kr
+    2John:
+      long: 2. Johannese
+      short: 2Jh
+    2Pet:
+      long: 2. Peetruse
+      short: 2Pt
+    2Thess:
+      long: 2. Tessalooniklastele
+      short: 2Ts
+    2Tim:
+      long: 2. Timoteosele
+      short: 2Tm
+    3John:
+      long: 3. Johannese
+      short: 3Jh
+    Gal:
+      short: Gl
+    Jas:
+      short: Jk
+    John:
+      long: Johannese
+    Mark:
+      long: Markuse
+      short: Mk
+    Matt:
+      long: Matteuse
+      short: Mt
+    Phil:
+      short: Fl
+    Phlm:
+      short: Fm
+    Titus:
+      short: Tt
+  eep:
+    Acts:
+      long: Apostlite teod
+      short: Apostlite teod
+    Col:
+      short: Koloslastele
+    Eph:
+      short: Efeslastele
+    Heb:
+      short: Heebrealastele
+    Jas:
+      long: Jakoobuse
+    John:
+      long: Johannese evangeelium
+      short: Johannese evangeelium
+    Jude:
+      short: Juuda
+    Luke:
+      long: Luuka evangeelium
+      short: Luuka evangeelium
+    Mark:
+      long: Markuse evangeelium
+    Matt:
+      long: Matteuse evangeelium
+    Rev:
+      long: Johannese ilmutus
+      short: Johannese ilmutus
+    Rom:
+      short: Roomlastele
+  pkp:
+    Rom:
+      long: Roomlased

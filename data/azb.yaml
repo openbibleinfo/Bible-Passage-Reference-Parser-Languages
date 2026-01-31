@@ -1,0 +1,205 @@
+books:
+  - osis: Gen
+    texts:
+      - یارادیلیش
+  - osis: Exod
+    texts:
+      - چیخیش
+  - osis: Lev
+    texts:
+      - لاوئلی‌لر
+  - osis: Num
+    texts:
+      - سایلار
+  - osis: Lam
+    texts:
+      - مرثئیه‌لر
+  - osis: Rev
+    texts:
+      - وحی
+  - osis: Deut
+    texts:
+      - تثنئیه
+  - osis: Josh
+    texts:
+      - یوشَع
+  - osis: Judg
+    texts:
+      - داورلر
+      - داو.
+  - osis: Ruth
+    texts:
+      - روت
+  - osis: Isa
+    texts:
+      - اِشَعیا
+      - اِش.
+  - osis: 1Sam
+    texts:
+      - ۱سمویئل
+  - osis: 2Sam
+    texts:
+      - ۲سمویئل
+  - osis: 1Kgs
+    texts:
+      - ۱پادشاهلار
+  - osis: 2Kgs
+    texts:
+      - ۲پادشاهلار
+  - osis: 1Chr
+    texts:
+      - ۱سالنامه‌لر
+      - سال.
+  - osis: 2Chr
+    texts:
+      - ۲سالنامه‌لر
+  - osis: Ezra
+    texts:
+      - عِزرا
+  - osis: Neh
+    texts:
+      - نِحِمیا
+  - osis: Esth
+    texts:
+      - اِستِر
+  - osis: Job
+    texts:
+      - اَیّوب
+  - osis: Ps
+    texts:
+      - مزمورلار
+  - osis: Prov
+    texts:
+      - مثل‌لر کئتابی
+  - osis: Eccl
+    texts:
+      - واعئظ
+  - osis: Song
+    texts:
+      - نغمه‌لر
+  - osis: Jer
+    texts:
+      - اِرِمیا
+      - اِر.
+  - osis: Ezek
+    texts:
+      - حِزِقیال
+  - osis: Dan
+    texts:
+      - دانیال
+  - osis: Hos
+    texts:
+      - هوشَع
+  - osis: Joel
+    texts:
+      - یوعِل
+  - osis: Amos
+    texts:
+      - عاموس
+  - osis: Obad
+    texts:
+      - عوبَدیا
+  - osis: Jonah
+    texts:
+      - یونوس
+  - osis: Mic
+    texts:
+      - مئکا
+  - osis: Nah
+    texts:
+      - ناحوم
+  - osis: Hab
+    texts:
+      - حَبَقوق
+  - osis: Zeph
+    texts:
+      - صِفَنیا
+  - osis: Hag
+    texts:
+      - حَجّه‌ی
+  - osis: Zech
+    texts:
+      - زِکَرئیّا
+  - osis: Mal
+    texts:
+      - مَلاکی
+  - osis: Matt
+    texts:
+      - متّا
+  - osis: Mark
+    texts:
+      - مرقوس
+  - osis: Luke
+    texts:
+      - لوقا
+  - osis: 1John
+    texts:
+      - ۱یوحنّا
+  - osis: 2John
+    texts:
+      - ۲یوحنّا
+  - osis: 3John
+    texts:
+      - ۳یوحنّا
+  - osis: John
+    texts:
+      - یوحنّا
+  - osis: Acts
+    texts:
+      - حوارئلر
+  - osis: Rom
+    texts:
+      - روملو‌لارا
+  - osis: 1Cor
+    texts:
+      - ۱قورئنتلی‌لره
+  - osis: 2Cor
+    texts:
+      - ۲قورئنتلی‌لره
+  - osis: Col
+    texts:
+      - کولوسلولارا
+  - osis: Gal
+    texts:
+      - قالاتئیالی‌لارا
+  - osis: Eph
+    texts:
+      - اِفِسوسلولارا
+  - osis: Phil
+    texts:
+      - فئلئپئلی‌لره
+  - osis: 1Thess
+    texts:
+      - ۱تسالونئکلی‌لره
+  - osis: 2Thess
+    texts:
+      - ۲تسالونئکلی‌لره
+  - osis: 1Tim
+    texts:
+      - ۱تئموتاعوسا
+  - osis: 2Tim
+    texts:
+      - ۲تئموتاعوسا
+  - osis: Titus
+    texts:
+      - تئطوسا
+  - osis: Phlm
+    texts:
+      - فئلئمونا
+  - osis: Heb
+    texts:
+      - عئبرانئلره
+  - osis: Jas
+    texts:
+      - یعقوب
+  - osis: 1Pet
+    texts:
+      - ۱پطروس
+  - osis: 2Pet
+    texts:
+      - ۲پطروس
+  - osis: Jude
+    texts:
+      - یهودا
+translations:
+  - IAB

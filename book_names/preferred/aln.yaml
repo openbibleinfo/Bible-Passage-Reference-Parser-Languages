@@ -1,0 +1,93 @@
+default:
+  1Cor:
+    long: 1 Korinthianët
+    short: 1 Kor
+  1John:
+    long: 1 Gjionn
+    short: 1 Gjn
+  1Pet:
+    long: 1 Pietër
+    short: 1 Pjt
+  1Thess:
+    long: 1 Thessalonikanët
+    short: 1 Sel
+  1Tim:
+    long: 1 Timothenë
+    short: 1 Tim
+  2Cor:
+    long: 2 Korinthianët
+    short: 2 Kor
+  2John:
+    long: 2 Gjionn
+    short: 2 Gjn
+  2Pet:
+    long: 2 Pietër
+    short: 2 Pjt
+  2Thess:
+    long: 2 Thessalonikanët
+    short: 2 Sel
+  2Tim:
+    long: 2 Timothenë
+    short: 2 Tim
+  3John:
+    long: 3 Gjionn
+    short: 3 Gjn
+  Acts:
+    long: Punët’ e Apostujvet
+    short: Vap
+  Col:
+    long: Kolossianët
+    short: Kol
+  Eph:
+    long: Efesianët
+    short: Ef
+  Gal:
+    long: Galatianët
+    short: Gal
+  Heb:
+    long: Hebrejt
+    short: Heb
+  Jas:
+    long: Iakobit
+    short: Jak
+  John:
+    long: Gjionnit
+    short: Gjn
+  Jude:
+    long: Judë
+    short: Jud
+  Luke:
+    long: Luka
+    short: Lk
+  Mark:
+    long: Marku
+    short: Mk
+  Matt:
+    long: Mateu
+    short: Mt
+  Phil:
+    long: Filippianët
+    short: Fil
+  Phlm:
+    long: Filemonë
+    short: Flm
+  Ps:
+    long: Psalteri
+    short: Ps
+  Rev:
+    long: Sbulesa
+    short: Zb
+  Rom:
+    long: Romanët
+    short: Rom
+  Titus:
+    long: Titonë
+    short: Tit
+translations:
+  algkk72:
+    Luke:
+      long: Lukësë
+    Mark:
+      long: Markut
+    Matt:
+      long: Mattheut

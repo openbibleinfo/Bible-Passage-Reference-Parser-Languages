@@ -1,0 +1,312 @@
+- osis: Gen
+  texts:
+    - Ebandeli
+    - Ebl
+- osis: Exod
+  texts:
+    - Kobima
+    - Kob
+- osis: Lev
+  texts:
+    - Levitike
+    - Lev
+- osis: Num
+  texts:
+    - Mitango
+    - Mit
+- osis: Lam
+  texts:
+    - Bileli
+    - Bi
+- osis: Rev
+  texts:
+    - Emoniseli
+    - Em
+- osis: Deut
+  texts:
+    - Deteronomi
+    - Det
+- osis: Josh
+  texts:
+    - Jozue
+    - Joz
+- osis: Judg
+  texts:
+    - Bilombe
+    - Bil
+- osis: Ruth
+  texts:
+    - Rite
+    - Rit
+- osis: Isa
+  texts:
+    - Ezayi
+    - Ez
+- osis: 1Sam
+  texts:
+    - 1 Samuele
+    - 1. Samuele
+- osis: 2Sam
+  texts:
+    - 2 Samuele
+    - 2. Samuele
+- osis: 1Sam
+  texts:
+    - 1Sa
+- osis: 2Sam
+  texts:
+    - 2Sa
+- osis: 1Kgs
+  texts:
+    - 1 Bakonzi
+    - 1. Bakonzi
+- osis: 2Kgs
+  texts:
+    - 2 Bakonzi
+    - 2. Bakonzi
+- osis: 1Kgs
+  texts:
+    - 1Ba
+- osis: 2Kgs
+  texts:
+    - 2Ba
+- osis: 1Chr
+  texts:
+    - 1 Masolo ya Kala
+    - 1. Masolo ya Kala
+- osis: 2Chr
+  texts:
+    - 2 Masolo ya Kala
+    - 2. Masolo ya Kala
+- osis: 1Chr
+  texts:
+    - 1Ma
+- osis: 2Chr
+  texts:
+    - 2Ma
+- osis: Ezra
+  texts:
+    - Esidrasi
+    - Esd
+- osis: Neh
+  texts:
+    - Neyemi
+    - Ne
+- osis: Esth
+  texts:
+    - Ester
+    - Es
+- osis: Job
+  texts:
+    - Yobo
+    - Yb
+- osis: Ps
+  texts:
+    - Banzembo
+    - Nz
+- osis: Prov
+  texts:
+    - Masese
+    - Mas
+- osis: Eccl
+  texts:
+    - Mosakoli
+    - Mos
+- osis: Song
+  texts:
+    - Loyembo ya Salomo
+    - Loy
+- osis: Jer
+  texts:
+    - Jeremi
+    - Je
+- osis: Ezek
+  texts:
+    - Ezekieli
+    - Ezk
+- osis: Dan
+  texts:
+    - Daniele
+    - Da
+- osis: Hos
+  texts:
+    - Oze
+    - Oz
+- osis: Joel
+  texts:
+    - Joeli
+    - Jo
+- osis: Amos
+  texts:
+    - Amosi
+    - Am
+- osis: Obad
+  texts:
+    - Abidiasi
+    - Abd
+- osis: Jonah
+  texts:
+    - Yona
+    - Yo
+- osis: Mic
+  texts:
+    - Mishe
+    - Mi
+- osis: Nah
+  texts:
+    - Naumi
+    - Na
+- osis: Hab
+  texts:
+    - Abakuki
+    - Abk
+- osis: Zeph
+  texts:
+    - Sofoni
+    - So
+- osis: Hag
+  texts:
+    - Aje
+    - Aj
+- osis: Zech
+  texts:
+    - Zakari
+    - Za
+- osis: Mal
+  texts:
+    - Malashi
+    - Mal
+- osis: Matt
+  texts:
+    - Matayo
+    - Mat
+- osis: Mark
+  texts:
+    - Malako
+    - Mlk
+- osis: Luke
+  texts:
+    - Luka
+    - Lk
+- osis: 1John
+  texts:
+    - 1Yn
+- osis: 2John
+  texts:
+    - 2Yn
+- osis: 3John
+  texts:
+    - 3 Yoane
+    - 3Yn
+- osis: 1John
+  texts:
+    - 1 Yoane
+    - 1. Yoane
+- osis: 2John
+  texts:
+    - 2 Yoane
+    - 2. Yoane
+- osis: John
+  texts:
+    - Yoane
+    - Yn
+- osis: Acts
+  texts:
+    - Misala ya Bantoma
+    - Mis
+- osis: Rom
+  texts:
+    - Barome
+    - Rm
+- osis: 1Cor
+  texts:
+    - 1 Bakolinto
+    - 1. Bakolinto
+- osis: 2Cor
+  texts:
+    - 2 Bakolinto
+    - 2. Bakolinto
+- osis: 1Cor
+  texts:
+    - 1Kl
+- osis: 2Cor
+  texts:
+    - 2Kl
+- osis: Col
+  texts:
+    - BaKolose
+    - Ko
+- osis: Gal
+  texts:
+    - BaGalatia
+    - Gal
+- osis: Eph
+  texts:
+    - Ba-Efeso
+    - Ef
+- osis: Phil
+  texts:
+    - BaFilipi
+    - Fil
+- osis: 1Thess
+  texts:
+    - 1 Batesalonika
+    - 1. Batesalonika
+- osis: 2Thess
+  texts:
+    - 2 Batesalonika
+    - 2. Batesalonika
+- osis: 1Thess
+  texts:
+    - 1Te
+- osis: 2Thess
+  texts:
+    - 2Te
+- osis: 1Tim
+  texts:
+    - 1 Timote
+    - 1. Timote
+- osis: 2Tim
+  texts:
+    - 2 Timote
+    - 2. Timote
+- osis: 1Tim
+  texts:
+    - 1Ti
+- osis: 2Tim
+  texts:
+    - 2Ti
+- osis: Titus
+  texts:
+    - Tito
+    - Tt
+- osis: Phlm
+  texts:
+    - Filemo
+    - Fim
+- osis: Heb
+  texts:
+    - Ba-Ebre
+    - Eb
+- osis: Jas
+  texts:
+    - Jake
+    - Ja
+- osis: 1Pet
+  texts:
+    - 1 Petelo
+    - 1. Petelo
+- osis: 2Pet
+  texts:
+    - 2 Petelo
+    - 2. Petelo
+- osis: 1Pet
+  texts:
+    - 1Pe
+- osis: 2Pet
+  texts:
+    - 2Pe
+- osis: Jude
+  texts:
+    - Jide
+    - Ji

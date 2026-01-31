@@ -1,0 +1,94 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Aleebo̱kaapo̱tɔ
+  - osis: Matt
+    texts:
+      - Matiyo
+  - osis: Mark
+    texts:
+      - Maak
+  - osis: Luke
+    texts:
+      - Lukas
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohanee
+  - osis: Acts
+    texts:
+      - Ayaa‑rɔ aye̱re̱po̱‑ɔ asuŋ
+      - Ayaa‑rɔ aye̱re̱po̱ asuŋ
+  - osis: Rom
+    texts:
+      - Roma awuye
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintoo awuye
+  - osis: Col
+    texts:
+      - Kolosii awuye
+  - osis: Gal
+    texts:
+      - Galatiya awuye
+  - osis: Eph
+    texts:
+      - Ifisus awuye
+  - osis: Phil
+    texts:
+      - Filipii awuye
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tisalonikaa awuye
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotii
+  - osis: Titus
+    texts:
+      - Tiitus
+  - osis: Phlm
+    texts:
+      - Filemɔŋ
+  - osis: Heb
+    texts:
+      - Heebrii awuye
+  - osis: Jas
+    texts:
+      - Yakubu
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peetroo
+  - osis: Jude
+    texts:
+      - Yudas
+translations:
+  - NCU

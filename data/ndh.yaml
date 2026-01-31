@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Bhusetuli
+  - osis: Matt
+    texts:
+      - Mataayi
+  - osis: Mark
+    texts:
+      - Maalika
+  - osis: Luke
+    texts:
+      - Luuka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yoohani
+  - osis: Acts
+    texts:
+      - Mbombo isha Bhatumighwa
+  - osis: Rom
+    texts:
+      - Bhalooma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Bhakolinti
+  - osis: Col
+    texts:
+      - Bhakolosaayi
+  - osis: Gal
+    texts:
+      - Bhaghalatiiya
+  - osis: Eph
+    texts:
+      - Bhaefesi
+  - osis: Phil
+    texts:
+      - Bhafilipi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Bhatesaloniike
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tiimoti
+  - osis: Titus
+    texts:
+      - Tiito
+  - osis: Phlm
+    texts:
+      - Filimooni
+  - osis: Heb
+    texts:
+      - Bhahibhuli
+  - osis: Jas
+    texts:
+      - Yaakobhu
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peeteli
+  - osis: Jude
+    texts:
+      - Yuuta
+translations:
+  - NDALI

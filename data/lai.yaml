@@ -1,0 +1,113 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Ubuvumbuli
+      - Ubv.
+  - osis: Matt
+    texts:
+      - Matayi
+      - Mat.
+  - osis: Mark
+    texts:
+      - Maliko
+      - Mlko.
+  - osis: Luke
+    texts:
+      - Luk.
+      - Luka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohani
+      - Yoh.
+  - osis: Acts
+    texts:
+      - Imbombo
+      - Imbo.
+  - osis: Rom
+    texts:
+      - Aba Loma
+      - Lom.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Aba Kolinti
+      - Kol.
+  - osis: Col
+    texts:
+      - Aba Kolosi
+      - Kols.
+  - osis: Gal
+    texts:
+      - Aba Galatiya
+      - Gal.
+  - osis: Eph
+    texts:
+      - Aba Efeso
+      - Efe.
+  - osis: Phil
+    texts:
+      - Aba Filipi
+      - Filp.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Aba Tesalonika
+      - Tes.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+      - Tim.
+  - osis: Titus
+    texts:
+      - Tit.
+      - Titi
+  - osis: Phlm
+    texts:
+      - Filimoni
+      - Fil.
+  - osis: Heb
+    texts:
+      - Aba Hebeli
+      - Heb.
+  - osis: Jas
+    texts:
+      - Yakobo
+      - Yak.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pitala
+      - Pit.
+  - osis: Jude
+    texts:
+      - Yud.
+      - Yuda
+translations:
+  - LMBNT2016

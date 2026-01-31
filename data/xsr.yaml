@@ -1,0 +1,96 @@
+variables:
+  first: &first
+    - १
+  second: &second
+    - २
+  third: &third
+    - ३
+books:
+  - osis: Rev
+    texts:
+      - ज्‍यल्‍का
+  - osis: Matt
+    texts:
+      - मत्ती
+  - osis: Mark
+    texts:
+      - मर्कूस
+  - osis: Luke
+    texts:
+      - लूका
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - यूहन्‍ना
+  - osis: Acts
+    texts:
+      - लोमा छ्‍येतिवी लाका
+  - osis: Rom
+    texts:
+      - रोमी
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - कोरिन्‍थी
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - कोरिन्थी
+  - osis: Col
+    texts:
+      - कलस्सी
+  - osis: Gal
+    texts:
+      - गलाती
+  - osis: Eph
+    texts:
+      - एफिसी
+  - osis: Phil
+    texts:
+      - फिलिप्पी
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - थेसलोनिकी
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - तिमोथी
+  - osis: Titus
+    texts:
+      - तीतस
+  - osis: Phlm
+    texts:
+      - फिलेमोन
+  - osis: Heb
+    texts:
+      - हिब्रू
+  - osis: Jas
+    texts:
+      - याकूब
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - पत्रुस
+  - osis: Jude
+    texts:
+      - यहूदा
+translations:
+  - XSRNT

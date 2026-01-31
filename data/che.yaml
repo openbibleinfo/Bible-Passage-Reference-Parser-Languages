@@ -1,0 +1,266 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Доладалар
+      - Дол
+  - osis: Exod
+    texts:
+      - Арадаккхар
+      - Ара
+  - osis: Lev
+    texts:
+      - Ӏамалъяр
+      - Ӏам
+  - osis: Num
+    texts:
+      - Лелар
+      - Лел
+  - osis: Lam
+    texts:
+      - Тийжамаш
+      - Тийж
+  - osis: Rev
+    texts:
+      - Довзийтинарг
+      - Довз
+  - osis: Deut
+    texts:
+      - Карлабаьккхинарг
+      - Кар
+  - osis: Josh
+    texts:
+      - ЮшаӀ
+      - Юш
+  - osis: Judg
+    texts:
+      - Куьйгалхой
+      - Куьйг
+  - osis: Ruth
+    texts:
+      - Рути
+      - Рут
+  - osis: Isa
+    texts:
+      - ЕшаӀ-ЯхӀу
+      - Еш
+  - osis: 1Sam
+    texts:
+      - Шамъал
+      - Шам
+  - osis: 2Sam
+    texts:
+      - Дауд
+      - Дад
+  - osis: 1Kgs
+    texts:
+      - Сулим
+      - Сул
+  - osis: 2Kgs
+    texts:
+      - Тӏаьххьарнаш
+      - Тӏаьххь
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Шерашкахь
+      - Ше
+  - osis: Ezra
+    texts:
+      - Ӏезар
+  - osis: Neh
+    texts:
+      - Нахьми-ЯхӀу
+      - Нахь
+  - osis: Esth
+    texts:
+      - Эсират
+      - Эси
+  - osis: Job
+    texts:
+      - Аюб
+  - osis: Ps
+    texts:
+      - Забур
+      - Заб
+  - osis: Prov
+    texts:
+      - Кицанаш
+      - Киц
+  - osis: Eccl
+    texts:
+      - Устаз
+      - Уст
+  - osis: Song
+    texts:
+      - Илли
+  - osis: Jer
+    texts:
+      - Ярми-ЯхӀу
+      - Ярм
+  - osis: Ezek
+    texts:
+      - Яхьазкхиал
+      - Яхь
+  - osis: Dan
+    texts:
+      - Даниал
+      - Дан
+  - osis: Hos
+    texts:
+      - Хӏушаӏ
+      - Хӏуш
+  - osis: Joel
+    texts:
+      - Юал
+  - osis: Amos
+    texts:
+      - Ӏамос
+  - osis: Obad
+    texts:
+      - Ӏабди-ЯхӀу
+      - Ӏаб
+  - osis: Jonah
+    texts:
+      - Юнус
+      - Юн
+  - osis: Mic
+    texts:
+      - Мика-ЯхӀу
+      - Мик
+  - osis: Nah
+    texts:
+      - Нахьум
+  - osis: Hab
+    texts:
+      - Хьабукъа
+      - Хьаб
+  - osis: Zeph
+    texts:
+      - Цапни-ЯхӀу
+      - Цап
+  - osis: Hag
+    texts:
+      - Хьагай
+      - Хьаг
+  - osis: Zech
+    texts:
+      - Закри-ЯхӀу
+      - Зак
+  - osis: Mal
+    texts:
+      - Малъаки
+      - Мал
+  - osis: Matt
+    texts:
+      - Маттай
+      - Мат
+  - osis: Mark
+    texts:
+      - Марк
+      - Мрк
+  - osis: Luke
+    texts:
+      - Лака
+      - Лак
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Яхьъяс
+      - Я
+  - osis: John
+    texts:
+      - Яхьъя
+      - Яй
+  - osis: Acts
+    texts:
+      - Векалийн
+      - Век
+  - osis: Rom
+    texts:
+      - Римхошка
+      - Рим
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Коринтхошка
+      - Ко
+  - osis: Col
+    texts:
+      - Ковлусихошка
+      - Ков
+  - osis: Gal
+    texts:
+      - Галатахошка
+      - Гал
+  - osis: Eph
+    texts:
+      - Эпасхошка
+      - Эпа
+  - osis: Phil
+    texts:
+      - Пилапхошка
+      - Пил
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Тассалникахошка
+      - Та
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Тимапига
+      - Ти
+  - osis: Titus
+    texts:
+      - Тите
+      - Тит
+  - osis: Phlm
+    texts:
+      - Пхьалмане
+      - Пхьал
+  - osis: Heb
+    texts:
+      - Ӏебархошка
+      - Ӏеб
+  - osis: Jas
+    texts:
+      - Якъуба
+      - Якъ
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Кипин
+      - Ки
+  - osis: Jude
+    texts:
+      - ЯхӀуда
+      - ЯхӀ
+translations:
+  - CAC

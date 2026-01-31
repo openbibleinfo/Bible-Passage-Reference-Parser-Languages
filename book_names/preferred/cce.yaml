@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Makronika
+    short: 1 Mak.
+  1Cor:
+    long: 1 Vakorinto
+    short: 1 VaK.
+  1John:
+    long: 1 Johani
+    short: 1 Joh.
+  1Kgs:
+    long: 1 Vafumeli
+    short: 1 Vafu.
+  1Pet:
+    long: 1 Pedro
+    short: 1 Ped.
+  1Sam:
+    long: 1 Samuwele
+    short: 1 Sam.
+  1Thess:
+    long: 1 Vatesalonika
+    short: 1 Vat.
+  1Tim:
+    long: 1 Timoti
+    short: 1 Tim.
+  2Chr:
+    long: 2 Makronika
+    short: 2 Mak.
+  2Cor:
+    long: 2 Vakorinto
+    short: 2 VaK.
+  2John:
+    long: 2 Johani
+    short: 2 Joh.
+  2Kgs:
+    long: 2 Vafumeli
+    short: 2 Vafu.
+  2Pet:
+    long: 2 Pedro
+    short: 2 Ped.
+  2Sam:
+    long: 2 Samuwele
+    short: 2 Sam.
+  2Thess:
+    long: 2 Vatesalonika
+    short: 2 Vat.
+  2Tim:
+    long: 2 Timoti
+    short: 2 Tim.
+  3John:
+    long: 3 Johani
+    short: 3 Joh.
+  Acts:
+    long: Mithumo
+    short: Mith.
+  Amos:
+    long: Amosi
+    short: Amo.
+  Col:
+    long: Vakolosa
+    short: Vakl.
+  Dan:
+    long: Dhaniyeli
+    short: Dhan.
+  Deut:
+    long: Dhewuteronome
+    short: Dhewut.
+  Eccl:
+    long: Ekleziyaste
+    short: Ekl.
+  Eph:
+    long: Vaefesu
+    short: Vaef.
+  Esth:
+    long: Esteri
+    short: Est.
+  Exod:
+    long: Eksodha
+    short: Eks.
+  Ezek:
+    long: Ezekhiyele
+    short: Eze.
+  Ezra:
+    long: Ezra
+    short: Ezr.
+  Gal:
+    long: Vagalatiya
+    short: VaG.
+  Gen:
+    long: Genesisi
+    short: Gen.
+  Hab:
+    long: Habhakuki
+    short: Hab.
+  Hag:
+    long: Hagayi
+    short: Hag.
+  Heb:
+    long: VaHebheru
+    short: Vaheb.
+  Hos:
+    long: Hoseya
+    short: Hos.
+  Isa:
+    long: Isaya
+    short: Isa.
+  Jas:
+    long: Jakobe
+    short: Jak.
+  Jer:
+    long: Jeremiya
+    short: Jer.
+  Job:
+    long: Jobe
+    short: Job.
+  Joel:
+    long: Joyeli
+    short: Joy.
+  John:
+    long: Johani
+    short: Joh.
+  Jonah:
+    long: Jona
+    short: Jon.
+  Josh:
+    long: Joxuwa
+    short: Jox.
+  Jude:
+    long: Judha
+    short: Jud.
+  Judg:
+    long: Valamuli
+    short: Val.
+  Lam:
+    long: Sidilo
+    short: Sid.
+  Lev:
+    long: Levhi
+    short: Levh.
+  Luke:
+    long: Luka
+    short: Luk.
+  Mal:
+    long: Malakiya
+    short: Mal.
+  Mark:
+    long: Marku
+    short: Mar.
+  Matt:
+    long: Matewu
+    short: Mat.
+  Mic:
+    long: Mika
+    short: Mik.
+  Nah:
+    long: Nahume
+    short: Nah.
+  Neh:
+    long: Nehemiya
+    short: Neh.
+  Num:
+    long: Mitengo
+    short: Mit.
+  Obad:
+    long: Obhadhiya
+    short: Obha.
+  Phil:
+    long: Vafilipiya
+    short: VaF.
+  Phlm:
+    long: Filimoni
+    short: Film.
+  Prov:
+    long: Mavingu
+    short: Mav.
+  Ps:
+    long: Masalmo
+    short: Mas.
+  Rev:
+    long: Mtuletelo
+    short: Mtu.
+  Rom:
+    long: VaRoma
+    short: VaR.
+  Ruth:
+    long: Rute
+    short: Rut.
+  Song:
+    long: Ndando ya Tindando
+    short: Nda.
+  Titus:
+    long: Titosi
+    short: Tit.
+  Zech:
+    long: Zakariya
+    short: Zak.
+  Zeph:
+    long: Zefaniya
+    short: Zef.

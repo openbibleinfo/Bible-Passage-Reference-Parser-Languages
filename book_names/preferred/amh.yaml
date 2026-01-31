@@ -1,0 +1,695 @@
+default:
+  1Chr:
+    long: 1 ዜና መዋዕል
+    short: 1ዜ.መ.
+  1Cor:
+    long: 1 ቆሮንቶስ
+    short: 1ቆሮ.
+  1Esd:
+    long: መጽ​ሐፈ ዕዝራ ሱቱ​ኤል
+    short: ዕዝ.ሱቱ.
+  1John:
+    long: 1 የዮሐንስ መልእክት
+    short: 1ዮሐ.
+  1Kgs:
+    long: 1 ነገሥት
+    short: 1ነገ.
+  1Macc:
+    long: 1ኛ መጽሐፈ መቃብያን
+    short: 1መቃ.
+  1Pet:
+    long: 1 የጴጥሮስ መልእክት
+    short: 1ጴጥ.
+  1Sam:
+    long: 1 ሳሙኤል
+    short: 1ሳሙ.
+  1Thess:
+    long: 1 ተሰሎንቄ
+    short: 1ተሰ.
+  1Tim:
+    long: 1 ወደ ጢሞቴዎስ
+    short: 1ጢሞ.
+  2Chr:
+    long: 2 ዜና መዋዕል
+    short: 2ዜ.መ.
+  2Cor:
+    long: 2 ቆሮንቶስ
+    short: 2ቆሮ.
+  2Esd:
+    long: መጽ​ሐፈ ዕዝራ ካልእ
+    short: ዕዝ.ካል.
+  2John:
+    long: 2 የዮሐንስ መልእክት
+    short: 2ዮሐ.
+  2Kgs:
+    long: 2 ነገሥት
+    short: 2ነገ.
+  2Macc:
+    long: 2ኛ መጽሐፈ መቃብያን
+    short: 2መቃ.
+  2Pet:
+    long: 2 የጴጥሮስ መልእክት
+    short: 2ጴጥ.
+  2Sam:
+    long: 2 ሳሙኤል
+    short: 2ሳሙ.
+  2Thess:
+    long: 2 ተሰሎንቄ
+    short: 2ተሰ.
+  2Tim:
+    long: 2 ወደ ጢሞቴዎስ
+    short: 2ጢሞ.
+  3John:
+    long: 3 የዮሐንስ መልእክት
+    short: 3ዮሐ.
+  Acts:
+    long: የሐዋርያት ሥራ
+    short: ሐ.ሥ.
+  Amos:
+    long: ትንቢተ አሞጽ
+    short: አሞጽ
+  Bar:
+    long: መጽሐፈ ባሮክ
+    short: ባሮክ
+  Col:
+    long: ቈላስይስ
+    short: ቆላ.
+  Dan:
+    long: ትንቢተ ዳንኤል
+    short: ዳን
+  DanGr:
+    long: ትን​ቢተ ዳን​ኤል
+  Deut:
+    long: ኦሪት ዘዳግም
+    short: ዘዳ.
+  Eccl:
+    long: መጽሐፈ መክብብ
+    short: መክ.
+  EpJer:
+    long: ተረፈ ኤር​ም​ያስ
+    short: ተረ.ኤር.
+  Eph:
+    long: ወደ ኤፌሶን ሰዎች
+    short: ኤፌ.
+  Esth:
+    long: መጽሐፈ አስቴር
+    short: አስ
+  EsthGr:
+    long: መጽ​ሐፈ አስ​ቴር
+    short: አስ.
+  Exod:
+    long: ኦሪት ዘጸአት
+    short: ዘፀ.
+  Ezek:
+    long: ትንቢተ ሕዝቅኤል
+    short: ሕዝ.
+  Ezra:
+    long: መጽሐፈ ዕዝራ
+    short: ዕዝ.
+  Gal:
+    long: ወደ ገላትያ ሰዎች
+    short: ገላ.
+  Gen:
+    long: ኦሪት ዘፍጥረት
+    short: ዘፍ.
+  Hab:
+    long: ትንቢተ ዕንባቆም
+    short: ዕን.
+  Hag:
+    long: ትንቢተ ሐጌ
+    short: ሐጌ
+  Heb:
+    long: ወደ ዕብራውያን የተላከ መልእክት
+    short: ዕብ.
+  Hos:
+    long: ትንቢተ ሆሴዕ
+    short: ሆሴዕ
+  Isa:
+    long: ትንቢተ ኢሳይያስ
+    short: ኢሳ.
+  Jas:
+    long: የያዕቆብ መልእክት
+    short: ያዕ.
+  Jdt:
+    long: መጽሐፈ ዮዲት
+    short: ዮዲ.
+  Jer:
+    long: ትንቢተ ኤርምያስ
+    short: ኤር.
+  Job:
+    long: መጽሐፈ ኢዮብ
+    short: ኢዮብ
+  Joel:
+    long: ትንቢተ ኢዩኤል
+    short: ኢዩ.
+  John:
+    long: የዮሐንስ ወንጌል
+    short: ዮሐ.
+  Jonah:
+    long: ትንቢተ ዮናስ
+    short: ዮና
+  Josh:
+    long: መጽሐፈ ኢያሱ
+    short: ኢያ
+  Jude:
+    long: የይሁዳ መልእክት
+    short: ይሁዳ
+  Judg:
+    long: መጽሐፈ መሳፍንት
+    short: መሳ.
+  Lam:
+    long: ሰቈቃወ ኤርምያስ
+    short: ሰቆ.ኤ.
+  Lev:
+    long: ኦሪት ዘሌዋውያን
+    short: ዘሌ.
+  Luke:
+    long: የሉቃስ ወንጌል
+    short: ሉቃ.
+  Mal:
+    long: ትንቢተ ሚልክያስ
+    short: ሚል.
+  Mark:
+    long: የማርቆስ ወንጌል
+    short: ማር.
+  Matt:
+    long: የማቴዎስ ወንጌል
+    short: ማቴ.
+  Mic:
+    long: ትንቢተ ሚክያስ
+    short: ሚክ.
+  Nah:
+    long: ትንቢተ ናሆም
+    short: ናሆ
+  Neh:
+    long: መጽሐፈ ነህምያ
+    short: ነህ.
+  Num:
+    long: ኦሪት ዘኊልቊ
+    short: ዘኍ.
+  Obad:
+    long: ትንቢተ አብድዩ
+    short: አብ.
+  Phil:
+    long: ወደ ፊልጵስዩስ ሰዎች
+    short: ፊል.
+  Phlm:
+    long: ወደ ፊልሞና
+    short: ፊልሞ.
+  Prov:
+    long: መጽሐፈ ምሳሌ
+    short: ምሳ.
+  Ps:
+    long: መዝሙር
+    short: መዝ.
+  Rev:
+    long: የዮሐንስ ራእይ
+    short: ራእ
+  Rom:
+    long: ሮሜ
+    short: ሮሜ
+  Ruth:
+    long: መጽሐፈ ሩት
+    short: ሩት
+  Sir:
+    long: መጽሐፈ ሲራክ
+    short: ሲራ.
+  Song:
+    long: መኃልየ መኃልይ
+    short: መኃ. መኃ.
+  Titus:
+    long: ወደ ቲቶ
+    short: ቲቶ
+  Tob:
+    long: መጽ​ሐፈ ጦቢት
+    short: ጦቢ.
+  Wis:
+    long: መጽሐፈ ጥበብ
+    short: ጥበ.
+  Zech:
+    long: ትንቢተ ዘካርያስ
+    short: ዘካ.
+  Zeph:
+    long: ትንቢተ ሶፎንያስ
+    short: ሶፎ.
+translations:
+  nasv:
+    1Chr:
+      short: 1ዜና
+    1Cor:
+      short: 1ቆሮ
+    1John:
+      long: 1 ዮሐንስ
+      short: 1ዮሐ
+    1Kgs:
+      short: 1ነገ
+    1Pet:
+      long: 1 ጴጥሮስ
+      short: 1ጴጥ
+    1Sam:
+      short: 1ሳሙ
+    1Thess:
+      short: 1ተሰ
+    1Tim:
+      long: 1 ጢሞቴዎስ
+      short: 1ጢሞ
+    2Chr:
+      short: 2ዜና
+    2Cor:
+      short: 2ቆሮ
+    2John:
+      long: 2 ዮሐንስ
+      short: 2ዮሐ
+    2Kgs:
+      short: 2ነገ
+    2Pet:
+      long: 2 ጴጥሮስ
+      short: 2ጴጥ
+    2Sam:
+      short: 2ሳሙ
+    2Thess:
+      short: 2ተሰ
+    2Tim:
+      long: 2 ጢሞቴዎስ
+      short: 2ጢሞ
+    3John:
+      long: 3 ዮሐንስ
+      short: 3ዮሐ
+    Acts:
+      long: ሐዋርያት ሥራ
+      short: ሐሥ
+    Amos:
+      long: አሞጽ
+      short: አሞ
+    Col:
+      short: ቈላ
+    Dan:
+      long: ዳንኤል
+    Deut:
+      long: ዘዳግም
+      short: ዘዳ
+    Eccl:
+      long: መክብብ
+      short: መክ
+    Eph:
+      long: ኤፌሶን
+      short: ኤፌ
+    Esth:
+      long: አስቴር
+    Exod:
+      long: ዘፀአት
+      short: ዘፀ
+    Ezek:
+      long: ሕዝቅኤል
+      short: ሕዝ
+    Ezra:
+      long: ዕዝራ
+      short: ዕዝ
+    Gal:
+      long: ገላትያ
+      short: ገላ
+    Gen:
+      long: ዘፍጥረት
+      short: ዘፍ
+    Hab:
+      long: ዕንባቆም
+      short: ዕን
+    Hag:
+      long: ሐጌ
+    Heb:
+      long: ዕብራውያን
+      short: ዕብ
+    Hos:
+      long: ሆሴዕ
+      short: ሆሴ
+    Isa:
+      long: ኢሳይያስ
+      short: ኢሳ
+    Jas:
+      long: ያዕቆብ
+      short: ያዕ
+    Jer:
+      long: ኤርምያስ
+      short: ኤር
+    Job:
+      long: ኢዮብ
+      short: ኢዮ
+    Joel:
+      long: ኢዩኤል
+      short: ኢዩ
+    John:
+      long: ዮሐንስ
+      short: ዮሐ
+    Jonah:
+      long: ዮናስ
+    Josh:
+      long: ኢያሱ
+    Jude:
+      long: ይሁዳ
+      short: ይሁ
+    Judg:
+      long: መሳፍንት
+      short: መሳ
+    Lam:
+      long: ሰቈቃወ
+      short: ሰቈ
+    Lev:
+      long: ዘሌዋውያን
+      short: ዘሌ
+    Luke:
+      long: ሉቃስ
+      short: ሉቃ
+    Mal:
+      long: ሚልክያስ
+      short: ሚል
+    Mark:
+      long: ማርቆስ
+      short: ማር
+    Matt:
+      long: ማቴዎስ
+      short: ማቴ
+    Mic:
+      long: ሚክያስ
+      short: ሚክ
+    Nah:
+      long: ናሆም
+    Neh:
+      long: ነህምያ
+      short: ነህ
+    Num:
+      long: ዘኍል
+      short: ዘኍ
+    Obad:
+      long: አብድዩ
+      short: አብ
+    Phil:
+      long: ፊልጵስዩስ
+      short: ፊል
+    Phlm:
+      long: ፊልሞና
+      short: ፊሞ
+    Prov:
+      long: ምሳሌ
+      short: ምሳ
+    Ps:
+      short: መዝ
+    Rev:
+      long: ራእይ
+    Ruth:
+      long: ሩት
+    Song:
+      long: ማሕልየ መሓልይ
+      short: ማሕ
+    Titus:
+      long: ቲቶ
+    Zech:
+      long: ዘካርያስ
+      short: ዘካ
+    Zeph:
+      long: ሶፎንያስ
+      short: ሶፎ
+  aced:
+    1Chr:
+      long: 1ኛ መጽሐፈ ዜና መዋዕል
+    1Cor:
+      long: 1ኛ ወደ ቆሮንቶስ ሰዎች
+    1John:
+      long: 1ኛ የዮሐንስ መልእክት
+    1Kgs:
+      long: 1ኛ መጽሐፈ ነገሥት
+    1Pet:
+      long: 1ኛ የጴጥሮስ መልእክት
+    1Sam:
+      long: 1ኛ መጽሐፈ ሳሙኤል
+    1Thess:
+      long: 1ኛ ወደ ተሰሎንቄ ሰዎች
+    1Tim:
+      long: 1ኛ ወደ ጢሞቴዎስ
+    2Chr:
+      long: 2ኛ መጽሐፈ ዜና መዋዕል
+    2Cor:
+      long: 2ኛ ወደ ቆሮንቶስ ሰዎች
+    2John:
+      long: 2ኛ የዮሐንስ መልእክት
+    2Kgs:
+      long: 2ኛ መጽሐፈ ነገሥት
+    2Pet:
+      long: 2ኛ የጴጥሮስ መልእክት
+    2Sam:
+      long: 2ኛ መጽሐፈ ሳሙኤል
+    2Thess:
+      long: 2ኛ ወደ ተሰሎንቄ ሰዎች
+    2Tim:
+      long: 2ኛ ወደ ጢሞቴዎስ
+    3John:
+      long: 3ኛ የዮሐንስ መልእክት
+    Acts:
+      short: የሐዋ.
+    Col:
+      long: ወደ ቈላስይስ ሰዎች
+      short: ቈላ.
+    Exod:
+      long: ኦሪት ዘፀአት
+    Heb:
+      long: ወደ ዕብራውያን
+    Jonah:
+      short: ዮናስ
+    Josh:
+      short: ኢያ.
+    Nah:
+      short: ናሆም
+    Num:
+      long: ኦሪት ዘኍልቊ
+    Phil:
+      short: ፊልጵ.
+    Ps:
+      long: መዝሙረ ዳዊት
+    Rev:
+      short: ራእ.
+    Rom:
+      long: ወደ ሮሜ ሰዎች
+  amh07:
+    1Chr:
+      long: መጽ​ሐፈ ዜና መዋ​ዕል ቀዳ​ማዊ
+    1Cor:
+      long: ወደ ቆሮ​ን​ቶስ ሰዎች 1
+    1John:
+      long: የዮ​ሐ​ንስ መል​እ​ክት 1
+    1Kgs:
+      long: መጽ​ሐፈ ነገ​ሥት ቀዳ​ማዊ
+    1Pet:
+      long: የጴ​ጥ​ሮስ መል​እ​ክት
+      short: 1ጴ​ጥ.
+    1Sam:
+      long: መጽ​ሐፈ ሳሙ​ኤል ቀዳ​ማዊ
+    1Thess:
+      long: ወደ ተሰ​ሎ​ንቄ ሰዎች 1
+    1Tim:
+      long: ወደ ጢሞ​ቴ​ዎስ 1
+    2Chr:
+      long: መጽ​ሐፈ ዜና መዋ​ዕል ካልእ
+    2Cor:
+      long: ወደ ቆሮ​ን​ቶስ ሰዎች 2
+    2John:
+      long: የዮ​ሐ​ንስ መእ​ል​ክት 2
+    2Kgs:
+      long: መጽ​ሐፈ ነገ​ሥት ካልእ
+    2Pet:
+      long: የጴ​ጥ​ሮስ መል​እ​ክት 2
+      short: 2ጴ​ጥ.
+    2Sam:
+      long: መጽ​ሐፈ ሳሙ​ኤል ካልእ
+    2Thess:
+      long: ወደ ተሰ​ሎ​ንቄ ሰዎች 2
+    2Tim:
+      long: ወደ ጢሞ​ቴ​ዎስ 2
+    3John:
+      long: የዮ​ሐ​ንስ መል​እ​ክት 3
+    Acts:
+      long: የሐ​ዋ​ር​ያት ሥራ
+      short: የሐዋ.
+    Amos:
+      long: ትን​ቢተ አሞጽ
+      short: አሞ.
+    Bar:
+      long: መጽ​ሐፈ ባሮክ
+    Col:
+      long: ወደ ቈላ​ስ​ይስ ሰዎች
+      short: ቈላ​.
+    Deut:
+      long: ኦሪት ዘዳ​ግም
+    Eccl:
+      long: መጽ​ሐፈ መክ​ብብ
+    Eph:
+      long: ወደ ኤፌ​ሶን ሰዎች
+    Exod:
+      long: ኦሪት ዘፀ​አት
+    Ezek:
+      long: ትን​ቢተ ሕዝ​ቅ​ኤል
+    Ezra:
+      long: መጽ​ሐፈ ዕዝራ
+    Gal:
+      long: ወደ ገላ​ትያ ሰዎች
+    Gen:
+      long: ኦሪት ዘፍ​ጥ​ረት
+    Hab:
+      long: ትን​ቢተ ዕን​ባ​ቆም
+    Hag:
+      long: ትን​ቢተ ሐጌ
+      short: ሐጌ.
+    Heb:
+      long: ወደ ዕብ​ራ​ው​ያን
+    Hos:
+      long: ትን​ቢተ ሆሴዕ
+    Isa:
+      long: ትን​ቢተ ኢሳ​ይ​ያስ
+    Jas:
+      long: የያ​ዕ​ቆብ መል​እ​ክት
+    Jdt:
+      long: መጽ​ሐፈ ዮዲት
+    Jer:
+      long: ትን​ቢተ ኤር​ም​ያስ
+    Job:
+      long: መጽ​ሐፈ ኢዮብ
+    Joel:
+      long: ትን​ቢተ ኢዩ​ኤል
+    John:
+      long: የዮ​ሐ​ንስ ወን​ጌል
+    Jonah:
+      long: ትን​ቢተ ዮናስ
+      short: ዮና.
+    Josh:
+      long: መጽ​ሐፈ ኢያሱ ወልደ ነዌ
+      short: ኢያ.
+    Jude:
+      long: የይ​ሁዳ መል​እ​ክት
+      short: ይሁዳ.
+    Judg:
+      long: መጽ​ሐፈ መሳ​ፍ​ንት
+    Lam:
+      long: ሰቆ​ቃወ ኤር​ም​ያስ ነቢይ
+      short: ሰ.ኤ.
+    Lev:
+      long: ኦሪት ዘሌ​ዋ​ው​ያን
+    Luke:
+      long: የሉ​ቃስ ወን​ጌል
+    Mal:
+      long: ትን​ቢተ ሚል​ክ​ያስ
+    Mark:
+      long: የማ​ር​ቆስ ወን​ጌል
+    Matt:
+      long: የማ​ቴ​ዎስ ወን​ጌል
+    Mic:
+      long: ትን​ቢተ ሚክ​ያስ
+    Nah:
+      long: ትን​ቢተ ናሆም
+      short: ናሆ.
+    Neh:
+      long: መጽ​ሐፈ ነህ​ምያ
+    Num:
+      long: ኦሪት ዘኍ​ልቍ
+      short: ዘኍ​.
+    Obad:
+      long: ትን​ቢተ አብ​ድዩ
+    Phil:
+      long: ወደ ፊል​ጵ​ስ​ዩስ ሰዎች
+    Phlm:
+      long: ወደ ፊል​ሞና
+    Ps:
+      long: መዝ​ሙረ ዳዊት
+    Rev:
+      long: የዮ​ሐ​ንስ ራእይ
+      short: ራእ.
+    Rom:
+      long: ወደ ሮሜ ሰዎች
+    Ruth:
+      long: መጽ​ሐፈ ሩት
+    Sir:
+      long: መጽ​ሐፈ ሲራክ
+    Song:
+      long: መሓ​ልየ መሓ​ልይ ዘሰ​ሎ​ሞን
+      short: መሓ.
+    Wis:
+      long: መጽ​ሐፈ ጥበብ
+    Zech:
+      long: ትን​ቢተ ዘካ​ር​ያስ
+    Zeph:
+      long: ትን​ቢተ ሶፎ​ን​ያስ
+  amh62:
+    1Chr:
+      long: አንደኛ መጽሐፈ ዜና መዋዕል
+    1Cor:
+      long: 1 ወደ ቆሮንቶስ ሰዎች
+    1Kgs:
+      long: አንደኛ መጽሐፈ ነገሥት
+    1Sam:
+      long: አንደኛ መጽሐፈ ሳሙኤል
+    1Thess:
+      long: 1 ተሰሎንቄ ሰዎች
+    2Chr:
+      long: ሁለተኛ መጽሐፈ ዜና መዋዕል
+    2Cor:
+      long: 2 ወደ ቆሮንቶስ ሰዎች
+    2Kgs:
+      long: ሁለተኛ መጽሐፈ ነገሥት
+    2Sam:
+      long: ሁለተኛ መጽሐፈ ሳሙኤል
+    2Thess:
+      long: 2 ተሰሎንቄ ሰዎች
+    Col:
+      long: ወደ ቆላስይስ ሰዎች
+    Dan:
+      short: ዳን.
+    Esth:
+      short: አስ.
+    Josh:
+      short: ኢያሱ
+    Phlm:
+      short: ፊልሞና
+    Rev:
+      short: ራዕ.
+    Rom:
+      long: ወደ ሮም ሰዎች
+      short: ሮም
+  amh05:
+    1Chr:
+      long: አንደኛ መጽሐፈ ዜና መዋዕል
+    1Cor:
+      long: 1 ወደ ቆሮንቶስ ሰዎች
+    1Kgs:
+      long: አንደኛ መጽሐፈ ነገሥት
+    1Sam:
+      long: አንደኛ መጽሐፈ ሳሙኤል
+    1Thess:
+      long: 1 ተሰሎንቄ ሰዎች
+    2Chr:
+      long: ሁለተኛ መጽሐፈ ዜና መዋዕል
+    2Cor:
+      long: 2 ወደ ቆሮንቶስ ሰዎች
+    2Kgs:
+      long: ሁለተኛ መጽሐፈ ነገሥት
+    2Sam:
+      long: ሁለተኛ መጽሐፈ ሳሙኤል
+    2Thess:
+      long: 2 ተሰሎንቄ ሰዎች
+    Col:
+      long: ወደ ቆላስይስ ሰዎች
+    Dan:
+      short: ዳን.
+    Esth:
+      short: አስ.
+    Jonah:
+      short: ዮናስ
+    Josh:
+      short: ኢያሱ
+    Nah:
+      short: ናሆም
+    Phlm:
+      short: ፊልሞና
+    Ps:
+      long: መጽሐፈ መዝሙር
+    Rev:
+      short: ራዕ.
+    Rom:
+      long: ወደ ሮም ሰዎች
+      short: ሮም

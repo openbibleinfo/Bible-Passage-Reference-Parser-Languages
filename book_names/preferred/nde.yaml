@@ -1,0 +1,387 @@
+default:
+  1Chr:
+    long: 1 ImiLando
+    short: 1 Lan
+  1Cor:
+    long: 1 AbaseKhorinte
+    short: 1 Kor
+  1John:
+    long: 1 KaJohane
+    short: 1 Joha
+  1Kgs:
+    long: 1 Amakhosi
+    short: 1 Kho
+  1Pet:
+    long: 1 Pet
+    short: 1 Pet
+  1Sam:
+    long: 1 Sam
+    short: 1 Sam
+  1Thess:
+    long: 1 AbaseThesalonika
+    short: 1 Tes
+  1Tim:
+    long: 1 Uthimothi
+    short: 1 Tim
+  2Chr:
+    long: 2 ImiLando
+    short: 2 Lan
+  2Cor:
+    long: 2 AbaseKhorinte
+    short: 2 Kor
+  2John:
+    long: 2 Kajohane
+    short: 2 Johane
+  2Kgs:
+    long: 2 Amakhosi
+    short: 2 Kho
+  2Pet:
+    long: 2 Pet
+    short: 2 Pet
+  2Sam:
+    long: 2 Sam
+    short: 2 Sam
+  2Thess:
+    long: 2 AbaseThesalonika
+    short: 2 Tes
+  2Tim:
+    long: 2 Uthimothi
+    short: 2 Tim
+  3John:
+    long: 3 Kajohane
+    short: 3 Johane
+  Acts:
+    long: Imisebenzi
+    short: Ims
+  Amos:
+    long: U-Amosi
+    short: Amos
+  Col:
+    long: AbaseKholose
+    short: Khl
+  Dan:
+    long: Dan
+    short: Dan
+  Deut:
+    long: Dute
+    short: Dute
+  Eccl:
+    long: UmTshumayeli
+    short: Tsh
+  Eph:
+    long: Abase-Efesu
+    short: Efe
+  Esth:
+    long: U-Esta
+    short: Est
+  Exod:
+    long: Eks
+    short: Eks
+  Ezek:
+    long: Hez
+    short: Hez
+  Ezra:
+    long: U-Ezra
+    short: Ezra
+  Gal:
+    long: AbaseGalathiya
+    short: Gal
+  Gen:
+    long: Gen
+    short: Gen
+  Hab:
+    long: Hab
+    short: Hab
+  Hag:
+    long: uHagayi
+    short: Hag
+  Heb:
+    long: AmaHebheru
+    short: Heb
+  Hos:
+    long: Hos
+    short: Hos
+  Isa:
+    long: Isa
+    short: Isa
+  Jas:
+    long: Jak
+    short: Jak
+  Jer:
+    long: Jer
+    short: Jer
+  Job:
+    long: Jobe
+    short: Job
+  Joel:
+    long: Jow
+    short: Jow
+  John:
+    long: Joha
+    short: Joh
+  Jonah:
+    long: uJona
+    short: Jon
+  Josh:
+    long: Josh
+    short: Josh
+  Jude:
+    long: uJuda
+    short: Jud
+  Judg:
+    long: AbAhluleli
+    short: Aba
+  Lam:
+    long: iZililo
+    short: Izi
+  Lev:
+    long: Levi
+    short: Lev
+  Luke:
+    long: Luka
+    short: Luk
+  Mal:
+    long: Mal
+    short: Mal
+  Mark:
+    long: Mark
+    short: Mak
+  Matt:
+    long: Mat
+    short: Mat
+  Mic:
+    long: Umikha
+    short: MiK
+  Nah:
+    long: uNahume
+    short: Nah
+  Neh:
+    long: uNehemiya
+    short: Neh
+  Num:
+    long: AmaNani
+    short: Nan
+  Obad:
+    long: U-Obhadaya
+    short: Ob
+  Phil:
+    long: AbaseFiliphi
+    short: Fil
+  Phlm:
+    long: Ufilimoni
+    short: Filim
+  Prov:
+    long: IzAga
+    short: Iza
+  Ps:
+    long: AmaHubo
+    short: Hubo
+  Rev:
+    long: IsAmbulo
+    short: Isam
+  Rom:
+    long: AbaseRoma
+    short: Rom
+  Ruth:
+    long: uRuthe
+    short: Rut
+  Song:
+    long: Ingoma
+    short: Ing
+  Titus:
+    long: Tit
+    short: Thi
+  Zech:
+    long: Uzakhariya
+    short: Zak
+  Zeph:
+    long: uZefaniya
+    short: Zef
+translations:
+  ncb:
+    1Chr:
+      short: 1Lan
+    1Cor:
+      short: 1Kor
+    1John:
+      long: 1 Ujohane
+      short: 1Jh
+    1Kgs:
+      short: 1Khs
+    1Pet:
+      long: 1 Uphethro
+      short: 1Pe
+    1Sam:
+      long: 1 Usamuyeli
+      short: 1Sa
+    1Thess:
+      short: 1The
+    1Tim:
+      short: 1Ti
+    2Chr:
+      short: 2Lan
+    2Cor:
+      short: 2Kor
+    2John:
+      long: 2 Ujohane
+      short: 2Jh
+    2Kgs:
+      short: 2Khs
+    2Pet:
+      long: 2 Uphethro
+      short: 2Pe
+    2Sam:
+      long: 2 Usamuyeli
+      short: 2Sa
+    2Thess:
+      short: 2The
+    2Tim:
+      short: 2Ti
+    3John:
+      long: 3 Ujohane
+      short: 3Jh
+    Amos:
+      short: Ams
+    Dan:
+      long: Udanyeli
+    Deut:
+      long: Udutheronomi
+      short: Duth
+    Exod:
+      long: U-Eksodasi
+    Ezek:
+      long: Uhezekhiyeli
+    Gen:
+      long: Ugenesisi
+    Hab:
+      long: Uhabhakhukhi
+    Hos:
+      long: Uhosiya
+    Isa:
+      long: U-Isaya
+    Jas:
+      long: Ujakhobe
+    Jer:
+      long: Ujeremiya
+    Job:
+      long: Ujobe
+    Joel:
+      long: Ujoweli
+    John:
+      long: Ujohane
+    Josh:
+      long: Ujoshuwa
+    Lev:
+      long: Ulevi
+    Luke:
+      long: Ulukha
+    Mal:
+      long: uMalaki
+    Mark:
+      long: Umakho
+    Matt:
+      long: Umatewu
+    Phil:
+      short: Flp
+    Phlm:
+      short: Flm
+    Rev:
+      short: Isb
+    Titus:
+      long: Uthithu
+  be1978:
+    1Chr:
+      long: 1 Lan
+    1Cor:
+      long: 1 Kor
+    1Kgs:
+      long: 1 Kho
+    1Thess:
+      long: 1 Kwabasetesalonika
+    1Tim:
+      long: 1 uTimothi
+    2Chr:
+      long: 2 Lan
+    2Cor:
+      long: 2 Kor
+    2Kgs:
+      long: 2 Kho
+    2Thess:
+      long: 2 Kwabasetesalonika
+    2Tim:
+      long: 2 uTimothi
+    Acts:
+      long: Seb
+      short: Seb
+    Amos:
+      long: uAmosi
+    Col:
+      long: Kol
+      short: Kol
+    Eccl:
+      short: Tshu
+    Eph:
+      long: Efe
+    Esth:
+      long: uEsta
+      short: Esta
+    Ezra:
+      long: uEzra
+    Gal:
+      long: Gal
+    Heb:
+      long: Heb
+    Job:
+      short: Jobe
+    John:
+      short: Joha
+    Jonah:
+      short: Jona
+    Jude:
+      short: Juda
+    Judg:
+      long: Hlu
+      short: Hlu
+    Lam:
+      short: Lilo
+    Lev:
+      short: Levi
+    Luke:
+      short: Luka
+    Mark:
+      short: Mark
+    Mic:
+      long: uMika
+      short: Mika
+    Neh:
+      long: uNehimiya
+    Num:
+      long: Nani
+      short: Nani
+    Obad:
+      long: uObadiya
+      short: Obad
+    Phil:
+      long: KwabaseFiliphi
+    Phlm:
+      long: kuFilimoni
+    Prov:
+      long: Zaga
+      short: Zaga
+    Ps:
+      long: Hubo
+    Rev:
+      long: Isam
+    Rom:
+      long: Roma
+      short: Roma
+    Ruth:
+      short: Ruthe
+    Song:
+      long: Ingoma Yezingoma
+      short: Ngoma
+    Titus:
+      short: Tit
+    Zech:
+      long: Zek
+      short: Zek

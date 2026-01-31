@@ -1,0 +1,414 @@
+variables:
+  first: &first
+    - "1"
+    - I
+    - I.
+  second: &second
+    - "2"
+    - II
+    - II.
+books:
+  - osis: Gen
+    texts:
+      - Genesis
+      - Gen
+  - osis: Exod
+    texts:
+      - Ecsodus
+      - Ecs
+  - osis: Bel
+    texts:
+      - Bhel Agus An Dragoin
+  - osis: Lev
+    texts:
+      - Lebhiticus
+      - Lebh
+  - osis: Num
+    texts:
+      - Àireamh
+      - Àir
+  - osis: Sir
+    texts:
+      - Ecclesiasticus
+  - osis: Wis
+    texts:
+      - Gliocas Sholaimh
+  - osis: Lam
+    texts:
+      - Tuireadh Ieremiah
+      - Tuireadh
+      - Tuir.
+      - Tuir
+  - osis: Rev
+    texts:
+      - Taisbeanandh
+      - Taisbeanadh
+      - Taisb.
+      - Tais.
+      - Tais
+  - osis: PrMan
+    texts:
+      - Urnuigh Mhanasseis.
+      - Urnuigh Mhanasseis
+  - osis: Deut
+    texts:
+      - Deuteronomi
+      - Deut
+  - osis: Josh
+    texts:
+      - Iosua
+      - Ios
+  - osis: Judg
+    texts:
+      - Britheamhan
+      - Bri
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis:
+      - osis: 1Esd
+        before: *first
+      - osis: 2Esd
+        before: *second
+    texts:
+      - Esdras
+  - osis: Isa
+    texts:
+      - Isaiah
+      - Isa
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Rìgh
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Eachdraidh
+      - Each
+  - osis: Ezra
+    texts:
+      - Esra
+  - osis: Neh
+    texts:
+      - Nehemiah
+      - Neh
+  - osis: Esth
+    texts:
+      - Esteir
+      - Est
+  - osis: Job
+    texts:
+      - Iob
+  - osis: Ps
+    texts:
+      - Sailm Dhaibhidh
+      - Sailm
+      - Salm
+  - osis: Prov
+    texts:
+      - Gnàth-fhacal
+      - Gnath-fhocal
+      - Gnàth‐fhacal
+      - Gnath-fhoc
+      - Gnà
+  - osis: Eccl
+    texts:
+      - Eclesiastes
+      - Ecles.
+      - Ecl
+  - osis: SgThree
+    texts:
+      - Oran An Triuir Chloinne Naoma
+  - osis: Song
+    texts:
+      - Dàn Sholaimh
+      - DànShol
+  - osis: Jer
+    texts:
+      - Ieremiah
+      - Ier
+  - osis: Ezek
+    texts:
+      - Eseciel
+      - Esec
+  - osis: Dan
+    texts:
+      - Daniel
+  - osis: Hos
+    texts:
+      - Hosea
+      - Hosèa
+      - Hos
+  - osis: Joel
+    texts:
+      - Ioel
+  - osis: Amos
+    texts:
+      - Amos
+  - osis: Obad
+    texts:
+      - Obadiah
+      - Obad
+  - osis: Jonah
+    texts:
+      - Ionah
+      - Ion
+  - osis: Mic
+    texts:
+      - Micah
+      - Mic
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habacuc
+      - Habac.
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sephaniah
+      - Seph
+  - osis: Hag
+    texts:
+      - Hagai
+      - Hag
+  - osis: Zech
+    texts:
+      - Sechariah
+      - Sech
+  - osis: Mal
+    texts:
+      - Malachi
+      - Mal
+  - osis: Matt
+    texts:
+      - Soisgeul Mhata
+      - N. Matu
+      - Mat.
+      - Mata
+      - Matu
+      - Mat
+  - osis: Mark
+    texts:
+      - N. Marc
+      - Marcas
+      - Marcus
+      - Marc
+  - osis: Luke
+    texts:
+      - Soisgeul Lucais
+      - N. Luc
+      - Lùcas
+      - Luc.
+      - Luc
+      - Lùc
+  - osis: 3John
+    texts:
+      - III Eoin
+      - 3 Eoin
+      - 3 Eòin
+  - osis: John
+    texts:
+      - Soisgeul Eòin
+      - N. Eoin
+      - Eoin
+      - Eòin
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Eoin
+      - Eòin
+  - osis: Acts
+    texts:
+      - Gnìomharan
+      - Gniomhan
+      - Gnìomhan
+      - Gniomh.
+      - Gnìomh.
+      - Gnìo
+  - osis: Rom
+    texts:
+      - Romanaich
+      - Ròmanaich
+      - Ròmanach
+      - Rom.
+      - Ròm.
+      - Ròm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corintianaich
+      - Corintianach
+      - Chorint
+      - Chor.
+      - Cor.
+      - Cor
+  - osis: Col
+    texts:
+      - Colosianaich
+      - Colosianach
+      - Cholosse
+      - Col.
+      - Col
+  - osis: Gal
+    texts:
+      - Galàtianaich
+      - Galàtianach
+      - Ghalatia
+      - Gal.
+      - Gal
+  - osis: Eph
+    texts:
+      - Ephèsianaich
+      - Ephèsianach
+      - Ephesuis
+      - Eph.
+      - Eph
+  - osis: Phil
+    texts:
+      - Philipianaich
+      - Philipianach
+      - Philippi
+      - Philip.
+      - Philip
+      - Phil.
+      - Phil
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Tesalònianaich
+      - Tesalònianach
+      - Thessalonica
+      - Tesal.
+      - Thess.
+      - Tes.
+      - Tes
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalònianaich
+      - Tesalònianach
+      - Thessalonica
+      - Thess.
+      - Tes.
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Timòteus
+      - Thimoti
+      - Thim.
+      - Tim.
+      - Tim
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timòteus
+      - Timoti
+      - Tim.
+      - Tim
+  - osis: Titus
+    texts:
+      - Titus
+      - Tìtus
+      - Tìt.
+      - Tìt
+  - osis: Phlm
+    texts:
+      - Philemoin
+      - Philemon
+      - Philèmon
+      - Philem.
+      - Philem
+      - Phlm
+  - osis: Heb
+    texts:
+      - Eabhraidhich
+      - H-eabhraich
+      - Eabhraich
+      - Eabhr.
+      - Eabh.
+      - Eabh
+  - osis: Jas
+    texts:
+      - Sheumais
+      - Seumas
+      - Seum.
+      - Seum
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pheadar
+      - Peadar
+      - Phead.
+      - Pead.
+      - Pead
+  - osis: Jude
+    texts:
+      - Iùdais
+      - Iùdas
+      - Iùd.
+      - Iuda
+      - Iùd
+  - osis: Tob
+    texts:
+      - Tobit
+  - osis: Jdt
+    texts:
+      - Iudit
+  - osis: Bar
+    texts:
+      - Baruc
+  - osis: Sus
+    texts:
+      - Susanna
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+    texts:
+      - Maccabeach
+  - osis: EsthGr
+    texts:
+      - Ester
+translations:
+  - ABG1992
+  - ABIG
+  - ATN
+  - GLD
+  - MACGAP
+  - LSN1987
+  - SD1694
+  - SD1826
+  - SD1992
+  - MACETN

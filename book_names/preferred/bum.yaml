@@ -1,0 +1,383 @@
+default:
+  1Chr:
+    long: 1 Minkte
+    short: 1 Minkte
+  1Cor:
+    long: 1 Ko
+    short: 1 Ko
+  1John:
+    long: 1 Jn
+    short: 1 Jn
+  1Kgs:
+    long: 1 Bb.
+    short: 1 Bb
+  1Macc:
+    long: 1 Mak
+    short: 1 Mak
+  1Pet:
+    long: 1 Pi
+    short: 1 Pi
+  1Sam:
+    long: 1 S
+    short: 1 S
+  1Thess:
+    long: 1 Tes
+    short: 1 Tes
+  1Tim:
+    long: 1 Tim
+    short: 1 Tim
+  2Chr:
+    long: 2 Minkte
+    short: 2 Minkte
+  2Cor:
+    long: 2 Ko
+    short: 2 Ko
+  2John:
+    long: 2 Jn
+    short: 2 Jn
+  2Kgs:
+    long: 2 Bb.
+    short: 2 Bb
+  2Macc:
+    long: 2 Mak
+    short: 2 Mak
+  2Pet:
+    long: 2 Pi
+    short: 2 Pi
+  2Sam:
+    long: 2 S
+    short: 2 S
+  2Thess:
+    long: 2 Tes
+    short: 2 Tes
+  2Tim:
+    long: 2 Tim
+    short: 2 Tim
+  3John:
+    long: 3 Jn
+    short: 3 Jn
+  Acts:
+    long: Mimboone Minlôman
+    short: Mm
+  Amos:
+    long: Am
+    short: Am
+  Bar:
+    long: Bak
+    short: Bak
+  Bel:
+    long: Bel A Nyo
+    short: Bel A Nyo
+  Col:
+    long: Kôl
+    short: Kôl
+  Dan:
+    long: Daniel
+    short: Dn
+  Deut:
+    long: Deuteronome
+    short: Dt
+  Eccl:
+    long: Ekl
+    short: Ekl
+  EpJer:
+    long: Lyer
+    short: Lyer
+  Eph:
+    long: Ef
+    short: Ef
+  Esth:
+    long: Est
+    short: Est
+  EsthGr:
+    long: EstG
+    short: EstG
+  Exod:
+    long: Nk
+    short: Nk
+  Ezek:
+    long: Eze
+    short: Eze
+  Ezra:
+    long: Esd
+    short: Esd
+  Gal:
+    long: Ga
+    short: Ga
+  Gen:
+    long: Kalate Metataʼa
+    short: Met
+  Hab:
+    long: Ha
+    short: Ha
+  Hag:
+    long: Ag
+    short: Ag
+  Heb:
+    long: Hé
+    short: Hé
+  Hos:
+    long: Oz
+    short: Oz
+  Isa:
+    long: Eza
+    short: Eza
+  Jas:
+    long: Yak
+    short: Yak
+  Jdt:
+    long: Yd
+    short: Yd
+  Jer:
+    long: Yer
+    short: Yer
+  Job:
+    long: Yb
+    short: Yb
+  Joel:
+    long: Yo
+    short: Yo
+  John:
+    long: Yoa
+    short: Yoa
+  Jonah:
+    long: Yon
+    short: Yon
+  Josh:
+    long: Yas.
+    short: Yas
+  Jude:
+    long: Yud
+    short: Yud
+  Judg:
+    long: Betyiʼi Mejô
+    short: Bm
+  Lam:
+    long: Miny
+    short: Min
+  Lev:
+    long: Levitik
+    short: Lv
+  Luke:
+    long: Lk
+    short: Lk
+  Mal:
+    long: Mal
+    short: Mal
+  Mark:
+    long: Markus
+    short: Mk
+  Matt:
+    long: Metias
+    short: Mt
+  Mic:
+    long: MiK
+    short: MiK
+  Nah:
+    long: Nah
+    short: Nah
+  Neh:
+    long: Neh
+    short: Neh
+  Num:
+    long: Nlañane Bôt
+    short: Nb.
+  Obad:
+    long: Abd
+    short: Abd
+  Phil:
+    long: Fil
+    short: Fil
+  Phlm:
+    long: Filemoñ
+    short: Film
+  PrAzar:
+    long: Dagr
+    short: Dagr
+  Prov:
+    long: Mink
+    short: Mink
+  Ps:
+    long: Besam
+    short: Sam
+  Rev:
+    long: Nli
+    short: Nli
+  Rom:
+    long: Berômeñ
+    short: Rm
+  Ruth:
+    long: Rt
+    short: Rt
+  Sir:
+    long: Sir
+    short: Sir
+  Song:
+    long: Jia Ja Dañ Abeñ
+    short: So
+  Sus:
+    long: Suzane
+    short: Suzane
+  Titus:
+    long: Tite
+    short: Tt
+  Tob:
+    long: Tob
+    short: Tob
+  Wis:
+    long: Fek
+    short: Fek
+  Zech:
+    long: Zak
+    short: Zak
+  Zeph:
+    long: Sof
+    short: Sof
+translations:
+  bulu09:
+    1Chr:
+      long: Minkañete Ôsu
+    1Cor:
+      long: Koréñt Ôsu
+    1John:
+      long: Jean Ôsu
+    1Kgs:
+      long: Bejô Bôt Ôsu
+    1Pet:
+      long: Pierre Ôsu
+    1Sam:
+      long: Samuel Ôsu
+    1Thess:
+      long: Tésalonik Ôsu
+    1Tim:
+      long: Timôté Ôsu
+    2Chr:
+      long: Minkañete Baa
+    2Cor:
+      long: Koréñt Baa
+    2John:
+      long: Jean Baa
+    2Kgs:
+      long: Bejô Bôte Baa
+    2Pet:
+      long: Pierre Baa
+    2Sam:
+      long: Samuel Baa
+    2Thess:
+      long: Tésalonik Baa
+    2Tim:
+      long: Timôté Baa
+    3John:
+      long: Jean Lale
+    Amos:
+      long: Amôs
+    Col:
+      long: Kôlôs
+    Eccl:
+      long: Ekleziaste
+    Eph:
+      long: Efeze
+    Esth:
+      long: Esthe
+    Exod:
+      long: Nkôlan
+    Ezek:
+      long: Ezekiel
+    Ezra:
+      long: Esdras
+    Gal:
+      long: Galati
+    Hab:
+      long: Habakuk
+    Hag:
+      long: Agé
+    Heb:
+      long: Hébre
+    Hos:
+      long: Oze
+    Isa:
+      long: Ezayi
+    Jas:
+      long: Yakob
+    Jer:
+      long: Yeremia
+    Job:
+      long: Yob
+    Joel:
+      long: Yoel
+    John:
+      long: Yoanes
+    Jonah:
+      long: Yona
+    Josh:
+      long: Yasua
+    Jude:
+      long: Yude
+    Lam:
+      long: Minyôn
+      short: Miny
+    Luke:
+      long: Lukas
+    Mal:
+      long: Malaki
+    Mic:
+      long: Miké
+    Nah:
+      long: Nahum
+    Neh:
+      long: Nehemie
+    Num:
+      short: Nlb
+    Obad:
+      long: Abdias
+    Phil:
+      long: Filip
+    Prov:
+      long: Minkana
+    Rev:
+      long: Nlitan
+    Ruth:
+      long: Rut
+    Zech:
+      long: Zakari
+    Zeph:
+      long: Sofoni
+  bdcb:
+    1Kgs:
+      short: 1 Bb.
+    2Kgs:
+      short: 2 Bb.
+    Acts:
+      long: Mm
+    Dan:
+      long: Dn
+    Deut:
+      long: Dt
+      short: Dt.
+    Gen:
+      long: Met
+    Josh:
+      short: Yas.
+    Judg:
+      long: Bm
+    Lev:
+      long: Lv.
+      short: Lv.
+    Mark:
+      long: Mk
+    Matt:
+      long: Mt
+    Neh:
+      short: Né
+    Num:
+      long: Nlb
+    Phlm:
+      long: Film
+    Ps:
+      long: Sam
+    Rom:
+      long: Rm
+    Song:
+      long: So
+    Titus:
+      long: Tt

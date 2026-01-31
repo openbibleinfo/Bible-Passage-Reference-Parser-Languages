@@ -1,0 +1,444 @@
+- osis: Gen
+  texts:
+    - Chhòng-sè-kì
+    - Chhòng
+    - 創世記
+    - 創
+- osis: Exod
+  texts:
+    - Chhut-ai-ki̍p-kì
+    - Chhut
+    - 出埃及記
+    - 出
+- osis: Lev
+  texts:
+    - Lī-bī-kì
+    - 利未記
+    - Lī
+    - 利
+- osis: Num
+  texts:
+    - Bîn-sò͘-kì
+    - Bîn
+    - 民數記
+    - 民
+- osis: Lam
+  texts:
+    - Ai-ko
+    - Ai
+    - 哀歌
+    - 哀
+- osis: Rev
+  texts:
+    - Khé-sī-lio̍k
+    - Khé
+    - 啟示錄
+    - 啟
+- osis: Deut
+  texts:
+    - Sin-bēng-kì
+    - Sin
+    - 申命記
+    - 申
+- osis: Josh
+  texts:
+    - Iok-su-a-kì
+    - 約書亞記
+    - Su
+    - 書
+- osis: Judg
+  texts:
+    - Sū-su-kì
+    - 士師記
+    - Sū
+    - 士
+- osis: Ruth
+  texts:
+    - Lō͘-tek-kì
+    - Tek
+    - 路得記
+    - 得
+- osis: Isa
+  texts:
+    - Í-sài-a-su
+    - 以賽亞書
+    - Sài
+    - 賽
+- osis: 1Sam
+  texts:
+    - 1 Sat
+    - 1. Sat
+- osis: 2Sam
+  texts:
+    - 2 Sat
+    - 2. Sat
+- osis: 1Sam
+  texts:
+    - Sat-bó-ní-kì Siōng-koàn
+    - 撒母耳記上卷
+    - 撒上
+- osis: 2Sam
+  texts:
+    - Sat-bó-ní-kì Hā-koàn
+    - 撒母耳記下卷
+    - 撒下
+- osis: 1Kgs
+  texts:
+    - 1 Ông
+    - 1. Ông
+- osis: 2Kgs
+  texts:
+    - 2 Ông
+    - 2. Ông
+- osis: 1Kgs
+  texts:
+    - Lia̍t-ông-kì Siōng-koàn
+    - 列王紀上卷
+    - 王上
+- osis: 2Kgs
+  texts:
+    - Lia̍t-ông-kì Hā-koàn
+    - 列王紀下卷
+    - 王下
+- osis: 1Chr
+  texts:
+    - 1 Tāi
+    - 1. Tāi
+- osis: 2Chr
+  texts:
+    - 2 Tāi
+    - 2. Tāi
+- osis: 1Chr
+  texts:
+    - Le̍k-tāi-chì Siōng-koàn
+    - 歷代志上卷
+    - 代上
+- osis: 2Chr
+  texts:
+    - Le̍k-tāi-chì Hā-koàn
+    - 歷代志下卷
+    - 代下
+- osis: Ezra
+  texts:
+    - Í-su-la-kì
+    - 以斯拉記
+    - La
+    - 拉
+- osis: Neh
+  texts:
+    - Nî-hi-bí-kì
+    - 尼希米記
+    - Nî
+    - 尼
+- osis: Esth
+  texts:
+    - Í-su-thiap-kì
+    - Su&3
+    - 以斯帖記
+    - 斯
+- osis: Job
+  texts:
+    - Iok-pek-kì
+    - Pek
+    - 約伯記
+    - 伯
+- osis: Ps
+  texts:
+    - Si-phian
+    - Si
+    - 詩篇
+    - 詩
+- osis: Prov
+  texts:
+    - Chim-giân
+    - Chim
+    - 箴言
+    - 箴
+- osis: Eccl
+  texts:
+    - Thoân-tō-su
+    - Thoân
+    - 傳道書
+    - 傳
+- osis: Song
+  texts:
+    - Ngá-ko
+    - Ko
+    - 雅歌
+    - 歌
+- osis: Jer
+  texts:
+    - Iâ-lī-bí-su
+    - 耶利米書
+    - Iâ
+    - 耶
+- osis: Ezek
+  texts:
+    - Í-se-kiat-su
+    - Kiat
+    - 以西結書
+    - 結
+- osis: Dan
+  texts:
+    - Tān-í-lí-su
+    - 但以理書
+    - Tān
+    - 但
+- osis: Hos
+  texts:
+    - Hô-se-a-su
+    - 何西阿書
+    - Hô
+    - 何
+- osis: Joel
+  texts:
+    - Iok-ní-su
+    - 約珥書
+    - Ní
+    - 珥
+- osis: Amos
+  texts:
+    - A-mô͘-sū-su
+    - 阿摩司書
+    - Mô͘
+    - 摩
+- osis: Obad
+  texts:
+    - Gô-pa-tí-a-su
+    - 俄巴底亞書
+    - Gô
+    - 俄
+- osis: Jonah
+  texts:
+    - Iok-ná-su
+    - 約拿書
+    - Ná
+    - 拿
+- osis: Mic
+  texts:
+    - Bí-ka-su
+    - 彌迦書
+    - Bí
+    - 彌
+- osis: Nah
+  texts:
+    - Ná-hông-su
+    - Hông
+    - 那鴻書
+    - 鴻
+- osis: Hab
+  texts:
+    - Hap-pa-kok-su
+    - 哈巴谷書
+    - Hap
+    - 哈
+- osis: Zeph
+  texts:
+    - Se-hoan-ngá-su
+    - Hoan
+    - 西番雅書
+    - 番
+- osis: Hag
+  texts:
+    - Hap-kai-su
+    - Kai
+    - 哈該書
+    - 該
+- osis: Zech
+  texts:
+    - Sat-ka-lī-a-su
+    - 撒迦利亞書
+    - A
+    - 亞
+- osis: Mal
+  texts:
+    - Má-la-ki-su
+    - 瑪拉基書
+    - Má
+    - 瑪
+- osis: Matt
+  texts:
+    - Má-thài Hok-im
+    - Thài
+    - 馬太福音
+    - 太
+- osis: Mark
+  texts:
+    - Má-khó Hok-im
+    - 馬可福音
+    - Khó
+    - 可
+- osis: Luke
+  texts:
+    - Lō͘-ka Hok-im
+    - 路加福音
+    - Lō͘
+    - 路
+- osis: 1John
+  texts:
+    - Iok-hān It-su
+    - 約翰一書
+    - 約壹
+- osis: 2John
+  texts:
+    - Iok-hān Jī-su
+    - 約翰二書
+    - 約貳
+- osis: 3John
+  texts:
+    - Iok-hān Sam-su
+    - 3 Iok
+    - 約翰三書
+    - 約參
+- osis: 1John
+  texts:
+    - 1 Iok
+    - 1. Iok
+- osis: 2John
+  texts:
+    - 2 Iok
+    - 2. Iok
+- osis: John
+  texts:
+    - Iok-hān Hok-im
+    - 約翰福音
+    - Iok
+    - 約
+- osis: Acts
+  texts:
+    - Sù-tô͘ Hēng-toān
+    - 使徒行傳
+    - Tô͘
+    - 徒
+- osis: Rom
+  texts:
+    - Lô-má-su
+    - 羅馬書
+    - Lô
+    - 羅
+- osis: 1Cor
+  texts:
+    - 1 Lîm
+    - 1. Lîm
+- osis: 2Cor
+  texts:
+    - 2 Lîm
+    - 2. Lîm
+- osis: 1Cor
+  texts:
+    - Ko-lîm-to Chiân-su
+    - 哥林多前書
+    - 林前
+- osis: 2Cor
+  texts:
+    - Ko-lîm-to Hō͘-su
+    - 哥林多後書
+    - 林後
+- osis: Col
+  texts:
+    - Ko-lô-se-su
+    - 歌羅西書
+    - Se
+    - 西
+- osis: Gal
+  texts:
+    - Ka-lia̍p-thài-su
+    - 加拉太書
+    - Ka
+    - 加
+- osis: Eph
+  texts:
+    - Í-hut-só͘-su
+    - 以弗所書
+    - Hut
+    - 弗
+- osis: Phil
+  texts:
+    - Hui-li̍p-pí-su
+    - 腓立比書
+    - Hui
+    - 腓
+- osis: 1Thess
+  texts:
+    - 1 Thiap
+    - 1. Thiap
+- osis: 2Thess
+  texts:
+    - 2 Thiap
+    - 2. Thiap
+- osis: 1Thess
+  texts:
+    - Thiap-sat-lô-nî-ka Chiân-su
+    - 帖撒羅尼迦前書
+    - 帖前
+- osis: 2Thess
+  texts:
+    - Thiap-sat-lô-nî-ka Hō͘-su
+    - 帖撒羅尼迦後書
+    - 帖後
+- osis: 1Tim
+  texts:
+    - 1 Thê
+    - 1. Thê
+- osis: 2Tim
+  texts:
+    - 2 Thê
+    - 2. Thê
+- osis: 1Tim
+  texts:
+    - Thê-mô͘-thài Chiân-su
+    - 提摩太前書
+    - 提前
+- osis: 2Tim
+  texts:
+    - Thê-mô͘-thài Hō͘-su
+    - 提摩太後書
+    - 提後
+- osis: Titus
+  texts:
+    - Thê-to-su
+    - 提多書
+    - To
+    - 多
+- osis: Phlm
+  texts:
+    - Hui-lī-bûn-su
+    - 腓利門書
+    - Bûn
+    - 門
+- osis: Heb
+  texts:
+    - Hi-pek-lâi-su
+    - 希伯來書
+    - Lâi
+    - 來
+- osis: Jas
+  texts:
+    - Ngá-kok-su
+    - Ngá
+    - 雅各書
+    - 雅
+- osis: 1Pet
+  texts:
+    - 1 Pí
+    - 1. Pí
+- osis: 2Pet
+  texts:
+    - 2 Pí
+    - 2. Pí
+- osis: 1Pet
+  texts:
+    - Pí-tek Chiân-su
+    - 彼得前書
+    - 彼前
+- osis: 2Pet
+  texts:
+    - Pí-tek Hō͘-su
+    - 彼得後書
+    - 彼後
+- osis: Jude
+  texts:
+    - Iû-tāi-su
+    - 猶大書
+    - Iû
+    - 猶

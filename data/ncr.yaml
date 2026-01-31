@@ -1,0 +1,135 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Mwɛɛ mù Jiso gɛ̀ dunyɛ
+      - Mwd
+  - osis: Matt
+    texts:
+      - Macho
+      - Mch
+  - osis: Mark
+    texts:
+      - Maliku
+      - Mlk
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Jo
+  - osis: 2John
+    texts:
+      - 2Jo
+  - osis: 3John
+    texts:
+      - 3 Joŋ
+      - 3Jo
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Joŋ
+  - osis: Acts
+    texts:
+      - Lɛme
+      - Lɛm
+  - osis: Rom
+    texts:
+      - Lum
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kolɛŋ
+  - osis: 1Cor
+    texts:
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - 2Ko
+  - osis: Col
+    texts:
+      - Kolose
+      - Kol
+  - osis: Gal
+    texts:
+      - Galɛshiaŋ
+      - Gal
+  - osis: Eph
+    texts:
+      - Ɛfɛsu
+      - Ɛfɛ
+  - osis: Phil
+    texts:
+      - Filibi
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tɛsalonika
+  - osis: 1Thess
+    texts:
+      - 1Tɛ
+  - osis: 2Thess
+    texts:
+      - 2Tɛ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Taytu
+      - Tay
+  - osis: Phlm
+    texts:
+      - Filemu
+      - Flm
+  - osis: Heb
+    texts:
+      - Ibulu
+      - Ibu
+  - osis: Jas
+    texts:
+      - Jɛm
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Bita
+  - osis: 1Pet
+    texts:
+      - 1Bi
+  - osis: 2Pet
+    texts:
+      - 2Bi
+  - osis: Jude
+    texts:
+      - Jud
+translations:
+  - NCR

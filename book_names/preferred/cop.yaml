@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: Ⲡⲣⲟⲥ Ⲕⲟⲣⲓⲛⲑⲓⲟⲥ ⲁ̅
+    short: Ⲡⲣⲟⲥ Ⲕⲟⲣⲓⲛⲑⲓⲟⲥ ⲁ̅
+  1John:
+    long: Ⲓⲱⲁⲛⲛⲏⲥ ⲁ̅
+    short: Ⲓⲱⲁⲛⲛⲏⲥ ⲁ̅
+  1Pet:
+    long: Ⲡⲉⲧⲣⲟⲥ ⲁ̅
+    short: Ⲡⲉⲧⲣⲟⲥ ⲁ̅
+  1Thess:
+    long: Ⲡⲣⲟⲥ Ⲑⲉⲥⲥⲁⲕⲟⲛⲓⲏⲏ ⲁ̅
+    short: Ⲡⲣⲟⲥ Ⲑⲉⲥⲥⲁⲕⲟⲛⲓⲏⲏ ⲁ̅
+  1Tim:
+    long: Ⲡⲣⲟⲥ Ⲧⲓⲙⲟⲑⲉⲟⲥ ⲁ̅
+    short: Ⲡⲣⲟⲥ Ⲧⲓⲙⲟⲑⲉⲟⲥ ⲁ̅
+  2Cor:
+    long: Ⲡⲣⲟⲥ Ⲕⲟⲣⲓⲛⲑⲓⲟⲥ ⲃ̅
+    short: Ⲡⲣⲟⲥ Ⲕⲟⲣⲓⲛⲑⲓⲟⲥ ⲃ̅
+  2John:
+    long: Ⲓⲱⲁⲛⲛⲏⲥ ⲃ̅
+    short: Ⲓⲱⲁⲛⲛⲏⲥ ⲃ̅
+  2Pet:
+    long: Ⲡⲉⲧⲣⲟⲥ ⲃ̅
+    short: Ⲡⲉⲧⲣⲟⲥ ⲃ̅
+  2Thess:
+    long: Ⲡⲣⲟⲥ Ⲑⲉⲥⲥⲁⲕⲟⲛⲓⲏⲏ ⲃ̅
+    short: Ⲡⲣⲟⲥ Ⲑⲉⲥⲥⲁⲕⲟⲛⲓⲏⲏ ⲃ̅
+  2Tim:
+    long: Ⲡⲣⲟⲥ Ⲧⲓⲙⲟⲑⲉⲟⲥ ⲃ̅
+    short: Ⲡⲣⲟⲥ Ⲧⲓⲙⲟⲑⲉⲟⲥ ⲃ̅
+  3John:
+    long: Ⲓⲱⲁⲛⲛⲏⲥ ⲅ̅
+    short: Ⲓⲱⲁⲛⲛⲏⲥ ⲅ̅
+  Acts:
+    long: Ⲛⲓⲡ̀ⲣⲁⲝⲓⲥ
+    short: Ⲛⲓⲡ̀ⲣⲁⲝⲓⲥ
+  Col:
+    long: Ⲡⲣⲟⲥ Ⲕⲟⲕⲁⲥⲥⲓⲁⲥ
+    short: Ⲡⲣⲟⲥ Ⲕⲟⲕⲁⲥⲥⲓⲁⲥ
+  Eph:
+    long: Ⲡⲣⲟⲥ Ⲉ̇ⲫⲉⲥⲓⲟⲩⲥ
+    short: Ⲡⲣⲟⲥ Ⲉ̇ⲫⲉⲥⲓⲟⲩⲥ
+  Gal:
+    long: Ⲡⲣⲟⲥ Ⲅⲁⲕⲁⲧⲏⲥ
+    short: Ⲡⲣⲟⲥ Ⲅⲁⲕⲁⲧⲏⲥ
+  Heb:
+    long: Ⲡⲣⲟⲥ Ϩⲉⲃⲣⲉⲟⲥ
+    short: Ⲡⲣⲟⲥ Ϩⲉⲃⲣⲉⲟⲥ
+  Jas:
+    long: Ⲓⲁⲕⲱⲃⲟⲥ
+    short: Ⲓⲁⲕⲱⲃⲟⲥ
+  John:
+    long: Ⲓⲱⲁⲛⲛⲏⲛ
+    short: Ⲓⲱⲁⲛⲛⲏⲛ
+  Jude:
+    long: Ⲓⲟⲩⲇⲁⲥ
+    short: Ⲓⲟⲩⲇⲁⲥ
+  Luke:
+    long: Ⲗⲟⲩⲕⲁⲛ
+    short: Ⲗⲟⲩⲕⲁⲛ
+  Mark:
+    long: Ⲙⲁⲣⲕⲟⲛ
+    short: Ⲙⲁⲣⲕⲟⲛ
+  Matt:
+    long: Ⲙⲁⲧⲑⲉⲟⲛ
+    short: Ⲙⲁⲧⲑⲉⲟⲛ
+  Phil:
+    long: Ⲡⲣⲟⲥ Ⲫⲓⲕⲓⲡⲡⲟⲓⲥ
+    short: Ⲡⲣⲟⲥ Ⲫⲓⲕⲓⲡⲡⲟⲓⲥ
+  Phlm:
+    long: Ⲡⲣⲟⲥ Ⲫⲓⲗⲏⲙⲱⲛ
+    short: Ⲡⲣⲟⲥ Ⲫⲓⲗⲏⲙⲱⲛ
+  Rev:
+    long: Ϯⲁ̀ⲡⲟⲕⲁⲗⲩⲙⲯⲓⲥ
+    short: Ϯⲁ̀ⲡⲟⲕⲁⲗⲩⲙⲯⲓⲥ
+  Rom:
+    long: Ⲡⲣⲟⲥ Ⲣⲱⲙⲉⲟⲥ
+    short: Ⲡⲣⲟⲥ Ⲣⲱⲙⲉⲟⲥ
+  Titus:
+    long: Ⲡⲣⲟⲥ Ⲧⲓⲧⲟⲥ
+    short: Ⲡⲣⲟⲥ Ⲧⲓⲧⲟⲥ

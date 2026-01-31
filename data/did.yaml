@@ -1,0 +1,157 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - ꞌThianaattõ
+      - Tt
+  - osis: Exod
+    texts:
+      - Luugithõõ
+      - Lg
+  - osis: Rev
+    texts:
+      - Terethiinit
+      - Te
+  - osis: Ruth
+    texts:
+      - ꞌRuuth
+      - Ru
+  - osis: Jonah
+    texts:
+      - Yõõna
+      - Ya
+  - osis: Matt
+    texts:
+      - Maatteeo
+      - Mt
+  - osis: Mark
+    texts:
+      - Maarko
+      - Mk
+  - osis: Luke
+    texts:
+      - ꞌLuuka
+      - Lk
+  - osis: 1John
+    texts:
+      - 1Yn
+  - osis: 2John
+    texts:
+      - 2Yn
+  - osis: 3John
+    texts:
+      - 3 Yõaannẽ
+      - 3Yn
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yõaannẽ
+  - osis: John
+    texts:
+      - Yõaannẽ
+      - Yn
+  - osis: Acts
+    texts:
+      - Dtiicanĩ cĩg ꞌThooyyiahu
+      - Dh
+  - osis: Rom
+    texts:
+      - ꞌRooma
+      - Rm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinthia
+  - osis: 1Cor
+    texts:
+      - 1Ka
+  - osis: 2Cor
+    texts:
+      - 2Ka
+  - osis: Col
+    texts:
+      - Kolooꞌthe
+      - Ke
+  - osis: Gal
+    texts:
+      - ꞌGalaaꞌthia
+      - Ga
+  - osis: Eph
+    texts:
+      - Eevvetho
+      - Ev
+  - osis: Phil
+    texts:
+      - Pilippi
+      - Pp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tẽꞌthaloonika
+  - osis: 1Thess
+    texts:
+      - 1Th
+  - osis: 2Thess
+    texts:
+      - 2Th
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotteeo
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Tiito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Vilõmẽẽnõ
+      - Vi
+  - osis: Heb
+    texts:
+      - Ebereei
+      - Eb
+  - osis: Jas
+    texts:
+      - ꞌJeemith
+      - Jm
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pẽẽtũrũ
+  - osis: 1Pet
+    texts:
+      - 1Pt
+  - osis: 2Pet
+    texts:
+      - 2Pt
+  - osis: Jude
+    texts:
+      - ꞌJuud
+      - Jd
+translations:
+  - DID

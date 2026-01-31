@@ -1,0 +1,214 @@
+variables:
+  first: &first
+    - I
+  second: &second
+    - II
+  third: &third
+    - Iii
+books:
+  - osis: Gen
+    texts:
+      - Efetikilo
+  - osis: Exod
+    texts:
+      - Etundilo
+  - osis: Lev
+    texts:
+      - Ovisila
+  - osis: Num
+    texts:
+      - Atendelo
+  - osis: Lam
+    texts:
+      - Asiõsuilo
+  - osis: Rev
+    texts:
+      - Esituluilo
+  - osis: Deut
+    texts:
+      - Esinumuĩlo
+  - osis: Josh
+    texts:
+      - Yehosua
+  - osis: Judg
+    texts:
+      - Liolonganji
+  - osis: Ruth
+    texts:
+      - Ruti
+  - osis: Isa
+    texts:
+      - Isaya
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuele
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Olosoma
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Asapulo
+  - osis: Ezra
+    texts:
+      - Esera
+  - osis: Neh
+    texts:
+      - Nehemiya
+  - osis: Esth
+    texts:
+      - Ester
+  - osis: Job
+    texts:
+      - Yovi
+  - osis: Ps
+    texts:
+      - Olosamo
+  - osis: Prov
+    texts:
+      - Olosapo
+  - osis: Eccl
+    texts:
+      - Ukundi
+  - osis: Song
+    texts:
+      - Ocisungo Ca Salomone
+  - osis: Jer
+    texts:
+      - Yeremiya
+  - osis: Ezek
+    texts:
+      - Esekiele
+  - osis: Dan
+    texts:
+      - Daniele
+  - osis: Hos
+    texts:
+      - Hosea
+  - osis: Joel
+    texts:
+      - Yoeli
+  - osis: Amos
+    texts:
+      - Amosi
+  - osis: Obad
+    texts:
+      - Ovadiya
+  - osis: Jonah
+    texts:
+      - Yona
+  - osis: Mic
+    texts:
+      - Mika
+  - osis: Nah
+    texts:
+      - Nahumi
+  - osis: Hab
+    texts:
+      - Havakuki
+  - osis: Zeph
+    texts:
+      - Sofoniya
+  - osis: Hag
+    texts:
+      - Hagai
+  - osis: Zech
+    texts:
+      - Sakariya
+  - osis: Mal
+    texts:
+      - Malakiya
+  - osis: Matt
+    texts:
+      - Mateo
+  - osis: Mark
+    texts:
+      - Marko
+  - osis: Luke
+    texts:
+      - Luka
+  - osis: 2John
+    texts:
+      - Ii Yoano
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 3John
+        before: *third
+    texts:
+      - Yoano
+  - osis: Acts
+    texts:
+      - Ovilinga
+  - osis: Rom
+    texts:
+      - Va Roma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Va Korindo
+  - osis: Col
+    texts:
+      - Va Kolosai
+  - osis: Gal
+    texts:
+      - Va Galatia
+  - osis: Eph
+    texts:
+      - Va Efeso
+  - osis: Phil
+    texts:
+      - Va Filipoi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Va Tesalonike
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filemone
+  - osis: Heb
+    texts:
+      - Va Heveru
+  - osis: Jas
+    texts:
+      - Tiago
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petulu
+  - osis: Jude
+    texts:
+      - Yuda
+translations:
+  - EMB63

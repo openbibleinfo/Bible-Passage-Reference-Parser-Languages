@@ -1,0 +1,113 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Tà tadhálé dhɨ ɨ
+  - osis: Matt
+    texts:
+      - Matayo
+      - Màtáyò
+      - Mat
+  - osis: Mark
+    texts:
+      - Marako
+      - Márokò
+      - Mar
+  - osis: Luke
+    texts:
+      - Lúkà
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yòwánɨ̀
+      - Yow
+  - osis: Acts
+    texts:
+      - Tà ꞌòle dhɨ ɨ
+  - osis: Rom
+    texts:
+      - Rómàbhá ɨ
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kòrítòbhá ɨ
+      - Kor
+  - osis: Col
+    texts:
+      - Kòlòsáyɨ̀bhá ɨ
+      - Kol
+  - osis: Gal
+    texts:
+      - Gàlàtɨ́yàbhá ɨ
+      - Gal
+  - osis: Eph
+    texts:
+      - Èfésòbhá ɨ
+      - Efe
+  - osis: Phil
+    texts:
+      - Fìlìpóyìbhá ɨ
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tèsàlòníkèbhá ɨ
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tìmòtéyò
+      - Tim
+  - osis: Titus
+    texts:
+      - Títò
+      - Tit
+  - osis: Phlm
+    texts:
+      - Fìlèmónà
+      - Flm
+  - osis: Heb
+    texts:
+      - Èbérè ɨ
+      - Ebe
+  - osis: Jas
+    texts:
+      - Yàkóbhò
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pétèró
+      - Pet
+  - osis: Jude
+    texts:
+      - Yúdà
+      - Yud
+translations:
+  - LOG

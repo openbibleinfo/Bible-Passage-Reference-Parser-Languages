@@ -1,0 +1,141 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Müngokesü
+      - Rev
+  - osis: Matt
+    texts:
+      - Matthew
+      - Mat
+  - osis: Mark
+    texts:
+      - Mark
+      - Mrk
+  - osis: Luke
+    texts:
+      - Luke
+      - Luk
+  - osis: 1John
+    texts:
+      - John Kürao
+  - osis: 2John
+    texts:
+      - John Künao
+  - osis: 3John
+    texts:
+      - John Süo
+      - 3 Jn
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jn
+  - osis: John
+    texts:
+      - John
+      - Jhn
+  - osis: Acts
+    texts:
+      - Mhathoko
+      - Act
+  - osis: Rom
+    texts:
+      - Romemiko
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Co
+  - osis: 1Cor
+    texts:
+      - Corinthmiko Kürao
+  - osis: 2Cor
+    texts:
+      - Corinthmiko Künao
+  - osis: Col
+    texts:
+      - Colossaeko
+      - Col
+  - osis: Gal
+    texts:
+      - Galatiamiko
+      - Gal
+  - osis: Eph
+    texts:
+      - Ephesusmiko
+      - Eph
+  - osis: Phil
+    texts:
+      - Philippiko
+      - Php
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Th
+  - osis: 1Thess
+    texts:
+      - Thessaloniako Kürao
+  - osis: 2Thess
+    texts:
+      - Thessaloniako Künao
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Ti
+  - osis: 1Tim
+    texts:
+      - Timothy Kürao
+  - osis: 2Tim
+    texts:
+      - Timothy Künao
+  - osis: Titus
+    texts:
+      - Titus
+      - Tit
+  - osis: Phlm
+    texts:
+      - Philemon
+      - Phm
+  - osis: Heb
+    texts:
+      - Henrewko
+      - Heb
+  - osis: Jas
+    texts:
+      - James
+      - Jas
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pe
+  - osis: 1Pet
+    texts:
+      - Peter Kürao
+  - osis: 2Pet
+    texts:
+      - Peter Künao
+  - osis: Jude
+    texts:
+      - Jude
+      - Jud
+translations:
+  - NAG5BSI

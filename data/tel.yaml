@@ -1,0 +1,396 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - ఆదికాండము
+      - ఆది.
+      - ఆది
+  - osis: Exod
+    texts:
+      - నిర్గమకాండము
+      - నిర్గమ.
+      - నిర్గమ
+      - నిర్గ
+  - osis: Lev
+    texts:
+      - లేవీయకాండము
+      - లేవీ.
+      - లేవీయ
+      - లేవీ
+  - osis: Num
+    texts:
+      - సంఖ్యాకాండము
+      - సంఖ్యా.
+      - సంఖ్యా
+  - osis: Lam
+    texts:
+      - విలాప వాక్యములు
+      - విలాపవాక్యములు
+      - విలాప
+  - osis: Rev
+    texts:
+      - ప్రకటన గ్రంథము
+      - ప్రకటన గ్రంథం
+      - ప్రకటన
+      - ప్రక
+  - osis: Deut
+    texts:
+      - ద్వితీయోపదేశకాండము
+      - ద్వితీయో
+      - ద్వితీ.
+      - ద్వితీ
+  - osis: Josh
+    texts:
+      - యెహోషువ
+      - యెహో
+  - osis: Judg
+    texts:
+      - న్యాయాధిపతులు
+      - న్యాయాధి.
+      - న్యాయాధి
+      - న్యాయా
+  - osis: Ruth
+    texts:
+      - రూతు
+  - osis: Isa
+    texts:
+      - యెషయా
+      - యెష
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - సమూయేలు
+      - సమూ.
+      - సమూ
+  - osis: 1Sam
+    texts:
+      - 1సమూ
+  - osis: 2Sam
+    texts:
+      - 2సమూ
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - రాజులు
+  - osis: 1Kgs
+    texts:
+      - 1రాజులు
+  - osis: 2Kgs
+    texts:
+      - 2రాజులు
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - దినవృత్తాంతములు
+      - దినవృ.
+      - దిన
+  - osis: 1Chr
+    texts:
+      - 1దిన
+  - osis: 2Chr
+    texts:
+      - 2దిన
+  - osis: Ezra
+    texts:
+      - ఎజ్రా
+  - osis: Neh
+    texts:
+      - నెహెమ్యా
+      - నెహె
+  - osis: Esth
+    texts:
+      - ఎస్తేరు
+      - ఎస్తే
+  - osis: Job
+    texts:
+      - యోబు
+  - osis: Ps
+    texts:
+      - కీర్తనల గ్రంథము
+      - కీర్తనలు
+      - కీర్తన.
+      - కీర్తన
+      - కీర్త
+  - osis: Prov
+    texts:
+      - సామెతలు
+      - సామె.
+      - సామెత
+      - సామె
+  - osis: Eccl
+    texts:
+      - ప్రసంగి
+      - ప్రస
+  - osis: Song
+    texts:
+      - పరమ గీతము
+      - పరమగీతము
+      - పరమ
+  - osis: Jer
+    texts:
+      - యిర్మీయా
+      - యిర్మీ.
+      - యిర్మీ
+  - osis: Ezek
+    texts:
+      - యెహెజ్కేలు
+      - యెహెజ్కే.
+      - యెహె
+  - osis: Dan
+    texts:
+      - దానియేలు
+      - దాని.
+      - దాని
+  - osis: Hos
+    texts:
+      - హోషేయ
+      - హోషే
+  - osis: Joel
+    texts:
+      - యోవేలు
+      - యోవే
+  - osis: Amos
+    texts:
+      - ఆమోసు
+      - ఆమో
+  - osis: Obad
+    texts:
+      - ఓబద్యా
+  - osis: Jonah
+    texts:
+      - యోనా
+  - osis: Mic
+    texts:
+      - మీకా
+  - osis: Nah
+    texts:
+      - నహూము
+      - నహూ
+  - osis: Hab
+    texts:
+      - హబక్కూకు
+      - హబ.
+      - హబ
+  - osis: Zeph
+    texts:
+      - జెఫన్యా
+      - జెఫ
+  - osis: Hag
+    texts:
+      - హగ్గయి
+      - హగ్గ
+  - osis: Zech
+    texts:
+      - జెకర్యా
+      - జెక
+  - osis: Mal
+    texts:
+      - మలాకీ
+      - మలా
+  - osis: Matt
+    texts:
+      - మత్తయి సువార్త
+      - మత్తయిత
+      - మత్తయి
+  - osis: Mark
+    texts:
+      - మార్కు సువార్త
+      - మార్కు
+  - osis: Luke
+    texts:
+      - లూకా సువార్త
+      - లూకా
+  - osis: 1John
+    texts:
+      - యోహాను వ్రాసిన మొదటి లేఖ
+      - 1యోహా
+  - osis: 2John
+    texts:
+      - యోహాను వ్రాసిన రెండవ లేఖ
+      - 2యోహా
+  - osis: 3John
+    texts:
+      - యోహాను వ్రాసిన మూడవ లేఖ
+      - 3 యోహాను పత్రిక
+      - 3 యోహాను
+      - 3యోహా
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - యోహాను పత్రిక
+      - యోహాను
+  - osis: John
+    texts:
+      - యోహాను సువార్త
+      - యోహాను
+      - యోహా
+  - osis: Acts
+    texts:
+      - అపొస్తలుల కార్యములు
+      - అపొస్తలుల
+      - అపొ. కా.
+      - అపొ.కా.
+      - అ. కా.
+  - osis: Rom
+    texts:
+      - రోమీయులకు వ్రాసిన లేఖ
+      - రోమా పత్రిక
+      - రోమీ.
+      - రోమా
+  - osis: 1Cor
+    texts:
+      - కొరింథీయులకు వ్రాసిన మొదటి లేఖ
+      - 1కొరింతీ
+  - osis: 2Cor
+    texts:
+      - కొరింథీయులకు వ్రాసిన రెండవ లేఖ
+      - 2కొరింతీ
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - కొరింతీ పత్రిక
+      - కొరింథీ పత్రిక
+      - కొరింథీయులకు
+      - కొరింథీ.
+      - కొరింథీ
+  - osis: Col
+    texts:
+      - కొలొస్సయులకు వ్రాసిన లేఖ
+      - కొలొస్సీ పత్రిక
+      - కొలస్సీ పత్రిక
+      - కొలొస్సయులకు
+      - కొలొస్సీ.
+      - కొలస్సీ
+      - కొలొస్స
+  - osis: Gal
+    texts:
+      - గలతీయులకు వ్రాసిన లేఖ
+      - గలతీ పత్రిక
+      - గలతీయులకు
+      - గలతీ.
+      - గలతీ
+  - osis: Eph
+    texts:
+      - ఎఫెసీయులకు వ్రాసిన లేఖ
+      - ఎఫెసీ పత్రిక
+      - ఎఫెసీయులకు
+      - ఎఫెసీ.
+      - ఎఫెసీ
+  - osis: Phil
+    texts:
+      - ఫిలిప్పీయులకు వ్రాసిన లేఖ
+      - ఫిలిప్పీ పత్రిక
+      - ఫిలిప్పీయులకు
+      - ఫిలిప్పీ.
+      - ఫిలిప్పీ
+  - osis: 1Thess
+    texts:
+      - థెస్సలొనీకయులకు వ్రాసిన మొదటి లేఖ
+      - 1తెస్స
+  - osis: 2Thess
+    texts:
+      - థెస్సలొనీకయులకు వ్రాసిన రెండవ లేఖ
+      - 2తెస్స
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - తెస్సలోనిక పత్రిక
+      - థెస్సలొనీకయులకు
+      - థెస్సలోనికయులకు
+      - థెస్సలొనీ.
+      - థెస్స
+  - osis: 1Tim
+    texts:
+      - తిమోతికి వ్రాసిన మొదటి లేఖ
+      - 1తిమో
+  - osis: 2Tim
+    texts:
+      - తిమోతికి వ్రాసిన రెండవ లేఖ
+      - 2తిమో
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - తిమోతి పత్రిక
+      - తిమోతికి
+      - తిమోతి
+  - osis: Titus
+    texts:
+      - తీతుకు వ్రాసిన లేఖ
+      - తీతు పత్రిక
+      - తీతుకు
+      - తీతు.
+      - తీతు
+  - osis: Phlm
+    texts:
+      - ఫిలేమోనుకు వ్రాసిన లేఖ
+      - ఫిలేమోను పత్రిక
+      - ఫిలేమోనుకు
+      - ఫిలేమోను
+      - ఫిలే.
+      - ఫిలే
+  - osis: Heb
+    texts:
+      - హెబ్రీయులకు వ్రాసిన లేఖ
+      - హెబ్రీ పత్రిక
+      - హెబ్రీయులకు
+      - హెబ్రీ.
+      - హెబ్రీ
+  - osis: Jas
+    texts:
+      - యాకోబు వ్రాసిన లేఖ
+      - యాకోబు పత్రిక
+      - యాకోబు
+      - యాకో
+  - osis: 1Pet
+    texts:
+      - పేతురు వ్రాసిన మొదటి లేఖ
+      - 1పేతు
+  - osis: 2Pet
+    texts:
+      - పేతురు వ్రాసిన రెండవ లేఖ
+      - 2పేతు
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - పేతురు పత్రిక
+      - పేతురు
+  - osis: Jude
+    texts:
+      - యూదా వ్రాసిన లేఖ
+      - యూదా పత్రిక
+      - యూదా
+translations:
+  - OTSA
+  - IRVTEL
+  - TSA
+  - TCV
+  - TELUBSI
+  - TERV

@@ -1,0 +1,133 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Ugubutulu
+      - Ugub
+  - osis: Matt
+    texts:
+      - Matayu
+      - Mat
+  - osis: Mark
+    texts:
+      - Mariku
+      - Mak
+  - osis: Luke
+    texts:
+      - Luka
+  - osis: 1John
+    texts:
+      - 1Yoha
+  - osis: 2John
+    texts:
+      - 2Yoha
+  - osis: 3John
+    texts:
+      - 3 Yohani
+      - 3Yoh
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yohani
+  - osis: John
+    texts:
+      - Yohani
+      - Yoha
+  - osis: Acts
+    texts:
+      - Matendu
+      - Mate
+  - osis: Rom
+    texts:
+      - Warumi
+      - War
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Wakorintu
+  - osis: 1Cor
+    texts:
+      - 1Kor
+  - osis: 2Cor
+    texts:
+      - 2Kor
+  - osis: Col
+    texts:
+      - waKolosayi
+      - Wako
+  - osis: Gal
+    texts:
+      - Wagalatiya
+      - Wag
+  - osis: Eph
+    texts:
+      - Waefesu
+      - Waef
+  - osis: Phil
+    texts:
+      - waFilipi
+      - Wafi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Watesaloniki
+  - osis: 1Thess
+    texts:
+      - 1Wate
+  - osis: 2Thess
+    texts:
+      - 2Wate
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotewu
+  - osis: 1Tim
+    texts:
+      - 1Timo
+  - osis: 2Tim
+    texts:
+      - 2Timo
+  - osis: Titus
+    texts:
+      - Titu
+  - osis: Phlm
+    texts:
+      - Filimoni
+      - Fili
+  - osis: Heb
+    texts:
+      - Waebulaniya
+      - Waeb
+  - osis: Jas
+    texts:
+      - Yakobu
+      - Yako
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peteru
+      - Pet
+  - osis: Jude
+    texts:
+      - Yuda
+translations:
+  - PBV

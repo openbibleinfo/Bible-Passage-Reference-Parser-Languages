@@ -1,0 +1,269 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Kushangumuka
+      - Kus
+  - osis: Exod
+    texts:
+      - Kutuuka
+      - Kut
+  - osis: Lev
+    texts:
+      - VaLevi
+      - VaLe
+  - osis: Num
+    texts:
+      - Kulava
+      - Kul
+  - osis: Lam
+    texts:
+      - Mbimbi
+      - Mbi
+  - osis: Rev
+    texts:
+      - Kujombolola
+      - Kuj
+  - osis: Deut
+    texts:
+      - Kwituluka mu Mashiko
+      - Kwi
+  - osis: Josh
+    texts:
+      - Yoshwa
+      - Yos
+  - osis: Judg
+    texts:
+      - Maako
+      - Maa
+  - osis: Ruth
+    texts:
+      - Lute
+      - Lut
+  - osis: Isa
+    texts:
+      - Isaya
+      - Isa
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samwele
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Vimyene
+      - Vim
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Mizimbu
+      - Miz
+  - osis: Ezra
+    texts:
+      - Ezela
+      - Eze
+  - osis: Neh
+    texts:
+      - Nehemiya
+      - Neh
+  - osis: Esth
+    texts:
+      - Esita
+      - Esi
+  - osis: Job
+    texts:
+      - Yombi
+      - Yom
+  - osis: Prov
+    texts:
+      - Visimo
+      - Vis
+  - osis: Eccl
+    texts:
+      - Muka-kwambulula
+      - Muka-kwa
+  - osis: Song
+    texts:
+      - Myaso ya Solomoni
+      - Myaso ya Sol
+  - osis: Ps
+    texts:
+      - Myaso
+      - Mya
+  - osis: Jer
+    texts:
+      - Njelemiya
+      - Njele
+  - osis: Ezek
+    texts:
+      - Ezekiyele
+      - Ezek
+  - osis: Dan
+    texts:
+      - Ndanyele
+      - Ndan
+  - osis: Hos
+    texts:
+      - Hoziya
+      - Hoz
+  - osis: Joel
+    texts:
+      - Njwele
+      - Njwe
+  - osis: Amos
+    texts:
+      - Amose
+      - Amo
+  - osis: Obad
+    texts:
+      - Ovandiya
+      - Ova
+  - osis: Jonah
+    texts:
+      - Yona
+      - Yon
+  - osis: Mic
+    texts:
+      - Mika
+      - MiK
+  - osis: Nah
+    texts:
+      - Nahumi
+      - Nah
+  - osis: Hab
+    texts:
+      - Hambakuke
+      - Hamba
+  - osis: Zeph
+    texts:
+      - Zefaniya
+      - Zef
+  - osis: Hag
+    texts:
+      - Hangai
+      - Hanga
+  - osis: Zech
+    texts:
+      - Zakaliya
+      - Zak
+  - osis: Mal
+    texts:
+      - Malakiya
+      - Mal
+  - osis: Matt
+    texts:
+      - Mateo
+      - Mat
+  - osis: Mark
+    texts:
+      - Mako
+      - Mak
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yowano
+      - Yow
+  - osis: Acts
+    texts:
+      - Vilinga vya Miluwa
+      - Vil
+  - osis: Rom
+    texts:
+      - Loma
+      - Lom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kolinte
+      - Koli
+  - osis: Col
+    texts:
+      - Kolose
+      - Kol
+  - osis: Gal
+    texts:
+      - Ngalatiya
+      - Ngala
+  - osis: Eph
+    texts:
+      - Efeso
+      - Efe
+  - osis: Phil
+    texts:
+      - Filipu
+      - Fili
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonika
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timateo
+      - Tim
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filimoni
+      - Filim
+  - osis: Heb
+    texts:
+      - VaHevelu
+      - VaHe
+  - osis: Jas
+    texts:
+      - Yakomba
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petulu
+      - Pet
+  - osis: Jude
+    texts:
+      - Yunda
+      - Yun
+translations:
+  - MBB

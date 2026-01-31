@@ -1,0 +1,102 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Wɛ̀lɛ̀vèlésɔ̃̀
+  - osis: Ruth
+    texts:
+      - Wúlúfè
+      - Wúlú
+  - osis: Jonah
+    texts:
+      - Zónà
+      - Zó
+  - osis: Matt
+    texts:
+      - Máfìù
+  - osis: Mark
+    texts:
+      - Máà
+  - osis: Luke
+    texts:
+      - Lúù
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Zɔ̃̀ɔ̃́
+  - osis: Acts
+    texts:
+      - Àpɔ́sɔ̀lɔ̀
+  - osis: Rom
+    texts:
+      - Wólómà
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kɔ̀léĩ́tĩ̀ã̀
+  - osis: Col
+    texts:
+      - Kɔ̀lɔ́sĩã̀
+  - osis: Gal
+    texts:
+      - Gɛ̀lésìà
+  - osis: Eph
+    texts:
+      - Ìfísɔ̃̀
+  - osis: Phil
+    texts:
+      - Fèlépĩ̀ã̀
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tɛsàlónìà
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Témɔ́tè
+  - osis: Titus
+    texts:
+      - Tátɔ̀
+  - osis: Phlm
+    texts:
+      - Fàlímà
+  - osis: Heb
+    texts:
+      - Hííbúlù
+  - osis: Jas
+    texts:
+      - Zĩ́ĩ̀
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pílɛ̀
+  - osis: Jude
+    texts:
+      - Zúdè
+translations:
+  - MHB
+  - MNT

@@ -1,0 +1,105 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Tănăfalilt
+      - Tăn.
+  - osis: Matt
+    texts:
+      - Mătti
+  - osis: Mark
+    texts:
+      - Marqəs
+  - osis: Luke
+    texts:
+      - Luqa
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Exya
+  - osis: Acts
+    texts:
+      - Ijităn n-inəmmušal
+      - Ijităn
+  - osis: Rom
+    texts:
+      - Kăl-Roma
+      - Roma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kăl-Kurənta
+      - Kur.
+  - osis: Col
+    texts:
+      - Kăl-Kuləs
+      - Kls
+  - osis: Gal
+    texts:
+      - Kăl-Gălasya
+      - Găl
+  - osis: Eph
+    texts:
+      - Kăl-Ifăsus
+      - Ifs
+  - osis: Phil
+    texts:
+      - Kăl-Fəlibb
+      - Flb
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Kăl-Tăslonika
+      - Tăs.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+      - Tim.
+  - osis: Titus
+    texts:
+      - Titus
+  - osis: Phlm
+    texts:
+      - Fălyamon
+      - Flmn
+  - osis: Heb
+    texts:
+      - Ɣăbranităn
+      - Ɣăb.
+  - osis: Jas
+    texts:
+      - Yaqub
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Bəṭrus
+  - osis: Jude
+    texts:
+      - Hudd
+translations:
+  - TAQ

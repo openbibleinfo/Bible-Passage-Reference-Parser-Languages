@@ -1,0 +1,106 @@
+default:
+  1Cor:
+    long: 1 Kolinita
+    short: 1 Ko
+  1John:
+    long: 1 Yoni
+    short: 1 Yo
+  1Pet:
+    long: 1 Pita
+    short: 1 Pi
+  1Thess:
+    long: 1 Tesalonaika
+    short: 1 Te
+  1Tim:
+    long: 1 Timoti
+    short: 1 Ti
+  2Cor:
+    long: 2 Kolinita
+    short: 2 Ko
+  2John:
+    long: 2 Yoni
+    short: 2 Yo
+  2Pet:
+    long: 2 Pita
+    short: 2 Pi
+  2Thess:
+    long: 2 Tesalonaika
+    short: 2 Te
+  2Tim:
+    long: 2 Timoti
+    short: 2 Ti
+  3John:
+    long: 3 Yoni
+    short: 3 Yo
+  Acts:
+    long: Guinuwa
+    short: Gu
+  Col:
+    long: Kolose
+    short: Kol
+  Eph:
+    long: Epeso
+    short: Ep
+  Esth:
+    long: Esiteri
+    short: Esit
+  Exod:
+    long: Si Apwesa
+    short: Apwesa
+  Gal:
+    long: Galetia
+    short: Ga
+  Gen:
+    long: Nugana
+    short: Nug
+  Heb:
+    long: Ibeliu
+    short: Ib
+  Isa:
+    long: Isaia
+    short: Isaia
+  Jas:
+    long: Yemesa
+    short: Ye
+  John:
+    long: Yoni
+    short: Yo
+  Jonah:
+    long: Iona
+    short: Iona
+  Jude:
+    long: Yude
+    short: Yu
+  Lev:
+    long: Loina
+    short: Loina
+  Luke:
+    long: Luke
+    short: Lu
+  Mark:
+    long: Maki
+    short: Mk
+  Matt:
+    long: Madiu
+    short: Md
+  Phil:
+    long: Pilipai
+    short: Pi
+  Phlm:
+    long: Pilimoni
+    short: Pilim
+  Ps:
+    long: Salamo
+    short: Salamo
+  Rev:
+    long: E'ita'ita
+    short: Et
+  Rom:
+    long: Loma
+    short: Lo
+  Ruth:
+    long: Ruta
+    short: Ruta
+  Titus:
+    long: Taito
+    short: Ta

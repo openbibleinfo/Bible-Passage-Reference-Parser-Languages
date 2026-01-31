@@ -1,0 +1,60 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Acaki
+      - Acak
+  - osis: Deut
+    texts:
+      - Nwönö Cïk
+      - Nwö
+  - osis: Matt
+    texts:
+      - Matayo
+  - osis: Mark
+    texts:
+      - Marako
+  - osis: Acts
+    texts:
+      - Tic k'Ëkwëna
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Jö Korinti
+  - osis: Gal
+    texts:
+      - Jö Galatia
+      - Jö Gal
+  - osis: Eph
+    texts:
+      - Jö Epeco
+      - Jö Epe
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Jö Tecalonika
+      - Jö Tec
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+      - Tim
+  - osis: Jas
+    texts:
+      - Yakobo
+      - Yak
+translations:
+  - THURM

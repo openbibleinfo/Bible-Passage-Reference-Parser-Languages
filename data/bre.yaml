@@ -1,0 +1,280 @@
+variables:
+  first: &first
+    - "1"
+    - I
+  second: &second
+    - "2"
+    - II
+books:
+  - osis: Gen
+    texts:
+      - Geneliezh
+      - Gen
+  - osis: Exod
+    texts:
+      - Ermaeziadeg
+      - Ermaeziaeg
+  - osis: Lev
+    texts:
+      - Leviegezh
+      - Lev
+  - osis: Num
+    texts:
+      - Niveroù
+      - Niv
+  - osis: Lam
+    texts:
+      - Klemmganoù
+  - osis: Rev
+    texts:
+      - Diskuliadur
+      - Diskuladur
+      - Apocalyps
+      - Apoc.
+  - osis: Deut
+    texts:
+      - Adlezenn
+  - osis: Josh
+    texts:
+      - Jozue
+  - osis: Judg
+    texts:
+      - Ar Varnerien
+      - Varnerien
+  - osis: Ruth
+    texts:
+      - Rud
+  - osis: Isa
+    texts:
+      - Izaia
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+  - osis:
+      - osis: 1Kgs
+        before: *first
+    texts:
+      - Rouaned
+  - osis:
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Rouned
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Danevelloù
+  - osis: Ezra
+    texts:
+      - Ezdra
+  - osis: Neh
+    texts:
+      - Nehemia
+  - osis: Esth
+    texts:
+      - Ester
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Psalmou
+      - Salmoù
+      - Psalm
+      - Salm
+  - osis: Prov
+    texts:
+      - Krennlavarioù
+  - osis: Eccl
+    texts:
+      - Ar Prezeger
+      - Prezeger
+  - osis: Song
+    texts:
+      - Kanenn ar C’hanennoù
+  - osis: Jer
+    texts:
+      - Jeremiaz
+  - osis: Ezek
+    texts:
+      - Ezekiel
+  - osis: Dan
+    texts:
+      - Daniel
+  - osis: Hos
+    texts:
+      - Ozea
+  - osis: Joel
+    texts:
+      - Joel
+  - osis: Amos
+    texts:
+      - Amoz
+  - osis: Obad
+    texts:
+      - Abdia
+  - osis: Jonah
+    texts:
+      - Jonaz
+  - osis: Mic
+    texts:
+      - Mika
+  - osis: Nah
+    texts:
+      - Nahum
+  - osis: Hab
+    texts:
+      - Habakuk
+  - osis: Zeph
+    texts:
+      - Sofonia
+  - osis: Hag
+    texts:
+      - Agge
+  - osis: Zech
+    texts:
+      - Zakaria
+  - osis: Mal
+    texts:
+      - Malaki
+  - osis: Matt
+    texts:
+      - Sant Vaze
+      - St. Maheu
+      - Mazhev
+      - Maheu
+      - Vaze
+  - osis: Mark
+    texts:
+      - Sant Marc
+      - Marc
+      - Mark
+  - osis: Luke
+    texts:
+      - Sant Lucas
+      - Lucas
+      - Lukaz
+  - osis: 3John
+    texts:
+      - III S. Ian
+      - 3 Yann
+      - 3 Ian
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - S. Ian
+      - Yann
+      - Ian
+  - osis: John
+    texts:
+      - Sant Ian
+      - Yann
+      - Ian
+  - osis: Acts
+    texts:
+      - Oberoù an Ebestel
+      - Actou an Ebestel
+      - Actou
+  - osis: Rom
+    texts:
+      - Romaned
+      - Rom.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corintied
+      - Korintiz
+      - Cor.
+  - osis: Col
+    texts:
+      - Colossied
+      - Koloseiz
+      - Col.
+  - osis: Gal
+    texts:
+      - Galated
+      - Gal.
+  - osis: Eph
+    texts:
+      - Ephezied
+      - Efeziz
+      - Eph.
+  - osis: Phil
+    texts:
+      - Philippied
+      - Filipiz
+      - Philip.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thessalonied
+      - Tesalonikiz
+      - Thess.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteus
+      - Timote
+      - Tim.
+  - osis: Titus
+    texts:
+      - Titus
+      - Tit
+  - osis: Phlm
+    texts:
+      - Philemon
+      - Filemon
+      - Philem.
+  - osis: Heb
+    texts:
+      - Hebreed
+      - Heb.
+  - osis: Jas
+    texts:
+      - S. Jakes
+      - Jakes
+      - Jakez
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - Pêr
+  - osis: 1Pet
+    texts:
+      - I. S. Per
+      - 1Per
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - S. Per
+      - Per
+      - Pêr
+  - osis: Jude
+    texts:
+      - S. Jud
+      - Jud
+translations:
+  - MAT1858
+  - KOAD21
+  - PS1873
+  - JEN1897

@@ -1,0 +1,157 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Gõcõ Lãgá
+      - Gl
+  - osis: Exod
+    texts:
+      - Úgú Létë
+      - Úl
+  - osis: Rev
+    texts:
+      - Gïtĩ Ádá
+      - Gá
+  - osis: Ruth
+    texts:
+      - Rútã
+      - Rú
+  - osis: Jonah
+    texts:
+      - Jónã
+      - Jó
+  - osis: Matt
+    texts:
+      - Mãtéyõ
+      - Mt
+  - osis: Mark
+    texts:
+      - Márkõ
+      - Mk
+  - osis: Luke
+    texts:
+      - Lúkã
+      - Lk
+  - osis: 1John
+    texts:
+      - 1Jn
+  - osis: 2John
+    texts:
+      - 2Jn
+  - osis: 3John
+    texts:
+      - 3 Jónõ
+      - 3Jn
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jónõ
+  - osis: John
+    texts:
+      - Jónõ
+      - Jn
+  - osis: Acts
+    texts:
+      - Nẽté ká Yõmó Yõpó
+      - Ny
+  - osis: Rom
+    texts:
+      - Rómã
+      - Rm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kõréntĩyã
+  - osis: 1Cor
+    texts:
+      - 1Kt
+  - osis: 2Cor
+    texts:
+      - 2Kt
+  - osis: Col
+    texts:
+      - Kõlósẽ
+      - Kl
+  - osis: Gal
+    texts:
+      - Gãlátĩyã
+      - Gã
+  - osis: Eph
+    texts:
+      - Éfësũsũ
+      - Éf
+  - osis: Phil
+    texts:
+      - Fĩlípĩyã
+      - Fp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tãsãlónĩkã
+  - osis: 1Thess
+    texts:
+      - 1Ts
+  - osis: 2Thess
+    texts:
+      - 2Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tímõtĩ
+  - osis: 1Tim
+    texts:
+      - 1Tm
+  - osis: 2Tim
+    texts:
+      - 2Tm
+  - osis: Titus
+    texts:
+      - Táyítõsõ
+      - Tt
+  - osis: Phlm
+    texts:
+      - Fílmõnõ
+      - Fm
+  - osis: Heb
+    texts:
+      - Íbrũ
+      - Íb
+  - osis: Jas
+    texts:
+      - Jémĩsĩ
+      - Jm
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pítãrã
+  - osis: 1Pet
+    texts:
+      - 1Pt
+  - osis: 2Pet
+    texts:
+      - 2Pt
+  - osis: Jude
+    texts:
+      - Júdẽ
+      - Jd
+translations:
+  - GBA

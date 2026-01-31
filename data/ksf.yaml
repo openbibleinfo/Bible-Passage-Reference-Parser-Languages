@@ -1,0 +1,128 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Àpòkàliɓsɛ̀
+      - A.
+  - osis: Matt
+    texts:
+      - Matyoo
+      - Mt.
+  - osis: Mark
+    texts:
+      - Marikus
+      - Mk.
+  - osis: Luke
+    texts:
+      - Lukas
+      - Lk.
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Zyaŋ
+      - Zy.
+  - osis: John
+    texts:
+      - Zyaŋ
+      - Zŋ.
+  - osis: Acts
+    texts:
+      - Mɛ̀kìkìì Mɛ Ɓɛkɛ̀nì-fìtom
+      - Mkk.
+  - osis: Rom
+    texts:
+      - Ròmɛŋ
+      - Ro.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kɔ̀rɛ̀ŋtyɛŋ
+      - Kɔr.
+  - osis: Col
+    texts:
+      - Kòlòsyɛŋ
+      - Ko.
+  - osis: Gal
+    texts:
+      - Gàlat
+      - Ga.
+  - osis: Eph
+    texts:
+      - Efèzyɛŋ
+      - Ef.
+  - osis: Phil
+    texts:
+      - Fìlìpyɛŋ
+      - Fi.
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Tèsàlònìsyɛŋ
+  - osis: 1Thess
+    texts:
+      - Te.
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tèsàlònìsyɛŋ
+      - Te.
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Timote
+  - osis: 1Tim
+    texts:
+      - Ti.
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+      - Ti.
+  - osis: Titus
+    texts:
+      - Tit.
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemɔŋ
+      - Fil.
+  - osis: Heb
+    texts:
+      - Ebireegh
+      - Eb.
+  - osis: Jas
+    texts:
+      - Zyag
+      - Zy.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pyɛɛri
+      - Py.
+  - osis: Jude
+    texts:
+      - Zyuudɛ
+      - Zyu.
+translations:
+  - BAFNT

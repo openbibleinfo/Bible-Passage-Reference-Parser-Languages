@@ -1,0 +1,420 @@
+variables:
+  first: &first
+    - "1"
+    - Makətūbə̄
+  second: &second
+    - "2"
+    - Makətūbə̄
+books:
+  - osis: Gen
+    texts:
+      - Ta Kəla gír yá̰a̰ gə̄
+      - Ta Kəla
+      - Tkg
+  - osis: Bel
+    texts:
+      - Ɓesə̄ Bel
+      - Bel
+  - osis: Lev
+    texts:
+      - Ndū najə̄ yā Ngán Lebi gə̄
+      - Lebi Gə̄
+      - Leb
+  - osis: Num
+    texts:
+      - Tə́da kutə Ngán Israel gə̄
+      - Tə́da
+  - osis: Sir
+    texts:
+      - Jeju Kə́ Ngōn̄ Sirak
+      - Sirak
+  - osis: Wis
+    texts:
+      - Kum kedə̄
+  - osis: Lam
+    texts:
+      - Makətūbə̄ Nōō rɔ̄
+      - Nōō rɔ̄
+  - osis: EpJer
+    texts:
+      - Makətūbə̄ yā Jeremi
+  - osis: Rev
+    texts:
+      - Makətūbə̄ Yá̰a̰ gə̄ kə́ Jeju teē kum Ja̰a̰ dɔ tə́
+      - Jeju Teē Kum Ja̰a̰
+      - Yá̰Jt
+  - osis: Exod
+    texts:
+      - Teē Ngán Israel gə̄
+      - Teē
+  - osis: Deut
+    texts:
+      - Ndū Najə̄ kə́ nge ko̰ jōó
+      - Ndū Najə̄
+      - Ndū
+  - osis: Josh
+    texts:
+      - Makətūbə̄ yā Jojue
+      - Jojue
+      - Joj
+  - osis: Judg
+    texts:
+      - Makətūbə̄ yā Ngé Sarya gə̄
+      - Ngé Sarya
+      - Sar
+  - osis: Ruth
+    texts:
+      - Makətūbə̄ yā Rutə
+      - Rutə
+  - osis: Isa
+    texts:
+      - Makətūbə̄ yā Ijai
+      - Ijai
+      - Ij
+  - osis:
+      - osis: 1Sam
+        before: *first
+    texts:
+      - kə́ ta kəga dɔ yā Samuel
+      - Samuel
+      - Sam
+  - osis:
+      - osis: 2Sam
+        before: *second
+    texts:
+      - kə́ nge ko̰ jōó yā Samuel
+      - Samuel
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+    texts:
+      - kə́ ta kəga dɔ yā Mban̄g gə̄
+      - Mban̄g Gə̄
+      - Mba
+  - osis:
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - kə́ nge ko̰ jōó yā Mban̄g gə̄
+      - Mban̄g
+      - Mba
+  - osis:
+      - osis: 1Chr
+        before: *first
+    texts:
+      - kə́ ta kəga dɔ kə́ dɔ Yá̰a̰ gə̄ ń rāān̄ yá̰á̰ tə́ ní
+      - Yá̰a̰ Gə̄
+      - Yá̰a̰
+  - osis:
+      - osis: 2Chr
+        before: *second
+    texts:
+      - kə́ nge ko̰ jōó kə́ dɔ Yá̰a̰ gə̄ ń rāān̄ yá̰á̰ tə́ ní
+      - Yá̰a̰ Gə̄
+      - Yá̰a̰
+  - osis: Ezra
+    texts:
+      - Makətūbə̄ yā Esdras
+      - Esdras
+  - osis: Neh
+    texts:
+      - Makətūbə̄ yā Nehemi
+      - Nehemi
+  - osis: Job
+    texts:
+      - Makətūbə̄ yā Job
+      - Job
+  - osis: PrAzar
+    texts:
+      - Ndɔ̄ȳ yā Ajariya
+  - osis: Prov
+    texts:
+      - Gōsə̄ najə̄ gə̄
+      - Gōsə̄
+      - Gōs
+  - osis: Eccl
+    texts:
+      - Makətūbə̄ yā Kohelet
+      - Kohelet
+  - osis: SgThree
+    texts:
+      - Pā Yā Balsáá Kə́ Mətá Gə̄ 3
+  - osis: Song
+    texts:
+      - Pā kə́ majə tɔȳ pā gə̄
+      - Pā kə́ majə
+  - osis: Ps
+    texts:
+      - Makətūbə̄ Pā gə̄ kə́ yā tɔ̄yń Nə́ɓā
+      - Pā Gə̄
+      - Pā
+  - osis: Jer
+    texts:
+      - Makətūbə̄ yā Jeremi
+      - Jeremi
+      - Jer
+  - osis: Ezek
+    texts:
+      - Makətūbə̄ yā Ejekiel
+      - Ejekiel
+      - Eje
+  - osis: Dan
+    texts:
+      - Makətūbə̄ yā Daniel
+      - Daniel
+      - Dan
+  - osis: Hos
+    texts:
+      - Makətūbə̄ yā Ojee
+      - Ojee
+      - Oje
+  - osis: Joel
+    texts:
+      - Makətūbə̄ yā Joel
+      - Joel
+      - Jo
+  - osis: Amos
+    texts:
+      - Makətūbə̄ yā Amos
+      - Amos
+      - Am
+  - osis: Obad
+    texts:
+      - Makətūbə̄ yā Abədias
+      - Abədias
+  - osis: Jonah
+    texts:
+      - Makətūbə̄ yā Jonas
+      - Jonas
+  - osis: Mic
+    texts:
+      - Makətūbə̄ yā Mise
+      - Mise
+      - Mis
+  - osis: Nah
+    texts:
+      - Makətūbə̄ yā Nahum
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Makətūbə̄ yā Habakuk
+      - Habakuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Makətūbə̄ yā Soponi
+      - Soponi
+      - Sop
+  - osis: Hag
+    texts:
+      - Makətūbə̄ yā Aje
+      - Aje
+  - osis: Zech
+    texts:
+      - Makətūbə̄ yā Jakari
+      - Jakari
+      - Jaka
+  - osis: Mal
+    texts:
+      - Makətūbə̄ yā Malasi
+      - Malasi
+      - Mal
+  - osis: Matt
+    texts:
+      - Najə̄ kə́ Majə yā Jeju ń Matiye ndang ní
+      - Matiye
+      - Mat
+  - osis: Mark
+    texts:
+      - Najə̄ kə́ Majə yā Jeju ń Mark ndang ní
+      - Mark
+  - osis: Luke
+    texts:
+      - Najə̄ kə́ Majə yā Jeju ń Luk ndang ní
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Ja̰a̰
+  - osis: 2John
+    texts:
+      - 2Ja̰a̰
+  - osis: 3John
+    texts:
+      - Makətūbə̄ kə́ nge ko̰ mətá ń Ja̰a̰ ndang ní
+      - 3 Ja̰a̰
+      - 3Ja̰a̰
+  - osis: John
+    texts:
+      - Najə̄ kə́ Majə yā Jeju ń Ja̰a̰ ndang ní
+      - Ja̰a̰
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - kə́ ta kəga dɔ ń Ja̰a̰ ndang ní
+      - Ja̰a̰
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - kə́ nge ko̰ jōó ń Ja̰a̰ ndang ní
+      - Ja̰a̰
+  - osis: Acts
+    texts:
+      - Kəla rāā Ngámbang kəla gə̄
+      - Kəla Rāā
+      - Kəla
+  - osis: Rom
+    texts:
+      - Makətūbə̄ ń Pol ndang adə̄ Rom gə̄ ní
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - kə́ ta kəga dɔ ń Pol ndang adə̄ Korḛntə gə̄ ní
+      - Korḛntə
+  - osis: 1Cor
+    texts:
+      - 1Ko
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - kə́ nge ko̰ jōó ń Pol ndang adə̄ Korḛntə gə̄ ní
+      - Korḛntə
+  - osis: 2Cor
+    texts:
+      - 2Ko
+  - osis: Col
+    texts:
+      - Makətūbə̄ ń Pol ndang adə̄ Kolosə gə̄ ní
+      - Kolosə
+      - Koloə
+  - osis: Gal
+    texts:
+      - Makətūbə̄ ń Pol ndang adə̄ Galatə gə̄ ní
+      - Galatə
+      - Gal
+  - osis: Eph
+    texts:
+      - Makətūbə̄ ń Pol ndang adə̄ Epejə gə̄ ní
+      - Epejə
+      - Ep
+  - osis: Phil
+    texts:
+      - Makətūbə̄ ń Pol ndang adə̄ Pilipə gə̄ ní
+      - Pilipə
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - kə́ ta kəga dɔ ń Pol ndang adə̄ Tesalonik gə̄ ní
+      - Tesalonik
+  - osis: 1Thess
+    texts:
+      - 1Tes
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - kə́ nge ko̰ jōó ń Pol ndang adə̄ Tesalonik gə̄ ní
+      - Tesalonik
+  - osis: 2Thess
+    texts:
+      - 2Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - kə́ ta kəga dɔ ń Pol ndang adə̄ Timote ní
+      - Timote
+      - Tim
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - kə́ nge ko̰ jōó ń Pol ndang adə̄ Timote ní
+      - Timote
+      - Tim
+  - osis: Titus
+    texts:
+      - Makətūbə̄ ń Pol ndang adə̄ Titə ní
+      - Titə
+      - Tit
+  - osis: Phlm
+    texts:
+      - Makətūbə̄ ń Pol ndang adə̄ Pilemo̰ ní
+      - Pilemo̰
+      - Pil
+  - osis: Heb
+    texts:
+      - Makətūbə̄ kə́ ndang adə̄n̄ Hebəro gə̄
+      - Hebəro
+      - Heb
+  - osis: Jas
+    texts:
+      - Makətūbə̄ ń Jakə ndang ní
+      - Jakə
+      - Jak
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - kə́ ta kəga dɔ ń Piyer ndang ní
+      - Piyer
+  - osis: 1Pet
+    texts:
+      - 1Pi
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - kə́ nge ko̰ jōó ń Piyer ndang ní
+      - Piyer
+  - osis: 2Pet
+    texts:
+      - 2Pi
+  - osis: Jude
+    texts:
+      - Makətūbə̄ ń Jud ndang ní
+      - Jud
+  - osis: Tob
+    texts:
+      - Tobi
+  - osis: Jdt
+    texts:
+      - Juditə
+  - osis: Bar
+    texts:
+      - Baruk
+      - Bar
+  - osis: Sus
+    texts:
+      - Sujan
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+    texts:
+      - Makabe Gə̄
+  - osis: 1Macc
+    texts:
+      - 1Mak
+  - osis: 2Macc
+    texts:
+      - 2Mak
+  - osis: EsthGr
+    texts:
+      - Ester kə ta Gərek
+  - osis: Esth
+    texts:
+      - Makətūbə̄ yā Ester
+      - Ester
+      - Est
+translations:
+  - SB
+  - SARDC

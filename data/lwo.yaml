@@ -1,0 +1,139 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Giih Anyoadh Juoge
+      - Any
+  - osis: Matt
+    texts:
+      - Matheewo
+      - Mat
+  - osis: Mark
+    texts:
+      - Maarko
+      - Mak
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Jon
+  - osis: 2John
+    texts:
+      - 2Jon
+  - osis: 3John
+    texts:
+      - 3 Joon
+      - 3Jon
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Joon
+  - osis: John
+    texts:
+      - Joon
+      - Jon
+  - osis: Acts
+    texts:
+      - Tiihy Jo Oohr
+      - Tiihy
+  - osis: Rom
+    texts:
+      - Roama
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korindh
+  - osis: 1Cor
+    texts:
+      - 1Kor
+  - osis: 2Cor
+    texts:
+      - 2Kor
+  - osis: Col
+    texts:
+      - Kloajya
+      - Klo
+  - osis: Gal
+    texts:
+      - Galaadya
+      - Gal
+  - osis: Eph
+    texts:
+      - Epicoj
+      - Epi
+  - osis: Phil
+    texts:
+      - Pihlihbi
+      - Pihp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thecaaloanika
+  - osis: 1Thess
+    texts:
+      - 1Th
+  - osis: 2Thess
+    texts:
+      - 2Th
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timodhy
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Tiihtuj
+      - Tii
+  - osis: Phlm
+    texts:
+      - Pihlmon
+      - Pihl
+  - osis: Heb
+    texts:
+      - Judea
+  - osis: Jas
+    texts:
+      - Jeamij
+      - Jeam
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piihter
+  - osis: 1Pet
+    texts:
+      - 1Pii
+  - osis: 2Pet
+    texts:
+      - 2Pii
+  - osis: Jude
+    texts:
+      - Juud
+translations:
+  - LWO

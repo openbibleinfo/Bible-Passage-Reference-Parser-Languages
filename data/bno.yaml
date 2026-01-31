@@ -1,0 +1,122 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Henesis
+      - Hen
+  - osis: Exod
+    texts:
+      - Exodo
+      - Exo
+  - osis: Rev
+    texts:
+      - Pahadag
+      - Phdg
+  - osis: Matt
+    texts:
+      - Mateo
+      - Mat
+  - osis: Mark
+    texts:
+      - Markos
+      - Mar
+  - osis: Luke
+    texts:
+      - Lukas
+      - Luk
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Juan
+      - Jn
+  - osis: John
+    texts:
+      - Juan
+  - osis: Acts
+    texts:
+      - Binuhatan
+      - Bin
+  - osis: Rom
+    texts:
+      - Roma
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corinto
+      - Cor
+  - osis: Col
+    texts:
+      - Colosas
+      - Col
+  - osis: Gal
+    texts:
+      - Galasya
+      - Gal
+  - osis: Eph
+    texts:
+      - Epeso
+      - Eps
+  - osis: Phil
+    texts:
+      - Pilipos
+      - Plp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonica
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+      - Tim
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filemon
+      - Flm
+  - osis: Heb
+    texts:
+      - Hebreo
+      - Heb
+  - osis: Jas
+    texts:
+      - Santiago
+      - San
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pedro
+      - Ped
+  - osis: Jude
+    texts:
+      - Judas
+      - Jud
+translations:
+  - BNONTGNEX

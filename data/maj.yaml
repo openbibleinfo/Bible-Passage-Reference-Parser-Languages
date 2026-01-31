@@ -1,0 +1,138 @@
+variables:
+  first: &first
+    - "1"
+    - Xu̱ju̱n
+  second: &second
+    - "2"
+    - Xu̱ju̱n
+books:
+  - osis: Rev
+    texts:
+      - Ni xi y'éjña chji Jesucristo̱ nga ka̱ma
+      - Ap.
+  - osis: Matt
+    texts:
+      - Xu̱ju̱n xi y'ét'a Mateo̱
+      - Mt.
+  - osis: Mark
+    texts:
+      - Xu̱ju̱n xi y'ét'a Marco̱
+      - Mr.
+  - osis: Luke
+    texts:
+      - Xu̱ju̱n xi y'ét'a Luca̱
+      - Lc.
+  - osis: 3John
+    texts:
+      - Xu̱ju̱n xi ma jahan xi kits'ínntu nda̱ postru̱ Jua
+      - 3 Jn.
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - xi tjun kits'ínntu nda̱ postru̱ Jua
+      - Jn.
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - xi ma joho xi kits'ínntu nda̱ postru̱ Jua
+      - Jn.
+  - osis: John
+    texts:
+      - Xu̱ju̱n xi y'ét'a Jua
+      - Jn.
+  - osis: Acts
+    texts:
+      - Ni xi kits'ín já postru̱
+      - Hch.
+  - osis: Rom
+    texts:
+      - Xu̱ju̱n xi kin'ekjíhi̱ xu̱ta̱ ni̱nku̱ Roma̱
+      - Ro.
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - xi tjun kin'ekjíhi̱ xu̱ta̱ ni̱nku̱ Corinto̱
+      - Co.
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - xi ma joho xi kin'ekjíhi̱ xu̱ta̱ ni̱nku̱ Corinto̱
+      - Co.
+  - osis: Col
+    texts:
+      - Xu̱ju̱n xi kin'ekjíhi̱ xu̱ta̱ ni̱nku̱ Colosa̱
+      - Col.
+  - osis: Gal
+    texts:
+      - Xu̱ju̱n xi kin'ekjíhi̱ xu̱ta̱ ni̱nku̱ Galaci̱a̱
+      - Gá.
+  - osis: Eph
+    texts:
+      - Xu̱ju̱n xi kin'ekjíhi̱ xu̱ta̱ ni̱nku̱ Efe̱so̱
+      - Ef.
+  - osis: Phil
+    texts:
+      - Xu̱ju̱n xi kin'ekjíhi̱ xu̱ta̱ ni̱nku̱ Filipo̱
+      - Fil.
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - xi tjun kin'ekjíhi̱ xu̱ta̱ ni̱nku̱ Tesaloni̱ka̱
+      - Ts.
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - xi ma joho xi kin'ekjíhi̱ xu̱ta̱ ni̱nku̱ Tesaloni̱ka̱
+      - Ts.
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - xi tjun kin'ekjíhi̱ Timoteo̱
+      - Ti.
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - xi ma joho xi kin'ekjíhi̱ Timoteo̱
+      - Ti.
+  - osis: Titus
+    texts:
+      - Xu̱ju̱n xi kin'ekjíhi̱ Tito̱
+      - Tit.
+  - osis: Phlm
+    texts:
+      - Xu̱ju̱n xi kin'ekjíhi̱ Filemon
+      - Flm.
+  - osis: Heb
+    texts:
+      - Xu̱ju̱n xi kin'ekjíhi̱ xu̱ta̱ Hebreo̱
+      - He.
+  - osis: Jas
+    texts:
+      - Xu̱ju̱n xi kits'ínntu Santiago̱
+      - Stg.
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - xi tjun kits'ínntu nda̱ postru̱ Pedro̱
+      - P.
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - xi ma joho xi kits'ínntu nda̱ postru̱ Pedro̱
+      - P.
+  - osis: Jude
+    texts:
+      - Xu̱ju̱n xi kits'ínntu Juda̱
+      - Jud.
+translations:
+  - MAJ

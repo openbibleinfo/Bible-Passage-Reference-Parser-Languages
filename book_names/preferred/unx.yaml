@@ -1,0 +1,169 @@
+default:
+  1Cor:
+    long: 1 କୁରିନ୍ଥିୟୋରେନ୍
+    short: 1 କୁରି.
+  1John:
+    long: 1 ଯୋହାନ୍
+    short: 1 ଯୋହା.
+  1Pet:
+    long: 1 ପାତ୍ରାସ୍
+    short: 1 ପାତ.
+  1Thess:
+    long: 1 ଥିସ୍ସଲୁନିକେ ରେନ୍
+    short: 1 ଥିସ.
+  1Tim:
+    long: 1 ତିମୁଥିୟୁସ୍
+    short: 1 ତିମୁ.
+  2Cor:
+    long: 2 କୁରିନ୍ଥିୟୋରେନ୍
+    short: 2 କୁରି.
+  2John:
+    long: 2 ଯୋହାନ୍
+    short: 2 ଯୋହା.
+  2Pet:
+    long: 2 ପାତ୍ରାସ୍
+    short: 2 ପାତ.
+  2Thess:
+    long: 2 ଥିସ୍ସଲୁନିକେ ରେନ୍ କୋ
+    short: 2 ଥିସ.
+  2Tim:
+    long: 2 ତିମୁଥିୟୁସ୍
+    short: 2 ତିମୁ.
+  3John:
+    long: 3 ଯୋହାନ୍
+    short: 3 ଯୋହା.
+  Acts:
+    long: କୁଲାକାନ୍
+    short: କୁଲା.
+  Col:
+    long: କଲସିୟ
+    short: କଲସିୟ
+  Eph:
+    long: ଇଫିସିୟୋ ରେନ୍
+    short: ଇଫି.
+  Gal:
+    long: ଗାଲାତିୟ
+    short: ଗାଲା.
+  Heb:
+    long: ଇବ୍ରାନୀୟୋରେନ୍
+    short: ଇବ୍ରା.
+  Jas:
+    long: ଯାକୁବ
+    short: ଯାକୁବ
+  John:
+    long: ଯୋହାନ୍
+    short: ଯୋହା.
+  Jude:
+    long: ଯିହୁଦା
+    short: ଯିହୁଦା
+  Luke:
+    long: ଲୁକ
+    short: ଲୁକ
+  Mark:
+    long: ମାର୍କ
+    short: ମାର୍କ
+  Matt:
+    long: ମାତ୍ତିଉ
+    short: ମାତ୍ତି.
+  Phil:
+    long: ଫିଲିପିୟ
+    short: ଫିଲି.
+  Phlm:
+    long: ଫିଲେମୋନ୍
+    short: ଫିଲେ.
+  Rev:
+    long: ଉଦୁବ୍‍କାଜି
+    short: ଉଦୁ.
+  Rom:
+    long: ରୋମି
+    short: ରୋମ.
+  Titus:
+    long: ତିତସ୍‌
+    short: ତିତସ୍‌
+translations:
+  ntruu20:
+    1Cor:
+      long: ୧ କରିନ୍ଥିୟ
+      short: ୧ କରିନ୍ଥିୟ
+    1John:
+      long: ୧ ଯୋହାନ୍‌
+      short: ୧ ଯୋହାନ୍‌
+    1Pet:
+      long: ୧ ପାତ୍‌ରାସ୍‌
+      short: ୧ ପାତ୍‌ରାସ୍‌
+    1Thess:
+      long: ୧ ଥେସ୍‌ଲନିକା
+      short: ୧ ଥେସ୍‌ଲନିକା
+    1Tim:
+      long: ୧ ତିମଥି
+      short: ୧ ତିମଥି
+    2Cor:
+      long: ୨ କରିନ୍ଥିୟ
+      short: ୨ କରିନ୍ଥିୟ
+    2John:
+      long: ୨ ଯୋହାନ୍‌
+      short: ୨ ଯୋହାନ୍‌
+    2Pet:
+      long: ୨ ପାତ୍‌ରାସ୍‌
+      short: ୨ ପାତ୍‌ରାସ୍‌
+    2Thess:
+      long: ୨ ଥେସ୍‌ଲନିକା
+      short: ୨ ଥେସ୍‌ଲନିକା
+    2Tim:
+      long: ୨ ତିମଥି
+      short: ୨ ତିମଥି
+    3John:
+      long: ୩ ଯୋହାନ୍‌
+      short: ୩ ଯୋହାନ୍‌
+    Acts:
+      long: ପ୍ରେରିତ୍‌
+      short: ପ୍ରେରିତ୍‌
+    Eph:
+      long: ଏଫିସିୟ
+      short: ଏଫିସିୟ
+    Gal:
+      short: ଗାଲାତିୟ
+    Heb:
+      long: ଏବ୍ରୀ
+      short: ଏବ୍ରୀ
+    John:
+      long: ଯୋହାନ୍‌
+      short: ଯୋହାନ୍‌
+    Matt:
+      long: ମାଥିଉ
+      short: ମାଥିଉ
+    Phil:
+      short: ଫିଲିପିୟ
+    Phlm:
+      long: ଫିଲ୍‌ମନ୍‌
+      short: ଫିଲ୍‌ମନ୍‌
+    Rev:
+      long: ଉନୁଦୁବ୍‌ କାଜି
+      short: ଉନୁଦୁବ୍‌ କାଜି
+    Rom:
+      short: ରୋମି
+  unxnt:
+    Col:
+      long: କୁଲୁସିୟୋରେନ୍
+      short: କୁଲୁ.
+    Gal:
+      long: ଗାଲାତିୟାରେନ୍
+    Jas:
+      long: ୟାକୁବ୍
+      short: ୟାକୁ.
+    Jude:
+      long: ୟାହୁଦା
+      short: ୟାହୁ.
+    Luke:
+      long: ଲୁକା
+      short: ଲୁକା.
+    Mark:
+      long: ମାର୍କୁସ୍
+      short: ମାର୍କୁ.
+    Phil:
+      long: ଫିଲିପିୟାରେନ୍
+    Rom:
+      long: ରୋମ୍‍ରେନ୍
+    Titus:
+      long: ତିତୁସ୍
+      short: ତିତୁ.

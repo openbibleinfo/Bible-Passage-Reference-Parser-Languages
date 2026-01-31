@@ -1,0 +1,534 @@
+default:
+  1Chr:
+    long: 1 Zunh Doic Douh
+  1Cor:
+    long: 1 Ko-lin-To
+  1John:
+    long: 1 Yo^han
+  1Kgs:
+    long: 1 Hungh Douh
+  1Pet:
+    long: 1 Bide
+  1Sam:
+    long: 1 Saa^mu^en
+  1Thess:
+    long: 1 Te-saa-lo-ni-kaa
+  1Tim:
+    long: 1 Ti-mo-Tai
+  2Chr:
+    long: 2 Zunh Doic Douh
+  2Cor:
+    long: 2 Ko-lin-To
+  2John:
+    long: 2 Yo^han
+  2Kgs:
+    long: 2 Hungh Douh
+  2Pet:
+    long: 2 Bide
+  2Sam:
+    long: 2 Saa^mu^en
+  2Thess:
+    long: 2 Te-saa-lo-ni-kaa
+  2Tim:
+    long: 2 Ti-mo-Tai
+  3John:
+    long: 3 Yo^han
+  Acts:
+    long: Gong-Zoh
+  Amos:
+    long: Aamotv
+  Col:
+    long: Ko-lo-sij
+  Dan:
+    long: Daa-ni-en
+  Deut:
+    long: Nzamc Leiz-Latc
+  Eccl:
+    long: Gorngv Seix Zaangc
+  Eph:
+    long: E^fe^so
+  Esth:
+    long: E^se^te
+  Exod:
+    long: Cuotv I^yipv
+  Ezek:
+    long: E^se^ken
+  Ezra:
+    long: E^saa^laa
+  Gal:
+    long: Gaa^laa^tie
+  Gen:
+    long: Tin Deic Douh
+  Hab:
+    long: Haa^mbaa^gukc
+  Hag:
+    long: Hakv^gai
+  Heb:
+    long: Hipv^lu
+  Hos:
+    long: Ho^se^yaa
+  Isa:
+    long: I^saa^yaa
+  Jas:
+    long: Yaagorpc
+  Jer:
+    long: Ye^le^mi
+  Job:
+    long: Yopv
+  Joel:
+    long: Yo^en
+  John:
+    long: Yo^han
+  Jonah:
+    long: Yonaa
+  Josh:
+    long: Yo^su^waa
+  Jude:
+    long: Yiu^ndaa
+  Judg:
+    long: Domh Jien
+  Lam:
+    long: Naanc Zingh Nzung
+  Lev:
+    long: Lewi
+  Luke:
+    long: Lugaa
+  Mal:
+    long: Maa^laa^ki
+  Mark:
+    long: Maako
+  Matt:
+    long: Matv^taai
+  Mic:
+    long: Mikaa
+  Nah:
+    long: Naa^hum
+  Neh:
+    long: Ne^haa^mi
+  Num:
+    long: Saauv Mienh
+  Obad:
+    long: O^mbaa^ndi
+  Phil:
+    long: Fi^lipv^poi
+  Phlm:
+    long: Fi^le^mon
+  Prov:
+    long: Cong-Mengh Waac
+  Ps:
+    long: Singx Nzung
+  Rev:
+    long: Laauc Yaangh
+  Rom:
+    long: Lomaa
+  Ruth:
+    long: Lu^te
+  Song:
+    long: Saa^lo^morn Nyei Nzung
+  Titus:
+    long: Ti-tatg
+  Zech:
+    long: Se^kaa^li^yaa
+  Zeph:
+    long: Se^fan^yaa
+translations:
+  iuminor:
+    1Chr:
+      long: 1 zunb txig trub
+    1John:
+      long: 1 yo-han
+    1Kgs:
+      long: 1 huvb trub
+    1Pet:
+      long: 1 pi-te
+    1Sam:
+      long: 1 saa-mu-en
+    2Chr:
+      long: 2 zunb txig trub
+    2John:
+      long: 2 yo-han
+    2Kgs:
+      long: 2 huvb trub
+    2Pet:
+      long: 2 pi-te
+    2Sam:
+      long: 2 saa-mu-en
+    3John:
+      long: 3 yo-han
+    Acts:
+      long: kovb zob
+    Amos:
+      long: aa-motq
+    Deut:
+      long: Ramg leib latg
+    Eccl:
+      long: kxvq seij zavg
+    Eph:
+      long: e-fe-so
+    Esth:
+      long: e-se-Te
+    Exod:
+      long: Zwrtq i-yipq
+    Ezek:
+      long: e-sej-Ken
+    Ezra:
+      long: e-saa-laa
+    Gal:
+      long: kaa-laa-Tia
+    Gen:
+      long: Tin teig trub
+    Hab:
+      long: haa-Baa-kukg
+    Hag:
+      long: hakq-kai
+    Heb:
+      long: hipq-lu
+    Hos:
+      long: ho-se-yaa
+    Isa:
+      long: i-saa-yaa
+    Jas:
+      long: yaa-kxpg
+    Jer:
+      long: ye-le-mi
+    Job:
+      long: yopq
+    Joel:
+      long: yo-en
+    John:
+      long: yo-han
+    Jonah:
+      long: yo-naa
+    Josh:
+      long: yo-su-waa
+    Jude:
+      long: yiu-Daa
+    Judg:
+      long: tomb Jyen
+    Lam:
+      long: naang zivb Ruv
+    Lev:
+      long: le-wi
+    Luke:
+      long: lu-kaa
+    Mal:
+      long: maa-laa-Ki
+    Mark:
+      long: maa-Ko
+    Matt:
+      long: matq-Taai
+    Mic:
+      long: mi-Kaa
+    Nah:
+      long: naa-hum
+    Neh:
+      long: ne-haa-mi
+    Num:
+      long: saauq myenb
+    Obad:
+      long: o-Baa-Di
+    Phil:
+      long: fi-lipq-Pxi
+    Phlm:
+      long: fi-le-mon
+    Prov:
+      long: Zovb mevb waag
+    Ps:
+      long: sivj Ruv
+    Rev:
+      long: laaug yaavb
+    Rom:
+      long: lo-maa
+    Ruth:
+      long: lu-Te
+    Song:
+      long: saa-lo-mxn Eei Ruv
+    Zech:
+      long: sej-Kaa-li-yaa
+    Zeph:
+      long: sej-fan-yaa
+  iumith:
+    1Chr:
+      long: 1 ฒุ่น ต่อย โต้ว
+    1Cor:
+      long: 1 โค​ลิน​โท
+    1John:
+      long: 1 โย​ฮัน
+    1Kgs:
+      long: 1 ฮู่ง โต้ว
+    1Pet:
+      long: 1 ปี​เต
+    1Sam:
+      long: 1 ซา​มู​เอน
+    1Thess:
+      long: 1 เท​สะ​โล​นิ​กา
+    1Tim:
+      long: 1 ทิ​โม​ไท
+    2Chr:
+      long: 2 ฒุ่น ต่อย โต้ว
+    2Cor:
+      long: 2 โค​ลิน​โท
+    2John:
+      long: 2 โย​ฮัน
+    2Kgs:
+      long: 2 ฮู่ง โต้ว
+    2Pet:
+      long: 2 ปี​เต
+    2Sam:
+      long: 2 ซา​มู​เอน
+    2Thess:
+      long: 2 เท​สะ​โล​นิ​กา
+    2Tim:
+      long: 2 ทิ​โม​ไท
+    3John:
+      long: 3 โย​ฮัน
+    Acts:
+      long: กง-โฒ่
+    Amos:
+      long: อา​โม้ด
+    Col:
+      long: โค​โล​สี
+    Dan:
+      long: ดา​นี​เอน
+    Deut:
+      long: หฑั่ม เล์ย-หลัด
+    Eccl:
+      long: ก๊อง เสย หฒั่ง
+    Eph:
+      long: เอ​เฟ​โซ
+    Esth:
+      long: เอ​เซ​เท
+    Exod:
+      long: ธ้วด อี​ยิบ
+    Ezek:
+      long: เอ​เส​เคน
+    Ezra:
+      long: เอ​สะ​ลา
+    Gal:
+      long: กา​ลา​เทีย
+    Gen:
+      long: ทิน เต่ย โต้ว
+    Hab:
+      long: ฮา​บา​กุก
+    Hag:
+      long: ฮัก​ไก
+    Heb:
+      long: ฮิบ​ลู
+    Hos:
+      long: โฮ​เซ​ยา
+    Isa:
+      long: อิ​สะ​ยา
+    Jas:
+      long: ยา​กอบ
+    Jer:
+      long: เย​เล​มี
+    Job:
+      long: โย้บ
+    Joel:
+      long: โย​เอน
+    John:
+      long: โย​ฮัน
+    Jonah:
+      long: โย​นา
+    Josh:
+      long: โย​ซู​วา
+    Jude:
+      long: ยิว​ดา
+    Judg:
+      long: ต้ม เจียน
+    Lam:
+      long: หน่าน ฒี่ง ฑูง
+    Lev:
+      long: เล​วี
+    Luke:
+      long: ลู​กา
+    Mal:
+      long: มา​ลา​คี
+    Mark:
+      long: มา​โค
+    Matt:
+      long: มัด​ทาย
+    Mic:
+      long: มี​คา
+    Nah:
+      long: นา​ฮูม
+    Neh:
+      long: เน​หะ​มี
+    Num:
+      long: ซ้าว เมี่ยน
+    Obad:
+      long: โอ​บา​ดี
+    Phil:
+      long: ฟี​ลิบ​พอย
+    Phlm:
+      long: ฟี​เล​โมน
+    Prov:
+      long: ธง-เม่ง หว่า
+    Ps:
+      long: สีง ฑูง
+    Rev:
+      long: หล่าว ย่าง
+    Rom:
+      long: โล​มา
+    Ruth:
+      long: ลู​เท
+    Song:
+      long: ซา​โล​มอน เญย ฑูง
+    Titus:
+      long: ทิ​ตัด
+    Zech:
+      long: เส​คา​ลิ​ยา
+    Zeph:
+      long: เส​ฟัน​ยา
+  iumilao:
+    1Chr:
+      long: 1 ຕສຸ້ນ ຕ່ອຍ ໂຕ້ວ
+    1Cor:
+      long: 1 ໂຄ​ລິນ​ໂທ
+    1John:
+      long: 1 ໂຢ​ຮັນ
+    1Kgs:
+      long: 1 ຮູ່ງ ໂຕ້ວ
+    1Pet:
+      long: 1 ປີ​ເຕ
+    1Sam:
+      long: 1 ຊາ​ມູ​ເອນ
+    1Thess:
+      long: 1 ເທ​ສະ​ໂລ​ນິ​ກາ
+    1Tim:
+      long: 1 ທິ​ໂມ​ໄທ
+    2Chr:
+      long: 2 ຕສຸ້ນ ຕ່ອຍ ໂຕ້ວ
+    2Cor:
+      long: 2 ໂຄ​ລິນ​ໂທ
+    2John:
+      long: 2 ໂຢ​ຮັນ
+    2Kgs:
+      long: 2 ຮູ່ງ ໂຕ້ວ
+    2Pet:
+      long: 2 ປີ​ເຕ
+    2Sam:
+      long: 2 ຊາ​ມູ​ເອນ
+    2Thess:
+      long: 2 ເທ​ສະ​ໂລ​ນິ​ກາ
+    2Tim:
+      long: 2 ທິ​ໂມ​ໄທ
+    3John:
+      long: 3 ໂຢ​ຮັນ
+    Acts:
+      long: ກົງ-ໂຕສ້
+    Amos:
+      long: ອາ​ມົດ
+    Col:
+      long: ໂຄ​ໂລ​ສີ
+    Dan:
+      long: ດາ​ນີ​ເອນ
+    Deut:
+      long: ດສ່ຳ ເລີ໌ຍ-ຫລັດ
+    Eccl:
+      long: ກ໊ອງ ເສີຍ ຕສັ່ງ
+    Eph:
+      long: ເອ​ເຟ​ໂຊ
+    Esth:
+      long: ເອ​ເຊ​ເທ
+    Exod:
+      long: ທສວດ ອີ​ຢິ໊ບ
+    Ezek:
+      long: ເອ​ເສ​ເຄນ
+    Ezra:
+      long: ເອ​ສະ​ລາ
+    Gal:
+      long: ກາ​ລາ​ເທຍ
+    Gen:
+      long: ທິນ ເຕີ່ຍ ໂຕ້ວ
+    Hab:
+      long: ຮາ​ບາ​ກຸກ
+    Hag:
+      long: ຮັກ​ໄກ
+    Heb:
+      long: ຮິບ​ລູ
+    Hos:
+      long: ໂຮ​ເຊ​ຢາ
+    Isa:
+      long: ອິ​ສະ​ຢາ
+    Jas:
+      long: ຢາ​ກອບ
+    Jer:
+      long: ເຢ​ເລ​ມີ
+    Job:
+      long: ໂຢ໊ບ
+    Joel:
+      long: ໂຢ​ເອນ
+    John:
+      long: ໂຢ​ຮັນ
+    Jonah:
+      long: ໂຢ​ນາ
+    Josh:
+      long: ໂຢ​ຊູ​ວາ
+    Jude:
+      long: ຢິວ​ດາ
+    Judg:
+      long: ຕົ້ມ ຈຽນ
+    Lam:
+      long: ໜ່ານ ຕສີ້ງ ດສູງ
+    Lev:
+      long: ເລ​ວີ
+    Luke:
+      long: ລູ​ກາ
+    Mal:
+      long: ມາ​ລາ​ຄີ
+    Mark:
+      long: ມາ​ໂຄ
+    Matt:
+      long: ມັດ​ທາຍ
+    Mic:
+      long: ມີ​ຄາ
+    Nah:
+      long: ນາ​ຮູມ
+    Neh:
+      long: ເນ​ຫະ​ມີ
+    Num:
+      long: ຊ້າວ ມ່ຽນ
+    Obad:
+      long: ໂອ​ບາ​ດີ
+    Phil:
+      long: ຟີ​ລິບ​ພອຍ
+    Phlm:
+      long: ຟີ​ເລ​ມົນ
+    Prov:
+      long: ທສົງ-ເມ່ງ ຫວ່າ
+    Ps:
+      long: ສີງ ດສູງ
+    Rev:
+      long: ຫລ່າວ ຢ້າງ
+    Rom:
+      long: ໂລ​ມາ
+    Ruth:
+      long: ລູ​ເທ
+    Song:
+      long: ຊາ​ໂລ​ມອນ ເຍີຍ ດສູງ
+    Titus:
+      long: ທິ​ຕັດ
+    Zech:
+      long: ເສ​ຄາ​ລິ​ຢາ
+    Zeph:
+      long: ເສ​ຟັນ​ຢາ
+  iuminr:
+    1Cor:
+      long: 1 Ko^lin^to
+    1Thess:
+      long: 1 Te^saa^lo^ni^gaa
+    1Tim:
+      long: 1 Ti^mo^tai
+    2Cor:
+      long: 2 Ko^lin^to
+    2Thess:
+      long: 2 Te^saa^lo^ni^gaa
+    2Tim:
+      long: 2 Ti^mo^tai
+    Col:
+      long: Ko^lo^si
+    Dan:
+      long: Ndaa^ni^en
+    Titus:
+      long: Tidatc

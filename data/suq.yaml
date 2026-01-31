@@ -1,0 +1,99 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Lɔgɔ Sabba
+      - Sab
+  - osis: Jonah
+    texts:
+      - Dadaba Yonasi
+      - Yon
+  - osis: Matt
+    texts:
+      - Matiyos
+      - Mat
+  - osis: Mark
+    texts:
+      - Markos
+      - Mar
+  - osis: 1John
+    texts:
+      - 1Yoh
+  - osis: 2John
+    texts:
+      - 2Yoh
+  - osis: 3John
+    texts:
+      - 3 Yohanis
+      - 3Yoh
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yohanis
+  - osis: John
+    texts:
+      - Yohanis
+      - Yoh
+  - osis: Acts
+    texts:
+      - Zuga Kèkko
+      - Zug
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tɛsɛlongke
+  - osis: 1Thess
+    texts:
+      - 1Tɛs
+  - osis: 2Thess
+    texts:
+      - 2Tɛs
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotiyos
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Silimona
+      - Sil
+  - osis: Jas
+    texts:
+      - Yaykob
+      - Yay
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Betiros
+  - osis: 2Pet
+    texts:
+      - 2Bet
+  - osis: Jude
+    texts:
+      - Yihudha
+      - Yih
+translations:
+  - SUQ

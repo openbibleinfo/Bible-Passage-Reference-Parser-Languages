@@ -1,0 +1,141 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Kuekuligwa
+      - Kuek
+  - osis: Matt
+    texts:
+      - Matayo
+      - Mat
+  - osis: Mark
+    texts:
+      - Maluko
+      - Malk
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Yoh
+  - osis: 2John
+    texts:
+      - 2Yoh
+  - osis: 3John
+    texts:
+      - 3 Yohana
+      - 3Yoh
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yohana
+  - osis: John
+    texts:
+      - Yohana
+      - Yoh
+  - osis: Acts
+    texts:
+      - Itendwa
+      - Ite
+  - osis: Rom
+    texts:
+      - Akaloma
+      - Akal
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Akakolinto
+  - osis: 1Cor
+    texts:
+      - 1Akak
+  - osis: 2Cor
+    texts:
+      - 2Akak
+  - osis: Col
+    texts:
+      - Akakolosai
+      - Akak
+  - osis: Gal
+    texts:
+      - Akagalatia
+      - Akag
+  - osis: Eph
+    texts:
+      - Akaefeso
+      - Akae
+  - osis: Phil
+    texts:
+      - Akafilipi
+      - Akaf
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Akasesalonike
+  - osis: 1Thess
+    texts:
+      - 1Akas
+  - osis: 2Thess
+    texts:
+      - 2Akas
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemoni
+      - Fil
+  - osis: Heb
+    texts:
+      - Akaebulania
+      - Akaeb
+  - osis: Jas
+    texts:
+      - Yakobo
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petulo
+  - osis: 1Pet
+    texts:
+      - 1Pet
+  - osis: 2Pet
+    texts:
+      - 2Pet
+  - osis: Jude
+    texts:
+      - Yuda
+      - Yud
+translations:
+  - NNQNT

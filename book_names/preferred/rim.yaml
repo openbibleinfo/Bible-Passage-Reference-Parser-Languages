@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 Akorinto
+    short: 1Ko
+  1John:
+    long: 1 Yohana
+    short: 1Yoh
+  1Pet:
+    long: 1 Fetero
+    short: 1Fe
+  1Thess:
+    long: 1 Atesalonike
+    short: 1Te
+  1Tim:
+    long: 1 Timoteo
+    short: 1Ti
+  2Cor:
+    long: 2 Akorinto
+    short: 2Ko
+  2John:
+    long: 2 Yohana
+    short: 2Yoh
+  2Pet:
+    long: 2 Fetero
+    short: 2Fe
+  2Thess:
+    long: 2 Atesalonike
+    short: 2Te
+  2Tim:
+    long: 2 Timoteo
+    short: 2Ti
+  3John:
+    long: 3 Yohana
+    short: 3Yoh
+  Acts:
+    long: Nte
+    short: Nte
+  Col:
+    long: Akolosai
+    short: aKo
+  Eph:
+    long: VaEfeso
+    short: Efe
+  Gal:
+    long: Agalatia
+    short: aGa
+  Heb:
+    long: Vaeburania
+    short: Ebr
+  Jas:
+    long: Yakobo
+    short: Yak
+  John:
+    long: Yohana
+    short: Yoh
+  Jude:
+    long: Yuda
+    short: Yud
+  Luke:
+    long: Luka
+    short: Luk
+  Mark:
+    long: Mariko
+    short: Mrk
+  Matt:
+    long: Matayo
+    short: Mat
+  Phil:
+    long: Vafilifi
+    short: aFi
+  Phlm:
+    long: Filimoni
+    short: Fil
+  Rev:
+    long: Ukunukuo
+    short: Uku
+  Rom:
+    long: Arumi
+    short: Aru
+  Titus:
+    long: Tito
+    short: Tit

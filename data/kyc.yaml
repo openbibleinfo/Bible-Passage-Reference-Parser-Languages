@@ -1,0 +1,264 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Jenesese
+      - Jen
+  - osis: Exod
+    texts:
+      - Ekesetase
+      - Ek
+  - osis: Lev
+    texts:
+      - Lipitikase
+      - Li
+  - osis: Num
+    texts:
+      - Nambase
+      - Nam
+  - osis: Lam
+    texts:
+      - Ee Lenge Kenane Dupwa
+      - Ee
+  - osis: Rev
+    texts:
+      - Orepalaisane
+      - Orep
+  - osis: Deut
+    texts:
+      - Dutaronome
+      - Du
+  - osis: Josh
+    texts:
+      - Josua
+      - Jos
+  - osis: Judg
+    texts:
+      - Jasi
+      - Jas
+  - osis: Ruth
+    texts:
+      - Uruti
+      - Uru
+  - osis: Isa
+    texts:
+      - Aisaya
+      - Ai
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samyuele
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Kiŋi
+      - Ki
+  - osis:
+      - osis: 1Chr
+        before: *first
+    texts:
+      - Koronekolese
+      - Koro
+  - osis: Ezra
+    texts:
+      - Esera
+      - Es
+  - osis: Neh
+    texts:
+      - Niyamaya
+      - Ni
+  - osis: Esth
+    texts:
+      - Eseta
+      - Ese
+  - osis: Job
+    texts:
+      - Jopo
+  - osis: Ps
+    texts:
+      - Samu
+      - Sa
+  - osis: Prov
+    texts:
+      - Poropepe
+      - Po
+  - osis: Eccl
+    texts:
+      - Ekelesiyastisi
+      - Eke
+  - osis: Song
+    texts:
+      - Kenane Solomeneme Piya
+      - Sol
+  - osis: Jer
+    texts:
+      - Jeremaya
+      - Je
+  - osis: Ezek
+    texts:
+      - Isikiolo
+      - Isi
+  - osis: Dan
+    texts:
+      - Daniele
+      - Dan
+  - osis: Hos
+    texts:
+      - Osia
+      - Os
+  - osis: Joel
+    texts:
+      - Joele
+      - Joe
+  - osis: Amos
+    texts:
+      - Emosa
+      - Em
+  - osis: Obad
+    texts:
+      - Opetaya
+      - Op
+  - osis: Jonah
+    texts:
+      - Jona
+  - osis: Mic
+    texts:
+      - Maeka
+      - Mae
+  - osis: Nah
+    texts:
+      - Neyame
+      - Ne
+  - osis: Hab
+    texts:
+      - Apakuku
+      - Apa
+  - osis: Zeph
+    texts:
+      - Sepanaya
+      - Sep
+  - osis: Hag
+    texts:
+      - Akai
+      - Ak
+  - osis: Zech
+    texts:
+      - Sekaraya
+      - Sek
+  - osis: Mal
+    texts:
+      - Malakae
+      - Mal
+  - osis: Matt
+    texts:
+      - Matyu
+      - Mat
+  - osis: Mark
+    texts:
+      - Make
+      - Mak
+  - osis: Luke
+    texts:
+      - Luku
+      - Lu
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jone
+      - Jo
+  - osis: Acts
+    texts:
+      - Aposelena Yulu
+      - Apos
+  - osis: Rom
+    texts:
+      - Orome
+      - Oro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korina
+      - Kor
+  - osis: Col
+    texts:
+      - Kolosi
+      - Kol
+  - osis: Gal
+    texts:
+      - Galasia
+      - Gal
+  - osis: Eph
+    texts:
+      - Epesasa
+      - Epes
+  - osis: Phil
+    texts:
+      - Pilipai
+      - Pilip
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonaika
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+      - Tim
+  - osis: Titus
+    texts:
+      - Taitesa
+      - Tai
+  - osis: Phlm
+    texts:
+      - Pilimone
+      - Pil
+  - osis: Heb
+    texts:
+      - Ipuru
+      - Ipu
+  - osis: Jas
+    texts:
+      - Jemesa
+      - Jem
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+  - osis: Jude
+    texts:
+      - Juti
+      - Ju
+translations:
+  - KYC

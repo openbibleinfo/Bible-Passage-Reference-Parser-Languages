@@ -1,0 +1,357 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Cenisihs
+      - ᒉᓂᓯᔅ
+      - Gen
+  - osis: Exod
+    texts:
+      - Ekihsatahs
+      - ᐁᑭᓴᑕᔅ
+      - Exo
+  - osis: Lev
+    texts:
+      - Lipitikahs
+      - ᓬᐃᐱᑎᑲᔅ
+      - Lev
+  - osis: Num
+    texts:
+      - Akintaahsonan
+      - ᐊᑭᑖᓱᓇᓐ
+      - Num
+  - osis: Lam
+    texts:
+      - Maanentamowin
+      - ᒫᓀᑕᒧᐎᓐ
+      - Lam
+  - osis: Rev
+    texts:
+      - Kihkentamooshiwewin
+      - ᑭᑫᑕᒨᔑᐌᐎᓐ
+      - Rev
+  - osis: Deut
+    texts:
+      - Tootaraanamii
+      - ᑑᑕᕒᐋᓇᒦ
+      - Deu
+  - osis: Josh
+    texts:
+      - Caahshowaa
+      - Jos
+      - ᒑᔓᐙ
+  - osis: Judg
+    texts:
+      - Onaahkonikek
+      - ᐅᓈᑯᓂᑫᒃ
+      - Jdg
+  - osis: Ruth
+    texts:
+      - Oroot
+      - ᐅᕒᐆᑦ
+      - Rut
+  - osis: Isa
+    texts:
+      - Aaiseya
+      - ᐋᐃᓭᔭ
+      - Isa
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Saamiyoo
+      - ᓵᒥᔫ
+  - osis: 1Sam
+    texts:
+      - 1Sa
+  - osis: 2Sam
+    texts:
+      - 2Sa
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Kihciokimaak
+      - ᑭᒋᐅᑭᒫᒃ
+  - osis: 1Kgs
+    texts:
+      - 1Ki
+  - osis: 2Kgs
+    texts:
+      - 2Ki
+  - osis: Ezra
+    texts:
+      - Esara
+      - ᐁᓴᕒᐊ
+      - Ezr
+  - osis: Neh
+    texts:
+      - Niiyamaaya
+      - ᓃᔭᒫᔭ
+      - Neh
+  - osis: Esth
+    texts:
+      - Ehstar
+      - ᐁᔅᑕᕒ
+      - Est
+  - osis: Job
+    texts:
+      - Coop
+      - Job
+      - ᒎᑉ
+  - osis: Ps
+    texts:
+      - Nikamonan
+      - ᓂᑲᒧᓇᓐ
+      - Psa
+  - osis: Prov
+    texts:
+      - Kakiihtaawikiishwewinan
+      - ᑲᑮᑖᐎᑮᔗᐎᓇᓐ
+      - Pro
+  - osis: Eccl
+    texts:
+      - Kaakihkentaahsotc
+      - ᑳᑭᑫᑖᓱᒡ
+      - Ecc
+  - osis: Song
+    texts:
+      - Swaalaman Onikamonan
+      - ᔂᓬᐊᒪᓐ ᐅᓂᑲᒧᓇᓐ
+      - Sng
+  - osis: Jer
+    texts:
+      - Ceramaaya
+      - ᒉᕒᐊᒫᔭ
+      - Jer
+  - osis: Ezek
+    texts:
+      - Iisiihkiyoo
+      - ᐄᓰᑭᔫ
+      - Ezk
+  - osis: Dan
+    texts:
+      - Taaniyoo
+      - Dan
+      - ᑖᓂᔫ
+  - osis: Hos
+    texts:
+      - Hosiiya
+      - Hosea
+      - ᐅᓰᔭ
+  - osis: Joel
+    texts:
+      - Coowel
+      - Joel
+      - ᒎᐌᓬ
+  - osis: Amos
+    texts:
+      - Emahs
+      - Amos
+      - ᐁᒪᔅ
+  - osis: Obad
+    texts:
+      - Oopitaaya
+      - ᐆᐱᑖᔭ
+      - Oba
+  - osis: Jonah
+    texts:
+      - Coona
+      - Jon
+      - ᒎᓇ
+  - osis: Mic
+    texts:
+      - Maaihka
+      - Mic
+      - ᒫᐃᑲ
+  - osis: Nah
+    texts:
+      - Neham
+      - Nah
+      - ᓀᐊᒻ
+  - osis: Hab
+    texts:
+      - Haapakahk
+      - ᐋᐸᑲᒃ
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sehpanaaya
+      - Zeph
+      - ᓭᐸᓈᔭ
+  - osis: Hag
+    texts:
+      - Haakeaai
+      - ᐋᑫᐋᐃ
+      - Hag
+  - osis: Zech
+    texts:
+      - Sehkaraaya
+      - ᓭᑲᕒᐋᔭ
+      - Zech
+  - osis: Mal
+    texts:
+      - Maalahkaai
+      - ᒫᓬᐊᑳᐃ
+      - Mal
+  - osis: Matt
+    texts:
+      - Maahtiyo
+      - Mat
+      - ᒫᑎᔪ
+  - osis: Mark
+    texts:
+      - Maarhk
+      - Mrk
+      - ᒫᕒᒃ
+  - osis: Luke
+    texts:
+      - Lok
+      - Luk
+      - ᓬᐅᒃ
+  - osis: 1John
+    texts:
+      - 1Jn
+  - osis: 2John
+    texts:
+      - 2Jn
+  - osis: 3John
+    texts:
+      - 3 Cwaan
+      - 3 ᒞᓐ
+      - 3Jn
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Cwaan
+      - ᒞᓐ
+  - osis: John
+    texts:
+      - Cwaan
+      - Jhn
+      - ᒞᓐ
+  - osis: Acts
+    texts:
+      - Ishihcikewinan
+      - ᐃᔑᒋᑫᐎᓇᓐ
+      - Act
+  - osis: Rom
+    texts:
+      - Oroomanak
+      - ᐅᕒᐆᒪᓇᒃ
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Karintiyanak
+      - ᑲᕒᐃᑎᔭᓇᒃ
+  - osis: 1Cor
+    texts:
+      - 1Co
+  - osis: 2Cor
+    texts:
+      - 2Co
+  - osis: Col
+    texts:
+      - Kalaahshiyanak
+      - ᑲᓬᐋᔑᔭᓇᒃ
+      - Col
+  - osis: Gal
+    texts:
+      - Kalehshiyanak
+      - ᑲᓬᐁᔑᔭᓇᒃ
+      - Gal
+  - osis: Eph
+    texts:
+      - Ihpiishiyanak
+      - ᐃᐲᔑᔭᓇᒃ
+      - Eph
+  - osis: Phil
+    texts:
+      - Pilipiyanak
+      - ᐱᓬᐃᐱᔭᓇᒃ
+      - Php
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tehsalooniyanak
+      - ᑌᓴᓬᐆᓂᔭᓇᒃ
+  - osis: 1Thess
+    texts:
+      - 1Th
+  - osis: 2Thess
+    texts:
+      - 2Th
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timahti
+      - ᑎᒪᑎ
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Taitahs
+      - Titus
+      - ᑕᐃᑕᔅ
+  - osis: Phlm
+    texts:
+      - Paailiiman
+      - Philem
+      - ᐹᐃᓬᐄᒪᓐ
+  - osis: Heb
+    texts:
+      - Hiiparoowak
+      - ᐄᐸᕒᐆᐗᒃ
+      - Heb
+  - osis: Jas
+    texts:
+      - Ciimis
+      - Jas
+      - ᒌᒥᔅ
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piitar
+      - ᐲᑕᕒ
+  - osis: 1Pet
+    texts:
+      - 1Pe
+  - osis: 2Pet
+    texts:
+      - 2Pe
+  - osis: Jude
+    texts:
+      - Coot
+      - Jud
+      - ᒎᑦ
+translations:
+  - OJBR
+  - OJBS

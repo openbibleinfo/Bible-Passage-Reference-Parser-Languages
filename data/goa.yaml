@@ -1,0 +1,274 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Wepélisiananu
+      - Wp
+  - osis: Exod
+    texts:
+      - Fwile
+      - Fw
+  - osis: Lev
+    texts:
+      - Lévinu
+      - Lév
+  - osis: Num
+    texts:
+      - Mi Nɔnɔle
+      - Mi N
+  - osis: Lam
+    texts:
+      - Jérémi Lé Wuvɔ Sɛbɛ
+      - Jér Ws
+  - osis: Rev
+    texts:
+      - Wegɔɔnle
+      - Wg
+  - osis: Deut
+    texts:
+      - Bélidɔwesɛbɛ Fiézan
+      - 2 Bdws
+  - osis: Josh
+    texts:
+      - Jozué
+      - Joz
+  - osis: Judg
+    texts:
+      - Weblezannu
+      - Wbz
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis: Isa
+    texts:
+      - Ézai
+      - Éz
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuɛl
+      - Sam
+  - osis:
+      - osis: 1Chr
+        before: *first
+    texts:
+      - Mnzfs
+  - osis: 1Chr
+    texts:
+      - Minwiinzannu lé Wezuofe Sɛbɛ
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Minwiinzannu
+      - Mnw
+  - osis:
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Minwiinmunu lé Wezuofe Sɛbɛ
+      - Mnzfs
+  - osis: Ezra
+    texts:
+      - Ezidras
+      - Ezd
+  - osis: Neh
+    texts:
+      - Néémi
+      - Néé
+  - osis: Esth
+    texts:
+      - Esitɛɛ
+      - Es
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Lɛrɛvɔ Sɛbɛ
+      - LvS
+  - osis: Prov
+    texts:
+      - Wegɔnévɔlenu
+      - Wgv
+  - osis: Eccl
+    texts:
+      - Bale Lé We Gifezan
+      - Bwgfz
+  - osis: Song
+    texts:
+      - Wegɔné Ma Lɛrɛ
+      - Wml
+  - osis: Jer
+    texts:
+      - Jérémi
+      - Jér
+  - osis: Ezek
+    texts:
+      - Ézékiɛl
+      - Ézék
+  - osis: Dan
+    texts:
+      - Daniɛl
+      - Dan
+  - osis: Hos
+    texts:
+      - Ozé
+  - osis: Joel
+    texts:
+      - Joɛl
+      - Jo
+  - osis: Amos
+    texts:
+      - Amɔs
+      - Am
+  - osis: Obad
+    texts:
+      - Abudias
+      - Abd
+  - osis: Jonah
+    texts:
+      - Jonas
+      - Jon
+  - osis: Mic
+    texts:
+      - Misé
+      - Mis
+  - osis: Nah
+    texts:
+      - Naum
+      - Na
+  - osis: Hab
+    texts:
+      - Abaku
+      - Aba
+  - osis: Zeph
+    texts:
+      - Sofoni
+      - Sof
+  - osis: Hag
+    texts:
+      - Agajé
+      - Ag
+  - osis: Zech
+    texts:
+      - Zakari
+      - Zak
+  - osis: Mal
+    texts:
+      - Malasi
+      - Mal
+  - osis: Matt
+    texts:
+      - Matio
+      - Mt
+  - osis: Mark
+    texts:
+      - Maak
+      - Mk
+  - osis: Luke
+    texts:
+      - Luk
+      - Lk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jan
+      - Jn
+  - osis: Acts
+    texts:
+      - Kelewenu
+      - Kw
+  - osis: Rom
+    texts:
+      - Rom munu
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Korent munu
+      - Kor
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korɛnt Munu
+      - Kor
+  - osis: Col
+    texts:
+      - Kolɔs munu
+      - Kol
+  - osis: Gal
+    texts:
+      - Galasi munu
+      - Gal
+  - osis: Eph
+    texts:
+      - Éfez munu
+      - Éf
+  - osis: Phil
+    texts:
+      - Filip munu
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tɛsalɔnik munu
+      - Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoté
+      - Tim
+  - osis: Titus
+    texts:
+      - Tite
+      - Ti
+  - osis: Phlm
+    texts:
+      - Filémɔn
+      - Flm
+  - osis: Heb
+    texts:
+      - Ébrunu
+      - Ébr
+  - osis: Jas
+    texts:
+      - Jak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piɛri
+      - Pi
+  - osis: Jude
+    texts:
+      - Jud
+translations:
+  - GOURU

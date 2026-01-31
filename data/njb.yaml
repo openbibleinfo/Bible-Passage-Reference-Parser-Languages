@@ -1,0 +1,123 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Loatkhesok
+      - Lks
+  - osis: Matt
+    texts:
+      - Mathiu
+      - Mt
+  - osis: Mark
+    texts:
+      - Mak
+  - osis: Luke
+    texts:
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Jn
+  - osis: 2John
+    texts:
+      - 2Jn
+  - osis: 3John
+    texts:
+      - 3 Jon
+      - 3Jn
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jon
+  - osis: John
+    texts:
+      - Jhn
+      - Jon
+  - osis: Acts
+    texts:
+      - Moatlem
+      - Ml
+  - osis: Rom
+    texts:
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korint
+      - Kor
+  - osis: Col
+    texts:
+      - Kolosien
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatien
+      - Gal
+  - osis: Eph
+    texts:
+      - Ifisien
+      - Ifi
+  - osis: Phil
+    texts:
+      - Filipien
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thisalonika
+  - osis: 1Thess
+    texts:
+      - 1Th
+  - osis: 2Thess
+    texts:
+      - 2Th
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothi
+      - Tim
+  - osis: Titus
+    texts:
+      - Titas
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filimon
+      - Film
+  - osis: Heb
+    texts:
+      - Hibru
+      - Hib
+  - osis: Jas
+    texts:
+      - Jems
+      - Js
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piter
+      - Pit
+  - osis: Jude
+    texts:
+      - Jud
+      - Jd
+translations:
+  - NOKTBSI

@@ -1,0 +1,88 @@
+default:
+  1Cor:
+    long: 1 Kolinito
+    short: 1Ko
+  1John:
+    long: 1 Ionesi
+    short: 1Ioa
+  1Pet:
+    long: 1 Pita
+    short: 1Pi
+  1Thess:
+    long: 1 Tesalonika
+    short: 1Te
+  1Tim:
+    long: 1 Timoti
+    short: 1Ti
+  2Cor:
+    long: 2 Kolinito
+    short: 2Ko
+  2John:
+    long: 2 Ionesi
+    short: 2Ioa
+  2Pet:
+    long: 2 Pita
+    short: 2Pi
+  2Thess:
+    long: 2 Tesalonika
+    short: 2Te
+  2Tim:
+    long: 2 Timoti
+    short: 2Ti
+  3John:
+    long: 3 Ioanesi
+    short: 3Ioa
+  Acts:
+    long: Aposeli
+    short: Apo
+  Col:
+    long: Kolosi
+    short: Kol
+  Eph:
+    long: Epeso
+    short: Ep
+  Gal:
+    long: Xalatia
+    short: Xal
+  Gen:
+    long: Tavaꞌu
+    short: Tav
+  Heb:
+    long: Evalaio
+    short: Eva
+  Jas:
+    long: Iakovo
+    short: Iak
+  John:
+    long: Ioanesi
+    short: Ioa
+  Jonah:
+    long: Iona
+    short: Io
+  Jude:
+    long: Iudasi
+    short: Iud
+  Luke:
+    long: Luka
+    short: Luk
+  Mark:
+    long: Maluko
+    short: Mak
+  Matt:
+    long: Mataio
+    short: Mat
+  Phil:
+    long: Pilipai
+    short: Pil
+  Phlm:
+    long: Pilimoni
+    short: Plm
+  Rev:
+    long: Revelesen
+    short: Pal
+  Rom:
+    long: Romu
+    short: Rom
+  Titus:
+    long: Tito
+    short: Tit

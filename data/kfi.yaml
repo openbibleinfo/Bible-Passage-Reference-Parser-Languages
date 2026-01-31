@@ -1,0 +1,97 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - வெளி. காரியகோளு
+      - வெளி
+  - osis: Matt
+    texts:
+      - மத்தேயு
+  - osis: Mark
+    texts:
+      - மாற்கு
+  - osis: Luke
+    texts:
+      - லூக்கா
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - யோவானு
+  - osis: Acts
+    texts:
+      - வி.தூ. கெலசகோளு
+      - வி.தூ.கெலசகோளு
+  - osis: Rom
+    texts:
+      - ரோமரு
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - கொரிந்தியரு
+      - கொரி
+  - osis: Col
+    texts:
+      - கொலோசெயரு
+  - osis: Gal
+    texts:
+      - கலாத்தியரு
+  - osis: Eph
+    texts:
+      - எபேசியரு
+  - osis: Phil
+    texts:
+      - பிலிப்பியரு
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - தெசலோனிக்கேயா
+      - தெசலோனிகேயரு
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - தீமோத்தேயு
+  - osis: Titus
+    texts:
+      - தீத்து
+  - osis: Phlm
+    texts:
+      - பிலேமோனு
+  - osis: Heb
+    texts:
+      - எபிரெயரு
+  - osis: Jas
+    texts:
+      - யாக்கோபு
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - பேதுரு
+  - osis: Jude
+    texts:
+      - யூதா
+translations:
+  - KFI

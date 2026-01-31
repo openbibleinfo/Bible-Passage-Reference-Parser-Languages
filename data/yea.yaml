@@ -1,0 +1,112 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - കാട്ടികൊടുത്ത കാരിയ
+      - കാട്ടി
+  - osis: Matt
+    texts:
+      - മത്തായി
+      - മത്താ
+  - osis: Mark
+    texts:
+      - മറുക്കോച്ചു
+      - മറു
+  - osis: Luke
+    texts:
+      - ലൂക്കോച്ചു
+      - ലൂക്കോ
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - ഓഗെന്നാനു
+      - ഓഗെ
+  - osis: Acts
+    texts:
+      - അപ്പോച്ചോലെര ചെയിദ കാരിയ
+      - അപ്പോ
+  - osis: Rom
+    texts:
+      - റോമിലെര
+      - റോമി
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - കൊരിന്തിയെര
+      - കൊരി
+  - osis: Col
+    texts:
+      - കൊലോച്ചിയെര
+      - കൊലോ
+  - osis: Gal
+    texts:
+      - ഗെലാത്തിയെര
+      - ഗെലാ
+  - osis: Eph
+    texts:
+      - എപേച്ചിയെര
+      - എപേ
+  - osis: Phil
+    texts:
+      - പിലിപ്പിയെര
+      - പിലി
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - തെച്ചലോനിക്കെര
+      - തെച്ച
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - തിമോത്തിയോച്ചു
+      - തിമോ
+  - osis: Titus
+    texts:
+      - തീത്തോച്ചു
+      - തീത്തോ
+  - osis: Phlm
+    texts:
+      - പിലോമോനു
+      - പിലോ
+  - osis: Heb
+    texts:
+      - എബ്ബുറായെര
+      - എബ്ബു
+  - osis: Jas
+    texts:
+      - ആക്കോബു
+      - ആക്കോ
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - പത്തുറോച്ചു
+      - പത്തു
+  - osis: Jude
+    texts:
+      - ഊദെ
+translations:
+  - RAVULA

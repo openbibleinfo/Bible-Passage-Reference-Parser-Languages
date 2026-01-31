@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Kronikɛls
+    short: 1Kr
+  1Cor:
+    long: 1 Kɔrintebi
+    short: 1Kɔ
+  1John:
+    long: 1 Jɔn
+    short: 1Jn
+  1Kgs:
+    long: 1 Bewura
+    short: 1Bw
+  1Pet:
+    long: 1 Pita
+    short: 1Pt
+  1Sam:
+    long: 1 Samuɛl
+    short: 1Sa
+  1Thess:
+    long: 1 Tɛsalɔnikaebi
+    short: 1Tɛ
+  1Tim:
+    long: 1 Timoti
+    short: 1Tm
+  2Chr:
+    long: 2 Kronikɛls
+    short: 2Kr
+  2Cor:
+    long: 2 Kɔrintebi
+    short: 2Kɔ
+  2John:
+    long: 2 Jɔn
+    short: 2Jn
+  2Kgs:
+    long: 2 Bewura
+    short: 2Bw
+  2Pet:
+    long: 2 Pita
+    short: 2Pt
+  2Sam:
+    long: 2 Samuɛl
+    short: 2Sa
+  2Thess:
+    long: 2 Tɛsalɔnikaebi
+    short: 2Tɛ
+  2Tim:
+    long: 2 Timoti
+    short: 2Tm
+  3John:
+    long: 3 Jɔn
+    short: 3Jn
+  Acts:
+    long: Ashuŋ Shunso
+    short: Ash
+  Amos:
+    long: Eemɔs
+    short: Eem
+  Col:
+    long: Kɔlɔsiebi
+    short: Kɔl
+  Dan:
+    long: Danɛl
+    short: Dan
+  Deut:
+    long: Ditɛronɔmi
+    short: Dit
+  Eccl:
+    long: Kaŋinichiŋgeliŋ
+    short: Kaŋ
+  Eph:
+    long: Ɛfesesebi
+    short: Ɛfe
+  Esth:
+    long: Ɛsta
+    short: Ɛst
+  Exod:
+    long: Ɛksodɔs
+    short: Ɛks
+  Ezek:
+    long: Ezikɛl
+    short: Ezi
+  Ezra:
+    long: Ɛzra
+    short: Ɛz
+  Gal:
+    long: Galeeshaebi
+    short: Gal
+  Gen:
+    long: Jɛnesis
+    short: Jɛn
+  Hab:
+    long: Habakuk
+    short: Hab
+  Hag:
+    long: Heegai
+    short: Heg
+  Heb:
+    long: Hibruwebi
+    short: Hib
+  Hos:
+    long: Hoziya
+    short: Hoz
+  Isa:
+    long: Aizaaya
+    short: Aiz
+  Jas:
+    long: Jeems
+    short: Jem
+  Jer:
+    long: Jɛremaya
+    short: Jɛr
+  Job:
+    long: Job
+    short: Job
+  Joel:
+    long: Jowɛl
+    short: Jol
+  John:
+    long: Jɔn
+    short: Jn
+  Jonah:
+    long: Jona
+    short: Jon
+  Josh:
+    long: Joshuwa
+    short: Jos
+  Jude:
+    long: Juud
+    short: Jud
+  Judg:
+    long: Demujipoana
+    short: Dem
+  Lam:
+    long: Nfabel
+    short: Nfa
+  Lev:
+    long: Levitikɔs
+    short: Lev
+  Luke:
+    long: Luuk
+    short: Luk
+  Mal:
+    long: Malakai
+    short: Mal
+  Mark:
+    long: Maak
+    short: Mak
+  Matt:
+    long: Matiu
+    short: Mat
+  Mic:
+    long: Maika
+    short: Mai
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nehemaya
+    short: Neh
+  Num:
+    long: Nɔmbɛs
+    short: Nɔm
+  Obad:
+    long: Obadaya
+    short: Oba
+  Phil:
+    long: Filipaiebi
+    short: Fil
+  Phlm:
+    long: Failimɔn
+    short: Flm
+  Prov:
+    long: Aŋasa
+    short: Aŋa
+  Ps:
+    long: Nshɛ
+    short: Nsh
+  Rev:
+    long: Kelaraŋŋini
+    short: Kel
+  Rom:
+    long: Romebi
+    short: Rom
+  Ruth:
+    long: Ruf
+    short: Ruf
+  Song:
+    long: Sɔlɔmɔn
+    short: Sɔl
+  Titus:
+    long: Taites
+    short: Tai
+  Zech:
+    long: Zakareya
+    short: Zak
+  Zeph:
+    long: Zefanaiya
+    short: Zef

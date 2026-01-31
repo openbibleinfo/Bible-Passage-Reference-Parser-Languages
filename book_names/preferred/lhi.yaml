@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 Kawd renr thuq liq
+    short: 1K
+  1John:
+    long: 1 Yod hanr liq
+    short: 1Yh
+  1Pet:
+    long: 1 Per truq liq
+    short: 1Pt
+  1Thess:
+    long: 1 Thed sar lawd niq liq
+    short: 1The
+  1Tim:
+    long: 1 Tiq mod ser liq
+    short: 1Ts
+  2Cor:
+    long: 2 Kawd renr thuq liq
+    short: 2K
+  2John:
+    long: 2 Yod hanr liq
+    short: 2Yh
+  2Pet:
+    long: 2 Per truq liq
+    short: 2Pt
+  2Thess:
+    long: 2 Thed sar lawd niq liq
+    short: 2The
+  2Tim:
+    long: 2 Tiq mod ser liq
+    short: 2Ti
+  3John:
+    long: 3 Yod hanr liq
+    short: 3Yh
+  Acts:
+    long: Cuh yad liq
+    short: Cy
+  Col:
+    long: Kaw law sehd liq
+    short: Kl
+  Eph:
+    long: Ed fed suq liq
+    short: Ef
+  Gal:
+    long: Gar lar tiq liq
+    short: Gl
+  Heb:
+    long: Her brehd liq
+    short: He
+  Jas:
+    long: Yar koq liq
+    short: Yk
+  John:
+    long: Yod hanr liq
+    short: Yh
+  Jude:
+    long: Yud daq liq
+    short: Yd
+  Luke:
+    long: Lud kar liq
+    short: Lk
+  Mark:
+    long: Mar koq liq
+    short: Mk
+  Matt:
+    long: Mar thehr liq
+    short: Mth
+  Phil:
+    long: Phid lid piq liq
+    short: Phi
+  Phlm:
+    long: Phid lid monr liq
+    short: Phlm
+  Rev:
+    long: Pheq mar liq
+    short: Pheq
+  Rom:
+    long: Rod maq liq
+    short: Rm
+  Titus:
+    long: Tid tuq liq
+    short: Tit

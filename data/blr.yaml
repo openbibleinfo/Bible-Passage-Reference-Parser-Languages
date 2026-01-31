@@ -1,0 +1,141 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Tuhˊ ri tuilˊ
+      - Trt
+  - osis: Matt
+    texts:
+      - Mahtae
+      - Mat
+  - osis: Mark
+    texts:
+      - Makuˊ
+      - Mak
+  - osis: Luke
+    texts:
+      - Luˊka
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Yh
+  - osis: 2John
+    texts:
+      - 2Yh
+  - osis: 3John
+    texts:
+      - 3 Yoˊhan
+      - 3Yh
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yoˊhan
+  - osis: John
+    texts:
+      - Yoˊhan
+      - Yoh
+  - osis: Acts
+    texts:
+      - Peue caee
+      - Pec
+  - osis: Rom
+    texts:
+      - Roˊma
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kawˊrinhtuˊ
+  - osis: 1Cor
+    texts:
+      - 1Kr
+  - osis: 2Cor
+    texts:
+      - 2Kr
+  - osis: Col
+    texts:
+      - Kawˊlawˊsaeˊ
+      - Kls
+  - osis: Gal
+    texts:
+      - Galatiˊ
+      - Glt
+  - osis: Eph
+    texts:
+      - Eˊfeˊsuˊ
+      - Efs
+  - osis: Phil
+    texts:
+      - Hpiˊliˊpiˊ
+      - Plp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Hteˊsalawˊniˊ
+  - osis: 1Thess
+    texts:
+      - 1Ts
+  - osis: 2Thess
+    texts:
+      - 2Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tiˊmoˊse
+  - osis: 1Tim
+    texts:
+      - 1Tm
+  - osis: 2Tim
+    texts:
+      - 2Tm
+  - osis: Titus
+    texts:
+      - Tiˊtasˊ
+      - Tit
+  - osis: Phlm
+    texts:
+      - Hpiˊleˊmon
+      - Plm
+  - osis: Heb
+    texts:
+      - Hebraeˊ
+      - Heb
+  - osis: Jas
+    texts:
+      - Yakopˊ
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petruˊ
+  - osis: 1Pet
+    texts:
+      - 1Pt
+  - osis: 2Pet
+    texts:
+      - 2Pt
+  - osis: Jude
+    texts:
+      - Yuˊda
+      - Yud
+translations:
+  - BLR

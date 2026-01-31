@@ -1,0 +1,226 @@
+default:
+  1Chr:
+    long: 1 Krónikanan
+    short: 1Kron
+  1Cor:
+    long: 1 Korintionan
+    short: 1Kor
+  1John:
+    long: 1 Huan
+    short: 1Huan
+  1Kgs:
+    long: 1 Reinan
+    short: 1Rei
+  1Macc:
+    long: 1 Makabeonan
+    short: 1Mak
+  1Pet:
+    long: 1 Pedro
+    short: 1Ped
+  1Sam:
+    long: 1 Samuel
+    short: 1Sam
+  1Thess:
+    long: 1 Tesalonisensenan
+    short: 1Tes
+  1Tim:
+    long: 1 Timoteo
+    short: 1Tim
+  2Chr:
+    long: 2 Krónikanan
+    short: 2Kron
+  2Cor:
+    long: 2 Korintionan
+    short: 2Kor
+  2John:
+    long: 2 Huan
+    short: 2Huan
+  2Kgs:
+    long: 2 Reinan
+    short: 2Rei
+  2Macc:
+    long: 2 Makabeonan
+    short: 2Mak
+  2Pet:
+    long: 2 Pedro
+    short: 2Ped
+  2Sam:
+    long: 2 Samuel
+    short: 2Sam
+  2Thess:
+    long: 2 Tesalonisensenan
+    short: 2Tes
+  2Tim:
+    long: 2 Timoteo
+    short: 2Tim
+  3John:
+    long: 3 Huan
+    short: 3Huan
+  Acts:
+    long: Echonan
+    short: Echo
+  Amos:
+    long: Amos
+    short: Amos
+  Bar:
+    long: Barug
+    short: Bar
+  Col:
+    long: Kolosensenan
+    short: Kol
+  Dan:
+    long: Daniel
+    short: Dan
+  DanGr:
+    long: Daniel (deuterokanóniko)
+    short: D
+  Deut:
+    long: Deuteronomio
+    short: Deu
+  Eccl:
+    long: Predikador
+    short: Pred
+  Eph:
+    long: Efesionan
+    short: Efe
+  Esth:
+    long: Ester
+    short: Est
+  EsthGr:
+    long: Ester (deuterokanóniko)
+    short: EstG
+  Exod:
+    long: Éksodo
+    short: Eks
+  Ezek:
+    long: Ezekiel
+    short: Eze
+  Ezra:
+    long: Esdras
+    short: Esd
+  Gal:
+    long: Galatanan
+    short: Gal
+  Gen:
+    long: Génesis
+    short: Gen
+  Hab:
+    long: Habakuk
+    short: Hab
+  Hag:
+    long: Hagai
+    short: Hag
+  Heb:
+    long: Hebreonan
+    short: Heb
+  Hos:
+    long: Hoséas
+    short: Hos
+  Isa:
+    long: Isaías
+    short: Isa
+  Jas:
+    long: Hakobo
+    short: Hak
+  Jdt:
+    long: Judit
+    short: Jud
+  Jer:
+    long: Yeremías
+    short: Yer
+  Job:
+    long: Job
+    short: Job
+  Joel:
+    long: Yoel
+    short: Yoel
+  John:
+    long: Huan
+    short: Huan
+  Jonah:
+    long: Yonas
+    short: Yon
+  Josh:
+    long: Yozue
+    short: Yoz
+  Jude:
+    long: Hudas
+    short: Hud
+  Judg:
+    long: Huesnan
+    short: Hue
+  Lam:
+    long: Lamentashonnan
+    short: Lam
+  Lev:
+    long: Levítiko
+    short: Lev
+  Luke:
+    long: Lukas
+    short: Luk
+  Mal:
+    long: Malakías
+    short: Mal
+  Mark:
+    long: Marko
+    short: Mar
+  Matt:
+    long: Mateo
+    short: Mat
+  Mic:
+    long: Mikéas
+    short: MiK
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nehemías
+    short: Neh
+  Num:
+    long: Numbernan
+    short: Num
+  Obad:
+    long: Abdías
+    short: Abd
+  Phil:
+    long: Filipensenan
+    short: Fil
+  Phlm:
+    long: Filemon
+    short: Flm
+  Prov:
+    long: Proverbionan
+    short: Prov
+  Ps:
+    long: Salmo
+    short: Sal
+  Rev:
+    long: Revelashon
+    short: Rev
+  Rom:
+    long: Romanonan
+    short: Rom
+  Ruth:
+    long: Ruth
+    short: Ruth
+  Sir:
+    long: Sirag
+    short: Sir
+  Song:
+    long: E kanto di tur kanto
+    short: Kant
+  Titus:
+    long: Tito
+    short: Tito
+  Tob:
+    long: Tobit
+    short: Tob
+  Wis:
+    long: Sabiduria
+    short: Sab
+  Zech:
+    long: Zakarías
+    short: Zak
+  Zeph:
+    long: Sofonías
+    short: Sof

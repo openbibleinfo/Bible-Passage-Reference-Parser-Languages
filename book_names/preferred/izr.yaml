@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 aKoranti
+    short: 1 Akor
+  1John:
+    long: 1 aYohana
+    short: 1 aYoh
+  1Pet:
+    long: 1 aBitrus
+    short: 1 aBit
+  1Thess:
+    long: 1 aTasalonika
+    short: 1 aTas
+  1Tim:
+    long: 1 aTimoti
+    short: 1 aTim
+  2Cor:
+    long: 2 aKoranti
+    short: 2 Akor
+  2John:
+    long: 2 aYohana
+    short: 2 aYoh
+  2Pet:
+    long: 2 aBitrus
+    short: 2 aBit
+  2Thess:
+    long: 2 aTasalonika
+    short: 2 aTas
+  2Tim:
+    long: 2 aTimoti
+    short: 2 aTim
+  3John:
+    long: 3 aYohana
+    short: 3 aYoh
+  Acts:
+    long: Itomong Ámanzo
+    short: I. Ámanzo
+  Col:
+    long: aKolosi
+    short: aKol
+  Eph:
+    long: Afisa
+    short: Afi
+  Gal:
+    long: aGalati
+    short: aGal
+  Heb:
+    long: Ibrani
+    short: Ibra
+  Jas:
+    long: aYakub
+    short: aYak
+  John:
+    long: aYohana
+    short: aYoh
+  Jude:
+    long: aZhud
+    short: aZhud
+  Luke:
+    long: aLuka
+    short: aLuk
+  Mark:
+    long: aMarkus
+    short: aMar
+  Matt:
+    long: aMatiyu
+    short: aMat
+  Phil:
+    long: aFilipi
+    short: aFil
+  Phlm:
+    long: aFilimon
+    short: aFilim
+  Rev:
+    long: Ike̱ng a ta tonong aYohana
+    short: aR. aYoh
+  Rom:
+    long: aRom
+    short: aRom
+  Titus:
+    long: aTitus
+    short: aTitus

@@ -1,0 +1,97 @@
+variables:
+  first: &first
+    - ܐ
+  second: &second
+    - ܒ
+  third: &third
+    - ܓ
+books:
+  - osis: Rev
+    texts:
+      - ܓܠܝܢܐ
+  - osis: Ps
+    texts:
+      - ܡܙܡܘܪ̈ܐ
+      - ܡܙܡܘܪܐ
+  - osis: Matt
+    texts:
+      - ܡܬ‌ܝ
+  - osis: Mark
+    texts:
+      - ܡܪܩܘܣ
+  - osis: Luke
+    texts:
+      - ܠܘܩܐ
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - ܝܘܚܢܢ
+  - osis: Acts
+    texts:
+      - ܣܘܥܪ̈ܢܐ ܕܫܠܝܚ̈ܐ
+  - osis: Rom
+    texts:
+      - ܪ̈ܗܘܡܝܐ
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - ܩܘܪ̈ܢܬܝܐ
+  - osis: Col
+    texts:
+      - ܩܘܠܣܝ̈ܐ
+  - osis: Gal
+    texts:
+      - ܓܠܛܝ̈ܐ
+  - osis: Eph
+    texts:
+      - ܐܦܣܝ̈ܐ
+  - osis: Phil
+    texts:
+      - ܦܝܠܝܦܣܝ̈ܐ
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - ܬܣܠܘܢܝܩܝ̈ܐ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - ܛܝܡܬܐܘܣ
+  - osis: Titus
+    texts:
+      - ܛܛܘܣ
+  - osis: Phlm
+    texts:
+      - ܦܝܠܡܘܢ
+  - osis: Heb
+    texts:
+      - ܥܒ݂ܪ̈ܝܐ
+  - osis: Jas
+    texts:
+      - ܝܥܩܘܒ݂
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - ܦܛܪܘܣ
+  - osis: Jude
+    texts:
+      - ܝܗܘܕܐ
+translations:
+  - AII

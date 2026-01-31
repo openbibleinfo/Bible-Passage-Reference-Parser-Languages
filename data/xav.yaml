@@ -1,0 +1,193 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Zenezi
+      - Gên
+  - osis: Exod
+    texts:
+      - Ezodu
+      - Ez
+  - osis: Rev
+    texts:
+      - Apocalipsi
+      - Ap
+  - osis: Josh
+    texts:
+      - Zozué
+      - Zo
+  - osis: Judg
+    texts:
+      - Zuize
+      - Zui
+  - osis: Ruth
+    texts:
+      - Ruti
+  - osis:
+      - osis: 1Sam
+        before: *first
+    texts:
+      - Samuéu
+      - Sam
+  - osis: Ezra
+    texts:
+      - Esdra
+      - Esd
+  - osis: Neh
+    texts:
+      - Neemia
+      - Nee
+  - osis: Ps
+    texts:
+      - Salmu
+      - Sal
+  - osis: Prov
+    texts:
+      - Provébiu
+      - Pro
+  - osis: Dan
+    texts:
+      - Daniéu
+      - Dan
+  - osis: Joel
+    texts:
+      - Zuéu
+      - Zue
+  - osis: Jonah
+    texts:
+      - Zona
+  - osis: Matt
+    texts:
+      - Mateu
+      - Mt
+  - osis: Mark
+    texts:
+      - Marcu
+      - Mr
+  - osis: Luke
+    texts:
+      - Luca
+      - Lc
+  - osis: 1John
+    texts:
+      - 1Zu
+  - osis: 2John
+    texts:
+      - 2Zu
+  - osis: 3John
+    texts:
+      - 3 Zuwã
+      - 3Zu
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Zuwã
+  - osis: John
+    texts:
+      - Zuwã
+      - Zu
+  - osis: Acts
+    texts:
+      - Atu
+      - At
+  - osis: Rom
+    texts:
+      - Roma
+      - Ro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corĩtu
+  - osis: 1Cor
+    texts:
+      - 1Co
+  - osis: 2Cor
+    texts:
+      - 2Co
+  - osis: Col
+    texts:
+      - Colosu
+      - Col
+  - osis: Gal
+    texts:
+      - Galata
+      - Gal
+  - osis: Eph
+    texts:
+      - Éfézu
+      - Éf
+  - osis: Phil
+    texts:
+      - Filipu
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonita
+  - osis: 1Thess
+    texts:
+      - 1Te
+  - osis: 2Thess
+    texts:
+      - 2Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotiu
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Titu
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemo
+      - Flm
+  - osis: Heb
+    texts:
+      - Hebreu
+      - Heb
+  - osis: Jas
+    texts:
+      - Tiagu
+      - Tia
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pedru
+  - osis: 1Pet
+    texts:
+      - 1Pe
+  - osis: 2Pet
+    texts:
+      - 2Pe
+  - osis: Jude
+    texts:
+      - Zuda
+      - Zud
+translations:
+  - XAVBP

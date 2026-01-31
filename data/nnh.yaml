@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Ŋwà’ne Ngyà jʉ’
+  - osis: Matt
+    texts:
+      - Matio
+  - osis: Mark
+    texts:
+      - Malékuse
+  - osis: Luke
+    texts:
+      - Lukase
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jâŋ
+  - osis: Acts
+    texts:
+      - Megàŋ ntúm
+  - osis: Rom
+    texts:
+      - Roma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korento
+  - osis: Col
+    texts:
+      - Kolosia
+  - osis: Gal
+    texts:
+      - Galatia
+  - osis: Eph
+    texts:
+      - Efeso
+  - osis: Phil
+    texts:
+      - Filipo
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonika
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+  - osis: Titus
+    texts:
+      - Titus
+  - osis: Phlm
+    texts:
+      - Filemo
+  - osis: Heb
+    texts:
+      - Heber
+  - osis: Jas
+    texts:
+      - Jâg
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piɛ
+  - osis: Jude
+    texts:
+      - Jẅide
+translations:
+  - NGBM

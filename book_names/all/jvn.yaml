@@ -1,0 +1,344 @@
+- osis: Gen
+  texts:
+    - Wiwitan
+    - Wi
+- osis: Exod
+  texts:
+    - Pangentasan
+    - Pa
+- osis: Lev
+  texts:
+    - Para Imam
+    - Pi
+- osis: Num
+  texts:
+    - Itungan
+    - It
+- osis: Lam
+  texts:
+    - Kidung Pesambat
+    - Kp
+- osis: Rev
+  texts:
+    - Pamedaran
+    - Wahyu
+    - Pam
+    - Wah
+- osis: Deut
+  texts:
+    - Andarané Torèt
+    - At
+- osis: Josh
+  texts:
+    - Yosua
+    - Yos
+- osis: Judg
+  texts:
+    - Para Rèkter
+    - Prk
+- osis: Ruth
+  texts:
+    - Rut
+- osis: Isa
+  texts:
+    - Yésaya
+    - Yes
+- osis: 1Sam
+  texts:
+    - 1 Samuèl
+    - 1. Samuèl
+- osis: 2Sam
+  texts:
+    - 2 Samuèl
+    - 2. Samuèl
+- osis: 1Sam
+  texts:
+    - 1Sam
+- osis: 2Sam
+  texts:
+    - 2Sam
+- osis: 1Kgs
+  texts:
+    - 1 Para Ratu
+    - 1. Para Ratu
+- osis: 2Kgs
+  texts:
+    - 2 Para Ratu
+    - 2. Para Ratu
+- osis: 1Kgs
+  texts:
+    - 1Pr
+- osis: 2Kgs
+  texts:
+    - 2Pr
+- osis: 1Chr
+  texts:
+    - 1 Lelakoné Kraton
+    - 1. Lelakoné Kraton
+- osis: 2Chr
+  texts:
+    - 2 Lelakoné Kraton
+    - 2. Lelakoné Kraton
+- osis: 1Chr
+  texts:
+    - 1Lk
+- osis: 2Chr
+  texts:
+    - 2Lk
+- osis: Ezra
+  texts:
+    - Ezra
+    - Ez
+- osis: Neh
+  texts:
+    - Néhémia
+    - Neh
+- osis: Esth
+  texts:
+    - Ester
+    - Est
+- osis: Job
+  texts:
+    - Ayub
+    - Ay
+- osis: Ps
+  texts:
+    - Masmur
+    - Mas
+- osis: Prov
+  texts:
+    - Wulang Bebasan
+    - Wb
+- osis: Eccl
+  texts:
+    - Juru Kotbah
+    - Jk
+- osis: Song
+  texts:
+    - Kidung Luhur
+    - Kl
+- osis: Jer
+  texts:
+    - Yérémia
+    - Yer
+- osis: Ezek
+  texts:
+    - Yéhèskièl
+    - Yeh
+- osis: Dan
+  texts:
+    - Danièl
+    - Dan
+- osis: Hos
+  texts:
+    - Hoséa
+    - Hos
+- osis: Joel
+  texts:
+    - Yoèl
+    - Yo
+- osis: Amos
+  texts:
+    - Amos
+    - Am
+- osis: Obad
+  texts:
+    - Obaja
+    - Ob
+- osis: Jonah
+  texts:
+    - Yunus
+    - Yu
+- osis: Mic
+  texts:
+    - Mika
+    - Mi
+- osis: Nah
+  texts:
+    - Nahum
+    - Na
+- osis: Hab
+  texts:
+    - Habakuk
+    - Hab
+- osis: Zeph
+  texts:
+    - Séfanya
+    - Sef
+- osis: Hag
+  texts:
+    - Hagai
+    - Ha
+- osis: Zech
+  texts:
+    - Sakaria
+    - Sa
+- osis: Mal
+  texts:
+    - Maliaki
+    - Mal
+- osis: Matt
+  texts:
+    - Matéus
+    - Matius
+    - Mat
+    - Mt
+- osis: Mark
+  texts:
+    - Markus
+    - Mrk
+    - Mr
+- osis: Luke
+  texts:
+    - Lukas
+    - Luk
+    - Lk
+- osis: 1John
+  texts:
+    - 1Yoh
+    - 1Yo
+- osis: 2John
+  texts:
+    - 2Yoh
+    - 2Yo
+- osis: 3John
+  texts:
+    - 3 Yohanes
+    - 3Yoh
+    - 3Yo
+- osis: 1John
+  texts:
+    - 1 Yohanes
+    - 1. Yohanes
+- osis: 2John
+  texts:
+    - 2 Yohanes
+    - 2. Yohanes
+- osis: John
+  texts:
+    - Yohanes
+    - Yoh
+    - Yo
+- osis: Acts
+  texts:
+    - Para Rasul
+    - PaRa
+    - Ras
+- osis: Rom
+  texts:
+    - Rum
+- osis: 1Cor
+  texts:
+    - 1 Korintus
+    - 1 Korinta
+    - 1. Korintus
+    - 1. Korinta
+- osis: 2Cor
+  texts:
+    - 2 Korintus
+    - 2 Korinta
+    - 2. Korintus
+    - 2. Korinta
+- osis: 1Cor
+  texts:
+    - 1Kor
+    - 1Ko
+- osis: 2Cor
+  texts:
+    - 2Kor
+    - 2Ko
+- osis: Col
+  texts:
+    - Kolosé
+    - Kol
+- osis: Gal
+  texts:
+    - Galasia
+    - Galatia
+    - Gal
+    - Ga
+- osis: Eph
+  texts:
+    - Efésus
+    - Efése
+    - Ef
+- osis: Phil
+  texts:
+    - Filipi
+    - Flp
+    - Fp
+- osis: 1Thess
+  texts:
+    - 1 Tésalonika
+    - 1 Tèsalonika
+    - 1. Tésalonika
+    - 1. Tèsalonika
+- osis: 2Thess
+  texts:
+    - 2 Tésalonika
+    - 2 Tèsalonika
+    - 2. Tésalonika
+    - 2. Tèsalonika
+- osis: 1Thess
+  texts:
+    - 1Tes
+    - 1Te
+- osis: 2Thess
+  texts:
+    - 2Tes
+    - 2Te
+- osis: 1Tim
+  texts:
+    - 1 Timotius
+    - 1. Timotius
+- osis: 2Tim
+  texts:
+    - 2 Timotius
+    - 2. Timotius
+- osis: 1Tim
+  texts:
+    - 1Tim
+    - 1Ti
+- osis: 2Tim
+  texts:
+    - 2Tim
+    - 2Ti
+- osis: Titus
+  texts:
+    - Titus
+    - Tit
+- osis: Phlm
+  texts:
+    - Filemon
+    - Filémon
+    - Flm
+    - Fm
+- osis: Heb
+  texts:
+    - Ibrani
+    - Ibr
+    - Ib
+- osis: Jas
+  texts:
+    - Yakobus
+    - Yak
+- osis: 1Pet
+  texts:
+    - 1 Pétrus
+    - 1. Pétrus
+- osis: 2Pet
+  texts:
+    - 2 Pétrus
+    - 2. Pétrus
+- osis: 1Pet
+  texts:
+    - 1Pet
+    - 1P
+- osis: 2Pet
+  texts:
+    - 2Pet
+    - 2P
+- osis: Jude
+  texts:
+    - Yudas
+    - Yud

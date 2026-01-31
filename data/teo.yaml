@@ -1,0 +1,295 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Ageun
+      - Age
+  - osis: Exod
+    texts:
+      - Anyoun
+      - Any
+  - osis: Lev
+    texts:
+      - Ilebin
+      - Leb
+  - osis: Num
+    texts:
+      - Aimario
+      - Mar
+  - osis: Lam
+    texts:
+      - Akuudian
+      - Aku
+  - osis: Rev
+    texts:
+      - Apukokinio
+      - Apuk
+      - Apu
+  - osis: Deut
+    texts:
+      - Ikisila
+      - Ikis
+  - osis: Josh
+    texts:
+      - Yosua
+      - Yos
+  - osis: Judg
+    texts:
+      - Ikatubok
+      - Tub
+  - osis: Ruth
+    texts:
+      - Rusi
+      - Rus
+  - osis: Isa
+    texts:
+      - Isaia
+      - Isa
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Ikabakan
+      - Ika
+  - osis:
+      - osis: 1Chr
+        before: *first
+    texts:
+      - Aisiitonokin
+      - Siit
+  - osis:
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Aisiltonokin
+      - Siit
+  - osis: Ezra
+    texts:
+      - Esera
+      - Esr
+  - osis: Neh
+    texts:
+      - Nekemia
+      - Nek
+  - osis: Esth
+    texts:
+      - Esita
+      - Est
+  - osis: Job
+    texts:
+      - Yob
+  - osis: Ps
+    texts:
+      - Isabulin
+      - Isab
+      - Sab
+  - osis: Prov
+    texts:
+      - Awaragasia
+      - Awar
+      - Awa
+  - osis: Eccl
+    texts:
+      - Ekalimonokinan
+      - Lim
+  - osis: Song
+    texts:
+      - Ekosio
+      - Eko
+  - osis: Jer
+    texts:
+      - Yeremia
+      - Yer
+  - osis: Ezek
+    texts:
+      - Esekiel
+      - Esk
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan
+  - osis: Hos
+    texts:
+      - Kosea
+      - Kos
+  - osis: Joel
+    texts:
+      - Yoel
+      - Yoe
+  - osis: Amos
+    texts:
+      - Amos
+      - Amo
+  - osis: Obad
+    texts:
+      - Obadia
+      - Oba
+  - osis: Jonah
+    texts:
+      - Yon
+  - osis: Mic
+    texts:
+      - Mika
+      - MiK
+  - osis: Nah
+    texts:
+      - Nakum
+      - Nak
+  - osis: Hab
+    texts:
+      - Kabakuk
+      - Kbk
+  - osis: Zeph
+    texts:
+      - Sepania
+      - Sep
+  - osis: Hag
+    texts:
+      - Kagai
+      - Kag
+  - osis: Zech
+    texts:
+      - Sekaria
+      - Sek
+  - osis: Mal
+    texts:
+      - Malaki
+      - Mal
+  - osis: Matt
+    texts:
+      - Matayo
+      - Mat
+  - osis: Mark
+    texts:
+      - Marako
+      - Mariko
+      - Mar
+      - Mk
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yokana
+      - Yoana
+      - Yoa
+      - Yok
+  - osis: Acts
+    texts:
+      - Aswamisio
+      - Asom
+      - Asw
+  - osis: Rom
+    texts:
+      - Iromayon
+      - iRom
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Ikorinton
+      - Ikor
+      - Kor
+  - osis: Col
+    texts:
+      - Ikolosayon
+      - Ikolosain
+      - Ikol
+      - Kol
+  - osis: Gal
+    texts:
+      - Igalatian
+      - iGal
+      - Gal
+  - osis: Eph
+    texts:
+      - Ipeson
+      - Ipes
+      - Pes
+  - osis: Phil
+    texts:
+      - Ipilipin
+      - Ipil
+      - Pil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Isesalonikan
+      - Itesalonikan
+      - Itesa
+      - Ses
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+      - Timoti
+      - Tim
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemon
+      - Pilemon
+      - Fil
+      - Plm
+  - osis: Heb
+    texts:
+      - Iburanian
+      - Iburayon
+      - Ibur
+      - Bur
+  - osis: Jas
+    texts:
+      - Yakobo
+      - Yakob
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petero
+      - Pet
+  - osis: Jude
+    texts:
+      - Yuda
+      - Yud
+translations:
+  - TESOP
+  - AOV1961

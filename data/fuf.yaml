@@ -1,0 +1,91 @@
+books:
+  - osis: Rev
+    texts:
+      - Feɲɲinannde
+  - osis: Matt
+    texts:
+      - Linjiila Matta
+      - Mat.
+  - osis: Mark
+    texts:
+      - Linjiila Markuusa
+      - Mrk.
+  - osis: Luke
+    texts:
+      - Linjiila Luuka
+      - Luk.
+  - osis: 1John
+    texts:
+      - Yuuhanna 1
+  - osis: 2John
+    texts:
+      - Yuuhanna 2
+  - osis: 3John
+    texts:
+      - Yuuhanna 3
+  - osis: John
+    texts:
+      - Linjiila Yuuhanna
+      - Yhn.
+  - osis: Acts
+    texts:
+      - Kuuɗe Sahaabaaɓe Ɓen
+      - Sah.
+  - osis: Rom
+    texts:
+      - Roomu
+  - osis: 1Cor
+    texts:
+      - Korenti 1
+  - osis: 2Cor
+    texts:
+      - Korenti 2
+  - osis: Col
+    texts:
+      - Koloosi
+  - osis: Gal
+    texts:
+      - Galaasi
+  - osis: Eph
+    texts:
+      - Efeesi
+  - osis: Phil
+    texts:
+      - Filipii
+  - osis: 1Thess
+    texts:
+      - Tesalonii 1
+  - osis: 2Thess
+    texts:
+      - Tesalonii 2
+  - osis: 1Tim
+    texts:
+      - Timotee 1
+  - osis: 2Tim
+    texts:
+      - Timotee 2
+  - osis: Titus
+    texts:
+      - Tiituusa
+  - osis: Phlm
+    texts:
+      - Filimuunu
+  - osis: Heb
+    texts:
+      - Yahuudiyankeeɓe
+  - osis: Jas
+    texts:
+      - Yaaquuba
+  - osis: 1Pet
+    texts:
+      - Petruusu 1
+  - osis: 2Pet
+    texts:
+      - Petruusu 2
+      - 2Pe.
+  - osis: Jude
+    texts:
+      - Yuudu
+      - Yud.
+translations:
+  - PFJV

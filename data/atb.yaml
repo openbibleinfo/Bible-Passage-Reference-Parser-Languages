@@ -1,0 +1,116 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Shing-rán
+      - Shr
+  - osis: Matt
+    texts:
+      - Mahte
+      - Mht
+  - osis: Mark
+    texts:
+      - ꓟ˗ꓗꓴ ꓟꓮꓴ ꓢꓮꓴ
+      - Markuq
+      - Marku
+      - Mrk
+  - osis: Luke
+    texts:
+      - Lukaq
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohan
+      - Yhn
+  - osis: Acts
+    texts:
+      - Lagyo
+  - osis: Rom
+    texts:
+      - Romaq
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinhtuq
+      - Ko
+  - osis: Col
+    texts:
+      - Kolose
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatiq
+      - Gal
+  - osis: Eph
+    texts:
+      - Ehpesu
+      - Ehp
+  - osis: Phil
+    texts:
+      - Hpilipi
+      - Hpp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Htesaloni
+      - Hte
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timohti
+      - Tm
+  - osis: Titus
+    texts:
+      - Tituq
+      - Tit
+  - osis: Phlm
+    texts:
+      - Hpilemon
+      - Hpm
+  - osis: Heb
+    texts:
+      - Hebre
+      - Hbr
+  - osis: Jas
+    texts:
+      - Yakuq
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petruq
+      - Pt
+  - osis: Jude
+    texts:
+      - Yude
+      - Yud
+translations:
+  - ATB
+  - ATB1938
+  - ATB1951

@@ -1,0 +1,138 @@
+variables:
+  first: &first
+    - "1"
+    - Tutu
+  second: &second
+    - "2"
+    - Tutu
+books:
+  - osis: Rev
+    texts:
+      - Tutu Apocalisi
+      - Ap.
+  - osis: Matt
+    texts:
+      - Tutu Mateo
+      - Mt.
+  - osis: Mark
+    texts:
+      - Tutu Macu
+      - Mr.
+  - osis: Luke
+    texts:
+      - Tutu Luca
+      - Lc.
+  - osis: 3John
+    texts:
+      - Tutu III Juaan
+      - 3 Jn.
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - I Juaan
+      - Jn.
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - II Juaan
+      - Jn.
+  - osis: John
+    texts:
+      - Tutu Juaan
+      - Jn.
+  - osis: Acts
+    texts:
+      - Tutu Hecho
+      - Hch.
+  - osis: Rom
+    texts:
+      - Tutu Romano
+      - Ro.
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - I Corintio
+      - Co.
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - II Corintio
+      - Co.
+  - osis: Col
+    texts:
+      - Tutu Colosense
+      - Col.
+  - osis: Gal
+    texts:
+      - Tutu Galata
+      - Gá.
+  - osis: Eph
+    texts:
+      - Tutu Efesio
+      - Ef.
+  - osis: Phil
+    texts:
+      - Tutu Filipense
+      - Fil.
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - I Tesalonicense
+      - Ts.
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - II Tesalonicense
+      - Ts.
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - I Timoteo
+      - Ti.
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - II Timoteo
+      - Ti.
+  - osis: Titus
+    texts:
+      - Tutu Tito
+      - Tit.
+  - osis: Phlm
+    texts:
+      - Tutu Filemón
+      - Flm.
+  - osis: Heb
+    texts:
+      - Tutu Hebreo
+      - He.
+  - osis: Jas
+    texts:
+      - Tutu Santiago
+      - Stg.
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - I Pedro
+      - P.
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - II Pedro
+      - P.
+  - osis: Jude
+    texts:
+      - Tutu Juda
+      - Jud.
+translations:
+  - MIO

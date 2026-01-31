@@ -1,0 +1,210 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Ifyakutaŋga
+  - osis: Exod
+    texts:
+      - Ifyakufuma
+  - osis: Lev
+    texts:
+      - Ifya Ŵalefai
+  - osis: Num
+    texts:
+      - Ifyakupenda
+  - osis: Lam
+    texts:
+      - Imisowa
+  - osis: Rev
+    texts:
+      - Ukufisulula
+  - osis: Deut
+    texts:
+      - Ndutelonomi
+  - osis: Josh
+    texts:
+      - Josyua
+  - osis: Judg
+    texts:
+      - Awasololwesi
+  - osis: Ruth
+    texts:
+      - Lufi
+  - osis: Isa
+    texts:
+      - Yisaya
+  - osis: 1Sam
+    texts:
+      - 1Samweli
+  - osis: 2Sam
+    texts:
+      - 2Samweli
+  - osis: 1Kgs
+    texts:
+      - 1Imfumu
+  - osis: 2Kgs
+    texts:
+      - 2Imfumu
+  - osis: 1Chr
+    texts:
+      - 1Ifyeŵo
+  - osis: 2Chr
+    texts:
+      - 2Ifyeŵo
+  - osis: Ezra
+    texts:
+      - Esila
+  - osis: Neh
+    texts:
+      - Neyamiya
+  - osis: Esth
+    texts:
+      - Esita
+  - osis: Job
+    texts:
+      - Jobo
+  - osis: Ps
+    texts:
+      - Amasamo
+  - osis: Prov
+    texts:
+      - Ifisimpi
+  - osis: Eccl
+    texts:
+      - Uwakutulisya
+  - osis: Song
+    texts:
+      - Ulwimbo
+  - osis: Jer
+    texts:
+      - Jelemiya
+  - osis: Ezek
+    texts:
+      - Esiceli
+  - osis: Dan
+    texts:
+      - Danyeli
+  - osis: Hos
+    texts:
+      - Osiya
+  - osis: Joel
+    texts:
+      - Joeli
+  - osis: Amos
+    texts:
+      - Amosi
+  - osis: Obad
+    texts:
+      - Obadiya
+  - osis: Jonah
+    texts:
+      - Jona
+  - osis: Mic
+    texts:
+      - Mika
+  - osis: Nah
+    texts:
+      - Nayumi
+  - osis: Hab
+    texts:
+      - Abakuci
+  - osis: Zeph
+    texts:
+      - Sefaniya
+  - osis: Hag
+    texts:
+      - Agayi
+  - osis: Zech
+    texts:
+      - Sakaliya
+  - osis: Mal
+    texts:
+      - Malaci
+  - osis: Matt
+    texts:
+      - Matayo
+  - osis: Mark
+    texts:
+      - Mako
+  - osis: Luke
+    texts:
+      - Luku
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yoane
+  - osis: Acts
+    texts:
+      - Ifyacitilwe
+  - osis: Rom
+    texts:
+      - Aŵaloma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Aŵakolinto
+  - osis: Col
+    texts:
+      - Aŵakolosai
+  - osis: Gal
+    texts:
+      - Aŵagalatiya
+  - osis: Eph
+    texts:
+      - Aŵaefesa
+  - osis: Phil
+    texts:
+      - Aŵafilipoi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Aŵatesalonike
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filemoni
+  - osis: Heb
+    texts:
+      - Ŵaebeya
+  - osis: Jas
+    texts:
+      - Jakobo
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petilo
+  - osis: Jude
+    texts:
+      - Juda
+translations:
+  - LMB

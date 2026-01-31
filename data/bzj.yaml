@@ -1,0 +1,115 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Di Revilayshan
+      - Rev
+  - osis: Matt
+    texts:
+      - Machyu
+      - Mch
+  - osis: Mark
+    texts:
+      - Maak
+      - Mk
+  - osis: Luke
+    texts:
+      - Look
+      - Lk
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jan
+      - Jn
+  - osis: John
+    texts:
+      - Jan
+  - osis: Acts
+    texts:
+      - Di Aks
+      - Aks
+  - osis: Rom
+    texts:
+      - Roamanz
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintyanz
+      - Kor
+  - osis: Col
+    texts:
+      - Koloashanz
+      - Kol
+  - osis: Gal
+    texts:
+      - Galayshanz
+      - Gal
+  - osis: Eph
+    texts:
+      - Ifeezhanz
+      - Ef
+  - osis: Phil
+    texts:
+      - Filipiyanz
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaloanyanz
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+      - Tim
+  - osis: Titus
+    texts:
+      - Taitos
+      - Tit
+  - osis: Phlm
+    texts:
+      - Faileeman
+      - Flm
+  - osis: Heb
+    texts:
+      - Heebrooz
+      - Hb
+  - osis: Jas
+    texts:
+      - Jaymz
+      - Jmz
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peeta
+      - Pet
+  - osis: Jude
+    texts:
+      - Jood
+      - Jd
+translations:
+  - BZJ

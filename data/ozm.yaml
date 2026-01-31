@@ -1,0 +1,159 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Mɨngwiha
+      - Mɨng
+      - Twóm
+  - osis: Matt
+    texts:
+      - Matthieu
+      - Mataos
+      - Mt
+  - osis: Mark
+    texts:
+      - Markus
+      - Marc
+      - Mk
+  - osis: Luke
+    texts:
+      - Lʉkas
+      - Luc
+      - Lk
+  - osis: 1John
+    texts:
+      - 1Yʉ
+  - osis: 2John
+    texts:
+      - 2Yʉ
+  - osis: 3John
+    texts:
+      - 3 Yʉanes
+      - 3 Yʉánɛs
+      - 3Yʉ
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yʉanes
+      - Yʉánɛs
+  - osis: John
+    texts:
+      - Yʉanes
+      - Yʉánɛs
+      - Yʉ
+  - osis: Acts
+    texts:
+      - Milʉ́mlʉ́
+      - Mɨlʉmlʉ
+      - Mɨl
+  - osis: Rom
+    texts:
+      - Rom
+      - Rôm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korɛnt
+      - Kórɨnt
+  - osis: 1Cor
+    texts:
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - 2Ko
+  - osis: Col
+    texts:
+      - Kolósia
+      - Kolosi
+      - Kol
+  - osis: Gal
+    texts:
+      - Galásia
+      - Galat
+      - Gal
+  - osis: Eph
+    texts:
+      - Éfɛsɔs
+      - Efɛɛz
+      - Ef
+  - osis: Phil
+    texts:
+      - Filipi
+      - Fílipi
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonika
+      - Tesaloníka
+  - osis: 1Thess
+    texts:
+      - 1Tes
+  - osis: 2Thess
+    texts:
+      - 2Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotɛ̂
+      - Timotɛ
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Títos
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filémɔn
+      - Filemɔŋ
+      - Film
+  - osis: Heb
+    texts:
+      - Ebrœ̂
+      - Ebrœ
+      - Eb
+  - osis: Jas
+    texts:
+      - Jacques
+      - Jac
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pétrus
+      - Pyɛr
+  - osis: 1Pet
+    texts:
+      - 1P
+  - osis: 2Pet
+    texts:
+      - 2P
+  - osis: Jude
+    texts:
+      - Yʉ̂d
+      - Yʉd
+translations:
+  - OZM

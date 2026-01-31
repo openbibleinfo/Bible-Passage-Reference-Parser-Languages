@@ -1,0 +1,98 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Wɩlɩɩdagɩya
+  - osis: Matt
+    texts:
+      - Matiwu
+  - osis: Mark
+    texts:
+      - Maakɩ
+  - osis: Luke
+    texts:
+      - Luka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Gyɔɔŋ
+  - osis: Acts
+    texts:
+      - Yesu Kpambɩsɩ
+      - Kpambɩsɩ
+  - osis: Rom
+    texts:
+      - Roma Tɩmma
+      - Roma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Koriŋti Tɩmma
+      - Koriŋti
+  - osis: Col
+    texts:
+      - Kolosi Tɩmma
+  - osis: Gal
+    texts:
+      - Galetiya Tɩmma
+      - Galetiya
+  - osis: Eph
+    texts:
+      - Ɛfiso Tɩmma
+      - Ɛfiso
+  - osis: Phil
+    texts:
+      - Filipi Tɩmma
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaloniika Tɩmma
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: Titus
+    texts:
+      - Titusi
+  - osis: Phlm
+    texts:
+      - Filemɔŋ
+  - osis: Heb
+    texts:
+      - Hiiburu Tɩmma
+  - osis: Jas
+    texts:
+      - Gyemsi
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piita
+  - osis: Jude
+    texts:
+      - Gyuudi
+translations:
+  - SIGDBLNT

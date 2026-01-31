@@ -1,0 +1,137 @@
+default:
+  1Cor:
+    long: 1 Kɔ
+    short: 1Kɔ
+  1John:
+    long: 1 Jn
+    short: 1Jn
+  1Pet:
+    long: 1 Pi
+    short: 1Pi
+  1Thess:
+    long: 1 Tèsàlonikà
+    short: 1Tè
+  1Tim:
+    long: 1 Tim
+    short: 1Ti
+  2Cor:
+    long: 2 Kɔ
+    short: 2Kɔ
+  2John:
+    long: 2 Jn
+    short: 2Jn
+  2Pet:
+    long: 2 Pi
+    short: 2Pi
+  2Thess:
+    long: 2 Tès
+    short: 2Tè
+  2Tim:
+    long: 2 Tim
+    short: 2Ti
+  3John:
+    long: 3 Jn
+    short: 3Jn
+  Acts:
+    long: Ìfàʼì
+    short: Ìfà
+  Col:
+    long: Kol
+    short: Kòl
+  Eph:
+    long: Efe
+    short: Efe
+  Gal:
+    long: Gal
+    short: Gàl
+  Heb:
+    long: Mə̀Hibrù
+    short: Hib
+  Jas:
+    long: Jem
+    short: Jem
+  John:
+    long: Jn
+    short: Jɔn
+  Jude:
+    long: Jud
+    short: Jud
+  Luke:
+    long: Lk
+    short: Lug
+  Mark:
+    long: Mag
+    short: Mag
+  Matt:
+    long: Matìyò
+    short: Mat
+  Phil:
+    long: Fil
+    short: Fìl
+  Phlm:
+    long: Filemɔ̀n
+    short: Flm
+  Rev:
+    long: Inug ne si nwḭ̀yḛ̀
+    short: Inu
+  Rom:
+    long: Rm
+    short: Rom
+  Titus:
+    long: Tai
+    short: Tay
+translations:
+  mbtp:
+    1Cor:
+      long: 1 Kɔrèn
+    1John:
+      long: 1 Jɔn
+    1Pet:
+      long: 1 Pità
+    1Tim:
+      long: 1 Timotì
+    2Cor:
+      long: 2 Kɔrèn
+    2John:
+      long: 2 Jɔn
+    2Pet:
+      long: 2 Pità
+    2Thess:
+      long: 2 Tèsàlonikà
+    2Tim:
+      long: 2 Timotì
+    3John:
+      long: 3 Jɔn
+    Col:
+      long: Kòlosè
+    Eph:
+      long: Efesùs
+    Gal:
+      long: Gàlesìyà
+    John:
+      long: Jɔn
+    Luke:
+      long: Lug
+    Phil:
+      long: Fìlipì
+    Rom:
+      long: Rom
+    Titus:
+      long: Tayitùs
+  mgo:
+    1Thess:
+      long: Tès
+    Acts:
+      long: Ɨ̀fàʼì
+    Heb:
+      long: Mɨ̀h
+    Jude:
+      long: Jûd
+    Mark:
+      long: Mk
+    Matt:
+      long: Mt
+    Phlm:
+      long: Flm
+    Rev:
+      long: Ɨnû

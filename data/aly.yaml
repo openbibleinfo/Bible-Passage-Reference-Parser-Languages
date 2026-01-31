@@ -1,0 +1,58 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Genesis
+  - osis: Exod
+    texts:
+      - Exodus
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+  - osis: Matt
+    texts:
+      - Matthew
+  - osis: Mark
+    texts:
+      - Mark
+  - osis: Luke
+    texts:
+      - Luke
+  - osis: John
+    texts:
+      - John
+  - osis: Acts
+    texts:
+      - Acts
+  - osis: Rom
+    texts:
+      - Romans
+  - osis: Col
+    texts:
+      - Colossians
+  - osis: Gal
+    texts:
+      - Galatians
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thessalonians
+  - osis: Titus
+    texts:
+      - Titus
+  - osis: Jas
+    texts:
+      - James
+translations:
+  - ALY

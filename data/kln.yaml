@@ -1,0 +1,403 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Taunet
+      - Tau
+  - osis: Exod
+    texts:
+      - Komong'u
+      - Kom
+  - osis: Lev
+    texts:
+      - Atebetab Lawik
+      - Ateptap Lawik
+      - A.La
+  - osis: Num
+    texts:
+      - Kaitosyek
+      - Koitosiek
+      - Kai
+  - osis: Sir
+    texts:
+      - Sirak
+      - Sir
+  - osis: Wis
+    texts:
+      - Utaatyetap Solomon
+      - U.Sol
+  - osis: Lam
+    texts:
+      - Riiregap Jeremiah
+      - Rirekab Jeremia
+      - R.Jer
+  - osis: Rev
+    texts:
+      - Ng'and'utiet
+      - Ng'ang'utyet
+      - Ng'a
+  - osis: Deut
+    texts:
+      - Ne Kibwate Ng'atuutik
+      - Ng'atutik
+      - Nkng'a
+  - osis: Josh
+    texts:
+      - Joshua
+      - Josua
+      - Jos
+  - osis: Judg
+    texts:
+      - Kirwoogik
+      - Kiruogik
+      - Kirw
+  - osis: Ruth
+    texts:
+      - Ruth
+      - Rut
+  - osis: Isa
+    texts:
+      - Isaiah
+      - Isaia
+      - Isa
+  - osis: 1Sam
+    texts:
+      - Samuel 1
+      - 1Sam
+  - osis: 2Sam
+    texts:
+      - Samuel 2
+      - 2Sam
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+  - osis: 1Kgs
+    texts:
+      - Laitorinik 1
+      - 1Lai
+  - osis: 2Kgs
+    texts:
+      - Laitorinik 2
+      - 2Lai
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Laitorinik
+  - osis:
+      - osis: 1Chr
+        before: *first
+    texts:
+      - Ateptap Peetuusyek
+  - osis: 1Chr
+    texts:
+      - Ateptab Betusiek 1
+      - 1A.Pet
+  - osis:
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Apeetap Peetuusyek
+      - Ateptap Peetuusyek
+  - osis: 2Chr
+    texts:
+      - Ateptab Betusiek 2
+      - 2A.Pet
+  - osis: Ezra
+    texts:
+      - Ezrah
+      - Esra
+      - Ezr
+  - osis: Neh
+    texts:
+      - Nehemiah
+      - Neemia
+      - Neh
+  - osis: Esth
+    texts:
+      - Esta
+      - Est
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Tyenwogigap Kalasunet
+      - Tienwogikal
+      - T.Kal
+  - osis: Prov
+    texts:
+      - Kalewainik
+      - Kalewanaik
+      - Kalewenaik
+      - Kale
+  - osis: Eccl
+    texts:
+      - Amdoindet
+      - Amd
+  - osis: Song
+    texts:
+      - Tiendo Ne Siirei Tugul
+      - Tyendo Ne Siirei Tugul
+      - Tyendo Ne Sireei Tugul
+      - Tyst
+  - osis: Jer
+    texts:
+      - Jeremiah
+      - Jeremia
+      - Jer
+  - osis: Ezek
+    texts:
+      - Esekiel
+      - Ezekiel
+      - Ezk
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan
+  - osis: Hos
+    texts:
+      - Hosea
+      - Hos
+  - osis: Joel
+    texts:
+      - Joel
+  - osis: Amos
+    texts:
+      - Amos
+      - Amo
+  - osis: Obad
+    texts:
+      - Obadiah
+      - Obadia
+      - Oba
+  - osis: Jonah
+    texts:
+      - Jonah
+      - Jona
+      - Jon
+  - osis: Mic
+    texts:
+      - Mikah
+      - Mika
+      - MiK
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakkuk
+      - Habakuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Zephaniah
+      - Sepania
+      - Zep
+  - osis: Hag
+    texts:
+      - Haggai
+      - Hagai
+      - Hag
+  - osis: Zech
+    texts:
+      - Zechariah
+      - Sekaria
+      - Zek
+  - osis: Mal
+    texts:
+      - Malaki
+      - Mal
+  - osis: Matt
+    texts:
+      - Matayo
+      - Mat
+  - osis: Mark
+    texts:
+      - Mariko
+      - Mar
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis: 1John
+    texts:
+      - Johana 1
+      - 1Jhn
+  - osis: 2John
+    texts:
+      - Johana 2
+      - 2Jhn
+  - osis: 3John
+    texts:
+      - 3 Johana
+      - Johana 3
+      - 3Jhn
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Johana
+  - osis: John
+    texts:
+      - Johana
+      - Jhn
+  - osis: Acts
+    texts:
+      - Boisionikab Che Kiyoktoi
+      - Poisyonigap Che Kiyoktoi
+      - Poi
+  - osis: Rom
+    texts:
+      - Romanik
+      - Rom
+  - osis: 1Cor
+    texts:
+      - Korintoek 1
+      - 1Kor
+  - osis: 2Cor
+    texts:
+      - Korintoek 2
+      - 2Kor
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintoek
+  - osis: Col
+    texts:
+      - Kolosaik
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatiek
+      - Galatyek
+      - Gal
+  - osis: Eph
+    texts:
+      - Ephesoek
+      - Epesoek
+      - Eph
+  - osis: Phil
+    texts:
+      - Philippik
+      - Pilipik
+      - Phlp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thessalonikek
+  - osis: 1Thess
+    texts:
+      - Tesalonikek 1
+      - 1Thes
+  - osis: 2Thess
+    texts:
+      - Tesalonikek 2
+      - 2Thes
+  - osis: 1Tim
+    texts:
+      - Timoteo 1
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - Timoteo 2
+      - 2Tim
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Philemon
+      - Pilemon
+      - Phlm
+  - osis: Heb
+    texts:
+      - Hebranik
+      - Heb
+  - osis: Jas
+    texts:
+      - Jakobo
+      - Jak
+  - osis: 1Pet
+    texts:
+      - Petero 1
+      - 1Pet
+  - osis: 2Pet
+    texts:
+      - Petero 2
+      - 2Pet
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petero
+  - osis: Jude
+    texts:
+      - Juda
+      - Jud
+  - osis: Tob
+    texts:
+      - Tobit
+      - Tbt
+  - osis: Jdt
+    texts:
+      - Judith
+      - Judt
+  - osis: Bar
+    texts:
+      - Baruk
+      - Bar
+  - osis:
+      - osis: 1Macc
+        before: *first
+      - osis: 2Macc
+        before: *second
+    texts:
+      - Makabaik
+  - osis: 1Macc
+    texts:
+      - 1Mak
+  - osis: 2Macc
+    texts:
+      - 2Mak
+  - osis: DanGr
+    texts:
+      - Daniel
+      - Dan
+  - osis: EsthGr
+    texts:
+      - Estag
+      - Esta
+translations:
+  - KALDC
+  - BUKUIT
+  - KAPR

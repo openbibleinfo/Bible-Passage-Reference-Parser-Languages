@@ -1,0 +1,111 @@
+default:
+  1Cor:
+    long: 1 Korіnflіlerä
+  1John:
+    long: 1 İoanın
+  1Pet:
+    long: 1 Petrіnіn
+  1Thess:
+    long: 1 Salonіklіlerä
+  1Tim:
+    long: 1 Tіmofeyä
+  2Cor:
+    long: 2 Korіnflіlerä
+  2John:
+    long: 2 İoanın
+  2Pet:
+    long: 2 Petrіnіn
+  2Thess:
+    long: 2 Salonіklіlerä
+  2Tim:
+    long: 2 Tіmofeyä
+  3John:
+    long: 3 İoanın
+  Acts:
+    long: Yaptıklar
+  Col:
+    long: Koloslulara
+  Eph:
+    long: Efeslіlerä
+  Gal:
+    long: Galatіyalılara
+  Heb:
+    long: Çıfıtlara
+  Jas:
+    long: İakovun
+  John:
+    long: İoan
+  Jude:
+    long: İudanın
+  Luke:
+    long: Luka
+  Mark:
+    long: Mark
+  Matt:
+    long: Matfey
+  Phil:
+    long: Fіlіplіlerä
+  Phlm:
+    long: Fіlіmona
+  Rev:
+    long: Apokalіpsіs
+  Rom:
+    long: Romalılara
+  Titus:
+    long: Tіta
+translations:
+  gagntc:
+    1Cor:
+      long: 1 Коринфлилерӓ
+    1John:
+      long: 1 Иоанын
+    1Pet:
+      long: 1 Петринин
+    1Thess:
+      long: 1 Салониклилерӓ
+    1Tim:
+      long: 1 Тимофейӓ
+    2Cor:
+      long: 2 Коринфлилерӓ
+    2John:
+      long: 2 Иоанын
+    2Pet:
+      long: 2 Петринин
+    2Thess:
+      long: 2 Салониклилерӓ
+    2Tim:
+      long: 2 Тимофейӓ
+    3John:
+      long: 3 Иоанын
+    Acts:
+      long: Йаптыклар
+    Col:
+      long: Колослулара
+    Eph:
+      long: Ефеслилерӓ
+    Gal:
+      long: Галатийалылара
+    Heb:
+      long: Чыфытлара
+    Jas:
+      long: Иаковун
+    John:
+      long: Иоан
+    Jude:
+      long: Иуданын
+    Luke:
+      long: Лука
+    Mark:
+      long: Марк
+    Matt:
+      long: Матфей
+    Phil:
+      long: Филиплилерӓ
+    Phlm:
+      long: Филимона
+    Rev:
+      long: Апокалипсис
+    Rom:
+      long: Ромалылара
+    Titus:
+      long: Тита

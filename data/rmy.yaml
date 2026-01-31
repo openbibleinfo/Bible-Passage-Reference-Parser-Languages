@@ -1,0 +1,485 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Англунимос
+      - Англунимо
+      - Jenesis
+      - Кэздэто
+      - Genesa
+      - Gen.
+      - Jen
+      - Анг
+      - Кд
+  - osis: Exod
+    texts:
+      - Eksodo
+      - Exodul
+      - Exod.
+      - Ek
+  - osis: Lev
+    texts:
+      - Levetiko
+      - Levitiko
+      - Lev.
+      - Lv
+  - osis: Num
+    texts:
+      - Numeros
+      - Numeri
+      - Num.
+      - Nm
+  - osis: Lam
+    texts:
+      - Lamentasiones
+      - Roimata
+      - Roim.
+      - Lm
+  - osis: Rev
+    texts:
+      - Apokalipsis
+      - Sîkadimos
+      - Sikavimos
+      - Sikav
+      - Apok
+      - Sîk.
+      - Apo
+  - osis: Deut
+    texts:
+      - Deuteronomio
+      - Deutronomul
+      - Deut.
+      - Dt
+  - osis: Josh
+    texts:
+      - Iosua
+      - Josue
+      - Ios.
+      - Jos
+  - osis: Judg
+    texts:
+      - Krisînitorea
+      - Jueses
+      - Kris.
+      - Jue
+  - osis: Ruth
+    texts:
+      - Руфь
+      - Rut
+      - Рут
+      - Rt
+  - osis: Isa
+    texts:
+      - Isaias
+      - Isaia
+      - Is.
+      - Is
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuelohko
+      - Samuel
+      - S
+  - osis: 1Sam
+    texts:
+      - 1Sam.
+  - osis: 2Sam
+    texts:
+      - 2Sam.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Thagarengo
+      - Relles
+      - R
+  - osis: 1Kgs
+    texts:
+      - 1Thag.
+  - osis: 2Kgs
+    texts:
+      - 2Thag.
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Kroničengo
+      - Kronikas
+      - Kr
+  - osis: 1Chr
+    texts:
+      - 1Kron.
+  - osis: 2Chr
+    texts:
+      - 2Kron.
+  - osis: Ezra
+    texts:
+      - Esdras
+      - Ezra
+      - Esd
+  - osis: Neh
+    texts:
+      - Nejemias
+      - Neemia
+      - Neem.
+      - Nej
+  - osis: Esth
+    texts:
+      - Estera
+      - Ester
+      - Est.
+      - Est
+  - osis: Job
+    texts:
+      - Iov
+      - Job
+  - osis: Ps
+    texts:
+      - Psalmea
+      - Psalmo
+      - Salmos
+      - Ps.
+      - Sal
+  - osis: Prov
+    texts:
+      - Proverbios
+      - Le Pilde
+      - Pilde
+      - Pr
+  - osis: Eccl
+    texts:
+      - Eklesiastes
+      - Eclesaiato
+      - Ecl.
+      - Ekl
+  - osis: Song
+    texts:
+      - Dilabaimos Le Dilibaimatăngo
+      - Kantares
+      - Dilab.
+      - Knt
+  - osis: Jer
+    texts:
+      - Jeremias
+      - Ieremia
+      - Ier.
+      - Jer
+  - osis: Ezek
+    texts:
+      - Ezechiel
+      - Ezekiel
+      - Ezec.
+      - Ez
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan.
+      - Dn
+  - osis: Hos
+    texts:
+      - Oseas
+      - Osea
+      - Os
+  - osis: Joel
+    texts:
+      - Ioel
+      - Joel
+      - Jl
+  - osis: Amos
+    texts:
+      - Amos
+      - Am
+  - osis: Obad
+    texts:
+      - Abdias
+      - Obadia
+      - Obad.
+      - Abd
+  - osis: Jonah
+    texts:
+      - Jonas
+      - Iona
+      - Иона
+      - Jon
+  - osis: Mic
+    texts:
+      - Mikeas
+      - Mika
+      - MiK
+  - osis: Nah
+    texts:
+      - Najum
+      - Naxum
+      - Nax.
+      - Naj
+  - osis: Hab
+    texts:
+      - Jabakuk
+      - Xabakuk
+      - Xab.
+      - Jab
+  - osis: Zeph
+    texts:
+      - Sofonias
+      - Çefania
+      - Çef.
+      - Sof
+  - osis: Hag
+    texts:
+      - Jageo
+      - Xagai
+      - Xag.
+      - Jag
+  - osis: Zech
+    texts:
+      - Zakarias
+      - Zaxaria
+      - Zax.
+      - Zak
+  - osis: Mal
+    texts:
+      - Malakias
+      - Maleaxi
+      - Mal.
+      - Mal
+  - osis: Matt
+    texts:
+      - Matei
+      - Mateo
+      - Mat.
+      - Mt
+  - osis: Mark
+    texts:
+      - Markos
+      - Marco
+      - Marko
+      - Mk
+  - osis: Luke
+    texts:
+      - Лукастар
+      - Лукатар
+      - Lukas
+      - Luka
+      - Lk
+      - Лк
+  - osis: 1John
+    texts:
+      - 1Ioan
+      - 1Jono
+  - osis: 2John
+    texts:
+      - 2Ioan
+      - 2Jono
+  - osis: 3John
+    texts:
+      - 3 Ioanohko
+      - 3 Jono
+      - 3 Juan
+      - 3Ioan
+      - 3Jono
+      - 3 Jn
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - Ioanohko
+      - Johannes
+      - Jono
+      - Juan
+      - Jn
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - Ioanohko
+      - Jono
+      - Juan
+      - Jn
+  - osis: John
+    texts:
+      - Johannes
+      - Ioan
+      - Jono
+      - Juan
+      - Jn
+  - osis: Acts
+    texts:
+      - Kărdimata Le Apostolengă
+      - Apostole
+      - Apostoli
+      - Рындоря
+      - Apost
+      - Echos
+      - Kărd.
+      - Бути
+      - Рынд
+      - Ech
+  - osis: Rom
+    texts:
+      - Romanuri
+      - Romanos
+      - Romaia
+      - Roman
+      - Rom.
+      - Rm
+      - Ro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintianuri
+      - Korintenea
+      - Korintios
+      - Kor
+      - Ko
+  - osis: 1Cor
+    texts:
+      - 1Kor.
+      - 1Kor
+  - osis: 2Cor
+    texts:
+      - 2Kor.
+      - 2Kor
+  - osis: Col
+    texts:
+      - Kolosianuri
+      - Kolosenses
+      - Kolosenea
+      - Kolos
+      - Kol.
+      - Kols
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatenea
+      - Galatian
+      - Galatas
+      - Gal.
+      - Gal
+      - Gl
+  - osis: Eph
+    texts:
+      - Efesenea
+      - Efesian
+      - Efesios
+      - Efes.
+      - Efes
+      - Efs
+      - Ef
+  - osis: Phil
+    texts:
+      - Filipenses
+      - Filipenea
+      - Filipian
+      - Filip.
+      - Filip
+      - Filp
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonisianuri
+      - Tesalonisenses
+      - Tesaloničenea
+      - Tesalonisense
+      - Tesl
+      - Ts
+  - osis: 1Thess
+    texts:
+      - 1Tes.
+      - 1Tes
+  - osis: 2Thess
+    texts:
+      - 2Tes.
+      - 2Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotei
+      - Timoteo
+      - Ti
+  - osis: 1Tim
+    texts:
+      - 1Tim.
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim.
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Titus
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filimono
+      - Filemon
+      - Filim.
+      - Filem
+      - Flm
+  - osis: Heb
+    texts:
+      - Židovuri
+      - Ebreos
+      - Evreia
+      - Židov
+      - Evr.
+      - Ebr
+  - osis: Jas
+    texts:
+      - Iakovohko
+      - Santiago
+      - Jakob
+      - Iak.
+      - Jak
+      - Stg
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petrohko
+      - Pedro
+      - Petri
+      - P
+  - osis: 1Pet
+    texts:
+      - 1Pet.
+      - 1Pet
+  - osis: 2Pet
+    texts:
+      - 2Pet.
+      - 2Pet
+  - osis: Jude
+    texts:
+      - Iudahko
+      - Judas
+      - Iuda
+      - Jud
+translations:
+  - BER
+  - ROMURS
+  - SRB
+  - VRB
+  - LRB

@@ -1,0 +1,92 @@
+default:
+  1Cor:
+    long: 1 Korinhtuq
+    short: 1 Ko
+  1John:
+    long: 1 Yohan
+    short: 1 Yhn
+  1Pet:
+    long: 1 Petruq
+    short: 1 Pt
+  1Thess:
+    long: 1 Htesaloni
+    short: 1 Hte
+  1Tim:
+    long: 1 Timohti
+    short: 1 Tm
+  2Cor:
+    long: 2 Korinhtuq
+    short: 2 Ko
+  2John:
+    long: 2 Yohan
+    short: 2 Yhn
+  2Pet:
+    long: 2 Petruq
+    short: 2 Pt
+  2Thess:
+    long: 2 Htesaloni
+    short: 2 Hte
+  2Tim:
+    long: 2 Timohti
+    short: 2 Tm
+  3John:
+    long: 3 Yohan
+    short: 3 Yhn
+  Acts:
+    long: Lagyo
+    short: Lagyo
+  Col:
+    long: Kolose
+    short: Kol
+  Eph:
+    long: Ehpesu
+    short: Ehp
+  Gal:
+    long: Galatiq
+    short: Gal
+  Heb:
+    long: Hebre
+    short: Hbr
+  Jas:
+    long: Yakuq
+    short: Yak
+  John:
+    long: Yohan
+    short: Yhn
+  Jude:
+    long: Yude
+    short: Yud
+  Luke:
+    long: Lukaq
+    short: Luk
+  Mark:
+    long: Marku
+    short: Mrk
+  Matt:
+    long: Mahte
+    short: Mht
+  Phil:
+    long: Hpilipi
+    short: Hpp
+  Phlm:
+    long: Hpilemon
+    short: Hpm
+  Rev:
+    long: Shing-rán
+    short: Shr
+  Rom:
+    long: Romaq
+    short: Rom
+  Titus:
+    long: Tituq
+    short: Tit
+translations:
+  atb1951:
+    Mark:
+      short: Marku
+  atb:
+    Mark:
+      long: Markuq
+  atb1938:
+    Mark:
+      long: ꓟ˗ꓗꓴ ꓟꓮꓴ ꓢꓮꓴ

@@ -1,0 +1,263 @@
+books:
+  - osis: Gen
+    texts:
+      - Ala Kalɔ Buse
+      - Mo1
+  - osis: Exod
+    texts:
+      - Israelƒuɔ Bɔlɛ
+      - Mo2
+  - osis: Lev
+    texts:
+      - Lewiƒuɔ Ɔda Bubo
+      - Mo3
+  - osis: Num
+    texts:
+      - Bumomo Bɔka
+      - Mo4
+  - osis: Lam
+    texts:
+      - Kɔnyana Buwulo
+      - Kɔn
+  - osis: Rev
+    texts:
+      - Budie Taatina
+      - Bud
+  - osis: Deut
+    texts:
+      - Lɛkpa Ulu
+      - Mo5
+  - osis: Josh
+    texts:
+      - Yosua
+      - Yos
+  - osis: Judg
+    texts:
+      - Litemi Batɛne
+      - Lit
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis: Isa
+    texts:
+      - Yesaia
+      - Yes
+  - osis: 1Sam
+    texts:
+      - Samuel 1
+      - Sa1
+  - osis: 2Sam
+    texts:
+      - Samuel 2
+      - Sa2
+  - osis: 1Kgs
+    texts:
+      - Baga 1
+      - Ba1
+  - osis: 2Kgs
+    texts:
+      - Baga 2
+      - Ba2
+  - osis: 1Chr
+    texts:
+      - Ala Alɛdi 1
+      - Al1
+  - osis: 2Chr
+    texts:
+      - Ala Alɛdi 2
+      - Al2
+  - osis: Ezra
+    texts:
+      - Esra
+      - Esr
+  - osis: Neh
+    texts:
+      - Nehemia
+      - Neh
+  - osis: Esth
+    texts:
+      - Ester
+      - Est
+  - osis: Job
+    texts:
+      - Hiob
+      - Hio
+  - osis: Ps
+    texts:
+      - Kɔgya
+  - osis: Prov
+    texts:
+      - Agba
+      - Agb
+  - osis: Eccl
+    texts:
+      - Etemila
+      - Ete
+  - osis: Song
+    texts:
+      - Lɛnu Ƒui Ɔnu
+      - Lɛnu
+  - osis: Jer
+    texts:
+      - Yeremia
+      - Yer
+  - osis: Ezek
+    texts:
+      - Esekiel
+      - Ese
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan
+  - osis: Hos
+    texts:
+      - Hosea
+      - Hos
+  - osis: Joel
+    texts:
+      - Yoel
+  - osis: Amos
+    texts:
+      - Amos
+      - Amo
+  - osis: Obad
+    texts:
+      - Obadia
+      - Oba
+  - osis: Jonah
+    texts:
+      - Yona
+      - Yon
+  - osis: Mic
+    texts:
+      - Mika
+      - MiK
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Seƒania
+      - Seƒ
+  - osis: Hag
+    texts:
+      - Hagai
+      - Hag
+  - osis: Zech
+    texts:
+      - Sakaria
+      - Sak
+  - osis: Mal
+    texts:
+      - Malakai
+      - Mal
+  - osis: Matt
+    texts:
+      - Mateo
+      - Mat
+  - osis: Mark
+    texts:
+      - Marko
+      - Mar
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis: 1John
+    texts:
+      - Yohane 1
+      - Yo1
+  - osis: 2John
+    texts:
+      - Yohane 2
+      - Yo2
+  - osis: 3John
+    texts:
+      - Yohane 3
+      - Yo3
+  - osis: John
+    texts:
+      - Yohane
+      - Yoh
+  - osis: Acts
+    texts:
+      - Batalane Kabla
+      - Bat
+  - osis: Rom
+    texts:
+      - Romaƒuɔ
+      - Rom
+  - osis: 1Cor
+    texts:
+      - Korintoƒuɔ 1
+      - Ko1
+  - osis: 2Cor
+    texts:
+      - Korintoƒuɔ 2
+      - Ko2
+  - osis: Col
+    texts:
+      - Koloseƒuɔ
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatiƒuɔ
+      - Gal
+  - osis: Eph
+    texts:
+      - Eƒesoƒuɔ
+      - Eƒe
+  - osis: Phil
+    texts:
+      - Ƒilipiƒuɔ
+      - Ƒili
+  - osis: 1Thess
+    texts:
+      - Tesalonikaƒuɔ 1
+      - Te1
+  - osis: 2Thess
+    texts:
+      - Tesalonikaƒuɔ 2
+      - Te2
+  - osis: 1Tim
+    texts:
+      - Timoteo 1
+      - Ti1
+  - osis: 2Tim
+    texts:
+      - Timoteo 2
+      - Ti2
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Ƒilemon
+      - Ƒile
+  - osis: Heb
+    texts:
+      - Hebriƒuɔ
+      - Heb
+  - osis: Jas
+    texts:
+      - Yakobo
+      - Yak
+  - osis: 1Pet
+    texts:
+      - Petro 1
+      - Pe1
+  - osis: 2Pet
+    texts:
+      - Petro 2
+      - Pe2
+  - osis: Jude
+    texts:
+      - Yuda
+      - Yud
+translations:
+  - LEF

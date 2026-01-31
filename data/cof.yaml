@@ -1,0 +1,116 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Quirajanunca
+      - Ap
+  - osis: Matt
+    texts:
+      - San Mateo
+      - Mt
+  - osis: Mark
+    texts:
+      - San Marcos
+      - Mc
+  - osis: Luke
+    texts:
+      - San Lucas
+      - Lc
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Juanchi
+      - Jn
+  - osis: John
+    texts:
+      - San Juan
+      - Jn
+  - osis: Acts
+    texts:
+      - Mantá Tanla
+      - Hch
+  - osis: Rom
+    texts:
+      - Románolachi
+      - Rm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Coríntolachi
+      - Co
+  - osis: Col
+    texts:
+      - Colósalachi
+      - Col
+  - osis: Gal
+    texts:
+      - Galácialachi
+      - Ga
+  - osis: Eph
+    texts:
+      - Efesolachi
+      - Ef
+  - osis: Phil
+    texts:
+      - Filípolachi
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalónicalachi
+      - Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotéochi
+      - Tm
+  - osis: Titus
+    texts:
+      - Títochi
+      - Tt
+  - osis: Phlm
+    texts:
+      - Filemonchi
+      - Flm
+  - osis: Heb
+    texts:
+      - Israelítalachi
+      - Hb
+  - osis: Jas
+    texts:
+      - Santiago
+      - St
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pédrochi
+      - P
+  - osis: Jude
+    texts:
+      - Judas
+      - Jds
+translations:
+  - COF

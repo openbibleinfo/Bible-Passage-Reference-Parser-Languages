@@ -1,0 +1,210 @@
+default:
+  1Chr:
+    long: Fyrra Krýnikubók
+    short: 1 Krýn
+  1Cor:
+    long: Fyrra Korintbrævið
+    short: 1 Kor
+  1John:
+    long: 1 John
+    short: 1 John
+  1Kgs:
+    long: Fyrra Kongabók
+    short: 1 Kong
+  1Pet:
+    long: Hitt fyrra almenna bræv Pæturs
+    short: 1 Pæt
+  1Sam:
+    long: Fyrra Sámuelsbók
+    short: 1 Sám
+  1Thess:
+    long: Fyrra Tessalónikubrævið
+    short: 1 Tess
+  1Tim:
+    long: Fyrra Timoteusarbrævið
+    short: 1 Tim
+  2Chr:
+    long: Seinna Krýnikubók
+    short: 2 Krýn
+  2Cor:
+    long: Seinna Korintbrævið
+    short: 2 Kor
+  2John:
+    long: Annað bræv Jóhannesar
+    short: 2 Jóh
+  2Kgs:
+    long: Seinna Kongabók
+    short: 2 Kong
+  2Pet:
+    long: Hitt seinna almenna bræv Pæturs
+    short: 2 Pæt
+  2Sam:
+    long: Seinna Sámuelsbók
+    short: 2 Sám
+  2Thess:
+    long: Seinna Tessalónikubrævið
+    short: 2 Tess
+  2Tim:
+    long: Seinna Timoteusarbrævið
+    short: 2 Tim
+  3John:
+    long: Triðja bræv Jóhannesar
+    short: 3 Jóh
+  Acts:
+    long: Ápostlasøgan
+    short: Áps
+  Amos:
+    long: Ámos
+    short: Ám
+  Col:
+    long: Kolossubrævið
+    short: Kol
+  Dan:
+    long: Dánjal
+    short: Dán
+  Deut:
+    long: Fimta Mósebók
+    short: 5 Mós
+  Eccl:
+    long: Prædikarin
+    short: Præd
+  Eph:
+    long: Efesusbrævið
+    short: Ef
+  Esth:
+    long: Esterarbók
+    short: Est
+  Exod:
+    long: Exodus
+    short: Exodus
+  Ezek:
+    long: Ezekiel
+    short: Ez
+  Ezra:
+    long: Ezra
+    short: Ezra
+  Gal:
+    long: Galatabrævið
+    short: Gal
+  Gen:
+    long: Genesis
+    short: Genesis
+  Hab:
+    long: Hábakkuk
+    short: Háb
+  Hag:
+    long: Haggai
+    short: Hagg
+  Heb:
+    long: Hebrearabrævið
+    short: Hebr
+  Hos:
+    long: Hósea
+    short: Hós
+  Isa:
+    long: Jesaja
+    short: Jes
+  Jas:
+    long: Hitt almenna bræv Jákups
+    short: Ják
+  Jer:
+    long: Jeremia
+    short: Jer
+  Job:
+    long: Jobsbók
+    short: Job
+  Joel:
+    long: Jóel
+    short: Jóel
+  John:
+    long: Evangeliið eftir Jóhannes
+    short: Jóh
+  Jonah:
+    long: Jónas
+    short: Jón
+  Josh:
+    long: Jósvabók
+    short: Jós
+  Jude:
+    long: Hitt almenna bræv Judasar
+    short: Jud
+  Judg:
+    long: Dómarabókin
+    short: Dóm
+  Lam:
+    long: Harmljóðini
+    short: Harmlj
+  Lev:
+    long: Triðja Mósebók
+    short: 3 Mós
+  Luke:
+    long: Evangeliið eftir Lukas
+    short: Luk
+  Mal:
+    long: Málaki
+    short: Mál
+  Mark:
+    long: Evangeliið eftir Markus
+    short: Mark
+  Matt:
+    long: Evangeliið eftir Matteus
+    short: Mathæussa
+  Mic:
+    long: Mika
+    short: Mika
+  Nah:
+    long: Náhum
+    short: Náh
+  Neh:
+    long: Nehemia
+    short: Neh
+  Num:
+    long: Fjórða Mósebók
+    short: 4 Mós
+  Obad:
+    long: Óbadia
+    short: Óbad
+  Phil:
+    long: Filippibrævið
+    short: Fil
+  Phlm:
+    long: Filemonsbrævið
+    short: Filem
+  Prov:
+    long: Orðtøk Sálomons
+    short: Orðt
+  Ps:
+    long: Sálmarnir
+    short: Sl
+  Rev:
+    long: Jóhannesar opinbering
+    short: Opb
+  Rom:
+    long: Bræv Paulusar ápostuls til Rómverja
+    short: Róm
+  Ruth:
+    long: Rutarbók
+    short: Rut
+  Song:
+    long: Hásongurin
+    short: Hás
+  Titus:
+    long: Titusarbrævið
+    short: Tit
+  Zech:
+    long: Zakarja
+    short: Zak
+  Zeph:
+    long: Sefanja
+    short: Sef
+translations:
+  fao1908:
+    John:
+      long: Jóhannesar Evangelium
+      short: Jóhannes
+  fb:
+    Matt:
+      short: Matt
+  fao1823:
+    Matt:
+      long: Mathæussa

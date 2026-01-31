@@ -1,0 +1,302 @@
+default:
+  1Chr:
+    long: 1 ရႃႇၶျုၵ်ႈ
+    short: 1 ရႃႇ
+  1Cor:
+    long: 1 ၵေႃး
+    short: 1 ၵေႃး
+  1John:
+    long: 1 ယူဝ်း
+    short: 1 ယူဝ်း
+  1Kgs:
+    long: 1 ၶုၼ်ႁေႃၶမ်း
+    short: 1 ၶုၼ်
+  1Pet:
+    long: 1 ပေႇတရု
+    short: 1 ပေႇ
+  1Sam:
+    long: 1 ရႃႇၸဝၢင်ႇ
+    short: 1 ရႃႇ
+  1Thess:
+    long: 1 ထိတ်ႉသႃႇလေႃးၼိၵ်ႈ
+    short: 1 ထိတ်ႉ
+  1Tim:
+    long: 1 တိမေႃးသေႇ
+    short: 1 တိ
+  2Chr:
+    long: 2 ရႃႇၶျုၵ်ႈ
+    short: 2 ရႃႇ
+  2Cor:
+    long: 2 ၵေႃး
+    short: 2 ၵေႃး
+  2John:
+    long: 2 ယူဝ်း
+    short: 2 ယူဝ်း
+  2Kgs:
+    long: 2 ၶုၼ်ႁေႃၶမ်း
+    short: 2 ၶုၼ်
+  2Pet:
+    long: 2 ပေႇတရု
+    short: 2 ပေႇ
+  2Sam:
+    long: 2 ရႃႇၸဝၢင်ႇ
+    short: 2 ရႃႇ
+  2Thess:
+    long: 2 ထိတ်ႉသႃႇလေႃးၼိၵ်ႈ
+    short: 2 ထိတ်ႉ
+  2Tim:
+    long: 2 တိမေႃးသေႇ
+    short: 2 တိ
+  3John:
+    long: 3 ယူဝ်း
+    short: 3 ယူဝ်း
+  Acts:
+    long: တမၢၼ်ႇ
+    short: တ
+  Amos:
+    long: ဢႃႇမူတ်ႉ
+    short: ဢႃႇ
+  Col:
+    long: ၵေႃးလေႃးသေး
+    short: ၵေႃး
+  Dan:
+    long: တၢၼ်ႇယေႇလႃႉ
+    short: တၢၼ်ႇ
+  Deut:
+    long: ႁေႃးတြႃး
+    short: ႁေႃး
+  Eccl:
+    long: တေႇသၼႃႇ
+    short: တေႇ
+  Eph:
+    long: ဢေးၽႅတ်ႈ
+    short: ဢေး
+  Esth:
+    long: ဢေးသတႃႇ
+    short: ဢေးသ
+  Exod:
+    long: ဢွၵ်ႇၵႂႃႇ
+    short: ဢွၵ်ႇ
+  Ezek:
+    long: ယေႇၸၵျေႇလႃႉ
+    short: ယေႇၸ
+  Ezra:
+    long: ဢေးၸရႃႇ
+    short: ဢေးၸ
+  Gal:
+    long: ၵလႃႇတိ
+    short: ၵ
+  Gen:
+    long: ငဝ်ႈ
+    short: ငဝ်ႈ
+  Hab:
+    long: ႁပၵ်ႉၵုၵ်ႉ
+    short: ႁပၵ်ႉ
+  Hag:
+    long: ႁၵ်ႉၵႄး
+    short: ႁၵ်ႉ
+  Heb:
+    long: ႁေႇပြႄး
+    short: ႁေႇ
+  Hos:
+    long: ႁူဝ်းသေႇ
+    short: ႁူဝ်း
+  Isa:
+    long: ဢိ
+    short: ဢိ
+  Jas:
+    long: ယႃႇၵုပ်ႈ
+    short: ယႃႇ
+  Jer:
+    long: ယေႇရမိ
+    short: ယေႇ
+  Job:
+    long: ယေႃးၽႃႉ
+    short: ယေႃး
+  Joel:
+    long: ယူဝ်းဢေႇလႃႉ
+    short: ယူဝ်းဢေႇ
+  John:
+    long: ယူဝ်း
+    short: ယူဝ်း
+  Jonah:
+    long: ယူဝ်းၼႃႉ
+    short: ယူဝ်းၼႃႉ
+  Josh:
+    long: ယေႃးသု
+    short: ယေႃးသု
+  Jude:
+    long: ယုတႃႉ
+    short: ယု
+  Judg:
+    long: ၵူၼ်းလူင်
+    short: ၵူၼ်းလူင်
+  Lam:
+    long: ပွင်ႉၶၢင်း
+    short: ပွင်ႉ
+  Lev:
+    long: ႁဵတ်းဝၢတ်ႈ
+    short: ႁဵတ်း
+  Luke:
+    long: လု
+    short: လု
+  Mal:
+    long: မႃႇလၶိ
+    short: မႃႇလ
+  Mark:
+    long: မႃႇ
+    short: မႃႇ
+  Matt:
+    long: မတ်ႈ
+    short: မတ်ႈ
+  Mic:
+    long: မိၶႃႇ
+    short: မိ
+  Nah:
+    long: ၼႃႇႁုမ်ႇ
+    short: ၼႃႇ
+  Neh:
+    long: ၼေႇ
+    short: ၼေႇ
+  Num:
+    long: ၼႂ်းထိူၼ်ႇ
+    short: ထိူၼ်ႇ
+  Obad:
+    long: ဢေႃးပတိ
+    short: ဢေႃး
+  Phil:
+    long: ၽိလိပ်ႉပိ
+    short: ၽိ
+  Phlm:
+    long: ၽိလေႇမုၼ်ႇ
+    short: ၽိလေႇ
+  Prov:
+    long: သုၵ်ႉတၢမ်ႇ
+    short: သုၵ်ႉ
+  Ps:
+    long: သႃႇလၢမ်ႇ
+    short: သႃႇ
+  Rev:
+    long: ပျႃႇတိၵ်ႈ
+    short: ပျႃႇ
+  Rom:
+    long: ရူဝ်းမႃႉ
+    short: ရူဝ်း
+  Ruth:
+    long: ရုထႃႉ
+    short: ရု
+  Song:
+    long: သေႃးလမုၼ်ႇ
+    short: သေႃး
+  Titus:
+    long: တိတု
+    short: တိတု
+  Zech:
+    long: ၸႃႇၶရိ
+    short: ၸႃႇ
+  Zeph:
+    long: ၸေႇၽၼိ
+    short: ၸေႇ
+translations:
+  cbms:
+    1Chr:
+      short: 1 ရႃႇၶျုၵ်ႈ
+    1Cor:
+      long: 1 ၵေႃးရိၼ်ႇထူႉ
+    1John:
+      long: 1 ယူဝ်းႁၢၼ်ႇ
+    1Kgs:
+      long: 3 ရႃႇၸဝၢင်ႇ
+      short: 3 ရႃႇ
+    1Pet:
+      long: 1 ပေႇတရူႉ
+    1Tim:
+      long: 1 တီႉမေႃးသေႇ
+      short: 1 တီႉ
+    2Chr:
+      short: 2 ရႃႇၶျုၵ်ႈ
+    2Cor:
+      long: 2 ၵေႃးရိၼ်ႇထူႉ
+    2John:
+      long: 2 ယူဝ်းႁၢၼ်ႇ
+    2Kgs:
+      long: 4 ရႃႇၸဝၢင်ႇ
+      short: 4 ရႃႇ
+    2Pet:
+      long: 2 ပေႇတရူႉ
+    2Tim:
+      long: 2 တီႉမေႃးသေႇ
+      short: 2 တီႉ
+    3John:
+      long: 3 ယူဝ်းႁၢၼ်ႇ
+    Acts:
+      long: တမၢၼ်ႇ​ၸဝ်ႈ
+    Ezra:
+      long: ဢေးၸရႃႉ
+    Gal:
+      long: ၵလႃႇတီႉ
+    Gen:
+      long: ငဝ်ႈၵမ်ႇၽႃႇ
+    Isa:
+      long: ဢီႉသႃႇယႃႉ
+      short: ဢီႉ
+    Jer:
+      long: ယေႇရမီႉ
+    John:
+      long: ယူဝ်းႁၢၼ်ႇ
+    Josh:
+      long: ယေႃးသူႉ
+      short: ယေႃးသူႉ
+    Jude:
+      long: ယူႉတႃႉ
+      short: ယူႉ
+    Judg:
+      long: ၵူၼ်းလူင်ၸီႇယၢင်ႇတြႃး
+    Luke:
+      long: လူႉၵႃႇ
+      short: လူႉ
+    Mal:
+      long: မႃႇလၶီႉ
+    Mark:
+      long: မႃႇ​ၵူႉ
+    Matt:
+      long: မၢတ်ႈထႄႇ
+      short: မၢတ်ႈ
+    Mic:
+      long: မီႉၶႃႇ
+      short: မီႉ
+    Neh:
+      long: ၼေႇႁမီႉ
+    Obad:
+      long: ဢေႃးပတီႉ
+    Phil:
+      long: ၽီႉလိပ်ႉပီႉ
+      short: ၽီႉ
+    Phlm:
+      long: ၽီႉလေႇမုၼ်ႇ
+      short: ၽီႉလေႇ
+    Ruth:
+      long: ရူႉထႃႉ
+      short: ရူႉ
+    Titus:
+      long: တီႉတူႉ
+      short: တီႉတူႉ
+    Zech:
+      long: ၸႃႇၶရီႉ
+    Zeph:
+      long: ၸေႇၽၼီႉ
+  shncl:
+    1Sam:
+      long: 1 သမူၺ်ႇ
+      short: 1 သမူၺ်ႇ
+    2Sam:
+      long: 2 သမူၺ်ႇ
+      short: 2 သမူၺ်ႇ
+    Acts:
+      short: တမၢၼ်ႇ
+    Gal:
+      short: ၵလႃႇ
+    Jas:
+      short: ယႃႇၵုပ်ႈ
+    Lam:
+      short: ပွင်ႉၶၢင်း

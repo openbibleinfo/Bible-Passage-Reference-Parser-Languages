@@ -1,0 +1,157 @@
+default:
+  1Chr:
+    long: 1 Cronica
+    short: 1Cr
+  1Cor:
+    long: 1 Corinto
+    short: 1Ct
+  1John:
+    long: 1 Juan
+    short: 1Jn
+  1Kgs:
+    long: 1 Mga Adiꞌ
+    short: 1Ad
+  1Pet:
+    long: 1 Pedro
+    short: 1Pe
+  1Sam:
+    long: 1 Samuel
+    short: 1Sa
+  1Thess:
+    long: 1 Tesalonica
+    short: 1Ts
+  1Tim:
+    long: 1 Timoteo
+    short: 1Ti
+  2Chr:
+    long: 2 Cronica
+    short: 2Cr
+  2Cor:
+    long: 2 Corinto
+    short: 2Ct
+  2John:
+    long: 2 Juan
+    short: 2Jn
+  2Kgs:
+    long: 2 Mga Adiꞌ
+    short: 2Ad
+  2Pet:
+    long: 2 Pedro
+    short: 2Pe
+  2Sam:
+    long: 2 Samuel
+    short: 2Sa
+  2Thess:
+    long: 2 Tesalonica
+    short: 2Ts
+  2Tim:
+    long: 2 Timoteo
+    short: 2Ti
+  3John:
+    long: 3 Juan
+    short: 3Jn
+  Acts:
+    long: Mga Binwat
+    short: Bin
+  Col:
+    long: Colosas
+    short: Col
+  Dan:
+    long: Daniel
+    short: Dan
+  Deut:
+    long: Deuteronomio
+    short: Deu
+  Eph:
+    long: Efeso
+    short: Efo
+  Exod:
+    long: Exodo
+    short: Exo
+  Ezek:
+    long: Ezekiel
+    short: Exe
+  Ezra:
+    long: Esdras
+    short: Esd
+  Gal:
+    long: Galacia
+    short: Gal
+  Gen:
+    long: Genesis
+    short: Gen
+  Hag:
+    long: Ageo
+    short: Age
+  Heb:
+    long: Hebreo
+    short: Heb
+  Isa:
+    long: Isaias
+    short: Isa
+  Jas:
+    long: Santiago
+    short: San
+  Jer:
+    long: Jeremias
+    short: Jer
+  Joel:
+    long: Joel
+    short: Jol
+  John:
+    long: Juan
+    short: Jan
+  Josh:
+    long: Josue
+    short: Jos
+  Jude:
+    long: Judas
+    short: Jud
+  Judg:
+    long: Mga Pagbayaꞌen
+    short: Pag
+  Lam:
+    long: Mga Panganin-anin
+    short: Mpg
+  Lev:
+    long: Levitico
+    short: Lev
+  Luke:
+    long: Lucas
+    short: Luc
+  Mal:
+    long: Malakias
+    short: Mal
+  Mark:
+    long: Marcos
+    short: Mar
+  Matt:
+    long: Mateo
+    short: Mat
+  Mic:
+    long: Mikas
+    short: MiK
+  Neh:
+    long: Nehemias
+    short: Neh
+  Num:
+    long: Mga Bilang
+    short: Bil
+  Phil:
+    long: Filipos
+    short: Fil
+  Phlm:
+    long: Filemon
+    short: Flm
+  Rev:
+    long: Mga Ipiyalteg
+    short: Ipi
+  Rom:
+    long: Roma
+    short: Rom
+  Titus:
+    long: Tito
+    short: Tit
+  Zech:
+    long: Zacarias
+    short: Zac

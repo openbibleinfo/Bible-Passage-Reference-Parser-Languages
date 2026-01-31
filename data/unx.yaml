@@ -1,0 +1,142 @@
+variables:
+  first: &first
+    - "1"
+    - ୧
+  second: &second
+    - "2"
+    - ୨
+books:
+  - osis: Rev
+    texts:
+      - ଉନୁଦୁବ୍‌ କାଜି
+      - ଉଦୁବ୍‍କାଜି
+      - ଉଦୁ.
+  - osis: Matt
+    texts:
+      - ମାତ୍ତି.
+      - ମାତ୍ତିଉ
+      - ମାଥିଉ
+  - osis: Mark
+    texts:
+      - ମାର୍କୁସ୍
+      - ମାର୍କୁ.
+      - ମାର୍କ
+  - osis: Luke
+    texts:
+      - ଲୁକା.
+      - ଲୁକା
+      - ଲୁକ
+  - osis: 3John
+    texts:
+      - ୩ ଯୋହାନ୍‌
+      - 3 ଯୋହାନ୍
+      - 3 ଯୋହା.
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - ଯୋହାନ୍‌
+      - ଯୋହାନ୍
+      - ଯୋହା.
+  - osis: Acts
+    texts:
+      - ପ୍ରେରିତ୍‌
+      - କୁଲାକାନ୍
+      - କୁଲା.
+  - osis: Rom
+    texts:
+      - ରୋମ୍‍ରେନ୍
+      - ରୋମ.
+      - ରୋମି
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - କୁରିନ୍ଥିୟୋରେନ୍
+      - କରିନ୍ଥିୟ
+      - କୁରି.
+  - osis: Col
+    texts:
+      - କୁଲୁସିୟୋରେନ୍
+      - କଲସିୟ
+      - କୁଲୁ.
+  - osis: Gal
+    texts:
+      - ଗାଲାତିୟାରେନ୍
+      - ଗାଲାତିୟ
+      - ଗାଲା.
+  - osis: Eph
+    texts:
+      - ଇଫିସିୟୋ ରେନ୍
+      - ଏଫିସିୟ
+      - ଇଫି.
+  - osis: Phil
+    texts:
+      - ଫିଲିପିୟାରେନ୍
+      - ଫିଲିପିୟ
+      - ଫିଲି.
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - ଥିସ୍ସଲୁନିକେ ରେନ୍ କୋ
+      - ଥେସ୍‌ଲନିକା
+      - ଥିସ.
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - ଥିସ୍ସଲୁନିକେ ରେନ୍
+      - ଥେସ୍‌ଲନିକା
+      - ଥିସ.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - ତିମୁଥିୟୁସ୍
+      - ତିମଥି
+      - ତିମୁ.
+  - osis: Titus
+    texts:
+      - ତିତସ୍‌
+      - ତିତୁସ୍
+      - ତିତୁ.
+  - osis: Phlm
+    texts:
+      - ଫିଲ୍‌ମନ୍‌
+      - ଫିଲେମୋନ୍
+      - ଫିଲେ.
+  - osis: Heb
+    texts:
+      - ଇବ୍ରାନୀୟୋରେନ୍
+      - ଇବ୍ରା.
+      - ଏବ୍ରୀ
+  - osis: Jas
+    texts:
+      - ୟାକୁବ୍
+      - ଯାକୁବ
+      - ୟାକୁ.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - ପାତ୍‌ରାସ୍‌
+      - ପାତ୍ରାସ୍
+      - ପାତ.
+  - osis: Jude
+    texts:
+      - ଯିହୁଦା
+      - ୟାହୁଦା
+      - ୟାହୁ.
+translations:
+  - NTRUU20
+  - UNXNT

@@ -1,0 +1,267 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - E’doza
+      - E’do
+  - osis: Exod
+    texts:
+      - Efuza
+      - Efu
+  - osis: Lev
+    texts:
+      - "'Ba Levini"
+      - Lev
+  - osis: Num
+    texts:
+      - Kalafe
+      - Kal
+  - osis: Lam
+    texts:
+      - Imvo Ongo
+      - Imv
+  - osis: Rev
+    texts:
+      - E'yo Eceza
+      - Eceza
+  - osis: Deut
+    texts:
+      - Azita Amvizu
+      - Azi
+  - osis: Josh
+    texts:
+      - Yosua
+      - Yos
+  - osis: Judg
+    texts:
+      - "'Ba E'yo Lipi 'Diyini"
+      - Lip
+  - osis: Ruth
+    texts:
+      - Rutu
+      - Rut
+  - osis: Isa
+    texts:
+      - Isaya
+      - Isa
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samueli
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Opi
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Suru Ma E'yo
+      - Sur
+  - osis: Ezra
+    texts:
+      - Ezira
+      - Ezr
+  - osis: Neh
+    texts:
+      - Nehemia
+      - Neh
+  - osis: Esth
+    texts:
+      - Esiteri
+      - Esi
+  - osis: Job
+    texts:
+      - Yobu
+      - Yob
+  - osis: Ps
+    texts:
+      - Zaburi
+      - Zab
+  - osis: Prov
+    texts:
+      - E'yo O'beza
+      - O’be
+  - osis: Eccl
+    texts:
+      - Eklesiaste
+      - Ekl
+  - osis: Song
+    texts:
+      - Ongo Sulemanini
+      - Ong
+  - osis: Jer
+    texts:
+      - Yeremia
+      - Yer
+  - osis: Ezek
+    texts:
+      - Ezekieli
+      - Eze
+  - osis: Dan
+    texts:
+      - Danieli
+      - Dan
+  - osis: Hos
+    texts:
+      - Hosea
+      - Hos
+  - osis: Joel
+    texts:
+      - Yoeli
+      - Yoe
+  - osis: Amos
+    texts:
+      - Amosi
+      - Amo
+  - osis: Obad
+    texts:
+      - Obadia
+      - Oba
+  - osis: Jonah
+    texts:
+      - Yona
+      - Yon
+  - osis: Mic
+    texts:
+      - Mika
+      - MiK
+  - osis: Nah
+    texts:
+      - Nahumi
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuki
+      - Hab
+  - osis: Zeph
+    texts:
+      - Zefania
+      - Zef
+  - osis: Hag
+    texts:
+      - Hagai
+      - Hag
+  - osis: Zech
+    texts:
+      - Zekaria
+      - Zek
+  - osis: Mal
+    texts:
+      - Malaki
+      - Mal
+  - osis: Matt
+    texts:
+      - Matayo
+      - Mat
+  - osis: Mark
+    texts:
+      - Marako
+      - Mar
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohana
+      - Yoh
+  - osis: Acts
+    texts:
+      - ’Yeta
+  - osis: Rom
+    texts:
+      - "'Ba Rumia 'Diyi"
+      - Rum
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - "'Ba Korintoa 'Diyi"
+      - Kor
+  - osis: Col
+    texts:
+      - "'Ba Kolosaia 'Diyi"
+      - Kol
+  - osis: Gal
+    texts:
+      - "'Ba Galatiaa 'Diyi"
+      - Gal
+  - osis: Eph
+    texts:
+      - "'Ba Efesoa 'Diyi"
+      - Efe
+  - osis: Phil
+    texts:
+      - "'Ba Filipia 'Diyi"
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - "'Ba Tesalonikia 'Diyi"
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+      - Tim
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemona
+      - File
+  - osis: Heb
+    texts:
+      - "'Ba Ebraniani"
+      - Ebra
+  - osis: Jas
+    texts:
+      - Yakoboni
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petero
+      - Pet
+  - osis: Jude
+    texts:
+      - Yuda
+      - Yud
+translations:
+  - LB66

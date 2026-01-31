@@ -1,0 +1,145 @@
+books:
+  - osis: Gen
+    texts:
+      - בראשית
+      - ברא'
+  - osis: Exod
+    texts:
+      - שמות
+  - osis: Lev
+    texts:
+      - ויקרא
+      - ויק'
+  - osis: Num
+    texts:
+      - במדבר
+      - במד'
+  - osis: Lam
+    texts:
+      - איכה
+  - osis: Deut
+    texts:
+      - דברים
+      - דבר'
+  - osis: Josh
+    texts:
+      - יהושע
+  - osis: Judg
+    texts:
+      - שופטים
+      - שפטים
+      - שפט'
+  - osis: Ruth
+    texts:
+      - רות
+  - osis: Isa
+    texts:
+      - ישעיה
+      - ישע'
+  - osis: 1Sam
+    texts:
+      - שמואל א
+      - שמ"א
+  - osis: 2Sam
+    texts:
+      - שמואל ב
+      - שמ"ב
+  - osis: 1Kgs
+    texts:
+      - מלכים א
+      - מל"א
+  - osis: 2Kgs
+    texts:
+      - מלכים ב
+      - מל"ב
+  - osis: 1Chr
+    texts:
+      - דברי הימים א
+      - דהי"א
+  - osis: 2Chr
+    texts:
+      - דברי הימים ב
+      - דהי"ב
+  - osis: Ezra
+    texts:
+      - עזרא
+  - osis: Neh
+    texts:
+      - נחמיה
+      - נחמ'
+  - osis: Esth
+    texts:
+      - אסתר
+  - osis: Job
+    texts:
+      - איוב
+  - osis: Ps
+    texts:
+      - תהלים
+      - תהל'
+  - osis: Prov
+    texts:
+      - משלי
+  - osis: Eccl
+    texts:
+      - קהלת
+  - osis: Song
+    texts:
+      - שיר השירים
+      - שה"ש
+  - osis: Jer
+    texts:
+      - ירמיה
+      - ירמ'
+  - osis: Ezek
+    texts:
+      - יחזקאל
+      - יחז'
+  - osis: Dan
+    texts:
+      - דניאל
+      - דנ'
+  - osis: Hos
+    texts:
+      - הושע
+  - osis: Joel
+    texts:
+      - יואל
+  - osis: Amos
+    texts:
+      - עמוס
+  - osis: Obad
+    texts:
+      - עבדיה
+      - עבד'
+  - osis: Jonah
+    texts:
+      - יונה
+  - osis: Mic
+    texts:
+      - מיכה
+  - osis: Nah
+    texts:
+      - נחום
+  - osis: Hab
+    texts:
+      - חבקוק
+      - חבק'
+  - osis: Zeph
+    texts:
+      - צפניה
+      - צפנ'
+  - osis: Hag
+    texts:
+      - חגי
+  - osis: Zech
+    texts:
+      - זכריה
+      - זכר'
+  - osis: Mal
+    texts:
+      - מלאכי
+      - מלא'
+translations:
+  - WLC
+  - HEBOTBSI

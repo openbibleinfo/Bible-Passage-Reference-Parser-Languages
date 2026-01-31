@@ -1,0 +1,109 @@
+variables:
+  first: &first
+    - Ñwaè'
+  second: &second
+    - Ñwaè'
+books:
+  - osis: Rev
+    texts:
+      - Ñwaè' Kuu Buu Ce Vi Be Keè Koni
+  - osis: Matt
+    texts:
+      - Ñwaè' Matïìyoè
+  - osis: Mark
+    texts:
+      - Ñwaè' Maêk
+  - osis: Luke
+    texts:
+      - Ñwaè' Luêk
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - Joân Ce Entombïì
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - Joân Ce Embenjïì
+  - osis: 3John
+    texts:
+      - Ñwaè' Joân Ce Elúèsimbuèu
+  - osis: John
+    texts:
+      - Ñwaè' Joân
+  - osis: Acts
+    texts:
+      - Ñwaè' Mfaè' Ñgaâa Ntuu Jisoès
+  - osis: Rom
+    texts:
+      - Ñwaè' Ruêm
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Beâe Koreèn Ce Entombïì
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Beâe Koreèn Ce Embenjïì
+  - osis: Col
+    texts:
+      - Ñwaè' Koèlosïì
+  - osis: Gal
+    texts:
+      - Ñwaè' Gaèláshaè
+  - osis: Eph
+    texts:
+      - Ñwaè' Áfásoès
+  - osis: Phil
+    texts:
+      - Ñwaè' Fileèpaêi
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Táèsaèlonikaè Ce Entombïì
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Táèsaèlonikaè Ce Embenjïì
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Timotïì Ce Entombïì
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotïì Ce Embenjïì
+  - osis: Titus
+    texts:
+      - Ñwaè' Taitoès
+  - osis: Phlm
+    texts:
+      - Ñwaè' Fïìlemúèn
+  - osis: Heb
+    texts:
+      - Ñwaè' Hibruès
+  - osis: Jas
+    texts:
+      - Ñwaè' Jáêms
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - Pitaè Ce Entoèmbïì
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pitaè Ce Embenjïì
+  - osis: Jude
+    texts:
+      - Ñwaè' Juêd
+translations:
+  - LNT

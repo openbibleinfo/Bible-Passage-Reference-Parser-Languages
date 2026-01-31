@@ -1,0 +1,121 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Nujaoyaba
+      - Nuj.
+  - osis: Ps
+    texts:
+      - Bakhan Ni Rajabthai
+      - Sam.
+  - osis: Prov
+    texts:
+      - Gyan Ni Grao Buthu
+      - Gyan.
+  - osis: Matt
+    texts:
+      - Matthew
+      - Mt.
+  - osis: Mark
+    texts:
+      - Marka
+      - Mk.
+  - osis: Luke
+    texts:
+      - Luke
+      - Lk.
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - John
+      - Jn.
+  - osis: Acts
+    texts:
+      - Dangyasarao
+      - Dang.
+  - osis: Rom
+    texts:
+      - Rom.
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinth
+      - Kor.
+  - osis: Col
+    texts:
+      - Kolossa
+      - Kol.
+  - osis: Gal
+    texts:
+      - Galatia
+      - Gal.
+  - osis: Eph
+    texts:
+      - Ephesi
+      - Eph.
+  - osis: Phil
+    texts:
+      - Philippi
+      - Phil.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thessalonika
+      - Th.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothe
+      - Tim.
+  - osis: Titus
+    texts:
+      - Tit.
+      - Tita
+  - osis: Phlm
+    texts:
+      - Philemon
+      - Philem.
+  - osis: Heb
+    texts:
+      - Hebrairao
+      - Heb.
+  - osis: Jas
+    texts:
+      - Jakob
+      - Jak.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peter
+      - Pet.
+  - osis: Jude
+    texts:
+      - Jud.
+      - Juda
+translations:
+  - DIMASBSI

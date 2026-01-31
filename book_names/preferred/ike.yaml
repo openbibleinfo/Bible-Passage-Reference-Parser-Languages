@@ -1,0 +1,213 @@
+default:
+  1Chr:
+    long: ᑯᕉᓂᑲ ᓯᕗᓪᓖᑦ
+    short: ᑯᕉᓂᑲ ᓯᕗᓪᓖᑦ
+  1Cor:
+    long: ᑯᕆᓐᑎᐊᒥᐅᓄᑦ ᓯᕗᓪᓖᑦ
+    short: 1 ᑯᕆᓐᑎ
+  1John:
+    long: ᔪᐊᓇᓯ ᓯᕗᓪᓖᑦ
+    short: 1 ᔪᐊᓇᓯ
+  1Kgs:
+    long: ᐊᑕᓃᑦ ᓯᕗᓪᓖᑦ
+    short: ᐊᑕᓃᑦ ᓯᕗᓪᓖᑦ
+  1Pet:
+    long: ᐲᑦᑐᕉᓯ ᓯᕗᓪᓖᑦ
+    short: 1 ᐲᑦᑐᕉᓯ
+  1Sam:
+    long: ᓴᒧᐃᓕ ᓯᕗᓪᓖᑦ
+    short: ᓴᒧᐃᓕ ᓯᕗᓪᓖᑦ
+  1Thess:
+    long: ᑎᓴᓗᓁᑲᒥᐅᓄᑦ ᓯᕗᓪᓖᑦ
+    short: 1 ᑎᓴᓗᓁ
+  1Tim:
+    long: ᑎᒧᑎᒧᑦ ᓯᕗᓪᓖᑦ
+    short: 1 ᑎᒧᑎ
+  2Chr:
+    long: ᑯᕉᓂᑲ ᐂᑉᐸᖏᑦ
+    short: ᑯᕉᓂᑲ ᐂᑉᐸᖏᑦ
+  2Cor:
+    long: ᑯᕆᓐᑎᐊᒥᐅᓄᑦ ᐂᑉᐸᖏᑦ
+    short: 2 ᑯᕆᓐᑎ
+  2John:
+    long: ᔪᐊᓇᓯᐅᑉ ᐂᑉᐸᖏᑦ
+    short: 2 ᔪᐊᓇᓯ
+  2Kgs:
+    long: ᐊᑕᓃᑦ ᐂᑉᐸᖏᑦ
+    short: ᐊᑕᓃᑦ ᐂᑉᐸᖏᑦ
+  2Pet:
+    long: ᐲᑦᑐᕉᓯ ᐂᑉᐸᖏᑦ
+    short: 2 ᐲᑦᑐᕉᓯ
+  2Sam:
+    long: ᓴᒧᐃᓕ ᐂᑉᐸᖏᑦ
+    short: ᓴᒧᐃᓕ ᐂᑉᐸᖏᑦ
+  2Thess:
+    long: ᑎᓴᓗᓁᑲᒥᐅᓄᑦ ᐂᑉᐸᖏᑦ
+    short: 2 ᑎᓴᓗᓁ
+  2Tim:
+    long: ᑎᒧᑎᒧᑦ ᐂᑉᐸᖏᑦ
+    short: 2 ᑎᒧᑎ
+  3John:
+    long: ᔪᐊᓇᓯᐅᑉ ᐱᖓᔪᖏᑦ
+    short: 3 ᔪᐊᓇᓯ
+  Acts:
+    long: ᐋᐴᓯᑕᓖᑦ ᐱᓂᐊᕐᓂᖏᑦ
+    short: ᐋᐴᓯᑕᓖᑦ
+  Amos:
+    long: ᐂᒨᓯᐅᑉ ᐊᒡᓚᖏᑦ
+    short: ᐂᒨᓯ
+  Col:
+    long: ᑯᓘᓯᐊᒥᐅᓄᑦ
+    short: ᑯᓘᓯ
+  Dan:
+    long: ᑖᓂᐊᓕᐅᑉ ᐊᒡᓚᖏᑦ
+    short: ᑖᓂᐊᓕ
+  Deut:
+    long: ᒨᓯᓯ ᑕᓪᓕᒪᖏᑦ
+    short: ᒨᓯᓯ ᑕᓪᓕᒪᖏᑦ
+  Eccl:
+    long: ᐃᓕᓯᒪᓃᑦ ᐃᒃᓖᓯᐊᓯᑏᔅ
+    short: ᐃᒃᓕᓯᐊᔅᑏᔅ
+  Eph:
+    long: ᐃᐱᓯᒥᐅᓄᑦ
+    short: ᐃᐱᓯ
+  Esth:
+    long: ᐃᔅᑕᐅᑉ ᐊᒡᓚᖏᑦ
+    short: ᐃᔅᑕᕐ
+  Exod:
+    long: ᒨᓯᓯ ᐂᑉᐸᖏᑦ
+    short: ᒨᓯᓯ ᐂᑉᐸᖏᑦ
+  Ezek:
+    long: ᐃᓯᑭᐊᓕᐅᑉ ᐊᒡᓚᖏᑦ
+    short: ᐃᓯᑭᐊᓕ
+  Ezra:
+    long: ᐄᓱᕋᐅᑉ ᐊᒡᓚᖏᑦ
+    short: ᐄᓱᕋ
+  Gal:
+    long: ᒐᓔᑎᐊᒥᐅᓄᑦ
+    short: ᒐᓔᑎ
+  Gen:
+    long: ᒨᓯᓯ ᓯᕗᓪᓖᑦ
+    short: ᒨᓯᓯ ᓯᕗᓪᓖᑦ
+  Hab:
+    long: ᕼᐊᐸᑲᐅᑉ ᐊᒡᓚᖏᑦ
+    short: ᕼᐊᐸᑲ
+  Hag:
+    long: ᕼᐊᒊᑉ ᐊᒡᓚᖏᑦ
+    short: ᕼᐊᒊ
+  Heb:
+    long: ᐄᑉᕈᐃᓄᑦ
+    short: ᐄᑉᕈᐃᓄᑦ
+  Hos:
+    long: ᕼᐆᓯᐊᑉ ᐊᒡᓚᖏᑦ
+    short: ᕼᐆᓯᐊ
+  Isa:
+    long: ᐂᓮᐊᓯᐅᑉ ᐊᒡᓚᖏᑦ
+    short: ᐂᓮᐊᓯ
+  Jas:
+    long: ᔧᒥᓯᐅᑉ ᐊᒡᓚᖏᑦ
+    short: ᔧᒥᓯ
+  Jer:
+    long: ᔨᕆᒤᐊᐅᑉ ᐊᒡᓚᖏᑦ
+    short: ᔨᕆᒤᐊ
+  Job:
+    long: ᔫᐱᐅᑉ ᐊᒡᓚᖏᑦ
+    short: ᔫᐱ
+  Joel:
+    long: ᔪᐃᓕᐅᑉ ᐊᒡᓚᖏᑦ
+    short: ᔪᐃᓕ
+  John:
+    long: Juanasiup Aglangit
+    short: Juanasi
+  Jonah:
+    long: ᔫᓇᐅᑉ ᐊᒡᓚᖏᑦ
+    short: ᔫᓇ
+  Josh:
+    long: ᔮᓱᐊᑉ ᐊᒡᓚᖏᑦ
+    short: ᔮᓱᐊ
+  Jude:
+    long: ᔫᑎᐅᑉ ᐊᒡᓚᖏᑦ
+    short: ᔫᑎᐅᑉ
+  Judg:
+    long: ᐃᓗᐊᕐᓮᔩᑦ ᐊᒡᓚᖏᑦ
+    short: ᐃᓗᐊᕐᓮᔩᑦ
+  Lam:
+    long: ᔨᕆᒤᐊᐅᑉ ᐅᒡᒍᐊᕐᓂᖏᑦ
+    short: ᐅᒡᒍᐊᕐᓃᑦ
+  Lev:
+    long: ᒨᓯᓯ ᐱᖓᔪᖏᑦ
+    short: ᒨᓯᓯ ᐱᖓᔪᖏᑦ
+  Luke:
+    long: Luukasiup Aglangit
+    short: Luukasi
+  Mal:
+    long: ᒪᓚᑬᑉ ᐊᒡᓚᖏᑦ
+    short: ᒪᓚᑬ
+  Mark:
+    long: Maakusiup Aglangit
+    short: Maakusi
+  Matt:
+    long: Maatiusiup Aglangit
+    short: Maatiusi
+  Mic:
+    long: ᒤᑲᐅᑉ ᐊᒡᓚᖏᑦ
+    short: ᒤᑲ
+  Nah:
+    long: ᓇᕼᐅᒥᐅᑉ ᐊᒡᓚᖏᑦ
+    short: ᓇᕼᐅᒥ
+  Neh:
+    long: ᓂᕼᐃᒤᐊᐅᑉ ᐊᒡᓚᖏᑦ
+    short: ᓂᕼᐃᒤᐊ
+  Num:
+    long: ᒨᓯᓯ ᓯᑕᒪᖏᑦ
+    short: ᒨᓯᓯ ᓯᑕᒪᖏᑦ
+  Obad:
+    long: ᐅᐸᑍᐊᑉ ᐊᒡᓚᖏᑦ
+    short: ᐅᐸᑍᐊ
+  Phil:
+    long: ᐱᓕᐱᒥᐅᓄᑦ
+    short: ᐱᓕᐱ
+  Phlm:
+    long: ᐰᓕᒨᓂᒧᑦ
+    short: ᐰᓕᒨ
+  Prov:
+    long: ᓲᓗᒨᓂᐅᑉ ᐅᖃᓪᓚᖕᓂᖏᑦ
+    short: ᓲᓗᒨᓂ
+  Ps:
+    long: ᐃᓐᖏᕈᑎᑦ
+    short: ᐃᓐᖏᕈᑦ
+  Rev:
+    long: ᔪᐊᓇᓯᐅᑉ ᑕᑯᑎᑕᐅᓂᖏᑦ
+    short: ᑕᑯᑎ
+  Rom:
+    long: ᕉᒪᒥᐅᓄᑦ
+    short: ᕉᒪᒥᐅᓄᑦ
+  Ruth:
+    long: ᕉᑎᐅᑉ ᐅᓂᒃᑲᐅᓯᓂᖓ
+    short: ᕉᑎᐅᑉ
+  Song:
+    long: ᓲᓗᒨᓂᐅᑉ ᐃᓐᖏᕈᓯᖏᑦ
+    short: ᐃᓐᖏᕈᓰᑦ
+  Titus:
+    long: ᑍᑑᓯᒧᑦ
+    short: ᑍᑑᓯᑦ
+  Zech:
+    long: ᓴᑲᕅᐊᐅᑉ ᐊᒡᓚᖏᑦ
+    short: ᓴᑲᕅᐊ
+  Zeph:
+    long: ᔨᐸᓁᐊᐅᑉ ᐊᒡᓚᖏᑦ
+    short: ᔨᐸᓁᐊ
+translations:
+  eaib:
+    John:
+      long: ᔪᐊᓇᓯᐅᑉ ᐊᒡᓚᖏᑦ
+      short: ᔪᐊᓇᓯ
+    Luke:
+      long: ᓘᑲᓯᐅᑉ ᐊᒡᓚᖏᑦ
+      short: ᓘᑲᓯ
+    Mark:
+      long: ᒫᑯᓯᐅᑉ ᐊᒡᓚᖏᑦ
+      short: ᒫᑯᓯ
+    Matt:
+      long: ᒫᑎᐅᓯᐅᑉ ᐊᒡᓚᖏᑦ
+      short: ᒫᑎᐅᓯ

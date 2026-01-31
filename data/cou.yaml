@@ -1,0 +1,138 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Wapëgwala
+      - Pgw
+  - osis: Rev
+    texts:
+      - Wapuyala
+      - Puy
+  - osis: Matt
+    texts:
+      - Matiye
+      - Mat
+  - osis: Mark
+    texts:
+      - Marëk
+      - Mrk
+  - osis: Luke
+    texts:
+      - Lik
+  - osis: 1John
+    texts:
+      - 1Sa
+  - osis: 2John
+    texts:
+      - 2Sa
+  - osis: 3John
+    texts:
+      - 3 San
+      - 3Sa
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - San
+  - osis: Acts
+    texts:
+      - Vantiyehn
+      - Vnt
+  - osis: Rom
+    texts:
+      - Vëvë Rom
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Vëvë Korent
+  - osis: 1Cor
+    texts:
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - 2Ko
+  - osis: Col
+    texts:
+      - Vëvë Kolos
+      - Kol
+  - osis: Gal
+    texts:
+      - Vëvë Galasi
+      - Gal
+  - osis: Eph
+    texts:
+      - Vëvë Efes
+      - Efe
+  - osis: Phil
+    texts:
+      - Vëvë Filip
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Vëvë Tesalonik
+  - osis: 1Thess
+    texts:
+      - 1Te
+  - osis: 2Thess
+    texts:
+      - 2Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemon
+      - Flm
+  - osis: Heb
+    texts:
+      - Ebëre
+      - Ebr
+  - osis: Jas
+    texts:
+      - Sak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piyer
+  - osis: 1Pet
+    texts:
+      - 1Pi
+  - osis: 2Pet
+    texts:
+      - 2Pi
+  - osis: Jude
+    texts:
+      - Yuɗ
+translations:
+  - COU

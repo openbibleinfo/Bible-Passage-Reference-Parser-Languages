@@ -1,0 +1,144 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Bhaa-bhaana
+      - Bhaa.
+  - osis: Exod
+    texts:
+      - Limbaana
+      - Limb.
+  - osis: Rev
+    texts:
+      - Wahiyuu
+      - Wah.
+  - osis: Ruth
+    texts:
+      - Rut.
+      - Rut
+  - osis: Esth
+    texts:
+      - Ester
+      - Est.
+  - osis: Ps
+    texts:
+      - Zaburu
+      - Zab.
+  - osis: Matt
+    texts:
+      - Matius
+      - Mat.
+  - osis: Mark
+    texts:
+      - Markus
+      - Mrk.
+  - osis: Luke
+    texts:
+      - Lukas
+      - Luk.
+  - osis: 1John
+    texts:
+      - 1Yah.
+  - osis: 2John
+    texts:
+      - 2Yah.
+  - osis: 3John
+    texts:
+      - 3 Yahya
+      - 3Yah.
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yahya
+  - osis: John
+    texts:
+      - Yahya
+      - Yah.
+  - osis: Acts
+    texts:
+      - Tulatulana Manga Rasulu
+      - Tul.
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Korintus
+  - osis: 1Cor
+    texts:
+      - 1Kor.
+  - osis: Col
+    texts:
+      - Kolose
+      - Kol.
+  - osis: Gal
+    texts:
+      - Galatia
+      - Gal.
+  - osis: Eph
+    texts:
+      - Efesus
+      - Ef.
+  - osis: Phil
+    texts:
+      - Filipi
+      - Flp.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonika
+  - osis: 1Thess
+    texts:
+      - 1Tes.
+  - osis: 2Thess
+    texts:
+      - 2Tes.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotius
+  - osis: 1Tim
+    texts:
+      - 1Tim.
+  - osis: 2Tim
+    texts:
+      - 2Tim.
+  - osis: Titus
+    texts:
+      - Titus
+      - Tit.
+  - osis: Phlm
+    texts:
+      - Filemon
+      - Flm.
+  - osis: Jas
+    texts:
+      - Yakub
+      - Yak.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petrus
+  - osis: 1Pet
+    texts:
+      - 1Ptr.
+  - osis: 2Pet
+    texts:
+      - 2Ptr.
+translations:
+  - WOLNT

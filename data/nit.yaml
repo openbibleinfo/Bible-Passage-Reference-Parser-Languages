@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - ప్రకటన
+  - osis: Matt
+    texts:
+      - మత్తయ్
+  - osis: Mark
+    texts:
+      - మార్క
+  - osis: Luke
+    texts:
+      - లూక్
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - యోహాన్
+  - osis: Acts
+    texts:
+      - అపొస్తు
+  - osis: Rom
+    texts:
+      - రోమీ
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - కొరింతి
+  - osis: Col
+    texts:
+      - కొలస్సి
+  - osis: Gal
+    texts:
+      - గలతి
+  - osis: Eph
+    texts:
+      - ఎపెసి
+  - osis: Phil
+    texts:
+      - పిలిపి
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - తెస్సలోని
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - తిమోతి
+  - osis: Titus
+    texts:
+      - తీతుకు
+  - osis: Phlm
+    texts:
+      - పిలేమోన్
+  - osis: Heb
+    texts:
+      - హెబ్రీ
+  - osis: Jas
+    texts:
+      - యాకోబ్
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - పేతుర్
+  - osis: Jude
+    texts:
+      - యూద
+translations:
+  - NTKP24

@@ -1,0 +1,121 @@
+default:
+  1Cor:
+    long: 1 Akorintu
+    short: 1Ak.
+  1John:
+    long: 1 Juwau
+    short: 1Jw.
+  1Pet:
+    long: 1 Pedhru
+    short: 1Pd.
+  1Thess:
+    long: 1 Atesalonika
+    short: 1At.
+  1Tim:
+    long: 1 Timoti
+    short: 1Tm.
+  2Cor:
+    long: 2 Akorintu
+    short: 2Ak.
+  2John:
+    long: 2 Juwau
+    short: 2Jw.
+  2Pet:
+    long: 2 Pedhru
+    short: 2Pd.
+  2Thess:
+    long: 2 Atesalonika
+    short: 2At.
+  2Tim:
+    long: 2 Timoti
+    short: 2Tm.
+  3John:
+    long: 3 Juwau
+    short: 3Jw.
+  Acts:
+    long: Mabasa
+    short: Mab.
+  Col:
+    long: aKolosi
+    short: Aks.
+  Eph:
+    long: Aefesu
+    short: Afs.
+  Gal:
+    long: aGalata
+    short: Agt.
+  Heb:
+    long: Heb
+    short: Heb.
+  Jas:
+    long: Tg
+    short: Tg.
+  John:
+    long: Juwau
+    short: Jw.
+  Jude:
+    long: Djd
+    short: Djd.
+  Luke:
+    long: Luka
+    short: Lk.
+  Mark:
+    long: Marku
+    short: Mk.
+  Matt:
+    long: Mateu
+    short: Mt.
+  Phil:
+    long: aFilipi
+    short: Afp.
+  Phlm:
+    long: Filimoni
+    short: Fl.
+  Rev:
+    long: Cid
+    short: Cid.
+  Rom:
+    long: aRoma
+    short: Arm.
+  Titus:
+    long: Titu
+    short: Tt.
+translations:
+  sehnt:
+    1John:
+      long: 1Jw
+    1Pet:
+      long: 1Pd
+    1Thess:
+      long: 1At
+    1Tim:
+      long: 1Tm
+    2John:
+      long: 2Jw
+    2Pet:
+      long: 2Pd
+    2Thess:
+      long: 2At
+    2Tim:
+      long: 2Tm
+    3John:
+      long: 3Jw
+    Phlm:
+      long: Fl
+    Titus:
+      long: Tt
+  cnt13:
+    Acts:
+      long: Mabasa a Apoxtolo
+    Heb:
+      long: Hebhereu
+    Jas:
+      long: Tiyago
+    Jude:
+      long: Djuda
+    Rev:
+      long: Cidziwiso
+  sehmat:
+    Matt:
+      long: Mattheo
+      short: Mat

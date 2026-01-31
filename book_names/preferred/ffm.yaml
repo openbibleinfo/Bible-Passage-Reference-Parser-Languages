@@ -1,0 +1,215 @@
+default:
+  1Chr:
+    long: 1 Kabaaruuji Laamiiɓe
+    short: 1Kab
+  1Cor:
+    long: 1 Korintunkooɓe
+    short: 1Ko
+  1John:
+    long: 1 Yuhanna
+    short: 1Yn.
+  1Kgs:
+    long: 1 Kaanankooɓe
+    short: 1Kn
+  1Pet:
+    long: 1 Piyeer
+    short: 1Pi
+  1Sam:
+    long: 1 Samuwiila
+    short: 1Sa
+  1Thess:
+    long: 1 Tesaloniikiyankooɓe
+    short: 1Te
+  1Tim:
+    long: 1 Timote
+    short: 1Ti.
+  2Cor:
+    long: 2 Korintunkooɓe
+    short: 2Ko
+  2John:
+    long: 2 Yuhanna
+    short: 2Yn.
+  2Kgs:
+    long: 2 Kaanankooɓe
+    short: 2Kn
+  2Pet:
+    long: 2 Piyeer
+    short: 2Pi
+  2Sam:
+    long: 2 Samuwiila
+    short: 2Sa
+  2Thess:
+    long: 2 Tesaloniikiyankooɓe
+    short: 2Te
+  2Tim:
+    long: 2 Timote
+    short: 2Ti.
+  3John:
+    long: 3 Yuhanna
+    short: 3Yn.
+  Acts:
+    long: Golle Nelaaɓe
+    short: Gol
+  Amos:
+    long: Amos
+    short: Amo
+  Col:
+    long: Koloosiyankooɓe
+    short: Col.
+  Deut:
+    long: Fillitagol
+    short: Fill
+  Eccl:
+    long: Tindinoowo
+    short: Tind
+  Eph:
+    long: Efeesunkooɓe
+    short: Efe
+  Esth:
+    long: Ester
+    short: Est
+  Exod:
+    long: Wurtagol
+    short: Wur
+  Ezra:
+    long: Isira
+    short: Isr
+  Gal:
+    long: Galaatiyankooɓe
+    short: Gal
+  Gen:
+    long: Fuɗɗoode
+    short: Fuɗ
+  Heb:
+    long: Ibaraninkooɓe
+    short: Ibr
+  Jas:
+    long: Yaakuuba
+    short: Yak
+  Job:
+    long: Ayuuba
+    short: Ayu
+  John:
+    long: Yuhanna
+    short: Yhn.
+  Jonah:
+    long: Yuunusa
+    short: Yun
+  Josh:
+    long: Yoosuwa
+    short: Yos
+  Jude:
+    long: Yahuuda
+    short: Yah.
+  Judg:
+    long: Ardiiɓe
+    short: Ard
+  Lev:
+    long: Lewinkooɓe
+    short: Lew
+  Luke:
+    long: Lukka
+    short: Luk
+  Mark:
+    long: Marka
+    short: Mrk
+  Matt:
+    long: Matta
+    short: Mat
+  Neh:
+    long: Nehemiya
+    short: Neh
+  Num:
+    long: Limle
+    short: Lim
+  Phil:
+    long: Filipiyankooɓe
+    short: Fil
+  Phlm:
+    long: Filemon
+    short: Flm
+  Prov:
+    long: Banndi
+    short: Ban
+  Rev:
+    long: Holleede
+    short: Hol
+  Rom:
+    long: Romankooɓe
+    short: Rom
+  Ruth:
+    long: Ruttu
+    short: Rut
+  Titus:
+    long: Tiitu
+    short: Tit
+translations:
+  ffm:
+    1Cor:
+      short: 1Ko.
+    1Pet:
+      short: 1Py.
+    1Thess:
+      short: 1Ts.
+    2Cor:
+      short: 2Ko.
+    2Pet:
+      short: 2Py.
+    2Thess:
+      short: 2Ts.
+    Acts:
+      short: Gol.
+    Eph:
+      short: Efs.
+    Gal:
+      short: Gal.
+    Heb:
+      short: Ibr.
+    Jas:
+      short: Yak.
+    Luke:
+      long: Luuka
+      short: Luk.
+    Mark:
+      short: Mrk.
+    Matt:
+      short: Mat.
+    Phil:
+      short: Flp.
+    Phlm:
+      short: Flm.
+    Rev:
+      long: Ɓanngingol
+      short: Ɓan.
+    Rom:
+      short: Rom.
+    Titus:
+      long: Titus
+      short: Tit.
+  fbf:
+    1John:
+      short: 1Yu
+    1Thess:
+      long: 1 Tesaloniyankooɓe
+    1Tim:
+      short: 1Tm
+    2John:
+      short: 2Yu
+    2Thess:
+      long: 2 Tesaloniyankooɓe
+    2Tim:
+      short: 2Tm
+    3John:
+      short: 3Yu
+    Acts:
+      long: Golle Nulaaɓe
+    Col:
+      short: Kol
+    Heb:
+      long: Ibraninkooɓe
+    John:
+      short: Yuh
+    Jude:
+      short: Yhd
+    Mark:
+      long: Marku

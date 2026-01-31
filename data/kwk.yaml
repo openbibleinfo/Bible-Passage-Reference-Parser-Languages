@@ -1,0 +1,38 @@
+books:
+  - osis: Isa
+    texts:
+      - Isaiah
+  - osis: Ps
+    texts:
+      - Psalms
+      - Psalm
+  - osis: Ezek
+    texts:
+      - Ezekiel
+  - osis: Joel
+    texts:
+      - Joel
+  - osis: Matt
+    texts:
+      - Matthew
+  - osis: Mark
+    texts:
+      - Mark
+  - osis: Luke
+    texts:
+      - Luke
+  - osis: 1John
+    texts:
+      - 1 John
+  - osis: John
+    texts:
+      - John
+  - osis: Acts
+    texts:
+      - Qāyīlelas
+  - osis: 2Cor
+    texts:
+      - 2 Corinthians
+      - 2 Cor
+translations:
+  - KWAK

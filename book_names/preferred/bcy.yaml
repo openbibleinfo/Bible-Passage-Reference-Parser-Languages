@@ -1,0 +1,86 @@
+default:
+  1Cor:
+    long: 1 Korintiye
+    short: 1Kor
+  1John:
+    long: 1 Yohana
+    short: 1Yoh
+  1Pet:
+    long: 1 Bitrus
+    short: 1Bit
+  1Thess:
+    long: 1 Tasaloniye
+    short: 1Tas
+  1Tim:
+    long: 1 Timoti
+    short: 1Tim
+  2Cor:
+    long: 2 Korintiye
+    short: 2Kor
+  2John:
+    long: 2 Yohana
+    short: 2Yoh
+  2Pet:
+    long: 2 Bitrus
+    short: 2Bit
+  2Thess:
+    long: 2 Tasaloniye
+    short: 2Tas
+  2Tim:
+    long: 2 Timoti
+    short: 2Tim
+  3John:
+    long: 3 Yohana
+    short: 3Yoh
+  Acts:
+    long: Lyenta
+    short: Lyen
+  Col:
+    long: Kolosiye
+    short: Kol
+  Eph:
+    long: Afise
+    short: Afi
+  Gal:
+    long: Galatiye
+    short: Gal
+  Heb:
+    long: Ibɨraniye
+    short: Ibr
+  Jas:
+    long: Yakubu
+    short: Yak
+  John:
+    long: Yohana
+    short: Yoh
+  Jude:
+    long: Jud
+    short: Jud
+  Luke:
+    long: Luka
+    short: Luk
+  Mark:
+    long: Markus
+    short: Mar
+  Matt:
+    long: Matta
+    short: Matt
+  Phil:
+    long: Filipiye
+    short: Fili
+  Phlm:
+    long: Filimon
+    short: Fil
+  Rev:
+    long: Diya
+    short: Diya
+  Rom:
+    long: Romye
+    short: Rom
+  Titus:
+    long: Titus
+    short: Titu
+translations:
+  bcymrk:
+    Mark:
+      short: Mark

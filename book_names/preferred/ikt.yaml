@@ -1,0 +1,106 @@
+default:
+  1Chr:
+    long: 1 Chronicles
+    short: 1 Chr
+  1Cor:
+    long: 1 Corinthians
+    short: 1 Cor
+  1John:
+    long: 1 John
+    short: 1 Jn
+  1Pet:
+    long: 1 Peter
+    short: 1 Pet
+  1Thess:
+    long: 1 Thessalonians
+    short: 1 Thes
+  1Tim:
+    long: 1 Timothy
+    short: 1 Tim
+  2Cor:
+    long: 2 Corinthians
+    short: 2 Cor
+  2Tim:
+    long: 2 Timothy
+    short: 2 Tim
+  Acts:
+    long: Havaangit
+    short: Hav
+  Col:
+    long: Colossians
+    short: Col
+  Deut:
+    long: Deuteronomy
+    short: Deut
+  Eph:
+    long: Ephesians
+    short: Eph
+  Exod:
+    long: Exodus
+    short: Exod
+  Gal:
+    long: Galatians
+    short: Gal
+  Heb:
+    long: Hebrews
+    short: Heb
+  Isa:
+    long: Isaiah
+    short: Isa
+  Jas:
+    long: James
+    short: Jas
+  Jer:
+    long: Jeremiah
+    short: Jer
+  Job:
+    long: Job
+    short: Job
+  John:
+    long: John
+    short: Jn.
+  Luke:
+    long: Luke
+    short: Lk.
+  Mark:
+    long: Mark
+    short: Mark
+  Matt:
+    long: Matthew
+    short: Matt
+  Mic:
+    long: Micah
+    short: Mic
+  Phil:
+    long: Philippians
+    short: Phil
+  Ps:
+    long: Psalms
+    short: Ps
+  Rev:
+    long: Revelation
+    short: Rev
+  Rom:
+    long: Romans
+    short: Rom
+  Ruth:
+    long: Ruth
+    short: Ruth
+  Titus:
+    long: Titus
+    short: Tit
+translations:
+  sperry:
+    Acts:
+      short: Havaangit
+    Mark:
+      short: Mk.
+    Matt:
+      short: Mt.
+  inb:
+    Acts:
+      long: Havangit
+    John:
+      short: John
+    Luke:
+      short: Luke

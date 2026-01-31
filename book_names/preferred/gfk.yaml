@@ -1,0 +1,169 @@
+default:
+  1Cor:
+    long: 1 Korin
+    short: 1Ko
+  1John:
+    long: 1 Jon
+    short: 1 Jon
+  1Pet:
+    long: 1 Pita
+    short: 1 Pita
+  1Thess:
+    long: 1 Tesalonaika
+    short: 1Te
+  1Tim:
+    long: 1 Timoti
+    short: 1Tm
+  2Cor:
+    long: 2 Korin
+    short: 2Ko
+  2John:
+    long: 2 Jon
+    short: 2 Jon
+  2Pet:
+    long: 2 Pita
+    short: 2 Pita
+  2Thess:
+    long: 2 Tesalonaika
+    short: 2Te
+  2Tim:
+    long: 2 Timoti
+    short: 2Tm
+  3John:
+    long: 3 Jon
+    short: 3 Jon
+  Acts:
+    long: Apostolo
+    short: Ap
+  Col:
+    long: Kolose
+    short: Kl
+  Eph:
+    long: Epesas
+    short: Ep
+  Gal:
+    long: Galesia
+    short: Ga
+  Heb:
+    long: Hibru
+    short: Hb
+  Jas:
+    long: Jemes
+    short: Jemes
+  John:
+    long: Jon
+    short: Jn
+  Jude:
+    long: Jut
+    short: Jt
+  Luke:
+    long: Luk
+    short: Lk
+  Mark:
+    long: Mak
+    short: Mk
+  Matt:
+    long: Matiu
+    short: Mt
+  Phil:
+    long: Pilipai
+    short: Pi
+  Phlm:
+    long: Pilemon
+    short: Pilemon
+  Ps:
+    long: Ninge
+    short: Nng
+  Rev:
+    long: Ninanaas
+    short: Ni
+  Rom:
+    long: Rom
+    short: Rm
+  Titus:
+    long: Taitus
+    short: Ta
+translations:
+  gfks:
+    1Cor:
+      short: 1 Korin
+    1Thess:
+      short: 1 Tesolonaika
+    1Tim:
+      short: 1 Timoti
+    2Cor:
+      short: 2 Korin
+    2Thess:
+      short: 2 Tesalonaika
+    2Tim:
+      short: 2 Timoti
+    Acts:
+      short: Apostolo
+    Col:
+      short: Kolose
+    Eph:
+      short: Epesas
+    Gal:
+      short: Galesia
+    Heb:
+      short: Hibru
+    John:
+      short: Jon
+    Jude:
+      short: Jut
+    Luke:
+      short: Luk
+    Mark:
+      short: Mak
+    Matt:
+      short: Matiu
+    Phil:
+      short: Pilipai
+    Rev:
+      short: Ninanaas
+    Rom:
+      short: Rom
+    Titus:
+      short: Taitus
+  gfkh:
+    1John:
+      long: 1 Ioanes
+    1Pet:
+      short: 1 Pt
+    1Thess:
+      long: 1 Tesalonika
+    2John:
+      long: 2 Ioanes
+    2Pet:
+      short: 2 Pt
+    2Thess:
+      long: 2 Tesalonika
+    3John:
+      long: 3 Ioanes
+    Col:
+      short: Ko
+    John:
+      long: Ioanes
+    Phlm:
+      long: Pilimon
+    Rev:
+      long: Ninaas
+    Rom:
+      short: Ro
+    Titus:
+      short: Tai
+  gfk:
+    1John:
+      short: 1Jn
+    1Pet:
+      short: 1Pt
+    2John:
+      short: 2Jn
+    2Pet:
+      short: 2Pt
+    3John:
+      short: 3Jn
+    Jas:
+      short: Jm
+    Phlm:
+      short: Pm

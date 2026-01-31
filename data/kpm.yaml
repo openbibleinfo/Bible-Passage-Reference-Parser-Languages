@@ -1,0 +1,254 @@
+variables:
+  first: &first
+    - I
+  second: &second
+    - II
+  third: &third
+    - III
+books:
+  - osis: Gen
+    texts:
+      - Sơnròp Gơlik Gơs
+      - Sơnròp
+  - osis: Exod
+    texts:
+      - Lik Ejiptơ
+      - Lik
+  - osis: Lev
+    texts:
+      - Lebi
+      - Leb
+  - osis: Num
+    texts:
+      - Khà Làng Bol
+      - Khà
+  - osis: Lam
+    texts:
+      - Ñìm Rac
+      - Ñìm
+  - osis: Rev
+    texts:
+      - Yal Tơlik
+      - Yalt
+  - osis: Deut
+    texts:
+      - Yal Wơl
+      - Yalw
+  - osis: Josh
+    texts:
+      - Jôsue
+      - Jôs
+  - osis: Judg
+    texts:
+      - Ală Kwang Cahrña
+      - Kwang
+  - osis: Ruth
+    texts:
+      - Rutơ
+      - Rut
+  - osis: Isa
+    texts:
+      - Esai
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Ală Bơtau
+      - Bơtau
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Yal Yau
+      - Yal
+  - osis: Ezra
+    texts:
+      - Ejra
+      - Ejr
+  - osis: Neh
+    texts:
+      - Nehemi
+      - Neh
+  - osis: Esth
+    texts:
+      - Este
+      - Est
+  - osis: Job
+    texts:
+      - Jop
+  - osis: Ps
+    texts:
+      - Đơs Crih
+  - osis: Prov
+    texts:
+      - Jơnau Pơnđik
+      - Pơnđik
+  - osis: Eccl
+    texts:
+      - Cau Bơto
+      - Bơto
+  - osis: Song
+    texts:
+      - Đơs Chò
+      - Chò
+  - osis: Jer
+    texts:
+      - Jeremi
+      - Jer
+  - osis: Ezek
+    texts:
+      - Ejekiel
+      - Ejek
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan
+  - osis: Hos
+    texts:
+      - Ôse
+  - osis: Joel
+    texts:
+      - Jôel
+  - osis: Amos
+    texts:
+      - Amôs
+  - osis: Obad
+    texts:
+      - Apdia
+      - Apd
+  - osis: Jonah
+    texts:
+      - Jôna
+  - osis: Mic
+    texts:
+      - Mice
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sôphôni
+      - Sôp
+  - osis: Hag
+    texts:
+      - Age
+  - osis: Zech
+    texts:
+      - Sacari
+      - Sac
+  - osis: Mal
+    texts:
+      - Malaci
+      - Mal
+  - osis: Matt
+    texts:
+      - Mathiơ
+      - Mat
+  - osis: Mark
+    texts:
+      - Mak
+  - osis: Luke
+    texts:
+      - Luka
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jang
+  - osis: Acts
+    texts:
+      - Broă
+  - osis: Rom
+    texts:
+      - Rôma
+      - Rôm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kôrintô
+      - Kô
+  - osis: Col
+    texts:
+      - Kôlôse
+      - Kôl
+  - osis: Gal
+    texts:
+      - Galati
+      - Gal
+  - osis: Eph
+    texts:
+      - Ephesô
+      - Eph
+  - osis: Phil
+    texts:
+      - Philip
+      - Phil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalônika
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timôthe
+      - Tim
+  - osis: Titus
+    texts:
+      - Tit
+  - osis: Phlm
+    texts:
+      - Philemôn
+      - Phlm
+  - osis: Heb
+    texts:
+      - Hebrơ
+      - Heb
+  - osis: Jas
+    texts:
+      - Jakơ
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pier
+  - osis: Jude
+    texts:
+      - Jude
+      - Jud
+translations:
+  - KPM2018

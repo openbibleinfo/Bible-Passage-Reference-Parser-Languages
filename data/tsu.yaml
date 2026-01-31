@@ -1,0 +1,84 @@
+books:
+  - osis: Rev
+    texts:
+      - mokusi
+  - osis: Matt
+    texts:
+      - Matai
+  - osis: Mark
+    texts:
+      - Maluko
+  - osis: Luke
+    texts:
+      - Luka
+  - osis: 1John
+    texts:
+      - Yohane 1
+  - osis: 2John
+    texts:
+      - Yohane 2
+  - osis: 3John
+    texts:
+      - Yohane 3
+  - osis: John
+    texts:
+      - Yohane
+  - osis: Acts
+    texts:
+      - sitoo
+  - osis: Rom
+    texts:
+      - Looma
+  - osis: 1Cor
+    texts:
+      - kolinto 1
+  - osis: 2Cor
+    texts:
+      - kolinto 2
+  - osis: Col
+    texts:
+      - Kolosai
+  - osis: Gal
+    texts:
+      - ngalatea
+  - osis: Eph
+    texts:
+      - "'epeso"
+  - osis: Phil
+    texts:
+      - Pilipi
+  - osis: 1Thess
+    texts:
+      - tesalonike 1
+  - osis: 2Thess
+    texts:
+      - tesalonike 2
+  - osis: 1Tim
+    texts:
+      - temote 1
+  - osis: 2Tim
+    texts:
+      - temote 2
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - fuilimong
+  - osis: Heb
+    texts:
+      - hevulu
+  - osis: Jas
+    texts:
+      - yakovu
+  - osis: 1Pet
+    texts:
+      - petelo 1
+  - osis: 2Pet
+    texts:
+      - petelo 2
+  - osis: Jude
+    texts:
+      - Yuta
+translations:
+  - TSOUNT

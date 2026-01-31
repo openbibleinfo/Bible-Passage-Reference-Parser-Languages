@@ -1,0 +1,141 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Apokalupo
+      - Apk
+  - osis: Matt
+    texts:
+      - Mataio
+      - Mt
+  - osis: Mark
+    texts:
+      - Mareko
+      - Mar
+  - osis: Luke
+    texts:
+      - Luka
+      - Lu
+  - osis: 1John
+    texts:
+      - 1Io
+  - osis: 2John
+    texts:
+      - 2Io
+  - osis: 3John
+    texts:
+      - 3 Ioane
+      - 3Io
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Ioane
+  - osis: John
+    texts:
+      - Ioane
+      - Io
+  - osis: Acts
+    texts:
+      - Apostolo
+      - Ap
+  - osis: Rom
+    texts:
+      - Roma
+      - Ro
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinto
+  - osis: 1Cor
+    texts:
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - 2Ko
+  - osis: Col
+    texts:
+      - Kolose
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatia
+      - Ga
+  - osis: Eph
+    texts:
+      - Efeso
+      - Ef
+  - osis: Phil
+    texts:
+      - Filipi
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonika
+  - osis: 1Thess
+    texts:
+      - 1Te
+  - osis: 2Thess
+    texts:
+      - 2Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemona
+      - Flm
+  - osis: Heb
+    texts:
+      - Heberu
+      - Heb
+  - osis: Jas
+    texts:
+      - Iakobo
+      - Ia
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petero
+  - osis: 1Pet
+    texts:
+      - 1Pe
+  - osis: 2Pet
+    texts:
+      - 2Pe
+  - osis: Jude
+    texts:
+      - Iudas
+      - Iu
+translations:
+  - SNCNT

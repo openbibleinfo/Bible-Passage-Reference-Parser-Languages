@@ -1,0 +1,139 @@
+variables:
+  first: &first
+    - "1"
+    - I
+    - Munra
+  second: &second
+    - "2"
+    - II
+    - Munra
+books:
+  - osis: Exod
+    texts:
+      - Exodus
+      - Exod
+  - osis: Rev
+    texts:
+      - Ŋaŋalue
+      - Ŋaŋa
+  - osis: Ps
+    texts:
+      - Psalms
+      - Psalm
+  - osis: Ezek
+    texts:
+      - Ezekiel
+      - Ezek
+  - osis: Dan
+    texts:
+      - Daniel
+  - osis: Matt
+    texts:
+      - Mathew
+      - Mat
+  - osis: Mark
+    texts:
+      - Mark
+  - osis: Luke
+    texts:
+      - Luk
+  - osis: 3John
+    texts:
+      - III John
+      - 3 John
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - John
+  - osis: Acts
+    texts:
+      - O Gagagapalag
+      - Gagag
+  - osis: Rom
+    texts:
+      - Munra ta Rom
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - ta Korinth I
+      - Kor
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - ta Korinth II
+      - Kor
+  - osis: Col
+    texts:
+      - Munra ta Kolose
+      - Kol
+  - osis: Gal
+    texts:
+      - Munra ta Galatia
+      - Gal
+  - osis: Eph
+    texts:
+      - Munra ta Ephesus
+      - Ephes
+  - osis: Phil
+    texts:
+      - Munra ta Philipi
+      - Philip
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - ta Thesalonika I
+      - Thess
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - ta Thesalonika II
+      - Thess
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tim
+  - osis: 1Tim
+    texts:
+      - Mun i Timothe I
+  - osis: 2Tim
+    texts:
+      - Mun i Timothe II
+  - osis: Titus
+    texts:
+      - Mun i Titus
+      - Titus
+  - osis: Phlm
+    texts:
+      - Mun i Philemon
+      - Philem
+  - osis: Heb
+    texts:
+      - Munra Hebrew
+      - Hebrew
+  - osis: Jas
+    texts:
+      - James
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peter
+  - osis: Jude
+    texts:
+      - Juda
+translations:
+  - MOTA

@@ -1,0 +1,351 @@
+- osis: Gen
+  texts:
+    - Genesis
+- osis: Exod
+  texts:
+    - Exodus
+- osis: Lev
+  texts:
+    - Triðja Mósebók
+    - 3 Mós
+- osis: Num
+  texts:
+    - Fjórða Mósebók
+    - 4 Mós
+- osis: Lam
+  texts:
+    - Harmljóðini
+    - Harmlj
+- osis: Rev
+  texts:
+    - Jóhannesar opinbering
+    - Opb
+- osis: Deut
+  texts:
+    - Fimta Mósebók
+    - 5 Mós
+- osis: Josh
+  texts:
+    - Jósvabók
+    - Jós
+- osis: Judg
+  texts:
+    - Dómarabókin
+    - Dóm
+- osis: Ruth
+  texts:
+    - Rutarbók
+    - Rut
+- osis: Isa
+  texts:
+    - Jesaja
+    - Jes
+- osis: 1Sam
+  texts:
+    - 1 Sámuelsbók
+    - 1 Sám
+    - 1. Sámuelsbók
+    - 1. Sám
+    - Fyrra Sámuelsbók
+    - Fyrra Sám
+    - Fyrra. Sámuelsbók
+    - Fyrra. Sám
+- osis: 2Sam
+  texts:
+    - 2 Sámuelsbók
+    - 2 Sám
+    - 2. Sámuelsbók
+    - 2. Sám
+    - Seinna Sámuelsbók
+    - Seinna Sám
+    - Seinna. Sámuelsbók
+    - Seinna. Sám
+- osis: 1Kgs
+  texts:
+    - 1 Kongabók
+    - 1 Kong
+    - 1. Kongabók
+    - 1. Kong
+    - Fyrra Kongabók
+    - Fyrra Kong
+    - Fyrra. Kongabók
+    - Fyrra. Kong
+- osis: 2Kgs
+  texts:
+    - 2 Kongabók
+    - 2 Kong
+    - 2. Kongabók
+    - 2. Kong
+    - Seinna Kongabók
+    - Seinna Kong
+    - Seinna. Kongabók
+    - Seinna. Kong
+- osis: 1Chr
+  texts:
+    - 1 Krýnikubók
+    - 1 Krýn
+    - 1. Krýnikubók
+    - 1. Krýn
+    - Fyrra Krýnikubók
+    - Fyrra Krýn
+    - Fyrra. Krýnikubók
+    - Fyrra. Krýn
+- osis: 2Chr
+  texts:
+    - 2 Krýnikubók
+    - 2 Krýn
+    - 2. Krýnikubók
+    - 2. Krýn
+    - Seinna Krýnikubók
+    - Seinna Krýn
+    - Seinna. Krýnikubók
+    - Seinna. Krýn
+- osis: Ezra
+  texts:
+    - Ezra
+- osis: Neh
+  texts:
+    - Nehemia
+    - Neh
+- osis: Esth
+  texts:
+    - Esterarbók
+    - Est
+- osis: Job
+  texts:
+    - Jobsbók
+    - Job
+- osis: Ps
+  texts:
+    - Sálmarnir
+    - Sl
+- osis: Prov
+  texts:
+    - Orðtøk Sálomons
+    - Orðt
+- osis: Eccl
+  texts:
+    - Prædikarin
+    - Præd
+- osis: Song
+  texts:
+    - Hásongurin
+    - Hás
+- osis: Jer
+  texts:
+    - Jeremia
+    - Jer
+- osis: Ezek
+  texts:
+    - Ezekiel
+    - Ez
+- osis: Dan
+  texts:
+    - Dánjal
+    - Dán
+- osis: Hos
+  texts:
+    - Hósea
+    - Hós
+- osis: Joel
+  texts:
+    - Jóel
+- osis: Amos
+  texts:
+    - Ámos
+    - Ám
+- osis: Obad
+  texts:
+    - Óbadia
+    - Óbad
+- osis: Jonah
+  texts:
+    - Jónas
+    - Jón
+- osis: Mic
+  texts:
+    - Mika
+- osis: Nah
+  texts:
+    - Náhum
+    - Náh
+- osis: Hab
+  texts:
+    - Hábakkuk
+    - Háb
+- osis: Zeph
+  texts:
+    - Sefanja
+    - Sef
+- osis: Hag
+  texts:
+    - Haggai
+    - Hagg
+- osis: Zech
+  texts:
+    - Zakarja
+    - Zak
+- osis: Mal
+  texts:
+    - Málaki
+    - Mál
+- osis: Matt
+  texts:
+    - Evangeliið eftir Matteus
+    - Mathæussa
+    - Matt
+- osis: Mark
+  texts:
+    - Evangeliið eftir Markus
+    - Mark
+- osis: Luke
+  texts:
+    - Evangeliið eftir Lukas
+    - Luk
+- osis: 1John
+  texts:
+    - 1 John
+    - 1. John
+    - Fyrra John
+    - Fyrra. John
+- osis: 2John
+  texts:
+    - Annað bræv Jóhannesar
+- osis: 3John
+  texts:
+    - Triðja bræv Jóhannesar
+    - 3 Jóh
+- osis: 2John
+  texts:
+    - 2 Jóh
+    - 2. Jóh
+    - Seinna Jóh
+    - Seinna. Jóh
+- osis: John
+  texts:
+    - Evangeliið eftir Jóhannes
+    - Jóhannesar Evangelium
+    - Jóhannes
+    - Jóh
+- osis: Acts
+  texts:
+    - Ápostlasøgan
+    - Áps
+- osis: Rom
+  texts:
+    - Bræv Paulusar ápostuls til Rómverja
+    - Róm
+- osis: 1Cor
+  texts:
+    - 1 Korintbrævið
+    - 1 Kor
+    - 1. Korintbrævið
+    - 1. Kor
+    - Fyrra Korintbrævið
+    - Fyrra Kor
+    - Fyrra. Korintbrævið
+    - Fyrra. Kor
+- osis: 2Cor
+  texts:
+    - 2 Korintbrævið
+    - 2 Kor
+    - 2. Korintbrævið
+    - 2. Kor
+    - Seinna Korintbrævið
+    - Seinna Kor
+    - Seinna. Korintbrævið
+    - Seinna. Kor
+- osis: Col
+  texts:
+    - Kolossubrævið
+    - Kol
+- osis: Gal
+  texts:
+    - Galatabrævið
+    - Gal
+- osis: Eph
+  texts:
+    - Efesusbrævið
+    - Ef
+- osis: Phil
+  texts:
+    - Filippibrævið
+    - Fil
+- osis: 1Thess
+  texts:
+    - 1 Tessalónikubrævið
+    - 1 Tess
+    - 1. Tessalónikubrævið
+    - 1. Tess
+    - Fyrra Tessalónikubrævið
+    - Fyrra Tess
+    - Fyrra. Tessalónikubrævið
+    - Fyrra. Tess
+- osis: 2Thess
+  texts:
+    - 2 Tessalónikubrævið
+    - 2 Tess
+    - 2. Tessalónikubrævið
+    - 2. Tess
+    - Seinna Tessalónikubrævið
+    - Seinna Tess
+    - Seinna. Tessalónikubrævið
+    - Seinna. Tess
+- osis: 1Tim
+  texts:
+    - 1 Timoteusarbrævið
+    - 1 Tim
+    - 1. Timoteusarbrævið
+    - 1. Tim
+    - Fyrra Timoteusarbrævið
+    - Fyrra Tim
+    - Fyrra. Timoteusarbrævið
+    - Fyrra. Tim
+- osis: 2Tim
+  texts:
+    - 2 Timoteusarbrævið
+    - 2 Tim
+    - 2. Timoteusarbrævið
+    - 2. Tim
+    - Seinna Timoteusarbrævið
+    - Seinna Tim
+    - Seinna. Timoteusarbrævið
+    - Seinna. Tim
+- osis: Titus
+  texts:
+    - Titusarbrævið
+    - Tit
+- osis: Phlm
+  texts:
+    - Filemonsbrævið
+    - Filem
+- osis: Heb
+  texts:
+    - Hebrearabrævið
+    - Hebr
+- osis: Jas
+  texts:
+    - Hitt almenna bræv Jákups
+    - Ják
+- osis: 1Pet
+  texts:
+    - 1 Pæt
+    - 1. Pæt
+    - Fyrra Pæt
+    - Fyrra. Pæt
+- osis: 2Pet
+  texts:
+    - 2 Pæt
+    - 2. Pæt
+    - Seinna Pæt
+    - Seinna. Pæt
+- osis: 1Pet
+  texts:
+    - Hitt fyrra almenna bræv Pæturs
+- osis: 2Pet
+  texts:
+    - Hitt seinna almenna bræv Pæturs
+- osis: Jude
+  texts:
+    - Hitt almenna bræv Judasar
+    - Jud

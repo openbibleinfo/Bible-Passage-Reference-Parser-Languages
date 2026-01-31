@@ -1,0 +1,96 @@
+variables:
+  first: &first
+    - اول
+  second: &second
+    - دوئِم
+  third: &third
+    - سِئِم
+books:
+  - osis: Rev
+    texts:
+      - مِکاشفَه
+  - osis: Matt
+    texts:
+      - مَتّی
+  - osis: Mark
+    texts:
+      - مَرقُس
+  - osis: Luke
+    texts:
+      - لوقا
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - یوحنا
+  - osis: Acts
+    texts:
+      - کارَل رسولَل
+  - osis: Rom
+    texts:
+      - رومیان
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - قرنتیان
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - قُرَنتیان
+  - osis: Col
+    texts:
+      - کولُسیَل
+  - osis: Gal
+    texts:
+      - غَلاطیَل
+  - osis: Eph
+    texts:
+      - اَفِسُسیَل
+  - osis: Phil
+    texts:
+      - فیلیپیَل
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - تِسالونیکیَل
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - تیموتائوس
+  - osis: Titus
+    texts:
+      - تیتوس
+  - osis: Phlm
+    texts:
+      - فیلیمون
+  - osis: Heb
+    texts:
+      - عِبرانیَل
+  - osis: Jas
+    texts:
+      - یعقوب
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - پطرس
+  - osis: Jude
+    texts:
+      - یهودا
+translations:
+  - LBT

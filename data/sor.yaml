@@ -1,0 +1,51 @@
+variables:
+  first: &first
+    - "1"
+books:
+  - osis: Exod
+    texts:
+      - Kɨrara gɨ daa
+      - Kgd
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis: Jonah
+    texts:
+      - Jonas
+  - osis: Matt
+    texts:
+      - Matiyə
+  - osis: Mark
+    texts:
+      - Markɨ
+  - osis: Luke
+    texts:
+      - Luk
+  - osis: Eph
+    texts:
+      - Epes
+  - osis: 1Thess
+    texts:
+      - 1Tes
+  - osis: 2Thess
+    texts:
+      - 2 Tesalonik
+      - 2Tes
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Tesalonik
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Timote
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: Jas
+    texts:
+      - Jak
+translations:
+  - SOR

@@ -1,0 +1,147 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Andowoon
+      - And
+  - osis: Rev
+    texts:
+      - Korokboon
+      - Krk
+  - osis: Ps
+    texts:
+      - Yook
+  - osis: Matt
+    texts:
+      - Matyu
+      - Mt
+  - osis: Mark
+    texts:
+      - Maak
+      - Mk
+  - osis: Luke
+    texts:
+      - Luk
+      - Lk
+  - osis: 1John
+    texts:
+      - 1Yn
+  - osis: 2John
+    texts:
+      - 2Yn
+  - osis: 3John
+    texts:
+      - 3 Yoon
+      - 3Yn
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yoon
+  - osis: John
+    texts:
+      - Yoon
+      - Yn
+  - osis: Acts
+    texts:
+      - Kwamiwen
+      - Kw
+  - osis: Rom
+    texts:
+      - Romdan
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korindan
+  - osis: 1Cor
+    texts:
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - 2Ko
+  - osis: Col
+    texts:
+      - Kolosedan
+      - Kol
+  - osis: Gal
+    texts:
+      - Galasiadan
+      - Gal
+  - osis: Eph
+    texts:
+      - Efesusdan
+      - Ef
+  - osis: Phil
+    texts:
+      - Filipaidan
+      - Flp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonaikadan
+  - osis: 1Thess
+    texts:
+      - 1Te
+  - osis: 2Thess
+    texts:
+      - 2Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Taitus
+      - Tait
+  - osis: Phlm
+    texts:
+      - Failimon
+      - Flm
+  - osis: Heb
+    texts:
+      - Hibrudan
+      - Hib
+  - osis: Jas
+    texts:
+      - Yems
+      - Yem
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+  - osis: 1Pet
+    texts:
+      - 1Pi
+  - osis: 2Pet
+    texts:
+      - 2Pi
+  - osis: Jude
+    texts:
+      - Jud
+translations:
+  - YONB

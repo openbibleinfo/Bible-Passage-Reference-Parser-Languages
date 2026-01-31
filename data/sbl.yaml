@@ -1,0 +1,124 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Impatnag
+      - Imp
+  - osis: Ps
+    texts:
+      - Kawkanta
+      - Kaw
+  - osis: Prov
+    texts:
+      - Kawkahalita-an
+      - Kawn
+  - osis: Matt
+    texts:
+      - Matiyo
+      - Mat
+  - osis: Mark
+    texts:
+      - Markos
+      - Mar
+  - osis: Luke
+    texts:
+      - Lokas
+      - Lok
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Howan
+      - Ho
+  - osis: John
+    texts:
+      - Howan
+      - How
+  - osis: Acts
+    texts:
+      - Gawgawà
+      - Gaw
+  - osis: Rom
+    texts:
+      - Roma
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinto
+      - Ko
+  - osis: Col
+    texts:
+      - Kolosas
+      - Kol
+  - osis: Gal
+    texts:
+      - Galasya
+      - Gal
+  - osis: Eph
+    texts:
+      - Ipiso
+      - Ipi
+  - osis: Phil
+    texts:
+      - Pilipos
+      - Plp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tisalonika
+      - Tis
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotiyo
+      - Tim
+  - osis: Titus
+    texts:
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Pilimon
+      - Plm
+  - osis: Heb
+    texts:
+      - Hibriyo
+      - Hib
+  - osis: Jas
+    texts:
+      - Santiyago
+      - San
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pidro
+      - Pi
+  - osis: Jude
+    texts:
+      - Hodas
+      - Hod
+translations:
+  - SBLNT

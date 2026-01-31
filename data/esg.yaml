@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - पेन हुपिस्‍ता पोल्‍लें
+  - osis: Matt
+    texts:
+      - मत्‍तयाल
+  - osis: Mark
+    texts:
+      - मरकुस
+  - osis: Luke
+    texts:
+      - लूकाल
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - योहान
+  - osis: Acts
+    texts:
+      - प्रेरितुल्‍कुना कबाह्‍क
+  - osis: Rom
+    texts:
+      - रोम
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - कुरेंति
+  - osis: Col
+    texts:
+      - कुलुसि
+  - osis: Gal
+    texts:
+      - गलातिया
+  - osis: Eph
+    texts:
+      - इपीसि
+  - osis: Phil
+    texts:
+      - पिलिपिया
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - तेसलोनि
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - तिमोति
+  - osis: Titus
+    texts:
+      - तीतु
+  - osis: Phlm
+    texts:
+      - पिलेमोन
+  - osis: Heb
+    texts:
+      - इब्रि
+  - osis: Jas
+    texts:
+      - याकोब
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - पत्रु
+  - osis: Jude
+    texts:
+      - यहुदा
+translations:
+  - ESG

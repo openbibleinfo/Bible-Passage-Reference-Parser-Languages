@@ -1,0 +1,158 @@
+variables:
+  first: &first
+    - "1"
+    - Апостол
+  second: &second
+    - "2"
+    - Апостол
+books:
+  - osis: Gen
+    texts:
+      - 1 Мусэ
+  - osis: Rev
+    texts:
+      - Апокалипсис
+      - Апок.
+  - osis: Ruth
+    texts:
+      - Руфэ
+  - osis: Esth
+    texts:
+      - Сэфирэт и тхылъ
+      - Сэфирэт
+  - osis: Ps
+    texts:
+      - Уэрэд
+  - osis: Prov
+    texts:
+      - Гъэсэпэтхыдэхэр
+      - Гъэс.
+  - osis: Eccl
+    texts:
+      - ДжакӀуэ
+  - osis: Dan
+    texts:
+      - Данил
+  - osis: Jonah
+    texts:
+      - Инус
+  - osis: Matt
+    texts:
+      - Маттэ
+      - Мт.
+  - osis: Mark
+    texts:
+      - Марк
+      - Мк.
+  - osis: Luke
+    texts:
+      - Лукас
+      - Лука
+      - Лк.
+  - osis: 3John
+    texts:
+      - Апостол Петр и ещанэ тхылъ
+      - 3 Ин.
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - Иуан и япэ тхылъ
+      - Ин.
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - Иуан и етӀуанэ тхылъ
+      - Ин.
+  - osis: John
+    texts:
+      - Иуан
+      - Ин.
+  - osis: Acts
+    texts:
+      - Апостол.
+      - Апост.
+  - osis: Rom
+    texts:
+      - Фӏэщхъуныгъэ яӀэу Рим къалэм дэсхэм апостол Паул яхуитха тхылъ
+      - Рим.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Кор.
+  - osis: Col
+    texts:
+      - Фӏэщхъуныгъэ яӀэу Колоссэ къалэм дэсхэм апостол Паул яхуитха тхылъ
+      - Кол.
+  - osis: Gal
+    texts:
+      - Фӏэщхъуныгъэ яӀэу Галатие хэкум исхэм апостол Паул яхуитха тхылъ
+      - Гал.
+  - osis: Eph
+    texts:
+      - Фӏэщхъуныгъэ яӀэу Ефес къалэм дэсхэм апостол Паул яхуитха тхылъ
+      - Еф.
+  - osis: Phil
+    texts:
+      - Фӏэщхъуныгъэ яӀэу Филиппи къалэм дэсхэм апостол Паул яхуитха тхылъ
+      - Флп.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Фес.
+  - osis: 1Thess
+    texts:
+      - Фӏэщхъуныгъэ яӀэу Фессалоникэ къалэм дэсхэм Паул яхуитха япэ тхылъ
+  - osis: 2Thess
+    texts:
+      - Фӏэщхъуныгъэ яӀэу Фессалоникэ дэсхэм апостол Паул яхуитха етӀуанэ тхылъ
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - Паул Тимофей хуитха япэ тхылъ
+      - Тим.
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Паул Тимофей хуитха етӀуанэ тхылъ
+      - Тим.
+  - osis: Titus
+    texts:
+      - Апостол Паул Тит хуитха тхылъ
+      - Тит
+  - osis: Phlm
+    texts:
+      - Апостол Паул Филимон хуитха тхылъ
+      - Флм.
+  - osis: Heb
+    texts:
+      - Еврейхэм яхуэгъэза тхылъ
+      - Евр.
+  - osis: Jas
+    texts:
+      - Апостол Екъуб и тхылъ
+      - Ек.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Пет.
+      - Петр
+  - osis: Jude
+    texts:
+      - Иуд.
+      - Иудэ
+translations:
+  - KABBBL
+  - KBDNTGP2017

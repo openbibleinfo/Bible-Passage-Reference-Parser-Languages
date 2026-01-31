@@ -1,0 +1,243 @@
+default:
+  1Chr:
+    long: 1 Paraleipomeno
+    short: 1 Para
+  1Cor:
+    long: 1 Korinetia
+    short: 1 Kori
+  1John:
+    long: 1 Ioane
+    short: 1 Ioa
+  1Kgs:
+    long: 1 Ariki
+    short: 1 Ari
+  1Pet:
+    long: 1 Petero
+    short: 1 Pet
+  1Sam:
+    long: 1 Samuela
+    short: 1 Samu
+  1Thess:
+    long: 1 Tesalonia
+    short: 1 Tesa
+  1Tim:
+    long: 1 Timoteo
+    short: 1 Timo
+  2Chr:
+    long: 2 Paraleipomeno
+    short: 2 Para
+  2Cor:
+    long: 2 Korinetia
+    short: 2 Kori
+  2John:
+    long: 2 Ioane
+    short: 2 Ioa
+  2Kgs:
+    long: 2 Ariki
+    short: 2 Ari
+  2Pet:
+    long: 2 Petero
+    short: 2 Pet
+  2Sam:
+    long: 2 Samuela
+    short: 2 Samu
+  2Thess:
+    long: 2 Tesalonia
+    short: 2 Tesa
+  2Tim:
+    long: 2 Timoteo
+    short: 2 Timo
+  3John:
+    long: 3 Ioane
+    short: 3 Ioa
+  Acts:
+    long: "'Anga'anga"
+    short: Anga
+  Amos:
+    long: Amosa
+    short: Amo
+  Col:
+    long: Kolosa
+    short: Kol
+  Dan:
+    long: Daniela
+    short: Dani
+  Deut:
+    long: Deuteronomi
+    short: Deu
+  Eccl:
+    long: Koheleta
+    short: Kohe
+  Eph:
+    long: Ephesia
+    short: Eph
+  Esth:
+    long: Esetera
+    short: Esete
+  Exod:
+    long: Exodo
+    short: Exo
+  Ezek:
+    long: Ezekiela
+    short: Eze
+  Ezra:
+    long: Ezera
+    short: Ezera
+  Gal:
+    long: Galatia
+    short: Gal
+  Gen:
+    long: Genese
+    short: Gene
+  Hab:
+    long: Habakuka
+    short: Haba
+  Hag:
+    long: Hagai
+    short: Haga
+  Heb:
+    long: Ebera
+    short: Ebe
+  Hos:
+    long: Hosea
+    short: Hose
+  Isa:
+    long: Isaia
+    short: Isa
+  Jas:
+    long: Iakobo
+    short: Iako
+  Jer:
+    long: Ieremia
+    short: Iere
+  Job:
+    long: Iobu
+    short: Iobu
+  Joel:
+    long: Ioela
+    short: Ioela
+  John:
+    long: Ioane
+    short: Ioa
+  Jonah:
+    long: Iona
+    short: Iona
+  Josh:
+    long: Iosua
+    short: Iosu
+  Jude:
+    long: Iuda
+    short: Iuda
+  Judg:
+    long: Te Au Akava
+    short: Aka
+  Lam:
+    long: Te Aue A Ieremia
+    short: Aue
+  Lev:
+    long: Levitiku
+    short: Levi
+  Luke:
+    long: Luka
+    short: Luk
+  Mal:
+    long: Malaki
+    short: Mala
+  Mark:
+    long: Mareko
+    short: Mare
+  Matt:
+    long: Mataio
+    short: Mata
+  Mic:
+    long: Mika
+    short: Mika
+  Nah:
+    long: Nahuma
+    short: Nahu
+  Neh:
+    long: Nehemia
+    short: Nehe
+  Num:
+    long: Numero
+    short: Nume
+  Obad:
+    long: Obadia
+    short: Oba
+  Phil:
+    long: Philipi
+    short: Phil
+  Phlm:
+    long: Philemona
+    short: Phile
+  Prov:
+    long: Maseli
+    short: Mase
+  Ps:
+    long: Salamo
+    short: Sala
+  Rev:
+    long: Apokalupo
+    short: Apo
+  Rom:
+    long: Roma
+    short: Roma
+  Ruth:
+    long: Ruta
+    short: Ruta
+  Song:
+    long: Te Imene A Solomona
+    short: Ime
+  Titus:
+    long: Tito
+    short: Tito
+  Zech:
+    long: Zekaria
+    short: Zeka
+  Zeph:
+    long: Zephania
+    short: Zepha
+translations:
+  cimrnt:
+    1Cor:
+      long: 1 Kōrīnētia
+      short: 1 Kōr
+    1Thess:
+      long: 1 Tesalōnia
+    1Tim:
+      long: 1 Timōteo
+    2Cor:
+      long: 2 Kōrīnētia
+      short: 2 Kōr
+    2Thess:
+      long: 2 Tesalōnia
+    2Tim:
+      long: 2 Timōteo
+    Mark:
+      long: Māreko
+      short: Mār
+    Matt:
+      long: Mātaio
+      short: Māt
+    Phlm:
+      short: Phlm
+    Rom:
+      long: Rōma
+      short: Rōm
+  cimb:
+    1Pet:
+      short: 1 Pete
+    2Pet:
+      short: 2 Pete
+    Acts:
+      long: Angaanga
+    Col:
+      short: Kolo
+    Eph:
+      short: Ephe
+    Gal:
+      short: Gala
+    Luke:
+      short: Luka
+    Phil:
+      short: Phili

@@ -1,0 +1,168 @@
+default:
+  1Cor:
+    long: كورِنثوس الأولى
+    short: 1 كو
+  1John:
+    long: يوحَنّا الأولى
+    short: 1 يو
+  1Pet:
+    long: بُطْرُس الأولى
+    short: 1 بط
+  1Thess:
+    long: تسالونيكي الأولى
+    short: 1 تس
+  1Tim:
+    long: تيموثاوس الأولى
+    short: 1 تي
+  2Cor:
+    long: كورِنثوس التانية
+    short: 2 كو
+  2John:
+    long: يوحَنّا التانية
+    short: 2 يو
+  2Pet:
+    long: بُطْرُس التانية
+    short: 2 بط
+  2Thess:
+    long: تسالونيكي التانية
+    short: 2 تس
+  2Tim:
+    long: تيموثاوس التانية
+    short: 2 تي
+  3John:
+    long: يوحَنّا التالتة
+    short: 3 يو
+  Acts:
+    long: أعمال الرُسُل
+    short: أع
+  Col:
+    long: رِسَالَةْ كُولُوسِّي
+    short: كو
+  Eph:
+    long: أَفَسُس
+    short: أف
+  Gal:
+    long: رِسَالَةْ غَلَاطِيَّة
+    short: غلاطية
+  Heb:
+    long: الرِّسَالَة لْلْعِبْرَانِيِّينْ
+    short: العبرانيين
+  Jas:
+    long: يَعْقوب
+    short: يع
+  John:
+    long: إنجيل يوحَنّا
+    short: يو
+  Jude:
+    long: يَهودا
+    short: يهودا
+  Luke:
+    long: إنجيل لوقا
+    short: لو
+  Mark:
+    long: إنجيل مَرقُس
+    short: مرقس
+  Matt:
+    long: إنجيل متّى
+    short: متى
+  Phil:
+    long: رِسَالَةْ فِيلِبِّي
+    short: في
+  Phlm:
+    long: رِسَالَةْ فِلِيمُونْ
+    short: فل
+  Rev:
+    long: الرؤيا
+    short: الرؤيا
+  Rom:
+    long: رومية
+    short: رو
+  Titus:
+    long: تيطُس
+    short: تي
+translations:
+  mstd:
+    1Cor:
+      long: كُورِنْتُوسْ اللّْوّْلَى
+      short: 1كورنتوس
+    1John:
+      long: يُوحَنَّا اللّْوّْلَى
+      short: 1يوحنا
+    1Pet:
+      long: بُطْرُسْ اللّْوّْلَى
+      short: 1بطرس
+    1Thess:
+      long: رِسَالَةْ تْسَالُونِيكِي اللّْوّْلَى
+      short: 1تسالونيكي
+    1Tim:
+      long: رِسَالَةْ تِيمُوتَاوُسْ اللّْوّْلَى
+      short: 1تيموتاوس
+    2Cor:
+      long: كُورِنْتُوسْ التَّانِيَّة
+      short: 2كورنتوس
+    2John:
+      long: يُوحَنَّا التَّانِيَّة
+      short: 2يوحنا
+    2Pet:
+      long: بُطْرُسْ التَّانِيَّة
+      short: 2بطرس
+    2Thess:
+      long: رِسَالَةْ تْسَالُونِيكِي التَّانِيَّة
+      short: 2تسالونيكي
+    2Tim:
+      long: رِسَالَةْ تِيمُوتَاوُسْ التَّانِيَّة
+      short: 2تيموتاوس
+    3John:
+      long: يُوحَنَّا التَّالْتَة
+      short: 3يوحنا
+    Acts:
+      long: الْأَعْمَالْ
+      short: الاعمال
+    Col:
+      short: كولوسي
+    Eph:
+      long: رِسَالَةْ أَفَسُسْ
+      short: أفسس
+    Jas:
+      long: يَعْقُوبْ
+      short: يعقوب
+    John:
+      long: يُوحَنَّا
+      short: يوحنا
+    Jude:
+      long: يَهُودَا
+    Luke:
+      long: لُوقَا
+      short: لوقا
+    Mark:
+      long: مَرْقُسْ
+    Matt:
+      long: مَتَّى
+    Phil:
+      short: فيليبي
+    Phlm:
+      short: فيلمون
+    Rev:
+      long: الرُّؤْيَا
+    Rom:
+      long: رُومَا
+      short: روما
+    Titus:
+      long: رِسَالَةْ تِيطُسْ
+      short: تيطس
+  ary:
+    Col:
+      long: كولوسي
+    Gal:
+      long: غلاطية
+    Heb:
+      long: عبرانيين
+      short: عب
+    Jude:
+      short: يَهودا
+    Phil:
+      long: فيلِبّي
+    Phlm:
+      long: فِليمون
+    Rev:
+      short: رؤ

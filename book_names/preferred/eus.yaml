@@ -1,0 +1,291 @@
+default:
+  1Chr:
+    long: 1 Kronikak
+    short: 1 Paralipomenac
+  1Cor:
+    long: 1 Korintoarrei
+    short: 1 Korintoarrei
+  1John:
+    long: 1 Joan
+    short: 1 Joan
+  1Kgs:
+    long: 1 Erregeak
+    short: 1 Erregueac
+  1Macc:
+    long: 1 Makabearrak
+  1Pet:
+    long: 1 Pedro
+    short: 1 Pedro
+  1Sam:
+    long: 1 Samuel
+    short: 1 Erregueac
+  1Thess:
+    long: 1 Tesalonikarrei
+    short: 1 Tesalonikarrei
+  1Tim:
+    long: 1 Timoteori
+    short: 1 Timoteori
+  2Chr:
+    long: 2 Kronikak
+    short: 2 Paralipomenac
+  2Cor:
+    long: 2 Korintoarrei
+    short: 2 Korintoarrei
+  2John:
+    long: 2 Joan
+    short: 2 Joan
+  2Kgs:
+    long: 2 Erregeak
+    short: 2 Erregueac
+  2Macc:
+    long: 2 Makabearrak
+  2Pet:
+    long: 2 Pedro
+    short: 2 Pedro
+  2Sam:
+    long: 2 Samuel
+    short: 2 Erregueac
+  2Thess:
+    long: 2 Tesalonikarrei
+    short: 2 Tesalonikarrei
+  2Tim:
+    long: 2 Timoteori
+    short: 2 Timoteori
+  3John:
+    long: 3 Joan
+    short: 3 Joan
+  Acts:
+    long: Eginak
+    short: Eginak
+  Amos:
+    long: Amos
+    short: Amosen Profecia
+  Bar:
+    long: Baruk
+  Col:
+    long: Kolosarrei
+    short: Kolosarrei
+  Dan:
+    long: Daniel
+    short: Danielen Profecia
+  DanGr:
+    long: Daniel Gr.
+  Deut:
+    long: Deuteronomioa
+    short: Duteronoma
+  Eccl:
+    long: Kohelet
+    short: Eclesiastesa
+  EpJer:
+    long: Jeremiasen Gt.
+  Eph:
+    long: Efesoarrei
+    short: Efesoarrei
+  Esth:
+    long: Ester
+    short: Esther
+  EsthGr:
+    long: Ester Gr.
+  Exod:
+    long: Irteera
+    short: Ecsodoa
+  Ezek:
+    long: Ezekiel
+    short: Ecequielen Profecia
+  Ezra:
+    long: Esdras
+    short: Esdras
+  Gal:
+    long: Galaziarrei
+    short: Galaziarrei
+  Gen:
+    long: Hasiera
+    short: Jenesa
+  Hab:
+    long: Habakuk
+    short: Habacuquen Profecia
+  Hag:
+    long: Ageo
+    short: Agjeoren Profecia
+  Heb:
+    long: Hebrearrei
+    short: Hebrearrei
+  Hos:
+    long: Oseas
+    short: Oseeren Profecia
+  Isa:
+    long: Isaias
+    short: Isaiasen Profecia
+  Jas:
+    long: Santiago
+    short: Santiago
+  Jdt:
+    long: Judit
+  Jer:
+    long: Jeremias
+    short: Jeremiasen Profecia
+  Job:
+    long: Job
+    short: Job
+  Joel:
+    long: Joel
+    short: Joelen Profecia
+  John:
+    long: Joan
+    short: Joan
+  Jonah:
+    long: Jonas
+    short: Jonasen Profecia
+  Josh:
+    long: Josue
+    short: Josue
+  Jude:
+    long: Judas
+    short: Judas
+  Judg:
+    long: Epaileak
+    short: Juieac
+  Lam:
+    long: Negar Kantak
+    short: Jeremias Profetaren Deithoreac
+  Lev:
+    long: Lebitarrena
+    short: Lebiticoa
+  Luke:
+    long: Lukas
+    short: Lukas
+  Mal:
+    long: Malakias
+    short: Malaquiasen Profecia
+  Mark:
+    long: Markos
+    short: Markos
+  Matt:
+    long: Mateo
+    short: Mateo
+  Mic:
+    long: Mikeas
+    short: Miqueasen Profecia
+  Nah:
+    long: Nahum
+    short: Nahumen Profecia
+  Neh:
+    long: Nehemias
+    short: Nehemias
+  Num:
+    long: Zenbakiak
+    short: Nombreac
+  Obad:
+    long: Abdias
+    short: Abdiasen Profecia
+  Phil:
+    long: Filipoarrei
+    short: Filipoarrei
+  Phlm:
+    long: Filemoni
+    short: Filemoni
+  Prov:
+    long: Esaera Zaharrak
+    short: Erran-çaharrac
+  Ps:
+    long: Salmoak
+    short: Psalmoac
+  Rev:
+    long: Apokalipsia
+    short: Apokalipsia
+  Rom:
+    long: Erromatarrei
+    short: Erromatarrei
+  Ruth:
+    long: Rut
+    short: Erruth
+  Sir:
+    long: Ben Sirak
+  Song:
+    long: Kantarik Ederrena
+    short: Salomonen Cantiquetaco Cantica
+  Titus:
+    long: Titori
+    short: Titori
+  Tob:
+    long: Tobit
+  Wis:
+    long: Jakinduria
+  Zech:
+    long: Zakarias
+    short: Çacariasen Profecia
+  Zeph:
+    long: Sofonias
+    short: Sophoniasen Profecia
+translations:
+  bhnt:
+    1Chr:
+      long: 1 Paralipomenac
+    1Kgs:
+      long: 1 Erregueac
+    1Sam:
+      long: 1 Erregueac
+    2Chr:
+      long: 2 Paralipomenac
+    2Kgs:
+      long: 2 Erregueac
+    2Sam:
+      long: 2 Erregueac
+    Amos:
+      long: Amosen Profecia
+    Dan:
+      long: Danielen Profecia
+    Deut:
+      long: Duteronoma
+    Eccl:
+      long: Eclesiastesa
+    Esth:
+      long: Esther
+    Exod:
+      long: Ecsodoa
+    Ezek:
+      long: Ecequielen Profecia
+    Gen:
+      long: Jenesa
+    Hab:
+      long: Habacuquen Profecia
+    Hag:
+      long: Agjeoren Profecia
+    Hos:
+      long: Oseeren Profecia
+    Isa:
+      long: Isaiasen Profecia
+    Jer:
+      long: Jeremiasen Profecia
+    Joel:
+      long: Joelen Profecia
+    Jonah:
+      long: Jonasen Profecia
+    Judg:
+      long: Juieac
+    Lam:
+      long: Jeremias Profetaren Deithoreac
+    Lev:
+      long: Lebiticoa
+    Mal:
+      long: Malaquiasen Profecia
+    Mic:
+      long: Miqueasen Profecia
+    Nah:
+      long: Nahumen Profecia
+    Num:
+      long: Nombreac
+    Obad:
+      long: Abdiasen Profecia
+    Prov:
+      long: Erran-çaharrac
+    Ps:
+      long: Psalmoac
+    Ruth:
+      long: Erruth
+    Song:
+      long: Salomonen Cantiquetaco Cantica
+    Zech:
+      long: Çacariasen Profecia
+    Zeph:
+      long: Sophoniasen Profecia

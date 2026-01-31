@@ -1,0 +1,432 @@
+default:
+  1Chr:
+    long: 1 Vaaj Keeb Kwm
+    short: 1 Xvn
+  1Cor:
+    long: 1 Kauleethaus
+    short: 1 Klt
+  1John:
+    long: 1 Yauhaa
+    short: 1 Yhs
+  1Kgs:
+    long: 1 Vaajntxwv
+    short: 1 Vnt
+  1Pet:
+    long: 1 Petu
+    short: 1 Pet
+  1Sam:
+    long: 1 Xamuyee
+    short: 1 Xam
+  1Thess:
+    long: 1 Thexalaunika
+    short: 1 The
+  1Tim:
+    long: 1 Timaute
+    short: 1 Tim
+  2Chr:
+    long: 2 Vaaj Keeb Kwm
+    short: 2 Xvn
+  2Cor:
+    long: 2 Kauleethaus
+    short: 2 Klt
+  2John:
+    long: 2 Yauhaa
+    short: 2 Yhs
+  2Kgs:
+    long: 2 Vaajntxwv
+    short: 2 Vnt
+  2Pet:
+    long: 2 Petu
+    short: 2 Pet
+  2Sam:
+    long: 2 Xamuyee
+    short: 2 Xam
+  2Thess:
+    long: 2 Thexalaunika
+    short: 2 The
+  2Tim:
+    long: 2 Timaute
+    short: 2 Tim
+  3John:
+    long: 3 Yauhaa
+    short: 3 Yhs
+  Acts:
+    long: Teg Num
+    short: Ten
+  Amos:
+    long: Amau
+    short: Am.
+  Col:
+    long: Kaulauxais
+    short: Khx.
+  Dan:
+    long: Daniyees
+    short: Dan
+  Deut:
+    long: 2 Kevcai
+    short: 2 Kev
+  Eccl:
+    long: Laaj Lim Tswvyim
+    short: L.Tsy.
+  Eph:
+    long: Efexau
+    short: Efe
+  Esth:
+    long: Exathaw
+    short: Ext
+  Exod:
+    long: Tsiv Dlim
+    short: Ts.D.
+  Ezek:
+    long: Exekees
+    short: Exk
+  Ezra:
+    long: Exala
+    short: Exa
+  Gal:
+    long: Kalatia
+    short: Kal
+  Gen:
+    long: Chiv Keeb
+    short: Ch.K.
+  Hab:
+    long: Hanpaku
+    short: Han
+  Hag:
+    long: Hakai
+    short: Hak
+  Heb:
+    long: Henplais
+    short: Hen
+  Hos:
+    long: Hauxeya
+    short: Hau
+  Isa:
+    long: Yaxaya
+    short: Yay
+  Jas:
+    long: Yakaunpau
+    short: Yak
+  Jer:
+    long: Yelemi
+    short: Yel
+  Job:
+    long: Yauj
+    short: Yaj
+  Joel:
+    long: Yau-Ees
+    short: Y-ee
+  John:
+    long: Yauhaa
+    short: Yh.
+  Jonah:
+    long: Yauna
+    short: Yan
+  Josh:
+    long: Yausua
+    short: Yas
+  Jude:
+    long: Yudas
+    short: Yt.
+  Judg:
+    long: Cov Thawj
+    short: C.Th.
+  Lam:
+    long: Nkauj Quaj Ntsuag
+    short: Nk.Nts.
+  Lev:
+    long: Levi Tej Kevcai
+    short: L.Kc.
+  Luke:
+    long: Luka
+    short: Lk.
+  Mal:
+    long: Malakhi
+    short: Mal
+  Mark:
+    long: Malakau
+    short: Mak
+  Matt:
+    long: Mathai
+    short: Mat
+  Mic:
+    long: Mikha
+    short: MiK
+  Nah:
+    long: Nahu
+    short: Nah
+  Neh:
+    long: Nehemi
+    short: Neh
+  Num:
+    long: Teev Npe
+    short: Tnp
+  Obad:
+    long: Aunpadiyas
+    short: Aun
+  Phil:
+    long: Filipi
+    short: Flp
+  Phlm:
+    long: Filemoo
+    short: Flm
+  Prov:
+    long: Paaj Lug
+    short: P.L.
+  Ps:
+    long: Ntawv Nkauj
+    short: Nt.Nk.
+  Rev:
+    long: Qha Tshwm
+    short: Qtsh.
+  Rom:
+    long: Loo
+    short: Loo
+  Ruth:
+    long: Luv
+    short: Luv
+  Song:
+    long: Xalaumoo Zaaj Nkauj
+    short: Xlm.
+  Titus:
+    long: Titau
+    short: Tit
+  Zech:
+    long: Xakaliyas
+    short: Xak
+  Zeph:
+    long: Xefaniya
+    short: Xef
+translations:
+  hmobsv:
+    1Chr:
+      short: 1Vkk.
+    1Cor:
+      long: 1 Khaulee
+      short: 1Khl.
+    1John:
+      short: 1Yh.
+    1Kgs:
+      short: 1Vntx.
+    1Pet:
+      short: 1Pt.
+    1Sam:
+      short: 1Xmy.
+    1Thess:
+      short: 1Thxk.
+    1Tim:
+      short: 1Tmt.
+    2Chr:
+      short: 2Vkk.
+    2Cor:
+      long: 2 Khaulee
+      short: 2Khl.
+    2John:
+      short: 2Yh.
+    2Kgs:
+      short: 2Vntx.
+    2Pet:
+      short: 2Pt.
+    2Sam:
+      short: 2Xmy.
+    2Thess:
+      short: 2Thxk.
+    2Tim:
+      short: 2Tmt.
+    3John:
+      short: 3Yh.
+    Acts:
+      long: Tubkhai Teg Num
+      short: Tkh.
+    Col:
+      long: Khaulauxi
+    Dan:
+      long: Taniyee
+      short: Tny.
+    Deut:
+      long: Kevcai
+      short: Kc.
+    Eph:
+      short: Efx.
+    Esth:
+      short: Exth.
+    Exod:
+      long: Tswv Dim
+    Ezek:
+      long: Exekhee
+      short: Exkh.
+    Ezra:
+      short: Exl.
+    Gal:
+      short: Klt.
+    Hab:
+      short: Hnpk.
+    Hag:
+      short: Hk.
+    Heb:
+      short: Hnpl.
+    Hos:
+      short: Hxy.
+    Isa:
+      short: Yxy.
+    Jas:
+      short: Yknp.
+    Jer:
+      short: Ylm.
+    Job:
+      short: Yauj
+    Joel:
+      long: Yau-ee
+    Jonah:
+      short: Yn.
+    Josh:
+      short: Ys.
+    Jude:
+      long: Yuta
+    Lam:
+      long: Zaaj Nkauj Ntsuag
+    Mal:
+      short: Mlkh.
+    Mark:
+      short: Mk.
+    Matt:
+      short: Mth.
+    Mic:
+      short: Mkh.
+    Nah:
+      short: Nh.
+    Neh:
+      short: Nhm.
+    Num:
+      long: Xwm Txheej Taug Kev
+      short: X.Txh.
+    Obad:
+      long: Aunpantiya
+      short: Aunpy.
+    Phil:
+      short: Flp.
+    Phlm:
+      short: Flm.
+    Titus:
+      short: Tit.
+    Zech:
+      long: Xekhaliya
+      short: Xkhy.
+    Zeph:
+      short: Xfny.
+  hnj2000:
+    1Chr:
+      long: 1 Xwmtxheej Vaajntxwv
+    1John:
+      long: 1 Yauhaas
+    1Pet:
+      long: 1 Petus
+    1Sam:
+      long: 1 Xamuyees
+    1Thess:
+      long: 1 Thexalaunikes
+    1Tim:
+      long: 1 Timautes
+    2Chr:
+      long: 2 Xwmtxheej Vaajntxwv
+    2John:
+      long: 2 Yauhaas
+    2Pet:
+      long: 2 Petus
+    2Sam:
+      long: 2 Xamuyees
+    2Thess:
+      long: 2 Thexalaunikes
+    2Tim:
+      long: 2 Timautes
+    3John:
+      long: 3 Yauhaas
+    Amos:
+      long: Amaus
+      short: Ama
+    Col:
+      short: Klx
+    Eccl:
+      long: Tej Lug Qha
+      short: Tlq
+    Eph:
+      long: Efexaus
+    Esth:
+      long: Exethaws
+    Exod:
+      short: Tsd
+    Ezra:
+      long: Exalas
+    Gal:
+      long: Kalatias
+    Gen:
+      long: Chivkeeb
+      short: Chk
+    Hab:
+      long: Hanpakus
+    Hag:
+      long: Hakais
+    Hos:
+      long: Hauxeyas
+    Isa:
+      long: Yaxayas
+    Jas:
+      long: Yakaunpaus
+    Jer:
+      long: Yelemis
+    Joel:
+      short: Yau
+    John:
+      long: Yauhaas
+      short: Yhs
+    Jonah:
+      long: Yaunas
+    Josh:
+      long: Yausuas
+    Jude:
+      short: Yud
+    Judg:
+      long: Cov Thawjtswj
+      short: Ctt
+    Lam:
+      short: Nqn
+    Lev:
+      long: Levis Kevcai
+      short: Lek
+    Luke:
+      long: Lukas
+      short: Luk
+    Mal:
+      long: Malakis
+    Mark:
+      long: Malakaus
+    Matt:
+      long: Mathais
+    Mic:
+      long: Mikhas
+    Nah:
+      long: Nahus
+    Neh:
+      long: Nehemis
+    Phil:
+      long: Filipis
+    Phlm:
+      long: Filemoos
+    Prov:
+      long: Paajlug
+      short: Plg
+    Ps:
+      long: Phoo Ntawv Nkauj
+      short: Pnk
+    Rev:
+      long: Tshwmsim
+      short: Tsm
+    Rom:
+      long: Loos
+    Song:
+      long: Xalumoos Tej Nkauj
+      short: Xtn
+    Titus:
+      long: Titus
+    Zeph:
+      long: Xefaniyas

@@ -1,0 +1,138 @@
+variables:
+  first: &first
+    - "1"
+    - Павелонь
+  second: &second
+    - "2"
+    - Павелонь
+books:
+  - osis: Rev
+    texts:
+      - Иоаннонди панчф няйфкс
+      - Иоанн. няйфкс
+  - osis: Matt
+    texts:
+      - Матфей
+      - Матф.
+  - osis: Mark
+    texts:
+      - Марк
+  - osis: Luke
+    texts:
+      - Лук.
+      - Лука
+  - osis: 1John
+    texts:
+      - Иоаннонь васенце сёрмац
+  - osis: 2John
+    texts:
+      - Иоаннонь омбоце сёрмац
+  - osis: 3John
+    texts:
+      - Иоаннонь колмоце сёрмац
+      - 3 Иоанн.
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Иоанн.
+  - osis: John
+    texts:
+      - Иоанн
+  - osis: Acts
+    texts:
+      - Апостолхнень тевсна
+      - Апост. т.
+  - osis: Rom
+    texts:
+      - Павелонь сёрмац Риму
+      - Рим.
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - васенце сёрмац Коринфу
+      - Кор.
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - омбоце сёрмац Коринфу
+      - Кор.
+  - osis: Col
+    texts:
+      - Павелонь сёрмац Колоссав
+      - Кол.
+  - osis: Gal
+    texts:
+      - Павелонь сёрмац Галатияв
+      - Гал.
+  - osis: Eph
+    texts:
+      - Павелонь сёрмац Ефесу
+      - Еф.
+  - osis: Phil
+    texts:
+      - Павелонь сёрмац Филиппав
+      - Фил.
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - васенце сёрмац Фессалоникав
+      - Фесс.
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - омбоце сёрмац Фессалоникав
+      - Фесс.
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - васенце сёрмац Тимофеенди
+      - Тим.
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - омбоце сёрмац Тимофеенди
+      - Тим.
+  - osis: Titus
+    texts:
+      - Павелонь сёрмац Титонди
+      - Тит.
+  - osis: Phlm
+    texts:
+      - Павелонь сёрмац Филимононди
+      - Филим.
+  - osis: Heb
+    texts:
+      - Еврейхненди сёрмась
+      - Евр.
+  - osis: Jas
+    texts:
+      - Иаковонь сёрмац
+      - Иак.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Пётр.
+  - osis: 1Pet
+    texts:
+      - Пёторонь васенце сёрмац
+  - osis: 2Pet
+    texts:
+      - Пёторонь омбоце сёрмац
+  - osis: Jude
+    texts:
+      - Иудань сёрмац
+      - Иуд.
+translations:
+  - MOK16

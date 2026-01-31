@@ -1,0 +1,25 @@
+books:
+  - osis: Luke
+    texts:
+      - Luke
+  - osis: Acts
+    texts:
+      - Esima
+      - Act
+  - osis: 1Tim
+    texts:
+      - 1 Timote
+      - 1 Tim
+  - osis: 2Tim
+    texts:
+      - 2Timote
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Tite
+  - osis: Jas
+    texts:
+      - Zake
+      - Zak
+translations:
+  - TEG

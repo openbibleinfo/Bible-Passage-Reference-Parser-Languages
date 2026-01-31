@@ -1,0 +1,265 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Ad’u Tinda
+      - Ad Tin
+  - osis: Exod
+    texts:
+      - Buzuk ka Abud’a
+      - Bzuk
+  - osis: Lev
+    texts:
+      - Sunda hi suma hi Levi-nid’a
+      - Sun Lev
+  - osis: Lam
+    texts:
+      - Hor ma tchina
+      - Ho Mt
+  - osis: Rev
+    texts:
+      - Vama ndum mbeina
+      - Vam nd
+  - osis: Num
+    texts:
+      - Ndumba
+      - Ndum
+  - osis: Deut
+    texts:
+      - Gat ta a hat á mbàd’id’a
+      - Gat mb
+  - osis: Josh
+    texts:
+      - Josue
+      - Jos
+  - osis: Judg
+    texts:
+      - Suma ka sariyad’a
+      - Sum Ks
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis: Isa
+    texts:
+      - Isai
+      - Is
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Amuleina
+      - Amul
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Sunda Hamuleinid’a
+      - Sun hAm
+  - osis: Ezra
+    texts:
+      - Esdras
+      - Esd
+  - osis: Neh
+    texts:
+      - Nehemi
+      - Neh
+  - osis: Esth
+    texts:
+      - Ester
+      - Est
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Sawal la giled’a
+      - Saw Gil
+  - osis: Prov
+    texts:
+      - Zla d’a d’ogolâ
+      - Zi D’o
+  - osis: Eccl
+    texts:
+      - Ma tchi wala
+      - Ma Tw
+  - osis: Song
+    texts:
+      - Sawal la kal teglesa
+      - Saw Kt
+  - osis: Jer
+    texts:
+      - Jeremi
+      - Jer
+  - osis: Ezek
+    texts:
+      - Ezekiyel
+      - Ezek
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan
+  - osis: Hos
+    texts:
+      - Oze
+      - Oz
+  - osis: Joel
+    texts:
+      - Joel
+      - Jl
+  - osis: Amos
+    texts:
+      - Amos
+      - Am
+  - osis: Obad
+    texts:
+      - Abdiyas
+      - Abd
+  - osis: Jonah
+    texts:
+      - Jonas
+      - Jon
+  - osis: Mic
+    texts:
+      - Mise
+      - Mis
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sofoni
+      - Sof
+  - osis: Hag
+    texts:
+      - Aze
+      - Az
+  - osis: Zech
+    texts:
+      - Zakari
+      - Zak
+  - osis: Mal
+    texts:
+      - Malatchi
+      - Mal
+  - osis: Matt
+    texts:
+      - Matiye
+      - Mat
+  - osis: Mark
+    texts:
+      - Marik
+      - Mar
+  - osis: Luke
+    texts:
+      - Luc
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jean
+      - Jn
+  - osis: Acts
+    texts:
+      - Sunda hi suma a sunuzinid’a
+      - Sun Ss
+  - osis: Rom
+    texts:
+      - Romê-na
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korente-na
+      - Kor
+  - osis: Col
+    texts:
+      - Kolos-sâ
+      - Kol
+  - osis: Gal
+    texts:
+      - Galat-na
+      - Gal
+  - osis: Eph
+    texts:
+      - Efes-sâ
+      - Efes
+  - osis: Phil
+    texts:
+      - Filip-ma
+      - Filp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tasaloni’â
+      - Tas
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timote
+      - Tim
+  - osis: Titus
+    texts:
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemon
+      - Film
+  - osis: Heb
+    texts:
+      - Hebre-na
+      - Heb
+  - osis: Jas
+    texts:
+      - Jacques
+      - Jac
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pierre
+      - Pier
+  - osis: Jude
+    texts:
+      - Jude
+      - Jd
+translations:
+  - AB

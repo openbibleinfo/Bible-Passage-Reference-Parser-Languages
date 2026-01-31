@@ -1,0 +1,310 @@
+default:
+  1Chr:
+    long: Ա. Մնացորդաց
+    short: Ա. Մնաց.
+  1Cor:
+    long: Առաջին Կորնթացիս
+    short: Ա. Կորթ.
+  1John:
+    long: Առաջին Յովհաննու
+    short: Ա. Յովհ.
+  1Kgs:
+    long: Գ. Թագաւորաց
+    short: Գ. Թագ.
+  1Pet:
+    long: Առաջին Պետրոսի
+    short: Ա. Պետ.
+  1Sam:
+    long: Ա. Թագաւորաց
+    short: Ա. Թագ.
+  1Thess:
+    long: Առաջին Թեսաղոնիկեցիս
+    short: Ա. Թես.
+  1Tim:
+    long: Առաջին Տիմոթէոս
+    short: Ա. Տիմ.
+  2Chr:
+    long: Բ. Մնացորդաց
+    short: Բ. Մնաց.
+  2Cor:
+    long: Երկրորդ Կորնթացիս
+    short: Բ. Կորթ.
+  2John:
+    long: Երկրորդ Յովհաննու
+    short: Բ. Յովհ.
+  2Kgs:
+    long: Դ. Թագաւորաց
+    short: Դ. Թագ.
+  2Pet:
+    long: Երկրորդ Պետրոսի
+    short: Բ. Պետ.
+  2Sam:
+    long: Բ. Թագաւորաց
+    short: Բ. Թագ.
+  2Thess:
+    long: Երկրորդ Թեսաղոնիկեցիս
+    short: Բ. Թես
+  2Tim:
+    long: Երկրորդ Տիմոթէոս
+    short: Բ. Տիմ.
+  3John:
+    long: Երրորդ Յովհաննու
+    short: Գ. Յովհ.
+  Acts:
+    long: Գործք Առաքելոց
+    short: Գործ.
+  Amos:
+    long: Ամովսայ
+  Col:
+    long: Կողոսացիս
+    short: Կղ
+  Dan:
+    long: Դանիէլ
+  Deut:
+    long: Բ. Օրինաց
+    short: Բ. Օր.
+  Eccl:
+    long: Ժողովողի
+  Eph:
+    long: Եփեսացիս
+    short: Եփ
+  Esth:
+    long: Եսթեր
+  Exod:
+    long: Ելից
+    short: Ելից
+  Ezek:
+    long: Եզեկիէլի
+    short: Եզեկ.
+  Ezra:
+    long: Եզրաս
+    short: Եզրաս
+  Gal:
+    long: Գաղատացիս
+    short: Գաղ.
+  Gen:
+    long: Ծննդոց
+    short: Ծննդ.
+  Hab:
+    long: Ամբակումայ
+  Hag:
+    long: Անգեայ
+  Heb:
+    long: Եբրայեցիս
+    short: Եբր
+  Hos:
+    long: Ովսեայ
+  Isa:
+    long: Եսայեայ
+    short: Եսայ.
+  Jas:
+    long: Յակոբու
+    short: Յակ.
+  Jer:
+    long: Երեմեայ
+    short: Երեմ.
+  Job:
+    long: Յոբայ
+  Joel:
+    long: Յովելեայ
+  John:
+    long: Յովհաննոի
+    short: Յովհ.
+  Jonah:
+    long: Յովնանու
+  Josh:
+    long: Յեսուայ
+    short: Յես.
+  Jude:
+    long: Յուդայի
+    short: Յդ
+  Judg:
+    long: Դատաւորաց
+    short: Դատ.
+  Lam:
+    long: Ողբք Երեմեայ
+  Lev:
+    long: Ղեւտացւոց
+    short: Ղեւտ.
+  Luke:
+    long: Ղոիկաս
+    short: Ղուկ.
+  Mal:
+    long: Մաղաքեայ
+  Mark:
+    long: Մարկոս
+    short: Մարկ.
+  Matt:
+    long: Մատթէոս
+    short: Մատթ.
+  Mic:
+    long: Միքիայ
+  Nah:
+    long: Նաւումայ
+  Neh:
+    long: Նէեմեայ
+    short: Նէեմ.
+  Num:
+    long: Թուոց
+    short: Թուոց
+  Obad:
+    long: Աբդիու
+  Phil:
+    long: Փիլիպպեցիս
+    short: Փիլպ.
+  Phlm:
+    long: Փիլիմոն
+    short: Փիլ.
+  Prov:
+    long: Առակաց
+  Ps:
+    long: Սաղմոս
+    short: Սաղմ.
+  Rev:
+    long: Յայտնութիւն Յովհաննու
+    short: Յայտ. Յովհ.
+  Rom:
+    long: Հռովմայեցիս
+    short: Հռ
+  Ruth:
+    long: Հռութ
+  Song:
+    long: Երգ Երգոց
+  Titus:
+    long: Տիտոս
+    short: Տիտ
+  Zech:
+    long: Զաքարեայ
+  Zeph:
+    long: Սոփոնեայ
+translations:
+  wantacoc:
+    1Cor:
+      long: Առաջին Նամակը Կորնթացիներուն
+      short: Ա.Կր
+    1John:
+      long: Յովհաննէսի Առաջին
+      short: Ա.Յհ
+    1Pet:
+      long: Պետրոսի Առաջին
+      short: Ա. Պտ
+    1Thess:
+      long: Առաջին Նամակը Թեսաղոնիկեցիներուն
+      short: Ա.Թս
+    1Tim:
+      long: Առաջին Նամակը Տիմոթէոսին
+      short: Ա.Տմ
+    2Cor:
+      long: Երկրորդ Նամակը Կորնթացիներուն
+      short: Բ.Կր
+    2John:
+      long: Յովհաննէսի Երկրորդ
+      short: Բ.Յհ
+    2Pet:
+      long: Պետրոսի Երկրորդ
+      short: Բ.Պտ
+    2Thess:
+      long: Երկրորդ Նամակը Թեսաղոնիկեցիներուն
+      short: Բ.Թս
+    2Tim:
+      long: Երկրորդ Նամակը Տիմոթէոսին
+      short: Բ.Տմ
+    3John:
+      long: Յովհաննէսի Երրորդ
+      short: Գ.Յհ
+    Acts:
+      long: Առաքեալներու Գործերը
+      short: Գրծ
+    Col:
+      long: Կողոսացիներուն
+    Eph:
+      long: Եփեսացիներուն
+    Gal:
+      long: Գաղատացիներուն
+      short: Գղ
+    Heb:
+      long: Եբրայեցիներուն
+    Jas:
+      long: Յակոբոս
+      short: Յկ
+    John:
+      long: Ըստ Յովհաննէսի
+      short: Յհ
+    Jude:
+      long: Յուդա
+    Luke:
+      long: Ըստ Ղուկասի
+      short: Ղկ
+    Mark:
+      long: Ըստ Մարկոսի
+      short: Մր
+    Matt:
+      long: Ըստ Մատթէոսի
+      short: Մտ
+    Phil:
+      long: Փիլիպպեցիներուն
+      short: Փլպ
+    Phlm:
+      long: Փիլիմոնին
+      short: Փլմ
+    Rev:
+      long: Յայտնութիւն
+      short: Յյտ
+    Rom:
+      long: Հռոմայեցիներուն
+    Titus:
+      long: Տիտոսին
+  wa2017:
+    1John:
+      short: Ա․ Յովհ․
+    1Pet:
+      short: Ա․ Պետ․
+    1Thess:
+      short: Ա․ Թես․
+    1Tim:
+      short: Ա․ Տիմ․
+    2Cor:
+      short: Բ․ Կորթ․
+    2John:
+      short: Բ․ Յովհ․
+    2Pet:
+      short: Բ․ Պետ․
+    2Tim:
+      short: Բ․ Տիմ․
+    3John:
+      short: Գ․ Յովհ․
+    Col:
+      short: Կող․
+    Eph:
+      short: Եփս․
+    Gal:
+      short: Գաղ․
+    Heb:
+      short: Եբր․
+    Jas:
+      short: Յակ․
+    Jude:
+      short: Յուդ․
+    Phil:
+      short: Փիլպ․
+    Phlm:
+      short: Փիլ․
+    Rev:
+      short: Յայտ․ Յովհ․
+    Rom:
+      short: Հռովմ․
+    Titus:
+      short: Տիտ․
+  warmb:
+    Col:
+      short: Կող.
+    Eph:
+      short: Եփս.
+    Heb:
+      short: Եբր.
+    Jude:
+      short: Յուդ.
+    Rom:
+      short: Հռովմ.
+    Titus:
+      short: Տիտ.

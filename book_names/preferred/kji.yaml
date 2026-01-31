@@ -1,0 +1,91 @@
+default:
+  1Cor:
+    long: 1 Koriniti
+    short: 1Ko
+  1John:
+    long: 1 Zone
+    short: 1Zo
+  1Pet:
+    long: 1 Pita
+    short: 1Pi
+  1Thess:
+    long: 1 Tesalonaeka
+    short: 1Te
+  1Tim:
+    long: 1 Timoti
+    short: 1Ti
+  2Cor:
+    long: 2 Koriniti
+    short: 2Ko
+  2John:
+    long: 2 Zone
+    short: 2Zo
+  2Pet:
+    long: 2 Pita
+    short: 2Pi
+  2Thess:
+    long: 2 Tesalonaeka
+    short: 2Te
+  2Tim:
+    long: 2 Timoti
+    short: 2Ti
+  3John:
+    long: 3 Zone
+    short: 3Zo
+  Acts:
+    long: Ira Riva
+    short: Riv
+  Col:
+    long: Kolosi
+    short: Kol
+  Eph:
+    long: Efesasi
+    short: Efe
+  Gal:
+    long: Galesia
+    short: Gal
+  Gen:
+    long: Tatanigaina
+    short: Tat
+  Heb:
+    long: Hiburu
+    short: Hib
+  Jas:
+    long: Zemesi
+    short: Zem
+  John:
+    long: Zone
+    short: Zon
+  Jonah:
+    long: Zona
+    short: Zna
+  Jude:
+    long: Zudi
+    short: Zud
+  Luke:
+    long: Luku
+    short: Luk
+  Mark:
+    long: Maki
+    short: Mak
+  Matt:
+    long: Matiu
+    short: Mat
+  Phil:
+    long: Filipae
+    short: Fil
+  Phlm:
+    long: Filimoni
+    short: Flm
+  Rev:
+    long: Podolo Kave
+    short: Pod
+  Rom:
+    long: Romu
+    short: Rom
+  Ruth:
+    long: Ruti
+    short: Rut
+  Titus:
+    long: Taetusi
+    short: Tae

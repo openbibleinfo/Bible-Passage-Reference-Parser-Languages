@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Enelo
+  - osis: Matt
+    texts:
+      - Matayo
+  - osis: Mark
+    texts:
+      - Malako
+  - osis: Luke
+    texts:
+      - Luka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yoane
+  - osis: Acts
+    texts:
+      - Bikambwa Biniki Bikima
+  - osis: Rom
+    texts:
+      - Ba-Loma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Ba-Kolinto
+  - osis: Col
+    texts:
+      - Ba-Kolosai
+  - osis: Gal
+    texts:
+      - Ba-Ngalatia
+  - osis: Eph
+    texts:
+      - Ba-Efeso
+  - osis: Phil
+    texts:
+      - Ba-Filipoi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Ba-Tesalonike
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoteo
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - Filemona
+  - osis: Heb
+    texts:
+      - Ba-Ebele
+  - osis: Jas
+    texts:
+      - Yakobo
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petelo
+  - osis: Jude
+    texts:
+      - Yuda
+translations:
+  - BBY62

@@ -1,0 +1,117 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Apokalіpsіs
+      - Апокалипсис
+  - osis: Matt
+    texts:
+      - Matfey
+      - Матфей
+  - osis: Mark
+    texts:
+      - Mark
+      - Марк
+  - osis: Luke
+    texts:
+      - Luka
+      - Лука
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - İoanın
+      - Иоанын
+  - osis: John
+    texts:
+      - İoan
+      - Иоан
+  - osis: Acts
+    texts:
+      - Yaptıklar
+      - Йаптыклар
+  - osis: Rom
+    texts:
+      - Romalılara
+      - Ромалылара
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korіnflіlerä
+      - Коринфлилерӓ
+  - osis: Col
+    texts:
+      - Koloslulara
+      - Колослулара
+  - osis: Gal
+    texts:
+      - Galatіyalılara
+      - Галатийалылара
+  - osis: Eph
+    texts:
+      - Efeslіlerä
+      - Ефеслилерӓ
+  - osis: Phil
+    texts:
+      - Fіlіplіlerä
+      - Филиплилерӓ
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Salonіklіlerä
+      - Салониклилерӓ
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tіmofeyä
+      - Тимофейӓ
+  - osis: Titus
+    texts:
+      - Tіta
+      - Тита
+  - osis: Phlm
+    texts:
+      - Fіlіmona
+      - Филимона
+  - osis: Heb
+    texts:
+      - Çıfıtlara
+      - Чыфытлара
+  - osis: Jas
+    texts:
+      - İakovun
+      - Иаковун
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petrіnіn
+      - Петринин
+  - osis: Jude
+    texts:
+      - İudanın
+      - Иуданын
+translations:
+  - GAGNTL
+  - GAGNTC

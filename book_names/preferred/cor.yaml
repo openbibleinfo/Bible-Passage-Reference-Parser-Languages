@@ -1,0 +1,245 @@
+default:
+  1Chr:
+    long: 1 Kroniklys
+    short: 1Kr
+  1Cor:
+    long: 1 Korinthianys
+    short: 1Ko
+  1Esd:
+    long: 1 Esdras
+    short: 1Es
+  1John:
+    long: 1 Yowann
+    short: 1Yow
+  1Kgs:
+    long: 1 Myghternedh
+    short: 1My
+  1Macc:
+    long: 1 Makkabeyon
+    short: 1Ma
+  1Pet:
+    long: 1 Peder
+    short: 1Pe
+  1Sam:
+    long: 1 Samuel
+    short: 1Sa
+  1Thess:
+    long: 1 Thessalonianys
+    short: 1Th
+  1Tim:
+    long: 1 Timothi
+    short: 1Ti
+  2Chr:
+    long: 2 Kroniklys
+    short: 2Kr
+  2Cor:
+    long: 2 Korinthianys
+    short: 2Ko
+  2Esd:
+    long: 2 Esdras
+    short: 2Es
+  2John:
+    long: 2 Yowann
+    short: 2Yow
+  2Kgs:
+    long: 2 Myghternedh
+    short: 2My
+  2Macc:
+    long: 2 Makkabeyon
+    short: 2Ma
+  2Pet:
+    long: 2 Peder
+    short: 2Pe
+  2Sam:
+    long: 2 Samuel
+    short: 2Sa
+  2Thess:
+    long: 2 Thessalonianys
+    short: 2Th
+  2Tim:
+    long: 2 Timothi
+    short: 2Ti
+  3John:
+    long: 3 Yowann
+    short: 3Yow
+  Acts:
+    long: Oberow
+    short: Obe
+  Amos:
+    long: Amos
+    short: Amo
+  Bar:
+    long: Baruk
+    short: Bar
+  Bel:
+    long: Bel ha'n Dhragon
+    short: Bel
+  Col:
+    long: Kolossianys
+    short: Kol
+  Dan:
+    long: Daniel
+    short: Dan
+  Deut:
+    long: Dewteronomi
+    short: Dew
+  Eccl:
+    long: Ekklesiastes
+    short: Ekk
+  Eph:
+    long: Efesianys
+    short: Efe
+  Esth:
+    long: Ester
+    short: Est
+  EsthGr:
+    long: Ester (Greka)
+    short: EsG
+  Exod:
+    long: Eksodus
+    short: Eks
+  Ezek:
+    long: Ezekiel
+    short: Ezk
+  Ezra:
+    long: Ezra
+    short: Ezr
+  Gal:
+    long: Galatianys
+    short: Gal
+  Gen:
+    long: Jenesis
+    short: Jen
+  Hab:
+    long: Habakkuk
+    short: Hab
+  Hag:
+    long: Haggay
+    short: Hag
+  Heb:
+    long: Ebrowyon
+    short: Ebr
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Ysay
+    short: Ysa
+  Jas:
+    long: Jamys
+    short: Jam
+  Jdt:
+    long: Yudith
+    short: Ydt
+  Jer:
+    long: Yeremia
+    short: Yer
+  Job:
+    long: Job
+    short: Job
+  Joel:
+    long: Yoel
+    short: Yoe
+  John:
+    long: Yowann
+    short: Yow
+  Jonah:
+    long: Yona
+    short: Yon
+  Josh:
+    long: Yoshua
+    short: Yos
+  Jude:
+    long: Yud
+    short: Yud
+  Judg:
+    long: Breusysi
+    short: Bre
+  Lam:
+    long: Kynvannow
+    short: Kyn
+  Lev:
+    long: Levitikus
+    short: Lev
+  Luke:
+    long: Luk
+    short: Luk
+  Mal:
+    long: Malaki
+    short: Mal
+  Mark:
+    long: Mark
+    short: Mark
+  Matt:
+    long: Matthew
+    short: Mat
+  Mic:
+    long: Mika
+    short: MiK
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nehemia
+    short: Neh
+  Num:
+    long: Niverow
+    short: Niv
+  Obad:
+    long: Obadia
+    short: Oba
+  Phil:
+    long: Filippianys
+    short: Fil
+  Phlm:
+    long: Filemon
+    short: Fmn
+  PrAzar:
+    long: Kan an Tri Mab
+    short: Ktm
+  PrMan:
+    long: Pysadow Manasse
+    short: Man
+  Prov:
+    long: Lavarow Koth
+    short: Lko
+  Ps:
+    long: Salmow
+    short: Sal
+  Rev:
+    long: Diskwedhyans
+    short: Dis
+  Rom:
+    long: Romanyon
+    short: Rom
+  Ruth:
+    long: Ruth
+    short: Rut
+  Sir:
+    long: Siragh
+    short: Sir
+  Song:
+    long: An Gan a Ganow
+    short: Kan
+  Sus:
+    long: Susanna
+    short: Sus
+  Titus:
+    long: Titus
+    short: Tit
+  Tob:
+    long: Tobit
+    short: Tob
+  Wis:
+    long: Furneth
+    short: Fur
+  Zech:
+    long: Zekaria
+    short: Zek
+  Zeph:
+    long: Sefania
+    short: Sef
+translations:
+  ask:
+    Ps:
+      short: Salm

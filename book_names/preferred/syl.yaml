@@ -1,0 +1,325 @@
+default:
+  1Cor:
+    long: 1-Korintia
+    short: 1Kor
+  1John:
+    long: 1-Hannan
+    short: 1Han
+  1Pet:
+    long: 1-Fitor
+    short: 1Fit
+  1Thess:
+    long: "1-Tishol:"
+    short: 1Tis
+  1Tim:
+    long: 1-Timoti
+    short: 1Tim
+  2Cor:
+    long: 2-Korintia
+    short: 2Kor
+  2John:
+    long: 2-Hannan
+    short: 2Han
+  2Pet:
+    long: 2-Fitor
+    short: 2Fit
+  2Thess:
+    long: "2-Tishol:"
+    short: 2Tis
+  2Tim:
+    long: 2-Timoti
+    short: 2Tim
+  3John:
+    long: 3-Hannan
+    short: 3Han
+  Acts:
+    long: Sahabi Nama
+    short: Sah
+  Col:
+    long: Kolosia
+    short: Kol
+  Deut:
+    long: "Tourat 5: Dusra-Boyani"
+    short: 2Boyani
+  Eph:
+    long: Ifisia
+    short: iFis
+  Exod:
+    long: "Tourat 2: Hizrot"
+    short: Hiz
+  Gal:
+    long: Galatia
+    short: Gal
+  Gen:
+    long: "Tourat 1: Foeda Nama"
+    short: Foeda
+  Heb:
+    long: Ibrani
+    short: Ibr
+  Jas:
+    long: Iakub
+    short: Iak
+  John:
+    long: Hannan
+    short: Hann
+  Jonah:
+    long: "Asmani Kitab: Iunus"
+    short: Iunus
+  Jude:
+    long: Ehuda
+    short: Ehuda
+  Lev:
+    long: "Tourat 3: Lebian"
+    short: Lebi
+  Luke:
+    long: Luk
+    short: Luk
+  Mal:
+    long: "Asmani Kitab: Malaki"
+    short: Mal
+  Mark:
+    long: Markus
+    short: Mark
+  Matt:
+    long: Moti
+    short: Moti
+  Num:
+    long: "Tourat 4: Shumari"
+    short: Shumari
+  Phil:
+    long: Filifia
+    short: Flf
+  Phlm:
+    long: Filimon
+    short: Flm
+  Ps:
+    long: Zobur Shorif
+    short: Zobur
+  Rev:
+    long: Zaira Kalam
+    short: Zair
+  Rom:
+    long: Ruman
+    short: Rum
+  Ruth:
+    long: "Asmani Kitab: Rut"
+    short: Rut
+  Titus:
+    long: Titas
+    short: Tit
+translations:
+  sylb:
+    1Cor:
+      long: ১-করিন্থিয়া
+      short: ১কর
+    1John:
+      long: ১-হান্নান
+      short: ১হান্ন
+    1Pet:
+      long: ১-পিতর
+      short: ১পিত
+    1Thess:
+      long: "১-থিষল:"
+      short: ১থিষ
+    1Tim:
+      long: ১-তিমথি
+      short: ১তিম
+    2Cor:
+      long: ২-করিন্থিয়া
+      short: ২কর
+    2John:
+      long: ২-হান্নান
+      short: ২হান্ন
+    2Pet:
+      long: ২-পিতর
+      short: ২পিত
+    2Thess:
+      long: "২-থিষল:"
+      short: ২থিষ
+    2Tim:
+      long: ২-তিমথি
+      short: ২তিম
+    3John:
+      long: ৩-হান্নান
+      short: ৩হান্ন
+    Acts:
+      long: সাহাবি নামা
+      short: সাহাবি
+    Col:
+      long: কলোছিয়া
+      short: কলছ
+    Deut:
+      long: "তৌরাত ৫: দুছরা-বয়ানি"
+      short: ২বয়ানি
+    Eph:
+      long: ইফিছিয়া
+      short: ইফিছ
+    Exod:
+      long: "তৌরাত ২: হিজরত"
+      short: হিজ
+    Gal:
+      long: গালাতিয়া
+      short: গালা
+    Gen:
+      long: "তৌরাত ১: পয়দা নামা"
+      short: পয়দা
+    Heb:
+      long: ইবরানি
+      short: ইবর
+    Jas:
+      long: ইয়াকুব
+      short: ইয়াকুব
+    John:
+      long: হান্নান
+      short: হান্ন
+    Jonah:
+      long: "আছমানি কিতাব: ইউনুছ"
+      short: ইউনুছ
+    Jude:
+      long: এহুদা
+      short: এহুদা
+    Lev:
+      long: "তৌরাত ৩: লেবিয়ান"
+      short: লেবি
+    Luke:
+      long: লুক
+      short: লুক
+    Mal:
+      long: "আছমানি কিতাব: মালাখি"
+      short: মালাখি
+    Mark:
+      long: মার্কুছ
+      short: মার্ক
+    Matt:
+      long: মথি
+      short: মথি
+    Num:
+      long: "তৌরাত ৪: শুমারি"
+      short: শুমারি
+    Phil:
+      long: ফিলিপিয়া
+      short: ফলপ
+    Phlm:
+      long: ফিলিমন
+      short: ফলম
+    Ps:
+      long: জবুর শরিফ
+      short: জবুর
+    Rev:
+      long: জাইরা কালাম
+      short: জাইরা
+    Rom:
+      long: রোমান
+      short: রোম
+    Ruth:
+      long: "আছমানি কিতাব: রুত"
+      short: রুত
+    Titus:
+      long: তীতাছ
+      short: তীত
+  syln:
+    1Cor:
+      long: ১-ꠇꠞꠤꠘ꠆ꠔꠤꠀ
+      short: ১ꠇꠞ
+    1John:
+      long: ১-ꠢꠣꠘ꠆ꠘꠣꠘ
+      short: ১ꠢꠣꠘ꠆ꠘ
+    1Pet:
+      long: ১-ꠙꠤꠔꠞ
+      short: ১ꠙꠤꠔ
+    1Thess:
+      long: ১-ꠕꠤꠡꠟꠘꠤꠇꠤꠀ
+      short: ১ꠕꠤꠡ
+    1Tim:
+      long: ১-ꠔꠤꠝꠕꠤ
+      short: ১ꠔꠤꠝ
+    2Cor:
+      long: ২-ꠇꠞꠤꠘ꠆ꠔꠤꠀ
+      short: ২ꠇꠞ
+    2John:
+      long: ২-ꠢꠣꠘ꠆ꠘꠣꠘ
+      short: ২ꠢꠣꠘ꠆ꠘ
+    2Pet:
+      long: ২-ꠙꠤꠔꠞ
+      short: ২ꠙꠤꠔ
+    2Thess:
+      long: ২-ꠕꠤꠡꠟꠘꠤꠇꠤꠀ
+      short: ২ꠕꠤꠡ
+    2Tim:
+      long: ২-ꠔꠤꠝꠕꠤ
+      short: ২ꠔꠤꠝ
+    3John:
+      long: ৩-ꠢꠣꠘ꠆ꠘꠣꠘ
+      short: ৩ꠢꠣꠘ꠆ꠘ
+    Acts:
+      long: ꠍꠣꠢꠣꠛꠤ ꠘꠣꠝꠣ
+      short: ꠍꠣꠢ
+    Col:
+      long: ꠇꠟ꠆ꠟꠍꠤꠀ
+      short: ꠇꠟ꠆ꠟꠍ
+    Deut:
+      long: "ꠔꠃꠞꠣꠔ ৫: ꠖꠥꠍꠞꠣ-ꠛꠄꠀꠘꠤ"
+      short: ২ꠛꠄꠀꠘꠤ
+    Eph:
+      long: ꠁꠚꠤꠍꠤꠀ
+      short: ꠁꠚꠤꠍ
+    Exod:
+      long: "ꠔꠃꠞꠣꠔ ২: ꠢꠤꠎꠞꠔ"
+      short: ꠢꠤꠎ
+    Gal:
+      long: ꠉꠣꠟꠣꠔꠤꠀ
+      short: ꠉꠣꠟꠣ
+    Gen:
+      long: "ꠔꠃꠞꠣꠔ ১: ꠙꠄꠖꠣ ꠘꠣꠝꠣ"
+      short: ꠙꠄꠖꠣ
+    Heb:
+      long: ꠁꠛꠞꠣꠘꠤ
+      short: ꠁꠛꠞ
+    Jas:
+      long: ꠁꠀꠇꠥꠛ
+      short: ꠁꠀꠇ
+    John:
+      long: ꠢꠣꠘ꠆ꠘꠣꠘ
+      short: ꠢꠣꠘ꠆ꠘ
+    Jonah:
+      long: "ꠀꠍꠝꠣꠘꠤ ꠇꠤꠔꠣꠛ: ꠁꠃꠘꠥꠍ"
+      short: ꠁꠃꠘꠥꠍ
+    Jude:
+      long: ꠄꠢꠥꠖꠣ
+      short: ꠄꠢꠥꠖ
+    Lev:
+      long: "ꠔꠃꠞꠣꠔ ৩: ꠟꠦꠛꠤꠀꠘ"
+      short: ꠟꠦꠛꠤ
+    Luke:
+      long: ꠟꠥꠇ
+      short: ꠟꠥꠇ
+    Mark:
+      long: ꠝꠣꠞ꠆ꠇꠥꠍ
+      short: ꠝꠣꠞ꠆ꠇ
+    Matt:
+      long: ꠝꠕꠤ
+      short: ꠝꠕꠤ
+    Num:
+      long: "ꠔꠃꠞꠣꠔ ৪: ꠡꠥꠝꠣꠞꠤ"
+      short: ꠡꠥꠝꠣꠞꠤ
+    Phil:
+      long: ꠚꠤꠟꠤꠙꠤꠀ
+      short: ꠚꠟꠙ
+    Phlm:
+      long: ꠚꠤꠟꠤꠝꠘ
+      short: ꠚꠟꠝ
+    Ps:
+      long: ꠎꠛꠥꠞ ꠡꠞꠤꠚ
+      short: ꠎꠛꠥꠞ
+    Rev:
+      long: ꠎꠣꠁꠞꠣ ꠇꠣꠟꠣꠝ
+      short: ꠎꠣꠁꠞ
+    Rom:
+      long: ꠞꠥꠝꠣꠘ
+      short: ꠞꠥꠝ
+    Ruth:
+      long: "ꠀꠍꠝꠣꠘꠤ ꠇꠤꠔꠣꠛ: ꠞꠥꠔ"
+      short: ꠞꠥꠔ
+    Titus:
+      long: ꠔꠤꠔꠣꠍ
+      short: ꠔꠤꠔ

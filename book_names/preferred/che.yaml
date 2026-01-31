@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: 1 Шерашкахь
+    short: 1 Ше
+  1Cor:
+    long: 1 Коринтхошка
+    short: 1 Ко
+  1John:
+    long: 1 Яхьъяс
+    short: 1 Я
+  1Kgs:
+    long: Сулим
+    short: Сул
+  1Pet:
+    long: 1 Кипин
+    short: 1 Ки
+  1Sam:
+    long: Шамъал
+    short: Шам
+  1Thess:
+    long: 1 Тассалникахошка
+    short: 1 Та
+  1Tim:
+    long: 1 Тимапига
+    short: 1 Ти
+  2Chr:
+    long: 2 Шерашкахь
+    short: 2 Ше
+  2Cor:
+    long: 2 Коринтхошка
+    short: 2 Ко
+  2John:
+    long: 2 Яхьъяс
+    short: 2 Я
+  2Kgs:
+    long: Тӏаьххьарнаш
+    short: Тӏаьххь
+  2Pet:
+    long: 2 Кипин
+    short: 2 Ки
+  2Sam:
+    long: Дауд
+    short: Дад
+  2Thess:
+    long: 2 Тассалникахошка
+    short: 2 Та
+  2Tim:
+    long: 2 Тимапига
+    short: 2 Ти
+  3John:
+    long: 3 Яхьъяс
+    short: 3 Я
+  Acts:
+    long: Векалийн
+    short: Век
+  Amos:
+    long: Ӏамос
+    short: Ӏамос
+  Col:
+    long: Ковлусихошка
+    short: Ков
+  Dan:
+    long: Даниал
+    short: Дан
+  Deut:
+    long: Карлабаьккхинарг
+    short: Кар
+  Eccl:
+    long: Устаз
+    short: Уст
+  Eph:
+    long: Эпасхошка
+    short: Эпа
+  Esth:
+    long: Эсират
+    short: Эси
+  Exod:
+    long: Арадаккхар
+    short: Ара
+  Ezek:
+    long: Яхьазкхиал
+    short: Яхь
+  Ezra:
+    long: Ӏезар
+    short: Ӏезар
+  Gal:
+    long: Галатахошка
+    short: Гал
+  Gen:
+    long: Доладалар
+    short: Дол
+  Hab:
+    long: Хьабукъа
+    short: Хьаб
+  Hag:
+    long: Хьагай
+    short: Хьаг
+  Heb:
+    long: Ӏебархошка
+    short: Ӏеб
+  Hos:
+    long: Хӏушаӏ
+    short: Хӏуш
+  Isa:
+    long: ЕшаӀ-ЯхӀу
+    short: Еш
+  Jas:
+    long: Якъуба
+    short: Якъ
+  Jer:
+    long: Ярми-ЯхӀу
+    short: Ярм
+  Job:
+    long: Аюб
+    short: Аюб
+  Joel:
+    long: Юал
+    short: Юал
+  John:
+    long: Яхьъя
+    short: Яй
+  Jonah:
+    long: Юнус
+    short: Юн
+  Josh:
+    long: ЮшаӀ
+    short: Юш
+  Jude:
+    long: ЯхӀуда
+    short: ЯхӀ
+  Judg:
+    long: Куьйгалхой
+    short: Куьйг
+  Lam:
+    long: Тийжамаш
+    short: Тийж
+  Lev:
+    long: Ӏамалъяр
+    short: Ӏам
+  Luke:
+    long: Лака
+    short: Лак
+  Mal:
+    long: Малъаки
+    short: Мал
+  Mark:
+    long: Марк
+    short: Мрк
+  Matt:
+    long: Маттай
+    short: Мат
+  Mic:
+    long: Мика-ЯхӀу
+    short: Мик
+  Nah:
+    long: Нахьум
+    short: Нахьум
+  Neh:
+    long: Нахьми-ЯхӀу
+    short: Нахь
+  Num:
+    long: Лелар
+    short: Лел
+  Obad:
+    long: Ӏабди-ЯхӀу
+    short: Ӏаб
+  Phil:
+    long: Пилапхошка
+    short: Пил
+  Phlm:
+    long: Пхьалмане
+    short: Пхьал
+  Prov:
+    long: Кицанаш
+    short: Киц
+  Ps:
+    long: Забур
+    short: Заб
+  Rev:
+    long: Довзийтинарг
+    short: Довз
+  Rom:
+    long: Римхошка
+    short: Рим
+  Ruth:
+    long: Рути
+    short: Рут
+  Song:
+    long: Илли
+    short: Илли
+  Titus:
+    long: Тите
+    short: Тит
+  Zech:
+    long: Закри-ЯхӀу
+    short: Зак
+  Zeph:
+    long: Цапни-ЯхӀу
+    short: Цап

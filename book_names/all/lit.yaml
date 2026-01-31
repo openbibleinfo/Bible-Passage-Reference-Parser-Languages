@@ -1,0 +1,625 @@
+- osis: Gen
+  texts:
+    - Pradžios knyga
+    - Pradžios
+    - Pr
+- osis: Exod
+  texts:
+    - Išėjimo knyga
+    - Išėjimo
+    - Iš
+- osis: Lev
+  texts:
+    - Kunigų knyga
+    - Kunigų
+    - Kun
+- osis: Num
+  texts:
+    - Skaičių knyga
+    - Skaičių
+    - Sk
+- osis: Sir
+  texts:
+    - Siracido
+    - Sir
+- osis: Wis
+  texts:
+    - Išminties
+    - Išm
+- osis: Lam
+  texts:
+    - Raudų knyga
+    - Raudų
+    - Rd
+- osis: Rev
+  texts:
+    - Apreiškimas Jonui
+    - Apreiškimas
+    - Apr
+- osis: Deut
+  texts:
+    - Pakartoto įstatymo knyga
+    - Pakartoto Įstatymo
+    - Įst
+- osis: Josh
+  texts:
+    - Jozuės knyga
+    - Jozuės
+    - Joz
+- osis: Judg
+  texts:
+    - Teisėjų knyga
+    - Teisėjų
+    - Ts
+- osis: Ruth
+  texts:
+    - Rūtos knyga
+    - Rūtos
+    - Rūt
+- osis: Isa
+  texts:
+    - Izaijo pranašystė
+    - Izaijo
+    - Iz
+- osis: 1Sam
+  texts:
+    - 1 Samuelio knyga
+    - 1 Samuelio
+    - 1 Sam
+    - 1. Samuelio knyga
+    - 1. Samuelio
+    - 1. Sam
+    - Pirmasis Samuelio knyga
+    - Pirmasis Samuelio
+    - Pirmasis Sam
+    - Pirmasis. Samuelio knyga
+    - Pirmasis. Samuelio
+    - Pirmasis. Sam
+    - Pirmoji Samuelio knyga
+    - Pirmoji Samuelio
+    - Pirmoji Sam
+    - Pirmoji. Samuelio knyga
+    - Pirmoji. Samuelio
+    - Pirmoji. Sam
+- osis: 2Sam
+  texts:
+    - 2 Samuelio knyga
+    - 2 Samuelio
+    - 2 Sam
+    - 2. Samuelio knyga
+    - 2. Samuelio
+    - 2. Sam
+    - Antrasis Samuelio knyga
+    - Antrasis Samuelio
+    - Antrasis Sam
+    - Antrasis. Samuelio knyga
+    - Antrasis. Samuelio
+    - Antrasis. Sam
+    - Antroji Samuelio knyga
+    - Antroji Samuelio
+    - Antroji Sam
+    - Antroji. Samuelio knyga
+    - Antroji. Samuelio
+    - Antroji. Sam
+- osis: 1Kgs
+  texts:
+    - 1 Karalių knyga
+    - 1 Karalių
+    - 1 Kar
+    - 1. Karalių knyga
+    - 1. Karalių
+    - 1. Kar
+    - Pirmasis Karalių knyga
+    - Pirmasis Karalių
+    - Pirmasis Kar
+    - Pirmasis. Karalių knyga
+    - Pirmasis. Karalių
+    - Pirmasis. Kar
+    - Pirmoji Karalių knyga
+    - Pirmoji Karalių
+    - Pirmoji Kar
+    - Pirmoji. Karalių knyga
+    - Pirmoji. Karalių
+    - Pirmoji. Kar
+- osis: 2Kgs
+  texts:
+    - 2 Karalių knyga
+    - 2 Karalių
+    - 2 Kar
+    - 2. Karalių knyga
+    - 2. Karalių
+    - 2. Kar
+    - Antrasis Karalių knyga
+    - Antrasis Karalių
+    - Antrasis Kar
+    - Antrasis. Karalių knyga
+    - Antrasis. Karalių
+    - Antrasis. Kar
+    - Antroji Karalių knyga
+    - Antroji Karalių
+    - Antroji Kar
+    - Antroji. Karalių knyga
+    - Antroji. Karalių
+    - Antroji. Kar
+- osis: 1Chr
+  texts:
+    - 1 Kronikų knyga
+    - 1 Metraščių
+    - 1 Met
+    - 1. Kronikų knyga
+    - 1. Metraščių
+    - 1. Met
+    - Pirmasis Kronikų knyga
+    - Pirmasis Metraščių
+    - Pirmasis Met
+    - Pirmasis. Kronikų knyga
+    - Pirmasis. Metraščių
+    - Pirmasis. Met
+    - Pirmoji Kronikų knyga
+    - Pirmoji Metraščių
+    - Pirmoji Met
+    - Pirmoji. Kronikų knyga
+    - Pirmoji. Metraščių
+    - Pirmoji. Met
+- osis: 2Chr
+  texts:
+    - 2 Kronikų knyga
+    - 2 Metraščių
+    - 2 Met
+    - 2. Kronikų knyga
+    - 2. Metraščių
+    - 2. Met
+    - Antrasis Kronikų knyga
+    - Antrasis Metraščių
+    - Antrasis Met
+    - Antrasis. Kronikų knyga
+    - Antrasis. Metraščių
+    - Antrasis. Met
+    - Antroji Kronikų knyga
+    - Antroji Metraščių
+    - Antroji Met
+    - Antroji. Kronikų knyga
+    - Antroji. Metraščių
+    - Antroji. Met
+- osis: Ezra
+  texts:
+    - Ezros knyga
+    - Ezros
+    - Ezr
+- osis: Neh
+  texts:
+    - Nehemijo knyga
+    - Nehemijo
+    - Neh
+- osis: Job
+  texts:
+    - Jobo knyga
+    - Jobo
+    - Job
+- osis: Ps
+  texts:
+    - Psalmių knyga
+    - Psalmynas
+    - Ps
+- osis: Prov
+  texts:
+    - Patarlių knyga
+    - Patarlės
+    - Pat
+- osis: Eccl
+  texts:
+    - Ekleziasto knyga
+    - Mokytojo
+    - Mok
+- osis: Song
+  texts:
+    - Giesmių giesmės
+    - Giesmių giesmė
+    - Gg
+- osis: Jer
+  texts:
+    - Jeremijo pranašystė
+    - Jeremijo
+    - Jer
+- osis: Ezek
+  texts:
+    - Ezechielio pranašystė
+    - Ezechielio
+    - Ez
+- osis: Hos
+  texts:
+    - Ozėjo pranašystė
+    - Ozėjo
+    - Oz
+- osis: Joel
+  texts:
+    - Joelio pranašystė
+    - Joelio
+    - Jl
+- osis: Amos
+  texts:
+    - Amoso pranašystė
+    - Amoso
+    - Am
+- osis: Obad
+  texts:
+    - Abdijo pranašystė
+    - Abdijo
+    - Abd
+- osis: Jonah
+  texts:
+    - Jonos pranašystė
+    - Jonos
+    - Jon
+- osis: Mic
+  texts:
+    - Michėjo pranašystė
+    - Michėjo
+    - Mch
+- osis: Nah
+  texts:
+    - Nahumo pranašystė
+    - Nahumo
+    - Nah
+- osis: Hab
+  texts:
+    - Habakuko pranašystė
+    - Habakuko
+    - Hab
+- osis: Zeph
+  texts:
+    - Sofonijo pranašystė
+    - Sofonijo
+    - Sof
+- osis: Hag
+  texts:
+    - Agėjo pranašystė
+    - Agėjo
+    - Ag
+- osis: Zech
+  texts:
+    - Zacharijo pranašystė
+    - Zacharijo
+    - Zch
+- osis: Mal
+  texts:
+    - Malachijo pranašystė
+    - Malachijo
+    - Mal
+- osis: Matt
+  texts:
+    - Evangelija pagal Matą
+    - Mato
+    - Mt
+- osis: Mark
+  texts:
+    - Evangelija pagal Morkų
+    - Morkaus
+    - Mk
+- osis: Luke
+  texts:
+    - Evangelija pagal Luką
+    - Luko
+    - Lk
+- osis: 3John
+  texts:
+    - Trečiasis Jono laiškas
+    - 3 Jono
+    - 3 Jn
+- osis: 1John
+  texts:
+    - 1 Jono laiškas
+    - 1 Jono
+    - 1 Jn
+    - 1. Jono laiškas
+    - 1. Jono
+    - 1. Jn
+    - Pirmasis Jono laiškas
+    - Pirmasis Jono
+    - Pirmasis Jn
+    - Pirmasis. Jono laiškas
+    - Pirmasis. Jono
+    - Pirmasis. Jn
+    - Pirmoji Jono laiškas
+    - Pirmoji Jono
+    - Pirmoji Jn
+    - Pirmoji. Jono laiškas
+    - Pirmoji. Jono
+    - Pirmoji. Jn
+- osis: 2John
+  texts:
+    - 2 Jono laiškas
+    - 2 Jono
+    - 2 Jn
+    - 2. Jono laiškas
+    - 2. Jono
+    - 2. Jn
+    - Antrasis Jono laiškas
+    - Antrasis Jono
+    - Antrasis Jn
+    - Antrasis. Jono laiškas
+    - Antrasis. Jono
+    - Antrasis. Jn
+    - Antroji Jono laiškas
+    - Antroji Jono
+    - Antroji Jn
+    - Antroji. Jono laiškas
+    - Antroji. Jono
+    - Antroji. Jn
+- osis: John
+  texts:
+    - Evangelija pagal Joną
+    - Jono
+    - Jn
+- osis: Acts
+  texts:
+    - Apaštalų darbai
+    - Apd
+- osis: Rom
+  texts:
+    - Laiškas Romiečiams
+    - Romiečiams
+    - Rom
+- osis: 1Cor
+  texts:
+    - 1 laiškas Korintiečiams
+    - 1 Korintiečiams
+    - 1 Kor
+    - 1. laiškas Korintiečiams
+    - 1. Korintiečiams
+    - 1. Kor
+    - Pirmasis laiškas Korintiečiams
+    - Pirmasis Korintiečiams
+    - Pirmasis Kor
+    - Pirmasis. laiškas Korintiečiams
+    - Pirmasis. Korintiečiams
+    - Pirmasis. Kor
+    - Pirmoji laiškas Korintiečiams
+    - Pirmoji Korintiečiams
+    - Pirmoji Kor
+    - Pirmoji. laiškas Korintiečiams
+    - Pirmoji. Korintiečiams
+    - Pirmoji. Kor
+- osis: 2Cor
+  texts:
+    - 2 laiškas Korintiečiams
+    - 2 Korintiečiams
+    - 2 Kor
+    - 2. laiškas Korintiečiams
+    - 2. Korintiečiams
+    - 2. Kor
+    - Antrasis laiškas Korintiečiams
+    - Antrasis Korintiečiams
+    - Antrasis Kor
+    - Antrasis. laiškas Korintiečiams
+    - Antrasis. Korintiečiams
+    - Antrasis. Kor
+    - Antroji laiškas Korintiečiams
+    - Antroji Korintiečiams
+    - Antroji Kor
+    - Antroji. laiškas Korintiečiams
+    - Antroji. Korintiečiams
+    - Antroji. Kor
+- osis: Col
+  texts:
+    - Laiškas Kolosiečiams
+    - Kolosiečiams
+    - Kol
+- osis: Gal
+  texts:
+    - Laiškas Galatams
+    - Galatams
+    - Gal
+- osis: Eph
+  texts:
+    - Laiškas Efeziečiams
+    - Efeziečiams
+    - Ef
+- osis: Phil
+  texts:
+    - Laiškas Filipiečiams
+    - Filipiečiams
+    - Fil
+- osis: 1Thess
+  texts:
+    - 1 laiškas Tesalonikiečiams
+    - 1 Tesalonikiečiams
+    - 1 Tes
+    - 1. laiškas Tesalonikiečiams
+    - 1. Tesalonikiečiams
+    - 1. Tes
+    - Pirmasis laiškas Tesalonikiečiams
+    - Pirmasis Tesalonikiečiams
+    - Pirmasis Tes
+    - Pirmasis. laiškas Tesalonikiečiams
+    - Pirmasis. Tesalonikiečiams
+    - Pirmasis. Tes
+    - Pirmoji laiškas Tesalonikiečiams
+    - Pirmoji Tesalonikiečiams
+    - Pirmoji Tes
+    - Pirmoji. laiškas Tesalonikiečiams
+    - Pirmoji. Tesalonikiečiams
+    - Pirmoji. Tes
+- osis: 2Thess
+  texts:
+    - 2 laiškas Tesalonikiečiams
+    - 2 Tesalonikiečiams
+    - 2 Tes
+    - 2. laiškas Tesalonikiečiams
+    - 2. Tesalonikiečiams
+    - 2. Tes
+    - Antrasis laiškas Tesalonikiečiams
+    - Antrasis Tesalonikiečiams
+    - Antrasis Tes
+    - Antrasis. laiškas Tesalonikiečiams
+    - Antrasis. Tesalonikiečiams
+    - Antrasis. Tes
+    - Antroji laiškas Tesalonikiečiams
+    - Antroji Tesalonikiečiams
+    - Antroji Tes
+    - Antroji. laiškas Tesalonikiečiams
+    - Antroji. Tesalonikiečiams
+    - Antroji. Tes
+- osis: 1Tim
+  texts:
+    - 1 laiškas Timotiejui
+    - 1 Timotiejui
+    - 1 Tim
+    - 1. laiškas Timotiejui
+    - 1. Timotiejui
+    - 1. Tim
+    - Pirmasis laiškas Timotiejui
+    - Pirmasis Timotiejui
+    - Pirmasis Tim
+    - Pirmasis. laiškas Timotiejui
+    - Pirmasis. Timotiejui
+    - Pirmasis. Tim
+    - Pirmoji laiškas Timotiejui
+    - Pirmoji Timotiejui
+    - Pirmoji Tim
+    - Pirmoji. laiškas Timotiejui
+    - Pirmoji. Timotiejui
+    - Pirmoji. Tim
+- osis: 2Tim
+  texts:
+    - 2 laiškas Timotiejui
+    - 2 Timotiejui
+    - 2 Tim
+    - 2. laiškas Timotiejui
+    - 2. Timotiejui
+    - 2. Tim
+    - Antrasis laiškas Timotiejui
+    - Antrasis Timotiejui
+    - Antrasis Tim
+    - Antrasis. laiškas Timotiejui
+    - Antrasis. Timotiejui
+    - Antrasis. Tim
+    - Antroji laiškas Timotiejui
+    - Antroji Timotiejui
+    - Antroji Tim
+    - Antroji. laiškas Timotiejui
+    - Antroji. Timotiejui
+    - Antroji. Tim
+- osis: Titus
+  texts:
+    - Laiškas Titui
+    - Titui
+    - Tit
+- osis: Phlm
+  texts:
+    - Laiškas Filemonui
+    - Filemonui
+    - Fm
+- osis: Heb
+  texts:
+    - Laiškas Hebrajams
+    - Hebrajams
+    - Hbr
+- osis: Jas
+  texts:
+    - Jokūbo laiškas
+    - Jokūbo
+    - Jok
+- osis: 1Pet
+  texts:
+    - 1 Petro laiškas
+    - 1 Petro
+    - 1 Pt
+    - 1. Petro laiškas
+    - 1. Petro
+    - 1. Pt
+    - Pirmasis Petro laiškas
+    - Pirmasis Petro
+    - Pirmasis Pt
+    - Pirmasis. Petro laiškas
+    - Pirmasis. Petro
+    - Pirmasis. Pt
+    - Pirmoji Petro laiškas
+    - Pirmoji Petro
+    - Pirmoji Pt
+    - Pirmoji. Petro laiškas
+    - Pirmoji. Petro
+    - Pirmoji. Pt
+- osis: 2Pet
+  texts:
+    - 2 Petro laiškas
+    - 2 Petro
+    - 2 Pt
+    - 2. Petro laiškas
+    - 2. Petro
+    - 2. Pt
+    - Antrasis Petro laiškas
+    - Antrasis Petro
+    - Antrasis Pt
+    - Antrasis. Petro laiškas
+    - Antrasis. Petro
+    - Antrasis. Pt
+    - Antroji Petro laiškas
+    - Antroji Petro
+    - Antroji Pt
+    - Antroji. Petro laiškas
+    - Antroji. Petro
+    - Antroji. Pt
+- osis: Jude
+  texts:
+    - Judo laiškas
+    - Judo
+    - Jud
+- osis: Tob
+  texts:
+    - Tobito
+    - Tob
+- osis: Jdt
+  texts:
+    - Juditos
+    - Jdt
+- osis: Bar
+  texts:
+    - Barucho
+    - Bar
+- osis: 1Macc
+  texts:
+    - 1 Makabiejų
+    - 1 Mak
+    - 1. Makabiejų
+    - 1. Mak
+    - Pirmasis Makabiejų
+    - Pirmasis Mak
+    - Pirmasis. Makabiejų
+    - Pirmasis. Mak
+    - Pirmoji Makabiejų
+    - Pirmoji Mak
+    - Pirmoji. Makabiejų
+    - Pirmoji. Mak
+- osis: 2Macc
+  texts:
+    - 2 Makabiejų
+    - 2 Mak
+    - 2. Makabiejų
+    - 2. Mak
+    - Antrasis Makabiejų
+    - Antrasis Mak
+    - Antrasis. Makabiejų
+    - Antrasis. Mak
+    - Antroji Makabiejų
+    - Antroji Mak
+    - Antroji. Makabiejų
+    - Antroji. Mak
+- osis: DanGr
+  texts:
+    - Danieliaus (graikiškieji)
+    - Dan(g)
+- osis: Dan
+  texts:
+    - Danieliaus pranašystė
+    - Danieliaus
+    - Dan
+- osis: EsthGr
+  texts:
+    - Esteros (graikiškoji)
+    - Est(g)
+- osis: Esth
+  texts:
+    - Esteros knyga
+    - Esteros
+    - Est

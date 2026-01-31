@@ -1,0 +1,100 @@
+default:
+  1Cor:
+    long: 1 Korin
+    short: 1Kor
+  1John:
+    long: 1 Yohanus
+    short: 1Yo
+  1Pet:
+    long: 1 Petrus
+    short: 1Pe
+  1Sam:
+    long: 1 Samuel
+    short: 1Sam
+  1Thess:
+    long: 1 Tesalonika
+    short: 1Tes
+  1Tim:
+    long: 1 Timoteus
+    short: 1Tim
+  2Cor:
+    long: 2 Korin
+    short: 2Kor
+  2John:
+    long: 2 Yohanus
+    short: 2Yo
+  2Pet:
+    long: 2 Petrus
+    short: 2Pe
+  2Sam:
+    long: 2 Samuel
+    short: 2Sam
+  2Thess:
+    long: 2 Tesalonika
+    short: 2Tes
+  2Tim:
+    long: 2 Timoteus
+    short: 2Tim
+  3John:
+    long: 3 Yohanus
+    short: 3Yo
+  Acts:
+    long: Aposel
+    short: Apo
+  Col:
+    long: Kolosi
+    short: Kol
+  Eph:
+    long: Efesus
+    short: Ef
+  Gal:
+    long: Galesia
+    short: Gal
+  Gen:
+    long: Mulum Pasa
+    short: Mul
+  Heb:
+    long: Hibru
+    short: Hib
+  Jas:
+    long: Yakobus
+    short: Yak
+  John:
+    long: Yohanus
+    short: Yoh
+  Jonah:
+    long: Yona
+    short: Yona
+  Jude:
+    long: Yudas
+    short: Yud
+  Luke:
+    long: Lukas
+    short: Luk
+  Mark:
+    long: Markus
+    short: Mak
+  Matt:
+    long: Mateus
+    short: Mat
+  Phil:
+    long: Filipi
+    short: Fil
+  Phlm:
+    long: Filemon
+    short: Flm
+  Ps:
+    long: Mune
+    short: Mun
+  Rev:
+    long: Dir pasa
+    short: Dir
+  Rom:
+    long: Rom
+    short: Rom
+  Ruth:
+    long: Rut
+    short: Rut
+  Titus:
+    long: Titus
+    short: Tit

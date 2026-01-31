@@ -1,0 +1,237 @@
+books:
+  - osis: Gen
+    texts:
+      - Kîam
+  - osis: Exod
+    texts:
+      - Ntha
+  - osis: Bel
+    texts:
+      - Beli
+  - osis: Lev
+    texts:
+      - Ala
+  - osis: Num
+    texts:
+      - Nda
+  - osis: Sir
+    texts:
+      - Sir
+  - osis: Wis
+    texts:
+      - Ûûgî
+  - osis: Lam
+    texts:
+      - Maca
+  - osis: EpJer
+    texts:
+      - Maarûa
+  - osis: Rev
+    texts:
+      - Kûguû
+  - osis: Deut
+    texts:
+      - Gûco
+  - osis: Josh
+    texts:
+      - Josh
+  - osis: Judg
+    texts:
+      - Atir
+  - osis: Ruth
+    texts:
+      - Ruthu
+  - osis: Isa
+    texts:
+      - Isa
+  - osis: 1Sam
+    texts:
+      - 1Sam
+  - osis: 2Sam
+    texts:
+      - 2Sam
+  - osis: 1Kgs
+    texts:
+      - 1Atha
+  - osis: 2Kgs
+    texts:
+      - 2Atha
+  - osis: 1Chr
+    texts:
+      - 1Maû
+  - osis: 2Chr
+    texts:
+      - 2Maû
+  - osis: Ezra
+    texts:
+      - Ezira
+  - osis: Neh
+    texts:
+      - Neh
+  - osis: Job
+    texts:
+      - Ayu
+  - osis: Ps
+    texts:
+      - Tha
+  - osis: Prov
+    texts:
+      - Nthi
+  - osis: Eccl
+    texts:
+      - Mûv
+  - osis: Song
+    texts:
+      - Rwî
+  - osis: Jer
+    texts:
+      - Jer
+  - osis: Ezek
+    texts:
+      - Ezek
+  - osis: Dan
+    texts:
+      - Dan
+  - osis: Hos
+    texts:
+      - Hos
+  - osis: Joel
+    texts:
+      - Joe
+  - osis: Amos
+    texts:
+      - Amo
+  - osis: Obad
+    texts:
+      - Oba
+  - osis: Jonah
+    texts:
+      - Jona
+  - osis: Mic
+    texts:
+      - Mika
+  - osis: Nah
+    texts:
+      - Nah
+  - osis: Hab
+    texts:
+      - Hab
+  - osis: Zeph
+    texts:
+      - Zef
+  - osis: Hag
+    texts:
+      - Hag
+  - osis: Zech
+    texts:
+      - Zak
+  - osis: Mal
+    texts:
+      - Mal
+  - osis: Matt
+    texts:
+      - Mat
+  - osis: Mark
+    texts:
+      - Mar
+  - osis: Luke
+    texts:
+      - Luka
+  - osis: 1John
+    texts:
+      - 1Joh
+  - osis: 2John
+    texts:
+      - 2Joh
+  - osis: 3John
+    texts:
+      - 3Joh
+  - osis: John
+    texts:
+      - Joh
+  - osis: Acts
+    texts:
+      - Ciîko
+  - osis: Rom
+    texts:
+      - aRo
+  - osis: 1Cor
+    texts:
+      - 1Akor
+  - osis: 2Cor
+    texts:
+      - 2Akor
+  - osis: Col
+    texts:
+      - aKol
+  - osis: Gal
+    texts:
+      - aGal
+  - osis: Eph
+    texts:
+      - aEf
+  - osis: Phil
+    texts:
+      - aFil
+  - osis: 1Thess
+    texts:
+      - 1Ath
+  - osis: 2Thess
+    texts:
+      - 2Ath
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Tito
+  - osis: Phlm
+    texts:
+      - File
+  - osis: Heb
+    texts:
+      - Ahib
+  - osis: Jas
+    texts:
+      - Jak
+  - osis: 1Pet
+    texts:
+      - 1Pet
+  - osis: 2Pet
+    texts:
+      - 2Pet
+  - osis: Jude
+    texts:
+      - Juda
+  - osis: Tob
+    texts:
+      - Tob
+  - osis: Jdt
+    texts:
+      - Jud
+  - osis: Bar
+    texts:
+      - Bar
+  - osis: Sus
+    texts:
+      - Sus
+  - osis: 1Macc
+    texts:
+      - 1Mak
+  - osis: 2Macc
+    texts:
+      - 2Mak
+  - osis: AddDan
+    texts:
+      - Îvoya
+  - osis: EsthGr
+    texts:
+      - Esita Ngi
+  - osis: Esth
+    texts:
+      - Esita
+translations:
+  - KKB

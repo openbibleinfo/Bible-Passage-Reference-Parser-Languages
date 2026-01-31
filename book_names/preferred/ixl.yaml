@@ -1,0 +1,160 @@
+default:
+  1Cor:
+    long: 1 Corintios
+    short: 1 Co
+  1John:
+    long: 1 Xhun
+    short: 1 Jn
+  1Pet:
+    long: 1 Lu'
+    short: 1 Pe
+  1Thess:
+    long: 1 Tesalonicenses
+    short: 1 Tesalonicenses
+  1Tim:
+    long: 1 Timoteo
+    short: 1 Ti
+  2Cor:
+    long: 2 Corintios
+    short: 2 Co
+  2John:
+    long: 2 Xhun
+    short: 2 Jn
+  2Pet:
+    long: 2 Lu'
+    short: 2 Pe
+  2Thess:
+    long: 2 Tesalonicenses
+    short: 2 Tesalonicenses
+  2Tim:
+    long: 2 Timoteo
+    short: 2 Ti
+  3John:
+    long: 3 Xhun
+    short: 3 Jn
+  Acts:
+    long: Hechos
+    short: Hch
+  Col:
+    long: Colosenses
+    short: Col
+  Eph:
+    long: Efeesios
+    short: Ef
+  Gal:
+    long: Gálatas
+    short: Gá
+  Heb:
+    long: Hebreos
+    short: Heb
+  Jas:
+    long: Santiago
+    short: Santiago
+  John:
+    long: Xhun
+    short: Jn
+  Jude:
+    long: Judas
+    short: Jud
+  Luke:
+    long: Lucas
+    short: Lc
+  Mark:
+    long: Marcos
+    short: Marcos
+  Matt:
+    long: Mateo
+    short: Mateo
+  Phil:
+    long: Filipenses
+    short: Fil
+  Phlm:
+    long: Filemón
+    short: Filemón
+  Rev:
+    long: Apocalipsis
+    short: Ap
+  Rom:
+    long: Romanos
+    short: Rom
+  Titus:
+    long: Tito
+    short: Tit
+translations:
+  ixl:
+    1Cor:
+      short: 1 Corintios
+    1John:
+      long: 1 Juan
+      short: 1 Juan
+    1Pet:
+      long: 1 Luʼ
+      short: 1 Pedro
+    1Tim:
+      long: 1 Timoteeo
+      short: 1 Timoteo
+    2Cor:
+      short: 2 Corintios
+    2John:
+      long: 2 Juan
+      short: 2 Juan
+    2Pet:
+      long: 2 Luʼ
+      short: 2 Pedro
+    2Tim:
+      long: 2 Timoteeo
+      short: 2 Timoteo
+    3John:
+      long: 3 Juan
+      short: 3 Juan
+    Acts:
+      short: Hechos
+    Col:
+      short: Colosenses
+    Eph:
+      short: Efesios
+    Gal:
+      long: Gaalatas
+      short: Gálatas
+    Heb:
+      long: Evreeos
+      short: Hebreos
+    Jas:
+      long: Santiaago
+    John:
+      long: Juan
+      short: Juan
+    Jude:
+      short: Judas
+    Luke:
+      short: Lucas
+    Mark:
+      long: Kuxh
+    Phil:
+      long: Filipeenses
+      short: Filipenses
+    Phlm:
+      long: Filemoon
+    Rev:
+      short: Apocalipsis
+    Rom:
+      long: Romaanos
+      short: Romanos
+    Titus:
+      long: Tiito
+      short: Tito
+  ixln:
+    1Thess:
+      short: 1 Ts
+    2Thess:
+      short: 2 Ts
+    Eph:
+      long: Ephesians
+    Jas:
+      short: Stg
+    Mark:
+      short: Mr
+    Matt:
+      short: Mt
+    Phlm:
+      short: Flm

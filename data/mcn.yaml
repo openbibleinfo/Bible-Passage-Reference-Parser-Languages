@@ -1,0 +1,267 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Cawa'ta Tunita
+      - Ct
+  - osis: Exod
+    texts:
+      - Kal-goyta
+      - Kg
+  - osis: Lev
+    texts:
+      - Sa Levitna
+      - Slv
+  - osis: Num
+    texts:
+      - Ŋaɓta
+      - Ŋɓ
+  - osis: Lam
+    texts:
+      - Tiyna Vi Yeremiyas
+      - Ty
+  - osis: Rev
+    texts:
+      - Wid-ŋayayta
+      - Wŋ
+  - osis: Deut
+    texts:
+      - Gatta-sem-ma'ta
+      - Gsm
+  - osis: Josh
+    texts:
+      - Yosuwa
+      - Yos
+  - osis: Judg
+    texts:
+      - Sa Ka Kitana
+      - Skk
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis: Isa
+    texts:
+      - Esaya
+      - Es
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuel
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Muliyana
+      - Mul
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Labar-ma-liyna
+      - Lml
+  - osis: Ezra
+    texts:
+      - Esdras
+      - Esd
+  - osis: Neh
+    texts:
+      - Nehemiya
+      - Neh
+  - osis: Esth
+    texts:
+      - Ester
+      - Est
+  - osis: Job
+    texts:
+      - Job
+  - osis: Prov
+    texts:
+      - Law Ma Nir-niramna
+      - Lmn
+  - osis: Eccl
+    texts:
+      - Sa Ma Kusta
+      - Smk
+  - osis: Song
+    texts:
+      - Nul Ma Suw Nulla
+      - Nsn
+  - osis: Ps
+    texts:
+      - Nulla
+      - Nul
+  - osis: Jer
+    texts:
+      - Yeremiyas
+      - Yer
+  - osis: Ezek
+    texts:
+      - Ezekiyel
+      - Ezek
+  - osis: Dan
+    texts:
+      - Daniel
+      - Dan
+  - osis: Hos
+    texts:
+      - Hoseya
+      - Hos
+  - osis: Joel
+    texts:
+      - Jowel
+      - Jwl
+  - osis: Amos
+    texts:
+      - Amos
+      - Am
+  - osis: Obad
+    texts:
+      - Abdiyas
+      - Abd
+  - osis: Jonah
+    texts:
+      - Yonas
+      - Yon
+  - osis: Mic
+    texts:
+      - Mikka
+      - MiK
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakuk
+      - Hab
+  - osis: Zeph
+    texts:
+      - Sofoniya
+      - Sof
+  - osis: Hag
+    texts:
+      - Haggeya
+      - Hag
+  - osis: Zech
+    texts:
+      - Zakariya
+      - Zak
+  - osis: Mal
+    texts:
+      - Malakiya
+      - Mal
+  - osis: Matt
+    texts:
+      - Matewus
+      - Mat
+  - osis: Mark
+    texts:
+      - Markus
+      - Mark
+  - osis: Luke
+    texts:
+      - Lukas
+      - Luk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohana
+      - Yoh
+  - osis: Acts
+    texts:
+      - Lop Ap
+      - Lopna
+  - osis: Rom
+    texts:
+      - Romena
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintena
+      - Kor
+  - osis: Col
+    texts:
+      - Kolosena
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatena
+      - Gal
+  - osis: Eph
+    texts:
+      - Efesena
+      - Efes
+  - osis: Phil
+    texts:
+      - Filipina
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonikŋa
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotewus
+      - Tim
+  - osis: Titus
+    texts:
+      - Titus
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemon
+      - Flm
+  - osis: Heb
+    texts:
+      - Hebrena
+      - Heb
+  - osis: Jas
+    texts:
+      - Yakub
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peter
+      - Pet
+  - osis: Jude
+    texts:
+      - Yudas
+      - Yud
+translations:
+  - MASSANA

@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 Kolintu
+    short: 1 Ko
+  1John:
+    long: 1 Huwan
+    short: 1 Hu
+  1Pet:
+    long: 1 Pidelu
+    short: 1 Pi
+  1Thess:
+    long: 1 Tésalonika
+    short: 1 Té
+  1Tim:
+    long: 1 Timotiyu
+    short: 1 Ti
+  2Cor:
+    long: 2 Kolintu
+    short: 2 Ko
+  2John:
+    long: 2 Huwan
+    short: 2 Hu
+  2Pet:
+    long: 2 Pidelu
+    short: 2 Pi
+  2Thess:
+    long: 2 Tésalonika
+    short: 2 Té
+  2Tim:
+    long: 2 Timotiyu
+    short: 2 Ti
+  3John:
+    long: 3 Huwan
+    short: 3 Hu
+  Acts:
+    long: Binaelan
+    short: Bin
+  Col:
+    long: Kolosas
+    short: Kol
+  Eph:
+    long: Épéso
+    short: Épé
+  Gal:
+    long: Galatiya
+    short: Gal
+  Heb:
+    long: Hibelu
+    short: Hib
+  Jas:
+    long: Santiyago
+    short: San
+  John:
+    long: Huwan
+    short: Hwn
+  Jude:
+    long: Hudas
+    short: Hud
+  Luke:
+    long: Lukas
+    short: Luk
+  Mark:
+    long: Malkos
+    short: Mal
+  Matt:
+    long: Matéyo
+    short: Mat
+  Phil:
+    long: Pilipos
+    short: Plp
+  Phlm:
+    long: Pilimon
+    short: Plm
+  Rev:
+    long: Kepehaa I Hésus Kelistu
+    short: Kep
+  Rom:
+    long: Loma
+    short: Lom
+  Titus:
+    long: Tito
+    short: Tit

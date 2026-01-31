@@ -1,0 +1,319 @@
+variables:
+  first: &first
+    - Патшалықтар
+  second: &second
+    - Патшалықтар
+books:
+  - osis: Gen
+    texts:
+      - Жаратылыстың баст.
+      - Жар
+  - osis: Exod
+    texts:
+      - Мысырдан шығу
+      - Мыс
+  - osis: Lev
+    texts:
+      - Леуіліктер
+      - Леу
+  - osis: Num
+    texts:
+      - Руларды санау
+      - Рул
+  - osis: Lam
+    texts:
+      - Жоқтау
+      - Жоқт
+  - osis: Rev
+    texts:
+      - Аян
+  - osis: Deut
+    texts:
+      - Заңды қайталау
+      - Заң
+  - osis: Josh
+    texts:
+      - Ешуа
+      - Еш
+  - osis: Judg
+    texts:
+      - Билер
+      - Бил
+  - osis: Ruth
+    texts:
+      - Рут
+  - osis: Isa
+    texts:
+      - Ишая
+      - Иш
+  - osis: 1Sam
+    texts:
+      - Пат1
+  - osis: 2Sam
+    texts:
+      - Пат2
+  - osis:
+      - osis: 1Kgs
+        before: *first
+    texts:
+      - 3-ж.
+  - osis: 1Kgs
+    texts:
+      - Пат3
+  - osis:
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - 4-ж.
+  - osis: 2Kgs
+    texts:
+      - Пат4
+  - osis: 1Chr
+    texts:
+      - Шежірелер 1-ж.
+      - Шеж1
+  - osis:
+      - osis: 1Sam
+        before: *first
+    texts:
+      - 1-ж.
+  - osis: 2Chr
+    texts:
+      - Шежірелер 2-ж.
+      - Шеж2
+  - osis:
+      - osis: 2Sam
+        before: *second
+    texts:
+      - 2-ж.
+  - osis: Ezra
+    texts:
+      - Езра
+      - Езр
+  - osis: Neh
+    texts:
+      - Нехемия
+      - Нех
+  - osis: Esth
+    texts:
+      - Естер
+      - Ест
+  - osis: Job
+    texts:
+      - Әйүп
+  - osis: Ps
+    texts:
+      - Забур жырлары
+      - Жыр
+  - osis: Prov
+    texts:
+      - Нақыл сөздер
+      - Нқл
+  - osis: Eccl
+    texts:
+      - Уағыздаушы
+      - Уағ
+  - osis: Song
+    texts:
+      - Таңдаулы ән
+      - Ән
+  - osis: Jer
+    texts:
+      - Еремия
+      - Ерм
+  - osis: Ezek
+    texts:
+      - Езекиел
+      - Езк
+  - osis: Dan
+    texts:
+      - Даниял
+      - Дан
+  - osis: Hos
+    texts:
+      - Ошия
+      - Ош
+  - osis: Joel
+    texts:
+      - Жоел
+      - Жое
+  - osis: Amos
+    texts:
+      - Амос
+      - Амо
+  - osis: Obad
+    texts:
+      - Абди
+      - Абд
+  - osis: Jonah
+    texts:
+      - Жүніс
+      - Жүн
+  - osis: Mic
+    texts:
+      - Миха
+      - Мих
+  - osis: Nah
+    texts:
+      - Нақұм
+      - Нқм
+  - osis: Hab
+    texts:
+      - Аббақұқ
+      - Абқ
+  - osis: Zeph
+    texts:
+      - Софония
+      - Соф
+  - osis: Hag
+    texts:
+      - Хаққай
+      - Хақ
+  - osis: Zech
+    texts:
+      - Зәкәрия
+      - Зәк
+  - osis: Mal
+    texts:
+      - Малахи
+      - Мал
+  - osis: Matt
+    texts:
+      - Матай
+      - Мат
+  - osis: Mark
+    texts:
+      - Марқа
+      - Мар
+  - osis: Luke
+    texts:
+      - Лұқа
+      - Лұқ
+  - osis: 1John
+    texts:
+      - Жоханның 1-хаты
+      - Жохан 1
+      - Жох 1
+      - Жох1
+  - osis: 2John
+    texts:
+      - Жоханның 2-хаты
+      - Жохан 2
+      - Жох 2
+      - Жох2
+  - osis: 3John
+    texts:
+      - Жоханның 3-хаты
+      - Жохан 3
+      - Жох 3
+      - Жох3
+  - osis: John
+    texts:
+      - Жохан
+      - Жох
+  - osis: Acts
+    texts:
+      - Елшіл. істері
+      - Елшілер
+      - Елш
+  - osis: Rom
+    texts:
+      - Римдіктерге хат
+      - Римдіктерге
+      - Рим
+  - osis: 1Cor
+    texts:
+      - Қорынттықт. 1-хат
+      - Қорынттықтарға 1
+      - Қор 1
+      - Қор1
+  - osis: 2Cor
+    texts:
+      - Қорынттықт. 2-хат
+      - Қорынттықтарға 2
+      - Қор 2
+      - Қор2
+  - osis: Col
+    texts:
+      - Қолостықт. хат
+      - Қолостықтарға
+      - Қол
+  - osis: Gal
+    texts:
+      - Ғалаттықт. хат
+      - Ғалаттықтарға
+      - Ғал
+  - osis: Eph
+    texts:
+      - Ефестікт. хат
+      - Ефестіктерге
+      - Еф
+  - osis: Phil
+    texts:
+      - Філіпілікт. хат
+      - Філіпіліктерге
+      - Флп
+  - osis: 1Thess
+    texts:
+      - Салониқалықтарға 1
+      - Салониқал. 1-хат
+      - Сал 1
+      - Сал1
+  - osis: 2Thess
+    texts:
+      - Салониқалықтарға 2
+      - Салониқал. 2-хат
+      - Сал 2
+      - Сал2
+  - osis: 1Tim
+    texts:
+      - Тімотеге 1-хат
+      - Тимотейге 1
+      - Тім 1
+      - Тім1
+  - osis: 2Tim
+    texts:
+      - Тімотеге 2-хат
+      - Тимотейге 2
+      - Тім 2
+      - Тім2
+  - osis: Titus
+    texts:
+      - Титке хат
+      - Титке
+      - Тит
+  - osis: Phlm
+    texts:
+      - Філимонға хат
+      - Філимонға
+      - Флм
+  - osis: Heb
+    texts:
+      - Еврейлерге хат
+      - Еврейлерге
+      - Евр
+  - osis: Jas
+    texts:
+      - Жақыптың хаты
+      - Жақып
+      - Жақ
+  - osis: 1Pet
+    texts:
+      - Петірдің 1-хаты
+      - Петір 1
+      - Пет 1
+      - Пет1
+  - osis: 2Pet
+    texts:
+      - Петірдің 2-хаты
+      - Петір 2
+      - Пет 2
+      - Пет2
+  - osis: Jude
+    texts:
+      - Яһуданың хаты
+      - Яһуда
+      - Яһд
+translations:
+  - NTKAZ
+  - QAZBI2010

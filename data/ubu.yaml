@@ -1,0 +1,189 @@
+variables:
+  first: &first
+    - "1"
+    - Ou
+  second: &second
+    - "2"
+    - Pe
+books:
+  - osis: Rev
+    texts:
+      - Lipa Ora Sirimu
+      - Lipe Ora Sirimu
+      - Los
+  - osis: Matt
+    texts:
+      - Mateyu
+      - Mat
+  - osis: Mark
+    texts:
+      - Mako
+      - Mak
+  - osis: Luke
+    texts:
+      - Lluko
+      - Lluku
+      - Lluk
+      - Luk
+  - osis: 1John
+    texts:
+      - Jono Kumbi Lepamo
+      - Jono Kumbi-Lepamo
+      - 1Jon
+  - osis: 2John
+    texts:
+      - Jono Talo Sipemo
+      - Jono Talo-Sipemo
+      - JonoTalo-Sipamo
+      - 2Jon
+  - osis: 3John
+    texts:
+      - Jono Yepoko Sipemo
+      - Jono Yepoko-Sipemo
+      - Jono Yopoko-Sipamo
+      - 3 Jon
+      - 3Jon
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Jon
+  - osis: John
+    texts:
+      - Jono
+      - Jon
+  - osis: Acts
+    texts:
+      - Lipa Mundorumu Yema
+      - Lipe Mundorumu Yema
+      - Lipe Mundurumu Yema
+      - Lip
+      - Lmy
+  - osis: Rom
+    texts:
+      - Romo
+      - Rom
+      - Ron
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korini
+      - Kor
+  - osis: 1Cor
+    texts:
+      - Ou-Korini
+      - U-Korini
+      - 1Kor
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - Pe-Korini
+      - 2Kor
+      - 2Ko
+  - osis: Col
+    texts:
+      - Kollosi
+      - Kol
+  - osis: Gal
+    texts:
+      - Gallesia
+      - Gal
+  - osis: Eph
+    texts:
+      - Epesasi
+      - Epe
+      - Ep
+  - osis: Phil
+    texts:
+      - Pillipai
+      - Pil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesallonaika
+      - Tes
+  - osis: 1Thess
+    texts:
+      - Ou-Tesallonaika
+      - U-Tesallonaika
+      - 1Tes
+      - 1Te
+  - osis: 2Thess
+    texts:
+      - Pe-Tesallonaika
+      - 2Tes
+      - 2Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+      - Tim
+  - osis: 1Tim
+    texts:
+      - Ou-Timoti
+      - U-Timoti
+      - 1Tim
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - Pe-Timoti
+      - 2Tim
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Taitasi
+      - Tai
+  - osis: Phlm
+    texts:
+      - Pillimono
+      - Plm
+  - osis: Heb
+    texts:
+      - Ipuru
+      - Ipu
+  - osis: Jas
+    texts:
+      - Jemisi
+      - Jem
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - Pita
+      - Pet
+  - osis: 1Pet
+    texts:
+      - Ou-Pita
+      - U-Pita
+      - 1Pit
+      - 1Pe
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+      - Pe
+  - osis: 2Pet
+    texts:
+      - Pe-Pita
+      - 2Pit
+      - 2Pi
+  - osis: Jude
+    texts:
+      - Jutu
+      - Jut
+translations:
+  - UBUA
+  - UBUK
+  - UBUN

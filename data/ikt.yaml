@@ -1,0 +1,137 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Exod
+    texts:
+      - Exodus
+      - Exod
+  - osis: Rev
+    texts:
+      - Revelation
+      - Rev
+  - osis: Deut
+    texts:
+      - Deuteronomy
+      - Deut
+  - osis: Ruth
+    texts:
+      - Ruth
+  - osis: Isa
+    texts:
+      - Isaiah
+      - Isa
+  - osis:
+      - osis: 1Chr
+        before: *first
+    texts:
+      - Chronicles
+      - Chr
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Psalms
+      - Ps
+  - osis: Jer
+    texts:
+      - Jeremiah
+      - Jer
+  - osis: Mic
+    texts:
+      - Micah
+      - Mic
+  - osis: Matt
+    texts:
+      - Matthew
+      - Matt
+      - Mt.
+  - osis: Mark
+    texts:
+      - Mark
+      - Mk.
+  - osis: Luke
+    texts:
+      - Luke
+      - Lk.
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - John
+      - Jn
+  - osis: John
+    texts:
+      - John
+      - Jn.
+  - osis: Acts
+    texts:
+      - Havaangit
+      - Havangit
+      - Hav
+  - osis: Rom
+    texts:
+      - Romans
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Corinthians
+      - Cor
+  - osis: Col
+    texts:
+      - Colossians
+      - Col
+  - osis: Gal
+    texts:
+      - Galatians
+      - Gal
+  - osis: Eph
+    texts:
+      - Ephesians
+      - Eph
+  - osis: Phil
+    texts:
+      - Philippians
+      - Phil
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - Thessalonians
+      - Thes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothy
+      - Tim
+  - osis: Titus
+    texts:
+      - Titus
+      - Tit
+  - osis: Heb
+    texts:
+      - Hebrews
+      - Heb
+  - osis: Jas
+    texts:
+      - James
+      - Jas
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - Peter
+      - Pet
+translations:
+  - INB
+  - SPERRY

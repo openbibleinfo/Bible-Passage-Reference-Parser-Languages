@@ -1,0 +1,96 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - I
+  third: &third
+    - III
+books:
+  - osis: Rev
+    texts:
+      - Ode Hi̍yɛchɛ
+  - osis: Ps
+    texts:
+      - Ejē Ɔkɔ̄kā
+  - osis: Matt
+    texts:
+      - Ima̍tiyu
+  - osis: Mark
+    texts:
+      - Ima̍aki
+  - osis: Luke
+    texts:
+      - Ilu̍uku
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Ijɔ̍ɔn
+  - osis: Acts
+    texts:
+      - U̍ku̍rɔ̍ yī Alɛrɔ̄
+  - osis: Rom
+    texts:
+      - Aliro̍om
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Alikɔ̍rīnti
+  - osis: Col
+    texts:
+      - Alikɔlɔ̍sāyi
+  - osis: Gal
+    texts:
+      - Aligale̍siya
+  - osis: Eph
+    texts:
+      - Alɛ̍fɛ̄susi
+  - osis: Phil
+    texts:
+      - Alifili̍pāyi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Alitɛsalona̍yīka
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Iti̍mōti
+  - osis: Titus
+    texts:
+      - Ita̍yi̍tɔ̄ɔsi
+  - osis: Phlm
+    texts:
+      - Ifa̍yi̍lɛ̄mɔn
+  - osis: Heb
+    texts:
+      - Ihi̍bru
+  - osis: Jas
+    texts:
+      - Ije̍mēehi
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Ipi̍ta
+  - osis: Jude
+    texts:
+      - Iju̍udi
+translations:
+  - YNT

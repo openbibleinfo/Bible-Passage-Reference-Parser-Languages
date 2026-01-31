@@ -1,0 +1,231 @@
+default:
+  1Chr:
+    long: 1 Eghaghaniba
+    short: 1Eg
+  1Cor:
+    long: 1 Korin
+    short: 1 Ko
+  1John:
+    long: 1 Jon
+    short: 1 Jo
+  1Kgs:
+    long: 1 Atriviba
+    short: 1At
+  1Pet:
+    long: 1 Pita
+    short: 1 Pi
+  1Sam:
+    long: 1 Samuel
+    short: 1Sa
+  1Thess:
+    long: 1 Tesalonika
+    short: 1 Te
+  1Tim:
+    long: 1 Timoti
+    short: 1 Ti
+  2Chr:
+    long: 2 Eghaghaniba
+    short: 2Eg
+  2Cor:
+    long: 2 Korin
+    short: 2 Ko
+  2John:
+    long: 2 Jon
+    short: 2 Jo
+  2Kgs:
+    long: 2 Atriviba
+    short: 2At
+  2Pet:
+    long: 2 Pita
+    short: 2 Pi
+  2Sam:
+    long: 2 Samuel
+    short: 2Sa
+  2Thess:
+    long: 2 Tesalonika
+    short: 2 Te
+  2Tim:
+    long: 2 Timoti
+    short: 2 Ti
+  3John:
+    long: 3 Jon
+    short: 3 Jo
+  Acts:
+    long: Aposel
+    short: Ap
+  Amos:
+    long: Amos
+    short: Amo
+  Col:
+    long: Kolosi
+    short: Kl
+  Dan:
+    long: Daniel
+    short: Dan
+  Deut:
+    long: Godɨn Araziba
+    short: Ga
+  Eccl:
+    long: Fofozir Gumazim
+    short: Fg
+  Eph:
+    long: Efesus
+    short: Ef
+  Esth:
+    long: Esta
+    short: Est
+  Exod:
+    long: Ua Me Ini
+    short: Umi
+  Ezek:
+    long: Esekiel
+    short: Ese
+  Ezra:
+    long: Esra
+    short: Esr
+  Gal:
+    long: Galesia
+    short: Ga
+  Gen:
+    long: Jenesis
+    short: Jen
+  Hab:
+    long: Habakuk
+    short: Hab
+  Hag:
+    long: Hagai
+    short: Hag
+  Heb:
+    long: Hibru
+    short: Hi
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Aisaia
+    short: Ais
+  Jas:
+    long: Jems
+    short: Je
+  Jer:
+    long: Jeremaia
+    short: Jer
+  Job:
+    long: Jop
+    short: Jop
+  Joel:
+    long: Joel
+    short: Jol
+  John:
+    long: Jon
+    short: Jo
+  Jonah:
+    long: Jona
+    short: Jna
+  Josh:
+    long: Josua
+    short: Jos
+  Jude:
+    long: Jut
+    short: Ju
+  Judg:
+    long: Gumazir Dapaniba
+    short: Gd
+  Lam:
+    long: Azir Akam
+    short: Azi
+  Lev:
+    long: Ofa Gami
+    short: Og
+  Luke:
+    long: Luk
+    short: Lu
+  Mal:
+    long: Malakai
+    short: Mal
+  Mark:
+    long: Mak
+    short: Mk
+  Matt:
+    long: Matyu
+    short: Mt
+  Mic:
+    long: Maika
+    short: Mai
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nehemia
+    short: Neh
+  Num:
+    long: Dɨboboniba
+    short: Dbo
+  Obad:
+    long: Obadia
+    short: Oba
+  Phil:
+    long: Filipai
+    short: Fl
+  Phlm:
+    long: Filemon
+    short: Fm
+  Prov:
+    long: Aghuzir Akaba
+    short: Aa
+  Ps:
+    long: Onger Akaba
+    short: Oa
+  Rev:
+    long: Akar Mogomem
+    short: Am
+  Rom:
+    long: Rom
+    short: Ro
+  Ruth:
+    long: Rut
+    short: Rut
+  Song:
+    long: Solomon
+    short: Sol
+  Titus:
+    long: Taitus
+    short: Ta
+  Zech:
+    long: Sekaraia
+    short: Sek
+  Zeph:
+    long: Sefanaia
+    short: Sef
+translations:
+  arubib20:
+    1Cor:
+      short: 1Ko
+    1John:
+      short: 1Jo
+    1Pet:
+      short: 1Pi
+    1Thess:
+      short: 1Te
+    1Tim:
+      short: 1Ti
+    2Cor:
+      short: 2Ko
+    2John:
+      short: 2Jo
+    2Pet:
+      short: 2Pi
+    2Thess:
+      short: 2Te
+    2Tim:
+      short: 2Ti
+    3John:
+      short: 3Jo
+    Gal:
+      short: Gal
+    Titus:
+      short: Tai
+  arunt04:
+    Rev:
+      long: Mogomer Akar Aghuriaghɨrɨzim
+      short: Maa

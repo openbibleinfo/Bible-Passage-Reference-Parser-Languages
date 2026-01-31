@@ -1,0 +1,211 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - "Apan Aqao:"
+  - osis: Exod
+    texts:
+      - "Phao: Thug'"
+  - osis: Lev
+    texts:
+      - 'Xeim: Ngaui"'
+  - osis: Num
+    texts:
+      - "Gyaung: Su:"
+  - osis: Lam
+    texts:
+      - "Ngug Ji:"
+  - osis: Rev
+    texts:
+      - 'Qhu" Byid:'
+  - osis: Deut
+    texts:
+      - 'Mho" Peim:'
+  - osis: Josh
+    texts:
+      - Yoshu
+  - osis: Judg
+    texts:
+      - Tarha" Agyi
+  - osis: Ruth
+    texts:
+      - Rutha
+  - osis: Isa
+    texts:
+      - Esaia
+  - osis: 1Sam
+    texts:
+      - 1Samuela
+  - osis:
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuela
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - "Kho:kham Mhomyi:"
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Kho:kham
+  - osis: Ezra
+    texts:
+      - Ezra
+  - osis: Neh
+    texts:
+      - Nehemia
+  - osis: Esth
+    texts:
+      - Estha
+  - osis: Job
+    texts:
+      - Yoba
+  - osis: Ps
+    texts:
+      - 'Caung: Khin"'
+  - osis: Prov
+    texts:
+      - 'Dao: Zham"'
+  - osis: Eccl
+    texts:
+      - 'Pha,jhi" Dao:'
+  - osis: Song
+    texts:
+      - 'Sholamon Nghaui" Caung:'
+  - osis: Jer
+    texts:
+      - Yeremia
+  - osis: Ezek
+    texts:
+      - Ezekela
+  - osis: Dan
+    texts:
+      - Daniela
+  - osis: Hos
+    texts:
+      - Hosea
+  - osis: Joel
+    texts:
+      - Yoela
+  - osis: Amos
+    texts:
+      - Amo
+  - osis: Obad
+    texts:
+      - Obadia
+  - osis: Jonah
+    texts:
+      - Yona
+  - osis: Mic
+    texts:
+      - Mikha
+  - osis: Nah
+    texts:
+      - Nahum
+  - osis: Hab
+    texts:
+      - Habakug
+  - osis: Zeph
+    texts:
+      - Zephani
+  - osis: Hag
+    texts:
+      - Hagi
+  - osis: Zech
+    texts:
+      - Zekhari
+  - osis: Mal
+    texts:
+      - Malakhi
+  - osis: Matt
+    texts:
+      - Mathe
+  - osis: Mark
+    texts:
+      - Marku
+  - osis: Luke
+    texts:
+      - Luka
+  - osis: 1John
+    texts:
+      - 1Yohan
+  - osis: 2John
+    texts:
+      - 2Yohan
+  - osis: 3John
+    texts:
+      - 3Yohan
+  - osis: John
+    texts:
+      - Yohan
+  - osis: Acts
+    texts:
+      - "Lagyo:"
+  - osis: Rom
+    texts:
+      - Roma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinthu
+  - osis: Col
+    texts:
+      - Kolose
+  - osis: Gal
+    texts:
+      - Galati
+  - osis: Eph
+    texts:
+      - Ephesu
+  - osis: Phil
+    texts:
+      - Philipi
+  - osis: 1Thess
+    texts:
+      - 1Thesaloni
+  - osis: 2Thess
+    texts:
+      - 2Thesaloni
+  - osis: 1Tim
+    texts:
+      - 1Timothi
+  - osis: 2Tim
+    texts:
+      - 2Timothi
+  - osis: Titus
+    texts:
+      - Titu
+  - osis: Phlm
+    texts:
+      - Philemon
+  - osis: Heb
+    texts:
+      - Hebre
+  - osis: Jas
+    texts:
+      - Yaku
+  - osis: 1Pet
+    texts:
+      - 1Petru
+  - osis: 2Pet
+    texts:
+      - 2Petru
+  - osis: Jude
+    texts:
+      - Yuda
+translations:
+  - LHCL

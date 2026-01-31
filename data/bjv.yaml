@@ -1,0 +1,161 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Lam
+    texts:
+      - No̰ Kuwə Ndoo
+      - Nknd
+  - osis: Rev
+    texts:
+      - Nḛ kɨ tḛḛ kɨ dɔe
+      - Ntd
+  - osis: Ruth
+    texts:
+      - Rutɨ
+      - Rt
+  - osis: Jonah
+    texts:
+      - Jonasɨ
+      - Jon
+  - osis: Matt
+    texts:
+      - Matɨye
+      - Mt
+  - osis: Mark
+    texts:
+      - Markɨ
+      - Mk
+  - osis: Luke
+    texts:
+      - Lukɨ
+      - Lk
+  - osis: 1John
+    texts:
+      - 1Ja̰
+  - osis: 2John
+    texts:
+      - 2Ja̰
+  - osis: 3John
+    texts:
+      - 3 Ja̰
+      - 3Ja̰
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Ja̰
+  - osis: Acts
+    texts:
+      - Kɨlə lə Njé kaw kɨlə je
+      - Knjk
+  - osis: Rom
+    texts:
+      - Rom je
+      - Rm
+  - osis: 1Cor
+    texts:
+      - Korḛtɨ je kɨ dɔsa̰y
+      - 1Kor
+      - 1Kɔr
+  - osis: 2Cor
+    texts:
+      - Korḛtɨ je kɨ ko̰ joo
+      - 2Kor
+      - 2Kɔr
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korḛtɨ je
+  - osis: Col
+    texts:
+      - Kolosɨ je
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatɨ je
+      - Gal
+  - osis: Eph
+    texts:
+      - Epəjɨ je
+      - Ep
+  - osis: Phil
+    texts:
+      - Pɨlɨpɨ je
+      - Plp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Təsalonɨkɨ je
+  - osis: 1Thess
+    texts:
+      - Təsalonɨkɨ je
+      - 1Təsa
+  - osis: 2Thess
+    texts:
+      - Təsalonɨkɨ je
+      - 2Təsa
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tɨmote
+  - osis: 1Tim
+    texts:
+      - 1Tɨmote
+      - 1Tɨm
+  - osis: 2Tim
+    texts:
+      - 2Tɨmote
+      - 2Tɨm
+  - osis: Titus
+    texts:
+      - Tɨtɨ
+      - Tt
+  - osis: Phlm
+    texts:
+      - Pɨləmo̰
+      - Plm
+  - osis: Heb
+    texts:
+      - Ebɨrə je
+      - Eb
+  - osis: Jas
+    texts:
+      - Jakɨ
+      - Jk
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pɨyər
+  - osis: 1Pet
+    texts:
+      - 1Pɨyər
+      - 1Pɨ
+  - osis: 2Pet
+    texts:
+      - 2Pɨyər
+      - 2Pɨ
+  - osis: Jude
+    texts:
+      - Judɨ
+      - Jd
+translations:
+  - BJVDBL
+  - BJVNT

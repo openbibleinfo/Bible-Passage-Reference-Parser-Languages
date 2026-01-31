@@ -1,0 +1,109 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Kusurura
+      - Kusur.
+  - osis: Matt
+    texts:
+      - Matayo
+  - osis: Mark
+    texts:
+      - Marko
+  - osis: Luke
+    texts:
+      - Luka
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohana
+      - Yoh.
+  - osis: Acts
+    texts:
+      - Ebikorwa
+      - Ebik
+  - osis: Rom
+    texts:
+      - Ha Banaroma
+      - Banarom.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Ha Banakorinti
+      - Banakor.
+  - osis: Col
+    texts:
+      - Ha Banakolose
+      - Banakol.
+  - osis: Gal
+    texts:
+      - Ha Banagalata
+      - Banagal.
+  - osis: Eph
+    texts:
+      - Ha Banefwezi
+      - Banef.
+  - osis: Phil
+    texts:
+      - Ha BanaFilipi
+      - Filip
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Ha BanaTesalonika
+      - Banates.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Hali Timote
+      - Tim.
+  - osis: Titus
+    texts:
+      - Hali Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Filemoni
+      - Filem
+  - osis: Heb
+    texts:
+      - Ha Bahebrei
+      - Baheb.
+  - osis: Jas
+    texts:
+      - Yakobo
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Petro
+      - Pet.
+  - osis: Jude
+    texts:
+      - Yude
+translations:
+  - KED1946

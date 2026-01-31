@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 Corinthien
+    short: 1 Cor
+  1John:
+    long: 1 Jean
+    short: 1 Jean
+  1Pet:
+    long: 1 Pierre
+    short: 1 Pierre
+  1Thess:
+    long: 1 Thessalonicien
+    short: 1 Thess
+  1Tim:
+    long: 1 Timothée
+    short: 1 Tim
+  2Cor:
+    long: 2 Corinthien
+    short: 2 Cor
+  2John:
+    long: 2 Jean
+    short: 2 Jean
+  2Pet:
+    long: 2 Pierre
+    short: 2 Pierre
+  2Thess:
+    long: 2 Thessalonicien
+    short: 2 Thess
+  2Tim:
+    long: 2 Timothée
+    short: 2 Tim
+  3John:
+    long: 3 Jean
+    short: 3 Jean
+  Acts:
+    long: Matoma ma Bapôtres
+    short: Matoma
+  Col:
+    long: Colossien
+    short: Col
+  Eph:
+    long: Ephésien
+    short: Ephés
+  Gal:
+    long: Galate
+    short: Gal
+  Heb:
+    long: Hébreu
+    short: Héb
+  Jas:
+    long: Jacques
+    short: Jac
+  John:
+    long: Jean
+    short: Jean
+  Jude:
+    long: Jude
+    short: Jude
+  Luke:
+    long: Luc
+    short: Luc
+  Mark:
+    long: Marc
+    short: Marc
+  Matt:
+    long: Matthieu
+    short: Matt
+  Phil:
+    long: Philippien
+    short: Philip
+  Phlm:
+    long: Philémon
+    short: Philém
+  Rev:
+    long: Bimwa
+    short: Bimwa
+  Rom:
+    long: Baromain
+    short: Rom
+  Titus:
+    long: Tite
+    short: Tite

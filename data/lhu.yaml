@@ -1,0 +1,250 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Awˬ hkuiˉ puiˍ ve li‸
+      - Ahkp
+  - osis: Exod
+    texts:
+      - Tawˆ kʼai ve li‸
+      - Taw
+  - osis: Lev
+    texts:
+      - Oˉ kʼoˍ pui ve li‸
+      - Okʼo
+  - osis: Num
+    texts:
+      - Heh puiˉ hkʼaw ve li‸
+      - Heh
+  - osis: Lam
+    texts:
+      - Dawˇ haˍ ve li‸
+  - osis: Rev
+    texts:
+      - Hpeu‸maˍ ve li‸
+  - osis: Deut
+    texts:
+      - Bon maˍ ve li‸
+      - Bon
+  - osis: Josh
+    texts:
+      - Yawˇsuˆ li‸
+  - osis: Judg
+    texts:
+      - Suhˉ jehˬ ve li‸
+  - osis: Ruth
+    texts:
+      - Ruˉhtaˆ li‸
+  - osis: Isa
+    texts:
+      - Iˉsaˍyaˆ li‸
+      - Isy
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Saˍmo-eˍlaˆ li‸
+  - osis: 1Sam
+    texts:
+      - 1Rsv
+  - osis: 2Sam
+    texts:
+      - 2Rsv
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Jawˇmawˇ li‸
+  - osis: 1Kgs
+    texts:
+      - 1Jm
+  - osis: 2Kgs
+    texts:
+      - 2Jm
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Raˍsaˍvanˍ li‸
+  - osis: Ezra
+    texts:
+      - Eˇzaˍraˆ li‸
+  - osis: Neh
+    texts:
+      - Neˍhaˍmiˆ li‸
+  - osis: Esth
+    texts:
+      - Iˉsaˍtaˆ li‸
+  - osis: Job
+    texts:
+      - Yawˇbaˆ li‸
+      - Yba
+  - osis: Ps
+    texts:
+      - Chiˇ mvuh ve li‸
+      - Chi
+  - osis: Prov
+    texts:
+      - Tawˇ naˉ ve li‸
+      - Tna
+  - osis: Eccl
+    texts:
+      - Cuˇ yiˍ piˇ ve li‸
+  - osis: Song
+    texts:
+      - Sawˉla‸monˍ ve kʼa muiˬ hkawˇ
+  - osis: Jer
+    texts:
+      - Yeˍraˍmiˆ li‸
+      - Yrm
+  - osis: Ezek
+    texts:
+      - Yeˍsaˍkeˍlaˆ li‸
+      - Ysk
+  - osis: Dan
+    texts:
+      - Daˍyeˍlaˆ li‸
+      - Dyl
+  - osis: Hos
+    texts:
+      - Hawˇseˍ li‸
+      - Hse
+  - osis: Joel
+    texts:
+      - Yawˇlaˆ li‸
+      - Yla
+  - osis: Amos
+    texts:
+      - Aˍmoˆ li‸
+      - Amo
+  - osis: Obad
+    texts:
+      - Awˇbaˍdiˆ li‸
+  - osis: Jonah
+    texts:
+      - Yoˇnaˆ li‸
+  - osis: Mic
+    texts:
+      - Miˆhkaˍ li‸
+      - Mlk
+  - osis: Nah
+    texts:
+      - Naˍhunˍ li‸
+  - osis: Hab
+    texts:
+      - Haˍbaˍkuˆ li‸
+      - Hbk
+  - osis: Zeph
+    texts:
+      - Zeˍhpaˍniˆ li‸
+  - osis: Hag
+    texts:
+      - Haˆgehˇ li‸
+      - Hag
+  - osis: Zech
+    texts:
+      - Zaˍhkaˍriˆ li‸
+      - Zhk
+  - osis: Mal
+    texts:
+      - Maˍlaˍhkiˆ li‸
+  - osis: Matt
+    texts:
+      - Ma‸htehˍ li‸
+  - osis: Mark
+    texts:
+      - Maˍkuˆ li‸
+  - osis: Luke
+    texts:
+      - Luˉka‸ li‸
+      - Luk
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yoˇhanˬ li‸
+  - osis: John
+    texts:
+      - Yoˇhanˬ li‸
+      - Yoh
+  - osis: Acts
+    texts:
+      - Tcuh yaˇ li‸
+  - osis: Rom
+    texts:
+      - Roˉma‸ li‸
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kawˇrenˍhtuˆ li‸
+  - osis: Col
+    texts:
+      - Kawˇlawˇsehˇ li‸
+  - osis: Gal
+    texts:
+      - Gaˍlaˍtiˆ li‸
+  - osis: Eph
+    texts:
+      - Eˇfeˇsu‸ li‸
+  - osis: Phil
+    texts:
+      - Hpiˇliˇpiˆ li‸
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Hteˇsaˍlawˇniˆ li‸
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tiˆmoˉseˍ li‸
+  - osis: Titus
+    texts:
+      - Tiˇtuˆ li‸
+  - osis: Phlm
+    texts:
+      - Hpiˇleˍmonˍ li‸
+  - osis: Heb
+    texts:
+      - Heˍbrehˇ li‸
+      - Heb
+  - osis: Jas
+    texts:
+      - Yaˍkoˆ li‸
+      - Ysu
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peˍtruˆ li‸
+  - osis: Jude
+    texts:
+      - Yuˇda‸ li‸
+translations:
+  - LHBE

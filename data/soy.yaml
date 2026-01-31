@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Yohɑni Mɛyɛnɛ
+  - osis: Matt
+    texts:
+      - Mɑtiyee
+  - osis: Mark
+    texts:
+      - Mɑriki
+  - osis: Luke
+    texts:
+      - Luki
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Yohɑni
+  - osis: Acts
+    texts:
+      - Uléécɑɑ Pitumɛ Mɛwɑi
+  - osis: Rom
+    texts:
+      - Rɔm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korɛnti
+  - osis: Col
+    texts:
+      - Kolɔɔsi
+  - osis: Gal
+    texts:
+      - Kɑlɑɑti
+  - osis: Eph
+    texts:
+      - Efɛɛsi
+  - osis: Phil
+    texts:
+      - Filipu
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tɛsɑloniki
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotee
+  - osis: Titus
+    texts:
+      - Tiiti
+  - osis: Phlm
+    texts:
+      - Filemɔɔ
+  - osis: Heb
+    texts:
+      - Epireeyɛ
+  - osis: Jas
+    texts:
+      - Yɑkupu
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piyɛɛ
+  - osis: Jude
+    texts:
+      - Yuuti
+translations:
+  - SNT

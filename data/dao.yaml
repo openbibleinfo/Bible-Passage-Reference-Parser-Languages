@@ -1,0 +1,141 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Rev
+    texts:
+      - Malam Mdannak
+      - Malam
+  - osis: Matt
+    texts:
+      - Mahte
+      - Mt
+  - osis: Mark
+    texts:
+      - Makuh
+      - Mk
+  - osis: Luke
+    texts:
+      - Luhka
+      - Lk
+  - osis: 1John
+    texts:
+      - 1Jn
+  - osis: 2John
+    texts:
+      - 2Jn
+  - osis: 3John
+    texts:
+      - 3 Johan
+      - 3Jn
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Johan
+  - osis: John
+    texts:
+      - Johan
+      - Jn
+  - osis: Acts
+    texts:
+      - Ngsäea Khut
+      - Ngs
+  - osis: Rom
+    texts:
+      - Romah
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korintuh
+  - osis: 1Cor
+    texts:
+      - 1Kor
+  - osis: 2Cor
+    texts:
+      - 2Kor
+  - osis: Col
+    texts:
+      - Kolawte
+      - Kol
+  - osis: Gal
+    texts:
+      - Kalatih
+      - Kal
+  - osis: Eph
+    texts:
+      - Ephet
+      - Eph
+  - osis: Phil
+    texts:
+      - Philipih
+      - Phi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thesalonikah
+  - osis: 1Thess
+    texts:
+      - 1Thes
+  - osis: 2Thess
+    texts:
+      - 2Thes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: 1Tim
+    texts:
+      - 1Tim
+  - osis: 2Tim
+    texts:
+      - 2Tim
+  - osis: Titus
+    texts:
+      - Tihtuh
+      - Tit
+  - osis: Phlm
+    texts:
+      - Philimon
+      - Phil
+  - osis: Heb
+    texts:
+      - Hebru
+      - Heb
+  - osis: Jas
+    texts:
+      - Jakuk
+      - Jak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pita
+  - osis: 1Pet
+    texts:
+      - 1Pit
+  - osis: 2Pet
+    texts:
+      - 2Pit
+  - osis: Jude
+    texts:
+      - Judah
+      - Jud
+translations:
+  - DNT

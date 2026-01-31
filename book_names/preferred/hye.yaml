@@ -1,0 +1,249 @@
+default:
+  1Chr:
+    long: Ա Մնացորդաց
+    short: Ա Մն.
+  1Cor:
+    long: Ա Կորնթացիներին
+    short: Ա Կրնթ.
+  1Esd:
+    long: Ա Եզրաս
+    short: Ա Եզր.
+  1John:
+    long: Ա Հովհաննես
+    short: Ա Հովհ.
+  1Kgs:
+    long: Գ Թագավորների
+    short: Գ Թագ.
+  1Macc:
+    long: Ա Մակաբայեցիներ
+    short: Ա Մկբ.
+  1Pet:
+    long: Ա Պետրոս
+    short: Ա Պտ.
+  1Sam:
+    long: Ա Թագավորների
+    short: Ա Թագ.
+  1Thess:
+    long: Ա Թեսաղոնիկեցիներին
+    short: Ա Թսղ.
+  1Tim:
+    long: Ա Տիմոթեոսին
+    short: Ա Տմթ.
+  2Chr:
+    long: Բ Մնացորդաց
+    short: Բ Մն.
+  2Cor:
+    long: Բ Կորնթացիներին
+    short: Բ Կրնթ.
+  2John:
+    long: Բ Հովհաննես
+    short: Բ Հովհ.
+  2Kgs:
+    long: Դ Թագավորների
+    short: Դ Թագ.
+  2Macc:
+    long: Բ Մակաբայեցիներ
+    short: Բ Մկբ.
+  2Pet:
+    long: Բ Պետրոս
+    short: Բ Պտ.
+  2Sam:
+    long: Բ Թագավորների
+    short: Բ Թագ.
+  2Thess:
+    long: Բ Թեսաղոնիկեցիներին
+    short: Բ Թսղ.
+  2Tim:
+    long: Բ Տիմոթեոսին
+    short: Բ Տմթ.
+  3John:
+    long: Գ Հովհաննես
+    short: Գ Հովհ.
+  3Macc:
+    long: Գ Մակաբայեցիներ
+    short: Գ Մկբ.
+  Acts:
+    long: Գործք Առաքելոց
+    short: Գրծ.
+  Amos:
+    long: Ամովս
+    short: Ամս.
+  Bar:
+    long: Բարուք
+    short: Բրք.
+  Col:
+    long: Կողոսացիներին
+    short: Կղս.
+  Dan:
+    long: Դանիել
+    short: Դան.
+  DanGr:
+    long: Դանիել
+    short: Դան.
+  Deut:
+    long: Բ Օրենք
+    short: Բ Օր.
+  Eccl:
+    long: Ժողովող
+    short: Ժող.
+  Eph:
+    long: Եփեսացիներին
+    short: Եփս.
+  Esth:
+    long: Եսթեր
+    short: Եսթ.
+  EsthGr:
+    long: Եսթեր
+    short: Եսթ.
+  Exod:
+    long: Ելք
+    short: Ելք
+  Ezek:
+    long: Եզեկիել
+    short: Եզկ.
+  Ezra:
+    long: Բ Եզրաս
+    short: Բ Եզր.
+  Gal:
+    long: Գաղատացիներին
+    short: Գղտ.
+  Gen:
+    long: Ծննդոց
+    short: Ծնն.
+  Hab:
+    long: Ամբակում
+    short: Ամբ.
+  Hag:
+    long: Անգե
+    short: Անգ.
+  Heb:
+    long: Եբրայեցիներին
+    short: Եբր.
+  Hos:
+    long: Ովսեե
+    short: Ովս.
+  Isa:
+    long: Եսայի
+    short: Ես.
+  Jas:
+    long: Հակոբոս
+    short: Հկբ.
+  Jdt:
+    long: Հուդիթ
+    short: Հդթ.
+  Jer:
+    long: Երեմիա
+    short: Երմ.
+  Job:
+    long: Հոբ
+    short: Հոբ
+  Joel:
+    long: Հովել
+    short: Հվլ.
+  John:
+    long: Հովհաննես
+    short: Հովհ.
+  Jonah:
+    long: Հովնան
+    short: Հվն.
+  Josh:
+    long: Հեսու
+    short: Հես.
+  Jude:
+    long: Հուդա
+    short: Հուդ.
+  Judg:
+    long: Դատավորներ
+    short: Դատ.
+  Lam:
+    long: Երեմիայի Ողբերը
+    short: Ողբ
+  Lev:
+    long: Ղեվտական
+    short: Ղևտ.
+  Luke:
+    long: Ղուկաս
+    short: Ղուկ.
+  Mal:
+    long: Մաղաքիա
+    short: Մղք.
+  Mark:
+    long: Մարկոս
+    short: Մրկ.
+  Matt:
+    long: Մատթեոս
+    short: Մտթ.
+  Mic:
+    long: Միքիա
+    short: Միք.
+  Nah:
+    long: Նաում
+    short: Նմ.
+  Neh:
+    long: Նեեմիա
+    short: Նեմ.
+  Num:
+    long: Թվեր
+    short: Թվ.
+  Obad:
+    long: Աբդիա
+    short: Աբդ.
+  Phil:
+    long: Փիլիպպեցիներին
+    short: Փլպ.
+  Phlm:
+    long: Փիլիմոնին
+    short: Փլմ.
+  Prov:
+    long: Առակներ
+    short: Առկ.
+  Ps:
+    long: Սաղմոսներ
+    short: Սաղ.
+  Rev:
+    long: Հայտնություն
+    short: Հտն.
+  Rom:
+    long: Հռոմեացիներին
+    short: Հռմ.
+  Ruth:
+    long: Հռութ
+    short: Հռթ.
+  Sir:
+    long: Իմաստություն Սիրաքի
+    short: Սրք.
+  Song:
+    long: Երգ Երգոց
+    short: Երգ
+  Titus:
+    long: Տիտոսին
+    short: Տիտ.
+  Tob:
+    long: Տովբիթ
+    short: Տոբ.
+  Wis:
+    long: Իմաստություն Սողոմոնի
+    short: Իմս.
+  Zech:
+    long: Զաքարիա
+    short: Զաք.
+  Zeph:
+    long: Սոփոնիա
+    short: Սոփ.
+translations:
+  nrab:
+    Ezra:
+      long: Եզրաս
+      short: Եզր.
+  neb:
+    Gen:
+      long: Ծնունդ
+    Hag:
+      long: Անգեոս
+    Lam:
+      long: Ողբ Երեմիայի
+    Nah:
+      long: Նավում
+      short: Նվմ.
+    Obad:
+      long: Աբդիու

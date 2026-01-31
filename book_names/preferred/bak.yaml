@@ -1,0 +1,285 @@
+default:
+  1Chr:
+    long: І Йылъяҙма
+    short: 1 Йыл
+  1Cor:
+    long: І Коринҫостарға
+    short: 1 Кор
+  1John:
+    long: І Яхъя
+    short: 1 Ях
+  1Kgs:
+    long: Ііі Батшалар
+    short: 3 Бат
+  1Pet:
+    long: І Петрус
+    short: 1 Птр
+  1Sam:
+    long: І Батшалар
+    short: 1 Бат
+  1Thess:
+    long: І Тессалоникеларға
+    short: 1 Тес
+  1Tim:
+    long: І Тимоҫеусҡа
+    short: 1 Тим
+  2Chr:
+    long: Іі Йылъяҙма
+    short: 2 Йыл
+  2Cor:
+    long: Іі Коринҫостарға
+    short: 2 Кор
+  2John:
+    long: Іі Яхъя
+    short: 2 Ях
+  2Kgs:
+    long: Іv Батшалар
+    short: 4 Бат
+  2Pet:
+    long: Іі Петрус
+    short: 2 Птр
+  2Sam:
+    long: Іі Батшалар
+    short: 2 Бат
+  2Thess:
+    long: Іі Тессалоникеларға
+    short: 2 Тес
+  2Tim:
+    long: Іі Тимоҫеусҡа
+    short: 2 Тим
+  3John:
+    long: Ііі Яхъя
+    short: 3 Ях
+  Acts:
+    long: Ғәмәлдәр
+    short: Ғмл
+  Amos:
+    long: Ғамос
+    short: Ғам
+  Col:
+    long: Колоссайҙарға
+    short: Кол
+  Dan:
+    long: Даниил
+    short: Днл
+  Deut:
+    long: Ҡанун
+    short: Ҡнн
+  Eccl:
+    long: Вәғәзсе
+    short: Вәғ
+  Eph:
+    long: Эфестарға
+    short: Эфс
+  Esth:
+    long: Эстер
+    short: Эст
+  Exod:
+    long: Сығыу
+    short: Сығ
+  Ezek:
+    long: Зөлкифел
+    short: Зөл
+  Ezra:
+    long: Ғөзәйер
+    short: Ғөз
+  Gal:
+    long: Галаттарға
+    short: Глт
+  Gen:
+    long: Башланмыш
+    short: Баш
+  Hab:
+    long: Хаваҡҡуҡ
+    short: Хав
+  Hag:
+    long: Хаггай
+    short: Хаг
+  Heb:
+    long: Ғивриҙәргә
+    short: Ғвр
+  Hos:
+    long: Һошеяғ
+    short: Һош
+  Isa:
+    long: Ишағыяһ
+    short: Ишғ
+  Jas:
+    long: Яҡуп
+    short: Яҡ
+  Jer:
+    long: Йермеяһ
+    short: Йер
+  Job:
+    long: Әйүп
+    short: Әйп
+  Joel:
+    long: Йоил
+    short: Йои
+  John:
+    long: Яхъя
+    short: Ях
+  Jonah:
+    long: Юныс
+    short: Юнс
+  Josh:
+    long: Йушағ
+    short: Йуш
+  Jude:
+    long: Йәһүҙә
+    short: Йһҙ
+  Judg:
+    long: Хакимдар
+    short: Хак
+  Lam:
+    long: Һыҡтау
+    short: Һҡт
+  Lev:
+    long: Левиҙәр
+    short: Лев
+  Luke:
+    long: Лукас
+    short: Лк
+  Mal:
+    long: Малахи
+    short: Млх
+  Mark:
+    long: Маркус
+    short: Мрк
+  Matt:
+    long: Маҫҫайос
+    short: Маҫ
+  Mic:
+    long: Миха
+    short: Мих
+  Nah:
+    long: Нахум
+    short: Нхм
+  Neh:
+    long: Нөхәмияһ
+    short: Нөх
+  Num:
+    long: Иҫәп
+    short: Иҫп
+  Obad:
+    long: Ғовадъяһ
+    short: Ғов
+  Phil:
+    long: Филиппойҙарға
+    short: Флп
+  Phlm:
+    long: Филемонға
+    short: Флм
+  Prov:
+    long: Хикмәттәр
+    short: Хик
+  Ps:
+    long: Зәбүр
+    short: Зәб
+  Rev:
+    long: Асылыш
+    short: Асл
+  Rom:
+    long: Римдарға
+    short: Рим
+  Ruth:
+    long: Рут
+    short: Рут
+  Song:
+    long: Йырҙар йыры
+    short: Йыр
+  Titus:
+    long: Титусҡа
+    short: Тит
+  Zech:
+    long: Зәкәрьяһ
+    short: Зәк
+  Zeph:
+    long: Сефанъяһ
+    short: Сеф
+translations:
+  bsknt14:
+    1Cor:
+      long: 1 Коринфтарға
+    1John:
+      long: 1 Яхъя
+    1Pet:
+      long: 1 Петр
+    1Thess:
+      long: 1 Фессалоникаларға
+    1Tim:
+      long: 1 Тимофейға
+    2Cor:
+      long: 2 Коринфтарға
+    2John:
+      long: 2 Яхъя
+    2Pet:
+      long: 2 Петр
+    2Thess:
+      long: 2 Фессалоникаларға
+    2Tim:
+      long: 2 Тимофейға
+    3John:
+      long: 3 Яхъя
+    Col:
+      long: Колосстарға
+    Eph:
+      long: Ефестарға
+    Heb:
+      long: Еврейҙарға
+    Jas:
+      long: Яҡуб
+    Luke:
+      long: Лука
+    Mark:
+      long: Марк
+    Matt:
+      long: Матфей
+    Phil:
+      long: Филиптарға
+    Phlm:
+      long: Филимонға
+    Titus:
+      long: Титҡа
+  botp:
+    Amos:
+      short: Ғамос
+    Dan:
+      short: Дан
+    Deut:
+      long: Ҡабатлап әйтелгән ҡанун
+      short: Ҡабат
+    Eccl:
+      short: Вәғәзсе
+    Hab:
+      short: Хаваҡ
+    Hag:
+      short: Хаггай
+    Isa:
+      short: Иша
+    Jer:
+      short: Йермеяһ
+    Joel:
+      long: Йоил пәйғәмбәр китабы
+      short: Йоил
+    Jonah:
+      short: Юныс
+    Lam:
+      short: Һыҡтау
+    Mal:
+      short: Мал
+    Nah:
+      short: Нахум
+    Num:
+      long: Иҫәп алыу
+      short: Иҫәп
+    Obad:
+      short: Ғовад
+    Prov:
+      long: Әйтемдәре
+      short: Әйтем
+    Ruth:
+      long: Руҫ
+      short: Руҫ
+    Zech:
+      short: Зәкәрьяһ

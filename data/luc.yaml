@@ -1,0 +1,161 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Íꞌdóŋá
+      - Ida
+  - osis: Exod
+    texts:
+      - Ãfũŋá
+      - Afu
+  - osis: Rev
+    texts:
+      - Ícétáŋá
+      - Ice
+  - osis: Deut
+    texts:
+      - Ãzị́táŋá Amviŋá
+      - Aza
+  - osis: Ruth
+    texts:
+      - Rụ́tụ̃
+      - Rut
+  - osis: Prov
+    texts:
+      - Ị́jọ́ Uꞌbéŋá
+      - Ibu
+  - osis: Matt
+    texts:
+      - Mãtáyõ
+      - Mat
+  - osis: Mark
+    texts:
+      - Mãrákõ
+      - Mar
+  - osis: Luke
+    texts:
+      - Lụ́kã
+      - Luk
+  - osis: 1John
+    texts:
+      - 1Yn
+  - osis: 2John
+    texts:
+      - 2Yn
+  - osis: 3John
+    texts:
+      - 3 Yõhánã
+      - 3Yn
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yõhánã
+  - osis: John
+    texts:
+      - Yõhánã
+      - Yoh
+  - osis: Acts
+    texts:
+      - ꞌEtáŋá
+      - Eta
+  - osis: Rom
+    texts:
+      - Rụ́mị̃
+      - Rum
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kọ̃rị̃nị́tọ̃
+  - osis: 1Cor
+    texts:
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - 2Ko
+  - osis: Col
+    texts:
+      - Kõlõsáyĩ
+      - Kol
+  - osis: Gal
+    texts:
+      - Gãlãtị́yã
+      - Gal
+  - osis: Eph
+    texts:
+      - Ẽfésõ
+      - Efe
+  - osis: Phil
+    texts:
+      - Fị̃lị́pị̃
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tẹ̃sãlọ̃nị́kị̃
+  - osis: 1Thess
+    texts:
+      - 1Te
+  - osis: 2Thess
+    texts:
+      - 2Te
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tị̃mị̃tị́yọ̃
+  - osis: 1Tim
+    texts:
+      - 1Ti
+  - osis: 2Tim
+    texts:
+      - 2Ti
+  - osis: Titus
+    texts:
+      - Tị́tọ̃
+      - Tit
+  - osis: Phlm
+    texts:
+      - Fị̃lị̃mọ́nã
+      - Flm
+  - osis: Heb
+    texts:
+      - Ẽbũrãníyã
+      - Ebr
+  - osis: Jas
+    texts:
+      - Yãkóꞌbõ
+      - Yak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pétẽrõ
+  - osis: 1Pet
+    texts:
+      - 1Pe
+  - osis: 2Pet
+    texts:
+      - 2Pe
+  - osis: Jude
+    texts:
+      - Yụ́dã
+      - Yud
+translations:
+  - LUC

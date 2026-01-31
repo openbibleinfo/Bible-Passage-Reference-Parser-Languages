@@ -1,0 +1,113 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Apokalípisi
+      - Ap
+  - osis: Matt
+    texts:
+      - Máteu
+      - Mt
+  - osis: Mark
+    texts:
+      - Márku
+      - Mk
+  - osis: Luke
+    texts:
+      - Lúka
+      - Lk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Xuâum
+      - Xu
+  - osis: Acts
+    texts:
+      - Átu
+      - Át
+  - osis: Rom
+    texts:
+      - Rómanu
+      - Rm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Koríntiu
+      - Ko
+  - osis: Col
+    texts:
+      - Kolósensi
+      - Kol
+  - osis: Gal
+    texts:
+      - Ngâlata
+      - Ngâ
+  - osis: Eph
+    texts:
+      - Éfeziu
+      - Éf
+  - osis: Phil
+    texts:
+      - Filípensi
+      - Fp
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalonísensi
+      - Ts
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timóti
+      - Tm
+  - osis: Titus
+    texts:
+      - Títu
+      - Tít
+  - osis: Phlm
+    texts:
+      - Filémom
+      - Fm
+  - osis: Heb
+    texts:
+      - Êbereu
+      - Êb
+  - osis: Jas
+    texts:
+      - Teâku
+      - Tk
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pêturu
+      - Pê
+  - osis: Jude
+    texts:
+      - Njûda
+      - Njû
+translations:
+  - TERNT

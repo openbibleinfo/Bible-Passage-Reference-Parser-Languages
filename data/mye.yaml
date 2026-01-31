@@ -1,0 +1,239 @@
+variables:
+  first: &first
+    - "1"
+    - I
+  second: &second
+    - "2"
+    - II
+books:
+  - osis: Gen
+    texts:
+      - Ipakilya
+  - osis: Exod
+    texts:
+      - Ikogwa
+  - osis: Lev
+    texts:
+      - Levitiki
+  - osis: Num
+    texts:
+      - Itangô
+  - osis: Lam
+    texts:
+      - Dingô Yi Yeremya
+      - Dingô
+  - osis: Rev
+    texts:
+      - Itum̃inya
+      - Itu
+  - osis: Deut
+    texts:
+      - Ivanga Ny’ambaṉi
+  - osis: Josh
+    texts:
+      - Yôsua
+  - osis: Judg
+    texts:
+      - Iyèkèli
+      - Iyèk
+  - osis: Ruth
+    texts:
+      - Ruti
+  - osis: Isa
+    texts:
+      - Yezaya
+      - Yez
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuèl
+      - Sam
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Aga
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Krôniki
+      - Kron
+  - osis: Ezra
+    texts:
+      - Ezrasi
+      - Ezra
+  - osis: Neh
+    texts:
+      - Neemya
+      - Neem
+  - osis: Esth
+    texts:
+      - Estèr
+  - osis: Job
+    texts:
+      - Yobu
+  - osis: Ps
+    texts:
+      - Ijembô
+  - osis: Prov
+    texts:
+      - Inkôgô
+  - osis: Eccl
+    texts:
+      - Ôkambi
+  - osis: Song
+    texts:
+      - Evanda Z’ijembô
+      - Evanda
+  - osis: Jer
+    texts:
+      - Yeremya
+      - Yer
+  - osis: Ezek
+    texts:
+      - Ezekyèl
+      - Ezek
+  - osis: Dan
+    texts:
+      - Danyèl
+      - Dan
+  - osis: Hos
+    texts:
+      - Ôsea
+  - osis: Joel
+    texts:
+      - Yôèl
+  - osis: Amos
+    texts:
+      - Amosi
+  - osis: Obad
+    texts:
+      - Abidyas
+      - Abid
+  - osis: Jonah
+    texts:
+      - Yôna
+  - osis: Mic
+    texts:
+      - Mika
+  - osis: Nah
+    texts:
+      - Naum̃u
+  - osis: Hab
+    texts:
+      - Abakuk
+      - Abak
+  - osis: Zeph
+    texts:
+      - Zefanya
+      - Zef
+  - osis: Hag
+    texts:
+      - Agay
+  - osis: Zech
+    texts:
+      - Zakarya
+      - Zak
+  - osis: Mal
+    texts:
+      - Malaki
+      - Mal
+  - osis: Matt
+    texts:
+      - Matay
+  - osis: Mark
+    texts:
+      - Mark
+  - osis: Luke
+    texts:
+      - Luk
+  - osis: 3John
+    texts:
+      - III Yôan
+      - 3 Yôan
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yôan
+  - osis: Acts
+    texts:
+      - Rôm̃i
+  - osis: Rom
+    texts:
+      - Rôma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kôrinti
+      - Kôr
+  - osis: Col
+    texts:
+      - Kôlosi
+      - Kôl
+  - osis: Gal
+    texts:
+      - Galati
+      - Gal
+  - osis: Eph
+    texts:
+      - Efèsi
+  - osis: Phil
+    texts:
+      - Filipi
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalôniki
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timôte
+      - Tim
+  - osis: Titus
+    texts:
+      - Tite
+  - osis: Phlm
+    texts:
+      - Filemône
+      - Filem
+  - osis: Heb
+    texts:
+      - Ebèr
+  - osis: Jas
+    texts:
+      - Yakobu
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pyère
+  - osis: Jude
+    texts:
+      - Yudi
+translations:
+  - MYE

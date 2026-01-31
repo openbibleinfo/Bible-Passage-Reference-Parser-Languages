@@ -1,0 +1,118 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Zenez
+      - Zen
+  - osis: Rev
+    texts:
+      - Rev
+  - osis: Ruth
+    texts:
+      - Rit
+  - osis: Isa
+    texts:
+      - Izai
+      - Iza
+  - osis: Esth
+    texts:
+      - Ester
+      - Est
+  - osis: Ps
+    texts:
+      - Psom
+      - Psm
+  - osis: Prov
+    texts:
+      - Proverb
+      - Pro
+  - osis: Matt
+    texts:
+      - Mt
+  - osis: Mark
+    texts:
+      - Mk
+  - osis: Luke
+    texts:
+      - Lk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Zn
+  - osis: Acts
+    texts:
+      - Zis
+  - osis: Rom
+    texts:
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Ko
+  - osis: Col
+    texts:
+      - Kol
+  - osis: Gal
+    texts:
+      - Ga
+  - osis: Eph
+    texts:
+      - Ef
+  - osis: Phil
+    texts:
+      - Fil
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tes
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tim
+  - osis: Titus
+    texts:
+      - Tit
+  - osis: Phlm
+    texts:
+      - Flm
+  - osis: Heb
+    texts:
+      - Eb
+  - osis: Jas
+    texts:
+      - Zak
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pi
+  - osis: Jude
+    texts:
+      - Zid
+translations:
+  - KMOTPOR
+  - NTKM2009
+  - KMNT

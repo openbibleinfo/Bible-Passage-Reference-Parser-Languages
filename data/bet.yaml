@@ -1,0 +1,108 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - "'Ylimötulanɩlii"
+      - "'Ylimö"
+  - osis: Matt
+    texts:
+      - Matie
+  - osis: Mark
+    texts:
+      - Maakö
+  - osis: Luke
+    texts:
+      - Lwiikö
+      - Lwii
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Zaa
+  - osis: Acts
+    texts:
+      - Nʋnʋlii
+      - Nʋnʋ
+  - osis: Rom
+    texts:
+      - Ghlɔɔmö a ‑nʋa
+      - Ghlɔ
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kolɛɛtɩ a ‑nʋa
+      - Kolɛ
+  - osis: Col
+    texts:
+      - Kolɔɔsɩ a ‑nʋa
+      - Kolɔ
+  - osis: Gal
+    texts:
+      - Galatii a ‑nʋa
+      - Gala
+  - osis: Eph
+    texts:
+      - Efɛɛzɩ a ‑nʋa
+      - Efɛ
+  - osis: Phil
+    texts:
+      - Filiipö a ‑nʋa
+      - Fili
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesaloniikö a ‑nʋa
+      - Tesa
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timotee
+      - Timo
+  - osis: Titus
+    texts:
+      - Tiitɩ
+  - osis: Phlm
+    texts:
+      - Filemɔɔ
+      - File
+  - osis: Heb
+    texts:
+      - Ebleewaa
+      - Eblee
+  - osis: Jas
+    texts:
+      - Zaakö
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Piɛlɩ
+      - Piɛ
+  - osis: Jude
+    texts:
+      - Zwiidɩ
+      - Zwii
+translations:
+  - BET

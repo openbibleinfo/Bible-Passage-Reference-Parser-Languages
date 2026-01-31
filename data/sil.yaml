@@ -1,0 +1,219 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Wɩaa Dɩ-suomuŋ
+  - osis: Exod
+    texts:
+      - Mosis Kɛŋ Iziral Tɩŋŋaa Lɩɩ
+  - osis: Lev
+    texts:
+      - Levi Doho Nɩaa
+  - osis: Num
+    texts:
+      - Nambaba
+  - osis: Lam
+    texts:
+      - Jembiee
+  - osis: Rev
+    texts:
+      - Jɔɔŋ Wʋnaalaa
+  - osis: Deut
+    texts:
+      - Mosis Bɩra Wulli Wɩa Wombiiŋ
+  - osis: Josh
+    texts:
+      - Josua
+  - osis: Judg
+    texts:
+      - Sɩpaalaaraa
+  - osis: Ruth
+    texts:
+      - Ruf
+  - osis: Isa
+    texts:
+      - Azaaya
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samʋɛl
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Kuoroo
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Iziral Tɩŋŋaa Naabarɩŋ
+  - osis: Ezra
+    texts:
+      - Ɛzɩra
+  - osis: Neh
+    texts:
+      - Nɛhɩmaaya
+  - osis: Esth
+    texts:
+      - Ɛsɩta
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Wɩa Yɩɩlaa
+  - osis: Prov
+    texts:
+      - Namagaba
+  - osis: Eccl
+    texts:
+      - Tɩɩcha
+  - osis: Song
+    texts:
+      - Solomoŋ Yɩɩl-sɩmɩŋ
+  - osis: Jer
+    texts:
+      - Jɛrɩmaaya
+  - osis: Ezek
+    texts:
+      - Ɛzɩkɩɛl
+  - osis: Dan
+    texts:
+      - Danɩɛl
+  - osis: Hos
+    texts:
+      - Hosia
+  - osis: Joel
+    texts:
+      - Jowɛl
+  - osis: Amos
+    texts:
+      - Amɔs
+  - osis: Obad
+    texts:
+      - Obadaaya
+  - osis: Jonah
+    texts:
+      - Jona
+  - osis: Mic
+    texts:
+      - Mɩka
+  - osis: Nah
+    texts:
+      - Nahum
+  - osis: Hab
+    texts:
+      - Habaku
+  - osis: Zeph
+    texts:
+      - Zefanaaya
+  - osis: Hag
+    texts:
+      - Hagaɩ
+  - osis: Zech
+    texts:
+      - Zɛkarɩya
+  - osis: Mal
+    texts:
+      - Malakaɩ
+  - osis: Matt
+    texts:
+      - Matiu
+      - Mat.
+  - osis: Mark
+    texts:
+      - Maak
+  - osis: Luke
+    texts:
+      - Luuk
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jɔɔŋ
+  - osis: Acts
+    texts:
+      - Yesu nanz.
+      - Tɩntɩŋŋaa
+  - osis: Rom
+    texts:
+      - Rom Tɩŋŋaa
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - Kɔrɩntɩ Nɩaa
+      - Kɔr.
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kɔrɩntɩ Nɩaa
+  - osis: Col
+    texts:
+      - Koloosi Nɩaa
+  - osis: Gal
+    texts:
+      - Galiisia Nɩaa
+  - osis: Eph
+    texts:
+      - Ɛfɛsɩs Nɩaa
+  - osis: Phil
+    texts:
+      - Fɩlɩpa Nɩaa
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tɛsalonaaka Nɩaa
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: Titus
+    texts:
+      - Taatɩs
+  - osis: Phlm
+    texts:
+      - Fɩlɩmɔŋ
+  - osis: Heb
+    texts:
+      - Hiburu Tɩŋŋaa
+  - osis: Jas
+    texts:
+      - Jeems
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pɩɩta
+  - osis: Jude
+    texts:
+      - Juud
+translations:
+  - SIS

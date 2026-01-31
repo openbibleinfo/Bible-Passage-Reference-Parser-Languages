@@ -1,0 +1,286 @@
+- osis: Gen
+  texts:
+    - Genesi
+    - Gen.
+- osis: Exod
+  texts:
+    - Ekisoda
+    - Ek.
+- osis: Lev
+  texts:
+    - Livitiko
+    - Liv.
+- osis: Num
+  texts:
+    - Numeri
+    - Num.
+- osis: Lam
+  texts:
+    - Zwililo
+- osis: Rev
+  texts:
+    - Nzumbululo
+    - Nzumb.
+- osis: Deut
+  texts:
+    - Dotoronomio
+    - Dot.
+- osis: Josh
+  texts:
+    - Joshua
+    - Josh.
+- osis: Judg
+  texts:
+    - Vharangaphanḓa
+    - Rangap.
+- osis: Ruth
+  texts:
+    - Rute
+- osis: Isa
+  texts:
+    - Yesaya
+    - Yes.
+- osis: 1Sam
+  texts:
+    - 1 Samuele
+    - 1 Sam.
+    - 1. Samuele
+    - 1. Sam.
+- osis: 2Sam
+  texts:
+    - 2 Samuele
+    - 2 Sam.
+    - 2. Samuele
+    - 2. Sam.
+- osis: 1Kgs
+  texts:
+    - 1 Mahosi
+    - 1 Mah.
+    - 1. Mahosi
+    - 1. Mah.
+- osis: 2Kgs
+  texts:
+    - 2 Mahosi
+    - 2 Mah.
+    - 2. Mahosi
+    - 2. Mah.
+- osis: 1Chr
+  texts:
+    - 1 Koronika
+    - 1 Koron.
+    - 1. Koronika
+    - 1. Koron.
+- osis: 2Chr
+  texts:
+    - 2 Koronika
+    - 2 Koron.
+    - 2. Koronika
+    - 2. Koron.
+- osis: Ezra
+  texts:
+    - Esra
+- osis: Neh
+  texts:
+    - Nehemia
+    - Neh.
+- osis: Esth
+  texts:
+    - Estere
+- osis: Job
+  texts:
+    - Jobo
+- osis: Ps
+  texts:
+    - Dziphisalema
+    - Ps.
+- osis: Prov
+  texts:
+    - Mirero
+    - Mir.
+- osis: Eccl
+  texts:
+    - Mufunzi
+- osis: Song
+  texts:
+    - Luimboimbo
+    - Luimbo.
+- osis: Jer
+  texts:
+    - Jeremia
+    - Jer.
+- osis: Ezek
+  texts:
+    - Esekiele
+    - Esek.
+- osis: Dan
+  texts:
+    - Daniele
+    - Dan.
+- osis: Hos
+  texts:
+    - Hosia
+    - Hos.
+- osis: Joel
+  texts:
+    - Juele
+- osis: Amos
+  texts:
+    - Amusi
+    - Am.
+- osis: Obad
+  texts:
+    - Obadia
+- osis: Jonah
+  texts:
+    - Jonasi
+- osis: Mic
+  texts:
+    - Mika
+- osis: Nah
+  texts:
+    - Nahumi
+    - Nah.
+- osis: Hab
+  texts:
+    - Habakuku
+    - Hab.
+- osis: Zeph
+  texts:
+    - Tsefania
+    - Tsef.
+- osis: Hag
+  texts:
+    - Hagai
+- osis: Zech
+  texts:
+    - Zakaria
+    - Zak.
+- osis: Mal
+  texts:
+    - Malakia
+    - Mal.
+- osis: Matt
+  texts:
+    - Matiosi
+    - Mat.
+- osis: Mark
+  texts:
+    - Markosi
+    - Mar.
+- osis: Luke
+  texts:
+    - Lukasi
+    - Luk.
+- osis: 1John
+  texts:
+    - 1 Johanisi
+    - 1 Joh.
+    - 1. Johanisi
+    - 1. Joh.
+- osis: 2John
+  texts:
+    - 2 Johanisi
+    - 2 Joh.
+    - 2. Johanisi
+    - 2. Joh.
+- osis: 3John
+  texts:
+    - 3 Johanisi
+    - 3 Joh.
+    - 3. Johanisi
+    - 3. Joh.
+- osis: John
+  texts:
+    - Johanisi
+    - Joh.
+- osis: Acts
+  texts:
+    - Mishumo
+    - Mish.
+- osis: Rom
+  texts:
+    - Vharoma
+    - Rom.
+- osis: 1Cor
+  texts:
+    - 1 Vhakorinta
+    - 1 Korint.
+    - 1. Vhakorinta
+    - 1. Korint.
+- osis: 2Cor
+  texts:
+    - 2 Vhakorinta
+    - 2 Korint.
+    - 2. Vhakorinta
+    - 2. Korint.
+- osis: Col
+  texts:
+    - Vhakolosa
+    - Kol.
+- osis: Gal
+  texts:
+    - Vhagalata
+    - Gal.
+- osis: Eph
+  texts:
+    - Vhaefesa
+    - Ef.
+- osis: Phil
+  texts:
+    - Vhafilipi
+    - Filip.
+- osis: 1Thess
+  texts:
+    - 1 Vhathesalonika
+    - 1 Thes.
+    - 1. Vhathesalonika
+    - 1. Thes.
+- osis: 2Thess
+  texts:
+    - 2 Vhathesalonika
+    - 2 Thes.
+    - 2. Vhathesalonika
+    - 2. Thes.
+- osis: 1Tim
+  texts:
+    - 1 Timoti
+    - 1 Tim.
+    - 1. Timoti
+    - 1. Tim.
+- osis: 2Tim
+  texts:
+    - 2 Timoti
+    - 2 Tim.
+    - 2. Timoti
+    - 2. Tim.
+- osis: Titus
+  texts:
+    - Titosi
+    - Tit.
+- osis: Phlm
+  texts:
+    - Filimoni
+    - Filim.
+- osis: Heb
+  texts:
+    - Vhaheberu
+    - Heb.
+- osis: Jas
+  texts:
+    - Jakopo
+    - Jak.
+- osis: 1Pet
+  texts:
+    - 1 Pitrosi
+    - 1 Pit.
+    - 1. Pitrosi
+    - 1. Pit.
+- osis: 2Pet
+  texts:
+    - 2 Pitrosi
+    - 2 Pit.
+    - 2. Pitrosi
+    - 2. Pit.
+- osis: Jude
+  texts:
+    - Judasi

@@ -1,0 +1,124 @@
+variables:
+  second: &second
+    - A
+    - Atãri
+books:
+  - osis: Rev
+    texts:
+      - Mỳjja apôx
+      - Ap
+  - osis: Matt
+    texts:
+      - Matêu
+      - Mat
+  - osis: Mark
+    texts:
+      - Makô
+      - Mak
+  - osis: Luke
+    texts:
+      - Ruka
+      - Ruk
+  - osis: 1John
+    texts:
+      - Djuão kumrẽx
+      - Dju k
+  - osis: 3John
+    texts:
+      - Djuãoo ino rer
+      - Dju o
+  - osis: John
+    texts:
+      - Djuão rax
+      - Dju r
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - Djuão
+      - Dju
+  - osis: Acts
+    texts:
+      - Metĩndjwỳnh Karõ
+      - Kar
+  - osis: Rom
+    texts:
+      - Rôma
+      - Rô
+  - osis: 1Cor
+    texts:
+      - Kôritu kumrẽx
+      - Kô k
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kôritu
+      - Kô
+  - osis: Col
+    texts:
+      - Korxi
+      - Kor
+  - osis: Gal
+    texts:
+      - Garaxa
+      - Gar
+  - osis: Eph
+    texts:
+      - Epexu
+      - Ep
+  - osis: Phil
+    texts:
+      - Pirpu
+      - Pir
+  - osis: 1Thess
+    texts:
+      - Texarônika kumrẽx
+      - Tex k
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Texarônika
+      - Tex
+  - osis: 1Tim
+    texts:
+      - Ximoxi kumrẽx
+      - Xim k
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Ximoxi
+      - Xim
+  - osis: Titus
+    texts:
+      - Xitu
+      - Xit
+  - osis: Phlm
+    texts:
+      - Piremõ
+      - Pire
+  - osis: Heb
+    texts:
+      - Mekbê idjaer
+      - Idja
+  - osis: Jas
+    texts:
+      - Xijagu
+      - Xij
+  - osis: 1Pet
+    texts:
+      - Pedru kumrẽx
+      - Ped k
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pedru
+      - Ped
+  - osis: Jude
+    texts:
+      - Djuda
+translations:
+  - TXU

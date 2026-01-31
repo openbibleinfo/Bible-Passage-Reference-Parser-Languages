@@ -1,0 +1,95 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Josh
+    texts:
+      - Yoosuwa
+  - osis: Judg
+    texts:
+      - Makaabon
+  - osis: Ruth
+    texts:
+      - Ruut
+  - osis: Isa
+    texts:
+      - Yasaqya
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samuwel
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Malikwa
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Aydaad
+  - osis: Ezra
+    texts:
+      - Qedra
+  - osis: Neh
+    texts:
+      - Nacmiya
+  - osis: Esth
+    texts:
+      - Aster
+  - osis: Jer
+    texts:
+      - Ermiyaas
+  - osis: Ezek
+    texts:
+      - Yacedkel
+  - osis: Dan
+    texts:
+      - Daaniyel
+  - osis: Hos
+    texts:
+      - Hosiqa
+  - osis: Joel
+    texts:
+      - Ayyuqel
+  - osis: Amos
+    texts:
+      - Qaamus
+  - osis: Obad
+    texts:
+      - Qobadya
+  - osis: Jonah
+    texts:
+      - Yoonas
+  - osis: Mic
+    texts:
+      - Miika
+  - osis: Nah
+    texts:
+      - Naacum
+  - osis: Hab
+    texts:
+      - Cabakkuk
+  - osis: Zeph
+    texts:
+      - Xafanya
+  - osis: Hag
+    texts:
+      - Caggay
+  - osis: Zech
+    texts:
+      - Zakariyya
+  - osis: Mal
+    texts:
+      - Malaaki
+translations:
+  - AHPB

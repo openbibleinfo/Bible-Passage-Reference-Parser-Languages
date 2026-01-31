@@ -1,0 +1,223 @@
+default:
+  1Chr:
+    long: 1 Tsinyinga
+    short: 1 Tsiny
+  1Cor:
+    long: 1 Vakorinzo
+    short: 1 Vakor
+  1John:
+    long: 1 Yohana
+    short: 1 Yoh
+  1Kgs:
+    long: 1 Vami
+    short: 1 Vami
+  1Macc:
+    long: 1 Makabayo
+    short: 1 Mak
+  1Pet:
+    long: 1 Petro
+    short: 1 Pet
+  1Sam:
+    long: Samweli
+    short: 1 Sam
+  1Thess:
+    long: 1 Vatesalonike
+    short: 1 Vates
+  1Tim:
+    long: 1 Timoteo
+    short: 1 Tim
+  2Chr:
+    long: 2 Tsinyinga
+    short: 2 Tsiny
+  2Cor:
+    long: Vakorinzo
+    short: 2 Vakor
+  2John:
+    long: 2 Yohana
+    short: 2 Yoh
+  2Kgs:
+    long: 2 Vami
+    short: 2 Vami
+  2Macc:
+    long: Makabayo
+    short: 2 Mak
+  2Pet:
+    long: 2 Petro
+    short: 2 Pet
+  2Sam:
+    long: 2 Samweli
+    short: 2 Sam
+  2Thess:
+    long: 2 Vatesalonike
+    short: 2 Vates
+  2Tim:
+    long: 2 Timoteo
+    short: 2 Tim
+  3John:
+    long: 3 Yohana
+    short: 3 Yoh
+  Acts:
+    long: Vikholwa
+    short: Vikh
+  Amos:
+    long: Amosi
+    short: Amo
+  Bar:
+    long: Baruku
+    short: Bar
+  Col:
+    long: Vakolosai
+    short: Vakol
+  Dan:
+    long: Danieli
+    short: Dan
+  Deut:
+    long: Litsushitswa
+    short: Litsu
+  Eccl:
+    long: Mwilwatsi
+    short: Mwil
+  Eph:
+    long: VaEfeso
+    short: Vaef
+  Esth:
+    long: Esita
+    short: Est
+  EsthGr:
+    long: Esita (Muluguriki)
+    short: Esgk
+  Exod:
+    long: Khurula
+    short: Khur
+  Ezek:
+    long: Ezekieli
+    short: Ezek
+  Ezra:
+    long: Ezira
+    short: Ezira
+  Gal:
+    long: Vagalatia
+    short: Vagal
+  Gen:
+    long: Liraanga
+    short: Lir
+  Hab:
+    long: Habakuku
+    short: Hab
+  Hag:
+    long: Hagai
+    short: Hag
+  Heb:
+    long: Vahebrania
+    short: VaHeb
+  Hos:
+    long: Hoseha
+    short: Hos
+  Isa:
+    long: Isaya
+    short: Isa
+  Jas:
+    long: Yakobo
+    short: Yak
+  Jdt:
+    long: Yuditsi
+    short: Yudt
+  Jer:
+    long: Yeremia
+    short: Yer
+  Job:
+    long: Ayubu
+    short: Ayu
+  Joel:
+    long: Yoeli
+    short: Yoe
+  John:
+    long: Yohana
+    short: Yoh
+  Jonah:
+    long: Yona
+    short: Yona
+  Josh:
+    long: Yoshwa
+    short: Yosh
+  Jude:
+    long: Yuda
+    short: Yuda
+  Judg:
+    long: Vakhalachi
+    short: Vakh
+  Lam:
+    long: Lwikhulu
+    short: Lwik
+  Lev:
+    long: Levi
+    short: Lev
+  Luke:
+    long: Luka
+    short: Luka
+  Mal:
+    long: Malaki
+    short: Mal
+  Mark:
+    long: Mariko
+    short: Mk
+  Matt:
+    long: Matayo
+    short: Mat
+  Mic:
+    long: Mika
+    short: Mika
+  Nah:
+    long: Nahumu
+    short: Nah
+  Neh:
+    long: Nehemia
+    short: Neh
+  Num:
+    long: Livalitswa
+    short: Liv
+  Obad:
+    long: Obadia
+    short: Obad
+  Phil:
+    long: Vafilipi
+    short: Vafil
+  Phlm:
+    long: Filimona
+    short: Fil
+  Prov:
+    long: Tsinganu
+    short: Tsing
+  Ps:
+    long: Tsaburi
+    short: Tsab
+  Rev:
+    long: Likhunulilwa
+    short: Likh
+  Rom:
+    long: VaRoma
+    short: VaRom
+  Ruth:
+    long: Rutsi
+    short: Rut
+  Sir:
+    long: Sira
+    short: Sira
+  Song:
+    long: Lwimbo Lulahi Lwene
+    short: Lwim
+  Titus:
+    long: Tito
+    short: Tito
+  Tob:
+    long: Tobiti
+    short: Tob
+  Wis:
+    long: Vusitsa Vwa Solomoni
+    short: Vus
+  Zech:
+    long: Zakaria
+    short: Zak
+  Zeph:
+    long: Zefania
+    short: Zef

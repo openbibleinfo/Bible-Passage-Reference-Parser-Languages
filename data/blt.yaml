@@ -1,0 +1,99 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Exod
+    texts:
+      - ꞌPai sia ꞌmướng
+  - osis: Rev
+    texts:
+      - Nả ꞌviạk ꞌchí ꞌchọ pên ók
+  - osis: Ruth
+    texts:
+      - ꞌLụt
+  - osis: Matt
+    texts:
+      - ꞌMặt‑ꞌthai
+  - osis: Mark
+    texts:
+      - ꞌMa‑ꞌla‑cô
+  - osis: Luke
+    texts:
+      - ꞌLu‑ca
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Dô‑ꞌhăn
+  - osis: Acts
+    texts:
+      - Nả ꞌviạk ꞌpứng ꞌlam ꞌchạư
+  - osis: Rom
+    texts:
+      - Lôm
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Cô‑ꞌlin‑ꞌthô
+  - osis: Col
+    texts:
+      - Cô‑ꞌlô‑ꞌsai
+  - osis: Gal
+    texts:
+      - ꞌKha‑ꞌla‑tia
+  - osis: Eph
+    texts:
+      - Ê‑ꞌphê‑ꞌsô
+  - osis: Phil
+    texts:
+      - ꞌPhi‑ꞌlịp‑poi
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - ꞌThê‑ꞌsa‑ꞌlôn
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Ti‑ꞌmô‑ꞌthiêu
+  - osis: Titus
+    texts:
+      - Ti‑tô
+  - osis: Phlm
+    texts:
+      - ꞌPhi‑ꞌlê‑ꞌmôn
+  - osis: Heb
+    texts:
+      - ꞌHệp‑ꞌlơ
+  - osis: Jas
+    texts:
+      - Da‑cô‑bô
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pê‑tô
+  - osis: Jude
+    texts:
+      - Du‑đe
+translations:
+  - BLT

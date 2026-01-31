@@ -1,0 +1,87 @@
+default:
+  1Cor:
+    long: 1 Vakolinto
+    short: 1 Vako
+  1John:
+    long: 1 Yohani
+    short: 1 Yoh
+  1Pet:
+    long: 1 Petili
+    short: 1 Pet
+  1Thess:
+    long: 1 Vatesolonike
+    short: 1 Vat
+  1Tim:
+    long: 1 Timoti
+    short: 1 Tim
+  2Cor:
+    long: 2 Vakolinto
+    short: 2 Vako
+  2John:
+    long: 2 Yohani
+    short: 2 Yoh
+  2Pet:
+    long: 2 Petili
+    short: 2 Pet
+  2Thess:
+    long: 2 Vatesolonike
+    short: 2 Vat
+  2Tim:
+    long: 2 Timoti
+    short: 2 Tim
+  3John:
+    long: 3 Yohani
+    short: 3 Yoh
+  Acts:
+    long: Matendu
+    short: Mate
+  Col:
+    long: Vakolosai
+    short: Vak
+  Eph:
+    long: VaEfeso
+    short: Vae
+  Gal:
+    long: Vagalatia
+    short: Vag
+  Heb:
+    long: Vaebulania
+    short: Vaeb
+  Jas:
+    long: Yakobo
+    short: Yak
+  John:
+    long: Yohani
+    short: Yoh
+  Jude:
+    long: Yuda
+    short: Yud
+  Luke:
+    long: Luka
+    short: Luk
+  Mark:
+    long: Maluko
+    short: Mak
+  Matt:
+    long: Matei
+    short: Mat
+  Phil:
+    long: Vafilipi
+    short: Vaf
+  Phlm:
+    long: Filimoni
+    short: Fil
+  Rev:
+    long: Ugubukulo
+    short: Ugub
+  Rom:
+    long: Valumi
+    short: Val
+  Titus:
+    long: Tito
+    short: Tit
+translations:
+  ng1898:
+    Mark:
+      long: Marko
+      short: Marko

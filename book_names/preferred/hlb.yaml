@@ -1,0 +1,163 @@
+default:
+  1Cor:
+    long: 1 कुरिन्थियो
+    short: 1 कुरिन्थ
+  1John:
+    long: 1 यूहन्ना
+    short: 1 यूह
+  1Pet:
+    long: 1 पतरस
+    short: 1 पत
+  1Thess:
+    long: 1 थिस्सलुनीकियो
+    short: 1 थिस्सलु
+  1Tim:
+    long: 1 तीमुथियुस
+    short: 1 तीमुथि
+  2Cor:
+    long: 2 कुरिन्थियो
+    short: 2 कुरिन्थ
+  2John:
+    long: 2 यूहन्ना
+    short: 2 यूह
+  2Pet:
+    long: 2 पतरस
+    short: 2 पत
+  2Thess:
+    long: 2 थिस्सलुनीकियो
+    short: 2 थिस्सलु
+  2Tim:
+    long: 2 तीमुथियुस
+    short: 2 तीमुथि
+  3John:
+    long: 3 यूहन्ना
+    short: 3 यूह
+  Acts:
+    long: पठालोबितामन
+    short: पठालोबिता
+  Col:
+    long: कुलुस्सियो
+    short: कुलु
+  Eph:
+    long: इफिसियों
+    short: इफिसी
+  Gal:
+    long: गलातियो
+    short: गलाति
+  Heb:
+    long: इब्रानियो
+    short: इब्रा
+  Jas:
+    long: याकूब
+    short: याक
+  John:
+    long: यूहन्ना
+    short: यूह
+  Jude:
+    long: यहूदा
+    short: यहू
+  Luke:
+    long: लूका
+    short: लूक
+  Mark:
+    long: मरकुस
+    short: मर.
+  Matt:
+    long: मत्ती
+    short: मत.
+  Phil:
+    long: फिलिप्पियो
+    short: फिलिप्पि
+  Phlm:
+    long: फिलेमोन
+    short: फिले
+  Rev:
+    long: प्रकाशितवाक्य
+    short: प्रकाशी
+  Rom:
+    long: रोमियो
+    short: रोमि
+  Titus:
+    long: तीतुस
+    short: तीतु
+translations:
+  ntmtp24:
+    1Cor:
+      short: 1 कुरिन्थियो
+    1John:
+      long: 1यूहन्ना
+      short: 1यूहन्ना
+    1Pet:
+      long: 1पतरस
+      short: 1पतरस
+    1Thess:
+      short: 1 थिस्सलुनीकियो
+    1Tim:
+      long: 1तीमुथियुस
+      short: 1तीमुथियुस
+    2Cor:
+      short: 2 कुरिन्थियो
+    2John:
+      short: 2 यूहन्ना
+    2Pet:
+      short: 2 पतरस
+    2Thess:
+      short: 2 थिस्सलुनीकियो
+    2Tim:
+      short: 2 तीमुथियुस
+    3John:
+      short: 3 यूहन्ना
+    Acts:
+      long: प्रेरितो
+      short: प्रेरितो
+    Col:
+      short: कुलुस्सियो
+    Eph:
+      long: इफिसीयो
+      short: इफिसीयो
+    Gal:
+      short: गलातियो
+    Heb:
+      short: इब्रानियो
+    Jas:
+      short: याकूब
+    John:
+      short: यूहन्ना
+    Jude:
+      short: यहूदा
+    Luke:
+      short: लूका
+    Mark:
+      short: मरकुस
+    Matt:
+      short: मत्ती
+    Phil:
+      short: फिलिप्पियो
+    Phlm:
+      short: फिलेमोन
+    Rev:
+      long: प्रकासितवाक्य
+      short: प्रकासितवाक्य
+    Rom:
+      short: रोमियो
+    Titus:
+      short: तीतुस
+  hlbnt:
+    1Cor:
+      long: 1 कुरिन्थियों
+    1Thess:
+      long: 1 थिस्सलुनीकियों
+    2Cor:
+      long: 2 कुरिन्थियों
+    2Thess:
+      long: 2 थिस्सलुनीकियों
+    Col:
+      long: कुलुस्सियों
+    Gal:
+      long: गलातियों
+    Heb:
+      long: इब्रानियों
+    Phil:
+      long: फिलिप्पियों
+    Rom:
+      long: रोमियों

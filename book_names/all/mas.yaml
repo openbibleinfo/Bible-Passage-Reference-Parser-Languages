@@ -1,0 +1,439 @@
+- osis: Gen
+  texts:
+    - Enkiterunoto
+    - Enk
+- osis: Exod
+  texts:
+    - Enaidurra
+    - Ena
+- osis: Lev
+  texts:
+    - Ilawi
+    - Ilaw
+- osis: Num
+  texts:
+    - Enkikena
+    - Enki
+- osis: Sir
+  texts:
+    - Sirak
+- osis: Wis
+  texts:
+    - Eng'eno nagut e Solomon
+    - Eng'e
+- osis: Lam
+  texts:
+    - Nkishirat
+    - Nkish
+- osis: Rev
+  texts:
+    - Embolunoto
+    - Emb
+- osis: Deut
+  texts:
+    - Enkigilata oo Nkitanapat
+    - Enkig
+- osis: Josh
+  texts:
+    - Yoshua
+    - Yosh
+- osis: Judg
+  texts:
+    - Ilarishak
+    - Ilari
+- osis: Ruth
+  texts:
+    - Rusi
+    - Ru
+- osis: Isa
+  texts:
+    - Isaya
+    - Isa
+- osis: 1Sam
+  texts:
+    - 1 Samuel
+    - 1 Sam
+    - 1. Samuel
+    - 1. Sam
+    - I. Samuel
+    - I. Sam
+- osis: 2Sam
+  texts:
+    - 2 Samuel
+    - 2 Sam
+    - 2. Samuel
+    - 2. Sam
+    - II. Samuel
+    - II. Sam
+- osis: 1Kgs
+  texts:
+    - 1 Ilaiguanak
+    - 1 Illaig
+    - 1 Ilai
+    - 1. Ilaiguanak
+    - 1. Illaig
+    - 1. Ilai
+    - I. Ilaiguanak
+    - I. Illaig
+    - I. Ilai
+- osis: 2Kgs
+  texts:
+    - 2 Ilaiguanak
+    - 2 Illaig
+    - 2 Ilai
+    - 2. Ilaiguanak
+    - 2. Illaig
+    - 2. Ilai
+    - II. Ilaiguanak
+    - II. Illaig
+    - II. Ilai
+- osis: 1Chr
+  texts:
+    - 1 Interpen
+    - 1 Intepen
+    - 1 Int
+    - 1. Interpen
+    - 1. Intepen
+    - 1. Int
+    - I. Interpen
+    - I. Intepen
+    - I. Int
+- osis: 2Chr
+  texts:
+    - 2 Intepen
+    - 2 Int
+    - 2. Intepen
+    - 2. Int
+    - II. Intepen
+    - II. Int
+- osis: Ezra
+  texts:
+    - Esra
+    - Esr
+- osis: Neh
+  texts:
+    - Nehemia
+    - Neh
+- osis: Esth
+  texts:
+    - Esta
+    - Est
+- osis: Job
+  texts:
+    - Yoab
+    - Yoa
+- osis: Ps
+  texts:
+    - Olkerempe le Nkai
+    - Olke
+    - Olk
+- osis: Prov
+  texts:
+    - Ndung'eta e Rashe
+    - Ndung
+- osis: Eccl
+  texts:
+    - Olaikooni
+    - Olaik
+- osis: Song
+  texts:
+    - Osinkolio le Solomon
+    - Osink
+- osis: Jer
+  texts:
+    - Yeremia
+    - Yer
+- osis: Ezek
+  texts:
+    - Esekiel
+    - Esek
+- osis: Dan
+  texts:
+    - Daniel
+    - Dan
+- osis: Hos
+  texts:
+    - Hosea
+    - Hos
+- osis: Joel
+  texts:
+    - Yoel
+    - Yoe
+- osis: Amos
+  texts:
+    - Amos
+    - Amo
+- osis: Obad
+  texts:
+    - Obadia
+    - Obad
+- osis: Jonah
+  texts:
+    - Yona
+    - Yon
+- osis: Mic
+  texts:
+    - Mika
+    - MiK
+- osis: Nah
+  texts:
+    - Nahum
+    - Nah
+- osis: Hab
+  texts:
+    - Habakuki
+    - Habakuk
+    - Haba
+    - Hab
+- osis: Zeph
+  texts:
+    - Sefania
+    - Sefa
+    - Sef
+- osis: Hag
+  texts:
+    - Hagai
+    - Hag
+- osis: Zech
+  texts:
+    - Sakaria
+    - Saka
+    - Sak
+- osis: Mal
+  texts:
+    - Malaki
+    - Mala
+    - Mal
+- osis: Matt
+  texts:
+    - Matayos
+    - Matayo
+    - Mat
+- osis: Mark
+  texts:
+    - Markos
+    - Marko
+    - Mk
+- osis: Luke
+  texts:
+    - Lukas
+    - Luka
+    - Lk
+- osis: 3John
+  texts:
+    - Empalai E Uni E Yohana
+    - III. Yohanes
+    - 3 Yohana
+    - 3 Yhn
+- osis: 1John
+  texts:
+    - 1 Yohanes
+    - 1 Yohana
+    - 1 Yhn
+    - 1. Yohanes
+    - 1. Yohana
+    - 1. Yhn
+    - I. Yohanes
+    - I. Yohana
+    - I. Yhn
+- osis: 2John
+  texts:
+    - 2 Yohanes
+    - 2 Yohana
+    - 2 Yhn
+    - 2. Yohanes
+    - 2. Yohana
+    - 2. Yhn
+    - II. Yohanes
+    - II. Yohana
+    - II. Yhn
+- osis: John
+  texts:
+    - Yohanes
+    - Yohana
+    - Yhn
+- osis: Acts
+  texts:
+    - Nkitobirat
+    - Iasat
+    - Iat
+- osis: Rom
+  texts:
+    - Romayoi
+    - iRoma
+    - Irm
+- osis: 1Cor
+  texts:
+    - 1 Ilkorintioi
+    - 1 Ilkorintio
+    - 1 Ilkorinto
+    - 1 Ilkor
+    - 1. Ilkorintioi
+    - 1. Ilkorintio
+    - 1. Ilkorinto
+    - 1. Ilkor
+    - I. Ilkorintioi
+    - I. Ilkorintio
+    - I. Ilkorinto
+    - I. Ilkor
+- osis: 2Cor
+  texts:
+    - 2 Ilkorintioi
+    - 2 Ilkorintio
+    - 2 Ilkorinto
+    - 2 Ilkor
+    - 2. Ilkorintioi
+    - 2. Ilkorintio
+    - 2. Ilkorinto
+    - 2. Ilkor
+    - II. Ilkorintioi
+    - II. Ilkorintio
+    - II. Ilkorinto
+    - II. Ilkor
+- osis: Col
+  texts:
+    - Ilkolosai
+    - Ilkol
+- osis: Gal
+  texts:
+    - Ilgalatai
+    - Ilgalatia
+    - Ilg
+- osis: Eph
+  texts:
+    - Ile Efeso
+    - Efesioi
+    - Efe
+- osis: Phil
+  texts:
+    - Ilfilipesioi
+    - Ilfilipi
+    - Ilf
+- osis: 1Thess
+  texts:
+    - 1 Iltesalonikes
+    - 1 Ilsesalonike
+    - 1 Ils
+    - 1. Iltesalonikes
+    - 1. Ilsesalonike
+    - 1. Ils
+    - I. Iltesalonikes
+    - I. Ilsesalonike
+    - I. Ils
+- osis: 2Thess
+  texts:
+    - 2 Iltesalonikes
+    - 2 Ilsesalonike
+    - 2 Ils
+    - 2. Iltesalonikes
+    - 2. Ilsesalonike
+    - 2. Ils
+    - II. Iltesalonikes
+    - II. Ilsesalonike
+    - II. Ils
+- osis: 1Tim
+  texts:
+    - 1 Timoteos
+    - 1 Timoteo
+    - 1 Tim
+    - 1. Timoteos
+    - 1. Timoteo
+    - 1. Tim
+    - I. Timoteos
+    - I. Timoteo
+    - I. Tim
+- osis: 2Tim
+  texts:
+    - 2 Timoteos
+    - 2 Timoteo
+    - 2 Tim
+    - 2. Timoteos
+    - 2. Timoteo
+    - 2. Tim
+    - II. Timoteos
+    - II. Timoteo
+    - II. Tim
+- osis: Titus
+  texts:
+    - Titos
+    - Tito
+    - Tit
+- osis: Phlm
+  texts:
+    - Filemon
+    - Filimon
+    - Fil
+- osis: Heb
+  texts:
+    - Ilhebrania
+    - Ilhebrayoi
+    - Ilbrania
+    - Ilb
+    - Ilh
+- osis: Jas
+  texts:
+    - Yakobos
+    - Yakobo
+    - Yko
+- osis: 1Pet
+  texts:
+    - 1 Petero
+    - 1 Petros
+    - 1 Pet
+    - 1. Petero
+    - 1. Petros
+    - 1. Pet
+    - I. Petero
+    - I. Petros
+    - I. Pet
+- osis: 2Pet
+  texts:
+    - 2 Petero
+    - 2 Petros
+    - 2 Pet
+    - 2. Petero
+    - 2. Petros
+    - 2. Pet
+    - II. Petero
+    - II. Petros
+    - II. Pet
+- osis: Jude
+  texts:
+    - Yudas
+    - Yuda
+    - Yd
+- osis: Tob
+  texts:
+    - Tobit
+    - Tob
+- osis: Jdt
+  texts:
+    - Yudit
+    - Yud
+- osis: Bar
+  texts:
+    - Baruk
+    - Bar
+- osis: 1Macc
+  texts:
+    - 1 Ilmakabayo
+    - 1 Mak
+    - 1. Ilmakabayo
+    - 1. Mak
+    - I. Ilmakabayo
+    - I. Mak
+- osis: 2Macc
+  texts:
+    - 2 Ilmakabayo
+    - 2 Mak
+    - 2. Ilmakabayo
+    - 2. Mak
+    - II. Ilmakabayo
+    - II. Mak
+- osis: DanGr
+  texts:
+    - Daniel
+    - Dani
+- osis: EsthGr
+  texts:
+    - Esta

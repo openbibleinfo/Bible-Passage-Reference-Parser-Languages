@@ -1,0 +1,443 @@
+default:
+  1Chr:
+    long: 1 Intepen
+    short: 1 Int
+  1Cor:
+    long: 1 Ilkorinto
+    short: 1 Ilkor
+  1John:
+    long: 1 Yohana
+    short: 1 Yhn
+  1Kgs:
+    long: 1 Ilaiguanak
+    short: 1 Ilai
+  1Macc:
+    long: 1 Ilmakabayo
+    short: 1 Mak
+  1Pet:
+    long: 1 Petero
+    short: 1 Pet
+  1Sam:
+    long: 1 Samuel
+    short: 1 Sam
+  1Thess:
+    long: 1 Ilsesalonike
+    short: 1 Ils
+  1Tim:
+    long: 1 Timoteo
+    short: 1 Tim
+  2Chr:
+    long: 2 Intepen
+    short: 2 Int
+  2Cor:
+    long: 2 Ilkorinto
+    short: 2 Ilkor
+  2John:
+    long: 2 Yohana
+    short: 2 Yhn
+  2Kgs:
+    long: 2 Ilaiguanak
+    short: 2 Ilai
+  2Macc:
+    long: 2 Ilmakabayo
+    short: 2 Mak
+  2Pet:
+    long: 2 Petero
+    short: 2 Pet
+  2Sam:
+    long: 2 Samuel
+    short: 2 Sam
+  2Thess:
+    long: 2 Ilsesalonike
+    short: 2 Ils
+  2Tim:
+    long: 2 Timoteo
+    short: 2 Tim
+  3John:
+    long: 3 Yohana
+    short: 3 Yhn
+  Acts:
+    long: Iasat
+    short: Iat
+  Amos:
+    long: Amos
+    short: Amo
+  Bar:
+    long: Baruk
+    short: Bar
+  Col:
+    long: Ilkolosai
+    short: Ilkol
+  Dan:
+    long: Daniel
+    short: Dan
+  DanGr:
+    long: Daniel
+    short: Dani
+  Deut:
+    long: Enkigilata oo Nkitanapat
+    short: Enkig
+  Eccl:
+    long: Olaikooni
+    short: Olaik
+  Eph:
+    long: Ile Efeso
+    short: Efe
+  Esth:
+    long: Esta
+    short: Est
+  EsthGr:
+    long: Esta
+    short: Esta
+  Exod:
+    long: Enaidurra
+    short: Ena
+  Ezek:
+    long: Esekiel
+    short: Esek
+  Ezra:
+    long: Esra
+    short: Esr
+  Gal:
+    long: Ilgalatia
+    short: Ilg
+  Gen:
+    long: Enkiterunoto
+    short: Enk
+  Hab:
+    long: Habakuk
+    short: Hab
+  Hag:
+    long: Hagai
+    short: Hag
+  Heb:
+    long: Ilbrania
+    short: Ilb
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Isaya
+    short: Isa
+  Jas:
+    long: Yakobo
+    short: Yko
+  Jdt:
+    long: Yudit
+    short: Yud
+  Jer:
+    long: Yeremia
+    short: Yer
+  Job:
+    long: Yoab
+    short: Yoab
+  Joel:
+    long: Yoel
+    short: Yoe
+  John:
+    long: Yohana
+    short: Yhn
+  Jonah:
+    long: Yona
+    short: Yon
+  Josh:
+    long: Yoshua
+    short: Yosh
+  Jude:
+    long: Yuda
+    short: Yd
+  Judg:
+    long: Ilari
+    short: Ilari
+  Lam:
+    long: Nkishirat
+    short: Nkish
+  Lev:
+    long: Ilawi
+    short: Ilaw
+  Luke:
+    long: Luka
+    short: Lk
+  Mal:
+    long: Malaki
+    short: Mal
+  Mark:
+    long: Marko
+    short: Mk
+  Matt:
+    long: Matayo
+    short: Mat
+  Mic:
+    long: Mika
+    short: MiK
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nehemia
+    short: Neh
+  Num:
+    long: Enkikena
+    short: Enki
+  Obad:
+    long: Obadia
+    short: Obad
+  Phil:
+    long: Ilfilipi
+    short: Ilf
+  Phlm:
+    long: Filimon
+    short: Fil
+  Prov:
+    long: Ndung'eta e Rashe
+    short: Ndung
+  Ps:
+    long: Olkerempe le Nkai
+    short: Olk
+  Rev:
+    long: Embolunoto
+    short: Emb
+  Rom:
+    long: iRoma
+    short: Irm
+  Ruth:
+    long: Rusi
+    short: Ru
+  Sir:
+    long: Sirak
+    short: Sirak
+  Song:
+    long: Osinkolio le Solomon
+    short: Osink
+  Titus:
+    long: Tito
+    short: Tit
+  Tob:
+    long: Tobit
+    short: Tob
+  Wis:
+    long: Eng'eno nagut e Solomon
+    short: Eng'e
+  Zech:
+    long: Sakaria
+    short: Sak
+  Zeph:
+    long: Sefania
+    short: Sef
+translations:
+  sinyati:
+    1Chr:
+      long: 1 Int
+    1Cor:
+      long: 1 Ilkor
+    1John:
+      long: 1 Yhn
+    1Kgs:
+      long: 1 Ilai
+    1Pet:
+      long: 1 Pet
+    1Sam:
+      long: 1 Sam
+    1Thess:
+      long: 1 Ils
+    1Tim:
+      long: 1 Tim
+    2Chr:
+      long: 2 Int
+    2Cor:
+      long: 2 Ilkor
+    2John:
+      long: 2 Yhn
+    2Kgs:
+      long: 2 Ilai
+    2Pet:
+      long: 2 Pet
+    2Sam:
+      long: 2 Sam
+    2Thess:
+      long: 2 Ils
+    2Tim:
+      long: 2 Tim
+    Acts:
+      long: Iat
+    Amos:
+      long: Amo
+    Col:
+      long: Ilkol
+    Dan:
+      long: Dan
+    Deut:
+      long: Enkig
+    Eccl:
+      long: Olaik
+    Eph:
+      long: Efe
+    Esth:
+      long: Est
+    Exod:
+      long: Ena
+    Ezek:
+      long: Esek
+    Ezra:
+      long: Esr
+    Gal:
+      long: Ilg
+    Gen:
+      long: Enk
+    Hab:
+      long: Hab
+    Hag:
+      long: Hag
+    Heb:
+      long: Ilh
+    Hos:
+      long: Hos
+    Isa:
+      long: Isa
+    Jas:
+      long: Yko
+    Jer:
+      long: Yer
+    Job:
+      long: Yoa
+    Joel:
+      long: Yoe
+    John:
+      long: Yhn
+    Jonah:
+      long: Yon
+    Josh:
+      long: Yosh
+    Jude:
+      long: Yd
+    Lam:
+      long: Nkish
+    Lev:
+      long: Ilaw
+    Luke:
+      long: Lk
+    Mal:
+      long: Mal
+    Mark:
+      long: Mk
+    Matt:
+      long: Mat
+    Mic:
+      long: MiK
+    Nah:
+      long: Nah
+    Neh:
+      long: Neh
+    Num:
+      long: Enki
+    Obad:
+      long: Obad
+    Phil:
+      long: Ilf
+    Phlm:
+      long: Fil
+    Prov:
+      long: Ndung
+    Ps:
+      long: Olke
+    Rev:
+      long: Emb
+    Rom:
+      long: Irm
+    Ruth:
+      long: Ru
+    Song:
+      long: Osink
+    Titus:
+      long: Tit
+    Zech:
+      long: Saka
+    Zeph:
+      long: Sefa
+  mbs:
+    1Chr:
+      long: 1 Interpen
+    1Cor:
+      long: 1 Ilkorintio
+    1Kgs:
+      long: 1 Illaig
+    2Cor:
+      long: 2 Ilkorintio
+    2Kgs:
+      long: 2 Illaig
+    3John:
+      long: Empalai E Uni E Yohana
+      short: 3 Yohana
+    Hab:
+      long: Habakuki
+      short: Haba
+    Heb:
+      long: Ilhebrania
+      short: Ilh
+    Job:
+      short: Yoa
+    Mal:
+      short: Mala
+    Ps:
+      short: Olke
+    Zech:
+      short: Saka
+    Zeph:
+      short: Sefa
+  mas70:
+    1Cor:
+      long: I. Ilkorintioi
+    1John:
+      long: I. Yohanes
+    1Pet:
+      long: I. Petros
+    1Thess:
+      long: I. Iltesalonikes
+    1Tim:
+      long: I. Timoteos
+    2Cor:
+      long: II. Ilkorintioi
+    2John:
+      long: II. Yohanes
+    2Pet:
+      long: II. Petros
+    2Thess:
+      long: II. Iltesalonikes
+    2Tim:
+      long: II. Timoteos
+    3John:
+      long: III. Yohanes
+    Acts:
+      long: Nkitobirat
+    Eph:
+      long: Efesioi
+    Gal:
+      long: Ilgalatai
+    Heb:
+      long: Ilhebrayoi
+    Jas:
+      long: Yakobos
+    John:
+      long: Yohanes
+    Jude:
+      long: Yudas
+    Luke:
+      long: Lukas
+    Mark:
+      long: Markos
+    Matt:
+      long: Matayos
+    Phil:
+      long: Ilfilipesioi
+    Phlm:
+      long: Filemon
+    Rom:
+      long: Romayoi
+    Titus:
+      long: Titos
+  maarepro:
+    Judg:
+      long: Ilarishak
+  maaredc:
+    Judg:
+      long: Ilarishak

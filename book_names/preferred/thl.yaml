@@ -1,0 +1,146 @@
+default:
+  1Cor:
+    long: १ कोरिन्थी
+    short: १ कोर
+  1John:
+    long: १ यूहन्ना
+    short: १ यूह
+  1Pet:
+    long: १ पत्रुस
+    short: १ पत्र
+  1Thess:
+    long: १ थेसलोनिकी
+    short: १ थेस
+  1Tim:
+    long: १ तिमोथी
+    short: १ तिमो
+  2Cor:
+    long: २ कोरिन्थी
+    short: २ कोर
+  2John:
+    long: २ यूहन्ना
+    short: २ यूह
+  2Pet:
+    long: २ पत्रुस
+    short: २ पत्र
+  2Thess:
+    long: २ थेसलोनिकी
+    short: २ थेस
+  2Tim:
+    long: २ तिमोथी
+    short: २ तिमो
+  3John:
+    long: ३ यूहन्ना
+    short: ३ यूह
+  Acts:
+    long: निउतरह्या
+    short: निउत. का.
+  Col:
+    long: कलस्सी
+    short: कल
+  Eph:
+    long: एफिसी
+    short: एफि
+  Gal:
+    long: गलाती
+    short: गला
+  Heb:
+    long: हिब्रू
+    short: हिब
+  Jas:
+    long: याकूब
+    short: याक
+  John:
+    long: यूहन्ना
+    short: यूह
+  Jude:
+    long: यहूदा
+    short: यहू
+  Luke:
+    long: लूका
+    short: लूक
+  Mark:
+    long: मर्कूस
+    short: मर्क
+  Matt:
+    long: मत्ती
+    short: मत्ती
+  Phil:
+    long: फिलिप्पी
+    short: फिलि
+  Phlm:
+    long: फिलेमोन
+    short: फिले
+  Rev:
+    long: प्रकाश
+    short: प्रका
+  Rom:
+    long: रोमी
+    short: रोम
+  Titus:
+    long: तीतस
+    short: तीत
+translations:
+  dvgnt:
+    1Cor:
+      short: १ कोरि.
+    1John:
+      short: १ यूह.
+    1Pet:
+      short: १ पत्रु.
+    1Thess:
+      short: १ थेस.
+    1Tim:
+      short: १ तिमो.
+    2Cor:
+      short: २ कोरि.
+    2John:
+      short: २ यूह.
+    2Pet:
+      short: २ पत्रु.
+    2Thess:
+      short: २ थेस.
+    2Tim:
+      short: २ तिमो.
+    3John:
+      short: ३ यूह.
+    Col:
+      short: कल.
+    Eph:
+      short: एफि.
+    Gal:
+      short: गला.
+    Heb:
+      short: हिब.
+    Jas:
+      short: याकू.
+    John:
+      short: यूह.
+    Jude:
+      short: यहू.
+    Luke:
+      short: लूक.
+    Mark:
+      short: मर्कू.
+    Phil:
+      short: फिलि.
+    Phlm:
+      short: फिले.
+    Rev:
+      short: प्रका.
+    Rom:
+      short: रोम.
+    Titus:
+      short: तीत.
+  thl:
+    1John:
+      long: १ यूहन्‍ना
+    2John:
+      long: २ यूहन्‍ना
+    3John:
+      long: ३ यूहन्‍ना
+    Acts:
+      long: प्रेरित
+      short: प्रे
+    John:
+      long: यूहन्‍ना

@@ -1,0 +1,1714 @@
+default:
+  1Cor:
+    long: 1 karinthinaH
+    short: 1 karinthinaH
+  1John:
+    long: 1 yOhanaH
+    short: 1 yOhanaH
+  1Pet:
+    long: 1 pitaraH
+    short: 1 pitaraH
+  1Thess:
+    long: 1 thiSalanIkinaH
+    short: 1 thiSalanIkinaH
+  1Tim:
+    long: 1 tImathiyaH
+    short: 1 tImathiyaH
+  2Cor:
+    long: 2 karinthinaH
+    short: 2 karinthinaH
+  2John:
+    long: 2 yOhanaH
+    short: 2 yOhanaH
+  2Pet:
+    long: 2 pitaraH
+    short: 2 pitaraH
+  2Thess:
+    long: 2 thiSalanIkinaH
+    short: 2 thiSalanIkinaH
+  2Tim:
+    long: 2 tImathiyaH
+    short: 2 tImathiyaH
+  3John:
+    long: 3 yOhanaH
+    short: 3 yOhanaH
+  Acts:
+    long: PrEritAH
+    short: PrEritAH
+  Col:
+    long: kalasinaH
+    short: kalasinaH
+  Eph:
+    long: iphiSiNaH
+    short: iphiSiNaH
+  Gal:
+    long: gAlAtinaH
+    short: gAlAtinaH
+  Heb:
+    long: ibriNaH
+    short: ibriNaH
+  Jas:
+    long: yAkUbaH
+    short: yAkUbaH
+  John:
+    long: yOhanaH
+    short: yOhanaH
+  Jude:
+    long: YihUdAH
+    short: YihUdAH
+  Luke:
+    long: lUkaH
+    short: lUkaH
+  Mark:
+    long: mArkaH
+    short: mArkaH
+  Matt:
+    long: mathiH
+    short: mathiH
+  Phil:
+    long: philipinaH
+    short: philipinaH
+  Phlm:
+    long: philOmOnaH
+    short: philOmOnaH
+  Rev:
+    long: prakAzitaM
+    short: prakAzitaM
+  Rom:
+    long: rOmiNaH
+    short: rOmiNaH
+  Titus:
+    long: tItaH
+    short: tItaH
+translations:
+  sanas:
+    1Cor:
+      long: 1 Corinthians
+      short: ১ কৰিন্থিনঃ
+    1John:
+      long: 1 John
+      short: ১ যোহনঃ
+    1Pet:
+      long: 1 Peter
+      short: ১ পিতৰঃ
+    1Thess:
+      long: 1 Thessalonians
+      short: ১ থিষলনীকিনঃ
+    1Tim:
+      long: 1 Timothy
+      short: ১ তীমথিযঃ
+    2Cor:
+      long: 2 Corinthians
+      short: ২ কৰিন্থিনঃ
+    2John:
+      long: 2 John
+      short: ২ যোহনঃ
+    2Pet:
+      long: 2 Peter
+      short: ২ পিতৰঃ
+    2Thess:
+      long: 2 Thessalonians
+      short: ২ থিষলনীকিনঃ
+    2Tim:
+      long: 2 Timothy
+      short: ২ তীমথিযঃ
+    3John:
+      long: 3 John
+      short: ৩ যোহনঃ
+    Acts:
+      long: Acts
+      short: প্ৰেৰিতাঃ
+    Col:
+      long: Colossians
+      short: কলসিনঃ
+    Eph:
+      long: Ephesians
+      short: ইফিষিণঃ
+    Gal:
+      long: Galatians
+      short: গালাতিনঃ
+    Heb:
+      long: Hebrews
+      short: ইব্ৰিণঃ
+    Jas:
+      long: James
+      short: যাকূবঃ
+    John:
+      long: John
+      short: যোহনঃ
+    Jude:
+      long: Jude
+      short: যিহূদাঃ
+    Luke:
+      long: Luke
+      short: লূকঃ
+    Mark:
+      long: Mark
+      short: মাৰ্কঃ
+    Matt:
+      long: Matthew
+      short: মথিঃ
+    Phil:
+      long: Philippians
+      short: ফিলিপিনঃ
+    Phlm:
+      long: Philemon
+      short: ফিলোমোনঃ
+    Rev:
+      long: Revelation
+      short: প্ৰকাশিতং
+    Rom:
+      long: Romans
+      short: ৰোমিণঃ
+    Titus:
+      long: Titus
+      short: তীতঃ
+  sanve:
+    1Cor:
+      long: 1 karinthinaḥ
+      short: 1 karinthinaḥ
+    1John:
+      long: 1 yohanaḥ
+      short: 1 yohanaḥ
+    1Pet:
+      long: 1 pitaraḥ
+      short: 1 pitaraḥ
+    1Thess:
+      long: 1 thiṣalaniikinaḥ
+      short: 1 thiṣalaniikinaḥ
+    1Tim:
+      long: 1 tiimathiyaḥ
+      short: 1 tiimathiyaḥ
+    2Cor:
+      long: 2 karinthinaḥ
+      short: 2 karinthinaḥ
+    2John:
+      long: 2 yohanaḥ
+      short: 2 yohanaḥ
+    2Pet:
+      long: 2 pitaraḥ
+      short: 2 pitaraḥ
+    2Thess:
+      long: 2 thiṣalaniikinaḥ
+      short: 2 thiṣalaniikinaḥ
+    2Tim:
+      long: 2 tiimathiyaḥ
+      short: 2 tiimathiyaḥ
+    3John:
+      long: 3 yohanaḥ
+      short: 3 yohanaḥ
+    Acts:
+      long: preritaaḥ
+      short: preritaaḥ
+    Col:
+      long: kalasinaḥ
+      short: kalasinaḥ
+    Eph:
+      long: iphiṣi.naḥ
+      short: iphiṣi.naḥ
+    Gal:
+      long: gaalaatinaḥ
+      short: gaalaatinaḥ
+    Heb:
+      long: ibri.naḥ
+      short: ibri.naḥ
+    Jas:
+      long: yaakuubaḥ
+      short: yaakuubaḥ
+    John:
+      long: yohanaḥ
+      short: yohanaḥ
+    Jude:
+      long: yihuudaaḥ
+      short: yihuudaaḥ
+    Luke:
+      long: luukaḥ
+      short: luukaḥ
+    Mark:
+      long: maarkaḥ
+      short: maarkaḥ
+    Matt:
+      long: mathiḥ
+      short: mathiḥ
+    Phil:
+      long: philipinaḥ
+      short: philipinaḥ
+    Phlm:
+      long: philomonaḥ
+      short: philomonaḥ
+    Rev:
+      long: prakaa"sita.m
+      short: prakaa"sita.m
+    Rom:
+      long: romi.naḥ
+      short: romi.naḥ
+    Titus:
+      long: tiitaḥ
+      short: tiitaḥ
+  sania:
+    1Cor:
+      long: 1 karinthinaḥ
+      short: 1 karinthinaḥ
+    1John:
+      long: 1 yohanaḥ
+      short: 1 yohanaḥ
+    1Pet:
+      long: 1 pitaraḥ
+      short: 1 pitaraḥ
+    1Thess:
+      long: 1 thiṣalanīkinaḥ
+      short: 1 thiṣalanīkinaḥ
+    1Tim:
+      long: 1 tīmathiyaḥ
+      short: 1 tīmathiyaḥ
+    2Cor:
+      long: 2 karinthinaḥ
+      short: 2 karinthinaḥ
+    2John:
+      long: 2 yohanaḥ
+      short: 2 yohanaḥ
+    2Pet:
+      long: 2 pitaraḥ
+      short: 2 pitaraḥ
+    2Thess:
+      long: 2 thiṣalanīkinaḥ
+      short: 2 thiṣalanīkinaḥ
+    2Tim:
+      long: 2 tīmathiyaḥ
+      short: 2 tīmathiyaḥ
+    3John:
+      long: 3 yohanaḥ
+      short: 3 yohanaḥ
+    Acts:
+      long: preritāḥ
+      short: preritāḥ
+    Col:
+      long: kalasinaḥ
+      short: kalasinaḥ
+    Eph:
+      long: iphiṣiṇaḥ
+      short: iphiṣiṇaḥ
+    Gal:
+      long: gālātinaḥ
+      short: gālātinaḥ
+    Heb:
+      long: ibriṇaḥ
+      short: ibriṇaḥ
+    Jas:
+      long: yākūbaḥ
+      short: yākūbaḥ
+    John:
+      long: yohanaḥ
+      short: yohanaḥ
+    Jude:
+      long: yihūdāḥ
+      short: yihūdāḥ
+    Luke:
+      long: lūkaḥ
+      short: lūkaḥ
+    Mark:
+      long: mārkaḥ
+      short: mārkaḥ
+    Matt:
+      long: mathiḥ
+      short: mathiḥ
+    Phil:
+      long: philipinaḥ
+      short: philipinaḥ
+    Phlm:
+      long: philomonaḥ
+      short: philomonaḥ
+    Rev:
+      long: prakāśitaṁ
+      short: prakāśitaṁ
+    Rom:
+      long: romiṇaḥ
+      short: romiṇaḥ
+    Titus:
+      long: tītaḥ
+      short: tītaḥ
+  sanis:
+    1Cor:
+      long: 1 karinthinaḥ
+      short: 1 karinthinaḥ
+    1John:
+      long: 1 yōhanaḥ
+      short: 1 yōhanaḥ
+    1Pet:
+      long: 1 pitaraḥ
+      short: 1 pitaraḥ
+    1Thess:
+      long: 1 thiṣalanīkinaḥ
+      short: 1 thiṣalanīkinaḥ
+    1Tim:
+      long: 1 tīmathiyaḥ
+      short: 1 tīmathiyaḥ
+    2Cor:
+      long: 2 karinthinaḥ
+      short: 2 karinthinaḥ
+    2John:
+      long: 2 yōhanaḥ
+      short: 2 yōhanaḥ
+    2Pet:
+      long: 2 pitaraḥ
+      short: 2 pitaraḥ
+    2Thess:
+      long: 2 thiṣalanīkinaḥ
+      short: 2 thiṣalanīkinaḥ
+    2Tim:
+      long: 2 tīmathiyaḥ
+      short: 2 tīmathiyaḥ
+    3John:
+      long: 3 yōhanaḥ
+      short: 3 yōhanaḥ
+    Acts:
+      long: prēritāḥ
+      short: prēritāḥ
+    Col:
+      long: kalasinaḥ
+      short: kalasinaḥ
+    Eph:
+      long: iphiṣiṇaḥ
+      short: iphiṣiṇaḥ
+    Gal:
+      long: gālātinaḥ
+      short: gālātinaḥ
+    Heb:
+      long: ibriṇaḥ
+      short: ibriṇaḥ
+    Jas:
+      long: yākūbaḥ
+      short: yākūbaḥ
+    John:
+      long: yōhanaḥ
+      short: yōhanaḥ
+    Jude:
+      long: yihūdāḥ
+      short: yihūdāḥ
+    Luke:
+      long: lūkaḥ
+      short: lūkaḥ
+    Mark:
+      long: mārkaḥ
+      short: mārkaḥ
+    Matt:
+      long: mathiḥ
+      short: mathiḥ
+    Phil:
+      long: philipinaḥ
+      short: philipinaḥ
+    Phlm:
+      long: philōmōnaḥ
+      short: philōmōnaḥ
+    Rev:
+      long: prakāśitaṁ
+      short: prakāśitaṁ
+    Rom:
+      long: rōmiṇaḥ
+      short: rōmiṇaḥ
+    Titus:
+      long: tītaḥ
+      short: tītaḥ
+  sanskbsi:
+    1Cor:
+      long: 1 कुरिन्‍थुसन
+    1John:
+      long: 1 योहन
+    1Pet:
+      long: 1 पतरस
+    1Thess:
+      long: 1 थिस्‍सलुनीकेन
+    1Tim:
+      long: 1 तिमोथिन
+    2Cor:
+      long: 2 कुरिन्‍थुसन
+    2John:
+      long: 2 योहन
+    2Pet:
+      long: 2 पतरस
+    2Thess:
+      long: 2 थिस्‍सलुनीकेन
+    2Tim:
+      long: 2 तिमोथिन
+    3John:
+      long: 3 योहन
+    Acts:
+      long: प्रेरिता
+      short: प्रेरि
+    Col:
+      long: कुलुस्‍सेन
+    Eph:
+      long: इफिसुसन
+    Gal:
+      long: गलातिया
+    Heb:
+      long: इब्राणिना
+    Jas:
+      long: याकूब
+    John:
+      long: यूहन्‍नः
+      short: यूह
+    Jude:
+      long: यूदस
+    Luke:
+      long: लूका
+      short: लूका
+    Mark:
+      long: मारकुस
+      short: मर
+    Matt:
+      long: मत्ति
+      short: मत्ती
+    Phil:
+      long: फिलिप्‍पीन
+    Phlm:
+      long: फिलेमोन
+    Rev:
+      long: प्रकाशनाग्रन
+    Rom:
+      long: रोमनग
+    Titus:
+      long: तीतुस
+  santm:
+    1Cor:
+      long: "1 கரிந்தி²ந​:"
+      short: "1 கரிந்தி²ந​:"
+    1John:
+      long: "1 யோஹந​:"
+      short: "1 யோஹந​:"
+    1Pet:
+      long: "1 பிதர​:"
+      short: "1 பிதர​:"
+    1Thess:
+      long: "1 தி²ஷலநீகிந​:"
+      short: "1 தி²ஷலநீகிந​:"
+    1Tim:
+      long: "1 தீமதி²ய​:"
+      short: "1 தீமதி²ய​:"
+    2Cor:
+      long: "2 கரிந்தி²ந​:"
+      short: "2 கரிந்தி²ந​:"
+    2John:
+      long: "2 யோஹந​:"
+      short: "2 யோஹந​:"
+    2Pet:
+      long: "2 பிதர​:"
+      short: "2 பிதர​:"
+    2Thess:
+      long: "2 தி²ஷலநீகிந​:"
+      short: "2 தி²ஷலநீகிந​:"
+    2Tim:
+      long: "2 தீமதி²ய​:"
+      short: "2 தீமதி²ய​:"
+    3John:
+      long: "3 யோஹந​:"
+      short: "3 யோஹந​:"
+    Acts:
+      long: "ப்ரேரிதா​:"
+      short: "ப்ரேரிதா​:"
+    Col:
+      long: "கலஸிந​:"
+      short: "கலஸிந​:"
+    Eph:
+      long: "இபி²ஷிண​:"
+      short: "இபி²ஷிண​:"
+    Gal:
+      long: "கா³லாதிந​:"
+      short: "கா³லாதிந​:"
+    Heb:
+      long: "இப்³ரிண​:"
+      short: "இப்³ரிண​:"
+    Jas:
+      long: "யாகூப³​:"
+      short: "யாகூப³​:"
+    John:
+      long: "யோஹந​:"
+      short: "யோஹந​:"
+    Jude:
+      long: "யிஹூதா³​:"
+      short: "யிஹூதா³​:"
+    Luke:
+      long: "லூக​:"
+      short: "லூக​:"
+    Mark:
+      long: "மார்க​:"
+      short: "மார்க​:"
+    Matt:
+      long: "மதி²​:"
+      short: "மதி²​:"
+    Phil:
+      long: "பி²லிபிந​:"
+      short: "பி²லிபிந​:"
+    Phlm:
+      long: "பி²லோமோந​:"
+      short: "பி²லோமோந​:"
+    Rev:
+      long: ப்ரகாஸி²தம்ʼ
+      short: ப்ரகாஸி²தம்ʼ
+    Rom:
+      long: "ரோமிண​:"
+      short: "ரோமிண​:"
+    Titus:
+      long: "தீத​:"
+      short: "தீத​:"
+  sante:
+    1Cor:
+      long: 1 కరిన్థినః
+      short: 1 కరిన్థినః
+    1John:
+      long: 1 యోహనః
+      short: 1 యోహనః
+    1Pet:
+      long: 1 పితరః
+      short: 1 పితరః
+    1Thess:
+      long: 1 థిషలనీకినః
+      short: 1 థిషలనీకినః
+    1Tim:
+      long: 1 తీమథియః
+      short: 1 తీమథియః
+    2Cor:
+      long: 2 కరిన్థినః
+      short: 2 కరిన్థినః
+    2John:
+      long: 2 యోహనః
+      short: 2 యోహనః
+    2Pet:
+      long: 2 పితరః
+      short: 2 పితరః
+    2Thess:
+      long: 2 థిషలనీకినః
+      short: 2 థిషలనీకినః
+    2Tim:
+      long: 2 తీమథియః
+      short: 2 తీమథియః
+    3John:
+      long: 3 యోహనః
+      short: 3 యోహనః
+    Acts:
+      long: ప్రేరితాః
+      short: ప్రేరితాః
+    Col:
+      long: కలసినః
+      short: కలసినః
+    Eph:
+      long: ఇఫిషిణః
+      short: ఇఫిషిణః
+    Gal:
+      long: గాలాతినః
+      short: గాలాతినః
+    Heb:
+      long: ఇబ్రిణః
+      short: ఇబ్రిణః
+    Jas:
+      long: యాకూబః
+      short: యాకూబః
+    John:
+      long: యోహనః
+      short: యోహనః
+    Jude:
+      long: యిహూదాః
+      short: యిహూదాః
+    Luke:
+      long: లూకః
+      short: లూకః
+    Mark:
+      long: మార్కః
+      short: మార్కః
+    Matt:
+      long: మథిః
+      short: మథిః
+    Phil:
+      long: ఫిలిపినః
+      short: ఫిలిపినః
+    Phlm:
+      long: ఫిలోమోనః
+      short: ఫిలోమోనః
+    Rev:
+      long: ప్రకాశితం
+      short: ప్రకాశితం
+    Rom:
+      long: రోమిణః
+      short: రోమిణః
+    Titus:
+      long: తీతః
+      short: తీతః
+  sanml:
+    1Cor:
+      long: 1 കരിന്ഥിനഃ
+      short: 1 കരിന്ഥിനഃ
+    1John:
+      long: 1 യോഹനഃ
+      short: 1 യോഹനഃ
+    1Pet:
+      long: 1 പിതരഃ
+      short: 1 പിതരഃ
+    1Thess:
+      long: 1 ഥിഷലനീകിനഃ
+      short: 1 ഥിഷലനീകിനഃ
+    1Tim:
+      long: 1 തീമഥിയഃ
+      short: 1 തീമഥിയഃ
+    2Cor:
+      long: 2 കരിന്ഥിനഃ
+      short: 2 കരിന്ഥിനഃ
+    2John:
+      long: 2 യോഹനഃ
+      short: 2 യോഹനഃ
+    2Pet:
+      long: 2 പിതരഃ
+      short: 2 പിതരഃ
+    2Thess:
+      long: 2 ഥിഷലനീകിനഃ
+      short: 2 ഥിഷലനീകിനഃ
+    2Tim:
+      long: 2 തീമഥിയഃ
+      short: 2 തീമഥിയഃ
+    3John:
+      long: 3 യോഹനഃ
+      short: 3 യോഹനഃ
+    Acts:
+      long: പ്രേരിതാഃ
+      short: പ്രേരിതാഃ
+    Col:
+      long: കലസിനഃ
+      short: കലസിനഃ
+    Eph:
+      long: ഇഫിഷിണഃ
+      short: ഇഫിഷിണഃ
+    Gal:
+      long: ഗാലാതിനഃ
+      short: ഗാലാതിനഃ
+    Heb:
+      long: ഇബ്രിണഃ
+      short: ഇബ്രിണഃ
+    Jas:
+      long: യാകൂബഃ
+      short: യാകൂബഃ
+    John:
+      long: യോഹനഃ
+      short: യോഹനഃ
+    Jude:
+      long: യിഹൂദാഃ
+      short: യിഹൂദാഃ
+    Luke:
+      long: ലൂകഃ
+      short: ലൂകഃ
+    Mark:
+      long: മാർകഃ
+      short: മാർകഃ
+    Matt:
+      long: മഥിഃ
+      short: മഥിഃ
+    Phil:
+      long: ഫിലിപിനഃ
+      short: ഫിലിപിനഃ
+    Phlm:
+      long: ഫിലോമോനഃ
+      short: ഫിലോമോനഃ
+    Rev:
+      long: പ്രകാശിതം
+      short: പ്രകാശിതം
+    Rom:
+      long: രോമിണഃ
+      short: രോമിണഃ
+    Titus:
+      long: തീതഃ
+      short: തീതഃ
+  sansi:
+    1Cor:
+      long: 1 කරින්ථිනඃ
+      short: 1 කරින්ථිනඃ
+    1John:
+      long: 1 යෝහනඃ
+      short: 1 යෝහනඃ
+    1Pet:
+      long: 1 පිතරඃ
+      short: 1 පිතරඃ
+    1Thess:
+      long: 1 ථිෂලනීකිනඃ
+      short: 1 ථිෂලනීකිනඃ
+    1Tim:
+      long: 1 තීමථියඃ
+      short: 1 තීමථියඃ
+    2Cor:
+      long: 2 කරින්ථිනඃ
+      short: 2 කරින්ථිනඃ
+    2John:
+      long: 2 යෝහනඃ
+      short: 2 යෝහනඃ
+    2Pet:
+      long: 2 පිතරඃ
+      short: 2 පිතරඃ
+    2Thess:
+      long: 2 ථිෂලනීකිනඃ
+      short: 2 ථිෂලනීකිනඃ
+    2Tim:
+      long: 2 තීමථියඃ
+      short: 2 තීමථියඃ
+    3John:
+      long: 3 යෝහනඃ
+      short: 3 යෝහනඃ
+    Acts:
+      long: ප්‍රේරිතාඃ
+      short: ප්‍රේරිතාඃ
+    Col:
+      long: කලසිනඃ
+      short: කලසිනඃ
+    Eph:
+      long: ඉඵිෂිණඃ
+      short: ඉඵිෂිණඃ
+    Gal:
+      long: ගාලාතිනඃ
+      short: ගාලාතිනඃ
+    Heb:
+      long: ඉබ්‍රිණඃ
+      short: ඉබ්‍රිණඃ
+    Jas:
+      long: යාකූබඃ
+      short: යාකූබඃ
+    John:
+      long: යෝහනඃ
+      short: යෝහනඃ
+    Jude:
+      long: යිහූදාඃ
+      short: යිහූදාඃ
+    Luke:
+      long: ලූකඃ
+      short: ලූකඃ
+    Mark:
+      long: මාර්කඃ
+      short: මාර්කඃ
+    Matt:
+      long: මථිඃ
+      short: මථිඃ
+    Phil:
+      long: ඵිලිපිනඃ
+      short: ඵිලිපිනඃ
+    Phlm:
+      long: ඵිලෝමෝනඃ
+      short: ඵිලෝමෝනඃ
+    Rev:
+      long: ප්‍රකාශිතං
+      short: ප්‍රකාශිතං
+    Rom:
+      long: රෝමිණඃ
+      short: රෝමිණඃ
+    Titus:
+      long: තීතඃ
+      short: තීතඃ
+  sanur:
+    1Cor:
+      long: ۱ کَرِنْتھِنَح
+      short: ۱ کَرِنْتھِنَح
+    1John:
+      long: ۱ یوہَنَح
+      short: ۱ یوہَنَح
+    1Pet:
+      long: ۱ پِتَرَح
+      short: ۱ پِتَرَح
+    1Thess:
+      long: ۱ تھِشَلَنِیکِنَح
+      short: ۱ تھِشَلَنِیکِنَح
+    1Tim:
+      long: ۱ تِیمَتھِیَح
+      short: ۱ تِیمَتھِیَح
+    2Cor:
+      long: ۲ کَرِنْتھِنَح
+      short: ۲ کَرِنْتھِنَح
+    2John:
+      long: ۲ یوہَنَح
+      short: ۲ یوہَنَح
+    2Pet:
+      long: ۲ پِتَرَح
+      short: ۲ پِتَرَح
+    2Thess:
+      long: ۲ تھِشَلَنِیکِنَح
+      short: ۲ تھِشَلَنِیکِنَح
+    2Tim:
+      long: ۲ تِیمَتھِیَح
+      short: ۲ تِیمَتھِیَح
+    3John:
+      long: ۳ یوہَنَح
+      short: ۳ یوہَنَح
+    Acts:
+      long: پْریرِتاح
+      short: پْریرِتاح
+    Col:
+      long: کَلَسِنَح
+      short: کَلَسِنَح
+    Eph:
+      long: اِپھِشِنَح
+      short: اِپھِشِنَح
+    Gal:
+      long: گالاتِنَح
+      short: گالاتِنَح
+    Heb:
+      long: اِبْرِنَح
+      short: اِبْرِنَح
+    Jas:
+      long: یاکُوبَح
+      short: یاکُوبَح
+    John:
+      long: یوہَنَح
+      short: یوہَنَح
+    Jude:
+      long: یِہُوداح
+      short: یِہُوداح
+    Luke:
+      long: لُوکَح
+      short: لُوکَح
+    Mark:
+      long: مارْکَح
+      short: مارْکَح
+    Matt:
+      long: مَتھِح
+      short: مَتھِح
+    Phil:
+      long: پھِلِپِنَح
+      short: پھِلِپِنَح
+    Phlm:
+      long: پھِلومونَح
+      short: پھِلومونَح
+    Rev:
+      long: پْرَکاشِتَں
+      short: پْرَکاشِتَں
+    Rom:
+      long: رومِنَح
+      short: رومِنَح
+    Titus:
+      long: تِیتَح
+      short: تِیتَح
+  san-dn:
+    1Cor:
+      long: १ करिन्थिनः
+      short: १ करिन्थिनः
+    1John:
+      long: १ योहनः
+      short: १ योहनः
+    1Pet:
+      long: १ पितरः
+      short: १ पितरः
+    1Thess:
+      long: १ थिषलनीकिनः
+      short: १ थिषलनीकिनः
+    1Tim:
+      long: १ तीमथियः
+      short: १ तीमथियः
+    2Cor:
+      long: २ करिन्थिनः
+      short: २ करिन्थिनः
+    2John:
+      long: २ योहनः
+      short: २ योहनः
+    2Pet:
+      long: २ पितरः
+      short: २ पितरः
+    2Thess:
+      long: २ थिषलनीकिनः
+      short: २ थिषलनीकिनः
+    2Tim:
+      long: २ तीमथियः
+      short: २ तीमथियः
+    3John:
+      long: ३ योहनः
+      short: ३ योहनः
+    Acts:
+      long: प्रेरिताः
+      short: प्रेरिताः
+    Col:
+      long: कलसिनः
+      short: कलसिनः
+    Eph:
+      long: इफिषिणः
+      short: इफिषिणः
+    Gal:
+      long: गालातिनः
+      short: गालातिनः
+    Heb:
+      long: इब्रिणः
+      short: इब्रिणः
+    Jas:
+      long: याकूबः
+      short: याकूबः
+    John:
+      long: योहनः
+      short: योहनः
+    Jude:
+      long: यिहूदाः
+      short: यिहूदाः
+    Luke:
+      long: लूकः
+      short: लूकः
+    Mark:
+      long: मार्कः
+      short: मार्कः
+    Matt:
+      long: मथिः
+      short: मथिः
+    Phil:
+      long: फिलिपिनः
+      short: फिलिपिनः
+    Phlm:
+      long: फिलोमोनः
+      short: फिलोमोनः
+    Rev:
+      long: प्रकाशितं
+      short: प्रकाशितं
+    Rom:
+      long: रोमिणः
+      short: रोमिणः
+    Titus:
+      long: तीतः
+      short: तीतः
+  sanbn:
+    1Cor:
+      long: ১ করিন্থিনঃ
+      short: ১ করিন্থিনঃ
+    1John:
+      long: ১ যোহনঃ
+      short: ১ যোহনঃ
+    1Pet:
+      long: ১ পিতরঃ
+      short: ১ পিতরঃ
+    1Thess:
+      long: ১ থিষলনীকিনঃ
+      short: ১ থিষলনীকিনঃ
+    1Tim:
+      long: ১ তীমথিযঃ
+      short: ১ তীমথিযঃ
+    2Cor:
+      long: ২ করিন্থিনঃ
+      short: ২ করিন্থিনঃ
+    2John:
+      long: ২ যোহনঃ
+      short: ২ যোহনঃ
+    2Pet:
+      long: ২ পিতরঃ
+      short: ২ পিতরঃ
+    2Thess:
+      long: ২ থিষলনীকিনঃ
+      short: ২ থিষলনীকিনঃ
+    2Tim:
+      long: ২ তীমথিযঃ
+      short: ২ তীমথিযঃ
+    3John:
+      long: ৩ যোহনঃ
+      short: ৩ যোহনঃ
+    Acts:
+      long: প্রেরিতাঃ
+      short: প্রেরিতাঃ
+    Col:
+      long: কলসিনঃ
+      short: কলসিনঃ
+    Eph:
+      long: ইফিষিণঃ
+      short: ইফিষিণঃ
+    Gal:
+      long: গালাতিনঃ
+      short: গালাতিনঃ
+    Heb:
+      long: ইব্রিণঃ
+      short: ইব্রিণঃ
+    Jas:
+      long: যাকূবঃ
+      short: যাকূবঃ
+    John:
+      long: যোহনঃ
+      short: যোহনঃ
+    Jude:
+      long: যিহূদাঃ
+      short: যিহূদাঃ
+    Luke:
+      long: লূকঃ
+      short: লূকঃ
+    Mark:
+      long: মার্কঃ
+      short: মার্কঃ
+    Matt:
+      long: মথিঃ
+      short: মথিঃ
+    Phil:
+      long: ফিলিপিনঃ
+      short: ফিলিপিনঃ
+    Phlm:
+      long: ফিলোমোনঃ
+      short: ফিলোমোনঃ
+    Rev:
+      long: প্রকাশিতং
+      short: প্রকাশিতং
+    Rom:
+      long: রোমিণঃ
+      short: রোমিণঃ
+    Titus:
+      long: তীতঃ
+      short: তীতঃ
+  sanpn:
+    1Cor:
+      long: ੧ ਕਰਿਨ੍ਥਿਨਃ
+      short: ੧ ਕਰਿਨ੍ਥਿਨਃ
+    1John:
+      long: ੧ ਯੋਹਨਃ
+      short: ੧ ਯੋਹਨਃ
+    1Pet:
+      long: ੧ ਪਿਤਰਃ
+      short: ੧ ਪਿਤਰਃ
+    1Thess:
+      long: ੧ ਥਿਸ਼਼ਲਨੀਕਿਨਃ
+      short: ੧ ਥਿਸ਼਼ਲਨੀਕਿਨਃ
+    1Tim:
+      long: ੧ ਤੀਮਥਿਯਃ
+      short: ੧ ਤੀਮਥਿਯਃ
+    2Cor:
+      long: ੨ ਕਰਿਨ੍ਥਿਨਃ
+      short: ੨ ਕਰਿਨ੍ਥਿਨਃ
+    2John:
+      long: ੨ ਯੋਹਨਃ
+      short: ੨ ਯੋਹਨਃ
+    2Pet:
+      long: ੨ ਪਿਤਰਃ
+      short: ੨ ਪਿਤਰਃ
+    2Thess:
+      long: ੨ ਥਿਸ਼਼ਲਨੀਕਿਨਃ
+      short: ੨ ਥਿਸ਼਼ਲਨੀਕਿਨਃ
+    2Tim:
+      long: ੨ ਤੀਮਥਿਯਃ
+      short: ੨ ਤੀਮਥਿਯਃ
+    3John:
+      long: ੩ ਯੋਹਨਃ
+      short: ੩ ਯੋਹਨਃ
+    Acts:
+      long: ਪ੍ਰੇਰਿਤਾਃ
+      short: ਪ੍ਰੇਰਿਤਾਃ
+    Col:
+      long: ਕਲਸਿਨਃ
+      short: ਕਲਸਿਨਃ
+    Eph:
+      long: ਇਫਿਸ਼਼ਿਣਃ
+      short: ਇਫਿਸ਼਼ਿਣਃ
+    Gal:
+      long: ਗਾਲਾਤਿਨਃ
+      short: ਗਾਲਾਤਿਨਃ
+    Heb:
+      long: ਇਬ੍ਰਿਣਃ
+      short: ਇਬ੍ਰਿਣਃ
+    Jas:
+      long: ਯਾਕੂਬਃ
+      short: ਯਾਕੂਬਃ
+    John:
+      long: ਯੋਹਨਃ
+      short: ਯੋਹਨਃ
+    Jude:
+      long: ਯਿਹੂਦਾਃ
+      short: ਯਿਹੂਦਾਃ
+    Luke:
+      long: ਲੂਕਃ
+      short: ਲੂਕਃ
+    Mark:
+      long: ਮਾਰ੍ਕਃ
+      short: ਮਾਰ੍ਕਃ
+    Matt:
+      long: ਮਥਿਃ
+      short: ਮਥਿਃ
+    Phil:
+      long: ਫਿਲਿਪਿਨਃ
+      short: ਫਿਲਿਪਿਨਃ
+    Phlm:
+      long: ਫਿਲੋਮੋਨਃ
+      short: ਫਿਲੋਮੋਨਃ
+    Rev:
+      long: ਪ੍ਰਕਾਸ਼ਿਤੰ
+      short: ਪ੍ਰਕਾਸ਼ਿਤੰ
+    Rom:
+      long: ਰੋਮਿਣਃ
+      short: ਰੋਮਿਣਃ
+    Titus:
+      long: ਤੀਤਃ
+      short: ਤੀਤਃ
+  sangj:
+    1Cor:
+      long: ૧ કરિન્થિનઃ
+      short: ૧ કરિન્થિનઃ
+    1John:
+      long: ૧ યોહનઃ
+      short: ૧ યોહનઃ
+    1Pet:
+      long: ૧ પિતરઃ
+      short: ૧ પિતરઃ
+    1Thess:
+      long: ૧ થિષલનીકિનઃ
+      short: ૧ થિષલનીકિનઃ
+    1Tim:
+      long: ૧ તીમથિયઃ
+      short: ૧ તીમથિયઃ
+    2Cor:
+      long: ૨ કરિન્થિનઃ
+      short: ૨ કરિન્થિનઃ
+    2John:
+      long: ૨ યોહનઃ
+      short: ૨ યોહનઃ
+    2Pet:
+      long: ૨ પિતરઃ
+      short: ૨ પિતરઃ
+    2Thess:
+      long: ૨ થિષલનીકિનઃ
+      short: ૨ થિષલનીકિનઃ
+    2Tim:
+      long: ૨ તીમથિયઃ
+      short: ૨ તીમથિયઃ
+    3John:
+      long: ૩ યોહનઃ
+      short: ૩ યોહનઃ
+    Acts:
+      long: પ્રેરિતાઃ
+      short: પ્રેરિતાઃ
+    Col:
+      long: કલસિનઃ
+      short: કલસિનઃ
+    Eph:
+      long: ઇફિષિણઃ
+      short: ઇફિષિણઃ
+    Gal:
+      long: ગાલાતિનઃ
+      short: ગાલાતિનઃ
+    Heb:
+      long: ઇબ્રિણઃ
+      short: ઇબ્રિણઃ
+    Jas:
+      long: યાકૂબઃ
+      short: યાકૂબઃ
+    John:
+      long: યોહનઃ
+      short: યોહનઃ
+    Jude:
+      long: યિહૂદાઃ
+      short: યિહૂદાઃ
+    Luke:
+      long: લૂકઃ
+      short: લૂકઃ
+    Mark:
+      long: માર્કઃ
+      short: માર્કઃ
+    Matt:
+      long: મથિઃ
+      short: મથિઃ
+    Phil:
+      long: ફિલિપિનઃ
+      short: ફિલિપિનઃ
+    Phlm:
+      long: ફિલોમોનઃ
+      short: ફિલોમોનઃ
+    Rev:
+      long: પ્રકાશિતં
+      short: પ્રકાશિતં
+    Rom:
+      long: રોમિણઃ
+      short: રોમિણઃ
+    Titus:
+      long: તીતઃ
+      short: તીતઃ
+  sanor:
+    1Cor:
+      long: ୧ କରିନ୍ଥିନଃ
+      short: ୧ କରିନ୍ଥିନଃ
+    1John:
+      long: ୧ ଯୋହନଃ
+      short: ୧ ଯୋହନଃ
+    1Pet:
+      long: ୧ ପିତରଃ
+      short: ୧ ପିତରଃ
+    1Thess:
+      long: ୧ ଥିଷଲନୀକିନଃ
+      short: ୧ ଥିଷଲନୀକିନଃ
+    1Tim:
+      long: ୧ ତୀମଥିଯଃ
+      short: ୧ ତୀମଥିଯଃ
+    2Cor:
+      long: ୨ କରିନ୍ଥିନଃ
+      short: ୨ କରିନ୍ଥିନଃ
+    2John:
+      long: ୨ ଯୋହନଃ
+      short: ୨ ଯୋହନଃ
+    2Pet:
+      long: ୨ ପିତରଃ
+      short: ୨ ପିତରଃ
+    2Thess:
+      long: ୨ ଥିଷଲନୀକିନଃ
+      short: ୨ ଥିଷଲନୀକିନଃ
+    2Tim:
+      long: ୨ ତୀମଥିଯଃ
+      short: ୨ ତୀମଥିଯଃ
+    3John:
+      long: ୩ ଯୋହନଃ
+      short: ୩ ଯୋହନଃ
+    Acts:
+      long: ପ୍ରେରିତାଃ
+      short: ପ୍ରେରିତାଃ
+    Col:
+      long: କଲସିନଃ
+      short: କଲସିନଃ
+    Eph:
+      long: ଇଫିଷିଣଃ
+      short: ଇଫିଷିଣଃ
+    Gal:
+      long: ଗାଲାତିନଃ
+      short: ଗାଲାତିନଃ
+    Heb:
+      long: ଇବ୍ରିଣଃ
+      short: ଇବ୍ରିଣଃ
+    Jas:
+      long: ଯାକୂବଃ
+      short: ଯାକୂବଃ
+    John:
+      long: ଯୋହନଃ
+      short: ଯୋହନଃ
+    Jude:
+      long: ଯିହୂଦାଃ
+      short: ଯିହୂଦାଃ
+    Luke:
+      long: ଲୂକଃ
+      short: ଲୂକଃ
+    Mark:
+      long: ମାର୍କଃ
+      short: ମାର୍କଃ
+    Matt:
+      long: ମଥିଃ
+      short: ମଥିଃ
+    Phil:
+      long: ଫିଲିପିନଃ
+      short: ଫିଲିପିନଃ
+    Phlm:
+      long: ଫିଲୋମୋନଃ
+      short: ଫିଲୋମୋନଃ
+    Rev:
+      long: ପ୍ରକାଶିତଂ
+      short: ପ୍ରକାଶିତଂ
+    Rom:
+      long: ରୋମିଣଃ
+      short: ରୋମିଣଃ
+    Titus:
+      long: ତୀତଃ
+      short: ତୀତଃ
+  sanka:
+    1Cor:
+      long: ೧ ಕರಿನ್ಥಿನಃ
+      short: ೧ ಕರಿನ್ಥಿನಃ
+    1John:
+      long: ೧ ಯೋಹನಃ
+      short: ೧ ಯೋಹನಃ
+    1Pet:
+      long: ೧ ಪಿತರಃ
+      short: ೧ ಪಿತರಃ
+    1Thess:
+      long: ೧ ಥಿಷಲನೀಕಿನಃ
+      short: ೧ ಥಿಷಲನೀಕಿನಃ
+    1Tim:
+      long: ೧ ತೀಮಥಿಯಃ
+      short: ೧ ತೀಮಥಿಯಃ
+    2Cor:
+      long: ೨ ಕರಿನ್ಥಿನಃ
+      short: ೨ ಕರಿನ್ಥಿನಃ
+    2John:
+      long: ೨ ಯೋಹನಃ
+      short: ೨ ಯೋಹನಃ
+    2Pet:
+      long: ೨ ಪಿತರಃ
+      short: ೨ ಪಿತರಃ
+    2Thess:
+      long: ೨ ಥಿಷಲನೀಕಿನಃ
+      short: ೨ ಥಿಷಲನೀಕಿನಃ
+    2Tim:
+      long: ೨ ತೀಮಥಿಯಃ
+      short: ೨ ತೀಮಥಿಯಃ
+    3John:
+      long: ೩ ಯೋಹನಃ
+      short: ೩ ಯೋಹನಃ
+    Acts:
+      long: ಪ್ರೇರಿತಾಃ
+      short: ಪ್ರೇರಿತಾಃ
+    Col:
+      long: ಕಲಸಿನಃ
+      short: ಕಲಸಿನಃ
+    Eph:
+      long: ಇಫಿಷಿಣಃ
+      short: ಇಫಿಷಿಣಃ
+    Gal:
+      long: ಗಾಲಾತಿನಃ
+      short: ಗಾಲಾತಿನಃ
+    Heb:
+      long: ಇಬ್ರಿಣಃ
+      short: ಇಬ್ರಿಣಃ
+    Jas:
+      long: ಯಾಕೂಬಃ
+      short: ಯಾಕೂಬಃ
+    John:
+      long: ಯೋಹನಃ
+      short: ಯೋಹನಃ
+    Jude:
+      long: ಯಿಹೂದಾಃ
+      short: ಯಿಹೂದಾಃ
+    Luke:
+      long: ಲೂಕಃ
+      short: ಲೂಕಃ
+    Mark:
+      long: ಮಾರ್ಕಃ
+      short: ಮಾರ್ಕಃ
+    Matt:
+      long: ಮಥಿಃ
+      short: ಮಥಿಃ
+    Phil:
+      long: ಫಿಲಿಪಿನಃ
+      short: ಫಿಲಿಪಿನಃ
+    Phlm:
+      long: ಫಿಲೋಮೋನಃ
+      short: ಫಿಲೋಮೋನಃ
+    Rev:
+      long: ಪ್ರಕಾಶಿತಂ
+      short: ಪ್ರಕಾಶಿತಂ
+    Rom:
+      long: ರೋಮಿಣಃ
+      short: ರೋಮಿಣಃ
+    Titus:
+      long: ತೀತಃ
+      short: ತೀತಃ
+  santh:
+    1Cor:
+      long: "๑ กรินฺถิน:"
+      short: "๑ กรินฺถิน:"
+    1John:
+      long: "๑ โยหน:"
+      short: "๑ โยหน:"
+    1Pet:
+      long: "๑ ปิตร:"
+      short: "๑ ปิตร:"
+    1Thess:
+      long: "๑ ถิษลนีกิน:"
+      short: "๑ ถิษลนีกิน:"
+    1Tim:
+      long: "๑ ตีมถิย:"
+      short: "๑ ตีมถิย:"
+    2Cor:
+      long: "๒ กรินฺถิน:"
+      short: "๒ กรินฺถิน:"
+    2John:
+      long: "๒ โยหน:"
+      short: "๒ โยหน:"
+    2Pet:
+      long: "๒ ปิตร:"
+      short: "๒ ปิตร:"
+    2Thess:
+      long: "๒ ถิษลนีกิน:"
+      short: "๒ ถิษลนีกิน:"
+    2Tim:
+      long: "๒ ตีมถิย:"
+      short: "๒ ตีมถิย:"
+    3John:
+      long: "๓ โยหน:"
+      short: "๓ โยหน:"
+    Acts:
+      long: "เปฺรริตา:"
+      short: "เปฺรริตา:"
+    Col:
+      long: "กลสิน:"
+      short: "กลสิน:"
+    Eph:
+      long: "อิผิษิณ:"
+      short: "อิผิษิณ:"
+    Gal:
+      long: "คาลาติน:"
+      short: "คาลาติน:"
+    Heb:
+      long: "อิพฺริณ:"
+      short: "อิพฺริณ:"
+    Jas:
+      long: "ยากูพ:"
+      short: "ยากูพ:"
+    John:
+      long: "โยหน:"
+      short: "โยหน:"
+    Jude:
+      long: "ยิหูทา:"
+      short: "ยิหูทา:"
+    Luke:
+      long: "ลูก:"
+      short: "ลูก:"
+    Mark:
+      long: "มารฺก:"
+      short: "มารฺก:"
+    Matt:
+      long: "มถิ:"
+      short: "มถิ:"
+    Phil:
+      long: "ผิลิปิน:"
+      short: "ผิลิปิน:"
+    Phlm:
+      long: "ผิโลโมน:"
+      short: "ผิโลโมน:"
+    Rev:
+      long: ปฺรกาศิตํ
+      short: ปฺรกาศิตํ
+    Rom:
+      long: "โรมิณ:"
+      short: "โรมิณ:"
+    Titus:
+      long: "ตีต:"
+      short: "ตีต:"
+  santi:
+    1Cor:
+      long: ༡ ཀརིནྠིནཿ
+      short: ༡ ཀརིནྠིནཿ
+    1John:
+      long: ༡ ཡོཧནཿ
+      short: ༡ ཡོཧནཿ
+    1Pet:
+      long: ༡ པིཏརཿ
+      short: ༡ པིཏརཿ
+    1Thess:
+      long: ༡ ཐིཥལནཱིཀིནཿ
+      short: ༡ ཐིཥལནཱིཀིནཿ
+    1Tim:
+      long: ༡ ཏཱིམཐིཡཿ
+      short: ༡ ཏཱིམཐིཡཿ
+    2Cor:
+      long: ༢ ཀརིནྠིནཿ
+      short: ༢ ཀརིནྠིནཿ
+    2John:
+      long: ༢ ཡོཧནཿ
+      short: ༢ ཡོཧནཿ
+    2Pet:
+      long: ༢ པིཏརཿ
+      short: ༢ པིཏརཿ
+    2Thess:
+      long: ༢ ཐིཥལནཱིཀིནཿ
+      short: ༢ ཐིཥལནཱིཀིནཿ
+    2Tim:
+      long: ༢ ཏཱིམཐིཡཿ
+      short: ༢ ཏཱིམཐིཡཿ
+    3John:
+      long: ༣ ཡོཧནཿ
+      short: ༣ ཡོཧནཿ
+    Acts:
+      long: པྲེརིཏཱཿ
+      short: པྲེརིཏཱཿ
+    Col:
+      long: ཀལསིནཿ
+      short: ཀལསིནཿ
+    Eph:
+      long: ཨིཕིཥིཎཿ
+      short: ཨིཕིཥིཎཿ
+    Gal:
+      long: གཱལཱཏིནཿ
+      short: གཱལཱཏིནཿ
+    Heb:
+      long: ཨིབྲིཎཿ
+      short: ཨིབྲིཎཿ
+    Jas:
+      long: ཡཱཀཱུབཿ
+      short: ཡཱཀཱུབཿ
+    John:
+      long: ཡོཧནཿ
+      short: ཡོཧནཿ
+    Jude:
+      long: ཡིཧཱུདཱཿ
+      short: ཡིཧཱུདཱཿ
+    Luke:
+      long: ལཱུཀཿ
+      short: ལཱུཀཿ
+    Mark:
+      long: མཱརྐཿ
+      short: མཱརྐཿ
+    Matt:
+      long: མཐིཿ
+      short: མཐིཿ
+    Phil:
+      long: ཕིལིཔིནཿ
+      short: ཕིལིཔིནཿ
+    Phlm:
+      long: ཕིལོམོནཿ
+      short: ཕིལོམོནཿ
+    Rev:
+      long: པྲཀཱཤིཏཾ
+      short: པྲཀཱཤིཏཾ
+    Rom:
+      long: རོམིཎཿ
+      short: རོམིཎཿ
+    Titus:
+      long: ཏཱིཏཿ
+      short: ཏཱིཏཿ
+  sanbu:
+    1Cor:
+      long: ၁ ကရိန္ထိနး
+      short: ၁ ကရိန္ထိနး
+    1John:
+      long: ၁ ယောဟနး
+      short: ၁ ယောဟနး
+    1Pet:
+      long: ၁ ပိတရး
+      short: ၁ ပိတရး
+    1Thess:
+      long: ၁ ထိၐလနီကိနး
+      short: ၁ ထိၐလနီကိနး
+    1Tim:
+      long: ၁ တီမထိယး
+      short: ၁ တီမထိယး
+    2Cor:
+      long: ၂ ကရိန္ထိနး
+      short: ၂ ကရိန္ထိနး
+    2John:
+      long: ၂ ယောဟနး
+      short: ၂ ယောဟနး
+    2Pet:
+      long: ၂ ပိတရး
+      short: ၂ ပိတရး
+    2Thess:
+      long: ၂ ထိၐလနီကိနး
+      short: ၂ ထိၐလနီကိနး
+    2Tim:
+      long: ၂ တီမထိယး
+      short: ၂ တီမထိယး
+    3John:
+      long: ၃ ယောဟနး
+      short: ၃ ယောဟနး
+    Acts:
+      long: ပြေရိတား
+      short: ပြေရိတား
+    Col:
+      long: ကလသိနး
+      short: ကလသိနး
+    Eph:
+      long: ဣဖိၐိဏး
+      short: ဣဖိၐိဏး
+    Gal:
+      long: ဂါလာတိနး
+      short: ဂါလာတိနး
+    Heb:
+      long: ဣဗြိဏး
+      short: ဣဗြိဏး
+    Jas:
+      long: ယာကူဗး
+      short: ယာကူဗး
+    John:
+      long: ယောဟနး
+      short: ယောဟနး
+    Jude:
+      long: ယိဟူဒါး
+      short: ယိဟူဒါး
+    Luke:
+      long: လူကး
+      short: လူကး
+    Mark:
+      long: မာရ္ကး
+      short: မာရ္ကး
+    Matt:
+      long: မထိး
+      short: မထိး
+    Phil:
+      long: ဖိလိပိနး
+      short: ဖိလိပိနး
+    Phlm:
+      long: ဖိလောမောနး
+      short: ဖိလောမောနး
+    Rev:
+      long: ပြကာၑိတံ
+      short: ပြကာၑိတံ
+    Rom:
+      long: ရောမိဏး
+      short: ရောမိဏး
+    Titus:
+      long: တီတး
+      short: တီတး
+  sankh:
+    1Cor:
+      long: ១ ករិន្ថិនះ
+      short: ១ ករិន្ថិនះ
+    1John:
+      long: ១ យោហនះ
+      short: ១ យោហនះ
+    1Pet:
+      long: ១ បិតរះ
+      short: ១ បិតរះ
+    1Thess:
+      long: ១ ថិឞលនីកិនះ
+      short: ១ ថិឞលនីកិនះ
+    1Tim:
+      long: ១ តីមថិយះ
+      short: ១ តីមថិយះ
+    2Cor:
+      long: ២ ករិន្ថិនះ
+      short: ២ ករិន្ថិនះ
+    2John:
+      long: ២ យោហនះ
+      short: ២ យោហនះ
+    2Pet:
+      long: ២ បិតរះ
+      short: ២ បិតរះ
+    2Thess:
+      long: ២ ថិឞលនីកិនះ
+      short: ២ ថិឞលនីកិនះ
+    2Tim:
+      long: ២ តីមថិយះ
+      short: ២ តីមថិយះ
+    3John:
+      long: ៣ យោហនះ
+      short: ៣ យោហនះ
+    Acts:
+      long: ប្រេរិតាះ
+      short: ប្រេរិតាះ
+    Col:
+      long: កលសិនះ
+      short: កលសិនះ
+    Eph:
+      long: ឥផិឞិណះ
+      short: ឥផិឞិណះ
+    Gal:
+      long: គាលាតិនះ
+      short: គាលាតិនះ
+    Heb:
+      long: ឥព្រិណះ
+      short: ឥព្រិណះ
+    Jas:
+      long: យាកូពះ
+      short: យាកូពះ
+    John:
+      long: យោហនះ
+      short: យោហនះ
+    Jude:
+      long: យិហូទាះ
+      short: យិហូទាះ
+    Luke:
+      long: លូកះ
+      short: លូកះ
+    Mark:
+      long: មាក៌ះ
+      short: មាក៌ះ
+    Matt:
+      long: មថិះ
+      short: មថិះ
+    Phil:
+      long: ផិលិបិនះ
+      short: ផិលិបិនះ
+    Phlm:
+      long: ផិលោមោនះ
+      short: ផិលោមោនះ
+    Rev:
+      long: ប្រកាឝិតំ
+      short: ប្រកាឝិតំ
+    Rom:
+      long: រោមិណះ
+      short: រោមិណះ
+    Titus:
+      long: តីតះ
+      short: តីតះ
+  sanit:
+    1Thess:
+      long: 1 thiShalanIkinaH
+      short: 1 thiShalanIkinaH
+    2Thess:
+      long: 2 thiShalanIkinaH
+      short: 2 thiShalanIkinaH
+    Eph:
+      long: iphiShiNaH
+      short: iphiShiNaH
+    Rev:
+      long: prakAshitaM
+      short: prakAshitaM

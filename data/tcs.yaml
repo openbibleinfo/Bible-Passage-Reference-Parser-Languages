@@ -1,0 +1,132 @@
+variables:
+  first: &first
+    - Leta
+    - Namba
+  second: &second
+    - Leta
+    - Namba
+books:
+  - osis: Gen
+    texts:
+      - Zenasis - Stat blo ebriting
+      - Zenasis
+  - osis: Rev
+    texts:
+      - Rebaleisan - end blo ebriting
+  - osis: Ruth
+    texts:
+      - Buk baut Rut
+  - osis: Jonah
+    texts:
+      - Spesilmesizman Zona
+      - Zona
+  - osis: Matt
+    texts:
+      - Matiu tokbaut Zizas
+      - Matiu
+  - osis: Mark
+    texts:
+      - Mak tokbaut Zizas
+      - Mak
+  - osis: Luke
+    texts:
+      - Luk tokbaut Zizas
+      - Luk
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - 1 leta prom Zon
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - 2 leta prom Zon
+  - osis: 3John
+    texts:
+      - Namba 3 leta prom Zon
+  - osis: John
+    texts:
+      - Zon tokbaut Zizas
+      - Zon
+  - osis: Acts
+    texts:
+      - Pas misnare wok
+      - Pas Misnare
+  - osis: Rom
+    texts:
+      - Leta po Sos blo Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - 1 leta po Sos blo Korint
+      - 1 po Korint
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - 2 leta po Sos blo Korint
+      - 2 po Korint
+  - osis: Col
+    texts:
+      - Leta po Sos blo Kolosi
+  - osis: Gal
+    texts:
+      - Leta po Sos blo Galasia
+  - osis: Eph
+    texts:
+      - Leta po Sos blo Episis
+      - Leta 1 po Episis
+  - osis: Phil
+    texts:
+      - Leta po Sos blo Pilipi
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - 1 leta po Sos blo Tesalonika
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - 2 leta po Sos blo Tesalonika
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - 1 leta po Timoti
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - 2 leta po Timoti
+  - osis: Titus
+    texts:
+      - Leta po Taitas
+  - osis: Phlm
+    texts:
+      - Leta po Pilemon
+  - osis: Heb
+    texts:
+      - Leta po Ibrupipol
+  - osis: Jas
+    texts:
+      - Leta prom Zemes
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - 1 leta prom Pita
+      - 1 prom Pita
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - 2 leta prom Pita
+      - 2 prom Pita
+  - osis: Jude
+    texts:
+      - Leta prom Zud
+translations:
+  - TCSNTPO

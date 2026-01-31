@@ -1,0 +1,304 @@
+variables:
+  first: &first
+    - "1"
+    - Nüxíraxü̃xü̃
+  second: &second
+    - "2"
+    - Norü
+books:
+  - osis: Gen
+    texts:
+      - Naanearü ügüchiga
+      - Gn.
+  - osis: Exod
+    texts:
+      - Ínachoxü̃xü̃chiga
+      - Éx.
+  - osis: Lev
+    texts:
+      - Lebítanüxü̃arü puracüchiga
+      - Lv.
+  - osis: Num
+    texts:
+      - Iraétanüxü̃arü muxchiga
+      - Nm.
+  - osis: Lam
+    texts:
+      - Auxexü̃chiga
+      - Lm.
+  - osis: Rev
+    texts:
+      - Yema Cuáü̃ nüxü̃ dauxü̃ i yixcüra tá ngupetüxü̃chiga
+      - Ap.
+  - osis: Deut
+    texts:
+      - Wenaxarü naxümatü ga Tupanaarü mugü
+      - Dt.
+  - osis: Josh
+    texts:
+      - Yochué
+      - Jos.
+  - osis: Judg
+    texts:
+      - Ãẽ̱xgacügü ga guxchaxü̃güarü mexẽxẽruü̃gü
+      - Jue.
+  - osis: Ruth
+    texts:
+      - Rt.
+      - Rux
+  - osis: Isa
+    texts:
+      - Ichaía
+      - Is.
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Chamué
+      - S.
+  - osis:
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - taxre ga popera ga ãẽ̱xgacügüchiga
+      - R.
+  - osis:
+      - osis: 2Chr
+        before: *second
+    texts:
+      - taxre ga to ga popera ga ãẽ̱xgacügüchiga ümatüxü̃
+      - Cr.
+  - osis:
+      - osis: 1Chr
+        before: *first
+    texts:
+      - ga to ga popera ga ãẽ̱xgacügüchiga ümatüxü̃
+      - Cr.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+    texts:
+      - ga popera ga ãẽ̱xgacügüchiga
+      - R.
+  - osis: Ezra
+    texts:
+      - Édra
+      - Esd.
+  - osis: Neh
+    texts:
+      - Neemía
+      - Neh.
+  - osis: Esth
+    texts:
+      - Est.
+      - Ité
+  - osis: Job
+    texts:
+      - Job
+      - Yox
+  - osis: Ps
+    texts:
+      - Wiyaegü
+      - Sal.
+  - osis: Prov
+    texts:
+      - Ucu̱xẽgüchiga
+      - Pr.
+  - osis: Eccl
+    texts:
+      - Ngu̱xẽẽtaeruü̃arü ore
+      - Ec.
+  - osis: Song
+    texts:
+      - Charumóü̃arü wiyae
+      - Cnt.
+  - osis: Jer
+    texts:
+      - Yeremía
+      - Jr.
+  - osis: Ezek
+    texts:
+      - Echequié
+      - Ez.
+  - osis: Dan
+    texts:
+      - Danié
+      - Dn.
+  - osis: Hos
+    texts:
+      - Ochéa
+      - Os.
+  - osis: Joel
+    texts:
+      - Jl.
+      - Yoé
+  - osis: Amos
+    texts:
+      - Amúx
+      - Am.
+  - osis: Obad
+    texts:
+      - Abdía
+      - Abd.
+  - osis: Jonah
+    texts:
+      - Jon.
+      - Yoná
+  - osis: Mic
+    texts:
+      - Miquéa
+      - Mi.
+  - osis: Nah
+    texts:
+      - Naúü̃
+      - Nah.
+  - osis: Hab
+    texts:
+      - Abacú
+      - Hab.
+  - osis: Zeph
+    texts:
+      - Chofonía
+      - Sof.
+  - osis: Hag
+    texts:
+      - Aguéu
+      - Hag.
+  - osis: Zech
+    texts:
+      - Chacaría
+      - Zac.
+  - osis: Mal
+    texts:
+      - Maraquía
+      - Mal.
+  - osis: Matt
+    texts:
+      - Ore i mexü̃ ga Matéu ümatüxü̃
+      - Mt.
+  - osis: Mark
+    texts:
+      - Ore i mexü̃ ga Márcu ümatüxü̃
+      - Mr.
+  - osis: Luke
+    texts:
+      - Ore i mexü̃ ga Luca ümatüxü̃
+      - Lc.
+  - osis: 3John
+    texts:
+      - Norü tomaepü̱x ga popera ga Cuáü̃ ümatüxü̃
+      - 3 Jn.
+  - osis:
+      - osis: 2John
+        before: *second
+    texts:
+      - taxre ga popera ga Cuáü̃ ümatüxü̃
+      - Jn.
+  - osis:
+      - osis: 1John
+        before: *first
+    texts:
+      - ga popera ga Cuáü̃ ümatüxü̃
+      - Jn.
+  - osis: John
+    texts:
+      - Ore i mexü̃ ga Cuáü̃ ümatüxü̃
+      - Jn.
+  - osis: Acts
+    texts:
+      - Ngechuchuarü ngúexü̃gü ga yamugüxü̃arü puracüchiga
+      - Hch.
+  - osis: Rom
+    texts:
+      - Popera ga Rómawa yexmagüxü̃ ga yaxõgüxü̃tanüwa namuxü̃ ga Pauru
+      - Ro.
+  - osis:
+      - osis: 2Cor
+        before: *second
+    texts:
+      - taxre ga popera ga Coríntiuwa yexmagüxü̃ ga yaxõgüxü̃tanüwa namuxü̃ ga
+        Pauru
+      - Co.
+  - osis:
+      - osis: 1Cor
+        before: *first
+    texts:
+      - ga popera ga Coríntiuwa yexmagüxü̃ ga yaxõgüxü̃tanüwa namuxü̃ ga Pauru
+      - Co.
+  - osis: Col
+    texts:
+      - Popera ga Coróchawa yexmagüxü̃ ga yaxõgüxü̃tanüwa namuxü̃ ga Pauru
+      - Col.
+  - osis: Gal
+    texts:
+      - Popera ga Gárataanewa yexmagüxü̃ ga yaxõgüxü̃tanüwa namuxü̃ ga Pauru
+      - Gá.
+  - osis: Eph
+    texts:
+      - Popera ga Epéchiuwa yexmagüxü̃ ga yaxõgüxü̃tanüwa namuxü̃ ga Pauru
+      - Ef.
+  - osis: Phil
+    texts:
+      - Popera ga Pirípuwa yexmagüxü̃ ga yaxõgüxü̃tanüwa namuxü̃ ga Pauru
+      - Fil.
+  - osis:
+      - osis: 2Thess
+        before: *second
+    texts:
+      - taxre ga popera ga Techarónicawa yexmagüxü̃ ga yaxõgüxü̃tanüwa namuxü̃
+        ga Pauru
+      - Ts.
+  - osis:
+      - osis: 1Thess
+        before: *first
+    texts:
+      - ga popera ga Techarónicawa yexmagüxü̃ ga yaxõgüxü̃tanüwa namuxü̃ ga Pauru
+      - Ts.
+  - osis:
+      - osis: 2Tim
+        before: *second
+    texts:
+      - taxre ga popera ga Timutéuca̱x naxümatüxü̃ ga Pauru
+      - Ti.
+  - osis:
+      - osis: 1Tim
+        before: *first
+    texts:
+      - ga popera ga Timutéuca̱x naxümatüxü̃ ga Pauru
+      - Ti.
+  - osis: Titus
+    texts:
+      - Popera ga Títoca̱x naxümatüxü̃ ga Pauru
+      - Tit.
+  - osis: Phlm
+    texts:
+      - Popera ga Filemúü̃ca̱x naxümatüxü̃ ga Pauru
+      - Flm.
+  - osis: Heb
+    texts:
+      - Popera ga Yudíugü ga yaxõgüxü̃ca̱x ümatüxü̃
+      - He.
+  - osis: Jas
+    texts:
+      - Popera ga Chantiágu ümatüxü̃
+      - Stg.
+  - osis:
+      - osis: 2Pet
+        before: *second
+    texts:
+      - taxre ga popera ga Pedru ümatüxü̃
+      - Pe.
+  - osis:
+      - osis: 1Pet
+        before: *first
+    texts:
+      - ga popera ga Pedru ümatüxü̃
+      - Pe.
+  - osis: Jude
+    texts:
+      - Popera ga Yúda ümatüxü̃
+      - Jud.
+translations:
+  - TCA

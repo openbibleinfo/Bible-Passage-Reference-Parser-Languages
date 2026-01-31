@@ -1,0 +1,421 @@
+- osis: Gen
+  texts:
+    - Destpêk
+    - Dstp
+- osis: Exod
+  texts:
+    - Derketin
+    - Drkt
+- osis: Lev
+  texts:
+    - Lêwiyî
+    - Lêw
+- osis: Num
+  texts:
+    - Hejmartin
+    - Hejm
+- osis: Lam
+  texts:
+    - Lavijên Şînê
+    - Lvj
+- osis: Rev
+  texts:
+    - آشگَرابون
+    - ئاشكراكرن
+    - Eʼyantî
+    - Әʼйанти
+    - Peyxam
+    - Peyx
+- osis: Deut
+  texts:
+    - Dubarekirina Şerîetê
+    - Dub
+- osis: Josh
+  texts:
+    - Yêşû
+- osis: Judg
+  texts:
+    - Dadger
+    - Ddgr
+- osis: Ruth
+  texts:
+    - Rût
+- osis: Isa
+  texts:
+    - Îşaya
+    - Îşa
+- osis: 1Sam
+  texts:
+    - Samûêl I,
+    - Sam I,
+- osis: 2Sam
+  texts:
+    - Samûêl II,
+    - Sam II,
+- osis: 1Kgs
+  texts:
+    - Padîşah I,
+    - Pad I,
+- osis: 2Kgs
+  texts:
+    - Padîşah II,
+    - Pad II,
+- osis: 1Chr
+  texts:
+    - Dîrok I,
+    - Dîr I,
+- osis: Ezra
+  texts:
+    - Ezra
+    - Ezr
+- osis: Neh
+  texts:
+    - Nehemya
+    - Neh
+- osis: Esth
+  texts:
+    - Ester
+    - Est
+- osis: Job
+  texts:
+    - Eyûb
+- osis: Ps
+  texts:
+    - Zebûr
+    - Zeb
+- osis: Prov
+  texts:
+    - Şîretên Silêman
+    - Methelokên
+    - Şîr
+- osis: Eccl
+  texts:
+    - Waiz
+- osis: Song
+  texts:
+    - Helbesta Helbestan
+    - Hlb
+- osis: Jer
+  texts:
+    - Yêremya
+    - Yêr
+- osis: Dan
+  texts:
+    - Daniyêl
+    - Dan
+- osis: Hos
+  texts:
+    - Hoşêya
+    - Hoş
+- osis: Joel
+  texts:
+    - Yoêl
+- osis: Amos
+  texts:
+    - Amos
+- osis: Obad
+  texts:
+    - Ovadya
+    - Ovad
+- osis: Jonah
+  texts:
+    - Ûnis
+- osis: Mic
+  texts:
+    - Mîxa
+- osis: Nah
+  texts:
+    - Nahûm
+    - Nah
+- osis: Hab
+  texts:
+    - Habaqûq
+    - Hab
+- osis: Zeph
+  texts:
+    - Sefanya
+    - Sef
+- osis: Hag
+  texts:
+    - Hagay
+    - Hag
+- osis: Zech
+  texts:
+    - Zekeriya
+    - Zek
+- osis: Mal
+  texts:
+    - Melaxî
+    - Mel
+- osis: Matt
+  texts:
+    - مزگینیا مەتتای
+    - Metta
+    - Мәтта
+    - مَتّی
+    - مەتتا
+    - Met
+- osis: Mark
+  texts:
+    - مزگینیا مەرقۆسی
+    - Marqos
+    - Марԛос
+    - مَرقُس
+    - مەرقۆس
+    - Mar
+- osis: Luke
+  texts:
+    - مزگینیا لوقای
+    - Lûqa
+    - Луԛа
+    - لوقا
+    - Luk
+- osis: 1John
+  texts:
+    - Yûhenna I,
+    - Yûhʼenna I
+    - Йуһʼәнна I
+    - یوحنا 1
+    - Yûh I,
+- osis: 2John
+  texts:
+    - Yûhenna II,
+    - Yûhʼenna II
+    - Йуһʼәнна II
+    - Yûh II,
+    - یوحنا 2
+- osis: 3John
+  texts:
+    - Yûhenna III,
+    - Yûhʼenna III
+    - Йуһʼәнна III
+    - 3 یوحەننا
+    - Yûh III,
+    - یوحنا 3
+- osis: 1John
+  texts:
+    - 1 یوحەننا
+    - 1. یوحەننا
+    - ناما یوحەننا
+    - ناما. یوحەننا
+- osis: 2John
+  texts:
+    - 2 یوحەننا
+    - 2. یوحەننا
+    - ناما یوحەننا
+    - ناما. یوحەننا
+- osis: John
+  texts:
+    - مزگینیا یوحەننای
+    - Yûhʼenna
+    - Йуһʼәнна
+    - Yûhenna
+    - یوحەننا
+    - یوحنا
+    - Yûh
+- osis: Acts
+  texts:
+    - Karên Şandiyan
+    - Kʼarêd Şandîya
+    - Кʼаред Шандийа
+    - كارێن هنارتیان
+    - شُله رسولا
+    - Şandiyan
+- osis: Rom
+  texts:
+    - نامَ بُ رومیا
+    - Rʼomayî
+    - Рʼомайи
+    - Romayî
+    - رۆما
+    - Rom
+- osis: 1Cor
+  texts:
+    - 1 كورنتۆس
+    - 1. كورنتۆس
+    - ناما كورنتۆس
+    - ناما. كورنتۆس
+- osis: 1Cor
+  texts:
+    - اول قرنتیان
+    - Korîntî I,
+    - Korintʼî I
+    - Корьнтʼи I
+    - Kor I,
+- osis: 2Cor
+  texts:
+    - 2 دویه بُ قُرنتیا
+    - 2 كورنتۆس
+    - 2. دویه بُ قُرنتیا
+    - 2. كورنتۆس
+    - ناما دویه بُ قُرنتیا
+    - ناما كورنتۆس
+    - ناما. دویه بُ قُرنتیا
+    - ناما. كورنتۆس
+- osis: 2Cor
+  texts:
+    - Korîntî II,
+    - Korintʼî II
+    - Корьнтʼи II
+    - Kor II,
+- osis: Col
+  texts:
+    - نامَ بُ کولُسیا
+    - Kolosî
+    - Колоси
+    - كۆلۆسی
+    - Kol
+- osis: Gal
+  texts:
+    - نامَ بُ غَلاطیا
+    - گالاتیا
+    - Galatî
+    - Галати
+    - Gal
+- osis: Eph
+  texts:
+    - نامَ بُ اَفِسُسیا
+    - ئەفەسۆس
+    - Efesî
+    - Әфәси
+    - Efe
+- osis: Phil
+  texts:
+    - نامَ بُ فیلیپیا
+    - Filîpî
+    - Fîlîpî
+    - Филипи
+    - فیلیپی
+    - Flp
+- osis: 1Thess
+  texts:
+    - 1 اَوِلی بُ تسالونیکیا
+    - 1 سالونیكی
+    - 1. اَوِلی بُ تسالونیکیا
+    - 1. سالونیكی
+    - ناما اَوِلی بُ تسالونیکیا
+    - ناما سالونیكی
+    - ناما. اَوِلی بُ تسالونیکیا
+    - ناما. سالونیكی
+- osis: 1Thess
+  texts:
+    - Tʼêsalonîkî I
+    - Тʼесалоники I
+    - Selanîkî I,
+    - Sel I,
+- osis: 2Thess
+  texts:
+    - 2 دویه بُ تسالونیکیا
+    - 2 سالونیكی
+    - 2. دویه بُ تسالونیکیا
+    - 2. سالونیكی
+    - ناما دویه بُ تسالونیکیا
+    - ناما سالونیكی
+    - ناما. دویه بُ تسالونیکیا
+    - ناما. سالونیكی
+- osis: 2Thess
+  texts:
+    - Tʼêsalonîkî II
+    - Тʼесалоники II
+    - Selanîkî II,
+    - Sel II,
+- osis: 1Tim
+  texts:
+    - 1 اَوِلی بُ تیموتائوس
+    - 1 تیمۆتاوس
+    - 1. اَوِلی بُ تیموتائوس
+    - 1. تیمۆتاوس
+    - ناما اَوِلی بُ تیموتائوس
+    - ناما تیمۆتاوس
+    - ناما. اَوِلی بُ تیموتائوس
+    - ناما. تیمۆتاوس
+- osis: 1Tim
+  texts:
+    - Tîmotêyos I,
+    - Tîmotʼêyo I
+    - Тимотʼейо I
+    - Tîm I,
+- osis: 2Tim
+  texts:
+    - 2 دویه بُ تیموتائوس
+    - 2 تیمۆتاوس
+    - 2. دویه بُ تیموتائوس
+    - 2. تیمۆتاوس
+    - ناما دویه بُ تیموتائوس
+    - ناما تیمۆتاوس
+    - ناما. دویه بُ تیموتائوس
+    - ناما. تیمۆتاوس
+- osis: 2Tim
+  texts:
+    - Tîmotêyos II,
+    - Tîmotʼêyo II
+    - Тимотʼейо II
+    - Tîm II
+- osis: Titus
+  texts:
+    - نامَ بُ تیتوس
+    - Tîtos
+    - تیتۆس
+    - Tîto
+    - Тито
+    - Tît
+- osis: Phlm
+  texts:
+    - نامَ بُ فیلیمون
+    - Filêmon
+    - Filîmon
+    - Фьлимон
+    - فلیمون
+    - Flm
+- osis: Heb
+  texts:
+    - نامَ بُ مسیحیِت عبرانی
+    - عیبرانی
+    - Îbranî
+    - Ибрани
+    - Îbr
+- osis: Jas
+  texts:
+    - یەعقوب
+    - یعقوب
+    - Aqûb
+    - Аԛуб
+- osis: 1Pet
+  texts:
+    - 1 پِطرُس یا اَوِلی
+    - 1 پەترۆس
+    - 1. پِطرُس یا اَوِلی
+    - 1. پەترۆس
+    - ناما پِطرُس یا اَوِلی
+    - ناما پەترۆس
+    - ناما. پِطرُس یا اَوِلی
+    - ناما. پەترۆس
+- osis: 1Pet
+  texts:
+    - Petrûs I,
+    - Petrûs I
+    - Пәтрус I
+    - Pet I,
+- osis: 2Pet
+  texts:
+    - 2 پِطرُس یا دویه
+    - 2 پەترۆس
+    - 2. پِطرُس یا دویه
+    - 2. پەترۆس
+    - ناما پِطرُس یا دویه
+    - ناما پەترۆس
+    - ناما. پِطرُس یا دویه
+    - ناما. پەترۆس
+- osis: 2Pet
+  texts:
+    - Petrûs II,
+    - Petrûs II
+    - Пәтрус II
+    - Pet II,
+- osis: Jude
+  texts:
+    - ناما یهودا
+    - Cihûda
+    - Щьһуда
+    - یەهودا
+    - Cihd

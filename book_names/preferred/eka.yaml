@@ -1,0 +1,116 @@
+default:
+  1Cor:
+    long: 1 Kor
+    short: 1 Kor
+  1John:
+    long: 1 Jon
+    short: 1 Jon
+  1Pet:
+    long: 1 Pit
+    short: 1 Pit
+  1Thess:
+    long: 1 Tes
+    short: 1 Tes
+  1Tim:
+    long: 1 Tim
+    short: 1 Tim
+  2Cor:
+    long: 2 Korint
+    short: 2 Kor
+  2John:
+    long: 2 Jon
+    short: 2 Jon
+  2Pet:
+    long: 2 Pit
+    short: 2 Pit
+  2Thess:
+    long: 2 Tes
+    short: 2 Tes
+  2Tim:
+    long: 2 Tim
+    short: 2 Tim
+  3John:
+    long: 3 Jon
+    short: 3 Jon
+  Acts:
+    long: Elt
+    short: Elt
+  Col:
+    long: Kol
+    short: Kol
+  Eph:
+    long: Ef
+    short: Ef
+  Gal:
+    long: Gal
+    short: Gal
+  Heb:
+    long: Hib
+    short: Hib
+  Jas:
+    long: Jems
+    short: Jems
+  John:
+    long: Jon
+    short: Jon
+  Jude:
+    long: Jud
+    short: Jud
+  Luke:
+    long: Luk
+    short: Luk
+  Mark:
+    long: Mak
+    short: Mak
+  Matt:
+    long: Mat
+    short: Mat
+  Phil:
+    long: Fil
+    short: Fil
+  Phlm:
+    long: Fai
+    short: Fai
+  Rev:
+    long: Ell
+    short: Ell
+  Rom:
+    long: Rom
+    short: Rom
+  Titus:
+    long: Tait
+    short: Tait
+translations:
+  ekant:
+    1Cor:
+      long: 1 Korint
+    1Pet:
+      long: 1 Pita
+    1Thess:
+      long: 1 Tesalonaika
+    1Tim:
+      long: 1 Timoti
+    2Pet:
+      long: 2 Pita
+    2Thess:
+      long: 2 Tesalonaika
+    2Tim:
+      long: 2 Timoti
+    Acts:
+      long: Eltum
+    Col:
+      long: Kolosa
+    Eph:
+      long: Efesus
+    Gal:
+      long: Galesa
+    Heb:
+      long: Hibru
+    Phil:
+      long: Filipai
+    Phlm:
+      long: Failimon
+    Rev:
+      long: Ellennge
+    Titus:
+      long: Taitus

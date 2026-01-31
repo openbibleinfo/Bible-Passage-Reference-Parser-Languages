@@ -1,0 +1,402 @@
+default:
+  1Chr:
+    long: 1 Kal
+    short: 1 Kal
+  1Cor:
+    long: 1 Kolinito
+    short: 1 Kol
+  1John:
+    long: 1 Sione
+    short: 1 Sione
+  1Kgs:
+    long: 1 Koe Gaahi Tu‘i
+    short: 1 Tu‘i
+  1Pet:
+    long: 1 Bita
+    short: 1 Pit
+  1Sam:
+    long: 1 Samuela
+    short: 1 Sām
+  1Thess:
+    long: 1 Tesalonaika
+    short: 1 Tes
+  1Tim:
+    long: 1 Timote
+    short: 1 Tīm
+  2Chr:
+    long: 2 Kal
+    short: 2 Kal
+  2Cor:
+    long: 2 Kolinito
+    short: 2 Kol
+  2John:
+    long: 2 Jone
+    short: 2 Sione
+  2Kgs:
+    long: II Koe Gaahi Tu‘i
+    short: 2 Tu‘i
+  2Pet:
+    long: 2 Pita
+    short: 2 Pit
+  2Sam:
+    long: 2 Samuela
+    short: 2 Sām
+  2Thess:
+    long: 2 Tesalonaiká
+    short: 2 Tes
+  2Tim:
+    long: 2 Timote
+    short: 2 Tīm
+  3John:
+    long: 3 Jone
+    short: 3 Sione
+  Acts:
+    long: Koe Gaue
+    short: Ngā
+  Amos:
+    long: Ko ‘Ēmosi
+    short: ‘Ēmosi
+  Col:
+    long: Kolose
+    short: Kol
+  Dan:
+    long: Ko Tāniela
+    short: Tān
+  Deut:
+    long: Ko Teutalōnome
+    short: Teu
+  Eccl:
+    long: Koe Tohi Ae Tagata Malaga
+    short: Koh
+  Eph:
+    long: Kakai Efeso
+    short: ʻEfesō
+  Esth:
+    long: Ko ‘Ēseta
+    short: ‘Ēseta
+  Exod:
+    long: Ekesotosi
+    short: ‘Eki
+  Ezek:
+    long: Ko ‘Isikeli
+    short: ‘Isi
+  Ezra:
+    long: Ko ‘Ēsela
+    short: ‘Ēsela
+  Gal:
+    long: Kakai Kaletia
+    short: Kal
+  Gen:
+    long: Jenesi
+    short: Sēn
+  Hab:
+    long: Ko Hapakuki
+    short: Hap
+  Hag:
+    long: Ko Hākeai
+    short: Hāk
+  Heb:
+    long: Hepelū
+    short: Hep
+  Hos:
+    long: Ko Hosea
+    short: Hōs
+  Isa:
+    long: Ko ‘Aisea
+    short: ‘Ais
+  Jas:
+    long: Jemesi
+    short: Sēm
+  Jer:
+    long: Ko Selemaia
+    short: Sel
+  Job:
+    long: Ko Siope
+    short: Siope
+  Joel:
+    long: Ko Sioeli
+    short: Sioelí
+  John:
+    long: Jone
+    short: Sione
+  Jonah:
+    long: Ko Siona
+    short: Sioná
+  Josh:
+    long: Josiua
+    short: Sios
+  Jude:
+    long: Siuta
+    short: Siuta
+  Judg:
+    long: Kau Fakamaau
+    short: Fkm
+  Lam:
+    long: Koe Tagilaulau A Jelemaia
+    short: Tangi
+  Lev:
+    long: Levitiko
+    short: Lev
+  Luke:
+    long: Luke
+    short: Luk
+  Mal:
+    long: Ko Malakai
+    short: Mal
+  Mark:
+    long: Maake
+    short: Ma‘ake
+  Matt:
+    long: E Matiu
+    short: Māt
+  Mic:
+    long: Ko Maika
+    short: Maiká
+  Nah:
+    long: Ko Nēhumi
+    short: Nēhu
+  Neh:
+    long: Ko Nehemaia
+    short: Nehe
+  Num:
+    long: Nomiba
+    short: Nōm
+  Obad:
+    long: Ko ‘Opataia
+    short: ‘Opa
+  Phil:
+    long: Filibai
+    short: Filip
+  Phlm:
+    long: Filimone
+    short: Filim
+  Prov:
+    long: Koe Gaahi Lea Fakatātā
+    short: Pal
+  Ps:
+    long: Ko E Saame
+    short: Saame
+  Rev:
+    long: Fakaha
+    short: Fakahā
+  Rom:
+    long: Loma
+    short: Lom
+  Ruth:
+    long: Ko Lute
+    short: Luté
+  Song:
+    long: Hiva ‘O E Hiva
+    short: Hiva
+  Titus:
+    long: Taitusi
+    short: Tait
+  Zech:
+    long: Ko Sākalaia
+    short: Sāk
+  Zeph:
+    long: Ko Sefanaia
+    short: Sef
+translations:
+  twb:
+    1Chr:
+      long: 1 Koe Tohi Fakamatala Mea Hokohoko
+    1John:
+      long: A Jone
+    1Thess:
+      long: 1 Tesalonika
+    2Chr:
+      long: II Koe Tohi Fakamatala Mea Hokohoko
+    2Pet:
+      long: A Bita
+    2Thess:
+      long: 2 Tesalonika
+    Amos:
+      long: Koe Tohi A Amosi
+    Dan:
+      long: Koe Tohi A Taniela
+    Deut:
+      long: Teutalonome
+    Esth:
+      long: Koe Tohi A Eseta
+    Ezek:
+      long: Koe Tohi A Isikieli
+    Ezra:
+      long: Koe Tohi A Esela
+    Hab:
+      long: Koe Tohi A Habakuki
+    Hag:
+      long: Koe Tohi A Hakeai
+    Heb:
+      long: Hebelu
+    Hos:
+      long: Koe Tohi A Hosea
+    Isa:
+      long: Koe Tohi A Isaia
+    Jer:
+      long: Koe Tohi A Jelemaia
+    Job:
+      long: Koe Tohi A Jobe
+    Joel:
+      long: Koe Tohi A Joeli
+    Jonah:
+      long: Koe Tohi A Jona
+    Jude:
+      long: Jute
+    Judg:
+      long: Koe Kau Fakamau
+    Mal:
+      long: Koe Tohi A Malakai
+    Mic:
+      long: Koe Tohi A Maika
+    Nah:
+      long: Koe Tohi A Nehumi
+    Neh:
+      long: Koe Tohi A Nehemaia
+    Obad:
+      long: Koe Tohi A Obataia
+    Ps:
+      long: Koe Gaahi Same
+    Ruth:
+      long: Lute
+    Song:
+      long: Koe Hiva A Solomone
+    Zech:
+      long: Koe Tohi A Sakalaia
+    Zeph:
+      long: Koe Tohi A Sefanaia
+  tcnt:
+    1Cor:
+      long: 1 Kolinitō
+      short: 1 Kolinitō
+    1Pet:
+      long: 1 Pita
+      short: 1 Pita
+    1Thess:
+      short: 1Tesalonaika
+    1Tim:
+      long: 1 Tīmote
+      short: 1Tīmote
+    2Cor:
+      long: 2 Kolinitō
+      short: 2 Kolinitō
+    2John:
+      long: 2 Sione
+    2Pet:
+      short: 2 Pita
+    2Thess:
+      short: 2Tesalonaiká
+    2Tim:
+      long: 2 Tīmote
+      short: 2Tīmote
+    3John:
+      long: 3 Sione
+    Acts:
+      long: Ngāue
+      short: Ngāue
+    Col:
+      short: Kolose
+    Eph:
+      long: ʻEfesō
+    Gal:
+      long: Kalētia
+      short: Kalētia
+    Heb:
+      short: Hepelū
+    Jas:
+      long: Sēmisi
+      short: Sēmisi
+    John:
+      long: Sione
+    Luke:
+      short: Luke
+    Mark:
+      long: Ma‘ake
+    Matt:
+      long: Mātiu
+      short: Mātiu
+    Phil:
+      long: Filipai
+      short: Filipai
+    Phlm:
+      short: Filimone
+    Rev:
+      long: Fakahā
+    Rom:
+      short: Loma
+    Titus:
+      short: Taitusi
+  tmb:
+    1Cor:
+      long: Kolinitō 1
+    1John:
+      long: Sioné 1
+    1Kgs:
+      long: Ko 1 Tu‘i
+    1Pet:
+      long: Pitá 1
+    1Sam:
+      long: Ko 1 Sāmiuela
+    1Thess:
+      long: Tesalonaiká 1
+    1Tim:
+      long: Tīmoté 1
+    2Cor:
+      long: Kolinitō 2
+    2John:
+      long: Sioné 2
+    2Kgs:
+      long: Ko 2 Tu‘i
+    2Pet:
+      long: Pitá 2
+    2Sam:
+      long: Ko 2 Sāmiuela
+    2Thess:
+      long: Tesalonaiká 2
+    2Tim:
+      long: Tīmoté 2
+    3John:
+      long: Sioné 3
+    Acts:
+      long: ‘Apositoló
+    Col:
+      long: Kolosé
+    Eccl:
+      long: Koheleti
+    Eph:
+      long: ‘Efesō
+      short: ‘Efe
+    Exod:
+      long: Ko ‘Ekisoto
+    Gal:
+      long: Kalētiá
+    Gen:
+      long: Ko Sēnesi
+    Jas:
+      long: Sēmisí
+    John:
+      long: Sioné
+      short: Sioné
+    Josh:
+      long: Ko Siosiua
+    Lam:
+      long: Koni Tangilāulau
+    Luke:
+      long: Luké
+    Mark:
+      long: Ma‘aké
+    Matt:
+      long: Mātiú
+    Num:
+      long: Nōmipa
+    Phil:
+      long: Filipaí
+    Phlm:
+      long: Filimoné
+    Prov:
+      long: Palōvepi
+    Rev:
+      long: Ko E Me‘a Fakahā
+      short: Fkhā
+    Titus:
+      long: Taitusí

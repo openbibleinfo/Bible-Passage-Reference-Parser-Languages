@@ -1,0 +1,19 @@
+books:
+  - osis: Matt
+    texts:
+      - Mateus
+      - Mt
+  - osis: Mark
+    texts:
+      - Marcos
+      - Mc
+  - osis: Luke
+    texts:
+      - Lucas
+      - Lc
+  - osis: John
+    texts:
+      - Juan
+      - Ju
+translations:
+  - MG14

@@ -1,0 +1,237 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Gen
+    texts:
+      - Fagsigadan
+      - Fasigad
+  - osis: Exod
+    texts:
+      - Nu Galin
+  - osis: Lev
+    texts:
+      - Lebitiku
+      - Leb.
+  - osis: Num
+    texts:
+      - Tap
+  - osis: Lam
+    texts:
+      - Nabaluwan
+  - osis: Rev
+    texts:
+      - At Nafasure
+  - osis: Deut
+    texts:
+      - Diyuterunumyu
+      - Diyu.
+  - osis: Josh
+    texts:
+      - Uswe
+  - osis: Judg
+    texts:
+      - Tagfangguna
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis: Isa
+    texts:
+      - Isayas
+      - Isa.
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samwel
+      - Sam.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Fun
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Krunika
+      - Kru.
+  - osis: Ezra
+    texts:
+      - Esra
+  - osis: Neh
+    texts:
+      - Nemiyas
+      - Nem.
+  - osis: Esth
+    texts:
+      - Istir
+  - osis: Job
+    texts:
+      - Ub
+  - osis: Prov
+    texts:
+      - Fangatulun
+  - osis: Eccl
+    texts:
+      - Takamoyung
+  - osis: Song
+    texts:
+      - Sulumun at Danyu
+      - Sulumun Danyu
+  - osis: Ps
+    texts:
+      - Danyu
+  - osis: Jer
+    texts:
+      - Eremyas
+      - Erem.
+  - osis: Ezek
+    texts:
+      - Esikyel
+      - Esik.
+  - osis: Dan
+    texts:
+      - Danyel
+      - Dan.
+  - osis: Hos
+    texts:
+      - Usea
+  - osis: Joel
+    texts:
+      - Uwel
+  - osis: Amos
+    texts:
+      - Amus
+  - osis: Obad
+    texts:
+      - Ubadiya
+      - Uba.
+  - osis: Jonah
+    texts:
+      - Unas
+  - osis: Mic
+    texts:
+      - Mikas
+  - osis: Nah
+    texts:
+      - Naum
+  - osis: Hab
+    texts:
+      - Abakuk
+  - osis: Zeph
+    texts:
+      - Sefanyas
+      - Sef.
+  - osis: Hag
+    texts:
+      - Agay
+  - osis: Zech
+    texts:
+      - Sakariyas
+      - Sak.
+  - osis: Mal
+    texts:
+      - Malakyas
+      - Mal.
+  - osis: Matt
+    texts:
+      - Matiyu
+      - Mat.
+  - osis: Mark
+    texts:
+      - Markus
+      - Mar.
+  - osis: Luke
+    texts:
+      - Lukas
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Uan
+  - osis: Acts
+    texts:
+      - Fagbulun
+  - osis: Rom
+    texts:
+      - Ruma
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kurintu
+      - Kur.
+  - osis: Col
+    texts:
+      - Kulusas
+  - osis: Gal
+    texts:
+      - Galasya
+      - Gal.
+  - osis: Eph
+    texts:
+      - Efesu
+  - osis: Phil
+    texts:
+      - Filipus
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tesalunika
+      - Tes.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timutiyu
+      - Tim.
+  - osis: Titus
+    texts:
+      - Titu
+  - osis: Phlm
+    texts:
+      - Filimun
+      - Fil.
+  - osis: Heb
+    texts:
+      - Ebriyu
+  - osis: Jas
+    texts:
+      - Santiagu
+      - San.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pedru
+      - Ped.
+  - osis: Jude
+    texts:
+      - Udas
+translations:
+  - TAWEAST

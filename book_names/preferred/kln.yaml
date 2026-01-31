@@ -1,0 +1,324 @@
+default:
+  1Chr:
+    long: 1 Ateptap Peetuusyek
+    short: 1A.Pet
+  1Cor:
+    long: 1 Korintoek
+    short: 1Kor
+  1John:
+    long: 1 Johana
+    short: 1Jhn
+  1Kgs:
+    long: 1 Laitorinik
+    short: 1Lai
+  1Macc:
+    long: 1 Makabaik
+    short: 1Mak
+  1Pet:
+    long: 1 Petero
+    short: 1Pet
+  1Sam:
+    long: 1 Samuel
+    short: 1Sam
+  1Thess:
+    long: 1 Thessalonikek
+    short: 1Thes
+  1Tim:
+    long: 1 Timoteo
+    short: 1Tim
+  2Chr:
+    long: 2 Apeetap Peetuusyek
+    short: 2A.Pet
+  2Cor:
+    long: 2 Korintoek
+    short: 2Kor
+  2John:
+    long: 2 Johana
+    short: 2Jhn
+  2Kgs:
+    long: 2 Laitorinik
+    short: 2Lai
+  2Macc:
+    long: 2 Makabaik
+    short: 2Mak
+  2Pet:
+    long: 2 Petero
+    short: 2Pet
+  2Sam:
+    long: 2 Samuel
+    short: 2Sam
+  2Thess:
+    long: 2 Thessalonikek
+    short: 2Thes
+  2Tim:
+    long: 2 Timoteo
+    short: 2Tim
+  3John:
+    long: 3 Johana
+    short: 3Jhn
+  Acts:
+    long: Poisyonigap Che Kiyoktoi
+    short: Poi
+  Amos:
+    long: Amos
+    short: Amo
+  Bar:
+    long: Baruk
+    short: Bar
+  Col:
+    long: Kolosaik
+    short: Kol
+  Dan:
+    long: Daniel
+    short: Dan
+  DanGr:
+    long: Daniel
+    short: Dan
+  Deut:
+    long: Ne Kibwate Ng'atuutik
+    short: Nkng'a
+  Eccl:
+    long: Amdoindet
+    short: Amd
+  Eph:
+    long: Ephesoek
+    short: Eph
+  Esth:
+    long: Esta
+    short: Est
+  EsthGr:
+    long: Esta
+    short: Estag
+  Exod:
+    long: Komong'u
+    short: Kom
+  Ezek:
+    long: Ezekiel
+    short: Ezk
+  Ezra:
+    long: Ezrah
+    short: Ezr
+  Gal:
+    long: Galatyek
+    short: Gal
+  Gen:
+    long: Taunet
+    short: Tau
+  Hab:
+    long: Habakkuk
+    short: Hab
+  Hag:
+    long: Haggai
+    short: Hag
+  Heb:
+    long: Hebranik
+    short: Heb
+  Hos:
+    long: Hosea
+    short: Hos
+  Isa:
+    long: Isaiah
+    short: Isa
+  Jas:
+    long: Jakobo
+    short: Jak
+  Jdt:
+    long: Judith
+    short: Judt
+  Jer:
+    long: Jeremiah
+    short: Jer
+  Job:
+    long: Job
+    short: Job
+  Joel:
+    long: Joel
+    short: Joel
+  John:
+    long: Johana
+    short: Jhn
+  Jonah:
+    long: Jonah
+    short: Jon
+  Josh:
+    long: Joshua
+    short: Jos
+  Jude:
+    long: Juda
+    short: Jud
+  Judg:
+    long: Kirwoogik
+    short: Kirw
+  Lam:
+    long: Riiregap Jeremiah
+    short: R.Jer
+  Lev:
+    long: Ateptap Lawik
+    short: A.La
+  Luke:
+    long: Luka
+    short: Luk
+  Mal:
+    long: Malaki
+    short: Mal
+  Mark:
+    long: Mariko
+    short: Mar
+  Matt:
+    long: Matayo
+    short: Mat
+  Mic:
+    long: Mikah
+    short: MiK
+  Nah:
+    long: Nahum
+    short: Nah
+  Neh:
+    long: Nehemiah
+    short: Neh
+  Num:
+    long: Kaitosyek
+    short: Kai
+  Obad:
+    long: Obadiah
+    short: Oba
+  Phil:
+    long: Philippik
+    short: Phlp
+  Phlm:
+    long: Philemon
+    short: Phlm
+  Prov:
+    long: Kalewainik
+    short: Kale
+  Ps:
+    long: Tyenwogigap Kalasunet
+    short: T.Kal
+  Rev:
+    long: Ng'ang'utyet
+    short: Ng'a
+  Rom:
+    long: Romanik
+    short: Rom
+  Ruth:
+    long: Ruth
+    short: Rut
+  Sir:
+    long: Sirak
+    short: Sir
+  Song:
+    long: Tiendo Ne Siirei Tugul
+    short: Tyst
+  Titus:
+    long: Tito
+    short: Tit
+  Tob:
+    long: Tobit
+    short: Tbt
+  Wis:
+    long: Utaatyetap Solomon
+    short: U.Sol
+  Zech:
+    long: Zechariah
+    short: Zek
+  Zeph:
+    long: Zephaniah
+    short: Zep
+translations:
+  bukuit:
+    1Chr:
+      long: Ateptab Betusiek 1
+    1Cor:
+      long: Korintoek 1
+    1John:
+      long: Johana 1
+    1Kgs:
+      long: Laitorinik 1
+    1Pet:
+      long: Petero 1
+    1Sam:
+      long: Samuel 1
+    1Thess:
+      long: Tesalonikek 1
+    1Tim:
+      long: Timoteo 1
+    2Chr:
+      long: Ateptab Betusiek 2
+    2Cor:
+      long: Korintoek 2
+    2John:
+      long: Johana 2
+    2Kgs:
+      long: Laitorinik 2
+    2Pet:
+      long: Petero 2
+    2Sam:
+      long: Samuel 2
+    2Thess:
+      long: Tesalonikek 2
+    2Tim:
+      long: Timoteo 2
+    3John:
+      long: Johana 3
+    Acts:
+      long: Boisionikab Che Kiyoktoi
+    Deut:
+      long: Ng'atutik
+    Eph:
+      long: Epesoek
+    Ezek:
+      long: Esekiel
+    Ezra:
+      long: Esra
+    Gal:
+      long: Galatiek
+    Hab:
+      long: Habakuk
+    Hag:
+      long: Hagai
+    Isa:
+      long: Isaia
+    Jer:
+      long: Jeremia
+    Jonah:
+      long: Jona
+    Josh:
+      long: Josua
+    Judg:
+      long: Kiruogik
+    Lam:
+      long: Rirekab Jeremia
+    Lev:
+      long: Atebetab Lawik
+    Mic:
+      long: Mika
+    Neh:
+      long: Neemia
+    Num:
+      long: Koitosiek
+    Obad:
+      long: Obadia
+    Phil:
+      long: Pilipik
+    Phlm:
+      long: Pilemon
+    Prov:
+      long: Kalewenaik
+    Ps:
+      long: Tienwogikal
+    Rev:
+      long: Ng'and'utiet
+    Zech:
+      long: Sekaria
+    Zeph:
+      long: Sepania
+  kapr:
+    2Chr:
+      long: 2 Ateptap Peetuusyek
+    Prov:
+      long: Kalewanaik
+    Song:
+      long: Tyendo Ne Siirei Tugul
+  kaldc:
+    Song:
+      long: Tyendo Ne Sireei Tugul

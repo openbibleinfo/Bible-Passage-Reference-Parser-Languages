@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: 1 Korrintiya
+    short: 1Co
+  1John:
+    long: 1 Yohana
+    short: 1Jn
+  1Pet:
+    long: 1 Biturr
+    short: 1Pe
+  1Thess:
+    long: 1 Tesalonika
+    short: 1Th
+  1Tim:
+    long: 1 Timoti
+    short: 1Ti
+  2Cor:
+    long: 2 Korrintiya
+    short: 2Co
+  2John:
+    long: 2 Yohana
+    short: 2Jn
+  2Pet:
+    long: 2 Biturr
+    short: 2Pe
+  2Thess:
+    long: 2 Tesalonika
+    short: 2Th
+  2Tim:
+    long: 2 Timoti
+    short: 2Ti
+  3John:
+    long: 3 Yohana
+    short: 3Jn
+  Acts:
+    long: Indu
+    short: Act
+  Col:
+    long: Kolosiya
+    short: Col
+  Eph:
+    long: Afisa
+    short: Eph
+  Gal:
+    long: Galatiya
+    short: Gal
+  Heb:
+    long: Ibraniya
+    short: Heb
+  Jas:
+    long: Yakubu
+    short: Jas
+  John:
+    long: Yohana
+    short: Jhn
+  Jude:
+    long: Yahudi
+    short: Jud
+  Luke:
+    long: Luka
+    short: Luk
+  Mark:
+    long: Marrku
+    short: Mrk
+  Matt:
+    long: Matiyu
+    short: Mat
+  Phil:
+    long: Filipiya
+    short: Php
+  Phlm:
+    long: Filemo
+    short: Phm
+  Rev:
+    long: Ibwu Tsarr
+    short: Rev
+  Rom:
+    long: Roma
+    short: Rom
+  Titus:
+    long: Titu
+    short: Tit

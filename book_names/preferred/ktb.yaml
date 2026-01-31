@@ -1,0 +1,199 @@
+default:
+  1Chr:
+    long: Dudubi Wona Matsaafa
+    short: 1Dud.
+  1Cor:
+    long: Qorontoosi Wona Sohinuta
+    short: 1Qor.
+  1John:
+    long: Yohaannise Wona Sohinuta
+    short: 1Yoh.
+  1Kgs:
+    long: Wommaakka Wona Matsaafa
+    short: 1Wom.
+  1Pet:
+    long: Pheexiroose Wona Sohinuta
+    short: 1Pheex.
+  1Sam:
+    long: Saamueele Wona Matsaafa
+    short: 1Saam.
+  1Thess:
+    long: Tasaloonqe Wona Sohinuta
+    short: 1Tas.
+  1Tim:
+    long: Ximaatoose Wona Sohinuta
+    short: 1Xim.
+  2Chr:
+    long: Dudubi Lanki Matsaafa
+    short: 2Dud.
+  2Cor:
+    long: Qorontoosi Lanki Sohinuta
+    short: 2Qor.
+  2John:
+    long: Yohaannise Lanki Sohinuta
+    short: 2Yoh.
+  2Kgs:
+    long: Wommaakka Lanki Matsaafa
+    short: 2Wom.
+  2Pet:
+    long: Pheexroose Lanki Sohinuta
+    short: 2Pheex.
+  2Sam:
+    long: Saamueele Lanki Matsaafa
+    short: 2Saam.
+  2Thess:
+    long: Tasaloonqe Lanki Sohinta
+    short: 2Tas.
+  2Tim:
+    long: Ximaatoose Lanki Sohinuta
+    short: 2Xim.
+  3John:
+    long: Yohaannise Sakki Sohinuta
+    short: 3Yoh.
+  Acts:
+    long: Soqqamaanni Huje Matsaafa
+    short: Soq.
+  Amos:
+    long: Hiraagaancho Amootse Matsaafa
+    short: Amo.
+  Col:
+    long: Qollaasiyaasi Sohinuta
+    short: Qol.
+  Dan:
+    long: Hiraagaancho Daanieele Matsaafa
+    short: Daan.
+  Deut:
+    long: Azzazo Matsaafa
+    short: Azz.
+  Eccl:
+    long: Qoorima Matsaafa
+    short: Qoor.
+  Eph:
+    long: Efesooni Sohinuta
+    short: Efn.
+  Esth:
+    long: Asteere Matsaafa
+    short: Ast.
+  Exod:
+    long: Fuli Matsaafa
+    short: Ful.
+  Ezek:
+    long: Hiraagaancho Hizqe'eele Matsaafa
+    short: Hiz.
+  Ezra:
+    long: Izra Matsaafa
+    short: Izr.
+  Gal:
+    long: Galaatiyi Sohinuta
+    short: Gal.
+  Gen:
+    long: Qooccanchi Matsaafa
+    short: Qooc.
+  Hab:
+    long: Hiraagaancho Imbaaqoome Matsaafa
+    short: Imb.
+  Hag:
+    long: Hiraagaancho Haage Matsaafa
+    short: Haag.
+  Heb:
+    long: Ibr manni Sohinuta
+    short: Ibr.
+  Hos:
+    long: Hiraagaancho Hoose'e Matsaafa
+    short: Hoos.
+  Isa:
+    long: Hiraagaancho Issiyaase Matsaafa
+    short: Iss.
+  Jas:
+    long: Yaaqoobe Sohinuta
+    short: Yaaq.
+  Jer:
+    long: Hiraagaancho Ermiyaase Matsaafa
+    short: Erm.
+  Job:
+    long: Iyyoobe Matsaafa
+    short: Iyb.
+  Joel:
+    long: Hiraagaancho Iyyoeele Maaxaafa
+    short: Iyl.
+  John:
+    long: Yohaannise Mishiraachchi Matsaafa
+    short: Yoh.
+  Jonah:
+    long: Hiraagaancho Yoonaase Matsaafa
+    short: Yoon.
+  Josh:
+    long: Iyyaaso Matsaafa
+    short: Iys.
+  Jude:
+    long: Yihudi Sohinuta
+    short: Yih.
+  Judg:
+    long: Gashshaanni Matsaafa
+    short: Gash.
+  Lam:
+    long: Aayyeeshsha Matsaafa
+    short: Aay.
+  Lev:
+    long: Leew manni Matsaafa
+    short: Leew.
+  Luke:
+    long: Luqaase Mishiraachchi Matsaafa
+    short: Luq.
+  Mal:
+    long: Hiraagaancho Milkiyaase Matsaafa
+    short: Mil.
+  Mark:
+    long: Maarqoose Mishiraachchi Matsaafa
+    short: Maar.
+  Matt:
+    long: Maatoose Mishiraachchi Matsaafa
+    short: Maat.
+  Mic:
+    long: Hiraagaancho Mikkiyaase Matsaafa
+    short: Mik.
+  Nah:
+    long: Hiraagaancho Naahoome Matsaafa
+    short: Naah.
+  Neh:
+    long: Nahimiya Matsaafa
+    short: Nah.
+  Num:
+    long: Wollo Matsaafa
+    short: Wol.
+  Obad:
+    long: Hiraagaancho Abdiyo Matsaafa
+    short: Abd.
+  Phil:
+    long: Filiphsuusi Sohinuta
+    short: Flph.
+  Phlm:
+    long: Filimoone Sohinuta
+    short: Flm.
+  Prov:
+    long: Agudiishsha Matsaafa
+    short: Agu.
+  Ps:
+    long: Mazmuri Matsaafa
+    short: Maz.
+  Rev:
+    long: Caakki Matsaafa
+    short: Caak.
+  Rom:
+    long: Roome Sohinuta
+    short: Room.
+  Ruth:
+    long: Ruute Matsaafa
+    short: Ruut.
+  Song:
+    long: Abba Mazmura
+    short: Amaz.
+  Titus:
+    long: Tiito Sohinuta
+    short: Tiit.
+  Zech:
+    long: Hiraagaancho Zakkaariyaase Matsaafa
+    short: Zak.
+  Zeph:
+    long: Hiraagaancho Sofooniyaase Matsaafa
+    short: Sof.

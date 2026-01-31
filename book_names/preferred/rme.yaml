@@ -1,0 +1,40 @@
+default:
+  1John:
+    long: 1 John
+  1Pet:
+    long: 1 Peter
+  1Tim:
+    long: 1 Timothy
+  2Tim:
+    long: 2 Timothy
+  Exod:
+    long: Exodus
+    short: Exodus
+  Ezek:
+    long: Ezekiel
+  Heb:
+    long: Hebrews
+  Isa:
+    long: Isaiah
+  John:
+    long: John
+    short: John
+  Luke:
+    long: Luke
+    short: Luke
+  Mark:
+    long: Mark
+    short: Mark
+  Matt:
+    long: Matthew
+  Ps:
+    long: Psalm
+    short: Psalm
+  Rev:
+    long: Revelation
+  Rom:
+    long: Romans
+translations:
+  sgm1985:
+    Ps:
+      long: Psalms

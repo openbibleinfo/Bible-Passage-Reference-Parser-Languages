@@ -1,0 +1,93 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - Ugtejgewe'l
+  - osis: Matt
+    texts:
+      - Matiw
+  - osis: Mark
+    texts:
+      - Malg
+  - osis: Luke
+    texts:
+      - Lu'g
+  - osis:
+      - osis: John
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Sa'n
+  - osis: Acts
+    texts:
+      - Paqalaiwaqann
+  - osis: Rom
+    texts:
+      - Lo'mewaq
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Golintewaq
+  - osis: Col
+    texts:
+      - Golosiewaq
+  - osis: Gal
+    texts:
+      - Galetiaewaq
+  - osis: Eph
+    texts:
+      - Epesusewaq
+  - osis: Phil
+    texts:
+      - Pilippiewaq
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Tessaloniaewaq
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timoti
+  - osis: Titus
+    texts:
+      - Taitus
+  - osis: Phlm
+    texts:
+      - Piliman
+  - osis: Heb
+    texts:
+      - Gisi Mgnaji Mimajuinu'g
+  - osis: Jas
+    texts:
+      - Ji'mej
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Pie'l
+  - osis: Jude
+    texts:
+      - Ju't
+translations:
+  - MIQNT

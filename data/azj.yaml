@@ -1,0 +1,306 @@
+variables:
+  first: &first
+    - "1"
+    - Bi̇ri̇nci̇
+  second: &second
+    - "2"
+    - İki̇nci̇
+books:
+  - osis: Gen
+    texts:
+      - Yaradiliş
+      - Yar.
+  - osis: Exod
+    texts:
+      - Çixiş
+      - Çıx.
+  - osis: Lev
+    texts:
+      - Levi̇li̇lər
+      - Lev.
+  - osis: Num
+    texts:
+      - Saylar
+      - Say.
+  - osis: Lam
+    texts:
+      - Mərsi̇yələr
+      - Mərs.
+  - osis: Rev
+    texts:
+      - Vəhy
+  - osis: Deut
+    texts:
+      - Qanunun Təkrari
+      - Qanun.
+  - osis: Josh
+    texts:
+      - Yeşua
+  - osis: Judg
+    texts:
+      - Haki̇mlər
+      - Hak.
+  - osis: Ruth
+    texts:
+      - Rut
+  - osis: Isa
+    texts:
+      - Yeşaya
+      - Yeş.
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Şamuel
+  - osis: 1Sam
+    texts:
+      - 1Şam.
+  - osis: 2Sam
+    texts:
+      - 2Şam.
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Padşahlar
+  - osis: 1Kgs
+    texts:
+      - 1Pad.
+  - osis: 2Kgs
+    texts:
+      - 2Pad.
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Salnamələr
+  - osis: 1Chr
+    texts:
+      - 1Saln.
+  - osis: 2Chr
+    texts:
+      - 2Saln.
+  - osis: Ezra
+    texts:
+      - Ezr.
+      - Ezra
+  - osis: Neh
+    texts:
+      - Nehemya
+      - Neh.
+  - osis: Esth
+    texts:
+      - Ester
+      - Est.
+  - osis: Job
+    texts:
+      - Əyyub
+      - Əyy.
+  - osis: Ps
+    texts:
+      - Zəbur
+      - Zəb.
+  - osis: Prov
+    texts:
+      - Süleymanin Məsəlləri̇
+      - Sül.
+  - osis: Eccl
+    texts:
+      - Vai̇z
+      - Vaiz
+  - osis: Song
+    texts:
+      - Nəğmələr Nəğməsi̇
+      - Nəğ.
+  - osis: Jer
+    texts:
+      - Yeremya
+      - Yer.
+  - osis: Ezek
+    texts:
+      - Yezekel
+      - Yez.
+  - osis: Dan
+    texts:
+      - Dani̇el
+      - Dan.
+  - osis: Hos
+    texts:
+      - Huşə
+  - osis: Joel
+    texts:
+      - Yoel
+  - osis: Amos
+    texts:
+      - Amos
+  - osis: Obad
+    texts:
+      - Avdi̇ya
+      - Avd.
+  - osis: Jonah
+    texts:
+      - Yunus
+      - Yun.
+  - osis: Mic
+    texts:
+      - Mi̇keya
+      - Mik.
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nah.
+  - osis: Hab
+    texts:
+      - Habaqquq
+      - Hab.
+  - osis: Zeph
+    texts:
+      - Sefanya
+      - Sef.
+  - osis: Hag
+    texts:
+      - Haqqay
+      - Haq.
+  - osis: Zech
+    texts:
+      - Zəkəri̇yyə
+      - Zək.
+  - osis: Mal
+    texts:
+      - Malaki̇
+      - Mal.
+  - osis: Matt
+    texts:
+      - Matta
+      - Mat.
+  - osis: Mark
+    texts:
+      - Mark
+  - osis: Luke
+    texts:
+      - Luka
+  - osis: 1John
+    texts:
+      - 1Yəh.
+  - osis: 2John
+    texts:
+      - 2Yəh.
+  - osis: 3John
+    texts:
+      - 3 Yəhya
+      - 3Yəh.
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Yəhya
+  - osis: John
+    texts:
+      - Yəhya
+      - Yəh.
+  - osis: Acts
+    texts:
+      - Həvari̇ləri̇n İşləri̇
+      - Həv.
+  - osis: Rom
+    texts:
+      - Romalilara
+      - Rom.
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Kori̇nfli̇lərə
+  - osis: 1Cor
+    texts:
+      - 1Kor.
+  - osis: 2Cor
+    texts:
+      - 2Kor.
+  - osis: Col
+    texts:
+      - Kolosseli̇lərə
+      - Kol.
+  - osis: Gal
+    texts:
+      - Qalati̇yalilara
+      - Qal.
+  - osis: Eph
+    texts:
+      - Efesli̇lərə
+      - Ef.
+  - osis: Phil
+    texts:
+      - Fi̇li̇pi̇li̇lərə
+      - Flp.
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Saloni̇kli̇lərə
+  - osis: 1Thess
+    texts:
+      - 1Sal.
+  - osis: 2Thess
+    texts:
+      - 2Sal.
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Ti̇moteyə
+  - osis: 1Tim
+    texts:
+      - 1Tim.
+  - osis: 2Tim
+    texts:
+      - 2Tim.
+  - osis: Titus
+    texts:
+      - Ti̇tə
+      - Titə
+  - osis: Phlm
+    texts:
+      - Fi̇li̇mona
+      - Flm.
+  - osis: Heb
+    texts:
+      - İbrani̇lərə
+      - İbr.
+  - osis: Jas
+    texts:
+      - Yaqub
+      - Yaq.
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peter
+  - osis: 1Pet
+    texts:
+      - 1Pet.
+  - osis: 2Pet
+    texts:
+      - 2Pet.
+  - osis: Jude
+    texts:
+      - Yəhuda
+      - Yəhd.
+translations:
+  - AZJ08

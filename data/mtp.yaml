@@ -1,0 +1,95 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+  third: &third
+    - "3"
+books:
+  - osis: Rev
+    texts:
+      - "'Aapokalipsis"
+  - osis: Matt
+    texts:
+      - Maatewoh Yààmeh
+  - osis: Mark
+    texts:
+      - Mààlhkos Yààmeh
+  - osis: Luke
+    texts:
+      - Luukas Yààmeh
+  - osis: John
+    texts:
+      - Jwàành Yààmeh
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+      - osis: 3John
+        before: *third
+    texts:
+      - Jwàành
+  - osis: Acts
+    texts:
+      - "'Aapostolhlhayis- Lhenhayh"
+  - osis: Rom
+    texts:
+      - Loomalheleyh
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Koolintolheleyh
+  - osis: Col
+    texts:
+      - Koolosaslheleyh
+  - osis: Gal
+    texts:
+      - Waalasyalheleyh
+  - osis: Eph
+    texts:
+      - "'Eejwesolheleyh"
+  - osis: Phil
+    texts:
+      - Jwiiliposlheleyh
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Teesalonikalheleyh
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Tiimotewoh
+  - osis: Titus
+    texts:
+      - Tiitoh
+  - osis: Phlm
+    texts:
+      - Jwiilemonh
+  - osis: Heb
+    texts:
+      - "'Eewlewolhayis"
+  - osis: Jas
+    texts:
+      - Jwaakowoh
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Tuuntehen'
+  - osis: Jude
+    texts:
+      - Jwuulas
+translations:
+  - WHYK

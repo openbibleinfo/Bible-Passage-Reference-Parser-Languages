@@ -1,0 +1,400 @@
+variables:
+  first: &first
+    - "1"
+  second: &second
+    - "2"
+books:
+  - osis: Gen
+    texts:
+      - Bothubo
+      - Bothu
+      - Bot
+  - osis: Exod
+    texts:
+      - Ipekulu
+      - Ipe
+  - osis: Lev
+    texts:
+      - Achinemi
+      - Achine
+      - Achi
+  - osis: Num
+    texts:
+      - Akikihi
+      - Akiki
+      - Aki
+  - osis: Lam
+    texts:
+      - Akumlo
+      - Akm
+  - osis: Rev
+    texts:
+      - Piyekusu
+      - Piyeküsü
+      - Piye
+  - osis: Deut
+    texts:
+      - Zahkiniu
+      - Zakiniu
+      - Zaki
+      - Zak
+  - osis: Josh
+    texts:
+      - Joshua
+      - Joshu
+      - Josh
+  - osis: Judg
+    texts:
+      - Xakuthami
+      - Xaküthami
+      - Xaku
+      - Xak
+  - osis: Ruth
+    texts:
+      - Ruth
+      - Rut
+  - osis: Isa
+    texts:
+      - Isaiah
+      - Isaya
+      - Isa
+  - osis:
+      - osis: 1Sam
+        before: *first
+      - osis: 2Sam
+        before: *second
+    texts:
+      - Samu
+  - osis: 1Sam
+    texts:
+      - Samuel Atughiu
+      - Samuel Atüghüu
+      - 1Sa
+  - osis: 2Sam
+    texts:
+      - Samuel Akiniu
+      - 2Sa
+  - osis:
+      - osis: 1Kgs
+        before: *first
+      - osis: 2Kgs
+        before: *second
+    texts:
+      - Kuka
+  - osis: 1Kgs
+    texts:
+      - Kukami Atughiu
+      - Kükami Atüghüu
+      - 1Kük
+  - osis: 2Kgs
+    texts:
+      - Kukami Akiniu
+      - Kükami Akiniu
+      - 2Kük
+  - osis:
+      - osis: 1Chr
+        before: *first
+      - osis: 2Chr
+        before: *second
+    texts:
+      - Yeki
+  - osis: 1Chr
+    texts:
+      - Yekikithi Atughiu
+      - Yekikithi Atüghüu
+      - 1Yek
+  - osis: 2Chr
+    texts:
+      - Yekikithi Akiniu
+      - 2Yek
+  - osis: Ezra
+    texts:
+      - Ezra
+      - Ezr
+  - osis: Neh
+    texts:
+      - Nehemiah
+      - Nehemia
+      - Nehe
+      - Neh
+  - osis: Esth
+    texts:
+      - Esther
+      - Est
+  - osis: Job
+    texts:
+      - Job
+  - osis: Ps
+    texts:
+      - Leshele
+      - Leshe
+      - Lesh
+  - osis: Prov
+    texts:
+      - Ahole
+      - Aho
+  - osis: Eccl
+    texts:
+      - Yetsapiu
+      - Yetsa
+      - Yets
+  - osis: Song
+    texts:
+      - Ale Kimchi
+      - Akimchi
+      - Ale
+  - osis: Jer
+    texts:
+      - Jeremiah
+      - Jeremiya
+      - Jere
+      - Jer
+  - osis: Ezek
+    texts:
+      - Ezekiel
+      - Ezekel
+      - Ezek
+      - Ezk
+  - osis: Dan
+    texts:
+      - Daniel
+      - Danel
+      - Dane
+      - Dan
+  - osis: Hos
+    texts:
+      - Hosiya
+      - Hosea
+      - Hosi
+      - Hos
+  - osis: Joel
+    texts:
+      - Joyil
+      - Joel
+  - osis: Amos
+    texts:
+      - Amos
+      - Amus
+      - Am
+  - osis: Obad
+    texts:
+      - Obadiah
+      - Obadia
+      - Obadi
+      - Ob
+  - osis: Jonah
+    texts:
+      - Jonah
+      - Jona
+      - Jna
+  - osis: Mic
+    texts:
+      - Micah
+      - Mika
+      - Mic
+  - osis: Nah
+    texts:
+      - Nahum
+      - Nahu
+      - Nah
+  - osis: Hab
+    texts:
+      - Habakkuk
+      - Habakuk
+      - Haba
+      - Hab
+  - osis: Zeph
+    texts:
+      - Zephaniah
+      - Zefania
+      - Zefa
+      - Zep
+  - osis: Hag
+    texts:
+      - Hagayi
+      - Haggai
+      - Haga
+      - Hag
+  - osis: Zech
+    texts:
+      - Zechariah
+      - Zekharia
+      - Zekha
+      - Zec
+  - osis: Mal
+    texts:
+      - Malachi
+      - Malaki
+      - Mala
+      - Mal
+  - osis: Matt
+    texts:
+      - Matthew
+      - Mathi
+      - Matt.
+      - Mt
+  - osis: Mark
+    texts:
+      - Mark
+      - Mk
+  - osis: Luke
+    texts:
+      - Luke
+      - Luk
+      - Lk
+  - osis: 1John
+    texts:
+      - 1Jn
+  - osis: 2John
+    texts:
+      - 2Jn
+  - osis: 3John
+    texts:
+      - 3 Johan
+      - 3 John
+      - 3 Jn
+      - 3Jn
+  - osis:
+      - osis: 1John
+        before: *first
+      - osis: 2John
+        before: *second
+    texts:
+      - Johan
+      - John
+      - Jn
+  - osis: John
+    texts:
+      - Johan
+      - John
+      - Jhn
+      - Jn
+  - osis: Acts
+    texts:
+      - Apostolmi
+      - Aposto
+      - Apos
+      - Apo
+  - osis: Rom
+    texts:
+      - Rommi
+      - Rom
+  - osis:
+      - osis: 1Cor
+        before: *first
+      - osis: 2Cor
+        before: *second
+    texts:
+      - Korinthiami
+      - Kor.
+      - Kori
+  - osis: 1Cor
+    texts:
+      - 1Ko
+  - osis: 2Cor
+    texts:
+      - 2Ko
+  - osis: Col
+    texts:
+      - Kolosiami
+      - Kolo
+      - Kol
+  - osis: Gal
+    texts:
+      - Galatiami
+      - Gala
+      - Gal
+  - osis: Eph
+    texts:
+      - Ephesiami
+      - Efesiami
+      - Efesi
+      - Efe
+      - Eph
+  - osis: Phil
+    texts:
+      - Filipiami
+      - Phil.
+      - Fili
+      - Php
+  - osis:
+      - osis: 1Thess
+        before: *first
+      - osis: 2Thess
+        before: *second
+    texts:
+      - Thessaloniami
+      - Thesaloniami
+      - Thes.
+      - Thesa
+  - osis: 1Thess
+    texts:
+      - 1Th
+  - osis: 2Thess
+    texts:
+      - 2Th
+  - osis:
+      - osis: 1Tim
+        before: *first
+      - osis: 2Tim
+        before: *second
+    texts:
+      - Timothi
+      - Timothy
+      - Tim.
+      - Timo
+  - osis: 1Tim
+    texts:
+      - 1Ti
+      - 1Tm
+  - osis: 2Tim
+    texts:
+      - 2Ti
+      - 2Tm
+  - osis: Titus
+    texts:
+      - Titus
+      - Tito
+      - Tit
+  - osis: Phlm
+    texts:
+      - Philemon
+      - Filemon
+      - File
+      - Phm
+  - osis: Heb
+    texts:
+      - Ibrimi
+      - Heb.
+      - Ibri
+      - Heb
+      - Ibr
+  - osis: Jas
+    texts:
+      - James
+      - Jems
+      - Jas
+  - osis:
+      - osis: 1Pet
+        before: *first
+      - osis: 2Pet
+        before: *second
+    texts:
+      - Peter
+      - Pitor
+      - Pit
+  - osis: 1Pet
+    texts:
+      - 1Pe
+  - osis: 2Pet
+    texts:
+      - 2Pe
+  - osis: Jude
+    texts:
+      - Juda
+      - Jude
+      - Jud
+translations:
+  - SUMIBSI
+  - SUMRVBSI
+  - STB

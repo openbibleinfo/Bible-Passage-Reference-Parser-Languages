@@ -1,0 +1,82 @@
+default:
+  1Cor:
+    long: I vēstule korintīšim
+    short: 1 Kor
+  1John:
+    long: Sv. Jōņa I
+    short: 1 J
+  1Pet:
+    long: Sv. Pītera I
+    short: 1 Pit
+  1Thess:
+    long: I vēstule tessalonikīšim.
+    short: 1 Tes
+  1Tim:
+    long: I vēstule Timotejam
+    short: 1 Tim
+  2Cor:
+    long: II vēstule korintīšim
+    short: 2 Kor
+  2John:
+    long: Sv. Jōņa II
+    short: 2 J
+  2Pet:
+    long: Sv. Pītera II
+    short: 2 Pit
+  2Thess:
+    long: II vēstule tessalonikīšim.
+    short: 2 Tes
+  2Tim:
+    long: II vēstule Timotejam
+    short: 2 Tim
+  3John:
+    long: Sv. Jōņa III
+    short: 3 J
+  Acts:
+    long: Apostolu Dorbi
+    short: Ap. d
+  Col:
+    long: vēstule kolosīšim
+    short: Kol
+  Eph:
+    long: vēstule efezīšim
+    short: Ef
+  Gal:
+    long: vēstule galatīšim
+    short: Gal
+  Heb:
+    long: vēstule ebrejim
+    short: Ebr
+  Jas:
+    long: Sv. Jākuba
+    short: Jk
+  John:
+    long: Evangelijs pēc Jōņa
+    short: J
+  Jude:
+    long: Sv. Judas
+    short: Jud
+  Luke:
+    long: Evangelijs pēc Lukasa
+    short: Lk
+  Mark:
+    long: Evangelijs pēc Marka
+    short: Mk
+  Matt:
+    long: Evangelijs pēc Mateusa
+    short: Mt
+  Phil:
+    long: vēstule filipīšim
+    short: Filip
+  Phlm:
+    long: vēstule Filemonam
+    short: Filem
+  Rev:
+    long: Apokalipsis
+    short: Apk
+  Rom:
+    long: vēstule romīšim
+    short: Rom
+  Titus:
+    long: vēstule Titam
+    short: Tit

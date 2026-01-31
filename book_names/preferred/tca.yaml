@@ -1,0 +1,203 @@
+default:
+  1Chr:
+    long: Nüxíraxü̃xü̃ ga to ga popera ga ãẽ̱xgacügüchiga ümatüxü̃
+    short: 1 Cr.
+  1Cor:
+    long: Nüxíraxü̃xü̃ ga popera ga Coríntiuwa yexmagüxü̃ ga yaxõgüxü̃tanüwa namuxü̃
+      ga Pauru
+    short: 1 Co.
+  1John:
+    long: Nüxíraxü̃xü̃ ga popera ga Cuáü̃ ümatüxü̃
+    short: 1 Jn.
+  1Kgs:
+    long: Nüxíraxü̃xü̃ ga popera ga ãẽ̱xgacügüchiga
+    short: 1 R.
+  1Pet:
+    long: Nüxíraxü̃xü̃ ga popera ga Pedru ümatüxü̃
+    short: 1 Pe.
+  1Sam:
+    long: 1 Chamué
+    short: 1 S.
+  1Thess:
+    long: Nüxíraxü̃xü̃ ga popera ga Techarónicawa yexmagüxü̃ ga yaxõgüxü̃tanüwa
+      namuxü̃ ga Pauru
+    short: 1 Ts.
+  1Tim:
+    long: Nüxíraxü̃xü̃ ga popera ga Timutéuca̱x naxümatüxü̃ ga Pauru
+    short: 1 Ti.
+  2Chr:
+    long: Norü taxre ga to ga popera ga ãẽ̱xgacügüchiga ümatüxü̃
+    short: 2 Cr.
+  2Cor:
+    long: Norü taxre ga popera ga Coríntiuwa yexmagüxü̃ ga yaxõgüxü̃tanüwa namuxü̃
+      ga Pauru
+    short: 2 Co.
+  2John:
+    long: Norü taxre ga popera ga Cuáü̃ ümatüxü̃
+    short: 2 Jn.
+  2Kgs:
+    long: Norü taxre ga popera ga ãẽ̱xgacügüchiga
+    short: 2 R.
+  2Pet:
+    long: Norü taxre ga popera ga Pedru ümatüxü̃
+    short: 2 Pe.
+  2Sam:
+    long: 2 Chamué
+    short: 2 S.
+  2Thess:
+    long: Norü taxre ga popera ga Techarónicawa yexmagüxü̃ ga yaxõgüxü̃tanüwa
+      namuxü̃ ga Pauru
+    short: 2 Ts.
+  2Tim:
+    long: Norü taxre ga popera ga Timutéuca̱x naxümatüxü̃ ga Pauru
+    short: 2 Ti.
+  3John:
+    long: Norü tomaepü̱x ga popera ga Cuáü̃ ümatüxü̃
+    short: 3 Jn.
+  Acts:
+    long: Ngechuchuarü ngúexü̃gü ga yamugüxü̃arü puracüchiga
+    short: Hch.
+  Amos:
+    long: Amúx
+    short: Am.
+  Col:
+    long: Popera ga Coróchawa yexmagüxü̃ ga yaxõgüxü̃tanüwa namuxü̃ ga Pauru
+    short: Col.
+  Dan:
+    long: Danié
+    short: Dn.
+  Deut:
+    long: Wenaxarü naxümatü ga Tupanaarü mugü
+    short: Dt.
+  Eccl:
+    long: Ngu̱xẽẽtaeruü̃arü ore
+    short: Ec.
+  Eph:
+    long: Popera ga Epéchiuwa yexmagüxü̃ ga yaxõgüxü̃tanüwa namuxü̃ ga Pauru
+    short: Ef.
+  Esth:
+    long: Ité
+    short: Est.
+  Exod:
+    long: Ínachoxü̃xü̃chiga
+    short: Éx.
+  Ezek:
+    long: Echequié
+    short: Ez.
+  Ezra:
+    long: Édra
+    short: Esd.
+  Gal:
+    long: Popera ga Gárataanewa yexmagüxü̃ ga yaxõgüxü̃tanüwa namuxü̃ ga Pauru
+    short: Gá.
+  Gen:
+    long: Naanearü ügüchiga
+    short: Gn.
+  Hab:
+    long: Abacú
+    short: Hab.
+  Hag:
+    long: Aguéu
+    short: Hag.
+  Heb:
+    long: Popera ga Yudíugü ga yaxõgüxü̃ca̱x ümatüxü̃
+    short: He.
+  Hos:
+    long: Ochéa
+    short: Os.
+  Isa:
+    long: Ichaía
+    short: Is.
+  Jas:
+    long: Popera ga Chantiágu ümatüxü̃
+    short: Stg.
+  Jer:
+    long: Yeremía
+    short: Jr.
+  Job:
+    long: Yox
+    short: Job
+  Joel:
+    long: Yoé
+    short: Jl.
+  John:
+    long: Ore i mexü̃ ga Cuáü̃ ümatüxü̃
+    short: Jn.
+  Jonah:
+    long: Yoná
+    short: Jon.
+  Josh:
+    long: Yochué
+    short: Jos.
+  Jude:
+    long: Popera ga Yúda ümatüxü̃
+    short: Jud.
+  Judg:
+    long: Ãẽ̱xgacügü ga guxchaxü̃güarü mexẽxẽruü̃gü
+    short: Jue.
+  Lam:
+    long: Auxexü̃chiga
+    short: Lm.
+  Lev:
+    long: Lebítanüxü̃arü puracüchiga
+    short: Lv.
+  Luke:
+    long: Ore i mexü̃ ga Luca ümatüxü̃
+    short: Lc.
+  Mal:
+    long: Maraquía
+    short: Mal.
+  Mark:
+    long: Ore i mexü̃ ga Márcu ümatüxü̃
+    short: Mr.
+  Matt:
+    long: Ore i mexü̃ ga Matéu ümatüxü̃
+    short: Mt.
+  Mic:
+    long: Miquéa
+    short: Mi.
+  Nah:
+    long: Naúü̃
+    short: Nah.
+  Neh:
+    long: Neemía
+    short: Neh.
+  Num:
+    long: Iraétanüxü̃arü muxchiga
+    short: Nm.
+  Obad:
+    long: Abdía
+    short: Abd.
+  Phil:
+    long: Popera ga Pirípuwa yexmagüxü̃ ga yaxõgüxü̃tanüwa namuxü̃ ga Pauru
+    short: Fil.
+  Phlm:
+    long: Popera ga Filemúü̃ca̱x naxümatüxü̃ ga Pauru
+    short: Flm.
+  Prov:
+    long: Ucu̱xẽgüchiga
+    short: Pr.
+  Ps:
+    long: Wiyaegü
+    short: Sal.
+  Rev:
+    long: Yema Cuáü̃ nüxü̃ dauxü̃ i yixcüra tá ngupetüxü̃chiga
+    short: Ap.
+  Rom:
+    long: Popera ga Rómawa yexmagüxü̃ ga yaxõgüxü̃tanüwa namuxü̃ ga Pauru
+    short: Ro.
+  Ruth:
+    long: Rux
+    short: Rt.
+  Song:
+    long: Charumóü̃arü wiyae
+    short: Cnt.
+  Titus:
+    long: Popera ga Títoca̱x naxümatüxü̃ ga Pauru
+    short: Tit.
+  Zech:
+    long: Chacaría
+    short: Zac.
+  Zeph:
+    long: Chofonía
+    short: Sof.
