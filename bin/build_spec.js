@@ -9,6 +9,7 @@ const __dirname = path.dirname(__filename);
 
 const repoRoot = path.resolve(__dirname, "..");
 const namesDir = path.join(repoRoot, "book_names", "all");
+const preferredDir = path.join(repoRoot, "book_names", "preferred");
 const testDir = path.join(repoRoot, "test");
 const translationsPath = path.join(repoRoot, "translation_systems", "default.yaml");
 const dataDir = path.join(repoRoot, "data");
@@ -87,6 +88,69 @@ function addCustomTests(lines, langCode, customTests) {
   }
 }
 
+function collectPreferredNames(preferredYaml) {
+  const out = new Map();
+  if (!preferredYaml || typeof preferredYaml !== "object") return out;
+
+  const addEntry = (osis, names) => {
+    if (!osis || !names) return;
+    const set = out.get(osis) ?? new Set();
+    for (const value of Object.values(names)) {
+      if (typeof value === "string" && value.length > 0) {
+        set.add(value);
+      }
+    }
+    out.set(osis, set);
+  };
+
+  const defaults = preferredYaml.default && typeof preferredYaml.default === "object"
+    ? preferredYaml.default
+    : {};
+  for (const [osis, names] of Object.entries(defaults)) {
+    addEntry(osis, names);
+  }
+
+  const translations = preferredYaml.translations && typeof preferredYaml.translations === "object"
+    ? preferredYaml.translations
+    : {};
+  for (const system of Object.values(translations)) {
+    if (!system || typeof system !== "object") continue;
+    for (const [osis, names] of Object.entries(system)) {
+      addEntry(osis, names);
+    }
+  }
+
+  return out;
+}
+
+function addPreferredTests(lines, langCode, preferredNames, existingNamesByOsis, allowedOsis) {
+  if (!preferredNames || preferredNames.size === 0) return;
+  const entries = [];
+  for (const [osis, names] of preferredNames.entries()) {
+    if (!allowedOsis.has(osis)) continue;
+    const existing = existingNamesByOsis.get(osis) ?? new Set();
+    for (const name of names) {
+      if (!existing.has(name)) {
+        entries.push({ osis, name });
+      }
+    }
+  }
+  if (entries.length === 0) return;
+
+  lines.push(`describe("Preferred book names (${langCode})", () => {`);
+  lines.push("\tlet p = {}");
+  lines.push("\tbeforeEach(() => {");
+  lines.push("\t\tp = new bcv_parser(lang);");
+  lines.push("\t\tp.set_options({ book_alone_strategy: \"ignore\", book_sequence_strategy: \"ignore\", osis_compaction_strategy: \"bc\", captive_end_digits_strategy: \"delete\", testaments: \"ona\" });");
+  lines.push("\t});");
+  lines.push(`\tit("should handle preferred book names (${langCode})", () => {`);
+  for (const entry of entries) {
+    addExpectation(lines, `${entry.name} 1:1`, `${entry.osis}.1.1`);
+  }
+  lines.push("\t});");
+  lines.push("});");
+}
+
 async function main() {
   const translationsRaw = await fs.readFile(translationsPath, "utf8");
   const translations = YAML.parse(translationsRaw);
@@ -113,6 +177,24 @@ async function main() {
     const outPath = path.join(testDir, `${langCode}.spec.js`);
     const raw = await fs.readFile(yamlPath, "utf8");
     const data = YAML.parse(raw);
+    const existingNamesByOsis = new Map();
+    if (Array.isArray(data)) {
+      for (const entry of data) {
+        if (!entry || !entry.osis || !entry.texts) continue;
+        const osisList = Array.isArray(entry.osis) ? entry.osis.map(String) : [String(entry.osis)];
+        const texts = Array.isArray(entry.texts) ? entry.texts : [];
+        for (const osis of osisList) {
+          if (!allowedOsis.has(osis)) continue;
+          const set = existingNamesByOsis.get(osis) ?? new Set();
+          for (const text of texts) {
+            if (text == null) continue;
+            const value = String(text);
+            if (value.length > 0) set.add(value);
+          }
+          existingNamesByOsis.set(osis, set);
+        }
+      }
+    }
     const dataPath = path.join(dataDir, `${langCode}.yaml`);
     let customTests = [];
     try {
@@ -143,6 +225,15 @@ async function main() {
         lines.push(...block);
       }
     }
+
+    let preferredNames = new Map();
+    try {
+      const preferredRaw = await fs.readFile(path.join(preferredDir, `${langCode}.yaml`), "utf8");
+      preferredNames = collectPreferredNames(YAML.parse(preferredRaw));
+    } catch {
+      preferredNames = new Map();
+    }
+    addPreferredTests(lines, langCode, preferredNames, existingNamesByOsis, allowedOsis);
 
     addCustomTests(lines, langCode, customTests);
 

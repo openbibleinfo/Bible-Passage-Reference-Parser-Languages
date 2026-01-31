@@ -121,9 +121,12 @@
     - Wisom of Solomon
     - Wisd of Solomon
     - Wis of Solomon
+    - Wisd. Sol
+    - Wisd Sol
     - Wisdom
     - Wisd
     - Wis
+    - WS
 - osis: Lam
   texts:
     - Lamentations
@@ -148,6 +151,7 @@
     - Ep. of Jeremiah
     - Let of Jeremiah
     - Ep of Jeremiah
+    - Ep. Jer
     - Ep Jer
     - EpJer
 - osis: Rev
@@ -178,8 +182,10 @@
     - The Pr Manasseh
     - Pr of Manasseh
     - Pr Manasseh
+    - Pr. Man
     - Pr Man
     - PrMan
+    - PrM
 - osis: Deut
   texts:
     - Deeteronomy
@@ -291,11 +297,13 @@
     - 1 Esdras
     - 1 Esd
     - 1Esd
+    - 1Es
 - osis: 2Esd
   texts:
     - 2 Esdras
     - 2 Esd
     - 2Esd
+    - 2Es
 - osis: Isa
   texts:
     - Isaaaaha
@@ -1331,6 +1339,7 @@
     - Greek Esther
     - Greek Esth
     - Greek Est
+    - Gr. Est
     - Gk Esth
     - Gr Esth
     - Gk Est
@@ -1451,10 +1460,12 @@
     - Pr of Azariah
     - Pr of Azaria
     - Azariah
+    - Pr. Azar
     - Pr Azar
     - Azaria
     - PrAzar
     - PrAzr
+    - PrAz
 - osis: Prov
   texts:
     - Probverbs
@@ -1557,6 +1568,7 @@
     - S. Three. Ch
     - S. of Th. Ch
     - S of Three Y
+    - S of III Ch
     - S Three. Ch
     - S. Three Ch
     - S. Three. Y
@@ -1599,6 +1611,7 @@
     - S. 3 Y
     - S Th Y
     - Sg Thr
+    - STHC
     - S 3 Y
 - osis: Song
   texts:
@@ -6206,6 +6219,7 @@
     - Jdit
     - Judt
     - Jdt
+    - Jth
 - osis: Bar
   texts:
     - Baruch

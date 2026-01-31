@@ -54,7 +54,7 @@ var bcv_regexps = class {
           {
             osis: ["Wis"],
             testament: "a",
-            regexp: /(?:^|(?<=[^\p{L}]))((?:The\s*Wis(?:d?om|d?)\s*of\s*Solomon|Wis(?:d(?:om)?\s*|\s*)of\s*Solomon|Wisom\s*of\s*Solomon|Wis(?:d(?:om)?)?))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+            regexp: /(?:^|(?<=[^\p{L}]))((?:The\s*Wis(?:d?om|d?)\s*of\s*Solomon|Wis(?:dom)?\s*of\s*Solomon|Wisom\s*of\s*Solomon|W(?:isd\s*of\s*Solomon|(?:(?:isd\.?\s*Sol|S)|is(?:d(?:om)?)?))))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
           },
           {
             osis: ["Lam"],
@@ -64,7 +64,7 @@ var bcv_regexps = class {
           {
             osis: ["EpJer"],
             testament: "a",
-            regexp: /(?:^|(?<=[^\p{L}]))((?:The\s*(?:(?:Ep(?:istle|\.)|Ep)\s*of\s*Jeremiah|Let(?:ter|\.?)\s*of\s*Jeremiah)|Ep(?:(?:(?:istle\s*of\s*Jeremiah|(?:istle\s*of\s*Jeremy|\s*?Jer))|\s*of\s*Jeremiah)|\.\s*of\s*Jeremiah)|Let(?:ter|\.?)\s*of\s*Jeremiah))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+            regexp: /(?:^|(?<=[^\p{L}]))((?:The\s*(?:(?:Ep(?:istle|\.)|Ep)\s*of\s*Jeremiah|Let(?:ter|\.?)\s*of\s*Jeremiah)|Ep(?:istle\s*of\s*Jeremiah|(?:istle\s*of\s*Jeremy|(?:\.\s*|\s*?)Jer))|Let(?:ter|\.?)\s*of\s*Jeremiah|Ep\.?\s*of\s*Jeremiah))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
           },
           {
             osis: ["Rev"],
@@ -74,7 +74,7 @@ var bcv_regexps = class {
           {
             osis: ["PrMan"],
             testament: "a",
-            regexp: /(?:^|(?<=[^\p{L}]))((?:The\s*Pr(?:ayer(?:s\s*(?:of\s*)?Manasseh|\s*(?:of\s*)?Manasseh)|\s*(?:of\s*)?Manasseh)|Prayer(?:s\s*(?:of\s*)?Manasseh|\s*(?:of\s*)?Manasseh)|Pr\s*of\s*Manasseh|Pr\s*Manasseh|Pr\s*?Man))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+            regexp: /(?:^|(?<=[^\p{L}]))((?:The\s*Pr(?:ayer(?:s\s*(?:of\s*)?Manasseh|\s*(?:of\s*)?Manasseh)|\s*(?:of\s*)?Manasseh)|Pr(?:ayer(?:s\s*(?:of\s*)?Manasseh|\s*(?:of\s*)?Manasseh)|(?:\s*of\s*Manasseh|(?:\s*Manasseh|(?:(?:\.\s*)?Man|(?:\s*Man|M)))))))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
           },
           {
             osis: ["Deut"],
@@ -109,12 +109,12 @@ var bcv_regexps = class {
           {
             osis: ["1Esd"],
             testament: "a",
-            regexp: /(?:^|(?<=[^\p{L}\p{N}])(?<!\d:(?=\d)))(1(?:\s*Esd(?:ras)?|Esd))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+            regexp: /(?:^|(?<=[^\p{L}\p{N}])(?<!\d:(?=\d)))(1(?:\s*Esd(?:ras)?|Esd?))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
           },
           {
             osis: ["2Esd"],
             testament: "a",
-            regexp: /(?:^|(?<=[^\p{L}\p{N}])(?<!\d:(?=\d)))(2(?:\s*Esd(?:ras)?|Esd))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+            regexp: /(?:^|(?<=[^\p{L}\p{N}])(?<!\d:(?=\d)))(2(?:\s*Esd(?:ras)?|Esd?))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
           },
           {
             osis: ["Isa"],
@@ -259,7 +259,7 @@ var bcv_regexps = class {
           {
             osis: ["GkEsth"],
             testament: "a",
-            regexp: /(?:^|(?<=[^\p{L}]))((?:Esther\s*\(Greek\)|G(?:(?:r(?:eek\s*Esther|\s*Esth)|k\s*?Esth)|(?:r(?:eek\s*Esth?|\s*Est)|k\s*Est))))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+            regexp: /(?:^|(?<=[^\p{L}]))((?:Esther\s*\(Greek\)|G(?:(?:r(?:eek\s*Esther|\s*Esth|\.\s*Est)|k\s*?Esth)|(?:r(?:eek\s*Esth?|\s*Est)|k\s*Est))))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
           },
           {
             osis: ["Esth"],
@@ -287,7 +287,7 @@ var bcv_regexps = class {
           {
             osis: ["PrAzar"],
             testament: "a",
-            regexp: /(?:^|(?<=[^\p{L}]))((?:The\s*Pr(?:ayer(?:s\s*of\s*Azariah?|\s*of\s*Azariah?)|\s*of\s*Azariah?)|Prayer(?:s\s*of\s*Azariah?|\s*of\s*Azariah?)|Pr\s*of\s*Azariah?|Pr(?:\s*Aza|Aza?)r|Azariah?))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+            regexp: /(?:^|(?<=[^\p{L}]))((?:The\s*Pr(?:ayer(?:s\s*of\s*Azariah?|\s*of\s*Azariah?)|\s*of\s*Azariah?)|Prayer(?:s\s*of\s*Azariah?|\s*of\s*Azariah?)|Pr\s*of\s*Azariah?|Pr(?:(?:\.\s*Aza|(?:\s*Aza|Aza?))r|Az)|Azariah?))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
           },
           {
             osis: ["Prov"],
@@ -302,7 +302,7 @@ var bcv_regexps = class {
           {
             osis: ["SgThree"],
             testament: "a",
-            regexp: /(?:^|(?<=[^\p{L}]))((?:The\s*Song\s*of\s*(?:the\s*(?:Three\s*(?:Holy\s*Children|Young\s*Men|(?:Youth|Jew)s)|3\s*(?:Holy\s*Children|Young\s*Men|(?:Youth|Jew)s))|Three\s*(?:Holy\s*Children|Young\s*Men|(?:Youth|Jew)s)|3\s*(?:Holy\s*Children|Young\s*Men|(?:Youth|Jew)s))|S(?:ong\s*of\s*(?:the\s*(?:Three\s*(?:Holy\s*Children|Young\s*Men|(?:Youth|Jew)s)|3\s*(?:Holy\s*Children|Young\s*Men|(?:Youth|Jew)s))|Three\s*(?:Holy\s*Children|Young\s*Men|(?:Youth|Jew)s)|3\s*(?:Holy\s*Children|Young\s*Men|(?:Youth|Jew)s))|(?:(?:\.\s*(?:of\s*(?:Th(?:ree(?:\.\s*(?:Ch|Y)|\s*(?:Ch|Y))|\.\s*(?:Ch|Y)|\s*(?:Ch|Y))|3(?:\.\s*(?:Ch|Y)|\s*(?:Ch|Y)))|Th(?:ree(?:\.\s*(?:Ch|Y)|\s*(?:Ch|Y))|\.\s*(?:Ch|Y)|\s*(?:Ch|Y))|3(?:\.\s*(?:Ch|Y)|\s*(?:Ch|Y)))|\s*(?:of\s*(?:Th(?:ree(?:\.\s*(?:Ch|Y)|\s*(?:Ch|Y))|\.\s*(?:Ch|Y)|\s*(?:Ch|Y))|3(?:\.\s*(?:Ch|Y)|\s*(?:Ch|Y)))|Th(?:ree(?:\.\s*(?:Ch|Y)|\s*(?:Ch|Y))|\.\s*(?:Ch|Y)|\s*(?:Ch|Y))|3(?:\.\s*(?:Ch|Y)|\s*(?:Ch|Y)))|ong\s*Three|(?:ng\s*|g)Three|g\s*Three)|g\s*Thr))))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+            regexp: /(?:^|(?<=[^\p{L}]))((?:The\s*Song\s*of\s*(?:the\s*(?:Three\s*(?:Holy\s*Children|Young\s*Men|(?:Youth|Jew)s)|3\s*(?:Holy\s*Children|Young\s*Men|(?:Youth|Jew)s))|Three\s*(?:Holy\s*Children|Young\s*Men|(?:Youth|Jew)s)|3\s*(?:Holy\s*Children|Young\s*Men|(?:Youth|Jew)s))|S(?:ong\s*of\s*(?:the\s*(?:Three\s*(?:Holy\s*Children|Young\s*Men|(?:Youth|Jew)s)|3\s*(?:Holy\s*Children|Young\s*Men|(?:Youth|Jew)s))|Three\s*(?:Holy\s*Children|Young\s*Men|(?:Youth|Jew)s)|3\s*(?:Holy\s*Children|Young\s*Men|(?:Youth|Jew)s))|(?:(?:\.\s*(?:of\s*(?:Th(?:ree(?:\.\s*(?:Ch|Y)|\s*(?:Ch|Y))|\.\s*(?:Ch|Y)|\s*(?:Ch|Y))|3(?:\.\s*(?:Ch|Y)|\s*(?:Ch|Y)))|Th(?:ree(?:\.\s*(?:Ch|Y)|\s*(?:Ch|Y))|\.\s*(?:Ch|Y)|\s*(?:Ch|Y))|3(?:\.\s*(?:Ch|Y)|\s*(?:Ch|Y)))|\s*(?:of\s*)?Th(?:ree(?:\.\s*(?:Ch|Y)|\s*(?:Ch|Y))|\.\s*(?:Ch|Y)|\s*(?:Ch|Y))|\s*of\s*III\s*Ch|\s*(?:of\s*)?3(?:\.\s*(?:Ch|Y)|\s*(?:Ch|Y))|ong\s*Three|(?:ng\s*|g)Three|g\s*Three|THC)|g\s*Thr))))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
           },
           {
             osis: ["Song"],
@@ -707,7 +707,7 @@ var bcv_regexps = class {
           {
             osis: ["Jdt"],
             testament: "a",
-            regexp: /(?:^|(?<=[^\p{L}]))(J(?:ud(?:ith?|th?)|d(?:ith?|th?)))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
+            regexp: /(?:^|(?<=[^\p{L}]))(J(?:ud(?:ith?|th?)|d(?:ith?|th?)|th))(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/giu
           },
           {
             osis: ["Bar"],

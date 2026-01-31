@@ -4081,7 +4081,7 @@ describe("Custom tests (pol)", () => {
 		p = new bcv_parser(lang);
 		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
 	});
-	it("should parse `next` correctly", () => {
-		expect(p.parse("za Jan 7:36, 7:44, 21:25 nebo za Luk 21:38").osis()).toEqual("John.7.36,John.7.44,John.21.25,Matt.21.38");
+	it("should parse `next` correctly when followed by a word", () => {
+		expect(p.parse("za Jan 7:36, 7:44, 21:25 nebo za Luk 21:38").osis()).toEqual("John.7.36,John.7.44,John.21.25,Luke.21.38");
 	});
 });

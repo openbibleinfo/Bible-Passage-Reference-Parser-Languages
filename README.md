@@ -1,6 +1,6 @@
 # Language Data for the Bible Passage Reference Parser
 
-The code in this repository is mostly AI-generated.
+The code in this repository is mostly AI-generated, though the source data is not.
 
 This repository contains the YAML to Javascript build pipeline for [Bible Passage Reference Parser](https://github.com/openbibleinfo/Bible-Passage-Reference-Parser) language data.
 

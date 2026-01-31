@@ -172,9 +172,12 @@ describe("Localized book Wis (eng)", () => {
 		expect(p.parse("Wisom of Solomon 1:1").osis()).toEqual("Wis.1.1");
 		expect(p.parse("Wisd of Solomon 1:1").osis()).toEqual("Wis.1.1");
 		expect(p.parse("Wis of Solomon 1:1").osis()).toEqual("Wis.1.1");
+		expect(p.parse("Wisd. Sol 1:1").osis()).toEqual("Wis.1.1");
+		expect(p.parse("Wisd Sol 1:1").osis()).toEqual("Wis.1.1");
 		expect(p.parse("Wisdom 1:1").osis()).toEqual("Wis.1.1");
 		expect(p.parse("Wisd 1:1").osis()).toEqual("Wis.1.1");
 		expect(p.parse("Wis 1:1").osis()).toEqual("Wis.1.1");
+		expect(p.parse("WS 1:1").osis()).toEqual("Wis.1.1");
 	});
 });
 describe("Localized book Lam (eng)", () => {
@@ -213,6 +216,7 @@ describe("Localized book EpJer (eng)", () => {
 		expect(p.parse("Ep. of Jeremiah 1:1").osis()).toEqual("EpJer.1.1");
 		expect(p.parse("Let of Jeremiah 1:1").osis()).toEqual("EpJer.1.1");
 		expect(p.parse("Ep of Jeremiah 1:1").osis()).toEqual("EpJer.1.1");
+		expect(p.parse("Ep. Jer 1:1").osis()).toEqual("EpJer.1.1");
 		expect(p.parse("Ep Jer 1:1").osis()).toEqual("EpJer.1.1");
 		expect(p.parse("EpJer 1:1").osis()).toEqual("EpJer.1.1");
 	});
@@ -257,8 +261,10 @@ describe("Localized book PrMan (eng)", () => {
 		expect(p.parse("The Pr Manasseh 1:1").osis()).toEqual("PrMan.1.1");
 		expect(p.parse("Pr of Manasseh 1:1").osis()).toEqual("PrMan.1.1");
 		expect(p.parse("Pr Manasseh 1:1").osis()).toEqual("PrMan.1.1");
+		expect(p.parse("Pr. Man 1:1").osis()).toEqual("PrMan.1.1");
 		expect(p.parse("Pr Man 1:1").osis()).toEqual("PrMan.1.1");
 		expect(p.parse("PrMan 1:1").osis()).toEqual("PrMan.1.1");
+		expect(p.parse("PrM 1:1").osis()).toEqual("PrMan.1.1");
 	});
 });
 describe("Localized book Deut (eng)", () => {
@@ -419,6 +425,7 @@ describe("Localized book 1Esd (eng)", () => {
 		expect(p.parse("1 Esdras 1:1").osis()).toEqual("1Esd.1.1");
 		expect(p.parse("1 Esd 1:1").osis()).toEqual("1Esd.1.1");
 		expect(p.parse("1Esd 1:1").osis()).toEqual("1Esd.1.1");
+		expect(p.parse("1Es 1:1").osis()).toEqual("1Esd.1.1");
 	});
 });
 describe("Localized book 2Esd (eng)", () => {
@@ -431,6 +438,7 @@ describe("Localized book 2Esd (eng)", () => {
 		expect(p.parse("2 Esdras 1:1").osis()).toEqual("2Esd.1.1");
 		expect(p.parse("2 Esd 1:1").osis()).toEqual("2Esd.1.1");
 		expect(p.parse("2Esd 1:1").osis()).toEqual("2Esd.1.1");
+		expect(p.parse("2Es 1:1").osis()).toEqual("2Esd.1.1");
 	});
 });
 describe("Localized book Isa (eng)", () => {
@@ -1669,6 +1677,7 @@ describe("Localized book GkEsth (eng)", () => {
 		expect(p.parse("Greek Esther 1:1").osis()).toEqual("GkEsth.1.1");
 		expect(p.parse("Greek Esth 1:1").osis()).toEqual("GkEsth.1.1");
 		expect(p.parse("Greek Est 1:1").osis()).toEqual("GkEsth.1.1");
+		expect(p.parse("Gr. Est 1:1").osis()).toEqual("GkEsth.1.1");
 		expect(p.parse("Gk Esth 1:1").osis()).toEqual("GkEsth.1.1");
 		expect(p.parse("Gr Esth 1:1").osis()).toEqual("GkEsth.1.1");
 		expect(p.parse("Gk Est 1:1").osis()).toEqual("GkEsth.1.1");
@@ -1817,10 +1826,12 @@ describe("Localized book PrAzar (eng)", () => {
 		expect(p.parse("Pr of Azariah 1:1").osis()).toEqual("PrAzar.1.1");
 		expect(p.parse("Pr of Azaria 1:1").osis()).toEqual("PrAzar.1.1");
 		expect(p.parse("Azariah 1:1").osis()).toEqual("PrAzar.1.1");
+		expect(p.parse("Pr. Azar 1:1").osis()).toEqual("PrAzar.1.1");
 		expect(p.parse("Pr Azar 1:1").osis()).toEqual("PrAzar.1.1");
 		expect(p.parse("Azaria 1:1").osis()).toEqual("PrAzar.1.1");
 		expect(p.parse("PrAzar 1:1").osis()).toEqual("PrAzar.1.1");
 		expect(p.parse("PrAzr 1:1").osis()).toEqual("PrAzar.1.1");
+		expect(p.parse("PrAz 1:1").osis()).toEqual("PrAzar.1.1");
 	});
 });
 describe("Localized book Prov (eng)", () => {
@@ -1944,6 +1955,7 @@ describe("Localized book SgThree (eng)", () => {
 		expect(p.parse("S. Three. Ch 1:1").osis()).toEqual("SgThree.1.1");
 		expect(p.parse("S. of Th. Ch 1:1").osis()).toEqual("SgThree.1.1");
 		expect(p.parse("S of Three Y 1:1").osis()).toEqual("SgThree.1.1");
+		expect(p.parse("S of III Ch 1:1").osis()).toEqual("SgThree.1.1");
 		expect(p.parse("S Three. Ch 1:1").osis()).toEqual("SgThree.1.1");
 		expect(p.parse("S. Three Ch 1:1").osis()).toEqual("SgThree.1.1");
 		expect(p.parse("S. Three. Y 1:1").osis()).toEqual("SgThree.1.1");
@@ -1986,6 +1998,7 @@ describe("Localized book SgThree (eng)", () => {
 		expect(p.parse("S. 3 Y 1:1").osis()).toEqual("SgThree.1.1");
 		expect(p.parse("S Th Y 1:1").osis()).toEqual("SgThree.1.1");
 		expect(p.parse("Sg Thr 1:1").osis()).toEqual("SgThree.1.1");
+		expect(p.parse("STHC 1:1").osis()).toEqual("SgThree.1.1");
 		expect(p.parse("S 3 Y 1:1").osis()).toEqual("SgThree.1.1");
 	});
 });
@@ -7160,6 +7173,7 @@ describe("Localized book Jdt (eng)", () => {
 		expect(p.parse("Jdit 1:1").osis()).toEqual("Jdt.1.1");
 		expect(p.parse("Judt 1:1").osis()).toEqual("Jdt.1.1");
 		expect(p.parse("Jdt 1:1").osis()).toEqual("Jdt.1.1");
+		expect(p.parse("Jth 1:1").osis()).toEqual("Jdt.1.1");
 	});
 });
 describe("Localized book Bar (eng)", () => {
@@ -8779,5 +8793,99 @@ describe("Localized book Zeph,Zech (eng)", () => {
 	});
 	it("should handle book: Zeph,Zech (eng)", () => {
 		expect(p.parse("Ze 1:1").osis()).toEqual("Zeph.1.1");
+	});
+});
+describe("Preferred book names (eng)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle preferred book names (eng)", () => {
+		expect(p.parse("Gen. 1:1").osis()).toEqual("Gen.1.1");
+		expect(p.parse("Ex. 1:1").osis()).toEqual("Exod.1.1");
+		expect(p.parse("Lev. 1:1").osis()).toEqual("Lev.1.1");
+		expect(p.parse("Num. 1:1").osis()).toEqual("Num.1.1");
+		expect(p.parse("Deut. 1:1").osis()).toEqual("Deut.1.1");
+		expect(p.parse("Josh. 1:1").osis()).toEqual("Josh.1.1");
+		expect(p.parse("Judg. 1:1").osis()).toEqual("Judg.1.1");
+		expect(p.parse("1Sa 1:1").osis()).toEqual("1Sam.1.1");
+		expect(p.parse("1 Sam. 1:1").osis()).toEqual("1Sam.1.1");
+		expect(p.parse("2Sa 1:1").osis()).toEqual("2Sam.1.1");
+		expect(p.parse("2 Sam. 1:1").osis()).toEqual("2Sam.1.1");
+		expect(p.parse("1Ki 1:1").osis()).toEqual("1Kgs.1.1");
+		expect(p.parse("2Ki 1:1").osis()).toEqual("2Kgs.1.1");
+		expect(p.parse("1Ch 1:1").osis()).toEqual("1Chr.1.1");
+		expect(p.parse("1 Chron. 1:1").osis()).toEqual("1Chr.1.1");
+		expect(p.parse("2Ch 1:1").osis()).toEqual("2Chr.1.1");
+		expect(p.parse("2 Chron. 1:1").osis()).toEqual("2Chr.1.1");
+		expect(p.parse("Neh. 1:1").osis()).toEqual("Neh.1.1");
+		expect(p.parse("Est. 1:1").osis()).toEqual("Esth.1.1");
+		expect(p.parse("Ps. 1:1").osis()).toEqual("Ps.1.1");
+		expect(p.parse("Pss. 1:1").osis()).toEqual("Ps.1.1");
+		expect(p.parse("Prov. 1:1").osis()).toEqual("Prov.1.1");
+		expect(p.parse("Eccles. 1:1").osis()).toEqual("Eccl.1.1");
+		expect(p.parse("Isa. 1:1").osis()).toEqual("Isa.1.1");
+		expect(p.parse("Jer. 1:1").osis()).toEqual("Jer.1.1");
+		expect(p.parse("Lam. 1:1").osis()).toEqual("Lam.1.1");
+		expect(p.parse("Ezek. 1:1").osis()).toEqual("Ezek.1.1");
+		expect(p.parse("Dan. 1:1").osis()).toEqual("Dan.1.1");
+		expect(p.parse("Hos. 1:1").osis()).toEqual("Hos.1.1");
+		expect(p.parse("Obad. 1:1").osis()).toEqual("Obad.1.1");
+		expect(p.parse("Mic. 1:1").osis()).toEqual("Mic.1.1");
+		expect(p.parse("Nah. 1:1").osis()).toEqual("Nah.1.1");
+		expect(p.parse("Hab. 1:1").osis()).toEqual("Hab.1.1");
+		expect(p.parse("Zeph. 1:1").osis()).toEqual("Zeph.1.1");
+		expect(p.parse("Hag. 1:1").osis()).toEqual("Hag.1.1");
+		expect(p.parse("Zech. 1:1").osis()).toEqual("Zech.1.1");
+		expect(p.parse("Mal. 1:1").osis()).toEqual("Mal.1.1");
+		expect(p.parse("Matt. 1:1").osis()).toEqual("Matt.1.1");
+		expect(p.parse("Rom. 1:1").osis()).toEqual("Rom.1.1");
+		expect(p.parse("1Co 1:1").osis()).toEqual("1Cor.1.1");
+		expect(p.parse("1 Cor. 1:1").osis()).toEqual("1Cor.1.1");
+		expect(p.parse("2Co 1:1").osis()).toEqual("2Cor.1.1");
+		expect(p.parse("2 Cor. 1:1").osis()).toEqual("2Cor.1.1");
+		expect(p.parse("Gal. 1:1").osis()).toEqual("Gal.1.1");
+		expect(p.parse("Eph. 1:1").osis()).toEqual("Eph.1.1");
+		expect(p.parse("Phil. 1:1").osis()).toEqual("Phil.1.1");
+		expect(p.parse("Col. 1:1").osis()).toEqual("Col.1.1");
+		expect(p.parse("1Th 1:1").osis()).toEqual("1Thess.1.1");
+		expect(p.parse("1 Thess. 1:1").osis()).toEqual("1Thess.1.1");
+		expect(p.parse("2Th 1:1").osis()).toEqual("2Thess.1.1");
+		expect(p.parse("2 Thess. 1:1").osis()).toEqual("2Thess.1.1");
+		expect(p.parse("1Ti 1:1").osis()).toEqual("1Tim.1.1");
+		expect(p.parse("1 Tim. 1:1").osis()).toEqual("1Tim.1.1");
+		expect(p.parse("2Ti 1:1").osis()).toEqual("2Tim.1.1");
+		expect(p.parse("2 Tim. 1:1").osis()).toEqual("2Tim.1.1");
+		expect(p.parse("Philem. 1:1").osis()).toEqual("Phlm.1.1");
+		expect(p.parse("Heb. 1:1").osis()).toEqual("Heb.1.1");
+		expect(p.parse("1Pe 1:1").osis()).toEqual("1Pet.1.1");
+		expect(p.parse("1 Pet. 1:1").osis()).toEqual("1Pet.1.1");
+		expect(p.parse("2Pe 1:1").osis()).toEqual("2Pet.1.1");
+		expect(p.parse("2 Pet. 1:1").osis()).toEqual("2Pet.1.1");
+		expect(p.parse("1Jn 1:1").osis()).toEqual("1John.1.1");
+		expect(p.parse("2Jn 1:1").osis()).toEqual("2John.1.1");
+		expect(p.parse("3Jn 1:1").osis()).toEqual("3John.1.1");
+		expect(p.parse("Rev. 1:1").osis()).toEqual("Rev.1.1");
+		expect(p.parse("Tob. 1:1").osis()).toEqual("Tob.1.1");
+		expect(p.parse("Jdt. 1:1").osis()).toEqual("Jdt.1.1");
+		expect(p.parse("Gr. Est. 1:1").osis()).toEqual("GkEsth.1.1");
+		expect(p.parse("Wisd. Sol. 1:1").osis()).toEqual("Wis.1.1");
+		expect(p.parse("Sir. 1:1").osis()).toEqual("Sir.1.1");
+		expect(p.parse("Bar. 1:1").osis()).toEqual("Bar.1.1");
+		expect(p.parse("Pr. Azar. 1:1").osis()).toEqual("PrAzar.1.1");
+		expect(p.parse("Sus. 1:1").osis()).toEqual("Sus.1.1");
+		expect(p.parse("Ep. Jer. 1:1").osis()).toEqual("EpJer.1.1");
+		expect(p.parse("1Mc 1:1").osis()).toEqual("1Macc.1.1");
+		expect(p.parse("1 Macc. 1:1").osis()).toEqual("1Macc.1.1");
+		expect(p.parse("2Mc 1:1").osis()).toEqual("2Macc.1.1");
+		expect(p.parse("2 Macc. 1:1").osis()).toEqual("2Macc.1.1");
+		expect(p.parse("3Mc 1:1").osis()).toEqual("3Macc.1.1");
+		expect(p.parse("3 Macc. 1:1").osis()).toEqual("3Macc.1.1");
+		expect(p.parse("4Mc 1:1").osis()).toEqual("4Macc.1.1");
+		expect(p.parse("4 Macc. 1:1").osis()).toEqual("4Macc.1.1");
+		expect(p.parse("1 Esd. 1:1").osis()).toEqual("1Esd.1.1");
+		expect(p.parse("2 Esd. 1:1").osis()).toEqual("2Esd.1.1");
+		expect(p.parse("Pr. Man. 1:1").osis()).toEqual("PrMan.1.1");
 	});
 });
