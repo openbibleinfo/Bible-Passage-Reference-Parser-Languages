@@ -34,7 +34,7 @@ variables:
     - nn
   next:
     - text: n
-      regexp_after: (?!n)
+      regexp_after: (?!\p{L})
   title:
     - titul
   verse:

@@ -122,6 +122,18 @@ ordinals:
 `node bin/build_lang.js <lang>` writes `names/<lang>.yaml`, which is a normalized list of book texts used by `bin/build_spec.js`.
 Names output collapses whitespace to single spaces and normalizes to NFC (combining-character variants are unified), but does not add extra variants.
 
+### tests
+Optional per-language Jasmine tests can be added to `data/<lang>.yaml`:
+```yaml
+tests:
+  - text: "Rdz 1:1"
+    osis: "Gen.1.1"
+  - it: "should handle odd spacing"
+    text: "Rdz   1:1"
+    osis: "Gen.1.1"
+```
+`bin/build_spec.js` will emit these into `test/<lang>.spec.js`. Entries with `it` get their own `it(<label>)` block; entries without `it` are grouped under `it("should handle custom tests")`.
+
 ## Notes
 - `lang/` can be regenerated at any time; it is not a source of truth.
 - This code does not yet support combining languages.

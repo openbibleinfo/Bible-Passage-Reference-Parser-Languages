@@ -8,9 +8,9 @@ var bcv_regexps = class {
     this.third = /(?:Dritte\.?\s*|Dritten\.?\s*|Dritter\.?\s*|Drittes\.?\s*|3\.?\s*)/;
     this.range_and = /(?:[&\u2013\u2014-]|(?:und\s*siehe\s*auch\.?\s*|und\s*siehe\.?\s*|und\s*auch\.?\s*|sowie\s*auch\.?\s*|siehe\s*auch\.?\s*|siehe\.?\s*|sowie\.?\s*|und\.?\s*|u\.?\s*|u\.?\s*|\x26\.?\s*|vgl\.?\s*|vgl\.?\s*)|bis\.?\s*)/;
     this.range_only = /(?:[\u2013\u2014-]|bis\.?\s*)/;
-    this.match_end_split = /\d\W*(?:Titel)|\d\W*(?:(?:f\.?\s*(?![a-z0-9äöü])))(?:[\s*]*\.)?|\d\W*(?:(?:ff(?![a-z0-9äöü])))(?:[\s*]*\.)?|\d[\s*]*(?:(?:[a-e](?!\w)))|\x1e(?:[\s*]*[)\]\uff09])?|[\d\x1f]/gi;
+    this.match_end_split = /\d\W*(?:Titel)|\d\W*(?:(?:f\.?\s*(?!\p{L})))(?:[\s*]*\.)?|\d\W*(?:(?:ff(?![a-z0-9äöü])))(?:[\s*]*\.)?|\d[\s*]*(?:(?:[a-e](?!\w)))|\x1e(?:[\s*]*[)\]\uff09])?|[\d\x1f]/gi;
     this.control = /[\x1e\x1f]/g;
-    this.escaped_passage = /(?:^|[^\x1e\x1f\p{L}\p{N}])((?:(?:ch(?:apters?|a?pts?\.?|a?p?s?\.?)?\s*\d+\s*(?:[\u2013\u2014\-]|through|thru|to)\s*\d+\s*(?:from|of|in)(?:\s+the\s+book\s+of)?\s*)|(?:ch(?:apters?|a?pts?\.?|a?p?s?\.?)?\s*\d+\s*(?:from|of|in)(?:\s+the\s+book\s+of)?\s*)|(?:\d+(?:th|nd|st)\s*ch(?:apter|a?pt\.?|a?p?\.?)?\s*(?:from|of|in)(?:\s+the\s+book\s+of)?\s*))?\x1f(\d+)(?:\/\d+)?\x1f(?:\/\d+\x1f|[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—]|Titel\.?\s*(?![a-z])|(?:(?:Kap(?:iteln?)?\.?\s*)|(?:V(?:ers(?:e[ns]?)?|s)\.?\s*)|(?:ff\.?\s*(?![a-z0-9äöü]))|(?:f\.?\s*(?![a-z0-9äöü]))|(?:(?:und\s*siehe(?:\s*auch)?|s(?:iehe(?:\s*auch)?|owie(?:\s*auch)?)|und\s*auch|u(?:nd)?|vgl|&)\.?\s*)|(?:bis\.?\s*))|(?:[a-e]\.?\s*(?!\w))(?!\w)|$)+)/giu;
+    this.escaped_passage = /(?:^|[^\x1e\x1f\p{L}\p{N}])((?:(?:ch(?:apters?|a?pts?\.?|a?p?s?\.?)?\s*\d+\s*(?:[\u2013\u2014\-]|through|thru|to)\s*\d+\s*(?:from|of|in)(?:\s+the\s+book\s+of)?\s*)|(?:ch(?:apters?|a?pts?\.?|a?p?s?\.?)?\s*\d+\s*(?:from|of|in)(?:\s+the\s+book\s+of)?\s*)|(?:\d+(?:th|nd|st)\s*ch(?:apter|a?pt\.?|a?p?\.?)?\s*(?:from|of|in)(?:\s+the\s+book\s+of)?\s*))?\x1f(\d+)(?:\/\d+)?\x1f(?:\/\d+\x1f|[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—]|Titel\.?\s*(?![a-z])|(?:(?:Kap(?:iteln?)?\.?\s*)|(?:V(?:ers(?:e[ns]?)?|s)\.?\s*)|(?:ff\.?\s*(?![a-z0-9äöü]))|(?:f\.?\s*(?!\p{L}))|(?:(?:und\s*siehe(?:\s*auch)?|s(?:iehe(?:\s*auch)?|owie(?:\s*auch)?)|und\s*auch|u(?:nd)?|vgl|&)\.?\s*)|(?:bis\.?\s*))|(?:[a-e]\.?\s*(?!\w))(?!\w)|$)+)/giu;
     this.pre_book = /(?:^|(?<=[^\p{L}]))/gu;
     this.pre_number_book = /(?:^|(?<=[^\p{L}\p{N}])(?<!\d:(?=\d)))/gu;
     this.post_book = /(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/gu;
@@ -838,7 +838,7 @@ var bcv_grammar_options_default = {
   cv_sep_us: /^[\s*]*(?::+|\.(?!\s*\.\s*\.))[\s*]*/i,
   ff: /^[\s*]*(?:(?:ff\.?\s*(?![a-z0-9äöü])))(?![\p{L}\p{N}])(?:\.(?!\s*\.))?/iu,
   in_book_of: /^[\s*]*(?:from|of|in)[\s*]*(?:the[\s*]*book[\s*]*of[\s*]*)?/i,
-  next: /^(?:(?:f\.?\s*(?![a-z0-9äöü])))/i,
+  next: /^(?:(?:f\.?\s*(?!\p{L})))/i,
   ordinal: /^(?:th|st|nd|rd)/i,
   range: /^[\s*]*(?:[\-–—]|(?:bis\.?\s*))+[\s*]*/i,
   sequence_eu: /^(?:[;/:&\-–—~\s*]|\.(?!\s*\.\s*\.)|(?:(?:und\s+siehe(?:\s+auch)?|s(?:iehe(?:\s+auch)?|owie(?:\s+auch)?)|und\s+auch|u(?:nd)?|vgl|&)\.?\s*))+/i,

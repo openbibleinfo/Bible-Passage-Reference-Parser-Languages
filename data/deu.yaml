@@ -52,7 +52,7 @@ variables:
       regexp_after: (?![a-z0-9äöü])
   next:
     - text: f
-      regexp_after: (?![a-z0-9äöü])
+      regexp_after: (?!\p{L})
   title:
     - Titel
   to:

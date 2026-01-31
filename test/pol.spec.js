@@ -4075,3 +4075,13 @@ describe("Localized book 1Macc (pol)", () => {
 		expect(p.parse("1Macc 1:1").osis()).toEqual("1Macc.1.1");
 	});
 });
+describe("Custom tests (pol)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should parse `next` correctly", () => {
+		expect(p.parse("za Jan 7:36, 7:44, 21:25 nebo za Luk 21:38").osis()).toEqual("John.7.36,John.7.44,John.21.25,Matt.21.38");
+	});
+});

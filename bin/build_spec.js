@@ -11,6 +11,7 @@ const repoRoot = path.resolve(__dirname, "..");
 const namesDir = path.join(repoRoot, "names");
 const testDir = path.join(repoRoot, "test");
 const translationsPath = path.join(repoRoot, "translations", "default.yaml");
+const dataDir = path.join(repoRoot, "data");
 
 function addExpectation(lines, sample, expected) {
   lines.push(`\t\texpect(p.parse(${JSON.stringify(sample)}).osis()).toEqual(${JSON.stringify(expected)});`);
@@ -50,6 +51,42 @@ function buildBookBlock(langCode, osisList, texts) {
   return lines;
 }
 
+function addCustomTests(lines, langCode, customTests) {
+  if (!customTests || customTests.length === 0) return;
+  const grouped = [];
+  for (const test of customTests) {
+    if (!test || typeof test.text !== "string" || typeof test.osis !== "string") continue;
+    if (test.it && typeof test.it === "string") {
+      lines.push(`describe("Custom tests (${langCode})", () => {`);
+      lines.push("\tlet p = {}");
+      lines.push("\tbeforeEach(() => {");
+      lines.push("\t\tp = new bcv_parser(lang);");
+      lines.push("\t\tp.set_options({ book_alone_strategy: \"ignore\", book_sequence_strategy: \"ignore\", osis_compaction_strategy: \"bc\", captive_end_digits_strategy: \"delete\", testaments: \"ona\" });");
+      lines.push("\t});");
+      lines.push(`\tit(${JSON.stringify(test.it)}, () => {`);
+      addExpectation(lines, test.text, test.osis);
+      lines.push("\t});");
+      lines.push("});");
+    } else {
+      grouped.push(test);
+    }
+  }
+  if (grouped.length > 0) {
+    lines.push(`describe("Custom tests (${langCode})", () => {`);
+    lines.push("\tlet p = {}");
+    lines.push("\tbeforeEach(() => {");
+    lines.push("\t\tp = new bcv_parser(lang);");
+    lines.push("\t\tp.set_options({ book_alone_strategy: \"ignore\", book_sequence_strategy: \"ignore\", osis_compaction_strategy: \"bc\", captive_end_digits_strategy: \"delete\", testaments: \"ona\" });");
+    lines.push("\t});");
+    lines.push(`\tit("should handle custom tests", () => {`);
+    for (const test of grouped) {
+      addExpectation(lines, test.text, test.osis);
+    }
+    lines.push("\t});");
+    lines.push("});");
+  }
+}
+
 async function main() {
   const translationsRaw = await fs.readFile(translationsPath, "utf8");
   const translations = YAML.parse(translationsRaw);
@@ -76,11 +113,22 @@ async function main() {
     const outPath = path.join(testDir, `${langCode}.spec.js`);
     const raw = await fs.readFile(yamlPath, "utf8");
     const data = YAML.parse(raw);
+    const dataPath = path.join(dataDir, `${langCode}.yaml`);
+    let customTests = [];
+    try {
+      const dataRaw = await fs.readFile(dataPath, "utf8");
+      const dataYaml = YAML.parse(dataRaw);
+      if (Array.isArray(dataYaml?.tests)) {
+        customTests = dataYaml.tests;
+      }
+    } catch {
+      customTests = [];
+    }
 
     const lines = [];
     lines.push("\"use strict\";");
     lines.push(`import { bcv_parser } from "bible-passage-reference-parser/esm/bcv_parser.js";`);
-    lines.push(`import * as lang from \"../lang/${langCode}.js\";`);
+    lines.push(`import * as lang from "../lang/${langCode}.js";`);
     lines.push("");
 
     if (Array.isArray(data)) {
@@ -95,6 +143,8 @@ async function main() {
         lines.push(...block);
       }
     }
+
+    addCustomTests(lines, langCode, customTests);
 
     lines.push("");
     await fs.writeFile(outPath, lines.join("\n"), "utf8");

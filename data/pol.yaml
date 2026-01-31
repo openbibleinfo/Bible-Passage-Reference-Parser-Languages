@@ -45,7 +45,7 @@ variables:
     - nn
   next:
     - text: n
-      regexp_after: (?!n)
+      regexp_after: (?!\p{L})
   title:
     - tytuł
   to:
@@ -1166,3 +1166,7 @@ books:
       - 1Macc
 translations:
   - NP
+tests:
+  - it: should parse `next` correctly when followed by a word
+    text: za Jan 7:36, 7:44, 21:25 nebo za Luk 21:38
+    osis: John.7.36,John.7.44,John.21.25,Luke.21.38

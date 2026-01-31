@@ -8,9 +8,9 @@ var bcv_regexps = class {
     this.third = /(?:Třetí\.?\s*|Treti\.?\s*|Třeti\.?\s*|Tretí\.?\s*|3\.?\s*|III\.?\s*)/;
     this.range_and = /(?:[&\u2013\u2014-]|(?:a\.?\s*|srv\.?\s*|srv\.?\s*)|(?:\x2d\.?\s*|–\.?\s*|—\.?\s*))/;
     this.range_only = /(?:[\u2013\u2014-]|(?:\x2d\.?\s*|–\.?\s*|—\.?\s*))/;
-    this.match_end_split = /\d\W*(?:titul)|\d\W*(?:(?:n\.?\s*(?!n)))(?:[\s*]*\.)?|\d\W*(?:nn)(?:[\s*]*\.)?|\d[\s*]*(?:(?:[a-e](?!\w)))|\x1e(?:[\s*]*[)\]\uff09])?|[\d\x1f]/gi;
+    this.match_end_split = /\d\W*(?:titul)|\d\W*(?:(?:n\.?\s*(?!\p{L})))(?:[\s*]*\.)?|\d\W*(?:nn)(?:[\s*]*\.)?|\d[\s*]*(?:(?:[a-e](?!\w)))|\x1e(?:[\s*]*[)\]\uff09])?|[\d\x1f]/gi;
     this.control = /[\x1e\x1f]/g;
-    this.escaped_passage = /(?:^|[^\x1e\x1f\p{L}\p{N}])((?:(?:ch(?:apters?|a?pts?\.?|a?p?s?\.?)?\s*\d+\s*(?:[\u2013\u2014\-]|through|thru|to)\s*\d+\s*(?:from|of|in)(?:\s+the\s+book\s+of)?\s*)|(?:ch(?:apters?|a?pts?\.?|a?p?s?\.?)?\s*\d+\s*(?:from|of|in)(?:\s+the\s+book\s+of)?\s*)|(?:\d+(?:th|nd|st)\s*ch(?:apter|a?pt\.?|a?p?\.?)?\s*(?:from|of|in)(?:\s+the\s+book\s+of)?\s*))?\x1f(\d+)(?:\/\d+)?\x1f(?:\/\d+\x1f|[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—]|titul\.?\s*(?![a-z])|(?:(?:kap(?:itol[ay]?)?\.?\s*)|(?:ver[sš]e\.?\s*)|(?:nn\.?\s*)|(?:n\.?\s*(?!n))|(?:(?:srv|a)\.?\s*)|(?:[\-–—]\.?\s*))|(?:[a-e]\.?\s*(?!\w))(?!\w)|$)+)/giu;
+    this.escaped_passage = /(?:^|[^\x1e\x1f\p{L}\p{N}])((?:(?:ch(?:apters?|a?pts?\.?|a?p?s?\.?)?\s*\d+\s*(?:[\u2013\u2014\-]|through|thru|to)\s*\d+\s*(?:from|of|in)(?:\s+the\s+book\s+of)?\s*)|(?:ch(?:apters?|a?pts?\.?|a?p?s?\.?)?\s*\d+\s*(?:from|of|in)(?:\s+the\s+book\s+of)?\s*)|(?:\d+(?:th|nd|st)\s*ch(?:apter|a?pt\.?|a?p?\.?)?\s*(?:from|of|in)(?:\s+the\s+book\s+of)?\s*))?\x1f(\d+)(?:\/\d+)?\x1f(?:\/\d+\x1f|[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—]|titul\.?\s*(?![a-z])|(?:(?:kap(?:itol[ay]?)?\.?\s*)|(?:ver[sš]e\.?\s*)|(?:nn\.?\s*)|(?:n\.?\s*(?!\p{L}))|(?:(?:srv|a)\.?\s*)|(?:[\-–—]\.?\s*))|(?:[a-e]\.?\s*(?!\w))(?!\w)|$)+)/giu;
     this.pre_book = /(?:^|(?<=[^\p{L}]))/gu;
     this.pre_number_book = /(?:^|(?<=[^\p{L}\p{N}])(?<!\d:(?=\d)))/gu;
     this.post_book = /(?:(?=[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—])|$)/gu;
@@ -828,7 +828,7 @@ var bcv_grammar_options_default = {
   cv_sep_us: /^[\s*]*(?::+|\.(?!\s*\.\s*\.))[\s*]*/i,
   ff: /^[\s*]*(?:(?:nn\.?\s*))(?![\p{L}\p{N}])(?:\.(?!\s*\.))?/iu,
   in_book_of: /^[\s*]*(?:from|of|in)[\s*]*(?:the[\s*]*book[\s*]*of[\s*]*)?/i,
-  next: /^(?:(?:n\.?\s*(?!n)))/i,
+  next: /^(?:(?:n\.?\s*(?!\p{L})))/i,
   ordinal: /^(?:th|st|nd|rd)/i,
   range: /^[\s*]*(?:[\-–—]|(?:[\-–—]\.?\s*))+[\s*]*/i,
   sequence_eu: /^(?:[;/:&\-–—~\s*]|\.(?!\s*\.\s*\.)|(?:(?:srv|a)\.?\s*))+/i,
