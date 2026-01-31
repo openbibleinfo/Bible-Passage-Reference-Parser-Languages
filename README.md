@@ -33,6 +33,7 @@ node bin/build_all_langs.js -j 4     # set worker count
 ```
 
 ## Output format
+
 The build outputs three JS classes:
 - `bcv_regexps`
 - `bcv_translations`
@@ -41,6 +42,7 @@ The build outputs three JS classes:
 The output matches the expected format in Bible-Passage-Reference-Parser.
 
 ## Creating a new language YAML
+
 1) Pick an existing language as a starting point (for example `data/eng.yaml`) and copy it to a new ISO 639-3 code, like `data/isl.yaml`.
 2) Update the language file contents:
    - `variables`: text tokens and patterns used by the parser (titles, next, ff, etc.).
@@ -57,9 +59,10 @@ Notes for new languages:
 - The first language file passed to `build_lang` sets the primary `variables` and `options`; additional languages are only used to merge `books`.
 - `data/_defaults.yaml` provides required defaults for `variables` and `options`, so you only need to override what differs.
 
-## YAML structure (data/*.yaml)
+## YAML structure (`data/*.yaml`)
 
 ### variables
+
 Used to build the core grammar and separator patterns. Values can be:
 - simple strings: `- "cap."`
 - objects for fine control:
@@ -81,6 +84,7 @@ variables:
 ```
 
 ### options
+
 Common options (see `data/_defaults.yaml` for full list):
 - `normalize`: `combining_characters` (default) or `none`
 - `trailing_dots_in_variables`: `optional` or `as_is`
@@ -91,6 +95,7 @@ Common options (see `data/_defaults.yaml` for full list):
 - `join_before`, `join_after`
 
 ### books
+
 Each entry declares OSIS code(s) and the localized texts. Forms:
 - `osis: "Gen"` or `osis: ["Jonah","Job"]`
 - `osis` objects with `before`, `after`, `join` for numbered books:
@@ -103,26 +108,29 @@ Each entry declares OSIS code(s) and the localized texts. Forms:
     texts:
       - Samuel
   ```
-- `texts` can be strings or objects with `text` and optional `normalize: none`.
+- `texts` can be strings or objects with `text` and optional `normalize: none`, which prevents diacritics and spacing from changing.
 
 ### ordinals
+
 Defines ordinal suffixes and optional Psalm handling:
 ```yaml
 ordinals:
-  - after: ["-st"]
+  - after: ["st"]
     numbers: [1, 21, 31]
-  - after: ["-nd"]
+  - after: ["nd"]
     numbers: [2, 22, 32]
   - between:
-      regexp: \\s*
+      regexp: \s*
     texts: ["Psalm"]
 ```
 
-## book_names/all output
+## book_names/all
+
 `node bin/build_lang.js <lang>` writes `book_names/all/<lang>.yaml`, which is a normalized list of book texts used by `bin/build_spec.js`.
 Names output collapses whitespace to single spaces and normalizes to NFC (combining-character variants are unified), but does not add extra variants.
 
 ## book_names/preferred
+
 `book_names/preferred/<lang>.yaml` documents preferred book names for display and UI. Each file has:
 - `default`: preferred names by OSIS code.
 - `translations` (optional): translation-specific overrides (currently only in `eng.yaml`).
@@ -155,7 +163,8 @@ Keys used in preferred names can include:
 - `short_plural`: translation-specific plural short form
 
 ### tests
-Optional per-language Jasmine tests can be added to `data/<lang>.yaml`:
+
+Optional per-language Jasmine tests can be added to `data/<lang>.yaml` (see pol.yaml for an example):
 ```yaml
 tests:
   - text: "Rdz 1:1"
@@ -167,46 +176,34 @@ tests:
 `bin/build_spec.js` will emit these into `test/<lang>.spec.js`. Entries with `it` get their own `it(<label>)` block; entries without `it` are grouped under `it("should handle custom tests")`.
 
 ## Notes
+
 - `lang/` can be regenerated at any time; it is not a source of truth.
 - This code does not yet support combining languages.
 - Language codes are ISO 639-3 (e.g., `eng`, `zho`).
 
-## ISO 639-1 → ISO 639-3 mapping (English names)
-Mappings used by tooling:
+## ISO 639-2 to ISO 639-3 mapping
 
-| ISO 639-1 | ISO 639-3 | English name |
+Mappings used by tooling and for compatibility with the older abbreviations used in Bible Passage Reference Parser:
+
+| ISO 639-2 | ISO 639-3 | English name |
 | --- | --- | --- |
-| amf | amf | Hamer-Banna |
 | ar | ara | Arabic |
-| awa | awa | Awadhi |
-| bba | bba | Baatonum (Bariba) |
 | bg | bul | Bulgarian |
-| bqc | bqc | Boko |
-| bus | bus | Bokobaru |
-| ceb | ceb | Cebuano |
-| chr | chr | Cherokee |
-| ckb | ckb | Central Kurdish |
 | cs | ces | Czech |
 | cy | cym | Welsh |
 | da | dan | Danish |
 | de | deu | German |
-| dop | dop | Lukpa |
 | el | grc | Greek |
 | en | eng | English |
 | es | spa | Spanish |
 | fa | fas | Persian |
 | fi | fin | Finnish |
 | fr | fra | French |
-| fue | fue | Fulfulde, Borgu |
-| fuh | fuh | Fulfulde, Western Niger |
 | he | heb | Hebrew |
 | hi | hin | Hindi |
-| hil | hil | Hiligaynon |
-| hne | hne | Chhattisgarhi |
 | hr | hrv | Croatian |
 | ht | hat | Haitian Creole |
 | hu | hun | Hungarian |
-| hwc | hwc | Hawai‘i Creole English |
 | id | ind | Indonesian |
 | is | isl | Icelandic |
 | it | ita | Italian |
@@ -215,29 +212,22 @@ Mappings used by tooling:
 | kn | kan | Kannada |
 | ko | kor | Korean |
 | la | lat | Latin |
-| leb | leb | Lala-Bisa |
 | lg | lug | Ganda |
 | mk | mkd | Macedonian |
-| mkl | mkl | Mokilese |
 | mr | mar | Marathi |
-| mvc | mvc | Mamboru |
-| nds | nds | Low German |
 | ne | nep | Nepali |
 | nl | nld | Dutch |
 | no | nor | Norwegian |
 | ny | nya | Nyanja |
 | or | ori | Odia |
 | pa | pan | Punjabi |
-| pck | pck | Paite Chin |
 | pl | pol | Polish |
-| ppl | ppl | Pipil |
 | pt | por | Portuguese |
 | ro | ron | Romanian |
 | ru | rus | Russian |
 | sk | slk | Slovak |
 | sl | slv | Slovenian |
 | so | som | Somali |
-| soy | soy | Miyobe |
 | sq | sqi | Albanian |
 | sr | srp | Serbian |
 | sv | swe | Swedish |
@@ -246,14 +236,15 @@ Mappings used by tooling:
 | te | tel | Telugu |
 | th | tha | Thai |
 | tl | tgl | Tagalog |
-| tmz | tmz | Tamanaku |
 | tr | tur | Turkish |
-| twi | twi | Twi |
-| udu | udu | Uduk |
 | uk | ukr | Ukrainian |
 | ur | urd | Urdu |
 | vi | vie | Vietnamese |
-| wal | wal | Wolaytta |
 | yo | yor | Yoruba |
-| yom | yom | Yombe |
 | zh | zho | Chinese |
+
+## Changelog
+
+January 31, 2026. Rework folder naming and add preferred book names from source data.
+
+January 29, 2026. First release.
