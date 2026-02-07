@@ -794,3 +794,29 @@ describe("Localized book Jude (acu)", () => {
 		expect(p.parse("Jud 1:1").osis()).toEqual("Jude.1.1");
 	});
 });
+describe("Parser helper should handle translations (acu)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle translations (acu)", () => {
+		expect(p.parse("Lev 1 (ACU)").osis_and_translations()).toEqual([["Lev.1","ACU"]]);
+		expect(p.parse("Lev 1 (ACUNT)").osis_and_translations()).toEqual([["Lev.1","ACUNT"]]);
+	});
+});
+describe("Parser helper should handle book ranges (acu)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book ranges (acu)", () => {
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("1.Juan - 3 Juan").osis()).toEqual("1John.1-3John.1");
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("1.Juan – 3 Juan").osis()).toEqual("1John.1-3John.1");
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("1.Juan — 3 Juan").osis()).toEqual("1John.1-3John.1");
+	});
+});

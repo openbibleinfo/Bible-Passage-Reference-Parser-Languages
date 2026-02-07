@@ -802,3 +802,31 @@ describe("Localized book Jude (tob)", () => {
 		expect(p.parse("Jud 1:1").osis()).toEqual("Jude.1.1");
 	});
 });
+describe("Parser helper should handle translations (tob)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle translations (tob)", () => {
+		expect(p.parse("Lev 1 (BTQ13)").osis_and_translations()).toEqual([["Lev.1","BTQ13"]]);
+		expect(p.parse("Lev 1 (TSN)").osis_and_translations()).toEqual([["Lev.1","TSN"]]);
+		expect(p.parse("Lev 1 (TBS)").osis_and_translations()).toEqual([["Lev.1","TBS"]]);
+		expect(p.parse("Lev 1 (TDO)").osis_and_translations()).toEqual([["Lev.1","TDO"]]);
+	});
+});
+describe("Parser helper should handle book ranges (tob)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book ranges (tob)", () => {
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("1 Juan - 3 Juan").osis()).toEqual("1John.1-3John.1");
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("1 Juan – 3 Juan").osis()).toEqual("1John.1-3John.1");
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("1 Juan — 3 Juan").osis()).toEqual("1John.1-3John.1");
+	});
+});

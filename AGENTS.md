@@ -29,3 +29,7 @@ This repo builds language-specific Bible reference parsing data from YAML langua
 - `book_names/all/*.yaml`: generated book-name lists (used to generate specs).
 - `test/*.spec.js`: generated localized-book specs from `book_names/all/`.
 - `book_names/preferred/*.yaml`: preferred display names (default + optional translation overrides).
+
+## Notes
+- `git status` may be slow in large worktrees; use scoped status like `git status --porcelain=v1 -- <paths>` when needed.
+- `bin/build_all_langs.js` builds each language, generates specs, and runs `npx jasmine test/<lang>.spec.js --random=false`.

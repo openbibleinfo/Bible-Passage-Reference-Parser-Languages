@@ -1725,3 +1725,131 @@ describe("Localized book 1Macc (nor)", () => {
 		expect(p.parse("1Macc 1:1").osis()).toEqual("1Macc.1.1");
 	});
 });
+describe("Parser helper should handle ranges (nor)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle ranges (nor)", () => {
+		expect(p.parse("Titus 1:1 - 2").osis()).toEqual("Titus.1.1-Titus.1.2");
+		expect(p.parse("Matt 1-2").osis()).toEqual("Matt.1-Matt.2");
+		expect(p.parse("Phlm 2 - 3").osis()).toEqual("Phlm.1.2-Phlm.1.3");
+		expect(p.parse("Titus 1:1 – 2").osis()).toEqual("Titus.1.1-Titus.1.2");
+		expect(p.parse("Matt 1–2").osis()).toEqual("Matt.1-Matt.2");
+		expect(p.parse("Phlm 2 – 3").osis()).toEqual("Phlm.1.2-Phlm.1.3");
+		expect(p.parse("Titus 1:1 — 2").osis()).toEqual("Titus.1.1-Titus.1.2");
+		expect(p.parse("Matt 1—2").osis()).toEqual("Matt.1-Matt.2");
+		expect(p.parse("Phlm 2 — 3").osis()).toEqual("Phlm.1.2-Phlm.1.3");
+	});
+});
+describe("Parser helper should handle chapters (nor)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle chapters (nor)", () => {
+		expect(p.parse("Titus 1:1, kapittelet 2").osis()).toEqual("Titus.1.1,Titus.2");
+		expect(p.parse("Matt 3:4 kapittelet 6").osis()).toEqual("Matt.3.4,Matt.6");
+		expect(p.parse("Titus 1:1, kapittel 2").osis()).toEqual("Titus.1.1,Titus.2");
+		expect(p.parse("Matt 3:4 kapittel 6").osis()).toEqual("Matt.3.4,Matt.6");
+		expect(p.parse("Titus 1:1, kapitler 2").osis()).toEqual("Titus.1.1,Titus.2");
+		expect(p.parse("Matt 3:4 kapitler 6").osis()).toEqual("Matt.3.4,Matt.6");
+		expect(p.parse("Titus 1:1, kapitlene 2").osis()).toEqual("Titus.1.1,Titus.2");
+		expect(p.parse("Matt 3:4 kapitlene 6").osis()).toEqual("Matt.3.4,Matt.6");
+		expect(p.parse("Titus 1:1, kapitel 2").osis()).toEqual("Titus.1.1,Titus.2");
+		expect(p.parse("Matt 3:4 kapitel 6").osis()).toEqual("Matt.3.4,Matt.6");
+		expect(p.parse("Titus 1:1, kap. 2").osis()).toEqual("Titus.1.1,Titus.2");
+		expect(p.parse("Matt 3:4 kap. 6").osis()).toEqual("Matt.3.4,Matt.6");
+	});
+});
+describe("Parser helper should handle verses (nor)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle verses (nor)", () => {
+		expect(p.parse("Exod 1:1 vers 3").osis()).toEqual("Exod.1.1,Exod.1.3");
+		expect(p.parse("Phlm vers 6").osis()).toEqual("Phlm.1.6");
+		expect(p.parse("Exod 1:1 v. 3").osis()).toEqual("Exod.1.1,Exod.1.3");
+		expect(p.parse("Phlm v. 6").osis()).toEqual("Phlm.1.6");
+		expect(p.parse("Exod 1:1 v 3").osis()).toEqual("Exod.1.1,Exod.1.3");
+		expect(p.parse("Phlm v 6").osis()).toEqual("Phlm.1.6");
+	});
+});
+describe("Parser helper should handle 'and' (nor)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle 'and' (nor)", () => {
+		expect(p.parse("Exod 1:1 og 3").osis()).toEqual("Exod.1.1,Exod.1.3");
+		expect(p.parse("Phlm 2 og 6").osis()).toEqual("Phlm.1.2,Phlm.1.6");
+		expect(p.parse("Exod 1:1 cf 3").osis()).toEqual("Exod.1.1,Exod.1.3");
+		expect(p.parse("Phlm 2 cf 6").osis()).toEqual("Phlm.1.2,Phlm.1.6");
+		expect(p.parse("Exod 1:1 jf 3").osis()).toEqual("Exod.1.1,Exod.1.3");
+		expect(p.parse("Phlm 2 jf 6").osis()).toEqual("Phlm.1.2,Phlm.1.6");
+	});
+});
+describe("Parser helper should handle titles (nor)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle titles (nor)", () => {
+		expect(p.parse("Ps 3 overskrift, 4:2, 5:overskrift").osis()).toEqual("Ps.3.1,Ps.4.2,Ps.5.1");
+	});
+});
+describe("Parser helper should handle 'ff' (nor)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle 'ff' (nor)", () => {
+		expect(p.parse("Rev 3ff, 4:2ff").osis()).toEqual("Rev.3-Rev.22,Rev.4.2-Rev.4.11");
+		expect(p.parse("Rev 3f, 4:2f").osis()).toEqual("Rev.3-Rev.22,Rev.4.2-Rev.4.11");
+	});
+});
+describe("Parser helper should handle translations (nor)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle translations (nor)", () => {
+		expect(p.parse("Lev 1 (B1930)").osis_and_translations()).toEqual([["Lev.1","B1930"]]);
+	});
+});
+describe("Parser helper should handle book ranges (nor)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book ranges (nor)", () => {
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("Johannes’ første brev - Johannes’ tredje brev").osis()).toEqual("1John.1-3John.1");
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("Johannes’ første brev – Johannes’ tredje brev").osis()).toEqual("1John.1-3John.1");
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("Johannes’ første brev — Johannes’ tredje brev").osis()).toEqual("1John.1-3John.1");
+	});
+});
+describe("Parser helper should handle boundaries (nor)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle boundaries (nor)", () => {
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona"});
+		expect(p.parse("—Matt—").osis()).toEqual("Matt.1-Matt.28");
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona"});
+		expect(p.parse("“Matt 1:1”").osis()).toEqual("Matt.1.1");
+	});
+});

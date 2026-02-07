@@ -3451,3 +3451,125 @@ describe("Localized book 1Macc (tur)", () => {
 		expect(p.parse("1Macc 1:1").osis()).toEqual("1Macc.1.1");
 	});
 });
+describe("Parser helper should handle ranges (tur)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle ranges (tur)", () => {
+		expect(p.parse("Titus 1:1 ile 2").osis()).toEqual("Titus.1.1-Titus.1.2");
+		expect(p.parse("Matt 1ile2").osis()).toEqual("Matt.1-Matt.2");
+		expect(p.parse("Phlm 2 ile 3").osis()).toEqual("Phlm.1.2-Phlm.1.3");
+	});
+});
+describe("Parser helper should handle chapters (tur)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle chapters (tur)", () => {
+		expect(p.parse("Titus 1:1, baplar 2").osis()).toEqual("Titus.1.1,Titus.2");
+		expect(p.parse("Matt 3:4 baplar 6").osis()).toEqual("Matt.3.4,Matt.6");
+		expect(p.parse("Titus 1:1, bap 2").osis()).toEqual("Titus.1.1,Titus.2");
+		expect(p.parse("Matt 3:4 bap 6").osis()).toEqual("Matt.3.4,Matt.6");
+		expect(p.parse("Titus 1:1, bp. 2").osis()).toEqual("Titus.1.1,Titus.2");
+		expect(p.parse("Matt 3:4 bp. 6").osis()).toEqual("Matt.3.4,Matt.6");
+		expect(p.parse("Titus 1:1, bp 2").osis()).toEqual("Titus.1.1,Titus.2");
+		expect(p.parse("Matt 3:4 bp 6").osis()).toEqual("Matt.3.4,Matt.6");
+	});
+});
+describe("Parser helper should handle verses (tur)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle verses (tur)", () => {
+		expect(p.parse("Exod 1:1 a. 3").osis()).toEqual("Exod.1.1,Exod.1.3");
+		expect(p.parse("Phlm a. 6").osis()).toEqual("Phlm.1.6");
+		expect(p.parse("Exod 1:1 ayeti 3").osis()).toEqual("Exod.1.1,Exod.1.3");
+		expect(p.parse("Phlm ayeti 6").osis()).toEqual("Phlm.1.6");
+		expect(p.parse("Exod 1:1 ayet 3").osis()).toEqual("Exod.1.1,Exod.1.3");
+		expect(p.parse("Phlm ayet 6").osis()).toEqual("Phlm.1.6");
+	});
+});
+describe("Parser helper should handle 'and' (tur)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle 'and' (tur)", () => {
+		expect(p.parse("Exod 1:1 ve 3").osis()).toEqual("Exod.1.1,Exod.1.3");
+		expect(p.parse("Phlm 2 ve 6").osis()).toEqual("Phlm.1.2,Phlm.1.6");
+	});
+});
+describe("Parser helper should handle titles (tur)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle titles (tur)", () => {
+		expect(p.parse("Ps 3 başlİk, 4:2, 5:başlİk").osis()).toEqual("Ps.3.1,Ps.4.2,Ps.5.1");
+		expect(p.parse("Ps 3 başlik, 4:2, 5:başlik").osis()).toEqual("Ps.3.1,Ps.4.2,Ps.5.1");
+		expect(p.parse("Ps 3 başlık, 4:2, 5:başlık").osis()).toEqual("Ps.3.1,Ps.4.2,Ps.5.1");
+	});
+});
+describe("Parser helper should handle 'ff' (tur)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle 'ff' (tur)", () => {
+		expect(p.parse("Rev 3vs, 4:2vs").osis()).toEqual("Rev.3-Rev.22,Rev.4.2-Rev.4.11");
+		expect(p.parse("Rev 3vd, 4:2vd").osis()).toEqual("Rev.3-Rev.22,Rev.4.2-Rev.4.11");
+	});
+});
+describe("Parser helper should handle translations (tur)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle translations (tur)", () => {
+		expect(p.parse("Lev 1 (YC)").osis_and_translations()).toEqual([["Lev.1","YC"]]);
+		expect(p.parse("Lev 1 (YC1998)").osis_and_translations()).toEqual([["Lev.1","YC"]]);
+		expect(p.parse("Lev 1 (YC2001)").osis_and_translations()).toEqual([["Lev.1","YC"]]);
+		expect(p.parse("Lev 1 (YC2008)").osis_and_translations()).toEqual([["Lev.1","YC"]]);
+		expect(p.parse("Lev 1 (YC2009)").osis_and_translations()).toEqual([["Lev.1","YC"]]);
+		expect(p.parse("Lev 1 (KM)").osis_and_translations()).toEqual([["Lev.1","KM"]]);
+		expect(p.parse("Lev 1 (TC)").osis_and_translations()).toEqual([["Lev.1","TC"]]);
+		expect(p.parse("Lev 1 (COS)").osis_and_translations()).toEqual([["Lev.1","TC"]]);
+		expect(p.parse("Lev 1 (CAN)").osis_and_translations()).toEqual([["Lev.1","CAN"]]);
+		expect(p.parse("Lev 1 (TSV)").osis_and_translations()).toEqual([["Lev.1","TSV"]]);
+		expect(p.parse("Lev 1 (HADI)").osis_and_translations()).toEqual([["Lev.1","HADI"]]);
+	});
+});
+describe("Parser helper should handle book ranges (tur)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book ranges (tur)", () => {
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("1. Yuhanna ile 3. Yuhanna").osis()).toEqual("1John.1-3John.1");
+	});
+});
+describe("Parser helper should handle boundaries (tur)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle boundaries (tur)", () => {
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona"});
+		expect(p.parse("—Matt—").osis()).toEqual("Matt.1-Matt.28");
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona"});
+		expect(p.parse("“Matt 1:1”").osis()).toEqual("Matt.1.1");
+	});
+});

@@ -789,3 +789,28 @@ describe("Preferred book names (gej)", () => {
 		expect(p.parse("Èhàw 1:1").osis()).toEqual("Ps.1.1");
 	});
 });
+describe("Parser helper should handle translations (gej)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle translations (gej)", () => {
+		expect(p.parse("Lev 1 (GEN)").osis_and_translations()).toEqual([["Lev.1","GEN"]]);
+	});
+});
+describe("Parser helper should handle book ranges (gej)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book ranges (gej)", () => {
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("1Yòhanɛ̀s - 3Yòhanɛ̀s").osis()).toEqual("1John.1-3John.1");
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("1Yòhanɛ̀s – 3Yòhanɛ̀s").osis()).toEqual("1John.1-3John.1");
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("1Yòhanɛ̀s — 3Yòhanɛ̀s").osis()).toEqual("1John.1-3John.1");
+	});
+});

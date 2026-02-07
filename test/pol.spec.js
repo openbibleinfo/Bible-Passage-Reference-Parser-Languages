@@ -4075,6 +4075,131 @@ describe("Localized book 1Macc (pol)", () => {
 		expect(p.parse("1Macc 1:1").osis()).toEqual("1Macc.1.1");
 	});
 });
+describe("Parser helper should handle ranges (pol)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle ranges (pol)", () => {
+		expect(p.parse("Titus 1:1 do 2").osis()).toEqual("Titus.1.1-Titus.1.2");
+		expect(p.parse("Matt 1do2").osis()).toEqual("Matt.1-Matt.2");
+		expect(p.parse("Phlm 2 do 3").osis()).toEqual("Phlm.1.2-Phlm.1.3");
+	});
+});
+describe("Parser helper should handle chapters (pol)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle chapters (pol)", () => {
+		expect(p.parse("Titus 1:1, rozdziały 2").osis()).toEqual("Titus.1.1,Titus.2");
+		expect(p.parse("Matt 3:4 rozdziały 6").osis()).toEqual("Matt.3.4,Matt.6");
+		expect(p.parse("Titus 1:1, rozdziałów 2").osis()).toEqual("Titus.1.1,Titus.2");
+		expect(p.parse("Matt 3:4 rozdziałów 6").osis()).toEqual("Matt.3.4,Matt.6");
+		expect(p.parse("Titus 1:1, rozdział 2").osis()).toEqual("Titus.1.1,Titus.2");
+		expect(p.parse("Matt 3:4 rozdział 6").osis()).toEqual("Matt.3.4,Matt.6");
+		expect(p.parse("Titus 1:1, rozdz 2").osis()).toEqual("Titus.1.1,Titus.2");
+		expect(p.parse("Matt 3:4 rozdz 6").osis()).toEqual("Matt.3.4,Matt.6");
+		expect(p.parse("Titus 1:1, rr. 2").osis()).toEqual("Titus.1.1,Titus.2");
+		expect(p.parse("Matt 3:4 rr. 6").osis()).toEqual("Matt.3.4,Matt.6");
+		expect(p.parse("Titus 1:1, rr 2").osis()).toEqual("Titus.1.1,Titus.2");
+		expect(p.parse("Matt 3:4 rr 6").osis()).toEqual("Matt.3.4,Matt.6");
+	});
+});
+describe("Parser helper should handle verses (pol)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle verses (pol)", () => {
+		expect(p.parse("Exod 1:1 wersetów 3").osis()).toEqual("Exod.1.1,Exod.1.3");
+		expect(p.parse("Phlm wersetów 6").osis()).toEqual("Phlm.1.6");
+		expect(p.parse("Exod 1:1 wersety 3").osis()).toEqual("Exod.1.1,Exod.1.3");
+		expect(p.parse("Phlm wersety 6").osis()).toEqual("Phlm.1.6");
+		expect(p.parse("Exod 1:1 werset 3").osis()).toEqual("Exod.1.1,Exod.1.3");
+		expect(p.parse("Phlm werset 6").osis()).toEqual("Phlm.1.6");
+		expect(p.parse("Exod 1:1 wers. 3").osis()).toEqual("Exod.1.1,Exod.1.3");
+		expect(p.parse("Phlm wers. 6").osis()).toEqual("Phlm.1.6");
+		expect(p.parse("Exod 1:1 wers 3").osis()).toEqual("Exod.1.1,Exod.1.3");
+		expect(p.parse("Phlm wers 6").osis()).toEqual("Phlm.1.6");
+		expect(p.parse("Exod 1:1 w. 3").osis()).toEqual("Exod.1.1,Exod.1.3");
+		expect(p.parse("Phlm w. 6").osis()).toEqual("Phlm.1.6");
+	});
+});
+describe("Parser helper should handle 'and' (pol)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle 'and' (pol)", () => {
+		expect(p.parse("Exod 1:1 oraz 3").osis()).toEqual("Exod.1.1,Exod.1.3");
+		expect(p.parse("Phlm 2 oraz 6").osis()).toEqual("Phlm.1.2,Phlm.1.6");
+		expect(p.parse("Exod 1:1 por 3").osis()).toEqual("Exod.1.1,Exod.1.3");
+		expect(p.parse("Phlm 2 por 6").osis()).toEqual("Phlm.1.2,Phlm.1.6");
+		expect(p.parse("Exod 1:1 i 3").osis()).toEqual("Exod.1.1,Exod.1.3");
+		expect(p.parse("Phlm 2 i 6").osis()).toEqual("Phlm.1.2,Phlm.1.6");
+	});
+});
+describe("Parser helper should handle titles (pol)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle titles (pol)", () => {
+		expect(p.parse("Ps 3 tytuł, 4:2, 5:tytuł").osis()).toEqual("Ps.3.1,Ps.4.2,Ps.5.1");
+	});
+});
+describe("Parser helper should handle 'next' (pol)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle 'next' (pol)", () => {
+		expect(p.parse("Rev 3:1n, 4:2n").osis()).toEqual("Rev.3.1-Rev.3.2,Rev.4.2-Rev.4.3");
+		expect(p.parse("Jude 1n, 2n").osis()).toEqual("Jude.1.1-Jude.1.2,Jude.1.2-Jude.1.3");
+		expect(p.parse("Gen 1:31n").osis()).toEqual("Gen.1.31-Gen.2.1");
+	});
+});
+describe("Parser helper should handle translations (pol)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle translations (pol)", () => {
+		expect(p.parse("Lev 1 (NP)").osis_and_translations()).toEqual([["Lev.1","NP"]]);
+	});
+});
+describe("Parser helper should handle book ranges (pol)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book ranges (pol)", () => {
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("Pierwsza List św. Jana do Trzecia List św. Jana").osis()).toEqual("1John.1-3John.1");
+	});
+});
+describe("Parser helper should handle boundaries (pol)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle boundaries (pol)", () => {
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona"});
+		expect(p.parse("—Matt—").osis()).toEqual("Matt.1-Matt.28");
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona"});
+		expect(p.parse("“Matt 1:1”").osis()).toEqual("Matt.1.1");
+	});
+});
 describe("Custom tests (pol)", () => {
 	let p = {}
 	beforeEach(() => {

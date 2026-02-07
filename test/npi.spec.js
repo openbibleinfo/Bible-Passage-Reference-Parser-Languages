@@ -1093,3 +1093,18 @@ describe("Localized book 2Pet (npi)", () => {
 		expect(p.parse("२. पत्र 1:1").osis()).toEqual("2Pet.1.1");
 	});
 });
+describe("Parser helper should handle book ranges (npi)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book ranges (npi)", () => {
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("यूहन्नाको पहिलो पत्र - यूहन्नाको तेस्रो पत्र").osis()).toEqual("1John.1-3John.1");
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("यूहन्नाको पहिलो पत्र – यूहन्नाको तेस्रो पत्र").osis()).toEqual("1John.1-3John.1");
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("यूहन्नाको पहिलो पत्र — यूहन्नाको तेस्रो पत्र").osis()).toEqual("1John.1-3John.1");
+	});
+});

@@ -1761,3 +1761,119 @@ describe("Localized book 1Macc (hun)", () => {
 		expect(p.parse("1 Mak 1:1").osis()).toEqual("1Macc.1.1");
 	});
 });
+describe("Parser helper should handle ranges (hun)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle ranges (hun)", () => {
+		expect(p.parse("Titus 1:1 köv 2").osis()).toEqual("Titus.1.1-Titus.1.2");
+		expect(p.parse("Matt 1köv2").osis()).toEqual("Matt.1-Matt.2");
+		expect(p.parse("Phlm 2 köv 3").osis()).toEqual("Phlm.1.2-Phlm.1.3");
+	});
+});
+describe("Parser helper should handle chapters (hun)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle chapters (hun)", () => {
+		expect(p.parse("Titus 1:1, fejezetében 2").osis()).toEqual("Titus.1.1,Titus.2");
+		expect(p.parse("Matt 3:4 fejezetében 6").osis()).toEqual("Matt.3.4,Matt.6");
+		expect(p.parse("Titus 1:1, fejezet 2").osis()).toEqual("Titus.1.1,Titus.2");
+		expect(p.parse("Matt 3:4 fejezet 6").osis()).toEqual("Matt.3.4,Matt.6");
+		expect(p.parse("Titus 1:1, fej. 2").osis()).toEqual("Titus.1.1,Titus.2");
+		expect(p.parse("Matt 3:4 fej. 6").osis()).toEqual("Matt.3.4,Matt.6");
+		expect(p.parse("Titus 1:1, fej 2").osis()).toEqual("Titus.1.1,Titus.2");
+		expect(p.parse("Matt 3:4 fej 6").osis()).toEqual("Matt.3.4,Matt.6");
+	});
+});
+describe("Parser helper should handle verses (hun)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle verses (hun)", () => {
+		expect(p.parse("Exod 1:1 versekre 3").osis()).toEqual("Exod.1.1,Exod.1.3");
+		expect(p.parse("Phlm versekre 6").osis()).toEqual("Phlm.1.6");
+		expect(p.parse("Exod 1:1 versek 3").osis()).toEqual("Exod.1.1,Exod.1.3");
+		expect(p.parse("Phlm versek 6").osis()).toEqual("Phlm.1.6");
+		expect(p.parse("Exod 1:1 vers. 3").osis()).toEqual("Exod.1.1,Exod.1.3");
+		expect(p.parse("Phlm vers. 6").osis()).toEqual("Phlm.1.6");
+		expect(p.parse("Exod 1:1 vers 3").osis()).toEqual("Exod.1.1,Exod.1.3");
+		expect(p.parse("Phlm vers 6").osis()).toEqual("Phlm.1.6");
+	});
+});
+describe("Parser helper should handle 'and' (hun)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle 'and' (hun)", () => {
+		expect(p.parse("Exod 1:1 és 3").osis()).toEqual("Exod.1.1,Exod.1.3");
+		expect(p.parse("Phlm 2 és 6").osis()).toEqual("Phlm.1.2,Phlm.1.6");
+		expect(p.parse("Exod 1:1 vö 3").osis()).toEqual("Exod.1.1,Exod.1.3");
+		expect(p.parse("Phlm 2 vö 6").osis()).toEqual("Phlm.1.2,Phlm.1.6");
+		expect(p.parse("Exod 1:1 vagy 3").osis()).toEqual("Exod.1.1,Exod.1.3");
+		expect(p.parse("Phlm 2 vagy 6").osis()).toEqual("Phlm.1.2,Phlm.1.6");
+	});
+});
+describe("Parser helper should handle titles (hun)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle titles (hun)", () => {
+		expect(p.parse("Ps 3 cím, 4:2, 5:cím").osis()).toEqual("Ps.3.1,Ps.4.2,Ps.5.1");
+	});
+});
+describe("Parser helper should handle 'ff' (hun)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle 'ff' (hun)", () => {
+		expect(p.parse("Rev 3kk, 4:2kk").osis()).toEqual("Rev.3-Rev.22,Rev.4.2-Rev.4.11");
+	});
+});
+describe("Parser helper should handle translations (hun)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle translations (hun)", () => {
+		expect(p.parse("Lev 1 (KAR)").osis_and_translations()).toEqual([["Lev.1","KAR"]]);
+		expect(p.parse("Lev 1 (ERV)").osis_and_translations()).toEqual([["Lev.1","ERV"]]);
+	});
+});
+describe("Parser helper should handle book ranges (hun)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book ranges (hun)", () => {
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("János I köv János III").osis()).toEqual("1John.1-3John.1");
+	});
+});
+describe("Parser helper should handle boundaries (hun)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle boundaries (hun)", () => {
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona"});
+		expect(p.parse("—Matt—").osis()).toEqual("Matt.1-Matt.28");
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona"});
+		expect(p.parse("“Matt 1:1”").osis()).toEqual("Matt.1.1");
+	});
+});

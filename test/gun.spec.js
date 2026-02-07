@@ -884,3 +884,13 @@ describe("Localized book Jude (gun)", () => {
 		expect(p.parse("Jud 1:1").osis()).toEqual("Jude.1.1");
 	});
 });
+describe("Parser helper should handle translations (gun)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle translations (gun)", () => {
+		expect(p.parse("Lev 1 (GUNBIBLE)").osis_and_translations()).toEqual([["Lev.1","GUNBIBLE"]]);
+	});
+});

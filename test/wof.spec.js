@@ -65,3 +65,23 @@ describe("Localized book John (wof)", () => {
 		expect(p.parse("John 1:1").osis()).toEqual("John.1.1");
 	});
 });
+describe("Parser helper should handle verses (wof)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle verses (wof)", () => {
+		expect(p.parse("Exod 1:1 verse 3").osis()).toEqual("Exod.1.1,Exod.1.3");
+	});
+});
+describe("Parser helper should handle 'and' (wof)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle 'and' (wof)", () => {
+		expect(p.parse("Exod 1:1 & 3").osis()).toEqual("Exod.1.1,Exod.1.3");
+	});
+});

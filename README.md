@@ -23,6 +23,11 @@ npm install
 bin/compile.sh
 node bin/build_lang.js eng
 ```
+Build a cross-language parser:
+```
+node bin/build_lang.js --cross eng spa --out eng_spa
+node bin/build_spec.js eng_spa
+```
 Generate specs:
 ```
 node bin/build_spec.js        # all languages
@@ -30,8 +35,14 @@ node bin/build_spec.js eng    # single language
 ```
 Build all languages:
 ```
+
+Cross-language options:
+- `--cross`: enable cross-language build mode.
+- `--out <code>`: output language code (must not be 3 characters).
+- `--merge-mode append|smart`: book merge mode (default `append`).
 node bin/build_all_langs.js          # parallel build + specs + tests
 node bin/build_all_langs.js -j 4     # set worker count
+node bin/build_all_langs.js --test-only   # skip lang rebuild, build specs + run tests
 ```
 
 ## Output format
@@ -249,6 +260,27 @@ Mappings used by tooling and for compatibility with the older abbreviations used
 | vi | vie | Vietnamese |
 | yo | yor | Yoruba |
 | zh | zho | Chinese |
+
+## Todo
+
+1. Build multiple languages into a single file usable by Bible Passage Reference Parser.
+2. Move spec building process into the main build_lang script so that it's a one-step process.
+3. Add more translation-specific versification.
+4. Improve English translation representation.
+5. Add additional tests from 01.add_lang.pl:
+
+```perl
+add_range_tests();
+add_chapter_tests();
+add_verse_tests();
+add_sequence_tests();
+add_title_tests();
+add_ff_tests();
+add_next_tests();
+add_trans_tests();
+add_book_range_tests();
+add_boundary_tests();
+```
 
 ## Changelog
 

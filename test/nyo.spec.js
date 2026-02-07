@@ -977,3 +977,29 @@ describe("Localized book 2Macc (nyo)", () => {
 		expect(p.parse("2Mak 1:1").osis()).toEqual("2Macc.1.1");
 	});
 });
+describe("Parser helper should handle translations (nyo)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle translations (nyo)", () => {
+		expect(p.parse("Lev 1 (BRR64)").osis_and_translations()).toEqual([["Lev.1","BRR64"]]);
+		expect(p.parse("Lev 1 (BRR2008)").osis_and_translations()).toEqual([["Lev.1","BRR2008"]]);
+	});
+});
+describe("Parser helper should handle book ranges (nyo)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book ranges (nyo)", () => {
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("1Yohana - 3Yohana").osis()).toEqual("1John.1-3John.1");
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("1Yohana – 3Yohana").osis()).toEqual("1John.1-3John.1");
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("1Yohana — 3Yohana").osis()).toEqual("1John.1-3John.1");
+	});
+});

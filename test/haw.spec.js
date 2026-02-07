@@ -710,3 +710,18 @@ describe("Localized book Jude (haw)", () => {
 		expect(p.parse("ʻO Ka ʻEpisetole Hoʻolaha A Iuda 1:1").osis()).toEqual("Jude.1.1");
 	});
 });
+describe("Parser helper should handle book ranges (haw)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book ranges (haw)", () => {
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("Ka Ka ʻEpisetole Hoʻolaha Mua A Ioane - ʻO Ka ʻEpisetole Kolu A Ioane").osis()).toEqual("1John.1-3John.1");
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("Ka Ka ʻEpisetole Hoʻolaha Mua A Ioane – ʻO Ka ʻEpisetole Kolu A Ioane").osis()).toEqual("1John.1-3John.1");
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("Ka Ka ʻEpisetole Hoʻolaha Mua A Ioane — ʻO Ka ʻEpisetole Kolu A Ioane").osis()).toEqual("1John.1-3John.1");
+	});
+});

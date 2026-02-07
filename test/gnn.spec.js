@@ -512,3 +512,18 @@ describe("Localized book Jude (gnn)", () => {
 		expect(p.parse("Djotkuŋu Dhäruk 1:1").osis()).toEqual("Jude.1.1");
 	});
 });
+describe("Parser helper should handle book ranges (gnn)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book ranges (gnn)", () => {
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("Djonguŋu Namba 1 Dhäruk Djuy'yunara - Djonguŋu Namba 3Na Dhäruk Djuy'yunara").osis()).toEqual("1John.1-3John.1");
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("Djonguŋu Namba 1 Dhäruk Djuy'yunara – Djonguŋu Namba 3Na Dhäruk Djuy'yunara").osis()).toEqual("1John.1-3John.1");
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("Djonguŋu Namba 1 Dhäruk Djuy'yunara — Djonguŋu Namba 3Na Dhäruk Djuy'yunara").osis()).toEqual("1John.1-3John.1");
+	});
+});

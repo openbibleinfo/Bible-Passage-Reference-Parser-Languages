@@ -35,7 +35,14 @@ function parseJobs(argv) {
 	return Number.isFinite(parsed) && parsed > 0 ? parsed : null;
 }
 
-const jobs = parseJobs(process.argv.slice(2)) ?? Math.max(1, Math.min(4, cpus().length));
+function parseArgs(argv) {
+	const jobs = parseJobs(argv) ?? Math.max(1, Math.min(4, cpus().length));
+	const testOnly = argv.includes("--test-only");
+	return { jobs, testOnly };
+}
+
+const args = parseArgs(process.argv.slice(2));
+const jobs = args.jobs;
 let hadError = false;
 let nextIndex = 0;
 let completedCount = 0;
@@ -54,9 +61,11 @@ async function runNext() {
 	const lang = file.slice(0, 3);
 	let error = null;
 	try {
-		await execFileAsync("node", [buildLangPath, lang], {
-			maxBuffer: 50 * 1024 * 1024
-		});
+		if (!args.testOnly) {
+			await execFileAsync("node", [buildLangPath, lang], {
+				maxBuffer: 50 * 1024 * 1024
+			});
+		}
 		await execFileAsync("node", [buildSpecPath, lang], {
 			maxBuffer: 50 * 1024 * 1024
 		});
@@ -69,9 +78,10 @@ async function runNext() {
 	} finally {
 		const status = nextStatus();
 		if (error) {
-			console.error(`[${status}] Failed to build ${lang}:`, error);
+			console.error(`[${status}] Failed for ${lang}:`, error);
 		} else {
-			console.log(`[${status}] Built ${lang}`);
+			const mode = args.testOnly ? "Built spec + tested" : "Built + tested";
+			console.log(`[${status}] ${mode} ${lang}`);
 		}
 	}
 	await runNext();

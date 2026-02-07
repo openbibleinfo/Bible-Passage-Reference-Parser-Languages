@@ -1263,3 +1263,18 @@ describe("Preferred book names (ory)", () => {
 		expect(p.parse("ରୋମୀ. 1:1").osis()).toEqual("Rom.1.1");
 	});
 });
+describe("Parser helper should handle book ranges (ory)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book ranges (ory)", () => {
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("ଯୋହନଙ୍କ ପ୍ରଥମ ପତ୍ର - ଯୋହନଙ୍କ ତୃତୀୟ ପତ୍ର").osis()).toEqual("1John.1-3John.1");
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("ଯୋହନଙ୍କ ପ୍ରଥମ ପତ୍ର – ଯୋହନଙ୍କ ତୃତୀୟ ପତ୍ର").osis()).toEqual("1John.1-3John.1");
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("ଯୋହନଙ୍କ ପ୍ରଥମ ପତ୍ର — ଯୋହନଙ୍କ ତୃତୀୟ ପତ୍ର").osis()).toEqual("1John.1-3John.1");
+	});
+});

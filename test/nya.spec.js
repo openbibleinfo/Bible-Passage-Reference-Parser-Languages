@@ -1110,3 +1110,31 @@ describe("Localized book 2Macc (nya)", () => {
 		expect(p.parse("2Am. 1:1").osis()).toEqual("2Macc.1.1");
 	});
 });
+describe("Parser helper should handle translations (nya)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle translations (nya)", () => {
+		expect(p.parse("Lev 1 (BLP-2018)").osis_and_translations()).toEqual([["Lev.1","BLP-2018"]]);
+		expect(p.parse("Lev 1 (BLY-DC)").osis_and_translations()).toEqual([["Lev.1","BLY-DC"]]);
+		expect(p.parse("Lev 1 (BLPB2014)").osis_and_translations()).toEqual([["Lev.1","BLPB2014"]]);
+		expect(p.parse("Lev 1 (CCL)").osis_and_translations()).toEqual([["Lev.1","CCL"]]);
+	});
+});
+describe("Parser helper should handle book ranges (nya)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book ranges (nya)", () => {
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("1Yoh. - 3 Yohane").osis()).toEqual("1John.1-3John.1");
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("1Yoh. – 3 Yohane").osis()).toEqual("1John.1-3John.1");
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("1Yoh. — 3 Yohane").osis()).toEqual("1John.1-3John.1");
+	});
+});

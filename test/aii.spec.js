@@ -294,3 +294,18 @@ describe("Localized book Jude (aii)", () => {
 		expect(p.parse("ܝܗܘܕܐ 1:1").osis()).toEqual("Jude.1.1");
 	});
 });
+describe("Parser helper should handle book ranges (aii)", () => {
+	let p = {}
+	beforeEach(() => {
+		p = new bcv_parser(lang);
+		p.set_options({ book_alone_strategy: "ignore", book_sequence_strategy: "ignore", osis_compaction_strategy: "bc", captive_end_digits_strategy: "delete", testaments: "ona" });
+	});
+	it("should handle book ranges (aii)", () => {
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("ܐ ܝܘܚܢܢ - ܓ ܝܘܚܢܢ").osis()).toEqual("1John.1-3John.1");
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("ܐ ܝܘܚܢܢ – ܓ ܝܘܚܢܢ").osis()).toEqual("1John.1-3John.1");
+		p.set_options({"book_alone_strategy":"full","book_sequence_strategy":"ignore","osis_compaction_strategy":"bc","captive_end_digits_strategy":"delete","testaments":"ona","book_range_strategy":"include"});
+		expect(p.parse("ܐ ܝܘܚܢܢ — ܓ ܝܘܚܢܢ").osis()).toEqual("1John.1-3John.1");
+	});
+});
