@@ -19,8 +19,9 @@ const translationsDir = resolve(__dirname, "../translation_systems");
 const namesDir = resolve(__dirname, "../book_names/all");
 const langOutputDir = resolve(__dirname, "../lang");
 
-const langs = await getLanguageArgs(langDir);
-const yamlData = await getYamlData(langs, langDir);
+const buildArgs = await getLanguageArgs(langDir);
+const langs = buildArgs.langs;
+const yamlData = await getYamlData(langs, langDir, { cross: buildArgs.cross });
 type NormalizeMode = "none" | "combining_characters";
 const normalizeMode = (yamlData.options?.normalize ?? "combining_characters") as NormalizeMode;
 const trailingDotsMode = (yamlData.options?.trailing_dots_in_variables ?? "as_is") as "optional" | "as_is";
@@ -203,8 +204,133 @@ function expandVariableCharacters(variable: string[] | VariableItem[]) {
 	}
 	return out;
 }
-const processedBooks = mergeBooks(yamlData);
-const bookRegexps = buildBookRegexps(processedBooks, yamlData.options, normalizeMode, replaceSpacesWith);
+type ProcessedBook = {
+	osis: string | string[];
+	texts: Array<{ text: string; normalize?: "none" }>;
+	groupKey: string;
+	sourceId: number;
+	hasBefore: boolean;
+};
+
+function canonicalOsisOrder(): string[] {
+	return [
+		"Gen", "Exod", "Lev", "Num", "Deut", "Josh", "Judg", "Ruth", "1Sam", "2Sam",
+		"1Kgs", "2Kgs", "1Chr", "2Chr", "Ezra", "Neh", "Esth", "Job", "Ps", "Prov",
+		"Eccl", "Song", "Isa", "Jer", "Lam", "Ezek", "Dan", "Hos", "Joel", "Amos",
+		"Obad", "Jonah", "Mic", "Nah", "Hab", "Zeph", "Hag", "Zech", "Mal",
+		"Matt", "Mark", "Luke", "John", "Acts", "Rom", "1Cor", "2Cor", "Gal", "Eph",
+		"Phil", "Col", "1Thess", "2Thess", "1Tim", "2Tim", "Titus", "Phlm", "Heb", "Jas",
+		"1Pet", "2Pet", "1John", "2John", "3John", "Jude", "Rev",
+		"Tob", "Jdt", "GkEsth", "Wis", "Sir", "Bar", "PrAzar", "Sus", "Bel", "SgThree",
+		"EpJer", "1Macc", "2Macc", "3Macc", "4Macc", "1Esd", "2Esd", "PrMan", "AddEsth", "AddDan"
+	];
+}
+
+function collapseCrossLanguageBooks(books: ProcessedBook[]): ProcessedBook[] {
+	const osisOrder = canonicalOsisOrder();
+	const osisRank = new Map<string, number>();
+	for (let i = 0; i < osisOrder.length; i += 1) {
+		osisRank.set(osisOrder[i], i);
+	}
+
+	type TokenOwner = {
+		osis: string[];
+		sourceId: number;
+		hasBefore: boolean;
+		spec: { text: string; normalize?: "none" };
+	};
+	const tokenOwners = new Map<string, TokenOwner[]>();
+
+	for (const book of books) {
+		const osisList = Array.isArray(book.osis) ? book.osis : [book.osis];
+		for (const spec of book.texts) {
+			const key = `${spec.text}\u0000${spec.normalize ?? ""}`;
+			const row = tokenOwners.get(key) ?? [];
+			row.push({
+				osis: osisList,
+				sourceId: book.sourceId,
+				hasBefore: book.hasBefore,
+				spec
+			});
+			tokenOwners.set(key, row);
+		}
+	}
+
+	type Bucket = {
+		osis: string[];
+		texts: Array<{ text: string; normalize?: "none" }>;
+		sourceId: number;
+		hasBefore: boolean;
+	};
+	const buckets = new Map<string, Bucket>();
+
+	for (const owners of tokenOwners.values()) {
+		const osisSource = new Map<string, number>();
+		let hasBefore = false;
+		let firstSource = Number.MAX_SAFE_INTEGER;
+		const spec = owners[0].spec;
+		for (const owner of owners) {
+			hasBefore = hasBefore || owner.hasBefore;
+			firstSource = Math.min(firstSource, owner.sourceId);
+			for (const osis of owner.osis) {
+				const current = osisSource.get(osis);
+				if (current == null || owner.sourceId < current) {
+					osisSource.set(osis, owner.sourceId);
+				}
+			}
+		}
+		const sortedOsis = [...osisSource.keys()].sort((a, b) => {
+			const sourceA = osisSource.get(a) ?? Number.MAX_SAFE_INTEGER;
+			const sourceB = osisSource.get(b) ?? Number.MAX_SAFE_INTEGER;
+			if (sourceA !== sourceB) return sourceA - sourceB;
+			const rankA = osisRank.get(a) ?? Number.MAX_SAFE_INTEGER;
+			const rankB = osisRank.get(b) ?? Number.MAX_SAFE_INTEGER;
+			if (rankA !== rankB) return rankA - rankB;
+			return a.localeCompare(b);
+		});
+		const bucketKey = `${sortedOsis.join("|")}\u0000${spec.normalize ?? ""}`;
+		const bucket = buckets.get(bucketKey);
+		if (!bucket) {
+			buckets.set(bucketKey, {
+				osis: sortedOsis,
+				texts: [spec],
+				sourceId: firstSource,
+				hasBefore
+			});
+		} else {
+			bucket.sourceId = Math.min(bucket.sourceId, firstSource);
+			bucket.hasBefore = bucket.hasBefore || hasBefore;
+			bucket.texts.push(spec);
+		}
+	}
+
+	const out: ProcessedBook[] = [...buckets.values()].map((bucket) => {
+		const unique = new Map<string, { text: string; normalize?: "none" }>();
+		for (const spec of bucket.texts) {
+			unique.set(`${spec.text}\u0000${spec.normalize ?? ""}`, spec);
+		}
+		return {
+			osis: bucket.osis,
+			texts: [...unique.values()],
+			groupKey: "",
+			sourceId: bucket.sourceId,
+			hasBefore: bucket.hasBefore
+		};
+	});
+	return out;
+}
+
+const mergedBooks = mergeBooks(yamlData) as ProcessedBook[];
+const processedBooks = buildArgs.cross && buildArgs.mergeMode === "smart"
+	? collapseCrossLanguageBooks(mergedBooks)
+	: mergedBooks;
+const bookRegexps = buildBookRegexps(
+	processedBooks,
+	yamlData.options,
+	normalizeMode,
+	replaceSpacesWith,
+	buildArgs.cross
+);
 
 const { texts: translationTexts } = parseTranslationRows(yamlData.translations ?? []);
 const translationPattern = buildTranslationPattern(translationTexts, normalizeMode, replaceSpacesWith);
@@ -789,7 +915,7 @@ const bookVariants = processedBooks.map((book) => {
 	};
 });
 const yamlOutput = YAML.stringify(bookVariants, { lineWidth: 0 });
-const outputLang = langs[0];
+const outputLang = buildArgs.outputLang;
 const jsOutput = `${regexpsClassOutput}\n\n${translationsClassOutput}\n\n${grammarOptionsOutput}${bundleOutput}`;
 
 await mkdir(namesDir, { recursive: true });

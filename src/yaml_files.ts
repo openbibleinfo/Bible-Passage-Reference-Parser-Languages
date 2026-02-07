@@ -17,7 +17,56 @@ type MergedLanguageData = {
 	translations?: any[];
 }
 
-export async function getYamlData(langs: string[], langDir: string): Promise<MergedLanguageData> {
+type GetYamlDataOptions = {
+	cross?: boolean;
+};
+
+function dedupeArrayItems(items: any[]): any[] {
+	const seen = new Set<string>();
+	const out: any[] = [];
+	for (const item of items) {
+		const key = JSON.stringify(item);
+		if (seen.has(key)) continue;
+		seen.add(key);
+		out.push(item);
+	}
+	return out;
+}
+
+function mergeVariables(base: Record<string, any>, incoming: Record<string, any>) {
+	for (const [key, incomingValue] of Object.entries(incoming)) {
+		if (!(key in base)) {
+			base[key] = incomingValue;
+			continue;
+		}
+		const baseValue = base[key];
+		if (Array.isArray(baseValue) && Array.isArray(incomingValue)) {
+			base[key] = dedupeArrayItems([...baseValue, ...incomingValue]);
+			continue;
+		}
+		base[key] = incomingValue;
+	}
+}
+
+function mergeCrossOptions(base: Record<string, any>, incoming?: Record<string, any>) {
+	if (!incoming) return;
+	const additiveKeys = new Set([
+		"expand_characters",
+		"alternate_straight_apostrophe_characters"
+	]);
+	for (const [key, incomingValue] of Object.entries(incoming)) {
+		if (!additiveKeys.has(key)) {
+			continue;
+		}
+		if (!Array.isArray(incomingValue)) {
+			continue;
+		}
+		const current = Array.isArray(base[key]) ? base[key] : [];
+		base[key] = dedupeArrayItems([...current, ...incomingValue]);
+	}
+}
+
+export async function getYamlData(langs: string[], langDir: string, config: GetYamlDataOptions = {}): Promise<MergedLanguageData> {
 	// Start with empty defaults
 	let result: MergedLanguageData = {
 		variables: {},
@@ -25,6 +74,7 @@ export async function getYamlData(langs: string[], langDir: string): Promise<Mer
 		books: [],
 		translations: []
 	};
+	const isCross = Boolean(config.cross);
 
 	// Load _defaults.yaml
 	try {
@@ -59,6 +109,21 @@ export async function getYamlData(langs: string[], langDir: string): Promise<Mer
 			}
 			if (data.translations) {
 				result.translations = data.translations;
+			}
+		} else if (isCross) {
+			if (data.variables) {
+				mergeVariables(result.variables, data.variables);
+			}
+			if (data.options) {
+				mergeCrossOptions(result.options, data.options);
+			}
+			if (data.ordinals) {
+				const current = Array.isArray(result.ordinals) ? result.ordinals : [];
+				result.ordinals = dedupeArrayItems([...current, ...data.ordinals]);
+			}
+			if (data.translations) {
+				const current = Array.isArray(result.translations) ? result.translations : [];
+				result.translations = dedupeArrayItems([...current, ...data.translations]);
 			}
 		}
 		

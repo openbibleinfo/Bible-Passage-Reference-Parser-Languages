@@ -53,7 +53,8 @@ export function buildBookRegexps(
 	processedBooks: ProcessedBook[],
 	options: Record<string, any> = {},
 	normalize: "none" | "combining_characters" = "combining_characters",
-	replaceSpacesWith: { regexp: string; replacement: string } | null = null
+	replaceSpacesWith: { regexp: string; replacement: string } | null = null,
+	strictLiterals = false
 ): BookRegexpObject[] {
 	const bookRegexps: BookRegexpObject[] = [];
 	const expandCharacters = normalizeExpandCharacters(options);
@@ -93,22 +94,26 @@ export function buildBookRegexps(
 		// Build recursive regexp pattern, moving names that get shadowed by shorter
 		// prefixes to the front as a separate alternation.
 		let patternString = "";
-		const parts: string[] = [];
-		if (expandedNoNormalize.length > 0) {
-			parts.push(buildBookPattern(expandedNoNormalize, options, "none", strictSpaces));
-		}
-		if (expandedNormal.length > 0) {
-			parts.push(buildBookPattern(expandedNormal, options, normalize, replaceSpacesWith));
-		}
-		if (parts.length === 1) {
-			patternString = parts[0];
+		if (strictLiterals) {
+			patternString = buildLiteralAlternation(namesArray, replaceSpacesWith);
 		} else {
-			patternString = `(?:${parts.join("|")})`;
-		}
-		const shadowed = findShadowedNames(namesArray, patternString, options.after_book_allowed_characters?.regexp);
-		if (shadowed.length > 0 && shadowed.length < namesArray.length) {
-			const literal = buildLiteralAlternation(shadowed, replaceSpacesWith);
-			patternString = `(?:${literal}|${patternString})`;
+			const parts: string[] = [];
+			if (expandedNoNormalize.length > 0) {
+				parts.push(buildBookPattern(expandedNoNormalize, options, "none", strictSpaces));
+			}
+			if (expandedNormal.length > 0) {
+				parts.push(buildBookPattern(expandedNormal, options, normalize, replaceSpacesWith));
+			}
+			if (parts.length === 1) {
+				patternString = parts[0];
+			} else {
+				patternString = `(?:${parts.join("|")})`;
+			}
+			const shadowed = findShadowedNames(namesArray, patternString, options.after_book_allowed_characters?.regexp);
+			if (shadowed.length > 0 && shadowed.length < namesArray.length) {
+				const literal = buildLiteralAlternation(shadowed, replaceSpacesWith);
+				patternString = `(?:${literal}|${patternString})`;
+			}
 		}
 		
 		// Determine testament(s) and create testament_books if needed

@@ -5,14 +5,68 @@ async function getLanguageArgs(langDir2) {
   args.shift();
   args.shift();
   const langs2 = [];
-  for (const arg of args) {
-    const fileExists = await doesFileExist(`${langDir2}/${arg}.yaml`);
-    langs2.push(arg);
+  const positional = [];
+  let cross = false;
+  let outputLang2 = "";
+  let mergeMode = "append";
+  for (let i = 0; i < args.length; i += 1) {
+    const arg = args[i];
+    if (arg === "--cross") {
+      cross = true;
+      while (i + 1 < args.length && !String(args[i + 1]).startsWith("-")) {
+        langs2.push(String(args[i + 1]));
+        i += 1;
+      }
+      continue;
+    }
+    if (arg === "--out" || arg === "-o") {
+      outputLang2 = String(args[i + 1] ?? "");
+      i += 1;
+      continue;
+    }
+    if (arg === "--merge-mode") {
+      const value = String(args[i + 1] ?? "");
+      if (value !== "smart" && value !== "append") {
+        throw new Error(`Invalid merge mode: ${value}. Expected "smart" or "append".`);
+      }
+      mergeMode = value;
+      i += 1;
+      continue;
+    }
+    if (arg.startsWith("-")) {
+      throw new Error(`Unknown option: ${arg}`);
+    }
+    positional.push(arg);
+  }
+  if (!cross) {
+    langs2.push(...positional);
   }
   if (langs2.length === 0) {
-    throw new Error("Please add at least one language code as an argument. For example: `node build_lang.ts eng`");
+    throw new Error("Please add at least one language code as an argument. For example: `node build_lang.ts eng`.");
   }
-  return langs2;
+  for (const lang of langs2) {
+    await doesFileExist(`${langDir2}/${lang}.yaml`);
+  }
+  if (cross) {
+    if (positional.length > 0) {
+      throw new Error(`In cross mode, language codes must follow --cross. Unexpected positional args: ${positional.join(", ")}`);
+    }
+    if (!outputLang2) {
+      throw new Error("Cross-language builds require an output code: --out <code>");
+    }
+    if (outputLang2.length === 3) {
+      throw new Error(`Cross-language output code must not be 3 characters: ${outputLang2}`);
+    }
+    if (!/^[a-zA-Z0-9_]+$/.test(outputLang2)) {
+      throw new Error(`Invalid output code: ${outputLang2}`);
+    }
+    if (langs2.length < 2) {
+      throw new Error("Cross-language builds require at least two input languages.");
+    }
+  } else {
+    outputLang2 = outputLang2 || langs2[0];
+  }
+  return { langs: langs2, outputLang: outputLang2, cross, mergeMode };
 }
 async function doesFileExist(path) {
   try {
@@ -26,13 +80,56 @@ async function doesFileExist(path) {
 // src/yaml_files.ts
 import { readFile } from "fs/promises";
 import YAML from "yaml";
-async function getYamlData(langs2, langDir2) {
+function dedupeArrayItems(items) {
+  const seen = /* @__PURE__ */ new Set();
+  const out = [];
+  for (const item of items) {
+    const key = JSON.stringify(item);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(item);
+  }
+  return out;
+}
+function mergeVariables(base, incoming) {
+  for (const [key, incomingValue] of Object.entries(incoming)) {
+    if (!(key in base)) {
+      base[key] = incomingValue;
+      continue;
+    }
+    const baseValue = base[key];
+    if (Array.isArray(baseValue) && Array.isArray(incomingValue)) {
+      base[key] = dedupeArrayItems([...baseValue, ...incomingValue]);
+      continue;
+    }
+    base[key] = incomingValue;
+  }
+}
+function mergeCrossOptions(base, incoming) {
+  if (!incoming) return;
+  const additiveKeys = /* @__PURE__ */ new Set([
+    "expand_characters",
+    "alternate_straight_apostrophe_characters"
+  ]);
+  for (const [key, incomingValue] of Object.entries(incoming)) {
+    if (!additiveKeys.has(key)) {
+      continue;
+    }
+    if (!Array.isArray(incomingValue)) {
+      continue;
+    }
+    const current = Array.isArray(base[key]) ? base[key] : [];
+    base[key] = dedupeArrayItems([...current, ...incomingValue]);
+  }
+}
+async function getYamlData(langs2, langDir2, config = {}) {
   let result = {
     variables: {},
     options: {},
     books: [],
     translations: []
   };
+  const isCross = Boolean(config.cross);
   try {
     const defaultContent = await getFileContent(`${langDir2}/_defaults.yaml`);
     const defaultData = YAML.parse(defaultContent);
@@ -61,6 +158,21 @@ async function getYamlData(langs2, langDir2) {
       }
       if (data.translations) {
         result.translations = data.translations;
+      }
+    } else if (isCross) {
+      if (data.variables) {
+        mergeVariables(result.variables, data.variables);
+      }
+      if (data.options) {
+        mergeCrossOptions(result.options, data.options);
+      }
+      if (data.ordinals) {
+        const current = Array.isArray(result.ordinals) ? result.ordinals : [];
+        result.ordinals = dedupeArrayItems([...current, ...data.ordinals]);
+      }
+      if (data.translations) {
+        const current = Array.isArray(result.translations) ? result.translations : [];
+        result.translations = dedupeArrayItems([...current, ...data.translations]);
       }
     }
     if (data.books) {
@@ -535,7 +647,7 @@ function normalizeExpandCharacters(options) {
   }
   return out;
 }
-function buildBookRegexps(processedBooks2, options = {}, normalize = "combining_characters", replaceSpacesWith2 = null) {
+function buildBookRegexps(processedBooks2, options = {}, normalize = "combining_characters", replaceSpacesWith2 = null, strictLiterals = false) {
   const bookRegexps2 = [];
   const expandCharacters2 = normalizeExpandCharacters(options);
   const orderedBooks = reorderNumberedBooks(processedBooks2);
@@ -566,22 +678,26 @@ function buildBookRegexps(processedBooks2, options = {}, normalize = "combining_
       continue;
     }
     let patternString = "";
-    const parts = [];
-    if (expandedNoNormalize.length > 0) {
-      parts.push(buildBookPattern(expandedNoNormalize, options, "none", strictSpaces));
-    }
-    if (expandedNormal.length > 0) {
-      parts.push(buildBookPattern(expandedNormal, options, normalize, replaceSpacesWith2));
-    }
-    if (parts.length === 1) {
-      patternString = parts[0];
+    if (strictLiterals) {
+      patternString = buildLiteralAlternation(namesArray, replaceSpacesWith2);
     } else {
-      patternString = `(?:${parts.join("|")})`;
-    }
-    const shadowed = findShadowedNames(namesArray, patternString, options.after_book_allowed_characters?.regexp);
-    if (shadowed.length > 0 && shadowed.length < namesArray.length) {
-      const literal = buildLiteralAlternation(shadowed, replaceSpacesWith2);
-      patternString = `(?:${literal}|${patternString})`;
+      const parts = [];
+      if (expandedNoNormalize.length > 0) {
+        parts.push(buildBookPattern(expandedNoNormalize, options, "none", strictSpaces));
+      }
+      if (expandedNormal.length > 0) {
+        parts.push(buildBookPattern(expandedNormal, options, normalize, replaceSpacesWith2));
+      }
+      if (parts.length === 1) {
+        patternString = parts[0];
+      } else {
+        patternString = `(?:${parts.join("|")})`;
+      }
+      const shadowed = findShadowedNames(namesArray, patternString, options.after_book_allowed_characters?.regexp);
+      if (shadowed.length > 0 && shadowed.length < namesArray.length) {
+        const literal = buildLiteralAlternation(shadowed, replaceSpacesWith2);
+        patternString = `(?:${literal}|${patternString})`;
+      }
     }
     const osisArray = Array.isArray(book.osis) ? book.osis : [book.osis];
     const testaments = /* @__PURE__ */ new Set();
@@ -917,8 +1033,9 @@ var langDir = resolve(__dirname, "../data");
 var translationsDir = resolve(__dirname, "../translation_systems");
 var namesDir = resolve(__dirname, "../book_names/all");
 var langOutputDir = resolve(__dirname, "../lang");
-var langs = await getLanguageArgs(langDir);
-var yamlData = await getYamlData(langs, langDir);
+var buildArgs = await getLanguageArgs(langDir);
+var langs = buildArgs.langs;
+var yamlData = await getYamlData(langs, langDir, { cross: buildArgs.cross });
 var normalizeMode = yamlData.options?.normalize ?? "combining_characters";
 var trailingDotsMode = yamlData.options?.trailing_dots_in_variables ?? "as_is";
 var replaceSpacesWith = (() => {
@@ -1035,8 +1152,181 @@ function expandVariableCharacters(variable) {
   }
   return out;
 }
-var processedBooks = mergeBooks(yamlData);
-var bookRegexps = buildBookRegexps(processedBooks, yamlData.options, normalizeMode, replaceSpacesWith);
+function canonicalOsisOrder() {
+  return [
+    "Gen",
+    "Exod",
+    "Lev",
+    "Num",
+    "Deut",
+    "Josh",
+    "Judg",
+    "Ruth",
+    "1Sam",
+    "2Sam",
+    "1Kgs",
+    "2Kgs",
+    "1Chr",
+    "2Chr",
+    "Ezra",
+    "Neh",
+    "Esth",
+    "Job",
+    "Ps",
+    "Prov",
+    "Eccl",
+    "Song",
+    "Isa",
+    "Jer",
+    "Lam",
+    "Ezek",
+    "Dan",
+    "Hos",
+    "Joel",
+    "Amos",
+    "Obad",
+    "Jonah",
+    "Mic",
+    "Nah",
+    "Hab",
+    "Zeph",
+    "Hag",
+    "Zech",
+    "Mal",
+    "Matt",
+    "Mark",
+    "Luke",
+    "John",
+    "Acts",
+    "Rom",
+    "1Cor",
+    "2Cor",
+    "Gal",
+    "Eph",
+    "Phil",
+    "Col",
+    "1Thess",
+    "2Thess",
+    "1Tim",
+    "2Tim",
+    "Titus",
+    "Phlm",
+    "Heb",
+    "Jas",
+    "1Pet",
+    "2Pet",
+    "1John",
+    "2John",
+    "3John",
+    "Jude",
+    "Rev",
+    "Tob",
+    "Jdt",
+    "GkEsth",
+    "Wis",
+    "Sir",
+    "Bar",
+    "PrAzar",
+    "Sus",
+    "Bel",
+    "SgThree",
+    "EpJer",
+    "1Macc",
+    "2Macc",
+    "3Macc",
+    "4Macc",
+    "1Esd",
+    "2Esd",
+    "PrMan",
+    "AddEsth",
+    "AddDan"
+  ];
+}
+function collapseCrossLanguageBooks(books) {
+  const osisOrder = canonicalOsisOrder();
+  const osisRank = /* @__PURE__ */ new Map();
+  for (let i = 0; i < osisOrder.length; i += 1) {
+    osisRank.set(osisOrder[i], i);
+  }
+  const tokenOwners = /* @__PURE__ */ new Map();
+  for (const book of books) {
+    const osisList = Array.isArray(book.osis) ? book.osis : [book.osis];
+    for (const spec of book.texts) {
+      const key = `${spec.text}\0${spec.normalize ?? ""}`;
+      const row = tokenOwners.get(key) ?? [];
+      row.push({
+        osis: osisList,
+        sourceId: book.sourceId,
+        hasBefore: book.hasBefore,
+        spec
+      });
+      tokenOwners.set(key, row);
+    }
+  }
+  const buckets = /* @__PURE__ */ new Map();
+  for (const owners of tokenOwners.values()) {
+    const osisSource = /* @__PURE__ */ new Map();
+    let hasBefore = false;
+    let firstSource = Number.MAX_SAFE_INTEGER;
+    const spec = owners[0].spec;
+    for (const owner of owners) {
+      hasBefore = hasBefore || owner.hasBefore;
+      firstSource = Math.min(firstSource, owner.sourceId);
+      for (const osis of owner.osis) {
+        const current = osisSource.get(osis);
+        if (current == null || owner.sourceId < current) {
+          osisSource.set(osis, owner.sourceId);
+        }
+      }
+    }
+    const sortedOsis = [...osisSource.keys()].sort((a, b) => {
+      const sourceA = osisSource.get(a) ?? Number.MAX_SAFE_INTEGER;
+      const sourceB = osisSource.get(b) ?? Number.MAX_SAFE_INTEGER;
+      if (sourceA !== sourceB) return sourceA - sourceB;
+      const rankA = osisRank.get(a) ?? Number.MAX_SAFE_INTEGER;
+      const rankB = osisRank.get(b) ?? Number.MAX_SAFE_INTEGER;
+      if (rankA !== rankB) return rankA - rankB;
+      return a.localeCompare(b);
+    });
+    const bucketKey = `${sortedOsis.join("|")}\0${spec.normalize ?? ""}`;
+    const bucket = buckets.get(bucketKey);
+    if (!bucket) {
+      buckets.set(bucketKey, {
+        osis: sortedOsis,
+        texts: [spec],
+        sourceId: firstSource,
+        hasBefore
+      });
+    } else {
+      bucket.sourceId = Math.min(bucket.sourceId, firstSource);
+      bucket.hasBefore = bucket.hasBefore || hasBefore;
+      bucket.texts.push(spec);
+    }
+  }
+  const out = [...buckets.values()].map((bucket) => {
+    const unique = /* @__PURE__ */ new Map();
+    for (const spec of bucket.texts) {
+      unique.set(`${spec.text}\0${spec.normalize ?? ""}`, spec);
+    }
+    return {
+      osis: bucket.osis,
+      texts: [...unique.values()],
+      groupKey: "",
+      sourceId: bucket.sourceId,
+      hasBefore: bucket.hasBefore
+    };
+  });
+  return out;
+}
+var mergedBooks = mergeBooks(yamlData);
+var processedBooks = buildArgs.cross && buildArgs.mergeMode === "smart" ? collapseCrossLanguageBooks(mergedBooks) : mergedBooks;
+var bookRegexps = buildBookRegexps(
+  processedBooks,
+  yamlData.options,
+  normalizeMode,
+  replaceSpacesWith,
+  buildArgs.cross
+);
 var { texts: translationTexts } = parseTranslationRows(yamlData.translations ?? []);
 var translationPattern = buildTranslationPattern(translationTexts, normalizeMode, replaceSpacesWith);
 var translationsRegexps = translationPattern ? [new RegExp(`${translationPattern}\\b`, "gi")] : [];
@@ -1575,7 +1865,7 @@ var bookVariants = processedBooks.map((book) => {
   };
 });
 var yamlOutput = YAML2.stringify(bookVariants, { lineWidth: 0 });
-var outputLang = langs[0];
+var outputLang = buildArgs.outputLang;
 var jsOutput = `${regexpsClassOutput}
 
 ${translationsClassOutput}
