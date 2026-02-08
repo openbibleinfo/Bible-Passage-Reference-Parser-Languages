@@ -6,6 +6,21 @@ import path from "path";
 import YAML from "yaml";
 import { fileURLToPath } from "url";
 import { bcv_parser } from "bible-passage-reference-parser/esm/bcv_parser.js";
+
+// src/lang_filenames.ts
+var RESERVED_THREE_LETTER_BASENAMES = /* @__PURE__ */ new Set(["con", "prn", "aux", "nul"]);
+function langCodeToFileBase(langCode) {
+  if (langCode.length !== 3) return langCode;
+  return RESERVED_THREE_LETTER_BASENAMES.has(langCode.toLowerCase()) ? `${langCode}_` : langCode;
+}
+function fileBaseToLangCode(fileBase) {
+  if (!fileBase.endsWith("_")) return fileBase;
+  const base = fileBase.slice(0, -1);
+  if (base.length !== 3) return fileBase;
+  return RESERVED_THREE_LETTER_BASENAMES.has(base.toLowerCase()) ? base : fileBase;
+}
+
+// src/build_spec.ts
 var BASE_PARSER_OPTIONS = {
   book_alone_strategy: "ignore",
   book_sequence_strategy: "ignore",
@@ -344,17 +359,17 @@ async function loadLangYaml(dataPath) {
     return { dataFileExists: false, customTests: [], langYaml: {} };
   }
 }
-async function loadPreferredNames(langCode) {
+async function loadPreferredNames(fileBase) {
   try {
-    const preferredRaw = await fs.readFile(path.join(preferredDir, `${langCode}.yaml`), "utf8");
+    const preferredRaw = await fs.readFile(path.join(preferredDir, `${fileBase}.yaml`), "utf8");
     return collectPreferredNames(YAML.parse(preferredRaw));
   } catch {
     return /* @__PURE__ */ new Map();
   }
 }
-async function loadLangModule(langCode) {
+async function loadLangModule(fileBase) {
   try {
-    return await import(path.join(repoRoot, "lang", `${langCode}.js`));
+    return await import(path.join(repoRoot, "lang", `${fileBase}.js`));
   } catch {
     return null;
   }
@@ -399,7 +414,8 @@ async function main() {
   const argLang = process.argv[2];
   let files = (await fs.readdir(namesDir)).filter((f) => f.endsWith(".yaml")).sort();
   if (argLang) {
-    files = files.filter((f) => path.basename(f, ".yaml") === argLang);
+    const fileBase = langCodeToFileBase(argLang);
+    files = files.filter((f) => path.basename(f, ".yaml") === fileBase);
     if (files.length === 0) {
       throw new Error(`No language yaml found for ${argLang}`);
     }
@@ -411,25 +427,26 @@ async function main() {
   const total = files.length;
   for (let i = 0; i < files.length; i += 1) {
     const file = files[i];
-    const langCode = path.basename(file, ".yaml");
+    const fileBase = path.basename(file, ".yaml");
+    const langCode = fileBaseToLangCode(fileBase);
     if (!argLang) {
       console.log(`[${i + 1} / ${total}] ${langCode}`);
     }
     const yamlPath = path.join(namesDir, file);
-    const outPath = path.join(testDir, `${langCode}.spec.js`);
+    const outPath = path.join(testDir, `${fileBase}.spec.js`);
     const raw = await fs.readFile(yamlPath, "utf8");
     const data = YAML.parse(raw);
     const existingNamesByOsis = getExistingNamesByOsis(data, allowedOsis);
-    const dataPath = path.join(dataDir, `${langCode}.yaml`);
+    const dataPath = path.join(dataDir, `${fileBase}.yaml`);
     const { dataFileExists, customTests, langYaml } = await loadLangYaml(dataPath);
     const mergedData = getMergedData(defaultsYaml, langYaml);
-    const langModule = await loadLangModule(langCode);
+    const langModule = await loadLangModule(fileBase);
     const isCrossLike = langCode.length !== 3 || !dataFileExists;
     const shouldIncludeSample = isCrossLike && langModule ? makeCrossSampleFilter(langModule) : null;
     const lines = [];
     lines.push('"use strict";');
     lines.push('import { bcv_parser } from "bible-passage-reference-parser/esm/bcv_parser.js";');
-    lines.push(`import * as lang from "../lang/${langCode}.js";`);
+    lines.push(`import * as lang from "../lang/${fileBase}.js";`);
     lines.push("");
     if (Array.isArray(data)) {
       for (const entry of data) {
@@ -443,7 +460,7 @@ async function main() {
         lines.push(...block);
       }
     }
-    const preferredNames = await loadPreferredNames(langCode);
+    const preferredNames = await loadPreferredNames(fileBase);
     addPreferredTests(lines, langCode, preferredNames, existingNamesByOsis, allowedOsis);
     if (!isCrossLike && langModule) {
       addMiscTests(lines, langCode, mergedData, data, makeSupportCheck(langModule));

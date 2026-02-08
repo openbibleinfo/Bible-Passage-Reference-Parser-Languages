@@ -7,6 +7,17 @@ import { fileURLToPath } from "node:url";
 import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 import { cpus } from "node:os";
+
+// src/lang_filenames.ts
+var RESERVED_THREE_LETTER_BASENAMES = /* @__PURE__ */ new Set(["con", "prn", "aux", "nul"]);
+function fileBaseToLangCode(fileBase) {
+  if (!fileBase.endsWith("_")) return fileBase;
+  const base = fileBase.slice(0, -1);
+  if (base.length !== 3) return fileBase;
+  return RESERVED_THREE_LETTER_BASENAMES.has(base.toLowerCase()) ? base : fileBase;
+}
+
+// src/build_all_langs.ts
 var execFileAsync = promisify(execFile);
 var __filename = fileURLToPath(import.meta.url);
 var __dirname = dirname(__filename);
@@ -15,9 +26,9 @@ var dataDir = resolve(repoRoot, "data");
 var buildLangPath = resolve(__dirname, "build_lang.js");
 var buildSpecPath = resolve(__dirname, "build_spec.js");
 var entries = await readdir(dataDir, { withFileTypes: true });
-var langFiles = entries.filter((entry) => entry.isFile()).map((entry) => entry.name).filter((name) => /^\w{3}\.yaml$/i.test(name));
+var langFiles = entries.filter((entry) => entry.isFile()).map((entry) => entry.name).filter((name) => /^[A-Za-z0-9_]+\.yaml$/i.test(name)).filter((name) => name.toLowerCase() !== "_defaults.yaml").filter((name) => fileBaseToLangCode(name.replace(/\.yaml$/i, "")).length === 3);
 if (langFiles.length === 0) {
-  console.error(`No language files matching /\\w{3}\\.yaml/ found in ${dataDir}`);
+  console.error(`No language files matching language-code yaml naming found in ${dataDir}`);
   process.exit(1);
 }
 function parseJobs(argv) {
@@ -52,7 +63,8 @@ async function runNext() {
   nextIndex += 1;
   if (index >= total) return;
   const file = langFiles[index];
-  const lang = file.slice(0, 3);
+  const lang = fileBaseToLangCode(file.replace(/\.yaml$/i, ""));
+  const specBase = file.replace(/\.yaml$/i, "");
   let runError = null;
   try {
     if (!args.testOnly) {
@@ -63,7 +75,7 @@ async function runNext() {
     await execFileAsync("node", [buildSpecPath, lang], {
       maxBuffer: 50 * 1024 * 1024
     });
-    await execFileAsync("npx", ["jasmine", resolve(repoRoot, "test", `${lang}.spec.js`), "--random=false"], {
+    await execFileAsync("npx", ["jasmine", resolve(repoRoot, "test", `${specBase}.spec.js`), "--random=false"], {
       maxBuffer: 50 * 1024 * 1024
     });
   } catch (error) {

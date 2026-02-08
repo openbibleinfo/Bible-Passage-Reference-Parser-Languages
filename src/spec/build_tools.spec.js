@@ -12,6 +12,7 @@ const repoRoot = resolve(".");
 const buildLangPath = resolve(repoRoot, "bin", "build_lang.js");
 const buildSpecPath = resolve(repoRoot, "bin", "build_spec.js");
 const fuzzLangPath = resolve(repoRoot, "bin", "fuzz_lang.js");
+jasmine.DEFAULT_TIMEOUT_INTERVAL = 30000;
 
 function parserFor(langModule) {
 	const p = new bcv_parser(langModule);

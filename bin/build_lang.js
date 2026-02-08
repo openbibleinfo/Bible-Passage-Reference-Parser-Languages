@@ -1,5 +1,14 @@
 // src/args.ts
 import { access } from "fs/promises";
+
+// src/lang_filenames.ts
+var RESERVED_THREE_LETTER_BASENAMES = /* @__PURE__ */ new Set(["con", "prn", "aux", "nul"]);
+function langCodeToFileBase(langCode) {
+  if (langCode.length !== 3) return langCode;
+  return RESERVED_THREE_LETTER_BASENAMES.has(langCode.toLowerCase()) ? `${langCode}_` : langCode;
+}
+
+// src/args.ts
 function readOptionValue(args, index) {
   return String(args[index + 1] ?? "");
 }
@@ -67,7 +76,7 @@ async function getLanguageArgs(langDir2) {
     throw new Error("Please add at least one language code as an argument. For example: `node build_lang.ts eng`.");
   }
   for (const lang of langs2) {
-    await doesFileExist(`${langDir2}/${lang}.yaml`);
+    await doesFileExist(`${langDir2}/${langCodeToFileBase(lang)}.yaml`);
   }
   if (cross) {
     validateCrossModeArgs(outputLang2, langs2, positional);
@@ -152,7 +161,7 @@ async function getYamlData(langs2, langDir2, config = {}) {
   }
   for (let i = 0; i < langs2.length; i++) {
     const lang = langs2[i];
-    const fileContent = await getFileContent(`${langDir2}/${lang}.yaml`);
+    const fileContent = await getFileContent(`${langDir2}/${langCodeToFileBase(lang)}.yaml`);
     const parsed = YAML.parse(fileContent);
     const data = parsed && typeof parsed === "object" ? parsed : {};
     if (i === 0) {
@@ -1905,6 +1914,7 @@ var bookVariants = processedBooks.map((book) => {
 });
 var yamlOutput = YAML2.stringify(bookVariants, { lineWidth: 0 });
 var outputLang = buildArgs.outputLang;
+var outputFileBase = langCodeToFileBase(outputLang);
 var jsOutput = `${regexpsClassOutput}
 
 ${translationsClassOutput}
@@ -1912,5 +1922,5 @@ ${translationsClassOutput}
 ${grammarOptionsOutput}${bundleOutput}`;
 await mkdir(namesDir, { recursive: true });
 await mkdir(langOutputDir, { recursive: true });
-await writeFile(resolve(namesDir, `${outputLang}.yaml`), yamlOutput, "utf8");
-await writeFile(resolve(langOutputDir, `${outputLang}.js`), jsOutput, "utf8");
+await writeFile(resolve(namesDir, `${outputFileBase}.yaml`), yamlOutput, "utf8");
+await writeFile(resolve(langOutputDir, `${outputFileBase}.js`), jsOutput, "utf8");

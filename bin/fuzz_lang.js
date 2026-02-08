@@ -7,6 +7,15 @@ import { dirname, resolve } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import yaml from "yaml";
 import { bcv_parser } from "bible-passage-reference-parser/esm/bcv_parser.js";
+
+// src/lang_filenames.ts
+var RESERVED_THREE_LETTER_BASENAMES = /* @__PURE__ */ new Set(["con", "prn", "aux", "nul"]);
+function langCodeToFileBase(langCode) {
+  if (langCode.length !== 3) return langCode;
+  return RESERVED_THREE_LETTER_BASENAMES.has(langCode.toLowerCase()) ? `${langCode}_` : langCode;
+}
+
+// src/fuzz_lang.ts
 var __filename = fileURLToPath(import.meta.url);
 var __dirname = dirname(__filename);
 var repoRoot = resolve(__dirname, "..");
@@ -104,7 +113,8 @@ function randomUnicodeChar(rand2) {
   }
 }
 async function loadBookTokens(lang) {
-  const yamlPath = resolve(repoRoot, "book_names", "all", `${lang}.yaml`);
+  const fileBase = langCodeToFileBase(lang);
+  const yamlPath = resolve(repoRoot, "book_names", "all", `${fileBase}.yaml`);
   if (!existsSync(yamlPath)) {
     return [];
   }
@@ -212,7 +222,7 @@ function makeFuzzer(lang, books2, rand2) {
   };
 }
 var args = parseArgs(process.argv.slice(2));
-var langPath = resolve(repoRoot, "lang", `${args.lang}.js`);
+var langPath = resolve(repoRoot, "lang", `${langCodeToFileBase(args.lang)}.js`);
 if (!existsSync(langPath)) {
   console.error(`Language output file does not exist: ${langPath}`);
   console.error(`Build it first with: node bin/build_lang.js ${args.lang}`);
