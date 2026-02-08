@@ -19,3 +19,7 @@ npx esbuild "$repo_root/src/fuzz_lang.ts" \
   --bundle --target=es2022 --platform=node --charset=utf8 --format=esm \
   --external:yaml --external:bible-passage-reference-parser/esm/bcv_parser.js \
   --outfile="$script_dir/fuzz_lang.js"
+
+npx esbuild "$repo_root/src/loader.ts" \
+  --bundle --target=es2022 --platform=node --charset=utf8 --format=esm \
+  --outfile="$repo_root/loader.js"

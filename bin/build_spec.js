@@ -7,11 +7,11 @@ import YAML from "yaml";
 import { fileURLToPath } from "url";
 import { bcv_parser } from "bible-passage-reference-parser/esm/bcv_parser.js";
 
-// src/lang_filenames.ts
+// src/lang_code_utils.ts
 var RESERVED_THREE_LETTER_BASENAMES = /* @__PURE__ */ new Set(["con", "prn", "aux", "nul"]);
 function langCodeToFileBase(langCode) {
   if (langCode.length !== 3) return langCode;
-  return RESERVED_THREE_LETTER_BASENAMES.has(langCode.toLowerCase()) ? `${langCode}_` : langCode;
+  return RESERVED_THREE_LETTER_BASENAMES.has(langCode) ? `${langCode}_` : langCode;
 }
 function fileBaseToLangCode(fileBase) {
   if (!fileBase.endsWith("_")) return fileBase;

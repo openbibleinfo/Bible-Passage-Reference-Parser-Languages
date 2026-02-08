@@ -1,5 +1,5 @@
 import { access } from "fs/promises";
-import { langCodeToFileBase } from "./lang_filenames";
+import { langCodeToFileBase } from "./lang_code_utils";
 
 type BuildArgs = {
 	langs: string[];

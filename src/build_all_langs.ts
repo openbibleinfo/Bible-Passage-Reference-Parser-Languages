@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 import { cpus } from "node:os";
-import { fileBaseToLangCode } from "./lang_filenames";
+import { fileBaseToLangCode } from "./lang_code_utils";
 
 type CliArgs = {
 	jobs: number;

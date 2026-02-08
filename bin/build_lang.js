@@ -1,11 +1,11 @@
 // src/args.ts
 import { access } from "fs/promises";
 
-// src/lang_filenames.ts
+// src/lang_code_utils.ts
 var RESERVED_THREE_LETTER_BASENAMES = /* @__PURE__ */ new Set(["con", "prn", "aux", "nul"]);
 function langCodeToFileBase(langCode) {
   if (langCode.length !== 3) return langCode;
-  return RESERVED_THREE_LETTER_BASENAMES.has(langCode.toLowerCase()) ? `${langCode}_` : langCode;
+  return RESERVED_THREE_LETTER_BASENAMES.has(langCode) ? `${langCode}_` : langCode;
 }
 
 // src/args.ts

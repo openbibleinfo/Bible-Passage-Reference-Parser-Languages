@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Language data files for bible-passage-reference-parser.",
   "type": "module",
+  "main": "./loader.js",
   "author": "OpenBible.info <openbibleinfo@gmail.com> (https://www.openbible.info/)",
   "license": "MIT",
   "repository": {
@@ -21,6 +22,7 @@
   ],
   "files": [
     "lang/",
+    "loader.js",
     "README.md"
   ],
   "publishConfig": {

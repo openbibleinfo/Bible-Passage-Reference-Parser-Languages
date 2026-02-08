@@ -1,6 +1,6 @@
 import { readFile } from "fs/promises";
 import YAML from "yaml";
-import { langCodeToFileBase } from "./lang_filenames";
+import { langCodeToFileBase } from "./lang_code_utils";
 
 type UnknownRecord = Record<string, unknown>;
 

@@ -5,7 +5,7 @@ import { dirname, resolve } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import yaml from "yaml";
 import { bcv_parser } from "bible-passage-reference-parser/esm/bcv_parser.js";
-import { langCodeToFileBase } from "./lang_filenames";
+import { langCodeToFileBase } from "./lang_code_utils";
 
 type FuzzArgs = {
 	lang: string;

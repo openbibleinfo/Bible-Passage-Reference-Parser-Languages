@@ -4,7 +4,7 @@ import { mergeBooks } from "./books";
 import { buildBookRegexps } from "./book_regexps";
 import { buildRecursive, buildTranslationPattern, buildVariablePattern, buildVariablePatternsForRegexp } from "./regexps";
 import { parseTranslationRows, parseTranslationSystemsYaml } from "./translations";
-import { langCodeToFileBase } from "./lang_filenames";
+import { langCodeToFileBase } from "./lang_code_utils";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";

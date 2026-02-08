@@ -1,5 +1,5 @@
 "use strict";
-import { mkdtemp, mkdir, rm } from "node:fs/promises";
+import { copyFile, mkdtemp, mkdir, rm } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { pathToFileURL } from "node:url";
@@ -34,6 +34,7 @@ describe("src contracts", () => {
 	let bookRegexps = null;
 	let translations = null;
 	let args = null;
+	let loader = null;
 
 	beforeAll(async () => {
 		const tempRoot = join(repoRoot, ".tmp");
@@ -44,11 +45,17 @@ describe("src contracts", () => {
 		const bookRegexpsPath = await compileModule("src/book_regexps.ts", tempDir);
 		const translationsPath = await compileModule("src/translations.ts", tempDir, ["yaml"]);
 		const argsPath = await compileModule("src/args.ts", tempDir);
+		const loaderPath = await compileModule("src/loader.ts", tempDir);
+		await mkdir(join(tempDir, "lang"), { recursive: true });
+		await copyFile(resolve(repoRoot, "lang", "eng.js"), join(tempDir, "lang", "eng.js"));
+		await copyFile(resolve(repoRoot, "lang", "spa.js"), join(tempDir, "lang", "spa.js"));
+		await copyFile(resolve(repoRoot, "lang", "con_.js"), join(tempDir, "lang", "con_.js"));
 		books = await import(pathToFileURL(booksPath).href);
 		regexps = await import(pathToFileURL(regexpsPath).href);
 		bookRegexps = await import(pathToFileURL(bookRegexpsPath).href);
 		translations = await import(pathToFileURL(translationsPath).href);
 		args = await import(pathToFileURL(argsPath).href);
+		loader = await import(pathToFileURL(loaderPath).href);
 	});
 
 	afterAll(async () => {
@@ -173,5 +180,15 @@ describe("src contracts", () => {
 		} finally {
 			process.argv = originalArgv;
 		}
+	});
+
+	it("load_language_code loads mapped and unmapped language modules", async () => {
+		const eng = await loader.load_language_code("eng");
+		expect(typeof eng.regexps).toEqual("function");
+		const con = await loader.load_language_code("con");
+		expect(typeof con.regexps).toEqual("function");
+		await expectAsync(loader.load_language_code("en")).toBeRejected();
+		await expectAsync(loader.load_language_code("ENG")).toBeRejected();
+		await expectAsync(loader.load_language_code(" eng ")).toBeRejected();
 	});
 });

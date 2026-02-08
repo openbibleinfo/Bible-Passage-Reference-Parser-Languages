@@ -4,7 +4,7 @@ import path from "path";
 import YAML from "yaml";
 import { fileURLToPath } from "url";
 import { bcv_parser } from "bible-passage-reference-parser/esm/bcv_parser.js";
-import { fileBaseToLangCode, langCodeToFileBase } from "./lang_filenames";
+import { fileBaseToLangCode, langCodeToFileBase } from "./lang_code_utils";
 
 type UnknownRecord = Record<string, unknown>;
 type Lines = string[];

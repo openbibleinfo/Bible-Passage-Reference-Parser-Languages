@@ -28,6 +28,15 @@ Build a cross-language parser:
 node bin/build_lang.js --cross eng spa --out eng_spa
 node bin/build_spec.js eng_spa
 ```
+
+Load a language module programmatically:
+```js
+import load_language_code from "bible-passage-reference-parser-languages";
+const lang = await load_language_code("eng");
+// Reserved Windows code example:
+const con = await load_language_code("con");
+```
+
 Generate specs:
 ```
 node bin/build_spec.js        # all languages

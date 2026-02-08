@@ -8,7 +8,7 @@ import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 import { cpus } from "node:os";
 
-// src/lang_filenames.ts
+// src/lang_code_utils.ts
 var RESERVED_THREE_LETTER_BASENAMES = /* @__PURE__ */ new Set(["con", "prn", "aux", "nul"]);
 function fileBaseToLangCode(fileBase) {
   if (!fileBase.endsWith("_")) return fileBase;
