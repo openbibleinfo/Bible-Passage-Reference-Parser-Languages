@@ -272,26 +272,13 @@ Mappings used by tooling and for compatibility with the older abbreviations used
 
 ## Todo
 
-1. Build multiple languages into a single file usable by Bible Passage Reference Parser.
-2. Move spec building process into the main build_lang script so that it's a one-step process.
-3. Add more translation-specific versification.
-4. Improve English translation representation.
-5. Add additional tests from 01.add_lang.pl:
-
-```perl
-add_range_tests();
-add_chapter_tests();
-add_verse_tests();
-add_sequence_tests();
-add_title_tests();
-add_ff_tests();
-add_next_tests();
-add_trans_tests();
-add_book_range_tests();
-add_boundary_tests();
-```
+1. Move spec building process into the main build_lang script so that it's a one-step process.
+2. Add more translation-specific versification.
+3. Improve English translation representation.
 
 ## Changelog
+
+February 7, 2026. Add a loader function to handle file renaming for the "con" language so that this repo works on Windows.
 
 January 31, 2026. Rework folder naming and include preferred book names from source data. Add an additional 2,100 languages from YouVersion data.
 
