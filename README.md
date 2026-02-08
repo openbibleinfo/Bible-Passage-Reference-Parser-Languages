@@ -9,7 +9,7 @@ This repository contains the YAML to Javascript build pipeline for [Bible Passag
 - `data/*.yaml`: per-language data (ISO 639-3 codes like `eng`, `zho`).
 - `translation_systems/*.yaml`: versification systems and translation aliases.
 - `src/`: TypeScript source for building language output.
-- `bin/compile.sh`: bundles `src/build_lang.ts` to `bin/build_lang.js`.
+- `bin/compile.sh`: bundles TypeScript CLI tools in `src/` to `bin/*.js`.
 - `bin/build_spec.js`: builds localized-book Jasmine specs from `book_names/all/`.
 - `bin/build_all_langs.js`: builds all languages in parallel and runs specs for each language.
 - `lang/`: generated output files (optional; regenerate as needed).

@@ -1,9 +1,9 @@
-import { getLanguageArgs } from "./args.ts";
-import { getYamlData } from "./yaml_files.ts";
-import { mergeBooks } from "./books.ts";
-import { buildBookRegexps } from "./book_regexps.ts";
-import { buildRecursive, buildTranslationPattern, buildVariablePattern, buildVariablePatternsForRegexp } from "./regexps.ts";
-import { parseTranslationRows, parseTranslationSystemsYaml } from "./translations.ts";
+import { getLanguageArgs } from "./args";
+import { getYamlData } from "./yaml_files";
+import { mergeBooks } from "./books";
+import { buildBookRegexps } from "./book_regexps";
+import { buildRecursive, buildTranslationPattern, buildVariablePattern, buildVariablePatternsForRegexp } from "./regexps";
+import { parseTranslationRows, parseTranslationSystemsYaml } from "./translations";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
@@ -23,20 +23,43 @@ const buildArgs = await getLanguageArgs(langDir);
 const langs = buildArgs.langs;
 const yamlData = await getYamlData(langs, langDir, { cross: buildArgs.cross });
 type NormalizeMode = "none" | "combining_characters";
-const normalizeMode = (yamlData.options?.normalize ?? "combining_characters") as NormalizeMode;
-const trailingDotsMode = (yamlData.options?.trailing_dots_in_variables ?? "as_is") as "optional" | "as_is";
+type VariableInput = string[] | VariableItem[];
+type TranslationInputRow = string | { text?: string; osis?: string; system?: string };
+type ReplaceSpacesConfig = { regexp: string; replacement: string } | null;
+
+function isRecord(value: unknown): value is Record<string, unknown> {
+	return Boolean(value) && typeof value === "object";
+}
+
+const rawOptions = isRecord(yamlData.options) ? yamlData.options : {};
+const rawVariables = isRecord(yamlData.variables) ? yamlData.variables : {};
+const translationRows: TranslationInputRow[] = Array.isArray(yamlData.translations)
+	? (yamlData.translations as TranslationInputRow[])
+	: [];
+const normalizeMode = (rawOptions.normalize ?? "combining_characters") as NormalizeMode;
+const trailingDotsMode = (rawOptions.trailing_dots_in_variables ?? "as_is") as "optional" | "as_is";
+const getVariable = (name: string): VariableInput => {
+	const value = rawVariables[name];
+	return Array.isArray(value) ? (value as VariableInput) : [];
+};
+const getOptionRegexp = (name: string): string => {
+	const value = rawOptions[name];
+	if (isRecord(value) && typeof value.regexp === "string") return value.regexp;
+	throw new Error(`Missing required option regexp: ${name}`);
+};
 const replaceSpacesWith = (() => {
-	const value = yamlData.options?.replace_characters_with;
+	const value = rawOptions.replace_characters_with;
 	if (!value) return null;
 	if (Array.isArray(value)) {
-		const regexp = value[0]?.regexp ?? value[0];
+		const first = value[0];
+		const regexp = isRecord(first) ? first.regexp : first;
 		const replacement = value[1];
 		if (typeof regexp === "string" && typeof replacement === "string") {
 			return { regexp, replacement };
 		}
 		return null;
 	}
-	if (typeof value === "object") {
+	if (isRecord(value)) {
 		const regexp = value.regexp;
 		const replacement = value.replacement;
 		if (typeof regexp === "string" && typeof replacement === "string") {
@@ -44,7 +67,7 @@ const replaceSpacesWith = (() => {
 		}
 	}
 	return null;
-})();
+})() as ReplaceSpacesConfig;
 
 function expandNegatedCharClass(base: string, useUnicodeNumbers: boolean): string {
 	const match = base.match(/^\[\^([^\]]+)\]$/);
@@ -116,15 +139,17 @@ function expandNormalizedStringsForYaml(strings: string[], normalize: NormalizeM
 
 type ExpandCharacters = Record<string, string[]>;
 
-function normalizeExpandCharacters(options: Record<string, any> | undefined): ExpandCharacters {
+function normalizeExpandCharacters(options: Record<string, unknown> | undefined): ExpandCharacters {
 	const out: ExpandCharacters = {};
 	if (!options) return out;
 
 	const entries = Array.isArray(options.expand_characters) ? options.expand_characters : [];
 	for (const entry of entries) {
 		if (!entry || typeof entry !== "object") continue;
-		const key = String(entry.character ?? "");
-		const values = Array.isArray(entry.expand) ? entry.expand.map((v: any) => String(v)) : [];
+		const key = String((entry as { character?: unknown }).character ?? "");
+		const values = Array.isArray((entry as { expand?: unknown }).expand)
+			? ((entry as { expand: unknown[] }).expand).map((v) => String(v))
+			: [];
 		if (!key || values.length === 0) continue;
 		const set = new Set<string>(values);
 		set.add(key);
@@ -132,7 +157,7 @@ function normalizeExpandCharacters(options: Record<string, any> | undefined): Ex
 	}
 
 	const alternateApostrophes = Array.isArray(options.alternate_straight_apostrophe_characters)
-		? options.alternate_straight_apostrophe_characters.map((v: any) => String(v))
+		? options.alternate_straight_apostrophe_characters.map((v) => String(v))
 		: [];
 	if (alternateApostrophes.length > 0) {
 		const set = new Set<string>(out["'"] ?? ["'"]);
@@ -143,7 +168,7 @@ function normalizeExpandCharacters(options: Record<string, any> | undefined): Ex
 	return out;
 }
 
-const expandCharacters = normalizeExpandCharacters(yamlData.options);
+const expandCharacters = normalizeExpandCharacters(rawOptions);
 
 function expandTextVariantsForYaml(
 	text: string,
@@ -326,13 +351,13 @@ const processedBooks = buildArgs.cross && buildArgs.mergeMode === "smart"
 	: mergedBooks;
 const bookRegexps = buildBookRegexps(
 	processedBooks,
-	yamlData.options,
+	rawOptions,
 	normalizeMode,
 	replaceSpacesWith,
 	buildArgs.cross
 );
 
-const { texts: translationTexts } = parseTranslationRows(yamlData.translations ?? []);
+const { texts: translationTexts } = parseTranslationRows(translationRows);
 const translationPattern = buildTranslationPattern(translationTexts, normalizeMode, replaceSpacesWith);
 const translationsRegexps = translationPattern ? [new RegExp(`${translationPattern}\\b`, "gi")] : [];
 
@@ -345,7 +370,6 @@ async function loadTranslationSystems(): Promise<Record<string, any>> {
 		systems.default = defaultObj.default;
 	}
 
-	const translationRows = yamlData.translations ?? [];
 	const neededSystems = new Set<string>();
 	for (const row of translationRows) {
 		if (!row) continue;
@@ -383,7 +407,7 @@ async function loadTranslationSystems(): Promise<Record<string, any>> {
 }
 
 const translationSystems = await loadTranslationSystems();
-const translationAliases = parseTranslationRows(yamlData.translations ?? []).aliases;
+const translationAliases = parseTranslationRows(translationRows).aliases;
 const translationsClass = {
 	aliases: {
 		...translationAliases,
@@ -397,9 +421,10 @@ const translationsClass = {
 	}
 };
 
-const nextPattern = yamlData.variables.next
+const nextVariable = getVariable("next");
+const nextPattern = nextVariable.length > 0
 	? buildVariablePatternsForRegexp(
-		expandVariableCharacters(yamlData.variables.next),
+		expandVariableCharacters(nextVariable),
 		normalizeMode,
 		replaceSpacesWith,
 		trailingDotsMode
@@ -409,31 +434,31 @@ const nextPattern = yamlData.variables.next
 function buildMatchEndSplitPattern() {
 	const matchEndMode: "as_is" | "optional" = "as_is";
 	const title = buildVariablePattern(
-		expandVariableCharacters(yamlData.variables.title),
+		expandVariableCharacters(getVariable("title")),
 		normalizeMode,
 		replaceSpacesWith,
 		matchEndMode
 	);
 	const ff = buildVariablePatternsForRegexp(
-		expandVariableCharacters(yamlData.variables.ff),
+		expandVariableCharacters(getVariable("ff")),
 		normalizeMode,
 		replaceSpacesWith,
 		matchEndMode
 	);
 	const ab = buildVariablePatternsForRegexp(
-		expandVariableCharacters(yamlData.variables.ab),
+		expandVariableCharacters(getVariable("ab")),
 		normalizeMode,
 		replaceSpacesWith,
 		matchEndMode
 	);
 	const control = buildVariablePatternsForRegexp(
-		expandVariableCharacters(yamlData.variables.match_end_split_control),
+		expandVariableCharacters(getVariable("match_end_split_control")),
 		normalizeMode,
 		replaceSpacesWith,
 		matchEndMode
 	);
 	const final = buildVariablePatternsForRegexp(
-		expandVariableCharacters(yamlData.variables.match_end_split_final),
+		expandVariableCharacters(getVariable("match_end_split_final")),
 		normalizeMode,
 		replaceSpacesWith,
 		matchEndMode
@@ -454,33 +479,37 @@ function buildMatchEndSplitPattern() {
 }
 
 function buildBookRegexpFromPattern(patternString: string): RegExp {
-	const beforeChars = yamlData.options.before_book_allowed_characters.regexp;
-	const afterChars = yamlData.options.after_book_allowed_characters.regexp;
-	const beforeEveryBook = yamlData.options.before_every_book.regexp;
-	const afterEveryBook = yamlData.options.after_every_book.regexp;
+	const beforeChars = getOptionRegexp("before_book_allowed_characters");
+	const afterChars = getOptionRegexp("after_book_allowed_characters");
+	const beforeEveryBook = getOptionRegexp("before_every_book");
+	const afterEveryBook = getOptionRegexp("after_every_book");
 	const regexPattern = `(?:^|(?<=${beforeChars}))${beforeEveryBook}(${patternString})${afterEveryBook}(?:(?=${afterChars})|$)`;
 	return new RegExp(regexPattern, "giu");
 }
 
 function buildOrdinalPsalmsRegexp(): RegExp | null {
-	const ordinals = yamlData.ordinals;
-	if (!Array.isArray(ordinals)) return null;
+	const ordinals = Array.isArray(yamlData.ordinals) ? yamlData.ordinals : [];
 	let texts: string[] = [];
 	let betweenRegexp = "\\s+";
 	const ordinalSpecs: Array<{ numbers: number[]; after: string[] }> = [];
 	let defaultAfter: string[] = [];
 
 	for (const item of ordinals) {
-		if (item?.texts) {
-			texts = item.texts.map((text: any) => String(text));
+		if (!isRecord(item)) continue;
+		const textsRaw = item.texts;
+		if (Array.isArray(textsRaw)) {
+			texts = textsRaw.map((text) => String(text));
 		}
-		if (item?.between?.regexp) {
-			betweenRegexp = String(item.between.regexp);
+		const between = item.between;
+		if (isRecord(between) && typeof between.regexp === "string") {
+			betweenRegexp = between.regexp;
 		}
-		if (item?.after) {
-			const after = (Array.isArray(item.after) ? item.after : [item.after]).map((v: any) => String(v));
-			if (item?.numbers) {
-				const numbers = (Array.isArray(item.numbers) ? item.numbers : [item.numbers]).map((v: any) => Number(v));
+		const afterRaw = item.after;
+		if (afterRaw != null) {
+			const after = (Array.isArray(afterRaw) ? afterRaw : [afterRaw]).map((v) => String(v));
+			const numbersRaw = item.numbers;
+			if (numbersRaw != null) {
+				const numbers = (Array.isArray(numbersRaw) ? numbersRaw : [numbersRaw]).map((v) => Number(v));
 				ordinalSpecs.push({ numbers, after });
 			} else {
 				defaultAfter = after;
@@ -538,19 +567,19 @@ function buildPassageComponentsPattern() {
 		if (pattern) parts.push(pattern);
 	};
 	add(buildVariablePatternsForRegexp(
-		expandVariableCharacters(yamlData.variables.chapter),
+		expandVariableCharacters(getVariable("chapter")),
 		normalizeMode,
 		replaceSpacesWith,
 		trailingDotsMode
 	));
 	add(buildVariablePatternsForRegexp(
-		expandVariableCharacters(yamlData.variables.verse),
+		expandVariableCharacters(getVariable("verse")),
 		normalizeMode,
 		replaceSpacesWith,
 		trailingDotsMode
 	));
 	add(buildVariablePatternsForRegexp(
-		expandVariableCharacters(yamlData.variables.ff),
+		expandVariableCharacters(getVariable("ff")),
 		normalizeMode,
 		replaceSpacesWith,
 		trailingDotsMode
@@ -559,13 +588,13 @@ function buildPassageComponentsPattern() {
 		add(nextPattern);
 	}
 	add(buildVariablePatternsForRegexp(
-		expandVariableCharacters(yamlData.variables.and),
+		expandVariableCharacters(getVariable("and")),
 		normalizeMode,
 		replaceSpacesWith,
 		trailingDotsMode
 	));
 	add(buildVariablePatternsForRegexp(
-		expandVariableCharacters(yamlData.variables.to),
+		expandVariableCharacters(getVariable("to")),
 		normalizeMode,
 		replaceSpacesWith,
 		trailingDotsMode
@@ -576,15 +605,15 @@ function buildPassageComponentsPattern() {
 
 function buildEscapedPassagePattern() {
 	const prePassageAllowed = "[^\\x1e\\x1f\\p{L}\\p{N}]";
-	const validCharacters = yamlData.options.after_book_allowed_characters.regexp;
+	const validCharacters = getOptionRegexp("after_book_allowed_characters");
 	const title = buildVariablePattern(
-		expandVariableCharacters(yamlData.variables.title),
+		expandVariableCharacters(getVariable("title")),
 		normalizeMode,
 		replaceSpacesWith,
 		trailingDotsMode
 	);
 	const ab = buildVariablePatternsForRegexp(
-		expandVariableCharacters(yamlData.variables.ab),
+		expandVariableCharacters(getVariable("ab")),
 		normalizeMode,
 		replaceSpacesWith,
 		trailingDotsMode
@@ -621,31 +650,31 @@ function buildEscapedPassagePattern() {
 const psOrdinalRegexp = buildOrdinalPsalmsRegexp();
 
 const firstPattern = decodeAsciiHex(buildVariablePattern(
-	expandVariableCharacters(yamlData.variables.first),
+	expandVariableCharacters(getVariable("first")),
 	normalizeMode,
 	replaceSpacesWith,
 	trailingDotsMode
 ));
 const secondPattern = decodeAsciiHex(buildVariablePattern(
-	expandVariableCharacters(yamlData.variables.second),
+	expandVariableCharacters(getVariable("second")),
 	normalizeMode,
 	replaceSpacesWith,
 	trailingDotsMode
 ));
 const thirdPattern = decodeAsciiHex(buildVariablePattern(
-	expandVariableCharacters(yamlData.variables.third),
+	expandVariableCharacters(getVariable("third")),
 	normalizeMode,
 	replaceSpacesWith,
 	trailingDotsMode
 ));
 const andPattern = decodeAsciiHex(buildVariablePattern(
-	expandVariableCharacters(yamlData.variables.and),
+	expandVariableCharacters(getVariable("and")),
 	normalizeMode,
 	replaceSpacesWith,
 	trailingDotsMode
 ));
 const toPatternRegexp = decodeAsciiHex(buildVariablePattern(
-	expandVariableCharacters(yamlData.variables.to),
+	expandVariableCharacters(getVariable("to")),
 	normalizeMode,
 	replaceSpacesWith,
 	trailingDotsMode
@@ -666,9 +695,9 @@ const regexClass = {
 	match_end_split: new RegExp(decodeAsciiHex(buildMatchEndSplitPattern()), 'gi'),
 	control: /[\x1e\x1f]/g,
 	escaped_passage: new RegExp(buildEscapedPassagePattern(), 'giu'),
-	pre_book: buildPreBook(yamlData.options.before_book_allowed_characters.regexp),
-	pre_number_book: buildPreNumberBook(yamlData.options.before_book_allowed_characters.regexp),
-	post_book: buildPostBook(yamlData.options.after_book_allowed_characters.regexp),
+	pre_book: buildPreBook(getOptionRegexp("before_book_allowed_characters")),
+	pre_number_book: buildPreNumberBook(getOptionRegexp("before_book_allowed_characters")),
+	post_book: buildPostBook(getOptionRegexp("after_book_allowed_characters")),
 	all_books: [
 		{
 			osis: ["Ps"],
@@ -771,21 +800,21 @@ function decodeAsciiHex(pattern: string): string {
 	});
 }
 
-const andPatternBase = decodeAsciiHex(buildGrammarPattern(yamlData.variables.and, true));
+const andPatternBase = decodeAsciiHex(buildGrammarPattern(getVariable("and"), true));
 const andPatternWithAmp = andPatternBase
 	? `(?:${andPatternBase}|&)`
 	: "&";
-const chapterPattern = decodeAsciiHex(buildGrammarPattern(yamlData.variables.chapter, true) || "chapter");
-const versePattern = decodeAsciiHex(buildGrammarPattern(yamlData.variables.verse, true) || "verse");
-const ffPattern = decodeAsciiHex(buildGrammarPattern(yamlData.variables.ff) || "ff");
-const titlePattern = decodeAsciiHex(buildGrammarPattern(yamlData.variables.title) || "title");
-const toPattern = decodeAsciiHex(buildGrammarPattern(yamlData.variables.to) || "-");
-const nextPatternGrammar = yamlData.variables.next
-	? decodeAsciiHex(buildGrammarPattern(yamlData.variables.next))
+const chapterPattern = decodeAsciiHex(buildGrammarPattern(getVariable("chapter"), true) || "chapter");
+const versePattern = decodeAsciiHex(buildGrammarPattern(getVariable("verse"), true) || "verse");
+const ffPattern = decodeAsciiHex(buildGrammarPattern(getVariable("ff")) || "ff");
+const titlePattern = decodeAsciiHex(buildGrammarPattern(getVariable("title")) || "title");
+const toPattern = decodeAsciiHex(buildGrammarPattern(getVariable("to")) || "-");
+const nextPatternGrammar = nextVariable.length > 0
+	? decodeAsciiHex(buildGrammarPattern(nextVariable))
 	: "\\x1f\\x1f\\x1f";
 const abPatternRaw = decodeAsciiHex(
 	buildVariablePatternsForRegexp(
-		expandVariableCharacters(stripRegexpAfter(yamlData.variables.ab)),
+		expandVariableCharacters(stripRegexpAfter(getVariable("ab"))),
 		normalizeMode,
 		grammarSpaces,
 		"as_is"

@@ -1,15 +1,43 @@
 {
+  "name": "bible-passage-reference-parser-languages",
+  "version": "1.0.0",
+  "description": "Language data files for bible-passage-reference-parser.",
   "type": "module",
-  "dependencies": {
-    "@pemistahl/grex": "^1.0.2",
-    "yaml": "^2.8.0"
+  "author": "OpenBible.info <openbibleinfo@gmail.com> (https://www.openbible.info/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openbibleinfo/Bible-Passage-Reference-Parser-Languages.git"
+  },
+  "homepage": "https://github.com/openbibleinfo/Bible-Passage-Reference-Parser-Languages#readme",
+  "bugs": {
+    "url": "https://github.com/openbibleinfo/Bible-Passage-Reference-Parser-Languages/issues"
+  },
+  "keywords": [
+    "bible",
+    "parser",
+    "languages",
+    "osis"
+  ],
+  "files": [
+    "lang/",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@pemistahl/grex": "^1.0.2",
     "bible-passage-reference-parser": "^3.1.0",
     "esbuild": "^0.25.8",
-    "jasmine": "^5.9.0"
+    "jasmine": "^5.9.0",
+    "typescript": "^5.9.2",
+    "yaml": "^2.8.0"
   },
   "scripts": {
-    "build": "node src/build_lang.ts"
+    "build": "node src/build_lang.ts",
+    "typecheck": "tsc --noEmit",
+    "test:src": "jasmine --config=src/spec/support/jasmine.mjs"
   }
 }

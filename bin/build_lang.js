@@ -1,5 +1,31 @@
 // src/args.ts
 import { access } from "fs/promises";
+function readOptionValue(args, index) {
+  return String(args[index + 1] ?? "");
+}
+function parseMergeMode(value) {
+  if (value !== "smart" && value !== "append") {
+    throw new Error(`Invalid merge mode: ${value}. Expected "smart" or "append".`);
+  }
+  return value;
+}
+function validateCrossModeArgs(outputLang2, langs2, positional) {
+  if (positional.length > 0) {
+    throw new Error(`In cross mode, language codes must follow --cross. Unexpected positional args: ${positional.join(", ")}`);
+  }
+  if (!outputLang2) {
+    throw new Error("Cross-language builds require an output code: --out <code>");
+  }
+  if (outputLang2.length === 3) {
+    throw new Error(`Cross-language output code must not be 3 characters: ${outputLang2}`);
+  }
+  if (!/^[a-zA-Z0-9_]+$/.test(outputLang2)) {
+    throw new Error(`Invalid output code: ${outputLang2}`);
+  }
+  if (langs2.length < 2) {
+    throw new Error("Cross-language builds require at least two input languages.");
+  }
+}
 async function getLanguageArgs(langDir2) {
   const args = structuredClone(process.argv);
   args.shift();
@@ -20,16 +46,12 @@ async function getLanguageArgs(langDir2) {
       continue;
     }
     if (arg === "--out" || arg === "-o") {
-      outputLang2 = String(args[i + 1] ?? "");
+      outputLang2 = readOptionValue(args, i);
       i += 1;
       continue;
     }
     if (arg === "--merge-mode") {
-      const value = String(args[i + 1] ?? "");
-      if (value !== "smart" && value !== "append") {
-        throw new Error(`Invalid merge mode: ${value}. Expected "smart" or "append".`);
-      }
-      mergeMode = value;
+      mergeMode = parseMergeMode(readOptionValue(args, i));
       i += 1;
       continue;
     }
@@ -48,21 +70,7 @@ async function getLanguageArgs(langDir2) {
     await doesFileExist(`${langDir2}/${lang}.yaml`);
   }
   if (cross) {
-    if (positional.length > 0) {
-      throw new Error(`In cross mode, language codes must follow --cross. Unexpected positional args: ${positional.join(", ")}`);
-    }
-    if (!outputLang2) {
-      throw new Error("Cross-language builds require an output code: --out <code>");
-    }
-    if (outputLang2.length === 3) {
-      throw new Error(`Cross-language output code must not be 3 characters: ${outputLang2}`);
-    }
-    if (!/^[a-zA-Z0-9_]+$/.test(outputLang2)) {
-      throw new Error(`Invalid output code: ${outputLang2}`);
-    }
-    if (langs2.length < 2) {
-      throw new Error("Cross-language builds require at least two input languages.");
-    }
+    validateCrossModeArgs(outputLang2, langs2, positional);
   } else {
     outputLang2 = outputLang2 || langs2[0];
   }
@@ -145,7 +153,8 @@ async function getYamlData(langs2, langDir2, config = {}) {
   for (let i = 0; i < langs2.length; i++) {
     const lang = langs2[i];
     const fileContent = await getFileContent(`${langDir2}/${lang}.yaml`);
-    const data = YAML.parse(fileContent);
+    const parsed = YAML.parse(fileContent);
+    const data = parsed && typeof parsed === "object" ? parsed : {};
     if (i === 0) {
       if (data.variables) {
         result.variables = { ...result.variables, ...data.variables };
@@ -168,7 +177,8 @@ async function getYamlData(langs2, langDir2, config = {}) {
       }
       if (data.ordinals) {
         const current = Array.isArray(result.ordinals) ? result.ordinals : [];
-        result.ordinals = dedupeArrayItems([...current, ...data.ordinals]);
+        const incoming = Array.isArray(data.ordinals) ? data.ordinals : [];
+        result.ordinals = dedupeArrayItems([...current, ...incoming]);
       }
       if (data.translations) {
         const current = Array.isArray(result.translations) ? result.translations : [];
@@ -192,11 +202,14 @@ async function getFileContent(path) {
 }
 
 // src/books.ts
+function isRecord(value) {
+  return Boolean(value) && typeof value === "object";
+}
 function normalizeBookTextItem(item) {
   if (typeof item === "string" || typeof item === "number") {
     return { text: String(item) };
   }
-  if (item && typeof item === "object" && "text" in item) {
+  if (isRecord(item) && "text" in item) {
     const text = String(item.text);
     const keys = Object.keys(item);
     const extraKeys = keys.filter((k) => k !== "text" && k !== "normalize");
@@ -226,6 +239,23 @@ function textSpecKey(spec) {
 function addTextSpec(map, spec) {
   const key = textSpecKey(spec);
   if (!map.has(key)) map.set(key, spec);
+}
+function normalizeBookEntry(raw) {
+  if (!isRecord(raw)) return null;
+  const rawTexts = raw.texts ?? raw.names;
+  if (rawTexts == null) {
+    throw new Error("Book entry missing texts");
+  }
+  const texts = normalizeBookTexts(rawTexts);
+  const osis = raw.osis;
+  if (!Array.isArray(osis) && typeof osis !== "string") {
+    throw new Error(`Invalid book osis: ${JSON.stringify(osis)}`);
+  }
+  return {
+    osis,
+    texts,
+    combine: raw.combine === false ? false : true
+  };
 }
 function expandBookNames(book, sourceId, trailingDotsMode2) {
   const expandedBooks = [];
@@ -316,22 +346,12 @@ function mergeBooks(yamlData2) {
   const expandedBooks = [];
   const trailingDotsMode2 = yamlData2.options?.trailing_dots_in_variables ?? "as_is";
   let sourceId = 0;
-  for (const bookEntry of yamlData2.books) {
-    if (bookEntry.start_language) {
+  for (const bookEntryRaw of yamlData2.books) {
+    if (isRecord(bookEntryRaw) && bookEntryRaw.start_language) {
       continue;
     }
-    const rawTexts = bookEntry.texts ?? bookEntry.names;
-    if (rawTexts == null) {
-      throw new Error("Book entry missing texts");
-    }
-    const texts = normalizeBookTexts(rawTexts);
-    const book = {
-      ...bookEntry,
-      texts
-    };
-    if (!book.texts) {
-      throw new Error("Book entry missing texts");
-    }
+    const book = normalizeBookEntry(bookEntryRaw);
+    if (!book) continue;
     const expanded = expandBookNames(book, sourceId, trailingDotsMode2);
     expandedBooks.push(...expanded);
     sourceId += 1;
@@ -380,6 +400,7 @@ var require2 = createRequire(import.meta.url);
 var { RegExpBuilder } = require2("@pemistahl/grex");
 var maxRecurseLevel = 5;
 var spacePlaceholder = "\0";
+var escapeRegex = (value) => value.replace(/[\\^$.*+?()[\]{}|]/g, "\\$&");
 function expandNormalizedStrings(strings, normalize) {
   if (normalize === "none") return strings;
   const out = /* @__PURE__ */ new Set();
@@ -537,7 +558,6 @@ function applyTrailingDotsMode(items, mode) {
 function buildVariablePattern(variable, normalize = "combining_characters", replaceSpacesWith2 = null, trailingDotsMode2 = "as_is") {
   if (!variable || variable.length === 0) return "";
   const complexItems = applyTrailingDotsMode(normalizeVariableItems(variable), trailingDotsMode2);
-  const textItems = complexItems.filter((item) => item.text && !item.regexp).map((item) => item.text);
   const regexpItems = complexItems.filter((item) => item.regexp).map((item) => {
     const content = item.regexp;
     return item.regexp_after ? `${content}${item.regexp_after}` : content;
@@ -545,20 +565,18 @@ function buildVariablePattern(variable, normalize = "combining_characters", repl
   const textItemsWithRegexpAfter = complexItems.filter((item) => item.text && !item.regexp && item.regexp_after).flatMap((item) => {
     const mode = item.normalize === "none" ? "none" : normalize;
     const texts = applyReplaceSpaces(expandNormalizedStrings([item.text], mode), replaceSpacesWith2);
-    return texts.map((text) => `${RegExp.escape(text)}${item.regexp_after}`);
+    return texts.map((text) => `${escapeRegex(text)}${item.regexp_after}`);
   });
   let pattern;
   const allParts = [];
-  if (textItems.length > 0) {
-    const textOnlyItems = complexItems.filter((item) => item.text && !item.regexp && !item.regexp_after);
-    if (textOnlyItems.length > 0) {
-      const textValues = textOnlyItems.flatMap((item) => {
-        const mode = item.normalize === "none" ? "none" : normalize;
-        return applyReplaceSpaces(expandNormalizedStrings([item.text], mode), replaceSpacesWith2);
-      });
-      const textPattern = RegExpBuilder.from(textValues).withMinimumSubstringLength(3).withoutAnchors().build();
-      allParts.push(unescapeHyphenOutsideCharClass(textPattern));
-    }
+  const textOnlyItems = complexItems.filter((item) => item.text && !item.regexp && !item.regexp_after);
+  if (textOnlyItems.length > 0) {
+    const textValues = textOnlyItems.flatMap((item) => {
+      const mode = item.normalize === "none" ? "none" : normalize;
+      return applyReplaceSpaces(expandNormalizedStrings([item.text], mode), replaceSpacesWith2);
+    });
+    const textPattern = RegExpBuilder.from(textValues).withMinimumSubstringLength(3).withoutAnchors().build();
+    allParts.push(unescapeHyphenOutsideCharClass(textPattern));
   }
   allParts.push(...textItemsWithRegexpAfter);
   allParts.push(...regexpItems);
@@ -608,7 +626,7 @@ function buildVariablePatternsForRegexp(variable, normalize = "combining_charact
     const mode = item.normalize === "none" ? "none" : normalize;
     const texts = applyReplaceSpaces(expandNormalizedStrings([item.text || ""], mode), replaceSpacesWith2);
     return texts.map((text) => {
-      const content = RegExp.escape(text);
+      const content = escapeRegex(text);
       return item.regexp_after ? `${content}${item.regexp_after}` : content;
     });
   });
@@ -760,12 +778,13 @@ function buildLiteralAlternation(names, replaceSpacesWith2) {
   return escaped.length === 1 ? escaped[0] : `(?:${escaped.join("|")})`;
 }
 function escapeBookLiteral(text, replaceSpacesWith2) {
+  const escapeRegex2 = (value) => value.replace(/[\\^$.*+?()[\]{}|]/g, "\\$&");
   let out = "";
   for (const ch of text) {
     if (ch === " " && replaceSpacesWith2) {
       out += replaceSpacesWith2.replacement;
     } else {
-      out += RegExp.escape(ch);
+      out += escapeRegex2(ch);
     }
   }
   return out;
@@ -1036,20 +1055,36 @@ var langOutputDir = resolve(__dirname, "../lang");
 var buildArgs = await getLanguageArgs(langDir);
 var langs = buildArgs.langs;
 var yamlData = await getYamlData(langs, langDir, { cross: buildArgs.cross });
-var normalizeMode = yamlData.options?.normalize ?? "combining_characters";
-var trailingDotsMode = yamlData.options?.trailing_dots_in_variables ?? "as_is";
+function isRecord2(value) {
+  return Boolean(value) && typeof value === "object";
+}
+var rawOptions = isRecord2(yamlData.options) ? yamlData.options : {};
+var rawVariables = isRecord2(yamlData.variables) ? yamlData.variables : {};
+var translationRows = Array.isArray(yamlData.translations) ? yamlData.translations : [];
+var normalizeMode = rawOptions.normalize ?? "combining_characters";
+var trailingDotsMode = rawOptions.trailing_dots_in_variables ?? "as_is";
+var getVariable = (name) => {
+  const value = rawVariables[name];
+  return Array.isArray(value) ? value : [];
+};
+var getOptionRegexp = (name) => {
+  const value = rawOptions[name];
+  if (isRecord2(value) && typeof value.regexp === "string") return value.regexp;
+  throw new Error(`Missing required option regexp: ${name}`);
+};
 var replaceSpacesWith = (() => {
-  const value = yamlData.options?.replace_characters_with;
+  const value = rawOptions.replace_characters_with;
   if (!value) return null;
   if (Array.isArray(value)) {
-    const regexp = value[0]?.regexp ?? value[0];
+    const first = value[0];
+    const regexp = isRecord2(first) ? first.regexp : first;
     const replacement = value[1];
     if (typeof regexp === "string" && typeof replacement === "string") {
       return { regexp, replacement };
     }
     return null;
   }
-  if (typeof value === "object") {
+  if (isRecord2(value)) {
     const regexp = value.regexp;
     const replacement = value.replacement;
     if (typeof regexp === "string" && typeof replacement === "string") {
@@ -1100,7 +1135,7 @@ function normalizeExpandCharacters2(options) {
   }
   return out;
 }
-var expandCharacters = normalizeExpandCharacters2(yamlData.options);
+var expandCharacters = normalizeExpandCharacters2(rawOptions);
 function expandTextVariantsForYaml(text, allowOptionalSpaces2, allowOptionalDots, expandCharacters2 = {}, maxVariants = 4096) {
   const dotChars = /* @__PURE__ */ new Set([".", "۔", "．"]);
   let variants = [""];
@@ -1322,12 +1357,12 @@ var mergedBooks = mergeBooks(yamlData);
 var processedBooks = buildArgs.cross && buildArgs.mergeMode === "smart" ? collapseCrossLanguageBooks(mergedBooks) : mergedBooks;
 var bookRegexps = buildBookRegexps(
   processedBooks,
-  yamlData.options,
+  rawOptions,
   normalizeMode,
   replaceSpacesWith,
   buildArgs.cross
 );
-var { texts: translationTexts } = parseTranslationRows(yamlData.translations ?? []);
+var { texts: translationTexts } = parseTranslationRows(translationRows);
 var translationPattern = buildTranslationPattern(translationTexts, normalizeMode, replaceSpacesWith);
 var translationsRegexps = translationPattern ? [new RegExp(`${translationPattern}\\b`, "gi")] : [];
 async function loadTranslationSystems() {
@@ -1338,7 +1373,6 @@ async function loadTranslationSystems() {
   if (defaultObj?.default) {
     systems.default = defaultObj.default;
   }
-  const translationRows = yamlData.translations ?? [];
   const neededSystems = /* @__PURE__ */ new Set();
   for (const row of translationRows) {
     if (!row) continue;
@@ -1373,7 +1407,7 @@ async function loadTranslationSystems() {
   return systems;
 }
 var translationSystems = await loadTranslationSystems();
-var translationAliases = parseTranslationRows(yamlData.translations ?? []).aliases;
+var translationAliases = parseTranslationRows(translationRows).aliases;
 var translationsClass = {
   aliases: {
     ...translationAliases,
@@ -1386,8 +1420,9 @@ var translationsClass = {
     ...translationSystems
   }
 };
-var nextPattern = yamlData.variables.next ? buildVariablePatternsForRegexp(
-  expandVariableCharacters(yamlData.variables.next),
+var nextVariable = getVariable("next");
+var nextPattern = nextVariable.length > 0 ? buildVariablePatternsForRegexp(
+  expandVariableCharacters(nextVariable),
   normalizeMode,
   replaceSpacesWith,
   trailingDotsMode
@@ -1395,31 +1430,31 @@ var nextPattern = yamlData.variables.next ? buildVariablePatternsForRegexp(
 function buildMatchEndSplitPattern() {
   const matchEndMode = "as_is";
   const title = buildVariablePattern(
-    expandVariableCharacters(yamlData.variables.title),
+    expandVariableCharacters(getVariable("title")),
     normalizeMode,
     replaceSpacesWith,
     matchEndMode
   );
   const ff = buildVariablePatternsForRegexp(
-    expandVariableCharacters(yamlData.variables.ff),
+    expandVariableCharacters(getVariable("ff")),
     normalizeMode,
     replaceSpacesWith,
     matchEndMode
   );
   const ab = buildVariablePatternsForRegexp(
-    expandVariableCharacters(yamlData.variables.ab),
+    expandVariableCharacters(getVariable("ab")),
     normalizeMode,
     replaceSpacesWith,
     matchEndMode
   );
   const control = buildVariablePatternsForRegexp(
-    expandVariableCharacters(yamlData.variables.match_end_split_control),
+    expandVariableCharacters(getVariable("match_end_split_control")),
     normalizeMode,
     replaceSpacesWith,
     matchEndMode
   );
   const final = buildVariablePatternsForRegexp(
-    expandVariableCharacters(yamlData.variables.match_end_split_final),
+    expandVariableCharacters(getVariable("match_end_split_final")),
     normalizeMode,
     replaceSpacesWith,
     matchEndMode
@@ -1439,31 +1474,35 @@ function buildMatchEndSplitPattern() {
   return parts.join("|");
 }
 function buildBookRegexpFromPattern(patternString) {
-  const beforeChars = yamlData.options.before_book_allowed_characters.regexp;
-  const afterChars = yamlData.options.after_book_allowed_characters.regexp;
-  const beforeEveryBook = yamlData.options.before_every_book.regexp;
-  const afterEveryBook = yamlData.options.after_every_book.regexp;
+  const beforeChars = getOptionRegexp("before_book_allowed_characters");
+  const afterChars = getOptionRegexp("after_book_allowed_characters");
+  const beforeEveryBook = getOptionRegexp("before_every_book");
+  const afterEveryBook = getOptionRegexp("after_every_book");
   const regexPattern = `(?:^|(?<=${beforeChars}))${beforeEveryBook}(${patternString})${afterEveryBook}(?:(?=${afterChars})|$)`;
   return new RegExp(regexPattern, "giu");
 }
 function buildOrdinalPsalmsRegexp() {
-  const ordinals = yamlData.ordinals;
-  if (!Array.isArray(ordinals)) return null;
+  const ordinals = Array.isArray(yamlData.ordinals) ? yamlData.ordinals : [];
   let texts = [];
   let betweenRegexp = "\\s+";
   const ordinalSpecs = [];
   let defaultAfter = [];
   for (const item of ordinals) {
-    if (item?.texts) {
-      texts = item.texts.map((text) => String(text));
+    if (!isRecord2(item)) continue;
+    const textsRaw = item.texts;
+    if (Array.isArray(textsRaw)) {
+      texts = textsRaw.map((text) => String(text));
     }
-    if (item?.between?.regexp) {
-      betweenRegexp = String(item.between.regexp);
+    const between = item.between;
+    if (isRecord2(between) && typeof between.regexp === "string") {
+      betweenRegexp = between.regexp;
     }
-    if (item?.after) {
-      const after = (Array.isArray(item.after) ? item.after : [item.after]).map((v) => String(v));
-      if (item?.numbers) {
-        const numbers = (Array.isArray(item.numbers) ? item.numbers : [item.numbers]).map((v) => Number(v));
+    const afterRaw = item.after;
+    if (afterRaw != null) {
+      const after = (Array.isArray(afterRaw) ? afterRaw : [afterRaw]).map((v) => String(v));
+      const numbersRaw = item.numbers;
+      if (numbersRaw != null) {
+        const numbers = (Array.isArray(numbersRaw) ? numbersRaw : [numbersRaw]).map((v) => Number(v));
         ordinalSpecs.push({ numbers, after });
       } else {
         defaultAfter = after;
@@ -1515,19 +1554,19 @@ function buildPassageComponentsPattern() {
     if (pattern) parts.push(pattern);
   };
   add(buildVariablePatternsForRegexp(
-    expandVariableCharacters(yamlData.variables.chapter),
+    expandVariableCharacters(getVariable("chapter")),
     normalizeMode,
     replaceSpacesWith,
     trailingDotsMode
   ));
   add(buildVariablePatternsForRegexp(
-    expandVariableCharacters(yamlData.variables.verse),
+    expandVariableCharacters(getVariable("verse")),
     normalizeMode,
     replaceSpacesWith,
     trailingDotsMode
   ));
   add(buildVariablePatternsForRegexp(
-    expandVariableCharacters(yamlData.variables.ff),
+    expandVariableCharacters(getVariable("ff")),
     normalizeMode,
     replaceSpacesWith,
     trailingDotsMode
@@ -1536,13 +1575,13 @@ function buildPassageComponentsPattern() {
     add(nextPattern);
   }
   add(buildVariablePatternsForRegexp(
-    expandVariableCharacters(yamlData.variables.and),
+    expandVariableCharacters(getVariable("and")),
     normalizeMode,
     replaceSpacesWith,
     trailingDotsMode
   ));
   add(buildVariablePatternsForRegexp(
-    expandVariableCharacters(yamlData.variables.to),
+    expandVariableCharacters(getVariable("to")),
     normalizeMode,
     replaceSpacesWith,
     trailingDotsMode
@@ -1552,15 +1591,15 @@ function buildPassageComponentsPattern() {
 }
 function buildEscapedPassagePattern() {
   const prePassageAllowed = "[^\\x1e\\x1f\\p{L}\\p{N}]";
-  const validCharacters = yamlData.options.after_book_allowed_characters.regexp;
+  const validCharacters = getOptionRegexp("after_book_allowed_characters");
   const title = buildVariablePattern(
-    expandVariableCharacters(yamlData.variables.title),
+    expandVariableCharacters(getVariable("title")),
     normalizeMode,
     replaceSpacesWith,
     trailingDotsMode
   );
   const ab = buildVariablePatternsForRegexp(
-    expandVariableCharacters(yamlData.variables.ab),
+    expandVariableCharacters(getVariable("ab")),
     normalizeMode,
     replaceSpacesWith,
     trailingDotsMode
@@ -1595,31 +1634,31 @@ function buildEscapedPassagePattern() {
 }
 var psOrdinalRegexp = buildOrdinalPsalmsRegexp();
 var firstPattern = decodeAsciiHex(buildVariablePattern(
-  expandVariableCharacters(yamlData.variables.first),
+  expandVariableCharacters(getVariable("first")),
   normalizeMode,
   replaceSpacesWith,
   trailingDotsMode
 ));
 var secondPattern = decodeAsciiHex(buildVariablePattern(
-  expandVariableCharacters(yamlData.variables.second),
+  expandVariableCharacters(getVariable("second")),
   normalizeMode,
   replaceSpacesWith,
   trailingDotsMode
 ));
 var thirdPattern = decodeAsciiHex(buildVariablePattern(
-  expandVariableCharacters(yamlData.variables.third),
+  expandVariableCharacters(getVariable("third")),
   normalizeMode,
   replaceSpacesWith,
   trailingDotsMode
 ));
 var andPattern = decodeAsciiHex(buildVariablePattern(
-  expandVariableCharacters(yamlData.variables.and),
+  expandVariableCharacters(getVariable("and")),
   normalizeMode,
   replaceSpacesWith,
   trailingDotsMode
 ));
 var toPatternRegexp = decodeAsciiHex(buildVariablePattern(
-  expandVariableCharacters(yamlData.variables.to),
+  expandVariableCharacters(getVariable("to")),
   normalizeMode,
   replaceSpacesWith,
   trailingDotsMode
@@ -1639,9 +1678,9 @@ var regexClass = {
   match_end_split: new RegExp(decodeAsciiHex(buildMatchEndSplitPattern()), "gi"),
   control: /[\x1e\x1f]/g,
   escaped_passage: new RegExp(buildEscapedPassagePattern(), "giu"),
-  pre_book: buildPreBook(yamlData.options.before_book_allowed_characters.regexp),
-  pre_number_book: buildPreNumberBook(yamlData.options.before_book_allowed_characters.regexp),
-  post_book: buildPostBook(yamlData.options.after_book_allowed_characters.regexp),
+  pre_book: buildPreBook(getOptionRegexp("before_book_allowed_characters")),
+  pre_number_book: buildPreNumberBook(getOptionRegexp("before_book_allowed_characters")),
+  post_book: buildPostBook(getOptionRegexp("after_book_allowed_characters")),
   all_books: [
     {
       osis: ["Ps"],
@@ -1727,17 +1766,17 @@ function decodeAsciiHex(pattern) {
     return match;
   });
 }
-var andPatternBase = decodeAsciiHex(buildGrammarPattern(yamlData.variables.and, true));
+var andPatternBase = decodeAsciiHex(buildGrammarPattern(getVariable("and"), true));
 var andPatternWithAmp = andPatternBase ? `(?:${andPatternBase}|&)` : "&";
-var chapterPattern = decodeAsciiHex(buildGrammarPattern(yamlData.variables.chapter, true) || "chapter");
-var versePattern = decodeAsciiHex(buildGrammarPattern(yamlData.variables.verse, true) || "verse");
-var ffPattern = decodeAsciiHex(buildGrammarPattern(yamlData.variables.ff) || "ff");
-var titlePattern = decodeAsciiHex(buildGrammarPattern(yamlData.variables.title) || "title");
-var toPattern = decodeAsciiHex(buildGrammarPattern(yamlData.variables.to) || "-");
-var nextPatternGrammar = yamlData.variables.next ? decodeAsciiHex(buildGrammarPattern(yamlData.variables.next)) : "\\x1f\\x1f\\x1f";
+var chapterPattern = decodeAsciiHex(buildGrammarPattern(getVariable("chapter"), true) || "chapter");
+var versePattern = decodeAsciiHex(buildGrammarPattern(getVariable("verse"), true) || "verse");
+var ffPattern = decodeAsciiHex(buildGrammarPattern(getVariable("ff")) || "ff");
+var titlePattern = decodeAsciiHex(buildGrammarPattern(getVariable("title")) || "title");
+var toPattern = decodeAsciiHex(buildGrammarPattern(getVariable("to")) || "-");
+var nextPatternGrammar = nextVariable.length > 0 ? decodeAsciiHex(buildGrammarPattern(nextVariable)) : "\\x1f\\x1f\\x1f";
 var abPatternRaw = decodeAsciiHex(
   buildVariablePatternsForRegexp(
-    expandVariableCharacters(stripRegexpAfter(yamlData.variables.ab)),
+    expandVariableCharacters(stripRegexpAfter(getVariable("ab"))),
     normalizeMode,
     grammarSpaces,
     "as_is"

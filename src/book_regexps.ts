@@ -1,9 +1,10 @@
-import { buildRecursive } from "./regexps.ts";
+import { buildRecursive } from "./regexps";
 
 type ProcessedBook = {
 	osis: string | string[];
 	texts: TextSpec[];
 	hasBefore: boolean;
+	sourceId?: number;
 };
 
 type TextSpec = {
@@ -21,16 +22,22 @@ type BookRegexpObject = {
 const testamentMap = makeValidOsises();
 
 type ExpandCharacters = Record<string, string[]>;
+type ExpandCharacterEntry = {
+	character?: unknown;
+	expand?: unknown;
+};
 
-function normalizeExpandCharacters(options: Record<string, any> | undefined): ExpandCharacters {
+function normalizeExpandCharacters(options: Record<string, unknown> | undefined): ExpandCharacters {
 	const out: ExpandCharacters = {};
 	if (!options) return out;
 
-	const entries = Array.isArray(options.expand_characters) ? options.expand_characters : [];
+	const entries = Array.isArray(options.expand_characters)
+		? (options.expand_characters as ExpandCharacterEntry[])
+		: [];
 	for (const entry of entries) {
 		if (!entry || typeof entry !== "object") continue;
 		const key = String(entry.character ?? "");
-		const values = Array.isArray(entry.expand) ? entry.expand.map((v: any) => String(v)) : [];
+		const values = Array.isArray(entry.expand) ? entry.expand.map((v) => String(v)) : [];
 		if (!key || values.length === 0) continue;
 		const set = new Set<string>(values);
 		set.add(key);
@@ -38,7 +45,7 @@ function normalizeExpandCharacters(options: Record<string, any> | undefined): Ex
 	}
 
 	const alternateApostrophes = Array.isArray(options.alternate_straight_apostrophe_characters)
-		? options.alternate_straight_apostrophe_characters.map((v: any) => String(v))
+		? options.alternate_straight_apostrophe_characters.map((v) => String(v))
 		: [];
 	if (alternateApostrophes.length > 0) {
 		const set = new Set<string>(out["'"] ?? ["'"]);
@@ -201,12 +208,13 @@ function escapeBookLiteral(
 	text: string,
 	replaceSpacesWith: { regexp: string; replacement: string } | null
 ): string {
+	const escapeRegex = (value: string): string => value.replace(/[\\^$.*+?()[\]{}|]/g, "\\$&");
 	let out = "";
 	for (const ch of text) {
 		if (ch === " " && replaceSpacesWith) {
 			out += replaceSpacesWith.replacement;
 		} else {
-			out += RegExp.escape(ch);
+			out += escapeRegex(ch);
 		}
 	}
 	return out;

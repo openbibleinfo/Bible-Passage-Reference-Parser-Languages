@@ -6,16 +6,16 @@ type BookEntry = {
 
 type BookOsisObject = {
 	osis: string;
-	before?: string;
-	after?: string;
+	before?: string | string[];
+	after?: string | string[];
 	join?: string;
 };
 
 type MergedLanguageData = {
-	variables: Record<string, any>;
-	ordinals?: any;
-	options: Record<string, any>;
-	books: any[];
+	variables: Record<string, unknown>;
+	ordinals?: unknown;
+	options: Record<string, unknown>;
+	books: unknown[];
 };
 
 type ExpandedBook = {
@@ -40,18 +40,24 @@ type TextSpec = {
 	normalize?: "none";
 };
 
-function normalizeBookTextItem(item: any): TextSpec {
+type RawBookEntry = Record<string, unknown>;
+
+function isRecord(value: unknown): value is Record<string, unknown> {
+	return Boolean(value) && typeof value === "object";
+}
+
+function normalizeBookTextItem(item: unknown): TextSpec {
 	if (typeof item === "string" || typeof item === "number") {
 		return { text: String(item) };
 	}
-	if (item && typeof item === "object" && "text" in item) {
-		const text = String((item as any).text);
+	if (isRecord(item) && "text" in item) {
+		const text = String(item.text);
 		const keys = Object.keys(item);
 		const extraKeys = keys.filter((k) => k !== "text" && k !== "normalize");
 		if (extraKeys.length > 0) {
 			throw new Error(`Unsupported book text item: ${JSON.stringify(item)}`);
 		}
-		const normalize = (item as any).normalize;
+		const normalize = item.normalize;
 		if (normalize == null) {
 			return { text };
 		}
@@ -63,7 +69,7 @@ function normalizeBookTextItem(item: any): TextSpec {
 	throw new Error(`Invalid book text item: ${JSON.stringify(item)}`);
 }
 
-function normalizeBookTexts(raw: any): TextSpec[] {
+function normalizeBookTexts(raw: unknown): TextSpec[] {
 	if (!Array.isArray(raw)) {
 		throw new Error(`Invalid book texts: ${JSON.stringify(raw)}`);
 	}
@@ -77,6 +83,24 @@ function textSpecKey(spec: TextSpec): string {
 function addTextSpec(map: Map<string, TextSpec>, spec: TextSpec) {
 	const key = textSpecKey(spec);
 	if (!map.has(key)) map.set(key, spec);
+}
+
+function normalizeBookEntry(raw: unknown): BookEntry | null {
+	if (!isRecord(raw)) return null;
+	const rawTexts = raw.texts ?? raw.names;
+	if (rawTexts == null) {
+		throw new Error("Book entry missing texts");
+	}
+	const texts = normalizeBookTexts(rawTexts);
+	const osis = raw.osis;
+	if (!Array.isArray(osis) && typeof osis !== "string") {
+		throw new Error(`Invalid book osis: ${JSON.stringify(osis)}`);
+	}
+	return {
+		osis: osis as string | string[] | BookOsisObject[],
+		texts,
+		combine: raw.combine === false ? false : true
+	};
 }
 
 export function expandBookNames(
@@ -181,24 +205,13 @@ export function mergeBooks(yamlData: MergedLanguageData): ProcessedBook[] {
 	
 	// First pass: expand all book names
 	let sourceId = 0;
-	for (const bookEntry of yamlData.books) {
+	for (const bookEntryRaw of yamlData.books) {
 		// Handle special start_language marker
-		if (bookEntry.start_language) {
+		if (isRecord(bookEntryRaw) && bookEntryRaw.start_language) {
 			continue;
 		}
-		
-		const rawTexts = bookEntry.texts ?? bookEntry.names;
-		if (rawTexts == null) {
-			throw new Error("Book entry missing texts");
-		}
-		const texts = normalizeBookTexts(rawTexts);
-		const book = {
-			...bookEntry,
-			texts
-		} as BookEntry;
-		if (!book.texts) {
-			throw new Error("Book entry missing texts");
-		}
+		const book = normalizeBookEntry(bookEntryRaw);
+		if (!book) continue;
 		const expanded = expandBookNames(book, sourceId, trailingDotsMode);
 		expandedBooks.push(...expanded);
 		sourceId += 1;

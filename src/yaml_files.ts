@@ -1,29 +1,31 @@
 import { readFile } from "fs/promises";
 import YAML from "yaml";
 
+type UnknownRecord = Record<string, unknown>;
+
 type LanguageData = {
-	variables?: Record<string, any>;
-	ordinals?: any;
-	options?: Record<string, any>;
-	books?: any[];
-	translations?: any[];
-}
+	variables?: UnknownRecord;
+	ordinals?: unknown;
+	options?: UnknownRecord;
+	books?: unknown[];
+	translations?: unknown[];
+};
 
 type MergedLanguageData = {
-	variables: Record<string, any>;
-	ordinals?: any;
-	options: Record<string, any>;
-	books: any[];
-	translations?: any[];
-}
+	variables: UnknownRecord;
+	ordinals?: unknown;
+	options: UnknownRecord;
+	books: unknown[];
+	translations?: unknown[];
+};
 
 type GetYamlDataOptions = {
 	cross?: boolean;
 };
 
-function dedupeArrayItems(items: any[]): any[] {
+function dedupeArrayItems<T>(items: T[]): T[] {
 	const seen = new Set<string>();
-	const out: any[] = [];
+	const out: T[] = [];
 	for (const item of items) {
 		const key = JSON.stringify(item);
 		if (seen.has(key)) continue;
@@ -33,7 +35,7 @@ function dedupeArrayItems(items: any[]): any[] {
 	return out;
 }
 
-function mergeVariables(base: Record<string, any>, incoming: Record<string, any>) {
+function mergeVariables(base: UnknownRecord, incoming: UnknownRecord): void {
 	for (const [key, incomingValue] of Object.entries(incoming)) {
 		if (!(key in base)) {
 			base[key] = incomingValue;
@@ -48,7 +50,7 @@ function mergeVariables(base: Record<string, any>, incoming: Record<string, any>
 	}
 }
 
-function mergeCrossOptions(base: Record<string, any>, incoming?: Record<string, any>) {
+function mergeCrossOptions(base: UnknownRecord, incoming?: UnknownRecord): void {
 	if (!incoming) return;
 	const additiveKeys = new Set([
 		"expand_characters",
@@ -61,7 +63,7 @@ function mergeCrossOptions(base: Record<string, any>, incoming?: Record<string, 
 		if (!Array.isArray(incomingValue)) {
 			continue;
 		}
-		const current = Array.isArray(base[key]) ? base[key] : [];
+		const current = Array.isArray(base[key]) ? (base[key] as unknown[]) : [];
 		base[key] = dedupeArrayItems([...current, ...incomingValue]);
 	}
 }
@@ -94,7 +96,8 @@ export async function getYamlData(langs: string[], langDir: string, config: GetY
 	for (let i = 0; i < langs.length; i++) {
 		const lang = langs[i];
 		const fileContent = await getFileContent(`${langDir}/${lang}.yaml`);
-		const data: LanguageData = YAML.parse(fileContent);
+		const parsed = YAML.parse(fileContent) as unknown;
+		const data: LanguageData = (parsed && typeof parsed === "object") ? (parsed as LanguageData) : {};
 		
 		if (i === 0) {
 			// First language sets all variables and options
@@ -119,7 +122,8 @@ export async function getYamlData(langs: string[], langDir: string, config: GetY
 			}
 			if (data.ordinals) {
 				const current = Array.isArray(result.ordinals) ? result.ordinals : [];
-				result.ordinals = dedupeArrayItems([...current, ...data.ordinals]);
+				const incoming = Array.isArray(data.ordinals) ? data.ordinals : [];
+				result.ordinals = dedupeArrayItems([...current, ...incoming]);
 			}
 			if (data.translations) {
 				const current = Array.isArray(result.translations) ? result.translations : [];
