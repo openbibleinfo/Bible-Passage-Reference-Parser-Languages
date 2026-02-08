@@ -6,8 +6,8 @@ var bcv_regexps = class {
     this.first = /1\.?\s*/;
     this.second = /2\.?\s*/;
     this.third = /3\.?\s*/;
-    this.range_and = /(?:[&\u2013\u2014-]|\x26\.?\s*|(?:\x2d\.?\s*|–\.?\s*|—\.?\s*))/;
-    this.range_only = /(?:[\u2013\u2014-]|(?:\x2d\.?\s*|–\.?\s*|—\.?\s*))/;
+    this.range_and = /(?:[&\u2013\u2014-]|&\.?\s*|(?:-\.?\s*|–\.?\s*|—\.?\s*))/;
+    this.range_only = /(?:[\u2013\u2014-]|(?:-\.?\s*|–\.?\s*|—\.?\s*))/;
     this.match_end_split = /\d\W*(?:title)|\d\W*(?:ff)(?:[\s*]*\.)?|\d[\s*]*(?:(?:[a-e](?!\w)))|\x1e(?:[\s*]*[)\]\uff09])?|[\d\x1f]/gi;
     this.control = /[\x1e\x1f]/g;
     this.escaped_passage = /(?:^|[^\x1e\x1f\p{L}\p{N}])((?:(?:ch(?:apters?|a?pts?\.?|a?p?s?\.?)?\s*\d+\s*(?:[\u2013\u2014\-]|through|thru|to)\s*\d+\s*(?:from|of|in)(?:\s+the\s+book\s+of)?\s*)|(?:ch(?:apters?|a?pts?\.?|a?p?s?\.?)?\s*\d+\s*(?:from|of|in)(?:\s+the\s+book\s+of)?\s*)|(?:\d+(?:th|nd|st)\s*ch(?:apter|a?pt\.?|a?p?\.?)?\s*(?:from|of|in)(?:\s+the\s+book\s+of)?\s*))?\x1f(\d+)(?:\/\d+)?\x1f(?:\/\d+\x1f|[\d\s\.?:,;\x1e\x1f&\(\)（）\[\]\/"’'\*=~\-–—]|title\.?\s*(?![a-z])|(?:(?:chapter\.?\s*)|(?:verse\.?\s*)|(?:ff\.?\s*)|(?:&\.?\s*)|(?:[\-–—]\.?\s*))|(?:[a-e]\.?\s*(?!\w))(?!\w)|$)+)/giu;

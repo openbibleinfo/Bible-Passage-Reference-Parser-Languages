@@ -1,4 +1,5 @@
 import { access } from "fs/promises";
+import { langCodeToFileBase } from "./lang_filenames";
 
 type BuildArgs = {
 	langs: string[];
@@ -82,7 +83,7 @@ export async function getLanguageArgs(langDir: string): Promise<BuildArgs> {
 	}
 
 	for (const lang of langs) {
-		await doesFileExist(`${langDir}/${lang}.yaml`);
+		await doesFileExist(`${langDir}/${langCodeToFileBase(lang)}.yaml`);
 	}
 
 	if (cross) {

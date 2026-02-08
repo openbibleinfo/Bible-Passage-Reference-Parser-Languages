@@ -4,6 +4,7 @@ import { mergeBooks } from "./books";
 import { buildBookRegexps } from "./book_regexps";
 import { buildRecursive, buildTranslationPattern, buildVariablePattern, buildVariablePatternsForRegexp } from "./regexps";
 import { parseTranslationRows, parseTranslationSystemsYaml } from "./translations";
+import { langCodeToFileBase } from "./lang_filenames";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
@@ -945,9 +946,10 @@ const bookVariants = processedBooks.map((book) => {
 });
 const yamlOutput = YAML.stringify(bookVariants, { lineWidth: 0 });
 const outputLang = buildArgs.outputLang;
+const outputFileBase = langCodeToFileBase(outputLang);
 const jsOutput = `${regexpsClassOutput}\n\n${translationsClassOutput}\n\n${grammarOptionsOutput}${bundleOutput}`;
 
 await mkdir(namesDir, { recursive: true });
 await mkdir(langOutputDir, { recursive: true });
-await writeFile(resolve(namesDir, `${outputLang}.yaml`), yamlOutput, "utf8");
-await writeFile(resolve(langOutputDir, `${outputLang}.js`), jsOutput, "utf8");
+await writeFile(resolve(namesDir, `${outputFileBase}.yaml`), yamlOutput, "utf8");
+await writeFile(resolve(langOutputDir, `${outputFileBase}.js`), jsOutput, "utf8");

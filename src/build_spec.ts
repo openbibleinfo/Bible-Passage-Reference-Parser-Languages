@@ -4,6 +4,7 @@ import path from "path";
 import YAML from "yaml";
 import { fileURLToPath } from "url";
 import { bcv_parser } from "bible-passage-reference-parser/esm/bcv_parser.js";
+import { fileBaseToLangCode, langCodeToFileBase } from "./lang_filenames";
 
 type UnknownRecord = Record<string, unknown>;
 type Lines = string[];
@@ -455,18 +456,18 @@ async function loadLangYaml(dataPath: string): Promise<{ dataFileExists: boolean
   }
 }
 
-async function loadPreferredNames(langCode: string): Promise<Map<string, Set<string>>> {
+async function loadPreferredNames(fileBase: string): Promise<Map<string, Set<string>>> {
   try {
-    const preferredRaw = await fs.readFile(path.join(preferredDir, `${langCode}.yaml`), "utf8");
+    const preferredRaw = await fs.readFile(path.join(preferredDir, `${fileBase}.yaml`), "utf8");
     return collectPreferredNames(YAML.parse(preferredRaw));
   } catch {
     return new Map<string, Set<string>>();
   }
 }
 
-async function loadLangModule(langCode: string): Promise<ParserLangModule | null> {
+async function loadLangModule(fileBase: string): Promise<ParserLangModule | null> {
   try {
-    return await import(path.join(repoRoot, "lang", `${langCode}.js`)) as ParserLangModule;
+    return await import(path.join(repoRoot, "lang", `${fileBase}.js`)) as ParserLangModule;
   } catch {
     return null;
   }
@@ -515,7 +516,8 @@ async function main(): Promise<void> {
   const argLang = process.argv[2];
   let files = (await fs.readdir(namesDir)).filter((f) => f.endsWith(".yaml")).sort();
   if (argLang) {
-    files = files.filter((f) => path.basename(f, ".yaml") === argLang);
+    const fileBase = langCodeToFileBase(argLang);
+    files = files.filter((f) => path.basename(f, ".yaml") === fileBase);
     if (files.length === 0) {
       throw new Error(`No language yaml found for ${argLang}`);
     }
@@ -529,21 +531,22 @@ async function main(): Promise<void> {
   const total = files.length;
   for (let i = 0; i < files.length; i += 1) {
     const file = files[i];
-    const langCode = path.basename(file, ".yaml");
+    const fileBase = path.basename(file, ".yaml");
+    const langCode = fileBaseToLangCode(fileBase);
     if (!argLang) {
       console.log(`[${i + 1} / ${total}] ${langCode}`);
     }
 
     const yamlPath = path.join(namesDir, file);
-    const outPath = path.join(testDir, `${langCode}.spec.js`);
+    const outPath = path.join(testDir, `${fileBase}.spec.js`);
     const raw = await fs.readFile(yamlPath, "utf8");
     const data = YAML.parse(raw) as unknown;
     const existingNamesByOsis = getExistingNamesByOsis(data, allowedOsis);
 
-    const dataPath = path.join(dataDir, `${langCode}.yaml`);
+    const dataPath = path.join(dataDir, `${fileBase}.yaml`);
     const { dataFileExists, customTests, langYaml } = await loadLangYaml(dataPath);
     const mergedData = getMergedData(defaultsYaml, langYaml);
-    const langModule = await loadLangModule(langCode);
+    const langModule = await loadLangModule(fileBase);
 
     const isCrossLike = langCode.length !== 3 || !dataFileExists;
     const shouldIncludeSample = isCrossLike && langModule ? makeCrossSampleFilter(langModule) : null;
@@ -551,7 +554,7 @@ async function main(): Promise<void> {
     const lines: Lines = [];
     lines.push("\"use strict\";");
     lines.push("import { bcv_parser } from \"bible-passage-reference-parser/esm/bcv_parser.js\";");
-    lines.push(`import * as lang from "../lang/${langCode}.js";`);
+    lines.push(`import * as lang from "../lang/${fileBase}.js";`);
     lines.push("");
 
     if (Array.isArray(data)) {
@@ -567,7 +570,7 @@ async function main(): Promise<void> {
       }
     }
 
-    const preferredNames = await loadPreferredNames(langCode);
+    const preferredNames = await loadPreferredNames(fileBase);
     addPreferredTests(lines, langCode, preferredNames, existingNamesByOsis, allowedOsis);
 
     if (!isCrossLike && langModule) {

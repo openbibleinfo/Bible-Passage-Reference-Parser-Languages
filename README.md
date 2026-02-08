@@ -196,8 +196,8 @@ tests:
 ## Notes
 
 - `lang/` can be regenerated at any time; it is not a source of truth.
-- This code does not yet support combining languages.
 - Language codes are ISO 639-3 (e.g., `eng`, `zho`).
+- Windows-reserved 3-letter basenames (`con`, `prn`, `aux`, `nul`) are stored on disk with a trailing underscore (for example, logical code `con` maps to `con_.yaml` / `con_.js` / `con_.spec.js`).
 
 ## ISO 639-2 to ISO 639-3 mapping
 

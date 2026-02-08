@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 import { cpus } from "node:os";
+import { fileBaseToLangCode } from "./lang_filenames";
 
 type CliArgs = {
 	jobs: number;
@@ -24,10 +25,12 @@ const entries = await readdir(dataDir, { withFileTypes: true });
 const langFiles = entries
 	.filter((entry) => entry.isFile())
 	.map((entry) => entry.name)
-	.filter((name) => /^\w{3}\.yaml$/i.test(name));
+	.filter((name) => /^[A-Za-z0-9_]+\.yaml$/i.test(name))
+	.filter((name) => name.toLowerCase() !== "_defaults.yaml")
+	.filter((name) => fileBaseToLangCode(name.replace(/\.yaml$/i, "")).length === 3);
 
 if (langFiles.length === 0) {
-	console.error(`No language files matching /\\w{3}\\.yaml/ found in ${dataDir}`);
+	console.error(`No language files matching language-code yaml naming found in ${dataDir}`);
 	process.exit(1);
 }
 
@@ -68,7 +71,8 @@ async function runNext(): Promise<void> {
 	nextIndex += 1;
 	if (index >= total) return;
 	const file = langFiles[index];
-	const lang = file.slice(0, 3);
+	const lang = fileBaseToLangCode(file.replace(/\.yaml$/i, ""));
+	const specBase = file.replace(/\.yaml$/i, "");
 	let runError: Error | null = null;
 	try {
 		if (!args.testOnly) {
@@ -79,7 +83,7 @@ async function runNext(): Promise<void> {
 		await execFileAsync("node", [buildSpecPath, lang], {
 			maxBuffer: 50 * 1024 * 1024
 		});
-		await execFileAsync("npx", ["jasmine", resolve(repoRoot, "test", `${lang}.spec.js`), "--random=false"], {
+		await execFileAsync("npx", ["jasmine", resolve(repoRoot, "test", `${specBase}.spec.js`), "--random=false"], {
 			maxBuffer: 50 * 1024 * 1024
 		});
 	} catch (error: unknown) {

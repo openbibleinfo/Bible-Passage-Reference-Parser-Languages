@@ -1,5 +1,6 @@
 import { readFile } from "fs/promises";
 import YAML from "yaml";
+import { langCodeToFileBase } from "./lang_filenames";
 
 type UnknownRecord = Record<string, unknown>;
 
@@ -95,7 +96,7 @@ export async function getYamlData(langs: string[], langDir: string, config: GetY
 	// Process each language in order
 	for (let i = 0; i < langs.length; i++) {
 		const lang = langs[i];
-		const fileContent = await getFileContent(`${langDir}/${lang}.yaml`);
+		const fileContent = await getFileContent(`${langDir}/${langCodeToFileBase(lang)}.yaml`);
 		const parsed = YAML.parse(fileContent) as unknown;
 		const data: LanguageData = (parsed && typeof parsed === "object") ? (parsed as LanguageData) : {};
 		

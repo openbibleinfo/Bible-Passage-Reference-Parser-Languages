@@ -5,6 +5,7 @@ import { dirname, resolve } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import yaml from "yaml";
 import { bcv_parser } from "bible-passage-reference-parser/esm/bcv_parser.js";
+import { langCodeToFileBase } from "./lang_filenames";
 
 type FuzzArgs = {
 	lang: string;
@@ -123,7 +124,8 @@ function randomUnicodeChar(rand: RandFn): string {
 }
 
 async function loadBookTokens(lang: string): Promise<string[]> {
-	const yamlPath = resolve(repoRoot, "book_names", "all", `${lang}.yaml`);
+	const fileBase = langCodeToFileBase(lang);
+	const yamlPath = resolve(repoRoot, "book_names", "all", `${fileBase}.yaml`);
 	if (!existsSync(yamlPath)) {
 		return [];
 	}
@@ -215,7 +217,7 @@ function makeFuzzer(lang: string, books: string[], rand: RandFn): (maxTokens: nu
 }
 
 const args = parseArgs(process.argv.slice(2));
-const langPath = resolve(repoRoot, "lang", `${args.lang}.js`);
+const langPath = resolve(repoRoot, "lang", `${langCodeToFileBase(args.lang)}.js`);
 if (!existsSync(langPath)) {
 	console.error(`Language output file does not exist: ${langPath}`);
 	console.error(`Build it first with: node bin/build_lang.js ${args.lang}`);
