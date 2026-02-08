@@ -1,6 +1,6 @@
 {
   "name": "bible-passage-reference-parser-languages",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Language data files for bible-passage-reference-parser.",
   "type": "module",
   "main": "./loader.js",
